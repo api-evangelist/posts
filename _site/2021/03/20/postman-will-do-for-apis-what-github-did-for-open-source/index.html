@@ -1,0 +1,2587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Postman Will Do for APIs What Github Did for Open Source
+    </title>        
+    <meta name="description" content="Managing API operations." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      (() => {
+        'use strict';
+  
+        const getStoredTheme = () => localStorage.getItem('theme');
+        const setStoredTheme = (theme) => localStorage.setItem('theme', theme);
+  
+        const getPreferredTheme = () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme) {
+            return storedTheme;
+          }
+  
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        };
+  
+        const setTheme = (theme) => {
+          if (theme === 'auto') {
+            document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          } else {
+            document.documentElement.setAttribute('data-bs-theme', theme);
+          }
+        };
+  
+        setTheme(getPreferredTheme());
+  
+        const showActiveTheme = (theme, focus = false) => {
+          const themeSwitchers = document.querySelectorAll('[data-bs-theme-switcher]');
+  
+          themeSwitchers.forEach((themeSwitcher) => {
+            const themeSwitcherIcon = themeSwitcher.querySelector('.material-symbols-outlined');
+            themeSwitcherIcon.innerHTML = theme === 'light' ? 'light_mode' : theme === 'dark' ? 'dark_mode' : 'contrast';
+  
+            if (focus) {
+              themeSwitcher.focus();
+            }
+          });
+  
+          document.querySelectorAll('[data-bs-theme-value]').forEach((element) => {
+            element.classList.remove('active');
+            element.setAttribute('aria-pressed', 'false');
+  
+            if (element.getAttribute('data-bs-theme-value') === theme) {
+              element.classList.add('active');
+              element.setAttribute('aria-pressed', 'true');
+            }
+          });
+        };
+  
+        const refreshCharts = () => {
+          const charts = document.querySelectorAll('.chart-canvas');
+  
+          charts.forEach((chart) => {
+            const chartId = chart.getAttribute('id');
+            const instance = Chart.getChart(chartId);
+  
+            if (!instance) {
+              return;
+            }
+  
+            if (instance.options.scales.y) {
+              instance.options.scales.y.grid.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-border-color');
+              instance.options.scales.y.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+  
+            if (instance.options.scales.x) {
+              instance.options.scales.x.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+  
+            if (instance.options.elements.arc) {
+              instance.options.elements.arc.borderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+              instance.options.elements.arc.hoverBorderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+            }
+  
+            instance.update();
+          });
+        };
+  
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme !== 'light' && storedTheme !== 'dark') {
+            setTheme(getPreferredTheme());
+          }
+        });
+  
+        window.addEventListener('DOMContentLoaded', () => {
+          showActiveTheme(getPreferredTheme());
+  
+          document.querySelectorAll('[data-bs-theme-value]').forEach((toggle) => {
+            toggle.addEventListener('click', (e) => {
+              e.preventDefault();
+              const theme = toggle.getAttribute('data-bs-theme-value');
+              setStoredTheme(theme);
+              setTheme(theme);
+              showActiveTheme(theme, true);
+              refreshCharts();
+            });
+          });
+        });
+      })();
+    </script>
+
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Postman Will Do for APIs What Github Did for Open Source by The API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image"  content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/braceros-domingo-ulloa-turing-front-view.jpg">    
+  
+     
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+
+    <link rel="stylesheet" href="/assets/css/choices.css" />
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+  
+    <!-- Fonts and icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+  
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
+  
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="/assets/css/theme.bundle.css" />
+  
+    <script src="/assets/js/customize.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/showdown.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/turndown.js"></script>
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+      function getQueryVariable(variable) {
+          var query = window.location.search.substring(1);
+          var vars = query.split('&');
+          for (var i = 0; i < vars.length; i++) {
+              var pair = vars[i].split('=');
+              if (decodeURIComponent(pair[0]) == variable) {
+                  return decodeURIComponent(pair[1]);
+              }
+          }
+          console.log('Query variable %s not found', variable);
+      }       
+    </script>
+
+  <link rel="stylesheet" data-name="vs/editor/editor.main" href="/assets/js/monaco-editor/min/vs/editor/editor.main.css" />    
+  <script src="/assets/js/js-yaml.min.js"></script>    
+
+  <link href="/assets/css/use-bootstrap-tag.min.css" rel="stylesheet">
+  <script src="/assets/js/use-bootstrap-tag.min.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T2YNJ0FDGE');
+  </script>
+
+  <style>
+    .tm-timeline {
+        box-sizing: border-box;
+        * {
+            box-sizing: border-box;
+        }
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: calc(30% - 2px);
+            bottom: 0;
+            width: 4px;
+            background: #676f7e;
+        }
+
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+
+    .tm-timeline-entry {
+        + .tm-timeline-entry{
+            margin-top: 70px;
+        }
+        clear: both;
+        text-align: left;
+        position: relative;
+
+        &:after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+
+        .tm-timeline-time {
+            float: left;
+            width: 30%;
+            padding-right: 70px;
+            text-align: right;
+            position: relative;
+
+            &:before {
+                content: '';
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border: 4px solid #676f7e;
+                background-color: #fff;
+                border-radius: 100%;
+                top: 0;
+                right:  -10px;
+                z-index: 99;
+            }
+
+            h5 {
+                margin: 3px 0 0;
+            }
+        }
+
+        .tm-timeline-body {
+            float: right;
+            width: 70%;
+            top: 15px;
+            padding-top: 3px;
+            padding-left: 70px;
+            h3 {
+                margin: 0 0 15px;
+                span {
+                    padding: 1px 7px;
+                }
+            }
+
+        }    
+
+      pre code {
+        display: block;
+        background: none;
+        white-space: pre;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: scroll;
+        max-width: 100%;
+        min-width: 100px;
+        padding: 0;
+      }        
+  </style>  
+  </head>
+
+<body>
+
+  <!-- Sidenav -->
+<!-- Sidenav (sm) -->
+<aside class="aside aside-sm d-none d-xl-flex">
+  <nav class="navbar navbar-expand-xl navbar-vertical">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="sidenavSmallCollapse">
+        <!-- Nav -->
+        <nav class="navbar-nav nav-pills h-100">
+          <div class="nav-item">
+            <div data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover" data-bs-title="Color mode">
+              <a class="nav-link" data-bs-toggle="collapse" data-bs-theme-switcher href="#colorModeOptions"
+                role="button" aria-expanded="false" aria-controls="colorModeOptions">
+                <span class="material-symbols-outlined mx-auto"> </span>
+              </a>
+            </div>
+            <div class="collapse" id="colorModeOptions">
+              <div class="border-top border-bottom py-2">
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Light" data-bs-theme-value="light" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> light_mode </span>
+                </a>
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Dark" data-bs-theme-value="dark" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> dark_mode </span>
+                </a>
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Auto" data-bs-theme-value="auto" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> contrast </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover"
+            data-bs-title="Go to product page">
+            <a class="nav-link" href="https://themes.getbootstrap.com/product/dashbrd/" target="_blank">
+              <span class="material-symbols-outlined mx-auto"> local_mall </span>
+            </a>
+          </div>
+          <div class="nav-item mt-auto" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover"
+            data-bs-title="Contact us">
+            <a class="nav-link" href="mailto:info@apievangelist.com">
+              <span class="material-symbols-outlined mx-auto"> support </span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </nav>
+</aside>
+
+  <!-- Sidenav (lg) -->
+<aside class="aside">
+  <nav class="navbar navbar-expand-xl navbar-vertical">
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://apievangelist.com">
+        <center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" width="200" style="margin-bottom: 25px; margin-top: -5px; "></center>
+      </a>
+
+      <!-- User -->
+      <div class="ms-auto d-xl-none">
+        <div class="dropdown my-n2">
+          <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+              <img class="avatar-img" src="/assets/img/photos/kinlane.jpg" alt="..." />
+            </span>
+            Kin Lane
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#sidenavLargeCollapse"
+        aria-controls="sidenavLargeCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="sidenavLargeCollapse">
+
+        <!-- Search -->
+        <div class="input-group d-xl-none my-4 my-xl-0">
+          <input class="form-control" id="topnavSearchInputMobile" type="search" placeholder="Search"
+            aria-label="Search" aria-describedby="navbarSearchMobile" />
+          <span class="input-group-text" id="navbarSearchMobile">
+            <span class="material-symbols-outlined"> search </span>
+          </span>
+        </div>              
+          
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Learnings</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Posts" rol="button"
+                aria-expanded="false" aria-controls="Posts">
+                  <span class="material-symbols-outlined me-3">auto_stories</span> Posts
+                </a>
+                <div class="collapse" id="Posts">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/categories">Categories</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/2025/">Posts</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Conversations" rol="button"
+                aria-expanded="false" aria-controls="Conversations">
+                  <span class="material-symbols-outlined me-3">forum</span> Conversations
+                </a>
+                <div class="collapse" id="Conversations">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://conversations.apievangelist.com">All Conversations</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Guidance" rol="button"
+                aria-expanded="false" aria-controls="Guidance">
+                  <span class="material-symbols-outlined me-3">fork_left</span> Guidance
+                </a>
+                <div class="collapse" id="Guidance">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://guidance.apievangelist.com">All Guidance</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Questions" rol="button"
+                aria-expanded="false" aria-controls="Questions">
+                  <span class="material-symbols-outlined me-3">quiz</span> Questions
+                </a>
+                <div class="collapse" id="Questions">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://qa.apievangelist.com">All Questions</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Videos" rol="button"
+                aria-expanded="false" aria-controls="Videos">
+                  <span class="material-symbols-outlined me-3">video_library</span> Videos
+                </a>
+                <div class="collapse" id="Videos">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://video.apievangelist.com">All Videos</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Timeline" rol="button"
+                aria-expanded="false" aria-controls="Timeline">
+                  <span class="material-symbols-outlined me-3">timeline</span> Timeline
+                </a>
+                <div class="collapse" id="Timeline">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/api/">API</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/resources/">Resource</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/industry/">Industry</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Contracts</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Contracts" rol="button"
+                aria-expanded="false" aria-controls="Contracts">
+                  <span class="material-symbols-outlined me-3">contract</span> Contracts
+                </a>
+                <div class="collapse" id="Contracts">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/new/">New Contract</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com">All Contracts</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Produced" rol="button"
+                aria-expanded="false" aria-controls="Produced">
+                  <span class="material-symbols-outlined me-3">factory</span> Produced
+                </a>
+                <div class="collapse" id="Produced">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/internal/">Internal</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/1st-party/">1st-Party</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/3rd-party/">3rd-Party</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Consumed" rol="button"
+                aria-expanded="false" aria-controls="Consumed">
+                  <span class="material-symbols-outlined me-3">apps</span> Consumed
+                </a>
+                <div class="collapse" id="Consumed">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/internal/">Internal</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/1st-party/">1st-Party</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/3rd-party/">3rd-Party</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">Individual APIs</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#APIs" rol="button"
+                aria-expanded="false" aria-controls="APIs">
+                  <span class="material-symbols-outlined me-3">api</span> APIs
+                </a>
+                <div class="collapse" id="APIs">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apis.apievangelist.com">All APIs</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Governance</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Standards" rol="button"
+                aria-expanded="false" aria-controls="Standards">
+                  <span class="material-symbols-outlined me-3">extension</span> Standards
+                </a>
+                <div class="collapse" id="Standards">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://standards.apievangelist.com">All Standards</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Strategies" rol="button"
+                aria-expanded="false" aria-controls="Strategies">
+                  <span class="material-symbols-outlined me-3">tactic</span> Strategies
+                </a>
+                <div class="collapse" id="Strategies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://strategies.apievangelist.com">All Strategies</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Experiences" rol="button"
+                aria-expanded="false" aria-controls="Experiences">
+                  <span class="material-symbols-outlined me-3">engineering</span> Experiences
+                </a>
+                <div class="collapse" id="Experiences">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://experiences.apievangelist.com">All Experiences</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Properties" rol="button"
+                aria-expanded="false" aria-controls="Properties">
+                  <span class="material-symbols-outlined me-3">list_alt_check</span> Properties
+                </a>
+                <div class="collapse" id="Properties">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://properties.apievangelist.com">All Properties</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Policies" rol="button"
+                aria-expanded="false" aria-controls="Policies">
+                  <span class="material-symbols-outlined me-3">policy</span> Policies
+                </a>
+                <div class="collapse" id="Policies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com">All</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/business/">Business</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/technical/">Technical</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/standards/">Standards</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Rules" rol="button"
+                aria-expanded="false" aria-controls="Rules">
+                  <span class="material-symbols-outlined me-3">rule</span> Rules
+                </a>
+                <div class="collapse" id="Rules">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com">All Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/apis-json/">APIs.json Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/openapi/">OpenAPI Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/json-schema/">JSON Schema Rules</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Vocabularies" rol="button"
+                aria-expanded="false" aria-controls="Vocabularies">
+                  <span class="material-symbols-outlined me-3">dictionary</span> Vocabularies
+                </a>
+                <div class="collapse" id="Vocabularies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/words/a">Words</a>
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/nodes/">Nodes</a>
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/glossary/">Glossary</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Solutions</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Services" rol="button"
+                aria-expanded="false" aria-controls="Services">
+                  <span class="material-symbols-outlined me-3">design_services</span> Services
+                </a>
+                <div class="collapse" id="Services">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://services.apievangelist.com">All Services</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Tools" rol="button"
+                aria-expanded="false" aria-controls="Tools">
+                  <span class="material-symbols-outlined me-3">construction</span> Tools
+                </a>
+                <div class="collapse" id="Tools">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://tool.apievangelist.com">All Tools</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Discovery</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Discovery" rol="button"
+                aria-expanded="false" aria-controls="Discovery">
+                  <span class="material-symbols-outlined me-3">search</span> Discovery
+                </a>
+                <div class="collapse" id="Discovery">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/inbox/">Inbox</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/bing/">Bing</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/google/">Google</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/github/">GitHub</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Evidence" rol="button"
+                aria-expanded="false" aria-controls="Evidence">
+                  <span class="material-symbols-outlined me-3">fingerprint</span> Evidence
+                </a>
+                <div class="collapse" id="Evidence">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://evidence.apievangelist.com/inbox/">Inbox</a>
+                     
+                    <a class="nav-link" href="https://evidence.apievangelist.com/bookmarks/">Bookmarks</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Building Blocks</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Components" rol="button"
+                aria-expanded="false" aria-controls="Components">
+                  <span class="material-symbols-outlined me-3">widget_small</span> Components
+                </a>
+                <div class="collapse" id="Components">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://parameters.apievangelist.com">Parameters</a>
+                     
+                    <a class="nav-link" href="https://headers.apievangelist.com">Headers</a>
+                     
+                    <a class="nav-link" href="https://responses.apievangelist.com">Responses</a>
+                     
+                    <a class="nav-link" href="https://schema.apievangelist.com">Schema</a>
+                     
+                    <a class="nav-link" href="https://overlays.apievangelist.com">Overlays</a>
+                     
+                    <a class="nav-link" href="https://blueprints.apievangelist.com">Blueprints</a>
+                     
+                    <a class="nav-link" href="https://bases.apievangelist.com">Bases</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Utilities" rol="button"
+                aria-expanded="false" aria-controls="Utilities">
+                  <span class="material-symbols-outlined me-3">build</span> Utilities
+                </a>
+                <div class="collapse" id="Utilities">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/yaml-to-json/">YAML to JSON</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-to-yaml/">JSON to YAML</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/merge-openapis/">Merge OpenAPIs</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/split-openapis/">Split OpenAPIs</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/postman-to-openapi/">Postman to OpenAPI</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-schema-yaml-validator/">JSON Schema YAML Validator</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-schema-basics/">JSON Schema Basics (Rules)</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Evangelist LLC</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#About" rol="button"
+                aria-expanded="false" aria-controls="About">
+                  <span class="material-symbols-outlined me-3">info</span> About
+                </a>
+                <div class="collapse" id="About">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/this-site">This Site</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Contact" rol="button"
+                aria-expanded="false" aria-controls="Contact">
+                  <span class="material-symbols-outlined me-3">contact_support</span> Contact
+                </a>
+                <div class="collapse" id="Contact">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/contact">Contact Form</a>
+                     
+                    <a class="nav-link" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+                     
+                    <a class="nav-link" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+                     
+                    <a class="nav-link" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+                     
+                    <a class="nav-link" href="https://buttondown.com/apievangelist">Newsletter</a>
+                     
+                    <a class="nav-link" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+                     
+                    <a class="nav-link" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+                     
+                    <a class="nav-link" href="https://www.postman.com/api-evangelist">Postman</a>
+                     
+                    <a class="nav-link" href="https://github.com/api-evangelist">GitHub</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Partner" rol="button"
+                aria-expanded="false" aria-controls="Partner">
+                  <span class="material-symbols-outlined me-3">handshake</span> Partner
+                </a>
+                <div class="collapse" id="Partner">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://partners.apievangelist.com">Information</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+                
+
+        <!-- Nav -->
+        <nav class="navbar-nav nav-pills d-xl-none mb-7">
+          <div class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" data-bs-theme-switcher href="#colorModeOptionsMobile"
+              role="button" aria-expanded="false" aria-controls="colorModeOptionsMobile">
+              <span class="material-symbols-outlined me-3"> </span> Color mode
+            </a>
+            <div class="collapse" id="colorModeOptionsMobile">
+              <div class="nav nav-pills">
+                <a class="nav-link" data-bs-theme-value="light" href="#" role="button"> Light </a>
+                <a class="nav-link" data-bs-theme-value="dark" href="#" role="button"> Dark </a>
+                <a class="nav-link" data-bs-title="Auto" data-bs-theme-value="auto" href="#" role="button"> Auto </a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://apievangelist.com" target="_blank">
+              <span class="material-symbols-outlined me-3">local_mall</span> Go to API Evangelist
+            </a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://apievangelist.com/contacts/">
+              <span class="material-symbols-outlined me-3">alternate_email</span> Contact Us
+            </a>
+          </div>
+        </nav>
+
+        <!-- Card -->
+        <div class="card mt-auto">
+          <div class="card-body">
+            <!-- Heading -->
+            <h6>Need help?</h6>
+
+            <!-- Text -->
+            <p class="text-body-secondary mb-0">Feel free to reach out to us should you have any questions or
+              suggestions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</aside>
+
+  <!-- Topnav -->
+<nav class="navbar d-none d-xl-flex px-xl-6">
+  <div class="container flex-column align-items-stretch">
+    <div class="row">
+      <div class="col-auto">
+        <!-- Search -->
+        <div class="input-group" style="max-width: 300px;">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search" aria-describedby="navbarSearch" id="topsearch" />
+          <span class="input-group-text" id="navbarSearch">
+            <kbd class="badge bg-body-secondary text-body">⌘</kbd>
+          </span>
+          <script>
+            const searchbox = document.getElementById('topsearch');
+            
+            searchbox.addEventListener('keydown', function(event) {
+              if (event.key === 'Enter') {
+                location.href='https://search.apievangelist.com?search=' + document.getElementById("topsearch").value;
+              }
+            });               
+          </script>          
+        </div>
+      </div>
+      <div class="col"> 
+        <div id="ticker-box" style="width: 100%; border: 0px solid #000; padding-top: 15px;">
+          <ul>
+            
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you know where all of your APIs are?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40qNzTt">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you have a source of truth for your schema?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40nVDnW">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you struggling with API sprawl?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40qNzTt">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need more reliable APIs?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fOZjn1">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need more consistent APIs?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/3DHez88">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need an open source replacement for Postman?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need an open source API client?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need an API client with native Git integration?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need a offline and local only API client?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Is your API defined as a Bruno collection?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you looking for an open-source API mocking solution?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need an open-source API testing solution?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you needing multi-specification API testing and mocking?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Take a Look at Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need industrial grade API testing and mocking?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Try Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Have you tried the new examples schema for mocking your API?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+            
+          </ul>
+        </div>        
+        <script>
+          function applyStyles(obj, styles) {
+            var property;
+            var styleLength = Object.keys(styles).length;
+            for (var i = 0; i < styleLength; i++) {
+              property = Object.keys(styles)[i];
+              obj.style[property] = styles[property];
+            }
+          }
+
+          function extend(object1, object2) {
+            for (var attrname in object2) {
+              object1[attrname] = object2[attrname];
+            }
+            return object1;
+          }
+
+          function startTicker(id, param) {
+            var tickerBox = document.getElementById(id);
+            var defaultParam = { speed: 5, delay: 500, rotate: true };
+            var extendedParam = extend(defaultParam, param);
+            applyStyles(tickerBox, { overflow: "hidden", 'min-height': '40px' });
+            var ul = tickerBox.getElementsByTagName("ul");
+            var li = ul[0].getElementsByTagName("li");
+            applyStyles(ul[0], { padding: 0, margin: 0, position: 'relative', 'list-style-type': 'none' });
+            for (i = 0; i < li.length; i++) {
+              applyStyles(li[i], { position: 'absolute', 'white-space': 'nowrap', display: 'none' });
+            }
+
+            var li_index = 0;
+            var trans_width = tickerBox.offsetWidth;
+            var chunk_width = 1;
+
+            var iterateTickerElement = function(trans_width) {
+              li[li_index].style.left = trans_width + "px";
+              li[li_index].style.display = '';
+              var t = setInterval(function() {
+                if (parseInt(li[li_index].style.left) > -li[li_index].offsetWidth) {
+                  li[li_index].style.left = parseInt(li[li_index].style.left) - chunk_width + "px";
+                } else {
+                  clearInterval(t);
+                  trans_width = tickerBox.offsetWidth;
+                  li_index++;
+                  if (li_index == li.length && extendedParam.rotate == true) {
+                    li_index = 0;
+                    iterateTickerElement(trans_width);
+                  } else if (li_index < li.length) {
+                    setTimeout(function() { iterateTickerElement(trans_width); }, extendedParam.delay);
+                  }
+                }
+              }, extendedParam.speed);
+              tickerBox.onmouseover = function() {
+                clearInterval(t);
+              }
+              tickerBox.onmouseout = function() {
+                iterateTickerElement(parseInt(li[li_index].style.left));
+              }
+            }
+            iterateTickerElement(trans_width);
+          }          
+        </script>  
+        <script>startTicker('ticker-box', {speed:7, delay:1000});</script>      
+      </div>
+      <div class="col-auto"> 
+
+        <!-- User -->
+        <a href="https://yj2hy2wwbjp4w2a4tkhyz3h6zu0woyft.lambda-url.us-east-1.on.aws/"><button type="button" id="account-button" class="btn btn-success">Login</button></a>
+        <div class="dropdown my-n2" id="account-dropdown" style="display: none;">
+          <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+              <img class="avatar-img" src="/assets/img/photos/kinlane.jpg" alt="..." />
+            </span>
+            Kin Lane
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li><a class="dropdown-item" href="#">Change password</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+
+        <script>
+          function getUrlVar(key){
+              var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search);
+              return result && unescape(result[1]) || "";
+          }          
+          var access_token = getUrlVar('access_token');
+          if(access_token!=''){
+            Cookies.set('access_token', access_token);
+          }
+          if(Cookies.get('access_token')){
+            document.getElementById("account-dropdown").style.display = '';
+            document.getElementById("account-button").style.display = 'none';
+          }
+        </script> 
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <!-- Main -->
+  <main class="main px-lg-6">
+    <!-- Content -->
+    <div class="container-lg">
+
+        <script>
+  var postId = '/2021/03/20/postman-will-do-for-apis-what-github-did-for-open-source/';
+  console.log("postId:" + postId);
+</script>
+
+<style>
+  img{
+    max-width:600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }  
+  </style>
+
+<div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+  You have made changes to the contract and will need to save.
+</div>
+
+<div id="commit-banner" class="alert alert-warning" role="alert" style="text-align: center; display: none;">
+  Changes have been made to this contract and will need committing to repo.
+</div>
+
+<div id="data-store" style="border: 1px solid #000; display: none;">
+  <input type="text" id="path" value="0">
+  <input type="text" id="page_start" value="0">
+  <input type="text" id="page_size" value="4">
+  <textarea id="posts-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="policies-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="rules-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-filter" style="width: 100%; height: 350px;">[]</textarea>
+</div>
+
+<div class="row gx-xl-9">
+
+  <div class="col-12 col-xxl-4 order-xxl-1">
+
+    <div class="position-sticky mb-8" style="top: 2rem">
+      <div class="card bg-body">
+        <div class="card-body py-4">
+          <!-- List -->
+          <ul class="list-group list-group-flush bg-body mb-0">
+            
+            <!--Begin Save Post Button-->
+            <div style="display: none; border: 0px #FFF;" id="save-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Save Post</strong></span>
+                <button id="save-button" type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#save-post">SAVE</button>
+              </li>  
+            </div> 
+            <!--End Save Post Button-->
+
+            <!--Begin Commit Post Button-->
+            <div style="display: none; border: 0px #FFF;" id="commit-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Commit Post</strong></span>
+                <button id="commit-button" type="button" class="btn btn-danger btn-sm" onclick="commitPost();">COMMIT</button>
+              </li>  
+            </div> 
+            <!--End Commit Post Button--> 
+
+            
+            
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Published</span>
+              <time datetime="2021-03-20">2021-03-20</time>
+            </li>
+
+               
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Author</span>
+              <span class="badge bg-success-subtle text-success">Kin Lane</span>
+            </li>                     
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="api-evangelist-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>API Evangelist Services</strong>
+                <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40qNzTt" target="_blank" id="api-evangelist-service-1">Do you know where all of your APIs are?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40nVDnW" target="_blank" id="api-evangelist-service-2">Do you have a source of truth for your schema?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callService(){
+
+                console.log("Calling API Evangelist Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/api-evangelist/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>API Evangelist Services</strong><div onclick="location.href=' + "'" + 'https://services.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="api-evangelist-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="api-evangelist-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("api-evangelist-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotateService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotateService(){
+
+                console.log("Rotating API Evangelist Service!");
+
+                document.getElementById("api-evangelist-service-1").className = "blink_me";
+                document.getElementById("api-evangelist-service-2").className = "blink_me";
+
+                setTimeout(function() { callService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotateService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+    <br>
+    <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="partner-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>Partner Services</strong>
+                      <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/4fpe6FO" target="_blank" id="partner-service-1">Do you need an open source replacement for Postman?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/4fpe6FO" target="_blank" id="partner-service-2">Need an open source API client?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callPartnerService(){
+
+                console.log("Calling Partner Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/partners/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>Partner Services</strong><div onclick="location.href=' + "'" + 'https://partners.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="partner-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="partner-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("partner-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotatePartnerService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotatePartnerService(){
+
+                console.log("Rotating Partner Service!");
+
+                document.getElementById("partner-service-1").className = "blink_me";
+                document.getElementById("partner-service-2").className = "blink_me";
+
+                setTimeout(function() { callPartnerService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotatePartnerService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+
+  </div>
+
+  <div class="col-12 col-xxl-8 order-xxl-0">
+
+    <section>
+      <div class="row">
+        <div class="col">
+  
+          <!-- Heading -->
+          
+          <h3 class="fs-3 mb-5" id="post-name-header" style="text-align: center;">Postman Will Do for APIs What Github Did for Open Source</h3>
+          <center><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/braceros-domingo-ulloa-turing-front-view.jpg" width="95%" align="center" style="padding: 15px;" id="post-image-header"></center>      
+          <!-- Text -->
+          <p id="post-description-paragraph"><p>I woke up thinking about something Abhinav said recently, “What GitHub did to code, I imagine Postman will do that for APIs, shortening the cycle from using an API to building things with it.” Yes! That is how I see Postman. GitHub changed my relationship with code in many ways. Github plays a significant role in how I produce, manage, and evolve the code that I produce for my own side projects and businesses, as well as the code I engage with as part of my job and the projects I work on. This blog post is my mental exercise of thinking through what GitHub has given me when it comes to code, which in my world translates pretty nicely to what I do with APIs. First, I published my thoughts about what GitHub did for code, and now I want to explore what Postman is doing for APIs.</p>
+
+<h3 id="users">Users</h3>
+
+<ul>
+  <li><strong>Home</strong> - Give me a summary home page for my world.</li>
+  <li><strong>Profile</strong> - Let me manage my public and private profile.</li>
+  <li><strong>Followers</strong> - Let me follow other users Postman profiles.</li>
+  <li><strong>Following</strong> - Let people follow my Postman profile.</li>
+  <li><strong>Comments</strong> - I want to be able to se all of my comments.</li>
+  <li><strong>Discussions</strong> - I want to see my discussions with team members.</li>
+  <li><strong>Settings</strong> - Easy configuration of my account.</li>
+  <li><strong>Notifications</strong> - Allow me to receive notifications.</li>
+  <li><strong>Reminders</strong> - Provide me with reminders of common tasks.</li>
+  <li><strong>Session</strong> - Allow me to see all of my sessions.</li>
+  <li><strong>Teams</strong> - Help me manage the teams I am on.</li>
+  <li><strong>Organizations</strong> - Help me manage the orgs I belong to.</li>
+  <li><strong>Workspaces</strong> - Help me manage my workspaces.</li>
+  <li>
+    <p><strong>Identity</strong> - Help me manage my identity.</p>
+  </li>
+  <li><strong>Keys</strong> - Give me robust API key management.</li>
+  <li>
+    <p><strong>Tokens</strong> - Take the friction out of token management.</p>
+  </li>
+  <li><strong>Export</strong> - Allow me to export my account.</li>
+</ul>
+
+<h3 id="organizations">Organizations</h3>
+
+<ul>
+  <li><strong>Details</strong> - Mange the details of my organization(s).</li>
+  <li><strong>People</strong> - Manage all the people in my organization(s).</li>
+  <li><strong>Teams</strong> - Help me manage many different teams across orgs.</li>
+  <li><strong>Workspaces</strong> - Do the hard work of organizing workspaces.</li>
+  <li><strong>APIs</strong> - Allow me to manage hundreds or thousands of A?PIs.</li>
+  <li><strong>Collections</strong> - Help me manage many derivative API collections.</li>
+  <li><strong>Environments</strong> - Generate and manage my environments for me.</li>
+  <li><strong>Mock Servers</strong> - Ensure there are mock servers available.</li>
+  <li><strong>Scripts</strong> - Assist me in managing the scripts used across operations.</li>
+  <li><strong>Runners</strong> - Execute runners manually or as part of pipelines via CLI.</li>
+  <li><strong>Monitors</strong> - Helps me effectively run monitors across all APIs.</li>
+  <li><strong>Governance</strong> - Provide me with tools for governing API operations.</li>
+  <li><strong>Setting</strong> - A robust set of settings for configuring my organizations.</li>
+  <li><strong>RBAC</strong> - Give me role based access control for my organizations.</li>
+</ul>
+
+<h3 id="teams">Teams</h3>
+
+<ul>
+  <li><strong>Details</strong> - Manage the details of my team(s).</li>
+  <li><strong>Invitations</strong> - Easily invite users to be part of teams.</li>
+  <li><strong>Members</strong> - Help me manage the members of my teams.</li>
+  <li><strong>Discussions</strong> - I want to be able to chat with team members.</li>
+  <li><strong>Reviews</strong> - I can assign reviews for my teams.</li>
+  <li><strong>Reminders</strong> - I can establish team level reminders.</li>
+  <li><strong>Group</strong> - I can group teams within teams, establishing hierarchy.</li>
+  <li><strong>RBAC</strong> - Provide me with role based access control for teams.</li>
+  <li><strong>Settings</strong> - Allow me to granularly define my team settings.</li>
+  <li><strong>Leave</strong> - Allow me to leave any team I have joined.</li>
+  <li><strong>Activity</strong> - Show all the activity involved in team management.</li>
+  <li><strong>Audit</strong> - Provide me with intelligent auditing tools for my teams.</li>
+  <li><strong>Reports</strong> - I want to have easy to read reports for my teams.</li>
+  <li><strong>Usage</strong> - Let me know where I am at with my team resource use.</li>
+</ul>
+
+<h3 id="workspaces">Workspaces</h3>
+
+<ul>
+  <li><strong>Details</strong> - Manage the details of my workspace(s).</li>
+  <li>
+    <p><strong>Type</strong> - Allow me to have different types of workspaces.</p>
+  </li>
+  <li><strong>Personal</strong> - Provide users with personal workspaces.</li>
+  <li><strong>Operation</strong> - Establish workspaces that have access to all workspaces.</li>
+  <li><strong>Team</strong> - Provide the ability to define team level workspaces.</li>
+  <li><strong>Partner</strong> - Help me manage my external relationships using workspaces.</li>
+  <li>
+    <p><strong>Public</strong> - Allow me to create a variety of public spaces.</p>
+  </li>
+  <li><strong>RBAC</strong> - Provide me with role based access for my teams.</li>
+  <li><strong>Search</strong> - Give me a way to search across my workspace.</li>
+  <li><strong>Invitations</strong> - Allow me to invite other public, private, and partner users.</li>
+  <li><strong>Members</strong> - Allow me to manage who is a member of my workspace.</li>
+  <li><strong>APIs</strong> - Provide me what I need to manage my APIs.</li>
+  <li><strong>Collections</strong> - Providing me with all I need to manage my collections.</li>
+  <li><strong>Environments</strong> - Give me quick access to select, use, and manage environments.</li>
+  <li><strong>History</strong> - Give me quick access to the request history across the workspace.</li>
+  <li><strong>Activity</strong> - Allow me to see all the activity for management of my workspaces.</li>
+  <li><strong>Monitors</strong> - Allow me to see all the monitors that are in use in my workspaces.</li>
+  <li><strong>Mocks</strong> - Allow me to see all the mock servers that are in use in my workspaces.</li>
+  <li><strong>Integrations</strong> - Allow me to see all the integrations that are in use in my workspaces.</li>
+  <li><strong>Add To</strong> - Allow me to add resources from another workspace.</li>
+  <li><strong>Clone</strong> - Allow me to easily clone a workspace for other purposes.</li>
+  <li><strong>Import</strong> - Allow me to import workspace definitions.</li>
+  <li><strong>Export</strong> - Allow me to export workplace definitions.</li>
+</ul>
+
+<h3 id="apis">APIs</h3>
+
+<ul>
+  <li><strong>Listing</strong> - List all of my APIs in a workspace.</li>
+  <li><strong>Pin</strong> - Let me pin APIs within my workspace.</li>
+  <li><strong>Details</strong> - Manage the details of my API(s).</li>
+  <li><strong>Version</strong> - Remove friction from versioning my APIs.</li>
+  <li>
+    <p><strong>Define</strong> - Allow me to choose which definition I use.</p>
+  </li>
+  <li>OpenAPI 3.0</li>
+  <li>Swagger</li>
+  <li>RAML</li>
+  <li>GraphQL</li>
+  <li>AsyncAPI</li>
+  <li>
+    <p>JSON Schema</p>
+  </li>
+  <li><strong>Design</strong> - Provide me with a simple GUI for designing my API.</li>
+  <li><strong>Schema</strong> - Provide me with an interface to manage my schema.</li>
+  <li><strong>Components</strong> - List all the components used to build APIs.</li>
+  <li>
+    <p><strong>Sync</strong> - Allow me to sync my definitions.</p>
+  </li>
+  <li>GitHub</li>
+  <li>GitLab</li>
+  <li>
+    <p>Bitbucket</p>
+  </li>
+  <li><strong>RBAC</strong> - Allow me to control who has access to my APIs.</li>
+  <li><strong>Mocks</strong> - Allow me to see the associated mock servers.</li>
+  <li><strong>Docs</strong> - Allow me to see the associated documentation.</li>
+  <li><strong>Environments</strong> - Allow me to see the associated environments.</li>
+  <li><strong>Tests</strong> - Allow me to see all of the tests for an API.</li>
+  <li><strong>Monitors</strong> - Allow me to see all of the monitors for my APIs.</li>
+  <li><strong>Change Log</strong> - Help me manage the change long for my APIs.</li>
+  <li><strong>Comments</strong> - Allow me to make and manage comments.</li>
+  <li><strong>Share</strong> - Allow for sharing of APIs to other workspaces.</li>
+  <li><strong>Generate Collection</strong> - Easily generate a new collection.</li>
+  <li><strong>Clone</strong> - Quickly duplicate any of my APIs.</li>
+  <li><strong>Tags</strong> - Apply tags to each API.</li>
+  <li><strong>Import</strong> - Providing me the ability to import API definitions.</li>
+  <li><strong>Export</strong> - Allow me to easily export API definitions.</li>
+</ul>
+
+<h3 id="components">Components</h3>
+
+<ul>
+  <li><strong>Schema</strong> - Standardized schema for use across APIs.</li>
+  <li><strong>Paths</strong> - Standardized API paths for use across APIs.</li>
+  <li><strong>Parameters</strong> - Standardized parameters for use across APIs.</li>
+  <li><strong>Responses</strong> - Standardized API responses for use across APIs.</li>
+  <li><strong>Examples</strong> - Standardized examples for use across APIs.</li>
+  <li><strong>Request Bodies</strong> - Standardized request bodies for use across APIs.</li>
+  <li><strong>Headers</strong> - Standardized headers for use across APIs.</li>
+  <li><strong>Security</strong> - Standardized security definitions for use across APIs.</li>
+  <li><strong>Search</strong> - Allow me to quickly search and filter components.</li>
+</ul>
+
+<h3 id="collections">Collections</h3>
+
+<ul>
+  <li><strong>Details</strong> - Let me easily manage my collections.</li>
+  <li><strong>RBAC</strong> - Provide me with role based access control for collections.</li>
+  <li>
+    <p><strong>Folders</strong> - Allow me to quickly organize using folders.</p>
+  </li>
+  <li><strong>Description</strong> - I want to provide markdown descriptions.</li>
+  <li><strong>Authorization</strong> - I want to define authorization at the folder level.</li>
+  <li><strong>Pre-request Scripts</strong> - I want to be able to run pre-request scripts at folder level.</li>
+  <li><strong>Test Scripts</strong> - I want to be able to run test scripts at folder level.</li>
+  <li>
+    <p><strong>Variables</strong> - I want to define variables for folders.</p>
+  </li>
+  <li><strong>Request(s)</strong> - I want to have one or many requests in collections.</li>
+  <li><strong>Version</strong> - Abstract away the complexity of versioning my collections.</li>
+  <li><strong>Scripts</strong> - Provide management tools for scripts across my requests.</li>
+  <li><strong>Documentation</strong> - Allow me to publish documentation from my collections.</li>
+  <li><strong>Monitors</strong> - Allow me to deploy regional cloud monitors for my collections.</li>
+  <li><strong>Mocks</strong> - Allow me to deploy mock servers from my collections.</li>
+  <li>
+    <p><strong>Change Management</strong> - Help me manage change for collections.</p>
+  </li>
+  <li><strong>Fork</strong> - Allow me to fork collections.</li>
+  <li><strong>Pull Requests</strong> - Allow me to receive pull requests for collections.</li>
+  <li>
+    <p><strong>Merge</strong> - Allow me to merge my collections.</p>
+  </li>
+  <li><strong>Version Tags</strong> - Allow me to apply version control tags to my collections.</li>
+  <li><strong>Validation</strong> - Provide validation for collections against APIs.</li>
+  <li><strong>Change Log</strong> - Make the change log for my collections accessible.</li>
+  <li><strong>Share</strong> - Allow me to share a collection to workspace or via link.</li>
+  <li>
+    <p><strong>Sync</strong> - Sync my collections for me.</p>
+  </li>
+  <li>GitHub</li>
+  <li>GitLab</li>
+  <li>
+    <p>Bitbucket</p>
+  </li>
+  <li><strong>Button</strong> - Allow me to generate a Run in Postman button.</li>
+  <li><strong>Examples</strong> - Allow me to define one or many examples for use across requests.</li>
+  <li><strong>Duplicate</strong> - Give me the ability to quickly duplicate a collection.</li>
+  <li><strong>Import</strong> - Allow me to import collections.</li>
+  <li><strong>Export</strong> - Allow me to export collections.</li>
+  <li><strong>Tags</strong> - Apply tags to collection.</li>
+</ul>
+
+<h3 id="requests">Requests</h3>
+
+<ul>
+  <li><strong>Name</strong> - I want to be able to name my requests.</li>
+  <li><strong>Description</strong> - I want to have descriptions for each request.</li>
+  <li>
+    <p><strong>Protocol</strong> - I want to be able to use multiple protocols.</p>
+  </li>
+  <li>
+    <p><strong>HTTP 1.1, HTTP/2</strong></p>
+  </li>
+  <li>
+    <p><strong>Request</strong></p>
+  </li>
+  <li><strong>Method</strong> - Select the HTTP method.</li>
+  <li><strong>URL</strong> - Provide a URL for the aPI.</li>
+  <li><strong>Params</strong> - Define the parameters.</li>
+  <li><strong>Authorization</strong> - Let me define my auth.</li>
+  <li><strong>Request Headers</strong> - Let me define my headers.</li>
+  <li><strong>Body</strong> - Give me control over the body.</li>
+  <li><strong>Pre-request Scripts</strong> - I need scripts to run before request.</li>
+  <li><strong>Tests</strong> - I need scripts to run after the request.</li>
+  <li><strong>Settings</strong> - I need to be able to define request settings.</li>
+  <li>
+    <p><strong>Cookies</strong> - I need control over my cookies.</p>
+  </li>
+  <li>
+    <p><strong>Response</strong></p>
+  </li>
+  <li><strong>Body</strong> - Let me see the body of the response.</li>
+  <li><strong>Cookies</strong> - Let me see the cookies for each response.</li>
+  <li><strong>Headers</strong> - Let me see the headers for each response.</li>
+  <li><strong>Test Results</strong> - Let me see the test results for each response.</li>
+  <li><strong>Status</strong> - Provide me with the status for each response.</li>
+  <li><strong>Time</strong> - Provide me with the time a response took.</li>
+  <li><strong>Size</strong> - Provide me with the size of each response.</li>
+  <li><strong>Save Example</strong> - Allow me to save response as example.</li>
+  <li><strong>Visualize</strong> - Allow me to see response visualization.</li>
+  <li><strong>Media Type</strong> - Allow me to see each available media type.</li>
+  <li><strong>Save Response</strong> - Allow me to save each response.</li>
+  <li>
+    <p><strong>Search Response</strong> - Allow me to search details fo response.</p>
+  </li>
+  <li>
+    <p><strong>Webhooks</strong> - Allow me to define a webhoook response.</p>
+  </li>
+  <li><strong>HTTP/2, HTTP/3, TCP, MQTT&lt;</strong>/li&gt;
+    <ul>
+      <li><strong>Channels</strong> - Allow me to subscribe to the available channels.</li>
+      <li><strong>Operations</strong> - Allow me to perform publish or subscribe operations.</li>
+      <li><strong>Messages</strong> - Allow me to work with messages published and received.</li>
+      <li><strong>Schema</strong> - Provide me the ability to manage my schema used.</li>
+      <li><strong>Sampling</strong> - Allow me to see sampling of data returned.</li>
+    </ul>
+  </li>
+  <li><strong>Storage</strong> - Allow me to define storage for request, subscriptions, and streams.</li>
+  <li><strong>Environment</strong> - Which environment should be applied against the request.</li>
+  <li><strong>Snippets</strong> - Give me access to code snippets to put APIs to work.</li>
+  <li><strong>Examples</strong> - Allow me to manage examples across requests.</li>
+  <li><strong>Send</strong> - Allow me to send requests.</li>
+  <li><strong>Receive</strong> - Allow me to receive web hooks.</li>
+  <li><strong>Subscribe</strong> - Allow me to subscribe to streams.</li>
+  <li><strong>Save</strong> - Allow me to quickly save my requests to collections.</li>
+  <li><strong>Duplicate</strong> - Allow me duplicate requests for easy replication.</li>
+  <li><strong>Comments</strong> - Allow me to comment on each individual request.</li>
+  <li><strong>Tags</strong> - Apply tags to each request.</li>
+</ul>
+
+<h3 id="examples">Examples</h3>
+
+<ul>
+  <li><strong>Name</strong> - The name of example</li>
+  <li>
+    <p><strong>Request</strong></p>
+  </li>
+  <li><strong>Method</strong> - The HTTP method.</li>
+  <li><strong>URL</strong> - The URL used.</li>
+  <li><strong>Parameters</strong> - The query and path parameters.</li>
+  <li><strong>Headers</strong> - The headers used.</li>
+  <li>
+    <p><strong>Body</strong> - The request body.</p>
+  </li>
+  <li>
+    <p><strong>Response</strong></p>
+  </li>
+  <li><strong>Headers</strong> - The response headers.</li>
+  <li><strong>Body</strong> - The body returned.</li>
+  <li><strong>Status Code</strong> - The status code returned.</li>
+  <li>
+    <p><strong>Media Type</strong> - The media type of response.</p>
+  </li>
+  <li><strong>Synthetics</strong> - Auto generate synthetic data for me.</li>
+  <li><strong>Duplicate</strong> - Duplicate examples to help them grow.</li>
+  <li><strong>Request(s)</strong> - The requests where example is used.</li>
+  <li><strong>Tags</strong> - Apply tags to the example.</li>
+</ul>
+
+<h3 id="environments">Environments</h3>
+
+<ul>
+  <li><strong>Name</strong> - I want to be able to name my environments.</li>
+  <li><strong>RBAC</strong> - Provide me with role based access control over environments.</li>
+  <li><strong>Versioning</strong> - Help me version and manage change for environments.</li>
+  <li>
+    <p><strong>Variables</strong> - I want to be able to define variables.</p>
+  </li>
+  <li><strong>Keys</strong> - Provide the keys for the variables.</li>
+  <li><strong>Initial Values</strong> - Define the initial value</li>
+  <li><strong>Current Values</strong> - Define the current value.</li>
+  <li>
+    <p><strong>Descriptions</strong> - Provide descriptions for each.</p>
+  </li>
+  <li><strong>Share to Workspace</strong> - Share environments to workspaces.</li>
+  <li><strong>Remove from Workspace</strong> - Remove an environment from workspace.</li>
+  <li><strong>Duplicate</strong> - Allow me to duplicate any environment.</li>
+  <li><strong>Comments</strong> - Allow me to comment on each environment.</li>
+  <li><strong>Import</strong> - Allow me to import environments.</li>
+  <li><strong>Export</strong> - Allow me to export environments.</li>
+  <li><strong>Tags</strong> - Allow me to apply tags to environments.</li>
+</ul>
+
+<h3 id="identity">Identity</h3>
+
+<ul>
+  <li><strong>Provider(s)</strong> - I want to be able to mange multiple identify providers.</li>
+  <li><strong>Secrets</strong> - I want to easily manage secrets that I generate.</li>
+  <li><strong>Vault</strong> - Provide me with a vault for storing of my secrets.</li>
+  <li>
+    <p><strong>Environment</strong> - Allow me to associate environments.</p>
+  </li>
+  <li>
+    <p><strong>Variables</strong> - Allow me to attach environments.</p>
+  </li>
+  <li><strong>Refresh</strong> - Provide the ability to refresh tokens behind the scenes.</li>
+  <li><strong>Audit</strong> - Allow me to audit how identity is applied across operations.</li>
+  <li><strong>Comments</strong> - Allow for commenting on identities.</li>
+  <li><strong>Tags</strong> - Allow me to apply tags to identities.</li>
+</ul>
+
+<h3 id="storage">Storage</h3>
+
+<ul>
+  <li><strong>Details</strong> - All me to define a variety of storage options for operations.</li>
+  <li><strong>Providers</strong> - Allow me to use a variety of data storage providers.</li>
+  <li><strong>RBAC</strong> - Provide me with role based control over storage.</li>
+  <li><strong>Key / Value</strong> - Provide me with simple key / value storage.</li>
+  <li><strong>Buckets</strong> - Provide me with object storage using buckets.</li>
+  <li><strong>Lakes</strong> - Allow me to define data lakes for use across aPIs.</li>
+  <li><strong>Comments</strong> - Allow me to comment on storage solutions.</li>
+  <li><strong>Tags</strong> - Apply me to tags to storage.</li>
+</ul>
+
+<h3 id="mock-servers">Mock Servers</h3>
+
+<ul>
+  <li><strong>Generate</strong> - Allow me to easily generate mock servers.</li>
+  <li><strong>Details</strong> - Allow me to manage the details of my mock servers.</li>
+  <li><strong>Collection</strong> - Allow me to define which collection is used.</li>
+  <li><strong>Version Tag</strong> - Provide me the ability to apply versioning.</li>
+  <li><strong>Environment</strong> - Provide the ability to associate environments.</li>
+  <li><strong>RBAC</strong> - Give me access control over my mock servers.</li>
+  <li><strong>Server URL</strong> - Provide quick acacias to the mock URL.</li>
+  <li><strong>Private</strong> - Allow me to make mock servers private.</li>
+  <li><strong>Comments</strong> - Allow me to comment on mock servers.</li>
+  <li><strong>Tags</strong> - Provide me the ability to apply tags to mock servers.</li>
+</ul>
+
+<h3 id="deployment">Deployment</h3>
+
+<ul>
+  <li><strong>Details</strong> - Allow me to manage the details of deployments.</li>
+  <li><strong>Provider</strong> - Allow me to use multiple providers for Deployment.</li>
+  <li><strong>Collections</strong> - Allow me to leverage collections for deployment.</li>
+  <li><strong>Scripts</strong> - Allow me to manage the scripts that are deployed.</li>
+  <li><strong>Environments</strong> - Let me use environments to define deployment.</li>
+  <li><strong>Stages</strong> - Let me define which stages of deployment I use.</li>
+  <li><strong>Tags</strong> - Allow me to apply tags to each deployment.</li>
+</ul>
+
+<h3 id="management">Management</h3>
+
+<ul>
+  <li><strong>Plans</strong> - Allow me to manage usage plans for my APIs.</li>
+  <li><strong>Policies</strong> - Allow me to apply access policies to APIs.</li>
+  <li><strong>Identity</strong> - Allow me to use identities for access APIs.</li>
+  <li><strong>Keys</strong> - Allow me to generate keys for API access.</li>
+  <li><strong>Tags</strong> - Allow me to tag each of my plans and keys.</li>
+  <li><strong>Usage</strong> - Show me usage for each of my APIs.</li>
+</ul>
+
+<h3 id="scripts">Scripts</h3>
+
+<ul>
+  <li><strong>Search</strong> - Quick search and filter of scripts.</li>
+  <li><strong>Listing</strong> - Listing of all scripts in use across operations.</li>
+  <li><strong>Details</strong> - Let me define meta data for scripts.</li>
+  <li><strong>Code</strong> - Let me manage code for each script.</li>
+  <li><strong>Dependencies</strong> - Let me define my dependencies.</li>
+  <li><strong>Testing</strong> - Let me test my scripts for quality.</li>
+  <li><strong>RBAC</strong> - Let me define access control for scripts.</li>
+</ul>
+
+<h3 id="packages">Packages</h3>
+
+<ul>
+  <li><strong>Publish</strong> - I want to be able to publish packages using Postman.</li>
+  <li><strong>Install</strong> - I want to be able to install and manage my packages.</li>
+  <li><strong>Authenticate</strong> - Help me authenticate my packages.</li>
+  <li><strong>Dependencies</strong> - Help me manage my package dependencies.</li>
+</ul>
+
+<h3 id="runners">Runners</h3>
+
+<ul>
+  <li><strong>Collection</strong> - Allow me to define a collection for a runner.</li>
+  <li><strong>Environment</strong> - Allow me to define the environment for a runner.</li>
+  <li><strong>Iterations</strong> - Let me define how many iterations to run.</li>
+  <li><strong>Delay</strong> - Let me define what the delay should be.</li>
+  <li><strong>Data File</strong> - Allow me to provide a data file for running.</li>
+  <li><strong>Data Store</strong> - Allow me to store data returned in key / value, bucket, or lake.</li>
+  <li><strong>Results Store</strong> - Allow me to store the results of the run.</li>
+  <li><strong>Manual Run</strong> - Allow me to run manually via client.</li>
+  <li><strong>Command Line</strong> - Help me run easily using the CLI.</li>
+  <li><strong>History</strong> - Provide me with history of each run.</li>
+</ul>
+
+<h3 id="monitors">Monitors</h3>
+
+<ul>
+  <li><strong>Details</strong> - Allow me to manage the details of my monitors.</li>
+  <li><strong>Region</strong> - Let me select the region to run each monitor.</li>
+  <li><strong>Status</strong> - Let me know the status of each monitor.</li>
+  <li><strong>Average success rate</strong> - Report to me the average success rate.</li>
+  <li><strong>Average response time</strong> - Report to me the average response time.</li>
+  <li><strong>Monitor Summary</strong> - Give me a summary of monitor runs.</li>
+  <li><strong>Request Split</strong> - Show a split view of the run history.</li>
+  <li><strong>Filter Requests</strong> - Allow me to filter requests that are made.</li>
+  <li><strong>Manual Run</strong> - Let me manually run my monitors.</li>
+  <li><strong>Pause</strong> - Allow me to pause a monitor while running.</li>
+  <li><strong>Tags</strong> - Let me apply tags to my monitors.</li>
+</ul>
+
+<h3 id="testing">Testing</h3>
+
+<ul>
+  <li>
+    <p><strong>Results</strong></p>
+  </li>
+  <li><strong>Monitors</strong> - Show me the results of testing monitors.</li>
+  <li><strong>Runs</strong> - Show me the results of testing runs.</li>
+  <li>
+    <p><strong>Reports</strong> - Provide me quick access to reports.</p>
+  </li>
+  <li><strong>Collections</strong> - Let me get at the collections behind tests.</li>
+  <li><strong>Scripts</strong> - Let me get at the scripts behind tests.</li>
+  <li><strong>Versioning</strong> - Help me version my scripts.</li>
+  <li>
+    <p><strong>Syncing</strong> - Sync my scripts.</p>
+  </li>
+  <li>GitHub</li>
+  <li>GitLab</li>
+  <li>Bitbucket</li>
+</ul>
+
+<h3 id="events">Events</h3>
+
+<ul>
+  <li><strong>Organization</strong> - Details of organizational events.</li>
+  <li><strong>User</strong> - Details of user events.</li>
+  <li><strong>Team</strong> - Details of team events.</li>
+  <li><strong>Workspace</strong> - Details of workspace events.</li>
+  <li><strong>APIs</strong> - Details of apis events.</li>
+  <li><strong>Collections</strong> - Details of collections events.</li>
+  <li><strong>Environments</strong> - Details of environments events.</li>
+  <li><strong>Identity</strong> - Details of identity events.</li>
+  <li><strong>Scripts</strong> - Details of script events.</li>
+  <li><strong>Tests</strong> - Details of tests events.</li>
+  <li><strong>Monitors</strong> - Details of monitors events.</li>
+  <li><strong>Runners</strong> - Details of runners events.</li>
+  <li><strong>Deployment</strong> - Details of deployment events.</li>
+  <li><strong>Management</strong> - Details of management events.</li>
+  <li><strong>Mock Servers</strong> - Details of mock server events.</li>
+  <li><strong>Documentation</strong> - Details of documentation events.</li>
+  <li><strong>Components</strong> - Details of component events.</li>
+  <li><strong>Webhooks</strong> - Push me information when events occur.</li>
+  <li><strong>Subscriptions</strong> - Let me subscribe to event streams.</li>
+</ul>
+
+<h3 id="documentation">Documentation</h3>
+
+<ul>
+  <li><strong>Publish</strong> - Let me publish API documentation.</li>
+  <li><strong>Collection</strong> - Let me define which collection.</li>
+  <li><strong>Version(s)</strong> - Allow me to define the version.</li>
+  <li><strong>Environment(s)</strong> - Let me associate environments.</li>
+  <li><strong>Domain</strong> - Allow me to define a domain.</li>
+  <li><strong>Styling</strong> - Let me apply styling to documentation.</li>
+  <li>
+    <p><strong>Network</strong></p>
+  </li>
+  <li><strong>Private</strong> - Let me make documentation private.</li>
+  <li><strong>Partner</strong> - Let me invite external users to docs.</li>
+  <li>
+    <p><strong>Public</strong> - Let me make my documentation public.</p>
+  </li>
+  <li><strong>Template</strong> - Let me publish as a template.</li>
+  <li><strong>Run in Postman</strong> - Provide me a run in Postman button.</li>
+  <li><strong>Code Snippets</strong> - Provide me code snippets with docs.</li>
+  <li><strong>Team</strong> - Allow me define the team behind documentation.</li>
+  <li><strong>Share</strong> - Make it easy for me to share my documentation.</li>
+  <li><strong>Download (PDF)</strong> - Allow anyone to download as PDF</li>
+  <li><strong>Tags</strong> - Let me apply tags to my documentation.</li>
+</ul>
+
+<h3 id="integrations">Integrations</h3>
+
+<ul>
+  <li><strong>Listing</strong> - Provide me with a list of integrations.</li>
+  <li><strong>Details</strong> - Give me the details of integrations.</li>
+  <li><strong>Star</strong> - Allow me to star and see popular integrations</li>
+  <li><strong>Browse</strong> - Let me browse for integrations.</li>
+  <li><strong>Publish</strong> - Allow me to publish my own integrations.</li>
+  <li><strong>Remove</strong> - Let me remove my integrations.</li>
+  <li><strong>Tags</strong> - Let me apply tags to integrations.</li>
+</ul>
+
+<h3 id="security">Security</h3>
+
+<ul>
+  <li><strong>Users</strong> - Help me manage the security of my users.</li>
+  <li><strong>Workspaces</strong> - Help me manage the security of my workspaces.</li>
+  <li><strong>APIs</strong> - Help me manage the security of my APIs.</li>
+  <li><strong>Environments</strong> - Help me manage the security of my environments.</li>
+  <li><strong>Identities</strong> - Help me manage the security of my identities.</li>
+  <li><strong>Secrets</strong> - Help me scan for and secure all of my secrets.</li>
+  <li><strong>Advisories</strong> - Provides me with real time security advisories.</li>
+  <li><strong>Vulnerabilities</strong> - Help me tune into the wider vulnerability threat.</li>
+  <li><strong>Dependencies</strong> - Help me see all of my dependencies.</li>
+</ul>
+
+<h3 id="reports">Reports</h3>
+
+<ul>
+  <li><strong>Team</strong> - Provide me reports on my teams.</li>
+  <li><strong>Network</strong> - Provide me reports on my networks.</li>
+  <li><strong>Workspaces</strong> - Provide me reports on my workspaces.</li>
+  <li><strong>APIs</strong> - Provide me reports on my APIs.</li>
+  <li><strong>Collections</strong> - Provide me reports on my Collections.</li>
+  <li><strong>Environments</strong> - Provide me reports on my Environments.</li>
+  <li><strong>Identity</strong> - Provide me reports on my identities.</li>
+  <li><strong>Storage</strong> - Provide me reports on my storage.</li>
+  <li><strong>Deployment</strong> - Provide me reports on my deployment.</li>
+  <li><strong>Management</strong> - Provide me reports on my management.</li>
+  <li><strong>Documentation</strong> - Show me reports on my documentation.</li>
+  <li><strong>Mocks</strong> - Provide me reports on my mocks.</li>
+  <li><strong>Monitors</strong> - Provide me reports on my monitors.</li>
+  <li><strong>Runners</strong> - Provide me reports on my runners.</li>
+  <li><strong>Testing</strong> - Provide me easy access to all test results.</li>
+  <li><strong>Integrations</strong> - Provide me reports on my integrations.</li>
+  <li><strong>Tags</strong> - Provide me reports grouped by tags for a cross view.</li>
+</ul>
+
+<h3 id="visualizations">Visualizations</h3>
+
+<ul>
+  <li>
+    <p><strong>Requests</strong> - Let me define requests behind visualizations.</p>
+  </li>
+  <li><strong>Collections</strong> - Let me define the collections behind visualizations.</li>
+  <li><strong>Environment</strong> - Let me allow to define environments for visualizations.</li>
+  <li>
+    <p><strong>Scripts</strong> - Let me manage the scripts behind requests.</p>
+  </li>
+  <li><strong>Monitor</strong> - Let me setup monitors to regularly update a visualization.</li>
+  <li><strong>Publish</strong> - Let me publish visualizations to a dashboard.</li>
+  <li><strong>Embed</strong> - Provide me with embeddable versions of visualizations.</li>
+  <li><strong>Views</strong> - Show me how many times a visualization is viewed.</li>
+  <li><strong>Tags</strong> - Allow me to tag my visualizations.</li>
+</ul>
+
+<h3 id="network">Network</h3>
+
+<ul>
+  <li>
+    <p><strong>Scope</strong> - Provide me with different scopes of network.</p>
+  </li>
+  <li><strong>Private</strong> - My internal organizational network.</li>
+  <li><strong>Partner</strong> - My external collaborator network.</li>
+  <li>
+    <p><strong>Public</strong> - A public network to get more exposure.</p>
+  </li>
+  <li>
+    <p><strong>Browse</strong></p>
+  </li>
+  <li><strong>Workspaces</strong> - Let me browse available workspaces.</li>
+  <li><strong>Teams</strong> - Let me browse available teams.</li>
+  <li><strong>Collections</strong> - Let me browse available collections.</li>
+  <li><strong>Templates</strong> - Let me browse available templates.</li>
+  <li><strong>Visualizations</strong> - Let me browse available visualizations.</li>
+  <li><strong>Environments</strong> - Let me browse available environments.</li>
+  <li>
+    <p><strong>Scripts (Trending)</strong> - Let me browse available scripts.</p>
+  </li>
+  <li>
+    <p><strong>Search</strong></p>
+  </li>
+  <li><strong>Workspaces</strong> - Let me search for available workspaces.</li>
+  <li><strong>Teams</strong> - Let me search for available workspaces.</li>
+  <li><strong>APIs</strong> - Let me search for available workspaces.</li>
+  <li><strong>Collections</strong> - Let me search for available workspaces.</li>
+  <li><strong>Templates</strong> - Let me search for available workspaces.</li>
+  <li><strong>Environments</strong> - Let me search for available workspaces.</li>
+  <li><strong>Scripts</strong> - Let me search for available workspaces.</li>
+  <li><strong>Visualizations</strong> - Let me search for available workspaces.</li>
+  <li><strong>Activity</strong> - Let me search for available workspaces.</li>
+  <li><strong>Comments</strong> - Let me search for available workspaces.</li>
+  <li>
+    <p><strong>History</strong> - Let me search for available workspaces.</p>
+  </li>
+  <li>
+    <p><strong>Details</strong></p>
+  </li>
+  <li><strong>Documentation</strong> - Let me access documentation for APIs.</li>
+  <li>
+    <p><strong>Run in Postman</strong> - Let me run in postman.</p>
+  </li>
+  <li>
+    <p><strong>Publish</strong>&lt;</p>
+  </li>
+  <li><strong>Documentation</strong> - Let me publish my docs.</li>
+  <li><strong>Tags</strong> - Let me apply tags to my documentation.</li>
+</ul>
+
+<h3 id="comments">Comments</h3>
+
+<ul>
+  <li><strong>APIs</strong> - I want to be able to see comments by API.</li>
+  <li><strong>Collections</strong> - I want to be able to see comments by collection.</li>
+  <li><strong>Examples</strong> - I want to be able to see comments by example.</li>
+  <li><strong>Mocks</strong> - I want to be able to see comments by mock server.</li>
+  <li><strong>Monitors</strong> - I want to be able to see comments by monitor.</li>
+  <li><strong>Runners</strong> - I want to be able to see comments by runner.</li>
+  <li><strong>Tags</strong> - I want to be able to see comments by tag.</li>
+</ul>
+
+<h3 id="history">History</h3>
+
+<ul>
+  <li><strong>Timeline</strong> - I want history organized by timeline.</li>
+  <li><strong>Requests</strong> - I want to search history of each request.</li>
+  <li><strong>Save</strong> - I want to be able to save a request to collection.</li>
+  <li><strong>Monitor</strong> - I want to be able to monitor a request.</li>
+  <li><strong>Document</strong> - I want to be able to document a request.</li>
+  <li><strong>Mock</strong> - I want to be able to mock a request.</li>
+  <li><strong>Tags</strong> - I want to be able to tag a request.</li>
+</ul>
+
+<h3 id="activity">Activity</h3>
+
+<ul>
+  <li><strong>Organizations</strong> - I want to see activity managing organizations.</li>
+  <li><strong>Users</strong> - I want to see activity managing users.</li>
+  <li><strong>Workspaces</strong> - I want to see activity managing workspaces.</li>
+  <li><strong>APIs</strong> - I want to see activity managing APIs.</li>
+  <li><strong>Collections</strong> - I want to see activity managing collection.</li>
+  <li><strong>Environments</strong> - I want to see activity managing environments.</li>
+  <li><strong>Monitors</strong> - I want to see activity managing monitors.</li>
+  <li><strong>Mock Servers</strong> - I want to see activity managing mock.</li>
+  <li><strong>Runners</strong> - I want to see activity managing runners.</li>
+</ul>
+
+<h3 id="search">Search</h3>
+
+<ul>
+  <li><strong>Organizations</strong> - I want to be able to search for organizations.</li>
+  <li><strong>Users</strong> - I want to be able to search for users.</li>
+  <li><strong>Teams</strong> - I want to be able to search for teams.</li>
+  <li><strong>Workspaces</strong> - I want to be able to search for workspaces.</li>
+  <li><strong>APIs</strong> - I want to be able to search for apis.</li>
+  <li><strong>Collections</strong> - I want to be able to search for collections.</li>
+  <li><strong>Environments</strong> - I want to be able to search for environments.</li>
+  <li><strong>Identity</strong> - I want to be able to search for identity.</li>
+  <li><strong>Storage</strong> - I want to be able to search across storage.</li>
+  <li><strong>Monitors</strong> - I want to be able to search for monitors.</li>
+  <li><strong>Runners</strong> - I want to be able to search for runners.</li>
+  <li><strong>History</strong> - I want to be able to search for history.</li>
+  <li><strong>Activity</strong> - I want to be able to search for activity.</li>
+</ul>
+
+<h3 id="postman-api">Postman API</h3>
+
+<ul>
+  <li><strong>Overview</strong> - Gives me what I need to get started using the Postman API.</li>
+  <li><strong>Documentation</strong> - The documentation is simple, helpful, and up to date.</li>
+  <li><strong>Coverage</strong> - The API covers most of the features available on web and desktop,</li>
+  <li><strong>Status</strong> - They provide a status of the API that I will be depending on.</li>
+</ul>
+
+<h3 id="outcomes">Outcomes</h3>
+
+<ul>
+  <li>
+    <p><strong>People</strong> - Helping me engage across teams.</p>
+  </li>
+  <li><strong>Teams</strong> - I have teams defined for API operations.</li>
+  <li><strong>Sharing</strong> - I can easily share resources across teams.</li>
+  <li><strong>Collaboration</strong> - I can easily collaborate with other people.</li>
+  <li>
+    <p><strong>Activity</strong> - You can tune into what is happening.</p>
+  </li>
+  <li>
+    <p><strong>Me</strong> - The direct impact on me.</p>
+  </li>
+  <li><strong>Tangible</strong> - My APIs are more tangible.</li>
+  <li><strong>Coherent</strong> - I can see what is happening.</li>
+  <li><strong>Social</strong> - The API life cycle has become social.</li>
+  <li>
+    <p><strong>Precise</strong> - Allows me to be more precise with my APIs.</p>
+  </li>
+  <li>
+    <p><strong>APIs</strong> - Direct impacts on my APIs</p>
+  </li>
+  <li><strong>Defined</strong> - Every one of my APIs is defined.</li>
+  <li><strong>Documented</strong> - All my APIs have documentation.</li>
+  <li><strong>Mocked</strong> - All APIs are available as mocks.</li>
+  <li><strong>Tested</strong> - All APIs are fully tested by collections.</li>
+  <li><strong>Consistent</strong> - I use common components across APIs.</li>
+  <li><strong>Validated</strong> - All of my APIs are validated against collections.</li>
+  <li><strong>Reusable</strong> - I can design my APIs so they are reusable.</li>
+  <li>
+    <p><strong>Boundaries</strong> - I have well defined boundaries between APIs.</p>
+  </li>
+  <li>
+    <p><strong>Change</strong></p>
+  </li>
+  <li><strong>APIs</strong> - I can manage change across the APIs I’m delivering.</li>
+  <li><strong>Collections</strong> - I can manage change across my collections.</li>
+  <li>
+    <p><strong>Versioning</strong> - I can version all artifacts behind APIs.</p>
+  </li>
+  <li>
+    <p><strong>Deployment</strong></p>
+  </li>
+  <li><strong>Consistent</strong> - I can consistently deploy APIs.</li>
+  <li><strong>Multi-Platform</strong> - I can deploy with multiple providers.</li>
+  <li>
+    <p><strong>Defined</strong> - My deployment process is mapped out.</p>
+  </li>
+  <li>
+    <p><strong>Management</strong></p>
+  </li>
+  <li><strong>Consistent</strong> - All APIs can be consistently managed.</li>
+  <li>
+    <p><strong>Visibility</strong> - You can see into how APIs are used.</p>
+  </li>
+  <li>
+    <p><strong>Platform</strong></p>
+  </li>
+  <li><strong>Organized</strong> - My APIs exist in defined workspaces.</li>
+  <li><strong>Private</strong> - I can maintain privacy when needed.</li>
+  <li><strong>Public</strong> - I can make things public as needed.</li>
+  <li><strong>Sync</strong> - I can sync with other platforms.</li>
+  <li><strong>Integration</strong> - I can integrate with other platforms.</li>
+  <li><strong>Centralized</strong> - Work can be centralized for scale.</li>
+  <li><strong>Localized</strong> - Work can be localized for individuals.</li>
+  <li><strong>Portable</strong> - I can sync, integrate, export and share everything.</li>
+  <li><strong>Executable</strong> - Everything on my platform is executable.</li>
+  <li>
+    <p><strong>Machine Readable</strong> - Everything produces an artifact.</p>
+  </li>
+  <li>
+    <p><strong>Orchestration</strong></p>
+  </li>
+  <li><strong>Collecitons</strong> - The collection as central unit of currency.</li>
+  <li><strong>Runners</strong> - Being able to run my collections as I need.</li>
+  <li><strong>Monitors</strong> - Letting me schedule the runs of collections.</li>
+  <li><strong>Environments</strong> - Terraforming of environments to evolve.</li>
+  <li><strong>Pipelines</strong> - Deploy code using repeatable, tested pipelines.</li>
+  <li>
+    <p><strong>Events</strong> - Make my world about responding to events not just requests.</p>
+  </li>
+  <li>
+    <p><strong>Access Control</strong></p>
+  </li>
+  <li><strong>Organization</strong> - We can control access across teams.</li>
+  <li><strong>Teams</strong> - I can manage access at the team level.</li>
+  <li><strong>APIs</strong> - I can manage access at the aPI level.</li>
+  <li><strong>Collections</strong> - I can manage access at the collection level.</li>
+  <li><strong>Environments</strong> - I can manage access at the environment level.</li>
+  <li><strong>Scripts</strong> - I can can manage access to all the scripts.</li>
+  <li>
+    <p><strong>Mock Servers</strong> - I can manage access to mock servers.</p>
+  </li>
+  <li>
+    <p><strong>Discovery</strong></p>
+  </li>
+  <li><strong>Private</strong> - Discoverable via private networks and workspaces.</li>
+  <li><strong>Partner</strong> - Discoverable via partner networks and workspaces.</li>
+  <li><strong>Public</strong> - Discoverable via public networks and workspaces.</li>
+  <li><strong>Automated</strong> - Make everything discoverable by default for me.</li>
+  <li><strong>Integration</strong> - I have a wealth of 3rd party integrations available.</li>
+  <li>
+    <p><strong>Search</strong> - You can search across APIs and operations.</p>
+  </li>
+  <li>
+    <p><strong>Observability</strong></p>
+  </li>
+  <li><strong>Teams</strong> - You can see across teams.</li>
+  <li><strong>Workspaces</strong> - You can see across workspaces.</li>
+  <li><strong>Documented</strong> - I can see docs for everything.</li>
+  <li><strong>Tests</strong> - Everything can have a test.</li>
+  <li><strong>Scripts</strong> - I can holistically manage scripts.</li>
+  <li><strong>Monitoring</strong> - I can monitor everything.</li>
+  <li><strong>Management</strong> - I can see all API usage.</li>
+  <li><strong>History</strong> - All API activity is logged.</li>
+  <li><strong>Activity</strong> - All management activity is logged.</li>
+  <li><strong>Provenance</strong> - Everything is reverse engineer-able.</li>
+  <li>
+    <p><strong>Traceability</strong> - All requests have unique ID.</p>
+  </li>
+  <li>
+    <p><strong>Awareness</strong></p>
+  </li>
+  <li><strong>Insights</strong> - Postman regularly shows me new things about my own APIs.</li>
+  <li><strong>Zeitgeist</strong> - Postman provides the pulse of I need to stay in tune with.</li>
+  <li><strong>Reports</strong> - I have reporting for every dimension that is available to me.</li>
+  <li>
+    <p><strong>Prioritize</strong> - Postman has helped me understand what is a priority.</p>
+  </li>
+  <li>
+    <p><strong>Security</strong></p>
+  </li>
+  <li><strong>Scanning</strong> - I need help scanning the growing sprawl I am building.</li>
+  <li><strong>Standardization</strong> - Helping me do things using proven standards.</li>
+  <li>
+    <p><strong>Privacy</strong> - Help me understand and protect privacy across my API infrastructure.</p>
+  </li>
+  <li>
+    <p><strong>Feedback Loops</strong></p>
+  </li>
+  <li><strong>Discussions</strong> - There are discussions across teams.</li>
+  <li><strong>Comments</strong> - All artifacts have inline comments.</li>
+  <li>
+    <p><strong>Change Log</strong> - You can see what happened asynchronously.</p>
+  </li>
+  <li>
+    <p><strong>Community</strong></p>
+  </li>
+  <li><strong>Discovery</strong> - I am regularly discovering new code, process, and techniques using Postman.</li>
+  <li><strong>Network</strong> - I see Postman as a social network before I see it being about APIs.</li>
+  <li><strong>Rating</strong> - There is a social rating system in place on top of the Postman platform.</li>
+  <li><strong>Public</strong> - Postman is the public place I go to find out what is happening with APIs.</li>
+  <li><strong>Taxonomy</strong> - An organic taxonomy of topics, labels, and other elements surfaces.</li>
+  <li><strong>People</strong> - Even with its technological roots, Postman is now very much about people and teams.</li>
+</ul>
+
+<h3 id="distilling-all-of-that-down">Distilling All of That Down</h3>
+
+<p>As I sit here thinking about what GitHub has done for me with code, and what Postman will do for me with APIs loaded in my head I can comfortably sit back and ponder on the shift we are going to need in the API universe. I see a little over 10 years of GitHub and 5 years of Postman in my head. I can think about the fundamental shifts in how I work because of both GitHub and Postman. I am spending tie thinking about what I want, but also other what business and technical leadership is going to want from their own API infrastructure and their service providers. Most importantly I want to also make sure I tune into what developers on the ground within the enterprise, small business, and other independent shops will want when it comes to their API operations. Here is what I distilled all this brainstorming down into…</p>
+
+<ul>
+  <li><strong>About the Organization and People</strong> - Postman has to address the organizational shift that has been set into motion with APIs, helping strike a balance between the business and human needs and motivations that exist across an organization or even an industry.</li>
+  <li><strong>Stabilizing Private, Partner, and Public</strong> - Private, partner, and public APIs has long been used to describe the critical ways in which organizations do aPIs, and Postman has to help draw definitive lines, provide enterprise grade access control, and whatever is needed to navigate these layers.</li>
+  <li><strong>Bringing Consistency and Reliability</strong> - Doing APIs well is difficult at scale, and Postman has to help API providers achieve more heightened levels of consistency and reliability across operations by helping standardize and test APIs across the entire API life cycle.</li>
+  <li><strong>Discoverable and Tangible by Default</strong> - The number of APIs are growing and we are all going to need help making sure what we are building is tangible, meaningful, and discoverable, otherwise it will get lost in the noise of the API factory floor that is perpetually moving forward in tomorrow.</li>
+  <li><strong>Everything is Portable and Executable</strong> - Postman has to make not just APIs, but the infrastructure we use to deliver them as portable, executable, reusable as possible helping API providers build out their API factor floors in a way that evolve in the same ways we are enabling our web, mobile, device and network apps.</li>
+  <li><strong>Security and Privacy Baked Into DNA</strong> - Keeping our infrastructure secure is only going to get harder, and API providers and consumers. need as much help as they can get when it comes to identity, authentication, scanning, standards, vulnerabilities, dependencies, and everything else plaguing the digital world.</li>
+  <li><strong>Healthy Observability and Accountable</strong> - Postman provides a wealth of existing outputs from the enterprise factory floor that can be harvest and used to make sense of what is going on, introducing healthier levels of observability and accountability across how APIs are doing what they do.</li>
+  <li><strong>he Tooling for Orchestrating it All</strong> - The Postman platform provides all of the desktop, web, and open source tooling for delivering APIs throughout over time, helping API providers make sense of their ever evolving enterprise landscape, while also empowering API consumers to keep up with the pace of change.
+If Postman is going to do for APIs what GitHub has done for code, I feel like it has to be rooted in these areas. I was using Git long before GitHub came along. It was their very public and social usage of Git that shifted my behavior. GitHub provided me with tools to help address the growing need to do business on the open web, as well as within the enterprise. GitHub helped play a role it breaking down the proprietary enterprise software monolith by applying a more modular, open source, versioned, and human way of moving software forward. Postman needs to ensure that many of the nutrients that allowed the GitHub community to flourish out in the open as well as on-premise within the enterprise firewall exists. However, Postman also has to help lead the conversation when it comes to API at this level because we are in uncharted territory and the GitHub blueprint doesn’t provide us with everything we need to drive the conversation in the next decade, but it can help inform us.</li>
+</ul>
+
+<p>That was a pretty fun exercise. I do not do this because I think it holds all the answers. I don’t do these because I think anyone is going to read it all and understand where I am coming from. I do it because it helps me see the entire chess board. It also provides me with a game to play in my head while trying to relax. I don’t see this as work. I like thinking about the moving parts of the API life cycle. If nothing else I am just more equipped for my next conversation with a customer about APIs, and all of these nuggets are on the tip of my tongue, ready to be spoke.</p>
+</p>
+  
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="col">
+          <style>
+            ul.cloud {
+              list-style: none;
+              padding-left: 0;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              line-height: 1.5rem;
+            }
+            ul.cloud a {
+              color: #a33;
+              display: block;
+              font-size: 1.5rem;
+              padding: 0.125rem 0.25rem;
+              text-decoration: none;
+              position: relative;
+              opacity: calc((15 - (9 - var(--size))) / 15); 
+            }
+
+            ul.cloud a[data-weight="1"] { --size: 1; }
+            ul.cloud a[data-weight="2"] { --size: 2; }
+            ul.cloud a[data-weight="3"] { --size: 3; }
+            ul.cloud a[data-weight="4"] { --size: 4; }
+            ul.cloud a[data-weight="5"] { --size: 5; }
+            ul.cloud a[data-weight="6"] { --size: 6; }
+            ul.cloud a[data-weight="7"] { --size: 7; }
+            ul.cloud a[data-weight="8"] { --size: 8; }
+            ul.cloud a[data-weight="9"] { --size: 9; }
+
+            ul.cloud li:nth-child(2n+1) a { --color: #181; }
+            ul.cloud li:nth-child(3n+1) a { --color: #33a; }
+            ul.cloud li:nth-child(4n+1) a { --color: #c38; }
+          </style>
+
+          <ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+              
+              <li><a data-weight="4" href="/search/?search=Strategy&searchFields=tags" style="text-decoration: underline;">#Strategy</a></li>
+              
+              <li><a data-weight="4" href="/search/?search=Operations&searchFields=tags" style="text-decoration: underline;">#Operations</a></li>
+              
+              <li><a data-weight="4" href="/search/?search=Lifecycle&searchFields=tags" style="text-decoration: underline;">#Lifecycle</a></li>
+              
+              <li><a data-weight="4" href="/search/?search=Resources&searchFields=tags" style="text-decoration: underline;">#Resources</a></li>
+               
+          </ul>    
+        </div>
+      </div>
+    </section>    
+
+    <!-- Begin Post Editor -->
+    <section class="mb-8">   
+      
+      <script>
+        var require = { paths: { vs: '/assets/js/monaco-editor/min/vs' } };
+      </script>
+      <script src="/assets/js/monaco-editor/min/vs/loader.js"></script>
+      <script src="/assets/js/monaco-editor/min/vs/editor/editor.main.js"></script>          
+
+      <div class="accordion" id="postEditorBox">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#postEditorWrapper" aria-expanded="true" aria-controls="postEditorWrapper">
+              Editor
+            </button>
+          </h2>
+          <div id="postEditorWrapper" class="accordion-collapse collapse show" data-bs-parent="#postEditorBox">
+            <div class="accordion-body">
+
+            <!-- Post Editor Listing -->
+            <a name="monaco"></a>
+            <div id="post-editor" style="width: 100%; height: 450px; margin: 10px;"></div>
+            <script>
+              var PostEditor = monaco.editor.create(document.getElementById('post-editor'), {
+                value: [''].join('\n'),
+                language: 'markdown',
+                options:{
+                      wordWrap: "on",
+                    }       
+              });
+
+              PostEditor.updateOptions({ wordWrap: "on" })
+              PostEditor.getModel().onDidChangeContent((event) => {
+                if(event.isFlush){
+                  // Setting up
+                }
+                else{
+                  savePostLocal(); 
+                }
+              });        
+            </script>  
+            <!-- Post Properties Listing -->
+
+          </div>
+        </div>
+      </div>
+      </div>         
+    
+    </section>   
+    <!-- End Post Editor -->         
+
+  </div>
+</div>
+
+<script>  
+ 
+  document.getElementById("postEditorWrapper").classList.remove('show');
+
+  function getPost(){
+
+    const options = {
+        method: 'GET'
+    };  
+    fetch('https://posts-api.apievangelist.com/posts' + postId,options)
+        .then(function(response) {
+            if (!response.ok) {
+                console.log('Error with Status Code: ' + response.status);
+            }
+            response.json().then(function(response) {               
+
+              var post = response.data.post;
+              //post = post.replace(">-","");
+              post = post.trim();
+              var converter = new showdown.Converter(),
+              body_html = converter.makeHtml(response.data.body);
+              
+              document.getElementById("post-name-header").innerHTML = response.data.title;
+              document.getElementById("post-image-header").src = response.data.image;
+              //document.getElementById("post-description-paragraph").innerHTML = body_html;
+            
+              PostEditor.setValue(post);
+
+              // Any changes?
+              if(response.data.changes == 1){
+                document.getElementById("commit-banner").style.display = '';
+                document.getElementById("commit-button-wrapper").style.display = '';             
+              }              
+
+
+            });
+          })
+          .catch(function(err) {
+              console.log('Error: ' + err);
+      });  
+  }
+
+
+  getPost();
+  
+  // Edit Post Modal Save
+  function savePostLocal(){
+  
+    var post_yaml = PostEditor.getValue();
+    var post = jsyaml.load(post_yaml);
+  
+    var postName = post.name
+    var postDescription = post.description;
+
+    // Update Post
+    document.getElementById("post-name-header").innerHTML = postName;
+    document.getElementById("post-description-paragraph").innerHTML = postDescription;
+    
+    //post_yaml = jsyaml.dump(post);  
+    //PostEditor.setValue(post_yaml);  
+  
+    document.getElementById("save-banner").style.display = '';
+    document.getElementById("save-button-wrapper").style.display = '';
+  
+    document.getElementById("commit-banner").style.display = 'none';
+    document.getElementById("commit-button-wrapper").style.display = 'none'; 
+  
+  }
+  
+  function savePost(){
+
+    var organization = "api-evangelist";
+  
+    if(Cookies.get('access_token')){
+
+      var changes_name = document.getElementById("post-changes-name").value;
+      var changes_description = document.getElementById("post-changes-description").value;
+    
+      var post_yaml = PostEditor.getValue();
+      var post_json = jsyaml.load(post_yaml);    
+    
+      const options = {
+        method: 'put',
+        headers: {
+            "Content-Type": "application/json"                 
+        },    
+        body: JSON.stringify(post_json)
+      };
+      var github_url = 'https://posts-api.apievangelist.com/posts/' + postId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
+      //console.log(github_url);
+      fetch(github_url, options)
+        .then(function (response) {
+          if (!response.ok) {
+            document.getElementById("error-banner").style.display = '';
+            document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
+          }
+          response.json().then(function (response) {
+            //savePost();    
+          });
+        })
+        .catch(function (err) {
+          console.log('Error: ' + err);
+        });
+  
+      document.getElementById("save-banner").style.display = 'none';
+      document.getElementById("save-button-wrapper").style.display = 'none';    
+  
+      document.getElementById("commit-banner").style.display = '';
+      document.getElementById("commit-button-wrapper").style.display = '';   
+  
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
+    }
+
+  }
+
+function commitPost(){
+  
+  var organization = "api-evangelist";
+
+  if(Cookies.get('access_token')){
+
+    const options = {
+      method: 'put',
+      headers: {
+          "Content-Type": "application/json"                 
+      }
+    };
+
+    var github_url = 'https://posts-api.apievangelist.com/posts/' + postId + '/commit?organization=' + organization;
+    console.log(github_url);
+    fetch(github_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          document.getElementById("error-banner").style.display = '';
+          document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
+        }
+        response.json().then(function (response) {
+          if(response.data.file){
+            commitPost();
+          }
+          else{
+            document.getElementById("commit-banner").style.display = 'none';
+            document.getElementById("commit-button-wrapper").style.display = 'none';  
+          }         
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
+      });
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
+    }      
+
+}
+  </script>
+
+    </div>
+  </main>
+
+  <!-- Vendor JS -->
+  <script src="/assets/js/vendor.bundle.js"></script>
+
+  <!-- Theme JS -->
+  <script src="/assets/js/theme.bundle.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+---
+published: true
+layout: post
+title: >-
+  Making An API Request To Update Examples In My API Documentation And Power My
+  API Mocks
+image: >-
+  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_request_open_fda_update_docs.png
+author:
+  name: kinlane
+tags:
+  - Examples
+  - Documentations
+  - Mocks
+---
+As I was working to improve upon a couple of the API collections I’m building, and trying to assess at what constitutes a “complete enough” or “robust enough” collection, I noticed how the process within Postman is iterative, outcome based, and driven from actual requests and responses. Meaning a complete enough Postman collection is relative to the outcomes I’m looking for—things like documentation and mock APIs. To be able to achieve robust API documentation and mocks I simply need to add my API request, successfully make a call to my API defined, and save the response as part of my API collection. Then, once I’m ready, all I need to do to update my API documentation and generation API mocks is to hit publish for each of these desired outcomes. Making the documenting and mocking of APIs very straightforward and logical for me.  
+  
+I will be stepping through my API profiling process again and writing a fresh post on how I profile the operational and API level data of the companies, organizations, institutions, and government agencies I’m covering. Have an example of each API request to not just round off the definition of an API so I have an understanding of the schema being applied is valuable, but I’m finding that making sure I have it in service of documentation, mocking, testing, and other essential stops along the lifecycle makes it more meaningful and valuable. Personally, I want the request and response for each API I’m profiling to help increase the surface area of each API I have for better search-ability. However, thinking about making it so anyone can find the API and more easily put it to use with more complete documentation is another bar to set for my profiling work—making I more valuable to my audience.  
+  
+Managing my profiling of APIs using Postman and specifically as Postman collections is changing I’m profiling the API sector, and how I see the API lifecycle. I’ve long seen the valuable of an API definition when it comes to documenting an API, and even mocking an API. However, seeing the definition play a central, real time role in defining how I create, evolve, and communicate the value of any single API is taking things up another level for me. I don’t just produce a static JSON or YAML definition and hit publish, and be done with it. As a Postman Collection, my API definition is a living interactive representation of the value an API delivers, and on a regular basis I’m using that definition to execute real API calls, and taking those requests and responses and translate them into more meaningful documentation, usable mocks, as well as code snippets, tests, and other essential stops along the API lifecycle. This is a tough thing to convey if you aren’t actively maintaining many different APIs as collections—you might be scratching your head to understand the nuance of the process. I’ll have to work on more stories to help illustrate what I am talking about.  
+  
+I guess the point of this posts is that updating your documentation shouldn’t be an after thought. Extra work. Something else you have to do. Creating and publishing up to date API documentation for your APIs should be part of your regular operations and build process. You should be able to create documentation from the operation of your actual APIs like Postman does. If you have to hand-craft responses and examples the chance that you will get things wrong increases—why not just do it from real world requests. One of the items on my checklist for each API collection is “does every request have an example”? I have a very long checklist, but this is one of the new ones I’m adding to help me determine how complete and mature an API collection is. If an API definition doesn’t have examples associated with the collection it means that I probably haven’t successfully made an API call with the collection which means it is most likely not an accurate representation, and it means that I won’t be able to publish meaningful API documentation for consumers. This means the collection I am managing isn’t acceptable, and is not ready for prime time.

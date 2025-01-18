@@ -1,0 +1,1915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>State of APIs In The Federal Government
+    </title>        
+    <meta name="description" content="Managing API operations." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      (() => {
+        'use strict';
+  
+        const getStoredTheme = () => localStorage.getItem('theme');
+        const setStoredTheme = (theme) => localStorage.setItem('theme', theme);
+  
+        const getPreferredTheme = () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme) {
+            return storedTheme;
+          }
+  
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        };
+  
+        const setTheme = (theme) => {
+          if (theme === 'auto') {
+            document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          } else {
+            document.documentElement.setAttribute('data-bs-theme', theme);
+          }
+        };
+  
+        setTheme(getPreferredTheme());
+  
+        const showActiveTheme = (theme, focus = false) => {
+          const themeSwitchers = document.querySelectorAll('[data-bs-theme-switcher]');
+  
+          themeSwitchers.forEach((themeSwitcher) => {
+            const themeSwitcherIcon = themeSwitcher.querySelector('.material-symbols-outlined');
+            themeSwitcherIcon.innerHTML = theme === 'light' ? 'light_mode' : theme === 'dark' ? 'dark_mode' : 'contrast';
+  
+            if (focus) {
+              themeSwitcher.focus();
+            }
+          });
+  
+          document.querySelectorAll('[data-bs-theme-value]').forEach((element) => {
+            element.classList.remove('active');
+            element.setAttribute('aria-pressed', 'false');
+  
+            if (element.getAttribute('data-bs-theme-value') === theme) {
+              element.classList.add('active');
+              element.setAttribute('aria-pressed', 'true');
+            }
+          });
+        };
+  
+        const refreshCharts = () => {
+          const charts = document.querySelectorAll('.chart-canvas');
+  
+          charts.forEach((chart) => {
+            const chartId = chart.getAttribute('id');
+            const instance = Chart.getChart(chartId);
+  
+            if (!instance) {
+              return;
+            }
+  
+            if (instance.options.scales.y) {
+              instance.options.scales.y.grid.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-border-color');
+              instance.options.scales.y.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+  
+            if (instance.options.scales.x) {
+              instance.options.scales.x.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+  
+            if (instance.options.elements.arc) {
+              instance.options.elements.arc.borderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+              instance.options.elements.arc.hoverBorderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+            }
+  
+            instance.update();
+          });
+        };
+  
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme !== 'light' && storedTheme !== 'dark') {
+            setTheme(getPreferredTheme());
+          }
+        });
+  
+        window.addEventListener('DOMContentLoaded', () => {
+          showActiveTheme(getPreferredTheme());
+  
+          document.querySelectorAll('[data-bs-theme-value]').forEach((toggle) => {
+            toggle.addEventListener('click', (e) => {
+              e.preventDefault();
+              const theme = toggle.getAttribute('data-bs-theme-value');
+              setStoredTheme(theme);
+              setTheme(theme);
+              showActiveTheme(theme, true);
+              refreshCharts();
+            });
+          });
+        });
+      })();
+    </script>
+
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="State of APIs In The Federal Government by The API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image"  content="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-government.png">    
+  
+     
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+
+    <link rel="stylesheet" href="/assets/css/choices.css" />
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+  
+    <!-- Fonts and icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+  
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
+  
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="/assets/css/theme.bundle.css" />
+  
+    <script src="/assets/js/customize.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/showdown.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/turndown.js"></script>
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+      function getQueryVariable(variable) {
+          var query = window.location.search.substring(1);
+          var vars = query.split('&');
+          for (var i = 0; i < vars.length; i++) {
+              var pair = vars[i].split('=');
+              if (decodeURIComponent(pair[0]) == variable) {
+                  return decodeURIComponent(pair[1]);
+              }
+          }
+          console.log('Query variable %s not found', variable);
+      }       
+    </script>
+
+  <link rel="stylesheet" data-name="vs/editor/editor.main" href="/assets/js/monaco-editor/min/vs/editor/editor.main.css" />    
+  <script src="/assets/js/js-yaml.min.js"></script>    
+
+  <link href="/assets/css/use-bootstrap-tag.min.css" rel="stylesheet">
+  <script src="/assets/js/use-bootstrap-tag.min.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T2YNJ0FDGE');
+  </script>
+
+  <style>
+    .tm-timeline {
+        box-sizing: border-box;
+        * {
+            box-sizing: border-box;
+        }
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: calc(30% - 2px);
+            bottom: 0;
+            width: 4px;
+            background: #676f7e;
+        }
+
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+
+    .tm-timeline-entry {
+        + .tm-timeline-entry{
+            margin-top: 70px;
+        }
+        clear: both;
+        text-align: left;
+        position: relative;
+
+        &:after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+
+        .tm-timeline-time {
+            float: left;
+            width: 30%;
+            padding-right: 70px;
+            text-align: right;
+            position: relative;
+
+            &:before {
+                content: '';
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border: 4px solid #676f7e;
+                background-color: #fff;
+                border-radius: 100%;
+                top: 0;
+                right:  -10px;
+                z-index: 99;
+            }
+
+            h5 {
+                margin: 3px 0 0;
+            }
+        }
+
+        .tm-timeline-body {
+            float: right;
+            width: 70%;
+            top: 15px;
+            padding-top: 3px;
+            padding-left: 70px;
+            h3 {
+                margin: 0 0 15px;
+                span {
+                    padding: 1px 7px;
+                }
+            }
+
+        }    
+
+      pre code {
+        display: block;
+        background: none;
+        white-space: pre;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: scroll;
+        max-width: 100%;
+        min-width: 100px;
+        padding: 0;
+      }        
+  </style>  
+  </head>
+
+<body>
+
+  <!-- Sidenav -->
+<!-- Sidenav (sm) -->
+<aside class="aside aside-sm d-none d-xl-flex">
+  <nav class="navbar navbar-expand-xl navbar-vertical">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="sidenavSmallCollapse">
+        <!-- Nav -->
+        <nav class="navbar-nav nav-pills h-100">
+          <div class="nav-item">
+            <div data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover" data-bs-title="Color mode">
+              <a class="nav-link" data-bs-toggle="collapse" data-bs-theme-switcher href="#colorModeOptions"
+                role="button" aria-expanded="false" aria-controls="colorModeOptions">
+                <span class="material-symbols-outlined mx-auto"> </span>
+              </a>
+            </div>
+            <div class="collapse" id="colorModeOptions">
+              <div class="border-top border-bottom py-2">
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Light" data-bs-theme-value="light" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> light_mode </span>
+                </a>
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Dark" data-bs-theme-value="dark" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> dark_mode </span>
+                </a>
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Auto" data-bs-theme-value="auto" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> contrast </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover"
+            data-bs-title="Go to product page">
+            <a class="nav-link" href="https://themes.getbootstrap.com/product/dashbrd/" target="_blank">
+              <span class="material-symbols-outlined mx-auto"> local_mall </span>
+            </a>
+          </div>
+          <div class="nav-item mt-auto" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover"
+            data-bs-title="Contact us">
+            <a class="nav-link" href="mailto:info@apievangelist.com">
+              <span class="material-symbols-outlined mx-auto"> support </span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </nav>
+</aside>
+
+  <!-- Sidenav (lg) -->
+<aside class="aside">
+  <nav class="navbar navbar-expand-xl navbar-vertical">
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://apievangelist.com">
+        <center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" width="200" style="margin-bottom: 25px; margin-top: -5px; "></center>
+      </a>
+
+      <!-- User -->
+      <div class="ms-auto d-xl-none">
+        <div class="dropdown my-n2">
+          <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+              <img class="avatar-img" src="/assets/img/photos/kinlane.jpg" alt="..." />
+            </span>
+            Kin Lane
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#sidenavLargeCollapse"
+        aria-controls="sidenavLargeCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="sidenavLargeCollapse">
+
+        <!-- Search -->
+        <div class="input-group d-xl-none my-4 my-xl-0">
+          <input class="form-control" id="topnavSearchInputMobile" type="search" placeholder="Search"
+            aria-label="Search" aria-describedby="navbarSearchMobile" />
+          <span class="input-group-text" id="navbarSearchMobile">
+            <span class="material-symbols-outlined"> search </span>
+          </span>
+        </div>              
+          
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Learnings</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Posts" rol="button"
+                aria-expanded="false" aria-controls="Posts">
+                  <span class="material-symbols-outlined me-3">auto_stories</span> Posts
+                </a>
+                <div class="collapse" id="Posts">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/categories">Categories</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/2025/">Posts</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Conversations" rol="button"
+                aria-expanded="false" aria-controls="Conversations">
+                  <span class="material-symbols-outlined me-3">forum</span> Conversations
+                </a>
+                <div class="collapse" id="Conversations">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://conversations.apievangelist.com">All Conversations</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Guidance" rol="button"
+                aria-expanded="false" aria-controls="Guidance">
+                  <span class="material-symbols-outlined me-3">fork_left</span> Guidance
+                </a>
+                <div class="collapse" id="Guidance">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://guidance.apievangelist.com">All Guidance</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Questions" rol="button"
+                aria-expanded="false" aria-controls="Questions">
+                  <span class="material-symbols-outlined me-3">quiz</span> Questions
+                </a>
+                <div class="collapse" id="Questions">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://qa.apievangelist.com">All Questions</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Videos" rol="button"
+                aria-expanded="false" aria-controls="Videos">
+                  <span class="material-symbols-outlined me-3">video_library</span> Videos
+                </a>
+                <div class="collapse" id="Videos">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://video.apievangelist.com">All Videos</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Timeline" rol="button"
+                aria-expanded="false" aria-controls="Timeline">
+                  <span class="material-symbols-outlined me-3">timeline</span> Timeline
+                </a>
+                <div class="collapse" id="Timeline">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/api/">API</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/resources/">Resource</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/industry/">Industry</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Contracts</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Contracts" rol="button"
+                aria-expanded="false" aria-controls="Contracts">
+                  <span class="material-symbols-outlined me-3">contract</span> Contracts
+                </a>
+                <div class="collapse" id="Contracts">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/new/">New Contract</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com">All Contracts</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Produced" rol="button"
+                aria-expanded="false" aria-controls="Produced">
+                  <span class="material-symbols-outlined me-3">factory</span> Produced
+                </a>
+                <div class="collapse" id="Produced">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/internal/">Internal</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/1st-party/">1st-Party</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/3rd-party/">3rd-Party</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Consumed" rol="button"
+                aria-expanded="false" aria-controls="Consumed">
+                  <span class="material-symbols-outlined me-3">apps</span> Consumed
+                </a>
+                <div class="collapse" id="Consumed">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/internal/">Internal</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/1st-party/">1st-Party</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/3rd-party/">3rd-Party</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">Individual APIs</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#APIs" rol="button"
+                aria-expanded="false" aria-controls="APIs">
+                  <span class="material-symbols-outlined me-3">api</span> APIs
+                </a>
+                <div class="collapse" id="APIs">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apis.apievangelist.com">All APIs</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Governance</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Standards" rol="button"
+                aria-expanded="false" aria-controls="Standards">
+                  <span class="material-symbols-outlined me-3">extension</span> Standards
+                </a>
+                <div class="collapse" id="Standards">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://standards.apievangelist.com">All Standards</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Strategies" rol="button"
+                aria-expanded="false" aria-controls="Strategies">
+                  <span class="material-symbols-outlined me-3">tactic</span> Strategies
+                </a>
+                <div class="collapse" id="Strategies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://strategies.apievangelist.com">All Strategies</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Experiences" rol="button"
+                aria-expanded="false" aria-controls="Experiences">
+                  <span class="material-symbols-outlined me-3">engineering</span> Experiences
+                </a>
+                <div class="collapse" id="Experiences">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://experiences.apievangelist.com">All Experiences</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Properties" rol="button"
+                aria-expanded="false" aria-controls="Properties">
+                  <span class="material-symbols-outlined me-3">list_alt_check</span> Properties
+                </a>
+                <div class="collapse" id="Properties">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://properties.apievangelist.com">All Properties</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Policies" rol="button"
+                aria-expanded="false" aria-controls="Policies">
+                  <span class="material-symbols-outlined me-3">policy</span> Policies
+                </a>
+                <div class="collapse" id="Policies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com">All</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/business/">Business</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/technical/">Technical</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/standards/">Standards</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Rules" rol="button"
+                aria-expanded="false" aria-controls="Rules">
+                  <span class="material-symbols-outlined me-3">rule</span> Rules
+                </a>
+                <div class="collapse" id="Rules">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com">All Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/apis-json/">APIs.json Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/openapi/">OpenAPI Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/json-schema/">JSON Schema Rules</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Vocabularies" rol="button"
+                aria-expanded="false" aria-controls="Vocabularies">
+                  <span class="material-symbols-outlined me-3">dictionary</span> Vocabularies
+                </a>
+                <div class="collapse" id="Vocabularies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/words/a">Words</a>
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/nodes/">Nodes</a>
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/glossary/">Glossary</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Solutions</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Services" rol="button"
+                aria-expanded="false" aria-controls="Services">
+                  <span class="material-symbols-outlined me-3">design_services</span> Services
+                </a>
+                <div class="collapse" id="Services">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://services.apievangelist.com">All Services</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Tools" rol="button"
+                aria-expanded="false" aria-controls="Tools">
+                  <span class="material-symbols-outlined me-3">construction</span> Tools
+                </a>
+                <div class="collapse" id="Tools">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://tool.apievangelist.com">All Tools</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Discovery</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Discovery" rol="button"
+                aria-expanded="false" aria-controls="Discovery">
+                  <span class="material-symbols-outlined me-3">search</span> Discovery
+                </a>
+                <div class="collapse" id="Discovery">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/inbox/">Inbox</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/bing/">Bing</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/google/">Google</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/github/">GitHub</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Evidence" rol="button"
+                aria-expanded="false" aria-controls="Evidence">
+                  <span class="material-symbols-outlined me-3">fingerprint</span> Evidence
+                </a>
+                <div class="collapse" id="Evidence">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://evidence.apievangelist.com/inbox/">Inbox</a>
+                     
+                    <a class="nav-link" href="https://evidence.apievangelist.com/bookmarks/">Bookmarks</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Building Blocks</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Components" rol="button"
+                aria-expanded="false" aria-controls="Components">
+                  <span class="material-symbols-outlined me-3">widget_small</span> Components
+                </a>
+                <div class="collapse" id="Components">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://parameters.apievangelist.com">Parameters</a>
+                     
+                    <a class="nav-link" href="https://headers.apievangelist.com">Headers</a>
+                     
+                    <a class="nav-link" href="https://responses.apievangelist.com">Responses</a>
+                     
+                    <a class="nav-link" href="https://schema.apievangelist.com">Schema</a>
+                     
+                    <a class="nav-link" href="https://overlays.apievangelist.com">Overlays</a>
+                     
+                    <a class="nav-link" href="https://blueprints.apievangelist.com">Blueprints</a>
+                     
+                    <a class="nav-link" href="https://bases.apievangelist.com">Bases</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Utilities" rol="button"
+                aria-expanded="false" aria-controls="Utilities">
+                  <span class="material-symbols-outlined me-3">build</span> Utilities
+                </a>
+                <div class="collapse" id="Utilities">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/yaml-to-json/">YAML to JSON</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-to-yaml/">JSON to YAML</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/merge-openapis/">Merge OpenAPIs</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/split-openapis/">Split OpenAPIs</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/postman-to-openapi/">Postman to OpenAPI</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-schema-yaml-validator/">JSON Schema YAML Validator</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-schema-basics/">JSON Schema Basics (Rules)</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Evangelist LLC</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#About" rol="button"
+                aria-expanded="false" aria-controls="About">
+                  <span class="material-symbols-outlined me-3">info</span> About
+                </a>
+                <div class="collapse" id="About">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/this-site">This Site</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Contact" rol="button"
+                aria-expanded="false" aria-controls="Contact">
+                  <span class="material-symbols-outlined me-3">contact_support</span> Contact
+                </a>
+                <div class="collapse" id="Contact">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/contact">Contact Form</a>
+                     
+                    <a class="nav-link" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+                     
+                    <a class="nav-link" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+                     
+                    <a class="nav-link" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+                     
+                    <a class="nav-link" href="https://buttondown.com/apievangelist">Newsletter</a>
+                     
+                    <a class="nav-link" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+                     
+                    <a class="nav-link" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+                     
+                    <a class="nav-link" href="https://www.postman.com/api-evangelist">Postman</a>
+                     
+                    <a class="nav-link" href="https://github.com/api-evangelist">GitHub</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Partner" rol="button"
+                aria-expanded="false" aria-controls="Partner">
+                  <span class="material-symbols-outlined me-3">handshake</span> Partner
+                </a>
+                <div class="collapse" id="Partner">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://partners.apievangelist.com">Information</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+                
+
+        <!-- Nav -->
+        <nav class="navbar-nav nav-pills d-xl-none mb-7">
+          <div class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" data-bs-theme-switcher href="#colorModeOptionsMobile"
+              role="button" aria-expanded="false" aria-controls="colorModeOptionsMobile">
+              <span class="material-symbols-outlined me-3"> </span> Color mode
+            </a>
+            <div class="collapse" id="colorModeOptionsMobile">
+              <div class="nav nav-pills">
+                <a class="nav-link" data-bs-theme-value="light" href="#" role="button"> Light </a>
+                <a class="nav-link" data-bs-theme-value="dark" href="#" role="button"> Dark </a>
+                <a class="nav-link" data-bs-title="Auto" data-bs-theme-value="auto" href="#" role="button"> Auto </a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://apievangelist.com" target="_blank">
+              <span class="material-symbols-outlined me-3">local_mall</span> Go to API Evangelist
+            </a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://apievangelist.com/contacts/">
+              <span class="material-symbols-outlined me-3">alternate_email</span> Contact Us
+            </a>
+          </div>
+        </nav>
+
+        <!-- Card -->
+        <div class="card mt-auto">
+          <div class="card-body">
+            <!-- Heading -->
+            <h6>Need help?</h6>
+
+            <!-- Text -->
+            <p class="text-body-secondary mb-0">Feel free to reach out to us should you have any questions or
+              suggestions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</aside>
+
+  <!-- Topnav -->
+<nav class="navbar d-none d-xl-flex px-xl-6">
+  <div class="container flex-column align-items-stretch">
+    <div class="row">
+      <div class="col-auto">
+        <!-- Search -->
+        <div class="input-group" style="max-width: 300px;">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search" aria-describedby="navbarSearch" id="topsearch" />
+          <span class="input-group-text" id="navbarSearch">
+            <kbd class="badge bg-body-secondary text-body">⌘</kbd>
+          </span>
+          <script>
+            const searchbox = document.getElementById('topsearch');
+            
+            searchbox.addEventListener('keydown', function(event) {
+              if (event.key === 'Enter') {
+                location.href='https://search.apievangelist.com?search=' + document.getElementById("topsearch").value;
+              }
+            });               
+          </script>          
+        </div>
+      </div>
+      <div class="col"> 
+        <div id="ticker-box" style="width: 100%; border: 0px solid #000; padding-top: 15px;">
+          <ul>
+            
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you know where all of your APIs are?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40qNzTt">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you have a source of truth for your schema?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40nVDnW">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you struggling with API sprawl?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40qNzTt">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need more reliable APIs?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fOZjn1">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need more consistent APIs?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/3DHez88">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need an open source replacement for Postman?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need an open source API client?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need an API client with native Git integration?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need a offline and local only API client?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Is your API defined as a Bruno collection?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you looking for an open-source API mocking solution?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need an open-source API testing solution?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you needing multi-specification API testing and mocking?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Take a Look at Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need industrial grade API testing and mocking?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Try Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Have you tried the new examples schema for mocking your API?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+            
+          </ul>
+        </div>        
+        <script>
+          function applyStyles(obj, styles) {
+            var property;
+            var styleLength = Object.keys(styles).length;
+            for (var i = 0; i < styleLength; i++) {
+              property = Object.keys(styles)[i];
+              obj.style[property] = styles[property];
+            }
+          }
+
+          function extend(object1, object2) {
+            for (var attrname in object2) {
+              object1[attrname] = object2[attrname];
+            }
+            return object1;
+          }
+
+          function startTicker(id, param) {
+            var tickerBox = document.getElementById(id);
+            var defaultParam = { speed: 5, delay: 500, rotate: true };
+            var extendedParam = extend(defaultParam, param);
+            applyStyles(tickerBox, { overflow: "hidden", 'min-height': '40px' });
+            var ul = tickerBox.getElementsByTagName("ul");
+            var li = ul[0].getElementsByTagName("li");
+            applyStyles(ul[0], { padding: 0, margin: 0, position: 'relative', 'list-style-type': 'none' });
+            for (i = 0; i < li.length; i++) {
+              applyStyles(li[i], { position: 'absolute', 'white-space': 'nowrap', display: 'none' });
+            }
+
+            var li_index = 0;
+            var trans_width = tickerBox.offsetWidth;
+            var chunk_width = 1;
+
+            var iterateTickerElement = function(trans_width) {
+              li[li_index].style.left = trans_width + "px";
+              li[li_index].style.display = '';
+              var t = setInterval(function() {
+                if (parseInt(li[li_index].style.left) > -li[li_index].offsetWidth) {
+                  li[li_index].style.left = parseInt(li[li_index].style.left) - chunk_width + "px";
+                } else {
+                  clearInterval(t);
+                  trans_width = tickerBox.offsetWidth;
+                  li_index++;
+                  if (li_index == li.length && extendedParam.rotate == true) {
+                    li_index = 0;
+                    iterateTickerElement(trans_width);
+                  } else if (li_index < li.length) {
+                    setTimeout(function() { iterateTickerElement(trans_width); }, extendedParam.delay);
+                  }
+                }
+              }, extendedParam.speed);
+              tickerBox.onmouseover = function() {
+                clearInterval(t);
+              }
+              tickerBox.onmouseout = function() {
+                iterateTickerElement(parseInt(li[li_index].style.left));
+              }
+            }
+            iterateTickerElement(trans_width);
+          }          
+        </script>  
+        <script>startTicker('ticker-box', {speed:7, delay:1000});</script>      
+      </div>
+      <div class="col-auto"> 
+
+        <!-- User -->
+        <a href="https://yj2hy2wwbjp4w2a4tkhyz3h6zu0woyft.lambda-url.us-east-1.on.aws/"><button type="button" id="account-button" class="btn btn-success">Login</button></a>
+        <div class="dropdown my-n2" id="account-dropdown" style="display: none;">
+          <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+              <img class="avatar-img" src="/assets/img/photos/kinlane.jpg" alt="..." />
+            </span>
+            Kin Lane
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li><a class="dropdown-item" href="#">Change password</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+
+        <script>
+          function getUrlVar(key){
+              var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search);
+              return result && unescape(result[1]) || "";
+          }          
+          var access_token = getUrlVar('access_token');
+          if(access_token!=''){
+            Cookies.set('access_token', access_token);
+          }
+          if(Cookies.get('access_token')){
+            document.getElementById("account-dropdown").style.display = '';
+            document.getElementById("account-button").style.display = 'none';
+          }
+        </script> 
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <!-- Main -->
+  <main class="main px-lg-6">
+    <!-- Content -->
+    <div class="container-lg">
+
+        <script>
+  var postId = '/2017/07/27/state-of-apis-in-the-federal-government/';
+  console.log("postId:" + postId);
+</script>
+
+<style>
+  img{
+    max-width:600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }  
+  </style>
+
+<div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+  You have made changes to the contract and will need to save.
+</div>
+
+<div id="commit-banner" class="alert alert-warning" role="alert" style="text-align: center; display: none;">
+  Changes have been made to this contract and will need committing to repo.
+</div>
+
+<div id="data-store" style="border: 1px solid #000; display: none;">
+  <input type="text" id="path" value="0">
+  <input type="text" id="page_start" value="0">
+  <input type="text" id="page_size" value="4">
+  <textarea id="posts-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="policies-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="rules-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-filter" style="width: 100%; height: 350px;">[]</textarea>
+</div>
+
+<div class="row gx-xl-9">
+
+  <div class="col-12 col-xxl-4 order-xxl-1">
+
+    <div class="position-sticky mb-8" style="top: 2rem">
+      <div class="card bg-body">
+        <div class="card-body py-4">
+          <!-- List -->
+          <ul class="list-group list-group-flush bg-body mb-0">
+            
+            <!--Begin Save Post Button-->
+            <div style="display: none; border: 0px #FFF;" id="save-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Save Post</strong></span>
+                <button id="save-button" type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#save-post">SAVE</button>
+              </li>  
+            </div> 
+            <!--End Save Post Button-->
+
+            <!--Begin Commit Post Button-->
+            <div style="display: none; border: 0px #FFF;" id="commit-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Commit Post</strong></span>
+                <button id="commit-button" type="button" class="btn btn-danger btn-sm" onclick="commitPost();">COMMIT</button>
+              </li>  
+            </div> 
+            <!--End Commit Post Button--> 
+
+            
+            
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Published</span>
+              <time datetime="2017-07-27">2017-07-27</time>
+            </li>
+
+               
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Author</span>
+              <span class="badge bg-success-subtle text-success"></span>
+            </li>                     
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="api-evangelist-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>API Evangelist Services</strong>
+                <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40qNzTt" target="_blank" id="api-evangelist-service-1">Do you know where all of your APIs are?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40nVDnW" target="_blank" id="api-evangelist-service-2">Do you have a source of truth for your schema?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callService(){
+
+                console.log("Calling API Evangelist Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/api-evangelist/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>API Evangelist Services</strong><div onclick="location.href=' + "'" + 'https://services.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="api-evangelist-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="api-evangelist-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("api-evangelist-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotateService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotateService(){
+
+                console.log("Rotating API Evangelist Service!");
+
+                document.getElementById("api-evangelist-service-1").className = "blink_me";
+                document.getElementById("api-evangelist-service-2").className = "blink_me";
+
+                setTimeout(function() { callService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotateService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+    <br>
+    <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="partner-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>Partner Services</strong>
+                      <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/4fpe6FO" target="_blank" id="partner-service-1">Do you need an open source replacement for Postman?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/4fpe6FO" target="_blank" id="partner-service-2">Need an open source API client?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callPartnerService(){
+
+                console.log("Calling Partner Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/partners/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>Partner Services</strong><div onclick="location.href=' + "'" + 'https://partners.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="partner-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="partner-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("partner-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotatePartnerService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotatePartnerService(){
+
+                console.log("Rotating Partner Service!");
+
+                document.getElementById("partner-service-1").className = "blink_me";
+                document.getElementById("partner-service-2").className = "blink_me";
+
+                setTimeout(function() { callPartnerService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotatePartnerService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+
+  </div>
+
+  <div class="col-12 col-xxl-8 order-xxl-0">
+
+    <section>
+      <div class="row">
+        <div class="col">
+  
+          <!-- Heading -->
+          
+          <h3 class="fs-3 mb-5" id="post-name-header" style="text-align: center;">State of APIs In The Federal Government</h3>
+          <center><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-government.png" width="95%" align="center" style="padding: 15px;" id="post-image-header"></center>      
+          <!-- Text -->
+          <p id="post-description-paragraph"><p><em>This is my talk from Washington DC with Steve Willmott of <a href="https://www.3scale.net/">3Scale</a> by <a href="https://www.redhat.com">Red Hat</a> about <a href="http://redhatapievents.com/dc">transforming enterprise IT with containers, APIs, and integration</a>, where I assess the current state of APIs in the federal government, and the opportunity in the private sector when it comes to working with government data.</em></p>
+
+<p><strong>API Evangelist</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/kin-lane-api-evangelist-cartoon.png" width="12%" style="padding: 15px;" align="right" /></p>
+<p>My name is Kin Lane. I am the API Evangelist. I have studied the technology, business, and politics of Application Programming Interfaces, or more commonly known as APIs, full time since 2010. I spend time looking through the growing number of APIs available today, as well as the evolving group of service providers selling their solutions to API providers. I take what I learn across the space and publish as over 80 independent research projects that I run on Github, covering a growing number of stops along the API lifecycle.</p>
+
+<p>In 2011, I began studying and writing about federal government APIs. I have long had an interest in politics, and how our government works (or doesn’t work), which was in alignment with thinking about how I could take what I’ve learned about APIs and apply to the federal government. By 2013, my research and storytelling about APIs attracted the attention of folks in government, which led to an invitation to come work on open data and API projects at multiple agencies. This move took my work to new levels, opening up some interesting doors that have opened my eyes to the scope of APIs within federal government.</p>
+
+<p><strong>Presidential Fellow</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/kin-lane-presidential-innovation-fellow.png" width="30%" style="padding: 15px;" align="right" /></p>
+<p>In the summer of 2013 I was invited to be part of the round two Presidential Innovation Fellowship, and work at the Department of Veterans affairs doing web service and API inventory, as well as assist with the wider open data efforts of the Obama administration. I worked in DC until the government shutdown in October, when I decided to leave my position so that I could continue doing my work around veterans data, and continue meeting my obligations as the API Evangelist.</p>
+
+<p>My time as a Presidential Innovation Fellow (PIF) gave me access to a number of interesting folks, doing interesting things at a variety of federal agencies, including now 18F and USDS. During my work as the API Evangelist I have spent a lot of time expanding on these relationships by helping craft API strategies, telling stories publicly on my blog, and speaking on conference calls and on-site when it makes sense. While the PIF program wasn’t a good fit for my career, the opportunity forever changed how I see government, and how I see APIs and open data making an impact at this scale.</p>
+
+<p><strong>Adopta.Agency</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/adopta-agency-primary.png" width="15%" style="padding: 15px;" align="right" /></p>
+<p>After I left DC, I began working on a project <a href="http://kinlane.com/2014/01/18/adopt-a-federal-government-dataset/">I called Adopt a Federal Agency Dataset</a>, where anyone could choose a single dataset published by a federal agency, fork and “adopt” the dataset using Github. The goal is to get civic minded folks spending time improving the quality of data, converting to another format, or even publishing a simple API using the open data. I got to work building a prototype, and talking with a variety folks about the projects viability.</p>
+
+<p>Eventually my work paid off, and I attracted the attention of the Knight Foundation, and <a href="https://www.knightfoundation.org/grants/201551217/">received $35K USD to develop a prototype template for the project</a>. Over the course of the next year I developed a <a href="http://adopta.agency/">website for the project</a>, a <a href="http://adopta-agency.github.io/adopta-blueprint/">forkable blueprint for adopting datasets that runs 100% on Github</a>, and applied the template to a handful of open data projects including the White House budget, and Department of Education data. I have continued to support and evolve the work, regularly adopting federal agency data sets, and working to develop common schema and API definitions for use across government of all shapes and sizes.</p>
+
+<p><strong>APIs In The Federal Government</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/fed-agencies-logos-032515.jpg" width="30%" style="padding: 15px;" align="right" /></p>
+<p>Over four years of work, including my fellowship in Washington DC, I have definitely fired up my passion for understanding how government works (or doesn’t). I’ve continued to keep an eye on open data and API efforts across federal agencies, and regularly meeting and talking with folks who are doing things with APIs in government. I spent at least 2-3 hours a week, and sometimes more on playing with government APIs, and studying their approach to understand where I can help move the conversation forward.</p>
+
+<p>I feel like I could just dedicated my career as the API Evangelist to government APIs, but I find what I learn in the private sector is extremely useful in the public sector, and vice versa. There is a symbiotic relationship between the viability of APIs in the federal government, and the viability of APIs at higher educational institutions, the enterprise, small businesses and agencies, all the way to upstarts in Silicon Valley. This relationship has kept me studying the intersection of public and private sector API operations, and tracking on, and contributing where I can to the API momentum in DC.</p>
+
+<p><strong>96 /Developer Portals</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/gsa-prototype-city-pairs-api.png" width="30%" style="padding: 15px;" align="right" /></p>
+<p>As of this week the <a href="https://raw.githubusercontent.com/18F/API-All-the-X/gh-pages/_data/developer_hubs.yml">GSA has 96 developer portals for federal agencies</a> present. A portion of these developer portals are simply data portals, a result of open data efforts in the last administration. There is another portion of them that you can tell do not have a complete strategy, and are more of a landing page for a couple of APIs, and some open data. However, there are some API developer portals present that have some high value datasets and APIs, with robust documentation, code samples, and all the other bells and whistles you’d expect of an API in the private sector.</p>
+
+<p>Even with the inconsistencies in federal agency developer portals, all the top agencies now have an API portal presence, with a growing number of lesser agencies following their lead. This is significant. This goes beyond just these federal agencies being more transparent and machine readable in how they operate. Many of the resources being made available also have the potential to impact markets, and are powering businesses of all shapes and sizes. This momentum is setting the stage for a future where ALL federal agencies have and open data and API portal that businesses, researchers, and developers know they can find the latest data, content, and algorithms across federal agencies.</p>
+
+<p><strong>400+ APIs</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/open-fec-portal.png" width="30%" style="padding: 15px;" align="right" /></p>
+<p>As of this week the <a href="https://raw.githubusercontent.com/18F/API-All-the-X/gh-pages/_data/individual_apis.yml">GSA has over 400 APIs listed</a> across the 96 developer programs found across federal agencies. There are numerous consistency and design issues across these APIs, and many of them are simply downloads, which may have some form filter as a gatekeeper. While we don’t have any numbers to support what kind of growth we’ve seen in federal government APIs over the last five years, off the top of my head I’d say we’ve seen up to 50% growth each year in the number of APIs published by agencies.</p>
+
+<p>In my experience APIs breed more APIs. When one group sees another group doing APIs, they often emulate what they see. Folks in the private sector have been emulating the API moves of pioneers like SalesForce, Amazon, Twitter, and Twilio for years, we are seeing this play out at the federal government level. Some agencies are emulating what they see in the private sector, but I’d wager a significant number of agencies will more likely emulate what they see out of other agencies. This is how we are going to take all of this to the next level, building on the hard work of USDS, 18F, and other individual agencies like Census, NASA, and others who are truly pushing the needle forward.</p>
+
+<p><strong>133 Github Orgs</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3238323735392f313333353931312f32386233656336362d333563302d313165332d386565362d3636323732623966343138362e706e67.png" width="30%" style="padding: 15px;" align="right" /></p>
+<p>The almost hundred developer portals, and over 400 APIs gives me hope about APIs in the federal government, but one area that leaves me the most optimistic is the number of agencies who are operating on Github. Doing my time at the Department of Veterans of Affairs (VA), I was the one who setup the VA Github organization, which became a lifeline for every one of the API and open data projects I was working on. Github usage across these agencies goes beyond just managing code, and agencies are using it to define policy, provide documentation, solicit feedback, and much more.</p>
+
+<p>This usage of Github sets the stage for the next wave of growth in API operations within federal governments where Github is a central actor at every stage of the API life cycle. Github adoption is the most important signal I use to understand the viability of any API effort in the private sector. The companies who are using Github effectively almost always also possess a strong position in the space, directly influenced by the way they use Github to manage code, schema, definitions, and other machine readable, reusable components of API operations. I’m predicting that the federal agencies using Github possess a similar advantage if the federal API ecosystem, in coming years.</p>
+
+<p><strong>18F and USDS</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/18f-usds.png" width="30%" style="padding: 15px;" align="right" /></p>
+<p>A significant amount of the API leadership I’m seeing across federal agencies has been stimulated by tech focused groups at the White House and GSA. <a href="https://www.usds.gov/">U.S. Digital Service (USDS)</a> and 18F are working with multiple agencies to deliver API driven solutions, and software development practices. These groups have played a critical role in bringing outside tech practices into the federal government and doing the hard work to begin applying, evolving, and hardening these practices across agencies.</p>
+
+<p>USDS and 18F are doing great work, and while I’m not 100% up to speed on their road map, the last couple of conversations I’ve had, they are growing and expanding–looking to keep taking on new projects. I’d like to see similar models develop, but from the outside-in, beginning to shift the landscape when we think about government consulting and vendors. 18F has done an amazing job at not just rethinking the technology part of the equation, but also thinking about the business and politics of it all, something that I think should be replicated externally, creating a new realm of API opportunity outside the federal government firewall.</p>
+
+<p><strong>Transparency In Federal Government</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-government.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>Open data and APIs provide transparency into how government works (or doesn’t work). It gives us a look into the budgets of federal agencies, and better understand what government does, manages, and the impact it has on society. I fully support the Obama’s administration mandate requiring ALL federal agencies publish their data inventory as machine readable files, as well as APIs when possible. This is how government should operate by default, ensuring that agencies are more accountable to the public on a real-time basis.</p>
+
+<p>I’m looking to continue the trend of transparency with data and APIs across federal government–doing more of what we’ve been doing for the last 5 years. However, in coming years I’d like to elevate this to become more about observability, where things are transparent, but there is also monitoring, testing, communication, service level agreements, and other terms of service that make government more observable by the public, as well as government auditors. This should be the default state of technology in government, where each agency is able to invest in the Venn diagram of operations that can become API observability.</p>
+
+<p><strong>Resources That Help The Private Sector</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-business-of-apis.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>Publishing data and APIs isn’t all about making the federal government more transparent. Many of the API and data resources I come across have significant commercial value as well. The healthcare industry benefits from pharmaceutical data being open as part of OpenFDA are significant. Every citizen can benefit from the web, mobile, and automobile applications developed on top of the <a href="https://ridb.recreation.gov/">recreational information database (RIDB)</a> which powers <a href="https://www.recreation.gov/">Recreation.gov</a>, and the growing ecosystem on top of the RIDB API. I can keep going, talking about APIs at Commerce, NOAA, and Census–these APIs all have significant impact on the way business works.</p>
+
+<p>There are many ways in which the federal government has been stepping up to provide valuable data for use by companies of all shapes and sizes. Census data is baked into many systems. Labor data is getting baked into the business models of startups. Regulations.gov API allow the rules of the road to get exposed for business consideration. This open data and API stuff at the federal government level is getting pretty important when it comes to how our economy and society works. While I do have some serious concern about the current administrations leadership when it comes to APIs I feel the current momentum around opening up data and APIs can be sustained, if approached in the right away.</p>
+
+<p><strong>Considering The API Lifecycle</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-lifecycle.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>Alright, that describes the momentum we have with APIs in the federal government. I want to step back and size up this momentum, and take a look at some of the deficiencies I’m seeing right now in federal government developer portal and API implementations. In my regular work as the API Evangelist I look at the entire API space through the lens of almost 85 stops along an API lifecycle, from definition to deprecation. I’m going to take a handful of the core stops and use them as a lens to look at the state of federal government APIs, helping me frame a discussion about how we might move this conversation forward.</p>
+
+<p>I’m looking to see the federal government API space alongside how I look at every other API in the private sector. I’m not saying that everything that gets done by commercial API providers should be emulated by the federal government, I’m just looking to make sure both sides are learning from each other, and somewhat in sync. I’m looking to try and figure out how we can keep the momentum going that I referenced, but also make sure federal agencies are not falling behind in all the key areas commercial API providers are using to dial in their API operations.</p>
+
+<p><strong>Definitions</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-api-definitions.png" width="14%" style="padding: 15px;" align="right" /></p>
+<p>Starting with the most important stop along the API lifecycle, I’m beginning to see more common web and API definitions being applied as part of federal government API operations. I’m always on the hunt for agencies using common web standards and specifications as part of their designing, using common definitions for dates, currency, and other key elements. I’m also finding more APIs defined using OpenAPI, API Blueprint, and other commonly used API definition specifications, providing a machine readable definition of the surface area of any government API.</p>
+
+<p>Even with the definitions in play currently, it is still a small portion of the 400+ APIs I’m seeing. Most APIs are custom definitions, without much investment in recycling and reuse. The federal government needs a heavy dose of evangelism around common definitions, and the development of templates, and schema that agencies can leverage in their projects. This is one significant area I see an opportunity for the private sector to step up, and help bring robust toolboxes full of open definitions for APIs, and underlying schema applying the leading web concepts and standards.</p>
+
+<p><strong>Design</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-api-design-fiction.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>Along with the increased presence of common approaches to defining APIs and schema, there is an emergence of more of a design-centric approach to delivering APIs. Sadly, this is only present in a handful of leading federal government APIs. Most of them are still pretty classic IT and developer focused implementations, often reflecting the backend system where they were generated. The current API design practices reflect that of the commercial sector around 2012, where you developed then documented an API, without much consideration for design beyond just RESTful principles.</p>
+
+<p>The last administration worked hard to put forth API design guidelines, something that has been continued by USDS and 18F, but this needs to continue in practice. <a href="https://gsa.github.io/prototype-city-pairs-api-documentation/api-docs/">You can see an example of this in action over at the GSA with their prototype City Pairs API</a>–which is a working example of a well designed API, portal, and documentation that any agency can fork, and reverse engineer their own design compliant API. A significant area of movement in the private sector that will contribute to the evolution of API design at the federal level involves the availability of <a href="http://www.apicur.io/">open source API design editors like Apicurio</a>, which is a sign of the maturing private sector API design space, which the federal government should be able to leverage across agencies.</p>
+
+<p><strong>Deployment</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-api-deployment.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>18F gives us a regular look into how they deploy the APIs behind their projects, going into detail on the technology stack employed, and other detail about how it was done. Sadly, this isn’t a common practice across federal agencies, leaving API deployment something that happens in the dark. This practice prevents agencies from learning through each agencies deployment, keeping every API deployment in a silo. When it makes sense from a security perspective, all server side APIs should be open sourced, and available on an agencies Github organization–making all API deployments available for reverse engineering, and deployment by other agencies.</p>
+
+<p>I have to point out again <a href="https://gsa.github.io/prototype-city-pairs-api-documentation/api-docs/">the City Pairs API prototype from the GSA</a>, which open sources the API on Github, and provides step by step instructions on how to set it up, including the entire stack of technology used to operate it. This is how all government APIs should be, and opens up a significant opportunity for the private sector to step up and provide open source APIs that federal agencies can deploy as part of their stack, opening the door to other service and consulting opportunities. The federal government will benefit from the standardization introduced by the GSA, and will continue to grow with the type of API storytelling out of the 18F, eventually bringing API deployment out of the shadows.</p>
+
+<p><strong>Modularization</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-microservice.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>Before I begin the shift from the more technical stops along the life cycle and move into the business, politics, and more operational side I wanted to talk about modularization of APIs in the federal government. I’m talking about how APIs are designed, and deployed, considering a microservices way of doing things. I’m also talking about containerization, and ensuring the deployment of APIs are modular, scalable, and well defined. Something that makes them more deployable in any infrastructure on-premise or in the cloud.</p>
+
+<p>Another area of modularization to consider in my evaluation of federal government APIs can be found over at 18F with their leadership in <a href="https://18f.gsa.gov/2016/11/15/modular-procurement-state-local-government/">modular procurement</a>. Identifying that the underlying technology isn’t the only thing we we need to be decoupling, and that the business and politics surrounding each API needs to be modular as well. I am seeing some talk of microservices, containerization, and serverless, mostly out of the GSA, but it will be another area we need to see growth in when it comes to API operations in the federal government. Acknowledgment that we need to be decoupling the technology, business, and politics of government resources.</p>
+
+<p><strong>Management</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/api-management.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>API management is another area that I’ve seen some significant growth and maturity in federal agency API operations. Not only did we see one of the first open source API management solutions Umbrella emerge out of a federal agency, we have seen over 10 federal agencies adopt this as part of their API operations. We need more of this. API Management should be baked into all federal government APIs, standardizing how APIs are secured, rate limited, logged, and measured. Standardizing how all digital government resources are accessed and metered–establishing a common awareness across all federal agency APIs.</p>
+
+<p>This layer of API operations is what is going to set the stage for the next wave of growth in not just government APIs, but also government revenue. Commercial API providers have been leverage service composition at this layer to meter and charge for access to some resources, charging different rates to the public, partners, and even amongst internal groups within a company. This approach to managing digital government resources will emerge as the standard for generating revenue from public resources similar to how timber leases, mining claims, and other physical resources are managed–except this is all being done on public servers, not public lands.</p>
+
+<p><strong>Portal</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-portal.jpg" width="18%" style="padding: 15px;" align="right" /></p>
+<p>Wrapping around any APIs you deploy, and providing a gateway to solid API management practices always begins with a proper developers portal. The almost 100 developer portals for federal agencies that now exist are due to the hard work of the GSA, direction of OMB, under the guidance of the Obama administration. A central portal is key to application developers, system integrators, and even other agencies knowing where to find data and API resources. Most of the existing API developer portals leave much to be desired, but when you look at the efforts out of CFPB, 18F, and the GSA, you get a glimpse of what is possible in government.</p>
+
+<p>I have to point out <a href="https://gsa.github.io/prototype-city-pairs-api-documentation/api-docs/">the City Pairs API prototype from the GSA</a> yet again. This approach to providing API design, deployment, management, and portal guidance is how consistent developer portal operations will spread across all federal agencies. Each agency should be focusing on what they do best, and not worrying about having to reinvent the wheel each time they deploy a new agency portal, project, or other implementation. There should be a wealth of open source API portals available on Github for agencies to fork and employ immediately to support any API implementation.</p>
+
+<p><strong>Documentation</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-documentation.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>I am seeing Swagger UI, Slate, and a handful of other interesting API documentation solutions as I browse through the 400+ federal government APIs. This evolution in open source documentation is partly responsible to the API definition portion of the conversation, as OpenAPI is the engine of Swagger UI, and other API documentation solutions. This approach to delivering API documentation across government APIs, and available as part of any portal template has encouraged significant reuse, and consistency  across government API implementations–something that should spread to every API implementation, at every federal agency.</p>
+
+<p>I want to point out the OpenFDA has moved the needle when it comes to API documentation by providing more interactive documentation, including visualizations as part of their API implementations. We need to make API definition driven documentation the default practice across federal government APIs, but it is also significant that we are seeing the API documentation be evolved as part of the valuable information government agencies are making available. This is a good sign that there are healthy API documentation efforts emerging, as this type of innovation is always a by-product of healthy API ecosystems.</p>
+
+<p><strong>Communications</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-chat.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>I’m seeing healthy communication around data, API, and developer portals from the <a href="https://usedgov.github.io/news/">Department of Education</a>, <a href="https://www.census.gov/data/developers/updates.html">Census</a>, <a href="https://18f.gsa.gov/blog/">18F</a>, <a href="https://www.usds.gov/blog">USDS</a>, and a handful of others, but for the most part communication around API operations is non-existent at the federal level. This is a problem. This makes many APIs look dead or lifeless, with very little information about what is happening beyond just the documentation. Communication with integrators and developers is an essential part of API operations, and a big reason growth in API efforts at the federal level are slower than anticipated.</p>
+
+<p>I understand that federal agencies are constrained by rules regarding how they can communicate with the public, and operating a blog isn’t as straightforward as in the private sector. However, it is clear that it can be done. Plenty of agencies have blogs, and active social media accounts, this practice just has to be applied across API operations. I’m guessing once we see blogs, Twitter and Github accounts default across federal government agency API operations, we’ll see a significant uptick in the number of integrations and applications that are putting government resources to use in their operations.</p>
+
+<p><strong>Road Map</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-roadmap.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>While <a href="https://tech.gsa.gov/roadmap/">you can find road maps for agencies like the one over at the GSA that include APIs</a>, communicating the road map for a federal agency API really isn’t a thing. Honestly, I don’t see much evidence of communicating what is coming down the road with federal agency API operations, what is happening currently, or what has happened in the past by providing a change log. <a href="https://developer.usajobs.gov/Guides/Change-Log">The USA Jobs API has a change log</a>, and some API related code have change logs as part of their API operations, but communicating around change in government API platforms isn’t really a common concept.</p>
+
+<p>The absence of road maps, issues, and change logs for API operations at the federal level is a problem. I’m hopeful that the usage of Github by federal agencies might shift this reality of API operations currently, but I’m also hopeful that this could be maybe be automated for agencies as part of their API deployment, management, and portal solutions. Taking another concern off the table for API providers, while still ensuring what API consumers and integrators will need to stay in tune with federal government resources being exposed via APIs.</p>
+
+<p><strong>Monitoring</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-heart-monitor.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>Moving on to the monitoring, testing, and other awarness aspects of API operations. Sadly, there is no evidence of API monitoring and testing at the federal government levels. I searched my news archives, and looked for evidence across the APIs I’ve been reviewing as part of this research. I am not seeing any organized approaches to monitoring API endpoints, sharing the results with the developer community, or the mention of any common API testing tooling in the space.</p>
+
+<p>This is another critical issue regarding the state of APIs in the federal government. As I was browsing around looking for APIs I came across several portals and APIs that had gone dark, demonstrating what a problem it is that nothing is being monitored even for availability. Ideally federal agencies are monitoring the uptime and availability of APIs already, and should be moving on to more detailed, meaningful testing. The only good news on this front I found, <a href="https://www.opm.gov/developer/documentation/current-status-api/">was a single API for monitoring whether or not the government in Washington DC is operating or not</a>–at least we have that, right?</p>
+
+<p><strong>Security</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-padlock.png" width="15%" style="padding: 15px;" align="right" /></p>
+<p>Continuing down into the realm of bad news, let’s talk about what I’m seeing when it comes to API security. I am seeing a small bright spot, if we are talking about acknowledging the need for encryption in transit to be default for APIs, but API security seems to stop there. Sure we are seeing some APIs adopting API umbrella to key up APIs, but this is more API management then it is API security. All leaving me concerned about what is going on behind the scenes, as well as thinking security concerns and lack of healthy practices are probably a significant area of friction for new APIs to get out the door in the first place.</p>
+
+<p>Security is the number one concern of agencies when you begin to talk with them about APIs. It needs to be front and center in all API conversations. I’m talking about formal strategies regarding how to security APIs, with official guidance from API leadership, and published pages sharing security practices with the community. API security begins with healthy API management practices, something I’m seeing across federal government implementations, but it is something that evolves with sensible API monitoring, and testing practices, which I’m not seeing. The absence of this awareness is a problem, and needs to become baked into all API efforts at the federal level as soon as possible.</p>
+
+<p><strong>Reliability</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-reliability.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>My personal confidence in the reliability of government APIs is pretty low. The availability of APIs I was depending on for my work during my Presidential Innovation Fellowship during the fall shutdown in 2013 was the beginning of my concern, but the stability, longevity, support, communication, and lack of road map or change logs for APIs all have contributed to my concerns over the years. The transition from the previous administration to the current one has moved up my levels of concern significantly. I’m just not convinced some agencies will always be good stewards of the APIs they are making available.</p>
+
+<p>API reliability is just as much a business and political challenge as it is a technical one. Staffing and budget issues will most likely contribute more to API reliability than actual server or network problems. I know that if I was building any business on top of any data or API from a federal agency I would be building in multiple layers of redundancy wherever possible, and work to always have a plan B in place in case an API goes away completely. I feel that this is an area where the private sector can step up, and not just provide vendor solutions that deliver reliable API solutions, but also help from the outside-in, providing hosting, caching, virtualization, and other approaches to ensuring there is redundancy, and always access to vital resources being made available via federal government APIs.</p>
+
+<p><strong>Discovery</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-api-discovery.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>The GSA, and 18F has done an amazing job aggregating API resources for use by all federal agencies. This includes providing a listing of federal government <a href="https://api-all-the-x.18f.gov/pages/developer_hubs/">developer portals</a>, as well as <a href="https://api-all-the-x.18f.gov/pages/individual_apis/">all the known agency APIs</a>, in CSV, XML, JSON, and YAML formats.  I use these lists to help maintain <a href="http://federal.government.stack.network/agencies/">my own federal agency API directory</a>, and keep in tune with what is going on.</p>
+
+<p>Another significant area of opportunity for investment in federal government APIs is a discovery engine. <a href="http://gsa.index.apievangelist.com/">I’ve worked to create APIs.json indexes for some federal government APIs including the GSA</a>, but this work is time intensive, and ideally is something that should be done by each API provider, within a government agency. You can see this in action over at Trade.gov, <a href="http://developer.trade.gov/apis.json">who has published an APIs.json for their APIs</a>, which also includes links to documentation, OpenAPI (swagger) definitions, and terms of service. Ideally, all federal agencies would have an APIs.json index in the root of their website, similar to the data.json file that already exists for federal government data inventory. It will take time, but eventually federal agencies will see the benefits in making <a href="http://apisjson.org/">their APIs discoverable using APIs.jso</a>n, making it available for inclusion in API search engines like <a href="http://apis.io/">APis.io</a>.</p>
+
+<p><strong>Clients</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-client.png" width="20%" style="padding: 15px;" align="right" /></p>
+<p>There are a wealth of SDKs, code libraries, and frameworks emerging across the Github accounts of federal agencies. <a href="https://government.github.com/">You can find a list of these government Github accounts on the government section of Github</a>. Some agencies do well at showcasing code as part of their API operations, while others you have to hunt a bit, and many who don’t offer any code at all as part of their API offerings. I’d say that client tooling and code across federal government APIs is a mess right now. There really isn’t a single discovery mechanism beyond Github, or any standard for developing and presentation across agencies, or even just across many APIs in a single federal agency.</p>
+
+<p>The generation, development, maintenance, and integration of code for use as part of federal API integration is a pretty significant opportunity for the private sector. The APIs are publicly available, many with existing API definitions, it wouldn’t take much to develop and maintain OpenAPIs for all federal agency APIs, and regularly update SDKs, code samples, and other client tooling that put agency APIs to use. Client tooling should be another thing agency API providers shouldn’t have to worry about. They should be just focusing on maintaining an OpenAPI, and then leverage private sector tooling and services to generate client code, and put common client solutions like Postman and Restlet to use when working with federal government APIs.</p>
+
+<p><strong>Integration</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-integration-automation.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>After client and SDK concerns I like to expand and consider wider integration solutions, and particularly the integration platform as a service (iPaaS) question. In 2017, there are open source, and software as a service solutions for integrating with APIs, and providing client tools that anyone, even non-developers can put to use. Service like <a href="https://zapier.com/">Zapier</a>, and <a href="https://github.com/DataFire">open source DataFire</a> allow for integration with existing 3rd party APIs, and custom API integration, which can be used by business users, as well as developer and IT groups.</p>
+
+<p>You can find If This Then That (IFTTT) recipes <a href="https://ifttt.com/usagov">for working with USA.gov</a>, and <a href="https://zapier.com/blog/federal-government-terms-of-service-amendment/">guidance from Zapier for API providers to make their API terms of service government friendly</a>, but there is not a lot of other movement when it comes to the federal government making use if iPaaS solutions. While not as far along as we should be, I’d say the stage is set for federal agencies to begin thinking through their integration strategies, leveraging solutions like Zapier, because you not only get an integration solution, you get access to the experience that comes with integrating with over 750+ APIs.</p>
+
+<p><strong>Spreadsheets</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-excel-icon.jpg" width="20%" style="padding: 15px;" align="right" /></p>
+<p>Another significant area for API client integration as well as API deployment is the spreadsheet. Both Microsoft and Google Spreadsheets allow for consumption of many data, content, or algorithmic APIs right in the spreadsheet. When you consider spreadsheets across federal agencies, you see how this could significantly change how federal government APIs are put to use internally at the agencies where they are deployed, inter-agency, or even by external 3rd party researchers, partners, and integrators.</p>
+
+<p>You can find quite a few <a href="https://catalog.data.gov/dataset?res_format=Excel">data downloads in spreadsheet format at data.gov</a>. Use the interesting <a href="https://www.eia.gov/opendata/excel/">Excel data add-in and Google Sheets add-on over at the U.S. Energy Information Administration (EIA)</a>, and see <a href="https://18f.gsa.gov/2016/05/02/from-spreadsheet-to-api-to-app-a-better-contract-forecast-tool/">the cool spreadsheet to API work over at 18F</a> to consider a handful of examples of the role spreadsheets play in the federal API game. There needs to be a significant amount of investment in spreadsheet to API and API to spreadsheet integration across the federal government in coming years, to reach beyond the technical community audience.</p>
+
+<p><strong>Plans</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-plan.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>Now that we are seeing API management practices being adopted by federal agencies, I’d like to plant the seeds for some of the next steps for agencies when it comes to making public resources available for commercial use. API Umbrella, and <a href="https://api.data.gov/">api.data.gov</a> help manage API key usage for developers and the daily and hourly rate limits on accessing api.data.gov APIs, ensure API resources stay available, and aren’t overused by any single consumer.</p>
+
+<p>Commercial API providers like Amazon, Google, and others often charge different rates for different API resources, while also providing a free level of access for the public, or possibly researchers. There are also many API service providers who provide advanced API management solutions for billing against API usage, charging for high levels of access, or maybe establish unlimited usage levels for a select handful of trusted consumers. It is common to have multiple plans for API access, and charging for API consumption in some cases, helping pay for infrastructure and other hard costs.</p>
+
+<p>I get that this is a controversial topic in my circles–paying for accessing public data? In short, data is valuable, and making sure it is available, and usable creates value. It costs money to make data available as APIs is a reliable and sustainable way. It makes sense to charge for high volume of commercial access to APIs, similar to how government charges commercial operators to access resources on public lands. It may seem like a crazy notion now, but in the future, this is how government agencies will generate much needed revenue from public resources.</p>
+
+<p><strong>Partners</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-partner.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>Continuing the API management and plans conversation, I’d like to highlight what I’d consider to be an under-realized, and under-utilized partner network of federal government API consumers. You can see what I am talking about over at <a href="http://www.opendata500.com/us/">the Open Data 500 project</a>, which is “the first comprehensive study of U.S. companies that use open government data to generate new business and develop new products and services.” This approach to quantifying the companies using federal government open data, needs to be applied to APIs, establishing a feedback loop with any company who integrates with a federal agency APIs.</p>
+
+<p>The federal government has many partners, but is rarely ever showcasing or leveraging these partners in any meaningful way when it comes to API integration, or application development. The friction of existing laws regarding how government can work with companies causes some of this, however much of this is due to not understanding how 3rd party development works within API ecosystems at the federal level. Some efforts like the Open Data 500 have been established to help quantify how open data is being used across industries, but in my experience much more work is needed to help understand who is using federal government resources, and who might be a fit for heightened levels of engagement to strengthen partner relationships between the public and private sector.</p>
+
+<p><strong>Legal Department</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-terms-of-use.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>The federal government has endless number of laws on the book governing how it operates, with a significant portion of these laws introduced to guide the government when it comes to using the Internet, purchasing and developing software in an Internet age. Along with the technical, and business aspects of doing APIs, federal agencies are in need of beginning the process of publishing and negotiating terms of service, privacy policy, branding guidelines, service level agreement, breach, vulnerability, and other critical guidelines out in the open, with all stakeholders (public included) present.</p>
+
+<p>You see the beginning of this in action over at 18F in the GSA where they are drafting, sharing, and managing key aspects of developing software and managing system integrations with APIs out in the open, making the public a first class citizen in these discussions. The legal department for API operations can be conducted via Github, including partners, developers, and the public in the process. There is a precedent, and the benefits for not just making government transparency, but making technology better serve citizens exists. Agencies will learn API design, deployment, and security, privacy, and terms of service by emulating what they see–if there are no examples out there for them to follow, these legal aspects of operating government will remain behind closed doors.</p>
+
+<p><strong>Evangelism</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/KL_InApiWeTrust-1000.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>Building on my earlier comments on the lack of communication out of existing federal agencies when it comes to data and API efforts, the advocacy and evangelism of APIs out of federal agencies is near non-existent. You see efforts from a handful of agencies trying to do more outreach and evangelism around their data and API projects, often led by 18F and USDS, but evangelism is something that just isn’t in the DNA of federal government as it currently exists.</p>
+
+<p>Getting the word out about federal APIs is essential to establishing a vital feedback loop that government agencies will need to improve upon systems, data collection practices, and generally serving the public. Without outreach few will know these API resources exists. Without outreach agencies will never know who is using, or who might be looking to use government resources. Evangelism isn’t just about hackathons and conferences, it is also about communications, support, and other essential aspects of developing software and integrating with systems. With no outreach, all of this occurs in a silo, and behind closed doors, limiting what is possible.</p>
+
+<p><strong>Some Momentum</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-momentum.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>There is a significant amount of momentum when it comes to data and APIs at the federal government level coming out of the last administration. With the leadership from the Obama administration we see agencies stepping up to publish their public data inventory, and increasing the number of developer portals and APIs that are available. This momentum augments existing IT Momentum to grow and expand government IT infrastructure, with API investments reflecting expansion in government doing business securely on the open web, leverage the low-cost, scalable benefits of building using existing web technology.</p>
+
+<p>While this momentum is real, it is seriously in danger of slowing, and even reversing course in the current administration. All the leadership available regarding API implementation has gone away, leaving agencies alone in their API strategy development. Without leadership many of these API efforts will wither and die as they are. With a vacuum in leadership there is a significant opportunity for vendors, and outside leadership to step in, take ownership of open source projects, standards, and guidance, and play an important role in keeping projects active, alive, and even growing.</p>
+
+<p><strong>Lots of Work</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-work.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>The most common advice I give agencies regarding what they can be doing on the API front is doing more of the same. Keep opening up data. Keep publishing APIs. Keep supporting and expanding your developer portals. We have lots of redundant work ahead of us to make sure all federal IT systems can securely communicate over the web to serve all constituents, and support all government workers. There are a number of areas like monitoring, testing, security, communication, and evangelism that should be invested in, but we also just need to do the hard work keeping what is already on the table active.</p>
+
+<p>It is unrealistic to expect the federal government to do all this work alone. Which is why ALL federal agencies should be doing APIs, to open up data and internal systems to other federal agencies, vendors, partners, and the general public to help carry the load. It is perfectly acceptable for work around public data and other resources to happen out in the open via API integrations, Github, and other platforms and services already in operation. This is why APIs can’t be shuttered or allowed to go dormant. Any government project data project in operation should be externalized, API-ized, and opened up for a collaborative approach to running government.</p>
+
+<p><strong>Private Sector Opportunity</strong></p>
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/bw-opportunity.png" width="18%" style="padding: 15px;" align="right" /></p>
+<p>The most important part of this state of APIs in federal government story is about what the private sector can step up and do. I mentioned several opportunities for companies, organizations, and institutions to step up and help be stewards of federal government data, APIs, and open source code. This means doing business through existing federal government procurement channels, but it also means stepping up and investing in existing federal agency open data and API efforts, engaging with agencies via Github repositories, forums, and social media.</p>
+
+<p>You see companies like Amazon, Microsoft, Zapier and Github stepping up with government focused section of their platform, specialized products and services, and terms of service tailored for government adoption. We need more of this. We need more startups to step up, incentivize, and lead when it comes to APIs in government. Federal government APIs aren’t just about what government is doing with APIs, it is also about what the private sector does to use these APIs, and how they engage with government agencies whenever possible to hep improve the quality of APIs, and software coming out of federal agencies.</p>
+
+<p>This reality is even more dire in a Trump administration. In the current administration any API leadership has been halted, and the two groups (USDS &amp; 18F who are leading the charge are facing friction, and seeing top talent exit back to the private sector, unable to make the impact they had envisioned when they first signed up for government service. The API hard work is continuing across the federal government, within each agency, but in coming years we need the bulk of work to be assumed by the privacy sector, letting dedicated government employees know that we have their back, are here to support, integrate, and build on their hard work, while providing valuable and constructive feedback wherever we can.</p>
+
+<p><em>Thank you to Red Hat for bringing me out, and gathering folks at Tyson’s Corner for the interesting discussion about APIs–some interesting people showed up including government, vendors, and consulting groups.</em></p>
+</p>
+  
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="col">
+          <style>
+            ul.cloud {
+              list-style: none;
+              padding-left: 0;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              line-height: 1.5rem;
+            }
+            ul.cloud a {
+              color: #a33;
+              display: block;
+              font-size: 1.5rem;
+              padding: 0.125rem 0.25rem;
+              text-decoration: none;
+              position: relative;
+              opacity: calc((15 - (9 - var(--size))) / 15); 
+            }
+
+            ul.cloud a[data-weight="1"] { --size: 1; }
+            ul.cloud a[data-weight="2"] { --size: 2; }
+            ul.cloud a[data-weight="3"] { --size: 3; }
+            ul.cloud a[data-weight="4"] { --size: 4; }
+            ul.cloud a[data-weight="5"] { --size: 5; }
+            ul.cloud a[data-weight="6"] { --size: 6; }
+            ul.cloud a[data-weight="7"] { --size: 7; }
+            ul.cloud a[data-weight="8"] { --size: 8; }
+            ul.cloud a[data-weight="9"] { --size: 9; }
+
+            ul.cloud li:nth-child(2n+1) a { --color: #181; }
+            ul.cloud li:nth-child(3n+1) a { --color: #33a; }
+            ul.cloud li:nth-child(4n+1) a { --color: #c38; }
+          </style>
+
+          <ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+              
+              <li><a data-weight="4" href="/search/?search=API Evangelist&searchFields=tags" style="text-decoration: underline;">#API Evangelist</a></li>
+              
+              <li><a data-weight="4" href="/search/?search=Federal Government&searchFields=tags" style="text-decoration: underline;">#Federal Government</a></li>
+               
+          </ul>    
+        </div>
+      </div>
+    </section>    
+
+    <!-- Begin Post Editor -->
+    <section class="mb-8">   
+      
+      <script>
+        var require = { paths: { vs: '/assets/js/monaco-editor/min/vs' } };
+      </script>
+      <script src="/assets/js/monaco-editor/min/vs/loader.js"></script>
+      <script src="/assets/js/monaco-editor/min/vs/editor/editor.main.js"></script>          
+
+      <div class="accordion" id="postEditorBox">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#postEditorWrapper" aria-expanded="true" aria-controls="postEditorWrapper">
+              Editor
+            </button>
+          </h2>
+          <div id="postEditorWrapper" class="accordion-collapse collapse show" data-bs-parent="#postEditorBox">
+            <div class="accordion-body">
+
+            <!-- Post Editor Listing -->
+            <a name="monaco"></a>
+            <div id="post-editor" style="width: 100%; height: 450px; margin: 10px;"></div>
+            <script>
+              var PostEditor = monaco.editor.create(document.getElementById('post-editor'), {
+                value: [''].join('\n'),
+                language: 'markdown',
+                options:{
+                      wordWrap: "on",
+                    }       
+              });
+
+              PostEditor.updateOptions({ wordWrap: "on" })
+              PostEditor.getModel().onDidChangeContent((event) => {
+                if(event.isFlush){
+                  // Setting up
+                }
+                else{
+                  savePostLocal(); 
+                }
+              });        
+            </script>  
+            <!-- Post Properties Listing -->
+
+          </div>
+        </div>
+      </div>
+      </div>         
+    
+    </section>   
+    <!-- End Post Editor -->         
+
+  </div>
+</div>
+
+<script>  
+ 
+  document.getElementById("postEditorWrapper").classList.remove('show');
+
+  function getPost(){
+
+    const options = {
+        method: 'GET'
+    };  
+    fetch('https://posts-api.apievangelist.com/posts' + postId,options)
+        .then(function(response) {
+            if (!response.ok) {
+                console.log('Error with Status Code: ' + response.status);
+            }
+            response.json().then(function(response) {               
+
+              var post = response.data.post;
+              //post = post.replace(">-","");
+              post = post.trim();
+              var converter = new showdown.Converter(),
+              body_html = converter.makeHtml(response.data.body);
+              
+              document.getElementById("post-name-header").innerHTML = response.data.title;
+              document.getElementById("post-image-header").src = response.data.image;
+              //document.getElementById("post-description-paragraph").innerHTML = body_html;
+            
+              PostEditor.setValue(post);
+
+              // Any changes?
+              if(response.data.changes == 1){
+                document.getElementById("commit-banner").style.display = '';
+                document.getElementById("commit-button-wrapper").style.display = '';             
+              }              
+
+
+            });
+          })
+          .catch(function(err) {
+              console.log('Error: ' + err);
+      });  
+  }
+
+
+  getPost();
+  
+  // Edit Post Modal Save
+  function savePostLocal(){
+  
+    var post_yaml = PostEditor.getValue();
+    var post = jsyaml.load(post_yaml);
+  
+    var postName = post.name
+    var postDescription = post.description;
+
+    // Update Post
+    document.getElementById("post-name-header").innerHTML = postName;
+    document.getElementById("post-description-paragraph").innerHTML = postDescription;
+    
+    //post_yaml = jsyaml.dump(post);  
+    //PostEditor.setValue(post_yaml);  
+  
+    document.getElementById("save-banner").style.display = '';
+    document.getElementById("save-button-wrapper").style.display = '';
+  
+    document.getElementById("commit-banner").style.display = 'none';
+    document.getElementById("commit-button-wrapper").style.display = 'none'; 
+  
+  }
+  
+  function savePost(){
+
+    var organization = "api-evangelist";
+  
+    if(Cookies.get('access_token')){
+
+      var changes_name = document.getElementById("post-changes-name").value;
+      var changes_description = document.getElementById("post-changes-description").value;
+    
+      var post_yaml = PostEditor.getValue();
+      var post_json = jsyaml.load(post_yaml);    
+    
+      const options = {
+        method: 'put',
+        headers: {
+            "Content-Type": "application/json"                 
+        },    
+        body: JSON.stringify(post_json)
+      };
+      var github_url = 'https://posts-api.apievangelist.com/posts/' + postId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
+      //console.log(github_url);
+      fetch(github_url, options)
+        .then(function (response) {
+          if (!response.ok) {
+            document.getElementById("error-banner").style.display = '';
+            document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
+          }
+          response.json().then(function (response) {
+            //savePost();    
+          });
+        })
+        .catch(function (err) {
+          console.log('Error: ' + err);
+        });
+  
+      document.getElementById("save-banner").style.display = 'none';
+      document.getElementById("save-button-wrapper").style.display = 'none';    
+  
+      document.getElementById("commit-banner").style.display = '';
+      document.getElementById("commit-button-wrapper").style.display = '';   
+  
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
+    }
+
+  }
+
+function commitPost(){
+  
+  var organization = "api-evangelist";
+
+  if(Cookies.get('access_token')){
+
+    const options = {
+      method: 'put',
+      headers: {
+          "Content-Type": "application/json"                 
+      }
+    };
+
+    var github_url = 'https://posts-api.apievangelist.com/posts/' + postId + '/commit?organization=' + organization;
+    console.log(github_url);
+    fetch(github_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          document.getElementById("error-banner").style.display = '';
+          document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
+        }
+        response.json().then(function (response) {
+          if(response.data.file){
+            commitPost();
+          }
+          else{
+            document.getElementById("commit-banner").style.display = 'none';
+            document.getElementById("commit-button-wrapper").style.display = 'none';  
+          }         
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
+      });
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
+    }      
+
+}
+  </script>
+
+    </div>
+  </main>
+
+  <!-- Vendor JS -->
+  <script src="/assets/js/vendor.bundle.js"></script>
+
+  <!-- Theme JS -->
+  <script src="/assets/js/theme.bundle.js"></script>
+
+</body>
+
+</html>

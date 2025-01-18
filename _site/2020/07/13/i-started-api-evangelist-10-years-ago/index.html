@@ -1,0 +1,1737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>I Started API Evangelist 10 Years Ago
+    </title>        
+    <meta name="description" content="Managing API operations." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      (() => {
+        'use strict';
+  
+        const getStoredTheme = () => localStorage.getItem('theme');
+        const setStoredTheme = (theme) => localStorage.setItem('theme', theme);
+  
+        const getPreferredTheme = () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme) {
+            return storedTheme;
+          }
+  
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        };
+  
+        const setTheme = (theme) => {
+          if (theme === 'auto') {
+            document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          } else {
+            document.documentElement.setAttribute('data-bs-theme', theme);
+          }
+        };
+  
+        setTheme(getPreferredTheme());
+  
+        const showActiveTheme = (theme, focus = false) => {
+          const themeSwitchers = document.querySelectorAll('[data-bs-theme-switcher]');
+  
+          themeSwitchers.forEach((themeSwitcher) => {
+            const themeSwitcherIcon = themeSwitcher.querySelector('.material-symbols-outlined');
+            themeSwitcherIcon.innerHTML = theme === 'light' ? 'light_mode' : theme === 'dark' ? 'dark_mode' : 'contrast';
+  
+            if (focus) {
+              themeSwitcher.focus();
+            }
+          });
+  
+          document.querySelectorAll('[data-bs-theme-value]').forEach((element) => {
+            element.classList.remove('active');
+            element.setAttribute('aria-pressed', 'false');
+  
+            if (element.getAttribute('data-bs-theme-value') === theme) {
+              element.classList.add('active');
+              element.setAttribute('aria-pressed', 'true');
+            }
+          });
+        };
+  
+        const refreshCharts = () => {
+          const charts = document.querySelectorAll('.chart-canvas');
+  
+          charts.forEach((chart) => {
+            const chartId = chart.getAttribute('id');
+            const instance = Chart.getChart(chartId);
+  
+            if (!instance) {
+              return;
+            }
+  
+            if (instance.options.scales.y) {
+              instance.options.scales.y.grid.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-border-color');
+              instance.options.scales.y.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+  
+            if (instance.options.scales.x) {
+              instance.options.scales.x.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+  
+            if (instance.options.elements.arc) {
+              instance.options.elements.arc.borderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+              instance.options.elements.arc.hoverBorderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+            }
+  
+            instance.update();
+          });
+        };
+  
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme !== 'light' && storedTheme !== 'dark') {
+            setTheme(getPreferredTheme());
+          }
+        });
+  
+        window.addEventListener('DOMContentLoaded', () => {
+          showActiveTheme(getPreferredTheme());
+  
+          document.querySelectorAll('[data-bs-theme-value]').forEach((toggle) => {
+            toggle.addEventListener('click', (e) => {
+              e.preventDefault();
+              const theme = toggle.getAttribute('data-bs-theme-value');
+              setStoredTheme(theme);
+              setTheme(theme);
+              showActiveTheme(theme, true);
+              refreshCharts();
+            });
+          });
+        });
+      })();
+    </script>
+
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="I Started API Evangelist 10 Years Ago by The API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image"  content="https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png">    
+  
+     
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+
+    <link rel="stylesheet" href="/assets/css/choices.css" />
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+  
+    <!-- Fonts and icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+  
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
+  
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="/assets/css/theme.bundle.css" />
+  
+    <script src="/assets/js/customize.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/showdown.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/turndown.js"></script>
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+      function getQueryVariable(variable) {
+          var query = window.location.search.substring(1);
+          var vars = query.split('&');
+          for (var i = 0; i < vars.length; i++) {
+              var pair = vars[i].split('=');
+              if (decodeURIComponent(pair[0]) == variable) {
+                  return decodeURIComponent(pair[1]);
+              }
+          }
+          console.log('Query variable %s not found', variable);
+      }       
+    </script>
+
+  <link rel="stylesheet" data-name="vs/editor/editor.main" href="/assets/js/monaco-editor/min/vs/editor/editor.main.css" />    
+  <script src="/assets/js/js-yaml.min.js"></script>    
+
+  <link href="/assets/css/use-bootstrap-tag.min.css" rel="stylesheet">
+  <script src="/assets/js/use-bootstrap-tag.min.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T2YNJ0FDGE');
+  </script>
+
+  <style>
+    .tm-timeline {
+        box-sizing: border-box;
+        * {
+            box-sizing: border-box;
+        }
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: calc(30% - 2px);
+            bottom: 0;
+            width: 4px;
+            background: #676f7e;
+        }
+
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+
+    .tm-timeline-entry {
+        + .tm-timeline-entry{
+            margin-top: 70px;
+        }
+        clear: both;
+        text-align: left;
+        position: relative;
+
+        &:after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+
+        .tm-timeline-time {
+            float: left;
+            width: 30%;
+            padding-right: 70px;
+            text-align: right;
+            position: relative;
+
+            &:before {
+                content: '';
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border: 4px solid #676f7e;
+                background-color: #fff;
+                border-radius: 100%;
+                top: 0;
+                right:  -10px;
+                z-index: 99;
+            }
+
+            h5 {
+                margin: 3px 0 0;
+            }
+        }
+
+        .tm-timeline-body {
+            float: right;
+            width: 70%;
+            top: 15px;
+            padding-top: 3px;
+            padding-left: 70px;
+            h3 {
+                margin: 0 0 15px;
+                span {
+                    padding: 1px 7px;
+                }
+            }
+
+        }    
+
+      pre code {
+        display: block;
+        background: none;
+        white-space: pre;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: scroll;
+        max-width: 100%;
+        min-width: 100px;
+        padding: 0;
+      }        
+  </style>  
+  </head>
+
+<body>
+
+  <!-- Sidenav -->
+<!-- Sidenav (sm) -->
+<aside class="aside aside-sm d-none d-xl-flex">
+  <nav class="navbar navbar-expand-xl navbar-vertical">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="sidenavSmallCollapse">
+        <!-- Nav -->
+        <nav class="navbar-nav nav-pills h-100">
+          <div class="nav-item">
+            <div data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover" data-bs-title="Color mode">
+              <a class="nav-link" data-bs-toggle="collapse" data-bs-theme-switcher href="#colorModeOptions"
+                role="button" aria-expanded="false" aria-controls="colorModeOptions">
+                <span class="material-symbols-outlined mx-auto"> </span>
+              </a>
+            </div>
+            <div class="collapse" id="colorModeOptions">
+              <div class="border-top border-bottom py-2">
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Light" data-bs-theme-value="light" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> light_mode </span>
+                </a>
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Dark" data-bs-theme-value="dark" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> dark_mode </span>
+                </a>
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Auto" data-bs-theme-value="auto" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> contrast </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover"
+            data-bs-title="Go to product page">
+            <a class="nav-link" href="https://themes.getbootstrap.com/product/dashbrd/" target="_blank">
+              <span class="material-symbols-outlined mx-auto"> local_mall </span>
+            </a>
+          </div>
+          <div class="nav-item mt-auto" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover"
+            data-bs-title="Contact us">
+            <a class="nav-link" href="mailto:info@apievangelist.com">
+              <span class="material-symbols-outlined mx-auto"> support </span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </nav>
+</aside>
+
+  <!-- Sidenav (lg) -->
+<aside class="aside">
+  <nav class="navbar navbar-expand-xl navbar-vertical">
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://apievangelist.com">
+        <center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" width="200" style="margin-bottom: 25px; margin-top: -5px; "></center>
+      </a>
+
+      <!-- User -->
+      <div class="ms-auto d-xl-none">
+        <div class="dropdown my-n2">
+          <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+              <img class="avatar-img" src="/assets/img/photos/kinlane.jpg" alt="..." />
+            </span>
+            Kin Lane
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#sidenavLargeCollapse"
+        aria-controls="sidenavLargeCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="sidenavLargeCollapse">
+
+        <!-- Search -->
+        <div class="input-group d-xl-none my-4 my-xl-0">
+          <input class="form-control" id="topnavSearchInputMobile" type="search" placeholder="Search"
+            aria-label="Search" aria-describedby="navbarSearchMobile" />
+          <span class="input-group-text" id="navbarSearchMobile">
+            <span class="material-symbols-outlined"> search </span>
+          </span>
+        </div>              
+          
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Learnings</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Posts" rol="button"
+                aria-expanded="false" aria-controls="Posts">
+                  <span class="material-symbols-outlined me-3">auto_stories</span> Posts
+                </a>
+                <div class="collapse" id="Posts">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/categories">Categories</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/2025/">Posts</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Conversations" rol="button"
+                aria-expanded="false" aria-controls="Conversations">
+                  <span class="material-symbols-outlined me-3">forum</span> Conversations
+                </a>
+                <div class="collapse" id="Conversations">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://conversations.apievangelist.com">All Conversations</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Guidance" rol="button"
+                aria-expanded="false" aria-controls="Guidance">
+                  <span class="material-symbols-outlined me-3">fork_left</span> Guidance
+                </a>
+                <div class="collapse" id="Guidance">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://guidance.apievangelist.com">All Guidance</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Questions" rol="button"
+                aria-expanded="false" aria-controls="Questions">
+                  <span class="material-symbols-outlined me-3">quiz</span> Questions
+                </a>
+                <div class="collapse" id="Questions">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://qa.apievangelist.com">All Questions</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Videos" rol="button"
+                aria-expanded="false" aria-controls="Videos">
+                  <span class="material-symbols-outlined me-3">video_library</span> Videos
+                </a>
+                <div class="collapse" id="Videos">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://video.apievangelist.com">All Videos</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Timeline" rol="button"
+                aria-expanded="false" aria-controls="Timeline">
+                  <span class="material-symbols-outlined me-3">timeline</span> Timeline
+                </a>
+                <div class="collapse" id="Timeline">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/api/">API</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/resources/">Resource</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/industry/">Industry</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Contracts</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Contracts" rol="button"
+                aria-expanded="false" aria-controls="Contracts">
+                  <span class="material-symbols-outlined me-3">contract</span> Contracts
+                </a>
+                <div class="collapse" id="Contracts">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/new/">New Contract</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com">All Contracts</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Produced" rol="button"
+                aria-expanded="false" aria-controls="Produced">
+                  <span class="material-symbols-outlined me-3">factory</span> Produced
+                </a>
+                <div class="collapse" id="Produced">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/internal/">Internal</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/1st-party/">1st-Party</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/3rd-party/">3rd-Party</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Consumed" rol="button"
+                aria-expanded="false" aria-controls="Consumed">
+                  <span class="material-symbols-outlined me-3">apps</span> Consumed
+                </a>
+                <div class="collapse" id="Consumed">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/internal/">Internal</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/1st-party/">1st-Party</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/3rd-party/">3rd-Party</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">Individual APIs</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#APIs" rol="button"
+                aria-expanded="false" aria-controls="APIs">
+                  <span class="material-symbols-outlined me-3">api</span> APIs
+                </a>
+                <div class="collapse" id="APIs">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apis.apievangelist.com">All APIs</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Governance</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Standards" rol="button"
+                aria-expanded="false" aria-controls="Standards">
+                  <span class="material-symbols-outlined me-3">extension</span> Standards
+                </a>
+                <div class="collapse" id="Standards">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://standards.apievangelist.com">All Standards</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Strategies" rol="button"
+                aria-expanded="false" aria-controls="Strategies">
+                  <span class="material-symbols-outlined me-3">tactic</span> Strategies
+                </a>
+                <div class="collapse" id="Strategies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://strategies.apievangelist.com">All Strategies</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Experiences" rol="button"
+                aria-expanded="false" aria-controls="Experiences">
+                  <span class="material-symbols-outlined me-3">engineering</span> Experiences
+                </a>
+                <div class="collapse" id="Experiences">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://experiences.apievangelist.com">All Experiences</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Properties" rol="button"
+                aria-expanded="false" aria-controls="Properties">
+                  <span class="material-symbols-outlined me-3">list_alt_check</span> Properties
+                </a>
+                <div class="collapse" id="Properties">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://properties.apievangelist.com">All Properties</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Policies" rol="button"
+                aria-expanded="false" aria-controls="Policies">
+                  <span class="material-symbols-outlined me-3">policy</span> Policies
+                </a>
+                <div class="collapse" id="Policies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com">All</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/business/">Business</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/technical/">Technical</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/standards/">Standards</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Rules" rol="button"
+                aria-expanded="false" aria-controls="Rules">
+                  <span class="material-symbols-outlined me-3">rule</span> Rules
+                </a>
+                <div class="collapse" id="Rules">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com">All Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/apis-json/">APIs.json Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/openapi/">OpenAPI Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/json-schema/">JSON Schema Rules</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Vocabularies" rol="button"
+                aria-expanded="false" aria-controls="Vocabularies">
+                  <span class="material-symbols-outlined me-3">dictionary</span> Vocabularies
+                </a>
+                <div class="collapse" id="Vocabularies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/words/a">Words</a>
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/nodes/">Nodes</a>
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/glossary/">Glossary</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Solutions</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Services" rol="button"
+                aria-expanded="false" aria-controls="Services">
+                  <span class="material-symbols-outlined me-3">design_services</span> Services
+                </a>
+                <div class="collapse" id="Services">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://services.apievangelist.com">All Services</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Tools" rol="button"
+                aria-expanded="false" aria-controls="Tools">
+                  <span class="material-symbols-outlined me-3">construction</span> Tools
+                </a>
+                <div class="collapse" id="Tools">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://tool.apievangelist.com">All Tools</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Discovery</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Discovery" rol="button"
+                aria-expanded="false" aria-controls="Discovery">
+                  <span class="material-symbols-outlined me-3">search</span> Discovery
+                </a>
+                <div class="collapse" id="Discovery">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/inbox/">Inbox</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/bing/">Bing</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/google/">Google</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/github/">GitHub</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Evidence" rol="button"
+                aria-expanded="false" aria-controls="Evidence">
+                  <span class="material-symbols-outlined me-3">fingerprint</span> Evidence
+                </a>
+                <div class="collapse" id="Evidence">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://evidence.apievangelist.com/inbox/">Inbox</a>
+                     
+                    <a class="nav-link" href="https://evidence.apievangelist.com/bookmarks/">Bookmarks</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Building Blocks</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Components" rol="button"
+                aria-expanded="false" aria-controls="Components">
+                  <span class="material-symbols-outlined me-3">widget_small</span> Components
+                </a>
+                <div class="collapse" id="Components">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://parameters.apievangelist.com">Parameters</a>
+                     
+                    <a class="nav-link" href="https://headers.apievangelist.com">Headers</a>
+                     
+                    <a class="nav-link" href="https://responses.apievangelist.com">Responses</a>
+                     
+                    <a class="nav-link" href="https://schema.apievangelist.com">Schema</a>
+                     
+                    <a class="nav-link" href="https://overlays.apievangelist.com">Overlays</a>
+                     
+                    <a class="nav-link" href="https://blueprints.apievangelist.com">Blueprints</a>
+                     
+                    <a class="nav-link" href="https://bases.apievangelist.com">Bases</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Utilities" rol="button"
+                aria-expanded="false" aria-controls="Utilities">
+                  <span class="material-symbols-outlined me-3">build</span> Utilities
+                </a>
+                <div class="collapse" id="Utilities">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/yaml-to-json/">YAML to JSON</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-to-yaml/">JSON to YAML</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/merge-openapis/">Merge OpenAPIs</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/split-openapis/">Split OpenAPIs</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/postman-to-openapi/">Postman to OpenAPI</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-schema-yaml-validator/">JSON Schema YAML Validator</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-schema-basics/">JSON Schema Basics (Rules)</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Evangelist LLC</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#About" rol="button"
+                aria-expanded="false" aria-controls="About">
+                  <span class="material-symbols-outlined me-3">info</span> About
+                </a>
+                <div class="collapse" id="About">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/this-site">This Site</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Contact" rol="button"
+                aria-expanded="false" aria-controls="Contact">
+                  <span class="material-symbols-outlined me-3">contact_support</span> Contact
+                </a>
+                <div class="collapse" id="Contact">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/contact">Contact Form</a>
+                     
+                    <a class="nav-link" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+                     
+                    <a class="nav-link" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+                     
+                    <a class="nav-link" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+                     
+                    <a class="nav-link" href="https://buttondown.com/apievangelist">Newsletter</a>
+                     
+                    <a class="nav-link" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+                     
+                    <a class="nav-link" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+                     
+                    <a class="nav-link" href="https://www.postman.com/api-evangelist">Postman</a>
+                     
+                    <a class="nav-link" href="https://github.com/api-evangelist">GitHub</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Partner" rol="button"
+                aria-expanded="false" aria-controls="Partner">
+                  <span class="material-symbols-outlined me-3">handshake</span> Partner
+                </a>
+                <div class="collapse" id="Partner">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://partners.apievangelist.com">Information</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+                
+
+        <!-- Nav -->
+        <nav class="navbar-nav nav-pills d-xl-none mb-7">
+          <div class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" data-bs-theme-switcher href="#colorModeOptionsMobile"
+              role="button" aria-expanded="false" aria-controls="colorModeOptionsMobile">
+              <span class="material-symbols-outlined me-3"> </span> Color mode
+            </a>
+            <div class="collapse" id="colorModeOptionsMobile">
+              <div class="nav nav-pills">
+                <a class="nav-link" data-bs-theme-value="light" href="#" role="button"> Light </a>
+                <a class="nav-link" data-bs-theme-value="dark" href="#" role="button"> Dark </a>
+                <a class="nav-link" data-bs-title="Auto" data-bs-theme-value="auto" href="#" role="button"> Auto </a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://apievangelist.com" target="_blank">
+              <span class="material-symbols-outlined me-3">local_mall</span> Go to API Evangelist
+            </a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://apievangelist.com/contacts/">
+              <span class="material-symbols-outlined me-3">alternate_email</span> Contact Us
+            </a>
+          </div>
+        </nav>
+
+        <!-- Card -->
+        <div class="card mt-auto">
+          <div class="card-body">
+            <!-- Heading -->
+            <h6>Need help?</h6>
+
+            <!-- Text -->
+            <p class="text-body-secondary mb-0">Feel free to reach out to us should you have any questions or
+              suggestions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</aside>
+
+  <!-- Topnav -->
+<nav class="navbar d-none d-xl-flex px-xl-6">
+  <div class="container flex-column align-items-stretch">
+    <div class="row">
+      <div class="col-auto">
+        <!-- Search -->
+        <div class="input-group" style="max-width: 300px;">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search" aria-describedby="navbarSearch" id="topsearch" />
+          <span class="input-group-text" id="navbarSearch">
+            <kbd class="badge bg-body-secondary text-body">⌘</kbd>
+          </span>
+          <script>
+            const searchbox = document.getElementById('topsearch');
+            
+            searchbox.addEventListener('keydown', function(event) {
+              if (event.key === 'Enter') {
+                location.href='https://search.apievangelist.com?search=' + document.getElementById("topsearch").value;
+              }
+            });               
+          </script>          
+        </div>
+      </div>
+      <div class="col"> 
+        <div id="ticker-box" style="width: 100%; border: 0px solid #000; padding-top: 15px;">
+          <ul>
+            
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you know where all of your APIs are?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40qNzTt">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you have a source of truth for your schema?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40nVDnW">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you struggling with API sprawl?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40qNzTt">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need more reliable APIs?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fOZjn1">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need more consistent APIs?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/3DHez88">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need an open source replacement for Postman?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need an open source API client?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need an API client with native Git integration?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need a offline and local only API client?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Is your API defined as a Bruno collection?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you looking for an open-source API mocking solution?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need an open-source API testing solution?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you needing multi-specification API testing and mocking?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Take a Look at Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need industrial grade API testing and mocking?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Try Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Have you tried the new examples schema for mocking your API?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+            
+          </ul>
+        </div>        
+        <script>
+          function applyStyles(obj, styles) {
+            var property;
+            var styleLength = Object.keys(styles).length;
+            for (var i = 0; i < styleLength; i++) {
+              property = Object.keys(styles)[i];
+              obj.style[property] = styles[property];
+            }
+          }
+
+          function extend(object1, object2) {
+            for (var attrname in object2) {
+              object1[attrname] = object2[attrname];
+            }
+            return object1;
+          }
+
+          function startTicker(id, param) {
+            var tickerBox = document.getElementById(id);
+            var defaultParam = { speed: 5, delay: 500, rotate: true };
+            var extendedParam = extend(defaultParam, param);
+            applyStyles(tickerBox, { overflow: "hidden", 'min-height': '40px' });
+            var ul = tickerBox.getElementsByTagName("ul");
+            var li = ul[0].getElementsByTagName("li");
+            applyStyles(ul[0], { padding: 0, margin: 0, position: 'relative', 'list-style-type': 'none' });
+            for (i = 0; i < li.length; i++) {
+              applyStyles(li[i], { position: 'absolute', 'white-space': 'nowrap', display: 'none' });
+            }
+
+            var li_index = 0;
+            var trans_width = tickerBox.offsetWidth;
+            var chunk_width = 1;
+
+            var iterateTickerElement = function(trans_width) {
+              li[li_index].style.left = trans_width + "px";
+              li[li_index].style.display = '';
+              var t = setInterval(function() {
+                if (parseInt(li[li_index].style.left) > -li[li_index].offsetWidth) {
+                  li[li_index].style.left = parseInt(li[li_index].style.left) - chunk_width + "px";
+                } else {
+                  clearInterval(t);
+                  trans_width = tickerBox.offsetWidth;
+                  li_index++;
+                  if (li_index == li.length && extendedParam.rotate == true) {
+                    li_index = 0;
+                    iterateTickerElement(trans_width);
+                  } else if (li_index < li.length) {
+                    setTimeout(function() { iterateTickerElement(trans_width); }, extendedParam.delay);
+                  }
+                }
+              }, extendedParam.speed);
+              tickerBox.onmouseover = function() {
+                clearInterval(t);
+              }
+              tickerBox.onmouseout = function() {
+                iterateTickerElement(parseInt(li[li_index].style.left));
+              }
+            }
+            iterateTickerElement(trans_width);
+          }          
+        </script>  
+        <script>startTicker('ticker-box', {speed:7, delay:1000});</script>      
+      </div>
+      <div class="col-auto"> 
+
+        <!-- User -->
+        <a href="https://yj2hy2wwbjp4w2a4tkhyz3h6zu0woyft.lambda-url.us-east-1.on.aws/"><button type="button" id="account-button" class="btn btn-success">Login</button></a>
+        <div class="dropdown my-n2" id="account-dropdown" style="display: none;">
+          <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+              <img class="avatar-img" src="/assets/img/photos/kinlane.jpg" alt="..." />
+            </span>
+            Kin Lane
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li><a class="dropdown-item" href="#">Change password</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+
+        <script>
+          function getUrlVar(key){
+              var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search);
+              return result && unescape(result[1]) || "";
+          }          
+          var access_token = getUrlVar('access_token');
+          if(access_token!=''){
+            Cookies.set('access_token', access_token);
+          }
+          if(Cookies.get('access_token')){
+            document.getElementById("account-dropdown").style.display = '';
+            document.getElementById("account-button").style.display = 'none';
+          }
+        </script> 
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <!-- Main -->
+  <main class="main px-lg-6">
+    <!-- Content -->
+    <div class="container-lg">
+
+        <script>
+  var postId = '/2020/07/13/i-started-api-evangelist-10-years-ago/';
+  console.log("postId:" + postId);
+</script>
+
+<style>
+  img{
+    max-width:600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }  
+  </style>
+
+<div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+  You have made changes to the contract and will need to save.
+</div>
+
+<div id="commit-banner" class="alert alert-warning" role="alert" style="text-align: center; display: none;">
+  Changes have been made to this contract and will need committing to repo.
+</div>
+
+<div id="data-store" style="border: 1px solid #000; display: none;">
+  <input type="text" id="path" value="0">
+  <input type="text" id="page_start" value="0">
+  <input type="text" id="page_size" value="4">
+  <textarea id="posts-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="policies-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="rules-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-filter" style="width: 100%; height: 350px;">[]</textarea>
+</div>
+
+<div class="row gx-xl-9">
+
+  <div class="col-12 col-xxl-4 order-xxl-1">
+
+    <div class="position-sticky mb-8" style="top: 2rem">
+      <div class="card bg-body">
+        <div class="card-body py-4">
+          <!-- List -->
+          <ul class="list-group list-group-flush bg-body mb-0">
+            
+            <!--Begin Save Post Button-->
+            <div style="display: none; border: 0px #FFF;" id="save-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Save Post</strong></span>
+                <button id="save-button" type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#save-post">SAVE</button>
+              </li>  
+            </div> 
+            <!--End Save Post Button-->
+
+            <!--Begin Commit Post Button-->
+            <div style="display: none; border: 0px #FFF;" id="commit-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Commit Post</strong></span>
+                <button id="commit-button" type="button" class="btn btn-danger btn-sm" onclick="commitPost();">COMMIT</button>
+              </li>  
+            </div> 
+            <!--End Commit Post Button--> 
+
+            
+            
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Published</span>
+              <time datetime="2020-07-13">2020-07-13</time>
+            </li>
+
+               
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Author</span>
+              <span class="badge bg-success-subtle text-success"></span>
+            </li>                     
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="api-evangelist-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>API Evangelist Services</strong>
+                <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40qNzTt" target="_blank" id="api-evangelist-service-1">Do you know where all of your APIs are?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40nVDnW" target="_blank" id="api-evangelist-service-2">Do you have a source of truth for your schema?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callService(){
+
+                console.log("Calling API Evangelist Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/api-evangelist/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>API Evangelist Services</strong><div onclick="location.href=' + "'" + 'https://services.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="api-evangelist-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="api-evangelist-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("api-evangelist-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotateService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotateService(){
+
+                console.log("Rotating API Evangelist Service!");
+
+                document.getElementById("api-evangelist-service-1").className = "blink_me";
+                document.getElementById("api-evangelist-service-2").className = "blink_me";
+
+                setTimeout(function() { callService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotateService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+    <br>
+    <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="partner-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>Partner Services</strong>
+                      <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/4fpe6FO" target="_blank" id="partner-service-1">Do you need an open source replacement for Postman?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/4fpe6FO" target="_blank" id="partner-service-2">Need an open source API client?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callPartnerService(){
+
+                console.log("Calling Partner Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/partners/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>Partner Services</strong><div onclick="location.href=' + "'" + 'https://partners.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="partner-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="partner-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("partner-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotatePartnerService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotatePartnerService(){
+
+                console.log("Rotating Partner Service!");
+
+                document.getElementById("partner-service-1").className = "blink_me";
+                document.getElementById("partner-service-2").className = "blink_me";
+
+                setTimeout(function() { callPartnerService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotatePartnerService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+
+  </div>
+
+  <div class="col-12 col-xxl-8 order-xxl-0">
+
+    <section>
+      <div class="row">
+        <div class="col">
+  
+          <!-- Heading -->
+          
+          <h3 class="fs-3 mb-5" id="post-name-header" style="text-align: center;">I Started API Evangelist 10 Years Ago</h3>
+          <center><img src="https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png" width="95%" align="center" style="padding: 15px;" id="post-image-header"></center>      
+          <!-- Text -->
+          <p id="post-description-paragraph"><p>I started planning API Evangelist in July of 2010 after I saw what was happening with APIs being used in the cloud, and powering mobile applications. By September I had a plan in place, and I figured out a name, bought a domain, and had established my approach to researching what was going on with web APIs. Ten years later I am still doing the work, and even though I’ve managed to burn out a couple of times, have had life get I’m the way, and more recently joined Postman as their Chief Evangelist, I am still beating the drum after all these years. I have learned a lot over the last decade. I don’t see APIs as good, nor bad, nor neutral anymore—they are as good or bad as whoever is wielding them, which with the lax security and ethics of most companies, it isn’t always the API provider inflicting the most damage to the ecosystem. APIs leave me very concerned most days. I am not very keen on building and owning production APIs in the current online world, but I am happy to stay in tune with how the machine works, help evangelize for some ethics and sanity in how we use them, and hopefully be somewhat of a voice of reason in the space, even if I am still doing a significant amount of selling of the concept, and perpetuating of the myths. </p>
+
+<h3 id="the-only-thing-that-has-changed-is-that-there-are-more-apis">The Only Thing That Has Changed Is That There Are More APIs</h3>
+
+<p>There really hasn’t been any seismic shifts in the API landscape during my 10 years of studying what is going on. 80% of what occurs across the API lifecycle was going on in 2010. There are just more people doing it. Sure, there are a few new tricks and tools, but for the most part the APIs in 2020 are just like they were in 2010, it is just more mainstream companies doing them now, as well as each wave of startups. I’d like to say that people are doing APIs better than they were in 2010, but that really isn’t the case. There are a handful of companies, organizations, institutions, and government agencies who get it, and who are pushing the API conversation forward in interesting ways, but mostly people are just doing them without a real strategy or vision for the future (or remembering of the past). Ultimately I don’t think this reflects good or bad on APIs as a technology, it is more about the state of business than it is about the state of technology.</p>
+
+<h3 id="i-find-people-are-not-always-interested-in-doing-apis-well">I Find People Are Not Always Interested in Doing APIs Well</h3>
+
+<p>Most people I talk to just want to be shown how to do APIs. Like it is something you are just shown once, and then you do exactly the same way for each API moving forward. People aren’t overly concerned with doing them well, which to me means we need to do a better job providing templates, tooling, and other plug and play solutions, otherwise we are going to keep seeing the insane mix of API chaos that has been unfolding over the last decade. I am all for helping increase the amount of API educational content that is available, and pushing up API literacy levels amongst developer and business stakeholders, but a core group of API service providers is going to have to come together and keep investing in standards like OpenAPI, JSON Schema, and AsyncAPI, as well as open source tooling and services that leverage these specifications, if we expect to make any forward motion. Let’s educate the API providers and consumers the best we can, but the industry is going to have to come together on the specs and tooling if we are going to keep ratcheting things up, and stabilizing the API economy to meet the needs of the wider economy.</p>
+
+<h3 id="people-do-will-never-care-about-apis-as-much-as-i-do">People Do Will Never Care About APIs As Much As I Do</h3>
+
+<p>I have come to terms with the fact that people do not care about APIs as much as I do. I am ok with people thinking I am pro-API, and an API technology solutionist. Once you sit down with me and understand why I evangelize APIs most people change their tune. I am not cheerleading using APIs in every situation, I am evangelizing that we keep the pipes (APIs) of all this web, mobile, and device activity as observable by the grownups as we possibly can, while also protecting the privacy and security of end-users. I am not saying let’s do APIs! I am saying, if we are going to do APIs, let’s do them sensibly. Let’s make sure they are in service of our end-users and customers, and not just the platform, developers, or the crazy ways that foreign and bad actors are manipulating our online worlds today. I do not stay in the API business because I want you to buy my API, or my API service. I stay in the API business because I understand how the pipes just below our personal and professional worlds work, and I want to help make things less exploitative. In this light, it is hard for me to full grasp why most people will never care about APIs as much as I do, but I keep trudging forward.</p>
+
+<h3 id="regulation-for-the-tech-industry-is-coming-and-apis-are-essential">Regulation for the Tech Industry is Coming and APIs Are Essential</h3>
+
+<p>Like any new industry the world of technology has been largely unregulated, creating a couple of waves of unrestrained growth online over the last 25 years, but like other newborn sectors regulation is coming for the tech industry, and APIs will continue to play a role in how technology ends up being regulated internally and externally. It is coming, and the companies who embrace it will do better than the ones who do not. APIs are the pipes behind the web, mobile, and device applications that regulators will be looking to keep an eye on, and are a natural fit for helping keep platforms observable for a wide variety of stakeholders. APIs are how tech platforms open up data, content, media, and algorithms for their own apps, as well as those of partners, 3rd party developers, and in the “service of end-users”. When done right APIs can help strike a balance between a platform, partners, 3rd party developers, and the end-users of applications that are made available via a platform. It is natural for regulators to just inject a layer here, at the existing gateway or management layer of what is already going on. It is also how 3rd party auditors and researchers will obtain the access they need to make sense of what is going on across massive platforms like Twitter, Facebook, and Youtube. All we need is some policy that helps map out this evolution in how we regulate business in a digital world, and some will amongst politicians to actually make it happen.</p>
+
+<h3 id="i-will-just-keep-saying-the-same-thing-over-and-over">I Will Just Keep Saying the Same Thing Over and Over</h3>
+
+<p>I have definitely got more polished in how I speak over the last ten years, but looking back through the blog I am still pretty much saying many of the same things I was writing about in 2010 and 2011. I have become more aware of the business and politics behind the API sector, and I have gotten more opinionated in what I say, but I am pretty much saying the same thing over and over while doing all of this API blah blah blah. Honestly I don’t think there is one original thing I have contributed to the discussion. All I am doing is learning from others and evangelizing the best of what I am seeing, and push back on what I do not think is healthy. Ironically there really doesn’t have to be much innovation involved, it really is about doing more of what we already know works. The challenge is helping individual see this instead of the latest shiny object and trend, and invest in what matters the most, which is usually pretty mundane and boring. I guess my mission is to keep finding new and interesting ways to say some of the old things over again, and help people learn the same old healthy patterns while thinking they are doing something new. This is really one of the hard parts of it for me is to keep getting up each day to only say the same old things I’ve been spouting for the last ten years. Sometimes I just can’t do it. Well, I can usually pull something together, but I can’t always do it with the passion I’ve had in the past.</p>
+
+<h3 id="i-am-finding-renewed-energy-for-helping-push-the-conversation-forward">I Am Finding Renewed Energy For Helping Push the Conversation Forward</h3>
+
+<p>I am not as naive as I was in early days of API Evangelist. I’ve given up my delusions of making change and “doing good”. I learned along the way that that was more about me, than it was about APIs. I have a much more pragmatic view of things these, and while I still get all worked up about things sometimes, I am finding it doesn’t push me over the edge like it used to. One other thing that has changed, is I have a regular paycheck now. Not having to hustle for the rent, and travel around the world without a credit card does wonders for helping one find balance. All of this combined has helped me find renewed energy for another decade long push of everything API. This combined with a renewed will to invest Ventura capital into the world of APIs, gives me fuel. I work at one of the leading API service and tooling providers, and APIs have become something all companies are doing, not just a few leading tech companies. I am pretty optimistic that we can stir things up again to levels we saw in 2012 through 2015. I think we can go even further when it comes to discussions around how to do APIs well, and how to do them in more observable ways that benefits everyone. I also think I will continue see just as much exploitation at the API level as we’ve seen in the last decade, but I think I am in a better position to call these things out. I am excited for the API conversations in the next decade because I think the stakes are going to get even higher in a COVID-19 world, and we will be forced to get more honest about security, privacy, and how all the money flows behind the biggest of the online platforms. No matter what unfolds, I’m looking to stick around another decade and help stir the pot, and provide some wisdom to help keep the conversation grounded.</p>
+
+<h3 id="i-am-happy-that-i-chose-to-do-api-evangelist-in-2010">I Am Happy That I Chose To Do API Evangelist in 2010</h3>
+
+<p>Sometimes I have fleeting moments where I think API Evangelist was a waste of time, and I should have been doing something else that wasn’t on the Internet. The other 95% of the time I am pretty happy that I chose to do what I did. I know I have made my mark on the conversation. I have helped evolve my own understanding of what is going beneath all of the applications we depend on each day, while also working to amplify the voices of others. The API Evangelist persona has allowed me to go beyond what I am capable of as an individual. It has provided me with a muse for thinking about how technology impacts our lives. It has given me a voice to be significantly more outspoken and opinionated about what is going on. During the last ten years it was important to me that my name was associated with what I was saying, but I’m well on my toward keeping this theater in the API Evangelist realm, and making Kin Lane more about me personally. The problem is I have to develop some hobbies and things that are not APIs, which in a COVID-19 world can be pretty challenging. While I may not have it completely dialed in, in 2020 I think I am doing better at balancing who I am as an individual, and the writing and storytelling I do as the API Evangelist, which means I need to turn off the work in the evenings and on the weekends when possible. Otherwise Kin is a pretty dull, boring, and less happy individual.</p>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/api-evangelist/api-evangelist-logo.png" alt="" /></p>
+
+<p>It has been a wild ride. I must admit. I am going through each year of my blog looking for what I’d consider to be my best work. Then I am going to compile into a single collection. My great hits 2010 through 2020. It is a lot of work to look through all of these posts. I have written around 4K blog posts on API Evangelist over the years, and most of it is just like reading from my notebook—things aren’t always full baked, and my mind is moving pretty fast. However, occasionally I am able to find some clarity and focus that still blows me away after all these years. Leaving me pretty proud of what I have written over the years. I think most of it some people are embarrassed about what I am willing to publish on my blog, but I am more familiar with the process and realize that some of the posts are just me practicing and learning to speak, where others are the result of my hard work. API Evangelist is just my research notebook for the years between 2010 and 2020. It wasn’t meant to be a blog like ProgrammableWeb, TechCrunch, or other popular tech blogs. It is meant to just be a reflection of what I am seeing and learning from across the space. It is meant to be place where I capture my thoughts on what is going on so that I can look it up later. It was often times the exhaust from work I am doing for a particular company, organization, institution, or government agency. It was me talking publicly about questions I have received from people via email and direct message. API Evangelist is very much my stream of consciousness about the digital currents flowing around me on a daily basis.</p>
+
+<p>I work hard to keep my personal life separate from API Evangelist, but it just hasn’t always been possible over the years. My life experiences are the well spring for my writing here, and the API community has been my well spring for the last decade. The community stepped up and supported me when I left for the summer of 2016, and that continues to be supportive of my work in 2020. I know there are people who don’t fully respect me because of my grammatical errors on the blog (unforgivable), my politics and opinions, and that I wear my mental health on my sleeve. That is OK. Most of them do not know me personally, or had the chance to work with me. I have no regrets about the stories I have told here on the blog, and have only taken down one post over the years. I feel pretty accomplished after a decade. While I still have so much to learn, I feel like I know my shit. I can jump into discussions at almost any level and tread water, and contribute to the conversation, from the startup up to the enterprise and government levels. People in the industry tend to know who I am, even if they don’t always understand or like me. That is OK. I don’t always understand or like them. Ultimately I am hoping I can continue to make my mark more as the Chief Evangelist of Postman, while also still maintaining the stake I have claimed as the API Evangelist. I am looking to parlay both roles into something involving API policy at the global, federal, state, and municipal levels. I am looking to build on my work in Washington DC, and in Europe, and continue to help influence tech policy using APIs. Regardless of where the next decade takes me, I am ready for another marathon run evangelizing why APIs matter, and how they are influencing our personal and professional lives in some prounfoud ways each and every day.</p>
+</p>
+  
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="col">
+          <style>
+            ul.cloud {
+              list-style: none;
+              padding-left: 0;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              line-height: 1.5rem;
+            }
+            ul.cloud a {
+              color: #a33;
+              display: block;
+              font-size: 1.5rem;
+              padding: 0.125rem 0.25rem;
+              text-decoration: none;
+              position: relative;
+              opacity: calc((15 - (9 - var(--size))) / 15); 
+            }
+
+            ul.cloud a[data-weight="1"] { --size: 1; }
+            ul.cloud a[data-weight="2"] { --size: 2; }
+            ul.cloud a[data-weight="3"] { --size: 3; }
+            ul.cloud a[data-weight="4"] { --size: 4; }
+            ul.cloud a[data-weight="5"] { --size: 5; }
+            ul.cloud a[data-weight="6"] { --size: 6; }
+            ul.cloud a[data-weight="7"] { --size: 7; }
+            ul.cloud a[data-weight="8"] { --size: 8; }
+            ul.cloud a[data-weight="9"] { --size: 9; }
+
+            ul.cloud li:nth-child(2n+1) a { --color: #181; }
+            ul.cloud li:nth-child(3n+1) a { --color: #33a; }
+            ul.cloud li:nth-child(4n+1) a { --color: #c38; }
+          </style>
+
+          <ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+              
+              <li><a data-weight="4" href="/search/?search=Evangelism&searchFields=tags" style="text-decoration: underline;">#Evangelism</a></li>
+               
+          </ul>    
+        </div>
+      </div>
+    </section>    
+
+    <!-- Begin Post Editor -->
+    <section class="mb-8">   
+      
+      <script>
+        var require = { paths: { vs: '/assets/js/monaco-editor/min/vs' } };
+      </script>
+      <script src="/assets/js/monaco-editor/min/vs/loader.js"></script>
+      <script src="/assets/js/monaco-editor/min/vs/editor/editor.main.js"></script>          
+
+      <div class="accordion" id="postEditorBox">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#postEditorWrapper" aria-expanded="true" aria-controls="postEditorWrapper">
+              Editor
+            </button>
+          </h2>
+          <div id="postEditorWrapper" class="accordion-collapse collapse show" data-bs-parent="#postEditorBox">
+            <div class="accordion-body">
+
+            <!-- Post Editor Listing -->
+            <a name="monaco"></a>
+            <div id="post-editor" style="width: 100%; height: 450px; margin: 10px;"></div>
+            <script>
+              var PostEditor = monaco.editor.create(document.getElementById('post-editor'), {
+                value: [''].join('\n'),
+                language: 'markdown',
+                options:{
+                      wordWrap: "on",
+                    }       
+              });
+
+              PostEditor.updateOptions({ wordWrap: "on" })
+              PostEditor.getModel().onDidChangeContent((event) => {
+                if(event.isFlush){
+                  // Setting up
+                }
+                else{
+                  savePostLocal(); 
+                }
+              });        
+            </script>  
+            <!-- Post Properties Listing -->
+
+          </div>
+        </div>
+      </div>
+      </div>         
+    
+    </section>   
+    <!-- End Post Editor -->         
+
+  </div>
+</div>
+
+<script>  
+ 
+  document.getElementById("postEditorWrapper").classList.remove('show');
+
+  function getPost(){
+
+    const options = {
+        method: 'GET'
+    };  
+    fetch('https://posts-api.apievangelist.com/posts' + postId,options)
+        .then(function(response) {
+            if (!response.ok) {
+                console.log('Error with Status Code: ' + response.status);
+            }
+            response.json().then(function(response) {               
+
+              var post = response.data.post;
+              //post = post.replace(">-","");
+              post = post.trim();
+              var converter = new showdown.Converter(),
+              body_html = converter.makeHtml(response.data.body);
+              
+              document.getElementById("post-name-header").innerHTML = response.data.title;
+              document.getElementById("post-image-header").src = response.data.image;
+              //document.getElementById("post-description-paragraph").innerHTML = body_html;
+            
+              PostEditor.setValue(post);
+
+              // Any changes?
+              if(response.data.changes == 1){
+                document.getElementById("commit-banner").style.display = '';
+                document.getElementById("commit-button-wrapper").style.display = '';             
+              }              
+
+
+            });
+          })
+          .catch(function(err) {
+              console.log('Error: ' + err);
+      });  
+  }
+
+
+  getPost();
+  
+  // Edit Post Modal Save
+  function savePostLocal(){
+  
+    var post_yaml = PostEditor.getValue();
+    var post = jsyaml.load(post_yaml);
+  
+    var postName = post.name
+    var postDescription = post.description;
+
+    // Update Post
+    document.getElementById("post-name-header").innerHTML = postName;
+    document.getElementById("post-description-paragraph").innerHTML = postDescription;
+    
+    //post_yaml = jsyaml.dump(post);  
+    //PostEditor.setValue(post_yaml);  
+  
+    document.getElementById("save-banner").style.display = '';
+    document.getElementById("save-button-wrapper").style.display = '';
+  
+    document.getElementById("commit-banner").style.display = 'none';
+    document.getElementById("commit-button-wrapper").style.display = 'none'; 
+  
+  }
+  
+  function savePost(){
+
+    var organization = "api-evangelist";
+  
+    if(Cookies.get('access_token')){
+
+      var changes_name = document.getElementById("post-changes-name").value;
+      var changes_description = document.getElementById("post-changes-description").value;
+    
+      var post_yaml = PostEditor.getValue();
+      var post_json = jsyaml.load(post_yaml);    
+    
+      const options = {
+        method: 'put',
+        headers: {
+            "Content-Type": "application/json"                 
+        },    
+        body: JSON.stringify(post_json)
+      };
+      var github_url = 'https://posts-api.apievangelist.com/posts/' + postId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
+      //console.log(github_url);
+      fetch(github_url, options)
+        .then(function (response) {
+          if (!response.ok) {
+            document.getElementById("error-banner").style.display = '';
+            document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
+          }
+          response.json().then(function (response) {
+            //savePost();    
+          });
+        })
+        .catch(function (err) {
+          console.log('Error: ' + err);
+        });
+  
+      document.getElementById("save-banner").style.display = 'none';
+      document.getElementById("save-button-wrapper").style.display = 'none';    
+  
+      document.getElementById("commit-banner").style.display = '';
+      document.getElementById("commit-button-wrapper").style.display = '';   
+  
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
+    }
+
+  }
+
+function commitPost(){
+  
+  var organization = "api-evangelist";
+
+  if(Cookies.get('access_token')){
+
+    const options = {
+      method: 'put',
+      headers: {
+          "Content-Type": "application/json"                 
+      }
+    };
+
+    var github_url = 'https://posts-api.apievangelist.com/posts/' + postId + '/commit?organization=' + organization;
+    console.log(github_url);
+    fetch(github_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          document.getElementById("error-banner").style.display = '';
+          document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
+        }
+        response.json().then(function (response) {
+          if(response.data.file){
+            commitPost();
+          }
+          else{
+            document.getElementById("commit-banner").style.display = 'none';
+            document.getElementById("commit-button-wrapper").style.display = 'none';  
+          }         
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
+      });
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
+    }      
+
+}
+  </script>
+
+    </div>
+  </main>
+
+  <!-- Vendor JS -->
+  <script src="/assets/js/vendor.bundle.js"></script>
+
+  <!-- Theme JS -->
+  <script src="/assets/js/theme.bundle.js"></script>
+
+</body>
+
+</html>

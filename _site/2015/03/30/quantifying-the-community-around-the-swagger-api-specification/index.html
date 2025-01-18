@@ -1,0 +1,2396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Quantifying The Community Around The Swagger API Specification
+    </title>        
+    <meta name="description" content="Managing API operations." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      (() => {
+        'use strict';
+  
+        const getStoredTheme = () => localStorage.getItem('theme');
+        const setStoredTheme = (theme) => localStorage.setItem('theme', theme);
+  
+        const getPreferredTheme = () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme) {
+            return storedTheme;
+          }
+  
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        };
+  
+        const setTheme = (theme) => {
+          if (theme === 'auto') {
+            document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          } else {
+            document.documentElement.setAttribute('data-bs-theme', theme);
+          }
+        };
+  
+        setTheme(getPreferredTheme());
+  
+        const showActiveTheme = (theme, focus = false) => {
+          const themeSwitchers = document.querySelectorAll('[data-bs-theme-switcher]');
+  
+          themeSwitchers.forEach((themeSwitcher) => {
+            const themeSwitcherIcon = themeSwitcher.querySelector('.material-symbols-outlined');
+            themeSwitcherIcon.innerHTML = theme === 'light' ? 'light_mode' : theme === 'dark' ? 'dark_mode' : 'contrast';
+  
+            if (focus) {
+              themeSwitcher.focus();
+            }
+          });
+  
+          document.querySelectorAll('[data-bs-theme-value]').forEach((element) => {
+            element.classList.remove('active');
+            element.setAttribute('aria-pressed', 'false');
+  
+            if (element.getAttribute('data-bs-theme-value') === theme) {
+              element.classList.add('active');
+              element.setAttribute('aria-pressed', 'true');
+            }
+          });
+        };
+  
+        const refreshCharts = () => {
+          const charts = document.querySelectorAll('.chart-canvas');
+  
+          charts.forEach((chart) => {
+            const chartId = chart.getAttribute('id');
+            const instance = Chart.getChart(chartId);
+  
+            if (!instance) {
+              return;
+            }
+  
+            if (instance.options.scales.y) {
+              instance.options.scales.y.grid.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-border-color');
+              instance.options.scales.y.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+  
+            if (instance.options.scales.x) {
+              instance.options.scales.x.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+  
+            if (instance.options.elements.arc) {
+              instance.options.elements.arc.borderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+              instance.options.elements.arc.hoverBorderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+            }
+  
+            instance.update();
+          });
+        };
+  
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme !== 'light' && storedTheme !== 'dark') {
+            setTheme(getPreferredTheme());
+          }
+        });
+  
+        window.addEventListener('DOMContentLoaded', () => {
+          showActiveTheme(getPreferredTheme());
+  
+          document.querySelectorAll('[data-bs-theme-value]').forEach((toggle) => {
+            toggle.addEventListener('click', (e) => {
+              e.preventDefault();
+              const theme = toggle.getAttribute('data-bs-theme-value');
+              setStoredTheme(theme);
+              setTheme(theme);
+              showActiveTheme(theme, true);
+              refreshCharts();
+            });
+          });
+        });
+      })();
+    </script>
+
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Quantifying The Community Around The Swagger API Specification by The API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image"  content="https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png">    
+  
+     
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+
+    <link rel="stylesheet" href="/assets/css/choices.css" />
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+  
+    <!-- Fonts and icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+  
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
+  
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="/assets/css/theme.bundle.css" />
+  
+    <script src="/assets/js/customize.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/showdown.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/turndown.js"></script>
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+      function getQueryVariable(variable) {
+          var query = window.location.search.substring(1);
+          var vars = query.split('&');
+          for (var i = 0; i < vars.length; i++) {
+              var pair = vars[i].split('=');
+              if (decodeURIComponent(pair[0]) == variable) {
+                  return decodeURIComponent(pair[1]);
+              }
+          }
+          console.log('Query variable %s not found', variable);
+      }       
+    </script>
+
+  <link rel="stylesheet" data-name="vs/editor/editor.main" href="/assets/js/monaco-editor/min/vs/editor/editor.main.css" />    
+  <script src="/assets/js/js-yaml.min.js"></script>    
+
+  <link href="/assets/css/use-bootstrap-tag.min.css" rel="stylesheet">
+  <script src="/assets/js/use-bootstrap-tag.min.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T2YNJ0FDGE');
+  </script>
+
+  <style>
+    .tm-timeline {
+        box-sizing: border-box;
+        * {
+            box-sizing: border-box;
+        }
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: calc(30% - 2px);
+            bottom: 0;
+            width: 4px;
+            background: #676f7e;
+        }
+
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+
+    .tm-timeline-entry {
+        + .tm-timeline-entry{
+            margin-top: 70px;
+        }
+        clear: both;
+        text-align: left;
+        position: relative;
+
+        &:after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+
+        .tm-timeline-time {
+            float: left;
+            width: 30%;
+            padding-right: 70px;
+            text-align: right;
+            position: relative;
+
+            &:before {
+                content: '';
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border: 4px solid #676f7e;
+                background-color: #fff;
+                border-radius: 100%;
+                top: 0;
+                right:  -10px;
+                z-index: 99;
+            }
+
+            h5 {
+                margin: 3px 0 0;
+            }
+        }
+
+        .tm-timeline-body {
+            float: right;
+            width: 70%;
+            top: 15px;
+            padding-top: 3px;
+            padding-left: 70px;
+            h3 {
+                margin: 0 0 15px;
+                span {
+                    padding: 1px 7px;
+                }
+            }
+
+        }    
+
+      pre code {
+        display: block;
+        background: none;
+        white-space: pre;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: scroll;
+        max-width: 100%;
+        min-width: 100px;
+        padding: 0;
+      }        
+  </style>  
+  </head>
+
+<body>
+
+  <!-- Sidenav -->
+<!-- Sidenav (sm) -->
+<aside class="aside aside-sm d-none d-xl-flex">
+  <nav class="navbar navbar-expand-xl navbar-vertical">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="sidenavSmallCollapse">
+        <!-- Nav -->
+        <nav class="navbar-nav nav-pills h-100">
+          <div class="nav-item">
+            <div data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover" data-bs-title="Color mode">
+              <a class="nav-link" data-bs-toggle="collapse" data-bs-theme-switcher href="#colorModeOptions"
+                role="button" aria-expanded="false" aria-controls="colorModeOptions">
+                <span class="material-symbols-outlined mx-auto"> </span>
+              </a>
+            </div>
+            <div class="collapse" id="colorModeOptions">
+              <div class="border-top border-bottom py-2">
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Light" data-bs-theme-value="light" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> light_mode </span>
+                </a>
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Dark" data-bs-theme-value="dark" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> dark_mode </span>
+                </a>
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Auto" data-bs-theme-value="auto" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> contrast </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover"
+            data-bs-title="Go to product page">
+            <a class="nav-link" href="https://themes.getbootstrap.com/product/dashbrd/" target="_blank">
+              <span class="material-symbols-outlined mx-auto"> local_mall </span>
+            </a>
+          </div>
+          <div class="nav-item mt-auto" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover"
+            data-bs-title="Contact us">
+            <a class="nav-link" href="mailto:info@apievangelist.com">
+              <span class="material-symbols-outlined mx-auto"> support </span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </nav>
+</aside>
+
+  <!-- Sidenav (lg) -->
+<aside class="aside">
+  <nav class="navbar navbar-expand-xl navbar-vertical">
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://apievangelist.com">
+        <center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" width="200" style="margin-bottom: 25px; margin-top: -5px; "></center>
+      </a>
+
+      <!-- User -->
+      <div class="ms-auto d-xl-none">
+        <div class="dropdown my-n2">
+          <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+              <img class="avatar-img" src="/assets/img/photos/kinlane.jpg" alt="..." />
+            </span>
+            Kin Lane
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#sidenavLargeCollapse"
+        aria-controls="sidenavLargeCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="sidenavLargeCollapse">
+
+        <!-- Search -->
+        <div class="input-group d-xl-none my-4 my-xl-0">
+          <input class="form-control" id="topnavSearchInputMobile" type="search" placeholder="Search"
+            aria-label="Search" aria-describedby="navbarSearchMobile" />
+          <span class="input-group-text" id="navbarSearchMobile">
+            <span class="material-symbols-outlined"> search </span>
+          </span>
+        </div>              
+          
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Learnings</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Posts" rol="button"
+                aria-expanded="false" aria-controls="Posts">
+                  <span class="material-symbols-outlined me-3">auto_stories</span> Posts
+                </a>
+                <div class="collapse" id="Posts">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/categories">Categories</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/2025/">Posts</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Conversations" rol="button"
+                aria-expanded="false" aria-controls="Conversations">
+                  <span class="material-symbols-outlined me-3">forum</span> Conversations
+                </a>
+                <div class="collapse" id="Conversations">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://conversations.apievangelist.com">All Conversations</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Guidance" rol="button"
+                aria-expanded="false" aria-controls="Guidance">
+                  <span class="material-symbols-outlined me-3">fork_left</span> Guidance
+                </a>
+                <div class="collapse" id="Guidance">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://guidance.apievangelist.com">All Guidance</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Questions" rol="button"
+                aria-expanded="false" aria-controls="Questions">
+                  <span class="material-symbols-outlined me-3">quiz</span> Questions
+                </a>
+                <div class="collapse" id="Questions">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://qa.apievangelist.com">All Questions</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Videos" rol="button"
+                aria-expanded="false" aria-controls="Videos">
+                  <span class="material-symbols-outlined me-3">video_library</span> Videos
+                </a>
+                <div class="collapse" id="Videos">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://video.apievangelist.com">All Videos</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Timeline" rol="button"
+                aria-expanded="false" aria-controls="Timeline">
+                  <span class="material-symbols-outlined me-3">timeline</span> Timeline
+                </a>
+                <div class="collapse" id="Timeline">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/api/">API</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/resources/">Resource</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/industry/">Industry</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Contracts</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Contracts" rol="button"
+                aria-expanded="false" aria-controls="Contracts">
+                  <span class="material-symbols-outlined me-3">contract</span> Contracts
+                </a>
+                <div class="collapse" id="Contracts">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/new/">New Contract</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com">All Contracts</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Produced" rol="button"
+                aria-expanded="false" aria-controls="Produced">
+                  <span class="material-symbols-outlined me-3">factory</span> Produced
+                </a>
+                <div class="collapse" id="Produced">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/internal/">Internal</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/1st-party/">1st-Party</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/3rd-party/">3rd-Party</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Consumed" rol="button"
+                aria-expanded="false" aria-controls="Consumed">
+                  <span class="material-symbols-outlined me-3">apps</span> Consumed
+                </a>
+                <div class="collapse" id="Consumed">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/internal/">Internal</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/1st-party/">1st-Party</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/3rd-party/">3rd-Party</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">Individual APIs</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#APIs" rol="button"
+                aria-expanded="false" aria-controls="APIs">
+                  <span class="material-symbols-outlined me-3">api</span> APIs
+                </a>
+                <div class="collapse" id="APIs">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apis.apievangelist.com">All APIs</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Governance</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Standards" rol="button"
+                aria-expanded="false" aria-controls="Standards">
+                  <span class="material-symbols-outlined me-3">extension</span> Standards
+                </a>
+                <div class="collapse" id="Standards">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://standards.apievangelist.com">All Standards</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Strategies" rol="button"
+                aria-expanded="false" aria-controls="Strategies">
+                  <span class="material-symbols-outlined me-3">tactic</span> Strategies
+                </a>
+                <div class="collapse" id="Strategies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://strategies.apievangelist.com">All Strategies</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Experiences" rol="button"
+                aria-expanded="false" aria-controls="Experiences">
+                  <span class="material-symbols-outlined me-3">engineering</span> Experiences
+                </a>
+                <div class="collapse" id="Experiences">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://experiences.apievangelist.com">All Experiences</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Properties" rol="button"
+                aria-expanded="false" aria-controls="Properties">
+                  <span class="material-symbols-outlined me-3">list_alt_check</span> Properties
+                </a>
+                <div class="collapse" id="Properties">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://properties.apievangelist.com">All Properties</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Policies" rol="button"
+                aria-expanded="false" aria-controls="Policies">
+                  <span class="material-symbols-outlined me-3">policy</span> Policies
+                </a>
+                <div class="collapse" id="Policies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com">All</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/business/">Business</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/technical/">Technical</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/standards/">Standards</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Rules" rol="button"
+                aria-expanded="false" aria-controls="Rules">
+                  <span class="material-symbols-outlined me-3">rule</span> Rules
+                </a>
+                <div class="collapse" id="Rules">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com">All Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/apis-json/">APIs.json Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/openapi/">OpenAPI Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/json-schema/">JSON Schema Rules</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Vocabularies" rol="button"
+                aria-expanded="false" aria-controls="Vocabularies">
+                  <span class="material-symbols-outlined me-3">dictionary</span> Vocabularies
+                </a>
+                <div class="collapse" id="Vocabularies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/words/a">Words</a>
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/nodes/">Nodes</a>
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/glossary/">Glossary</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Solutions</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Services" rol="button"
+                aria-expanded="false" aria-controls="Services">
+                  <span class="material-symbols-outlined me-3">design_services</span> Services
+                </a>
+                <div class="collapse" id="Services">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://services.apievangelist.com">All Services</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Tools" rol="button"
+                aria-expanded="false" aria-controls="Tools">
+                  <span class="material-symbols-outlined me-3">construction</span> Tools
+                </a>
+                <div class="collapse" id="Tools">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://tool.apievangelist.com">All Tools</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Discovery</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Discovery" rol="button"
+                aria-expanded="false" aria-controls="Discovery">
+                  <span class="material-symbols-outlined me-3">search</span> Discovery
+                </a>
+                <div class="collapse" id="Discovery">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/inbox/">Inbox</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/bing/">Bing</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/google/">Google</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/github/">GitHub</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Evidence" rol="button"
+                aria-expanded="false" aria-controls="Evidence">
+                  <span class="material-symbols-outlined me-3">fingerprint</span> Evidence
+                </a>
+                <div class="collapse" id="Evidence">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://evidence.apievangelist.com/inbox/">Inbox</a>
+                     
+                    <a class="nav-link" href="https://evidence.apievangelist.com/bookmarks/">Bookmarks</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Building Blocks</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Components" rol="button"
+                aria-expanded="false" aria-controls="Components">
+                  <span class="material-symbols-outlined me-3">widget_small</span> Components
+                </a>
+                <div class="collapse" id="Components">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://parameters.apievangelist.com">Parameters</a>
+                     
+                    <a class="nav-link" href="https://headers.apievangelist.com">Headers</a>
+                     
+                    <a class="nav-link" href="https://responses.apievangelist.com">Responses</a>
+                     
+                    <a class="nav-link" href="https://schema.apievangelist.com">Schema</a>
+                     
+                    <a class="nav-link" href="https://overlays.apievangelist.com">Overlays</a>
+                     
+                    <a class="nav-link" href="https://blueprints.apievangelist.com">Blueprints</a>
+                     
+                    <a class="nav-link" href="https://bases.apievangelist.com">Bases</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Utilities" rol="button"
+                aria-expanded="false" aria-controls="Utilities">
+                  <span class="material-symbols-outlined me-3">build</span> Utilities
+                </a>
+                <div class="collapse" id="Utilities">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/yaml-to-json/">YAML to JSON</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-to-yaml/">JSON to YAML</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/merge-openapis/">Merge OpenAPIs</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/split-openapis/">Split OpenAPIs</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/postman-to-openapi/">Postman to OpenAPI</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-schema-yaml-validator/">JSON Schema YAML Validator</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-schema-basics/">JSON Schema Basics (Rules)</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Evangelist LLC</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#About" rol="button"
+                aria-expanded="false" aria-controls="About">
+                  <span class="material-symbols-outlined me-3">info</span> About
+                </a>
+                <div class="collapse" id="About">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/this-site">This Site</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Contact" rol="button"
+                aria-expanded="false" aria-controls="Contact">
+                  <span class="material-symbols-outlined me-3">contact_support</span> Contact
+                </a>
+                <div class="collapse" id="Contact">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/contact">Contact Form</a>
+                     
+                    <a class="nav-link" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+                     
+                    <a class="nav-link" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+                     
+                    <a class="nav-link" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+                     
+                    <a class="nav-link" href="https://buttondown.com/apievangelist">Newsletter</a>
+                     
+                    <a class="nav-link" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+                     
+                    <a class="nav-link" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+                     
+                    <a class="nav-link" href="https://www.postman.com/api-evangelist">Postman</a>
+                     
+                    <a class="nav-link" href="https://github.com/api-evangelist">GitHub</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Partner" rol="button"
+                aria-expanded="false" aria-controls="Partner">
+                  <span class="material-symbols-outlined me-3">handshake</span> Partner
+                </a>
+                <div class="collapse" id="Partner">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://partners.apievangelist.com">Information</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+                
+
+        <!-- Nav -->
+        <nav class="navbar-nav nav-pills d-xl-none mb-7">
+          <div class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" data-bs-theme-switcher href="#colorModeOptionsMobile"
+              role="button" aria-expanded="false" aria-controls="colorModeOptionsMobile">
+              <span class="material-symbols-outlined me-3"> </span> Color mode
+            </a>
+            <div class="collapse" id="colorModeOptionsMobile">
+              <div class="nav nav-pills">
+                <a class="nav-link" data-bs-theme-value="light" href="#" role="button"> Light </a>
+                <a class="nav-link" data-bs-theme-value="dark" href="#" role="button"> Dark </a>
+                <a class="nav-link" data-bs-title="Auto" data-bs-theme-value="auto" href="#" role="button"> Auto </a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://apievangelist.com" target="_blank">
+              <span class="material-symbols-outlined me-3">local_mall</span> Go to API Evangelist
+            </a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://apievangelist.com/contacts/">
+              <span class="material-symbols-outlined me-3">alternate_email</span> Contact Us
+            </a>
+          </div>
+        </nav>
+
+        <!-- Card -->
+        <div class="card mt-auto">
+          <div class="card-body">
+            <!-- Heading -->
+            <h6>Need help?</h6>
+
+            <!-- Text -->
+            <p class="text-body-secondary mb-0">Feel free to reach out to us should you have any questions or
+              suggestions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</aside>
+
+  <!-- Topnav -->
+<nav class="navbar d-none d-xl-flex px-xl-6">
+  <div class="container flex-column align-items-stretch">
+    <div class="row">
+      <div class="col-auto">
+        <!-- Search -->
+        <div class="input-group" style="max-width: 300px;">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search" aria-describedby="navbarSearch" id="topsearch" />
+          <span class="input-group-text" id="navbarSearch">
+            <kbd class="badge bg-body-secondary text-body">⌘</kbd>
+          </span>
+          <script>
+            const searchbox = document.getElementById('topsearch');
+            
+            searchbox.addEventListener('keydown', function(event) {
+              if (event.key === 'Enter') {
+                location.href='https://search.apievangelist.com?search=' + document.getElementById("topsearch").value;
+              }
+            });               
+          </script>          
+        </div>
+      </div>
+      <div class="col"> 
+        <div id="ticker-box" style="width: 100%; border: 0px solid #000; padding-top: 15px;">
+          <ul>
+            
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you know where all of your APIs are?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40qNzTt">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you have a source of truth for your schema?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40nVDnW">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you struggling with API sprawl?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40qNzTt">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need more reliable APIs?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fOZjn1">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need more consistent APIs?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/3DHez88">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need an open source replacement for Postman?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need an open source API client?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need an API client with native Git integration?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need a offline and local only API client?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Is your API defined as a Bruno collection?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you looking for an open-source API mocking solution?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need an open-source API testing solution?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you needing multi-specification API testing and mocking?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Take a Look at Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need industrial grade API testing and mocking?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Try Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Have you tried the new examples schema for mocking your API?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+            
+          </ul>
+        </div>        
+        <script>
+          function applyStyles(obj, styles) {
+            var property;
+            var styleLength = Object.keys(styles).length;
+            for (var i = 0; i < styleLength; i++) {
+              property = Object.keys(styles)[i];
+              obj.style[property] = styles[property];
+            }
+          }
+
+          function extend(object1, object2) {
+            for (var attrname in object2) {
+              object1[attrname] = object2[attrname];
+            }
+            return object1;
+          }
+
+          function startTicker(id, param) {
+            var tickerBox = document.getElementById(id);
+            var defaultParam = { speed: 5, delay: 500, rotate: true };
+            var extendedParam = extend(defaultParam, param);
+            applyStyles(tickerBox, { overflow: "hidden", 'min-height': '40px' });
+            var ul = tickerBox.getElementsByTagName("ul");
+            var li = ul[0].getElementsByTagName("li");
+            applyStyles(ul[0], { padding: 0, margin: 0, position: 'relative', 'list-style-type': 'none' });
+            for (i = 0; i < li.length; i++) {
+              applyStyles(li[i], { position: 'absolute', 'white-space': 'nowrap', display: 'none' });
+            }
+
+            var li_index = 0;
+            var trans_width = tickerBox.offsetWidth;
+            var chunk_width = 1;
+
+            var iterateTickerElement = function(trans_width) {
+              li[li_index].style.left = trans_width + "px";
+              li[li_index].style.display = '';
+              var t = setInterval(function() {
+                if (parseInt(li[li_index].style.left) > -li[li_index].offsetWidth) {
+                  li[li_index].style.left = parseInt(li[li_index].style.left) - chunk_width + "px";
+                } else {
+                  clearInterval(t);
+                  trans_width = tickerBox.offsetWidth;
+                  li_index++;
+                  if (li_index == li.length && extendedParam.rotate == true) {
+                    li_index = 0;
+                    iterateTickerElement(trans_width);
+                  } else if (li_index < li.length) {
+                    setTimeout(function() { iterateTickerElement(trans_width); }, extendedParam.delay);
+                  }
+                }
+              }, extendedParam.speed);
+              tickerBox.onmouseover = function() {
+                clearInterval(t);
+              }
+              tickerBox.onmouseout = function() {
+                iterateTickerElement(parseInt(li[li_index].style.left));
+              }
+            }
+            iterateTickerElement(trans_width);
+          }          
+        </script>  
+        <script>startTicker('ticker-box', {speed:7, delay:1000});</script>      
+      </div>
+      <div class="col-auto"> 
+
+        <!-- User -->
+        <a href="https://yj2hy2wwbjp4w2a4tkhyz3h6zu0woyft.lambda-url.us-east-1.on.aws/"><button type="button" id="account-button" class="btn btn-success">Login</button></a>
+        <div class="dropdown my-n2" id="account-dropdown" style="display: none;">
+          <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+              <img class="avatar-img" src="/assets/img/photos/kinlane.jpg" alt="..." />
+            </span>
+            Kin Lane
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li><a class="dropdown-item" href="#">Change password</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+
+        <script>
+          function getUrlVar(key){
+              var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search);
+              return result && unescape(result[1]) || "";
+          }          
+          var access_token = getUrlVar('access_token');
+          if(access_token!=''){
+            Cookies.set('access_token', access_token);
+          }
+          if(Cookies.get('access_token')){
+            document.getElementById("account-dropdown").style.display = '';
+            document.getElementById("account-button").style.display = 'none';
+          }
+        </script> 
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <!-- Main -->
+  <main class="main px-lg-6">
+    <!-- Content -->
+    <div class="container-lg">
+
+        <script>
+  var postId = '/2015/03/30/quantifying-the-community-around-the-swagger-api-specification/';
+  console.log("postId:" + postId);
+</script>
+
+<style>
+  img{
+    max-width:600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }  
+  </style>
+
+<div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+  You have made changes to the contract and will need to save.
+</div>
+
+<div id="commit-banner" class="alert alert-warning" role="alert" style="text-align: center; display: none;">
+  Changes have been made to this contract and will need committing to repo.
+</div>
+
+<div id="data-store" style="border: 1px solid #000; display: none;">
+  <input type="text" id="path" value="0">
+  <input type="text" id="page_start" value="0">
+  <input type="text" id="page_size" value="4">
+  <textarea id="posts-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="policies-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="rules-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-filter" style="width: 100%; height: 350px;">[]</textarea>
+</div>
+
+<div class="row gx-xl-9">
+
+  <div class="col-12 col-xxl-4 order-xxl-1">
+
+    <div class="position-sticky mb-8" style="top: 2rem">
+      <div class="card bg-body">
+        <div class="card-body py-4">
+          <!-- List -->
+          <ul class="list-group list-group-flush bg-body mb-0">
+            
+            <!--Begin Save Post Button-->
+            <div style="display: none; border: 0px #FFF;" id="save-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Save Post</strong></span>
+                <button id="save-button" type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#save-post">SAVE</button>
+              </li>  
+            </div> 
+            <!--End Save Post Button-->
+
+            <!--Begin Commit Post Button-->
+            <div style="display: none; border: 0px #FFF;" id="commit-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Commit Post</strong></span>
+                <button id="commit-button" type="button" class="btn btn-danger btn-sm" onclick="commitPost();">COMMIT</button>
+              </li>  
+            </div> 
+            <!--End Commit Post Button--> 
+
+            
+            
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Published</span>
+              <time datetime="2015-03-30">2015-03-30</time>
+            </li>
+
+               
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Author</span>
+              <span class="badge bg-success-subtle text-success"></span>
+            </li>                     
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="api-evangelist-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>API Evangelist Services</strong>
+                <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40qNzTt" target="_blank" id="api-evangelist-service-1">Do you know where all of your APIs are?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40nVDnW" target="_blank" id="api-evangelist-service-2">Do you have a source of truth for your schema?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callService(){
+
+                console.log("Calling API Evangelist Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/api-evangelist/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>API Evangelist Services</strong><div onclick="location.href=' + "'" + 'https://services.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="api-evangelist-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="api-evangelist-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("api-evangelist-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotateService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotateService(){
+
+                console.log("Rotating API Evangelist Service!");
+
+                document.getElementById("api-evangelist-service-1").className = "blink_me";
+                document.getElementById("api-evangelist-service-2").className = "blink_me";
+
+                setTimeout(function() { callService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotateService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+    <br>
+    <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="partner-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>Partner Services</strong>
+                      <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/4fpe6FO" target="_blank" id="partner-service-1">Do you need an open source replacement for Postman?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/4fpe6FO" target="_blank" id="partner-service-2">Need an open source API client?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callPartnerService(){
+
+                console.log("Calling Partner Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/partners/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>Partner Services</strong><div onclick="location.href=' + "'" + 'https://partners.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="partner-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="partner-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("partner-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotatePartnerService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotatePartnerService(){
+
+                console.log("Rotating Partner Service!");
+
+                document.getElementById("partner-service-1").className = "blink_me";
+                document.getElementById("partner-service-2").className = "blink_me";
+
+                setTimeout(function() { callPartnerService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotatePartnerService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+
+  </div>
+
+  <div class="col-12 col-xxl-8 order-xxl-0">
+
+    <section>
+      <div class="row">
+        <div class="col">
+  
+          <!-- Heading -->
+          
+          <h3 class="fs-3 mb-5" id="post-name-header" style="text-align: center;">Quantifying The Community Around The Swagger API Specification</h3>
+          <center><img src="https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png" width="95%" align="center" style="padding: 15px;" id="post-image-header"></center>      
+          <!-- Text -->
+          <p id="post-description-paragraph"><p>This post is extracted from a deep dive I’ve been doing into the Swagger ecosystem, as part of regular conversations I have been having with Tony Tam (@fehguy), trying to understand how we can better tell stories about Swagger. I’ve been tuned into things for a while now around the Swagger community, and there is a lot going on, but from the outside, some of this can be hard to see. Seeking a better understand what is the Swagger community, I wanted to take a walk through the sites, forum, and Github repositories.</p>
+
+<p>First let’s start with the basics, what is Swagger? Merriam Webster defines Swaggers as: : to walk in a very confident way : to walk with a swagger. ;-) Seriously though, Swagger is a machine readable format (either JSON or YAML), for describing an API, providing a description of API operations, in a way that other applications can read, and understand. Even though Swagger is machine readable, and designed for other applications, it has also become a language for humans to describe and collaborate, around a shared, quantifiable, vision of what an API can do, throughout all stages of the API life cycle. </p>
+
+<p>If you want to learn about Swagger yourself, you can tune into these channels to learn more:</p>
+
+<ul>
+  <li><strong><a href="http://swagger.io/">Website</a></strong></li>
+  <li><strong><a href="https://twitter.com/SwaggerApi">Twitter</a></strong></li>
+  <li><strong><a href="https://github.com/swagger-api">Github</a></strong></li>
+  <li><strong><a href="https://groups.google.com/forum/#!forum/swagger-swaggersocket">Google Group</a></strong></li>
+</ul>
+
+<p>My goal with this post is evolve my understanding and awareness of what Swagger is, and hopefully along the way I can help increase yours as well. In my experience, many people have a very distorted, and limited understanding of what Swagger is, and I’d like to take some time to evolve that. When I started this research, my objective was to help Tony deliver a new website, and on-boarding materials for Swagger, assisting people of all skill levels in finding all things Swagger. I am just taking this moment to walk through what at I have so far, and craft a more robust version 1.0 narrative about what Swagger is, something that blogging helps me work through.</p>
+
+<p>One of the biggest misconceptions I find when I talk with folks about Swagger, is that it is interactive documentation, when that is actually Swagger UI–when it comes to Swagger all roads start with the Swagger specification:</p>
+
+<ul>
+  <li><strong><a href="https://github.com/swagger-api/swagger-spec\">Swagger-Spec</a>)</strong> - The goal of Swagger is to define a standard, language-agnostic interface to REST APIs which allows both humans and computers to discover and understand the capabilities of the service.</li>
+</ul>
+
+<p><a href="https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md">You can find version 2.0 of the spec here</a>, which is the current active version in use. The Swagger spec lets you describe all the essential aspects of API operations, with information about the operator, the host and basePath for the API, details about what type of content it produces or consumes, like JSON or XML. Most importantly it lets you describe each of the paths for an API, with details on parameters, responses, and other details of each specific API path. Swagger also provides you with the ability to describe the underlying data model definitions, describing the valuable resources being served up via APIs.</p>
+
+<p>To grasp the last paragraph, you have to have a pretty solid understanding of the moving parts of an API, but in short the Swagger spec gives us a language to potentially map out all of the common parts of an API. It also allows me to describe the security for each API, and tag to organize APIs into specific buckets. <a href="https://kin-lane.github.io/master/index.html">I use Swagger to describe the almost 20 APIs my business uses daily, with varying amount of detail about each resource, and the information it serves up</a>. All the 20 of the Swagger definitions provide me with a machine readable map of my own IT infrastructure—as well as a common language that almost any other developer, or potentially not developer can learn to read, and work with.</p>
+
+<p>With Swagger we now have a common way to communication around the APIs we develop, and also map out the public APIs we also depend on like Twilio, SendGrid, or even Twitter. Now what? Why do we do this? <a href="http://apievangelist.com/2014/06/05/what-are-the-incentives-for-creating-machine-readable-api-definitions/">There are an increasing number of incentives emerging for why you generate machine readable API definitions like Swagger</a>, which is part of the reason I’m looking to further quantify the Swagger community, so I can add to the master list.</p>
+
+<p>Let’s start with what I’d consider to be the primary building blocks of Swagger, developed by the Swagger team, as part of the core offering:</p>
+
+<ul>
+  <li><strong><a href="https://github.com/swagger-api/swagger-ui">swagger-ui</a> -</strong> Generation of interactive API documentation, which Swagger is often known for.</li>
+  <li><strong><a href="https://github.com/swagger-api/swagger-codegen">swagger-codegen</a> -</strong> Generation of client code in a variety of languages using a Swagger definition.</li>
+  <li><strong><a href="https://github.com/swagger-api/swagger-js">swagger-js</a> -</strong> A JavaScript library to connect to swagger-enabled APIs via browser or Node.js.</li>
+  <li><strong><a href="https://github.com/swagger-api/swagger-socket">swagger-socket</a> -</strong> A REST over WebSocket tool for creating real-time integrations with Swagger.</li>
+  <li><strong><a href="https://github.com/swagger-api/swagger-node-express">swagger-node-express</a> -</strong> Swagger module for Node.js w/express module</li>
+  <li><strong><a href="https://github.com/swagger-api/swagger-scala-module">swagger-scala-module</a> -</strong> Swagger support for Scala.</li>
+  <li><strong><a href="https://github.com/swagger-api/swagger-editor">swagger-editor</a> -</strong> A visual editor for Swagger.</li>
+</ul>
+
+<p>Those six repositories represent the core tooling that the Swagger team has evolved around the specification, providing what I’d consider to be three stops along the API life cycle:</p>
+
+<ul>
+  <li>Documentation</li>
+  <li>Server Code</li>
+  <li>Client Code</li>
+</ul>
+
+<p>Swagger is often known for its interactive API documentation (aka Swagger UI), but there has also been a lot of work done on the codegen platform, and editor, taking things well beyond just API documentation. This is just the beginning of what is possible with Swagger. In an effort to find out what else is being done with Swagger, and what is being built with the specification, I wanted to see what the community is up to, which platforms they are integrating it into, and what other standalone tooling is being built using Swagger.</p>
+
+<p>I want a better understanding of the core group of companies who have embraced the Swagger specification, and baked it into their own platform. I know there are hundreds of them out there, but finding them can be easier said than done, especially when I’m looking some sort of public announcement, blog post, press release, service description, to use as my reference. So far I have <strong>49 companies</strong> that I’m tracking on, who have pulled the Swagger spec, and incorporated into their own platform and infrastructure.</p>
+
+<p><a href="http://www.3scale.net/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg" alt="" /></a></p>
+
+<p><a href="http://www.3scale.net/"><strong>3scale</strong></a> (<a href="http://www.3scale.net/tag/swagger/">reference</a>)</p>
+
+<p><a href="http://www.akana.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/akana-logo-formerly-soa.png" alt="" /></a></p>
+
+<p><a href="http://www.akana.com/"><strong>Akana</strong></a> (<a href="https://akana.com/news/press_detail/soa_software_eases_api_management_with_new_multi_api_description_language_s">reference</a>)</p>
+
+<p><a href="http://activemq.apache.org/apollo/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apache-apollo-logo.png" alt="" /></a></p>
+
+<p><a href="http://activemq.apache.org/apollo/"><strong>Apache Apollo</strong></a> (<a href="http://www.davsclaus.com/2014/09/66th-apache-camel-release-is-out-its.html">reference</a>)</p>
+
+<p><a href="http://camel.apache.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apache-camel.jpeg" alt="" /></a></p>
+
+<p><a href="http://camel.apache.org/"><strong>Apache Camel</strong></a> (<a href="http://camel.apache.org/swagger.html">reference</a>)</p>
+
+<p><a href="https://apigee.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/apigee-logo.gif" alt="" /></a></p>
+
+<p><a href="https://apigee.com/"><strong>Apigee</strong></a> (<a href="https://blog.apigee.com/taglist/swagge">reference</a>)</p>
+
+<p><a href="https://apigility.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apigility-logo.png" alt="" /></a></p>
+
+<p><a href="https://apigility.org/"><strong>Apigility</strong></a> (<a href="https://apigility.org/documentation/api-doc/swagger">reference</a>)</p>
+
+<p><a href="https://www.apimatic.io/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apimatic-logo.png" alt="" /></a></p>
+
+<p><a href="https://www.apimatic.io/"><strong>APIMATIC</strong></a> (<a href="https://www.facebook.com/apimatic/posts/94217215247839">reference</a>)</p>
+
+<p><a href="http://apis.io/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apis-io.png" alt="" /></a></p>
+
+<p><a href="http://apis.io/"><strong>apis.io</strong></a> (<a href="http://apis.io/">reference</a>)</p>
+
+<p><a href="http://apisjson.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apisdotjson.png" alt="" /></a></p>
+
+<p><a href="http://apisjson.org/"><strong>APIs.json</strong></a> (<a href="http://apisjson.org/">reference</a>)</p>
+
+<p><a href="https://www.apitools.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apitools-logo.png" alt="" /></a></p>
+
+<p><a href="https://www.apitools.com/"><strong>APItools</strong></a> (<a href="https://www.apitools.com/">reference</a>)</p>
+
+<p><a href="http://appnow.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/appnow-logo.png" alt="" /></a></p>
+
+<p><a href="http://appnow.com/"><strong>AppNow</strong></a> (<a href="https://appnow.radarconline.com/">reference</a>)</p>
+
+<p><a href="http://ardoq.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ardoq-logo.png" alt="" /></a></p>
+
+<p><a href="http://ardoq.com/"><strong>Ardoq</strong></a> (<a href="http://ardoq.com/visualizing-swagger-api-documentation/">reference</a>)</p>
+
+<p><a href="http://www.axway.com/vordel-products/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Axway_Logo_4_Color.jpg" alt="" /></a></p>
+
+<p><a href="http://www.axway.com/vordel-products/"><strong>Axway</strong></a> (<a href="https://www.axway.com/en/datasheet/axway-api-portal">reference</a>)</p>
+
+<p><a href="http://beego.me/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/beego_logo.png" alt="" /></a></p>
+
+<p><a href="http://beego.me/"><strong>Beego</strong></a> (<a href="http://beego.me/blog/beego_api">reference</a>)</p>
+
+<p><a href="http://catchsoftware.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/catch_logo.gif" alt="" /></a></p>
+
+<p><a href="http://catchsoftware.com/"><strong>Catch Software</strong></a> (<a href="http://catchsoftware.com/blogs/2013/08/get-your-swagger-on/">reference</a>)</p>
+
+<p><a href="http://www.cloud-elements.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/cloud-elements-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.cloud-elements.com/"><strong>Cloud Elements</strong></a> (<a href="https://github.com/cloud-elements/doc-builder">reference</a>)</p>
+
+<p><a href="http://www.django-rest-framework.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/django-rest-framework.png" alt="" /></a></p>
+
+<p><a href="http://www.django-rest-framework.org/"><strong>Django REST</strong></a> (<a href="http://www.django-rest-framework.org/topics/documenting-your-api/">reference</a>)</p>
+
+<p><a href="http://www.dreamfactory.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/dreamfactory.png" alt="" /></a></p>
+
+<p><a href="http://www.dreamfactory.com/"><strong>DreamFactory</strong></a> (<a href="http://blog.dreamfactory.com/blog/bid/294825/why-we-like-swagger-for-api-docs">reference</a>)</p>
+
+<p><a href="http://www.elastic.io/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/elasticio_logo.png" alt="" /></a></p>
+
+<p><a href="http://www.elastic.io/"><strong>elastic.io</strong></a> (<a href="https://github.com/elasticio/sphereio-api/">reference</a>)</p>
+
+<p><a href="http://www.espressologic.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/esspresso-logic-logic.png" alt="" /></a></p>
+
+<p><a href="http://www.espressologic.com/"><strong>Espresso Logic</strong></a> (<a href="http://docs.espressologic.com/docs/live-api/api-docs/">reference</a>)</p>
+
+<p><a href="http://www.gluu.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/gluu-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.gluu.org/"><strong>Gluu</strong></a> (<a href="https://github.com/GluuFederation/gluu-flask">reference</a>)</p>
+
+<p><a href="https://apim.ibmcloud.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/bw-ibm-logo.jpeg" alt="" /></a></p>
+
+<p><a href="https://apim.ibmcloud.com/"><strong>IBM</strong></a> (<a href="https://developer.ibm.com/answers/questions/27580/swagger-ui-import-and-export-in-api-management.html">reference</a>)</p>
+
+<p><a href="https://www.magnolia-cms.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Magnolia-CMS-logo.png" alt="" /></a></p>
+
+<p><a href="https://www.magnolia-cms.com/"><strong>Magnolia CMS</strong></a> (<a href="https://documentation.magnolia-cms.com/display/DOCS/REST+API#RESTAPI-SwaggerAPIexplorer">reference</a>)</p>
+
+<p><a href="http://azure.microsoft.com/en-us/services/api-management/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-azure-logo.png" alt="" /></a></p>
+
+<p><a href="http://azure.microsoft.com/en-us/services/api-management/"><strong>Microsoft Azure</strong></a> (<a href="http://azure.microsoft.com/en-us/documentation/articles/api-management-howto-import-api/">reference</a>)</p>
+
+<p><a href="http://neo4j.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/neo4j-logo-2015.png" alt="" /></a></p>
+
+<p><a href="http://neo4j.com/"><strong>Neo4J</strong></a> (<a href="http://neo4j-swagger.tinj.com/docs/">reference</a>)</p>
+
+<p><a href="http://developer.netflix.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1620_logo.png" alt="" /></a></p>
+
+<p><a href="http://developer.netflix.com/"><strong>Netflix</strong></a> (<a href="http://www.oscon.com/oscon2014/public/schedule/detail/33481">reference</a>)</p>
+
+<p><a href="http://nomos-software.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/nomos-software-logo.png" alt="" /></a></p>
+
+<p><a href="http://nomos-software.com/"><strong>Nomos Software</strong></a> (<a href="http://nomos-software.com/blog/swagger-ui-example">reference</a>)</p>
+
+<p><a href="http://open311.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/open311-logo.jpeg" alt="" /></a></p>
+
+<p><a href="http://open311.org/"><strong>Open311</strong></a> (<a href="https://github.com/open311/swagger-open311">reference</a>)</p>
+
+<p><a href="http://www.opendaylight.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/opendaylight-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.opendaylight.org/"><strong>OpenDaylight Project</strong></a> (<a href="https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL:Restconf_API_Explorer">reference</a>)</p>
+
+<p><a href="http://www.openi-ict.eu/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/openi-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.openi-ict.eu/"><strong>OPENi</strong></a> (<a href="https://github.com/OPENi-ict/swagger-def">reference</a>)</p>
+
+<p><a href="https://www.openshift.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/200px-OpenShift-LogoType.svg.png" alt="" /></a></p>
+
+<p><a href="https://www.openshift.com/"><strong>OpenShift by Red Hat</strong></a> (<a href="https://blog.openshift.com/visualize-openshift-api-with-swagger/">reference</a>)</p>
+
+<p><a href="http://pivotal.io/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/pivotal-logo.jpeg" alt="" /></a></p>
+
+<p><a href="http://pivotal.io/"><strong>Pivotal</strong></a> (<a href="http://gemfire.docs.pivotal.io/latest/userguide/gemfire_rest/using_swagger.html">reference</a>)</p>
+
+<p><a href="http://www.getpostman.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/postman-rest-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.getpostman.com/"><strong>Postman REST Client</strong></a> (<a href="http://blog.getpostman.com/index.php/2014/11/17/postman-1-0-is-out-gorgeous-dark-theme-curlramlswaggerwadl-imports-performance-improvements/">reference</a>)</p>
+
+<p><a href="https://www.quandl.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/220px-Quandl_Logol.svg.png" alt="" /></a></p>
+
+<p><a href="https://www.quandl.com/"><strong>Quandl</strong></a> (<a href="https://github.com/AnCh7/FinancialCharting">reference</a>)</p>
+
+<p><a href="http://restunited.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/rest-united.png" alt="" /></a></p>
+
+<p><a href="http://restunited.com/"><strong>REST United</strong></a> (<a href="http://restunited.com/">reference</a>)</p>
+
+<p><a href="http://www.mediawiki.org/wiki/RESTBase"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/RESTBase-Logo.png" alt="" /></a></p>
+
+<p><a href="http://www.mediawiki.org/wiki/RESTBase"><strong>RESTBase</strong></a> (<a href="https://github.com/wikimedia/swagger-router">reference</a>)</p>
+
+<p><a href="http://www.restfiddle.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/RESTFiddle-Logo.png" alt="" /></a></p>
+
+<p><a href="http://www.restfiddle.com/"><strong>RESTFiddle</strong></a> (<a href="http://www.restfiddle.com/">reference</a>)</p>
+
+<p><a href="https://apispark.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apispark-logo" alt="" /></a></p>
+
+<p><a href="https://apispark.com/"><strong>Restlet / APISpark</strong></a> (<a href="http://restlet.com/technical-resources/restlet-framework/guide/2.3/extensions/swagger">reference</a>)</p>
+
+<p><a href="https://getsandbox.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/get-sandbox-logo.png" alt="" /></a></p>
+
+<p><a href="https://getsandbox.com/"><strong>Sandbox</strong></a> (<a href="https://getsandbox.com/">reference</a>)</p>
+
+<p><a href="https://servicestack.net/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/service-stack.png" alt="" /></a></p>
+
+<p><a href="https://servicestack.net/"><strong>Service Stack</strong></a> (<a href="https://github.com/ServiceStack/ServiceStack/wiki/Swagger-API">reference</a>)</p>
+
+<p><a href="http://smartbear.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png" alt="" /></a></p>
+
+<p><a href="http://smartbear.com/"><strong>SmartBear Software</strong></a> (<a href="http://smartbear.com/">reference</a>)</p>
+
+<p><a href="http://www.snaplogic.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/snaplogic-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.snaplogic.com/"><strong>SnapLogic</strong></a> (<a href="http://video.snaplogic.com/fL5g/the-snaplogic-swagger-snap/">reference</a>)</p>
+
+<p><a href="http://strongloop.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/strongloop-logo.png" alt="" /></a></p>
+
+<p><a href="http://strongloop.com/"><strong>StrongLoop</strong></a> (<a href="https://strongloop.com/strongblog/enterprise-api-swagger-2-0-loopback/">reference</a>)</p>
+
+<p><a href="http://www.synapp.io/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/synapp-io-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.synapp.io/"><strong>Synapp.io</strong></a> (<a href="http://www.synapp.io/blog/2014/11/7/putting-the-api-in-synappio">reference</a>)</p>
+
+<p><a href="http://www.tibco.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/tibco-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.tibco.com/"><strong>TIBCO Software</strong></a> (<a href="https://docs.tibco.com/pub/activematrix_businessworks/6.2.0/doc/html/GUID-FDE5F1A2-D4B3-4410-B8E2-2D412C00F596.html">reference</a>)</p>
+
+<p><a href="https://www.visualstudio.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/visual-studio-2013-logo.png" alt="" /></a></p>
+
+<p><a href="https://www.visualstudio.com/"><strong>Visual Studio</strong></a> (<a href="http://blogs.msdn.com/b/visualstudio/archive/2015/03/24/introducing-the-azure-api-apps-tools-for-visual-studio-2013.aspx">reference</a>)</p>
+
+<p><a href="http://www.wavemaker.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/wavemaker-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.wavemaker.com/"><strong>WaveMaker, Inc.</strong></a> (<a href="http://www.wavemaker.com/blog/wavemaker-api-designer-brings-api-driven-development-to-custom-built-enterprise-applications/">reference</a>)</p>
+
+<p><a href="http://wso2.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/wso2-logo-white-800X360.jpg" alt="" /></a></p>
+
+<p><a href="http://wso2.com/"><strong>WSO2</strong></a> (<a href="http://blog.cobia.net/cobiacomm/2013/05/31/swagger-with-wso2-api-manager/">reference</a>)</p>
+
+<p><a href="http://www.yelp.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/536_logo.png" alt="" /></a></p>
+
+<p><a href="http://www.yelp.com/"><strong>Yelp</strong></a> (<a href="https://github.com/Yelp">reference</a>)</p>
+
+<p>This list represents a pretty interesting mix of folks who understand the potential of Swagger, and have invested in the community by making it a core part of their operations. I know there are more of these out there (a lot more), but they haven’t talked publicly about what they are up to. This is just what I’ve aggregated from going through the Swagger site, group, and Github repositories, and from what I already know of the API space, from my monitoring.</p>
+
+<p>After looking at the platforms who have pulled the Swagger specification into their operations, I wanted to see if I could also begin to quantify the community of APIs who have deployed Swagger UI, providing interactive API documentation for their own API platform. Since this is what Swagger is known for, I knew I would find quite a few to showcase. So far I have found 62:</p>
+
+<p><a href="http://population.io/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/world-population-project.png" alt="" /></a></p>
+
+<p><a href="http://population.io/"><strong>World Population Project</strong></a> (<a href="http://api.population.io/">reference</a>)</p>
+
+<p><a href="http://www.3scale.net/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg" alt="" /></a></p>
+
+<p><a href="http://www.3scale.net/"><strong>3scale</strong></a> (<a href="https://support.3scale.net/reference/active-docs#/account_management_api">reference</a>)</p>
+
+<p><a href="http://scholar.acindex.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ACI_Scholarly_Blog_Index.png" alt="" /></a></p>
+
+<p><a href="http://scholar.acindex.com/"><strong>ACI Blog Index</strong></a> (<a href="http://developer.acindex.com/">reference</a>)</p>
+
+<p><a href="http://apievangelist.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-evangelist-logo-400.png" alt="" /></a></p>
+
+<p><a href="http://apievangelist.com/"><strong>API Evangelist</strong></a> (<a href="http://developer.apievangelist.com/core-apis.html">reference</a>)</p>
+
+<p><a href="https://www.api2cart.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-2-cart.png" alt="" /></a></p>
+
+<p><a href="https://www.api2cart.com/"><strong>API2Cart</strong></a> (<a href="http://docs.api2cart.com/post/interactive-d">reference</a>)</p>
+
+<p><a href="http://appsp.in/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/appspin_100.png" alt="" /></a></p>
+
+<p><a href="http://appsp.in/"><strong>AppSpin</strong></a> (<a href="http://docs.appsp.in/">reference</a>)</p>
+
+<p><a href="http://banckle.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/548_logo.jpg" alt="" /></a></p>
+
+<p><a href="http://banckle.com/"><strong>Banckle</strong></a> (<a href="http://chat.banckle.com/api/v2.0/">reference</a>)</p>
+
+<p><a href="http://www.apiisn.com/betting/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/betisn-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.apiisn.com/betting/"><strong>BetISN</strong></a> (<a href="http://www.apiisn.com/betting/">reference</a>)</p>
+
+<p><a href="https://bitdango.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/bitdango-logo.png" alt="" /></a></p>
+
+<p><a href="https://bitdango.com/"><strong>Bitdango</strong></a> (<a href="https://bitdango.com/api">reference</a>)</p>
+
+<p><a href="https://www.bittitan.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/BitTitan_100.png" alt="" /></a></p>
+
+<p><a href="https://www.bittitan.com/"><strong>BitTitan</strong></a> (<a href="http://www.bittitan.com/swagger/ui/index.html">reference</a>)</p>
+
+<p><a href="http://www.callfire.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png" alt="" /></a></p>
+
+<p><a href="http://www.callfire.com/"><strong>CallFire</strong></a> (<a href="https://www.callfire.com/api-documentation/rest/version/1.1">reference</a>)</p>
+
+<p><a href="http://carnivalmobile.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/carnival-logo-small.png" alt="" /></a></p>
+
+<p><a href="http://carnivalmobile.com/"><strong>Carnival Mobile</strong></a> (<a href="https://api.carnivalmobile.com/">reference</a>)</p>
+
+<p><a href="http://www.commercedatascience.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/cdscience-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.commercedatascience.com/"><strong>CDScience</strong></a> (<a href="http://api.cdscience.com/">reference</a>)</p>
+
+<p><a href="http://citygro.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/citygro-logo-color.png" alt="" /></a></p>
+
+<p><a href="http://citygro.com/"><strong>CityGro</strong></a> (<a href="https://api.citygro.com/v1/">reference</a>)</p>
+
+<p><a href="http://citysdk.waag.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/citysdk-logo.png" alt="" /></a></p>
+
+<p><a href="http://citysdk.waag.org/"><strong>CitySDK</strong></a> (<a href="http://dev.hel.fi/open311-test/swagger/dist/index.html">reference</a>)</p>
+
+<p><a href="http://clarify.io/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/clarify-logo.png" alt="" /></a></p>
+
+<p><a href="http://clarify.io/"><strong>Clarify API</strong></a> (<a href="http://clarify.io/docs/api/">reference</a>)</p>
+
+<p><a href="http://www.climatechangecosts.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/textLogoClimateChange.png" alt="" /></a></p>
+
+<p><a href="http://www.climatechangecosts.com/"><strong>Climate Change Costs</strong></a> (<a href="http://www.climatechangecosts.com/docs/">reference</a>)</p>
+
+<p><a href="http://getcloudify.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/cloudify-logo.png" alt="" /></a></p>
+
+<p><a href="http://getcloudify.org/"><strong>Cloudify</strong></a> (<a href="http://getcloudify.org/guide/3.0/rest-api/index.html">reference</a>)</p>
+
+<p><a href="https://www.commafeed.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/commafeed-logo.png" alt="" /></a></p>
+
+<p><a href="https://www.commafeed.com/"><strong>CommaFeed</strong></a> (<a href="https://www.commafeed.com/api/">reference</a>)</p>
+
+<p><a href="https://www.concur.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Concur_Logo_HZ_Black_500px.png" alt="" /></a></p>
+
+<p><a href="https://www.concur.com/"><strong>Concur</strong></a> (<a href="https://www.concursolutions.com/api/docs/index.html">reference</a>)</p>
+
+<p><a href="https://developer.datavalidation.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/data-validation-api.png" alt="" /></a></p>
+
+<p><a href="https://developer.datavalidation.com/"><strong>DataValidation API</strong></a> (<a href="https://developer.datavalidation.com/docs">reference</a>)</p>
+
+<p><a href="http://www.datumbox.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/datumbox.png" alt="" /></a></p>
+
+<p><a href="http://www.datumbox.com/"><strong>Datumbox</strong></a> (<a href="http://www.datumbox.com/api-sandbox/">reference</a>)</p>
+
+<p><a href="http://www.dreamfactory.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/dreamfactory.png" alt="" /></a></p>
+
+<p><a href="http://www.dreamfactory.com/"><strong>DreamFactory</strong></a> (<a href="http://www.dreamfactory.com/developers/live_API">reference</a>)</p>
+
+<p><a href="http://dronekit.io/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/3dr-dronekit-logo.png" alt="" /></a></p>
+
+<p><a href="http://dronekit.io/"><strong>DroneKit</strong></a> (<a href="http://api.3drobotics.com/swagger-ui/">reference</a>)</p>
+
+<p><a href="http://www.evercam.io/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/evercam-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.evercam.io/"><strong>Evercam</strong></a> (<a href="http://www.evercam.io/develop/docs">reference</a>)</p>
+
+<p><a href="http://developer.ean.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/195_logo.jpg" alt="" /></a></p>
+
+<p><a href="http://developer.ean.com/"><strong>Expedia</strong></a> (<a href="https://www.expedia.com/static/mobile/swaggerui/">reference</a>)</p>
+
+<p><a href="https://fanart.tv/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/logo3.png" alt="" /></a></p>
+
+<p><a href="https://fanart.tv/"><strong>fanart.tv</strong></a> (<a href="http://hermes.fanart.tv/">reference</a>)</p>
+
+<p><a href="http://formagg.io/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/formaggio-logo.png" alt="" /></a></p>
+
+<p><a href="http://formagg.io/"><strong>Formagg.io</strong></a> (<a href="http://api.formagg.io/">reference</a>)</p>
+
+<p><a href="http://transit.geotrellis.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/GeoTrellis-Transit-Logo.png" alt="" /></a></p>
+
+<p><a href="http://transit.geotrellis.com/"><strong>GeoTrellis</strong></a> (<a href="http://transit.geotrellis.com/">reference</a>)</p>
+
+<p><a href="http://www.gettyimages.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg" alt="" /></a></p>
+
+<p><a href="http://www.gettyimages.com/"><strong>Getty Images</strong></a> (<a href="https://api.gettyimages.com/swagger/ui/index.html">reference</a>)</p>
+
+<p><a href="http://groupdocs.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1066_logo.png" alt="" /></a></p>
+
+<p><a href="http://groupdocs.com/"><strong>GroupDocs</strong></a> (<a href="http://api.groupdocs.com/v2.0/spec/">reference</a>)</p>
+
+<p><a href="https://www.getguru.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/guru-logo.png" alt="" /></a></p>
+
+<p><a href="https://www.getguru.com/"><strong>Guru</strong></a> (<a href="http://help.getguru.com/">reference</a>)</p>
+
+<p><a href="https://habitrpg.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/habitrpg_pixel.png" alt="" /></a></p>
+
+<p><a href="https://habitrpg.com/"><strong>HabitRPG</strong></a> (<a href="https://habitrpg.com/static/api">reference</a>)</p>
+
+<p><a href="http://hapijs.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/hapi-js-logo.png" alt="" /></a></p>
+
+<p><a href="http://hapijs.com/"><strong>hapi.js</strong></a> (<a href="http://hapijs.com/">reference</a>)</p>
+
+<p><a href="http://kubernetes.io/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png" alt="" /></a></p>
+
+<p><a href="http://kubernetes.io/"><strong>Kubernetes</strong></a> (<a href="http://kubernetes.io/third_party/swagger-ui/">reference</a>)</p>
+
+<p><a href="http://gameinfo.na.leagueoflegends.com/en/game-info/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/League_of_legends_logo_transparent.png" alt="" /></a></p>
+
+<p><a href="http://gameinfo.na.leagueoflegends.com/en/game-info/"><strong>League of Legends</strong></a> (<a href="http://na.lolesports.com/api/swagger#!/api">reference</a>)</p>
+
+<p><a href="http://na.lolesports.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/league-of-legends-esports.jpeg" alt="" /></a></p>
+
+<p><a href="http://na.lolesports.com/"><strong>League of Legends eSports</strong></a> (<a href="http://na.lolesports.com/api/swagger">reference</a>)</p>
+
+<p><a href="http://www.likibu.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/likibu-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.likibu.com/"><strong>Likibu</strong></a> (<a href="http://api.likibu.com/doc/">reference</a>)</p>
+
+<p><a href="http://www.mobovivo.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Mobovivo_Logo.png" alt="" /></a></p>
+
+<p><a href="http://www.mobovivo.com/"><strong>Mobovivo</strong></a> (<a href="http://swagger-intel.mobovivo.com/">reference</a>)</p>
+
+<p><a href="http://openbadges.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/mozilla-open-badges-logo.png" alt="" /></a></p>
+
+<p><a href="http://openbadges.org/"><strong>Mozilla Open Badges</strong></a> (<a href="http://directory.openbadges.org/developers/api-explorer">reference</a>)</p>
+
+<p><a href="https://www.muckrock.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/muckrock_medium.jpg" alt="" /></a></p>
+
+<p><a href="https://www.muckrock.com/"><strong>MuckRock</strong></a> (<a href="https://www.muckrock.com/api_doc/">reference</a>)</p>
+
+<p><a href="https://www.getmyfox.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/myfox-logo.png" alt="" /></a></p>
+
+<p><a href="https://www.getmyfox.com/"><strong>MyFox</strong></a> (<a href="https://api.myfox.me/dev/documentation">reference</a>)</p>
+
+<p><a href="https://myneighbor.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/myneighbor-logo.png" alt="" /></a></p>
+
+<p><a href="https://myneighbor.com/"><strong>MyNeighbor</strong></a> (<a href="http://api.myneighbor.com/docs/index.html">reference</a>)</p>
+
+<p><a href="http://www.mysms.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/mysms-logo.jpg" alt="" /></a></p>
+
+<p><a href="http://www.mysms.com/"><strong>MySMS</strong></a> (<a href="https://api.mysms.com/swagger/">reference</a>)</p>
+
+<p><a href="http://pingup.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/pingup-logo-horizontal-preview.png" alt="" /></a></p>
+
+<p><a href="http://pingup.com/"><strong>Pingup</strong></a> (<a href="http://developers.pingup.com/#api-explorer">reference</a>)</p>
+
+<p><a href="https://www.popuparchive.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/popuparchive-logo.png" alt="" /></a></p>
+
+<p><a href="https://www.popuparchive.com/"><strong>Pop Up Archive</strong></a> (<a href="https://developer.popuparchive.com/">reference</a>)</p>
+
+<p><a href="http://www.spacexplore.it/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Project-Chronos-Logo.png" alt="" /></a></p>
+
+<p><a href="http://www.spacexplore.it/"><strong>Project Chronos</strong></a> (<a href="http://www.spacexplore.it/api/docs/">reference</a>)</p>
+
+<p><a href="https://www.ptisp.pt/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ptisp-logo.png" alt="" /></a></p>
+
+<p><a href="https://www.ptisp.pt/"><strong>PTisp</strong></a> (<a href="http://api.ptisp.pt/">reference</a>)</p>
+
+<p><a href="http://puppetlabs.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/puppet-labs-logo.png" alt="" /></a></p>
+
+<p><a href="http://puppetlabs.com/"><strong>Puppet Labs</strong></a> (<a href="https://forgeapi.puppetlabs.com/">reference</a>)</p>
+
+<p><a href="http://qi-bench.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/qi-bench.jpg" alt="" /></a></p>
+
+<p><a href="http://qi-bench.org/"><strong>QI Bench</strong></a> (<a href="http://api.qi-bench.org/">reference</a>)</p>
+
+<p><a href="http://www.rackspace.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/rackspace-logo.jpg" alt="" /></a></p>
+
+<p><a href="http://www.rackspace.com/"><strong>Rackspace</strong></a> (<a href="http://rackerlabs.github.io/wadl2swagger/rackspace.html">reference</a>)</p>
+
+<p><a href="http://reliefweb.int/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/reliefweb-logo.jpg" alt="" /></a></p>
+
+<p><a href="http://reliefweb.int/"><strong>ReliefWeb</strong></a> (<a href="http://apidoc.rwlabs.org/swagger">reference</a>)</p>
+
+<p><a href="https://sensr.net/api"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/924_logo.png" alt="" /></a></p>
+
+<p><a href="https://sensr.net/api"><strong>Sensr.net</strong></a> (<a href="https://api.sensr.net/doc/v3/index.html">reference</a>)</p>
+
+<p><a href="http://shoeboxed.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/480_logo.png" alt="" /></a></p>
+
+<p><a href="http://shoeboxed.com/"><strong>Shoeboxed</strong></a> (<a href="https://api.shoeboxed.com/v2/explorer/index.html">reference</a>)</p>
+
+<p><a href="http://skimlinks.com/skimlinks"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/933_logo.png" alt="" /></a></p>
+
+<p><a href="http://skimlinks.com/skimlinks"><strong>Skimlinks</strong></a> (<a href="https://skimlinks-pi.3scale.net/docs">reference</a>)</p>
+
+<p><a href="http://subledger.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/subledger.png" alt="" /></a></p>
+
+<p><a href="http://subledger.com/"><strong>Subledger</strong></a> (<a href="https://api.subledger.com/v2/index.html">reference</a>)</p>
+
+<p><a href="http://www.tadaweb.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/tadaweb-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.tadaweb.com/"><strong>TaDaweb</strong></a> (<a href="https://api.tadaweb.com/v1/index.html">reference</a>)</p>
+
+<p><a href="http://www.taxamo.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Taxamo_logo-copy.jpg" alt="" /></a></p>
+
+<p><a href="http://www.taxamo.com/"><strong>taxamo</strong></a> (<a href="https://api.taxamo.com/swagger/ui/index.html">reference</a>)</p>
+
+<p><a href="https://theresumator.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/resumator-logo.png" alt="" /></a></p>
+
+<p><a href="https://theresumator.com/"><strong>The Resumator</strong></a> (<a href="http://www.resumatorapi.com/v1/">reference</a>)</p>
+
+<p><a href="https://www.gov.uk/government/organisations/uk-commission-for-employment-and-skills"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/uk-commission-for-employment-and-skills.png" alt="" /></a></p>
+
+<p><a href="https://www.gov.uk/government/organisations/uk-commission-for-employment-and-skills"><strong>UK Commission for Employment and Skills</strong></a> (<a href="http://api.lmiforall.org.uk/">reference</a>)</p>
+
+<p><a href="https://www.wordnik.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/wordnik-logo-131gihv.jpeg" alt="" /></a></p>
+
+<p><a href="https://www.wordnik.com/"><strong>Wordnik</strong></a> (<a href="http://developer.wordnik.com/docs.html">reference</a>)</p>
+
+<p><a href="https://yunohost.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/YunoHost-Logo.png" alt="" /></a></p>
+
+<p><a href="https://yunohost.org/"><strong>YunoHost</strong></a> (<a href="http://api.yunohost.org/">reference</a>)</p>
+
+<p>Finding websites that have implemented Swagger UI is harder than you think. There are only three search engines I could find that let you search the source code of websites for JavaScript files and code. Ultimately I ended up mostly depending on my own ability to find new APIs, and manually uncover whether or not Swagger was actually in use. I’m working on a stack of Swagger and API Blueprint discovery search engines, but they aren’t quite ready for this dive.</p>
+
+<p>Next I wanted to look through some of the tooling that has evolved as part of the Swagger community, which Github is definitely the place to begin this journey. <a href="https://github.com/search?utf8=%E2%9C%93&amp;q=swagger">When you search Github for the word Swagger, you get almost 1000 repositories</a>. I was going to programmatically explore these results, but found that manually browsing through them was the best path to take, allowing me to make a decision on what each developer was up to.</p>
+
+<p>The one thing I learned doing through this process—Swagger means many different things, to many different people. Most refer to Swagger, and mean Swagger UI, while others refer to it as generating server side code, or maybe client side code. Moving forward, there needs to be a lot of work done helped educate people about first, what Swagger is, a specification, and what are  each of the areas of tooling that are built on top of the Swagger specification.</p>
+
+<p>Even after looking through the almost 1000 Swagger related Github projects, things are still very hazy for me, but I did learn a lot along the way, about what languages, frameworks and platforms developers are using Swagger, and the types of tools and integrations they are developing.</p>
+
+<p>The best way to look at all of these projects is by language—here is the Github breakdown.</p>
+
+<ul>
+  <li>411 JavaScript</li>
+  <li>135 Java</li>
+  <li>61 Ruby</li>
+  <li>41 Python</li>
+  <li>32 PHP</li>
+  <li>31 Scala</li>
+  <li>22 C#</li>
+  <li>17 Shell</li>
+  <li>13 Clojure</li>
+  <li>8 Groovy</li>
+</ul>
+
+<p>This isn’t accurate, because many of the JavaScript repositories are actually other languages. I forget to make sure Github knows what language a repo is sometimes too. Regardless, it gives you an idea of which programming languages developers are using to work with Swagger—one layer to look consider.</p>
+
+<p>Beyond the programming languages I want to know which platforms and frameworks developers are applying Swagger. Here are 36 frameworks and platforms I’ve identified so far.</p>
+
+<p><a href="https://angularjs.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/AngularJS_logo.svg.png" alt="" /></a></p>
+
+<p><a href="https://angularjs.org/"><strong>AngularJS</strong></a> (<a href="http://github.com/">reference</a>)</p>
+
+<p><a href="http://ant.apache.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apache-ant.png" alt="" /></a></p>
+
+<p><a href="http://ant.apache.org/"><strong>Apache Ant</strong></a> (<a href="http://github.com/cstroe/swagger-ant-task/">reference</a>)</p>
+
+<p><a href="http://camel.apache.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apache-camel.jpeg" alt="" /></a></p>
+
+<p><a href="http://camel.apache.org/"><strong>Apache Camel</strong></a> (<a href="http://github.com/myfear/CamelEE7RestSwagger">reference</a>)</p>
+
+<p><a href="https://maven.apache.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apache-maven.png" alt="" /></a></p>
+
+<p><a href="https://maven.apache.org/"><strong>Apache Maven</strong></a> (<a href="http://github.com/kongchen/swagger-maven-plugin/">reference</a>)</p>
+
+<p><a href="https://wink.apache.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Apache_Wink_Logo.png" alt="" /></a></p>
+
+<p><a href="https://wink.apache.org/"><strong>Apache Wink</strong></a> (<a href="http://github.com/zouzias/swagger-jaxrs-wink/">reference</a>)</p>
+
+<p><a href="https://www.arangodb.com/foxx"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/arangodb_logo2.png" alt="" /></a></p>
+
+<p><a href="https://www.arangodb.com/foxx"><strong>ArangoDB Foxx</strong></a> (<a href="http://github.com/arangodb/foxx-swagger/">reference</a>)</p>
+
+<p><a href="https://www.npmjs.com/package/backbone-rest"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/backbone-rest.png" alt="" /></a></p>
+
+<p><a href="https://www.npmjs.com/package/backbone-rest"><strong>BackboneREST</strong></a> (<a href="http://github.com/robblovell/backbone-rest-swagger-example/">reference</a>)</p>
+
+<p><a href="http://cakephp.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/cake-logo.png" alt="" /></a></p>
+
+<p><a href="http://cakephp.org/"><strong>CakePHP</strong></a> (<a href="http://github.com/dave-newson/cakephp-swagger/">reference</a>)</p>
+
+<p><a href="http://ckan.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ckan-logo.png" alt="" /></a></p>
+
+<p><a href="http://ckan.org/"><strong>CKAN</strong></a> (<a href="http://github.com/deepviator/ckan-integrate-swagger/">reference</a>)</p>
+
+<p><a href="http://www.django-rest-framework.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/django-rest-framework.png" alt="" /></a></p>
+
+<p><a href="http://www.django-rest-framework.org/"><strong>Django REST</strong></a> (<a href="http://github.com/avinash240/django-rest-framework-swagger/">reference</a>)</p>
+
+<p><a href="https://django-tastypie.readthedocs.org/en/latest/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/tastypie2.jpg" alt="" /></a></p>
+
+<p><a href="https://django-tastypie.readthedocs.org/en/latest/"><strong>Django Tastypie</strong></a> (<a href="http://github.com/concentricsky/django-tastypie-swagger/">reference</a>)</p>
+
+<p><a href="http://www.elasticsearch.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1910_logo.jpg" alt="" /></a></p>
+
+<p><a href="http://www.elasticsearch.org/"><strong>elasticsearch</strong></a> (<a href="http://github.com/timschlechter/swagger-for-elasticsearch/">reference</a>)</p>
+
+<p><a href="http://expressjs.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/express-logo.png" alt="" /></a></p>
+
+<p><a href="http://expressjs.com/"><strong>Express</strong></a> (<a href="http://github.com/krakenjs/swaggerize-express/">reference</a>)</p>
+
+<p><a href="http://feathersjs.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/feathers-logo.png" alt="" /></a></p>
+
+<p><a href="http://feathersjs.com/"><strong>Feathers</strong></a> (<a href="http://github.com/Glavin001/feathers-swagger/">reference</a>)</p>
+
+<p><a href="http://flask.pocoo.org/docs/0.10/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/flask-logo.png" alt="" /></a></p>
+
+<p><a href="http://flask.pocoo.org/docs/0.10/"><strong>Flask</strong></a> (<a href="http://github.com/martinp/flask-swagger/">reference</a>)</p>
+
+<p><a href="http://swagger.apievangelist.com/external-integrations.html"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/bw-github.png" alt="" /></a></p>
+
+<p><a href="http://swagger.apievangelist.com/external-integrations.html"><strong>Flask MongoRest</strong></a> (<a href="http://github.com/matchbox/flask-mongorest-swagger/">reference</a>)</p>
+
+<p><a href="https://flask-restful.readthedocs.org/en/0.3.2/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/flask-restful-logo.png" alt="" /></a></p>
+
+<p><a href="https://flask-restful.readthedocs.org/en/0.3.2/"><strong>Flask Restful</strong></a> (<a href="http://github.com/rantav/flask-restful-swagger/">reference</a>)</p>
+
+<p><a href="http://swagger.apievangelist.com/external-integrations.html"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/gradle.png" alt="" /></a></p>
+
+<p><a href="http://swagger.apievangelist.com/external-integrations.html"><strong>Gradle</strong></a> (<a href="http://github.com/dave-ellis/gradle-swagger-plugin">reference</a>)</p>
+
+<p><a href="http://swagger.apievangelist.com/external-integrations.html"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/grails-logo.jpg" alt="" /></a></p>
+
+<p><a href="http://swagger.apievangelist.com/external-integrations.html"><strong>Grails</strong></a> (<a href="http://github.com/alvarosanchez/grails-swagger/">reference</a>)</p>
+
+<p><a href="http://intridea.github.io/grape/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/grape-logo.jpeg" alt="" /></a></p>
+
+<p><a href="http://intridea.github.io/grape/"><strong>Grape</strong></a> (<a href="http://github.com/tim-vandecasteele/grape-swagger/">reference</a>)</p>
+
+<p><a href="http://gruntjs.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/grunt-logo.jpg" alt="" /></a></p>
+
+<p><a href="http://gruntjs.com/"><strong>Grunt</strong></a> (<a href="http://github.com/tmalbonph/grunt-swagger-tools/">reference</a>)</p>
+
+<p><a href="http://guzzle.readthedocs.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/guzzle-logo.png" alt="" /></a></p>
+
+<p><a href="http://guzzle.readthedocs.org/"><strong>Guzzle</strong></a> (<a href="http://github.com/oco/swizzle/">reference</a>)</p>
+
+<p><a href="https://jersey.java.net/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/jersey-logo.png" alt="" /></a></p>
+
+<p><a href="https://jersey.java.net/"><strong>Jersey</strong></a> (<a href="http://github.com/salimane/java-jersey2/">reference</a>)</p>
+
+<p><a href="http://laravel.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/laravel-logo.png" alt="" /></a></p>
+
+<p><a href="http://laravel.com/"><strong>Laravel</strong></a> (<a href="http://github.com/slampenny/Swaggervel/">reference</a>)</p>
+
+<p><a href="https://www.linqpad.net/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/linqpad-logo.jpg" alt="" /></a></p>
+
+<p><a href="https://www.linqpad.net/"><strong>LINQPad</strong></a> (<a href="http://github.com/dylanmei/linqpad-swagger-driver/">reference</a>)</p>
+
+<p><a href="https://www.mongodb.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/mongodb.jpeg" alt="" /></a></p>
+
+<p><a href="https://www.mongodb.org/"><strong>MongDB</strong></a> (<a href="http://github.com/dgiul/node-swagger-express-mongodb/">reference</a>)</p>
+
+<p><a href="http://nancyfx.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/nancy-logo.png" alt="" /></a></p>
+
+<p><a href="http://nancyfx.org/"><strong>Nancy</strong></a> (<a href="http://github.com/khellang/Nancy.Swagger/">reference</a>)</p>
+
+<p><a href="http://www.pylonsproject.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/pyramid-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.pylonsproject.org/"><strong>Pyramid</strong></a> (<a href="http://github.com/striglia/pyramid_swagger/">reference</a>)</p>
+
+<p><a href="https://developer.salesforce.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/salesforce-logo.png" alt="" /></a></p>
+
+<p><a href="https://developer.salesforce.com/"><strong>Salesforce</strong></a> (<a href="http://github.com/thysmichels/force.com-swagger-rest-spring-mvc/">reference</a>)</p>
+
+<p><a href="http://swagger.apievangelist.com/external-integrations.html"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/sequelize-logo.png" alt="" /></a></p>
+
+<p><a href="http://swagger.apievangelist.com/external-integrations.html"><strong>Sequelize</strong></a> (<a href="https://github.com/mathisonian/swaggerize">reference</a>)</p>
+
+<p><a href="http://silex.sensiolabs.org/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/silex-logo.png" alt="" /></a></p>
+
+<p><a href="http://silex.sensiolabs.org/"><strong>Silex</strong></a> (<a href="http://github.com/">reference</a>)</p>
+
+<p><a href="http://www.sinatrarb.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/sinatra-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.sinatrarb.com/"><strong>Sinatra</strong></a> (<a href="http://github.com/jphastings/sinatra-swagger/">reference</a>)</p>
+
+<p><a href="https://spring.io/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/spring-by-pivotal.png" alt="" /></a></p>
+
+<p><a href="https://spring.io/"><strong>Spring</strong></a> (<a href="http://github.com/wkennedy/swagger4spring-web/">reference</a>)</p>
+
+<p><a href="http://symfony.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/symfony-logo.png" alt="" /></a></p>
+
+<p><a href="http://symfony.com/"><strong>Symfony</strong></a> (<a href="http://github.com/creads/api2symfony-bundle/">reference</a>)</p>
+
+<p><a href="http://www.tornadoweb.org/en/stable/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/tornado-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.tornadoweb.org/en/stable/"><strong>Tornado-JSON</strong></a> (<a href="http://github.com/andyno/tornado-swagger/">reference</a>)</p>
+
+<p><a href="https://github.com/ryanuber/veneer"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/veneer-logo.png" alt="" /></a></p>
+
+<p><a href="https://github.com/ryanuber/veneer"><strong>Veneer</strong></a> (<a href="http://github.com/ryanuber/veneer-swagger/">reference</a>)</p>
+
+<p>Beyond the programming languages, frameworks, and platform integrations I’m looking to also understand the types of tools developers are actually building, and take Swagger beyond what the core development team, and working group could do. It is hard to understand the objectives of each of the developer projects I came across, but here are the X areas I’ve identified so far:</p>
+
+<ul>
+  <li>Converter</li>
+  <li>Generator</li>
+  <li>Parser</li>
+  <li>Schema</li>
+  <li>Validator</li>
+  <li>Server</li>
+  <li>Command-Line</li>
+  <li>Powershell</li>
+  <li>Client</li>
+  <li>Proxy Generator</li>
+  <li>Aggregator</li>
+  <li>Tester</li>
+</ul>
+
+<p>This added a couple stops along the API life cycle for me, that Swagger is serving. I hadn’t envisioned a Swagger powered CLI or Powershell tool. I’ve only lightly thought about proxies, and aggregators driven by Swagger. When you bundle this with the platforms above who have integrated Swagger into their products and services, it starts to paint an even bigger picture of what is possible with Swagger.</p>
+
+<p>I think I’m going to wrap up this dive into the Swagger ecosystem here. I still have all of the contributors, watchers, and people who have forked the core Swagger products, and well as many of the people involved in Swagger discussions via the Swagger Google Group and Twitter account to consider. Plus I think this article will flush out some other projects that are out there, being executed by my readers. Storytelling along the way is the best way to flush out hidden details in my opinion, and is one of the main reasons I’m so transparent–I depend on people emailing and tweeting at me about stuff.</p>
+
+<p>This exercise has given me a new perspective on the Swagger community, and introduced me to some new companies, and tools. If you are doing anything cool with Swagger, please let me know, and I’ll add it <a href="http://swagger.apievangelist.com/">to my research</a>. Remember, if you don’t tell the story about what your are doing with APIs, nobody knows, including me—API evangelism 101. This is just my first attempt to better quantify the Swagger community, and I’m happy to include what you are up to in future updates.</p>
+</p>
+  
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="col">
+          <style>
+            ul.cloud {
+              list-style: none;
+              padding-left: 0;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              line-height: 1.5rem;
+            }
+            ul.cloud a {
+              color: #a33;
+              display: block;
+              font-size: 1.5rem;
+              padding: 0.125rem 0.25rem;
+              text-decoration: none;
+              position: relative;
+              opacity: calc((15 - (9 - var(--size))) / 15); 
+            }
+
+            ul.cloud a[data-weight="1"] { --size: 1; }
+            ul.cloud a[data-weight="2"] { --size: 2; }
+            ul.cloud a[data-weight="3"] { --size: 3; }
+            ul.cloud a[data-weight="4"] { --size: 4; }
+            ul.cloud a[data-weight="5"] { --size: 5; }
+            ul.cloud a[data-weight="6"] { --size: 6; }
+            ul.cloud a[data-weight="7"] { --size: 7; }
+            ul.cloud a[data-weight="8"] { --size: 8; }
+            ul.cloud a[data-weight="9"] { --size: 9; }
+
+            ul.cloud li:nth-child(2n+1) a { --color: #181; }
+            ul.cloud li:nth-child(3n+1) a { --color: #33a; }
+            ul.cloud li:nth-child(4n+1) a { --color: #c38; }
+          </style>
+
+          <ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+              
+              <li><a data-weight="4" href="/search/?search=Community&searchFields=tags" style="text-decoration: underline;">#Community</a></li>
+              
+              <li><a data-weight="4" href="/search/?search=Swagger&searchFields=tags" style="text-decoration: underline;">#Swagger</a></li>
+               
+          </ul>    
+        </div>
+      </div>
+    </section>    
+
+    <!-- Begin Post Editor -->
+    <section class="mb-8">   
+      
+      <script>
+        var require = { paths: { vs: '/assets/js/monaco-editor/min/vs' } };
+      </script>
+      <script src="/assets/js/monaco-editor/min/vs/loader.js"></script>
+      <script src="/assets/js/monaco-editor/min/vs/editor/editor.main.js"></script>          
+
+      <div class="accordion" id="postEditorBox">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#postEditorWrapper" aria-expanded="true" aria-controls="postEditorWrapper">
+              Editor
+            </button>
+          </h2>
+          <div id="postEditorWrapper" class="accordion-collapse collapse show" data-bs-parent="#postEditorBox">
+            <div class="accordion-body">
+
+            <!-- Post Editor Listing -->
+            <a name="monaco"></a>
+            <div id="post-editor" style="width: 100%; height: 450px; margin: 10px;"></div>
+            <script>
+              var PostEditor = monaco.editor.create(document.getElementById('post-editor'), {
+                value: [''].join('\n'),
+                language: 'markdown',
+                options:{
+                      wordWrap: "on",
+                    }       
+              });
+
+              PostEditor.updateOptions({ wordWrap: "on" })
+              PostEditor.getModel().onDidChangeContent((event) => {
+                if(event.isFlush){
+                  // Setting up
+                }
+                else{
+                  savePostLocal(); 
+                }
+              });        
+            </script>  
+            <!-- Post Properties Listing -->
+
+          </div>
+        </div>
+      </div>
+      </div>         
+    
+    </section>   
+    <!-- End Post Editor -->         
+
+  </div>
+</div>
+
+<script>  
+ 
+  document.getElementById("postEditorWrapper").classList.remove('show');
+
+  function getPost(){
+
+    const options = {
+        method: 'GET'
+    };  
+    fetch('https://posts-api.apievangelist.com/posts' + postId,options)
+        .then(function(response) {
+            if (!response.ok) {
+                console.log('Error with Status Code: ' + response.status);
+            }
+            response.json().then(function(response) {               
+
+              var post = response.data.post;
+              //post = post.replace(">-","");
+              post = post.trim();
+              var converter = new showdown.Converter(),
+              body_html = converter.makeHtml(response.data.body);
+              
+              document.getElementById("post-name-header").innerHTML = response.data.title;
+              document.getElementById("post-image-header").src = response.data.image;
+              //document.getElementById("post-description-paragraph").innerHTML = body_html;
+            
+              PostEditor.setValue(post);
+
+              // Any changes?
+              if(response.data.changes == 1){
+                document.getElementById("commit-banner").style.display = '';
+                document.getElementById("commit-button-wrapper").style.display = '';             
+              }              
+
+
+            });
+          })
+          .catch(function(err) {
+              console.log('Error: ' + err);
+      });  
+  }
+
+
+  getPost();
+  
+  // Edit Post Modal Save
+  function savePostLocal(){
+  
+    var post_yaml = PostEditor.getValue();
+    var post = jsyaml.load(post_yaml);
+  
+    var postName = post.name
+    var postDescription = post.description;
+
+    // Update Post
+    document.getElementById("post-name-header").innerHTML = postName;
+    document.getElementById("post-description-paragraph").innerHTML = postDescription;
+    
+    //post_yaml = jsyaml.dump(post);  
+    //PostEditor.setValue(post_yaml);  
+  
+    document.getElementById("save-banner").style.display = '';
+    document.getElementById("save-button-wrapper").style.display = '';
+  
+    document.getElementById("commit-banner").style.display = 'none';
+    document.getElementById("commit-button-wrapper").style.display = 'none'; 
+  
+  }
+  
+  function savePost(){
+
+    var organization = "api-evangelist";
+  
+    if(Cookies.get('access_token')){
+
+      var changes_name = document.getElementById("post-changes-name").value;
+      var changes_description = document.getElementById("post-changes-description").value;
+    
+      var post_yaml = PostEditor.getValue();
+      var post_json = jsyaml.load(post_yaml);    
+    
+      const options = {
+        method: 'put',
+        headers: {
+            "Content-Type": "application/json"                 
+        },    
+        body: JSON.stringify(post_json)
+      };
+      var github_url = 'https://posts-api.apievangelist.com/posts/' + postId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
+      //console.log(github_url);
+      fetch(github_url, options)
+        .then(function (response) {
+          if (!response.ok) {
+            document.getElementById("error-banner").style.display = '';
+            document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
+          }
+          response.json().then(function (response) {
+            //savePost();    
+          });
+        })
+        .catch(function (err) {
+          console.log('Error: ' + err);
+        });
+  
+      document.getElementById("save-banner").style.display = 'none';
+      document.getElementById("save-button-wrapper").style.display = 'none';    
+  
+      document.getElementById("commit-banner").style.display = '';
+      document.getElementById("commit-button-wrapper").style.display = '';   
+  
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
+    }
+
+  }
+
+function commitPost(){
+  
+  var organization = "api-evangelist";
+
+  if(Cookies.get('access_token')){
+
+    const options = {
+      method: 'put',
+      headers: {
+          "Content-Type": "application/json"                 
+      }
+    };
+
+    var github_url = 'https://posts-api.apievangelist.com/posts/' + postId + '/commit?organization=' + organization;
+    console.log(github_url);
+    fetch(github_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          document.getElementById("error-banner").style.display = '';
+          document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
+        }
+        response.json().then(function (response) {
+          if(response.data.file){
+            commitPost();
+          }
+          else{
+            document.getElementById("commit-banner").style.display = 'none';
+            document.getElementById("commit-button-wrapper").style.display = 'none';  
+          }         
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
+      });
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
+    }      
+
+}
+  </script>
+
+    </div>
+  </main>
+
+  <!-- Vendor JS -->
+  <script src="/assets/js/vendor.bundle.js"></script>
+
+  <!-- Theme JS -->
+  <script src="/assets/js/theme.bundle.js"></script>
+
+</body>
+
+</html>

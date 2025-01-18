@@ -1,0 +1,60 @@
+---
+layout: default
+section: Timeline
+title: Resources Timeline
+summary: A timeline of API resources.
+description: 
+nav: Timeline
+sub: Resources
+---
+
+<div class="row gx-xl-9">
+
+  <div class="col-12 col-xxl-4 order-xxl-1">
+
+    <div class="position-sticky mb-8" style="top: 2rem">
+
+        {% include services-api-evangelist.html %}
+        <br>
+        {% include services-partner.html %}
+
+    </div>
+  </div>  
+
+  <div class="row align-items-center mb-7">
+    <div class="col-auto">
+        <img src="/assets/img/api-evangelist-cartoon.jpg" width="50">
+    </div>
+    <div class="col">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-2">
+                <li class="breadcrumb-item"><a class="text-body-secondary" href="#">{{ page.section }}</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{ page.sub }}</li>
+            </ol>
+        </nav>
+        <h1 class="fs-4 mb-0">{{ page.title }}</h1>
+    </div>   
+  </div>   
+
+  <div class="col-12 col-xxl-8 order-xxl-0">
+
+    <section>
+      <div class="row">
+        <div class="col">
+
+          <p>I wanted to take my API industry timeline, or at least the last 20+ years and look at it differently. I wanted to generalize the digital resources that these companies were providing. Rather than just the moment in time, I wanted to consider how the accumulation of resources were making different things possible. I think I will go through and add a few other ones that maybe didn't make the cut for my history, and think more about how we got here from a digital transformation point of view.</p>
+
+          {% include timeline-resource.html %}
+          
+          <p>These are the digital resources that make up our personal and professional lives, and we are in a stage of evolution where most companies are reinventing the wheel, with very few companies reusing, resharing, and standardizing around common patterns. I'd like to try and tell  more stories about how this has all been done and we need to focus on embracing the commodization of these digital resources, allowing them to be standardized and made consistent no matter which company is publishing the API.</p>
+  
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+
+

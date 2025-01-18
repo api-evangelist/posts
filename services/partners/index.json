@@ -1,0 +1,9 @@
+---
+layout: none
+---           
+[{% for service in site.data['services-partner'] %}{
+"name": "{{ service.title | escape }}",
+"title": "{{ service.title | escape }}",
+"tagLine": "{{ service.tagLine | escape }}",
+"url": "{{ service.url | escape }}"
+}{% unless forloop.last %},{% endunless %}{% endfor %}]

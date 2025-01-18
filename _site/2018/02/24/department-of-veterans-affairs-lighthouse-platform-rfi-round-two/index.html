@@ -1,0 +1,2284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Round Two Of The Department of Veterans Affairs Lighthouse Platform RFI
+    </title>        
+    <meta name="description" content="Managing API operations." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      (() => {
+        'use strict';
+  
+        const getStoredTheme = () => localStorage.getItem('theme');
+        const setStoredTheme = (theme) => localStorage.setItem('theme', theme);
+  
+        const getPreferredTheme = () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme) {
+            return storedTheme;
+          }
+  
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        };
+  
+        const setTheme = (theme) => {
+          if (theme === 'auto') {
+            document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          } else {
+            document.documentElement.setAttribute('data-bs-theme', theme);
+          }
+        };
+  
+        setTheme(getPreferredTheme());
+  
+        const showActiveTheme = (theme, focus = false) => {
+          const themeSwitchers = document.querySelectorAll('[data-bs-theme-switcher]');
+  
+          themeSwitchers.forEach((themeSwitcher) => {
+            const themeSwitcherIcon = themeSwitcher.querySelector('.material-symbols-outlined');
+            themeSwitcherIcon.innerHTML = theme === 'light' ? 'light_mode' : theme === 'dark' ? 'dark_mode' : 'contrast';
+  
+            if (focus) {
+              themeSwitcher.focus();
+            }
+          });
+  
+          document.querySelectorAll('[data-bs-theme-value]').forEach((element) => {
+            element.classList.remove('active');
+            element.setAttribute('aria-pressed', 'false');
+  
+            if (element.getAttribute('data-bs-theme-value') === theme) {
+              element.classList.add('active');
+              element.setAttribute('aria-pressed', 'true');
+            }
+          });
+        };
+  
+        const refreshCharts = () => {
+          const charts = document.querySelectorAll('.chart-canvas');
+  
+          charts.forEach((chart) => {
+            const chartId = chart.getAttribute('id');
+            const instance = Chart.getChart(chartId);
+  
+            if (!instance) {
+              return;
+            }
+  
+            if (instance.options.scales.y) {
+              instance.options.scales.y.grid.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-border-color');
+              instance.options.scales.y.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+  
+            if (instance.options.scales.x) {
+              instance.options.scales.x.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+  
+            if (instance.options.elements.arc) {
+              instance.options.elements.arc.borderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+              instance.options.elements.arc.hoverBorderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+            }
+  
+            instance.update();
+          });
+        };
+  
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme !== 'light' && storedTheme !== 'dark') {
+            setTheme(getPreferredTheme());
+          }
+        });
+  
+        window.addEventListener('DOMContentLoaded', () => {
+          showActiveTheme(getPreferredTheme());
+  
+          document.querySelectorAll('[data-bs-theme-value]').forEach((toggle) => {
+            toggle.addEventListener('click', (e) => {
+              e.preventDefault();
+              const theme = toggle.getAttribute('data-bs-theme-value');
+              setStoredTheme(theme);
+              setTheme(theme);
+              showActiveTheme(theme, true);
+              refreshCharts();
+            });
+          });
+        });
+      })();
+    </script>
+
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Round Two Of The Department of Veterans Affairs Lighthouse Platform RFI by The API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image"  content="http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/23_113_800_500_0_max_0_1_-1.jpg">    
+  
+     
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+
+    <link rel="stylesheet" href="/assets/css/choices.css" />
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+  
+    <!-- Fonts and icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+  
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
+  
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="/assets/css/theme.bundle.css" />
+  
+    <script src="/assets/js/customize.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/showdown.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/turndown.js"></script>
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+      function getQueryVariable(variable) {
+          var query = window.location.search.substring(1);
+          var vars = query.split('&');
+          for (var i = 0; i < vars.length; i++) {
+              var pair = vars[i].split('=');
+              if (decodeURIComponent(pair[0]) == variable) {
+                  return decodeURIComponent(pair[1]);
+              }
+          }
+          console.log('Query variable %s not found', variable);
+      }       
+    </script>
+
+  <link rel="stylesheet" data-name="vs/editor/editor.main" href="/assets/js/monaco-editor/min/vs/editor/editor.main.css" />    
+  <script src="/assets/js/js-yaml.min.js"></script>    
+
+  <link href="/assets/css/use-bootstrap-tag.min.css" rel="stylesheet">
+  <script src="/assets/js/use-bootstrap-tag.min.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T2YNJ0FDGE');
+  </script>
+
+  <style>
+    .tm-timeline {
+        box-sizing: border-box;
+        * {
+            box-sizing: border-box;
+        }
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: calc(30% - 2px);
+            bottom: 0;
+            width: 4px;
+            background: #676f7e;
+        }
+
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+
+    .tm-timeline-entry {
+        + .tm-timeline-entry{
+            margin-top: 70px;
+        }
+        clear: both;
+        text-align: left;
+        position: relative;
+
+        &:after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+
+        .tm-timeline-time {
+            float: left;
+            width: 30%;
+            padding-right: 70px;
+            text-align: right;
+            position: relative;
+
+            &:before {
+                content: '';
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border: 4px solid #676f7e;
+                background-color: #fff;
+                border-radius: 100%;
+                top: 0;
+                right:  -10px;
+                z-index: 99;
+            }
+
+            h5 {
+                margin: 3px 0 0;
+            }
+        }
+
+        .tm-timeline-body {
+            float: right;
+            width: 70%;
+            top: 15px;
+            padding-top: 3px;
+            padding-left: 70px;
+            h3 {
+                margin: 0 0 15px;
+                span {
+                    padding: 1px 7px;
+                }
+            }
+
+        }    
+
+      pre code {
+        display: block;
+        background: none;
+        white-space: pre;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: scroll;
+        max-width: 100%;
+        min-width: 100px;
+        padding: 0;
+      }        
+  </style>  
+  </head>
+
+<body>
+
+  <!-- Sidenav -->
+<!-- Sidenav (sm) -->
+<aside class="aside aside-sm d-none d-xl-flex">
+  <nav class="navbar navbar-expand-xl navbar-vertical">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="sidenavSmallCollapse">
+        <!-- Nav -->
+        <nav class="navbar-nav nav-pills h-100">
+          <div class="nav-item">
+            <div data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover" data-bs-title="Color mode">
+              <a class="nav-link" data-bs-toggle="collapse" data-bs-theme-switcher href="#colorModeOptions"
+                role="button" aria-expanded="false" aria-controls="colorModeOptions">
+                <span class="material-symbols-outlined mx-auto"> </span>
+              </a>
+            </div>
+            <div class="collapse" id="colorModeOptions">
+              <div class="border-top border-bottom py-2">
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Light" data-bs-theme-value="light" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> light_mode </span>
+                </a>
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Dark" data-bs-theme-value="dark" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> dark_mode </span>
+                </a>
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Auto" data-bs-theme-value="auto" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> contrast </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover"
+            data-bs-title="Go to product page">
+            <a class="nav-link" href="https://themes.getbootstrap.com/product/dashbrd/" target="_blank">
+              <span class="material-symbols-outlined mx-auto"> local_mall </span>
+            </a>
+          </div>
+          <div class="nav-item mt-auto" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover"
+            data-bs-title="Contact us">
+            <a class="nav-link" href="mailto:info@apievangelist.com">
+              <span class="material-symbols-outlined mx-auto"> support </span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </nav>
+</aside>
+
+  <!-- Sidenav (lg) -->
+<aside class="aside">
+  <nav class="navbar navbar-expand-xl navbar-vertical">
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://apievangelist.com">
+        <center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" width="200" style="margin-bottom: 25px; margin-top: -5px; "></center>
+      </a>
+
+      <!-- User -->
+      <div class="ms-auto d-xl-none">
+        <div class="dropdown my-n2">
+          <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+              <img class="avatar-img" src="/assets/img/photos/kinlane.jpg" alt="..." />
+            </span>
+            Kin Lane
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#sidenavLargeCollapse"
+        aria-controls="sidenavLargeCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="sidenavLargeCollapse">
+
+        <!-- Search -->
+        <div class="input-group d-xl-none my-4 my-xl-0">
+          <input class="form-control" id="topnavSearchInputMobile" type="search" placeholder="Search"
+            aria-label="Search" aria-describedby="navbarSearchMobile" />
+          <span class="input-group-text" id="navbarSearchMobile">
+            <span class="material-symbols-outlined"> search </span>
+          </span>
+        </div>              
+          
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Learnings</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Posts" rol="button"
+                aria-expanded="false" aria-controls="Posts">
+                  <span class="material-symbols-outlined me-3">auto_stories</span> Posts
+                </a>
+                <div class="collapse" id="Posts">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/categories">Categories</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/2025/">Posts</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Conversations" rol="button"
+                aria-expanded="false" aria-controls="Conversations">
+                  <span class="material-symbols-outlined me-3">forum</span> Conversations
+                </a>
+                <div class="collapse" id="Conversations">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://conversations.apievangelist.com">All Conversations</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Guidance" rol="button"
+                aria-expanded="false" aria-controls="Guidance">
+                  <span class="material-symbols-outlined me-3">fork_left</span> Guidance
+                </a>
+                <div class="collapse" id="Guidance">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://guidance.apievangelist.com">All Guidance</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Questions" rol="button"
+                aria-expanded="false" aria-controls="Questions">
+                  <span class="material-symbols-outlined me-3">quiz</span> Questions
+                </a>
+                <div class="collapse" id="Questions">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://qa.apievangelist.com">All Questions</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Videos" rol="button"
+                aria-expanded="false" aria-controls="Videos">
+                  <span class="material-symbols-outlined me-3">video_library</span> Videos
+                </a>
+                <div class="collapse" id="Videos">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://video.apievangelist.com">All Videos</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Timeline" rol="button"
+                aria-expanded="false" aria-controls="Timeline">
+                  <span class="material-symbols-outlined me-3">timeline</span> Timeline
+                </a>
+                <div class="collapse" id="Timeline">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/api/">API</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/resources/">Resource</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/industry/">Industry</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Contracts</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Contracts" rol="button"
+                aria-expanded="false" aria-controls="Contracts">
+                  <span class="material-symbols-outlined me-3">contract</span> Contracts
+                </a>
+                <div class="collapse" id="Contracts">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/new/">New Contract</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com">All Contracts</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Produced" rol="button"
+                aria-expanded="false" aria-controls="Produced">
+                  <span class="material-symbols-outlined me-3">factory</span> Produced
+                </a>
+                <div class="collapse" id="Produced">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/internal/">Internal</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/1st-party/">1st-Party</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/3rd-party/">3rd-Party</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Consumed" rol="button"
+                aria-expanded="false" aria-controls="Consumed">
+                  <span class="material-symbols-outlined me-3">apps</span> Consumed
+                </a>
+                <div class="collapse" id="Consumed">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/internal/">Internal</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/1st-party/">1st-Party</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/3rd-party/">3rd-Party</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">Individual APIs</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#APIs" rol="button"
+                aria-expanded="false" aria-controls="APIs">
+                  <span class="material-symbols-outlined me-3">api</span> APIs
+                </a>
+                <div class="collapse" id="APIs">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apis.apievangelist.com">All APIs</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Governance</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Standards" rol="button"
+                aria-expanded="false" aria-controls="Standards">
+                  <span class="material-symbols-outlined me-3">extension</span> Standards
+                </a>
+                <div class="collapse" id="Standards">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://standards.apievangelist.com">All Standards</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Strategies" rol="button"
+                aria-expanded="false" aria-controls="Strategies">
+                  <span class="material-symbols-outlined me-3">tactic</span> Strategies
+                </a>
+                <div class="collapse" id="Strategies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://strategies.apievangelist.com">All Strategies</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Experiences" rol="button"
+                aria-expanded="false" aria-controls="Experiences">
+                  <span class="material-symbols-outlined me-3">engineering</span> Experiences
+                </a>
+                <div class="collapse" id="Experiences">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://experiences.apievangelist.com">All Experiences</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Properties" rol="button"
+                aria-expanded="false" aria-controls="Properties">
+                  <span class="material-symbols-outlined me-3">list_alt_check</span> Properties
+                </a>
+                <div class="collapse" id="Properties">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://properties.apievangelist.com">All Properties</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Policies" rol="button"
+                aria-expanded="false" aria-controls="Policies">
+                  <span class="material-symbols-outlined me-3">policy</span> Policies
+                </a>
+                <div class="collapse" id="Policies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com">All</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/business/">Business</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/technical/">Technical</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/standards/">Standards</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Rules" rol="button"
+                aria-expanded="false" aria-controls="Rules">
+                  <span class="material-symbols-outlined me-3">rule</span> Rules
+                </a>
+                <div class="collapse" id="Rules">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com">All Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/apis-json/">APIs.json Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/openapi/">OpenAPI Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/json-schema/">JSON Schema Rules</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Vocabularies" rol="button"
+                aria-expanded="false" aria-controls="Vocabularies">
+                  <span class="material-symbols-outlined me-3">dictionary</span> Vocabularies
+                </a>
+                <div class="collapse" id="Vocabularies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/words/a">Words</a>
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/nodes/">Nodes</a>
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/glossary/">Glossary</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Solutions</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Services" rol="button"
+                aria-expanded="false" aria-controls="Services">
+                  <span class="material-symbols-outlined me-3">design_services</span> Services
+                </a>
+                <div class="collapse" id="Services">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://services.apievangelist.com">All Services</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Tools" rol="button"
+                aria-expanded="false" aria-controls="Tools">
+                  <span class="material-symbols-outlined me-3">construction</span> Tools
+                </a>
+                <div class="collapse" id="Tools">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://tool.apievangelist.com">All Tools</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Discovery</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Discovery" rol="button"
+                aria-expanded="false" aria-controls="Discovery">
+                  <span class="material-symbols-outlined me-3">search</span> Discovery
+                </a>
+                <div class="collapse" id="Discovery">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/inbox/">Inbox</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/bing/">Bing</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/google/">Google</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/github/">GitHub</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Evidence" rol="button"
+                aria-expanded="false" aria-controls="Evidence">
+                  <span class="material-symbols-outlined me-3">fingerprint</span> Evidence
+                </a>
+                <div class="collapse" id="Evidence">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://evidence.apievangelist.com/inbox/">Inbox</a>
+                     
+                    <a class="nav-link" href="https://evidence.apievangelist.com/bookmarks/">Bookmarks</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Building Blocks</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Components" rol="button"
+                aria-expanded="false" aria-controls="Components">
+                  <span class="material-symbols-outlined me-3">widget_small</span> Components
+                </a>
+                <div class="collapse" id="Components">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://parameters.apievangelist.com">Parameters</a>
+                     
+                    <a class="nav-link" href="https://headers.apievangelist.com">Headers</a>
+                     
+                    <a class="nav-link" href="https://responses.apievangelist.com">Responses</a>
+                     
+                    <a class="nav-link" href="https://schema.apievangelist.com">Schema</a>
+                     
+                    <a class="nav-link" href="https://overlays.apievangelist.com">Overlays</a>
+                     
+                    <a class="nav-link" href="https://blueprints.apievangelist.com">Blueprints</a>
+                     
+                    <a class="nav-link" href="https://bases.apievangelist.com">Bases</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Utilities" rol="button"
+                aria-expanded="false" aria-controls="Utilities">
+                  <span class="material-symbols-outlined me-3">build</span> Utilities
+                </a>
+                <div class="collapse" id="Utilities">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/yaml-to-json/">YAML to JSON</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-to-yaml/">JSON to YAML</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/merge-openapis/">Merge OpenAPIs</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/split-openapis/">Split OpenAPIs</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/postman-to-openapi/">Postman to OpenAPI</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-schema-yaml-validator/">JSON Schema YAML Validator</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-schema-basics/">JSON Schema Basics (Rules)</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Evangelist LLC</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#About" rol="button"
+                aria-expanded="false" aria-controls="About">
+                  <span class="material-symbols-outlined me-3">info</span> About
+                </a>
+                <div class="collapse" id="About">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/this-site">This Site</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Contact" rol="button"
+                aria-expanded="false" aria-controls="Contact">
+                  <span class="material-symbols-outlined me-3">contact_support</span> Contact
+                </a>
+                <div class="collapse" id="Contact">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/contact">Contact Form</a>
+                     
+                    <a class="nav-link" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+                     
+                    <a class="nav-link" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+                     
+                    <a class="nav-link" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+                     
+                    <a class="nav-link" href="https://buttondown.com/apievangelist">Newsletter</a>
+                     
+                    <a class="nav-link" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+                     
+                    <a class="nav-link" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+                     
+                    <a class="nav-link" href="https://www.postman.com/api-evangelist">Postman</a>
+                     
+                    <a class="nav-link" href="https://github.com/api-evangelist">GitHub</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Partner" rol="button"
+                aria-expanded="false" aria-controls="Partner">
+                  <span class="material-symbols-outlined me-3">handshake</span> Partner
+                </a>
+                <div class="collapse" id="Partner">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://partners.apievangelist.com">Information</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+                
+
+        <!-- Nav -->
+        <nav class="navbar-nav nav-pills d-xl-none mb-7">
+          <div class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" data-bs-theme-switcher href="#colorModeOptionsMobile"
+              role="button" aria-expanded="false" aria-controls="colorModeOptionsMobile">
+              <span class="material-symbols-outlined me-3"> </span> Color mode
+            </a>
+            <div class="collapse" id="colorModeOptionsMobile">
+              <div class="nav nav-pills">
+                <a class="nav-link" data-bs-theme-value="light" href="#" role="button"> Light </a>
+                <a class="nav-link" data-bs-theme-value="dark" href="#" role="button"> Dark </a>
+                <a class="nav-link" data-bs-title="Auto" data-bs-theme-value="auto" href="#" role="button"> Auto </a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://apievangelist.com" target="_blank">
+              <span class="material-symbols-outlined me-3">local_mall</span> Go to API Evangelist
+            </a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://apievangelist.com/contacts/">
+              <span class="material-symbols-outlined me-3">alternate_email</span> Contact Us
+            </a>
+          </div>
+        </nav>
+
+        <!-- Card -->
+        <div class="card mt-auto">
+          <div class="card-body">
+            <!-- Heading -->
+            <h6>Need help?</h6>
+
+            <!-- Text -->
+            <p class="text-body-secondary mb-0">Feel free to reach out to us should you have any questions or
+              suggestions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</aside>
+
+  <!-- Topnav -->
+<nav class="navbar d-none d-xl-flex px-xl-6">
+  <div class="container flex-column align-items-stretch">
+    <div class="row">
+      <div class="col-auto">
+        <!-- Search -->
+        <div class="input-group" style="max-width: 300px;">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search" aria-describedby="navbarSearch" id="topsearch" />
+          <span class="input-group-text" id="navbarSearch">
+            <kbd class="badge bg-body-secondary text-body">⌘</kbd>
+          </span>
+          <script>
+            const searchbox = document.getElementById('topsearch');
+            
+            searchbox.addEventListener('keydown', function(event) {
+              if (event.key === 'Enter') {
+                location.href='https://search.apievangelist.com?search=' + document.getElementById("topsearch").value;
+              }
+            });               
+          </script>          
+        </div>
+      </div>
+      <div class="col"> 
+        <div id="ticker-box" style="width: 100%; border: 0px solid #000; padding-top: 15px;">
+          <ul>
+            
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you know where all of your APIs are?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40qNzTt">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you have a source of truth for your schema?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40nVDnW">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you struggling with API sprawl?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40qNzTt">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need more reliable APIs?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fOZjn1">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need more consistent APIs?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/3DHez88">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need an open source replacement for Postman?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need an open source API client?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need an API client with native Git integration?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need a offline and local only API client?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Is your API defined as a Bruno collection?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you looking for an open-source API mocking solution?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need an open-source API testing solution?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you needing multi-specification API testing and mocking?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Take a Look at Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need industrial grade API testing and mocking?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Try Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Have you tried the new examples schema for mocking your API?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+            
+          </ul>
+        </div>        
+        <script>
+          function applyStyles(obj, styles) {
+            var property;
+            var styleLength = Object.keys(styles).length;
+            for (var i = 0; i < styleLength; i++) {
+              property = Object.keys(styles)[i];
+              obj.style[property] = styles[property];
+            }
+          }
+
+          function extend(object1, object2) {
+            for (var attrname in object2) {
+              object1[attrname] = object2[attrname];
+            }
+            return object1;
+          }
+
+          function startTicker(id, param) {
+            var tickerBox = document.getElementById(id);
+            var defaultParam = { speed: 5, delay: 500, rotate: true };
+            var extendedParam = extend(defaultParam, param);
+            applyStyles(tickerBox, { overflow: "hidden", 'min-height': '40px' });
+            var ul = tickerBox.getElementsByTagName("ul");
+            var li = ul[0].getElementsByTagName("li");
+            applyStyles(ul[0], { padding: 0, margin: 0, position: 'relative', 'list-style-type': 'none' });
+            for (i = 0; i < li.length; i++) {
+              applyStyles(li[i], { position: 'absolute', 'white-space': 'nowrap', display: 'none' });
+            }
+
+            var li_index = 0;
+            var trans_width = tickerBox.offsetWidth;
+            var chunk_width = 1;
+
+            var iterateTickerElement = function(trans_width) {
+              li[li_index].style.left = trans_width + "px";
+              li[li_index].style.display = '';
+              var t = setInterval(function() {
+                if (parseInt(li[li_index].style.left) > -li[li_index].offsetWidth) {
+                  li[li_index].style.left = parseInt(li[li_index].style.left) - chunk_width + "px";
+                } else {
+                  clearInterval(t);
+                  trans_width = tickerBox.offsetWidth;
+                  li_index++;
+                  if (li_index == li.length && extendedParam.rotate == true) {
+                    li_index = 0;
+                    iterateTickerElement(trans_width);
+                  } else if (li_index < li.length) {
+                    setTimeout(function() { iterateTickerElement(trans_width); }, extendedParam.delay);
+                  }
+                }
+              }, extendedParam.speed);
+              tickerBox.onmouseover = function() {
+                clearInterval(t);
+              }
+              tickerBox.onmouseout = function() {
+                iterateTickerElement(parseInt(li[li_index].style.left));
+              }
+            }
+            iterateTickerElement(trans_width);
+          }          
+        </script>  
+        <script>startTicker('ticker-box', {speed:7, delay:1000});</script>      
+      </div>
+      <div class="col-auto"> 
+
+        <!-- User -->
+        <a href="https://yj2hy2wwbjp4w2a4tkhyz3h6zu0woyft.lambda-url.us-east-1.on.aws/"><button type="button" id="account-button" class="btn btn-success">Login</button></a>
+        <div class="dropdown my-n2" id="account-dropdown" style="display: none;">
+          <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+              <img class="avatar-img" src="/assets/img/photos/kinlane.jpg" alt="..." />
+            </span>
+            Kin Lane
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li><a class="dropdown-item" href="#">Change password</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+
+        <script>
+          function getUrlVar(key){
+              var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search);
+              return result && unescape(result[1]) || "";
+          }          
+          var access_token = getUrlVar('access_token');
+          if(access_token!=''){
+            Cookies.set('access_token', access_token);
+          }
+          if(Cookies.get('access_token')){
+            document.getElementById("account-dropdown").style.display = '';
+            document.getElementById("account-button").style.display = 'none';
+          }
+        </script> 
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <!-- Main -->
+  <main class="main px-lg-6">
+    <!-- Content -->
+    <div class="container-lg">
+
+        <script>
+  var postId = '/2018/02/24/department-of-veterans-affairs-lighthouse-platform-rfi-round-two/';
+  console.log("postId:" + postId);
+</script>
+
+<style>
+  img{
+    max-width:600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }  
+  </style>
+
+<div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+  You have made changes to the contract and will need to save.
+</div>
+
+<div id="commit-banner" class="alert alert-warning" role="alert" style="text-align: center; display: none;">
+  Changes have been made to this contract and will need committing to repo.
+</div>
+
+<div id="data-store" style="border: 1px solid #000; display: none;">
+  <input type="text" id="path" value="0">
+  <input type="text" id="page_start" value="0">
+  <input type="text" id="page_size" value="4">
+  <textarea id="posts-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="policies-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="rules-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-filter" style="width: 100%; height: 350px;">[]</textarea>
+</div>
+
+<div class="row gx-xl-9">
+
+  <div class="col-12 col-xxl-4 order-xxl-1">
+
+    <div class="position-sticky mb-8" style="top: 2rem">
+      <div class="card bg-body">
+        <div class="card-body py-4">
+          <!-- List -->
+          <ul class="list-group list-group-flush bg-body mb-0">
+            
+            <!--Begin Save Post Button-->
+            <div style="display: none; border: 0px #FFF;" id="save-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Save Post</strong></span>
+                <button id="save-button" type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#save-post">SAVE</button>
+              </li>  
+            </div> 
+            <!--End Save Post Button-->
+
+            <!--Begin Commit Post Button-->
+            <div style="display: none; border: 0px #FFF;" id="commit-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Commit Post</strong></span>
+                <button id="commit-button" type="button" class="btn btn-danger btn-sm" onclick="commitPost();">COMMIT</button>
+              </li>  
+            </div> 
+            <!--End Commit Post Button--> 
+
+            
+            
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Published</span>
+              <time datetime="2018-02-24">2018-02-24</time>
+            </li>
+
+               
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Author</span>
+              <span class="badge bg-success-subtle text-success">Kin Lane</span>
+            </li>                     
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="api-evangelist-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>API Evangelist Services</strong>
+                <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40qNzTt" target="_blank" id="api-evangelist-service-1">Do you know where all of your APIs are?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40nVDnW" target="_blank" id="api-evangelist-service-2">Do you have a source of truth for your schema?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callService(){
+
+                console.log("Calling API Evangelist Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/api-evangelist/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>API Evangelist Services</strong><div onclick="location.href=' + "'" + 'https://services.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="api-evangelist-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="api-evangelist-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("api-evangelist-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotateService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotateService(){
+
+                console.log("Rotating API Evangelist Service!");
+
+                document.getElementById("api-evangelist-service-1").className = "blink_me";
+                document.getElementById("api-evangelist-service-2").className = "blink_me";
+
+                setTimeout(function() { callService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotateService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+    <br>
+    <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="partner-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>Partner Services</strong>
+                      <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/4fpe6FO" target="_blank" id="partner-service-1">Do you need an open source replacement for Postman?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/4fpe6FO" target="_blank" id="partner-service-2">Need an open source API client?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callPartnerService(){
+
+                console.log("Calling Partner Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/partners/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>Partner Services</strong><div onclick="location.href=' + "'" + 'https://partners.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="partner-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="partner-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("partner-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotatePartnerService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotatePartnerService(){
+
+                console.log("Rotating Partner Service!");
+
+                document.getElementById("partner-service-1").className = "blink_me";
+                document.getElementById("partner-service-2").className = "blink_me";
+
+                setTimeout(function() { callPartnerService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotatePartnerService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+
+  </div>
+
+  <div class="col-12 col-xxl-8 order-xxl-0">
+
+    <section>
+      <div class="row">
+        <div class="col">
+  
+          <!-- Heading -->
+          
+          <h3 class="fs-3 mb-5" id="post-name-header" style="text-align: center;">Round Two Of The Department of Veterans Affairs Lighthouse Platform RFI</h3>
+          <center><img src="http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/23_113_800_500_0_max_0_1_-1.jpg" width="95%" align="center" style="padding: 15px;" id="post-image-header"></center>      
+          <!-- Text -->
+          <p id="post-description-paragraph"><p><img src="http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/23_113_800_500_0_max_0_1_-1.jpg" align="right" width="45%" style="padding: 15px;" /></p>
+<p>I’m spending some more time thinking about APIs at the Department of Veterans Affairs (VA), in response to round two of their request for information (RFI). <a href="http://apievangelist.com/2017/10/26/my-response-on-the-department-of-veterans-affairs-rfi-for-the-lighthouse-api-management-platform/">A couple months back I had responded to an earlier RFI</a>, providing as much information as I could think of, for consideration as part of their API journey. As a former VA employee, and son of two Vietnam Vets (yes two), you can say I’m always willing to invest some in APIs over at the VA.</p>
+
+<p>To provide a response, I have taken the main questions they asked, broken them out here, and provided answers to the best of my ability. In my style, the answers are just free form rants, based upon my knowledge of the VA, and the wider API space. It is up to the VA, to decide what is relevant to them, and should be included in their agency API strategy.</p>
+
+<p><strong><em>2. Current Scope<br />
+While the acquisition strategy for Lighthouse has not yet been formalized, VA envisions that the program will consist of multiple contracts.  For example, a contract for recommending policy and standards to form governance would likely be separate from an API build team.  The key high level activities below are anticipated to be included within these contracts, and VA is requesting feedback from industry on how these activities should be aligned between multiple contracts.  The list below is not inclusive of all tasks required to support this program.  Additionally, VA intends to provide the IAM solution and the provisioning of necessary cloud resources to host the proposed technology stack.  VA’s current enterprise cloud providers are Microsoft Azure and Amazon Web Services.</em></strong></p>
+
+<p><strong>Microservice Focused Operational &amp; Implementation</strong><br />
+Lighthouse should embrace a microservices way of doing things, so that the platform can avoid legacy trappings when it comes to delivering software at the VA, which have resulted in large, monolithic systems, possessing enormous budgets, and entrenched teams, that are able to develop a resistance to change and evolution. This microservices way of doing things should be adopted internally, as well as externally, then applied to the technology, business, and politics of delivering ALL Lighthouse infrastructure.</p>
+
+<p>All contracts should be defined and executed in a modular way, with the only distinction between  projects being operational, or for specific project implementations. Everything should be delivered as microservices, no matter whether it is in support of operating the Lighthouse platform, or delivering services to Lighthouse-driven applications. The technology and business of each service should be self-contained, modular, and focusing on doing one thing, and doing it well. Ensuring all services executed as part of Lighthouse operations are decoupled, working independently, allowing for easily defining, delivering, managing, evolving, and deprecating of every operational and implementational service that makes Lighthouse work.</p>
+
+<p>Operational services will be the first projects delivered via the platform, and will be used to establish and mature the Lighthouse project deliver workflow, but then going forward, every additional operational, as well as specific implementation focused service will utilize the same workflow and life cycle.</p>
+
+<ul>
+  <li><strong>Definitions</strong> - Everything begins as a set of definitions. Leveraging OpenAPI, JSON Schema, Dockerfiles, and other common definitions to provide a human, and machine readable definition of every project, which is ultimately delivered as a microservice.</li>
+  <li><strong>Github</strong> - Each microservice begins as either a public or private Github repository, with a README index of the definition of what a service will deliver. Providing a self-contained, continuously deployed and integration blueprint of what a service does.</li>
+  <li><strong>Architecture</strong> - Always providing a comprehensive outline all backend architecture used to support a specific service, including the technical, as well as the business, and security policy elements of what it takes to deliver the required service.</li>
+  <li><strong>Tooling</strong> - Always providing a comprehensive outline of any tools used as part of delivering a service, to provide what is needed from a front-end delivery and execution vantage point.</li>
+  <li><strong>Lifecycle</strong> - Establish a lifecycle, that each service will need to pass through, ensuring consistent delivery, and management of services that adhere to governance standards.
+    <ul>
+      <li><strong>define</strong> - What definitions are required for services?</li>
+      <li><strong>design</strong> - What is the API design guidance involved?</li>
+      <li><strong>mock</strong> - How are APIs and data virtualized as part of development?</li>
+      <li><strong>portal</strong> - Which portals are service published to, or will possess?</li>
+      <li><strong>document</strong> - What documentation is required and delivered?</li>
+      <li><strong>test</strong> - Where are the code, as well as interface level tests?</li>
+      <li><strong>clients</strong> - What client environment are in use for design, development, and testing?</li>
+      <li><strong>**</strong>* - Pause there, and repeat until the desired service is realized…</li>
+      <li><strong>deploy</strong> - How are services delivered as part of a containerized, continuous deployment pipeline?</li>
+      <li><strong>dns</strong> - What DNS is needed to address and route traffic to services?</li>
+      <li><strong>manage</strong> - What API management level services are in place to secure, log, limit, and report of API and service consumption?</li>
+      <li><strong>logging</strong> - What is the logging stack, how is it shipped, analyzed, and reported upon?</li>
+      <li><strong>monitor</strong> - What monitors are required and in place for each service?</li>
+      <li><strong>performance</strong> - How is performance measured and reported upon?</li>
+      <li><strong>sdk</strong> - What client libraries, SDKs, and samples in place for service integration?</li>
+      <li><strong>depenencies</strong> - What internal service, and external API dependencies are in play?</li>
+      <li><strong>licensing</strong> - What is the data, code, interface, and other licensing that apply?</li>
+      <li><strong>privacy</strong> - Are privacy policies in place, and considered for the platform, partners, developers, and end-users.</li>
+      <li><strong>terms</strong> - Are terms of service in place, and independently considered for each service?</li>
+      <li><strong>monetization</strong> - What are the operating costs, and other monetization considerations?</li>
+      <li><strong>plans</strong> - What API consumption plans, rate limits, and policies in place to govern service usage?</li>
+      <li><strong>support</strong> - What support mechanisms are in place, with relevant point of contacts?</li>
+      <li><strong>communication</strong> - What communication channels are in place, such as blogs, social, and messaging channels?</li>
+      <li><strong>observability</strong> - What is the observability of each service, from open source to monitoring, and CI/CD workflows, ensuring it can be audited?</li>
+      <li><strong>discovery</strong> - What is required to register, route, and discover an API as part of overall operations?</li>
+      <li><strong>evangelism</strong> - What is the plan for making sure a service is known, used, and evangelized amongst target audience?</li>
+    </ul>
+  </li>
+  <li><strong>Governance</strong> - How is each step along the life cycle measured, reported upon, and audited as part of governance, to understand how a service is meeting platform requirements, and evolving along a maturity path–allowing for innovation to occur, and newer ideas to flourish, but also allow more hardened, secure, and mature services to rise to the top.</li>
+</ul>
+
+<p>The OpenAPI, JSON Schema, and other definitions for each microservice will ultimately be the contract for each project. Of course, to deliver the first set of operational platform services (compute, storage, DNS, pipeline, logging, etc.) these independent contracts might need to be grouped into a single, initial contract. Something that will also occur around different groups of services being delivered at any point in the future, but each individual service should be self-contained, with its own contract definition existing in it’s Github repository core.</p>
+
+<p><em><strong>Question: API Roadmap Development (Backlog, Future)</strong></em><br />
+Each service being delivered via Lighthouse will possess its own self-contained road map as part of its definition. Providing a standardized, yet scalable way to address what is being planned, is being delivered, operated, and when anything will ultimately be deprecated.</p>
+
+<ul>
+  <li><strong>Github Issues</strong> - Each Github repository has it’s own issues for managing all conversations around the service road map. Tags and milestones can be used to designate the past, present, future, and other relevant segmentation of the road map.</li>
+  <li><strong>Micro / Macro</strong> - Each services posses micro level detail about the road map, which is available via Github APIs, in a machine readable way for inclusion at the macro level, serving governance, reporting, and higher level road map considerations.</li>
+  <li><strong>Communication</strong> - Each service owner is responsible for road map related communication, support, and management providing their piece of the overall road map puzzle.</li>
+</ul>
+
+<p>The Lighthouse platform road map should work like an orchestra, with each participant bringing their contribution, but platform operators and conductors defining the overall direction the platforms is headed. At scale, Lighthouse will be thousands of smaller units, organized by hundreds of service owners and stewards, serving millions of end-users, with feedback loops in service through the stack.</p>
+
+<p><em><strong>Question: Outreach (Internal &amp; External Parties)</strong></em><br />
+Outreach is essential to the viability of any platform, and represents the business and political challenges that lie ahead for the VA, or any government agency looking to work seamlessly with public and private sector partners, as well as the public at large. There will be many services involved with Lighthouse operations that will need to be private, but the default should always be public, allowing for as much transparency and observability as possible, which will feed platform outreach in a positive way.</p>
+
+<ul>
+  <li><strong>Github Project Pages</strong> - Each Github repository can have a public facing Github Pages static site portal and landing page. Allowing for individual service, or group portals to exist, providing a destination for all stakeholders to get involved.</li>
+  <li><strong>Github Social Framework</strong> - Github provides a wealth of outreach and communication solutions from organization and repository search, to issues and wikis, and tagging services with individual topics. All of which can be used as part of outreach and engagement in a private or public setting.</li>
+  <li><strong>Twitter</strong> - Microblogging provides a great way to publish regular updates, and provide communication around platform operations.</li>
+  <li><strong>Linkedin</strong> - Enterprise development groups, especially those in service of the government tend to use Github for establishing their profile, and maintaining their presence, which can be incorporated into all outreach efforts.</li>
+  <li><strong>Blogs</strong> - The platform should possess its own public and / or private blogs, as well as potentially more topically, service, or project based blogs that expand outreach to the long tail of platform operations.</li>
+</ul>
+
+<p>This type of outreach around platform operations is something that scares the hell out of government folks, and the majority of government APIs operation are critically deficient in the area of outreach. This has to change. If there is no feedback loop in place, and outreach doesn’t occur regularly and consistently, the platform will not succeed. This is how the API world operates.</p>
+
+<p><em><strong>Question: Management of API Request Process (Internal (VA)/External (Non-VA))</strong></em><br />
+New services will always be needed. Operational and implementation related requests should all be treated the same. Obviously there will be different prioritization mechanisms in place, but API requests should just be the birth of any new service, allowing it to begin its journey, and transit through the API lifecycle described above. Not all requests will reach deployment, and not all deployments will reach maturity, but all API requests should be treated equally.</p>
+
+<ul>
+  <li><strong>Definitions</strong> - Each API request begins with a definition. A simple description of what a service will do.</li>
+  <li><strong>Github</strong> - Each API request begins its journey as a Github repository, with a README containing its basic definition, and conversation around its viability within Github issues.</li>
+  <li><strong>JSON Schema</strong> - As part of each request, all data that will be leverage as part of service operations should be defined as JSON Schema, and included in the Github repository.</li>
+  <li><strong>OpenAPI</strong> - Additionally, the access to the service, and its underlying data and resource should be defined using a machine readable OpenaPI definition, outlining the contract of the service.</li>
+  <li><strong>Certification</strong> - Some stakeholders will have submitted API requests before, and better understand the process, and be certified owners of existing services, working as part of trusted organizations, expediting and prioritizing the request process.</li>
+  <li><strong>Template(s)</strong> - The most common service patterns to emerge should be defined as template, providing seeds and starter projects to help expedite and streamline the API request process, ensuring all the moving parts are there to make a decision, in a forkable, replicable package.</li>
+</ul>
+
+<p>New API requests should be encourage. Anyone should be able to submit a new service, replicate, or augment an existing service, or respond to a platform API RFP. The life cycle described above should be open to everyone looking to submit an API request. Allowing them to define, design, mock, and iterate their submission. Even providing a nearly usable representation of a service, even before the idea or service is accepted. Forcing everyone to flesh out their service, deliver a viable proof of concept, that will streamline the API acceptance process.</p>
+
+<p><em><strong>Question: Propose, Implement and Manage the PaaS (technology stack)</strong></em><br />
+As mentioned before, this aspect of Lighthouse should be delivered as microservices, alongside every other service being delivered via the platform. It just so happens that this portion of the stack will be the first to be delivered, and be iterated upon, evolved, and deprecated just like any other service. To put this in perspective, I will outline the AWS, and Azure infrastructure need to support management of the platform later on in this post, while considering the fact that AWS and Azure have been on the same journey that the VA is on with Lighthouse, something that has been playing out for the last decade.</p>
+
+<p>The VA wants to be the Amazon of serving veterans. They want internal groups, vendors, contractors, veteran health and service organizations, and independent developers to come build their solutions on the Lighthouse platform. The VA should uses its own services for internal service delivery, as well as supporting external projects. The operational side of Lighthouse platform should be all microservice projects, with the underlying infrastructure being Azure or AWS solutions, providing a common platform as a service stack that can be leveraged, no matter where the actual service is deployed.</p>
+
+<p><img src="http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/68_113_800_500_0_max_0_-1_-1.jpg" align="right" width="45%" style="padding: 15px;" /></p>
+
+<p><em><strong>Question: DevOps Continuous Integration and Continuous Delivery (CI/CD) of APIs</strong></em><br />
+Every service in support of operations or implementations via the Lighthouse platform will exist as a self-contained Github repository, with all the artifacts needed to be included in any application pipeline. The basic DNA blueprint for each service should be crafted to support any single CI/CD service, or ideally even multiple types of CI/CD and orchestration solutions like AWS and Azure both support.</p>
+
+<ul>
+  <li><strong>Microservices</strong> - Lighthouse CI/CD will be all about microservice orchestration, and using a variety of pipelines to deliver and evolve initially hundreds, and eventually thousands of services in concert.</li>
+  <li><strong>Github</strong> - Github will the cellular component driving the Lighthouse CI/CD workflow, providing individual service “legos” that can be composed, assembled, disassembled, and delivered in any way.</li>
+  <li><strong>Definitions</strong> - Each microservice will contain all the artifacts needed for supporting the entire life cycle listed above, driven by a variety of CI/CD pipelines. Leveraging dockerfiles, build packages, OpenAPI definitions, schema, and other definitions to continuously deliver and integrate across platform operations.</li>
+</ul>
+
+<p>Both AWS and Azure provide CI/CD workflows, which can be used to satisfy the portion of the RFI. I will list out all the AWS and Azure services I think should be considered below. Additionally, Jenkins, CircleCI, or other 3rd party CI/CD could easily be brought in to deliver on this aspect of platform delivery. The microservices core can be used as part of any pipeline delivery model.</p>
+
+<p><em><strong>Question: Environment Operations &amp; Maintenance (O&amp;M)</strong></em><br />
+Again, everything operates as microservices, and gets delivered independently as services that can be configured and maintained as part of overall platform operations and maintenance, or in service of individual services, and groups of services supporting specific implementations.</p>
+
+<ul>
+  <li><strong>Microservices</strong> - Everything is available as microservices, allowing the underlying environment operations and maintainenace to be orchestration, and optimized in real time.</li>
+</ul>
+
+<p>Each of the AWS and Azure services listed below are APIs. They allow for the configuration and management of each service via API or CLI, allowing the architecture to be seamlessly managed as part of the overall API stack, as well as the CI/CD pipeline. Making environment operations and maintenance, just part of the continuous delivery cycle(s).</p>
+
+<p><em><strong>Question: Release Management</strong></em><br />
+Release occurs at the granular service level. With Github and CI/CD as the vehicle for moving release forward daily, versioning, defining, and communicating all the way. With the proper code and API level testing in place, release management can happen safely at scale.</p>
+
+<ul>
+  <li><strong>Github</strong> - Github version control, branches, and release management should  be used as part of the overall release management strategy.</li>
+  <li><strong>Versioning</strong> - Establishment of a service versioning strategy for minor and major code, and interface releases, allowing independent release management that can occur at the higher orchestration level</li>
+  <li><strong>CI/CD Pipelines</strong> - Everything should be a pipeline, broken down by logical operational, organization, and project boundaries, operating on a continuous release cycle.</li>
+  <li><strong>Microservices</strong> - Everything is operated independently, and released independently via containers, with approach dependency management as part of each release.</li>
+  <li><strong>Definitions</strong> - OpenAPI and JSON Schema are versioned and use to act as the contract for each release.</li>
+  <li><strong>Communications</strong> - Along with each release, comes a standard approach to notification, communication, and support.</li>
+</ul>
+
+<p>Release management will horizontally take a significant amount of time to wrap your head around. Moving forward hundreds, and thousands of services in concert won’t be easy. However it will be more resilient, and forgiving than moving forward a single monolith.</p>
+
+<p><em><strong>Question: API Analytics</strong></em><br />
+Awareness should be baked in by default to the Lighthouse platform, measuring everything, and reporting on it consistently, providing observability across all aspects of operations in alignment with security policies. Analysis should be its own set of operational services, that span the entire length of the Lighthouse platform.</p>
+
+<ul>
+  <li><strong>Log Shipping</strong> - The database, container, web server, management, and DNS logs for ALL services should be shipped, and centralized, for complete access and analysis.</li>
+  <li><strong>APIs</strong> - Centralized logs should be its own service, with programmatic access to logs for all platform services.</li>
+  <li><strong>Modular</strong> - Analytics should be modular, bit-size API-driven elements that can be mixed, composed, published, and visualized in reusable ways.</li>
+  <li><strong>Embeddables</strong> - Modular, embeddable UI elements should be developed as applications on top of platform analytics APIs, allowing for portable dashboard that can be remixed, reused, and evolved.</li>
+  <li><strong>Search</strong> - The logging and reporting layer of the platform should have a core search element, allowing all logs to searched, as well as the logs for how API consumers are analyzing logs (mind blown).</li>
+  <li><strong>Continouous</strong> - As with all other services, analytics, reporting, and visualizations should be continuous, and ever evolving and deployed on a day to day, week to week basis.</li>
+</ul>
+
+<p>A standard logging strategy across all services is how we achieve a higher level of API analytics, going beyond just database or web server statics, and even API management analytics, providing end to end, comprehensive platform service measurement, analysis, reporting, and visualization. Allowing platform operators, consumers, and auditors to access and understand how all service are being used, or not being used.</p>
+
+<p><em><strong>Question: Approval to Operate (ATO) Support for Environments</strong></em><br />
+Every service introduced as part of the Lighthouse platform should have all the information required to support ATO, with it baked into the governance and maturity life cycle for any service. It actually lends itself well to the maturity elements of the lifecycle above, ensuring there is ATO before anything is deployed.</p>
+
+<ul>
+  <li><strong>Definitions</strong> - All definitions are present for satisfying ATO.</li>
+  <li><strong>Github</strong> - Everything is self-contained within a single place for submission.</li>
+  <li><strong>Governance</strong> - ATO is part of the governance process, while still allowing for innovation.</li>
+  <li><strong>Micro / Macro</strong> - ATO for each individual service can be considered, as well as at the project, group levels, understanding where services fit in at macro level.</li>
+</ul>
+
+<p>ATO can be built into the templated API request and submission process discussed earlier, allowing for already approved architecture, tooling, and patterns to be used over and over, streamlining the ATO cycle. Helping service developers enjoy more certainty around the ATO process, while still allowing for innovation to occur, pushing the ATO definition and process when it makes sense.</p>
+
+<p><em><strong>Question: Build APIs including system level APIs that connect into backend VA systems</strong></em><br />
+Everything is a microservice, and there are plenty of approaches to ensure that legacy backend systems can enjoy continued use and evolution through evolved APIs. The API life cycle allows for the evolution of existing backend systems that operate in the cloud and on-premise in small, bit-size service implementations.</p>
+
+<ul>
+  <li><strong>Gateway</strong> - AWS API Gateway and Azure API management makes it easy to publish newer APIs on top of legacy backend systems.</li>
+  <li><strong>Facades</strong> - Establishing facade patterns for modernizing, and evolving legacy systems, allowing them to take on a new interface, while still maintaining existing system.</li>
+  <li><strong>OpenAPI</strong> - Map out newer APIs using OpenAPI, then importing into gateways and wiring up with backend systems.</li>
+  <li><strong>Schema</strong>- Mapping out the schema transformations from backend systems to front-end API requests and responses using JSON Path, and JSON Schema.</li>
+  <li><strong>Microservices</strong> - Delivering newer APIs on top of legacy systems in smaller, more evolvable services.</li>
+</ul>
+
+<p>From the frontend, you shouldn’t be able to tell whether a legacy VA system is in use, or newer cloud infrastructure. All applications should be using APIs, and all APIs should be delivered as individual or groups of microservices, that do one thing and does it well. As APIs evolve, the backend systems should be decoupled and evolved as well, but until that becomes possible, all consumption of data, content, and other resources will be routed through the Lighthouse API stack.</p>
+
+<p><em><strong>Question: API key management or managing third party access (authorization, throttling, etc.)</strong></em><br />
+Both theAWS API Gateway, and Azure API Management allow for the delivery of modern API management infrastructure that can be used to govern internal, partner, and 3rd party access to resources. All applications should be using APIs, and ALL APIs should be using a standardized API management approach, no matter whether the consumption is internal or external. Ensuring consistent authorization, throttling, logging, and other aspects of doing business with APIs.</p>
+
+<ul>
+  <li><strong>IAM</strong> - Leverage API keys, JWT, and OAuth in conjunction with IAM policies governing which backend resources are available to API consumers.</li>
+  <li><strong>Gateway</strong> - All API traffic is routed through the AWS API Gateway and Azure API management layers, allowing for consistent and comprehensive management across all API consumption.</li>
+  <li><strong>Management</strong> - Apply consistent logging, rate limiting, transformations, error and security at the API management level, ensuring all services behave in the same way.</li>
+  <li><strong>Plans</strong> - Establishing of a variety of API plans that dictate API levels of access, which services are accessible to different API key levels, that are in sync with backend IAM policies.</li>
+  <li><strong>Logging</strong> - Every API call is logged, and contains user and application keys, allow ALL API consumption to be audited and reported upon, and responded to in real time.</li>
+  <li><strong>Security</strong> - Providing a single point of entry, and the ability to shut down access, striking the balance between access and security which is the hallmark of doing APIs.</li>
+</ul>
+
+<p>API management is baked into the cloud. It is a discipline that has been evolving for over a decade, and is available on both the AWS and Azure platforms. The tools are there, Lighthouse just needs to establish a coherent strategy for authentication, service composition, logging, reporting, and responding to API consumption at scale in real time. Staying out of the way of consumers, while also ensuring that they only have access to the data, content, and other resources they are allowed to, in alignment with overall governance.</p>
+
+<p><em><strong>Management of API lifecycle in cloud, hybrid, and/or on premise environments</strong></em><br />
+All operational aspects of the Lighthouse platform should be developed as independent microservices, with a common API–no matter what the underlying architecture is. The DNS service API should be the same, regardless of whether it is managing AWS or Azure DNS, or possibly any other on-premise or 3rd party service–allowing for platform orchestration using a common API stack.</p>
+
+<ul>
+  <li><strong>Microservices</strong> - Each operational service is a microservice, with possibly multiple versions, depending on the backend architecture in use.</li>
+  <li><strong>Containers</strong> - Every operational service is operated as a container, allowing it to run in any cloud environment.</li>
+  <li><strong>Github</strong> - All services live as a Github repository, allowing it to be checked out and forked via any cloud platform.</li>
+</ul>
+
+<p>The modular, containerized, microservice approach to delivering the Lighthouse platform will allow for the deployment, scaling, and redundant implementation of services in any cloud environment, as well as on-premise, or hybrid scenarios. All services operate using the same microservice footprint, using containers, and a consistent API surface area, allowing for the entire platform stack to be orchestrated against no matter where the actual service resides.</p>
+
+<p>_**Question: 3. Use Case<br />
+To better provide insight into aligning activities to contracts, VA has provided the use case below. Please walk through this use case discussing each activity and the contract it would be executed under.</p>
+
+<p><strong>Veteran Verification Sample Use Case: VA has a need for a Veteran Verification API to verify a Veteran status from a number of VA backend systems to be shared internally and externally as an authoritative data source.  These backend systems potentially have conflicting data, various system owners, and varying degrees of system uptime._</strong></p>
+
+<p>This is a common problem within large organizations, institutions, and government agencies. This is why we work to decouple, modularize, and scale not just the technology of building applications on backend systems, but also the business, and politics of it all. Introducing a competitive element when it comes to data management access, and building in redundancy, resilience, and a healthier incentive model into how we provide access to critical data, content, and other resources.</p>
+
+<p>I have personal experience with this particular use case. One of the things I did while working at the VA, was conduct public data inventory, and move forward the conversation around a set of veteran benefit web services, which included asking the question–who had the authoritative record for a veteran? Many groups felt they were the authority, but in my experience, nobody actually did entirely. The incentives in this environment weren’t about actually delivering a meaningful record on a veteran, it was all about getting a significant portion of the budget. I recommend decoupling the technology, business, and politics of providing access to veterans data using a microservices approach.</p>
+
+<ul>
+  <li><strong>Microservices</strong> - Break the veterans record into separate, meaningful services.</li>
+  <li><strong>Definitions</strong> - Ensure the definitions for the schema and API are open and accessible.</li>
+  <li><strong>Discovery</strong> - Make sure that the Veteran Verification API is full discoverable.</li>
+  <li><strong>Testing</strong> - Make sure the Verification API is fully tested on a regular basis.</li>
+  <li><strong>Monitoring</strong> - Ensure that there are regular monitors for the Verification API.</li>
+  <li><strong>Redundancy</strong> - Encourage multiple implementations of the same API to be delivered and owned by separate groups in separate regions, with circuit breaker behavior in APIs and applications.</li>
+  <li><strong>Balancing</strong> - Load balance between services and regions, allowing for auto-scaled APIs.</li>
+  <li><strong>Aggregation</strong> - Encourage the development of aggregate APIs that bridge multiple source, providing aggregate versions of the veteran’s record, encouraging new service owners to improve on existing services.</li>
+  <li><strong>Reliability</strong> - Incentivize and reward reliability with Verification API owners, through revenue and priority access.</li>
+</ul>
+
+<p>There should be no single owner of any critical VA service. Each service should have redundant versions of the service, available in different regions, and managed by separate owners. Competition should be encouraged, with facade and aggregate introduced, putting pressure on core service providers to deliver quality, or their service(s) will be de-prioritized, and newer services will be given traffic and revenue priority. The same backend database can be exposed via many different APIs, with a variety of owners and incentives in place to encourage the quality of service.</p>
+
+<p>APIs, coupled with the proper terms of service in place can eliminate an environment where defensive data positions are established. If other API owners can get access to the same data, and offer a better quality API, then evangelize and gain traction with application owners, entrenched API providers will no longer flourish. Aggregate and facade APIs allow for the evolution of existing APIs, even if the API owners are unwilling to move and evolve. Shifting the definition of what is authoritative, making it much more liquid, allowing it to shift and evolve, rather than just be diluted and meaningless, as it is often seen in the current environment.</p>
+
+<p><img src="http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/69_113_800_500_0_max_0_-1_-1.jpg" align="right" width="45%" style="padding: 15px;" /></p>
+
+<p>_<strong>Question: 4. Response<br />
+In addition to providing the requested content above, VA asks for vendors to respond to the following questions:</strong></p>
+
+<p><strong>Describe how you would align the aforementioned activities between contracts, and the recommended price structure for contracts?_</strong></p>
+
+<p>Each microservice would have its own technical, business, and political contract, outline how the service will be delivered, managed, supported, communicated, and versioned. These contracts can be realized individually, or grouped together as a larger, aggregate contract that can be submitted, while still allowing each individual service within that contract to operate independently.</p>
+
+<p>As mentioned before, the microservices approach isn’t just about the technical components. It is about making the business of delivering vital VA services more modular, portable, and scalable. Something that will also decouple and shift the politics of delivering critical services to veterans. Breaking things down into much more manageable chunks that can move forward independently at the contract level.</p>
+
+<ul>
+  <li><strong>Micro Procurement</strong> - One of the benefits of breaking down services into small chunks, is that the money needed to deliver the service can become much smaller, potentially allowing for a much smaller, more liquid and flowing procurement cycle. Each service has a micro definition of the monetization involved with the service, which can be aggregated by groups of services and projects.</li>
+  <li><strong>Micro Payments</strong> - Payments for service deliver can be baked into the operations and life cycle of the service. API management excels at measuring how much a service is accessed, and testing, monitoring, logging, security, and other stops along the API life cycle can all be measured, and payments can be delivered depend on quality of service, as well as volume of service.</li>
+</ul>
+
+<p>Amazon Web Services already has the model for defining, measuring, and billing for API consumption in this way. This is the bread and butter of the Amazon Web Services platform, and the cornerstone of what we know as the cloud. This approach to delivering, scaling, and ultimately billing or payment for the operation and consumption of resources, just needs to be realized by the VA, and the rest of the federal government. We have seen a shift in how government views the delivery and operation of technical resources using the cloud over the last five years, we just need to see the same shift for the business of APIs over the next five years.</p>
+
+<p>_<strong>Question: The Government envisions a managed service (ie: vendor responsible for all aspects including licenses, scaling, provisioning users, etc.) model for the entire technology stack.  How could this be priced to allow for scaling as more APIs are used?  For example, would it be priced by users, API calls, etc.?_</strong></p>
+
+<p>API management is where you start this conversation. It has been used for a decade to measure, limit, and quantify the value being exchanged at the API level. Now that API management has been baked into the cloud, we are starting to see the approach being scaled to deliver at a marketplace level. With over ten years of experience with delivering, quantifying, metering and billing at the API level, Amazon is the best example of this monetization approach in action, with two distinct ways of quantifying the business of APIs.</p>
+
+<ul>
+  <li><strong>AWS Marketplace Metering Service</strong> - SaaS style billing model which provides a consumption monetization model in which customers are charged only for the number of resources they use–the best known cloud model.</li>
+  <li><strong>AWS Contract Service</strong> - Billing customers in advance for the use of software, providing an entitlement monetization model in which customers pay in advance for a certain amount of usage, which could be used to deliver certain amount of storage per month for a year, or a certain amount of end-user licenses for some amount of time.</li>
+</ul>
+
+<p>This provides a framework for thinking about how the business of microservices can be delivered. Within these buckets, AWS provides a handful of common dimensions for thinking through the nuts and bolts of these approaches, quantifying how APIs can be monetized, in nine distinct areas:</p>
+
+<ul>
+  <li><strong>Users</strong> – One AWS customer can represent an organization with many internal users. Your SaaS application can meter for the number of users signed in or provisioned at a given hour. This category is appropriate for software in which a customer’s users connect to the software directly (for example, with customer-relationship management or business intelligence reporting).</li>
+  <li><strong>Hosts</strong> – Any server, node, instance, endpoint, or other part of a computing system. This category is appropriate for software that monitors or scans many customer-owned instances (for example, with performance or security monitoring). Your application can meter for the number of hosts scanned or provisioned in a given hour.</li>
+  <li><strong>Data</strong> – Storage or information, measured in MB, GB, or TB. This category is appropriate for software that manages stored data or processes data in batches. Your application can meter for the amount of data processed in a given hour or how much data is stored in a given hour.</li>
+  <li><strong>Bandwidth</strong> – Your application can bill customers for an allocation of bandwidth that your application provides, measured in Mbps or Gbps. This category is appropriate for content distribution or network interfaces. Your application can meter for the amount of bandwidth provisioned for a given hour or the highest amount of bandwidth consumed in a given hour.</li>
+  <li><strong>Request</strong> – Your application can bill customers for the number of requests they make. This category is appropriate for query-based or API-based solutions. Your application can meter for the number of requests made in a given hour.</li>
+  <li><strong>Tiers</strong> – Your application can bill customers for a bundle of features or for providing a suite of dimensions below a certain threshold. This is sometimes referred to as a feature pack. For example, you can bundle multiple features into a single tier of service, such as up to 30 days of data retention, 100 GB of storage, and 50 users. Any usage below this threshold is assigned a lower price as the standard tier. Any usage above this threshold is charged a higher price as the professional tier. Tier is always represented as an amount of time within the tier. This category is appropriate for products with multiple dimensions or support components. Your application should meter for the current quantity of usage in the given tier. This could be a single metering record (1) for the currently selected tier or feature pack.</li>
+  <li><strong>Units</strong> – Whereas each of the above is designed to be specific, the dimension of Unit is intended to be generic to permit greater flexibility in how you price your software. For example, an IoT product which integrates with device sensors can interpret dimension “Units” as “sensors”. Your application can also use units to make multiple dimensions available in a single product. For example, you could price by data and by hosts using Units as your dimension. With dimensions, any software product priced through the use of the Metering Service must specify either a single dimension or define up to eight dimensions, each with their own price.</li>
+</ul>
+
+<p>These dimensions reflect the majority of API services being sold out there today, we don’t find ourselves in a rut with measuring value, like just paying per API call. Allowing Lighthouse API plans to possess one or more dimensions, beyond any single use case.</p>
+
+<ul>
+  <li><strong>Single Dimension</strong> - This is the simplest pricing option. Customers pay a single price per resource unit per hour, regardless of size or volume (for example, $0.014 per user per hour, or $0.070 per host per hour).</li>
+  <li><strong>Multiple Dimensions</strong> – Use this pricing option for resources that vary by size or capacity. For example, for host monitoring, a different price could be set depending on the size of the host. Or, for user-based pricing, a different price could be set based on the type of user (admin, power user, and read-only user). Your service can be priced on up to eight dimensions. If you are using tier-based pricing, you should use one dimension for each tier.</li>
+</ul>
+
+<p>This provides a framework that Lighthouse can provide to 3rd party developers, allowing them to operate their services within a variety of business models. Derived from many of the hard costs they face, and providing additional volume based revenue, based upon how may API calls of any particular service receives.</p>
+
+<p>Beyond this basic monetization framework, I’d add in an incentive framework that would dovetail with the business models proposed, but then provide different pricing levels depending on how well the services perform, and deliver on the agreed upon API contract. There are a handful of bullets I’d consider here.</p>
+
+<ul>
+  <li><strong>Design</strong> - How well does a service meet API design guidelines set forth in governance guidance.</li>
+  <li><strong>Monitoring</strong> - Has a service consistently met its monitoring goals, delivering against an agreed upon service level agreement (SLA).</li>
+  <li><strong>Testing</strong> - Beyond monitoring, are APIs meeting granular interface testing, along a regular testing &amp; monitoring schedule.</li>
+  <li><strong>Communication</strong> - Are service owners meeting expectations around communication around a service operations.</li>
+  <li><strong>Support</strong> - Does a service meet required support metrics, making sure it is responsive and helpful.</li>
+  <li><strong>Ratings</strong> - Provide a basic set of metrics, with accompanying ratings for each service.</li>
+  <li><strong>Certification</strong> - Allowing service providers to get certified, receiving better access, revenue, and priority.</li>
+</ul>
+
+<p>All of the incentive framework is defined and enforced via the API governance strategy for the platform. Making sure all microservices, and their owners meet a base set of expectations. When you take the results and apply weekly, monthly, and quarterly against the business framework, you can quickly begin to see some different pricing levels, and revenue opportunities around all microservices emerge. You deliver consistent, reliable, highly ranked microservices, you get paid higher percentages, enjoy greater access to resources, and prioritization in different ways via the platform–if you don’t, you get paid less, and operate fewer services.</p>
+
+<p>This model is already visible on the AWS platform. All the pieces are there to make it happen for any platform, operating on top of the AWS platform. The marketplace, billing, and AWS API Gateway connection to API plans exists. When you combine the authentication and service composition available at the AWS API Gateway layer, with the IAM policy solutions available via AWS, an enterprise grade solution for delivering this model securely at scale, comes into focus.</p>
+
+<p><em><strong>Question: Is there a method of paying or incentivizing the contractor based on API usage?</strong></em><br />
+I think I hit on this with the above answer(s). Keep payments small, and well defined. Measured, reported upon, and priced using the cloud model, connecting to a clear set of API governance guidance and expectations. The following areas can support paying and incentivizing contractors based upon not just usage, but also meeting the API contract.</p>
+
+<ul>
+  <li><strong>Management</strong> - API management puts all microservices into plans, then log, meter, and track on value exchanged at this level.</li>
+  <li><strong>Marketplace</strong> - Turning the platform into a marketplace that can be occupied by a variety of internal, pattern, vendor, 3rd party, and public actors.</li>
+  <li><strong>Monetization</strong> - Granular understanding of all the resources it takes to deliver each individual service, and understand the costs associated with operating at scale.</li>
+  <li><strong>Plans</strong> - A wealth of API plans in place at the API gateway level, something that is tied to IAM policies, and in alignment with API governance expectations.</li>
+  <li><strong>Governance</strong> - Providing a map, and supporting guidance around the Lighthouse platform API governance. Understanding, measuring, and enforcing consistency across the API lifecycle–platform wide.</li>
+  <li><strong>Value Exchange</strong> - Using the cloud model, which is essentially the original API management, marketplace, and economy model. Not just measuring consumption, but used to maximize and generate revenue from the value exchanged across the platform.</li>
+</ul>
+
+<p>When you operate APIs on AWS and Azure, the platform as a service layer can utilize and benefit from the underlying infrastructure as a service monetization framework. Meaning, you can use AWS’s business model for managing the measuring, paying, and incentivizing of microservice owners. All the gears are there, they just need to be set in motion to support the management of a government API marketplace platform.</p>
+
+<p><em><strong>Based on the information provided, please discuss your possible technology stack and detail your experience supporting these technologies.</strong></em><br />
+Both Amazon Web Services and Azure provide the building blocks of what you need to execute the above. Each cloud platform has its own approach to delivering infrastructure at scale. Providing an interesting mix of API driven resources you can jumpstart any project.</p>
+<p><img src="http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/27_113_800_500_0_max_0_-1_-1.jpg" align="right" width="45%" style="padding: 15px;" /></p>
+<p><strong>AWS</strong>
+First, let’s take a look at what is relevant to this vision from the Amazon Web Services side of things. These are all the core AWS solutions on the table, with dashboard, API, and command line access to get the job done.</p>
+
+<p><strong>Compute</strong></p>
+<ul>
+  <li><a href="https://aws.amazon.com/ec2/?hp=tile&amp;so-exp=below">Amazon EC2</a> - Virtual Servers in the Cloud</li>
+  <li><a href="https://aws.amazon.com/ec2/autoscaling/?hp=tile&amp;so-exp=below">Amazon EC2 Auto Scaling</a> - Scale Compute Capacity to Meet Demand</li>
+  <li><a href="https://aws.amazon.com/ecs/?hp=tile&amp;so-exp=below">Amazon Elastic Container Service</a> - Run and Manage Docker Containers</li>
+  <li><a href="https://aws.amazon.com/eks/?hp=tile&amp;so-exp=below">Amazon Elastic Container Service for Kubernetes</a> - Run Managed Kubernetes on AWS</li>
+  <li><a href="https://aws.amazon.com/ecr/?hp=tile&amp;so-exp=below">Amazon Elastic Container Registry</a> - Store and Retrieve Docker Images</li>
+  <li><a href="https://aws.amazon.com/lightsail/?hp=tile&amp;so-exp=below">Amazon Lightsail</a> - Launch and Manage Virtual Private Servers</li>
+  <li><a href="https://aws.amazon.com/fargate/?hp=tile&amp;so-exp=below">AWS Fargate</a> - Run Containers without Managing Servers or Clusters</li>
+  <li><a href="https://aws.amazon.com/batch/?hp=tile&amp;so-exp=below">AWS Batch</a> - Run Batch Jobs at Any Scale</li>
+  <li><a href="https://aws.amazon.com/lambda/?hp=tile&amp;so-exp=below">AWS Lambda</a> - Run your Code in Response to Events</li>
+  <li><a href="https://aws.amazon.com/serverlessrepo/?hp=tile&amp;so-exp=below">AWS Serverless Application Repository</a> - Discover, Deploy, and Publish Serverless Applications Auto Scaling</li>
+</ul>
+
+<p><strong>Storage</strong>
+<a href="https://aws.amazon.com/s3/?hp=tile&amp;so-exp=below">Amazon S3</a> - Scalable Storage in the Cloud
+<a href="https://aws.amazon.com/ebs/?hp=tile&amp;so-exp=below">Amazon EBS</a> - Block Storage for EC2
+<a href="https://aws.amazon.com/efs/?hp=tile&amp;so-exp=below">Amazon Elastic File System</a> - Managed File Storage for EC2
+<a href="https://aws.amazon.com/glacier1/?hp=tile&amp;so-exp=below">Amazon Glacier</a> - Low-cost Archive Storage in the Cloud
+<a href="https://aws.amazon.com/storagegateway/?hp=tile&amp;so-exp=below">AWS Storage Gateway</a> - Hybrid Storage Integration</p>
+
+<p><strong>Database</strong></p>
+<ul>
+  <li><a href="https://aws.amazon.com/rds/aurora/?hp=tile&amp;so-exp=below">Amazon Aurora</a> - High Performance Managed Relational Database</li>
+  <li><a href="https://aws.amazon.com/rds/?hp=tile&amp;so-exp=below">Amazon RDS</a> - Managed Relational Database Service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB</li>
+  <li><a href="https://aws.amazon.com/dynamodb/?hp=tile&amp;so-exp=below">Amazon DynamoDB</a> - Managed NoSQL Database</li>
+  <li><a href="https://aws.amazon.com/elasticache/?hp=tile&amp;so-exp=below">Amazon ElastiCache</a> - In-memory Caching System</li>
+  <li><a href="https://aws.amazon.com/redshift/?hp=tile&amp;so-exp=below">Amazon Redshift</a> - Fast, Simple, Cost-effective Data Warehousing</li>
+</ul>
+
+<p><strong>Authentication</strong></p>
+<ul>
+  <li><a href="https://aws.amazon.com/iam/?hp=tile&amp;so-exp=below">AWS Identity &amp; Access Management</a> - Manage User Access and Encryption Keys</li>
+  <li><a href="https://aws.amazon.com/cognito/?hp=tile&amp;so-exp=below">Amazon Cognito</a> - Identity Management for your Apps</li>
+  <li><a href="https://aws.amazon.com/single-sign-on/?hp=tile&amp;so-exp=below">AWS Single Sign-On</a> - Cloud Single Sign-On (SSO) Service</li>
+  <li>a href=”https://aws.amazon.com/cloudhsm/?hp=tile&amp;so-exp=below”&gt;AWS CloudHSM&lt;/a&gt; - Hardware-based Key Storage for Regulatory Compliance</li>
+</ul>
+
+<p><strong>Management</strong></p>
+<ul>
+  <li><a href="https://aws.amazon.com/api-gateway/?hp=tile&amp;so-exp=below">Amazon API Gateway</a> - Build, Deploy, and Manage APIs</li>
+  <li><a href="https://aws.amazon.com/autoscaling/?hp=tile&amp;so-exp=below">AWS Auto Scaling</a> - Scale Multiple Resources to Meet Demand</li>
+  <li><a href="https://aws.amazon.com/cloudformation/?hp=tile&amp;so-exp=below">AWS CloudFormation</a> - Create and Manage Resources with Templates</li>
+</ul>
+
+<p><strong>Logging</strong></p>
+<ul>
+  <li><a href="https://aws.amazon.com/cloudwatch/?hp=tile&amp;so-exp=below">Amazon CloudWatch</a> - Monitor Resources and Applications</li>
+  <li><a href="https://aws.amazon.com/cloudtrail/?hp=tile&amp;so-exp=below">AWS CloudTrail</a> - Track User Activity and API Usage</li>
+</ul>
+
+<p><strong>Network</strong></p>
+<ul>
+  <li><a href="https://aws.amazon.com/vpc/?hp=tile&amp;so-exp=below">Amazon VPC</a> - Isolated Cloud Resources</li>
+  <li><a href="https://aws.amazon.com/cloudfront/?hp=tile&amp;so-exp=below">Amazon CloudFront</a> - Global Content Delivery Network</li>
+  <li><a href="https://aws.amazon.com/route53/?hp=tile&amp;so-exp=below">Amazon Route 53</a> - Scalable Domain Name System</li>
+</ul>
+
+<p><strong>Discovery</strong></p>
+<ul>
+  <li><a href="https://aws.amazon.com/application-discovery/?hp=tile&amp;so-exp=below">AWS Application Discovery Service</a> - Discover On-Premises Applications to Streamline Migration</li>
+  <li><a href="https://aws.amazon.com/servicecatalog/?hp=tile&amp;so-exp=below">AWS Service Catalog</a> - Create and Use Standardized Products</li>
+</ul>
+
+<p>Migration</p>
+<ul>
+  <li><a href="https://aws.amazon.com/dms/?hp=tile&amp;so-exp=below">AWS Database Migration Service</a> - Migrate Databases with Minimal Downtime</li>
+  <li><a href="https://aws.amazon.com/server-migration-service/?hp=tile&amp;so-exp=below">AWS Server Migration Service</a> - Migrate On-Premises Servers to AWS</li>
+</ul>
+
+<p><strong>Orchestration</strong></p>
+<ul>
+  <li><a href="https://aws.amazon.com/codedeploy/?hp=tile&amp;so-exp=below">AWS CodeDeploy</a> - Automate Code Deployment</li>
+  <li><a href="https://aws.amazon.com/codepipeline/?hp=tile&amp;so-exp=below">AWS CodePipeline</a> - Release Software using Continuous Delivery</li>
+  <li><a href="https://aws.amazon.com/config/?hp=tile&amp;so-exp=below">AWS Config</a> - Track Resource Inventory and Changes</li>
+  <li><a href="https://aws.amazon.com/systems-manager/?hp=tile&amp;so-exp=below">AWS Systems Manager</a> - Gain Operational Insights and Take Action</li>
+</ul>
+
+<p><strong>Monitoring</strong></p>
+<ul>
+  <li><a href="https://aws.amazon.com/trustedadvisor/?hp=tile&amp;so-exp=below">AWS Trusted Advisor</a> - Optimize Performance and Security</li>
+  <li><a href="https://aws.amazon.com/premiumsupport/phd/?hp=tile&amp;so-exp=below">AWS Personal Health Dashboard</a> - Personalized View of AWS Service Health</li>
+</ul>
+
+<p><strong>Security</strong></p>
+<ul>
+  <li><a href="https://aws.amazon.com/guardduty/?hp=tile&amp;so-exp=below">Amazon GuardDuty</a> - Managed Threat Detection Service</li>
+  <li><a href="https://aws.amazon.com/certificate-manager/?hp=tile&amp;so-exp=below">AWS Certificate Manager</a> - Provision, Manage, and Deploy SSL/TLS Certificates</li>
+  <li><a href="https://aws.amazon.com/shield/?hp=tile&amp;so-exp=below">AWS Shield</a> - DDoS Protection</li>
+  <li><a href="https://aws.amazon.com/waf/?hp=tile&amp;so-exp=below">AWS WAF</a> - Filter Malicious Web Traffic</li>
+</ul>
+
+<p><strong>Analytics</strong></p>
+<ul>
+  <li><a href="https://aws.amazon.com/athena/?hp=tile&amp;so-exp=below">Amazon Athena</a> - Query Data in S3 using SQL</li>
+  <li><a href="https://aws.amazon.com/cloudsearch/?hp=tile&amp;so-exp=below">Amazon CloudSearch</a> - Managed Search Service</li>
+  <li><a href="https://aws.amazon.com/redshift/?hp=tile&amp;so-exp=below">Amazon Redshift</a> - Fast, Simple, Cost-effective Data Warehousing</li>
+</ul>
+
+<p><strong>Integration</strong></p>
+<ul>
+  <li><a href="https://aws.amazon.com/step-functions/?hp=tile&amp;so-exp=below">AWS Step Functions</a> - Coordinate Distributed Applications</li>
+  <li><a href="https://aws.amazon.com/sqs/?hp=tile&amp;so-exp=below">Amazon Simple Queue Service (SQS)</a> - Managed Message Queues</li>
+  <li><a href="https://aws.amazon.com/sns/?hp=tile&amp;so-exp=below">Amazon Simple Notification Service (SNS)</a> - Pub/Sub, Mobile Push and SMS</li>
+  <li><a href="https://aws.amazon.com/amazon-mq/?hp=tile&amp;so-exp=below">Amazon MQ</a> - Managed Message Broker for ActiveMQ</li>
+</ul>
+
+<p>I’m a big fan of the AWS approach. Their marketplace, and AWS API gateway provide unprecedented access to backend cloud, and on-premise resources, which can be secured using AWS IAM. Amazon Web Services products a robust infrastructure as a services, adequate enough to deliver any platform as a services solutions.</p>
+
+<p><strong>Azure</strong></p>
+
+<p>Next, let’s look at the Azure stack to see what they bring to the table. There is definitely some overlap with the AWS list of resources, but Microsoft has a different view of the landscape than Amazon does. However, similar to Amazon, most of the building blocks are here to deliver on the proposal above.</p>
+
+<p><strong>Compute</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/virtual-machines/">Virtual Machines</a> - Provision Windows and Linux virtual machines in seconds</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/app-service/">App Service</a> - Quickly create powerful cloud apps for web and mobile</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/functions/">Functions</a> - Process events with serverless code</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/batch/">Batch</a> - Cloud-scale job scheduling and compute management</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/container-instances/">Container Instances</a> - Easily run containers with a single command</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/service-fabric/">Service Fabric</a> - Develop microservices and orchestrate containers on Windows or Linux</li>
+  <li>a href=”https://azure.microsoft.com/en-us/services/virtual-machine-scale-sets/”&gt;Virtual Machine Scale Sets&lt;/a&gt; - Manage and scale up to thousands of Linux and Windows virtual machines</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/container-service/">Azure Container Service (AKS)</a> - Simplify the deployment, management, and operations of Kubernetes</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/cloud-services/">Cloud Services</a> - Create highly-available, infinitely-scalable cloud applications and APIs</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/virtual-machines/linux-and-open/">Linux Virtual Machines</a> - Provision virtual machines for Ubuntu, Red Hat, and more</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/">Windows Virtual Machines</a> - Provision virtual machines for SQL Server, SharePoint, and more</li>
+</ul>
+
+<p><strong>Storage</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/storage/">Storage</a> - Durable, highly available, and massively scalable cloud storage</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/backup/">Backup</a> - Simple and reliable server backup to the cloud</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/storsimple/">StorSimple</a> - Lower costs with an enterprise hybrid cloud storage solution</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/site-recovery/">Site Recovery</a> - Orchestrate protection and recovery of private clouds</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/data-lake-store/">Data Lake Store</a> - Hyperscale repository for big data analytics workloads</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/storage/blobs/">Blob Storage</a> - REST-based object storage for unstructured data</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/storage/unmanaged-disks/">Disk Storage</a> - Persistent, secured disk options supporting virtual machines</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/managed-disks/">Managed Disks</a> - Persistent, secured disk storage for Azure virtual machines</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/storage/queues/">Queue Storage</a> - Effectively scale apps according to traffic</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/storage/files/">File Storage</a> - File shares that use the standard SMB 3.0 protocol</li>
+</ul>
+<p><img src="http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/27_113_800_500_0_max_0_-1_-1.jpg" align="right" width="45%" style="padding: 15px;" /></p>
+<p><strong>Deployment</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/app-service/api/">API Apps</a> - Easily build and consume Cloud APIs</li>
+</ul>
+
+<p><strong>Containers</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/app-service/">App Service</a> - Quickly create powerful cloud apps for web and mobile</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/batch/">Batch</a> - Cloud-scale job scheduling and compute management</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/container-registry/">Container Registry</a> - Store and manage container images across all types of Azure deployments</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/container-instances/">Container Instances</a> - Easily run containers with a single command</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/service-fabric/">Service Fabric</a> - Develop microservices and orchestrate containers on Windows or Linux</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/container-service/">Azure Container Service (AKS)</a> - Simplify the deployment, management, and operations of Kubernetes</li>
+</ul>
+
+<p><strong>Databases</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/sql-database/">SQL Database</a> - Managed relational SQL Database as a service</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/cosmos-db/">Azure Cosmos DB</a> - Globally distributed, multi-model database for any scale</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/sql-data-warehouse/">SQL Data Warehouse</a> - Elastic data warehouse as a service with enterprise-class features</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/cache/">Redis Cache</a> - Power applications with high-throughput, low-latency data access</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/sql-server-stretch-database/">SQL Server Stretch Database</a> - Dynamically stretch on-premises SQL Server databases to Azure</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/storage/tables/">Table Storage</a> - NoSQL key-value store using semi-structured datasets</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/postgresql/">Azure Database for PostgreSQL</a> - Managed PostgreSQL database service for app developers</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/mysql/">Azure Database for MySQL</a> - Managed MySQL database service for app developers</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/database-migration/">Azure Database Migration Service</a> - Simplify on-premises database migration to the cloud</li>
+</ul>
+
+<p><strong>Authentication</strong>
+<a href="https://azure.microsoft.com/en-us/services/active-directory/">Azure Active Directory</a> - Synchronize on-premises directories and enable single sign-on
+<a href="https://azure.microsoft.com/en-us/services/multi-factor-authentication/">Multi-Factor Authentication</a> - Add security for your data and apps without adding hassles for users
+<a href="https://azure.microsoft.com/en-us/services/key-vault/">Key Vault</a> - Safeguard and maintain control of keys and other secrets
+<a href="https://azure.microsoft.com/en-us/services/active-directory-b2c/">Azure Active Directory B2C</a> - Consumer identity and access management in the cloud</p>
+
+<p><strong>Management</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/api-management/">API Management</a> - Publish APIs to developers, partners, and employees securely and at scale</li>
+</ul>
+
+<p><strong>Logging</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/log-analytics/">Log Analytics</a> - Collect, search, and visualize machine data from on-premises and cloud</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/traffic-manager/">Traffic Manager</a> - Route incoming traffic for high performance and availability</li>
+</ul>
+
+<p><strong>Monitoring</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/monitor/">Azure Monitor</a> - Highly granular and real-time monitoring data for any Azure resource</li>
+  <li><a href="https://azure.microsoft.com/en-us/features/azure-portal/">Microsoft Azure portal</a> - Build, manage, and monitor all Azure products in a single, unified console</li>
+</ul>
+
+<p><strong>Analytics</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/hdinsight/">HDInsight</a> - Provision cloud Hadoop, Spark, R Server, HBase, and Storm clusters</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/hdinsight/apache-spark/">Apache Spark for Azure HDInsight</a> - Apache Spark in the cloud for mission critical deployments</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/hdinsight/apache-storm/">Apache Storm for HDInsight</a> - Real-time stream processing made easy for big data</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/sql-data-warehouse/">SQL Data Warehouse</a> - Elastic data warehouse as a service with enterprise-class features</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/log-analytics/">Log Analytics</a> - Collect, search, and visualize machine data from on-premises and cloud</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/data-lake-store/">Data Lake Store</a> - Hyperscale repository for big data analytics workloads</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/data-lake-analytics/">Data Lake Analytics</a> - Distributed analytics service that makes big data easy</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/analysis-services/">Azure Analysis Services</a> - Enterprise grade analytics engine as a service</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/databricks/">Azure Databricks</a> - Fast, easy, and collaborative Apache Spark-based analytics platform</li>
+</ul>
+
+<p><strong>Network</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/cdn/">Content Delivery Network</a> - Ensure secure, reliable content delivery with broad global reach</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/dns/">Azure DNS</a> - Host your DNS domain in Azure</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/virtual-network/">Virtual Network</a> - Provision private networks, optionally connect to on-premises datacenters</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/traffic-manager/">Traffic Manager</a> - Route incoming traffic for high performance and availability</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/load-balancer/">Load Balancer</a> - Deliver high availability and network performance to your applications</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/network-watcher/">Network Watcher</a> - Network performance monitoring and diagnostics solution</li>
+</ul>
+
+<p><strong>Orchestration</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/scheduler/">Scheduler</a> - Run your jobs on simple or complex recurring schedules</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/automation/">Automation</a> - Simplify cloud management with process automation</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/automation-control/">Automation &amp; Control</a> - Centrally manage all automation and configuration assets</li>
+</ul>
+
+<p><strong>Integration</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/data-factory/">Data Factory</a> - Orchestrate and manage data transformation and movement</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/logic-apps/">Logic Apps</a> - Automate the access and use of data across clouds without writing code</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/event-grid/">Event Grid</a> - Get reliable event delivery at massive scale</li>
+</ul>
+
+<p><strong>Search</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/search/">Azure Search</a> - Fully-managed search-as-a-service</li>
+</ul>
+
+<p><strong>Discovery</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/active-directory-ds/">Azure Active Directory Domain Services</a> - Join Azure virtual machines to a domain without domain controllers</li>
+</ul>
+
+<p><strong>Security</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/security-center/">Security Center</a> - Unify security management and enable advanced threat protection across hybrid cloud workloads</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/security-compliance/">Security &amp; Compliance</a> - Enable threat detection and prevention through advanced cloud security</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/ddos-protection/">Azure DDoS Protection</a> - Protect your applications from Distributed Denial of Service (DDoS) attacks</li>
+</ul>
+
+<p><strong>Governance</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/azure-policy/">Azure Policy</a> - Implement corporate governance and standards at scale for Azure resources</li>
+</ul>
+
+<p><strong>Monetization</strong></p>
+<ul>
+  <li><a href="https://azure.microsoft.com/en-us/services/cost-management/">Cost Management</a> - Optimize what you spend on the cloud, while maximizing cloud potential</li>
+</ul>
+
+<p><strong>Experience</strong><br />
+I have been studying Amazon full time for almost eight years. I’ve been watching Azure play catch up for the last three years. I run my infrastructure, and a handful of clients on AWS. I understand the API landscape of both providers, and how they can be woven into vision proposed so far.</p>
+
+<p>I see the AWS API stack, and the Azure API stack, as a starter set of services that can be built upon to deliver the base Lighthouse implementation. All the components are there. It just need the first set of Lighthouse services to be defined, delivering the essential building blocks  any platform needs, things like compute, storage, dns, messaging, etc. I recommend that the VA Lighthouse team take the AWS API stack, and mold it into v1 of the Lighthouse API stack. Take the momentum from AWS’s own API journey, build upon it, and set into motion the VA Lighthouse API journey.</p>
+
+<p>Enable VA services to be delivered as individual, self-contained units, that can be used as part of a larger VA orchestration of veteran services. Open up the VA and let some sunlight in. Think about what Amazon has been able to achieve by delivering its own internal operations as services, and remaking not just retail, but also touching almost every other industry with Amazon Web Services. <a href="https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/">The Amazon Web Services myth story</a> provides a powerful and compelling narrative for any company, organizations, institution, or government agency like the VA to emulate.</p>
+
+<p>This proposal is not meant to be a utopian vision for the VA. However it is meant to, as the name of the project reflects, shine a light on existing ways of delivering services via the cloud. Helping guide each service in its own individual journey, while also serving the overall mission of the platform–to help the veteran be successful in their own personal journey.</p>
+
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/pano-lighthouse_copper_circuit.jpg" width="100%" align="center" /></p>
+</p>
+  
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="col">
+          <style>
+            ul.cloud {
+              list-style: none;
+              padding-left: 0;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              line-height: 1.5rem;
+            }
+            ul.cloud a {
+              color: #a33;
+              display: block;
+              font-size: 1.5rem;
+              padding: 0.125rem 0.25rem;
+              text-decoration: none;
+              position: relative;
+              opacity: calc((15 - (9 - var(--size))) / 15); 
+            }
+
+            ul.cloud a[data-weight="1"] { --size: 1; }
+            ul.cloud a[data-weight="2"] { --size: 2; }
+            ul.cloud a[data-weight="3"] { --size: 3; }
+            ul.cloud a[data-weight="4"] { --size: 4; }
+            ul.cloud a[data-weight="5"] { --size: 5; }
+            ul.cloud a[data-weight="6"] { --size: 6; }
+            ul.cloud a[data-weight="7"] { --size: 7; }
+            ul.cloud a[data-weight="8"] { --size: 8; }
+            ul.cloud a[data-weight="9"] { --size: 9; }
+
+            ul.cloud li:nth-child(2n+1) a { --color: #181; }
+            ul.cloud li:nth-child(3n+1) a { --color: #33a; }
+            ul.cloud li:nth-child(4n+1) a { --color: #c38; }
+          </style>
+
+          <ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+              
+              <li><a data-weight="4" href="/search/?search=API Evangelist&searchFields=tags" style="text-decoration: underline;">#API Evangelist</a></li>
+              
+              <li><a data-weight="4" href="/search/?search=Federal Government&searchFields=tags" style="text-decoration: underline;">#Federal Government</a></li>
+              
+              <li><a data-weight="4" href="/search/?search=Strategy&searchFields=tags" style="text-decoration: underline;">#Strategy</a></li>
+              
+              <li><a data-weight="4" href="/search/?search=Governance&searchFields=tags" style="text-decoration: underline;">#Governance</a></li>
+              
+              <li><a data-weight="4" href="/search/?search=Platform&searchFields=tags" style="text-decoration: underline;">#Platform</a></li>
+               
+          </ul>    
+        </div>
+      </div>
+    </section>    
+
+    <!-- Begin Post Editor -->
+    <section class="mb-8">   
+      
+      <script>
+        var require = { paths: { vs: '/assets/js/monaco-editor/min/vs' } };
+      </script>
+      <script src="/assets/js/monaco-editor/min/vs/loader.js"></script>
+      <script src="/assets/js/monaco-editor/min/vs/editor/editor.main.js"></script>          
+
+      <div class="accordion" id="postEditorBox">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#postEditorWrapper" aria-expanded="true" aria-controls="postEditorWrapper">
+              Editor
+            </button>
+          </h2>
+          <div id="postEditorWrapper" class="accordion-collapse collapse show" data-bs-parent="#postEditorBox">
+            <div class="accordion-body">
+
+            <!-- Post Editor Listing -->
+            <a name="monaco"></a>
+            <div id="post-editor" style="width: 100%; height: 450px; margin: 10px;"></div>
+            <script>
+              var PostEditor = monaco.editor.create(document.getElementById('post-editor'), {
+                value: [''].join('\n'),
+                language: 'markdown',
+                options:{
+                      wordWrap: "on",
+                    }       
+              });
+
+              PostEditor.updateOptions({ wordWrap: "on" })
+              PostEditor.getModel().onDidChangeContent((event) => {
+                if(event.isFlush){
+                  // Setting up
+                }
+                else{
+                  savePostLocal(); 
+                }
+              });        
+            </script>  
+            <!-- Post Properties Listing -->
+
+          </div>
+        </div>
+      </div>
+      </div>         
+    
+    </section>   
+    <!-- End Post Editor -->         
+
+  </div>
+</div>
+
+<script>  
+ 
+  document.getElementById("postEditorWrapper").classList.remove('show');
+
+  function getPost(){
+
+    const options = {
+        method: 'GET'
+    };  
+    fetch('https://posts-api.apievangelist.com/posts' + postId,options)
+        .then(function(response) {
+            if (!response.ok) {
+                console.log('Error with Status Code: ' + response.status);
+            }
+            response.json().then(function(response) {               
+
+              var post = response.data.post;
+              //post = post.replace(">-","");
+              post = post.trim();
+              var converter = new showdown.Converter(),
+              body_html = converter.makeHtml(response.data.body);
+              
+              document.getElementById("post-name-header").innerHTML = response.data.title;
+              document.getElementById("post-image-header").src = response.data.image;
+              //document.getElementById("post-description-paragraph").innerHTML = body_html;
+            
+              PostEditor.setValue(post);
+
+              // Any changes?
+              if(response.data.changes == 1){
+                document.getElementById("commit-banner").style.display = '';
+                document.getElementById("commit-button-wrapper").style.display = '';             
+              }              
+
+
+            });
+          })
+          .catch(function(err) {
+              console.log('Error: ' + err);
+      });  
+  }
+
+
+  getPost();
+  
+  // Edit Post Modal Save
+  function savePostLocal(){
+  
+    var post_yaml = PostEditor.getValue();
+    var post = jsyaml.load(post_yaml);
+  
+    var postName = post.name
+    var postDescription = post.description;
+
+    // Update Post
+    document.getElementById("post-name-header").innerHTML = postName;
+    document.getElementById("post-description-paragraph").innerHTML = postDescription;
+    
+    //post_yaml = jsyaml.dump(post);  
+    //PostEditor.setValue(post_yaml);  
+  
+    document.getElementById("save-banner").style.display = '';
+    document.getElementById("save-button-wrapper").style.display = '';
+  
+    document.getElementById("commit-banner").style.display = 'none';
+    document.getElementById("commit-button-wrapper").style.display = 'none'; 
+  
+  }
+  
+  function savePost(){
+
+    var organization = "api-evangelist";
+  
+    if(Cookies.get('access_token')){
+
+      var changes_name = document.getElementById("post-changes-name").value;
+      var changes_description = document.getElementById("post-changes-description").value;
+    
+      var post_yaml = PostEditor.getValue();
+      var post_json = jsyaml.load(post_yaml);    
+    
+      const options = {
+        method: 'put',
+        headers: {
+            "Content-Type": "application/json"                 
+        },    
+        body: JSON.stringify(post_json)
+      };
+      var github_url = 'https://posts-api.apievangelist.com/posts/' + postId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
+      //console.log(github_url);
+      fetch(github_url, options)
+        .then(function (response) {
+          if (!response.ok) {
+            document.getElementById("error-banner").style.display = '';
+            document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
+          }
+          response.json().then(function (response) {
+            //savePost();    
+          });
+        })
+        .catch(function (err) {
+          console.log('Error: ' + err);
+        });
+  
+      document.getElementById("save-banner").style.display = 'none';
+      document.getElementById("save-button-wrapper").style.display = 'none';    
+  
+      document.getElementById("commit-banner").style.display = '';
+      document.getElementById("commit-button-wrapper").style.display = '';   
+  
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
+    }
+
+  }
+
+function commitPost(){
+  
+  var organization = "api-evangelist";
+
+  if(Cookies.get('access_token')){
+
+    const options = {
+      method: 'put',
+      headers: {
+          "Content-Type": "application/json"                 
+      }
+    };
+
+    var github_url = 'https://posts-api.apievangelist.com/posts/' + postId + '/commit?organization=' + organization;
+    console.log(github_url);
+    fetch(github_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          document.getElementById("error-banner").style.display = '';
+          document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
+        }
+        response.json().then(function (response) {
+          if(response.data.file){
+            commitPost();
+          }
+          else{
+            document.getElementById("commit-banner").style.display = 'none';
+            document.getElementById("commit-button-wrapper").style.display = 'none';  
+          }         
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
+      });
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
+    }      
+
+}
+  </script>
+
+    </div>
+  </main>
+
+  <!-- Vendor JS -->
+  <script src="/assets/js/vendor.bundle.js"></script>
+
+  <!-- Theme JS -->
+  <script src="/assets/js/theme.bundle.js"></script>
+
+</body>
+
+</html>

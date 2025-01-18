@@ -1,0 +1,63 @@
+---
+layout: default
+section: Contact
+title: Contact API Evangelist
+summary: Submit a contact form with questions and inquiries about services.
+nav: Contact
+sub: Contact Form
+---
+
+<div class="row gx-xl-9">
+
+    <div class="col-12 col-xxl-4 order-xxl-1">
+
+        <div class="position-sticky mb-8" style="top: 2rem">
+
+            {% include services-api-evangelist.html %}
+            <br>
+            {% include services-partner.html %}
+
+        </div>
+    </div>  
+
+  <div class="col-12 col-xxl-8 order-xxl-0">
+
+    <section>
+      <div class="row">
+        <div class="col">
+  
+            <h1 class="fs-3 mb-5" id="rule-name-header">{{ page.title }}</h1>
+            <p>You are welcome to email any questions to <a href="info@apievangelist.com">info@apievangelist.com</a>, using the form below, or connecting with us via one of our social media, video, and podcast channels. You can contact us regarding any information on this website, or you can leave issues via the GitHub repositories used to manage all of the API contracts made avaialable on API Evangelist.</p>
+            <form action="https://formspree.io/f/mblrpwra" method="POST" name="contact" style="padding: 5px;"> 
+              
+            <label for="role">Your Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="" style="width: 100%;">
+            
+              
+            <label for="email">Your Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" style="width: 100%;">
+            
+                  
+            <label for="role">Your Role</label>
+            <input type="text" class="form-control" id="role" name="role" placeholder="" style="width: 100%;">
+            
+                    
+            <label for="company">Your Company</label>
+            <input type="text"  class="form-control"id="company" name="company" placeholder="" style="width: 100%;">
+            
+                            
+            <label for="other">Other Details</label>
+            <textarea id="other" class="form-control" name="other" rows="4" style="width: 100%;"></textarea>
+            
+            <a href="#" onclick="document.contact.submit();"><button type="button" class="btn btn-primary">Submit</button></a>
+            </form>         
+  
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+
+

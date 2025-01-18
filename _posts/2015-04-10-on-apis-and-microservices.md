@@ -1,0 +1,20 @@
+---
+layout: post
+title: On APIs and Microservices
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-idea-struggle.png
+author:
+  name: kinlane
+tags:
+  - Microservices
+  - APIs
+  - Micro
+---
+I've been monitoring an emerging slice of the API, that has been dubbed "microservices" for some time now, and you've even heard me explore its use, [when describing my architectural approach to redesigning more core API stack for my internal systems](http://alpha.apievangelist.com/2015/02/25/aspiring-to-be-a-network-of-loosely-coupled-gitnodes-over-being-an-organization-of-github-repos/). I’m slowly redesigning my internal API stack, keeping them as small as possible, throughout all aspects of operations, deploying each endpoint in a single dockerized container, that contains the OS, database, web server and all server side API code. I'm also using Github, in conjunction with [APIs.json to assist me in my orchestration](http://alpha.apievangelist.com/2015/01/30/what-is-missing-on-my-microservices-using-apisjson/), throughout every aspect of these APIs lifecycle from design to testing—all a new approach for me when managing my APIs.
+
+Is defining my APIs in this way, so that the definition is much more than just the actual API endpoints, but also include the entire backend, and lifecycle workflow Microservices? Fuck if I know. One thing I do know, is I've had enough conversations with folks who are doing microservices, resulting in me saying [several times that the micro services definition is something very personal](http://apievangelist.com/2015/03/17/more-pondering-on-my-own-microservice-definition/). Something which the first 10 times I said , sounded very positive, but after experiencing multiple people telling me what I'm doing isn't microservices, I can tell the term definitely will continue to be very personal—very much in the same way conversations around REST or Hypermedia has gotten personal on forums, and HN threads.
+
+You know what this tells me about microservices? Is it is more about power, control and influence, everything from enterprise architects stating their endorsement of the concept, down to the individual architects, who love to make sure you know that the way you are doing it, is WRONG! I don't think there is a single definition of "microservice", and much like REST, I think we'll hear plenty of “right” definitions, by the enterprise justifying what they are doing, and those who are selling something to the enterprise. Is there anything wrong with this? Nope. Just not my style, not my game, and has shown me over the couple months how the concept is not a fit for me.
+
+I’m going to stick in the realm of API. It is a completely bullshit term, that means everything, but you know what? Somehow it escaped the IT, architect, and vendor ownership that SOA and now microservices possesses. For me APIs have long been more than just the tech, it is also about the business and politics of any platform implementation, so why can’t it contain my architecture styles as well? So from here forward I will be closely paying attention to microservices conversations, but you won’t hear me use the word, as I’m more comfortable in API land, and what it has come to mean to the wider public—I just don’t give a shit about what the enterprise adopts, or doesn't.
+
+Microservices will reflect the power and control of the entities behind them, unlike APIs, which also possesses that characteristic, but also quickly shifts the conversation to be more about the innovation and opportunity that developers bring to the table, and the end-users who put that to use. Let’s make sure as we do not get caught up in the architectural discussions behind the technical curtain, and that [we remember why all of this API stuff is working](http://apievangelist.com/2014/05/06/remembering-why-this-whole-api-thing-is-working--apidays-berlin/). Let's not get caught up in all the value being just about our architectural styles, and re-live a classic IT tale, ignoring that the real value is what people actually do with our services.

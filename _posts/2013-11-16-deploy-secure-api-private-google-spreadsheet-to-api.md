@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'Deploy Secure API: Private Google Spreadsheet to API'
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+author:
+  name: kinlane
+tags:
+  - Spreadsheet
+---
+I'm working on a series of simple scripts that help people deploy APIs from some of the most common data sources.  I'm starting with a series of PHP scripts, and last week I did a [private Google Spreadsheet to API demo](http://apievangelist.com/2013/11/12/deploy-api-private-google-spreadsheet-to-api/), and this week I want to show how to secure access to the API by requiring an AppID and AppKey which will allow you to track on who has access to the API.
+
+For this PHP implementation, I'm using the [SLIM framework](http://www.slimframework.com/), which provides a dead simple REST framework you can use to deploy an API from a variety of data sources. To begin deploying an API from your Google Spreadsheet datastore, download the REST library and upload to your server that runs PHP.
+
+Slim is pretty straightforward to work with, to add each API endpoint you just add a single PHP file under methods. For this how-to guide we are going to add a simple endpoint from our private spreadsheet products data store.
+
+This project also depends on the [Google Drive API](https://developers.google.com/drive/) and I use the [Google API PHP Client](https://code.google.com/p/google-api-php-client/) to connect to Google and provide necessary oAuth connectivity. 
+
+Before all of this works you need to have an oAuth token, which I created a simple script to handle:
+
+I leave it to you to figure out where you want to store your oAuth tokens, and other goods. I use a config.php file, but can easily be done from database or other:
+
+Next you just add an include reference in the index page for your slim implementation. Everything up until now was the same as the private Google Spreadsheet to API solution, but not on the index page we will wrap the entry point to the API, with a [3Scale API Management layer](http://bit.ly/1cHBhd5). 3Scale is free to sign up and you pay as you scale, so all it takes to get going is register for a 3Scale account and choose the base account, and under your account settings you will find your key to link this code to your account.
+
+This API just uses ID, Name, Price and Description of the product, and queries by a simple query parameter. You can use this as a template for your own product database, adding and removing fields as you need, or completely retrofitting for any database table. That is it, now you have a simple product API that pulls a list of products from a private Google Spreadsheet data store.
+
+There are any number of reasons you would want to secure an API driven from a private Google Spreadsheet file, to offer advanced search, filtering or just to track on who is accessing resources. This solution just uses 3Scale to secure the API interface, requiring an AppID and Appkey to use the API. 
+
+Hopefully that demonstrates a simple approach to securing an API that is driven from a private Google Spreadsheet file.
+
+_Disclosure: 3SCale is an API Evangelist Partner_

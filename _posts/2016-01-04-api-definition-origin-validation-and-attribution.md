@@ -1,0 +1,29 @@
+---
+layout: post
+title: API Definition Origin, Validation, And Attribution
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-attribution.png
+author:
+  name: kinlane
+tags:
+  - Validation
+  - Definition
+---
+I have done a lot of work hand crafting, and often scrape crafting, [machine readable OpenAPI Spec](https://github.com/OAI/OpenAPI-Specification), as part of the work on the [API Stack](http://theapistack.com/). Creating a usable API definition is a lot of work, making it is a pretty valuable commodity, in contrast to my strong opinion that they should be readily available for EVERY API today. While there is still a HUGE AMOUNT of work to be done, I feel like the ball is beginning to move forward, when it comes to the number of publicly available API definitions. 
+
+For the API economy to work at the scale we all have pictured in our head, the surface area of ALL APIs, and its supporting operations needs to be defined, and available to consumers and service providers. Every API should have an [OpenAPI Spec](https://github.com/OAI/OpenAPI-Specification), [API Blueprint](https://apiblueprint.org/), and [Postman Collection](https://www.getpostman.com/docs/collections) available for consumers to put to work. As we close 2015, I'm happy to say that I am optimistic about the amount of work others across the space are putting into API definitions, like the folks over at [API Guru](https://github.com/APIs-guru)\--who are discovering, improving upon, and validating API definitions in a variety of formats, [all available on Github](https://github.com/APIs-guru/api-models#existing-integrations).
+
+A lot of work goes into crafting these definitions, and it is good to see them investing in this area. Their valuable index of almost 200 API definitions is being used to power [Any API](https://any-api.com/), and is complete with [a JSON index for the API collection](https://any-api.com/). Keep an eye on it, as it is growing every day--I know that I will be closely watching every commit to the open API definition repository. As I look through their collection, there are many APIs I already have, but there are many others I would love to build upon the work done by API Guru--just as I encourage others to do with my [API Stack work](http://theapistack.com/). 
+
+All of this forces me to consider, as this new [API definition layer of the API economy](http://definitions.apievangelist.com/) evolves, and we are all borrowing, reusing, and building upon the work of others, where does API design attribution come in? In a post Oracle v Google API copyright case world, where APIs are copyrightable, how do we start moving forward with a healthier vision of defining and sharing of API designs, challenging the dystopian future handed to us by Oracle and our the federal courts. API design attribution is how we do this, where we give credit the sources of valuable API definitions.
+
+[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-guru-banner.png)](https://github.com/APIs-guru/api-models)
+
+[While browsing the machine readable index for the APIs Guru collection](https://github.com/APIs-guru/api-models), I noticed that they had an x-origin collection avaiable for each API they define. Within this object, they describe the format, url, and version for the OpenAPI Spec file in the index is available, much like I do with [APIs.json indexes of APIs](http://apisjson.org). I have provided references to "swagger-original", as part of some of my APIs.json indexes, but many of them were hand crafted so there was no source, with only the static documentation acting as the source. 
+
+The approach by API Guru got me expanding on my own thoughts on this, where I want to site the potential source for any API definition in my collections, However in this fast growing API definition driven world, I am also looking to potentially cite multiple sources for any one API definition I have in my collection(s). If an API definition has an authoratative source, I want to have the URL indexed. If an API definitions has been enhanced or augmented through the work of others, I want to have those URLs indexed. In short, I need to attribute multiple sources, not just the origin as APIs Guru does.
+
+I may vacuum up 5-10 separate OpenAPI Specs for any given API I have, looking for any details that I do not have with any of my own API definitions--each of these sources, if they contribute, append, or augment X amount to my API definitions, they should be cited. I just don't think there should be one authoritative source for any API definitions, in a world where sometimes API consumers better describe the APIs they depend on, than the API owners do. I want to attribute one, or many sources for any API definition I craft.
+
+This process doesn't stop with existing APIs, I should also be able to attribute the API designs of others. If I borrow from the design of Twilio and SendGrid API designs (which I should without legal concerns), for my own custom messaging APIs, I should be able to attribute them for my inspiration in my API definitions. API design will be much like music, in that we will be building on each others riffs and beats, and we should pay respect where it makes sense. 
+
+I will play with a potential an object schema for my API attribution vision. Building on what APIs Guru is doing with their x-origin. First, I will turn it into a collection so I can reference multiple sources, then I will also go beyond just origin, and I'll call my object x-attribution, and add a property for determining what type of attribution it is. For now, I will add attribution as a building block for [my API definitions research](http://definitions.apievangelist.com), which will be something I will be rapidly expanding on into its own category, and maybe get to crafting an actual schema soon.

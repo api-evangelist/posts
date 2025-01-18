@@ -1,0 +1,91 @@
+---
+layout: default
+section: Posts
+title: Top
+summary: The topic categories of posts on API Evangelist.
+nav: Posts
+sub: Categories
+---
+  
+  <!-- Page header -->
+  <div class="row align-items-center mb-7">
+    <div class="col-auto">
+      <!-- Avatar -->
+      <div class="avatar avatar-xl rounded text-primary">
+        <i class="fs-2" data-duoicon="message-2"></i>
+      </div>
+    </div>
+    <div class="col">
+      <!-- Breadcrumb -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-2">
+          <li class="breadcrumb-item"><a class="text-body-secondary" href="#">Posts</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Categories</li>
+        </ol>
+      </nav>
+
+      <!-- Heading -->
+      <h1 class="fs-4 mb-0">Categories<div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="Post Categories" data-bs-content="These are the top curated categories of posts that have been published to API Evangelist over the years, providing a quick way to get introduced to some of the diverse topics covered over the years.">info</div>
+      </h1>
+    </div>
+  </div>
+
+  <div class="row">
+
+    {% assign toggle = 1 %}  
+    {% assign counter = 1 %}  
+    {% for category in site.data['post-categories'] %}  
+
+        {% if toggle == 1 %}
+          <div class="col-12 col-md-6 col-lg-4">
+        {% endif %}
+
+        {% if counter == 1 %}
+          {% assign color = "primary" %}
+        {% elsif counter == 2 %}          
+          {% assign color = "danger" %}
+        {% elsif counter == 3 %}          
+          {% assign color = "warning" %}  
+        {% elsif counter == 4 %}          
+          {% assign color = "info" %}   
+        {% elsif counter == 5 %}          
+          {% assign color = "danger" %}
+        {% elsif counter == 6 %}          
+          {% assign color = "warning" %}  
+        {% elsif counter == 7 %}          
+          {% assign color = "primary" %}  
+        {% elsif counter == 8 %}          
+          {% assign color = "danger" %}     
+        {% elsif counter == 9 %}          
+          {% assign color = "warning" %}     
+        {% elsif counter == 10 %}          
+          {% assign color = "primary" %}     
+        {% elsif counter == 11 %}          
+          {% assign color = "danger" %}     
+        {% elsif counter == 12 %}          
+          {% assign color = "info" %}                                                                         
+        {% endif %}   
+    
+        <a class="card bg-{{ color }}-subtle border-transparent mb-6" href="{{ category.url }}">
+          <div class="card-body">
+            <div class="col-auto" style="float: right; padding: 25px;">
+                <span class="material-symbols-outlined fs-1 text-dark-emphasis">{{ category.icon }}</span>
+            </div>
+            <h3 class="fs-6">{{ category.name }}</h3>
+            <p class="text-body-secondary">{{ category.description }}</p>
+            <div class="text-body-secondary">{{ category.count }} posts</div>
+          </div>
+        </a>
+
+        {% assign toggle = toggle | plus: 1 %}
+        {% assign counter = counter | plus: 1 %}
+
+        {% if toggle == 5 %}
+          </div>
+          {% assign toggle = 1 %}
+        {% endif %}
+
+    {% endfor %}     
+
+  </div>
+</div>

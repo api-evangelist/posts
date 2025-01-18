@@ -1,0 +1,21 @@
+---
+layout: post
+title: Defining Virtual API Stacks Using The Service Broker API Over At IBM Bluemix
+image: >-
+  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ibm-bluemix-third-party-services.png
+author:
+  name: kinlane
+tags:
+  - Stack
+---
+[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ibm-bluemix-third-party-services.png)](http://heidloff.net/nh/home.nsf/article.xsp?id=05.02.2015092629NHEBWM.htm)
+
+I've been talking about developing [virtual API stacks for a while now](http://apievangelist.com/2013/01/28/virtualized-api-stacks/), and as I continue understand current shifts in cloud computing, I am doing my own [reshuffling towards a more microservices, and docker-centric way of life](http://apievangelist.com/2015/02/02/api-management-infrastructure-and-service-composition-is-key-to-orchestration-with-microservices-in-a-containerized-world/). When I say the phrase “virtual API stack”, I’m talking about the ability to deploy a stack of APIs you need for a specific organization, project, app, or other configuration. In 2015, you should be able to quickly define exactly the stack of private, and public API services you need to accomplish exactly what you need--nothing more.
+
+As part of my research in this area, I’m tracking on similar patterns, that I see occurring at platform providers--today I found an example of [defining virtual API stacks](http://heidloff.net/nh/home.nsf/article.xsp?id=05.02.2015092629NHEBWM.htm) using the [service broker API](http://docs.cloudfoundry.org/services/api.html) over at [IBM Bluemix](http://www-01.ibm.com/software/bluemix/). Using Bluemix, you can build virtual API stacks from existing services they have setup, including Twilio, and Sendgrid, or register your own APIs using service broker, via their [cloud marketplace](http://www.ibm.com/cloud-computing/us/en/partner-landing.html) (you have to be partner). The services deploy in this way, need to implement a common API surface area dictated by the platform (I’d love to see a Swagger spec for this IBM).
+
+IBM is blending several areas I’ve been tracking on, starting with [defining of virtual stacks](http://apievangelist.com/2014/04/17/api-virtual-stack-composition-like-the-absolut-drinks-data-api/), but also the aggregation of 3rd party services which opens up a [wholesale layer of valuable API resources](http://apievangelist.com/2014/01/30/what-will-it-take-to-sell-my-api-as-a-wholesale-resource/), and sets up world where [API brokers can emerge](http://apievangelist.com/2014/10/10/exploring-the-possibilities-of-being-an-api-broker/), and prosper. I see that [IBM has embraced machine readable API definitions like Swagger](http://www-01.ibm.com/support/knowledgecenter/SSZFB2_3.0.1/com.ibm.apimgmt.apionprem.doc/create_api_swagger.html) as part of their operations, and I’d love to see them [adopt APIs.json for defining of their virtual API stacks or collections](http://apisjson.org/). APIs.json would make the API collections that users define, much more portable, shareable, indexable, and ultimately discoverable. If you need example of APIs.json + Swagger working, look through [my API Stack inventory](https://github.com/kinlane/api-stack/tree/gh-pages/data), as I map out the top APIs.
+
+My vision of a future with API stacks and collections, is a world where we can buy and sell these modular resources, in IBM’s, Amazon’s, Google’s, and anyone other marketplace, but we can also run them in any infrastructure we choose. We would all possess our own stacks of resources, be able to choose from a wide array of public and private 3rd party resources, and deploy, remix, and re-use these resources in any way we choose, to drive websites, desktop solutions, system integrations, mobile apps, and devices.
+
+It is good to see these patterns emerging over at IBM, via their Bluemix platform. This type of modular service definition, design, deployment, management and reuse is something I’m talking with several other companies about as well--making for a very “containerized microservice” 2015, from what I can see.

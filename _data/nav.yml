@@ -1,0 +1,340 @@
+- name: API Learnings
+  nav:
+
+    - name: Posts
+      symbol: auto_stories
+      sub:
+
+        - name: Categories
+          href: https://apievangelist.com/categories
+
+        - name: Posts
+          href: https://apievangelist.com/2025/       
+
+
+    - name: Conversations
+      symbol: forum
+      sub:
+
+        - name: All Conversations
+          href: https://conversations.apievangelist.com  
+
+    - name: Guidance
+      symbol: fork_left
+      sub:
+
+        - name: All Guidance
+          href: https://guidance.apievangelist.com    
+
+    - name: Questions
+      symbol: quiz
+      sub:
+
+        - name: All Questions
+          href: https://qa.apievangelist.com          
+
+    - name: Videos
+      symbol: video_library      
+      sub:
+
+        - name: All Videos
+          href: https://video.apievangelist.com              
+
+    - name: Timeline
+      symbol: timeline
+      sub:
+
+        - name: API
+          href: https://apievangelist.com/timeline/api/
+
+        - name: Resource
+          href: https://apievangelist.com/timeline/resources/
+
+        - name: Industry
+          href: https://apievangelist.com/timeline/industry/          
+
+- name: API Contracts
+  nav:
+
+    - name: Contracts
+      symbol: contract
+      href: https://contracts.apievangelist.com
+      sub:
+
+        - name: New Contract
+          href: https://contracts.apievangelist.com/new/
+
+        - name: All Contracts
+          href: https://contracts.apievangelist.com
+
+    - name: Produced
+      symbol: factory
+      sub:
+
+        - name: Internal
+          href: https://contracts.apievangelist.com/producing/internal/
+
+        - name: 1st-Party
+          href: https://contracts.apievangelist.com/producing/1st-party/
+
+        - name: 3rd-Party
+          href: https://contracts.apievangelist.com/producing/3rd-party/
+
+    - name: Consumed
+      symbol: apps
+      sub:
+
+        - name: Internal
+          href: https://contracts.apievangelist.com/consuming/internal/
+
+        - name: 1st-Party
+          href: https://contracts.apievangelist.com/consuming/1st-party/
+
+        - name: 3rd-Party
+          href: https://contracts.apievangelist.com/consuming/3rd-party/    
+
+- name: Individual APIs
+  nav:
+
+    - name: APIs
+      symbol: api
+      sub:
+
+        - name: All APIs
+          href: https://apis.apievangelist.com                             
+
+- name: API Governance
+  nav:
+
+    - name: Standards
+      symbol: extension
+      sub:
+
+        - name: All Standards
+          href: https://standards.apievangelist.com
+
+    - name: Strategies
+      symbol: tactic
+      sub:
+
+        - name: All Strategies
+          href: https://strategies.apievangelist.com
+
+    - name: Experiences
+      symbol: engineering
+      sub:
+
+        - name: All Experiences
+          href: https://experiences.apievangelist.com
+
+    - name: Properties
+      symbol: list_alt_check
+      sub:
+
+        - name: All Properties
+          href: https://properties.apievangelist.com          
+
+    - name: Policies
+      symbol: policy
+      sub:
+
+        - name: All
+          href: https://policies.apievangelist.com 
+
+        - name: Business
+          href: https://policies.apievangelist.com/business/
+
+        - name: Technical
+          href: https://policies.apievangelist.com/technical/    
+
+        - name: Standards
+          href: https://policies.apievangelist.com/standards/                            
+
+    - name: Rules
+      symbol: rule
+      sub:
+
+        - name: All Rules
+          href: https://rules.apievangelist.com
+
+        - name: APIs.json Rules
+          href: https://rules.apievangelist.com/apis-json/ 
+
+        - name: OpenAPI Rules
+          href: https://rules.apievangelist.com/openapi/ 
+
+        - name: JSON Schema Rules
+          href: https://rules.apievangelist.com/json-schema/           
+
+    - name: Vocabularies
+      symbol: dictionary
+      sub:
+
+        - name: Words
+          href: https://vocabularies.apievangelist.com/words/a 
+
+        - name: Nodes
+          href: https://vocabularies.apievangelist.com/nodes/            
+
+        - name: Glossary
+          href: https://vocabularies.apievangelist.com/glossary/                                                                          
+
+- name: API Solutions
+  nav:
+
+    - name: Services
+      symbol: design_services
+      sub:
+
+        - name: All Services
+          href: https://services.apievangelist.com
+
+    - name: Tools
+      symbol: construction
+      sub:
+
+        - name: All Tools
+          href: https://tool.apievangelist.com
+
+
+- name: API Discovery
+  nav:
+
+    - name: Discovery
+      symbol: search
+      sub:
+
+        - name: Inbox
+          href: https://discovery.apievangelist.com/inbox/       
+
+        - name: Bing
+          href: https://discovery.apievangelist.com/bing/
+
+        - name: Google
+          href: https://discovery.apievangelist.com/google/
+
+        - name: GitHub
+          href: https://discovery.apievangelist.com/github/ 
+
+    - name: Evidence
+      symbol: fingerprint
+      sub:
+
+        - name: Inbox
+          href: https://evidence.apievangelist.com/inbox/
+
+        - name: Bookmarks
+          href: https://evidence.apievangelist.com/bookmarks/   
+
+- name: API Building Blocks
+  nav:        
+
+    - name: Components
+      symbol: widget_small
+      sub:
+
+        - name: Parameters
+          href: https://parameters.apievangelist.com
+
+        - name: Headers
+          href: https://headers.apievangelist.com
+
+        - name: Responses
+          href: https://responses.apievangelist.com
+
+        - name: Schema
+          href: https://schema.apievangelist.com
+
+
+        - name: Overlays
+          href: https://overlays.apievangelist.com               
+
+        - name: Blueprints
+          href: https://blueprints.apievangelist.com
+
+        - name: Bases
+          href: https://bases.apievangelist.com                                                                    
+
+    - name: Utilities
+      symbol: build
+      sub:
+
+        - name: YAML to JSON
+          href: https://utilities.apievangelist.com/yaml-to-json/ 
+
+        - name: JSON to YAML
+          href: https://utilities.apievangelist.com/json-to-yaml/             
+
+        - name: Merge OpenAPIs
+          href: https://utilities.apievangelist.com/merge-openapis/  
+
+        - name: Split OpenAPIs
+          href: https://utilities.apievangelist.com/split-openapis/    
+
+        - name: Postman to OpenAPI
+          href: https://utilities.apievangelist.com/postman-to-openapi/   
+
+        - name: JSON Schema YAML Validator
+          href: https://utilities.apievangelist.com/json-schema-yaml-validator/             
+
+        - name: JSON Schema Basics (Rules)
+          href: https://utilities.apievangelist.com/json-schema-basics/                                                                   
+
+- name: API Evangelist LLC
+  nav:
+
+    - name: About
+      symbol: info
+      href: https://apievangelist.com/about
+      sub:
+
+        - name: API Evangelist
+          href: https://apievangelist.com/about/api-evangelist 
+
+        - name: Kin Lane
+          href: https://apievangelist.com/about/kin-lane   
+
+        - name: API Surveying & Assessment
+          href: https://apievangelist.com/about/surveying-assessment    
+
+        - name: This Site
+          href: https://apievangelist.com/about/this-site                        
+
+    - name: Contact
+      symbol: contact_support
+      href: https://apievangelist.com/contact
+      sub:
+
+        - name: Contact Form
+          href: https://apievangelist.com/contact 
+
+        - name: LinkedIn
+          href: https://www.linkedin.com/company/api-evangelist/   
+
+        - name: Bluesky
+          href: https://bsky.app/profile/apievangelist.com     
+
+        - name: Mastodon
+          href: https://mastodon.apievangelist.com/web/@api    
+
+        - name: Newsletter
+          href: https://buttondown.com/apievangelist     
+
+        - name: Apple Podcasts
+          href: https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921  
+
+        - name: Spotify
+          href: https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO    
+
+        - name: Postman
+          href: https://www.postman.com/api-evangelist       
+
+        - name: GitHub
+          href: https://github.com/api-evangelist                               
+                                                
+    - name: Partner
+      symbol: handshake
+      sub:
+
+        - name: Information
+          href: https://partners.apievangelist.com                                                

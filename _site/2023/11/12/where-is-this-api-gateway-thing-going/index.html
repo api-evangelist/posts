@@ -1,0 +1,1967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Where Is This API Gateway Thing Going?
+    </title>        
+    <meta name="description" content="Managing API operations." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      (() => {
+        'use strict';
+  
+        const getStoredTheme = () => localStorage.getItem('theme');
+        const setStoredTheme = (theme) => localStorage.setItem('theme', theme);
+  
+        const getPreferredTheme = () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme) {
+            return storedTheme;
+          }
+  
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        };
+  
+        const setTheme = (theme) => {
+          if (theme === 'auto') {
+            document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          } else {
+            document.documentElement.setAttribute('data-bs-theme', theme);
+          }
+        };
+  
+        setTheme(getPreferredTheme());
+  
+        const showActiveTheme = (theme, focus = false) => {
+          const themeSwitchers = document.querySelectorAll('[data-bs-theme-switcher]');
+  
+          themeSwitchers.forEach((themeSwitcher) => {
+            const themeSwitcherIcon = themeSwitcher.querySelector('.material-symbols-outlined');
+            themeSwitcherIcon.innerHTML = theme === 'light' ? 'light_mode' : theme === 'dark' ? 'dark_mode' : 'contrast';
+  
+            if (focus) {
+              themeSwitcher.focus();
+            }
+          });
+  
+          document.querySelectorAll('[data-bs-theme-value]').forEach((element) => {
+            element.classList.remove('active');
+            element.setAttribute('aria-pressed', 'false');
+  
+            if (element.getAttribute('data-bs-theme-value') === theme) {
+              element.classList.add('active');
+              element.setAttribute('aria-pressed', 'true');
+            }
+          });
+        };
+  
+        const refreshCharts = () => {
+          const charts = document.querySelectorAll('.chart-canvas');
+  
+          charts.forEach((chart) => {
+            const chartId = chart.getAttribute('id');
+            const instance = Chart.getChart(chartId);
+  
+            if (!instance) {
+              return;
+            }
+  
+            if (instance.options.scales.y) {
+              instance.options.scales.y.grid.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-border-color');
+              instance.options.scales.y.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+  
+            if (instance.options.scales.x) {
+              instance.options.scales.x.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+  
+            if (instance.options.elements.arc) {
+              instance.options.elements.arc.borderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+              instance.options.elements.arc.hoverBorderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+            }
+  
+            instance.update();
+          });
+        };
+  
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme !== 'light' && storedTheme !== 'dark') {
+            setTheme(getPreferredTheme());
+          }
+        });
+  
+        window.addEventListener('DOMContentLoaded', () => {
+          showActiveTheme(getPreferredTheme());
+  
+          document.querySelectorAll('[data-bs-theme-value]').forEach((toggle) => {
+            toggle.addEventListener('click', (e) => {
+              e.preventDefault();
+              const theme = toggle.getAttribute('data-bs-theme-value');
+              setStoredTheme(theme);
+              setTheme(theme);
+              showActiveTheme(theme, true);
+              refreshCharts();
+            });
+          });
+        });
+      })();
+    </script>
+
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Where Is This API Gateway Thing Going? by The API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image"  content="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-gatew-into-field.jpg">    
+  
+     
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+
+    <link rel="stylesheet" href="/assets/css/choices.css" />
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+  
+    <!-- Fonts and icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+  
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
+  
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="/assets/css/theme.bundle.css" />
+  
+    <script src="/assets/js/customize.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/showdown.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/turndown.js"></script>
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+      function getQueryVariable(variable) {
+          var query = window.location.search.substring(1);
+          var vars = query.split('&');
+          for (var i = 0; i < vars.length; i++) {
+              var pair = vars[i].split('=');
+              if (decodeURIComponent(pair[0]) == variable) {
+                  return decodeURIComponent(pair[1]);
+              }
+          }
+          console.log('Query variable %s not found', variable);
+      }       
+    </script>
+
+  <link rel="stylesheet" data-name="vs/editor/editor.main" href="/assets/js/monaco-editor/min/vs/editor/editor.main.css" />    
+  <script src="/assets/js/js-yaml.min.js"></script>    
+
+  <link href="/assets/css/use-bootstrap-tag.min.css" rel="stylesheet">
+  <script src="/assets/js/use-bootstrap-tag.min.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T2YNJ0FDGE');
+  </script>
+
+  <style>
+    .tm-timeline {
+        box-sizing: border-box;
+        * {
+            box-sizing: border-box;
+        }
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: calc(30% - 2px);
+            bottom: 0;
+            width: 4px;
+            background: #676f7e;
+        }
+
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+
+    .tm-timeline-entry {
+        + .tm-timeline-entry{
+            margin-top: 70px;
+        }
+        clear: both;
+        text-align: left;
+        position: relative;
+
+        &:after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+
+        .tm-timeline-time {
+            float: left;
+            width: 30%;
+            padding-right: 70px;
+            text-align: right;
+            position: relative;
+
+            &:before {
+                content: '';
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border: 4px solid #676f7e;
+                background-color: #fff;
+                border-radius: 100%;
+                top: 0;
+                right:  -10px;
+                z-index: 99;
+            }
+
+            h5 {
+                margin: 3px 0 0;
+            }
+        }
+
+        .tm-timeline-body {
+            float: right;
+            width: 70%;
+            top: 15px;
+            padding-top: 3px;
+            padding-left: 70px;
+            h3 {
+                margin: 0 0 15px;
+                span {
+                    padding: 1px 7px;
+                }
+            }
+
+        }    
+
+      pre code {
+        display: block;
+        background: none;
+        white-space: pre;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: scroll;
+        max-width: 100%;
+        min-width: 100px;
+        padding: 0;
+      }        
+  </style>  
+  </head>
+
+<body>
+
+  <!-- Sidenav -->
+<!-- Sidenav (sm) -->
+<aside class="aside aside-sm d-none d-xl-flex">
+  <nav class="navbar navbar-expand-xl navbar-vertical">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="sidenavSmallCollapse">
+        <!-- Nav -->
+        <nav class="navbar-nav nav-pills h-100">
+          <div class="nav-item">
+            <div data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover" data-bs-title="Color mode">
+              <a class="nav-link" data-bs-toggle="collapse" data-bs-theme-switcher href="#colorModeOptions"
+                role="button" aria-expanded="false" aria-controls="colorModeOptions">
+                <span class="material-symbols-outlined mx-auto"> </span>
+              </a>
+            </div>
+            <div class="collapse" id="colorModeOptions">
+              <div class="border-top border-bottom py-2">
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Light" data-bs-theme-value="light" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> light_mode </span>
+                </a>
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Dark" data-bs-theme-value="dark" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> dark_mode </span>
+                </a>
+                <a class="nav-link fs-sm" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover"
+                  data-bs-title="Auto" data-bs-theme-value="auto" href="#" role="button">
+                  <span class="material-symbols-outlined mx-auto"> contrast </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover"
+            data-bs-title="Go to product page">
+            <a class="nav-link" href="https://themes.getbootstrap.com/product/dashbrd/" target="_blank">
+              <span class="material-symbols-outlined mx-auto"> local_mall </span>
+            </a>
+          </div>
+          <div class="nav-item mt-auto" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover"
+            data-bs-title="Contact us">
+            <a class="nav-link" href="mailto:info@apievangelist.com">
+              <span class="material-symbols-outlined mx-auto"> support </span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </nav>
+</aside>
+
+  <!-- Sidenav (lg) -->
+<aside class="aside">
+  <nav class="navbar navbar-expand-xl navbar-vertical">
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://apievangelist.com">
+        <center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" width="200" style="margin-bottom: 25px; margin-top: -5px; "></center>
+      </a>
+
+      <!-- User -->
+      <div class="ms-auto d-xl-none">
+        <div class="dropdown my-n2">
+          <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+              <img class="avatar-img" src="/assets/img/photos/kinlane.jpg" alt="..." />
+            </span>
+            Kin Lane
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#sidenavLargeCollapse"
+        aria-controls="sidenavLargeCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="sidenavLargeCollapse">
+
+        <!-- Search -->
+        <div class="input-group d-xl-none my-4 my-xl-0">
+          <input class="form-control" id="topnavSearchInputMobile" type="search" placeholder="Search"
+            aria-label="Search" aria-describedby="navbarSearchMobile" />
+          <span class="input-group-text" id="navbarSearchMobile">
+            <span class="material-symbols-outlined"> search </span>
+          </span>
+        </div>              
+          
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Learnings</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Posts" rol="button"
+                aria-expanded="false" aria-controls="Posts">
+                  <span class="material-symbols-outlined me-3">auto_stories</span> Posts
+                </a>
+                <div class="collapse" id="Posts">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/categories">Categories</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/2025/">Posts</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Conversations" rol="button"
+                aria-expanded="false" aria-controls="Conversations">
+                  <span class="material-symbols-outlined me-3">forum</span> Conversations
+                </a>
+                <div class="collapse" id="Conversations">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://conversations.apievangelist.com">All Conversations</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Guidance" rol="button"
+                aria-expanded="false" aria-controls="Guidance">
+                  <span class="material-symbols-outlined me-3">fork_left</span> Guidance
+                </a>
+                <div class="collapse" id="Guidance">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://guidance.apievangelist.com">All Guidance</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Questions" rol="button"
+                aria-expanded="false" aria-controls="Questions">
+                  <span class="material-symbols-outlined me-3">quiz</span> Questions
+                </a>
+                <div class="collapse" id="Questions">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://qa.apievangelist.com">All Questions</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Videos" rol="button"
+                aria-expanded="false" aria-controls="Videos">
+                  <span class="material-symbols-outlined me-3">video_library</span> Videos
+                </a>
+                <div class="collapse" id="Videos">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://video.apievangelist.com">All Videos</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Timeline" rol="button"
+                aria-expanded="false" aria-controls="Timeline">
+                  <span class="material-symbols-outlined me-3">timeline</span> Timeline
+                </a>
+                <div class="collapse" id="Timeline">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/api/">API</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/resources/">Resource</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/timeline/industry/">Industry</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Contracts</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Contracts" rol="button"
+                aria-expanded="false" aria-controls="Contracts">
+                  <span class="material-symbols-outlined me-3">contract</span> Contracts
+                </a>
+                <div class="collapse" id="Contracts">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/new/">New Contract</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com">All Contracts</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Produced" rol="button"
+                aria-expanded="false" aria-controls="Produced">
+                  <span class="material-symbols-outlined me-3">factory</span> Produced
+                </a>
+                <div class="collapse" id="Produced">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/internal/">Internal</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/1st-party/">1st-Party</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/producing/3rd-party/">3rd-Party</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Consumed" rol="button"
+                aria-expanded="false" aria-controls="Consumed">
+                  <span class="material-symbols-outlined me-3">apps</span> Consumed
+                </a>
+                <div class="collapse" id="Consumed">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/internal/">Internal</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/1st-party/">1st-Party</a>
+                     
+                    <a class="nav-link" href="https://contracts.apievangelist.com/consuming/3rd-party/">3rd-Party</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">Individual APIs</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#APIs" rol="button"
+                aria-expanded="false" aria-controls="APIs">
+                  <span class="material-symbols-outlined me-3">api</span> APIs
+                </a>
+                <div class="collapse" id="APIs">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apis.apievangelist.com">All APIs</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Governance</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Standards" rol="button"
+                aria-expanded="false" aria-controls="Standards">
+                  <span class="material-symbols-outlined me-3">extension</span> Standards
+                </a>
+                <div class="collapse" id="Standards">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://standards.apievangelist.com">All Standards</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Strategies" rol="button"
+                aria-expanded="false" aria-controls="Strategies">
+                  <span class="material-symbols-outlined me-3">tactic</span> Strategies
+                </a>
+                <div class="collapse" id="Strategies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://strategies.apievangelist.com">All Strategies</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Experiences" rol="button"
+                aria-expanded="false" aria-controls="Experiences">
+                  <span class="material-symbols-outlined me-3">engineering</span> Experiences
+                </a>
+                <div class="collapse" id="Experiences">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://experiences.apievangelist.com">All Experiences</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Properties" rol="button"
+                aria-expanded="false" aria-controls="Properties">
+                  <span class="material-symbols-outlined me-3">list_alt_check</span> Properties
+                </a>
+                <div class="collapse" id="Properties">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://properties.apievangelist.com">All Properties</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Policies" rol="button"
+                aria-expanded="false" aria-controls="Policies">
+                  <span class="material-symbols-outlined me-3">policy</span> Policies
+                </a>
+                <div class="collapse" id="Policies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com">All</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/business/">Business</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/technical/">Technical</a>
+                     
+                    <a class="nav-link" href="https://policies.apievangelist.com/standards/">Standards</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Rules" rol="button"
+                aria-expanded="false" aria-controls="Rules">
+                  <span class="material-symbols-outlined me-3">rule</span> Rules
+                </a>
+                <div class="collapse" id="Rules">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com">All Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/apis-json/">APIs.json Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/openapi/">OpenAPI Rules</a>
+                     
+                    <a class="nav-link" href="https://rules.apievangelist.com/json-schema/">JSON Schema Rules</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Vocabularies" rol="button"
+                aria-expanded="false" aria-controls="Vocabularies">
+                  <span class="material-symbols-outlined me-3">dictionary</span> Vocabularies
+                </a>
+                <div class="collapse" id="Vocabularies">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/words/a">Words</a>
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/nodes/">Nodes</a>
+                     
+                    <a class="nav-link" href="https://vocabularies.apievangelist.com/glossary/">Glossary</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Solutions</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Services" rol="button"
+                aria-expanded="false" aria-controls="Services">
+                  <span class="material-symbols-outlined me-3">design_services</span> Services
+                </a>
+                <div class="collapse" id="Services">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://services.apievangelist.com">All Services</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Tools" rol="button"
+                aria-expanded="false" aria-controls="Tools">
+                  <span class="material-symbols-outlined me-3">construction</span> Tools
+                </a>
+                <div class="collapse" id="Tools">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://tool.apievangelist.com">All Tools</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Discovery</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Discovery" rol="button"
+                aria-expanded="false" aria-controls="Discovery">
+                  <span class="material-symbols-outlined me-3">search</span> Discovery
+                </a>
+                <div class="collapse" id="Discovery">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/inbox/">Inbox</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/bing/">Bing</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/google/">Google</a>
+                     
+                    <a class="nav-link" href="https://discovery.apievangelist.com/github/">GitHub</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Evidence" rol="button"
+                aria-expanded="false" aria-controls="Evidence">
+                  <span class="material-symbols-outlined me-3">fingerprint</span> Evidence
+                </a>
+                <div class="collapse" id="Evidence">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://evidence.apievangelist.com/inbox/">Inbox</a>
+                     
+                    <a class="nav-link" href="https://evidence.apievangelist.com/bookmarks/">Bookmarks</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Building Blocks</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Components" rol="button"
+                aria-expanded="false" aria-controls="Components">
+                  <span class="material-symbols-outlined me-3">widget_small</span> Components
+                </a>
+                <div class="collapse" id="Components">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://parameters.apievangelist.com">Parameters</a>
+                     
+                    <a class="nav-link" href="https://headers.apievangelist.com">Headers</a>
+                     
+                    <a class="nav-link" href="https://responses.apievangelist.com">Responses</a>
+                     
+                    <a class="nav-link" href="https://schema.apievangelist.com">Schema</a>
+                     
+                    <a class="nav-link" href="https://overlays.apievangelist.com">Overlays</a>
+                     
+                    <a class="nav-link" href="https://blueprints.apievangelist.com">Blueprints</a>
+                     
+                    <a class="nav-link" href="https://bases.apievangelist.com">Bases</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Utilities" rol="button"
+                aria-expanded="false" aria-controls="Utilities">
+                  <span class="material-symbols-outlined me-3">build</span> Utilities
+                </a>
+                <div class="collapse" id="Utilities">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/yaml-to-json/">YAML to JSON</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-to-yaml/">JSON to YAML</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/merge-openapis/">Merge OpenAPIs</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/split-openapis/">Split OpenAPIs</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/postman-to-openapi/">Postman to OpenAPI</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-schema-yaml-validator/">JSON Schema YAML Validator</a>
+                     
+                    <a class="nav-link" href="https://utilities.apievangelist.com/json-schema-basics/">JSON Schema Basics (Rules)</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+        
+
+          <!-- Heading -->
+          <h3 class="fs-base px-3 mb-4">API Evangelist LLC</h3>
+
+          <!-- Nav -->
+          <nav class="navbar-nav nav-pills mb-xl-7">
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#About" rol="button"
+                aria-expanded="false" aria-controls="About">
+                  <span class="material-symbols-outlined me-3">info</span> About
+                </a>
+                <div class="collapse" id="About">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+                     
+                    <a class="nav-link" href="https://apievangelist.com/about/this-site">This Site</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Contact" rol="button"
+                aria-expanded="false" aria-controls="Contact">
+                  <span class="material-symbols-outlined me-3">contact_support</span> Contact
+                </a>
+                <div class="collapse" id="Contact">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://apievangelist.com/contact">Contact Form</a>
+                     
+                    <a class="nav-link" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+                     
+                    <a class="nav-link" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+                     
+                    <a class="nav-link" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+                     
+                    <a class="nav-link" href="https://buttondown.com/apievangelist">Newsletter</a>
+                     
+                    <a class="nav-link" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+                     
+                    <a class="nav-link" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+                     
+                    <a class="nav-link" href="https://www.postman.com/api-evangelist">Postman</a>
+                     
+                    <a class="nav-link" href="https://github.com/api-evangelist">GitHub</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+           
+              <div class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#Partner" rol="button"
+                aria-expanded="false" aria-controls="Partner">
+                  <span class="material-symbols-outlined me-3">handshake</span> Partner
+                </a>
+                <div class="collapse" id="Partner">
+                  <nav class="nav nav-pills">
+                     
+                    <a class="nav-link" href="https://partners.apievangelist.com">Information</a>
+                     
+                  </nav>
+                </div>              
+              </div>               
+             
+          </nav>     
+          <!-- Divider -->
+          <hr class="my-4 d-xl-none" />
+                
+
+        <!-- Nav -->
+        <nav class="navbar-nav nav-pills d-xl-none mb-7">
+          <div class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" data-bs-theme-switcher href="#colorModeOptionsMobile"
+              role="button" aria-expanded="false" aria-controls="colorModeOptionsMobile">
+              <span class="material-symbols-outlined me-3"> </span> Color mode
+            </a>
+            <div class="collapse" id="colorModeOptionsMobile">
+              <div class="nav nav-pills">
+                <a class="nav-link" data-bs-theme-value="light" href="#" role="button"> Light </a>
+                <a class="nav-link" data-bs-theme-value="dark" href="#" role="button"> Dark </a>
+                <a class="nav-link" data-bs-title="Auto" data-bs-theme-value="auto" href="#" role="button"> Auto </a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://apievangelist.com" target="_blank">
+              <span class="material-symbols-outlined me-3">local_mall</span> Go to API Evangelist
+            </a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="https://apievangelist.com/contacts/">
+              <span class="material-symbols-outlined me-3">alternate_email</span> Contact Us
+            </a>
+          </div>
+        </nav>
+
+        <!-- Card -->
+        <div class="card mt-auto">
+          <div class="card-body">
+            <!-- Heading -->
+            <h6>Need help?</h6>
+
+            <!-- Text -->
+            <p class="text-body-secondary mb-0">Feel free to reach out to us should you have any questions or
+              suggestions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</aside>
+
+  <!-- Topnav -->
+<nav class="navbar d-none d-xl-flex px-xl-6">
+  <div class="container flex-column align-items-stretch">
+    <div class="row">
+      <div class="col-auto">
+        <!-- Search -->
+        <div class="input-group" style="max-width: 300px;">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search" aria-describedby="navbarSearch" id="topsearch" />
+          <span class="input-group-text" id="navbarSearch">
+            <kbd class="badge bg-body-secondary text-body">⌘</kbd>
+          </span>
+          <script>
+            const searchbox = document.getElementById('topsearch');
+            
+            searchbox.addEventListener('keydown', function(event) {
+              if (event.key === 'Enter') {
+                location.href='https://search.apievangelist.com?search=' + document.getElementById("topsearch").value;
+              }
+            });               
+          </script>          
+        </div>
+      </div>
+      <div class="col"> 
+        <div id="ticker-box" style="width: 100%; border: 0px solid #000; padding-top: 15px;">
+          <ul>
+            
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you know where all of your APIs are?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40qNzTt">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you have a source of truth for your schema?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40nVDnW">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you struggling with API sprawl?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/40qNzTt">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need more reliable APIs?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fOZjn1">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need more consistent APIs?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/3DHez88">API Evangelist Can Help</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need an open source replacement for Postman?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need an open source API client?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need an API client with native Git integration?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Need a offline and local only API client?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Is your API defined as a Bruno collection?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/4fpe6FO">Use Bruno</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you looking for an open-source API mocking solution?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need an open-source API testing solution?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Are you needing multi-specification API testing and mocking?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Take a Look at Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Do you need industrial grade API testing and mocking?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Try Microcks</a>)</li>    
+              
+                <li style="font-weight: bold; color: #bd2e24;">Have you tried the new examples schema for mocking your API?&nbsp;&nbsp;&nbsp;(<a href="https://bit.ly/48MluZf">Checkout Microcks</a>)</li>    
+            
+          </ul>
+        </div>        
+        <script>
+          function applyStyles(obj, styles) {
+            var property;
+            var styleLength = Object.keys(styles).length;
+            for (var i = 0; i < styleLength; i++) {
+              property = Object.keys(styles)[i];
+              obj.style[property] = styles[property];
+            }
+          }
+
+          function extend(object1, object2) {
+            for (var attrname in object2) {
+              object1[attrname] = object2[attrname];
+            }
+            return object1;
+          }
+
+          function startTicker(id, param) {
+            var tickerBox = document.getElementById(id);
+            var defaultParam = { speed: 5, delay: 500, rotate: true };
+            var extendedParam = extend(defaultParam, param);
+            applyStyles(tickerBox, { overflow: "hidden", 'min-height': '40px' });
+            var ul = tickerBox.getElementsByTagName("ul");
+            var li = ul[0].getElementsByTagName("li");
+            applyStyles(ul[0], { padding: 0, margin: 0, position: 'relative', 'list-style-type': 'none' });
+            for (i = 0; i < li.length; i++) {
+              applyStyles(li[i], { position: 'absolute', 'white-space': 'nowrap', display: 'none' });
+            }
+
+            var li_index = 0;
+            var trans_width = tickerBox.offsetWidth;
+            var chunk_width = 1;
+
+            var iterateTickerElement = function(trans_width) {
+              li[li_index].style.left = trans_width + "px";
+              li[li_index].style.display = '';
+              var t = setInterval(function() {
+                if (parseInt(li[li_index].style.left) > -li[li_index].offsetWidth) {
+                  li[li_index].style.left = parseInt(li[li_index].style.left) - chunk_width + "px";
+                } else {
+                  clearInterval(t);
+                  trans_width = tickerBox.offsetWidth;
+                  li_index++;
+                  if (li_index == li.length && extendedParam.rotate == true) {
+                    li_index = 0;
+                    iterateTickerElement(trans_width);
+                  } else if (li_index < li.length) {
+                    setTimeout(function() { iterateTickerElement(trans_width); }, extendedParam.delay);
+                  }
+                }
+              }, extendedParam.speed);
+              tickerBox.onmouseover = function() {
+                clearInterval(t);
+              }
+              tickerBox.onmouseout = function() {
+                iterateTickerElement(parseInt(li[li_index].style.left));
+              }
+            }
+            iterateTickerElement(trans_width);
+          }          
+        </script>  
+        <script>startTicker('ticker-box', {speed:7, delay:1000});</script>      
+      </div>
+      <div class="col-auto"> 
+
+        <!-- User -->
+        <a href="https://yj2hy2wwbjp4w2a4tkhyz3h6zu0woyft.lambda-url.us-east-1.on.aws/"><button type="button" id="account-button" class="btn btn-success">Login</button></a>
+        <div class="dropdown my-n2" id="account-dropdown" style="display: none;">
+          <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+              <img class="avatar-img" src="/assets/img/photos/kinlane.jpg" alt="..." />
+            </span>
+            Kin Lane
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li><a class="dropdown-item" href="#">Change password</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+
+        <script>
+          function getUrlVar(key){
+              var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search);
+              return result && unescape(result[1]) || "";
+          }          
+          var access_token = getUrlVar('access_token');
+          if(access_token!=''){
+            Cookies.set('access_token', access_token);
+          }
+          if(Cookies.get('access_token')){
+            document.getElementById("account-dropdown").style.display = '';
+            document.getElementById("account-button").style.display = 'none';
+          }
+        </script> 
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <!-- Main -->
+  <main class="main px-lg-6">
+    <!-- Content -->
+    <div class="container-lg">
+
+        <script>
+  var postId = '/2023/11/12/where-is-this-api-gateway-thing-going/';
+  console.log("postId:" + postId);
+</script>
+
+<style>
+  img{
+    max-width:600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }  
+  </style>
+
+<div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+  You have made changes to the contract and will need to save.
+</div>
+
+<div id="commit-banner" class="alert alert-warning" role="alert" style="text-align: center; display: none;">
+  Changes have been made to this contract and will need committing to repo.
+</div>
+
+<div id="data-store" style="border: 1px solid #000; display: none;">
+  <input type="text" id="path" value="0">
+  <input type="text" id="page_start" value="0">
+  <input type="text" id="page_size" value="4">
+  <textarea id="posts-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="policies-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="rules-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-filter" style="width: 100%; height: 350px;">[]</textarea>
+</div>
+
+<div class="row gx-xl-9">
+
+  <div class="col-12 col-xxl-4 order-xxl-1">
+
+    <div class="position-sticky mb-8" style="top: 2rem">
+      <div class="card bg-body">
+        <div class="card-body py-4">
+          <!-- List -->
+          <ul class="list-group list-group-flush bg-body mb-0">
+            
+            <!--Begin Save Post Button-->
+            <div style="display: none; border: 0px #FFF;" id="save-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Save Post</strong></span>
+                <button id="save-button" type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#save-post">SAVE</button>
+              </li>  
+            </div> 
+            <!--End Save Post Button-->
+
+            <!--Begin Commit Post Button-->
+            <div style="display: none; border: 0px #FFF;" id="commit-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Commit Post</strong></span>
+                <button id="commit-button" type="button" class="btn btn-danger btn-sm" onclick="commitPost();">COMMIT</button>
+              </li>  
+            </div> 
+            <!--End Commit Post Button--> 
+
+            
+            
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Published</span>
+              <time datetime="2023-11-12">2023-11-12</time>
+            </li>
+
+               
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Author</span>
+              <span class="badge bg-success-subtle text-success"></span>
+            </li>                     
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="api-evangelist-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>API Evangelist Services</strong>
+                <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40qNzTt" target="_blank" id="api-evangelist-service-1">Do you know where all of your APIs are?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40nVDnW" target="_blank" id="api-evangelist-service-2">Do you have a source of truth for your schema?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callService(){
+
+                console.log("Calling API Evangelist Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/api-evangelist/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>API Evangelist Services</strong><div onclick="location.href=' + "'" + 'https://services.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="api-evangelist-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="api-evangelist-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("api-evangelist-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotateService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotateService(){
+
+                console.log("Rotating API Evangelist Service!");
+
+                document.getElementById("api-evangelist-service-1").className = "blink_me";
+                document.getElementById("api-evangelist-service-2").className = "blink_me";
+
+                setTimeout(function() { callService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotateService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+    <br>
+    <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="partner-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>Partner Services</strong>
+                      <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/4fpe6FO" target="_blank" id="partner-service-1">Do you need an open source replacement for Postman?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/4fpe6FO" target="_blank" id="partner-service-2">Need an open source API client?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callPartnerService(){
+
+                console.log("Calling Partner Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/partners/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>Partner Services</strong><div onclick="location.href=' + "'" + 'https://partners.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="partner-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="partner-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("partner-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotatePartnerService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotatePartnerService(){
+
+                console.log("Rotating Partner Service!");
+
+                document.getElementById("partner-service-1").className = "blink_me";
+                document.getElementById("partner-service-2").className = "blink_me";
+
+                setTimeout(function() { callPartnerService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotatePartnerService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+
+  </div>
+
+  <div class="col-12 col-xxl-8 order-xxl-0">
+
+    <section>
+      <div class="row">
+        <div class="col">
+  
+          <!-- Heading -->
+          
+          <h3 class="fs-3 mb-5" id="post-name-header" style="text-align: center;">Where Is This API Gateway Thing Going?</h3>
+          <center><img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-gatew-into-field.jpg" width="95%" align="center" style="padding: 15px;" id="post-image-header"></center>      
+          <!-- Text -->
+          <p id="post-description-paragraph"><p>According to Gartner, the full lifecycle API management quadrant is going away, but acknowledges in 2023 the API gateway continues to enjoy an outsized amount of focus when it comes to internal and public API operations. The gateway is important, and tends to be where attention is focused in good times and bad, but other stops along the API life cycle are also critical to the conversation as well, and I’m looking to understand more about why, while trying to understand where things might be going.</p>
+
+<p>Closing my eyes and looking back at the last 15 years of API gateways feels a lot like standing in the middle of Times Square in New York City with all the billboards flashing at you, characters working to get your attention, and an enormous amount of traffic heading north, south, east, and west. Sometimes I feel like I have a handle on where we are when it comes to the API gateway, and how we got here, but other times I feel like I am drowning in vendor and analyst narratives. I wanted to refresh my memories of all of the API gateway narrative from this century and see if I can’t make some predictions about where things are going.</p>
+
+<p>At first glance I would say we are in the fourth generation of API gateway evolution this century, with three distinct geological layers of API gateway infrastructure and belief systems, and a mix of opportunity and baggage shaping where things might go. Along the way I feel like we’ve accumulated a wealth of API gateway capabilities, but it is the wider ecosystem that has emerged around API gateways that has generated most of the wealth in my opinion–the gateway just gets credit for it. Let’s roll things back to the year 2000 and start this journey, walking though how we got here, and do some speculation on where things might be headed.</p>
+
+<h2 id="the-service-oriented-architecture-soa-dinosaur-age">The Service-Oriented Architecture (SOA) Dinosaur Age</h2>
+<p>Our grandfather’s APIs were known as Web Services, and they used XML for messaging, provided XSD for a schema, as well as a WSDL for discovery. Honestly the SOA age was better planned than this sprawling API landscape we are drowning in today, but this fact also contributed to it falling out of favor. SOA was too much. Too complex. Service Oriented Architecture, or simply SOA was master planned from the top down, and along the way we saw enterprise-grade gateways emerge specializing in general or industry specific web service implementations for the enterprise, setting the stage for the API gateway we depend on today.</p>
+
+<p>Web service gateway were early proprietary web servers deployed as SOA appliances within the enterprise for internal and partner access. I would say that the real differences between API gateways today and web services of this era was really about the number of features, and awareness of the web. SOA was a legitimate attempt at solving the problem at scale, but we’d learn over the next twenty years that it takes a much looser and scrappier approach to our services. SOA is still in operation within many enterprises, and won’t likely go anywhere soon, but the API gateway has gone through several iterations since then, which I will explore in more detail below.</p>
+
+<h2 id="evolving-from-soa-to-the-api-gateway">Evolving From SOA to the API Gateway</h2>
+<p>I will showcase additional API gateways below, but I wanted to start this journey focusing on the three companies I feel rose to the head of the pack when it came to market share and mind share within the enterprise. Like SOA these API gateways were a top down affair, with enterprise IT leadership making the decision to implement, and developers often left out of the discussion.</p>
+
+<ul>
+  <li><strong>MuleSoft</strong> - Dominating the discussion through a strong sales legacy that landed AnyPoint into the enterprise, and leading to an acquisition by Salesforce.</li>
+  <li><strong>Axway</strong> - Axway isn’t a leader, but has managed to keep pace while still innovating, bridging the SOA realm to the API realm in some progressive ways.</li>
+  <li><strong>Apigee</strong> - Apigee ended up a Google acquisition after IPO’ing, but has definitely taken a strong second place after Mulesoft when it came to API industry mindshare..</li>
+</ul>
+
+<p>I’d say that when I go into most enterprises I am seeing Mulesoft or Apigee as legacy cornerstone API gateway. I’d say that I’ve seen the most innovation around Apigee, with additional abstract layers on top to weave it into platform operations. I am sure plenty of people will snicker at my decision to place these first, but from my vantage point they led the pack when it came to getting the attention of the enterprise from 2010 through 2020.</p>
+
+<h2 id="baking-api-gateways-into-the-cloud">Baking API Gateways Into the Cloud</h2>
+<p>Mulesoft, Axway, and Apigee definitely led the conversation when it came to the evolution of the API gateway, but I’d say that the cloudification of the API gateway was the moment where I knew all of this was serious business. Microsoft had acquired Apiphany and got to work on their Azure solution(s), and Google acquired Apigee as they also invested in their own solution, and Amazon did it the Amazon way and delivered the AWS API Gateway.</p>
+
+<ul>
+  <li><strong>Amazon Gateway</strong> - AWS offers HTTP and Websocket capabilities across their regions.</li>
+  <li><strong>Azure API Management</strong> - Weaving their API management acquisition into their CI/CD flows.</li>
+  <li><strong>Google (Apigee)</strong> - Shaping their enterprise offering to behave like something you use in the cloud.</li>
+</ul>
+
+<p>I’d say that Apigee’s offering is the most industrial grade API gateway solution baked into the cloud, but they all reflect a seismic shift in the API management landscape. The gateway was now a commodity. This moment was when we started to see API management fracture and begin to expand into a buffet of services like portals, documentation, SDKs, mocks, testing, and other essential API services. Baking APIs into the cloud made the API gateway another one of the essential commodities in the toolbox alongside storage, compute, and database.</p>
+
+<h2 id="the-api-gateway-status-quo">The API Gateway Status Quo</h2>
+<p>As the wheels of the capitalist machine consumed the API gateway and baked into the clouds, we saw enterprise teams begin their microservices journey, and mainstream business began waking up to the API-first transformation; a new, much smaller version of the API gateway emerged to provide developers with what they needed on the ground within the enterprise. The older guard of API gateway providers were heavily focused on public APIs, while the real need within the enterprise for the exploding world of microservices were addressed through a handful of much smaller API gateways.</p>
+
+<ul>
+  <li><strong>Kong</strong> - The poster child for the modern API gateway movement, providing the open-source solution teams are needing, which is something Kong is working hard to monetize.</li>
+  <li><strong>Tyk</strong> - This was the first new modern API gateway that was developed from the ground up, providing exactly what teams were needing on the ground in a performance package.</li>
+  <li><strong>NGINX</strong> - While not a first-class API gateway, I see NGINX deploy and cobbled together in ways that end up doing a lot of the work that a gateway does, making it something to tune into.</li>
+</ul>
+
+<p>These gateways have worked to meet the needs of developers who were ignored while enterprise leadership made their purchasing decisions with the older guard of API management solutions, meeting the specific needs you have when publishing internal APIs while avoiding the bloatware that came with listening to API management vendors. These vendors capitalized on the commodification of the API gateway, and made something that was small, but worked in a distributed and potentially federated way.</p>
+
+<h2 id="reflections-at-where-this-might-go">Reflections At Where This Might Go</h2>
+<p>I suck at predicting the future, but after looking through all of the API gateways out there, you begin to get a glimpse at several possible futures. I really do not know what the markets will ultimately find interesting, but when it comes to what I find interesting, these API gateways offer what I think should be next. While I think the legacy providers will continue to shape the enterprise, and the cloud, as well as Tyk and Kong will keep defining the conversation, I think these providers are worth looking at to understand what it is we should be investing in next across our  API operations.</p>
+
+<ul>
+  <li><strong>Cloudflare</strong> - I like Cloudflare’s approach to DNS, and I think their vision of an API that is baked into the fabric of the web, making our APIs programmable at the edge is a very compelling future.</li>
+  <li><strong>Easegress</strong> - Kubernetes is definitely a trend across API gateway deployment, Easegress looks to be investing heavily in the intersection of Kubernetes and service mesh to get things done.</li>
+  <li><strong>EnRoute</strong> - EnRoute looks to be operating at the intersection of Kubernetes and cloud-native, building on the momentum of the API gateway being baked into the fabric of the cloud.</li>
+  <li><strong>Envoy</strong> - Another bedrock Kubernetes based API gateway that has grown in popularity over recent years, their expressive, extensible, and role-oriented APIs paint another potential future.</li>
+  <li><strong>Gravitee</strong> - I found Gravitee’s event-driven, visual approach to the API gateway to offer a future that I think will match the pace of industry, while making it accessible to business stakeholders.</li>
+  <li><strong>KrakenD</strong> - Emulating what I think is similar to Tyk, KrakenD has focused on a complete rewrite of the API gateway to focus on permanence, helping enterprise organizations deal with APIs at scale.</li>
+  <li><strong>Kusk</strong> - Offering a declarative OpenAPI vision merged with Kubernetes to help shape how we approach delivering and managing our APIs using a common API contract as the configuration.</li>
+  <li><strong>Reactive Interaction Gateway</strong> - This approach is building on the momentum of the microservices shift in the API gateway landscape, keeping things  modular, reusable, and distributed.</li>
+  <li><strong>Solo</strong> - LIked Easegress, Solo is all about the Kubernetes powered service mesh vision of how we can deal with API sprawl at scale, helping us orchestrate the API vision we want to see.</li>
+  <li><strong>webMethods</strong> - I found the multi-cloud approach of webMethods worth noting, acknowledging that we don’t want everything across all clouds, but operating something across all clouds is a future many experience today.</li>
+  <li><strong>Zuplo</strong> - I really like the programmable GitOps approach Zuplo takes to delivering APIs at the edge, making our API infrastructure the modular, reusable, and federated landscape we need.</li>
+</ul>
+
+<p>This is where I am getting my inspiration for what the future may hold, but I want to make sure and refresh my memory regarding bedrock API gateway features across everybody in the space. I didn’t just cherry pick the API gateways I was familiar with, I looked at all the gateways to help develop an awareness regarding which features were the most fundamental features, as well as the leading edge capabilities to be delivered by these leaders.</p>
+
+<h2 id="honorable-api-gateway-mentions">Honorable API Gateway Mentions</h2>
+<p>The remaining gateways I looked at size up with others when it comes to many of the core features, but I am also considering the overall mindshare as well as market share. For me, the story is what matters the most, and the features you offer are second, but I want to make sure I listed all of the providers I looked at.</p>
+
+<center><span style="font-size: 14px; font-weight: bold; font-style: italic; text-align: center;">Akana, Ambassador Emissary-Ingress, Apinizer, APISIX, App42, IBM API Connect, Nevatech, Oracle, Sensedia, SnapLogic, Spring Cloud, Tibco, WSO2, 3Scale, API Umbrella, Boomi, Broadcom Layer7, Fiorano</span></center>
+
+<p>I considered bumping up Spring Cloud into my stack due to the ubiquitous nature of Java, and it is sad to put some solutions I’ve worked with in the past here, but ultimately I don’t see anything too innovative here, or at least innovation that isn’t seeing much adoption—maybe my mind will change over time, but for now, I don’t have time to look to closely here.</p>
+
+<h2 id="the-core-api-gateway-capabilities">The Core API Gateway Capabilities</h2>
+<p>Across the almost forty API gateways I spent time aggregating all of the features I came across, to help me see what capabilities across all providers. I learned a lot doing it, and was able to better understand the space better, but also standardize how I see things. I think we all have slightly different definitions of what an API gateway does. Depending on your view of things, experience in the space, and role in the API lifecycle, you will see all of these areas differently.</p>
+
+<h3 id="security">Security</h3>
+<p>This is the top thing I think business leadership thinks an API gateway does, keeping our digital resources safe at scale, using a mix of policies that help secure the enterprise internally and externally across applications and integrations–providing a pretty standardized spectrum of security policies.</p>
+
+<center><span style="font-size: 14px; font-weight: bold; font-style: italic; text-align: center;">Auth0, AWS Cognito, Access, Access Control Lists (ACL), Audit Logs, Auth Z, Auth N, Auth0, Authentication Providers, Automatic HTTPS, AWS Cognito, AWS IAM, Basic Authentication, Certificate Signing Request (CSR), Certificates, Cross-Origin Resource Sharing (CORS), JWT, Keys, Mutual TLS, OAuth 1.0, OAuth 2.0, Roles</span></center>
+
+<p>This is an area you see Open Policy Agent (OPA) emerge as a way of defining policy, which I think will have to occur across all of these areas. We are going to need to standardize and harden the security at the API gateway layer across protocols, as well as the increasingly sprawling enterprise API landscape.</p>
+
+<h3 id="traffic">Traffic</h3>
+<p>This is the second area people tend to respond when I ask them what an API gateway does for the enterprise, with most of these areas satisfying the technical needs across teams. I’d say that this area tends to provide the most business value, but provides engineering teams with the knobs and levers they need to dial everything in at scale.</p>
+
+<center><span style="font-size: 14px; font-weight: bold; font-style: italic; text-align: center;">Circuit Breaker, Clusters, Compression, Conditional Routing, Content-Based Routing, DNS, Dynamic Routing, Edge, Egress Controller, Failover, Forwarders, Global Rate Limiting, Header-based routing, Health Checks, Ingress Controller, Load Balancer Routing, Paths, Per-User Rate Limiting, Plans, Post Processing, Pre Processing, Proxy, Quota Reset, Quotas, Rate Limits, Regions, Request Size Limiting, Request Validation, Response Types, Reverse Proxy, Routes, Service Mesh, Session Persistence, Telemetry, Throttling, Timeouts, Tracing</span></center>
+
+<p>The API gateway is the freeway interchange of the digital landscape. Managing traffic consistently at scale will continue to be one of the top challenges for enterprise organizations as they continue to add applications, integrations, and need automation to get business done. This area will keep the API gateway a power center when it comes to translating digital into business value for some time to come.</p>
+
+<h3 id="mediation">Mediation</h3>
+<p>Next, organizations are needing to mediate the flow of information inside and outside the firewall using the API gateway, without getting in the way of business. Mediation capabilities have the potential to make API gateways a bottleneck, but also make it the value generation center when done well in a consistent manner across all APIs, employing a policy-driven approach to mediating API traffic.</p>
+
+<center><span style="font-size: 14px; font-weight: bold; font-style: italic; text-align: center;">Audit Logs, Caching, Context Persistence, Cross-Origin Resource Sharing (CORS), Custom Exception Handling, Custom Request Filters, Custom Resource Definitions (CRDs), Custom Resources, Declarative Policy Engine, Edge Policy Console, gZip, Hot-Update, Ingress Controller, JSON Validation, Message Inspection, Monetization Limits, Redaction, Regex Filters, Request Size Limit, Request Termination, Request Validation, Response Status Codes, Response Templates, Retries, SOAP Validation</span></center>
+
+<p>As the need to govern and regulate API traffic grows inside and outside the enterprise, mediation is going to play a huge role in ensuring government and enterprises are able to maintain control over what is happening. The API gateway will continue to expand its power when it comes to the increased scrutiny of platforms, AI, and other digital aspects of how business gets done.</p>
+
+<h3 id="transformation">Transformation</h3>
+<p>Transforming all or part or part of an API message is common practice. At a minimum, shifting the headers is essential, but transforming the structure and content is also a common occurrence. I don’t think that the enterprise will be able to “digitally transform” as fast as they need to keep pace, but I think that API gateways will help incrementally transform us at scale.</p>
+
+<center><span style="font-size: 14px; font-weight: bold; font-style: italic; text-align: center;">GraphQL to REST, REST to GraphQL, Mapping Templates, JSON to CSV, CSV to JSON, Request Transformation, Response Transformation, SOAP to REST, XML to JSON, XSL Transformations</span></center>
+
+<p>I could see a gateway that specializes in just transforming API payloads to and from common formats, not just XML, JSON, CSV, and YAML, but other platforms, industry standards, and other needs. Understanding the technical and business details of transformation at the API gateway level is  something I predict will continue to grow as a way to manage the chaos and sprawl.</p>
+
+<h3 id="virtualization">Virtualization</h3>
+<p>I am fascinated why the mocking of APIs isn’t more of a default  mode of gateways. It seems like API gateways should support design-first out of the gate and make it easy to virtualize based upon an API contract or on traffic. I did find evidence of it across many of the gateways I looked at, but it isn’t a core part of the API lifecycle as I would have hoped.</p>
+
+<center><span style="font-size: 14px; font-weight: bold; font-style: italic; text-align: center;">Static Mocking, Dynamic Mocking Data Virtualization</span></center>
+
+<p>I really wish that someone would do a gateway that focused exclusively on streamlining the development of new APIs, and mocking would provide an important element of this. I think if we are going to get more developers to see the benefits of design-first, we are going to have to make it as easy as possible, and generate rich  mocked experiences all along the way.</p>
+
+<h2 id="change-management">Change Management</h2>
+<p>Managing change should be one of the top capabilities of any API gateway, yet it is still difficult to effectively manage change at scale across APIs. Every change should be clearly documented, well-versioned, and communicated by default. There are a handful of change related capabilities I noted in my review of API gateways, but not as many as there should be.</p>
+
+<p>Breaking Changes, Diff, Versioning, Canary Releases, Stages, Rollback
+You shouldn’t be able to introduce breaking changes via an API gateway. I just don’t get this one. I know many have focused on vertical scale, where others invested in horizontally and distributed scaling, but I’d like to learn about the providers who abstracted away the friction created when adding, updating, and deprecating our APIs.</p>
+
+<h3 id="code-execution">Code Execution</h3>
+<p>I am not a fan of gateways doing too much, they should do the core things well, and maybe specialize in one or two areas, but I am a fan of the ability to extend the gateway with custom code, scripts, and automation. I think that without the right guard rails custom code can become a liability, but when done well, it is definitely an asset.</p>
+
+<center><span style="font-size: 14px; font-weight: bold; font-style: italic; text-align: center;">Go, Java, JavaScript, Lua, Martian DSL, Node.js, Python,TypeScript, WASM</span></center>
+
+<p>I think NGINX owes its inclusion here due to its versatility, in which its customizability plays a role. I’d say I am most interested in WASM at this layer. Think of the possibilities when it gets fully backed into not just the API gateway, but a future where the API gateway is at the edge like what CloudFlare and Zuplo are doing.</p>
+
+<p>I feel like security, traffic, mediation, transformation, virtualization, change management, and extensibility are the core of what a modern API gateway should do. It is the baseline. There should be standard definitions, policies, and content to support interoperability in all of these areas across different API vendors, both open source and commercial.</p>
+
+<h2 id="the-platform-api-gateway-capabilities">The Platform API Gateway Capabilities</h2>
+<p>Next up are all of the capabilities that have been historically bundled with API gateways to sell the last decades worth of API management and Full API Lifecycle Management (FLAPIM) solutions, and are now apparently being “unbundled”. While they were confusingly bundled historically, once the commoditization of core capabilities began happening this list of capabilities began being spun off as startups, and stand-alone open-source solutions catering to API producers looking to manage their operations.</p>
+
+<center><span style="font-size: 14px; font-weight: bold; font-style: italic; text-align: center;">Accounts, Activity, Alerts, Analytics, Application Performance Management (APM), Applications, Automation, Catalogs, Dashboards, Design, Developers, Discovery, DNS, Documentation, Domains, Environments, Extensions, Gateways, Governance, Licensing, Logging, Mocking, Models, Monetization, Monitoring, Networking, Observability, Performance, Policies, Portals, Products, Projects, Reports, Repositories, Roles, SDKs, Search, Serverless, Specifications, Standards, Teams, Templates, Testing, Threat Protection, Tracing, Workspaces</span></center>
+
+<p>These capabilities exist within varying orbits of the gateway but aren’t critical to be in the run time, despite what many legacy API gateways will sell you. While they are bundled by API management providers, they can just as easily be done as add-ons, sidecars, plugins, or external API-driven platform capabilities. Each of these areas should have its own orbit and relationship with the API runtime, and should be adjacent or separate from the API gateway, but stitched together as part of a coherent API lifecycle.</p>
+
+<h2 id="employing-api-contracts">Employing API Contracts</h2>
+<p>One of the most defining characteristics of next-generation or at least progressive gateways is the way that they have adopted API contracts. The API service providers who are not very far along in their own API journey are using OpenAPI to simply publish documentation or power other platform capabilities. While other service providers have seen the power of API contracts as a configuration for the runtime, but also policy generation and enforcement in real time.</p>
+
+<center><span style="font-size: 14px; font-weight: bold; font-style: italic; text-align: center;">OpenAPI, AsyncAPI, JSON Schema, Protocol Buffers, Avro, Thrift, Spectral, Open Policy Agent (OPA), Extensions</span></center>
+
+<p>For me this layer is separate from any specific platform capability as well as the programmability of the gateway. API contracts are more about providing a declarative interface for each API, covering not just the design of the API, but also all of the policies and configuration of the gateway, shaping both upstream and downstream behavior.  Contracts are how we are going to map, iterate, and evolve the sprawling API landscape at scale across the enterprise, and the industries they operate in.</p>
+
+<h2 id="the-upstream-protocols">The Upstream Protocols</h2>
+<p>When you use AWS, Azure, or Google cloud API gateways you end up with a wealth of backend services at your disposal, but commercial and open-source vendors tend to focus on these protocols to wire up the backend of their gateways to their operations.</p>
+
+<center><span style="font-size: 14px; font-weight: bold; font-style: italic; text-align: center;">AMQP, AWS Lambda, Database, ERP, FTP, GraphQL, gRPC, HTTP 1.1, HTTP Long-Polling, HTTP/2, HTTP/3, IMAP, JMS, Kafka, MQTT, NATS, POP3, RabbitMQ, Server-Sent Events (SSE), SMTP, SOAP, TCP, UDP, WebSockets</span></center>
+
+<p>These protocols represent the ways that enterprises are wiring up their internal systems to move digital resources around and execute the capabilities needed to do business. W/hile there are many other integrations and connections to upstream resources, this reflects the baseline of what is in use today.</p>
+
+<h2 id="the-downstream-protocols">The Downstream Protocols</h2>
+<p>API gateways provide a number of common protocols for downstream API consumers to engage with enterprise digital resources and capabilities made available internally, with partners, and the public. While HTTP is definitely leading the conversation in implementations, the modern enterprise API landscape is increasingly multi-protocol.</p>
+
+<center><span style="font-size: 14px; font-weight: bold; font-style: italic; text-align: center;">AMQP, GraphQL, gRPC, HTTP 1.1, HTTP Long-Polling, JMS, Kafka, MQTT, NATS, RabbitMQ, Server-Sent Events (SSE), SOAP, TCP, UDP, WebSockets, HTTP/2, HTTP/3</span></center>
+
+<p>This is an area I predict a lot of investment by enterprise API platform teams and API service providers in coming years. We will see a load-balancing of internal and external APIs across these protocols, but the standardizing of policies across each of the protocols will become one of the most critical areas we will need to see investment.</p>
+
+<h2 id="api-gateway-extensibility">API Gateway Extensibility</h2>
+<p>Overlapping with the execution of code at the API gateway level, but with a focus on specific service instead of just code execution. I think that API gateways directly reaching out to existing cloud services as a capability, baking in an existing open-source solution, or going full plugin and add-on goes well beyond just code execution.</p>
+
+<center><span style="font-size: 14px; font-weight: bold; font-style: italic; text-align: center;">Add-Ons, Application Dynamics, Auth0, AWS Kinesis, AWS Lambda, Azure Event Hubs, CI/CD, Consul, Database, Datadog, Dynatrace, Etcd, Grafana, HTTP Callout, Istio, LinkerD, Plugins, Prometheus, Serverless, Service Mesh, Side-Car, WASM</span></center>
+
+<p>Some of these I should be grouping as part of platform capabilities above, but I think extensibility will need more consideration about how I group things versus how the API gateway providers I reviewed are grouping things. I am more about grouping things based upon the common view for the enterprise perspective, and not just the API service provider.</p>
+
+<h2 id="api-gateway-automation">API Gateway Automation</h2>
+<p>The adoption of API contracts overlaps with and enables the increasing automation of API gateways. With a well defined contract for the surface area of an API, and the lifecycle around them, you can import, export, continuously integrate and deploy your APIs, as well as the resources and capabilities your APIs enable.</p>
+
+<ul>
+  <li><strong>Import</strong> - You can import an API contract to override the definition of an API at any stage, introducing changes into the API runtime using one or many API contracts or artifacts.</li>
+  <li><strong>CI/CD</strong> - API gateways are often the center of the build process for APIs being deployed, but also the applications and integrations that are consuming APIs, automating with CI/CD.</li>
+  <li><strong>Publish</strong> - Just as with the import of API contracts, API gateways enable the publishing of all or part of an API contract, distributing and federating the API surface area wherever it is needed.</li>
+  <li><strong>Export</strong> - The exporting of API contracts from an API gateway allows for the backing up or maintaining of API contracts via external systems, expanding API operations where needed.</li>
+  <li><strong>API</strong> - Today’s API gateway has APIs. Automating the API lifecycle around your gateway using the API gateway API is how you do more with less, while ensuring operations are repeatable.</li>
+</ul>
+
+<p>Automating the API lifecycle around the API gateway is how the deployment and management of APIs is increasingly getting done. Gateways are getting baked into the software development lifecycle (SDLC) at enterprises, by building on existing CI/CD workflows, but also taking advantage of API contracts to make APIs more interoperable, but also using APIs to ensure our APIs are interoperable.</p>
+
+<h2 id="the-api-dimensions-that-really-matter">The API Dimensions That Really Matter</h2>
+<p>This look into API gateways, distilling down their capabilities and policies can be grouped into several relevant areas that I feel will be shaping the next generation of API operations. I see a number of specific areas that will shape how gateways are put to work across the enterprise, and determine how to scale, optimize, and govern within and outside the enterprise as part of the wider API economy.</p>
+
+<ul>
+  <li><strong>Contracts</strong> - Machine-readable contracts will shape the runtime, and will be how we maintain alignment across the API Lifecycle.</li>
+  <li><strong>Lifecycle</strong> - A platform approach to bridging the gateway across the lifecycle will be needed to go beyond what we know as API management.</li>
+  <li><strong>Multi-Protocol</strong> - HTTP has got us here and will take us into the future, but currently there are numerous protocols we need to support.</li>
+  <li><strong>Multi-Pattern</strong> - Supporting many different patterns, synchronous &amp; asynchronous, event-driven, and providing a diverse API toolbox.</li>
+  <li><strong>Multi-Vendor</strong> - It is common for enterprise organizations to have API gateways from multiple vendors, providing a mix of gateway solutions teams can use when securing APIs or managing access to digital resources and capabilities within a specific cloud.</li>
+  <li><strong>Multi-Gateway</strong> - As much as leadership would like to centralize the gateway, we are living in a multi-gateway reality, so deal with it.</li>
+  <li><strong>Multi-Cloud</strong> - A utopian multi-cloud reality doesn’t exist, but we will need to be able to function across almost any cloud available today.</li>
+  <li><strong>Local / On-Premise</strong> - Offering a developer that developers can use locally to do what they need, while keeping in alignment with staging, and producing through the SLDC.</li>
+  <li><strong>Edge</strong> - Delivering APIs, where they are needed to support different types of consumers, is rapidly shaping how we put API gateways to work.</li>
+  <li><strong>Regions</strong> - Overlapping with edge considerations, but specifically addressing regulatory and data sovereignty is a top consideration.</li>
+  <li><strong>Orchestration</strong> - Making to existing Kubernetes and containerization orchestrations appears to be a top approach for many operations.</li>
+  <li><strong>GitOps</strong> - Further mapping the gateway to the existing software development lifecycle and equipping teams is where things are at.</li>
+  <li><strong>Policies</strong> - Defining, standardizing, enabling, enforcing, and evolving upon policies is going to be the top way that API Operations are shaped.</li>
+  <li><strong>Centralization</strong> - Many enterprises have a single centralized gateway handling all traffic coming from outside the enterprise via a single entry point. That provides an industrial-grade way of handling traffic coming in and out of the enterprise.</li>
+  <li><strong>Federation</strong> - Enterprises will have to have a federation strategy when it comes to dealing with the API gateway across lines of business and teams.</li>
+  <li><strong>Observability</strong> - Going beyond availability and leveraging the rich operations data at runtime to inform and enable developers earlier in the life cycle.</li>
+  <li><strong>Programmability</strong> - Tomorrow’s gateway will have to be programmable to keep up with the pace of change that exists across our operations.</li>
+  <li><strong>APIs</strong> - If our gateways don’t have APIs we will find ourselves in the same place we were ten years ago with an API strategy for our applications.</li>
+  <li><strong>Plugins</strong> - The extensibility of gateways via plugins and extensions will augment gateway capabilities with what is needed by teams.</li>
+  <li><strong>Declarative</strong> - Other YAML and JSON configuration approaches will always exist outside of standards, requiring custom declaration to shape gateways and APIs.</li>
+</ul>
+
+<p>After setting out the core and platform capabilities I see across API gateway providers I feel like these areas are what really matter the most. I don’t see the number of APIs we are deploying slowing down anytime soon, and I think these are the dimensions where the space will expand, and help us increase the velocity of our API operations.</p>
+
+<h2 id="multi-gateway-governance--policy-management">Multi-Gateway Governance &amp; Policy Management</h2>
+<p>While many of these API gateway providers each speak their own dialects when it comes to the policies used to shape the core, platform, and other API gateway capabilities here, there are hints of standardization of policies, schema, and the words we use at this layer. Regardless of the realities of the moment across API providers, I am hopeful for a standardization in policy management across these areas.</p>
+
+<ul>
+  <li>**Caching ** - Providing a standard shape to what caching means across your APIs, helping automate and improve caching at the API gateway layer, improving overall performance.</li>
+  <li><strong>Cross-Origin Resource Sharing (CORS)</strong> - Ensuring that CORS is not an area of friction for teams producing APIs, or consumers putting them to work, establishing common policies.</li>
+  <li><strong>Keys</strong> - Having consistent way to issue, apply, and turnover keys across API consumption is how the security of APIs will be automated and scaled, while keeping easy to apply everywhere.</li>
+  <li><strong>OAuth</strong> - The OAuth standard should be automated in how it is applied across API contracts, and the consumers putting those APIs to work, leveraging well defined scopes for all API resources.</li>
+  <li><strong>Plans</strong> - The plans, packages, and features available for each API should be defined using a common set of policies that reflect the business objectives of the platform in near real-time.</li>
+  <li><strong>Rate Limits</strong> - The limitations placed upon consumers across all APIs should follow a common set of policies that reflect the technical, but also business constraints applied to operations.</li>
+  <li><strong>Paths</strong> - API policies are how we shape the aisles in our digital API stories, keeping everything organized and in its place, with sensible signage always available via consistent documentation.</li>
+  <li><strong>Models</strong> - Every digital bit that passes through the gateway should fit into a specific set of predefined policies that govern the shape of models applied across all APIs in production.</li>
+  <li><strong>Request Transformation</strong> - The transformation of API requests as they are received should be informed through a standard set of policies, rules, and schema that keep everything consistent.</li>
+  <li><strong>Request Validation</strong> - The shape of every request is known, and validation should occur frequently to help ensure the high quality of data is sent in applications and integrations.</li>
+  <li><strong>Request Size</strong> - The size of API requests should be well defined using a standard set of policies, helping the API gateway tame the scope of API requests being made across all APIs.</li>
+  <li><strong>Response Size</strong> - The size of API responses should be well defined using a standard set of policies, helping the API gateway keep API responses from taking up too many resources.</li>
+  <li><strong>Response Transformation</strong> - The transformation of API responses as they are sent should be informed through a standard set of policies, rules, and schema that keep everything consistent.</li>
+  <li><strong>Pagination</strong> - The pagination of larger data sets is standardized by establishing common policies that can be applied across teams to further shape API responses to optimize API consumption.</li>
+  <li><strong>Stages</strong> - Establishing a common set of development stages for APIs at the gateway level helps harden the technical and business aspects of APIs as they are deployed and iterated upon.</li>
+  <li><strong>Tags</strong> - Having a common vocabulary for tagging APIs, as well as apply to other elements of the API lifecycle, help improve discovery and organization of the API landscape via the gateway.</li>
+  <li>**Logging ** - Standardizing how we log APIs across teams using the gateway helps establish policies that govern the deployment, configuration, and use of logs generated across APIs.</li>
+  <li><strong>Tracing</strong> - Establishing policies that enable and guide tracing provides API producers and consumers with a standardized way to troubleshoot and support API consumers in new ways.</li>
+  <li><strong>Versioning</strong> - To get a handle on the change occurring across a gateway, the versioning of APIs and other artifacts across the API lifecycle will need a common set of policies to enforce.</li>
+</ul>
+
+<p>We are going to need a common vocabulary if we are going to expect to have a handle across these dimensions for hundreds, let alone thousands of APIs. How these areas are deployed, configured, and standardized across not just many APIs, but also many APIs using different protocols, patterns, vendors, and clouds. We need to keep standardizing our policies beginning with Open Policy Agent, Spectral, but also keep expanding the interoperability and reuse at this dimension.</p>
+
+<h2 id="the-top-api-gateway-differentiators">The Top API Gateway Differentiators</h2>
+<p>Gateways do a wide range of things. While the core gateway capabilities are fairly short, the list of policies and ways you can extend the legacy and modern gateway is quite expansive. However, there are a handful of areas that I feel really differentiate the next-generation gateways from what is the status quo. These are all of the things that differentiated the API gateway providers from each other, providing a list of things that grab my attention, but hopefully also point to some possible futures that we may want to live in..</p>
+
+<ul>
+  <li><strong>Top-Down</strong> - When an API gateway website and marketing materials speak to the C-Suite you know you are in for a different set of API capabilities that will shape what is possible.</li>
+  <li><strong>Bottom-Up</strong> - When an API gateway website speaks to developers, DevOps, and platform teams you can expect another set of capabilities, setting the table with a different set of capabilities.</li>
+  <li><strong>Multi-Cloud</strong> - The API gateway is baked into the cloud, but deploying and managing APIs across clouds without friction won’t matter to everyone, but to those who it does, this will shape decisions.</li>
+  <li><strong>Multi-Protocol</strong> - Standardizing APIs to just work across multiple protocols, standardizing when and how we use the common set of API protocols, making an impact on how a gateway is adopted.</li>
+  <li><strong>Multi-Pattern</strong> - REST, GraphQL, gRPC, and other common patterns are applied across multiple protocols, and the gateways are where these decisions are made to support different teams.</li>
+  <li><strong>Multi-Region</strong> - When it comes to data sovereignty, the API gateway will be the broker of where an API is produced and consumed, helping shape the API landscape based upon real borders.</li>
+  <li><strong>Edge</strong> - Like multi-region, but for more business needs, the API gateway will shape the enterprise landscape by pushing APIs closer to where consumers are, optimizing performance.</li>
+  <li><strong>Contracts</strong> - API contracts are how transactions are defined in the API economy and are how enterprises will standardize how they do business across thousands of unique digital resources.</li>
+  <li><strong>Policies</strong> - Standardizing how we express and enforce policies across every API, no matter what protocol or pattern is employed, or gateway deployed will be essential to the future of APis.</li>
+  <li><strong>Federation</strong> - The ability to federate APIs across different gateways defined by region, domain, or other bounded context in consistent ways using the same policies will be crucial to doing APIs.</li>
+  <li><strong>GitOps</strong> - The API lifecycle is an expanding layer of the software development lifecycle and Git is how APIs are being continuously integrated with business and deployed to support applications.</li>
+  <li><strong>Local / On-Premise</strong> - The API gateway needs to be where it is needed, and being able to have the API gateway be on-premise and locally available is just an essential aspect of operations.</li>
+  <li><strong>Programmability</strong> - Our APIs need to be programmable just like our applications, and the digital resources and capabilities offered by our API operations will shape all of our  digital experiences.</li>
+  <li><strong>Extensibility</strong> - Wiring up our API gateways to other services and easily extending the capabilities of what they offer will continue to define how enterprises are building their API platforms.</li>
+  <li><strong>Observability</strong> - Our API gateways have to be as observable as any physical factory or warehouse, making this an important way that API gateway providers will obtain mindshare.</li>
+  <li><strong>Products</strong> - As APIs shift from being a technical building block to something that business is playing an active role in, the product-centered nature of an API gateway will matter a whole lot.</li>
+  <li><strong>Experience</strong> - Using an API gateway should reflect a desirable experience for teams who are producing an API, empowering them to do more, leaving them to focus on the value they bring to the table.</li>
+</ul>
+
+<p>These are the areas that stand out from the leading and forward-thinking API gateways on the market today. These capabilities reflect the modern gateway slowly being woven into the fabric of the cloud, and more recently the web, ensuring core gateway capabilities are available where they are needed bottom-up by developers while meeting the needs of architects, security, operations, and other top-down stakeholders.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Tomorrow’s gateway must help load balance the API infrastructure sprawl resulting from a mix of bottoms-up and top-down investment at the gateway layer. We need to embrace the chaotic landscape that exists today, enabling developers to do what they need to do when they need it without friction while adhering to the policies defined top-down by business and technical leadership.</p>
+
+<p>The next generation needs to be contract and policy shaped while seamlessly weaving into developers’ existing workflow, allowing them to rapidly deliver APIs locally, within any cloud, and at the edge using their existing source control and CI/CD pipelines. A modern API gateway will ensure all APIs are observable and properly governed by default, without requiring developers to do additional work.</p>
+
+<p>Tomorrow’s API gateway is seamless, extensible, and programmable. It is just there and part of the existing developer toolbox, the infrastructure we are already using, and part of the web we all already depend on. In tomorrow’s API landscape there will be no drift between the design and development of each API and what is present in production, leveraging contracts and policies to deliver consistency at higher velocities without breaking changes.</p>
+
+<p>A modern API gateway will need to be the bridge between business and engineering with a native product centered experience that closes the divide that has existed for decades with the help of a platform team. Today’s APIs are a perpetual negotiation between product and engineering that is facilitated by a platform team, which is all iterated upon with consumers stakeholders in the loop–the API gateway is central to this motion.</p>
+
+<p>I know better than to think the API space is going to listen to my predictions, and while the gateway will continue to be the center of the discussion, the API gateway of the future has to exist with a small federated footprint that is programmable and extensible. This gateway has to meet the needs of the product and engineering teams who depend on them, and like APIs, respond and evolve with whatever is happening next–like we are seeing emerge with Artificial Intelligence.</p>
+</p>
+  
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="col">
+          <style>
+            ul.cloud {
+              list-style: none;
+              padding-left: 0;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              line-height: 1.5rem;
+            }
+            ul.cloud a {
+              color: #a33;
+              display: block;
+              font-size: 1.5rem;
+              padding: 0.125rem 0.25rem;
+              text-decoration: none;
+              position: relative;
+              opacity: calc((15 - (9 - var(--size))) / 15); 
+            }
+
+            ul.cloud a[data-weight="1"] { --size: 1; }
+            ul.cloud a[data-weight="2"] { --size: 2; }
+            ul.cloud a[data-weight="3"] { --size: 3; }
+            ul.cloud a[data-weight="4"] { --size: 4; }
+            ul.cloud a[data-weight="5"] { --size: 5; }
+            ul.cloud a[data-weight="6"] { --size: 6; }
+            ul.cloud a[data-weight="7"] { --size: 7; }
+            ul.cloud a[data-weight="8"] { --size: 8; }
+            ul.cloud a[data-weight="9"] { --size: 9; }
+
+            ul.cloud li:nth-child(2n+1) a { --color: #181; }
+            ul.cloud li:nth-child(3n+1) a { --color: #33a; }
+            ul.cloud li:nth-child(4n+1) a { --color: #c38; }
+          </style>
+
+          <ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+              
+              <li><a data-weight="4" href="/search/?search=Gateway&searchFields=tags" style="text-decoration: underline;">#Gateway</a></li>
+              
+              <li><a data-weight="4" href="/search/?search=Management&searchFields=tags" style="text-decoration: underline;">#Management</a></li>
+              
+              <li><a data-weight="4" href="/search/?search=Governance&searchFields=tags" style="text-decoration: underline;">#Governance</a></li>
+               
+          </ul>    
+        </div>
+      </div>
+    </section>    
+
+    <!-- Begin Post Editor -->
+    <section class="mb-8">   
+      
+      <script>
+        var require = { paths: { vs: '/assets/js/monaco-editor/min/vs' } };
+      </script>
+      <script src="/assets/js/monaco-editor/min/vs/loader.js"></script>
+      <script src="/assets/js/monaco-editor/min/vs/editor/editor.main.js"></script>          
+
+      <div class="accordion" id="postEditorBox">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#postEditorWrapper" aria-expanded="true" aria-controls="postEditorWrapper">
+              Editor
+            </button>
+          </h2>
+          <div id="postEditorWrapper" class="accordion-collapse collapse show" data-bs-parent="#postEditorBox">
+            <div class="accordion-body">
+
+            <!-- Post Editor Listing -->
+            <a name="monaco"></a>
+            <div id="post-editor" style="width: 100%; height: 450px; margin: 10px;"></div>
+            <script>
+              var PostEditor = monaco.editor.create(document.getElementById('post-editor'), {
+                value: [''].join('\n'),
+                language: 'markdown',
+                options:{
+                      wordWrap: "on",
+                    }       
+              });
+
+              PostEditor.updateOptions({ wordWrap: "on" })
+              PostEditor.getModel().onDidChangeContent((event) => {
+                if(event.isFlush){
+                  // Setting up
+                }
+                else{
+                  savePostLocal(); 
+                }
+              });        
+            </script>  
+            <!-- Post Properties Listing -->
+
+          </div>
+        </div>
+      </div>
+      </div>         
+    
+    </section>   
+    <!-- End Post Editor -->         
+
+  </div>
+</div>
+
+<script>  
+ 
+  document.getElementById("postEditorWrapper").classList.remove('show');
+
+  function getPost(){
+
+    const options = {
+        method: 'GET'
+    };  
+    fetch('https://posts-api.apievangelist.com/posts' + postId,options)
+        .then(function(response) {
+            if (!response.ok) {
+                console.log('Error with Status Code: ' + response.status);
+            }
+            response.json().then(function(response) {               
+
+              var post = response.data.post;
+              //post = post.replace(">-","");
+              post = post.trim();
+              var converter = new showdown.Converter(),
+              body_html = converter.makeHtml(response.data.body);
+              
+              document.getElementById("post-name-header").innerHTML = response.data.title;
+              document.getElementById("post-image-header").src = response.data.image;
+              //document.getElementById("post-description-paragraph").innerHTML = body_html;
+            
+              PostEditor.setValue(post);
+
+              // Any changes?
+              if(response.data.changes == 1){
+                document.getElementById("commit-banner").style.display = '';
+                document.getElementById("commit-button-wrapper").style.display = '';             
+              }              
+
+
+            });
+          })
+          .catch(function(err) {
+              console.log('Error: ' + err);
+      });  
+  }
+
+
+  getPost();
+  
+  // Edit Post Modal Save
+  function savePostLocal(){
+  
+    var post_yaml = PostEditor.getValue();
+    var post = jsyaml.load(post_yaml);
+  
+    var postName = post.name
+    var postDescription = post.description;
+
+    // Update Post
+    document.getElementById("post-name-header").innerHTML = postName;
+    document.getElementById("post-description-paragraph").innerHTML = postDescription;
+    
+    //post_yaml = jsyaml.dump(post);  
+    //PostEditor.setValue(post_yaml);  
+  
+    document.getElementById("save-banner").style.display = '';
+    document.getElementById("save-button-wrapper").style.display = '';
+  
+    document.getElementById("commit-banner").style.display = 'none';
+    document.getElementById("commit-button-wrapper").style.display = 'none'; 
+  
+  }
+  
+  function savePost(){
+
+    var organization = "api-evangelist";
+  
+    if(Cookies.get('access_token')){
+
+      var changes_name = document.getElementById("post-changes-name").value;
+      var changes_description = document.getElementById("post-changes-description").value;
+    
+      var post_yaml = PostEditor.getValue();
+      var post_json = jsyaml.load(post_yaml);    
+    
+      const options = {
+        method: 'put',
+        headers: {
+            "Content-Type": "application/json"                 
+        },    
+        body: JSON.stringify(post_json)
+      };
+      var github_url = 'https://posts-api.apievangelist.com/posts/' + postId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
+      //console.log(github_url);
+      fetch(github_url, options)
+        .then(function (response) {
+          if (!response.ok) {
+            document.getElementById("error-banner").style.display = '';
+            document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
+          }
+          response.json().then(function (response) {
+            //savePost();    
+          });
+        })
+        .catch(function (err) {
+          console.log('Error: ' + err);
+        });
+  
+      document.getElementById("save-banner").style.display = 'none';
+      document.getElementById("save-button-wrapper").style.display = 'none';    
+  
+      document.getElementById("commit-banner").style.display = '';
+      document.getElementById("commit-button-wrapper").style.display = '';   
+  
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
+    }
+
+  }
+
+function commitPost(){
+  
+  var organization = "api-evangelist";
+
+  if(Cookies.get('access_token')){
+
+    const options = {
+      method: 'put',
+      headers: {
+          "Content-Type": "application/json"                 
+      }
+    };
+
+    var github_url = 'https://posts-api.apievangelist.com/posts/' + postId + '/commit?organization=' + organization;
+    console.log(github_url);
+    fetch(github_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          document.getElementById("error-banner").style.display = '';
+          document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
+        }
+        response.json().then(function (response) {
+          if(response.data.file){
+            commitPost();
+          }
+          else{
+            document.getElementById("commit-banner").style.display = 'none';
+            document.getElementById("commit-button-wrapper").style.display = 'none';  
+          }         
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
+      });
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
+    }      
+
+}
+  </script>
+
+    </div>
+  </main>
+
+  <!-- Vendor JS -->
+  <script src="/assets/js/vendor.bundle.js"></script>
+
+  <!-- Theme JS -->
+  <script src="/assets/js/theme.bundle.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "stoa",
+  "version": "0.0.0",
+  "description": "Application state store enforcing unidirectional data flow",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samag/stoa.git"
+  },
+  "keywords": [
+    "state",
+    "store",
+    "unidirectional data flow",
+    "immutable",
+    "flux",
+    "redux"
+  ],
+  "author": "samag <sam.maguera@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samag/stoa/issues"
+  },
+  "homepage": "https://github.com/samag/stoa#readme"
+}
