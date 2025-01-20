@@ -56,9 +56,8 @@
 - name: APIs
   nav:
 
-    - name: Contracts
-      symbol: contract
-      href: https://contracts.apievangelist.com
+    - name: Explore
+      symbol: api
       sub:
 
         - name: API Providers
