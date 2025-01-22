@@ -9,7 +9,7 @@ tags:
   - APIs.json
   - Products
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-sailboat-under-bay-bridge.jpeg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-big-seven.jpeg
 ---
 With the introduction of HTTP APIs into the enterprise, the concept of a schema has escaped from the world of databases, requiring more awareness and engagement across business stakeholders. Schema does for API operations what forms do for business operations. Schema allows for humans to get on the same page when it comes to something as simple as an address, or as complex as registration for a conference. Schema helps align business and engineering stakeholders, ensuring that the requirements provided by business are codified into API operations in a way that can be consistently validated throughout all areas of the enterprise, increasing product managers control in the following ways.
 
