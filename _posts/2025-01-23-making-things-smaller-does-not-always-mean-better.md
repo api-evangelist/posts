@@ -8,7 +8,7 @@ tags:
   - Boundaries
   - Size
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-big-seven.jpeg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-GBgdq9NyJew4m.jpg
 ---
 It is healthy to regularly explore and challenge our belief system in making things smaller and more modular and that doing so will make things easier and simpler. If you reduce something big to something small, it becomes easier to understand right? Or so this is how the myth goes. It’s not that it isn’t true, it is just that the devil is in the details of how something is abstracted, and who does the abstracting. While reducing the surface area of an API, or some other unit of compute, you can reduce the cognitive load, but you also can shift the formula of how people and applications are able to engage using APIs in some unexpected ways, which should always leave us considering what is being left behind.
 
