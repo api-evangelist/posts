@@ -19,7 +19,7 @@ API Evangelist is perpetually stuck in between the strategic and tactical while 
 - **Snackable** - Something you want to bite into at this moment and consume as part of your day.
 - **Healthy** - Won’t negatively impact long-term goals and help you build long term strength.
 
-Our goal is to pay attention to the big picture, continue to connect as many dots as we can, while also being critical of many of the belief systems that might distract us all, by provide snackable hands-on knowledge that will make your day just a little better. We want to address questions you have right now and the challenges you are facing at this moment, while also helping keep an eye on the long-term strategy vision and practices, even if you don’t always have the time. It is tough to strike a balance between snackable and healthy, so we will be trying out many different recipes over the next couple of months, and hoping that we’ll find stories that matter in this moment, but also speak to where you are headed with your career and business.
+Our goal here at API Evangelist is to pay attention to the big picture, continue to connect as many dots as we can, while also being critical of many of the belief systems that could derail us. We want to address questions you have right now and the challenges you are facing in this moment, while also helping keep an eye on the long-term strategy vision and practices, even if you don’t always have the time. It is tough to strike a balance between snackable and healthy, so we will be trying out many different recipes over the next couple of months, and hoping that we’ll find stories that matter in this moment, but also speak to where you are headed with your career and business road map.
 
 
 
