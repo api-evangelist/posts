@@ -9,7 +9,7 @@ tags:
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-docks-ships-cranes.jpg
 ---
-The concept of a platform means many different things to many different people. API Evangelist has a pretty specific meaning when we say API platform, intentionally invoking a machine-readable artifact that defines the APIs behind the infrastructure used to power API operations, covering the production and consumption of HTTP APIs by both business and engineering groups. 
+The concept of a platform means many different things to many different people. API Evangelist has a pretty specific meaning when we say API platform, _intentionally invoking a machine-readable artifact that defines the APIs behind the infrastructure used to power API operations, covering the production and consumption of HTTP APIs by both business and engineering groups_. 
 
 To help illustrate what API Evangelist means by API platform we wanted to offer an [interactive API engineering platform builder](https://engineering-platform-builder.apievangelist.com) that allows anyone to assemble a machine-readable (YAML) definition of the specifications, services, and tools used to power API operations. Currently we’ve abstracted down each tool and service to a single resource or capabilities, which is something we will augment with executable OpenAPIs in the near future—helping make different areas of API operations more forkable and executable via Git. Here is the first edition of the [API Evangelist Engineering Platform Builder](https://engineering-platform-builder.apievangelist.com).
 
