@@ -8,7 +8,7 @@ tags:
   - Artifacts
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-an-me-store-front.jpeg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-skyscraper-construction-crane-2.jpeg
 ---
 A common question we hear from folks trying to scale, mature, and make their API governance be more effective is about how to prepare API governance to be used by AI agents. Our recommendations for making your API governance accessible by AI agents is the same as preparing your APIs and wider API operations for engagement by AI agents. You should be producing, iterating, and maturing the following artifacts which define the APIs available across the infrastructure you use to govern your APIs, as well as the policies, rules, and other artifacts being maintained that shape your API governance.
 

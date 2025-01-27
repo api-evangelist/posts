@@ -8,7 +8,7 @@ tags:
   - Automation
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-boat-coming-through-bridge-2.jpeg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-skyscraper-construction-crane-2.jpeg
 ---
 If you are sitting there thinking that you could modernize and evolve legacy systems and processes used as part of API operations by introducing a new service or tool, API Evangelist always encourages you to first spend the time mapping as much of the existing service and tooling landscape as you can before taking your first step. What are the services and tools that are currently being used by teams and already are baked into the enterprise and existing teams regular work. It doesn’t need to be exhaustive, but take the time to inventory from the following areas of your API operations.
 

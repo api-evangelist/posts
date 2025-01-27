@@ -7,7 +7,7 @@ tags:
   - Artificial Intelligence
   - Artifacts
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-an-me-store-front.jpeg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-skyscraper-construction-crane-2.jpeg
 ---
 A common question we hear from folks trying to make an impact with APIs within their enterprise is how do I prepare my APIs for use by AI agents. While there are some nuances to accommodating AI agents, the advice regarding what to do when producing your APIs is pretty much the same as with desktop, web, mobile, device, and network applications. API Evangelist recommends producing, iterating, and maturing the following artifacts that properly define the digital resources and capabilities you wish to provide to AI agents, and the models that are powering them.
 

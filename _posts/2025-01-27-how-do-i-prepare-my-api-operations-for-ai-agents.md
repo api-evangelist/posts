@@ -8,7 +8,7 @@ tags:
   - Artifacts
   - Operations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-an-me-store-front.jpeg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-skyscraper-construction-crane-2.jpeg
 ---
 A common question we hear from folks trying to make an impact at scale across their API operations is how to I prepare my API operations for use by AI agents. Our recommendations for making your API operations accessible by AI agents is the same as preparing your APIs for consumption AI agents. You should produce, iterate, and mature the following artifacts which properly define the APIs available across the infrastructure like AWS, Azure, GitHub, Jira, and others, and make it available for training AI models that power AI agents, but also in real-time through engagement with AI agents.
 
