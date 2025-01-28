@@ -6,7 +6,7 @@ tags:
   - Documentation
   - OpenAPI
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-arrow-in-ground.jpeg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-cotton-candy.jpeg
 ---
 We recall vividly here at API Evangelist the response to Swagger and SwaggerUI when it came out. It was ground-breaking, game-changing, revolutionary, and all the other hollowed out phrases we use to describe things in the technology sector. Mashery scrambled to release their IO Docs to compete, Mulesoft got to work on RAML, Mashape (now Kong / RapidAPI) scrambled to build their marketplace, and Apiary set the API design-first movement into motion. Swagger UI won out, but in 2015 Redoc quietly slipped onto the scene with a better looking, but less functional version of API documentation that would capture the imagination. There has been a lot of iteration, innovation, and steps forward and backwards from proprietary players looking to capture value from the space, but we haven’t seen a lot of open-source innovation until recently with the following solutions.
 
