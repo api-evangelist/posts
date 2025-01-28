@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: We Are Entering The 3rd API Documentation Renaissance
+title: We Are Entering The Third API Documentation Renaissance
 tags:
   - Documentation
   - OpenAPI
@@ -10,7 +10,7 @@ image: >-
 ---
 We recall vividly here at API Evangelist the response to Swagger and SwaggerUI when it came out. It was ground-breaking, game-changing, revolutionary, and all the other hollowed out phrases we use to describe things in the technology sector. Mashery scrambled to release their IO Docs to compete, Mulesoft got to work on RAML, Mashape (now Kong / RapidAPI) scrambled to build their marketplace, and Apiary set the API design-first movement into motion. Swagger UI won out, but in 2015 Redoc quietly slipped onto the scene with a better looking, but less functional version of API documentation that would capture the imagination. There has been a lot of iteration, innovation, and steps forward and backwards from proprietary players looking to capture value from the space, but we haven’t seen a lot of open-source innovation until recently with the following solutions.
 
-- [**OpenAPI Doctor**](https://github.com/pb33f/doctor) - Visual eye candy at the intersection of OpenAPI editor, documentation, and governance.  https://pb33f.io/doctor/
+- [**OpenAPI Doctor**](https://github.com/pb33f/doctor) - Visual eye candy at the intersection of OpenAPI editor, documentation, and governance.
 - [**Scalar**](https://github.com/scalar/scalar) - Customizable editor, documentation, and change management that is clean, simple, and extensible.
 - [**Zudoku**](https://github.com/zuplo/zudoku) - Clean, simple, extensible, and interactive look at what a fully communized API documentation can be.
 
