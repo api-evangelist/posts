@@ -8,7 +8,7 @@ tags:
   - Artificial Intelligence
   - AI
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-an-me-store-front.jpeg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-arrow-in-ground.jpeg
 ---
 What better way to spend the day than playing with the [DeepSeek AI API](https://contracts.apievangelist.com/store/deepseek/). At first search there isn’t an OpenAPI or other artifacts for the API available so we got to work creating a single OpenAPI for each of the APIs they offer. We crafted four separate OpenAPIs for each of the primary capabilities, then we wrapped them in [a single APIs.json](https://github.com/api-evangelist/deepseek/blob/main/apis.yml) to help provide other relevant links to other resources that will help you make your decision on how you will be using DeepSeek AI in your applications and systems.
 
