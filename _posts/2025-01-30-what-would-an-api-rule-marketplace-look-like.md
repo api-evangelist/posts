@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: What Would An API Rule Marketplace Look Like?
+title: What Would An API Governance (Guidance) Rule Marketplace Look Like?
 tags:
   - Governance
   - Rules
