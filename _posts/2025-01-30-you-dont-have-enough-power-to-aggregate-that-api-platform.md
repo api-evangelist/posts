@@ -8,7 +8,7 @@ tags:
   - Centralized
   - Federated
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/stalin-time-nyc-from-lex.jpeg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-electric-tower-sun-behind.jpg
 ---
 The desire to centralize API gateways and platforms is a powerful one. Like mono vs micro, federated vs. centralized comes with its technical, business, but also peopel and political tradeoffs. The answer to whether or not you should be centralizing or federating your API platform will be the classic architect answer — it depends. The official API Evangelist answer to this question is—yes, you should do both. There are significant challenges to federating and centralizing your API efforts, but let’s explore the headwinds for what the centralization of your API gateway and platform are within your average enterprise organization, the areas that are often overlooked as teams do the work to get the technical details in order.
 
