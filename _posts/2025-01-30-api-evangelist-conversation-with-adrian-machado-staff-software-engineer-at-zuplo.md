@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: A Conversation At the Intersection of API Rate Limits and Business Planning with Adrian Machado From Zuplo
+title: A Conversation with Adrian Machado From Zuplo About Technical and Business of API Rate Limits
 tags:
   - Gateways
   - Rate Limits
