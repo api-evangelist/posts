@@ -12,7 +12,7 @@ tags:
   - Provenance
   - Standards
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-docks-water-front-ships-containers.jpg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-nyc-people-marketplace.jpeg
 ---
 API Evangelist is really interested in elevating the API governance rule conversation, bringing more visibility and discussion to specific rules, and why you would want to apply and enforce a rule and why you wouldn’t. After the [conversation with Dave Shanley of Vacuum](https://conversations.apievangelist.com/store/2025-01-18-dave-shanley-princess-beef-heavy-industries/) (and rock star) fame, and their comment about a governance rule marketplace, we were left us thinking more deeply about what this might look like. A Spectral and Vacuum rule marketplace could have the following elements to help make rules more discoverable, but also increase the awareness and usage of both Spectral and Vacuum, as well as standardizing how companies approach the governance of their APIs.
 
