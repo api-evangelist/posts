@@ -39,76 +39,499 @@ summary: Studying the technology, business, policies, and people of APIs since 2
 
 
     <!-- Content -->
-<div class="row">
+<div class="row gx-xl-9">
 
-    <div class="col-12 col-xxl-4 order-xxl-1">
+  <div class="col-12 col-xxl-4 order-xxl-1">
 
-        <div class="position-sticky mb-8" style="top: 2rem">
+    <div class="position-sticky mb-8" style="top: 2rem">
+      
+        {% include services-partner.html %}
+        <br>
+        {% include newsletter-signup.html %}            
 
-            {% include services-api-evangelist.html %}
-            <br>
-            {% include services-partner.html %}
-            <br>
-            {% include newsletter-signup.html %}            
-
-        </div>
-        
-    </div>   
+    </div>
     
-    {% assign toggle = 1 %}  
-    {% assign counter = 1 %}  
-    {% for section in site.data['home-sections'] %}  
+  </div>    
+ 
 
-        {% if toggle == 1 %}
-          <div class="col-12 col-md-6 col-lg-4">
-        {% endif %}
+  <div class="col-12 col-xxl-8 order-xxl-0">
 
-        {% if counter == 1 %}
-          {% assign color = "primary" %}
-        {% elsif counter == 2 %}          
-          {% assign color = "danger" %}
-        {% elsif counter == 3 %}          
-          {% assign color = "warning" %}  
-        {% elsif counter == 4 %}          
-          {% assign color = "info" %}   
-        {% elsif counter == 5 %}          
-          {% assign color = "danger" %}
-        {% elsif counter == 6 %}          
-          {% assign color = "warning" %}  
-        {% elsif counter == 7 %}          
-          {% assign color = "primary" %}  
-        {% elsif counter == 8 %}          
-          {% assign color = "danger" %}     
-        {% elsif counter == 9 %}          
-          {% assign color = "warning" %}     
-        {% elsif counter == 10 %}          
-          {% assign color = "primary" %}     
-        {% elsif counter == 11 %}          
-          {% assign color = "danger" %}     
-        {% elsif counter == 12 %}          
-          {% assign color = "info" %}                                                                         
-        {% endif %}   
-    
-        <a class="card bg-{{ color }}-subtle border-transparent mb-6" href="{{ section.url }}">
-          <div class="card-body">
-            <div class="col-auto" style="float: right; padding: 25px;">
-                <span class="material-symbols-outlined fs-1 text-dark-emphasis">{{ section.icon }}</span>
+      <!-- About -->
+      <section class="card card-line bg-body-tertiary border-transparent mb-5" id="general">
+        <div class="card-body">
+          <div class="mb-4">
+            <h3 class="fs-6 mb-0">About API Evangelist</h3>
+            <div>
+              API Evangelist has worked for the last 15 years to make sense of the technology, business, and politics of APIs, profiling public and private APIs and distilling down knowledge into a regular cadence of API storytelling, and weekly knowledge building sessions focused on schema, APIs, governance, operations, change, and evangelism. API Evangelist is committed to helping your teams focus on the fundamentals of APIs, while also working with you to make sense of the leading edge of APIs, and where all of this is going.
             </div>
-            <h3 class="fs-6">{{ section.name }}</h3>
-            <p class="text-body-secondary">{{ section.description }}</p>
-            <div class="text-body-secondary">{{ section.count }}</div>
           </div>
+        </div>
+      </section>
+
+    <section>
+
+        <div class="card mb-6 mb-xxl-0">
+          <div class="card-header">
+            <div class="row align-items-center">
+              <div class="col">
+                <h3 class="fs-6 mb-0">Last Three Stories</h3>
+              </div>
+              <div class="col-auto my-n3 me-n3">
+                <a class="btn btn-sm btn-link" href="#!">
+                  Browse All Stories
+                  <span class="material-symbols-outlined">arrow_right_alt</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-body py-3">
+
+            {% assign posts = site.posts %}
+            {% for post in posts limit: 3 %}  
+              {% assign p = post.url | split: "/" %}
+              {% assign post_date = p[1] | append: "-" | append: p[2] | append: "-" | append: p[3] | date: "%B %e, %Y" %}                       
+              {% assign content = post.content | strip_newlines | strip_html | truncate: 200 %}
+              <div class="list-group list-group-flush">
+                <div class="list-group-item px-0">
+                  <div class="row">
+                    <div class="col">
+                      <a class="text-reset" href="#!">
+                        <h3 class="fs-base"> <a href="{{ post.url | replace:'.html','' }}">{{ post.title }}</a></h3>
+                        <p class="text-body-secondary">{{ content }}</p>
+                      </a>
+                      <div class="d-flex align-items-center">
+                        <div class="fs-sm text-body-secondary me-3">Published on {{ post_date }}</div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <div class="avatar avatar-xl rounded" style="padding: 15px;">
+                        <a href="{{ post.url | replace:'.html','' }}"><img src="{{ post.image }}" width="90" style="background-color: #FFF; border: 2px solid #000; border-radius: 10px; object-fit: cover; width: 100px; height: 100px;"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>          
+            {% endfor %}     
+          
+          </div>
+        </div>
+      </div>     
+    
+    </section>
+    <br>
+    <section>
+
+        <!-- Header -->
+        <div class="row align-items-center mb-5">
+          <div class="col">
+            <!-- Heading -->
+            <h2 class="fs-5 mb-0">Knowledge Builder Sessions</h2>
+          </div>
+        </div>           
+
+        {% assign tuesday = "2025-02-04" | date: "%B %e, %Y" %}   
+        <!-- TUESDAY --> 
+        <div class="vstack gap-2 mb-7">
+          <div class="card">
+            <a class="card-body p-4" data-bs-toggle="collapse" href="#tuesday" role="button" aria-expanded="true" aria-controls="tuesday">
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <div class="avatar avatar-sm fs-lg text-primary"><i data-duoicon="calendar"></i></div>
+                </div>
+                <div class="col ms-n3">
+                  <h3 class="fs-base mb-0">Tuesdays (Next Session is {{ tuesday }})</h3>
+                </div>
+                <div class="col-auto">
+                  <span class="fs-sm text-body-secondary">3 Sessions</span>
+                </div>
+              </div>
+            </a>
+            <div class="collapse show" id="tuesday">
+              <div class="card-body border-top line-clamp-2 text-body-secondary py-4 px-0 mx-4">                
+                <!-- Sessions -->
+                <div class="card mb-6 mb-xxl-0">
+                  <div class="table-responsive">
+                    <table class="table table-flush align-middle mb-0">
+                      <tbody>
+
+                        <tr>
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <div class="avatar">
+                                <span class="material-symbols-outlined fs-1 text-emphasis">schema</span>
+                              </div>
+                              <div class="ms-4">
+                                <div>Schema</div>
+                                <div class="fs-sm text-body-secondary">Next Session on {{ tuesday }}</div>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge bg-success-subtle text-success">1:00 PM EST</span>
+                          </td>                          
+                          <td>
+                            <span class="badge bg-success-subtle text-success">101</span>
+                          </td>   
+                          <td>
+                              <a href="https://bases.apievangelist.com/store/schema/"><button type="button" class="btn btn-sm btn-dark" style="margin-top: 10px;">More Info</button></a>
+                          </td> 
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <div class="avatar">
+                                <span class="material-symbols-outlined fs-1 text-emphasis">api</span>
+                              </div>
+                              <div class="ms-4">
+                                <div>APIs</div>
+                                <div class="fs-sm text-body-secondary">Next Session on {{ tuesday }}</div>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge bg-success-subtle text-success">2:00 PM EST</span>
+                          </td>                          
+                          <td>
+                            <span class="badge bg-success-subtle text-success">101</span>
+                          </td>   
+                          <td>
+                              <a href="https://bases.apievangelist.com/store/apis/"><button type="button" class="btn btn-sm btn-dark" style="margin-top: 10px;">More Info</button></a>
+                          </td> 
+                        </tr>   
+                        
+                        <tr>
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <div class="avatar">
+                                <span class="material-symbols-outlined fs-1 text-emphasis">assured_workload</span>
+                              </div>
+                              <div class="ms-4">
+                                <div>Governance</div>
+                                <div class="fs-sm text-body-secondary">Next Session on {{ tuesday }}</div>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge bg-success-subtle text-success">3:00 PM EST</span>
+                          </td>                          
+                          <td>
+                            <span class="badge bg-success-subtle text-success">101</span>
+                          </td>   
+                          <td>
+                              <a href="https://bases.apievangelist.com/store/governance/"><button type="button" class="btn btn-sm btn-dark" style="margin-top: 10px;">More Info</button></a>
+                          </td>
+                        </tr>                        
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>   
+                <!-- Sessions -->             
+
+              </div>
+            </div>
+          </div>
+          <!-- TUESDAY --> 
+
+          <!-- WEDNESDAY --> 
+          {% assign wednesday = "2025-02-05" | date: "%B %e, %Y" %}   
+          <div class="card">
+            <a
+              class="card-body p-4"
+              data-bs-toggle="collapse"
+              href="#schemaSpecifications"
+              role="button"
+              aria-expanded="false"
+              aria-controls="schemaSpecifications"
+            >
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <div class="avatar avatar-sm fs-lg text-primary"><i data-duoicon="calendar"></i></div>
+                </div>
+                <div class="col ms-n3">
+                  <h3 class="fs-base mb-0">Wednesdays (Next Session is {{ wednesday }})</h3>
+                </div>
+                <div class="col-auto">
+                  <span class="fs-sm text-body-secondary">3 Sessions</span>
+                </div>
+              </div>
+            </a>
+            <div class="collapse show" id="wednesday">
+              <div class="card-body border-top line-clamp-2 text-body-secondary py-4 px-0 mx-4">
+
+                <!-- Sessions -->
+                <div class="card mb-6 mb-xxl-0">
+                  <div class="table-responsive">
+                    <table class="table table-flush align-middle mb-0">
+                      <tbody>
+
+                        <tr>
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <div class="avatar">
+                                <span class="material-symbols-outlined fs-1 text-emphasis">http</span>
+                              </div>
+                              <div class="ms-4">
+                                <div>HTTP</div>
+                                <div class="fs-sm text-body-secondary">Next Session on {{ wednesday}}</div>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge bg-success-subtle text-success">1:00 PM EST</span>
+                          </td>                          
+                          <td>
+                            <span class="badge bg-success-subtle text-success">101</span>
+                          </td>   
+                          <td>
+                             <button type="button" class="btn btn-sm btn-dark" style="margin-top: 10px;">Coming Soon</button>
+                          </td> 
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <div class="avatar">
+                                <span class="material-symbols-outlined fs-1 text-emphasis">autorenew</span>
+                              </div>
+                              <div class="ms-4">
+                                <div>API Service Composition</div>
+                                <div class="fs-sm text-body-secondary">Next Session on {{ wednesday}}</div>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge bg-success-subtle text-success">2:00 PM EST</span>
+                          </td>                          
+                          <td>
+                            <span class="badge bg-success-subtle text-success">201</span>
+                          </td>   
+                          <td>
+                             <button type="button" class="btn btn-sm btn-dark" style="margin-top: 10px;">Coming Soon</button>
+                          </td>  
+                        </tr>   
+                        
+                        <tr>
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <div class="avatar">
+                                <span class="material-symbols-outlined fs-1 text-emphasis">autorenew</span>
+                              </div>
+                              <div class="ms-4">
+                                <div>API Proxies</div>
+                                <div class="fs-sm text-body-secondary">Next Session on {{ wednesday}}</div>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge bg-success-subtle text-success">3:00 PM EST</span>
+                          </td>                          
+                          <td>
+                            <span class="badge bg-success-subtle text-success">301</span>
+                          </td>   
+                          <td>
+                              <button type="button" class="btn btn-sm btn-dark" style="margin-top: 10px;">Coming Soon</button>
+                          </td>
+                        </tr>                        
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>   
+                <!-- Sessions -->                   
+
+              </div>
+            </div>
+          </div>
+          <!-- WEDNESDAY --> 
+
+          <!-- THURSDAY --> 
+          {% assign thursday = "2025-02-06" | date: "%B %e, %Y" %}   
+          <div class="card">
+            <a
+              class="card-body p-4"
+              data-bs-toggle="collapse"
+              href="#schemaMetadata"
+              role="button"
+              aria-expanded="false"
+              aria-controls="schemaMetadata"
+            >
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <div class="avatar avatar-sm fs-lg text-primary"><i data-duoicon="calendar"></i></div>
+                </div>
+                <div class="col ms-n3">
+                  <h3 class="fs-base mb-0">Thursdays (Next Session is {{ tuesday }})</h3>
+                </div>
+                <div class="col-auto">
+                  <span class="fs-sm text-body-secondary">3 Sessions</span>
+                </div>
+              </div>
+            </a>
+            <div class="collapse show" id="thursday">
+              <div class="card-body border-top line-clamp-2 text-body-secondary py-4 px-0 mx-4">
+                
+                <!-- Sessions -->
+                <div class="card mb-6 mb-xxl-0">
+                  <div class="table-responsive">
+                    <table class="table table-flush align-middle mb-0">
+                      <tbody>
+
+                        <tr>
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <div class="avatar">
+                                <span class="material-symbols-outlined fs-1 text-emphasis">manufacturing</span>
+                              </div>
+                              <div class="ms-4">
+                                <div>Operations</div>
+                                <div class="fs-sm text-body-secondary">Next Session on {{ thursday }}</div>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge bg-success-subtle text-success">1:00 PM EST</span>
+                          </td>                          
+                          <td>
+                            <span class="badge bg-success-subtle text-success">101</span>
+                          </td>   
+                          <td>
+                              <a href="https://bases.apievangelist.com/store/operations/"><button type="button" class="btn btn-sm btn-dark" style="margin-top: 10px;">More Info</button></a>
+                          </td>  
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <div class="avatar">
+                                <span class="material-symbols-outlined fs-1 text-emphasis">manage_history</span>
+                              </div>
+                              <div class="ms-4">
+                                <div>Changes</div>
+                                <div class="fs-sm text-body-secondary">Next Session on {{ thursday }}</div>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge bg-success-subtle text-success">2:00 PM EST</span>
+                          </td>                          
+                          <td>
+                            <span class="badge bg-success-subtle text-success">101</span>
+                          </td>   
+                          <td>
+                              <a href="https://bases.apievangelist.com/store/changes/"><button type="button" class="btn btn-sm btn-dark" style="margin-top: 10px;">More Info</button></a>
+                          </td>   
+                        </tr>   
+                        
+                        <tr>
+                          <td>
+                            <div class="d-flex align-items-center">
+                              <div class="avatar">
+                                <span class="material-symbols-outlined fs-1 text-emphasis">adaptive_audio_mic</span>
+                              </div>
+                              <div class="ms-4">
+                                <div>Evangelism</div>
+                                <div class="fs-sm text-body-secondary">Next Session on {{ thursday }}</div>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge bg-success-subtle text-success">3:00 PM EST</span>
+                          </td>                          
+                          <td>
+                            <span class="badge bg-success-subtle text-success">101</span>
+                          </td>   
+                          <td>
+                              <a href="https://bases.apievangelist.com/store/evangelism/"><button type="button" class="btn btn-sm btn-dark" style="margin-top: 10px;">More Info</button></a>
+                          </td>
+                        </tr>                        
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>   
+                <!-- Sessions -->                   
+
+              </div>
+            </div>
+          </div>
+          <!-- THURSDAY --> 
+
+
+        </div>   
+
+    </section>
+
+    <section>
+
+      <div class="card mb-6 mb-xxl-0">
+        <div class="card-header">
+          <div class="row align-items-center">
+            <div class="col">
+              <h3 class="fs-6 mb-0">Last Three Conversations</h3>
+            </div>
+            <div class="col-auto my-n3 me-n3">
+              <a class="btn btn-sm btn-link" href="https://conversations.apievangelist.com/">
+                Browse All Conversations
+                <span class="material-symbols-outlined">arrow_right_alt</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card-body py-3">
+
+          {% assign conversations = site.data.conversations | reverse %}
+          {% for conversation in conversations limit: 3 %}  
+            {% assign post_date = conversation.date | date: "%B %e, %Y" %}                
+            {% assign content = conversation.description | strip_newlines | strip_html | truncate: 200 %}
+            <div class="list-group list-group-flush">
+              <div class="list-group-item px-0">
+                <div class="row">
+                  <div class="col">
+                    <a class="text-reset" href="#!">
+                      <h3 class="fs-base"> <a href="https://conversations.apievangelist.com{{ conversation.url }}">{{ conversation.title }}</a></h3>
+                      <p class="text-body-secondary">{{ content }}</p>
+                    </a>
+                    <div class="d-flex align-items-center">
+                      <div class="fs-sm text-body-secondary me-3">Published on {{ post_date }}</div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <div class="avatar avatar-xl rounded" style="padding: 15px;">
+                      <a href="https://conversations.apievangelist.com{{ conversation.url }}"><img src="https://i.ytimg.com/vi/{{ conversation.youtubeId }}/hqdefault.jpg" width="90" style="background-color: #FFF; border: 2px solid #000; border-radius: 10px; object-fit: cover; width: 100px; height: 100px;"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>          
+          {% endfor %}     
+        
+        </div>
+      </div>     
+    </div>  
+    <div class="row align-items-center">
+      <div class="col">
+        <h3 class="fs-6 mb-0">&nbsp;&nbsp;&nbsp;</h3>
+      </div>
+      <div class="col-auto my-n3 me-n3" style="text-align: right;">
+        <a class="btn btn-sm btn-link" href="https://calendly.com/kin-apievangelist">
+          Join the Conversation
+          <span class="material-symbols-outlined">arrow_right_alt</span>
         </a>
-
-        {% assign toggle = toggle | plus: 1 %}
-        {% assign counter = counter | plus: 1 %}
-
-        {% if toggle == 9 %}
+      </div>
+    </div>     
+  
+  </section>   
+  <br>
+      <!-- About -->
+      <section class="card card-line bg-body-tertiary border-transparent mb-5" id="general">
+        <div class="card-body">
+          <div class="mb-4">
+            <h3 class="fs-6 mb-0">About the API Evangelist Site</h3>
+            <div>
+              This site is the active daily working toolbox for Kin Lane, and you can find many APIs, rules, and other interesting details about API operations. Feel free to explore the website, you won't break anything. API Evangelist works out in the open to encourage the reuse of our work, while also demonstrating the potential of evangelizing your API work as it occurs. Whenever you get lost, just come back to the home page for the basics of what API Evangelist is all about.
+            </div>
           </div>
-          {% assign toggle = 1 %}
-        {% endif %}
-
-    {% endfor %}      
-
-
+        </div>
+      </section>  
+      
 </div>

@@ -1,0 +1,510 @@
+- title: API Evangelist Conversation with Tim Lane
+  description: >-
+    This is the second pilot for the new API Evangelist Conversations podcast.
+    This is an off the record edition where I interview my alter ego Tim Lane,
+    but obfuscate my voice and hide my face. Like the first one, it isn't that
+    smooth as it is awkward to interview yourself, but I am also just getting
+    started with all the production around this series.
+  date: 2024-08-24 00:00:00 +0000
+  guestName: Tim Lane
+  guestCompany: ACME Corporation
+  youtubeId: miPXGNr04H0
+  url: /store/2024-08-24-session-two/
+- title: API Evangelist Conversation with Kin Lane
+  description: >-
+    This is the introductory pilot for the new API Evangelist Conversation
+    podcast, where I interview myself (Kin Lane) to explore the new format, and
+    work out all the kinks with producing and distributing this podcast. It is a
+    little robotic and awkward as I interview myself, but something that will
+    get more natural once I am talking to other human beings.
+  date: 2024-08-27 00:00:00 +0000
+  guestName: Kin Lane
+  guestCompany: API Evangelist LLC
+  youtubeId: 3M_d-HFd3-A
+  url: /store/2024-08-23-session-one/
+- title: >-
+    API Evangelist Conversation with Pat Patterson, Chief Technical Evangelist
+    at Backblaze
+  description: >-
+    This is the first actual edition of the API Evangelist Conversation podcast
+    with my friend Pat Patterson, the Chief Technical Evangelist at Backblaze.
+    Always enjoy learning from Pat as we dove into the meaning behind his title,
+    as well as how Backblaze has standardized their API around the Amazon S3
+    storage API--essentially treating the API as the industry standard for
+    storage.
+  date: 2024-09-03 00:00:00 +0000
+  guestName: Pat Patterson
+  guestCompany: Backblaze
+  youtubeId: m2b_bhmMBSs
+  url: /store/2024-09-03-pat-patterson-backblaze/
+- title: >-
+    API Evangelist Conversation with Stanislav Zmiev, Tech Lead of Platform
+    Engineering at Monite
+  description: >-
+    A very focused conversation on change management and versioning with
+    Stanislav Zmiev, Tech Lead of Platform Engineering at invoicing  and bill
+    pay provider Monite. Stanislav had an extremely nuanced and pragmatic view
+    of API versioning, which I think sets the stage for a very healthy
+    discussion for any company looking to version their mission critical APIs.
+  date: 2024-09-04 00:00:00 +0000
+  guestName: Stanislav Zmiev
+  guestCompany: Monite
+  youtubeId: DqO0Ez3FXSU
+  url: /store/2024-09-04-stanislav-zmiev-monite/
+- title: >-
+    API Evangelist Conversation with Sebastian Loch, Business Development at
+    FatSecret
+  description: >-
+    I dove into the challenges of running a highly curated global nutrition data
+    API with Sebastian Loch, Business Development at FatSecret. He talked about
+    his experience of running a modern API operations that has been around for
+    years, but he also shared his challenges in putting artificial intelligence
+    to work as part of their platform, as well as the uncertainty of providing
+    high quality data via API in a world where AI consumes everything.
+  date: 2024-09-06 00:00:00 +0000
+  guestName: Sebastian Loch
+  guestCompany: FatSecret
+  youtubeId: 5fgbN1ELR-Y
+  url: /store/2024-09-05-sebastian-loch-fatsecret/
+- title: >-
+    API Evangelist Conversation with Adam DuVander, Technical Content Strategist
+    at EveryDeveloper
+  description: >-
+    I brought back my old friend and storytelling mentor Adam DuVander to
+    reminisce about the old days of ProgrammableWeb, exploring the reasons
+    behind its demise, but also what the current realities are for API producers
+    in world where people really don't care about APIs, and more about the
+    business solutions that they deliver.
+  date: 2024-09-10 00:00:00 +0000
+  guestName: Adam DuVander
+  guestCompany: EveryDeveloper
+  youtubeId: MEQ7UtVuXAA
+  url: /store/2024-09-10-adam-duvander-everydeveloper/
+- title: >-
+    API Evangelist Conversation with Daniel Kocot, Head of API Consulting at
+    codecentric AG
+  description: >-
+    Daniel Kocot joined me to share some wisdom from the trenches of API
+    consulting about OpenAPI and TypeSpec, helping me better understand the
+    motivations behind, how these specs can work in concert, and how different
+    stops along the API lifecycle motivate our investment in different API
+    specs.
+  date: 2024-09-12 00:00:00 +0000
+  guestName: Daniel Kocot
+  guestCompany: codecentric AG
+  youtubeId: IlROkpW1tmU
+  url: /store/2024-09-12-daniel-kocot-codecentric-ag/
+- title: >-
+    API Evangelist Conversation with Dale McCrory, Software and Product
+    Management Leader at Breeze Strategy
+  description: >-
+    I had a conversation with Dale McCrory, Software and Product Management
+    Leader at Breeze Strategy about the business and product manager view of the
+    API landscape. I am eager to hear from veteran API product managers like
+    Dale about how we convince leadership to invest in APIs, but also API
+    product managers. Dale has a healthy view of the business of APIs, and how
+    this applies across the many different types of APIs we produce and
+    consume--which is something we need more of in the API world to help balance
+    our heavy focus on the technology of APIs over the last decade.
+  date: 2024-09-18 00:00:00 +0000
+  guestName: Dale McCrory
+  guestCompany: Breeze Strategy
+  youtubeId: '-xh__9CqRW4'
+  url: /store/2024-09-18-dale-mccrory-breeze-strategy/
+- title: >-
+    API Evangelist Conversation with Robert Buchanan, API Evangelist Driving API
+    Integrations and API First practices at Procter & Gamble
+  description: >-
+    Robert came by to share his wisdom on why APIs matter and I can always count
+    on him for hot takes on the realities of our API operations. Robert was a
+    constant back channel during my Breaking Changes days, but I never managed
+    to actually get him on the show. Robert and are in alignment on where most
+    of the deficiencies exist across the API space and I'd that we both share
+    higher technological morals about what makes good APIs and what contributes
+    healthy API operations. I definitely will have Robert back to talk about all
+    the hot button issues with me.
+  date: 2024-09-18 00:00:00 +0000
+  guestName: Robert Buchanan
+  guestCompany: Procter & Gamble
+  youtubeId: b-OsSfhVHuw
+  url: /store/2024-09-18-robert-buchanan-pg/
+- title: >-
+    API Evangelist Conversation with Jamie Tanna, Engineering Productivity at
+    Elastic
+  description: >-
+    Jamie and I connected on the API's You Won't Hate Slack channel, where I
+    started subscribing to his blog. After reading a post on versioning, and
+    more specifically why you should start the version for your API at 0.1.0
+    instead of 1.0.0, I knew I needed to have him come for a conversation. I
+    really enjoyed Jamie's calm and pragmatic approach to what web APIs are,
+    what Semantic Versioning is, and how versioning and change management can
+    really help us enable both API producers and consumers to stay aligned.
+  date: 2024-09-19 00:00:00 +0000
+  guestName: Jamie Tanna
+  guestCompany: Elastic
+  youtubeId: ie6eMzCUI34
+  url: /store/2024-09-19-jamie-tanna-elastic/
+- title: >-
+    API Evangelist Conversation with Heather Xiao, Founder and CEO at Horizon
+    Zero Ltd
+  description: >-
+    Heather and I go way back talking APIs and open banking standards, but I
+    invited Heather to sit down and educate me more about Smart Data, and how
+    the intersection of APIs and Smart Data can help us bridge multiple
+    industries like finance, healthcare, and travel. Heather shared insights on
+    how as a community we can speak more in terms of what APIs, data, and
+    standards means to actual end-users, framing the API conversation in terms
+    of the meaningful outcomes for everyday human beings.
+  date: 2024-09-24 00:00:00 +0000
+  guestName: Heather Xiao
+  guestCompany: Horizon Zero Ltd
+  youtubeId: Y9rXA6P55rg
+  url: /store/2024-09-24-heather-xiao-horizon-zero-ltd/
+- title: >-
+    API Evangelist Conversation with Bruno Vaz da Costa, API Architect (digital
+    plumber) at RHI Magnesita
+  description: >-
+    Bruno Vaz da Costa, API Architect (digital plumber) at RHI Magnesita came by
+    to share what APIs means to his enterprise operating in the refractory
+    industry, what their biggest challenges are, and thoughts around how they
+    can standardize around APIs. This type of conversation reflects where I want
+    to go with these API conversations, getting out of the API echo chamber and
+    talking with folks doing the good work to standardize and govern APIs in
+    these mainstream industries.
+  date: 2024-09-26 00:00:00 +0000
+  guestName: Bruno Vaz da Costa
+  guestCompany: RHI Magnesita
+  youtubeId: PJklPxKmypE
+  url: >-
+    /store/2024-09-26-bruno-vaz-da-costa-api-architect-digital-plumber-at-rhi-magnesita/
+- title: >-
+    API Evangelist Conversation with Sue Smith, Senior Learning Experience
+    Manager at Fastly
+  description: >-
+    Sue Smith, Senior Learning Experience Manager at Fastly came by to chat with
+    me about the state of education in the tech sector. Sue has a genuine
+    passion for education and can take just about any area of the tech
+    landscape, dive-in, and begin helping onboard others to some very complex
+    topics. Sue and I share a concern about the amount of investment enterprises
+    and startups make across their operations and teams, and question that we
+    all have enough discipline to consider ourselves engineers. This episode
+    went five minutes beyond the normal cut-off, because I just wasn't paying
+    attention and just enjoying talking with Sue.
+  date: 2024-10-08 00:00:00 +0000
+  guestName: Sue Smith
+  guestCompany: Fastly
+  youtubeId: y145tNGjISg
+  url: /store/2024-10-08-sue-smith-fastly/
+- title: >-
+    API Evangelist Conversation with Subramanian Krishnan, Architect and API
+    Integration at Cloud Software Group within Citrix
+  description: >-
+    Subramanian Krishnan, or simply Subu, Architect and API Integration at Cloud
+    Software Group within Citrix joined came by for an API Evangelist
+    Conversation. Subu was one of the accumulated driving forces that pushed me
+    towards a focus on API governance after our Breaking Changes episode in
+    2022. So I was happy to have him back to learn more about their API journey.
+    Subu is always pragmatic, seeing the technology, business, and people of
+    APIs equally, which I find to be a rare skill in the world of APIs. So, I
+    enjoyed learning about Subu's push into financial optimization and focus on
+    what Citrix's customers are needing--which is a shift I am seeing beyond
+    just Citrix, and something that is unfolding across many enterprises as they
+    look to do more with fewer resources.
+  date: 2024-10-15 00:00:00 +0000
+  guestName: Subramanian Krishnan
+  guestCompany: Citrix
+  youtubeId: GwFzLEjHSn8
+  url: /store/2024-10-15-subramanian-krishnan-cloud-software-group/
+- title: >-
+    API Evangelist Conversation with Lorna Mitchell, VP of Developer Experience
+    at Redocly
+  description: >-
+    The opinionated and deeply knowledgeable driver of API specifications and VP
+    of Developer Experience at Redocly, Lorna Mitchell came by to share some
+    knowledge on Redocly CLI with me. I have made an executive decision to not
+    have API service providers on my podcast, opting to speak with API producer
+    and consumers, but Lorna transcends her role at Redocly. Lorna is part of
+    the TSC for the OpenAPI Initiative (OAI), and has deep experience across the
+    specs, but more specifically across approaches to lint these specs--this is
+    the knowledge I am looking to tap into during our conversation.
+  date: 2024-10-17 00:00:00 +0000
+  guestName: Lorna Mitchell
+  guestCompany: Redocly
+  youtubeId: I-XvwLyd_kQ
+  url: /store/2024-10-17-lorna-mitchell-redocly/
+- title: API Evangelist Conversation with Raymond Camden, Developer Advocate at Adobe
+  description: >-
+    I was happy to have Raymond Camden, Developer Advocate at Adobe come by for
+    another conversation. Raymond was on Breaking Changes back in the day, and
+    I've been a follower of his work for well over a decade. He provided his
+    obligatory plug for Adobe APIs he is an advocate for, but what is really
+    motivating him was his new work at the intersection of API and AI. I don't
+    have the time and budget to go to deep on AI, so I enjoy learning from
+    someone who is as curious and pragmatic as I am about new technologies, a
+    conversation that left me with some ideas of how I am going to use not just
+    ChatGPT, but also Google Gemini for some of the API profiling work I am
+    doing.
+  date: 2024-10-22 00:00:00 +0000
+  guestName: Raymond Camden
+  guestCompany: Adobe
+  youtubeId: FutV8B9mwdE
+  url: /store/2024-10-22-raymond-camden-adobe/
+- title: >-
+    API Evangelist Conversation with Luke Seelenbinder, Founder & CEO of Stadia
+    Maps
+  description: >-
+    I recently sat down for a conversation with Luke Seelenbinder, Founder & CEO
+    of Stadia Maps to talk about taking on Google Maps with a more sensible and
+    affordable mapping solution. As I learned more about the Stadia Maps journey
+    I found ourselves talking about product-led motions for companies, and what
+    the meaning of APIs as a product was. Luke and Stadia maps reflects the real
+    world businesses who are doing APIs that I am looking to talk with, because
+    they aren't playing in the startup hustle, and actually are building a
+    real-world business that is in tune with and responds to actual market
+    forces.
+  date: 2024-10-24 00:00:00 +0000
+  guestName: Luke Seelenbinder
+  guestCompany: Stadia Maps
+  youtubeId: Hk-2z6dExIY
+  url: /store/2024-10-24-luke-seelenbinder-stadia-maps/
+- title: >-
+    API Evangelist Conversation with Ian Mai, Executive ADHD & Impulse Control
+    Coach
+  description: >-
+    My friend from Postman days Ian Mai came by to talk about addiction and
+    impulse control with me. This isn't your average API conversation, but
+    neither is my podcast, and I am all about sharing my own struggles, while
+    also giving friends a platform to help others with their battles. I
+    appreciate Ian's honesty in his own struggles with addiction and trying to
+    find balance, and wanted to learn more about why he left Postman, and why he
+    said he was leaving tech. I don't see Ian as leaving tech, I think he'll
+    continue to help us all find our way, and be there for anyone who hits the
+    wall or drives into the ditch, as most everyone will experience at one time
+    or another. I always cherished Ian's energy, and think this is the perfect
+    role for him and his boundless enthusiasm.
+  date: 2024-10-28 00:00:00 +0000
+  guestName: Ian Mai
+  guestCompany: Ian Mai
+  youtubeId: hZbnB6G1YTE
+  url: /store/2024-10-29-ian-mai-executive-coach/
+- title: >-
+    API Evangelist Conversation with Greg Dennis, Senior Software Engineer at
+    Zeil
+  description: >-
+    Greg Dennis who was on my team at Postman, and part of my master plan to
+    spend as much VC money as I could on open source API technology, came by to
+    share his expert view on the diff between HTTP APIs and programming language
+    library APIs. Greg is one of the caring souls who are tending to the JSON
+    Schema specification, and has extensive experience developing and
+    maintaining his .NET JSON Schema library--json-everything. Greg is learning
+    more about HTTP API design these days, but I find his view of the art of
+    programming language library API maintenance important, and something that
+    helps expand, color, and shape my views as an HTTP API craftsperson.
+  date: 2024-11-01 00:00:00 +0000
+  guestName: Greg Dennis
+  guestCompany: Zeil
+  youtubeId: Pt0DXfyxijk
+  url: /store/2024-11-01-greg-dennis-zeil/
+- title: API Evangelist Conversation with Asanka Abeysinghe, CTO at WSO2
+  description: >-
+    Asanka Abeysinghe, CTO at WSO2 came by for a conversation about the
+    realities on the ground within enterprises when it comes to the
+    platformication of all things, from Internet Developer Portals (IDP) to API
+    platforms. Asanka has been at this a while, and he and I have been
+    discussing the realities of API management for years, and we share a lot of
+    the same views when it comes to the expansion and evolution of our space,
+    but more specifically how do we keep providing what is needed on the ground
+    for teams, no matter what vendor sales cycle or trend we might find
+    ourselves in.
+  date: 2024-12-03 00:00:00 +0000
+  guestName: Asanka Abeysinghe
+  guestCompany: WSO2
+  youtubeId: V0uJskoEV1A
+  url: /store/2024-12-03-asanka-abeysinghe/
+- title: >-
+    API Evangelist Conversation with Henry Calvert, Global Head of Future
+    Networks @ GSMA
+  description: >-
+    Henry Calvert, Global Head of Future Networks at GSMA came by to talk about
+    the GSMA Open Gateway, a suite of APIs the GSMA Open Gateway global
+    initiative aims to drive the exposure and monetization of telecommunication
+    networks through APIs and federation. The GSMA launched the Open Gateway
+    APIs under the Linux Foundation in a project called CAMARA, and you can find
+    all the OpenAPI specifications for the APIs on GitHub. The GSMA looks to
+    have taken a pretty savvy balance between what developers are looking for,
+    telco business leadership, but also government regulators, making for
+    another interesting attempt to modernize telco networks using a standardized
+    API-first approach.
+  date: 2024-12-05 00:00:00 +0000
+  guestName: Henry Calvert
+  guestCompany: GSMA
+  youtubeId: H5u14yHDV6c
+  url: /store/2024-12-05-henry-calvert-gsma/
+- title: >-
+    API Evangelist Conversation with Lorna Mitchell, OpenAPI Specification
+    Maintainer with the OpenAPI Initiative
+  description: >-
+    Lorna Mitchell, OpenAPI Specification Maintainer with the OpenAPI
+    Initiative, and overall API experience expert came by to educate me (us) on
+    OpenAPI Overlays, helping contrast with the core OpenAPI spec, as well as
+    with Arazzo Workflows, sharing how it will help bring more stakeholders into
+    the API lifecycle and contribute to better API experiences. Lorna is a well
+    spring of knowledge when it comes to OpenAPI, but also other specifications,
+    as well as Spectral and other approaches to governing APIs, and she'll be
+    coming back shortly to help educate us all about the intersection of
+    overlays with extensions and how it all will change API experience.
+  date: 2024-12-05 00:00:00 +0000
+  guestName: Lorna Mitchell
+  guestCompany: OpenAPI Initiative (OAI)
+  youtubeId: IvRmwiYdA_A
+  url: /store/2024-12-05-lorna-mitchell/
+- title: >-
+    API Evangelist Conversation with Claire Barrett, Digital Strategist at
+    APIsFirst
+  description: >-
+    Claire Barrett, Digital strategist at APIsFirst came by to talk with me
+    about the realities on the ground with APIs in large enterprises and the
+    increasing chatter regarding the return on investment APIs. Claire's view of
+    things is what API service providers should be tuning into when it comes to
+    aligning product with engineering, treating APIs as a product, and making
+    sense of the real world things business leadership are looking for. I'm
+    thankful for Claire's perspective, but also all the work she does around
+    APIDays, and Women in APIs, but also just being outspoken about the business
+    value of being API-first.
+  date: 2024-12-11 00:00:00 +0000
+  guestName: Claire Barrett
+  guestCompany: APIsFirst
+  youtubeId: s8DhZq-VROo
+  url: /store/2024-12-11-claire-barrett-apisfirst/
+- title: >-
+    API Evangelist Conversation with Lorna Mitchell, OpenAPI Specification
+    Maintainer with the OpenAPI Initiative
+  description: >-
+    Lorna Mitchell, OpenAPI Specification Maintainer with the OpenAPI
+    Initiative, and overall API experience expert came by again, this time to
+    talk about the intersection of OpenAPI extensions and experience. I would
+    say our conversation also intersects with the last conversation I had with
+    her about OpenAPI overlays, but focuses on the need to extend the spec to
+    meet the needs around specific experiences, which may or may not be better
+    addressed with overlays. It is all a very fascinating and ever evolving
+    aspect of the OpenAPI spec world, and I am thankful to have someone so close
+    to the spec to talk through and learn from at the intersection of OpenAPI
+    extensions, overlays, and API experience.
+  date: 2024-12-12 00:00:00 +0000
+  guestName: Lorna Mitchell
+  guestCompany: OpenAPI Initiative (OAI)
+  youtubeId: 6EySYIfPn38
+  url: /store/2024-12-12-lorna-mitchell/
+- title: API Evangelist Conversation with Ben Hutton of The Guild Software
+  description: >-
+    Ben Hutton of the Guild came by to talk about his recent LinkedIn thread
+    about APIs vs SDKs. The topic is an evergreen one that brings out all of the
+    opinions and I enjoy talking with Ben about it to get his pragmatic view of
+    things. Ben has a lot of experience as a software engineer and working on
+    the JSON Schema specification, which I think gives him unique perspective on
+    what is needed when it comes to integrating with APIs. Ben was on my team at
+    Postman, but we are now collaborating on helping people understand the
+    importance of getting their enterprise schema house in order. Thanks for
+    coming by Ben, and I am looking forward to further unpacking what
+    enterprises are needing from schema to SDKs in future conversations.
+  date: 2025-01-06 00:00:00 +0000
+  guestName: Ben Hutton
+  guestCompany: The Guild Software
+  youtubeId: PZ35ayjIbsw
+  url: /store/2025-01-06-ben-hutton-guild/
+- title: API Evangelist Conversation with Reza Shafii, Product Executive At Kong
+  description: >-
+    My friend Emanual had tagged me in one of Reza's posts on LinkedIn about API
+    integrations being dead, so I invitied Reza to come over and explain more
+    about what he meant. I knew the title was bait, but I was interested in
+    hearing Reza's argument and after the conversation it is clear that he's
+    done a lot of thinking at this intersection and wasn't just adding to the AI
+    hype. It was interesting to hear the reasoning for signalling a shift in how
+    we see and abstract away the work APIs are doing, and it was validating to
+    hear that governance will play an important role in KILLING API
+    integrations. ;-) 
+  date: 2025-01-16 00:00:00 +0000
+  guestName: Reza Shafii
+  guestCompany: Kong
+  youtubeId: Sk8HNqE5gtg
+  url: /store/2025-01-16-reza-shafii-kong/
+- title: >-
+    API Evangelist Conversation with Dave Shanley of Princess Beef Heavy
+    Industries
+  description: >-
+    I have been wanting to sit down with Dave for a while now, but I needed to
+    spend more time with Vaccuum to understand where it would fit into my world
+    of API governance. I did that, and then finally got to sit down with Dave
+    Shanley of Princess Beef Heavy Industries, and creator of Vacuum, OpenAPI
+    Doctor, and other important OpenAPI tooling. I finally got the full
+    background of why he felt Spectral was falling short when it came to linting
+    our API specifications, and it was much more than just about speed. I left
+    our conversation with a head full of ideas and a bunch of notes on what is
+    next for API governance and rules, and need to have Dave back talk about
+    OpenAPI Doctor, libopenapi, and his other great work.
+  date: 2025-01-28 00:00:00 +0000
+  guestName: Dave Shanley
+  guestCompany: Princess Beef Heavy Industries
+  youtubeId: XSSyeWPmmAo
+  url: /store/2025-01-18-dave-shanley-princess-beef-heavy-industries/
+- title: >-
+    API Evangelist Conversation with Vincent Biret, Microsoft Graph SDKs
+    Principal Software Developer at Microsoft
+  description: >-
+    I sat down with Vincent Biret, Microsoft Graph SDKs Principal Software
+    Developer at Microsoft to talk about all things integration. I am interested
+    in the intersection of APIs, specifications, and integrations where Vincent
+    operates. Vincent shared his view of important role that OpenAPI plays in
+    taming the Microsoft Graph API landscape, but specifically how it gets
+    applied as part of producer or consumer driven SDK generation using Kiota.
+    Vincent shared all kinds of experience and wisdom at this intersection, but
+    he also shared a pragmatic view of the role APIs, specs, and integrations
+    play when it comes to training LLMs, but also feeding agents deployed on top
+    of those LLMs with the real-time resources and capabilities they will need.
+    It was an illuminating conversation and one I learned a lot, and will be
+    crafting more stories about over the coming weeks.
+  date: 2025-01-29 00:00:00 +0000
+  guestName: Vincent Biret
+  guestCompany: Microsoft
+  youtubeId: Pas9tFKZv-Q
+  url: /store/2025-01-19-vincent-biret-microsoft/
+- title: >-
+    API Evangelist Conversation with Adrian Machado Staff Software Engineer at
+    Zuplo
+  description: >-
+    Adrian Machado from Zuplo came by for a talk on API rate limiting, but not
+    just the technical bits. Zuplo is doing a good job at bridging the business
+    and technical aspects of rate limiting at the API gateway layer, and we had
+    a compelling discussion around how planning your rate limits will shape your
+    overall API business plan. Adrian provided some compelling thoughts around
+    the need for standardization of API rate limits and how we approach the API
+    access plans and policies we are implementing in regions around the globe.
+    After the gateway layer Adrian shared more about the Zuplo ethos of API
+    documentation should be free with their Zudoku offering, something I can
+    definitely get behind. Thanks for the great talk Adrian, come by antyime.
+  date: 2025-01-30 00:00:00 +0000
+  guestName: Adrian Machado
+  guestCompany: Zuplo
+  youtubeId: E1yGw-M75wY
+  url: /store/2025-01-30-adrian-machado-zuplo/
+- title: >-
+    API Evangelist Conversation with Daniel Kocot, Head of API Consulting at
+    codecentric AG
+  description: >-
+    Daniel Kocot came by again to talk about the lines between our private and
+    public APIs. We had been talking about internal, first-party, and
+    third-party APIs back and forth on LinkedIn, and I recommended that he come
+    by and we will have a conversation. He helped me realize that my separation
+    between the layers was more about access, control, and velocity over just
+    about being inside or outside the firewall and DMZ. Daniel sees this for
+    what it is--it is about people. Lines of business, teams, tribes, and
+    partners. Daniel has that very outside-in view of API operations, but
+    Codecentric is being brought inside to solve the big  problems for their
+    customers. Talking with Daniel makes me realize how important it is to have
+    these conversations about our APIs and portals, because not everyone has a
+    handle on the nuance of what is happening at the edge of our enterprises.
+  date: 2025-01-30 00:00:00 +0000
+  guestName: Daniel Kocot
+  guestCompany: codecentric AG
+  youtubeId: YAo-U1bgdwM
+  url: /store/2025-01-30-daniel-kocot-codecentric-ag/
