@@ -1,0 +1,20 @@
+---
+published: true
+layout: post
+title: Simple Or Complex API Collections For Different Levels Of API Consumers
+image: >-
+  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-file-00-00-00-00-frozen-tree-sun-square.jpg
+author:
+  name: kinlane
+tags:
+  - Complexity
+  - Consumers
+  - Collections
+---
+I have been learning a lot about the different ways in which Postman users are using collections in my new role. One of the more interesting use cases I’m tracking on is for assisting the on-boarding of new developers. I can get behind anything that makes it easier for developers or non-developers to get up and running with an API, and some of the creative ways I’ve seen companies craft Postman collections to help reduce friction has inspired me to keep exploring and mining this aspect of putting API definitions to work in my storytelling. One of the most recent use cases I was exposed to in this area, was the crafting of complete Postman collections for more experienced developers, and more simpler ones for newer developers—reducing the cognitive load when it comes to API on-boarding.  
+  
+As a seasoned API veteran, when on boarding with a new API I tend to like to see the full menu being offered, but this belief system regularly leaves me drowning in a state of information overload. Some API providers have hundreds, or thousands of APIs, and depending on the quality of API design and documentation this can be both a good or a very bad thing. To help reduce this overload in their own communites I’ve been seeing some Postman customers crafting specialized on-boarding collections that help define the APIs most new developers are going to care about, pre-populated with the parameters, values, and other details that reduce the friction for them when on-boarding. Helping us get more precise in how we craft our API definitions, being more thoughtful in how we name, organize, and document our APIs using collections—rather than just dumping an overwhelming number of API paths, parameters, schema and documentation on someone.  
+  
+I am going to take some of the more robust API collections I have defined in my API workspaces and begin crafting a more simpler, entry level version of the same collection—with fewer endpoints, and more helpful environments, examples, and other elements. I’m looking to further hone my API collection abilities, pushing me to be more coherent and thoughtful in my presentation of various APIs. As someone who gets APIs, I find it endlessly enlightening to think about the on-boarding of new users to APIs, and push myself to simplify and reduce friction at every turn. This is one of the reasons I am so prolific in my storytelling, is it helps me refine my craft, and help me reach a larger audience. I am looking to develop the storytelling or narrative equivalent in a Postman collection, allowing me to craft a single machine readable file that is also very human accessible and readable.  
+  
+When it comes to crafting API collections I am looking to onboard two types of users: 1) new users who are learning about a specific API, and 2) new users who are just learning APIs. I strongly believe that Postman collections are the key to unlocking both of these areas, and provide me with a portable, shareable, executable representation of an API, that if thoughtfully crafted can go a long way to bridge the gap between someone learning about a single API, or getting started with APIs in general. It will take some practice, and probably the crafting of a couple hundred separate API collections to get to the level I’m envisionining in my head, but once I get there I’m pretty confident I can take my API storytelling to another level. Providing Postman collections for not just individual APIs I’m profiling, but remixing my collections using many different APIs in a single collection, telling a specific story that will speak to any user that I am trying to on-board.

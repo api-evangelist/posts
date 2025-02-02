@@ -1,0 +1,19 @@
+---
+published: true
+layout: post
+title: It Is Hard To Not Just Get To Work Coding My API
+image: >-
+  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-64-132-800-500-0-max-0--5--1-square.jpg
+author:
+  name: kinlane
+tags:
+  - Deployment
+  - Design
+---
+I need a couple of generic APIs for some storytelling and workshop materials. Just some basic example of web API in action managing some common everyday resources like notes, products, and company information. As a developer, I have to admit that it is hard to not just get to work sling’n code to bring an API to life. I’m a full blown API-first believer, and I still struggle with wanting to roll up my sleeves and being code first. As a developer, it is what we do, and it isn’t going to be easy to change behavior, but I find that I need to stop being my own worst enemy, and stop ignoring the benefits of being API-first and invest what in what I need to practice what I preach.  
+  
+My APIs always start with a schema, and in this case I’m going to use [Schema.org](https://schema.org/), keeping my APIs as standardized as possible. Now that I”m evangelizing Postman I’m going to to start all my APIs within the Postman API development environment, starting with a single GET request that returns the seed schema I’m looking to deliver. Then I’ll add a POST, PUT, and DELETE for my API, rounding off the CRUD basics, and fire up a mock using Postman, giving me my API-first capability I need. Then I can make requests to my API, and make available as part of my stories and tutorial, demonstrating how a basic API works. Now that I’m fleshing this idea out, I’m thinking I will also make a how to deploy an API tutorial using the same API. Originally I was just going to use it to show to consume an API, but since I”m going with an API-first approach with my API, there is an API-first lesson in there as well.  
+  
+I think one of the things to get me over my hurdle will be the tooling. To be empowered to go from Schema.org schema to a mock API within a couple minutes, then be able to publish API documentation with one more click and share my working API with team members is pretty convincing. To setup a database, craft the code, and publish documentation using my classic process would take me at least an hour, if not two to three hours. This improved efficiency in crafting new APIs is what is going to change my behavior. I will still need to be able to deploy the resulting API, but that will be something I can workout using a couple of different approaches. I’d say the hurdles around the actual deployment of APIs is one of the reasons I’ve still clung to my old ways of doing things. Even if I’m API-first I still have to ultimately deploy the code or gateway as part of the lifecycle of the API—something I’m looking to streamline.  
+  
+This reality of API-first on the ground within the enterprise is something I’m looking to explore further. If you are struggling with convincing your teams to go API-first I’d love to hear your thoughts on why. It is something I’m looking to shine a light on, and understand what factors prevent organizations from realizing API-first. I know it is something that many dream about realizing, but something that rarely gets fully realized on the ground. I want to know why. I’m sure there are a number of reasons, but I’m guessing that more streamlined processes, and tooling assists will go a long way towards tipping the scales towards embracing API-first. Well I have some more work to do on [my Schema.org JSON schema files](http://schema.org.apievangelist.com/) before they are ready for mocking as APIs, but once I do I will publish a more comprehensive blog post here, and work to craft some more formal walkthroughs of how to actually do what I am talking about using Postman.

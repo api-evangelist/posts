@@ -1,0 +1,18 @@
+---
+published: true
+layout: post
+title: Governing API Products vs Governing APIs
+tags:
+  - Governance
+  - Products
+  - Business
+image: >-
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-corner-shirt-waist-factory.jpeg
+---
+The number one thing I learned over the last year of getting hands-on with API governance is that it won’t be enough to govern APIs, because APIs are just the symptom of what flourishes inside the firewall of any enterprise. Don’t get me wrong, there will be a lot of money to be paid selling API governance services to the enterprise, but it is not going to tame and bring order to the API sprawl that exists. The reasons why APIs are inconsistent goes beyond what defining a set of Spectral rules and injecting into your CI/CD pipeline can accomplish, but it is where most enterprises are beginning their API governance journey.
+
+I was neck deep in developing Spectral rules for versioning APIs, but also the specifications that define them. I was thinking through the technical and business details of versioning, as well as how I guide teams forward when it comes to change. I think this is one of the best examples I can find for explaining why governing APIs won’t be enough. While developers bikeshed over the proper way to version your APIs with date or Semantic versioning, in the path or in the header, there are larger business forces at play that render these things meaningless. Meaning, while technologists squabble over versioning and are left scratching our heads why versioning didn’t work, business stakeholders who could give a shit less about versioning are changing teams, priorities, and deadlines around everything.
+
+Since us technologists tend to live within our little insulated tech worlds we only see them and care about the technical details, when in reality business decisions are what shape everything. If there is no versioning for product level decisions, communication and rules enforcing business decisions—why even bother? This is why I am determined to elevate and expand API governance to something beyond just the technical details. While it isn’t my favorite phrase, I think it speaks to what is happening on the ground—I recommend that we govern our API products, instead of governing our APIs. I am just not convinced that governing the technical details of versioning and even the wider communication around the technical details are enough. If business and product leadership are playing by an entirely set of rules, why even bother with the technical governance?
+
+I tend to speak about this in terms of governing the enterprise, but I think that is too big for most people to wrap their heads around and will collide with other governance and compliance efforts. This is why I am using the phrase “governing API products”—so we can include more of the business details alongside the technical details we are developing policies and rules for. We’ll see how well I do with this phrasing and if I get any interest from folks on it. I think most technologists are happy to try and just throw new services and tools at governance and keep spinning our wheels in our space. However, if we really are looking to have an impact in our work then we need to start looking at the big picture. Governance is much bigger than just the APIs—they are just what is carrying the load of the technology, business, policies, and people of enterprise operations.

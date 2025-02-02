@@ -1,0 +1,24 @@
+---
+published: true
+layout: post
+title: >-
+  We Need Fast Healthcare Interoperability Resources (FHIR) API Arazzo Workflows
+  to Deliver the Real World Healthcare Experiences
+tags:
+  - FHIR
+  - Healthcare
+  - Workflows
+  - OpenAPI
+  - Arazzo
+image: >-
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-hallway-long-hospital.jpg
+---
+It has been a decade since I first began playing around with the [Fast Healthcare Interoperability Resources (FHIR) API](https://hl7.org/fhir/http.html). I first got a look at it while at Health and Human Services (HHS) while working in D.C. for the Department of Veterans Affairs (VA). Since then I’ve immersed myself in the technical details of the healthcare API standard using [the OpenAPI](https://hl7.org/fhir/us/core/us-core-server.openapi.json) at regular intervals as I help folks think through what is possible using the API standard. As with most technical specifications at this level, FHIR is robust and detailed, and something you need to be steeped in before it begins making sense—something that I lose after not being in there for a while. This see-saw motion of understanding and not understanding the details of FHIR, always leaves me pondering the importance of storytelling at this layer.
+
+Storytelling is so very important in helping bridge the technical details of APIs with the business details and the impact APIs will have on humans. In 2016, I was skeptical about FHIR getting traction, but by 2021, I knew that the healthcare API standard is here to stay. There are enough implementations and regulations in place, as well as adoption outside of the United States, FHIR is here to stay. But, this doesn’t mean we are over the hard part—-we still have to train and equip thousands of developers to understand the specification, and wield the API specification to meet the needs of thousands of business stakeholders who know nothing about APIs, let alone the details of FHIR. So, how are we going to do this? Workflows and stories. This is where [the Arazzo specification](https://spec.openapis.org/arazzo/latest.html) and [Bruno Collections](https://bit.ly/4fpe6FO) come into the equation to help us make the very robust and complete OpenAPI for the FHIR specification better fit the realities of healthcare on the ground in our homes and hospitals for human beings.
+
+<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-old-piano-paris-hospital.jpg" style="padding: 15px;">
+
+The Fast Healthcare Interoperability Resources (FHIR) API needs some hands-on storytelling work-shopping. We need engineers paired up with product people to craft meaningful healthcare workflows that can be applied in everyday healthcare situations. We need the wealth of digital resources represented in the OpenAPI FHIR specification to be work-shopped into meaningful healthcare workflows defined as the Arazzo specification, with accompanying stories about how the workflow operates and why it matters. We need this repeated for the next 3-5 years before we will begin to see the real impact of the FHIR specification. This is the work that technologists and investors take for granted. This is the work that business stakeholders don’t always understand or have the skills to do. This is how you take a complex and robust interface and make it usable across thousands of healthcare applications and integrations.This is how you educate and make business and engineering stakeholders aware of the importance of APIs, but also standardized APIs, as part of their regular work each day within the healthcare system.
+
+This is the work that I do. Translating APIs into stories that matter to the humanz. Telling them over and over. Demonstrating how it works and why they matter. Until some people understand and join in on the storytelling and demonstrating. If you do this work in a hands-on, stackable, and forkable way that is wrapped in a compelling and meaningful story, it is work that will travel a long way and have a potentially huge impact. [As I do the work to break up the FHIR specification that I have in a GitHub repository into much smaller OpenAPIs](https://github.com/api-evangelist/fhir), and augment them with Bruno and Postman collections, I am reminded of the scale and scope of this work. It is something I got a taste of working in Washington D.C. over the years. It is something that is much bigger than me, but it is incremental and meaningful work that an individual can do that has the potential to help thousands or millions of people down the road. If you are interested, I can help from the Git, OpenAPI, and Bruno collection side of things. I can also help with the storytelling piece. But where I am lacking is the real world healthcare realities that the FHIR specifically comes up against with applied in real world settings—-if you have this knowledge, maybe we can join forces.

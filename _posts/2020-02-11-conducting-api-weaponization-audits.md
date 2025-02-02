@@ -1,0 +1,16 @@
+---
+published: true
+layout: post
+title: Conducting API Weaponization Audits
+image: >-
+  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/nazi-invasion-surveillance-cameras_36569244062_o.jpg
+author:
+  name: kinlane
+tags:
+  - Audits
+---
+Let’s take what we’ve learned from Twitter, Facebook, Youtube, and others. Let’s look at the general security landscape, but let’s get more creative when it comes to coloring within the lines of an API platform, but in unexpected ways. Let’s get women and people of color involved. Let’s focus on ways in which a platform can be abused. Using the web, mobile, device, or APIs underneath. I’d like to consider security, privacy, reliability, observability, as well as out of the box ways to game the system. Let's assume that nobody can be trusted, but recognizing we still need to offer a certain quality of service and community for our intended users. I am guessing it won’t be too hard to hire a savvy group of individuals who could poke and prod at a platform until the experience gets compromised in some harmful way. 
+
+Like chaos engineering, I’m guessing most organizations wouldn’t be up for an API weaponization audit. It would reveal some potentially uncomfortable truths that leadership probably isn’t too concerned with addressing, and lower levels probably would not have the operational bandwidth to address. I am guessing you’d learn a lot with each platform targeted. Both target organization, but also collectively across organizations, and across different industries. How you weaponize a social platform versus a video platform will probably shine a light on different tactics. You really would have to look at not just the technical weaponization opportunities, but also the alignment with or against the business model. Like how hate and harassment can be a positive signal when it comes to advertising. Thinking not just how the technology is abused, but how the business model actually incentivizes bad behavior, or at least looking the other way while it is going on.
+
+Unfortunately security, privacy, and observability are already some of the most malnourished aspects of API operations, so I am not holding out much hope API weaponization audits. However Is till like putting these ideas out there and letting them simmer and even fester. If nothing else it should remind us to at least put a minimal amount of thought into how our platforms might be potentially used in negative ways. Plant that seed in the back of our minds that there is one more layer of threats lurking out there in the shadows of the platforms we are assembling. That despite our best technical and business intentions there are forces out there who will use our own tools against us and our communities. Revealing the darker side of not just how we view and wield technology, but also the human side of our operations, and that like the physical world around us, there are massive dark spots that exist across our digital platforms where we should be shining a light on, otherwise something or someone might take root in these spaces in ways we never imagined.

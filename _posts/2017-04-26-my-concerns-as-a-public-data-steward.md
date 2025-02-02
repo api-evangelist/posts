@@ -1,0 +1,33 @@
+---
+layout: post
+title: My Concerns As A Public Data Steward
+image: >-
+  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/data_steward.png
+atomdate: 2017-04-26T22:00:00.000Z
+tags:
+  - My
+  - Data
+  - Public Data
+  - Public
+---
+_This is a multipart story on monetizing public data using APIs. I have_ spent _the last seven years studying over 75+ aspects of the API delivery_ lifecycle _across companies, organizations, institutions, and government agencies. This project is designed to be a distillation of my work to help drive a conversation around sensible and_ pragmatic _revenue generation using public data--allowing the_ city_, county, state, and federal government agencies to think critically about how open data efforts can exist and grow. It lives as a standalone repository, as well as individual stories that are meant to stand on their own, while also contributing to an overall narrative about public data monetization._
+
+I am a database person. I have had a professional career working with databases since 1987 when I began working with COBOL databases as part of student information systems in the State of Oregon. After the Internet became a thing in 1996 I began to architect a variety of database driven web applications. Ten years later, as the cloud began to form, I began architecting distributed data-driven systems using web technology, aka APIs. I understand data. I understand the challenges of being a data administrator, operator, and steward. I wanted to take this experience and awareness and apply it to helping data operators and stewards become more successful when it comes to achieving their mission. 
+
+As part of this exercise, I wanted to put on my data steward hat for a few, and think about my needs when it comes to monetization of my data. While this project is focused on the monetization of public data, in reality, much of the logic can also be applied to any type of data, it just depends on your view of the data landscape--here is what comes to mind: 
+
+*   **Hard Work** \- I have invested a lot of time and resources into my data. This wasn't just a one-time thing. I am perpetually investing in my data, and I would like to see this reflected and respected in all partner engagements I have, wherever my data is used.
+*   **Hard Costs -** There are hard costs involved with managing my data, including storage, compute, and bandwidth charges. These costs are a big concern for me as a small business operator, and something that will only increase as my data expands, evolves, and is consumed by a larger audience.
+*   **Quality Control -** I am extremely concerned about the quality of data, and my process, domain expertise, and overall experience contribute significantly to the quality of my data, and its value to my partners, and the general public.
+*   **Provenance -** Where data comes from is important to me. I keep track of all the sources of where my data comes from. I keep a detailed log of the provenance of data as it is acquired, and ingested into any system. I expect my partners to respect this practice.
+*   **Accessibility** - It is important that my data is accessible to all key stakeholders. I want to have a master list of all stakeholders, and ensure frictionless access to exactly the data I want them to have, and nothing more. I want to be able to allow and revoke access as I see fit.
+*   **Security** - It is vital that all data is secured in storage, in transport, and across partner systems. Security should be built into all aspects of my data life cycle, and something that is easily explained to partners and can be measured and reported upon.
+*   **Revenue** \- I want to be able to generate revenue to invest back into the acquisition, development, and management of my data resource. It costs money to do what I do, resulting in an extremely valuable resource that is desirable by a large audience--I should be able to derive revenue from this when it is ethical and makes sense, especially when it comes to engaging with other commercial entities.
+
+I am sure there a number of concerns for data administrators, operators, and stewards from different sectors, but generally speaking, as a data steward, these are the top concerns for me. Whether I'm working in a small business, large enterprise, organization, institution, or government agency, these are going to be some of my most immediate concerns. No matter how my budget works, I'm going to need a way to quantify the direct and indirect costs, and translate this to some value to someone--being able to generate sensible revenue is an important part of making sure data is 1) accessible, but also 2) continues to deliver value to all stakeholders at the table.
+
+This is just one component in a larger argument about generating revenue from public data using APIs, but when we are talking about publicly available data, most conversations are going, to begin with, and continue to focus on the data operator or steward. I choose to label my role as a data steward, over user the phrase data operator, because I usually have a personal stake in the data I'm managing--it is just the way I do business. This isn't always the case, but in my experience, when someone cares about the data they are managing, the quality is always better, and the value significantly increases, deserving a separate descriptor.
+
+This post is crafted while thinking about my own data projects, ranging from my data driven [API Evangelist](http://apievangelist.com) research to my [Adopta Agency](http://adopta.agency) work. I depend on data to operate my business. I also depend on other data providers to operate my business. Some of these data providers are government agencies who are severely underfunded, and I want them to be more successful in what they do, and generate the revenue they need to meet their objectives, but also stay in operation for my own selfish needs. Much like minerals, water, and trees on public lands, there is a lot of value in the public data resources out there, and this is just an exercise to open up an honest discussion around how we might possibly generate revenue from public data.
+
+_You can keep an eye on [my public data monetization research via a separate site](http://public.data.monetization.apievangelist.com/)\--I will be adding each segment here on the blog, as well as the individual project website. You can participate [via the Github repository I am using to manage all my work in this area](https://github.com/adopta-agency/public-data-monetization)._
