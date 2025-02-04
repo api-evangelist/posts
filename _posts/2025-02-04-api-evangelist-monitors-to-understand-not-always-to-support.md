@@ -8,7 +8,7 @@ tags:
   - Policies
   - Monitoring
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-eeob-white-house.jpg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-border-down-the-fence-line.jpg
 ---
 We get some folks asking why we would share a post about an AI API from a company that is negatively impacting their world or sharing a link to the latest announcement from Facebook or Twitter API. Why on earth would API Evangelist support and amplify these companies when it is so clear they aren’t doing any good? It is important to understand that first and foremost API Evangelist is about learning, strenghhening our awareness, and shining a light into the cracks of the technology, business, policies, and people of APIs. We aren’t  in the business of amplifying and showcasing just API technology, and when we post something about a company, there is almost always a reason why we saw it as relevant, and we are always evaluating several dimensions.
 
