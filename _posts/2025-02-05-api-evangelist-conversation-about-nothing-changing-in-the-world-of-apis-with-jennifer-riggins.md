@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: API Evangelist Conversation About Nothing Changing in the World of APIs with Jennifer Riggins
+title: API Evangelist Conversation About Nothing Changing in the World of APIs With Jennifer Riggins
 tags:
   - Management
   - Platforms
