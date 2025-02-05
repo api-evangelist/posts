@@ -1,13 +1,12 @@
 ---
 published: true
 layout: post
-title: Real-Time Vacuum Sealed API Governance Reports Over Time
+title: API Evangelist Conversation About Nothing Changing in the World of APIs with Jennifer Riggins
 tags:
-  - Spectral
-  - Vacuum
-  - Governance
-  - Reports
-  - Dashboards
+  - Management
+  - Platforms
+  - Changes
+  - Operations
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/american-dream-fundamental-old-small-town-buildings.jpeg
 ---
