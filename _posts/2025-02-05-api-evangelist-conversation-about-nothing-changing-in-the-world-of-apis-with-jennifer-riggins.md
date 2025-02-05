@@ -10,7 +10,7 @@ tags:
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/american-dream-fundamental-old-small-town-buildings.jpeg
 ---
-Tech storyteller and journalist Jennifer Riggins came by for a conversation after her post in [The New Stack about why nothing has changed in the world of APIs for the last fifteen years](https://thenewstack.io/the-state-of-api-management-in-an-age-of-ai-insecurity/). Jennifer and I go all the way back to the beginning, and she has seen all the same things I've seen. We both complained a bit about the impacts of AI, but really found that most of the lack of change has been a business thing and not really just technical. I like Jennifer's focus on developers in this moment, and she got me thinking about the relationship between the legacy API management we both have lived through and this new platform reality we operate within.
+[Tech storyteller and journalist Jennifer Riggins came by for a conversation](https://conversations.apievangelist.com/store/2025-02-05-jennifer-riggins/) after her post in [The New Stack about why nothing has changed in the world of APIs for the last fifteen years](https://thenewstack.io/the-state-of-api-management-in-an-age-of-ai-insecurity/). Jennifer and I go all the way back to the beginning, and she has seen all the same things I've seen. We both complained a bit about the impacts of AI, but really found that most of the lack of change has been a business thing and not really just technical. I like Jennifer's focus on developers in this moment, and she got me thinking about the relationship between the legacy API management we both have lived through and this new platform reality we operate within.
 
 <style>
   .youtube-video {
