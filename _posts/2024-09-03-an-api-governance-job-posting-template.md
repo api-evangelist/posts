@@ -9,6 +9,9 @@ tags:
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-chess-in-the-park-with-pigeons.jpg
 ---
+<div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center;">
+  <a href="https://apievangelist.com/#knowledge">Join Our Weekly API Governance Knowledge Bulding Sessions</a>
+</div>  
 I have been mulling over everything I found included in the five API governance job posts I came across the previous week. As I said, there was a lot being asked across those job posts, and the way qualifications, responsibilities, and skills were used was bothering me--they are very jumbled. The other thing that really bothered me was how all of the  job postings focused on it being this single persons job to do everything as opposed to them being the definer, facilitator, coordinator, and communicator with other business and engineering stakeholders to do the work. This will be the reason 90% of the API governance efforts fail in the enterprise--it is up to one person to enforce change, and not everyone across the enterprise to step up and contribute to the change.
 
 Here is my current template for anyone looking to post a job opening for someone to lead API governance. It is still too much, and I suggest trimming it down a bit, picking and choosing what really matters to you and your organization. I have tried to keep qualifications, responsibilities, and skills distinct, while also adding a goals section to provide some direction.
