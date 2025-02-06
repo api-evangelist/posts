@@ -10,6 +10,9 @@ tags:
   - Governance
   - Observability
 ---
+<div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center;">
+  <a href="https://apievangelist.com/#knowledge">Join Our Weekly API Governance Knowledge Bulding Sessions</a>
+</div>  
 I just got back to Seattle from Washington DC after spending a day talking about data governance at [the Data Governance Design Conference](https://www.governingdata.org/). I thoroughly enjoyed the on-stage discussions as well as the hallway, and cocktail party conversation around the increasing importance of the governance of data online. I have a notebook full of thoughts from the event, and a head full of ideas after a plane ride home. I’ll be doing some more writing on the subject, but I wanted to lay the foundation of how I see the world of data governance, which is a much more technical view of things, but also overlaps nicely with the policy view of the landscape I just experienced.
 
 The group participating in the #DGDC discussions were much more focused on the important big picture elements, and the human call to action when it comes to data governance. I learned a lot listening to these smart folks share their expertise on the world stage, and I mostly just listened and absorbed what was going on around me, occasionally sharing a bit of perspective from my view of the landscape. I have a much more technical view of the landscape, but I am captivated by the policy level discussions that were going on, which are much more closer to what I consider to be the human side of the discussion, and how laws are made to dictate what happens or doesn’t happens in countries around the globe. Coming out of the discussion I wanted to flesh out the building blocks of my technical view of the landscape, and re-evaluate them in terms of what I have heard at the event.

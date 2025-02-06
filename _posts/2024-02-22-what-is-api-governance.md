@@ -12,7 +12,7 @@ tags:
 ---
 
 <div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center;">
-  <a href="https://apievangelist.com/#knowledge">Join Our Weekly API Governance Knowledge Bulding Session</a>
+  <a href="https://apievangelist.com/#knowledge">Join Our Weekly API Governance Knowledge Bulding Sessions</a>
 </div>  
 
 One thing I like about this blog format is that I can use the title, “What is API Governance”, over and over. Each blog post has the date timestamped in the title, so It captures my thoughts on the subject over time. Using my blog to work through complex concepts over time is how I govern the velocity of my career, speeding up and slowing down as required, to help me find the signal in the noise. I am the API governance lead at Bloomberg. I have helped define and shape the world of API governance as Chief Evangelist at Postman, my work on OpenAPI, AsyncAPI, JSON Schema, Spectral, and as the API Evangelist. I should know what API governance is, but I know enough to know that this definition is fluid and changes over time. So I am perpetually looking to ask this question and continue to test my understanding along the way.
