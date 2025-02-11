@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: API Governance: 10% Care, 60% Don’t Have Time, 30% Don’t Care
+title: 'API Governance: 10% Care, 60% Don’t Have Time, 30% Do Not Care'
 tags:
   - Governance
   - Politics
@@ -17,5 +17,6 @@ When you crunch the number of visits, engagement, and contribution across the se
 
 The trick with all of this is how do you stay on track with the work needed to support the 10% of folks—they need you the most. Then convert as many of the 60% as you can with snackable guidance and support in motion so that you demonstrate that you truly want to make your life easy. After that you just hope that your bosses have enough power and support to give you the cover you need to not let those who don’t care derail your work, bog you down in meetings, and require yet another round of documentation and evidence to show that API governance matters. It is very important that your API governance is seen as guidance and not just enforcement, otherwise you cannot move people from the 60% into the 10% bucket, otherwise the 30% bucket will increase and evidence will gather that API governance is just yet another bottleneck in the way of enterprise progress. 
 
+P.S. Just because you do not care does not make you a bad person--there are plenty of valid reasons why people are pushed into not caring.
 
 
