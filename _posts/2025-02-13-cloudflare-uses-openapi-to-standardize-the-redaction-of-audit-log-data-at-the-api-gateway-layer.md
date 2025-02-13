@@ -14,7 +14,7 @@ image: >-
 
 Each HTTP request to the API gateway, along with its corresponding request and response data, is forwarded to a Worker called the Audit Log Redactor—the API Gateway streams these requests to the redactor Worker via RPC (Remote Procedure Calls) using service bindings. This excerpt from the Cloudflare blog describes the process pretty clearly, something that could be applied across any API gateway.
 
-<blockquote>
+<blockquote><i>
 Once the Worker receives the HTTP request, it references the Cloudflare OpenAPI Schema to handle sensitive information.       OpenAPI is a widely adopted, machine-readable, and human-friendly specification format that is used to define HTTP APIs. It relies on JSON Schema to describe the API’s underlying data.  
 
 Using the OpenAPI Schema, the redactor Worker identifies the corresponding API schema for the HTTP request. It then redacts any sensitive information, leaving only those explicitly marked as auditable in the schema. This redaction process ensures that no sensitive data progresses further down the pipeline while retaining enough information to debug and analyze how an action impacted a resource’s value.
@@ -22,7 +22,7 @@ Using the OpenAPI Schema, the redactor Worker identifies the corresponding API s
 Each Cloudflare product team defines its APIs within the OpenAPI schema and marks specific fields as auditable. This provides visibility into resource changes while safeguarding sensitive data.
 
 Once redacted, the data moves through Cloudflare’s data pipeline. This pipeline includes several key components including Logfwdr, Logreceiver and Buftea buffers, where the sanitized data is eventually pushed, awaiting further processing.
-</blockquote>
+</i></blockquote>
 
 Audit log redaction sounds like a perfect use case for [OpenAPI overlays](https://www.openapis.org/blog/2024/10/22/announcing-overlay-specification). It could be an OpenAPI overlay that is created by each team and then governed as part of a standard set of policies and Spectral or Vacuum rules. OpenAPI is used to generate API documentation, mock servers, SDKs, and is a configuration file for the API gateway. The more surface area of the OpenAPI your API gateway supports the better. Bonus points when your API gateways do what Cloudflare does, and extends the OpenAPI specification to standardize other common aspects of our API operations.
 
