@@ -22,7 +22,7 @@ Using the OpenAPI Schema, the redactor Worker identifies the corresponding API s
 Each Cloudflare product team defines its APIs within the OpenAPI schema and marks specific fields as auditable. This provides visibility into resource changes while safeguarding sensitive data.
 
 Once redacted, the data moves through Cloudflare’s data pipeline. This pipeline includes several key components including Logfwdr, Logreceiver and Buftea buffers, where the sanitized data is eventually pushed, awaiting further processing.
-<blockquote>
+</blockquote>
 
 Audit log redaction sounds like a perfect use case for [OpenAPI overlays](https://www.openapis.org/blog/2024/10/22/announcing-overlay-specification). It could be an OpenAPI overlay that is created by each team and then governed as part of a standard set of policies and Spectral or Vacuum rules. OpenAPI is used to generate API documentation, mock servers, SDKs, and is a configuration file for the API gateway. The more surface area of the OpenAPI your API gateway supports the better. Bonus points when your API gateways do what Cloudflare does, and extends the OpenAPI specification to standardize other common aspects of our API operations.
 
