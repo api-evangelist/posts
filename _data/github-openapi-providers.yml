@@ -116,3 +116,6 @@
 - name: Akamai
   grade: C
   url: https://github.com/akamai/akamai-apis
+- name: Auth0
+  grade: C
+  url: https://github.com/aminya/auth0-openapi
