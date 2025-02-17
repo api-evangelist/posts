@@ -14,6 +14,6 @@ As the [3.2 version of the OpenAPI specification](https://github.com/OAI/OpenAPI
 
 - **Shared Model** - You get OpenAPI 3.1, 3.2, and on into the future available as a single model.
 - **Flatten Time** - libopenapi flattens every version of OpenAPI across time into a single model.
-- **Graceful Degradation** - Centering around using the latest version, but fills back whenever needed.
+- **Graceful Degradation** - Centering around using the latest version, but falls back gracefully.
 
 The road from Swagger 2.0 to OpenAPI 3.0 has been bumpy. Even the journey from OpenAPI 3.0 to OpenAPI 3.1 has been bumpy. While one can hope 3.2 and beyond will now be paved freeway, it makes even more sense to rely on libopenapi to abstract away the changes. This is just one of many industrial-grade capabilities worthy of shining a spotlight on when using libopenapi to help stabilize enterprise API governance.
