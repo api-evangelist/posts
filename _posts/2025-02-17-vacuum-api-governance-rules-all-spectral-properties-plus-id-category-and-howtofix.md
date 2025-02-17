@@ -26,9 +26,9 @@ When looking at the diff between the [JSON Schema for Spectral rules](https://gi
 
 Vacuum opens up additional opportunities by adding in three new properties that help stabilize the identification, organization, and application of rules against OpenAPI or any other artifact being governed.
 
-- **howToFixn** - Instructions on how to fix the document to comply with the rule.
-- **idn** -  Allow backwards compatibility, and the freedom to rename each rule.
-- **categoryn** - Enables more structure categorization for applying within tools.
+- **howToFix** - Instructions on how to fix the document to comply with the rule.
+- **id** -  Allow backwards compatibility, and the freedom to rename each rule.
+- **category** - Enables more structure categorization for applying within tools.
 
 The combination of tags and categories opens up more meaningful discovery and application of rules in services and tooling, but should also be evaluated against [the OpenAPI 3.2 tagging additions](https://apievangelist.com/2025/02/04/take-a-look-at-the-proposed-openapi-32-tag-object/). The howToFix provides another layer of guidance for anyone who encounters a rule in their work, and opens the door for other automated approaches to fixing individual document properties, or done in bulk, as with [APIMATIC in VSCode](https://marketplace.visualstudio.com/items?itemName=apimatic-developers.apimatic-for-vscode). A Spectral or Vacuum API governance rule represents a single configuration for a single aspect of enterprise API governance, and shining a spotlight on each approach to defining rules, each individual property, and guidance for teams will become increasingly essential for getting traction with enterprise API governance at scale.
 
