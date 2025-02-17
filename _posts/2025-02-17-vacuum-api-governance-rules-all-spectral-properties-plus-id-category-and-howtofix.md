@@ -8,7 +8,7 @@ tags:
   - Spectral
   - Vacuum
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-beach-water-spain.jpg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-statue-supreme-court.jpg
 ---
 When looking at the diff between the [JSON Schema for Spectral rules](https://github.com/stoplightio/spectral/blob/develop/packages/core/src/ruleset/meta/rule.schema.json) and the [JSON Schema for Vacuum rules](https://github.com/daveshanley/vacuum/blob/main/rulesets/schemas/rule.schema.json), you learn that you have all of the same capabilities available in a Spectral rule, but with Vacuum you get a few additional properties. [Vacuum is a top to bottom reworking of what an API governance linter can be](https://bit.ly/4b5iU1C), one that is backwards compatible with Spectral rules, while brining the performance needed for managing large and complex OpenAPIs at scale. Vacuum supports all of the base properties of a Spectral rule, ensuring backward capability between the two formats across these properties
 
