@@ -16,3 +16,5 @@ Learning OpenAPI takes time and work. Producing robust and complete OpenAPI for 
 - **Remote references** - Looking for references using a valid URL.
 
 [Using libopenapi you can transform any OpenAPI into a rolodex, but with more planning an investment into how you use references across common API resources, capabilities, and components, it can become the rolodex for all of your enterprise digital resources](https://bit.ly/4hAxBf2). Right now you are defining all of your digital resources using OpenAPI across many locations, but once you also begin to organize those resources into capabilities and experiences defined as Arrazzo specification, and libopenapi expands the rolodex to include workflows—this will get interesting. Let’s hope the kids know what a rolodex is, because having one of all your digital resources, capabilities, and experiences will make all of our lives easier.
+
+<center><a href="https://pb33f.io/libopenapi/rolodex/"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/libopenapi/rolodex-architecture.png" style="width: 100%; margin: 10px;"></a></center>
