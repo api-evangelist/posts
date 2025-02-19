@@ -10,7 +10,7 @@ tags:
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-times-square-up-road.jpg
 ---
-<div id="commit-banner" class="alert alert-success" role="alert" style="text-align: center; display: none;">
+<div id="commit-banner" class="alert alert-success" role="alert" style="text-align: center;">
   <a href="https://github.com/api-evangelist/api-pulse">The API Pulse Schema</a>
 </div>
 All of the existing API industry reports available today collectively fall short in providing the balance needed to understand the state, health, and wellness of the API space, which is a space that spans across almost every other business sector and impacts almost every aspect of our lives--raising the stakes considerably. Reports from Gartner, Forrester, and other analysts provide what enterprise IT decision makers need to assess the space, and SmartBear, Postman, and other vendors further augment this information with their vendor view of things from the consumer view as it pertains to testing, security, and an odd mix of other properties of our API operations. But to effectively understand the state of the API space with all of collective future in mind we need to begin looking at things with a more human-centered and vendor neutral approach that reduces the emphasis on just selling API solutions and feeding sales pipelines in this moment.
@@ -66,6 +66,6 @@ This is the road map as of today, but will change based upon work accomplished a
 
 I am very keen on keeping things simple, low-tech, while not worrying about getting everything 100% in the first version, accepting that we can try again in the fall, keeping the heart beat going while versioning the schema. The API Pulse should be a regular heartbeat of people who is doing APIs across every industry throughout the year with actual API year over year progress that does not simply go away because a startup got acquired or a startup CEO loses interest in what truly matters to people on the ground within enterprises, small businesses, government agencies, and startups. 
 
-<div id="commit-banner" class="alert alert-success" role="alert" style="text-align: center; display: none;">
+<div id="commit-banner" class="alert alert-success" role="alert" style="text-align: center;">
   <a href="https://github.com/api-evangelist/api-pulse">The API Pulse Schema</a>
 </div>
