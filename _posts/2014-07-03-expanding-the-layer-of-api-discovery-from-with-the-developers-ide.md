@@ -12,10 +12,6 @@ tags:
   - Discover
   - Developers
 ---
-/kinlane-productions2/
-
-[![](https://s3.amazonaws.com/kinlane-productions/eclipse/eclipse-ide-logo.jpeg)](http://www.eclipse.org/)
-
 Much like API [design](http://design.apievangelist.com) and [integration](http://integration.apievangelist.com), the world of [API discovery](http://discovery.apievangelist.com) is heating up in 2014. We are moving beyond the API directory as our primary mode of API search, in favor of a distributed approach using APIs.json, and supporting [open source search engines like APIs.io](http://apievangelist.com/2014/07/03/an-open-source-distributed-api-evangelist-engine/). Another area of API discovery I’ve been [watching for a while](http://apievangelist.com/2011/06/18/integrated-development-environment-ide-for-apis/), and predict will become an important layer of API discovery, will be via the Integrated Development Environment (IDE) plugin.
 
 **Open Source SalesForce API IDE Plugin**  

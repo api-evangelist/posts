@@ -9,8 +9,6 @@ tags:
   - Mobile
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/university-of-michigan-logo.png)](http://developer.it.umich.edu/)
-
 I am continuing my [research into how universities are using APIs](http://university.apievangelist.com/), and while I was going through the developer areas for the universities I track on, I noticed an interesting mobile developer toolkit, from [University of Michigan](http://developer.it.umich.edu/).
 
 When you land on the homepage of the [University of Michigan developer portal](http://developer.it.umich.edu/), to the right you will see some valuable resources that is looking to help developers think through the bigger picture of designing, developing, deploying, testing and distributing, mobile application that are built on campus resources.

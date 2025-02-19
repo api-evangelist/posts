@@ -10,8 +10,6 @@ tags:
   - Search
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apis-io/apis-io.png)](http://apis.io/)
-
 I wanted to stop and reflect for a moment on the open source, distributed API search engine, that [3Scale](http://bit.ly/13esk6Q) and API Evangelist developed, in support of the [APIs.json discovery format](http://apisjson.org/). When we conceived the APIs.json API discovery format, we knew that the project would be dead in the water, if there wasn’t a clear incentive for API providers to generate an [APIs.json](http://apisjson.org/)—helping them get their APIs found.
 
 Until 2014, when you said "search for APIs", it meant going to a website ([programmableweb.com](http://programmableweb.com)), and searching for an API in a curated directory of APIs. In the last couple years, we’ve seen an evolution on this directory search model from Mashape, in the form of a hub or marketplace. Managed directories have their place in the world of API discovery, similar to the web directory realm, but as the number of APIs grow, we are desperately needing to go beyond just directory based API discovery, and like with the web, establish a meaningful search layer—we need a Google of API search.

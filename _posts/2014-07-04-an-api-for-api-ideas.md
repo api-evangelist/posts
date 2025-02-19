@@ -8,10 +8,6 @@ author:
   name: kinlane
 tags: []
 ---
-/kinlane-productions2/
-
-[![](https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-light-bulb-bright.png)](http://ideas.apievangelist.com/)
-
 I have a lot of ideas while being the API Evangelist. It just comes with the territory. I have an Evernote folder that I publish these ideas to, and some of them, like my [Screen Capture API](http://screen-capture.apievangelist.com/), I actually make a reality.
 
 The other night while writing, [Shadow API: Launching An API Before Someone Else Does](http://apievangelist.com/2014/07/02/shadow-api-launching-an-api-before-someone-else-does/), I went to add the Nebraska homestead record API idea to my Evernote, and I said, ENOUGH! I need a public place to store these ideas, and while I'm at it, I'll enable others to publish ideas there too.

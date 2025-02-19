@@ -14,8 +14,6 @@ tags:
   - APIs
   - APIs.jso
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png)](http://apisjson.org/)
-
 I recently updated my APIs.json files for all my API Evangelist network domains, to use version 0.14, which is getting pretty close to a stable version. While I await [APIs.io](https://bit.ly/1mtaqmK) to be updated to use this version, I wanted to to spend some time publishing APIs.json files, but this time across federal government APIs.
 
 The thing I like most about APIs.json, is that you can do one for anybody else’s APIs. In the case of our federal government, I don't anticipate any agency getting on board with APIs.json anytime soon, but I can do it for them! There are a lot of APIs in federal government, where do I get started?

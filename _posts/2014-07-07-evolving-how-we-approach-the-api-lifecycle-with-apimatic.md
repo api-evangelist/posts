@@ -8,8 +8,6 @@ author:
 tags:
   - Lifecycle
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apimatic/apimatic-logo.png)](https://apimatic.io)
-
 I’ve expanded my monitoring on the world of APIs, from just API management, which I’ve been doing for four years, into tracking on APIs across multiple buckets I'm calling [design](http://design.apievangelist.com "API Design"), [deployment](http://deployment.apievangelist.com "API deployment"), [management](http://management.apievangelist.com "API Management"), [monetization](http://monetization.apievangelist.com "API monetization"), [evangelism](http://evangelism.apievangelist.com "API Evangelism"), [discovery](http://discovery.apievangelist.com "API discovery"), [integration](http://integration.apievangelist.com "API integration"), [aggregation](http://aggregation.apievangelist.com "API aggregation"), [reciprocity](http://reciprocity.apievangelist.com "reciprocity"), and [real-time](http://realtime.apievangelist.com "API real time"). I am always working to understand who the key players are across the API space, but also make sure they are categorized into one, or many of these expanding buckets--helping me quantify things.
 
 It is always very interesting to see how an API service provider fits into more than one of these buckets, as well as when new players emerge to cater to just one of these buckets, like Apiary did with API design. Playing on this theme, I was introduced to new a new API service provider, called [APIMatic](https://apimatic.io) the other day, who on the surface seems to cater to API providers with the automatic generation of SDKs, but really is a cross-over into API design, discovery, and integration, bringing a new perspective to the table.
