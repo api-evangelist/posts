@@ -177,8 +177,10 @@
                                 <div class="d-flex align-items-center">
                                     <a href="{{ post.url | replace:'.html','' }}"><img src="{{ post.image }}" width="90" style="background-color: #FFF; border: 2px solid #000; border-radius: 10px; object-fit: cover; width: 100px; height: 100px;"></a>
                                     <div class="ms-4">
-                                        <a href="{{ post.url | replace:'.html','' }}" style="color: #000; text-decoration: underline;">{{ post.title }}</a><br>
+                                        <a href="{{ post.url | replace:'.html','' }}" style="font-size: 16px;">{{ post.title }}</a><br>
                                         {{ post_date }}
+                                        <br><br>
+                                        {%for tag in post.tags %} <a href="https://apievangelist.com/search/?search={{ tag }}&searchFields=tags">{{ tag }}</a>{% if forloop.last != true %},{% endif %}{% endfor %}     
                                     </div>
                                 </div>
                             </div>
@@ -251,6 +253,14 @@
                     url = url.replace(post_date,"");
                     url = url.substring(1,url.length);
                     url = url.replace(".markdown","");
+
+                    var show_tags = '';
+                    if(response.data[i].tags){
+                        
+                        for (let j = 0; j < response.data[i].tags.length; j++) {
+                            show_tags += '<a href="https://apievangelist.com/search/?search=' + response.data[i].tags[j] + '&searchFields=tags">' + response.data[i].tags[j] + '</a>&nbsp;';
+                        }
+                    }    
                     url = url.replace(".html","");
                     
                     html += '<div class="row" style="border: 0px solid #000; padding: 20px;">'; 
@@ -258,7 +268,7 @@
                     html += '<div class="d-flex align-items-center">'; 
                     html += '<a href="/' + url + '"><img src="' + response.data[i].image + '" width="90" style="background-color: #FFF; border: 2px solid #000; border-radius: 10px; object-fit: cover; width: 100px; height: 100px;"></a>'; 
                     html += '<div class="ms-4">'; 
-                    html += '<a href="/' + url + '" style="color: #000; text-decoration: underline;">' + response.data[i].title + '</a><br>' + post_date;
+                    html += '<a href="/' + url + '" style="font-size: 16px;">' + response.data[i].title + '</a><br>' + post_date + '<br><br>' + show_tags;
                     html += '</div>'; 
                     html += '</div>'; 
                     html += '</div>'; 
