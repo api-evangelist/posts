@@ -508,3 +508,85 @@
   guestCompany: codecentric AG
   youtubeId: YAo-U1bgdwM
   url: /store/2025-01-30-daniel-kocot-codecentric-ag/
+- title: >-
+    API Evangelist Conversation with Dave Shanley of Princess Beef Heavy
+    Industries
+  description: >-
+    Quobix from from Princess Beef Heavy Industries came by again, this time to
+    talk about OpenAPI Doctor and libopenapi at it's core. I knew "The Doctor"
+    was a modular OpenAPI editor w/ governance built-in, but I didn't realize
+    how deeply modularity is baked into it's design. This modularity allows
+    Quobix to stitch together Vacuum, libopenapi, OpenAPI changes, wiretap, and
+    other Princess Beef Heavy Industries solutions, but also potentially other
+    3rd party solutions. This modularity in API hubs, dashboards, and tools is
+    fast becoming a common themes in conversations that I am having, and
+    something I am going to work to leverage more as part of my work. This
+    episode went 30 minutes because I wanted to do two separate episoides, 1)
+    OpenAPI, 2) libopenapi, but the stories are so entertwhined we just did it
+    back to back.
+  date: 2025-02-03 00:00:00 +0000
+  guestName: Dave Shanley
+  guestCompany: Princess Beef Heavy Industries
+  youtubeId: T-hhuuN-QwQ
+  url: /store/2025-02-03-dave-shanley-princess-beef-heavy-industries/
+- title: >-
+    API Evangelist Conversation About Nothing Changing in the World of APIs with
+    Jennifer Riggins
+  description: >-
+    Tech storyteller and journalist Jennifer Riggins came by for a conversation
+    about why nothing has changed in the world of APIs for the last fifteen
+    years. Jennifer and I go all the way back to the beginning, and she has seen
+    all the same things I've seen. We complained a bit about the impacts of AI,
+    but really that most of the lack of change has been a business thing and not
+    really just technical. I like Jennifer's focus on developers in this moment,
+    and she got me thinking about the relationship between the legacy API
+    management we both have lived through and this new platform reality we
+    operate within. I always enjoy sitting down with Jennifer, and it has been
+    way too long, appreciate you coming by to share some wisdom around why
+    things aren't as progressive as they could be in the API space.
+  date: 2025-02-05 00:00:00 +0000
+  guestName: Jennifer Riggins
+  guestCompany: Jennifer Riggins
+  youtubeId: FEw481GjxOk
+  url: /store/2025-02-05-jennifer-riggins/
+- title: >-
+    API Evangelist Conversation About Trains, AI, Rich Fat Cats, Big Money, and
+    Politics with Adron Hall
+  description: >-
+    Adron Hall came by for a conversation about trains. Adron and I share a love
+    of transit and trains, who also make their living slinging APIs. Adron had
+    recommended I read Nothing Like It in the World by Stephen E Ambrose and
+    Empire Express by David Haward Bain back a couple of years ago, which I
+    finally did. Then things kept happening with AI and the current presidency
+    that kept reminding me of the stories in these books and I kepting thinking
+    it would be fun to have Adron come by to share his view of things. I won't
+    spoil any of his great stories, but both books and Adron's view of them, as
+    well as his ability to apply in this moment is gold. Adron is a great
+    storyteller and he gets the technology, but he also the business and
+    politics of technology in a way few do, making for a very entertaining 30
+    minutes.
+  date: 2025-02-06 00:00:00 +0000
+  guestName: Adron Hall
+  guestCompany: Composite Thrashing Code
+  youtubeId: LwNtl5-Xeco
+  url: /store/2025-02-06-adron-hall/
+- title: >-
+    API Evangelist Conversation With Frank Kilcommins About the OpenAPI Arazzo
+    Specification
+  description: >-
+    Frank Kilcommins of SmartBear came by to talk about the OpenAPI Arazzo
+    specification. He shared the history how it came to be and how it is
+    changing the conversation inside and outside the OpenAPI Initiative (OAI).
+    Franks done amazing work to move the API workflows specification over the
+    finish line, but also keep it evolving and moving forward afterwards. The
+    specification has renewed energy with API service providers who are
+    integrating the spec into their API guided walkthroughs, SDK generation, and
+    testing. I am a big fan of Frank's work, and wish we had 10 more of him
+    working at the OpenAPI, so if you are feeling like you have some spare
+    cycles, I recommend you rolling up your sleeves and getting involved. Thanks
+    for coming by and sharing Frank!!
+  date: 2025-02-18 00:00:00 +0000
+  guestName: Frank Kilcommins
+  guestCompany: SmartBear
+  youtubeId: ivUyjJEYmKg
+  url: /store/2025-02-18-frank-kilcommins/
