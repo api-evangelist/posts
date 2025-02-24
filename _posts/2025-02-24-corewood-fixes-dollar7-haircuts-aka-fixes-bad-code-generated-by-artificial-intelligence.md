@@ -8,10 +8,12 @@ tags:
   - Discovery
   - Open Source
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-times-square-corner.jpeg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/american-dream-fundamental-nyc-streeet-dark-steam-1.jpeg
 ---
 [Kyle "Mickey" Mickey, DevOps & Platform Engineering Consultant over at Corewood DevOps, Platform, and Identity Services](https://corewood.cloud/) had a great common on one of his posts about AI. Stating that in the 1980s a a chain hair salon opened up a shop and advertised $7 haircuts, and the barber across the street put out a sign reading — we fix $7 haircuts. Which Mickey ended with, “I fix AI code”! API Evangelist is all about finding and telling the stories that matter, and this is one story we can definitely get behind.
 
 <center><a href="https://www.linkedin.com/posts/kylemickey_am-i-the-only-one-haunted-by-this-every-activity-7297652927995789313-_V_r/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAC2eqYB5Eg-JCzGJxAmnBCGS72UBnYyaA8"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/7-dollar-haircuts.png" style="width: 95%; margin: 10px;"></a></center>
 
 This is such a great message in this time where the AI hype is beginning to wind down. With the handful of enterprises we are talking to it is clear that many engineering teams are wrestling with the realities of AI induced automation across API operations. As API Evangelist works hard to stay focused on the fundamentals, we are all for joining forces with pragmatic platform engineering folks like Mickey to send out the bat signal that we are all here to help you stabilize and clean up the mess.
+
+<center><a href="https://corewood.cloud/"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/corewood.png" style="width: 100%;"></a></center>
