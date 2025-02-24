@@ -17,7 +17,7 @@ I will be speaking at [Tyk’s upcoming Leap 2.0 API Governance virtual conferen
 - **Governance** - Learning about API governance rules, and how they are applied across schema, APIs, and operations.
 - **Operations** - Establishing a plan for aligning producing and engineering goals across enterprise API operations.
 - **Changes** - Having a plan for how change is managed and communicated throughout enterprise API operations.
-- **Evangelism **- Baking in evangelism and storytelling into all aspects of API governance to drive collaboration.
+- **Evangelism** - Baking in evangelism and storytelling into all aspects of API governance to drive collaboration.
 
 Most API governance conversations focus on the intersection of APIs and governance, completely bypassing the role of schema. Those who have been doing API governance will become more familiar with our stories around the need to expand governance operationally and just how challenging API governance can be when you don’t have a plan to manage change and educate teams in motion. We look forward to seeing you at [Leap 2.0 this Thursday](https://discover.tyk.io/event/leap-api-governance-conference/), and if for some reason you can make it, we can always provide you with a deeper dive [every Tuesday and Thursday as part of our Knowledge Builder session](https://apievangelist.com/#knowledge).
 
