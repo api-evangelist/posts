@@ -1056,3 +1056,26 @@
   label:  
 - date: 2021
   title: Oracle v Google Supreme Court Decision
+  list:
+  label:   
+- date: 2023
+  title: ChatGPT API
+  list:
+  label:  
+- date: 2024
+  title: CFPB 1033 Rule
+  list:
+  label:     
+- date: 2025
+  title: OpenAPI Arazzo Specification
+  list:
+  label:  
+- date: 2025
+  title: FAPI 2.0
+  list:
+  label:      
+- date: 2025
+  title: OpenAPI Overlays Specification
+  list:
+  label:          
+  
