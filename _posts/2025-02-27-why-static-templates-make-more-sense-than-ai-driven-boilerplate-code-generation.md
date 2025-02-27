@@ -15,9 +15,10 @@ image: >-
 ---
 I was having a lively debate on social media with the folks over at Ambassador about [AI-Driven Boilerplate Code Automation](https://www.getambassador.io/blog/boilerplate-code-automation), but in the context of API operations. We have a podcast recording scheduled to talk through the topic, but to prime the pump and get my brain heading in the right direction I wanted to publish a story of how I’d push back on their narrative. I've grabbed the highlights from their post and broke out below to help me digest, but also respond a little  more coherently.
 
-
+<div style="padding: 5px; background-color: ##F7F7F8; margin-bottom: 10px;">
 > What is Boilerplate Code Automation?<br>
 > Boilerplate Code Automation refers to the process of using tools, scripts, or frameworks to generate repetitive code structures automatically, reducing the need for manual writing.
+</div>
 
 Makes sense here. No pushback. You definitely want to be automating as much as you can on the backend and frontend of your API operations, allowing developers to focus on the core value. Developers definitely do not like repeating themselves.
 
