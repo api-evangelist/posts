@@ -115,8 +115,8 @@ OK, I think I have what I need to engage in a coherent conversation with the fol
 
 In these situations I don't think my opinion is needed or of particular use:
 
-- Wider Software Development Lifecycle (SDLC) - I just don't have any strong opinions, and there are plenty of folks with more experience who can help make the argument for or against AI here.
-- No API Strategy or Capacity Present - For companies who don't have an API strategy or any internal API capacity, this type of push button vendor-driven boilerplate code-generation makes sense. 
+- **Wider Software Development Lifecycle (SDLC)** - I just don't have any strong opinions, and there are plenty of folks with more experience who can help make the argument for or against AI here.
+- **No API Strategy or Capacity Present** - For companies who don't have an API strategy or any internal API capacity, this type of push button vendor-driven boilerplate code-generation makes sense. 
 
 Now, if you have an API strategy, are just a little bit further along in your API journey, and you have API talent on your team--then I have strong opinions about why artificial intelligence isn't what you want to be doing over the current approaches--here are a few reasons I caution towards outsourcing entirely to AI.
 
