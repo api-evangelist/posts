@@ -24,8 +24,8 @@ Makes sense here. No pushback. You definitely want to be automating as much as y
 
 <div style="padding: 10px; background-color: ##F7F7F8; border: 1px solid #000; margin-bottom: 10px;">
 <strong>Understanding Boilerplate Code Automation</strong><br>
-Configuration files: Setting up environments, dependencies, and project structures.
-API endpoints: Defining routes and handlers for web applications.
+Configuration files: Setting up environments, dependencies, and project structures.<br>
+API endpoints: Defining routes and handlers for web applications.<br>
 Database models: Structuring tables, relationships, and queries.
 </div>
 
@@ -33,9 +33,9 @@ This is starting to feel like it is getting a little broader than what I'd inclu
 
 <div style="padding: 10px; background-color: ##F7F7F8; border: 1px solid #000; margin-bottom: 10px;">
 <strong>Advantages</strong><br>
-Speed: Automating repetitive code writing saves hours of development time.
-Consistency: Ensures uniform coding styles and best practices across projects.
-Error Reduction: Minimizes human errors introduced through repetitive coding.
+Speed: Automating repetitive code writing saves hours of development time.<br>
+Consistency: Ensures uniform coding styles and best practices across projects.<br>
+Error Reduction: Minimizes human errors introduced through repetitive coding.<br>
 Focus on Core Logic: Frees developers to concentrate on complex, high-value tasks.
 </div>
 
@@ -77,8 +77,8 @@ But let's work through the steps provided...
 
 <div style="padding: 10px; background-color: ##F7F7F8; border: 1px solid #000; margin-bottom: 10px;">
 <strong>Step 1: Select the Right Tool</strong><br>
-AI-Powered Code Generators – Tools like GitHub Copilot and OpenAI Codex generate code from natural language descriptions, making it easy to scaffold entire components or modules.
-Scaffolding Tools – Frameworks like Yeoman and Create React App provide ready-made templates for different types of projects, such as web or mobile applications.
+AI-Powered Code Generators – Tools like GitHub Copilot and OpenAI Codex generate code from natural language descriptions, making it easy to scaffold entire components or modules.<br>
+Scaffolding Tools – Frameworks like Yeoman and Create React App provide ready-made templates for different types of projects, such as web or mobile applications.<br>
 Automated Code Generators – Tools like Blackbird, an API development platform (AI-Powered Code Gen) simplify boilerplate code creation with a structured and developer-friendly approach, allowing you to generate code quickly and customize it as needed.
 </div>
 
@@ -86,8 +86,8 @@ OK, again this feels very SLDC and just an API lifecycle. Can't speak too much.
 
 <div style="padding: 10px; background-color: ##F7F7F8; border: 1px solid #000; margin-bottom: 10px;">
 <strong>Step 2: Define Your Requirements</strong><br>
-The programming language and framework.
-The type of application (web app, mobile app, API, etc.).
+The programming language and framework.<br>
+The type of application (web app, mobile app, API, etc.).<br>
 Core features like user authentication, database integration, and API endpoints.
 </div>
 
