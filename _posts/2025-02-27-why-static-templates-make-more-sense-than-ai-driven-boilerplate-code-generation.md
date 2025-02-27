@@ -61,7 +61,6 @@ OK, sure. Quality of that? At what expense to building internal capacity? What p
 But let's work through the steps provided...
 
 > Step 1: Select the Right Tool
-
 > AI-Powered Code Generators – Tools like GitHub Copilot and OpenAI Codex generate code from natural language descriptions, making it easy to scaffold entire components or modules.
 > Scaffolding Tools – Frameworks like Yeoman and Create React App provide ready-made templates for different types of projects, such as web or mobile applications.
 > Automated Code Generators – Tools like Blackbird, an API development platform (AI-Powered Code Gen) simplify boilerplate code creation with a structured and developer-friendly approach, allowing you to generate code quickly and customize it as needed.
@@ -69,7 +68,6 @@ But let's work through the steps provided...
 OK, again this feels very SLDC and just an API lifecycle. Can't speak too much.
 
 > Step 2: Define Your Requirements
-
 > The programming language and framework.
 > The type of application (web app, mobile app, API, etc.).
 > Core features like user authentication, database integration, and API endpoints.
@@ -77,13 +75,11 @@ OK, again this feels very SLDC and just an API lifecycle. Can't speak too much.
 OK, this feels wider and just way too coupled for my preference. It really feels antithetical to why we do APIs. Are we going to tightly couple everything now? There is a lot of context needed to navigate all of that and a lot of reasons why we've been decoupling all of this for the last 25 years. But, OK. What gets lost when database just becomes schema for endpoints--a lot.
 
 > Step 3: Generate Code
-
 > Once the requirements are set, you can use Blackbird to create a structured codebase effortlessly. With a simple command, Blackbird can generate a foundational setup tailored to your project’s needs. Create a Blackbird account here, install the CLI for your operating system (Linux, Mac, or Windows) to start generating boilerplate code in seconds.
 
 OK, sounds nice.
 
 > Step 4: Customize and Extend
-
 > Boilerplate code provides a strong starting point, but customization is key. With Blackbird, developers can easily modify and extend the generated code to fit their project's unique requirements—whether integrating third-party libraries, refining architecture, or adding new functionality.
 
 Sounds par for the course, and where the devil in the details will emerge.
