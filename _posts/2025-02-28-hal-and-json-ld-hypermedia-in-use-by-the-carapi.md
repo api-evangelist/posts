@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: HAL and JSON-LD Hypermedia in Use By the CarAPI
+title: Hal and JSON-LD Hypermedia in the Wild With the CarAPI
 tags:
   - Hypermedia
   - HAL
