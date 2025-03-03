@@ -26,20 +26,16 @@ The goal of these office hours is to better understand what the API community is
   
 <label for="role">Your Name</label>
 <input type="text" class="form-control" id="name" name="name" placeholder="" style="width: 100%;">
-
   
 <label for="email">Your Email</label>
 <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" style="width: 100%;">
-
       
 <label for="role">Your Role</label>
 <input type="text" class="form-control" id="role" name="role" placeholder="" style="width: 100%;">
-
         
 <label for="company">Your Company</label>
-<input type="text"  class="form-control"id="company" name="company" placeholder="" style="width: 100%;">
-
-                
+<input type="text" class="form-control" id="company" name="company" placeholder="" style="width: 100%;">
+              
 <label for="other">Other Questions</label>
 <textarea id="other" class="form-control" name="other" rows="4" style="width: 100%;"></textarea>
 
