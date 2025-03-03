@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: API Evangelist Weekly Public API Governance Office Hours on Thursday at 12:00 PM EST
+title: Weekly Public API Governance Office Hours Each Thursday at 12:00 PM EST
 tags:
   - Office Hours
   - Governance
