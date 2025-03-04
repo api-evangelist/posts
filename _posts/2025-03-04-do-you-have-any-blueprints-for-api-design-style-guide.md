@@ -4,13 +4,14 @@ layout: post
 title: Do you have any blueprints for API design style guide?
 date: 2025-03-04T09:00:00.000Z
 tags:
- - Interoperability
- - HTTP
- - Authentication
- - JSON
- - Portals
+ - APIs.json
  - OpenAPI
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-nyc-57th-3.jpeg
+ - JSON Schema
+ - Strategies
+ - Policies
+ - Experiences
+ - Properties
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-oxford-old-building.jpg
 --- 
 I’ve been down the API style guide rabbit hole several times. A couple times drunk and a couple times sober. I ended up with a whole bunch of assumptions that I wanted to validate on the ground within the enterprise—this is one of the reasons I spent a year at Bloomberg leading API governance. So, after all of that, this is where I stand on the subject. While I think API style guides can be worthy work, after absorbing all of the style guides out there, working with several enterprises to produce, maintain, and evolve style guides—I am just not a big believer that it is a worthwhile street to continue driving down, and here is why.
 
