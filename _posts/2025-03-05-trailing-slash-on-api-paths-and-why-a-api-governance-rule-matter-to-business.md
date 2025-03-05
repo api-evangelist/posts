@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: The Trailing Slash on API Paths and Why a API Governance Rule Matter to Business
+title: The Trailing Slash on API Paths and Why an API Governance Rule Matters to Business
 date: 2025-03-05T09:00:00.000Z
 tags:
   - Paths
