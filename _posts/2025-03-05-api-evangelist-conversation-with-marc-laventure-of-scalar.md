@@ -12,7 +12,7 @@ tags:
   - Open-Source
 image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-city-clouds-waterfront.jpg
 ---
-I sat down today with Marc Laventure of Scalar to talk about their API client and documentation offerings, and how they see OpenAPI as a specification. Marc's taken a slightly different approach than other API clients solutions and centering their solutions on just OpenAPI, rather than creating another spec. I feel like it is a sensible approach and can help reduce the complexity across API operations. Marc also shared his vision for their business model and where they will make money, and how they intend to balance that with their very modular and local open-source solutions--which is something I can get behind.
+I sat down today with [Marc Laventure of Scalar to talk about their API client and documentation offerings](https://conversations.apievangelist.com/store/2025-03-05-marc-laventure/), and how they see OpenAPI as a specification. Marc's taken a slightly different approach than other API clients solutions and centering their solutions on just OpenAPI, rather than creating another spec. I feel like it is a sensible approach and can help reduce the complexity across API operations. Marc also shared his vision for their business model and where they will make money, and how they intend to balance that with their very modular and local open-source solutions--which is something I can get behind.
 
 <style>
   .youtube-video {
