@@ -13,11 +13,13 @@ image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-ski
 ---
 I regularly leverage social media for engaging with my audience and customers, but I am also a big fan of keeping as much back within my domain as possible, while still engaging in conversation via LinkedIn, Bluesky, Mastodon, and others. [Daniel Kocot asked me a very interesting question in response to one of my stories](https://www.linkedin.com/feed/update/urn:li:activity:7303113564439957504/), and knowing my answer might be a little longer than a comment, but more importantly that this is something I’d want a URL to share with customers, I wanted to answer Daniel’s question here.
 
-> Kin Lane, your post really highlights a fundamental challenge in API governance. While many teams rely on Git repositories as their single source of truth, this approach often falls short when it comes to discoverability, lifecycle management, and policy enforcement—especially at scale.
+<blockquote>
+Kin Lane, your post really highlights a fundamental challenge in API governance. While many teams rely on Git repositories as their single source of truth, this approach often falls short when it comes to discoverability, lifecycle management, and policy enforcement—especially at scale.
 
-> This is where API registries could provide immense value, yet the industry still lacks mature, widely adopted registry solutions that seamlessly integrate into existing workflows. Projects like Apicurio Registry and xRegistry are tackling this space by offering structured storage and governance capabilities for API definitions, but adoption remains relatively niche compared to traditional repo-based approaches.
+This is where API registries could provide immense value, yet the industry still lacks mature, widely adopted registry solutions that seamlessly integrate into existing workflows. Projects like Apicurio Registry and xRegistry are tackling this space by offering structured storage and governance capabilities for API definitions, but adoption remains relatively niche compared to traditional repo-based approaches.
 
-> Do you see a shift towards hybrid models, where repositories remain the authoritative source but registries enhance visibility and control? And what do you think is holding back broader adoption of dedicated API registries in the industry? Looking forward to your thoughts!
+Do you see a shift towards hybrid models, where repositories remain the authoritative source but registries enhance visibility and control? And what do you think is holding back broader adoption of dedicated API registries in the industry? Looking forward to your thoughts!
+</blockquote>
 
 I don’t see a shift towards hybrid models. I see a strong desire to do so, and as you said, tooling and services emerge to help enhance visibility and control, but after 15 years of studying this, I don’t see any meaningful shift in the ideal direction you lay out. Why? Well...
 
