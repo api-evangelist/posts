@@ -23,7 +23,7 @@ I regularly leverage social media for engaging with my audience and customers, b
 <br>
 I don’t see a shift towards hybrid models. I see a strong desire to do so, and as you said, tooling and services emerge to help enhance visibility and control, but after 15 years of studying this, I don’t see any meaningful shift in the ideal direction you lay out. Why? Well...
 
-"Visibility and control is at odds with power and control"
+<strong>"Visibility and control is at odds with power and control"</strong>
 
 It is the same reasons behind the uneven rollout of API portals internally, with partners, and publicly. It is extremely hard to convince those with the power and the control over digital resources, the data, and the new capital to give up the control they have. It is just the next generation of the classic database power vacuums that have existed for decades.
 
