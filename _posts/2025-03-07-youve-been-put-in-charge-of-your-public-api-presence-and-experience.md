@@ -63,7 +63,7 @@ Your mandate is massive. You are literally the person between your enterprise an
 - **APIs.json** - Organize all of those APIs, plus all other artifacts, documents, and resources into a single APIs.json manifest.
 - **Rules** - Begin assembling Spectral and Vacuum rules which identify the patterns and anti-patterns that you see.
 - **Reviews** - Automate the reviews of your OpenAPI and APIs.json, then publish and report upon results via your repo.
-- **Tag** - As you are doing this work make sure you are tagging your OpenAPI and apis.json to identify resources and boundaries.
+- **Tags** - As you are doing this work make sure you are tagging your OpenAPI and apis.json to identify resources and boundaries.
 - **Teams** - Document who the people are producing these APIs, including engineering, product, and other stakeholders.
 
 Do this work until you feel like you have a sizable surface area of your API operations surveyed and assessed. You will learn a lot. You will build relationships. You will learn who your allies are, as well as who your enemies are. You will establish a baseline of quality for APIs being produced by our organization. You will establish a baseline for the lifecycle and operations surrounding those APIs. Only now, will you be able to effectively put together a strategy for how you can achieve the presence and experience you have in your head for your enterprise organization.
