@@ -8,7 +8,7 @@ tags:
   - Rules
 image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-working-on-railroad-1.jpg
 ---
-To conduct a diff with the API governance rules I have developed over the last six months I wanted to walk through what API governance rules come default with Spectral. This is a critical hello world moment for API governance teams who have downloaded Spectral, and running it locally at the command line, in their integrated development environment, and possibly baking into CI/CD pipelines. 
+To help me better understand [the API governance rules I have developed over the last six months](https://rules.apievangelist.com/openapi/) I wanted to walk through what [API governance rules come default with Spectral](https://github.com/stoplightio/spectral/blob/develop/packages/rulesets/src/oas/index.ts). This is a critical hello world moment for API governance teams who have downloaded Spectral, and running it locally at the command line, in their integrated development environment, and possibly baking into CI/CD pipelines. 
 
 ### Metadata
 There is just a handful of rules covering the metadata that should be present in the OpenAPI info object, ensuring there is a description that is compliant with governance.
