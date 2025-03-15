@@ -40,7 +40,8 @@ Pretty similar not he server front to make sure that there are instances defined
 - oas3-server-trailing-slash
 - oas3-host-not-example
 
-### Identical on the tagging front, just making sure there is tags with description, but also makes sure that they are in an alphabetical order.
+### Tags
+Identical on the tagging front, just making sure there is tags with description, but also makes sure that they are in an alphabetical order.
 
 - openapi-tags
 - tag-description
