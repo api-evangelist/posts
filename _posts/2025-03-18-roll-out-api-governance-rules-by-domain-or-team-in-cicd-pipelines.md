@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Domain and Team API Governance Rule Rollout in CI/CD Pipelines
+title: Roll Out API Governance Rules By Domain or Team in CI/CD Pipelines
 date: 2025-03-18T09:00:00.000Z
 tags:
   - Rules
