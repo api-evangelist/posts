@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Theneo Capabilities Image as Representation of the State of API Documentation
+title: Theneo's Capabilities Image Speaks to the State of API Docs
 date: 2025-03-19T09:00:00.000Z
 tags:
   - Artificial Intelligence
