@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: This Thursday Weekly API Governance Conversation
+title: This Thursday's Weekly API Governance Conversation
 date: 2025-03-19T09:00:00.000Z
 tags:
   - Weekly
