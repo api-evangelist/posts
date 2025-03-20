@@ -9,7 +9,7 @@ tags:
   - Politics
   - HTTP
   - Semantics
-  - Authenitcation
+  - Authentication
 image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-docks-water-front-ships-containers.jpg
 ---
 Time for an obsequious post on current trends to send signals that I still matter in the current conversation. MCP, or Model Context Protocol is the topic du jour for people wanting AI to replace all the things, including humans, APIs, and kittens. OK, I made that last one up. I looked at MCP when it came out and I just reviewed it again, and I just don’t get the excitement in my bones that everyone else does. I know the best way to predict the future is to issue a press release, which I see everyone doing around MCP right now, but when I read the press releases and review the spec, I am just left with the following emotions.
