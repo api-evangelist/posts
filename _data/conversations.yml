@@ -590,3 +590,56 @@
   guestCompany: SmartBear
   youtubeId: ivUyjJEYmKg
   url: /store/2025-02-18-frank-kilcommins/
+- title: >-
+    API Evangelist Conversation With Juan Cruz Viotti of Sourcemeta About Schema
+    Registries
+  description: >-
+    Juan Cruz Viotti of Sourcemeta came by for a conversation about the schema
+    registry solution he had recently built. Juan has gone deep into the JSON
+    Schema rabbit hole, deeper than anyone else I've ever met. His validation
+    tooling and schema registry are providing a new foundation for enterprises
+    to get their schema house in order. This is something Juan and I both agree
+    is the single most foundational thing you can invest in when it comes to API
+    governance. I learn so much everytime I talk to Juan and explore his work,
+    and we will be working together more around the evolution of his schema
+    registry, and API Evangelist will be leaning more into using the JSON Schema
+    educational resources he's contributed to at
+    https://www.learnjsonschema.com/2020-12/.
+  date: 2025-02-18 00:00:00 +0000
+  guestName: Juan Cruz Viotti
+  guestCompany: Sourcemeta
+  youtubeId: ED0cqxNqowk
+  url: /store/2025-02-27-juan-cruz-viotti/
+- title: API Evangelist Conversation With Marc Laventure of Scalar
+  description: >-
+    I sat down today with Marc Laventure of Scalar to talk about their API
+    client and documentation offerings, and how they see OpenAPI as a
+    specification. Marc's taken a slightly different approach than other API
+    clients solutions and centering their solutions on just OpenAPI, rather than
+    creating another spec. I feel like it is a sensible approach and can help
+    reduce the complexity across API operations. Marc also shared his vision for
+    their business model and where they will make money, and how they intend to
+    balance that with their very modular and local open-source solutions--which
+    is something I can get behind.
+  date: 2025-03-05 00:00:00 +0000
+  guestName: Marc Laventure
+  guestCompany: Scalar
+  youtubeId: VGUm7QnmAuw
+  url: /store/2025-03-05-marc-laventure%20copy/
+- title: API Evangelist Conversation With Derek Thompson of Ambassador
+  description: >-
+    Derek Thompson of Ambassador came by for a discussion about code generation
+    and artificial intelligence. I had began engaging with Derek's team about
+    the importance of maintaining OpenAPI specs while generating code on
+    Bluesky, and they agreed to have Derek come and share more of his expertise
+    with me on the subject. I was very pleased to hear that first, they weren't
+    focused on client SDKs, and they are generating server stubs, mock servers,
+    and all the details that go with that. I was also very satisfied to hear of
+    their embrace of OpenAPI, but also overlays and Arazzo. I enjoyed Derek's
+    expertise in both API but also AI, and his focus on the developer, as well
+    as respect for OpenAPI.
+  date: 2025-03-06 00:00:00 +0000
+  guestName: Derek Thompson
+  guestCompany: Amabassador Labs
+  youtubeId: FizRk34wADo
+  url: /store/2025-03-06-derek-thompson/
