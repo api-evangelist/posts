@@ -27,7 +27,7 @@ Continuing to parse the great discussion from the weekly API Evangelist API Gove
 
 I have been [working to expand my API governance policies and rules to the operational level](https://rules.apievangelist.com/apis-json/) and touching on some of the areas we discussed. I have pipeline and gateway rules, as well as monitoring and testing rules. I’d like to do more work on governance rulesets for API plans, rate limiting, deprecation, and the things you’d need to inform SLA, SLO, and SLIs. API governance overlaps with every aspect of enterprise operations, so looking at API observability through the API governance lens, and looking at API governance through the API observability lens makes a lot of sense. I also really like that discussion around the concept of API business observability and being able to see beyond the API plans and rate limits and be able validate business goals, and even possibly the concept of API business traceability to better connect these dots.
 
-If you want to join future conversations just email me at [mailto:info@apievangelist.com](info@apievangelist.com).
+If you want to join future conversations just email me at [info@apievangelist.com](mailto:info@apievangelist.com).
 
 <style>
   .youtube-video {
