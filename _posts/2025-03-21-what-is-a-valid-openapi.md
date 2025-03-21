@@ -22,7 +22,7 @@ Continuing to parse the great discussion from the weekly API Evangelist API Gove
 
 There is more insight we can extract from this conversation, but that provides a compelling look at the state of the OpenAPI validation conversation. It reveals the state of things, as well as the first couple of things you can do to tighten up our approach to OpenAPI validation. I would call this an OpenAPI validation policy which would have one or many JSON Schema and governance rules to validate—setting the foundation for how all APIs get governed within the enterprise. I’d love to see additional conversations going further down this rabbit hole, exploring where validation occurs and who is in charge of defining the validation perspective I spoke of earlier, but we’ll leave that for a future API Evangelist API Governance Weekly conversation.
 
-If you want to join future conversatons just email me at [mailto:info@apievangelist.com](info@apievangelist.com).
+If you want to join future conversations just email me at [mailto:info@apievangelist.com](info@apievangelist.com).
 
 Full Disclosure: APIMATIC is an API Evangelist Partner.
 
