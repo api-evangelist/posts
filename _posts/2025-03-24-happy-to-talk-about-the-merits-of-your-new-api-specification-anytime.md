@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Happy To Talk About The Merits of Your New API Specification Anytime
-date: 2025-03-21T09:00:00.000Z
+date: 2025-03-24T09:00:00.000Z
 tags:
   - Specifications
   - Protocols
@@ -14,7 +14,7 @@ I am nobody, but I have been around the block or two when it comes to API specif
 
 - **Swagger** - Helped amplify the amazing work of Tony, Erin, and Ron during the first wave.
 - **API Blueprint** - Championing API-design first energy coming out of Apiary before Oracle crushed.
-- **RAM**L - Was the original sock puppet for the specification and was used to help launch the spec.
+- **RAML** - Was the original sock puppet for the specification and was used to help launch the spec.
 - **JSON-LD** - Worked to give Markus and early JSON-LD a platform in tech as well as government.
 - **OpenAPI** - Helped share stories and even was helping herd the OAI cats for a period of time.
 - **Collections** - Helped push the collection specification from testing to a multi-protocol solution.
