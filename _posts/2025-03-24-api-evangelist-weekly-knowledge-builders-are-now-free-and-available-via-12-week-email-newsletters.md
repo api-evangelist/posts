@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: API Evangelist Weekly Knowledge Builders Are Now Free and Available Via 12 Week Email Newsletters
+title: API Evangelist Weekly Knowledge Builders Are Now Free and Available Via Email Newsletters
 date: 2025-03-24T09:00:00.000Z
 tags:
   - Schema
