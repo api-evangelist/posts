@@ -1,0 +1,17 @@
+---
+published: true
+layout: post
+title: No More API Producers Only API Consumers
+date: 2025-03-28T09:00:00.000Z
+tags:
+  - Producers
+  - Artificial Intelligence
+  - MCP
+  - Extraction
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-destruction-seattle-viaduct.jpg
+---
+Like most APIs, Twitter, Facebook, Google Maps, and other APIs begin as pro-consumer and community, until they reach a critical mass, then the APIs themselves became the consumer, extracting as much value as possible from users and the once championed developer communities that rose around these APIs. Then I witnessed this become the Silicon Valley playbook of choice, framing APIs and API tooling in a bottom-up product-led motion, getting developers using and building for free, then at the right moment, you flick the switch and the extraction machine is in full force. We are watching the next generation of this motion emerge with Model Context Protocol, or simply MCP, and with it the demise of the API producer—-there is only the API consumer now. 
+
+You won’t deliberately produce or design (ha ha!) APIs anymore. Any data source, file source, application, or integration will just be consumed, mined, and extracted into MCP tailings that can be used to feed the technical artificial intelligence appetite, but more appropriately the insatiable investor appetite for data. I wrote about [this sentinelization of APIs fictionally back in 2022](https://alternate.kinlane.com/2022/09/24/sentinel-apis/), and [got it tattooed on my arm in 2024](https://kinlane.com/2024/11/05/tech-regerts/). API producers have long held (buying) power within the technology sector, but that is changing with the inexhaustible appetite investors have for data alongside the financialization (bitcoinization) of everything in our professional and personal lives. This is where the APIs (Sentinels) cease to become the helper construction bots and turn on everyone ripping and shredding your portals, applications, GitHub repos, and everything else apart to refine into coveted MCP—-you are open for business whether you like it or not. 
+
+Now, with this said, none of this holds true when you live partially or completely outside the technology bubble. AI is not the future, but alas this AI-DDOS will have a catastrophic effect on API gateways, portals, documentation, design, and all the API producer layers that stand in between your enterprise digital resources and the current financialization of everything to satisfy the (investor) artificial intelligence appetite. As you make your way through mainstream industries you hear quite a different story, but this doesn’t mean things won’t change, there is no going back after this (shit) storm. I am fine with being left behind in this moment, [despite all my hangups with being left behind](https://kinlane.com/2025/01/25/getting-left-behind-makes-me-irrationally-angry/). It saddens me to see the rest of the API space go all in on MCP and AI in this moment, unable to separate hype from reality, financialization from the human bits that matter, and I doubt anyone is going to mourn the demise of of the API producers and whatever was sold to them in that last fifteen years—live by disruption you die by disruption.
