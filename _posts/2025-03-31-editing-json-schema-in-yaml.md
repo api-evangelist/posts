@@ -20,3 +20,6 @@ There are many little areas of friction I encounter while doing APIs that fascin
 - **Stakeholder Empathy** - Teams do not generally need to think about how others will be using their specifications, artifacts, and API solutions.
 
 I hear a lot of engineers snicker at using YAML, instead of JSON. I hear even more snicker at editing JSON Schema in YAML. I am a long-time proponent of design and development using YAML OpenAPI and JSON Schema, but then converting to JSON as part of pipelines, gateways, and the runtime. XML is not the same as JSON, which is not the same as YAML, but you can convert between these data formats. As with OpenAPI, editing JSON Schema using YAML during defining, designing, and iterating upon the artifacts we need to produce APIs helps widen the scope of who is involved in the API lifecycle. Being able to edit your JSON Schema in YAML makes them more accessible to business stakeholders who may help you translate your internal data or object model into just the right message your consumers will need in their applications.
+
+<a href="https://json-schema.hyperjump.io/"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/hyperjump-editing-yaml.png" width="100%"></a>
+<p align="center"><a href="https://json-schema.hyperjump.io/"><Try Editing JSON Schema Using YAML in Hyperjump</a></p>
