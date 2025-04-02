@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Adding Governance Rules APIOps Cycles Canvases
+title: Adding Governance Rules For APIOps Cycles Canvases
 date: 2025-04-02T09:00:00.000Z
 tags:
   - Operations
