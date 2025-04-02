@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Adding APIOps CYcles Canvases to the APIs.json Index for an API
+title: Adding APIOps Cycles Canvases to the APIs.json Index for an API
 date: 2025-04-02T09:00:00.000Z
 tags:
   - Operations
@@ -16,3 +16,7 @@ I was playing with the APIOps Cycles Canvas Creator and wanted to prepare one of
 <script src="https://gist.github.com/kinlane/7b6df817918849b38ec2f459e5e20d35.js"></script>
 
 I would like to talk through some of the more relevant APIOps Cycles Canvases using my demo product API. Having all ten canvases added to the APIs.json provides an index of all the canvases in context of this single product API. I'll let Marjukka guide me through the canvases, but I want to tend to the wiring up of the APIOPs Cycles to the APIs.json, OpenAPI, JSON Schema, examples, and other artifacts. Adding the APIOps Cycles Canvases to the APIs.json index for this API helps with discovery, but it also provides me with tangible artifacts I can now govern using automated Spectral rules--which I will work on next.
+
+Want to dive deeper into how to use the APIOps Cycles Canvas Creator? Book a meeting with one of us to discuss your specific challenges and opportunities: - [**Schedule a Strategic API Governance discussion**](https://lnkd.in/gmhPZTaW)
+
+We'll help you find the right balance between centralization and federation for your organization's needs.
