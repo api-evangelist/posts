@@ -25,9 +25,9 @@ image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/franci
 
 I will start by saying I am 100% a proponent of there being many specifications out there. I think the frustration represented in Pavel’s post, response, and proposed spec are valid challenges we all face. I will review and support any new spec to emerge on the scene, but I always begin three strong principles I begin with:
 
-1) Has Due Due Diligence Occurred
-2) Is There a Power Grab Occurring
-3) Is This Only Solving Technical Friction
+  1.  Has Due Due Diligence Occurred
+  2. Is There a Power Grab Occurring
+  3. Is This Only Solving Technical Friction
 
 I think I can help with some more due diligence, and don't see any signs of power grab like I do with wider MCP, but it is potentially in service of AI agents and automation—I can't fully tell. The positioning of this proposed specification hits on a need, but it is not clear exactly who it is solving the need for. Let’s take a pass and try to cherry pick out the highlights from the blog post to maybe distill down the intent a little bit for my own benefit.
 
