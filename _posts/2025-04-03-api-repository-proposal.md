@@ -45,11 +45,11 @@ I think I can help with some more due diligence, and don't see any signs of powe
 
 All very logical and real world areas of friction when it comes to working APIs. However, to help me understand the intent of a new spec and map it to the view of the landscape I possess, I wanted to try to just distill down these capabilities in single words or phrases I can feed back into my “Kin Lane LLM”. Here is the tag cloud or Venn diagram overlap of capabilities the proposed specification would deliver.
 
-<blockquote><i>Discovery, Integrations, Dependencies, Protocols, Lifecycle, Changes, Deprecation, Autocomplete, Documentation, Code Generation, Packages, IDE, CLI</i></blockquote>
+<blockquote><strong><i>Discovery, Integrations, Dependencies, Protocols, Lifecycle, Changes, Deprecation, Autocomplete, Documentation, Code Generation, Packages, IDE, CLI</i></strong></blockquote>
 
 If I take that tag cloud and do a diff with my vocabulary, I would immediately begin asking questions about other areas of friction occurring in the same problem space Pavel appears to working to introduce a new solution—highlighting these areas:
 
-<blockquote><i>Authentication, Authorization, RBAC, Secrets, Semantics, Rate Limits, Pricing / Costs, Legal / Compliance, Pipelines, Provisioning, Intellisense</i></blockquote>
+<blockquote><strong><i>Authentication, Authorization, RBAC, Secrets, Semantics, Rate Limits, Pricing / Costs, Legal / Compliance, Pipelines, Provisioning, Intellisense</i></strong></blockquote>
 
 Of course, if this is limited to just internal APIs, the pricing, cost, legal, and compliance will not be as much of a concern, but the authentication, authorization, secrets, semantics are going to pretty critical layer if you want to truly enable the developer in the IDE or CLI as well as agents or other automation. I can’t quite tell who this is for—it feels very technical with the intent of automation, but it also just feels very developer experience and reduces friction for human beans.
 
