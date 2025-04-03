@@ -19,7 +19,7 @@ tags:
   - Packages
   - IDE
   - CLI
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-skyscraper-construction-crane-2.jpeg
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-new-and-old-building.jpeg
 ---
 [Pavel Bodiachevskii posted a draft of his proposal for the API repository proposal](https://www.linkedin.com/feed/update/urn:li:activity:7313548903260327936/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A7313548903260327936%2C7313600271799009280)&dashCommentUrn=urn%3Ali%3Afsd_comment%3A(7313600271799009280%2Curn%3Ali%3Aactivity%3A7313548903260327936), with [accompanying blog post](https://pakisan.github.io/posts/api-as-dependency/#api-repository-structure). I wanted to properly respond but it is of the length and quality that I'd prefer to keep in my domain and link from the LinkedIn post.
 
