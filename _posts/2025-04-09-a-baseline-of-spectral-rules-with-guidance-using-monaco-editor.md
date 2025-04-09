@@ -15,7 +15,7 @@ I am a fan of <a href="https://bit.ly/44i19e0">Monaco Editor</a> when it comes t
 
 First I make sure my OpenAPI linter is natively YAML, so I can widen my audience. Next I want to build upon my approach to using Spectral rules, providing positive and negative rules for each piece of API governance. This means that you will encounter errors, but once fixed you will also see the positive reference which turns each piece of API governance into a teachable moment, linking to the line in the OpenAPI it applies, but also the governance to learn more about the pattern, and even the Spectral rule triggering the message.
 
-<a href="https://utilities.apievangelist.com/openapi-linter/"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/openapi-linter.png" style="width: 100%;"></a>
+<a href="https://utilities.apievangelist.com/openapi-linter/"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/openapi-linter.png" width="100%"></a>
 
 <a href="https://rules.apievangelist.com/openapi/">I have baked in what I consider to be a baseline for Spectral rules governing a simple OpenAPI</a> -- info, paths, operations, parameters, request bodies, responses, schema, and tags. You can view all of the rules I use, and happy to construct custom rulesets for you--just let me know what you are needing. My goal with this OpenAPI linter is to demonstrate the importance of API goverance accompanied with guidance, as well as feedback loops on rules--all using Monaco editor to encourage enterprises to invest in their API governance capacity.
 
