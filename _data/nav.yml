@@ -1,7 +1,7 @@
 - name: API Learnings
   nav:
 
-    - name: Stories
+    - name: Posts
       symbol: auto_stories
       sub:
 
@@ -97,4 +97,11 @@
       sub:
 
         - name: Information
-          href: https://partners.apievangelist.com                                                
+          href: https://partners.apievangelist.com    
+
+    - name: Toolbox
+      symbol: construction
+      sub:
+
+        - name: APIs
+          href: https://contracts.apievangelist.com                                                           
