@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: What Has Changed Since That First Blog Post on the API Economy in 2010.
+title: What Has Changed Since That First Blog Post on the API Economy in 2010
 date: 2025-04-14T09:00:00.000Z
 tags:
   - Economy
