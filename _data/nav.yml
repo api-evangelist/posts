@@ -1,7 +1,7 @@
 - name: API Learnings
   nav:
 
-    - name: Posts
+    - name: Stories
       symbol: auto_stories
       sub:
 
@@ -19,13 +19,6 @@
         - name: All Conversations
           href: https://conversations.apievangelist.com  
           
-    - name: Questions
-      symbol: quiz
-      sub:
-
-        - name: All Questions
-          href: https://qa.apievangelist.com          
-
     - name: Videos
       symbol: video_library      
       sub:
@@ -40,7 +33,7 @@
         - name: API
           href: https://apievangelist.com/timeline/api/
 
-        - name: Resource
+        - name: Resources
           href: https://apievangelist.com/timeline/resources/
 
         - name: Industry
