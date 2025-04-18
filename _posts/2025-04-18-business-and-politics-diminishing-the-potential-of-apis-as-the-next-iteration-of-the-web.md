@@ -9,7 +9,7 @@ tags:
   - Politics
   - Investment
   - HTTP
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/leaflets-of-the-russian-revolution-angry-king-crown.jpeg
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/leaflets-of-the-russian-revolution-crane-sunrise-buildings.jpeg
 ---
 The web from a technological vantage point was intriguing.  HTML served up over HTTP using a client-server approach proved to have a number of beneficial use cases across different industries and layers of our society. Evolving that approach through content negotiation to serve up HTML, text, images, videos, PDF, and other media, but also XML and now JSON, has allowed us to evolve the web and support a number of different applications, but it is something that is being hindered by the business and politics of the technology sector.
 
