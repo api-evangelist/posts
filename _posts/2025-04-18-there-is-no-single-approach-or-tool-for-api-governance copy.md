@@ -1,0 +1,19 @@
+---
+published: true
+layout: post
+title: When Applications Demand All the Attention
+date: 2025-04-21T09:00:00.000Z
+tags:
+  - Applications
+  - Artificial Intelligence
+  - AI
+  - GraphQL
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-abandoned-church-far.jpg
+---
+A big part of the API evolutionary story was that web APIs were used to via the web between 2000 and 2010 to power widgets, affiliate programs, and other ways of sharing information via HTTP. Once mobile phones emerged and we started using HTTP APIs to power mobile applications we began to reconcile with the sharing and reuse of digital resources and capabilities across multiple types of applications. This shift elevated APIs above any single application, but since then we regularly see applications who are often the most visual element begin to demand all the attention in an attempt to overshadow what is needed when it comes to our APIs.
+
+It is easy for individual applications of APIs to dominate the conversation, but I feel like GraphQL was the poster child for a needy and opinionated application that felt it was more important than doing HTTPs well across multiple types of applications. I’ve sat through talks of GraphQL founders at Facebook and you can hear their opinionated ideology around their needs of web and mobile applications showcased right alongside their complete ignorance of HTTP, REST, and the business benefits of API management that had emerged. GraphQL believers were opinionated, vocal, and completely unwilling to do their homework about the current state of APIs and why we had been crafting an API strategy across applications.
+
+GraphQL seems like a demanding toddler now compared to the demands being made to rewire the API world to power artificial intelligence. Like GraphQL the results are mixed at best regarding the hype living up to reality, and AI folks want to completely rework the world of APIs to suit their needs. Like GraphQL, the AI folks haven’t done any due diligence on the current state of APIs and what is in place across applications. Nowhere is a list of the needs of AI applications on HTTP API designs and patterns, they are just looking to blow it all out of the water and completely reinvent the wheel. The big different between GraphQL and AI application folks is GraphQL was championed by a select few of technologists who are very eager, but business and engineering folks alike have seemed to drink the AI Kool-Aid, which will substantially increase the damage and what it takes to recover from this moment.
+
+I get that AI is the magical dust that will fix everything to many. It isn’t going anywhere, but like GraphQL time will prove out that it isn’t the universal solution that the vendors who are selling it declare. The conversational, automation, and context across APIs that AI applications are demanding is nothing new and something that the current API toolbox is equipped to address. The unwillingness of AI people to properly understand the current state of APIs and coherently articulate the application needs are for AI on top of your API infrastructure should be a red flag for enterprises. There is a reason AI wants to bypass the business layers implemented within APIs over the last couple of decades. The absence of authentication in early incarnations of specifications looking to reinvent the API realm is not an oversight, it is a feature. Make sure you always beware when any single application demands all the attention, and are looking to shift your API strategy without properly acknowledging the work that has occurred to date.
