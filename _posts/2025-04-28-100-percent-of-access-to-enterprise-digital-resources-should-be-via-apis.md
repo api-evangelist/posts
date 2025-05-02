@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 100% of Access to Enterprise Digital Resources Should Be Via APIs
-date: 2025-04-25T09:00:00.000Z
+date: 2025-04-28T09:00:00.000Z
 tags:
   - Access
   - Control
