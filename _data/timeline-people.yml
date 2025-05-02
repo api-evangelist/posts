@@ -1,4 +1,4 @@
-- date: 19th Century
+- date:
   list:
   label: 
   title: Ada Lovelace
@@ -12,7 +12,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Adele Goldberg
@@ -32,7 +32,7 @@
   image_path: http://www.computerhope.com/people/pictures/adele_goldberg.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Anita Borg
@@ -49,7 +49,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Anita_Borg.jpg/220px-Anita_Borg.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Audrey Tang
@@ -66,7 +66,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/AudreyTang060527.jpg/220px-AudreyTang060527.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Éva Tardos
@@ -81,7 +81,7 @@
   image_path: images/220px-Elisabeth_Bauer_and_Eva_Tardos_at_Cornell.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Barbara Liskov
@@ -98,7 +98,7 @@
   image_path: http://women.cs.cmu.edu/ada/Resources/Women/pictures/barbara_liskov.png
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Beatrice Helen Worsley
@@ -121,7 +121,7 @@
   image_path: http://www.eng.uwaterloo.ca/~sm2campb/ferut_thumbnail.png
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Betty Holberton
@@ -144,7 +144,7 @@
   image_path: http://t1.gstatic.com/images?q=tbn:ANd9GcQM-N94vcAjci0jp4k3Y3jD3LbZLNQTyW30tOrUnIN3Bjdq66-8
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Carla Meninsky
@@ -167,7 +167,7 @@
   image_path: http://atariage.com/forums/uploads/post-4709-1133813646.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Carol Shaw
@@ -178,7 +178,7 @@
   image_path: http://t0.gstatic.com/images?q=tbn:ANd9GcQeVZzqWWsYpDkX8B3pp0d2SbI589zjFFT1OAzhehxbvVv80-JE
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Dame Stephanie
@@ -196,7 +196,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Dame_steve_shirley.jpg/220px-Dame_steve_shirley.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Dana Ulery
@@ -218,7 +218,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Dana_Ulery.jpg/220px-Dana_Ulery.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Donna Dubinsky
@@ -246,7 +246,7 @@
   image_path: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVhLGivFQ9r3tByw4gUHY5mbvW0eq4oCGZM8RDvCZYwqEKBUSAQ-NXFOc
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Edith Clarke
@@ -269,7 +269,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/en/9/92/Edith_Clarke.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Elizabeth J. Feinler
@@ -293,7 +293,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/ElizabethFeinler-2011.jpg/220px-ElizabethFeinler-2011.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Ellen Spertus
@@ -316,7 +316,7 @@
   image_path: https://lh5.googleusercontent.com/-MCgDhrb7aoQ/AAAAAAAAAAI/AAAAAAACurY/v4VxJ01Wy0A/s120-c/photo.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Erna Schneider Hoover
@@ -343,7 +343,7 @@
   image_path: images/Erna-Schneider-Hoover.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Evelyn Boyd
@@ -383,7 +383,7 @@
   image_path: images/evelyn-boyd-granville.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Frances Brazier
@@ -392,7 +392,7 @@
   image_path: images/frances-brazier.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Frances E. Allen
@@ -407,7 +407,7 @@
   image_path: http://women.cs.cmu.edu/ada/Resources/Women/pictures/frances_allen.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Frances Spence
@@ -428,7 +428,7 @@
   image_path: http://t3.gstatic.com/images?q=tbn:ANd9GcRCIaaEKyGWODBkKvOv4EqGHy6Q2tuYcgiC7-ZnDESUVYudMbRW1Q
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Gertrude Blanch
@@ -456,7 +456,7 @@
   image_path: http://www.computerhope.com/people/pictures/gertrude_blanch.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Grace Hopper
@@ -474,7 +474,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg/640px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Grete Hermann
@@ -497,7 +497,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/en/e/ea/Grete_Hermann.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Hedy Lamarr
@@ -522,7 +522,7 @@
   image_path: images/220px-Hedy_Lamarr_in_The_Heavenly_Body_1944.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Henrietta Swan Leavitt
@@ -542,7 +542,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Leavitt_aavso.jpg/185px-Leavitt_aavso.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Ida Rhodes
@@ -552,7 +552,7 @@
   image_path: images/idea-rhodes.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Irene Greif
@@ -583,7 +583,7 @@
   image_path: http://t2.gstatic.com/images?q=tbn:ANd9GcQsb3Ppk-RDwHlKED0uWT2AEl6pmVUVGTNCRli11Duy16lM5xwL
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Irma Wyman
@@ -619,7 +619,7 @@
   image_path: http://www.ur.umich.edu/0607/Mar19_07/img/070319_aWyman.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Janese Swanson
@@ -655,7 +655,7 @@
   image_path: images/Janese-Swanson.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Jean Bartik
@@ -687,7 +687,7 @@
   image_path: images/Jean_Bartik.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Jean E. Sammet
@@ -711,7 +711,7 @@
   image_path: images/Jean-E-Sammet.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Jeri Ellsworth
@@ -726,7 +726,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/You%27re_one_baaad_cat.jpg/225px-You%27re_one_baaad_cat.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Joan Margaret Winters
@@ -740,7 +740,7 @@
   image_path: http://women.cs.cmu.edu/ada/Resources/Women/pictures/joan_winters.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Joanna Rutkowska
@@ -757,7 +757,7 @@
   image_path: images/220px-Joanna_Rutkowska_official.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Judith Estrin
@@ -768,7 +768,7 @@
   image_path: images/Judith -L-Estrin.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Juliana Rotich
@@ -785,7 +785,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Juliana_Rotich_-_World_Economic_Forum_on_Africa_2012.jpg/170px-Juliana_Rotich_-_World_Economic_Forum_on_Africa_2012.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Karen Spärck Jones
@@ -803,7 +803,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Karen_Sp%C3%A4rck.jpg/220px-Karen_Sp%C3%A4rck.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Kathleen Booth
@@ -833,7 +833,7 @@
   image_path: images/Kathleen-Booth.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Kay McNulty
@@ -860,7 +860,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/KayMcNulty_maturitn%C3%AD_fotografie.jpg/200px-KayMcNulty_maturitn%C3%AD_fotografie.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Kimberly Bryant
@@ -874,7 +874,7 @@
   image_path: images/54ae85aa06bef_-_black-girls-code-founder-kimberly-bryant-v-elv.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Limor Fried
@@ -904,7 +904,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Limor_Fried_2010.jpg/220px-Limor_Fried_2010.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Lorinda Cherry
@@ -928,7 +928,7 @@
   image_path: http://t1.gstatic.com/images?q=tbn:ANd9GcTyGIA44jts6_mQQdRm4xDu86p-8tg5l1GJOWAciVE0MbxTkUv8
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Lynn Conway
@@ -965,7 +965,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Lynn_Conway_July_2006.jpg/200px-Lynn_Conway_July_2006.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Maria Klawe
@@ -999,7 +999,7 @@
   image_path: http://www.maa.org/sites/default/files/images/news/M.KlawePort_Cropped.gif
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Marissa Mayer
@@ -1024,7 +1024,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Marissa_Mayer_May_2014_%28cropped%29.jpg/220px-Marissa_Mayer_May_2014_%28cropped%29.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Marlyn Wescoff
@@ -1045,7 +1045,7 @@
   image_path: http://www.computerhope.com/people/pictures/marlyn_wescoff.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Mary Allen Wilkes
@@ -1070,7 +1070,7 @@
   image_path: http://t3.gstatic.com/images?q=tbn:ANd9GcSicYkS4sTo7ZLvfomHXX5tTvd1OkWBTWW1nTu5bFDbb-TnA48Phw
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Mary Lou Jepsen
@@ -1101,7 +1101,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Mary_Lou_Jepsen_-_eTech_2009.jpg/220px-Mary_Lou_Jepsen_-_eTech_2009.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Mary Shaw
@@ -1120,7 +1120,7 @@
   image_path: http://www.cmu.edu/news/stories/archives/2014/october/images/maryshaw_200x2502.jpg.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Melanie Rieback
@@ -1139,7 +1139,7 @@
   image_path: http://www.few.vu.nl/~melanie/melanie2.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Monica S. Lam
@@ -1161,7 +1161,7 @@
   image_path: http://t0.gstatic.com/images?q=tbn:ANd9GcSMZcE8EK0Wxmk-u3FOs5HZsqF8-HEN6KGmKwynTmll7TGbF5hv
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Phyllis Fox
@@ -1175,7 +1175,7 @@
   image_path: images/fox-p-obituary-photo-w250.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Radia Perlman
@@ -1195,7 +1195,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Radia_Perlman_2009.jpg/220px-Radia_Perlman_2009.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Rana el Kaliouby
@@ -1210,7 +1210,7 @@
   image_path: http://www.technologyreview.com/sites/default/files/legacy/rana.el.kaliouby.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Rósa Péter
@@ -1251,7 +1251,7 @@
   image_path: http://www.renyi.hu/conferences/2005/lh05/pic/pr2c.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Rebecca Enonchong
@@ -1278,7 +1278,7 @@
   image_path: images/220px-ECommerce_Week_2019_(46806162084).jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Roberta Williams
@@ -1313,7 +1313,7 @@
   image_path: http://www.mauriciogiraldo.com/vgline/sites/default/files/imagecache/event-big/RobertaWilliams.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Ruchi Sanghvi
@@ -1332,7 +1332,7 @@
   image_path: images/Ruchi_cover-2.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Ruth Lichterman
@@ -1352,7 +1352,7 @@
   image_path: http://www.teknoplof.com/wp-content/uploads/2012/04/eniac_5.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Sally Floyd
@@ -1381,7 +1381,7 @@
   image_path: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTk7MnNFBEWarCVdEyidnN8SynmPCAP2aRTmUTSCqVMKpwpQHnI
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Sandra Kurtzig
@@ -1422,7 +1422,7 @@
   image_path: images/220px-Sandra_Kurtzig_in_2014.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Shafi Goldwasser
@@ -1448,7 +1448,7 @@
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Shafi_Goldwasser.JPG/220px-Shafi_Goldwasser.JPG
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Sister Mary Kenneth Keller
@@ -1471,7 +1471,7 @@
   image_path: images/Soeur_Marie_Kenneth_Keller.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Sophie Wilson
@@ -1507,7 +1507,7 @@
   image_path: http://regmedia.co.uk/2012/04/24/sw_1.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Susan Estrada
@@ -1533,7 +1533,7 @@
   image_path: http://internethalloffame.org/sites/default/files/inductees/Susan_Estrada.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Susan Hares
@@ -1569,7 +1569,7 @@
   image_path: images/susan-hares-NqbAJ.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Susan Kare
@@ -1608,7 +1608,7 @@
   image_path: images/Susan-Kare.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Susan Nycum
@@ -1632,7 +1632,7 @@
   image_path: http://www.siguccs.org/awards/halloffame/halloffamepics/2004/susan.jpg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Thelma Estrin
@@ -1673,7 +1673,7 @@
   image_path: images/Thelma_Estrin_2608.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Window Snyder
@@ -1694,7 +1694,7 @@
   image_path: images/220px-Window_Snyder_Web_Summit_2017_cropped.jpeg
   image_width: '150'
   tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 20th Century
+- date: 
   list:
   label: 
   title: Xiaoyuan Tu
