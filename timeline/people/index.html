@@ -1,0 +1,61 @@
+---
+layout: default
+section: Timeline
+title: People Timeline
+summary: A timeline of people.
+description: 
+nav: Timeline
+sub: API
+---
+
+<div class="row gx-xl-9">
+
+  <div class="col-12 col-xxl-4 order-xxl-1">
+
+    <div class="position-sticky mb-8" style="top: 2rem">
+
+        {% include services-api-evangelist.html %}
+        <br>
+        {% include services-partner.html %}
+
+    </div>
+    
+  </div> 
+
+  <div class="row align-items-center mb-7">
+    <div class="col-auto">
+        <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-kin.png" width="65" style="margin-top: 8px; margin-left: 20px;">
+    </div>
+    <div class="col">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-2">
+                <li class="breadcrumb-item"><a class="text-body-secondary" href="#">{{ page.section }}</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{ page.sub }}</li>
+            </ol>
+        </nav>
+        <h1 class="fs-4 mb-0">{{ page.title }}</h1>
+    </div>   
+  </div>  
+
+  <div class="col-12 col-xxl-8 order-xxl-0">
+
+    <section>
+      <div class="row">
+        <div class="col">
+
+          <p>This is a timeline of people I am assembling to support storytelling, I will be added people over time, but have started with the women in compute, and will be working through the cybernetics, and early compute next. Then I will ponder the modern people I want to be tracking on as part of research and storytelling.</p>
+
+          {% include timeline-people.html %}
+          
+          <p>I am also exploring another perspective on this landscape with [my resource timeline to look at API providers by the digital resources they provide](https://apievangelist.com/timeline-resource/). Additionally, I have started studying the early regulation of industries such as railroads, telecommunications, electricity, and radio—[creating a timeline to help me understand how regulation unfolded for these industries](https://apievangelist.com/timeline-industry/), and why we pushed it forward.</p>
+  
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+
+
