@@ -969,8 +969,8 @@
   list:
   label: 
   title: Maria Klawe
-  details: 'Maria Margaret Klawe (pronounced claw-vay, born 1951) is a computer scientist
-    and the fifth president of Harvey Mudd College (since July 1, 2006). Although
+  details: Maria Margaret Klawe (pronounced claw-vay, born 1951) is a computer scientist
+    and the fifth president of Harvey Mudd College. Although
     born in Toronto in 1951, she became a naturalized U.S. citizen in 2009. She was
     previously Dean of the School of Engineering and Applied Science at Princeton
     University. Klawe was born in Toronto. She lived in Scotland from ages 4 to 12,
@@ -1179,7 +1179,7 @@
   list:
   label: 
   title: Radia Perlman
-  details: 'Radia Perlman invented the Spanning Tree Protocol. She has done extensive
+  details: Radia Perlman invented the Spanning Tree Protocol. She has done extensive
     and innovative research particularly on encryption and networking. She received
     the USENIX Lifetime Achievement Award in 2007 among numerous others. She is most
     famous for her invention of the spanning-tree protocol (STP), which is fundamental
@@ -1336,7 +1336,7 @@
   list:
   label: 
   title: Ruth Lichterman
-  details: 'Ruth Teitelbaum was one of the original programmers for the ENIAC computer.
+  details: Ruth Teitelbaum was one of the original programmers for the ENIAC computer.
     Teitelbaum graduated from Hunter College with a B.Sc. in Mathematics. She was
     hired by the Moore School of Engineering to compute ballistics trajectories and
     was later selected as one of the first programmers for the ENIAC, which was developed
