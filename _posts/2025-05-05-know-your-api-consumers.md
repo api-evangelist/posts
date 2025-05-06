@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Know Your API Consumers (KY(A)C)
-date: 2025-05-02T09:00:00.000Z
+date: 2025-05-05T09:00:00.000Z
 tags:
   - Security
   - Management
