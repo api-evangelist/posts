@@ -1,5 +1,7 @@
 - date:
   list:
+  birth: 1815
+  death: 1852
   label: 
   title: Ada Lovelace
   details: Augusta Ada King, Countess of Lovelace, born Augusta Ada Byron and now
@@ -11,9 +13,15 @@
   website: http://en.wikipedia.org/wiki/Ada_Lovelace
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech  
+    - Compute
+    - Mathematics
+    - Software
 - date: 
   list:
+  birth: 1945
+  death: 
   label: 
   title: Adele Goldberg
   details: Adele Goldberg is a computer scientist who participated in the development
@@ -31,14 +39,19 @@
   website: http://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist)
   image_path: http://www.computerhope.com/people/pictures/adele_goldberg.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
+    - Compute
+    - Smalltalk
+    - PARC
 - date: 
   list:
+  birth: 1949
+  death: 2003
   label: 
   title: Anita Borg
   details: Anita Borg was an American computer scientist. She founded the Institute
-    for Women and Technology (now the Anita Borg Institute for Women and Technology)
-    and the Grace Hopper Celebration of Women in Computing. She was born Anita Borg
+    for Women and Technology and the Grace Hopper Celebration of Women in Computing. She was born Anita Borg
     Naffz in Chicago, Illinois. She grew up in Palatine, Illinois; Kaneohe, Hawaii;
     and Mukilteo, Washington. Borg got her first programming job in 1969. Although
     she loved math while growing up, she did not originally intend to go into computer
@@ -48,26 +61,37 @@
   website: http://en.wikipedia.org/wiki/Anita_Borg
   image_path: http://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Anita_Borg.jpg/220px-Anita_Borg.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
+    - Compute
+    - Software
 - date: 
   list:
+  birth: 1981
+  death: 
   label: 
   title: Audrey Tang
   details: Audrey Tang is a Taiwanese free software programmer, who has been described
-    as one of the "ten greats of Taiwanese computing." Tang showed an early interest
+    as one of the ten greats of Taiwanese computing. Tang showed an early interest
     in computers, beginning to learn Perl programming at age 12. Two years later,
     she dropped out of high school, unable to adapt to student life. By the year 2000,
     at the age of 19, Tang had already held positions in software companies, and worked
     in California's Silicon Valley as an entrepreneur. In late 2005, Tang began to
     transitioning her gender identity as a trans woman, including changing her English
-    and Chinese names, citing a need to "reconcile her outward appearance with her
-    self-image". Taiwan's Eastern Television reports that she has an IQ of 180.
+    and Chinese names, citing a need to reconcile her outward appearance with her
+    self-image. Taiwan's Eastern Television reports that she has an IQ of 180.
   website: http://en.wikipedia.org/wiki/Audrey_Tang
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/AudreyTang060527.jpg/220px-AudreyTang060527.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
+    - Trans
+    - Software
+    - Compute
 - date: 
   list:
+  birth: 1957
+  death: 
   label: 
   title: Éva Tardos
   details: Éva Tardos is a Hungarian mathematician, winner of the Fulkerson Prize
@@ -80,9 +104,14 @@
   website: http://en.wikipedia.org/wiki/%C3%89va_Tardos
   image_path: images/220px-Elisabeth_Bauer_and_Eva_Tardos_at_Cornell.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
+    - Mathematics
+    - Algorithms
 - date: 
   list:
+  birth: 1939
+  death: 
   label: 
   title: Barbara Liskov
   details: Barbara Liskov is a computer scientist who is an institute professor at
@@ -97,12 +126,16 @@
   website: http://en.wikipedia.org/wiki/Barbara_Liskov
   image_path: http://women.cs.cmu.edu/ada/Resources/Women/pictures/barbara_liskov.png
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
+    - Compute
 - date: 
   list:
+  birth: 1921
+  death: 1972
   label: 
   title: Beatrice Helen Worsley
-  details: Beatrice "Trixie" Helen Worsley was the first female computer scientist
+  details: Beatrice Trixie Helen Worsley was the first female computer scientist
     in Canada. She received her Masters degree in mathematics from Massachusetts Institute
     of Technology in 1946 and her Ph.D. from Cambridge University. Early in 1949 she
     was sent to Cambridge University to gain experience on the EDSAC which was then
@@ -120,20 +153,23 @@
   website: http://en.wikipedia.org/wiki/Beatrice_Helen_Worsley
   image_path: http://www.eng.uwaterloo.ca/~sm2campb/ferut_thumbnail.png
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1917
+  death: 2001
   label: 
   title: Betty Holberton
-  details: Frances Elizabeth "Betty" Holberton was one of the six original programmers
+  details: Frances Elizabeth Betty Holberton was one of the six original programmers
     of ENIAC, the first general-purpose electronic digital computer. Holberton was
     born Frances Elizabeth Snyder in Philadelphia in 1917. On her first day of classes
     at the University of Pennsylvania, Holberton's math professor asked her if she
     wouldn't be better off at home raising children. During World War II while the
     men were fighting, the Army needed the women to compute ballistics trajectories.
-    Holberton was hired by the Moore School of Engineering to work as a "computor",
+    Holberton was hired by the Moore School of Engineering to work as a computor,
     and was soon chosen to be one of the six women to program the ENIAC. Classified
-    as "subprofessionals", Holberton, along with Kay McNulty, Marlyn Wescoff, Ruth
+    as subprofessionals, Holberton, along with Kay McNulty, Marlyn Wescoff, Ruth
     Lichterman, Betty Jean Jennings, and Fran Bilas, programmed the ENIAC to perform
     calculations for ballistics trajectories electronically for the Ballistic Research
     Laboratory (BRL), US Army. Their work on ENIAC earned each of them a place in
@@ -143,9 +179,12 @@
   website: http://en.wikipedia.org/wiki/Betty_Holberton
   image_path: http://t1.gstatic.com/images?q=tbn:ANd9GcQM-N94vcAjci0jp4k3Y3jD3LbZLNQTyW30tOrUnIN3Bjdq66-8
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1955
+  death: 
   label: 
   title: Carla Meninsky
   details: Carla Meninsky was a video game designer during the early years of the
@@ -166,9 +205,12 @@
   website: http://en.wikipedia.org/wiki/Carla_Meninsky
   image_path: http://atariage.com/forums/uploads/post-4709-1133813646.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1955
+  death: 
   label: 
   title: Carol Shaw
   details: |-
@@ -177,27 +219,33 @@
   website: http://en.wikipedia.org/wiki/Carol_Shaw_(video_game_designer)
   image_path: http://t0.gstatic.com/images?q=tbn:ANd9GcQeVZzqWWsYpDkX8B3pp0d2SbI589zjFFT1OAzhehxbvVv80-JE
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1933
+  death: 
   label: 
   title: Dame Stephanie
-  details: Dame Stephanie "Steve" Shirley, DBE, FREng, FRSA, FBCS (born 16 September
+  details: Dame Stephanie Steve Shirley, DBE, FREng, FRSA, FBCS (born 16 September
     1933, Dortmund, Germany) is a British businesswoman and philanthropist. She originally
     arrived in Britain as an unaccompanied Kindertransport child refugee. She was
     placed with foster parents in Sutton Coldfield and was later re-united with her
-    biological parents, but later claimed she "never really bonded with them". In
+    biological parents, but later claimed she never really bonded with them. In
     1962, Shirley founded the software company F.I. Group (later Xansa, since acquired
     by Steria). She was concerned with creating work opportunities for women with
     dependants, and predominantly employed women, only 3 out of 300-odd programmers
     were male, until the Sex Discrimination Act 1975 made that illegal. She adopted
-    the name "Steve" to help her in the male-dominated business world.
+    the name Steve to help her in the male-dominated business world.
   website: http://en.wikipedia.org/wiki/Steve_Shirley
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Dame_steve_shirley.jpg/220px-Dame_steve_shirley.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1939
+  death: 
   label: 
   title: Dana Ulery
   details: Dr. Dana Ulery is an American computer scientist and pioneer in scientific
@@ -217,9 +265,12 @@
   website: http://en.wikipedia.org/wiki/Dana_Ulery
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Dana_Ulery.jpg/220px-Dana_Ulery.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1955
+  death: 
   label: 
   title: Donna Dubinsky
   details: Donna Dubinsky is an American businesswoman who played an integral role
@@ -245,9 +296,12 @@
   website: http://en.wikipedia.org/wiki/Donna_Dubinsky
   image_path: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVhLGivFQ9r3tByw4gUHY5mbvW0eq4oCGZM8RDvCZYwqEKBUSAQ-NXFOc
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1883
+  death: 1959
   label: 
   title: Edith Clarke
   details: Edith Clarke was the first female electrical engineer and the first female
@@ -259,7 +313,7 @@
     inheritance to study mathematics and astronomy at Vassar College, where she graduated
     in 1908. After college, Clarke taught mathematics and physics at a private school
     in San Francisco and at Marshall College. She then spent some time studying civil
-    engineering at the University of Wisconsin–Madison, but left to become a "computer"
+    engineering at the University of Wisconsin–Madison, but left to become a computer
     at AT&T in 1912. She computed for George Campbell, who applied mathematical methods
     to the problems of long-distance electrical transmissions. While at AT&T, she
     studied electrical engineering at Columbia University by night. In 1918, Clarke
@@ -268,12 +322,15 @@
   website: http://en.wikipedia.org/wiki/Edith_Clarke
   image_path: http://upload.wikimedia.org/wikipedia/en/9/92/Edith_Clarke.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1931
+  death: 
   label: 
   title: Elizabeth J. Feinler
-  details: Elizabeth Jocelyn "Jake" Feinler is an American information scientist.
+  details: Elizabeth Jocelyn Jake Feinler is an American information scientist.
     From 1972 until 1989 she was director of the Network Information Systems Center
     at the Stanford Research Institute (SRI International). Her group operated the
     Network Information Center (NIC) for the ARPANET as it evolved into the Defense
@@ -292,9 +349,12 @@
   website: http://en.wikipedia.org/wiki/Elizabeth_J._Feinler
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/ElizabethFeinler-2011.jpg/220px-ElizabethFeinler-2011.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1969
+  death: 
   label: 
   title: Ellen Spertus
   details: Ellen Spertus is a Professor of Computer Science at Mills College, Oakland,
@@ -305,8 +365,8 @@
     Engineering and Computer Science (1998). She spent several summers between terms
     working for Microsoft. Spertus has written articles treating both technical and
     social subjects, often combining the two. She was profiled in a 1993 New York
-    Times article about "women who might change the face of the computer industry"
-    and in a follow-up article in 2003. In 2001 she was named "The Sexiest Geek Alive".
+    Times article about women who might change the face of the computer industry
+    and in a follow-up article in 2003. In 2001 she was named The Sexiest Geek Alive.
     Since January 2009,  Spertus has spent her time at Google working on App Inventor
     for Android, a block based development platform with a graphical user interface
     that lets developers and amateurs alike create applications for Android. In May
@@ -315,14 +375,17 @@
   website: http://en.wikipedia.org/wiki/Ellen_Spertus
   image_path: https://lh5.googleusercontent.com/-MCgDhrb7aoQ/AAAAAAAAAAI/AAAAAAACurY/v4VxJ01Wy0A/s120-c/photo.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1926
+  death: 
   label: 
   title: Erna Schneider Hoover
   details: Dr. Erna Schneider Hoover (born June 19, 1926) is an American mathematician
-    notable for inventing a computerized telephone switching method which "revolutionized
-    modern communication" according to several reports. It prevented system overloads
+    notable for inventing a computerized telephone switching method which revolutionized
+    modern communication according to several reports. It prevented system overloads
     by monitoring call center traffic and prioritizing tasks on phone switching systems
     to enable more robust service during peak calling times. At Bell Laboratories
     where she worked for over 32 years, Hoover was described as an important pioneer
@@ -342,9 +405,12 @@
   website: http://en.wikipedia.org/wiki/Erna_Schneider_Hoover
   image_path: images/Erna-Schneider-Hoover.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1924
+  death: 2003
   label: 
   title: Evelyn Boyd
   details: Evelyn Boyd Granville was one of the first African-American women to receive
@@ -362,7 +428,7 @@
     in mathematics and was accepted by both Yale University and the University of
     Michigan; she chose Yale because of the financial aid they offered. There she
     studied functional analysis under the supervision of Einar Hille, finishing her
-    doctorate in 1949. Her dissertation was "On Laguerre Series in the Complex Domain."
+    doctorate in 1949. Her dissertation was On Laguerre Series in the Complex Domain.
     In 1950, she took a teaching position at Fisk University, a college for black
     students in Nashville, Tennessee (more prestigious postings being unavailable
     to black women). Two of her students there, Vivienne Malone-Mayes and Etta Zuber
@@ -382,18 +448,24 @@
   website: http://en.wikipedia.org/wiki/Evelyn_Boyd_Granville
   image_path: images/evelyn-boyd-granville.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1957
+  death: 
   label: 
   title: Frances Brazier
   details: Frances Brazier is a full professor in Engineering Systems Foundations at the Delft University of Technology, as of September 2009, before which she chaired the Intelligent Interactive Distributed Systems Group for 10 years within the Department of Computer Science at the VU University Amsterdam.  She holds a MSc in Mathematics and a doctorate in Cognitive Ergonomics from the VU Amsterdam. Parallel to her academic career she co-founded the first ISP in the Netherlands NLnet and later NLnet Labs. She is currently a board member of the NLnetLabs Foundation.
-  website: https://www.tudelft.nl/tbm/over-de-faculteit/afdelingen/multi-actor-systems/people/professors/profdr-fm-frances-brazier/
+  website: https://en.wikipedia.org/wiki/Frances_Brazier
   image_path: images/frances-brazier.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1932
+  death: 2020
   label: 
   title: Frances E. Allen
   details: 'Frances E. Allen became the first female IBM Fellow in 1989. In 2006 she
@@ -401,14 +473,17 @@
     has had an enormous impact on compiler research and practice. Both alone and in
     joint work with John Cocke, she introduced many of the abstractions, algorithms,
     and implementations that laid the groundwork for automatic program optimization
-    technology. Allen''s 1966 paper, "Program Optimization," laid the conceptual basis
+    technology. Allen''s 1966 paper, Program Optimization, laid the conceptual basis
     for systematic analysis and transformation of computer programs. '
   website: http://en.wikipedia.org/wiki/Frances_E._Allen
   image_path: http://women.cs.cmu.edu/ada/Resources/Women/pictures/frances_allen.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1922
+  death: 2012
   label: 
   title: Frances Spence
   details: Frances Spence was one of the original programmers for the ENIAC computer.
@@ -427,9 +502,12 @@
   website: http://en.wikipedia.org/wiki/Frances_Spence
   image_path: http://t3.gstatic.com/images?q=tbn:ANd9GcRCIaaEKyGWODBkKvOv4EqGHy6Q2tuYcgiC7-ZnDESUVYudMbRW1Q
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1897
+  death: 1996
   label: 
   title: Gertrude Blanch
   details: Gertrude Blanch (ca. 1897 - 1996) was an American mathematician who did
@@ -440,8 +518,8 @@
     in Physics, from New York University in 1932. She received her Ph.D. from Cornell
     University in algebraic geometry in 1935. For a while she worked as a substitute
     teacher at Hunter College; then, in 1938, she began work on the Mathematical Tables
-    Project of the WPA, for which she was "Director of Mathematics" and "Manager of
-    Computation." This entailed designing algorithms that were executed by teams of
+    Project of the WPA, for which she was Director of Mathematics and Manager of
+    Computation. This entailed designing algorithms that were executed by teams of
     human computers under her direction. Many of these computers possessed only rudimentary
     mathematical skills, but the algorithms and error checking in the Mathematical
     Tables Project were sufficiently well designed that their output defined the standard
@@ -455,9 +533,12 @@
   website: http://en.wikipedia.org/wiki/Gertrude_Blanch
   image_path: http://www.computerhope.com/people/pictures/gertrude_blanch.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1906
+  death: 1992
   label: 
   title: Grace Hopper
   details: Grace Murray Hopper was an American computer scientist and United States
@@ -465,17 +546,20 @@
     of the Harvard Mark I computer, and invented the first compiler for a computer
     programming language. She popularized the idea of machine-independent programming
     languages, which led to the development of COBOL, one of the first modern programming
-    languages. She is credited with popularizing the term "debugging" for fixing computer
+    languages. She is credited with popularizing the term debugging for fixing computer
     glitches (inspired by an actual moth removed from the computer). Owing to the
     breadth of her accomplishments and her naval rank, she is sometimes referred to
-    as "Amazing Grace". The U.S. Navy destroyer USS Hopper (DDG-70) is named for her,
-    as was the Cray XE6 "Hopper" supercomputer at NERSC.
+    as Amazing Grace. The U.S. Navy destroyer USS Hopper (DDG-70) is named for her,
+    as was the Cray XE6 Hopper supercomputer at NERSC.
   website: http://en.wikipedia.org/wiki/Grace_Hopper
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg/640px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1901
+  death: 1984
   label: 
   title: Grete Hermann
   details: Grete (Henry-)Hermann was a German mathematician and philosopher noted
@@ -486,9 +570,9 @@
     critique of this theorem remained nearly unknown for decades are considered to
     have had a strong influence on the development of quantum mechanics. Hermann studied
     mathematics at Göttingen under Emmy Noether, where she achieved her Ph.D. in 1926.
-    Her doctoral thesis, "Die Frage der endlich vielen Schritte in der Theorie der
-    Polynomideale" (in English "The Question of Finitely Many Steps in Polynomial
-    Ideal Theory"), published in Mathematische Annalen, is the foundational paper
+    Her doctoral thesis, Die Frage der endlich vielen Schritte in der Theorie der
+    Polynomideale (in English The Question of Finitely Many Steps in Polynomial
+    Ideal Theory), published in Mathematische Annalen, is the foundational paper
     for computer algebra. It first established the existence of algorithms (including
     complexity bounds) for many of the basic problems of abstract algebra, such as
     ideal membership for polynomial rings. Hermann's algorithm for primary decomposition
@@ -496,16 +580,19 @@
   website: http://en.wikipedia.org/wiki/Grete_Hermann
   image_path: http://upload.wikimedia.org/wikipedia/en/e/ea/Grete_Hermann.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1914
+  death: 2000
   label: 
   title: Hedy Lamarr
   details: Hedy Lamarr was an Austrian-born American actress and inventor. After an
     early film career in Germany, Lamarr moved to Hollywood at the initiation of MGM
-    head, Louis B. Mayer, where she soon became a star during MGM's "Golden Age."
-    Max Reinhardt, who directed her in Berlin, called her the "most beautiful woman
-    in Europe," having "strikingly dark exotic looks," a sentiment widely shared by
+    head, Louis B. Mayer, where she soon became a star during MGM's Golden Age.
+    Max Reinhardt, who directed her in Berlin, called her the most beautiful woman
+    in Europe, having strikingly dark exotic looks, a sentiment widely shared by
     her audiences and critics. She garnered a degree of fame and notoriety after starring
     in the Czech director Gustav Machatý's Ecstasy, a 1933 film which featured closeups
     of her acting during orgasm in one scene, as well as full frontal nude shots of
@@ -516,44 +603,30 @@
     and which, upon its invention in 1941, was deemed so vital to national defense
     that government officials would not allow publication of its details. At the Electronic
     Frontier Foundation's Sixth Pioneer Awards in 1997, she and George Antheil were
-    honoured with special awards for their "trail-blazing development of a technology
-    that has become a key component of wireless data systems."
+    honoured with special awards for their trail-blazing development of a technology
+    that has become a key component of wireless data systems.
   website: http://en.wikipedia.org/wiki/Hedy_Lamarr
   image_path: images/220px-Hedy_Lamarr_in_The_Heavenly_Body_1944.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
-  label: 
-  title: Henrietta Swan Leavitt
-  details: Henrietta Swan Leavitt joined the Harvard "computers" a group of women
-    engaged in the production of astronomical data at Harvard. She was instrumental
-    in discovery of the cepheid variable stars which are evidence for the expansion.
-    of the universe, discovering the relation between the luminosity and the period
-    of Cepheid variable stars. A graduate of Radcliffe College, Leavitt started working
-    at the Harvard College Observatory as a "computer" in 1893, examining photographic
-    plates in order to measure and catalog the brightness of stars. Though she received
-    little recognition in her lifetime, it was her discovery that first allowed astronomers
-    to measure the distance between the Earth and faraway galaxies. After Leavitt's
-    death, Edwin Hubble used the luminosity-period relation for Cepheids to determine
-    that the Milky Way is not the only galaxy in the observable universe, and that
-    the universe is expanding (see Hubble's law).
-  website: http://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt
-  image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Leavitt_aavso.jpg/185px-Leavitt_aavso.jpg
-  image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 
-  list:
+  birth: 1900
+  death: 1986
   label: 
   title: Ida Rhodes
   details: |-
-    Ida Rhodes was a mathematician who became a member of the clique of influential women at the heart of early computer development in the United States. Ida Rhodes (birth name Hadassah Itzkowitz) was born in a Jewish village between Nemyriv and Tulchyn in the Ukraine. She came to the United States in 1913 and was studying mathematics at Cornell University only six years later. She received her BA in mathematics in February, 1923 and her MA in September of the same year, graduating Phi Beta Kappa. She later studied at Columbia University in 1930 and 1931. Rhodes held numerous positions involving mathematical computations before she joined the Mathematical Tables Project in 1940, where she worked under Gertrude Blanch, whom she would later credit as her mentor. She was a pioneer in the analysis of systems of programming, and with Betty Holberton designed the C-10 programming language in the early 1950s for the UNIVAC I. She also designed the original computer used for the Social Security Administration. In 1949, the Department of Commerce awarded her an Gold Medal for "significant pioneering leadership and outstanding contributions to the scientific progress of the Nation in the functional design and the application of electronic digital computing equipment." Though she retired in 1964, Rhodes continued to consult for the Applied Mathematics Division of the National Bureau of Standards until 1971. Her work became much more widely known after her retirement, as she took the occasion to travel around the globe, lecturing and maintaining international correspondence. In 1976, the Department of Commerce presented her with a further Certificate of Appreciation on the 25th Anniversary of UNIVAC I, and then at the 1981 Computer Conference cited her a third time as a "UNIVAC I pioneer." She died in 1986. In an unusual case of an old specialized algorithm still in use, and still credited to the original developer, Rhodes was responsible for the "Jewish Holiday" algorithms used in calendar programs to this day.
+    Ida Rhodes was a mathematician who became a member of the clique of influential women at the heart of early computer development in the United States. Ida Rhodes (birth name Hadassah Itzkowitz) was born in a Jewish village between Nemyriv and Tulchyn in the Ukraine. She came to the United States in 1913 and was studying mathematics at Cornell University only six years later. She received her BA in mathematics in February, 1923 and her MA in September of the same year, graduating Phi Beta Kappa. She later studied at Columbia University in 1930 and 1931. Rhodes held numerous positions involving mathematical computations before she joined the Mathematical Tables Project in 1940, where she worked under Gertrude Blanch, whom she would later credit as her mentor. She was a pioneer in the analysis of systems of programming, and with Betty Holberton designed the C-10 programming language in the early 1950s for the UNIVAC I. She also designed the original computer used for the Social Security Administration. In 1949, the Department of Commerce awarded her an Gold Medal for significant pioneering leadership and outstanding contributions to the scientific progress of the Nation in the functional design and the application of electronic digital computing equipment. Though she retired in 1964, Rhodes continued to consult for the Applied Mathematics Division of the National Bureau of Standards until 1971. Her work became much more widely known after her retirement, as she took the occasion to travel around the globe, lecturing and maintaining international correspondence. In 1976, the Department of Commerce presented her with a further Certificate of Appreciation on the 25th Anniversary of UNIVAC I, and then at the 1981 Computer Conference cited her a third time as a UNIVAC I pioneer. She died in 1986. In an unusual case of an old specialized algorithm still in use, and still credited to the original developer, Rhodes was responsible for the Jewish Holiday algorithms used in calendar programs to this day.
   website: http://en.wikipedia.org/wiki/Ida_Rhodes
   image_path: images/idea-rhodes.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1955
+  death: 
   label: 
   title: Irene Greif
   details: Irene Greif is an American computer scientist and a founder of the field
@@ -566,7 +639,7 @@
     the first operational actor model. She was a professor of computer science at
     the University of Washington before returning to MIT as a professor of electrical
     engineering and computer science (1977–87). In 1984, Greif and Paul Cashman coined
-    the term "Computer Supported Cooperative" and the initials, CSCW, at an interdisciplinary
+    the term Computer Supported Cooperative and the initials, CSCW, at an interdisciplinary
     workshop in Cambridge, Massachusetts. Preferring research over teaching, she left
     academia in 1987 to join Lotus, where she directed its Product Design Group, and
     created the Lotus Research group in 1992. After Lotus was acquired by IBM, she
@@ -582,9 +655,12 @@
   website: http://en.wikipedia.org/wiki/Irene_Greif
   image_path: http://t2.gstatic.com/images?q=tbn:ANd9GcQsb3Ppk-RDwHlKED0uWT2AEl6pmVUVGTNCRli11Duy16lM5xwL
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1928
+  death: 2015
   label: 
   title: Irma Wyman
   details: Irma M. Wyman was an early computer engineer and the first woman to become
@@ -594,15 +670,15 @@
     one of seven female students. To supplement her scholarship, she worked as a switchboard
     operator and waitress. At the time, women in engineering programs received little
     encouragement and support. While her grades qualified her for membership in Tau
-    Beta Pi, the engineering honor society, she received only a "Women's Badge", since
+    Beta Pi, the engineering honor society, she received only a Women's Badge, since
     the society did not admit women at the time. Wyman graduated with a Bachelor of
     Sciences/EM degree in 1949. While still a junior in college, Wyman worked on a
     missile guidance project at the Willow Run Research Center. To calculate trajectory,
     they used mechanical calculators. She visited a Navy research facility that was
     working on similar problems, and discovered they were using a prototype of a programmable
     computer that had been developed at Harvard University. She became interested
-    in computers and later recalled that "I became an enthusiastic pioneer in this
-    new technology and it led to my life's career." After graduation, she joined a
+    in computers and later recalled that I became an enthusiastic pioneer in this
+    new technology and it led to my life's career. After graduation, she joined a
     start-up company that was eventually acquired by Honeywell Information Systems.
     She moved to Minneapolis and began a long management career at Honeywell, eventually
     serving as Chief Information Officer. She became vice president of Honeywell Corporate
@@ -618,9 +694,12 @@
   website: http://en.wikipedia.org/wiki/Irma_Wyman
   image_path: http://www.ur.umich.edu/0607/Mar19_07/img/070319_aWyman.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1958
+  death: 
   label: 
   title: Janese Swanson
   details: 'Janese Swanson (born 1958) is an American inventor and software developer.
@@ -642,21 +721,24 @@
     to Yes! Entertainment (which marketed it as the Yak Bak), and to Tiger Electronics
     for its Talkboy FX. In 1995 Swanson decided that she wanted to create toys aimed
     specifically at girls, and founded Girl Tech as an independent company with headquarters
-    near her home in San Rafael, California. Products included the "Friend Frame"
-    talking picture frame, the "Keepsafe" storage box with a remote-controlled lock,
-    and a remote listening device called "Bug ''Em". Swanson claimed that her vision
-    for the company did not match the expectations of existing toy distributors: "For
+    near her home in San Rafael, California. Products included the Friend Frame
+    talking picture frame, the Keepsafe storage box with a remote-controlled lock,
+    and a remote listening device called Bug ''Em. Swanson claimed that her vision
+    for the company did not match the expectations of existing toy distributors: For
     two years after I founded the company, toy store buyers would say, ''Can you make
     it pink?'' ''Can''t you make it for boys?'' And I would say, ''No, this is what
-    girls like to play with.''" She later sold the company to Radica Games, now a
+    girls like to play with.'' She later sold the company to Radica Games, now a
     division of Mattel, for $6 million. She has also licensed her technologies to
     Hasbro and Sega.'
   website: http://en.wikipedia.org/wiki/Janese_Swanson
   image_path: images/Janese-Swanson.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1924
+  death: 2011
   label: 
   title: Jean Bartik
   details: 'Jean Bartik was one of the original programmers for the ENIAC computer.
@@ -664,7 +746,7 @@
     noticed a job advertisement for an Army project in Philadelphia and suggested
     Bartik apply. She was hired by the University of Pennsylvania to work for Army
     Ordnance at Aberdeen Proving Ground to calculate ballistics trajectories by hand
-    as a human "computer." While working there, Bartik met her husband, William Bartik,
+    as a human computer. While working there, Bartik met her husband, William Bartik,
     who was an engineer working on a Pentagon project at the University of Pennsylvania.
     They married in 1946 and divorced in 1968. When the Electronic Numeric Integrator
     and Computer (ENIAC) was developed for the purpose of calculating these same trajectories,
@@ -680,15 +762,18 @@
     and changing cable connections. After the end of the war, she went on to work
     with the ENIAC designers John Eckert and John Mauchly, and helped them develop
     the BINAC and UNIVAC I computers. Recalling her time working with Eckert and Mauchly,
-    she described their close group of computer engineers as a "technical Camelot."
+    she described their close group of computer engineers as a technical Camelot.
     In 1951, the same year the UNIVAC was introduced, Bartik left the industry to
     raise her three children. '
   website: http://en.wikipedia.org/wiki/Jean_Bartik
   image_path: images/Jean_Bartik.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1928
+  death: 2017
   label: 
   title: Jean E. Sammet
   details: Jean E. Sammet (born March 23, 1928 in New York City) is an American computer
@@ -710,24 +795,30 @@
   website: http://en.wikipedia.org/wiki/Jean_E._Sammet
   image_path: images/Jean-E-Sammet.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1974
+  death: 
   label: 
   title: Jeri Ellsworth
   details: Jeri Ellsworth (born 1974) is an American entrepreneur and autodidact computer
     chip designer and inventor. Currently the president of Technical Illusions, she
     became known in 2004 for creating a complete Commodore 64 system on a chip within
-    a joystick, called C64 Direct-to-TV. That "computer in a joystick" could run 30
+    a joystick, called C64 Direct-to-TV. That computer in a joystick could run 30
     video games from the early 1980s, and was a very popular Christmas gift, at peak
     selling over 70,000 units in a single day via the QVC shopping channel. Ellsworth
     currently lives in Seattle.
   website: http://en.wikipedia.org/wiki/Jeri_Ellsworth
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/You%27re_one_baaad_cat.jpg/225px-You%27re_one_baaad_cat.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1924
+  death: 2015
   label: 
   title: Joan Margaret Winters
   details: Joan Margaret Winters began working in Computer Services at Cornell University
@@ -736,12 +827,15 @@
     also designed and implemented SPINDEX II applications for the Department of Manuscripts
     and University Archives. In 1980 Winters took a position as a scientific programmer
     in SLAC Computing Services at the Stanford Linear Accelerator Center.
-  website: http://special.lib.umn.edu/findaid/xml/cbi00022.xml
+  website: https://archives.lib.umn.edu/repositories/3/resources/21
   image_path: http://women.cs.cmu.edu/ada/Resources/Women/pictures/joan_winters.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1981
+  death: 
   label: 
   title: Joanna Rutkowska
   details: Joanna Rutkowska is a Polish computer security researcher, primarily known
@@ -756,20 +850,26 @@
   website: http://en.wikipedia.org/wiki/Joanna_Rutkowska
   image_path: images/220px-Joanna_Rutkowska_official.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1955
+  death: 
   label: 
   title: Judith Estrin
   details: |-
-    Judith "Judy" L. Estrin is an Internet pioneer and American business executive. Former colleague Richard A. Karp credits Estrin as one of the key people in the development of Internet when they worked together with Vint Cerf on the initial TCP-project at Stanford.
-    She is now CEO of JLabs (formerly called Packet Design Management Company), a privately held company focused on furthering innovation in business, government and non-profit organizations. Estrin is the author of "Closing the Innovation Gap: Reigniting the Spark of Creativity in a Global Economy" (McGraw-Hill; Hardcover, September 2008), a general interest book that challenges national, academic and business leaders to work together to make USA competitive again. Estrin is a serial entrepreneur who co-founded eight technology companies. She was the CTO of Cisco Systems from 1998 to 2000. Estrin served on the boards of FedEx Corporation (1989-2010), Rockwell Automation and Sun Microsystems, as well as on the Board of Directors of the Walt Disney Company for fifteen years. She also serves on the advisory boards of Stanford’s School of Engineering and Bio-X interdisciplinary program, and is a member of the University of California President’s Science and Innovation Advisory Board. She also served on the America Compete's Innovation Advisory Board in 2011.
+    Judith Judy L. Estrin is an Internet pioneer and American business executive. Former colleague Richard A. Karp credits Estrin as one of the key people in the development of Internet when they worked together with Vint Cerf on the initial TCP-project at Stanford.
+    She is now CEO of JLabs (formerly called Packet Design Management Company), a privately held company focused on furthering innovation in business, government and non-profit organizations. Estrin is the author of Closing the Innovation Gap: Reigniting the Spark of Creativity in a Global Economy (McGraw-Hill; Hardcover, September 2008), a general interest book that challenges national, academic and business leaders to work together to make USA competitive again. Estrin is a serial entrepreneur who co-founded eight technology companies. She was the CTO of Cisco Systems from 1998 to 2000. Estrin served on the boards of FedEx Corporation (1989-2010), Rockwell Automation and Sun Microsystems, as well as on the Board of Directors of the Walt Disney Company for fifteen years. She also serves on the advisory boards of Stanford’s School of Engineering and Bio-X interdisciplinary program, and is a member of the University of California President’s Science and Innovation Advisory Board. She also served on the America Compete's Innovation Advisory Board in 2011.
   website: http://en.wikipedia.org/wiki/Judith_Estrin
   image_path: images/Judith -L-Estrin.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1977
+  death: 
   label: 
   title: Juliana Rotich
   details: Juliana is a Technologist, MIT Media Lab Director's Fellow, TED Senior
@@ -784,9 +884,12 @@
   website: http://julia.na/
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Juliana_Rotich_-_World_Economic_Forum_on_Africa_2012.jpg/170px-Juliana_Rotich_-_World_Economic_Forum_on_Africa_2012.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1935
+  death: 2007
   label: 
   title: Karen Spärck Jones
   details: Karen Spärck Jones FBA (26 August 1935 – 4 April 2007) was a British computer
@@ -802,9 +905,12 @@
   website: http://en.wikipedia.org/wiki/Karen_Sp%C3%A4rck_Jones
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Karen_Sp%C3%A4rck.jpg/220px-Karen_Sp%C3%A4rck.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1922
+  death: 2022
   label: 
   title: Kathleen Booth
   details: 'Kathleen Booth (née Britten) is credited with writing the first assembly
@@ -812,8 +918,8 @@
     first computer systems at Birkbeck College, University of London. Kathleen Booth
     worked at Birkbeck College from 1946–62. She traveled to the United States as
     Andrew Booth''s research assistant in 1947, visiting with John von Neumann at
-    Princeton. Upon returning to the UK, she co-authored "General Considerations in
-    the Design of an All Purpose Electronic Digital Computer," describing modifications
+    Princeton. Upon returning to the UK, she co-authored General Considerations in
+    the Design of an All Purpose Electronic Digital Computer, describing modifications
     to the original ARC redesign to the ARC2 using a von Neumann architecture. Part
     of her contribution was the ARC assembly language. She also built and maintained
     ARC components. Kathleen and Andrew Booth''s team at Birkbeck were considered
@@ -824,7 +930,7 @@
     APE(X)C eventually led to the HEC series manufactured by the British Tabulating
     Machine Company, the small scale of the Birkbeck group did not place it in the
     front rank of British computer activity. Booth regularly published papers concerning
-    her work on the ARC and APE(X)C systems and co-wrote "Automatic Digital Computers"
+    her work on the ARC and APE(X)C systems and co-wrote Automatic Digital Computers
     (1953) which illustrated the ''Planning and Coding'' programming style. She co-founded
     the School of Computer Science and Information Systems in 1957, along with Andrew
     Booth and J.C. Jennings. In 1958, she taught a programming course. In 1958, Booth
@@ -832,12 +938,15 @@
   website: http://en.wikipedia.org/wiki/Kathleen_Booth
   image_path: images/Kathleen-Booth.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1921
+  death: 2006
   label: 
   title: Kay McNulty
-  details: Kathleen "Kay" McNulty Mauchly Antonelli (12 February, 1921 – 20 April
+  details: Kathleen Kay McNulty Mauchly Antonelli (12 February, 1921 – 20 April
     2006) was one of the six original programmers of the ENIAC, the first general-purpose
     electronic digital computer. A week or two after graduating, she happened to see
     a US Civil Service ad in The Philadelphia Inquirer looking for women with degrees
@@ -849,7 +958,7 @@
     Frances Bilas and Josephine Benson about the ad. Benson couldn't meet up with
     them, so Kathleen and Fran met in Philadelphia one morning in June 1942 for an
     interview in a building on South Broad Street (likely the Union League Building).
-    One week later, they were both hired as human "computers" at a pay grade of SP-4,
+    One week later, they were both hired as human computers at a pay grade of SP-4,
     a subprofessional civil service grade. They were notified to report to work at
     the Moore School of Engineering. Their job was to compute ballistics trajectories
     used for artillery firing tables, mostly using mechanical desk calculators and
@@ -859,23 +968,24 @@
   website: http://en.wikipedia.org/wiki/Kathleen_Antonelli
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/KayMcNulty_maturitn%C3%AD_fotografie.jpg/200px-KayMcNulty_maturitn%C3%AD_fotografie.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1967
+  death: 
   label: 
   title: Kimberly Bryant
-  details: Kimberly Bryant is the Founder and Executive Director of Black Girls CODE,
-    a non-profit organization focused on introducing girls of color (ages 7-17) to
-    the field of technology and computer programming with a concentration on entrepreneurial
-    concepts. Ms. Bryant's has enjoyed a very successful professional career as a
-    Biotechnology Engineer in a series of technical leadership roles for various Fortune
-    100 companies such as Genentech, Merck, and Pfizer. 
-  website: http://about.me/kimberlybryant
+  details: Kimberly Bryant (born January 14, 1967) is an American electrical engineer who worked in the biotechnology field at Genentech, Novartis Vaccines, Diagnostic, and Merck. In 2011, Bryant founded Black Girls Code, a nonprofit organization that focuses on providing technology and computer programming education to African-American girls. After founding Black Girls Code, Bryant was listed as one of the 25 Most Influential African-Americans In Technology by Business Insider.
+  website: https://en.wikipedia.org/wiki/Kimberly_Bryant_(technologist)
   image_path: images/54ae85aa06bef_-_black-girls-code-founder-kimberly-bryant-v-elv.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1980
+  death: 
   label: 
   title: Limor Fried
   details: 'Limor Fried is an American electrical engineer and owner of the electronics
@@ -895,17 +1005,20 @@
     the Electronic Frontier Foundation for her participation in the open source hardware
     and software community. Fried was awarded the Most Influential Women in Technology
     award, in 2011, by Fast Company magazine, and became the first female engineer
-    featured on the cover of Wired. In an interview with CNET, Fried said, "If there''s
+    featured on the cover of Wired. In an interview with CNET, Fried said, If there''s
     one thing I''d like to see from this, it would be for some kids to say to themselves
-    "I could do that" and start the journey to becoming an engineer and entrepreneur."
-    Limor was named "Entrepreneur of the Year" in 2012 by Entrepreneur, of the 15
+    I could do that and start the journey to becoming an engineer and entrepreneur.
+    Limor was named Entrepreneur of the Year in 2012 by Entrepreneur, of the 15
     finalists she was the only female.'
   website: http://en.wikipedia.org/wiki/Limor_Fried
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Limor_Fried_2010.jpg/220px-Limor_Fried_2010.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1944
+  death: 2022
   label: 
   title: Lorinda Cherry
   details: 'Lorinda Cherry is a computer programmer. She received her Masters in computer
@@ -920,16 +1033,19 @@
     who are learning to write that they have choices and make choices when they do
     it. They don’t think of a writing task as making choices per se. Once they get
     it on paper they think it’s cast in stone. So it makes them edit. Cherry also
-    contributed to the Plan 9 operating system, cowrote "Typing Documents on the UNIX
-    System: Using the –ms and –mcs Macros with Troff" with Mike Lesk for the Unix
+    contributed to the Plan 9 operating system, cowrote Typing Documents on the UNIX
+    System: Using the –ms and –mcs Macros with Troff with Mike Lesk for the Unix
     Tenth Edition Manual, and coded up the non-dictionary based spellchecker, typo,
     conceived by Bob Morris. Cherry raced rally cars as a hobby.'
   website: http://en.wikipedia.org/wiki/Lorinda_Cherry
   image_path: http://t1.gstatic.com/images?q=tbn:ANd9GcTyGIA44jts6_mQQdRm4xDu86p-8tg5l1GJOWAciVE0MbxTkUv8
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1938
+  death: 2024
   label: 
   title: Lynn Conway
   details: Conway was recruited by IBM Research in Yorktown Heights, New York in 1964,
@@ -937,24 +1053,24 @@
     working alongside John Cocke, Herbert Schorr, Ed Sussenguth, Fran Allen and other
     IBM researchers on the Advanced Computing Systems (ACS) project, inventing multiple-issue
     out-of-order dynamic instruction scheduling while working there. The Computer
-    History Museum has stated that "the ACS machines appears to have been the first
+    History Museum has stated that the ACS machines appears to have been the first
     superscalar design, a computer architectural paradigm widely exploited in modern
     high-performance microprocessors. Conway was recruited by IBM Research in Yorktown
     Heights, New York in 1964, and was soon selected to join the architecture team
     designing an advanced supercomputer, working alongside John Cocke, Herbert Schorr,
     Ed Sussenguth, Fran Allen and other IBM researchers on the Advanced Computing
     Systems (ACS) project, inventing multiple-issue out-of-order dynamic instruction
-    scheduling while working there. The Computer History Museum has stated that "the
+    scheduling while working there. The Computer History Museum has stated that the
     ACS machines appears to have been the first superscalar design, a computer architectural
     paradigm widely exploited in modern high-performance microprocessors. Upon completing
     her transition in 1968, Conway took a new name and identity, and restarted her
-    career in "stealth-mode" as a contract programmer at Computer Applications, Inc.
+    career in stealth-mode as a contract programmer at Computer Applications, Inc.
     She went on to work at Memorex during 1969–1972 as a digital system designer and
     computer architect. Conway joined the University of Michigan in 1985 as professor
     of electrical engineering and computer science, and associate dean of engineering.
-    There she worked on "visual communications and control probing for basic system
+    There she worked on visual communications and control probing for basic system
     and user-interface concepts as applicable to hybridized internet/broadband-cable
-    communications". She retired from active teaching and research in 1998, as professor
+    communications. She retired from active teaching and research in 1998, as professor
     emerita at Michigan. In the fall of 2012, the IEEE published a special issue of
     the IEEE Solid-State Circuits Magazine devoted to Lynn Conway’s career, including
     a career memoir by Lynn and peer commentaries by Chuck House, former Director
@@ -964,9 +1080,12 @@
   website: http://en.wikipedia.org/wiki/Lynn_Conway
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Lynn_Conway_July_2006.jpg/200px-Lynn_Conway_July_2006.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1951
+  death: 
   label: 
   title: Maria Klawe
   details: Maria Margaret Klawe (pronounced claw-vay, born 1951) is a computer scientist
@@ -998,34 +1117,12 @@
   website: http://en.wikipedia.org/wiki/Maria_Klawe
   image_path: http://www.maa.org/sites/default/files/images/news/M.KlawePort_Cropped.gif
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
-  label: 
-  title: Marissa Mayer
-  details: 'Marissa Ann Mayer is the current president and CEO of Yahoo!, a position
-    she has held since July 2012. Previously, she was a long-time executive and key
-    spokesperson for Google. She joined Google in 1999 as employee number 20 and was
-    the company''s first female engineer. She started out writing code and overseeing
-    small teams of engineers, developing and designing Google’s search offerings.
-    She became known for her attention to detail. She was soon promoted to product
-    manager and later became Director of Consumer Web products. She oversaw the layout
-    of Google''s well-known, unadorned search homepage In 2005 she became Vice President
-    of Search Products and User Experience. Mayer held key roles in Google Search,
-    Google Images, Google News, Google Maps, Google Books, Google Product Search,
-    Google Toolbar, iGoogle, and Gmail. On July 16, 2012, Mayer was appointed President
-    and CEO of Yahoo!, effective the following day. She is also a member of the company''s
-    board of directors. In 2013, Mayer ranked 32 in the Forbes Magazine''s List of
-    The World''s 100 Most Powerful Women. Also in 2013, Mayer became the first woman
-    listed as number one on Fortune magazine''s annual list of the top 40 business
-    stars under 40 years old. In 2014, she was listed again as one of the 100 most
-    influential women in the world. She was ranked at #18, behind Beyonce Knowles.'
-  website: http://en.wikipedia.org/wiki/Marissa_Mayer
-  image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Marissa_Mayer_May_2014_%28cropped%29.jpg/220px-Marissa_Mayer_May_2014_%28cropped%29.jpg
-  image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
-- date: 
-  list:
+  birth: 1928
+  death: 2008
   label: 
   title: Marlyn Wescoff
   details: Marlyn Meltzer was one of the six original programmers of ENIAC, the first
@@ -1044,9 +1141,12 @@
   website: http://en.wikipedia.org/wiki/Marlyn_Meltzer
   image_path: http://www.computerhope.com/people/pictures/marlyn_wescoff.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1937
+  death: 
   label: 
   title: Mary Allen Wilkes
   details: Mary Allen Wilkes (born September 25, 1937 in Chicago, Illinois) is a former
@@ -1057,10 +1157,10 @@
     the IBM 709 and the TX-2.  While there, she simulated the LINC, what would become
     the first minicomputer, on the TX-2. She designed the console and the first operating
     system for LINC and continued to design many operating systems for LINC, all named
-    beginning with "LAP" up to the LAP6. She then authored the LAP6 Handbook and co-authored
+    beginning with LAP up to the LAP6. She then authored the LAP6 Handbook and co-authored
     Programming with LINC with Wesley A. Clark. In 1965, she designed and used a computer
     in her home, and is usually considered to be the first home computer user. This
-    claim is dependent on the definition of a "home computer." In 1965, Wilkes left
+    claim is dependent on the definition of a home computer. In 1965, Wilkes left
     MIT and began working at the Computer Systems Laboratory at Washington University
     in St. Louis. In St. Louis, she designed the multiply macromodule. After working
     at Washington University, she left Computer Science and entered law school at
@@ -1069,16 +1169,19 @@
   website: http://en.wikipedia.org/wiki/Mary_Allen_Wilkes
   image_path: http://t3.gstatic.com/images?q=tbn:ANd9GcSicYkS4sTo7ZLvfomHXX5tTvd1OkWBTWW1nTu5bFDbb-TnA48Phw
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1965
+  death: 
   label: 
   title: Mary Lou Jepsen
   details: 'Mary Lou Jepsen is Head of the Display Division at Google X. She is also
     founder and former CEO of Pixel Qi, a manufacturer of high performance, low-power,
     sunlight-readable screens for mobile devices. She was the co-founder and the first
     chief technology officer of One Laptop per Child (OLPC). She was named to the
-    "Time 100", an annual list of the 100 most influential people in the world according
+    Time 100, an annual list of the 100 most influential people in the world according
     to Time Magazine. In 2013 she was named one of the CNN 10: a list of top 10 thinkers
     in science and technology by CNN. Jepsen studied Studio Art and Electrical Engineering
     at Brown University. She received a Master of Science in Holography from the MIT
@@ -1100,9 +1203,12 @@
   website: http://en.wikipedia.org/wiki/Mary_Lou_Jepsen
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Mary_Lou_Jepsen_-_eTech_2009.jpg/220px-Mary_Lou_Jepsen_-_eTech_2009.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1943
+  death: 
   label: 
   title: Mary Shaw
   details: Mary Shaw is an American software engineer, and the Alan J. Perlis Professor
@@ -1112,16 +1218,19 @@
     works in the field of software architecture along with David Garlan. In 2011,
     Shaw and Garlan received the Outstanding Research Award from ACM SIGSOFT, the
     Association of Computing Machinery's Special Interest Group on Software Engineering,
-    for their "significant and lasting software engineering research contributions
-    through the development and promotion of software architecture." On October 3,
+    for their significant and lasting software engineering research contributions
+    through the development and promotion of software architecture. On October 3,
     2014, U.S. President Barack Obama announced that Shaw was awarded the National
     Medal of Technology and Innovation.
   website: http://en.wikipedia.org/wiki/Mary_Shaw_(computer_scientist)
   image_path: http://www.cmu.edu/news/stories/archives/2014/october/images/maryshaw_200x2502.jpg.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1978
+  death: 
   label: 
   title: Melanie Rieback
   details: Melanie Rieback is a former Asst. Prof. of Computer Science at VU who performed
@@ -1133,14 +1242,17 @@
     Response Team (CCERT) at ING Bank, where she set up the CCERT Analysis Lab and
     was the lead technical project manager of the ING Core Threat Intelligence Systems.
     For fun, she founded the Dutch Girl Geek Dinner in 2008. Melanie was also named
-    2010 ICT Professional of the Year (Finalist) by WomeninIT, and one of the "400
-    most successful women in the Netherlands" by Viva Magazine (Viva400) in 2010.
-  website: http://www.cs.vu.nl/~melanie/
+    2010 ICT Professional of the Year (Finalist) by WomeninIT, and one of the 400
+    most successful women in the Netherlands by Viva Magazine (Viva400) in 2010.
+  website: https://en.wikipedia.org/wiki/Melanie_Rieback
   image_path: http://www.few.vu.nl/~melanie/melanie2.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1960
+  death: 
   label: 
   title: Monica S. Lam
   details: Monica Sin-Ling Lam is a professor in the Computer Science Department at
@@ -1160,9 +1272,12 @@
   website: http://en.wikipedia.org/wiki/Monica_S._Lam
   image_path: http://t0.gstatic.com/images?q=tbn:ANd9GcSMZcE8EK0Wxmk-u3FOs5HZsqF8-HEN6KGmKwynTmll7TGbF5hv
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1923
+  death: 2017
   label: 
   title: Phyllis Fox
   details: Phyllis Fox (born 1934) is an American mathematician and computer scientist.
@@ -1174,9 +1289,12 @@
   website: http://en.wikipedia.org/wiki/Phyllis_Fox
   image_path: images/fox-p-obituary-photo-w250.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1951
+  death: 
   label: 
   title: Radia Perlman
   details: Radia Perlman invented the Spanning Tree Protocol. She has done extensive
@@ -1186,17 +1304,20 @@
     to the operation of network bridges, while working for Digital Equipment Corporation.
     She also made large contributions to many other areas of network design and standardization,
     such as link-state protocols, including TRILL, which she invented to correct some
-    of the shortcomings of spanning-trees. She is sometimes referred to as the "Mother
-    of the Internet", a title which she dislikes. Her work transformed the Ethernet
+    of the shortcomings of spanning-trees. She is sometimes referred to as the Mother
+    of the Internet, a title which she dislikes. Her work transformed the Ethernet
     protocol from using a few nodes over a limited distance, into something able to
     create large networks.Perlman is the author of one textbook on networking and
     coauthor of one textbook on network security. She holds more than 100 issued patents.
   website: http://en.wikipedia.org/wiki/Radia_Perlman
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Radia_Perlman_2009.jpg/220px-Radia_Perlman_2009.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1978
+  death: 
   label: 
   title: Rana el Kaliouby
   details: Rana el Kaliouby, Ph.D (born 1978) is the inventor of expression-recognition
@@ -1209,9 +1330,12 @@
   website: http://en.wikipedia.org/wiki/Rana_el_Kaliouby
   image_path: http://www.technologyreview.com/sites/default/files/legacy/rana.el.kaliouby.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1905
+  death: 1977
   label: 
   title: Rósa Péter
   details: 'Rózsa Péter, born Politzer was a Hungarian mathematician. She is best
@@ -1221,10 +1345,10 @@
     to focus on poetry. However, she was convinced to return to mathematics by her
     friend, László Kalmár, who suggested she research the work of Kurt Gödel on the
     theory of incompleteness. She prepared her own, different proofs to Gödel''s work.
-    Péter presented the results of her paper on recursive theory, "Rekursive Funktionen,"
+    Péter presented the results of her paper on recursive theory, Rekursive Funktionen,
     to the International Congress of Mathematicians in Zurich, Switzerland in 1932.
     For her research, she received her PhD summa cum laude in 1935. In 1936, she presented
-    a paper entitled "Über rekursive Funktionen der zweite Stufe" to the International
+    a paper entitled Über rekursive Funktionen der zweite Stufe to the International
     Congress of Mathematicians in Oslo. These papers helped to found the modern field
     of recursive function theory as a separate area of mathematical research. In 1937,
     she was appointed as contributing editor of the Journal of Symbolic Logic. After
@@ -1237,22 +1361,25 @@
     her first full-time teaching appointment at the Budapest Teachers’ Training College.
     In 1952, she was the first Hungarian woman to be made an Academic Doctor of Mathematics.
     After the College closed in 1955, she taught at Eötvös Loránd University until
-    her retirement in 1975. She was a popular professor, know as "Aunt Rózsa" to her
+    her retirement in 1975. She was a popular professor, know as Aunt Rózsa to her
     students. In 1951, she published her key work, Recursive Functions (Rekursive
     Funtionen). She continued to publish important papers on recursive theory throughout
-    her life. In 1959 she presented a major paper "Über die Verallgemeinerung der
+    her life. In 1959 she presented a major paper Über die Verallgemeinerung der
     Theorie der rekursiven Funktionen für abstrakte Mengen geeigneter Struktur als
-    Definitionsbereiche" to the International Symposium in Warsaw (later published
+    Definitionsbereiche to the International Symposium in Warsaw (later published
     in two parts in 1961 and 1962). Beginning in the mid-1950s, Péter applied recursive
     function theory to computers. Her final book, published in 1976, was Recursive
     Functions in Computer Theory. Originally published in Hungarian, it was translated
     into English in 1981.'
-  website: http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Peter.html
+  website: https://en.wikipedia.org/wiki/R%C3%B3zsa_P%C3%A9ter
   image_path: http://www.renyi.hu/conferences/2005/lh05/pic/pr2c.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1967
+  death: 
   label: 
   title: Rebecca Enonchong
   details: Rebecca Enonchong is a Cameroonian born technology entrepreneur and also
@@ -1277,9 +1404,12 @@
   website: http://en.wikipedia.org/wiki/Rebecca_Enonchong
   image_path: images/220px-ECommerce_Week_2019_(46806162084).jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1953
+  death: 
   label: 
   title: Roberta Williams
   details: Roberta Williams is an American video game designer, writer and a co-founder
@@ -1295,7 +1425,7 @@
     became Sierra On-Line. The first Williams' title was Mystery House (1980), which
     became known as the first graphical adventure game. The second title, Wizard and
     the Princess (1980), added color graphics. But the first serious success was the
-    King's Quest series, which featured a "large expansive world" that could be explored
+    King's Quest series, which featured a large expansive world that could be explored
     by players. After that, Roberta Williams designed such titles as Mixed-Up Mother
     Goose (1987), The Colonel's Bequest (1989), and Phantasmagoria (1995), which was
     the first in her career to be developed in the full-motion video technology. Phantasmagoria
@@ -1312,9 +1442,12 @@
   website: http://en.wikipedia.org/wiki/Roberta_Williams
   image_path: http://www.mauriciogiraldo.com/vgline/sites/default/files/imagecache/event-big/RobertaWilliams.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1982
+  death: 
   label: 
   title: Ruchi Sanghvi
   details: Ruchi Sanghvi (born January 20, 1982) is an Indian computer engineer. She
@@ -1331,9 +1464,12 @@
   website: http://en.wikipedia.org/wiki/Ruchi_Sanghvi
   image_path: images/Ruchi_cover-2.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1924
+  death: 1986
   label: 
   title: Ruth Lichterman
   details: Ruth Teitelbaum was one of the original programmers for the ENIAC computer.
@@ -1351,9 +1487,12 @@
   website: http://en.wikipedia.org/wiki/Ruth_Teitelbaum
   image_path: http://www.teknoplof.com/wp-content/uploads/2012/04/eniac_5.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1950
+  death: 2019
   label: 
   title: Sally Floyd
   details: Sally Floyd was a computer scientist at the International Computer Science
@@ -1362,15 +1501,15 @@
     researchers in computer science. Dr. Floyd received a BA in Sociology from the
     University of California - Berkeley in 1971. She received an MS in Computer Science
     in 1984 and a PhD in 1987, both from UC - Berkeley. Floyd is best known in the
-    field of congestion control as the inventor of Random Early Detection ("RED")
+    field of congestion control as the inventor of Random Early Detection (RED)
     active queue management scheme, thus founding the field of Active Queue Management
     (AQM) with Van Jacobson. Almost all Internet routers use RED or something developed
     from it to develop data paths between different networks. Floyd devised the now-common
     method of adding jitter to message timers to avoid synchronization. Floyd, with
     Vern Paxson, in 1997 identified the lack of knowledge of network topology as the
-    major obstacle in understanding how the Internet works. This paper, "Why We Don't
-    Know How to Simulate the Internet", was re-published as "Difficulties in Simulating
-    the Internet" in 2001 and won the IEEE Communication Society's William R. Bennett
+    major obstacle in understanding how the Internet works. This paper, Why We Don't
+    Know How to Simulate the Internet, was re-published as Difficulties in Simulating
+    the Internet in 2001 and won the IEEE Communication Society's William R. Bennett
     Prize Paper Award. Floyd is also a co-author on the standard for TCP Selective
     acknowledgement (SACK), Explicit Congestion Notification (ECN), the Datagram Congestion
     Control Protocol (DCCP) and TCP Friendly Rate Control (TFRC). She received the
@@ -1380,9 +1519,12 @@
   website: http://en.wikipedia.org/wiki/Sally_Floyd
   image_path: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTk7MnNFBEWarCVdEyidnN8SynmPCAP2aRTmUTSCqVMKpwpQHnI
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1947
+  death: 
   label: 
   title: Sandra Kurtzig
   details: 'Sandra Kurtzig is an American businesswoman and technology entrepreneur.
@@ -1395,7 +1537,7 @@
     devoted more of her time to starting a family. She founded ASK Group as a part-time
     job, using $2,000 of her own savings. Kurtzig wasn''t able to give up working
     completely and launched a small, part-time contract software-programming business
-    out of her second bedroom "to keep her mind occupied" and increase her income,
+    out of her second bedroom to keep her mind occupied and increase her income,
     never intending the business to operate outside her house. She was asked to create
     an inventory-tracking program that could efficiently provide manufacturing information
     by her first client. Realizing that other manufacturers might find such a program
@@ -1421,9 +1563,12 @@
   website: http://en.wikipedia.org/wiki/Sandra_Kurtzig
   image_path: images/220px-Sandra_Kurtzig_in_2014.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1959
+  death: 
   label: 
   title: Shafi Goldwasser
   details: Shafrira Goldwasser is an American-born Israeli computer scientist. She
@@ -1447,14 +1592,17 @@
   website: http://en.wikipedia.org/wiki/Shafi_Goldwasser
   image_path: http://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Shafi_Goldwasser.JPG/220px-Shafi_Goldwasser.JPG
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1913
+  death: 1985
   label: 
   title: Sister Mary Kenneth Keller
   details: Sister Mary Kenneth Keller was the first American woman to earn a PhD in
     Computer Science, which she earned in 1965 at the University of Wisconsin–Madison.
-    Her thesis was titled "Inductive Inference on Computer Generated Patterns." She
+    Her thesis was titled Inductive Inference on Computer Generated Patterns. She
     took her vows with the Sisters of Charity in 1940. Later she earned a B.S. in
     Mathematics and a M.S. in Mathematics and Physics from DePaul University. She
     also worked in the computer science center at Dartmouth College, a men-only institution
@@ -1470,9 +1618,12 @@
   website: http://en.wikipedia.org/wiki/Mary_Kenneth_Keller
   image_path: images/Soeur_Marie_Kenneth_Keller.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1957
+  death: 
   label: 
   title: Sophie Wilson
   details: Sophie Wilson FRS (born Roger Wilson in Leeds, England, in 1957) is a British
@@ -1506,9 +1657,12 @@
   website: http://en.wikipedia.org/wiki/Sophie_Wilson
   image_path: http://regmedia.co.uk/2012/04/24/sw_1.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1950
+  death: 
   label: 
   title: Susan Estrada
   details: Estrada founded CERFnet, one of the original regional IP networks, in 1988.  CERFnet
@@ -1532,9 +1686,12 @@
   website: http://internethalloffame.org/inductees/susan-estrada
   image_path: http://internethalloffame.org/sites/default/files/inductees/Susan_Estrada.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1950
+  death: 
   label: 
   title: Susan Hares
   details: 'An internationally recognized leader in commercialized advanced networking
@@ -1568,9 +1725,12 @@
   website: https://datatracker.ietf.org/person/skh@ndzh.com
   image_path: images/susan-hares-NqbAJ.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1954
+  death: 
   label: 
   title: Susan Kare
   details: 'Susan Kare (born 1954) is an artist and graphic designer who created many
@@ -1585,7 +1745,7 @@
     in the early 1980s. A member of the original Apple Macintosh design team, she
     worked at Apple Computer starting in 1982 (Badge #3978). Kare was originally hired
     into the Macintosh software group to design user interface graphics and fonts;
-    her business cards read "HI Macintosh Artist". Later, she was a Creative Director
+    her business cards read HI Macintosh Artist. Later, she was a Creative Director
     in Apple Creative Services working for the Director of that organization, Tom
     Suiter. After leaving Apple, Kare joined NeXT as a designer, working with clients
     such as Microsoft and IBM. Her projects for Microsoft included the card deck for
@@ -1595,21 +1755,24 @@
     she produced icons and design elements for OS/2; for Eazel she contributed iconography
     to the Nautilus file manager. The Museum of Modern Art store in New York City
     has begun carrying stationery and notebooks featuring her designs. Beginning February
-    7, 2007, she has produced icons for the "Gifts" feature of the popular social-networking
+    7, 2007, she has produced icons for the Gifts feature of the popular social-networking
     website, Facebook. Initially, profits from gift sales were donated to the Susan
     G. Komen for the Cure foundation, for the fight against breast cancer. After Valentine''s
     Day, the gift selection was modified to include new and limited edition gifts
     that did not necessarily pertain to Valentine''s Day. One of the gift icons, titled
-    "Big Kiss" is also featured in some versions of Mac OS X as a user account picture.
+    Big Kiss is also featured in some versions of Mac OS X as a user account picture.
     In August 2012, she was called as an expert witness by Apple in the company''s
     patent infringement trial against industry competitor Samsung. Kare currently
     heads a digital design practice in San Francisco and sells signed prints at kareprints.com.'
   website: http://en.wikipedia.org/wiki/Susan_Kare
   image_path: images/Susan-Kare.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1950
+  death: 
   label: 
   title: Susan Nycum
   details: Susan Nycum is a lawyer who specialises in computer security and intellectual
@@ -1631,13 +1794,16 @@
   website: http://en.wikipedia.org/wiki/Susan_Nycum
   image_path: http://www.siguccs.org/awards/halloffame/halloffamepics/2004/susan.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1924
+  death: 2014
   label: 
   title: Thelma Estrin
-  details: Thelma Estrin, a 1977 IEEE Life Fellow "for contributions to the design
-    and application of computer systems for neurophysiological and brain research,"
+  details: Thelma Estrin, a 1977 IEEE Life Fellow for contributions to the design
+    and application of computer systems for neurophysiological and brain research,
     is a pioneer in the field of biomedical engineering and as the IEEE's first female
     vice president. Thelma was born in New York City, an only child who was destined
     to attend college and attain greater achievements. While other girls in school
@@ -1669,12 +1835,15 @@
     was the first woman to be elected to the IEEE Board of Directors. In 1982 she
     served as executive vice president of IEEE. She has received many honors from
     the Institute, including the Haradan Pratt Award in 1991.
-  website: http://www.ieeeghn.org/wiki/index.php/Thelma_Estrin
+  website: https://en.wikipedia.org/wiki/Thelma_Estrin
   image_path: images/Thelma_Estrin_2608.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1975
+  death: 
   label: 
   title: Window Snyder
   details: Mwende Window Snyder is a security and privacy product manager at Apple
@@ -1693,9 +1862,12 @@
   website: http://en.wikipedia.org/wiki/Window_Snyder
   image_path: images/220px-Window_Snyder_Web_Summit_2017_cropped.jpeg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech
+  tags:
+    - Women in Tech 
 - date: 
   list:
+  birth: 1967
+  death: 
   label: 
   title: Xiaoyuan Tu
   details: 'Xiaoyuan Tu is a co-founder and lead scientist at AiLive Inc. (formerly
@@ -1709,8 +1881,8 @@
     technical staff at SGI. Dr. Tu has received many honors and awards for her technical
     contributions to the fields of computer animation, behavioral modeling and artificial
     life. In 1996 she received the prestigious ACM Doctoral Dissertation Award for
-    her Ph.D dissertation "Artificial Animals for Computer Animation: Biomechanics,
-    Locomotion, Perception, and Behavior". Although other women have won the runner-up
+    her Ph.D dissertation Artificial Animals for Computer Animation: Biomechanics,
+    Locomotion, Perception, and Behavior. Although other women have won the runner-up
     Dissertation Award, Dr. Tu is the first (and currently only) woman to be awarded
     the first-place Dissertation Award. She also happens to be the first to win from
     a Canadian University and the first Chinese to receive this special honor. In
@@ -1722,7 +1894,688 @@
     of life-like, intelligent virtual characters. Her research spans the areas of
     autonomous agent architecture design, physics and biomechanics-based modeling,
     machine learning, computer graphics animation and artificial life.'
-  website: http://www.dgp.toronto.edu/~tu/
+  website: https://en.wikipedia.org/wiki/Xiaoyuan_Tu
   image_path: http://www.dgp.toronto.edu/~tu/me.jpg
   image_width: '150'
-  tags: Ada Lovelace Day,History of Computing,Women in Tech  
+  tags:
+    - Women in Tech   
+
+
+- date: 
+  list:
+  birth: 1895
+  death: 1970
+  label: 
+  title: Arturo Rosenblueth
+  details: Rosenblueth was born in 1900 in Ciudad Guerrero, Chihuahua. He began his studies in Mexico City, then traveled to Berlin and Paris where he obtained his medical degree. Returning to Mexico City in 1927, he engaged in teaching and research in physiology. In 1930, he obtained a Guggenheim Scholarship and moved to Harvard University, to work in the department of Physiology, then directed by Walter Cannon. With Cannon he explored the chemical mediation of homeostasis. Rosenblueth cowrote research papers with both Cannon and Norbert Wiener, pioneers of cybernetics. Notably he was the lead author for the 1943 article 'Behavior, Purpose and Teleology' that was co-written by Wiener and Julian Bigelow and which was published in Philosophy of Science.[1] Rosenblueth was an influential member of the core group at the Macy Conferences.
+  website: https://en.wikipedia.org/wiki/Arturo_Rosenblueth
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics 
+    - Medical
+    - Physiology
+    - Behavior
+- date: 
+  list:
+  birth: 1894
+  death: 1964
+  label: 
+  title: Norbert Wiener
+  details: Norbert Wiener was an American computer scientist, mathematician, and philosopher. He became a professor of mathematics at the Massachusetts Institute of Technology (MIT). A child prodigy, Wiener later became an early researcher in stochastic and mathematical noise processes, contributing work relevant to electronic engineering, electronic communication, and control systems.
+  website: https://en.wikipedia.org/wiki/Norbert_Wiener
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics 
+    - Mathmatics
+    - Philosophy
+    - Electronics
+    - Control Systems
+- date: 
+  list:
+  birth: 1913
+  death: 2003
+  label: 
+  title: Julian Bigelow
+  details: Bigelow was born in 1913 in Nutley, New Jersey.[1] He obtained a master's degree at the Massachusetts Institute of Technology, studying electrical engineering and mathematics. During World War II, he assisted Norbert Wiener in his research on automated fire control for anti-aircraft guns, leading to the development of the so-called Wiener filter. Bigelow coauthored (with Wiener and Arturo Rosenblueth) one of the founding papers on cybernetics and modern teleology, Behavior, Purpose and Teleology (1943), which was published in Philosophy of Science. This paper mulled over the way mechanical, biological, and electronic systems could communicate and interact. This paper instigated the formation of the Teleological Society and later the Macy conferences. Bigelow was an active member of both organizations. He was a visiting scholar for many years at the Institute for Advanced Study in Princeton.
+  website: https://en.wikipedia.org/wiki/Julian_Bigelow
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics 
+    - Electrical
+- date: 
+  list:
+  birth: 1898
+  death: 1969
+  label: 
+  title: Warren McCulloch
+  details: Warren Sturgis McCulloch (November 16, 1898 – September 24, 1969) was an American neurophysiologist and cybernetician known for his work on the foundation for certain brain theories and his contribution to the cybernetics movement.[1] Along with Walter Pitts, McCulloch created computational models based on mathematical algorithms called threshold logic which split the inquiry into two distinct approaches, one approach focused on biological processes in the brain and the other focused on the application of neural networks to artificial intelligence.
+  website: https://en.wikipedia.org/wiki/Warren_Sturgis_McCulloch
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics 
+    - Neurophysiologist
+    - Neural Networks
+    - Artificial Intelligence
+- date: 
+  list:
+  birth: 1923
+  death: 1969
+  label: 
+  title: Walter Pitts
+  details: Walter Harry Pitts, Jr.  was an American logician who worked in the field of computational neuroscience.[1] He proposed landmark theoretical formulations of neural activity and generative processes that influenced diverse fields such as cognitive sciences and psychology, philosophy, neurosciences, computer science, artificial neural networks, cybernetics and artificial intelligence, together with what has come to be known as the generative sciences. He is best remembered for having written along with Warren Sturgis McCulloch, a seminal paper in scientific history, titled A Logical Calculus of Ideas Immanent in Nervous Activity (1943). This paper proposed the first mathematical model of a neural network. The unit of this model, a simple formalized neuron, is still the standard of reference in the field of neural networks. It is often called a McCulloch–Pitts neuron. Prior to that paper, he formalized his ideas regarding the fundamental steps to building a Turing machine in The Bulletin of Mathematical Biophysics in an essay titled Some observations on the simple neuron circuit.
+  website: https://en.wikipedia.org/wiki/Walter_Pitts
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics 
+    - Neuroscience
+    - Cognitive Science
+    - Artificial Neural networks
+    - Artificial Intelligence
+- date: 
+  list:
+  birth: 1903
+  death: 1972
+  label: 
+  title: Ross Ashby
+  details: William Ross Ashby was an English psychiatrist and a pioneer in cybernetics, the study of the science of communications and automatic control systems in both machines and living things. His first name was not used, he was known as Ross Ashby. His two books, Design for a Brain and An Introduction to Cybernetics, introduced exact and logical thinking into the brand new discipline of cybernetics and were highly influential. These missionary works along with his technical contributions made Ashby the major theoretician of cybernetics after Wiener.
+  website: https://en.wikipedia.org/wiki/W._Ross_Ashby
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics 
+    - Psychiatry
+    - Brains
+- date: 
+  list:
+  birth: 1904
+  death: 1980
+  label: 
+  title: Gregory Bateson
+  details: Gregory Bateson was an English anthropologist, social scientist, linguist, visual anthropologist, semiotician, and cyberneticist whose work intersected that of many other fields. His writings include Steps to an Ecology of Mind (1972) and Mind and Nature (1979). In Palo Alto, California, Bateson and in these days his non-colleagues[1] developed the double-bind theory of schizophrenia. Bateson's interest in systems theory forms a thread running through his work. He was one of the original members of the core group of the Macy conferences in Cybernetics (1941–1960), and the later set on Group Processes (1954–1960), where he represented the social and behavioral sciences. He was interested in the relationship of these fields to epistemology. His association with the editor and author Stewart Brand helped widen his influence.
+  website: https://en.wikipedia.org/wiki/Gregory_Bateson
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics 
+    - Anthropology
+    - Social Science
+    - Visual Anthropology
+    - Semiotology
+    - Systems
+- date: 
+  list:
+  birth: 1911
+  death: 2002
+  label: 
+  title: Heinz von Foerster
+  details: Heinz von Foerster was an Austrian-American scientist combining physics and philosophy, and widely attributed as the originator of second-order cybernetics. He was twice a Guggenheim fellow (1956–57 and 1963–64) and also was a fellow of the American Association for the Advancement of Science, 1980. He is well known for his doomsday equation, published in a 1960 issue of Science, predicting that the hyperbolic growth of the Earth's population will result in the instantaneous disappearance of all humans on Friday, 13 November, A.D. 2026.
+  website: https://en.wikipedia.org/wiki/Heinz_von_Foerster
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics 
+    - Physics
+    - Philosophy
+    - Artificial INtelligence
+    - Epistemology
+    - Biophysics
+- date: 
+  list:
+  birth: 1901
+  death: 1978
+  label: 
+  title: Margaret Mead
+  details: Margaret Mead was an American cultural anthropologist, author and speaker, who appeared frequently in the mass media during the 1960s and the 1970s. She earned her bachelor's degree at Barnard College of Columbia University and her M.A. and Ph.D. degrees from Columbia. Mead served as president of the American Association for the Advancement of Science in 1975. Mead was a communicator of anthropology in modern American and Western culture and was often controversial as an academic.[3] Her reports detailing the attitudes towards sex in South Pacific and Southeast Asian traditional cultures influenced the 1960s sexual revolution.[4] She was a proponent of broadening sexual conventions within the context of Western cultural traditions.
+  website: https://en.wikipedia.org/wiki/Margaret_Mead
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics 
+    - Anthropology
+- date: 
+  list:
+  birth: 1903
+  death: 1957
+  label: 
+  title: John von Neumann
+  details: John von Neumann was a Hungarian and American mathematician, physicist, computer scientist and engineer. Von Neumann had perhaps the widest coverage of any mathematician of his time,[9] integrating pure and applied sciences and making major contributions to many fields, including mathematics, physics, economics, computing, and statistics. He was a pioneer in building the mathematical framework of quantum physics, in the development of functional analysis, and in game theory, introducing or codifying concepts including cellular automata, the universal constructor and the digital computer. His analysis of the structure of self-replication preceded the discovery of the structure of DNA.
+  website: https://en.wikipedia.org/wiki/John_von_Neumann
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics 
+    - Mathematics
+    - Physics
+    - Economics
+    - Computing
+    - Statistics
+- date: 
+  list:
+  birth: 1911
+  death: 2009
+  label: 
+  title: Qian Xuesen
+  details: Qian Xuesen was a Chinese aerospace engineer and cyberneticist who made significant contributions to the field of aerodynamics and established engineering cybernetics. He achieved recognition as one of America's leading experts in rockets and high-speed flight theory prior to his returning to China in 1955.
+  website: https://en.wikipedia.org/wiki/Qian_Xuesen
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics 
+    - Aerodynamics
+    - Aerospace
+    - Rockets
+- date: 
+  list:
+  birth: 1926
+  death: 2002
+  label: 
+  title: Stafford Beer
+  details: Anthony Stafford Beer was a British theorist, consultant and professor at the Manchester Business School.[1] He is best known for his work in the fields of operational research and management cybernetics.
+  website: https://en.wikipedia.org/wiki/Stafford_Beer
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics 
+    - Management
+    - Operations
+- date: 
+  list:
+  birth: 1916
+  death: 2001
+  label: 
+  title: Claude Shannon
+  details: Claude Shannon was an American mathematician, electrical engineer, computer scientist, cryptographer and inventor, known as the father of information theory and credited with laying the foundations of the Information Age.[1][2][3] Shannon was the first to describe the use of Boolean algebra that are essential to all digital electronic circuits, and was one of the founding fathers of artificial intelligence.[4][5][6] Roboticist Rodney Brooks declared that Shannon was the 20th century engineer who contributed the most to 21st century technologies,[7] and mathematician Solomon W. Golomb described his intellectual achievement as one of the greatest of the twentieth century.
+  website: https://en.wikipedia.org/wiki/Claude_Shannon
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics 
+    - Mathematician
+    - Electrical
+    - Compute
+    - Cryptographer
+    - Communications
+    - Artificial Intelligence
+    - Circuits
+- date: 
+  list:
+  birth: 1815
+  death: 1864
+  label: 
+  title: George Boole
+  details: George Boole was a largely self-taught English mathematician, philosopher and logician, most of whose short career was spent as the first professor of mathematics at Queen's College, Cork in Ireland. He worked in the fields of differential equations and algebraic logic, and is best known as the author of The Laws of Thought (1854), which contains Boolean algebra. Boolean logic, essential to computer programming, is credited with helping to lay the foundations for the Information Age.
+  website: https://en.wikipedia.org/wiki/George_Boole
+  image_path: 
+  image_width: 150
+  tags:
+    - Compute
+    - Logic 
+    - Mathematics
+    - Philospher
+- date: 
+  list:
+  birth: 1894
+  death: 1978
+  label: 
+  title: Warren Weaver
+  details: Warren Weaver was an American scientist, mathematician, and science administrator.[2] He is widely recognized as one of the pioneers of machine translation and as an important figure in creating support for science in the United States.
+  website: https://en.wikipedia.org/wiki/Warren_Weaver
+  image_path: 
+  image_width: 150
+  tags:
+    - Mathematician
+    - Machine Translation
+- date: 
+  list:
+  birth: 1910
+  death: 2002
+  label: 
+  title: John Robinson Pierce
+  details: John Robinson Pierce was an American engineer and author. He did extensive work concerning radio communication, microwave technology, computer music, psychoacoustics, and science fiction.[1] Additionally to his professional career he wrote science fiction for many years using the names John Pierce, John R. Pierce, and J. J. Coupling. Born in Des Moines, Iowa, he earned his PhD from Caltech, and died in Sunnyvale, California,[2] from complications of Parkinson's Disease.
+  website: https://en.wikipedia.org/wiki/John_R._Pierce
+  image_path: 
+  image_width: 150
+  tags:
+    - Radio
+    - Communication
+    - Microwaves
+    - Computer Music
+    - Psychoacoustics
+    - Science Fiction 
+- date: 
+  list:
+  birth: 1927
+  death: 2016
+  label: 
+  title: Marvin Minsky
+  details: Marvin Lee Minsky was an American cognitive and computer scientist concerned largely with research in artificial intelligence (AI). He co-founded the Massachusetts Institute of Technology's AI laboratory and wrote extensively about AI and philosophy.
+  website: https://en.wikipedia.org/wiki/Marvin_Minsky
+  image_path: 
+  image_width: 150
+  tags:
+    - Cognitive
+    - Artificial INtelligence 
+- date: 
+  list:
+  birth: 1919
+  death: 2001
+  label: 
+  title: Nathaniel Rochester
+  details: Nathaniel Rochester was the chief architect of the IBM 701, the first mass produced scientific computer, and of the prototype of its first commercial version, the IBM 702. He wrote the first assembler and participated in the founding of the field of artificial intelligence.
+  website: https://en.wikipedia.org/wiki/Nathaniel_Rochester_(computer_scientist)
+  image_path: 
+  image_width: 150
+  tags:
+    - Compute
+    - Artificial Intelligence 
+- date: 
+  list:
+  birth: 1915
+  death: 1990
+  label: 
+  title: J. C. R. Licklider
+  details: Joseph Carl Robnett Licklider is known simply as J. C. R. or Lick, was an American psychologist[3] and computer scientist who is considered to be among the most prominent figures in computer science development and general computing history. He is particularly remembered for being one of the first to foresee modern-style interactive computing and its application to all manner of activities; and also as an Internet pioneer with an early vision of a worldwide computer network long before it was built. He did much to initiate this by funding research that led to significant advances in computing technology, including today's canonical graphical user interface, and the ARPANET, which is the direct predecessor of the Internet. Robert Taylor, founder of Xerox PARC's Computer Science Laboratory and Digital Equipment Corporation's Systems Research Center, noted that most of the significant advances in computer technology—including the work that my group did at Xerox PARC—were simply extrapolations of Lick's vision. They were not really new visions of their own. So he was really the father of it all.
+  website: https://en.wikipedia.org/wiki/J._C._R._Licklider
+  image_path: 
+  image_width: 150
+  tags:
+    - Internet
+    - Compute
+    - Networks
+    - ARPANET
+- date: 
+  list:
+  birth: 1912
+  death: 1954
+  label: 
+  title: Alan Turing
+  details: Alan Mathison Turing was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist.[5] He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer.[6][7][8] Turing is widely considered to be the father of theoretical computer science.
+  website: https://en.wikipedia.org/wiki/Alan_Turing
+  image_path: 
+  image_width: 150
+  tags:
+    - Mathematics
+    - Computers
+    - Logic
+    - Crypanalyst
+    - Philospher
+    - Theoretical Biologist 
+- date: 
+  list:
+  birth: 1955
+  death: 
+  label: 
+  title: Tim Berners-Lee
+  details: Sir Timothy John Berners-Lee is an English computer scientist best known as the inventor of the World Wide Web, the HTML markup language, the URL system, and HTTP. He is a professorial research fellow at the University of Oxford[2] and a professor emeritus at the Massachusetts Institute of Technology (MIT).
+  website: 
+  image_path: 
+  image_width: 150
+  tags:
+    - Internet
+    - Compute
+    - HTML
+    - HTTP 
+- date: 
+  list:
+  birth: 1938
+  death: 
+  label: 
+  title: Donald Knuth
+  details: Donald Ervin Knuth is an American computer scientist and mathematician. He is a professor emeritus at Stanford University. He is the 1974 recipient of the ACM Turing Award, informally considered the Nobel Prize of computer science.[4] Knuth has been called the father of the analysis of algorithms.
+  website: https://en.wikipedia.org/wiki/Donald_Knuth
+  image_path: 
+  image_width: 150
+  tags:
+    - Compute
+    - Programming
+    - Software
+    - Complexity 
+- date: 
+  list:
+  birth: 1969
+  death: 
+  label: 
+  title: Linus Torvalds
+  details: Linus Benedict Torvalds is a Finnish software engineer who is the creator and lead developer of the Linux kernel. He also created the distributed version control system Git.
+  website: https://en.wikipedia.org/wiki/Linus_Torvalds
+  image_path: 
+  image_width: 150
+  tags:
+    - Compute
+    - Linux
+    - Operating Systems 
+- date: 
+  list:
+  birth: 1943
+  death: 
+  label: 
+  title: Vint Cerf
+  details: Vinton Gray Cerf is an American Internet pioneer and is recognized as one of the fathers of the Internet, sharing this title with TCP/IP co-developer Robert Kahn. He has received honorary degrees and awards that include the National Medal of Technology,[2] the Turing Award,[11] the Presidential Medal of Freedom,[12] the Marconi Prize, and membership in the National Academy of Engineering.
+  website: https://en.wikipedia.org/wiki/Vint_Cerf
+  image_path: 
+  image_width: 150
+  tags:
+    - Internet
+    - Networks
+    - TCP/IP 
+- date: 
+  list:
+  birth: 1938
+  death: 
+  label: 
+  title: Robert Kahn
+  details: Robert Elliot Kahn is an American electrical engineer who, along with Vint Cerf, first proposed the Transmission Control Protocol (TCP) and the Internet Protocol (IP), the fundamental communication protocols at the heart of the Internet. In 2004, Kahn won the Turing Award with Vint Cerf for their work on TCP/IP.
+  website: 
+  image_path: 
+  image_width: 150
+  tags:
+    - Internet
+    - Networks
+    - TCP/IP 
+- date: 
+  list:
+  birth: 1910
+  death: 1989
+  label: 
+  title: William Shockley
+  details: William Bradford Shockley was an American physicist, electrical engineer, and inventor. He was the manager of a research group at Bell Labs that included John Bardeen and Walter Houser Brattain. The three scientists were jointly awarded the 1956 Nobel Prize in Physics for their researches on semiconductors and their discovery of the transistor effect. Partly as a result of Shockley's attempts to commercialize a new transistor design in the 1950s and 1960s, California's Silicon Valley became a hotbed of electronics innovation. He recruited brilliant employees, but quickly alienated them with his autocratic and erratic management; they left and founded major companies in the industry.
+  website: https://en.wikipedia.org/wiki/William_Shockley
+  image_path: 
+  image_width: 150
+  tags:
+    - Physicist
+    - Electrical
+    - Transistors
+    - Semiconductors 
+- date: 
+  list:
+  birth: 1937
+  death: 
+  label: 
+  title: Ted Nelson
+  details: Theodor Holm Nelson is an American pioneer of information technology, philosopher, and sociologist. He coined the terms hypertext and hypermedia in 1963[1] and published them in 1965.[2] According to a 1997 Forbes profile, Nelson sees himself as a literary romantic, like a Cyrano de Bergerac, or 'the Orson Welles of software'.
+  website: https://en.wikipedia.org/wiki/Ted_Nelson
+  image_path: 
+  image_width: 150
+  tags:
+    - Information
+    - Philosophy
+    - Sociology 
+    - Hypertext
+    - Hypermedia
+- date: 
+  list:
+  birth: 1925
+  death: 2013
+  label: 
+  title: Douglas Engelbart
+  details: Douglas Carl Engelbart was an American engineer, inventor, and a pioneer in many aspects of computer science. He is best known for his work on founding the field of human–computer interaction, particularly while at his Augmentation Research Center Lab in SRI International, which resulted in creation of the computer mouse,[a] and the development of hypertext, networked computers, and precursors to graphical user interfaces. These were demonstrated at The Mother of All Demos in 1968. Engelbart's law, the observation that the intrinsic rate of human performance is exponential, is named after him.
+  website: https://en.wikipedia.org/wiki/Douglas_Engelbart
+  image_path: 
+  image_width: 150
+  tags:
+    - Compute
+    - Human-Computer INteraction
+    - Augmentation
+    - Mouse
+    - Networks
+    - Graphical User Interfaces 
+- date: 
+  list:
+  birth: 1904
+  death: 1990
+  label: 
+  title: B.F. Skinner
+  details: Burrhus Frederic Skinner was an American psychologist, behaviorist, inventor, and social philosopher. He was the Edgar Pierce Professor of Psychology at Harvard University from 1958 until his retirement in 1974. Skinner developed behavior analysis, especially the philosophy of radical behaviorism,[7] and founded the experimental analysis of behavior, a school of experimental research psychology. He also used operant conditioning to strengthen behavior, considering the rate of response to be the most effective measure of response strength. To study operant conditioning, he invented the operant conditioning chamber (aka the Skinner box),[8] and to measure rate he invented the cumulative recorder. Using these tools, he and Charles Ferster produced Skinner's most influential experimental work, outlined in their 1957 book Schedules of Reinforcement.
+  website: https://en.wikipedia.org/wiki/B._F._Skinner
+  image_path: 
+  image_width: 150
+  tags:
+    - Behavioir
+    - Psychologist
+    - Inventor
+    - Social Philosopher
+    - Operant Conditioning 
+- date: 
+  list:
+  birth: 1938
+  death: 
+  label: 
+  title: Stewart Brand
+  details: Stewart Brand is an American project developer and writer, best known as the co-founder and editor of the Whole Earth Catalog. He has founded a number of organizations, including the WELL, the Global Business Network, and the Long Now Foundation. He is the author of several books, most recently Whole Earth Discipline, An Ecopragmatist Manifesto.
+  website: https://en.wikipedia.org/wiki/Stewart_Brand
+  image_path: 
+  image_width: 150
+  tags:
+    - Stories
+    - Whole Earth Catalog
+    - Drugs
+    - Counter Culture 
+- date: 
+  list:
+  birth: 1942
+  death: 1996
+  label: 
+  title: Mario Savio
+  details: Mario Savio was an American activist and a key member of the Berkeley Free Speech Movement. He is most famous for his passionate speeches, especially the Bodies Upon the Gears address given at Sproul Hall, University of California, Berkeley on December 2, 1964. Savio remains historically relevant as an icon of the earliest phase of the 1960s counterculture movement.
+  website: https://en.wikipedia.org/wiki/Mario_Savio
+  image_path: 
+  image_width: 150
+  tags:
+    - Activism
+    - Free Speech 
+- date: 
+  list:
+  birth: 1775
+  death: 1836
+  label: 
+  title: André-Marie Ampère
+  details: André-Marie Ampère was a French physicist and mathematician who was one of the founders of the science of classical electromagnetism, which he referred to as electrodynamics. He is also the inventor of numerous applications, such as the solenoid (a term coined by him) and the electrical telegraph. As an autodidact, Ampère was a member of the French Academy of Sciences and professor at the École polytechnique and the Collège de France. The SI unit of electric current, the ampere (A), is named after him. His name is also one of the 72 names inscribed on the Eiffel Tower. The term kinematic is the English version of his cinématique,[3] which he constructed from the Greek κίνημα kinema (movement, motion), itself derived from κινεῖν kinein (to move).
+  website: https://en.wikipedia.org/wiki/Andr%C3%A9-Marie_Amp%C3%A8re
+  image_path: 
+  image_width: 150
+  tags:
+    - Electricity
+    - Physics
+    - Methematics
+    - Telegraph 
+- date: 
+  list:
+  birth: 1745
+  death: 1827
+  label: 
+  title: Alessandro Volta
+  details: Alessandro Giuseppe Antonio Anastasio Volta was an Italian chemist and physicist who was a pioneer of electricity and power,[1][2][3] and is credited as the inventor of the electric battery and the discoverer of methane. He invented the voltaic pile in 1799, and reported the results of his experiments in a two-part letter to the president of the Royal Society,[4][5] which was published in 1800.[6] With this invention, Volta proved that electricity could be generated chemically and debunked the prevalent theory that electricity was generated solely by living beings. Volta's invention sparked a great amount of scientific excitement and led others to conduct similar experiments, which eventually led to the development of the field of electrochemistry.
+  website: https://en.wikipedia.org/wiki/Alessandro_Volta
+  image_path: 
+  image_width: 150
+  tags:
+    - Electricity
+    - Chemist
+    - Physics
+    - Power
+    - Batteries 
+- date: 
+  list:
+  birth: 1797
+  death: 1851
+  label: 
+  title: Mary Shelley
+  details: Mary Wollstonecraft Shelley was an English novelist who wrote the Gothic novel Frankenstein; or, The Modern Prometheus (1818), which is considered an early example of science fiction.[3] She also edited and promoted the works of her husband, the Romantic poet and philosopher Percy Bysshe Shelley. Her father was the political philosopher William Godwin and her mother was the philosopher and women's rights advocate Mary Wollstonecraft.
+  website: https://en.wikipedia.org/wiki/Mary_Shelley
+  image_path: 
+  image_width: 150
+  tags:
+    - Author
+    - Science Fiction
+    - Feminists 
+- date: 
+  list:
+  birth: 1791
+  death: 1871
+  label: 
+  title: Charles Babbage
+  details: Charles Babbage is a mathematician, philosopher, inventor and mechanical engineer, Babbage originated the concept of a digital programmable computer. Babbage is considered by some to be father of the computer.[2][3][4][5] He is credited with inventing the first mechanical computer, the difference engine, that eventually led to more complex electronic designs, though all the essential ideas of modern computers are to be found in his analytical engine, programmed using a principle openly borrowed from the Jacquard loom.[2][6] As part of his computer work, he also designed the first computer printers.[7] He had a broad range of interests in addition to his work on computers covered in his 1832 book Economy of Manufactures and Machinery.[8] He was an important figure in the social scene in London, and is credited with importing the scientific soirée from France with his well-attended Saturday evening soirées.[9][10] His varied work in other fields has led him to be described as pre-eminent among the many polymaths of his century.
+  website: https://en.wikipedia.org/wiki/Charles_Babbage
+  image_path: 
+  image_width: 150
+  tags:
+    - Compute
+    - Inventor
+    - Mechanical
+    - Philosopher
+    - Mathematician 
+- date: 
+  list:
+  birth: 1791
+  death: 1872
+  label: 
+  title: Samuel Morse
+  details: Samuel Finley Breese Morse was an American inventor and painter. After establishing his reputation as a portrait painter, Morse, in his middle age, contributed to the invention of a single-wire telegraph system based on European telegraphs. He was a co-developer of Morse code in 1837 and helped to develop the commercial use of telegraphy.
+  website: 1872
+  image_path: https://en.wikipedia.org/wiki/Samuel_Morse
+  image_width: 150
+  tags:
+    - Communications
+    - Telegraph
+    - Morse Code
+    - Inventor 
+- date: 
+  list:
+  birth: 1791
+  death: 1867
+  label: 
+  title: Michael Faraday
+  details: Michael Faraday was an English chemist and physicist who contributed to the study of electrochemistry and electromagnetism. His main discoveries include the principles underlying electromagnetic induction, diamagnetism, and electrolysis. Although Faraday received little formal education, as a self-made man, he was one of the most influential scientists in history.[1] It was by his research on the magnetic field around a conductor carrying a direct current that Faraday established the concept of the electromagnetic field in physics. Faraday also established that magnetism could affect rays of light and that there was an underlying relationship between the two phenomena.[2][3] He similarly discovered the principles of electromagnetic induction, diamagnetism, and the laws of electrolysis. His inventions of electromagnetic rotary devices formed the foundation of electric motor technology, and it was largely due to his efforts that electricity became practical for use in technology.[4] The SI unit of capacitance, the farad, is named after him.
+  website: https://en.wikipedia.org/wiki/Michael_Faraday
+  image_path: 
+  image_width: 150
+  tags:
+    - Electricity
+    - Chemist
+    - Physicist
+    - Magentism
+    - Electrolysis
+- date: 
+  list:
+  birth: 1847
+  death: 1931
+  label: 
+  title: Thomas Edison
+  details: Thomas Alva Edison was an American inventor and businessman.[1][2][3] He developed many devices in fields such as electric power generation, mass communication, sound recording, and motion pictures.[4] These inventions, which include the phonograph, the motion picture camera, and early versions of the electric light bulb, have had a widespread impact on the modern industrialized world.[5] He was one of the first inventors to apply the principles of organized science and teamwork to the process of invention, working with many researchers and employees. He established the first industrial research laboratory.
+  website: https://en.wikipedia.org/wiki/Thomas_Edison
+  image_path: 
+  image_width: 150
+  tags:
+    - Electricity
+    - Communications
+    - Sounds
+    - Audio
+    - Recording
+- date: 
+  list:
+  birth: 1856
+  death: 1943
+  label: 
+  title: Nikola Tesla
+  details: Nikola Tesla was a Serbian-American engineer, futurist, and inventor. He is known for his contributions to the design of the modern alternating current (AC) electricity supply system.
+  website: https://en.wikipedia.org/wiki/Nikola_Tesla
+  image_path: 
+  image_width: 150
+  tags:
+    - Electricity
+    - Telephony
+    - Communications
+- date: 
+  list:
+  birth: 1874
+  death: 1937
+  label: 
+  title: Guglielmo Marconi
+  details: Guglielmo Giovanni Maria Marconi  was an Italian electrical engineer, inventor, and politician known for his creation of a practical radio wave-based wireless telegraph system.[5] This led to Marconi being credited as the inventor of radio[6] and sharing the 1909 Nobel Prize in Physics with Karl Ferdinand Braun in recognition of their contributions to the development of wireless telegraphy.[7][8][9] His work laid the foundation for the development of radio, television, and all modern wireless communication systems.
+  website: 
+  image_path: 
+  image_width: 150
+  tags:
+    - Radio
+    - Communications
+    - Telegraph
+    - Electricity
+    - Physics    
+- date: 
+  list:
+  birth: 1860
+  death: 1929
+  label: 
+  title: Herman Hollerith
+  details: Herman Hollerith was a German-American statistician, inventor, and businessman who developed an electromechanical tabulating machine for punched cards to assist in summarizing information and, later, in accounting. His invention of the punched card tabulating machine, patented in 1884, marks the beginning of the era of mechanized binary code and semiautomatic data processing systems, and his concept dominated that landscape for nearly a century. Hollerith founded a company that was amalgamated in 1911 with several other companies to form the Computing-Tabulating-Recording Company. In 1924, the company was renamed International Business Machines (IBM) and became one of the largest and most successful companies of the 20th century. Hollerith is regarded as one of the seminal figures in the development of data processing.
+  website: 
+  image_path: 
+  image_width: 150
+  tags:
+    - Cybernetics
+- date: 
+  list:
+  birth: 1830
+  death: 1904
+  label: 
+  title: Eadweard Muybridge
+  details: Eadweard Muybridge was an English photographer known for his pioneering work in photographic studies of motion, and early work in motion-picture projection. He adopted the first name Eadweard as the original Anglo-Saxon form of Edward, and the surname Muybridge, believing it to be similarly archaic.[1] A noted photographer in the 19th century American West, he photographed Yosemite, San Francisco, the newly acquired Alaskan Territory, subjects involved in the Modoc War, and lighthouses on the West Coast. He also made his early moving picture studies in California.
+  website: 
+  image_path: 
+  image_width: 150
+  tags:
+    - Photography
+    - Videos
+    - Moving Pictures
+    - Motion Pictures
+    - Projection
+- date: 
+  list:
+  birth: 1866
+  death: 1946
+  label: 
+  title: H. G. Wells
+  details: Herbert George Wells was an English writer, prolific in many genres. He wrote more than fifty novels and dozens of short stories. His non-fiction output included works of social commentary, politics, history, popular science, satire, biography, and autobiography. Wells's science fiction novels are so well regarded that he has been called the father of science fiction.
+  website: https://en.wikipedia.org/wiki/H._G._Wells?variant=zh-tw
+  image_path: 
+  image_width: 150
+  tags:
+    - Author
+    - Science Fiction
+- date: 
+  list:
+  birth: 1885
+  death: 1942
+  label: 
+  title: John R. Brinkley
+  details: John Romulus Brinkley was an American quack doctor, broadcaster, marketer and independent politician. He had no accredited education as a physician and bought his medical degree from a diploma mill. Brinkley became known as the goat-gland doctor[2] after he achieved national fame, international notoriety, and wealth through the xenotransplantation of goat testicles into humans. Although Brinkley initially promoted this procedure as a means of curing male impotence, he later claimed that the technique was a virtual panacea for a wide range of male ailments. Brinkley operated clinics and hospitals in several states and was able to continue practicing medicine for almost two decades, despite his techniques being thoroughly discredited by the broader medical community.
+  website: https://en.wikipedia.org/wiki/John_R._Brinkley
+  image_path: 
+  image_width: 150
+  tags:
+    - Radio
+    - Border Blasters
+    - Misinformation
+    - Wellness
+- date: 
+  list:
+  birth: 1915
+  death: 1985
+  label: 
+  title: Orson Welles
+  details: George Orson Welles was an American director, actor, writer, producer, and magician who is remembered for his innovative work in film, radio, and theatre.[1][2] He is among the greatest and most influential filmmakers of all time. Aged 21, Welles directed high-profile stage productions for the Federal Theatre Project in New York City—starting with a celebrated 1936 adaptation of Macbeth with an African-American cast, and ending with the political musical The Cradle Will Rock in 1937. He and John Houseman founded the Mercury Theatre, an independent repertory theatre company that presented productions on Broadway through 1941, including a modern, politically charged Caesar (1937). In 1938, his radio anthology series The Mercury Theatre on the Air gave Welles the platform to find international fame as the director and narrator of a radio adaptation of H. G. Wells's novel The War of the Worlds, which caused some listeners to believe a Martian invasion was occurring. The event rocketed the 23-year-old to notoriety.
+  website: https://en.wikipedia.org/wiki/Orson_Welles
+  image_path: 
+  image_width: 150
+  tags:
+    - Radio
+    - Director
+    - Actor
+    - Writer
+    - Magician

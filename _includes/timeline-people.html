@@ -1,13 +1,22 @@
 <div class="tm-timeline uk-margin-large-top" style="margin: 50px 0px 50px 0px">
-    {% for version in site.data.timeline-people %}
+    {%- assign peoples = site.data.timeline-people | sort: "birth" -%}
+    {% for people in peoples %}
     <div class="tm-timeline-entry">
         <div class="tm-timeline-time">
-            <h5>{{ version.date }}</h5>
+            <h6>{% if people.birth != 3000 %}{{ people.birth }}{% if people.death %} - {{ people.death }}{% endif %}{% endif %} </h6>
         </div>
         <div class="tm-timeline-body">
-            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">{{ version.title }}{% if version.label %}<span class="uk-label uk-margin-small-left">{{ version.label }}</span>{% endif %}</h3>
+            <h6 class="uk-flex uk-flex-middle">
+                <a href="{{ people.website }}" target="_blank" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="{{ people.title }}" data-bs-content="{{ people.details }}">{{ people.title }}</a>
+                {% if people.label %}
+                    <span class="uk-label uk-margin-small-left">{{ people.label }}</span>
+                {% endif %}            
+                {% if people.label %}
+                    <span class="uk-label uk-margin-small-left">{{ people.tags }}</span>
+                {% endif %}                          
+            </h6>
             <ul class="uk-list">
-                {% for item in version.list %}
+                {% for item in people.list %}
                 <li>{{ item }}</li>
                 {% endfor %}
             </ul>
