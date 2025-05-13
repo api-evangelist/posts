@@ -556,6 +556,9 @@
   image_width: '150'
   tags:
     - Women in Tech 
+    - Software
+    - Cobol
+    - Programming
 - date: 
   list:
   birth: 1901
@@ -610,6 +613,9 @@
   image_width: '150'
   tags:
     - Women in Tech 
+    - Networks
+    - Wireless
+    - Communications
 - date: 
   list:
   birth: 1900
