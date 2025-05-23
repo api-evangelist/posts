@@ -1,0 +1,19 @@
+---
+published: true
+layout: post
+title: You Have No Choice But To Do Open This Round
+date: 2025-05-23T09:00:00.000Z
+tags:
+  - Open
+  - Politics
+  - Access
+  - Control
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-lion-mouth-open.jpeg
+---
+I learned about the usage of the word “open” the hard way during the Web 2.0 dayz. I was the frontline of the open data and open API (and OpenAPI) push. Like with APIs, I was the face of various charges forward to open up government, higher education institutions, and other structural aspects of our world when it came to calls for opening up data and valuable digital resources. It took me about five years to learn that the calls for opening up data and other digital resources was about opening up other people's resources, and the powers that be in technology weren’t at all interested in opening up their own resources, just encouraging others to open up theirs, so that they could be freely consumed by others.
+
+With whatever version of the web we find ourselves in with the evolution of generative AI, open has become a mandate, not for the good of the entity producing digital resources and capabilities, but for those who want access to it. The appetite of the tech sector when it comes to data has become insatiable, and while there was a facade of friendliness and opportunity with the last round of “open” in the data and API realm, that facade is gone today. You will do open now!! It is an imperative!! You don’t have a choice according to those in power, and their sprawling frontline of believers. Now it doesn’t matter if you have an API, the AI folks will crawl your websites and applications, and convince anyone willing to listen within your organization to turn on AI and allow it to access databases and file systems with god-like access across your operations.
+
+It is interesting that people fail to acknowledge the insatiable appetite for data right now. The reasons Musk is leading Doge, and Trump is mandating AI in education and other institutions, are not rooted in fixing anything-—it is about getting access to everything. OpenAI, Facebook, Microsoft, Google, and the rest have the same mission. It is fascinating to watch business leadership open up their doors and let the tech giants in to train their models on their digital resources, capabilities, and processes. The pressure is coming from all directions to open up access, and you have no choice but to do open this round. If you have a publicly available web or mobile app—-it will be spidered. Someone within your organization will open the door for AI to come in. Your source control, IDE, office suite, and other applications will ensure that AI is let in, and has access to whatever it needs as part of your overall business operations.
+
+I was slow to catch on to previous waves of open data and API where I was the face of the hustle, but the veneer is gone this round and there is only compliance with the current AI revolution. The pressure is so great I hesitate to advise customers to have public API portals anymore, and I am actively encouraging them to have API authentication and rate limits on every single API and do not open up any database of file level access. It is an imperative that you know every single application that is accessing your APIs, and are actively monitoring their usage of your digital resources and capabilities to ensure applications are not just ingesting everything. You don’t have a choice but to do open this round, but there is a lot you can do to tighten down the control you have over your enterprise intellectual property using APIs. Really not much has changed with API management regarding how you operate, you just have to minimize your public exposure and ensure you have tighter control over who your API consumers are, staying alert in this era of “open”.

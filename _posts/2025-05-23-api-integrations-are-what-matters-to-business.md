@@ -1,0 +1,21 @@
+---
+published: true
+layout: post
+title: API Integrations Are What Matters to Business
+date: 2025-05-23T09:00:00.000Z
+tags:
+  - Integrations
+  - Business
+  - Politics
+  - Priorities
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-adam-smith-edinburgh.jpg
+---
+I know many of us have bought into the API management messaging and the APIs as a product vision over the last ten years. It is a logical response to obtaining and maintaining a handle on the API sprawl that emerged as we made the switch from to power web and mobile applications. Turning this sprawling and chaotic digital factory floor into a well known orchestration engine to automate the enterprise is the proper response to what has been happening. The problem comes in when you come up against the army of business leadership and other stakeholders who don’t see the API sprawl and chaos and have a single minded focus on digital resources and capabilities being made available in a single application or integration that will drive short term interests.
+
+Markets have made a shift towards a more short-term mindset and enterprises have followed suit. Strategies get drafted, but thrown out with each round of quarterly or annual reports and musical chairs in leadership. There isn’t the incentive to operate a business with a long term strategy, and when APIs are powering all of your internal and external business operations, there isn’t the incentive to eliminate redundancy or waste and invest in quality and performance, despite the rhetoric you hear. API management is all about having a handle on your digital supply chain, factory floor, and distribution channels. The current enterprise operates more like a series of pop-up stores that eventually become technical debt all stitched together with a ticketing system and mix of senior and junior folks running around trying to put out fires.
+
+I entertain most job offers that come through my door for API architect, API governance, API Platform, and API experience. 95% of them are not interested doing what the job description outlines. Most are just responding to a handful of line items on a checklist, and are looking for you to manage the last decade of vendor decisions and the latest round of junior recruits who have no clue what they are doing amidst the remaining senior folks who are entrenched and burned out. People don’t care about APIs or their innovative and useful application—they want an integration to support an immediate need. There are two modes of API operations right now, 1) sustaining what has already been done, 2) delivering integrations needed for what is needed next. Rarely is there an appetite or budget for making sense of what already has been done, and properly managing it to support future requests for applications and integrations. API management was what you were sold, but you only use the minimum set of capabilities to integrate with the resources and capabilities you need to deliver what is needed today—-tomorrow will take care of itself.
+
+Enterprise leadership doesn’t see APIs. Hell, most people in the enterprise don’t see APIs. There are telephone and electrical lines running everywhere and nobody sees or care until something bad happens, and even then they just respond to fix that problem—-not fix the overall system. The marketing that has come with API management, and the vision around API products all sounds nice when we are buying services or tooling, or stepping outside the enterprise for a conference. But on the ground floor in day to day operations, API integrations are all that matters. Not the APIs, the process involved with delivering and sustaining them, or the tools and skills needed to do well. The outcomes are all that matters in this moment, and ensuring that the API sprawl and chaos is able to move the line in an upward trajectory on a quarter to quarter basis. I wish that our experience and skill mattered in a strategic manner, but really it comes down to is that we know what levers to pull in the moment to satisfy the ticket in front of us, meet the definition of done for the latest sprint, and make sure we have a seat to put our but into when the music stops after the business priorities shift once again.
+
+
