@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Conversations With Enterprise Product and Engineering Teams Have Given Me More Empathy About This Moment In Tech
+title: Conversations With Enterprise Product and Engineering Teams Has Given Me More Empathy About This Moment In Tech
 date: 2025-10-02T09:00:00.000Z
 tags:
   - Artificial Intelligence
