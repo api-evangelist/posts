@@ -12,7 +12,7 @@ image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper
 ---
 I have several folks asking me what I mean when I say capability in the context of what we are building with Naftiko. I have been writing about API capabilities in the context of [the journey from API resources to API experience for some time](https://apievangelist.com/2024/02/09/api-resource-capabilities-and-experiences/). I used to call [a certain type of Postman Collections capabilities](https://www.postman.com/api-evangelist/atlassian-jira/overview) for some time, but I want to refresh my definition of what I mean, build on the work of other smart people, and publish something I can share with others to help articulate what I mean when I say capability.
 
-## Daniel Kocot
+### Daniel Kocot
 First up, Daniel Kocot has published a very thoughtful piece about all of us [moving from APIs to capabilities](https://architecturalbytes.substack.com/p/from-apis-to-capabilities), in which he frames "capability thinking" as, "placing emphasis on what a platform or system can actually do for its consumers, and how those actions can be documented, standardized, and made reusable across use cases." Daniel goes even further with, "capability thinking reframes the unit of design. Instead of exposing granular resources, platforms describe discrete business functions such as Ship Order, Process Payment, or Approve Loan."
 
 Daniel describes the characteristic of a capability in this way:
@@ -40,8 +40,8 @@ Then Daniel adds some pitfalls we want to think about:
 
 Daniel sums up the reason why you want to embrace capability thinking, "as ecosystems expand and automation becomes more common, being able to articulate a platform’s capabilities clearly will determine how well it can adapt Moving from APIs to capabilities is not just a shift in terminology. It is a step toward making digital platforms more meaningful and resilient."
 
-## Christian Posta
-To compliment Daniel's perspective, Christian Posta comes at it from the realm of artificial intelligence with From APIs to Capabilities to Support AI Agents. Christian is focusing this shift to artificial intelligence being about "each evolution has been driven by the need to enable faster, safer, and more independent changes to an organizations applications and architecture to support competitive innovation." and that "AI Agents are the next transformation, but agents are different. They aren’t yet another decomposition problem. Agents kind of change the game. They reason, plan, and act toward goals, dynamically, using their context and environment. And for this to work in real enterprise systems, we need to rethink how to expose what our enterprise systems can do."
+### Christian Posta
+To compliment Daniel's perspective, Christian Posta comes at it from the realm of artificial intelligence with [From APIs to Capabilities to Support AI Agents](https://blog.christianposta.com/from-apis-to-capabilities-what-ai-agents-mean-for-application-architecture/). Christian is focusing this shift to artificial intelligence being about "each evolution has been driven by the need to enable faster, safer, and more independent changes to an organizations applications and architecture to support competitive innovation." and that "AI Agents are the next transformation, but agents are different. They aren’t yet another decomposition problem. Agents kind of change the game. They reason, plan, and act toward goals, dynamically, using their context and environment. And for this to work in real enterprise systems, we need to rethink how to expose what our enterprise systems can do."
 
 Christian continues by pointing out "agents don’t start with an API spec. They start with a goal and some context. Then they figure out what steps they need to take to achieve that goal. That means they need to discover what the system is capable of, decide which capability to use, and know how and when to invoke it." Christian goes further by saying, "instead of exposing APIs and contracts, we need systems to expose capabilities. Think of a “capability” as a self-describing, semantically rich declaration of what a system can do, not just how to invoke it."--using the concept of a capabiity to automate what business needs of any system.
 
@@ -54,8 +54,8 @@ Christian breaks down a capability in this way:
 
 Christian higlights that the devil is in the details of capabilities being dependent on "how an enterprise implements this will be interesting however. There already is a large investment into APIs that delivers a lot of real value. Changing this won’t be a wholesale replacement of what’s already there. Leveraging MCP to wrap APIs is one possibility at least in the near term. Starting to natively support this approach is another."
 
-## Mike AMundsen
-Another smart person I'm building my definition is Mike Amundsen, who also ciites Christian Posta in his piece, while also echoing that in, "the age of AI-driven clients is here, and our APIs need to reflect that. These new clients don’t just follow instructions, they observe, infer, and choose. Which means they need more than method names and URLs. They need a clear set of well-described capabilities."
+## Mike Amundsen
+Another smart person I'm building my definition around is Mike Amundsen, who also ciites Christian Posta in his piece declaring that [Focusing on Capabilities Is a Win](https://mamund.substack.com/p/focusing-on-capabilities-is-a-win), echoing that in, "the age of AI-driven clients is here, and our APIs need to reflect that. These new clients don’t just follow instructions, they observe, infer, and choose. Which means they need more than method names and URLs. They need a clear set of well-described capabilities."
 
 Then Mike quotes another smart person I look up to--Irakli Nadareishvili of Apple: “The first step in breaking the data-centric habit is to stop designing systems as a collection of data services, and instead design for business capabilities.”
 
