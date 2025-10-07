@@ -27,7 +27,7 @@ Daniel describes the characteristic of a capability in this way:
 Daniel continues with guidance on how to move towards API capability:
 
 - Map existing APIs to business outcomes. For example, group several customer endpoints into a Customer Onboarding capability.
-- Use Data Interface Quadrants (DIQs) to assess which interfaces should become capabilities. A raw internal data service may stay as-is, while an aggregated external service may evolve into a reusable capability.
+- Use [Data Interface Quadrants (DIQs)](https://www.codecentric.de/en/knowledge-hub/blog/introducing-data-interface-quadrants-diqs) to assess which interfaces should become capabilities. A raw internal data service may stay as-is, while an aggregated external service may evolve into a reusable capability.
 - Define capabilities with clear names, descriptions, inputs, and outputs in business language.
 - Create a catalog to make them discoverable, linking to technical implementations.
 - Apply governance to keep capabilities consistent, prevent overlap, and maintain alignment with business outcomes.
