@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: How This Moment Will Shake Out
-date: 2025-10-07T09:00:00.000Z
+date: 2025-10-09T09:00:00.000Z
 tags:
  - Artificial Intelligence
  - AI
