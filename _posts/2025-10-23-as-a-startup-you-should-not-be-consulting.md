@@ -15,7 +15,7 @@ tags:
  - Managed Service Providers
  - Independent Software Vendors
  - Consultants
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-drone-boats.jpeg
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-feminist-pioneers.jpeg
 ---
 A common refrain you hear from investors and advisors as you navigate the technology landscape is that it's a bad idea to do consulting. I also hear that you should be selling as early as possible, but you should by no means be doing consulting. This isn't new. It's something I heard from folks throughout my time as API Evangelist, and it's a battle I repeatedly lost at Postman as the Chief Evangelist. I've long understood the belief system behind it and have challenged it, but I wanted to think through it some more as I work to mount a new defense on the subject of helping your customers find their way while I also find my way, charging for the time and energy spent doing the work along the way.
 
