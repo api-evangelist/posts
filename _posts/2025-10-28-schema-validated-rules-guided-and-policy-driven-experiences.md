@@ -376,6 +376,8 @@ Schema, rules, and policies are how you align engineering operations with busine
 #### Producer vs. Consumer
 Another significant shift in my view of this landscape is that most experts who understand this landscape are exclusively focused on producing APIs. I am passionately focused on applying this to consuming APIs. It is where we have less control over the landscape. It is the perspective that matters the most. No API produced matters until it is consumed. After being in the API governance trenches for a number of years at the tactical and strategic level, I am convinced we won't be able to govern the production of most APIs. It is at consumption time where we can have the most impact.
 
+I like the notion of API consumer governance. 
+
 #### In Conclusion
 OK, I got what I needed out of this post. I was going to do a visual tooling and artifact walkthrough, but I think the narrative did me more good. Sure, only people who read this might have a chance to grok what I am saying, but I need to understand what matters most in the conversations I am having. There is no guarantee that anyone will read this or sit through any video walkthrough I produce either. So the most important thing is that it is on the tip of my tongue when I enter into conversations. 
 
