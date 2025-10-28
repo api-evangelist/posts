@@ -363,6 +363,7 @@ I am trying to keep this narrative as short and concise as I can to help me keep
 - **Multi-Pattern** - I look forward to exploring more of the opportunity across request/response as well as event-driven and other operational paradigms.
 - **Configuration** - Schemas are often configuration for tooling, and when you expand to the open-source tooling we use, you widen what you can govern.
 - **Infrastructure** - You can easily apply this to gateway and other infrastructure configuration, validating and governing API infrastructure responses.
+- **Declarative** - Flattening all of the services and tooling you are using into a single declarative and governed artifacts that describes what is needed.
 - **Discovery** - I haven't even touched on how you find all of this, and the role that registries and catalogs are playing or not playing in helping with sprawl.
 - **Search** - All of the rules can be used to provide a pretty rich search filtering interface that helps you prioritize discovery based upon what really matters.
 
