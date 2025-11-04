@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: OpenAPI Extensions to Generated What You Need for AI Integration
+title: OpenAPI Extensions to Generate What You Need for AI Integration
 date: 2025-11-04T09:00:00.000Z
 tags:
  - OpenAPI
@@ -18,7 +18,7 @@ I’ve been spending a lot of time bouncing between different perspectives on au
 
 OpenAPI extensions offer a valuable window into how people are using OpenAPI for everything from documentation and SDK generation to MCP generation. The first step is always to understand what’s possible with the default OpenAPI properties. But once you reach the limits of what OpenAPI can describe, you inevitably begin to rely on extensions. There is a lot of power available in quickly extending the OpenAPI specification, but you can also quickly get yourself into an entirely other mess if you don't have any plan to govern your OAS extensions and how they contribute to your overall experience.
 
-Christian Posta provides an excellent exploration of the semantic considerations involved in using OpenAPI to generate MCP solutions. Other approaches can be seen from from [Mintlify](https://www.mintlify.com/docs/api-playground/openapi-setup#mcp), [Redocly](https://redocly.com/docs/realm/content/api-docs/openapi-extensions/x-mcp), [Speakeasy](https://www.speakeasy.com/mcp/tool-design/optimizing-openapi), and [openapi-mcp-generator](https://github.com/harsha-iiiv/openapi-mcp-generator). When it comes to enriching your OpenAPI for bot or agent automation, it’s clear that many are working hard to extend their OpenAPI investments to meet this moment. You can also find a more extensive list of OpenAPI extensions that have been used over the years to support earlier MCP-like moments.
+Christian Posta provides an [excellent exploration of the semantic considerations involved in using OpenAPI to generate MCP solutions](https://blog.christianposta.com/semantics-matter-exposing-openapi-as-mcp-tools/). Other approaches can be seen from from [Mintlify](https://www.mintlify.com/docs/api-playground/openapi-setup#mcp), [Redocly](https://redocly.com/docs/realm/content/api-docs/openapi-extensions/x-mcp), [Speakeasy](https://www.speakeasy.com/mcp/tool-design/optimizing-openapi), and [openapi-mcp-generator](https://github.com/harsha-iiiv/openapi-mcp-generator). When it comes to enriching your OpenAPI for bot or agent automation, it’s clear that many are working hard to extend their OpenAPI investments to meet this moment. You can also find a more extensive list of OpenAPI extensions that have been used over the years to support earlier MCP-like moments.
 
 I’m a strong believer in OpenAPI extensions—but I’m an even stronger believer in well-designed APIs with hypermedia and semantics intentionally built in from the start. I’ve long viewed OpenAPI as a bridge toward better API design and resource modeling. While I remain a supporter, I have to acknowledge that Mike Amundsen, Darrel Miller, Markus Lanthaler, and others were right about HTTP, the web, and designing APIs that leverage media types, hypermedia, and semantics like JSON-LD. The challenge is that few people are willing to do the hard work. There are only a handful of domain experts with the time, energy, and patience to see it through—and most others are focused on financialized outcomes.
 
