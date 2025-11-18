@@ -10,8 +10,8 @@ tags:
  - Autonomous
 image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-loom.jpeg
 ---
-You hear this a lot—especially from AI folks. I just read it again in an excellent, but very academic paper, Agentic Web: Weaving the Next Web with AI Agents (https://arxiv.org/abs/2507.21206
-). I’ll reference their work in my own work, but their claim that the web to date—and specifically APIs—weren’t built for agents always gives me great pause. It’s simply not true. It sounds true to people, and it conveniently supports a lot of current AI narratives, but it’s still wrong.
+You hear this a lot—especially from AI folks. I just read it again in an excellent, but very academic paper, [Agentic Web: Weaving the Next Web with AI Agents](https://arxiv.org/abs/2507.21206
+). I’ll reference their research in my own work, but their claim that the web to date, and specifically APIs, weren’t built for agents gives me great pause. It’s simply not true. It sounds true to people, and it conveniently supports a lot of current AI narratives, but it’s still wrong.
 
 The web was built for autnomous agents. The web was built for bots. The web was built for automation and orchestration. Yes, it was also built for humans. APIs are the web; they just return JSON or another media type instead of HTML. You can see the fingerprints of automation everywhere: the HTTP User-Agent header, media types, link relations, and semantics that deliver automation and orchestration at every turn.
 
