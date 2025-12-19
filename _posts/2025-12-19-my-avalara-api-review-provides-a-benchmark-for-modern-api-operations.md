@@ -33,7 +33,7 @@ I really enjoy [profiling APIs like Avalara[(https://contracts.apievangelist.com
 - **Legal** - Terms of Service, Privacy Policy, Compliance
 - **Changes** - Changelog, Versioning
 
-*The Postman workspace is API Evangelist created. ;-)
+*The [Avalara Postman workspace](https://www.postman.com/api-evangelist/avalara/overview) is API Evangelist created. ;-)
 
 The presence for the Avalara API is impressive. They hit most of the experience notes you want to see from an API producer. I'm sure I might have missed one or two things, but I spent a couple of hours going through their website, portal, GitHub, and the web. You just don't see this level of effort with the majority of APIs. It takes time and resources to get here. I'm sure there are things they struggle with, as well as their consumers, but Avalara does APIs well in my opinion.
 
