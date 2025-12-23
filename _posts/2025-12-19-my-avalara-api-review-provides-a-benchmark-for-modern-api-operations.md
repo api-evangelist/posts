@@ -14,9 +14,7 @@ tags:
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-old-time-cash-register.jpg
 ---
-I enjoy reviewing APIs. I'm good at it. Over 15 years, I've developed a rich and proven API discovery and profiling process. Recently, folks at Avalara reached out to me about my API Evangelist Postman Workspace. This happens regularly, as I've created many workspaces to seed the Postman Network over the years. Beyond the workspace, they asked for a general review of their approach—something I welcome because I want them profiled for API Evangelist, APIs.io, and now Naftiko. It also gives me an opportunity to think more deeply about what matters for our API presence in this modern era, circa 2025.
-
-I really enjoy [profiling APIs like Avalara[(https://contracts.apievangelist.com/store/avalara/)] because they operate a strong game, and I have to go deep to understand what I'd recommend them doing. It also helps me think about the current benchmark for what a public API producer should be doing, from the perspective of both modern and legacy API consumers. Avalara scores extremely high when I profiled their approach across fourteen areas of developer experience. You can see the APIs.json for Avalara, but here's a summary of what they offer as part of their public API operations:
+I really enjoy <a href="https://contracts.apievangelist.com/store/avalara/">profiling APIs like Avalara</a> because they operate a strong game, and I have to go deep to understand what I'd recommend them doing. It also helps me think about the current benchmark for what a public API producer should be doing, from the perspective of both modern and legacy API consumers. Avalara scores extremely high when I profiled their approach across fourteen areas of developer experience. You can see the APIs.json for Avalara, but here's a summary of what they offer as part of their public API operations:
 
 - **Access** - Website, Portal, Login, SignUp
 - **Onboarding** - Documentation, Explorer, Tours, Sandbox
