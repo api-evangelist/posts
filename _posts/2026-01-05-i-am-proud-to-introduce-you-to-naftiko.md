@@ -8,7 +8,7 @@ tags:
  - Startup
  - Investment
  - Integrations
-image: https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-manage-cost-risk-velocity-innovation.pxd
+image: https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko/naftiko-manage-cost-risk-velocity-innovation.jpg
 ---
 I’d like to introduce you to my new startup, called Naftiko. You’ve probably heard me talking about it, but as of 2026, we are a real company with funding and a team. It’s real. Naftiko is focused on making integrations easier using capabilities. We are still understanding exactly what that means, but in the last six months we have done a lot of work, and I’d like to share that with you. 
 
