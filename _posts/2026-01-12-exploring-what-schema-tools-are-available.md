@@ -19,7 +19,7 @@ image: >-
   https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/blue-circuit-docks-water-front.jpg
 ---
 
-My team asked me for more information on what schema tools are available. Well, more specifically they asked schema explorers there were, but I thought it was an opportunity to take a fresh look at the JSON Schema tooling I use, and what was available out there. While comprehensive, the JSON Schema tooling list can also be overwhelming, which is common for community tooling lists. So, I just wanted to take a curated approach understanding what was out there.
+My Naftiko team [asked me for more information on what schema tools are available](https://github.com/naftiko/go-to-market/issues/31). Well, more specifically they asked schema explorers there were, but I thought it was an opportunity to take a fresh look at the JSON Schema tooling I use, and what was available out there. While comprehensive, [the JSON Schema tooling list can also be overwhelming](https://json-schema.org/tools?query=&sortBy=name&sortOrder=ascending&groupBy=toolingTypes&licenses=&languages=&drafts=&toolingTypes=&environments=&showObsolete=false&supportsBowtie=false), which is common for community tooling lists. So, I just wanted to take a curated approach understanding what was out there.
 
 - **JSON Schema Viewer** ([Website](https://json-schema.app/start)) ([GitHub](https://github.com/atlassian-labs/json-schema-viewer)) - Simple multipage documentation of JSON Schema documents.
 - **JSON SChema Viewer** ([GitHub](https://github.com/usebruno/json-schema-viewer)) - A visual explorer for any JSON Schema document.
