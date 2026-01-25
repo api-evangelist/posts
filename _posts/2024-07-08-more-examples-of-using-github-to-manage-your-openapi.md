@@ -29,3 +29,5 @@ As I add each provider to the list I also have created <a href="https://github.c
 The list of properties really overlaps with the properties of an <a href="https://apisjson.org/properties/">API portal and APIs.json index</a>, but with OpenAPI as the center piece. Some of these repos are more about just making the OpenAPI available, while others clearly have a build apparatus around them. 
 
 I will keep setting the interesting ones aside. I don't think every OpenAPI in a GitHub repo is worth showcasing, but when you find API providers who have invested more into their approach, you find there is often a lot to learn from them.
+
+**UPDATE: January 25th, 2026** -- Along with SDK generation, [Stainless will now help you manage your OpenAPI definition via GitHub](https://www.stainless.com/changelog/generate-an-openapi-repository), which I strongly believe will be the future of API discovery, applying a GitOps approach to managing our artifacts.

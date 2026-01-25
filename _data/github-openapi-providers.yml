@@ -119,3 +119,6 @@
 - name: Auth0
   grade: C
   url: https://github.com/aminya/auth0-openapi
+- name: Webflow
+  grade: C
+  url: https://github.com/webflow/openapi-spec
