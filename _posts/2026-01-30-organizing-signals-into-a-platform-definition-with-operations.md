@@ -4,9 +4,14 @@ layout: post
 title: Organizing Signals Into a Platform Definition with Operations Organized by Role
 date: 2026-01-30T09:00:00.000Z
 tags:
-  - Microcks
-  - Mocking
-  - Testing
+  - Platforms
+  - Context
+  - Roles
+  - OpenAPI
+  - Discovery
+  - Operations
+  - Resources
+  - APIs.json
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-cell-tower-satellite-dishes.jpeg
 ---
@@ -65,6 +70,6 @@ This was just a test. But, I am pretty happy with the results. I'll repeat this 
 <center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-roles.png" width="100%"></center>
 
 ## Engineering Context
-That is it for now. I am looking to apply this approach to as many of [the top services(https://naftiko.github.io/signals//services/) I have harvested as part of Naftiko Signals. Then I will use this approach to get at [the intent behind each role](https://naftiko.github.io/signals//intent/)--developing some sort of tag cloud or other visual that shows what you are capable of when you select your services and your role, instantly engineering context for you, which you can then dial in with a few tags to describe what you are looking to shape as an individual or aggregate Naftiko capability.
+That is it for now. I am looking to apply this approach to as many of [the top services](https://naftiko.github.io/signals//services/) I have harvested as part of Naftiko Signals. Then I will use this approach to get at [the intent behind each role](https://naftiko.github.io/signals//intent/)--developing some sort of tag cloud or other visual that shows what you are capable of when you select your services and your role, instantly engineering context for you, which you can then dial in with a few tags to describe what you are looking to shape as an individual or aggregate Naftiko capability.
 
 As a result of my work on API governance over the last couple of years, I am convinced that part of the reason we can't properly engineer the context needed to integrate AI into the enterprise, is that we don't have open-source, accessible, complete, and governed OpenAPI, JSON Schema, Arazzo, and other artifacts to use when engineering the desired context. I am looking to change this, but I need a way to also be connected the dots on why these artifacts matter to business and product stakeholders, and this gives me the beginning of what I need to make this happen.
