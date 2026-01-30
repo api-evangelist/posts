@@ -29,6 +29,12 @@ With this in mind I took the twelve services that Naftiko is using to build our 
 
 This represents what Naftiko is capable of in this moment. These are all of the 3rd-party services we depend on right now. This is our business and engineering platform. There is a lot of interesting signals available in here, but there are also a lot of machine-readable artifacts we can use to automate our work, making an APIs.json index pretty valuable when it comes to making sense of our platform.
 
+<style type="text/css">
+  .gist .blob-wrapper.data {
+    max-height: 300px; /* Set your desired max height */
+    overflow: auto;   /* Adds a scrollbar when content exceeds the max height */
+  }
+</style>
 <script src="https://gist.github.com/kinlane/9bf4b8a394b825b928e656b63a806d63.js"></script>
 
 ## Platform Resources
@@ -57,3 +63,7 @@ I wanted to take one last step today to align what Naftiko is capable of with di
 This was just a test. But, I am pretty happy with the results. I'll repeat this process with the services, resources, and operations I am gathering as par tof Naftiko Signals, which will give me a much more robust list of operations to match my robust list of roles, which I can then filter and search on based on company and industry--providing a much richer viewer of what is happening.
 
 <center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-roles.png" width="75%"></center>
+
+## Engineering Context
+That is it for now. I am looking to apply this approach to as many of the top services I have harvested as part of Naftiko Signals. Then I will use this approach to get at the intent behind each role--developing some sort of tag cloud or other visual that shows what you are capable of when you select your services and your role, instantly engineering context for you, which you can then dial in with a few tags to describe what you are looking to shape as an individual or aggregate Naftiko capability.
+
