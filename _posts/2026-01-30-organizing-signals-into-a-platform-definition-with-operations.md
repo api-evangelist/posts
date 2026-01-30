@@ -52,4 +52,8 @@ The operations across the OpenAPIs for these services provide me with all of the
 ## Platform Roles
 I wanted to take one last step today to align what Naftiko is capable of with different roles. Naftiko is just a handful of roles right now, but I wanted to challenge Claude to associate each of the available operations with a role in the list of roles I am using to guide our Naftiko Signals work--further aligning the engineering details with the busienss details.
 
+<script src="https://gist.github.com/kinlane/f53e8117b2dbef28a2b43f2f1073e993.js"></script>
 
+This was just a test. But, I am pretty happy with the results. I'll repeat this process with the services, resources, and operations I am gathering as par tof Naftiko Signals, which will give me a much more robust list of operations to match my robust list of roles, which I can then filter and search on based on company and industry--providing a much richer viewer of what is happening.
+
+<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-roles.png" width="75%"></center>
