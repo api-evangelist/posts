@@ -38,9 +38,18 @@ With OpenAPIs available for our platform, I loop through all of the tags being a
 
 These tags need a lot of refinement across each of the twelve APIs. They do not reflect everything available from these services, but the initial set of resources that we are currently using in one way or another, providing a vocabulary to describe our platform which will grow over time.
 
+<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-tags.png" width="75%"></center>
+
 ## Platform Operations
 Next, I was able to loop through each of the OpenAPIs for the twelve services and extract the summary of each operation, providing a more precise look at the available operations, which can then be translated into capabilities (Naftiko), workflows (Arazzo), context (MCP), cards (A2A), skills (Agent Skills), and other more tactical functions.
 
 <script src="https://gist.github.com/kinlane/105a0e6770fe95c0d8c2c2133f9d63af.js"></script>
+
+The operations across the OpenAPIs for these services provide me with all of the available "lego bricks" for the Naftiko platform. I manage the OpenAPIs for each service separate from the Naftiko platform definition, and I am looking to be understand how to keep translating this operations into terms that will make more sense to business stakeholders, while maintaining their connection to the engineering details.
+
+<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-operations.png" width="75%"></center>
+
+## Platform Roles
+I wanted to take one last step today to align what Naftiko is capable of with different roles. Naftiko is just a handful of roles right now, but I wanted to challenge Claude to associate each of the available operations with a role in the list of roles I am using to guide our Naftiko Signals work--further aligning the engineering details with the busienss details.
 
 
