@@ -31,8 +31,8 @@ This represents what Naftiko is capable of in this moment. These are all of the 
 
 <style type="text/css">
   .gist .blob-wrapper.data {
-    max-height: 300px; /* Set your desired max height */
-    overflow: auto;   /* Adds a scrollbar when content exceeds the max height */
+    max-height: 400px;
+    overflow: auto;
   }
 </style>
 <script src="https://gist.github.com/kinlane/9bf4b8a394b825b928e656b63a806d63.js"></script>
@@ -44,7 +44,7 @@ With OpenAPIs available for our platform, I loop through all of the tags being a
 
 These tags need a lot of refinement across each of the twelve APIs. They do not reflect everything available from these services, but the initial set of resources that we are currently using in one way or another, providing a vocabulary to describe our platform which will grow over time.
 
-<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-tags.png" width="75%"></center>
+<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-tags.png" width="100%"></center>
 
 ## Platform Operations
 Next, I was able to loop through each of the OpenAPIs for the twelve services and extract the summary of each operation, providing a more precise look at the available operations, which can then be translated into capabilities (Naftiko), workflows (Arazzo), context (MCP), cards (A2A), skills (Agent Skills), and other more tactical functions.
@@ -53,7 +53,7 @@ Next, I was able to loop through each of the OpenAPIs for the twelve services an
 
 The operations across the OpenAPIs for these services provide me with all of the available "lego bricks" for the Naftiko platform. I manage the OpenAPIs for each service separate from the Naftiko platform definition, and I am looking to be understand how to keep translating this operations into terms that will make more sense to business stakeholders, while maintaining their connection to the engineering details.
 
-<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-operations.png" width="75%"></center>
+<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-operations.png" width="100%"></center>
 
 ## Platform Roles
 I wanted to take one last step today to align what Naftiko is capable of with different roles. Naftiko is just a handful of roles right now, but I wanted to challenge Claude to associate each of the available operations with a role in the list of roles I am using to guide our Naftiko Signals work--further aligning the engineering details with the busienss details.
@@ -62,7 +62,7 @@ I wanted to take one last step today to align what Naftiko is capable of with di
 
 This was just a test. But, I am pretty happy with the results. I'll repeat this process with the services, resources, and operations I am gathering as par tof Naftiko Signals, which will give me a much more robust list of operations to match my robust list of roles, which I can then filter and search on based on company and industry--providing a much richer viewer of what is happening.
 
-<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-roles.png" width="75%"></center>
+<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-roles.png" width="100%"></center>
 
 ## Engineering Context
 That is it for now. I am looking to apply this approach to as many of the top services I have harvested as part of Naftiko Signals. Then I will use this approach to get at the intent behind each role--developing some sort of tag cloud or other visual that shows what you are capable of when you select your services and your role, instantly engineering context for you, which you can then dial in with a few tags to describe what you are looking to shape as an individual or aggregate Naftiko capability.
