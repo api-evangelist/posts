@@ -26,11 +26,17 @@ I’ve long resisted using the language of war to describe the digital transform
 To make sense of this new type of (financial) warfare, let’s look at the levels of investment and return used to reward different classes of warriors at the front lines of this new type of ongoing perpetual (financial) warfare.
 
 A. **Likes / Shares** - The lowest level currency used to rewards soldiers fighting at the frontline.
+
 B. **Data** - Obtaining access to the spoils of war, getting at your local files and data stores.
+
 C. **Prediction Markets** - The financialization of everything via Polymarket, Smarkets, and Pariflow.
+
 D. **Crypto** - Transferring your personal and corporate compute into the Borg generating crypto.
+
 E. **Secondary Markets** - Equitybee, Hive, Forge Global, EquityZen, and NPM (Nasdaq Private Market).
+
 F. **Startups** - The acquisition, buying and selling of startups by investors and large corporations.
+
 G. **Primary Markets** - The traditional market which is being forever changed by other levels here.
 
 Most people are aware of primary markets, and have heard of crypto markets, and maybe have been learning about prediction markets in the news, but most unaware of the secondary markets, and how the startup ecosystem works. And it is the flexibility in the investment and return to the soldiers you are employing at the frontline, while also ensuring the investments you have made at the levels you understand and operate in deliver the returns you desire. This is what motivates us all. And it is otpimal that man the frontlines with young people, and specifically young men at the frontlines--they are the most idealistic and will fight on just promises.
@@ -43,12 +49,12 @@ Where you experience hustling will define how you see things, what you get excit
 
 Ok, with my vision of the frontline brought into focus using my wartime vocabulary, let’s get back to Moltbook, and why some people are interested in the social network. 
 
-- Agents Are Doing Interesting Things - It really depends on who you ask—it ranges from agents to obeing able to rewire your home automation that never quite worked in the first place to plotting the overthrow of humans while developing their own language.
-- People’s Religion and Politics - Something that ranges from science fiction fantasy, to class-based desires to have a personal assistant, someone shop for you, up pto workforce and labor wet dreams, or just to the age old promise that you will get rich.
+- **Agents Are Doing Interesting Things** - It really depends on who you ask—it ranges from agents to obeing able to rewire your home automation that never quite worked in the first place to plotting the overthrow of humans while developing their own language--it comes down to how much a person has seen and done interesting things, not is the agent doing interesting things.
+- **People’s Religion and Politics** - Something that ranges from science fiction fantasy, to class-based desires to have a personal assistant, someone shop for you, up pto workforce and labor wet dreams, or just to the age old promise that you will get rich.
 
-OK, so [Moltbook is the most interesting place on the Internet “right now”](https://simonwillison.net/2026/Jan/30/moltbook/), and [artificial intelligence is the new world](https://www.nytimes.com/2026/01/31/opinion/artificial-intelligence-new-world.html). I really like the idea of reusing the colonial rhetoric of our past and straight up letting people know we will be extracting resources and dominating markets. But I like even more how it all comes with amnesia from the last couple of months and years history zapped from your brain using the flashy thing from Men in Black--which renders these narratives very, very exciting!!
+OK, so [Moltbook is the most interesting place on the Internet “right now”](https://simonwillison.net/2026/Jan/30/moltbook/), and [artificial intelligence is the new world](https://www.nytimes.com/2026/01/31/opinion/artificial-intelligence-new-world.html). I really like the idea of reusing the colonial rhetoric of our past and straight up letting people know we will be extracting resources and dominating markets. But I also like even more how it all comes with amnesia from the last couple of months and years history zapped from your brain using the flashy thing from Men in Black--which renders these narratives very, very exciting!!
 
-Let’s revisit history...
+Let’s revisit some quick history...
 
 - **Colonialization and Industrialization** - sorry, I ain’t got time for that rabbit hole — [I recommend check out my deprogramming book list](https://kinlane.com/deprogramming/)--come back to me after you work through that list and we’ll have a very interesting conversation about artificial intelligence, race, gender, and capitalism. ;-) 
 
@@ -68,11 +74,11 @@ But…..wait….Twitter has been this for years….let’s ask our Google Gemini
 
 > Estimates of bots on Twitter (now X) vary widely, ranging from official company claims of under 5% to independent research suggesting 9–15%, or higher, with some studies indicating 20–30% or more, depending on definitions. While Twitter historically cited under 5% (roughly 11.5–20 million), recent studies (2022–2025) suggest 37% of daily users to potentially over 60% of profiles may exhibit automated behavior. 
 
-But, but, generative AI is different. No, not really.
+But, but, generative AI is different! No, not really. Walk me through how Skills + Moltbook are different than what we used to feed Twitter [Horse_ebooks](https://en.wikipedia.org/wiki/Horse_ebooks)? A set of instructions with a predictive ML. Maybe more compute? More stolen data? Yes, more stolen data.
 
-I am pretty sure we have had this for quite some time now, and we can understand the real world outcomes and costs just fine. We have plenty of evidence of the outcomes of such an experimentation on business, markets, government agencies, and democracy itself. We just need to heed the warnings, or not.
+I am pretty sure we have had this for quite some time now, and we can understand what the real world outcomes are and what the costs will be just fine. We have plenty of evidence of the outcomes of such an experimentation on business, markets, government agencies, and democracy itself. We have just chosen not to heed any of the warnings.
 
-Doge is a good example of the kind of thinking born of this environment—-executing one of the greatest data heists in history, while [delivering nothing that was promised](https://www.congress.gov/119/meeting/house/118215/documents/HHRG-119-GO16-20250507-SD014.pdf). This is the fate of enterprises who open their doors using MCP without the right policies in place, and do not have the proper defenses to protect against the swarms of agents circling their perimeter today.
+Doge is a good example of the kind of thinking born out of this environment—-executing one of the greatest data heists in history, while [delivering nothing that was promised](https://www.congress.gov/119/meeting/house/118215/documents/HHRG-119-GO16-20250507-SD014.pdf). This is the fate of enterprises who open their doors using MCP without the right policies in place, and do not have the proper defenses to protect against the swarms of agents circling their perimeter today.
 
 But go ahead. Let's all excited. It seems very, very cool. That is if you ignore what is happening in the wider world right now, recent and long term history, and just focus on the short term velocity, accompanied by extremeley high cost and risk.
 
@@ -87,8 +93,8 @@ Naftiko is focused primarily on translating your existing investments into what 
 * **Know Your Internal APIs** - You must have a handle on your internal APIs, with proper gateways in front of your files, databases, and other backend systems.
 * **Know Your 3rd-party APIs** - Your 3rd-party SaaS portfolio is massive, and you aren’t maximizing the data, API, and events already available to you today.
 * **Machine-Readable Artifacts** - You need to have OpenAPI, AsyncAPI, JSON Schema, for your inventory, as well as the newer Arazzo, A2A, MCP, and agent skills.
-* **Governed API Artifacts** - You are still working to govern the existing APIs you produce, haven’t even began with 3rd-party ones you consume, let alone MCP.
-* **Translated Into Capabilities** - You don’t have a solid understanding of what you are capable of today, let alone what you need to be capable after Molten goes away.
+* **Governed API Artifacts** - You are still working to govern the existing APIs you produce, haven’t even began with 3rd-party ones you consume, let alone MCP and Agent Skills.
+* **Translated Into Capabilities** - You don’t have a solid understanding of what you are capable of today, let alone what you need to be capable after Molten fades into what is next.
 
 API reuse is much more than just reusing the same words in the designs of our APIs, it is part of a larger systemic reality.
 
@@ -146,7 +152,7 @@ It is up to you.
 
 **OK, you are all doom and gloom on this agentic frontline Kin, but surely there has to be some benefit from all this AI?**
 
-I have no desire to champion and cheerlead what is going on, but yes, there will be a number of positive outcomes.
+I have no desire to champion and cheerlead what is going on, but yes, there will be a number of positive outcomes from this.
 
 - **Value of Our Data** - We will begin to define, measure, and plan around the value of our data—as I’ve pushed for since 2010.
 - **Business Processes** - We will be forced to better define the business process that matter and get ride of the ones that don’t.
@@ -158,7 +164,7 @@ I have a vision for Naftiko. It is one that is bigger than selling picks and sho
 
 I am laser focused on a 2032 primary market IPO for Naftiko, and Washington D.C. and the European Commission adopting capabilities as universal standard of the Jobs to Done in the public and private sectors that matter most to the medium and long term benefits of global markets.
 
-I do like responding to these Moltbook type moments and discussion now and then, because it helps me orient myself within my vision for API Evangelist and Naftiko. But in the end, I am playing a medium to long game, where I think others prefer a more emotional, volatile, and stimulating short game. 
+However, I do like responding to these Moltbook type moments and discussion now and then, because it helps me orient myself within my vision for API Evangelist and Naftiko. But in the end, I am playing a medium to long-term game, where I think others prefer a more emotional, volatile, and stimulating short-term game. 
 
 It just comes to what your tolerance is for velocity, cost, and risk, when it comes to integrating AI into our enterprise operations, and whether or not your vision is bigger than the distractions that come along every week in this new financialized circus we live in.
 
