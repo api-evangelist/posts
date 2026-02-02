@@ -78,11 +78,11 @@ But, but, generative AI is different! No, not really. Walk me through how Skills
 
 I am pretty sure we have had this for quite some time now, and we can understand what the real world outcomes are and what the costs will be just fine. We have plenty of evidence of the outcomes of such an experimentation on business, markets, government agencies, and democracy itself. We have just chosen not to heed any of the warnings.
 
-Doge is a good example of the kind of thinking born out of this environment—-executing one of the greatest data heists in history, while [delivering nothing that was promised](https://www.congress.gov/119/meeting/house/118215/documents/HHRG-119-GO16-20250507-SD014.pdf). This is the fate of enterprises who open their doors using MCP without the right policies in place, and do not have the proper defenses to protect against the swarms of agents circling their perimeter today.
+Doge is a good example of the kind of thinking born out of this environment—-executing one of the greatest data heists in history, while [delivering nothing that was promised](https://www.congress.gov/119/meeting/house/118215/documents/HHRG-119-GO16-20250507-SD014.pdf). This is the fate of enterprises who open their doors using MCP without the right policies in place and do not have the proper defenses to protect against the swarms of agents circling their perimeter today.
 
-But go ahead. Let's all excited. It seems very, very cool. That is if you ignore what is happening in the wider world right now, recent and long term history, and just focus on the short term velocity, accompanied by extremeley high cost and risk.
+But go ahead. Let's all excited. It seems very, very cool. That is if you ignore what is happening in the wider world right now, recent and long term history, and just focus on the short term velocity, accompanied by extremeley high cost and risk. Exciting!!
 
-**OK, so now, what are you going to do about all of this Mr. API Expert when you build Naftiko?**
+**OK, so now, what are you going to do about all of this Mr. Snarky API Expert, when you build Naftiko?**
 
 First, let’s frame it in terms of the top use cases Naftiko is addressing based upon the conversation we are having.
 
@@ -168,3 +168,4 @@ However, I do like responding to these Moltbook type moments and discussion now 
 
 It just comes to what your tolerance is for velocity, cost, and risk, when it comes to integrating AI into our enterprise operations, and whether or not your vision is bigger than the distractions that come along every week in this new financialized circus we live in.
 
+P.S. This is purposely written with hubris and ego, blowing things up, because that is necessary to balance out this circus. In the end though, I am dead serious about what I am building, and I suspect the people behind Moltbook are not.
