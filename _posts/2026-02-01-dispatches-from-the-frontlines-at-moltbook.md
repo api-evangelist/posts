@@ -43,7 +43,7 @@ Most people are aware of primary markets, and have heard of crypto markets, and 
 
  I have horses in the race at level A, B, E, F, and G--but, I find C & D to be less interesting.
 
-Where you experience hustling will define how you see things, what you get excited about, and whether or not Moltbook is an interesting idea.
+Where you have experience hustling will define how you see things, what you get excited about, and whether or not Moltbook is an interesting idea.
 
 ["Not everything that is interesting is a good idea."](https://garymarcus.substack.com/p/openclaw-aka-moltbot-is-everywhere) - Gary Marcus
 
