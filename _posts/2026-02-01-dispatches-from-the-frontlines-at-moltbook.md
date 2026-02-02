@@ -72,7 +72,7 @@ But [Andrej Karpathy](https://x.com/karpathy/status/2017442712388309406?s=12&t=6
 
 But…..wait….Twitter has been this for years….let’s ask our Google Gemini overlords:
 
-> Estimates of bots on Twitter (now X) vary widely, ranging from official company claims of under 5% to independent research suggesting 9–15%, or higher, with some studies indicating 20–30% or more, depending on definitions. While Twitter historically cited under 5% (roughly 11.5–20 million), recent studies (2022–2025) suggest 37% of daily users to potentially over 60% of profiles may exhibit automated behavior. 
+  > Estimates of bots on Twitter (now X) vary widely, ranging from official company claims of under 5% to independent research suggesting 9–15%, or higher, with some studies indicating 20–30% or more, depending on definitions. While Twitter historically cited under 5% (roughly 11.5–20 million), recent studies (2022–2025) suggest 37% of daily users to potentially over 60% of profiles may exhibit automated behavior. 
 
 But, but, generative AI is different! No, not really. Walk me through how Skills + Moltbook are different than what we used to feed Twitter [Horse_ebooks](https://en.wikipedia.org/wiki/Horse_ebooks)? A set of instructions with a predictive ML. Maybe more compute? More stolen data? Yes, more stolen data.
 
