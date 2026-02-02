@@ -60,7 +60,7 @@ Let’s revisit some quick history...
 
 - **Model Context Protocol (MCP)** — Convincing everyone to bypass the gateways we all have setup in front of their databases, file stores and provide direct access to your corporate digital resources in return for unquantifiable productivity gains? What could go wrong? [Exposed MCP servers across the web](https://news.ycombinator.com/item?id=44604453).
 
-- **Open Source LLMs (ie. Llama and Deepseek)** - Open-source will surely change the economics of this whole thing right? 175,000 Exposed Ollama Hosts Could Enable LLM Abuse https://www.securityweek.com/175000-exposed-ollama-hosts-could-enable-llm-abuse/  Crypto grifters are recruiting open-source AI developers. https://www.seangoedecke.com/gas-and-ralph/
+- **Open Source LLMs (ie. Llama and Deepseek)** - Open-source will surely change the economics of this whole thing right? [175,000 Exposed Ollama Hosts Could Enable LLM Abuse](https://www.securityweek.com/175000-exposed-ollama-hosts-could-enable-llm-abuse/), and the [Crypto grifters are recruiting open-source AI developers](https://www.seangoedecke.com/gas-and-ralph/).
 
 - **Retrieval-Augmented Generation (RAG)** - OK, I’ll concede here. There appears to be some success? There is more logic applied I guess to the thinking behind it all. I will have to do more research here.
 
