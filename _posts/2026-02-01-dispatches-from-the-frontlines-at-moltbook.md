@@ -64,7 +64,7 @@ Let’s revisit some quick history...
 
 - **Retrieval-Augmented Generation (RAG)** - OK, I’ll concede here. There appears to be some success? There is more logic applied I guess to the thinking behind it all. I will have to do more research here.
 
-There is a lot of money to be made repeating history and ignoring history, so youo can be perpetually excited about what is next.
+There is a lot of money to be made repeating history and ignoring history, so you can be perpetually excited about what is next.
 
 Remember, todays interesting things become tomorrow technical debt, or potential unexpected need to move on to greener pastures. 
 
@@ -86,7 +86,7 @@ But go ahead. Let's all excited. It seems very, very cool. That is if you ignore
 
 First, let’s frame it in terms of the top use cases Naftiko is addressing based upon the conversation we are having.
 
-## API Reuse
+### API Reuse
 
 Naftiko is focused primarily on translating your existing investments into what you need to respond to the AI moment (not just Moltbook)
 
@@ -98,7 +98,7 @@ Naftiko is focused primarily on translating your existing investments into what 
 
 API reuse is much more than just reusing the same words in the designs of our APIs, it is part of a larger systemic reality.
 
-## Context Engineering
+### Context Engineering
 
 Naftiko is focused on defining what your current enterprise fleet is capable of doing today when it comes to AI integration.
 
@@ -110,7 +110,7 @@ Naftiko is focused on defining what your current enterprise fleet is capable of 
 
 Naftiko is focused on building and equipping what your fleet will need to more when it comes to any type of integration.
 
-## Agentic Automation
+### Agentic Automation
 
 Naftiko is interested in translating your existing enterprise capabilities into what you need to automate your enterprise.
 
@@ -124,7 +124,7 @@ Naftiko wants to help you invest in agentic automation alongside all the other t
 
 Beyond the use cases, let’s look at it terms of our users (framework) and our buyers (fabric), and what they’ll care about.
 
-## Naftiko Framework
+### Naftiko Framework
 The Naftiko Frameworks is what developers will download and use as part of their work to integrate into applications.
 
 - **Configurable** - Easily configure, allow for safe and rapid iteration of how the integrations you depend on function.
@@ -135,7 +135,7 @@ The Naftiko Frameworks is what developers will download and use as part of their
 
 The Naftiko Framework will enable the new and exciting applications but also the boring old ones many developers maintain.
 
-## Naftiko Fabric
+### Naftiko Fabric
 The Naftiko Fabric is what developers will see, but what buyers will also see and experience as they use Naftiko.
 
 - **Capabilities** - Define your integrations as capabilities, bringing the engineer bits together with the product bits.
