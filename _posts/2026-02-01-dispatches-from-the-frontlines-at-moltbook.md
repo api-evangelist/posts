@@ -160,5 +160,5 @@ I am laser focused on a 2032 primary market IPO for Naftiko, and Washington D.C.
 
 I do like responding to these Moltbook type moments and discussion now and then, because it helps me orient myself within my vision for API Evangelist and Naftiko. But in the end, I am playing a medium to long game, where I think others prefer a more emotional, volatile, and stimulating short game. 
 
-It just comes to what your tolerance is for velocity, cost, and risk, when it comes to integrating AI into our enterprise operations.
+It just comes to what your tolerance is for velocity, cost, and risk, when it comes to integrating AI into our enterprise operations, and whether or not your vision is bigger than the distractions that come along every week in this new financialized circus we live in.
 
