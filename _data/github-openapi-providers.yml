@@ -5,6 +5,9 @@
 - name: Adyen
   grade: B
   url: https://github.com/Adyen/adyen-openapi 
+- name: Akamai
+  grade: C
+  url: https://github.com/akamai/akamai-apis
 - name: Alchemy
   grade: B
   url: https://github.com/alchemyplatform/docs-openapi-specs
@@ -14,6 +17,9 @@
 - name: Asana
   grade: B
   url: https://github.com/Asana/openapi
+- name: Auth0
+  grade: C
+  url: https://github.com/aminya/auth0-openapi    
 - name: Azure
   grade: B
   url: https://github.com/Azure/azure-rest-api-specs
@@ -26,6 +32,9 @@
 - name: CloudFlare
   grade: C
   url: https://github.com/cloudflare/api-schemas
+- name: commercetools
+  grade: B
+  url: https://github.com/commercetools/commercetools-api-reference  
 - name: Digital Ocean
   grade: A
   url: https://github.com/digitalocean/openapi
@@ -113,15 +122,6 @@
 - name: Xero
   grade: C
   url: https://github.com/XeroAPI/Xero-OpenAPI  
-- name: Akamai
-  grade: C
-  url: https://github.com/akamai/akamai-apis
-- name: Auth0
-  grade: C
-  url: https://github.com/aminya/auth0-openapi
 - name: Webflow
   grade: C
   url: https://github.com/webflow/openapi-spec
-- name: commercetools
-  grade: B
-  url: https://github.com/commercetools/commercetools-api-reference
