@@ -122,3 +122,6 @@
 - name: Webflow
   grade: C
   url: https://github.com/webflow/openapi-spec
+- name: commercetools
+  grade: B
+  url: https://github.com/commercetools/commercetools-api-reference
