@@ -23,7 +23,7 @@ image: >-
 
 Over the last couple of months I have been working on what I call [Spotlight rules](https://spotlight-rules.com/), in an effort to understand what is next when it comes to Spectral and Vacuum rules, but also for wider API governance, and specifically from a consumer perspective, and then secondarily the producer perspective — which is the opposite of how it is for most organizations today.
 
-We have spent the last 7+ years creating rules using Speccy, then Spectral, then Vacuum to lint the surface area of our HTTP and eventually TCP APIs. We apply those governance rules in web applications, IDE, and the pipeline. The goal is to catch as many things early on in the software development lifecycle, but also enforce them at the pipeline level—with many companies choosing to just enforce—with a range of positive and negative consequences. 
+We have spent the last 7+ years creating rules using Speccy, then Spectral, then Vacuum to lint the surface area of our HTTP and eventually TCP APIs. We apply those governance rules in web applications, IDE, and the pipeline alongside our JSON Schema. The goal is to catch as many things early on in the software development lifecycle, but also enforce them at the pipeline level—with many companies choosing to just enforce—with a range of positive and negative consequences. 
 
 <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/governance-rules-pipeline.png" width="100%">
 
@@ -33,7 +33,7 @@ I have been exploring different ways of injecting Spectral & Vacuum rules into t
 
 <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/governance-rules-pipeline-skills.png" width="100%">
 
-Spectral and Vacuum rules technically can live at the web application, IDE, CLI, and pipeline levels. What severity you apply, and how you bundle your rulesets by lifecycle stage and other experiences, as well as the other guardrails and guidance you provide in the form of documentation, communication via Slack, and other channels will determine a lot. 
+Spectral and Vacuum rules, as well as JSON Schema technically lives at the web application, IDE, CLI, and pipeline levels. What severity you apply, and how you bundle your rulesets by lifecycle stage and other experiences, as well as the other guardrails and guidance you provide in the form of documentation, communication via Slack, and other channels will determine a lot when it comes to aligning with the the technical details with the business details.
 
 This is the current state of API governance while producing and consumer APIs, no matter what type of application you are developing on top of those APIs. With my exploration into injecting Spectral & Vacuum rules, as well as design, lifecycle, and operational guidance into copilot, I wanted to go beyond Spectral and Vacuum rules and how you can generate the CLAUDE.MD, RULES.MD, GEMINI.MD, .github/copilot-instructions.md, SKILL.MD, and AGENTS.MD you need to govern (guide) throughout the software development lifecycle.
 
