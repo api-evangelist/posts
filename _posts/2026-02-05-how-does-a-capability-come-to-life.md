@@ -10,11 +10,11 @@ image: >-
 ---
 As I work to define Naftiko, and specifically what a capability is, I wanted to explore how a capability comes to life. But let’s start with my current definition of what a capability is. 
 
-A capability is a human and machine-readable definition of something you want to accomplish as part of business operations. It could be simple like scheduling a calendar event, or different portions of a supply chain. A capability has data, integrations, and potentially events. A capability should matter to technical and non-technical stakeholders. 
+A capability is a human and machine-readable definition of something you want to accomplish as part of business operations. It could be simple like scheduling a calendar event, or different portions of a supply chain. A capability integrates data, functions, and potentially events. A capability should matter to technical and non-technical stakeholders.
 
 Capabilities are JSON or YAML stored in a Git repository, but can be used anywhere. Capabilities are editable in any JSON or YAML editor and integrated development environment of choice. Capabilities have a developer experience as well as a user experience—working to balance the creation, editing, and evolution of a capability by any stakeholder.
 
-When answering the question—how does a capability come to life, it is important to examine in three separate dimensions:
+When answering the question—how does a capability come to life, it is important to examine in four separate dimensions:
 
 - Business or Engineering
 - Greenfield or Brownfield
