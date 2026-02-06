@@ -6,7 +6,7 @@ date: 2026-02-05T09:00:00.000Z
 tags:
   - Capabilities
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-docks-water-front-ships-containers.jpg
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-docks-water-front.jpg
 ---
 As I work to define Naftiko, and specifically what a capability is, I wanted to explore how a capability comes to life. But let’s start with my current definition of what a capability is. 
 
