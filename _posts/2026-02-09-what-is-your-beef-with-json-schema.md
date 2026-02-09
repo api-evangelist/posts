@@ -1,0 +1,19 @@
+---
+published: true
+layout: post
+title: What Is Your Beef With JSON Schema?
+date: 2026-02-09T09:00:00.000Z
+tags:
+  - JSON Schema
+  - Specifications
+  - Standards
+image: >-
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-spacce-burger-fence.jpeg
+---
+I recently purchased the Coldplay record, OK Computer. I’m in a phase where I am investing in my vinyl record collection, and doing the work to get out of my comfort zone. This means challenging a lot of the norms I have around the music I know. I have always hated Coldplay. But I wanted to challenge this idea. Other people like, and this album is widely held up as being important. So, there has to be something wrong with me right? Well, after purchasing it, and listening to it about 5 times end to end, I realize I didn’t hate Coldplay, I hated Wayne, a kid from high school and my home town who was really into Coldplay, and a complete asshole douchebag. But for some reason that reality had gotten associated with the band, and abstracted away over 35 years of my life. 
+
+I hold this thought, and the many other similar thoughts that make up who I know as Kin Lane. I use this ability to step outside of myself to understand the API realm where I work, and separate the technical from the very emotional human aspects of my work. One area I can apply this thinking is when it comes to API standards and specifications. While I can apply wider across all of the specifications and my experience with them, one of them, which also happens to be the most invisible of them, tends to illicit a lot of negative emotion from people. I encounter a lot of people who have a beef with JSON Schema. I am an unapologetic champion of the standard (even with it's history), above being a champion for the others, and I regularly become the the target of, but also have become hyper aware of when behavior in others are the result of their beef with JSON Schema.
+
+We have entirely new standards because of this type of beefing. I don’t fully understand why people beef with JSON Schema. It could be the people behind the spec. They are some opinionated and abrasive folks. I know all of them, and they are. But they are also very smart. They also very much care about the spec. They also can be assholes. But to be fair, this can be said of almost any of the specs and the people behind them. APIs.json included—those behind the spec are assholes. ;-) I think the one big difference between me and other folks is that I am able to put aside my personal feelings for people, and my frustration with any single spec to consider the bigger picture and community. But the friction I get when it comes to JSON Schema never ceases to fascinate me. The specification is some lofty shit to understand. It also can be very simple to apply, producing some very profound and stabilizing results in your work. It is a widely adopted specification, and one that is ubiquitous across the space, but it is also widely not seen or understood — which I think is related to its beefiness.
+
+Anyways, that is it. I don’t have much else to say, except ask what people’s beef with the spec is? I suspect it is a combination of the complexity and people behind it, as well as its 15+ years of chaotic evolution. I am confident after being so close to its evolution and usage across other specifications that it is more a people thing than it is a technical thing. JSON Schema, like JSON is a messy thing. A lot of technosolutionists are offended by the messiness of JSON just like they are offended by the messiness of the world at large. I love watching people try to fix the JSON Schema problem. More power to them. I love the people who resist it so hard. More power to you. I also love how much it annoys people for me to talk about it and champion it. It reveals to me that there is so much more there. So many great stories to be found!
