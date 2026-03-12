@@ -8,8 +8,6 @@ tags:
   - Change
   - Changes
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/linkedin/linkedin-logo.png)](https://developer.linkedin.com)
-
 [LinkedIn recently announced some changes to their developer program](https://developer.linkedin.com/blog/posts/2015/developer-program-changes), which involves further tightening down the screws on who has access to the API, limiting public access to only a handful of very superficial APIs. If you want greater access to the business social network API, you will need to be an officially approved partner.
 
 As a result of LinkedIn’s announcement, you will hear more discussion about the demise of public APIs, as this is narrative many API providers would like to employ, to support their own command and control positions around their client, or very own API driven resources. There is nothing wrong with having private APIs with supporting partner programs, but this has no bearing on the viability of publicly available APIs.

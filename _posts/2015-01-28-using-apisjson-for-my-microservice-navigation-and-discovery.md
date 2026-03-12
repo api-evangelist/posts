@@ -14,8 +14,6 @@ tags:
   - Micro
   - APIs.jso
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-api-navigation.png)](https://kin-lane.github.io/master/)
-
 I’m rebuilding my underlying architecture using microservices and docker containers, and the glue I’m using to bind it all together is [APIs.json](http://apisjson.org/). I’m not just using APIs.son to deliver on discoverability for all of my services, I am also using it to navigate around my stack. Right now I only have about 10 microservices running, but I have a plan to add almost 50 in total by the time I’m done with this latest sprint.
 
 Each microservice lives as its own Github repository, within a [specific organization](https://github.com/kin-lane). I give each one its own APIs.json, indexing all the elements APIs of that specific microservice. APIs.json has two main collections, "apis" and "include". For each microservice APIs.json, I list all the properties for that API, but I use the include element to document the urls of other microservice APIs.json in the collection.

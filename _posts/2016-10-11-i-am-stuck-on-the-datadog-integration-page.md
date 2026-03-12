@@ -8,8 +8,6 @@ tags:
   - Data
   - Integration
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_10_at_10.23.45_pm.png)](https://www.datadoghq.com/product/integrations/)
-
 [I wrote about having an integrations page for your API service the other day](http://apievangelist.com/2016/10/04/an-integrations-page-for-your-api-solution/), and as I'm continuing to study the approach of other providers I find myself stuck on [b DataDog's integration page.](https://www.datadoghq.com/product/integrations/) Datadog provides the monitoring layer across many of the top service providers in the space, making for a pretty stellar list of what solutions are being put to use across the sector. 
 
 The Datadog integration page has been open in my browser for the last week, as I make way through each provider. Some of them I'm very familiar with, but others are entirely new to me. Integration pages like this show me what is possible with a service provider like Datadog, but also provides me an opportunity to learn about new services that I can put to use in my own operations, and what the cool kids are using.

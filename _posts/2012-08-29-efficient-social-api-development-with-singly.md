@@ -8,8 +8,6 @@ author:
 tags:
   - Social
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/singly/Singly-Personal-Data-Explorer.png)](https://singly.com "Singly")
-
 Last week I announced that [API Evangelist and Singly were partnering](/2012/08/20/api-evangelist-partners-up-with-singly-to-evolve-the-social-and-personal-api-space/ "API Evangelist and Singly Were Partnering"), and while I’m helping Singly with their API Evangelism strategy and they are providing me with some vital data on some of the most important APIs in the industry and how developers are using them--I’m fascinated by the Singly unified API model and how it can simplify developing apps that use social and personal data.
 
 As I do with any API, I sign up for an account, come up with an idea for a prototype, start hacking, then get to work telling the story of the process. To get started using Singly, I wanted to build a simply social data explorer that would help me understand how the platform works, but also give me a simple example for explaining to other developers.

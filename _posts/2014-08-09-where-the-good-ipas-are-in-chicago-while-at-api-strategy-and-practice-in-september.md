@@ -9,8 +9,6 @@ author:
 tags:
   - Strategy
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-beer.png)](http://ipaevangelist.com)
-
 In preparation for [API Strategy & Practice in Chicago, September 24-26th](http://www.apistrategyconference.com/2014Chicago/index.php), I did a little research on where the good beers, and specifically the kick-ass IPAs can be found. You may not know, but in addition to being the API Evangelist, I am also the [IPA Evangelist](http://ipaevangelist.com) (plan b career path), and I'm always interested in knowing where the killer IPAs are, in addition to knowing where to find the best APIs. 
 
 While in Chicago we want to be able to have the tasiest beer possible at the conference, while also having the best options for finding good beer and food after the event to network and socialize with the 600+ folks that will be at #APIStrat. To prepare for #APIStrat I found 32 local Chicago breweries:

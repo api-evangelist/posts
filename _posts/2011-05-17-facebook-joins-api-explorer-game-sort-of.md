@@ -7,7 +7,7 @@ author:
 tags:
   - Facebook
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/facebook/facebook-api-explorer-1.png)](https://www.simoncross.com/fb/graph/)[API Explorers](http://apievangelist.com/2011/03/24/explorers-open-api-access-beyond-developers/ "API Explorers") are proving to be an essential tool when getting up and running developing against an API.
+[API Explorers](http://apievangelist.com/2011/03/24/explorers-open-api-access-beyond-developers/ "API Explorers") are proving to be an essential tool when getting up and running developing against an API.
 
 Apigee, Salesforce, Google, Microsoft, and Infochimps have all deployed REST API Explorers to support developer integration.
 

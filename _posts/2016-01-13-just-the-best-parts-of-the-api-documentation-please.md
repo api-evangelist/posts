@@ -8,8 +8,6 @@ author:
 tags:
   - Documentation
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/slate/slate-tripit.png)](https://github.com/tripit/slate)
-
 I was just talking API documentation with Brent Baker ([@norcaljhawk](https://twitter.com/norcaljhawk)), and Jordan Lampe ([@JsLampe](https://twitter.com/JsLampe)) from [Dwolla](https://www.dwolla.com/). As we were going through their API documentation, they mentioned how they were using [Slate](https://github.com/tripit/slate) for the version 1.0 of their API documentation, but for this round they took what they felt were just the best parts of Slate, and were looking to craft a new experience. 
 
 Interestingly [I had written about their use of Slate for API docs back in 2014](http://apievangelist.com/2014/10/24/dwolla-using-slate-for-an-evolved-api-documentation-experience/), so it makes sense for me to keep tracking on, but more importantly I think the move reflects the wider evolution of API documentation. If you aren't familiar with Slate, it is a very attractive way to document your APIs, that many API providers and consumers have latched on to. Slate, in contrast to the very utilitarian style of Swagger UI, has certain elements developer prefer--something I can see why, after looking at a lot of API docs.

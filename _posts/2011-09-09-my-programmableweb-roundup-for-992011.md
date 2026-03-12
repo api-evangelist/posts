@@ -9,7 +9,7 @@ tags:
   - My
   - Web
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/programmableweb-logo.png)](http://blog.programmableweb.com/ "stories about APIs")I made time for three posts on [ProgrammableWeb](http://blog.programmableweb.com/ "ProgrammableWeb") this week. I provided some more coverage of Dreamforce, and their latest mobile platform.  Then I covered the US invasion of Viadeo Social Network, and called out the Government software provider TylerTech about their lack of API support for cities across the country.  Check the blog posts out for yourself:
+I made time for three posts on [ProgrammableWeb](http://blog.programmableweb.com/ "ProgrammableWeb") this week. I provided some more coverage of Dreamforce, and their latest mobile platform.  Then I covered the US invasion of Viadeo Social Network, and called out the Government software provider TylerTech about their lack of API support for cities across the country.  Check the blog posts out for yourself:
 
 ![](http://blog.programmableweb.com/wp-content/touch-salesforce-com.png)**[APIs Drive the New Touch.Salesforce.com Platform](http://blog.programmableweb.com/?p=22653 "APIs Drive the New Touch.Salesforce.com Platform")** - Last week at the Dreamforce event in San Francisco, Saleforce.com unveiled its new mobile platform called touch.salesforce.com. Built with HTML5, touch.salesforce.com will allow users to access salesforce.com apps on iOS and Android smartphones and tablets. At Dreamforce, Saleforce.com acknowledged that the future of the enterprise is both social and mobile, and the Salesforce.com APIs are a driving force.
 

@@ -7,7 +7,7 @@ author:
 tags:
   - Terms of Service
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/Yahoo-Terms-Center.png)](http://info.yahoo.com/legal/us/yahoo/mediaplayer/details.html)I was just working on a piece for [ProgrammableWeb](http://www.programmableweb.com "ProgrammableWeb") about the new [Yahoo WebPlayer](http://webplayer.yahoo.com/ "Yahoo WebPlayer"), which is amedia player that can play video and audio from any site or service, and be distributed across the web.
+I was just working on a piece for [ProgrammableWeb](http://www.programmableweb.com "ProgrammableWeb") about the new [Yahoo WebPlayer](http://webplayer.yahoo.com/ "Yahoo WebPlayer"), which is amedia player that can play video and audio from any site or service, and be distributed across the web.
 
 While browsing around the Yahoo WebPlayer site I came to the Terms of Service, which I found three items that stand out:
 

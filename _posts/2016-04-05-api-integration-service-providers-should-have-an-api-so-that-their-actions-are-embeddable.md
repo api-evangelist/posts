@@ -11,8 +11,6 @@ tags:
   - Providers
   - Service Providers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/services/bw-embeddable.png)](http://embeddable.apievangelist.com/)
-
 [During the latest IFTTT flareup](http://apievangelist.com/2016/03/31/hello-pinboard-customers-from-linden-tibbets-the-ceo-of-ifttt/), I realized how much I haven't written about my feelings surrounding API integratio service providers, iPaas, or whatever else you call it. Something that always frustrates me in the future, as I am unable to reference my earlier thoughts with a specific URL. So while I am ranting about [the lack of APIs for these integration platform as a service (iPaaS) provider](http://apievangelist.com/2016/04/05/the-api-integration-providers-who-have-api-access-to-actions-will-be-successful-in-bot-environments/), let me add to my list of critical elements I feel are missing from the space: Embeddability!
 
 As a user of your service, provide me an API, so I can embed your API recipes into any website, web and mobile application. While the fact that Zapier does have a public API, where IFTTT does not have one at all, the Zapier API doesn't not provide me any access to what API integration recipes (Zaps) are available (ie, core business value). I cannot automatically search for all the Google Spreadsheet integrations. I cannot search for all the Twitter API integrations. Let alone embed the actions enabled by these recipes on any of my website. 

@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-stack/api-stack-logo.png)](http://theapistack.com)
-
 Over the last year I've worked hard to standardize and automate as much of my monitoring of the API space as I can. The amount of information I was monitoring daily was getting overwhelming--I needed to scale what I do, so I created what I call my [API Stack Ranking](http://theapistack.com/ranking.html).
 
 The API Stack Ranking is not meant to be a top 25 list, it is meant to be a ranking that I can sort companies by each week, giving me a meaningful stack of companies, who are doing interesting things in the API space.

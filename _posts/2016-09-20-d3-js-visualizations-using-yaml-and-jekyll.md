@@ -11,8 +11,6 @@ tags:
   - Visualization
   - YAML
 ---
-[![](http://d3.js.yaml.jekyll.apievangelist.com/images/d3-js-bar-chart.png)](http://d3.js.yaml.jekyll.apievangelist.com/bar-chart/)
-
 I am increasingly using [D3.js](https://d3js.org/) as part of my storytelling process. Since all my websites run using Jekyll, and published entirely using Github repositories wich are shared as Github Page sites, it makes sense to standardize how I publish my visualizations.
 
 Jekyll provides a wealth of data management tools, including the ability to manage YAML dta stores in the \_data folder. An approach I feel is not very well understand, and lacks real world examples regarding how to use when managing open data--I am looking to change that.

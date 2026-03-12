@@ -11,8 +11,6 @@ tags:
   - Visualization
   - Swagger
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/ardoq/ardoq_logo_small.png)](http://ardoq.com/)
-
 I'm a big fan of putting my ideas for new tools, services, and other stuff out on the Internet, for public consumption. My mother taught me how to manifest things in my life, and this is my digital version of her teachings. By putting my ideas out there, a) I don't actually feel compelled to do them b) someone else might think it is good idea and build it, and c) when someone does build it and they start looking to publicize, they will find you. c) happened today.
 
 One idea that I put out there recently, that I really wanted to manifest, was a [visualization layer for APIs using Swagger](http://apievangelist.com/2014/10/30/swagger-visualization-layer-using-d3js/). My wish has been granted, and a startup called [Ardoq](http://ardoq.com/), has done just that, developed a [visualization layer using Swagger](http://ardoq.com/visualizing-swagger-api-documentation/). As they were taking their new product public they came across my story, and pinged me this morning. I’m going to follow-up, with a link to the story, and get a full tour of the product, talk with the team, and better understand what they are up to.

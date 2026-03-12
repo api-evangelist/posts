@@ -13,8 +13,6 @@ tags:
   - Open
   - Developers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/temboo/2-Temboos-Arduino-page.png)](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/temboo/2-Temboos-Arduino-page.png)
-
 One of the areas I track on is what I call the [API reciprocity space](http://reciprocity.apievangelist.com "API reciprocity"), which is all about interoperability between platforms, but I label it reciprocity as an attempt to capture that it isn’t just about old school [Extract, Transform, and Load (ETL)](http://en.wikipedia.org/wiki/Extract,_transform,_load) of the old days—today it is about ETL in the cloud, plus adhering to the intent of not just platforms, but the users interest as well.
 
 When thinking of API reciprocity, think [If This Then That (IFTTT)](https://ifttt.com/), [Zapier](https://zapier.com/) and [Temboo](https://temboo.com/). I’ve been watching Temboo evolve with their API driven, platform to platform solutions, but I’m really interested in there latest moves to support web platforms to the Internet of Things using the Arduino platform, specifically using the [Arduino Yún micro controller board](http://arduino.cc/en/Main/ArduinoBoardYun?from=Main.ArduinoYUN).

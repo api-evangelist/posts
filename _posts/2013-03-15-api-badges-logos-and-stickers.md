@@ -8,8 +8,6 @@ author:
 tags:
   - Logo
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/punchfork/punchfork-vertical.png)](http://punchfork.com/)
-
 I ended up at the Punfork API today for some reason. Full disclosure: "Punchfork has been acquired by Pinterest! [Read the announcement](http://punchfork.com/pinterest). Site shutdown: March 31st, 2013". Just getting that out of the way. While at the site, I ended up at the [Goodies page](http://punchfork.com/goodies/badges), which I think represents a nice set of basic embeddable tools for an API.
 
 First using Punchfork Badges, you can customize a badge, then copy and paste the embed code onto your blog's sidebar, or anywhere else you want it to appear:

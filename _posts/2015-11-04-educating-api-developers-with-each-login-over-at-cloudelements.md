@@ -10,8 +10,6 @@ tags:
   - Developers
   - Login
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/cloud-element-login.png)](https://console.cloud-elements.com/elements/jsp/login.jsp)
-
 I am a big advocate for making sure the on-boarding process for developers is as friction-less as possible. Developers should be able to signup, and login without anything getting in their way. This is why normally I wouldn't suggest adding anything unnecessary to to signup and login process, but [I saw something over at Cloud Elements that I thought was interesting](https://console.cloud-elements.com/elements/jsp/login.jsp).
 
 First, let me know that Cloud Elements gets bonus points because they [emphasize signing in with your Github or Google account.](https://console.cloud-elements.com/elements/jsp/login.jsp) I am a big fan of keeping all my API accounts linked to my Github profile--it just makes sense to me. I'd love it if API providers allowed me to store keys, SDKs, and other resources within my private Github repository, that I use across all the APIs I depend on. (I'm sure someone will tell me not to do this, but nobody has yet to convince me of why)

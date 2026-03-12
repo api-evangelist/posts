@@ -7,8 +7,6 @@ author:
 tags:
   - Strategy
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-conference-logo.png)](http://www.apistrategyconference.com/)
-
 We are wasting no time getting the [API Strategy & Practice conference](/) back on track, after being put on hold because of hurricane Sandy. With the current status of New York City, it’s subways, airports, there is no way the event could have happened--we made the right decision to cancel.
 
 We are currently discussing the best dates for rescheduling in January and February of 2013, and are hopeful that we will have date finalized next week.

@@ -10,8 +10,6 @@ tags:
   - Data
   - Breaches
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/privacy-rights-clearinghouse-logo.jpg)](https://www.privacyrights.org)
-
 I came across the [Privacy Rights Clearinghouse](https://www.privacyrights.org), while conducting a search that turned up the chronology of data breaches, [which provides details on 4,725 data breaches that have been made public since 2005](https://www.privacyrights.org/data-breach/new). The website allows you to search for data breaches by type of breach, type of organization, and the year in which it occurred--some very valuable information.
 
 In 2016, as breaches continue to be common place across almost all industries, we are going to need to take the chronology of data breaches up a notch. I would like to see an API be made available for the valuable database. As I do, I write stories about what I'd like to see in the space, and forward the link to key actors, and tell the story to the public at large, in hopes of inciting something to happen.

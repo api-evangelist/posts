@@ -14,8 +14,6 @@ tags:
   - Access
   - Features
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/elasticsearch/elastic-search-logo.jpg)](http://www.elasticsearch.org/)
-
 [Elasticsearch](http://www.elasticsearch.org/), the open source, distributed, real-time search and analytics engine just announced that it is introducing a security layer on top of their API driven search platform. Historically you have to secure any APIs exposed via Elasticsearch through your own proxy or firewall solution, now with "[Shield](http://www.elasticsearch.org/overview/shield)" you can natively manage your APIs directly in Elasticsearch.
 
 > _Shield, in the same spirit of Marvel, is built on top of Elasticsearch public extensions points, and is easily installed as a plugin to add security features to any existing Elasticsearch installation. It does not require a different distribution of Elasticsearch, and relies heavily on the open public APIs Elasticsearch already exposes._

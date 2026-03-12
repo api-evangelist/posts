@@ -10,8 +10,6 @@ tags:
   - Proxy
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3Scale/3scale-logo.png)](/admin/blog/bit.ly/13esk6Q)
-
 As I am designing my APIs, one of the first things I decide is whether or not I will be making this public. If its a simple enough resource, and doesn't put too much load on my servers, I will usually make it publicly available. However if an API has write capabilities, could potentially put a heavy load on my servers, or just posses some private resource that I want to keep private, I will secure the API.
 
 I use [3Scale for my API management infrastructure](/admin/blog/bit.ly/13esk6Q)\--I have since 2011, long before I ever started working with them on projects, and organizing [@APIStrat](https://twitter.com/apistrat). When it comes time to secure any of my APIs, I have a default snippet of code that I wrap each API, validating the application keys, and recording their activity--which 3Scale calls the plugin integration approach.

@@ -8,7 +8,7 @@ date: 2011-08-01T12:05:48.000Z
 tags:
   - Open
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/Twitter-Logo.jpg)](http://www.twitter.com/)I just finished reading two great posts about battles within API ecosystems.[Convoluted TOS and "Open" APIs Will Be the Death of Us](http://www.readwriteweb.com/hack/2011/07/convoluted-tos-and-open-apis-w.php) by [Shion Deysarkar](http://twitter.com/#!/shiondev) and [Topify to Go Dark as Twitter Claims Another Dev Victim](http://blog.louisgray.com/2011/07/topify-to-go-dark-as-twitter-claims.html) by [Louis Gray](http://twitter.com/#!/louisgray). I recommend you read, and form your own opinion.
+I just finished reading two great posts about battles within API ecosystems.[Convoluted TOS and "Open" APIs Will Be the Death of Us](http://www.readwriteweb.com/hack/2011/07/convoluted-tos-and-open-apis-w.php) by [Shion Deysarkar](http://twitter.com/#!/shiondev) and [Topify to Go Dark as Twitter Claims Another Dev Victim](http://blog.louisgray.com/2011/07/topify-to-go-dark-as-twitter-claims.html) by [Louis Gray](http://twitter.com/#!/louisgray). I recommend you read, and form your own opinion.
 
 I'm totally behind Shion in, _..arguing that the breaching parties (i.e. the developers holding the API key) should not be held in contempt of court, as it were._ When it comes to terms of service disagreements, there needs to be more discussion.
 

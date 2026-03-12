@@ -8,8 +8,6 @@ author:
 date: 2014-06-05T00:09:15.000Z
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/terms-of-service-didnt-read/tos-didnt-read-logo.png)](http://tosdr.org/)
-
 I’ve been following the work of [Terms of Service Didn’t Read](http://tosdr.org/) for some time now. In my opinion this work is some of the most important legal work out there right now, which is guiding all of our activity not just online, but increasingly in our offline worlds. If you aren't familiar with Terms of Service Didn’t Read, I think their slogan sums it up well:
 
 > _“I have read and agree to the Terms” is the biggest lie on the web. We aim to fix that._

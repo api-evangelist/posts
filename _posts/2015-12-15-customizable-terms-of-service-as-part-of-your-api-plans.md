@@ -8,8 +8,6 @@ tags:
   - Plans
   - Terms of Service
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-terms-conditions.png)](http://tos.apievangelist.com/)
-
 I am spending a significant amount of time looking through the pricing pages for leading API providers, working to get a sense for some of the common approaches to API monetization in use across the space. Along the way I am also finding some simple and unique approaches from API providers that I wanted to share as bit-size API planning stories here on the blog.
 
 As I was working to understand the coupling between the [Box SaaS business model](https://www.box.com), and the one applied to their API, I noticed an interesting element, [that was part of their enterprise API plan--custom terms of service](https://www.box.com/pricing/). At first glance it doesn't seem like much, but making elements of your TOS dynamic, allowing them up to be used as a metric within your API plans, opens up a whole world of possibilities. 

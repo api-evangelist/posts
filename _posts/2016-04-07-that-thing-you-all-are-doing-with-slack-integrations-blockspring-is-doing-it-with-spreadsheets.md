@@ -12,8 +12,6 @@ tags:
   - Slack
   - Integrations
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/blockspring-google-sheets-templates.jpg)](https://open.blockspring.com/templates)
-
 One common thing you hear from the growing number of integrations and bots that are leveraging the Slack API, is all about injecting some specific action into the platform and tooling, we are all already using. Startups like [Current](https://current.com/), who are providing payments within your Slack timeline, use the slogan, "transact where you interact". I began to explore this concept, in [what I call API injection](http://apievangelist.com/2016/02/23/exploring-my-thoughts-around-api-injection-into-messaging-voice-and-other-online-experiences/), and is something I'm sure I'll be talking about over and over in the future, with the growth in [bot](http://bots.apievangelist.com/), [voice](http://voice.apievangelist.com/), and other API enabled trends I am following.
 
 The concept is simple. You inject a valuable API driven resource, such as payments, knowledge base, images, video, or other, into an existing stream, within an existing platform or tool you are already putting to use. It is not a new concept, it is just seeing popularity when it comes to Slack, but really has been happening for a while wit [Twitter Cards](https://dev.twitter.com/cards/overview), and chatbots who have been around for some time. 

@@ -14,8 +14,6 @@ tags:
   - Open
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/openshift/openshift-logo.png)](https://www.openshift.com/)
-
 I'm working on a variety of ways that anyone can easily deploy API on common cloud platforms. I'm working through a series of [open](http://apievangelist.com/2013/10/22/api-deployment-from-mysql-json-github-and-google-spreadsheets/) and [secure](http://apievangelist.com/2013/11/16/secure-api-deployment-from-mysql-json-github-and-google-spreadsheets/), modular API demos written in PHP, using the Slim framework.
 
 All of these demos are pretty basic, but currently I'm deploying them on Amazon EC2, because it is where most of my infrastructure runs and a top platform with wide user base. Ultimately my goal is to make them as simple to deploy as I possibly can, and while EC2 is definitely the leader, I know there are even simpler ways to launch simple APIs in the clouds.

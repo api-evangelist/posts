@@ -9,8 +9,6 @@ author:
 tags:
   - Strategy
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-vertical.jpg)](http://www.apistrategyconference.com/)
-
 It is 30 days until the [API Strategy & Practice conference in New York City](http://www.apistrategyconference.com/), February 21st and 22nd, and the event is now sold out!
 
 The event will be a 275 person conference focused on discussing the API industry.

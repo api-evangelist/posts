@@ -13,8 +13,6 @@ tags:
   - Documentation
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-plug-logo.png)](https://apiplug.com/)
-
 [I started playing with the possibilities when it comes to API deployment using virtual containers like Docker early this year](http://apievangelist.com/2015/01/10/use-apisjson-to-organize-my-swagger-defined-apis-running-in-docker-containers/), exploring the constraints this approach to API deployment introduced, on my own infrastructure. The process got my gears turning, when it comes to deploying very simple data, content, and algorithmic APIs into any environment that runs Docker. 
 
 As 2015 has progressed, I'm seeing containers emerge as part of more stops along the API life-cycle, specifically in [deployment](http://deployment.apievangelist.com) and [virtualization](http://virtualization.apievangelist.com). A new one that just came across my radar is [API PLUG](https://apiplug.com/). I haven't played with the containerized API deployment solution yet, but after watching video, and looking through site it seems in line with what I'd expect to see from a next generation, containerized, API deployment solution.

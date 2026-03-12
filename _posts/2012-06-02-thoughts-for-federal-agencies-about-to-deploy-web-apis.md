@@ -10,8 +10,6 @@ tags:
   - Web
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/federal-government/Building-a-21st-century-platform-to-better-serve-the-american-people-1.png)](http://www.whitehouse.gov/sites/default/files/omb/egov/digital-government/digital-government-strategy.pdf)
-
 I wanted to publish some thoughts, on what Federal Agencies responding to the [Executive Order 13571](http://www.gpo.gov/fdsys/pkg/FR-2011-05-02/pdf/2011-10732.pdf) issued on April 27, 2011, and the White House CIO’s, "[Digital Government: Building a 21st Century Platform to Better Serve the American People](http://www.whitehouse.gov/sites/default/files/omb/egov/digital-government/digital-government-strategy.pdf "Digital Government: Building a 21st Century Platform to Better Serve the American People")" strategy should be considering.
 
 These thoughts are in the business and marketing aspects web API deployment, with light thoughts in the technical areas. My speciality is not with technical deployment of APIs, I recommend agency leaders visit [API-Craft](https://groups.google.com/forum/?fromgroups#!forum/api-craft "API-Craft"), an industry forum with some seriously smart API industry leaders discussing the finer, technical points of web API deployment.

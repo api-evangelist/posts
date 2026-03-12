@@ -8,8 +8,6 @@ tags:
   - Public
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/periscope_twitter.png)](https://blog.twitter.com/2017/introducing-the-periscope-producer-api)
-
 It is common for API providers to be really private with their APIs, and we often hear about providers restricting access as time goes by. So, when API providers loosen up restrictions on their APIs, inviting wider use by developers, making them public--I think it is worth taking notice. 
 
 A recent example of this in the wild is from the API poster child Twitter, with their [Periscope video service](https://www.periscope.tv/). [Twitter has announced that they are slowly opening up access to the Periscope video API](https://blog.twitter.com/2017/introducing-the-periscope-producer-api), something that has been only available to a handful of trusted partners, and via the mobile application--there was no way to upload a video without using your mobile device. Twitter is still "limiting access to fewer strategic partners for a period", but at least you can apply to see if your interests overlap with Twitters interests. It also sounds like Twitter will continue to widen access as time goes on, and as it makes sense to their Periscope strategy.

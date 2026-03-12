@@ -8,8 +8,6 @@ author:
 tags:
   - SOA
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-craft/api-craft-logo.jpg)](https://groups.google.com/forum/#!forum/api-craft "API Craft Forum")
-
 This is from a question I answered on the [API Craft Forum](https://groups.google.com/forum/#!forum/api-craft "API Craft Forum") tonight titled: [SOA vs API](https://groups.google.com/forum/#!topic/api-craft/IgPZ5mWAsVE)?
 
 _I happened to look at the [slide and also related video](http://www.slideshare.net/apigee/apis-inside-enterprise-soa-displacement) but unfortunately still do not have  a crystal clear view._  

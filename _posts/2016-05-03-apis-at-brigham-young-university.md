@@ -6,8 +6,6 @@ image: >-
 tags:
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-at-brigham-young-university-cover.png)](http://apis.how/adazaak60a)
-
 I have been tracking on [how APIs are used in higher education](http://university.stack.network/) for some time now, keeping an eye on almost [50 campus API related efforts](http://university.stack.network/universities/). I have my [University API guide](http://apis.how/qxhdqghp4a) that I regularly update, but I was eager to push forward my storytelling around what is going on, so I have been working on some papers telling the story behind some of the top higher ed API implementations which I have access to.
 
 What better way to kick this off, than to showcase my favorite campus API group, over at [Brigham Young University (BYU)](https://home.byu.edu/home/). The team led by CIO Kelly Flanagan ([@kelflanagan](https://twitter.com/kelflanagan)) have embraced APIs on campus in a way that keeps my excited about APIs, and what is possible. In my opinion, BYU isn't just using APIs to shift IT strategy at the school, they are using APIs to shift how their students and faculty see technology, and put it to work on their terms. 

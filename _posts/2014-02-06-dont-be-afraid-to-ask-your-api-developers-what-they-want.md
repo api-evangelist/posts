@@ -7,8 +7,6 @@ tags:
   - ai
   - Developers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/splunk/splunk-logo.gif)](http://www.splunk.com/)
-
 While it may seem obvious that you should ask your API developers what they want, many times this is a simple task that can get lost in the shuffle of API deployment and management. API Evangelist is all about sharing, simple stories that keep API providers informed of the best practices of API management—today's story comes from big data platform [Splunk](http://www.splunk.com/).
 
 Splunk is [actively soliciting ideas from developers on where they think Splunk should take the platform](http://splunkdev.uservoice.com/forums/235348-dev-platform), asking questions like, should we invest in SDKs for mobile devices like IOS and Android, and should we be adding a new kind of charting to the web framework? To solicit the feedback, Splunk isn’t getting fancy, they just [deployed a feedback area using UserVoice](http://splunkdev.uservoice.com/forums/235348-dev-platform)—allowing developers to submit their own ideas, and vote up the ideas of other developers.

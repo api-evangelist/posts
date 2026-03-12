@@ -9,7 +9,7 @@ tags:
   - Overview
   - Backend
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/baas/tag-cloud-black-baas-2.png)](https://apps.facebook.com/marketpage/mu07n26dfwwupqoy6k0xj/item/MWP6Hfn "Overview Of The Backend as a Service (BaaS) Space")
+Space")
 
 I've been working on expanding the amount of research and writing I can do via API Evangelist lately. In the last couple weeks I rolled out new projects in three areas: [API Toolkits](/2013/04/27/evolving-beyond-api-service-providers-and-api-tools-to-goal-based-api-toolkits/ "API Toolkits"), [API Trends](/2013/04/28/api-trends/), [API Priorities](/2013/04/28/api-priorities/ "API Priorities"). This new approach is helping me focus on the areas I think are most important or exciting to the API space and generate as much, high quality news, analysis and white papers for the API space as I can.
 

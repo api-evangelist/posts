@@ -6,8 +6,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-spotify-png.png)](https://developer.spotify.com)
-
 I look at a lot of API documentation, something that until recently has been pretty static--pun intended. As an API consumer I really appreciate standardized approaches to documenting an API, like using [Swagger](http://swagger.io) or [API Blueprint](http://apiblueprint.com), but I also really enjoy when people go the extra mile to add little details, that make the experience a little more fun.
 
 A recent example of this is from the [Spotify API team](https://developer.spotify.com). When it comes to the search endpoint for the Spotify API, they put in this little addition:

@@ -11,8 +11,6 @@ tags:
   - Usage
   - 4
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/dyn/dyn-api-request.png)](http://dyn.com/blog/research-dynect-api-usage-managed-dns/ "Dyn")
-
 The folks over at [Dyn](http://dyn.com/) who provide traffic, message, remote access and domain services, including a suite of SOAP and REST based APIs, have [released some interesting stats on their API usage](http://dyn.com/blog/research-dynect-api-usage-managed-dns/ "Dyn").
 
 Dyn has 500 managed DNS users and partners using their APIs, growing from 7.3 million monthly API requests in January 2012 to 38.1 million API requests in September 2013, that is a 420% growth over 20 months.

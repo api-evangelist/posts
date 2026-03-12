@@ -8,8 +8,6 @@ author:
 tags:
   - Pricing
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/import-io/import-io-logo.png)](http://import.io "Import.io")
-
 I wrote about the [web to API service Import.io](/2013/03/19/web-harvesting-to-api-with-import.io/) earlier today, and before I close the Evernote for this story, I wanted to highlight something else I thought they did interesting, on their [pricing page](http://import.io/pricing).  
 
 I thought they provide a very honest peak into how they are pricing their services.  First off, they admit that they are a young company, which is cool, but they also lay out some pretty interesting points around their business philosophy::

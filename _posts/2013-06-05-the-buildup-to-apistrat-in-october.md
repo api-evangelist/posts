@@ -8,8 +8,6 @@ author:
 tags:
   - APIStrat
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-sf/apistrat-sf-1.png)](http://www.apistrategyconference.com/2013SF/index.php)
-
 After just a couple months of REST and relaxation, the build up to API Strategy & Practice SF is kicking into gear. We officially [launched the new site for San Francisco last week](http://www.apistrategyconference.com//2013SF/2013/05/31/kicking-of-apistrat-in-san-francisco-october-23-25-2013/), featuring the following speaker:
 
 *   Daniel Jacobson of Netflix

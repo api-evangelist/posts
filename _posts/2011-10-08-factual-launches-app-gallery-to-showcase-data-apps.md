@@ -9,8 +9,6 @@ tags:
   - Data
   - Showcase
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/factual/factual-logo.png)](http://www.factual.com/)
-
 [Factual has launch a new application gallery](http://blog.factual.com/factual-app-gallery) to showcase the diverse number of applications built using data provided by Factual.
 
 You can search for apps, browse by category, and filter by open source, paid or free apps.  Looks like there are about 18 apps in the directory currently ranging from augmented reality to daily deals.

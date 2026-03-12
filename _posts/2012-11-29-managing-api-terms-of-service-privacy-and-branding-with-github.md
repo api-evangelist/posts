@@ -12,8 +12,6 @@ tags:
   - Branding
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/github/github-logo.png)](https://github.com/ "Github")
-
 The legal building blocks of an API can be just as critical as the technical and business building blocks. It makes sense to version and communicate your API terms of use (TOS) , privacy policy and branding guidelines alongside your code.
 
 Since Github will allow document types other than code, such as markdown and PDF, it can make sense to use Github for managing the legal side of your API.

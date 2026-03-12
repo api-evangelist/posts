@@ -6,8 +6,6 @@ image: >-
 tags:
   - Project
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/noun-project/noun-project-jetpack.gif)](http://api.thenounproject.com/)
-
 [The Noun Project](http://thenounproject.com/) recently [launched their API](http://thenounproject.tumblr.com/post/69623674070/launched-the-new-noun-project), and after getting off the phone just now with a publication, I looked to see if I had written it up—I hadn’t. I had a lot of thoughts in an Evernote, but I had not really shared my thoughts on why I think The Noun Project API is significant.
 
 If you hadn’t noticed, I use [The Noun Project](http://thenounproject.com/) a lot across the API Evangelist Network. Not all of my images are directly from The Noun Project, but they reflect they same general approach. I use The Noun Project for two main reasons:

@@ -11,8 +11,6 @@ author:
 tags:
   - Commerce
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/xcommerce/x-commerce-innovate-developer-conference-2011.png)](http://www.innovate-conference.com/)
-
 I'm getting ready for the [X.Commerce Innovate Developer Conference 2011](http://www.innovate-conference.com/), at Moscone Center in San Francisco this week.
 
 [X.Commerce](https://www.x.com/) is the merging of [Paypal](https://www.x.com/developers/paypal), [eBay](https://www.x.com/developers/ebay) and [Magento's](https://www.magentocommerce.com/) developer ecosystems into a single developer community empowering the next generation of merchants who need to operate in the world of global, multi-channel commerce.

@@ -10,8 +10,6 @@ tags:
   - Visualization
   - Swagger
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/d3-js.jpg)](https://d3js.org/)
-
 I'm just going to keep putting my ideas out there, so that y'all will build what is needed for the API space. In support of my [API design tool](http://apievangelist.com/2014/06/25/if-i-could-design-my-perfect-api-design-editor/), and my [interactive API documentation tool](http://apievangelist.com/2014/10/24/someone-please-build-my-open-interactive-portable-and-visual-api-documentation-toolkit/), I want a [Swagger](http://swagger.io) generated visualization layer for APIs, using [D3.js.](https://d3js.org/)
 
 I’m envisioning a whole marketplace of visualizations I can choose from, driven from various popular APIs like Twitter, Crunchbase, OpenCorporates, and much more. There are number of proprietary data visualizations tools emerging out there (I’m watching you), but what I'm looking for is specifically an open solution using D3.js.

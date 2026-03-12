@@ -11,8 +11,6 @@ tags:
   - Environment
   - HTTP
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mitmproxy-long.png)](https://mitmproxy.org/)
-
 _This is a deep dive from one of my loyal readers, who doesn't just listen to what I write, he is pushing my own research in new directions, and reporting back to me. You have read his work before in [API Police Report: Raw Thoughts From On-Boarding With Your API](http://apievangelist.com/2015/07/06/api-police-report-raw-thoughts-from-onboarding-with-your-api/), and this time Bob Salita is building on [my own proxy work with Charles Proxy](http://apievangelist.com/2015/06/21/parsing-charles-proxy-exports-to-generate-swagger-definitions-while-also-linking-them-to-each-path/). Guest posts isn't something I do on API Evangelist, but when you are pushing the conversation forward like Bob does, I can't help but share._
 
 I'm a multi-platform, multi-device developer. I wanted an easy way to inspect HTTP(S) API traffic (requests, responses) from one of my many development devices. Inspection can be achieved by using (reverse) proxy software such as [Charles](http://www.charlesproxy.com/), [Fiddler](http://www.telerik.com/fiddler), [squid](http://www.squid-cache.org/), or [mitmproxy](https://mitmproxy.org/). The usual method is to make proxy changes to a device so traffic is forced to a system running a reverse proxy. This process is inconvenient and error prone in multi-device environments. For every device, one has to discover how to make a proxy change, then manually effect the change, and then manually reverse the change when inspection is done. I found the process annoying and error-prone. There had to be a better way.

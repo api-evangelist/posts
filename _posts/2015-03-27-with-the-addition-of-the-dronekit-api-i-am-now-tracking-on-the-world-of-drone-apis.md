@@ -12,8 +12,6 @@ tags:
   - APIs
   - ddi
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/3d-robotics/3d-robotics-dronekit.jpeg)](http://3drobotics.com/)
-
 There are many areas I track on as part of my research. Things that do not show up on my [weekly API.Reports](http://apievangelist.com/2015/03/23/weekly-apireport-for-march-23rd-2015/), or in my analysis on API Evangelist. One of these is the area of drones. I’m fascinated by this potential area in the area of Internet of Things, but until now it was more of a side note, or one possible path for APIs and the Internet of Things.
 
 Amongst the numerous drone stories I curate, I'm seeing more shift in the space towards a developer focus. It isn't just about the drone itself, its about customizing, developing and using the drone as a platform. One recent story I noticed was [3D Robotics (3DR), one of North America's largest consumer drone manufacturer, announcing the release of a new DroneKit, which includes an API for drone app development](http://api.report/2015/03/26/drone-maker-3d-robotics-debuts-open-source-development-platform-to-advance-public-app-innovation/).

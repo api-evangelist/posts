@@ -9,8 +9,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/the-university-of-oklahoma.png)](http://www.ou.edu/)
-
 I wrote a story a couple of weeks ago, about [how to kickstart APIs at the University of Oklahoma (OU)](http://apievangelist.com/2014/09/30/where-do-we-start-with-apis-at-the-university-of-oklahoma/). I ended the post, saying I would find some easy targets for generating the initial APIs, and publish a basic developer portal using Github Pages. After some work I think I have enough done to initiate another conversation with my friends at OU.
 
 In any company, organization, government agency, or institution, where you are trying to decide where to start with APIs, the public website is the place to start. If data and content is already published to the website, it should also be available in a machine readable format via an API—this is the obvious place to start at OU.

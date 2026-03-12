@@ -8,8 +8,6 @@ author:
 tags:
   - Storytelling
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/hacker-storytelling/ada-the-enchantress-of-numbers.jpg)](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/hacker-storytelling/ada-the-enchantress-of-numbers.jpg)
-
 A big part of API evangelism, is storytelling. Storytelling about the API, the value it delivers, and the solutions it provides. Through my own hacking on an API, engaging with developers via email, a forum and social media, I gather ideas for projects that would help evangelize an API, while also educating users of how it works.
 
 One example is a recurring question I get from [CityGrid API developers](http://developer.citygridmedia.com/ "CityGrid API Developers")\--how does CityGrid compare with other places APIs like Google Places and Yelp?

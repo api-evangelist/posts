@@ -10,8 +10,6 @@ tags:
   - Personal
   - Experience
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wearther2020-globe.png)](http://weather2020.com/)
-
 I have written many times before [about the right way to onboard with an API](http://apievangelist.com/2015/01/21/this-is-how-you-onboard-with-an-api/), as well as [how not to onboard with an API](http://apievangelist.com/2015/04/10/how-not-to-onboard-with-your-api-fiber-locator-api/). I see a lot of APIs, and can tell you which APIs have put thought into the process, and those who haven't. Helping companies smooth out the sharp edges on their API onboarding is something I spend a lot of time doing, so I work hard to make sure the topic shows up regularly in my writing.
 
 Today I want to highlight a slight different onboarding email I received from [Weather2020](http://weather2020.com/):

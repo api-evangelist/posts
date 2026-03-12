@@ -9,8 +9,6 @@ tags:
   - HTTP
   - Backend
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Httphub-Logo.png)](https://www.httphub.com/)
-
 I come across a lot of API related companies during my monitoring of the space, which I queue up, and as I have time, I work to explore and understand what they do. One company that I’ve had open in a tab for the last week is [HTTPHUB](https://www.httphub.com/).
 
 HTTPHUB is very interesting. It starts by giving you a root namespace, like https://kinlane.httphub.com, and from there I can add on any resources on, and make it either public or private—then I can POST any JSON to this resource in the body. So I could create https://kinlane.httphub.com/notes/, and craft a simple form + script to post any data I submit to my HTTPHUB resource.

@@ -12,8 +12,6 @@ tags:
   - REST
   - JSON
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/REST-API-Design-Avoid-future-proofing-with-the-JSON-junk-drawer-YouTube.png)](https://www.youtube.com/watch?v=-MBXsmSrKE8)
-
 API storyteller J(a)son Harmon ([@jharmn](https://twitter.com/jharmn)) has a new YouTube channel up called [API Workshop](https://www.youtube.com/channel/UCKK2ir0jqCvfB-kzBGka_Lg). He's going to be publishing regular API design workshop episodes, with the latest one titled [REST API Design: Avoid future proofing with the JSON junk drawer](https://www.youtube.com/channel/UCKK2ir0jqCvfB-kzBGka_Lg). J(a)son provides a nice overview of how you should be structuring the JSON for your API, focusing on the usage of key / value stores. Ironically he uses APIs.json as an example of why you **SHOULD NOT** use custom key / values within your JSON. What is ironic about this, is that he makes the case for APIs.json properties, giving me a great starting point for helping folks better understand [APIs.json](http://apisjson.org), and why properties are key to its evolution, and flexibility.
 
 The process J(a)son outlines in the portion of this segment that referred to APIs.json, describes the lifecycle of an APIs.json property, towards becoming more of a "first class property". There are three phases of an APIs.json property:

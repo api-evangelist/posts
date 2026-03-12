@@ -10,8 +10,6 @@ tags:
   - Tooling
   - Swagger
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-round.png)](https://helloreverb.com/developers/swagger)
-
 As part of my [research in the world of API design](http://apievangelist.com/2014/01/16/api-design-do-you-swagger-blueprint-or-raml/), I’m looking into the different approaches by API Blueprint, RAML and Swagger, to provide API definitions, services and tools that assist developers in better designing APIs. I have already look at the [evolving motivations behind API definitions](http://apievangelist.com/2014/01/22/the-evolving-motivations-behind-api-definitions/), and some insight into the [vision behind Swagger, API Blueprint and RAML](http://apievangelist.com/2014/01/31/the-vision-behind-swagger-api-blueprint-and-raml/), next up is take a look at the tooling that is evolving around each approach.
 
 First up is [Swagger](https://helloreverb.com/developers/swagger), from the folks over at [Wordnik](https://www.wordnik.com/). I would consider Swagger the first mover in this new world of API design, with the Wordnik team’s approach centered around a JSON based API definition:

@@ -17,8 +17,6 @@ tags:
   - Micro
   - APIs.jso
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-discovery.png)](http://apisjson.org)
-
 I'm just getting started exploring the ways to use [APIs.json](http://apisjson.org) when it comes organize my new Docker fueled, micro services stack. I’ve been [using APIs.son to describe each micro service](http://alpha.apievangelist.com/2015/01/10/use-apisjson-to-organize-my-swagger-defined-apis-running-in-docker-containers/), as well as define the overall collection of almost 20 micro services. I’m using the include collection, as a [navigation for the loosely coupled stack of micro-services](http://alpha.apievangelist.com/2015/01/28/using-apisjson-for-my-microservice-navigation-and-discovery/), and my friend Chris Spiliotopoulos ([@chefarchitect](https://twitter.com/chefarchitect)), has done some more work with [his Swagger.ed](https://github.com/chefArchitect/swagger.ed), delivering some [APIs.json](http://apisjson.org) goodness that is in alignment with where I want to take all of this.
 
 Adding to the [discovery and visualization work he did for Swagger](http://apievangelist.com/2015/02/23/i-got-swaggered-last-week-and-now-i-am-seeing-api-visualizations/), Chris enabled Swagger.ed to look for valid APIs.son files as well, so when you browse to any APIs.son, like the one I have for my [micro services stack](https://kin-lane.github.io/master), you see the little APIs.son search icon in the address bar.

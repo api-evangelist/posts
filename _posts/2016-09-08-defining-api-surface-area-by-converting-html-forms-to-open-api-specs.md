@@ -9,8 +9,6 @@ tags:
   - Open
   - Specs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/USGS_Groundwater_Levels_REST_Web_Service_URL_Generation_Tool.png)](http://waterservices.usgs.gov/rest/GW-Levels-Test-Tool.html)
-
 I'm investing some time learning about the [USGS Water Services](http://waterservices.usgs.gov/). They have some pretty interesting APIs, providing access to a wealth of data about water table levels, river flows, and other key points across all USGS sites. While their developer area has a wealth of information available, it is also pretty verbose and tough to absorb.
 
 I wanted to help make the information more accessible, filterable, and remixable by turning it into an OpenAPI Spec. It is A LOT OF WORK to craft a complete OpenAPI Spec for a robust API like the six that are available from the USGS. One way I help alleviate this work is to scrape API documentation. As I was preparing to do this I noticed they also have testing tools for 5 out of the 6 APIs, which are just HTML forms containing a definition of the surface area for each API. 

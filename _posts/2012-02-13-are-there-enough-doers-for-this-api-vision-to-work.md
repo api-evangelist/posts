@@ -8,8 +8,6 @@ author:
 tags:
   - Vision
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/twilio/Twilio-Logo.png)](http://www.twilio.com/)
-
 I am an eternal optimist, especially when it comes to APIs. I really feel that [APIs can decouple businesses assets and resources](http://www.apievangelist.com/2011/12/25/apis-can-decouple-business-information-and-resources/ "APIs can decouple business assets and resources"), making these companies much more efficient.
 
 We’ve seen the power of the API when it comes to companies like Twitter, Twilio, Facebook and many others. But to build something on top of an API, you have to be a do-er.

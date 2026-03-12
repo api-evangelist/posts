@@ -12,8 +12,6 @@ tags:
   - Amazon Web Services
   - Services
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/AWS_LOGO_CMYK.jpg)](http://aws.amazon.com/)
-
 For the longest time I would get asked, "Which API service provider should I use to deploy my APIs?". This was a tough question, because historically the API management providers don't help you deploy your APIs, they only help you manage them.
 
 Deploying your APIs was up to you. Generally you already had some sort of internal system that you would use to generate RESTful interfaces or you'd go find your own open source API framework and deploy. Then you'd proxy or connect your API to one of the API service providers.

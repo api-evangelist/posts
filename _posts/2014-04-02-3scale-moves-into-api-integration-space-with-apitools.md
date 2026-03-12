@@ -11,8 +11,6 @@ tags:
   - Scale
   - Tools
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apitools-logo.png)](http://bit.ly/1higNDr)
-
 [API Infrastructure provider 3Scale](http://bit.ly/13esk6Q) has moved beyond just API management, with a launch of a new API integration service called [APITools](http://bit.ly/1higNDr). 3Scale, one of the [original API management providers](http://blog.programmableweb.com/2011/10/19/api-service-provider-roundup/), is moving out of just providing tools for API providers, and now targeting developers who are depending on API services for their web and mobile applications—catering to both sides of the API infrastructure coin.
 
 As developers depend on more API driven resources for their web and applications, the need to be in tune with the inner workings of an API is increasing. We don't just need access to the results of an API anymore, we need to understand the composition, performance and overall availability of the web APIs we depend on. The number of tools and services dedicated to assisting developers with [API Integration](http://integration.apievangelist.com/ "API Integration") is one of the fastest growing API areas, right along with [API design](http://design.apievangelist.com/ "API Design").

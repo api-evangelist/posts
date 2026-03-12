@@ -8,8 +8,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-service-providers/apiary/apiary-io-logo.png)](https://apiary.io/ "Apiary.io")
-
 I'm spending a lot of time lately evaluating the various API management service providers like [3Scale](/serviceproviders/3scale.php "3Scale"), [Apigee](/serviceproviders/apigee.php "Apigee"), [Mashery](/serviceproviders/mashery.php "Mashery"),and [Mashape](/serviceproviders/mashape.php "Mashape").
 
 One thing that I have to explain a lot to people about these API management services…is they are API management services. Not API deployment services.

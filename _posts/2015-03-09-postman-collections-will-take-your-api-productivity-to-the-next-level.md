@@ -13,8 +13,6 @@ tags:
   - Product
   - Postman Collections
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/postman/postman-logo.png)](http://bit.ly/1Gm0CmP)
-
 If you are an API developer, it is likely you have used [Postman](http://bit.ly/1Gm0CmP), the simple tool for building, testing, and documenting your APIs. I have [Postman open as a Google Chrome App](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop), which allows me to make API calls as I’m designing, developing, and integrating with the APIs across my world. Something which opens up the response and requests of API calls that I’m making, giving me more insight into how things are actually working (or not).
 
 One of the [key aspects of Postman, are the collections](https://www.getpostman.com/docs/collections), which:

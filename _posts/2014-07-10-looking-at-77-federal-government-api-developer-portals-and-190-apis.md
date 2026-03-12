@@ -11,8 +11,6 @@ tags:
   - Government
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-government.jpg)](http://18f.github.io/API-All-the-X/pages/developer_hubs)
-
 I spent most of the day yesterday, looking through [77 of the developer portals listed on the 18F Github portal](/admin/blog/http:/18f.github.io/API-All-the-X/pages/developer_hubs). While I wanted to evaluate the quality and approach of each of the agencies, my goal for this review cycle was to look for any APIs that already had machine readable API definitions, or would be low hanging fruit for the creation of [Swagger definitions](http://swagger.wordnik.com/), as part of my wider API discovery work.
 
 I had just finished updating all my API Evangelist Network APIs to use verion 0.14 of [APIs.json](http://apisjson.org), and while I wait for the search engine [APIs.io](http://apis.io) to update to support the new version, I wanted to see if I could start the hard work of applying API discovery to federal government APIs. 

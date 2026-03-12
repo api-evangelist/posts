@@ -9,8 +9,6 @@ tags:
   - Analytics
   - Client
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/aws_coding_analytics.png)](http://docs.aws.amazon.com/mobileanalytics/latest/ug/welcome.html)
-
 I am seeing more [examples of analytics at the API client and SDK level](http://docs.aws.amazon.com/mobileanalytics/latest/ug/welcome.html), providing more access to what is going on at this layer of the API stack. I'm seeing API providers build them into the analytics they provider for API consumers, and more analytic services from providers for the web, mobile, and device endpoints. Many companies are selling these features in the name of awareness, but in most cases, I'm guessing it is about adding another point of data generation which can then be monetized (IoT is a gold rush!).
 
 As I do, I wanted to step back from this movement and look at it from many different dimensions, broken down into two distinct buckets:

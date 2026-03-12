@@ -8,8 +8,6 @@ author:
 tags:
   - Economy
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-economy.png)](http://apievangelist.com/2010/09/25/the-api-economy/)
-
 I spend a lot of time looking through the websites of API companies, trying to understand not just the way they do business, but their role in their overall industry, or possibly how they influence other industries.
 
 I have been spending more time looking through the [payment API space](http://payments.apievangelist.com/index.html) lately, and recently pulled together a list of [key players](http://payments.apievangelist.com/companies.html) in this space, as well as the [common building blocks](http://payments.apievangelist.com/building-blocks.html) being used across the sector.

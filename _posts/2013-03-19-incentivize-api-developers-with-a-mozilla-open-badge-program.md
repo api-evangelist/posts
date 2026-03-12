@@ -9,8 +9,6 @@ tags:
   - Open
   - Developers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mozilla-open-badges/mozilla-open-badges.png)](http://openbadges.org/)
-
 Last week [Mozilla launched their new Open Badges platform](http://openbadges.tumblr.com/post/45364274104/introducing-open-badges-1-0), as an open standard to recognize and verify learning. I immediately started thinking about how it could be applied to APIs for incentivizing developer participation and success.
 
 I’ve come across other badge programs, but Mozilla is the first open approach I’ve seen, providing free software and an open technical standard, that any organization can use to create, issue and verify digital badges.

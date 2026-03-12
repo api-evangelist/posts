@@ -8,7 +8,7 @@ tags:
   - OAuth
   - Technology
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/OAuth.png)](http://oauth.net/)[OAuth](http://oauth.net/) is an open protocol to allow secure [API](http://www.apievangelist.com/) authorization for web applications, desktop applications, [mobile](http://www.kinlane.com/category/mobile/) phones, and other devices.
+[OAuth](http://oauth.net/) is an open protocol to allow secure [API](http://www.apievangelist.com/) authorization for web applications, desktop applications, [mobile](http://www.kinlane.com/category/mobile/) phones, and other devices.
 
 When OAuth is implemented for an API, it provides benefits for potentially three types of users involved:
 

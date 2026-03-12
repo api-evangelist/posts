@@ -11,8 +11,6 @@ tags:
   - Mobile
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/chicago/sydcon/sydcon-web-development.jpg)](http://www.sydcon.com/)
-
 I just talked with Dave Devitt ([@sydcon](https://twitter.com/sydcon)), President at [SYDCON Web Development, Inc. in Chicago](http://www.sydcon.com/ "SYDCON web development inc. in Chicago") about how his web and mobile development shop sees the world APIs. I’m always on the hunt for stories about how the everyday person on the ground at startups, all the way up to the federal government, actually see the world of APIs, and I was pleased that Dave could make some time to share his view of APIs with me.
 
 First, Dave said something I found very interesting when we first started our conversation. He said they were a “web development shop”, not in the the sense that they build websites, but that they develop applications that use the web for their operations. I think this is an important distinction when we start putting developers into buckets, and it isn’t always as straightforward as building websites, web applications, mobile, single page or Internet of Things apps—we are now building software that uses the Internet for communication, something that will inevitably use all of these channels (and more).

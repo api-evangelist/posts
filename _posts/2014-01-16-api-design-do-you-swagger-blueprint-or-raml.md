@@ -11,8 +11,6 @@ tags:
   - Swagger
   - RAML
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/services/api-design.png)](http://design.apievangelist.com/)
-
 I’m spending the next couple weeks going through each of the leading API design approaches: API Blueprint, RAML and Swagger. Even though I still personally use Swagger in my own work, I’m pushing myself to learn API Blueprint and RAML to better understand the landscape, as well as the pros and cons of each approach.
 
 If you aren’t familiar with this emerging trends in API design, they are approaches to defining your APIs either using JSON or a markdown language, which allows you to quantify and describe the API interfaces and underlying data models in a way that allows you to communicate with others, generate mock or production APIs, interactive documentation, code samples and potentially other tooling that will help you be successful in your API initiatives.

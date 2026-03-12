@@ -10,8 +10,6 @@ tags:
   - Talent
   - Infrastructure
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Work_at_Netflix.png)](https://jobs.netflix.com/jobs)
-
 [I consider Netflix to be the most successful API failure ever](http://apievangelist.com/2016/09/07/the-netflix-public-api-was-the-most-successful-api-failure-ever/). Even though their public is completely private, exclusively for internal and partner uses, they are still very transparent and open with how they operate and open up the code behind. The reason behind this is simple, and self-serving, but is one that I can get behind 100%--making sure they are hiring the best developer talent, that reflects the company culture.
 
 You see always see these motivations present in the closing paragraphs of their blog posts: "_If you are interested in helping us tackle this and other equally interesting challenges, come join us! We are [hiring](https://jobs.netflix.com/jobs/860912) for [several](https://jobs.netflix.com/jobs/860577) different [roles](https://jobs.netflix.com/jobs/860522)__._" I've also had this discussion with Daniel Jacobson ([@daniel\_jacobson](https://twitter.com/daniel_jacobson)), the VP of Edge Engineering at Netflix (responsible for API and Playback), where he was pretty clear about preferring the type of developer who isn't afraid that the story of what their building will be public on the blog, and their code published openly to Github.

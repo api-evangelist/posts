@@ -17,8 +17,6 @@ tags:
   - Digital
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/digital-public-library-of-america/DPLA_logo.jpg)](http://dp.la/)
-
 If I had to pick one API that I worship the ground they walk on, and yet for some insane reason I don’t write about very often—it would be the [Digital Public Library of America](http://dp.la/). I can go on for days about how important the work that DPLA does. If you aren’t up to speed on DPLA, "The Digital Public Library of America brings together the riches of America’s libraries, archives, and museums, and makes them freely available to the world”—via APIs! ;-)
 
 I’m a history lover, so DPLA is extremely interesting, but what they do is so much more important to society at-large, an area that very few APIs can achieve. I am making an extra effort to publish more DPLA stories on API Evangelist, not just because they need it, but also because their approach to APIs is extremely forward thinking and relevant.

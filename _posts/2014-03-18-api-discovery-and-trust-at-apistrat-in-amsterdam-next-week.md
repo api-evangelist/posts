@@ -11,8 +11,6 @@ tags:
   - Discover
   - rust
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/services/api-discovery.png)](http://discovery.apievangelist.com/)
-
 I'm continuing my journey through the [session line-up at API Strategy & Practice next week in Amsterdam](http://www.apistrategyconference.com/2014Amsterdam/schedule.php), next up is the API discovery and trust session, where the conversation will be about API directories, service descriptions and of trust and rating systems for APIs.
 
 Speakers for the API discovery and trust session are:

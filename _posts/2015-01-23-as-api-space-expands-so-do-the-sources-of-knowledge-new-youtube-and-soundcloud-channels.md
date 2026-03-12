@@ -11,8 +11,6 @@ tags:
   - Cloud
   - Knowledge
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/jason-harmon-logo.png)](https://www.youtube.com/channel/UCKK2ir0jqCvfB-kzBGka_Lg)
-
 The API space is continuing its rapid expansion, and along with the number of API design, deployment, management, and integration providers, and the number of API conferences, there are some new sources of discussion around APIs--one as a YouTube Channel, and the other as a SoundCloud podcast.
 
 *   **[API Workshop](https://www.youtube.com/channel/UCKK2ir0jqCvfB-kzBGka_Lg) -** We'll discuss topics around API Design, including: sustainability concepts: how to design APIs that last, new ideas in API design, voices and posts from the API blog world.

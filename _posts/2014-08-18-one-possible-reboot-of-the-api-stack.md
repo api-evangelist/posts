@@ -8,8 +8,6 @@ tags:
   - Stack
   - Reboot
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png)](http://theapistack.com/)
-
 I used to publish out a list of curated stories each week, and a listing of the top 25 APIs I was paying attention to during my regular monitoring of the API space to a site I called [The API Stack](http://theapistack.com/). When i went to Washington DC last summer as a Presidential Innovation Fellow, I suspended that weekly ritual, and never picked up after my world got back to normal.
 
 I’m still monitoring about 1000 companies, with over 2000 total APIs, and curating the stories--I just don’t take the time each week to publish them to The API Stack. In an effort to try and reboot the project, provide value to the API Evangelist network, as well as to you my loayal reader, I've republished a new reflection of my work at the Github project. Right now it just lists 819 of the companies who are doing interesting things with APis in 114 categories.

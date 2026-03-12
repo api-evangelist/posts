@@ -9,8 +9,6 @@ tags:
   - SDK
   - Access
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/google/Google-Drive-SDK-Early-Access-Program.png)](https://developers.google.com/drive/earlyaccess)
-
 Google has an [SDK early access program setup for the Google Drive platform](http://googleappsdeveloper.blogspot.com/2013/01/join-google-drive-sdk-early-access.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+GoogleAppsDeveloperBlog+%28Google+Apps+Developer+Blog%29), and is inviting a select group of dedicated Google Drive developers to join the program. Giving them access to upcoming Google Drive SDK features and the opportunity to provide feedback.
 
 Google isn't accepting everyone--they will be screening applicants based upon the type and quality of the application, number of users, and ability to implement and provide feedback on new features as they're made available.

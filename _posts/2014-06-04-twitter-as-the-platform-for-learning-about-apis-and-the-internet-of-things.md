@@ -11,8 +11,6 @@ tags:
   - APIs
   - Learning
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/twitter/romain-huet-twitter-slide-twitter-pulse-of-planet.png)](http://www.slideshare.net/romainhuet/twitter-apis-connecting-to-the-pulse-of-the-planet)
-
 I’ve had the pleasure of watching Romain Huet ([@romainhuet](https://twitter.com/romainhuet)), developer evangelist at Twitter, give his very entertaining talk three times now, and if you haven’t seen it, I recommend [looking it up on the APIStrat Youtube channel](https://www.youtube.com/watch?v=DkKEZMjFLSQ). Romain walks us through the world of Twitter, showing us the power of the platform and its API, but the really entertaining part is the two Internet of things (Iot) demos that he executes during his talk.
 
 The first demo Romain does, is taking an audience selfie using a Raspberry Pi driven camera, triggered by a Tweet. The second demo involves flying a quadcopter drone on stage, that uses [NodeCopter](http://nodecopter.com/) as the interface, and Twitter as the communication layer. Both demos are crowd pleasers, which makes for not just an entertaining talk, but shows the potential of Iot + APIs, while also making the audience part of the experience.

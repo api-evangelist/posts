@@ -10,8 +10,6 @@ tags:
   - OpenAPI
   - Open
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_spec_structural_improvements.png)](https://www.openapis.org/specification/v3insights)
-
 I am impressed with the work that the Open API Initiative (OAI) working group has accomplished with the [version 3.0 release of the OpenAPI Specification](https://www.openapis.org/specification/v3insights). I have had zero involvement in moving the specification forward (something I'm changing), and after coming back to the effort I am impressed with what they've prioritized, and accomplished for this release. 
 
 The highlights in version 3.0 of the OpenAPI Spec for me are:

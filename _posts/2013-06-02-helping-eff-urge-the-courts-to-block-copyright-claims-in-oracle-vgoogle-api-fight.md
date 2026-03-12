@@ -13,8 +13,6 @@ tags:
   - Oracle
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/electronic-frontier-foundation/google-v-oracle-brief.png)](https://www.eff.org/press/releases/computer-scientists-urge-court-block-copyright-claims-oracle-v-google-api-fight)
-
 The [Electronic Frontier Foundation (EFF) recently filed a a brief](https://www.eff.org/press/releases/computer-scientists-urge-court-block-copyright-claims-oracle-v-google-api-fight) in the U.S. Court of Appeals for the Federal Circuit, urging the court to block copyright claims in the Oracle v. Google legal battle. The EFF approached me several months ago to provide feedback for the brief. I sent over my research and published some of my thoughts to [Help EFF Make Case For No Copryight on APIs](/2012/11/02/help-eff-make-case-for-no-copryight-on-apis/) and why [API Copyright Would Restrict API Interoperability](http://apivoice.com/2012/12/08/api-copyright-would-restrict-api-interoperability/) and also lent my support as one of the [Signatories to the Computer Scientists’ Amicus Brief](https://www.eff.org/cases/oracle-v-google/amici).
 
 Here is a summarized version of the arguement:

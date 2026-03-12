@@ -12,8 +12,6 @@ tags:
   - Clients
   - Speaking
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-postman.png)](https://www.getpostman.com/)
-
 I was given an introduction to the Microsoft Graph [A concept being applied to Office 365 APIs](https://msdn.microsoft.com/en-us/office/office365/howto/develop-office-graph), other Microsoft APIs, and potentially beyond, to map out segments of users and every day objects. As I learn more about this unifying, graph API effort, I will write more, but this particular story is about how we communicate around the first steps taken by developers when integrating with any API. As an API provider, how you talk about integration, and craft your on-boarding resources, can significantly impact how developers view your resources, something that I think still will always need some work across the space.
 
 After being introduced to the Microsoft Graph APIs, we were given a list of code resources, that we could use to hack against the API. The API integration overview had all the modern elements of API integration, with C#, Java, PHP, Node.js, Ruby, and other "coming soon" libraries. The resource toolkit, even had a sandbox account we could use, helping us on-board with less friction. While this approach is very progressive for the Microsoft world I've known, evolving us beyond the endless sea of C# focused WSDLs we all have seen historically, I would like to point what I think should be the next step in our evolution.

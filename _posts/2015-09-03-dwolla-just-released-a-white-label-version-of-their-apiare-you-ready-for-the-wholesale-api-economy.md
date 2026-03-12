@@ -11,8 +11,6 @@ tags:
   - Economy
   - Wholesale
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dwolla-white-label-api.png)](http://blog.dwolla.com/simple-integrated-ach-payouts/)
-
 If you have heard any of my talks at [API Days Sydney](http://www.infoq.com/presentations/api-docker), in [Barcelona](https://www.youtube.com/watch?v=nYR7A0r598c), or at Gluecon in Colorado this year, you've heard me talk about wholesale APIs, and [how I am using Docker to help make some of my APIs available for use as private or white label APIs.](http://apievangelist.com/2014/01/30/what-will-it-take-to-sell-my-api-as-a-wholesale-resource/) The concept of a [white label, private label, or wholesale API](http://apievangelist.com/2015/02/26/a-peek-at-the-future-with-white-label-apis/) is something I've been talking about for a while, and is something I am starting to see more of in the wild.
 
 The most recent sighting is from payment API provider Dwolla, with [four new API endpoints that deliver a white label ACH payout API solution](http://blog.dwolla.com/simple-integrated-ach-payouts/). According to the announcement from Dwolla, the white label API solution will:

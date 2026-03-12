@@ -10,8 +10,6 @@ tags:
   - Research
   - Organization
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-design.png)](http://design.apievangelist.com)
-
 I try to go through each of my areas of research as often as I can and update the content, as well as my understanding. Ideally I update the news each week, take a look at the organizations involved once a month, and evaluate the building blocks and tools each quarter. Unfortunately it doesn't always happen as planned, but as a one man operation, I think I do pretty well. 
 
 I just went through my [API design research](http://design.apievangelist.com), and adjusted my definition of what I felt needed be listed there. As I move API definitions to their own research area(s), I'm reconsidering what I want to keep an eye on when it comes to API design, and my current definition involves organizations who offer API design editors, either in the cloud or as download. They should allow you to add, edit, and manage the API details, then also provide the ability to import and export using common API definition format(s).

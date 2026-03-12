@@ -10,8 +10,6 @@ tags:
   - Pricing
   - Time
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/convertapi-buy-credits.png)](http://www.convertapi.com/prices#CreditsCostTable)
-
 I'm reviewing the business models of many of the top API platforms over the last couple of weeks, and I’m seeing some pretty interesting approaches to [API monetization](http://monetization.apievangelist.com). As I look through each API, I see that some platforms don’t have their API monetization strategy together at all, while others are following the pretty proven “cloud utility” model handed down from providers like AWS, and then I see some who are continuing to standardize how we pay for, and monetize APIs--which makes me happy.
 
 One [interesting pricing page I reviewed over the holidays](http://www.convertapi.com/prices), was from the [file conversion API, ConvertAPI](http://www.convertapi.com). They have a credit based API monetization approach, allowing you to buy a certain amount of credits on a monthly basis, or make one-time basis. Each area offers four tiers, allowing for the purchase of credits at a various rates. One thing I found curious though, is that your credits purchased monthly do not roll over, where your one time purchases do—I will have to think about the pros / cons of this more, before I comment.

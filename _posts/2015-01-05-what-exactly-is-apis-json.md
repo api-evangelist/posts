@@ -10,8 +10,6 @@ tags:
   - APIs
   - APIs.jso
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png)](http://apisjson.org/)
-
 As I travel around talking to folks about APIs, I spend as much time as I can, educating folks about [APIs.json](http://apisjson.org). In the course of my evangelism, I’m constantly reminded how little people, who have even heard, and read about APIs.json, really understand about what it actually is. With this in mind, I will be regularly publishing examples of what APis.json is, to help on-board everyone to Steve ([@ngynx](https://twitter.com/njyx)), and mine vision for [APIs.json](http://apisjson.org).
 
 APIs.json is an open format, in partnership between [3Scale](https://3scale.net) and [API Evangelist](http://apievangelist.com), to help API providers make their APIs more discoverable, assist API brokers in aggregating multiple APIs deemed valuable within specific industries, and ultimately empowering API consumers in finding exactly the APIs they need to be successful. Our mission is to make the process of API discovery as portable as we can, enabling it to live on any website, and be found in open search engines like [APIs.io](http://apis.io).

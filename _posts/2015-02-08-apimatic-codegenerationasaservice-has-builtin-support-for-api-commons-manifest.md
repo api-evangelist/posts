@@ -13,8 +13,6 @@ tags:
   - Code
   - API Commons
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apimatic/apimatic-logo.png)](https://apimatic.io/)
-
 The API savvy folks over at [Apimatic](https://apimatic.io/) are at it again, pushing forward the conversation around generating of software development kits, using machine readable API formats, and this time the doorway to your SDK is via the [API Commons manifest](http://apicommons.org/format.html).
 
 I'm going to go ahead and use their own description, as it sums it well, no augmentation needed. Using the code generation API, you can generate SDKs for your API directly from your Github repository. 

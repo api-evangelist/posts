@@ -9,8 +9,6 @@ tags:
   - Stories
   - Consumer
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_07_at_10.13.17_am.png)](https://www.dreamfactory.com/stories)
-
 Telling the story of what your  API accomplishes may seem like a pretty simple, straightforward thing, but you'd be surprised how many API providers DO NOT do this on a regular basis, or do not have dedicated stories, showcase, or similar section to their website. This is why I beat this drum on a regular basis -- if you do not tell the story of the cool things people are doing with your API or your API services, they will never know how your solution works, and will probably never think of your service again--even with they actually have that specific problem that you solve.
 
 To help demonstrate this in a very meta way, I am going to showcase how my clients, showcase their clients. Deep man. Next up is my partner DreamFactory, [providing six very compelling stories about how their API deployment and management platform is being put to use](https://www.dreamfactory.com/stories):

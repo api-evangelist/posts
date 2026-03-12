@@ -10,8 +10,6 @@ tags:
   - Voice
   - Storytelling
 ---
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-voice.jpg)
-
 [photo credit](http://sarasvati.ca/season/giving-voice/)
 
 I'm totally thankful for the experiences I've had over the last 90 days in Washington D.C. as a Presidential Innovation Fellow, and even more thankful I'm able to keep doing much of the work I was doing during my fellowship. In reality, I'm actually doing more work now, than I was in DC.

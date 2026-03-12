@@ -10,8 +10,6 @@ tags:
   - Developers
   - Git
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/github/github-logo.png)](https://github.com "Github")
-
 I was playing with [Singly](https://singly.com/ "Singly"), a unified social API last night. One of the first things I saw, after landing on the home page, were two choices for signing up as a developer--one with Facebook or the other with my Github account.
 
 I’m seeing Github as an option for API developer registration, more frequently these days. And it makes sense. Each of my social networks have a place in my life--Facebook is my more personal social network, Twitter my more public persona, Google is my business platform and Github reflects my developer profile.

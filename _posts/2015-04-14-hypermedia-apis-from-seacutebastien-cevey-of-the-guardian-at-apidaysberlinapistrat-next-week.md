@@ -13,8 +13,6 @@ tags:
   - APIStrat
   - APIs
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/the-guardian-open-platform.jpeg)](http://open-platform.theguardian.com/)
-
 The most important stories told across the API space, the ones that have the biggest impact on API providers, and ultimately API consumers, are the stories that come out of the trenches of the API operations at the leading public API providers. This is why 3Scale and API Evangelist started APIStrat, and what the audiences over the last 3 years of operating APIDays and APIStrat have consistently requested--more stories from the trenches.
 
 With this in mind, we've asked Sébastien Cevey ([@theefer](https://twitter.com/theefer)) of The Guardian to come to [@APIDaysBerlin / @APIStrat Europe 2015](http://apidaysberlin2015.apistrat.com/), and share a story from API operations at the worlds leading media API provider. Sébastien wanted to share their view of what Hypermedia APIs are, by comparing them to a classical RPC architecture and ad-hoc "JSON APIs". He will also cover key benefits of using Hypermedia APIs (cacheability, discoverability, evolveability/extensibility, simplicity, interactive nature), presented in the context of real-world examples and the different constraints of REST (HTTP, URIs, verbs, hypermedia controls like links and forms).

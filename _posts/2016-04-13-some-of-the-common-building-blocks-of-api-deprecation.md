@@ -5,8 +5,6 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-deprecation-2.p
 tags:
   - Deprecation
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-deprecation-2.png)](http://deprecation.apievangelist.com/)
-
 I spend my days mapping out the API life cycle, [keeping track of what I consider to be the 50+ areas of a modern API life cycle](http://apievangelist.com), based upon the approach I am seeing from leading providers. One area of this life cycle I'm spending way more time than I want to be lately, is in the area of [API deprecation](http://deprecation.apievangelist.com/). 
 
 This is why I conduct my API research in the way that I do, because when people approach me for advice, guidance, or brain dump in any of these areas, I have a wealth of resources I can pull from. Sadly I have a couple of folks ask me for input on what I'd consider to be a good approach to individual API deprecation, as well as entire company, platform, and API deprecation.

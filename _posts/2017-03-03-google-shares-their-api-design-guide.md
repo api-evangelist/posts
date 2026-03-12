@@ -7,8 +7,6 @@ atomdate: 2017-03-03T17:00:00.000Z
 tags:
   - Design
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_01_at_10.08.35_pm.png)](https://cloud.google.com/apis/design/)
-
 [Google released an API design guide recently](https://cloud.google.com/apis/design/). I'll be adding the design guide to the list of examples I have in [my API design research](http://design.apievangelist.com/tools/design-guides/). The Google API design guide is pretty straight forward in its purpose, with a goal of helping, "developers design **simple, consistent and easy-to-use** networked APIs", but I thought it was noteworthy that they were also looking to help "converging designs of socket-based RPC APIs with HTTP-based REST APIs."
 
 [gRPC and Protocol Buffers](http://www.grpc.io/) has been on my task list to learn more about for a while now, but without any projects at scale, it's probably not a task I'll find much time for anytime soon. I'll try to carve off more time to learn how folks like Google are doing it, through their guides and storytelling. One thing I did know, which Google reinforces is that"many companies use socket-based RPC APIs to carry most network traffic, which can be orders of magnitude higher than public REST APIs."

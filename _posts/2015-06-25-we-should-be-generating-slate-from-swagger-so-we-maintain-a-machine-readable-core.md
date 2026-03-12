@@ -11,8 +11,6 @@ tags:
   - Swagger
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/slate/slate-tripit.png)](https://github.com/tripit/slate)
-
 I am a big fan of [API documentation when done using Slate](https://github.com/tripit/slate). It creates very beautiful, and easy to use documentation, that makes learning about an API much more pleasant. You can find some pretty good examples of Slate being used in the wild, with the [Travis CI API](http://docs.travis-ci.com/api/#overview), [Dwolla API](https://docs.dwolla.com/#introduction), and [API Science API](https://www.apiscience.com/docs/api). 
 
 Slate goes a long way in standardizing the documentation for APIs, but I would like to see this go further. [I am working to profile both Dwolla and API Science as part of defining the stack of APIs that I depend on to operate the API Evangelist network](http://apievangelist.com/2015/06/23/the-over-30-apis-i-depend-on-to-run-api-evangelist/), and while I enjoy the attractive UX Slate brings to the table, I'm lamenting the lack of a machine readable API definitions along the way.

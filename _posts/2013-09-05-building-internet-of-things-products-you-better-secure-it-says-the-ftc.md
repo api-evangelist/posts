@@ -11,8 +11,6 @@ tags:
   - FTC
   - Product
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/trendnet-camera.jpg)](http://www.trendnet.com/?todo=home)
-
 The [Federal Trade Commission(FTC) just settled a case with web-enabled camera maker TRENDnet](http://www.ftc.gov/opa/2013/09/trendnet.shtm), signaling the government agency's first action against an Internet of Thing's company.
 
 The FTC's complaint alleges that [TRENDnet](http://www.trendnet.com/?todo=home) was labeling their cameras as secure, when in reality the camera had faulty software that left them open to online viewing and audio access to anyone who had the Internet address of the camera.

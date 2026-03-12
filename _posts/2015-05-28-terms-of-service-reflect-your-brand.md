@@ -9,8 +9,6 @@ author:
 tags:
   - Terms of Service
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/slack/slack-logo.jpg)](https://slack.com/)
-
 _This is a guest post from [Marsh Gardiner](https://twitter.com/earth2marsh), who knows a little secret...that anyone can submit stories to API Evangelist. All you do is submit a pull request on the [Github repo that runs the site](https://github.com/kinlane/api-evangelist). Of course stories still have to meet my standards, but Marsh shares many of the same views of the APIs space, and knows what is important to my readers, and the API community._
 
 Spotted on Twitter today:

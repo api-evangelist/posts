@@ -8,8 +8,6 @@ tags:
   - Design
   - Operations
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_04_at_11.11.44_pm.png)](http://apistylebook.com/)
-
 Everyone developing APIs struggles with API design. Ok, maybe a few of the gurus out there don't, but the rest of us need education, practice, and ideally someone or something to help guide us through the best practices when it comes to API design. I try to track what different companies are doing when it comes to API design, and [maintain a list of any API design guides I come across in my work](http://design.apievangelist.com/tools/design-guides/).
 
 If you are looking to start getting a grasp on API design at your company, organization, institution or agency, I recommend starting on the journey to define your own API design guide--you will be surprised what you can learn along the way. You can kick things off by visiting my [API design research](http://design.apievangelist.com), but I strongly recommend you head over [to the API Stylebook](http://apistylebook.com/), and build on this important work.

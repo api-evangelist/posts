@@ -8,8 +8,6 @@ author:
 tags:
   - Patents
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-patents.png)](http://patents.apievangelist.com)
-
 I started doing [research on API patents recently](http://apievangelist.com/2015/01/25/doing-the-research-in-preparation-for-my-patent-on-a-patent-api/), and after about 5 days of processing XML files from the US Patent Office, I'm going to stop processing at the year 2004 (way back). This gives me 2005 through present day, and provides more than enough information for me to evaluate the role APIs are playing in the patent process, and inversely how patents are affecting the API space.
 
 In 2004, the XML data files I'm processing start to change, and I'm getting errors, resulting in me having to reconfigure my script, in addition to downloading the numerous, large XML files. I think I have enough of a sampling to start building a wider awareness of what is going on with patents and APIs, I can always come back and download 1995 through 2004.

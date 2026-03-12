@@ -9,8 +9,6 @@ atomdate: 2016-08-05T22:00:00.000Z
 tags:
   - Industry
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/airmap-screenshot.png)](https://www.airmap.com/)
-
 I first came across Airmap as [I was learning about them acting as the middle man for DJI drone updates via the Department of Interior](http://apievangelist.com/2016/08/02/direct-government-connection-into-internet-of-things-devices-like-we-are-seeing-with-drones/). After this story, I added them to my database of companies that I track on. Then as I was monitoring my feeds I saw [they were now working with IBM to get weather information](http://www.reuters.com/article/idUSFWN1AK0VL?type=companyNews) for use by drone manufacturers, operators, and those impacted by drone activity. 
 
 [Airmap](https://www.airmap.com/) positions themselves as "airspace Intelligence", offering low-altitude airspace management solution for unmanned aircraft. When you consider the drone as just one of many devices being connected to the Internet, the role intelligence providers like Airmap will play when it comes to system to system integrations, and web or mobile application development in each space--the company seems to be well-positioned for success in the drone industry.

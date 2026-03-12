@@ -14,8 +14,6 @@ tags:
   - APIs
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/cloud_scale_net_chip.jpg)](http://www.broadcom.com/products/Switching/Data-Center/BCM56850-Series)
-
 While processing the news today over at [API.Report](http://api.report), I came across a [story about Broadcom delivering an API for managing their latest network infrastructure](http://api.report/2015/03/10/broadcom-open-switch-apis-drive-innovation-in-network-infrastructure/). The intersection of Software Defined Networking (SDN) and Application Programming Interface (API) is something I’m paying closer attention to lately. Hmmm. SDN + API = Brand New Bullshit Acronym? Meh. Onward, I just can’t slow down to care--{"packet keep moving"}.
 
 At the networking level, I’m hearing [Broadcom](http://www.broadcom.com/) making a classic API infrastructure argument, "With the OpenNSL software platform, Broadcom is publishing APIs that map Broadcom's Software Development Kit (SDK) to an open north bound interface, enabling the integration of new applications and the ability to optimize switch hardware platforms.”, with examples of what you could build including "network monitoring, load balancing, service chaining, workload optimization and traffic engineering."

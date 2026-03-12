@@ -12,8 +12,6 @@ tags:
   - Standards
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mapbox/mapbox-logo.png)](https://www.mapbox.com)
-
 On June 29th, 2006, Google launched Google Maps API allowing developers to put Google Maps on their own sites using JavaScript. The API launch was just shy of 6 months after the release of Google Maps as an application, and was in direct response to the number of rogue apps developed that were hacking the application--demonstrating the demand for a JavaScript based, API driven mapping solution for developers.
 
 Fast-forward 7 years, and maps are a central fixture of virtually every web and mobile application we depend on daily. While Google Maps is still the heavyweight in the space, their now classic map interface, proprietary tooling and search centric mindset leaves a huge opportunity for disruption in the app economy, and the venture capital firm [Foundry Group](http://www.foundrygroup.com/wp/) is betting that startup mapping provider [MapBox](https://www.mapbox.com/) is the solution that will de-throne Google, with a [10M investment in MapBox](https://www.mapbox.com/blog/10million-funding-foundry-group/) earlier today.

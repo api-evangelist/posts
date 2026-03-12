@@ -8,8 +8,6 @@ author:
 tags:
   - Client
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mike-amundsen/Mike-Amundsen.jpg)](https://twitter.com/mamund)
-
 Master API architect at [Layer7 Technologies](http://www.layer7tech.com/ "Layer7 Technologies") Mike Amundsen ([@mamund](https://twitter.com/mamund)) has a great post this week on [Four Tech-Related Trends That Will Shape 2013](http://www.layer7tech.com/blogs/index.php/four-tech-related-trends-that-will-shape-2013/).
 
 One of the predictions that caught my eye was that "server mash-ups will increase but client mash-ups will decline"--he clarifies it with:

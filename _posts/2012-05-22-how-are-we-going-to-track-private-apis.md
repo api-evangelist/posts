@@ -8,8 +8,6 @@ author:
 tags:
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/fiber-cable-map.jpeg)](http://en.wikinoticia.com/Technology/internet/97495-world-map-of-submarine-cables-this-is-the-internet-backbone)
-
 [Image Credit - Wiki Noticia](http://en.wikinoticia.com/Technology/internet/97495-world-map-of-submarine-cables-this-is-the-internet-backbone)
 
 Adam Duvander ([@adamd](/admin/blog/Adam Duvander)) [reported at ProgrammableWeb today that they rolled over 6,000 public APIs in the directory](http://blog.programmableweb.com/2012/05/22/6000-apis-its-business-its-social-and-its-happening-quickly/ "reported at ProgrammableWeb today that they rolled over 6,000 public APIs in the directory"). The pace at which companies are launching public APIs is accelerating, with the last 1,000 added in just 3 months.

@@ -11,8 +11,6 @@ tags:
   - Open
   - Developers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/box/box-logo.png)](http://box.com "Box")
-
 Enterprise content sharing platform [box](http://box.com "Box") launched a [new developer revenue sharing program for its API developer ecosystem,](http://developers.blog.box.com/2013/06/06/welcome-to-the-new-app-economy-introducing-box-rev/ "new developer revenue sharing program with its API developer ecosystem") called [$rev](http://content.box.com/?elqPURLPage=215).
 
 [Box $rev](http://content.box.com/?elqPURLPage=215) is pretty straightforward. You just integrate the [Box API](http://developers.box.com/) into your app, enroll it into the Box $rev program, and box will monitor, track and report your activity--sending you checks for up to 15% of the per seat price as a commission, each quarter.

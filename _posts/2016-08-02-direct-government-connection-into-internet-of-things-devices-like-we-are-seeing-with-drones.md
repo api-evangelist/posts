@@ -12,8 +12,6 @@ tags:
   - Drones
   - Government
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Wildfire-Screenshot-Web-App-1.png)](https://www.airmap.com/wildfire-awareness-geofencing-drones/)
-
 I have been spending a lot of time this summer thinking about how devices are being connected to the Internet, specifically when it comes to drones. As I was traveling around the countryside flying drones, I increasingly came across stories about drones being a nuisance, and most notably being a big huge problem for firefighting crews. 
 
 I am flying a DJI Phantom 3 Professional drone, so [I was interested to see DJI recently enable real-time geofencing capabilities for drone pilots](http://www.dji.com/newsroom/news/dji-and-airmap-deliver-real-time-wildfire-awareness-and-geofencing-capabilities-for-drones). If you are unfamiliar with how these drones work, your drone controller is simply an iPad enabled joystick and a mobile application which becomes your control center. Before you can fly the drone the application goes through a whole series of checks making sure all of the drones variety of systems are all in check. 

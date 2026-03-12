@@ -14,8 +14,6 @@ tags:
   - Modular
   - Services
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-docs-io-screenshot.png)](http://api-docs.io/)
-
 I like my API service providers like I like my APIs, doing one thing and doing it well. Sure services can work together (using APIs), and companies can launch multiple services, but I prefer selecting the services that I use as part of my API operations, as small, modular pieces of API infrastructure. In my opinion, API service providers are just another class of API provider, they just happen to be selling services to businesses that are operating APIs.
 
 You can see this in action [with API Docs](http://api-docs.io/), part of [the StopLight.io platform](http://stoplight.io/). API Docs does one thing well--API documentation! Although for me, it touches on two important areas of the API lifecycle, both [documentation](http://documentation.apievangelist.com) and [definitions](http://definitions.apievangelist.com/), but also illustrates the maturation of these stops along the API life cycle, since Tony first launched Swagger UI. The StopLight team is taking API definitions to the next level, but they are also helping us better deliver the documentation portion of our API life cycle(s)--all driven by API definitions. (meta)

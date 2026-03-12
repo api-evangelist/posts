@@ -12,8 +12,6 @@ tags:
   - Accountability
   - Digital
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/slashdb-new-logo-sideways-medium.png)](http://www.slashdb.com/)
-
 I read a lot of blog posts, and press releases about open data these days, and when I find a dataset I think offers a lot of value, or is just interesting enough to help push forward, I either try to incorporate into my [Adopta open data work](http://adopta.agency/), or I just put it out to my followers to see if anyone can help.
 
 As I was monitoring the space yesterday I came across the [Ranking Digital Rights 2015 Corporate Accountability Index](https://rankingdigitalrights.org/), which _"evaluates 16 of the world’s most powerful Internet and telecommunications companies on their disclosed commitments, policies, and practices that affect users’ freedom of expression and privacy."_\--[I saw there was an excel and CSV versions of the report](https://rankingdigitalrights.org/index2015/download/), but I didn't see an API, so I tweeted out:

@@ -11,8 +11,6 @@ tags:
   - Scale
   - Stack
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/3scale-logo.jpg)](http://www.3scale.net/)
-
 [3scale](http://www.3scale.net/ "3Scale") provides scalable API Infrastructure as a Service to control, manage and monetize the distribution of data, content or services for devices, mobile and web applications.
 
 The [3Scale Service Management API](http://www.3scale.net/support/service-management-api "3Scale Service Management API") allows you to authorize access to your API, monitor calls and report traffic seamlessly in your applications.

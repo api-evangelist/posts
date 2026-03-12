@@ -9,8 +9,6 @@ tags:
   - Data
   - Spreadsheet
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/data-everywhere-logo.png)](https://www.dataeverywhere.com/)
-
 As the popularity of APIs rapidly increases, I’m seeing spreadsheets play a growing role in both providing APIs, as well as consuming APIs. On the road to #APIStrat Chicago I came across a company who has a pretty dead-simple approach to using spreadsheets to drive data via APIs, called [Data Everywhere](https://www.dataeverywhere.com/).
 
 Data Everywhere describes their service:

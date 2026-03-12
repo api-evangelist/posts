@@ -12,8 +12,6 @@ tags:
   - Data
   - Migration
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/cloud-elements-logo.png)](http://cloud-elements.com)
-
 The [Element Loader from API service provider Cloud Elements](http://cloud-elements.com/element-loader/) came across my monitoring this week, providing a configurable JavaScript application that help simplify data migration, allowing you to move content and data between cloud platforms, by putting their APIs to work.
 
 The Element Loader is interesting to me as an evolution to the concept of what I’ve long called [API reciprocity](http://reciprocity.apievangelist.com), where companies like [Zapier](http://zapier.com) allows you to migrate your bits and bytes between the platforms we are all increasingly finding ourselves dependent on.

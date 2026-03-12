@@ -9,8 +9,6 @@ tags:
   - APIs
   - Specs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://swagger.io/)
-
 I'm about 1/3 of the way into [generating Swagger specifications for the APIs at the 700+ companies that I monitor.](http://theapistack.com/) I have the Swagger specs for almost 250 APIs so far, and have no idea how many I’ll have when I'm done (ha, will I ever be done), as the target is kind of ever moving. The only way to get to know an API better than having to create a Swagger spec for it, is to actually integrate with it.
 
 Thankfully I’m not integrating with ALL of the APIs I monitor, but I do want to get more intimate with their API surface area, right up to actually having to integrate. There are four ways that I obtain a machine readable API definition for an API:

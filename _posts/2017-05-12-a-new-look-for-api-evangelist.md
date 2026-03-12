@@ -8,8 +8,6 @@ tags:
   - API Evangelist
   - Evangelist
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_evangelist_new_look.png)](http://apievangelist.com)
-
 I was trying to fit some new content into my website, and I couldn't make it fit within the layout. Then I remembered I had also taken off a section of my work because it looked like crap on my iPad a couple weeks back. It is a sign I've outgrown the current layout of my website when I can't publish my new work, as well as be an adequate archive for my historical research. Thankfully, my website is a pretty modular [Jekyll](https://jekyllrb.com/) implementation, so once I found the right look, it was only a couple hours worth of work to give it a full overhaul.
 
 The new look and feel for API Evangelist remind me of the original look for the site back in the day, but with a more modern touch. It's responsive and has one of those little icon menus that follow you as your scroll. Something that bothered me at first, but has grown on me a little bit. While my old site was responsive, over the last couple years I managed to screw a few things up as I worked to make it fit all my crazy ideas. This new layout feels bigger, with much more sensible information architecture--something I'm hoping will accommodate what I'm looking to do with API Evangelist over the next couple of months.

@@ -9,8 +9,6 @@ tags:
   - Providers
   - Service Providers
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/left_hook_custom_integrations_and_worfklow_intelligence.png)](https://lefthookdigital.com/)
-
 I spend a lot of time talking about API providers, companies who have a public APIs. Occasionally, you will also hear me talk integration platform as a service (iPaaS) providers, companies like [Zapier](http://zapier.com) and [Datafire](https://datafire.io/) who focus on providing a platform that connects you with many different API integration possibilities. These companies are a valuable player in the API ecosystem because they acknowledge that we usually do not just need one API, we will almost always need to integrate with many APIs, and they provide tools for developers, and non-developers to deliver API solutions that can leverage multiple individual APIs in a variety of business workflows.
 
 I just got off a call with Sean Matthews of [Left Hook Digital](https://lefthookdigital.com/), an integration service provider who _"efficiently build, maintain, and grow their integration options through a diversified iPaaS presence."_ This is the other half of the API integration coin I have been looking for, actual people who will help you navigate the crazy world of API integration, as well as the growing number of API integration and aggregation platforms and tooling that have been emerging, and evolving. I've been looking for people to help my readers navigate this world of API integration gray space in between full automation and custom development.

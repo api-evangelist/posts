@@ -11,8 +11,6 @@ tags:
   - APIs
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-shipping-container.png)](http://containers.apievangelist.com/)
-
 If you were at [Defrag in Colorado last November](http://www.defragcon.com/), or in [Sydney, Australia for API Days last week](http://syd.apidays.io/), you’ve heard me talk about what containers are doing to APIs. There is a subtle, but important shift in how APIs are being deployed occurring right now, and as John Sheehan ([@johnsheehan](https://twitter.com/johnsheehan)), the CEO of [Runscope](https://www.runscope.com/) says, [containers are doing for APIs, what APIs have been doing for businesses](http://apievangelist.com/2014/04/07/containers-will-do-for-apis-what-apis-do-for-companies/).
 
 As I was processing news for [API.Report](http://api.report) this morning, I found more evidence of this, with the [release of logging API container from Logentries](http://api.report/2015/02/14/logentries-releases-logging-container-for-docker-15-stats-api/). APIs have made resources like “logging”, much more modular and portable, for use in multiple channels like mobile or via websites. A containerized logging API makes the concept of a logging API much more portable, by adding an entirely new dimension for deployment. You don’t just have a logging API, you now have a logging API that can be deployed anywhere in the cloud, on-premise, or on any physical object.

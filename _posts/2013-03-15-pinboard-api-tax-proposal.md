@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/pinboard/pinboard_in_blue.png)](https://pinboard.in)
-
 Maciej Ceglowskiis, the founder of popular social bookmarking platform [Pinboard](https://pinboard.in),made an [interesting proposal over on the Pinboard Google Group](https://groups.google.com/d/msg/pinboard-dev/PidYOmyBaxI/mLDKIzC6olgJ):
 
 _I've been thinking about imposing an API tax, the proceeds of which would go into improving API infrastructure and offsetting operating costs, structured along these lines:_

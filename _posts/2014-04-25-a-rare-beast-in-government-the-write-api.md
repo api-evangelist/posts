@@ -8,8 +8,6 @@ author:
 tags:
   - Government
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/we-the-people/we_the_people.jpg)](https://petitions.whitehouse.gov/how-why/introduction)
-
 The number of APIs in government has grown significantly in the last couple of years, increasing access to public data, potentially driving the private sector to build web and mobile apps around government resources data. Even with this growth in API deployment and resulting app development, this movement has been severely handicapped by one aspect—99% of these APis are read only, you cannot write data to government via APIs.
 
 APIs being a two way street is one of those subtle, but very important aspects of API operations that can define whether an API initiative will be success or not. Since government is so risk averse, most entities are afraid of what can happen when they launch APIs, and completely terrified around what will happen with an API that people can write data to.

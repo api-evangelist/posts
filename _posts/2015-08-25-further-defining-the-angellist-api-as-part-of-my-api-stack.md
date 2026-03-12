@@ -9,8 +9,6 @@ tags:
   - My
   - Stack
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/angellist-peace-sign.jpg)](http://angel.co/)
-
 I am slowly making my way through defining of [the APIs available in the API Stack](http://theapistack.com/), beginning with [the APIs that I depend on to operate API Evangelist](http://stack.apievangelist.com/companies.html). The best way to understand any API in my opinion, is to create a [Swagger definition](http://swagger.io) for it, as well as an [APIs.json file](http://apisjson.org), indexing the overall API operations. Since my mission is all about understanding APIs, this is something I try to do on a regular basis.
 
 Creating an APIs.json file allows me to index each APIs operations from registration and documentation, to pricing and terms of service. Then I work to break down every possible unit of value represented by an API's endpoints, reducing it down to the minimum viable element possible--something that Swagger allows me to do nicely.

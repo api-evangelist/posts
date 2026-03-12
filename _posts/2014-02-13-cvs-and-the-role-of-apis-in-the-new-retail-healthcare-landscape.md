@@ -11,8 +11,6 @@ tags:
   - APIs
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/cvs-pharmacy/cvs_logo_large.png)](http://info.cvscaremark.com/cvs-insights/cvs-quits)
-
 At the same time I am processing the move by [CVS to stop selling tobacco products in their over 7,600 retailsstores](http://info.cvscaremark.com/cvs-insights/cvs-quits), making a commitment to being more retail healthcare, rather than just a corner drugstore—I am also wrapping my head around potential strategy and opportunities for the [Cashtie API](https://www.cashtie.com/) which opens up the ability for mobile developers to accept cash payments at CVS retail locations.
 
 I think CVS’s commitment to their healthcare mission, by itself is a pretty significant move towards reinventing themselves, but adding to the news, the White House just announced that [CVS was onboard to work with standardizing patient prescription information as part of the Blue Button initiative](http://www.whitehouse.gov/blog/2014/02/07/leading-pharmacies-and-retailers-join-blue-button-initiative), which works to give citizens control over their healthcare data—further defining CVS as more than just a corner drugstore.

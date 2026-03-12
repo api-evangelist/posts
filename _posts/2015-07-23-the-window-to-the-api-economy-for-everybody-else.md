@@ -8,8 +8,6 @@ author:
 tags:
   - Economy
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/blockspring/blockspring-logo.png)](https://www.blockspring.com/)
-
 API Evangelist has always been about helping on-board the masses with concepts involving APIs, something that takes a lot of work, because more often than not, an API is a very abstract concept, far removed from the everyday lives of normal people. When services like [Zapier](http://zapier.com) launched, I became very optimistic about how APIs can be put to work by the average individual, and today my optimism went up another notch, with the redesign of [Blockspring](https://www.blockspring.com/).
 
 The Blockspring home page image says it all in my opinion--valuable API resources, neatly available in Google Sheets, and Excel on the desktop, and in the Cloud with Office 365:

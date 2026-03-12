@@ -9,8 +9,6 @@ tags:
   - Storage
   - Data
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/securedb-logo.png)](https://securedb.co)
-
 I've been working on expand upon [my API security research](http://security.apievangelist.com/), but it can be difficult to find API focused security solutions. Exactly what is security when it comes to APIs can vary. Are you looking to secure your APIs? Are you looking to secure your data or content using an API? This is why I started a research projects so that I can turn on my keyword monitoring, and begin scouring the landscape in real-time--the more I conduct research in an area, the better I get at it.
 
 The best part of my research is that sometimes when I write about things, companies just come to me. This happened the other week, with an encrypted database API provider called [SecureDB](https://securedb.co). What this brand new API driven platform provides is default security for your accounts, data, files, and settings--exactly what we need in this cyber-insecure world we have created for ourselves.

@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.jpg)](https://github.com/leahbannon/if-gov-then-that/ "If Gov Then That")
-
 I just found an interesting brainstorm going on via Github, about how to make government more efficient and interoperable using APIs, that was created by government consultant Leah Bannon ([@leahbannon](https://twitter.com/leahbannon)), called [If Gov Then That](https://github.com/leahbannon/if-gov-then-that/ "If Gov Then That").
 
 The idea? **Promote gov APIs by making them dead simple and suggesting clever recipes (like IFTTT and Zapier)**

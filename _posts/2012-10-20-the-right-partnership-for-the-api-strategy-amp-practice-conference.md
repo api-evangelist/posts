@@ -11,8 +11,6 @@ tags:
   - Partners
   - Partnership
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3scale-logo.jpg)](https://www.3scale.net/ "3Scale")
-
 The [API Strategy & Practice Conference](http://www.apistrategyconference.com/) is kicking off in 12 days in New York City. The event will be keynotes, sessions and panels from over [60 leading individuals across all sectors of the API industry](http://www.apistrategyconference.com/speakers.php "60 leading individuals across all sectors of the API industry").
 
 I’ve wanted to have an API industry event that was about ideas, practice and strategy, not just about companies, their products and clients for a while now. This is something that I could never achieve on my own. I just don’t have the money or all the connections to bring everyone together.

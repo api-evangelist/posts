@@ -10,8 +10,6 @@ tags:
   - Tooling
   - RAML
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/raml/raml-logo.jpg)](http://raml.org/)
-
 As part of my [research in the world of API design](http://apievangelist.com/2014/01/16/api-design-do-you-swagger-blueprint-or-raml/), I’m looking into the different approaches by API Blueprint, RAML and Swagger, to provide API definitions, services and tools that assist developers in better designing APIs. I have already look at the [evolving motivations behind API definitions](http://apievangelist.com/2014/01/22/the-evolving-motivations-behind-api-definitions/), and some insight into the [vision behind Swagger, API Blueprint and RAML](http://apievangelist.com/2014/01/31/the-vision-behind-swagger-api-blueprint-and-raml/), next up is taking a look at the tooling that is emerged around each approach.
 
 I began with a look at the [tooling around Swagger](http://apievangelist.com/2014/02/25/api-design-tooling-from-swagger/), then I laid out what is [offered around API Blueprint](http://apievangelist.com/2014/02/27/api-design-tooling-from-api-blueprint/), from Apiary.io—next up, [RAML](http://raml.org/) which is developed by [Mulesoft](http://www.mulesoft.com/), and reflects the evolution of the API design space, making it much more attractive to the enterprise.

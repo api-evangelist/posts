@@ -8,7 +8,7 @@ author:
 tags:
   - tag
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/instagram.PNG)](http://instagr.am/)The mobile photo sharing site [Instagram officially launched an API this evening](http://instagr.am/blog/40/instagram-api).
+The mobile photo sharing site [Instagram officially launched an API this evening](http://instagr.am/blog/40/instagram-api).
 
 This comes just under a month after the c[ompany asked developers to stop using a rogue API](http://blog.programmableweb.com/2011/01/12/instagram-shuts-down-third-party-developers-plans-official-api/) that was reverse engineered by an outside developer.
 

@@ -9,8 +9,6 @@ tags:
   - Providers
   - Service Providers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/reciprocity-trends.png)](http://apievangelist.com/trends/reciprocity.php)
-
 I spent time this week looking at 20, of what I’m calling [API reciprocity providers](/trends/reciprocity.php), who are providing a new generation of what is historically known as ETL in the enterprise, to connect, transfer, transform and push data and content between the cloud services we are increasingly growing dependent on.
 
 With more and more of our lives existing in the cloud and via mobile devices, the need to migrate data and content between services will only grow more urgent. While ETL has all the necessary tools to accomplish the job, the cloud democratized IT resources, and the same will occur to ETL, making these tools accessible by the masses.

@@ -10,8 +10,6 @@ tags:
   - AI
   - Open
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/open_api_initiative_members.png)](https://www.openapis.org/membership/members)
-
 It was an interesting journey getting the API specification formerly known as Swagger into the Linux foundation last year. After SmartBear donated the spec to the newly formed [Open API Initiative](http://openapis.org), I was considering joining the governing body behind the spec, but with all I had going on last year, I didn't feel it was the right time. Participating in governance groups hasn't really ever been my thing, and there are a handful of large organizations involved, and who am I really? I'm just a single person ranting about APIs. However, in 2017 I am changing my tune and will be joining the Open API Initiative (OAI)
 
 [It is an important time for API definitions](http://apievangelist.com/2017/01/19/focusing-on-common-api-definitions-schema-scopes-and-specifications/), and there is [a lot riding on the success of OpenAPI, as well as API definitions in general](http://apievangelist.com/2017/01/25/what-is-at-stake-with-api-definitions-at-the-moment/). I feel like we need as many voices at the table as we possibly can. We need government agencies, enterprise, small businesses, startups, and individual analysts like myself. I feel pretty strongly that API definitions should be openly licensed, accessible, and following the most commonly used patterns available to us across the API sector. We don't need to all be speaking a different language when it comes to deploying compute resources or working with images, and API definitions are how we get there.

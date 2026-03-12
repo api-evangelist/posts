@@ -10,8 +10,6 @@ tags:
   - Business of APIs
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/business-of-apis/Business-of-APIs-Front-Cover-Cropped.png)](http://www.amazon.com/Business-APIs-1-Kin-Lane/dp/1461113881/ref=sr_1_5?s=books&ie=UTF8&qid=1304210432&sr=1-5)
-
 In May 2011 I released a book called the [Business of APIs](http://www.amazon.com/Business-APIs-1-Kin-Lane/dp/1461113881/ref=sr_1_5?s=books&ie=UTF8&qid=1304210432&sr=1-5). The book was intended to be an introductory walkthrough for non-technical people, to the world of APIs. I wanted to educate business, organizational and governmental leaders about the space, and the important role of APIs in having a healthy digital strategy.
 
 Its coming up on two years later, and I'm finally getting around to updating the Business of APIs. After a nice long walk on the strand with [@audreywatters](https://twitter.com/audreywatters), we have the outline for the next version:

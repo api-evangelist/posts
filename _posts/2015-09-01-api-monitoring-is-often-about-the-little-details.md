@@ -9,8 +9,6 @@ tags:
   - Monitoring
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-fortress.png)](http://apifortress.com/landing/)
-
 As I make my way across my research projects, I'm learning more about how [companies like Metacert can deliver valuable security services to API providers](http://apievangelist.com/2015/09/01/breaking-down-the-layers-of-api-security-and-considering-link-integrity/). I'm also getting a better idea of the nuance that goes into monitoring APIs, from [API Fortress](http://apifortress.com/landing/). 
 
 [API Fortress has very interesting API monitoring story, derived from the Etsy API](http://apifortress.com/even-billion-dollar-brooklyn-companies-arent-perfect/). This isn't the API monitoring story you'd think, it isn't about the overall stability of the Etsy API, and whether its up or down, it is about the details of API payloads, and inconsistencies they found scanning the API.

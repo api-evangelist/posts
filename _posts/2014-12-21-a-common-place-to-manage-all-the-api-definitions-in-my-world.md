@@ -9,8 +9,6 @@ tags:
   - Definitions
   - Definition
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-icon.png)](https://github.com/kinlane/api-stack/tree/gh-pages/data)
-
 I’m profiling all the [700+ companies I monitor across the space](http://theapistack.com/), going through each one and defining their API program, evaluating the tech, business and politics of their operations. Part of this process is creating a Swagger definition for each API. I’m not deeply concerned with getting each API definition 100%, unless I'm directly integrating with the aPI. For this round I’m looking at defining just the surface area of the API, including each endpoint, headers, parameters, and body format, and leaving the underlying data model for another time.
 
 I’m [publishing all of my API definitions to the API Stack Github repository](https://github.com/kinlane/api-stack/tree/gh-pages/data). I’m using this as a staging area before I publish them to [APIs.io](http://apis.io). Last month [I create an APIs.son for 690 APIs](http://www.3scale.net/2014/11/apis-io-hit-front-page-of-hacker-news/), and I’m looking to generate as many Swagger definitions for these high value APIs as I can over the holidays. It would be much better if API providers generated, and maintained their own API definitions, but until that happens I’m happy doing a little extra work to get us to a critical mass.

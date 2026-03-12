@@ -11,8 +11,6 @@ tags:
   - Code
   - Docs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/wordnik/wordnik-logo.jpeg)](http://www.wordnik.com/)
-
 We all have our own approaches to API design and development, many of which will never see the light of day. In the API space we hear a lot about API management and API success stories, but not much about the process of designing, developing and initial deployment of APIs. I just had a little taste of how the [Wordnik](http://www.wordnik.com/) team approaches it, using [Swagger](http://swagger.wordnik.com/).
 
 Often when you hear about Swagger in the industry, you hear about the UI portion. You know the sexy [interactive documentation](http://apievangelist.com/buildingblocks/interactive_documentation.php "interactive documentation") that is fast becoming a standard with APIs, but it’s just the tip of the iceberg--there is a whole lot more power to Swagger, than just interactive docs.

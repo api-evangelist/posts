@@ -10,8 +10,6 @@ tags:
   - API Management
   - ddi
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/reciprocity-trends.png)](http://apievangelist.com/trends/reciprocity.php)
-
 I’m adding a new grouping to my list of [API management building blocks](http://management.apievangelist.com/building-blocks.html), called reciprocity. If you want to know what I mean by reciprocity check out my earlier post [From ETL to API Reciprocity, Looking at 20 Service Providers](http://apievangelist.com/2013/02/28/from-etl-to-api-reciprocity-looking-at-20-service-providers/).
 
 As I was working with Nimble the CRM system last night, and I was planning out some workflows associated with keeping contact data up to date, and noticed that Nimble provides access to [Zapier automation tools](https://zapier.com) directly from their interface, using an iframe.

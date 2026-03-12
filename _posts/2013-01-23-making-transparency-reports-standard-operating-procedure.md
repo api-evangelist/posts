@@ -9,8 +9,6 @@ date: 2013-01-23T19:35:20.000Z
 tags:
   - Transparency
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/google/US_transparency_report.png)](http://googleblog.blogspot.com/2013/01/transparency-report-what-it-takes-for.html)
-
 [Google released an update to the Transparency Report today](http://googleblog.blogspot.com/2013/01/transparency-report-what-it-takes-for.html), showing information regarding government requests for users' data on the Google Network.
 
 Google's transparency report proves details on Government requests including who they come from, where the requests originate, types of requests and other critical information about how our government monitor us citizens and ultimately the entire world online.

@@ -8,8 +8,6 @@ author:
 tags:
   - Tools
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/known/known-logo.png)](https://withknown.com/)
-
 I see a lot of software come and go. I adopt applications, tools, and online services for a variety of reasons, with some of these tools remaining a regular part my operations, with others coming and going with time. I'm currently abandoning Evernote, in favor of my own home brew note tool, while I'm also adopting a handful of new [HTTP Client tools like Paw](https://luckymarmot.com/paw). There are a number of reasons these tools go away, sometimes the reason I needed them shifts, other times they evolve to a point where they are no longer useful to me, and other times they go away after an acquisition, or running out of money, and not being able to keep the lights on. In the end, when i find tools I believe in, and deeply integrate them into my life, and want to better understand how I can help ensure they will be successful.
 
 One tool that I am using as part of my daily operations is [Known](https://withknown.com/). If you are unfamiliar, Known it is a simple, social publishing platform for your blog or website. I'm am personally invested in helping the Known founders find the customers they need to be successful, and as part of this effort I wanted to practice explaining Known to my readers, while I also expand my own understanding of the role Known can play in my own operations.

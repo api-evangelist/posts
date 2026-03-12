@@ -9,8 +9,6 @@ tags:
   - Sales
   - Salesforce
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/salesforce/developer-force-logo.png)](http://developerforce.com/developer-relations/2012/12/yearinreview.html)
-
 You can learn a lot from the [history of APIs](/history/), and following what the pioneers are doing.  Salesforce isn't the coolest API within the Hacker News community, but when it comes to building an API ecosystem--Salesforce knows what they are doing.
 
 I was reading through the [Salesforce top developers highlights of 2012](http://blogs.developerforce.com/developer-relations/2012/12/yearinreview.html).  Their highlights doesn't just showcase the success of the community, but what Salesforce feels is critical to keeping their ecosystem healthy. 

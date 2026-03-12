@@ -9,8 +9,6 @@ tags:
   - Journalism
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/guardian/guardian-open-platform.jpg)](http://www.theguardian.com/open-platform)
-
 Major newspapers having APIs is nothing new. We've heard stories out of the Guardian, New York Times and USA Today having APIs, but after several years where are these API initiatives headed? What is next? Is there innovation going on in the area journalism when it comes to APIs?
 
 This dive into the world of journalism will take some time, but I will start with what I consider to be the leader, [The Guardian Open Platform](http://www.theguardian.com/open-platform "The Guardian Open Platform"). The UK paper has all the essential [building blocks I would want in an API provider](http://management.apievangelist.com/building-blocks.html "building blocks I would want in an API provider"), starting with a clean overview and getting started pages to get developers and data journalists up to speed.

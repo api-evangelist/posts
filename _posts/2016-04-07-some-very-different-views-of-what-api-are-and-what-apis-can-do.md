@@ -7,8 +7,6 @@ tags:
   - Diff
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tom-woodward.jpeg)](https://twitter.com/twoodwar)
-
 I am regularly reminded of the wide spectrum of what API means to any single person. What is API, and what APIs enable, are all in the eye of the beholder, with only a handful of common aspects shared by any single group of people. This is one of the things that make it very difficult to answer the common newcomer question of where they should start with APIs. This is what makes it so difficult for APIs to ever rise to the expectations of leading architects, and API visionaries.
 
 For me, APIs are about enabling API providers to open up access to their resources, and empower API consumes to get at the resources they need to be successful in their every day worlds. Some folks out there enjoy regularly reminding me that APIs are not for everyone, and they should only be used by a handful of sanctioned tech practitioners, to facilitate the technical, business, and political / ideological motivations of these per-ordained--my dreams of enablement and empowerment are nice, but they are just not reality.

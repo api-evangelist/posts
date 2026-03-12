@@ -7,7 +7,7 @@ author:
 tags:
   - Twilio
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/Twilio.PNG)](http://www.twilio.com)The cloud communications platform [Twilio has a new API developer contest this week](http://blog.twilio.com/2011/02/anything-goes-developers-on-a-bus.html).
+The cloud communications platform [Twilio has a new API developer contest this week](http://blog.twilio.com/2011/02/anything-goes-developers-on-a-bus.html).
 
 As usual they are looking for someone to build a killer app that uses the Twilio voice and SMS API.
 

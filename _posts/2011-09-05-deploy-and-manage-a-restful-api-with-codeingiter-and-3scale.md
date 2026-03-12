@@ -11,7 +11,7 @@ tags:
   - REST
   - Code
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/3scale-logo.jpg)](http://www.3scale.net/)At Mimeo, my API developers were running into problems integrating with our cloud print API, I needed a fast way to virtualize and deploy an API built on top of my existing REST API.  A quick and dirty way I could research and develop new APIs, launch, measure and manage without getting IT involved.    
+At Mimeo, my API developers were running into problems integrating with our cloud print API, I needed a fast way to virtualize and deploy an API built on top of my existing REST API.  A quick and dirty way I could research and develop new APIs, launch, measure and manage without getting IT involved.
   
 So I [virtualized four document APIs](http://apievangelist.com/2011/09/05/virtualized-document-printing-apis/ "virtualized four document APIs") using the [CodeIgniter open-source PHP web framework](http://codeigniter.com/ "CodeIgniter"), [Amazon EC2](http://apievangelist.com/apis/amazon_ec2.php "Amazon EC2"), [3Scale self-service API management service](http://www.3scale.net "3Scale API Management Service") and [Mimeo Connect Cloud Print API](http://developer.mimeo.com "Mimeo Connect Cloud Print API").  
   

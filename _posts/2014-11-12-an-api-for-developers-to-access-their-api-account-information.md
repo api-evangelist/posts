@@ -9,8 +9,6 @@ tags:
   - Access
   - Developers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mailjet/logo-mailjet.png)](http://dev.mailjet.com/email-api/v3/metadata/)
-
 When I landed on the [version 3.0 landing page for the Mailjet API](http://dev.mailjet.com/email-api/v3/metadata/), the first thing I noticed was their API configuration API. Providing a set of API endpoints for managing my own API usage is definitely something I can get behind, and think it is something worth showcasing.
 
 As part of the API Configuration portion of their email API, Mailjet provides five separate endpoints for users to manage their API developer account.

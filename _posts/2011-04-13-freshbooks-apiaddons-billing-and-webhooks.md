@@ -8,7 +8,7 @@ tags:
   - Webhooks
   - Web
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/Freshbooks_610x564.png)](http://www.freshbooks.com/)I am slowly working my way through [hundreds of APIs](http://www.programmableweb.com/apis/directory "hundreds of APIs") and doing business reviews of their approach to delivering their APIs.
+I am slowly working my way through [hundreds of APIs](http://www.programmableweb.com/apis/directory "hundreds of APIs") and doing business reviews of their approach to delivering their APIs.
 
 At API Evangelist I'm focused on the business of APIs, with a minor focus on the technology behind those APIs. So when I publish a business review of an API, I will add it to my API database, then move on.
 

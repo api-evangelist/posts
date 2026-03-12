@@ -9,8 +9,6 @@ tags:
   - Examples
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hypermedia.png)](http://hypermedia.apievangelist.com/)
-
 I'm [increasing my coverage of hypermedia APIs in 2014](http://hypermedia.apievangelist.com/), as we move from discussion to concrete hypermedia implementations in the wild. In support of this, there was a quick conversation on Twitter today regarding some good examples of hypermedia APIs, that I wanted to share with you.
 
 Chris Metfcalf ([@chrismetcalf](https://twitter.com/chrismetcalf/)) of [Socrata](http://www.socrata.com/) asked:

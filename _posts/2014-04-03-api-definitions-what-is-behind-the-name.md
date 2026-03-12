@@ -9,8 +9,6 @@ tags:
   - Definitions
   - Definition
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-logo.png)](http://www.apistrategyconference.com/)
-
 Last week at [#APIStrat Amsterdam](http://www.apistrategyconference.com/2014Amsterdam/), I moderated, and presented in a session that was called API service descriptions. I gave the talk for the first 15 minutes, then Sumit Sharma ([@sumitcan](https://twitter.com/sumitcan)), Ole Lensmar ([@olensmar](https://twitter.com/olensmar)), and Ruben Verborgh ([@RubenVerborgh](https://twitter.com/RubenVerborgh)) followed me-- the [full video is on Youtube](https://www.youtube.com/watch?v=wqQxM6PAuh0) if you are interested.
 
 Over the last couple months I've been [doing a deeper dive](http://apievangelist.com/2014/01/31/the-vision-behind-swagger-api-blueprint-and-raml/) into the area of [API design](http://design.apievangelist.com), with a specific look at API definition formats from [API Blueprint](http://apiblueprint.org/), [RAML](/admin/blog/RAML) and [Swagger](https://github.com/wordnik/swagger-core), so the session was intended to help me continue the conversation, in person, on the stage at #APIStrat Amsterdam. I'm happy I did, because Ole came to the table with some valuable data on API definitions, that save me some valuable research hours.

@@ -11,8 +11,6 @@ tags:
   - API Management
   - Platform
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/universities/UW-Web-Service-Registry.png)](http://webservices.washington.edu/ "University of Washington")
-
 I recently stumbled across the [University of Washington’s Web Services area](http://www.apievangelist.com/2012/05/29/university-information-access-with-apis/ "University of Washingtons Web Services Area"), where they are working to create a single place to learn about, discover and connect with various APIs that are available at the University.
 
 As the home page says:

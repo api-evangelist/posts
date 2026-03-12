@@ -9,8 +9,6 @@ tags:
   - Terms of Service
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/heello/heello-logo.png)](http://heello.com/)
-
 [I read your Terms of Service is one of the biggest lies on the Internet](http://tosdr.org/ "I read your Terms of Service is one of the biggest lies on the Internet"). We agree to terms of service for each and every service we use online, without ever reading and understanding exactly what we are agreeing to.
 
 This is one of the most damaging aspects of online life, as through this process we are giving away our rights, ownership of our data and allowing for our privacy to be compromised each and every day. While not all services are abusing this, there are many online services that use this to their advantage, in an effort to maximize the amount of value they extract from their platform and end users.

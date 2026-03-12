@@ -7,7 +7,7 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://www.citygridmedia.com/developer/wp-content/uploads/2012/04/citygrid-los-angeles-300x91.png "citygrid-los-angeles")](http://citygridhackathonla.eventbrite.com/)The future of the World Wide Web is local. As we spend more of our lives on our mobile phones, local data and apps become critical in helping us find the restaurant for a lunch meeting, the bar where our best friends are Friday night, the local retail store to make our next purchase, and to interact with our city government to make the cities we live in a better place.
+The future of the World Wide Web is local. As we spend more of our lives on our mobile phones, local data and apps become critical in helping us find the restaurant for a lunch meeting, the bar where our best friends are Friday night, the local retail store to make our next purchase, and to interact with our city government to make the cities we live in a better place.
 
 You can help shape the future of local, with the [CityGrid](http://www.citygrid.com/ "CityGrid") LA Hackathon, a creative, local innovation event bringing together developers, local marketers, local advertisers and even local merchants to help build applications, data visualizations and other creative technology that helps define the future of local.
 

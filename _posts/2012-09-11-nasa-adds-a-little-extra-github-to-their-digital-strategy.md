@@ -12,8 +12,6 @@ tags:
   - Digital
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/nasa/nasa_logo.png)](http://www.nasa.gov/agency/digitalstrategy/index.html "NASA HTML Digital Strategy")
-
 I’ve been tracking the [adoption of the White House CIO's digital strategy](/federal_government.php "progress of each federal agency’s adoption of the White House CIO digital strategy"), trying understand each agency's mobile and API plans.
 
 Today I noticed that NASA, in addition to publishing their digital strategy in [HTML](http://www.nasa.gov/agency/digitalstrategy/index.html "NASA HTML Digital Strategy"), [XML](http://www.nasa.gov/digitalstrategy.xml "XML") and [JSON](http://www.nasa.gov/digitalstrategy.json "NASA JSON Digital Strategy"), added a "recent commits" Github widget on their digital strategy homepage.

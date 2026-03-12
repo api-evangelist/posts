@@ -11,8 +11,6 @@ tags:
   - Security
   - Mobile
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/logo_moonpig.png)](http://www.moonpig.com/uk/)
-
 I saw a story of yet another security breach related to how mobile phones are using APIs today. [This one is from Paul Price, on his blog](http://ifc0nfig.com/moonpig-vulnerability/) [ifc0nfig.com](http://ifc0nfig.com/), about the [greeting card site MoonPig](http://www.moonpig.com/uk/).
 
 Paul highlights the not just lack of, but actual absence of security when making API calls to MoonPig, allowing you to impersonate any user, place orders, add/retrieve card information, and any other API driven feature of the mobile application.

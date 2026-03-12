@@ -6,8 +6,6 @@ image: >-
 tags:
   - Product
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/gumroad/gumroad-logo.jpeg)](http://gumroad.com)
-
 I use [Gumroad](https://gumroad.com) for publishing of my white papers, and I also keep an eye on what they are up to as part of my API monitoring--[they have a pretty useful publishing API](https://gumroad.com/api). During [my weekly API.Report this last wee](http://api.report/2015/06/15/weekly-apireport-for-june-15th-2015/)k I came across their [Gumroad Small Product Lab](https://gumroad.com/smallproductlab), a cool idea that I'd like to see happen in more API ecosystems, or maybe even across them. 
 
 According to Gumroad the the Small Product Lab is a _"mini course, community, launchpad, and contest to remove the unknowns and barriers to getting your work out in the world"_\--Ten days, ten actionable lessons:

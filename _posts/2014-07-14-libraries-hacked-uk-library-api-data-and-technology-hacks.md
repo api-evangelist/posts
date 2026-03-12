@@ -9,8 +9,6 @@ tags:
   - Data
   - Technology
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/libraries-hack/libraries-hacked.png)](http://www.librarieshacked.org/)
-
 I stumbled across a pretty cool site, dedicated to educating, and providing librarians with the tools they need to hack--of course with an emphasis on APIs. [Libraries Hacked](http://www.librarieshacked.org/) mission is "analyzing and promoting open source technology hacks and projects in libraries", and providing a wealth of resources for institutions along the way:
 
 [![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/libraries-hack/uk-library-apis.png)](http://www.librarieshacked.org/apis)

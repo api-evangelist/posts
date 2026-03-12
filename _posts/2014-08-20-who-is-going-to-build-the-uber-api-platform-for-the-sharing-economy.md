@@ -10,8 +10,6 @@ tags:
   - Platform
   - Sharing
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/uber-logo.jpg)](https://developer.uber.com/)
-
 The sharing economy is booming, and with the release of the [Uber API](https://developer.uber.com/), the attention on this space will only increase. Personally I’m only interested in the surface area of the API that Uber has released, and what it tells about the opportunity for API designers in the sharing economy.
 
 I think the surface area of the Uber API is pretty minimal, but very significant when you look at it as a glimpse of what is to come, as the sharing economy gets a direct pipeline to the API economy, and the resulting app economy. Oh yeah, I went there—I used all the economy buzzwords in once sentence. Seriously, I think the five endpoints that Uber launched with, are very telling:

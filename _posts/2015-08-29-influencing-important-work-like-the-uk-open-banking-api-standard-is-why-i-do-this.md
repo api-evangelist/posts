@@ -12,8 +12,6 @@ tags:
   - Influencing
   - Open
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/data-sharing-and-open-data-for-banks.png)](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/382273/141202_API_Report_FINAL.PDF)
-
 I enjoy what I do, but when I embarked on my API Evangelist journey in 2010, I set myself on a mission to educate people about the business of APIs, and highlight that it isn't just the technology that makes APIs a thing. I have worked hard to distill down what it takes to execute an effective API management strategy into usable advice that anyone can run with when crafting an API strategy.
 
 As I conduct my monitoring of the API space, It makes me feel accomplished, when I find my work cited, influencing important API related projects. This just occurred to me as I was taking a fresh look at the [Data Sharing and Open Data for Banks](https://www.gov.uk/government/publications/data-sharing-and-open-data-for-banks), published by the HM Treasury and Cabinet Office in the United Kingdom. As I was reviewing the document I happened to search for apievangelist (I know, I'm vain)--I was pleased to find a single citation to my work.

@@ -7,8 +7,6 @@ author:
 tags:
   - Deployment
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-deployment-2.jpg)](http://deployment.apievangelist.com/)
-
 As I continue my research the world of [API deployment](http://deployment.apievangelist.com), I'm trying to distill the services, and tooling I come across, down into what I consider to be a common set of building blocks. My goal with identifying API deployment building blocks is to provide a simple list of what the moving parts are, that enable API providers to successfully deploy their services.
 
 Some of these building blocks overlap with other core areas of my research like [design](http://design.apievangelist.com/), and [management](http://management.apievangelist.com/), but I hope this list captures the basic building blocks of what anyone needs to know, to be able to follow the world of API deployment. While this post is meant for a wider audience, beyond just developers, I think it provides a good reminder for developers as well, and can help things come into focus. (I know it does for me!)

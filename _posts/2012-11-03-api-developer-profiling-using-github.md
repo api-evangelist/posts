@@ -10,8 +10,6 @@ tags:
   - Profiling
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/github/github-logo.png)](https://github.com/ "Github")
-
 One very powerful way to use [Github](https://github.com/ "Github") within your API strategy is for developer profiling. This approach requires the deployment of another Github solution, API [Developer login using Github](/2012/10/29/api-developer-login-using-github/ "Developer login using Github").
 
 After you implement authentication for you API using Github, the [Github API](https://www.singly.com/docs/github) provides a wealth of opportunity for you to learn more about developers.

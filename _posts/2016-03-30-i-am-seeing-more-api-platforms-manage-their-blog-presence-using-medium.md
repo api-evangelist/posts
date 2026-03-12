@@ -10,8 +10,6 @@ tags:
   - Presence
   - API Platforms
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/best-buy-medium.png)](https://medium.com/best-buy-developers)
-
 One thing that struck me as I wrote [my post about Best Buy stopping issuing API keys to free email accounts](http://apievangelist.com/2016/03/30/best-buy-will-not-issue-api-keys-to-free-email-accounts-and-wants-to-get-to-know-your-company/), was the fact that [Best Buy operates their developer blog on Medium](https://medium.com/best-buy-developers)\--something I am seeing more of. As I discover new API-centric companies via my blog, Twitter, Product Hunt, AngelList, and the many other ways I tune into the space, I'm seeing more companies operating the blog portion of their presence in this way. 
 
 One of voices in my head points out that this just doesn't seem like a good idea. It reminds me of hosting our blogs on Posterous. Medium doesn't let you map your domain, or sub-domain to your blog (invite only), but I'm sure is something they'll do soon. They don't have RSS, and they don't have a read API either? _\*warning bells\*_  While I get the Medium thing, it seems like one of those neatly tended gardens, where as many roads out are gated off with friendly hand-painted signs.

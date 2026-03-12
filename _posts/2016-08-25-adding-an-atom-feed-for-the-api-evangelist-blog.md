@@ -9,8 +9,6 @@ tags:
   - Evangelist
   - ddi
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-atom-feed.png)](http://apievangelist.com/atom.xml)
-
 The API Evangelist platform is far from perfect, there are always portions of it that just aren't finished yet (always work in progress). I am always thankful that people put up with my API Evangelist workbench, always changing and evolving. Even with this unfinished status, there are some unfinished or broken elements that are just unacceptable--one of these is the lack of an Atom feed for my blog.
 
 Thankfully I have other folks in the space who are kind enough to remind me of what's broken when it comes to specifications, and ultimately what is broken on my website.

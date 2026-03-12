@@ -8,8 +8,6 @@ tags:
   - API Evangelist
   - Evangelist
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-vice.png)](http://alpha.apievangelist.com)
-
 The [API Evangelist network](http://apievangelist.com) is my open workbench, and I understand for many, it can be confusing to see some of my half-baked ideas alongside some of my more hardened API 101, business of APIs, and politics of APIs work. I try to keep the API Evangelist blog containing information for the API newbie, as well as my more advanced API leader crew--something that is tough to do.
 
 I have a lot of ideas coming off the assembly line around my own infrastructure, Docker, microservices, and other more forward leaning areas. Normally I dump a lot of this mundane exhaust from my world over on [Kin Lane](http://kinlane.com), but that site gets picked up by DZone, due to historical connections, and that audience is pretty trollish, second only to Hacker News. I'm not looking to get into petty fights over choice I made around my own infrastructure.

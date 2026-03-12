@@ -9,8 +9,6 @@ tags:
   - APIs
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png)](http://theapistack.com)
-
 I am always working as hard as I can to develop as complete as possible OpenAPI Specs for the APIs that I monitor. I call this [my API Stack research](http://theapistack.com/). When possible, in addition to mapping out API operations for an API using [APIs.json](http://apisjson.org), I also work to create a machine readable OpenAPI Spec for each API.
 
 In most cases I only have the time to profile the surface area of an API -- the host, base url, all properties, and required parameters. I don't always have time to reach what I'd consider to be a complete API definition. This is something that takes authenticating, achieving a successful request and response for each endpoint present, then generating JSON schema for each response -- this takes a significant amount of effort to do properly.

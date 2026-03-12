@@ -9,8 +9,6 @@ tags:
   - Design
   - Providers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/whitepapers/api-evangelist-api-providers-guide-api-design-white-paper.png)](http://design.apievangelist.com/)
-
 **[Download as PDF](http://bit.ly/151yBNn)**
 
 In the early days, APIs were just about deployment and consumption--you were doing one or the other.  Then from 2006 to 2012 API management was introduced from providers like [Mashery](http://www.apievangelist.com/2013/06/10/history-of-apis-mashery/ "Mashery"), then [3Scale](http://3Scale.net "3Scale") and most recently [Apiphany](http://apiphany.com "Apiphany"). In 2013 the API universe is expanding at a ever increasing pace, and the concept of API design is expanding, with new approaches, tools and even companies stepping up to provide services.

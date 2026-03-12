@@ -9,8 +9,6 @@ tags:
   - Zapier
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/zapier/zapier-logo.jpeg)](https://zapier.com/)
-
 API [interoperability and reciprocity provider Zapier](https://zapier.com) is looking to get everyone up to speed on the world of APIs, by providing an [introduction to APIs](https://zapier.com/learn/apis/) that is meant for both developers who are new to APIs, and easy enough for non-developers to follow.
 
 To help get people up to speed on APIs, Zapier’s introduction has eight chapters covering the big picture:

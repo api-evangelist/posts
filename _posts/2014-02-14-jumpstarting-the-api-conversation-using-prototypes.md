@@ -9,8 +9,6 @@ tags:
   - Prototypes
   - Prototype
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/ed/fafsa-form.jpg)](https://ed-data.github.io/fafsa-api)
-
 For those of us who live and breathe APIs, it is easy to image what is possible when discussing an idea for an API, or what an API could to to transform an existing process or application—however for everyone else will often need something more to help them understand what is possible. Often times it is these folks who are the decision makers behind whether an API will live or die, so it is critical to help them get up to speed.
 
 In my experience there is no better way to jumpstart the conversation about what is possible around an API, than to just build a prototype, flushing out all aspect around an API resource. This is just what I recently did around the [free financial student aid form](https://fafsa.ed.gov/), from the Department of Education.

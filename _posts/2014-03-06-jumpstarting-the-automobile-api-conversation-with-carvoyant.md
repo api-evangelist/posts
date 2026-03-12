@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/carvoyant/carvoyant-logo.png)](http://www.carvoyant.com/ "Carvoyant")
-
 I had the pleasure of doing [Carvoyant Connected Car Cast today with Bret Tobey and Matt Galvin, hosted by the infamous Mike Maney (@the\_spinmd) today](http://www.youtube.com/watch?v=cKWgzOjgAjM). The session was nothing formal, just a conversation about cars and APIs.
 
 The conversation triggered several potential stories for me, but after the talk I couldn’t stop thinking about how they talked about the [Carvoyant API](http://www.carvoyant.com/ "Carvoyant") being a research & development (R&D) lab, and conversation starter about whats next for the automobile industry.

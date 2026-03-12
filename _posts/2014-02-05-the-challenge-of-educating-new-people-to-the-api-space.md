@@ -8,8 +8,6 @@ author:
 tags:
   - People
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-alchemy/api-alchemy.png)](http://apialchemy.3scale.net/)
-
 One of my biggest challenges at API Evangelist is keeping content accessible for people who have just come into the API space. The most successful aspect of my site is the blog, and while I try to keep all my writing targeted outside the developer community, it can be a lot of work to jump in and get up to speed on posts that are chronological.
 
 It is really important to me, that people who are just learning about the space, or weekend API warriors can find the best resources across the space, not just on my blog—this is why I’m super stoked about the new site from 3Scale called [API Alchemy](http://apialchemy.3scale.net/ "API Alchemy").

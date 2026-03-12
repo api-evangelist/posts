@@ -9,8 +9,6 @@ tags:
   - Strategy
   - Journey
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/sam-api-gov.gif)](https://gsa.github.io/sam_api/sam/)
-
 Running the perfect API operation is pretty much a delusional dream. Even leaders  like Twilio and AWS have platform, and ecosystem produced problems on a regular basis. In my opinion, API are all about the journey, and we may never get our strategy 100% perfect, we can communicate, and evolve along the way—this is what I consider the API journey.
 
 To help demonstrate this in action, here a p[ost from the GSA, about the SAM API, on the US Government API Forum](https://groups.google.com/forum/#!topic/us-government-apis/yBlLdvG2lmk):

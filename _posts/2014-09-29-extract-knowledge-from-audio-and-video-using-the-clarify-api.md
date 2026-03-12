@@ -9,8 +9,6 @@ tags:
   - Video
   - Knowledge
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/clarify/clarify-logo.png)](http://bit.ly/1qOp06R)
-
 I’ve been tracking on a growing number of video, and voice enabled APIs lately, and one that is continually popping up to the top of my API monitoring list is [Clarify](http://bit.ly/1qOp06R).
 
 The [description Clarify provides on their docs page](https://developer.clarify.io/docs/) is pretty concise:

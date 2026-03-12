@@ -9,8 +9,6 @@ author:
 tags:
   - Process
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/seabourne-inc/delray-logo.png)](http://delray.io/)
-
 I spend a lot of time finding valuable data sets and manually converting, processing and outputting into more usable formats, so that they can be used in APIs that drive mobile and web applications.
 
 I am always on the lookout for new tools that will help me be more efficient in to my work. I'm currently test driving a new platform called [Delray](http://delray.io/) that focuses on taking an older concept of extract, transform and load (ETL) and bringing it into the API age by allowing me to define common data resources as inputs, process them one time or on schedule and output data in a cleaner, more usable format.

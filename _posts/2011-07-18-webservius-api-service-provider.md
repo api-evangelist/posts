@@ -7,7 +7,7 @@ author:
 tags:
   - Web
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/webservius/webservius-logo.png)](http://www.webservius.com/ "WebServius")[WebServius](http://www.webservius.com/ "WebServius") provides a self-service tool for deploying, managing and monetizing datasets using an API.
+[WebServius](http://www.webservius.com/ "WebServius") provides a self-service tool for deploying, managing and monetizing datasets using an API.
 
 WebServius provides users with the ability to integrate and store data, and enable access to the data via a REST API with XML and JSON responses.
 

@@ -10,8 +10,6 @@ tags:
   - My
   - Gateway
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/wavemaker/wavemaker-logo.png)](http://www.wavemaker.com/)
-
 I open up my Thursdays to briefings, calls, demos and other phone, skype, and hangout related activities. This morning I received a walk-through of the [Wavemaker Online platform](https://www.wavemakeronline.com), and got a look at the intersection of API design and API gateway in this new cloud-based, single page application design studio. 
 
 [I bitched a little the other day about the Amazon API Gateway released, talking about how I was underwhelmed](http://apievangelist.com/2015/07/10/aws-is-selling-the-api-solution-the-enterprise-will-buy-not-necessarily-the-api-solution-they-need/), and I also [blew some hot air about deploying APIs using a gateway solution vs. what I call farm to table API development](http://apievangelist.com/2015/07/22/thoughts-on-api-gateway-deployment-over-artisan-farm-to-table-api-design-and-deployment/), but ultimately I'm just pushing myself to think harder about how we not just deploy our APIs, but keep in alignment with our design, and management processes. It was interesting that more than one call this Thursday are in alignment with this journey I find myself on--good timing Wavemaker. 

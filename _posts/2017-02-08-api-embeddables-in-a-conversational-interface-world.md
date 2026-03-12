@@ -10,8 +10,6 @@ tags:
   - Conversational
   - Conversational Interface
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/push_by_zapier_icon_button.png)](https://zapier.com/blog/push-by-zapier-google-chrome-extension/)
-
 I would say that [embeddable tooling](http://embeddable.apievangelist.com) is one of saddest areas of the API space for me in recent years. When it comes to buttons, badges, widgets, and other embeddable goodies that put APIs work, the innovation has been extremely underwhelming. Login, like, share, and a handful of other embeddable tooling have taken hold, but there really isn't any sort of sophisticated approach to putting APIs to work using web, mobile, browser embeddables. 
 
 [The only innovation I can think of recently is from Zapier with their Push by Zapier solution](http://apievangelist.com/2016/10/11/ipaas-in-your-browser-with-push-by-zapier/) -- allowing you to orchestrate with the zaps you've creative, putting APIs to work using the variety of recipes they've cooked up. I'm thinking that I will have to step up my storytelling around what is possible with Push by Zapier, helping folks understand the possibilities. Push by Zapier is a Google Chrome extension, making it more browser than embeddable, but the approach transcends embeddable, browser, and even into the conversation (bot, voice, etc.) for me.

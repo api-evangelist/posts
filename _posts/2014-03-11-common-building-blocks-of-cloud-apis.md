@@ -8,8 +8,6 @@ tags:
   - Cloud
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/AWS_LOGO_CMYK.jpg)](http://aws.amazon.com/)
-
 I’ve been profiling the API management space for almost four years now, and one of the things I keep track of is what some of the [common building blocks of API management](http://management.apievangelist.com/building-blocks.html) are. Recently I’ve pushed into other areas like [API design](http://design.apievangelist.com/building-blocks.html), [integration](http://integration.apievangelist.com/building-blocks.html) and into [payment APIs](http://payments.apievangelist.com/building-blocks.html), trying to understand what the common elements providers are using to meet developer needs.
 
 Usually I have to look through the sites of leading companies in the space, like the [38 payment API providers](http://apievangelist.com/2014/02/26/payment-apis-that-i-am-watching/) I’m tracking on to find all the building blocks that make up the space, but when it came to cloud computing it was different. While there are several providers in the space, there is but a single undisputed leader—[Amazon Cloud Services](http://aws.amazon.com/). I was browsing through AWS yesterday and I noticed their new products & solutions menu, which I think has a pretty telling breakdown of the building blocks of cloud APIs.

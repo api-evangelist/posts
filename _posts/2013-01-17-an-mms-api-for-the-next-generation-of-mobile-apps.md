@@ -9,8 +9,6 @@ tags:
   - Mobile
   - Generation
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mogreet/mogreet-logo.jpg)](https://developer.mogreet.com/)
-
 I am a big fan of APIs that do one thing and do it well, like [Twilio](http://www.twilio.com/). I had lunch with the team from a similar API yesterday, called [Mogreet](https://developer.mogreet.com/ "Mogreet").
 
 [The Mogreet API](https://developer.mogreet.com/ "Mogree API") lets you send and receive text or multimedia messages and use the platform to transcode, host and send video, audio and images for your web or mobile application.

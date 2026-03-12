@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/klout/Klout-API-Overview.jpg)](http://developer.klout.com/ "Klout API")
-
 [Klout](http://klout.com/ "Klout") just updated their API area. The [Klout API](http://developer.klout.com/ "Klout API") was originally released in 2009, but the new API area has several improvements including faster response times for the API, better documentation and improved terms of service.
 
 Using the Klout API developers can pull someones Klout Score, which is the measurement of their overall online influence using social networks like Twitter, LinkedIn and Google+. It provides a way of essentially high-grading users on your network, and rewarding or engaging users differently based upon their overall network influence.

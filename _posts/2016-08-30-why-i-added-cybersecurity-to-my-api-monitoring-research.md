@@ -9,8 +9,6 @@ tags:
   - Cybersecurity
   - Research
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cybersecurity.png)](http://cybersecurity.apievangelist.com/)
-
 I recently added a [new area of research to API Evangelist focused on cybersecurity](http://cybersecurity.apievangelist.com/). I added this area of research not because APIs are being used to hack systems, which does happen occasionally. I did this because I wanted to better tune into this area because APIs are being applied by all sides (are there sides?) to communicate, evaluate cybersecurity events, and spread their message--which is a significant part of what is cybersecurity.
 
 When APIs aren't properly secured, and a breach occurs, I consider this a security topic and file it under [my API security research](http://security.apievangelist.com/). If something occurs in the wider global security theater, I file it under my cybersecurity research. This research doesn't always directly touch on APIs, but in [many cases like the recent DNC hacks APIs are being used to analyze, study, share stories, and communicate around these often ongoing cybesecurity events](http://motherboard.vice.com/read/why-twitter-was-the-platform-of-choice-for-ripping-apart-the-nsa-dump).

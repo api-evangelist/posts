@@ -13,8 +13,6 @@ tags:
   - Commerce
   - Portal
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/digital-strategy/logos/commerce.png)](http://www.commerce.gov/)
-
 Today, the U.S. Secretary of Commerce Penny Pritzker ([@PennyPritzker](https://twitter.com/PennyPritzker)), [announced that the Department of Commerce will hire its first-ever Chief Data Officer](http://www.commerce.gov/blog/2014/07/15/secretary-pritzker-discusses-power-government-data-and-announces-department-commerce). I wanted to make sure that when this new, and extremely important individual assumes their role, they have my latest thoughts on how to make the Department of Commerce developer portal the best it possibly can be, because this port will be the driving force behind the rapidly expanding API driven economy.
 
 Secretary Pritzker does a pretty good job of summing up the scope of resources that are available at Commerce:

@@ -8,8 +8,6 @@ author:
 tags:
   - Generation
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/singly/singly-logo_300.png)](https://singly.com/)
-
 I’m always on the hunt for meaningful API analogies, to stock my evangelism toolbox. Ways that I can relate the potential of APIs, in a way that anyone can understand, even non-developers.
 
 In my opinion, the success of the web API movement lies in the ability to extend, potentially complex resources in a very simplistic and universal way. So, as an evangelism I have to abstract away the complexities and make sure I connect with my audience.

@@ -11,8 +11,6 @@ tags:
   - Visualization
   - Swagger
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swaggerLogo360.png)](http://swagger.io)
-
 Some of the side effects of being so open and transparent about my ideas, like [the one I had around API visualizations](http://apievangelist.com/2014/10/24/someone-please-build-my-open-interactive-portable-and-visual-api-documentation-toolkit/), is that [people who are doing similar things, like Ardoq](http://apievangelist.com/2015/02/06/my-wish-has-been-granted-swagger-driven-api-visualizations-from-ardoq/), eventually find you. Even better, is when someone closely follows your thoughts, and takes your ideas, and sets into motion, your original idea, in a way that will allow it to become bigger than the original idea.
 
 Last week Chris Spiliotopoulos ([@chefarchitect](https://twitter.com/chefarchitect)) sent me an email, with a [simple Chrome extension](https://github.com/chefArchitect/swagger.ed) attached, asking what I thought. After installing the add-on (just drag onto your Chrome extension page), I visited [my notebook of Swagger defined APIs over at API Stack](https://github.com/kinlane/api-stack/tree/gh-pages/data), and when Twilio’s Swagger definition loaded in the browser, I saw a little Swagger icon show up in my browsers address bar—you know kind of like when there is an RSS feed available.

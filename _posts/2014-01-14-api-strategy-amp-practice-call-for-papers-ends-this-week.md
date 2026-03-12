@@ -9,8 +9,6 @@ author:
 tags:
   - Strategy
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-conference-logo.png)](http://www.apistrategyconference.com/)
-
 The [call for papers is ending this week for API & Strategy & Practice conference](http://www.apistrategyconference.com/2014Amsterdam/contact-call-for-papers.php), March 26th,27th and 28th, in Amsterdam. So far we have over 25 talks submitted, with numerous slots already taken by sessions, panels and keynotes we already have scheduled.
 
 If you want to get your talk considered you need to submit by this Friday. By this weekend we will be closing the call for papers, reviewing and making decisions on the talks we feel should be part of the #APIStrat lineup.

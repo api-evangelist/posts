@@ -10,8 +10,6 @@ tags:
   - Government
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/open-fda-logo.png)](https://open.fda.gov/index.html)
-
 I am really impressed with the quality of API deployments coming out of the federal government recently. I wrote about the [FBOpen API from 18F](http://apievangelist.com/2014/04/08/18f-shows-what-is-possible-in-government-with-fbopen-api/) a couple months ago, and the latest is the [OpenFDA API from the Food & Drug Administration](https://open.fda.gov/index.html). I’ve been watching the rollout of the API from behind the scenes for a while now, but with all my travel and speaking I haven't had time to write about or participate, but now that they've officially launch publicly, I wanted to help showcase what they've been up to at the FDA.
 
 **Meaningful First Impression**  

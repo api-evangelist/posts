@@ -10,8 +10,6 @@ tags:
   - API Evangelist
   - Evangelist
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/ironio/ironio-logo.png)](http://www.iron.io/ "Iron.io")
-
 I’ve had some amazing feedback on my post about [the demand for API and developer evangelists](/2012/06/11/the-demand-for-api-and-developer-evangelists/ "the demand for API and developer evangelists"). One great perspective was from the team over at [Iron.io](http://www.iron.io/ "Iron.io"), who do cloud messaging, event handling, workers, scheduling and provide a key/value data caching.
 
 Ironi.io’s has a unique company philosophy that addresses the need hire an API or developer evangelist. Their approach is that in an API-driven company everybody is an API and developer evangelist. Iron.io has their entire team monitoring their public chat, which has lead to everyone in the company understanding customer pain points as well as hearing the praise and positive feedback from the community.

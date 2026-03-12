@@ -8,8 +8,6 @@ author:
 tags:
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/restful-labs/restful-labs-logo.png)](http://www.restful-labs.com/)
-
 Curently I'm immersed in discovering, vetting and tracking on signals that show me which companies are trending in the API space. I'm looking for signals that will tell me which companies are making movements on a week to week basis, and when the blogosphere and developer communities are buzzing about these companies and technologies.
 
 Three very important signals I use are blogs, twitter and Github. These tools provide me with great signals I can use to tune into what a company is doing, when they push code, write a story or tweet about it. They also provide me with signals of when developers are engaging with API owners, because they follow on Twitter and download, fork, favorite and follow Github repositories.

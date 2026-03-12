@@ -10,8 +10,6 @@ tags:
   - Government
   - Technical
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Building-a-21st-century-platform-to-better-serve-the-american-people-1.png)](http://federal-government.apievangelist.com/)
-
 Data.gov has continued to evolve, adding data sets, agencies and features. With recent, high profile stumbles like with Healthcare.gov, it can be easy to fall prey to historical stereotypes that government can't deliver tech very well. While this may apply in some cases, I think we can confidently get behind the movement that is occurring at Data.gov, with 176 agencies working to add 54,723 data sets in the last 12 months.
 
 I feel pretty strongly that before we look towards the future of what the roadmap looks like for Data.gov, we need to [spend a great deal of time refining and strengthening what we currently have available at Data.gov](http://apievangelist.com/2014/01/06/what-is-next-for-the-us-government-api-strategy/), and across the numerous government agency developer areas. Even with these feelings, I can't help but think about what is needed for the next couple years of Data.gov, in a more technical sense.

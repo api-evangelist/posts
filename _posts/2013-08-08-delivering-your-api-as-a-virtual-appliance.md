@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/repustate/repustate-logo.png)](https://www.repustate.com/)
-
 Sentiment analysis and social media analytics API provider [Repustate](https://www.repustate.com/) is providing a [virtualized, portable, on-premise version of its API](http://blog.repustate.com/provisioning-virtual-appliances-with-vagrant/2013/08/03/)\--adding a new twist to the concept of API deployment.
 
 Using this new approach, Repustate is targeting the 5% of their user base who do not wish to transmit their data across the Internet, possibly because of legal or security concerns, and providing them with an on-premise version of their API, configured as a portable virtual appliance.

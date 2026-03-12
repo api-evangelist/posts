@@ -11,8 +11,6 @@ tags:
   - Discover
   - Git
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Trending_repositories_on_GitHub_today.png)](https://github.com/trending)
-
 I have monitored the Github accounts and organizations for individuals and companies doing interesting things with APIs for some time now. However, recently this channel is increasingly being the way that I discover truly interesting companies, individuals, specifications, tools, and even services. The most interesting people and companies doing things with APIs usually understand the importance of being transparent and aren't afraid of publishing their work on Github.
 
 Developers are often very poor at blogging, tweeting, and sharing their work, but because Github allows me to follow their work, and provides additional ways to surface things using [Github trending](https://github.com/trending), I'm able to find things often before they'll show up on other common channels like Twitter, LinkedIn, etc--if they do at all. You can subscribe to the changes for a Github user, and organization using RSS, or you can do like I do, and use the API to dial in what you are following, and identify some pretty interesting relationships and patterns.

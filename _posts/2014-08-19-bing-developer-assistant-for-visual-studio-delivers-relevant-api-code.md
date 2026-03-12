@@ -7,8 +7,6 @@ author:
 tags:
   - Code
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/microsoft/visual-studio.jpg)](http://msdn.microsoft.com/en-US/vstudio)
-
 The Bing Developer Center team [has released a pretty interesting pluginthat assist developers who use Visual Studio](http://blogs.msdn.com/b/bingdevcenter/archive/2014/08/18/bing-developer-assistant-for-visual-studio-focuses-on-improving-productivity-within-the-experience.aspx) when building web or mobile applications using APIs.
 
 In an effort to make developers lives easier, the [Bing Developer Assistant](http://visualstudiogallery.msdn.microsoft.com/a1166718-a2d9-4a48-a5fd-504ff4ad1b65) now comes with integrated API code search that, _“while coding, a relevant code snippet related to your current API will be automatically displayed in the IntelliSense window which is powered by Bing Code Search"_.

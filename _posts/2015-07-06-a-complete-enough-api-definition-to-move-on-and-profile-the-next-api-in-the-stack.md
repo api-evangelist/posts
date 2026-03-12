@@ -10,8 +10,6 @@ tags:
   - Definition
   - Stack
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png)](http://theapistack.com/)
-
 I'm working to profile as many of the top, publicly available APIs out there, [as part of the API Stack](http://theapistack.com/). While I've come to feel that no API definition will ever actually be complete, [I'm working to at least establish a healthy baseline for the APIs I am profiling](http://apievangelist.com/2015/06/15/my-minimum-viable-definition-for-a-complete-swagger-api-definition/), while also automating as much of the process as I possibly can.
 
 To help focus my work, [I'm targeting 30 companies that I depend on to run API Evangelist](http://apievangelist.com/2015/06/23/the-over-30-apis-i-depend-on-to-run-api-evangelist/), and one of the first APIs I wanted to harden my process on was the AlchemyAPI. The API is fairly straightforward in design, and operation, so it made for an easy target--so far here is what I have:

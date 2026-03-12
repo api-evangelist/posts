@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/dailymotion/Dailymotion-Developer-Area.png)](https://developer.dailymotion.com/)
-
 A short, concise, portable description of what your API does, is one of the most critical building blocks of API management, and is essential to reducing friction when new users are on-boarding with any API. It can be easy to design, and populate your API developer portal from a perspective that is very much in the know. I do it all the time, structuring your portal to reach the widest possible audience can be hard—it is why I’m here! ;-)
 
 Here is a great example of providing all the right elements, but leaving out the essential detail that new API consumers will need. View the [Dailymotion developer area](https://developer.dailymotion.com/), land on home page, and without clicking, tell me what Dailymotion does.

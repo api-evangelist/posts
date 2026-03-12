@@ -8,8 +8,6 @@ author:
 tags:
   - Storytelling
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/hacker-storytelling/Tag-Cloud-Hacker-Storytelling.png)](http://hackerstorytelling.com)
-
 I love to write. My girlfriend has really help me kindle this passion. Thank you [@audreywatters](https://twitter.com/audreywatters/).
 
 After 2.5 years of telling stories on [API Evangelist](http://apievangelist.com/), I’ve gotten pretty good at organizing my ideas, and putting out stories that showcase the best (and worst) from the Business of APIs. I’ve gotten so efficient at it in 2012, I even launched [API Voice](http://apievoice.com/) which is dedicated to the politics of APIs, [the API Stack](http://theapistack.com) which is dedicated to top APIs and [Hack Weekends](http://hackweekends.com/) which is all about hackathons.

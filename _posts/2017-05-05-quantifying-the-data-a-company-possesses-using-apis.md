@@ -8,8 +8,6 @@ tags:
   - Data
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/facebook_schema_feed_files.png)](http://facebook.stack.network/)
-
 [Profiling APIs always provides me with a nice bulleted list of what a company does or doesn't do](http://facebook.stack.network). In my work as the API Evangelist, I can read marketing and communications to find out what a company does, but [I find that profiling their APIs provides a more honest view of what is going on](http://apievangelist.com/2016/10/03/apis-can-give-an-honest-view-of-what-a-company-does/). The lack of a public API always sets the tone for how I view what a company is up to, but when there is a public API, profiling it always provides a nice distillation of what a company does, in a nice bulleted list I can share with my readers.
 
 When I profile the APIs of companies like [Amazon](http://amazon.web.services.stack.network/), [Google](http://google.stack.network/), and [Microsoft](http://microsoft.stack.network/), I come out of it with a nice bulleted list of what is possible, but when I go even further, making sure each API profile has accompanying schema definitions, a nice list of what data company begins to emerge. When I profile an API using [OpenAPI](http://openapis.org) I always start by profiling the request layer of an API, the paths, parameters, and other elements. Next, I get to work describing the schema definitions of data used in these requests, as well as the structure of the responses--providing me with a nice bulleted list of the data that a company has. 

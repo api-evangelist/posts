@@ -14,8 +14,6 @@ tags:
   - Global
   - References
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Global-Change-Information-System-GCIS-home.png)](http://data.globalchange.gov/)
-
 [I wrote about the Global Change Information System (GCIS) API earlier this year, and how they what they are doing with their API design represent how APIs are the next step in the evolution of the web](http://apievangelist.com/2015/02/04/what-do-i-mean-when-i-say-apis-are-just-the-next-step-in-the-evolution-of-the-web/). If you have the time, go look at what they have done, it is mind-blowing. I am on their email newsletter, and have had their latest update in my inbox for a few days, with some thoughts attached to it I wanted to blog about, before I archived the email.
 
 I love that they provide updates like this via email, but ultimately this story is about how they are iterating on their API design, making it much more useful, and powerful along the way—with some elements I’d like to see spread across other content and document based APIs. Maybe I should backup, and clarify what GCIS does. The platform _“use identifiers and semantic information to provide points of reference and traceability”_ across the research from 13 US federal agencies, that researchers, citizen scientists, application developers or information theorists can put to work for them.

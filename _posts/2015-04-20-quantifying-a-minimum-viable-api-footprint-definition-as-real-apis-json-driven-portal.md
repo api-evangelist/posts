@@ -15,8 +15,6 @@ tags:
   - APIs
   - APIs.jso
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Demo-APIs_json-Driven-Portal.png)](http://api-portal.apievangelist.com/)
-
 [I wrote a post the other day laying out what I'd consider a minimum viable footprint for API operations](http://apievangelist.com/2015/04/10/my-minimum-viable-api-footprint-definition/). My vision of just exactly what an API is, has gone beyond just the technical, ever since I started API Evangelist back in July of 2010. Early on I saw this was more than just about the API endpoints, and documentation, code samples, and many other building blocks were essential to the success (or failure) of any API platform, area, or ecosystem.
 
 This recent post was an attempt, here in 2015, to quantify what I would consider to be a minimum definition for API operation. After writing it I wanted to take another stab at actually creating a portal, that would stand up to the API rhetoric that I regularly produce. What better place to start, [than my own personal master API stack](https://kin-lane.github.io/master/), where I am working to get control over my own infrastructure. Once I got a version 1.0 definition, I forked it, and setup a default API portal that I am calling my [demo APIs.json driven portal.](http://api-portal.apievangelist.com)

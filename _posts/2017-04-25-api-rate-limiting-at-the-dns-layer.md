@@ -8,8 +8,6 @@ tags:
   - DNS
   - Rate Limiting
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_rate_limiting_at_dns_layer_cloudflare.png)](https://www.cloudflare.com/rate-limiting/)
-
 [I just got an email from my DNS provider CloudFlare about rate limiting and protecting my APIs](https://www.cloudflare.com/rate-limiting/). I am a big fan of CloudFlare, partly because I am a customer, and I use to manage my own infrastructure, but also partly due to the way they understand APIs, and actively use them as part of their business, products, and services.
 
 Their email spans a couple areas of my research that I find interesting, and extremely relevant: 1) [DNS](http://dns.apievangelist.com), 2) [Security](http://security.apievangelist.com), 3) [Management](http://management.apievangelist.com). They are offering me something that is traditionally done at the API management layer (rate limiting), but now offering to do it for me at the DNS layer, expanding the value of API rate limiting into the realm of security, and specifically in defense against DDoS attacks--a serious concern.

@@ -6,8 +6,6 @@ image: >-
 atomdate: 2017-01-12T23:00:00.000Z
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_11_at_8.59.54_pm.png)](https://myaccount.google.com)
-
 I have [a minimum definition for what I consider to be a good portal for an API](http://portal.minimum.apievangelist.com/), and was spending some time thinking about a baseline definition for the API developer account portion of that portal, as well as potentially any other authenticated, and validated platform user. I want a baseline user account definition that I could use as aa base, and the best one out there off the top of my head would be from Google.
 
 To support my work I went through my [Google account page](https://myaccount.google.com) and outlined the basic building blocks of the Google account:

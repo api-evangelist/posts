@@ -13,8 +13,6 @@ tags:
   - Open
   - Git
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_19_at_12.02.32_am.png)](https://api-evangelist-tools.github.io/openapi-spec-google-spreadsheet-to-jekyll-github-yaml/)
-
 [I have been playing around with different ways of using Google Spreadsheet to drive YAML and JSON data to Jekyll data projects hosted as Github repositories](http://apievangelist.com/2016/09/20/d3js-visualizations-using-yaml-and-jekyll/). It is an approach [I started playing around with in Washington DC, while I was helping data stewards publish government services as JSON-LD](http://government.services.adopta.agency/). It is something I've been playing around with lately using to [drive D3.js visualizations](http://apievangelist.com/2016/09/20/d3js-visualizations-using-yaml-and-jekyll/) and even [a comic book](https://kinlane.github.io/teh-jigz-up/two/).
 
 There are couple of things going on here. First, you are managing machine-readable data using Google Spreadsheets, and publishing this data as two separate machine readable formats: JSON and YAML. When these formats are combined with the data capabilities of a Jekyll website hosted on Github Pages, it opens up some pretty interesting possibilities for using data to fuel some pretty fun things. Plus...no backend needed.

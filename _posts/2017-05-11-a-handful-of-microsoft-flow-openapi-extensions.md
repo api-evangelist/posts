@@ -10,8 +10,6 @@ tags:
   - Open
   - Micro
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/ms_flow_icon.jpg)](https://flow.microsoft.com/en-us/documentation/customapi-how-to-swagger/)
-
 I used to keep track of Swagger vendor extensions are part of my previous research around what was formerly known as Swagger. It is something I'm reviving as part of my OpenAPI Toolbox work, profiling the OpenAPI extensions I come across in the course of my work.
 
 While profiling the Azure as part of my API Stack research I came across Microsoft Flow, and [noticed that they use OpenAPI as part of the configuration of the integration platform as a service (iPaaS) solution,](https://flow.microsoft.com/en-us/documentation/customapi-how-to-swagger/) and have four specific extensions defined:

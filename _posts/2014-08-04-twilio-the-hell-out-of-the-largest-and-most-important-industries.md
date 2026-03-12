@@ -9,8 +9,6 @@ tags:
   - Industries
   - Twilio
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/twilio/Twilio-Logo.png)](http://www.twilio.com/)
-
 Irakli Nadareishvili ([@inadarei](https://twitter.com/inadarei)), Dave Goldberg ([@davidgoldberg](https://twitter.com/davidgoldberg)) and I were having an interesting conversation on the Twitterz, after I posted "[As We Recover The Banking Industry Seems To Be Warming Up To APIs](http://apievangelist.com/2014/08/03/as-we-recover-the-banking-industry-seems-to-be-warming-up-to-apis/)", yesterday--on a topic I think is worth repeating regularly, to generate discussion within any business sector.
 
 I think that all three of us are optimistic about what APIs can do in an industry like banking, and because of our experience, we are very realistic about what is possible in the end--realizing not every API will be good by default.

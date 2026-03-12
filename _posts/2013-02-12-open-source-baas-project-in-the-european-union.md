@@ -11,8 +11,6 @@ tags:
   - Europe
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/baas/openi/openi-logo.png)](http://www.openi-ict.eu/)
-
 The [Backend as a Service (BaaS)](/trends/baas.php "Backend as a Service") space is picking up momentum in 2013. I’m tracking on 20 BaaS providers, in hopes of better understanding what is being offered in this space. Today I came across an interesting new, open source BaaS platform, being developed in the European Union called [OPENi](http://www.openi-ict.eu/).
 
 The project describes itself as:

@@ -9,8 +9,6 @@ tags:
   - Templates
   - ddi
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png)](http://apievangelist.com/templates/)
-
 As I build out new APIs for use across my systems, as well as map out the landscape of valuable API resources available today, I'm [working to define templates](http://apievangelist.com/templates/) that other API providers can follow when designing and deploying their own API infrastructure. I've accumulated 16 basic templates, prompting me to [add a new section to the website called templates](http://apievangelist.com/templates/).
 
 These projects represent the templates I've established through my existing research, and will add other templates as they come off the assembly line. These API designs aren't mean to be the perfect solution for production environements, but to be seeds for new conversation around APIs, as well as providing a basic pattern you can use to start your own development.

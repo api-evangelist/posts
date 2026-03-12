@@ -10,8 +10,6 @@ tags:
   - Stack
   - Backend
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/mobile-backend-as-a-service/kinvey/kinvey-logo-300.png)](http://www.kinvey.com/)
-
 Mobile is fueling a lot of API growth right now. Or is it APIs fueling a lot of Mobile growth right now? Either way, APIs and Mobile go together like chocolate and peanut butter (or Nutella as my girlfriend would say).
 
 With this growth in mobile, we are seeing a rise of Mobile Backend as a Service (MBaaS) providers, delivering a basic stack of storage, messaging, notifications, user management and other essential components for mobile developers.

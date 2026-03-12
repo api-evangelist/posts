@@ -11,8 +11,6 @@ tags:
   - Hypermedia
   - Video
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-craft/api-craft-logo.png)](http://api-craft.org/)
-
 I never properly wrapped up my experience at [API-Craft](http://api-craft.org/) last month, where I moderated a pretty important panel discussion on hypermedia with Mike Amundsen ([@mamund](http://bit.ly/1mtrwki)), Mike Kelly ([@mikekelly85](http://bit.ly/1hBxi4m)) Steve Klabnik ([@steveklabnik](http://bit.ly/1wv9KVR)), Kevin Swiber ([@kevinswiber](http://bit.ly/1oC7Udw)), Jørn Wildt ([@JornWildt](https://twitter.com/JornWildt)), and Markus Lanthaler ([@MarkusLanthaler](https://twitter.com/MarkusLanthaler)). 
 
 The discussion was pretty amazing, I will let you watch for yourself. The action actually starts right at about 30:00 minute mark, so there is a lot of dead space until then. 

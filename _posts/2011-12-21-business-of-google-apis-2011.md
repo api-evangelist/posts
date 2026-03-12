@@ -9,8 +9,6 @@ tags:
   - Business
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/google/google_code.jpg)](http://code.google.com/more/)
-
 [ProgrammableWeb says Google has 94 APIs](http://www.programmableweb.com/apis/directory/1?company=Google "ProgrammableWeb says Google has 94 APIs"). I roughly count about [75 going through Google Code](http://code.google.com/more/). I’m more concerned with public web APIs, and Google has Android, Chrome and other non-web APIs, so its hard to tell.
 
 In any case I would consider Google to the largest public web API owner around. I don’t think any other single provider, owns the number of, as well as size of public APIs, that Google does. As with any leading API providers I think there is a lot to learn in studying their approach to API deployment and management.

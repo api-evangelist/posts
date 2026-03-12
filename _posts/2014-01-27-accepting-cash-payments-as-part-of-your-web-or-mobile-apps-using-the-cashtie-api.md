@@ -12,8 +12,6 @@ tags:
   - Mobile
   - Web
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/cashtie/cashtie-mobile-barcode.png)](https://cashtie.com/)
-
 I’m working with a very interesting new API offering from the retail focused [InComm](http://www.incomm.com/), dubbed the [Cashtie API](https://cashtie.com/). Over the last two decades InComm has worked hard to build relationships with major retailers, resulting in a very hard to establish presence at the cash register of major retailers like Walmart, Target and CVS.
 
 InComm’s new Cashtie API opens up access to retailers point of sale (POS) systems, allowing any approved developer to sell online goods to consumers at these high value retail locations—opening up the possibility for web and mobile applications to accept cash payments for virtual goods, services and utilities at top retailers.

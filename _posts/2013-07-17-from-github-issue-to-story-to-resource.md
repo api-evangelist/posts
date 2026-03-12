@@ -10,8 +10,6 @@ tags:
   - Github
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/ben-balter/ben-balter.png)](https://twitter.com/BenBalter)
-
 As an evangelist, your responsibility is to get the word out about an API, and provide users with the resources they will need to be successful.
 
 While executing on your evangelism strategy, there are numerous ways to generate stories for your blog, but one of my favorite approaches is to cherry pick the best issues on your Github repositories.

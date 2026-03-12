@@ -12,8 +12,6 @@ tags:
   - Code Generation
   - Code
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apimatic/apimatic-logo.png)](https://apimatic.io/)
-
 I have met with the [APIMATIC team](https://apimatic.io/) several times over the last couple weeks to discuss the state of API definitions. If you aren't familiar with [APIMATIC, they are a API code as a service provider](https://apimatic.io/), that generates high quality client code in several languages, if your APIs are defined using common API definition formats like Swagger (they are also the people behind [SDKs.io](http://sdks.io)). APIMATIC is as passionate about high quality Swagger definitions as I am, and have shared some really valuable research to help push forward the API definition conversation.
 
 In May, APIMATIC wanted to compare the quality of automatic code generation tools, using common Swagger specifications they found on Github. To set the bar for their research, APIMATIC established some basic operational parameters:

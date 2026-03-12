@@ -8,8 +8,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/truly/truly-logo.png)](https://tru.ly "Tru.ly")
-
 [Tru.ly](https://tru.ly "Tru.ly") just launched an [age verification API](https://tru.ly "Tru.ly") that authenticates the age of an online user based by cross-referencing user-submitted personal information with data points from Tru.ly verification partners.
 
 Verification is done by matching user-submitted information with that in a national database of government and public data. In order to become verified, specific pieces of information must match. Tru.ly also uses a proprietary technology to flag users who may be trying to game the system.

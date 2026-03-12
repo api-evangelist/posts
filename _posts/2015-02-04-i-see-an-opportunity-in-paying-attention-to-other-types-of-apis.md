@@ -8,8 +8,6 @@ author:
 tags:
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/infolytica-motorsolve.png)](http://api.report/2015/02/04/infolytica-corporation-releases-motorsolve-v5/)
-
 I've been pretty focused on web APIs in my API Evangelist world, steering clear of hardware, networking, desktop software, and the American Petroleum Institute. While you will never catch me paying attention to oil, I am slowly changing my tune on other types of legacy APIs.
 
 As I read through [the first 700, of the 16K API related patents I’ve harvested from USPTO XML files](http://patents.apievangelist.com/patents.html), I initially started dismissing hardware related patents, and then some of the more network related ones as well. Then I started evaluating the impact these patents could have on the Internet of Things (IoT), and I am beginning to shift my stance.

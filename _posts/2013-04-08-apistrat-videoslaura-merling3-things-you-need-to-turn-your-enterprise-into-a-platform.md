@@ -13,8 +13,6 @@ tags:
   - APIStrat
   - Platform
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/speakers/laura-merling-apistrat.png)](http://www.infoq.com/presentations/Enterprise-Platform)
-
 The first #APIStrat video is here!
 
 For those of you who couldn't make it to the APIStrat in New York last February, or in case you missed some of the sessions, the videos are finally starting to come out.

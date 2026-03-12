@@ -9,8 +9,6 @@ date: 2013-12-16T18:26:56.000Z
 tags:
   - Terms of Service
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swedish-api-license/swedish-api-license-2.png)](http://apilicens.se/en/ "Swedish API License")
-
 The terms of service for APIs is the single most important building block of an API strategy, one that dictates how developers can access and put API resources to use and sets the tone for an entire API ecosystem. Your API can be publicly available, but the terms of service and licensing will determine whether it is truly open.
 
 Even with the importance of this area of API operations, there aren't a lot of open resources to help guide you through crafting your API licensing and terms of service properly--until now.

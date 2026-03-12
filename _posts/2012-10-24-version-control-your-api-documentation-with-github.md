@@ -10,8 +10,6 @@ tags:
   - Documentation
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/github/github-logo.png)](https://github.com/ "Github")
-
 Out of date API documentation is by far the most common mistake API providers make, and also the [number one pain point for API developers](http://blog.programmableweb.com/2010/08/12/web-api-documentation-best-practices/). It makes sense that you will want to keep your API documentation in sync with each version of your API, and one way to handle this is to version them both, using Github.
 
 To use Github for your API documentation, all you need to do is create an single public repository, which you can use to manage HTML versions of your API docs. By putting your API documentation in its own repository you can keep the version of the API code repository in sync with it's corresponding documentation.

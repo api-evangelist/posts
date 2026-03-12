@@ -11,8 +11,6 @@ tags:
   - Government
   - APIs
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Building-a-21st-century-platform-to-better-serve-the-american-people-1.png)](http://federal-government.apievangelist.com/)
-
 It is has been a while since I updated any of my research around APIs & the Federal Government. In May 2012, I started monitoring the progress of the White House Digital Strategy, where I setup a [monitoring system that pings all 246 agencies](/federal_government.php) to see if they have published their digital strategy yet.
 
 As we approach the one year anniversary, I expect we'll see a lot more news emerge around what various agencies are doing as part of the original mandate by the White House. As of today there are now 23 federal agencies who have published their Digital Strategy at their domain.

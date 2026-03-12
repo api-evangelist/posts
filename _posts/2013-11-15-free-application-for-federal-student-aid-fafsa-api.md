@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/ed/fafsa-form.jpg)](https://ed-data.github.io/fafsa-api)
-
 I was asked to help put some thought into an API for the Free Application for Federal Student Aid iniative. First, what is FAFSA:
 
 > The Free Application for Federal Student Aid (FAFSA) is the form the U.S. Department of Education (ED) requires to determine your Expected Family Contribution (EFC). The government conducts a “need analysis” based on financial information, such as income, assets, and other family information, which you (and your parents if you are a dependent student) will be asked to provide.

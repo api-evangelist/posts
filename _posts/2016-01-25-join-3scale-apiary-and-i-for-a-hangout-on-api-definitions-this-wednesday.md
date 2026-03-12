@@ -10,8 +10,6 @@ tags:
   - Scale
   - Definition
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg)](http://apis.how/ake3nxbapm)
-
 Join me, Steve Willmott([@njyx](https://twitter.com/njyx)) of [3Scale](http://apis.how/ake3nxbapm), and Jakub Nesetril([@jakubnesetril](https://twitter.com/jakubnesetril)) of [Apiary](http://apis.how/ohgw3uqjt0), for a hangout on API definitions this week. I wanted to explore  doing more hangouts under the APIStrat, as well as API Evangelist brand(s)--for this one I wanted to bring together some experts to talk about the fast moving world of API definitions, as a [Hangout with API Evangelist](http://hangoutwith.apievangelist.com/).
 
 [This Wednesday, January 27th, at 11:00 AM PST, the three of us will jump on a Google Hangout](http://hangouts.apistrat.com/), and you are welcome to join in the conversation. We will be doing the gathering as a Hangout on Air, so that you can ask questions if you want, joining in the live conversation, or you can wait until after we are done, I will make sure and publish the video to Youtube.

@@ -11,8 +11,6 @@ tags:
   - Reviews
   - Offers
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/citygrid/CityGrid.png)](http://developer.citygridmedia.com "CityGrid API")
-
 Much of the work I get as an [API Evangelist](http://www.apievangelist.com "API Evangelist") starts with a review of an API area. I have evolved a way to look at API areas, and identify which building blocks are present or missing, all contributing to the success or failure of an API.
 
 I started evolved this methodology in summer of 2012 when I was first building API Evangelist, by reviewing over 250+ of the top APIs out there. I generated a list of the common building blocks used by APIs, as well as identified a bunch of innovative and less commonly used [building blocks](http://apievangelist.com/buildingblocks/ "Building Blocks").

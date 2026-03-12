@@ -7,8 +7,6 @@ atomdate: 2017-03-31T19:00:00.000Z
 tags:
   - Editor
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_31_at_2.40.15_pm.png)](https://scenarios.stoplight.io/spec-editor)
-
 I'm keeping an eye on the different approaches by API service providers when it comes to providing API editors within their services and tooling. [While I wish there was an open source GUI API editor out there](http://apievangelist.com/2017/03/06/please-develop-an-embeddable-open-source-visual-api-editor/), the closest thing we have is from these API service providers, and I am trying to track on what the best practices are so that when someone does step up and begin working on an open, embeddable solution, they can learn from my stories about what is working or not working across the space.
 
 One example I think has characteristics that should be emulated is [the API Spec Editor from Stoplight](https://scenarios.stoplight.io/spec-editor). The GUI editor lets you manage all the core elements of an OpenAPI like the general info, host, paths, and even the shared responses and parameters. They even provide what they call a CRUD builder where you paste the JSON schema, and they'll generate the common paths you will need to create, read, update, and delete your resources. Along the way you can also make calls to API endpoints using their interactive interface, helping ensure your API definition is actually in alignment with your API.

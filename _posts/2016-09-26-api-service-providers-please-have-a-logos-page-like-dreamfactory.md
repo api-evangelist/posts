@@ -9,8 +9,6 @@ tags:
   - Providers
   - Service Providers
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/dreamfactory_logo__google_search.png)](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=dreamfactory%20logo)
-
 [I was adding dreamfactory as one of my sponsors](http://apievangelist.com) today. I have them in my in my API monitoring system already, so I have a logo for them, but whenever there is a significant event involving one of the companies I keep an eye on in the API space, I tend to make sure I have an update to date version of their logo. In the case of adding them as a sponsor I definitely want the latest logo--so I did what I always do, I Googled "dreamfactory logo".
 
 A while back [I wrote about how companies who ask me to update their logo on my site(s) almost never have a dedicated logo page](http://apievangelist.com/2016/09/01/why-do-companies-who-ask-me-to-update-their-logo-never-have-branding-page/)\--which might have helped make sure I have had the right logo in the first place.  So when I Googled the dreamfactory logo", I was pleased to find [tthe dreamfactory logo page as the first result,](https://www.dreamfactory.com/logos) with a wealth of logos for me to select from.

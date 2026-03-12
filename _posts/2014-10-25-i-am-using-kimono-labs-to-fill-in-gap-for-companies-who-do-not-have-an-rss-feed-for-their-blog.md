@@ -12,8 +12,6 @@ author:
 tags:
   - Blog
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/kimono-labs-logo.png)](https://www.kimonolabs.com)
-
 I am tracking on around 2500 companies who are doing interesting things in the API space. Out of these companies about 1000 of them have blogs, which for me is a pretty important signal. About 1/4 of these companies with blogs, do not have an RSS feed, which in 2014 seems a little odd to me, but maybe I'm an old timer.
 
 I believe that a blog is one of the most important signals, any API provider come put out, right alongside Twitter and Github. Historically I depend on the Twitter account for these RSS-less blogs, but now I'm taking a different path, and using [Kimono Labs](https://www.kimonolabs.com) to fill in the gap.

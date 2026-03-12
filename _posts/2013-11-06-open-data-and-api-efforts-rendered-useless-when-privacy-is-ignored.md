@@ -12,8 +12,6 @@ tags:
   - Open Data
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/open-government-partnership.png)](http://www.opengovpartnership.org/)
-
 [](http://www.opengovpartnership.org/)
 
 [On the second anniversary of the](http://www.opengovpartnership.org/) [Open Government Partnership (OGP)](http://www.opengovpartnership.org/), where we are celebrating a "[global effort to encourage transparent, effective, and accountable governance](http://www.whitehouse.gov/the-press-office/2013/10/31/fact-sheet-marking-progress-second-anniversary-open-government-partnersh)", and that:

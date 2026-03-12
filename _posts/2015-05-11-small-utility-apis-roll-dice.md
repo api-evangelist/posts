@@ -8,8 +8,6 @@ author:
 tags:
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/roll-dice.jpeg)](http://roll.space/)
-
 I enjoy documenting APIs that I come across on the Internet. Not all designs catch my attention, but when they do, I like to add them to my monitoring systems, and with some of the smallest, open source designs, I like to fork them. 
 
 [Today I came across the Roll Dice as a Service API](http://roll.space/), a simple resource for rolling dice, [while reading Today in Tabs](http://tinyletter.com/todayintabs). I love simple, micro API designs like this, and in addition to adding it to my database, I wanted to make sure I documented the API using Swagger.

@@ -8,8 +8,6 @@ tags:
   - Design
   - Prototype
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_23_at_10.59.54_pm.png)](https://api-evangelist-tools.github.io/api-design-guide/)
-
 I was pretty happy when my friend Arnaud Lauret ([@arno\_di\_loreto](https://twitter.com/arno_di_loreto?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)) developed [API Stylebook](http://apistylebook.com/). I want to see his work expand and grow into someday containing hundreds or thousands of API design guides. To help contribute to his work I took the [YAML core of the design topics](https://github.com/arno-di-loreto/apistylebook-api/blob/master/design/topics.yaml) he's aggregated and began developing [an API design guide builder that runs 100% on](https://api-evangelist-tools.github.io/api-design-guide/) [Github](https://api-evangelist-tools.github.io/api-design-guide/), allowing anyone to fork, and use to build their own API Stylebook on top of Arnaud's work.
 
 Currently, I have two screens for API design guide builder:

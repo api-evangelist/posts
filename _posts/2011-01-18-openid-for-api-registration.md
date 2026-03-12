@@ -8,7 +8,7 @@ tags:
   - Registration
   - Open
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/stack-overflow/Stack-Apps-Registration.png)](http://www.stackapps.com)You want to make it as easy as possible for developers to get up and running with your [API](http://www.apievangelist.com/).
+You want to make it as easy as possible for developers to get up and running with your [API](http://www.apievangelist.com/).
 
 You don't want developers to fumble around with lengthy registrations and approval processes.
 

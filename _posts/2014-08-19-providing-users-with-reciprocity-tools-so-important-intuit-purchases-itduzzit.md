@@ -10,8 +10,6 @@ author:
 tags:
   - Tools
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/intuit/intuitbig.png)](https://developer.intuit.com)
-
 One of the interoperability, automation, and reciprocity providers I track on [itDuzzit has been acquired by the accounting platform Intuit](https://developer.intuit.com/blog/2014/08/13/intuit-acquires-itduzzit-syncing-data-between-cloud-apps-gets-easier). Usually acquisitions are just news, and not worthy of analysis here on API Evangelist, but I feel the itDuzzit acquisition is a significant sign when it comes to API providers, consumers, and [reciprocity providers](http://reciprocity.apievangelist.com/companies.html).
 
 I’ve been seeing more [API providers offer IFTTT or Zapier integration as a default option, in their own developer hubs](http://apievangelist.com/2014/03/13/api-management-adding-reciprocity-building-blocks/). I think the Intuit acquisition of itDuzzit reflects this evolution in how APIs are deployed, and consumed, something that has been pushed forward by this new generation of API reciprocity providers.

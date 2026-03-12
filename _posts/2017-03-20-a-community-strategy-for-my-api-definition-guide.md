@@ -10,8 +10,6 @@ tags:
   - Strategy
   - Definition
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_2017_03.png)](http://definitions.apievangelist.com/guide/)
-
 I have [tpublished the latest edition of my API definition guide](http://definitions.apievangelist.com/guide/). I've rebooted my industry guides to be a more polished, summary version of my research instead of the rougher, more comprehensive version I've bee publishing for the last couple of years. I'm looking for my guides to better speak to the waves of new people entering the API space, and help them as they continue on their API journey.
 
 In addition to being a little more polished, and having more curated content, my API guides are now going to also be more of a community thing. In the past I've kept pretty tight control over the content I publish to API Evangelist, only opening up the four logos to my partners. Using my API industry guides I want to invite folks from the community to help edit the content, and [provide editorial feedback](https://github.com/api-evangelist/definitions/issues?q=is%3Aissue+is%3Aclosed)\--[even suggesting what should be in future editions](https://github.com/api-evangelist/definitions/issues/6). I'm also opening up the guides to include paid content that will help pay for the ongoing publication of the guides with the following opportunities available in the next edition:

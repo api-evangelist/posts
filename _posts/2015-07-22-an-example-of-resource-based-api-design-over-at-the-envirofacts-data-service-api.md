@@ -11,8 +11,6 @@ tags:
   - Design
   - Data
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/280px-Environmental_Protection_Agency_logo.svg.png)](http://www.epa.gov/)
-
 I told a contact of mine at the Environmental Protection Agency I would provide some feedback for the next iteration of [the Envirofacts Data Service API](http://www.epa.gov/enviro/facts/services.html#uvindex), and as I prepare my formal response, there is a huge opportunity for me to carve off some other smaller stories. These stories are what make API Evangelist go around--pulling off these nuggets of learningz, as I'm working with API various providers. 
 
 A concept I work hard to help API designers and architect adopt is around [experience-based API design over resource based API design](http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer/). Something I learned from my friend Daniel Jacobson ([@daniel\_jacobson](https://twitter.com/daniel_jacobson)) at Netflix, but have been taking it in different directions to help designers and architects from smaller API groups, adopt this way of life--I feel like my work today on the Envirofacts Data Service API provide a great opportunity to move this conversation forward.

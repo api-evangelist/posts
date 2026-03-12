@@ -10,8 +10,6 @@ tags:
   - JSON
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/gitspatial/git-spatial-2.png)](http://gitspatial.com/)
-
 I've been pushing the boundaries of open data and API deployment using Github. I have a project I've been evolving since August called [Simple API](http://simple-api.github.io/central/ "Simple API") and its sister implementation [api.ongithub.com](http://api.ongithub.com "api.ongithub.com"), which allows you to launch an API by forking common API definitions that are hosted on Github.
 
 I was recently introduced to similar approach to geospatial API deployment using GeoJSON stored on Github called [GitSpatial](http://gitspatial.com/). Using the same approach, GitSpatial lets allows you to oAuth into the API deployment platform using your Github login, then spiders your repositories and let's you sync the repositories that contain GeoJSON.

@@ -8,8 +8,6 @@ tags:
   - Privacy Policy
   - Policy
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-developer-policy-center_.png)](https://play.google.com/about/developer-content-policy.html)
-
 [The NextWeb had a great story today that Google has redesigned its developer policies with clearer language and visual examples](http://thenextweb.com/dd/2016/03/01/google-has-redesigned-its-developer-policies-with-clearer-language-and-visual-examples/), and normally I don't jsut parrot what the tech blogosphere publishes, but it's an important enough API message, I think it warrants repeating. In my experience, API providers just emulate what they hear in the space, and stories like this need amplifcation.
 
 What Google did isn't rocket surgery, they just [simplified the legalize around what they expect of developers](https://play.google.com/about/developer-content-policy.html). What better way to actually help ensure these best practices around the platform actual happen, then by actually providing simple titles, summary description, images, and other relevant links, on a developer policy page. In most scenarios developers aren't malicious, they are just usually ignorant of the best practices that often exist in the platforms legalize we agree to, but seldom ever read.

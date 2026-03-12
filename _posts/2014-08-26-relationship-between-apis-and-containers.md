@@ -11,8 +11,6 @@ tags:
   - APIs
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-shipping-container.png)](http://containers.apievangelist.com/)
-
 [Containers](http://containers.apievangelist.com/) are a fast growing trend when it comes to delivering compute resources online. Reflecting the world of API design, I feel containers are about deploying exactly the cloud resources you will need to complete a specific compute objective, then putting everything into a single virtualized container definition, that can be forked, clone, scaled, and evolved indpendently of any other resources. Each individual container posesses everything it will need from the operating system, file system, database, necessary libraries, and APIs to accomplish its given objective.
 
 Virtual containers will make API driven resources even more agile, nimble and scalable--not just for providers, but also for consumers. Everything we have right now I would consider to be a retail API market—where even though APIs are often sold B2B, they are generally a one-size fits all API solution. Think about when API resources become modular, customizable, scalable, wholesale resources that can be bought and sold, and deployed anywhere, making all digital assets into commodities that are ready for use anywhere in the API economy.

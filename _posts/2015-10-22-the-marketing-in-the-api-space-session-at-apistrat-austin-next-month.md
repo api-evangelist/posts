@@ -9,8 +9,6 @@ tags:
   - Marketing
   - APIStrat
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/apistrat-austin/apistrat-austin-logo.png)](http://austin2015.apistrat.com/)
-
 Marketing your products and services in the API sector can often look very different than marketing of products and services in other sectors. Developers are a very different target audience, and to make things even more complicated, not all developers are created equal! Open developer are not like the enterprise developer, and healthcare developers won't have much in common with device-based, Internet of Things developers. 
 
 How to market your API has been a session at every APIStrat since we did the first conference in New York City back in February of 2013, and [we just announced the latest edition of marketing for APIs at @APIStrat in Austin in November](http://austin2015.apistrat.com/). Here is the lineup we have for this round:

@@ -13,8 +13,6 @@ tags:
   - APIs
   - Developers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/digital-strategy/logos/census.png)](http://www.census.gov/)
-
 I wrote a piece about [providing a full download vs. API](http://apievangelist.com/2013/07/19/providing-full-data-download-vs-api/ "providing a full download vs. API") last month, where I used the [Census Bureau API](http://www.census.gov/developers/) as an example. The post got the attention of the folks at the Census, and they invited me out for a discussion yesterday about their API strategy.
 
 The Census Bureau API team asked me what I thought of their [API developer area](http://www.census.gov/developers/), and while I have lots of suggestions of where they could do, I first focused on what they have already delivered.

@@ -12,8 +12,6 @@ tags:
   - Tooling
   - JSON
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/webconcepts_info_concepts_concepts_json.png)](http://webconcepts.info/concepts/concepts.json)
-
 I created a JSON feed of the web concepts and specs over at Erik Wilde's ([@dret](https://twitter.com/dret)) site [WebConcepts.info](http://webconcepts.info/), so that I could [easily import the specs into my Twitter and LinkedIn scheduling tools](http://apievangelist.com/2016/09/01/making-web-concepts-and-specs-present-as-real-time-help-in-api-design-tooling/). I want to be able to schedule a tweet a day until I've exhausted all of the critical web concepts and supporting specs that Erik is showcasing in his work. Digital literacy, when it comes to these concepts, and proficiency at applying the specifications across the APIs that are driving growth in the sector is super important, so I want to help.
 
 After I created the JSON file, [Erik went ahead and crafted an official one derived from mine,](http://webconcepts.info/update/2016/09/02/json-concepts.html) but he did a nicer, and more complete job than I did. He initially only did the [web concepts](http://webconcepts.info/concepts/concepts.json), but right before I was ready to publish this he did the [specs edition](http://webconcepts.info/specs/specs.json) as well. Now you can use the [direct links to the JSON](http://webconcepts.info/concepts/concepts.json) (or [XML](http://webconcepts.info/concepts/concepts.xml)) in his Github repo, or fork the project and integrate directly into your platform.

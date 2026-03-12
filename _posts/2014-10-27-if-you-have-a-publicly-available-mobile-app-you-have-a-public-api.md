@@ -10,8 +10,6 @@ tags:
   - Public
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/snapchat/snapchat-logo-transparent.png)](http://blog.snapchat.com/post/99998266095/third-party-applications-and-the-snapchat-api)
-
 I’ve had several browser tabs open around the [recent Snapchat security breach](http://www.reuters.com/article/2014/10/14/us-snapchat-future-security-idUSKCN0I32UJ20141014), hoping to craft an API-centric story around the whole affair. I think [SmartBear covers the security lesson around the Snapchat breach well](http://blog.smartbear.com/apis/readyapi/security-lessons-courtesy-of-snapchat/), my motivation in writing a story would be more about incentivizing popular mobile platforms like Snapchat to establish a robust approach to APIs, and provide a platform for everyone discuss the tech, business, and politics of application integration, rather than keeping it all in the dark.
 
 **Your Application Programming Interface Surface Is Publicly Available**  

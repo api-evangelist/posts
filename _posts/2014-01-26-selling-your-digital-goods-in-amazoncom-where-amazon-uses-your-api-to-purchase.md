@@ -10,8 +10,6 @@ tags:
   - Amazon
   - Digital
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/amazon/amazon-instant-access.png)](https://developer.amazon.com/post/Tx3VAMG90LQR7DF/Amazon-Instant-Access-Sell-Digital-Items-for-Your-PC-Mac-or-Web-Based-Applicatio.html)
-
 Amazon has an interesting [new service called Instant Access](https://developer.amazon.com/post/Tx3VAMG90LQR7DF/Amazon-Instant-Access-Sell-Digital-Items-for-Your-PC-Mac-or-Web-Based-Applicatio.html), which follows a trend I’m seeing in commerce, that allows the sales of digital goods, not just in-app like [Amazon’s In-App Purchasing](https://developer.amazon.com/public/apis/earn/in-app-purchasing) does, but let’s you sell your digital wares on Amazon.com.
 
 This new service allows you to list and sell your digital goods on Amazon.com, just like the physical goods you normally associate with Amazon. This opens up your digital products to the heavy traffic of Amazon.com, as well as the other perks like discoverability, reviews, and the payment systems that the Amazon platform enables.

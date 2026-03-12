@@ -13,8 +13,6 @@ tags:
   - Packages
   - APIs.jso
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/atom-editor/atom-editor-logo.jpg)](https://atom.io/)
-
 I have been using the [Atom editor](https://atom.io/) when I work on local files on my workstation for some time now. With the latest version 1.0 release I took a fresh look at the architecture, and under the hood at the packages that make the platform so powerful, and extensible. One of the packages I was reverse engineering this weekend, is the [Atom API Autocomplete Package](https://github.com/atom/autocomplete-atom-api).
 
 [The Atom API Autocomplete Package](https://github.com/atom/autocomplete-atom-api) is one of [several autocompete packages](https://atom.io/packages/search?q=autocomplete) that gives Atom some of that IDE feel when you are editing files. I like the feel of Atom autocomplete, and I really dig that this functionality is extensible via Atom packages. This experience got me thinking again about the IDEs role in API design and development, and how I'd like to see more API definition driven dictionaries, defined using [APIs.json](http://apisjson.org), driving IDE autocomplete features like the Atom editor has.

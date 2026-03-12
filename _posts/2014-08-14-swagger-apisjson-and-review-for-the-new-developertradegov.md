@@ -12,8 +12,6 @@ tags:
   - APIs
   - APIs.jso
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/trade-gov/developer-trade-gov.png)](http://developer.trade.gov/)
-
 I got a gentle ping today, as I often do when there is a new developer hub or API launched in the federal government. This time it was located within the Department of Commerce, for the International Trade Administration, and was a new developer area, with five APIs at [Developer.Trade.Gov](http://developer.trade.gov/).
 
 I quickly went through the new developer area, which I consider passing the test for a minimum viable developer area, possessing all the essential building blocks an API developer hub needs. The only places I feel it fell short is in the feedback loop, and providing machine readable definitions for each of the five APIs.

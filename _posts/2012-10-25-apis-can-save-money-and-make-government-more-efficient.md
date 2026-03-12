@@ -9,8 +9,6 @@ tags:
   - Government
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/federal-government/US-Department-of-Energy-KDF.png)](https://www.bioenergykdf.net/apidocs/restapi)
-
 While I was [out in Washington DC this week](/2012/10/24/my-presentation-to-the-presidential-innovation-fellows/), one of the Presidential Innovation Fellows in my workshop was from the Department of Energy, and shared one of the best examples of APIs delivering value I’ve seen in awhile.
 
 The [US Department of Energy has developed the Bioenergy Knowledge Discovery Framework](https://bioenergykdf.net/) (KDF), which is a platform for researchers and engineers from national laboratories, academia, and private industries to upload files, customize information online, and exchange knowledge with each other.

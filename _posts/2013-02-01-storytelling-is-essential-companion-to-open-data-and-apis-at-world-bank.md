@@ -12,8 +12,6 @@ tags:
   - APIs
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/world-bank/The-World-Bank-Logo.png)](http://data.worldbank.org/)
-
 I had the pleasure of being on stage with Tim Herzog ([@tgherzog](http://twitter.com/tgherzog)), a Open Data Specialist from the [World Bank](http://worldbank.com "World Bank") yesterday at the [DC API meetup at NPR](/2013/02/01/a-conversation-about-apis-in-washington-dc/). During the QA panel, at the end of the meetup, a question came from the audience, stating that open data from government is often boring, and thus is the reason much of what we see built on government isn't that exciting--alluding that there has to be more high value, exciting data that isn't being released.
 
 While I agree that much of the data made available from open government initiatives is boring and stale, and there are probably much better datasets available, I also think this is more of a storytelling problem, than a data problem. After the question was asked, I quickly answered by pointing to my left at Tim Herzog, and said the World Bank does an awesome job at this.

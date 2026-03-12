@@ -9,8 +9,6 @@ tags:
   - Docs
   - Open
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/widdershins_logo.png)](https://github.com/mermade/widdershins)
-
 Someone turned me on to [an OpenAPI Spec to Slate / Shins compatible markdown converter on Github](https://github.com/mermade/widdershins) this last week. I have been an advocate for [making sure we are still using machine readable API definitions for our API documentation, even if we are deploying the more attractive Slate](http://apievangelist.com/2015/06/25/we-should-be-generating-slate-from-swagger-so-we-maintain-a-machine-readable-core/). I've been encouraging folks to develop an attractive option for API documentation driven by OpenAPI Spec for some time, so I am happy to add this converter to my [API documentation research and toolbox](http://documentation.apievangelist.com).
 
 The OpenAPI Spec to markdown converter also introduced me to [a version of Slate that is ported to JavaScript / Node.js called Shins](https://github.com/mermade/shins). I'm going to add Shins to my API documentation research, and "widdershins" the OpenAPI Spec to markdown converter to my [API definition research](http://definitions.apievangelist.com/). The auto-generation of attractive API documentation like Slate and Shins seems like a valid approach to getting things done, and worth including in my research.

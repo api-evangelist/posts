@@ -11,8 +11,6 @@ tags:
   - Scale
   - Infrastructure
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3Scale/3scale-logo.png)](http://bit.ly/13esk6Q)
-
 I have been using [3Scale API Infrastructure](http://bit.ly/13esk6Q) to manage API Evangelis's public APIs for almost two years now. My APIs provide access to my blog posts, news I curate, and the tools I track on. I also use the same infrastructure to secure and manage various projects I work on. You can view a list of my APi deployments on my [API account management home page](https://apievangelist.3scale.net/).
 
 In reality I haven't been all that serious about the management of my APIs until now. I have enough content I’d like to make available via APIs, and I have a growing number of new APIs, some of which I'd like to make available for a fee, and see if I can’t generate some new revenue streams off my research.

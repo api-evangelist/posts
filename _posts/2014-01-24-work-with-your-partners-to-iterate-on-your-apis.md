@@ -8,8 +8,6 @@ tags:
   - Partners
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/att/att-logo.jpg)](http://developer.att.com/)
-
 I received a press release from AT&T last week, about a [new partnership with Sabre to develop what is called location information services (LIS)](http://www.att.com/gen/press-room?pid=25205&cdvn=news&newsarticleid=37388&mapcode=consumer%7Cmk-att-business-customer-). Ben Kepes has a [good summary of the partnership over at Forbes](http://www.forbes.com/sites/benkepes/2014/01/22/att-and-sabre-join-up-to-stalk-travellers-in-a-nice-way/), so I won't add my own analysis of what the partnership means. After speaking with the AT&T team today, and I’d prefer to focus on the importance of partnerships when developing your own APIs--sharing AT&T's wisdom with my audience
 
 When listening to Laura Merling and Chris Aron of AT&T talk about the Sabre partnership, I couldn't help but think about the importance of working with trusted partners, in developing your valuable API resources. In the open API world, many companies open themselves up to iterating on API resources with a large group of public developers, a process that can make your API strategy feel very schizophrenic—in contrast making designing, developing and iterating on API design in closed environment with trusted partners much more, well sane.

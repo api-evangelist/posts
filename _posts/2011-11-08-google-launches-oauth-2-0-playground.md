@@ -9,8 +9,6 @@ author:
 tags:
   - OAuth
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/Google-OAuth-2-Playground.png)](https://code.google.com/oauthplayground/)
-
 [Last March Google started support OAuth 2.0 for all of their APIs](http://www.apievangelist.com/2011/03/14/google-api-access-with-oauth-2-0/ "Last March Google support OAuth 2.0"), and has been pushing all developers to switch to using OAuth 2.0 in all applications.
 
 Today they announced the [OAuth 2.0 Playground](https://code.google.com/oauthplayground/) which allows developers to experiment with APIs using the OAuth 2.0 protocol, and understand how the protocol functions and will make your life easier.

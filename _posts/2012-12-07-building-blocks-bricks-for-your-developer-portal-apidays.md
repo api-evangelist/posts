@@ -8,8 +8,6 @@ author:
 tags:
   - Portal
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-days-paris-france/api-days-logo.png)](http://apidays.io/)
-
 I gave a talk at [API Days](http://apidays.io/ "API Days") in Paris, France this week.  This talk was using some of my usual material around the [building blocks of an API](http://apievangelist.com/the_building_blocks_of_a_successful_api.php "building blocks of an API"). As I always do, I omitted some slides and evolved my presentation a little further.  This is one benefit of using [reveal.js](http://lab.hakim.se/reveal-js/#/ "reveal.js"), driven from the API Evangelist database--I can evolve my content and make better with each talk.
 
 I discussed 5 main areas to consider when building your API developer portal:

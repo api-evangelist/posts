@@ -10,8 +10,6 @@ tags:
   - Environment
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/panoptix/panoptix-appcloud.png)](http://whatspossible.johnsoncontrols.com/community/panoptix)
-
 I had a chance to talk with the [Johnson Controls](http://www.johnsoncontrols.com/content/us/en.html), [Panoptix API](https://developer.panoptix.com/ "Panoptix API") team this last week. The [Panoptix® community](http://whatspossible.johnsoncontrols.com/community/panoptix) offers:
 
 > _a combination of software and services that easily and cost-effectively helps customers see more so they can do more to achieve optimized building performance and energy efficiency_

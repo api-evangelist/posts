@@ -10,8 +10,6 @@ tags:
   - APIs
   - Product
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/brita-infinity-pitcher.jpg)](https://www.amazon.com/oc/dash-replenishment-service)
-
 [I was reading a post on Amazon's new SMART(Surveillance Marketed As Revolution Techonology) water pitcher](http://www.fool.com/investing/general/2016/03/09/amazons-new-smart-pitcher-is-a-piece-of-a-larger-p.aspx), which is more about Amazon's new connected device partner commerce strategy, than it is about this individual connected device example. The quote from the story explains the strategy pretty well.
 
 _Last week, Amazon.com curiously devoted an entire press release to a water pitcher. But not just any water pitcher. Rather, Amazon detailed a new partnership with Brita to bring consumers the $45 smart Brita Infinity Pitcher. Just connect it to your Wi-Fi, and the Brita Infinity Pitcher will automatically track how much water passes through its filter. Then, using Amazon Dash Replenishment, it'll automatically order a new filter when a replacement is needed._

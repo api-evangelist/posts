@@ -8,8 +8,6 @@ author:
 tags:
   - Voice
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/zypr/zypr-logo.png)](https://www.zypr.net/)
-
 I’m working through lists of APIs and API service providers who I’ve rated pretty highly because of their work in the past, but red flags have gone up because I’ve haven’t seen a blog post, tweet or commit from them lately. One of the service providers I’m reviewing is [Zypr](https://www.zypr.net/ "Zypr"), which providers voice enabled architecture built on popular APIs.
 
 Zypr fits in with my vision of where APIs are going, because Zypr is doing the same thing as aggregation, automation and other trending service providers, but the end goal is this use case is voice. In Zyprs own words:

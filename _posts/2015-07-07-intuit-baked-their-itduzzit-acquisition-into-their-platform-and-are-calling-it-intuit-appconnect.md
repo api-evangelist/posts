@@ -10,8 +10,6 @@ author:
 tags:
   - Platform
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/itduzzit_formula.png)](https://developer.intuit.com/appconnect)
-
 [I wrote about Intuit's acquisition of API reciprocity provider itDuzzit last summer](http://apievangelist.com/2014/08/19/providing-users-with-reciprocity-tools-so-important-intuit-purchases-itduzzit/), and [earlier this month they made the acquired technology available as a new platform extension](https://developer.intuit.com/blog/2015/06/12/announcing-intuit-appconnect-beta), they are calling [Intuit AppConnect Beta](https://developer.intuit.com/docs/0200_appconnect). I have been tracking on [API reciprocity providers](http://reciprocity.apievangelist.com/companies.html) for some time now, something you see API providers adopting at an increasing rate, as a standard building block for their API ecosystems.
 
 API reciprocity tools and services like Intuit AppConnect, help connect APIs, in ways that even non-developers can take advantage of, making the overall API conversation, available to a much wider audience. Intuit describes their new offerings as:

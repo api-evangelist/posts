@@ -14,8 +14,6 @@ tags:
   - API Management
   - Value
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/wso2/wso2-logo-white-800X360.jpg)](http://wso2.com/ "WSO2")
-
 I will be doing a webinar with Chris Haddad ([@cobiacomm](https://twitter.com/cobiacomm)) of [WSO2](http://wso2.com/ "WSO2") on October 9th, where we discuss [API management best practices for digital business ecosystem](http://wso2.org/library/webinars/2012/10/wso2-case-study-api-management-building-blocks-business-value/ "API management best practices for digital business ecosystem").
 
 WSO2 is one of my partner API server providers. I’m a big supporter of what they do because they were the first open source API service provider to emerge out of the [20 API service providers](http://apievangelist.com/2012/06/15/api-service-provider-roundup-for-2012/ "20 API Service Providers") in the space.

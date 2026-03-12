@@ -11,8 +11,6 @@ tags:
   - Open
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/github/github-logo.png)](https://github.com/ "Github")
-
 [Github](https://github.com/ "Github") is a frequently used service in the toolbox of API owners. The most common use of Github is for publishing API SDKs in a variety of languages and platforms. But when it comes to truly being an "open API", some API owners are actually open sourcing their API design using Github.
 
 Open sourcing the design of your API will not be sensible for every provider. Many companies are looking to ensure developers use their API, maintaining an advantage over competitors. However in some cases, open sourcing the design of your API is a way to ensure interoperability between partners or among mutliple companies within a certain business sector.

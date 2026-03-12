@@ -11,8 +11,6 @@ tags:
   - Amazon
   - Power
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/aws-api-gateway-icon.png)](https://aws.amazon.com/api-gateway/)
-
 I sat down for a second, more in-depth look at the [Amazon API Gateway](https://aws.amazon.com/api-gateway/). When it first released [I took a stroll through the interface, and documentation](http://apievangelist.com/2015/07/09/the-new-aws-api-gateway-anyone-who-does-not-do-this-will-be-fired-thank-you-have-a-nice-day--jeff-bezos/), but this time, I got my hands dirty playing with the moving parts, and considering how the solution fits into the overall API deployment picture.
 
 **API Design Tools**  

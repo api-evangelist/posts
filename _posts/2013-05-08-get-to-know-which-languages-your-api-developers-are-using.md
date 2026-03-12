@@ -8,8 +8,6 @@ author:
 tags:
   - Developers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/xero/xero-logo.png)](http://developer.xero.com/ "Xero Accounting Software")
-
 [Accounting API platform Xero](http://developer.xero.com/ "Xero Accounting Software") has been taking a deeper look into the languages that their developers are using when integrating with the Xero API. Currently there are 1,600 active applications communicating with the Xero API, from a mix of Xero add-on partners to custom integrations engineered by 3rd party developers.  But which programming languages were they using?
 
 To create a snapshot of what tools developers are using, Xero needed to find the best source to obtain this data. Xero doesn't ask developers which platform they use upon registration, and since Xero doesn't require any sort of user agent or other identifying signature, it was difficult to know where to best acquire the data they needed.

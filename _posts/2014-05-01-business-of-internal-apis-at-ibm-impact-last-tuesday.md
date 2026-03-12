@@ -10,8 +10,6 @@ tags:
   - Internal
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/ibm-impact-2014/ibm-impact-logo.png)](http://www-01.ibm.com/software/websphere/events/impact/)
-
 I spoke on the business of internal APIs at the [IBM Impact conference in Las Vegas](http://www-01.ibm.com/software/websphere/events/impact/), this last Tuesday. About 15 people attended my talk, but the conversations I had with folks afterwards, signaled to me that my talk was a success.
 
 I do not expect IBM or the enterprise to listen to my brand of API evangelism, but I’m still determined to better understand the collision of the enterprise with the open world of web APIs. Even if I convert just one or two individuals at any event, my mission was a success.

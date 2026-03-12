@@ -11,8 +11,6 @@ tags:
   - Access
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/state-government/hawaii-gov-logo.png)](https://portal.ehawaii.gov/page/subscriber-services/)
-
 The question of whether government should charge for APIs and other digital services came up again this week during a Google Hangout I did with Luke Fretwell([@lukefretwell](https://twitter.com/lukefretwell)) of [@GovFresh](https://twitter.com/govfresh). I began exploring this concpet last year in my post, [Should the Government Subsidize and Profit from Data Market](http://apievangelist.com/2012/02/01/should-the-government-subsidize-and-profit-from-data-markets/ "Should the Government Subsidize and Profit from Data Market"), after talking with several city government open data folks.
 
 Luke had pointed me to a page on the [Hawaii.gov website that described their subscriber services](https://portal.ehawaii.gov/page/subscriber-services/):

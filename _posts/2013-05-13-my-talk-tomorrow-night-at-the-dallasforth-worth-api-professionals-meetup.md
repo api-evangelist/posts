@@ -8,8 +8,6 @@ author:
 tags:
   - My
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/dfw-api-meetup-group/dfw-api-meetup-group.jpeg)](http://www.meetup.com/DFW-API-Professionals/events/115600132/ "DFW API Professional Meetup Group")
-
 After looking through the list of folks who have RSVP'd for the [DFW API Professionals Meetup in Dallas tomorrow night](http://www.meetup.com/DFW-API-Professionals/events/115600132/), it looks like an interesting mix of tech and business folk. The tech group is definitely the larger, with a mix of mobile, web and enterprise. The business folks look like a mix of VC, project manager, marketing and startups.
 
 I'm heading out to Dallas in the morning, and I am spending my afternoon preparing my talk. When it comes to meetups, I like to wait until the last moment, see who has RSVP'd and shift my talk to being more tech, more business or more API 101 depending on the audience. I like the mix of people I'm seeing RSVP'd for tomorrow night.

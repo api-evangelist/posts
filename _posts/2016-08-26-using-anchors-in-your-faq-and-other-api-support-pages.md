@@ -7,8 +7,6 @@ atomdate: 2016-08-26T16:00:00.000Z
 tags:
   - Support
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Web_API_User_Guide_-_Spotify_Developer.png)](http://developer.spotify.com)
-
 I was going through some of the Twitter feeds of the APIs that I track on and noticed Spotify's team providing support to some of their API users with quick links / anchors to the answers in their API user guide available at [developer.spotify.com](http://developer.spotify.com). This might sound trivial, but having an arsenal of these links, so you can tweet out like Spotify does can be a real time saver.
 
 > [@SoundiizExp](https://twitter.com/SoundiizExp) hello! You have reached the rate limit! More info available here: [https://t.co/PjBWWqDlfr](https://t.co/PjBWWqDlfr)

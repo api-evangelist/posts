@@ -7,8 +7,6 @@ author:
 tags:
   - Hypermedia
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hypermedia.png)](http://hypermedia.apievangelist.com)
-
 I have been spending a lot more time in 2014 [learning, discussing, and telling stories about hypermedia](http://hypermedia.apievangelist.com). Early this year [I identified that hypermedia was moving beyond just academic discussion](http://apievangelist.com/2014/01/07/what-is-a-hypermedia-api/), and entering the mainstream consciousness of the API community. I do not consider myself a hypermedia expert, and had a lot more to learn, and by moving hypermedia further into my regular research, over time this education would come.
 
 At the end of 2014, my deep technical knowledge of hypermedia, and the nuances between each of the formats isn’t there yet—I just do not have the production experience with any of them to know what I’m doing. I can provide an overview of the technology, the various formats, and the people behind each movement, as well as point to some real world hypermedia implementations, but when it comes to getting down to the details I’m just not there yet.

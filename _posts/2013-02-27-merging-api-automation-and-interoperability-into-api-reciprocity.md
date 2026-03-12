@@ -9,8 +9,6 @@ tags:
   - Automation
   - Interoperability
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/reciprocity-trends.png)](http://apievangelist.com/trends/reciprocity.php)
-
 While I’m wading through dictionaries and thesauruses in an effort to find a [more appropriate term “governance”, when looking at SOA governance through the API lense](/2013/02/27/what-is-better-word-for-governance-when-it-comes-to-apis/)\--I figured I’d flush out another area I’m working to define a term that appropriately describes automation and interoperability using APIs.
 
 Yesterday I took a look at [31 backend as a service (BaaS) providers](/2013/02/26/75-features-from-across-31-baas-providers/), in hopes of understanding more about what value they provide. Today I'm diving into the automation section of my new [API trends area](/trends/). While reviewing, I noticed the exact same companies that were under automation were also in interoperability. So I set out to find a new word to apply to this next generation of ETL providers that are building bridges between cloud platforms using APIs, as well as legacy data connections.

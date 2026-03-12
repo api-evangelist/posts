@@ -9,8 +9,6 @@ tags:
   - Documentation
   - Swagger
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/reverb-for-developers-swagger.png)](https://developers.helloreverb.com/swagger/ "Swagger ")
-
 It is becoming more common for API providers to deliver documentation using what's known as [interactive API documentation](/buildingblocks/interactive_documentation.php "interactive API documentation"), instead of the usual static API documentation. Understanding how to use an API can be tough sometimes, and rather than just reading about it how it works, interactive API documentation allows you make real calls against an API, while learning about the interface.
 
 While there are several approaches to delivering interactive API documentation, my personal favorite is using [Swagger](https://developers.helloreverb.com/swagger/ "Swagger "). Swagger comes built in with [3Scale](http://3scale.net "3Scale"), which is the API management platform I use for the [API Evangelist API](https://apievangelist.3scale.net/), but Swagger is available for anyone to use as an [open source project](https://github.com/wordnik/swagger-core/wiki).

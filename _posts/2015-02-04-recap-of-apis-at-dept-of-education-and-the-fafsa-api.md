@@ -9,8 +9,6 @@ tags:
   - Education
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/ed/fafsa-form.jpg)](https://ed-data.github.io/fafsa-api/)
-
 My work on [APIs for the Department of Education](http://ed-data.github.io/developer/), and the [FAFSA API](http://ed-data.github.io/fafsa-api/) began while I was working in Washington DC as a Presidential Innovation Fellow. Shortly after leaving DC, I was informed that conversations around an API for the FAFSA had been put on back-burner, and in response I developed a prototype FAFSA API to help jumpstart the conversation.
 
 In December 2013, I went to one of the two data jams put on my the White House and Dept of Education, up in Palo Alto, CA at Stanford. Then, in January 2014 I heard there was talk at the secretary level, about officially pursuing a FAFSA API. Yay! By February I got an email that there was an opportunity for funding such an initiative, if there was a technical specification available. Three days layer [I finished a couple of options](http://ed-data.github.io/developer/2014/02/20/fafsa-api-technical-specification-draft-raw/), which ultimately resulted in a [draft technical proposal for a possible FAFSA API](http://ed-data.github.io/developer/2014/02/21/fafsa-api-technical-specification-draft/).

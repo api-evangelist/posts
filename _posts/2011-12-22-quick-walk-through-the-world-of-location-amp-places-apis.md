@@ -10,8 +10,6 @@ tags:
   - Location
   - APIs
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/hyp3rl0cal/local-search-map-pin.png)](http://www.designdelux.com/)
-
 [**Photo Credits**](http://www.designdelux.com/)
 
 I took a walk through what I am calling the locations and places API landscape today. Most of these APIs I’m familiar with, but as the [CityGrid API Evangelist](http://www.citygridmedia.com/developer/blog/citygrid-api-evangelist/ "CityGrid API Evangelist"), I’m getting an opportunity to immerse myself into this new local, social mobile world.

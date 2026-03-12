@@ -9,8 +9,6 @@ tags:
   - Design
   - Editor
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-design.png)](http://design.apievangelist.com/)
-
 In the early days, there was just one API design tool to use, [Apiary.io](http://apiary.io). Now at the end of 2014, we have four separate API design tools to choose from. I credit Apiary.io for opening up this new era of API design, expanding the API life cycle, and emphasizing healthy API design practices over just API deployment and management.
 
 In my opinion the expansion of APIs design formats, and API design tooling is extremely important to the space, allowing API providers to have conversation around API design with developers, and key business stakeholders, before development actually begins. However, the benefits of healthy API design, using leading API definition formats, goes well beyond just design, and the rewards can be seen throughout the entire API lifecycle.

@@ -16,8 +16,6 @@ tags:
   - Postman Collections
   - APIs.jso
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/postman/postman-logo.png)](https://www.postman.com/)
-
 I've been a [Postman](https://www.postman.com/) user for a while, as a tool for quickly making API calls against the APIs I use most, and explore the new APIs I discover daily. As I use Postman, I can't help but think the concept of assembling collections of API calls using Postman, is in sync with part of our vision for [APIs.json](http://apisjson.org)\--we just need a common way to communicate.
 
 APIs.json is not just for defining the API operations that exist within a specific domain, which is the most common approach, it is also about assembling collections of multiple APIs, for a specific purpose. In my mind, the motivations for assembling Postman collections, and APIs.json collections are definitely in alignment.

@@ -12,8 +12,6 @@ tags:
   - Evangelism
   - Internal
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/panoptix/johnson-control-panoptix.png)](https://whatspossible.johnsoncontrols.com/community/panoptix "building efficiency API")
-
 I just had a great conversion with John Bernd ([@jkbernd](https://twitter.com/jkbernd)) and Simone Vigano ([@viganosimone](https://twitter.com/viganosimone)) of [Johnson Controls (JCI)](http://www.johnsoncontrols.com/), who lead efforts at the building efficiency API, [Panoptix](https://whatspossible.johnsoncontrols.com/community/panoptix "building efficiency API"). They shared several great stories with me, I’ll trickle out over the next week, with the first one about internal evangelism.
 
 [Internal evangelism, whether your API is public or private, is something I’ve advocated for pretty heavily over the last few years](http://apievangelist.com/2011/09/29/api-evangelism-is-equal-parts-internal-partner-and-public-outreach/ "Internal evangelism, whether your API is public or private, is something I’ve advocated for pretty heavily over the last few years"). Lack of internal evangelism around an API can be the number on reason you get your API defunded within any size organization. Basically if the rest of the company, included your bosses , don’t know about your API and the success you’ve had, your done. So tell stories about your API.

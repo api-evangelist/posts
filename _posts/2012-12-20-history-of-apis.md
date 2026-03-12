@@ -9,8 +9,6 @@ tags:
   - History
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/Tag-Cloud-API-History.png)](http://apievangelist.com/history/ "History of APIs")
-
 The history of APIs is something I discuss a lot.  The history of modern web APIs is something I include in all my talks, and I'm always surprised by how little people understand some of the more popular APIs that got us to where we are at.
 
 To further support this area, I've launched a [History of APIs](http://apievangelist.com/history/ "History of APIs") section where I've hung the stories I've already done in this area, and will be looking to dig up the history on other APIs that are shaking things up.

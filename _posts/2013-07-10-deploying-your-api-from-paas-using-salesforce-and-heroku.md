@@ -9,8 +9,6 @@ tags:
   - Sales
   - Salesforce
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/salesforce/salesforce-logo.png)](http://salesforce.com)
-
 The world of API management is expanding, and to support this growth I've broke up my research into three separate buckets: [API design](http://design.apievangelist.com "API Design"), [API deployment](http://deployment.apievangelist.com "API Deployment") and [API management](http://management.apievangelist.com "API Management").
 
 Zooming in on API deployment, one of the ares I'm looking to educate the masses about, is quick and dirty API deployment using existing PaaS. Providing ways for companies, and their internal problem owners to rapidly deploy APIs via their existing tools and services.

@@ -12,8 +12,6 @@ tags:
   - APIs
   - Commercial
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/baas/openi/openi-logo.png)](http://www.openi-ict.eu/)
-
 I just spent 30 minutes on the phone with an important group in the European Union called [OPENi](http://www.openi-ict.eu/ "OPENi"), which is aiming to be an open-source, web-based, framework for integrating applications with cloud-based services via APIs. Straight from the organization's mouth:
 
 > _OPENi aims at inspiring innovation in the European mobile applications industry, by radically improving the interoperability of cloud-based services and trust in personal cloud storage through the development of a consumer-centric, open source mobile cloud applications platform._

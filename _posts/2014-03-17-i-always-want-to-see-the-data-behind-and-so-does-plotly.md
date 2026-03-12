@@ -8,8 +8,6 @@ author:
 tags:
   - Data
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/plotly/plotly-logo.png)](https://plot.ly/)
-
 I don’t have a love of infographics, mostly because they more graphic, than info, and [I’ve stated before that all infographics should have the data behind them](http://kinlane.com/2013/01/17/2013-is-year-the-infographic-comes-out-of-closet/). I’ve been working with data of over 20 years, I thoroughly believe in its importance when used right, but it seriously pisses me off when it is distorted in support of any argument—whether I agree with the argument or not.
 
 This sentiment is shared by a startup I was introduced this last week, called [Plot.ly](https://plot.ly/). I had a great conversation Nolan Browne the co-founder & chief business officer at Plot.ly, and he conveyed to me about how serious Plot.ly is about providing embeddable, API driven data analysis and visualizations tools that really empower data stewards.

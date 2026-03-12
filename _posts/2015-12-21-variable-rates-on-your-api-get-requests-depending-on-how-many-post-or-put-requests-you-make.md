@@ -10,8 +10,6 @@ tags:
   - PUT
   - POST
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-scatter-plot.png)](http://plans.apievangelist.com)
-
 I'm down in the detail of how we craft our API plans, looking at the approaches of almost 100 different providers, and [working to establish a common schema for cataloging the plans of these popular APIs](http://alpha.apievangelist.com/2015/12/15/playing-with-a-json-representation-for-the-plans-for-many-of-the-leading-apis/). [I have already talked about dialing in your API pricing down to the endpoint and level,](http://apievangelist.com/2015/12/15/dialing-in-your-api-pricing-down-to-the-endpoint-and-verb-level/) but was something I wanted to take a little bit further.
 
 In my previous story, I talked about how mature API providers charge different rates for POST, and PUT requests, than they did for GET requests. Using this scenario, what if we wanted to incentivize and reward behavior through variable rate pricing at the HTTP verb level, to give developers more ownership over an API, including better access and pricing structures the more they contribute.

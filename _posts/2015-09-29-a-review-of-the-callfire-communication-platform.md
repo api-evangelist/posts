@@ -10,8 +10,6 @@ tags:
   - Review
   - Platform
 ---
-[![CallFire Messaging](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/callfire/callfire-logo.png)](https://www.callfire.com/)
-
 This is a review of the [communication API platform CallFire](https://www.callfire.com/), crafting a snapshot of platform operations, from an external viewpoint, providing the CallFire platform team with a fresh take on their API from the outside-in. The criteria applied in this review is gathered from looking at the API operations across thousands of API providers, and aggregating best practices, into a single, distilled review process.
 
 This review has been commissioned by CallFire, but as anyone who's paid me for a review knows, money doesn't equal a favorable review—I tell it like I see it. My objective is to help CallFire see their platform through a different sense, as developers might see their platform. It can be hard to see the forest for the trees, and I find the API review is a great way to help API providers see the bigger picture.

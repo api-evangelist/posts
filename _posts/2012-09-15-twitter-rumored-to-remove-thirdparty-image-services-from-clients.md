@@ -13,8 +13,6 @@ tags:
   - Clients
   - Services
 ---
-![](https://s3.amazonaws.com/kinlane-productions2/twitter/twitter-image+service.jpeg)
-
 I was just reading a post via [Buzzfeed](http://www.buzzfeed.com/ "BuzzFeed"), that [Twitter was going to remove third-party image services from its apps](http://www.buzzfeed.com/jwherrman/twitter-is-removing-third-party-image-services-fro "Twitter was going to remove third-party image services from its apps"). _“According to a person who was briefed on the company's plans”_, the changes will be coming in the next updates to the Twitter client(s).
 
 "They're trying to control those eyeballs on their apps, they're an ad-based company, they make money that way,” says Twitpic founder Noah Everett, according to [Buzzfeed](http://www.buzzfeed.com/ "BuzzFeed").

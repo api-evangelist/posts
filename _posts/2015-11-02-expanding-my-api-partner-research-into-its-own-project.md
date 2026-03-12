@@ -9,8 +9,6 @@ tags:
   - Project
   - Research
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-partner.png)](http://partners.apievangelist.com)
-
 As I explore through API portals, looking for the successful approaches to APIs, I'm increasingly seeing formal partner programs, [resulting in me expanding the topic as its own research area](http://partners.apievangelist.com/index.html). My objective is to keep track of how the APIs I track on operate their partner programs, resulting in the list of organizations I reference in my research. I also want to try and identify what some of the common building blocks of API partner programs are, in addition to the news stories that I have curated about partnerships--which is the fuel of my research.
 
 I have recorded 31 separate partner programs, which I found through the course of my API monitoring and research. 

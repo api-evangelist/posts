@@ -12,8 +12,6 @@ tags:
   - My
   - Zapier
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/zapier/zapier-logo.jpeg)](https://zapier.com)
-
 I depend on a [number of cloud services to make my personal and business world go round](http://kinlane.reclaimyourdomain.org/2014/04/14/details-about-the-52-online-services-i-depend-on/). Even as a programmer, who can hand code just about any script to integrate, automate, and orchestrate my world, I find myself using more reciprocity services like [IFTTT](https://ifttt.com) and [Zapier](https://zapier.com).
 
 [API reciprocity providers](http://reciprocity.apievangelist.com/) are one of the most important evolutions of the API space, because they make the whole world of APis accessible to the normals, and not just to the geek crowd. My time is valuable, and personally I'd rather being using existing tools and services, rather than re-inventing the wheel, and when it comes to orchestrating my online life, I need all the help I can, which is why I am looking IFTTT and Zapier for help.

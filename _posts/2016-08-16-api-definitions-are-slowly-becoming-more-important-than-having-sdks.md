@@ -9,8 +9,6 @@ tags:
   - Definition
   - SDKs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-icon.png)](http://definitions.apievangelist.com)
-
 As the debate over [whether you need an SDK for your API or not](https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-icon.png) has rumbled over the last couple of years, API specification formats like OpenAPI Spec, Postman, and API Blueprint have been gaining traction. As this has progressed, I've asked myself several times whether or not API providers even need SDKs anymore. Not just because of the complexities of developing and maintaining, but because more developers are using web clients like Postman and DHC to evolve their integrations.
 
 Apigee Explorer and Swagger UI documentation demonstrated that many developers needed to play with an API as they were learning about what resources were available, and how to use them. I think the evolution of API clients like Postman, DHC, PAW, and others have shown that this phase of playing, exploration, and non-code integration can go well beyond just integration and should actually be neverending across stops along the API life cycle.

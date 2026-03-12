@@ -12,8 +12,6 @@ tags:
   - Platforms
   - API Platforms
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/federal-government/US_white_house_logo.png)](http://www.whitehouse.gov/)
-
 I came across this on the White House blog today, “[Request for Information on Public Access to Digital Data and Scientific Publications](http://m.whitehouse.gov/blog/2011/11/07/request-information-public-access-digital-data-and-scientific-publications "Request for Information on Public Access to Digital Data and Scientific Publications")”.
 
 The [America COMPETES Reauthorization Act of 2010](http://thomas.loc.gov/cgi-bin/bdquery/z?d111:H.R.5116: "America COMPETES Reauthorization Act of 2010"), signed by President Obama earlier this year, calls upon OSTP to coordinate with agencies to develop policies that assure widespread public access to and long-term stewardship of the results of federally funded unclassified research. Towards that goal, OSTP last week released two Requests for Information (RFI) soliciting public input on long term preservation of and public access to the results of federally funded research, including digital data and peer-reviewed scholarly publications.

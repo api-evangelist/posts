@@ -8,8 +8,6 @@ tags:
   - Slack
   - Requirements
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/slack/slack_api_logo.png)](ps://api.slack.com)
-
 I am using my [minimum viable API operations definition tool](http://minimum.viable.api.operations.definition.apievangelist.com/) to continue profiling the API sector, this time to size up the Slack API community. Slack is kind of a darling of the API space, so it kind of seem silly to profile them, but profiling those who are doing this API think right, is what API Evangelist all about--whether I follow the hype or not.
 
 Using my minimum viable API definition, I went through the Slack API portal looking for what I'd consider to be the essential building blocks that any modern API platform should have.

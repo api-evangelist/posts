@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-days-madrid/api-days-editerranea-logo.png)](http://mediterranea.apidays.io/)
-
 I just got back from Madrid, Spain, where I spoke at [APIdays Mediterranea](http://mediterranea.apidays.io/). I really enjoy the API Days format, because the events are small, intimate API learning and networking opportunities.
 
 While at API Days I got to hang out with many of the usual suspects Andy Thurai of [Intel](http://cloudsecurity.intel.com/api-management "API Management"), Guillaume Balas of [3Scale](http://3scale.net "API Management"), Ronnie Mitra of [Layer7](http://www.layer7tech.com/ "API Management"), Bruno Pedro of [CloudWork](http://cloudwork.com "CloudWork"), Swift of [SendGrid](http://sendgrid.com) and API Days organizer Mehdi Medjaoui of [WebShell](http://webshell.io).

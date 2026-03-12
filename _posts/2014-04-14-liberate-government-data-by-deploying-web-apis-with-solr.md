@@ -11,8 +11,6 @@ tags:
   - Government
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apache-solr/apache-solr-logo.png)](https://lucene.apache.org/solr/)
-
 I [reviewed the deployment the FBOpen API the other day](http://apievangelist.com/2014/04/08/18f-shows-what-is-possible-in-government-with-fbopen-api/), which is a simple API resource of business opportunities with the U.S. Federal Government. An interesting aspect of the FBOpen implementation was that [18F](https://18f.gsa.gov/) used [Solr](https://lucene.apache.org/solr/) to deploy the API layer.
 
 Solr is an [open source search tool developed by the Apache Software Foundation](https://lucene.apache.org/solr/), which can take any document store and easily generate a simple, yet pretty powerful web API—opening up access to content, without costly infrastructure. I showcased how the [Free Law Project launched the Court Opinion API, using Solr](http://apievangelist.com/2013/11/20/api-evangelist-endpoint-using-solr/), opening up access to archives of legal documents from across the country.

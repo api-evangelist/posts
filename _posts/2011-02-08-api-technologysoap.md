@@ -9,7 +9,7 @@ tags:
   - SOA
   - Technology
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/SOAP.png)](http://oreilly.com/catalog/9780596000950)SOAP, or [Simple Object Access Protocol](http://en.wikipedia.org/wiki/SOAP "SOAP"), is an XML-based protocol that allows applications to exchange information over the Internet using [HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol "Hypertext Transfer Protocol") or [RPC](http://en.wikipedia.org/wiki/Remote_procedure_call "Remote procedure call").
+SOAP, or [Simple Object Access Protocol](http://en.wikipedia.org/wiki/SOAP "SOAP"), is an XML-based protocol that allows applications to exchange information over the Internet using [HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol "Hypertext Transfer Protocol") or [RPC](http://en.wikipedia.org/wiki/Remote_procedure_call "Remote procedure call").
 
 SOAP uses Extensible Markup Language (XML) for its message format. The SOAP Messaging Framework consists of:
 

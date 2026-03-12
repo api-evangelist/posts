@@ -11,8 +11,6 @@ tags:
   - Analysis
   - Visualization
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/rason.png)](https://rason.com/)
-
 I came across [an interesting piece of technology today while doing new curation for API.Report](http://api.report/2015/03/10/frontline-systems-rason-modeling-language-and-rest-api-make-advanced-analytics-easy-in-web-and-mobile-applications/). [RASON](https://rason.com/), an interesting approach to API driven analytics and potential UI and visualization, that kind of resembles what I have been envisioning for one possible future. The analytics tool is created by a company called Frontline Systems, and I’ll let them articulate what it is:
 
 > _RASON™ software is designed to make it much easier to create, test and deploy analytic models that use optimization, simulation, and data mining. RASON stands for Restful Analytic Solver™ Object Notation._

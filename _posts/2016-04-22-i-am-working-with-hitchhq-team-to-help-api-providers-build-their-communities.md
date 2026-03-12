@@ -9,8 +9,6 @@ author:
 tags:
   - Providers
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Hitch-FMA-Screenshot.png)](https://www.hitchhq.com/)
-
 I'm always on the hunt for like-minded folks who I can partner with, and bring needed products, services, and tools to the API space. If someone is selling something to the API space, its likely I have had a conversation with them about the sector at some point. I always enjoy these regular encounters, but its the handful of them that continue, and evolve into deeper relationships that I enjoy the most.
 
 One of most recent relationship which I have been cultivating, is with a new [API startup called Hitch](https://www.hitchhq.com/). I have a long history with both the founders Bruno Pedro ([@bpedro](https://twitter.com/bpedro)) and Luke Miller ([@lukeam](https://twitter.com/lukeam)), in their previous lives with API Changelog and [3Scale](https://3scale.net), but began talking with them more heavily bout their vision for Hitch earlier this year. I have spent considerable time with Luke and Bruno discussing the current state of the API life cycle, from design to deprecation, helping contribute to their vision and road map in any way that I can.

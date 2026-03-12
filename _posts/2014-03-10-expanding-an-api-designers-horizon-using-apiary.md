@@ -8,8 +8,6 @@ author:
 tags:
   - Design
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apiary/apiary-logo-300x93.png)](http://apiary.io/)
-
 I spent some time developing a [hello world product API with Blueprint, RAML And Swagger](http://apievangelist.com/2014/03/08/hello-world-product-api-with-blueprint-raml-and-swagger/) this last week, and along the way I had several experiences that I think are influential in the API design process. One of these was while I was designing my product API using [Apiary.io](http://apiary.io).
 
 After I had gotten to a certain point in my design, and I wanted to see it in action, so I clicked on the preview button. A panel slid out showing me the interactive documentation my developers will see when it is published, and potentially see how it will work with sample API responses, and code samples in a variety of programming languages.

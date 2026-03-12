@@ -8,8 +8,6 @@ author:
 tags:
   - APIStrat
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-practice-event-2-sold-out.png)](http://www.apistrategyconference.com/)
-
 I added the slide decks for the keynotes and sessions we have so far from [API Strategy & Practice](http://www.apistrategyconference.com/) to the conference [session page](http://apistrategyconference.com/sessions.php). As soon as we get videos, I will be linking them on the session page as well.
 
 Here is what we have for the two days of the conference.

@@ -12,8 +12,6 @@ tags:
   - Tone
   - Consumer
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/slack-platform-keeping-in-touch.png)](https://api.slack.com)
-
 One of the side effects of the recent bot craze, is that I'm getting to showcase the often very healthy API practices of Slack, as they grow, scale, and manage their developer ecosystem. Slack is beginning to renew my faith that there are API providers out there who give a shit, and aren't just looking to exploit their ecosystems. There are two Slack blog posts that have triggered these thoughts, [one on the Slack platform road map](https://medium.com/slack-developer-blog/the-slack-platform-roadmap-34067b054177#.mhuax8lrn), and [a little thing about release notes](https://slackhq.com/a-little-thing-about-release-notes-997d2e06842d#.hmmeyia86), both of which reflect what I would love to see other API providers emulate in their platform operations.
 
 Slack is going the extra mile to set the right tone in their community, with what I consider to be some of the essential communication building blocks of API operations, but they simply call **"keep in touch"**:

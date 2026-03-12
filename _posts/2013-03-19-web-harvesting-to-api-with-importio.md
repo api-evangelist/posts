@@ -9,8 +9,6 @@ tags:
   - Web
   - Harvesting
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/import-io/import-io-logo.png)](http://import.io "Import.io")
-
 I had a demo of a new [data extraction service](http://import.io) today called [Import.io](http://import.io "Import.io"). The service allows you to harvest or scrape data from websites and then output in machine readable formats like JSON. This is very similar to Needlebase, a popular scraping tool that was acquired and then shut down by Google early in 2012. Except I’d say Import.io represents a simpler, yet at the same time a more sophisticated approach to harvesting of web data and publishing than Needlebase.
 
 **Extract**  

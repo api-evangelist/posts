@@ -10,8 +10,6 @@ tags:
   - Politics
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_09_14_at_10.48.11_am.png)](https://www.twilio.com/enterprise)
-
 [While reviewing the details of Twilio's new enterprise plan](https://www.twilio.com/enterprise), the one thing that stood out for me was the strong emphasis of the security and legal elements within this level of business integration. [I've talked out security being included as part of plan details](http://apievangelist.com/2016/01/05/security-will-increasingly-be-used-as-component-of-tiered-api-planning/) [before](http://apievangelist.com/2016/01/05/security-will-increasingly-be-used-as-component-of-tiered-api-planning/), and is something I will keep talking about as leading providers continue to bring it front and center as part of API plans and operations.
 
 [Advanced security is the focal point for Twilio's new enterprise plan](https://www.twilio.com/enterprise), providing audit events, and public key client validation, but shortly after showcasing these security features, the next section is all about providing finer grain access management including customizable role-based access control (RBAC), and Single Sing-On (SSO). Demonstrating how important security is overall to the average enterprise customer.

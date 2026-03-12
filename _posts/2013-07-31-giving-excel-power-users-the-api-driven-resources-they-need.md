@@ -9,8 +9,6 @@ tags:
   - Resources
   - Power
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/octoparts/octopart-logo.jpg)](http://octopart.com)
-
 I've been an advocate for non-developers being one of the most important audiences for your API, since I started API Evangelist. I know us developers love to believe we are the primary force behind the success of APIs like Twitter--it is partially true, we are. But we also had the assistance of the power Twitter user in getting the good word out. Tech savvy journalists, marketing and other folks who get the platform, API, and value that lies within, while also possessing a large or very influential audience.
 
 Another example of this dynamic I'm seeing unfold in slow motion is from web APIs that are driving the Excel spreadsheet. I've posted before about [using Google Spreadsheets in conjunction with APIs](http://apievangelist.com/2011/04/11/twitter-api-is-not-just-for-developers/), and I just saw a another [great example of using Microsoft Excel from the electronics parts provider Octoparts](http://octopart.com/blog/archives/2013/7/octopart-in-excel).

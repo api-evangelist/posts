@@ -10,8 +10,6 @@ tags:
   - Europe
   - 4
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/apistrat-berlin-2015/apistrat-apidays-logo2.png)](http://apidaysberlin2015.apistrat.com/)
-
 Here we go again. If you were in [Chicago for APIStrat this September](http://chicago2014.apistrat.com/), then you know we are planning to have the next edition of APIStrat in Berlin, this spring. This round 3Scale and API Evangelist are partnering with APIDays to deliver two days of API talks at the [Humboldt Carré, the Conference And Event Centre on Gendarmenmarkt](http://apidaysberlin2015.apistrat.com/venue/), April 24th and 25th, 2015.
 
 I learned a lot attending APIDays Berlin earlier this year, and I am looking forward to continuing the conversation in 2015, APIStrat style. Our speaker lineup includes [Mandy Waite](https://twitter.com/tekgrrl "Mandy Waite"), Developer Advocate at **Google Cloud Platform**; **Chris Taggart**, CEO of [OpenCorporates](https://twitter.com/countculture "OpenCorporates"); and [Max Harlow](https://twitter.com/maxharlow "Max Harlow") from the **Guardian Open Platform**.

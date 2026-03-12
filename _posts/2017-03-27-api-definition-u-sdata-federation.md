@@ -11,8 +11,6 @@ tags:
   - Definition
   - Federation
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_us_data_federation_screenshot.png)](http://definitions.apievangelist.com/guide/)
-
 _This is an article from the current edition of the [API Evangelist industry guide to API definitions](http://definitions.apievangelist.com/guide/). The guide is designed to be a summary of the world of API definitions, providing the reader with a recent summary of the variety of specifications that are defining the technology behind almost every part of our digital world._
 
 [The U.S. Data Federation](https://federation.data.gov/) is a federal government effort to facilitate data interoperability and harmonization across federal, state, and local government agencies by highlighting common data formats, API specifications, and metadata vocabularies. The project is focusing on being a coordinating interoperability across government agencies by showcasing and supporting use cases that demonstrate unified and coherent data architectures across disparate agencies, institutions, and organizations.

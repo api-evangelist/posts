@@ -7,8 +7,6 @@ author:
 tags:
   - Developers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hypermedia.png)](http://hypermedia.apievangelist.com/)
-
 There are numerous reasons for API designers to follow hypermedia patterns when crafting their internal, partner or publicly available APIs. One of the most fundamental reasons for offering hypermedia is to help developers understand what to do next, once receiving a response from your API.
 
 Hypermedia APIs mimic the default characteristics of the web, and how you always know what do next with a web page, because there are many available links either in the form of navigation, in the body or footer. Reflecting this behavior, each hypermedia API resources comes with a set of related links giving developers clear actions to take once the response is received.

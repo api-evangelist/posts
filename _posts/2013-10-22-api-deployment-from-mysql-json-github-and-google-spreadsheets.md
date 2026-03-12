@@ -14,8 +14,6 @@ tags:
   - JSON
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-toolbox.jpg)](https://github.com/kinlane/api-deploy-toolkit)
-
 I'm doing a lot more API deployments from dead simple data sources since I started working in the federal government. As part of these efforts I'm working to put together a simple toolkit that newbies to the API world can use to rapidly deploy APIs as well.
 
 Currently I have four separate deployment blueprints done:

@@ -8,8 +8,6 @@ author:
 tags:
   - Developers
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/knodes/knodes-logo.PNG)](http://knod.es/ "Knodes")
-
 Social Data Analyzing API [Knodes](http://knod.es/ "Knodes") has just announced a $250K startup fund that will invest in the best products, websites and applications built on top of the Knodes API platform.
 
 [Knodes Social Data Analyzing API](http://knod.es/hot/dev) provides developers with social data-based insights about their users across social networks like Facebook, Twitter, Foursquare and LinkedIn.

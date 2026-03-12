@@ -9,8 +9,6 @@ tags:
   - Branding
   - Guidelines
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/Active-Network/power-by--drk.png)](http://developer.active.com/)
-
 One of the top five concerns I hear from companies considering APIs is regarding losing control of their brand. With APIs being about access to raw data and resources, companies immediately think that developers will extract the value, without any attribution or reference to the companies brand.
 
 Even with this being a major concern, I see many APIs implement very poor branding guidelines, giving developers zero direction regarding how to properly provide attribution.  This is a missed opportunity to not just protect the API providers brand, but actually extend it and increase its value.

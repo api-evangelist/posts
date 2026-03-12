@@ -8,7 +8,7 @@ tags:
   - Revenue
   - Developers
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/rdio-logo.png)](http://www.rdio.com/ "Rdio")[Rdio](http://www.rdio.com/ "Rdio") is a music streaming service, where users can access music via the web or mobile phone for a monthly fee.
+[Rdio](http://www.rdio.com/ "Rdio") is a music streaming service, where users can access music via the web or mobile phone for a monthly fee.
 
 Using [Mashery](http://www.mashery.com "Mashery"), Rdio provides a RESTful API where you can do just about anything you can trough the web interface.
 

@@ -10,8 +10,6 @@ tags:
   - Scale
   - Stack
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/3scale-logo.jpg)](http://www.3scale.net/)
-
 [3Scale](http://www.3scale.net/ "3Scale") provides scalable API Infrastructure as a Service to control, manage and monetize the distribution of data, content or services for devices, mobile and web applications.
 
 The [3Scale Billing API](http://www.3scale.net/support/billing-api/ "3Scale Billing API") provides access to 3Scale’s billing features to enable you to access invoices, line items and payment information for each of your API users, enabling integration into your own internal systems.

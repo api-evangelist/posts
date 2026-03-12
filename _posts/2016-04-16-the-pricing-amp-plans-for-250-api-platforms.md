@@ -13,8 +13,6 @@ tags:
   - Platforms
   - API Platforms
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-250-pricing-and-plan-pages.png)](https://gumroad.com/l/eaEq)
-
 I track on the API operations of around 2000 companies. Honestly, most of the 10K+ APIs in the ProgrammableWeb API directory have long been gone, deprecated, acquired, and had the lights shut off. There are only a couple thousand companies, institutions, organizations, and government who are doing public APIs, with only a couple hundred doing them in an interesting way.
 
 This should not diminish the API conversation, as public APIs are just one aspect of the API discussion, and honestly it is one are that not all companies and organizations will have the stomach for. However, a certain amount of available public APIs will always play an important role in setting the tone for the entire API space, providing us with a (hopefully a diverse amount of) lead(s) when it comes to crafting our own strategies for operating our businesses on the Internet. Very little of what I do as the API Evangelist involves ideas that originate from my own head, and is something that requires a wealth of examples which I can point to in the wild. 

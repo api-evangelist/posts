@@ -13,8 +13,6 @@ tags:
   - APIs
   - APIs.jso
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png)](http://apisjson.org/)
-
 I [published the story last night on finalizing the most recent version of the API discovery format APIs.json](http://apievangelist.com/2014/10/08/next-stable-version-of-apisjson--apisio-is-ready--are-your-apis-discoverable/), and the support for it in the open source API search engine [APIs.io](http://apis.io). Steve and I are done messing with the format for a while, and want to encourage API providers to begin describing their APIs using the open format.
 
 After publishing the story last night, I also had an interesting comment on Google+ from [Jonas Hellström](https://plus.google.com/u/0/+JonasHellstr%C3%B6m/posts):

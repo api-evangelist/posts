@@ -11,8 +11,6 @@ tags:
   - Stack
   - ddi
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/pokitdok.png)](https://platform.pokitdok.com)
-
 I’m adding [PokitDok](https://platform.pokitdok.com), a simple API for healthcare to [The API Stack](http://theapistack.com/), and my overall [APIs in healthcare research](http://healthcare.apievangelist.com/). Well I didn't exactly add them, PokitDok added themselves to my healthcare research by forking the Github repository, and adding themselves to the [JSON data source](https://github.com/kinlane/healthcare/blob/gh-pages/data/companies.json)—once I received the pull request, I accepted, and they were published on the site.
 
 Usually once a week I spend time to manually adding new companies I've come across in my monitoring of the API space, but being a one man show I can’t find everything across this massively expanding space. This is why I depend on you to help me curate the best from across the space. Not everyone knows that the entire API Evangelist network of [60+ research projects](http://kinlane.com/projects/) all runs on Github, which allows anyone to help write posts, curate industry news, and maintain the lists of API providers.

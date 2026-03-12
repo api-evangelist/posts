@@ -12,8 +12,6 @@ tags:
   - Fiction
   - ddi
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-design-fiction.png)](http://alternate.apievangelist.com/blog/)
-
 I have been writing some fictional stories on a project site I have called [Alternate Kin Lane](http://alternate.kinlane.com/blog/) for some time now. Writing fictional stories in the tech space has provided a sort of pressure release valve for me, giving me a quick creative outlet throughout the week. Honestly, there are more stories in my notebook, than there are on the actual blog, but this is a sign for me that I need to spend more time working in this area.
 
 I am making several shifts in my work lately, in response to kind of hitting the wall recently, a process that includes rethinking how I work on projects, and [partner with folks in the API space](http://kinlane.com/2015/10/27/striking-the-right-balance-with-api-evangelist-partners/), as well as an increased focus on the fictional side of my writing. I do not just want to write fiction that is derived from the tech space. I want to write fiction that helps me formulate my own view of the space, and who knows, maybe influence the space in similar ways my regular tech blogging has over the last five years.

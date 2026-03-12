@@ -9,8 +9,6 @@ tags:
   - Communications
   - Amazon
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/amazon_alexa_echo_dot_tap_4011.jpg)](https://www.cnet.com/news/amazons-alexa-gets-comfy-in-our-homes/)
-
 I'm always looking for specific API providers to showcase as examples we can follow when crafting different portions of our API strategies. The Amazon Alexa team is doing a pretty kick ass job at blogging, and owning the conversation when it comes to developing conversational interfaces, so I thought I'd highlight them as an example to follow when planning the communications portion of your strategy.
 
 Take a look at [the #Alexa tag for the AWS blog](https://developer.amazon.com/public/community/blog/tag/Alexa). They have a regular stream of storytelling coming out of the platform. Its a mix of talking about the tech of the platform, and showcasing what it can do. What really captured my attention for this story is there regular showcasing of the interesting solutions developers are building on top of the platform. Many platform blogs I read are a one trick pony, just talking about their service, and I think the AWS Alexa team has found a compelling blend.

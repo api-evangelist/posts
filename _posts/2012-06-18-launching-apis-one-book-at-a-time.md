@@ -10,8 +10,6 @@ tags:
   - APIs
   - Time
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/pearson/pearson-nursing-guide.jpg)](http://developer.pearson.com/api/nursing-health-survival-guides-api/apimethod/get-article/189/overview)
-
 [Last May, Pearson Publishing began the roll-out of their new API platform](http://developer.mimeo.com/blog/blog_detail.php?ID=103), by doing initial tests using their DK’s Eyewitness Travel Guide material, before moving on to a wider range of subjects. By the [end of the summer they had rolled out](http://apievangelist.com/2011/08/16/re-inventing-pearson-publishing-using-apis/) a total of three APIs:
 
 *   [Eyewitness Guides](http://developer.pearson.com/api/eyewitness-guides/apimethod/entries-guide/189/overview)

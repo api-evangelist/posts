@@ -11,8 +11,6 @@ tags:
   - Branding
   - Logo
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Concur_Logo_HZ_Black_500px.png)](https://www.concur.com)
-
 I spend a lot of time looking for good quality logos to represent the companies I track on and write stories about. I have a certain vision in my head about how I want company listings and detail pages to look across the [API Evangelist network](http://apievangelist.com/network.html)—something that takes a lot of work.
 
 To support this vision, I spend a lot of time looking for logos. Sometimes you can find them in the header of a website, but often times they are poor quality, not configured to be standalone, or difficult to get at for any number of other reasons--making my work a lot tougher.

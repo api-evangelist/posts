@@ -11,8 +11,6 @@ tags:
   - Research
   - PDF
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-api-design-industry-guide-july-2015-cover.png)](http://design.apievangelist.com/guide/api-evangelist-api-design-industry-guide-july-2015.pdf)
-
 When API Evangelist began five years ago it was a single research into the business of APIs, which ultimately became a research project which I called API management. Over the last four years, I have spliced off other areas of research including the elements of my core research into API [design](http://design.apievangelist.com), [deployment](http://deployment.apievangelist.com), [management](http://management.apievangelist.com), [integration](http://integration.apievangelist.com), [evangelism](http://evangelism.apievangelist.com), and [monetization](http://monetization.apievangelist.com). 
 
 My goal with each research project, is to evolve my understanding of each area of the API space by identifying the key companies and organizations involved, the open tooling being developed and put to work, and some of the common building blocks that make up each area. For each of my research projects, you can visit its Github repository to get regular updates, but I find many people seem to prefer browsing a single, portable paper of my research.

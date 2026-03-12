@@ -9,8 +9,6 @@ tags:
   - Support
   - API Commons
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/creative-commons/cc.logo.large.png)](http://creativecommons.org/)
-
 When we first conceived [API Commons](http://apicommons.org), we were a little fuzzy about which of Creative Commons licenses API providers should apply to their API definitions. As long as a provider took a stance on API copyright around your API definitions, applied a Creative Commons license, we considered an API “in the commons”.
 
 As time has evolved, and we've had time to reflect on the [decision that the Federal Circuit Court handed down in the Oracle v Google case](https://www.eff.org/deeplinks/2014/05/dangerous-ruling-oracle-v-google-federal-circuit-reverses-sensible-lower-court), we've adjusted our vision of what Creative Commons licenses should  be applied to an API, and still be considered as part of the "API Commons".

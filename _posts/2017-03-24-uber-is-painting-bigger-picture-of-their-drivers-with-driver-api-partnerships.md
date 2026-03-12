@@ -10,8 +10,6 @@ tags:
   - ai
   - Pain
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_21_at_10.42.50_pm.png)](https://developer.uber.com/products/drivers)
-
 I was taking a look at the new [Uber Driver API](https://developer.uber.com/products/drivers) and trying to understand the possibilities with the API, and some of the the motivations behind Uber's launch of the API. According to Uber, _"o__ur Driver API lets you build services and solutions that make the driver experience more productive and rewarding. With the driver's permission, you can use trip data, earnings, ratings and more to shape the future of the on-demand economy."_ Providing an interesting opportunity for partners to step up and help build useful apps that Uber drivers can leverage in their worlds, helping them be more successful in their work.
 
 The first dimension of the Uber Driver API I find interesting is that it is not an API that is about their core business--ridesharing. It is focused on making their drivers more successful, and developing tools, and integrations that make their lives easier. I could see something like this evolving to other platforms like AirBnB, and other sharing or gig economy platforms, helping operators make sense of their worlds, while also strengthening partnerships and hopefully their relationship with operators along the way. 

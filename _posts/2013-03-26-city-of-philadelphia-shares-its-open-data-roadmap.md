@@ -11,8 +11,6 @@ tags:
   - Open Data
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/city/philadelphia/tecnically-philly.png)](http://technical.ly/philly/ "tecnically philly")
-
 A [roadmap is an essential part of a healthy API ecosystem](/buildingblocks/roadmap.php). The transparency and communication that come with providing a roadmap for your API and open data initiative will go a long way in building trust with your community.
 
 The [City of Philadelphia is sharing its roadmap of data sets](http://technical.ly/philly/2013/03/26/city-of-philadelphia-open-data-release-schedule/) that it intends to open in the coming months, by providing a [release calendar using cloud project management service Trello](https://trello.com/board/city-of-philadelphia-open-data-pipeline/51487d15bb68f5de3b0099b0). In addition to seeing the datasets the city intends to release, you can also see any data sets that have already been published.

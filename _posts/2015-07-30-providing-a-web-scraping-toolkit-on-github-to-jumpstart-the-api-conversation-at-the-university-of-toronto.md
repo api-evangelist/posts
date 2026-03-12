@@ -12,8 +12,6 @@ tags:
   - Web
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.png)](https://github.com/cobalt-io/cobalt)
-
 [I found a pretty cool Github repository during my latest review of my university API research](https://github.com/cobalt-io/cobalt), with a mission "to provide a collection of RESTful web APIs that can allow developers to create applications or services that utilize public data from the University of Toronto."
 
 I am a big fan of jump-starting API efforts on campus in this way, [something I did to help fuel the API discussion at University of Oklahoma](http://university-of-oklahoma-api.apievangelist.com/). Which is a topic I will be talking more about in the near future as these conversations continue play out. In my opinion, many campuses are just not ready for APIs, and to get things rolling, it will may often take outside influences.

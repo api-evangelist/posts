@@ -8,8 +8,6 @@ author:
 tags:
   - Project
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/noun-project/the-noun-project.png)](http://thenounproject.com/ "The Noun Project")
-
 [The Noun Project](http://thenounproject.com/ "The Noun Project") is [soliciting feedback on their upcoming API](http://thenounproject.com/developers/). If you aren’t familar with The Noun Project, it is a innovative visual language project, that is creating a library of icons that will enable people to visually communicate and interact around the globe. Direct from [The Noun Project about page](http://thenounproject.com/about/):
 
 > _Humans have been using symbols to communicate for over 17,000 years because they are the one language everyone can understand. Symbols can transcend cultural and language barriers and deliver concise information effortlessly and instantaneously. They allow people to communicate quickly, effectively, and intuitively. And for the first time ever, this language is being combined with technology to create a social language that unites the world._

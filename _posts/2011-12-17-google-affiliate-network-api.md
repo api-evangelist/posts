@@ -8,8 +8,6 @@ author:
 tags:
   - Network
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/google/Google-Affiliate-Network-API.png)](http://code.google.com/apis/gan/index.html "Google Affiliate Network API")
-
 Google just launched their new [Google Affiliate Network API](http://code.google.com/apis/gan/index.html "Google Affiliate Network API"), which allows publishers and advertisers to automate various tasks related to the [Google Affiliate Network](http://www.google.com/affiliatenetwork "Google Affiliate Network").
 
 The Google Affiliate Network is the affiliate network, formerly known as Doubleclick Performics, which was part of [Google’s Doublick acquisition in April of 2007](http://www.google.com/intl/en/press/pressrel/doubleclick.html).

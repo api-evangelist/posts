@@ -13,8 +13,6 @@ tags:
   - APIs
   - APIs.jso
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-discovery.png)](http://discovery.apievangelist.com/)
-
 I spend a lot of time field questions from people about [APIs.json](http://apisjson.org/). This is something I expect to be doing for the next 10 years, and happy to field questions about exactly what it is all about, and help educate folks about exactly where APIs.json it fits in to the overall API landscape.
 
 A regular comment I get from technologists, and API savvy folks is _“you know that hypermedia is a better solution for discovery than APIs.json?”_ To which I reply _“yes I know, but hypermedia is a solution for the API world we want, and APIs.json is a solution for the world we have”._ I would love it if everyone understood hypermedia, and designed and deployed their APIs with this knowledge in mind—something I’ve spending a lot more time on in 2014, and will continue the push in 2015.

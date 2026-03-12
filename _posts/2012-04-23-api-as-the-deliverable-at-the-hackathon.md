@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg)](http://www.3scale.net "deploying and managing APIs")
-
 At most [hackathons](/events/ "Hackathons"), the end goal is building a web or mobile application, using various platforms and APIs. Even though I’ve seen this evolve to data visualization, or mashing up SaaS platforms at some events, the app really tends to be the primary deliverable at hackathons.
 
 So this week I’m spending time thinking of unique and interesting ways to present my sponsors for the [CityGrid Hackathon this weekend in Santa Monica](http://citygridhackathonla.eventbrite.com/ "CityGrid hackathon this weekend in Santa Monica") at [CoLoft](http://www.coloft.com/ "CoLoft"). One of our sponsors is [3Scale](/serviceproviders/3scale.php "3Scale API Service Provider"), one of my favorite API service providers, and while we see many of the API service providers including [Apigee](/serviceproviders/apigee.php "Apigee") and [Mashery](/serviceproviders/mashery.php "Mashery") involved in many of the hackathons you really don't see anything built using their platform. (I know they’ll ping me and say they do, but really your building using their clients.)

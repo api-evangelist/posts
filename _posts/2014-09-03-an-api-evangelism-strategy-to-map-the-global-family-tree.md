@@ -10,8 +10,6 @@ tags:
   - Strategy
   - Global
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/250px-FamilySearch_logo.svg.png)](https://familysearch.org/)
-
 In my work everyday as the API Evangelist, I get to have some very interesting conversations, with a wide variety of folks, about how they are using APIs, as well as brainstorming other ways they can approach their API strategy allowing them to be more effective. One of the things that keep me going in this space is this diversity. One day I’m looking at [Developer.Trade.Gov for the Department of Commerce](http://apievangelist.com/2014/08/14/swagger-apisjson-and-review-for-the-new-developertradegov/), the next talking to [WordPress about APIs for 60 million websites](http://apievangelist.com/2014/08/02/everyone-is-about-to-get-an-api-with-the-new-wordpress-api/), and then I’m talking with the The Church of Jesus Christ of Latter-day Saints about the Family Search API, which is actively gathering, preserving, and sharing genealogical records from around the world.
 
 I’m so lucky I get to speak with all of these folks about the benefits, and perils of APIs, helping them think through their approach to opening up their valuable resources using APIs. The process is nourishing for me because I get to speak to such a diverse number of implementations, push my understanding of what is possible with APIs, while also sharpening my critical eye, understanding of where APIs can help, or where they can possibly go wrong. Personally, I find a couple of things very intriguing about the Family Search API story:

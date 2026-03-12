@@ -8,8 +8,6 @@ author:
 tags:
   - Print
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/NIH-3D-Print-Exchange.png)](http://niaid.github.io/3dpx_api/)
-
 There is an very interesting new 3D Print Exchange API from the [National Institutes of Health (NIH)](http://www.nih.gov/). The NIH 3D Print Exchange is designed for publishing "biomedically-relevant" 3D models, that anyone can download and use as blueprint for printing on a their 3D printer.
 
 I've been [tracking on 3D printing APIs since 2011](http://3d-printing.apievangelist.com/companies.html), when I started profiling [how APIs were being used by printing, and 3D printing providers](http://apievangelist.com/2012/12/19/api-driven-3d-printing-and-manufacturing-supply-chain/). It is interesting to see an industry focused 3D printing API emerge, which I feel is a sign the space is maturing, and will continuing to evolve in 2015.

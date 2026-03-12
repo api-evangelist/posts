@@ -11,8 +11,6 @@ tags:
   - Definition
   - Stack
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-stack/api-stack-logo.png)](http://theapistack.com)
-
 [3Scale](http://www.3scale.net/) and I have been working hard to craft [APIs.json](http://apisjson.org) files for the top public APIs out there, including machine readable Swagger definitions, ever since [we launched the open source API search engine APIs.io](http://apievangelist.com/2014/07/03/an-open-source-distributed-api-evangelist-engine/). We will keep working to define, and index the API space, but it is a lot of work ahead, and we could use some help.
 
 Over the last couple months I've had several conversations with folks about the need for [Swagger](http://swagger.io) and [API Blueprints](http://apiblueprint.org) for popular APIs, so that the community can build valuable tooling and services on top of commonly used APIs. Two companies who I've been talking to are [SDK generation service APIMATIC](http://apimatic.io), and [API spreadsheet integration provider BlockSpring](http://blockspring.com).

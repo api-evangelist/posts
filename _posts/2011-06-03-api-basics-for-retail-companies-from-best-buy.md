@@ -7,7 +7,7 @@ author:
 tags:
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/Best-Buy.png)](http://www.bbyopen.com/bbyopen-apis-overview "Open API Platform Business for Best Buy")[Kumar Kandaswamy](http://twitter.com/#!/Kumar_K "Kumar Kandaswamy"), Director of [Open API Platform Business for Best Buy](http://www.bbyopen.com/bbyopen-apis-overview "Open API Platform Business for Best Buy"), spoke at [Mashery's](http://www.mashery.com/ "Mashery") [The Evolution of Distribution](http://apievangelist.com/2011/06/02/mashery-evolution-of-distribution/ "The Evolution of Distribution") event today.
+[Kumar Kandaswamy](http://twitter.com/#!/Kumar_K "Kumar Kandaswamy"), Director of [Open API Platform Business for Best Buy](http://www.bbyopen.com/bbyopen-apis-overview "Open API Platform Business for Best Buy"), spoke at [Mashery's](http://www.mashery.com/ "Mashery") [The Evolution of Distribution](http://apievangelist.com/2011/06/02/mashery-evolution-of-distribution/ "The Evolution of Distribution") event today.
 
 Kandaswamy offered some practical advice for retail companies that are deciding how and where to start with their API deployments. His suggestions included the following areas:
 

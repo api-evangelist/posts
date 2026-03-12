@@ -9,8 +9,6 @@ tags:
   - Embeddable
   - Open
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/materia_screen_entities.png)](https://getmateria.com/)
-
 [This is a repeat story of one I wrote two years ago](http://apievangelist.com/2015/08/13/a-common-open-source-api-design-editor-is-needed-for-api-service-providers/), but things haven't changed so I'm going to rant about again, 2017 style. We need someone to develop an open source, visual API design editor. There is the [Swagger Editor](http://swagger.io/swagger-editor/), but that is more a web IDE, and I'm looking for a well designed, intuitive, visual editor for managing your OpenAPI definitions, that is embeddable and easily integrated into any web or mobile system.
 
 There are examples of nice visual API design editors with some of the leading API service providers, but I'm looking for something any API service provider could put to work. I included these examples in my last story, except I'm including Stoplight this round instead of Gelato, because they gave me an upgrade my account message, and wouldn't let me see the interface. These are currently my favorite three API design editors:

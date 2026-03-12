@@ -8,8 +8,6 @@ author:
 tags:
   - Strategy
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-vertical.jpg)](http://www.apistrategyconference.com/2014Amsterdam/index.php)
-
 I am getting psyched going through the [schedule lineup of 15 sessions](http://www.apistrategyconference.com/2014Amsterdam/schedule.php) at [API Strategy & Practice in Amsterdam](http://www.apistrategyconference.com/2014Amsterdam/index.php). In planning the session outline, Steve, Vanessa and I listened to what the [#APIStrat](https://twitter.com/search?q=%23APIStrat&src=typd) audience asked for after New York and San Francisco, which was more of the deep technical, as well as a balance of the business and politics of APIs.
 
 I think our lineup delivers on this, which we've broken up into three tracks:

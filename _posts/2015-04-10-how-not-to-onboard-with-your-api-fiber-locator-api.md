@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fiberlocator-api.png)](http://www.fiberlocator.com/fiberlocator-api/)
-
 Somewhere during my weekly monitoring I found the [Fiber Locator API](http://www.fiberlocator.com/fiberlocator-api/), which like all APIs, especially the ones that ask me to “request access”, I signed up for the service. Understanding where telecommunications companies have laid fiber optic cable, for me, equals a potentially valuable API resource—sure I would consider integrating these resources into my applications, and systems.
 
 I’m never a big fan of APIs, who make you request access vs self-service registration, but if the API has value, I jump through hoops, so I can can better understand what an API does, which according to the Fiber Locator site:

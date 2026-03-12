@@ -10,8 +10,6 @@ tags:
   - Gateway
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/justapis-logo.png)](http://justapis.com/)
-
 I open up my Thursdays to briefings, calls, demos and other phone, skype, and hangout related activities. This morning I received a walk-through of the [JustAPIs platform](http://justapis.com/) from [AnyPresence](http://www.anypresence.com/), taking my thoughts in a much different direction than in my conversation with [Wavemaker, which was at the intersection of API design and API gateway in this new cloud-based, single page application design studio](http://apievangelist.com/2015/07/23/pushing-my-api-gateway-thoughts-forward-api-and-single-page-app-development-with-wavemaker/). 
 
 JustAPIs is a downloadable, installable, portable, little API design, deployment, and management engine, which you can install on Linux, Windows, Mac, and even your Raspberry Pi. This represent the functionality I have in mind, when I think about the future of what is an API gateway--a little node that can put ANYWHERE to serve up, proxy, and manage my APis.

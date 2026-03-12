@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/learnsprout/learnsprout-logo.jpg)](http://learnsprout.com/#home)
-
 I got an email from Anthony Wu over at [LearnSprout](http://learnsprout.com/#home) yesterday. If you are not following what LearnSprout is up to, they are bridging legacy student information systems (SIS) and providing easy to use web APIs that application developers can use to build educational apps.
 
 The email from Anthony was in regards to a SIS LearnSprout was integrating with, which he said:

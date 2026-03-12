@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/dave-winer/fargo-small-picture.png)](http://fargo.io/)
-
 Cloud storage of documents is becoming commonplace. Individuals, companies, government and non-government organizations have increasingly seen the potential of storing files in the cloud using services like Amazon S3, Dropbox and Box.
 
 As a web or mobile application developer, it is becoming more common to provide integration, syncing or even direct usage of popular cloud storage services like Dropbox as the application's storage system.

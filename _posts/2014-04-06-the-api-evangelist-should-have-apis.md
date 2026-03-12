@@ -10,8 +10,6 @@ tags:
   - Evangelist
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png)](http://apievangelist.com/)
-
 As I have evolved my blog from a content management system into an API industry monitoring system, much like other companies I work with, I’m making the switch to use more APIs in my operations. As I roll out these APIs, I want to share them with you, here within the API Evangelist developer area.
 
 Here at developer.apievangelist.com you will find APIs that give you access to the content I curate and turn into stories, the analysis I provide on the API space, and companies, tools and other resources that I use make API Evangelist go around.

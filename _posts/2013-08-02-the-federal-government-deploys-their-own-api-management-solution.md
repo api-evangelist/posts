@@ -11,8 +11,6 @@ tags:
   - API Management
   - Government
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-umbrella.png)](https://github.com/NREL/api-umbrella/)
-
 Some of the smart people in Washington D.C. have decided to [roll their own API management solution](http://api.data.gov/about/), providing their own open source solution to many of the common problems faced by API providers like issuing API keys, rate limit and provide analytics.
 
 Available at [api.data.gov/about](http://api.data.gov/about/), but powered by an open source project called [API Umbrella](https://github.com/NREL/api-umbrella/), the project aims to be a free and open API management option for federal agencies.

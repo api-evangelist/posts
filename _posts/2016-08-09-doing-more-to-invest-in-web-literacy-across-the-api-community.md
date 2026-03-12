@@ -8,8 +8,6 @@ tags:
   - Community
   - Web
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Web_Concepts.png)](http://webconcepts.info)
-
 When I talk about how much I believe in APIs, all I am really saying is how much I believe in the web. The web is how humans are consuming and sharing data, content, and algorithms with each other using the Internet, and APIs are how systems, applications, and devices are doing this via the Internet.
 
 I do not advocate for any single API, company, tooling, or technology. I am evangelizing for an open web. This is why I am always a little ashamed at how incomplete my understanding is of the core concepts that make up the web and the specifications that are driving it. Thankfully there are people like Erik Wilde ([@dret](https://twitter.com/dret)) who work tirelessly to help us understand them, and make available in a simple way like he did [with his Web Concepts project](http://webconcepts.info/).

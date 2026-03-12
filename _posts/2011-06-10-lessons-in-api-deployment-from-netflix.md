@@ -8,7 +8,7 @@ tags:
   - Deployment
   - Lessons
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/netflix_logo.gif)](http://www.netflix.com/ "Netflix API") I've heard this story several times now, but I think its a story worth telling over and over.
+I've heard this story several times now, but I think its a story worth telling over and over.
 
 It is the story of the [Netflix API](http://developer.netflix.com/ "Netflix API") and the lessons they learned along the way. Not every API owner will be operating at the scale of Netflix, but the lessons are universal.
 

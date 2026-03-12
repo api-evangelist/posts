@@ -8,8 +8,6 @@ author:
 tags:
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/the-university-of-oklahoma.png)](http://www.ou.edu/)
-
 I’m dedicating more time lately to research how APIs are being used at universities, and a couple months back I published my first [white paper on using APIs in higher educatio](http://university.apievangelist.com/white-paper.html)n. As I do with other sectors, I would like to shed light on how APIs are being used at universities, and potentially share best practices, and stories between higher educational institutions, amplifying the positive effects of APIs.
 
 My efforts are beginning to pay off, and I was recently contacted by two friends, Mark Morvant ([@MarkMorvant](https://twitter.com/MarkMorvant)) and Adam Croom ([@acroom](https://twitter.com/acroom)), at the [University of Oklahoma](http://www.ou.edu/). They had seen my [University research](http://university.apievangelist.com/), and read my white paper, but what really lit their fire was the [piece in the NY Times about student-built apps teaching colleges a thing or two](http://www.nytimes.com/2014/08/28/nyregion/students-inventing-programs-to-streamline-their-colleges-data.html?_r=3)—after reading that, they decided to give me a call to discuss APIs more.

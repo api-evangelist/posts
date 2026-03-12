@@ -10,8 +10,6 @@ tags:
   - Docs
   - Open
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/REST_API_Documentation_-_Sandbox.png)](https://getsandbox.com/docs/api/overview)
-
 I have been talking with Nick Houghton over at [Sandbox](https://getsandbox.com/docs/api/overview) about the state of OpenAPI Spec driven API documentation, and [the lack of a machine-readable core when you deployed Slate driven documentation](http://apievangelist.com/2015/06/25/we-should-be-generating-slate-from-swagger-so-we-maintain-a-machine-readable-core/). He was wanting the same thing--a good looking, dynamic API documentation that was OpenAPI Spec driven.
 
 He recently got back to me and found a solution that worked for them: _"[Ended up just templating the Swagger JSON myself rather than relying on Slate etc to do it. So model/resources are Swagger annotated, CI pushes out Swagger JSON and Angular UI](https://getsandbox.com/docs/api/overview)_ [parses](https://getsandbox.com/docs/api/overview) _[in the browser, works quite well I think](https://getsandbox.com/docs/api/overview)"._

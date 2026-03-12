@@ -7,7 +7,7 @@ author:
 tags:
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/Rdio-Logo-Gradient.png)](http://rdio.com)I'm starting to see more API providers working together to attract developers to their platforms.
+I'm starting to see more API providers working together to attract developers to their platforms.
 
 As an API Evangelist I look for other APIs that enhance the [Mimeo Connect Cloud Print API](http://developer.mimeo.com "Mimeo Connect Cloud Print API"), and try to figure out how I can leverage this, or at least tell the story.
 

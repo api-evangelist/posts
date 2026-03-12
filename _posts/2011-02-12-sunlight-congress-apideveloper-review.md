@@ -8,7 +8,7 @@ author:
 tags:
   - Review
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/sunlight-labs/sunlight-lab-congress.png)](http://sunlightfoundation.com/)[Sunlight Labs has released an API](http</strong> - //sunlightlabs.com/blog/2011/the-real-time-congress-api/) that will help address the [Sunlight Foundation's](http://sunlightfoundation.com/) mission - making information about government more open and transparent.
+[Sunlight Labs has released an API](http</strong> - //sunlightlabs.com/blog/2011/the-real-time-congress-api/) that will help address the [Sunlight Foundation's](http://sunlightfoundation.com/) mission - making information about government more open and transparent.
 
 The [Sunlight Congress API](http</strong> - //services.sunlightlabs.com/docs/Sunlight_Congress_API/) provides an interface for developers to pull Members of Congress's information, including name, party, location, email addresses, website information, and much more.
 

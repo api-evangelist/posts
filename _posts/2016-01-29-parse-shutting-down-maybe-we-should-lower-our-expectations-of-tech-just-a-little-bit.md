@@ -9,8 +9,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/parse-moving-on.png)](http://blog.parse.com/announcements/moving-on/)
-
 [The mobile backend as a service (MBaaS) platform Parse is shutting down](http://blog.parse.com/announcements/moving-on/). I started tracking on Parse as part of my BaaS research a couple years back, [something that resulted in having all of the BaaS providers, including Ilya Sukhar (@) of Parse, on stage at @APIStrat NYC in early 2013](http://apievangelist.com/2013/02/25/the-baas-reality-tv-show-panel-at-apistrat/)\--this conversation was just a couple months before Parse was acquired by Facebook. 
 
 Parse was widely consider to be the top BaaS platform, which resulted in wide adoption, something that I'm sure grew expoentitally after the purchase by Facebook. Parse is giving everyone a year to migrate, [providing a database migration tool](http://blog.parse.com/announcements/introducing-parse-server-and-the-database-migration-tool/), as well as [open sourcing a version of the platform](http://blog.parse.com/announcements/introducing-parse-server-and-the-database-migration-tool/). Which I think is a pretty fair deprecation strategy for customers, even with the unexpected news.

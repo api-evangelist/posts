@@ -11,8 +11,6 @@ tags:
   - Open Source
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/datasift/datasift-logo.png)](http://datasift.com/)
-
 I'm increasingly finding a company's approach to using Github, a vital signal of the health of a company, their team, and the products and services they are delivering.
 
 An example of this is with social data platform, [DataSift's new open source area](https://datasift.github.io/). DataSift has thrown up a Github page which re-enforces the company's commitment to consuming and producing open source software, as well as a list of important, Github driven signals:

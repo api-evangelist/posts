@@ -8,8 +8,6 @@ author:
 tags:
   - Social
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/cisco/cisco-logo.png)](http://socialmedia.cisco.com/)
-
 Its not often I find myself referencing Cisco when it comes to shedding light on interesting practices for the API space, but today is not your usual day.
 
 At some point yesterday, I found myself at cisco.com, and I stumbled across their [social page](http://socialmedia.cisco.com/), which gives equal real estate to their blog, Facebook, Twitter, Google+ and Youtube channel, as well as highlights from their community forum.

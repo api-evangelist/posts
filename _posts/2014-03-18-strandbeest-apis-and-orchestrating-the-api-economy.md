@@ -8,8 +8,6 @@ tags:
   - Economy
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/strandbeest.png)](http://www.strandbeest.com/)
-
 I'm going through the [schedule for API Strategy & Practice](http://www.apistrategyconference.com/2014Amsterdam/schedule.php) next week in Amsterdam, getting intimate with each keynote, panel, and session, and their speakers. On day one we have a keynote from Mike Amundsen ([@mamund](https://twitter.com/mamund)), API Architect at Layer7 titled, "Self-Replication, Strandbeest, and the Game of Life What von Neumann, Jansen, and Conway can teach us about scaling the API economy”.
 
 I have not seen this talk by Mike, so I have no idea what he is planning, but I have to share an epiphany I had when I first contacted Mike about speaking at #APIStrat Amsterdam. Mike had responded to my initial email asking me what I was interested in having him talk about, which I’m a huge fan of Mike’s approach to storytelling, so I’m leaving it up to him. However Mike responded with a link to [Strandbeest](http://www.strandbeest.com/), simply stating he would like to incorporate this into a talk.

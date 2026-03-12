@@ -8,8 +8,6 @@ tags:
   - Drones
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/gamaya_agriculture_analytics.png)](http://gamaya.com/)
-
 One of the things I love about my world as the API Evangelist is the time I get diving into rabbit holes and learning about different areas where technology is being applied. I do not always agree with the business motivations behind what is going on, which can result in some often pretty shady situations, but I enjoy stepping back and understanding the data, API and approaches behind what is going on.
 
 I was doing some research on drone APIs recently, and as I was falling down the rabbit hole, [I found myself reading about drones being a source of alpha](https://blog.quandl.com/drone-data-for-investing)? WTF is alpha? I had no idea and wanted to learn more about [what an alpha generation platform](https://en.wikipedia.org/wiki/Alpha_generation_platform) was, and how drones and APIs are playing a role--here is the definition I found:

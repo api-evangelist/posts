@@ -12,8 +12,6 @@ tags:
   - Swagger
   - Define
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/project-reacall/project-reacall-logo.png)](https://bitbucket.org/jdubray/reacall/src)
-
 [I wrote about a simpler example of API to SPA the other day, continuing my journey for apps, services, and tooling that easily deploys a Single Page App (SPA) or light-weight web and mobile clients from a single API, or many APIs](http://apievangelist.com/2015/05/27/a-cleaner-simpler-example-of-api-to-spa/). One of the reason I am so transparent about my ideas, is because I depend on my audience to help educate me about what is out there--one of my readers, who is always schooling me, pointed me at [Project ReaCall](https://bitbucket.org/jdubray/reacall/src). 
 
 Jean-Jacques Dubray's ([@metapgmr](https://twitter.com/metapgmr)), [Project ReaCall](https://bitbucket.org/jdubray/reacall/src) combines [React.js](https://facebook.github.io/react/) and [Swagger](http://swagger.io) to make it easier for API providers to develop and evolve API Client SDKs (ACS). This is definitely the direction I'd like to see client SDK and SPA deployment space go. I will have to play with ReaCall more, and I do not have any experience with React.js apps, but it looks pretty easy to bind your API endpoints to specific components in a React.js generated app.

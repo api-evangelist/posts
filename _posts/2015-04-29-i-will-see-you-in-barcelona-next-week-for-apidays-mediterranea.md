@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apidays-mediteranea.png)](http://mediterranea.apidays.io/)
-
 After [recovering from an amazing week in Berlin for APIDaysBerlin / APIStrat Europe 2015](http://apievangelist.com/2015/04/27/thank-you-berlin-for-helping-make-apidaysberlin--apistrat-europe-so-amazing/), and catching up on some work, which [included a 20 hour push to get the last weeks API.Report completed](http://apievangelist.com/2015/04/28/weekly-apireport-for-april-27th-2015/), I am now preparing for [API Days Mediterranea, May 6th & 7th in Barcelona, Spain](http://mediterranea.apidays.io/). The event is billed as "The Independent Conference on APIs, NLP, and Language Technology", and brings together may of the leading API minds, but also the cross-over with APIs and language technology--something you won't see anywhere else.
 
 While the main event is next Wednesday and Thursday, things kick off the night before, on Tuesday, May 5th with some pre-conference workshops and partying at 3Scales office:

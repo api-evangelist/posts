@@ -7,7 +7,7 @@ author:
 tags:
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/music-note.png)](http://blog.twilio.com/2011/02/new-developer-contest-the-sweet-sound-of-apis.html)[Twilio](http://www.twilio.com) is having a new developer contest called [Sweet Sound of APIs](http://blog.twilio.com/2011/02/new-developer-contest-the-sweet-sound-of-apis.html).
+[Twilio](http://www.twilio.com) is having a new developer contest called [Sweet Sound of APIs](http://blog.twilio.com/2011/02/new-developer-contest-the-sweet-sound-of-apis.html).
 
 **Mission:** Create something cool using your favorite music API and Twilio.
 

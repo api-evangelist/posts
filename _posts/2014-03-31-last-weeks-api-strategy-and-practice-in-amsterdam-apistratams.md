@@ -9,8 +9,6 @@ tags:
   - Strategy
   - APIStrat
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-ams-kin-steve-opening.jpg)](https://www.flickr.com/photos/95142376@N05/13488140215/)
-
 I am back in Los Angeles, after being in Amsterdam last week for [API Strategy & Practice](http://www.apistrategyconference.com/2014Amsterdam/). It's Monday morning, with the event ending Friday, and rather than being drained and exhausted, I'm still glowing and very charged and excited for APIs, after all the amazing discussions.
 
 First off, thank you to [3Scale](http://bit.ly/13esk6Q) for making API Strategy & Practice possible. Without 3Scale, not only would the event not exist, it would not have the tone that it does. 3Scale is investing in the conversation happening, with the priority being an open, inclusive community discussion around APIs—products, brands and companies are not the focus, API strategy and practice lead.

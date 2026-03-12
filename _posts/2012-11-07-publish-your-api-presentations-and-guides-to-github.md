@@ -10,8 +10,6 @@ tags:
   - Guides
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/github/github-logo.png)](https://github.com/ "Github")
-
 [Github](https://github.com/) isn't just for code. Github can be used for HTML documents and PDF's as well. This opens up endless possibilities for management of documents you wish to share with your developer ecosystem.
 
 One excellent example of this is publishing presentations from the various talks, hackathons and conferences you present at. When you are done with a talk and would like to share with your community, you can just expose it as a PDF or HTML document, and push to Github.

@@ -11,8 +11,6 @@ tags:
   - Subway Map
   - Subway
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-evangelist-metro-map-575.png)](http://apievangelist.com/network.html)
-
 A long time ago I defined the [API Evangelist network](http://apievangelist.com/network.html) using a subway map format, plotting out the different routes you could take, and the locations all along this journey. As with anything I do, this is a work in progress, and I’m needing to regularly update this map. Currently it is in an image, and I use an image mapping tool to generate the links—something that is very time consuming.
 
 I think the subway map is an important metaphor for understanding some potentially complex ideas, and provide a single map, complete with legends, supporting content, and links to more details. My problem is I have several maps I need to create, and maintain on a regular basis. Ideally my subway mapping tool would be dynamic, allowing me to make changes as I went along.

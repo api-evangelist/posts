@@ -12,8 +12,6 @@ tags:
   - Planning
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/socrata/Socrata-logo.jpeg)](http://www.socrata.com/)
-
 [Socrata announced today that they are preparing to release an open source, cloud-based, open data system](http://www.socrata.com/newsroom-article/socrata-announces-open-source-option-for-leading-open-data-cloud-platform/ "Socrata announced today that they are preparing to release an open source, cloud-based, open data system"), called the “Socrata Open Data Server, Community Edition.” If you don’t already follow what Socrata does, they are the data platform behind municipal open data initiatives like [NYC City Data](http://www.socrata.com/customer-spotlight/new-york-city/ "New York City Data"), [San Francisco City Data](http://www.socrata.com/customer-spotlight/city-of-san-francisco/ "San Francisco City Data") and [Data.gov](http://www.socrata.com/customer-spotlight/data-gov/ "Data.gov").
 
 The new Socrata Open Data Server is meant to be a reference for the [open data standard](http://open-data-standards.github.com/ "open data standard") they are actively evolving to promote data portability throughout open government data ecosystems, and support open source software policies in public organizations around the globe--called [The Open Data Substrate](http://open-data-standards.github.com/ "Open Data Substrate").

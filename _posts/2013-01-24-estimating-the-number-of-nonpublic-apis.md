@@ -7,8 +7,6 @@ tags:
   - Public
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/sdk-bridge/SDKBridge-logo.gif)](http://sdkbridge.com/ "SDK Bridge")
-
 _This post comes from the [SDK Bridge](http://sdkbridge.com/ "SDK Bridge") newsletter.  I find so much value from what Peter and Jonathan do over at SDK Bridge, I always have to post their newsletter here and share with all of you._
 
 ProgrammableWeb is known for publishing the number of public APIs in its directory, and they regularly present an impressive [graph](http://sdkbridge.createsend1.com/t/r-l-utikkyk-hdhyyhjli-j/) that shows how this number has increased exponentially over time. However, not all APIs are public, and ProgrammableWeb is not able to obtain information on how many non-public APIs exist.

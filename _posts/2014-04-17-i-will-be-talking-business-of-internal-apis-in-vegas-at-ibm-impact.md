@@ -10,8 +10,6 @@ tags:
   - Internal
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/ibm-impact-2014/ibm-impact-logo.png)](http://www-01.ibm.com/software/websphere/events/impact/)
-
 The biggest impact APIs will have at your company will be the internal, cultural change regarding how you do business. We are in the middle of an explosion of APIs, and while there are many new public APIs emerging, the majority of growth is coming from the deployment of internal APIs.
 
 There is a lot that companies can learn from the open API movement over the last fourteen years, with many [building blocks](http://management.apievangelist.com/building-blocks.html), and healthy practices that can be applied when internally deploying APIs.

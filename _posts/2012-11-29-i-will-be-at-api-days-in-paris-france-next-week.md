@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-days-paris-france/api-days-logo.png)](http://apidays.io/)
-
 I am heading to Paris, France next week for [API Days](http://apidays.io/). API Days is December 3rd and 4th in Paris and is dubbed as the _"First National Event on APIs in Europe"_. The two day event is organized by [faberNovel](http://www.fabernovel.com/en/ "FaberNovel"), who helps large organizations think and act like startups, and by [WebShell](http://webshell.io/ "Webshell"), who enables developers to easily make advanced web and mobile applications based on APIs.
 
 [API Days](http://apidays.io/) sees the API economy the same way I do:

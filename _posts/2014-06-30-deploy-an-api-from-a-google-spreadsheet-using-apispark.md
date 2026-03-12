@@ -7,8 +7,6 @@ author:
 tags:
   - Spreadsheet
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/api-spark/apispark-logo.png)](http://bit.ly/1sgwGpq)
-
 Spreadsheet are the most used datastore in business. When Google came out with their web-based spreadsheet, it was a game changer (for those who have access), when it came to managing, collaborating and sharing small data sets.
 
 When it comes to data management, not all of us live in the world of big data, and spreadsheets are a quick and dirty data store that gets the job done. As the web was maturing, Google saw an opportunity, and [launched the labs version of Google Spreadsheets in mid 2006](http://en.wikipedia.org/wiki/Google_Docs), bringing spreadsheets into the web 2.0 era of the Internet. In 2014, the next step, in the evolution of the spreadsheet, is to be able to plug spreadsheets directly into the API economy, allowing spreadsheet data stewards to make their valuable content and data available to web, mobile and Internet of things (Iot) developers via simple web APIs.

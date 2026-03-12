@@ -8,8 +8,6 @@ author:
 tags:
   - Documents
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apache-solr/apache-solr-logo.png)](http://lucene.apache.org/solr/)
-
 In this computer driven business world its easy to end up with a mess of documents across a company's network. No matter how much you try to organize, name and add metadata to documents, providing a quality search mechanism can be tough. Let alone one that you can use in web portals, web sites and even mobile and tablet applications.
 
 One common way to to solve this problem historically has been using the Lucene Java Search Library, but in the age of web and mobile having an added API for integrating across all the place you will need search, is even better. One of the quickest ways to deploy a document search API is using [Apache Solr](http://lucene.apache.org/solr/) which is built on top of the Lucene Java Search Library.

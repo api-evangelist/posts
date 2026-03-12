@@ -8,8 +8,6 @@ tags:
   - Economy
   - Vision
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/apigee-logo.gif)](/serviceproviders/apigee.php)
-
 I’m always looking for solid examples of how more and more of our every day world is being driven by APIs. Examples I can use to help explain APIs to every-day business folks.
 
 I came across one example that will speak to many business executives today via an [Apigee Innovator Spotlight on their client TradeKing](http://blog.apigee.com/detail/innovator_spotlight_tradeking/ "Apigee Innovator Spotlight on their client TradeKing"). When asked about the vision of their API program Dan Raju CIO of TradeKing says:

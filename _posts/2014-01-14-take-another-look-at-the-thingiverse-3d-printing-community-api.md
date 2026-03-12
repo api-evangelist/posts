@@ -10,8 +10,6 @@ tags:
   - Community
   - Print
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/thingiverse/thingiverse-home-page-screenshot-2.png)](http://www.thingiverse.com/developers)
-
 Have you taken a look at the [Thingiverse developer area](http://www.thingiverse.com/developers "Thingiverse Developer Area") lately? It’s been a while since I reviewed it. A couple years ago while working at [Mimeo](http://www.mimeo.com/) as an API evangelist I had the pleasure of doing some deep research into not just printing APIs, but [3D printing APIs](http://apievangelist.com/2012/12/19/api-driven-3d-printing-and-manufacturing-supply-chain/ "3D printing APIs") as well. I wrote a lot on the subject, but overall I was unhappy with what was available in the areas of 3D printing APIs.
 
 When you go to the Thingiverse API now, the landing page immediately tells you what is possible, gives you direct links to API documention, but also provides you what you need to get started, sign up and explore the Thingiverse API—a flow that is so very important!

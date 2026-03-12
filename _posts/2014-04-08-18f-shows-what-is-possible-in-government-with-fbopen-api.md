@@ -9,8 +9,6 @@ tags:
   - Government
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/18f/18F_logo.png)](https://18f.gsa.gov/)
-
 There has been some [great coverage of the new group of tech specialists out of the GSA](http://e-pluribusunum.com/2014/03/12/at-18f-in-gsa-u-s-seeks-to-tap-the-success-of-the-u-k-s-government-digital-services/), dubbed [18F](https://18f.gsa.gov/). According to their own home page, 18F:
 
 > _...builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves. We help agencies deliver on their mission through the development of digital and web services._

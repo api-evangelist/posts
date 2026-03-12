@@ -10,8 +10,6 @@ tags:
   - Amazon
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_06_at_12.30.23_pm.png)](http://boston2016.apistrat.com/schedule/)
-
 I'm neck deep in studying how Amazon is operating their Alexa platform, so I'm pretty excited about [the chance to listen and learn from the Alexa team at APIStrat in Boston](http://boston2016.apistrat.com/schedule/). Even if you aren't building voice-enabled applications, the approach to developing, managing, and evangelizing the Alexa platform provides a wealth of best practices that we should all strive to emulate in our own operations.
 
 Rob McCauley ([@RobMcCauley](https://twitter.com/RobMcCauley)) from the Amazon Alexa team is doing a workshop, as well as a keynote at @APIStrat in Boston next month. This is relevant to what is going on in the wider space because voice-enablement is a fast-moving layer when it comes to delivering API resources, helping define what is being dubbed as the conversational interface movement, while also providing the best practices for a modern API strategy that I mentioned above.

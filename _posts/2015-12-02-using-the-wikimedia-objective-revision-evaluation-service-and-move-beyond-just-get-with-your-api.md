@@ -9,8 +9,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Objective_Revision_Evaluation_Service_logo.svg.png)](https://meta.wikimedia.org/wiki/Objective_Revision_Evaluation_Service)
-
 I stumbled across [Objective Revision Evaluation Service (ORES)](https://meta.wikimedia.org/wiki/Objective_Revision_Evaluation_Service) last night, a web service running in Wikimedia Labs that provides machine learning as a service across Wikimedia Projects, and is designed to help automate vandalism detection and removal for content, being developed as part of the [R:Revision scoring as a service](https://meta.wikimedia.org/wiki/Research:Revision_scoring_as_a_service "Research:Revision scoring as a service") project.
 
 As I came across, I was also considering [different access plans across my APIs](http://plans.apievangelist.com/), with some of the plans allowing for updating existing content in the system--[the topic of abuse of API access was on my mind](http://apievangelist.com/2015/11/29/the-bad-actors-on-both-sides-of-the-api-fence/). I'm curious if ORES could be applied to any sort of content or data post via a PUT / PATCH API request?

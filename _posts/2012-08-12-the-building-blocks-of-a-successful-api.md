@@ -8,8 +8,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/building%20blocks.jpg)](https://tinypay.me/~DRCho6h/the-building-blocks-of-a-successful-api-by-kin-lane)
-
 When I started API Evangelist two years ago, I noticed some common practices by API owners, in how they tailored their API areas, and I started calling these [API building blocks](/buildingblocks/ "API Building Blocks"). I started a section of the site dedicated to my building block philosphy and showcased what I felt were the most common building blocks across the most successful APIs.
 
 Two years later, and after having viewed just about every API publicly available, I have updated my [building blocks section](/buildingblocks/ "building blocks section"), based upon the practices of 1500 of the most successful APIs. Along with this update I have also published a white paper called [The Building Blocks of a Successful API](/the_building_blocks_of_a_successful_api.php "The Building Blocks of a Successful API").

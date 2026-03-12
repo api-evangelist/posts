@@ -11,8 +11,6 @@ tags:
   - Open
   - 4
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/schema-org/schema-org.png)](https://schema.org)
-
 I am gearing up for another wave of [API definition](http://definitions.apievangelist.com/) work, so I am taking the opportunity to produce some more tooling that assists me in the process. One of the tools I want to build, is a simple solution for walking me through one or many OpenAPI Specs, and push me to make sure every parameter has a complete set of descriptions. I possess amazing powers of bullshit, and can craft default description for almost anything I come across, but it would be nice to have an an ever evolving autocomplete dictionary to augment my existing super powers. 
 
 I already have [an APIs.json driven autocomplete tool, that loops through all the parameters within the OpenAPI Specs that are indexed](http://apis.json.autocomplete.apievangelist.com/). I just needed a rich set of fields and parameters to pull from -- [Schema.org](https://schema.org). The rich vocabulary that is Schema.org possesses 992 properties across 642 schema types. I've long wanted to craft OpenAPI Specs for Schema.org, but needed a reason to help push things forward, and this is a perfect opportunity to kick things off.

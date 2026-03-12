@@ -11,8 +11,6 @@ tags:
   - History
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/github/forkme-right-red.png)](https://github.com/blog/273-github-ribbons)
-
 Simple, embeddable tools can be one of the most powerful tool in an API evangelists toolbox. While there was a wide variety of forces that were at play in the social API evolution, contributing to the success of Twitter and Facebook, embeddable buttons, badgers widgets definitely played a leading role.
 
 One embeddable implementation that will go down in history alongside the Twitter share button and Facebook like button, is the [Github Ribbon](https://github.com/blog/273-github-ribbons). The Github Ribbon is the thin little ribbon you are increasingly seeing on projects, sites and applications (notice them rolling out across the [API Evangelist network](http://apievangelist.com/network.html "API Evangelist Network")), letting you know you that a site's source is available on Github, and available for you to download or fork.

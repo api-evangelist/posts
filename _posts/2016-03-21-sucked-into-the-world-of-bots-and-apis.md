@@ -8,8 +8,6 @@ tags:
   - Bots
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-robot.png)](http://bots.apievangelist.com/)
-
 I am slowly getting sucked into the world of bots. I've been tagging stories related to Twitter bots for some time, but it was the growing buzz of Slack bots that has really grabbed my attention. It pushed me to light up a research area, so that I can begin to look at things closer, and work to understand the common building blocks, like I do for the other areas of the API space.
 
 The world of bots intrigues me, from the perspective of how APIs can be used to execute bots, but also provide the valuable resources needed to deliver bot functionality. I feel like the [list of categories of available Slack bots](https://slack.com/apps) are somewhat telling of the business potential for bots:

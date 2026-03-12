@@ -8,8 +8,6 @@ author:
 tags:
   - Offers
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/mbaas-providers/quickblox-logo.png)](/serviceproviders/quickblox.php)
-
 [Backend as a Service](/trends/baas.php) (BaaS) provider [QuickBlox](/serviceproviders/quickblox.php) announced new [pricing plans](http://quickblox.com/plans/), which includes a free tier up to 10GB in traffic and storage, with unlimited API calls and push notifications.
 
 The BaaS space is heating up with lots of discussion about whether you should charge developers by active user, features, storage or API call--with each provider being pretty vocal about where they stand. Quickblox is approach similar to [StackMob](/serviceproviders/stackmob.php "Stackmob"), who refuses to charge based upon API call, atributing it to a sucess tax. But Quickblox is somewhat different, as they still charge for hard costs like bandwidth and storage--Stackmob only charges by feature.

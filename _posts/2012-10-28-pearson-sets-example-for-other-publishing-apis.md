@@ -9,8 +9,6 @@ tags:
   - Publishing
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/pearson/pearson-logo.png)](http://developer.pearson.com/ "Pearson")
-
 One API I’ve been watching grow and evolve from day one is the [Pearson Developer Community](http://developer.pearson.com/ "Pearson Developer Community"). I first wrote about them when Peasron [announced a new initiative to build an API platform that give developers access to the publisher's content](http://apievangelist.com/2011/05/10/pearson-plans-api-platform-to-unlock-content/ "announced a new initiative to build an API platform that give developers access to the publisher's content") in May of 2011. Then in [August 2011 they launched three APIs](http://apievangelist.com/2011/08/16/re-inventing-pearson-publishing-using-apis/):
 
 *   **[Longman Dictionary](http://developer.pearson.com/api/longman-dictionary/apimethod/get-entry-0/189/overview)** - The Longman Dictionary of Contemporary English is the flagship Longman dictionary

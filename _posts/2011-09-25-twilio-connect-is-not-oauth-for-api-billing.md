@@ -9,8 +9,6 @@ tags:
   - OAuth
   - Twilio
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/twilio/twilio-connect-screenshot.png)](http://www.twilio.com/api/connect "Twilio Connect")
-
 During [TwilioCon](http://www.twilio.com/conference/ "TwilioCon") last week I covered the release of Twilio Connect in two posts, starting with, "[Twilio Introduces Twilio Connect, Its New In-App Billing Model](http://blog.programmableweb.com/2011/09/21/twilio-introduces-twilio-connect-its-new-in-app-billing-model/ "Twilio Introduces Twilio Connect, Its New In-App Billing Model")" on [ProgrammableWeb](http://www.programmableweb.com "ProgrammableWeb"), and on API Evangelist with, "[Twilio Connect is OAuth for API Billing](/2011/09/20/twilio-connect-is-oauth-for-api-billing/ "http://apievangelist.com/2011/09/20/twilio-connect-is-oauth-for-api-billing/")".
 
 [Twilio Connect](http://www.twilio.com/api/connect "Twilio connect") is a new billing solution that enables developers to offload charges for Twilio API usage to their application users, rather than their own Twilio accounts, and billing customers separately. Twilio Connect is modeled after OAuth in that it uses a “two-legged” process for application users to setup and authenticate a payment relationship with Twilio, that a developer can leverage within their app using a token.

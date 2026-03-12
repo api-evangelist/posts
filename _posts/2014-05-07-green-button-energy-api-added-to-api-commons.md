@@ -9,8 +9,6 @@ tags:
   - Energy
   - API Commons
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/green-button/green-button.jpg)](http://www.greenbuttondata.org/)
-
 One of the most meaningful API projects I work on with the US government is the [Green Button AP](http://energyos.github.io/OpenESPI-GreenButton-API-Documentation/)I, which provides access to energy data for US consumers across the country. First, what is the Green Button API? The Green Button builds on top of the Green Button data initiative which is:
 
 > _...an industry-led effort that responds to a White House call-to-action: provide electricity customers with easy access to their energy usage data in a consumer-friendly and computer-friendly format via a "Green Button" on electric utilities' website._

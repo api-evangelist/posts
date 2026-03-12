@@ -8,8 +8,6 @@ tags:
   - My
   - Research
 ---
-[![](http://essential.apievangelist.com/images/essential-api-building-blocks-covershot.png)](http://apis.how/3logs6w2yo)
-
 [My API industry research is constantly moving forward, shifting, and being added to--much like the space itself](http://apievangelist.com/). As I work to update each of my research areas each week, my process involves adding any news I've curated, and changes to the companies who are doing things in the space, as well as add or remove any common building blocks I've identified. These building blocks are the common patterns I've identified by studying how API providers are operating, and what features API service providers are bringing to the table, for API providers to put to work.
 
 [This last fall, in preparation for my keynotes at Defrag and APIStrat, I pushed forward much of my research, flushing out more of the building blocks across 20+ of my research areas](http://apievangelist.com/2015/11/29/the-api-lifecycle-my-talk-from-defrag-and-apistrat/). As I was preparing for another big push forward with my research, I wanted to stop and take a snapshot of just what I'd consider to be the essential building blocks across the most mature areas of my API monitoring research.

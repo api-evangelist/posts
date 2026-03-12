@@ -13,8 +13,6 @@ tags:
   - Planning
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/osu-banner-logo.png)](https://www.osu.edu/)
-
 [While updating my APIs in higher education research this last week](http://university.apievangelist.com/) I came across an API portal I think tells an important story about an evolution in how we develop and maintain software. The current wave of web APIs that I cover has been working well because it has exposed a number of valuable resources, that once upon a time were only available in the realm of IT, making these resources accessible to a wider audience of developers, or even business users. 
 
 This evolution has been slowly pulling back the curtain of IT, exposing more of it's inner workings, potentially simplifying, and decoupling valuable digital resources from legacy power structures. An important piece of this transformation is the translation of IT speak to language that the average human can understand, something that is playing out within API developer portals across companies, organizations, institutions, and government agencies. 

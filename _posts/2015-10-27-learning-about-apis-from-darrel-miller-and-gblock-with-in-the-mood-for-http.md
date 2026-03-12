@@ -11,8 +11,6 @@ tags:
   - APIs
   - Learning
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/in-the-mood-for-http.png)](https://www.youtube.com/channel/UCMRYw8VY7mFUg78AEuIbtyg)
-
 As you probably know, I'm always up for learning about APIs, so when [@Darrel\_Miller](https://twitter.com/darrel_miller) and [@GBlock](https://twitter.com/gblock) started doing their [In the Mood for HTTP podcast](https://www.youtube.com/channel/UCMRYw8VY7mFUg78AEuIbtyg), I was all in. Both Darrel and Glenn are API experts, and respected leaders in the space, but more importantly both of them are super nice guys, and reflect a tone I love to experience and support across the API space.
 
 The format for [In The Mood For HTTP](https://www.youtube.com/channel/UCMRYw8VY7mFUg78AEuIbtyg) is simple. The audience asks questions, and Darrel and Glenn discuss. They are both very graceful in how they answer questions, extremely knowledgeable on the subjects at hand, but they are also very opinionated, and they don't always agree--the exchange between them is educational, and very benefitial to the wider API community.

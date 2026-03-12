@@ -13,8 +13,6 @@ tags:
   - APIs
   - APIs.jso
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/terms-of-service-didnt-read/tos-didnt-read-logo.png)](http://tosdr.org/index.html)
-
 I’ve long been fascinated by the [Terms of Service Didn’t Read](http://tosdr.org/index.html) project. i’m on the mailing list, and try to make time to stay in tune, but have yet to ever contribute any bandwidth to the EXTREMELY important project, around making sense of the crazy terms of services (TOS), that we agree to in our daily lives.
 
 I finally found myself at a point where I'm forced to start paying more attention to API terms of service, and hopefully will be able to slice off a little bit of dedicated bandwidth to Terms of Service; Didn’t Read. I have two projects that have floated up on my list, and deserve some priority attention.

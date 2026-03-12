@@ -8,8 +8,6 @@ tags:
   - Deployment
   - Scraping
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-scraper.jpg)](http://scraping.apievangelist.com/)
-
 Scraping has been something I’ve done since I first started working on the web. Sometimes you just need some data or a piece of content that isn't available in a machine readable format, and the only way is to get it scrape it off a web page.
 
 Scraping is widespread, but something very few individuals or companies will admit to doing. Just like writing scripts for pulling data from APIs, I write a lot of scripts that pull content and data from websites and RSS feeds. Even though I tend to write my own scripts for scraping, I’ve been closely watching the new breed of scraping tools like Scraperwiki:

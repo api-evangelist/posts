@@ -9,8 +9,6 @@ tags:
   - Economy
   - Acquisitions
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/HP-large.png)](http://www.nytimes.com/2014/10/07/business/hewlett-packard-announces-breakup-plan.html?_r=0)
-
 As I [hear stories of the HP separation today](http://www.nytimes.com/2014/10/07/business/hewlett-packard-announces-breakup-plan.html?_r=0), I'm reminded of how companies of all shapes and sizes interact, both historically, and in this potentially new API driven business landscape we find ourselves in. I’m not an expert in running any size company, but this won’t stop me from being a pundit on the subject! ;-)
 
 The HP story brought me back to a conversation I was having the other day with a VC, regarding what is next for Apigee, and when I said IPO, the VC asked me if maybe SAP would buy them. I know that SAP and Apigee are partnering, but honestly I don't know jack about Apigee’s business model, or even SAP, so I really don't have a clue what is next, I can only guess.

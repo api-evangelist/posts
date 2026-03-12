@@ -8,8 +8,6 @@ author:
 tags:
   - Content
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/npr/npr-logo.jpeg)](http://www.npr.org/ "NPR")
-
 NPR is defining new models for content distribution. One that other media providers can follow, when designing their API driven content delivery platforms.
 
 The [NPR Story API](http://dev.npr.org/) provides digital access to NPR content and to other station content--allowing both NPR and stations to contribute and consume local and national news stories.

@@ -7,8 +7,6 @@ atomdate: 2016-08-19T22:00:00.000Z
 tags:
   - Consumption
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/conspire_blogHeader.png)](https://www.fullcontact.com/blog/fullcontact-acquires-conspire/)
-
 I saw that the [contact API solution FullContact recently purchased the professional network management solution Conspire](https://www.fullcontact.com/blog/fullcontact-acquires-conspire/). Thankfully FullContact is good about blogging about the move, and the details of the motivations behind their decision -- without this type of storytelling I wouldn't even have known it happened.
 
 One thing I noticed in the blog post was that _"Paul, Alex, and the entire [Conspire](https://www.conspire.com/) team have been fabulous partners with FullContact, having utilized our [Person API](https://www.fullcontact.com/developer/person-api/)_ _as a part of the Conspire offering"_. Acquisitions from within an API ecosystem is not new. It is why many companies do APIs in the first place, to help identify talent within their ecosystem like Paypal does, and complimentary companies and teams like FullContact has done.

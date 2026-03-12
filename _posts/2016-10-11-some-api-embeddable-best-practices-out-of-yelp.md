@@ -8,8 +8,6 @@ tags:
   - Embeddable
   - Best Practices
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_10_at_8.08.25_pm.png)](https://engineeringblog.yelp.com/2016/10/embedded-reviews-at-yelp.html)
-
 [Yelp has shared some of the wisdom behind how they design, deploy, and operate their embeddable reviews](https://engineeringblog.yelp.com/2016/10/embedded-reviews-at-yelp.html). I like it when leading API providers share the story behind their tooling like this. This type of storytelling generates SEO for their API, educates their API consumers, and provides educational resources for other API providers (and content for analysts like me).
 
 So, what makes for a good embeddable widget, according to Yelp?

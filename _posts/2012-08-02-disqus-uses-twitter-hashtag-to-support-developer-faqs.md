@@ -7,8 +7,6 @@ tags:
   - Twitter
   - Support
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/disqus/disqus-logo.gif)](http://disqus.com/api/docs/ "Disqus API")
-
 I’m always on the lookout for extremely simple ways API Evangelists can support their developers without rolling out complex tools or platforms. The latest approach comes from the [Disqus API](http://disqus.com/api/docs/ "Disqus API"), and how they are using Twitter to answer developer questions.
 
 > Tweet with the hashtag [#**DisqusFAQ**](https://twitter.com/search/%23DisqusFAQ) to get your frequently asked questions answered by [@**disqus**](https://twitter.com/disqus)!

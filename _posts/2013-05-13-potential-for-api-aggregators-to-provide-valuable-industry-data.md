@@ -9,8 +9,6 @@ tags:
   - Data
   - Industry
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/spreedly/spreedly-logo.png)](https://spreedly.com/)
-
 I've been tracking on a trend in the API space that I call [API aggregation](http://aggregation.apievangelist.com/). Companies like [Singly](http://singly.com "Singly") and [Adigami](http://www.adigami.com/ "Adigami") are aggregating APIs into more meaningful API stacks, than any single API provider can deliver on their own.
 
 In my regular monitoring, I'm always on the hunt for examples of the benefits of API Aggregation, and last week I saw some pretty interesting payment gateway data being provided by payment API aggregator [Spreedly](http://spreedly.com "Payment API Aggregator")\--which definitely reflects the positive effects I'm looking to shine light on in the space.  

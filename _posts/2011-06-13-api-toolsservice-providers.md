@@ -9,7 +9,7 @@ tags:
   - Providers
   - Service Providers
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/app-showcase/Appstores.png)](http://appstores.com/)When I review a new API, I take a look at the technology they provide, but I tend to focus on the business of their API.
+When I review a new API, I take a look at the technology they provide, but I tend to focus on the business of their API.
 
 One area I look at, is what tools they use to deliver the [building blocks that make up their API](http://www.apievangelist.com/ecosystem-building-blocks.php "building blocks that make of their API"). Did they build it themselves? Did they use [Mashery](http://apievangelist.com/2010/10/10/mashery-api-services/ "Mashery"), [Apigee](http://apievangelist.com/2010/10/10/apigee-api-services/ "Apigee") or [3Scale](http://apievangelist.com/2010/10/10/3scale-api-services/ "3Scale")? Are they using other open-source tools or a software as a service (SaaS) provider?
 

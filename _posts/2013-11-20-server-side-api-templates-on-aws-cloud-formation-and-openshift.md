@@ -11,8 +11,6 @@ tags:
   - AWS
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/amazon/cloud-formation/aws-CloudFormation.png)](http://aws.amazon.com/cloudformation/)
-
 I created [11 very simple API designs](http://apicommons.org/apis.html) for the launch of [API Commons](http://apicommons.org/). We needed some API definitions to show the potential of the commons, so I wanted to design a handful of common API patterns to seed the launch.
 
 For all 11 API designs I started with a [Swagger definition](https://github.com/wordnik/swagger-core/wiki), then using PHP and the Slim framework I quickly generated server side code for each API. I generate this code programmatically from the Swagger spec, but I also prefer going through the generated code and giving it a human touch.

@@ -18,8 +18,6 @@ tags:
   - APIs.jso
   - Git
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-json-annotation.png)](http://apis.json.annotation.apievangelist.com/)
-
 I am working on [one possible API definition for the Human Services Definition Specification (HSDS)](http://apievangelist.com/2016/04/09/playing-with-one-possible-openapi-spec-for-the-human-services-data-specification-hsds/), and the next phase of this work involves bringing in a small group of technical, and non-technical folks to have discussions around their API designs, in context of the master specification I am looking to pull together. 
 
 To help drive the discussion I am wanted to use the [OpenAPI Specification that I created for HSDS](http://adopta-agency.github.io/open-referral-api/api-commons/openapi-spec.json), and I also knew I wanted to use Github issue management to help keep track of the synchronous, and asynchronous conversation that would occur around it. However Github tends to have a perceived barrier to entry for many non-developers (which I don't fully get), so I wanted to leverage the platform, but also soften the way everyone discussed the overall specification, as well as each individual endpoint.

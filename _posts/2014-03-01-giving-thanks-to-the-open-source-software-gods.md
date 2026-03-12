@@ -9,8 +9,6 @@ tags:
   - Open Source
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/flowdock/flowdock-logo.png)](https://www.flowdock.com "flowdock")
-
 I spend a lot of time thinking about the politics of APIs, which in my opinion is the soul of the API economy. There are numerous things that go into the politics of an API, including your terms of service (TOS), privacy policy all the way to sharing your security strategy and communicating with your developers.
 
 The politics of APIs is all about the balance you take in your API operations, and how open, public, secure, transparent, accessible, and real you are in your overall approach. The politics of an API can reveal a lot about the company behind the resource, and will play a big role in how successful an API will ultimately be with the developer community.

@@ -10,8 +10,6 @@ author:
 tags:
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/blaze-portfolio/atom-align-blaze-portfolio.png)](http://www.blazeportfolio.com)
-
 I recently talked with Bryson Pouw ([@bpouw](https://twitter.com/bpouw)), Founder / CEO at [Blaze Portfolio Systems](http://www.blazeportfolio.com) in Chicago about how his portfolio management and trading technology company sees the world of APIs. Last week [I had talked with Dave Devitt (@sydcon), President at SYDCON, a web development shop](http://apievangelist.com/2014/08/11/how-are-mobile-dev-shops-in-chicago-using-apis-a-talk-with-dave-devitt-at-sydcon/), and this week I was very interested to hear Bryson’s view on APIs, because his company is a little more niche, focusing specifically on the needs of the investment professional.
 
 [Atom Align](http://www.blazeportfolio.com/features/model-rebalancing), the Blaze Portfolio Systems flagship product is looking to help investment professionals better manage their portfolios, and a big enabler of this is the [Atom Align API](http://www.blazeportfolio.com/atom-align-api), which provides programmatic access to:

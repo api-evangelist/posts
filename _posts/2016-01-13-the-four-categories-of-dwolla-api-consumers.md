@@ -9,8 +9,6 @@ tags:
   - Consumers
   - Consumer
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dwolla-developer-home.png)](https://developers.dwolla.com/)
-
 I just finished spending an hour talking with Brent Baker ([@norcaljhawk](https://twitter.com/norcaljhawk)), head of product for [Dwolla](https://www.dwolla.com/), and Jordan Lampe ([@JsLampe](https://twitter.com/JsLampe)), about the vision behind the developer experience for their [new developer portal](https://developers.dwolla.com/). I will be able to craft many stories from the notes I generated during our conversation, but there was one aspect of how they view consumers of their [ACH transfer API](https://docsv2.dwolla.com/#transfers), I wanted to quickly share.
 
 This portion part of our conversation came up when they mentioned how they broke up their API users, as they were rethinking the overall developer experience. They put API consumers into four distinct categories:

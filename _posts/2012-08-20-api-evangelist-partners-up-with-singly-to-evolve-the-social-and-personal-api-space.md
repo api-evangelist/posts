@@ -14,8 +14,6 @@ tags:
   - Partners
   - Personal
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/singly/singly-logo-horizontal.png)](https://singly.com "Singly")
-
 The world around us is being redefined and a new currency is taking shape. Tweets on [Twitter](http://twitter.com "Twitter"), wall posts to [Facebook](http://facebook.com "Facebook"), pictures on [Instagram](http://instagram.com "Instagram"), files on [Dropbox](http://dropbox.com "Dropbox") and health data via [Fitbit](http://fitbit.com) are emblematic of the emerging API-driven economy.
 
 This data isn’t just social, nor just a currency. It is vital personal data that contains details from intimate aspects of our daily lives. Platform players like Facebook and Twitter have shown through their APIs the possibilities that emerge when developers can build, unfettered with their own creativity on top of this data -- enriching people’s lives in a richer, more connected way.

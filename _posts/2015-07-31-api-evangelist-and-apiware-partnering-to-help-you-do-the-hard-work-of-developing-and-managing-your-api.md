@@ -13,8 +13,6 @@ tags:
   - API Evangelist
   - Evangelist
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiware-logo.png)](http://apiware.io/)
-
 I am fortunate to be able to take part in numerous conversations around API strategy, with companies, organizations, and government agencies who are trying to understand, and maximize the role they play in the API economy. However, one side effect of this world, is that most of these conversations begin and end with strategy planning, and when it comes to deployment and management, I rarely stay on in discussions. I do have clients who do check in with me, at different stops along their journey, but for the most part my role ends once the strategy discussions end.
 
 I would like to change this with a new relationship I've established with [APIWare, a new API-first agency that is dedicated to defining, developing, deploying, and managing APIs at all stages of the life-cycle](http://apiware.io/). I have worked with the core team that is APIWare, on earlier projects, and after a couple of years, I've learned to trust the work they do.

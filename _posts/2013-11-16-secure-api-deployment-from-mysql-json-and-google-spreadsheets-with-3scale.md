@@ -14,8 +14,6 @@ tags:
   - Scale
   - JSON
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-toolbox.jpg)](https://github.com/kinlane/api-deploy-toolkit)
-
 I'm doing a lot more API deployments from dead simple data sources since I started working in the federal government. As part of these efforts I'm working to put together a simple toolkit that newbies to the API world can use to rapidly deploy APIs as well.
 
 A couple of weeks ago I worked through the [simple, open API implementations](http://apievangelist.com/2013/10/22/api-deployment-from-mysql-json-github-and-google-spreadsheets/), and this week I want to show how to secure access to the API by requiring an AppID and AppKey which will allow you to track on who has access to the API.

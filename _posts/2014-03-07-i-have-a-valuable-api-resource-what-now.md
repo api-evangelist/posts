@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/pop-up-archive/pop-up-archive-logo.png)](https://www.popuparchive.org/ "Pop Up Archive")
-
 One of the most enjoyable thing about being the API Evangelist is talking to API providers about their strategy, and helping brainstorm what they should do next. I have multiple APIs I do this with regularly, either because I’m an advisor, big fan, or simply because they pay me. ;-) My favorite discussions are from the providers that are fine with me retelling their story publicly, APIs like the [Cashtie API](https://www.cashtie.com/) and the [Popup Archive](https://popuparchive.com/).
 
 Anne and Bailey over at Popup, a audio transcription API, talk with me regularly about their API development, deployment and now evangelism strategy. The Popup Archive API meets the first rule of APIs for me—do one thing and do it well, providing clear value for developers. The Popup Archive does this with audio transcription, opening up a whole world of audio to being searchable via an API. Think about the potential of making old radio programs indexed, and searchable online, giving new life to legacy content.

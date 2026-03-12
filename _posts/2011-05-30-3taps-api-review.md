@@ -7,7 +7,7 @@ author:
 tags:
   - Review
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/3Taps/3taps.jpg)](http://3taps.com/developers "3taps API")[3taps](http://3taps.com/ "3taps") is a data platform that aggregates searches and posting to multiple data platforms into single interface.
+[3taps](http://3taps.com/ "3taps") is a data platform that aggregates searches and posting to multiple data platforms into single interface.
 
 [3taps API](http://3taps.com/developers "3taps API") provides a RESTful interface with app and keys for authentication, provided by [Mashery](http://apievangelist.com/2010/10/10/mashery-api-services/ "Mashery"). The platform provides language libraries in the following formats:JavaScript, Java, PHP, Perl, Objective C, Python, Ruby.
 

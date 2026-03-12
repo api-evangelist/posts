@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/bandpage/BandPage-Connect-Logo.png)](https://developers.bandpage.com/home)
-
 [BandPage](http://www.bandpage.com/), a hub for musicians to manage and control their online presence, just expanded their reach with [BandPage Connect](https://developers.bandpage.com/home), an API, allowing developers to build apps for the music industry. I wrote about their [update once, publish everywhere with an embeddable API strategy](http://apievangelist.com/2012/07/25/update-once,-publish-everywhere-with-the-right-embeddable-api-strategy/ "update once, publish everywhere with an embeddable API strategy") back in July, feeling an API would be next.
 
 When it comes to a Bands most treasured assets, music is always held up as the most valuable piece of the catalog, but band info, events, venues, videos and photos of the band are essential to the success of these artists--emotionally connecting fans with their favorite bands.

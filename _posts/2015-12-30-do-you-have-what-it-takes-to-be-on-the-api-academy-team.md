@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-academy-logo.png)](http://www.apiacademy.co/)
-
 When it comes to keeping an eye on what others are doing across the API space, and occasionally pushing forward a few crazy ideas, API Evangelist is your source. [However if you really want to learn about API design and architecture, that you can put to work at your company, organization, institution, and government agency--the API Academy is where you go](http://www.apiacademy.co/).
 
 There is not another team API team that so focused on API literacy, with as much expertise, as the API Academy team. If you have been to any of the leading API events like [APIStrat](http://apistrat.com), [APIDays](http://www.apidays.io/), [API Craft](http://www.apicraft.org/), and [RESTFEst](http://restfest.net/), you've seen their team in action, and known what they are bringing to the table.

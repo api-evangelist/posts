@@ -9,8 +9,6 @@ tags:
   - Monetization
   - Bundling
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/alchemy/alchemy-api-ibm-version.png)](http://www.alchemyapi.com/)
-
 I was doing my regular monitoring, and found myself on the [AlchemyAPI](http://www.alchemyapi.com/) site. Not exactly sure how I got there, but I stumbled across their [HTMLGetCombinedData](http://www.alchemyapi.com/api/combined/htmlc.html) API, which can be used for analysis on HTML content, and is one of 3 separate APIs, AlchemyAPI is calling "combined calls".
 
 If you aren’t familiar with AlchemyAPI, the company has a number of valuable APIs, which you can use to make sense of content and data from on, or offline source. I use AlchemyAPI for API Evangelist, to pull keywords, and the content out of blog posts, helping me shed the overall look of a site, and any advertisements--getting down to the raw content. What I thought was particularly interesting about this API, was their approach combined calls, and specifically their approach to monetizing these aggregated API calls.

@@ -9,8 +9,6 @@ tags:
   - Design
   - Research
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-design.png)](http://design.apievangelist.com)
-
 _I am giving each of my primary API research sites a refresh, and first up is the home page of my [API design research](http://design.apievangelist.com). As I update each home page, I'm going to publish here on API Evangelist to help bring more awareness to each of the main areas I'm studying._
 
 This is one of my [API research sites, focused specifically on API design](http://design.apievangelist.com). My name is [Kin Lane](http://kinlane.com), and I am the [API Evangelist](http://apievangelist.com/), working as hard as I can to understand the world of the Application Programming Interface, widely called an API. This network of API research projects all run on Github, and is my real-time workbench, which means there is a lot of finished work present, but occasionally you will also come across areas projects that are unfinished--you have stumbled in my API design research, you will find the main [API Evangelist site over here](http://apievangelist.com/), with other links to my work.

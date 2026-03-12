@@ -10,8 +10,6 @@ tags:
   - Life Cycle
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-garage/api-garage-vertical.png)](http://apigarage.com/)
-
 The [news out of Runscope](https://www.facebook.com/johnsheehan/posts/10156769607460078) makes today a good day to kick off discussion around a project that I've been helping push forward with the [API Garage team](http://apigarage.com), assisting them find the healthiest path forward for their API client tooling. As Runscope demonstrates, it is a tough time for API startups, something that adds fuel to my personal mission to do what I can to help startups find success. 
 
 First, what is [API Garage](http://apigarage.com)? It is one of the [HTTP / Web API Client tools available today, including Postman, Paw, DHC, and Stoplight](http://client.apievangelist.com/organizations/). API Garage is [an Electron based solution](http://electron.atom.io/), you can download and put to work in helping you integrate with web APIs, allowing you to make calls, see the requests / response, all without having to write code. This approach to working with APIs has evolved beyond use by just API consumers, and is quickly becoming the tool of choice for API development teams, and being applied at almost every stop along the API life cycle.

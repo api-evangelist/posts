@@ -8,8 +8,6 @@ author:
 tags:
   - Stack
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/traffic-and-weather/Traffic-and-Weather.png)](http://trafficandweather.io/)
-
 I recently added the [Traffic and Weather podcast](http://trafficandweather.io/) to the right hand menu for everyone to enjoy. What John Sheehan ([@johnsheehan](http://twitter.com/johnsheehan) ) and Steve Marx ([@smarx](http://twitter.com/smarx)) are doing on the podcast is **SO** needed in the API space, I highly recommend subscribing to the podcast in your itunes and listening regularly.
 
 I was honored to be critiqued in the podcast this week, where they “gently” disagreed with my post from earlier this week on my [speculation around virtual API stacks](/2013/01/28/virtualized-api-stacks/ "virtualized API stacks"). So I wanted to “gently” respond and help clarify.

@@ -7,7 +7,7 @@ author:
 tags:
   - Review
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/freshbooks-invoice-logo.gif)](http://www.freshbooks.com/ "Freshbooks")[Freshbooks](http://www.freshbooks.com/ "Freshbooks") provides time tracking, expense and invoicing Software as a Service (SaaS).
+[Freshbooks](http://www.freshbooks.com/ "Freshbooks") provides time tracking, expense and invoicing Software as a Service (SaaS).
 
 The [Freshbooks API](http://developers.freshbooks.com/ "Freshbooks API") is a RESTful API, using OAuth for authentication. The API provides sixteen endpoints, providing the same functionality through the API, as whats available through the web application.
 

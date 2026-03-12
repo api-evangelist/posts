@@ -8,7 +8,7 @@ author:
 tags:
   - Review
 ---
-[![](http://www.editorsweblog.org/usatoday.gif)](http://www.usatoday.com/)[USA Today](http://www.usatoday.com/) is a major newspaper and online media outlet. It provides wide coverage in the following categories News, Travel, Money, Sports, Life, Tech, and Weather.
+[USA Today](http://www.usatoday.com/) is a major newspaper and online media outlet. It provides wide coverage in the following categories News, Travel, Money, Sports, Life, Tech, and Weather.
 
 [USA Today offers a RESTful API](http://developer.usatoday.com/) delivering best-selling books and sports salaries data. They provide an application key for authentication and no specific language kits. Building Blocks:
 

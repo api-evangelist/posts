@@ -10,8 +10,6 @@ tags:
   - Strategy
   - tag
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/spectagram/Spectagram-Logo.png)](http://lab.adrianquevedo.com/jquery-spectragram/)
-
 There was a great post last week on [ProgrammableWeb](http://blog.programmableweb.com/) from Curtis C. Chen ([@sparCKL](https://twitter.com/sparCKL)), on how a company called [Spectagram has launched a new JavaScript library built on top of](http://blog.programmableweb.com/2012/11/22/spectragram-is-a-gateway-to-instagram-api/) [Instagram](https://www.singly.com/docs/instagram).
 
 [Spectagram](http://lab.adrianquevedo.com/jquery-spectragram/) uses JQuery to provide a basic set of embeddable tools for Instagram allowing users to embed widgets showing latest photos, popular photos, and photos by tag.

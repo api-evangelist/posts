@@ -9,8 +9,6 @@ tags:
   - Rate Limits
   - Web
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/traffic-and-weather/Traffic-and-Weather.png)](http://trafficandweather.io/)
-
 I was [listening to too infrequent Traffic and Weather API podcast today](http://trafficandweather.io/posts/2015/3/19/episode-28-everybody-likes-to-listen-to-people-searching-for-things-on-twitter), and one of the topics John and Steve covered was an interesting approach to API consumption, and getting past API rate limits, with [WebhookDB](https://github.com/singingwolfboy/webhookdb). I agree with John, that WebhookDB is pretty clever, and represents what I'd consider classic API developer ingenuity, when it comes to getting access to the resources they need. I’d have to give this one to my friend and API adversary Tyler Singletary ([@harmophone](https://twitter.com/harmophone)), when he says rate limits stimulate developer creativity. +1 Tyler.
 
 So, what does WebhookDB do?

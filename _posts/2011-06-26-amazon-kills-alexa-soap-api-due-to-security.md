@@ -10,7 +10,7 @@ tags:
   - SOA
   - Amazon
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/amazon/alexa-logo.gif)](http://aws.amazon.com/awis/)Amazon recently sent an email to all developers notifying them of upcoming changes to the [Alexa Top Sites API](http://docs.amazonwebservices.com/AlexaTopSites/latest/ "Alexa Top Sites API").
+Amazon recently sent an email to all developers notifying them of upcoming changes to the [Alexa Top Sites API](http://docs.amazonwebservices.com/AlexaTopSites/latest/ "Alexa Top Sites API").
 
 On November 25, 2011 Amazon will deprecate the Alexa Top Sites SOAP API. The SOAP interface has had repeated security issues over the last couple of years, and since only a small percentage of users actually use the API, they decided to decommission it.
 

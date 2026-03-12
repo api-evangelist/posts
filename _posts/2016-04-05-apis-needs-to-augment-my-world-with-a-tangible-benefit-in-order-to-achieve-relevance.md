@@ -13,8 +13,6 @@ tags:
   - APIs
   - Tangible
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/algorithmia-icon.png)](https://algorithmia.com/)
-
 I am spending time talking to more API providers, and API service providers, about the challenges they are facing, while reaching out to potential customers, thanks to the support of my partners [Cloud Elements](http://cloud-elements.com/). One of the conversation I had last week was with Diego Oppenheimer ([@doppenhe](https://twitter.com/doppenhe)) of Algorithmia ([@algorithmia](https://twitter.com/algorithmia)), who shared with me the challenges he faces in getting senior engineers to realize the potential of APIs, and the  value API driven platforms like Algorithmia bring to the table. 
 
 Diego expressed that the biggest thing they face is convincing their engineer, senior dev, and other tech-focused consumers, that Algorithmia isn't just something new they need to add to their existing stack, and that it is more about enabling what is already in place. While some folks will benefit from discovering entirely new algorithmic approaches on Algorithmia's marketplace, the biggest impact will come from the platform's approach to defining, scaling, and stabilizing the algorithms developers and IT folks are already putting to work. 

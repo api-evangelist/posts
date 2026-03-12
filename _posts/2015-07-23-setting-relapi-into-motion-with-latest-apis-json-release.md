@@ -11,7 +11,7 @@ tags:
   - APIs
   - APIs.jso
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-icon.jpg)](http://apisjson.org/)Bruno Pedro ([@bpedro](/admin/blog/bpedro)) who has been building [APIs.json](http://apisjson.org/) into his [API Changelog service](https://www.apichangelog.com), made a pull request to the specification recently, pushing forward the link relation conversation for APIs.json. As listed in the specification, we have long intended to make APIs.json an official media type:
+Bruno Pedro ([@bpedro](/admin/blog/bpedro)) who has been building [APIs.json](http://apisjson.org/) into his [API Changelog service](https://www.apichangelog.com), made a pull request to the specification recently, pushing forward the link relation conversation for APIs.json. As listed in the specification, we have long intended to make APIs.json an official media type:
 
 **3.5.  Media Type**
 

@@ -8,8 +8,6 @@ author:
 tags:
   - DNS
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/messente-sms-api.png)](https://messente.com/)
-
 I found the DNS implementation over at the Messente SMS API interesting, and worth of sharing for deeper evaluation. I've been [considering the various approaches by API providers when crafting their domains, or subdomains for API access](http://apievangelist.com/2014/10/26/gathering-my-thoughts-around-common-patterns-for-base-urls-across-nearly-700-apis/) heavily over the last couple weeks.
 
 During some research time today I stumbled across the M[essente SMS API](https://messente.com/) which opts to provide two domains for making HTTP(S) requests of their API:

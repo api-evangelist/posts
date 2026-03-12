@@ -9,8 +9,6 @@ tags:
   - Data
   - Government
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/data-gov/next-data-gov-screenshot.png)](http://next.data.gov/)
-
 Our federal government is working on the next iteration of [Data.gov](http://data.gov "Data.gov"), and just published a first look at what is being called [Next.Data.Gov](http://next.data.gov/). This next version is meant to build off the momentum of the recent [open data policy](http://project-open-data.github.io/), which is looking to embed open data practices across our federal government, changing the way it operates.
 
 To plan for the next iteration of Data.gov, the General Services Administration (GSA), a handful of Presidential Innovation Fellows, and OSTP staff studied usage patterns from the last version, and discovered that people were hungry for more examples of how government data is used. Equipped with this understanding, they are making sure the next version included a communication stream that will enable each data community to communicate how datasets are being used and making an impact.

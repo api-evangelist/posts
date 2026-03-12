@@ -8,8 +8,6 @@ author:
 tags:
   - Security
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/snapchat.png)](http://www.snapchat.com/ "snapchat")
-
 If you weren't following the news over the holidays, a rogue group released [SnapchatDB](http://www.snapchatdb.info/), containing the 4.6 million [Snapchat](http://www.snapchat.com/ "snapchat") user profiles, after exploiting the poorly secured mobile application API.
 
 There are opposing views of what's happened, but apparently the group contacted Snapchat in August 2013 letting them know of a potential vulnerability in their API, in which Snapchat claims they responded by instituting rate limiting to address the problem.

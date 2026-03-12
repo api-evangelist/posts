@@ -9,8 +9,6 @@ tags:
   - Evangelist
   - Logo
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/logo-2015-02-02-11-46-41.png)](http://logomaker.apievangelist.com/)
-
 In 2010, when I started API Evangelist, I sat down to create a logo, and after six hours of frustration in photoshop, I eventually just typed out my logo as a basic JSON representation, kind of as a joke, which I eventually planned on changing, but it stuck.
 
 With the latest batch of t-shirts I've ditched the "logo" portion, but will keep this legacy version floating around, here and there for nostalgic purposes. Along the way, I've added what I consider the function version of the logo, which I use for each of my research sites.

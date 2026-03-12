@@ -8,8 +8,6 @@ tags:
   - Planning
   - Time
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/copy_of_united_states_data_map.jpg)](http://www.dronesandsociety.org/?p=341)
-
  
 
 [Photo: Drones and Society](http://www.dronesandsociety.org/?p=341)

@@ -9,8 +9,6 @@ author:
 tags:
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/panoptix/johnson-control-panoptix.png)](https://whatspossible.johnsoncontrols.com/community/panoptix "building efficiency API")
-
 When I [last talked with the Panoptix API team over at Johnson Controls (JCI)](http://apievangelist.com/2012/12/17/making-an-impact-on-environment-with-building-management-apis/), they were working hard on new features, including the possibility of writing data to the [building efficiency API(s)](https://whatspossible.johnsoncontrols.com/community/panoptix "building efficiency APIs").
 
 A year later, I wanted to see where the team was at with their API efforts and was intrigued to learn that their work to make their API writable hadn’t gone exactly as they had planned.

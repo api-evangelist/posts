@@ -9,8 +9,6 @@ tags:
   - Wholesale
   - Marketplaces
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/announcing_multi_year_contracts_for_saas_and_apis.png)](https://aws.amazon.com/marketplace/saas)
-
 I have been talking about selling wholesale APIs for some time now, allowing your potential customers to pick and choose exactly the API infrastructure they need, and develop their own virtualized API stacks. I'm not talking about publishing your retail API into marketplaces like Mashpe, I'm talking about making your API deployable and manageable on all the major cloud providers. 
 
 [You see this shift in business with a recent AWS email I got telling me about multi-year contracs for SaaS and APIs](https://aws.amazon.com/marketplace/saas). Right now there are 70 SaaS products on AWS Marketplace, but from the email I can tell that Amazon is really trying to expand it's API offerings as well. When you deploy an API solution using the AWS Marketplace, and a customer signs up for a one, two, or three year contract, they don't pay for the underlying AWS infrastructure, just for the SaaS, or API solution. I will have to expore more to see if this is just absorbed by the API operator, or AWS working to incentivize this type of wholesale API deployment in their marketplace, and locking in providers and consumers.

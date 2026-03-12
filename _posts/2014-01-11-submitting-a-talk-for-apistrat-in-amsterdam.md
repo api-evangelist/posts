@@ -8,8 +8,6 @@ author:
 tags:
   - APIStrat
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/apistrat-john-sheehan.jpg)](http://www.apistrategyconference.com/2014Amsterdam/contact-call-for-papers.php)
-
 I had a friend ask me for help with their talk submission for [#APIStrat in Amsterdam](http://www.apistrategyconference.com/2014Amsterdam/index.php). He was concerned that his talk was too product pitchy, and wanted help making it something that not just would be accepted by our event, but something community would want to hear.
 
 It is good to hear the concern, its true we want the best talks at #APIStrat, we don’t want to have a bunch of product pitches, we are seeking stories of API strategy and the practices from the trenches of API design, deployment and management.

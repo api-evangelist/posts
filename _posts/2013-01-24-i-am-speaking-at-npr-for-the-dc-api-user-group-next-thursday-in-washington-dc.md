@@ -8,8 +8,6 @@ author:
 tags:
   - Speaking
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/washington-dc-api-meetup/washington-dc-api-users-group.jpeg)](http://www.meetup.com/DC-Web-API-User-Group/events/97891662/ "Washington DC API meetup")
-
 I am invited to speak at the [Washington DC API User Group](http://www.meetup.com/DC-Web-API-User-Group/events/97891662/ "Washington DC API meetup"), next Thursday January 31st 2013, at the NPR offices in Washington D.C.
 
 It looks like a pretty sweet linup of people, gathering for API meetup:

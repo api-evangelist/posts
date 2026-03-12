@@ -8,8 +8,6 @@ tags:
   - Video
   - Services
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Postman_YouTube.png)](https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw)
-
 I like Postman's approach to [using Youtube for providing walk-through's for specific actions users will want to take in their API client service](https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw). All of their video walk-throughs are very simple, straightforward, and seem to speak to specific things that users are going to want to tackle when design, developing, or even integrating with an API.
 
 Another thing I wanted to highlight, is that I came across [Postman's Youtube Account](https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw) because I saw [@postmanclient](https://twitter.com/postmanclient) tweet a link in response to a specific question, from a user about a specific need they had. This demonstrates for me, the importance of weaving video walk-throughs with your regular feedback loop and FAQ's, making sure you have video answers to the things your users are most asking about most--a great way to scale your support, while also increasing your SEO and SMM reach. #winwin

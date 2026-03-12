@@ -11,8 +11,6 @@ tags:
   - Journey
   - ddi
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-plans-journey.png)](http://plans.apievangelist.com/index.html)
-
 I am continuing to build on the subway map exploration work, [that I talked about at @Defrag and @APIStrat last month](http://apievangelist.com/2015/11/29/the-api-lifecycle-my-talk-from-defrag-and-apistrat/), and have a more static version of my API life cycle explorer ready, which I'm simply calling the API journey. [I have only rolled this out for my API plans research](http://plans.apievangelist.com/journey/index.html), but so far I'm happy with the results, something that shouldn't be too difficult to light up for [the other 30+ areas I'm researching](http://apievangelist.com).
 
 There is quite of bit of research that goes into the work that I publish, and the subway analogy is allowing me to share more it, making more parts of it more accessible, in ways I was never able to before. Currently you can take the journey through each of the stops along the API plans portion of my research, and learn about in details about some of the common patterns I'm seeing across the space.

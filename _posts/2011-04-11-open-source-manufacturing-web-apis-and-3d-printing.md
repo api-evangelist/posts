@@ -12,8 +12,6 @@ tags:
   - Open
   - Print
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/shapeways/ceramic-3d-printing.jpeg)](http://en.wikipedia.org/wiki/3D_printing "3D Printing")
-
 I just finished reading, [Will 3-D Printing End Mass Manufacturing](http://mashable.com/2011/04/10/3d-printing-pics/ "Will 3-D Printing End Mass Manufacturing"), on Mashable.
 
 I also had a link to an [open source manufacturing](http://p2pfoundation.net/Open_Source_Manufacturing_Tools "open source manufacturing") site bookmarked from a couple months ago.

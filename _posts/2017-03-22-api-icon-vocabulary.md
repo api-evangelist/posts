@@ -7,8 +7,6 @@ atomdate: 2017-03-22T16:00:00.000Z
 tags:
   - Vocabulary
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/devicons_screenshot.png)](http://konpa.github.io/devicon/)
-
 [I am working on profiling 75 of the Google APIs](http://google.stack.network/), and one thing I struggle with at this scale is standardizing the images I use, or more specifically, icons that represent each service as well as the value they deliver under the hood--something Google seriously needs to get more organized in by the way. [I have written before about having a set of icons for the API sector](http://apievangelist.com/2016/01/25/moving-towards-a-meaningful-set-of-icons-for-the-api-community/), for [SDK related icons](http://apievangelist.com/2016/09/21/a-new-api-programming-language-sdk-icon-set/), and also [about how Amazon is getting more organized when it comes to icons for the AWS platform](http://apievangelist.com/2016/10/21/icons-to-describe-each-of-your-api-resources-like-aws/), as I beat this drum about the need for common imagery.
 
 While I am glad that Amazon is started to think about iconography when it comes to working with APIs at scale, a lead that Google and Microsoft should follow, I'm hoping that API icons are something that someone will tackle at the same level as say a [Schema.org](http://schema.org). I would like to see API provider (company) level icons, [building on the work of Devicon](http://konpa.github.io/devicon/), but I'd also like to see individual icons developed for common resources that are made available via APIs--like compute, storage, images, video, etc.

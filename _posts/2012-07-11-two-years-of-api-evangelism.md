@@ -8,8 +8,6 @@ author:
 tags:
   - Evangelism
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-voice/mobber-logo.jpeg)](http://www.mobber.net/ "Mobber")
-
 [According to Techcrunch](http://techcrunch.com/2012/08/02/online-flashmob-platform-mobber-suspended-from-twitter-api-for-promoted-trends-copycat/), Twitter suspended [Mobber](http://www.mobber.net/ "Mobber"), a platform that rewards users for distributing promoted content through their social media accounts, from using the Twitter API.
 
 Mobber's service is obviously in direct competition with [Twitter's Promoted Trends](https://support.twitter.com/articles/282142-promoted-trends "Twitter's Promoted Trends"), part of Twitter's suite of advertising products, which also includes promoted accounts and promoted Tweets.

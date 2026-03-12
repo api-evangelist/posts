@@ -12,8 +12,6 @@ tags:
   - APIs.io
   - APIs.jso
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/trade-gov/developer-trade-gov.png)](https://developer.trade.gov/)
-
 I've been a big proponent of APIs in the federal government, and it makes me really happy to see [Developer.Trade.Gov](https://developer.trade.gov/) using [APIs.json to provide an inventory of APIs available at the federal agency](https://developer.trade.gov/api.json) dedicated to strengthening "the competitiveness of U.S. industry, promotes trade and investment, and ensures fair trade through the rigorous enforcement of our trade laws and agreements".
 
 If you aren’t familiar with [APIs.json](http://apisjson.org/), it is the open format that [3Scale](https://bit.ly/1cHBhd5) and API Evangelist are working on to help make APIs discoverable. You can see APIs.json in action at the [open source API search engine APIs.io](http://apis.io), where the [International Trade Administration (ITA)](https://trade.gov/) has submitted their APIs.json file for inclusion. ITA is the first of many federal agencies I will get to adopt the APIs.json format, and help make their valuable API resources much more discoverable, and ultimately more consumable.

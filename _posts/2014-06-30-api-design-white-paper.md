@@ -8,8 +8,6 @@ author:
 tags:
   - Design
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/whitepapers/api-design-white-paper.png)](http://bit.ly/1pFDGeP)
-
 **[Download as PDF](http://bit.ly/1pFDGeP)**
 
 My research for API Evangelist [spans 50+ projects](http://kinlane.com/projects/), but my core research is focused on seven projects in [API 101](http://101.apievangelist.com), [history](http://history.apievangelist.com), [design](http://design.apievangelist.com), [deployment](http://deployment.apievangelist.com), [management](http://management.apievangelist.com), [discovery](http://discovery.apievangelist.com) and [integration](http://integration.apievangelist.com). In each of these areas, I evaluate who the key players (companies and individuals) are, and the tools and services they produce.

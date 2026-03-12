@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/wordpress/wordpress-logo-stacked-rgb.png)](http://wp-api.org/)
-
 While at [API Craft in Detroit](http://bit.ly/1zIq2sl) this week I had the pleasure of hanging with two leads on the WordPress(org) development team, and discuss the API strategy for the blogging platform. Andrew Nacin ([@nacin](https://twitter.com/nacin)), Lead Developer, and Ryan McCue ([@rmccue](https://twitter.com/rmccue)), WordPress Plugin Developer, facilitated an open circle discussion to work through the challenges that WordPress is facing when developing an API for the open source blogging platform.
 
 At face value, I know a number of API developers who will be less than pleased when they hear about a [WordPress API](http://wp-api.org/), as both PHP, and WordPress are easy targets for developer’s hatred, for generating less than perfect code. ;-) But, in the end you can’t ignore some of the stats on WordPress usage:

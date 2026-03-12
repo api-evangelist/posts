@@ -9,8 +9,6 @@ tags:
   - Embeddable
   - Conversations
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/iris-media/iris-media-logo.jpeg)](https://www.irised.com/ "Iris Educational Media")
-
 I spent some time drinking IPAs and talking education technology with Audrey ([@audreywatters](https://twitter.com/audreywatters)) and a friend of ours Adam Wendt ([@skinnyblimp](https://twitter.com/skinnyblimp)), the COO of [Iris Educational Media](https://www.irised.com/ "Iris Educational Media") last week. IRIS Educational Media is a behavioral research and development company that provides educational resources for parents, parent educators, K-12 school staff, including teachers, administrators, paraprofessionals, and direct support employees.
 
 During our discussion, Adam was describing how he wanted to make Iris Media resources available for people to use on any platform, by providing valuable embeddable tools and resources for organizations and professionals to use on their own sites and portals.

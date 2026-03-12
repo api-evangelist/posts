@@ -16,8 +16,6 @@ tags:
   - Technology
   - APIs
 ---
-[![](http://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png)](http://apievangelist.com)
-
 In 2010 I started API Evangelist, as part of my effort to better understand the world of APIs. I was looking to not just the technology of how it was done, I saw there were plenty of people doing this. I wanted to better understand the business of APIs, and how popular APIs were finding success with their business models, developer outreach, and other aspects of API operations--going well beyond just the technology.
 
 API Evangelist started simply as a blog. I was not a big fan of WordPress, as I knew it can be quite a security target, and as a platform, for a programmer like me, can be more difficult to get even the simple things done. With this in mind I started the first API Evangelist API, by following the same advice that I would be giving to my potential audience.

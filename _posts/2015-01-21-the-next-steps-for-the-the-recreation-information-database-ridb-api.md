@@ -9,8 +9,6 @@ tags:
   - Database
   - Data
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ridb-api.png)](http://ridb-dev.nsitellc.com/docs/api/v1/#introduction)
-
 I referenced the [Recreation Information Database (RIDB)](https://ridb.recreation.gov/), in my story late last year, when I was [asking for your help to make sure the Department of Agriculture leads with APIs in their parks and recreation RFP](http://apievangelist.com/2014/10/16/i-need-help-to-make-sure-the-dept-of-agriculture-leads-with-apis-in-their-parks-and-recreation-rfp/). I'm not exactly sure where it fits in with the RFP, because the RIDB spans multiple agencies.
 
 Here is the description from the RIDB site:

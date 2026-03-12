@@ -8,8 +8,6 @@ author:
 tags:
   - Generation
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/apiphany/APIphany-Logo.png)](http://www.apiphany.com/ "APIPhany")
-
 I get so busy sometimes my stories pile up. Some only seeing the light of day when I get caught up on research, projects, travels and speaking. On story I’ve been meaning to write for almost 3 months now is about [APIphany](http://www.apiphany.com/ "APIPhany"), one of the new generation of API providers. I met the APIphany team in person when I went out to Washington DC in August.
 
 The APIphany team was cool enough to come out and support my [API Craft meetup in DC](/2012/08/18/api-craft-washington-dc/ "API Craft Washington DC"), then the next morning I went out to their offices and met the rest of the team. APIphany sees the industry very similar to me, and believe in self-service, pay as you go API services that allow for anyone to innovate around APIs.

@@ -10,8 +10,6 @@ tags:
   - Project
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/runscope/runscope-logo.png)](http://runscope.com/ "Runscope")
-
 The word "open" gets thrown around a lot in the API space. So much in fact, the term has lost just about any meaning. We don't say "open API" anymore, we identify an API as public, partner or private, evolving to a time where open APIs have merged with open source, and success means building community.
 
 In 2013, successful application development centers around community, which includes not just a healthy selection of valuable, stable API resources, but also a strong assortment of open source tools and cloud services that are community driven, and benefit all.

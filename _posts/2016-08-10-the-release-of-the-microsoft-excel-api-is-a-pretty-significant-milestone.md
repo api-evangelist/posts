@@ -7,8 +7,6 @@ atomdate: 2016-08-10T18:00:00.000Z
 tags:
   - Micro
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Office_Dev_Center_Excel_Powered_Apps.png)](https://dev.office.com/excel/rest)
-
 I am all about marking down the important milestones that help define the API sector. It is what I've been working to define as my [history of the web APIs](http://history.apievangelist.com/) for the last six years. An API has to make its mark in pretty big way before I'll add as an official milestone in my version of the last 17 years of the web APIs. 
 
 I'll give it some time, but I'm thinking the recently released [Excel API from Microsoft](https://dev.office.com/excel/rest) is going to get added pretty quickly. I think the next five years of API evolution is going to be much less exciting than the previous five years, with numerous small businesses publishing their valuable data, content, and [complex algorithms](https://xkcd.com/1667/) via the Excel API.

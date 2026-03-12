@@ -9,8 +9,6 @@ author:
 tags:
   - Business
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/klout/klout-logo.jpg)](http://klout.com/)
-
 I [attended Mashery's Business of APIs Conference in San Francisco](/2011/10/06/business-of-apis-conference-in-san-francisco-wrapup/ "attended the Business of APIs Conference in San Francisco") last week. There were a lot of great API presentations, but I thought one really told a great story in-line with the focus of the event, which is the [Business of APIs](/business_of_apis.php "Business of APIs").
 
 Tyler Singletary([@harmophone](https://twitter.com/#!/harmophone "@harmophone")), Developer Evangelist at [Klout](http://klout.com/ "Klout"), told a story around how they are continuing to grow, control and monetize Klout, while also ensuring Klout continues to have meaning and deliver value.

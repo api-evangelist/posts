@@ -7,8 +7,6 @@ atomdate: 2016-08-17T18:36:00.000Z
 tags:
   - Zapier
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Excel_Integrations_-_Zapbook_-_Zapier.png)](https://zapier.com/zapbook/excel/)
-
 I have been finding quite a few nuggets of wisdom out of [the recent release of the Microsoft Excel API](https://blogs.office.com/2016/08/03/announcing-the-general-availability-of-the-microsoft-excel-api-to-expand-the-power-of-office-365/). This is what I enjoy doing as the API Evangelist, evaluate and gather any positive or negative activities performed by the leading API players, craft blog posts in hopes that other API providers will read, enabling them be more successful in their own API operations.
 
 As part of my monitoring, I am also looking for significant trends that may reflect other wider industry opportunities, beyond any individual API. I am always telling API providers to think about integrating iPaaS solutions like Zapier into their operations as early as possible, and I think Microsoft's acknowledgment in their release emphasizes the importance of iPaaS.

@@ -8,8 +8,6 @@ author:
 tags:
   - Stack
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/geoiq/geoiq-logo.jpg)](http://www.geoiq.com/)
-
 I’m going through hundreds of APIs and curating a list of APIs, for what I’m calling the API Stack.  The API Stack consists of APIs that provide clear value for developers and have demonstrated real investment in their API, and are in it for long haul.
 
 There are quite a few things I consider when looking at an API, here are a few:

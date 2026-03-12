@@ -10,8 +10,6 @@ tags:
   - Social
   - Mobile
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/baas/cloudmine-logo.png)](https://cloudmine.me/ "CloudMine")
-
 Backend as a Service (BaaS) provider [CloudMine](https://cloudmine.me/ "CloudMine") and aggregated social API platform [Singly](http://singly.com "Singly") announced a partnership today, to make sure the mobile applications developers are building using CloudMine have social baked in by default.
 
 CloudMine is delivering on the BaaS promise and providing all the tools developers need to rapidly develop and scale their mobile applications, by providing a complete backend solution for developers including user management, object storage, push notifications, syncing and other essential tools developers need to be successful.

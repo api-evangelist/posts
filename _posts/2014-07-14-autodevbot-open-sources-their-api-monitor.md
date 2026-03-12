@@ -9,8 +9,6 @@ tags:
   - Open Source
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/autodevbot/autodevbot-logo.png)](http://autodevbot.com/)
-
 The [API monitoring service AutoDevot](http://autodevbot.com/) has opened sourced their JavaScript API monitoring solution, built on Frisby.js, called [API Monitor Runner](https://github.com/AutoDevBot/API-Monitor-Runner). The API monitoring tool, allows for a pretty robust configuration file, that lets you detail exactly what the service should monitor, and how it should behave when something out of the ordinary happens.
 
 I though the trigger actions stood out, allowing you to take common actions when something occurs with an API:

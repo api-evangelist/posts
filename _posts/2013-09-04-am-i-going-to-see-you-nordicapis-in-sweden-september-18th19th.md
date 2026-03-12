@@ -8,8 +8,6 @@ author:
 tags:
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/nordic-apis/nordic-apis-logo.png)](http://nordicapis.com/)
-
 There is a growing number of API conferences going on this year in the US, but the hunger for API knowledge isn't just something going on in this country, we are seeing a demand for API information and conversation growing internationally.
 
 One place that is exploding is in Europe and specifically in the Scandinavian region, and there is one must-go-to event that is driving the API conversation--the [Nordic API Conference](http://nordicapis.com/), September 18th and 19th in Stockholm, Sweden.

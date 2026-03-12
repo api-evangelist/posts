@@ -12,8 +12,6 @@ tags:
   - Open
   - Backend
 ---
-![](https://s3.amazonaws.com/kinlane-productions2/mobile-backend-as-a-service/Mobile+Backend+as+a+Service.png)I did a [roundup of Mobile Backend as a Service (MBaaS) providers](/2012/08/22/mobile-backend-as-a-service-roundup-and-the-future-of-web-apis/ "roundup of Mobile Backend as a Service (MBaaS) providers") last week, which brought in a couple recommendations of other companies I should include, and some interesting feedback on how APIs can be integrated with MBaaS platforms.
-
 A very interesting comment left on the post was about MBaaS vendor lock-in:
 
 > _The big problem, IMHO, using a BaaS provider is the so called "vendor lock in". What if my backend provider changes the pricing models, or dismisses the service and go out of the business?_

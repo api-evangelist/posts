@@ -8,8 +8,6 @@ author:
 tags:
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ZipLocate.png)](http://ziplocate.us/)
-
 My friend Mark Silverberg ([@skram](https://twitter.com/skram)), pointed out a very cool API the other day, that geolocates zip codes, and appropriately named [ZipLocate](http://ziplocate.us/). What I really like about ZipLocate is that they do one thing, and they do it well. Don’t get me wrong I love me some AWS and Twilio, who have industrial grade APIs, but I also have a love for simple, lightweight APIs that focus on one thing.
 
 Another interesting thing about ZipLocate is that it is always free, and never rate limited. He says that it is relatively cheap to host the API, because bandwidth usage is light, with all API calls are heavily cached. I like this type of micro service design--I want thousands more just like it.

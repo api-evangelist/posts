@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/nike/Nike-Accelerator.png)](http://nikeaccelerator.com/index.html)
-
 API ecosystems are all about research & development, and an opportunity for incubating ideas and apps in a way that invites 3rd party developers and companies to develop innovative ways of using your company assets and resources. I’ve discussed [incubation within an API ecosystem before,](http://apievangelist.com/2012/01/31/four-potential-levels-of-an-api-business-ecosystem/) and how companies are not just identifying developer talent and the best apps, but actually investing in companies via their API.
 
 A new example of this in action is Nike's launch of their [Nike+ Accelerator](http://nikeaccelerator.com/index.html)\--a partnership with [TechStars](http://www.techstars.com/ "Techstars") that will host 10 companies for a three-month, immersive, mentor-driven startup accelerator designed to spur development on the [NikeFuel, the Nike+ FuelBand, and Nike+ Running API platform](http://developer.nike.com/).

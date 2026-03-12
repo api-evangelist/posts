@@ -12,8 +12,6 @@ tags:
   - Evangelism
   - Financial
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/yodlee/yodlee-logo.jpeg)](http://www.yodlee.com/)
-
 I spoke with the leading financial data API aggregation providers [Yodlee](http://www.yodlee.com/) last week, regarding their [hunt for a director of developer evangelism](http://www.yodlee.com/about-us/careers/). Yodlee provides an aggregation API that is designed for developers who need secure access to their users’ bank, credit card, investment, and loan accounts—if you think about it, this is a pretty critical API, in what we are all calling the “API Economy”.
 
 Yodlee isn’t just looking for a junior evangelist, they are looking for a director—someone to lead the charge, when it comes to evangelizing Yodlee to potential API consumers, while also supporting the community and applications that are already integrated with the financial data aggregation platform. While there are well published job descriptions for the API evangelist role, there are no universities training up, cranking out the next generation of evangelism leaders—they are a unique breed, leaving a major hurdle for API providers like Yodlee to jump.

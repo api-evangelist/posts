@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/vordel/Vordel-API-Management.png)](http://www.vordel.com/ "Vordel")
-
 I have done a lot of research lately on the [API service provider](/serviceproviders/ "API Service Provider") landscape. My goal is to understand who provides API delivery and management services, what they offer and help API owners understand the differences.
 
 I wrote a [roundup of 11 of the API service providers on ProgrammableWeb](http://blog.programmableweb.com/2011/10/19/api-service-provider-roundup/ "roundup of 11 of the API service providers") last week. I feel like I have a pretty good grasp of all the providers, but of course a new one came out of the woodwork.

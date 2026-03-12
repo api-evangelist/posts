@@ -8,8 +8,6 @@ author:
 tags:
   - History
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/whitepapers/api-evangelist-white-papers-history-of-apis.png)](http://bit.ly/19dMjBe)
-
 Understanding our history is critical to understanding where we are going.  I have been studying the [history of web APIs](http://www.apievangelist.com/history/) for the last three years. Even though I have been through the API strategies of pioneers like Salesforce and Amazon several times, each time I go back through, I learn more.  
 
 In May I went back through the history of APIs and added several stories that I feel are key to introducing people to the API space, as well as helping developers and people who already work with APIs, about why this has all worked.

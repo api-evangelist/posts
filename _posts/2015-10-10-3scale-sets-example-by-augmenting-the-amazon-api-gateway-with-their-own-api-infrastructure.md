@@ -14,8 +14,6 @@ tags:
   - Infrastructure
   - Amazon
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3Scale/AAG-and-3scale2.png)](http://www.3scale.net/2015/10/new-aws-api-gateway-integration-with-3scale-api-management/)
-
 One of the things that really bothers me in the API space is when API service providers are too competitive, establish silos, don't use APIs themselves, and refuse to provide interoperability with other service providers. It is the API space y'all, this shit needs to work together, if we expect anyone to buy into what we are selling--if you aren't confident of the product you are selling, you probably shouldn't be in business.
 
 This is why it makes me happy to see the work 3Scale has done in integrating their own API infrastructure with AWS API infrastructure. [You can find the details of the integration opportunity over at 3Scale](http://www.3scale.net/2015/10/new-aws-api-gateway-integration-with-3scale-api-management/), but I want to focus on the subject of API service providers working together, even if it is externally augmented like 3Scale did, as opposed to formal partnership.

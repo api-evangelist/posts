@@ -9,8 +9,6 @@ tags:
   - Support
   - ddi
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Mailjet___mailjet____Twitter.png)](https://twitter.com/mailjet/)
-
 As I was writing up a story on Mailjet tweeting out the iPaaS opportunities around their email API, [I noticed their Twitter bio](https://twitter.com/mailjet/). It is subtle, but having spent a great deal of time looking for the support channels for an API, this is a potentially huge time saver. It is what I do best, discovering these simple, subtle things that the successful API providers are doing.
 
 I always encourage API providers to use Twitter as a support channel because it doesn't just provide support, it also is a public demonstration that you give a shit about your API consumers, and will actively work to help them solve their problems. I've seen APIs who offer no support, or a minimal number of support channels, while also seemingly working very hard to hide them--leaving you feeling like you will never get help when you need it.

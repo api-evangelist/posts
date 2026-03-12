@@ -10,8 +10,6 @@ tags:
   - Politics
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/marvel-comics/marvel-avengers-logo.jpg)](http://developer.marvel.com/)
-
 I’ve been reviewing the recently released [Marvel Comic API](http://developer.marvel.com/), because I’m a comic book geek, wait no, because I’m the API Evangelist—no wait it is both. Properly reviewing an API takes time because you need to spend time in the developers area, and actually go through the motions of hacking on an API. So far I’ve registered, spent about 15 minutes looking around the documentation, and wrote a [post on their getting started page](http://apievangelist.com/2014/02/01/a-simple-honest-approach-to-getting-started-with-the-marvel-comics-api/).
 
 My friend Andreas Krohn ([@andreaskrohn](https://twitter.com/andreaskrohn)) started by first reviewing the Marvel Comics API terms of use, which is the first thing any savvy developer should do, and he wrote up a great blogs post called, [The Marvel API - a case study in how to not respect developers](http://blog.dopter.se/post/75494422535/the-marvel-api-a-case-study-in-how-to-not-respect). Andreas uncovers some pretty show-stopping aspects of the Marvel terms of use,  including the fact that you can’t generate any revenue from your applications built on the Marvel API, publish press releases about your work, and they reserve the right to take any idea you have, and keep for themselves. ;-(

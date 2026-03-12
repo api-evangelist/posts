@@ -8,8 +8,6 @@ tags:
   - Technology
   - ai
 ---
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/curtain.jpg)
-
 **[Photo by Shelah](https://www.flickr.com/photos/gosheshe/2303313519)**
 
 I was trying to explain to a business analyst this week the difference between SDK and API, which he said was often used interchangeably by people he worked with. In my opinion SDK and API can be the same thing, depending on how you see this layer of our web, mobile, and device connectivity. The Internet has been rapidly expanding this layer for some time now, and unless you are watching it really don't see any difference between API and SDK--it is just where the software connects everything.

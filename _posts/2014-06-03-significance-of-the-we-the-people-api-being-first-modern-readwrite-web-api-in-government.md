@@ -12,8 +12,6 @@ tags:
   - Government
   - People
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/we-the-people/we_the_people.jpg)](https://petitions.whitehouse.gov/)
-
 I finished up [my response to the Department of Education RFI focused around the use of APIs](http://apievangelist.com/2014/06/02/my-response-to-how-can-the-department-of-education-increase-innovation-transparency-and-access-to-data/) at the government agency, a place where I’m not just advocating for APIs, but pushing very hard for read / write APIs. I finished up my response to the RFI while waiting for my flight out of Barcelona where I spoke at [API Days Mediterranea](http://mediterranea.apidays.io/), where I the heard echoes of the importance role that write APIs will play in government, during a talk from Xavier Badosa ([@badosa](https://twitter.com/badosa)).
 
 All of this primed the pump for me thinking about write APIs in government, while on my flight back to Los Angeles. This will be one of the biggest challenges API evangelists in government will face in coming years, something that scares the shit out of government leaders and their legal advisors, but will also be essential to government assuming its role in the API economy.

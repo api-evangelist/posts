@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/fisher-price/fisher-price-internet-enabled-device.png)](http://www.fisher-price.com/en_US/products/69586)
-
 When it comes to the Internet of Things, APIs have a bright future. I tend to focus on the greater good when showcasing APIs, but occasionally I get tripped up by the market potential of APIs. I came across the [Baby Toys Get an App Extension](http://gadgetwise.blogs.nytimes.com/2013/05/01/baby-toys-get-an-app-extension/) post in the New York Times this week, and I can't think of a more lucrative market for API interaction via a smart phone, than a baby or toddler's toys.
 
 First, can you image every mom or dad in America with access to their kids toys via their iPhone. Talk about an emotional connection. You have a real-time chord that is attached to a parents heart string. So if you are at work, missing your child that is at home, in day care, or even when you are at home with them, you have the opportunity to interact with your child via their crib, playstation or other toy? I'm not even going to start profiling the toys and the opportunity here.

@@ -12,8 +12,6 @@ tags:
   - Public
   - Scores
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/hdscores-logo.png)](http://hdscores.com/)
-
 I came across [HDScores](http://hdscores.com/) a couple of weeks agao, but their API wasn't quite ready, something they officially released this last week. HDScores is interesting to me for a couple of reasons. It is an API that aggregates open government data, but also has what I'd consider a potentially viable API business model as well. 
 
 The monetization of government data using APIs is something I've been discussing for a while, [exploring whether our government should subsidize and profit from open data](http://apievangelist.com/2012/02/01/should-the-government-subsidize-and-profit-from-data-markets/), and [helping agencies develop a better understanding of their open data and API consumers before they charge for anything](http://apievangelist.com/2014/03/07/a-better-understanding-of-government-apis-and-their-consumers-before-considering-charging-for-use/). HDScores takes this to the next level for me, presenting some possible models we can all follow when developing viable business on top of open data. 

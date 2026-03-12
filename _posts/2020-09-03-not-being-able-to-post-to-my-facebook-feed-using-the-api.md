@@ -10,8 +10,6 @@ tags:
   - Access
   - Politics
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_09_02_at_9.43.00_pm.png)](https://developers.facebook.com/docs/graph-api/reference/v8.0/user/feed)
-
 I am hung up (once again) on the fact that I can’t [post to my personal Facebook feed via the Graph API](https://developers.facebook.com/docs/graph-api/reference/v8.0/user/feed). Facebook removed the ability for you to add or update to your Facebook feed via the API in 2018. You can still post to pages via the API, but are out of luck via your personal profile. It drives me nuts because I queue, schedule, and automate a significant amount of my online presence. Honestly Facebook doesn’t do much for my personal or professional online presence, but the fact that I can’t do it is driving me nuts. I have an idea I want to implement around telling stories on Facebook, and without the ability to post via the API, the idea is a non-starter. I really bothers me when I can POST or PUT to any platform I depend on, and the fact that it is Facebook drives me even more nuts, making it something that I just can’t seem to put down.
 
 ### Posting to My Facebook Wall Using Postman

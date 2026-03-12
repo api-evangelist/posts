@@ -9,7 +9,7 @@ author:
 tags:
   - APIs
 ---
-[![](http://4.bp.blogspot.com/-VHUtwDjR_-o/TVnGFPWQWfI/AAAAAAAAABg/6A0r7HBToVY/s400/image00.png)](http://google-opensource.blogspot.com/2011/02/use-google-apps-apis-without-writing.html)Google just [released the Google Apps Shell Interface](http://google-opensource.blogspot.com/2011/02/use-google-apps-apis-without-writing.html) (GASI), a graphical user interface for working with [Google Apps APIs](http://code.google.com/googleapps/).
+Google just [released the Google Apps Shell Interface](http://google-opensource.blogspot.com/2011/02/use-google-apps-apis-without-writing.html) (GASI), a graphical user interface for working with [Google Apps APIs](http://code.google.com/googleapps/).
 
 GASI allows Google Apps administrators to make certain API calls through a graphical user interface without having to write programs.
 

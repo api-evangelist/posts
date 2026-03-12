@@ -7,8 +7,6 @@ atomdate: 2016-10-05T22:00:00.000Z
 tags:
   - SDK
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apimatic-logo.png)](http://apimatic.io)
-
 I've been a big supporter of [APIMATIC](http://apimatic.io) since they started, so I'm happy to see them continuing to evolve their approach to delivering SDKs using machine readable API definitions. I got a walkthrough of their new DX Kits the other day, something that feels like an evolutionary step for SDKs, and contributing to API providers making onboarding and integration as frictionless as possible for developers.
 
 Let's walk through what APIMATIC already does, then I'll talk more about some of the evolutionary steps they are taking when auto-generating SDKs. It helps to see the big picture of where APIMATIC fits into the larger API lifecycle to assist you in getting beyond any notion of them simply being just an SDK generation service.

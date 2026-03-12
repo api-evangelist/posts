@@ -7,8 +7,6 @@ atomdate: 2016-10-27T16:00:00.000Z
 tags:
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/pricing_and_faq_–_nanoscale_io.png)](http://www.nanoscale.io/pricing/)
-
 I thought [the microservices platform Nanoscale.io](http://www.nanoscale.io/) have an interesting argument for why you would upgrade to a paid plan. [On their pricing page](http://www.nanoscale.io/pricing/), after they break down each of the pricing plans they provide you with four reasons of why you would want to upgrade from their free tier.
 
 *   **More powerful APIs -** Your nanoscale.io hosted microservices can run longer and perform more complex operations, or access slower source systems, without timing out.

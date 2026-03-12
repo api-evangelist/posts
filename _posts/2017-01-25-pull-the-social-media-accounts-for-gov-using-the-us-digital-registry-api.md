@@ -9,8 +9,6 @@ tags:
   - Registry
   - Digital
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_24_at_11.36.10_pm.png)](http://usdigitalregistry.digitalgov.gov.adopta.agency/)
-
 Over the holidays [I pulled the data.gov index of federal government data](https://github.com/gsa-data/data-gov-dump), and the next item on my list was to cache the results of the [US Digital Registry API](https://usdigitalregistry.digitalgov.gov/) , providing me with a list of agencies, and their social media accounts. I pulled the JSON from the API, and then published to the Github repository for this site, so that I could use for several different applications.
 
 **Drive Listings Of Federal Agency Social Media**  

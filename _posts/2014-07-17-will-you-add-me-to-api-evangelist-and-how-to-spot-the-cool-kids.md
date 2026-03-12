@@ -9,8 +9,6 @@ tags:
   - API Evangelist
   - Evangelist
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid-will-smidlein+.png)](https://twitter.com/ws)
-
 In the API space it is easy to recognize the cool kids, the ones that are in the know. These types of personalities just understand how to get things done, don't take no for an answer, and understand the DIY, self-service nature of APIs.
 
 I get a lot of folks who ask me to add them to my [API Management provider section](http://management.apievangelist.com/companies.html), or my [API Integration area](http://integration.apievangelist.com/). I always add these people to my Evernote queue, and when I get time I go through and profile them, I add them to my master CRM, and when I publish the latest round of content and data to the [API Evangelist network](http://kinlane.com/about/) site in question, the blog post, or company listing will be updated—something that can take minutes or weeks, depending on my workload.

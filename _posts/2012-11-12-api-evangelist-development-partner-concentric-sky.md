@@ -9,8 +9,6 @@ tags:
   - API Evangelist
   - Evangelist
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/concentric-sky/Concentric-Sky-Black-White.png)](http://concentricsky.com/ "Concentric Sky")
-
 Mobile app development is at the center of API deployment in 2012. Much of the interest in designing, developing and deploying APIs is so that you can successfully launch one, or multiple mobile applications.
 
 I get a lot of questions from companies looking to deploy APIs, where they can find development talent that will help them with their API driven mobile initiatives. Up until now I didn’t have much to offer them, any mobile developer I know that is good, is already snatched up, and without direct experience deploying projects with a development shop, I didn’t have one to recommend.

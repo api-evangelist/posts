@@ -9,8 +9,6 @@ tags:
   - Banking
   - Open
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/open-data-and-sharing-for-banks.png)](https://www.gov.uk/government/publications/data-sharing-and-open-data-for-banks)
-
 Late in 2014, the HM Treasury and Cabinet Office in the United Kingdom, [published Data Sharing and Open Data for Banks](https://www.gov.uk/government/publications/data-sharing-and-open-data-for-banks), "to explore how competition and consumer outcomes in UK banking could be affected by banks, giving customers the ability to share their transaction data with third parties using external Application Programming Interfaces (APIs)."
 
 Very similar to the [Obama open data mandate in May of 2012](http://apievangelist.com/2012/06/01/barack-obama-directs-all-federal-agencies-to-have-an-api/),  I saw a lot of discussion shortly after the release of the document from the HM Treasury, but not many details on how things are going so far. [There was a response to the document published back in March](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/413766/PU1793_Open_data_response.pdf), which holds some interesting perspective, but not much else from the government, or banks, that I can find.

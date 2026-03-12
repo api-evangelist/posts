@@ -12,8 +12,6 @@ tags:
   - Registry
   - APIs
 ---
-![](https://s3.amazonaws.com/kinlane-productions2/netflix/scaling-the-netflix-api-3-638.jpg)
-
 [Daniel Jacobson - Scaling the Netflix API](http://www.slideshare.net/danieljacobson/scaling-the-netflix-api)
 
 I was learning more about the [discovery of private APIs with the Charles App](http://timrogers.uk/2014/07/12/discovering-private-apis-with-charles-app/), and was fascinated by its potential to visualize, and map the darkest regions of the API realm. There is a lot of speculation about the number of APIs out there, with the 10K+ public APIs that are currently available being the “tip of the iceberg”, and the number of private APIs rpresenting the rest of the surface area below the dark surface--making the approach that Tim Rogers (and others) employ a tantalizing option for mapping these dark waters of the rapidly expanding API space.

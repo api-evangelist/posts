@@ -9,8 +9,6 @@ tags:
   - Code
   - Code Samples
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/github/github-logo.png)](https://github.com/ "Github")
-
 Code samples in a variety of languages are how API owners help developers understand an API in the language that makes the most sense to them.
 
 Not all developers will understand REST, HTTP and other things you might take for granted. Very simple code samples will help demonstrate an APIs functionality, making the learning process a hands-on experience.

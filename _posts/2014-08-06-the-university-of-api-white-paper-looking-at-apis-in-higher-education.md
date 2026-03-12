@@ -9,8 +9,6 @@ tags:
   - Education
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/whitepapers/api-evangelist-the-university-of-api.png)](http://bit.ly/1kn8uhX)
-
 **[Download as PDF](http://bit.ly/1kn8uhX)**
 
 I spend a great deal of time looking at new APIs from companies, institutions, and government agencies during my weekly monitoring of the API space, and over the last couple years, I've come across an increasing number of APIs tht are out of higher educational institutions around the world. It began with a c[entralized developer area at the University of Washington (UW)](http://university.apievangelist.com/2012/05/29/university-information-services-with-apis/), and then [I saw the same from UC Berkeley](http://apievangelist.com/2013/02/25/get-a-list-of-all-classes-at-uc-berkeley-with-api-call/), with more recently noticing the impressive [conversion of 250+ services from a traditional Service Oriented Architecture (SOA), to a more modern web API approach, at Brigham Young University (BYU)](http://apievangelist.com/2014/04/23/browsing-the-261-apis-at-brigham-young-university/).

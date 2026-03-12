@@ -9,7 +9,7 @@ tags:
   - Management
   - API Management
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/apiphany/apiphany-logo-blue.png)](http://apiphany.com "API Management")I'm working my way through all the [API management providers](http://management.apievangelist.com "API management"), making sure I'm up to speed on what service each provider is offering these days. As part of this work I've been playing with the [Apiphany](http://apiphany.com "API Management") platform, using a demo site the Apiphany team was so kind to setup for me.
+I'm working my way through all the [API management providers](http://management.apievangelist.com "API management"), making sure I'm up to speed on what service each provider is offering these days. As part of this work I've been playing with the [Apiphany](http://apiphany.com "API Management") platform, using a demo site the Apiphany team was so kind to setup for me.
 
 Using Apiphany I can manage my APIs, and launch a portal which allows me to hang all my APIs, then manage all aspects of their operations. Apiphany focuses on the three main components of API deployment & consumption:
 

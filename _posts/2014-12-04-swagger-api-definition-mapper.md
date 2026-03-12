@@ -9,8 +9,6 @@ tags:
   - Definition
   - Swagger
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swaggerLogo360.png)](http://swagger.io/)
-
 I was having one of my long overdue check ins with API godfather John Musser today, and it reminded me of an idea I wanted to put out there, so while it was fresh in my mind, I wanted to share. I’m applying this to my [Swagger](http://swagger.io/) driven world, but should be applied to all of the common API definition formats like API Blueprint, and RAML.
 
 I want a machine readable way to map APIs together across multiple Swagger API definitions, mapping a specific API path in one Swagger spec to another API path in an entirely different API definition. Once the paths are connected, you should also be able map specific parameters to each other. It also seems logical that for each mapping you'd want to provide some sort of meta data about the relationship, and maybe some sort of semantics involved also.

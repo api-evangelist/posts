@@ -9,8 +9,6 @@ tags:
   - Data
   - Stack
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/absolut/absolut-vodka.jpg)](https://addb.absolutdrinks.com/docs/)
-
 If you read my blog regularly, you know I am constantly pushing the boundaries of how I see the API space, and sometimes my ramblings can be pretty out there, but API Evangelist is how I work through these thoughts out loud, and hopefully bring them down to a more sane, practical level that everyone can understand.
 
 My crazy vision for the day centers around [virtual API stack](http://apievangelist.com/2013/01/28/virtualized-api-stacks/) composition, as beautiful as the [Absolut Drinks Database API](https://addb.absolutdrinks.com/docs/). Ok, before you can even begin to get up to speed with my crazy rant, you need to be following some of [my rants around using virtual cloud containers like we are seeing from docker, AWS and OpenShift](http://apievangelist.com/2014/04/07/containers-will-do-for-apis-what-apis-do-for-companies/), and you need to watch this [video from APIStrategy & Practice about Absolut Drink Databse API deployment](https://www.youtube.com/watch?v=aXk1dvLKl-U).

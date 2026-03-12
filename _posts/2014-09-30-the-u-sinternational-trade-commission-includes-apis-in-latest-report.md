@@ -10,8 +10,6 @@ tags:
   - International
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/usitc/united-states-internation-al-trade-commission-report.png)](https://s3.amazonaws.com/kinlane-productions2/federal-government/usitc/pub4485.pdf)
-
 Those of us who live and breathe the API space, throw around a phrase, “The API Economy”, quite a lot. Referring to the increased usage of APIs across vital industries to drive web and mobile applications, but we as we do often, the phrase is used to describe the future of things, rather than where things actually are. While we are seeing APIs begin to affect global economies, we really don't have much hard evidence that "The API Economy" is a thing beyond our own techno fascination.
 
 With the release of a new report from the U.S. International Trade Commission (USITC), called [Digital Trade in the U.S. and Global Economies](https://s3.amazonaws.com/kinlane-productions2/federal-government/usitc/pub4485.pdf), us API geeks are getting the first actual evidence of "The API Economy", with a section in the report called "Increasing Collaboration and Integration in Online Services—The Economic Contributions of Application Programming Interfaces".

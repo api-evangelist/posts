@@ -6,8 +6,6 @@ image: >-
 tags:
   - Tools
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/splunk/splunk-logo.gif)](http://www.splunk.com/)
-
 During my monitoring of the API space this week, I came across an interesting blog post from data platform [Splunk](http://www.splunk.com/), [showcasing the tools they provide for developers](http://blogs.splunk.com/2013/08/06/a-developers-smorgasbord/) who are putting their real-time data platform to use.
 
 Splunk has an amazing smorgasbord of developer tools, but there are a handful that I feel need highlighting, so that other data API providers can consider as part of their own offerings:

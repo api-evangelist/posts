@@ -10,8 +10,6 @@ tags:
   - Automation
   - Services
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/ifthisthenthat/IFTTT-logo.jpeg)](https://ifttt.com/)
-
 I depend on [If This Then That (IFTTT)](https://ifttt.com/) to move data around the cloud.  I syndicate blog posts from [API Evangelist](http://apievangelist.com) to Blogger and Tumblr.  This isn't just blind syndication, it is SEO and also plan B scenarios to make sure my content exists in multiple areas.
 
 When it comes to the IT decisions for API Evangelist, I carefully evaluate what services I use.  If I begin to depend on an account, after 6 months I need to start paying a fee to secure some sort of quality of service (QOS).  This is how I roll.

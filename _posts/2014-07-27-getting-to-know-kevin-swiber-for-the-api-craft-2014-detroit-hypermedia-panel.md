@@ -9,8 +9,6 @@ tags:
   - Hypermedia
   - 4
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kevin-swiber.jpg)](https://github.com/kevinswiber)
-
 I'm preparing for my hypermedia panel with Mike Amundsen ([@mamund](https://twitter.com/mamund)), Mike Kelly ([@mikekelly85](https://twitter.com/mikekelly85)), Steve Klabnik ([@steveklabnik](https://twitter.com/steveklabnik)), Kevin Swiber ([@kevinswiber](https://twitter.com/kevinswiber)), Jørn Wildt ([@JornWildt](https://twitter.com/JornWildt)), and Markus Lanthaler ([@MarkusLanthaler](https://twitter.com/MarkusLanthaler)), at [API Craft Detroit](http://api-craft.org/) next week. I wanted to go into the panel with a snapshot, and at least a minimal understanding of each of the panelists. This is kind of an all-star panel of hypermedia experts, so I need to at least bump up my understanding of what they are contributing to the API space, and who they are, beyond what I know from my own interactions with these API leaders.
 
 As I do with all of my research, I wanted to share my work with you, my reader. Next up is Kevin Swiber. Kevin is one of the architects behind leading [API provider Apigee](http://apigee.com), and has a great deal of experiencing in designing enterprise grade web APIs, contributing his own Siren format, as well as a wealth of white papers, books, and being a part of the API Craft movement.  

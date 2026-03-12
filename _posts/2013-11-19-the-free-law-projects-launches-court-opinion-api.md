@@ -8,8 +8,6 @@ author:
 tags:
   - Project
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/free-law-project/free-law-project.png)](http://freelawproject.org/)
-
 The [Free Law Project](http://freelawproject.org/ "Free Law Project") has l[aunched a U.S. court opinions API as part of the Court Listener project](http://www.lawsitesblog.com/2013/11/free-law-project-creates-api-easing-others-use-court-opinions.html?utm_source=rss&utm_medium=rss&utm_campaign=free-law-project-creates-api-easing-others-use-court-opinions), which currently aggregates 2,204,339 court opinions, from 350 jurisdictions.
 
 The [Court Listener Opinions API](https://www.courtlistener.com/api/rest-info/) is a well designed, dead simple REST API with 7 endpoints to search opinions, citations across jurisdictions, using Basic Auth to secure the API.

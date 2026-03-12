@@ -9,8 +9,6 @@ date: 2014-01-14T21:53:28.000Z
 tags:
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/thingiverse/makerbot-thingiverse-logo-2.png)](http://www.thingiverse.com/developers)
-
 API Terms of Use is the single most important building block of any ecosystem, yet it is the least discussed area of API management and integration. I’m working hard to dedicated more time in 2014 to not just the area of API TOS, but what I consider to be the politics of APIs.
 
 Today’s focus is on making a plain english translation of your terms of service available. I came across a great example over at [Makerbot Thingiverse](http://www.thingiverse.com/developers) today, where they add:

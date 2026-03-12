@@ -14,8 +14,6 @@ tags:
   - Publishing
   - Git
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-design-guide.png)](http://design.apievangelist.com/)
-
 [I recently went through my API design research](http://design.apievangelist.com/), updating and evolving it, to help me better understand changes in the API design space, while also sharing as much of the information as I can with my readers. [One of the resources I include under my tools section are the increasing number of API design guides being published](http://design.apievangelist.com/tools.html). 
 
 Currently I'm showcasing the API design guides for [18F in the federal government](https://github.com/18F/api-standards), [Heroku](https://github.com/interagent/http-api-design), and [PayPal](https://github.com/paypal/api-standards/blob/master/api-style-guide.md), then the other day my friend Holger Reinhardt ([@hlgr360](https://twitter.com/hlgr360)), formerly of [CA Technologies](http://www.ca.com/us/default.aspx), now the CTO at the [Haufe Group in Germany](http://www.haufe.de/), shared his teams API design guidie with me. The executive summary for the guide says it well:

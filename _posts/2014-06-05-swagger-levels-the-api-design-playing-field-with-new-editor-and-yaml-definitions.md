@@ -15,8 +15,6 @@ tags:
   - YAML
   - Swagger
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-editor.png)](http://editor.swagger.wordnik.com/)
-
 In January I started taking a closer look at the world of API design, by reviewing the top movers in the space, [Swagger](http://bit.ly/1kFrKF0) from [Wordnik](http://bit.ly/1kFrINy), [API Blueprint](http://bit.ly/1cl8tCc) from [Apiary](http://bit.ly/1pb4H8k), and [RAML](http://bit.ly/16ZTZYt) from [Mulesoft](http://bit.ly/1mtmiF9). My goal was to quantity the world of API design, and help me understand where it might be going, or where there are opportunities for new tools and services.
 
 My intention is to write a white paper on API Design, but haven’t reached this point, with the crazy amount of events and travel I’ve had in the last couple months. Looking back, at where I left off in my research, the major difference between providers was that Swagger was JSON, and didn't have all the tooling that was available with API Blueprint and RAML.

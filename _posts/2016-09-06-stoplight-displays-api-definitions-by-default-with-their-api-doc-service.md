@@ -8,8 +8,6 @@ tags:
   - Definitions
   - Definition
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API_Docs.png)](http://botlytics.api-docs.io/v1/messages)
-
 I was doing some maintenance on my [bots and APIs research](http://bots.apievangelist.com/), and processing the information for the [bot analytics provider Botlytics](https://botlytics.co/), and as I was going [through their API](http://botlytics.api-docs.io/v1/messages) I noticed the prominent placement and availability of OpenAPI Specs for the API.
 
 [Making your API definitions as prominent as possible is something I have been advocating for some time now](http://apievangelist.com/2015/08/31/please-do-not-hide-your-api-definitions-from-consumers/), something I reinforced again [recently by asking API providers to make sure and show as an icon](http://apievangelist.com/2016/08/29/add-a-prominent-icon-link-to-your-api-definition-on-your-documentation-page/), or other very visual element. This is a very important part of the API life cycle, that when also supported as a default feature by API service providers, just keeps giving to the API community, and helps makes it truly more open, consistent, while also helping it be more machine readable. (shouldn't everything API be machine readable? \*cough\* hypermedia \*cough\*)

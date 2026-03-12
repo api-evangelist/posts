@@ -11,8 +11,6 @@ tags:
   - Life Cycle
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-heart-monitor.png)](http://monitoring.apievangelist.com/)
-
 I am going through each of the [35+ areas of the APi space that I monitor](http://apievangelist.com/), working to bring alive [the over 900 stops along the API life cycle](http://alpha.apievangelist.com/2015/12/15/playing-with-different-subway-journey-experiences-for-my-api-life-cycle-explorer/), that I have identified through my research. I'm still working through prototypes for my life cycle explorer, but [the current version has organizations, tools, links, and questions, along with the title and description of each stop of the life cycle journey I am trying to bring into focus](http://plans.apievangelist.com/journey/beta/).
 
 Part of my approach in [identifying the different lines, areas, and stops along this life cycle](http://apievangelist.com/2015/11/29/the-api-lifecycle-my-talk-from-defrag-and-apistrat/) involves taking a look at the approach of leading API providers, as well as service being offered by companies selling their solutions to these API providers--giving me two sides of the API life cycle coin. In the last couple months I have also found another way to identify potential building blocks, and round off the ones I have, through the API definitions of leading API providers.

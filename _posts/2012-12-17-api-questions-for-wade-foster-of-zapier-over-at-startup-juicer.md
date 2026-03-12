@@ -8,8 +8,6 @@ author:
 tags:
   - Zapier
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/zapier/zapier-logo.jpeg)](http://zapier.com/)
-
 Some great [API questions for Wade Foster, Co-founder & CEO of Zapier](http://startupjuicer.com/2012/12/wade-foster-co-founder-ceo-of-zapier/ "API questions for Wade Foster, Co-founder & CEO of Zapier") over at [Startup Juicer](http://startupjuicer.com/ "Startup Juicer") today.
 
 **Zapier is a company that couldn’t have existed even a few years ago as API’s were not commonplace. What other advanced do you envision changing the way businesses operate?**

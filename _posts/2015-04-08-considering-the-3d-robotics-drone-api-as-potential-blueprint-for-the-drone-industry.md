@@ -11,8 +11,6 @@ tags:
   - Industry
   - Blueprint
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/3d-robotics/3d-robotics-drone.jpg)](http://3drobotics.com/home-2014/)
-
 As my Internet of Things (IoT) research continues, I’m applying much of my API thinking from the mainstream API space to the world of IoT. A couple weeks ago I stumbled across the [3D Robotics Drone API](http://api.3drobotics.com/swagger-ui/), which to my surprise, was documented using a Swagger specification, providing a machine readable definition of the API, which helped me quickly get up to speed on what the Drone API delivers.
 
 I haven't put much thought into the detail for any drone APIs, something that has been adjacent to my mainstream research for over a year now, but I did have some basic opinions about what a drone API could have. So, when it comes to potential resources, I have to say the 3D Robotics Drone API delivers in all earlier areas I had been considering--with five main endpoints:

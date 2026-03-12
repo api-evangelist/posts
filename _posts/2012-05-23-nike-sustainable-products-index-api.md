@@ -10,8 +10,6 @@ tags:
   - Product
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/nike/Nike-Makers.png)](http://nikemakers.tumblr.com/)
-
 Nike is working on a new API as part of their [Nike Better World initative](http://www.nikebetterworld.com/ "Nike Better World initative"). The [API provides access to a materials sustainability index](http://nikemsiapi.nikebetterworld.com/ "API provides access to a materials sustainability index"), which evaluates the environmental impact of materials used by manufacturers.
 
 The scoring system evaluates the environmental impacts of materials used in products using a combination of materials-specific data, covering areas such as Chemistry, Energy and Greenhouse Gas Intensity, Water and Land Use Intensity, and Waste.

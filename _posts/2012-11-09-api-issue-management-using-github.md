@@ -11,8 +11,6 @@ tags:
   - Management
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/github/github-logo.png)](https://github.com/ "Github")
-
 [Github](https://github.com/ "Github") should be the center of your API operations, with the most obvious use being for [SDK repositories](/2012/10/25/sdk-management-for-your-api-with-github/ "SDK repositories"), but Github offers a lot of other valuable tools that you can use to manage your API platform.
 
 One great use of Github is as an API issue management tool. The Github issue management system allows you to easily accept issue reports from your API community and apply labels to organize them into appropriate categories, for processing by your development team.

@@ -9,7 +9,7 @@ tags:
   - Open
   - Open-Source
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/mashape-logo.png)](http://www.mashape.com/)The [Mashape API Proxy](https://github.com/Mashaper/Mashape-API-Proxy "Mashape API Proxy") is an open-source version of the same proxy that allows APIs to integrate with the [Mashape Platform](http://www.mashape.com/ "Mashape Platform") andhandles authorizing users, billing, rate limiting and other features.
+The [Mashape API Proxy](https://github.com/Mashaper/Mashape-API-Proxy "Mashape API Proxy") is an open-source version of the same proxy that allows APIs to integrate with the [Mashape Platform](http://www.mashape.com/ "Mashape Platform") andhandles authorizing users, billing, rate limiting and other features.
 
 Version 1.1 is whats available for [download on Github](https://github.com/Mashaper/Mashape-API-Proxy "download on Github"), and Mashape is testing the private version 1.2 of the proxy with a small set of API providers, and they will push it to Github after its been tested.
 

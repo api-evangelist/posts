@@ -9,8 +9,6 @@ tags:
   - Design
   - HTTP
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/heroku/heroku-logo.png)](https://github.com/interagent/http-api-design)
-
 [I stumbled across a cool resource out of Heroku today, their](https://github.com/interagent/http-api-design) [HTTP API design guide](https://github.com/interagent/http-api-design), which intends to direct practices for API design on the Heroku API platform.
 
 Heroku’s goals around APIs design are, "consistency and focusing on business logic while avoiding design bikeshedding”. They put out the guide to drive consistent aPI design practices at Heroku, but are also interested in sharing with the wider API community.

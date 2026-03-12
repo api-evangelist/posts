@@ -8,8 +8,6 @@ author:
 tags:
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/twitter/twitter-bird-blue-on-white.png)](http://www.twitter.com/ "Twitter")
-
 When covering the API space, it is easy to talk about the APIs that are doing it wrong. When [Twitter gets ready to screw over developers](https://dev.twitter.com/blog/delivering-consistent-twitter-experience "Twitter gets ready to screw over developrs"), Facebook breaks something or Google changes their approach--the blogosphere and twittersphere eats it up.
 
 What is harder, is finding the stories about success in the space. I see a lot of comments on recent posts about how [developers are fools for every believing in APIs](http://news.ycombinator.com/item?id=4177151 "developers are fools for believing in APIs"), and what positive outcomes have their been with APIs?

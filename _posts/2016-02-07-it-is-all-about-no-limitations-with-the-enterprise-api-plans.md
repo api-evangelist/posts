@@ -9,8 +9,6 @@ tags:
   - Plans
   - Enterprise
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/algolia-logo.png)](https://www.algolia.com/pricing)
-
 I am continuing to push forward my [API plans research](http://plans.apievangelist.com), where I look closely at the common building blocks of the service composition, pricing, and plans available for some of the leading API providers out there. I have no less than ten separate stories derived from [Algolia, the search API provider's, pricing page](https://www.algolia.com/pricing)\--I will be using Algolia as a reference for how to plan your API, along with elder API pioneers like Amazon, and Twilio, for some time now.
 
 On area of Algolia's approach I think is worth noting, is the enterprise level of their operations. They provide the most detail regarding what you get as part of the enterprise tier, being very public about their operations, in a way you just do not see with many API providers. When it comes down to it, the Algolia enterprise search plans are all about no limitations--I think their description says it well:

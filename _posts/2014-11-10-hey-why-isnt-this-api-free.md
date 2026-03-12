@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/inbox-app/inbox-app-api-logo.png)](https://www.inboxapp.com/)
-
 It always makes me happy to see a pricing page, front and center when I visit an API, but I found an added bonus over at the email API, Inbox. At the bottom of their pricing page, they have a pretty simple question: _**Hey, why isn't this free?**_
 
 > _

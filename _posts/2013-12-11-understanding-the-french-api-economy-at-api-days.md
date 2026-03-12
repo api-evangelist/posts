@@ -8,8 +8,6 @@ author:
 tags:
   - Economy
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-days-paris-france/api-days-logo.png)](http://apidays.io/)
-
 I got back from Paris, France this Sunday, after Audrey ([@audreywatters](https://twitter.com/audreywatters)) and I spoke at [API Days](http://apidays.io/) last Thursday. This was the second annual API event, which kicked off last year around the same time. I've been a supporter of the event since Mehdi ([@medjawii](https://twitter.com/medjawii)) of Webshell told me about the idea.
 
 Last years event was small, and over half the audience seemed to be imported API specialists such as myself, where this year it was clear--this was a french conference. A passionate community of API enthusiasts has grown over the last year, producing an impressive line-up of speakers and attendees.

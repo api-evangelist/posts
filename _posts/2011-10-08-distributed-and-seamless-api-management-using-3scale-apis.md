@@ -12,8 +12,6 @@ tags:
   - Scale
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/3scale-logo.jpg)](http://www.3scale.net/)
-
 I just added four new API to my API stack series. I’m considering breaking the API Stack series into a separate feed, they kind of clutter the main feed. Anyways, the four new APIs are from [3Scale](/serviceproviders/3scale.php "3Scale"):
 
 *   **[Service Management API](/2011/10/08/api-stack-api-service-management-with-3scale-service-management-api/ "Service Management API")**

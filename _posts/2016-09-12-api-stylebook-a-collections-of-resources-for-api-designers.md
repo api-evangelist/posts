@@ -10,8 +10,6 @@ tags:
   - Collection
   - Resources
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_stylebook.png)](http://apistylebook.com)
-
 My friend [Arnaud Lauret](https://www.linkedin.com/in/arnaudlauret/) ([@arno\_di\_loreto](https://twitter.com/arno_di_loreto)), the [API Handyman](http://apihandyman.io/), has released a very cool new project called the [API Stylebook--a collections of resources for API designers](http://apistylebook.com/). It is a brilliant aggregation of twelve API design guides from Atlassian, Cisco, Cloud Foundry, Haufe, Heroku, Microsoft, PayPal, Red Hat, The White House, Zalando.
 
 I think the API Stylebook purpose describes it well:

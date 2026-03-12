@@ -13,8 +13,6 @@ tags:
   - Portals
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/myfox/myfox-api.png)](https://api.myfox.me/dev/introduction)
-
 I was dedicating some time to researching APIs in the Internet of things (IoT) space, and stumbled across the [Myfox API](https://api.myfox.me/), serving the [Myfox home security products](https://www.getmyfox.com/us_en/). While the developer portal for the Myfox API doesn't have everything I'd like to see in an IoT developer portal, it is one of the better one's I've seen.
 
 If you think web or mobile app developers suck at providing a simple, and a coherent developer portal and experience, device platform providers are even worse. The Myfox API, has the essential building building blocks, with a simple overview, authentication info, simple Swagger driven API documentation, application management tools, and a clear terms of service for the platform.

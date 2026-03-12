@@ -14,8 +14,6 @@ tags:
   - Visibility
   - Micro
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/microsoft-cloud-platform-roadmap.png)](http://www.microsoft.com/en-us/server-cloud/roadmap/)
-
 A road map for your API, is one of those essential building blocks that can go a long way in building trust with your API consumers. Sharing your plans, helps developers prepare for the future, and better plan for their own road maps, keeping everything potentially in sync. 
 
 From my vantage point, a simple, up to date, easily found road map is a building block that benefits both API provider and consumer. Road maps help provider organize their plans, and figure out how they are going to communicate it with the ecosystem, then setting the overall tone for how API consumers will engaging with a platform--both good and bad.

@@ -9,8 +9,6 @@ tags:
   - My
   - Platform
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/fcc/My-FCC-Logo.png)](http://my.fcc.gov/ "MyFCC")
-
 The FCC just launched a new platform that allows anyone to create, save and manage a customized page, built from widgets that pull content from FCC APIs, called [MyFCC](http://my.fcc.gov/ "MyFCC"). 
 
 At first glance [MyFCC](http://my.fcc.gov/ "MyFCC") might look like just another dashboard or start page, but it goes much further, as an API curation platform.

@@ -7,8 +7,6 @@ atomdate: 2016-10-13T00:00:00.000Z
 tags:
   - Data
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/tool/white-house-seal.jpg)](https://www.whitehouse.gov/webform/request-information-regarding-data-portability)
-
 [The White House is looking for our thoughts on data portability](https://www.whitehouse.gov/webform/request-information-regarding-data-portability). While it is the U.S. federal government asking for our thoughts, something that could apply to our tax returns, veterans records, or student loan information. They seem to be most interested in what data portability means to us as consumers, or via many online services today--as the product.
 
 Here is what they are looking for:

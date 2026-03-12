@@ -9,8 +9,6 @@ tags:
   - Education
   - Code
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/codecademy/codecademy-logo.png)](http://www.codecademy.com/)
-
 As I do with many of my stories, I’ve been stewing on the news that online education platform Codecademy started offering API programming lessons for popular APIs like Twilio and NPR back in January. While at first glance this seems like an important evolution in API education, I wanted to really think through all the details of API on-boarding before I passed judgement.
 
 Codecademy’s claim to fame is a pretty slick code view where you can edit your code and then a view window, which will process and run your code, letting you know if you’ve done it right or not. Each class is broken into several lessons, allowing you to finish at your pace, with a accompanying Q&A forum, glossary and scratch pad--with a badge showing you passed the course.

@@ -11,8 +11,6 @@ tags:
   - Agencies
   - Progress
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/federal-government/Track-Federal-Agency-API.png)](/federal_government.php "Federal Agency API Deployment Tracker")
-
 I’m excited about [Barack Obama directing all federal agencies to have an API](http://apievangelist.com/2012/06/01/barak-obama-directs-all-federal-agencies-to-have-an-api/ "Barack Obama directing all federal agencies to have an API"). The President has given federal agencies 90 days to create a page on its website, located at www.\[agency\].gov/digitalstrategy, to publicly report progress in meeting the requirements of the Strategy in a machine-readable format, and implement the requirements of the Strategy within 12 months.
 
 As I said in my post, I wanted to setup a [page to monitor this activity](/federal_government.php "page to monitor this activity"). I found a [dataset of federal executive branch Internet domains](https://explore.data.gov/Federal-Government-Finances-and-Employment/Federal-Executive-Branch-Internet-Domains/k9h8-e98h), thanks to Anthony Sutardja, one of my readers. In the dataset there are 1467 domains, with 106 distinct agencies running those domains. The President states "executive department and agencies" in his directive.  I can’t imagine we are going to see digital strategies in 90 days for all 1467 domains? I’m assuming it will occur within the top level agencies first. But I’m very curious see which agency domains follow, so I’m going to leave all of them up.

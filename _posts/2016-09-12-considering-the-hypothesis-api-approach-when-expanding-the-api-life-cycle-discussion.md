@@ -9,8 +9,6 @@ atomdate: 2016-09-12T18:00:00.000Z
 tags:
   - Life Cycle
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/linkedin/the_hypothesis_api_the_hypothesis_annotation_framework.png)](http://h.readthedocs.io/en/latest/api/)
-
 I have been playing around with different ways to [craft a web concepts and specification JavaScript library for API providers](http://apievangelist.com/2016/09/07/a-web-concepts-and-specifications-javascript-library-for-api-providers/), and one of the approaches I've been considering is out of the [annotation platform Hypothes.is](https://hypothes.is/). Their _"mission is to bring a new layer to the web"_ allowing anyone to _"discuss, collaborate, organize your research, or take personal notes"--_while I'm looking to bring a new layer to the world of APIs, allowing API providers to weave in important web concepts and specifications across their API portals and documentation.
 
 [Hypothes.is has a simple API, allowing you to search, read, create, update, and delete annotations on any HTML page available at a public URL](http://h.readthedocs.io/en/latest/api/). This is exactly what I'd like to see done for any OpenAPI Spec JSON files, with my earlier [APIs.json Annotation work](http://apis.json.annotation.apievangelist.com/). While I am envisioning this new JavaScript API library existing more as a [tooltip](http://darsa.in/tooltip/) or [introduction](http://introjs.com/), I also like the approach Hypothes.is takes for annotation, and would like to figure when and where I might be able to weave it in.

@@ -11,8 +11,6 @@ tags:
   - Conversations
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-vertical.jpg)](http://www.apistrategyconference.com/2014Amsterdam/index.php)
-
 We are getting close to the [API Strategy & Practice conference in Amsterdam](http://www.apistrategyconference.com/2014Amsterdam/schedule.php) next week. With less than one week left, I’m going to be really turning up the volume on API Evangelist about the conversations that will be going on at #APIStrat.
 
 Last week I [took a look at the 15 sessions that are happening](http://apievangelist.com/2014/03/13/the-15-sessions-at-api-strategy-and-practice-in-amsterdam/), and today I’m taking a look at the keynotes, chats and panels that will be happening on main stage.

@@ -10,8 +10,6 @@ tags:
   - Sharing
   - API Blueprint
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apiary/apiary-logo-300x93.png)](https://apiary.io/)
-
 API design service provider Apiary, [quietly launch a new sharing button for API Blueprints, in their interactive API documentation](http://blog.apiary.io/2015/03/26/ApiBlueprint-button/), the other week. They added a setting in their account area, which allows users to be more open with their API designs:
 
 > _"Start sharing your API blueprint with other API enthusiasts, by enabling this feature within your API settings. Simply toggle the ‘Public Blueprint’ setting on and you’re ready to start sharing your API blueprint.” also stating that, “this is just the beginning of being able to socialize and learn from other public API blueprints."_

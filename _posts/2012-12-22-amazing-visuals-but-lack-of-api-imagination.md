@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/earth-as-art/desolation-canyon.jpeg)](http://kinlane.github.com/earth-as-art/index.html)
-
 I was scrolling through my feeds today and I came across, "[Earth As Art](http://www.nasa.gov/connect/ebooks/earth_art_detail.html)" from NASA. I clicked on the homepage and didn’t think much, and moved on. Then I came across [Earth as Art book from NASA on Flowing Data](http://flowingdata.com/2012/12/21/earth-as-art-from-nasa/), where they showed an actual image from the “Earth As Art” collection.
 
 Sure, I suffer from ADD. But so does much of the world. I work through huge amounts of data on a daily basis, looking for gems. Sometimes I can find them myself, and sometimes I need help.

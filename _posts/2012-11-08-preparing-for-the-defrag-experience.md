@@ -8,8 +8,6 @@ author:
 tags:
   - Experience
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/defrag-2012/Defrag-2012-Conference.png)](http://defragcon.com/)
-
 I was trying to explain the experience of being at the [Defrag Conference](http://defragcon.com/), to a friend the other day. We are both gearing up for the event, next week (November 14th & 15th), in Broomfield Colorado, and he had never been to one so I wanted to share a little about what the experience is like.
 
 The Defrag event is organized by Eric Norlin, who also organizes Gluecon and Blur conferences, all at the Omni Interlocken resort in Broomfield. Each of Eric’s events have evolved each year, but currently reflect the following focus:

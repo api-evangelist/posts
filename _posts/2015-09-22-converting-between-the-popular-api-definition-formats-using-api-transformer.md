@@ -8,8 +8,6 @@ author:
 tags:
   - Definition
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-transformer-screenshot.png)](https://kin-lane.github.io/blog/)
-
 My own API management system allows me to import Postman collections, HAR files, Charles Proxy XML files, and Swagger version 1.2, but when it comes to output, it only speaks Swagger 2.0. I've been wanting to create a tool for outputting my definitions as API Blueprint for some time now, but just haven't had the time to do the work.
 
 I have been secretly hoping someone would build a good quality, so I wouldn't have to do this work myself. Now I have [API Transformer](https://apitransformer.com/), an API definition translation platform, developed by the [APIMATIC](http://apimatic.io) team. Using API Transformer you can upload or pull API definitions in the following formats:

@@ -12,8 +12,6 @@ tags:
   - Documentation
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-interactive-api-docs.png)](http://developer.apievangelist.com/core-apis.html)
-
 I wrote about [visual API documentation](http://apievangelist.com/2014/06/17/adding-data-visualization-layer-to-interactive-api-documentation/) a few months back, after [I looked at the approach from OpenFDA](http://apievangelist.com/2014/06/04/another-strong-api-implementation-in-federal-government-with-openfda/), and now after [taking a look at the value Slate brings to API providers like Dwolla](http://apievangelist.com/2014/10/24/dwolla-using-slate-for-an-evolved-api-documentation-experience/), these feelings are re-surfacing in my mind. Since I have limited time, I’m getting pretty good at putting my ideas out there, allowing anyone to step up and execute on opportunities I’m seeing across the API space—I just do not need the extra work.
 
 I love me some [Swagger UI](https://github.com/swagger-api/swagger-ui), as you can tell from the fact that all of my APIs use [Swagger as the API definition format](http://swagger.io/), as well Swagger UI for the interactive documentation. I’m pretty convinced of the importance of documentation being a hands-on experience, but after looking at approaches like OpenFDA, and Dwolla with their Slate driven API docs, I’m convinced they should also be more beautiful and functional.

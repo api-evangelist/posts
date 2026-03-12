@@ -8,8 +8,6 @@ author:
 tags:
   - API Commons
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/api-spark/apispark-logo.png)](https://apispark.com/)
-
 I’m still playing catch up on many of my stories from over the last month, and one of them is the ability to publish your API definition straight from your API deployment using [APISpark](https://apispark.com/). If you aren’t familiar with APISpark, it is a cloud-based API deployment service built on the [open source RESTlet framework](http://restlet.com/).
 
 Using APISpark you can deploy APIs from existing Google Spreadsheets, machine readable files on Amazon S3, or directly from a fresh datastore. APISpark gives you all the control you need over generating your endpoints, securing and monitoring the resulting APIs—all without any programming or back-end infrastructure.

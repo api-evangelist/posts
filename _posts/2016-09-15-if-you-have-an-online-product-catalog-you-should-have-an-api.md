@@ -7,8 +7,6 @@ atomdate: 2016-09-15T16:15:44.000Z
 tags:
   - Product
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/datasheets_electronic_parts_components_search__octopart.png)](https://octopart.com/)
-
 [Octopart is the products company that I regularly use as a reference for how product-focused companies should be doing APIs](https://octopart.com/). Octopart's is an electronic parts company who have a physical, product centered company which is easy for people to understand, that also happens to do APIs well. Octopart doesn't do APIs just because they are cool, they do APIs because it enables the purchasing of their products in other systems.
 
 When you land on the Octopart website you are given a product catalog search, allowing humans to browse their virtual electronic parts warehouse, but as soon as you scroll below the fold you also see a link to their API. The Octopart API is nothing fancy, but it has all the essentials, including [a simple REST API for accessing /brands, /categories, /parts, and /sellers in their virtual electronic parts warehouse](https://octopart.com/api/home). 

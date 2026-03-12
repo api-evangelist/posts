@@ -11,8 +11,6 @@ tags:
   - Research
   - ddi
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/uspto.png)](http://dns.apievangelist.com/patents/)
-
 [I have been tracking on API related patents for some time](http://apievangelist.com/2016/01/27/my-stance-on-apis-and-patents/). I regularly pull XML dumps from the US Patent Office, a process in which I am getting more refined, so that I am able to easily tag, and organize them alongside the rest of my research. I spent some time this last week diving [into my DNS API research](http://dns.apievangelist.com), and after updating the rest of the data behind, I added [some DNS related patents](http://dns.apievangelist.com/patents/).
 
 The patent information is already available in my API monitoring system, I just needed to be able to tag the patents, and write a script to publish the tagged patents to each of my Github projects. Now that I have this in place, it is pretty easy for me to spend an hour or two looking through the patents that come each week, and putting them into each area of the API space I study--which is why I have organized my API research the way that I have.

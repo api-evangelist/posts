@@ -9,8 +9,6 @@ tags:
   - Definition
   - Swagger
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://swagger.io/)
-
 I was listening the [APIsâUncensored podcast last weekend](https://soundcloud.com/apisuncensored), where Ole Lensmar ([@olensmar](https://twitter.com/olensmar)), and Lorinda Brandon ([@lindybrandon](/admin/blog/lindybrandon)) sat down for a conversation with Tony Tam ([@fehguy](https://twitter.com/fehguy)), the creator of API definition format Swagger. There are a lot of interesting API informational nuggets throughout the podcast, some of which I'll be writing about, but this one is about something Tony mentioned—called [Swagger vendor extensions](https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md#vendorExtensions).
 
 I've been using Swagger for a while, and specifically Swagger 2.0 since its release, and Swagger vendor extensions was new thing to me—most likly user error. I don't ever sweat things I miss, because I consume so much information each day, things are bound to get past me. Anyways, Swagger vendor extensions are simply the ability to add any property to an API definition by using the “x-“ prefix”.

@@ -10,8 +10,6 @@ tags:
   - APIs
   - APIs.jso
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png)](http://apisjson.org/)
-
 I'm continuing my work to [help people understand what APIs.json is](http://apievangelist.com/2015/02/04/what-exactly-is-api-commons/), and the varying ways that it can be put to use. My post the other day, [breaking down Fitbits APIs.json file](http://apievangelist.com/2015/01/31/breaking-down-the-fitbit-apisjson-file/) is a good example of where to get started, but I wanted to help further set the bar for a minimum viable APIs.json.
 
 APIs.json starts with a basic set of descriptions of who you are, the API provider. Each header of an APIs.json file gives you a handful of parameters for describing who you are:

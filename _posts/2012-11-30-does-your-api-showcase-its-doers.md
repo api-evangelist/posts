@@ -8,8 +8,6 @@ author:
 tags:
   - Showcase
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/twilio/Twilio-Logo.png)](http://www.twilio.com/)
-
 Poster boy for how to properly run your API ecosystem properly, [Twilio](http://www.twilio.com/ "Twilio"), recently updated their [DOer Gallery](http://www.twilio.com/doers) to highlight developers in the Twilio ecosystem that build cool stuff on the popular voice and SMS API.
 
 Twilio has the best record I’ve seen of any API, when it comes to showcasing and being loved by their developer community, and I'm sure the DOer Gallery plays an important role in that.

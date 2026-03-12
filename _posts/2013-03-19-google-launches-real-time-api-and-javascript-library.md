@@ -9,8 +9,6 @@ tags:
   - Real Time
   - Time
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/google-realtime/google-real-time-api-playground.png)](https://developers.google.com/drive/realtime/)
-
 Google launched a [Realtime API for the Google Drive Platform](http://googledevelopers.blogspot.com/2013/03/build-collaborative-apps-with-google.html) today. It is the API version of the same functionality available on Google Drive, that allows for you and other collaborators to type, edit, annote and chat with each other within a Google Doc.
 
 To use the [Google Drive Realtime API](https://developers.google.com/drive/realtime/) you add the Google Realtime Javascript library, then you can give any local object on an HTML page realtime behavior. The JavaScript library and Realtime API handle network communication, storage, presence, conflict resolution and sync changes using what they call a CollaborativeString object.

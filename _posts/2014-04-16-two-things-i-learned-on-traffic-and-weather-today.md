@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/traffic-and-weather/Traffic-and-Weather.png)](http://trafficandweather.io/)
-
 If you aren’t already familiar with [Traffic and Weather](http://trafficandweather.io/), it is an extremely structured discussion between **[John Sheehan](http://twitter.com/johnsheehan)** ([Runscope](https://www.runscope.com/)) and **[Steve Marx](http://twitter.com/smarx)** ([Dropbox](https://www.dropbox.com/developers)), about "the latest API and cloud tools, news and technologies”.
 
 Its not often I learn something new from the show (kidding), but today I learned about two new things:

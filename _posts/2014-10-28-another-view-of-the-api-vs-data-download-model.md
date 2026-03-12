@@ -8,8 +8,6 @@ author:
 tags:
   - Data
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/quandl/quandl-logo.png)](http://quandl.com/)
-
 I’ve talked a lot about the [benefits of APIs over download of data stores](http://apievangelist.com/2013/07/19/providing-full-data-download-vs-api/) in the government space, and I’m always on the lookout for other interesting examples of making data available via an API, as well as a full data download. I’m doing a lot of research right now on the financial API space, and [stumbled across Quandl](http://blog.quandl.com/blog/quandls-first-premium-databases/), a data provider who has free access financial data APIs, while also selling access to premium databases.
 
 Quandl has [aggregated 7 financial and economic databases into one database solution that you can pay to download](http://blog.quandl.com/blog/quandls-first-premium-databases/), or you can freely access via their unlimited use API--Quandl puts it like this:

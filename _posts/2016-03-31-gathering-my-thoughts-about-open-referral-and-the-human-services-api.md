@@ -10,8 +10,6 @@ tags:
   - Open
   - Services
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/icarol-screenshot.png)](https://openreferral.org/)
-
 I am working on several very rewarding API efforts lately, but one I'm particularly psyched about is [Open Referral](https://openreferral.org/). I'm working with them to help apply the open API format in a handful of implementations, but to also share some insight on what the platform could be in the future. I have been working to carve out the time for about it, and finally managed to do so this week, resulting in what I am hoping will be some rewarding API work.
 
 As i do, I wanted to explore the project, work to understand all the moving parts, as well as what is needed for the future, using my blog. I am not recommending that Open Referral tackle of all this work right now, I am just trying to pull together a framework to think about some of the short, and long terms areas we can invest in together. I intend to continue working with Greg, and the Open Referral team to help spread the awareness of the open API specification, and help build the community.

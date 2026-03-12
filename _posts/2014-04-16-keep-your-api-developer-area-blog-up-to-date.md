@@ -8,8 +8,6 @@ author:
 tags:
   - Blog
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/espn/espn-blog.png)](http://developer.espn.com/blog)
-
 I look at a lot of API developers areas in my work, and the first sign I see that nobody is home behind an API, is that their blog is out of date.
 
 I found myself at the [ESPN developer center](http://developer.espn.com/blog) last night, clicked on the blog, which has a great tag line of “API-focused musings and rambling”, but alas hasn't been updated in over a year.

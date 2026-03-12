@@ -10,8 +10,6 @@ tags:
   - Aggregation
   - Government
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/Fed-API-Logo-2.png)](http://fedapi.com/)
-
 I've been tracking on what I call API aggregation for some time now. I started seeing the [API aggregation trends in 2010](/2010/11/19/universal-apis/), then I saw this pick up in 2011 with the emergence of providers like [Singly](http://aggregation.apievangelist.com/companies-detail.html?id=34) and [Adigami](http://aggregation.apievangelist.com/companies-detail.html?id=35).
 
 While many new companies provide you with interoperability and automation between multiple APIs, I consider aggregators to be about bringing together multiple APIs into a single aggregated end-point for developers to use, then also providing potentially new APIs that are only possible, because of the aggregation.

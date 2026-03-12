@@ -8,8 +8,6 @@ author:
 tags:
   - tag
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/twitter/Twitter-Hashtag.jpg)](http://cmiroconsulting.com/2011/07/what-are-twitter-hashtags-and-how-to-use-them/ "Twitter Hashtags")
-
 There are a lot of reasons for throwing a [hackathon](/events/ "hackathons"), and what value you get out of a hackathon will vary depending on who you are.
 
 As I explore the hackathon phenomenom in 2012, I’m trying to track on what value hackathon organizers, API owners, mobile platforms, developers and other participants get out of hackathons.

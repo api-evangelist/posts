@@ -9,8 +9,6 @@ tags:
   - Assertions
   - Contract
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/restlet/dhc/dhc-logo.jpg)](https://restlet.com/products/dhc/)
-
 I am spending time evaluating the evolution of the three applications offered by [Restlet](https://restlet.com), as they work to bring the experience across [API Spark](https://restlet.com/products/apispark/), [Restlet Studio](https://restlet.com/products/restlet-studio/), and [DHC](https://restlet.com/products/dhc/), into closer alignment. To describe what Restlet does in my API terminology, API Spark is an API deployment solution, Restlet Studio is an API design solution, and DHC is an API client solution. These are extreme simplifications, but helps me keep the fast moving API space somewhat organized (for me), and helps me share stories that (hopefully) make sense (for you). 
 
 Every couple of weeks I spend an hour or two talking with Jerome Louvel ([@jlouvel](https://twitter.com/jlouvel)), the founder of Restlet, about their road map, and where the wider API space is going. Similar to my own work, [trying to map out the API life cycle](http://apievangelist.com), Restlet is trying evolve their own suite of API solutions, into more of a life cycle management solution. Restlet touches all of the core areas of the life cycle, including design, definitions, deployment, management, and client, while also making moves into testing, and beyond. I told Jerome I would spend more time thinking about this journey that they are on, and provide any thoughts I can.

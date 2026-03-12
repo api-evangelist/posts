@@ -14,8 +14,6 @@ tags:
   - Open Data
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-portal.jpg)](http://kinlane.github.io/va-developer/)
-
 I have a whole list of projects around open data and APIs at the Department of Veterans Affairs (VA). Additionally I have numerous other open data and API projects I'd like to tackle across other federal agencies. As I do with other areas of my work, I needed a standardized way to stabilize the datasets and APis I will need for my projects, in the same way any open data and API provider should do for their consumers.
 
 To help support my work, and hopefully the work of others I wanted to create a baseline portal that I could use at the VA, for showing what is possible when hanging open datasets and APIs, in a full featured portal. The success of any open data and / or API portal starts with the technical building blocks, like data and APIs, but have a set of business and political building blocks that are essential to their adoption and growth.

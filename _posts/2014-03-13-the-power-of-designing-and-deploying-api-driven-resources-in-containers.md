@@ -12,8 +12,6 @@ tags:
   - ai
   - Power
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/autodevbot/autodevbot-icon.png)](http://autodevbot.com/)
-
 One of the transformative experiences of my career was when I worked for SAP, running SAP events as VP of Engineering at WebEvents Global. When I started, I was handed an architecture that was completely hosted in a hostage colocation facility, where I had no support. Long story short is, I was able to redefine my architecture using an API-centric approach, coupled with AWS EC2 and S3 APIs, I re-deployed infrastructure piece by piece into the cloud, exiting my restrictive environment, but then also giving me a newfound agility, and the ability to scale in new an exciting ways, that were very liberating.
 
 This experience was the birth of API Evangelist. After three years doing this, I needed a change, and knew that APIs was the space I wanted to be in, so I started a research blog to study the space--four years later I’m still doing the research and publishing in real-time across the 60+ Github repos that make up API Evangelist. I evangelize APIs to not just spread the gospel of the technical benefits of APIs, I have remained passionate about APIs after four years by evangelizing the business, legal and cultural effects of an API-centric approach to business and government.

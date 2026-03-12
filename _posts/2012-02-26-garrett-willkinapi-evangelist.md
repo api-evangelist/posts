@@ -9,8 +9,6 @@ tags:
   - API Evangelist
   - Evangelist
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/garrettwilkin_apievangelist.jpg)](http://programmableweb.com/profile/garrettwilkin)
-
 [Garrett Wilkin](http://programmableweb.com/profile/garrettwilkin "Garret Willkin") ([@garrettwilkin](https://twitter.com/#!/garrettwilkin "Garrett Willkin")) has been working with complex, high-performance, financial software systems for more than 6 years.  During this time he has learned to analyze and understand large software applications with dozens of concurrent processes.  He’s accustomed to complexity and excels at translating technical issues into higher level concepts for non-technical audiences.  
 
 He feels passionately about the opportunities for collaboration and innovation that are being produced through the API trend of recent years.  He recently attended and [participated in the hacking at Music Hack Day](http://blog.programmableweb.com/2011/11/09/i-fell-into-a-burning-ring-of-fire-at-music-hackday/) in Boston. Having been inspired by the electric, creative energy at this event, he’s seeking further engagement with the wider hacking community.

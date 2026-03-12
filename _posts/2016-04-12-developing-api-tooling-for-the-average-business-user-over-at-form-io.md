@@ -10,8 +10,6 @@ tags:
   - Business
   - Tooling
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/formio-form-building.png)](https://form.io/)
-
 When I am review API services and tooling, the majority of what I see is targeting the API elite, the most technical, and specialized of us in the API space. Rarely do I come across approaches that really speak to the average business person, but each time I talk to the [Form.io team](https://form.io/) I am reminded that these tools can, and do exist in the wild. 
 
 I get regularly walk through from the team, so what they do is no surprise, but each time I see it in action, I'm moved by what is possible, and the inroads they are building into everyday businesses. Using Form.io you can build forms, but these aren't forms, they are apps, and they are APIs, as well as being a form. When you are building a form, you are building an API, and when you hit publish, it publishes the API, with the form as the first web or mobile app that is consuming the API. 

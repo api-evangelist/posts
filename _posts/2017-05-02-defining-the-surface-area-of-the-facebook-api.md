@@ -7,8 +7,6 @@ atomdate: 2017-05-02T16:00:00.000Z
 tags:
   - Facebook
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/the_facebook_api_index_screenshot.png)](http://facebook.stack.network/)
-
 I learn a lot by studying APIs. One of the ways I get to know what an API does is by creating an OpenAPI for the API, which helps define all of the paths available for an API--helping me understand what is possible. After defining the API requests that are possible, ensuring there are simple descriptions for each path, I also like to make sure all the data that is being passed back and forth via an API is also defined in the OpenAPI--giving me a good snapshot of what data is stored behind an API.
 
 [In my current Facebook API definition, there is a total of 271 paths, with 90 objects defined using 654 data points](http://facebook.stack.network/). The machine-readable OpenAPI definition tells me what data is stored and transmitted, and what actions I can take involving these items. The Facebook API definition isn't complete, but it does provide me with a nice view of the Facebook Graph API landscape, and since the project is hosted on Github anyone can help me continue adding to and expanding on the definition, as well as the documentation and other tools I'm building on top of the definition.

@@ -10,8 +10,6 @@ tags:
   - Scale
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/heroku/heroku-logo.png)](https://heroku.com)
-
 I am playing around with deploying APIs using multiple cloud platforms, and using popular container solutions. Next up is quickly deploying one of my utility APIs, to [Heroku](http://heroku.com), complete with access control, traffic reports, and supporting analytics with [3Scale infrastructure](http://bit.ly/13esk6Q).
 
 **Application - Simple Screen Capture API**  

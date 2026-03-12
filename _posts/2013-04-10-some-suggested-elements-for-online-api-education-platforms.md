@@ -10,8 +10,6 @@ tags:
   - Platform
   - Platforms
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/studio-sketchpad/studeio-sketchpad-logo.png)](http://studio.sketchpad.cc/ "Studio Sketchpad")
-
 I wrote yesterday’s piece on [API education with Codecademy](/2013/04/09/api-education-with-codecademy/) back in February. I didn’t publish because I wanted to do more research on suggested areas of improvement for the Codecademy team to balance my criticism.
 
 The point of yesterday's post was not to bash Codecademy, it is to incentivize them to make their platform better. Until then, I can't really recommend as an [API building block](/buildingblocks/ "API Building Block").

@@ -8,8 +8,6 @@ tags:
   - My
   - Publishing
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/shutterstock_developers_home.png)](https://developers.shutterstock.com/)
-
 I have used [Shutterstock](https://www.shutterstock.com/home) for some time now when it comes stock images but I've only recently started playing around with their publishing program, hoping to make some money from some of my photos and videos. As with any other channel that I am considering for inclusion in my line-up of tools and services, I am spending time going through their platform and evaluate the tech, business, and political considerations of adding any new service to work into my world. 
 
 First, a service should always have an API. This isn't just because of what I do for a living and my obsession with APIs. This is so that I can integrate seamlessly with my existing operations. Another side of this argument is that I will always be able to get my data and content out of a system, but I am working to be a little more proactive than that. I want my system, that operates within my domain to be the lead, and any new channel I adopt only play second fiddle. In this scenario, each photo or video that I publish to Shutterstock will live within my image and video systems and then with the Shutterstock API, I will publish to the Shutterstock domain as I deem worthy. 

@@ -12,8 +12,6 @@ tags:
   - Scale
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3scale-logo.jpg)](http://www.3scale.net/ "3Scale")
-
 Those of you who follow my blog, know my favorite API management service provider is [3Scale](http://www.3scale.net/ "3Scale"). It’s no secret I’m a fan of what they are doing. We share a vision of the API space and what a healthy API industry will look like.
 
 In support of that vision, 3Scale just launched a new open source API proxy build on the [NGNIX](http://wiki.nginx.org/Main "NGINX") web server technology--a move, I feel is important for 3Scale, as well as the entire API industry.

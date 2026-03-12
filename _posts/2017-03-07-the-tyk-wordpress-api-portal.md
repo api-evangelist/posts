@@ -7,8 +7,6 @@ atomdate: 2017-03-07T20:00:00.000Z
 tags:
   - Portal
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_05_at_6.44.14_pm.png)](https://opentransportdata.swiss/en/)
-
 I am finally seeing more solutions available for API providers when it comes to publishing an portal for their API operations. [I've long had my minimum viable API portal definition](http://portal.minimum.apievangelist.com/), which I recently [deployed to support the Miami Open211 API](https://apievangelist.com/2017/03/02/my-developer-portal-checklist-for-a-human-services-api/), and [I also wrote about AWS serverless approach to an API portal](http://apievangelist.com/2017/02/28/the-aws-serverless-api-portal/). Next up, is [a WordPress solution from my API management partner Tyk](https://tyk.io/2017/03/01/new-wordpress-api-portal-plugin/).
 
 The WordPress API portal solution has the following features:

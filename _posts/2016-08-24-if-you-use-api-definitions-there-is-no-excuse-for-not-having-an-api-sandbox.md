@@ -9,8 +9,6 @@ tags:
   - Definition
   - Sandbox
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Sandbox_-_Quickly_create_REST_API_and_SOAP_mock_web_services.png)](https://getsandbox.com)
-
 I have long been a proponent of using [API definitions](http://definitions.apievangelist.com/), not just because you can deploy interactive API documentation, but because they open up almost every other stop along the API life cycle. Meaning, if you have an OpenAPI Spec definition for your API you can also generate SDKs using APIMATIC, and API monitors using Runscope. 
 
 One of the examples I reference often is the [API Sandbox solution appropriately named Sandbox](https://getsandbox.com). One of the reasons I use Sandbox in this way is that API mocking using API definitions is a pretty easy concept for developers to wrap their heads around, but also because their home page is pretty clear in articulating the opportunities opened up for your API when you have machine-readable definitions available.

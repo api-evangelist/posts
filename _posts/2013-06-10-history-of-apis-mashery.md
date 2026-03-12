@@ -7,8 +7,6 @@ tags:
   - History
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mashery/mashery-old-logo.png)](http://mashery.com/)
-
 In November 2006, API the first API service provider Mashery came out of "stealth mode" to offer documentation support, community management and access control for companies wishing to offer public or private APIs--from blog post in TechCrunch titled [API Management Service is Open for Business](http://techcrunch.com/2006/11/06/mashery-api-management-service-is-open-for-business/).
 
 At this point in time, in 2006, we were moving from the social period of APIs into the cloud computing phase with the introduction of Amazon Web Services. It was clear that the world of web APIs was getting real, and there was opportunity for companies to offer API management as a service.

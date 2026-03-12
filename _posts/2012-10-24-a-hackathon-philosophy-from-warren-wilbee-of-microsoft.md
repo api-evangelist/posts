@@ -8,8 +8,6 @@ author:
 tags:
   - Micro
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/microsoft/warren-wilbee-microsoft.jpeg)](https://twitter.com/wwilbee)
-
 While doing the weekly hackathon roundup in September, I noticed an uptick in the number of [Windows 8 hackathons](http://whosin.com/pg/whois/20074247/Warren+Wilbee "Windows 8 Hackathons") that are going on. I decided to reach out to Microsoft and see if I can get more information on what they are trying to accomplish, and see what their perspective is on hackathons.
 
 After talking to several people I was directed to a gentleman by the name of Warren Wilbee ([@wwilbee](https://twitter.com/wwilbee)), Director of ISV Evangelism at [Microsoft](http://www.microsoft.com/en-us/default.aspx). Wilbee is a passionate evangelist, one that isn't just externally evangelizing, he is actively working to evolve internal culture and options about the value of hackathons at Microsoft. When I got on the phone with him, he said the reason I was directed to him is because he had recently circulated an internal memo regarding the makeup and value of hackathons.

@@ -8,8 +8,6 @@ author:
 tags:
   - Deployment
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/strongloop/strongloop-logo.png)](http://strongloop.com/)
-
 I’m looking through [the most recent API server release from StrongLoop](http://strongloop.com/strongblog/node-js-api-server-announcement/), and I can’t help but see echoes of what I’ve been researching, and covering across the [API Evangelist network](http://kinlane.com/about/). [API management](http://management.apievangelist.com) has been front and center for years, but [API deployment](http://deployment.apievangelist.com) is something that is just now being productized, with a wealth of new service providers emerging to provide API deployment solutions that go beyond DIY frameworks, and enterprise API gateways.
 
 Let start with walking through their announcement of their StrongLoop API Server:

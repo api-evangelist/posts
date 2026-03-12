@@ -12,8 +12,6 @@ tags:
   - APIs
   - SDKs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sdks-io/sdks-io-logo.jpeg)](https://sdks.io/)
-
 I am partnering with [APIMATIC](https://apimatic.io/) to help establish a common set of complete, and validated API definitions for the almost [1000 APIs I track on as part of my API Stack](http://theapistack.com/companies.html). I am using my [Questions API](https://kin-lane.github.io/question/) to identify what work is needed to be done, [by asking basic questions about companies, via their APIs.json definition, resulting in quick tasks I can accomplish that help us achieve our goals.](http://apievangelist.com/2015/06/15/my-minimum-viable-definition-for-a-complete-swagger-api-definition/)
 
 A portion of this work, involves making sure that the APIs in my stack are also linked to their [SDKs.io](https://sdks.io/) profile. If an API in my stack doesn't have an SDKs.io icon, I know that I either need to search and find it in SDKs.io, or I need to publish a copy of the Swagger definitions I have to APIMATIC, and publish it to SDKs.io--then record the default SDKs.io page in my system, and republish. #hakunamatata

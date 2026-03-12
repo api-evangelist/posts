@@ -11,8 +11,6 @@ tags:
   - Visualization
   - ddi
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/open-fda-logo.png)](https://open.fda.gov/index.html)
-
 I recently reviewed a new API initiative from the Food & Drug Administration, called [OpenFDA](https://open.fda.gov/). [I gave a whole list of things that they did right when launching the API](http://apievangelist.com/2014/06/04/another-strong-api-implementation-in-federal-government-with-openfda/), but one item that I thought was particularly interesting, was the actual interactive documentation for the [Drugs API endpoint](https://open.fda.gov/drug/event/).
 
 I talk a lot about [interactive documentation for APIs](http://apievangelist.com/2013/03/21/interactive-api-documentation-with-swagger/), something that has become commonplace, and a building block that developers are starting to expect. What is different about the OpenFDA Drug API, is that the interactive documentation provides a visual interface for building API calls, going beyond the interactive, and often very form based documentation that is commonly seen in other developer areas.

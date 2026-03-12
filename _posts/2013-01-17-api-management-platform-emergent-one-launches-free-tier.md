@@ -10,8 +10,6 @@ tags:
   - API Management
   - Platform
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/emergent-one-logo.png)](http://www.emergentone.com/)
-
 [Emergent One](http://www.emergentone.com/), one of the newest [API management players](/2012/06/15/api-service-provider-roundup-for-2012/) on the block, just announced a new free development tier.
 
 The Emergent One platform provides simple, cloud-based tools for connecting to your MySQL or PostgreSQL database, and quickly generating an API from your database.

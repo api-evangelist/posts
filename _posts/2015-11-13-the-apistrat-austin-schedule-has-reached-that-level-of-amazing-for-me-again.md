@@ -9,8 +9,6 @@ tags:
   - APIStrat
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/16672086073_12b6e018c1_z.jpg)](http://austin2015.apistrat.com/schedule/)
-
 [This is the 6th edition of API Strategy & Practice, happening in Austin, TX next week](http://austin2015.apistrat.com). As one of the organizers, I can say that pulling together the perfect lineup of speakers and topics is always a daunting challenge, but then at some point before the event happens, the schedule always seems to take on a life of its own.
 
 [The APIStrat Austin schedule](http://austin2015.apistrat.com/schedule/) has reached that point again. We have enough killer speakers and companies present, it has attracted other killer speakers and companies, resulting in a mindblowing 3 days of workshops, keynotes, panels, and sessions--if you haven't taken a look [at the schedule lately](http://austin2015.apistrat.com/schedule/), take a few moments.

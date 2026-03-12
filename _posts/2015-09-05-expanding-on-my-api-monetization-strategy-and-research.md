@@ -11,8 +11,6 @@ tags:
   - Strategy
   - Research
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-monetization-strategy.png)](http://monetization.apievangelist.com)
-
 This is a full walk-through of me trying to distill down my approach to API monetization, in a way that can be applied across not just 30 APIs, but potentially 300, or 3000. There are several things converging for me right now, which includes the maturing of my own infrastructure, as well as conversations I'm having with startups, enterprise groups, federal government agencies, and my own partner(s).
 
 I need to keep hammering on this to help me operate my own infrastructure, but I am also partnering with [APIWare to help me deliver on much of the API design, deployment, and management](http://apiware.io/), so I need to have a good handle on my costs. As with all of my areas of research, within the area of [API monetization](http://monetization.apievangelist.com/) I am just trying to get a handle on the common building blocks, and provide a checklist of considerations to be employed when I'm planning and operating my API infrastructure.

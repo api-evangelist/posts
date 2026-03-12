@@ -10,8 +10,6 @@ tags:
   - APIs
   - APIs.jso
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png)](http://apisjson.org)
-
 I had a conversation with some folks who are building a wikipedia of API definitions the other day, looking to employ formats like [Swagger](http://swagger.io), and [APIs.json](http://apisjson.org) to make an open, authoritative directory of machine readable API designs—something I can get behind 100%. I can even contribute the [700+ APIs.json files, and the 250+ Swagger files I have generated](https://github.com/kinlane/api-stack/tree/gh-pages/data) as part of my research.
 
 When I have discussions about APIs.json folks, I always find it helpful to summarize the vision we have for the API discovery format, and described it in a short, concise way. This time around I was able to clarify the vision, in a way I hadn’t fully been able to articulate before. To help me remember what I said, I wanted to capture it here on the blog.Many people who have heard about APIs.json as a sitemap for your APIs, but in reality there are three distinct ways I'm putting APIs.json to work:

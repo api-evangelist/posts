@@ -11,8 +11,6 @@ tags:
   - APIs
   - ddi
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twitter-rate-limit-docs.png)](https://dev.twitter.com/rest/reference/get/application/rate_limit_status)
-
 As I look through the API efforts of various providers, I’m always looking for the little things that can make on-boarding, and sustained integration with an API as frictionless as possible. One of the [building blocks that I recommend API providers employ](http://management.apievangelist.com/building-blocks.html) in their operations, is a page that explains API rate limits—providing vital information on how API resources are throttled (or not).
 
 An improvement on the standard rate limit building block, can be seen at Twitter. [Inline in the Twitter API documentation](https://dev.twitter.com/rest/reference/get/application/rate_limit_status), there are details about rate limiting for that specific endpoint. This way, as you are learning about each endpoint, you can also understand what limitations are in place. A small addition that could prove critical, for any API provider, especially Twitter, who has some of the most complex rate limiting of any API I know of.

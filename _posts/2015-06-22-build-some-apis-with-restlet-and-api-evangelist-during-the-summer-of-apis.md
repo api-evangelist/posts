@@ -10,8 +10,6 @@ tags:
   - Evangelist
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/restlet/Sparky_Summer_of_love_hippie_standing.png)](http://restlet.com/summer-of-apis/)
-
 I am [partnering with the Restlet team to put on a Summer of APIs, a virtual API challenge](http://restlet.com/summer-of-apis/). The goal with this summer program isn't to build apps on top of APIs, but build APIs that anyone can use, by crunching some valuable information resource, and make it easier to use in web and mobile, as well as potentially in embeddable tools, and even in spreadsheets--using APIs.
 
 I've gathered up some valuable sources of data, ranging from industry datasets from Data.gov in Washington DC to data sets that can help us with the water crisis out in California, which is included in detail about the program. I did a little homework for you, but dont' feel like you have to stop there, you can make any data, content, or other digital resource into an API during the Summer of APIs.

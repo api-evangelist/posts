@@ -10,8 +10,6 @@ tags:
   - Performance
   - Metrics
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apimetrics-social-api-performance-report.png)](http://apimetrics.io/2015/11/03/apimetrics-second-api-performance-report-social-networks/)
-
 [APImetrics just released their second API Performance Report for Social Networks](http://apimetrics.io/2015/11/03/apimetrics-second-api-performance-report-social-networks/), aggregated from data they have been gathering from monitoring social networks since 2014. APImetrics is publishing the report to "..understand the impact these APIs were having on social media based on geographic location and specific cloud service provider."
 
 I'll let you read the report yourself, I just wanted to highlight the importance of this type of API monitoring from 3rd party services like APImetrics. The other providers I watch closely like [Runscope](http://apis.how/8nlsropidv) and [API Science](http://apis.how/h1h2mnxnc4) also monitor 3rd party APIs like this, but I think publishing formal reports on a regular basis like APImetrics is doing, is healthy for the space. 

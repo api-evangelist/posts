@@ -9,8 +9,6 @@ author:
 tags:
   - Backend
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/orchestrate-io/Orchestrate_small-logo-600x124.png)](http://orchestrate.io/)
-
 There is a great [post over on the Orchestrate.io blog about how they deployed a backend for the MarvelousDB app](http://orchestrate.io/blog/2014/04/08/explore-the-marvel-universe-with-orchestrate/), using data from the [Marvel API](https://developer.marvel.com/), allowing you to explore the world of Marvel comic book characters, through a simple web interface
 
 As developers often face with valuable API resources, the Marvel API leaves a lot to be desired when it comes to available interfaces, data access, and rate limit restrictions. This is common with new APIs, where it takes time to understand [the right levers and dials to turn, that will make the API more usable](http://apievangelist.com/2014/04/10/the-levers-dials-and-switches-for-your-participation-in-the-api-economy/) by developers.

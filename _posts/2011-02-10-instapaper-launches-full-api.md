@@ -7,7 +7,7 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/instapaper.png)](http://www.instapaper.com/)[Instapaper](http://www.instapaper.com/) just launched a [Full API](http://www.instapaper.com/api/full) giving developers access to web pages that Instagram users have saved to read later.
+[Instapaper](http://www.instapaper.com/) just launched a [Full API](http://www.instapaper.com/api/full) giving developers access to web pages that Instagram users have saved to read later.
 
 The API provides full Instapaper account access, but can only access web page bookmarks from paid-subscriber accounts.
 

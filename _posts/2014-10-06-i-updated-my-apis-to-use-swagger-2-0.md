@@ -11,8 +11,6 @@ tags:
   - Swagger
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swaggerLogo360.png)](http://swagger.io/)
-
 I spent some time this weekend updating a handful of my APIs to the new [Swagger 2.0 API definition format](http://swagger.io/). I was already using an older version of Swagger, so the migration wasn’t too difficult. I have about five new APIs I want to roll out over the next couple weeks, and I wanted them to up to date, using the latest version, so moving forward my knowledge using my existing APIs was the best way to prepare.
 
 I moved forward the five "[core APIs](http://developer.apievangelist.com/core-apis.html)", as I call them, analysis, APIs, building blocks, curated, and tools, to all use Swagger 2.0. These APIs provide access to my monitoring system I use to keep track of the space. I also migrated two of my "[stack APIs](http://developer.apievangelist.com/stack-apis.html)", i[mage manipulation](http://image.manipulation.apievangelist.com/), and [screen capture](http://screen-capture.apievangelist.com/), which are designed to be general purpose, utility APIs  I use across my platform.

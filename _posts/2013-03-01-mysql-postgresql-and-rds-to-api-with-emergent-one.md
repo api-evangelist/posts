@@ -8,8 +8,6 @@ author:
 tags:
   - My
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/emergent-one/emergent-one-logo-horizontal.png)](http://www.emergentone.com/)
-
 There are numerous companies, with existing IT infrastructure, who are looking to deploy APIs in 2013. These companies will be deploying APIs using their existing technology teams, or depending on one of the [17 API management service providers](/serviceproviders/) available.
 
 This market is ripe for the [3Scale's](http://3scale.net "3Scale") of the world to provide valuable services to, but for many companies, organizations and government agencies who need to deploy APIs this year, API deployment will be about taking an existing database or multiple databases, and open them up to the public, partners, 3rd party developers or possibly just provide access to a remote department or branch of their company in the easiest way possible.

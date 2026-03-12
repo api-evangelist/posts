@@ -11,8 +11,6 @@ tags:
   - Evangelism
   - Awareness
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/data-gov/Datagov.png)](https://explore.data.gov/ "Data.gov")
-
 I just finished a four week roadshow that included three [Startup Weekend](http://startupweekend.org/ "Startup Weekend") EDU events -- one in Seattle, one in San Francisco and one in Washington DC -- as well as two versions of the [Business of APIs conferences](http://apiconference.com/ "Business of APIs Conference") -- one in San Francisco and one in New York City.
 
 It might not seem at first glance that these events had much in common. During the Startup Weekends, business people, teachers and developers rallied to build startups that focused on solving problems in education, while the Business of APIs conferences showcased businesses telling their stories about how opening up data and APIs have transformed them and made them more competitive within their respective industries.

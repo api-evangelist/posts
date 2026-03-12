@@ -7,8 +7,6 @@ author:
 tags:
   - API Commons
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-logo.png)](http://apicommons.org/)
-
 As I travel around talking to folks about APIs, I spend as much time as I can educating folks about [API Commons](http://apicommons.org/), and I’m constantly reminded how little people, who have even heard, and read about API Commons, really understand what it is. With this in mind, I will be regularly publishing examples of what API Commons is, to help onboard everyone to mine and Steve's ([@njyx](https://twitter.com/njyx)) vision of API Commons.
 
 API Commons is a machine readable pointer to the license of your API. As I talk with folks, and watch [videos like this one at APICon in UK](https://www.youtube.com/watch?v=FJ3-yFWYtrk), I realize how many misconceptions there are about it. Many folks emphasize the Creative Commons license we’ve chosen, or the listing of APIs we’ve had added to our version of the commons, by publishing an API Commons manifest, which references a CC-BY or CC0 license.

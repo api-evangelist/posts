@@ -9,8 +9,6 @@ tags:
   - Power
   - Feedback
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/practice-fusion-logo.jpg)](http://www.practicefusion.com/)
-
 One of the benefits of doing an API, is so that you can take advantage of the potential for a community feedback loop, driven by internal groups, external partners, and even in some cases the pubic. Under [my API management research, you can find a number of building blocks I recommend for helping power your feedback loop](http://management.apievangelist.com/), but sometimes I like to just showcase examples of this in the wild, to show how it all can work.
 
 I was reading the [Letter from our co-founder: 2016 Product vision](http://www.practicefusion.com/blog/2016-product-vision/), from [Electronic Health Record (EHR) provider Practice Fusion](http://www.practicefusion.com), and I thought the heart of the blog post, represented a well functioning feedback loop. As Practice Fusion looked back over 2015, they noted the following activity:

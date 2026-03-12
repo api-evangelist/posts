@@ -10,8 +10,6 @@ tags:
   - Legal
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/validic/validic-logo.png)](https://validic.com/)
-
 I was taking a look at a new healthcare API recently, adding it to my stack, for deeper review at a later date. Whenever I add a company to my monitoring and review system, I go through the site to make sure they have some of the characteristics of a modern API. I am not interested in many of the APIs that I come across that are older web services, or just poorly done APIs. I want to make sure APIs have self-service registration, some web API characteristics, code libraries, support, and a minimum viable set of building blocks.
 
 [The API I was looking at is Validic, which bills itself as a "Digital Health Platform"](https://validic.com/). I'm coming across a number of new API driven, healthcare platforms, like Validic lately. As I was adding it to my database I noticed the legal section in the footer, which had five elements: 

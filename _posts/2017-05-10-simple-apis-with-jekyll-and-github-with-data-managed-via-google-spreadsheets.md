@@ -13,8 +13,6 @@ tags:
   - APIs
   - Git
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_toolbox_home_page.png)](http://openapi.toolbox.apievangelist.com/)
-
 I'm always looking for simpler, and cheaper ways of doing APIs that can help anyone easily manage data while making it available in both a human and machine readable way--preferably something developers and non-developers both will find useful. I've pushed forward my use of Github when it comes to managing simple datasets, and have a new approach I want to share, and potentially use across other projects.
 
 [You can find a working example of this in action with my OpenAPI Toolbox](http://openapi.toolbox.apievangelist.com/), where I'm looking to manage and share a listing of tooling that is built on top of the [OpenAPI specification](http://openapis.org). Like the rest of my API research, I am looking manage the data in a simple and cheap way that I can offload the storage, compute, and bandwidth to other providers, preferably ones that don't cost me a dime. While not a solution that would work in every API scenario, I am pretty happy with the formula I've come up with for my OpenAPI Toolbox.

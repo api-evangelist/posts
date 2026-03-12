@@ -6,7 +6,7 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/meetup.png)](http://www.meetup.com)Events are definitely one of the most important tools in an [API Evangelist's](http://www.apievangelist.com) tool box.
+Events are definitely one of the most important tools in an [API Evangelist's](http://www.apievangelist.com) tool box.
 
 Making a regular showing at popular events both on and offline is critical to building the awareness and the trust of the development community.
 

@@ -9,8 +9,6 @@ tags:
   - Deployment
   - Documentation
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-interactive-api-docs.png)](http://developer.apievangelist.com/core-apis.html)
-
 I was having a Twitter conversation with John Sheehan([@johnsheehan](https://twitter.com/johnsheehan)) about the easiest way to generate interactive API documentation this weekend, without getting all tangled up in having to get into the weeds of [Swagger UI](https://github.com/swagger-api/swagger-ui). I love me some Swagger UI, something I think has transformed how we engage with APIs, but the JavaScript for it can be inaccessible, and difficult to customize--to say the least.
 
 There are other UI solutions to API documentation, projects like [Slate from Tripit](https://github.com/tripit/slate), from [Readme.io](https://readme.io/), and some cool [UI stuff over at OpenFDA](http://apievangelist.com/2014/06/17/adding-data-visualization-layer-to-interactive-api-documentation/), but really I haven’t seen much evolution beyond Swagger UI. Sure, [Apiary.io](http://apiary.io) has a great UI, but it isn’t the portable, customizable vision I have in my head (they are working on this, BTW). I [envision a whole gallery of simple, UI templates that you can choose from](http://apievangelist.com/2014/10/24/someone-please-build-my-open-interactive-portable-and-visual-api-documentation-toolkit/), driven by machine readable [Swagger](http://swagger.io/) or [API Blueprint](https://apiblueprint.org/) API definitions.

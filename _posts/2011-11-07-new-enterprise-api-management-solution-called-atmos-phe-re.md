@@ -11,8 +11,6 @@ tags:
   - API Management
   - Enterprise
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-service-providers/soa/atmosphere-logo-1.png)](http://atmos.phe.re/ "Atmosphere API Management")
-
 I first reported on service oriented architecture (SOA) pioneer [SOA Software’s](http://www.soa.com/) entry into the API management arena [back in June](http://www.apievangelist.com/2011/06/17/atmosphere-a-new-api-management-portal/), today at the Cloud Computing Expo in Santa Clara, CA they are announcing the beta release of their enterprise API management solution called [Atmos.phe.re](http://atmos.phe.re/ "Atmosphere API Management").
 
 SOA has taken their enterprise API management solution, and bundled it with many of the features we are growing accustomed to within open API ecosystems, and deployed as a new solution with a focus on community.

@@ -10,8 +10,6 @@ tags:
   - Speaking
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/educon-2014/educon.jpg)](http://educonphilly.org/)
-
 I'm heading to Philly this week, to participate in a [panel on Openness: Should We Create a More Transparent World](http://educonphilly.org/schedule/Openness-Should_We_Create_a_More_Transparent_World), at the Franklin Institute, as part of [EduCon](http://educonphilly.org/).
 
 The panel will run from 6-8PM, and include:

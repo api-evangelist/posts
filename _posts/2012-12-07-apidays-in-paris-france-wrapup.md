@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-days-paris-france/api-days-logo.png)](http://apidays.io/)
-
 I got back last night from France, where I spent the week at the #APIDays conference, billed as the first international event on APIs in Europe. The two day event was organized by [faberNovel](http://www.fabernovel.com/en/ "FaberNovel"), who helps large organizations think and act like startups, and by[WebShell](http://webshell.io/ "Webshell"), who enables developers to easily make advanced web and mobile applications based on APIs
 
 After some scheduling shuffling due to speaker cancellations API Days asked me if I’d do three talks on APIs, instead of just my one--resulting in these three presentations:

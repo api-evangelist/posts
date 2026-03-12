@@ -13,8 +13,6 @@ tags:
   - Code
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/salesforce/salesforce-code-share.png)](http://developer.force.com/codeshare/apex/resultspage?l=mru&title=All%20Projects "code share")
-
 Salesforce has a pretty cool [Code Share](http://developer.force.com/codeshare/apex/resultspage?l=mru&title=All%20Projects "code share") area within the DeveloperForce ecosystem, which allows developers to share code snippets with the rest of the community.
 
 Its a pretty cool way for anyone to share their techniques as code samples in a variety of languages, then letting the community vet the code, fork larger projects, and collaborate to improve the code for the greater good.

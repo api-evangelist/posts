@@ -8,8 +8,6 @@ author:
 tags:
   - Business
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-days-paris-france/api-days-logo.png)](http://apidays.io/)
-
 The organizers of [APIs Days](http://apidays.io/) asked me at the last moment if I'd like to do a third talk at the European API event, due to last minute cancellations.  Of course, I jumped on the opportunity to generate to material and work through it in front of a live audience.  
 
 The talk was on [business models for your API as a start-up](/admin/blog/Business Models For Your API as a Start-Up).  On the plane ride over I reviewed [John Musser's great material on API business models](http://www.slideshare.net/jmusser/j-musser-apishotnotgluecon2012), and prepared a walk through, from a startup's perspective.  

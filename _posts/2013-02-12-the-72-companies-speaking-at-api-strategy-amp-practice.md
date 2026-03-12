@@ -10,8 +10,6 @@ tags:
   - Strategy
   - Speaking
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-practice-event-2.png)](http://www.apistrategyconference.com/)
-
 The [API Strategy & Practice Conference](http://www.apistrategyconference.com/) is happening next week in NYC. I have had so much fun pulling together the schedule of keynotes, panels, sessions and the talks on the 429 - Too Many Requests stage.  
 
 The number of requests we've received for sponsoring, speaking and attending has been overhelming.  Resulting in a sold out conference, and an amazing lineup of speakers.  I was spending some time tidying up the speakers page and sponsor page today, and was so impressed with the companies involved, I had to share.

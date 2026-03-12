@@ -13,8 +13,6 @@ tags:
   - Tools
   - Swagger
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apitools/apitools-logo.png)](https://www.apitools.com/)
-
 [APITools](https://www.apitools.com/) is a simple, [open source](https://github.com/APItools/monitor), API middleware that allows you to “track, transform and analyze the traffic between your app and the APIs”. With just a few clicks you can proxy any API you use, and when you make calls through the proxy, you get a bunch of valuable information in return.
 
 One thing APITools does, that is extremely valuable to me, is it generates Swagger definitions, mapping out the surface area of an API, with each call I make. These API definitions have a wide variety of uses for me, ranging from better understanding the API designs of popular services, to providing API search services through open API search engines like [APIs.io](http://apis.io).

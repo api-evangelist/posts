@@ -11,7 +11,7 @@ tags:
   - Amazon Web Services
   - Services
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/AWS_LOGO_CMYK.jpg)](http://aws.amazon.com/ec2/)[Amazon Web Services (AWS) changed up its premium support offerings](http://aws.typepad.com/aws/2011/01/aws-premium-support-lower-prices-and-new-plans.html), introducing two new support plans:
+[Amazon Web Services (AWS) changed up its premium support offerings](http://aws.typepad.com/aws/2011/01/aws-premium-support-lower-prices-and-new-plans.html), introducing two new support plans:
 
 *   [**Bronze Plan**](http://aws.amazon.com/premiumsupport/) - The Bronze Plan is meant for developers at $49.00 / month.
 *   [**Platinum Plan**](http://aws.amazon.com/premiumsupport/) - The Platinum Plan is meant for enterprise customers is 10% of AWS usage with a 15K monthly minimum.

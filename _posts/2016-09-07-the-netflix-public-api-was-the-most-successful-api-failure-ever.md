@@ -8,8 +8,6 @@ tags:
   - Public
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/netflix-api-architecture-1.jpg)](http://techblog.netflix.com/2016/08/engineering-trade-offs-and-netflix-api.html)
-
 I have written about the [continuing Netflix API story over the years](http://apievangelist.com/2013/07/02/the-continuing-netflix-api-story/), which despite shuttering their public API, is an API effort that just keeps giving to the public. It is an API story that better reflects the reality of APIs, not the bullshit version you often get from the tech sector, and in my opinion is the most successful public API failure of all times--definitely one of the API stories I'll catalog in my [history of APIs](http://history.apievangelist.com/).
 
 Netflix's recent story about the [engineering trade-offs and the Netflix API re-architecture](http://techblog.netflix.com/2016/08/engineering-trade-offs-and-netflix-api.html) was just the latest reminder of how transparent Netflix is with their API operations, even though they do not have a public API--shifting the traditional discussions around open vs. closed APIs. Netflix has been sharing the story of their API operations like they were available to the public, even going as far as [open sourcing much of the technology behind their operations](http://apievangelist.com/2013/03/12/netflix-api-is-much-more-than-a-public-api/).

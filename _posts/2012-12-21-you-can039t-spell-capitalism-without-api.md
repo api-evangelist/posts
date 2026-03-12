@@ -9,8 +9,6 @@ author:
 tags:
   - Capitalism
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/140-proof/you-cant-spell-capitalism-without-api.jpg)](https://www.flickr.com/photos/140proof/8226540780/)
-
 I like a good API shirt.  If you've ever seen me in person you've seen my API Evangelist shirt(s).  At least you guys hope its multiple shirts, otherwise...ewwwee!
 
 I recently started a new design - my [Che P.I. t-shirt.](/2012/12/13/get-my-new-che-p.i.-shirts/)  

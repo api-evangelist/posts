@@ -6,8 +6,6 @@ tags:
   - Business
   - Strategy
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-business-of-apis.png)](http://small-business-api-strategy.apievangelist.com/)
-
 [I've been moving forward with my efforts to better on-board folks with the sometimes overwhelming amounts of research available via API Evangelist](http://apievangelist.com/2016/02/15/all-this-information-is-great-but-where-do-i-start-with-my-api-strategy/). I have several groups looking for guidance on where to start with their strategy, as well as develop some lower level tactical approaches to propelling themselves forward in their API journey. [I recently posted a master list of my essential building blocks across, 20+ areas of my research](http://apievangelist.com/2016/01/18/taking-a-snapshot-of-just-the-essential-api-building-blocks-across-my-research/), and now I'm [distilling these into a single project to help me move forward as one potential operational API strategy for a small businesses](http://small-business-api-strategy.apievangelist.com/).
 
 First i took the almost [1000 building blocks I've organized across my areas of API research](http://apievangelist.com), and added a question for each, which simply asks where things are with each of these potential considerations along the API life cycle. For this particular small business API strategy, I've opted to include discovery, definitions, design, hypermedia, DNS, deployment, virtualization, containers, management, documentation, SDK, embeddable, real time, webhooks, support, monitoring, testing, road map, authentication, security, terms of service, privacy, licensing, branding, monetization, plans, partners, and evangelism, covering 28 areas of the API life cycle that would be relevant to a small business.

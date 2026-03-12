@@ -11,8 +11,6 @@ tags:
   - Lifecycle
   - Vision
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/talks/november-2015/subway-map-15.png)](http://apievangelist.com/2015/11/29/the-api-lifecycle-my-talk-from-defrag-and-apistrat/)
-
 I have been learning about hypermedia over the last three years now, and only earlier this year, [I began playing with Siren to help me craft a better experience around my API industry news and link curation API](http://apievangelist.com/2015/05/11/applying-a-little-hypermedia-is-helping-me-tighten-down-my-api-design-and-tell-a-better-api-story/). My motivations in going down this hypermedia road was never about easing my client side pain, or helping me with future versions of my API--I am just not that sophisticated of an operation.
 
 I started playing with hypermedia to help evolve the experience around the API news I was curating each week, making it so you could browse week by week, month by month, but also by topic, company, author, etc. I'm still trying to figure it out all out, and honestly the project is currently in the ditch after hitting the wall this fall, and not really giving a shit about the flow of API news. (I am better now, thx!)

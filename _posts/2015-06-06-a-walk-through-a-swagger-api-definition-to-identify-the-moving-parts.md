@@ -9,8 +9,6 @@ tags:
   - Definition
   - Swagger
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-walkthrough.png)](http://swagger.apievangelist.com/walk-through.html)
-
 I recently added a new tool to my hacker storytelling toolbox, that allows me to easily assemble walk through, that help me guide my readers through a scripted series of steps around any of my research areas. [I first did it to walk through what I'd consider to be my minimum viable developer portal](http://api-portal.apievangelist.com/), and now I decided to [apply to my Swagger research](http://swagger.apievangelist.com/).
 
 I am working on a set of APIs that help me quantify whether a Swagger definition is "complete" or not, to help me tackle my goals around [my API Stack research](http://theapistack.com/), and establish a rich set of complete, open API definitions that the community can put to use. What better way to quantify all the moving parts of Swagger, than to actually create a 101 walk through of its moving parts. 

@@ -6,8 +6,6 @@ image: >-
 atomdate: 2016-09-12T22:00:00.000Z
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_09_12_at_9.18.25_am.png)](https://cloudplatform.googleblog.com/2016/09/Google-to-acquire-apigee.html)
-
 The news came in late last week that [Google was acquiring API management pioneer Apigee](https://cloudplatform.googleblog.com/2016/09/Google-to-acquire-apigee.html). The news caught me by surprise. I thought if there was still going to be an acquisition of Apigee that it would come from their flagship client AT&T or from other giants like IBM. While it was surprising, seconds after hearing it, the acquisition made total sense, and I think it just reflects the increased usage of APIs by businesses of all shapes and sizes.
 
 As I wrote about last week, [we are entering a very boring and business age of APIs](http://apievangelist.com/2016/09/09/prepare-for-the-more-boring-and-very-business-age-of-apis/). My point is not that it will all be boring (as some of Twitter folks responded without reading), it is that it will be too boring for the Silicon Valley hype machine. It is like 2003 for the web, where all businesses were realizing that serving up HTML on the web was essential, but in 2016 it is now also about serving up JSON for use in web, mobile, and device-based applications--Google is wisely looking for a piece of this action.

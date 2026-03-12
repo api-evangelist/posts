@@ -11,8 +11,6 @@ tags:
   - APIs
   - Platforms
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/instagram/instaDM-logo.png)](http://insta.dm/)
-
 There is an interesting [post on the Parse blog](http://blog.parse.com/2013/02/01/instadm-brings-private-messaging-to-instagram/) about [instaDM](http://insta.dm/), which is a service built using Parse, the [BaaS platform](/trends/baas.php), that provides private messaging in the Instagram ecosystem.
 
 This is a very interesting approach to externally developing features for another platform or service. I think Parse says it well:

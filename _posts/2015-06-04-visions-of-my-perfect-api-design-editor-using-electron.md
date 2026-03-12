@@ -11,8 +11,6 @@ tags:
   - Editor
   - Vision
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/electron/electron-editor.png)](http://electron.atom.io/)
-
 Darrel Miller([@darrel\_miller](https://twitter.com/darrel_miller)) reminded me of the [desktop development platform Electron](http://electron.atom.io/) the other day, with his story on [Moving Beyond the Browser with JavaScript and Hypermedia](http://blog.runscope.com/posts/moving-beyond-the-browser-with-javascript-and-hypermedia). I had been eyeballing Electron as a potential candidate for [my perfect API design editor](http://apievangelist.com/2014/06/25/if-i-could-design-my-perfect-api-design-editor/), something I honestly don't have the bandwidth to build, but is something I enjoy pushing forward in thought.
 
 If you aren't familiar with [Electron](http://electron.atom.io/), it is what powers popular desktop version of the apps that I use most--Github, and Slack. The open source desktop framework, developed and maintained Github, allows you to deliver simple, easy to maintain desktop experiences, using HTML, CSS, and JavaScript--powered by Chromium and Node.js. Electron is appealing to me because it allows me to use the tech that I am most fluent in, to deliver high quality desktop apps, but also as Darrel mentions in his story, it has the potential to improve on the quality of JavaScript apps we build--giving us C grade JavaScript people a framework to live within. ;-)

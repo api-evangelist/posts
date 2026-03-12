@@ -10,8 +10,6 @@ tags:
   - Internal
   - Developers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apis-io/apis-io.png)](http://apis.io)
-
 I’ve talked about how the [open source API search engine APIs.io](http://apievangelist.com/2014/07/03/an-open-source-distributed-api-evangelist-engine/) can be deployed as an [internal API search engine](http://apievangelist.com/2014/08/19/an-apisjson-collection-of-api-resources-across-your-public-partner-or-internal-resources/), as well as for public API discovery in the past. One aspect of this approach that I can’t emphasize enough, is that the search engine doesn’t just return APIs in the search results, it can [provide access to supporting building blocks](http://apisjson.org/2014/07/09/the-power-in-api-discovery-for-apisjson-will-be-in-the-api-url-type/) as well.
 
 The [APIs.json format](http://apisjson.org/) doesn't just provide a machine readable way to describe, and index your APIs, it also provides a way to describe the [building blocks that support your APIs like code samples, SDKs](http://management.apievangelist.com/building-blocks.html), and other things API consumers will need when putting APIs to work for them.

@@ -10,8 +10,6 @@ tags:
   - Open
   - Feedback
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/oai_silverbadge_text.png)](https://www.openapis.org/specification/v3implementations-form)
-
 When you are an individual in a sea of tech giants, and startups who are moving technical conversations forward, it can be easy to just sit back, stay quiet, and go with the flow. As a single person, it feels like our voice will not be heard, or even listened to when it comes to moving forward standards and specifications like the [OpenAPI](http://openapis.org), but in reality, every single voice that speaks up is important, and has the potential to bring a new perspective regarding what the future should hold when it comes to the roadmap.
 
 If you are building any services or tooling that supports version 2.0 of the OpenAPI specification and will be looking to evolve your services or tooling to support version 3.0, you need to make sure and share your views. No matter where you are in the development of your tooling, planning or even deployment, you should make sure you gather and share your thoughts with the [OpenAPI Initiative (OAI)](http://openapis.org)\--[they have a form for tooling developers to submit their feedback and details about what you are up](https://www.openapis.org/specification/v3implementations-form) to.

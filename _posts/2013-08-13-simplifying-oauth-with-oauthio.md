@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/oauth-io/oauth-io-gear.png)](https://oauth.io/)
-
 Securely accessing API with oAuth can be one of the bigger pains in the ass for developers. Poor understanding of how oAuth works and often lack of good client libraries, can make API authentication a hurdle developers can't jump over.
 
 Now developers don't have to stress out over oAuth. The tech savvy team over at [Webshell.io](http://webshell.io/ "Webshell.io") has created a dead simple oAuth solution that allows you to integrate with over 70 of the common API providers, with just three lines of JavaScript, called [oAuth.io](https://oauth.io/).

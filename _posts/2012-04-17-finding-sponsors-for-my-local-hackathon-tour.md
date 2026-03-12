@@ -8,8 +8,6 @@ author:
 tags:
   - Sponsors
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/events/citygrid-la-hackathon/citygrid-los-angeles.png)](http://citygridhackathonla.eventbrite.com/)
-
 I’m currently planning a 9 city hackathon tour, starting with the [CityGrid Los Angeles Hackathon](http://citygridhackathonla.eventbrite.com/), and following up with Seattle, San Francisco, Chicago, Boston, NYC, Baltimore, New Orleans, and Austin.
 
 The CityGrid Hackathon tour is meant to bring together commercial and civic hackers to build the next generation of apps we use in our everyday "local" lives.

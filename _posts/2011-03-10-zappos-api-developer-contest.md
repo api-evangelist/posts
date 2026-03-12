@@ -6,7 +6,7 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/zappos.png)](http://www.zappos.com/ "Zappos")[Zappos has announced an API developer contes](http://developer.zappos.com/blog/first-zappos-developer-contest "Zappos API Developer Contest")t called the Zappos API Developer Challenge-palooza-athon.
+[Zappos has announced an API developer contes](http://developer.zappos.com/blog/first-zappos-developer-contest "Zappos API Developer Contest")t called the Zappos API Developer Challenge-palooza-athon.
 
 They are looking for web applications, mobile apps, or even a simple widget that is built with the Zappos API.
 

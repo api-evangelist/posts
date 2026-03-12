@@ -8,8 +8,6 @@ author:
 tags:
   - Web
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/webscript/webscript-io-logo.png)](https://webscript.io/)
-
 While [I was at API Days this weekend in San Francisco](http://www.apievangelist.com/2013/06/23/a-great-time-at-api-days-san-francisco/), I managed to catch a handful of talks Saturday afternoon after I landed at OAK. While listening to each talk, I kept hearing one technical API building block, over and over--[webhook](http://en.wikipedia.org/wiki/Webhook).
 
 Webhooks are a common way for API providers to make API integration a two ways street for consumer. Developers, or even non-developers, can setup webhooks via common API platforms, and receive notifications about different events and activities that occur.

@@ -8,8 +8,6 @@ tags:
   - Email
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-email.png)](/admin/blog/)
-
 Most organization I’ve worked with, the Excel spreadsheet is the central way of storing, managing and sharing data, with email being the number one way to share these data filled documents. When I was doing data inventory at the Department of Veteran Affairs (VA), as part of the White House open data initiative, almost every piece of high value data I found was housed in a spreadsheet, and the data stewards who were in charge of this data, would email it to me when I asked for it.
 
 To help data stewards go from spreadsheet to API, I [wrote an Excel to JSON converter](https://github.com/kinlane/email-xlsx-to-csv-json-xml), that was available via a private email address. All you had to do to convert a spreadsheet, was create a new email, attach your spreadsheet to the email, then send it to the specific address, and when it was done processing, you’d get an email in response, with links to a CSV, XML, and JSON version of the spreadsheet—unless it was a super complex spreadsheet of course, but this wasn’t our target.

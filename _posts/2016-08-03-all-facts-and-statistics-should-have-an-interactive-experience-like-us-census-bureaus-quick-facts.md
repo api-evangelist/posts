@@ -11,8 +11,6 @@ tags:
   - Statistics
   - Experience
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/us-census-tools.png)](http://www.census.gov/quickfacts/dashboard/SEX255215/45,32)
-
 I wish every time you came across facts and statistics in any news story, blog post, report, and beyond, there would be an interactive experience like you get with [the US Census Bureau's QuickFacts tool](http://www.census.gov/quickfacts/dashboard/SEX255215/45,32). 
 
 QuickFacts provides statistics for all states and counties, and for cities and towns with a population of 5,000 or more, and provides everything I think you need to make the case behind any facts and statistics you are presenting.

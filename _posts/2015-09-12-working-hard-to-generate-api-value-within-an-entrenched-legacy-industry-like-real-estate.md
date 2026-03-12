@@ -12,8 +12,6 @@ tags:
   - Legacy
   - Value
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/idx-summit-logo.png)](http://learn-more.idxbroker.com/developer-summit/)
-
 [I preparing a talk this week in Portland, OR, at the IDX Developer Summit](http://learn-more.idxbroker.com/developer-summit/). IDX serves the real estate industry, providing real estate professionals access to hundreds of [multiple listing services (MLS)](https://en.wikipedia.org/wiki/Multiple_listing_service) groups, from around the United States. If you are a real estate broker or agent, and you need real estate listings on your site, IDX is how you do this--they are leading player in the space.
 
 If you aren't familiar with the world of real estate data, it has been long controlled by a network of MLS groups, totaling almost 2000 (I think), spread around the nation. These MLS organizations tightly control their data, deciding exactly who has access to it, and exactly how it can be used, and how it MUST be displayed in print and across the web. This is a process that has long existed, prior to the existence of the web, but since 1995, it is mechanism that has gotten even more strict, and litigious, seeking to maintain their control over a very valuable, and increasingly digital layer of our physical worlds. 

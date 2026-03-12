@@ -11,8 +11,6 @@ tags:
   - Integrations
   - Platforms
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/hall/hall-api-integrations.png)](https://hall.com/docs/integrations)
-
 I saw two tweets from Zapier the other day, where they were highlighting two separate SaaS platforms, who had integrated Zapier into their own platform. Both [Gumroad](http://help.gumroad.com/customer/portal/articles/1579321-integrations) and [Hall](https://hall.com/docs/integrations) took the time to highlight the other platforms they are integrated with. I think there are a couple of interesting items in these stories…
 
 **Zapier & IFTTT Integration**  

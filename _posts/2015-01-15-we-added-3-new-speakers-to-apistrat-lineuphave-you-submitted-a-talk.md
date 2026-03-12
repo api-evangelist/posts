@@ -8,8 +8,6 @@ author:
 tags:
   - APIStrat
 ---
-[![](http://berlin.2015.apistrat.laneworks.net/wp-content/uploads/2014/11/apistrat-apidays-logo2.png)](http://apistrat.com)
-
 We just added [three new speakers to the lineup for @APIStrat Berlin this April 24th and 25th](http://apidaysberlin2015.apistrat.com/picking-up-momentum-in-2015-for-apistrat-berlin-with-3-new-speakers/). I get pretty excited about this part of the event planning lifecycle, which is all about reviewing talks that being submitted, and working with the rest of the APIStrat, and now the API Days team, to develop the best lineup possible.
 
 Here are the three that we added today:

@@ -10,8 +10,6 @@ tags:
   - APIs
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_visual_studio_ide_apidiscovery.png)](https://cloud.google.com/tools/visual-studio/docs/find-library)
-
 I'm always learning from the API pioneers, and trying to understand how they are pushing forward the API conversation. I'm neck deep in [profiling AWS APIs](http://amazon.web.services.stack.network/), as well as G[oogle APIs](http://google.stack.network/). One common pattern I'm seeing across both providers is the support for API access in both Visual Studio and Eclipse IDEs. 
 
 Google is helping developers find APIs within both of the leading IDE platforms. They have long had some [Eclipse plugins for their API infrastructure](ttps://cloud.google.com/eclipse/docs/), but I recently noticed [they also have a pretty robust solution for Visual Studio developers](https://cloud.google.com/tools/visual-studio/docs/find-library). The Google APIs .NET library is made available in Visual Studio using the NuGet package manager, opening up access to a significant portion of their API stack.

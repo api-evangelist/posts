@@ -8,8 +8,6 @@ tags:
   - Licensing
   - Objects
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-terms-of-use.png)](http://terms-of-service.apievangelist.com/)
-
 I find myself thinking about what the terms of service we agree to for online services are doing to our lives. Whether we see the effects or not, they are guiding almost everything we do in our personal and professional worlds. They are something that began on our desktop computers, migrated to our more mobile laptops, then deeper into our personal lives via our mobile smartphones.
 
 We rarely understand what we are agreeing to when we check the box for these terms of service, which leaves me really surprised to see us accept the application of terms of service to everyday objects we depend on, as part of the Internet of Things movement. As physical objects in our lives get connected to the Internet, they begin to generate valuable data, requiring software to manage--all being directed by the terms of service set forth by the manufacturer. 

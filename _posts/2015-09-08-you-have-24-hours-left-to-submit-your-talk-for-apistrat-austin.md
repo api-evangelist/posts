@@ -9,8 +9,6 @@ tags:
   - APIStrat
   - 4
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-talk.jpg)](http://austin2015.apistrat.com/call-for-papers/)
-
 [There is a little more than 24 hours left for you to submit your talk for APIStrat in Austin, TX, this November 18th, 19th, and 20th](http://austin2015.apistrat.com/call-for-papers/). With this sixth edition of APIStrat, we are taking things back to our roots, and not choosing a theme, but making it a conversation about the most important topics in the space facing API providers and consumers in 2015. 
 
 From looking at the talks that have been submitted so far, API definitions, design, and Internet of Things seems to be leading the pack. We've also seen a couple session talk submissions that we think are probably more worthy of being keynotes, because they are just that good.

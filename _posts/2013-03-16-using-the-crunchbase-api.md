@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/crunchbase/crunchbase-logo.png)](http://developer.crunchbase.com/)
-
 [Audrey](http://hackeducation.com/) came to me last night and said she had a project that she wanted to tackle, using the [CrunchBase API](http://developer.crunchbase.com/). She wanted to pull a list of education startups that were founded in 2010-2012, showing their investments, CEO, founders and other related company information.
 
 A couple weeks ago, I helped Audrey download a PHP Twitter bot, reverse engineer and make it work for an objective she had around Tweeting random responses to a certain type of tweet. I figured she was ready to see what it took to hack on an API and get the research data she needed.

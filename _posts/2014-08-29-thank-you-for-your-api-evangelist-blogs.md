@@ -10,8 +10,6 @@ tags:
   - Blog
   - Evangelist
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/saswat-anand.jpg)](https://www.linkedin.com/in/saswatanand)
-
 I get quite a few nice comments about my blog(s) behind the scenes. Many are from the enterprise or insttutions, where I know I could never get away with publishing publicly. As the APi space has heated up in 2014, more people are trying to make sense of this API mayhem, and ultimately they come across my blog, and find  valuable information that really helps them in their journey.
 
 I have been considering adding a page, listing some of the kind words I get from folks--maybe I will someday, but today I received a nice email, one I couldn't help but ask if I could repost--so here is a nice message from [Saswat Anand](https://www.linkedin.com/in/saswatanand):

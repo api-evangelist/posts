@@ -8,8 +8,6 @@ author:
 tags:
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/brigham-young-university.jpeg)](https://developer.byu.edu/wiki/display/SOA/Web+Services+Programmer+Documentation)
-
 I’ve been tracking on [education](http://education.apievangelist.com/ "education APIs") and [university](http://university.apievangelist.com/ "university APIs") APIs for a while now, but after kicking off some work on the [FAFSA API prototype](http://ed-data.github.io/fafsa-api/), and preparing a response for to the [request for information (RFI) on the use of APIs in higher education data and student aid process](https://www.federalregister.gov/articles/2014/04/16/2014-08649/request-for-information-on-the-use-of-apis-in-higher-education-data-and-student-aid-processes), I'm ramping up the time I’m spending on education related APIs.
 
 APIs in higher education is also one of the areas [3Scale](http://bit.ly/13esk6Q) and API Evangelist are partnering, to help define what the API landscape looks like across higher education institutions, and as I do with other business sectors, we are looking to stimulate the API conversation amongst existing leaders from the space—online, and offline at as many events as we can.

@@ -9,8 +9,6 @@ tags:
   - API Commons
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-logo.png)](http://apicommons.org)
-
 Steve Willmott([@njyx](https://twitter.com/njyx)) from API infrastructure provider [3Scale](http://3scale.net "API infrastructure provider") and API Evangelist launched a new partner project yesterday at [Defrag](http://defragcon.com/), that we are calling [API Commons](http://apicommons.org). The mission with API commons is to provide a simple and transparent mechanism for the copyright free sharing and collaborative design of API specifications, interfaces and data models.
 
 For a space that is about open access and interoperability the API industry has been very closed about their API designs, and after [helping the EFF urge the courts to block copyright claims in the Oracle v. Google API fight](http://apievangelist.com/2013/06/02/helping-eff-urge-the-courts-to-block-copyright-claims-in-oracle-v-google-api-fight/), Steve and I thought it would be a good idea to introduce an API commons that would help put the "open" into API designs and data models, and back into the API space in gernal.

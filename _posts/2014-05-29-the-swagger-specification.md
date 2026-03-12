@@ -8,8 +8,6 @@ author:
 tags:
   - Swagger
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/Swagger-Logo.png)](http://swagger.wordnik.com/)
-
 _This post is an exact copy from the [Swagger specification page](https://github.com/wordnik/swagger-spec), on the Swagger Github project. As I was reviewing the latest Swagger 2.0 release, I read this descripton, and I really felt it caputred not ust the mission of Swagger, but spoke to the essence of API design. With this in mind I wanted to re-post, as part of my ongoing coverage of the API design space._ 
 
 The goal of Swagger™ is to define a standard, language-agnostic interface to REST APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined via Swagger, a consumer can understand and interact with the remote service with a minimal amount of implementation logic. Similar to what interfaces have done for lower-level programming, Swager removes the guesswork in calling the service.

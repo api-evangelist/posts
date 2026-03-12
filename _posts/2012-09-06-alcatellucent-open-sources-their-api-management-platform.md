@@ -12,8 +12,6 @@ tags:
   - Platform
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/alcatel-lucent/alcatel-logo-2.jpeg)](http://www.alcatel-lucent.com/wps/portal)
-
 Following the [creative commons release of their API lifecycle methodology](http://techcrunch.com/2012/08/16/alcatel-lucent-creates-methodology-for-apis-and-makes-available-under-creative-commons/ "creative commons release of their API lifecycle methodology"), telco API service provider [Alcatel-Lucent has open sourced the “underpinnings” of their Open API Platform](http://apigrove.net/the-first-step-welcome/ "Alcatel-Lucent open sourced the “underpinnings” of their Open API Platform")(OAP).
 
 The API management capabilities in OAP are being released under the name [apiGrove](http://apigrove.net/ "apiGrove"). According to Alcatel-Lucent’s methodology there are four major components to API infrastructure:

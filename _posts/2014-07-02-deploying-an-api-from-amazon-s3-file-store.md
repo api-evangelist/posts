@@ -8,8 +8,6 @@ tags:
   - Amazon S3
   - Amazon
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/amazon/Amazon_S3_Site.png)](http://bit.ly/1sgwGpq)
-
 I'm spending a lot of time updating my [API deployment research](http://deployment.apievangelist.com "API Deployment") lately, making sure it reflects what is truly going on out there in the space. In addition to tracking on legacy approaches to API deployment like enterprise API gateways, or using an open-source API frameworks, I am also trying to understand the realities of scraping data for deployment of APIs, and new solutions from API platforms like [APISpark](http://bit.ly/1sgwGpq), [StrongLoop](http://bit.ly/1jLr1Pf), [Orchestrate.io](http://bit.ly/1wWkDwH), and [Import.io](http://bit.ly/1pKwOg9).
 
 When it comes to the realities of deploying an API, your data or content sources is likely to come from a myriad of file stores, databases, and other systems, and I’m looking to explore as many of the as I possibly can. Todays exploration is focused on deploying an API, using Amazon S3 as a file store. I use Amazon S3 for all my heavy object storage which includes images, PDFs, XML, JSON and CSV data stores—it makes sense that someone companies would want to deploy APIs using their Amazon S3 stores.

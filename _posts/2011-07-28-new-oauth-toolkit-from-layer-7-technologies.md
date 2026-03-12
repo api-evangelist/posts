@@ -7,7 +7,7 @@ author:
 tags:
   - OAuth
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/OAuth.png)](http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=184 "OAuth")[Layer 7 Technologies](http://www.layer7tech.com/ "Layer 7 Technologies") introduced a new [OAuth Toolkit](http://www.layer7tech.com/products/oauth-toolkit "OAuth Toolkit"), ageneralized framework for handling a broad range of OAuth scenarios across cloud, web and mobile applications.
+[Layer 7 Technologies](http://www.layer7tech.com/ "Layer 7 Technologies") introduced a new [OAuth Toolkit](http://www.layer7tech.com/products/oauth-toolkit "OAuth Toolkit"), ageneralized framework for handling a broad range of OAuth scenarios across cloud, web and mobile applications.
 
 [OAuth](http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=184 "OAuth") is a simple way to publish and interact with protected data, and is a popular method to allow secure API authorization, enabling websites to provide a more streamlined user login experience with the additional benefits of enhanced privacy and security.kinlane-productions2.s3.amazonaws.com
 

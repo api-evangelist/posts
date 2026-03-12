@@ -6,8 +6,6 @@ image: >-
 tags:
   - Definition
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/apigee-logo.gif)](http://apigee.com/ "Apigee")
-
 The current API development space is very self-ruled, in that web API developers have freed themselves of earlier SOA attempts to rigidly define and ultimately constricted API growth, into a more grassroots, community-owned approach to RESTful API design.
 
 You can see this happen in real-time on the public Google Group called [API Craft](https://groups.google.com/forum/?fromgroups#!forum/api-craft "API Craft"). API Craft was started by [Apigee](http://apigee.com/ "Apigee"), as an open forum for sharing and developing knowledge and skills around APIs, where you can find the latest throughts, from the smartest people in the space.  

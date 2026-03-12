@@ -9,8 +9,6 @@ tags:
   - Web
   - Government
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/digital-gov-logo.jpg)](https://www.usa.gov/developer)
-
 I have used the [Federal Agency Directory API](https://github.com/usagov/Federal-Agency-Directory-API-Documentation) for quite some time to lookup federal government agencies. [USA.gov has some highly valuable, and simple APIs](https://www.usa.gov/developer) including the [Social Media Registry API](https://github.com/usagov/Social-Media-Registry-API-Documentation), which I find extremely useful. They recently added a new one for [searching government websites that do not end in .gov](http://search.digitalgov.gov/developer/govt-urls.html).
 
 The Non-.gov URLs APIs allows you to search for all websites that end in .com, .org, .edu, or other top-level domains, including:

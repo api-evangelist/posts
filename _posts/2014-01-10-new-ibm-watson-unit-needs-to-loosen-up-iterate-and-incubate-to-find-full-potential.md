@@ -9,8 +9,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/ibm-watson/ibm-watson.jpg)](http://www-03.ibm.com/innovation/us/watson/index.shtml)
-
 The latest [tech news to come out of IBM this week is a brand new business group to push innovation around the IBM Watson platform](http://www.zdnet.com/ibm-forms-watson-business-group-will-commercialization-follow-7000024929/), with IBM committed to spending $1B on the new business group, with $100M set aside to fund startups who build on top of the Watson platform.
 
 The introduction of the new business group may be in response to the media’s, and analyst’s chatter about less than impressive results so far with the Watson platform’s ability to generate revenue, with [$100M revenue over the last three years, according to the Wall Street Journal](http://online.wsj.com/news/articles/SB10001424052702304887104579306881917668654).

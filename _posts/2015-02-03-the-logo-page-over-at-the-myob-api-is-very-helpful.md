@@ -8,8 +8,6 @@ author:
 tags:
   - Logo
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/myob-logo.png)](http://developer.myob.com/)
-
 I spend a significant portion of my day looking for company logos, for use in the API stories I tell. When I come across a proper implementation of a logo page, one of the [business building blocks I recommend employing](http://management.apievangelist.com/building-blocks.html), I have to showcase it.
 
 I got an email from my friend and fellow API evangelist Keran McKenzie ([@keranm](https://twitter.com/keranm)) about updating the listing for the [MYOB API](http://developer.myob.com/) on my [API Stack](http://theapistack.com/stack.html?tag=accounting-stack). He sent me a better description, and a couple of new links that I didn’t have, including [a link to their logo page](http://developer.myob.com/program/myob-developer-logos/).

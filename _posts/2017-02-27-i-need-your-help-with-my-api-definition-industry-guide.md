@@ -9,8 +9,6 @@ tags:
   - Industry
   - Definition
 ---
-[![](http://definitions.apievangelist.com/guide/2017-03/api-evangelist-api-definitions-guide-2017-03-cover.png)](http://apis.how/emicqcchsh)
-
 I am approaching seven years doing API Evangelist. [I have over 70 areas of my core API lifecycle research available on the website](http://apievangelist.com) and have four of those areas ([definitions](http://definitions.apievangelist.com), [design](http://design.apievangelist.com), [deployment](http://deployment.apievangelist.com), & [management](http://management.apievangelist.com)) that I've been publishing industry guides for the last couple of years. In 2017, I want to take those guides, and hopefully a handful of other research areas to the next level. My guides have always been about the quantity of information, over the quality of the final guide. I want to turn that on its head and focus on the quality of information and presentation over the quantity, publishing an executive summary of each of my API industry research areas.
 
 With my new guide, I am looking to add a touch of design, but I'm also looking to expand the exposure and storytelling opportunities for my partners in the space. Using Adobe In Design I have been able to handle the design enhancements, but I am in need of help making sure my industry guide are ready for consumption by a wider, and more mainstream audience--this is where you come in. I need your feedback. Seriously, I need you to help me with everything copy editing to being an overall critic--let me know what works and what doesn't--I'm looking to make this a community affair.

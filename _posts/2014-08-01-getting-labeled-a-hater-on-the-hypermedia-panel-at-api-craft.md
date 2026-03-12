@@ -8,7 +8,7 @@ author:
 tags:
   - Hypermedia
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-craft/api-craft-logo.png)](http://api-craft.org/)I’m still gathering all of my thoughts on the hypermedia media panel this last week at API Craft. I have an Evernote full of ideas, thoughts, and potential stories from the amazing API event this week in Detroit. First up is responding to the Twitter backchannel around being a hypermedia hater, and the panel I moderated on Monday between Mike Amundsen ([@mamund](http://bit.ly/1mtrwki)), Mike Kelly ([@mikekelly85](http://bit.ly/1hBxi4m)), Steve Klabnik ([@steveklabnik](https://twitter.com/steveklabnik)), Kevin Swiber ([@kevinswiber](http://bit.ly/1oC7Udw)), Jørn Wildt ([@JornWildt](https://twitter.com/JornWildt)), and Markus Lanthaler ([@MarkusLanthaler](https://twitter.com/MarkusLanthaler)).
+I’m still gathering all of my thoughts on the hypermedia media panel this last week at API Craft. I have an Evernote full of ideas, thoughts, and potential stories from the amazing API event this week in Detroit. First up is responding to the Twitter backchannel around being a hypermedia hater, and the panel I moderated on Monday between Mike Amundsen ([@mamund](http://bit.ly/1mtrwki)), Mike Kelly ([@mikekelly85](http://bit.ly/1hBxi4m)), Steve Klabnik ([@steveklabnik](https://twitter.com/steveklabnik)), Kevin Swiber ([@kevinswiber](http://bit.ly/1oC7Udw)), Jørn Wildt ([@JornWildt](https://twitter.com/JornWildt)), and Markus Lanthaler ([@MarkusLanthaler](https://twitter.com/MarkusLanthaler)).
 
 After bringing the panelists up, giving them each 10 minutes to introduce themselves, I kicked off the discussion by calling out a Tweet from @JeremiahLee:
 

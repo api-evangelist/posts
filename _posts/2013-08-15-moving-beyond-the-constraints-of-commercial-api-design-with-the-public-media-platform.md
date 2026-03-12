@@ -15,8 +15,6 @@ tags:
   - Commercial
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/public-media-platform/public-media-logo.jpeg)](http://publicmediaplatform.org/ "Public Media Platform")
-
 There are just a handful of API platforms that I feel have greatly impacted the world of APIs and were significant in leading the space in important ways. These platforms include, but are not limited to Amazon Web Services, EBay, Salesforce, Google Maps and Twitter. All of these companies have changed the way we build applications and conduct business, by using APIs.
 
 In 2013, as we watch 50-100 public APIs launch each week, it can be difficult to see any sign of meaningful impementations in each wave of new API deployments. Just as I'm getting completely depressed about this lack of true API innovation, I was introduced to a new [Public Media Platform](http://publicmediaplatform.org/ "Public Media Platform") that is pushing forward the tech, business and politics of APIs.

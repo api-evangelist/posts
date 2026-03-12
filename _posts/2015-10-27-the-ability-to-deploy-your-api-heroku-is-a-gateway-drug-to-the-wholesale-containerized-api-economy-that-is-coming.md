@@ -13,8 +13,6 @@ tags:
   - Gateway
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/secure-db-on-premise.png)](https://securedb.co)
-
 I was talking through the features, and roadmap for [SecureDB](https://securedb.co) with their team the other day, and one of the conversations that came up was around [on-premise opporutnities for deploying encrypted user, data, and file APIs](https://securedb.co/encryption-features/). In my opinion, on-premise is something that has morphed from meaning "in our data center", to where wherever we store data and run our compute power--which could be spread across multiple cloud vendors.
 
 [SecureDB offers an extremely valuable API commodity in 2015, encrypted user, data, and file stores](https://securedb.co)\--something EVERY website and mobile application should have as part of their back-end. When you have something this valuable, and potentnially ubiquitous, it needs to run wherever it is needed. With this in mind SecureDB is available on demand, as a retail API solution, but they will also deploy it for you "on-premise" on AWS or Heroku, with "more platforms in the roadmap".

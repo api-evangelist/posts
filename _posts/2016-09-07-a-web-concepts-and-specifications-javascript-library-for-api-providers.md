@@ -9,8 +9,6 @@ tags:
   - Specifications
   - Providers
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tooltip-js-for-web-api-concepts.png)](http://darsa.in/tooltip/)
-
 One of the prototypes I am going to build on top of Erik Wilde's (@dret) [WebConcepts.info work](http://webconcepts.info/), is a simple JavaScript library that you can embed on any API documentation page, and point at the body, or any other element on the page and it will find and replace any keywords or phrases with popup  showing a definition, with a link to Erik's work and the standard(s) home page. 
 
 I'm reminded of the need for something like this as I'm looking through the [USGS Water Services site](http://waterservices.usgs.gov/). There are little web literacy nuggets all over the documentation for the [USGS's six APIs](http://waterservices.usgs.gov/rest/), and I'd like to see this approach get standardized by building on Erik's work to make web concepts and specs for accessible to API designers and developers, in a consistent way.

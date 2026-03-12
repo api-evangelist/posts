@@ -12,8 +12,6 @@ tags:
   - Data
   - Services
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/quora/quora_logo_620px.png)](http://www.quora.com/)
-
 As the API Evangelist I spend a lot of time cheering for companies to have APIs, and in 2014 I’m continuing a slow shift from cheerleading to calling out companies who do not have an API. If you are an older company or institution I will be a lot more forgiving about whether or not an API exists, but with newer tech companies, there is NO excuse --an API is mandatory!
 
 As a digital citizen in 2014, you should not use any online service that doesn’t allow for data portability, which starts with the ability to just download a complete file of all your account settings and data, and is fully realized when a fully read/write API exists, with the support of a healthy, vibrant API community. If a company doesn’t provide you with these basic data portability features, you are most likely in a hostage situation where you are generating content and value for a company, with no say in how your content is used, monetized or even removed.

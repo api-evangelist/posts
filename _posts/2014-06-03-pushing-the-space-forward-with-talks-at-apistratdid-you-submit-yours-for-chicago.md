@@ -11,8 +11,6 @@ tags:
   - APIStrat
   - Talks
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/romain-apistrat-ams.jpg)](https://www.youtube.com/watch?v=DkKEZMjFLSQ)
-
 I’m working my way through the collection of [talks from API Strategy & Practice Amsterdam that are available on Youtube](https://www.youtube.com/user/apistrat), and I'm reminded of what an amazing lineup of speakers we've managed to assemble at not just #APIStrat Amsterdam, but also in San Francisco and New York.
 
 Today I re-watched three videos which I think reflect not just #APIStrat, but also where we are at in the industry:

@@ -8,8 +8,6 @@ author:
 tags:
   - Strategy
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-sf/APIStrat-Home-Page-Slice-2.png)](http://www.apistrategyconference.com/2013SF/index.php)
-
 I'm working through the schedule for [API Strategy & Practice Conference (#APIStrat) in San Francisco](http://www.apistrategyconference.com/2013SF/index.php), preparing for the 3Scale / API Evangelist produced event October 23rd through 25th.
 
 I'm pretty excited about the lineup we've managed to assemble including keynotes from Pamela Fox ([@pamelafox](https://twitter.com/pamelafox)) from Khan Academy, Daniel Jacobson ([@daniel\_jacobson](https://twitter.com/daniel_jacobson)) of Netflix, Wynn Netherland ([@pengwynn](https://twitter.com/pengwynn)) from Github and Kristin Calhoun ([@KCalhoun](https://twitter.com/KCalhoun)) the director of the Public Media Platform, just to name a few of them.

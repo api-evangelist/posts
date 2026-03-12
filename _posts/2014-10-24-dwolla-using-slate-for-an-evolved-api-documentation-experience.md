@@ -9,8 +9,6 @@ tags:
   - Documentation
   - Experience
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/dwolla/dwolla-logo.jpeg)](https://docs.dwolla.com)
-
 I'm liking the new [Dwolla's new API docs](https://docs.dwolla.com) that they just launched. They are using an [open source API documentation framework called Slate](https://github.com/tripit/slate), developed by [Tripit](https://www.tripit.com), for their own API documentation. 
 
 I enjoy seeing the different directions that providers take with their API docs. Slate's approach is a different path than we've been seeing with interactive docs using frameworks like [Swagger](http://swagger.io/), but provides a very intuitive, elegant documentation experience which includes code samples tailored to each API endpoint.

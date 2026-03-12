@@ -10,8 +10,6 @@ tags:
   - Government
   - Statistics
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/bureau-of-labor-statistics/bureau-of-labor-statistics-logo.png)](http://www.bls.gov/developers/home.htm)
-
 I'm working to expand my awareness of APIs in our federal government by spending time each week discovering, reviewing and trying to brainstorm ways to expand and evolve existing government API efforts.
 
 Today I was reviewing the [Bureau of Labor Statistics API](http://www.bls.gov/developers/home.htm), where I was pleased to find this valuable labor data available via single series, multiple series, one or more series specifying years. The API is a pretty straightforward web API, which could use some polishing, but overall it provides machine readable access to this very important data as I would expect.

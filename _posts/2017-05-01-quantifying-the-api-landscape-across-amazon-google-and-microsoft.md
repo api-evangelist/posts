@@ -9,8 +9,6 @@ tags:
   - Amazon
   - Micro
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/microsoft_graph_api_surface.png)](http://microsoft.stack.network/)
-
 I work to develop OpenAPI definitions for 3rd party APIs because it helps me understand what is being offered by a company. Even when I'm able to autogenerate an OpenAPI for an API, or come across an existing one, I still spend time going through the finer details of what an API does, or doesn't do. I find the process to be one of the best ways to learn about an API, stopping short of actually integrating with it.
 
 Over the last couple of months, I've aggregated, generated, and crafted [OpenAPI](http://openapis.org) and [APIs.json](http://apisjson.org) definitions for the top three cloud API providers out there. I wanted to be able to easily see the surface area for as many of the APIs as I could find for these three companies:

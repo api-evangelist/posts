@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/chartboost/Chartboost-Logo.png)](http://chartboost.com)
-
 The team over at [Chartboost](http://chartboost.com) have a pretty forward thinking [blog post about what they see as the next generation of web application development](http://blog.chartboost.com/post/36221629171/web-3-0-help-site?hn).
 
 They feel that the future is about creating web applications, not sites. The server side should be an API and the client should be a self-contained app which uses the API as its back-end. With mobile applications following the same pattern.

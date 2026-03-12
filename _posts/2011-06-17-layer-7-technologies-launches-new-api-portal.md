@@ -7,7 +7,7 @@ author:
 tags:
   - Portal
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/layer7-logo.png)](http://www.layer7tech.com/ "Layer 7 Technologies")[Layer 7 Technologies](http://www.layer7tech.com/ "Layer 7 Technologies") recently launched a new API Portal platform. The new [Layer 7 API portal](http://www.layer7tech.com/products/layer-7-api-portal "Layer 7 API Portal") provides API service providers with a secure, turn-key way to manage developers who build applications against their APIs.
+[Layer 7 Technologies](http://www.layer7tech.com/ "Layer 7 Technologies") recently launched a new API Portal platform. The new [Layer 7 API portal](http://www.layer7tech.com/products/layer-7-api-portal "Layer 7 API Portal") provides API service providers with a secure, turn-key way to manage developers who build applications against their APIs.
 
 They Layer 7 API Portal platform provides:
 

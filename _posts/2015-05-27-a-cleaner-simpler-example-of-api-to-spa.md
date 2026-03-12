@@ -6,8 +6,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-single-page-apps.png)](http://spa.apievangelist.com/)
-
 [One of my areas of research that got boost of energy at Gluecon last week, was the area of Single Page Applications, aka SPAs](http://spa.apievangelist.com/). SPAs are one huge area of potential growth for the API space, but like many other areas, they haven't seen the wider, more meaningful deployments, or adoption, that I had hoped for early on. I think up until now the definition of what an SPA is has been heavily dominated by the technical side of things, as opposed to the delivery side--SPA are still mostly about providing solutions for developers, over solutions for the end-user or business owner.
 
 When it comes to SPAs, I stay away from the more established frameworks, opting for a simpler design--minimal platform or framework adoption. Not that solutions like [Angular](https://angularjs.org/) and [Backbone](http://backbonejs.org/) don't do amazing things, just at this point in my career, I'm looking to avoid the adoption, and resulting dogma and dependency that can often come from drinking a specific frameworks kool-aid. I guess the overall footprint needs to be small, before I will allow something to creep my day to day operational world.

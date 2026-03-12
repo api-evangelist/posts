@@ -8,8 +8,6 @@ author:
 tags:
   - Strategy
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-conference-logo.png)](http://www.apistrategyconference.com/)
-
 I'm rebooting the marketing and PR for the [API Strategy & Practice conference](http://www.apistrategyconference.com/) after the holidayz. After finding a new date for the event on February 21st and 22nd, we've gone through the session and speaker lineup and almost the entire line-up is coming back, with a couple of new entries including a new keynote from Jeff Lawson of Twilio.
 
 We had a whole bunch of new requests for speaker additions over the holidays, and while we tried to squeeze in where we could, with such a killer lineup and the fact that everyone was committed to the new dates, we had to decline some pretty good talks.

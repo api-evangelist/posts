@@ -10,8 +10,6 @@ tags:
   - Web
   - Definition
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_webconcepts_screenshot.png)](http://definitions.apievangelist.com/guide/)
-
 _This is an article from the current edition of the [API Evangelist industry guide to API definitions](http://definitions.apievangelist.com/guide/). The guide is designed to be a summary of the world of API definitions, providing the reader with a recent summary of the variety of specifications that are defining the technology behind almost every part of our digital world._
 
 Keeping up with the standards bodies like International Organization for Standardization (ISO) and Internet Engineering Task Force (IETF)  can be a full-time job. Thankfully,  Erik Wilde ([@dret](https://twitter.com/dret)) has help simply and made the concepts and specifications that make the web work more accessible and easier to understand, with his [WebConcepts.info](http://webconcepts.info) project.

@@ -8,8 +8,6 @@ author:
 tags:
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/evercam/evercam-logo.png)](http://www.evercam.io/ "Evercam.io")
-
 I look at a lot of APIs--some are crap, some make sense, a few are interesting, and every great once in a while you see an API that you know will be one of the next big API platforms. I’m reviewing one such API, [Evercam.io](http://www.evercam.io/ "Evercam.io").
 
 I know that Evercam.io will be be big, because it bridges an increasingly ubiquitous technology—the camera. Whether its its for home or commercial usage, Internet connected cameras represents low hanging fruit for applying proven API techniques.

@@ -6,7 +6,7 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://www.editorsweblog.org/usatoday.gif)](http://developer.usatoday.com/ "USA Today API")Back when I first started doing API reviews on [API Evangelist](http://www.apievangelist.com "API Evangelist"), I did a review of [USA Today's API](http://apievangelist.com/2010/10/27/usa-today-api-review/ "USA Todays first release of their API").
+Back when I first started doing API reviews on [API Evangelist](http://www.apievangelist.com "API Evangelist"), I did a review of [USA Today's API](http://apievangelist.com/2010/10/27/usa-today-api-review/ "USA Todays first release of their API").
 
 At first I almost didn't post the review. It was such a simple API, with nothing innovative to speak of. It just didn't seem worth covering.
 

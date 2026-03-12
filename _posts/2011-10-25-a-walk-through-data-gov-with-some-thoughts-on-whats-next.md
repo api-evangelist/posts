@@ -9,8 +9,6 @@ author:
 tags:
   - Data
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/data-gov/Datagov.png)](https://www.data.gov/)
-
 [Data.gov](https://www.data.gov/) for me is like being a kid in a candy store. My experience with data goes back to High School when I got my first programming job right out of Mr. Smiths computer class. I built Cobol database for use by school districts in the State of Oregon, jump-starting my career as a programmer. Ever since I’ve had an obsession with data, and specifically with government data, and [trying to make sense of how our government operates](http://oregonbudget.laneworks.net/ "trying to make sense how government operates").
 
 I have been playing with various data-sets at Data.gov since they launched, but today I finally spent some time evaluating their approach to delivering the Data.gov ecosystem. It is a pretty robust approach to opening up our government, agency by agency.

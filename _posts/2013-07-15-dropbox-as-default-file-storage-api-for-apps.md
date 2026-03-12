@@ -8,8 +8,6 @@ author:
 tags:
   - Storage
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/dropbox/dbx-press-datastores.png)](https://www.dropbox.com/developers/datastore)
-
 I was working my way through all the Dropbox news that came out of the [DBX Conference](https://www.dropbox.com/dbx) over the weekend. There was some pretty savvy moves by the cloud storage provider, continuing its evolution towards being the default storage for web and mobile applications.
 
 After reading this weekend, I have three key stories still open in tabs:

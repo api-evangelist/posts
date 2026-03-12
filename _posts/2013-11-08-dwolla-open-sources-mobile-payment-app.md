@@ -10,8 +10,6 @@ tags:
   - Mobile
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/dwolla/dwolla-open-source-iphone-app.png)](http://blog.dwolla.com/for-developers-an-open-source-mobile-wallet-built-on-the-dwolla-network/)
-
 Every API provider should provide code samples in a variety of languages, helping developers get up and running as fast as possible.
 
 Dwolla is taking this one step further and [providing a fully functional iOS app that developers can fork, tweak and use](http://blog.dwolla.com/for-developers-an-open-source-mobile-wallet-built-on-the-dwolla-network/) as they wish.

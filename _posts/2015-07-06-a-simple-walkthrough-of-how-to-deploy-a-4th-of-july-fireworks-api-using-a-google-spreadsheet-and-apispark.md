@@ -11,8 +11,6 @@ tags:
   - Spreadsheet
   - 4
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/restlet/Restlet-whiteBg.png)](http://restlet.com)
-
 _This is a guest post by Guillaume Laforge ([@glaforge](https://twitter.com/glaforge)) of [Restlet](http://restlet.com). He did a very cool API deployment project over the holiday weekend, as was good enough to share the details of his project as a story. I've been trying to make time to do more of these simple how-to API deployment guides like this, so I'm always happy to guest post these when they help users understand that they can deploy APIs--no developer necessary._
 
 For the 4th of July, to celebrate the United States’ Independence Day, [Restlet](http://restlet.com) built a fun little website and API to list all the [fireworks in your area](https://fireworks.apispark.net/v1/html/index.html). You can see all the states where fireworks have been found, and lists of towns in those states where those fireworks were taking place. Furthermore, there’s a Google Sheets form that you can fill in to submit fireworks in your area that were not mentioned.

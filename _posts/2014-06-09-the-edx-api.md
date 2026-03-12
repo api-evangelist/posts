@@ -6,8 +6,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/edx/edx-logo.jpg)](https://www.edx.org/)
-
 This post should tell you about how behind I am in my storytelling—this story is from an [event I attended in Arlington TX](/admin/blog/google), on April 30th, and May 1st. While in Arlington, I spoke to a group of professionals who were crafting an online data & analytics course. A couple of the participants were from edX, the online course platform partnership between MIT, Harvard, UC Berkeley and other universities.
 
 Over the course of two days, I had a cance ask the question, where was the edX API? Seemed like an obvious question, to which [Emily Watson](https://www.linkedin.com/in/watsonemily), the program manager at edX, responded, “Its on our roadmap”! An answer I get from many online companies, but Emily pulled up their roadmap on the wiki, and [indeed it was on their roadmap](https://edx-wiki.atlassian.net/wiki/display/OPENPROD/Open+edX+Public+Product+Roadmap).

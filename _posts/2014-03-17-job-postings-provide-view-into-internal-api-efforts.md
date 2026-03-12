@@ -10,8 +10,6 @@ tags:
   - Job Postings
   - Job Posting
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/bluejeans/bluejeans-video-conferencing.png)](http://bluejeans.com/)
-
 The API space has been pretty easy to monitor until recently, with most API efforts being public, but lately everything is trending is towards internal APIs, making it a lot harder to track on what some companies are up.
 
 I’m always on the hunt for new signals I can use to track on what companies are up to when it comes to their API strategy. A signal I’ve been using for a while, but is an increasingly important part of my monitoring, is the job posting for API architect, developer and evangelists.

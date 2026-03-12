@@ -12,8 +12,6 @@ tags:
   - Access
   - Personal
 ---
-![](https://s3.amazonaws.com/kinlane-productions2/facebook/Facebook+Download+Your+Archive.png)
-
 I was just downloading all of my Facebook data. You can [go under your account settings and there is a little link](https://www.facebook.com/download) that lets you download everything.  It takes some time to generate a full archive, but once my archive is ready, they’ll email me and I can get at my data and see what the download format looks like.
 
 While waiting, I wanted to see what Google had to offer. Google has an amazing [acount management dashboard](https://www.google.com/dashboard) which provides you access to your settings, some of the data, but Google is also working on their [takeout service](https://www.google.com/takeout/ "takeout service") which gives you downloads for individual services and across multiple services.

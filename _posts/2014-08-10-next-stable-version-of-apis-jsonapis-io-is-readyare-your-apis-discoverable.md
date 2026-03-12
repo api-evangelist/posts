@@ -14,8 +14,6 @@ tags:
   - APIs.io
   - APIs.jso
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png)](http://apisjson.org/)
-
 Steve ([@njyx](https://twitter.com/njyx)), Nicolas ([@picsoung](https://twitter.com/picsoung)), and I have been working hard to gather all the feedback from some very smart folks on the [API.json format](http://apisjson.org/). Now we are stoked to finally announce that we have the [0.14 version](http://apisjson.org/format.html) ready for prime time. Our goal with the first version of APIs.json, was to just get the idea out there to get feedback from the community, and after four iterations, we feel like the format is now something the community can really build on.
 
 First, lets recap, what is APIs.json? APIs.json is a machine readable JSON file that lives in the root of your domain, and describes your APIs and its supporting API program.

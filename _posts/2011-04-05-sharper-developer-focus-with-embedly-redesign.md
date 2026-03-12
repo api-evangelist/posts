@@ -6,7 +6,7 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://api.embed.ly/media/images/api/logo.png)](http://api.embed.ly/ "Embed.ly launched a new, improved API area")[Embed.ly launched a new, improved API area](http://api.embed.ly/ "Embed.ly launched a new, improved API area") with a focus on helping first time users to understand what the API is, and how to use it quicker.
+[Embed.ly launched a new, improved API area](http://api.embed.ly/ "Embed.ly launched a new, improved API area") with a focus on helping first time users to understand what the API is, and how to use it quicker.
 
 If your not familiar with Embed.ly, the API allows developers to embed videos, images and rich media from 212 services through a single API.
 

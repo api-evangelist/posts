@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/open-fda-logo.png)](https://open.fda.gov/index.html)
-
 I first wrote about [openFDA](https://open.fda.gov/) back in June, [showcasing the launch of their new developer area](http://apievangelist.com/2014/06/04/another-strong-api-implementation-in-federal-government-with-openfda/), and I'm happy to see they aren't missing a beat when it comes to launching new APIs. I recently saw that openFDA just launch a new endpoint, called the [Drug Label API](https://open.fda.gov/drug/label/), which allows you to query over 60K prescriptions and over-the-counter drug labels.
 
 It is satisfying to see such a large government agency find their API mojo. The original spark at the FDA was lit by Presidential Innovate Fellow Sean Herron ([@seanherron)](https://twitter.com/seanherron), but most recently Sean has handed off the iniative to an internal team who will keep they platform moving forward using the same formula.

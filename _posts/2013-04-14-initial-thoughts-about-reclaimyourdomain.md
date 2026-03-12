@@ -9,8 +9,6 @@ tags:
   - Reclaim
   - ai
 ---
-![](https://s3.amazonaws.com/kinlane-productions2/reclaimyourdomain/person-spider-web.jpg)
-
 Obligatory spider web photo, because Jim and Audrey did too!
 
 The ability for me to own [kinlane.com](/admin/blog/kinlane.com), point it at a server, host a website and a blog has been an critical part of my online world and professional career for over 12 years now. My blog goes back to June of 2007, but I have had a site and portfolio up there since around 2000. Having control over my domain has enabled me to store years of my writing, research and projects in a central location that I have control over, allowing me to land jobs, contracts or evolve into entirely new domains that have expanded my audience in ways I never imagined, like with [API Evangelist](http://apievangelist.com).

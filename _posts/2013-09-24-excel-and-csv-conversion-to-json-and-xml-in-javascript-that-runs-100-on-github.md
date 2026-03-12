@@ -15,8 +15,6 @@ tags:
   - XML
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/csv-converter-github.png)](http://kinlane.github.io/csv-converter/)
-
 When it comes to building applications within the federal government, there are numerous road-blocks to innovation. I'm currently assisting with the inventorying of open data assets at the Department of Veterans Affairs, as well as across numerous other federal agencies.
 
 The two biggest bottlenecks of this process are:

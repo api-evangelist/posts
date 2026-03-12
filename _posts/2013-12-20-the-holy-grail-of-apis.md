@@ -9,8 +9,6 @@ tags:
   - APIs
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/irs/bw-irs-logo.jpg)](http://apievangelist.com/2013/09/15/irs-modernized-efile-mef-a-blueprint-for-public--private-sector-partnerships-in-a-21st-century-digital-economy-draft/)
-
 I look at a lot of APIs, I work hard to brainstorm ideas for potential new APIs, and I can't think of a more important API to not just the API economy, but to the overall economy, than an IRS API that would give citizens access to their income and tax history.
 
 We know the APIs exists, since the same resources are made available via the [IRS Modernized e-File system](http://apievangelist.com/2013/09/15/irs-modernized-efile-mef-a-blueprint-for-public--private-sector-partnerships-in-a-21st-century-digital-economy-draft/ "IRS Modernized e-File System") to tax professionals. I'm not talking about an API that gives access to every detail of my tax history, but the data I've entered into common forms like W2, 1099, and 1042.

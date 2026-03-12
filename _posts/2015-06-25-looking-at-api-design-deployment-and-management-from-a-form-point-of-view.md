@@ -10,8 +10,6 @@ tags:
   - Design
   - Management
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/form-io/formio-logo-full.png)](https://form.io/)
-
 The concept of a form, is one one of those [skeuomorphs](https://en.wikipedia.org/wiki/Skeuomorph), that have taken on an entirely new life on the Internet. The concept of a form is baked into HTML, PDFs, and many other commons aspects of our digital lives, while also still dominating many of the information exchanges in our physical worlds. There are a handful of APIs out there that let you build forms, and their are APIs that let you build forms for platforms like Drupal, but I have yet to see a platform that uses the concept of a form, as carrot to design, deploy, and manage your API--until now. 
 
 [I was introduced to Form.io at Gluecon this year](https://form.io/), and was very please with the demo I was given (and my time playing with since). Form.io is a platform that enables developers to build web and mobile applications using a drag & drop interface which allows you to create both the forms and the RESTful APIs all at once. I like this concept, because forms is something the average business user will potentially understand, and is something that has helped them also better understand web, PDF, and other digital platforms--whcih tells me it might do the same for the world of APIs.

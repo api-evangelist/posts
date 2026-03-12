@@ -8,8 +8,6 @@ author:
 tags:
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/thefancy/the-fancy.jpg)](http://www.thefancy.com/ "The Fancy")
-
 [Pinterest](http://pinterest.com/ "Pinterest") and [The Fancy](http://www.thefancy.com/ "The Fancy") are locked in a deathmatch, if you hadn't heard? Compete wrote back in February that [The Fancy was poised to take over a chunk of Pinterest's traffic](http://blog.compete.com/2012/02/29/with-the-launch-of-its-new-web-store-could-the-fancy-overtake-pinterest/ "The Fancy was poised to take over a chunk of Pinterest's traffic") with their new webstore. Fast forward 5 months, [The Fancy has just launched an update to their iOS](http://www.thefancy.com/help/mobile) which includes the ability to purchase products from the mobile app with just one click.
 
 Nice move! The Fancy is definitely an easier and cleaner looking site than Pinterest, and with a monetization move, The Fancy could gain even more market share against Pinterest.

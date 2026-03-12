@@ -9,8 +9,6 @@ tags:
   - Access
   - Self-Service
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/backstage_blog__api_sign_up_changes__soundcloud_developers.png)](https://developers.soundcloud.com/blog/api-sign-up-changes)
-
 [SoundCloud recently made changes to the signup process for their API](https://developers.soundcloud.com/blog/api-sign-up-changes) and are now requiring approval before any 3rd party developer can get an API key and access the API. While I encourage API providers to be as open and transparent with their API portal, documentation, and other resources, I honestly can't criticize API providers for locking down APIs and requiring approval--especially when 3rd party developers can be so badly behaved. 
 
 Modern API management solutions allow for API providers to decide how open they want to be with their APIs, and while there are many benefits for having an open presence for an API portal, documentation, and other resources, I predict that many API providers will require approval before you get full access to resources in the future. Especially if it impacts the end user experience in a negative way like it was on SoundCloud.

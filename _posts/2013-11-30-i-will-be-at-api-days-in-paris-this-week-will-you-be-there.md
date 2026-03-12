@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-days-paris-france/api-days-fonz.png)](http://apidays.io/)
-
 I'm pretty excited about heading to Paris this week to speak at [API Days](http://apidays.io/ "API Days"). The is the 2nd edition of the original french edition of API Days, and they have organized over 60 talks across two days: December 4th and 5th.
 
 I'm particularly excited about sitting in on these talks:

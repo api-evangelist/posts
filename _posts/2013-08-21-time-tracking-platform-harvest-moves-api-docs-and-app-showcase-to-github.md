@@ -14,8 +14,6 @@ tags:
   - Time
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/harvest/harvest-logo.png)](http://www.getharvest.com/ "Time Tracking Platform Harvest")
-
 [Time Tracking API platform Harvest](http://www.getharvest.com/ "Time Tracking Platform Harvest") has embraced Github as part of their API ecosystem. I'm always on the hunt for examples of API providers using Github, so I figured I'd showcase Harvest's creative use of the social coding platform.
 
 Starting with their documentation, the Harvest team has moved the [API documentation to a Github repository](https://github.com/harvesthq/api), allowing developers to "watch" the API, get updates when changes are made, asks questions or even contribute to the API docs by submitting a pull request.

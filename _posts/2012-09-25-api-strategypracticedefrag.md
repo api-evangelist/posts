@@ -8,8 +8,6 @@ author:
 tags:
   - Strategy
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-conference-logo.png)](http://www.apistrategyconference.com/ "API Strategy & Practice Confernece")
-
 When you spend a lot of time going to conferences, hackathons and events, you start really getting picky about which events you go to. To disrupt my regular routine, I need an event that will always add value to my professional career, but also be a good time!
 
 When it comes to the latest in Internet technolgy, I always make time each year for the Gluecon and Defrag conferences. [Gluecon](http://gluecon.com/2012/ "Gluecon") is usually in the spring and [Defrag](http://www.defragcon.com/2012/ "Defrag") is in the fall--both occurring at the Omni Interlocken in Broomfield, CO.

@@ -8,8 +8,6 @@ author:
 tags:
   - APIStrat
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/pics/apistrat-baas-panel.jpg)](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/pics/apistrat-baas-panel.jpg)
-
 One of the lively discussions at the [API Strategy & Practice conference in NYC](http://www.apistrategyconference.com/) last week was the backend as a service (BaaS) panel I moderated towards the end of the first day.
 
 We brought together Ilya Sukhar ([@ilyasu](https://twitter.com/ilyasu)) of [Parse](http://www.parse.com/), Morgan Bickle ([@morganbickle](https://twitter.com/morganbickle)) of [Kinvey](http://www.kinvey.com/), Marc Weil ([@marcweil](https://twitter.com/marcweil)) of [Cloudmine](https://cloudmine.me/), Miko Matasumura ([@mikojava](https://twitter.com/mikojava)) of [Kii](http://kii.com/), Ty Amell ([@tyamell](https://twitter.com/tyamell)) of [StackMob](https://www.stackmob.com/) James Tamplin ([@jamestamplin](https://twitter.com/jamestamplin)) of [Firebase](https://www.firebase.com/) to talk about the fast growing BaaS space.

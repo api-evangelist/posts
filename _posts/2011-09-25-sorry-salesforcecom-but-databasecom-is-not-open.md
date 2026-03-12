@@ -12,8 +12,6 @@ tags:
   - SalesForce
   - Open
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/salesforce/Database-Com-Open.png)](http://www.database.com/es/howitworks)
-
 I’m working on reviewing various APIs as part of my [database industry overview](/industries/databases.php "database industry overview"), where I’m trying to understand the different approaches to delivering database platforms using web APIs as the primary interface.
 
 One of these database platforms is [Database.com](http://www.database.com "Database.com"). I really like what [SalesForce.com](http://www.SalesForce.com "SalesForce.com") is doing with Database.com, but I take issue with their section declaring Database.com as an open platform. SalesForce.com claims because you can access Database.com from any language, any platform, and any device through standards-based APIs, it is "open".

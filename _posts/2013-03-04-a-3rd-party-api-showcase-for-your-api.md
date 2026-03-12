@@ -8,8 +8,6 @@ author:
 tags:
   - Showcase
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/twitter-counter-api-2.png)](http://twittercounter.com/pages/api "Twitter Counter API")
-
 I stumbled across the [Twitter Counter API](http://twittercounter.com/pages/api "Twitter Counter API") in my monitoring for the [API Stack](http://theapistack.com) this morning. The Twitter Counter API allows you to retrieve key metrics on any Twitter account like username, url and avatar.  All data you can get via the Twitter API, but with Twitter Counter API you get additional information like account growth statistics and ranking, that Twitter doesn't provide at all.
 
 I find it fascinating that someone can build an API to augment an existing API, which is why I keep talking about it, I guess :) We are seeing a more standardized version of this with API aggregation providers like [Singly](http://singly.com "Singly") and [Adigami](http://adigami.com), where they not only aggregate APIs from a variety of sources, they also build entirely new APIs based the added value that is created after they are brought together.

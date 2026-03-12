@@ -9,8 +9,6 @@ tags:
   - Documentation
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/redoc/redoc-demo.png)](https://github.com/Rebilly/ReDoc)
-
 [ReDoc](https://github.com/Rebilly/ReDoc) is the responsive, three-panel, OpenAPI specification driven documentation for your API that you were looking for. [Swagger UI](http://swagger.io/swagger-ui/) is still reigning king when it comes to API documentation generated using the OpenAPI Spec, but ReDoc provides a simple, attractive, and clean alternative to documentation.  
 
 ReDoc is deployable to any web page with just two tags--with the resulting documentation looking attractive on both web and mobile devices. Now you can have it all, your API documentation looking good, interactive, and driven by a machine-readable definition that will help you keep everything up to date.

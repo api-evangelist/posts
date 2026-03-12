@@ -8,8 +8,6 @@ author:
 tags:
   - Access
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/google-adwords/google-adwords-300x125.jpeg)](https://developers.google.com/adwords/api/)
-
 [Google is adjusting their pricing model for the Adwords API](http://googleadsdeveloper.blogspot.com/2013/01/new-simplified-adwords-api-pricing.html), acknowledging that having a free usage tier is important.  Making the API easier to access, while also ensuring a certain QOS.
 
 Google has opted to go with two levels of API access:

@@ -8,8 +8,6 @@ tags:
   - Data
   - Client
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-excel-icon.jpg)](http://spreadsheets.apievangelist.com)
-
 I’ve been tracking on the usage of spreadsheets in conjunction with APIs for several years now. Spreadsheets are everywhere, they are the number one data management tool in the world, and whether API developers like or not, spreadsheets will continue to collide with the API space, as both API providers, and consumers try to get things done using APIs.
 
 APIs are all about getting access to the resources you need, and spreadsheets are being used by both API providers and consumers to accomplish these goals. It makes complete sense to me that business users would be looking for solutions via spreadsheets, as they are one potential doorway to hacking for the average person—writing macros, calculations, and other dynamic features people execute within the spreadsheet.

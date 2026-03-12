@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/angelhack/angelhack-11-cities.png)](http://angelhack.com/)
-
 I’m going to head over to [AngelHack Los Angeles](http://angelhack.com/) this weekend (Saturday, December 1, 2012 at 9:00 AM - Sunday, December 2, 2012 at 5:00 PM) with [Singly](http://singly.com).
 
 AngelHack Los Angeles is part of 11 city hackathon competition where winning teams will receive:

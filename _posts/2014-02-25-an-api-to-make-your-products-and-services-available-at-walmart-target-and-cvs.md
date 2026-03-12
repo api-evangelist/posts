@@ -13,8 +13,6 @@ tags:
   - ai
   - Services
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/cashtie/cashtie_logo.png)](http://bit.ly/1grzE1H)
-
 It can be pretty difficult to explain exactly what an API does to the average person. Some people think of APIs being associated with databases, where others think they are always attached to online applications like Facebook or Twitter. Then there are so many types of APIs, where do you start, when someone asks what is an API?
 
 To help people understand APIs, it is best to move away from the technical explanation and get closer to the actual problem being solved by your API. Example, a new API I’m working with called the [Cashtie API](http://bit.ly/1grzE1H) lets you generate barcodes that can be scanned from mobile phones at the point of sale (POS) systems at major retailers—a technical explanation

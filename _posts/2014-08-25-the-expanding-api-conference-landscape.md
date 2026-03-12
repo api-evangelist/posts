@@ -7,8 +7,6 @@ author:
 tags:
   - Landscape
 ---
-[![](http://apistrategyconference.com/images/apistrat-logo.png)](http://apistrategyconference.com/)
-
 As I’m riding the build up for [APIStrat in Chicago](http://www.apistrategyconference.com/2014Chicago/index.php), and preparing for [I Love APIs in San Francisco](http://iloveapis2014.com/), and the [API 360 Summit in DC](http://www.apiacademy.co/api360/), I can’t help but think about how busy the API event scene is getting—in 2014 there are 14 separate conferences focused on the world of APIs.
 
 In the beginning there was just [Gluecon](http://gluecon.com/ "Gluecon"), [Defrag](http://www.defragcon.com/), and the [Business of APIs](http://www.apiconference.com/), then 3Scale and API Evangelist got together and started planning for @APIStrat, then immediately [API Days](http://apidays.io/) happened, [Nordic APIs](http://nordicapis.com/) came on the scene, [API-Craft](http://api-craft.org/)a  grew beyond just Meetup, and before you know we have 14 separate events.

@@ -10,8 +10,6 @@ tags:
   - Portal
   - Services
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_01_at_9.03.53_pm.png)](http://miami.open.211.adopta.agency/)
-
 I was handed the URL for a human services API implementation for Miami. It was my job to now deploy a portal, documentation, and other supporting resources for the API implementation. This project is part of the work I'm doing with [Open Referral](https://openreferral.org/) to help push forward the API conversation around the human services data specification (HSDS).
 
 [I got to work forking my minimum viable API portal definition](http://portal.minimum.apievangelist.com/), to provide a doorway for the [Miami Open211 API](http://miami.open.211.adopta.agency/).  Next, I got to work on setting up a basic presence for the human services API. I started with giving the portal a title, and a basic description of what the service does, then I got to work on each of the portal elements that will help people put the data to work.

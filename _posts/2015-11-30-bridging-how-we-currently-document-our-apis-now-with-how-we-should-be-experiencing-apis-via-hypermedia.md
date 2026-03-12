@@ -11,8 +11,6 @@ tags:
   - Hypermedia
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/foxycart-api-screenshot.png)](https://api.foxycart.com/docs)
-
 I am still catching up on my feeds, and open browser tabs, and one tab that has been open for a couple of weeks is [Why Your Colleagues Still Don’t Understand Hypermedia APIs](https://medium.com/@lukestokes/why-your-colleagues-still-don-t-understand-hypermedia-apis-1a5a2cf82540), by Luke Stokes ([@lukestokes](https://twitter.com/lukestokes)) of [FoxyCart](http://www.foxycart.com/). The post is very thought provoking for me, and represents what I feel is the very pragmatic front of the hypermedia movement, from someone who has helped move the concept of a hypermedia API from academic discussion to reality, with the [FoxyCart API](https://api.foxycart.com/docs).
 
 His challenges at the end of his post really set the stage for me:

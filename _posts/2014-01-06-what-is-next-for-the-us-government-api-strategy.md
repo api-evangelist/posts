@@ -9,8 +9,6 @@ tags:
   - Strategy
   - Government
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Building-a-21st-century-platform-to-better-serve-the-american-people-1.png)](http://federal-government.apievangelist.com/)
-
 I was asked to provides some thoughts on what is next for the US Government API strategy. I've been thinking about it during my work and travels over the last couple months, and I keep coming back to one thought: **Strengthen What We Have!**
 
 I wish I had some new technology or platform for the next wave of government APIs that would ensure success with APIs in Washington, but in reality we need to do what we've been doing, but do it at scale, and get organized and collaborative about how we do it.

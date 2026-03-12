@@ -8,8 +8,6 @@ author:
 tags:
   - Design
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-gluecon/gluecon.png)](http://apistrategyconference.com/2014Gluecon/)
-
 The time has come for one of my favorite events in the tech space—[Gluecon](http://www.gluecon.com/2014/). If you have never been to Gluecon or Defrag, [read some of my previous posts about just how different the event is](http://apievangelist.com/2013/10/11/how-to-defrag-your-brain-and-tech-career-in-november/). Gluecon has brought together tech leaders, who have helped define the API space for the last six years, to a small resort in Colorado, creating an environment for conversation I have not experienced anywhere else.
 
 This year Gluecon is exceptionally special for me, because 3Scale and API Evangelist are doing a special first day of un-workshop discussions on API design and the Internet of Things and Realtime, continuing the [API Strategy & Practice](http://apistrategyconference.com/) conversation. You can find all the [details over at the APIStrat site,](http://apistrategyconference.com/2014Gluecon/) and even register and be part of the conversation.

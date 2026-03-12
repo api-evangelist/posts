@@ -10,8 +10,6 @@ tags:
   - Definition
   - Swagger
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-20.png)](http://swagger.io/)
-
 The [machine readable API definition format Swagger](http://swagger.io/), just rolled over to version 2.0. I use Swagger to describe all of my APIs, and I largely associate the creator of Swagger, [Wordnik](https://www.wordnik.com/) for kicking off this latest renaissance in defining APIs in a way that provides us with a machine readable vocabulary to talk about all of these valuable resoures that we are exposing via APIs.
 
 There are other formats out there, older ones like WADL, and more recent ones like [API Blueprint](http://apiblueprint.org/), and [RAML](http://raml.org/), but Swagger was the one that revived this movement, helping us create ways for generating important elements throughout the API lifecycle, from mock interfaces in the design process, to testing and monitoring of product APIs.

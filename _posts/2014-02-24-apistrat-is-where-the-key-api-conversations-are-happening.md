@@ -8,8 +8,6 @@ tags:
   - APIStrat
   - Conversations
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/apistrat-baas-panel-nyc.jpg)](http://www.infoq.com/presentations/Mobile-Back-end-Service)
-
 I’m working with Phil Legetter ([@leggetter](https://twitter.com/leggetter)) to put together a panel at API Strategy & Practice in Amsterdam on APIs and realtime, and as I’m working to bring together the leaders from the space together, I can’t help but think of past APIStrat panels. At APIStrat we are looking to pull together the leaders from different business sectors and have a conversation on where we are, and where things are going with trends like API aggregation, automation, design, BaaS and realtime.
 
 At [APIStrat, NYC 203 we brought together the leaders from the backend as a service (BaaS) space,](http://www.infoq.com/presentations/Mobile-Back-end-Service) including Ilya Sukhar ([@ilyasu](https://twitter.com/ilyasu)) of [Parse](http://www.parse.com/), Morgan Bickle ([@morganbickle](https://twitter.com/morganbickle)) of [Kinvey](http://www.kinvey.com/), Marc Weil ([@marcweil](https://twitter.com/marcweil)) of [Cloudmine](https://cloudmine.me/), Miko Matasumura ([@mikojava](https://twitter.com/mikojava)) of [Kii](http://kii.com/), Ty Amell ([@tyamell](https://twitter.com/tyamell)) of [StackMob](https://www.stackmob.com/) James Tamplin ([@jamestamplin](https://twitter.com/jamestamplin)) of [Firebase](https://www.firebase.com/), resulting in a pretty interesting discuss about what is BaaS, and the future of the fast growing trend in using APIs for mobile development.

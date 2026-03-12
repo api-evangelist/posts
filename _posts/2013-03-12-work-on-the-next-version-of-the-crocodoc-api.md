@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/crocodoc/crocodoc-logo.png)](https://crocodoc.com/about/ "Crocodoc")
-
 It looks like the [HTML5 document embedding platform Crocodoc](https://crocodoc.com/ "HTML5 document embedding platform Crocodoc") is starting to [plan the next version of their API](https://news.ycombinator.com/item?id=5358861). The are being very transparent about the process (which I like), and putting out the word looking for some new team members to help them get the job one.
 
 Over the next couple weeks they want build an API that is simple and easy to use, but also capable of handling tens of millions of document conversations a month. To help get the job done they are looking for:

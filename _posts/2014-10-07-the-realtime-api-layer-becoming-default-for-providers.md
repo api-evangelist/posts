@@ -10,8 +10,6 @@ tags:
   - Providers
   - Time
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/firebase/firebase-logo.png)](https://www.firebase.com/)
-
 One of the [API news story of the day was the release of the Hacker News API](http://api.report/2014/10/07/hacker-news-launches-official-api/). I’m only lightly interested in the fact that HN now has an API because, honestly I don't feel like an API at this point in the evolution of tech curation site is something to applaud, but their approach to making their API real-time I think does subtly reflect other currents in the API space.
 
 HN partnered with [Firebase](https://www.firebase.com/) to make sure the tech news curation site doesn't just have an API, it has a real-time API. Meaning you can now get HN links in machine readable way, so that you can build the popular flow of tech information into other web, and mobile applications—in real-time! HN launching an API…yawn! HN launch an API with Firebase bkked in, reflects a growing trend from influential APIs. For me this is more about real-time and Firebase, than it is about HN.

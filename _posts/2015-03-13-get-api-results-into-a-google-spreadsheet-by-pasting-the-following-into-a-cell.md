@@ -10,8 +10,6 @@ author:
 tags:
   - Spreadsheet
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/alan-delevie.jpeg)](https://twitter.com/adelevie)
-
 My API hero of the day is [Alan deLevie](https://twitter.com/adelevie) (@adelevie) over at [18F](https://18f.gsa.gov/). I was tweeting out my story "[Going Beyond Excel As A Data Source For API Deployment And Focusing On It As An API Client](http://apievangelist.com/2015/03/13/going-beyond-excel-as-a-data-source-for-api-deployment-and-focusing-on-it-as-an-api-client/)” today, and he tweeted me back his [slick usage of the ImportXML function to get Federal Communication Commission (FCC) Electronic Comment Filing System data into a Google Spreadsheet.](https://ecfs.link/search?q=12-83)
 
 When you visit [ecfa.link](https://ecfs.link/search?q=12-83), and scroll to the bottom of the page you will see simple instructions on how to get the data into your Google Spreadsheet:

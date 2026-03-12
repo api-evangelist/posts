@@ -7,8 +7,6 @@ author:
 tags:
   - Swagger
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://swagger.io)
-
 I am preparing for a big week of discussion around Swagger next week, and [I'm spending time going through Swagger research project](http://swagger.apievangelist.com/), refreshing some of the companies I know are doing interesting things in the space, using the machine readable API definition format, [Swagger](http://swagger.io).
 
 As i do with all my work, [I have a Github repository setup for the research](https://github.com/kinlane/swagger), allowing me to publish all of my work publicly, and manage feedback and engagement with the community, using the Github workflow. If you want to make any changes to the data you can fork and submit a pull request, or [you can also suggest companies I should be looking at, as a Github issue](https://github.com/kinlane/swagger/issues/new?title=Submit%20New%20Swagger%20Implementation&body=).

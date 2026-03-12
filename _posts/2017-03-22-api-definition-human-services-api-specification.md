@@ -9,8 +9,6 @@ tags:
   - Definition
   - Services
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_human_services_screenshot.png)](http://definitions.apievangelist.com/guide/)
-
 _This is an article from the current edition of the [API Evangelist industry guide to API definitions](http://definitions.apievangelist.com/guide/). The guide is designed to be a summary of the world of API definitions, providing the reader with a recent summary of the variety of specifications that are defining the technology behind almost every part of our digital world._
 
 A lot of attention is given to APIs and the world of startups, but in 2017 this landscape is quickly shifting beyond just the heart of the tech space, with companies, organizations, institutions, and government agencies of all shapes and sizes are putting APIs to work. API definitions are being applied to the fundamental building blocks of the tech sector, quantifying the computational, storage, images, videos, and other essential resources powering web, mobile, and device based applications. This success is now spreading to other sectors, defining other vital resources that are making a real impact in our communities.

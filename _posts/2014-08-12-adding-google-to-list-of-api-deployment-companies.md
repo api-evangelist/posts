@@ -9,8 +9,6 @@ tags:
   - Deployment
   - ddi
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/google-cloud-platform/google-cloud-platform-logo.png)](https://cloud.google.com)
-
 I was taking another look at the [Google Cloud Platform](https://cloud.google.com/) yesterday, and stumbled across [Google Cloud Endpoints](https://developers.google.com/appengine/docs/java/endpoints/?_ga=1.186468064.812314948.1407779892). It was something I saw come across my feeds, but really didn’t give it the time it needed to see what it was all about. With the new Google Cloud Endpoints, Google is making a strong push to be not just an API deployment provider, but their approach also reflects what I’d consider to be an evolution of backend as a service (BaaS) deployment.
 
 I think Google describes their service better than I can do it justice:

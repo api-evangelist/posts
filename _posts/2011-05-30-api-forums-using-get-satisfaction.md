@@ -7,7 +7,7 @@ author:
 tags:
   - Forums
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/get_satisfaction/get_satisfaction_logo.jpg)](http://getsatisfaction.com/ "Get Satisfaction")[Get Satisfaction](http://getsatisfaction.com/ "Get Satisfaction") is one way to build API forums that enable productive conversations between an API owner and the developer ecosystem.
+[Get Satisfaction](http://getsatisfaction.com/ "Get Satisfaction") is one way to build API forums that enable productive conversations between an API owner and the developer ecosystem.
 
 Simply engaging your customers in conversation won't earn you the respect of your community and make your customers happy. Conversations are just a start, it's what you do with them that matter. Get Satisfaction was built on the idea of not simply creating conversations, but creating value from conversations.
 

@@ -8,8 +8,6 @@ author:
 tags:
   - Directory
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/hackweekends/Hack-Weekends-Guide-Screenshot.png)](http://kinlane.github.com/hack-weekends-guide/)
-
 Hackathons have been a big part of current web API movement. They are one of the most meaningful ways API owners can connect with developers in person.  Twilio, Amazon and Facebook have all used hackathons to build their ecosystems.
 
 I started a section on API Evangelist in 2011, dedicated to hackathons. And in early 2012 I rolled this section out as its own site, hackweekends.com.  Over 2012 the number of hackathons has grown significantly--making it difficult to ignore hackathons as channel for reaching developers.

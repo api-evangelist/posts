@@ -9,8 +9,6 @@ tags:
   - APIs
   - Learning
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hypermedia.png)](http://hypermedia.apievangelist.com)
-
 I’m looking through each of the worlds, of my hypermedia panelists, Mike Amundsen ([@mamund](http://bit.ly/1mtrwki)), Mike Kelly ([@mikekelly85](http://bit.ly/1hBxi4m)), Steve Klabnik ([@steveklabnik](https://twitter.com/steveklabnik)), Kevin Swiber ([@kevinswiber](http://bit.ly/1oC7Udw)), Jørn Wildt ([@JornWildt](https://twitter.com/JornWildt)), and Markus Lanthaler ([@MarkusLanthaler](https://twitter.com/MarkusLanthaler)), for [API Craft](http://api-craft.org/) tomorrow, reaquainting myself on what they bring to the hypermedia table, adding to my knowledge, and hopefully sharing some of the findings with you.
 
 As I look through each of the hypermedia definitions, developed by my panelists, I keep feeling, that as API providers, there is still a lot of education that has to occur, to not just helping us better communicate with APIs, but also be more skilled at sharing and interacting around the resources we are making available via APIs.

@@ -8,8 +8,6 @@ author:
 tags:
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/salesforce/salesforce-original-web-site.png)](/2011/01/28/history-of-apis-salesforce-com/ "Salesforce")
-
 As we continue to stress over all the news of [API ecosystem battles](/2012/06/29/the-api-economy-welcomes-its-early-trade-wars/ "API Ecosystem Battles"), and how APIs owners are evil, and once a business grows up, it has to choose between being a hobby developer platform or real grown up business--let’s remember the [web API pioneers](/2011/02/10/history-of-apis-birth-through-social/ "web API pioneers").
 
 [Salesforce](/2011/01/28/history-of-apis-salesforce-com/ "Salesforce"), [eBay](/2011/01/26/history-of-apis-ebay/ "ebay") and [Amazon](/2011/01/28/history-of-apis-amazon-e-commerce/ "Amazon") are all three going strong, making money, treating developers as part of the equation and continue to operate legitimate business via APIs for over a decade now. These three API pioneers set the stage for the API industry during the first “dot com bubble” in 2000 and Amazon in 2002, and 10 years later still proving you can become an Internet powerhouse with the help of your API developer ecosystem.

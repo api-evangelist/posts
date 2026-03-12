@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/university/uc-berkeley/berkeley-api-central.png)](https://developer.berkeley.edu/)
-
 I see a lot of dead simple, yet meaningful uses of APIs come across my desk (I don’t have a desk, why do I keep saying this?) each day. One I saw today is something every school, whether K-12, college or university should have.
 
 Using the UC Berkeley API, you can get a list of all departments:

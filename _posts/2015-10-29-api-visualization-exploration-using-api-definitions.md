@@ -11,8 +11,6 @@ tags:
   - Definition
   - Exploration
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-specification-visual-documentation.png)](http://apihandyman.io/swagger/swagger-specification-visual-documentation/)
-
 There are number of areas across the API life-cycle that are being expanded upon in the current space, thanks to the evolution of API definition formats like Swagger, API Blueprint, and RAML. One area I haven't seen as much growth as I'd like, is in the area of [visualizations driven by API definitions](http://visualization.apievangelist.com/). 
 
 There are two distinct pools of API definition driven visualization: 1) Letting you visualize the surface area of an API 2) Letting you visualize the resource made available via an API. One area my friend the [@APIHandyman](https://twitter.com/apihandyman) has been exploring is around the surface area of API.

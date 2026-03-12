@@ -8,8 +8,6 @@ author:
 tags:
   - Design
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/viewbook/viewbook.jpg)](http://www.viewbook.com/)
-
 I am spending time getting to know the [APIs coming out of the Netherlands](http://apievangelist.com/2014/03/09/i-am-up-to-34-apis-out-of-the-netherlands/), as we prepare for [API Strategy & Practice in Amsterdam March 26-28th](http://www.apistrategyconference.com/2014Amsterdam/index.php), and one API I was checking out is from the Portfolio platform [Viewbook](http://www.viewbook.com/).
 
 [Viewbook provides an API](http://www.viewbook.com/api/) for users to add and manage their photos, building very attractive portfolios for photographers. What I thought was pretty cool when I was going through their API, was their re-use of the [Flickr API](https://www.flickr.com/services/api/) design, rather than re-inventing their own.

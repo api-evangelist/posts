@@ -9,8 +9,6 @@ tags:
   - Diff
   - Open
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_diff.png)](http://spec.open.referral.adopta.agency/definition/diff/)
-
 [I am working on version 1.1 of the API definition for the human services data specification (HSDS)](http://spec.open.referral.adopta.agency/definition/diff/), and I needed some help articulating the differences between version 1.0 and 1.1, which are both defined using the OpenAPI 2.0 specification. I manage all of my OpenAPIs using Github, but I needed a friendlier way to show the diff between two JSON files, than what Github provides. I got to work on a version that would run using Liquid, that would work in Jekyll, which all my sites and tools run in.
 
 I have a variety of API documentation tools that run on Github, so I wanted to develop an interface that showed two separate OpenAPI definitions side by side on a simple HTML page, so at this stage, I'm playing with different ways of showing the differences between paths, and other elements of the API definition. I'm not entirely happy with what I have, but I started applying a red DIFF label to any path that isn't represented in the previous API definition. It works well for helping me see which API endpoints have been added or changed in the latest version.

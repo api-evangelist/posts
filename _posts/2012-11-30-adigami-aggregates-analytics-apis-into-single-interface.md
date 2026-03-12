@@ -9,8 +9,6 @@ tags:
   - Analytics
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/adigami/adigami-logo.png)](http://www.adigami.com/)
-
 In 2012 the number of APIs has grown significantly. We are transitioning from “there aren’t enough APIs” to “how do we more intelligently use many APIs”. As I track on this and the [future of web APIs](http://apievangelist.com/2012/07/27/what-is-the-future-of-web-apis/), I’m noticing growth in the number of API aggregators like [Singly](http://singly.com "Singly").
 
 A couple of weeks ago I was introduced [Adigami](http://www.adigami.com/ "Adigami"), a "Singly for Analytics". While Singly focuses on personal data API aggregation, Adigami is focused on [aggregating the top analytic platforms used in business today](http://www.adigami.com/ "aggregating the top analytic platforms used in business today")\--covering seven key channels:

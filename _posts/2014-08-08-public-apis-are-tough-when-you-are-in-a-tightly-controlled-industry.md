@@ -10,8 +10,6 @@ tags:
   - Public
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/espn/espn-api-black_200.png)](http://developer.espn.com/branding)
-
 ESPN just [announced that they will no longer be accepting registrations for public API keys](http://developer.espn.com/blog/read/publicretirement), and discontinuing all of their public APIs. I saw a few enraged comments on the Twitterz when I originally tweeted out the story, and also saw a couple of people compare it to the recent [Netflix API deprecation](http://apievangelist.com/2013/03/12/netflix-api-is-much-more-than-a-public-api/).
 
 In reality I don't think the shuttering of the public ESPN API, or the Netflix API is a reflection on the viability of APIs, steering clear of the usual API FUD [that APIs are forever, wait no…they can go away at any time](http://apievangelist.com/2012/04/20/apis-are-forever-wait-nothey-can-go-away-at-any-time/)! I think the decision to shutter the ESPN API is due to lack of vision, outreach, and the establishment of the vital developer feedback loops that are necessary to make APIs successful, but most importantly they failed to understand the challenges faced when deploying APIs in a tightly controlled industry.

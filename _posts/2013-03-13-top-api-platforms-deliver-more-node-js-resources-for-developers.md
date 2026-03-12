@@ -14,8 +14,6 @@ tags:
   - Developers
   - API Platforms
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/nodejs/node-js-logo.png)](https://nodejs.org/)
-
 [Node.js](https://nodejs.org/), the server-side software system designed for writing scalable Internet applications in JavaScript, seems to be getting more attention lately from top API providers because of its event-driven, asynchronous I/O that can minimizeoverhead and maximize scalability.
 
 Last week [Google released an official Node.js client library for accessing Google APIs](https://github.com/google/google-api-nodejs-client/#readme) that supports authorization and authentication using OAuth 2.0. Then earlier this week, Amazon Web Services announced that [AWS Elastic Beanstalk, their PaaS solution now supports Node.js applications](http://aws.typepad.com/aws/2013/03/aws-elastic-beanstalk-for-nodejs.html).

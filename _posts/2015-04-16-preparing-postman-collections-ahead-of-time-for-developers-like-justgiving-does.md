@@ -15,8 +15,6 @@ tags:
   - Developers
   - Postman Collections
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/just-giving-postman.png)](https://github.com/JustGiving/JustGiving.Api.Tools.Postman)
-
 I have been slowly [adding Postman Collections to many of the APIs indexes](http://alpha.apievangelist.com/2015/04/07/including-postman-collections-in-my-apisjson-files/) for my [new master stack](https://kin-lane.github.io/master/index.html). I index each API using an APIs.json file, as well as provide a master APIs.json which brings together all of the APIs, into the single portal I've published to Github. Within some of the APIs, you will see a Postman icon, allowing you to easily import the API definition into postman, directly from each APIs landing page.
 
 When [I first published that I was publishing these Postman collections on my Alpha API Evangelist blog](http://alpha.apievangelist.com/2015/04/07/including-postman-collections-in-my-apisjson-files/), someone from the [donation API platform Just Giving](https://api.justgiving.com/docs) said they also [prepare Postman collections for their developers, and publish them to Github](https://github.com/JustGiving/JustGiving.Api.Tools.Postman) for their API consumers: 

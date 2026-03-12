@@ -10,8 +10,6 @@ tags:
   - Data
   - Agency
 ---
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/clinical-trials-gov.png)](https://clinicaltrials.gov)
-
 In the last six months I was fortunate enough to be able to push forward one of my side projects, with the help of a [prototype grant from the Knight Foundation](http://knightfoundation.org/grants/201551217/). The mission of the project, is to help move forward existing open federal government data projects, by adopting them, and helping clean up the data, publish simple APIs, generate more meta data, while also telling stories around the project. Something [I originally called Federal Agency Dataset Adoption](http://kinlane.com/2014/01/18/adopt-a-federal-government-dataset/), but then shortened to simply [Adopta.Agency](http://adopta.agency).
 
 When I was doing my final presentation in Pittsburgh last month, for the Knight Foundation, someone from the University of Miami was present, and when they got home, contacted me about helping move forward the [database available at ClinicalTrials.gov](https://clinicaltrials.gov/). I do not know much about the data present in the collection, but immediately recognized it as a viable Adopta.Agency project.

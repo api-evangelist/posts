@@ -9,8 +9,6 @@ tags:
   - Education
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/priorities/university-of-api.png)](http://university.apievangelist.com/)
-
 Maybe I’m a little biased at the moment, after participating in a [Reclaim Your Domain hackathon](http://kinlane.com/2014/07/22/reclaim-your-domain-la-hackathon-wrapup/) with some really smart folks from multiple universities, as well as working on my first white paper on APIs in higher education, but I feel pretty strongly that higher education institutions focusing on APIs will extremely important in the next two years.
 
 I’m constantly working to understand the big picture of the emerging API economy, [the importance of the government API development phase](http://apievangelist.com/2014/02/24/the-importance-of-a-government-api-phase/), and [working to understand what is next for the US government API strategy](http://apievangelist.com/2014/01/06/what-is-next-for-the-us-government-api-strategy/), while also [acknowledging we need the enterprise to continue waking up to the potential of APIs](http://apievangelist.com/2014/02/17/what-is-the-next-phase-of-apis/). I think, right along with government, and the enterprise, another importance piece of the overall API puzzle is increasing the focus on [APIs in higher education](http://university.apievangelist.com/).

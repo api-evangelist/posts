@@ -8,8 +8,6 @@ author:
 tags:
   - Video
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/macaulay-library/The-Cornell-Lab-of-Ornithology-Macauay-Library.png)](http://macaulaylibrary.org/)
-
 I was listening to [Did You Hear That? I Think It Was The Sound Of A Walrus](http://www.npr.org/2013/02/02/170849125/did-you-hear-that-i-think-it-was-the-sound-of-a-walrus), on NPR this morning. It is about the [Macaulay Library](http://macaulaylibrary.org/), which is:
 
 > _...the world's largest and oldest scientific archive of biodiversity audio and video recordings. Our mission is to collect and preserve recordings of each species' behavior and natural history, to facilitate the ability of others to collect and preserve such recordings, and to actively promote the use of these recordings for diverse purposes spanning scientific research, education, conservation, and the arts._

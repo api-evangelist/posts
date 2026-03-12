@@ -9,8 +9,6 @@ tags:
   - Resources
   - Power
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/paynearme/paynearme.png)](http://www.paynearme.com/en)
-
 In the days before the Internet when you had access to a valuable business resource, you kept it to yourself as long as you possibly can, hoping to maximize the potential to your business, and limiting other businesses access to the same resource--if possible you secured some sort of exclusive deal.
 
 In the age of the Internet, APIs have democratized access to extremely valuable resources, making them available to developers and businesses of all shapes and sizes. Resources like mapping from Google Maps, compute power from Amazon, and deployment of of phone numbers around the globe using Twilio, do not take millions of dollars and the negotiations of big deals, they are all accessible to anyone via web APIs.

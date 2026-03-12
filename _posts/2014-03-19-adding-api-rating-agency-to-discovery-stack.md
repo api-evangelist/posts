@@ -13,8 +13,6 @@ tags:
   - Discover
   - ddi
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-rating-agency-logo.png)](http://apiratings.org/)
-
 I’m adding the [API Rating Agency](http://apiratings.org/) to my stack of companies who deliver in the area of [API discovery](http://discovery.apievangelist.com/ "API discovery"). The API Rating Agency helps API consumers understand each API provider on a whole list of metrics, ranging from terms of service to platform uptime.
 
 Rating of APIs has been a nut I’ve been trying to crack for a couple years now, resulting in a ranking system that is more human, than algorithm—so I know how hard it is to go through hundreds of APIs, and develop some sort of coherent ranking system.

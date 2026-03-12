@@ -13,8 +13,6 @@ tags:
   - Swagger
   - ddi
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/bw-swagger-round.png)](http://swagger.io/)
-
 [I have a research project dedicated to trying to understand al things Swagger.](http://swagger.apievangelist.com) I try to add any new research, or tooling there when I can. The latest thing I added was a page to list out Swagger extensions that I find in the wild.
 
 [I knew Apigee has extended Swagger in some interesting ways](http://apievangelist.com/2015/03/12/crafting-exactly-the-api-definition-you-need-with-swagger-vendor-extensions/), but I was coming across other interesting examples, and want to try and aggregate into a single location, so that others can reference and build upon. 

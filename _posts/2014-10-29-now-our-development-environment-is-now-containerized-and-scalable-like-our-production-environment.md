@@ -12,8 +12,6 @@ tags:
   - Product
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/codenvy/codenvy-logo.jpg)](http://codenvy.com)
-
 The production environment for delivering web and mobile applications has radically evolved in the last couple years, becoming more distributed, scalable, virtualized, and containerized. APIs, and new development frameworks are providing a smorgasbord of resources for developers to put to work, and devops is putting more power and control, throughout the development life cycle, directly into a developers hands. It is time that a developers environment evolves to keep pace with the environment developers are building applications for.
 
 I’ve been talking about [containerization in the API space](http://apievangelist.com/2014/04/07/containers-will-do-for-apis-what-apis-do-for-companies/) for a while now, something that is still a very manual process, so I have been looking out for a potential development environment that matches my vision for orchestration with APIs for some time now. This is why I was stoked when I ran into Tyler Jewell ([@TylerJewell](https://twitter.com/TylerJewell)) back in September, who introduced me to [Codenvy](http://codenvy.co)—"a new SaaS developer environment that allows developers to create hosted environments optimized for creating, editing, compiling, testing and debugging applications authored in different programming languages”.

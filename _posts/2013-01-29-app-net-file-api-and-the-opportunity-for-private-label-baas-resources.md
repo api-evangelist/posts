@@ -9,8 +9,6 @@ author:
 tags:
   - Resources
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/AppNet/AppNet-Logo.png)](https://join.app.net/)
-
 [App.net has just released a File API](http://blog.app.net/2013/01/28/announcing-the-app-net-file-api/) to add to their messaging and communication stack, allowing any App.net account to natively store files via the social platform.
 
 Each App.net account will be given a 10GB file storage area, allowing applications to read and write files, that can be linked and embedded within App.net communications.

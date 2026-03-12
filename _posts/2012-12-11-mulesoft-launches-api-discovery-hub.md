@@ -9,8 +9,6 @@ tags:
   - Discovery
   - Discover
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mulesoft/mulesoft-logo.jpeg)](http://www.mulesoft.org/)
-
 API Discovery is becoming an increasingly troubling problem. As an analyst, I see a dizzying amount of APIs each month. When I get asked to find a particular type of API, or group of APIs in a particular industry--it gets difficult to discover a meaningful results to any query.
 
 My options for API discovery historically has been [ProgrammableWeb](http://www.programmableweb.com). The OG API Directory.

@@ -8,8 +8,6 @@ author:
 tags:
   - Search
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apache-solr/apache-solr-logo.png)](http://lucene.apache.org/solr/)
-
 I was going through the [Free Law Project Court Opinion API](https://www.courtlistener.com/api/rest-info/#search-endpoint) today, playing with the API and data, while developing some server and client side tooling. All the API endpoints are pretty consistence because they used their Django model and the [Tastypie framework](http://django-tastypie.readthedocs.org/en/latest/) to generate most of the API.
 
 There is one endpoint that is radically different from the rest of the opinion API: the /search endpoint. The Free Law Project used [Apache Solr](http://lucene.apache.org/solr/) to generate the /search endpoint results and instead of directly hitting just the database for information it utilized Solr index to do the heavy lifting.

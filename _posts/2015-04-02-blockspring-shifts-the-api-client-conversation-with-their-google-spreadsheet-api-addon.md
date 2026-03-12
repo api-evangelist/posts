@@ -11,8 +11,6 @@ tags:
   - Client
   - Spreadsheet
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/blockspring/blockspring-logo.png)](https://www.blockspring.com/)
-
 The one thing I've learned in five years as the API Evangelist is that us technologists and developers don't always see the world like everyone else. We focus on the perfection of the technology, our own desires for the future, and often miss the mark on what end-users actually need. This is one of the hallmark success of APIs over SOA, is that by accident, APIs jumped out of the SOA petri dish (thanks Daniel Jacobson - [@daniel\_jacobson](https://twitter.com/daniel_jacobson)), and was use solve everyday problems that end-users face, using the technology that is readily available (aka HTTP).
 
 While I think us API folks have done a great job of delivering valuable resources to mobile applications, and a decent enough job at delivering the same resources to web applications, and I guess we are figuring out the whole device thing? maybe? maybe not? Regardless, one area we have failed to serve a major aspect of the business world, is delivering valuable API resources to the number #2 client in the world—the spreadsheet.

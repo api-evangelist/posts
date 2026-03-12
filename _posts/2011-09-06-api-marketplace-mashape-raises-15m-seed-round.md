@@ -9,8 +9,6 @@ tags:
   - Marketplace
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/mashape-logo.png)](http://www.mashape.com/)
-
 [Mashape](http://www.mashape.com/), the upcoming, self-service marketplace for APIs, which provides a platform to distribute, consume and manage cloud based APIs, has just [closed $1.5M in seed funding](http://blog.mashape.com/mashape-raises-15m-from-nea-index-crv-jeff-be "closed 1.5 million in seed funding").  
   
 The round was led by [NEA](http://www.crunchbase.com/financial-organization/new-enterprise-associates "NEA"), with [Index Ventures](http://www.crunchbase.com/financial-organization/index-ventures "Index Ventures"), [Charles River Ventures](http://www.crunchbase.com/financial-organization/charles-river-ventures "Charles River Ventures") and [Ignition](http://www.crunchbase.com/financial-organization/ignition-partners "Ignition Partners") [Partners](http://www.crunchbase.com/financial-organization/ignition-partners "Ignition Partners") participating, and on the angel side of things, [Jeff Bezos](http://en.wikipedia.org/wiki/Jeff_Bezos "Jeff Bezos") and Eric Schmidt’s [Innovation Endeavors](http://www.crunchbase.com/financial-organization/innovation-endeavors "Innovative Endeavors"), as well as [Erik Rannala](http://www.crunchbase.com/person/erik-rannala "Erik Rannaia"), [Russell Siegelman](http://www.crunchbase.com/person/russell-siegelman "Russ Siegelman") and [Rick Webb](http://www.crunchbase.com/person/rick-webb "Rick Web") jumped in.  

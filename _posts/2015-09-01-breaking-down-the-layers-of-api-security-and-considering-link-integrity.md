@@ -8,8 +8,6 @@ author:
 tags:
   - Security
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/meta-cert-logo.png)](https://metacert.com/)
-
 One of the reasons I setup individual research projects, is to provide me with a structure for better defining each aspect of the API world, something I am working hard to jump-start within my [API security research](http://security.apievangelist.com/). You will notice the project does not have any building blocks defined, [which when you compare with one of my oldest research areas](http://management.apievangelist.com/building-blocks.html), you start to see what I mean.
 
 The blog posts, and other links I curate as part of my API security will help me find companies and tools that are providing value to the space. As I break down each company, and what they offer, I often have to read between the lines, in trying to understand how an API, service, or tool can be used by API providers, as well as potentially API consumers. I am looking for APIs that offer security, but also APIs that offer security to APIs--make sense?

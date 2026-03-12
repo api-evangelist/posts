@@ -10,8 +10,6 @@ tags:
   - Code
   - Git
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png)](http://github.com)
-
 I have been using [Github](http://github.com) to manage my code for a couple years now, but in the last year I'm using Github more often for a variety of projects that don't always have code involved--examples ranging from [hosting slide decks for my talks](http://kinlane.github.io/talks/) to repositories for my [API research projects](/trends/).
 
 In the last couple months I've noticed I'm not the only one using Github to organize projects, check out of a few of these examples:

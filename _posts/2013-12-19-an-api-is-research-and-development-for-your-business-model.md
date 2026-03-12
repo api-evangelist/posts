@@ -9,8 +9,6 @@ tags:
   - Business
   - Research
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/pop-up-archive/pop-up-archive-logo.png)](https://www.popuparchive.org/ "Pop Up Archive")
-
 I spend a lot of time talking to folks on the phone, Skype, in Google Hangouts and in person about their API business models. Not everyone I talk with is willing to share their story public, so I'm also happy when I meet folks who are as open and transparent about figuring all of this out as I am.
 
 This morning I spoke with Anne and Bailey over at the [Pop Up Archive](https://www.popuparchive.org/ "Pop Up Archive") about their upcoming API, and potential business model(s) for their API when ready. We talked about their immediate API release and then brainstormed about how to get the word out, how people might use the API, and possible approaches monetization.

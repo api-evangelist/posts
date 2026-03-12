@@ -9,7 +9,7 @@ tags:
   - APIs
   - Print
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/mimeo-logo.jpg)](http://www.mimeo.com/)Even though I cover the entire industry around APIs here on [API Evangelist](http://www.apievangelist.com "API Evangelist"), I also am the API Evangelist for [Mimeo Connect](http://developer.mimeo.com "Mimeo Connect").   Mimeo is a printing API that allows you to print a wide variety of business documents, using your Mimeo.com account.  Its pretty powerful stuff, if you think about it, an API that is connected to 3 print facilities.  
+Even though I cover the entire industry around APIs here on [API Evangelist](http://www.apievangelist.com "API Evangelist"), I also am the API Evangelist for [Mimeo Connect](http://developer.mimeo.com "Mimeo Connect").   Mimeo is a printing API that allows you to print a wide variety of business documents, using your Mimeo.com account.  Its pretty powerful stuff, if you think about it, an API that is connected to 3 print facilities.
 
 The API seems pretty straightforward at first glance, but developers seem to be encountering three major obstacles:
 

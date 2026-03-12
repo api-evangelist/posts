@@ -9,8 +9,6 @@ tags:
   - Embeddable
   - Strategy
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/bandpage/BandPage-Logo-1.png)](http://www.bandpage.com/ "BandPage")
-
 Embeddable tools like widgets, gadgets and buttons built on top of an API are nothing new. A healthy embeddable strategy was behind the success of popular platforms like Youtube, Google Maps, Twitter and Facebook.
 
 Even with this success, embeddable tools often get overlooked by many companies when planning their APIs. I was recently introduced to [BandPage](http://www.bandpage.com/ "BandPage"), formerly known as RootMusic, who made a name for themselves by building a successful band promotion application within the Facebook ecosystem, and have crafted a very interesting embeddable strategy. To recover from a recent Facebook platform change, BandPage employed a robust embeddable strategy to quickly decouple their business from Facebook, enabling bands to not only deploy on Facebook, but manage music, photos, tour dates across the web.

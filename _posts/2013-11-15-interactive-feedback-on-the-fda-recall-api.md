@@ -8,8 +8,6 @@ author:
 tags:
   - Feedback
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/fda-recall.jpg)](http://fda-data.github.io/fda-recalls/)
-
 I have a long list of little projects I'm working across government, and since I'm not being paid for some of this work now (except for the support of my amazing partners), the publicity and page views for this work is all I got! :-) So I'm publishing the stories around everything I do.
 
 Up next: I was asked for some feedback on the FDA Recall API that is in pre-production currently, and I thought, what better way to offer feedback on API design than actually [sculpting a Swagger definition of the changes](http://api.fda.publicprivatesector.org/swagger/kinlane/recalls/recalls) and making it [usable via Github](http://fda-data.github.io/fda-recalls/).

@@ -8,8 +8,6 @@ author:
 tags:
   - Analytics
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/wso2/wso2-logo-white-400X180.png)](http://wso2.com/products/api-manager "open source API management platform")
-
 WSO2's [open source API management platform](http://wso2.com/products/api-manager "open source API management platform") for creating, managing, consuming and monitoring APIs, now has the ability to track API usage through Google Analytics.
 
 Since APIs are deployed using HTTP, the same transport we are using for websites, it makes sense that we should be able to see statistics for both our websites and APIs, side-by-side using Google Analytics.

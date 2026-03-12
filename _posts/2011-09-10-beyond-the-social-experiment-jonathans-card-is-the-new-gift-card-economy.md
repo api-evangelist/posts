@@ -9,7 +9,7 @@ tags:
   - Economy
   - Social
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/Jonathans-Card/starbucks-gift-card-300x229.jpg)](https://www.starbucks.com/card)I followed the [Jonthan’s Card Socal Experiment](http://jonathanstark.com/card/ "Jonathans Card Social Experiment") closely. The whole time I had an entry on my to do list, to write a story about it. I never successfully found an angle I could get behind, then [Audrey](http://www.hackeducation.com "Audrey Watters") said, “Why don’t you just write about he tech behind it?”.
+I followed the [Jonthan’s Card Socal Experiment](http://jonathanstark.com/card/ "Jonathans Card Social Experiment") closely. The whole time I had an entry on my to do list, to write a story about it. I never successfully found an angle I could get behind, then [Audrey](http://www.hackeducation.com "Audrey Watters") said, “Why don’t you just write about he tech behind it?”.
 
 Great idea! Jonathan’s Card is interesting as a social or marketing experiment, but I am more interested in the technology that was used to make it happen, not just the social experiment.
 

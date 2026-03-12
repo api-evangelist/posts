@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/wso2/wso2-multi-tenancy.png)](http://wso2.org/library/articles/2013/05/multitenant-api-management-new-wso2-api-manager-140)
-
 I just had a demo of some of the new features in the [WSO2 API Manager](http://wso2.com/products/api-manager/ "API Manager"). Since WSO2 is one of my partners, I have a regular call with them to discuss the space and I often get demos of their new products and features.
 
 Today's topic was [multi-tenacy in their API Management platform](http://wso2.org/library/articles/2013/05/multitenant-api-management-new-wso2-api-manager-140), meaning you can easily deploy multiple API portals using the platform. Not every company will need more than one API portal, but for some companies that are further along, it provides a pretty sophisticated way to engage with API consumers.

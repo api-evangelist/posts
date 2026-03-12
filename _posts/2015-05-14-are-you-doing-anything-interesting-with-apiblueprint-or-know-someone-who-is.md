@@ -8,8 +8,6 @@ author:
 tags:
   - Blueprint
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apiary/bw-api-blueprint-icon.png)](http://api-blueprint.apievangelist.com/)
-
 [I am preparing for a big week of discussion around API definitions at Gluecon](http://apievangelist.com/2015/05/13/it-will-be-a-busy-week-for-api-industry-next-week-at-gluecon/), and [in addition to working on my Swagger research](http://swagger.apievangelist.com/), I kicked off deeper research into [API Blueprin](https://apiblueprint.org/), looking for the companies that are doing interesting things in the space, using the machine readable API definition format.
 
 As i do with all my work, [I have a Github repository setup for the research](http://api-blueprint.apievangelist.com/), allowing me to publish all of my work publicly, and manage feedback and engagement with the community, using my Github workflow. If you want to make any changes to the data you can fork and submit a pull request, or [you can also suggest companies I should be looking at, as a Github issu](https://github.com/kinlane/api-blueprint/issues/new?title=Question%20About%20Your%20API%20Blueprint%20Research&body=)e.

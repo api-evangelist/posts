@@ -13,8 +13,6 @@ tags:
   - AI
   - Open
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/open-api-logo.png)](https://openapis.org/)
-
 We reached another significant milestone in the API space today, after being acquired by SmartBear this spring, the Swagger specification is being moved into a Linux Foundation grouped called the [Open API Initiative (OAI)](https://openapis.org/).
 
 SmartBear has been working with the core group of vendors including 3Scale, Apigee, Capital One, Google, IBM, Intuit, Microsoft, PayPal, and Restlet over the summer to hammer out the details of the organization, and the charter that drives the group forward.

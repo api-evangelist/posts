@@ -10,8 +10,6 @@ author:
 tags:
   - Systems
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/universities/uc-berkeley/associated-student-university-california-logo.png)](http://asuc.org/)
-
 On November 6th, 2013 the [Associated Students, University of California(ASUC) Senate](http://asuc.org/ "ASUC") submitted SB 48: [A Bill in Support of Student Information Systems Application Developers](http://asuc.org/wp-content/uploads/2013/11/Week-10-Agenda-Packet-11.6.131.pdf), stating that "open data and API compatibility is a necessary feature in the new Student Information System".
 
 UC Berkeley has embarked on a "Student Information System Replacement Project" that is looking to "replace its constellation of aging, unique, disparate home-grown student systems with a modern, nimble and effective vendor-supported system". Systems including financial aid, registration, enrollment, admissions and records are being targeted for replacement.

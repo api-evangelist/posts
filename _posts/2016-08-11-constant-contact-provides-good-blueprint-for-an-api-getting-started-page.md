@@ -8,8 +8,6 @@ tags:
   - Getting Started
   - Blueprint
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Get_Started_Constant_Contact_Developer.png)](http://developer.constantcontact.com/get-started.html)
-
 I was going through the getting started pages for the APIs that I keep an eye on, pulling together an outline of what I'd consider to be some of the best elements across all the API providers. Then I came across the [getting started page from Constant Contact](http://developer.constantcontact.com/get-started.html), and I'd say they win for being the clearest and concise API getting started page of them all. 
 
 Constant Contact's approach to their getting started page has given me a good start for my outline, including essential links to setup your account, create a new application and get your keys. Constant Contact also provides required documentation, an API tester, and supporting code libraries. Additionally, they encourage you to certify your integration as a partner and get published in their integration marketplace--providing a pretty well thought out getting started page in my opinion.

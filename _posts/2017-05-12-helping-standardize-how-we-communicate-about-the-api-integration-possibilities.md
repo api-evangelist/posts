@@ -7,8 +7,6 @@ atomdate: 2017-05-12T22:00:00.000Z
 tags:
   - Integration
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_integrations_icon_page.png)](http://api.integration.tool.apievangelist.com/integrations-icons/)
-
 Showcasing the integrations that are possible with your API via your API developer portal is an increasingly important way to demonstrate the usefulness of your API resources. Companies like [Amazon](https://aws.amazon.com/codedeploy/product-integrations/), [DataDog](https://www.datadoghq.com/product/integrations/), [Intercom](https://www.intercom.com/integrations), and other leading providers showcase other systems their solution is already integrated with. When it comes to API solutions, applications aren't just web and mobile, they are often system to system integrations with many of the SaaS and other software solutions that companies are already using in their operations.
 
 As I do with other types of signals coming out of the API space I'd like to see more API providers publish a listing of possible integrations, and [I've created a simple API solution for managing an API integration page that can run in any Jekyll environment and possesses an API core](http://api.integration.tool.apievangelist.com/integrations-icons/). Using my approach to managing simple datasets, and publishing a human and machine interface using Github, I published an [API integration page solution](https://github.com/api-evangelist-tools/api-integration). Anyone can fork the project, reskin the look & feel of the website, and update the listing of integrations that are possible using a Google spreadsheet, then publishing the latest data using a Github repo and site.

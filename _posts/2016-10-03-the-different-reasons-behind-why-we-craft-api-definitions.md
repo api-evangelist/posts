@@ -8,8 +8,6 @@ tags:
   - Definition
   - Diff
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/whitepapers/definitions/api-evangelist-api-definitions-guide-may-2016-cover.png)](http://definitions.apievangelist.com/)
-
 [I wrote a post about the emails I get from folks telling me the API definitions contained within my API stack research](http://apievangelist.com/2016/09/26/my-api-definitions-are-incomplete-but-you-do-not-want-to-contribute/), something that has helped me better see why it is I do API definitions. I go through APIs and craft OpenAPI Specs for them because it helps me understand the value each company offers, while also helping me discover interesting APIs and the healthy practices behind them.
 
 The reason [I create API definitions and organize them into collections is all about discovery](http://theapistack.com/). While some of the APIs I will be putting to use, most of them just help me better understand the world of APIs and the value and the intent behind the companies who are doing the most interesting things in the space.

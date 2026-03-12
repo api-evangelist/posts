@@ -11,8 +11,6 @@ tags:
   - Open Source
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/api-spark/restlet-apispark.png)](http://bit.ly/1sgwGpq)
-
 I’m always on the hunt for common patterns that are working within the API space, and shine light on them, work to understand why they work, so that others can emulate these successful patterns in the space. One approach I’ve seen work well, in many situations, is a combination of open source and a Platform as a Service (PaaS), and I’m going to highlight the implementation of this model by one of the API Evangelist partners—[Restlet / APISpark](http://bit.ly/1sgwGpq).
 
 **Open Source For Developers**  

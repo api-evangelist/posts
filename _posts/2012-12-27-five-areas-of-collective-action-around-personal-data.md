@@ -9,8 +9,6 @@ tags:
   - Data
   - Personal
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/world-economic-forum/world-economic-forum-personal-data-cover.png)](http://www3.weforum.org/docs/WEF_ITTC_PersonalDataNewAsset_Report_2011.pdf)
-
 I'm immersed in deep thought around my personal data, asking some important [questions about my digital self](http://personaldata.apievangelist.com/)\--which includes the state of my online personal data.
 
 After reading [14 big trends to watch in 2013](http://radar.oreilly.com/2012/12/14-trends-for-2013.html), by Alex Howard ([@digiphile](https://twitter.com/digiphile)), I got immersed in [World Economic Forums Personal Data: The Emergence of a New Asset Class](http://www3.weforum.org/docs/WEF_ITTC_PersonalDataNewAsset_Report_2011.pdf) paper.

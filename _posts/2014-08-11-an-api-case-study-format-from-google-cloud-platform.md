@@ -9,8 +9,6 @@ tags:
   - Cloud
   - Platform
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/google-cloud-platform/google-cloud-platform-logo.png)](https://cloud.google.com)
-
 I was browsing through [Google’s Cloud Platform](https://cloud.google.com), in the 15 minute lead up to a preliminary discussion with Google about being an evangelist for the platform (another story), and I saw a useful pattern from the "customers" section for publishing API customer case studies--something I wanted to share with you.
 
 This pattern was evident in the [Travel Agency Masters Big Data with Google BigQuery case study](https://cloud.google.com/customers/redbus/). I think the format for the case study provides a simple format that other API providers might consider following:

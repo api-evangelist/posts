@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/singly/singly-logo_300.png)](http://www.singly.com/ "Singly")
-
 When it comes to any business, you want to showcase your team, and the value they bring to the table.  
 
 One of the things I do here at [API Evangelist](http://apievangelist.com "API Evangelist"), is showcase great examples of technology across the API industry.  

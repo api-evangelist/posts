@@ -8,8 +8,6 @@ tags:
   - Specifications
   - Open
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fullcontact-update.png)](https://www.fullcontact.com/)
-
 I get these regular updates from [FullContact](https://www.fullcontact.com/) when there is new information available about the contacts I have added to my contact list of people I care about. Anytime there is a new photo, social network, or other element of their contact information updated, I get notified, andI  can choose to update it in my CRM.
 
 Would someone go ahead and create this, but for OpenAPI Specifications? All you have to do is use Github, and build your own index of the websites of leading companies who are publishing APIs (common crawl is good start), and begin keeping track of ALL of the OpenAPI Specs, and API Blueprints that are increasingly spread across the web. [Then you will need to develop some sort of API definition diff solution (which I've talked about before)](http://apievangelist.com/2016/01/04/diff-and-merging-of-api-definition-formats/), and then send me any changes or updates that I do not have in my directory of API definitions--which you know, because you have indexed already.

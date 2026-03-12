@@ -9,8 +9,6 @@ tags:
   - Social
   - APIs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/singly/singly-logo.png)](https://www.singly.com/ "Singly")
-
 Web APIs come in all shapes and sizes. The differences between API authentication, interfaces and data types can be a big challenge when developers work with multiple social networking APIs like Twitter, Facebook and social media APIs like Instagram and Flickr.
 
 Each API tends to run with their own interpretation of what a RESTful API means, leaving developers left with navigating not only the differences between various APIs, but the changes a single API will make from version to version.

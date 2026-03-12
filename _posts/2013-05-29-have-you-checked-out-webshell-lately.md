@@ -8,8 +8,6 @@ author:
 tags:
   - Web
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/webshell/webshell-logo.jpg)](http://webshell.io/)
-
 Have you checked out what the [Webshell.io](http://webshell.io/ "Webshell.io") team is up to lately?  I know I haven't been in there for a couple months, and it looks like they've been heads down making some interesting improvements.
 
 ### New Cloud IDE

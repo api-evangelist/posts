@@ -10,8 +10,6 @@ tags:
   - APIs
   - Product
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/product-hunt/product-hunt-logo.jpg)](http://www.producthunt.com/)
-
 It can be hard to keep up with what the latest geek trends are--where all of the latest digital watering holes are (especially when your old), that allow you to find the latest info, conversations, and links to everything cool and hip. I depend on my network of API peeps for tips, and last week I was introduced to a new place that I wanted to pass on to you, called [Product Hunt](http://www.producthunt.com/).
 
 Product Hunt does a good job of describing what they do:

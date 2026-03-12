@@ -8,8 +8,6 @@ tags:
   - Design
   - Copyright
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-design.png)](http://design.apievangelist.com/)
-
 In 2014 [API design](http://design.apievangelist.com/) is exploding, proving to be one of the fastest growing areas of the API industry. For many years we’ve talked purely about API management, but after consolidation in the space, and serious growth, the conversation has shifted.
 
 The API conversation is moving upstream in the API lifecycle, focusing on designing, mocking, and collaborating around designing the best quality APIs possible, that will meet the needs of consumers--before any code is written and deployed.

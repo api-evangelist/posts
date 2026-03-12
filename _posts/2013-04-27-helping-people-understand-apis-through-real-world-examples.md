@@ -10,8 +10,6 @@ tags:
   - APIs
   - People
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/commercial-fueling-network/commercial-fueling-network.jpg)](http://www.cfnnet.com/)
-
 I'm always looking for easy, dead simple approaches to explaining APIs to people. Having real world examples, that folks can relate with, go along way in helping people wrap their heads around the very abstract concepts that are APIs.
 
 While going for a walk today I was thinking back when I use to build technology for my parents trucking company, when one of the fuel expenses was for [Commercial Fueling Network](http://www.cfnnet.com/) (CFN), which is a self-service commercial fueling station.

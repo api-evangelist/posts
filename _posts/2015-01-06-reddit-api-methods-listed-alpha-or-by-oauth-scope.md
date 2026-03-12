@@ -11,8 +11,6 @@ tags:
   - Reddit
   - Methods
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/redit-api-listing.png)](https://www.reddit.com/dev/api)
-
 I was taking another look at the [Reddit API](https://www.reddit.com/dev/api) over the weekend, and thought their listing of API endpoints was pretty interesting. They provide two ways of looking at the platform APIs:
 
 *   **API Section** - Listing of Reddit APIs by account, apps, links, listings, and other groupings.

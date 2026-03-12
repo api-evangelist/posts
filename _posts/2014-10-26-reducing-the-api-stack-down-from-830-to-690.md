@@ -7,8 +7,6 @@ author:
 tags:
   - Stack
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-stack/api-stack-logo.png)](http://theapistack.com/)
-
 I just finished going through my [API Stack](http://theapistack.com/), taking a fresh look at each API provider, and recording some information about each of the providers in my API monitoring system. When I started looking through my stack a couple days ago there was 830 companies listed, and after this pass through I carved the stack down to 690--why?
 
 **APIs Go Away**  

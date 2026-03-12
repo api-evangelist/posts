@@ -8,8 +8,6 @@ tags:
   - Design
   - Skills
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/cyber-innovation-unit.jpg)](http://www.battelle.org/our-work/national-security/cyber-innovations)
-
 It is hard for me to track on everything in the API space as a one man show, but one thing I keep an eye on, but rarely add to my research (yet) are the increasing number of job postings I come across that have an API focus. An interesting one this week, which follows a new vein in the API space that I'm mining, is out of [the applied science technology research organization Battelle](http://www.battelle.org/careers).
 
 They have an interesting [job posting for a cyber computer scientist](http://jobs.militarytimes.com/jobs/Cyber-Computer-Scientist-II/J3J2PL717Z5R8TS0JMJ) with Battelle’s Cyber Innovation Unit (CIU) providing "a broad range of products and services including Cyber Intelligence and Counter Intelligence, Cyber Research and Development and Fundamental Science, On­site Advisory Services, and Mission Focused tools including Embedded Systems Reverse Engineering." 

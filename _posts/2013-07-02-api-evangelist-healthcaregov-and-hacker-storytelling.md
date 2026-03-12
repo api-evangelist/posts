@@ -11,8 +11,6 @@ tags:
   - Storytelling
   - Evangelist
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.jpg)](http://github.com)
-
 I've been slowly evolving API Evangelist from a single site, into an interconnected network of individual API projects. API Evangelist started as a research project back in July 2010, making its shift to be a network of smaller, inter-connected research projects is fitting.
 
 While API Evangelist currently still runs on my home brew CMS, shortly it will finish the migration to completely run on Github, making it merely a "hollywood front" for what is c[urrently 37+ API related, living research projects](http://www.apievangelist.com/2013/07/01/the-expanding-api-evangelist-network/) of mine.

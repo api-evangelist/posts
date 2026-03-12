@@ -9,8 +9,6 @@ tags:
   - Platform
   - DevOps
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/aggregation-trend.png)](http://aggregation.apievangelist.com/)
-
 There are two distinct types of APIs I keep an eye on. One is what I call my life cycle APIs, which are the APIs of the service providers who are selling services and tools to API providers and developers. The second category is what I call my stack network, and these are the individual API providers, who offer a wide range of API resources--[you can find both of these types on the home page of API Evangelist](http://apievangelist.com). 
 
 The 50+ life cycle APIs I track on can be used by companies to manage almost every stop along a modern API life cycle. In theory, all of these service providers have APIs. In reality, they do, but they do not practice what they preach and often do not make their APIs easily discoverable. [I have said it a thousand times before--if you sell online services to API providers, you should have an API](http://apievangelist.com/2015/10/27/which-api-service-providers-across-the-20-areas-i-track-on-have-apis/). Period.

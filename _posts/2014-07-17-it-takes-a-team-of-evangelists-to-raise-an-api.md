@@ -9,8 +9,6 @@ tags:
   - Evangelist
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid-logo.jpeg)](http://sendgrid.com)
-
 There are a lot of lessons to be learned from the leaders of the API space, pioneers like [Amazon](http://aws.amazon.com/), [Twilio](https://www.twilio.com/) and [SendGrid](http://sendgrid.com/team), when it comes to running our own API programs. Fortunately for the community, most of the leading API providers are willing to share their experience and wisdom with us, such as SendGrid, with their latest series [Tips and Tricks for a Beginner Developer Evangelist](http://sendgrid.com/blog/tips-tricks-beginner-developer-evangelist-part-2/).
 
 The blog series delivers some great API evangelism wisdom, from the mouths of evangelists, who are in the trenches, getting the word out about the email API platform, and supporting its large ecosystem of application developers. I'll let you read the tips from the SendGrid team, what I thought was interesting, was the makeup of their evangelist team.

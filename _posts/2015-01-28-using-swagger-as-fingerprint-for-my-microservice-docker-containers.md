@@ -13,8 +13,6 @@ tags:
   - Micro
   - Fingerprint
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-api-docker.png)](https://kin-lane.github.io/master/)
-
 I'm rebuilding my underlying architecture using microservices, and docker containers, and I'm [using APIs.json for navigation and discovery within these new API stacks](http://apievangelist.com/2015/01/28/using-apisjson-for-my-microservice-navigation-and-discovery/) that I use to make my world go around. As I assign each microservice, and [APIs.json file](http://apisjson.org/format.html), taking inventory of the building blocks that make the service operate, I also begin including docker into the equation, and I find myself using Swagger definitions as a sort of fingerprint for my docker powered microservices.
 
 Each microservice lives as its own Github repository, within a specific organization. I give each one its own APIs.json, indexing all the elements APIs of that specific microservice. This can include anything I feel is important, like:

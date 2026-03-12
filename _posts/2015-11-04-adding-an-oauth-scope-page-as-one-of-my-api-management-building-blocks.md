@@ -13,8 +13,6 @@ tags:
   - Scope
   - ddi
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/slack-oauth-scopes.png)](https://api.slack.com/docs/oauth-scopes)
-
 [I've had a handful of suggested building blocks when it comes to authentication, as part of my API management research](http://management.apievangelist.com/building-blocks.html), but after taking a look at the [OAuth Scopes page for the Slack API](https://api.slack.com/docs/oauth-scopes), I'm going to add another building block just for listing out OAuth scopes.
 
 For platforms who provide OAuth, scopes are how access to users content and data is being broken down, and negotiated. When it comes to industry levels, OAuth scopes are how power and influence is being brokered, so I'm going to start tracking on how leading providers are defining their scopes--I am sure there are some healthy patterns that we all can follow here.

@@ -8,8 +8,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/att/att-developer-program-logo.png)](https://developer.att.com/)
-
 Have you taken a moment and looked at the APIs AT&T is offering through their [developer program](https://developer.att.com/) lately? I think it is an interesting spread of API resources for a leading telco to offer, and is very telling about their strategy.
 
 This is one thing I like about my API monitoring platform, is that I'm forced to dive deeper into companies that are ubiquitous in the space, and make sure I'm kep in tune with where they are actually going.

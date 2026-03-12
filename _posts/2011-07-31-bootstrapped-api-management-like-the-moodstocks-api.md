@@ -8,7 +8,7 @@ tags:
   - Management
   - API Management
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/moodstocks/Moodstocks-Logo.png)](http://www.moodstocks.com/ "Moodstocks")I was reviewing the image recognition API from [Moodstocks](http://www.moodstocks.com/ "Moodstocks"), for a story on [ProgrammableWeb](http://www.programmableweb.com "ProgrammableWeb") today, and discovered another API management story I feel should be told. Its a story about bootstrapping your API management using existing free and low cost services.
+I was reviewing the image recognition API from [Moodstocks](http://www.moodstocks.com/ "Moodstocks"), for a story on [ProgrammableWeb](http://www.programmableweb.com "ProgrammableWeb") today, and discovered another API management story I feel should be told. Its a story about bootstrapping your API management using existing free and low cost services.
 
 Before users adopt your API, it can be hard to justify costs around using paid API management services to support your developer ecosystem (because at that stage the ecosystem often doesn't exist). Moodstocks approach to its API community was a great example of bootstrapping API management until you can afford more.
 

@@ -10,8 +10,6 @@ tags:
   - Definition
   - Startups
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/baas/openi/openi-logo.png)](http://www.openi-ict.eu/)
-
 I am tracking on 2000 APIs that I have deemed worthy enough to pay attention, out of the 9000 on [ProgrammableWeb](http://programmableweb.com), 13,000 in [APIHub](http://apihub.com) and numerous APIs in [Mashape's marketplace](http://mashape.com). In addition to these APIs, I'm also closely watching [30+ backend as a service providers](http://baas.apievangelist.com/ "backend as a service providers"), [20+ reciprocity providers](http://reciprocity.apievangelist.com/ "reciprocity providers") and emerging big data, analysis, visualization and other emerging platforms who are using APIs in new ways.
 
 I was reading some of the great research coming out of [OPENi](http://www.openi-ict.eu/), which is a "Open-Source, Web-Based, Framework for Integrating Applications with Cloud-based Services and Personal Cloudlets"--specifically the post on [OpenI API Framework: Studying the Landscape of Cloud-Based Services](http://www.openi-ict.eu/openi-api-framework-part-i-studying-the-landscape-of-cloud-based-services/).

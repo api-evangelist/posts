@@ -12,8 +12,6 @@ tags:
   - Open
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/slack-platform-road-map.png)](https://medium.com/slack-developer-blog/the-slack-platform-roadmap-34067b054177#.xjov5i5um)
-
 Many of the [core areas of my API research](http://apievangelist.com), and the common building blocks of the API life cycle that I talk about regularly, often seem trivial to the technically inclined, or the purely business focused segments of my audience. To many, having a road map might be a thing you have when developing and deploying an API, but really doesn't matter if you share publicly. I'd say, with technical folks they often don't even think of it, with the more business focused individuals often deliberately choose not to, seeing it as giving away too much information to your competition. 
 
 [I think Slack nails the reason why you want to open up and share your API road map](https://medium.com/slack-developer-blog/the-slack-platform-roadmap-34067b054177#.xjov5i5um). I can talk about this kind of stuff until I'm blue in the face, but people just don't listen -- they need leadership like Slack brings to the table. In their post today, they open with:

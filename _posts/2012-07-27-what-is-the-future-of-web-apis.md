@@ -9,8 +9,6 @@ tags:
   - Web
   - APIs
 ---
-![](http://kinlane-productions2.s3.amazonaws.com/highway.jpeg)
-
 Photo by [Nicholas\_T](http://www.flickr.com/photos/nicholas_t/2222229134/)
 
 APIs are about to enter a new phase, one where developers can easily program using multiple APIs at once, and non-developers can easily introduce API automation into both their business and personal worlds.  A time where APIs are seen as a valuable resource anyone can quickly put use, not just as a technical interface only the geekiest of us understand.

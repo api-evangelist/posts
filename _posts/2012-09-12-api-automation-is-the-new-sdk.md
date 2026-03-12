@@ -9,8 +9,6 @@ tags:
   - SDK
   - Automation
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/zapier/zapier-logo.jpeg)](https://zapier.com/)
-
 [](https://zapier.com/)
 
 I’m seeing a lot of talk about API automation using platforms like [IFTTT](https://ifttt.com/dashboard "IFTTT") and [Zapier](https://zapier.com/ "Zapier") these days. It’s one of the fastest growing areas of my [future of web APIs](http://apievangelist.com/2012/07/27/what-is-the-future-of-web-apis/ "future of web APIs") series.

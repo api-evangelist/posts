@@ -8,7 +8,7 @@ tags:
   - Review
   - Stack
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/stack-overflow/stackoverflow-logo-250.png)](http://stackoverflow.com/)[StackApps](http://stackapps.com) is an API for the family of Q&A websites using the Stack Exchange engine including [Stack Overflow](http://stackoverflow.com/), [Server Fault](http://serverfault.com/) and [Super User](http://superuser.com/).
+[StackApps](http://stackapps.com) is an API for the family of Q&A websites using the Stack Exchange engine including [Stack Overflow](http://stackoverflow.com/), [Server Fault](http://serverfault.com/) and [Super User](http://superuser.com/).
 
 StackApps provides a RESTFul API using a basic application key authentication. The API provides access to Stack Apps user data as well as questions, answers and comments.
 

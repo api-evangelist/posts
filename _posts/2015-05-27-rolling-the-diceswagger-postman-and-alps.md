@@ -9,8 +9,6 @@ tags:
   - Postman
   - Swagger
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/roll-dice.jpeg)](http://roll.space/)
-
 I enjoy playing with simple, meaningful ways of leaning about APIs. [The other day, during the regular monitoring of the API space, I came across a simple dice rolling API, which I decide to map out using Swagger](http://roll.space/). Shortly after I did  this, [I saw Mike Amundsen post an ALPS representation of the Dice Rolling API. Around the same time](https://github.com/alps-io/profiles/blob/master/roll-dice-alps.xml), I then imported my Swagger into my Postman client, and [exported a Postman collection](https://gist.github.com/kinlane/5a0cbb906697c4f4b8fc).
 
 Once I had the three formats, I sat back to consider what each of these representations mean to me:

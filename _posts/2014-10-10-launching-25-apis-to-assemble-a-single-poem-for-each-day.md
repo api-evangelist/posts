@@ -9,8 +9,6 @@ tags:
   - Launching
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/poem-of-the-times/poem-of-the-times.png)](http://poemofthetimes.laneworks.net/)
-
 I first started Poem of the Times back around 2003, and for about five years I harvested a poem each day, from the top headlines across the top english speaking newspapers around the world. Sometime in 2008 I stopped generating the poem, but in an effort to showcase the potential of APIs, I thought it would be a good time to revive the project.
 
 Version 1.0 of Poem of the Times used RSS to pull its headlines, and for version 2.0 I want to use APIs. Something that seems impossible when you are faced with the fact that most of the top newspapers do not have APIs, which is very sad. ;-( However in 2014 we can make APIs from any web page using Scraping to API tools like [Kimono Labs](https://www.kimonolabs.com/).

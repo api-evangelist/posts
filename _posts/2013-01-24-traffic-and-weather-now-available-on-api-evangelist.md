@@ -10,8 +10,6 @@ tags:
   - Evangelist
   - ai
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/traffic-and-weather/Traffic-and-Weather.png)](http://trafficandweather.io/)
-
 I just added a new feature to the right hand menu, for the podcast [Traffic and Weather](http://trafficandweather.io/), a podcast about APIs and the cloud from John Sheehan ([@johnsheehan](https://twitter.com/johnsheehan)) and Steve Marx ([@smarx](https://twitter.com/smarx)).
 
 I’m big podcast fan, and I"m always looking for something I can listen to in the background while I’m coding or writing stories.  Traffic and Weather is great for this.

@@ -9,8 +9,6 @@ tags:
   - API Evangelist
   - Evangelist
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/api-evangelist-logo-400.png)](http://apievangelist.com "API Evangelist")
-
 Many folks who encounter [API Evangelist](http://apievangelist.com "API Evangelist") think I'm working to evangelize a single API.  I field so many questions about this I thought I would address by publishing an API Evangelist mission statement. 
 
 The mission of API Evangelist is to educate business, nonprofit and government leaders about the value of APIs to their organizations.

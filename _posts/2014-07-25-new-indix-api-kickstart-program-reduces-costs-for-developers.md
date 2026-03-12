@@ -9,8 +9,6 @@ tags:
   - Developers
   - Costs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/indix/indix-logo.png)](http://www.indix.com/)
-
 I like to showcase examples of companies who use their API communities as incubators, establishing them as a sort of external R&D lab that invests in 3rd party developers who are building cool stuff on top of their API driven resources.
 
 I came across an [announcement from product intelligence platform Indix](http://www.indix.com/blog/announcing-indix-api-v1-0-kickstart-program), in my usual monitoring of the API space, and they have a pretty cool program for their developers:

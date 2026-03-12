@@ -9,8 +9,6 @@ tags:
   - Speaking
   - 4
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/dfw-api-meetup-group/dfw-api-meetup-group.jpeg)](http://www.meetup.com/DFW-API-Professionals/events/115600132/ "DFW API Professional Meetup Group")
-
 Hey everyone. I'm heading out to the Dallas-Fort Worth area the week after next, Tuesday, May 14, to kick off the [DFW API Professionals Meetup](http://www.meetup.com/DFW-API-Professionals/events/115600132/ "DFW API Professional Meetup Group").
 
 [TheRightAPI](http://therightapi.com "TheRightAPI") team were so kind to invite me out to speak, hang out and talk APIs, to help kick-off the area API group. Both [TheRightAPI](http://therightapi.com "TheRightAPI") and backend as a service (BaaS) provider [Proxomo](http://www.proxomo.com/) are sponsoring the shindig.

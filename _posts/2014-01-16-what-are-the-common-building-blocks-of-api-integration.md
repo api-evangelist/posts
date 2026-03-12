@@ -8,8 +8,6 @@ author:
 tags:
   - Integration
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/services/api-integration.png)](http://integration.apievangelist.com/)
-
 I started API Evangelist in 2010 to help business leaders better understand not just the technical, but specifically the business of APIs, helping them be successful in their own API efforts. As part of these efforts I track on what I consider the [building blocks of API management](http://management.apievangelist.com/building-blocks.html). In 2014 I'm also researching what the building blocks are in other areas of the API world, including API [design](http://design.apievangelist.com "API Design"), [deployment](http://deployment.apievangelist.com/ "API deployment"), [discovery](http://discovery.apievangelist.com/) and [integration](http://integration.apievangelist.com/building-blocks.html "API integration").
 
 After taking a quick glance at the fast growing world of API integration tools and services, I've found the following building blocks emerging:

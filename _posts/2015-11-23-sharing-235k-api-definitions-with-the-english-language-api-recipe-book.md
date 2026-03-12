@@ -9,8 +9,6 @@ tags:
   - Definition
   - Sharing
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-copyright.png)](http://english-language-api-recipe-book.github.io/master/)
-
 I needed a side project to reboot my mind after @APIStrat this last weekend, so I opened up my notebook and picked a project that I've been meaning to give some attention to, one that would help me clean my slate, and let me get back to my regular work levels. The project I picked is one that I came up with a little over a year ago, but recently had flushed out my vision further, as I hung out at my favorite watering whole drinking an IPA.
 
 It took me several iterations before I landed on a name for this project, but my working title is [the English Language API Recipe Book](http://english-language-api-recipe-book.github.io/master/). I find myself in an awkward position these days, when it comes to the concept of API copyright, which is something I have taken a firm stance on with [my work around the Oracle v Google ava API copyright case](http://apievangelist.com/2015/08/22/what-we-can-do-to-make-a-difference-in-the-wake-of-oracle-v-google-api-copyright-case/), and the release of the [API licensing format API Commons](http://apicommons.org/), but is something, in the end, I just do not believe in.

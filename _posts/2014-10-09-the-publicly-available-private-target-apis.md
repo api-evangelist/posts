@@ -10,8 +10,6 @@ tags:
   - APIs
   - ai
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/developer-target-com-portal.png)](https://developer.target.com/)
-
 I’m doing my usual monitoring of the API space, and while looking at various developer areas, I stumbled across the [Target Developer Portal](https://developer.target.com/). I find the Target developer portal interesting because it is publicly available, but before you can get any information you have to register or login.
 
 When you land on the landing page for developer.target.com you simple get a page that says:

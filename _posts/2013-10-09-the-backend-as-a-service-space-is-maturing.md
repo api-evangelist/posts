@@ -8,8 +8,6 @@ author:
 tags:
   - Backend
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/baas-trends.png)](http://baas.apievangelist.com/)
-
 I just got off the phone with a new Backend as a Service provider [BizMobify](http://bizmobify.com/), who is looking to deliver BaaS services to the enterprise. The timing for the call couldn't be better, as I'm updating up my [BaaS white paper](http://apievangelist.com/2013/05/08/overview-of-backend-as-a-service-baas-white-paper/) this week, and one thing I'm expanding is looking at it through the enterprise lens.
 
 As I dust off my research on BaaS I'm re-visiting my [BaaS research site](http://apievangelist.com/2013/05/08/overview-of-backend-as-a-service-baas-white-paper/) and re-watching the [BaaS Panel from API Strategy & Practice in NYC](http://www.infoq.com/presentations/Mobile-Back-end-Service) last February. This is helping me understand where the space what last winter and early spring.

@@ -10,8 +10,6 @@ tags:
   - Business
   - Context
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bbb.jpg)](https://developer.bbb.org)
-
 I was happy to stumble across the [Better Business Bureau API](https://developer.bbb.org) the other day. I was working on a piece about "the API economy", and looking for real world examples of how APIs could actually contribute positively (or negatively) to the actual economy, and found the useful API. 
 
 The Better Business Bureau provides five API endpoints for consumers:

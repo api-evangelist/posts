@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/google/google_code.jpg)](http://code.google.com/)
-
 With over 100 APIs, and an army of developer advocates, Google is one of the top API ecosystems in the world, alongside Twitter and Facebook.
 
 Google is stepping back and rethinking how they interact and support their developer community and are [looking for feedback](http://googlecode.blogspot.com/2011/09/what-does-it-mean-to-be-google.html "looking for feedback") from the developer community.

@@ -12,8 +12,6 @@ tags:
   - Ecosystems
   - Startups
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/hooked-logo.png)](https://hooked.io/)
-
 I was keeping an eye out for interesting API stories on [ProductHunt](http://www.producthunt.com/) the other day and came across an cool notification startup that lives in the Stripe API ecosystem, called [Hooked](https://hooked.io/).
 
 Hooked allows users to set up notifications for any events related to a Stripe account. Hooked uses the Stripe API to disocver events, and then employs webhooks to send notifications.

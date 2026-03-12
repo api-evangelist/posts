@@ -8,8 +8,6 @@ tags:
   - APIStrat
   - Workshops
 ---
-[![](http://www.3scale.net/wp-content/uploads/2013/12/apistrat-ams-logo.png)](http://www.apistrategyconference.com)
-
 The first day at [API Strategy & Practice](http://www.apistrategyconference.com) is always workshops that expose you the world of APIs, and #APIStrat in Amsterdam next week is no different. We had four workshops, but successful development and deployment best practices to secure, monitor and manage APIs, by Isabelle Mauny, Director of Product Management at [WSO2](http://wso2.com/) is already sold out.
 
 That leaves us with three workshops currently available:

@@ -8,8 +8,6 @@ author:
 tags:
   - Storytelling
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-evangelism-bubble.png)](http://evangelism.apievangelist.com/)
-
 It can be difficult to know where to start when it comes storytelling around an API. Many of us who have been in the space, have followed the lead of Twitter, Twilio, Amazon, and others, but when you are new to the space, knowing where to start can often be paralyzing. This is something I am regularly helping clients and partners think through, and while [I'm thinking through the topic with SecureDB](https://securedb.co/), I figured I'd share the details with you my readers.
 
 [If you are unfamiliar with how the API Evangelist network operates, I have common building blocks available for almost 20 core stops along the API lifecycle](http://apievangelist.com). However, when many of my partners and clients are just getting going, they are often overwhelmed by the volume of data I provide, so I regularly find myself tailoring, and distilling down a specific strategy for each conversation I engage in. I wanted to help SecureDB understand where they can start with evangelism from day one, by providing a 101 list for API evangelism, but before I could do this, I needed to make sure they had a few API building blocks in place first.

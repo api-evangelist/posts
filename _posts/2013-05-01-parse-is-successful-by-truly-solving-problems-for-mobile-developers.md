@@ -10,8 +10,6 @@ tags:
   - Developers
   - Problems
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/baas/parse-cloud.png)](https://parse.com/)
-
 I don't personally use [Parse](https://parse.com/) or any other [backend as a service](http://baas.apievangelist.com/) (BaaS) provider to build mobile applications. I'm just playing role as analyst when it comes to the backend as a service space, but I am a developer so I can tell when any technology provider is speaking to developers or just marketing and hock'n their wares.
 
 Each week I monitor the tech blogosphere, the API space and where it has expanded into the backend as a service space and driving mobile development. I pull 300 + feeds from random blogs and 700+ feeds from APIs providers. I see the contrast between what Techrunch, GigaOm and NextWeb produce alongside what API and BaaS providers publish to their blogs.

@@ -8,8 +8,6 @@ author:
 tags:
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/dfw-api-meetup-group/dfw-api-meetup-group.jpeg)](http://www.meetup.com/DFW-API-Professionals/events/115600132/ "DFW API Professional Meetup Group")
-
 I just got back from the Dallas-Fort Worth area. I visited Dallas last night to help kick off the first gathering of the DFW API Professionals Meetup.
 
 We got together at Microsoft around 6PM and I talked from 6:30 until 8:00, evolving on my [From Web, to ProgrammableWeb to ProgrammableWorld](http://kinlane.github.io/talks/api-meetup-dallas-tx/web-to-programmableweb-to-programmableworld/index.html#/) talk.

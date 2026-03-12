@@ -11,8 +11,6 @@ tags:
   - Government
   - Discover
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-government.jpg)](http://18f.github.io/API-All-the-X/pages/developer_hubs)
-
 I [looked through 77 of the developer areas for federal agencies](http://apievangelist.com/2014/07/10/looking-at-77-federal-government-api-developer-portals-and-190-apis/), resulting in reviewing approximately 190 APIs. While the presentation of 95% of the federal government developer portals are crap, it makes me happy that about 120 of the 190 APIs (over 60%) are actually consumable web APIs, that didn't make me hold my nose and run out of the API area. 
 
 Of the 190, only 13 actually made me happy for one reason or another:

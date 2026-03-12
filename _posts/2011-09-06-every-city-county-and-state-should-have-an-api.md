@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-![](http://kinlane-productions2.s3.amazonaws.com/matrix-pics/washington-crossing-the-delaware-cropped.png)Have you ever tried to get data from a government agencies website?  Often, when you find what your looking for, its in a PDF format.  Not really a data friendly format.  If your lucky, you will find a spreadsheet, but usually they are laid out in a report format and not meant for actual data portability.  
-  
 I have a personal obsession for finding, crunching and making sense out of local, state, and federal government data.  I'm willing to do a lot of work to derive meaning about how our government works.  I personally feel its my duty to lend a hand, but while doing so, I often get overwhelmed parsing PDF files and often have to rearrange data by hand, or just give up on my project entirely.  
   
 I've always blamed the the "government bureaucracy for this--it is some sort of conspiracy to hide what is really going on. However, recently I'm beginning to change my tune.  I'm getting a feeling that maybe it goes deeper then with government operations.  Its the technology they are given.    

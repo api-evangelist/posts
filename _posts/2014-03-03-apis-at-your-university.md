@@ -8,8 +8,6 @@ author:
 tags:
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/priorities/university-of-api.png)](http://university.apievangelist.com/)
-
 I'm spending some time looking at [how universities are using APIs](http://university.apievangelist.com/) across campus. I have been doing research in the area for a couple years, but I feel it is time that we generate more stories and blueprints, of how leading universities are putting them to use, so that the others can follow.
 
 Right now I'm tracking on:

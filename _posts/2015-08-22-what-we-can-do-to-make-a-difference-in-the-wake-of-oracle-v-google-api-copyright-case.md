@@ -12,8 +12,6 @@ tags:
   - Diff
   - Oracle
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-architecture/api-architecture-three.png)](http://apievangelist.com/2014/12/21/making-sure-the-most-important-layers-of-api-space-stay-open/)
-
 While we wait for the next steps of the long drawn out Oracle v Google Java API copyright battle, I wanted to take some time and talk about what we can all be doing to actually make a difference. If you aren't familiar with the legal case, is a legal dispute related to Oracle's copyright and patent claims on Google's Android operating system. The court case started in California courts in 2012, with the rmost recent verdict coming in May, 2014, where the [Federal Circuit](https://en.wikipedia.org/wiki/United_States_Court_of_Appeals_for_the_Federal_Circuit "United States Court of Appeals for the Federal Circuit") partially reversed the district court ruling, ruling in Oracle's favor on the copyright-ability issue, and [remanding](https://en.wikipedia.org/wiki/Remand_\(court_procedure\) "Remand (court procedure)") the issue of fair use to the district court. 
 
 While we wait for appeals, endure the continued discussion, and read the trickle of FUD that comes out from the tech press, what can the tech community actually do to make a difference? First, we can reduce our anxiety about this being hellfire and brimstone for the current web API movement. The Oracle v Google legal battle is  focused on Java APIs, which are a different beast than a web API, and it would take another legal case to actually set a precedent that copyright applies to web APIs--when this happens, I will be showing up with my Internet of Things enabled pitchfork, and torch. 

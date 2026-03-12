@@ -5,8 +5,6 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-grapes.png
 tags:
   - My
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-grapes.png)](http://low.hanging.fruit.apievangelist.com/)
-
 I get approached by folks all the time who are looking to do APIs at their company, organization, institution, or government agency. The reasons behind these desires to do APIs vary widely. Some want to do API to deliver a specific web or mobile app, while many others just understand they need to get started somewhere, but are unsure of exactly where to begin with this daunting, never-ending task. 
 
 In these situations I always tell people to start with the low hanging fruit, which means, if its already on your website, it should also be available as an API. If you are publishing data or content to your website, as HTML, CSV, XML, XLS, or JSON, you should have available via an API. The average company has a mess of information made available via a website, and the API journey is about untangling this mess, and make it available for not just the web, but also mobile, messaging, bot, voice, and other emerging channels in which people are getting their information.

@@ -8,8 +8,6 @@ author:
 tags:
   - Data
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/npr/accessible-playgrounds/ramps-to-play-components-600.jpg)](http://apps.npr.org/playgrounds/#playground-help)
-
 I was impressed with some of the data journalism behind the recent NPR story, [Playgrounds For Everyone, a community-edited guide to accessible playgrounds](http://apps.npr.org/playgrounds/#playground-help).
 
 The story is definitely an important one, but it is the data behind it I think is significant to highlight. You can download the data of the 1700 playgrounds in 20 different cities in a CSV and JSON format. Something I think is ripe for an API, by the way.

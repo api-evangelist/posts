@@ -11,8 +11,6 @@ tags:
   - Web
   - Platform
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/respoke/respoke-web-communications-300x101.jpg)](https://www.respoke.io)
-
 In the coming months I’m doing some deep profiling of the API space, so you are going to see me reviewing the approach of more API providers in the space. My goal with API reviews is not just to showcase the company or service involved, but review the overall approach of the provider. You can [read more about my review process on API Evangelist](http://apievangelist.com/2013/12/12/an-api-evangelist-review-of-your-api/), to better understand my objectives.
 
 The review in the queue today is from [Respoke, a web communications platform](https://www.respoke.io). When you land on the Respoke website, you see all the signs of a modern platform, starting with the simple single page app style website, but more importantly, they immediately tell me what they do, in a simple, easy to understand way:

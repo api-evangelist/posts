@@ -9,8 +9,6 @@ tags:
   - SDK
   - SDKs
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apimatic-sdks.png)](https://apimatic.io/)
-
 One of the discussions we are having [behind the scenes at APIWare.io](http://apiware.io/), is whether we should be hand-crafting, or auto-generating SDKs for the clients we are working with on the design, deployment, and management of their APIs. 
 
 The answer is easy--we do both! 

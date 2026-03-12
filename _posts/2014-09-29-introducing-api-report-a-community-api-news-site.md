@@ -9,8 +9,6 @@ tags:
   - Community
   - News
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-report/api-report-logo.png)](http://api.report/)
-
 I curate a lot of interesting stories across the API space from my RSS feeds, the Twittersphere, and my overactive email inbox each day. Only a small percentage of these stories ever make it to my [business of API analysis site apievangelist.com](http://apievangelist.com), or my [politics of APIs analysis at apivoice.com](http://apivoice.com).
 
 Over the summer, this got me thinking, and while wandering around Detroit after [API-Craft Detroit](http://api-craft.org/) this last July, Steve Willmott ([@njyx](https://twitter.com/njyx)) and I were talking about the rapidly expanding API space, and both felt there was a gap in the news reporting for the API sector. [ProgrammableWeb](http://www.programmableweb.com/) (PW) does a good job of providing API news and analysis for the space, but because of my monitoring of the space, I know there is a lot more news that never sees the light of day.

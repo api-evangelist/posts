@@ -9,7 +9,7 @@ tags:
   - Web
   - Public
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/API-Craft-Logo.png)](http://groups.google.com/group/api-craft)I'm a member of a Google group called [API Craft](http://groups.google.com/group/api-craft "API Craft"). There are some really smart API folks talking about everything from API deployment to API business strategies there.  
+I'm a member of a Google group called [API Craft](http://groups.google.com/group/api-craft "API Craft"). There are some really smart API folks talking about everything from API deployment to API business strategies there.
 
 The other day someone in the groups asked:
 

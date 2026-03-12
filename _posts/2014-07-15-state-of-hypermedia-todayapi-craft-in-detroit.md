@@ -8,8 +8,6 @@ author:
 tags:
   - Hypermedia
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-craft/api-craft-logo.png)](http://api-craft.org/)
-
 I’m working with Brian Mulloy ([@landlessness](https://twitter.com/landlessness)) of [Apigee](http://apigee.com/), to organize six of the leading hypermedia experts for a 2 hour panel discussion on the state of hypermedia, at [API Craft, in Detroit, Michigan](http://api-craft.org/) this month. I couldn't imagine a more distinguished panel of hypermedia experts, than this lineup:
 
 *   Mike Amundsen ([@mamund](https://twitter.com/mamund))

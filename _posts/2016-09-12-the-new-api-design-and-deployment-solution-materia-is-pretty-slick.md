@@ -8,8 +8,6 @@ tags:
   - Deployment
   - Design
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/materia_screen_entities.png)](https://getmateria.com/)
-
 I was playing with a new API design and deployment solution, from some of my favorite developers out there this weekend called [Materia](https://getmateria.com/), which bills itself as _"a modern development environment to build advanced mobile and web applications"_\--I would add, _"with an API heart"_.
 
 Materia is slick. it is modern. While very simple, it is also very complete--allowing you to define your underlying data model or entities, design and deploy APIs, and then publish a single page applications (SPA) for use on the web, or mobile devices. Even though I'm one of those back to land, hand-crafted API folks, I could see myself using Materia to quickly design and deploy APIs. 

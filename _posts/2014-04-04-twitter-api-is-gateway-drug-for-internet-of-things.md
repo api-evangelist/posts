@@ -9,8 +9,6 @@ tags:
   - Twitter
   - Gateway
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-amsterdam-2014/apistrat-romain-huett.jpg)](https://www.youtube.com/watch?v=DkKEZMjFLSQ)
-
 Last week at [#APIStrat in Amsterdam](http://www.apistrategyconference.com/2014Amsterdam/index.php), I had the pleasure of watching a keynote by Romain Huet ([@romainhuet](https://twitter.com/romainhuet)), Developer Advocate at Twitter, aptly titled “connecting to the pulse of the planet”. I’ve had the pleasure of watching Romain give this talk twice now, and he really delivers—you can [watch the whole video on Youtube](https://www.youtube.com/watch?v=DkKEZMjFLSQ).
 
 Romain used Twitter as a conduit for not just one, but two live Internet of things (Iot) demos. First he took a live selfie of him and the audience with a Raspberry Pi camera he had developed, and second he made a drone take off on stage using commands he sent via Twitter.

@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/intel/Intel-logo.jpg)](http://intel.com)
-
 [Intel is reportedly buying API service provider Mashery for “a range of $120 million to $180 million”](http://readwrite.com/2013/04/17/intel-acquires-mashery), according to ReadWrite(Web). As I reflect on this, two main questions come to mind:
 
 1.  Was it a smart acquisition for Intel, and worth their money?

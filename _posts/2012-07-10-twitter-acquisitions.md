@@ -10,8 +10,6 @@ tags:
   - Acquisitions
   - Twitter
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/twitter/twitter-bird-blue-on-white.png)](http://www.twitter.com/ "Twitter")
-
 Acquisition of technology startups by companies is a regular part of business today, providing a way for these companies to get the technology, talent, as well as user and market share they need to be successful. These acquisitions play an important part of API ecosystems, with API owners hoping developers build the next killer feature that users will love, something they can invest in, and developers dream API owners will notice their work and purchase their “startup”.
 
 Looking back at the acquisitions made by a company can function as a sort of “tea leaves”, allowing us to interpret the companies motivations, possibly telling us where they are headed and who they might acquire next. As part of my [Twitter research](http://twitter.apivoice.com/ "Twitter research") I wanted to look at the acquisitions made by Twitter over its six year history:

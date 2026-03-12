@@ -8,8 +8,6 @@ author:
 tags:
   - Getting Started
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/marvel-comics/marvel-avengers-logo.jpg)](http://developer.marvel.com/)
-
 I’m currently reviewing the [Marvel Comics API](http://developer.marvel.com/), and their approach to making their rich content available via a simple web API.
 
 They did a great job deploying the API. To start with they published very simple and honest getting started steps:

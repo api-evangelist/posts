@@ -9,8 +9,6 @@ tags:
   - Applications
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/single-page-applications/single-page-web-applications.png)](http://www.slideshare.net/3scale/the-api-and-appification-of-the-web)
-
 I was looking through [Steve Willmott's slide deck](http://www.slideshare.net/3scale/the-api-and-appification-of-the-web) from his talk at [GlueCon](http://www.gluecon.com/ "GlueCon") this week, called [The API- & App-ification of the Web](http://www.slideshare.net/3scale/the-api-and-appification-of-the-web).
 
 He talks about the evolution towards Single Page Web Applications (SPA). Which is the migration from static web pages and database driven web apps to dynamically driven HTML, CSS and JavaScript apps designed using popular JavaScript frameworks and libraries like:

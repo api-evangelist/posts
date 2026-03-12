@@ -9,8 +9,6 @@ tags:
   - Power
   - Developers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/angry-bird.jpg)](http://www.fanpop.com/clubs/angry-birds-are-amazing/images/32024326/title/angry-bird-photo)
-
 I’ve been programming professionally since 1988, so I’ve been around quite a few developers in my career. There seems to be a lot of moments lately that cause me to look back at this career, reassess what I've learned, and adjust the direction I'm going with this mined wisdom.  This week I’m reflecting on the recent insanity around Adria Richards, my role as the API Evangelist, and spending time thinking about the tech space's inclusiveness as I’m hanging out with my 12 year old daughter for spring break.
 
 Throughout my career, in just about every position I’ve taken, whether as a programmer, manager, lead, architect and VP, I’ve encountered developers who are challenged by me, my role, skills and approach to tech. I can remember 3 separate roles I’ve had where one of my first assigned tasks was to fire a developer who had made everyone’s lives miserable, because before I came along they couldn’t fire them (him), because they were dependent on them for their skills.

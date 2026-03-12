@@ -8,8 +8,6 @@ author:
 tags:
   - Pricing
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/APIMATIC-Pricing.png)](https://apimatic.io/pricing)
-
 One of the areas I focus on in the API space, is the business of APIs, and how companies actually make the rubber meet the road when it comes to pricing the API resources they are serving up, as well as the price that API service providers offer up to their customers. After security, monetization is the top question I get from the folks i am talking to about their API strategy.
 
 [I've been watching the SDK service provider APIMATIC move from a company in beta, to announcing pricing for the valuable API service this last week](https://apimatic.io/pricing). I love watching any company break up their valuable resources and services, but feel APIMATICs pricing announcement is interesting enough to warrant a story, because it provides other API service providers with one possible blueprint they can use.

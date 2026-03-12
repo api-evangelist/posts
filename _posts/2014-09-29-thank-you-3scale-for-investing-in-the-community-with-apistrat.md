@@ -12,8 +12,6 @@ tags:
   - APIStrat
   - Scale
 ---
-[![](http://apistrategyconference.com/images/apistrat-logo.png)](http://apistrategyconference.com/)
-
 We just wrapped up the [4th edition of @APIStrat in Chicago](http://www.apistrategyconference.com/2014Chicago/index.php) last week, and once again I’m very happy with the way things went, as 400+ folks gathered to discuss APIs. The event had the right tone, and I got the usual flood of comments from attendees, speakers, and sponsors about what a great experience the event was.
 
 I would love to take credit, but all of the responsibility goes to [3Scale](http://bit.ly/13esk6Q) for making it happen. 3Scale takes all the risk, and their rockstar team makes the event a reality—I just help get folks to the conference, contribute ideas to the schedule, present, and MC as much of the event as I possibly can.

@@ -12,8 +12,6 @@ tags:
   - Transactions
   - Postman Collections
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/postman/postman-logo.png)](https://www.getpostman.com/)
-
 I'm immersed in deep thoughts about the implications of machine readable API definitions like [APIs.json](http://apisjson.org), [Swagger](http://swagger.io), and [Postman Collections,](https://www.getpostman.com/docs/collections) which are being applied to APIs, in some very different, but overlapping, and complementary ways. Currently I’m working to define the overlap between APIs.json and Postman Collections, and how they work together.
 
 For me, any good API starts with a Swagger definition, or API Blueprint, which is the single, machine readable truth of what is the surface area of any API, which I consider fingerprint for what is possible with any API or micro service. Additionally when I am working with any API, or stack of APIs, I am using APis.json to organize them into a single coherent set of APIs, then rely on each APIs properties to point to essential resources like Swagger, terms of service, pricing, and anything else I feel is essential to operations.

@@ -6,8 +6,6 @@ image: >-
 tags:
   - Resources
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/court-listener-api/courtlistener-donate.png)](https://www.courtlistener.com/donate/)
-
 Despite popular belief in Silicon Valley, there are many different ways to fund the design, development, deployment, and operation of valuable API resources. Not all APIs are destined to be the next Amazon, Twitter, or even Twilio. Some APIs just need exist, be available, and will never be a revenue engine--one of these APIs is the [Court Listener API.](https://www.courtlistener.com/api/bulk-info/#judge-data)
 
 [Version 3.0 of the Court Listener API possesses 15 valuable endpoints](https://www.courtlistener.com/api/rest/v3/), providing access to courts, dockets, opinions, people, sources, ratings, and other details about how laws are made in the United States. [With their latest release containing a comprehensive database of judges and the judiciary, to be linked to Court Listener’s corpus of legal opinions authored by those judges](https://free.law/2016/04/19/judicial-database-announcement/).

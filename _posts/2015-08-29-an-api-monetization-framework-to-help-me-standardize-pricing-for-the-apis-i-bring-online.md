@@ -11,8 +11,6 @@ tags:
   - Pricing
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-monetization.png)](http://monetization.apievangelist.com/)
-
 I'm almost to the point with [my API stack](https://kin-lane.github.io/master/), where I can start plugging in new APIs I have planned. Up until now, the APIs i have deployed, are of little use to a wider commercial audience. However some of the APIs I have planned for the next year, I'm looking to monetize their usage, and operate as part of a larger commercially viable API stack. (practice what I preach baby!)
 
 To run this stack, I need a plug and play way to define what an API is costing me, and potentially how much revenue I am generating from each API. With this in mind, here is my draft look at an API monetization framework, that I am employing across my API Stack. 

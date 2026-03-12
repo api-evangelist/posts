@@ -8,8 +8,6 @@ author:
 tags:
   - Time
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-days-san-francisco/api-days-san-francisco-logo.png)](http://sf.apidays.io/)
-
 I went to [API Days SF](http://sf.apidays.io/) yesterday. Unfortunately, due to an unexpected obligation on the other coast I was unable to make it in time for the Friday kick-off. But after my plane landed at OAK yesterday I headed over to enjoy the last few talks, participate in a panel and network with everyone in attendance.
 
 I really like the API Days format. I've done all 3 of the events now including Paris, Madrid and now San Francisco. Each event is an intimate mix of API experts, craftspeople and the API curious.

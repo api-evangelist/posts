@@ -9,8 +9,6 @@ tags:
   - Github
   - Git
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/2016_budget_header.jpg)](https://github.com/WhiteHouse/2016-budget-data)
-
 The release of the the [president's fiscal year 2016 budget in a machine readable format on Github](https://github.com/WhiteHouse/2016-budget-data) was one of the most important things to come out of Washington D.C. in a while when it comes to open data and APIs. I was optimistic when [the president mandated that all federal agencies need to go machine readable by default](http://apievangelist.com/2012/06/01/barack-obama-directs-all-federal-agencies-to-have-an-api/), but the release of the annual budget in this way is an important sign that the White House is following its own open data rhetoric, and something every agency should emulate.
 
 There is still a lot of work to be done to make sense of the federal budget, but having it published in a machine readable format on Github saves a lot of time, and energy in this process. As soon as I landed on the Github repository, clicked into the [data folder, and saw the three CSV files, I got to work converting them to JSON format](https://github.com/kinlane/2016-budget-data/tree/master/data). Having the budget available in CSV is a huge step beyond the historic PDFs we’ve had to process in the past, to get at the budget numbers, but having it in JSON by default, would be even better.

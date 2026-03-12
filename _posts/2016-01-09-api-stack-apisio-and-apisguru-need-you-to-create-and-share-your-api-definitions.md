@@ -13,8 +13,6 @@ tags:
   - APIs
   - APIs.io
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-icon.png)](http://definitions.apievangelist.com/)
-
 I feel pretty strongly that for the next wave of growth in the API sector, we need the majority of public APIs in use today, to have well crafted, as complete as possible, [API definitions in either OpenAPI Spec or API Blueprint](http://definitions.apievangelist.com/). Yes I know, we actually need all of these APIs to be crafted using hypermedia approaches, but until then we need them all to possess machine readable API definitions, making them discoverable, learnable, and consumable.
 
 It is easy to get hung up on this being about [API discovery](http://discovery.apievangelist.com/), but API definitions are enabling almost every step along the [35 areas of the API life cycle I am mapping out](http://apievangelist.com). Historically API definitions have bee used for interactive API documentation, but more recently are additionally being used to light up other aspects of API integration, such as setting up your [API monitoring](http://monitoring.apievangelist.com/), loading into the [API client](http://client.apievangelist.com/) of your choosing, or lighting up a mock server for use in development. 

@@ -15,8 +15,6 @@ tags:
   - Definition
   - API Blueprint
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/aglio-logo.png)](https://github.com/danielgtaylor/aglio)
-
 I'm on the hunt for new ways to deploy attractive, interactive API documentation, from machine readable API definition formats like Swagger and API Blueprint. I am [advocating for the development of new approaches to deploy UI documentation](http://apievangelist.com/2015/02/02/we-need-better-api-documentation-and-ui-deployment-options/), and part of this showcasing what I find along the way.
 
 In the spotlight today is [Aglio](https://github.com/danielgtaylor/aglio), which they describe as:

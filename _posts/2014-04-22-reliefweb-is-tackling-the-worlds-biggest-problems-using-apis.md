@@ -10,8 +10,6 @@ tags:
   - APIs
   - Problems
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/reliefweb/reliefweb-logo.jpg)](http://reliefweb.int)
-
 I was introduced to the [ReliefWeb API](http://reliefweb.int/help/api) last week, which provides information including reports, jobs, training, countries, and source details on global crises and disasters going back to 1996.
 
 The ReliefWeb API follows a trend of organizations realizing not just the potential of APIs for delivering content to mobile applications, but also the benefits of opening up publicly. As the site states:

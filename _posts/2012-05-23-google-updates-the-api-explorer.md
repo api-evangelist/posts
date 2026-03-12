@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/google/Google-API-Explorer-v2.png)](https://developers.google.com/apis-explorer/ "Google API Explorer")
-
 Google just released an update to their [API Explorer](https://developers.google.com/apis-explorer/ "Google API Explorer").
 
 Some of the new features include:

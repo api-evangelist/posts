@@ -9,8 +9,6 @@ tags:
   - Data
   - Government
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/socrata/Socrata-Open-Data-Company.png)](http://www.socrata.com/)
-
 I was introduced to the API service provider [Socrata](http://www.socrata.com/ "Socrata") last week. Socrata has a government data platform that exceeds anything I’ve envisioned. In the past, I have said that [every state should have an API](http://blog.programmableweb.com/2011/09/06/every-city-should-have-an-api-lets-start-with-watertown-ma/ "Every State Should Have an API"). Socrata looks like that platform.
 
 Socrata says it best: _“Social Data Discovery Solution Promotes Civic Engagement, Improves Decision and Policy Making, and Achieves Government Transparency.”_

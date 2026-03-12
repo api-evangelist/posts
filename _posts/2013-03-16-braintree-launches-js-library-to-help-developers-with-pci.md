@@ -9,8 +9,6 @@ tags:
   - ai
   - Developers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/braintree/braintree-logo.png)](https://www.braintreepayments.com/)
-
 Next generation payment provider [Braintree](https://www.braintreepayments.com/) just launched a new JavaScript library that helps merchants reduce their PCI scope in a flexible and testable way, which they are calling appropriately [Braintree.js](https://www.braintreepayments.com/braintrust/braintree-js). According to Braintree, the library:
 
 > _...uses asymmetric encryption to prevent raw credit card data from passing through merchants' servers. It intercepts a form submit in the browser that contains sensitive data, encrypts that data with a public key provided to merchants by Braintree and then submits the form with the encrypted data to the server. Braintree retains the private key of the key pair so that merchants are unable to decrypt the encrypted fields server-side. Any string field in Braintree's API can be encrypted and encrypted values can be transparently dropped into any API call_

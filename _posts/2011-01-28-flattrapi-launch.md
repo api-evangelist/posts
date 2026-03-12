@@ -6,7 +6,7 @@ author:
   name: kinlane
 tags: []
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/flattr_logo.jpg)](http://flattr.com/)[Flattr the social micro-payment site, made their API public today](http://blog.flattr.net/2011/01/public-rest-api/).
+[Flattr the social micro-payment site, made their API public today](http://blog.flattr.net/2011/01/public-rest-api/).
 
 The API comes in two flavors.
 

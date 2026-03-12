@@ -11,8 +11,6 @@ tags:
   - Tooling
   - Open
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/aws_cloud_formation_designer.png)](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/working-with-templates-cfn-designer.html)
-
 I'm always on the hunt for new ways to define, design, deploy, and manage API infrastructure, and thought the [AWS Cloud Formation Designer](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/working-with-templates-cfn-designer.html) provides a nice look at where things might be headed. AWS CloudFormation Designer (Designer) is a graphic tool for creating, viewing, and modifying AWS CloudFormation templates, which translates pretty nicely to managing your API infrastructure as well.
 
 While the AWS Cloud Formation Designer spans all AWS services, all the elements are there for managing all the core stops along the API life cycle liked definition, design, DNS, deployment, management, monitoring, and others. Each of the Amazon services is available with a listing of each element available for the service, complete with all the inputs and outputs as connectors on the icons. Since all the AWS services are APIs, it's basically a drag and drop interface for mapping out how you use these APIs to define, design, deploy and manage your API infrastructure.

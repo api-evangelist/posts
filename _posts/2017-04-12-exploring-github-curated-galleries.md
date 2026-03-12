@@ -8,8 +8,6 @@ tags:
   - Github
   - Git
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/github_explore_showcases.png)](https://github.com/explore)
-
 Github has long been my number one source for discovering people doing interesting things with APIs. As I was trying to articulate how API providers can put Github to work as part of their API operations in another story, I came across [the Github Explore section](https://github.com/explore). I thought that the list of items on the home page helps demonstrate that Github is more than just about managing open source code--which is the common perception regarding what you do with Github amongst muggles.
 
 I feel that these nine areas reflect the top uses for Github in 2017:

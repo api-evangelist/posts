@@ -9,8 +9,6 @@ tags:
   - Providers
   - Service Providers
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/events/defrag-2011/defrag-2011.jpg)](http://defragcon.com/ "Defag Conf")
-
 "Are API service providers relevant? Will they remain relevant?"
 
 Thats the question asked by Ben Kepes at this years [Defrag Conference](http://defragcon.com/ "Defag Conf"), while moderating a panel with Apigee's Sam Ramji and Mashery's Neil Mansilla.

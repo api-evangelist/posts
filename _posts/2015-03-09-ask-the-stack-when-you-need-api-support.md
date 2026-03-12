@@ -9,8 +9,6 @@ tags:
   - Support
   - Stack
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/stackoverflow/stackoverflow-logo.png)](http://stackoverflow.com/)
-
 I was profiling the [video sharing API Dailymotion](https://developer.dailymotion.com) the other day, going through their developer area and profiling their API operations. One of the things I [do as part of the profiling of any company](http://apievangelist.com/2015/03/06/my-ideal-profile-of-companies-who-are-doing-interesting-things-with-apis/), is checkout how they execute their support.
 
 [Dailymotion employs two very common building blocks for their platform support](https://developer.dailymotion.com/support), including an API specific Twitter handle, and good ol fashion email—both pretty proven approaches. However Dailymotion also employs a third aspect to thier API support, by recommending you head over to Stack Overflow for some community support.

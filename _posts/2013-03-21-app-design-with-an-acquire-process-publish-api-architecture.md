@@ -9,8 +9,6 @@ tags:
   - Design
   - Process
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/seabourne-inc/seabourne-logo-2013.png)](http://seabourneinc.com/ "Seabourne")
-
 I'm tracking on a new wave of application frameworks and API centric architecture patterns, that are not just helping deliver the next wave of web & mobile apps, but also bridging, aggregating and providing interoperability and transformations between APIs platforms.
 
 One company I've been watching closely is [Seabourne](http://seabourneinc.com/ "Seabourne"). The Seabourne team has an approach to application development that follows a very interesting set of principles:

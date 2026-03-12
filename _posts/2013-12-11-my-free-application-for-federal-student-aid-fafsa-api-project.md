@@ -9,8 +9,6 @@ tags:
   - My
   - Project
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/ed/fafsa-form.jpg)](https://ed-data.github.io/fafsa-api)
-
 I was able to give my [FAFSA API project](http://ed-data.github.io/fafsa-api/index.html "FAFSA API Project") a little more attention in preparation for some data jams later this week. While there is still a lot of work to happen, I feel pretty good about what I have been able to get done. I'd love to reflect on the API design, get some feedback before I move it forward too much more.
 
 **75% Github**  

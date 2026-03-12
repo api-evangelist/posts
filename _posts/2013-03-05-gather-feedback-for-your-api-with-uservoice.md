@@ -9,8 +9,6 @@ tags:
   - Voice
   - Feedback
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/analytics/impactstory/impactstory-logo.png)](http://impactstory.org/)
-
 I’m looking at new and innovative ways companies are building [analytics and visualizations on top of APIs](/2013/03/04/next-generation-of-api-driven-analytics-and-visualizations/), and one of the new tools I’ve come across is [ImpactStory](http://impactstory.org/). ImpactStory aggregates altmetrics: diverse impacts from your articles, datasets, blog posts, and more. But this post isn’t about ImpactStory, I’ll crunch what they do and write about in another post.
 
 [![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/analytics/impactstory/impactstory-beta-feedback.png)](http://impactstory.org/)

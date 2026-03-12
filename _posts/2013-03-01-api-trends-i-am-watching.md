@@ -7,8 +7,6 @@ author:
   name: kinlane
 tags: []
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/top-tech-trends.jpg)](http://blogging.avnet.com/weblog/cioinsights/)
-
 Photo Credit: [AVnet](http://blogging.avnet.com/weblog/cioinsights/)
 
 I try to keep [API Evangelist](http://apievangelist.com "API Evangelist") a place where API newbies and API experts can both find what they are looking for. To meet this demand I’m constantly moving the site around, trying to uncover more information, in a logical way that speaks to everyone.

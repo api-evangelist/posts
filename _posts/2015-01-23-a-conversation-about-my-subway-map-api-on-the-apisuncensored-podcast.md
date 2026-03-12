@@ -12,8 +12,6 @@ tags:
   - APIs
   - Podcast
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/subway-map-api.png)](http://subway.map.apievangelist.com/index.html)
-
 There is a new podcast on SoundCloud called [APIsUncensored](https://soundcloud.com/apisuncensored), from the folks over at SmartBear. I was honored to have a mention in the first episode, where they brought up a project I did a couple of months back, which I called the [Subway Map API](http://subway.map.apievangelist.com/index.html). I [published a full story on what I was doing](http://apievangelist.com/2014/12/01/my-turkey-holiday-project-a-subway-map-api/), and launched supporting Github repo, and API, but the work was very much a weekend side project, and something that will need a lot more love before it goes anywhere.
 
 Ole Lensmar ([@olensmar](https://twitter.com/olensmar)) admitted that when he introduced the project, he didn’t really get it, but ultimately in their segment, they accomplished what I was looking to do—stimulate conversation. The Subway Map API isn’t about the ideas I plotted on the map for API Evangelist, it is about the format for grouping, and mapping out iof deas—then evolving them through conversation. Don’t get hung up on my groupings of API design, deployment, management, etc., because my mission is to help introduce people to the world of providing and consuming APIs.

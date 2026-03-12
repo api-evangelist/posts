@@ -8,8 +8,6 @@ author:
 tags:
   - Platform
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/books/creatures-from-the-dark-cover.jpg)](http://www.gutenberg.org/ebooks/42901)
-
 In the last two years I've seen the emergence of  cloud platforms that focus on helping data administrators, owners and stewards, generate APIs from their data sources.
 
 The new cloud services like [EmergentOne](http://deployment.apievangelist.com/companies-detail.html?id=28) will mount a MySQL database, spider the tables, and generate a web API for you, while providing you the basic tools you will need to manage access and consumption of that API.

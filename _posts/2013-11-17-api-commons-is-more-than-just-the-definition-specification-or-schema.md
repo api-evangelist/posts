@@ -10,8 +10,6 @@ tags:
   - Definition
   - API Commons
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-icon.png)](http://apicommons.org/ "API Commons")
-
 [API Commons](http://apicommons.org/ "API Commons") is about providing a simple and transparent mechanism for the copyright free sharing and collaborative design of API specifications, interfaces and data models. When learning about API Commons it can be easy to focus on the obvious technical deliverables of the project, API definitions, data models, schemas and specifications.
 
 While API Commons is about providing a place to house these very technical design specifications, the largest benefit of API commons will be the process , community and culture that will form around it. Bringing API design across government and industries out into the open, focusing on sharing, collaboration, reuse and operability will be the true end product--not just the tangible API definition.

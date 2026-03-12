@@ -13,8 +13,6 @@ tags:
   - Backend
   - Services
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/openkit/open-kit-logo-larger.png)](http://openkit.io/ "OpenKit")
-
 [A new player in the](http://openkit.io/ "OpenKit") [Backend as a Service (BaaS)](/trends/baas.php "Backend as a Service") space has emerged, from former [OpenFeint](http://en.wikipedia.org/wiki/OpenFeint) co-founder Peter Relan--called [OpenKit](http://openkit.io/ "OpenKit").  The new BaaS platform is targeting game developers, providing cross-platform tools for both iOS and Android.  The core features of the gaming BaaS platform are:
 
 *   **Cloud data sync** - Save game progress in the cloud with data storage. Sync it across both iOS and Android devices for a consistent gaming experience

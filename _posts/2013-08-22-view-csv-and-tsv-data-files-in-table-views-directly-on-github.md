@@ -11,8 +11,6 @@ tags:
   - CSV
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/github/github-csv-table-view.png)](https://github.com/blog/1601-see-your-csvs)
-
 Github is really doing some cool stuff to help open data folks manage and share their data.
 
 They just launched the ability to [render data from .csv (comma-separated) and .tsv (tab-separated) files as an interactive table](https://github.com/blog/1601-see-your-csvs), including headers and row numbering. They even let you link to a specific row for sharing specific data from the file.

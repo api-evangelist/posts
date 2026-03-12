@@ -9,8 +9,6 @@ tags:
   - Hypermedia
   - Amazon
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/amazon/appstream/amazon-appstream-main.jpg)](http://aws.amazon.com/appstream/)
-
 With the growing number of hypermedia API deployments, hypermedia haters© are going to lose a major argument, that hypermedia is just an academic exercise and will never work in the wild. ;-)
 
 The latest hypermedia API I was told about in the wild(thanks [@johnmusser](https://twitter.com/johnmusser)), is from Amazon Web Services with the recent [AppStream API](http://docs.aws.amazon.com/appstream/latest/developerguide/rest-api.html#rest-api-hal)\--"a flexible, low-latency service that lets you stream resource intensive applications and games from the cloud".

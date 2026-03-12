@@ -10,8 +10,6 @@ tags:
   - ddi
   - API Commons
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/evercam/evercam-logo.png)](http://www.evercam.io/)
-
 The [Internet of things (Iot), and security camera API platform evercam.io](http://www.evercam.io/) has submitted the API definition for their camera API to the [API Commons](http://apicommons.org/apis.html).
 
 I’ve been impressed with the amount of leadership that is coming out of this new startup in a potentially very political, and inevitable aspect of the API economy—cameras.

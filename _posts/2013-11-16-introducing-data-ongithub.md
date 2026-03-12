@@ -8,8 +8,6 @@ author:
 tags:
   - Data
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/github/github-matrix.jpg)](http://data.ongithub.com)
-
 I am a big fan of opening up data in city, county, state and federal government and across companies of all shapes and sizes. One thing I've learned in my 20+ years of working with data is that when it comes to data management, the spreadsheet is king. While there are always centralized database systems at companies and government organizations, the spreadsheet is actually how data is generally managed, shared and distributed by the average person.
 
 [Data Ongithub](http://data.ongithub.com) is a project that is focused on tapping the wealth of data available in spreadsheet form and provide a simple platform for converting and managing open data, that anyone can use. While working on open data initiatives I consistently see two major hurdles for individuals who are opening up data:

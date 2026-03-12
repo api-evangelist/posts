@@ -10,8 +10,6 @@ tags:
   - API Commons
   - Open
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/open-ed/open-ed-logo-2.png)](http://www.opened.io/#/developer)
-
 We have added the [OpenEd API](http://www.opened.io/#/developer "OpenEd API") to the [API Commons](http://apicommons.org "API Commons"). OpenEd provides open educational resources like courses, videos and games for teachers to use in their classes.
 
 Using the API, developers can read and write resources to the platform, which currently houses 250K openly licensed educational resources.

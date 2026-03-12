@@ -11,8 +11,6 @@ tags:
   - Management
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/github/github-logo.png)](https://github.com/ "Github")
-
 The most common use of [Github](http://www.github.com "Github") by API providers is to publish API SDK's to the popular social coding platform. If you look at most of the the top API providers in operation today, you will find they are actively using Github to not just manage and publicize their API SDK's, but actively interact with their developer ecosystem in the process.
 
 Github provides the necessary workflow for initial design, development and publicizing of API SDKs, allowing owners to create separate repositories for web-based SDKs like PHP, Python and Ruby and mobile SDKs for iOS, Android and Windows mobile.

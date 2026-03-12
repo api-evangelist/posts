@@ -12,8 +12,6 @@ tags:
   - Portals
   - Providers
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/readme/readme-io-logo.png)](https://readme.io/)
-
 It makes me happy to see new arrivals in the world of API management service providers, especially after all the consolidation we saw last year with many of the 1st and 2nd wave of providers like Mashery, Vordel, Layer7, and Apiphany. One of the new API management providers that have emerged is [Readme](https://readme.io/), who is looking to provide an attractive, simple, and intuitive way to launch developer portals for your APIs.
 
 Readme reminds me of some of the landing page tools designed for web marketers over the last decade, to provide informative gateways for site visitors, but ReadMe is all about providing meaningful doorways to our API resources. First, I like ReadMe's definition of what is a developer hub?

@@ -9,8 +9,6 @@ tags:
   - Business
   - Strategy
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/pinterest/Pinterest_Logo.png)](http://pinterest.com/ "Pinterest")
-
 Here we are going into June, and I still don’t see a publicly available [Pinterest](http://pinterest.com/ "Pinterest") API. Jay Yarow wrote in Business Insider back in February, "[Pinterest's API Is Coming Soon, And VCs Are Super Excited](http://articles.businessinsider.com/2012-03-26/tech/31238519_1_mobile-apps-twitterrific-hootsuite "Pinterest's API Is Coming Soon, And VCs Are Super Excited")" and Adam Duvander wrote in ProgrammableWeb, "[Pinterest API: Coming Soon or Already Here](http://blog.programmableweb.com/2012/02/09/pinterest-api-coming-soon-or-already-here/ "Pinterest API: Coming Soon or Already Here")?".
 
 There is also a [reply to a Quora thread by Yashh Nelapati](http://www.quora.com/Pinterest/Is-there-an-API-for-Pinterest-that-allows-users-to-display-a-set-of-pins-photos-on-your-own-website "reply to a Quora thread by Yashh Nelapati"), Lead Engineer at Pinterest from May 2011, saying the API is 2-3 weeks away. It’s now a year later and there is no official API ([there is a Rogue API](http://tijn.bo.lt/pinterest-api "rogue api")).

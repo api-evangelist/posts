@@ -7,7 +7,7 @@ author:
 tags:
   - Mobile
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/box/Box-Mobile-Dev-Challenge.png)](http://sites.box.net/devchallenge/)Box.net just announced the [Mobile Dev Challenge](http://sites.box.net/devchallenge/ "Mobile Dev Challenge"),along with their release of two new API methods, an updated iOS library, and new Android library.
+Box.net just announced the [Mobile Dev Challenge](http://sites.box.net/devchallenge/ "Mobile Dev Challenge"),along with their release of two new API methods, an updated iOS library, and new Android library.
 
 The goal of the Box Mobile Dev Challenge is to build the next generation of mobile and tablet applications for businesses.
 

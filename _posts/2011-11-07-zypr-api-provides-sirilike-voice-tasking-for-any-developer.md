@@ -8,8 +8,6 @@ author:
 tags:
   - Voice
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/Zypr/Zypr-Logo.png)](http://www.zypr.net/ "Zypr API")
-
 [Pioneer Corporation](http://pioneer.jp/ "Pioneer Corporation") just announced the availability of Zypr™, a new voice-powered API that provides a conversational, voice-control command API allowing developers to integrate [Siri](http://www.apple.com/iphone/features/siri.html "Siri") like functionality into their own applications.
 
 The [Zypr API](http://www.zypr.net/ "Zypr API") provides a single RESTful API for developers to access voice UI, maps and routing, local search, social networking, music and radio, contacts, calendars and weather from multiple service providers, including: Facebook, Twitter, Google, Yelp, AccuWeather, INRIX real-time and predictive traffic information, Slacker Radio, Tuner2 Radio, Wcities, xAd and VoiceBox.

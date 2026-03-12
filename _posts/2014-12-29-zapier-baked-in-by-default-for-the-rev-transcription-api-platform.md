@@ -8,8 +8,6 @@ tags:
   - Zapier
   - Platform
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/rev/rev-logo.png)](http://www.rev.com)
-
 I’m always working to help API providers understand the importance of designing their API developer portals, with a larger audience in mind. Not everyone who visits your portal, will be the one integrating with your API, and providing information for non-developers about the value delivered via API resources, can go a long ways to reach the media, and decision makers at companies who will be potentially be making decision around integrating with a service.
 
 I look at a lot of API portals, and always enjoy the ones that speak to the widest possible audience. I also enjoy when there are entire sections dedicated to providing tools and resources for non-developers. One example of this, that I found recently is available over at the [transcription and translation platform from Rev](https://www.rev.com/api), on the [page they have dedicated to Zapier](https://www.rev.com/api/zapier). I’ve [written before about companies referencing their IFTTT and Zapier integration](http://apievangelist.com/2014/07/24/showcasing-your-api-integrations-with-other-platforms/), but I think Rev’s approach needs highlight because they provide a full page, with actual links to specific types of integrations.

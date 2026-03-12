@@ -8,8 +8,6 @@ author:
 tags:
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/events/nordic-apis/nordic-apis-logo-2.png)](http://nordicapis.com/ "Nordic APIs")
-
 Are you ready for more discussions about APIs? I know I am. :) This time its from our Scandinavian friends, with four events in 2013. [Nordic APIs](http://nordicapis.com/ "Nordic APIs") is a series of conferences and events held across Scandinavia which provides knowledge and information about APIs.
 
 API Evangelist is a supporter of Nordic APIs, and you will find me speaking at the 2 day event in Stockholm in September. I will be speaking with Adam DuVander([@adamd](https://twitter.com/@adamd)) and John Musser([@johnusser](https://twitter.com/@johnusser)) of [ProgrammableWeb](http://programmableweb.com), Jacob Ideskog ([@jacobideskog](https://twitter.com/@jacobideskog)) and Travis Spencer ([@travisspencer](https://twitter.com/@travisspencer)) of [Twobo Technologies](http://www.twobotechnologies.com/), as well as the notorious Andreas Krohn ([@andreaskrohn](https://twitter.com/@andreaskrohn)).

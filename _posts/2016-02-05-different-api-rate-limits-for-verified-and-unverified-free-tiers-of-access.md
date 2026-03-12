@@ -10,8 +10,6 @@ tags:
   - Diff
   - Access
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/factual-developers.png)](http://developer.factual.com/data-docs/)
-
 One of the approaches to [API plans](http://plans.apievangelist.com/) I was studying recently is from the data provider [Factual](http://developer.factual.com), who provides access to places, products, and other valuable data-sets. I felt Factual had a pretty straightforward approach to the free tier of access for their platform, that was worthy of sharing.
 
 [When you visit the page for the Factual data services](http://developer.factual.com/data-docs/), they offer two distinct levels of free access to data resources:

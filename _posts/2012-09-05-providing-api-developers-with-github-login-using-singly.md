@@ -11,8 +11,6 @@ tags:
   - Login
   - Git
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/singly/singly-plus-github.png)](https://singly.com/docs/github)
-
 I’m building a small API that I want to allow developers to register for. I don’t want to make it a complicated registration process, I just want them to provide some sort of credentials and I will issWue a key that they can use to make API calls.
 
 To keep it simple I’m offering a login using a [Github](http://www.github.com "Github") account. Every developer has a Github account right? Well if they don’t, they should. The easiest way there is to enable your API with a Github login is Singly.

@@ -9,8 +9,6 @@ tags:
   - Hypermedia
   - APIs
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/elasticpath/elastic-path-logo-2014.jpeg)](http://www.elasticpath.com/)
-
 I’m giving my [hypermedia API research](http://hypermedia.apievangelist.com/) a little love today, and as part of this I was reviewing examples of hypermedia in the wild like with the [Elastic Path Cortex API](http://www.elasticpath.com/hypermedia-api). Elastic Path was the first company to introduce me to the possibilities around hypermedia way back in 2011, so I enjoy checking in regularly to see what they are up to with their APIs.
 
 As of January 2014 [I’ve committed more time to doing research on hypermedia APIs](http://apievangelist.com/2014/01/07/what-is-a-hypermedia-api/), as well as work to tell stories about how hypermedia is being applied by companies, in a way that anyone can understand. This last summer at [API-Craft in Detroit, the hypermedia community acknowledged](http://apievangelist.com/2014/08/28/video-from-the-hypermedia-panel-at-apicraft-in-detroit-last-month/) that they have an image problem, and had some significant work ahead of them when it comes to storytelling, specifically around speaking to the “normals”.

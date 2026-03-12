@@ -9,8 +9,6 @@ tags:
   - Developers
   - People
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/peoplebrowsr/kr_pb_logo.png)](https://developer.peoplebrowsr.com/ "PeopleBrowsr Kred API")
-
 Explaining to developers, what an API does, can be hard. How you describe your API, the underlying endpoints, can make or break user adoption. You shouldn’t be afraid to evolve, and keep trying to find the sweet spot in both the language and branding that you use in your API area.
 
 I saw an example of this today, with the restructuring of [PeopleBrowsr's APis](https://developer.peoplebrowsr.com/). When I first starting playing with PeopleBrowsr's APIs, they were broken into 3 separate APIs:

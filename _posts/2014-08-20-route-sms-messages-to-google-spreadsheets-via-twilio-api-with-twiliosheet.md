@@ -12,8 +12,6 @@ tags:
   - Twilio
   - Messages
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/twilio/TwilioSheet.png)](http://twiliosheet.azurewebsites.net/)
-
 If you follow [Twilio blog](https://www.twilio.com/blog) or [Twitter account](https://twitter.com/twilio) you can always find a good API story from the API leader. It also makes me happy to see trends I’m seeing from other provider re-enforced by the API heavyweight. This time is providing spreadsheet integration with common API resources, like Twilio SMS.
 
 Twilio has a pretty slick tool they call [TwilioSheet](http://twiliosheet.azurewebsites.net/) that allows you to receive SMS messages in a Google Spreadsheet, and created a [pretty nice walkthrough of the entire setup](https://www.twilio.com/blog/2014/08/connecting-twilio-sms-to-google-spreadsheet.html). Providing this type of functionality helps, as Twilio says, "make it easy for developers and non-developers alike to receive SMS messages in a Google Spreadsheet”—**emphasis on the non-developers.**

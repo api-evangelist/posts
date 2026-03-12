@@ -7,8 +7,6 @@ atomdate: 2017-03-29T22:00:00.000Z
 tags:
   - Customers
 ---
-![](https://image.slidesharecdn.com/emnworkshop-restfullwebapisbuilddocumentmanage-slideshare-150206082129-conversion-gate02/95/restful-web-apis-build-document-manage-11-638.jpg?cb=1423211259)
-
 When I started API Evangelist back in 2010 the only stop along the API life cycle that service providers were talking about was API management. In 2017, there are numerous stops along the API life cycle from design, to testing, all the way to deprecation. The leading API providers are expanding the number of stops they service, and the smart ones are making sure that if they only service on or two stops, they do so by providing via API definitions like OpenAPI, ensuring their customers are able to seamlessly weave multiple service providers together to address their full life cycle of needs.
 
 [I've been working with my partner Restlet to advise them on expanding their platform to be what I consider to be an API life cycle provider](http://restlet.com). When I first was introduced to Restlet they were the original open source enterprise grade API deployment framework. Then Restlet became a cloud API deployment and management provider, and with their acquisition of DHC they also became an API client, and testing provider. Now with their latest update, they have worked hard to help their developer and business customers service almost every stop along a modern API life cycle, from design to deprecation.

@@ -8,8 +8,6 @@ tags:
   - iPaaS
   - Zapier
 ---
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/zapier_push_icon.png)](https://zapier.com/blog/push-by-zapier-google-chrome-extension/)
-
 [Zapier is up to more good things with the launch of Push by Zapier](https://zapier.com/blog/push-by-zapier-google-chrome-extension/), allowing you to trigger API driven events from your browser. The new Chrome browser extension lets anyone, even non-developers to trigger the functionality of over 700 apps from the browser toolbar--further expanding the definition of how APIs can be put to work.
 
 Allowing users to trigger API functionality from the browser adds an empowering dimension to the API conversation for non-developers. It allows the average user to access the features of any SaaS platform with an API, in their default environment--the browser. It allows the user to define, and queue up the API driven events that matter to them, where they operate the most. Zapier gave non-developers access to orchestrate the integration between the platforms they depend on, and Push by Zapier gives them even more granular level control over this world. 

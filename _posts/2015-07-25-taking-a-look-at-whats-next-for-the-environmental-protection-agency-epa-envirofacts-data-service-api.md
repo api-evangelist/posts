@@ -12,8 +12,6 @@ tags:
   - Environment
   - Agency
 ---
-[![EPA](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/280px-Environmental_Protection_Agency_logo.svg.png)](http://www.epa.gov/)
-
 I was asked by folks at the [Environmental Protection Agency (EPA)](http://www.epa.gov/enviro/facts/services.html) to provide some feedback on the [Envirofacts Data Service API](http://www.epa.gov/enviro/facts/services.html), as they prepare to work on the next iteration. I took a quick glance at the landing page for their service, I saw a simple URL layout showing how to make API calls, and made an estimate that it would take me probably an hour or two (at the most) to profile the API.
 
 As I dug into the process of profiling the Envirofacts Data Service API one evening in May, I realized I was wrong about the scope of the API, and became unsure how long it would actually take me. Then this work got lost in the shuffle of my summer, and is something I only recently picked up. I'm not happy if I can't provide an agency with some direction on where to go next, and after about 12 hours of work, I think I have some valuable feedback that they can run with.

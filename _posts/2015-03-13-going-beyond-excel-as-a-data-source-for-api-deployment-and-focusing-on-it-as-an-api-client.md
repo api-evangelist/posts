@@ -13,8 +13,6 @@ tags:
   - Data
   - Client
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-excel-icon.jpg)](http://spreadsheets.apievangelist.com/)
-
 I've said it before, and I will say it again — [Excel and spreadsheets](http://spreadsheets.apievangelist.com/) will continue to be super critical for the growth of the API industry. There are an increasing number of solutions like [APISpark for deploying and managing APIs using spreadsheets](http://bit.ly/1sgwGpq), something that will get easier over time, but so far I'm not seeing equal acknowledgment of the potential of Microsoft Excel as an API client.
 
 The majority of the world's data is locked up in spreadsheets, and CSV files. Something I learned during my short time in Washington DC, is that the API community is going to have to court the legions of data stewards who spend their days in spreadsheets at the companies, and government agencies around the world, if we are going to be successful. The tooling for deploying APIs from spreadsheets has emerged, but we have a lot of work ahead to make them simpler and easier to use.

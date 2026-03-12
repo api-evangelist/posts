@@ -11,8 +11,6 @@ tags:
   - REST
   - Services
 ---
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/intel/Intel-IESG-Logo.png)](http://cloudsecurity.intel.com/solutions/rest-web-services-api-security "REST Web Services & API Security")
-
 When it comes to [API service providers](http://apievangelist.com/2012/06/15/api-service-provider-roundup-for-2012/ "API Service Providers"), there is one brand that I would say is widely known, but when we are talking about APIs, often gets overlooked. That company is Intel.
 
 In addition to a whole suite of SOA and Cloud Middleware, all with an emphasis on security--[Intel has a REST Web Services Gateway](http://cloudsecurity.intel.com/solutions/rest-web-services-api-security "REST Web Services & API Security"). This provides a simple solution to the number concern I get from potential API owners: **_How do I secure my API?_**

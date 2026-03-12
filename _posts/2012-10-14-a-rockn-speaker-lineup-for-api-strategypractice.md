@@ -8,8 +8,6 @@ author:
 tags:
   - Strategy
 ---
-[![](http://www.apistrategyconference.com/images/api-strategy-conference-logo.png)](http://www.apistrategyconference.com/ "API Strategy & Practice Conference")
-
 I finished updating the [speaker lineup](http://www.apistrategyconference.com/speakers.php "speaker linup") for the [API Strategy & Practice Conference](http://www.apistrategyconference.com/ "API Strategy & Practice Conference") this weekend. While we still have a couple of panels to finalize and keynotes to announce, the speaker lineup is almost final.
 
 We have spent almost 8 weeks reaching out to leaders across the API industry, soliciting submissions for keynotes, panels and sessions. It has been a lot of fun taking all the submissions and crafting the most compelling schedule as possible.
