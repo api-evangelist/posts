@@ -5,3 +5,5 @@ gemfile
 Gemfile.lock
 _site_site_new/
 node_modules
+
+_site/
