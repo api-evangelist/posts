@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Top - API Evangelist</title>
+    <title>Categories - API Evangelist</title>
     <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta property="og:url" content="http://0.0.0.0:4001/categories/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Top - API Evangelist">
+    <meta property="og:title" content="Categories - API Evangelist">
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
     <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png">
@@ -63,11 +63,15 @@
       .sidebar .nav-link {
         color: #495057;
         font-size: 0.875rem;
-        padding: 0.35rem 0.75rem;
+        padding: 0.4rem 1rem;
         border-radius: 0.375rem;
+        margin-bottom: 1px;
       }
       .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
       .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .collapse .nav-link {
+        padding: 0.3rem 1rem;
+      }
       .sidebar .nav-heading {
         font-size: 0.7rem;
         font-weight: 600;
@@ -132,6 +136,132 @@
       @media (max-width: 991.98px) {
         .sidebar-col { display: none; }
       }
+
+      /* Timeline */
+      .tm-timeline {
+        position: relative;
+        padding-left: 2rem;
+        margin: 2rem 0;
+      }
+      .tm-timeline::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 3px;
+        background: linear-gradient(to bottom, var(--ae-green), var(--ae-accent), #d1e7cd);
+        border-radius: 3px;
+      }
+      .tm-timeline-entry {
+        position: relative;
+        padding-bottom: 1.75rem;
+      }
+      .tm-timeline-entry:last-child {
+        padding-bottom: 0;
+      }
+      .tm-timeline-entry::before {
+        content: '';
+        position: absolute;
+        left: -2rem;
+        top: 0.35rem;
+        width: 11px;
+        height: 11px;
+        background: #fff;
+        border: 3px solid var(--ae-green);
+        border-radius: 50%;
+        transform: translateX(-4px);
+        z-index: 1;
+      }
+      .tm-timeline-time h5,
+      .tm-timeline-time h6 {
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--ae-green);
+        margin: 0 0 0.25rem 0;
+      }
+      .tm-timeline-body {
+        background: #fff;
+        border: 1px solid #e9ecef;
+        border-radius: 0.5rem;
+        padding: 0.85rem 1rem;
+        transition: box-shadow 0.2s ease, border-color 0.2s ease;
+      }
+      .tm-timeline-body:hover {
+        border-color: var(--ae-accent);
+        box-shadow: 0 2px 8px rgba(61, 139, 55, 0.08);
+      }
+      .tm-timeline-body h3,
+      .tm-timeline-body h6 {
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #212529;
+        margin: 0 0 0.35rem 0;
+        line-height: 1.4;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+      }
+      .tm-timeline-body h6 a {
+        color: #212529;
+        text-decoration: none;
+      }
+      .tm-timeline-body h6 a:hover {
+        color: var(--ae-green);
+      }
+      .tm-timeline-body .timeline-label {
+        display: inline-block;
+        font-size: 0.68rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        color: #fff;
+        background: var(--ae-green);
+        padding: 0.15rem 0.5rem;
+        border-radius: 0.25rem;
+        line-height: 1.3;
+      }
+      .tm-timeline-body .timeline-tags {
+        display: inline-block;
+        font-size: 0.68rem;
+        font-weight: 500;
+        color: #6c757d;
+        font-style: italic;
+      }
+      .tm-timeline-body .timeline-description {
+        font-size: 0.82rem;
+        color: #495057;
+        line-height: 1.6;
+        margin: 0.35rem 0 0 0;
+      }
+      .tm-timeline-body ul {
+        list-style: none;
+        padding: 0;
+        margin: 0.35rem 0 0 0;
+      }
+      .tm-timeline-body ul li {
+        font-size: 0.82rem;
+        color: #495057;
+        padding: 0.15rem 0;
+        padding-left: 1rem;
+        position: relative;
+      }
+      .tm-timeline-body ul li::before {
+        content: '\2022';
+        color: var(--ae-accent);
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+      }
+
+      @media (max-width: 575.98px) {
+        .tm-timeline { padding-left: 1.5rem; }
+        .tm-timeline-entry::before { left: -1.5rem; }
+        .tm-timeline-body { padding: 0.65rem 0.75rem; }
+      }
     </style>
 
     <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
@@ -166,7 +296,7 @@
   <div class="container-fluid px-3 px-lg-4">
 
     <!-- Brand -->
-    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+    <a class="navbar-brand d-flex align-items-center" href="/">
       <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
@@ -178,12 +308,12 @@
     <!-- Desktop nav items -->
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav ms-auto align-items-center gap-1">
-        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="/2026/">Stories</a></li>
         <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
         <li class="nav-item ms-2">
-          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+          <form class="d-flex" role="search" onsubmit="location.href='/search/?search=' + document.getElementById('navSearch').value; return false;">
             <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
           </form>
         </li>
@@ -196,14 +326,14 @@
 <!-- Mobile offcanvas nav -->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
-    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+    <a href="/" class="d-flex align-items-center text-decoration-none">
       <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+    <form class="mb-3" role="search" onsubmit="location.href='/search/?search=' + document.getElementById('mobileSearch').value; return false;">
       <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
     </form>
 
@@ -216,12 +346,12 @@
         <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
           <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
         </a>
-        <div class="collapse" id="mobile-stories">
+        <div class="collapse show" id="mobile-stories">
           <ul class="nav flex-column ms-4">
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/categories">Categories</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/2026/">Stories</a></li>
             
           </ul>
         </div>
@@ -266,13 +396,13 @@
         <div class="collapse" id="mobile-timeline">
           <ul class="nav flex-column ms-4">
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/timeline/api/">API</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/timeline/resources/">Resources</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/timeline/industry/">Industry</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/timeline/people/">People</a></li>
             
           </ul>
         </div>
@@ -292,13 +422,13 @@
         <div class="collapse" id="mobile-about">
           <ul class="nav flex-column ms-4">
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/about/api-evangelist">API Evangelist</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/about/kin-lane">Kin Lane</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/about/surveying-assessment">API Surveying & Assessment</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/about/this-site">This Site</a></li>
             
           </ul>
         </div>
@@ -313,7 +443,7 @@
         <div class="collapse" id="mobile-contact">
           <ul class="nav flex-column ms-4">
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/contact">Contact Form</a></li>
             
             <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
             
@@ -330,21 +460,6 @@
             <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
             
             <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
-            
-          </ul>
-        </div>
-        
-      </li>
-      
-      <li class="nav-item">
-        
-        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
-          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
-        </a>
-        <div class="collapse" id="mobile-partner">
-          <ul class="nav flex-column ms-4">
-            
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
             
           </ul>
         </div>
@@ -386,15 +501,15 @@
   <nav class="nav flex-column">
     
       
-        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+        <a class="nav-link d-flex align-items-center active" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="true">
           <span class="material-symbols-outlined">auto_stories</span>Stories
         </a>
-        <div class="collapse" id="sidebar-stories">
+        <div class="collapse show" id="sidebar-stories">
           <nav class="nav flex-column ms-4">
             
-            <a class="nav-link py-1 active" href="https://apievangelist.com/categories">Categories</a>
+            <a class="nav-link py-1 active" href="/categories">Categories</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            <a class="nav-link py-1" href="/2026/">Stories</a>
             
           </nav>
         </div>
@@ -433,13 +548,13 @@
         <div class="collapse" id="sidebar-timeline">
           <nav class="nav flex-column ms-4">
             
-            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            <a class="nav-link py-1" href="/timeline/api/">API</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            <a class="nav-link py-1" href="/timeline/resources/">Resources</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            <a class="nav-link py-1" href="/timeline/industry/">Industry</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            <a class="nav-link py-1" href="/timeline/people/">People</a>
             
           </nav>
         </div>
@@ -457,13 +572,13 @@
         <div class="collapse" id="sidebar-about">
           <nav class="nav flex-column ms-4">
             
-            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            <a class="nav-link py-1" href="/about/api-evangelist">API Evangelist</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            <a class="nav-link py-1" href="/about/kin-lane">Kin Lane</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            <a class="nav-link py-1" href="/about/surveying-assessment">API Surveying & Assessment</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            <a class="nav-link py-1" href="/about/this-site">This Site</a>
             
           </nav>
         </div>
@@ -476,7 +591,7 @@
         <div class="collapse" id="sidebar-contact">
           <nav class="nav flex-column ms-4">
             
-            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            <a class="nav-link py-1" href="/contact">Contact Form</a>
             
             <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
             
@@ -493,19 +608,6 @@
             <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
             
             <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
-            
-          </nav>
-        </div>
-      
-    
-      
-        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
-          <span class="material-symbols-outlined">handshake</span>Partner
-        </a>
-        <div class="collapse" id="sidebar-partner">
-          <nav class="nav flex-column ms-4">
-            
-            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
             
           </nav>
         </div>
@@ -531,7 +633,7 @@
   <div class="mt-4 pt-3 border-top">
     <div class="px-2">
       <p class="text-muted small mb-1">Need help?</p>
-      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+      <a href="/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
     </div>
   </div>
 </div>
@@ -540,313 +642,2197 @@
 
       <!-- Content -->
       <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
-          <!-- Page header -->
-  <div class="row align-items-center mb-7">
-    <div class="col-auto">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-kin.png" width="65" style="margin-top: 8px; margin-left: 20px;">
-    </div>
-    <div class="col">
-      <!-- Breadcrumb -->
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb mb-2">
-          <li class="breadcrumb-item"><a class="text-body-secondary" href="#">Posts</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Categories</li>
-        </ol>
-      </nav>
-
-      <!-- Heading -->
-      <h1 class="fs-4 mb-0">Categories<div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="Post Categories" data-bs-content="These are the top curated categories of posts that have been published to API Evangelist over the years, providing a quick way to get introduced to some of the diverse topics covered over the years.">info</div>
-      </h1>
-    </div>
-  </div>
-
-  <div class="row">
-
-      
-      
-      
-
-        
-          <div class="col-12 col-md-6 col-lg-4">
-        
-
-           
-    
-        <a class="card bg-primary-subtle border-transparent mb-6" href="/search/?search=Discovery&searchFields=title">
-          <div class="card-body">
-            <div class="col-auto" style="float: right; padding: 25px;">
-                <span class="material-symbols-outlined fs-1 text-dark-emphasis">contract</span>
-            </div>
-            <h3 class="fs-6">Discovery</h3>
-            <p class="text-body-secondary">Searching and discovering APIs within the enterprise and on the web.</p>
-            <div class="text-body-secondary">33 posts</div>
-          </div>
-        </a>
-
-        
-        
-
-        
-
-      
-
-        
-
-           
-    
-        <a class="card bg-danger-subtle border-transparent mb-6" href="/search/?search=Design&searchFields=title">
-          <div class="card-body">
-            <div class="col-auto" style="float: right; padding: 25px;">
-                <span class="material-symbols-outlined fs-1 text-dark-emphasis">contract</span>
-            </div>
-            <h3 class="fs-6">Design</h3>
-            <p class="text-body-secondary">The defining, designing, and collaborating on the creation of an HTTP API.</p>
-            <div class="text-body-secondary">33 posts</div>
-          </div>
-        </a>
-
-        
-        
-
-        
-
-      
-
-        
-
-           
-    
-        <a class="card bg-warning-subtle border-transparent mb-6" href="/search/?search=Lifecycle&searchFields=title">
-          <div class="card-body">
-            <div class="col-auto" style="float: right; padding: 25px;">
-                <span class="material-symbols-outlined fs-1 text-dark-emphasis">contract</span>
-            </div>
-            <h3 class="fs-6">Lifecycle</h3>
-            <p class="text-body-secondary">Establishing a common set of stages that define when the API work gets done.</p>
-            <div class="text-body-secondary">33 posts</div>
-          </div>
-        </a>
-
-        
-        
-
-        
-
-      
-
-        
-
-           
-    
-        <a class="card bg-info-subtle border-transparent mb-6" href="/search/?search=Portals&searchFields=title">
-          <div class="card-body">
-            <div class="col-auto" style="float: right; padding: 25px;">
-                <span class="material-symbols-outlined fs-1 text-dark-emphasis">contract</span>
-            </div>
-            <h3 class="fs-6">Portals</h3>
-            <p class="text-body-secondary">Dedicated doorways for publishing API catalogs and engaging with consumers.</p>
-            <div class="text-body-secondary">33 posts</div>
-          </div>
-        </a>
-
-        
-        
-
-        
-          </div>
-          
-        
-
-      
-
-        
-          <div class="col-12 col-md-6 col-lg-4">
-        
-
-           
-    
-        <a class="card bg-danger-subtle border-transparent mb-6" href="/search/?search=Evangelism&searchFields=title">
-          <div class="card-body">
-            <div class="col-auto" style="float: right; padding: 25px;">
-                <span class="material-symbols-outlined fs-1 text-dark-emphasis">contract</span>
-            </div>
-            <h3 class="fs-6">Evangelism</h3>
-            <p class="text-body-secondary">The art of spreading awareness about APIs within an enterprise or on the web.</p>
-            <div class="text-body-secondary">33 posts</div>
-          </div>
-        </a>
-
-        
-        
-
-        
-
-      
-
-        
-
-           
-    
-        <a class="card bg-warning-subtle border-transparent mb-6" href="/search/?search=OpenAPI&searchFields=title">
-          <div class="card-body">
-            <div class="col-auto" style="float: right; padding: 25px;">
-                <span class="material-symbols-outlined fs-1 text-dark-emphasis">contract</span>
-            </div>
-            <h3 class="fs-6">OpenAPI</h3>
-            <p class="text-body-secondary">Using the OpenAPI specification to define the technical details of an API.</p>
-            <div class="text-body-secondary">33 posts</div>
-          </div>
-        </a>
-
-        
-        
-
-        
-
-      
-
-        
-
-           
-    
-        <a class="card bg-primary-subtle border-transparent mb-6" href="/search/?search=Documentation&searchFields=title">
-          <div class="card-body">
-            <div class="col-auto" style="float: right; padding: 25px;">
-                <span class="material-symbols-outlined fs-1 text-dark-emphasis">contract</span>
-            </div>
-            <h3 class="fs-6">Documentation</h3>
-            <p class="text-body-secondary">Publishing of HTML or Markdown documentation for API consumers use.</p>
-            <div class="text-body-secondary">33 posts</div>
-          </div>
-        </a>
-
-        
-        
-
-        
-
-      
-
-        
-
-           
-    
-        <a class="card bg-danger-subtle border-transparent mb-6" href="/search/?search=Deployment&searchFields=title">
-          <div class="card-body">
-            <div class="col-auto" style="float: right; padding: 25px;">
-                <span class="material-symbols-outlined fs-1 text-dark-emphasis">contract</span>
-            </div>
-            <h3 class="fs-6">Deployment</h3>
-            <p class="text-body-secondary">The technical details of deploying an API for development and production.</p>
-            <div class="text-body-secondary">33 posts</div>
-          </div>
-        </a>
-
-        
-        
-
-        
-          </div>
-          
-        
-
-      
-
-        
-          <div class="col-12 col-md-6 col-lg-4">
-        
-
-           
-    
-        <a class="card bg-warning-subtle border-transparent mb-6" href="/search/?search=Gateway&searchFields=title">
-          <div class="card-body">
-            <div class="col-auto" style="float: right; padding: 25px;">
-                <span class="material-symbols-outlined fs-1 text-dark-emphasis">contract</span>
-            </div>
-            <h3 class="fs-6">Gateways</h3>
-            <p class="text-body-secondary">The runtime access to API via a central or federated gateway.</p>
-            <div class="text-body-secondary">33 posts</div>
-          </div>
-        </a>
-
-        
-        
-
-        
-
-      
-
-        
-
-           
-    
-        <a class="card bg-primary-subtle border-transparent mb-6" href="/search/?search=Regulations&searchFields=title">
-          <div class="card-body">
-            <div class="col-auto" style="float: right; padding: 25px;">
-                <span class="material-symbols-outlined fs-1 text-dark-emphasis">contract</span>
-            </div>
-            <h3 class="fs-6">Regulations</h3>
-            <p class="text-body-secondary">The regulation of APIs by government within a specific business sector.</p>
-            <div class="text-body-secondary">33 posts</div>
-          </div>
-        </a>
-
-        
-        
-
-        
-
-      
-
-        
-
-           
-    
-        <a class="card bg-danger-subtle border-transparent mb-6" href="/search/?search=Monetization&searchFields=title">
-          <div class="card-body">
-            <div class="col-auto" style="float: right; padding: 25px;">
-                <span class="material-symbols-outlined fs-1 text-dark-emphasis">contract</span>
-            </div>
-            <h3 class="fs-6">Monetization</h3>
-            <p class="text-body-secondary">Generating revenue through partnerships and direct usage of HTTP API resources.</p>
-            <div class="text-body-secondary">33 posts</div>
-          </div>
-        </a>
-
-        
-        
-
-        
-
-      
-
-        
-
-           
-    
-        <a class="card bg-info-subtle border-transparent mb-6" href="/search/?search=Standards&searchFields=title">
-          <div class="card-body">
-            <div class="col-auto" style="float: right; padding: 25px;">
-                <span class="material-symbols-outlined fs-1 text-dark-emphasis">contract</span>
-            </div>
-            <h3 class="fs-6">Standards</h3>
-            <p class="text-body-secondary">Making APIs more consistent using Internet, and industry standards.</p>
-            <div class="text-body-secondary">33 posts</div>
-          </div>
-        </a>
-
-        
-        
-
-        
-          </div>
-          
-        
-
-         
-
+        <div class="d-flex align-items-center mb-4">
+  <div>
+    <h1 class="mb-0 fs-4">Categories</h1>
+    <p class="text-muted mb-0">Curated topic areas covering the main themes of API Evangelist.</p>
   </div>
 </div>
+
+<div class="row g-3 mb-5">
+  
+  <div class="col-12 col-sm-6 col-lg-4">
+    <a href="/search/?search=Discovery&searchFields=title" class="card h-100 text-decoration-none border" style="transition: box-shadow 0.15s;">
+      <div class="card-body d-flex align-items-start">
+        <span class="material-symbols-outlined me-3 mt-1 flex-shrink-0" style="font-size: 28px; color: var(--ae-green);">contract</span>
+        <div>
+          <h5 class="card-title fs-6 mb-1 text-dark">Discovery</h5>
+          <p class="card-text text-muted small mb-0">Searching and discovering APIs within the enterprise and on the web.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+  <div class="col-12 col-sm-6 col-lg-4">
+    <a href="/search/?search=Design&searchFields=title" class="card h-100 text-decoration-none border" style="transition: box-shadow 0.15s;">
+      <div class="card-body d-flex align-items-start">
+        <span class="material-symbols-outlined me-3 mt-1 flex-shrink-0" style="font-size: 28px; color: var(--ae-green);">contract</span>
+        <div>
+          <h5 class="card-title fs-6 mb-1 text-dark">Design</h5>
+          <p class="card-text text-muted small mb-0">The defining, designing, and collaborating on the creation of an HTTP API.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+  <div class="col-12 col-sm-6 col-lg-4">
+    <a href="/search/?search=Lifecycle&searchFields=title" class="card h-100 text-decoration-none border" style="transition: box-shadow 0.15s;">
+      <div class="card-body d-flex align-items-start">
+        <span class="material-symbols-outlined me-3 mt-1 flex-shrink-0" style="font-size: 28px; color: var(--ae-green);">contract</span>
+        <div>
+          <h5 class="card-title fs-6 mb-1 text-dark">Lifecycle</h5>
+          <p class="card-text text-muted small mb-0">Establishing a common set of stages that define when the API work gets done.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+  <div class="col-12 col-sm-6 col-lg-4">
+    <a href="/search/?search=Portals&searchFields=title" class="card h-100 text-decoration-none border" style="transition: box-shadow 0.15s;">
+      <div class="card-body d-flex align-items-start">
+        <span class="material-symbols-outlined me-3 mt-1 flex-shrink-0" style="font-size: 28px; color: var(--ae-green);">contract</span>
+        <div>
+          <h5 class="card-title fs-6 mb-1 text-dark">Portals</h5>
+          <p class="card-text text-muted small mb-0">Dedicated doorways for publishing API catalogs and engaging with consumers.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+  <div class="col-12 col-sm-6 col-lg-4">
+    <a href="/search/?search=Evangelism&searchFields=title" class="card h-100 text-decoration-none border" style="transition: box-shadow 0.15s;">
+      <div class="card-body d-flex align-items-start">
+        <span class="material-symbols-outlined me-3 mt-1 flex-shrink-0" style="font-size: 28px; color: var(--ae-green);">contract</span>
+        <div>
+          <h5 class="card-title fs-6 mb-1 text-dark">Evangelism</h5>
+          <p class="card-text text-muted small mb-0">The art of spreading awareness about APIs within an enterprise or on the web.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+  <div class="col-12 col-sm-6 col-lg-4">
+    <a href="/search/?search=OpenAPI&searchFields=title" class="card h-100 text-decoration-none border" style="transition: box-shadow 0.15s;">
+      <div class="card-body d-flex align-items-start">
+        <span class="material-symbols-outlined me-3 mt-1 flex-shrink-0" style="font-size: 28px; color: var(--ae-green);">contract</span>
+        <div>
+          <h5 class="card-title fs-6 mb-1 text-dark">OpenAPI</h5>
+          <p class="card-text text-muted small mb-0">Using the OpenAPI specification to define the technical details of an API.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+  <div class="col-12 col-sm-6 col-lg-4">
+    <a href="/search/?search=Documentation&searchFields=title" class="card h-100 text-decoration-none border" style="transition: box-shadow 0.15s;">
+      <div class="card-body d-flex align-items-start">
+        <span class="material-symbols-outlined me-3 mt-1 flex-shrink-0" style="font-size: 28px; color: var(--ae-green);">contract</span>
+        <div>
+          <h5 class="card-title fs-6 mb-1 text-dark">Documentation</h5>
+          <p class="card-text text-muted small mb-0">Publishing of HTML or Markdown documentation for API consumers use.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+  <div class="col-12 col-sm-6 col-lg-4">
+    <a href="/search/?search=Deployment&searchFields=title" class="card h-100 text-decoration-none border" style="transition: box-shadow 0.15s;">
+      <div class="card-body d-flex align-items-start">
+        <span class="material-symbols-outlined me-3 mt-1 flex-shrink-0" style="font-size: 28px; color: var(--ae-green);">contract</span>
+        <div>
+          <h5 class="card-title fs-6 mb-1 text-dark">Deployment</h5>
+          <p class="card-text text-muted small mb-0">The technical details of deploying an API for development and production.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+  <div class="col-12 col-sm-6 col-lg-4">
+    <a href="/search/?search=Gateway&searchFields=title" class="card h-100 text-decoration-none border" style="transition: box-shadow 0.15s;">
+      <div class="card-body d-flex align-items-start">
+        <span class="material-symbols-outlined me-3 mt-1 flex-shrink-0" style="font-size: 28px; color: var(--ae-green);">contract</span>
+        <div>
+          <h5 class="card-title fs-6 mb-1 text-dark">Gateways</h5>
+          <p class="card-text text-muted small mb-0">The runtime access to API via a central or federated gateway.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+  <div class="col-12 col-sm-6 col-lg-4">
+    <a href="/search/?search=Regulations&searchFields=title" class="card h-100 text-decoration-none border" style="transition: box-shadow 0.15s;">
+      <div class="card-body d-flex align-items-start">
+        <span class="material-symbols-outlined me-3 mt-1 flex-shrink-0" style="font-size: 28px; color: var(--ae-green);">contract</span>
+        <div>
+          <h5 class="card-title fs-6 mb-1 text-dark">Regulations</h5>
+          <p class="card-text text-muted small mb-0">The regulation of APIs by government within a specific business sector.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+  <div class="col-12 col-sm-6 col-lg-4">
+    <a href="/search/?search=Monetization&searchFields=title" class="card h-100 text-decoration-none border" style="transition: box-shadow 0.15s;">
+      <div class="card-body d-flex align-items-start">
+        <span class="material-symbols-outlined me-3 mt-1 flex-shrink-0" style="font-size: 28px; color: var(--ae-green);">contract</span>
+        <div>
+          <h5 class="card-title fs-6 mb-1 text-dark">Monetization</h5>
+          <p class="card-text text-muted small mb-0">Generating revenue through partnerships and direct usage of HTTP API resources.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+  <div class="col-12 col-sm-6 col-lg-4">
+    <a href="/search/?search=Standards&searchFields=title" class="card h-100 text-decoration-none border" style="transition: box-shadow 0.15s;">
+      <div class="card-body d-flex align-items-start">
+        <span class="material-symbols-outlined me-3 mt-1 flex-shrink-0" style="font-size: 28px; color: var(--ae-green);">contract</span>
+        <div>
+          <h5 class="card-title fs-6 mb-1 text-dark">Standards</h5>
+          <p class="card-text text-muted small mb-0">Making APIs more consistent using Internet, and industry standards.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  
+</div>
+
+<!-- Tags -->
+<div class="mb-4">
+  <h2 class="fs-5 mb-1">Popular Tags</h2>
+  <p class="text-muted small mb-3">Top 250 tags across 4546 stories. Click any tag to browse matching posts.</p>
+
+  <!-- Filter -->
+  <div class="mb-3" style="max-width: 350px;">
+    <input type="text" id="tag-filter" class="form-control form-control-sm" placeholder="Filter tags..." onkeyup="filterTags()">
+  </div>
+
+  <div id="tag-cloud" class="d-flex flex-wrap gap-2">
+    
+      
+      <a href="/search/?search=API Evangelist&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="api evangelist"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        API Evangelist <span class="text-muted" style="font-weight: 400;">883</span>
+      </a>
+    
+      
+      <a href="/search/?search=APIs&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="apis"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        APIs <span class="text-muted" style="font-weight: 400;">524</span>
+      </a>
+    
+      
+      <a href="/search/?search=Definitions&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="definitions"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Definitions <span class="text-muted" style="font-weight: 400;">230</span>
+      </a>
+    
+      
+      <a href="/search/?search=Data&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="data"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Data <span class="text-muted" style="font-weight: 400;">214</span>
+      </a>
+    
+      
+      <a href="/search/?search=My&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="my"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        My <span class="text-muted" style="font-weight: 400;">208</span>
+      </a>
+    
+      
+      <a href="/search/?search=OpenAPI&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="openapi"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        OpenAPI <span class="text-muted" style="font-weight: 400;">204</span>
+      </a>
+    
+      
+      <a href="/search/?search=Design&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="design"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Design <span class="text-muted" style="font-weight: 400;">192</span>
+      </a>
+    
+      
+      <a href="/search/?search=Open&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="open"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Open <span class="text-muted" style="font-weight: 400;">176</span>
+      </a>
+    
+      
+      <a href="/search/?search=Governance&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="governance"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Governance <span class="text-muted" style="font-weight: 400;">171</span>
+      </a>
+    
+      
+      <a href="/search/?search=Discovery&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="discovery"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Discovery <span class="text-muted" style="font-weight: 400;">156</span>
+      </a>
+    
+      
+      <a href="/search/?search=Management&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="management"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Management <span class="text-muted" style="font-weight: 400;">153</span>
+      </a>
+    
+      
+      <a href="/search/?search=Politics of APIs&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="politics of apis"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Politics of APIs <span class="text-muted" style="font-weight: 400;">130</span>
+      </a>
+    
+      
+      <a href="/search/?search=ai&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="ai"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        ai <span class="text-muted" style="font-weight: 400;">128</span>
+      </a>
+    
+      
+      <a href="/search/?search=Github&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="github"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Github <span class="text-muted" style="font-weight: 400;">126</span>
+      </a>
+    
+      
+      <a href="/search/?search=Business&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="business"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Business <span class="text-muted" style="font-weight: 400;">117</span>
+      </a>
+    
+      
+      <a href="/search/?search=Definition&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="definition"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Definition <span class="text-muted" style="font-weight: 400;">117</span>
+      </a>
+    
+      
+      <a href="/search/?search=Documentation&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="documentation"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Documentation <span class="text-muted" style="font-weight: 400;">107</span>
+      </a>
+    
+      
+      <a href="/search/?search=Evangelism&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="evangelism"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Evangelism <span class="text-muted" style="font-weight: 400;">106</span>
+      </a>
+    
+      
+      <a href="/search/?search=Deployment&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="deployment"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Deployment <span class="text-muted" style="font-weight: 400;">99</span>
+      </a>
+    
+      
+      <a href="/search/?search=Strategy&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="strategy"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Strategy <span class="text-muted" style="font-weight: 400;">99</span>
+      </a>
+    
+      
+      <a href="/search/?search=APIs.json&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="apis.json"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        APIs.json <span class="text-muted" style="font-weight: 400;">96</span>
+      </a>
+    
+      
+      <a href="/search/?search=Platform&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="platform"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Platform <span class="text-muted" style="font-weight: 400;">94</span>
+      </a>
+    
+      
+      <a href="/search/?search=Evangelist&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="evangelist"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Evangelist <span class="text-muted" style="font-weight: 400;">89</span>
+      </a>
+    
+      
+      <a href="/search/?search=Federal Government&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="federal government"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Federal Government <span class="text-muted" style="font-weight: 400;">88</span>
+      </a>
+    
+      
+      <a href="/search/?search=Security&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="security"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Security <span class="text-muted" style="font-weight: 400;">87</span>
+      </a>
+    
+      
+      <a href="/search/?search=Git&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="git"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Git <span class="text-muted" style="font-weight: 400;">83</span>
+      </a>
+    
+      
+      <a href="/search/?search=Web&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="web"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Web <span class="text-muted" style="font-weight: 400;">81</span>
+      </a>
+    
+      
+      <a href="/search/?search=Lifecycle&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="lifecycle"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Lifecycle <span class="text-muted" style="font-weight: 400;">80</span>
+      </a>
+    
+      
+      <a href="/search/?search=Monetization&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="monetization"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Monetization <span class="text-muted" style="font-weight: 400;">80</span>
+      </a>
+    
+      
+      <a href="/search/?search=Developers&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="developers"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Developers <span class="text-muted" style="font-weight: 400;">70</span>
+      </a>
+    
+      
+      <a href="/search/?search=Access&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="access"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Access <span class="text-muted" style="font-weight: 400;">63</span>
+      </a>
+    
+      
+      <a href="/search/?search=Government&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="government"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Government <span class="text-muted" style="font-weight: 400;">63</span>
+      </a>
+    
+      
+      <a href="/search/?search=Swagger&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="swagger"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Swagger <span class="text-muted" style="font-weight: 400;">62</span>
+      </a>
+    
+      
+      <a href="/search/?search=Providers&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="providers"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Providers <span class="text-muted" style="font-weight: 400;">62</span>
+      </a>
+    
+      
+      <a href="/search/?search=Twitter&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="twitter"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Twitter <span class="text-muted" style="font-weight: 400;">62</span>
+      </a>
+    
+      
+      <a href="/search/?search=Rules&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="rules"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Rules <span class="text-muted" style="font-weight: 400;">61</span>
+      </a>
+    
+      
+      <a href="/search/?search=Stack&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="stack"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Stack <span class="text-muted" style="font-weight: 400;">60</span>
+      </a>
+    
+      
+      <a href="/search/?search=Collections&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="collections"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Collections <span class="text-muted" style="font-weight: 400;">59</span>
+      </a>
+    
+      
+      <a href="/search/?search=Public&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="public"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Public <span class="text-muted" style="font-weight: 400;">57</span>
+      </a>
+    
+      
+      <a href="/search/?search=Plans&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="plans"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Plans <span class="text-muted" style="font-weight: 400;">57</span>
+      </a>
+    
+      
+      <a href="/search/?search=Schema&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="schema"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Schema <span class="text-muted" style="font-weight: 400;">52</span>
+      </a>
+    
+      
+      <a href="/search/?search=Open Source&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="open source"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Open Source <span class="text-muted" style="font-weight: 400;">51</span>
+      </a>
+    
+      
+      <a href="/search/?search=APIs.jso&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none fs-6 fw-semibold"
+         data-name="apis.jso"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        APIs.jso <span class="text-muted" style="font-weight: 400;">50</span>
+      </a>
+    
+      
+      <a href="/search/?search=Hypermedia&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="hypermedia"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Hypermedia <span class="text-muted" style="font-weight: 400;">48</span>
+      </a>
+    
+      
+      <a href="/search/?search=Discover&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="discover"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Discover <span class="text-muted" style="font-weight: 400;">48</span>
+      </a>
+    
+      
+      <a href="/search/?search=Services&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="services"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Services <span class="text-muted" style="font-weight: 400;">47</span>
+      </a>
+    
+      
+      <a href="/search/?search=Communications&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="communications"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Communications <span class="text-muted" style="font-weight: 400;">47</span>
+      </a>
+    
+      
+      <a href="/search/?search=Business of APIs&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="business of apis"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Business of APIs <span class="text-muted" style="font-weight: 400;">46</span>
+      </a>
+    
+      
+      <a href="/search/?search=Cloud&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="cloud"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Cloud <span class="text-muted" style="font-weight: 400;">46</span>
+      </a>
+    
+      
+      <a href="/search/?search=Support&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="support"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Support <span class="text-muted" style="font-weight: 400;">46</span>
+      </a>
+    
+      
+      <a href="/search/?search=Communication&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="communication"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Communication <span class="text-muted" style="font-weight: 400;">46</span>
+      </a>
+    
+      
+      <a href="/search/?search=Social&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="social"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Social <span class="text-muted" style="font-weight: 400;">46</span>
+      </a>
+    
+      
+      <a href="/search/?search=JSON Schema&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="json schema"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        JSON Schema <span class="text-muted" style="font-weight: 400;">45</span>
+      </a>
+    
+      
+      <a href="/search/?search=Research&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="research"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Research <span class="text-muted" style="font-weight: 400;">44</span>
+      </a>
+    
+      
+      <a href="/search/?search=APIStrat&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="apistrat"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        APIStrat <span class="text-muted" style="font-weight: 400;">44</span>
+      </a>
+    
+      
+      <a href="/search/?search=Code&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="code"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Code <span class="text-muted" style="font-weight: 400;">44</span>
+      </a>
+    
+      
+      <a href="/search/?search=Mobile&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="mobile"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Mobile <span class="text-muted" style="font-weight: 400;">43</span>
+      </a>
+    
+      
+      <a href="/search/?search=Standards&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="standards"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Standards <span class="text-muted" style="font-weight: 400;">43</span>
+      </a>
+    
+      
+      <a href="/search/?search=Artificial Intelligence&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="artificial intelligence"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Artificial Intelligence <span class="text-muted" style="font-weight: 400;">43</span>
+      </a>
+    
+      
+      <a href="/search/?search=Monitoring&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="monitoring"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Monitoring <span class="text-muted" style="font-weight: 400;">42</span>
+      </a>
+    
+      
+      <a href="/search/?search=Review&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="review"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Review <span class="text-muted" style="font-weight: 400;">42</span>
+      </a>
+    
+      
+      <a href="/search/?search=ddi&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="ddi"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        ddi <span class="text-muted" style="font-weight: 400;">41</span>
+      </a>
+    
+      
+      <a href="/search/?search=Tooling&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="tooling"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Tooling <span class="text-muted" style="font-weight: 400;">39</span>
+      </a>
+    
+      
+      <a href="/search/?search=Search&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="search"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Search <span class="text-muted" style="font-weight: 400;">38</span>
+      </a>
+    
+      
+      <a href="/search/?search=Portal&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="portal"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Portal <span class="text-muted" style="font-weight: 400;">38</span>
+      </a>
+    
+      
+      <a href="/search/?search=Operations&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="operations"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Operations <span class="text-muted" style="font-weight: 400;">38</span>
+      </a>
+    
+      
+      <a href="/search/?search=Storytelling&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="storytelling"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Storytelling <span class="text-muted" style="font-weight: 400;">38</span>
+      </a>
+    
+      
+      <a href="/search/?search=Authentication&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="authentication"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Authentication <span class="text-muted" style="font-weight: 400;">38</span>
+      </a>
+    
+      
+      <a href="/search/?search=Testing&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="testing"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Testing <span class="text-muted" style="font-weight: 400;">37</span>
+      </a>
+    
+      
+      <a href="/search/?search=API Management&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="api management"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        API Management <span class="text-muted" style="font-weight: 400;">37</span>
+      </a>
+    
+      
+      <a href="/search/?search=Politics&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="politics"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Politics <span class="text-muted" style="font-weight: 400;">37</span>
+      </a>
+    
+      
+      <a href="/search/?search=JSON&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="json"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        JSON <span class="text-muted" style="font-weight: 400;">36</span>
+      </a>
+    
+      
+      <a href="/search/?search=SDK&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="sdk"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        SDK <span class="text-muted" style="font-weight: 400;">36</span>
+      </a>
+    
+      
+      <a href="/search/?search=Specifications&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="specifications"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Specifications <span class="text-muted" style="font-weight: 400;">36</span>
+      </a>
+    
+      
+      <a href="/search/?search=Amazon&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="amazon"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Amazon <span class="text-muted" style="font-weight: 400;">36</span>
+      </a>
+    
+      
+      <a href="/search/?search=Observability&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="observability"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Observability <span class="text-muted" style="font-weight: 400;">36</span>
+      </a>
+    
+      
+      <a href="/search/?search=Resources&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="resources"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Resources <span class="text-muted" style="font-weight: 400;">36</span>
+      </a>
+    
+      
+      <a href="/search/?search=Pricing&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="pricing"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Pricing <span class="text-muted" style="font-weight: 400;">36</span>
+      </a>
+    
+      
+      <a href="/search/?search=Transparency&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="transparency"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Transparency <span class="text-muted" style="font-weight: 400;">35</span>
+      </a>
+    
+      
+      <a href="/search/?search=Economy&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="economy"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Economy <span class="text-muted" style="font-weight: 400;">35</span>
+      </a>
+    
+      
+      <a href="/search/?search=Portals&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="portals"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Portals <span class="text-muted" style="font-weight: 400;">35</span>
+      </a>
+    
+      
+      <a href="/search/?search=Community&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="community"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Community <span class="text-muted" style="font-weight: 400;">34</span>
+      </a>
+    
+      
+      <a href="/search/?search=Automation&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="automation"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Automation <span class="text-muted" style="font-weight: 400;">34</span>
+      </a>
+    
+      
+      <a href="/search/?search=Integration&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="integration"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Integration <span class="text-muted" style="font-weight: 400;">33</span>
+      </a>
+    
+      
+      <a href="/search/?search=Real Time&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="real time"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Real Time <span class="text-muted" style="font-weight: 400;">33</span>
+      </a>
+    
+      
+      <a href="/search/?search=Enterprise&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="enterprise"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Enterprise <span class="text-muted" style="font-weight: 400;">32</span>
+      </a>
+    
+      
+      <a href="/search/?search=Microservices&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="microservices"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Microservices <span class="text-muted" style="font-weight: 400;">31</span>
+      </a>
+    
+      
+      <a href="/search/?search=Gateway&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="gateway"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Gateway <span class="text-muted" style="font-weight: 400;">31</span>
+      </a>
+    
+      
+      <a href="/search/?search=Spectral&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="spectral"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Spectral <span class="text-muted" style="font-weight: 400;">31</span>
+      </a>
+    
+      
+      <a href="/search/?search=Products&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="products"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Products <span class="text-muted" style="font-weight: 400;">30</span>
+      </a>
+    
+      
+      <a href="/search/?search=Policies&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="policies"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Policies <span class="text-muted" style="font-weight: 400;">30</span>
+      </a>
+    
+      
+      <a href="/search/?search=101&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="101"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        101 <span class="text-muted" style="font-weight: 400;">29</span>
+      </a>
+    
+      
+      <a href="/search/?search=HTTP&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="http"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        HTTP <span class="text-muted" style="font-weight: 400;">29</span>
+      </a>
+    
+      
+      <a href="/search/?search=Regulations&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="regulations"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Regulations <span class="text-muted" style="font-weight: 400;">29</span>
+      </a>
+    
+      
+      <a href="/search/?search=Gateways&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="gateways"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Gateways <span class="text-muted" style="font-weight: 400;">29</span>
+      </a>
+    
+      
+      <a href="/search/?search=4&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="4"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        4 <span class="text-muted" style="font-weight: 400;">29</span>
+      </a>
+    
+      
+      <a href="/search/?search=REST&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="rest"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        REST <span class="text-muted" style="font-weight: 400;">29</span>
+      </a>
+    
+      
+      <a href="/search/?search=Print&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="print"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Print <span class="text-muted" style="font-weight: 400;">29</span>
+      </a>
+    
+      
+      <a href="/search/?search=Consumers&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="consumers"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Consumers <span class="text-muted" style="font-weight: 400;">28</span>
+      </a>
+    
+      
+      <a href="/search/?search=Landscape&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="landscape"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Landscape <span class="text-muted" style="font-weight: 400;">28</span>
+      </a>
+    
+      
+      <a href="/search/?search=Stories&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="stories"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Stories <span class="text-muted" style="font-weight: 400;">28</span>
+      </a>
+    
+      
+      <a href="/search/?search=Privacy&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="privacy"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Privacy <span class="text-muted" style="font-weight: 400;">28</span>
+      </a>
+    
+      
+      <a href="/search/?search=Clients&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="clients"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Clients <span class="text-muted" style="font-weight: 400;">28</span>
+      </a>
+    
+      
+      <a href="/search/?search=Applications&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="applications"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Applications <span class="text-muted" style="font-weight: 400;">28</span>
+      </a>
+    
+      
+      <a href="/search/?search=Industry&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="industry"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Industry <span class="text-muted" style="font-weight: 400;">28</span>
+      </a>
+    
+      
+      <a href="/search/?search=Micro&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="micro"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Micro <span class="text-muted" style="font-weight: 400;">27</span>
+      </a>
+    
+      
+      <a href="/search/?search=Platforms&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="platforms"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Platforms <span class="text-muted" style="font-weight: 400;">27</span>
+      </a>
+    
+      
+      <a href="/search/?search=Database&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="database"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Database <span class="text-muted" style="font-weight: 400;">27</span>
+      </a>
+    
+      
+      <a href="/search/?search=Machine Learning&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="machine learning"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Machine Learning <span class="text-muted" style="font-weight: 400;">27</span>
+      </a>
+    
+      
+      <a href="/search/?search=Education&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="education"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Education <span class="text-muted" style="font-weight: 400;">27</span>
+      </a>
+    
+      
+      <a href="/search/?search=Internal&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="internal"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Internal <span class="text-muted" style="font-weight: 400;">27</span>
+      </a>
+    
+      
+      <a href="/search/?search=Patents&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="patents"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Patents <span class="text-muted" style="font-weight: 400;">26</span>
+      </a>
+    
+      
+      <a href="/search/?search=Scale&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="scale"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Scale <span class="text-muted" style="font-weight: 400;">26</span>
+      </a>
+    
+      
+      <a href="/search/?search=Getting Started&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="getting started"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Getting Started <span class="text-muted" style="font-weight: 400;">25</span>
+      </a>
+    
+      
+      <a href="/search/?search=AI&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="ai"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        AI <span class="text-muted" style="font-weight: 400;">25</span>
+      </a>
+    
+      
+      <a href="/search/?search=City Government&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="city government"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        City Government <span class="text-muted" style="font-weight: 400;">25</span>
+      </a>
+    
+      
+      <a href="/search/?search=People&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="people"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        People <span class="text-muted" style="font-weight: 400;">25</span>
+      </a>
+    
+      
+      <a href="/search/?search=History&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="history"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        History <span class="text-muted" style="font-weight: 400;">25</span>
+      </a>
+    
+      
+      <a href="/search/?search=Investment&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="investment"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Investment <span class="text-muted" style="font-weight: 400;">25</span>
+      </a>
+    
+      
+      <a href="/search/?search=Spreadsheet&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small fw-medium"
+         data-name="spreadsheet"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Spreadsheet <span class="text-muted" style="font-weight: 400;">25</span>
+      </a>
+    
+      
+      <a href="/search/?search=Protocols&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="protocols"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Protocols <span class="text-muted" style="font-weight: 400;">24</span>
+      </a>
+    
+      
+      <a href="/search/?search=Product&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="product"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Product <span class="text-muted" style="font-weight: 400;">24</span>
+      </a>
+    
+      
+      <a href="/search/?search=Healthcare&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="healthcare"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Healthcare <span class="text-muted" style="font-weight: 400;">24</span>
+      </a>
+    
+      
+      <a href="/search/?search=Time&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="time"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Time <span class="text-muted" style="font-weight: 400;">24</span>
+      </a>
+    
+      
+      <a href="/search/?search=Terms of Service&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="terms of service"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Terms of Service <span class="text-muted" style="font-weight: 400;">23</span>
+      </a>
+    
+      
+      <a href="/search/?search=Technology&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="technology"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Technology <span class="text-muted" style="font-weight: 400;">23</span>
+      </a>
+    
+      
+      <a href="/search/?search=Integrations&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="integrations"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Integrations <span class="text-muted" style="font-weight: 400;">23</span>
+      </a>
+    
+      
+      <a href="/search/?search=Client&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="client"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Client <span class="text-muted" style="font-weight: 400;">23</span>
+      </a>
+    
+      
+      <a href="/search/?search=Learning&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="learning"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Learning <span class="text-muted" style="font-weight: 400;">23</span>
+      </a>
+    
+      
+      <a href="/search/?search=Editor&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="editor"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Editor <span class="text-muted" style="font-weight: 400;">23</span>
+      </a>
+    
+      
+      <a href="/search/?search=Postman&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="postman"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Postman <span class="text-muted" style="font-weight: 400;">23</span>
+      </a>
+    
+      
+      <a href="/search/?search=OAuth&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="oauth"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        OAuth <span class="text-muted" style="font-weight: 400;">23</span>
+      </a>
+    
+      
+      <a href="/search/?search=Experience&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="experience"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Experience <span class="text-muted" style="font-weight: 400;">23</span>
+      </a>
+    
+      
+      <a href="/search/?search=SDKs&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="sdks"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        SDKs <span class="text-muted" style="font-weight: 400;">23</span>
+      </a>
+    
+      
+      <a href="/search/?search=Training&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="training"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Training <span class="text-muted" style="font-weight: 400;">23</span>
+      </a>
+    
+      
+      <a href="/search/?search=Generation&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="generation"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Generation <span class="text-muted" style="font-weight: 400;">23</span>
+      </a>
+    
+      
+      <a href="/search/?search=GraphQL&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="graphql"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        GraphQL <span class="text-muted" style="font-weight: 400;">22</span>
+      </a>
+    
+      
+      <a href="/search/?search=Banking&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="banking"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Banking <span class="text-muted" style="font-weight: 400;">22</span>
+      </a>
+    
+      
+      <a href="/search/?search=Digital&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="digital"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Digital <span class="text-muted" style="font-weight: 400;">22</span>
+      </a>
+    
+      
+      <a href="/search/?search=Partners&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="partners"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Partners <span class="text-muted" style="font-weight: 400;">22</span>
+      </a>
+    
+      
+      <a href="/search/?search=Tools&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="tools"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Tools <span class="text-muted" style="font-weight: 400;">22</span>
+      </a>
+    
+      
+      <a href="/search/?search=Embeddable&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="embeddable"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Embeddable <span class="text-muted" style="font-weight: 400;">22</span>
+      </a>
+    
+      
+      <a href="/search/?search=Blueprint&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="blueprint"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Blueprint <span class="text-muted" style="font-weight: 400;">21</span>
+      </a>
+    
+      
+      <a href="/search/?search=Voice&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="voice"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Voice <span class="text-muted" style="font-weight: 400;">21</span>
+      </a>
+    
+      
+      <a href="/search/?search=Conversations&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="conversations"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Conversations <span class="text-muted" style="font-weight: 400;">21</span>
+      </a>
+    
+      
+      <a href="/search/?search=Service Providers&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="service providers"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Service Providers <span class="text-muted" style="font-weight: 400;">21</span>
+      </a>
+    
+      
+      <a href="/search/?search=API Events&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="api events"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        API Events <span class="text-muted" style="font-weight: 400;">21</span>
+      </a>
+    
+      
+      <a href="/search/?search=Facebook&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="facebook"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Facebook <span class="text-muted" style="font-weight: 400;">21</span>
+      </a>
+    
+      
+      <a href="/search/?search=IDE&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="ide"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        IDE <span class="text-muted" style="font-weight: 400;">20</span>
+      </a>
+    
+      
+      <a href="/search/?search=Sales&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="sales"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Sales <span class="text-muted" style="font-weight: 400;">20</span>
+      </a>
+    
+      
+      <a href="/search/?search=Sharing&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="sharing"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Sharing <span class="text-muted" style="font-weight: 400;">20</span>
+      </a>
+    
+      
+      <a href="/search/?search=3D Printing&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="3d printing"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        3D Printing <span class="text-muted" style="font-weight: 400;">20</span>
+      </a>
+    
+      
+      <a href="/search/?search=Blog&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="blog"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Blog <span class="text-muted" style="font-weight: 400;">20</span>
+      </a>
+    
+      
+      <a href="/search/?search=Workspaces&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="workspaces"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Workspaces <span class="text-muted" style="font-weight: 400;">19</span>
+      </a>
+    
+      
+      <a href="/search/?search=Copyright&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="copyright"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Copyright <span class="text-muted" style="font-weight: 400;">19</span>
+      </a>
+    
+      
+      <a href="/search/?search=Validation&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="validation"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Validation <span class="text-muted" style="font-weight: 400;">19</span>
+      </a>
+    
+      
+      <a href="/search/?search=Open Data&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="open data"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Open Data <span class="text-muted" style="font-weight: 400;">19</span>
+      </a>
+    
+      
+      <a href="/search/?search=API Commons&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="api commons"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        API Commons <span class="text-muted" style="font-weight: 400;">19</span>
+      </a>
+    
+      
+      <a href="/search/?search=AWS&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="aws"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        AWS <span class="text-muted" style="font-weight: 400;">19</span>
+      </a>
+    
+      
+      <a href="/search/?search=Jekyll&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="jekyll"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Jekyll <span class="text-muted" style="font-weight: 400;">18</span>
+      </a>
+    
+      
+      <a href="/search/?search=Project&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="project"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Project <span class="text-muted" style="font-weight: 400;">18</span>
+      </a>
+    
+      
+      <a href="/search/?search=Onboarding&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="onboarding"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Onboarding <span class="text-muted" style="font-weight: 400;">18</span>
+      </a>
+    
+      
+      <a href="/search/?search=Agencies&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="agencies"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Agencies <span class="text-muted" style="font-weight: 400;">18</span>
+      </a>
+    
+      
+      <a href="/search/?search=Change&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="change"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Change <span class="text-muted" style="font-weight: 400;">18</span>
+      </a>
+    
+      
+      <a href="/search/?search=Orchestration&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="orchestration"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Orchestration <span class="text-muted" style="font-weight: 400;">18</span>
+      </a>
+    
+      
+      <a href="/search/?search=3Scale&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="3scale"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        3Scale <span class="text-muted" style="font-weight: 400;">18</span>
+      </a>
+    
+      
+      <a href="/search/?search=Environment&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="environment"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Environment <span class="text-muted" style="font-weight: 400;">18</span>
+      </a>
+    
+      
+      <a href="/search/?search=Reliability&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="reliability"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Reliability <span class="text-muted" style="font-weight: 400;">18</span>
+      </a>
+    
+      
+      <a href="/search/?search=Bots&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="bots"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Bots <span class="text-muted" style="font-weight: 400;">18</span>
+      </a>
+    
+      
+      <a href="/search/?search=State Government&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="state government"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        State Government <span class="text-muted" style="font-weight: 400;">18</span>
+      </a>
+    
+      
+      <a href="/search/?search=Process&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="process"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Process <span class="text-muted" style="font-weight: 400;">18</span>
+      </a>
+    
+      
+      <a href="/search/?search=YAML&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="yaml"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        YAML <span class="text-muted" style="font-weight: 400;">17</span>
+      </a>
+    
+      
+      <a href="/search/?search=HSDA&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="hsda"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        HSDA <span class="text-muted" style="font-weight: 400;">17</span>
+      </a>
+    
+      
+      <a href="/search/?search=Containers&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="containers"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Containers <span class="text-muted" style="font-weight: 400;">17</span>
+      </a>
+    
+      
+      <a href="/search/?search=Infrastructure&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="infrastructure"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Infrastructure <span class="text-muted" style="font-weight: 400;">17</span>
+      </a>
+    
+      
+      <a href="/search/?search=Proxy&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="proxy"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Proxy <span class="text-muted" style="font-weight: 400;">17</span>
+      </a>
+    
+      
+      <a href="/search/?search=Visualizations&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="visualizations"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Visualizations <span class="text-muted" style="font-weight: 400;">17</span>
+      </a>
+    
+      
+      <a href="/search/?search=Financial&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="financial"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Financial <span class="text-muted" style="font-weight: 400;">17</span>
+      </a>
+    
+      
+      <a href="/search/?search=Content&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="content"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Content <span class="text-muted" style="font-weight: 400;">17</span>
+      </a>
+    
+      
+      <a href="/search/?search=Versioning&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="versioning"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Versioning <span class="text-muted" style="font-weight: 400;">17</span>
+      </a>
+    
+      
+      <a href="/search/?search=Extensions&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="extensions"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Extensions <span class="text-muted" style="font-weight: 400;">17</span>
+      </a>
+    
+      
+      <a href="/search/?search=Road Map&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="road map"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Road Map <span class="text-muted" style="font-weight: 400;">17</span>
+      </a>
+    
+      
+      <a href="/search/?search=Collection&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="collection"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Collection <span class="text-muted" style="font-weight: 400;">16</span>
+      </a>
+    
+      
+      <a href="/search/?search=Docs&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="docs"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Docs <span class="text-muted" style="font-weight: 400;">16</span>
+      </a>
+    
+      
+      <a href="/search/?search=Serverless&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="serverless"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Serverless <span class="text-muted" style="font-weight: 400;">16</span>
+      </a>
+    
+      
+      <a href="/search/?search=Marketplace&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="marketplace"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Marketplace <span class="text-muted" style="font-weight: 400;">16</span>
+      </a>
+    
+      
+      <a href="/search/?search=Twilio&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="twilio"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Twilio <span class="text-muted" style="font-weight: 400;">16</span>
+      </a>
+    
+      
+      <a href="/search/?search=Journey&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="journey"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Journey <span class="text-muted" style="font-weight: 400;">16</span>
+      </a>
+    
+      
+      <a href="/search/?search=Event-Driven&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="event-driven"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Event-Driven <span class="text-muted" style="font-weight: 400;">16</span>
+      </a>
+    
+      
+      <a href="/search/?search=Analysis&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="analysis"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Analysis <span class="text-muted" style="font-weight: 400;">16</span>
+      </a>
+    
+      
+      <a href="/search/?search=Storage&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="storage"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Storage <span class="text-muted" style="font-weight: 400;">15</span>
+      </a>
+    
+      
+      <a href="/search/?search=Branding&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="branding"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Branding <span class="text-muted" style="font-weight: 400;">15</span>
+      </a>
+    
+      
+      <a href="/search/?search=Keys&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="keys"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Keys <span class="text-muted" style="font-weight: 400;">15</span>
+      </a>
+    
+      
+      <a href="/search/?search=Transit&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="transit"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Transit <span class="text-muted" style="font-weight: 400;">15</span>
+      </a>
+    
+      
+      <a href="/search/?search=Rate Limits&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="rate limits"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Rate Limits <span class="text-muted" style="font-weight: 400;">15</span>
+      </a>
+    
+      
+      <a href="/search/?search=Analytics&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="analytics"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Analytics <span class="text-muted" style="font-weight: 400;">15</span>
+      </a>
+    
+      
+      <a href="/search/?search=Consumer&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="consumer"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Consumer <span class="text-muted" style="font-weight: 400;">15</span>
+      </a>
+    
+      
+      <a href="/search/?search=Contracts&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="contracts"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Contracts <span class="text-muted" style="font-weight: 400;">15</span>
+      </a>
+    
+      
+      <a href="/search/?search=GitHub&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="github"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        GitHub <span class="text-muted" style="font-weight: 400;">15</span>
+      </a>
+    
+      
+      <a href="/search/?search=Examples&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="examples"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Examples <span class="text-muted" style="font-weight: 400;">15</span>
+      </a>
+    
+      
+      <a href="/search/?search=Ecosystem&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="ecosystem"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Ecosystem <span class="text-muted" style="font-weight: 400;">15</span>
+      </a>
+    
+      
+      <a href="/search/?search=API-First&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="api-first"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        API-First <span class="text-muted" style="font-weight: 400;">15</span>
+      </a>
+    
+      
+      <a href="/search/?search=DNS&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="dns"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        DNS <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=Changes&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="changes"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Changes <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=Deprecation&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="deprecation"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Deprecation <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=Backend&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="backend"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Backend <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=iPaaS&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="ipaas"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        iPaaS <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=Payments&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="payments"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Payments <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=Pipelines&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="pipelines"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Pipelines <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=News&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="news"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        News <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=Capabilities&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="capabilities"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Capabilities <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=Tracking&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="tracking"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Tracking <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=Performance&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="performance"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Performance <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=Algorithms&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="algorithms"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Algorithms <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=Spreadsheets&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="spreadsheets"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Spreadsheets <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=Webhooks&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="webhooks"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Webhooks <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=gRPC&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="grpc"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        gRPC <span class="text-muted" style="font-weight: 400;">14</span>
+      </a>
+    
+      
+      <a href="/search/?search=Life Cycle&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="life cycle"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Life Cycle <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Feedback&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="feedback"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Feedback <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Scope&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="scope"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Scope <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Skills&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="skills"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Skills <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=HSDS&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="hsds"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        HSDS <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Awareness&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="awareness"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Awareness <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Network&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="network"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Network <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Oracle&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="oracle"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Oracle <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Streaming&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="streaming"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Streaming <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Events&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="events"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Events <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Mocks&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="mocks"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Mocks <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Power&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="power"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Power <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Internet of Things&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="internet of things"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Internet of Things <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Visualization&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="visualization"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Visualization <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=tag&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="tag"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        tag <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Showcase&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="showcase"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Showcase <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Usage&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="usage"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Usage <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Planning&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="planning"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Planning <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Environments&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="environments"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Environments <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Linting&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="linting"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Linting <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Value&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="value"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Value <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=Personal&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="personal"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Personal <span class="text-muted" style="font-weight: 400;">13</span>
+      </a>
+    
+      
+      <a href="/search/?search=County Government&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="county government"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        County Government <span class="text-muted" style="font-weight: 400;">12</span>
+      </a>
+    
+      
+      <a href="/search/?search=Zapier&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="zapier"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Zapier <span class="text-muted" style="font-weight: 400;">12</span>
+      </a>
+    
+      
+      <a href="/search/?search=Advertising&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="advertising"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Advertising <span class="text-muted" style="font-weight: 400;">12</span>
+      </a>
+    
+      
+      <a href="/search/?search=Hackathons&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="hackathons"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Hackathons <span class="text-muted" style="font-weight: 400;">12</span>
+      </a>
+    
+      
+      <a href="/search/?search=Virtualization&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="virtualization"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Virtualization <span class="text-muted" style="font-weight: 400;">12</span>
+      </a>
+    
+      
+      <a href="/search/?search=Define&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="define"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Define <span class="text-muted" style="font-weight: 400;">12</span>
+      </a>
+    
+      
+      <a href="/search/?search=Diff&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="diff"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Diff <span class="text-muted" style="font-weight: 400;">12</span>
+      </a>
+    
+      
+      <a href="/search/?search=Guidance&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="guidance"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Guidance <span class="text-muted" style="font-weight: 400;">12</span>
+      </a>
+    
+      
+      <a href="/search/?search=Templates&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="templates"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Templates <span class="text-muted" style="font-weight: 400;">12</span>
+      </a>
+    
+      
+      <a href="/search/?search=Workflows&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="workflows"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Workflows <span class="text-muted" style="font-weight: 400;">12</span>
+      </a>
+    
+      
+      <a href="/search/?search=Metrics&searchFields=tags"
+         class="tag-pill badge rounded-pill text-decoration-none small "
+         data-name="metrics"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s;">
+        Metrics <span class="text-muted" style="font-weight: 400;">12</span>
+      </a>
+    
+  </div>
+</div>
+
+<style>
+  .tag-pill:hover {
+    background-color: var(--ae-green) !important;
+    color: #fff !important;
+  }
+  .tag-pill:hover .text-muted {
+    color: rgba(255,255,255,0.7) !important;
+  }
+</style>
+
+<script>
+function filterTags() {
+  var query = document.getElementById('tag-filter').value.toLowerCase();
+  var pills = document.querySelectorAll('.tag-pill');
+  pills.forEach(function(pill) {
+    var name = pill.getAttribute('data-name');
+    pill.style.display = name.indexOf(query) !== -1 ? '' : 'none';
+  });
+}
+</script>
+
       </main>
 
     </div>
@@ -860,8 +2846,8 @@
         <span>&copy; 2026 API Evangelist</span>
       </div>
       <div class="col-md-6 text-md-end mt-2 mt-md-0">
-        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
-        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="/contact" class="text-muted text-decoration-none me-3">Contact</a>
         <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
         <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
       </div>

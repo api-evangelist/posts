@@ -63,11 +63,15 @@
       .sidebar .nav-link {
         color: #495057;
         font-size: 0.875rem;
-        padding: 0.35rem 0.75rem;
+        padding: 0.4rem 1rem;
         border-radius: 0.375rem;
+        margin-bottom: 1px;
       }
       .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
       .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .collapse .nav-link {
+        padding: 0.3rem 1rem;
+      }
       .sidebar .nav-heading {
         font-size: 0.7rem;
         font-weight: 600;
@@ -132,6 +136,132 @@
       @media (max-width: 991.98px) {
         .sidebar-col { display: none; }
       }
+
+      /* Timeline */
+      .tm-timeline {
+        position: relative;
+        padding-left: 2rem;
+        margin: 2rem 0;
+      }
+      .tm-timeline::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 3px;
+        background: linear-gradient(to bottom, var(--ae-green), var(--ae-accent), #d1e7cd);
+        border-radius: 3px;
+      }
+      .tm-timeline-entry {
+        position: relative;
+        padding-bottom: 1.75rem;
+      }
+      .tm-timeline-entry:last-child {
+        padding-bottom: 0;
+      }
+      .tm-timeline-entry::before {
+        content: '';
+        position: absolute;
+        left: -2rem;
+        top: 0.35rem;
+        width: 11px;
+        height: 11px;
+        background: #fff;
+        border: 3px solid var(--ae-green);
+        border-radius: 50%;
+        transform: translateX(-4px);
+        z-index: 1;
+      }
+      .tm-timeline-time h5,
+      .tm-timeline-time h6 {
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--ae-green);
+        margin: 0 0 0.25rem 0;
+      }
+      .tm-timeline-body {
+        background: #fff;
+        border: 1px solid #e9ecef;
+        border-radius: 0.5rem;
+        padding: 0.85rem 1rem;
+        transition: box-shadow 0.2s ease, border-color 0.2s ease;
+      }
+      .tm-timeline-body:hover {
+        border-color: var(--ae-accent);
+        box-shadow: 0 2px 8px rgba(61, 139, 55, 0.08);
+      }
+      .tm-timeline-body h3,
+      .tm-timeline-body h6 {
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #212529;
+        margin: 0 0 0.35rem 0;
+        line-height: 1.4;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+      }
+      .tm-timeline-body h6 a {
+        color: #212529;
+        text-decoration: none;
+      }
+      .tm-timeline-body h6 a:hover {
+        color: var(--ae-green);
+      }
+      .tm-timeline-body .timeline-label {
+        display: inline-block;
+        font-size: 0.68rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        color: #fff;
+        background: var(--ae-green);
+        padding: 0.15rem 0.5rem;
+        border-radius: 0.25rem;
+        line-height: 1.3;
+      }
+      .tm-timeline-body .timeline-tags {
+        display: inline-block;
+        font-size: 0.68rem;
+        font-weight: 500;
+        color: #6c757d;
+        font-style: italic;
+      }
+      .tm-timeline-body .timeline-description {
+        font-size: 0.82rem;
+        color: #495057;
+        line-height: 1.6;
+        margin: 0.35rem 0 0 0;
+      }
+      .tm-timeline-body ul {
+        list-style: none;
+        padding: 0;
+        margin: 0.35rem 0 0 0;
+      }
+      .tm-timeline-body ul li {
+        font-size: 0.82rem;
+        color: #495057;
+        padding: 0.15rem 0;
+        padding-left: 1rem;
+        position: relative;
+      }
+      .tm-timeline-body ul li::before {
+        content: '\2022';
+        color: var(--ae-accent);
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+      }
+
+      @media (max-width: 575.98px) {
+        .tm-timeline { padding-left: 1.5rem; }
+        .tm-timeline-entry::before { left: -1.5rem; }
+        .tm-timeline-body { padding: 0.65rem 0.75rem; }
+      }
     </style>
 
     <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
@@ -166,7 +296,7 @@
   <div class="container-fluid px-3 px-lg-4">
 
     <!-- Brand -->
-    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+    <a class="navbar-brand d-flex align-items-center" href="/">
       <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
@@ -178,12 +308,12 @@
     <!-- Desktop nav items -->
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav ms-auto align-items-center gap-1">
-        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="/2026/">Stories</a></li>
         <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
         <li class="nav-item ms-2">
-          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+          <form class="d-flex" role="search" onsubmit="location.href='/search/?search=' + document.getElementById('navSearch').value; return false;">
             <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
           </form>
         </li>
@@ -196,14 +326,14 @@
 <!-- Mobile offcanvas nav -->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
-    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+    <a href="/" class="d-flex align-items-center text-decoration-none">
       <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+    <form class="mb-3" role="search" onsubmit="location.href='/search/?search=' + document.getElementById('mobileSearch').value; return false;">
       <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
     </form>
 
@@ -219,9 +349,9 @@
         <div class="collapse" id="mobile-stories">
           <ul class="nav flex-column ms-4">
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/categories">Categories</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/2026/">Stories</a></li>
             
           </ul>
         </div>
@@ -266,13 +396,13 @@
         <div class="collapse" id="mobile-timeline">
           <ul class="nav flex-column ms-4">
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/timeline/api/">API</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/timeline/resources/">Resources</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/timeline/industry/">Industry</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/timeline/people/">People</a></li>
             
           </ul>
         </div>
@@ -292,13 +422,13 @@
         <div class="collapse" id="mobile-about">
           <ul class="nav flex-column ms-4">
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/about/api-evangelist">API Evangelist</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/about/kin-lane">Kin Lane</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/about/surveying-assessment">API Surveying & Assessment</a></li>
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/about/this-site">This Site</a></li>
             
           </ul>
         </div>
@@ -313,7 +443,7 @@
         <div class="collapse" id="mobile-contact">
           <ul class="nav flex-column ms-4">
             
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="/contact">Contact Form</a></li>
             
             <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
             
@@ -330,21 +460,6 @@
             <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
             
             <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
-            
-          </ul>
-        </div>
-        
-      </li>
-      
-      <li class="nav-item">
-        
-        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
-          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
-        </a>
-        <div class="collapse" id="mobile-partner">
-          <ul class="nav flex-column ms-4">
-            
-            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
             
           </ul>
         </div>
@@ -392,9 +507,9 @@
         <div class="collapse" id="sidebar-stories">
           <nav class="nav flex-column ms-4">
             
-            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            <a class="nav-link py-1" href="/categories">Categories</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            <a class="nav-link py-1" href="/2026/">Stories</a>
             
           </nav>
         </div>
@@ -433,13 +548,13 @@
         <div class="collapse" id="sidebar-timeline">
           <nav class="nav flex-column ms-4">
             
-            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            <a class="nav-link py-1" href="/timeline/api/">API</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            <a class="nav-link py-1" href="/timeline/resources/">Resources</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            <a class="nav-link py-1" href="/timeline/industry/">Industry</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            <a class="nav-link py-1" href="/timeline/people/">People</a>
             
           </nav>
         </div>
@@ -457,13 +572,13 @@
         <div class="collapse" id="sidebar-about">
           <nav class="nav flex-column ms-4">
             
-            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            <a class="nav-link py-1" href="/about/api-evangelist">API Evangelist</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            <a class="nav-link py-1" href="/about/kin-lane">Kin Lane</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            <a class="nav-link py-1" href="/about/surveying-assessment">API Surveying & Assessment</a>
             
-            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            <a class="nav-link py-1" href="/about/this-site">This Site</a>
             
           </nav>
         </div>
@@ -476,7 +591,7 @@
         <div class="collapse" id="sidebar-contact">
           <nav class="nav flex-column ms-4">
             
-            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            <a class="nav-link py-1" href="/contact">Contact Form</a>
             
             <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
             
@@ -493,19 +608,6 @@
             <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
             
             <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
-            
-          </nav>
-        </div>
-      
-    
-      
-        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
-          <span class="material-symbols-outlined">handshake</span>Partner
-        </a>
-        <div class="collapse" id="sidebar-partner">
-          <nav class="nav flex-column ms-4">
-            
-            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
             
           </nav>
         </div>
@@ -531,7 +633,7 @@
   <div class="mt-4 pt-3 border-top">
     <div class="px-2">
       <p class="text-muted small mb-1">Need help?</p>
-      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+      <a href="/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
     </div>
   </div>
 </div>
@@ -725,7 +827,7 @@
 
       <!-- CTA -->
       <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
-        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+        Have more questions after this post? <a href="/contact/" style="color: var(--ae-green);">Let us know!</a>
       </div>
 
     </article>
@@ -793,8 +895,8 @@
         <span>&copy; 2026 API Evangelist</span>
       </div>
       <div class="col-md-6 text-md-end mt-2 mt-md-0">
-        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
-        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="/contact" class="text-muted text-decoration-none me-3">Contact</a>
         <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
         <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
       </div>

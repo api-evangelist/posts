@@ -1,25 +1,27 @@
-<div class="tm-timeline uk-margin-large-top" style="margin: 50px 0px 50px 0px">
+<div class="tm-timeline">
     {%- assign peoples = site.data.timeline-people | sort: "birth" -%}
     {% for people in peoples %}
     <div class="tm-timeline-entry">
         <div class="tm-timeline-time">
-            <h6>{% if people.birth != 3000 %}{{ people.birth }}{% if people.death %} - {{ people.death }}{% endif %}{% endif %} </h6>
+            <h6>{% if people.birth != 3000 %}{{ people.birth }}{% if people.death %} - {{ people.death }}{% endif %}{% endif %}</h6>
         </div>
         <div class="tm-timeline-body">
-            <h6 class="uk-flex uk-flex-middle">
+            <h6>
                 <a href="{{ people.website }}" target="_blank" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="{{ people.title }}" data-bs-content="{{ people.details }}">{{ people.title }}</a>
                 {% if people.label %}
-                    <span class="uk-label uk-margin-small-left">{{ people.label }}</span>
-                {% endif %}            
+                    <span class="timeline-label">{{ people.label }}</span>
+                {% endif %}
                 {% if people.tags %}
-                    <span class="uk-label uk-margin-small-left" style="font-size: 12px;"><i>({% for tag in people.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %})</i></span>
-                {% endif %}                          
+                    <span class="timeline-tags">({% for tag in people.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %})</span>
+                {% endif %}
             </h6>
-            <ul class="uk-list">
+            {% if people.list.size > 0 %}
+            <ul>
                 {% for item in people.list %}
                 <li>{{ item }}</li>
                 {% endfor %}
             </ul>
+            {% endif %}
         </div>
     </div>
     {% endfor %}
