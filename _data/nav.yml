@@ -6,10 +6,10 @@
       sub:
 
         - name: Categories
-          href: https://apievangelist.com/categories
+          href: /categories
 
         - name: Stories
-          href: https://apievangelist.com/2026/       
+          href: /2026/       
 
 
     - name: Conversations
@@ -31,16 +31,16 @@
       sub:
 
         - name: API
-          href: https://apievangelist.com/timeline/api/
+          href: /timeline/api/
 
         - name: Resources
-          href: https://apievangelist.com/timeline/resources/
+          href: /timeline/resources/
 
         - name: Industry
-          href: https://apievangelist.com/timeline/industry/   
+          href: /timeline/industry/   
 
         - name: People
-          href: https://apievangelist.com/timeline/people/                     
+          href: /timeline/people/                     
                                                              
 
 - name: API Evangelist LLC
@@ -48,28 +48,28 @@
 
     - name: About
       symbol: info
-      href: https://apievangelist.com/about
+      href: /about
       sub:
 
         - name: API Evangelist
-          href: https://apievangelist.com/about/api-evangelist 
+          href: /about/api-evangelist 
 
         - name: Kin Lane
-          href: https://apievangelist.com/about/kin-lane   
+          href: /about/kin-lane   
 
         - name: API Surveying & Assessment
-          href: https://apievangelist.com/about/surveying-assessment    
+          href: /about/surveying-assessment    
 
         - name: This Site
-          href: https://apievangelist.com/about/this-site                        
+          href: /about/this-site                        
 
     - name: Contact
       symbol: contact_support
-      href: https://apievangelist.com/contact
+      href: /contact
       sub:
 
         - name: Contact Form
-          href: https://apievangelist.com/contact 
+          href: /contact 
 
         - name: LinkedIn
           href: https://www.linkedin.com/company/api-evangelist/   

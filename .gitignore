@@ -3,4 +3,4 @@ node_modules
 .jekyll-metadata
 gemfile
 Gemfile.lock
-_site
+_site_site_new/

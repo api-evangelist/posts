@@ -1,0 +1,1000 @@
+- name: "API Evangelist"
+  count: 883
+  slug: "api-evangelist"
+
+- name: "APIs"
+  count: 524
+  slug: "apis"
+
+- name: "Definitions"
+  count: 230
+  slug: "definitions"
+
+- name: "Data"
+  count: 214
+  slug: "data"
+
+- name: "My"
+  count: 208
+  slug: "my"
+
+- name: "OpenAPI"
+  count: 204
+  slug: "openapi"
+
+- name: "Design"
+  count: 192
+  slug: "design"
+
+- name: "Open"
+  count: 176
+  slug: "open"
+
+- name: "Governance"
+  count: 171
+  slug: "governance"
+
+- name: "Discovery"
+  count: 156
+  slug: "discovery"
+
+- name: "Management"
+  count: 153
+  slug: "management"
+
+- name: "Politics of APIs"
+  count: 130
+  slug: "politics-of-apis"
+
+- name: "ai"
+  count: 128
+  slug: "ai"
+
+- name: "Github"
+  count: 126
+  slug: "github"
+
+- name: "Business"
+  count: 117
+  slug: "business"
+
+- name: "Definition"
+  count: 117
+  slug: "definition"
+
+- name: "Documentation"
+  count: 107
+  slug: "documentation"
+
+- name: "Evangelism"
+  count: 106
+  slug: "evangelism"
+
+- name: "Deployment"
+  count: 99
+  slug: "deployment"
+
+- name: "Strategy"
+  count: 99
+  slug: "strategy"
+
+- name: "APIs.json"
+  count: 96
+  slug: "apis.json"
+
+- name: "Platform"
+  count: 94
+  slug: "platform"
+
+- name: "Evangelist"
+  count: 89
+  slug: "evangelist"
+
+- name: "Federal Government"
+  count: 88
+  slug: "federal-government"
+
+- name: "Security"
+  count: 87
+  slug: "security"
+
+- name: "Git"
+  count: 83
+  slug: "git"
+
+- name: "Web"
+  count: 81
+  slug: "web"
+
+- name: "Lifecycle"
+  count: 80
+  slug: "lifecycle"
+
+- name: "Monetization"
+  count: 80
+  slug: "monetization"
+
+- name: "Developers"
+  count: 70
+  slug: "developers"
+
+- name: "Access"
+  count: 63
+  slug: "access"
+
+- name: "Government"
+  count: 63
+  slug: "government"
+
+- name: "Swagger"
+  count: 62
+  slug: "swagger"
+
+- name: "Providers"
+  count: 62
+  slug: "providers"
+
+- name: "Twitter"
+  count: 62
+  slug: "twitter"
+
+- name: "Rules"
+  count: 61
+  slug: "rules"
+
+- name: "Stack"
+  count: 60
+  slug: "stack"
+
+- name: "Collections"
+  count: 59
+  slug: "collections"
+
+- name: "Public"
+  count: 57
+  slug: "public"
+
+- name: "Plans"
+  count: 57
+  slug: "plans"
+
+- name: "Schema"
+  count: 52
+  slug: "schema"
+
+- name: "Open Source"
+  count: 51
+  slug: "open-source"
+
+- name: "APIs.jso"
+  count: 50
+  slug: "apis.jso"
+
+- name: "Hypermedia"
+  count: 48
+  slug: "hypermedia"
+
+- name: "Discover"
+  count: 48
+  slug: "discover"
+
+- name: "Services"
+  count: 47
+  slug: "services"
+
+- name: "Communications"
+  count: 47
+  slug: "communications"
+
+- name: "Business of APIs"
+  count: 46
+  slug: "business-of-apis"
+
+- name: "Cloud"
+  count: 46
+  slug: "cloud"
+
+- name: "Support"
+  count: 46
+  slug: "support"
+
+- name: "Communication"
+  count: 46
+  slug: "communication"
+
+- name: "Social"
+  count: 46
+  slug: "social"
+
+- name: "JSON Schema"
+  count: 45
+  slug: "json-schema"
+
+- name: "Research"
+  count: 44
+  slug: "research"
+
+- name: "APIStrat"
+  count: 44
+  slug: "apistrat"
+
+- name: "Code"
+  count: 44
+  slug: "code"
+
+- name: "Mobile"
+  count: 43
+  slug: "mobile"
+
+- name: "Standards"
+  count: 43
+  slug: "standards"
+
+- name: "Artificial Intelligence"
+  count: 43
+  slug: "artificial-intelligence"
+
+- name: "Monitoring"
+  count: 42
+  slug: "monitoring"
+
+- name: "Review"
+  count: 42
+  slug: "review"
+
+- name: "ddi"
+  count: 41
+  slug: "ddi"
+
+- name: "Tooling"
+  count: 39
+  slug: "tooling"
+
+- name: "Search"
+  count: 38
+  slug: "search"
+
+- name: "Portal"
+  count: 38
+  slug: "portal"
+
+- name: "Operations"
+  count: 38
+  slug: "operations"
+
+- name: "Storytelling"
+  count: 38
+  slug: "storytelling"
+
+- name: "Authentication"
+  count: 38
+  slug: "authentication"
+
+- name: "Testing"
+  count: 37
+  slug: "testing"
+
+- name: "API Management"
+  count: 37
+  slug: "api-management"
+
+- name: "Politics"
+  count: 37
+  slug: "politics"
+
+- name: "JSON"
+  count: 36
+  slug: "json"
+
+- name: "SDK"
+  count: 36
+  slug: "sdk"
+
+- name: "Specifications"
+  count: 36
+  slug: "specifications"
+
+- name: "Amazon"
+  count: 36
+  slug: "amazon"
+
+- name: "Observability"
+  count: 36
+  slug: "observability"
+
+- name: "Resources"
+  count: 36
+  slug: "resources"
+
+- name: "Pricing"
+  count: 36
+  slug: "pricing"
+
+- name: "Transparency"
+  count: 35
+  slug: "transparency"
+
+- name: "Economy"
+  count: 35
+  slug: "economy"
+
+- name: "Portals"
+  count: 35
+  slug: "portals"
+
+- name: "Community"
+  count: 34
+  slug: "community"
+
+- name: "Automation"
+  count: 34
+  slug: "automation"
+
+- name: "Integration"
+  count: 33
+  slug: "integration"
+
+- name: "Real Time"
+  count: 33
+  slug: "real-time"
+
+- name: "Enterprise"
+  count: 32
+  slug: "enterprise"
+
+- name: "Microservices"
+  count: 31
+  slug: "microservices"
+
+- name: "Gateway"
+  count: 31
+  slug: "gateway"
+
+- name: "Spectral"
+  count: 31
+  slug: "spectral"
+
+- name: "Products"
+  count: 30
+  slug: "products"
+
+- name: "Policies"
+  count: 30
+  slug: "policies"
+
+- name: "101"
+  count: 29
+  slug: "101"
+
+- name: "HTTP"
+  count: 29
+  slug: "http"
+
+- name: "Regulations"
+  count: 29
+  slug: "regulations"
+
+- name: "Gateways"
+  count: 29
+  slug: "gateways"
+
+- name: "4"
+  count: 29
+  slug: "4"
+
+- name: "REST"
+  count: 29
+  slug: "rest"
+
+- name: "Print"
+  count: 29
+  slug: "print"
+
+- name: "Consumers"
+  count: 28
+  slug: "consumers"
+
+- name: "Landscape"
+  count: 28
+  slug: "landscape"
+
+- name: "Stories"
+  count: 28
+  slug: "stories"
+
+- name: "Privacy"
+  count: 28
+  slug: "privacy"
+
+- name: "Clients"
+  count: 28
+  slug: "clients"
+
+- name: "Applications"
+  count: 28
+  slug: "applications"
+
+- name: "Industry"
+  count: 28
+  slug: "industry"
+
+- name: "Micro"
+  count: 27
+  slug: "micro"
+
+- name: "Platforms"
+  count: 27
+  slug: "platforms"
+
+- name: "Database"
+  count: 27
+  slug: "database"
+
+- name: "Machine Learning"
+  count: 27
+  slug: "machine-learning"
+
+- name: "Education"
+  count: 27
+  slug: "education"
+
+- name: "Internal"
+  count: 27
+  slug: "internal"
+
+- name: "Patents"
+  count: 26
+  slug: "patents"
+
+- name: "Scale"
+  count: 26
+  slug: "scale"
+
+- name: "Getting Started"
+  count: 25
+  slug: "getting-started"
+
+- name: "AI"
+  count: 25
+  slug: "ai"
+
+- name: "City Government"
+  count: 25
+  slug: "city-government"
+
+- name: "People"
+  count: 25
+  slug: "people"
+
+- name: "History"
+  count: 25
+  slug: "history"
+
+- name: "Investment"
+  count: 25
+  slug: "investment"
+
+- name: "Spreadsheet"
+  count: 25
+  slug: "spreadsheet"
+
+- name: "Protocols"
+  count: 24
+  slug: "protocols"
+
+- name: "Product"
+  count: 24
+  slug: "product"
+
+- name: "Healthcare"
+  count: 24
+  slug: "healthcare"
+
+- name: "Time"
+  count: 24
+  slug: "time"
+
+- name: "Terms of Service"
+  count: 23
+  slug: "terms-of-service"
+
+- name: "Technology"
+  count: 23
+  slug: "technology"
+
+- name: "Integrations"
+  count: 23
+  slug: "integrations"
+
+- name: "Client"
+  count: 23
+  slug: "client"
+
+- name: "Learning"
+  count: 23
+  slug: "learning"
+
+- name: "Editor"
+  count: 23
+  slug: "editor"
+
+- name: "Postman"
+  count: 23
+  slug: "postman"
+
+- name: "OAuth"
+  count: 23
+  slug: "oauth"
+
+- name: "Experience"
+  count: 23
+  slug: "experience"
+
+- name: "SDKs"
+  count: 23
+  slug: "sdks"
+
+- name: "Training"
+  count: 23
+  slug: "training"
+
+- name: "Generation"
+  count: 23
+  slug: "generation"
+
+- name: "GraphQL"
+  count: 22
+  slug: "graphql"
+
+- name: "Banking"
+  count: 22
+  slug: "banking"
+
+- name: "Digital"
+  count: 22
+  slug: "digital"
+
+- name: "Partners"
+  count: 22
+  slug: "partners"
+
+- name: "Tools"
+  count: 22
+  slug: "tools"
+
+- name: "Embeddable"
+  count: 22
+  slug: "embeddable"
+
+- name: "Blueprint"
+  count: 21
+  slug: "blueprint"
+
+- name: "Voice"
+  count: 21
+  slug: "voice"
+
+- name: "Conversations"
+  count: 21
+  slug: "conversations"
+
+- name: "Service Providers"
+  count: 21
+  slug: "service-providers"
+
+- name: "API Events"
+  count: 21
+  slug: "api-events"
+
+- name: "Facebook"
+  count: 21
+  slug: "facebook"
+
+- name: "IDE"
+  count: 20
+  slug: "ide"
+
+- name: "Sales"
+  count: 20
+  slug: "sales"
+
+- name: "Sharing"
+  count: 20
+  slug: "sharing"
+
+- name: "3D Printing"
+  count: 20
+  slug: "3d-printing"
+
+- name: "Blog"
+  count: 20
+  slug: "blog"
+
+- name: "Workspaces"
+  count: 19
+  slug: "workspaces"
+
+- name: "Copyright"
+  count: 19
+  slug: "copyright"
+
+- name: "Validation"
+  count: 19
+  slug: "validation"
+
+- name: "Open Data"
+  count: 19
+  slug: "open-data"
+
+- name: "API Commons"
+  count: 19
+  slug: "api-commons"
+
+- name: "AWS"
+  count: 19
+  slug: "aws"
+
+- name: "Jekyll"
+  count: 18
+  slug: "jekyll"
+
+- name: "Project"
+  count: 18
+  slug: "project"
+
+- name: "Onboarding"
+  count: 18
+  slug: "onboarding"
+
+- name: "Agencies"
+  count: 18
+  slug: "agencies"
+
+- name: "Change"
+  count: 18
+  slug: "change"
+
+- name: "Orchestration"
+  count: 18
+  slug: "orchestration"
+
+- name: "3Scale"
+  count: 18
+  slug: "3scale"
+
+- name: "Environment"
+  count: 18
+  slug: "environment"
+
+- name: "Reliability"
+  count: 18
+  slug: "reliability"
+
+- name: "Bots"
+  count: 18
+  slug: "bots"
+
+- name: "State Government"
+  count: 18
+  slug: "state-government"
+
+- name: "Process"
+  count: 18
+  slug: "process"
+
+- name: "YAML"
+  count: 17
+  slug: "yaml"
+
+- name: "HSDA"
+  count: 17
+  slug: "hsda"
+
+- name: "Containers"
+  count: 17
+  slug: "containers"
+
+- name: "Infrastructure"
+  count: 17
+  slug: "infrastructure"
+
+- name: "Proxy"
+  count: 17
+  slug: "proxy"
+
+- name: "Visualizations"
+  count: 17
+  slug: "visualizations"
+
+- name: "Financial"
+  count: 17
+  slug: "financial"
+
+- name: "Content"
+  count: 17
+  slug: "content"
+
+- name: "Versioning"
+  count: 17
+  slug: "versioning"
+
+- name: "Extensions"
+  count: 17
+  slug: "extensions"
+
+- name: "Road Map"
+  count: 17
+  slug: "road-map"
+
+- name: "Collection"
+  count: 16
+  slug: "collection"
+
+- name: "Docs"
+  count: 16
+  slug: "docs"
+
+- name: "Serverless"
+  count: 16
+  slug: "serverless"
+
+- name: "Marketplace"
+  count: 16
+  slug: "marketplace"
+
+- name: "Twilio"
+  count: 16
+  slug: "twilio"
+
+- name: "Journey"
+  count: 16
+  slug: "journey"
+
+- name: "Event-Driven"
+  count: 16
+  slug: "event-driven"
+
+- name: "Analysis"
+  count: 16
+  slug: "analysis"
+
+- name: "Storage"
+  count: 15
+  slug: "storage"
+
+- name: "Branding"
+  count: 15
+  slug: "branding"
+
+- name: "Keys"
+  count: 15
+  slug: "keys"
+
+- name: "Transit"
+  count: 15
+  slug: "transit"
+
+- name: "Rate Limits"
+  count: 15
+  slug: "rate-limits"
+
+- name: "Analytics"
+  count: 15
+  slug: "analytics"
+
+- name: "Consumer"
+  count: 15
+  slug: "consumer"
+
+- name: "Contracts"
+  count: 15
+  slug: "contracts"
+
+- name: "GitHub"
+  count: 15
+  slug: "github"
+
+- name: "Examples"
+  count: 15
+  slug: "examples"
+
+- name: "Ecosystem"
+  count: 15
+  slug: "ecosystem"
+
+- name: "API-First"
+  count: 15
+  slug: "api-first"
+
+- name: "DNS"
+  count: 14
+  slug: "dns"
+
+- name: "Changes"
+  count: 14
+  slug: "changes"
+
+- name: "Deprecation"
+  count: 14
+  slug: "deprecation"
+
+- name: "Backend"
+  count: 14
+  slug: "backend"
+
+- name: "iPaaS"
+  count: 14
+  slug: "ipaas"
+
+- name: "Payments"
+  count: 14
+  slug: "payments"
+
+- name: "Pipelines"
+  count: 14
+  slug: "pipelines"
+
+- name: "News"
+  count: 14
+  slug: "news"
+
+- name: "Capabilities"
+  count: 14
+  slug: "capabilities"
+
+- name: "Tracking"
+  count: 14
+  slug: "tracking"
+
+- name: "Performance"
+  count: 14
+  slug: "performance"
+
+- name: "Algorithms"
+  count: 14
+  slug: "algorithms"
+
+- name: "Spreadsheets"
+  count: 14
+  slug: "spreadsheets"
+
+- name: "Webhooks"
+  count: 14
+  slug: "webhooks"
+
+- name: "gRPC"
+  count: 14
+  slug: "grpc"
+
+- name: "Life Cycle"
+  count: 13
+  slug: "life-cycle"
+
+- name: "Feedback"
+  count: 13
+  slug: "feedback"
+
+- name: "Scope"
+  count: 13
+  slug: "scope"
+
+- name: "Skills"
+  count: 13
+  slug: "skills"
+
+- name: "HSDS"
+  count: 13
+  slug: "hsds"
+
+- name: "Awareness"
+  count: 13
+  slug: "awareness"
+
+- name: "Network"
+  count: 13
+  slug: "network"
+
+- name: "Oracle"
+  count: 13
+  slug: "oracle"
+
+- name: "Streaming"
+  count: 13
+  slug: "streaming"
+
+- name: "Events"
+  count: 13
+  slug: "events"
+
+- name: "Mocks"
+  count: 13
+  slug: "mocks"
+
+- name: "Power"
+  count: 13
+  slug: "power"
+
+- name: "Internet of Things"
+  count: 13
+  slug: "internet-of-things"
+
+- name: "Visualization"
+  count: 13
+  slug: "visualization"
+
+- name: "tag"
+  count: 13
+  slug: "tag"
+
+- name: "Showcase"
+  count: 13
+  slug: "showcase"
+
+- name: "Usage"
+  count: 13
+  slug: "usage"
+
+- name: "Planning"
+  count: 13
+  slug: "planning"
+
+- name: "Environments"
+  count: 13
+  slug: "environments"
+
+- name: "Linting"
+  count: 13
+  slug: "linting"
+
+- name: "Value"
+  count: 13
+  slug: "value"
+
+- name: "Personal"
+  count: 13
+  slug: "personal"
+
+- name: "County Government"
+  count: 12
+  slug: "county-government"
+
+- name: "Zapier"
+  count: 12
+  slug: "zapier"
+
+- name: "Advertising"
+  count: 12
+  slug: "advertising"
+
+- name: "Hackathons"
+  count: 12
+  slug: "hackathons"
+
+- name: "Virtualization"
+  count: 12
+  slug: "virtualization"
+
+- name: "Define"
+  count: 12
+  slug: "define"
+
+- name: "Diff"
+  count: 12
+  slug: "diff"
+
+- name: "Guidance"
+  count: 12
+  slug: "guidance"
+
+- name: "Templates"
+  count: 12
+  slug: "templates"
+
+- name: "Workflows"
+  count: 12
+  slug: "workflows"
+
+- name: "Metrics"
+  count: 12
+  slug: "metrics"
+

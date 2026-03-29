@@ -1,529 +1,126 @@
-
-<div id="add-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
-    You have added a new posts.
+<!-- Post Listing -->
+<div class="d-flex align-items-center mb-4">
+  <div>
+    <h1 class="mb-0 fs-4">Stories{% if page.year %} from {{ page.year }}{% endif %}</h1>
+    <p class="text-muted mb-0">{{ page.summary }}</p>
+  </div>
 </div>
 
-<div id="error-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
-    Error!!
-</div>
+<!-- Year navigation + Search + Tag filter -->
+<div class="card mb-4">
+  <div class="card-body py-3">
+    <div class="row align-items-center g-3">
 
-<div id="process-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
-    PROCESS!
-</div>
-
-<div class="row align-items-center mb-7">
-    <div class="col-auto">
-        <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-kin.png" width="65" style="margin-top: 8px; margin-left: 20px;">
-    </div>
-    <div class="col-9">
-        <!-- Breadcrumb -->
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb mb-2">
-                <li class="breadcrumb-item"><a class="text-body-secondary" href="#">{{ page.section }}</a></li>
-            </ol>
-        </nav>
-        <h1 class="fs-4 mb-0">{{ page.title }}
-            <style>
-                .popover{
-                    max-width: 750px;;
-                }            
-            </style>
-            <div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Stories" data-bs-content="API stories are the most important currency in the API economy, and a regular stream of storytelling of APIs being produce and consumed is required to keep API operations delivering as expected. API stories shouldn’t be an afterthought or extra bit of work at the end, and should be something that is ongoing and happens as part of the regular work to produce and consume APIs—the success of any public or private API initiative will be defined by the stories that get told.<br><br>There are over 4,000 stories posted here so far. There is fifteen years of conversations at conferences and within the enterprise distilled down here across these blog posts. Historically there have been seasons and trends to the stories, and moving forward the stories will be dedicated only to HTTP API operations. The goal with this storytelling is to provide modular and bite-size stories that are relevant to specific areas of API operations, helping make them more accessible to all.
-            ">info</div>
-        
-            <div onclick="location.href='https://apievangelist.com/about/surveying-assessment/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="APIs Are Part of a Bigger Operational View (Click For More Info)" data-bs-content="<img src='/assets/img/building-blocks-flow-stories.jpg' width='725'>">share_location</div> 
-    
-        </h1>
-    </div>
-
-    <div class="col-2" style="text-align:right;">
-        <div class="btn-group">
-          <button type="button" class="btn btn-warning btn-md dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            Actions
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-posts">New Post</a></li>
-            <li><a class="dropdown-item" href="#" onclick="processPosts(); return false;">Process Posts</a></li>
-            <li><a class="dropdown-item" href="#" onclick="pullPosts(); return false;">Pull Posts</a></li>
-          </ul>
-        </div>       
-    </div>    
-</div>
-
-<div class="row"></div>
-    <div class="col-12"> 
-        <!-- Filters -->
-        <div class="card card-line bg-body-tertiary border-transparent mb-7">
-            <div class="card-body p-4">
-                <div class="row align-items-center">
-                    <div class="col-12 col-lg-auto mb-3 mb-lg-0">
-                        <div class="row align-items-center">      
-                            <div class="col-auto">
-                                <div class="text-body-secondary">{{ page.summary }}</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg">
-                        <div class="row gx-3">
-                            
-                            <div class="col col-lg-auto ms-auto">
-                                <div class="input-group bg-body">
-                                    <input type="text" id="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search" />
-                                    <span class="input-group-text" id="search">
-                                        <span class="material-symbols-outlined">search</span>
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="col-auto">
-                                <div class="dropdown">
-                                    <button class="btn btn-dark px-3" data-bs-toggle="dropdown"
-                                        data-bs-auto-close="outside" aria-expanded="false">
-                                        <span class="material-symbols-outlined">filter_list</span>
-                                    </button>
-                                    <div class="dropdown-menu rounded-3 p-6">
-                                        <h4 class="fs-lg mb-4">Filter</h4>
-                                        <form style="width: 350px" id="filterForm">
-                                            <div class="row align-items-center mb-3">
-                                                <div class="col-3">
-                                                    <label class="form-label mb-0" for="filter-year">Year</label>
-                                                </div>
-                                                <div class="col-9">
-                                                    <select class="form-select" id="filter-year" data-choices='{"placeholder": "some"}' onchange="filterYear();">
-                                                        <option value="2026">Year</option>
-                                                        <option value="2026">2026</option>
-                                                        <option value="2025">2025</option>
-                                                        <option value="2024">2024</option>
-                                                        <option value="2023">2023</option>
-                                                        <option value="2022">2022</option>
-                                                        <option value="2021">2021</option>
-                                                        <option value="2020">2020</option>
-                                                        <option value="2019">2019</option>
-                                                        <option value="2018">2018</option>
-                                                        <option value="2017">2017</option>
-                                                        <option value="2015">2015</option>
-                                                        <option value="2015">2015</option>
-                                                        <option value="2014">2014</option>
-                                                        <option value="2013">2013</option>
-                                                        <option value="2012">2012</option>
-                                                        <option value="2011">2011</option>
-                                                        <option value="2010">2010</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-auto">
-                                <div class="dropdown">
-                                    <button class="btn btn-dark px-3" data-bs-toggle="dropdown"
-                                        data-bs-auto-close="outside" aria-expanded="false">
-                                        <span class="material-symbols-outlined">filter_list</span>
-                                    </button>
-                                    <div class="dropdown-menu rounded-3 p-6">
-                                        <h4 class="fs-lg mb-4">Search</h4>
-                                        <form style="width: 350px" id="filterForm">
-                                            <div class="row align-items-center mb-3">
-                                                <div class="col">
-                                                    <label class="form-label mb-0" for="search-title">Title</label>
-                                                </div>
-                                                <div class="col-2">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="title" id="search-title" name="search-fields" checked>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center mb-3">
-                                                <div class="col">
-                                                    <label class="form-label mb-0" for="search-body">Body</label>
-                                                </div>
-                                                <div class="col-2">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="body" id="search-body" name="search-fields" checked>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center mb-3">
-                                                <div class="col">
-                                                    <label class="form-label mb-0" for="search-title">Tags</label>
-                                                </div>
-                                                <div class="col-2">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="tags" id="search-tags" name="search-fields" checked>
-                                                    </div>
-                                                </div>
-                                            </div>                                                                                        
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col" id="posts-listing">
-                {% assign posts = site.posts %}
-                {% for post in posts %}  
-                    {% if post.url contains page.year %} 
-                        {% assign p = post.url | split: "/" %}
-                        {% assign post_date = p[1] | append: "-" | append: p[2] | append: "-" | append: p[3] %}                       
-                        <div class="row" style="border: 0px solid #000; padding: 20px;">
-                            <div class="col-10">
-                                <div class="d-flex align-items-center">
-                                    <a href="{{ post.url | replace:'.html','' }}"><img src="{{ post.image }}" width="90" style="background-color: #FFF; border: 2px solid #000; border-radius: 10px; object-fit: cover; width: 100px; height: 100px;"></a>
-                                    <div class="ms-4">
-                                        <a href="{{ post.url | replace:'.html','' }}" style="font-size: 16px;">{{ post.title }}</a><br>
-                                        {{ post_date }}
-                                        <br><br>
-                                        {%for tag in post.tags %} <a href="https://apievangelist.com/search/?search={{ tag }}&searchFields=tags">{{ tag }}</a>{% if forloop.last != true %},{% endif %}{% endfor %}     
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-2" style="padding-top: 20px;"> 
-                                <a href="{{ post.url | replace:'.html','' }}"><button class="btn btn-sm btn-light">View</button></a>
-                            </div>                    
-                        </div>   
-                    {% endif %}     
-                {% endfor %}                    
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-
-    const textbox = document.getElementById('search');
-    
-    textbox.addEventListener('keydown', function(event) {
-      if (event.key === 'Enter') {
-        getPosts(0);
-      }
-    });    
-    
-    function getPosts(page){
-    
-        var organization = "api-evangelist";
-    
-        var search = document.getElementById("search").value;
-
-        var filterYear = document.getElementById("filter-year").value;
-        var searchFields = '';
-        if(document.getElementById("search-title").checked){
-            searchFields += ',title';
-        }
-        if(document.getElementById("search-body").checked){
-            searchFields += ',body';
-        }        
-        if(document.getElementById("search-tags").checked){
-            searchFields += ',tags';
-        }
-        searchFields = searchFields.substring(1,searchFields.length);
-
-        console.log(searchFields);
-    
-        const options = {
-            method: 'GET'
-        };  
-    
-        var github_url = '{{ site.postsApiBaseUrl }}/posts?organization=' + organization + '&search=' + search + '&searchFields=' + searchFields;
-    
-        fetch(github_url,options)
-            .then(function(response) {
-                if (!response.ok) {
-                    console.log('Error with Status Code: ' + response.status);
-                }
-                response.json().then(function(response) {   
-                
-                var html = '';
-    
-                for (let i = 0; i < response.data.length; i++) {
-    
-                    var postsId = response.data[i].id;
-                    var posts = response.data[i].posts;
-
-                    var url = response.data[i].file;
-                    url = url.replace("/laneworks/api-evangelist/website/_posts/","");
-                    var url_array = url.split("/");
-                    var post_date = url_array[1] + '-' + url_array[2] + '-' + url_array[3];
-                    url = url.replace(post_date,"");
-                    url = url.substring(1,url.length);
-                    url = url.replace(".markdown","");
-
-                    var show_tags = '';
-                    if(response.data[i].tags){
-                        
-                        for (let j = 0; j < response.data[i].tags.length; j++) {
-                            show_tags += '<a href="https://apievangelist.com/search/?search=' + response.data[i].tags[j] + '&searchFields=tags">' + response.data[i].tags[j] + '</a>&nbsp;';
-                        }
-                    }    
-                    url = url.replace(".html","");
-                    
-                    html += '<div class="row" style="border: 0px solid #000; padding: 20px;">'; 
-                    html += '<div class="col-10" style="padding: 10px;">'; 
-                    html += '<div class="d-flex align-items-center">'; 
-                    html += '<a href="/' + url + '"><img src="' + response.data[i].image + '" width="90" style="background-color: #FFF; border: 2px solid #000; border-radius: 10px; object-fit: cover; width: 100px; height: 100px;"></a>'; 
-                    html += '<div class="ms-4">'; 
-                    html += '<a href="/' + url + '" style="font-size: 16px;">' + response.data[i].title + '</a><br>' + post_date + '<br><br>' + show_tags;
-                    html += '</div>'; 
-                    html += '</div>'; 
-                    html += '</div>'; 
-                    html += '<div class="col-2" style="padding-top: 20px;">';     
-                    html += '<a href="/' + url + '"><button class="btn btn-sm btn-light">View</button></a>'; 
-                    html += '</div>';                 
-                    html += '</div>';                    
-
-                }
-    
-                document.getElementById("posts-listing").innerHTML = html;              
-    
-                });
-            })
-            .catch(function(err) {
-                console.log('Error: ' + err);
-        });  
-    }
-    
-    //getPosts(0);
-    
-    </script>
-
-
-<!-- MODALS -->
-<script>
-var require = { paths: { vs: '/assets/js/monaco-editor/min/vs' } };
-</script>
-<script src="/assets/js/monaco-editor/min/vs/loader.js"></script>
-<script src="/assets/js/monaco-editor/min/vs/editor/editor.main.js"></script>      
-<!-- BEGIN EDIT RULE -->
-<div class="modal" tabindex="-1" id="add-posts">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Add Post</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="mb-8">
-            <label for="posts-name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="posts-name">
-          </div>
-          <div class="mb-8">
-            <label for="posts-description" class="form-label">Description</label>
-            <textarea class="form-control" id="posts-description" rows="10"></textarea>
-          </div>
-          <center>
-            <script>
-              function stripHTMLFromDescription(){
-                var description = document.getElementById("posts-description").value;
-                description = stripHTML(description);
-                document.getElementById("posts-description").value = description;
-              }
-            </script>
-            <a style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" href="#" onclick="stripHTMLFromDescription();">code_off</a>
-          </center>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary" onclick="addPost();" data-bs-dismiss="modal">Add Post</button>
+      <!-- Year pills -->
+      <div class="col-12">
+        <div class="d-flex flex-wrap gap-1">
+          {% assign years = "2026,2025,2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010" | split: "," %}
+          {% for y in years %}
+            <a href="/{{ y }}" class="btn btn-sm {% if page.year == y %}btn-success{% else %}btn-outline-secondary{% endif %}">{{ y }}</a>
+          {% endfor %}
+          <a href="/categories/" class="btn btn-sm btn-outline-secondary ms-1">
+            <span class="material-symbols-outlined" style="font-size: 16px; vertical-align: -3px;">label</span> Tags
+          </a>
         </div>
       </div>
+
+      <!-- Search + Tag filter -->
+      <div class="col-12 col-md-6">
+        <div class="input-group input-group-sm">
+          <input type="text" id="post-search" class="form-control" placeholder="Filter by title..." onkeyup="filterPosts()">
+          <span class="input-group-text">
+            <span class="material-symbols-outlined" style="font-size: 18px;">search</span>
+          </span>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <select id="tag-select" class="form-select form-select-sm" onchange="filterPosts()">
+          <option value="">All tags</option>
+          {% for tag in site.data.tags %}
+            <option value="{{ tag.name | downcase }}">{{ tag.name }} ({{ tag.count }})</option>
+          {% endfor %}
+        </select>
+      </div>
+
     </div>
   </div>
-  <!-- END EDIT RULE -->
+</div>
 
-<script> 
+<!-- Post list -->
+<div id="post-list">
+  {% assign posts = site.posts %}
+  {% for post in posts %}
+    {% if post.url contains page.year %}
+      {% assign p = post.url | split: "/" %}
+      {% assign post_date = p[1] | append: "-" | append: p[2] | append: "-" | append: p[3] | date: "%B %e, %Y" %}
+      {% assign excerpt = post.content | strip_html | truncate: 200 %}
 
-function addPost(){    
+      <div class="post-entry" data-title="{{ post.title | downcase }}" data-tags="{% for tag in post.tags %}{{ tag | downcase }},{% endfor %}">
+        <div class="post-item d-flex">
+          {% if post.image %}
+          <a href="{{ post.url | replace:'.html','' }}" class="flex-shrink-0">
+            <img src="{{ post.image }}" alt="" class="post-thumb me-3">
+          </a>
+          {% endif %}
+          <div class="flex-grow-1">
+            <h3 class="mb-1"><a href="{{ post.url | replace:'.html','' }}">{{ post.title }}</a></h3>
+            <p class="text-muted small mb-2">{{ excerpt }}</p>
+            <div class="d-flex flex-wrap align-items-center gap-2">
+              <span class="post-meta">{{ post_date }}</span>
+              {% for tag in post.tags %}
+                <a href="/search/?search={{ tag }}&searchFields=tags" class="post-tag">#{{ tag }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
 
-    var organization = "api-evangelist";
+    {% endif %}
+  {% endfor %}
+</div>
 
-    if(Cookies.get('access_token')){
+<div id="no-results" class="text-center text-muted py-5" style="display: none;">
+  No posts match your filter.
+</div>
 
-        document.getElementById("error-banner").style.display = 'none';
+<script>
+function filterPosts() {
+  var query = document.getElementById('post-search').value.toLowerCase();
+  var selectedTag = document.getElementById('tag-select').value.toLowerCase();
+  var entries = document.querySelectorAll('.post-entry');
+  var visible = 0;
 
-        var posts_name = document.getElementById("posts-name").value;
-        var posts_description = document.getElementById("posts-description").value;
+  entries.forEach(function(entry) {
+    var title = entry.getAttribute('data-title');
+    var tags = entry.getAttribute('data-tags');
 
-        var p = {};
-        p.name = posts_name;
-        p.description = posts_description;
+    var matchTitle = !query || title.indexOf(query) !== -1;
+    var matchTag = !selectedTag || tags.split(',').some(function(t) { return t.trim() === selectedTag; });
 
-        const options = {
-        method: 'post',
-        headers: {
-          "Content-Type": "application/json" ,
-          "X-API-Key": Cookies.get('access_token')                
-        },  
-        body: JSON.stringify(p)
-        };
-
-        var github_url = '{{ site.postsApiBaseUrl }}/posts?organization=' + organization;
-        //console.log(github_url);
-        fetch(github_url, options)
-        .then(function (response) {
-            if (!response.ok) {
-                document.getElementById("error-banner").style.display = '';
-                document.getElementById("error-banner").innerHTML = 'You need to be authenticated to add a post!';
-            }
-            response.json().then(function (response) {
-
-            console.log(response);
-
-            });
-        })
-        .catch(function (err) {
-            console.log('Error: ' + err);
-        });
-
-        document.getElementById("add-banner").style.display = 'none';
-        document.getElementById("add-button-wrapper").style.display = 'none';    
-
+    if (matchTitle && matchTag) {
+      entry.style.display = '';
+      visible++;
+    } else {
+      entry.style.display = 'none';
     }
-    else{
-      document.getElementById("error-banner").style.display = '';
-      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to add a post!';
-    }
+  });
 
+  document.getElementById('no-results').style.display = visible === 0 ? '' : 'none';
 }
 
-function filterYear(){
-    var filter_year = document.getElementById("filter-year").value;
-    location.href = '/' + filter_year;
-}
-
- 
-// Incoming Search
-var search = getUrlVar('search');
-var searchFields = getUrlVar('searchFields');
-
-if(search!=''){
-    
-    document.getElementById("search").value = search;
-
-    if(searchFields.includes("title")){
-        document.getElementById("search-title").checked = true;
-    }
-    if(searchFields == 'title'){
-        document.getElementById("search-title").checked = true;
-        document.getElementById("search-body").checked = false;
-        document.getElementById("search-tags").checked = false;  
-    }
-    if(searchFields.includes("body")){
-        document.getElementById("search-body").checked = true;
-    }
-    if(searchFields == 'body'){
-        document.getElementById("search-title").checked = false;
-        document.getElementById("search-body").checked = true;
-        document.getElementById("search-tags").checked = false;  
-    }    
-    if(searchFields.includes("tags")){
-        document.getElementById("search-tags").checked = true;
-    }   
-    if(searchFields == 'tags'){
-        document.getElementById("search-title").checked = false;
-        document.getElementById("search-body").checked = false;
-        document.getElementById("search-tags").checked = true;  
-    }        
-    
-    getPosts(0);
-}          
-         
-function pullPosts(){    
-
-var organization = "api-evangelist";
-
-if(Cookies.get('access_token')){
-
-    document.getElementById("error-banner").style.display = 'none';
-
-    const options = {
-    method: 'get',
-    headers: {
-      "Content-Type": "application/json",
-      "X-API-Key": Cookies.get('access_token')                 
-    }        
-    };
-
-    var Posts_url = '{{ site.postsApiBaseUrl }}/posts/pull';
-    //console.log(Posts_url);
-    fetch(Posts_url, options)
-    .then(function (response) {
-        if (!response.ok) {
-            document.getElementById("error-banner").style.display = '';
-            document.getElementById("error-banner").innerHTML = 'You need to be authenticated to pull Posts!';
-        }
-        response.json().then(function (response) {
-        if(response.message == "DONE"){
-            console.log("DONE!");
-            document.getElementById("process-banner").style.display = 'none';
-        }
-        else{
-            document.getElementById("process-banner").innerHTML = "processing " + response.path + "...";
-            document.getElementById("process-banner").style.display = '';
-            setTimeout(function() {
-                pullPosts();
-        }, 750);        
-        }
-
-        });
-    })
-    .catch(function (err) {
-        console.log('Error: ' + err);
-    });
-
-}
-else{
-  document.getElementById("error-banner").style.display = '';
-  document.getElementById("error-banner").innerHTML = 'You need to be authenticated to pull Posts!';
-}
-
-
-}
-
-
-function processPosts(){    
-
-var organization = "api-evangelist";
-
-if(Cookies.get('access_token')){
-
-    document.getElementById("error-banner").style.display = 'none';
-
-    const options = {
-    method: 'get',
-    headers: {
-      "Content-Type": "application/json",
-      "X-API-Key": Cookies.get('access_token')                 
-    } 
-    };
-
-    var Posts_url = '{{ site.postsApiBaseUrl }}/posts/process';
-    //console.log(Posts_url);
-    fetch(Posts_url, options)
-    .then(function (response) {
-        if (!response.ok) {
-            document.getElementById("error-banner").style.display = '';
-            document.getElementById("error-banner").innerHTML = 'You need to be authenticated to process Posts!';
-        }
-        response.json().then(function (response) {
-            console.log(response);
-        });
-    })
-    .catch(function (err) {
-        console.log('Error: ' + err);
-    });
-
-}
-else{
-  document.getElementById("error-banner").style.display = '';
-  document.getElementById("error-banner").innerHTML = 'You need to be authenticated to process Posts!';
-}
-
-}         
-</script>  
+// Support incoming search params
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  var search = params.get('search');
+  var tag = params.get('tag');
+  if (search) {
+    document.getElementById('post-search').value = search;
+  }
+  if (tag) {
+    document.getElementById('tag-select').value = tag.toLowerCase();
+  }
+  if (search || tag) {
+    filterPosts();
+  }
+})();
+</script>
