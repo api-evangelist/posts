@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>What Is APIs.json? And What Is Next For the API Discovery Format? - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2016/02/25/what-is-apis-json-and-what-is-next-for-the-api-discovery-format/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="What Is APIs.json? And What Is Next For the API Discovery Format? - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-discovery.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">What Is APIs.json? And What Is Next For the API Discovery Format?</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>February 25, 2016</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-discovery.png" alt="What Is APIs.json? And What Is Next For the API Discovery Format?" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>As part of a renewed focus on the <a href="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-discovery.png">API discovery definition format APIs.json</a>, I wanted to revisit the propsed machine readable API discovery specification, and see what is going on. First, what is APIs.json? It is a machine readable JSON specification, that anyone can use to define their API operations. APIs.json does not describe your APIs like <a href="https://github.com/OAI/OpenAPI-Specification">OpenAPI Spec</a> and <a href="https://apiblueprint.org/">API Blueprint</a> do, it describes your surrounding API operations, with entries that can reference your Open API Spec, API Blueprint, or any other format that you desire.</p>
+
+<p><strong>APIs.json Is An Index For API Operations</strong><br />
+APIs.json provides a machine readable approach that API providers can put work in describing their API operations, similar to how web site providers describe their websites using <a href="https://www.xml-sitemaps.com/">sitemap.xml</a>. Here are the APIs, who are describing their APIs using APIs.json:</p>
+
+<p><a href="http://austin2015.apistrat.com/apis.json"><strong>APIStrat Austin API</strong></a></p>
+
+<p><a href="http://austin2015.apistrat.com/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="http://developer.apievangelist.com/apis.json"><strong>API Evangelist</strong></a></p>
+
+<p><a href="http://developer.apievangelist.com/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://acuityscheduling.com/apis.json"><strong>Acuity Scheduling</strong></a></p>
+
+<p><a href="https://acuityscheduling.com/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="http://breezometer.com/static/apis.json"><strong>BreezoMeter</strong></a></p>
+
+<p><a href="http://breezometer.com/static/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://api.checkmarket.com/3/apis.json"><strong>CheckMarket</strong></a></p>
+
+<p><a href="https://api.checkmarket.com/3/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="http://clarify.io/apis.json"><strong>Clarify</strong></a></p>
+
+<p><a href="http://clarify.io/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://developer.datavalidation.com/apis.json"><strong>Data Validation</strong></a></p>
+
+<p><a href="https://developer.datavalidation.com/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://www.dnscheck.co/apis.json"><strong>DNS Check</strong></a></p>
+
+<p><a href="https://www.dnscheck.co/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://emailhunter.co/apis.json"><strong>Email Hunter</strong></a></p>
+
+<p><a href="https://emailhunter.co/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://feedbackhub.co.uk/api/apis.json"><strong>FeedbackHub</strong></a></p>
+
+<p><a href="https://feedbackhub.co.uk/api/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://www.fitbit.com/apis.json"><strong>Fitbit</strong></a></p>
+
+<p><a href="https://www.fitbit.com/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="http://gavagai.se/apis.json"><strong>Gavagai</strong></a></p>
+
+<p><a href="http://gavagai.se/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="http://developer.kinlane.com/apis.json"><strong>Kin Lane</strong></a></p>
+
+<p><a href="http://developer.kinlane.com/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://www.linkcreationstudio.com/developer/apis.json"><strong>Link Creation Studio</strong></a></p>
+
+<p><a href="https://www.linkcreationstudio.com/developer/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="http://www.onemusicapi.com/apis.json"><strong>OneMusicAPI</strong></a></p>
+
+<p><a href="http://www.onemusicapi.com/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://s3.amazonaws.com/enterprise-multitenant.3scale.net.3scale.net/pandorabots/2014/11/24/apis-35a2e2943bc0ef78.json?AWSAccessKeyId=AKIAIRYLTWBQ37ZNGBZA&amp;Expires=1455947523&amp;Signature=0RKNkK%2BnlCbkILpfwno6wh2neZo%3D"><strong>Pandorabots API</strong></a></p>
+
+<p><a href="https://s3.amazonaws.com/enterprise-multitenant.3scale.net.3scale.net/pandorabots/2014/11/24/apis-35a2e2943bc0ef78.json?AWSAccessKeyId=AKIAIRYLTWBQ37ZNGBZA&amp;Expires=1455947523&amp;Signature=0RKNkK%2BnlCbkILpfwno6wh2neZo%3D" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://qalendra.com/apis.json"><strong>Qalendra</strong></a></p>
+
+<p><a href="https://qalendra.com/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://ritetag.com/assets/apis.json"><strong>RiteTag</strong></a></p>
+
+<p><a href="https://ritetag.com/assets/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://www.singlewire.com/apis.json"><strong>Singlewire</strong></a></p>
+
+<p><a href="https://www.singlewire.com/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://sitecapt.com/apis.json"><strong>SiteCapt</strong></a></p>
+
+<p><a href="https://sitecapt.com/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="http://www.social-searcher.com/apis.json"><strong>Social Searcher API</strong></a></p>
+
+<p><a href="http://www.social-searcher.com/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="http://www.supermonitoring.com/apis.json"><strong>Super Monitoring</strong></a></p>
+
+<p><a href="http://www.supermonitoring.com/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="http://api.timekit.io/apis.json"><strong>Timekit</strong></a></p>
+
+<p><a href="http://api.timekit.io/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://developer.trade.gov/apis.json"><strong>Trade.gov</strong></a></p>
+
+<p><a href="https://developer.trade.gov/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://twitchbots.info/apis.json"><strong>Twitch Bot Directory</strong></a></p>
+
+<p><a href="https://twitchbots.info/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="http://enclout.com/api/apis.json"><strong>EnClout</strong></a></p>
+
+<p><a href="http://enclout.com/api/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="http://api.meerkat.com.br/frapi/docs/apis.json"><strong>frAPI</strong></a></p>
+
+<p><a href="http://api.meerkat.com.br/frapi/docs/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://aperture.section.io/apis.json"><strong>Section.io</strong></a></p>
+
+<p><a href="https://aperture.section.io/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><a href="https://spoonacular.com/apis.json"><strong>Spoonacular</strong></a></p>
+
+<p><a href="https://spoonacular.com/apis.json" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png" alt="" /></a></p>
+
+<p><strong>APIs.json Indexes Can Be Created By 3rd Parties</strong><br />
+One important thing to add, is that these APIs.json files can also be crafted, and published by external parties. An example of this is with the Trade.gov APIs. <a href="http://developer.trade.gov.apievangelist.com/apis.json">I originally created that APIs.json file</a>, and coordinated with them to eventually it get published under their own domain, making it an authoritative APIs.json file. Many APIs.json files will be born outside of the API operations they describe, something you can see in my API stack project:</p>
+
+<ul>
+  <li><a href="http://theapistack.com/companies.html">The API Stack</a> - Provides almost 1000 APIs.json files, that describe the API operations of many leading public API platforms. There is also around 300 OpenAPI specifications, for some of the platforms described</li>
+</ul>
+
+<p><strong>APIs.json Can Be Used To Describe API Collections</strong><br />
+Beyond describing a single API, within a single domain, APIs.json can also be used to describe entire collections of APIs, providing a machine readable way to organize, and share valuable collections of API resources. Here are a few examples of projects that are producing APIs.json driven collections.</p>
+
+<ul>
+  <li><a href="http://stack.apievangelist.com/apis.json">Defining APIs that you depend on for organizational operation.</a></li>
+  <li><a href="http://monitoring.apievangelist.com/apis.json">Defining a specific category of API operations, using the format.</a></li>
+  <li>SMS - <a href="http://sms.stack.network/">http://sms.stack.network/</a></li>
+  <li>MMS - <a href="http://mms.stack.network/">http://mms.stack.network/</a></li>
+  <li>Email - <a href="http://email.stack.network/">http://email.stack.network/</a></li>
+  <li>News - <a href="http://news.stack.network/">http://news.stack.network/</a></li>
+</ul>
+
+<p><strong>APIs.json Can Be Used To Describe Collections of Collections</strong><br />
+Then taking things up another rung up the chain, APIs.json can also provide a collection of collections, something I do with my own APIs. Each Github organization on my network has a master APIs.json, providing include links to all other APIs.json within the organization. In this scenario I have over 30 other APIs.json indexed, which can all operate independently of each other, but can also be considered a collection of API collections.</p>
+
+<ul>
+  <li><a href="https://kin-lane.github.io/master/apis.json">Master</a> - A master collection of API collections I maintain as part of the API Evangelist network operations.</li>
+</ul>
+
+<p><strong>The First Open Source Tooling For APIs.json</strong><br />
+Up until now, this post is all about APIs.json, where in reality the format is useless without their being any tooling built on top of the specification, bringing value to the table. This is why the 3Scale team got to work building an open source APIs.json driven search engine:</p>
+
+<ul>
+  <li><a href="http://apis.io/">APIs.io</a> as an open source tool dedicated to APIs.json</li>
+  <li><a href="http://apis.io/">APIs.io</a> as a public API search engine, with APIs.json as index.</li>
+  <li><a href="http://apis.io/">APIs.io</a> as a private API search engine, with APIs.json as index.</li>
+</ul>
+
+<p><strong>APIs.json Driving Other Open Tooling</strong><br />
+APIs.io is just the beginning. It won’t be enough to convince all API providers that they should be producing APIs.json index of their site operations, just for the API discovery boost. We are going to need APIs.json driven tooling that will service every other stop along the life cycle, including:</p>
+
+<ul>
+  <li><strong>HTTP Client / Hub / Workbenches</strong></li>
+  <li><strong>Documentation</strong></li>
+  <li><strong>Testing</strong></li>
+  <li><strong>Monitoring</strong></li>
+  <li><strong>Virtualization</strong></li>
+  <li><strong>Visualization</strong></li>
+</ul>
+
+<p><strong>APIs.json Integrated Into Existing Platforms</strong><br />
+What areas would you like to see served? Personally, I would like to have the ability to load / unload my APIs.json collections into any service that I use. Allowing me to organize my internal, public, and 3rd party APIs I depend within any platform out there that is servicing the API space. Here are a handful of those types of integrations that are already happening:</p>
+
+<ul>
+  <li><strong><a href="http://warewolf.io/ESB-blog/swagger-apisjson-support/">WarewolfESB</a></strong> - ESB integration and API discovery.</li>
+  <li><strong><a href="http://swagger.io/integrating-with-the-swaggerhub-api/">SwaggerHub</a></strong> - Public and private API hub discovery.</li>
+  <li><strong>API Management</strong> - In Progress w/ <a href="https://3scale.net">3Scale</a>…</li>
+  <li><strong>API Monitoring</strong> - In Progress with <a href="http://apiscience.com">API Science</a>…</li>
+  <li><strong>API Change Log</strong> -  In Progress with <a href="http://apichangelog.com">API ChangeLog</a>…</li>
+  <li><strong><a href="https://smartbear.com/plugins/apis-io-import-export/">SmartBear</a> -</strong> API discovery for monitoring, testing, virtualization, and security.</li>
+  <li><strong><a href="http://developer.apievangelist.com/">API Evangelist</a></strong> - API analyst operations.</li>
+  <li><strong><a href="http://developer.kinlane.com/">Kin Lane</a></strong> - API factory operations (not organic)</li>
+  <li><strong><a href="http://adopta.agency">Adopta.Agency</a></strong> - Government open data publishing.</li>
+</ul>
+
+<p><strong>APIs.json Linking To The Human Aspects Of API Operations</strong><br />
+APIs.json is just the scaffolding to hang links to essential aspects of your operations, it doesn’t care what you link to. You can start by referencing essential links for your API operations like:</p>
+
+<ul>
+  <li><strong>Signup</strong> - How to signup for a service.</li>
+  <li><strong>Support</strong> - Where to get support. </li>
+  <li><strong>Terms of Service</strong> - Where are the terms of service.</li>
+  <li><strong>Pricing</strong> - Where to find the pricing for a service.</li>
+</ul>
+
+<p><strong>APIs.json Linking to Machine Readable Aspects of API Operations</strong><br />
+These do not have to be machine readable links, they can reference important things the humans will need first. However, ultimately the goal is to make as much of the APIs.json index as machine readable as possible, using a variety of existing API definition formats, available for a variety of purposes.</p>
+
+<ul>
+  <li><a href="https://github.com/OAI/OpenAPI-Specification">OpenApI Spec</a>, for API description.</li>
+  <li><a href="https://apiblueprint.org/">API Blueprint</a>, for API description.</li>
+  <li><a href="http://apicommons.org/">API Common</a>, for API licensing.</li>
+  <li><a href="https://www.postman.com/docs/collections">Postman</a>, for run-time.</li>
+</ul>
+
+<p><strong>Defining New, Machine Readable Property Elements For APIs.json</strong><br />
+While the APIs.json spec will evolve, something I talk about below, its real strength lies in its ability to incentivize the development of entirely new, machine readable API definitions, bringing even more value to the API discovery process. Here are a few of the additional specs being crafted independent of, but inspired by APIs.json:</p>
+
+<ul>
+  <li><a href="http://apievangelist.com/2016/02/13/my-tooling-and-api-for-gathering-and-organizing-the-details-of-the-plans-and-pricing-for-apis/">API Plans</a>, for pricing, plans &amp; rate limits.</li>
+  <li>API Monitoring, for monitoring &amp; testing.</li>
+  <li>API Changelog, for operational monitoring.</li>
+  <li>API SDK, for SDK reference.</li>
+  <li>API Conversations - for the stream around API operations</li>
+</ul>
+
+<p><strong>Roadmap for Version 0.16 of APIs.json</strong><br />
+That is the 100K view of what is APIs.json now, and the short term plan for the future. Most of the change within the universe APIs.json is mapping will occur add the individual API, and within the machine readable specs that describe them like OpenAPI Spec, API Blueprint, and Postman. Secondarily, there will be additional, machine readable, API types being defined and added into the spec.</p>
+
+<p>Even with this reality, we do have a handful of changes planned for the 0.16 version of APIs.json:</p>
+
+<ul>
+  <li><strong>commons</strong> - Establish a top level collection of common property elements that apply to ALL APIs being referenced in an APIs.json</li>
+  <li><strong>country</strong> - Adding a top level country reference using <a href="http://www.iso.org/iso/country_codes">ISO 3166</a>.</li>
+  <li>New Proper Elements - Suggesting a handful of new property elements to reference common API operation building blocks
+    <ul>
+      <li>Registration</li>
+      <li>Blog</li>
+      <li>Github</li>
+      <li>Twitter</li>
+    </ul>
+  </li>
+</ul>
+
+<p>I doubt we will see many new additions like commons and country. In the future most of the structural changes to APis.json will be derived from first class property elements (ie. adding documentation or Github), making this the proving ground for defining what are truly the most important aspects of API operations, and what should be machine readable vs human readable.</p>
+
+<p><strong>The Hard Work That Lies Ahead for APIs.json</strong><br />
+That concludes defining what is APIs.json, and what is next for APIs.json. Now we really have to get to work, doing the heavy lifting around:</p>
+
+<ul>
+  <li>Getting more API providers to describe their API operations using APIs.json, and publish in the root of the domain for their API ecosystem.</li>
+  <li>Encourage more API evangelists, brokers &amp; analysts using to describe their collections, using APIs.json, building more meaningful indexes and directories of high value APIs.</li>
+  <li>Encourage platforms to build APIs.json into their operations, as a storage and organization schema, but also as import / export format.</li>
+  <li>Incentivize the development of more meaningful tooling that employs APIs.json, and uses it to better serve the API life cycle.</li>
+  <li>Continue to add new API property elements, making sure as many of them as possible evolve to be machine readable, as well as first class citizens in the APIs.json specification.</li>
+</ul>
+
+<p>You can stay involved with what we are up to via <a href="http://apisjson.org/">the APIs.json website</a>, and <a href="https://github.com/apis-json/api-json">the APIs.json Github repository</a>. You can also stay in tune with what is going on with <a href="http://apis.io/">APis.io via the website</a>, and its Github repository. If you are doing something with APIs.json, ranging from using it as an index for your API operations, to platform integrations, please let me know. Also, if you envision some interesting tooling you’d like to see happen, <a href="https://github.com/apis-json/api-json/issues/new">make sure and submit a Github issue letting us know</a>. </p>
+
+<p>While we still have huge amounts of work to do, when it comes to delivering meaningful API discovery solutions that the industry can put to work, I am pretty stoked with what we have managed to do over the last two years of work on the APIs.json specification, and supporting tooling–momentum that I feel picking up in 2016.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Discovery&searchFields=tags" class="post-tag me-2">#Discovery</a>
+        
+          <a href="/search/?search=Discover&searchFields=tags" class="post-tag me-2">#Discover</a>
+        
+          <a href="/search/?search=APIs.json&searchFields=tags" class="post-tag me-2">#APIs.json</a>
+        
+          <a href="/search/?search=APIs&searchFields=tags" class="post-tag me-2">#APIs</a>
+        
+          <a href="/search/?search=APIs.jso&searchFields=tags" class="post-tag me-2">#APIs.jso</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>February 25, 2016</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

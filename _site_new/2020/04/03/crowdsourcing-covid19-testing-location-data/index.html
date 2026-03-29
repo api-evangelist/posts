@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Crowdsourcing COVID-19 Testing Location Data - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2020/04/03/crowdsourcing-covid19-testing-location-data/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Crowdsourcing COVID-19 Testing Location Data - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_data_api_blueprint_multiple_google_sheets.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Crowdsourcing COVID-19 Testing Location Data</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>April  3, 2020</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_data_api_blueprint_multiple_google_sheets.jpg" alt="Crowdsourcing COVID-19 Testing Location Data" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <h3 id="framing-the-covid-19-testing-location-problem">Framing the COVID-19 Testing Location Problem</h3>
+
+<p>Before I dive into what I built, let me talk a little about how I landed on this being a problem in the first place, which is an important first step in any technological response to a real world problem. I was listening to the regular highlighting of drive-through COVID-19 testing locations during the press conferences coming out of this administration, and I was seeing or hearing it on the news I am digesting each day. Recognizing that the availability of COVID-19 testing locations was a politically charged topic, I wanted to better understand where we could or should go if we had Corona symptoms. I don’t have a doctor, event though I have health insurance, so I really have no idea where to go if I came down with it. I have anxiety about where I would go in my community if I came down with symptoms, and I can imagine that other people are feeling the same, but more importantly I don’t feel like the official federal response about drive-thru COVID-19 esting locations was adequate, honest, or satisfactory in any way.</p>
+
+<h3 id="finding-he-covid-19-testing-location-data">Finding he COVID-19 Testing Location Data</h3>
+
+<p>With a real world problem of finding COVID-19 testing locations identified I moved on to defining where the data might actually be. I couldn’t find any specific announcement out of the federal government agencies leading the COVID-19 fight, so I set out to find other possible locations where I could find authoritative information about where testing locations were—tuning into the following channels:</p>
+
+<ul>
+  <li><strong>Web Search via Google &amp; Bing -</strong> Manually using Google, and pulling from the Bing API using a Postman collection I am able to find quite a few links to news stories about COVID-19 testing locations.</li>
+  <li><strong><a href="https://documenter.postman.com/view/8854915/SzYT5MzW?version=latest">State Health Departments via Twitter</a></strong> - I have crowdsourced all of the state health departments and I am pulling their tweets and looking for mentions of COVID-19 testing locations.</li>
+  <li><strong><a href="https://documenter.postman.com/view/8854915/SzYXVdyQ?version=latest">County Health Departments via Twitter</a> -</strong> I have crowdsourced all of the county health departments and I am pulling their tweets and looking for mentions of COVID-19 testing locations.</li>
+  <li><strong>Television Stations via Twitter -</strong> I am crowdsourcing television states for different states and I am pulling their tweets and looking for mentions of COVID-19 testing locations.</li>
+</ul>
+
+<p>There was no shortage of chatter about COVID-19 testing locations, but there wasn’t any actually data being made available. In order to establish a structured data set for COVID-19 testing locations, humans would have to get involved. To find, filter, and extract a standard set of data from each of the news pages, blog posts, and other page it would need a human touch to do it right, and there is no better interface for sucking data out of humans than a spreadsheet, and in this situation Google Sheets. I set out to engineer a Google Sheet driven approach to efficiently crowdsourcing COVID-19 testing locations across all 50 US states, and maybe eventually a global dataset. </p>
+
+<h3 id="managing-covid-19-testing-location-data-using-google-sheets">Managing COVID-19 Testing Location Data Using Google Sheets</h3>
+
+<p>To mange the crowdsourcing of COVID-19 testing location data I looked to Google Sheets, which is the quickest free way to stand up a data store that most individual will know how to work with. To lay the foundation for managing the COVID-19 testing location data I opted to setup 50 separate sheets, which was pretty easy to do using a simple script that uses the Google Drive and Sheets API. I opted for 50 separate sheets to help isolate users working on different states into different buckets, sharding out the potentially large amount of data, management, and user access using Google accounts. Something that allows me to quickly use the Google sharing and publishing features to manage a group of evolving individuals who are helping crowdsource the COVID-19 testing location data across all 50 states, and maybe wider.</p>
+
+<p><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_sheets_covid_testing_locations.png" alt="" /></p>
+
+<h3 id="managing-covid-19-testing-location-data-syndication-using-postman">Managing COVID-19 Testing Location Data Syndication Using Postman</h3>
+
+<p>After creating 50 separate Google Sheets and populating them with some data I wanted to get to work making the data available via an API, so that the data could be used in other applications. You can access the data via the Google Sheets API, but the data isn’t available in the most intuitive format, and I wanted to be able to use Postman to not just pull the data, but also refactor the data to make it available in a more thoughtful way. I opted to structure the Google Sheets and the resulting API using the <a href="http://docs.openreferral.org/en/latest/">Open Referral specification</a>, which is an open source open data and API format for making health and human services data available to the public. Postman would help me pull from the Google Sheets then transform the data for publishing as valid Open Referral API endpoints, with a standardized underlying schema driven by Google Sheets. The resulting Postman collection for managing COVID-19 testing locations has the following outline:</p>
+
+<ol>
+  <li><strong>Configuration</strong> - Defining the base settings the collection needs to run.</li>
+  <li><strong>Google Sheets</strong> - Pulling of the data from the Google Sheet(s).</li>
+  <li><strong>Publish to GitHub</strong> - Publishing the data to GitHub as JSON and CSV files.</li>
+  <li><strong>Build Collection -</strong> Generate a separate collection for making calls to the API.</li>
+  <li><strong>Call APIs -</strong> Default endpoints for call the endpoints of each state being managed.</li>
+</ol>
+
+<p><a href="https://covid-19-apis.postman.com/covid-19-testing-locations/">You can view the documentation for my COVID-19 testing location data management collection</a>, and use the Run in Postman button to import into your own Postman client. The code isn’t the most beautiful or well documented, but it gets the job done and accomplishes what I am looking to do. The Postman collection comes with a starter environment which I have duplicated to create 50 separate environments for each state, providing me with my local data store for pulling COVID-19 testing location data and refactoring for then making available through API syndication. I have already improved upon this model for another crowdsourcing model I am building, but the collection provides an interesting look at how to work with data in Google sheets, but also how to leverage Postman to pull, aggregate, and transform data, but also auto-generate Postman collections for pulling the data.</p>
+
+<p><a href="https://documenter.postman.com/view/8854915/SzS7P5VZ?version=latest"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/covid_19_testing_locations_management.png" alt="" /></a></p>
+
+<h3 id="publishing-covid-19-testing-location-to-github-for-wider-access">Publishing COVID-19 Testing Location to GitHub for Wider Access</h3>
+
+<p>While Postman can work a lot of magic, it doesn’t have a scalable way to publish an API. Earlier on I had includedf a request where I would automatically publish a mock API using the collection, but I quickly realized I would need a better way of quickly publishing JSON and CSV data that would be receiving a significant amount of traffic. For me, the quickest, cheapest, and APIi-driven way to publish JSON and CSV data for high volume access by other applications is GitHub. So I added a set of requests to the collection for publishing individual JSON and CSV files for the COVID-19 testing location data to GitHub, as well as a single complete JSON endpoint that rolls it all up into a single JSON file for each state. It is important to keep the data as flat as possible so that consumers can work with in spreadsheets, this is why I publish as CSV. But then it is also important to publish as JSON, which allows for more complex data structures, going beyond what spreadsheets can handle. </p>
+
+<p><a href="https://github.com/covid-19-testing/locations"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/covid_19_github.png" alt="" /></a></p>
+
+<p>GItHub is designed for quickly making public data available in a machine readable format. I use the GitHub API to publish the data to GitHub, and consumers can make calls to the variety of JSON and CSV files publicly via GitHub using the URL. I also added a request to the COVID-19 testing location collection above for automatically generating another collection for accessing and consuming the 50 individual JSON files published to GitHub. Making for <a href="https://documenter.postman.com/view/8854915/SzS7PR3t?version=latest">a single set of documentation and Run in Postman button for viewing, processing, and syndicating of COVID-19 testing location data</a> across other systems and applications. Adding another dimension for how Postman can be used, publishing two separate collections, 1) for managing the COVID-19 testing location data, and 2) for accessing the resulting data aggregated from Google Sheets, converted to a more usable <a href="http://docs.openreferral.org/en/latest/">Open Referral specification</a>, and then publishing to Github so that the APIs can handle a large volume of calls, while being updated on a regular basis.</p>
+
+<h3 id="aggregating-refactoring-and-publishing-using-postman-monitors">Aggregating, Refactoring, and Publishing Using Postman Monitors</h3>
+
+<p>With a Postman collection for managing the crowdsourced COVID-19 testing location data, and separate Postman environments for each of the 50 US states, I am able to schedule the pulling, refactoring, and publishing of testing location data across all 50 states using Postman monitors. To automate this process I schedule separate Postman monitors for each of the 50 states, applying the collection above to a specific states environment, resulting in the same process being executed for all 50 US states. Leveraging the Postman platform as the engine for making COVID-19 testing location data more accessible using a low-cost crowdsourced way to solve this problem.</p>
+
+<p><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_monitoring_covid_test.png" alt="" /></p>
+
+<h3 id="browsing-covid-19-testing-locations-and-accessing-via-api">Browsing COVID-19 Testing Locations and Accessing via API</h3>
+
+<p>You can <a href="https://covid-19-apis.postman.com/covid-19-testing-locations/">browse the COVID-19 testing locations using the microsite setup by Postman</a>, and you can access <a href="https://documenter.postman.com/view/8854915/SzS7PR3t?version=latest">the COVID-19 testing location API using the documentation and Run in Postman button</a>. If you want to help work on adding COVID-19 testing locations for any of the states—there is an email to hit, and we’ll plug you in. If you want to build something on top of the API, you can grab any of the URLs from the Postman collection for accessing the COVID-19 testing location API published as part of this work.</p>
+
+<p><a href="https://covid-19-apis.postman.com/covid-19-testing-locations/"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_covid_19_testing_locations.png" alt="" /></a></p>
+
+<p>If you want to learn more about the overall model I am using for crowdsourcing this data, feel free to ping us as well. I am still honing the overall approach. As I said earlier, I have an improved version of this data management collection driving a separate project, which I will talk about in a future post. Postman is also looking for other interesting projects involving public data, APIs, and the COVID-19 fight. I’ll end this post with an overview diagram of this process, which I hope can provide an open blueprint that could easily be replicated to serve other project that also use multiple Google Sheets as the data store.</p>
+
+<p><a href="https://covid-19-apis.postman.com/covid-19-testing-locations/how-it-works/"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_data_api_blueprint_multiple_google_sheets.jpg" alt="" /></a></p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Covid&searchFields=tags" class="post-tag me-2">#Covid</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>April  3, 2020</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Reclaim Your Domain LA Hackathon Wrap-up - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2014/07/22/reclaim-your-domain-la-hackathon-wrapup/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Reclaim Your Domain LA Hackathon Wrap-up - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-fist.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Reclaim Your Domain LA Hackathon Wrap-up</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>July 22, 2014</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-fist.png" alt="Reclaim Your Domain LA Hackathon Wrap-up" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I spent the weekend hacking away with a small group of very smart folks, at the <a href="http://lahackathon.reclaimyourdomain.org/">Reclaim Your Domain Hackathon in Los Angeles</a>. Fifteen of us gathered at Pepperdine University in west LA, looking to move forward the discussion around what we call “Reclaim Your Domain”. This conversation began last year, at the <a href="http://bavatuesdays.com/reclaim-open-learning/">#ReclaimOpen Hackathon</a>, continued earlier this year at <a href="http://kinlane.com/2014/05/01/exploring-the-domain-universe-at-emory-university/">Emory University</a>, and we were looking to keep the momentum building this weekend at Pepperdine.</p>
+
+<p>Here is a breakdown of who was present this weekend:</p>
+
+<ul>
+  <li><strong>Jim Groom</strong> - University of Mary Washington (<a href="https://twitter.com/jimgroom">@jimgroom</a>)</li>
+  <li><strong>Michael Caulfield</strong> - WSU Vancouver - http://hapgood.us/ - (<a href="https://twitter.com/holden">@holden</a>)</li>
+  <li><strong>Michael Berman</strong> - California State University Channel Islands (<a href="https://twitter.com/amichaelberman">@amichaelberman</a>)</li>
+  <li><strong>Chris Mattia</strong> - California State University Channel Islands (<a href="https://twitter.com/cmmattia">@cmmattia</a>)</li>
+  <li><strong>Brian Lamb</strong> - Thompson Rivers University (<a href="https://twitter.com/brlamb">@brlamb</a>)</li>
+  <li><strong>Timothy Owens</strong> - University of Mary Washington (<a href="https://twitter.com/timmmmyboy">@timmmmyboy</a>)</li>
+  <li><strong>Mikhail Gershovich</strong> - Vocat (<a href="https://twitter.com/mgershovich">@mgershovich</a>)</li>
+  <li><strong>Amy Collier</strong> - Stanford (<a href="https://twitter.com/amcollier">@amcollier</a>)</li>
+  <li><strong>Rolin Moe</strong> - Pepperdine (<a href="https://twitter.com/RMoeJo">@RMoeJo</a>)</li>
+  <li><strong>Adam Croom</strong> - University of Oklahoma (<a href="https://twitter.com/acroom">@acroom</a>)</li>
+  <li><strong>Mark C. Morvant</strong> - University of Oklahoma (<a href="https://twitter.com/MarkMorvant">@MarkMorvant</a>)</li>
+  <li><strong>Ben Werdmuller</strong> — Withknown (<a href="https://twitter.com/benwerd">@benwerd</a>)</li>
+  <li><strong>Erin Richey</strong> — Withknown (<a href="https://twitter.com/erinjo">@erinjo</a>)</li>
+  <li><strong>Kin Lane</strong> — API Evangelist (<a href="https://twitter.com/kinlane">@kinlane</a>)</li>
+  <li><strong>Audrey Watters</strong> — Hack Education (<a href="https://twitter.com/audreywatters">@audreywatters</a>)</li>
+</ul>
+
+<p>If you are unsure of what #Reclaim is all about, join the club, we are trying to define it as well. You can head over to <a href="http://reclaimyourdomain.org/">Reclaim Your Domain</a>, or you can also look at <a href="http://reclaimhosting.com/">Reclaim Hosting</a>, and the original <a href="http://umw.domains/">Domain Of Ones Own at University of Mary Washington</a> which has provided much of the initial spark behind the #Reclaim movement, for more information. Ultimately, #Reclaim will always be a very personal experience for each individual, but Reclaim Your Domain is primarily about: </p>
+
+<blockquote>
+  <p><em>Educating, and empowering individual to define, reclaim, and manage their digital self</em></p>
+</blockquote>
+
+<p>The primary thing I got out of this weekend, beyond the opportunity to hang out with such a savvy group of educators, was the opportunity to talk through <a href="http://kinlane.reclaimyourdomain.org/">my own personal #Reclaim process</a>, as well as my vision of how we can use <a href="http://kinlane.com/2014/07/16/driving-the-reclaim-process-using-terms-of-service-didnt-read/">Terms of Service Didn’t Read as a framework for the #Reclaim process</a>. The weekend re-enforced the importance of APIs in higher education, in not just my own API Evangelism work, but contributing to the overall health of the Internet (which I will talk about in a separate post).</p>
+
+<p>To recap what I said above, there are three domains, that you will need to learn about my current #Reclaim work:</p>
+
+<ul>
+  <li><strong><a href="http://reclaimyourdomain.org">Reclaim Your Domain</a></strong> - The project site for all of this work, where you will find links to all information, calendar of events, and link to individual reclaim sites.</li>
+  <li><strong><a href="http://kinlane.reclaimyourdomain.org/">Kin Lane Reclaim Your Domain</a></strong> - My personal #Reclaim website where I am working on reclaiming my domain, while I also work to define the overall process.</li>
+  <li><strong><a href="http://tosdr.org">Terms of Service Didn’t Read</a></strong> - A website for establishing plain english, yet machine readable discussions around the terms of service for the platforms we depend on.</li>
+</ul>
+
+<p>During the weekend I was introduced to some other very import tools, which are essential to the #Reclaim process:</p>
+
+<ul>
+  <li><strong><a href="http://withknown.com/">Known</a></strong> - A publishing platform that empowers you to manage your online self, available as an open source tool, or available as cloud service. I’m still setting up my own instance of Known, and will have more information after I get setup, and play with more.</li>
+  <li><strong><a href="https://indieauth.com/">IndieAuth</a></strong> - IndieAuth is a way to use your own domain name to sign in to websites, which is a missing piece on the identity front for #Reclaim. Same as Known, I’ll have more information on this after I play with.</li>
+</ul>
+
+<p>I also got some quality time, getting more up to speed on two other of tools that will be be important to #Reclaim:</p>
+
+<ul>
+  <li><strong><a href="http://fed.wiki.org/view/welcome-visitors">Smallest Federated Wiki</a></strong> - A simple, and powerful wiki implementation that uses the latest technology to collaborate around content, with a very interesting approach to using JSON, and plugins to significantly evolve the wiki experience.</li>
+  <li><strong><a href="http://reclaimhosting.com/">Reclaim Hosting</a></strong> - Reclaim Hosting provides educators and institutions with an easy way to offer their students domains and web hosting that they own and control.</li>
+</ul>
+
+<p>Over the course of two days I was able to share what I was working on, and learn about <a href="https://twitter.com/withknown">@withknown</a>, and what <a href="https://twitter.com/holden">@holden</a> is up to with Smallest Federated Wiki, and get a closer look at what <a href="https://twitter.com/timmmmyboy">@timmmmyboy</a>, <a href="https://twitter.com/jimgroom">@jimgroom</a>, <a href="https://twitter.com/">@mburtis</a> are up to with Reclaim Hosting, while also explore some other areas I think are vital to #Reclaim moving forward. #WIN There were also some other really important takeways for me.</p>
+
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/events/reclaim-your-domain-la-hackathon/reclaim-hackathon.png" alt="" /></p>
+
+<p><strong>POSSEE</strong><br />
+<a href="http://indiewebcamp.com/POSSE">POSSE</a> is an acronym for Publish (on your) Own Site, Syndicate Elsewhere. For the first time I saw an application that delivers on this concept, while also holding potential for the whole reclaim your domain philosophy–<a href="http://withknown.com/">Known</a>. I am excited to fire up my own instance of Known and see how I can actually use to manage my digital self, and add this slick piece of software to the #Reclaim stack of tools that everyone else can put to use.</p>
+
+<p><strong>The Importance of API 101</strong><br />
+During the second day of the hackathon, I was asked to give an API 101 talk. I headed to the other end of the meeting area, allowing anyone who wasn’t interested in listening to me, to continue hacking on their own. I was surprised to see that everyone joined me to learn about APIs–well everyone except <a href="https://twitter.com/audreywatters">@audreywatters</a> (API blah blah blah). I felt like everyone had a general sense of what an API was, but only a handful of folks possessed intimate knowledge. I used the separation of websites being for humans, and APIs being for other applications and systems as the basis for my talk—showing how websites return HTML for displaying to humans, and APIs return JSON meant to be used by applications. Later in the day I also wrote a little PHP script which made a call to an API (well JSON file), then displayed bulleted list of results, to help show how APIs can drive website content. Once again I am reminded of the importance of API 101 demos, and how I need to focus more in this area.</p>
+
+<p><strong>The Importance of Github 101</strong><br />
+One of the topics we covered was the basics of using Github. I walked through the basic concepts that surround Github usage like repositories, forks, commits, pull requests—demonstrating how multiple users can collaborate, and work together on not just code, but content. I demonstrated how issues, and milestones can also be used to manage conversation around the project, in addition to work with repository files. Lastly, I walked through Github Pages, and how using a separate branch, you can publish HTML, CSS, JavaScript and JSON for projects, turning Github into not just a code and content management platform, but also a publishing endpoint.</p>
+
+<p><strong>APIs.json Playing a Role in #Reclaim</strong><br />
+After hearing <a href="https://twitter.com/timmmmyboy">@timmmmyboy</a> talk about how Reclaim Hosting aggregates domain users within each university, I brought up <a href="http://apisjson.org">APIs.json</a> and how I’m using this as a index for APIs in both the public and private sector. While it may not be something that is in the immediate roadmap for #Reclaim, I think APIs.json will play a significant role in #Reclaim process down the road, and is worth noting here.</p>
+
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/events/reclaim-your-domain-la-hackathon/kin-lan-reclaim-hackathon-la.png" alt="" /></p>
+
+<p><strong>Containerization Movement</strong><br />
+One pattern I saw across the Reclaim Hosting and Domain of One’s Own work from <a href="https://twitter.com/timmmmyboy">@timmmmyboy</a>, <a href="https://twitter.com/jimgroom">@jimgroom</a>, and <a href="https://twitter.com/">@mburtis</a>, is that they are mimicking what is currently happening in the <a href="https://twitter.com/docker">@docker</a> dominated containerization movement we are seeing from tech leaders like Amazon, Google, Microsoft, and Red Hat. Then only difference is Reclaim Hosting is doing it as apps that can be deployed across a known set of domains, spanning physical servers, within a particular institution. Containers offer portability for the #Reclaim lifecycle, for when students leave institutions, as well as for the wider public space, when people are looking to #Reclaim their digital self.</p>
+
+<p><strong>Importance of APIs in Higher Ed</strong><br />
+APIs are central to everything about #Reclaim. It is how users will take control over their digital self, driving solutions like Known. With #Reclaim being born, and propagated via universities, the API stakes are raised across higher education. Universities need to adopt an API way of life, to drive all aspects of campus operations, but also to expose all students to the concept of APIs, making part of the university experience–teaching students to #Reclaim their own course schedule, student data, and other portfolio, and other aspects of the campus experience. Universities are ground zero, when it comes to exposing the next generation of corporate employees, government workers, and #Reclaim informed citizens–we have a lot of work to do to get insitutions up to speed.</p>
+
+<p><strong>Evolving the Hackathon Format</strong><br />
+The Reclaim Your Domain LA Hackathon has moved forward the hackathon definition for me. There were no applications built over the weekend, and there were no prizes given away to winners, but there was significant movement that will live beyond just this single event—something that the previous definition of hackathon didn’t possess for me. Fifteen of us came together Friday night for food and drink at <a href="https://twitter.com/amichaelberman">@amichaelberman</a> house. Saturday morning we came together at Pepperdine and spent the day working through ideas and tool demonstrations, which included a lot of open discussion. Saturday night we came together at our house in Hermosa Beach, where we drank, continued conversations from the day, and Jazzercised on the roof until wee hours of the morning. Then Sunday we came together for breakfast, and went back to work at Pepperdine for the rest of the day. Once done, some folks headed to airport, and the rest of headed back to Hermosa Beach for dinner, more drinks, and conversation until late in the evening.</p>
+
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/events/reclaim-your-domain-la-hackathon/reclaim-hackathon-beers.png" alt="" /></p>
+
+<p>Over the two days, there was plenty of hacking, setting up Known and Smallest Federated Wiki, as part of Reclaim Your Domain. Most attendees got to work on their #Reclaim definitions, and POSSEE workflow using Known, and learned how to generate API keys, commit to Github, and other essential #Reclaim tasks. At many other hackathons I’ve been to, there were tangible projects that came out of the event, but were always abandoned after the short weekend. #Reclaim didn’t produce any single startup or application, but deployed and evolved on top of existing work, and processes, that will continue long after this single event, and will continue to build momentum with each event we do–capturing much more of the exhaust from a weekend hackathon.</p>
+
+<p><strong>The Time Is Right For #Reclaim</strong><br />
+I feel #Reclaim is in motion, and there is no stopping it now. Each of the three events I’ve done, have been extremely fruitful, and the ideas, conversation, and code just flows. I see signs across the Internet, that some people are beginning to care more about about their digital self, in light of exploitation from government, and technology companies. It is not an accident that this movement is coming out of higher education institutions, and will continue to spread, and build momentum at universities. The time is right for #Reclaim, I can feel it.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Reclaim&searchFields=tags" class="post-tag me-2">#Reclaim</a>
+        
+          <a href="/search/?search=ai&searchFields=tags" class="post-tag me-2">#ai</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>July 22, 2014</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

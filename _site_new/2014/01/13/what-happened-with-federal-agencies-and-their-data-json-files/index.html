@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>What Happened With Federal Agencies And Their Data.json Files - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2014/01/13/what-happened-with-federal-agencies-and-their-data-json-files/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="What Happened With Federal Agencies And Their Data.json Files - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-json-data-store.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">What Happened With Federal Agencies And Their Data.json Files</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>January 13, 2014</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-json-data-store.png" alt="What Happened With Federal Agencies And Their Data.json Files" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I’m playing catchup on some of my projects, and one of them is tracking on the evolution of <a href="https://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government">Executive Order 13642</a> from last May, which was the White House directive to make open and machine readable the new default for government information. The piece that I’m tracking on specifically right now is around the <a href="https://project-open-data.github.io/policy-memo">OMB Memorandum M-13-13</a> Open Data Policy-Managing Information as an Asset, in which one of the items require agencies to publish a data.json file that provides a machine readable inventory of each agencies public data assets.</p>
+
+<p>In short, each federal agencies should round up a list of all their public data assets, make a machine readable JSON file from that list, and publish to the web. The deadline for publishing was November 30, 2013, and I got caught up in my FAFSA work and the holidays happened, resulting in just getting a chance to take a look at truly take a look at where our government is at with this.</p>
+
+<p>To really quantify where we are at, you have to execute on the core vision of the mandate—write a script to pull all the federal agencies data.json file. First you pull all the agency’s root url using the Federal Agency Directory API from <a href="https://www.usa.gov/About/developer-resources/federal-agency-directory/">USA.gov</a>. Then you append data.json to the end of each address, pull each data.json file and get to work! When executing on this work, you encounter the problem of <a href="http://kinlane.com/2013/11/06/knowing-your-http-status-codes-in-federal-government/">inconsistent HTTP status codes from agency</a>, which I talked about before. Once you navigate this I find:</p>
+
+<ul>
+  <li>22 Federal Agency Data.json Publish (I also see SEC published, what they did is another story)</li>
+  <li>5,558 Public Datasets Published (6,479 actual distributions)</li>
+</ul>
+
+<p>This is just my initial pull, and resulting count. I have only begun hand evaluating what is published, what is not. This is good though right? 22 federal agencies successfully publishing a data.json file for a combined 5,558 datasets available! I know how hard this was to make happen, and I commend everyone for their hard work. I’m a big fan of acknowledging the hard work that goes into this, but then also big fan of pushing back to make sure we keep working. So let’s break M-13-13 down, and see if we are really on track. What did I see during my initial pulling of these 22 data.json files?</p>
+
+<p><strong>Validate Your Data.json Files</strong><br />
+My number of piece of advice to give to agencies is make sure you validate your data.json files. <a href="http://jsonlint.com/">JSONLint</a> is a free tool, head over there, paste in the contents of your data.json file. Do this after EVERY change. If your data.json doesn’t validate, it will just be a headache for consumers. Before you validate, also work hard to clean up your descriptions, abstracts and other fields. Make sure you do away with unnecessary quotes, slashes and other garbage that is just unnecessary.</p>
+
+<p><strong>Size of Data.json Files</strong><br />
+Some of the files are pretty big (wink wink EPA, DOT). I’m not sure what the solution is for this, but the bigger the file, the more compute it takes to process. We all need to discuss the solution for this, because it is only going to get worse, and will pretty quickly become unsustainable.</p>
+
+<p><strong>Use of Data.json Fields</strong><br />
+Overall agencies make good use of the common core meta data fields as recommended in the <a href="https://project-open-data.github.io/schema/">open data implementation guide for M-13-13</a>. Agencies provided a wealth of descriptions, tags and even provided relevant contact info and other important meta data for listings. I’m analyzing all the fields used an will be providing a deeper analysis of how well they tagged, are there duplicate descriptions. in the near future.</p>
+
+<p><strong>Use of Distribution Field</strong><br />
+There is one critical field in each data.json listing called distribution, which can be a listing of multiple file types for a single data set. For example the dataset might be a list of government acronyms, and you might have a CSV version, as well as Spreadsheet, XML and / or JSON versions. There are 5,858 datasets I’ve recorded so far, and there are 6,479 distributions for those datasets. However, only 3,766 of the 5,858 datasets use the distribution field, relying on the Download URL or Access URL as the reference to where the dataset is located—this is a problem.</p>
+
+<p><strong>Format Types of Distribution Files</strong><br />
+One of the benefits of an agency using the distribution field, is that each entry has a format field, allowing me to understand the format of each dataset, such as HTML, XML, JSON, CSV or other. While this value should be a valid <a href="https://en.wikipedia.org/wiki/Internet_media_type">internet media typ</a>e–they all pretty random entries. So the best I can extrapolate right now is 2,550 are html, 2,479 are xml, 13 are json 177 are csv, 285 are xls and the rest are some other format—including PDF which, well, which is a problem. Another big problem is almost half are html references, which if it meant structured HTML would be one thing, but mostly means it is a web page with some sort of form you can extract data yourself (not in line with M-13-13 vision). So 2,954 are truly machine readable (the whole point of the exercise), and 2,904 are not really or can’t be identified as so. Ok, so around 50% of the datasets are machine readable (maybe, hopefully), which will have to be tested with another round of scripts and lot of work.</p>
+
+<p><strong>Tracking Progress</strong><br />
+How do we track progress on what is going on with federal agency’s data.gov files, from here forward? The best I can come up with for right now is to store a copy of data.json files each time I pull. You can find these archives on my <a href="https://github.com/kinlane/federal-government/tree/gh-pages/data/json-archive">federal government research Github repository</a>. I will also be pulling a copy of the 6,479 dataset distributions and storing on Amazon S3, depending on what it costs me to pull, transfer and store. Then I will work on some diff, and month to month analytics based upon agency’s work.</p>
+
+<p><strong>Overall Quality Of Datasets</strong><br />
+I give the overall data.json effort of agencies a C grade. It very much has that, “we got our homework in on time” feel to it. The leading agencies did what they were supposed to, but ultimately didn’t put a whole of of care into the quality of work. The 5000+ datasets reflect what I was saying in my advice for the federal government that came out today on Govfresh, we have a lot of house cleaning to do.</p>
+
+<p>So how should OMB, OSTP and GSA respond to this C level effort by federal agencies? They should:</p>
+
+<ul>
+  <li>Help the agencies who DID publish, refine what they published. Bring in outside help if necessary, clean up data, listings and demonstrate to agencies what was done, and how they can continue doing better in the future.</li>
+  <li>Help the agencies who DID NOT publish, by going through their websites, finding high value, already published datasets and convert them to JSON and generate a data.json file for them to publish on their websites.</li>
+</ul>
+
+<p>This would help agencies who are already on board understand more about what is needed from the consumer side of things, and why quality in their data..json listings and datasets is so very, very important. It would also help agencies who aren’t on board get their data inventory process kickstarted. It should all be able to be done in Q1 2014, then by Q2 we can get rolling with next steps with Data.gov.</p>
+
+<p>As I said earlier, I’m not naive about the amount of work that went into the 22 agencies getting these 5,000+ datasets published, but we can’t stop there. If you want to see meaningful data journalism, data visualizations, web and mobile apps incorporate this hard work into their own efforts, we have to clean things up. Remember Washington, you can’t do it alone. You have to figure out a way to open these up and allow the public to help clean, organize and add value to the data you have published in addition to your own efforts.</p>
+
+<p>It is a healthy start, but we have so much more work.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Data&searchFields=tags" class="post-tag me-2">#Data</a>
+        
+          <a href="/search/?search=Agencies&searchFields=tags" class="post-tag me-2">#Agencies</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>January 13, 2014</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Organizing EC2 API Actions As A Postman Collection - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2019/11/18/organizing-ec2-api-actions-as-a-postman-collection/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Organizing EC2 API Actions As A Postman Collection - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_ec2_documentation.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Organizing EC2 API Actions As A Postman Collection</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>November 18, 2019</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_ec2_documentation.png" alt="Organizing EC2 API Actions As A Postman Collection" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I’m crafting Postman collections in support of the upcoming re:Invent conference in Vegas in December. One of the first collections I crafted was for Amazon EC2, allowing anyone put the Postman collection to work managing their AWS EC2 infrastructure. At first glance of the 359 actions available via the AWS EC2 API documentation page, I was overwhelmed. I definitely needed a way to tame the AWS EC2 API, making it more accessible and usable by a human—while APIs are meant for system to system integration, and delivering desktop, web, mobile, and device applications, it still has to be implemented by a human. </p>
+
+<p>When crafting the AWS EC2 Postman collection I wanted to take some time to better organize the wealth of actions you can take, making them more accessible via a single Postman collection, organized by resource. <a href="https://www.postman.com/collections/e6e8465143cba95cf28b">You can access the collection here</a>, and the Postman generated API documentation for the AWS EC2 API by clicking on the image below.</p>
+
+<p><a href="https://documenter.postman.com/view/35240/SW7XZpAm?version=latest"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_ec2_documentation.png" alt="" /></a></p>
+
+<p>The Postman collection helps organize the 350+ actions into folders by resource—making them a little easier on the eyes, and to navigate, while also making every AWS EC2 action immediately executable once you publish your keys and secrets to the Postman environment that accompanies the collection. By organizing all of the individual resources into more coherent groups, it increases the chance that the resource you need will be found, and put too use.</p>
+
+<h3 id="account-attributes">Account Attributes</h3>
+
+<ul>
+  <li>Describe Account Attributes (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="address-to-classic"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#address-to-classic">Address To Classic</a></h3>
+
+<ul>
+  <li>Restore Address To Classic (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="address-to-vpc"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#address-to-vpc">Address To VPC</a></h3>
+
+<ul>
+  <li>Move Address To VPC (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="addresses"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#addresses">Addresses</a></h3>
+
+<ul>
+  <li>Allocate Address (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Associate Address (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Describe Addresses (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Disassociate Address (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Release Address (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="aggregate-id-format"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#aggregate-id-format">Aggregate ID Format</a></h3>
+
+<ul>
+  <li>Describe Aggregate ID Format (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="availability-zones"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#availability-zones">Availability Zones</a></h3>
+
+<ul>
+  <li>Describe Availability Zones (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="byoip-cidr"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#byoip-cidr">BYOIP CIDR</a></h3>
+
+<ul>
+  <li>Advertise BYOIP CIDR (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Deprovision BYOIP CIDR (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Provision BYOIP CIDR (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Withdraw BYOIP CIDR (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="bundle-task"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#bundle-task">Bundle Task</a></h3>
+
+<ul>
+  <li>Cancel Bundle Task (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="capacity-reservation"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#capacity-reservation">Capacity Reservation</a></h3>
+
+<ul>
+  <li>Cancel Capacity Reservation (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create Capacity Reservation (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Capacity Reservation (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="capacity-reservation-usage"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#capacity-reservation-usage">Capacity Reservation Usage</a></h3>
+
+<ul>
+  <li>Get Capacity Reservation Usage (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="classic-link-instances"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#classic-link-instances">Classic Link Instances</a></h3>
+
+<ul>
+  <li>Describe Classic Link Instances (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="classic-link-vpc"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#classic-link-vpc">Classic Link VPC</a></h3>
+
+<ul>
+  <li>Attach Classic Link VPC (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Detach Classic Link VPC (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="client-vpn-authorization-rules"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#client-vpn-authorization-rules">Client VPN Authorization Rules</a></h3>
+
+<ul>
+  <li>Describe Client VPN Authorization Rules (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="client-vpn-client-certificate-revocation-list"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#client-vpn-client-certificate-revocation-list">Client VPN Client Certificate Revocation List</a></h3>
+
+<ul>
+  <li>Export Client VPN Client Certificate Revocation List (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Import Client VPN Client Certificate Revocation List (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="client-vpn-client-configuration"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#client-vpn-client-configuration">Client VPN Client Configuration</a></h3>
+
+<ul>
+  <li>Export Client VPN Client Configuration (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="client-vpn-connections"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#client-vpn-connections">Client VPN Connections</a></h3>
+
+<ul>
+  <li>Describe Client VPN Connections (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Terminate Client VPN Connections (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="client-vpn-endpoint"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#client-vpn-endpoint">Client VPN Endpoint</a></h3>
+
+<ul>
+  <li>Create Client VPN Endpoint (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Client VPN Endpoint (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Client VPN Endpoint (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="client-vpn-ingress"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#client-vpn-ingress">Client VPN Ingress</a></h3>
+
+<ul>
+  <li>Authorize Client VPN Ingress (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Revoke Client VPN Ingress (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="client-vpn-route"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#client-vpn-route">Client VPN Route</a></h3>
+
+<ul>
+  <li>Create Client VPN Route (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Client VPN Route (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="client-vpn-target-network"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#client-vpn-target-network">Client VPN Target Network</a></h3>
+
+<ul>
+  <li>Associate Client VPN Target Network (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Disassociate Client VPN Target Network (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="console-output"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#console-output">Console Output</a></h3>
+
+<ul>
+  <li>Get Console Output (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="console-screenshot"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#console-screenshot">Console Screenshot</a></h3>
+
+<ul>
+  <li>Get Console Screenshot (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="conversion-task"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#conversion-task">Conversion Task</a></h3>
+
+<ul>
+  <li>Cancel Conversion Task (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="customer-gateway"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#customer-gateway">Customer Gateway</a></h3>
+
+<ul>
+  <li>Create Customer Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Customer Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="dhcp-options"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#dhcp-options">DHCP Options</a></h3>
+
+<ul>
+  <li>Associate DHCP Options (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create DHCP Options (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete DHCP Options (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Describe DHCP Options (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="diagnostic-interrupt"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#diagnostic-interrupt">Diagnostic Interrupt</a></h3>
+
+<ul>
+  <li>Send Diagnostic Interrupt (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="ebs-encryption-by-default"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#ebs-encryption-by-default">EBS Encryption By Default</a></h3>
+
+<ul>
+  <li>Disable EBS Encryption By Default (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Enable EBS Encryption By Default (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Get EBS Encryption By Default (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="ebs-kms-key-id"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#ebs-kms-key-id">EBS Kms Key ID</a></h3>
+
+<ul>
+  <li>Get EBS Default Kms Key ID (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify EBS Default Kms Key ID (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Reset EBS Default Kms Key ID (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="egress-only-internet-gateway"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#egress-only-internet-gateway">Egress Only Internet Gateway</a></h3>
+
+<ul>
+  <li>Create Egress Only Internet Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Egress Only Internet Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="elastic-gpus"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#elastic-gpus">Elastic GPUs</a></h3>
+
+<ul>
+  <li>Describe Elastic GPUs (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="export-image-tasks"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#export-image-tasks">Export Image Tasks</a></h3>
+
+<ul>
+  <li>Describe Export Image Tasks (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="export-task"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#export-task">Export Task</a></h3>
+
+<ul>
+  <li>Cancel Export Task (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="fpga-image"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#fpga-image">FPGA Image</a></h3>
+
+<ul>
+  <li>Copy FPGA Image (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create FPGA Image (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete FPGA Image (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="fpga-image-attribute"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#fpga-image-attribute">FPGA Image Attribute</a></h3>
+
+<ul>
+  <li>Describe FPGA Image Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify FPGA Image Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Reset FPGA Image Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="fleet"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#fleet">Fleet</a></h3>
+
+<ul>
+  <li>Create Fleet (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Fleet (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="fleet-history"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#fleet-history">Fleet History</a></h3>
+
+<ul>
+  <li>Describe Fleet History (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="fleet-instances"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#fleet-instances">Fleet Instances</a></h3>
+
+<ul>
+  <li>Describe Fleet Instances (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="flow-logs"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#flow-logs">Flow Logs</a></h3>
+
+<ul>
+  <li>Create Flow Logs (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Flow Logs (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Describe Flow Logs (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="host-reservation"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#host-reservation">Host Reservation</a></h3>
+
+<ul>
+  <li>Purchase Host Reservation (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="host-reservation-offerings"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#host-reservation-offerings">Host Reservation Offerings</a></h3>
+
+<ul>
+  <li>Describe Host Reservation Offerings (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="host-reservation-purchase-preview"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#host-reservation-purchase-preview">Host Reservation Purchase Preview</a></h3>
+
+<ul>
+  <li>Get Host Reservation Purchase Preview (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="host-reservations"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#host-reservations">Host Reservations</a></h3>
+
+<ul>
+  <li>Describe Host Reservations (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="hosts"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#hosts">Hosts</a></h3>
+
+<ul>
+  <li>Allocate Hosts (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Describe Hosts (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Hosts (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Release Hosts (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="iam-instance-profile"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#iam-instance-profile">IAM Instance Profile</a></h3>
+
+<ul>
+  <li>Associate IAM Instance Profile (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Disassociate IAM Instance Profile (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="iam-instance-profile-association"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#iam-instance-profile-association">IAM Instance Profile Association</a></h3>
+
+<ul>
+  <li>Replace IAM Instance Profile Association (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="iam-instance-profile-associations"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#iam-instance-profile-associations">IAM Instance Profile Associations</a></h3>
+
+<ul>
+  <li>Describe IAM Instance Profile Associations (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="id-format"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#id-format">ID Format</a></h3>
+
+<ul>
+  <li>Describe ID Format (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify ID Format (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="identity-id-format"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#identity-id-format">IDentity ID Format</a></h3>
+
+<ul>
+  <li>Describe IDentity ID Format (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify IDentity ID Format (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="ipv6-addresses"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#ipv6-addresses">IPV6 Addresses</a></h3>
+
+<ul>
+  <li>Assign IPV6 Addresses (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Unassign IPV6 Addresses (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="image"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#image">Image</a></h3>
+
+<ul>
+  <li>Copy Image (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create Image (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Deregister Image (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Export Image (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Import Image (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Register Image (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="image-attribute"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#image-attribute">Image Attribute</a></h3>
+
+<ul>
+  <li>Describe Image Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Image Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Reset Image Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="import-image-tasks"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#import-image-tasks">Import Image Tasks</a></h3>
+
+<ul>
+  <li>Describe Import Image Tasks (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="import-snapshot-tasks"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#import-snapshot-tasks">Import Snapshot Tasks</a></h3>
+
+<ul>
+  <li>Describe Import Snapshot Tasks (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="import-task"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#import-task">Import Task</a></h3>
+
+<ul>
+  <li>Cancel Import Task (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="instance"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#instance">Instance</a></h3>
+
+<ul>
+  <li>Bundle Instance (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Import Instance (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="instance-attribute"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#instance-attribute">Instance Attribute</a></h3>
+
+<ul>
+  <li>Describe Instance Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Instance Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Reset Instance Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="instance-capacity-reservation-attributes"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#instance-capacity-reservation-attributes">Instance Capacity Reservation Attributes</a></h3>
+
+<ul>
+  <li>Modify Instance Capacity Reservation Attributes (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="instance-credit-specification"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#instance-credit-specification">Instance Credit Specification</a></h3>
+
+<ul>
+  <li>Modify Instance Credit Specification (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="instance-credit-specifications"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#instance-credit-specifications">Instance Credit Specifications</a></h3>
+
+<ul>
+  <li>Describe Instance Credit Specifications (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="instance-event-start-time"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#instance-event-start-time">Instance Event Start Time</a></h3>
+
+<ul>
+  <li>Modify Instance Event Start Time (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="instance-export-task"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#instance-export-task">Instance Export Task</a></h3>
+
+<ul>
+  <li>Create Instance Export Task (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="instance-placement"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#instance-placement">Instance Placement</a></h3>
+
+<ul>
+  <li>Modify Instance Placement (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="instance-status"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#instance-status">Instance Status</a></h3>
+
+<ul>
+  <li>Describe Instance Status (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Report Instance Status (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="internet-gateway"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#internet-gateway">Internet Gateway</a></h3>
+
+<ul>
+  <li>Attach Internet Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create Internet Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Internet Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Detach Internet Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="key-pair"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#key-pair">Key Pair</a></h3>
+
+<ul>
+  <li>Create Key Pair (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Key Pair (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Import Key Pair (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="launch-template"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#launch-template">Launch Template</a></h3>
+
+<ul>
+  <li>Create Launch Template (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Launch Template (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Launch Template (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="launch-template-data"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#launch-template-data">Launch Template Data</a></h3>
+
+<ul>
+  <li>Get Launch Template Data (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="launch-template-version"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#launch-template-version">Launch Template Version</a></h3>
+
+<ul>
+  <li>Create Launch Template Version (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="moving-addresses"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#moving-addresses">Moving Addresses</a></h3>
+
+<ul>
+  <li>Describe Moving Addresses (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="nat-gateway"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#nat-gateway">Nat Gateway</a></h3>
+
+<ul>
+  <li>Create Nat Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Nat Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="network-acl"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#network-acl">Network ACL</a></h3>
+
+<ul>
+  <li>Create Network ACL (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Network ACL (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="network-acl-association"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#network-acl-association">Network ACL Association</a></h3>
+
+<ul>
+  <li>Replace Network ACL Association (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="network-acl-entry"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#network-acl-entry">Network ACL Entry</a></h3>
+
+<ul>
+  <li>Create Network ACL Entry (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Network ACL Entry (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Replace Network ACL Entry (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="network-interface"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#network-interface">Network Interface</a></h3>
+
+<ul>
+  <li>Attach Network Interface (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create Network Interface (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Network Interface (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Detach Network Interface (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="network-interface-attribute"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#network-interface-attribute">Network Interface Attribute</a></h3>
+
+<ul>
+  <li>Describe Network Interface Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Network Interface Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Reset Network Interface Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="network-interface-permission"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#network-interface-permission">Network Interface Permission</a></h3>
+
+<ul>
+  <li>Create Network Interface Permission (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Network Interface Permission (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="password-data"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#password-data">Password Data</a></h3>
+
+<ul>
+  <li>Get Password Data (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="placement-group"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#placement-group">Placement Group</a></h3>
+
+<ul>
+  <li>Create Placement Group (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Placement Group (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="prefix-lists"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#prefix-lists">Prefix Lists</a></h3>
+
+<ul>
+  <li>Describe Prefix Lists (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="principal-id-format"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#principal-id-format">Principal ID Format</a></h3>
+
+<ul>
+  <li>Describe Principal ID Format (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="private-ip-addresses"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#private-ip-addresses">Private IP Addresses</a></h3>
+
+<ul>
+  <li>Assign Private IP Addresses (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Unassign Private IP Addresses (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="product-instance"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#product-instance">Product Instance</a></h3>
+
+<ul>
+  <li>Confirm Product Instance (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="public-ipv4-pools"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#public-ipv4-pools">Public IPV4 Pools</a></h3>
+
+<ul>
+  <li>Describe Public IPV4 Pools (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="queued-reserved-instances"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#queued-reserved-instances">Queued Reserved Instances</a></h3>
+
+<ul>
+  <li>Delete Queued Reserved Instances (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="regions"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#regions">Regions</a></h3>
+
+<ul>
+  <li>Describe Regions (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="reserved-instances"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#reserved-instances">Reserved Instances</a></h3>
+
+<ul>
+  <li>Describe Reserved Instances (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Reserved Instances (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="reserved-instances-exchange-quote"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#reserved-instances-exchange-quote">Reserved Instances Exchange Quote</a></h3>
+
+<ul>
+  <li>Accept Reserved Instances Exchange Quote (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Get Reserved Instances Exchange Quote (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="reserved-instances-listing"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#reserved-instances-listing">Reserved Instances Listing</a></h3>
+
+<ul>
+  <li>Cancel Reserved Instances Listing (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create Reserved Instances Listing (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="reserved-instances-modifications"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#reserved-instances-modifications">Reserved Instances Modifications</a></h3>
+
+<ul>
+  <li>Describe Reserved Instances Modifications (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="reserved-instances-offering"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#reserved-instances-offering">Reserved Instances Offering</a></h3>
+
+<ul>
+  <li>Purchase Reserved Instances Offering (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="reserved-instances-offerings"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#reserved-instances-offerings">Reserved Instances Offerings</a></h3>
+
+<ul>
+  <li>Describe Reserved Instances Offerings (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="route"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#route">Route</a></h3>
+
+<ul>
+  <li>Create Route (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Route (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Replace Route (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="route-table"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#route-table">Route Table</a></h3>
+
+<ul>
+  <li>Associate Route Table (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create Route Table (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Route Table (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Disassociate Route Table (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="route-table-association"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#route-table-association">Route Table Association</a></h3>
+
+<ul>
+  <li>Replace Route Table Association (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="scheduled-instance-availability"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#scheduled-instance-availability">Scheduled Instance Availability</a></h3>
+
+<ul>
+  <li>Describe Scheduled Instance Availability (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="scheduled-instances"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#scheduled-instances">Scheduled Instances</a></h3>
+
+<ul>
+  <li>Describe Scheduled Instances (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Purchase Scheduled Instances (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Run Scheduled Instances (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="security-group"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#security-group">Security Group</a></h3>
+
+<ul>
+  <li>Create Security Group (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Security Group (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="security-group-egress"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#security-group-egress">Security Group Egress</a></h3>
+
+<ul>
+  <li>Authorize Security Group Egress (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Revoke Security Group Egress (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="security-group-ingress"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#security-group-ingress">Security Group Ingress</a></h3>
+
+<ul>
+  <li>Authorize Security Group Ingress (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Revoke Security Group Ingress (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="security-group-references"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#security-group-references">Security Group References</a></h3>
+
+<ul>
+  <li>Describe Security Group References (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="security-group-rule-descriptions-egress"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#security-group-rule-descriptions-egress">Security Group Rule Descriptions Egress</a></h3>
+
+<ul>
+  <li>Update Security Group Rule Descriptions Egress (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="security-group-rule-descriptions-ingress"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#security-group-rule-descriptions-ingress">Security Group Rule Descriptions Ingress</a></h3>
+
+<ul>
+  <li>Update Security Group Rule Descriptions Ingress (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="security-groups-to-client-vpn-target-network"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#security-groups-to-client-vpn-target-network">Security Groups To Client VPN Target Network</a></h3>
+
+<ul>
+  <li>Apply Security Groups To Client VPN Target Network (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="snapshot"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#snapshot">Snapshot</a></h3>
+
+<ul>
+  <li>Copy Snapshot (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create Snapshot (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Snapshot (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Import Snapshot (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="snapshot-attribute"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#snapshot-attribute">Snapshot Attribute</a></h3>
+
+<ul>
+  <li>Describe Snapshot Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Snapshot Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Reset Snapshot Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="spot-datafeed-subscription"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#spot-datafeed-subscription">Spot Datafeed Subscription</a></h3>
+
+<ul>
+  <li>Create Spot Datafeed Subscription (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Spot Datafeed Subscription (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Describe Spot Datafeed Subscription (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="spot-fleet"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#spot-fleet">Spot Fleet</a></h3>
+
+<ul>
+  <li>Request Spot Fleet (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="spot-fleet-instances"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#spot-fleet-instances">Spot Fleet Instances</a></h3>
+
+<ul>
+  <li>Describe Spot Fleet Instances (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="spot-fleet-request"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#spot-fleet-request">Spot Fleet Request</a></h3>
+
+<ul>
+  <li>Modify Spot Fleet Request (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="spot-fleet-request-history"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#spot-fleet-request-history">Spot Fleet Request History</a></h3>
+
+<ul>
+  <li>Describe Spot Fleet Request History (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="spot-fleet-requests"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#spot-fleet-requests">Spot Fleet Requests</a></h3>
+
+<ul>
+  <li>Cancel Spot Fleet Requests (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Describe Spot Fleet Requests (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="spot-instance-requests"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#spot-instance-requests">Spot Instance Requests</a></h3>
+
+<ul>
+  <li>Cancel Spot Instance Requests (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Describe Spot Instance Requests (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="spot-instances"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#spot-instances">Spot Instances</a></h3>
+
+<ul>
+  <li>Request Spot Instances (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="spot-price-history"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#spot-price-history">Spot Price History</a></h3>
+
+<ul>
+  <li>Describe Spot Price History (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="stale-security-groups"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#stale-security-groups">Stale Security Groups</a></h3>
+
+<ul>
+  <li>Describe Stale Security Groups (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="subnet"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#subnet">Subnet</a></h3>
+
+<ul>
+  <li>Create Default Subnet (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create Subnet (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Subnet (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="subnet-attribute"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#subnet-attribute">Subnet Attribute</a></h3>
+
+<ul>
+  <li>Modify Subnet Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="subnet-cidr-block"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#subnet-cidr-block">Subnet CIDR Block</a></h3>
+
+<ul>
+  <li>Associate Subnet CIDR Block (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Disassociate Subnet CIDR Block (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="tags"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#tags">Tags</a></h3>
+
+<ul>
+  <li>Create Tags (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Tags (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Describe Tags (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="traffic-mirror-filter"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#traffic-mirror-filter">Traffic Mirror Filter</a></h3>
+
+<ul>
+  <li>Create Traffic Mirror Filter (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Traffic Mirror Filter (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="traffic-mirror-filter-network-services"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#traffic-mirror-filter-network-services">Traffic Mirror Filter Network Services</a></h3>
+
+<ul>
+  <li>Modify Traffic Mirror Filter Network Services (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="traffic-mirror-filter-rule"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#traffic-mirror-filter-rule">Traffic Mirror Filter Rule</a></h3>
+
+<ul>
+  <li>Create Traffic Mirror Filter Rule (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Traffic Mirror Filter Rule (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Traffic Mirror Filter Rule (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="traffic-mirror-session"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#traffic-mirror-session">Traffic Mirror Session</a></h3>
+
+<ul>
+  <li>Create Traffic Mirror Session (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Traffic Mirror Session (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Traffic Mirror Session (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="traffic-mirror-target"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#traffic-mirror-target">Traffic Mirror Target</a></h3>
+
+<ul>
+  <li>Create Traffic Mirror Target (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Traffic Mirror Target (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="transit-gateway"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#transit-gateway">Transit Gateway</a></h3>
+
+<ul>
+  <li>Create Transit Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Transit Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="transit-gateway-attachment-propagations"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#transit-gateway-attachment-propagations">Transit Gateway Attachment Propagations</a></h3>
+
+<ul>
+  <li>Get Transit Gateway Attachment Propagations (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="transit-gateway-attachments"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#transit-gateway-attachments">Transit Gateway Attachments</a></h3>
+
+<ul>
+  <li>Describe Transit Gateway Attachments (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="transit-gateway-route"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#transit-gateway-route">Transit Gateway Route</a></h3>
+
+<ul>
+  <li>Create Transit Gateway Route (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Transit Gateway Route (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Replace Transit Gateway Route (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="transit-gateway-route-table"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#transit-gateway-route-table">Transit Gateway Route Table</a></h3>
+
+<ul>
+  <li>Associate Transit Gateway Route Table (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create Transit Gateway Route Table (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Transit Gateway Route Table (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Disassociate Transit Gateway Route Table (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="transit-gateway-route-table-associations"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#transit-gateway-route-table-associations">Transit Gateway Route Table Associations</a></h3>
+
+<ul>
+  <li>Get Transit Gateway Route Table Associations (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="transit-gateway-route-table-propagation"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#transit-gateway-route-table-propagation">Transit Gateway Route Table Propagation</a></h3>
+
+<ul>
+  <li>Disable Transit Gateway Route Table Propagation (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Enable Transit Gateway Route Table Propagation (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="transit-gateway-vpc-attachment"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#transit-gateway-vpc-attachment">Transit Gateway VPC Attachment</a></h3>
+
+<ul>
+  <li>Accept Transit Gateway VPC Attachment (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create Transit Gateway VPC Attachment (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Transit Gateway VPC Attachment (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Transit Gateway VPC Attachment (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Reject Transit Gateway VPC Attachment (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc">VPC</a></h3>
+
+<ul>
+  <li>Create Default VPC (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create VPC (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete VPC (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc-attribute"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc-attribute">VPC Attribute</a></h3>
+
+<ul>
+  <li>Describe VPC Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify VPC Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc-cidr-block"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc-cidr-block">VPC CIDR Block</a></h3>
+
+<ul>
+  <li>Associate VPC CIDR Block (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Disassociate VPC CIDR Block (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc-classic-link"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc-classic-link">VPC Classic Link</a></h3>
+
+<ul>
+  <li>Describe VPC Classic Link (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Disable VPC Classic Link (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Enable VPC Classic Link (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc-classic-link-dns-support"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc-classic-link-dns-support">VPC Classic Link Dns Support</a></h3>
+
+<ul>
+  <li>Describe VPC Classic Link Dns Support (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Disable VPC Classic Link Dns Support (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Enable VPC Classic Link Dns Support (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc-endpoint"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc-endpoint">VPC Endpoint</a></h3>
+
+<ul>
+  <li>Create VPC Endpoint (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify VPC Endpoint (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc-endpoint-connection-notification"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc-endpoint-connection-notification">VPC Endpoint Connection Notification</a></h3>
+
+<ul>
+  <li>Create VPC Endpoint Connection Notification (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify VPC Endpoint Connection Notification (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc-endpoint-connections"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc-endpoint-connections">VPC Endpoint Connections</a></h3>
+
+<ul>
+  <li>Accept VPC Endpoint Connections (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Describe VPC Endpoint Connections (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Reject VPC Endpoint Connections (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc-endpoint-service-configuration"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc-endpoint-service-configuration">VPC Endpoint Service Configuration</a></h3>
+
+<ul>
+  <li>Create VPC Endpoint Service Configuration (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify VPC Endpoint Service Configuration (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc-endpoint-service-permissions"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc-endpoint-service-permissions">VPC Endpoint Service Permissions</a></h3>
+
+<ul>
+  <li>Describe VPC Endpoint Service Permissions (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify VPC Endpoint Service Permissions (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc-endpoint-services"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc-endpoint-services">VPC Endpoint Services</a></h3>
+
+<ul>
+  <li>Describe VPC Endpoint Services (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc-peering-connection"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc-peering-connection">VPC Peering Connection</a></h3>
+
+<ul>
+  <li>Accept VPC Peering Connection (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create VPC Peering Connection (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete VPC Peering Connection (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Reject VPC Peering Connection (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc-peering-connection-options"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc-peering-connection-options">VPC Peering Connection Options</a></h3>
+
+<ul>
+  <li>Modify VPC Peering Connection Options (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpc-tenancy"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpc-tenancy">VPC Tenancy</a></h3>
+
+<ul>
+  <li>Modify VPC Tenancy (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpn-connection"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpn-connection">VPN Connection</a></h3>
+
+<ul>
+  <li>Create VPN Connection (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete VPN Connection (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify VPN Connection (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpn-connection-route"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpn-connection-route">VPN Connection Route</a></h3>
+
+<ul>
+  <li>Create VPN Connection Route (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete VPN Connection Route (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpn-gateway"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpn-gateway">VPN Gateway</a></h3>
+
+<ul>
+  <li>Attach VPN Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create VPN Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete VPN Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Detach VPN Gateway (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpn-tunnel-certificate"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpn-tunnel-certificate">VPN Tunnel Certificate</a></h3>
+
+<ul>
+  <li>Modify VPN Tunnel Certificate (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vpn-tunnel-options"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vpn-tunnel-options">VPN Tunnel Options</a></h3>
+
+<ul>
+  <li>Modify VPN Tunnel Options (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="vgw-route-propagation"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#vgw-route-propagation">Vgw Route Propagation</a></h3>
+
+<ul>
+  <li>Disable Vgw Route Propagation (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Enable Vgw Route Propagation (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="volume"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#volume">Volume</a></h3>
+
+<ul>
+  <li>Attach Volume (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Create Volume (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Delete Volume (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Detach Volume (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Import Volume (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Volume (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="volume-attribute"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#volume-attribute">Volume Attribute</a></h3>
+
+<ul>
+  <li>Describe Volume Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+  <li>Modify Volume Attribute (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="volume-io"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#volume-io">Volume IO</a></h3>
+
+<ul>
+  <li>Enable Volume IO (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="volume-status"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#volume-status">Volume Status</a></h3>
+
+<ul>
+  <li>Describe Volume Status (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<h3 id="volumes-modifications"><a href="https://github.com/api-evangelist/aws/blob/master/ec2/README.md#volumes-modifications">Volumes Modifications</a></h3>
+
+<ul>
+  <li>Describe Volumes Modifications (<a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html">Docs</a>)</li>
+</ul>
+
+<p>I am working my way through the full list of AWS services—we will see how many I can get done by the time re:Invent happens. I’m looking to get a full stack of reference collections available for the most popular of the AWS services, but then also work to deliver some more meaningful capability and workflow collections that speak to specific busine</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Capabilities&searchFields=tags" class="post-tag me-2">#Capabilities</a>
+        
+          <a href="/search/?search=AWS&searchFields=tags" class="post-tag me-2">#AWS</a>
+        
+          <a href="/search/?search=Collections&searchFields=tags" class="post-tag me-2">#Collections</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>November 18, 2019</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

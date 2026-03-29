@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Crafting A Productive API Industry Partner Program - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2018/04/09/creating-a-productive-api-industry-partner-program/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Crafting A Productive API Industry Partner Program - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-red-seal.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Crafting A Productive API Industry Partner Program</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>April  9, 2018</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span>Kin Lane</span>
+      </div>
+
+      
+      <img src="https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-red-seal.png" alt="Crafting A Productive API Industry Partner Program" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p></p>
+<p>I struggle with partner relationships. I’ve had a lot of partners operating API Evangelist over the years. Some good. Some not so good. And some amazing! You know who you are. It’s tough to fund what I do as the API Evangelist. It’s even harder to fund who I am as Kin Lane. I’ve revamped my approach to partnering several times now trying to find the right formula for me, my partners, and for my readers. As the partner requests pile up, and I fall short for some of my existing partners, while delivering as expected for others, it is time for me to take another crack at shaping my partner program.</p>
+
+<p><strong>A Strong Streamdata.io Partnership Base</strong><br />
+A cornerstone of my new approach to partnering is based upon my relationship with Streamdata.io. They are my primary partner, and supporter of API Evangelist. They have not just helped provide me with the financial base I need to live and operate API Evangelist, they are investing in, and helping grow my existing API lifecycle and <a href="http://theapistack.com">API Stack</a> work. We are also working in concert to formalize my API lifecycle work into a growing consultancy, and pushing forward my API Stack research, syndicating it as the Streamdata.io API Gallery, and refining the my ranking system for both API providers, and API service providers. Without Streamdata.io this latest round of API Evangelist wouldn’t be happening.</p>
+
+<p><strong>Difficulties With The Current Mode Of Partnering</strong><br />
+One of the biggest challenges I have right now with partnering is that my partners want me to produce content about them. Writing stories for pay just isn’t a good idea for their brand, or for mine. I know it is what people want, but it just doesn’t work. The other challenge I have is people tend to want predictable stories on a schedule. I know it seems like I’m a regular machine, churning out content, but honestly when it flows, it all works. When it doesn’t flow, it doesn’t work. I schedule things out ahead enough that the bumps are smoothed out. I love writing. The anxiety I get from writing on a deadline, or for expected topics isn’t conducive to producing good content, and storytelling. This applies to both my short form (blog posts), and my long form (white papers). I’ll still be producing both of these things, but I can’t do it for money any longer.</p>
+
+<p><strong>Diffciulties With Incentivizing Partner Behavior</strong><br />
+I have no shortage of people who’d like to partner and get exposure from what I do, but incentivizing what I’d like to see from these partners is difficult. I’m not just looking for money from them, I’m looking to incentivize companies to build interesting products and services, tell stories that are valuable to the community, and engage with the API space in a meaningful way. I want to leverage my partners to behave as good citizens, give back to the space, and yes, get new users and generate revenue from their activity. I’ve seen too many partnerships exclusively be about the money involved, or just be about the press release, with no meaningful substance actually achieved in between. This type of hollow, meaningless, partnership masturbation does no good for anyone, and honestly is a waste of my time. I don’t expect ALL partnerships to bear fruit, but there should be a high bar for defining what partnership means, and we should be working to making it truly matter for everyone involved.</p>
+
+<p><strong>There Are Three Dimensions To Creating Partner Value</strong><br />
+As I see it, there are three main dimensions to establishing a productive API industry partnership program. There is partner A, and partner B, but then there is potential customer. If a partnership isn’t benefiting all three of these actors equally, then it just won’t work. I understand that as a company you are looking to maximize the value generation and extraction for your business, but there is enough to go around, and one of the core tenets of partnerships is that this value is shared, with the customer and community in mind. Not all companies get this. It is my role to make sure they are reminded of it, and push for balanced partnerships that are healthy, active, fruitful, but also benefit the community. We will all benefit from this, despite many shortsighted, self-centered approaches to doing business in API-land that I’ve encountered over my eight years operating as the API Evangelist. To help me balance my API partnership program, I’m going to be applying mechanism I’ve used for years to help me define and understand who my true partners are, and whoever rises to the top will see the most benefits from the program.</p>
+
+<p><strong>Tuning Into API Service Provider Partner Signals</strong><br />
+When it comes to quantifying my partners, who they are, and what they do, I’m looking at a handful of signals to make sure they are contributing not just to the partnership, but to the wider community. I’m looking to incentivize API service providers to deliver as much value to the community than they are extracting as part of the partnership. Here is what I’m looking for to help quantify the participation of any partner on the table:</p>
+
+<ul>
+  <li><strong>Blog</strong> - The presence of an active blog with and RSS / Atom feed. Allowing me to tune into what is happening, and help share the interesting things that are happening via their platform and community. If something good is being delivered, and the story isn’t told, it didn’t happen. An active blog is one of the more important signals I can tune into as the API Evangelist – also I need a feed!!!</li>
+  <li><strong>Github</strong> - The presence of an active Github account. Possessing a robust number of repositories for a variety of API ecosystem projects from API definitions to SDKs. I’m tuning into all the Github signals including number of repos, stars, commits, forks, and other chatter to understand the activity and engagement levels occurring within a community. Github is the social network for API providers–make sure you are being active, observable, and engaging.</li>
+  <li><strong>Twitter</strong> - The presence of an active, dedicated Twitter account. Because of it’s public nature, Twitter provides a wealth of signals regarding what is happening via any platform, and provides one of the most important ways in which a service provider can be engaging with their customers, and the wider APIs pace. I understand that not everyone excels at Twitter engagements, but using as an information and update sharing channel, and general support and feedback loop is within the realm of operation for EVERYONE.</li>
+  <li><strong>Search</strong> - I’m always looking for a general, and hopefully wide search engine presence for API service providers. I have alerts setup for all the API service providers I monitor, which surfaces relevant stories, conversations, and information published by each platform. SEO isn’t hard, but takes a regular, concerted effort, and it is easy to understand how much a service provider is investing in their presence, or not.</li>
+  <li><strong>Business Model</strong> - The presence of, or lack of a business model, as well as investment is an important signal I keep an eye on, trying to understand where each API service provider in their evolution. How new a company is, how far along their runway they are, and what the exit and long term strategy for an API service provider is. Keeping an eye on Crunchbase and other investment, pricing plans, and revenue signals coming out of a platform will play a significant role in understand the value an API service is bringing to the table.</li>
+  <li><strong>Integrations</strong> - I’m also tracking on the integrations any service provider offers, ensuring that their API service providers are investing in, and encouraging interpretability with other platforms by default. API service providers that do not play well with others, often do not make good partners, insisting on all roads leading to their platform. I’m always on the hunt for a dedicated integrations and plugin page for any API service provider I’m partnering with.</li>
+  <li><strong>Partnerships</strong> - Beyond integrations I want to see the all the other partnerships one of my partners is engaging with. The relationships they are engaging in tell a lot about how well they will partner with me, and define what signals they are looking to send to the community. Partnerships tell a lot of story about the motivations behind a companies own partner program, and how it will benefit and impact my own partner program.</li>
+  <li><strong>API</strong> - I am always looking for whether or not an API service provider has an API. If a company is selling services, products, and tooling to the API sector, but doesn’t have a public facing API, I’m always skeptical of what they are up to. I get it, it can often not be a priority to operate your own program, but in reality, can anyone trust an API service provider to help deliver on their own program, if they don’t have the same experience operating their own API program? This is one of my biggest pet peeves with API service providers, and a very telling sign about what is happening behind the scenes.</li>
+  <li><strong>API Definitions</strong> - If you have an API as an API service provider then they should have an OpenAPI and Postman Collections available for their API. The presence of API definitions, as well as robust portal, docs, and other API building blocks is essential for any API service provider.</li>
+  <li><strong>Story Ideas</strong> - I’m very interested in the number of story ideas submitted by API service providers, pointing me to interesting stories I should cover, as well as the interesting things that are occurring via their platform. Ideally, these are referenced by public blog posts, Tweets, and other signals sent by the API service provider, but they also count when received via direct message, email, and carrier pigeon (bonus points for pigeon).</li>
+</ul>
+
+<p>There are other signals I’m looking for from my partners, but that is the core of what I’m looking for. I know it sounds like a lot, but it really isn’t. It is the bar that defines a quality API service provider, based upon eight years of tracking on them, and watching them come and go. The API service providers who are delivering in these areas will float up in my automated ranking system, and enjoy more prominence in my storytelling, and across the API Evangelist network.</p>
+
+<p><strong>Tuning Into The API Community Signals</strong><br />
+Beyond the API service providers themselves I’m always tuned into what the community is saying about companies, products, services, and tooling. While there is always a certain level of hype around what is happening in the API sector, you can keep your finger on the pulse of what is going on through a handful of channels. Sure, many of the signals present on these channels can be gamed by the API service providers, but others are much more difficult, and will take a lot of work to game. Which can be a signal on its own. Here is what I’m looking for to understand what the API community is tuning into:</p>
+
+<ul>
+  <li><strong>Blogs</strong> - I’m tuning into what people across the space are writing about on their personal, and company blogs. I’m regularly curating stories that reference tools, services, and the products offered by API service providers. If people are writing about specific companies, I want to know about it.</li>
+  <li><strong>Twitter</strong> - Twitter provides a number of signals to understand what the community thinks about an API service provider, including follows, and retweets. The conversation volume initiated and amplified by the community tells a significant story about what an API service provider is up to.</li>
+  <li><strong>Github</strong> - Github also provides one of the more meaningful platforms for harvesting signals about what API service providers are up to. The stars, forks, and discussion initiated and amplified by the community on the Github repos and organizations of API services providers tell an important story.</li>
+  <li><strong>Search</strong> - Using the Google and Talkwalker alerts setup for each API service provider, I curate the Reddit, Hacker news, and other search indexed conversations occurring about providers, tracking on the overall scope of conversation around each API service provider.</li>
+</ul>
+
+<p>There are other signals I’m developing to understand the general tone of the API community, but these reflect the proven ones I’ve been using for years, and provide a reliable measure of the impact an API service provider is making, or not. One important aspect of this search and social media exhaust is in regards to sentiment, which can be good or bad, depending on the tone the API service provider is setting within the community.</p>
+
+<p><strong>Generating My Own Signals About What Is Happening</strong><br />
+This is the portion of the partner relationship where I’m held accountable. These are the things that I am doing that deliver value to my partners, as well as the overall API community. These items are the signals partners are looking for, but also the things I’m measuring to understand the role an API service provider plays in my storytelling, speaking, consulting, and research. Each of these areas reflect how relative an API service, their products, services, and tooling is to the overall API landscape as it pertains to my work. Here is what I’m tracking on:</p>
+
+<ul>
+  <li><strong>Short Form Storytelling</strong> - Tracking on how much I write about an API service provider in my blog posts on API Evangelist, Streamdata.io, and other places I’m syndicated like DZone. If I’m talking about a company, they are doing interesting an relevant things, and I want to be showcasing their work. I can’t just write about someone because I’m paid, it is because they are relevant to the story I’m telling.</li>
+  <li><strong>Long Form Storytelling</strong> - Understanding how API service providers are referenced in my guides and white papers. Similar to the short form references, I’m only referencing companies when they are doing relevant things to the stories I’m telling. My guides used to be comprehensive when it came to mentioning ALL API service providers, but going forward they will only reference those that float to the top, and rank high in my overall API partner ranking.</li>
+  <li><strong>Story Ideas</strong> - I’m regularly writing down story ideas, and aggregating them into lists. Not everything ever turns into a story, but still the idea demonstrates something that grabbed my attention. I tend to also share story ideas with other content producers, and publications, providing the seeds for interesting stories that I may not have the time to write about myself. Providing rich, and relevant materials for others to work from.</li>
+  <li><strong>My In-Person Talks</strong> - Throughout the talks I give at conferences, Meetups, and in person within companies, organizations, institutions, and government I am referencing tools and service to accomplish a specific API related task–I need the best solutions to reference as part of these talks. I carefully think about which providers I will reference, and I keep track of which ones I reference.</li>
+  <li><strong>API Lifecycle</strong> - My API lifecycle work is build upon my research across the API stack, what I learn from the public API providers I study, as well as what I learn as part of my consulting work. All of this knowledge and research goes back into my API lifecycle and governance strategy, and becomes part of my outreach and strategy which gets implemented on the ground as part of my consulting. Across the 68+ stops along the API there are always API service providers I need to reference, and refer to as part of my work.</li>
+  <li><strong>API Stack</strong> - My API Stack work is all about profiling publicly available APIs out there and understanding the best practices at work when it comes to operating their APIs. When I notice that a service or tool is being put to use I take note of it. I use these references as part of my overall tracking and understanding of what is being put to use across the industry.</li>
+  <li><strong>Website Logos</strong> - There are four logos for partners to sponsor across the network of API Evangelist sites. While I’m not weighting these in my ranking, when someone is present on the site like that they are part of my consciousness. I recognize this, and acknowledge that it does influence my overall view of the API sector.</li>
+  <li><strong>Conversations</strong> - I’m regularly engaging in conversations with my partners, learning about their roadmaps, and staying in tune with what they are working on. These conversations have a significant impact on my view of the space, and help me understand the value that API service providers bring to the table.</li>
+  <li><strong>Referrals</strong> - Now is where we start getting to the money part of this conversation. When I refer clients to some of my partners, there are some revenue opportunities available for me. Not every referral is done because I’m getting paid, but there are partners who do pay me when I send business their way. This influences the way that I see the landscape, not because I’m getting paid, but because someone I’m talking to chose to use a service, and this will influence how I see the space.</li>
+  <li><strong>Deals Made</strong> - I do make deals, and bring in revenue based upon the business I send to my partners. This isn’t why I do what I do, but it does pay the bills. I’m not writing and telling stories about companies because I have relationships with them. I write and tell stories about them because they do interesting things, and provide solutions for my audience. I’m happy to be transparent about this side of my business, and always work to keep things out in the open.</li>
+</ul>
+
+<p>This is the core the signals I’m generating that tell me which API service providers are making an impact on the API sector. Everything I do reinforces who the most relevant API service providers are. If I’m telling stories about them, then I’m most likely telling more stories. If I’m referring API service providers to my readers and clients, then it just pushes me to read more about what they are doing, and tell more stories about them. The more an API service providers floats up in my world, the more likely they will stay there.</p>
+
+<p><strong>Partnerships Balanced Across Three Dimensions</strong><br />
+My goal with all of this is to continue applying my ranking of API service providers across three main dimensions. Things that are within their control. Things that are within the communities control. Then everything weighted and influenced by my opinion. While money does influence this, that isn’t what exclusively drives which API service providers show up across my work. If I take money to write content, then its hard to say that content is independent. The content is what drives the popularity and readership of API Evangelist, so I don’t want to negatively impact this work. It is easy to say that my storytelling and research is influenced by referral fees and deals I make with partners, but I find this irrelevant if my list of partners is ranked by a number of other elements, within the API service providers control, but also due to signals that are not.</p>
+
+<p><strong>The Most Relevant Partners Rise To The Top</strong><br />
+Everything on API Evangelist is YAML driven. The stories, the APIs, API service providers, and the partners that show across the stories I tell, and the talks I give. I used to drive the listings of APIs and API service providers using my ranking, floating the most relevant to the top. I’m going to start doing that again. I’ve been slowly turning back on my automated monitoring, and updating the ranking for APIs and API service providers. When an API service providers shows up on the list of services or tools I showcase, only the highest rank will float to the top. If API service providers are active, the community is talking about them, and I’m tuned into what they are doing, then they’ll show up in more work more frequently. Keeping the most relevant services and tooling available across the API space, and my research, being showcased in my storytelling, talks, and consulting.</p>
+
+<p>My objective with this redefining of my partner program is to take what I’ve learned over the years, and retool my partnership to deliver more value, help keep my website up and running, but most importantly get out of the way of what I do best–research and storytelling around APIs. I can’t have my partnerships slow or redirect my storytelling. I can’t let my partnerships dilute or discredit my brand. However, I still need to make a living. I still need partners. They still need value to be generated by me, and I want to help ensure that they bring value to the table for me, my readers, as well as the wider API community. This is my attempt to do that. We’ll see how it goes. I will update each month and see what I can do to continue dialing it in. If you have any comments, questions, concerns, or would like to talk about partnering–let me know.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=API Evangelist&searchFields=tags" class="post-tag me-2">#API Evangelist</a>
+        
+          <a href="/search/?search=Partners&searchFields=tags" class="post-tag me-2">#Partners</a>
+        
+          <a href="/search/?search=Lifecycle&searchFields=tags" class="post-tag me-2">#Lifecycle</a>
+        
+          <a href="/search/?search=Stack&searchFields=tags" class="post-tag me-2">#Stack</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>April  9, 2018</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success">Kin Lane</span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

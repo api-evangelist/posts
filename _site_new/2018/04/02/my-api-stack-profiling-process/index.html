@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>My API Stack Profiling Process - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2018/04/02/my-api-stack-profiling-process/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="My API Stack Profiling Process - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/api-stack/logos/the-api-stack-entities-snapshot.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">My API Stack Profiling Process</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>April  2, 2018</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span>Kin Lane</span>
+      </div>
+
+      
+      <img src="https://s3.amazonaws.com/kinlane-productions2/api-stack/logos/the-api-stack-entities-snapshot.png" alt="My API Stack Profiling Process" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p></p>
+<p>I am escalating conversations I’m having with folks regarding how I profile and understand APIs as part of my <a href="http://theapistack.com">API Stack</a> work. It is something I’ve been evolving for 2-3 years, as I struggle with different ways to attack and provide solutions within the area of API discovery. I want to understand what APIs exist out there as part of my industry research, but along the way I want to also help others find the APIs they are looking for, while also helping API providers get their APIs found in the first place. All of this has lead me to establish a pretty robust process for profiling API providers, and document what they are doing.</p>
+
+<p>As I shift my <a href="http://theapistack.com">API Stack</a> work into 2nd gear, I need to further formalize this process, articulate to partners, and execute at scale. Here is my current snapshot of what is happening whenever I’m profiling an API and adding it to my API Stack organization, and hopefully moving it forward along this API discovery pipeline in a meaningful way. It is something I’m continuing to set into motion all by myself, but I am also looking to bring in other API service providers, API providers, and API consumers to help me realize this massive vision.</p>
+
+<p><strong>Github as a Base</strong><br />
+Every new “entity” I am profiling starts with a Github repository and a README, within <a href="https://github.com/api-stack-providers">a single API Stack organization for providers</a>. Right now this is all automated, as I’m transition to this way of doing things at scale. Once in motion, each provider I’m profiling will become pretty manual. What I consider an “entity” is fluid. Most smaller API providers have a single repository, while other larger ones are broken down by line of business, to help reduce API definitions and conversation around APIs down to the smallest possible unit we can. Every API service provider I’m profiling gets its own Github repository, subdomain, set of definitions, and conversation around what is happening. Here are the base elements of what is contained within each Github repo.</p>
+
+<ul>
+  <li><strong>OpenAPI</strong> - A JSON or YAML definition for the surface are of an API, including the request, responses, and underlying schema using as part of both.</li>
+  <li><strong>Postman Collection</strong> - A JSON Postman Collection that has been exported from the Postman client after importing the complete OpenAPI definition, and full tested.</li>
+  <li><strong>APIs.json</strong> - A YAML definition of the surface area of an API’s operation, including home page, documentation, code samples, sign up and login, terms of service, OpenAPI, Postman Collection, and other relevant details that will matter to API consumers.</li>
+</ul>
+
+<p>The objective is to establish a single repository that can be continuously updated, and integrated into other API discovery pipelines. The goal is to establish a complete (enough) index of the APIs using OpenAPI, make it available in a more runtime fashion using Postman, and then indexing the entire API operations, including the two machine readable definitions of the API(s) using APIs.json. Providing a single URL in which you can ingest and use to integrate with an API, and make sense of API resources at scale.</p>
+
+<p><strong>Everything Is OpenAPI Driven</strong><br />
+My definition still involves OpenAPI 2.0, but it is something I’m looking to shift towards 3.0 immediately. Each entity will contain one or many OpenAPI definitions location in the underscore openapi folder. I’m still thinking about the naming and versioning convention I’m using, but I’m hoping to work this out over time. Each OpenAPI should contain complete details for the following areas:</p>
+
+<ul>
+  <li><strong>info</strong> - Provide as much information about the API.</li>
+  <li><strong>host</strong> - Provide a host, or variables describing host.</li>
+  <li><strong>basePath</strong> - Document the basePath for the API.</li>
+  <li><strong>schemes</strong> - Provide any schemes that the API uses.</li>
+  <li><strong>produces</strong> - Document which media types the API uses.</li>
+  <li><strong>paths</strong> - Detail the paths including methods, parameters, enums, responses, and tags.</li>
+  <li><strong>definitions</strong> - Provide schema definitions used in all requests and responses.</li>
+</ul>
+
+<p>While it is tough to define what is complete when crafting an OpenAPI definition, every path should be represented, with as much detail about the surface area of requests and responses. It is the detail that really matters, ensuring all parameters and enums are present, and paths are properly tagged based upon the resources being made available. The more OpenAPI definitions you create, the more you get a feel for what is a “complete” OpenAPI definition. Something that becomes real once you create a Postman Collection for the API definition, and begin to actually try and use an API.</p>
+
+<p><strong>Validating With A Postman Collection</strong><br />
+Once you have a complete OpenAPI definition defined, the next step is to validate your work in Postman. You simply import the OpenAPI into the client, and get to work validating that each API path actually works. You make sure you have an API key, and any other authentication requirements, and work your way through each path, validating that the OpenAPI is indeed complete. If I’m missing sample responses, the Postman portion of this API discovery journey is where I get them. Grabbing validated responses, anonymizing them, and pasting them back into the OpenAPI definition. Once I’ve worked my way through every API path, and verified it works, I then export a final Postman Collection for the API I’m profiling.</p>
+
+<p><strong>Indexing API Operations With APIs.json</strong><br />
+I upload my OpenAPI, and Postman Collection to the Github repository for the API entity I am targeting. Then I get to work on an APIs.json for the API. This portion of the process is about documenting the OpenAPI and Postman I just created, but then also doing the hard work of identifying everything else an API provider offers to support their operations, and will be needed to get up and running with API integration. Here are a handful of the essential building blocks I’m documenting:</p>
+
+<ul>
+  <li><strong>Website</strong> - The primary website for an entity owning the API.</li>
+  <li><strong>Portal</strong> - The URL to the developer portal for an API.</li>
+  <li><strong>Documentation</strong> - The direct link to the API documentation.</li>
+  <li><strong>OpenAPI</strong> - The link to the OpenAPI I created on Github.</li>
+  <li><strong>Postman</strong> - The link to the Postman Collection I created on Github.</li>
+  <li><strong>Sign Up</strong> - Where do you sign up for an API.</li>
+  <li><strong>Pricing</strong> - A link to the plans, tiers, and pricing for an API.</li>
+  <li><strong>Terms of Service</strong> - A URL to the terms of service for an API.</li>
+  <li><strong>Twitter</strong> - The Twitter account for the API provider – ideally, API specific.</li>
+  <li><strong>Github</strong> - The Github account or organization for the API provider.</li>
+</ul>
+
+<p>This list represents the essential things I’m looking for. I have almost 200 other building blocks I document as part of API operations ranging from SDKs to training videos. The presence of these building blocks tell me a lot about the motivations behind an API platform, and send off a wealth of signals that can be tuned into by humans, or programmatically to understand the viability and health of an API.</p>
+
+<p><strong>Continuously Integratable API Definition</strong><br />
+Now we should have the entire surface area of an API, and it’s operations defined in a machine readable format. The APIs.json, OpenAPI, and Postman can be used to on-board new developers, and used by API service providers looking to provides valuable services to the space. Ideally, each API provider is involved in this process, and once I have a repository setup, I will be reaching out to each provider as part of the API profiling process. Even when API providers are involved, it doesn’t always mean you get a better quality API definition. In my experience API providers often don’t care about the detail as much as some consumers and API service providers will. In the end, I think this is all going to be a community effort, relying on many actors to be involved along the way.</p>
+
+<p><strong>Self-Contained Conversations About Each API</strong><br />
+With each entity being profiled living in its own Github repository, it opens up the opportunity to keep API conversation localized to the repository. I’m working to establish any work in progress, and conversations around each APIs definitions within the Github issues for the repository. There will be ad-hoc conversations and issues submitted, but I’ll be also adding path specific threads that are meant to be an ongoing thread dedicated to profiling each path. I’ll be incorporating these threads into tooling and other services I’m working with, encouraging a centralized, but potentially also distributed conversation around each unique API path, and its evolution. Keeping everything discoverable as part of an API’s definition, and publicly available so anyone can join in.</p>
+
+<p><strong>Making Profiling A Community Effort</strong><br />
+I will repeat this process over and over for each entity I’m profiling. Each entity lives in its own Github repository, with the definition and conversation localized. Ideally API providers are joining in, as well as API service providers, and motivated API consumers. I have a lot of energy to be profiling APIs, and can cover some serious ground when I’m in the right mode, but ultimately there is more work here than any single person could ever accomplish. I’m looking to standardize the process, and distribute the crowdsourcing of this across many different Github repositories, and involve many different API service providers I’m working with to ensure the most meaningful APIs are being profiled, and maintained. Highlighting another important aspect of all of this, and the challenges to keep API definitions evolving, soliciting many contributions, while keeping them certified, rated, and available for production usage.</p>
+
+<p><strong>Ranking APIs Using Their Definitions</strong><br />
+Next, I’m ranking APIs based upon a number of criteria. <a href="http://apievangelist.com/2015/10/31/how-are-we-going-to-create-the-standard-and-poors-and-moodys-for-the-api-economy/">It is a ranking system I’ve slowly developed over the last five years</a>, and is something I’m looking to continue to refine as part of this API Stack profiling work. Using the API definitions, I’m looking to rate each API based upon a number of elements that exist within three main buckets:</p>
+
+<ul>
+  <li><strong>API Provider</strong> - Elements within the control of the API provider like the design of their API, sharing a road map, providing a status dashboard, being active on Twitter and Github, and other signals you see from healthy API providers.</li>
+  <li><strong>API Community</strong> - Elements within the control of the API community, and not always controlled by the API provider themselves. Things like forum activity, Twitter responses, retweets, and sentiment, and number of stars, forks, and overall Github activity.</li>
+  <li><strong>API Analyst</strong> - The last area is getting the involvement of API analysts, and pundits, and having them provide feedback on APIs, and get involved in the process. Tracking on which APIs are being talked about by analysts, and storytellers in the space.</li>
+</ul>
+
+<p>Most of this ranking I can automate through there being a complete APIs.json and OpenAPI definition, and machine readable sources of information present in those indexes. Signals I can tap into using blog RSS, Twitter API, Github API, Stack Exchange API, and others. However some it will be manual, as well as require the involvement of API service providers. Helping me add to my own ranking information, but also bringing their own ranking systems, and algorithms to the table. In the end, I’m hoping the activity around each APIs Github repository, also becomes its own signal, and consumers in the community can tune into, weight, or exclude based upon the signals that matter most to them.</p>
+
+<p><strong>Streamdata.io Stream Rank</strong><br />
+Adding to my ranking system, I am applying my partner <a href="https://streamdata.io/blog/benchmark-quantifying-api-performance/">Streamdata.io’s ranking system for APIs</a>, looking to determine that activity surrounding an API, and how much opportunity exists to turn an API event a real time stream, as well as identify the meaningful events that are occurring. Using the OpenAPI definitions generated for each API being profiled, I begin profiling for Stream Rank by defining the following:</p>
+
+<ul>
+  <li><strong>Download Size</strong> - What is the API response download size when I poll an API?</li>
+  <li><strong>Download Time</strong> - What is the API response download time when I poll an API?</li>
+  <li><strong>Did It Change</strong> - Did the response change from the previous response when I poll an API?</li>
+</ul>
+
+<p>I poll an API for at least 24-48 hours, and up to a week or two if possible. I’m looking to understand how large API responses are, and how often they change–taking notice of daily or weekly trends in activity along the way. The result is a set of scores that help me identify:</p>
+
+<ul>
+  <li><strong>Bandwidth Savings</strong> - How much bandwidth can be saved?</li>
+  <li><strong>Processor Savings</strong> - How much processor time can be saved?</li>
+  <li><strong>Real Time Savings</strong> - How real time an API resource is, which amplifies the savings?</li>
+</ul>
+
+<p>All of which go into what we are calling a Stream Rank, which ultimately helps us understand the real time opportunity around an API. When you have data on how often an API changes, and then you combine this with the OpenAPI definition, you have a pretty good map for how valuable a set of resources is based upon the ranking of the overall API provider, but also the value that lies within each endpoints definition. Providing me with another pretty compelling dimension to the overall ranking for each of the APIs I’m profiling.</p>
+
+<p><strong>APIMetrics CASC Score</strong><br />
+Next I’m partnering with <a href="https://apimetrics.io/2017/04/21/casc-score/">APIMetrics to bring in their CASC Scoring</a> when it makes sense. They have been monitoring many of the top API providers, and applying their CASC score to the overall API availability. I’d like to pay them to do this for ALL APIs in my API Stack work. I’d like to have every public API actively monitored from many different regions, and posses active, as well as historical data that can be used to help rank each API provider. Like the other work here, this type of monitoring isn’t easy, or cheap, so it will take some prioritization, and investment to properly bring in APIMetrics, as well as other API service providers to help me rank things.</p>
+
+<p><strong>Event-Driven Opportunity With AsyncAPI</strong><br />
+Something I’ve only just begun doing, but I wanted to include on this list, is adding a fourth definition to the stack when it makes sense. If any of these APIs possess a real time, event-driven, or message oriented API, I want to make sure it is profiled using <a href="https://www.asyncapi.com/">the AsyncAPI specification</a>. The specification is just getting going, but I’m eager to help push forward the conversation as part of my API Stack work. The format is a great sister specification for OpenAPI, and something I feel is relevant for any API that I profile with a high enough Stream Rank. Once an API possesses a certain level of activity, and has a certain level of richness regarding parameters and the request surface area, the makings for an event-driven API are there–the provider just hasn’t realized it. The map for the event-driven exists within the OpenAPI parameter enums, and tagging for each API path, all you need is the required webhooks or streaming layer to realize an existing APIs event-driven potential–this is where <a href="http://streamdata.io">Streamdata.io</a> comes in. ;-)</p>
+
+<p><strong>One Stack, Many Discovery Opportunities</strong><br />
+I am doing this work under my <a href="http://theapistack.com">API Stack</a> research. However it is all being funded by <a href="http://streamdata.io">Streamdata.io</a>. It is also being stimulated by my work with Postman, the OpenAPI Initiative, APIs.io, APIs.json, API Deck, APIs.guru, and beyond. The goal is to turn API Stack into a workbench, where anyone can contribute, as well as fork and integrate API definitions into their existing pipelines. All of this will take years, and a considerable amount of investment, but it is something I’ve already invested several years into. I’m also seeing the API discovery conversation reaching a critical mass thanks to the growth in the number of APIs, as well as adoption of OpenAPI and Postman. Making API discovery a more urgent problem. The challenge will be that most people want to extract value from these kind of effort, and not give back. While I feel strongly that API definitions should be open and freely accessible, the nature of the industry doesn’t alway reflect my vision, so I’ll have to get creative about how I incentivize folks, and reward or punish certain behaviors along the way.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=API Evangelist&searchFields=tags" class="post-tag me-2">#API Evangelist</a>
+        
+          <a href="/search/?search=Discovery&searchFields=tags" class="post-tag me-2">#Discovery</a>
+        
+          <a href="/search/?search=Definitions&searchFields=tags" class="post-tag me-2">#Definitions</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>April  2, 2018</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success">Kin Lane</span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

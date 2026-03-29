@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>The List Of API Signals I Track On In My API Stack Research - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2017/05/09/the-list-of-api-signals-i-track-on-in-my-api-stack-research/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The List Of API Signals I Track On In My API Stack Research - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-signals.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">The List Of API Signals I Track On In My API Stack Research</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>May  9, 2017</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span>Kin Lane</span>
+      </div>
+
+      
+      <img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-signals.png" alt="The List Of API Signals I Track On In My API Stack Research" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I keep an eye on several thousand companies as part of my research into the API space and publish over a thousand of these profiles in <a href="http://theapistack.com">my API Stack project</a>. Across the over 1,100 companies, organizations, institutions, and government agencies I’m regularly running into <a href="http://theapistack.com/channel-types/">a growing number of signals that tune me into what is going on with each API provider</a>, or service provider. </p>
+
+<p>Here are the almost 100 types of signals I am tuning into as I keep an eye on the world of APIs, each contributing to my unique awareness of what is going on with everything API.</p>
+
+<ul>
+  <li><strong>Account Settings</strong> (x-account-settings) - Does an API provider allow me to manage the settings for my account?</li>
+  <li><strong>Android SDK</strong> (x-android-sdk) - Is there an Android SDK present?</li>
+  <li><strong>Angular</strong> (x-angularjs) - Is there an Angular SDK present?</li>
+  <li><strong>API Explorer</strong> (x-api-explorer) - Does a provider have an interactive API explorer?</li>
+  <li><strong>Application Gallery</strong> (x-application-gallery) - Is there a gallery of applications build on an API available?</li>
+  <li><strong>Application Manager</strong> (x-application-manager) - Does the platform allow me to management my APIs?</li>
+  <li><strong>Authentication Overview</strong> (x-authentication-overview) - Is there a page dedicated to educating users about authentication?</li>
+  <li><strong>Base URL for API</strong> (x-base-url-for-api) - What is the base URL(s) for the API?</li>
+  <li><strong>Base **URL</strong> for Portal** (x-base-url-for-portal) - What is the base URL for the developer portal?</li>
+  <li><strong>Best Practices</strong> (x-best-practices) - Is there a page outlining best practices for integrating with an API?</li>
+  <li><strong>Billing history</strong> (x-billing-history) - As a developer, can I get at the billing history for my API consumption?</li>
+  <li><strong>Blog</strong> (x-blog) - Does the API have a blog, either at the company level, but preferably at the API and developer level as well?</li>
+  <li><strong>Blog RSS Feed</strong> (x-blog-rss-feed) - Is there an RSS feed for the blog?</li>
+  <li><strong>Branding page</strong> (x-branding-page) - Is there a dedicated branding page as part of API operations?</li>
+  <li><strong>Buttons</strong> (x-buttons) - Are there any embeddable buttons available as part of API operations.</li>
+  <li><strong>C# SDK</strong> (x-c-sharp) - Is there a C# SDK present?</li>
+  <li><strong>Case Studies</strong> (x-case-studies) - Are there case studies available, showcasing implementations on top of an API?</li>
+  <li><strong>Change Log</strong> (x-change-log) - Does a platform provide a change log?</li>
+  <li><strong>Chrome Extension</strong> (x-chrome-extension) - Does a platform offer up open-source or white label chrome extensions?</li>
+  <li><strong>Code builder</strong> (x-code-builder) - Is there some sort of code generator or builder as part of platform operations?</li>
+  <li><strong>Code page</strong> (x-code-page) - Is there a dedicated code page for all the samples, libraries, and SDKs?</li>
+  <li><strong>Command Line Interface</strong> (x-command-line-interface) - Is there a command line interface (CLI) alongside the API?</li>
+  <li><strong>Community Supported Libraries</strong> (x-community-supported-libraries) - Is there a page or section dedicated to code that is developed by the API and developer community?</li>
+  <li><strong>Compliance</strong> (x-compliance) - Is there a section dedicated to industry compliance?</li>
+  <li><strong>Contact form</strong> (x-contact-form) - Is there a contact form for getting in touch?</li>
+  <li><strong>Crunchbase</strong> (x-crunchbase) - Is there a Crunchbase profile for an API or its company?</li>
+  <li><strong>Dedicated plans pricing page</strong> (x-dedicated-plans–pricing-page)</li>
+  <li><strong>Deprecation policy</strong> (x-deprecation-policy) - Is there a page dedicated to deprecation of APIs?</li>
+  <li><strong>Developer Showcase</strong> (x–developer-showcase) - Is there a page that showcases API developers?</li>
+  <li><strong>Documentation</strong> (x-documentation) - Where is the documentation for an API?</li>
+  <li><strong>Drupal</strong> (x-drupal) - Is there Drupal code, SDK, or modules available for an API?</li>
+  <li><strong>Email</strong> (x-email) - Is an email address available for a platform?</li>
+  <li><strong>Embeddable page</strong> (x-embeddable-page) - Is there a page of embeddable tools available for a platform?</li>
+  <li><strong>Error response codes</strong> (x-error-response-codes) - Is there a listing or page dedicated to API error responses?</li>
+  <li><strong>Events</strong> (x-events) - Is there a calendar of events related to platform operations?</li>
+  <li><strong>Facebook</strong> (x-facebook) - Is there a Facebook page available for an API?</li>
+  <li><strong>Faq</strong> (x-faq) - Is there an FAQ section available for the platform?</li>
+  <li><strong>Forum</strong> (x-forum) - Does a provider have a forum for support and asynchronous conversations?</li>
+  <li><strong>Forum rss</strong> (x-forum-rss) - If there is a forum, does it have an RSS feed?</li>
+  <li><strong>Getting started</strong> (x-getting-started) - Is there a getting started page for an API?</li>
+  <li><strong>Github</strong> (x-github) - Does a provider have a Github account for the API or company?</li>
+  <li><strong>Glossary</strong> (x-glossary) - Is there a glossary of terms available for a platform?</li>
+  <li><strong>Heroku</strong> (x-heroku) - Are there Heroku SDKs, or deployment solutions?</li>
+  <li><strong>How-To Guides</strong> (x-howto-guides) - Does a provider offer how-to guides as part of operations?</li>
+  <li><strong>Interactive documentation</strong> (x-interactive-documentation) - Is there interactive documentation available as part of operatoins?</li>
+  <li><strong>IoS SDK</strong> (x-ios-sdk) - Is there an IoS SDK for Objective-C or Swift?</li>
+  <li><strong>Issues</strong> (x-issues) - Is there an issue management page or repo for the platform?</li>
+  <li><strong>Java SDK</strong> (x-java) - Is there a Java SDK for the platform?</li>
+  <li><strong>JavaScript API</strong> (x-javascript-api) - Is there a JavaScript SDK available for a platform?</li>
+  <li><strong>Joomla</strong> (x-joomla) - Is there Joomla plug for the platform?</li>
+  <li><strong>Knowledgebase</strong> (x-knowledgebase) - Is there a knowledgebase for the platform?</li>
+  <li><strong>Labs</strong> (x-labs) - Is there a labs environment for the API platform?</li>
+  <li><strong>Licensing</strong> (x-licensing) - Is there licensing for the API, schema, and code involved?</li>
+  <li><strong>Message Center</strong> (x-message-center) - Is there a messaging center available for developers?</li>
+  <li><strong>Mobile Overview</strong> (x-mobile-overview) - Is there a section or page dedicated to mobile applications?</li>
+  <li><strong>Node.js</strong> (x-nodejs) - Is there a Node.js SDK available for the API?</li>
+  <li><strong>Oauth Scopes</strong> (x-oauth-scopes) - Does a provider offer details on the available OAuth scopes?</li>
+  <li><strong>Openapi spec</strong> (x-openapi-spec) - Is there an OpenAPI available for the API?</li>
+  <li><strong>Overview</strong> (x-overview) - Does a platform have a simple, concise description of what they do?</li>
+  <li><strong>Paid support plans</strong> (x-paid-support-plans) - Are there paid support plans available for a platform?</li>
+  <li><strong>Postman Collections</strong> (x-postman) - Are there any Postman Collections available?</li>
+  <li><strong>Partner</strong> (x-partner) - Is there a partner program available as part of API operations?</li>
+  <li><strong>Phone</strong> (x-phone) - Does a provider publish a phone number?</li>
+  <li><strong>PHP SDK</strong> (x-php) - Is there a PHP SDK available for an API?</li>
+  <li><strong>Privacy Policy</strong> (x-privacy-policy-page) - Does a platform have a privacy policy?</li>
+  <li><strong>PubSub</strong> (x-pubsubhubbub) - Does a platform provide a PubSub feed?</li>
+  <li><strong>Python SDK</strong> (x-python) - Is there a Python SDK for an API?</li>
+  <li><strong>Rate Limiting</strong> (x-rate-limiting) - Does a platform provide information on API rate limiting?</li>
+  <li><strong>Real Time Solutions</strong> (x-real-time-page) - Are there real-time solutions available as part of the platform?</li>
+  <li><strong>Road Map</strong> (x-road-map) - Does a provider share their roadmap publicly?</li>
+  <li><strong>Ruby SDK</strong> (x-ruby) - Is there a Ruby SDK available for the API?</li>
+  <li><strong>Sandbox</strong> (x-sandbox) - Is there a sandbox for the platform?</li>
+  <li><strong>Security</strong> (x-security) - Does a platform provide an overview of security practices?</li>
+  <li><strong>Self-Service registration</strong> (x-self-service-registration) - Does a platform allow for self-service registration?</li>
+  <li><strong>Service Level Agreement</strong> (x-service-level-agreement) - Is an SLA available as part of platform integration?</li>
+  <li><strong>Slideshare</strong> (x-slideshare) - Does a provider publish talks on Slideshare?</li>
+  <li><strong>Stack Overflow</strong> (x-stack-overflow) - Does a provider actively use Stack Overflow as part of platform operations?</li>
+  <li><strong>Starter Projects</strong> (x-starter-projects) - Are there start projects available as part of platform operations?</li>
+  <li><strong>Status Dashboard</strong> (x-status-dashboard) - Is there a status dashboard available as part of API operations.</li>
+  <li><strong>Status History</strong> (x-status-history) - Can you get at the history involved with API operations?</li>
+  <li><strong>Status RSS</strong> (x-status-rss) - Is there an RSS feed available as part of the platform status dashboard?</li>
+  <li><strong>Support Page</strong> (x-support-overview-page) - Is there a page or section dedicated to support?</li>
+  <li><strong>Terms of Service</strong> (x-terms-of-service-page) - Is there a terms of service page?</li>
+  <li><strong>Ticket System</strong> (x-ticket-system) - Does a platform offer a ticketing system for support?</li>
+  <li><strong>Tour</strong> (x-tour) - Is a tour available to walk a developer through platforms operations?</li>
+  <li><strong>Trademarks</strong> (x-trademarks) - Is there details about trademarks, and how to use them?</li>
+  <li><strong>Twitter</strong> (x-twitter) - Does a platform have a Twitter account dedicated to the API or even company?</li>
+  <li><strong>Videos</strong> (x-videos) - Is there a page, YouTube, or other account dedicated to videos about the API?</li>
+  <li><strong>Webhooks</strong> (x-webhook) - Are there webhooks available for an API?</li>
+  <li><strong>Webinars</strong> (x-webinars) - Does an API conduct webinars to support operations?</li>
+  <li><strong>White papers</strong> (x-white-papers) - Does a platform provide white papers as part of operations?</li>
+  <li><strong>Widgets</strong> (x-widgets) - Are there widgets available for use as part of integration?</li>
+  <li><strong>Wordpress</strong> (x-wordpress) - Are there WordPress plugins or code available?</li>
+</ul>
+
+<p>There are hundreds of other building blocks I track on as part of API operations, but this list represents the most common, that often have dedicated URLs available for exploring, and have the most significant impact on API integrations. You’ll notice there is an x- representation for each one, which I use as part of <a href="http://apisjson.org">APIs.json indexes</a> for all the APIs I track on. Some of these signal types are machine readable like OpenAPIs or a Blog RSS, with others machine readable because there is another API behind, like Twitter or Github, but most of them are just static pages, where a human (me) can visit and stay in tune with signals.</p>
+
+<p>I have two primary objectives with this work: 1) identify the important signals, that impact integration, and will keep me and my readers in tune with what is going on, and 2) identify the common channels, and help move the more important ones to be machine-readable, allowing us to scale the monitoring of important signals like <a href="http://plans.apievangelist.com">pricing</a> and terms of service. <a href="http://theapistack.com/">My API Stack research provides me wit a nice listing of APIs</a>, as well as more individualized stacks like <a href="http://microsoft.stack.network/">Microsoft</a>, <a href="http://google.stack.network/">Google</a>, <a href="http://microsoft.stack.network/">Microsoft</a>, and <a href="http://facebook.stack.network/">Facebook</a>, or even industry stacks like <a href="http://sms.stack.network/">SMS</a>, <a href="http://email.stack.network/">Email</a>, and <a href="http://news.stack.network/">News</a>. It also provides me with a wealth of signals we can tune into better understand the scope and health of the API sector, and any individual business vertical that is being touched by APIs.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=My&searchFields=tags" class="post-tag me-2">#My</a>
+        
+          <a href="/search/?search=Research&searchFields=tags" class="post-tag me-2">#Research</a>
+        
+          <a href="/search/?search=Stack&searchFields=tags" class="post-tag me-2">#Stack</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>May  9, 2017</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success">Kin Lane</span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

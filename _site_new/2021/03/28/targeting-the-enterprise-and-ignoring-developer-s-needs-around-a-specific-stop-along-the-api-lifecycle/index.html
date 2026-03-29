@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Targeting the Enterprise and Ignoring Developer’s Needs Around a Specific Stop Along the API LIfecycle - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2021/03/28/targeting-the-enterprise-and-ignoring-developer-s-needs-around-a-specific-stop-along-the-api-lifecycle/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Targeting the Enterprise and Ignoring Developer’s Needs Around a Specific Stop Along the API LIfecycle - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/long-factory-nazi-invasion.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Targeting the Enterprise and Ignoring Developer’s Needs Around a Specific Stop Along the API LIfecycle</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>March 28, 2021</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span>Kin Lane</span>
+      </div>
+
+      
+      <img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/long-factory-nazi-invasion.jpg" alt="Targeting the Enterprise and Ignoring Developer’s Needs Around a Specific Stop Along the API LIfecycle" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>From time to time I see folks tweet how they are frustrated with Postman not doing exactly what they want in a particular area of the API lifecycle, letting us know they are moving on to greener pastures. The most common framing for these emotional tweet bursts usually centers around Postman catering to the enterprise and is forgetting our roots when it comes to being their specific reason hey adopted Postman. From my vantage point there are a number of ACTUAL reasons behind why Postman users invoke in these Tweet storms, with “selling to the enterprise” being actually pretty low on the list regarding why they find themselves in the position they are in—let me see if I can break down how I see this recurring theme.</p>
+
+<h3 id="selling-to-the-enterprise">Selling to the Enterprise</h3>
+<p>In response to Postman selling to the enterprise—yes we are. We are selling to the enterprise because we are, well….a business, and a venture backed business. The majority of our “developers”, “customer”, and “users” operate within the enterprise, so we are listening to what they need and providing a platform for them to be more successful. Sure, we are motivated by revenue, but this doesn’t mean we aren’t motivated by feedback from our users as well. Selling to the enterprise is a reality for any startup who is building software, and it really shouldn’t be a surprise to anyone, or really be much of a talking point when it comes to critique of any API service provider. I would ask a few things of anyone taking this position.</p>
+
+<ul>
+  <li><strong>Who do you sell to?</strong> - Do you plan on not selling to the enterprise as part of the business you are building, and tif you do, are you going to weight responses from developers who are not affiliated with an enterprise organization, over those who are?</li>
+  <li><strong>Always have a Plan B, C, and D</strong> - You should plan that EVERY platform you depend on will eventually head in a different direction, shut down, or generally stop meeting your needs, and have alternate suppliers available, this is business 101.</li>
+  <li><strong>Enterprise Complexity</strong> - Saying a platform has grown too complex for you means it may have, but it also might mean that maybe you aren’t aware of how a platform works, as well as maybe be out of alignment with the larger community a platform services.</li>
+</ul>
+
+<p>There is a little bit of truth to the statement about Postman selling to the enterprise. But there is whole lot omitted when someone tweets about this on Twitter. I would invite anyone using the “Postman is selling to the enterprise” to come argue why we shouldn’t to our board and investors. It really isn’t a defensible position in any form. I get it. I am a developer, and I am not always in agreement with enterprise way of doing things, but I am also not in denial about how the startup world works. I have had lots of frustrations with Postman capabilities over the years, alongside other platforms I use like Github, JIRA, and others I depend, but I never complain broadly about “selling to the enterprise”, cause I know doing so demonstrates I haven’t done my homework, and my positioning is more emotional than reality.</p>
+
+<h3 id="api-feedback-loop">API Feedback Loop</h3>
+<p>The next dimension of this conversation I see play out over and over is that 98% of the people I see taking these positions have not taken time to utilize any of the feedback loops that are in place to help steer the Postman rocket forward. I would say that there are five distinct layers of feedback loops in place, and while people who participate within these layers do not always get exactly what they want, I find they are much less likely to emotionally claim on Twitter that Postman is leaving them behind because they are part of the conversation, and they understand more about what is actually going on when it comes to the Postman platform, but also their own API lifecycle.</p>
+
+<ul>
+  <li><strong>Postman Github Issues</strong> - If you are staking out your position on the Postman road map with getting acquainted with the existing questions made via Github issues, voting them up, and submitting your own feedback, then I can guarantee you will feel left behind. I am regularly impressed to see how Postman product managers do their research via our Github issues before they take to building new features.</li>
+  <li><strong>Postman Community</strong> - There are a wealth of conversations occurring via the Postman community forum, and you can learn from other folks who are putting Postman platform features to use in interesting ways, and are totally willing to share their tactics with you. Always engage within our community before heading over to submit a GitHub issue, cause you never know what you will learn.</li>
+  <li><strong>Postman Customers</strong> - We have an entire team dedicated to conducting conversations with our customers, gathering their feedback, and then making it available for product managers to use when it comes to steering the road map. Sure, many of these customers are enterprise customers, but many of them are business and team users as well. Are you a customer? Are you providing feedback?</li>
+  <li><strong>User Experience</strong> - Our user experience team is eager for Postman users to participate in surveys and other feedback session to help make the overall user experience of Postman meet the needs of a wider audience. I know there are general as well as specific persona based discussions going on, and I know that your feedback as part of this process would be very welcomed.</li>
+  <li><strong>Ambassador</strong> - One place to learn a lot about the Postman platform, as well as the wider API lifecycle is as part of Postman developer relations and the community as an ambassador. I’ve spent a lot of time at this frontline between what Postman does and what people want it to do, and you learn A LOT about what Postman does that you didn’t know about, and you learn a lot of new ways in which Postman is applied that you never would have imagined—I highly recommend spending time at the frontlines.</li>
+</ul>
+
+<p>To the uninitiated Postman looks like this massively funded closed startup moving forward at lightning speed. I know. I spent years on the outside. Once I joined the team I learned so much about how the product actually works, how it is used in the trenches of API operations, as well as how the product teams are gathering feedback from users and incorporating that into a coherent product that is moving forward at a very fast pace, while still serving millions of users simultaneously. This is something that is true for any API provider or service provider—if you aren’t actively part of any of the existing feedback loop your outbursts on Twitter are only just that, and you indeed are likely getting left behind, but you run the risk of not just being left behind by Postman, but also the wider API community.</p>
+
+<h3 id="api-platforms-and-lifecycles">API Platforms and Lifecycles</h3>
+<p>Another dimension I see folks struggling is that they do not have a clear view and understanding of the API lifecycle. Often times when someone is upset about a specific Postman capability they aren’t seeing how it fits into the overall platform or lifecycle vision. It is common for Postman users to be operating within a silo and using the product for a single, or maybe a couple of stops along a lifecycle. Then when those capabilities evolve on their own, or in concert with other capabilities, people feel like Postman is leaving them behind. When in reality there are other lifecycle evolutions within the wider API sector happening that may not be understood, as well as additional platform benefits emerging that you can’t see or won’t be able to take advantage of because of your API world view. Here are some the common ways I see folks stumbling.</p>
+
+<ul>
+  <li><strong>Specifications</strong> - Most folks I see complain about being left behind don’t see the difference between documentation and the specification behind the documentation, let alone how it impacts the rest of the lifecycle. They don’t get the difference between Swagger and OpenAPI, and many other little nuances that you just see as Postman complexity, but ultimately are being sorted out in the wider API community.</li>
+  <li><strong>Lifecycle</strong> - Folks just aren’t seeing the entire API lifecycle, and they focus on the most tangible aspects of the lifecycle like API documentation or code. Missing out on the lifecycle benefits, which they just dismiss as complexity.</li>
+  <li><strong>Platform</strong> - For those who are just embarking on their wider API lifecycle journey they don’t fully see the benefits of an API platform, which is a newer concept to make sense of. They don’t understand that Postman relies on OpenAPI to bridge the existing software development lifecycle via Git, and it is up to you to decide how much of the platform you are ready for, allowing you to use workspace, but not documentation, or testing, but not mocking. When you begin to see the platform you begin to have more control over when you are stuck at one stop along the API lifecycle you simply see Postman as a documentation or testing tool.</li>
+  <li><strong>Isolation</strong> - Ultimately isolation is the biggest illness I see amongst existing Postman users. They use Postman all by themselves and do not collaborate, sync, coordinate, orchestrate, and choreograph API options across large teams and organizations. When operating in isolation you always run the risk of behind left behind, and it won’t be just Postman that does this to you.</li>
+</ul>
+
+<p>I have spent the last decade paying attention to the big picture of APIs. I still struggle to see the big picture. I also regularly lose touch with what is actually happening on the ground floor of API operations. There is no right way or wrong way here, but it is very common to blame complexity on your API service provider(s) when you don’t have a clear definition of what the API lifecycle is and isn’t, and how the API service providers and tooling you’ve adopted fit into that. API services and tooling are individual building blocks that can and should be plugged in across various stops along the API lifecycle. An API platform is where you do this in a scalable, reliable, interoperable, and orchestrateable way—it is common for folks to see the entirety of Postman as a single stop along the API lifecycle, rendering many of the other lifecycle capabilities simply as complexity, or for someone else. Relaying on the UI and published documentations, which are the more tangible outputs as what is possible rather than embracing the API way doing things.</p>
+
+<h3 id="embracing-the-api-way">Embracing the API Way</h3>
+<p>Beyond not playing an active role within the API feedback loop, and understanding the role that API specifications play across the API lifecycle, and when it comes to building on an API platform, most Postman users who get stuck at one stop of the API lifecycle like docs or testing, haven’t fully embraced the API way of life, and are just using them in tactical ways, void of any API strategy or belief system. There are a handful of fundamental aspects of APIs you need to grasp become you find little more zen when it comes not just building APIs, but also consuming APIs—here are a few things I notice in these moments:</p>
+
+<ul>
+  <li><strong>Postman API</strong> - These folks aren’t using the Postman API. Realizing that the API specifications, workspaces, environments, monitors, and other API platform building blocks all have APIs that can be used to automate, orchestrate, and execute beyond what the Postman UI enables natively.</li>
+  <li><strong>Command Line</strong> - You can run Postman Newman at the command line, further shifting the conversation for how you put the Postman platform to work, weaving Postman collections in with other aspects of your API development toolbox.</li>
+  <li><strong>CI/CD Pipelines</strong> - You can execute the collections you have defined for any instance of your APIs, 3rd party APIs you use, or the infrastructure behind your API Operations at the pipeline layer of your operations using Postman Newman.</li>
+  <li><strong>Workspaces</strong> - It is interesting to watch folks step away from Postman due to documentation not being configurable enough, which is just one part of a longer list of consideration, never having considered the value of documentation in public workspace that is immediately searchable by 13 million developers—never considering how documentation changes in a workspace, letting the opportunity pass them by.</li>
+  <li><strong>Network</strong> - Being able to flick the switch on the workspace which contains APIs, documentation, environments, mock servers, tests, and other capabilities either natively or piped in via the APIs of other services and open source tooling for a team, or publicly to a community is one aspect of the Postman platform that can be hard to see when focused on a single stop along the API lifecycle.</li>
+  <li><strong>Open Source</strong> - The open source tooling that influences the Postman road map is another blind spot for many folks who get stuck at a single stop along the API lifecycle when using Postman. Beginning with Postman open source converters, url parsers, Neman, and other core open source tooling. But then things from the community that do things our road map hasn’t caught up with like generating an Open API definition from a collection, generating custom documentation from OpenAPI or collection, or any of the numerous other ways the open source community is augmenting the Postman platform.</li>
+</ul>
+
+<p>If the Postman web or desktop doesn’t do what you want it to do currently, and you opt to leave before using the API, CLI, or open source solutions that argument the platform, I am pretty sure you haven’t been struck by holy API spirit yet, and aren’t using APIs to their full potential. I regularly get frustrated by the Postman UI. But you know what, I understand that I am one person, who happens to work at Postman and have influence on the road map, but also realize that there are many other ways in which I can leverage the Postman platform to get done what I need done. The most common thing I see with folks who get stuck is they are just using Postman for a single dimension of API, and not including the Postman API in their approach, let alone using Postman to leverage the APIs for the infrastructure they are using behind their API operations.</p>
+
+<h3 id="postman-is-selling-to-the-enterprise-and-working-to-meet-the-needs-of-over-13-million-developers">Postman is Selling to the Enterprise and Working to Meet the Needs of Over 13 Million Developers</h3>
+<p>I understand that it can be difficult to see the full scope of the API universe. I don’t expect folks to be able to see it. I also don’t expect that I am going to fully understand what it is like to “do APIs” on the ground within your organization or industry. I also am not in denial that Postman struggles with delivering a user interface and user experience that meets the needs of all 13 million users—it just ain’t an easy thing to do. However, I do get to write lengthy responses to the quick, emotional, and broad sweeping claims about Postman not caring about its developers. It is something that is difficult to not take personally, and at this stage of my career I know better than engaging with folks on Twitter about these things—especially as a Postman employee. However, I do find it valuable to think through my responses to these allegations, and work through how I see things, so that next time I do find myself in a conversation with someone, I can dive in with more clarity and coherence.</p>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/long-factory-uncle-sam.jpg" alt="" /></p>
+
+<p>Ultimately, it isn’t easy to operate a platform. Let alone a platform that is the underlying plumbing for platforms across almost every business sector. We aren’t going to be able to make everyone happy. I am fine with this. However, I am in the business of understanding the overall API lifecycle, and helping folks develop more awareness of the big picture. This is all journey that we are ultimately at different places on, and it is my job to quickly iterate through many different possible journeys regularly on my own, while also joining customers and partners in their own journeys. Throughout this process I learn from what I am seeing, while also sharing previous learnings and experiences with whoever I encounter. So whenever I encounter folks stuck at a specific stop along the way, banging their head on one specific areas of a much longer journey, I feel compelled to share what I know in the most constructive way possible. So, publishing it here on API Evangelist  as opposed to engaging on Twitter has become the healthiest way for me to do this, which also has the widest impact possible within this ever expanding API universe we find ourselves in.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Lifecycle&searchFields=tags" class="post-tag me-2">#Lifecycle</a>
+        
+          <a href="/search/?search=Platform&searchFields=tags" class="post-tag me-2">#Platform</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>March 28, 2021</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success">Kin Lane</span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

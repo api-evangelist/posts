@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Schema-Validated, Rules-Guided, and Policy-Driven Experiences - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2025/10/28/schema-validated-rules-guided-and-policy-driven-experiences/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Schema-Validated, Rules-Guided, and Policy-Driven Experiences - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-supreme-court_36341562380_o.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Schema-Validated, Rules-Guided, and Policy-Driven Experiences</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>October 28, 2025</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span>Kin Lane</span>
+      </div>
+
+      
+      <img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-supreme-court_36341562380_o.jpg" alt="Schema-Validated, Rules-Guided, and Policy-Driven Experiences" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I struggle to share the entirety of my vision for API governance as it requires prior awareness of multiple API specifications and the current state of governance within the industry—with some leaning into what could or should be next when it comes to regulating our business operations. I need to distill my work out of Postman, Bloomberg, and API Evangelist down into a series of steps I can articulate to investors, our Naftiko engineering team, and the wider community to help demonstrate how we can shift gears beyond the sprawl we live in today.</p>
+
+<p>I am struggling with the best way to demonstrate this, using a mix of storytelling, artifacts, and visuals. I need to convey it to all levels of enterprise operations as well as to investors and advisors—so I have to keep it concise. This is something that will take time and require several rounds of storytelling to accomplish. That is what this post is for. I’ll start with more words than artifacts and visuals, but will eventually craft more visuals that help break things down into smaller bits that help me articulate a much more complex vision.</p>
+
+<h4 id="json-schema-is-a-fundamental-building-block">JSON Schema Is a Fundamental Building Block</h4>
+<p>I will say it over and over again—JSON Schema is the most important building block out there. It is a molecular unit of this vision and our current state of sprawl. To join me in this journey I don’t need you to understand all the technical details of JSON Schema, but I need you to understand that: 1) EVERYTHING is being defined by JSON Schema, with much of it also being validated by JSON Schema, and 2) JSON Schema can be JSON or YAML—helping bridge this discussion to product and business leadership. This is the minimal entry to the club for any technical or non-technical person.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://example.com/station
+title: Station
+description: The schema for a train station.
+type: object
+xml:
+    name: station
+required:
+    - id
+    - name
+    - address
+    - country_code
+properties:
+id:
+    type: string
+    format: uuid
+    description: Unique identifier for the station.
+    examples:
+    - efdbb9d1-02c2-4bc3-afb7-6788d8782b1e
+    - b2e783e1-c824-4d63-b37a-d8d698862f1d
+name:
+    type: string
+    description: The name of the station
+    examples:
+    - Berlin Hauptbahnhof
+    - Paris Gare du Nord
+address:
+    type: string
+    description: The address of the station.
+    examples:
+    - Invalidenstraße 10557 Berlin, Germany
+    - 18 Rue de Dunkerque 75010 Paris, France
+country_code:
+    type: string
+    description: The country code of the station.
+    format: iso-country-code
+    examples:
+    - DE
+    - FR
+timezone:
+    type: string
+    description: The timezone of the station in the [IANA Time Zone Database format](https://www.iana.org/time-zones).
+    examples:
+    - Europe/Berlin
+    - Europe/Paris
+</code></pre></div></div>
+
+<p>This JSON Schema defines the properties of a train station so that you can book train travel. You can describe any digital object using JSON Schema, providing the name, description, and properties, which can be used to validate that object over time to understand whether or not you are moving forward in an agreed-upon way, in which validation can be done automatically.</p>
+
+<h4 id="the-openapi-specification">The OpenAPI Specification</h4>
+<p>Alongside JSON Schema, you have the OpenAPI specification for describing the HTTP access you have for each API. OpenAPI uses JSON Schema to describe the request and response payloads for each API you define. You also use JSON Schema to validate the entire OpenAPI, to ensure you are following the specification while defining the access to any HTTP API.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openapi: 3.1.0
+info:
+  title: Train Travel API
+  description: |
+    API for finding and booking train trips across Europe.
+
+    ## Run in Postman
+    
+    Experiment with this API in Postman, using our Postman Collection.
+
+    [&lt;img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;"&gt;](https://app.getpostman.com/run-collection/9265903-7a75a0d0-b108-4436-ba54-c6139698dc08?action=collection%2Ffork&amp;source=rip_markdown&amp;collection-url=entityId%3D9265903-7a75a0d0-b108-4436-ba54-c6139698dc08%26entityType%3Dcollection%26workspaceId%3Df507f69d-9564-419c-89a2-cb8e4c8c7b8f)
+
+    ## Run in Insomnia
+
+    Experiment with this API in Insomnia, using our Insomnia Collection.
+    
+    [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Train%20Travel%20API&amp;uri=https%3A%2F%2Fraw.githubusercontent.com%2Fbump-sh-examples%2Ftrain-travel-api%2Fmain%2Finsomnia%2FInsomnia_2024-05-27.json)
+  version: 1.0.0
+  contact:
+    name: Train Support
+    url: https://example.com/support
+    email: support@example.com
+  license: 
+    name: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+    identifier: CC-BY-NC-SA-4.0
+
+servers:
+  - url: https://api.example.com
+    description: Production
+
+security:
+  - OAuth2:
+      - read
+
+tags:
+  - name: Stations
+    description: | 
+      Find and filter train stations across Europe, including their location
+      and local timezone.
+
+paths:
+  /stations:
+    get:
+      summary: Get a list of train stations
+      description: Returns a list of all train stations in the system.
+      operationId: get-stations
+      tags:
+        - Stations
+      responses:
+        '200':
+          description: A list of train stations
+          headers:
+            RateLimit:
+              $ref: '#/components/headers/RateLimit'
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/Wrapper-Collection'
+                  - properties:
+                      data:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Station'
+                  - properties:
+                      links:
+                        allOf:
+                          - $ref: '#/components/schemas/Links-Self'
+                          - $ref: '#/components/schemas/Links-Pagination'
+              example:
+                data:
+                  - id: efdbb9d1-02c2-4bc3-afb7-6788d8782b1e
+                    name: Berlin Hauptbahnhof
+                    address: Invalidenstraße 10557 Berlin, Germany
+                    country_code: DE
+                    timezone: Europe/Berlin
+                  - id: b2e783e1-c824-4d63-b37a-d8d698862f1d
+                    name: Paris Gare du Nord
+                    address: 18 Rue de Dunkerque 75010 Paris, France
+                    country_code: FR
+                    timezone: Europe/Paris
+                links:
+                  self: https://api.example.com/stations&amp;page=2
+                  next: https://api.example.com/stations?page=3
+                  prev: https://api.example.com/stations?page=1
+            application/xml:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/Wrapper-Collection'
+                  - properties:
+                      data:
+                        type: array
+                        xml:
+                          name: stations
+                          wrapped: true
+                        items:
+                          $ref: '#/components/schemas/Station'
+                  - properties:
+                      links:
+                        allOf:
+                          - $ref: '#/components/schemas/Links-Self'
+                          - $ref: '#/components/schemas/Links-Pagination'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      description: OAuth 2.0 authorization code following RFC8725 best practices.
+      flows:
+        authorizationCode:
+          authorizationUrl: https://example.com/oauth/authorize
+          tokenUrl: https://example.com/oauth/token
+          scopes:
+            read: Read access
+            write: Write access
+  schemas:
+    Station:
+      type: object
+      xml:
+        name: station
+      required:
+        - id
+        - name
+        - address
+        - country_code
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: Unique identifier for the station.
+          examples:
+            - efdbb9d1-02c2-4bc3-afb7-6788d8782b1e
+            - b2e783e1-c824-4d63-b37a-d8d698862f1d
+        name:
+          type: string
+          description: The name of the station
+          examples:
+            - Berlin Hauptbahnhof
+            - Paris Gare du Nord
+        address:
+          type: string
+          description: The address of the station.
+          examples:
+            - Invalidenstraße 10557 Berlin, Germany
+            - 18 Rue de Dunkerque 75010 Paris, France
+        country_code:
+          type: string
+          description: The country code of the station.
+          format: iso-country-code
+          examples:
+            - DE
+            - FR
+        timezone:
+          type: string
+          description: The timezone of the station in the [IANA Time Zone Database format](https://www.iana.org/time-zones).
+          examples:
+            - Europe/Berlin
+            - Europe/Paris
+</code></pre></div></div>
+
+<p>This OpenAPI specification provides a full description of the surface area for any HTTP API. It can be used to describe the technical details of any API that uses HTTP as a transport, which can then be used in other services and tooling as a representation of your API—providing what product and engineering people will need when producing or consuming the API.</p>
+
+<h4 id="the-asyncapi-specification">The AsyncAPI Specification</h4>
+<p>Alongside JSON Schema and OpenAPI, you have the AsyncAPI specification for describing HTTP, but also WebSockets, Kafka, MQTT, and many others. AsyncAPI is a sister specification to OpenAPI, and you can describe any digital object using JSON Schema to describe message payloads being sent to your event-driven APIs, and also use JSON Schema to validate your overall AsyncAPI definition.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>asyncapi: 3.0.0
+info:
+  title: Hello world application
+  version: '0.1.0'
+channels:
+  hello:
+    address: 'hello'
+    messages:
+      sayHelloMessage:
+        payload:
+          type: string
+          pattern: '^hello .+$'
+operations:
+  receiveHello:
+    action: 'receive'
+    channel:
+      $ref: '#/channels/hello'
+</code></pre></div></div>
+
+<p>This AsyncAPI specification provides a robust way to express event-driven APIs across many different protocols. The specification goes much further than OpenAPI but has been around half as long as OpenAPI (Swagger) and tends to reflect more internal API infrastructure. In reality, it can be used to describe any type of public, partner, or private API infrastructure.</p>
+
+<h4 id="schema-validated">Schema Validated</h4>
+<p>OpenAPI and AsyncAPI both use JSON Schema to define and validate payloads. They both also use JSON Schema to validate the specification itself. JSON Schema is the fundamental building block of APIs, and OpenAPI and AsyncAPI allow us to describe the access to the digital resources being made available via any API for use in any desktop, web, mobile, and AI application.</p>
+
+<p>JSON Schema can be validated at the command-line interface, via continuous integration and deployment (CI/CD) pipelines, and via any desktop, web, mobile, or AI application. JSON Schema defines, but also validates, EVERYTHING in our world, allowing us to follow the lead of TypeScript, while making our entire operations more strongly typed at every turn—it is key to the reliability we all are searching for.</p>
+
+<h4 id="competing-on-hiding-open-source-specifications">Competing on Hiding Open-Source Specifications</h4>
+<p>I want to pause a moment before I move into the “rules-guided” portion of this story. I want to highlight that the majority of startup innovation when it comes to interoperability, integration, and automation—ranging from classic iPaaS to agentic is built upon obfuscating and keeping your OpenAPI and AsyncAPI definitions hidden. If a company is hand-crafting integrations for each API they integrate with, they won’t be in business long. The rest of the companies are defining these integrations using OpenAPI and AsyncAPI but keeping those hidden and behind the scenes so that competitors cannot easily integrate and build upon their work.</p>
+
+<p>Startups are taking open-source specs and open-source tooling and hiding them in a commercial layer. I know this from seeing the behind-the-scenes of <a href="https://apis.guru/">APIs.guru</a> for years, as well as my own API Stack and now <a href="https://github.com/api-evangelist">API Evangelist</a> and <a href="https://apis.io/">APIs.io</a> OpenAPI generation. People love to take from these repositories, with almost nobody giving back. As I was building the Postman Network, I talked to numerous startups who all told me they’d be willing to share their OpenAPIs if they could benefit from other companies’ OpenAPI—otherwise they’d keep them private and generate value only for their platform. This is the common investor wisdom for startups. It is counter-productive, and means we are mostly competing on commodities.</p>
+
+<h4 id="spectral-rules">Spectral Rules</h4>
+<p>Now we move on to the other essential building block—rules. Specifically, Spectral rules. However, any rules engine should be multi-modal and support <a href="https://www.openpolicyagent.org/">Open Policy Agent</a>, and I’d also recommend looking at <a href="cedarpolicy.com">Cedar</a>. A Spectral rule is a JSON or YAML artifact that uses JSON Path to identify specific properties of a JSON Schema, OpenAPI, AsyncAPI, or any JSON or YAML artifact. This rule looks at the presence of an info title, which can be used in both OpenAPI and AsyncAPI to ensure each API has a name.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  openapi-info-title-info:
+    description: &gt;-
+      Having a intuitive and helpful title for your API using the OpenAPI info
+      title is the first impression you will make on the consumers of your API
+    message: Info Has Title
+    severity: info
+    given: $.info
+    then:
+      field: title
+      function: falsy
+</code></pre></div></div>
+
+<p>There are <a href="https://rules.apievangelist.com/0">hundreds of well-established Spectral rules governing OpenAPI</a>, and many emerging for AsyncAPI. I also have many that are just for JSON Schema, whether it is used in OpenAPI, AsyncAPI, or standalone. Spectral rules are a low-cost way of describing rules for governing any schema that is used as part of API operations to ensure quality and reliability of systems. After the SmartBear acquisition of Stoplight we can expect Spectral to slow, but ultimately it is open-source and that might be a good thing at this stage.</p>
+
+<h4 id="default-rules">Default Rules</h4>
+<p>Spectral comes with a range of default functions that check for the truthy, falsy, regex, and even JSON Schema of each property you are governing. These functions will get you about 80% of the way with governing the surface area of any JSON or YAML artifact that describes any aspect of our engineering operations and infrastructure that power our worlds.</p>
+
+<h4 id="custom-rules">Custom Rules</h4>
+<p>Spectral allows you to also write simple JavaScript snippets that run as part of rules, allowing you to customize your rules and go well beyond what the individual functions will accomplish. These custom rules will do almost anything you need, but you should also consider how Open Policy Agent and Cedar will help extend the capabilities of rules being applied to schema.</p>
+
+<h4 id="validation-and-completeness">Validation and Completeness</h4>
+<p>JSON Schema can be validated at the command-line, in your integrated development environment, via CI/CD pipelines, and via any desktop, web, mobile, or AI application using HyperJump, AJV, or other tooling. Spectral can be validated at the command-line, in your integrated development environment, via CI/CD pipelines, and via any desktop, web, mobile, or AI application using the Spectral library. This allows you to validate and govern the completeness of any schema being used to power your business operations.</p>
+
+<h4 id="rule-severity">Rule Severity</h4>
+<p>Spectral rules give you the ability to define four separate severity levels for how rules get evaluated—errors, warnings, info, and hints. These severity levels allow you to block or not block teams as part of CI/CD pipelines. Rule severity can also be set via policy by domain, allowing for changes in severity as defined by the maturity and overall journey of teams and what governance is required or they are ready for.</p>
+
+<h4 id="rule-guidance">Rule Guidance</h4>
+<p>Each Spectral rule has a documentation URL property, which allows for guiding developers to a single documentation page to help provide inline guidance to teams encountering some error, warning, info, or hint. This becomes pretty powerful in a world where nobody reads the docs (until they have to), and when combined with policies and experiences as defined below, you end up with a real-time approach to team guidance (governance) wherever they already work.</p>
+
+<p>A common mistake that most services and tooling make when displaying rules is they show you EVERYTHING. You can 250+ errors, warnings, and other info and hints. It is easy to filter rules by policy, experience, tags, as well as just one at a time. Next. Next. Next. Guiding teams towards documentation and prioritizing what matters the most while also not overwhelming them with too much information along the way–guiding individual team members at scale in the right direction.</p>
+
+<h4 id="rule-coverage">Rule Coverage</h4>
+<p>The maturity of any individual schema (OpenAPI, AsyncAPI, JSON Schema, custom) can be evaluated based upon the rule coverage available. Meaning, each rule applies to a property, and you can quickly assess which schema properties have rules and which do not. Rule coverage allows you to understand the maturity of all your schemas, as well as the maturity of all your rules and policy areas discussed below.</p>
+
+<h4 id="rule-scoring">Rule Scoring</h4>
+<p>It is easy to apply scoring to each individual rule. This allows you to quickly tally all rules applied to a schema, as well as break them down by severity and policy or experience areas below. How well are we doing on documentation? How well are we doing on security? Rule scoring provides a quick way to emphasize and gamify the importance of governance, which can be weighted and applied in different ways across teams.</p>
+
+<h4 id="postive--negative-rules">Postive &amp; Negative Rules</h4>
+<p>The majority of Spectral rules you encounter will be negative. Telling you what you did wrong. I have built my approach on wider behavioral approaches and recommend having a postive definition for every rule you have a negative definition for. It is siomething that isn’t always possible. It isn’t always easy, but having positive rules helps you better see the coverage of your governance across APIs.</p>
+
+<h4 id="policies">Policies</h4>
+<p>This is where we begin moving into uncharted territory. Everything I’ve talked about already is ubiquitous and known across the API landscape. I am not making any of it up, just reporting on the facts as they are—or should be. But to move the conversation forward I have added another schema layer I simply <a href="https://policies.apievangelist.com/">call policy</a> on top of rules, which helps distill down the technical details of API governance into terms that will make sense to business users.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>name: Names for APIs
+slug: api-metadata-names
+tags:
+  - APIs
+  - Discovery
+type: none
+image: /images/names.png
+rules:
+  - apis-json-apis-name-info
+  - openapi-info-title-info
+  - asyncapi-info-title-info
+scope: API Contract
+guidance: apis/names
+property: name
+description: &gt;-
+  Providing a clear, descriptive, and concise name for each API, as well as the
+  APIs it contains, properly defining the scope, with an intuitive first
+  impression of an API.
+</code></pre></div></div>
+
+<p>Policies are what leadership and product people will care about, and rules are what engineering stakeholders will care about. Policies have many rules. A policy might be “Managing Security,” with individual rules focused on encryption of servers, authentication and authorization, headers, and other details. <a href="https://policies.apievangelist.com/">Policies</a> speak strategically, while <a href="https://rules.apievangelist.com/">rules</a> speak tactically, but can be automated to support policy work.</p>
+
+<h4 id="experience">Experience</h4>
+<p>Policies and rules can now easily be organized by <a href="https://experiences.apievangelist.com/">experience</a>. Meaning, onboarding, documentation, code generation, client, sandbox, and other essential experiences can be used as a label applied to policies and rules—giving you a new superpower to prioritize and execute the automation of rules based upon what is more important. Code generation sucks? Let’s focus on the properties of our OpenAPI, AsyncAPI, and JSON Schema that will help with SDK generation. Just had a security breach? Let’s focus on security-related policies and rules this week.</p>
+
+<h4 id="automation">Automation</h4>
+<p>As mentioned several times, all schema can be validated for structure and shape using JSON Schema and governed for completeness over time using Spectral rules. You can automate this at design time via editors, development time using command-line (CLI) and integrated development environments (IDE), build time using CI/CD pipelines, and runtime via gateways, proxies, and engines. Validation and governance should be EVERYWHERE.</p>
+
+<h4 id="not-included">Not Included</h4>
+<p>I am trying to keep this narrative as short and concise as I can to help me keep refining for a non-technical audience that doesn’t get the whole world of APIs. With this in mind, there are other things I wanted to add but am holding back to see if I can keep it shorter, though I may want to bring them in for different audiences.</p>
+
+<ul>
+  <li><strong>Extensions</strong> - I did not talk about how OpenAPI and AsyncAPI can be extended, and how we can use <a href="https://apievangelist.com/2024/05/07/the-diff-between-what-json-schema-and-spectral-provide-when-mapping-the-api-landscape/">JSON Schema and Spectral rules to validate and govern</a> them.</li>
+  <li><strong>Any Schema</strong> - I only lightly mentioned that this all applies to any schema, and the API governance world tends to focus only on OpenAPI and AsyncAPI.</li>
+  <li><strong>Multi-Schema</strong> - The opportunity to validate, govern, and align across multiple schemas is a significant way to help tackle work across areas of operations.</li>
+  <li><strong>Multi-Pattern</strong> - I look forward to exploring more of the opportunity across request/response as well as event-driven and other operational paradigms.</li>
+  <li><strong>Configuration</strong> - Schemas are often configuration for tooling, and when you expand to the open-source tooling we use, you widen what you can govern.</li>
+  <li><strong>Infrastructure</strong> - You can easily apply this to gateway and other infrastructure configuration, validating and governing API infrastructure responses.</li>
+  <li><strong>Declarative</strong> - Flattening all of the services and tooling you are using into a single declarative and governed artifacts that describes what is needed.</li>
+  <li><strong>Contracts</strong> - Artifacts can be iterated upon over time as contracts, and not just between API producer and consumer, but across consumers and the APIs used.</li>
+  <li><strong>Discovery</strong> - I haven’t even touched on how you find all of this, and the role that registries and catalogs are playing or not playing in helping with sprawl.</li>
+  <li><strong>Search</strong> - All of the rules can be used to provide a pretty rich search filtering interface that helps you prioritize discovery based upon what really matters.</li>
+</ul>
+
+<p>I am sure other things will come out of the woodwork with this post. That is the purpose of it. Shake my brain. Distill down my talking points for social media and in-person conversations. Then repeat. Write again. Until I get much better at articulating this from the tactical to the strategic level. There is a lot going on here.</p>
+
+<h4 id="business-alignment">Business Alignment</h4>
+<p>Schema, rules, and policies are how you align engineering operations with business. It is how you do it header by header, schema property by schema property. Policies are how you give leadership the controls they need to configure federated and distributed API integrations. Policies are how you come to consensus and alignment among business and engineering leadership. Rules are how you enable those policies on the ground floor across thousands of APIs and integrations. Experiences are how you focus this work on what really matters.</p>
+
+<h4 id="producer-vs-consumer">Producer vs. Consumer</h4>
+<p>Another significant shift in my view of this landscape is that most experts who understand this landscape are exclusively focused on producing APIs. I am passionately focused on applying this to consuming APIs. It is where we have less control over the landscape. It is the perspective that matters the most. No API produced matters until it is consumed. After being in the API governance trenches for a number of years at the tactical and strategic level, I am convinced we won’t be able to govern the production of most APIs. It is at consumption time where we can have the most impact.</p>
+
+<p>I like the notion of API consumer governance.</p>
+
+<h4 id="in-conclusion">In Conclusion</h4>
+<p>OK, I got what I needed out of this post. I was going to do a visual tooling and artifact walkthrough, but I think the narrative did me more good. Sure, only people who read this might have a chance to grok what I am saying, but I need to understand what matters most in the conversations I am having. There is no guarantee that anyone will read this or sit through any video walkthrough I produce either. So the most important thing is that it is on the tip of my tongue when I enter into conversations.</p>
+
+<p>I do need to continue working on my API Evangelist tooling that helps articulate all the pieces of this puzzle. You can see most of it in motion with the schema, rules, policies, and experience work I’ve done. But I am glad I put this work down and waited for my switch to the consumer side of things once again. I feel pretty strongly that this is the vantage point that will matter moving forward. But not for the agentic and other reasons people imagine. I just believe that in this age of enshittification, the outside-in is where most of the magic will happen.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Schema&searchFields=tags" class="post-tag me-2">#Schema</a>
+        
+          <a href="/search/?search=Rules&searchFields=tags" class="post-tag me-2">#Rules</a>
+        
+          <a href="/search/?search=Policies&searchFields=tags" class="post-tag me-2">#Policies</a>
+        
+          <a href="/search/?search=Experiences&searchFields=tags" class="post-tag me-2">#Experiences</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>October 28, 2025</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success">Kin Lane</span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

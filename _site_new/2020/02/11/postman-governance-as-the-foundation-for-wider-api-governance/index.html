@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Postman Governance as the Foundation for Wider API Governance - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2020/02/11/postman-governance-as-the-foundation-for-wider-api-governance/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Postman Governance as the Foundation for Wider API Governance - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-supreme-court_36341562380_o.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Postman Governance as the Foundation for Wider API Governance</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>February 11, 2020</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-supreme-court_36341562380_o.jpg" alt="Postman Governance as the Foundation for Wider API Governance" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>This an overview of possible strategies for governing how Postman is used across a large organization. It is common for Postman to be already in use across an organization by individuals operating in isolation using a free tier of access. Governance of not just Postman, but also the end to end API life cycle begins with getting all developers using Postman under a single organizational team, working across master planned workspaces. If there are concerns about how Postman is being used across an enterprise organization, governance of this usage begins by focusing on bringing all enterprise Postman users together under a single license, and team, so that activity can be managed collectively.</p>
+
+<h3 id="postman-users">Postman Users</h3>
+
+<p>Over the last five years Postman has become an indispensable tool in the toolbox of developers. 10 million developers have downloaded the application and are using it to authorize and make requests to APIs then debug the responses. The benefit to API operations for the enterprise is clear, but the challenge now for enterprise organizations is to identify their individual Postman users and encourage them to operate under a single pro, team, or enterprise license. </p>
+
+<p>Currently users are operating in isolation, defining, storing, and applying secrets and PII locally on their own workstations within Postman, and syncing to the cloud as part of their regular usage of Postman—isolating details about APIs, secrets, potentially PII, and other sensitive data within these three areas.</p>
+
+<ul>
+  <li><strong><a href="https://api-evangelist.postman.co/workspaces">Personal Workspaces</a></strong> - Storing collections, and environments within their localized personal workspaces and individual Postman account.</li>
+  <li><strong><a href="https://api-evangelist.postman.co/me/collections">Personal Collections</a></strong> - Developing API collections in isolation, leaving them inaccessible to other teams, and reusable across operations.</li>
+  <li><strong><a href="https://api-evangelist.postman.co/me/environments">Personal Environments</a></strong> - Using environments to store secrets, PII, and other data within their localized personal workspaces and individual Postman account. </li>
+</ul>
+
+<p>When it comes to enterprise API governance, observability, and security, the problem isn’t with Postman being used by developers, the problems is developers are not using Postman together under a single license, across managed shared workspaces. Putting individual developers into Postman teams, and incentivizing them to collaborate and share Postman collections and environments, while also making everything observable through centralized auditing and governance.</p>
+
+<p><strong>Actions</strong> - Identifying some actions that can be taken to begin evolving users towards centralized governance.</p>
+
+<ul>
+  <li><strong>Identify Users</strong> - Understand who is already using Postman, and begin considering how to bring them under a single license.</li>
+  <li><strong>Educate Users</strong> - Once users are identified, then they can be made aware of efforts to use Postman in more organized way.</li>
+</ul>
+
+<p>Individual users of Postman within the enterprise are ground zero for governance efforts. API governance and Postman governance will overlap. But it will all depend on bringing together individual users underneath a single team, and getting them to work in concert across many managed Postman workspaces. Getting more organized when it comes to how Postman is being put to work across the enterprise.</p>
+
+<h3 id="postman-teams">Postman Teams</h3>
+
+<p>To realize governance of Postman usage, and how APIs are delivered and consumed across the enterprise all Postman users should be added to a centralized Postman team, allowing for more visibility into API operations, and control over how individual users are working.  Postman provides a variety of UIT tooling for managing teams underneath pro, team, or enterprise access tiers.</p>
+
+<ul>
+  <li><strong><a href="https://api-evangelist.postman.co/settings/team/manage-invite-links">Invites (UI)</a></strong> - Inviting all individual users to operate under a single team.</li>
+  <li><strong><a href="https://api-evangelist.postman.co/team">Members (UI)</a></strong> - Managing the members of teams, bringing all users under a single license.</li>
+  <li><strong><a href="https://api-evangelist.postman.co/settings/team/roles">Roles (UI)</a></strong> - Properly define the rules of each user when they are added to a team.</li>
+  <li><strong><a href="https://api-evangelist.postman.co/team/activity">Activity (UI)</a></strong> - Tuning into the activity for all users who have been added to a team.</li>
+</ul>
+
+<p>Currently there is no API for managing teams, but the Postman web account provides what is needed to invite users, manage team members, and maintain administrative control through role and activity management. Setting up other actions that can be taken to govern Postman usage and how enterprise users are putting Postman to work as part of their daily work. </p>
+
+<p><strong>Actions</strong> - Identifying some actions that can be taken begin governing individual Postman users under one team.</p>
+
+<ul>
+  <li><strong>Invite Users</strong> - Invite individual new and existing Postman users to a designated team.</li>
+  <li><strong>Manage Roles</strong> - Effectively define and assign roles to team members for an organization.</li>
+  <li><strong>Audit Users</strong> - Regularly review and audit team members to understand an individuals usage.</li>
+  <li><strong>Remove Users</strong> - Remove any inactive users, and manage team membership regularly.</li>
+</ul>
+
+<p>Defining a centralized team helps establish visibility into what users are doing, and what they have access to. Providing the foundation for how Postman, and wider API governance can be realized across operations. Connecting the dots between all the individual Postman users, applying roles and access control, and allowing for additional Postman runtime features to be used in concert, instead of in isolation. </p>
+
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-supreme-court-columns.jpg" alt="" /></p>
+
+<h3 id="postman-workspaces">Postman Workspaces</h3>
+
+<p>Like teams, Postman workspaces allow for not just better organizing team members, but also the artifacts they will be working on to define the APIs they are delivering or consuming. Providing another dimension to how APIs and Postman can be governed, made more observable, providing more awareness and control over how APIs are moved along throughout the API life cycle, and how existing APIs are consumed as part of the integration process.</p>
+
+<p><strong>GUI</strong> - You can manage team workspaces through he Postman web interface, defining how team members work together. </p>
+
+<ul>
+  <li><strong><a href="https://api-evangelist.postman.co/workspaces?type=team">All Workspaces</a></strong>  - Manage all the workspaces through the Postman web interface.</li>
+  <li><strong><a href="https://api-evangelist.postman.co/settings/team/general">Workspace Settings</a></strong>  - Understanding and configuring all the workspace settings properly.</li>
+  <li><strong><a href="https://api-evangelist.postman.co/settings/team/roles">Workspace Roles</a></strong> - Tuning into what all of the workspace roles are for use across teams.</li>
+</ul>
+
+<p><strong>API</strong> - You can also automate the management and governance of operations using the Postman teams API.</p>
+
+<ul>
+  <li><strong><a href="https://docs.api.postman.com/?version=latest#5b53aa96-042d-4bc2-8c85-c10bc7ea0553">All Workspaces</a></strong> - Programmatically pull all workspaces.</li>
+  <li><strong><a href="https://docs.api.postman.com/?version=latest#feefc577-d86b-4a71-8c06-9816e0df970d">Single Workspace</a></strong> - Programmatically pull a single workspace.</li>
+  <li><strong><a href="https://docs.api.postman.com/?version=latest#34edebd3-8a53-4927-8ed6-4874a298c2e3">Update Workspace</a></strong> - Programmatically manage and update a single workspace.</li>
+  <li><strong><a href="https://docs.api.postman.com/?version=latest#ebba8fd1-da24-4987-aa3a-00d803baee93">Delete Workspace</a></strong> - Remove old and unused workspaces.</li>
+</ul>
+
+<p><strong>Actions</strong> - Identifying some of the actions that can be taken to govern how collections and environments are accessed and stored.</p>
+
+<ul>
+  <li><strong>Audit Workspaces</strong> - Audit the purpose and usage of an individual workspace.</li>
+  <li><strong>Define Workspaces</strong> - Define workspaces as part of overall governance activities.</li>
+  <li><strong>List Workspace Collections</strong> - List the collections that exist within a single workspace.</li>
+  <li><strong>List Workspace Environments</strong> - List the environments that exist within a single workspace.</li>
+  <li><strong>Backup Collections in Workspaces</strong> - Backup collections that exist within a workspace.</li>
+  <li><strong>Backup Environments in Workspaces</strong> - Backup environments that exist within a workspace.</li>
+  <li><strong>Sync Collections in Workspaces</strong> - Sync collections between workspaces.</li>
+  <li><strong>Sync Environments in Workspaces</strong> - Sync environments between workspaces.</li>
+  <li><strong>Manage Workspace Members &amp; Roles</strong> - Regularly manage workspace members and their roles.</li>
+  <li><strong>Clean Up Unused Workspaces</strong> - Actively clean up workspaces that are no longer being used.</li>
+</ul>
+
+<p>Postman workspaces are designed to keep teams working on collections, and applying environments logically organized and protected with teams and workspace roles and access management. Thoughtfully defining spaces that reflect how teams are structured, lines of business operate, and how products or services are delivered. Providing manual and automated management of workspaces is critical for realizing governance across teams.</p>
+
+<h3 id="collections">Collections</h3>
+
+<p>Collections are how individual requests are organized and then access by developers, and executed as part of CI/CD pipelines as well as using monitors. Ideally collections are defined, developed, and evolved in concert, and reused across teams using workspaces, instead of completely within the isolation of each individual users personal account. With team and workspaces setup, collections can then be organized in more useful ways that are in alignment overall governance. With a handful of ways to manage via the web interface, and further automate using the Postman API.</p>
+
+<p><strong>GUI</strong> - Managing all collections and access control for team members via the Postman web interface.</p>
+
+<ul>
+  <li><strong><a href="https://api-evangelist.postman.co/me/collections">All Collections</a></strong> - Quickly getting at a list of all collections in the web UI.</li>
+  <li><strong><a href="https://api-evangelist.postman.co/settings/team/roles">Collection Roles</a></strong> - Being able to manage the roles associated with collections.</li>
+</ul>
+
+<p><strong>API</strong> - Automating the management of our collections using the Postman API.</p>
+
+<ul>
+  <li><strong><a href="https://docs.api.postman.com/?version=latest#3190c896-4216-a0a3-aa38-a041d0c2eb72">All Collections</a></strong> - Pulling all collections via the Postman API.</li>
+  <li><strong><a href="https://docs.api.postman.com/?version=latest#647806d5-492a-eded-1df6-6529b5dc685c">Single Collections</a></strong>  - Pulling details of single collection using the Postman API.</li>
+  <li><strong><a href="https://docs.api.postman.com/?version=latest#aa3701e8-7f99-b421-7d74-0d571b051f3c">Update Collection</a></strong> - Update the details of a collection using the aPI.</li>
+  <li><strong><a href="https://docs.api.postman.com/?version=latest#af648b8e-236c-b9e8-dd6c-3d7058d5c04b">Delete Collection</a></strong> - Delete a collection using the API.</li>
+</ul>
+
+<p><strong>Actions</strong> - Identifying some of the actions that can be taken when governing collections being defined, developed, and ran across operations.</p>
+
+<ul>
+  <li><strong>List Collections</strong> - Pulling all collections that exist across workspaces.</li>
+  <li><strong>Discover APIs</strong> - Searching and discovering APIs defined within collections.</li>
+  <li><strong>Backup Collection</strong> - Backing up collections to other locations and workspaces.</li>
+  <li><strong>Sync Collection</strong> - Automatically syncing collections to other locations and workspaces.</li>
+  <li><strong>Scan Collection</strong> - Look inside of collection for specific patterns and data points.</li>
+  <li><strong>Scrub Collection</strong> - Scrub secrets, PII, and other sensitive data from within collections.</li>
+  <li><strong>Extract Tests</strong> - Pull tests from collections and publish them to centralized location.</li>
+  <li><strong>Validate Collection</strong> - Ensure that collections are compliant with any governance rules.</li>
+  <li><strong>Identify Unused Collections</strong> - Find and flag collections that are no longer being used.</li>
+  <li><strong>Enforce Encryption</strong> - Make sure the https is being used by default across all collections.</li>
+  <li><strong>Cleanup Collection</strong> - Remove collections that are not longer being used by teams.</li>
+</ul>
+
+<p>As the number of collections grow across a team and an organization, the need to automate the governance of collections will only increase. Going beyond what is possible via the Postman web and desktop interfaces to govern how APIs are delivered and consumed, with collections as the defining artifact. Establishing visibility and control over how all teams are working with APIs, and injecting governance into how teams work.</p>
+
+<h3 id="postman-environments">Postman Environments</h3>
+
+<p>Environments are the final building block to be considered as part of wider API and Postman governance. Like collection, environments will need the greatest amount of governance to provide the most observability, reliability, and security across API operations. When used right, Postman environments help isolate and standardize how secrets, PII, and other sensitive information is used across the delivery and integration of APIs. Postman allows for the management of environments through the interface and the API.</p>
+
+<p><strong>GUI</strong> - Managing all of the environments in use with the Postman web interface.</p>
+
+<ul>
+  <li><strong><a href="https://api-evangelist.postman.co/me/environments">All Environments</a></strong> - Manually manage all of the environments in use.</li>
+</ul>
+
+<p><strong>API</strong> - Automating the management of environments using the Postman API.</p>
+
+<ul>
+  <li><strong><a href="https://docs.api.postman.com/?version=latest#d26bd079-e3e1-aa08-7e21-66f55df99351">All Environments</a></strong> - Programmatically pulling all environments via Postman API.</li>
+  <li><strong><a href="https://docs.api.postman.com/?version=latest#96c34392-1e36-d1cb-af89-1c95365184ab">Single Environment</a></strong> - Programmatically pulling a single environment.</li>
+  <li><strong><a href="https://docs.api.postman.com/?version=latest#6517e0d6-3bc3-3da5-ab57-7a578a8504ce">Update Environment</a></strong> - Updating a single environment using the Postman API.</li>
+  <li><strong><a href="https://docs.api.postman.com/?version=latest#c943a79b-0c36-c003-5f22-1c8b1998188e">Delete Environment</a></strong> - Remove old and unused environments using the API.</li>
+</ul>
+
+<p>The value of governing environments manually or automatically via the API is only as valuable as how consistently environments are used. If developers put secrets directly inside of collections then environment governance is diminished. But if governance dictates that all secrets should be managed using Postman environments than automated governance and management of Postman environments becomes much more effective.</p>
+
+<p><strong>Actions</strong> - Identifying some of the common actions that exist for governing environment usage across operations.</p>
+
+<ul>
+  <li><strong>List Environments</strong> - Providing a list of all environments in use across operations.</li>
+  <li><strong>Aggregate Variables</strong> - Aggregating variables that are in use across all environments.</li>
+  <li><strong>Govern Variables</strong> - Evaluate and govern how variables are defined and used.</li>
+  <li><strong>Scrub Secrets</strong> - Automatically scrub secrets that are published as part of environments.</li>
+  <li><strong>Scrub PII</strong> - Automatically scrub PII that are published as part of environments.</li>
+  <li><strong>Merge Environments</strong> - Merge one or more environments together into a single one.</li>
+  <li><strong>Refresh Tokens</strong> - Automatically refresh tokens and turn over keys to maintain security.</li>
+  <li><strong>Backup Environments</strong> - Backup environments to external locations and workspaces.</li>
+  <li><strong>Sync Environments</strong> - Sync environments to external locations and workspaces.</li>
+</ul>
+
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-statue-supreme-court.jpg" alt="" /></p>
+
+<p>The proper usage of environments along with a healthy amount of manual and automated governance represents one of the greatest opportunities for helping secure and stabilize API operations. Isolating how secrets, PII, and other essential data is stored and applied across API operations. Which when combined with effective governance of collections, workspaces, and teams, makes for a pretty effective approach to not just defining how Postman gets used, but how APIs are used across an organization.</p>
+
+<h3 id="postman-runtime-governance">Postman Runtime Governance</h3>
+
+<p>The governance of Postman usage, as well as the overall API life cycle begins with the establishment of a Postman team, and the aggregation of all individual Postman users underneath that team. Then you can begin to define workspaces that reflect organizational objectives around how teams are structured, lines of businesses operate, and projects, products, and services are delivered. With all of this in motion, the wider governance of the API life cycle, and how developers, testers, QA, DevOps, and other roles are using Postman becomes possible. Enabling teams to collaborate and work together within designated teams and workspaces, allowing them to be as organized and efficient as possible when it comes to how APIs are delivered and consumed across the enterprise. </p>
+
+<p>Governance does not just happen. Effective governance takes laying the groundwork for how APIs are delivered and consumed. Postman is a ubiquitous tool across the enterprise API landscape, making it the best place to start when it comes to governance. Making Postman governance, and the thoughtful, well-planned defining and management of Postman users, teams, workspaces, collections, and environments where every organization should be starting when it comes to API governance. If you are effectively governing Postman, then you have the groundwork laid for effectively governing the entire API life cycle. Providing the observability needed to understand how teams are working (or not), while incentivizing collaboration, reuse, and governance of all the key artifacts that are in use across the API factory floor across the enterprise.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Governance&searchFields=tags" class="post-tag me-2">#Governance</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>February 11, 2020</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

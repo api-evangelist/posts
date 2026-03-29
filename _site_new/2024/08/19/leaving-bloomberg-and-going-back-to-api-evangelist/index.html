@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Leaving Bloomberg and Going Back to API Evangelist - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2024/08/19/leaving-bloomberg-and-going-back-to-api-evangelist/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Leaving Bloomberg and Going Back to API Evangelist - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-old-piano-playing-hospital.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Leaving Bloomberg and Going Back to API Evangelist</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>August 19, 2024</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span>Kin Lane</span>
+      </div>
+
+      
+      <img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-old-piano-playing-hospital.jpg" alt="Leaving Bloomberg and Going Back to API Evangelist" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>Friday was my last day at Bloomberg. I learned what I had come there to learn and now it is time for me to get back to my API Evangelist work. Moving forward, I will be taking my previous API Evangelist foundation, combining it with what I learned at F5 and Bloomberg (both enterprises), but also what I learned at Postman (a startup) through my conversations with numerous enterprise customers, as well as via my 125+ Breaking Changes podcast episodes, then applying it all as a new podcast (kinda sorta) and a set of API services focused on helping the enterprise govern API operations.</p>
+
+<p>When I left Postman to work at Bloomberg I was determined to test out a handful of concepts I had learned while talking to enterprise API practitioners, and I really wanted to get my hands dirty doing what I had been talking about for the previous decade. I did that at Bloomberg, but to fully understand my journey to this point in time, we have to go back to 2019, where I put API Evangelist on hold to go get a job. I had a kid who needed to go to University, and another kid who was struggling with addiction. I went to work at F5 Networks, where I learned a lot about how the enterprise approaches API operations at scale, and then I learned about the opportunity with Postman and quickly moved to the Bay Area just as Covid took hold of the world.</p>
+
+<p>During Covid I worked very hard. We lost my wife’s son to an overdose and one of my best friends to suicide. I worked even harder. By 2023 I was burnt out and in desperate need of change, but I also wanted to learn more about the two top areas of conversation I had been having during my Breaking Changes podcast:</p>
+
+<ul>
+  <li>Narrowing the gap between business and engineering when it comes to delivering APIs</li>
+  <li>Defining what API governance means at scale across API operations via an API Platform</li>
+</ul>
+
+<p>I got to experience this at Bloomberg. I am grateful, and I am confident that the base I stood up will continue having an impact there, as well as just my presence and personality for a little over a year. However, we now have a kiddo who graduated, and we are doing the hard work to heal from the loss of our other kiddo. I miss writing. I miss writing 100% in my own voice. I am also confident that I now have a new set of services that the enterprise will need—-which I can use to sustain my work. I am not looking to do a startup, I am just firing up my API Evangelist small business again. I’ll also be continuing to invest in <a href="https://apis.io">APIs.io</a>, <a href="http://apicommons.org">API Commons</a>, and <a href="https://apisjson.org">APIs.json</a>. I am going to resume doing a podcast. Really, it will just be regular recorded conversation about what people face across their API operations. I’m going to keep each episode to less than 15 minutes a piece, and I will be prioritizing API consumers and API producers over API service providers. I want to focus on the business and engineering folks on the ground floor who are just trying to get the API work done each day.</p>
+
+<p>I am confident that I can make a good living with the set of services that I’ve cooked up–I’ll talk more about them in September. I’ll just be writing for the next couple of weeks, processing all my notes from across the last 5 years. I am open to having conversations and I have opened up some slots each week in my calendar. I’d like to record some conversations for launching my new podcast in September, and I am interested in API discovery, lifecycle, and governance discussions. Feel free to ping me at <a href="mailto:kin@apievangelist.com">kin@apievangelist.com</a>. I am open for conversation now, and open for business in September. But, this round I am going to be much more protective of my time than I was for the last round of API Evangelist. I am on a mission. I have a vision. I am eager to stick to it, and I have a ton of work to do across API Evangelist, APIs.io, and the API Commons.</p>
+
+<p>I will continue telling stories on API Evangelist as I always have, but instead of selling my writing, speaking, and producing events, aka my API evangelism schtick—-I will be focusing on <a href="https://apievangelist.com/2024/07/09/api-apis-json-contract/">API contracts using APIs.json</a>, and common and community properties from the <a href="http://apicommons.org">API Commons</a>. I have a set of services that focuses on the following areas of engagement when it comes to API operations across the enterprise.</p>
+
+<h2 id="3rd-party-inbound">3rd-Party Inbound</h2>
+<p>The most common type of API, where enterprises publish APIs publicly via portal for 3rd-party developers to consume and use in their applications and integrations.</p>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/3rd-party-inbound.jpg" alt="3rd-Party Inbound" title="3rd-Party Inbound" /></p>
+
+<h2 id="3rd-party-outbound">3rd-Party Outbound</h2>
+<p>A very ad hoc and shadowy aspect of API operations, with all of the 3rd-party API consumed by teams within an enterprise to automate, integrate, and use in applications.</p>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/3rd-party-outbound.jpg" alt="3rd-Party Outbound" title="3rd-Party Outbound" /></p>
+
+<h2 id="3rd-party-on-premise">3rd-Party On-Premise</h2>
+<p>3rd-party APIs, but the ones that come with the infrastructure decisions that have been made and run on-premise, providing another opportunity to define API consumption.</p>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/on-premise-3rd-party.jpg" alt="3rd-Party On-Premise" title="3rd-Party On-Premise" /></p>
+
+<h2 id="1st-party">1st-Party</h2>
+<p>The shadowy APIs we developed between web, mobile, and desktop applications, which are often available via public DNS, making for a significant area to standardize.</p>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/1st-party.jpg" alt="1st-Party" title="1st-Party" /></p>
+
+<h2 id="internal">Internal</h2>
+<p>The many APIs and microservices that are powering the enterprise, that may mature and evolve to power 1st-party of 3rd-party applications, but likely will never see the light of day.</p>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/internal.jpg" alt="Internal" title="Internal" /></p>
+
+<p>I’ve broken down API operations into what I consider to be the most common relationships that exist within the enterprise, but aren’t always talked about as part of API lifecycle and governance. This is where I will be focusing when it comes to API contracts, where API producer and consumer come together to get business done. I am eager to take my combined learnings from the last five years and roll up into a suite of strategic and tactical services, combined with ongoing conversations focused on the following aspects of API operations which I have been immersed in for the last couple of years.</p>
+
+<ul>
+  <li><strong>Hands-On Self-Service API Governance</strong> - Doing what I talk about along with the API producers and consumers of the APIs that I manage contracts for.</li>
+  <li><strong>Business and Technical API Alignment</strong> - Being the bridge between business and technical groups producing and consuming APIs across the lifecycle.</li>
+  <li><strong>Governing APIs At Scale Across Different Groups</strong> - Having the tactical, but also the strategic vision for governing APIs at scale across different groups.</li>
+  <li><strong>Specs-Only to Reduce API Politics &amp; Friction</strong> - Being 100% focused on contracts and avoiding infrastructure &amp; tooling where politics tends to accumulate.</li>
+  <li><strong>GitOps-Driven API Source of Truth</strong> - Leverage a GitOps workflow to manage contracts, building on the existing infrastructure used to manage change.</li>
+  <li><strong>Importance of API Guidance for Teams</strong> - Heavily investing in Just-in-Time API Guidance™ to make sure teams have the education they need right now.</li>
+  <li><strong>Establishing a Common API Lifecycle</strong> - Ensuring there is a common and strongly typed API lifecycle to make sure everyone is on the same page.</li>
+  <li><strong>Doing Multi-Protocol API Governance</strong> - I will be only focusing on HTTP, REST, and Webhooks, as I’ve learned a lot about governing other patterns and protocols.</li>
+  <li><strong>Evolving API Discovery and Visibility</strong> - Taking a different approach to how APIs are made visible and are discovered by both producers and consumers.</li>
+  <li><strong>JSON Schema Validating API Operations</strong> - Elevating JSON Schema to ensure all aspects of operations can be validated by anyone involved with APIs.</li>
+  <li><strong>What Actually Matters to API Leadership</strong> - Focusing on what really makes API operations function-—the business, and generating the revenue leaders want.</li>
+  <li><strong>What Actually Matters to API Teams</strong> - Providing more of a lifeline to the business and technical teams who are doing the work that makes APIs work.</li>
+  <li><strong>Properly Defining Your API Platform</strong> - Formalizing the definition of the API platform, standardizing the base of API operations for everyone involved.</li>
+  <li><strong>Having a Clear API Vendor Strategy</strong> - Ensuring there is a strategy for managing API vendors based upon the value they provide across API operations.</li>
+  <li><strong>Role of Provenance in Dealing with API Change</strong> - Peeling back the onion of change without always crying because you have the provenance required.</li>
+</ul>
+
+<p>I’ve learned what I like doing in the API space, what matters most to API operations, and where most of the friction comes from across the API lifecycle–this bulleted list represents that. This list doesn’t lend itself to producing a simple and straightforward product with which one could build a company around and attract investment. However, I also think it smells of a tremendous opportunity to make money while also helping people get shit done. With this in mind I have been thinking deeply about how I can develop a set of services and eventually some products that reflect these learnings, and I am confident that I have my finger on the pulse of what API governance actually means, and it is not just about governing the design of APIs. Inconsistent APIs are just a symptom of larger organizational, policy, and people issues, and when you govern APIs, you have to actually govern the entire enterprise to be successful.</p>
+
+<p>Much of the conversation across the API lifecycle, including governance, gets defined by API service providers and investors, and a handful of analysts, pundits, and practitioners who dominate the spotlight. I want to shift the narrative to not always be about whatever the investors want, such as API management, service mesh, or artificial intelligence. I want to focus on governing the enterprise using open-source API contracts. I want to focus more on the business of APIs than the technology of APIs. I want to focus exclusively on getting our enterprise house in order when it comes to simple, ubiquitous, and flexible HTTP APIs and Webhooks. I strongly believe that enterprises should possess highly functional API supply chains, factory floors, and distribution channels for the fundamentals aspects of the digital economy. You have to be able to effectively and reliably deliver the digital resources, capabilities, and experiences your company is known for—-FULL STOP.</p>
+
+<p>I am not dismissing that some enterprises will need GraphQL, Websockets, Kafka, GRPC, and the other API variants out there. I am just saying that 1) I will be hyper focused on just governing HTTP APIs, and 2) I will be highly suspect of enterprises heavily investing in these other areas before they have their basic API act together. I just see too many companies deploy GraphQL when nobody asked for it and teams going from zero to Kafka when Webhooks would have been just fine. Companies do this because they haven’t done the work to learn HTTP and properly equip the teams who produce APIs. I will be heavily leaning on making sure the business contract is in place before any technical contract is implemented. I will always be leading with the business of APIs, focusing on the fundamentals of the technology of APIs, and providing the policies needed to help inform and guide the people who are producing APIs—-with or without leadership involved in the conversation.</p>
+
+<p>I will not just be focusing on messaging that speaks to who is making the buying decisions within the enterprise. I will have a message for them, but I will also be having conversations with and be focusing on honing a message for both API producers and consumers across the five areas I listed above. I will be working with API services providers as partners, but I will be extremely wary of their approach and their venture backed influence on what the enterprise needs. I am not looking to defend enterprise leadership buying software from the grift of Silicon Valley, but the people on the ground floor who have to live with these decisions, and have to deal with the implications of this circus. I will be looking to provide an on or off the record opportunity for conversations with these folks on my API Evangelist podcast, and I will be looking to empower them with API contract support services, helping them produce and consume APIs within the decision making of enterprise leadership and the influence of venture backed startups.</p>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-statue-supreme-court.jpg" alt="Supreme" title="Supreme" /></p>
+
+<p>I feel like I am in a good spot. I have learned a lot working at F5 Networks, Postman, and Bloomberg in the last five years. I have some money in the bank to pay the bills for a little while, I am not burnt out, and I feel like that we are getting back on our feet after a few very difficult personal years. I feel like I still have a strong and credible voice in the industry. I really, really, really enjoy what I do. I feel like I am always learning and at the top of my game. I feel like it is time that I use my skills and my voice. I think that I also have some of the coolest domains in the API universe—-<a href="https://apievangelist.com">API Evangelist</a>, <a href="http://apicommons.org">API Commons</a>, and <a href="https://apis.io">APIs.io</a>. I mean c’mon, I have gotta something across these domains. I’d like to do something that is real, creative, fun, and that hopefully will have lasting impact beyond just the latest investment cycle or collective market hallucination. With this moment in time, I feel like I know my shit, and enjoy a strong position within a very relevant and cross cutting aspect of our economy—-HTTP APIs.</p>
+
+<p>I love writing about APIs, doing research on APIs, and having conversations with smart folks doing good work with APIs. I am going to focus here. I need to make money, but it isn’t my primary focus. I know my shit, and have a solid network of people who know me. I mean hell, even ChatGPT thinks I am something. ;-) So here I go. Putting back on the API Evangelist persona full time. I enjoy this voice. While it is not 100% my actual personality, I enjoy the hyper focus on APIs, how it is cross-cutting across almost any business sector, and the somewhat inflated ego of being the API Evangelist. While I don’t believe there is a “right way” to do APIs, I definitely think there are many wrong ways to do APIs–I want to help folks navigate these waters. I figure I have about one or two more decades of real work left in me, maybe three. I would much rather go out ranting and raving as the API Evangelist than being stuck in an enterprise somewhere. At least I get to focus on what I think matters and what interests me the most. Anyhoo, let me know how I can help—-I am really going to need y’all’s support to make this work.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Career&searchFields=tags" class="post-tag me-2">#Career</a>
+        
+          <a href="/search/?search=Jobs&searchFields=tags" class="post-tag me-2">#Jobs</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>August 19, 2024</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success">Kin Lane</span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

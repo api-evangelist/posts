@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>146 Planned APIs from 19 Federal Depts and Agencies as Part of their Digital Strategy - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2012/08/30/146-planned-apis-from-19-federal-depts-and-agencies-as-part-of-their-digital-strategy/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="146 Planned APIs from 19 Federal Depts and Agencies as Part of their Digital Strategy - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/US_white_house_logo.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">146 Planned APIs from 19 Federal Depts and Agencies as Part of their Digital Strategy</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>August 30, 2012</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/US_white_house_logo.png" alt="146 Planned APIs from 19 Federal Depts and Agencies as Part of their Digital Strategy" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>Three months after the <a href="/federal_government.php" title="White House CIO mandated that all federal departments and agencies have a digital strategy">White House CIO mandated that all federal departments and agencies have a digital strategy</a>, we are getting closer to having access to some high value APIs, across almost twenty participating departments and agencies.</p>
+
+<p>Up to now, it is just a lot of talk about strategy, without much detail on what will be deployed.  Now that there are <a href="/admin/blog/White House CIO mandated that all federal departments and agencies have a digital strategy" title="20 digital strategies published">20 digital strategies published</a>, we can start seeing some of the APIs the departments and agencies will be deploying in the coming months.</p>
+
+<p>Here is a list of “systems” that each participating department or agency will be deploying:</p>
+
+<p><a href="http://www.usda.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/usda.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.usda.gov/">Department of Agriculture (USDA)</a></strong></p>
+
+<ul>
+  <li><strong>World Agricultural Supply and Demand Estimates</strong></li>
+  <li><strong>Meat, Poultry and Egg Product Inspection Directory</strong></li>
+  <li><strong>USDA Newsroom</strong> - Provides USDA’s comprehensive forecasts of supply and demand for major U.S. and global crops and U.S. livestock. The report gathers information from a number of statistical reports published by USDA and other government agencies, and provides a frame</li>
+  <li><strong>National Farmers Market Directory</strong></li>
+  <li><strong>USDA Blog</strong> - Agricultural Marketing Service-produced directory containing information about U.S. farmers market locations, directions, operating times, product offerings, and accepted forms of payment. Supports local and regional food systems, as well as developm</li>
+  <li><strong>List of Disaster Counties</strong></li>
+  <li><strong>AmberWaves eZine</strong> - The Blog features content from all USDA agencies and features the latest news, events and features. The Blog also provides the public an opportunity to ask questions or share their thoughts about the latest issues.</li>
+  <li><strong>Office Information Profile System</strong></li>
+  <li><strong>SNAP Retailer Locator information</strong> - As the agency’s flagship publication, Amber Waves provides a window into ERS research through highly readable articles geared to educated but non-specialized audiences. Amber Waves covers important issues on U.S. markets &amp; trade, diet &amp; health, resou</li>
+  <li><strong>Office Information Profile System</strong></li>
+</ul>
+
+<p><a href="http://www.commerce.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/commerce.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.commerce.gov/">Department of Commerce</a></strong></p>
+
+<ul>
+  <li><strong>Export.gov API</strong></li>
+  <li><strong>Commerce.gov</strong></li>
+  <li><strong>Census API</strong> - Ensuring mobile-optimization of Commerce.gov</li>
+  <li><strong>Census mobile apps</strong></li>
+</ul>
+
+<p><a href="http://www.defense.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/defense.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.defense.gov/">Department of Defense (DOD)</a></strong></p>
+
+<ul>
+  <li><strong>United States Army Corps of Engineers (USACE) Corps Locks Website</strong></li>
+  <li><strong>TRICARE Website</strong></li>
+  <li><strong>Defense Commissary Agency (DeCA) Commissaries Locator</strong> - Provides lock and vessel specific information derived from the USACE Lock Performance Monitoring System (LPMS). The information contained here represents hourly and daily snapshots of Freedom of Information Act (FOIA) data on U.S. flag vessels and fo</li>
+  <li><strong>United States Army Corps of Engineers (USACE) Commodity Data</strong></li>
+  <li><strong>United States Army Corps of Engineers (USACE) Lockage Data</strong> - Provides users the closet store hours, directions, contact information, floor plans, etc.</li>
+  <li><strong>Defense Finance and Accounting Service (DFAS) myPay system</strong></li>
+</ul>
+
+<p><a href="http://www.ed.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/ed.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.ed.gov/">Department of Education (ED)</a></strong></p>
+
+<ul>
+  <li><strong>EDFacts</strong></li>
+  <li><strong>G5 Grants Management System</strong></li>
+  <li><strong>StudentAid.gov</strong> - The purpose of EDFacts is to collect and report K-12 education performance data for use by policymakers and Department of Education program offices. With relevant, actionable data supplied by EDFacts, decision-makers can identify which programs are</li>
+  <li><strong>State Education Data Profiles</strong></li>
+  <li><strong>College Navigator</strong> - StudentAid.gov is the first step in a multi-phase project to provide consumers with a one-stop website where they can access federal student aid information, apply for federal aid, repay student loans and navigate the college decision-making process.</li>
+  <li><strong>Homeroom Blog</strong></li>
+  <li><strong>College Navigator</strong> - Homeroom Blog is the official blog of the Department. The purpose of these blog is to facilitate an ongoing dialogue on education issues.</li>
+  <li><strong>Program Information Publication System (Part of Program Information on the Web)</strong></li>
+  <li><strong>ED.gov</strong> - Web-based tool for searching all colleges and universities in the United States. College Navigator consists primarily of the latest data from the Integrated Postsecondary Education Data System (IPEDS), the core postsecondary education data collection</li>
+</ul>
+
+<p><a href="http://www.hud.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/hud.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.hud.gov/">Department of Housing and Urban Development (HUD)</a></strong></p>
+
+<ul>
+  <li><strong>HUD User</strong></li>
+  <li><strong>Housing Counselor</strong></li>
+  <li><strong>File a Fair Housing Complaint</strong> - HUD USER provides interested researchers with access to the original data sets generated by PD&amp;R-sponsored data collection efforts, including the American Housing Survey, HUD median family income limits, as well as microdata from research initiatives</li>
+  <li><strong>Low Rent Apartment Search</strong></li>
+  <li><strong>FHEO HUD.gov mobile adaptive web content</strong> - The government gives funds directly to apartment owners, who lower the rents they charge low-income tenants. You can find low-rent apartments for senior citizens and people with disabilities, as well as for families and individuals.</li>
+  <li><strong>Fair Market Rents</strong></li>
+  <li><strong>PD&amp;R Edge</strong> - The Fair market rents (FMR) and Income limits data app will provide users the ability to easily obtain statistics for FMR and income limits by their present or other locations.</li>
+  <li><strong>Housing Discrimination Investigative Checklist</strong></li>
+  <li><strong>HUDMaps</strong> - Provides access to PD&amp;R’s on-line magazine “the Edge”. TheEdgeis an online magazine providing news, a message from the Assistant Secretary, and a wide range of information on housing and community development issues, regulations, and research that is</li>
+  <li><strong>Public Housing (PHA) Contact</strong></li>
+  <li><strong>GMP Monitoring Exhibits Handbook</strong> - View contact information for Public Housing Agencies in your city and state</li>
+  <li><strong>Enterprise GIS</strong></li>
+</ul>
+
+<p><a href="http://www.justice.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/justice.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.justice.gov/">Department of Justice (DOJ)</a></strong></p>
+
+<ul>
+  <li><strong>ATF Trace Data Report</strong></li>
+  <li><strong>Justice.gov</strong></li>
+  <li><strong>StopFraud.gov</strong> - The main website of the Department of Justice</li>
+  <li><strong>National Sex Offender Website and Database</strong></li>
+  <li><strong>Civil Rights Division Report a Violation Web Resources</strong> - The website of the President’s Financial Fraud Task Force hosting information about the work of the task force as well as resources to about fraud - including prevention tips and where to report crimes if they occur.</li>
+  <li><strong>FOIA.gov</strong></li>
+  <li><strong>Uniform Crime Report</strong> - The Civil Rights Division enforces civil rights laws in a wide variety of contexts. This resource directs individuals on how to submit a complaint or report of a potential civil rights violation.</li>
+  <li><strong>Office on Violence Against Women Resource Map</strong></li>
+  <li><strong>National Crime Victimization Survey</strong> - The Uniform Crime Reporting (UCR) Program was conceived in 1929 by the International Association of Chiefs of Police to meet a need for reliable, uniform crime statistics for the nation. In 1930, the FBI was tasked with collecting, publishing, and ar</li>
+</ul>
+
+<p><a href="http://www.labor.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/labor.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.labor.gov/">Department of Labor (DOL)</a></strong></p>
+
+<ul>
+  <li><strong>BLS Employment and Unemployment Data</strong></li>
+  <li><strong>COBRA Continuation Coverage</strong> - A portion of the WHD site with a map and tables of minimum wages across the US and its territories.</li>
+  <li><strong>State Minimum Wage Laws</strong></li>
+  <li><strong>Compliance Assistance: Family and Medical Leave Act (FMLA)</strong></li>
+  <li><strong>Current Population Survey (CPS)</strong></li>
+</ul>
+
+<p><a href="http://www.state.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/state.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.state.gov/">Department of State</a></strong></p>
+
+<ul>
+  <li><strong>Bibliographical Metadata of the Foreign Relations of the United States Series</strong></li>
+  <li><strong>Bibliographical Metadata of the Foreign Relations of the United States Series</strong></li>
+  <li><strong>aoprals.state.gov</strong> - Raw bibliographical metadata for the nearly 500 official historical documentary volumes of U.S. foreign policy in the Foreign Relations of the United States published since 1861</li>
+  <li><strong>aoprals.state.gov</strong></li>
+  <li><strong>Foreign Service Mobile App</strong> - Foreign Travel Per Diem rates</li>
+  <li><strong>J1 Visa Exchange Visitor Program website</strong></li>
+  <li><strong>ForeignAssistance.gov</strong> - The goal of this app is to serve as a learning tool to educate diverse university students (undergraduate and graduate), alumni and mid-career professionals about the various career opportunities in the Foreign Service and provide the information and</li>
+  <li><strong>Usembassy.gov (450+ websites under the usembassy/usconsulate.gov domain)</strong></li>
+  <li><strong>J1 Visa Exchange Visitor Program website</strong> - The goal of the Foreign Assistance Dashboard is to make all U.S. Government foreign assistance investments available in an accessible and easy-to-understand format.</li>
+  <li><strong>Travel.State.gov</strong></li>
+  <li><strong>ForeignAssistance.gov</strong> - Provides an informational portal into Consular Affairs pages on international travel, passports, visa, international child abduction, and international law and policy.</li>
+  <li><strong>U.S. Passport Issuance Data</strong></li>
+  <li><strong>U.S. Passport Issuance Data</strong> - The goal of the Foreign Assistance Dashboard is to make all U.S. Government foreign assistance investments available in an accessible and easy-to-understand format.</li>
+</ul>
+
+<p><a href="http://www.dot.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/dot.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.dot.gov/">Department of Transportation (DOT)</a></strong></p>
+
+<ul>
+  <li><strong>Federal Railroad Administration 10 Year Accident Reports</strong></li>
+  <li><strong>SaferCar App</strong></li>
+  <li><strong>SaferCar.gov Recall and Complaint Data</strong> - DOT will create a user-friendly iOS smartphone product to streamline access to information on SaferCar.gov, including vehicle 5-star safety ratings; vehicle defects; and the Child Safety Seat Locator. The app will also allow consumers to search and s</li>
+  <li><strong>Grade Crossing App</strong></li>
+</ul>
+
+<p><a href="http://www.epa.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/epa.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.epa.gov/">Environmental Protection Agency (EPA)</a></strong></p>
+
+<ul>
+  <li><strong>Envirofacts</strong></li>
+  <li><strong>How’s My Waterway</strong></li>
+  <li><strong>Integrated Health Alerts</strong> - Envirofacts provides access to several EPA databases that provide information about environmental activities that may affect air, water, and land. While an API exists for all of the public data sources in Envirofacts, there is a need to develop dedi</li>
+  <li><strong>Regulations.gov</strong></li>
+  <li><strong>FRS Facility Search Service</strong> - EPA is considering the development of creating mobile access to an integrated set of related advisories (UV Index, Air Quality Index, Fish advisories, and beach closures) to provide a more comprehensive indication of environmental conditions that hav</li>
+  <li><strong>EPA.gov</strong></li>
+  <li><strong>FRS Mobile Facility Data Collection</strong> - EPA is considering replacing the limited mobile access currently available for home page content with a more fully featured page using responsive design.</li>
+</ul>
+
+<p><a href="http://www.ferc.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/ferc.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.ferc.gov/">Federal Energy Regulatory Commission (FERC)</a></strong></p>
+
+<ul>
+  <li><strong>Decisions and Notices</strong></li>
+  <li><strong>Decisions and Notices</strong></li>
+  <li><strong>What’s New</strong> - Provides a monthly collection of Delegated Orders, Notices, and Commission Decisions from Commission Meetings or Notational Voting arranged by date.</li>
+  <li><strong>eTariff</strong></li>
+  <li><strong>eSubscription</strong> - The “What’s New” RSS feed provides news and information details about the events at FERC.</li>
+  <li><strong>eLibrary</strong></li>
+  <li><strong>eService</strong> - Users subscribe or ‘sign up’ for specific dockets and are notified via email about future correspondence. Users have immediate access to the correspondence or documents in eLibrary.</li>
+  <li><strong>eFiling</strong></li>
+  <li><strong>eRegistration</strong> - Provides users with official mailing list or service list for a docketed proceeding.</li>
+  <li><strong>Electric Quarterly Reports (EQR)</strong></li>
+  <li><strong>Electric Quarterly Reports (EQR)</strong> - eRegistration provides the FERC customer an easy-to-use entry point to do business with all FERC Online applications. Think of eRegistration as a form of membership. By registering, the user will receive a single user id and password that allows them</li>
+</ul>
+
+<p><a href="http://www.gsa.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/gsa.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.gsa.gov/">General Services Administration (GSA)</a></strong></p>
+
+<ul>
+  <li><strong>GSA Per Diem</strong></li>
+  <li><strong>USA.gov and GobiernoUSA.gov</strong></li>
+  <li><strong>eBuy</strong> - Per Diem Rates</li>
+  <li><strong>Federal Agency Directory</strong></li>
+  <li><strong>GSA.gov</strong> - Comprehensive directory of all federal agencies to enable the public to better understand how government is organized and to locate agencies of interest.</li>
+  <li><strong>Federal Data Center Consolidation Initiative (FDCCI)</strong></li>
+  <li><strong>Mobile Apps Gallery</strong> - Status of data center closings. Data stored on Data.gov.</li>
+  <li><strong>Fine Arts Database</strong></li>
+  <li><strong>Fine Arts Database</strong> - Gallery on USA.gov of government apps that use government data or provide a government service</li>
+  <li><strong>City Pairs</strong></li>
+  <li><strong>GSA Advantage and National Stock Numbers (NSNs)</strong> - System to provide users with access to the most efficient travel arrangements for government travel.</li>
+  <li><strong>Energy Usage Analysis System</strong></li>
+  <li><strong>Automated Advanced Acquisition Program (AAAP)</strong> - Tracks energy details for various energy sources namely electricity, natural gas, oil, chilled water, steam and renewable energy.</li>
+  <li><strong>GSA Auctions</strong></li>
+  <li><strong>Small Business Dashboard</strong> - Offers the general public and commercial businesses the opportunity to electronically offer building space for lease to the Federal Government. This poses some interesting advantages for accessing this information from a mobile device, including geo-</li>
+  <li><strong>National Stock Numbers (NSNs)</strong></li>
+  <li><strong>Computers for Learning</strong> - The Small Business dashboard provides contract information specific to small business.</li>
+  <li><strong>City Pairs</strong></li>
+  <li><strong>Automated Advanced Acquisition Program (AAAP)</strong> - Federal agencies can report their excess computers and related peripheral equipment to GSA through the GSAXcess® website. Eligible recipients can view and request the available federal excess property at the CFL website.</li>
+  <li><strong>GO.USA.gov</strong></li>
+</ul>
+
+<p><a href="http://www.nasa.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/nasa.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.nasa.gov/">National Aeronautics and Space Administration (NASA)</a></strong></p>
+
+<ul>
+  <li><strong>NASA Data API</strong></li>
+  <li><strong>NASA Apps Store</strong></li>
+  <li><strong>WebTADS</strong> - The data.nasa.gov API allows a machine-readable interface to return metadata from the site organized by category, tag, date, or search term. We’re hoping this allows new and creative visualizations of the data resources NASA provides to the public.</li>
+  <li><strong>ISS Live API</strong></li>
+  <li><strong>ExoAPI</strong> - WebTADS Mobile is a lighter version of the desktop-based WebTADS developed to provide NASA Civil Servants with the convenience of recording time when they’re not in the office or connected via VPN.</li>
+  <li><strong>Visualization Explorer</strong></li>
+  <li><strong>people.nasa.gov</strong> - NASA Visualization Explorer, the coolest way to get stories about advanced space-based research delivered right to your iPad. A direct connection to NASA’s extraordinary fleet of research spacecraft, this app presents cutting edge research stories</li>
+</ul>
+
+<p><a href="http://www.archives.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/archives.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.archives.gov/">National Archives and Records Administration (NARA)</a></strong></p>
+
+<ul>
+  <li><strong>FederalRegister.gov</strong></li>
+  <li><strong>FederalRegister.gov</strong></li>
+  <li><strong>FederalRegiser.gov API</strong> - Integration of the Regulations.gov API into FederalRegister.gov and its API. This integration would provide greater access to public comments and supporting documents in Regulations.gov, and improve process for submitting public comments from Federal</li>
+  <li><strong>Daily Compilation of Presidential Documents</strong></li>
+  <li><strong>Archives.gov</strong> - Expand the FederalRegister.gov API to include the \“Public Inspection Desk.\”</li>
+  <li><strong>Code of Federal Regulations; Federal Register</strong></li>
+  <li><strong>Online Public Access</strong> - Develop an API for FDsys through the Office of Federal Register-Government Printing Office Partnership</li>
+  <li><strong>Online Public Access</strong></li>
+  <li><strong>National Archives Catalog on Wikipedia</strong> - Mobile optimize the Online Public Access resource, the online public portal for National Archives records</li>
+  <li><strong>National Archives Catalog on Wikipedia</strong></li>
+  <li><strong>National Archives Catalog on Flickr</strong> - Make additional National Archives records available through Wikipedia, which is accessible through the MediaWiki API</li>
+  <li><strong>National Archives Catalog on Flickr</strong></li>
+  <li><strong>Today’s Document</strong> - Make additional National Archives records available on Flickr, which is accessible through the Flickr API</li>
+  <li><strong>DocsTeach</strong> - Make improvements to the Today’s Document mobile application</li>
+</ul>
+
+<p><a href="http://www.nsf.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/nsf.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.nsf.gov/">National Science Foundation (NSF)</a></strong></p>
+
+<ul>
+  <li><strong>Scientists and Engineers Statistical Data System (SESTAT)</strong></li>
+  <li><strong>News</strong></li>
+  <li><strong>NSF Award Information</strong> - The Scientists and Engineers Statistical Data System (SESTAT) provides longitudinal information on the education and employment of the college-educated U.S. science and engineering workforce, collected through three biennial surveys. These surveys ca</li>
+  <li><strong>Funding</strong></li>
+  <li><strong>Discoveries</strong> - Information pertaining to NSF awards from 1959 through the present. Data includes principal investigator, awardee institution, NSF program and associated NSF organizations, award amount, award dates, award abstract, and publications and conference pr</li>
+  <li><strong>NSF Research Grant Funding Rates</strong></li>
+  <li><strong>Science &amp; Engineering Indicators</strong> - NSF funding rates for competitive research proposals by organizational unit. (Funding rates constitute the number of awards divided by the number of actions for a given year by organizational unit).</li>
+  <li><strong>Awards</strong></li>
+  <li><strong>Project Outcome Reports</strong> - Searchable database of NSF awards.</li>
+  <li><strong>Staff Directory</strong></li>
+  <li><strong>Events</strong> - Section 7010 of the America COMPETES Act requires that researchers funded in whole or in part by NSF report on the outcomes of the funded research for the general public. Project Outcomes Reports describe the project outcomes or findings, addressing</li>
+  <li><strong>Graduate Research Fellowship Program Awardees and Honorable Mention Recipients</strong></li>
+  <li><strong>Vacancies</strong> - Demographic information for recipients of NSF GRFP awards. The GRFP provides three years of graduate education support for individuals who have demonstrated the potential for significant achievements in science and engineering research</li>
+  <li><strong>Directions</strong> - Current job vacancies at NSF.</li>
+</ul>
+
+<p><a href="http://www.nrc.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/nrc.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.nrc.gov/">Nuclear Regulatory Commission (NRC)</a></strong></p>
+
+<ul>
+  <li><strong>Reactor Operating Status Reports</strong></li>
+  <li><strong>Public Meeting Feedback System</strong></li>
+  <li><strong>Power Reactor Daily Event Reports</strong> - A web-based system that allows the NRC to report on the operating status and power output of commercial power reactors located within the continental United States</li>
+  <li><strong>Top 5 Most-Accessed Agency Web Pages</strong></li>
+  <li><strong>Operating Reactor Inspection Reports</strong> - A web-based system that allows the NRC to report on the daily events and activities occurring at commercial power reactors located within the continental United States</li>
+  <li><strong>Part 21 (Component Defect Reports)</strong> - A web-based system that allows the NRC to report on observations and findings of inspections occurring at commercial power reactors located within the continental United States</li>
+  <li><strong>Public Affairs Daily News Releases</strong> - A web-based system that allows the NRC to report on licensed facilities, activities, or basic component that fail to comply with NRC regulations</li>
+</ul>
+
+<p><a href="http://www.ssa.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/ssa.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.ssa.gov/">Social Security Administration (SSA)</a></strong></p>
+
+<ul>
+  <li><strong>SSA State Agency Monthly Workload Data</strong></li>
+  <li><strong>Mobile Supplemental Security Income (SSI) Wage Reporting Application</strong></li>
+  <li><strong>Mobile Optimized Frequently Asked Questions (FAQs)</strong> - SSI recipients will use this application to report their monthly wage amounts. This enables them to meet their monthly reporting obligations.</li>
+  <li><strong>Hearing Office Average Request Wait Time Report</strong></li>
+  <li><strong>Mobile Contact</strong> - People seeking information from SSA will use this mobile optimized FAQ website to obtain information about numerous topics.</li>
+  <li><strong>Hearing Office Workload Data</strong></li>
+  <li><strong>Hearing Office Average Processing Time Ranking Report</strong> - People seeking to do business with SSA will use this application to get needed information and directions to their local SSA office. In addition they will have access to information about services available by phone and online.</li>
+  <li><strong>Mobile Optimized Life Expectancy Calculator</strong></li>
+  <li><strong>SSA/Dept of State Identity Verification <a href="http://www.apievangelist.com/">Web Service</a></strong> - A monthly ranking of the 165 ODAR hearing offices (including 3 satellite offices) by the average number of days until final disposition of the hearing request. The average shown will be a combined average for all cases completed in that hearing offic</li>
+</ul>
+
+<p><a href="http://www.usaid.gov/"><img src="http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/usaid.png" alt="" /></a></p>
+
+<p><strong><a href="http://www.usaid.gov/">United States Agency for International Development (USAID)</a></strong></p>
+
+<ul>
+  <li><strong>USAID Portfolio Map</strong></li>
+  <li><strong>Development Experience Clearinghouse</strong></li>
+  <li><strong>Famine Early Warning System Network (FEWS NET)</strong> - Map depicts the locations of USAID-funded projects to better monitor development results, improve aid effectiveness and coordination, and enhance transparency and social accountability. The map depicts the total number of unique projects at the admin</li>
+  <li><strong>USAID Portfolio Map</strong></li>
+  <li><strong>U.S. Overseas Loans and Grants (Greenbook)</strong> - A USAID-funded food security and famine early warning system covering more than 30 of the most food insecure countries in the world</li>
+</ul>
+
+<p>I don’t know about you, but I’m starting to get excited about the potential here. With almost 20 departments and agencies on board, and 166 APIs planned–there is a lot of potential for the other 226 departments and agencies to see the potential and get on board.</p>
+
+<p>This list of systems are generated programmatically using each department or agencies machine readable digital strategy. I didn’t have to compile this by hand, which shows the potential of the digital strategy to become a federal API discovery platform.  You can view the <a href="/federal_government_digital_strategy_systems.php" title="real-time version of systems pulled from each department or agencies digital strategy">real-time version of systems pulled from each department or agencies digital strategy</a>, which gets updated every night when I run my monitoring script.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Agencies&searchFields=tags" class="post-tag me-2">#Agencies</a>
+        
+          <a href="/search/?search=Strategy&searchFields=tags" class="post-tag me-2">#Strategy</a>
+        
+          <a href="/search/?search=Digital&searchFields=tags" class="post-tag me-2">#Digital</a>
+        
+          <a href="/search/?search=APIs&searchFields=tags" class="post-tag me-2">#APIs</a>
+        
+          <a href="/search/?search=4&searchFields=tags" class="post-tag me-2">#4</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>August 30, 2012</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

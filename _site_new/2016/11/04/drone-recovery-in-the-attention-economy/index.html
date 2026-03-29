@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Drone Recovery In The Attention Economy - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2016/11/04/drone-recovery-in-the-attention-economy/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Drone Recovery In The Attention Economy - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/kin_drinking.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Drone Recovery In The Attention Economy</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>November  4, 2016</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span>Kin Lane</span>
+      </div>
+
+      
+      <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/kin_drinking.jpg" alt="Drone Recovery In The Attention Economy" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>**Difficult To Keep My Attention<br />
+**When I was young I was always curious when it came to technology. I set up the entire computer lab for my 7th-grade math teacher back in 1983. I programmed computers all through high school, even having a job programming the software used by schools in the State of Oregon in COBOL. I was really good at school until I wasn’t interested. If I got bored, which I did growing up in rural Oregon, I tended not to pay attention in school. Eventually, it got kicked out of high school in my senior year, and I ended up getting into drugs, and a lot of trouble. From 1990 through 1995 I spent my time traveling the country partying and dealing drugs until I finally hit a wall and needed a way out. To get my life out of the ditch I turned to what I already knew, the outdoors (I grew up out in the woods), and computers. I was good at paying attention to the bits and bytes in the emerging world of personal computing, and I would leverage technology to get me out of this mess I found myself in.</p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p><strong>Attention To Family &amp; Career</strong><br />
+After spending a summer in the Oregon wilderness getting clean and healthy, I moved to the nearest city and got to work building a career. By the first dot com bubble, I had found success, married a young lady, and had a beautiful baby girl. I had left my troubled past behind. It was a period in my life where there the harder I worked, the better I felt. I had a good job and bought a house (two), but my attention always seemed to be on finding further business success, a sort of chronic entrepreneurial condition, resulting in having at least one, and often times multiple startup projects going on at any point in time. In total, I had almost 14 separate startups with only two I can even remotely consider a success. Maybe I was too early? Maybe I was just paying attention to the wrong details, and ignoring what mattered to people around me–most critically, to my now ex-wife.</p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p><strong>Attention To My New Partner In Crime</strong><br />
+In 2009, after putting my startup ambitions behind me, and moving on with my life after a divorce, I met an amazing lady. She had a teenage son, and I had a tween daughter. She worked in education technology, and I worked in tech. What we were paying attention to seemed to be compatible. After we connected she increased her focus on the world of educational technology and encouraged me to increase my focus to something that mattered to me. I got to work exploring what that would be–at the time I was finding success using this new thing called the “cloud”. I knew it was going to be significant in the future, but I also knew there was more to it, beyond just things being in the “cloud”.</p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p><strong>Attention To The Business of APIs</strong><br />
+I saw the commercial potential of making digital resources like compute and storage available in the cloud using APIs and increasingly saw entrepreneurs deliver the resources needed for mobile application development using APIs. What did both cloud and mobile have in common? APIs! This is where I would pay attention. As I dug deeper, I noticed there were a number folks paying attention to the technical merits of web APIs, aka REST, but that very few people were paying attention to the business side of API operations. I was watching companies like Twilio, SendGrid, Stripe, and others demonstrate that there was more to this API thing than just having a RESTful API on the open web, and that through sensible identity and access management (API keys, OAuth), rate limiting, metrics and reporting, aka API service composition, that you could develop some pretty interesting business models. I felt I had hit on something significant, and would focus all my attention on the business of APIs. </p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p><strong>Attention To Bankruptcy &amp; Addiction</strong><br />
+Things were going reasonably well. I was paying attention to the fast growing world of APIs. The only problem was that I hadn’t been paying attention to the finances as much as I probably should have, and my previous startups and my divorce were finally catching up with me. I had nowhere else to go, I had to declare bankruptcy. Around the same time, my partner’s son began to have problems in his world, involving depression, and pharmaceutical addiction. He needed some assistance. We tried a change of scenery, moving him to another city in another state, hoping to shift his attention to a new environment, and job. At this point in our career, we were living 100% on the road, traveling to events, evangelizing APIs and education technology, but we did what we could to help him find some balance.</p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p><strong>Attention To The Politics of APIs</strong><br />
+My hard work paying attention to the world of APIs was paying off. I was acquiring new partners, sponsors, and tackling more projects that were focused on the business of APIs, telling the stories of how startups were making an impact across a variety business sector. As I paid more attention to the business of APIs I began to see there was more to APIs, and that things like terms of service, copyright, service level agreements, security, and even regulation were beginning to define the space. My work ended up getting me invited to work at the White House, helping out the Obama team with open data and API strategy across the federal government, and helping the Electronic Frontier Foundation with the Oracle v Google API copyright case. I was still paying very much paying attention to the business of APIs, but increasingly I was also paying more attention to what I had come to call the politics of APIs.</p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p><strong>Attending To My Health &amp; Well Being</strong><br />
+It can easy to get caught up in work, especially when you are an API Evangelist. It can also become a distraction from your actual life, and the material world around you. API Evangelist was a character for me, a persona, but I was living on the road, spending every waking moment as this character–resulting in me paying attention to very little else. During this time I was present, front and center in the API space, but I was neglecting to pay attention to my own health, something that finally caught up with me. Because of the Affordable Care Act (thanks, Obama!) I went to the doctor early this year, and he said that I would not live beyond 50 if I didn’t stop drinking alcohol. I quit drinking immediately. Then shortly after this happened, my partner’s son showed up on our doorstep. He had been kicked out of the treatment center we had placed him in 8 months earlier, after a continued struggle with his depression and addiction. I was sober. He was using opiates again. We had no money. What could we do?</p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p>**Attention In A Material World<br />
+**I did the only thing I knew how to do. I did what I had done before and headed up to the woods to get clean. We rented a truck and drove to Yosemite, and deep into the Sierra Nevada mountains of California. We found ourselves on Peterson Mountain on the border of California and Nevada digging for quartz crystals (another place from my past), after which we would make our way north through North California, and on into Oregon. We avoided cities, and spend our days hiking and clearing trails. We put signs back up. We often were paying attention to trails that seemed forgotten by humans and were just melting back into nature. We rock hopped in rivers and creeks. Swam in the snow melt. We walked 10-15 miles most days, paying attention to the kid’s health, and as I would learn–my own health and sanity along the way. We talked about getting high, the online world, having oxycontin delivered to your door enabled by the Fedex API, being paid for with help from the Bitcoin API. Convenience and online culture. We walked. We walked. We walked. We walked until we slept each day.</p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p><strong>Attention To The Digital World</strong><br />
+While I was marching the kid around the mountains, it was an emotionally and physically exhausting time for both us, and through all of this I didn’t want to neglect (our) more digital selves. The kid is your average 20 something who spends much of his time online, and gaming. While out in the wilderness I wanted to still attend to the digital parts of his (our) personality and I settled in on drones as a viable distraction. Drones worked. We could fly them on the trail, capture video, and as I would come to learn, we could also pay attention to much more around us using this new and wonderful Internet and radio connected device. We chose the DJI Phantom 3 Pro drone which has an iPad as the visual experience for the radio controller. Something that when you put in the kid’s hands he’d head into a bush, under a rock overhang, and focus 100% of his attention to flying and experiencing the world through the drone’s camera. Contrasting his approach, when you put the controller in my hand, I would always keep one eye towards the sky, paying attention to this very expensive, physical object flying through the canyons, over the lakes, and down the river.</p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p><strong>Attention At The Intersection Of Physical &amp; Virtual</strong><br />
+Drones are an amazing piece of tech. They give you an entirely new view of the world. It is a 4K video of the world wrapped in longitude, latitude, altitude, airspeed, and a wealth of other data. The physical drone has its own APIs. The guidance systems have APIs. The camera has its own APIs. The battery has its own APIs. The radio controller has its own APIs. The mobile interface for the controller has its own APIs. It uses APIs to acquire GPS and mapping information. When a wireless network is present it can stream live to Youtube and Facebook using APIs. It receives updates in the controller app regarding nearby airports, military bases, weather, and forest fires using APIs. Data is captured every second when operating and can be uploaded to the cloud synchronously or asynchronously using APIs. It is an amazing Internet of Things (IoT) device to consider when it comes to API usage, as well as just for flying through mountain meadows, and through river canyons.</p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p><strong>The Digitial Demanding Our Attention</strong><br />
+This summer we were able to successfully escape out into the woods, at the tops of mountains, and down into the deep river valleys. However, even though we were often hundreds of miles into the wilderness, the digital world seemed to seek us out. The battery would need a firmware upgrade. The controller was out of sync guidance firmware. Where is the damn cell phone charging cable? The batteries (with firmware)–were they warm enough to operate? When we’d get to the end of trails, and I would grab a cell phone to call for a ride, or communicate that we were safe, the cell service was so bad, we’d wait for hours sometimes for push notifications, alerts, syncs, and other digital noise to complete before we could gather enough bandwidth to send a simple SMS. We eventually learned to remove all but the essential applications, so the demands for our attention were reduced to only what we needed to survive and get from point A to B, and to acquire supplies.</p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p><strong>Attending To My Online World</strong><br />
+As we approached 3 months in the woods, it was time to come back. The kid settled into an apartment in Portland  OR, and I went back to Los Angeles, CA. I turned on all the regular channels, my feeds, email, Github, Twitter, Facebook, LinkedIn, Medium, Slack, Disqus, Reddit, DZone, Lanyrd, Meetup, Stack Overflow, SoundCloud, Tumblr, and others. Everything was demanding my attention. Read Me! We want to work with you! Our tech is the next thing! Come speak at our event! This is the next big thing! By 2020 everyone will be doing this! I realized how much I had been paying attention to, how much momentum I had built up. I realized how much of an API driven assault I was under each day. Now I needed to understand what was actually worthy of my attention, bend the concept of real time to my personal definition, and establish a sort of ”air gap” between me and the digital world that had an unending appetite for my attention.</p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p><strong>Attention On The Drone</strong><br />
+Even back in the real world, the drone continued to linger in my mind, working to get my attention. I was learning more about the device and it’s APIs, and how it consumed APIs in the cloud, and how it used APIs to publish video, images, and other data to the clouds. I learned about how companies like Airmap were providing updates to my DJI drones from federal government agencies like the Department of Interior. I also learned how these agencies had themselves discovered that their fleets of DJI drones were updating video, images, and all this data to Chinese servers. DOH! Drones seemed to be capturing everybody’s attention, as they interfered with forest fires, flew in front of commercial airlines, and gave us a new perspective of our both the material and digital worlds. Providing us with an entirely new way to gather data, develop awareness, and pay attention to infrastructure, nature, or even a police protest. Drones are capturing our attention, but it also feels like they were now also paying attention to us, whether we like it or not.</p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p><strong>Attending To What Matters</strong><br />
+I consider myself a success. I do what I enjoy for a living, and make more than enough money to survive. I have an amazing partner in crime. I have a strong and smart teenage daughter. None of this success is due to any single event along the way. My success is because I always realized that all if this is a journey and never a single destination. It is not the money. It is not about a lack of money. Not any single piece technology. Not about any of the startups I have helped build or worked with. Not even API Evangelist. APIs simple have given me lens to look through as I pay attention to the “seemingly fast-paced” world of web, mobile, and now these amazing devices we are connecting to the web. No single piece of technology is what truly matters, not even the API, it all depends on what I do with them, and how we empower (or hurt) humans with them. This is a human story. This is my story. It is not a technology story. It is my personal journey. The technology is just one of the tools in my toolbox. The usefulness of my tools depends on which ones I choose to use (or not), how I care for them, and the knowledge behind how I put these tools to work. Taking a moment with each application, to always consider what really matters.</p>
+
+<p>Your browser does not support the video tag.</p>
+
+<p>**Definition Of Attention<br />
+**To close I wanted to borrow from my partner in crime Audrey Watters (@audreywatters) on talk a couple of months ago on attention, where she said: According to the OED, “attention” – derived from the Latin “<em>attendere</em>,” to attend – means “The action, fact, or state of attending or giving heed; earnest direction of the mind, consideration, or regard; especially in the phrase <em>to pay or give attention</em>. The mental power or faculty of attending; especially with <em>attract, call, draw, arrest, fix</em>, etc.” “Attention” is a noun, but it refers to an action and/or a state of being. Attention is a mental activity. An earnest activity – which I particularly like. Attention is a military activity. It refers to how we stand and how we see and how we think.</p>
+
+<p>Your browser does not support the video tag. For more information about our journey, you can visit <a href="http://dronerecovery.org/">Drone Recovery</a>, and thank you to the API community for your support.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Economy&searchFields=tags" class="post-tag me-2">#Economy</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>November  4, 2016</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success">Kin Lane</span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

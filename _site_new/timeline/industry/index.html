@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Industry Timeline - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/timeline/industry/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Industry Timeline - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse show" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center active" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="true">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse show" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1 active" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        <div class="row gx-xl-9">
+
+  <div class="col-12 col-xxl-4 order-xxl-1">
+
+    <div class="position-sticky mb-8" style="top: 2rem">
+
+        <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="api-evangelist-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>API Evangelist Services</strong>
+                <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40qNzTt" target="_blank" id="api-evangelist-service-1">Do you know where all of your APIs are?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40nVDnW" target="_blank" id="api-evangelist-service-2">Do you have a source of truth for your schema?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callService(){
+
+                console.log("Calling API Evangelist Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/api-evangelist/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>API Evangelist Services</strong><div onclick="location.href=' + "'" + 'https://services.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist to support enterprise API operations. Click on the icon to learn more about API Evangelist services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="api-evangelist-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="api-evangelist-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("api-evangelist-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotateService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotateService(){
+
+                console.log("Rotating API Evangelist Service!");
+
+                document.getElementById("api-evangelist-service-1").className = "blink_me";
+                document.getElementById("api-evangelist-service-2").className = "blink_me";
+
+                setTimeout(function() { callService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotateService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+        <br>
+        <style>
+    .popover{
+        max-width: 350px;;
+    }            
+  </style>
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <style>
+            .blink_me {
+            animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }            
+        </style>
+        <ul class="list-group list-group-flush bg-body mb-0" id="partner-service-list">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                <span class="text-body-secondary"><strong>Partner Services</strong>
+                      <div onclick="location.href='https://services.apievangelist.com/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div>                 
+                </span>
+            </li>
+                    
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40fgx89" target="_blank" id="partner-service-1">Are you struggling to maintain the APIs you consume?</a>
+                </li>
+                   
+              
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="https://bit.ly/40fgx89" target="_blank" id="partner-service-2">Do you need to standardize the APIs you consume?</a>
+                </li>
+                   
+              
+        </ul>
+
+        <script>
+
+            function callPartnerService(){
+
+                console.log("Calling Partner Service!");
+
+                const options = {
+                    method: 'get'      
+                };
+
+                var service_url = 'https://apievangelist.com/services/partners/index.json';
+                fetch(service_url, options)
+                .then(function (response) {
+                    if (!response.ok) {
+                        console.log("Houston: " + response.status);
+                    }
+                    response.json().then(function (response) {
+                    
+                        var services = '';
+
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<span class="text-body-secondary"><strong>Partner Services</strong><div onclick="location.href=' + "'" + 'https://partners.apievangelist.com/' + "'" + '" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-5 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evangelist Partners" data-bs-content="These are the services being offered by API Evangelist partners and are sponsored services. Click on the icon to learn more about API Evangelist partnership, or click on the links below to learn more about the partner services.">info</div></span>';
+                        services += '</li>';
+
+                        var random_service_one = response[Math.floor(Math.random() * response.length)];   
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_one.url + '" target="_blank" id="partner-service-1"> ' + random_service_one.title + '</a>';
+                        services += '</li>';
+
+                        var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        
+                        if(random_service_one.title == random_service_two.title){
+                            var random_service_two = response[Math.floor(Math.random() * response.length)]; 
+                        }
+                        services += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">';
+                        services += '<a href="' + random_service_two.url + '" target="_blank" id="partner-service-2">' + random_service_two.title + '</a>';
+                        services += '</li>';     
+                        
+                        document.getElementById("partner-service-list").innerHTML = services;
+                        console.log("Done!");
+                        setTimeout(function() { rotatePartnerService(); }, 10000);  
+
+
+                    });
+                })
+                .catch(function (err) {
+                    console.log('Error: ' + err);
+                });                    
+
+            }            
+
+            function rotatePartnerService(){
+
+                //console.log("Rotating Partner Service!");
+
+                document.getElementById("partner-service-1").className = "blink_me";
+                document.getElementById("partner-service-2").className = "blink_me";
+
+                setTimeout(function() { callPartnerService(); }, 4000);                      
+
+            }
+
+            setTimeout(function() { rotatePartnerService(); }, 10000);  
+        </script>        
+    </div>
+</div>
+
+    </div>
+  </div> 
+
+  <div class="row align-items-center mb-7">
+    <div class="col-auto">
+        <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-kin.png" width="65" style="margin-top: 8px; margin-left: 20px;">
+    </div>
+    <div class="col">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-2">
+                <li class="breadcrumb-item"><a class="text-body-secondary" href="#">Timeline</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Industry</li>
+            </ol>
+        </nav>
+        <h1 class="fs-4 mb-0">Industry Timeline</h1>
+    </div>   
+  </div>   
+
+  <div class="col-12 col-xxl-8 order-xxl-0">
+
+    <section>
+      <div class="row">
+        <div class="col">
+
+          <p>I wanted to take my API industry timeline, or at least the last 20+ years, and look at it differently. I wanted to generalize the digital resources that these companies were providing. Rather than focusing solely on moments in time, I wanted to consider how the accumulation of resources has enabled new possibilities. I think I will go through and add a few other examples that may not have made the cut for my history, and reflect more on how we arrived at this point through the lens of digital transformation.</p>
+
+          <div class="tm-timeline uk-margin-large-top" style="margin: 50px 0px 50px 0px">
+    
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1862</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                The Pacific Railroad Acts
+                
+                    <span class="uk-label uk-margin-small-left">Railroad</span>
+                                               
+            </h3>
+            
+                The Pacific Railroad Acts of 1862 drove the construction of a transcontinental railroad in the United States through authorizing the issuance of government bonds and the grants of land to railroad companies. Most of the transcontinentals were heavily subsidized by all levels of government via sub-market-rate loans, land grants, and special local privileges on the frontier.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1862</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                The Pacific Railroad Acts (Amendments)
+                
+                    <span class="uk-label uk-margin-small-left">Railroad</span>
+                                               
+            </h3>
+            
+                AN ACT to establish the gauge of the Pacific railroad and its branches. Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled, That the gauge of the Pacific railroad and its branches throughout their whole extent, from the Pacific coast to the Missouri river, shall be, and hereby is, established at four feet eight and one-half inches.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1878</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                Thurman Act
+                
+                    <span class="uk-label uk-margin-small-left">Railroad</span>
+                                               
+            </h3>
+            
+                An act of Congress (May 7, 1878, 20 Stat. 56), which became known as the Thurman Act, was an amendment to solve disputes over the railroad subsidies, revenues, and loan repayments consequential to the original act.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1887</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                Interstate Commerce Act
+                
+                    <span class="uk-label uk-margin-small-left">Railroad</span>
+                                               
+            </h3>
+            
+                In 1887 Congress passed the Interstate Commerce Act, making the railroads the first industry subject to federal regulation. Congress passed the law largely in response to decades of public demand that railroad operations be regulated.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1906</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                The Hepburn Act
+                
+                    <span class="uk-label uk-margin-small-left">Railroad</span>
+                                               
+            </h3>
+            
+                The Hepburn Act is a 1906 United States federal law that expanded the jurisdiction of the Interstate Commerce Commission (ICC) and gave it the power to set maximum railroad rates. This led to the discontinuation of free passes to loyal shippers. In addition, the ICC could view the railroads' financial records, a task simplified by standardized bookkeeping systems. For any railroad that resisted, the ICC's conditions would remain in effect until the outcome of legislation said otherwise. By the Hepburn Act, the ICC's authority was extended to cover bridges, terminals, ferries, railroad sleeping cars, express companies and oil pipelines.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1910</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                The Mann–Elkins Act
+                
+                    <span class="uk-label uk-margin-small-left">Railroad</span>
+                
+                    <span class="uk-label uk-margin-small-left">Telecommunications</span>
+                                               
+            </h3>
+            
+                The Mann–Elkins Act, also called the Railway Rate Act of 1910, was a United States federal law that strengthened the authority of the Interstate Commerce Commission (ICC) over railroad rates. The law also expanded the ICC's jurisdiction to include regulation of telephone, telegraph and wireless companies, and created a commerce court.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1980</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                The Staggers Rail Act
+                
+                    <span class="uk-label uk-margin-small-left">Railroad</span>
+                                               
+            </h3>
+            
+                The Staggers Rail Act of 1980 is a United States federal law that deregulated the American railroad industry to a significant extent, and it replaced the regulatory structure that had existed since the Interstate Commerce Act of 1887.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1920</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                The Federal Power Act
+                
+                    <span class="uk-label uk-margin-small-left">Electricity</span>
+                                               
+            </h3>
+            
+                The Federal Power Act is a law appearing in Chapter 12 of Title 16 of the United States Code, entitled "Federal Regulation and Development of Power". Enacted as the Federal Water Power Act on June 10, 1920, and amended many times since, its original purpose was to more effectively coordinate the development of hydroelectric projects in the United States.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1935</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                Public Utility Holding Company Act
+                
+                    <span class="uk-label uk-margin-small-left">Electricity</span>
+                                               
+            </h3>
+            
+                The Public Utility Holding Company Act of 1935 (PUHCA),[1] also known as the Wheeler-Rayburn Act, was a US federal law giving the Securities and Exchange Commission authority to regulate, license, and break up electric utility holding companies.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1977</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                The Department of Energy Organization Act
+                
+                    <span class="uk-label uk-margin-small-left">Electricity</span>
+                                               
+            </h3>
+            
+                Congress passed the Department of Energy Organization Act in 1977 in response to a shortage of energy resources and an increasing dependence on foreign energy supplies.66 The Act implemented a national energy program under a single department in the Executive branch––now known as the Department of Energy (hereinafter, “DOE”)––and relocated the FPC within the DOE, renaming it the Federal Energy Regulatory Commission (hereinafter, “the Commission” or “FERC”). The Act awarded the Commission most of the regulatory functions previously held by the FPC.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1978</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                Public Utility Regulatory Policies Act
+                
+                    <span class="uk-label uk-margin-small-left">Electricity</span>
+                                               
+            </h3>
+            
+                The Public Utility Regulatory Policies Act (PURPA, Pub.L. 95–617, 92 Stat. 3117, enacted November 9, 1978) is a United States Act passed as part of the National Energy Act. It was meant to promote energy conservation (reduce demand) and promote greater use of domestic energy and renewable energy (increase supply). The law was created in response to the 1973 energy crisis, and one year in advance of a second energy crisis.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1992</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                Energy Policy Act of 1992
+                
+                    <span class="uk-label uk-margin-small-left">Electricity</span>
+                                               
+            </h3>
+            
+                The Energy Policy Act of 1992, effective October 24, 1992, (102nd Congress H.R.776.ENR, abbreviated as EPACT92) is a United States government act. It was passed by Congress and set goals, created mandates, and amended utility laws to increase clean energy use and improve overall energy efficiency in the United States. The Act consists of twenty-seven titles detailing various measures designed to lessen the nation's dependence on imported energy, provide incentives for clean and renewable energy, and promote energy conservation in buildings.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1996</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                FERC Orders 888 and 889
+                
+                    <span class="uk-label uk-margin-small-left">Electricity</span>
+                                               
+            </h3>
+            
+                FERC Orders 888 and 889 deal with several major aspects of access to transmission. The first is equal access at nondiscriminatory prices. FERC Order 888 requires all public utilities to file tariffs providing nondiscriminatory access to all wholesale users. National Academies of Sciences, Engineering, and Medicine. 1996.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1996</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                FERC Order 2000
+                
+                    <span class="uk-label uk-margin-small-left">Electricity</span>
+                                               
+            </h3>
+            
+                In December of 1999, FERC issued Order 2000.187 The Order requested all transmissionowning utilities188 voluntarily place their transmission facilities under the control of regional transmission organization (hereinafter, “RTO”).189 It was an effort by FERC to move the transmission system away from a vertically-integrated ownership structure and towards a system controlled by an unaffiliated neutral organization.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>2005</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                The 2005 Energy Policy Act
+                
+                    <span class="uk-label uk-margin-small-left">Electricity</span>
+                                               
+            </h3>
+            
+                Passage of the Energy Policy Act of 2005 (hereinafter, “EPAct 2005”) had significant impacts on the electric industry.205 Transmission congestion had become an impediment to the reliable and efficient operation of competitive markets.206 In response, the EPAct 2005 added §219 to the FPA, mandating that the Commission “establish, by rule, incentive-based (including performance-based) rate treatments for the transmission of electric energy in interstate commerce.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1921</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                Willis Graham Act
+                
+                    <span class="uk-label uk-margin-small-left">Telecommunications</span>
+                                               
+            </h3>
+            
+                The Willis Graham Act of 1921 effectively established telephone companies as natural monopolies, citing that "there is nothing to be gained by local competition in the telephone industry." The law effectively released AT&T from terms of its Kingsbury Commitment, allowing the company to acquire competing telephone companies under the oversight of the Interstate Commerce Commission (ICC).
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1921</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                Shreveport Rate Cases
+                
+                    <span class="uk-label uk-margin-small-left">Railroads</span>
+                
+                    <span class="uk-label uk-margin-small-left">Telecommunications</span>
+                                               
+            </h3>
+            
+                The Houston, East and West Texas Railroad and the Texas and Pacific Railway were railroad companies operating rail lines between Shreveport, Louisiana and points in Texas. The Texas Railroad Commission mandated that they charge higher rates on freight travelling between Louisiana and Texas than on freight travelling solely within Texas. The Interstate Commerce Commission (ICC) found that the interstate rates were unreasonable and illegally discriminated against freight traffic originating in Shreveport. The ICC established maximum rates and ordered the railroads to fix their intrastate rate schedules. The railroads challenged the order in United States Commerce Court, alleging that the ICC did not have the power to regulate intrastate commerce.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1930</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                Smith v. Illinois Bell Telephone Co., 282 U.S. 133
+                
+                    <span class="uk-label uk-margin-small-left">Telecommunications</span>
+                                               
+            </h3>
+            
+                In a suit by a public utility to enjoin, as confiscatory, an order of a state commission lowering its rates, an interlocutory injunction was granted upon the condition that, if the injunction were dissolved, the plaintiff should refund to its subscribers the amounts paid by them in excess of those chargeable under the commission's order. A large excess had accumulated when, a number of years later, a final injunction was granted. On appeal, held that, as the decree speaks from its date, the question is necessarily presented not only whether the rate order was confiscatory when made, but also as to its validity during the period that has intervened and as to the respective rights of the company and its subscribers in the funds accumulated. P. 282 U. S. 142.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1934</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                The Communications Act of 1934
+                
+                    <span class="uk-label uk-margin-small-left">Telecommunications</span>
+                                               
+            </h3>
+            
+                The Communications Act of 1934 combined and organized federal regulation of telephone, telegraph, and radio communications. The Act created the Federal Communications Commission (FCC) to oversee and regulate these industries. The Act is updated periodically to add provisions governing new communications technologies, such as broadcast, cable and satellite television.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1913</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                The Kingsbury Commitment
+                
+                    <span class="uk-label uk-margin-small-left">Telecommunications</span>
+                                               
+            </h3>
+            
+                The Kingsbury Commitment is a 1913 out-of-court settlement of the United States government's antitrust challenge against the American Telephone and Telegraph Company (AT&T) for AT&T's then-growing vertical monopoly in the telephone industry. In return for the government's agreement not to pursue its case against the company as a monopolist, AT&T agreed to divest the controlling interest it had acquired in the Western Union telegraph company, and to allow non-competing independent telephone companies to interconnect with the AT&T long-distance network.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1949</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                The U.S. vs. Western Union Lawsuit
+                
+                    <span class="uk-label uk-margin-small-left">Telecommunications</span>
+                                               
+            </h3>
+            
+                On January 14, 1949, the Truman Justice Department filed a civil antitrust suit against AT&T and its manufacturing subsidiary WE – United States v. Western Electric. The Justice Department charged that the two companies had established a monopoly in the manufacture, distribution, and sale of telephone equipment. It asked the court to divest AT&T of WE and split WE into three separate companies, to force WE to sell its 50 percent interest in Bell Labs to AT&T, to require AT&T to competitively bid all purchases, and to license its patents to all applicants.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1982</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                Breakup of the Bell System
+                
+                    <span class="uk-label uk-margin-small-left">Telecommunications</span>
+                                               
+            </h3>
+            
+                The breakup of the Bell System was mandated on January 8, 1982, by an agreed consent decree providing that AT&T Corporation would, as had been initially proposed by AT&T, relinquish control of the Bell Operating Companies, which had provided local telephone service in the United States.[1] This effectively took the monopoly that was the Bell System and split it into entirely separate companies that would continue to provide telephone service. AT&T would continue to be a provider of long-distance service, while the now-independent Regional Bell Operating Companies (RBOCs), nicknamed the "Baby Bells", would provide local service, and would no longer be directly supplied with equipment from AT&T subsidiary Western Electric.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1996</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                Telecommunications Act of 1996
+                
+                    <span class="uk-label uk-margin-small-left">Telecommunications</span>
+                                               
+            </h3>
+            
+                The Teleommunications Act of 1996 is a United States federal law enacted by the 104th United States Congress on January 3, 1996, and signed into law on February 8, 1996, by President Bill Clinton. It primarily amended Chapter 5 of Title 47 of the United States Code, The act was the first significant overhaul of United States telecommunications law in more than sixty years, amending the Communications Act of 1934, and represented a major change in American telecommunication law, because it was the first time that the Internet was included in broadcasting and spectrum allotment. The goal of the law was to "let anyone enter any communications business – to let any communications business compete in any market against any other." The legislation's primary goal was deregulation of the converging broadcasting and telecommunications markets. The law's regulatory policies have been criticized, including the effects of dualistic re-regulation of the communications market.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1912</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                The Radio Act of 1912
+                
+                    <span class="uk-label uk-margin-small-left">Radio</span>
+                                               
+            </h3>
+            
+                The Radio Act of 1912, formally known as "An Act to Regulate Radio Communication" (37 Stat. 302), is a United States federal law which was the first legislation to require licenses for radio stations. It was enacted before the introduction of broadcasting to the general public, and was eventually found to contain insufficient authority to effectively control this new service, so the Act was replaced and the government's regulatory powers increased by the passage of the Radio Act of 1927.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1927</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                The Radio Act of 1927
+                
+                    <span class="uk-label uk-margin-small-left">Radio</span>
+                                               
+            </h3>
+            
+                The Radio Act of 1927 (United States Public Law 632, 69th Congress) was signed into law on February 23, 1927. It replaced the Radio Act of 1912, increasing the federal government's regulatory powers over radio communication, with oversight vested in a newly created body, the Federal Radio Commission. It also was the first legislation to mandate that stations had to show they were "in the public interest, convenience, or necessity" in order to receive a license. The Act was later replaced by the Communications Act of 1934.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>1949</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">
+                FCC Fairness Doctrine
+                
+                    <span class="uk-label uk-margin-small-left">Radio</span>
+                                               
+            </h3>
+            
+                The fairness doctrine of the United States Federal Communications Commission (FCC), introduced in 1949, was a policy that required the holders of broadcast licenses both to present controversial issues of public importance and to do so in a manner that fairly reflected differing viewpoints.[1] In 1987, the FCC abolished the fairness doctrine,[2] prompting some to urge its reintroduction through either Commission policy or congressional legislation.[3] However, later the FCC removed the rule that implemented the policy from the Federal Register in August 2011. The fairness doctrine had two basic elements - It required broadcasters to devote some of their airtime to discussing controversial matters of public interest, and to air contrasting views regarding those matters. Stations were given wide latitude as to how to provide contrasting views - It could be done through news segments, public affairs shows, or editorials. The doctrine did not require equal time for opposing views but required that contrasting viewpoints be presented. The demise of this FCC rule has been cited as a contributing factor in the rising level of party polarization in the United States.
+                         
+            <ul class="uk-list">
+                
+            </ul>
+        </div>
+    </div>
+    
+</div>
+
+          
+          <p>Understanding the regulation of earlier industries will inform the regulation of APIs and how we are using digital resources across applications and system integrations. While there will be some patterns of regulation that won't replay in the modern era, there are also some common patterns and anti-patterns that will shape how government views the tech sector, as well as how common people fear or embrace digital resources as part of their lives. I'll keep layering on my learnings from across other industries until I have a clearer picture of what  might unfold when it comes to the regulation of APIs.</p>
+  
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+
+
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

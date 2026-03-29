@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Standardizing My API Life Cycle Governance - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2020/02/10/standardizing-my-api-life-cycle-governance/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Standardizing My API Life Cycle Governance - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/amusement-park-amusement-park-2-copper-circuit.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Standardizing My API Life Cycle Governance</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>February 10, 2020</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/amusement-park-amusement-park-2-copper-circuit.jpg" alt="Standardizing My API Life Cycle Governance" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I am working on redesigning all of my base APIs, as well as produce a mess of new ones. As part of the process I am determined to be more thoughtful and consistent in how I design and deliver the APIs. API governance always begins with using API definitions, as you can’t govern something you can’t measure and track, so having machine readable artifacts is essential. After that, the design of the API is the first place to look when it comes to standardizing each of the APIs coming off the assembly line. Then I am looking to do my best to begin defining, measuring, and standardizing how I do many other areas of API operations, hleping me keep track of the many moving parts of doing microsservices. </p>
+
+<p>To help me govern the life cycle for each API, I am going to be quantifying and measuring as many of the follow areas as I can. These are what I consider to be the essential building blocks of each API that I deliver, and since I’m using Postman to not just interact with these APIs once they are in production, I will be using Postman to also deliver and govern each stop along the API life cycle. Using Postman collections to define, deliver, and govern each of these areas, using scripts, runners, and monitors to automate the enforcement of standards and consistency across the APIs I am delivering on a regular basis. </p>
+
+<p><strong>Definitions</strong></p>
+
+<ul>
+  <li><strong>OpenAPI</strong> - There is an OpenAPI for each individual API.</li>
+  <li><strong>Collection</strong> - This is a Postman collection for each individual API.</li>
+  <li><strong>JSON Schema</strong> - There is a JSON schema for each individual schema.</li>
+</ul>
+
+<p><strong>Design</strong></p>
+
+<ul>
+  <li>
+    <p><strong>Requests</strong></p>
+
+    <ul>
+      <li><strong>Base</strong> - Ensure the base path is planned.</li>
+      <li><strong>Versioning</strong> - Define how APIs are versioned.</li>
+      <li><strong>Resource</strong> - Evaluate each resource published.</li>
+      <li>
+        <p><strong>Sub-Resources</strong> - Evaluate each sub-resource published.</p>
+      </li>
+      <li><strong>Methods</strong> - Ensure common use of HTTP methods.</li>
+      <li><strong>Actions</strong> - Determine how actions are taken beyond methods.</li>
+      <li><strong>Path Parameters</strong> - Establish common approach for path parameters.</li>
+      <li><strong>Query Parameters</strong> - Establish common approach for query parameters.</li>
+      <li><strong>HTTP Headers</strong> - Evaluate what headers are in use.</li>
+      <li><strong>Body</strong> - Define how request bodies are being put to use.</li>
+      <li><strong>Filtering</strong> - Enure there are common approaches to querying and filtering.</li>
+      <li><strong>Field Selection</strong> - Determine how and if fields can be selected.</li>
+      <li><strong>Date Selection</strong> - Establish common approach to using dates.</li>
+      <li><strong>Time Selection</strong> - Establish common approach to using times.</li>
+      <li><strong>Sorting</strong> - Establish common approach to how sorting is done.</li>
+      <li><strong>Pagination</strong> - Establish common approach to pagination of results.</li>
+      <li><strong>Granularity</strong> - Evaluate the size, scope, and potential granularity of requests.</li>
+      <li><strong>Content Negotiation</strong> - Provide the ability to negotiate different content types.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>HTTP Methods</strong></p>
+    <ul>
+      <li><strong>GET</strong> - Use of GET properly across all APIs.</li>
+      <li><strong>POST</strong> - Use of POST properly across all APIs. </li>
+      <li><strong>PUT</strong> - Use of PUT properly across all APIs.</li>
+      <li><strong>PATCH</strong> - Use of PATCH properly across all APIs.</li>
+      <li><strong>DELETE</strong> - Use of DELETE properly across all APIs.</li>
+      <li><strong>OPTIONS</strong> - Use of OPTIONS properly across all APIs.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/amusement-park-amusement-park-2-blue-circuit.jpg" alt="" /></p>
+
+<ul>
+  <li><strong>Response</strong>
+    <ul>
+      <li><strong>HTTP Headers</strong> - Ensure the common usage of standard or custom HTTP headers</li>
+      <li><strong>Status Codes</strong> - Learn about, and use HTTP status codes in a consistent way across all API operations.</li>
+      <li><strong>Error Handling</strong> - Establish a single error handling strategy, and apply consistently across all API operations.</li>
+      <li><strong>Rate Limits</strong> - Establish a single approach to rate limiting of API resources, and apply consistently across all API operations.</li>
+      <li><strong>Caching</strong> - Learn about common approaches to caching, and make sure it is applied through API operations.</li>
+      <li><strong>Request-Ids</strong> - Employ Request-Ids if possible providing added details for logging, auditing, and reporting on API usage.</li>
+      <li><strong>UTF-8</strong> - UTF-8 is a character encoding capable of encoding all possible characters, or code points.</li>
+      <li><strong>CORS</strong> - Enable CORS for your API endpoints, providing the most flexibility possible in making API calls.</li>
+      <li><strong>JSONP</strong> - Provide JSONP if you are unable to enable CORS, allowing for easier integrations.</li>
+      <li><strong>Compression</strong> - Gzip or other compression format for API responses.</li>
+    </ul>
+  </li>
+  <li><strong>Success</strong>
+    <ul>
+      <li><strong>200 OK -</strong> Standard response for successful HTTP requests. The actual response will depend on the request method used.</li>
+      <li><strong>201 Created -</strong> The request has been fulfilled, resulting in the creation of a new resource.</li>
+      <li><strong>202 Accepted -</strong> The request has been accepted for processing, but the processing has not been completed. The request might or might not be eventually acted upon, and may be disallowed when processing occurs.</li>
+      <li><strong>204 No Content -</strong> The server successfully processed the request and is not returning any content.</li>
+    </ul>
+  </li>
+  <li><strong>Redirection</strong></li>
+  <li>
+    <ul>
+      <li><strong>301 Moved Permanently</strong> - This and all future requests should be directed to the given URI.</li>
+      <li><strong>302 Found</strong> - Common way of performing URL redirection. An HTTP response with this status code will additionally provide a URL in the location header field. The user agent (e.g. a web browser) is invited by a response with this code to make a second, otherwise identical, request to the new URL specified in the location field.</li>
+      <li><strong>303 See Other</strong> - The response to the request can be found under another URI using a GET method. When received in response to a POST (or PUT/DELETE), the client should presume that the server has received the data and should issue a redirect with a separate GET message.</li>
+      <li><strong>304 Not Modified</strong> - Indicates that the resource has not been modified since the version specified by the request headers If-Modified-Since or If-None-Match. In such case, there is no need to retransmit the resource since the client still has a previously-downloaded copy.</li>
+    </ul>
+  </li>
+  <li><strong>User Error</strong>
+    <ul>
+      <li><strong>400 Bad Request -</strong> The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, too large size, invalid request message framing, or deceptive request routing).</li>
+      <li><strong>401 Unauthorized</strong> - Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource.</li>
+      <li><strong>403 Forbidden</strong> - The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.</li>
+      <li><strong>404 Not Found</strong> - The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible.</li>
+      <li><strong>405 Method Not Allowed</strong> - A request method is not supported for the requested resource; for example, a GET request on a form which requires data to be presented via POST, or a PUT request on a read-only resource.</li>
+      <li><strong>406 Not Acceptable</strong> - The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.</li>
+      <li><strong>408 Request Timeout</strong> - The server timed out waiting for the request. According to HTTP specifications: The client did not produce a request within the time that the server was prepared to wait. The client MAY repeat the request without modifications at any later time.</li>
+      <li><strong>409 Conflict -</strong> Indicates that the request could not be processed because of conflict in the request, such as an edit conflict between multiple simultaneous updates.</li>
+      <li><strong>410 Gone -</strong> Indicates that the resource requested is no longer available and will not be available again. This should be used when a resource has been intentionally removed and the resource should be purged. Upon receiving a 410 status code, the client should not request the resource in the future. Clients such as search engines should remove the resource from their indices. Most use cases do not require clients and search engines to purge the resource, and a 404 Not Found may be used instead.</li>
+      <li><strong>411 Length Required -</strong> The request did not specify the length of its content, which is required by the requested resource.</li>
+      <li><strong>412 Precondition Failed -</strong> The server does not meet one of the preconditions that the requester put on the request.</li>
+      <li><strong>415 Unsupported Media Type -</strong> The request entity has a media type which the server or resource does not support. For example, the client uploads an image as image/svg+xml, but the server requires that images use a different format.</li>
+      <li><strong>422 Unprocessable Entity -</strong> The request was well-formed but was unable to be followed due to semantic errors.</li>
+      <li><strong>423 Locked -</strong> The resource that is being accessed is locked.</li>
+      <li><strong>428 Precondition Required -</strong> The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes.</li>
+      <li><strong>429 Too Many Requests -</strong> The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes.</li>
+    </ul>
+  </li>
+  <li><strong>Server Error</strong>
+    <ul>
+      <li><strong>500 Internal Server Error -</strong> A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.</li>
+      <li><strong>501 Not Implemented -</strong> The server either does not recognize the request method, or it lacks the ability to fulfill the request. Usually this implies future availability (e.g., a new feature of a web-service API).</li>
+      <li><strong>503 Service Unavailable -</strong> The server is currently unavailable (because it is overloaded or down for maintenance). Generally, this is a temporary state.</li>
+    </ul>
+  </li>
+  <li><strong>Error Handling</strong>
+    <ul>
+      <li><strong>Error Format</strong> - Having a common approach to delivering errors to API consumers.</li>
+      <li><strong>Problem Details for HTTP APIs</strong> - Leveraging RFC 7807 for machine readable details of errors in a HTTP response.</li>
+    </ul>
+  </li>
+  <li><strong>Media Types</strong>
+    <ul>
+      <li><strong>application/json</strong> - Provide JSON media types for API responses.</li>
+      <li><strong>application/xml -</strong> Provide XML media types for API responses.</li>
+      <li><strong>application/csv -</strong> Provide CSV media types for API responses.</li>
+      <li><strong>text/html -</strong> Provide HTML media types for API responses.</li>
+      <li><strong>application/atom+xml -</strong> Provide ATOM media types for API responses.</li>
+    </ul>
+  </li>
+  <li><strong>Schema</strong>
+    <ul>
+      <li><strong>Name</strong> - Establishing a common approach to naming schema in use across APIs.</li>
+      <li><strong>Description</strong> - Have a clear description for each schema.</li>
+      <li><strong>Property Names</strong> - Establish common practices for how schema properties are named.</li>
+      <li><strong>Property Description</strong> - Ensure that all schema properties have descriptions.</li>
+      <li><strong>Property Types</strong> - Establish common practices for which property types are used.</li>
+      <li><strong>Property Requirements</strong> - Ensure that all properties are defined as required or not required.</li>
+      <li><strong>JSON Schema -</strong> Provide JSON schema represenations for all schema in use.</li>
+      <li><strong>Schema.org</strong> - Consider using Schema.org representations for common data elements.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/amusement-park-amusement-park-2-purp-paper.jpg" alt="" /></p>
+
+<p><strong>Mock</strong></p>
+
+<ul>
+  <li><strong>API</strong> - Provide a virtualized endpoint for each individual API.</li>
+  <li><strong>Data</strong> - Provide virtualized data for each individual API.</li>
+  <li><strong>Versions</strong> - There are mocks available for each version of an API.</li>
+  <li><strong>Coverage</strong> - Ensure that I have 100% coverage of all APIs.</li>
+</ul>
+
+<p><strong>Portal</strong></p>
+
+<ul>
+  <li><strong>GitHub Repo -</strong> There is a GitHub repository for each indiviudal API.</li>
+</ul>
+
+<p><strong>Documentation</strong></p>
+
+<ul>
+  <li><strong>Documentation</strong> - There is documentation published with URL available.</li>
+  <li><strong>Versions</strong> - There is documentation available for each version of an API.</li>
+</ul>
+
+<p><strong>Testing</strong></p>
+
+<ul>
+  <li><strong>Assertions</strong> - Ensure there are assertions available for each API.</li>
+  <li><strong>Monitor</strong> - There is an testing monitor in place from multiple regions.</li>
+  <li><strong>Results</strong> - I have the monitoring results published somewhere for evaluation.</li>
+</ul>
+
+<p><strong>Database</strong></p>
+
+<ul>
+  <li><strong>Script</strong> - A script is available to create the database for each API.</li>
+  <li><strong>Platform</strong> - There is a common database platform for each API.</li>
+  <li><strong>Billing</strong> - What does it cost me to run each database for each API.</li>
+  <li><strong>Backup</strong> - Each database is backed up as part of regular process.</li>
+  <li><strong>Restore</strong> - There is a process for easily restoring the database.</li>
+</ul>
+
+<p><strong>Compute</strong></p>
+
+<ul>
+  <li><strong>Platform</strong> - There is a common compute platform for each API.</li>
+  <li><strong>Billing</strong> - What does it cost me to run each database for each API.</li>
+  <li><strong>Setup</strong> - There is automation in place to setup and configure the compute.</li>
+  <li><strong>Backup</strong> - All code and configuration is backed up as part of regular process.</li>
+  <li><strong>Restore</strong> - There is a process for easily restoring the compute layer.</li>
+</ul>
+
+<p><strong>Storage</strong></p>
+
+<ul>
+  <li><strong>Platform</strong> - There is a common storage platform for each API.</li>
+  <li><strong>Billing</strong> - What does it cost me to run each database for each API.</li>
+  <li><strong>Backup</strong> - All storage is backed up as part of regular process.</li>
+  <li><strong>Restore</strong> - There is a process for easily restoring the storage.</li>
+</ul>
+
+<p><strong>Pipeline</strong></p>
+
+<ul>
+  <li><strong>Platform</strong> - All pipeliens are delivered using common CI/CD platform.</li>
+  <li><strong>Tests</strong> - Run the required tests at the pipeline level to ensure quality.</li>
+</ul>
+
+<p><strong>Management</strong></p>
+
+<ul>
+  <li><strong>Platform</strong> - There is a common database platform for each API.</li>
+  <li><strong>Billing</strong> - What does it cost me to manage each individual API.</li>
+  <li><strong>Plan</strong> - There is a plan in place for each individual API.</li>
+  <li><strong>Activity</strong> - Track all activity of API consumption at the management layer.</li>
+</ul>
+
+<p><strong>Logging</strong></p>
+
+<ul>
+  <li><strong>Shipped</strong> - All logs are shipped to central location for evaluation and auditing.</li>
+  <li><strong>Reporting</strong> - There is reporting in place for each of the APIs log files.</li>
+</ul>
+
+<p><strong>Encryption</strong></p>
+
+<ul>
+  <li><strong>Certificate</strong> - Establish and manage certificate for APIs.</li>
+  <li><strong>Default</strong> - Enforce encryption for all APIs beind delivered.</li>
+</ul>
+
+<p><strong>DNS</strong></p>
+
+<ul>
+  <li><strong>Mock Host</strong> - Ensure there is a mock host for each API.</li>
+  <li><strong>Development Host</strong> - Ensure there is a mock host for each API.</li>
+  <li><strong>Production Host</strong> - Ensure there is a mock host for each API.</li>
+</ul>
+
+<p><strong>Authentication</strong></p>
+
+<ul>
+  <li><strong>API Key</strong> - Mock, development, and production instances all require an API key to use.</li>
+</ul>
+
+<p><strong>Road Map</strong></p>
+
+<ul>
+  <li><strong>Add</strong> - I can easily add items to the road map for each API.</li>
+  <li><strong>Listing</strong> - There is a listing of road map entries for each API.</li>
+  <li><strong>Version</strong> - The road map is organized by version.</li>
+  <li><strong>Activity</strong> - Track the planning activity around the road map.</li>
+</ul>
+
+<p><strong>Issues</strong></p>
+
+<ul>
+  <li><strong>Add</strong> - I can easily add items to the road map for each API.</li>
+  <li><strong>Listing</strong> - There is a listing of road map entries for each API.</li>
+  <li><strong>Version</strong> - The road map is organized by version.</li>
+  <li><strong>Activity</strong> - Track any acitivity when it comes to issues.</li>
+</ul>
+
+<p><strong>Change Log</strong></p>
+
+<ul>
+  <li><strong>Add</strong> - I can easily add items to the road map for each API.</li>
+  <li><strong>Listing</strong> - There is a listing of road map entries for each API.</li>
+  <li><strong>Version</strong> - The road map is organized by version.</li>
+  <li><strong>Activity</strong> - Track the change log activity.</li>
+</ul>
+
+<p><strong>Monitoring</strong></p>
+
+<p><img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/amusement-park-amusement-park-2-atari-asteroids.jpg" alt="" /></p>
+
+<p><strong>Mock</strong></p>
+
+<ul>
+  <li><strong>Monitor</strong> - There is an uptime and availablility monitor in place for multiple regions.</li>
+  <li><strong>Results</strong> - The monitoring results published somewhere for evaluation.</li>
+</ul>
+
+<p><strong>Performance</strong></p>
+
+<ul>
+  <li><strong>Monitor</strong> - There is an performance monitor in place for multiple regions.</li>
+  <li><strong>Results</strong> - The performance results published somewhere for evaluation.</li>
+</ul>
+
+<p><strong>Security</strong></p>
+
+<ul>
+  <li><strong>Monitor</strong> - There is an security monitor in place</li>
+  <li><strong>Results</strong> - The security results published somewhere for evaluation.</li>
+</ul>
+
+<p><strong>Support</strong></p>
+
+<ul>
+  <li><strong>Contact</strong> - There is an owner for each API responsible for supporting it.</li>
+  <li><strong>Ticket</strong> - There is an ability to submit and manage tickets for support.</li>
+  <li><strong>Email</strong> - An email exists for supporting each individual API.</li>
+  <li><strong>Activity</strong> - Track the support activity for each API.</li>
+</ul>
+
+<p><strong>Communication</strong></p>
+
+<ul>
+  <li><strong>Update</strong> - A message, Tweet, or other update is pushed for any activity.</li>
+  <li><strong>Blog</strong> - A blog post is written with each release of an API or other activity.</li>
+  <li><strong>Activity</strong> - Track the communication activity for each API.</li>
+</ul>
+
+<p><strong>Discovery</strong></p>
+
+<ul>
+  <li><strong>APIs.json</strong> - An APIs.json index is created for each API, and included in other indexes.</li>
+</ul>
+
+<p>I am working to establish a single Postman request for each entry in this outline, operating as a single, or suite of collections that I can run as a monitor, or manually against each individual API I am developing–helping keep me honest. <a href="https://github.com/stoplightio/spectral">I’d like to standardize the rules around Spectral, building upon what already exists out in the API space, contributing to a common approach to defining API design governance</a>. My only concern is how to I use Spectral for governing non API design elements, but I’m optimistic that I will be able to use it on OpenAPI, AsyncAPI, JSON Schema, Postman Collections, as well as APIs.json–allowing me to cover all my bases when it comes to API governance.</p>
+
+<p><a href="https://github.com/postman-api-governance/default">To help me manage this effort I have created a GitHub repository to manage all the details, issues, and help me move things forward</a>. I need to spend some time playing with Spectral before I invest more time into the Postman collection, and writing scripts for the governance. I already have some scripting down, but it was just proof of concept stuff, and I’d rather standardize my approach using an open source format, and set of JavaScript libraries. Then I will go ahead and publish some of my APIs and begin moving them through the process I’ve laid out here, helping me establish some of the artifacts and metrics I will need to actually realize this list. While most of the API design elements I can rely on the OpenAPI truth for each API, but for some of the other API life cycle elements I am going to have to get creative using APIs.json, and totally inventing other artifacts to get the job done–eventually getting me where I need to be when it comes to governance.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Standards&searchFields=tags" class="post-tag me-2">#Standards</a>
+        
+          <a href="/search/?search=Governance&searchFields=tags" class="post-tag me-2">#Governance</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>February 10, 2020</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

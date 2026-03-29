@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>The Open Source Community Tooling Built on GraphQL - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2020/06/09/the-open-source-community-tooling-built-on-graphql/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The Open Source Community Tooling Built on GraphQL - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-construction-zone-claw.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">The Open Source Community Tooling Built on GraphQL</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>June  9, 2020</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-construction-zone-claw.jpg" alt="The Open Source Community Tooling Built on GraphQL" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I have done several dives into the world of GraphQL. As part of some API specification work I am not getting another chance to look at what the open source community around GraphQL looks like. Along with other API specifications in our modern API toolbox, I am looking at how GraphQL is being leverage, and what the motivations are behind the open source tooling that has emerged. Resulting in the following list of the cream off the top of the open source tooling build on top of GraphQL, broken down by different stops along the API lifecycle.</p>
+
+<p><strong>Formatting</strong></p>
+
+<ul>
+  <li><a href="https://github.com/prettier/prettier"><strong>prettier</strong></a> - (forks: 2366) (stars: 36727) (watchers: 36727) - prettier is an opinionated code formatter.</li>
+</ul>
+
+<p><strong>Server Code</strong></p>
+
+<ul>
+  <li><a href="https://github.com/strapi/strapi"><strong>strapi</strong></a> - (forks: 3163) (stars: 25979) (watchers: 25979) - 🚀 open source node.js headless cms to easily build customisable apis</li>
+  <li><a href="https://github.com/parse-community/parse-server"><strong>parse server</strong></a> - (forks: 4325) (stars: 17541) (watchers: 17541) - api server module for node/express</li>
+  <li><a href="https://github.com/graphql/graphql-js"><strong>graphql js</strong></a> - (forks: 1553) (stars: 16196) (watchers: 16196) - a reference implementation of graphql for javascript</li>
+  <li><a href="https://github.com/hasura/graphql-engine"><strong>graphql engine</strong></a> - (forks: 1428) (stars: 17060) (watchers: 17060) - blazing fast, instant realtime graphql apis on postgres with fine grained access control, also trigger webhooks on database events.</li>
+  <li><a href="https://github.com/apollographql/apollo-server"><strong>apollo server</strong></a> - (forks: 1391) (stars: 9707) (watchers: 9707) - 🌍 graphql server for express, connect, hapi, koa and more</li>
+  <li><a href="https://github.com/graphql-go/graphql"><strong>graphql</strong></a> - (forks: 557) (stars: 6454) (watchers: 6454) - an implementation of graphql for go / golang</li>
+  <li><a href="https://github.com/api-platform/api-platform"><strong>api platform</strong></a> - (forks: 669) (stars: 5853) (watchers: 5853) - rest and graphql framework to build modern api-driven projects (server-side and client-side)</li>
+  <li><a href="https://github.com/graphql-python/graphene"><strong>graphene</strong></a> - (forks: 612) (stars: 5758) (watchers: 5758) - graphql framework for python</li>
+  <li><a href="https://github.com/prisma-labs/graphql-yoga"><strong>graphql yoga</strong></a> - (forks: 366) (stars: 5763) (watchers: 5763) - 🧘 fully-featured graphql server with focus on easy setup, performance &amp; great developer experience</li>
+  <li><a href="https://github.com/graphql/express-graphql"><strong>express graphql</strong></a> - (forks: 483) (stars: 5319) (watchers: 5319) - create a graphql http server with express.</li>
+  <li><a href="https://github.com/rmosolgo/graphql-ruby"><strong>graphql ruby</strong></a> - (forks: 936) (stars: 4297) (watchers: 4297) - ruby implementation of graphql</li>
+  <li><a href="https://github.com/graphql-java/graphql-java"><strong>graphql java</strong></a> - (forks: 781) (stars: 4267) (watchers: 4267) - graphql java implementation</li>
+  <li><a href="https://github.com/webonyx/graphql-php"><strong>graphql php</strong></a> - (forks: 404) (stars: 3692) (watchers: 3692) - a php port of graphql reference implementation</li>
+  <li><a href="https://github.com/graph-gophers/graphql-go"><strong>graphql go</strong></a> - (forks: 353) (stars: 3340) (watchers: 3340) - graphql server with a focus on ease of use</li>
+  <li><a href="https://github.com/graphql-python/graphene-django"><strong>graphene django</strong></a> - (forks: 533) (stars: 2898) (watchers: 2898) - integrate graphql into your django project.</li>
+  <li><a href="https://github.com/kriasoft/nodejs-api-starter"><strong>nodejs api starter</strong></a> - (forks: 466) (stars: 2841) (watchers: 2841) - 💥 a graphql api boilerplate (template) made with node.js, typescript, and postgresql</li>
+  <li><a href="https://github.com/graphql-rust/juniper"><strong>juniper</strong></a> - (forks: 246) (stars: 2725) (watchers: 2725) - graphql server library for rust</li>
+  <li><a href="https://github.com/glennreyes/graphpack"><strong>graphpack</strong></a> - (forks: 71) (stars: 1945) (watchers: 1945) - ☄️ a minimalistic zero-config graphql server.</li>
+  <li><a href="https://github.com/nuwave/lighthouse"><strong>lighthouse</strong></a> - (forks: 227) (stars: 1819) (watchers: 1819) - a framework for serving graphql from laravel</li>
+  <li><a href="https://github.com/folkloreinc/laravel-graphql"><strong>laravel graphql</strong></a> - (forks: 243) (stars: 1809) (watchers: 1809) - facebook graphql for laravel 5. it supports relay, eloquent models, validation and graphiql.</li>
+  <li><a href="https://github.com/khoren93/SwiftHub"><strong>SwiftHub</strong></a> - (forks: 277) (stars: 1655) (watchers: 1655) - github ios client in rxswift and mvvm-c clean architecture</li>
+</ul>
+
+<p><strong>Stacks</strong></p>
+
+<ul>
+  <li><a href="https://github.com/kriasoft/react-starter-kit"><strong>react starter kit</strong></a> - (forks: 3975) (stars: 20147) (watchers: 20147) - react starter kit — isomorphic web app boilerplate (node.js, express, graphql, react.js, babel, postcss, webpack, browsersync)</li>
+  <li><a href="https://github.com/gridsome/gridsome"><strong>gridsome</strong></a> - (forks: 351) (stars: 6270) (watchers: 6270) - ⚡️ a jamstack framework for vue.js</li>
+  <li><a href="https://github.com/kriasoft/react-firebase-starter"><strong>react firebase starter</strong></a> - (forks: 727) (stars: 4115) (watchers: 4115) - boilerplate (seed) project for creating web apps with react.js, graphql.js and relay</li>
+  <li><a href="https://github.com/wesbos/Advanced-React"><strong>Advanced React</strong></a> - (forks: 1544) (stars: 2566) (watchers: 2566) - starter files and solutions for full stack advanced react and graphql</li>
+  <li><a href="https://github.com/icebob/vue-express-mongo-boilerplate"><strong>vue express mongo boilerp</strong></a> - (forks: 711) (stars: 2576) (watchers: 2576) - :star: mevn full stack js web app boilerplate with nodejs, express, mongo and vuejs</li>
+  <li><a href="https://github.com/leebenson/reactql"><strong>reactql</strong></a> - (forks: 166) (stars: 1733) (watchers: 1733) - universal react+graphql starter kit: react 16, apollo 2, mobx, emotion, webpack 4, graphql code generator, react router 4, postcss, ssr</li>
+  <li><a href="https://github.com/graphql-boilerplates/react-fullstack-graphql"><strong>react fullstack graphql</strong></a> - (forks: 309) (stars: 1242) (watchers: 1242) - starter projects for fullstack applications based on react &amp; graphql.</li>
+</ul>
+
+<p><strong>Generators</strong></p>
+
+<ul>
+  <li><a href="https://github.com/dotansimha/graphql-code-generator"><strong>graphql code generator</strong></a> - (forks: 470) (stars: 4861) (watchers: 4861) - graphql code generator with flexible support for custom plugins and templates</li>
+  <li><a href="https://github.com/quicktype/quicktype"><strong>quicktype</strong></a> - (forks: 417) (stars: 4718) (watchers: 4718) - generate types and converters from json, schema, and graphql</li>
+  <li><a href="https://github.com/MichalLytek/type-graphql"><strong>type graphql</strong></a> - (forks: 388) (stars: 4554) (watchers: 4554) - create graphql schema and resolvers with typescript, using classes and decorators!</li>
+  <li><a href="https://github.com/99designs/gqlgen"><strong>gqlgen</strong></a> - (forks: 453) (stars: 4516) (watchers: 4516) - go generate based graphql server library</li>
+</ul>
+
+<p><strong>Clients</strong></p>
+
+<ul>
+  <li><a href="https://github.com/liyasthomas/postwoman"><strong>postwoman</strong></a> - (forks: 1233) (stars: 19675) (watchers: 19675) - 👽 a free, fast and beautiful api request builder (web alternative to postman) <a href="https://postwoman.io/">https://postwoman.io</a></li>
+  <li><a href="https://github.com/Kong/insomnia"><strong>insomnia</strong></a> - (forks: 813) (stars: 13702) (watchers: 13702) - leading open source api client, and collaborative api design platform for graphql, and rest</li>
+  <li><a href="https://github.com/apollographql/react-apollo"><strong>react apollo</strong></a> - (forks: 830) (stars: 6839) (watchers: 6839) - :recycle: react integration for apollo client</li>
+  <li><a href="https://github.com/FormidableLabs/urql"><strong>urql</strong></a> - (forks: 176) (stars: 4585) (watchers: 4585) - the highly customizable and versatile graphql client.</li>
+  <li><a href="https://github.com/prisma-labs/graphql-request"><strong>graphql request</strong></a> - (forks: 122) (stars: 2435) (watchers: 2435) - minimal graphql client supporting node and browsers for scripts or simple apps</li>
+  <li><a href="https://github.com/imolorhe/altair"><strong>altair</strong></a> - (forks: 111) (stars: 2293) (watchers: 2293) - ✨⚡️ a beautiful feature-rich graphql client for all platforms.</li>
+  <li><a href="https://github.com/apollographql/apollo-ios"><strong>apollo ios</strong></a> - (forks: 426) (stars: 2529) (watchers: 2529) - 📱 a strongly-typed, caching graphql client for ios, written in swift</li>
+  <li><a href="https://github.com/apollographql/apollo-android"><strong>apollo android</strong></a> - (forks: 431) (stars: 2350) (watchers: 2350) - :robot: a strongly-typed, caching graphql client for the jvm, android and kotlin native</li>
+  <li><a href="https://github.com/f/graphql.js"><strong>graphql.js</strong></a> - (forks: 81) (stars: 2097) (watchers: 2097) - a simple and isomorphic graphql client for javascript</li>
+  <li><a href="https://github.com/zino-app/graphql-flutter"><strong>graphql flutter</strong></a> - (forks: 278) (stars: 1964) (watchers: 1964) - a graphql client for flutter, bringing all the features from a modern graphql client to one easy to use package.</li>
+  <li><a href="https://github.com/khoren93/SwiftHub"><strong>SwiftHub</strong></a> - (forks: 277) (stars: 1655) (watchers: 1655) - github ios client in rxswift and mvvm-c clean architecture</li>
+  <li><a href="https://github.com/flatlogic/react-dashboard"><strong>react dashboard</strong></a> - (forks: 243) (stars: 1100) (watchers: 1100) - 🔥react dashboard - isomorphic admin dashboard template (react.js, bootstrap, node.js, graphql, react router, babel, webpack, browsersync) 🔥</li>
+</ul>
+
+<p><strong>Database</strong></p>
+
+<ul>
+  <li><a href="https://github.com/prisma/prisma1"><strong>prisma1</strong></a> - (forks: 958) (stars: 16992) (watchers: 16992) - 💾 database tools incl. orm, migrations and admin ui (postgres, mysql &amp; mongodb)</li>
+  <li><a href="https://github.com/pubkey/rxdb"><strong>rxdb</strong></a> - (forks: 618) (stars: 13334) (watchers: 13334) - :computer: 🔄 :iphone: a realtime database for javascript applications</li>
+  <li><a href="https://github.com/dgraph-io/dgraph"><strong>dgraph</strong></a> - (forks: 952) (stars: 13326) (watchers: 13326) - fast, distributed graph db</li>
+  <li><a href="https://github.com/graphile/postgraphile"><strong>postgraphile</strong></a> - (forks: 439) (stars: 8981) (watchers: 8981) - execute one command (or mount one node.js middleware) and get an instant high-performance graphql api for your postgresql database!</li>
+  <li><a href="https://github.com/edgedb/edgedb"><strong>edgedb</strong></a> - (forks: 98) (stars: 3925) (watchers: 3925) - the next generation relational database.</li>
+  <li><a href="https://github.com/join-monster/join-monster"><strong>join monster</strong></a> - (forks: 173) (stars: 2071) (watchers: 2071) - a graphql to sql query execution layer for query planning and batch data fetching.</li>
+  <li><a href="https://github.com/mickhansen/graphql-sequelize"><strong>graphql sequelize</strong></a> - (forks: 165) (stars: 1728) (watchers: 1728) - graphql &amp; relay for mysql &amp; postgres via sequelize</li>
+  <li><a href="https://github.com/graphql-boilerplates/react-fullstack-graphql"><strong>react fullstack graphql</strong></a> - (forks: 309) (stars: 1242) (watchers: 1242) - starter projects for fullstack applications based on react &amp; graphql.</li>
+  <li><a href="https://github.com/hasura/skor"><strong>skor</strong></a> - (forks: 40) (stars: 1220) (watchers: 1220) - now part of hasura graphql engine. listen to postgres events and forward them as json payloads to a webhook</li>
+  <li><a href="https://github.com/dbohdan/automatic-api"><strong>automatic api</strong></a> - (forks: 57) (stars: 1350) (watchers: 1350) - a list of software that turns your database into a rest/graphql api</li>
+</ul>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+  <li><a href="https://github.com/apollographql/apollo-client"><strong>apollo client</strong></a> - (forks: 1703) (stars: 14000) (watchers: 14000) - :rocket: a fully-featured, production ready caching graphql client for every ui framework and graphql server</li>
+  <li><a href="https://github.com/marmelab/react-admin"><strong>react admin</strong></a> - (forks: 2818) (stars: 13019) (watchers: 13019) - a frontend framework for building b2b applications running in the browser on top of rest/graphql apis, using es6, react and material design</li>
+</ul>
+
+<p><strong>Specification</strong></p>
+
+<ul>
+  <li><a href="https://github.com/graphql/graphql-spec"><strong>graphql spec</strong></a> - (forks: 930) (stars: 12723) (watchers: 12723) - graphql is a query language and execution engine tied to any backend service.</li>
+</ul>
+
+<p><strong>Commerce</strong></p>
+
+<ul>
+  <li><a href="https://github.com/spree/spree"><strong>spree</strong></a> - (forks: 4458) (stars: 10383) (watchers: 10383) - spree is an open source e-commerce platform for rails 6 with a modern ux, optional pwa frontend, rest api, graphql, several official extensions and 3rd party integrations. over 1 million downloads and counting! check it out:</li>
+  <li><a href="https://github.com/reactioncommerce/reaction"><strong>reaction</strong></a> - (forks: 1882) (stars: 10196) (watchers: 10196) - reaction is an api-first, headless commerce platform built using node.js, react, graphql. deployed via docker and kubernetes.</li>
+  <li><a href="https://github.com/mirumee/saleor"><strong>saleor</strong></a> - (forks: 2914) (stars: 7966) (watchers: 7966) - a modular, high performance, headless e-commerce storefront built with python, graphql, django, and reactjs.</li>
+</ul>
+
+<p><strong>Caching</strong></p>
+
+<ul>
+  <li><a href="https://github.com/graphql/dataloader"><strong>dataloader</strong></a> - (forks: 401) (stars: 9275) (watchers: 9275) - dataloader is a generic utility to be used as part of your application’s data fetching layer to provide a consistent api over various backends and reduce requests to those backends via batching and caching.</li>
+  <li><a href="https://github.com/tannerlinsley/react-query"><strong>react query</strong></a> - (forks: 273) (stars: 7673) (watchers: 7673) - ⚛️ hooks for fetching, caching and updating asynchronous data in react</li>
+</ul>
+
+<p><strong>Communities</strong></p>
+
+<ul>
+  <li><a href="https://github.com/withspectrum/spectrum"><strong>spectrum</strong></a> - (forks: 903) (stars: 8817) (watchers: 8817) - simple, powerful online communities.</li>
+</ul>
+
+<p><strong>CMS</strong></p>
+
+<ul>
+  <li><a href="https://github.com/relax/relax"><strong>relax</strong></a> - (forks: 656) (stars: 8286) (watchers: 8286) - new generation cms on top of react, redux and graphql</li>
+  <li><a href="https://github.com/tipeio/tipe"><strong>tipe</strong></a> - (forks: 172) (stars: 2049) (watchers: 2049) - 🎉 next generation api-first cms for developers. generate an api-first cms from a graphql schema with offline prototyping and an inline editor</li>
+  <li><a href="https://github.com/birkir/prime"><strong>prime</strong></a> - (forks: 89) (stars: 1438) (watchers: 1438) - ✨open source graphql cms</li>
+</ul>
+
+<p><strong>Serverless</strong></p>
+
+<ul>
+  <li><a href="https://github.com/apex/up"><strong>up</strong></a> - (forks: 316) (stars: 7774) (watchers: 7774) - deploy infinitely scalable serverless apps, apis, and sites in seconds to aws.</li>
+  <li><a href="https://github.com/webiny/webiny-js"><strong>webiny js</strong></a> - (forks: 205) (stars: 2601) (watchers: 2601) - platform for building serverless applications and api (node.js, react, graphql)</li>
+  <li><a href="https://github.com/serverless/serverless-graphql"><strong>serverless graphql</strong></a> - (forks: 345) (stars: 2444) (watchers: 2444) - serverless graphql examples for aws appsync and apollo</li>
+</ul>
+
+<p><strong>Education</strong></p>
+
+<ul>
+  <li><a href="https://github.com/howtographql/howtographql"><strong>howtographql</strong></a> - (forks: 872) (stars: 6736) (watchers: 6736) - the fullstack tutorial for graphql</li>
+  <li><a href="https://github.com/learnapollo/learnapollo"><strong>learnapollo</strong></a> - (forks: 67) (stars: 5306) (watchers: 5306) - 👩🏻‍🏫 learn apollo - a hands-on tutorial for apollo graphql client (created by graphcool)</li>
+</ul>
+
+<p><strong>GitHub</strong></p>
+
+<ul>
+  <li><a href="https://github.com/devhubapp/devhub"><strong>devhub</strong></a> - (forks: 432) (stars: 6771) (watchers: 6771) - tweetdeck for github - filter issues, activities &amp; notifications - web, mobile &amp; desktop</li>
+</ul>
+
+<p><strong>Sandbox</strong></p>
+
+<ul>
+  <li><a href="https://github.com/prisma-labs/graphql-playground"><strong>graphql playground</strong></a> - (forks: 497) (stars: 6178) (watchers: 6178) - 🎮 graphql ide for better development workflows (graphql subscriptions, interactive docs &amp; collaboration)</li>
+</ul>
+
+<p><strong>Visualizations</strong></p>
+
+<ul>
+  <li><a href="https://github.com/APIs-guru/graphql-voyager"><strong>graphql voyager</strong></a> - (forks: 276) (stars: 5088) (watchers: 5088) - 🛰️ represent any graphql api as an interactive graph</li>
+</ul>
+
+<p><strong>Editors</strong></p>
+
+<ul>
+  <li><a href="https://github.com/graphql-editor/graphql-editor"><strong>graphql editor</strong></a> - (forks: 191) (stars: 4552) (watchers: 4552) - 📺 visual editor &amp; graphql ide. draw graphql schemas using visual 🔷 nodes and explore graphql api with beautiful ui. even 🐒 can do that!</li>
+</ul>
+
+<p><strong>Toolchains</strong></p>
+
+<ul>
+  <li><a href="https://github.com/ardatan/graphql-tools"><strong>graphql tools</strong></a> - (forks: 507) (stars: 3390) (watchers: 3390) - :wrench: build, mock, and stitch a graphql schema using the schema language</li>
+</ul>
+
+<p><strong>Converters</strong></p>
+
+<ul>
+  <li><a href="https://github.com/google/rejoiner"><strong>rejoiner</strong></a> - (forks: 122) (stars: 2982) (watchers: 2982) - generates a unified graphql schema from grpc microservices and other protobuf sources</li>
+</ul>
+
+<p><strong>Workflows</strong></p>
+
+<ul>
+  <li><a href="https://github.com/apollographql/apollo-tooling"><strong>apollo tooling</strong></a> - (forks: 401) (stars: 2513) (watchers: 2513) - ✏️ tooling for development and production apollo workflows</li>
+</ul>
+
+<p><strong>Permissions</strong></p>
+
+<ul>
+  <li><a href="https://github.com/maticzav/graphql-shield"><strong>graphql shield</strong></a> - (forks: 98) (stars: 2291) (watchers: 2291) - 🛡 a graphql tool to ease the creation of permission layer.</li>
+</ul>
+
+<p><strong>Mocking</strong></p>
+
+<ul>
+  <li><a href="https://github.com/APIs-guru/graphql-faker"><strong>graphql faker</strong></a> - (forks: 138) (stars: 1807) (watchers: 1807) - 🎲 mock or extend your graphql api with faked data. no coding required.</li>
+</ul>
+
+<p><strong>Command Line Interface</strong></p>
+
+<ul>
+  <li><a href="https://github.com/Urigo/graphql-cli"><strong>graphql cli</strong></a> - (forks: 100) (stars: 1472) (watchers: 1472) - 📟 command line tool for common graphql development workflows</li>
+</ul>
+
+<p><strong>Real Time</strong></p>
+
+<ul>
+  <li><a href="https://github.com/apollographql/subscriptions-transport-ws"><strong>subscriptions transport w</strong></a> - (forks: 271) (stars: 1266) (watchers: 1266) - :arrows_clockwise: a websocket client + server for graphql subscriptions</li>
+</ul>
+
+<p>Similar to my snapshots of OpenAPI, Swagger, Postman, and gRPC, I think that GraphQL paints an interesting picture. Of course, this is just a look at what open source is available on GitHub, but it still provides an interesting look at what is important to GraphQL providers and consumers. I am going to keep making my way through each dimension of the API specification landscape, identifying the top tooling that exists. Once I get through it all I will do more side by side comparison of what is going on, looking for the challenges and opportunities when it comes to open source tooling as part of a diverse API toolbox.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=GraphQL&searchFields=tags" class="post-tag me-2">#GraphQL</a>
+        
+          <a href="/search/?search=Tooling&searchFields=tags" class="post-tag me-2">#Tooling</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>June  9, 2020</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

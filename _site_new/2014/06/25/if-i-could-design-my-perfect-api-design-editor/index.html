@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>If I Could Design My Perfect API Design Editor - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2014/06/25/if-i-could-design-my-perfect-api-design-editor/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="If I Could Design My Perfect API Design Editor - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-editor.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">If I Could Design My Perfect API Design Editor</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>June 25, 2014</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-editor.png" alt="If I Could Design My Perfect API Design Editor" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p><strong>Swagger is now Open API Definition Format (OADF) – <a href="http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/">**READ MORE**</a></strong></p>
+
+<p>/kinlane-productions2/</p>
+
+<p><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/swagger/swagger-editor.png" alt="" /></p>
+
+<p>I’ve been thinking a lot about API design lately, the services and tooling coming from Apiary, RAML and Swagger, and wanted to explore some thoughts around what I would consider to be killer features for the killer API design editor. Some of these thoughts are derived from the features I’ve seen in Apiary and RAML editor, and most recently the Swagger Editor, but I’d like to *riff* on a little bit and play with what could be the next generation of features.</p>
+
+<p>While exploring my dream API design editor, I’d like to walk through each group of features, organized around my indentations and objectives around my API designs.</p>
+
+<p><strong>Getting Started</strong><br />
+When kicking off the API design process, I want to be able to jumpstart the API design lifecycle from multiple sources. There will be many times that I want to start from a clean slate, but many times I will be working from existing patterns.</p>
+
+<ul>
+  <li><strong>Blank Canvas -</strong> I want to start with a blank canvas, no patterns to follow today, I’m painting my masterpiece. </li>
+  <li><strong>Import Existing File -</strong> I have a loose API design file laying around, and I want to be able to open, import and get to work with it, in any of the formats. </li>
+  <li><strong>Fork From Gallery</strong> - I want to fork one of my existing API designs, that I have stored in my API design taller (I will outline below). </li>
+  <li><strong>Import From API Commons -</strong> Select an existing API design pattern from API Commons and import into editor, and API design gallery.</li>
+</ul>
+
+<p>My goals in getting started with API design, will be centered around re-use the best patterns across the API space, as well as my own individual or company API design gallery. We are already mimicking much of this behavior, we just don’t have a central API design editor for managing these flows.</p>
+
+<p><strong>Editing My API Design</strong><br />
+Now we get to the meat of the post, the editor. I have several things in mind when I’m actually editing a single API definition, functions I want, actions I want to take around my API design. These are just a handful of the editor specific features I’d love to see in my perfect API design editor.</p>
+
+<ul>
+  <li><strong>Multi-Lingual -</strong> I want my editor to word with API definitions in API Blueprint, RAML and Swagger. I prefer to edit my API designs in JSON, but I know many people I work with will prefer markdown or YAML based, and my editor needs to support fluid editing between all popular formats. </li>
+  <li>Internationalization - How will I deal with making my API resources available to developers around the world? Beyond API definition langugages, how do I actually make my interfaces accessible, and understood by consuers around the glob.e</li>
+  <li><strong>Dictionary -</strong> I will outline my thoughts around a central dictionary below, but I want my editor to pull from a common dictionary, providing a standardized language that I work from, as well as my company when designing interfaces, data models, etc. </li>
+  <li><strong>Annotation -</strong> I want to be able to annotate various aspects of my API designs and have associated notes, conversation around these elements of my design. </li>
+  <li><strong>Highlight</strong> - Built in highlighting would be good to support annotations, but also just reference various layers of my API designs to highlighting during conversations with others, or even allowing the reverse engineer of my designs, complete with the notes and layers of the onions for others to follow. </li>
+  <li><strong>Source View -</strong> A view of my API design that allows me to see the underlying markdown, YAML, or JSON and directly edit the underlying API definition language. </li>
+  <li><strong>GUI View -</strong> A visual view of my API design, allowing for adding, editing and removing elements in an easy GUI interface, no source view necessary for designing APIs. </li>
+  <li><strong>Interactive View -</strong> A rendered visual view of my API, allowing me to play with either my live API or generated mock API, through interactive documentation within my editors. </li>
+  <li><strong>Save To Gallery -</strong> When I’m done working with my API designs, all roads lead to saving it to my gallery, once saved to my working space I can decide to take other actions. </li>
+  <li><strong>Suggestions -</strong> I want my editor to suggest the best patterns available to me from private and public sources. I shouldn’t ever design my APIs in the dark.</li>
+</ul>
+
+<p>The API design editor should work like most IDE’s we see today, but keep it simple, and reflect extensibility like <a href="https://atom.io/">GIthub’s Atom editor</a>. My editor should give me full control over my API designs, and enable me to take action in many pre-defined or custom ways one could imagine.</p>
+
+<p><strong>Taking Action</strong><br />
+My API designs represent the truth of my API, at any point within its lifecycle, from initial conception to deprecation. In my perfect editor I should be able to take meaningful actions around my API designs. For the purposes of this story I’m going to group actions into some meaningful buckets, that reflect the expanding areas of the API lifecycle. You will notice the four areas below, reflect the primary areas I track on via API Evangelist.</p>
+
+<p><strong>Design Actions</strong><br />
+Early on in my API lifecycle, while I’m crafting new designs, I will need to take action around my designs. Designs actions will help me iterate on designs before I reach expensive deployment and management phases.</p>
+
+<ul>
+  <li><strong>Mock Interface -</strong> With each of my API designs I will need to generate mock interfaces that I can use to play with what my API will deliver. I will also need to share this URL with other stakeholders, so that they can play with, and provide feedback on my API interface. </li>
+  <li><strong>Copy / Paste -</strong> API designs will evolve and branch out into other areas. I need to be able to copy / paste or fork my API designs, and my editor, and API gallery should keep track of these iterations so I don’t have to. The API space essentially copy and pastes common patterns, we just don’t have a formal way of doing it currently. </li>
+  <li><strong>Email Share -</strong> I want to easily share my API designs via email with other key stakeholders that will be part of the API lifecycle. Ideally I wouldn’t be emailing around the designs themselves, just pointers to the designs and tools for interacting within the lifecycle. </li>
+  <li><strong>Social Share -</strong> Sometimes the API design process all occur over common social networks, and in some cases be very public. I want to be able to easily share all my API designs via my most used social networks like Github, Twitter and LinkedIn. </li>
+  <li><strong>Collaboration -</strong> API design should not be done in isolation, and should be a collaborative process with all key stockholders. I would like to to even have <a href="http://etherpad.org/">Etherpad style real-time interactions</a> around the design process with other users.</li>
+</ul>
+
+<p>API design actions are the first stop, in the expanding API design lifecycle. Being able to easily generate mocks, share my interfaces and collaborate with other stakeholders. Allowing me to quickly, seamlessly take action throughout the early design cycles will save me money, time and resources early on—something that only become more costly and restrictive later on in the lifecycle.</p>
+
+<p><strong>Deployment Actions</strong><br />
+Next station in the API design lifecycle, is being able to deploy APIs from my designs. Each of the existing API definition formats provide API deployment solutions, and with the evolution in cloud computing, we are seeing even more complete, modular ways to take action around your API designs.</p>
+
+<ul>
+  <li><strong>Server</strong> - With each of my API designs, I should be able to generate server side code in the languages that I use most. I should be able to register specific frameworks, languages, and other defining aspects of my API server code, then generate the code and make available for download, or publish using Github and FTP. </li>
+  <li><strong>Container</strong> - Cloud computing has matured, producing a new way of deploying very modular architectural resources, giving rise to a new cloud movement, being called containers. Container virtualization will do for APIs, what APIs have done for companies in the last 14 years. Containers provide a very defined, self-contained way of deploying APIs from API design blueprints, ushering a new ay of deploy API resources in coming years.</li>
+</ul>
+
+<p>I need help to deploy my APIs, and with container solutions like <a href="http://www.docker.com/">Docker</a>, I should have predefined packages I can configure with my API designs, and deploy using popular container solutions from Google, Amazon, or other coud provider.</p>
+
+<p><strong>Management Actions</strong><br />
+After I deploy an API I will need to use my API definitions as a guide for an increasing number of areas of my management process, not just the technical, but the business and politics of my API operations.</p>
+
+<ul>
+  <li><strong>Documentation</strong> - Generating of interactive API documentation is what kicked off the popularity of API design, and importance of API definitions. Swagger provider the Swagger UI, and interactive, hands-on way of learning about what an API offered, but this wasn’t the only motivation—providing up to date documentation as well, added just the <a href="http://apievangelist.com/2014/06/05/what-are-the-incentives-for-creating-machine-readable-api-definitions/">incentives API providers needed to generate machine readable documentation</a>.</li>
+  <li><strong>Code</strong> - Second to API documentation, providing code samples, libraries, and SDKS is one of the best ways you can eliminate friction when on boarding new API users. API definitions provide a machine readable set of instructions, for generating the code that is necessary throughout the API management portion of the API lifecycle. </li>
+  <li><strong>Embeddable</strong> - JavaScript provides a very meaningful way to demonstrate the value of APis, and embeddable JavaScript should always be part of the API lifecycle. Machine readable API definitions can easily generate visualizations that can be used in documentation, and other aspects of the API lifecycle.</li>
+</ul>
+
+<p>I predict, with the increased adoption of machine readable API formats like API Blueprint, RAML and Swagger, we will see more layers of the API management process be expanded on, further automating how we manage APis.</p>
+
+<p><strong>Discovery Actions</strong><br />
+Having your APIs found, and being able to find the right API design for integration, are two sides of an essential coin in the API lifecycle. We are just now beginning to get a handle on what is need when it comes to API discovery.</p>
+
+<ul>
+  <li><strong><a href="http://apisjson.org/">APIs.json</a> -</strong> I should be able to organize API designs into groupings, and publish an APIs.json file for these groups. API designs should be able to be organized in multiple groups, organized by domain and sub-domain. </li>
+  <li><strong><a href="http://apicommons.org/">API Commons</a> -</strong> Thanks to Oracle, the copyright of API of API definitions will be part of the API lifecycle. I want the ability to manage and publish all of my designs to the API Commons, or any other commons for sharing of API designs.</li>
+</ul>
+
+<p>The discovery of APIs has long been a problem, but is just now reaching the critical point where we have to start develop solutions for not just finding APIs, but also understanding what they offer, and the details of of the interface, so we can make sense of not just the technical, but business and political decisions around API driven resources.</p>
+
+<p><strong>Integration Actions</strong><br />
+Flipping from providing APIs to consuming APIs, I envision a world where I can take actions around my API designs, that focus on the availability, and integration of valuable API driven resources. As an API provider, I need as much as assistance as I can, to look at my APIs from an external perspective, and being able to take action in this area will grow increasingly important.</p>
+
+<ul>
+  <li><strong>Testing</strong> - Using my machine readable API definitions, I should be able to publish testing definitions, that allow the execution of common API testing patterns. I’d love to see providers like SmartBear, Runscope, APITools, and API Metrics offer services around the import of API design generated definitions. </li>
+  <li><strong>Monitoring</strong> - Just like API testing, I want to be able to generate definition that allow for the monitoring of API endpoints. My API monitoring tooling should allow for me to generate standard monitoring definitions, and import and run them in my API monitoring solution.</li>
+</ul>
+
+<p>I’d say that API integration is the fastest growing area of the AP space, second only to API design itself. Understanding how an API operates, from an integrators perspective is valuable, not just to the integrator, but also the provider. I need to be thinking about integration issues early on in the API design lifecyle to minimize costly changes downstream.</p>
+
+<p><strong>Custom Actions</strong><br />
+I’ve laid out some of the essential actions I’d like to be able to take around my API definitions, throughout the API lifecycle. I expect the most amount of extensibility from my API design editor, in the future, and should be able to extend in any way that I need.</p>
+
+<ul>
+  <li><strong>Links</strong> - I need a dead simple way to take an API design, and publish to a single URL, from within my editor. This approach provides the minimum amount of extensibility I will need in the API design lifecycle. </li>
+  <li><strong>JavaScript</strong> - I will need to run JavaScript that I write against all of my API designs, generating specific results that I will need throughout the API design process. My editor should allow me to write, store and execute JavaScript against all my API designs. </li>
+  <li><strong>Marketplace</strong> - There should be a marketplace to find other custom actions I can take against my API designs. I want a way to publish my API actions to the marketplace, as well as browse other API actions, and add them to my own library.</li>
+</ul>
+
+<p>We’ve reached a point where using API definitions like API Blueprint, RAML, and Swagger are common place, and being able to innovate around what actions we take throughout the API design lifecycle will be critical to the space moving forward, and how companies take action around their own APIs.</p>
+
+<p><strong>API Design Gallery</strong><br />
+In my editor, I need a central location to store and manage all of my API designs. I’m calling this a gallery, because I do not want it only to be a closed off repository of designs, I want to encourage collaboration, and even public sharing of common API design patterns. I see several key API editor features I will need in my API design gallery.</p>
+
+<ul>
+  <li><strong>Search</strong> - I need to be able to search for API designs, based upon their content, as well as other meta data I assign to my designs. I should be able to easily expose my search criteria, and assist potential API consumers in finding my API designs as well. </li>
+  <li><strong>Import</strong> - I should be able to import any API design from a local file, or provide a public URL and generate local copy of any API design. Many of my Api designs will be generated from an import of existing definition. </li>
+  <li><strong>Versioning</strong> - I want the API editor of the future to track all versioning of my API designs. Much like managing the code around my API, I need the interface definitions to be versioned, and the standard feature set for managing this process. </li>
+  <li><strong>Groups</strong> - I will be working on many API designs, will various stakeholders in the success of any API design. I need a set of features in my API design editor to help me manage multiple groups, and their access to my API designs. </li>
+  <li><strong>Domains</strong> - Much like the Internet itself, I need to organize my APIs by domain. I have numerous domains which I manage different groups of API resources. Generally I publish all of my API portals to Github under a specific domain, or sub-domain—I would like this level of control in my API design editor. </li>
+  <li><strong>Github</strong> - Github plays a central role in my API design lifecycle. I need my API design editor to help me manage everything, via public and private Github repository. Using the Github API, my API design editor should be able to store all relevant data on Github—seamlessly. </li>
+  <li><strong>Diff</strong> - What are the differences between my API designs? I would like to understand the difference between each of my API resource types, and versions of each API designs. It might be nice if I could see the difference between my API designs, and other public APIs I might consider as competitors. </li>
+  <li><strong>Public</strong> - The majority of my API designs will be public, but this won’t be the case with every designer. API designers should have the control over whether or not their API designs are public or private.</li>
+</ul>
+
+<p>My API design gallery will be the central place i work from. Once I reach a critical mass of designs, I will have many of the patterns I need to design, deploy and manage my APIs. It will be important for me to have access to import the best patterns from public repositories like API Commons. To evolve as an API designer, I need to easily create, store, and evolve my own API designs, while also being influenced by the best patterns available in the public domain.</p>
+
+<p><strong>Embeddable Gallery</strong><br />
+Simple visualization can be an effective tool in helping demonstrate the value an API delivers. I want to be able to manage open, API driven visualizations, using platforms like D3.js. I need an arsenal of embeddable, API driven visualizations to help tell the store of the API resources I provide, give me a gallery to manage them.</p>
+
+<ul>
+  <li><strong>Search</strong> - I want to be able to search the meta data around the API embeddable tools I develop. I will have a wealth of graphs, charts, and more functional, JavaScript widgets I generate. </li>
+  <li><strong>Browse</strong> - Give me a way to group, and organize my embeddable tools. I want to be able to organize, group and share my embeddable tools, not just for my needs, but potentially to the public as well.</li>
+</ul>
+
+<p>A picture is worth a thousand words, and being able to easily generate interactive visualizations, driven by API resources, that can be embedded anywhere is critical to my storytelling process. I will use embeddable tools to tell the story of my API, but my API consumers will also use these visualizations as part of their efforts, and hopefully develop their own as well.</p>
+
+<p><strong>API Dictionary</strong><br />
+I need a common dictionary to work from when designing my APIs. I need to use consistent interface names, field names, parameters, headers, media types, and other definitions that will assist me in providing the best API experience possible.</p>
+
+<ul>
+  <li><strong>Search</strong> - My dictionary should be available to me in any area of my API design editor, and in true IDE style, while I’m designing. Search of my dictionary, will be essential to my API design work, but also to the groups that I work with. </li>
+  <li><strong>Schema.org</strong> - There are plenty of existing patterns to follow when defining my APIs, and my editor should always assist me in adopting, and reusing any existing pattern I determine as relevant to my API design lifecycle, like <a href="http://schema.org/">Schema.org</a>.</li>
+  <li><strong>Dublin Core</strong> - How do I define the metadata surrounding my API designs? My editor should assist me to use common metadata patterns available like <a href="http://dublincore.org/">Dublin Core</a>.</li>
+  <li><strong>Media Types</strong> - The results of my API should conform to existing document representations, when possible. Being able to explore the existing media types available while designing my API would help me emulate existing patterns, rather than reinventing the wheel each time I design an API. </li>
+  <li><strong>Custom</strong> - My dictionary should be able to be driven by existing definitions, or allow me to import and and define my own vocabulary based upon my operations. I want to extend my dictionary to meet the unique demands of my API design lifecycle.</li>
+</ul>
+
+<p>I want my API design process to be driven by a common dictionary that fits my unique needs, but borrows from the best patterns already available in the public space. We already emulate many of the common patterns we come across, we just don’t have any common dictionary to work from, enforcing healthy design via my editor.</p>
+
+<p><strong>An Editor For Just My Own API Design Process</strong><br />
+This story has evolved over the last two weeks, as I spent time in San Francisco, discussing API design, then spending a great deal of time driving, and thinking about the API design lifecycle. This is all part of my research into the expanding world of <a href="http://design.apievangelist.com/">API design</a>, which will result in a white paper soon, and my intent is to just shed some light on what might be some of the future <a href="http://design.apievangelist.com/building-blocks.html">building blocks of the API design space</a>. My thoughts are very much based in my own selfish API design needs, but based upon what i’m seeing in the growing API design space.</p>
+
+<p><strong>An Editor For A Collective API Design Process</strong><br />
+With this story, I intend to help keep the API design process a collaborative, and when relevant a public affair. I want to ensure we work from existing patterns that are defined in the space, and as we iterative and evolve APIs, we collectively share our best patterns. You should not just be proud of your API designs, and willing to share publicly, you should demonstrate the due diligence that went into your design, attribute the patterns you used to contribute to your designs, and share back your own interpretation—encouraging re-use and sharing further downstream.</p>
+
+<p><strong>What Features Would Be Part of Your Perfect API Design Editor</strong><br />
+This is my vision around the future of API design, and what I’d like to have in my editor—what is yours? What do you need as part of your API design process? Are API definitions part of the “truth” in your API lifecycle? I’d love to hear what tools and services you think should be made available, to assist us in designing our APIs.</p>
+
+<p><strong>Disclosure:</strong> I’m still editing and linking up this post. Stay tuned for updates.</p>
+
+<p><strong>Updated November 27, 2015:</strong> Links were updated as part of switch from Swagger to OADF (<a href="http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/"><strong>READ MORE</strong></a>)</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=My&searchFields=tags" class="post-tag me-2">#My</a>
+        
+          <a href="/search/?search=Design&searchFields=tags" class="post-tag me-2">#Design</a>
+        
+          <a href="/search/?search=Editor&searchFields=tags" class="post-tag me-2">#Editor</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>June 25, 2014</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

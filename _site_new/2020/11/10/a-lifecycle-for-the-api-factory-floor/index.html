@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>A Lifecycle for the API Factory Floor - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2020/11/10/a-lifecycle-for-the-api-factory-floor/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="A Lifecycle for the API Factory Floor - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-factory-road.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">A Lifecycle for the API Factory Floor</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>November 10, 2020</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-factory-road.jpg" alt="A Lifecycle for the API Factory Floor" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I am pushing forward a handful of conversations with enterprise organizations about how to better formalize their API lifecycle workflow. To help me load up my talking points in my head I wanted to publish a post here on the blog. Using Postman I am finally able to actually execute on my API lifecycle visions in the most tangible way since I started doing all of this in 2010. Postman is a Swiss Army Knife that allows me to approach the API lifecycle in a variety of ways depending on the situation I find myself in. While there are a lot of unknowns when it comes to doing APIs, there are also a lot of common patterns to use, and this is an exploration of these standardized approaches, allowing me to articulate them tomorrow during some discussions.</p>
+
+<h3 id="workspace">Workspace</h3>
+
+<p>It may seem obvious, but I am finding that having a well defined workspace to define, design, and manage APIs is essential to doing APIs well. Having a single place where you can find the contract and supporting artifacts that define each of the stops along the API lifecycle is needed to do all of this at scale, and consistently collaborate and move APIs forward. There are a handful of elements needed to define an API workspace when you are using Postman.</p>
+
+<ul>
+  <li><strong>Name</strong> - You’d be surprised at how important the name of an API can be when it comes to making it discoverable and usable by consumers–how you name your API will define a lot about it.</li>
+  <li><strong>Description</strong> - A well written description for an API is your first impression when it comes to onboarding consumers. They shouldn’t be a novel, but it should provide enough information for a consumer to understand what it does.</li>
+  <li><strong>Administrative Team Members</strong> - Have your leadership team identified, make sure they are plugged in and know what needs to be done, giving them the control and observability they need.</li>
+  <li><strong>Collaborator Team Members -</strong> Define all the other stakeholders who should have direct access to the workspace, and be able to provide feedback, and iterate upon each of the APIs being delivered.</li>
+</ul>
+
+<p>Do not underestimate the importance of a dedicated workspace that is designed for iterating upon your APIs. You should be able to access your OpenAPI, and the collections driving docs, mocks, tests, as well as all of the orchestration applied using runners and monitors via a single shareable URL. You’d be surprised at how much a workspace can anchor the evolution of your APIs, providing the cornerstone needed to move things forward in a logical, coherent, and collaborative manner.</p>
+
+<h3 id="machine-readable-contracts">Machine Readable Contracts</h3>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-factory-road.jpg" alt="" /></p>
+
+<p>The centerpiece of any workspace should be one or many OpenAPI contracts defining what is possible with an API. Providing the details of each request and response as a single human and machine readable contract, that can be versioned, evolved, and used across the API lifecycle. Postman allows you to place the contract for your APIs at the center of your workspace, providing a dashboard where you can manage and collaborate around the evolution of the two dimensions of your API contracts.</p>
+
+<ul>
+  <li><strong>OpenAPI</strong> - OpenAPI 3.0 is the default specification in use across the API sector. While its last version, known as Swagger, is still the dominant in usage, OpenAPI 3.0 is being adopted by all of the top API providers–making it the natural choice for defining APIs.</li>
+  <li><strong>JSON Schema</strong> - OpenAPI 3.0 uses the latest draft of JSON Schema, providing the ability to define the underlying objects used as part of API requests and responses, helping stabilize how data, content, and algorithms are made available via the web.</li>
+</ul>
+
+<p>Don’t underestimate the power of fully fleshed out OpenAPI definition. An incomplete one will cause all kinds of friction downstream, and a robust, well defined OpenAPI will enrich your documentation, provide robust mock servers, and deliver robust contract, integration, performance, security, and other types of testing. Invest in your OpenAPI definitions, and your JSON Schema, making them discoverable via the one or more workspaces where teams are doing what they do best.</p>
+
+<h3 id="api-contract-management">API Contract Management</h3>
+
+<p>Even once you publish the first draft of your API contracts, you will then need to iterate upon them, and put them to work driving the different stops along the API lifecycle. Postman provides a variety of features that make the management of APIs more collaborative, and automated, helping reduce the load when it comes to the mundane work of delivering APIs. Here are some of the contract management capabilities available when it comes to moving APIs forward as a team, within one or many known API workspaces.</p>
+
+<ul>
+  <li><strong>Naming</strong> - How you name your APIs can play a role in how you manage it, helping make it discoverable, groupable, and more manageable. </li>
+  <li><strong>Filtering</strong> - It is easy to filter APIs based upon their name, allowing you to type a couple of characters and have exactly the aPIs you need available for managing.</li>
+  <li><strong>Version(s)</strong> - Managing change is the only way you will be able to get a handle on the rapid iteration of API contracts across teams, providing a framework for moving forward without breaking the past.</li>
+  <li><strong>Autocomplete</strong> - Being able to autocomplete your API contracts helps speed up the evolution of API contracts, putting all of the OpenAPI objects at your fingertips when it comes to moving them forward.</li>
+  <li><strong>Validation</strong> - Knowing in real time whether or not your contract follows the OpenAPI specification to the letter, making sure each of your API contracts will work in other tools and services across the API lifecycle.</li>
+  <li><strong>Watching</strong> - When you are managing many different APIs it helps to be able to follow only the APIs you need to stay in tune with, providing a steady stream of relevant details about what is happening with each contract.</li>
+  <li><strong>Change Log</strong> - You have to be able to stay in tune with what has happened with each API being defined, leveraging the change lot to understand the movement made by each API team without asking each of them for an update.</li>
+  <li><strong>Comments</strong> - The ability to communicate around each API is essential, but being able to comment on the API, as well as the moving parts of the API, will help keep the feedback loop self contained.</li>
+  <li><strong>Reports</strong> - You will need reporting on top of the evolution of your APIs, to help- you stay in tune with how they are being used throughout the design, development, and deployment of your APIs.</li>
+  <li><strong>Share</strong> - API contracts need to be shared. They should be shareable via other workspaces so that they can be worked upon and applied in a variety of different contexts.</li>
+  <li><strong>Sync</strong> - API contracts might also be needed in other services, tooling, and as part of an organizational source control, making GitHub two-way sync a pretty critical link in the chain.</li>
+</ul>
+
+<p>If you have managed an OpenAPI contract for an API you know how much detail work is involved. Having a workspace, with a variety of digital capabilities to help you manage your OpenAPI is essential. It will take you 10X the effort to do it all by hand. Postman helps to put the automation and workflow in the management of OpenAPIs in a way that can be wielded in a variety of different ways depending on how you are looking to deliver your APIs, allowing for teams to do things differently to suit their specific needs.</p>
+
+<h3 id="api-lifecycle-collection">API Lifecycle Collection</h3>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-factory-road.jpg" alt="" /></p>
+
+<p>In Postman, from each OpenAPI you can generate one or many collections that help you deliver on a variety of stops along the API lifecycle. The OpenAPI is the truth of each API, but collections are how you realize that APIs potential across the API lifecycle. For each collection, there are a number of ways in which they can be leveraged within Postman to help move forward the conversation around each API, providing a standardized approach to delivering APIs across teams.</p>
+
+<ul>
+  <li><strong>Naming</strong> - Like your APIs, the naming of your collections will help define the value they deliver and make them discoverable and usable by team members.</li>
+  <li><strong>Filtering</strong> - The name will feed into the filtering of collections as well, allowing you to only see the collections you need, depending on how you have planned the naming of your APIs.</li>
+  <li><strong>Versioning</strong> - You will need to be linking each collection with each version of your APIs, keeping them in lock step when iit comes to managing change across each layer of your API infrastructure.</li>
+  <li><strong>Validation</strong> - With the ability to generate one or many collections, you will need to automate the validation of each collection, ensuring they are always in alignment with the central API contract it serves.</li>
+  <li><strong>Documentation</strong> - Collections in Postman natively have documentation built in, but then you can also use it to publish documentation that can be shared via a URL with any consumer or other stakeholder.</li>
+  <li><strong>Mock Server</strong> - Collections can also be used to generate mock servers, leverage the examples included within each OpenAPI to mock the functionality of each API being delivered so it can be used to test and iterate upon each API.</li>
+  <li><strong>Contract Testing</strong> - The prerequisite and test scripts for each individual collection, folder, or request can be used to actually test the contract for each API, ensuring each API stays in alignment with the contract.</li>
+  <li><strong>Contract Visualization / Exploration</strong> - The Postman visualizer available for each individual API request can be used to make the overall API more visual, explorable, and interactive for consumers trying to put it to work.</li>
+  <li><strong>Forking / Pull Requests / Merging</strong> - The ability for team collaborators to be able to fork, submit pull requests, and merge changes with collections, allows for each aPI to be evolved in a more collaborative way.</li>
+  <li><strong>Comments</strong> - Like the feedback loop around APIs, the moving parts of each collection should allow for commenting, and team engagement, providing a feedback loop for each stop along the API lifecycle.</li>
+  <li><strong>Share</strong> - Collections can be shared between workspaces like APIs, but they can also be shared via URLs and Run in Postman buttons, making each stop along the API lifecycle shareable and reusable.</li>
+</ul>
+
+<p>Each collection reflects the OpenAPI it was generated from, but provides the ability to execute upon a variety of stops along the API lifecycle. The collection provides the details you need to inform the road map of the API, but also publish documentation, power mock servers, and more importantly be able to test all aspects of how an API operates. Each collection represents a portion of the enterprise API factory floor that is in use across teams, driving the delivery of API infrastructure.</p>
+
+<h3 id="operational-collections">Operational Collection(s)</h3>
+
+<p>Beyond the lifecycle collection that moves each API forward, there is another operational level collection that helps define an API throughout its lifespan. Providing a blueprint for the overall design and maturity of an API, that can be used to see how well, or how badly an API is progressing–allowing them to move forward in an orderly fashion.</p>
+
+<ul>
+  <li><strong>Governance</strong> - This collection actually tests the surface area of an API, and ensures the design of the API actually matches what is expected of each API across an organization. Helping test the structure rather than the instance of each API, and just it’s request and response.</li>
+</ul>
+
+<p>An API governance collection is just one example of what operational level collections can do. Demonstrating how collections can be used to mature and harden APIs, impacting not just a single API and it’s consumers, but also impact overall API operations, and affecting how a platform works, or doesn’t work.</p>
+
+<h3 id="api-environments">API Environments</h3>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-factory-road.jpg" alt="" /></p>
+
+<p>Environments are used as a governor against each collection used across the API lifecycle. Allowing the base URL, keys, tokens, and other essentials to be abstracted away from each collection, then applied using variables as part of the execution process. Environments help define each stage of an APIs life, using them to design, develop, operate, and manage the maturation of each API.</p>
+
+<ul>
+  <li><strong>Mock</strong> - Providing a mocked representation of an API as it is being designed, developed, and for use to test an API in production.</li>
+  <li><strong>Staging</strong> - Allowing for an API to be staged and moved from development into production, and verified as it becomes available for use.</li>
+  <li><strong>Production</strong> - Providing the details of an API as it is available in a production environment and available for integration with applications.</li>
+  <li><strong>Govern</strong> - Managing the stage of governance for each API, providing a blueprint of the maturity of each API that is running in production.</li>
+</ul>
+
+<p>Environments allow for separation of each stage of an APIs evolution, as well as the overall maturity of the API. Providing a snapshot of it during design and development, deployment, and while in production, then also keeping track of each of the details along the way helping ensure that APIs are in alignment with the bigger picture across an organization–moving APIs forward in concert, helping keeping the API factory floor operating at full speed.</p>
+
+<h3 id="observability">Observability</h3>
+
+<p>THe API lifecycle needs to be observable across all APIs if they are to be moved forward in concert. APIs do not do well when designed, developed, and operated in a silo. Observability is all about monitoring APIs using their existing outputs, capturing the exhaust from their evolution and operation using a handful of mechanisms. </p>
+
+<ul>
+  <li><strong>Monitoring</strong> - Being able to monitor each aspect of an APIs operation, from contract testing to security testing, everything should be able to be monitored on a schedule from any region.</li>
+  <li><strong>History</strong> - History should be default. You shouldn’t have to chase it. The exhaust from the usage of APIs across the lifecycle should be available to use to evaluate the overall health of each aPI.</li>
+  <li><strong>Activity</strong> - The regular activity of the API factory floor should be accessible showing how each API, collections, environments, mock servers, monitors, and other moving parts are being configured.</li>
+</ul>
+
+<p>Platform observability should be default, configurable, and extensible. Allowing for the exhaust and activity from the API factory floor to be used to optimize operations. Helping fine tune the engine of operations by being able to see into what is going on with each API without having to chase things down, ensuring observability isn’t an afterthought, and something that is essential to managing the direction you are headed with your API infrastructure at scale.</p>
+
+<h3 id="automation">Automation</h3>
+
+<p>Alongside observability, automation should be a default, and part of each stop along the API lifecycle. Automation is how you make the API factory floor move and produce at scale. With Postman, there are three distinct ways in which the API lifecycle can be automated, allowing you to move each API forward, but also keep them aligned and scheduled to produce what is needed to achieve the optimal workflow.</p>
+
+<ul>
+  <li><strong>Runners</strong> - Each component of the API lifecycle that is defined as a collection should be able to be run manually by a developer as part of each API workspaces.</li>
+  <li><strong>Monitors</strong> - Each component of the API lifecycle that is defined as a collection should be able to be run on a schedule from multiple regions around the world.</li>
+  <li><strong>Pipelines</strong> - Each component of the API lifecycle that is defined as a collection should be able to be run as part of an existing CI/CD pipeline, weaving the API lifecycle into existing operations.</li>
+</ul>
+
+<p>Each API should leverage automation for defining and delivering itself. Moving it forward while also keeping it observable and governed throughout it’s life. Automation is the conveyor belts for the factory that keep APIs evolving forward, but also the digital capabilities they enable. Allowing each stop along the API lifecycle to be defined as a collection, then executed manually, on a schedule, or as part of the existing software development lifecycle.</p>
+
+<h3 id="openapi-factory-orchestration">OpenAPI Factory Orchestration</h3>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/leaflets-of-the-russian-revolution-factory-road.jpg" alt="" /></p>
+
+<p>Everything I have covered lays the foundation for the API factory floor, but the teams that operate the factory floor will need to have a certain baseline of knowledge and understanding of the big picture to make it all work. Beginning with having a strong understanding of the OpenAPI specification which specifies the contract for all APIs in motion on the factory floor, but also why quality matters when it comes to positively impacting everything downstream from them across API operations and the applications and integrations that depend on them.</p>
+
+<ul>
+  <li><strong>OpenAPI Training</strong> - Every team member should have a strong grasp of what OpenAPI is all about and be able to understand why the specification matters when it comes to the API lifecycle.</li>
+  <li><strong>OpenAPI Quality</strong> - Every team member should be able to understand why quality matters when it comes to making it all work, and your API lifecycle is only as good as it’s OpenAPI core.</li>
+  <li><strong>OpenAPI Downstream</strong> - Each team member needs to intimately understand what the downstream effects are of a complete OpenAPI, and the friction introduced when you don’t deliver a robust OpenAPI for each API.</li>
+</ul>
+
+<p>OpenAPI is essential to the narrative of the factory floor, and the API lifecycle. It is the script you write for the orchestra. If your teams aren’t properly trained in the OpenAPI driven details, they will never communicate effectively across your operations. OpenAPI will be the background music for your API operations, and provide the hum of the factory floor dictating how the gears move or do not move when it comes to rolling out new APIs, evolving existing APIs, and ultimately deliver the digital capabilities they enable.</p>
+
+<h3 id="defining-the-lifecycle-for-your-api-factory-floor">Defining the Lifecycle for Your API Factory Floor</h3>
+
+<p>Your OpenAPIs provide the contracts for your businesses API factory floor, and collections provide the unit of execution that bring these contracts to life. Ensuring the factory floor also has the necessary automation and observability it needs to move APIs forward, keeping them producing and delivering as desired. All of this will dictate the life and presence of each API, setting in motion their evolution forward, while keeping them serving the applications and integrations that are designed to support them. All of the knobs and dials articulated above provide the gears you need to build and operate a factory floor at any scale, allowing you to scale up or down as needed to achieve desired results. </p>
+
+<p>Next, I will be taking all of this and applying to specific APIs for customers. I will also be fleshing it out and turning it into relevant training material so I can turn it into a workshop. I need to figure out how I can teach it to teams across an organization in a series of internal workshops that help move an organization forward by making sure teams have the training and tools they need. Now that I have the tools to actually deliver the API factory floor that matches the successful practices I’ve identified over the years, I am looking to roll it out more formally as part of the conversations I am having. I just need to keep hammering on it and refining it down to something that can be shared with others–helping them see the potential of a well defined API lifecycle delivered across a scalable and consistent factory floor.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Lifecycle&searchFields=tags" class="post-tag me-2">#Lifecycle</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>November 10, 2020</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>HHS and CMS Finalizes Rules to Provide Patients More Control of Their Health Data Using APIs - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2020/05/05/hhs-and-cms-finalizes-rules-to-provide-patients-more-control-of-their-health-data-using-apis/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="HHS and CMS Finalizes Rules to Provide Patients More Control of Their Health Data Using APIs - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/cms_finalrule_square_1_e1584028841105.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">HHS and CMS Finalizes Rules to Provide Patients More Control of Their Health Data Using APIs</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>May  5, 2020</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/cms_finalrule_square_1_e1584028841105.png" alt="HHS and CMS Finalizes Rules to Provide Patients More Control of Their Health Data Using APIs" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I have had a pretty massive API story in my notebook for a couple of weeks now that I just didn’t have the emotional bandwidth to process, but eventually I’m finding the energy to think about APIs at this scope. The TL;DR is that <a href="https://www.hhs.gov/about/news/2020/03/09/hhs-finalizes-historic-rules-to-provide-patients-more-control-of-their-health-data.html">the US Health &amp; Human Services (HHS) finalized a historic rule to provide patients more control of their health care using APIs</a>--from the HHS announcement:</p>
+
+<p><em>“ONC’s final rule establishes secure, standards-based application programming interface (API) requirements to support a patient’s access and control of their electronic health information. APIs are the foundation of smartphone applications (apps). As a result of this rule, patients will be able to securely and easily obtain and use their electronic health information from their provider’s medical record for free, using the smartphone app of their choice.”</em></p>
+
+<p>I wanted to understand what this means for healthcare APIs. I’ve gone down the Blue Button API rabbit hole several times before, and I have an intimate awareness of how much time is involved with just loading all the moving parts into your head. However, this is why I write on API Evangelist, to help me process big ideas like this through ongoing API storytelling, and whittle away at projects I may not have time for in waves. I finally made time to do a first dive into this monumental precedent in the US federal government directing healthcare providers to deploy APIs, loading it all up in my head so I can chew on for a bit.</p>
+
+<h3 id="the-cms-interoperability-and-patient-access-final-rule">The CMS Interoperability and Patient Access Final Rule</h3>
+
+<p>The technical meat of this can be found within <a href="https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index">the CMS interoperability and patient access final rule</a>. Helping me better understand what is being asked of healthcare providers, and who the providers even are. At this point the rule sounds promising because of its scope, but really the devil is in the details–the CMS interoperability and patient access final rule document(s) provide:</p>
+
+<ul>
+  <li> Information and tools to help implement the Patient Access API and Provider Directory API</li>
+  <li> Best Practices for payers and developers sharing and receiving patient data via FHIR-based APIs</li>
+  <li> Information to support payers as they produce patient education resources tailored to their patient population </li>
+</ul>
+
+<p>After realizing the CMS rule had all the technical details I needed, it also answered my next question about who was required to deploy APIs that would allow application developers to access patient data. dThis final rule requires most CMS-regulated payers – specifically:</p>
+
+<ul>
+  <li>Medicare Advantage (MA) organizations</li>
+  <li>Medicaid Fee-For-Service (FFS) programs</li>
+  <li>CHIP FFS programs</li>
+  <li>Medicaid managed care plans</li>
+  <li>CHIP managed care entities</li>
+  <li>Qualified Health Plan (QHP) issuers on the Federally-facilitated Exchanges (FFEs)</li>
+</ul>
+
+<p>To provide APIs, excluding these groups:</p>
+
+<ul>
+  <li>issuers offering only Standalone dental plans (SADPs)</li>
+  <li>QHP issuers offering coverage in the Federally-facilitated Small Business Health Options Program (FF-SHOP)</li>
+</ul>
+
+<p>I am doing more research into the scope of each of these groups, and hopefully pull some data for different states. I’m looking to better understand who the actors are in this healthcare API conversation which will help me understand the maturity of these entities regarding how they put technology to work, and where they are in their overall API journey.</p>
+
+<p>To help be a little more precise about what is being asked of these groups, CMS provides a little more clarification about what is expected of these healthcare organizations that are spread across the United States.</p>
+
+<p><em>“To implement and maintain a secure, standards-based Patient Access Application Programming Interface (API) (using Health Level 7® (HL7) Fast Healthcare Interoperability Resources® (FHIR) Release 4.0.1) that allows patients to easily access their claims and encounter information, including cost (specifically provider remittances and enrollee cost-sharing), as well as a defined sub-set of their clinical information through third-party applications of their choice.”</em></p>
+
+<p>FHIR has been around for a while, used for the <a href="https://bluebutton.cms.gov/">Blue Button</a> and other APIs, but this is a federal rule saying that if healthcare providers who receive federal funds have to provide APIs for trusted 3rd party developers to build applications on. It is a pretty significant precedent of API regulation similar to PSD2 for banking the UK and EU, establishing expectations that businesses need to provide APIs. It is a big deal. Additionally the rule builds upon existing API standards, dictating that all APIs reuse these existing patterns:</p>
+
+<ul>
+  <li><strong><a href="https://www.hl7.org/fhir/overview.html">FHIR</a></strong> - Fast Healthcare Interoperability Resources is a standard describing data formats and elements and an application programming interface for exchanging electronic health records. </li>
+  <li><strong><a href="https://oauth.net/2/">OAuth 2.0</a></strong> - OAuth is an open standard for access delegation, commonly used as a way for Internet users to grant websites or applications access to their information on other websites but without giving them the passwords.</li>
+  <li><strong><a href="https://openid.net/connect/">OpenID Connect</a></strong> - OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0 protocol. It allows Clients to verify the identity of the End-User based on the authentication performed by an Authorization Server, as well as to obtain basic profile information about the End-User in an interoperable and REST-like manner.</li>
+  <li><strong><a href="https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi\">USCDI</a>)</strong> - The United States Core Data for Interoperability (USCDI) is a standardized set of health data classes and constituent data elements for nationwide, interoperable health information exchange </li>
+</ul>
+
+<p>This is a pretty solid foundation for such a rule. It also provides a model that could be considered for other industries. The rule focuses on providing API access to the following healthcare resources:</p>
+
+<ul>
+  <li><strong>Claims &amp; Encounter Data</strong> - Payers are required to make a patient’s claims and encounter data available via the Patient Access API. </li>
+  <li><strong>Clinical Data -</strong> Payers are also required to make a patient’s clinical data, defined as those data the payer maintains that are included in the USCDI version 1, available via the Patient Access API. </li>
+  <li><strong>Plan Coverage and Formularies</strong> - Part D Medicare Advantage plans must also make formulary information available via the Patient Access API. And, Medicaid and CHIP FFS and managed care must make preferred drug lists available. </li>
+  <li><strong>Provider Directory -</strong> Under this rule, MA organizations, Medicaid FFS programs, CHIP FFS programs, Medicaid managed care plans, and CHIP managed care entities are required to make provider directory information available via the Provider Directory API. This API must be accessible via a public-facing digital endpoint on the payer’s website.</li>
+</ul>
+
+<p>CMS provides all the technical information need including reference implementations. They have the model for doing this with Blue Button, and all the healthcare provides need to do is replicate the Blue Button model for their own operations. To help me refresh what the Blue Button team has accomplished I wanted to take a moment to look at Blue Button again in the context of this rule.</p>
+
+<h3 id="the-blue-button-profile">The Blue Button Profile</h3>
+
+<p><a href="https://bluebutton.cms.gov/">Blue Button 2.0</a> is a <em>“developer-friendly, standards-based API that enables Medicare beneficiaries to connect their claims data to the applications, services and research programs they trust.”</em> CMS has invested a lot of resources in rolling out this API that  contains four years of Medicare Part A, B and D data for 53 million Medicare beneficiaries. To help me how much of this work is reusable as part of the wider HHS &amp; CMS rule(s) I wanted to break down the relevant building blocks present with the Blue Button API, that might be applied to other providers.</p>
+
+<ul>
+  <li><strong>Portal</strong> - There is an easy to discovery portal for access the Blue Button 2.0 API.</li>
+  <li><strong>Subdomain</strong> - Having a dedicated subdomain for an API demonstrates investment.</li>
+  <li><strong>Overview</strong> - There is a simple overview of what is happening with the API.</li>
+  <li><strong>Getting Started</strong> - A simple list of what it takes to get going is available for consumers.</li>
+  <li><strong>HL7 FHIR Specification</strong> - The FHIR specification is the cornerstone of the Blue Button API.</li>
+  <li><strong>OAuth 2.0 Standard</strong> - OAuth 2.0 is used to manage authorization and access.</li>
+  <li><strong>Authorization</strong> - An overview of authorization is available for consumers to put to use.</li>
+  <li><strong>Documentation</strong> - They provide complete documentation for the APIs that are available.</li>
+  <li><strong>Data Model</strong> - The underlying data model for the Blue Button API is published.</li>
+  <li><strong>Sample Data</strong> - Blue Button provides sample data for developers to put to use.</li>
+  <li><strong>Sandbox</strong> - There is a sandbox so that everyone can play with the Blue Button API.</li>
+  <li><strong>Developer Signup</strong> - Developers can sign up for access to the sandbox API environment.</li>
+  <li><strong>Developer Login</strong> - There is a login for developers to come back and use to engage.</li>
+  <li><strong>Developer Guidelines</strong> - There are clear guidelines for how developers can use the API.</li>
+  <li><strong>Implementation Guide</strong> - Instructions are available for guiding developers to production.</li>
+  <li><strong>Forum</strong> - There is a forum for supporting the Blue Button API developer community.</li>
+  <li><strong>Blog</strong> - The platform uses a blog to communicate with API consumers on a regular basis.</li>
+</ul>
+
+<p>I have a lot more reading and documentation to go through to fully understand what is expected of healthcare providers when it comes to this new rule. I am working with my friend Mark Boyd (<a href="https://twitter.com/mgboydcom">@mgboydcom</a>) over at <a href="https://platformable.com/">Platformable</a> to think through a model for thinking through not just the Blue Button 2.0 model but also how it can be replicated across hundreds or thousands of health care providers while also striking a balance between API providers, consumers, and the end-user healthcare patient who all of this is supposed to serve. Each of these building blocks from the Blue Button 2.0 API will help contribute to the vision Platformable is proposing for healthcare.</p>
+
+<h3 id="data-at-the-point-of-care">Data at the Point of Care</h3>
+
+<p>As I was doing this research I happened to connect with my old friend Shelby Switzer (<a href="https://twitter.com/switzerly">@switzerly)</a> who happens to be working at HHS behind the scenes on some of these efforts and she helped be better understand the landscape. She brought a few interesting areas to my attention but one of the most relevant things she shared with me was <a href="https://dpc.cms.gov">Data at the Point of Care</a>, which according to the site helps provide a 360 degree view of your patients history:</p>
+
+<p><em>“As patients move throughout the healthcare system, providers often struggle to gain and maintain a complete picture of their medical history. Data at the Point of Care fills in the gaps with claims data to inform providers with secure, structured patient history, past procedures, medication adherence, and more.”</em></p>
+
+<p>Data at the Point of Care also employs the FHIR specification, but provides bulk data access to patient data, which also builds upon the Blue Button data model. It introduces an interesting question about the best way to actually provide end-users with access to their data. Giving us two separate models for defining how healthcare data can been mad available to end-users, and another dimension I want to consider as part of my Blue Button model profiling. I am not sure which model the rule will be mandating healthcare providers follow, but I’ll be considering both as I make my way through what is going on.</p>
+
+<h3 id="what-is-next">What is Next?</h3>
+
+<p><a href="https://platformable.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/ob_5_wins_model.png" alt="" /></a></p>
+
+<p>This little sprint plus blog post has given me a better understanding about what this rule is all about. Based upon my experience, what I know is likely just the tip of the iceberg. I do these pieces to help me distill down what I am reading into essential details I can load up in my brain and consider as part of the bigger picture. I am looking to simmer on this for a while, and think of it context of what I have learned from PSD2. Sadly, PSD2, and now FHIR are the only two precedents we have for API regulations at the industry level. To help me keep learning there are a handful of other areas I will be thinking about next as I work to expand my view of this landscape—here are just a few of what is on my list.</p>
+
+<ul>
+  <li><strong>Reference Implementation</strong> - I am a reverse engineer so I need a reference implementation to work with to grasp what is going on.</li>
+  <li><strong>Management Layer</strong> - I am working with my partner in crime Tyk to help flesh out what API management for a FHIR implementation looks like.</li>
+  <li><strong>Provider Profiling</strong> - I am looking to pull data on Medicare Advantage (MA) organizations and Medicaid Fee-For-Service (FFS), CHIP FFS and other programs. </li>
+  <li><strong>Landscape Map -</strong> Try to come up with some way of quantifying what the landscape might look like including other actors influencing what is happening.</li>
+  <li><strong>Postman Collections -</strong> Working to understand how I can create Postman collections to help drive the conversation around healthcare APIs. </li>
+</ul>
+
+<p>I am sure other things will emerge as I keep digging. Ultimately I’m looking to expand my understanding of what is going on and look for opportunities of how I can help reduce friction for providers when it comes to using Postman. I am also really keen on working with my friend Mark Boyd at <a href="https://platformable.com/">Platformable</a> to apply his vision for banking and government to the healthcare sector. Much of the equity and balance he calls for in these sectors apply to the world of healthcare APIs. Mark is asking some of the hard questions and tracking on some of the meaningful data behind how APIs working, but more importantly are not working–helping us be more honest about what is going on and make sure APIs are living up to expectations.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Healthcare&searchFields=tags" class="post-tag me-2">#Healthcare</a>
+        
+          <a href="/search/?search=Regulations&searchFields=tags" class="post-tag me-2">#Regulations</a>
+        
+          <a href="/search/?search=Federal Government&searchFields=tags" class="post-tag me-2">#Federal Government</a>
+        
+          <a href="/search/?search=Standards&searchFields=tags" class="post-tag me-2">#Standards</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>May  5, 2020</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

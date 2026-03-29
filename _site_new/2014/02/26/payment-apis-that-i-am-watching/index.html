@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Payment APIs That I Am Watching - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2014/02/26/payment-apis-that-i-am-watching/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Payment APIs That I Am Watching - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dollar-sign.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Payment APIs That I Am Watching</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>February 26, 2014</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dollar-sign.jpg" alt="Payment APIs That I Am Watching" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I’m taking a look at the <a href="http://apievangelist.com/2014/02/24/landscape-targeting-payment-apis/">world of payment APIs</a> right now. As with all my other monitoring of the API space, I am only looking for the best approaches, by the most interesting companies in the space–I don’t have time to track on everything, </p>
+
+<p>I am looking to take a snapshot of the payment API space, understand who the key players are, and how they are delivering valuable payment API resources that developers are actually using. So far I am tracking on 34 separate payment APis:</p>
+
+<hr />
+
+<p><a href="https://www.2checkout.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/2checkout-logo.png" alt="" /></a></p>
+
+<p><a href="https://www.2checkout.com/"><strong>2Checkout</strong></a></p>
+
+<p>A worldwide leader in payment services, 2Checkout maximizes online sales conversions by giving global buyers localized payment options. Trusted by over 50,000 merchants, 2Checkout supports transactions in 196 countries through 8 payment methods, 26 currencies, and 15 languages, forming one of the leading processors of online transactions in the world. e service is simple to implement, including a pre-integrated payment gateway, a merchant account, PCI compliance, international fraud prevention, and plug-ins for 100 of the most popular carts.</p>
+
+<p><a href="https://www.2checkout.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/2checkout" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://www.adyen.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/adyen-logo.png" alt="" /></a></p>
+
+<p><a href="http://www.adyen.com/"><strong>Adyen</strong></a></p>
+
+<p>Adyen is a global multichannel payment company offering businesses an outsourced payment solution, which enables merchants to accept payments from anywhere in the world and provides a global payment solution for mid, large and enterprise e-commerce merchants. Adyen has over ten years of experience in running high-volume payment systems. Adyen is a privately owned, profitable company which realized 50m turnover in 2012.</p>
+
+<p><a href="http://www.adyen.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/AdyenPayments" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://aws.amazon.com/elastictranscoder/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/aws-logo.png" alt="" /></a></p>
+
+<p><a href="http://aws.amazon.com/elastictranscoder/"><strong>Amazon Web Services</strong></a></p>
+
+<p>Amazon Web Services(AWS) is a collection of remote computing services (also called web services) that together make up a cloud computing platform, offered over the Internet by Amazon.com. The most central and well-known of these services are Amazon EC2 and Amazon S3. The service is advertised as providing a large computing capacity (potentially many servers) much faster and cheaper than building a physical server farm.</p>
+
+<p><a href="http://aws.amazon.com/elastictranscoder/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/awscloud" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/amazonwebservices" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://developer.authorize.net/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/376_logo.png" alt="" /></a></p>
+
+<p><a href="http://developer.authorize.net/"><strong>Authorize.Net</strong></a></p>
+
+<p>Authorize.Net provides a number of ways to process transactions through the payment gateway, ranging from simple “Buy Now” and “Donate” buttons to fully integrated, highly customizable Application Programming Interfaces (APIs).</p>
+
+<p><a href="http://developer.authorize.net/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/AuthorizeNet" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://www.balancedpayments.com/docs/integration"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1242_logo.png" alt="" /></a></p>
+
+<p><a href="https://www.balancedpayments.com/docs/integration"><strong>Balanced</strong></a></p>
+
+<p>Balanced is the first payment system designed for marketplaces from the ground up. We provide a feature-rich, fully integrated api that allows marketplaces to charge cards, escrow funds, deposit next day via ACH direct, and collect their own marketplace fees.</p>
+
+<p><a href="https://www.balancedpayments.com/docs/integration" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/balanced" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/balanced" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="/views/companies-payment-api.php"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1243_logo.png" alt="" /></a></p>
+
+<p><a href="/views/companies-payment-api.php"><strong>BancBox</strong></a></p>
+
+<p>San Mateo, California-based BancBox allows non-financial institutions to collect, store and send money, in a simple, secure, and compliant manner. The company offers an API-driven approach to enabling its clients to offer banking services in their applications. The BancBox vision stems from the collective experience of the BancBox team in working with core payments processors and banks. The company is committed to disrupting the banking system in order to innovate and improve how financial technology services are delivered.</p>
+
+<p><a href="https://twitter.com/bancbox" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/bancbox" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://www.braintreepayments.com/developers"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/braintree-logo.png" alt="" /></a></p>
+
+<p><a href="https://www.braintreepayments.com/developers"><strong>Braintree</strong></a></p>
+
+<p>A catalyst for the next generation of commerce, Braintree provides the easiest way to pay and get paid across any device. Braintree’s global payment platform processes more than $10 billion annually (with more than $2 billion on mobile) for thousands of online and mobile commerce innovators including Airbnb, Fab, LivingSocial, OpenTable and Uber. Merchants in more than 40 countries throughout North America, Europe and Australia can accept payments in more than 130 currencies using Braintree. Today, Braintree powers single-click purchasing for more than 40 million consumers and its top-rated mobile app, Venmo, gives people an easy way to pay using their mobile device.</p>
+
+<p><a href="https://www.braintreepayments.com/developers" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/braintree" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/braintree" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://www.card.io/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1036_logo.png" alt="" /></a></p>
+
+<p><a href="https://www.card.io/"><strong>Card.io</strong></a></p>
+
+<p>Card.io offers an SDK to developers that makes inputting credit card information as easy as holding your card in front of your smartphone’s camera.</p>
+
+<p><a href="https://www.card.io/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/#!/cardio" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/CardFlight" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://getcardflight.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/2171_logo.png" alt="" /></a></p>
+
+<p><a href="https://getcardflight.com/"><strong>CardFlight</strong></a></p>
+
+<p>CardFlight empowers app developers to easily take in-person (card present) payments within their own iOS and Android apps. CardFlight’s open platform connects mobile app developers with payment processors, focusing on the 90+% of credit card payments that happen in real life. Developers use CardFlight’s encrypted mag stripe reader and SDK/API so that they can easily and securely accept card present payments in their apps, with support for virtually any payment processor or merchant account. Our clients retain full control of their integrated app experience without dealing with the typical complexity of payments integrations.</p>
+
+<p><a href="https://getcardflight.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/CardFlight" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/CardFlight" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://www.cashtie.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/cashtie-logo.png" alt="" /></a></p>
+
+<p><a href="https://www.cashtie.com/"><strong>Cashtie API</strong></a></p>
+
+<p>InComm’s Cashtie API connects your App to top retailers’ POS (Point of Sale) systems. You can build new or enhance existing Apps that improve the retail experience, including new in lane bill payments, cash payments for online transactions in retail stores, or to initiate the sale of digital products right from the consumers phone. All of these options are unlocked by simply providing a barcode displayed within your App that can be scanned and read by the retailers cash register and validated via the InComm/Cashtie real time POS integration.</p>
+
+<p><a href="https://www.cashtie.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/inComm" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://apidocs.chargebee.com/docs/api"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1513_logo.jpg" alt="" /></a></p>
+
+<p><a href="https://apidocs.chargebee.com/docs/api"><strong>ChargeBee</strong></a></p>
+
+<p>ChargeBee is the Subscription Management and Recurring Billing for SAAS and web applications in the Small and Medium Business space.</p>
+
+<p><a href="https://apidocs.chargebee.com/docs/api" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/chargebee" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/chargebee" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://docs.chargify.com/api-introduction"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/385_logo.jpg" alt="" /></a></p>
+
+<p><a href="http://docs.chargify.com/api-introduction"><strong>Chargify</strong></a></p>
+
+<p>Chargify easily automates billing for recurring revenue businesses. Chargify automates billing, billing related emails, the customer signup process, the application of taxes and coupons, the process when a credit card fails, etc.</p>
+
+<p><a href="http://docs.chargify.com/api-introduction" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/#!/chargify" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/chargify" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://chirpify.com/developers"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/chirpifiy-logo.jpeg" alt="" /></a></p>
+
+<p><a href="http://chirpify.com/developers"><strong>Chirpify</strong></a></p>
+
+<p>We work with brands and agencies who want to leverage social as the point of conversion for their multi-channel marketing campaigns. Clients like adidas, Mastercard &amp; RCA Records use our Social Conversion Platform to activate their advertising - enabling consumers to #vote, #donate and #buy directly through social channels. Since launching in February of 2012, we’ve had hundreds of brands and merchants launch more than 10,000 campaigns on our platform. And we’ve attracted a great group of investors that includes Voyager Capital, the former CEO of McCann Worldgroup, and the CEO of Hootsuite.</p>
+
+<p><a href="http://chirpify.com/developers" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/Chirpify" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/Chirpify" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://www.dwolla.com/developers/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/185_logo.png" alt="" /></a></p>
+
+<p><a href="https://www.dwolla.com/developers/"><strong>Dwolla</strong></a></p>
+
+<p>Dwolla provides a free web based software platform which allows users to send, receive, and request funds from any other user. Dwolla’s maximum transaction cost is 25 cents per transaction.</p>
+
+<p><a href="https://www.dwolla.com/developers/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/dwolla" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/Dwolla" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://www.evosnap.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/2172_logo.jpg" alt="" /></a></p>
+
+<p><a href="http://www.evosnap.com/"><strong>Evo Snap</strong></a></p>
+
+<p>Snap* helps developers simplify payment acceptance &amp; business operations for merchants and their customers. EVO Snap* empowers developers to create customized, multi-channel commerce applications &amp; services to support their customers across traditional POS, mobile and eCommerce touch points. Snap* streamlines the inclusion of multiple payment and value-added services via one integration, and delivers bundles of services to developers through one family of APIs.</p>
+
+<p><a href="http://www.evosnap.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/canyousnap" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/evo-snap" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://developers.facebook.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/facebook-logo.png" alt="" /></a></p>
+
+<p><a href="https://developers.facebook.com/"><strong>Facebook</strong></a></p>
+
+<p>Facebook is the world’s largest social network, with over 1 billion monthly active users.</p>
+
+<p><a href="https://developers.facebook.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/facebook" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/facebook" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://samurai.feefighters.com/developers"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/samurai-fee-fighters.png" alt="" /></a></p>
+
+<p><a href="https://samurai.feefighters.com/developers"><strong>Fee Fighters Samurai</strong></a></p>
+
+<p>FeeFighters makes the process of choosing a merchant account provider as easy as shopping for a plane ticket online. In minutes, business owners can choose the best deal on credit card processing with a reverse auction marketplace that saves the average business owner 40 percent on credit card processing. FeeFighters also provides free tools, such as the credit card processing calculator, that help businesses make better decisions about their financial services.</p>
+
+<p><a href="https://samurai.feefighters.com/developers" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/#!/feefighters" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/FeeFighters" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://fortumo.com/api"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/595_logo.png" alt="" /></a></p>
+
+<p><a href="http://fortumo.com/api"><strong>Fortumo</strong></a></p>
+
+<p>Fortumo, founded in 2007, is the most developer-friendly mobile payments provider. We enable app and game developers to monetize their users through mobile operator billing in more than 80 countries. We’ve got some pretty cool features like self-service signup and instant activation - as well as seamless payment flow that converts like magic. No wonder that our services are used by some of the most awesome developers around.</p>
+
+<p><a href="http://fortumo.com/api" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/#!/fortumo" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/fortumo" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://developers.google.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/google-logo.jpg" alt="" /></a></p>
+
+<p><a href="https://developers.google.com/"><strong>Google</strong></a></p>
+
+<p>Google Inc. is an American multinational corporation specializing in Internet-related services and products. These include search, cloud computing, software and online advertising technologies. Google provides search and advertising services, which together aim to organize and monetize the world’s information. In addition to its dominant search engine, it offers a plethora of online tools and platforms.</p>
+
+<p><a href="https://developers.google.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://github.com/google" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://api.hostbillapp.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/hostbill-logo.png" alt="" /></a></p>
+
+<p><a href="http://api.hostbillapp.com/"><strong>HostBill</strong></a></p>
+
+<p>HostBill is a payment and invoice management service. Their services include automated billing, payment management, and client data tracking. The API provides registered users with access to their client, invoice, and services data in real-time through an HTML protocol. They also provide a free PHP HB wrapper that simplifies calls and stores users’ API authentication details. The API is only available to users with installed HostBill accounts.</p>
+
+<p><a href="http://api.hostbillapp.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/kbkpsoftware" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/hostbill" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://www.invoicera.com/api/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/invoicera-logo.jpg" alt="" /></a></p>
+
+<p><a href="http://www.invoicera.com/api/"><strong>Invoicera</strong></a></p>
+
+<p>Invoicera is an out-of-the-edge online application that takes over the traditional paper-and-pen billing system and “internetizes” it! It is a smart, easy, and fortified e-way of sending invoices to your clients. With Invoicera, you can send professional looking online bills to your clients and can receive payment the same way. So if you have a huge clientele spreading from North to South Pole, just don’t ask for their postal address! Send them professional-looking invoices through Invoicera and receive timely payments.</p>
+
+<p><a href="http://www.invoicera.com/api/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/Invoicera" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/Invoicera" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://www.judopay.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/2173_logo.jpg" alt="" /></a></p>
+
+<p><a href="https://www.judopay.com/"><strong>Judo Pay</strong></a></p>
+
+<p>judo payments provides mobile payment solutions to thousands of businesses across the UK to ensure they never lose a sale. From integrated card payments for mobile apps to providing the tools to build a custom mobile payment system for third parties, judo makes mobile credit and debit card acceptance simple and affordable. Businesses can sign up with judo directly through the website or by consulting one of over 300 certified sales representatives.</p>
+
+<p><a href="https://www.judopay.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/JudoPayments" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://developer.mastercard.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/366_logo.png" alt="" /></a></p>
+
+<p><a href="https://developer.mastercard.com/"><strong>MasterCard</strong></a></p>
+
+<p>As a critical link among financial institutions and millions of businesses, cardholders and merchants worldwide, MasterCard provides services in more than 210 countries and territories. MasterCard advances commerce worldwide by developing more secure, convenient and rewarding payment solutions, processing billions of payments seamlessly across the globe, and building economic connections that accelerate business.</p>
+
+<p><a href="https://developer.mastercard.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/MasterCardDev" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/MasterCard" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://passkit.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1461_logo.png" alt="" /></a></p>
+
+<p><a href="http://passkit.com/"><strong>PassKit</strong></a></p>
+
+<p>PassKit enable innovative businesses of all sizes, and our partners, across the world, to efficiently engage, delight and deepen relationships through their mobile devices. We do this by providing them with the technology and capabilities to confidently and effectively realize the potential on the mobile wallet. Clients easily integrate smartphone passes into their business by using PassKit’s simple and intuitive tools and scaleable infrastructure. PassKit makes the world of mobile commerce accessible to all businesses. By using PassKit, businesses no longer need expensive cloud infrastructure or sophisticated point of sales scanning solutions to provide this functionality.</p>
+
+<p><a href="http://passkit.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/passkit" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/PassKit" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://payanywhere.com/developers/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1232_logo.jpg" alt="" /></a></p>
+
+<p><a href="http://payanywhere.com/developers/"><strong>PayAnywhere</strong></a></p>
+
+<p>Created by a multi-billion dollar credit card processing company with more than two decades of merchant payment processing experience, PayAnywhere is powering a payments revolution with its enterprise-grade, commitment-free, “pay-as-you-go” mobile payments system. PayAnywhere’s mobile point of sale (POS) technology combines the industry’s most comprehensive enterprise-grade features with 24/7 customer support. From billion dollar enterprises to the neighborhood garage sale, merchants of all sizes turn to PayAnywhere for highly secure, feature-rich, affordable mobile payments systems that expand and enrich their ability to engage customers and grow their businesses.</p>
+
+<p><a href="http://payanywhere.com/developers/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/payanywhere" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://www.payfirma.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/payfirma-logo.jpeg" alt="" /></a></p>
+
+<p><a href="http://www.payfirma.com/"><strong>Payfirma</strong></a></p>
+
+<p>Payfirma develops payment processing applications to enable businesses to accept credit &amp; debit cards in their stores, online and on their mobile devices. We bring enterprise level payment systems to small businesses in a simple package with amazing customer service. Thousands of users, from small business to multi-national corporations, use Payfirma’s financial technologies to make payments simpler.</p>
+
+<p><a href="http://www.payfirma.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/Payfirma" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/Payfirma" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://developer.payjunction.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/payjunction-logo.jpg" alt="" /></a></p>
+
+<p><a href="http://developer.payjunction.com/"><strong>PayJunction</strong></a></p>
+
+<p>PayJunction is a Level 1 PCI Compliant Service Provider that services thousands of businesses in every state in the United States. Since 2000, PayJunction has rapidly become a leading developer and provider of cutting edge merchant technology. PayJunction has also formed strategic alliances with leading financial institutions and technology partners to deliver the most comprehensive services in the industry. Our focus on sales integrity and customer service are the foundation of our corporate culture.</p>
+
+<p><a href="http://developer.payjunction.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/PayJunction" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/PayJunction" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="/views/companies-payment-api.php"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/237_logo.png" alt="" /></a></p>
+
+<p><a href="/views/companies-payment-api.php"><strong>PayPal</strong></a></p>
+
+<p>PayPal is an online payments and money transfer service that allows you to send money via email, phone, text message or Skype. They offer products to both individuals and businesses alike, including online vendors, auction sites and corporate users. PayPal connects effortlessly to bank accounts and credit cards.</p>
+
+<p><a href="https://twitter.com/PayPal" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/paypal" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://payscape.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/payscape-logo.png" alt="" /></a></p>
+
+<p><a href="https://payscape.com/"><strong>Payscape</strong></a></p>
+
+<p>Payscape Advisors provides small to mid-size business owners with financial technologies that allow them to accept payments, streamline their business, and increase cash flow. Our dedication to payment technology and industry innovation is consistent; our mission is clear: to make it simple for business owners to collect money. Whether you accept credit cards at your retail storefront, process payments on your mobile phone, promote gift cards, operate an online shopping cart, or electronically invoice clients, Payscape offers financial products and services guaranteed to satisfy your cash flow needs</p>
+
+<p><a href="https://payscape.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/_Payscape" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/Payscape" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://pin.net.au/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/2179_logo.png" alt="" /></a></p>
+
+<p><a href="https://pin.net.au/"><strong>Pin Payments</strong></a></p>
+
+<p>An all-in-one developer API for accepting credit card payments online in multiple currencies. Through integrations with key e-commerce &amp; business platforms (https://pin.net.au/partners) Pin Payments also enables small businesses to start accepting payments online quickly &amp; easily.</p>
+
+<p><a href="https://pin.net.au/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/pin_payments" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://recurly.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/2178_logo.png" alt="" /></a></p>
+
+<p><a href="https://recurly.com/"><strong>Recurly</strong></a></p>
+
+<p>Recurly gracefully handles all the complexities of subscription billing and recurring payments. Recurly, Inc. provides enterprise-class recurring billing management for thousands of subscription-based SaaS, Web 2.0, Mobile, content and publishing businesses worldwide. Since it’s launch in January of 2010, Recurly has deployed subscription billing for companies throughout North America and the European Union. As the leading recurring billing platform Recurly ensures setup is easy, integrations are quick and our service sales with the needs of any business. With Recurly merchants can be ready to accept payments and focus on growing sales in days not weeks.</p>
+
+<p><a href="https://recurly.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="http://twitter.com/recurly" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/recurly" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://www.slidepay.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/2175_logo.jpg" alt="" /></a></p>
+
+<p><a href="https://www.slidepay.com/"><strong>SlidePay</strong></a></p>
+
+<p>SlidePay, formerly Cube, is an API that makes it easy for any app to accept credit cards that are processed in person. Integration takes hours, not weeks, and works on any platform or device.</p>
+
+<p><a href="https://www.slidepay.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/slidepay" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/SlidePay" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://spreedly.com/info/integration"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/486_logo.png" alt="" /></a></p>
+
+<p><a href="http://spreedly.com/info/integration"><strong>Spreedly</strong></a></p>
+
+<p>Spreedly is a cloud based credit card vault that allows you to work with one or multiple payment gateways over time or simultaneously. Dramatically reduce your PCI compliance scope, work with the world’s payment gateways and add on newer payment types like Dwolla and GoCardless.</p>
+
+<p><a href="http://spreedly.com/info/integration" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/spreedly" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/spreedly" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://connect.squareup.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png" alt="" /></a></p>
+
+<p><a href="https://connect.squareup.com/"><strong>Square</strong></a></p>
+
+<p>Starting with a free credit card reader for the iPhone, iPad, and Android devices, Square Reader allows anyone to accept credit cards anywhere, anytime, for a low transaction rate of 2.75 percent per swipe, with no hidden fees. Square Register serves as a full point-of-sale system for businesses to accept payments, manage items, and share menu and location information. Square Wallet, available in the US, is the most seamless way to pay, enabling individuals to pay at their favorite local businesses, discover new ones nearby, explore menu listings, and store receipts.</p>
+
+<p><a href="https://connect.squareup.com/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/Square" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/square" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://stripe.com/docs"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/254_logo.png" alt="" /></a></p>
+
+<p><a href="https://stripe.com/docs"><strong>Stripe</strong></a></p>
+
+<p>Stripe is a simple, developer-friendly way to accept payments online. They believe that enabling transactions on the web is a problem rooted in code, not finance, and they want to help put more websites in business.</p>
+
+<p><a href="https://stripe.com/docs" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/stripe" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/stripe" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://developer.v.me/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/963_logo.jpg" alt="" /></a></p>
+
+<p><a href="https://developer.v.me/"><strong>V.me by Visa</strong></a></p>
+
+<p>Accept major credit and debit cards in your online store or app with V.me by Visa. V.me is a way for you to receive payments online that simplifies the checkout experience for your customers. Add the “Checkout with V.me” button to your site, and your customers can check out with a username and password.</p>
+
+<p><a href="https://developer.v.me/" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/VisaEuropeNews" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="http://developers.versapay.com/index.html"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1208_logo.png" alt="" /></a></p>
+
+<p><a href="http://developers.versapay.com/index.html"><strong>VersaPay</strong></a></p>
+
+<p>VersaPay handles elements of both credit and debit card merchant payment processing in Canada. In offering a host of merchant account services and credit card POS terminals it allows for an efficient merchant payment service in all aspects- in person, on the go, online, and at the office. Founded in 2005 by Michael Gokturk, VersaPay is a Canadian owned and operated national financial transaction services provider partnered with Chase Paymentech. Versapay also offers electronic funds transfer through a system called Versapay EMT.</p>
+
+<p><a href="http://developers.versapay.com/index.html" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/VersaPay" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/versapay" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p><a href="https://www.wepay.com/developer"><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/675_logo.jpg" alt="" /></a></p>
+
+<p><a href="https://www.wepay.com/developer"><strong>WePay</strong></a></p>
+
+<p>WePay is an online payments platform for small businesses in the United States. WePay helps service providers send invoices, charge customer’s credit cards, and accept payments on their website. WePay also provides an API that allows developers to access its payments platform. Unlike competitors, WePay allows users to keep their money in a dedicated FDIC-insured Account. The service is great for service providers. WePay was founded by Bill Clerico and Rich Aberman in Boston in 2008. The company is now based in Palo Alto.</p>
+
+<p><a href="https://www.wepay.com/developer" title="Website"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg" alt="" /></a> <a href="https://twitter.com/wepay" title="Twitter"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png" alt="" /></a> <a href="https://github.com/wepay" title="Github"><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png" alt="" /></a></p>
+
+<hr />
+
+<p>If there are any payment APIs you think should be included in my snapshot, let me know <a href="https://twitter.com/kinlane">@kinlane</a>. Next I will look at the products, services and tools these companies are providing and try to understand what some of the common building blocks of the space are.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=APIs&searchFields=tags" class="post-tag me-2">#APIs</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>February 26, 2014</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

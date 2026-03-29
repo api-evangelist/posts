@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Government Opened Data via APIs in 2011 - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2011/12/31/government-opened-data-via-apis-in-2011/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Government Opened Data via APIs in 2011 - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/data-gov-logo-empowering-people.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Government Opened Data via APIs in 2011</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>December 31, 2011</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/data-gov-logo-empowering-people.jpg" alt="Government Opened Data via APIs in 2011" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>kinlane-productions2.s3.amazonaws.com <a href="http://data.gov"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist/federal-government/data-gov-logo-empowering-people.jpg" alt="" /></a></p>
+
+<p>One of the most important fronts of API development is Government.  All of us API and data guys have all been screaming for city, county, state and federal government to open up their data via APIs for years now. </p>
+
+<p>In 2011 I would say many government officials listened, and opened up almost <a href="http://www.programmableweb.com/apis/directory/1?apicat=Government&amp;maxdays=360" title="100 government APIs">100 government APIs, according to ProgrammableWeb</a>:</p>
+
+<ul>
+  <li><a href="http://www.programmableweb.com/api/aadhaar-uidai-authentication">Aadhaar UIDAI Authentication</a> - Online authentication for Indian citizens</li>
+  <li><a href="http://www.programmableweb.com/api/alameda-county-service-provider">Alameda County Service Provider</a> - listings for social services in Alameda County (Oakland), CA</li>
+  <li><a href="http://www.programmableweb.com/api/api.leipzig">API.LEIPZIG</a> - Leipzig city data</li>
+  <li><a href="http://www.programmableweb.com/api/rebro-kommun">Örebro kommun</a> - Örebro kommun information</li>
+  <li><a href="http://www.programmableweb.com/api/baltimore-open311">Baltimore Open311</a> - Neighborhood public issue reporting tool</li>
+  <li><a href="http://www.programmableweb.com/api/berlin-open-data">Berlin Open Data</a> - Berlin data and information</li>
+  <li><a href="http://www.programmableweb.com/api/brazil-ckan">Brazil CKAN</a> - Brazil open government data</li>
+  <li><a href="http://www.programmableweb.com/api/capitol-words">Capitol Words</a> - Track words used by US government representatives</li>
+  <li><a href="http://www.programmableweb.com/api/challenge.gov">Challenge.gov</a> - Government challenge/solution platform</li>
+  <li><a href="http://www.programmableweb.com/api/chicago-metropulse">Chicago Metropulse</a> - Chicago quality of life data</li>
+  <li><a href="http://www.programmableweb.com/api/city-of-boston-citizens-connect">City of Boston Citizen’s Connect</a> - Boston residents reporting service</li>
+  <li><a href="http://www.programmableweb.com/api/city-of-chicago-data-portal">City of Chicago Data Portal</a> - Chicago datasets</li>
+  <li><a href="http://www.programmableweb.com/api/city-of-edmonton-open-data-catalogue">City of Edmonton Open Data Catalogue</a> - City of Edmonton datasets</li>
+  <li><a href="http://www.programmableweb.com/api/city-of-nanaimo">City of Nanaimo</a> - Nanaimo, B.C., datasets</li>
+  <li><a href="http://www.programmableweb.com/api/city-of-new-orleans">City of New Orleans</a> - New Orleans city data</li>
+  <li><a href="http://www.programmableweb.com/api/city-of-rennes">City of Rennes</a> - City of Rennes, France datasets</li>
+  <li><a href="http://www.programmableweb.com/api/city-of-st.-louis">City of St. Louis</a> - City of St. Louis data</li>
+  <li><a href="http://www.programmableweb.com/api/city-of-toronto-311">City of Toronto: 311</a> - Toronto city government services</li>
+  <li><a href="http://www.programmableweb.com/api/ckan-ireland">CKAN Ireland</a> - Ireland open government data</li>
+  <li><a href="http://www.programmableweb.com/api/data-greater-manchester">Data Greater Manchester</a> - Manchester, England open government data</li>
+  <li><a href="http://www.programmableweb.com/api/data.cookcountyil.gov">Data.CookCountyIL.Gov</a> - Cook County, IL government data</li>
+  <li><a href="http://www.programmableweb.com/api/data.gov.au">data.gov.au</a> - Australia government data</li>
+  <li><a href="http://www.programmableweb.com/api/data.gov.sg">data.gov.sg</a> - Singapore government data</li>
+  <li><a href="http://www.programmableweb.com/api/data.illinois.gov">Data.Illinois.Gov</a> - Illinois government data</li>
+  <li><a href="http://www.programmableweb.com/api/data.ok.gov">Data.OK.gov</a> - Oklahoma state government data</li>
+  <li><a href="http://www.programmableweb.com/api/data.oregon.gov">Data.Oregon.Gov</a> - Oregon state government data</li>
+  <li><a href="http://www.programmableweb.com/api/data.seattle.gov">Data.Seattle.Gov</a> - Seattle City Government data</li>
+  <li><a href="http://www.programmableweb.com/api/data.washington">Data.Washington</a> - Washington state data</li>
+  <li><a href="http://www.programmableweb.com/api/datagov.ru">DataGov.ru</a> - Russian open government data</li>
+  <li><a href="http://www.programmableweb.com/api/datahotell">Datahotell</a> - Norway open government data</li>
+  <li><a href="http://www.programmableweb.com/api/datanest-fair-play-alliance">Datanest Fair-Play Alliance</a> - Slovakia government data</li>
+  <li><a href="http://www.programmableweb.com/api/directgov-syndication-service">DirectGov syndication service</a> - UK government content syndication service</li>
+  <li><a href="http://www.programmableweb.com/api/empire-2.0-tech-talk">Empire 2.0 Tech Talk</a> - Government technology discussion platform</li>
+  <li><a href="http://www.programmableweb.com/api/european-union-legislation">European Union Legislation</a> - European Union legislative data service</li>
+  <li><a href="http://www.programmableweb.com/api/federalregister.gov">FederalRegister.gov</a> - Open source government data</li>
+  <li><a href="http://www.programmableweb.com/api/find-your-mp-uk-parliament">Find Your MP- UK Parliament</a> - UK MP search tool</li>
+  <li><a href="http://www.programmableweb.com/api/gipuzkoa">Gipuzkoa</a> - Spanish province government data</li>
+  <li><a href="http://www.programmableweb.com/api/granicus-open-platform">Granicus Open Platform</a> - Government open data service</li>
+  <li><a href="http://www.programmableweb.com/api/granicus-training-management-suite">Granicus Training Management Suite</a> - Government employee training service</li>
+  <li><a href="http://www.programmableweb.com/api/hm-revenue-customs">HM Revenue &amp; Customs</a> - UK tax document submission service</li>
+  <li><a href="http://www.programmableweb.com/api/home-energy-saver">Home Energy Saver</a> - Energy calculator tool</li>
+  <li><a href="http://www.programmableweb.com/api/howd-they-vote">How’d They Vote?</a> - Canadian Parliament voting records</li>
+  <li><a href="http://www.programmableweb.com/api/influence-explorer-text">Influence Explorer Text</a> - Textual analysis tool</li>
+  <li><a href="http://www.programmableweb.com/api/kenya-open-data">Kenya Open Data</a> - Kenya datasets</li>
+  <li><a href="http://www.programmableweb.com/api/king-county-open-data">King County Open Data</a> - King County, WA datasets</li>
+  <li><a href="http://www.programmableweb.com/api/la-lotera-del-nio">la Lotera del Nio</a> - Spanish Lottery Information Lookup</li>
+  <li><a href="http://www.programmableweb.com/api/legislation.gov.uk">legislation.gov.uk</a> - UK legislation information service</li>
+  <li><a href="http://www.programmableweb.com/api/london-datastore">London DataStore</a> - London government data</li>
+  <li><a href="http://www.programmableweb.com/api/mobile-commons-legislative-lookup">Mobile Commons Legislative Lookup</a> - Legislative representative information service</li>
+  <li><a href="http://www.programmableweb.com/api/mybikelane">MyBikeLane</a> - Read-Only API for MyBikeLane and UncivilServants Database</li>
+  <li><a href="http://www.programmableweb.com/api/nantes-open-data">Nantes open data</a> - Nantes, France city data</li>
+  <li><a href="http://www.programmableweb.com/api/national-broadband-map">National Broadband Map</a> - US broadband information</li>
+  <li><a href="http://www.programmableweb.com/api/nos-donnes-our-data">Nos Données (Our Data)</a> - Government data</li>
+  <li><a href="http://www.programmableweb.com/api/nyc-311-online">NYC 311 Online</a> - New York City Government data</li>
+  <li><a href="http://www.programmableweb.com/api/nyc-open-data">NYC Open Data</a> - New York City data collection</li>
+  <li><a href="http://www.programmableweb.com/api/oakland-crime-reports">Oakland Crime Reports</a> - crime reports service</li>
+  <li><a href="http://www.programmableweb.com/api/open-data-badalona">Open Data Badalona</a> - Badalona city data services</li>
+  <li><a href="http://www.programmableweb.com/api/open-data-catalogue-austria">Open Data Catalogue Austria</a> - Austria open data</li>
+  <li><a href="http://www.programmableweb.com/api/open-data-euskadi">Open Data Euskadi</a> - Basque Country government data</li>
+  <li><a href="http://www.programmableweb.com/api/open-data-gencat">Open Data gencat</a> - Catalonia government data</li>
+  <li><a href="http://www.programmableweb.com/api/open-kent">Open Kent</a> - Kent, England county data</li>
+  <li><a href="http://www.programmableweb.com/api/open-stockholm">Open Stockholm</a> - Stockholm city data</li>
+  <li><a href="http://www.programmableweb.com/api/open311">Open311</a> - Neighborhood public issue-tracking service</li>
+  <li><a href="http://www.programmableweb.com/api/openbaltimore">OpenBaltimore</a> - Baltimore City data</li>
+  <li><a href="http://www.programmableweb.com/api/opencolorado">OpenColorado</a> - Colorado data sharing service</li>
+  <li><a href="http://www.programmableweb.com/api/opendataphilly">OpenDataPhilly</a> - City of Philadelphia data</li>
+  <li><a href="http://www.programmableweb.com/api/opengov.es">opengov.es</a> - Spain open government data</li>
+  <li><a href="http://www.programmableweb.com/api/opengov.fi">opengov.fi</a> - Finland open government data</li>
+  <li><a href="http://www.programmableweb.com/api/opengovernment">OpenGovernment</a> - State and local government data</li>
+  <li><a href="http://www.programmableweb.com/api/openparliament.ca">openparliament.ca</a> - Canadian Parliament Hansards</li>
+  <li><a href="http://www.programmableweb.com/api/pdx">PDX</a> - Portland geographic and real-time information</li>
+  <li><a href="http://www.programmableweb.com/api/pdxcouncilconnect">PDXCouncilConnect</a> - Portland (Oregon) City Council voting service</li>
+  <li><a href="http://www.programmableweb.com/api/postcode-anywhere-government-data">Postcode Anywhere Government Data</a> - UK government data service</li>
+  <li><a href="http://www.programmableweb.com/api/publicdata.eu">PublicData.eu</a> - European government open data aggregator</li>
+  <li><a href="http://www.programmableweb.com/api/realsearch-tin-reverse">RealSearch TIN Reverse</a> - Tax ID verficiation service</li>
+  <li><a href="http://www.programmableweb.com/api/recovery.gov">Recovery.gov</a> - Recovery Act 2009 data</li>
+  <li><a href="http://www.programmableweb.com/api/redbridge-datashare">Redbridge DataShare</a> - UK government data</li>
+  <li><a href="http://www.programmableweb.com/api/reportit">ReportIt</a> - UK government trouble report service</li>
+  <li><a href="http://www.programmableweb.com/api/ri.gov-open-data">RI.gov Open Data</a> - Rhode Island government information</li>
+  <li><a href="http://www.programmableweb.com/api/samhsa">SAMHSA</a> - Substance abuse and mental health services</li>
+  <li><a href="http://www.programmableweb.com/api/san-francisco-open311">San Francisco Open311</a> - Neighborhood public issue reporting tool</li>
+  <li><a href="http://www.programmableweb.com/api/sao-paolo-open-government">Sao Paolo Open Government</a> - Sao Paolo state government portal</li>
+  <li><a href="http://www.programmableweb.com/api/shropshire-council">Shropshire Council</a> - UK government portal</li>
+  <li><a href="http://www.programmableweb.com/api/sunlight-foundations-party-time">Sunlight Foundation’s Party Time!</a> - Political fundraiser invitation database</li>
+  <li><a href="http://www.programmableweb.com/api/sunlight-labs-real-time-congress">Sunlight Labs Real-time Congress</a> - Near Real-Time Information on the Current Congress Session</li>
+  <li><a href="http://www.programmableweb.com/api/suomi.fi">Suomi.fi</a> - Finland government services portal</li>
+  <li><a href="http://www.programmableweb.com/api/u.s.-department-of-labor">U.S. Department of Labor</a> - Government open data service</li>
+  <li><a href="http://www.programmableweb.com/api/uk-bis">UK BIS</a> - UK government business support sector</li>
+  <li><a href="http://www.programmableweb.com/api/uk-national-archives-discovery">UK National Archives Discovery</a> - National archives catalog</li>
+  <li><a href="http://www.programmableweb.com/api/un-contrade">UN Contrade</a> - International trade statistics service</li>
+  <li><a href="http://www.programmableweb.com/api/union-county-nc-gis">Union County NC GIS</a> - Local North Carloina GIS service</li>
+  <li><a href="http://www.programmableweb.com/api/united-nations-monthly-bulletin">United Nations Monthly Bulletin</a> - World economic development statistics</li>
+  <li><a href="http://www.programmableweb.com/api/us-consumer-product-safety-commission-recalls">US Consumer Product Safety Commission Recalls</a> - Consumer product recall information</li>
+  <li><a href="http://www.programmableweb.com/api/usasearch">USASearch</a> - Government data</li>
+  <li><a href="http://www.programmableweb.com/api/usitc-edis">USITC EDIS</a> - U.S. trade document handling service</li>
+  <li><a href="http://www.programmableweb.com/api/vote.ca-districts">Vote.ca Districts</a> - Canadian Voting Place Locator Service</li>
+  <li><a href="http://www.programmableweb.com/api/voter-guide-toolkit">Voter Guide Toolkit</a> - Issue and candidate support information service</li>
+</ul>
+
+<p>In 2012 it will be critical for more government agencies to open up, but also I think its time for us developers to step up and start making sense of this data and how our government operates.</p>
+
+<p>We are getting what we wanted, now how do we deliver on the promise of open government APIs?</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Data&searchFields=tags" class="post-tag me-2">#Data</a>
+        
+          <a href="/search/?search=Government&searchFields=tags" class="post-tag me-2">#Government</a>
+        
+          <a href="/search/?search=APIs&searchFields=tags" class="post-tag me-2">#APIs</a>
+        
+          <a href="/search/?search=Open&searchFields=tags" class="post-tag me-2">#Open</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>December 31, 2011</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

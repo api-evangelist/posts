@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Fundamental Spectral Rules For Governing Your JSON Schema - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2024/11/21/fundamental-spectral-rules-for-governing-your-json-schema/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Fundamental Spectral Rules For Governing Your JSON Schema - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-docks-oakland-4.jpeg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Fundamental Spectral Rules For Governing Your JSON Schema</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>November 21, 2024</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span>Kin Lane</span>
+      </div>
+
+      
+      <img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-docks-oakland-4.jpeg" alt="Fundamental Spectral Rules For Governing Your JSON Schema" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I can’t articulate the importance of enterprise organizations getting their schema house in order as a starting point for API governance. There is an exponential amount of instability and friction introduced across the enterprise because teams are properly using JSON Schema. To augment my services for helping enterprise organizations manage their JSON Schema via GitHub, I am providing customers with a base set of Spectral rules to begin defining the maturity of the schema you are publishing to your Git repository.</p>
+
+<h2 id="identifier">Identifier</h2>
+<p>Every schema added to the central GitHub repository must have a unique identifier applied to each of the schema, giving each object a source of truth no matter where it might find itself across the enterprise.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  json-schema-2020-12-id-error:
+    description: Schema MUST have a unique identifier for each object.
+    message: Schema MUST Have a $id.
+    severity: error
+    given: $
+    then:
+      field: "$id"
+      function: truthy
+  json-schema-2020-12-id-info:
+    description: Schema MUST have a unique identifier for each object.
+    message: Schema Has an $id.
+    severity: info
+    given: $
+    then:
+      field: "$id"
+      function: falsy 
+  json-schema-2020-12-id-source-url-error:
+    description: The id for a schema MUST have a valid URL pointing to the central register.
+    message: The $id for schema MUST reference the central registry.
+    severity: error
+    given: $
+    then:
+      field: "$id"
+      function: pattern
+      functionOptions:
+        match: \b(example.com)\b
+  json-schema-2020-12-id-source-url-info:
+    description: The id for a schema MUST have a valid URL pointing to the central register.
+    message: The $id for schema references the central registry.
+    severity: info
+    given: $
+    then:
+      field: "$id"
+      function: pattern
+      functionOptions:
+        notMatch: \b(example.com)\b
+</code></pre></div></div>
+
+<p>I will add more rules and regexes to get more explicit with the naming conventions applied as part of the unique identifier, but this is a damn good place to start when it comes to governing the source of truth for your schema.</p>
+
+<h2 id="schema">Schema</h2>
+<p>Next up, every schema should have a $schema property present, and be using the latest draft of the JSON Schema specification—so very important. This work augments my existing policy and rule work across OpenAPI and other artifacts in use.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  json-schema-2020-12-schema-error:
+    description: Schema MUST have a $schema property.
+    message: Schema MUST Have a $schema.
+    severity: error
+    given: $
+    then:
+      field: "$schema"
+      function: truthy
+  json-schema-2020-12-schema-info:
+    description: Schema MUST have a $schema property.
+    message: Schema Has a $schema.
+    severity: info
+    given: $
+    then:
+      field: "$schema"
+      function: falsy  
+  json-schema-2020-12-schema-draft-error:
+    description: The $schema for a schema MUST use the latest draft
+    message: The $schema for schema MUST use the latest draft.
+    severity: error
+    given: $
+    then:
+      field: "$schema"
+      function: pattern
+      functionOptions:
+        match: 'https://json-schema.org/draft/2020-12/schema'
+  json-schema-2020-12-schema-draft-info:
+    description: The $schema for a schema MUST use the latest draft
+    message: The $schema for schema uses the latest draft.
+    severity: info
+    given: $
+    then:
+      field: "$schema"
+      function: pattern
+      functionOptions:
+        notMatch: 'https://json-schema.org/draft/2020-12/schema'
+</code></pre></div></div>
+
+<p>This set of rules will have one of the biggest impacts across the enterprise in helping stabilize things, but is one that will take a shit ton of work to implement because you are going to have to update a lot of libraries and tooling across the enterprise.</p>
+
+<h2 id="title">Title</h2>
+<p>Now I want to make sure every object has a name, but also that it is applied as the title of the object. This is something we’ll have to align with the unique identifier naming patterns, but having the title property present and meeting minimum governance is critical.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  json-schema-2020-12-title-error:
+    description: Schema MUST have a title for the entire object, describing an object in plain language.
+    message: Schema MUST Have a Title.
+    severity: error
+    given: $
+    then:
+      field: title
+      function: truthy
+  json-schema-2020-12-title-info:
+    description: Schema MUST have a title for the entire object, describing an object in plain language.
+    message: Schemas Has a Title.
+    severity: info
+    given: $
+    then:
+      field: title
+      function: falsy
+  json-schema-2020-12-title-pascal-case-error:
+    description: Schema names should always be PascalCase, and be used in title for a schema to help ensure readability and consistency.
+    message: Schema Title MUST Be PascalCase.
+    severity: error
+    given: $
+    then:
+      - field: title
+        function: pattern
+        functionOptions:
+          match: ^[A-Z](([a-z]+[A-Z]?)*)$
+      - field: title
+        function: pattern
+        functionOptions:
+          match: ^[A-Z](([a-z0-9]+[A-Z]?)*)$
+  json-schema-2020-12-title-pascal-case-info:
+    description: Schema names should always be PascalCase, and be used in title for a schema to help ensure readability and consistency.
+    message: Schema Title Are PascalCase.
+    severity: info
+    given: $
+    then:
+      - field: title
+        function: pattern
+        functionOptions:
+          notMatch: ^[A-Z](([a-z]+[A-Z]?)*)$
+      - field: title
+        function: pattern
+        functionOptions:
+          notMatch: ^[A-Z](([a-z0-9]+[A-Z]?)*)$
+  json-schema-2020-12-title-length-error:
+    description: Schema names and resulting title should be kept to less than 25 characters.
+    message: Schema Names MUST Be Less Than 25 Characters
+    severity: error
+    given: $
+    then:
+      field: title
+      function: length
+      functionOptions:
+        max: 25       
+  json-schema-2020-12-title-length-error:
+    description: Schema names and resulting title should be kept to greater than 3 characters.
+    message: Schema Names MUST Be Greater Than 3 Characters
+    severity: error
+    given: $
+    then:
+      field: title
+      function: length
+      functionOptions:
+        min: 3                 
+</code></pre></div></div>
+
+<p>You will want to adjust the minx and max values to match the needs of your organizations and it is a fun one to bike shed with teams producing schema, but these rules provide a great place to begin when doing this important work.</p>
+
+<h2 id="description">Description</h2>
+<p>Now let’s apply similar logic to the description for each object, which is absent on most any schema I struggle across, so just making sure there is a description, along with a minimum bar for length and other things is a good place to start.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  json-schema-2020-12-description-error:
+    description: Schema MUST have a description for the entire object, explaining in plain language what the object is for.
+    message: Schema MUST Have a Description.
+    severity: error
+    given: $
+    then:
+      field: description
+      function: truthy
+  json-schema-2020-12-description-info:
+    description: Schema MUST have a description for the entire object, explaining in plain language what the object is for.
+    message: Schemas Has a Description.
+    severity: info
+    given: $
+    then:
+      field: description
+      function: falsy
+  json-schema-2020-12-description-length-error:
+    description: The description for a schema should not be too long, helping keep it as readable and consumable as possible by users.
+    message: Schema Description MUST be Less Than 250 Characters
+    severity: error
+    given: $
+    then:
+      field: description
+      function: length
+      functionOptions:
+        max: 250
+</code></pre></div></div>
+
+<p>Once I get the base in place I will also move towards applying some sort of vocabulary that will trigger rules when certain forbidden words are used, and identify things that are better expressed as JSON Schema properties, allowing us to get more precise with governance.</p>
+
+<h2 id="types">Types</h2>
+<p>Next, let’s establish a baseline for object types by requiring there is a type property at the top level, making sure we are always explicit with any JSON Schema we’ve published, ensuring the fundamentals are always present.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  json-schema-2020-12-type-error:
+    description: All schema must have a type property.
+    message: Schema MUST Have Type Property
+    severity: error
+    given: $
+    then:
+      field: type
+      function: truthy
+  json-schema-2020-12-type-info:
+    description: All schema must have a type property.
+    message: Schema Have Type Property
+    severity: info
+    given: $
+    then:
+      field: type
+      function: falsy        
+</code></pre></div></div>
+
+<p>I don’t want to be opinionated at the type level yet, and am looking to get feedback for what else should be present here when it comes to requiring an object or array, focusing on just the fundamentals right now.</p>
+
+<h2 id="property-names">Property Names</h2>
+<p>Moving on to the properties of each object, we always want to be making sure our casing of object properties are consistent across the enterprise, making sure objects use consistent naming and have at least one property present.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  json-schema-2020-12-properties-names-camel-case-error:
+    description: All schema properties should be camel case for consistency.
+    message: Schema Property Names MUST Be camelCase.
+    severity: error
+    given: $.properties
+    then:
+      - field: "@key"
+        function: pattern
+        functionOptions:
+          notMatch: ^[A-Z][a-z0-9]*[A-Z0-9][a-z0-9]+[A-Za-z0-9]*$
+  json-schema-2020-12-properties-names-camel-case-info:
+    description: All schema properties should be camel case for consistency.
+    message: Schema Property Names Are camelCase.
+    severity: info
+    given: $.properties
+    then:
+      - field: "@key"
+        function: pattern
+        functionOptions:
+          match: ^[A-Z][a-z0-9]*[A-Z0-9][a-z0-9]+[A-Za-z0-9]*$
+  json-schema-2020-12-properties-names-max-error:
+    description: It makes sense to keep schema property names a consistent length.
+    message: Schema Properties Name Length MUST Be Less Than 25
+    severity: error
+    given: $.properties
+    then:
+      field: "@key"
+      function: length
+      functionOptions:
+        max: 25
+  json-schema-2020-12-properties-names-min-error:
+    description: It makes sense to keep schema property names a consistent length.
+    message: Schema Properties Name Length MUST Be More Than 3
+    severity: error
+    given: $.properties
+    then:
+      field: "@key"
+      function: length
+      functionOptions:
+        min: 3        
+</code></pre></div></div>
+
+<p>There is a lot to think about when it comes to the property object depending on how you use more advanced JSON Schema elements, but this is meant to be a starting place for anyone looking to govern their schema and covers the examples available on the JSON Schema site.</p>
+
+<h2 id="property-descriptions">Property Descriptions</h2>
+<p>All properties should have descriptions, keeping them not too short and not too long, and similar object descriptions, you will want to get more precise with a vocabulary and other ways of fine tuning how teams are describing properties.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  json-schema-2020-12-properties-descriptions-error:
+    description: Schema property descriptions should be complete and useful to users.
+    message: Schema Properties MUST Have Description
+    severity: error
+    given: $.properties.*
+    then:
+      field: description
+      function: truthy
+  json-schema-2020-12-properties-descriptions-info:
+    description: Schema property descriptions should be complete and useful to users.
+    message: Schema Properties Have Description
+    severity: info
+    given: $.properties.*
+    then:
+      field: description
+      function: falsy
+  json-schema-2020-12-properties-descriptions-length-error:
+    description: Schema property descriptions should not be too long, helping ensure they aren't too verbose and complex.
+    message: Schema Properties Description MUST Be Less Than 250 Characters
+    severity: error
+    given: $.properties.*
+    then:
+      field: description
+      function: length
+      functionOptions:
+        max: 250
+  json-schema-2020-12-properties-descriptions-length-error:
+    description: Schema property descriptions should not be too short, helping ensure they are actually helpful.
+    message: Schema Properties Description MUST Be More Than 10 Characters.
+    severity: error
+    given: $.properties.*
+    then:
+      field: description
+      function: length
+      functionOptions:
+        min: 10 
+</code></pre></div></div>
+
+<p>Ideally this work is not being done by developers and is being handled by a central set of architects and content writers, because developers are going to always write the shortest and least helpful descriptions for properties.</p>
+
+<h2 id="types-1">Types</h2>
+<p>Similar to object type, we want to establish the baseline for property types, but I am also refraining from going deep down this rabbit hole yet, and will get more advanced here with other types, regexes, and approaches to standardizing vocabulary at this layer.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  json-schema-2020-12-type-error:
+    description: All schema properties must have a type property.
+    message: Schema MUST Have Type Property
+    severity: error
+    given: $.properties.*
+    then:
+      field: type
+      function: truthy
+  json-schema-2020-12-type-info:
+    description: All schema properties must have a type property.
+    message: Schema Have Type Property
+    severity: info
+    given: $.properties.*
+    then:
+      field: type
+      function: falsy               
+</code></pre></div></div>
+
+<p>It will take some research harvesting common JSON Schema in use out there to understand how people are using property types — I know we can go a long way based upon the spec, but the real value of governance comes in aligning it to the enterprise.</p>
+
+<h2 id="properties-required">Properties Required</h2>
+<p>I threw required in here as well, but I am skeptical that this is a fundamentals based upon how more advanced JSON schema elements are used, but what the hell — I am open to push back on whether this should be part of the basics, as well as properties, based upon $def and other ways of using.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  json-schema-2020-12-required-error:
+    description: All schema should have a required property.
+    message: Schema MUST Have a Required Property for Objects.
+    severity: error
+    given: $
+    then:
+      field: required
+      function: truthy
+  json-schema-2020-12-required-info:
+    description: All schema should have a required property.
+    message: Schema Have a Required Property for Objects.
+    severity: info
+    given: $
+    then:
+      field: required
+      function: falsy
+  json-schema-2020-12-required-error:
+    description: All schema should have at least one required property.
+    message: MUST Be At Least One Tag
+    given: $
+    severity: error
+    then:
+      field: required
+      function: length
+      functionOptions:
+        min: 1
+</code></pre></div></div>
+
+<p>What is required can get pretty freaky, so I am skeptical of the governance around this, but will harvest the JSON Schema from common API providers to see how they are expressing things, then come up with some basics based upon what I see.</p>
+
+<h2 id="just-the-fundamentals">Just the Fundamentals</h2>
+<p>It was hard for me to stop there, but beginning with the fundamentals while keeping simple is so important. I was talking to Ben from JSON Schema this morning and told him I’d share my base set, and I want to do some more marketing and storytelling around my base JSON Schema management services via GitHub repositories, so this starter Spectral ruleset satisfies these needs. While there are plenty of folks governing JSON Schema with Spectral via OpenAPI, there aren’t many folks who are governing the maturity of their JSON Schema by themselves using Spectral rules.</p>
+
+<p>I will bundle these rules up with the CI/CD pipelines and other automation I am applying to the schema I am managing via GItHub repositories. All schema published to a central schema registration should pass all these rules. Another thing to note with these rules is that I strive to always have positive and negative for each pattern I am governing, which is not something others are doing, but I feel is critical to the behavioral aspect of API governance across teams. If you want to get at the rules <a href="https://gist.githubusercontent.com/kinlane/61ee94aa579d6067e8a5e85261caad1f/raw/f0662566e539693b636d626ed66d6ac28922f070/json-schema-2020-12-spectral-rules-1.yml">I’ve published to a GitHub Gist</a>, but will also include via the API Commons rules gallery when I have more time.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=JSON Schema&searchFields=tags" class="post-tag me-2">#JSON Schema</a>
+        
+          <a href="/search/?search=Spectral&searchFields=tags" class="post-tag me-2">#Spectral</a>
+        
+          <a href="/search/?search=Governance&searchFields=tags" class="post-tag me-2">#Governance</a>
+        
+          <a href="/search/?search=Schema&searchFields=tags" class="post-tag me-2">#Schema</a>
+        
+          <a href="/search/?search=Registry&searchFields=tags" class="post-tag me-2">#Registry</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>November 21, 2024</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success">Kin Lane</span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

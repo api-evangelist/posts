@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Postman Will Do for APIs What Github Did for Open Source - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2021/03/20/postman-will-do-for-apis-what-github-did-for-open-source/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Postman Will Do for APIs What Github Did for Open Source - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/braceros-domingo-ulloa-turing-front-view.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Postman Will Do for APIs What Github Did for Open Source</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>March 20, 2021</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span>Kin Lane</span>
+      </div>
+
+      
+      <img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/braceros-domingo-ulloa-turing-front-view.jpg" alt="Postman Will Do for APIs What Github Did for Open Source" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I woke up thinking about something Abhinav said recently, “What GitHub did to code, I imagine Postman will do that for APIs, shortening the cycle from using an API to building things with it.” Yes! That is how I see Postman. GitHub changed my relationship with code in many ways. Github plays a significant role in how I produce, manage, and evolve the code that I produce for my own side projects and businesses, as well as the code I engage with as part of my job and the projects I work on. This blog post is my mental exercise of thinking through what GitHub has given me when it comes to code, which in my world translates pretty nicely to what I do with APIs. First, I published my thoughts about what GitHub did for code, and now I want to explore what Postman is doing for APIs.</p>
+
+<h3 id="users">Users</h3>
+
+<ul>
+  <li><strong>Home</strong> - Give me a summary home page for my world.</li>
+  <li><strong>Profile</strong> - Let me manage my public and private profile.</li>
+  <li><strong>Followers</strong> - Let me follow other users Postman profiles.</li>
+  <li><strong>Following</strong> - Let people follow my Postman profile.</li>
+  <li><strong>Comments</strong> - I want to be able to se all of my comments.</li>
+  <li><strong>Discussions</strong> - I want to see my discussions with team members.</li>
+  <li><strong>Settings</strong> - Easy configuration of my account.</li>
+  <li><strong>Notifications</strong> - Allow me to receive notifications.</li>
+  <li><strong>Reminders</strong> - Provide me with reminders of common tasks.</li>
+  <li><strong>Session</strong> - Allow me to see all of my sessions.</li>
+  <li><strong>Teams</strong> - Help me manage the teams I am on.</li>
+  <li><strong>Organizations</strong> - Help me manage the orgs I belong to.</li>
+  <li><strong>Workspaces</strong> - Help me manage my workspaces.</li>
+  <li>
+    <p><strong>Identity</strong> - Help me manage my identity.</p>
+  </li>
+  <li><strong>Keys</strong> - Give me robust API key management.</li>
+  <li>
+    <p><strong>Tokens</strong> - Take the friction out of token management.</p>
+  </li>
+  <li><strong>Export</strong> - Allow me to export my account.</li>
+</ul>
+
+<h3 id="organizations">Organizations</h3>
+
+<ul>
+  <li><strong>Details</strong> - Mange the details of my organization(s).</li>
+  <li><strong>People</strong> - Manage all the people in my organization(s).</li>
+  <li><strong>Teams</strong> - Help me manage many different teams across orgs.</li>
+  <li><strong>Workspaces</strong> - Do the hard work of organizing workspaces.</li>
+  <li><strong>APIs</strong> - Allow me to manage hundreds or thousands of A?PIs.</li>
+  <li><strong>Collections</strong> - Help me manage many derivative API collections.</li>
+  <li><strong>Environments</strong> - Generate and manage my environments for me.</li>
+  <li><strong>Mock Servers</strong> - Ensure there are mock servers available.</li>
+  <li><strong>Scripts</strong> - Assist me in managing the scripts used across operations.</li>
+  <li><strong>Runners</strong> - Execute runners manually or as part of pipelines via CLI.</li>
+  <li><strong>Monitors</strong> - Helps me effectively run monitors across all APIs.</li>
+  <li><strong>Governance</strong> - Provide me with tools for governing API operations.</li>
+  <li><strong>Setting</strong> - A robust set of settings for configuring my organizations.</li>
+  <li><strong>RBAC</strong> - Give me role based access control for my organizations.</li>
+</ul>
+
+<h3 id="teams">Teams</h3>
+
+<ul>
+  <li><strong>Details</strong> - Manage the details of my team(s).</li>
+  <li><strong>Invitations</strong> - Easily invite users to be part of teams.</li>
+  <li><strong>Members</strong> - Help me manage the members of my teams.</li>
+  <li><strong>Discussions</strong> - I want to be able to chat with team members.</li>
+  <li><strong>Reviews</strong> - I can assign reviews for my teams.</li>
+  <li><strong>Reminders</strong> - I can establish team level reminders.</li>
+  <li><strong>Group</strong> - I can group teams within teams, establishing hierarchy.</li>
+  <li><strong>RBAC</strong> - Provide me with role based access control for teams.</li>
+  <li><strong>Settings</strong> - Allow me to granularly define my team settings.</li>
+  <li><strong>Leave</strong> - Allow me to leave any team I have joined.</li>
+  <li><strong>Activity</strong> - Show all the activity involved in team management.</li>
+  <li><strong>Audit</strong> - Provide me with intelligent auditing tools for my teams.</li>
+  <li><strong>Reports</strong> - I want to have easy to read reports for my teams.</li>
+  <li><strong>Usage</strong> - Let me know where I am at with my team resource use.</li>
+</ul>
+
+<h3 id="workspaces">Workspaces</h3>
+
+<ul>
+  <li><strong>Details</strong> - Manage the details of my workspace(s).</li>
+  <li>
+    <p><strong>Type</strong> - Allow me to have different types of workspaces.</p>
+  </li>
+  <li><strong>Personal</strong> - Provide users with personal workspaces.</li>
+  <li><strong>Operation</strong> - Establish workspaces that have access to all workspaces.</li>
+  <li><strong>Team</strong> - Provide the ability to define team level workspaces.</li>
+  <li><strong>Partner</strong> - Help me manage my external relationships using workspaces.</li>
+  <li>
+    <p><strong>Public</strong> - Allow me to create a variety of public spaces.</p>
+  </li>
+  <li><strong>RBAC</strong> - Provide me with role based access for my teams.</li>
+  <li><strong>Search</strong> - Give me a way to search across my workspace.</li>
+  <li><strong>Invitations</strong> - Allow me to invite other public, private, and partner users.</li>
+  <li><strong>Members</strong> - Allow me to manage who is a member of my workspace.</li>
+  <li><strong>APIs</strong> - Provide me what I need to manage my APIs.</li>
+  <li><strong>Collections</strong> - Providing me with all I need to manage my collections.</li>
+  <li><strong>Environments</strong> - Give me quick access to select, use, and manage environments.</li>
+  <li><strong>History</strong> - Give me quick access to the request history across the workspace.</li>
+  <li><strong>Activity</strong> - Allow me to see all the activity for management of my workspaces.</li>
+  <li><strong>Monitors</strong> - Allow me to see all the monitors that are in use in my workspaces.</li>
+  <li><strong>Mocks</strong> - Allow me to see all the mock servers that are in use in my workspaces.</li>
+  <li><strong>Integrations</strong> - Allow me to see all the integrations that are in use in my workspaces.</li>
+  <li><strong>Add To</strong> - Allow me to add resources from another workspace.</li>
+  <li><strong>Clone</strong> - Allow me to easily clone a workspace for other purposes.</li>
+  <li><strong>Import</strong> - Allow me to import workspace definitions.</li>
+  <li><strong>Export</strong> - Allow me to export workplace definitions.</li>
+</ul>
+
+<h3 id="apis">APIs</h3>
+
+<ul>
+  <li><strong>Listing</strong> - List all of my APIs in a workspace.</li>
+  <li><strong>Pin</strong> - Let me pin APIs within my workspace.</li>
+  <li><strong>Details</strong> - Manage the details of my API(s).</li>
+  <li><strong>Version</strong> - Remove friction from versioning my APIs.</li>
+  <li>
+    <p><strong>Define</strong> - Allow me to choose which definition I use.</p>
+  </li>
+  <li>OpenAPI 3.0</li>
+  <li>Swagger</li>
+  <li>RAML</li>
+  <li>GraphQL</li>
+  <li>AsyncAPI</li>
+  <li>
+    <p>JSON Schema</p>
+  </li>
+  <li><strong>Design</strong> - Provide me with a simple GUI for designing my API.</li>
+  <li><strong>Schema</strong> - Provide me with an interface to manage my schema.</li>
+  <li><strong>Components</strong> - List all the components used to build APIs.</li>
+  <li>
+    <p><strong>Sync</strong> - Allow me to sync my definitions.</p>
+  </li>
+  <li>GitHub</li>
+  <li>GitLab</li>
+  <li>
+    <p>Bitbucket</p>
+  </li>
+  <li><strong>RBAC</strong> - Allow me to control who has access to my APIs.</li>
+  <li><strong>Mocks</strong> - Allow me to see the associated mock servers.</li>
+  <li><strong>Docs</strong> - Allow me to see the associated documentation.</li>
+  <li><strong>Environments</strong> - Allow me to see the associated environments.</li>
+  <li><strong>Tests</strong> - Allow me to see all of the tests for an API.</li>
+  <li><strong>Monitors</strong> - Allow me to see all of the monitors for my APIs.</li>
+  <li><strong>Change Log</strong> - Help me manage the change long for my APIs.</li>
+  <li><strong>Comments</strong> - Allow me to make and manage comments.</li>
+  <li><strong>Share</strong> - Allow for sharing of APIs to other workspaces.</li>
+  <li><strong>Generate Collection</strong> - Easily generate a new collection.</li>
+  <li><strong>Clone</strong> - Quickly duplicate any of my APIs.</li>
+  <li><strong>Tags</strong> - Apply tags to each API.</li>
+  <li><strong>Import</strong> - Providing me the ability to import API definitions.</li>
+  <li><strong>Export</strong> - Allow me to easily export API definitions.</li>
+</ul>
+
+<h3 id="components">Components</h3>
+
+<ul>
+  <li><strong>Schema</strong> - Standardized schema for use across APIs.</li>
+  <li><strong>Paths</strong> - Standardized API paths for use across APIs.</li>
+  <li><strong>Parameters</strong> - Standardized parameters for use across APIs.</li>
+  <li><strong>Responses</strong> - Standardized API responses for use across APIs.</li>
+  <li><strong>Examples</strong> - Standardized examples for use across APIs.</li>
+  <li><strong>Request Bodies</strong> - Standardized request bodies for use across APIs.</li>
+  <li><strong>Headers</strong> - Standardized headers for use across APIs.</li>
+  <li><strong>Security</strong> - Standardized security definitions for use across APIs.</li>
+  <li><strong>Search</strong> - Allow me to quickly search and filter components.</li>
+</ul>
+
+<h3 id="collections">Collections</h3>
+
+<ul>
+  <li><strong>Details</strong> - Let me easily manage my collections.</li>
+  <li><strong>RBAC</strong> - Provide me with role based access control for collections.</li>
+  <li>
+    <p><strong>Folders</strong> - Allow me to quickly organize using folders.</p>
+  </li>
+  <li><strong>Description</strong> - I want to provide markdown descriptions.</li>
+  <li><strong>Authorization</strong> - I want to define authorization at the folder level.</li>
+  <li><strong>Pre-request Scripts</strong> - I want to be able to run pre-request scripts at folder level.</li>
+  <li><strong>Test Scripts</strong> - I want to be able to run test scripts at folder level.</li>
+  <li>
+    <p><strong>Variables</strong> - I want to define variables for folders.</p>
+  </li>
+  <li><strong>Request(s)</strong> - I want to have one or many requests in collections.</li>
+  <li><strong>Version</strong> - Abstract away the complexity of versioning my collections.</li>
+  <li><strong>Scripts</strong> - Provide management tools for scripts across my requests.</li>
+  <li><strong>Documentation</strong> - Allow me to publish documentation from my collections.</li>
+  <li><strong>Monitors</strong> - Allow me to deploy regional cloud monitors for my collections.</li>
+  <li><strong>Mocks</strong> - Allow me to deploy mock servers from my collections.</li>
+  <li>
+    <p><strong>Change Management</strong> - Help me manage change for collections.</p>
+  </li>
+  <li><strong>Fork</strong> - Allow me to fork collections.</li>
+  <li><strong>Pull Requests</strong> - Allow me to receive pull requests for collections.</li>
+  <li>
+    <p><strong>Merge</strong> - Allow me to merge my collections.</p>
+  </li>
+  <li><strong>Version Tags</strong> - Allow me to apply version control tags to my collections.</li>
+  <li><strong>Validation</strong> - Provide validation for collections against APIs.</li>
+  <li><strong>Change Log</strong> - Make the change log for my collections accessible.</li>
+  <li><strong>Share</strong> - Allow me to share a collection to workspace or via link.</li>
+  <li>
+    <p><strong>Sync</strong> - Sync my collections for me.</p>
+  </li>
+  <li>GitHub</li>
+  <li>GitLab</li>
+  <li>
+    <p>Bitbucket</p>
+  </li>
+  <li><strong>Button</strong> - Allow me to generate a Run in Postman button.</li>
+  <li><strong>Examples</strong> - Allow me to define one or many examples for use across requests.</li>
+  <li><strong>Duplicate</strong> - Give me the ability to quickly duplicate a collection.</li>
+  <li><strong>Import</strong> - Allow me to import collections.</li>
+  <li><strong>Export</strong> - Allow me to export collections.</li>
+  <li><strong>Tags</strong> - Apply tags to collection.</li>
+</ul>
+
+<h3 id="requests">Requests</h3>
+
+<ul>
+  <li><strong>Name</strong> - I want to be able to name my requests.</li>
+  <li><strong>Description</strong> - I want to have descriptions for each request.</li>
+  <li>
+    <p><strong>Protocol</strong> - I want to be able to use multiple protocols.</p>
+  </li>
+  <li>
+    <p><strong>HTTP 1.1, HTTP/2</strong></p>
+  </li>
+  <li>
+    <p><strong>Request</strong></p>
+  </li>
+  <li><strong>Method</strong> - Select the HTTP method.</li>
+  <li><strong>URL</strong> - Provide a URL for the aPI.</li>
+  <li><strong>Params</strong> - Define the parameters.</li>
+  <li><strong>Authorization</strong> - Let me define my auth.</li>
+  <li><strong>Request Headers</strong> - Let me define my headers.</li>
+  <li><strong>Body</strong> - Give me control over the body.</li>
+  <li><strong>Pre-request Scripts</strong> - I need scripts to run before request.</li>
+  <li><strong>Tests</strong> - I need scripts to run after the request.</li>
+  <li><strong>Settings</strong> - I need to be able to define request settings.</li>
+  <li>
+    <p><strong>Cookies</strong> - I need control over my cookies.</p>
+  </li>
+  <li>
+    <p><strong>Response</strong></p>
+  </li>
+  <li><strong>Body</strong> - Let me see the body of the response.</li>
+  <li><strong>Cookies</strong> - Let me see the cookies for each response.</li>
+  <li><strong>Headers</strong> - Let me see the headers for each response.</li>
+  <li><strong>Test Results</strong> - Let me see the test results for each response.</li>
+  <li><strong>Status</strong> - Provide me with the status for each response.</li>
+  <li><strong>Time</strong> - Provide me with the time a response took.</li>
+  <li><strong>Size</strong> - Provide me with the size of each response.</li>
+  <li><strong>Save Example</strong> - Allow me to save response as example.</li>
+  <li><strong>Visualize</strong> - Allow me to see response visualization.</li>
+  <li><strong>Media Type</strong> - Allow me to see each available media type.</li>
+  <li><strong>Save Response</strong> - Allow me to save each response.</li>
+  <li>
+    <p><strong>Search Response</strong> - Allow me to search details fo response.</p>
+  </li>
+  <li>
+    <p><strong>Webhooks</strong> - Allow me to define a webhoook response.</p>
+  </li>
+  <li><strong>HTTP/2, HTTP/3, TCP, MQTT&lt;</strong>/li&gt;
+    <ul>
+      <li><strong>Channels</strong> - Allow me to subscribe to the available channels.</li>
+      <li><strong>Operations</strong> - Allow me to perform publish or subscribe operations.</li>
+      <li><strong>Messages</strong> - Allow me to work with messages published and received.</li>
+      <li><strong>Schema</strong> - Provide me the ability to manage my schema used.</li>
+      <li><strong>Sampling</strong> - Allow me to see sampling of data returned.</li>
+    </ul>
+  </li>
+  <li><strong>Storage</strong> - Allow me to define storage for request, subscriptions, and streams.</li>
+  <li><strong>Environment</strong> - Which environment should be applied against the request.</li>
+  <li><strong>Snippets</strong> - Give me access to code snippets to put APIs to work.</li>
+  <li><strong>Examples</strong> - Allow me to manage examples across requests.</li>
+  <li><strong>Send</strong> - Allow me to send requests.</li>
+  <li><strong>Receive</strong> - Allow me to receive web hooks.</li>
+  <li><strong>Subscribe</strong> - Allow me to subscribe to streams.</li>
+  <li><strong>Save</strong> - Allow me to quickly save my requests to collections.</li>
+  <li><strong>Duplicate</strong> - Allow me duplicate requests for easy replication.</li>
+  <li><strong>Comments</strong> - Allow me to comment on each individual request.</li>
+  <li><strong>Tags</strong> - Apply tags to each request.</li>
+</ul>
+
+<h3 id="examples">Examples</h3>
+
+<ul>
+  <li><strong>Name</strong> - The name of example</li>
+  <li>
+    <p><strong>Request</strong></p>
+  </li>
+  <li><strong>Method</strong> - The HTTP method.</li>
+  <li><strong>URL</strong> - The URL used.</li>
+  <li><strong>Parameters</strong> - The query and path parameters.</li>
+  <li><strong>Headers</strong> - The headers used.</li>
+  <li>
+    <p><strong>Body</strong> - The request body.</p>
+  </li>
+  <li>
+    <p><strong>Response</strong></p>
+  </li>
+  <li><strong>Headers</strong> - The response headers.</li>
+  <li><strong>Body</strong> - The body returned.</li>
+  <li><strong>Status Code</strong> - The status code returned.</li>
+  <li>
+    <p><strong>Media Type</strong> - The media type of response.</p>
+  </li>
+  <li><strong>Synthetics</strong> - Auto generate synthetic data for me.</li>
+  <li><strong>Duplicate</strong> - Duplicate examples to help them grow.</li>
+  <li><strong>Request(s)</strong> - The requests where example is used.</li>
+  <li><strong>Tags</strong> - Apply tags to the example.</li>
+</ul>
+
+<h3 id="environments">Environments</h3>
+
+<ul>
+  <li><strong>Name</strong> - I want to be able to name my environments.</li>
+  <li><strong>RBAC</strong> - Provide me with role based access control over environments.</li>
+  <li><strong>Versioning</strong> - Help me version and manage change for environments.</li>
+  <li>
+    <p><strong>Variables</strong> - I want to be able to define variables.</p>
+  </li>
+  <li><strong>Keys</strong> - Provide the keys for the variables.</li>
+  <li><strong>Initial Values</strong> - Define the initial value</li>
+  <li><strong>Current Values</strong> - Define the current value.</li>
+  <li>
+    <p><strong>Descriptions</strong> - Provide descriptions for each.</p>
+  </li>
+  <li><strong>Share to Workspace</strong> - Share environments to workspaces.</li>
+  <li><strong>Remove from Workspace</strong> - Remove an environment from workspace.</li>
+  <li><strong>Duplicate</strong> - Allow me to duplicate any environment.</li>
+  <li><strong>Comments</strong> - Allow me to comment on each environment.</li>
+  <li><strong>Import</strong> - Allow me to import environments.</li>
+  <li><strong>Export</strong> - Allow me to export environments.</li>
+  <li><strong>Tags</strong> - Allow me to apply tags to environments.</li>
+</ul>
+
+<h3 id="identity">Identity</h3>
+
+<ul>
+  <li><strong>Provider(s)</strong> - I want to be able to mange multiple identify providers.</li>
+  <li><strong>Secrets</strong> - I want to easily manage secrets that I generate.</li>
+  <li><strong>Vault</strong> - Provide me with a vault for storing of my secrets.</li>
+  <li>
+    <p><strong>Environment</strong> - Allow me to associate environments.</p>
+  </li>
+  <li>
+    <p><strong>Variables</strong> - Allow me to attach environments.</p>
+  </li>
+  <li><strong>Refresh</strong> - Provide the ability to refresh tokens behind the scenes.</li>
+  <li><strong>Audit</strong> - Allow me to audit how identity is applied across operations.</li>
+  <li><strong>Comments</strong> - Allow for commenting on identities.</li>
+  <li><strong>Tags</strong> - Allow me to apply tags to identities.</li>
+</ul>
+
+<h3 id="storage">Storage</h3>
+
+<ul>
+  <li><strong>Details</strong> - All me to define a variety of storage options for operations.</li>
+  <li><strong>Providers</strong> - Allow me to use a variety of data storage providers.</li>
+  <li><strong>RBAC</strong> - Provide me with role based control over storage.</li>
+  <li><strong>Key / Value</strong> - Provide me with simple key / value storage.</li>
+  <li><strong>Buckets</strong> - Provide me with object storage using buckets.</li>
+  <li><strong>Lakes</strong> - Allow me to define data lakes for use across aPIs.</li>
+  <li><strong>Comments</strong> - Allow me to comment on storage solutions.</li>
+  <li><strong>Tags</strong> - Apply me to tags to storage.</li>
+</ul>
+
+<h3 id="mock-servers">Mock Servers</h3>
+
+<ul>
+  <li><strong>Generate</strong> - Allow me to easily generate mock servers.</li>
+  <li><strong>Details</strong> - Allow me to manage the details of my mock servers.</li>
+  <li><strong>Collection</strong> - Allow me to define which collection is used.</li>
+  <li><strong>Version Tag</strong> - Provide me the ability to apply versioning.</li>
+  <li><strong>Environment</strong> - Provide the ability to associate environments.</li>
+  <li><strong>RBAC</strong> - Give me access control over my mock servers.</li>
+  <li><strong>Server URL</strong> - Provide quick acacias to the mock URL.</li>
+  <li><strong>Private</strong> - Allow me to make mock servers private.</li>
+  <li><strong>Comments</strong> - Allow me to comment on mock servers.</li>
+  <li><strong>Tags</strong> - Provide me the ability to apply tags to mock servers.</li>
+</ul>
+
+<h3 id="deployment">Deployment</h3>
+
+<ul>
+  <li><strong>Details</strong> - Allow me to manage the details of deployments.</li>
+  <li><strong>Provider</strong> - Allow me to use multiple providers for Deployment.</li>
+  <li><strong>Collections</strong> - Allow me to leverage collections for deployment.</li>
+  <li><strong>Scripts</strong> - Allow me to manage the scripts that are deployed.</li>
+  <li><strong>Environments</strong> - Let me use environments to define deployment.</li>
+  <li><strong>Stages</strong> - Let me define which stages of deployment I use.</li>
+  <li><strong>Tags</strong> - Allow me to apply tags to each deployment.</li>
+</ul>
+
+<h3 id="management">Management</h3>
+
+<ul>
+  <li><strong>Plans</strong> - Allow me to manage usage plans for my APIs.</li>
+  <li><strong>Policies</strong> - Allow me to apply access policies to APIs.</li>
+  <li><strong>Identity</strong> - Allow me to use identities for access APIs.</li>
+  <li><strong>Keys</strong> - Allow me to generate keys for API access.</li>
+  <li><strong>Tags</strong> - Allow me to tag each of my plans and keys.</li>
+  <li><strong>Usage</strong> - Show me usage for each of my APIs.</li>
+</ul>
+
+<h3 id="scripts">Scripts</h3>
+
+<ul>
+  <li><strong>Search</strong> - Quick search and filter of scripts.</li>
+  <li><strong>Listing</strong> - Listing of all scripts in use across operations.</li>
+  <li><strong>Details</strong> - Let me define meta data for scripts.</li>
+  <li><strong>Code</strong> - Let me manage code for each script.</li>
+  <li><strong>Dependencies</strong> - Let me define my dependencies.</li>
+  <li><strong>Testing</strong> - Let me test my scripts for quality.</li>
+  <li><strong>RBAC</strong> - Let me define access control for scripts.</li>
+</ul>
+
+<h3 id="packages">Packages</h3>
+
+<ul>
+  <li><strong>Publish</strong> - I want to be able to publish packages using Postman.</li>
+  <li><strong>Install</strong> - I want to be able to install and manage my packages.</li>
+  <li><strong>Authenticate</strong> - Help me authenticate my packages.</li>
+  <li><strong>Dependencies</strong> - Help me manage my package dependencies.</li>
+</ul>
+
+<h3 id="runners">Runners</h3>
+
+<ul>
+  <li><strong>Collection</strong> - Allow me to define a collection for a runner.</li>
+  <li><strong>Environment</strong> - Allow me to define the environment for a runner.</li>
+  <li><strong>Iterations</strong> - Let me define how many iterations to run.</li>
+  <li><strong>Delay</strong> - Let me define what the delay should be.</li>
+  <li><strong>Data File</strong> - Allow me to provide a data file for running.</li>
+  <li><strong>Data Store</strong> - Allow me to store data returned in key / value, bucket, or lake.</li>
+  <li><strong>Results Store</strong> - Allow me to store the results of the run.</li>
+  <li><strong>Manual Run</strong> - Allow me to run manually via client.</li>
+  <li><strong>Command Line</strong> - Help me run easily using the CLI.</li>
+  <li><strong>History</strong> - Provide me with history of each run.</li>
+</ul>
+
+<h3 id="monitors">Monitors</h3>
+
+<ul>
+  <li><strong>Details</strong> - Allow me to manage the details of my monitors.</li>
+  <li><strong>Region</strong> - Let me select the region to run each monitor.</li>
+  <li><strong>Status</strong> - Let me know the status of each monitor.</li>
+  <li><strong>Average success rate</strong> - Report to me the average success rate.</li>
+  <li><strong>Average response time</strong> - Report to me the average response time.</li>
+  <li><strong>Monitor Summary</strong> - Give me a summary of monitor runs.</li>
+  <li><strong>Request Split</strong> - Show a split view of the run history.</li>
+  <li><strong>Filter Requests</strong> - Allow me to filter requests that are made.</li>
+  <li><strong>Manual Run</strong> - Let me manually run my monitors.</li>
+  <li><strong>Pause</strong> - Allow me to pause a monitor while running.</li>
+  <li><strong>Tags</strong> - Let me apply tags to my monitors.</li>
+</ul>
+
+<h3 id="testing">Testing</h3>
+
+<ul>
+  <li>
+    <p><strong>Results</strong></p>
+  </li>
+  <li><strong>Monitors</strong> - Show me the results of testing monitors.</li>
+  <li><strong>Runs</strong> - Show me the results of testing runs.</li>
+  <li>
+    <p><strong>Reports</strong> - Provide me quick access to reports.</p>
+  </li>
+  <li><strong>Collections</strong> - Let me get at the collections behind tests.</li>
+  <li><strong>Scripts</strong> - Let me get at the scripts behind tests.</li>
+  <li><strong>Versioning</strong> - Help me version my scripts.</li>
+  <li>
+    <p><strong>Syncing</strong> - Sync my scripts.</p>
+  </li>
+  <li>GitHub</li>
+  <li>GitLab</li>
+  <li>Bitbucket</li>
+</ul>
+
+<h3 id="events">Events</h3>
+
+<ul>
+  <li><strong>Organization</strong> - Details of organizational events.</li>
+  <li><strong>User</strong> - Details of user events.</li>
+  <li><strong>Team</strong> - Details of team events.</li>
+  <li><strong>Workspace</strong> - Details of workspace events.</li>
+  <li><strong>APIs</strong> - Details of apis events.</li>
+  <li><strong>Collections</strong> - Details of collections events.</li>
+  <li><strong>Environments</strong> - Details of environments events.</li>
+  <li><strong>Identity</strong> - Details of identity events.</li>
+  <li><strong>Scripts</strong> - Details of script events.</li>
+  <li><strong>Tests</strong> - Details of tests events.</li>
+  <li><strong>Monitors</strong> - Details of monitors events.</li>
+  <li><strong>Runners</strong> - Details of runners events.</li>
+  <li><strong>Deployment</strong> - Details of deployment events.</li>
+  <li><strong>Management</strong> - Details of management events.</li>
+  <li><strong>Mock Servers</strong> - Details of mock server events.</li>
+  <li><strong>Documentation</strong> - Details of documentation events.</li>
+  <li><strong>Components</strong> - Details of component events.</li>
+  <li><strong>Webhooks</strong> - Push me information when events occur.</li>
+  <li><strong>Subscriptions</strong> - Let me subscribe to event streams.</li>
+</ul>
+
+<h3 id="documentation">Documentation</h3>
+
+<ul>
+  <li><strong>Publish</strong> - Let me publish API documentation.</li>
+  <li><strong>Collection</strong> - Let me define which collection.</li>
+  <li><strong>Version(s)</strong> - Allow me to define the version.</li>
+  <li><strong>Environment(s)</strong> - Let me associate environments.</li>
+  <li><strong>Domain</strong> - Allow me to define a domain.</li>
+  <li><strong>Styling</strong> - Let me apply styling to documentation.</li>
+  <li>
+    <p><strong>Network</strong></p>
+  </li>
+  <li><strong>Private</strong> - Let me make documentation private.</li>
+  <li><strong>Partner</strong> - Let me invite external users to docs.</li>
+  <li>
+    <p><strong>Public</strong> - Let me make my documentation public.</p>
+  </li>
+  <li><strong>Template</strong> - Let me publish as a template.</li>
+  <li><strong>Run in Postman</strong> - Provide me a run in Postman button.</li>
+  <li><strong>Code Snippets</strong> - Provide me code snippets with docs.</li>
+  <li><strong>Team</strong> - Allow me define the team behind documentation.</li>
+  <li><strong>Share</strong> - Make it easy for me to share my documentation.</li>
+  <li><strong>Download (PDF)</strong> - Allow anyone to download as PDF</li>
+  <li><strong>Tags</strong> - Let me apply tags to my documentation.</li>
+</ul>
+
+<h3 id="integrations">Integrations</h3>
+
+<ul>
+  <li><strong>Listing</strong> - Provide me with a list of integrations.</li>
+  <li><strong>Details</strong> - Give me the details of integrations.</li>
+  <li><strong>Star</strong> - Allow me to star and see popular integrations</li>
+  <li><strong>Browse</strong> - Let me browse for integrations.</li>
+  <li><strong>Publish</strong> - Allow me to publish my own integrations.</li>
+  <li><strong>Remove</strong> - Let me remove my integrations.</li>
+  <li><strong>Tags</strong> - Let me apply tags to integrations.</li>
+</ul>
+
+<h3 id="security">Security</h3>
+
+<ul>
+  <li><strong>Users</strong> - Help me manage the security of my users.</li>
+  <li><strong>Workspaces</strong> - Help me manage the security of my workspaces.</li>
+  <li><strong>APIs</strong> - Help me manage the security of my APIs.</li>
+  <li><strong>Environments</strong> - Help me manage the security of my environments.</li>
+  <li><strong>Identities</strong> - Help me manage the security of my identities.</li>
+  <li><strong>Secrets</strong> - Help me scan for and secure all of my secrets.</li>
+  <li><strong>Advisories</strong> - Provides me with real time security advisories.</li>
+  <li><strong>Vulnerabilities</strong> - Help me tune into the wider vulnerability threat.</li>
+  <li><strong>Dependencies</strong> - Help me see all of my dependencies.</li>
+</ul>
+
+<h3 id="reports">Reports</h3>
+
+<ul>
+  <li><strong>Team</strong> - Provide me reports on my teams.</li>
+  <li><strong>Network</strong> - Provide me reports on my networks.</li>
+  <li><strong>Workspaces</strong> - Provide me reports on my workspaces.</li>
+  <li><strong>APIs</strong> - Provide me reports on my APIs.</li>
+  <li><strong>Collections</strong> - Provide me reports on my Collections.</li>
+  <li><strong>Environments</strong> - Provide me reports on my Environments.</li>
+  <li><strong>Identity</strong> - Provide me reports on my identities.</li>
+  <li><strong>Storage</strong> - Provide me reports on my storage.</li>
+  <li><strong>Deployment</strong> - Provide me reports on my deployment.</li>
+  <li><strong>Management</strong> - Provide me reports on my management.</li>
+  <li><strong>Documentation</strong> - Show me reports on my documentation.</li>
+  <li><strong>Mocks</strong> - Provide me reports on my mocks.</li>
+  <li><strong>Monitors</strong> - Provide me reports on my monitors.</li>
+  <li><strong>Runners</strong> - Provide me reports on my runners.</li>
+  <li><strong>Testing</strong> - Provide me easy access to all test results.</li>
+  <li><strong>Integrations</strong> - Provide me reports on my integrations.</li>
+  <li><strong>Tags</strong> - Provide me reports grouped by tags for a cross view.</li>
+</ul>
+
+<h3 id="visualizations">Visualizations</h3>
+
+<ul>
+  <li>
+    <p><strong>Requests</strong> - Let me define requests behind visualizations.</p>
+  </li>
+  <li><strong>Collections</strong> - Let me define the collections behind visualizations.</li>
+  <li><strong>Environment</strong> - Let me allow to define environments for visualizations.</li>
+  <li>
+    <p><strong>Scripts</strong> - Let me manage the scripts behind requests.</p>
+  </li>
+  <li><strong>Monitor</strong> - Let me setup monitors to regularly update a visualization.</li>
+  <li><strong>Publish</strong> - Let me publish visualizations to a dashboard.</li>
+  <li><strong>Embed</strong> - Provide me with embeddable versions of visualizations.</li>
+  <li><strong>Views</strong> - Show me how many times a visualization is viewed.</li>
+  <li><strong>Tags</strong> - Allow me to tag my visualizations.</li>
+</ul>
+
+<h3 id="network">Network</h3>
+
+<ul>
+  <li>
+    <p><strong>Scope</strong> - Provide me with different scopes of network.</p>
+  </li>
+  <li><strong>Private</strong> - My internal organizational network.</li>
+  <li><strong>Partner</strong> - My external collaborator network.</li>
+  <li>
+    <p><strong>Public</strong> - A public network to get more exposure.</p>
+  </li>
+  <li>
+    <p><strong>Browse</strong></p>
+  </li>
+  <li><strong>Workspaces</strong> - Let me browse available workspaces.</li>
+  <li><strong>Teams</strong> - Let me browse available teams.</li>
+  <li><strong>Collections</strong> - Let me browse available collections.</li>
+  <li><strong>Templates</strong> - Let me browse available templates.</li>
+  <li><strong>Visualizations</strong> - Let me browse available visualizations.</li>
+  <li><strong>Environments</strong> - Let me browse available environments.</li>
+  <li>
+    <p><strong>Scripts (Trending)</strong> - Let me browse available scripts.</p>
+  </li>
+  <li>
+    <p><strong>Search</strong></p>
+  </li>
+  <li><strong>Workspaces</strong> - Let me search for available workspaces.</li>
+  <li><strong>Teams</strong> - Let me search for available workspaces.</li>
+  <li><strong>APIs</strong> - Let me search for available workspaces.</li>
+  <li><strong>Collections</strong> - Let me search for available workspaces.</li>
+  <li><strong>Templates</strong> - Let me search for available workspaces.</li>
+  <li><strong>Environments</strong> - Let me search for available workspaces.</li>
+  <li><strong>Scripts</strong> - Let me search for available workspaces.</li>
+  <li><strong>Visualizations</strong> - Let me search for available workspaces.</li>
+  <li><strong>Activity</strong> - Let me search for available workspaces.</li>
+  <li><strong>Comments</strong> - Let me search for available workspaces.</li>
+  <li>
+    <p><strong>History</strong> - Let me search for available workspaces.</p>
+  </li>
+  <li>
+    <p><strong>Details</strong></p>
+  </li>
+  <li><strong>Documentation</strong> - Let me access documentation for APIs.</li>
+  <li>
+    <p><strong>Run in Postman</strong> - Let me run in postman.</p>
+  </li>
+  <li>
+    <p><strong>Publish</strong>&lt;</p>
+  </li>
+  <li><strong>Documentation</strong> - Let me publish my docs.</li>
+  <li><strong>Tags</strong> - Let me apply tags to my documentation.</li>
+</ul>
+
+<h3 id="comments">Comments</h3>
+
+<ul>
+  <li><strong>APIs</strong> - I want to be able to see comments by API.</li>
+  <li><strong>Collections</strong> - I want to be able to see comments by collection.</li>
+  <li><strong>Examples</strong> - I want to be able to see comments by example.</li>
+  <li><strong>Mocks</strong> - I want to be able to see comments by mock server.</li>
+  <li><strong>Monitors</strong> - I want to be able to see comments by monitor.</li>
+  <li><strong>Runners</strong> - I want to be able to see comments by runner.</li>
+  <li><strong>Tags</strong> - I want to be able to see comments by tag.</li>
+</ul>
+
+<h3 id="history">History</h3>
+
+<ul>
+  <li><strong>Timeline</strong> - I want history organized by timeline.</li>
+  <li><strong>Requests</strong> - I want to search history of each request.</li>
+  <li><strong>Save</strong> - I want to be able to save a request to collection.</li>
+  <li><strong>Monitor</strong> - I want to be able to monitor a request.</li>
+  <li><strong>Document</strong> - I want to be able to document a request.</li>
+  <li><strong>Mock</strong> - I want to be able to mock a request.</li>
+  <li><strong>Tags</strong> - I want to be able to tag a request.</li>
+</ul>
+
+<h3 id="activity">Activity</h3>
+
+<ul>
+  <li><strong>Organizations</strong> - I want to see activity managing organizations.</li>
+  <li><strong>Users</strong> - I want to see activity managing users.</li>
+  <li><strong>Workspaces</strong> - I want to see activity managing workspaces.</li>
+  <li><strong>APIs</strong> - I want to see activity managing APIs.</li>
+  <li><strong>Collections</strong> - I want to see activity managing collection.</li>
+  <li><strong>Environments</strong> - I want to see activity managing environments.</li>
+  <li><strong>Monitors</strong> - I want to see activity managing monitors.</li>
+  <li><strong>Mock Servers</strong> - I want to see activity managing mock.</li>
+  <li><strong>Runners</strong> - I want to see activity managing runners.</li>
+</ul>
+
+<h3 id="search">Search</h3>
+
+<ul>
+  <li><strong>Organizations</strong> - I want to be able to search for organizations.</li>
+  <li><strong>Users</strong> - I want to be able to search for users.</li>
+  <li><strong>Teams</strong> - I want to be able to search for teams.</li>
+  <li><strong>Workspaces</strong> - I want to be able to search for workspaces.</li>
+  <li><strong>APIs</strong> - I want to be able to search for apis.</li>
+  <li><strong>Collections</strong> - I want to be able to search for collections.</li>
+  <li><strong>Environments</strong> - I want to be able to search for environments.</li>
+  <li><strong>Identity</strong> - I want to be able to search for identity.</li>
+  <li><strong>Storage</strong> - I want to be able to search across storage.</li>
+  <li><strong>Monitors</strong> - I want to be able to search for monitors.</li>
+  <li><strong>Runners</strong> - I want to be able to search for runners.</li>
+  <li><strong>History</strong> - I want to be able to search for history.</li>
+  <li><strong>Activity</strong> - I want to be able to search for activity.</li>
+</ul>
+
+<h3 id="postman-api">Postman API</h3>
+
+<ul>
+  <li><strong>Overview</strong> - Gives me what I need to get started using the Postman API.</li>
+  <li><strong>Documentation</strong> - The documentation is simple, helpful, and up to date.</li>
+  <li><strong>Coverage</strong> - The API covers most of the features available on web and desktop,</li>
+  <li><strong>Status</strong> - They provide a status of the API that I will be depending on.</li>
+</ul>
+
+<h3 id="outcomes">Outcomes</h3>
+
+<ul>
+  <li>
+    <p><strong>People</strong> - Helping me engage across teams.</p>
+  </li>
+  <li><strong>Teams</strong> - I have teams defined for API operations.</li>
+  <li><strong>Sharing</strong> - I can easily share resources across teams.</li>
+  <li><strong>Collaboration</strong> - I can easily collaborate with other people.</li>
+  <li>
+    <p><strong>Activity</strong> - You can tune into what is happening.</p>
+  </li>
+  <li>
+    <p><strong>Me</strong> - The direct impact on me.</p>
+  </li>
+  <li><strong>Tangible</strong> - My APIs are more tangible.</li>
+  <li><strong>Coherent</strong> - I can see what is happening.</li>
+  <li><strong>Social</strong> - The API life cycle has become social.</li>
+  <li>
+    <p><strong>Precise</strong> - Allows me to be more precise with my APIs.</p>
+  </li>
+  <li>
+    <p><strong>APIs</strong> - Direct impacts on my APIs</p>
+  </li>
+  <li><strong>Defined</strong> - Every one of my APIs is defined.</li>
+  <li><strong>Documented</strong> - All my APIs have documentation.</li>
+  <li><strong>Mocked</strong> - All APIs are available as mocks.</li>
+  <li><strong>Tested</strong> - All APIs are fully tested by collections.</li>
+  <li><strong>Consistent</strong> - I use common components across APIs.</li>
+  <li><strong>Validated</strong> - All of my APIs are validated against collections.</li>
+  <li><strong>Reusable</strong> - I can design my APIs so they are reusable.</li>
+  <li>
+    <p><strong>Boundaries</strong> - I have well defined boundaries between APIs.</p>
+  </li>
+  <li>
+    <p><strong>Change</strong></p>
+  </li>
+  <li><strong>APIs</strong> - I can manage change across the APIs I’m delivering.</li>
+  <li><strong>Collections</strong> - I can manage change across my collections.</li>
+  <li>
+    <p><strong>Versioning</strong> - I can version all artifacts behind APIs.</p>
+  </li>
+  <li>
+    <p><strong>Deployment</strong></p>
+  </li>
+  <li><strong>Consistent</strong> - I can consistently deploy APIs.</li>
+  <li><strong>Multi-Platform</strong> - I can deploy with multiple providers.</li>
+  <li>
+    <p><strong>Defined</strong> - My deployment process is mapped out.</p>
+  </li>
+  <li>
+    <p><strong>Management</strong></p>
+  </li>
+  <li><strong>Consistent</strong> - All APIs can be consistently managed.</li>
+  <li>
+    <p><strong>Visibility</strong> - You can see into how APIs are used.</p>
+  </li>
+  <li>
+    <p><strong>Platform</strong></p>
+  </li>
+  <li><strong>Organized</strong> - My APIs exist in defined workspaces.</li>
+  <li><strong>Private</strong> - I can maintain privacy when needed.</li>
+  <li><strong>Public</strong> - I can make things public as needed.</li>
+  <li><strong>Sync</strong> - I can sync with other platforms.</li>
+  <li><strong>Integration</strong> - I can integrate with other platforms.</li>
+  <li><strong>Centralized</strong> - Work can be centralized for scale.</li>
+  <li><strong>Localized</strong> - Work can be localized for individuals.</li>
+  <li><strong>Portable</strong> - I can sync, integrate, export and share everything.</li>
+  <li><strong>Executable</strong> - Everything on my platform is executable.</li>
+  <li>
+    <p><strong>Machine Readable</strong> - Everything produces an artifact.</p>
+  </li>
+  <li>
+    <p><strong>Orchestration</strong></p>
+  </li>
+  <li><strong>Collecitons</strong> - The collection as central unit of currency.</li>
+  <li><strong>Runners</strong> - Being able to run my collections as I need.</li>
+  <li><strong>Monitors</strong> - Letting me schedule the runs of collections.</li>
+  <li><strong>Environments</strong> - Terraforming of environments to evolve.</li>
+  <li><strong>Pipelines</strong> - Deploy code using repeatable, tested pipelines.</li>
+  <li>
+    <p><strong>Events</strong> - Make my world about responding to events not just requests.</p>
+  </li>
+  <li>
+    <p><strong>Access Control</strong></p>
+  </li>
+  <li><strong>Organization</strong> - We can control access across teams.</li>
+  <li><strong>Teams</strong> - I can manage access at the team level.</li>
+  <li><strong>APIs</strong> - I can manage access at the aPI level.</li>
+  <li><strong>Collections</strong> - I can manage access at the collection level.</li>
+  <li><strong>Environments</strong> - I can manage access at the environment level.</li>
+  <li><strong>Scripts</strong> - I can can manage access to all the scripts.</li>
+  <li>
+    <p><strong>Mock Servers</strong> - I can manage access to mock servers.</p>
+  </li>
+  <li>
+    <p><strong>Discovery</strong></p>
+  </li>
+  <li><strong>Private</strong> - Discoverable via private networks and workspaces.</li>
+  <li><strong>Partner</strong> - Discoverable via partner networks and workspaces.</li>
+  <li><strong>Public</strong> - Discoverable via public networks and workspaces.</li>
+  <li><strong>Automated</strong> - Make everything discoverable by default for me.</li>
+  <li><strong>Integration</strong> - I have a wealth of 3rd party integrations available.</li>
+  <li>
+    <p><strong>Search</strong> - You can search across APIs and operations.</p>
+  </li>
+  <li>
+    <p><strong>Observability</strong></p>
+  </li>
+  <li><strong>Teams</strong> - You can see across teams.</li>
+  <li><strong>Workspaces</strong> - You can see across workspaces.</li>
+  <li><strong>Documented</strong> - I can see docs for everything.</li>
+  <li><strong>Tests</strong> - Everything can have a test.</li>
+  <li><strong>Scripts</strong> - I can holistically manage scripts.</li>
+  <li><strong>Monitoring</strong> - I can monitor everything.</li>
+  <li><strong>Management</strong> - I can see all API usage.</li>
+  <li><strong>History</strong> - All API activity is logged.</li>
+  <li><strong>Activity</strong> - All management activity is logged.</li>
+  <li><strong>Provenance</strong> - Everything is reverse engineer-able.</li>
+  <li>
+    <p><strong>Traceability</strong> - All requests have unique ID.</p>
+  </li>
+  <li>
+    <p><strong>Awareness</strong></p>
+  </li>
+  <li><strong>Insights</strong> - Postman regularly shows me new things about my own APIs.</li>
+  <li><strong>Zeitgeist</strong> - Postman provides the pulse of I need to stay in tune with.</li>
+  <li><strong>Reports</strong> - I have reporting for every dimension that is available to me.</li>
+  <li>
+    <p><strong>Prioritize</strong> - Postman has helped me understand what is a priority.</p>
+  </li>
+  <li>
+    <p><strong>Security</strong></p>
+  </li>
+  <li><strong>Scanning</strong> - I need help scanning the growing sprawl I am building.</li>
+  <li><strong>Standardization</strong> - Helping me do things using proven standards.</li>
+  <li>
+    <p><strong>Privacy</strong> - Help me understand and protect privacy across my API infrastructure.</p>
+  </li>
+  <li>
+    <p><strong>Feedback Loops</strong></p>
+  </li>
+  <li><strong>Discussions</strong> - There are discussions across teams.</li>
+  <li><strong>Comments</strong> - All artifacts have inline comments.</li>
+  <li>
+    <p><strong>Change Log</strong> - You can see what happened asynchronously.</p>
+  </li>
+  <li>
+    <p><strong>Community</strong></p>
+  </li>
+  <li><strong>Discovery</strong> - I am regularly discovering new code, process, and techniques using Postman.</li>
+  <li><strong>Network</strong> - I see Postman as a social network before I see it being about APIs.</li>
+  <li><strong>Rating</strong> - There is a social rating system in place on top of the Postman platform.</li>
+  <li><strong>Public</strong> - Postman is the public place I go to find out what is happening with APIs.</li>
+  <li><strong>Taxonomy</strong> - An organic taxonomy of topics, labels, and other elements surfaces.</li>
+  <li><strong>People</strong> - Even with its technological roots, Postman is now very much about people and teams.</li>
+</ul>
+
+<h3 id="distilling-all-of-that-down">Distilling All of That Down</h3>
+
+<p>As I sit here thinking about what GitHub has done for me with code, and what Postman will do for me with APIs loaded in my head I can comfortably sit back and ponder on the shift we are going to need in the API universe. I see a little over 10 years of GitHub and 5 years of Postman in my head. I can think about the fundamental shifts in how I work because of both GitHub and Postman. I am spending tie thinking about what I want, but also other what business and technical leadership is going to want from their own API infrastructure and their service providers. Most importantly I want to also make sure I tune into what developers on the ground within the enterprise, small business, and other independent shops will want when it comes to their API operations. Here is what I distilled all this brainstorming down into…</p>
+
+<ul>
+  <li><strong>About the Organization and People</strong> - Postman has to address the organizational shift that has been set into motion with APIs, helping strike a balance between the business and human needs and motivations that exist across an organization or even an industry.</li>
+  <li><strong>Stabilizing Private, Partner, and Public</strong> - Private, partner, and public APIs has long been used to describe the critical ways in which organizations do aPIs, and Postman has to help draw definitive lines, provide enterprise grade access control, and whatever is needed to navigate these layers.</li>
+  <li><strong>Bringing Consistency and Reliability</strong> - Doing APIs well is difficult at scale, and Postman has to help API providers achieve more heightened levels of consistency and reliability across operations by helping standardize and test APIs across the entire API life cycle.</li>
+  <li><strong>Discoverable and Tangible by Default</strong> - The number of APIs are growing and we are all going to need help making sure what we are building is tangible, meaningful, and discoverable, otherwise it will get lost in the noise of the API factory floor that is perpetually moving forward in tomorrow.</li>
+  <li><strong>Everything is Portable and Executable</strong> - Postman has to make not just APIs, but the infrastructure we use to deliver them as portable, executable, reusable as possible helping API providers build out their API factor floors in a way that evolve in the same ways we are enabling our web, mobile, device and network apps.</li>
+  <li><strong>Security and Privacy Baked Into DNA</strong> - Keeping our infrastructure secure is only going to get harder, and API providers and consumers. need as much help as they can get when it comes to identity, authentication, scanning, standards, vulnerabilities, dependencies, and everything else plaguing the digital world.</li>
+  <li><strong>Healthy Observability and Accountable</strong> - Postman provides a wealth of existing outputs from the enterprise factory floor that can be harvest and used to make sense of what is going on, introducing healthier levels of observability and accountability across how APIs are doing what they do.</li>
+  <li><strong>he Tooling for Orchestrating it All</strong> - The Postman platform provides all of the desktop, web, and open source tooling for delivering APIs throughout over time, helping API providers make sense of their ever evolving enterprise landscape, while also empowering API consumers to keep up with the pace of change.
+If Postman is going to do for APIs what GitHub has done for code, I feel like it has to be rooted in these areas. I was using Git long before GitHub came along. It was their very public and social usage of Git that shifted my behavior. GitHub provided me with tools to help address the growing need to do business on the open web, as well as within the enterprise. GitHub helped play a role it breaking down the proprietary enterprise software monolith by applying a more modular, open source, versioned, and human way of moving software forward. Postman needs to ensure that many of the nutrients that allowed the GitHub community to flourish out in the open as well as on-premise within the enterprise firewall exists. However, Postman also has to help lead the conversation when it comes to API at this level because we are in uncharted territory and the GitHub blueprint doesn’t provide us with everything we need to drive the conversation in the next decade, but it can help inform us.</li>
+</ul>
+
+<p>That was a pretty fun exercise. I do not do this because I think it holds all the answers. I don’t do these because I think anyone is going to read it all and understand where I am coming from. I do it because it helps me see the entire chess board. It also provides me with a game to play in my head while trying to relax. I don’t see this as work. I like thinking about the moving parts of the API life cycle. If nothing else I am just more equipped for my next conversation with a customer about APIs, and all of these nuggets are on the tip of my tongue, ready to be spoke.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Strategy&searchFields=tags" class="post-tag me-2">#Strategy</a>
+        
+          <a href="/search/?search=Operations&searchFields=tags" class="post-tag me-2">#Operations</a>
+        
+          <a href="/search/?search=Lifecycle&searchFields=tags" class="post-tag me-2">#Lifecycle</a>
+        
+          <a href="/search/?search=Resources&searchFields=tags" class="post-tag me-2">#Resources</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>March 20, 2021</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success">Kin Lane</span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

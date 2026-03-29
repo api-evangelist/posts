@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Elevating My Awareness of Artificial Intelligence - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2023/04/02/elevating-my-awareness-of-artificial-intelligence/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Elevating My Awareness of Artificial Intelligence - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/oakland-california-fox-oakland-out-front.jpeg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Elevating My Awareness of Artificial Intelligence</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>April  2, 2023</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/oakland-california-fox-oakland-out-front.jpeg" alt="Elevating My Awareness of Artificial Intelligence" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I am not excited about recent evolutions in artificial intelligence (AI) as many others are, but as with APIs, I am looking to find and follow the story. This is something that takes regular studying and thinking about things, so here I aim spending my weekend thinking about all of this, trying to define where I stand, and speak somewhat intelligently about where things are going. As with most things tech, I am coming at this through the API lens, but since OpenAI, and most of the AI / ML conversation occurring right now is API driven and defined, so I think my lens will prove relevant. I have to be honest, I don’t know a whole lot about the inner workings of AI / ML. It is all a little black box and a little out of reach, but I’ve been paying attention and used a lot of solutions, and I think my vantage point likely reflects where many others find themselves, whether they are honest about it or not.
+ </p>
+
+<p>I am looking to come at this with as honest of an opinion as possible, so I am staying out of the realm of fiction and making claims about AI actually having any sentience or intelligence. I know better. I respect humanity and the realm of the living more than that, but I am also willing to acknowledge that GPT-3 is pretty impressive when it comes to working with some very specific slices of our world. The little I’ve played with I am pretty impressed with the results, but I am playing more in the realm of knowns knowns with data and existing algorithmic processes, not art, literature, and the other more magical realms of existence. This post is my first deep dive into thinking about artificial intelligence, understanding where things are headed, and staking my claim in this new digital land rush, and hopefully equipping myself with some tools 
+ </p>
+<h2 id="vocabulary">Vocabulary</h2>
+<p>I an a storyteller, so words matter. I regularly am left confused by the vocabulary used in the realm of artificial intelligence. I like to develop vocabularies that shape any realm I am studying, as it helps me ground how I see things, while also understanding how others are being influenced through storytelling. Remember, I am doing all of this to understand the stories, not AI, ML, or even API. The words used are very intentional, and they are often broad and vague on purpose, as it helps light up the imagination when we talk about what is possible, and often hide the fact that some things aren’t possible. Here is the vocabulary I am using to help shape how I see this world — I will add others as I find them.</p>
+<ul>
+  <li><strong>Artificial Intelligence</strong> - Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to intelligence of humans and other animals. Example tasks in which this is done include speech recognition, computer vision, translation between (natural) languages, as well as other mappings of inputs.</li>
+  <li><strong>Machine Learning</strong> - Machine learning (ML) is a field of inquiry devoted to understanding and building methods that “learn” – that is, methods that leverage data to improve performance on some set of tasks. It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so.</li>
+  <li><strong>Neural Networks</strong> - A neural network is a network or circuit of biological neurons, or, in a modern sense, an artificial neural network, composed of artificial neurons or nodes. Thus, a neural network is either a biological neural network, made up of biological neurons, or an artificial neural network, used for solving artificial intelligence (AI) problems.</li>
+  <li><strong>Large Language Model (LLM)</strong> - Though the term large language model has no formal definition, it generally refers to deep learning models having a parameter count on the order of billions or more. LLMs are general purpose models which excel at a wide range of tasks, as opposed to being trained for one specific task (such as sentiment analysis, named entity recognition, or mathematical reasoning).
+ </li>
+</ul>
+
+<p>I am really not looking to go too deep down this rabbit hole. I know it is something that could seriously dominate my time. I have spent a few separate instances where I have gone deep into learning about TensorFlow, ML APIs, and other dimensions, but I know what a time suck it can be, so I avoid spending too many cycles. However, as with other aspects of my work I always have to balance how deep I go on a subject, striking the right balance between knowing what I am talking about and not having to do the time to be an expert. This vocabulary will help provide me with a grounded frame of reference that I will use thorough-out my storytelling, keeping things mapped to the words others are using, but rooted in some research I have done.
+ </p>
+<h2 id="models">Models</h2>
+<p>For me, models are how we make sense of this. It is how we break things down into usable, evolvable, and auditable units. Models depend on the scope and quality of what they trained upon. Models can be small or large, good or bad, and their quality, usefulness, and accuracy will depend on a number of factors. I’ve created and trained models with TensorFlow, but haven’t ever gone beyond that, with only recently playing around with GPT-3, and I am on the waiting list for GPT-4. I am fascinated by how companies are positioning their models, and included one example from Bloomberg to help plant seeds around how the narrative around how industry or domain models are being used to differentiate stories.</p>
+<ul>
+  <li><strong>TensorFlow</strong> - TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.</li>
+  <li><strong>GPT-3 &amp; GPT-4</strong> - Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model released in 2020 that uses deep learning to produce human-like text. Given an initial text as prompt, it will produce text that continues the prompt.</li>
+  <li><strong>BloombergGPT</strong> - A Large Language Model for Finance** - Large Language Models (LLMs) have been shown to be effective on a variety of tasks; however, no LLM specialized for the financial domain has been reported in literature. In this work, we present BloombergGPT, a 50 billion parameter language model that is trained on a wide range of financial data.</li>
+  <li><strong>Existing Models</strong> - It takes a lot of work to build your own models and utilizing existing models is the preferred method of approaching business use cases for AI, but you are always beholden to the model you are using, and having over your data to someone else.</li>
+  <li><strong>New Models</strong> - Creating, training, and maintaining new models or at least being able to refine existing models is ideal for specialization but you must have the expertise, compute, time, and other resources it takes to actually get your model doing something meaningful.
+ </li>
+</ul>
+
+<p>I am going to do more research into the different types of models in use out there, and how they are being positioned. A big factor for me, which I will cover more about later is the observability that exists around these models. Whether it is intentionally a black box and smoke and mirrors, or there is actually provenance and transparency behind the model. For me, this is where the real story is at. This game will all be about the stories spun around models and what they are capable of, and less about the real world results they deliver. Models provide us with a potential tangible unit of meaning when it comes to talking about the different moving parts of artificial intelligence, and I’ve seen some pretty interesting approaches to iterating on models that give me hope that we can do this right.
+ 
+<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-docks-water-front-ships-containers.jpg" alt="Shipping Containers on the Dock" /></p>
+
+<h2 id="knowledge">Knowledge</h2>
+<p>The models used to power AI are only as good as the data they are trained on. The quality and usefulness of the models will be defined by data fed into them. This is where we really crack open the API portion of this discussion, in that Chat-GPT is trained using its API, but the Chat-GPT plugin is provided access to knowledge by sharing an OpenAPI for any API it will be using to answer questions. It is easy to assume that OpenAI and other people in the business of developing models have some magic access to the worlds knowledge, but this is the intersection that will matter the most to the success of AI / ML, and how it is applied in our personal and professional lives.=</p>
+<ul>
+  <li><strong>Web</strong> - Since the web is what most of see on a daily basis, and represents the most tangible part of what we consider to be “knowledge”, we assume it is easy to consume and train models, when in reality it can be very difficult to do, but there are resources like Common Crawl that help make it something anyone can train a model on.</li>
+  <li><strong>Content</strong> - Creating and maintaining content beyond the open web and training AI models on it is a great way to develop the knowledge being made available, and if you are training your own models you are capturing most of the value, where if you are using other people’s models you are transferring the value available in your content to theirs.</li>
+  <li><strong>Databases</strong> - There are endless numbers of public and private databases full of useful and useless data about our world, and the need to get this databases into machine learning models will be another boost to the world of APIs, pushing companies to invest in APIs so that they can be applied as part of artificial intelligence applications.</li>
+  <li><strong>APIs</strong> - If you have APIs already as a company and are used to exposing your digital resources and capabilities as APIs you are ahead of the game when it comes to potentially tapping into the AI evolution, but companies who haven’t will be racing to invest heavily in APIs so that they can be used to train machine learning models.
+ </li>
+</ul>
+
+<p>Knowledge is distributed on the web. Knowledge is made available via APIs in structured ways. APIs are how Chat GPT and other AI players will gain access to knowledge when it comes to training their models, or convincing others to train their models for them. This is something that will continue to increase the popularity and importance of APIs, but in my experience it won’t necessary mean better APIs, and there will continue to a lot of noise, garbage, and low-level knowledge littering the digital landscape. Access to knowledge will continue to shape artificial intelligence in the same way it has shaped real world human intelligence—both for good and bad.
+ </p>
+<h2 id="medium">Medium</h2>
+<p>I find myself swirling in the possibilities with AI, and breaking down the mediums where it is being applied helps me compartmentalize my thinking. It was images that first captured my imagination when it came to machine learning, but I’d say that the artifact and code mediums are what have my attention in this particular moment. Honestly I find many of the image AI floating around to be boring and exhausting, but the video and audio applications offer some potential time savings for me. Breaking down the mediums helps me focus my energies and separate out how and what I think about when it comes to artificial intelligence, otherwise I find I can easily get lost in the spectacle of it and can’t make sense of what is happening.</p>
+<ul>
+  <li><strong>Text</strong> - Generating text, creating summaries, takeaways, writing descriptions for API, producing social media snippets from interviews, and using AI to product text.</li>
+  <li><strong>Images</strong> - Applying machine learning models to images, and training models using images, generating and evolving images using a variety of approaches.</li>
+  <li><strong>Video</strong> - Taking video and performing some magic on creating transcription, editing, enhancing quality, and doing the things I can’t do or afford to pay someone.</li>
+  <li><strong>Audio</strong> - Producing and enhancing audio as part of podcasts, but I’d also like to explore other avenues for producing audio that helps augment my existing work.</li>
+  <li><strong>Voice</strong> - Taking things I say and then turning them into text or even turning them into AI commands that I can use to trigger other actions that matter to me.</li>
+  <li><strong>Artifacts</strong> - I have used to Chat GPT to produce OpenAPI, JSON Schema, and other machine readable artifacts from me using a variety of commands.</li>
+  <li><strong>Code</strong> - Writing scripts and other snippets of code the produce of consumer APIs, test, and help me automate, driven by the artifacts I am producing elsewhere.
+ </li>
+</ul>
+
+<p>Compartmentalizing AI by medium helps me focus. There are times I really enjoy playing with images, but for business purposes right now I am very interested in helping abstract away complexity with the artifacts and code associated with producing and consuming APIs. This is something that is also directly related to how we all will be making knowledge available for training AI models, whether we are using Chat GPT or other set of models. Using medium to help me organize things helps ensure that I can maximize different approaches to using AI, and leveraging different types of models for different purposes, and even connect the dots between them like I will be with voice to text, and voice to artifacts and code.
+ </p>
+<h2 id="compute">Compute</h2>
+<p>I have dabbled enough in the realm of AI / ML to know that the compute bills can be eye watering. I’ve spend a thousand dollars in a weekend training AI models for <a href="https://algorithmic.rotoscope.work/">my algorotoscope videos and images</a>. I also know that where and how we apply compute will also shape how AI impacts our personal and professional worlds. I think that the cloud is essential to this moment we find ourselves in with Chat GPT and beyond, but I think that the real opportunity is augmenting our worlds in the browser on and our mobile devices.</p>
+<ul>
+  <li><strong>Cloud</strong> - Using Amazon, Azure, Google, or other cloud platform to train and deliver models.</li>
+  <li><strong>On-Premise</strong> - Utilizing physical compute power on-premise in data center or hosting environment.</li>
+  <li><strong>Local</strong> - Applying compute locally to train and deliver machine learning models in a mix of ways.</li>
+  <li><strong>Browser</strong> - Baking machine learning into our browser like Microsoft is doing with their Edge browser.</li>
+  <li><strong>Mobile</strong> - Weaving machine learning into our mobile applications, leveraging on-device compute. 
+ </li>
+</ul>
+
+<p>Compute is one of the essential building blocks of all of this. It is both a technical but also business one. It costs a lot to play in this game. Maximizing how you wield compute is going to be a critical aspect of how this works or doesn’t work. I will have to investigate whether or not there is some algorithm or law governing how fast models are being trained and how fast they are being applied over time. Compute is a commodity, but it is needed at a scale that isn’t cheap to maintain, so this will be something that cuts a lot of people out of the conversation.
+ 
+<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-alan-turing-side.jpg" alt="Shipping Containers on the Dock" /></p>
+
+<h2 id="apis">APIs</h2>
+<p>Next up in my stack are the APIs. APIs are how knowledge flows in an out of OpenAI, the platform behind Chat GPT.  You can use and refine models via the OpenAI API. You can plug knowledge into Chat GPT models via their plugin infrastructure. OpenAPI is part of the manifest for plugging knowledge into Chat GPT models. API are the pipes for AI, just like they have been for web, mobile, and device applications, so I want to make sure that I am thinking about what will matter to delivering useful models.</p>
+<ul>
+  <li><strong>Authentication</strong> - Managing authentication and authorization will make or break a lot of this.</li>
+  <li><strong>Read</strong> - Being able to easily read data and the metadata around it will be critical to models.</li>
+  <li><strong>Write</strong> - Right now things seem very read-only, but write capabilities are going to important.
+ </li>
+</ul>
+
+<p>OpenAPI encourages you to keep your OpenAPI files small, doing one thing well. This reflects my belief in APIs, keep them small and meaningful—reducing complexity. I am concerned how the authentication for how all of this will work, and be managed. I am also worried about the metadata that will be needed to properly query APIs, and make knowledge properly available for interactions via AI implementations, and to train models with the right context. I know I am biased when it comes to APIs, but they are definitely the key to all of this. 
+ </p>
+<h2 id="specifications">Specifications</h2>
+<p>The bridge between the knowledge available in APIs and the artificial intelligence universe are specifications. OpenAI has adopted the OpenAPI specification as the contract between any API and OpenAI via plugins. This uses OpenAPI and JSON Schema to connect to any API, and OpenAPI is just the start, and I am confident that other specifications will be needed to help make the future of artificial intelligence possible. We are going to have to scale and automate all of this API connectivity, and API specifications are key to doing all of this scale, mapping out the knowledge landscape in a machine readable way.</p>
+<ul>
+  <li><strong>OpenAPI</strong> - Defining access to HTTP APIs, making resources available for us in machine learning models.</li>
+  <li><strong>JSON Schema</strong> - The schema of all the digital bits of knowledge being used to power artificial intelligence.</li>
+  <li><strong>Collections</strong> - Add a layer of data and context to any query being made to APIs for knowledge.</li>
+  <li><strong>Environments</strong> - Providing an essential layer for managing authentication and other secrets needed.</li>
+  <li><strong>AsyncAPI</strong> - Connecting models to other event-driven APIs, making all of this much more interactive.</li>
+  <li><strong>Spectral</strong> - Governing APIs being used to ensure they possess different characteristics that are needed.
+ </li>
+</ul>
+
+<p>These specifications are needed as the glue between the knowledge and how it is used in artificial intelligence, but interestingly you can create, convert, and manage these specifications. You can ask Chat GPT to create OpenAPI, JSON Schema, Collections, and Spectral rules. Chat GPT is great at working with these specifications. Machine readable formats, generating them from nothing, comparing, converting, and helping automate how they are used. This is the area I am most interested in when it comes to making sense of the artificial intelligence landscape, because it is what matters the most at scale. 
+ </p>
+<h2 id="creating-specifications">Creating Specifications</h2>
+<p>It is interesting to explore the role that OpenAPI is playing all of this connectivity, but also what is possible with Chat GPT when it comes to creating OpenAPI. I have to admit that I was pretty dam impressed with what was possible when it comes creating OpenAPI out of thin air. I found pretty good success with just a handful of interesting areas I have been trying to solve for some time now.</p>
+<ul>
+  <li>Create an OpenAPI 3.0 JSON Schema, and Postman Collection from this documentation URL</li>
+  <li>Create an OpenAPI 3.0 JSON Schema, and Postman Collection for a schema.org events object</li>
+  <li>Create an OpenAPI 3.0 JSON Schema, and Postman Collection for [any company] API</li>
+  <li>Create an OpenAPI 3.0 JSON Schema, and Postman Collection for [any word] API
+ </li>
+</ul>
+
+<p>Give me some more time and I feel like I could come up some other interesting ways to create an OpenAPI. I was just working on very simple, yet powerful examples. Next, I am going to get more precise in how I was for the OpenAPI, and the elements of the API.  I spent about an hour or two playing around, and I have to admit I am pretty impressed with what it could create, and I am looking forward to exploring more.
+ </p>
+<h2 id="managing-specifications">Managing Specifications</h2>
+<p>After playing around with creating OpenAPI, I started playing around with managing them. I wanted to see how good Chat GPT was at injecting specific elements of an OpenAPI. Turns out it was pretty good at injecting some of the common things into an OpenAPI, offering a sneak peak at how AI can reduce friction for API architects, designers, and developers. I am confident that I can find an endless number of ways to make our lives easier when it comes to apply Chat GPT to OpenAPI documents, but here were a couple of quick ways I found out of the gate.</p>
+<ul>
+  <li>Adding description to an OpenAPI 3.0</li>
+  <li>Adding license to an OpenAPI 3.0</li>
+  <li>Adding contact information to an OpenAPI 3.0</li>
+  <li>Adding operation summaries to an OpenAPI 3.0 operation</li>
+  <li>Adding operation description to an OpenAPI 3.0 operation</li>
+  <li>Adding operation id to an OpenAPI 3.0 operation</li>
+  <li>Adding descriptions to parameters</li>
+  <li>Adding descriptions to schema properties</li>
+  <li>Adding enumerators to schema properties</li>
+  <li>Adding summaries to Postman Collections
+ </li>
+</ul>
+
+<p>Chat GPT was pretty damn good at helping me with some of these repetitive things I find myself doing on a regular basis. I am genuinely excited about the potential here. API design takes on a whole other tone when you can just bark commands at your OpenAPI. The challenge I think though with all of this is that you have to know what needs to be done. You have to know OpenAPI to know to ask these things. Regardless, it provides a compelling look at what is possible when it comes to managing our API specifications.
+ </p>
+<h2 id="testing-everything">Testing Everything</h2>
+<p>The next area I am was playing around with Chat GPT was when it comes to generating different types of tests. I wanted to understand how we could further automate quality when it comes to our APIs in general, but also when it comes to supporting Chat GPT integrations. Which I find pretty profound, that you can generate tests using the same AI that you are powering with the APIs that you are testing. Here are just a few of the ways I was using Chat GTP to test different aspects of an API.</p>
+<ul>
+  <li>Generate Postman test script to check the status code of the [operation name]</li>
+  <li>Generate a test script to validate the schema for the [operation name] response</li>
+  <li>Generate a test script to check the response time for each individual API path</li>
+  <li>Generate a regular expression to test for a specific pattern of values in API response value.</li>
+  <li>Generate a Spectral rule to ensure that every OpenAPI possesses the proper media type</li>
+  <li>Generate a Spectral rule to ensure that every OpenAPI possesses the proper HTTP status codes</li>
+  <li>Generate a Spectral rule to ensure that every OpenAPI possesses the proper headers
+ </li>
+</ul>
+
+<p>These are just a few of the ways in which I pushed Chat GPT to help me with testing. Testing  not only an instance of an API, but also the interface and implementation of an API. Chat GPT proved pretty adept at producing tests for Postman collections, with or without referencing OpenAPI as the contract. Like the contract themselves, I was impressed at the ability for Chat GPT to produce tests needed to produce high quality contracts and ensure the contracts were implemented properly, showing potential for reducing drift.
+ 
+<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-old-dark-bridge.jpg" alt="Shipping Containers on the Dock" /></p>
+
+<h2 id="context">Context</h2>
+<p>Perpetually throughout my recent AI journey I am reminded of how much context is required for all of this to work. We are really good at under valuing how much information we humans process in any given moment, and how much of the web works because it is us humans navigating it. I see this regularly throughout the world of APIs where many developers love to overlook the role that humans play and that all of this is easy to automate. I found Chat GPT to work well when you gave it more context and understand what was possible and what is not possible, something I think we’ll have to think deeply about if we are to be successful.</p>
+<ul>
+  <li><strong>Questions</strong> - How you ask questions is such an art, and will completely determine your success using Chat GPT.</li>
+  <li><strong>Bounded</strong> - I as flapping in the wind until I started developing bounded context for my questions and the answers.</li>
+  <li><strong>Domains</strong> - It was clear to me that general intelligence will only get us so far and the need for domains is key.</li>
+  <li><strong>Scope</strong> - Scooping quickly emerged as how I was going to find success, keeping things precise rather than large.</li>
+  <li><strong>Right-Sized</strong> - Small only gets you so far, so you have to explore and right-size your questions applied to chat.</li>
+  <li><strong>Accuracy</strong> - You really have to evaluate your answers and be scientific in assessing the accuracy of your responses.
+ </li>
+</ul>
+
+<p>This is where I feel like we are going to spin out the most when it comes to using AI. Without context it will get lost, and AI will lead us astray. AI will be all about developed walled gardens of knowledge in the form of proprietary models. These models will be black boxes and often not fully understand by those who wield them, but also kept even darker out of real and perceived proprietary concerns. The benefits of AI will be shaped by domains and meaningful bounded context articulated by experts, and I feel that artificial general intelligence will only get us so far.
+ </p>
+<h2 id="awareness">Awareness</h2>
+<p>One of the things I found myself thinking a lot about as I read through various articles on AI, Chat-GPT, and the applications in different industries was the lack of awareness that exists, and the opportunity for exploitation that exists because of it. I admittedly only have a certain level of awareness when it comes to AI and ML, but I have a heightened level of awareness of APIs, specifications, as well as the business and politics that exists across the tech sector. This I feel will be one of the most damaging aspects of AI when it comes to what it does to markets and our personal lives, resulting from a lack of awareness at the levels that matter the most to humans.</p>
+<ul>
+  <li><strong>Understand Artificial Intelligence</strong> - AI / ML is tough to see and complex to understand and will further obfuscate what is happening.</li>
+  <li><strong>Understand APIs</strong> - I have spent over a decade trying to shine a light into the inner workings of the digital economy, which Ai will make harder.</li>
+  <li><strong>Understand Specifications</strong> - The semantics and metadata data of how all the knowledge and “intelligence” behind all of this will be critical.</li>
+  <li><strong>Understand Business</strong> - Understanding the motivations of investors and large enterprises is a key aspect where you site in regards to awareness.</li>
+  <li><strong>Understand Politics</strong> - There are a lot of games being played right now, from lower levels of labor up to highest levels of government regulation.</li>
+  <li><strong>Above or Below the Line</strong> - As with APIs, it will all depend on whether your awareness is above or below the API or now the Ai line.
+ </li>
+</ul>
+
+<p>The whole purpose of this post is to evolve my awareness in the realm of AI and ML, but also the intersection with APIs. I refuse to go too far down the rabbit hole with actual AI, but I will keep dabbling and playing with so that I get the fundamentals. Similarly, I won’t go down the rabbit hole of business too far, but I do stay aware of what is happening with investors and business leadership, so that I can speak to it all. Really my expertise centers around APIs, specifications, and the politics that exist at this intersection, which I am looking to translate into the world of AI.
+ </p>
+<h2 id="correctness">Correctness</h2>
+<p>One area I find myself very frustrated is when it comes to the correctness. When I encounter a bad response I want to be able to correct it. I really, really, really hate the black box nature of machine learning models. I have isolated, trained, and maintaining a single suite of TensorFlow models to power <a href="https://algorithmic.rotoscope.work/">my Algorotoscope work</a>, and likely will go this far with some text and audio models, just so that I understand things at a deeper level. I will begin with establishing a framework for improving on Chat GPT models, but there is only so far I am going to go when it comes to enriching their own models, over developing my own.</p>
+<ul>
+  <li><strong>Questions</strong> - Documenting and fine tuning how you as questions is essential to what you receive as an output from Chat GPT.</li>
+  <li><strong>Responses</strong> - Scrutinizing responses is the default and you can never just take it for face value assuming what it put out was right.</li>
+  <li><strong>Fine-Tuning</strong> - Next on my list is to evaluate OpenAI’s fine tuning API and how it works for working with the questions you ask.
+ </li>
+</ul>
+
+<p>Building with Chat GPT requires you have a scientific approach. I may even setup an API for tracking my questions, responses, and come up with a strategy for fine-tuning. However I am guessing that fine-tuning and correctness will be one of the first things to go for those who don’t have the time and resources—which will create problems. I feel like we suck at talking about the correctness of real world human intelligence and is something that will only get worse when it comes to artificial intelligence. I am looking to be as thorough as I can in this area, but the jury is still out what I am actually capable of with the resources I have.</p>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-old-piano-playing-hospital.jpg" alt="Shipping Containers on the Dock" />
+ </p>
+<h2 id="concerns">Concerns</h2>
+<p>I have a lot of concerns about AI. Like many others, I just don’t have much faith that those leading the way will be doing this with much concern for humanity. However, I am also trying to not be too emotional about this and strengthen the awareness I have across all key areas, and establish logical bounded context for the concerns I have. Honestly, my anxiety levels are very high right now from technology in general, and I am concerned that AI will elevate them even more, so I am not sure how much appetite I will have for working in this area, but it is my job to make sense of this stuff, so I am going to dive in and track on these concerns.</p>
+<ul>
+  <li><strong>Privacy</strong> - The potential for privacy invasion is massive here, and I see almost no limitations on preventing machine learning models from being trained on our personally identifiable information that exists publicly or privately on the web, and once the model is trained it is unlikely that much can be corrected.</li>
+  <li><strong>Security</strong> - It is a Wild West when it comes to training machine learning models and I see no boundaries between how models are applying public or proprietary information. There is very little provenance available behind any of the models I am using, and keeping our information and livelihoods secure is a concern.</li>
+  <li><strong>Provenance</strong> - The existence of provenance or not is a hallmark of good and bad machine learning in my opinion, and I see a lot of people just consuming as much knowledge as possible without actually standardizing or being transparent about provenance, which seems to be something only those in academia are doing.</li>
+  <li><strong>Transparency</strong> - AI and ML are black boxes, and there is often similar levels of transparency surrounding the technology or business of AI, which allows for the creative storytelling we are hearing when it comes to what is possible with Ai and ML, and continue to be how it is used to exploit and extract value from people and businesses.</li>
+  <li><strong>Obfuscation</strong> - Like APIs, I suspect there will be a lot of continued obfuscation of what is really happening using artificial intelligence. It is easy to obfuscate shady business practices with AI usage, or simply thought telling the story of what your AI is capable of, basically hiding stupidity behind artificial intelligence.</li>
+  <li><strong>Exploitation</strong> - I am less worried about AI being sentient or truly intelligence than I am for just the random run of the mill exploitation hat will occur using AI, reducing human beings to robots by forcing them to work with AI, feed and train the models, and reduce human intelligence to levels where it makes artificial intelligence look smart.</li>
+  <li><strong>Disinformation</strong> - We have seen the negative impact of disinformation with regular old web technology, which is something that is only going to get worse when it comes to AI writing stories and generating images and videos, leaving most of us questioning everything we see online, and others believing everything they see.</li>
+  <li><strong>Control</strong> - I am very concerned with the lack of control most of us will have over AI. Similar to APIs, a lot of this technology is out of our reach, yet it will have an outsized role in how it controls our daily lives, governing everything from our calendars to our insurance, and for others whether or not you need to be incarcerated.</li>
+  <li><strong>Gatekeepers</strong> - History shows that knowledge will always have gatekeepers, which is something I’ve seen with databases and APIs, and it will continue to be a very contentious aspect of the knowledge used to train machine learning models, and help shape the frontline of how companies are wielding their models.</li>
+  <li><strong>Quality</strong> - Garbage in and garbage out will be one of the governing principles of artificial intelligence, and the quality of data, content, metadata, and the other aspects of how knowledge is managed, will determine the success of different models, but ultimately the story of a model could transcend actual quality.</li>
+  <li><strong>Bias</strong> - If your data and content has bias your machine learning models will have bias, and this will be something that companies will continue to struggle with, and if models aren’t observable and transparent, then 
+ </li>
+</ul>
+
+<p>It is easy to just be concerned and freaked out about AI. I am working to be level headed about this, and track on my concerns in a logical way. I am going to gather references and citations for each of my concerns, finding real world examples to back them. I am going to develop a structured way to file my concerns and tell stories about them, while investing in self-care along the way. My anxiety levels are already really high due to the fuckery that goes on in the world of startups and APIs, and I don’t need my blood pressure going any higher. I need to be methodical about this and leave emotion to the side.
+ </p>
+<h2 id="future-of-work">Future of Work</h2>
+<p>So what does AI mean for the future of work? Like most of technology I don’t hold out hope that AI will be balanced across both employers and employees. Employers are definitely going to have an outsized amount of control over the machine learning models in use across all industries. For me the future of work depends less on AI and more on capitalism, but AI provides a nice place to obfuscate, exploit, and control every aspect of my AI concerns. I don’t believe the extremes of AI will allow us to establish more leisure time or that AI will leave us all without jobs. I am convinced it will be a very dystopian version somewhere in the middle of these.</p>
+<ul>
+  <li><strong>Sensible</strong> - There is a lot of room for exploitation in all of us getting emotional about this so let’s try to stay sensible and level headed about how AI is applied.</li>
+  <li><strong>Labor</strong> - Now is a good time for us to get back to strengthening our unions and evolving next generation approaches to building consensus and working together.</li>
+  <li><strong>Revenue</strong> - There will be entirely new ways to generate revenue for businesses by using AI and developing AI, which will create new ways of keeping up employed.</li>
+  <li><strong>Cost</strong> - Only those who can afford the compute and can afford the skills needed to develop ML models, leaving cost of doing business a huge factor in all of this.</li>
+  <li><strong>Value</strong> - Ai will be all about finding the value, and I am guessing there will be way more AI cycles spent on things that do not create value than there will be of value.</li>
+  <li><strong>Bullshit Jobs</strong> - AI is going to perpetually force us to ask whether or not this job or task should be done in the first place, but sadly we won’t always be listening.
+ </li>
+</ul>
+
+<p>I do not think that AI will put us all out of work. I do think it will radically transform what work is. I also think we are in such a dysfunctional state of late stage capitalism, that the future of work is going to be very dystopian with or without AI. I am just guessing AI is going to inject a maddening level of velocity and confusion that only the best and brightest will be able to make sense of what the hell is going on. I honestly don’t think the technology of AI will be the thing that shakes everything up, I think it will be how business and politics of AI that shapes things. 
+ </p>
+<h2 id="the-performance">The Performance</h2>
+<p>For me, this is all about the performance. I mean Hollywood and Broadway Music type performance, and not speed, velocity, or value. This is why I am developing my awareness—so I can compete. I am not looking to compete with ML models. I am looking to compete with the stories that are being told. I am looking to capture just as much attention or more than what Chat GPT and others have commanded. This is all theater and whoever produces the best stories will win, and it will rarely be about the actual power of your AI, leaving whoever spins the greatest, most believable, and spectacular tales as the winner.</p>
+<ul>
+  <li><strong>PT Barnumification</strong> - AI will be a big tent like we’ve never seen, with infinite rings at the center, and endless sideshows and hustles at the edge.</li>
+  <li><strong>Spectacle</strong> - To get the normals attention you will have to continually being out doing previous waves with the greatest spectacle possible.</li>
+  <li><strong>Entertainment</strong> - The number one job of AI will be to entertain, keeping the masses distracted while they are being made to work or spend money.</li>
+  <li><strong>Purpose</strong> - For AI stop stick in any meaningful way it will have to have a purpose, but this doesn’t mean many hours won’t be spent without purpose.</li>
+  <li><strong>Confusion</strong> - There will be a lot more confusion on the ground floor of companies who are putting AI to work, leaving workers unsure of their part in the play.</li>
+  <li><strong>Madness</strong> - For some this will just be madness, and I think we’ve severely underestimated folks grip on reality and there will be many who just lose it.</li>
+  <li><strong>Opportunity</strong> - there is a massive opportunity in the performance of AI, so make sure you know your part, and understand if it is below or above the line.
+ </li>
+</ul>
+
+<p>I love the storytelling opportunity present here. However, I am determined to ground my awareness and performance in reality so I don’t get lost in the confusion and madness that is unfolding. I am serious about the P.T. Barnumification of all of this, and I don’t just mean the circus. P. T. Barnum wasn’t just a performer, he was a racist perpetrator of hoaxes, businessman and politician. He was a hustler. When you look out across the artificial intelligence landscape right now, consider one thing—how quiet the Web3 hustlers are. This is because they’ve joined in on the P.T. Barnumification of AI.</p>
+
+<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-clowns_35893926114_o.jpg" alt="Shipping Containers on the Dock" />
+ </p>
+<h2 id="closing-thoughts">Closing Thoughts</h2>
+<p>I feel like I achieved what I set out to do writing this piece. I got my bearings when it comes to the role APIs will play in all of this. I also have laid the foundation for a storytelling framework that should keep me sane and grounded. I will need to do a lot more research and carefully read the stories that are emerging when it comes to AI. There is so much more to learn. I have a huge amount of experimentation ahead of me. I have a number of projects in motion at work, and I feel like I’ve spent enough time at the 500K level that I can be moderately successful at the 1000K level. I am pleased to see the role that OpenAPI is playing at the center of all of this, and it reassures me that my expertise with APIs will continue to grow in this new API fueled madness. However, like the API chaos I operate in each day, I am confident that the AI universe will be anything but straightforward and logical—it will be a virtual circus.
+ </p>
+
+<p>To play in this space I need a handful of magic tricks that set me apart from other acts in the circus. I also need to develop a couple a main stage acts as part of my Postman performance. Postman enjoys a leadership role in the world of APIs, something that will only exponentially grow in the world of AI. I am determined to be a producer and show runner on numerous main stage acts in this circus. I am also looking to sharpen my storytelling and hustling abilities so that I can hold my own as part any side show act in any side alley. I am also really curious how the circus does as it makes its way through Main Street America, Europe, Asia, and out of the technology bubble. Some of the circus acts that perform well in Silicon Valley may capture, but won’t always keep the attention of the muggles. The artificial intelligence circus isn’t going anywhere, and I might as well polish my awareness of what acts others are performing, as well as what the different audiences are looking for when it comes to being entertained—keeping my finger on the pulse of the spectacle every seems enamored by in this moment.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Awareness&searchFields=tags" class="post-tag me-2">#Awareness</a>
+        
+          <a href="/search/?search=Artificial Intelligence&searchFields=tags" class="post-tag me-2">#Artificial Intelligence</a>
+        
+          <a href="/search/?search=Machine Learning&searchFields=tags" class="post-tag me-2">#Machine Learning</a>
+        
+          <a href="/search/?search=OpenAI&searchFields=tags" class="post-tag me-2">#OpenAI</a>
+        
+          <a href="/search/?search=Chat GPT&searchFields=tags" class="post-tag me-2">#Chat GPT</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>April  2, 2023</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

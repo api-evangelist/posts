@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://0.0.0.0:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4001/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-29T18:30:24-04:00</updated><id>http://0.0.0.0:4001/feed.xml</id><title type="html">API Evangelist</title><subtitle>Understanding the technology, business, policies, and people of Apis.</subtitle><author><name>Kin Lane</name></author><entry><title type="html">The Promise of a New Specification</title><link href="http://0.0.0.0:4001/2026/02/25/the-promise-of-a-new-specification/" rel="alternate" type="text/html" title="The Promise of a New Specification" /><published>2026-02-25T04:00:00-05:00</published><updated>2026-02-25T04:00:00-05:00</updated><id>http://0.0.0.0:4001/2026/02/25/the-promise-of-a-new-specification</id><content type="html" xml:base="http://0.0.0.0:4001/2026/02/25/the-promise-of-a-new-specification/"><![CDATA[<p>Starting a new specification is exciting. You have a vision. You flesh out the vision. You distill it down into some documentation, schema, blog post, and a social media post. You don’t have the baggage of a specification that has been around for a decade or more. Things are easy. But, does anyone care? It is an interesting place to be and something I find it exciting, but I have been here numerous times before and I’ve learned to be skeptical of when I get excited about something new—-knowing there is always more going on behind why I am getting excited.</p>
+
+<p>The early days of Swagger were exciting. Even the early days of OpenAPI were hopeful. Early days of AsyncAPI were exciting. I can feel the same excitement behind the waves of new specifications emerging to met this AI moment. I caught hints of this stirring inside of me with Agent Skills and JSON Structure—probably for different reasons than many AI champions, engineers, and data people. But, I get why people get excited and feel the energy, and I work hard not to diminish that with the realities of managing a specification over time, let alone the demands put upon you when your specification is successful. I truly want to celebrate people’s enthusiasm for the new.</p>
+
+<p>I am excited about Agent Skills not because of how they are being used with AI, but because I see them as a bridge with business stakeholders. I am excited about JSON Structure, because it provides a fresh opportunity to validate and compose with schema, helping engineers and business stakeholders get on the same page–without all the baggage (or momentum) of JSON Schema. I’ve even managed to find some enthusiasm latterly for MCP when it comes to providing guardrails for developers as part of their chosen stack. I’ve long gotten over there needing to be a single specification to rule them all, and I celebrate whatever specification stack your enterprises uses, and will help you strengthen and expand upon what you have.</p>
+
+<p>Honestly I struggle with what we leave behind in all of this. I was once a big fan of WSDL, and still act as champion for developers who have to maintain integrations on top of SOAP APIs. I am also struggling with moving on from OpenAPI, JSON Schema, and other bedrock specifications of my work and identity. Like SOAP, I don’t think either of them are going away. But I do feel the disruptive sands shifting again under our feet, and I’m seeing spec-driven development combined with AI introduce opportunities for moving things forward in positive and negative ways.</p>
+
+<p>Moving forward I am working to get to know each spec, as I’ve done in the past. I want to understand what it does and how it can be applied. Then I want to find the stories that matter the most to both engineers and business stakeholders. I am also first and foremost a storyteller, so I am looking for stories. Swagger emerged out of Wordnik, a dictionary API, and I believe this was for a reason. I’m looking for the same magic across MCP, Agent Skills, Agent-2-Agent, CLAUDE.md, and other artifacts today. I’m interested in where the story is, but also where the rubber meets the road when it comes to helping find the signal in the noise.</p>
+
+<p>Ultimately I am going to be less loyal to any individual specification. I will support them all and be critical of them all–even mine. I am going to ride the waves of each spec. There is a new level of disruption and volatility occurring right now and while AI is the focus of the conversation, the extraction of value at the specification level is where the real shift occuring. I need to be able surf across the top of all the specs, and this means understanding them all, and being able to apply what matters in any given moment. It is definitely a new storytelling medium that exists at a new scale, which involves surfing at the intersection of determinism and non-determinism.</p>]]></content><author><name>Kin Lane</name></author><category term="Spec-Driven Development" /><category term="Specifications" /><category term="OpenAPI" /><category term="Agent Skills" /><summary type="html"><![CDATA[Starting a new specification is exciting. You have a vision. You flesh out the vision. You distill it down into some documentation, schema, blog post, and a social media post. You don’t have the baggage of a specification that has been around for a decade or more. Things are easy. But, does anyone care? It is an interesting place to be and something I find it exciting, but I have been here numerous times before and I’ve learned to be skeptical of when I get excited about something new—-knowing there is always more going on behind why I am getting excited.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-nyc-public-library.jpeg" /><media:content medium="image" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-nyc-public-library.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What Is Your Beef With JSON Schema?</title><link href="http://0.0.0.0:4001/2026/02/09/what-is-your-beef-with-json-schema/" rel="alternate" type="text/html" title="What Is Your Beef With JSON Schema?" /><published>2026-02-09T04:00:00-05:00</published><updated>2026-02-09T04:00:00-05:00</updated><id>http://0.0.0.0:4001/2026/02/09/what-is-your-beef-with-json-schema</id><content type="html" xml:base="http://0.0.0.0:4001/2026/02/09/what-is-your-beef-with-json-schema/"><![CDATA[<p>I recently purchased the Radiohead record, OK Computer. I’m in a phase where I am investing in my vinyl record collection, and doing the work to get out of my comfort zone. This means challenging a lot of the norms I have around the music I know. I have always hated Coldplay. But I wanted to challenge this idea. Other people like, and this album is widely held up as being important. So, there has to be something wrong with me right? Well, after purchasing it, and listening to it about 5 times end to end, I realize I didn’t hate Coldplay, I hated Wayne, a kid from high school and my home town who was really into Coldplay, and a complete asshole douchebag. But for some reason that reality had gotten associated with the band, and abstracted away over 35 years of my life.</p>
+
+<p>I hold this thought, and the many other similar thoughts that make up who I know as Kin Lane. I use this ability to step outside of myself to understand the API realm where I work, and separate the technical from the very emotional human aspects of my work. One area I can apply this thinking is when it comes to API standards and specifications. While I can apply wider across all of the specifications and my experience with them, one of them, which also happens to be the most invisible of them, tends to illicit a lot of negative emotion from people. I encounter a lot of people who have a beef with JSON Schema. I am an unapologetic champion of the standard (even with it’s history), above being a champion for the others, and I regularly become the the target of, but also have become hyper aware of when behavior in others are the result of their beef with JSON Schema.</p>
+
+<p>We have entirely new standards because of this type of beefing. I don’t fully understand why people beef with JSON Schema. It could be the people behind the spec. They are some opinionated and abrasive folks. I know all of them, and they are. But they are also very smart. They also very much care about the spec. They also can be assholes. But to be fair, this can be said of almost any of the specs and the people behind them. APIs.json included—those behind the spec are assholes. ;-) I think the one big difference between me and other folks is that I am able to put aside my personal feelings for people, and my frustration with any single spec to consider the bigger picture and community. But the friction I get when it comes to JSON Schema never ceases to fascinate me. The specification is some lofty shit to understand. It also can be very simple to apply, producing some very profound and stabilizing results in your work. It is a widely adopted specification, and one that is ubiquitous across the space, but it is also widely not seen or understood — which I think is related to its beefiness.</p>
+
+<p>Anyways, that is it. I don’t have much else to say, except ask what people’s beef with the spec is? I suspect it is a combination of the complexity and people behind it, as well as its 15+ years of chaotic evolution. I am confident after being so close to its evolution and usage across other specifications that it is more a people thing than it is a technical thing. JSON Schema, like JSON is a messy thing. A lot of technosolutionists are offended by the messiness of JSON just like they are offended by the messiness of the world at large. I love watching people try to fix the JSON Schema problem. More power to them. I love the people who resist it so hard. More power to you. I also love how much it annoys people for me to talk about it and champion it. It reveals to me that there is so much more there. So many great stories to be found!</p>]]></content><author><name>Kin Lane</name></author><category term="JSON Schema" /><category term="Specifications" /><category term="Standards" /><summary type="html"><![CDATA[I recently purchased the Radiohead record, OK Computer. I’m in a phase where I am investing in my vinyl record collection, and doing the work to get out of my comfort zone. This means challenging a lot of the norms I have around the music I know. I have always hated Coldplay. But I wanted to challenge this idea. Other people like, and this album is widely held up as being important. So, there has to be something wrong with me right? Well, after purchasing it, and listening to it about 5 times end to end, I realize I didn’t hate Coldplay, I hated Wayne, a kid from high school and my home town who was really into Coldplay, and a complete asshole douchebag. But for some reason that reality had gotten associated with the band, and abstracted away over 35 years of my life.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-spacce-burger-fence.jpeg" /><media:content medium="image" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-spacce-burger-fence.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">There is a Lot of Knowledge and Wisdom Packed Into Speakeasy’s Agent Skills</title><link href="http://0.0.0.0:4001/2026/02/06/thre-is-a-lot-of-knowledge-and-wisdom-packed-into-speakeasy-agent-skills/" rel="alternate" type="text/html" title="There is a Lot of Knowledge and Wisdom Packed Into Speakeasy’s Agent Skills" /><published>2026-02-06T04:00:00-05:00</published><updated>2026-02-06T04:00:00-05:00</updated><id>http://0.0.0.0:4001/2026/02/06/thre-is-a-lot-of-knowledge-and-wisdom-packed-into-speakeasy-agent-skills</id><content type="html" xml:base="http://0.0.0.0:4001/2026/02/06/thre-is-a-lot-of-knowledge-and-wisdom-packed-into-speakeasy-agent-skills/"><![CDATA[<p><a href="https://github.com/speakeasy-api/skills">I saw Speakeasy publish their agent skills</a>. It caught my attention, not because I care about agents, but because I care deeply about the knowledge expressed in these agent skills. Honestly, I don’t care one bit about what happens with agents, that is y’all’s hustle, but when it comes to codifying the value that exist within enterprise and can be put to use accomplishing things that optimize how the enterprise operates in a digital world—that interests me.</p>
+
+<p>Speakeasy’s Agent Skills are elegant, and represent for me why <a href="https://bit.ly/4a7QCmU">Agent Skills</a> matter. Look at that. It is a beautiful list of what matters at the SDK (and more) layer of your operations. It is the knowledge and wisdom I’ve been looking to “discover” with my <a href="https://apisjson.org/properties/">APIs.json SDK property</a> for a number of years. It just took the AI evolution to give people the vocabulary they need to understand why it is important and express it in such a useful and meaningful way.</p>
+
+<ul>
+  <li><strong>Start Here</strong> — Get accurate Speakeasy CLI info and provide feedback</li>
+  <li><strong>SDK &amp; Terraform Generation Best Practices</strong> — Comprehensive guide to all generation capabilities, patterns, and customization</li>
+  <li><strong>Start a New SDK Project</strong> — Generate an SDK from an OpenAPI spec</li>
+  <li><strong>Diagnose Generation Failures</strong> — Troubleshoot “Step Failed: Workflow” errors</li>
+  <li><strong>Write OpenAPI Specs</strong> — Author specs from scratch or improve existing ones</li>
+  <li><strong>Manage OpenAPI Overlays</strong> — Create, apply, or fix specs with overlays</li>
+  <li><strong>Improve SDK Naming</strong> — Clean up ugly method names with AI-powered or manual fixes</li>
+  <li><strong>Generate a Terraform Provider</strong> — Build a Terraform provider from an OpenAPI spec</li>
+  <li><strong>Extract OpenAPI from Code</strong> — Pull an OpenAPI spec from existing API code (FastAPI, Flask, Django, etc.)</li>
+  <li><strong>Customize SDK Hooks</strong> — Add custom headers, telemetry, or security hooks to generated SDKs</li>
+  <li><strong>Set Up SDK Testing</strong> — Configure contract tests, Arazzo workflows, or integration tests</li>
+  <li><strong>Generate an MCP Server</strong> — Build an MCP server for AI assistant integration</li>
+  <li><strong>Customize SDK Runtime</strong> — Configure retries, timeouts, pagination, server selection, and error handling</li>
+</ul>
+
+<p>As the system thinker I am, I needed to deconstruct what Speakeasy has done so I can apply it to other work that I am investing in.</p>
+
+<p>Speakeasy uses CLAUDE.MD.</p>
+
+<p><strong>CLAUDE.MD</strong> — Created by Anthropic (for Claude Code)
+This is a project-level configuration file for Claude Code, Anthropic’s command-line coding agent. You place it in your repo’s root (or subdirectories), and Claude Code reads it automatically at the start of every session. It typically contains project conventions, preferred tech stack, build/test commands, coding style rules, and anything you’d tell a new developer onboarding to the project. Think of it as a persistent “system prompt” scoped to a codebase.</p>
+
+<p>I’ve aligned this with other conversations I just had with Anna Daugherty of Arnica about RULES.MD.</p>
+
+<p><strong>RULES.MD</strong> — Created by Cursor (Anysphere, Inc.)
+This is the equivalent of CLAUDE.MD but for the Cursor AI code editor. Placed in a .cursor/rules/ directory, it gives Cursor’s AI assistant project-specific instructions — style guides, architecture decisions, do’s and don’ts. Cursor reads these files to tailor its code suggestions and chat responses to your project’s conventions.</p>
+
+<p>Then I wanted to align with further DX experience research I am doing focused on GitHub Copilot and VSCode.</p>
+
+<p><strong>.github/copilot-instructions.md</strong> — Created by GitHub (for GitHub Copilot)
+This is GitHub Copilot’s version of the same concept. You place it at .github/copilot-instructions.md in your repository, and Copilot automatically includes its contents as context when generating suggestions or answering chat questions. It’s where you define project-specific guidance — preferred libraries, naming conventions, architectural patterns, testing expectations, etc. GitHub also supports more granular instruction files via .github/copilot/ with separate files scoped to specific tasks (like code review or commit messages).</p>
+
+<p>And I needed to align with conversations I am having around including Google Gemini into the Naftiko DX.</p>
+
+<p><strong>GEMINI.md</strong> — Created by Google (for Gemini CLI / Gemini Code Assist)
+This is Google’s equivalent of CLAUDE.MD. Placed in your repo root (or ~/.gemini/ for global settings), it gives Gemini CLI persistent, project-scoped instructions — coding conventions, preferred frameworks, build commands, style rules, etc. Gemini reads it automatically at session start. It follows the same pattern: a markdown file that acts as a standing prompt so you don’t have to repeat context every time. It works with both the open-source Gemini CLI tool and Gemini Code Assist in IDEs.</p>
+
+<p>Now we get to the gold in this discussion. The skills. And why Speakeasy is so important—because they are API operational level skills.</p>
+
+<p><strong>SKILL.MD</strong> — Created by Anthropic (for Claude’s file-creation capabilities)
+These live inside skill folders and teach Claude best practices for specific output types — creating Word docs, PowerPoints, spreadsheets, PDFs, etc. Each SKILL.MD contains condensed, battle-tested instructions (formatting rules, library usage, common pitfalls) that Claude reads before generating a file. They exist in both public (Anthropic-maintained) and user-uploaded varieties. You can see these referenced in Claude.ai’s “create files” feature.</p>
+
+<p>Then Speakeasy includes an AGENTS.MD in there to help weave their skulls into multi-agent workflows.</p>
+
+<p><strong>AGENTS.MD</strong> — Created by Anthropic (for Claude Code)
+This extends Claude Code for multi-agent workflows. When Claude Code spawns sub-agents (e.g., a “research agent” and a “coding agent” working in parallel), AGENTS.MD defines roles, responsibilities, and coordination rules for those agents. It’s a newer convention that emerged as agentic coding became more common, letting you orchestrate how multiple Claude instances divide labor on complex tasks.</p>
+
+<p>I included RULES.md, GEMINI.md, and Copilot Instructrions because they live at the same level, but I also wanted to contrast the ownership across the levels.</p>
+
+<ul>
+  <li><strong>CLAUDE.MD</strong> — Claude Code — Anthropic</li>
+  <li><strong>RULES.MD</strong> — Cursor — Anysphere</li>
+  <li><strong>GEMINI.MD</strong> — Gemini CLI / Code Assist — Google</li>
+  <li><strong>.github/copilot-instructions.md</strong> — GitHub Copilot — GitHub/Microsoft</li>
+  <li><strong>SKILL.MD</strong> — Claude.ai (file creation) — Anthropic</li>
+  <li><strong>AGENTS.MD</strong> — Claude Code (multi-agent) — Anthropic</li>
+</ul>
+
+<p>They’re all converging on the same idea – a markdown file in your repo that tells the AI how to behave in your project. The format and location differ by tool, but the pattern is universal now. If you’re working across multiple AI tools, you’ll likely maintain several of these with overlapping content — or create a shared base doc and adapt it for each tool’s conventions.</p>
+
+<p>But then the ways in which Speakeasy is enabling the distribution of their skills, beyond just making it available in a GitHub repository.</p>
+
+<p><strong>.claude-plugin/plugin.json</strong> — The manifest for an individual plugin. It defines the plugin’s name, description, version, author, and what it contains (slash commands, sub-agents, MCP servers, hooks, skills). Think of it like a package.json for a Claude Code plugin.
+<strong>.claude-plugin/marketplace.json</strong> — The catalog for a collection of plugins. It lives at the root of a git repo and lists all the plugins available in that marketplace — their names, descriptions, sources (relative paths to each plugin folder), and categories. Users add marketplaces to Claude Code with /plugin marketplace add, then browse and install individual plugins from them.</p>
+
+<p>I feel that it would be irresponsible in the review to leave out these two files.</p>
+
+<p><strong>LICENSE.md</strong> — A standard file found in virtually every open-source repository that defines the legal terms under which the code can be used, modified, and distributed. It’s not AI-specific — it predates all of these tools and is a foundational part of software licensing. Common examples include MIT, Apache 2.0, and GPL. Without one, code is technically “all rights reserved” by default, so this file is what explicitly grants others permission to use your work.
+<strong>README.md</strong> — The front door of any software project. It’s the first file people see when they land on a repository, and it typically explains what the project does, how to install and use it, and any other context a newcomer would need. Like LICENSE.md, it’s a long-standing convention that predates AI tooling entirely. GitHub, GitLab, and similar platforms automatically render it on the repository’s homepage, making it the de facto introduction to any codebase.</p>
+
+<p>All of these files work in concert to achieve a specific series of business outcomes. Speakeasy has done an amazing job to distill down their expertise (and their platform offerings) into a meaningful set of skills the occupy once of the most critical stops along the API lifecycle — SDK and code generation. Impressive work. So much to learn from here, and to begin applying across the API lifecycle, from both producer and consumer vantage points.</p>
+
+<p>I am weaving a couple of the other standards into here because I building on what Speakeasy is doing, but also weaving it together with other conversations I’ve had with <a href="https://www.linkedin.com/posts/naftiko_naftiko-capabilities-podcast-for-february-activity-7425322670214254592-4VBW?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAC2eqYB5Eg-JCzGJxAmnBCGS72UBnYyaA8">Kevin Swiber about MCP and Agent Skills</a>, with <a href="https://www.linkedin.com/posts/kinlane_patrick-kelly-came-by-this-morning-for-a-activity-7424492037191884800-dBNK?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAC2eqYB5Eg-JCzGJxAmnBCGS72UBnYyaA8">Patrick Kelly about context engineering at this level</a>, and with <a href="https://www.linkedin.com/posts/kinlane_anna-daugherty-cpmm-from-arnica-came-by-activity-7425565130353983488-Zyio?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAC2eqYB5Eg-JCzGJxAmnBCGS72UBnYyaA8">Anna Daugherty when it comes to application security</a>, as weel as where I want to take this work when it comes to API governance, from both the producer and consumer vantage points.</p>]]></content><author><name>Kin Lane</name></author><category term="Agent Skills" /><category term="CLAUDE.md" /><category term="SKILL.md" /><category term="RULES.md" /><category term="GEMINI.md" /><category term="AGENTS.md" /><summary type="html"><![CDATA[I saw Speakeasy publish their agent skills. It caught my attention, not because I care about agents, but because I care deeply about the knowledge expressed in these agent skills. Honestly, I don’t care one bit about what happens with agents, that is y’all’s hustle, but when it comes to codifying the value that exist within enterprise and can be put to use accomplishing things that optimize how the enterprise operates in a digital world—that interests me.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-docks-water-front-ships-containers.jpg" /><media:content medium="image" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-docks-water-front-ships-containers.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Where Is Governance (Guidance) Going?</title><link href="http://0.0.0.0:4001/2026/02/06/where-is-governance-guidance-going/" rel="alternate" type="text/html" title="Where Is Governance (Guidance) Going?" /><published>2026-02-06T04:00:00-05:00</published><updated>2026-02-06T04:00:00-05:00</updated><id>http://0.0.0.0:4001/2026/02/06/where-is-governance-guidance-going</id><content type="html" xml:base="http://0.0.0.0:4001/2026/02/06/where-is-governance-guidance-going/"><![CDATA[<p><a href="https://www.linkedin.com/posts/kinlane_anna-daugherty-cpmm-from-arnica-came-by-activity-7425565130353983488-Zyio?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAC2eqYB5Eg-JCzGJxAmnBCGS72UBnYyaA8">I had a fascinating conversation Anna Daugherty on Wednesday</a>, which will be published as a podcast shortly. If you don’t know Anna, she is a super smart and down to earth product marketer who works at <a href="https://bit.ly/4rELy0I">Arnica</a>, but I first met her when she was working her magic at Stoplight. Anna was educating me on what AppSec is, and I find Arnica’s view of the development lifecycle to be a glimpse at where things are headed with AppSec, but I think reflects where overall API governance is heading from the producer and consumer view.</p>
+
+<p>Over the last couple of months I have been working on what I call <a href="https://spotlight-rules.com/">Spotlight rules</a>, in an effort to understand what is next when it comes to Spectral and Vacuum rules, but also for wider API governance, and specifically from a consumer perspective, and then secondarily the producer perspective — which is the opposite of how it is for most organizations today.</p>
+
+<p>We have spent the last 7+ years creating rules using Speccy, then Spectral, then Vacuum to lint the surface area of our HTTP and eventually TCP APIs. We apply those governance rules in web applications, IDE, and the pipeline alongside our JSON Schema. The goal is to catch as many things early on in the software development lifecycle, but also enforce them at the pipeline level—with many companies choosing to just enforce—with a range of positive and negative consequences.</p>
+
+<p><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/governance-rules-pipeline.png" width="100%" /></p>
+
+<p>A core part of my recent investments into API governance practices involves what I call “inline guidance”, meaning that your API governance is only as good as the guidance and guardrails you provide for your teams. The API Evangelist weekly newsletter is called Weekly Governance (Guidance). You must educate, guide, and meet developers where they are when it comes to producing an API, but also consuming APIs. This happens in web applications, IDEs, CLI, pipelines, and historically via documentation that most engineers do not read.</p>
+
+<p>I have been exploring different ways of injecting Spectral &amp; Vacuum rules into the developer pipeline using mock MCP servers, as well as how I can inject more lifecycle and operational level guidance in there as well. The next step in this exploration is about understanding how this guidance, guardrails, policies, and rules can be further injected into developer workflow using CLAUDE.MD, RULES.MD, GEMINI.MD, .github/copilot-instructions.md, SKILL.MD, and AGENTS.MD—which covers a fairly large base of platforms where developers work.</p>
+
+<p><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/governance-rules-pipeline-skills.png" width="100%" /></p>
+
+<p>Spectral and Vacuum rules, as well as JSON Schema technically lives at the web application, IDE, CLI, and pipeline levels. What severity you apply, and how you bundle your rulesets by lifecycle stage and other experiences, as well as the other guardrails and guidance you provide in the form of documentation, communication via Slack, and other channels will determine a lot when it comes to aligning with the the technical details with the business details.</p>
+
+<p>This is the current state of API governance while producing and consumer APIs, no matter what type of application you are developing on top of those APIs. With my exploration into injecting Spectral &amp; Vacuum rules, as well as design, lifecycle, and operational guidance into copilot, I wanted to go beyond Spectral and Vacuum rules and how you can generate the CLAUDE.MD, RULES.MD, GEMINI.MD, .github/copilot-instructions.md, SKILL.MD, and AGENTS.MD you need to govern (guide) throughout the software development lifecycle.</p>
+
+<p><a href="https://apievangelist.com/2026/02/06/thre-is-a-lot-of-knowledge-and-wisdom-packed-into-speakeasy-agent-skills/">Speakeasy’s Agent Skills repository reflects the progression across the API lifecycle I am talking about</a>. Like a <a href="https://apievangelist.com/2024/07/08/more-examples-of-using-github-to-manage-your-openapi/">GitHub repository with OpenAPI, Postman Collections, Bruno Collections, Jupyter Notebooks, AsyncAPIs, and other resources</a>, I see what Speakeasy did as a significant evolution forward in how we express what we are capable of. Speakeasy occurs a specific operational domain for me—code generation. Which is an essential stop along the API lifecycle, and provides a look at how we can generate a new representation of what we are capable of. Even with the new specifications at the core, you can still see the fingerprints of Speakeasy’s API and OpenAPI at the heart of what they do.</p>
+
+<p>I think my conversation with Anna, and an upcoming conversation with Speakeasy will help shape where governance (guidance) is going. I don’t see OpenAPI, JSON Schema, Spectral, or Vacuum going anywhere—they are essential nutrients for all of this. But following Speakeasy’s lead I think there is a path forward for other service providers across every stage of the software development lifecycle, and those of us who are trying to govern (guide) on top of the different stacks that people are applying across the enterprise. Regardless of what shakes out out with copilots and agentic hype right now, there is real value being defined using these artifacts, and important work occurring.</p>]]></content><author><name>Kin Lane</name></author><category term="Governance" /><category term="OpenAPI" /><category term="Spectral" /><category term="Pipelines" /><category term="IDE" /><category term="CLI" /><category term="Agent Skills" /><category term="CLAUDE.md" /><category term="SKILL.md" /><category term="RULES.md" /><category term="GEMINI.md" /><category term="AGENTS.md" /><summary type="html"><![CDATA[I had a fascinating conversation Anna Daugherty on Wednesday, which will be published as a podcast shortly. If you don’t know Anna, she is a super smart and down to earth product marketer who works at Arnica, but I first met her when she was working her magic at Stoplight. Anna was educating me on what AppSec is, and I find Arnica’s view of the development lifecycle to be a glimpse at where things are headed with AppSec, but I think reflects where overall API governance is heading from the producer and consumer view.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-docks-oakland-4.jpeg" /><media:content medium="image" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-docks-oakland-4.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How Does a Capability Come to Life?</title><link href="http://0.0.0.0:4001/2026/02/05/how-does-a-capability-come-to-life/" rel="alternate" type="text/html" title="How Does a Capability Come to Life?" /><published>2026-02-05T04:00:00-05:00</published><updated>2026-02-05T04:00:00-05:00</updated><id>http://0.0.0.0:4001/2026/02/05/how-does-a-capability-come-to-life</id><content type="html" xml:base="http://0.0.0.0:4001/2026/02/05/how-does-a-capability-come-to-life/"><![CDATA[<p>As I work to define Naftiko, and specifically what a capability is, I wanted to explore how a capability comes to life. But let’s start with my current definition of what a capability is.</p>
+
+<p>A capability is a human and machine-readable definition of something you want to accomplish as part of business operations. It could be simple like scheduling a calendar event, or different portions of a supply chain. A capability integrates data, functions, and potentially events. A capability should matter to technical and non-technical stakeholders.</p>
+
+<p>Capabilities are JSON or YAML stored in a Git repository, but can be used anywhere. Capabilities are editable in any JSON or YAML editor and integrated development environment of choice. Capabilities have a developer experience as well as a user experience—working to balance the creation, editing, and evolution of a capability by any stakeholder.</p>
+
+<p>When answering the question—how does a capability come to life, it is important to examine in four separate dimensions:</p>
+
+<ul>
+  <li>Business or Engineering</li>
+  <li>Greenfield or Brownfield</li>
+  <li>Created or Forked</li>
+  <li>Manual or Automated</li>
+</ul>
+
+<p>There are plenty of other properties of a capability to consider, but how one comes to life, these are critical to understanding.</p>
+
+<p>A capability could start as a simple title and description, expressed as YAML or JSON.</p>
+
+<p>Then you would add one or more stakeholders to discuss and contribute to what a capability is.</p>
+
+<p>A capability could be defined by drag and dropping existing OpenAPI, AsyncAPI, MCP Servers, Postman Collections, Bruno Collections, or a HAR file.</p>
+
+<p>A capability could come to life in a simple web form on the Web, or via a YAML file in an IDE—editing, autocompleting, and defining incrementally.</p>
+
+<p>A capability could come to life by turning on a proxy, gathering web traffic, and then asking non-technical or technical stakeholders to refine.</p>
+
+<p>A capability could come to life by turning on a scanner or crawler which gathers any evidence of data and APIs and combing into a capability.</p>
+
+<p>A capability could come to life by asking a LLM to generate it, and refine it based upon the needs of business or engineering stakeholders.</p>
+
+<p>A capability could come to life by forking an existing capability, or aggregating multiple capabilities into a single new artifact and taking in a new direction.</p>
+
+<p>A capability can reflect a new business outcome with entirely greenfield (new) data and integrations, or it could reflect a new business outcome using brownfield (existing) data and integrations.</p>
+
+<p>Whether a capability is initiated by a business stakeholder or engineering stakeholder will matter.</p>
+
+<p>Whether a capability is owned by multiple business and engineering stakeholders will matter.</p>
+
+<p>Most people will not care about the JSON or YAML for a capability, and have different properties of a capability that matter to wha they want to accomplish.</p>
+
+<p>Each step taken after a new capability is created should be guided, governed, and integrated into the existing tooling a business or engineering stakeholder already uses.</p>
+
+<p>It is unlikely that anyone will create a new capability from scratch, but it should be easy to do.</p>
+
+<p>It is more likely that a capability will be discovered as part of the Naftiko Fabric on GitHub, GitLab, Bitbucket, or via Backstage, or Naftiko application—then forked.</p>
+
+<p>Actually, a capability should be forked and deployed from anywhere.</p>
+
+<p>A capability might just be mocked or simulated, and never see production.</p>
+
+<p>A capability might be heading for production.</p>
+
+<p>The intent of the person bringing a capability to life will matter.</p>
+
+<p>The people who contribute to a capability and help sustain it will matter.</p>
+
+<p>A capability must be equal parts business and engineering for it to remain alive.</p>]]></content><author><name>Kin Lane</name></author><category term="Capabilities" /><summary type="html"><![CDATA[As I work to define Naftiko, and specifically what a capability is, I wanted to explore how a capability comes to life. But let’s start with my current definition of what a capability is.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-docks-water-front.jpg" /><media:content medium="image" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-docks-water-front.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What is the Diff Between Bruno Collection and OpenCollection</title><link href="http://0.0.0.0:4001/2026/02/03/what-is-the-diff-between-bruno-collection-and-opencollection/" rel="alternate" type="text/html" title="What is the Diff Between Bruno Collection and OpenCollection" /><published>2026-02-03T04:00:00-05:00</published><updated>2026-02-03T04:00:00-05:00</updated><id>http://0.0.0.0:4001/2026/02/03/what-is-the-diff-between-bruno-collection-and-opencollection</id><content type="html" xml:base="http://0.0.0.0:4001/2026/02/03/what-is-the-diff-between-bruno-collection-and-opencollection/"><![CDATA[<p><a href="https://bit.ly/4fpe6FO">Bruno</a> has been slow rolling their release of their new <a href="https://bit.ly/4tgOeDk">OpenCollection format</a> to augment the Bruno Collection, and continue grabbing mindshare from Postman Collections, while simultaneously embracing the OpenAPI specification. I needed to undersstand the diff between the two specs to support work at Naftiko, but also as par tof my continued reporting from the frontlines of the specification wars.</p>
+
+<h2 id="the-basics-structure-and-philosophy">The Basics: Structure and Philosophy</h2>
+
+<p>At their core, both formats organize API requests into collections, but they take fundamentally different approaches to structure.</p>
+
+<p><strong>Bruno Collection</strong> embraces simplicity with a flat, straightforward structure. Metadata lives at the top level with fields like <code class="language-plaintext highlighter-rouge">version</code>, <code class="language-plaintext highlighter-rouge">uid</code>, and <code class="language-plaintext highlighter-rouge">name</code>. This design reflects Bruno’s philosophy as a lightweight, Git-friendly API client that prioritizes developer experience over feature complexity.</p>
+
+<p><strong>Open Collection</strong> takes a more enterprise-oriented approach, separating concerns into distinct objects. Collection metadata lives in an <code class="language-plaintext highlighter-rouge">info</code> object that can include authors, summaries, and versioning. Configuration has its own dedicated <code class="language-plaintext highlighter-rouge">config</code> section, and there’s even an <code class="language-plaintext highlighter-rouge">extensions</code> object for custom data—a nod to the OpenAPI specification’s extensibility model.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">//</span><span class="w"> </span><span class="err">Bruno</span><span class="w"> </span><span class="err">Collection</span><span class="w"> </span><span class="err">-</span><span class="w"> </span><span class="err">flat</span><span class="w"> </span><span class="err">and</span><span class="w"> </span><span class="err">simple</span><span class="w">
+</span><span class="p">{</span><span class="w">
+  </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"uid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"abc123..."</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"My API Collection"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span><span class="err">//</span><span class="w"> </span><span class="err">Open</span><span class="w"> </span><span class="err">Collection</span><span class="w"> </span><span class="err">-</span><span class="w"> </span><span class="err">structured</span><span class="w"> </span><span class="err">and</span><span class="w"> </span><span class="err">extensible</span><span class="w">
+</span><span class="p">{</span><span class="w">
+  </span><span class="nl">"opencollection"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1.0.0"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"info"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"My API Collection"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"summary"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A collection for testing our REST API"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2.1.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"authors"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Jane Doe"</span><span class="p">,</span><span class="w"> </span><span class="nl">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"jane@example.com"</span><span class="w"> </span><span class="p">}]</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"config"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w">
+  </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="protocol-support-where-open-collection-shines">Protocol Support: Where Open Collection Shines</h2>
+
+<p>One of the most significant differences lies in protocol support.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Protocol</th>
+      <th style="text-align: center">Bruno</th>
+      <th style="text-align: center">Open Collection</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTTP/REST</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+    <tr>
+      <td>GraphQL</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+    <tr>
+      <td>gRPC</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+    <tr>
+      <td>WebSocket</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Bruno focuses exclusively on HTTP and GraphQL—covering the vast majority of API testing needs. Open Collection, however, extends support to gRPC and WebSocket, making it more suitable for teams working with microservices architectures or real-time applications.</p>
+
+<p>If your stack includes gRPC services or WebSocket connections, Open Collection provides native support with dedicated request types, streaming configurations, and protocol-specific metadata.</p>
+
+<h2 id="request-structure-flat-vs-layered">Request Structure: Flat vs Layered</h2>
+
+<p>The way each format structures individual requests reveals their different priorities.</p>
+
+<p><strong>Bruno</strong> keeps requests flat and readable:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"uid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"req123"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http-request"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Get Users"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"request"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.example.com/users"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"method"</span><span class="p">:</span><span class="w"> </span><span class="s2">"GET"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+    </span><span class="nl">"params"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+    </span><span class="nl">"body"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"mode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"none"</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"auth"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"mode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bearer"</span><span class="p">,</span><span class="w"> </span><span class="nl">"bearer"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"token"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"script"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"req"</span><span class="p">:</span><span class="w"> </span><span class="s2">"// pre-request script"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"res"</span><span class="p">:</span><span class="w"> </span><span class="s2">"// post-response script"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><strong>Open Collection</strong> separates concerns into distinct layers:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"info"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Get Users"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Retrieves all users from the system"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"seq"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"tags"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"users"</span><span class="p">,</span><span class="w"> </span><span class="s2">"read"</span><span class="p">]</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"http"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.example.com/users"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"method"</span><span class="p">:</span><span class="w"> </span><span class="s2">"GET"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+    </span><span class="nl">"params"</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"runtime"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"variables"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+    </span><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w"> </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"before-request"</span><span class="p">,</span><span class="w"> </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"// pre-request"</span><span class="w"> </span><span class="p">},</span><span class="w">
+      </span><span class="p">{</span><span class="w"> </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"after-response"</span><span class="p">,</span><span class="w"> </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"// post-response"</span><span class="w"> </span><span class="p">}</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"assertions"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+    </span><span class="nl">"actions"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+    </span><span class="nl">"auth"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bearer"</span><span class="p">,</span><span class="w"> </span><span class="nl">"token"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="w"> </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"timeout"</span><span class="p">:</span><span class="w"> </span><span class="mi">5000</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"followRedirects"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"examples"</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>This separation in Open Collection makes it easier to reason about different aspects of a request independently, but Bruno’s approach is more immediately readable and requires less boilerplate.</p>
+
+<h2 id="authentication-comprehensive-options">Authentication: Comprehensive Options</h2>
+
+<p>Both formats support common authentication methods, but Open Collection offers broader coverage:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Auth Type</th>
+      <th style="text-align: center">Bruno</th>
+      <th style="text-align: center">Open Collection</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AWS Signature V4</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+    <tr>
+      <td>Basic</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+    <tr>
+      <td>Bearer Token</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+    <tr>
+      <td>Digest</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+    <tr>
+      <td>OAuth 2.0 (Client Credentials)</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+    <tr>
+      <td>OAuth 2.0 (Password)</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+    <tr>
+      <td>OAuth 2.0 (Authorization Code)</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+    <tr>
+      <td>OAuth 2.0 (Implicit)</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+    <tr>
+      <td>API Key</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+    <tr>
+      <td>NTLM</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+    <tr>
+      <td>WSSE</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Open Collection’s OAuth 2.0 implementation is particularly comprehensive, with support for PKCE, custom token placement, auto-refresh settings, and additional parameters for each flow.</p>
+
+<h2 id="variables-and-environments">Variables and Environments</h2>
+
+<p>Both formats support environment-based variable management, but with different levels of sophistication.</p>
+
+<p><strong>Bruno</strong> uses a straightforward approach:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"uid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"env123"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Production"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"variables"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"uid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"var1"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"baseUrl"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.example.com"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"text"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"secret"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><strong>Open Collection</strong> introduces typed values, variants, and inheritance:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Production"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#e74c3c"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Production environment configuration"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"extends"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Base"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"dotEnvFilePath"</span><span class="p">:</span><span class="w"> </span><span class="s2">".env.production"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"variables"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"baseUrl"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w"> </span><span class="nl">"data"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.example.com"</span><span class="w"> </span><span class="p">}</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"timeout"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w"> </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Fast"</span><span class="p">,</span><span class="w"> </span><span class="nl">"selected"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"number"</span><span class="p">,</span><span class="w"> </span><span class="nl">"data"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1000"</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="p">{</span><span class="w"> </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Normal"</span><span class="p">,</span><span class="w"> </span><span class="nl">"selected"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"number"</span><span class="p">,</span><span class="w"> </span><span class="nl">"data"</span><span class="p">:</span><span class="w"> </span><span class="s2">"5000"</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="p">{</span><span class="w"> </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Slow"</span><span class="p">,</span><span class="w"> </span><span class="nl">"selected"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"number"</span><span class="p">,</span><span class="w"> </span><span class="nl">"data"</span><span class="p">:</span><span class="w"> </span><span class="s2">"30000"</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">}</span><span class="w">
+      </span><span class="p">]</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"secret"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"apiKey"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"clientCertificates"</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>The variant system in Open Collection is particularly powerful for A/B testing scenarios or when you need to quickly switch between different configuration presets.</p>
+
+<h2 id="testing-and-assertions">Testing and Assertions</h2>
+
+<p><strong>Bruno</strong> handles testing through script strings in the <code class="language-plaintext highlighter-rouge">tests</code> field and simple key-value assertions.</p>
+
+<p><strong>Open Collection</strong> provides structured assertions with dedicated fields:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"assertions"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"expression"</span><span class="p">:</span><span class="w"> </span><span class="s2">"res.status"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"operator"</span><span class="p">:</span><span class="w"> </span><span class="s2">"eq"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"200"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"disabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Status should be 200 OK"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"expression"</span><span class="p">:</span><span class="w"> </span><span class="s2">"res.body.users.length"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"operator"</span><span class="p">:</span><span class="w"> </span><span class="s2">"gt"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Should return at least one user"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Open Collection also introduces <strong>Actions</strong>—runtime operations that can automatically set variables based on response data:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"actions"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"set-variable"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"phase"</span><span class="p">:</span><span class="w"> </span><span class="s2">"after-response"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"selector"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"expression"</span><span class="p">:</span><span class="w"> </span><span class="s2">"res.body.token"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"method"</span><span class="p">:</span><span class="w"> </span><span class="s2">"jsonq"</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"variable"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"authToken"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"scope"</span><span class="p">:</span><span class="w"> </span><span class="s2">"collection"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="enterprise-features-in-open-collection">Enterprise Features in Open Collection</h2>
+
+<p>Several features in Open Collection cater to enterprise use cases:</p>
+
+<h3 id="proxy-configuration">Proxy Configuration</h3>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"proxy"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"inherit"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"config"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"protocol"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"hostname"</span><span class="p">:</span><span class="w"> </span><span class="s2">"proxy.company.com"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"port"</span><span class="p">:</span><span class="w"> </span><span class="mi">8080</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"auth"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"username"</span><span class="p">:</span><span class="w"> </span><span class="s2">"user"</span><span class="p">,</span><span class="w"> </span><span class="nl">"password"</span><span class="p">:</span><span class="w"> </span><span class="s2">"pass"</span><span class="w"> </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"bypassProxy"</span><span class="p">:</span><span class="w"> </span><span class="s2">"localhost,127.0.0.1"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="client-certificates-for-mtls">Client Certificates for mTLS</h3>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"clientCertificates"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"domain"</span><span class="p">:</span><span class="w"> </span><span class="s2">"api.secure.com"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"pem"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"certificateFilePath"</span><span class="p">:</span><span class="w"> </span><span class="s2">"./certs/client.crt"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"privateKeyFilePath"</span><span class="p">:</span><span class="w"> </span><span class="s2">"./certs/client.key"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"passphrase"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="request-settings-with-inheritance">Request Settings with Inheritance</h3>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"http"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"encodeUrl"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"timeout"</span><span class="p">:</span><span class="w"> </span><span class="s2">"inherit"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"followRedirects"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"maxRedirects"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="what-bruno-does-differently">What Bruno Does Differently</h2>
+
+<p>While Open Collection has more features, Bruno’s design choices offer their own advantages:</p>
+
+<h3 id="uid-based-references">UID-Based References</h3>
+<p>Every object in Bruno has a unique 21-character alphanumeric identifier, making it easier to track and reference items programmatically:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"uid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"a1b2c3d4e5f6g7h8i9j0k"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"activeEnvironmentUID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"x9y8z7w6v5u4t3s2r1q0p"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="runner-results-storage">Runner Results Storage</h3>
+<p>Bruno collections can store execution results directly:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"runnerResult"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"lastRun"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2024-01-15T10:30:00Z"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"passed"</span><span class="p">:</span><span class="w"> </span><span class="mi">45</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"failed"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"duration"</span><span class="p">:</span><span class="w"> </span><span class="mi">12500</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="filesystem-integration">Filesystem Integration</h3>
+<p>The <code class="language-plaintext highlighter-rouge">pathname</code> fields throughout Bruno’s schema reflect its tight integration with the filesystem, supporting its Git-friendly approach where collections are stored as directories with individual <code class="language-plaintext highlighter-rouge">.bru</code> files.</p>
+
+<h2 id="making-the-choice">Making the Choice</h2>
+
+<p><strong>Choose Bruno Collection if:</strong></p>
+
+<ul>
+  <li>You primarily work with HTTP and GraphQL APIs</li>
+  <li>You value simplicity and readability</li>
+  <li>Git-based collaboration is central to your workflow</li>
+  <li>You want minimal schema overhead</li>
+</ul>
+
+<p><strong>Choose Open Collection if:</strong></p>
+
+<ul>
+  <li>You need gRPC or WebSocket support</li>
+  <li>Your team requires enterprise features like mTLS or proxy configuration</li>
+  <li>You want structured assertions and automated actions</li>
+  <li>Extensibility and typed values matter to your workflow</li>
+  <li>You’re building tooling that needs to support multiple API types</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Both Bruno Collection and Open Collection represent thoughtful approaches to API collection management. Bruno prioritizes developer experience and Git integration with a lean, focused schema. Open Collection aims for comprehensive coverage of enterprise needs with support for multiple protocols and advanced features.</p>
+
+<p>I am keen on understanding the differences in properties, but also the protocols. That is key. I am also interested in helping contribute to the examples conversation as I am heavily using Bruno collection for sandboxes, and I want to continue with Open Collection–leveraging the Microcks example format as a standalone, cross-spec alternative to defining rich workflows, scenarios, and use cases.</p>]]></content><author><name>Kin Lane</name></author><category term="Bruno" /><category term="OpenCollection" /><category term="Clients" /><summary type="html"><![CDATA[Bruno has been slow rolling their release of their new OpenCollection format to augment the Bruno Collection, and continue grabbing mindshare from Postman Collections, while simultaneously embracing the OpenAPI specification. I needed to undersstand the diff between the two specs to support work at Naftiko, but also as par tof my continued reporting from the frontlines of the specification wars.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-soliders-fighting-statue.jpg" /><media:content medium="image" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-soliders-fighting-statue.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dispatches From The Frontlines at Moltbook</title><link href="http://0.0.0.0:4001/2026/02/02/todays-dispatches-from-the-frontlines-at-moltbook/" rel="alternate" type="text/html" title="Dispatches From The Frontlines at Moltbook" /><published>2026-02-02T04:00:00-05:00</published><updated>2026-02-02T04:00:00-05:00</updated><id>http://0.0.0.0:4001/2026/02/02/todays-dispatches-from-the-frontlines-at-moltbook</id><content type="html" xml:base="http://0.0.0.0:4001/2026/02/02/todays-dispatches-from-the-frontlines-at-moltbook/"><![CDATA[<p>I am an expert in programmatic interfaces as they are used in a variety of applications. I don’t build desktop, web, mobile, device, network, or AI applications — I enable them. I have to keep saying this to define the bounded context in which I contribute to the conversation today. Meaning, whether you want to listent to me or ignore me.</p>
+
+<p>With this said, I have to regularly address the application frontlines to respond to people I work with in mainstream enterprises, government agencies, as well as investors, advisors, and other people I engage with on a regular basis.</p>
+
+<p>Today, I am specifically answering questions I’ve received around how Naftiko is going to respond to what is happening with Moltbook? What is Moltbook? It is a social network for AI agents. Something that is captivating the soldiers at the frontlines of the current (financial) digital warfare which has emerged. This is a dispatch from those frontlines.</p>
+
+<p>I’ve long resisted using the language of war to describe the digital transformation we’ve been all going through, but I think that positioning has warn thin. I don’t have any other language to describe what it is going on, and since the Internet and artificial intelligence were both both born out of WWII and cultivated within the Cold War—it is appropriate.</p>
+
+<p>To make sense of this new type of (financial) warfare, let’s look at the levels of investment and return used to reward different classes of warriors at the front lines of this new type of ongoing perpetual (financial) warfare.</p>
+
+<p>A. <strong>Likes / Shares</strong> - The lowest level currency used to rewards soldiers fighting at the frontline.</p>
+
+<p>B. <strong>Data</strong> - Obtaining access to the spoils of war, getting at your local files and data stores.</p>
+
+<p>C. <strong>Prediction Markets</strong> - The financialization of everything via Polymarket, Smarkets, and Pariflow.</p>
+
+<p>D. <strong>Crypto</strong> - Transferring your personal and corporate compute into the Borg generating crypto.</p>
+
+<p>E. <strong>Secondary Markets</strong> - Equitybee, Hive, Forge Global, EquityZen, and NPM (Nasdaq Private Market).</p>
+
+<p>F. <strong>Startups</strong> - The acquisition, buying and selling of startups by investors and large corporations.</p>
+
+<p>G. <strong>Primary Markets</strong> - The traditional market which is being forever changed by other levels here.</p>
+
+<p>Most people are aware of primary markets, and have heard of crypto markets, and maybe have been learning about prediction markets in the news, but most unaware of the secondary markets, and how the startup ecosystem works. And it is the flexibility in the investment and return to the soldiers you are employing at the frontline, while also ensuring the investments you have made at the levels you understand and operate in deliver the returns you desire. This is what motivates us all. And it is otpimal that man the frontlines with young people, and specifically young men at the frontlines–they are the most idealistic and will fight on just promises.</p>
+
+<p>I have horses in the race at level A, B, E, F, and G–but, I find C &amp; D to be less interesting.</p>
+
+<p>Where you have experience hustling will define how you see things, what you get excited about, and whether or not Moltbook is an interesting idea.</p>
+
+<p><a href="https://garymarcus.substack.com/p/openclaw-aka-moltbot-is-everywhere">“Not everything that is interesting is a good idea.”</a> - Gary Marcus</p>
+
+<p>Ok, with my vision of the frontline brought into focus using my wartime vocabulary, let’s get back to Moltbook, and why some people are interested in the social network.</p>
+
+<ul>
+  <li><strong>Agents Are Doing Interesting Things</strong> - It really depends on who you ask—it ranges from agents to obeing able to rewire your home automation that never quite worked in the first place to plotting the overthrow of humans while developing their own language–it comes down to how much a person has seen and done interesting things, not is the agent doing interesting things.</li>
+  <li><strong>People’s Religion and Politics</strong> - Something that ranges from science fiction fantasy, to class-based desires to have a personal assistant, someone shop for you, all the way uppto workforce and labor wet dreams, or just that age old promise that you will get rich if you play in this game without awareness of the multiple levels.</li>
+</ul>
+
+<p>OK, so <a href="https://simonwillison.net/2026/Jan/30/moltbook/">Moltbook is the most interesting place on the Internet “right now”</a>, and <a href="https://www.nytimes.com/2026/01/31/opinion/artificial-intelligence-new-world.html">artificial intelligence is the new world</a>. I really like the idea of reusing the colonial rhetoric of our past and straight up letting people know we will be extracting resources and dominating markets. But I also like even more how it all comes with amnesia from the last couple of months and years history zapped from your brain using the flashy thing from Men in Black–which renders these narratives very, very exciting!!</p>
+
+<p>Let’s revisit some quick history…</p>
+
+<ul>
+  <li>
+    <p><strong>Colonialization and Industrialization</strong> - sorry, I ain’t got time for that rabbit hole — <a href="https://kinlane.com/deprogramming/">I recommend check out my deprogramming book list</a>–come back to me after you work through that list and we’ll have a very interesting conversation about artificial intelligence, race, gender, and capitalism. ;-)</p>
+  </li>
+  <li>
+    <p><strong>Model Context Protocol (MCP)</strong> — Convincing everyone to bypass the gateways we all have setup in front of their databases, file stores and provide direct access to your corporate digital resources in return for unquantifiable productivity gains? What could go wrong? <a href="https://news.ycombinator.com/item?id=44604453">Exposed MCP servers across the web</a>.</p>
+  </li>
+  <li>
+    <p><strong>Open Source LLMs (ie. Llama and Deepseek)</strong> - Open-source will surely change the economics of this whole thing right? <a href="https://www.securityweek.com/175000-exposed-ollama-hosts-could-enable-llm-abuse/">175,000 Exposed Ollama Hosts Could Enable LLM Abuse</a>, and the <a href="https://www.seangoedecke.com/gas-and-ralph/">Crypto grifters are recruiting open-source AI developers</a>.</p>
+  </li>
+  <li>
+    <p><strong>Retrieval-Augmented Generation (RAG)</strong> - OK, I’ll concede here. There appears to be some success? There is more logic applied I guess to the thinking behind it all. I will have to do more research here.</p>
+  </li>
+</ul>
+
+<p>There is a lot of money to be made repeating history and ignoring history, so you can be perpetually excited about what is next.</p>
+
+<p>Remember, todays interesting things become tomorrow technical debt, or potential unexpected need to move on to greener pastures.</p>
+
+<p>But <a href="https://x.com/karpathy/status/2017442712388309406?s=12&amp;t=6Pj_NdObIgY_J3_I2DaDQA">Andrej Karpathy</a> says, “sure maybe I am “overhyping” what you see today, but I am not overhyping large networks of autonomous LLM agents in principle, that I’m pretty sure.”</p>
+
+<p>But…..wait….Twitter has been this for years….let’s ask our Google Gemini overlords:</p>
+
+<blockquote>
+  <p>Estimates of bots on Twitter (now X) vary widely, ranging from official company claims of under 5% to independent research suggesting 9–15%, or higher, with some studies indicating 20–30% or more, depending on definitions. While Twitter historically cited under 5% (roughly 11.5–20 million), recent studies (2022–2025) suggest 37% of daily users to potentially over 60% of profiles may exhibit automated behavior.</p>
+</blockquote>
+
+<p>But, but, generative AI is different! No, not really. Walk me through how Skills + Moltbook are different than what we used to feed Twitter <a href="https://en.wikipedia.org/wiki/Horse_ebooks">Horse_ebooks</a>? A set of instructions with a predictive ML. Maybe more compute? More stolen data? Yes, more stolen data.</p>
+
+<p>I am pretty sure we have had this for quite some time now, and we can understand what the real world outcomes are and what the costs will be just fine. We have plenty of evidence of the outcomes of such an experimentation on business, markets, government agencies, and democracy itself. We have just chosen not to heed any of the warnings.</p>
+
+<p>Doge is a good example of the kind of thinking born out of this environment—-executing one of the greatest data heists in history, while <a href="https://www.congress.gov/119/meeting/house/118215/documents/HHRG-119-GO16-20250507-SD014.pdf">delivering nothing that was promised</a>. This is the fate of enterprises who open their doors using MCP without the right policies in place and do not have the proper defenses to protect against the swarms of agents circling their perimeter today.</p>
+
+<p>But go ahead. Let’s all excited. It seems very, very cool. That is if you ignore what is happening in the wider world right now, recent and long term history, and just focus on the short term velocity, accompanied by extremeley high cost and risk. Exciting!!</p>
+
+<p><strong>OK, so now, what are you going to do about all of this Mr. Snarky API Expert, when you build Naftiko?</strong></p>
+
+<p>First, let’s frame it in terms of the top use cases Naftiko is addressing based upon the conversation we are having.</p>
+
+<h3 id="api-reuse">API Reuse</h3>
+
+<p>Naftiko is focused primarily on translating your existing investments into what you need to respond to the AI moment (not just Moltbook)</p>
+
+<ul>
+  <li><strong>Know Your Internal APIs</strong> - You must have a handle on your internal APIs, with proper gateways in front of your files, databases, and other backend systems.</li>
+  <li><strong>Know Your 3rd-party APIs</strong> - Your 3rd-party SaaS portfolio is massive, and you aren’t maximizing the data, API, and events already available to you today.</li>
+  <li><strong>Machine-Readable Artifacts</strong> - You need to have OpenAPI, AsyncAPI, JSON Schema, for your inventory, as well as the newer Arazzo, A2A, MCP, and agent skills.</li>
+  <li><strong>Governed API Artifacts</strong> - You are still working to govern the existing APIs you produce, haven’t even began with 3rd-party ones you consume, let alone MCP and Agent Skills.</li>
+  <li><strong>Translated Into Capabilities</strong> - You don’t have a solid understanding of what you are capable of today, let alone what you need to be capable after Molten fades into what is next.</li>
+</ul>
+
+<p>API reuse is much more than just reusing the same words in the designs of our APIs, it is part of a larger systemic reality.</p>
+
+<h3 id="context-engineering">Context Engineering</h3>
+
+<p>Naftiko is focused on defining what your current enterprise fleet is capable of doing today when it comes to AI integration.</p>
+
+<ul>
+  <li><strong>Right-Size Scope of Integrations</strong> - You need to be able to right-size the internal and external integrations that your enterprise depends upon today.</li>
+  <li><strong>Domain-Aligned Integrations</strong> - You need to be able to see your integrations in terms of the domains your business uses to define your operations.</li>
+  <li><strong>Well-Defined Spend Across Integrations</strong> - You need to have a handle on what your spend is across the integrations used within each domain.</li>
+  <li><strong>Understand Revenue from Integrations</strong> - You need to have a handle on revenue contributed by your integrations in use across each domain.</li>
+  <li><strong>REST API, Event-Driven, or MCP</strong> - You need to have an intentional balance regarding the patterns and protocols you are using to integrate today.</li>
+</ul>
+
+<p>Naftiko is focused on building and equipping what your fleet will need to more when it comes to any type of integration.</p>
+
+<h3 id="agentic-automation">Agentic Automation</h3>
+
+<p>Naftiko is interested in translating your existing enterprise capabilities into what you need to automate your enterprise.</p>
+
+<ul>
+  <li><strong>Agent Skills</strong> - You need the capabilities, cards, and skills needed—translating your existing resources into the transaction you need to integrate with AI.</li>
+  <li><strong>MCP Toolboxes</strong> - You need the right scope for the context you are looking to engineer within the domains you are doing business within today and tomorrow.</li>
+  <li><strong>Safer Sandboxes</strong> - You need safer sandboxes of your internal and 3rd-party APIs to ensure your teams have a safe place to begin all their AI integrations.</li>
+  <li><strong>Variable Automation</strong> - You need a standardized approach to automation that helps you know when deterministic or non-deterministic approaches are needed.</li>
+  <li><strong>Policy-Shaped</strong> - You need to be able to set policies at the highest level within and across business domains, and have all your integrations be policy-shaped.</li>
+</ul>
+
+<p>Naftiko wants to help you invest in agentic automation alongside all the other types of automation you already employ.</p>
+
+<p>Beyond the use cases, let’s look at it terms of our users (framework) and our buyers (fabric), and what they’ll care about.</p>
+
+<h3 id="naftiko-framework">Naftiko Framework</h3>
+<p>The Naftiko Frameworks is what developers will download and use as part of their work to integrate into applications.</p>
+
+<ul>
+  <li><strong>Configurable</strong> - Easily configure, allow for safe and rapid iteration of how the integrations you depend on function.</li>
+  <li><strong>Declarative</strong> - YAML configuration aligned with existing DevOps, GitOps, and platform approaches to operations.</li>
+  <li><strong>Multi-Protocol</strong> - Making it easy to switch protocols and patterns until you find the one that works for your integration.</li>
+  <li><strong>Guided</strong> - Every step along the way is guided (governed), making as much as possible a known known for developers.</li>
+  <li><strong>Localized</strong> - Meeting developers where they already work, seamlessly blending into their IDE, Clients, and workflow.</li>
+</ul>
+
+<p>The Naftiko Framework will enable the new and exciting applications but also the boring old ones many developers maintain.</p>
+
+<h3 id="naftiko-fabric">Naftiko Fabric</h3>
+<p>The Naftiko Fabric is what developers will see, but what buyers will also see and experience as they use Naftiko.</p>
+
+<ul>
+  <li><strong>Capabilities</strong> - Define your integrations as capabilities, bringing the engineer bits together with the product bits.</li>
+  <li><strong>Observable</strong> -You need to have the right business and engineering visibility across site integrations you depend  on.</li>
+  <li><strong>Policy-Driven</strong> - You need high level strategic control over the tactical things your teams are doing with integrations.</li>
+  <li><strong>Open-Source</strong> - You need a formal approach to producing and consuming open-source standards and tooling.</li>
+  <li><strong>Business Aligned</strong> - Each one of your integrations with internal or external APIs should be aligned with business outcomes.</li>
+</ul>
+
+<p>Naftiko buyers can start small and achieve more control over their integrations across a wide variety of applications over time.</p>
+
+<p>You can focus on streamlining your integrations now, and bring in the governance later, or you can do both in the same motion.</p>
+
+<p>It is up to you.</p>
+
+<p><strong>OK, you are all doom and gloom on this agentic frontline Kin, but surely there has to be some benefit from all this AI?</strong></p>
+
+<p>I have no desire to champion and cheerlead what is going on, but yes, there will be a number of positive outcomes from this.</p>
+
+<ul>
+  <li><strong>Value of Our Data</strong> - We will begin to define, measure, and plan around the value of our data—as I’ve pushed for since 2010.</li>
+  <li><strong>Business Processes</strong> - We will be forced to better define the business process that matter and get ride of the ones that don’t.</li>
+  <li><strong>Nimbler Enterprises</strong> - You are going to see a much more nimbler enterprise emerge, and you will see the bigger ones suffer.</li>
+  <li><strong>More Governance</strong> - There will be more governance needed, as we saw with early electricity, telephone, radio, and TV markets.</li>
+  <li><strong>More Standardization</strong> - New standards will emerge from the flurry of specifications we see now, stabilizing how things work.</li>
+</ul>
+
+<p>I have a vision for Naftiko. It is one that is bigger than selling picks and shovels in this moment, and just contributing to the chaos.</p>
+
+<p>I am laser focused on a 2032 primary market IPO for Naftiko, and Washington D.C. and the European Commission adopting capabilities as universal standard of the Jobs to Done in the public and private sectors that matter most to the medium and long term benefits of global markets.</p>
+
+<p>However, I do like responding to these Moltbook type moments and discussion now and then, because it helps me orient myself within my vision for API Evangelist and Naftiko. But in the end, I am playing a medium to long-term game, where I think others prefer a more emotional, volatile, and stimulating short-term game.</p>
+
+<p>It just comes to what your tolerance is for velocity, cost, and risk, when it comes to integrating AI into our enterprise operations, and whether or not your vision is bigger than the distractions that come along every week in this new financialized circus we live in.</p>
+
+<p>P.S. This is purposely written with hubris and ego, blowing things up, because that is necessary to balance out this circus. In the end though, I am dead serious about what I am building, and I suspect the people behind Moltbook are not.</p>]]></content><author><name>Kin Lane</name></author><category term="Motbook" /><category term="Context" /><category term="Roles" /><category term="OpenAPI" /><category term="Discovery" /><category term="Operations" /><category term="Resources" /><category term="APIs.json" /><summary type="html"><![CDATA[I am an expert in programmatic interfaces as they are used in a variety of applications. I don’t build desktop, web, mobile, device, network, or AI applications — I enable them. I have to keep saying this to define the bounded context in which I contribute to the conversation today. Meaning, whether you want to listent to me or ignore me.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/nazi-invasion-cannon_36556797762_o.jpg" /><media:content medium="image" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/nazi-invasion-cannon_36556797762_o.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why Do I Need Agents When I Have Requests, CRON Jobs, and Events?</title><link href="http://0.0.0.0:4001/2026/02/02/why-do-i-need-agents-when-i-have-requests-cron-jobs-and-events/" rel="alternate" type="text/html" title="Why Do I Need Agents When I Have Requests, CRON Jobs, and Events?" /><published>2026-02-02T04:00:00-05:00</published><updated>2026-02-02T04:00:00-05:00</updated><id>http://0.0.0.0:4001/2026/02/02/why-do-i-need-agents-when-i-have-requests-cron-jobs-and-events</id><content type="html" xml:base="http://0.0.0.0:4001/2026/02/02/why-do-i-need-agents-when-i-have-requests-cron-jobs-and-events/"><![CDATA[<p>I am genuinely trying to understand the essence of the agentic wave of artificial intelligence. I am always frustrated when I don’t understand something. Unfortunately, much of popular life and capitalism is like this for me. But I work regularly to make sense of what I can. Since I have to write stories that speak to this agentic moment, engage with people on the front lines, and help provide guidance to my team and customers, I am doing the work to separate the layers, make sense of the narratives being used, and find my way forward as I do with every other application that uses APIs.</p>
+
+<p>From a simple technological standpoint, I have requests, CRON jobs, and events to accomplish any automation I encounter. I can request something via a URL or URI. If I need that request to be made on a recurring schedule, I can add it to my EasyCRON interface, and if ANYTHING happens out in the world, I can respond to things using events. This covers everything I need. The CRON jobs run while I am asleep, and webhooks respond to any events that occur. This applies to my API Evangelist and Naftiko work, and any job I’ve had in recent years. I genuinely do not understand why I would need an “agent” to do anything for me when I have this robust toolbox for automating my world.</p>
+
+<p>If I begin to step outside the model that guides my reality, I would have to start with science fiction. It’s just cool. That is why I’d want it. This is where I’d start understanding where other people’s heads are at. They just like technology, have read a lot of science fiction, and have watched a bunch of movies, and the desire to have agents doesn’t go much deeper than that. They are neat. They get your imagination going, aligned with the white guy science fiction you’ve read over the years and the zeitgeist of popular culture as expressed by television and movies. This science fiction answer to why you want agents is the easiest explanation for me, and it relates to my own interest in technology and my condition as shaped by being a white male in the United States.</p>
+
+<p>Next, I checked in with my wife, Audrey, on this to see what she thought. She immediately declared that there wasn’t a technological reason behind this, and that operating from this vantage point was preventing me from understanding it. It was a class thing. People like having assistants. It’s a status symbol. In this world, once you become important, you have an assistant. Agents are the influencer’s assistant, or at least influencers will buy into the promise of having an assistant. This makes a lot of sense when it comes to the buying and selling of the agentic dream and promise. If you aren’t an expert and don’t actually believe in the importance and value of the tasks you need to accomplish on a daily basis, and you are just aspiring to be influential, the concept of an agent makes a lot more sense.</p>
+
+<p>After this, Audrey and I both concluded that alongside the science fiction fantasy and influencer visions, it was simply a data heist. Install this agent on your machine. Run these agents within your business. It doesn’t matter if it can do any of the things we promised—we got access to your file system, data, applications, and secrets. Appealing to your science fiction fantasies and social-ladder-climbing desires was just the way to get you to open the door. It is the digital data broker version of penny stock and crypto promises, but it is about stealing your data and being able to use it to train LLMs they can use for expanding their data heist and adapting it to whatever hustle is right around the corner. This is why they want agents. These people might not be twirling their mustaches while rising to the top of their evil plans, but they do need to feed their very, very hungry LLMs.</p>
+
+<p>This question and answer illustrate my focus on the technology, business, and politics of this game. I am very technical, and I regularly apply my very engineering-oriented model to how I see the world. However, over the years I have learned to zoom out to the business layer to actually understand what is going on. But this situation illustrates the role that our politics play. The cultural politics surrounding the business layer as well as the technical core is what makes agents such an appealing story. I am genuinely confounded by how excited people get about them. I can find interest in the APIs you need to accomplish the business process automation people are speaking of, but I am lost when it comes to why you’d let one loose in your business or personal life, let alone an army of them. I know that much of the world goes right over my head. I am used to this reality. But it helps me to get at what the story is behind why we’d be buying and selling this very abstract and meaningless, yet harmful word, and allows me to continue participating in the current market—even with all the hype.</p>]]></content><author><name>Kin Lane</name></author><category term="Events" /><category term="CRON Jobs" /><category term="Requests" /><category term="Automation" /><category term="Agentic" /><summary type="html"><![CDATA[I am genuinely trying to understand the essence of the agentic wave of artificial intelligence. I am always frustrated when I don’t understand something. Unfortunately, much of popular life and capitalism is like this for me. But I work regularly to make sense of what I can. Since I have to write stories that speak to this agentic moment, engage with people on the front lines, and help provide guidance to my team and customers, I am doing the work to separate the layers, make sense of the narratives being used, and find my way forward as I do with every other application that uses APIs.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-freeway-interchange-fence.jpeg" /><media:content medium="image" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-freeway-interchange-fence.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Organizing Signals Into a Platform Definition with Operations Organized by Role</title><link href="http://0.0.0.0:4001/2026/01/30/organizing-signals-into-a-platform-definition-with-operations/" rel="alternate" type="text/html" title="Organizing Signals Into a Platform Definition with Operations Organized by Role" /><published>2026-01-30T04:00:00-05:00</published><updated>2026-01-30T04:00:00-05:00</updated><id>http://0.0.0.0:4001/2026/01/30/organizing-signals-into-a-platform-definition-with-operations</id><content type="html" xml:base="http://0.0.0.0:4001/2026/01/30/organizing-signals-into-a-platform-definition-with-operations/"><![CDATA[<p>I have been <a href="https://naftiko.github.io/signals//companies/">gathering signals about what enterprises are invested in as part of my Naftiko Signals work</a>. As I do, I am working out in the open to make sense of the services I am profiling as part of this work, and the most recent work this week focuses on organizing signals into a platform definition with operations organized by role. And what better place to start than with the services that we are using to build <a href="https://naftiko.io/">Naftiko</a>, building our own platform on top of the signals we are gathering.</p>
+
+<h2 id="platform-definition">Platform Definition</h2>
+<p>With this in mind I took the twelve services that Naftiko is using to build our business, establishing a platform definition of the twelve services, and their APIs which were relevant to our engineering and business operations. I wanted an index I could program agains tto extract additional signals and insights regarding what Naftiko is capable of today. In my experience, what any company is capable of is defined by the OpenAPIs for the services they use, which can easily be expressed as sandboxes using Microcks, and explored using Bruno.</p>
+
+<ul>
+  <li><strong>Anthropic</strong> - We use Anthropic Claude for copilot editing, but also the API to generate artifacts for use in sandboxes and other projects, using JSON Schema to generate and validate the results we get. (Artificial Intelligence, AI) (<a href="https://naftiko.github.io/technology/docs/services/anthropic/">Documentation</a>) (<a href="https://contracts.apievangelist.com/store/anthropic/">API Evangelist</a>) (<a href="https://github.com/api-evangelist/anthropic/blob/main/apis.yml">APIs.json</a>) (<a href="https://github.com/naftiko/anthropic-sandbox">Sandbox</a>)</li>
+  <li><strong>Bluesky</strong> - We use Bluesky as a social network, broadcasting stories, sharing stories from the community, and working to build our network, using it to complement LinkedIn. (Social, Marketing) (<a href="https://naftiko.github.io/technology/docs/services/bluesky/">Documentation</a>) (<a href="https://contracts.apievangelist.com/store/bluesky/">API Evangelist</a>) (<a href="https://github.com/api-evangelist/bluesky/blob/main/apis.yml">APIs.json</a>) (<a href="https://github.com/naftiko/bluesky-sandbox">Sandbox</a>)</li>
+  <li><strong>GitHub</strong> - We use GitHub for source control of code, artifacts, and other content, using Git and the API to manage much of the Naftiko platform. (Source Control, Pipelines, Artifacts, Code) (<a href="https://naftiko.github.io/technology/docs/services/github/">Documentation</a>) (<a href="https://contracts.apievangelist.com/store/github/">API Evangelist</a>) (<a href="https://github.com/api-evangelist/github/blob/main/apis.yml">APIs.json</a>) (<a href="https://github.com/naftiko/github-sandbox">Sandbox</a>)</li>
+  <li><strong>Google</strong> - We use Google Apps as the primary productivity suite for Naftiko, leveraging email, calendar, docs, and the Google Apps suite to conduct business, sharing internally, but also with partners, advisors, and other customers. (Productivity, Documents, Email, Communication) (<a href="https://naftiko.github.io/technology/docs/services/google/">Documentation</a>) (<a href="https://contracts.apievangelist.com/store/google/">API Evangelist</a>) (<a href="https://github.com/api-evangelist/google/blob/main/apis.yml">APIs.json</a>) (<a href="https://github.com/naftiko/google-sandbox">Sandbox</a>)</li>
+  <li><strong>HubSpot</strong> - We use HubSpot as our primary CRM, gathering all leads from the site and other sources, as well as email, then sending our newsletter and other email, and eventually we will be using for sales. (Productivity, CRM, Newsletter) (<a href="https://naftiko.github.io/technology/docs/services/hubspot/">Documentation</a>) (<a href="https://contracts.apievangelist.com/store/hubspot/">API Evangelist</a>) (<a href="https://github.com/api-evangelist/hubspot/blob/main/apis.yml">APIs.json</a>) (<a href="https://github.com/naftiko/hubspot-sandbox">Sandbox</a>)</li>
+  <li><strong>LinkedIn</strong> - We use LinkedIn as the primary business social network, maintaining a Naftiko page, as well as using our personal accounts to engage with the ecosystem, as well as using LinkedIn Sales Navigator for sales pipeline. (Social, Sales, Marketing) (<a href="https://naftiko.github.io/technology/docs/services/linkedin/">Documentation</a>) (<a href="https://contracts.apievangelist.com/store/linkedin/">API Evangelist</a>) (<a href="https://github.com/api-evangelist/linkedin/blob/main/apis.yml">APIs.json</a>) (<a href="https://github.com/naftiko/linkedin-sandbox">Sandbox</a>)</li>
+  <li><strong>Notion</strong> - We use Notion as our primary internal wiki, using it as a collaborative way to manage content, data, and linking to GitHub, Google, and other private or public sources. (Productivity) (<a href="https://naftiko.github.io/technology/docs/services/notion/">Documentation</a>) (<a href="https://contracts.apievangelist.com/store/notion/">API Evangelist</a>) (<a href="https://github.com/api-evangelist/notion/blob/main/apis.yml">APIs.json</a>) (<a href="https://github.com/naftiko/notion-sandbox">Sandbox</a>)</li>
+  <li><strong>OpenAI</strong> - We use OpenAI ChatGPT for copilot editing, but also the API to generate artifacts for use in sandboxes and other projects, using JSON Schema to generate and validate the results we get. (Artificial Intelligence, AI) (<a href="https://naftiko.github.io/technology/docs/services/openai/">Documentation</a>) (<a href="https://contracts.apievangelist.com/store/openai/">API Evangelist</a>) (<a href="https://github.com/api-evangelist/openai/blob/main/apis.yml">APIs.json</a>) (<a href="https://github.com/naftiko/openai-sandbox">Sandbox</a>)</li>
+  <li><strong>Slack</strong> - We use Slack as the primary communication and messaging channel internally at Naftiko, and we have a handful of external channels we are subscribed to or provide. (Communication, Productivity) (<a href="https://naftiko.github.io/technology/docs/services/slack/">Documentation</a>) (<a href="https://contracts.apievangelist.com/store/slack/">API Evangelist</a>) (<a href="https://github.com/api-evangelist/slack/blob/main/apis.yml">APIs.json</a>) (<a href="https://github.com/naftiko/slack-sandbox">Sandbox</a>)</li>
+  <li><strong>YouTube</strong> - We use YouTube to publish all our videos and podcast to different channels, then embedding on social media, blog, and documentation, using the network effect of the platform. (Social, Marketing) (<a href="https://naftiko.github.io/technology/docs/services/youtube/">Documentation</a>) (<a href="https://contracts.apievangelist.com/store/youtube/">API Evangelist</a>) (<a href="https://github.com/api-evangelist/youtube/blob/main/apis.yml">APIs.json</a>) (<a href="https://github.com/naftiko/youtube-sandbox">Sandbox</a>)</li>
+  <li><strong>Zoom</strong> - We use Zoom for meetings and webinars, using the video meetings to engage with partners privately and the public, using the platform to schedule and record the conversations. (Videos, Meetings, Webinars) (<a href="https://naftiko.github.io/technology/docs/services/zoom/">Documentation</a>) (<a href="https://contracts.apievangelist.com/store/zoom/">API Evangelist</a>) (<a href="https://github.com/api-evangelist/zoom/blob/main/apis.yml">APIs.json</a>) (<a href="https://github.com/naftiko/zoom-sandbox">Sandbox</a>)</li>
+</ul>
+
+<p>This represents what Naftiko is capable of in this moment. These are all of the 3rd-party services we depend on right now. This is our business and engineering platform. There is a lot of interesting signals available in here, but there are also a lot of machine-readable artifacts we can use to automate our work, making an APIs.json index pretty valuable when it comes to making sense of our platform.</p>
+
+<style type="text/css">
+  .gist .blob-wrapper.data {
+    max-height: 400px;
+    overflow: auto;
+  }
+</style>
+
+<script src="https://gist.github.com/kinlane/9bf4b8a394b825b928e656b63a806d63.js"></script>
+
+<h2 id="platform-resources">Platform Resources</h2>
+<p>With OpenAPIs available for our platform, I loop through all of the tags being applied across the operations available within each sandbox, providing a vocabulary that describes the resources we have available to us, which I add to our APIs.json platform defiition.</p>
+
+<script src="https://gist.github.com/kinlane/e78fe5c7bf2276bee72fee0517fc7e8a.js"></script>
+
+<p>These tags need a lot of refinement across each of the twelve APIs. They do not reflect everything available from these services, but the initial set of resources that we are currently using in one way or another, providing a vocabulary to describe our platform which will grow over time.</p>
+
+<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-tags.png" width="100%" /></center>
+
+<h2 id="platform-operations">Platform Operations</h2>
+<p>Next, I was able to loop through each of the OpenAPIs for the twelve services and extract the summary of each operation, providing a more precise look at the available operations, which can then be translated into capabilities (Naftiko), workflows (Arazzo), context (MCP), cards (A2A), skills (Agent Skills), and other more tactical functions.</p>
+
+<script src="https://gist.github.com/kinlane/105a0e6770fe95c0d8c2c2133f9d63af.js"></script>
+
+<p>The operations across the OpenAPIs for these services provide me with all of the available “lego bricks” for the Naftiko platform. I manage the OpenAPIs for each service separate from the Naftiko platform definition, and I am looking to be understand how to keep translating this operations into terms that will make more sense to business stakeholders, while maintaining their connection to the engineering details.</p>
+
+<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-operations.png" width="100%" /></center>
+
+<h2 id="platform-roles">Platform Roles</h2>
+<p>I wanted to take one last step today to align what Naftiko is capable of with different roles. Naftiko is just a handful of roles right now, but I wanted to challenge Claude to associate each of the available operations with a role in the list of roles I am using to guide our Naftiko Signals work–further aligning the engineering details with the busienss details.</p>
+
+<script src="https://gist.github.com/kinlane/f53e8117b2dbef28a2b43f2f1073e993.js"></script>
+
+<p>This was just a test. But, I am pretty happy with the results. I’ll repeat this process with the services, resources, and operations I am gathering as par tof Naftiko Signals, which will give me a much more robust list of operations to match my robust list of roles, which I can then filter and search on based on company and industry–providing a much richer viewer of what is happening.</p>
+
+<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-roles.png" width="100%" /></center>
+
+<h2 id="engineering-context">Engineering Context</h2>
+<p>That is it for now. I am looking to apply this approach to as many of <a href="https://naftiko.github.io/signals//services/">the top services</a> I have harvested as part of Naftiko Signals. Then I will use this approach to get at <a href="https://naftiko.github.io/signals//intent/">the intent behind each role</a>–developing some sort of tag cloud or other visual that shows what you are capable of when you select your services and your role, instantly engineering context for you, which you can then dial in with a few tags to describe what you are looking to shape as an individual or aggregate Naftiko capability.</p>
+
+<p>As a result of my work on API governance over the last couple of years, I am convinced that part of the reason we can’t properly engineer the context needed to integrate AI into the enterprise, is that we don’t have open-source, accessible, complete, and governed OpenAPI, JSON Schema, Arazzo, and other artifacts to use when engineering the desired context. I am looking to change this, but I need a way to also be connected the dots on why these artifacts matter to business and product stakeholders, and this gives me the beginning of what I need to make this happen.</p>]]></content><author><name>Kin Lane</name></author><category term="Platforms" /><category term="Context" /><category term="Roles" /><category term="OpenAPI" /><category term="Discovery" /><category term="Operations" /><category term="Resources" /><category term="APIs.json" /><summary type="html"><![CDATA[I have been gathering signals about what enterprises are invested in as part of my Naftiko Signals work. As I do, I am working out in the open to make sense of the services I am profiling as part of this work, and the most recent work this week focuses on organizing signals into a platform definition with operations organized by role. And what better place to start than with the services that we are using to build Naftiko, building our own platform on top of the signals we are gathering.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-cell-tower-satellite-dishes.jpeg" /><media:content medium="image" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-cell-tower-satellite-dishes.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MCP Server for Microcks Mocking and Testing</title><link href="http://0.0.0.0:4001/2026/01/28/mcp-server-for-microcks-mokcing-and-testing/" rel="alternate" type="text/html" title="MCP Server for Microcks Mocking and Testing" /><published>2026-01-28T04:00:00-05:00</published><updated>2026-01-28T04:00:00-05:00</updated><id>http://0.0.0.0:4001/2026/01/28/mcp-server-for-microcks-mokcing-and-testing</id><content type="html" xml:base="http://0.0.0.0:4001/2026/01/28/mcp-server-for-microcks-mokcing-and-testing/"><![CDATA[<p><a href="https://github.com/microcks/microcks/issues/1935#issuecomment-3806602196">The Microcks team is proposing adding an MCP server for the mocking and testing platform</a>, arguing that every tool needs one. I definitely support every API service and tool having an API, so this lines up perfectly with my historical views. It also reflects work I’m doing with Microcks to deploy Spectral rules, API design guidelines, and even API ops cycles and other more lifecycle- and product-oriented work into a mock API.</p>
+
+<p>My API governance sandboxes already use Microcks to deliver the REST API mock, but they also deliver an MCP server alongside it. What this means is that Microcks itself would now have an MCP to discover the list of internal or third-party APIs that are registered, along with any artifacts or mocks available to support them—giving you programmatic access to everything that goes into the sandbox.</p>
+
+<ul>
+  <li><strong>Discover the list of APIs / Services / Mocks available</strong> - Agents might use this one to discover what third-party APIs are available and that mocks can be used,</li>
+  <li><strong>Get API details</strong> -  Agents might use this one to get operation details (and maybe primary artifact also?) on an API in order to ease the creation of an API client,</li>
+  <li><strong>Import an artifacts</strong> - Agents might be able to enrich Microcks with new artifacts - either when building a new API or when completing one with additional APIExamples for instance,</li>
+  <li><strong>Run a conformance test</strong> -  Agent might be able to run a conformance test so that they can ensure they didn’t introduce regression into a code base when touching an API endpoint-related code.</li>
+</ul>
+
+<p>You’d then be able to import new artifacts and run tests. When you think about it that way, it’s not just about mocking and testing. Microcks has a really powerful specification engine supporting OpenAPI, AsyncAPI, Postman Collections, and much more. It has rich examples, and exposing that engine via an MCP that can be registered anywhere opens up a lot of possibilities.</p>
+
+<p>Microcks allows you to inject mocks, testing, and the artifacts behind them directly into the software development life cycle. There’s already an issue set up in the Microcks GitHub repository—<a href="https://github.com/microcks/microcks/issues/1935#issuecomment-3806602196">issue #1935</a>—for an MCP server for Microcks. Definitely head over and share your thoughts. I’ll be doing the same as part of this storytelling to support Naftiko API sandboxes.</p>]]></content><author><name>Kin Lane</name></author><category term="Microcks" /><category term="Mocking" /><category term="Testing" /><summary type="html"><![CDATA[The Microcks team is proposing adding an MCP server for the mocking and testing platform, arguing that every tool needs one. I definitely support every API service and tool having an API, so this lines up perfectly with my historical views. It also reflects work I’m doing with Microcks to deploy Spectral rules, API design guidelines, and even API ops cycles and other more lifecycle- and product-oriented work into a mock API.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-autom-leaves-street.jpeg" /><media:content medium="image" url="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-autom-leaves-street.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

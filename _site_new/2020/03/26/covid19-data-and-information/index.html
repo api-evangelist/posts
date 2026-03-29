@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>COVID-19 Data and Information - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2020/03/26/covid19-data-and-information/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="COVID-19 Data and Information - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_covid_response_1.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">COVID-19 Data and Information</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>March 26, 2020</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_covid_response_1.png" alt="COVID-19 Data and Information" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>When it comes to coping with the stressful world unfolding around us I like to lose myself in my work. Data and APIs is a great way to tune out the world and keep myself busy while in isolation. Like most other technosolutionists I want to do some good in this crazy time, even if I don’t quite fully know what that means. So, to help me define what that means I sat down and began scratching at what was already occuring across the landscape. Identifying what sources of data were available out there, and what types of information was available which would truly make a difference in everyones world–not make it worse.</p>
+
+<p><strong>Informational API Collections</strong></p>
+
+<p>To begin I wanted to better understand where the top sources of information were, so I began documenting who the most relevant government agencies were in the COVID-19 conversation, going directly to the source of information at the highest levels.</p>
+
+<ul>
+  <li><strong>Center for Disease Control (CDC)</strong> (<a href="https://www.cdc.gov/">Website</a>) (<a href="https://documenter.postman.com/view/8854915/SzS7NkAL?version=latest">Collection</a>) - A simple collection for pulling information from the CDC.</li>
+  <li><strong>European Centre for Disease Prevention and Control (ECDC)</strong> (<a href="https://www.ecdc.europa.eu/en">Website</a>) (<a href="https://documenter.postman.com/view/8854915/SzS7NkAQ?version=latest">Collection</a>) - A simple collection for pulling information from the ECDC.</li>
+  <li><strong>World Health Organization (WHO)</strong> (<a href="https://www.who.int/">Website</a>) (<a href="https://documenter.postman.com/view/8854915/SzS7NkAS?version=latest">Collection</a>) - A simple collection for pulling information from the WHO.</li>
+</ul>
+
+<p>This seemed to reflect the authoritative resources available to me, so I got to work defining how each of these agencies shares information, mapping out the top channels I could profile as a Postman collection, aggregating relevant information, and then allowing it to be pulled manually or in some automated way.</p>
+
+<ul>
+  <li><strong>Twitter</strong> - Each agency uses Twitter as a way of providing updates.</li>
+  <li><strong>YouTube</strong> - Each agency uses YouTube to publish video resources.</li>
+  <li><strong>RSS / Atom Feeds</strong> - Each of the agency provides RSS feeds of info.</li>
+</ul>
+
+<p>I created a Postman collection for each agency, all someone has to do is enter their Twitter and YouTube API authentication, and they are up and running pulling data from across each of the agencies. My goal is to help expedite the pulling, aggregation and publishing of information from these sources, while demonstrating how this type of information gathering across many APIs can be done using Postman. For now, I have only done CDC, ECDC, and WHO, but the model can easily be applied to any source of information, and I have a number of other government agenices I am working on currently.</p>
+
+<p><strong>Tapping Twitter API Collections</strong></p>
+
+<p>Once I saw that the Twitter API would be a valuable source of information, I wanted to work on some other collections that would help the pulling, aggregation, and publishing. So I got to work on a handful of collections that developers, and even non-developers could put to work to pull information, and help make sense of what is going on using the Twitter API. </p>
+
+<ul>
+  <li><strong>COVID-19 Twitter Searches</strong> (<a href="https://documenter.postman.com/view/8854915/SzS7NkEt?version=latest">Collection</a>) - Some of the most common searches for uncovering COVID-19 related conversations.</li>
+  <li><strong>State Government Twitter Accounts</strong>  (<a href="https://documenter.postman.com/view/8854915/SzYT5MzV?version=latest">Collection</a>) - Official government Twitter accounts for each state in the US.</li>
+  <li><strong>Statte Governor Twitter Accounts</strong> (<a href="https://documenter.postman.com/view/8854915/SzYT5MzU?version=latest">Collection</a>) -The Twitter accounts for all the governors of the 50 US states.</li>
+  <li><strong>State Health Department Twitter Accounts</strong> (<a href="https://documenter.postman.com/view/8854915/SzYT5MzW?version=latest">Collection</a>) - The Twitter accounts for all of the state health departments.</li>
+</ul>
+
+<p>After working on this more general, state centered Postman collections I began seeing the need to focus more on the local levels and understanding what is going on down on the ground in each county, resulting in two collections for the State of California.</p>
+
+<ul>
+  <li><strong>California County Health Department Twitter Accounts</strong> (<a href="https://documenter.postman.com/view/8854915/SzYT5Mv5?version=latest">Collection</a>) - A single collection for aggregating Tweets across all of Californias county health departments.</li>
+  <li><strong>Calfironia Television News Stations (<a href="https://documenter.postman.com/view/8854915/SzYT5h6P?version=latest">Collection</a></strong>) A single collection for aggregating Tweets across all of the Calfiornia television stations.</li>
+</ul>
+
+<p>These API collections are designed to reduce friction when getting up and running with pulling of data across many different Twitter accounts. All you need is to create your own Twitter application, get you some API keys, and you run each of the collections. I am looking. There is a lot of information available across those Twitter collections, making it easier to automate the processing of information being made available about the pandemic. I have things broken into such small collections beause it helps with the separation of concerns, but also helps spread out the API calls to the Twitter API, allow for the running of collections as Postman monitors across a balanced 24 hour schedule.</p>
+
+<p><strong>COVID-19 API Collections</strong></p>
+
+<p>After that I paused for a bit and then zoomed out a bit. I wanted to step back and see what else might be going on around COVID-19 data and API specifically. There was a handful of APIs emerging, coming out of primarily data from Johns Hopkins University, and other known and unknown data sources, producing a variety of approaches to making sense of the spread of COVID-19 and its impact on the ground. </p>
+
+<p><a href="https://covid-19-apis.postman.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_covid_response_2.png" alt="" /></a></p>
+
+<ul>
+  <li><strong>The COVID Tracking Project</strong> (<a href="https://documenter.postman.com/view/8854915/SzS8rjHv?version=latest">Collection</a>) - The COVID Tracking Project collects information from 50 US states, the District of Columbia, and 5 other US territories to provide the most comprehensive testing data we can collect for the novel coronavirus, SARS-CoV-2.</li>
+  <li><strong>Covid19API</strong> (<a href="https://documenter.postman.com/view/10808728/SzS8rjbc?version=latest">Collection</a>) - A free API for data on the Coronavirus Access data on COVID19 through an easy API for free.</li>
+  <li><strong>COVID19-Tracker-REST API -</strong> (<a href="https://documenter.postman.com/view/4074074/SzS7Pkup?version=latest">Collection</a>) - Provides global and country level statistics on the Coronavirus.</li>
+  <li><strong>NovelCOVID AP</strong>I (<a href="https://documenter.postman.com/view/8854915/SzS7R6uu?version=latest">Collection</a>) - API for Current cases and more stuff about COVID-19 or the Novel Coronavirus Strain.</li>
+  <li><strong>COVID-19 AP</strong>I (<a href="https://documenter.postman.com/view/8854915/SzS7R74j?version=latest">Collection</a>) - The COVID-19 API provides information related with the case of pneumonia associated with the COVID-19 coronavirus.</li>
+  <li><strong>Coronavirus Data API</strong> (<a href="https://documenter.postman.com/view/8854915/SzS7R74n?version=latest">Collection</a>) - Provides global stats, country stats, full timeline, and country timeline for the coronavirus.</li>
+  <li><strong>Health API - COVID-19</strong> (<a href="https://documenter.postman.com/view/8854915/SzS7R74s?version=latest">Collection</a>) - Global Coronavirus statistics by country and state.</li>
+  <li><strong>Coronavirus Smartable</strong> (<a href="https://documenter.postman.com/view/8854915/SzS7R74q?version=latest">Collection</a>) - The coronavirus stats and news API offers latest and historic COVID-19 stats and news information per country or state.</li>
+</ul>
+
+<p> Each of these APIs provide their own take on the COVID-19 pandemic. I have created a Postman collection for each of these APIs, and encouraged their owners to publish as well. Next, I’ll study the provenance of the data behind, and do a little diff on the schema behind each one. To help me better understand what is being offered by each API provider, in an effort to make sense of the benefits each bring to the table. </p>
+
+<p><strong>ScrAPI Collections</strong></p>
+
+<p>Before I found <a href="https://covidtracking.com/">the COVID Tracking Project</a> I was looking to establish my own source of state and county counts for the cases by pulling data from the state health department websites. To help me tackle the work I created a handful of what I am calling Postman ScrAPI collections, that help pull some data from a website, and publish as a mock or real API. Making for a handful of useful collections that can be adapted to target, scrape, process, and publish web data as an API.</p>
+
+<ul>
+  <li><strong>CDC Cases &amp; Deaths</strong> (Collection) - Scraping the COVID-19 cases and deaths from CDC home page, converting to JSON, and saving within an environment.</li>
+  <li><strong>CDC Testing</strong> (<a href="https://documenter.postman.com/view/8854915/SzS7R6gm?version=latest">Collection</a>) - Scraping the number of specimens tested for SARS CoV-2 by CDC labs and U.S. public health laboratories from the CDC website.</li>
+</ul>
+
+<p>I find these little ScrAPI collections provide me with reusable requests that I can duplicate and customize to pull almost any single piece of data, lists, or tables from a website. Providing me with very useful set of utilities when it comes to gathering the data I need to publish a variety of APIs, acknowledging that not all of the data I need will be available via a straightforward data source.</p>
+
+<p><strong>Data API Templates</strong></p>
+
+<p>As I was working on mapping out the world of COVID-19 APIs I began seeing two specific approaches to producing valuable sets of data with accompanying APIs. I saw a significant amount of data spread across many domains in need of aggregation. I also saw a need for a light weight, easy to use, crowdsourced approach to aggregating data, refining, managing, and then redistributing it using APIs. So I got to work defining two distinct blueprints for data APIs that might be used to help reduce friction when it comes to more accurate data sharing across the COVID-19 pandemic.</p>
+
+<ul>
+  <li><strong>Google Sheets -</strong> Provide a Postman collection that allows any data stored within a Google Sheet to be pulled and published as an API using Postman, GitHub, AWS, or other service.</li>
+  <li><strong>Web Scraping</strong> - Provide a postman collection that harvests data stored on any website, aggregates and publishes it as an API using Postman, GitHub, AWS, or other service.</li>
+</ul>
+
+<p>I am trying to push myself to be more consistent in how I aggregate, define, refine, store, and syndicate data. I am also looking to share share these patterns with others so that they can do the same. I have thse blueprints established, but I do not have them properly narrated, and complete with instructions, so that someone else could pick up and put to work. I will be working on polishing them more as replicable collections that anyone can reverse engineer and apply to a specific data problem they have, hopefully helping folks be more collaborative and efficient at making COVID-19 related (and other) data available to the public.</p>
+
+<p><strong>What Is Next?</strong></p>
+
+<p>I am not 100% sure what is next. I am going to step back a bit and work on my regular work for a while, and let the ideas I’ve put forth simmer. Like any data project I have learned a lot along the way. I want to simmer for a bit on what I have learned. I think I have my process really honde for how I am deploying data APIs using Google Sheets, Postman, and GitHub. I’m just not convinced that I have the right ideas when it comes to what is needed when it comes to data sharing in support of the COVID-19 fight. I have jotted down some ideas about what I think I should tackle, but at this point I’m not 100% sure I have my finger on the pulse of what is needed—here is a short list.</p>
+
+<p><a href="https://covid-19-apis.postman.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_covid_response_3.png" alt="" /></a></p>
+
+<ul>
+  <li><strong>Federal Agencies Twitter &amp; RSS &amp; Data</strong> - Create the same collections I have for WHO, CDC, and others for the leading federal agencies making an impact.</li>
+  <li><strong>State Health Departments -</strong> Pull together a collection of the websites, Twitter accounts, and RSS feeds for the state health departments for all 50 states.</li>
+  <li><strong>County Health Departments -</strong> Pull together a collection of the websites, Twitter accounts, and RSS feeds for the county health departments for all 50 states.</li>
+  <li><strong>Corporate Statements / Announcements -</strong> Pull together a list of Fortune 500 companies, and where they announcement pages, feeds, and Twitter accounts are.</li>
+  <li><strong>K-12 / Higher Education School Statements / Announcements</strong> - Pull together a list of school distracts and their COVID-19 update pages and feeds.</li>
+  <li><strong>State Laws Being Passed</strong> - Pull lists of all laws being enacted by states in response to the COVID-19 pandemic, providing details on what is being done.</li>
+  <li><strong>Federal Laws Being Passed -</strong> Pull lists of all laws being enacted by the federal government in response to the COVID-19 pandemic, providing details on what is being done.</li>
+  <li><strong>Food Banks -</strong> Pull together lists of available food banks within local areas — this is most likely just a template that others can easily fork and put to work on their own.</li>
+  <li>Restaurant Open for Pickup - Pull together a list of local restaurants available for pickup — this is most likely just a template that others can easily fork and put to work on their own.</li>
+  <li><strong>Delivery APIs -</strong> Pull together a list of the delivery APIs, or other service economy APIs that can help with services on the ground within communities.</li>
+  <li><strong>Zapier, IFTTT -</strong> Brainstorm and develop lists of recipes and formulas that people can put together to help reduce friction in their lives, providing some useful API-driven solutions.</li>
+</ul>
+
+<p>I am adding to this list almost daily, but being pretty picky about what I actually tackle. It is pretty easy to fall prey to building something that isn’t needed, but on the other hand if it keeps me busy and distracted, there still might be value in doing. Beyond the prices, templates, and the different types of data I still have other areas I need to think about before moving to fast on any project. I have concerns around the provenance and trust of data being published, my own included. I have concerns around data always being publicly accessible, so I’m thinking about how to easily secure this data and allow for easier management of private spreadsheets, and other data sources. As always there are a lot of questions to be asked before I dive head first into new data project, despite the urgency we are al feeling in any particular moment.</p>
+
+<p>All of this work is being funded by Postman, as part of <a href="https://covid-19-apis.postman.com/">their COVID-19 API Resource Center</a>. Our CEO Abhinav Asthana (<a href="https://twitter.com/a85?lang=en">@a85</a>), and my boss Nick Tran (<a href="https://twitter.com/tranmanyo?lang=en">@tranmanyo</a>) have given me space to work on all of these collections, and my amazing design, front-end, and marketing teams are working daily to help shape the Postman response to COVID-19. Currently I’m working to crowdsource the Twitter accounts for all the county health depeartments across the US, which I am almost done with. Then I will publish 50 separate collections like the California County Healthy Department collection listed above. Beyond that, I’m not sure what is next. These collections are shaping how we are responding to the COVID-19 pandemic in real-time. Tuning into things via the Twitter API at the ground level is shaping what data we think is relevant to the conversation. Aggregating more information and data on testing locations, equipment and foot shortages, the availability of food banks and other resources seem like they are priorities. We’ll just keep tuning in to what we are hearing, and engaging with other technology service providers and non-profits to understand what type of data projects are really needed. Then I will focus my efforts based upon this response. If you have any ideas for projects, or need help on a data API project for your non-profit, <a href="https://covid-19-apis.postman.com/">feel free to reach out</a>.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Covid&searchFields=tags" class="post-tag me-2">#Covid</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>March 26, 2020</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

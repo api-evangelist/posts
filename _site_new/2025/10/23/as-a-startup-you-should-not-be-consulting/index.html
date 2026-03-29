@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>As a Startup You Should Not Be Consulting - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2025/10/23/as-a-startup-you-should-not-be-consulting/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="As a Startup You Should Not Be Consulting - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-fixing-satellite-2.jpeg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">As a Startup You Should Not Be Consulting</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>October 23, 2025</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span>Kin Lane</span>
+      </div>
+
+      
+      <img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-fixing-satellite-2.jpeg" alt="As a Startup You Should Not Be Consulting" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>A common refrain you hear from investors and advisors as you navigate the technology landscape is that it’s a bad idea to do consulting. I also hear that you should be selling as early as possible, but you should by no means be doing consulting. This isn’t new. It’s something I heard from folks throughout my time as API Evangelist, and it’s a battle I repeatedly lost at Postman as the Chief Evangelist. I’ve long understood the belief system behind it and have challenged it, but I wanted to think through it some more as I work to mount a new defense on the subject of helping your customers find their way while I also find my way, charging for the time and energy spent doing the work along the way.</p>
+
+<h4 id="educating-customers">Educating Customers</h4>
+<p>I remember Sam Ramji telling me after he interviewed me in 2015 or so, after Apigee had gone public and then been acquired by Google, thank you for my API Evangelist storytelling. He said that as a startup they were able to refer to my stories with their customers to help educate them. He added that they weren’t allowed to consult or heavily invest in the education, workshops, and consulting that their customers needed because their board wouldn’t prioritize it. I heard this from startup after startup during my time as API Evangelist, with only a handful of these startups ever sponsoring and supporting my work. I eventually got used to what a transactional and non-supportive space the API realm can be.</p>
+
+<h4 id="chief-evangelists">Chief Evangelists</h4>
+<p>API Evangelist played a more general role for the API industry between 2010 and 2019—helping educate everyone around what was going on with producing and consuming HTTP APIs. I translated this role into my time as Chief Evangelist at Postman, where I was the enterprise face of the platform with our customers and would-be customers. This is a role you see emerge at many different types of technology companies, but it’s one that continues to educate and guide customers in whatever area they need. Evangelists deal in expertise, but mostly in stories and strategy guidance, helping companies, organizations, institutions, and government agencies find their way in the world of digital technology.</p>
+
+<h4 id="developer-relations">Developer Relations</h4>
+<p>There are plenty of debates around what the difference is between an evangelist and a developer advocate or developer relations specialist. I see evangelists as broader and speaking usually from the top down, where DevRel is all about speaking more precisely and from the bottom up. Having developer relations is essential for any product-led motion, helping educate and engage with the developers who are in the trenches, providing the stories, artifacts, and tooling they need to be successful in their work. In developer relations workshops and trainings you end up providing a lot of the hands-on knowledge that’s needed to move businesses forward, often filling in the gap left behind when companies neglect to properly invest in developer education and training, while also focusing on the products and services a company is purchasing (or not) and putting to use across operations.</p>
+
+<h4 id="sales-engineers">Sales Engineers</h4>
+<p>Sales engineers bridge the gap between sales and technical expertise by explaining complex products to customers, preparing and delivering technical presentations, and providing sales support. They work with sales teams to understand customer needs, identify pain points, and ensure the proposed solution meets the client’s technical and business requirements. As a Chief Evangelist and Head of DevRel, it’s important that this work is aligned with the stories you’re telling, and that feedback and insight from these conversations are considered as part of your overall product roadmap, go-to-market strategy, as well as any ongoing way that you’re engaging with your customers, gathering insights early on in the sales cycle, and using it to inform everything else along the way.</p>
+
+<h4 id="solutions-architects">Solutions Architects</h4>
+<p>Solutions architects design and oversee the implementation of technical solutions to meet business needs by translating business requirements into technical blueprints. They collaborate with stakeholders to define project scope, evaluate technology options, and ensure the final solution is secure, scalable, and meets objectives—communicating complex technical details to both technical and non-technical audiences and managing project progress. The key difference here is that solutions architects are post-sales, where sales engineers are pre-sales, but there should be synergy between the two roles. As I said before, this is work that should be used to inform other functions. This is where I begin to question things, because most investors will tell you to invest here but not invest in professional services and consulting—without much guidance on what the difference is and why.</p>
+
+<h4 id="professional-services">Professional Services</h4>
+<p>Professional services for a company are expert-based, knowledge-based, and non-physical services that help businesses operate, grow, and improve. They’re provided by firms or individuals with specialized skills, rather than by selling a physical product. This is a grey area when it comes to startups. Some companies have professional services groups but many do not. We saw companies like OpenAI go all in here, but again you don’t hear the nuance of the difference between sales engineers, solutions architects, and professional services from people who are telling you not to get too involved in this work. I fought for a professional services group at Postman the whole time I was there and repeatedly lost the battle every time I pushed for it. My desire was mostly to scale myself, but I was told at every corner that it was a quagmire despite me being flown around the world to do the work.</p>
+
+<h4 id="value-added-resellers-vars">Value-Added Resellers (VARs)</h4>
+<p>In the IT channel, value-added resellers, or VARs, are organizations that enhance the value of third-party products, such as original technology from our vendors, through activities, services and features like installation, providing additional hardware, consultation services, integration, product support and troubleshooting, and much more. This is an area that startups should be cultivating and building relationships with over time. They provide a great doorway into enterprises, but sadly I don’t find them always up to speed on the latest API practices, and they tend to focus on the more entrenched software solutions and don’t always represent the long tail of SaaS that I’m working with companies to put to work in any sort of concerted way.</p>
+
+<h4 id="systems-integrators-sis">Systems Integrators (SIs)</h4>
+<p>A Systems Integrator, or SI, plays a similar role to that of a VAR in that they combine the hardware and software from vendors, with the key difference being that many SI solutions are new and custom-built for a specific end user. When it comes to stitching together many SaaS or open-source solutions, this is an important area of investment as a company. How your software and the software you’re building upon work in concert is important, and having a trusted external organization or group of organizations available to do this work is a key part of any startup strategy. I feel this reflects where the whole VAR space will head and will continue to be shaped by APIs and open source.</p>
+
+<h4 id="managed-service-providers-msps">Managed Service Providers (MSPs)</h4>
+<p>Managed Service Providers, or MSPs, are another one where the principle is directly in its name. An MSP is an organization that delivers outsourced services in conjunction with the hardware and software solution being provided to an end user. MSPs are taking the software that’s in use and providing a more white-glove and high-touch approach. This is a great way to offload the expertise needed to another company. I predict that MSPs for open-source and sovereign solutions will continue to emerge as an important selling point for large global enterprises who operate in specific markets. Along with these managed services you get a lot of the expertise that’s lacking in your average enterprise.</p>
+
+<h4 id="independent-software-vendors-isvs">Independent Software Vendors (ISVs)</h4>
+<p>ISVs are often able to consolidate specialized areas of the martech stack to offer options to customers to help them complete their software requirements. Often, you’ll find that major hardware vendors help out ISVs by rewarding the software vendors that make top-quality, compatible programs with valuable certifications. I need to do more research into how ISVs are operating so that I can understand how it overlaps with APIs and SaaS. I also don’t fully understand the separation between MSPs and ISVs, but this is why I’m doing this writing—to help lay out the landscape, then do more work to understand how things work today, but also how it will work as cloud, SaaS, and AI continue to shape the landscape around us.</p>
+
+<h4 id="consultants">Consultants</h4>
+<p>Here is where we get closer to what I think people telling me we shouldn’t do are coming from. Your average enterprise is likely doing business with management, strategy, IT, digital transformation, cybersecurity, data analytics, business process, financial, human resources, organizational change, operations, supply chain, marketing, sales, compliance, risk management, merger and acquisition, tax, legal, environmental, sustainability, real estate, executive search, training, development, and quality assurance consultants. My question is how does this map to SaaS, and how does it overlap with evangelists, DevRel, sales engineers, solutions architects, professional services, VARs, SIs, MSPs, and ISVs? I’m not just going into open-ended consulting arrangements with our customers, and I will need to have a strategy that overlaps with all of these areas to define what is “consulting” or “professional services” and push back on folks who are telling me I shouldn’t be investing in this area.</p>
+
+<h4 id="domain-experts">Domain Experts</h4>
+<p>I want to make sure and bring in the ecosystem aspect of what Naftiko is doing here. We have an open-source core, which isn’t just about standards and tooling, but also domain experts. The ecosystem surrounding open-source standards and tooling is full of domain experts who know their stuff. Companies are tapping this expertise daily, but like open-source standards and tooling—this is not being accounted for. The knowledge, practices, and processes of these domain experts are part of every player I’ve listed above, but also an area I am NOT told I shouldn’t be doing. I should definitely be tapping into the time and energy of these domain experts. I just shouldn’t be paying them—which brings me back around to what Sam Ramji of Apigee and others have told me. This is why I’m getting to the core of this discussion, because open source and open ecosystems are at the core of why we’re being told NOT to do consulting. I aim to crack this open more in 2026.</p>
+
+<h4 id="pundits">Pundits</h4>
+<p>I would be irresponsible if I didn’t mention all the pundits out there telling people what to do. These range from actual analysts who know what they’re doing to transient homeless snake oil salesmen who wheel their little wooden wagons to conferences and social media revivals to tell their stories. This is where most enterprises get their information. In workplaces where there aren’t heavy investments in education, training, and skills development, you find a huge appetite for the information this class of pundit is putting out there. I talk trash on this layer, but honestly, I put API Evangelist in this category. I’m first and foremost a storyteller. I just believe my stories to be truer and healthier. I’ve learned throughout this AI phase that many others feel the same about their work, despite evidence to the contrary. But if enterprises are listening to these stories, I have to consider them as part of this landscape.</p>
+
+<h4 id="guiding-naftiko-customers">Guiding Naftiko Customers</h4>
+<p>This leads me to why I wrote this post. I’m determined to guide Naftiko customers in all the ways I have as API Evangelist and Chief Evangelist at Postman. I’m determined to win my arguments with investors, advisors, and others who tell me that selling “consulting” services is a bad idea. I want the evidence to educate and defend what I’m doing. I also want to open source what I’m doing. I want to piss off all the people who gatekeep and police the knowledge and practices that exist in this dimension. I want domain experts to make the money they need to survive. I want to help folks on the ground floor of enterprises get the knowledge, practices, standards, and tooling they need to be successful despite their leadership not wanting to properly invest in these areas.</p>
+
+<p>I’m not going into the development of Naftiko marketing, sales, developer relations, sales engineering, and solutions architecting without a plan. I intend on cultivating my understanding and relationships with VARs, SIs, MSPs, and ISVs. I will continue historic work with EY, Deloitte, and others. I will continue my historic work with Gartner, G2, and other analysts. I will keep hustling with my snake oil brothers at conferences and via rest areas along the information superhighway. I will convince more investors to help invest in open source and the domain experts across every industry. I’m determined to tap into the signals coming out of companies, organizations, institutions, and government agencies, while simultaneously incentivizing those within them to share signals around what they’re doing and what they need. I’m not sure what I will ultimately call this effort at Naftiko, but it will span all of these areas I’ve listed.</p>
+
+<p>A couple of things I’ve learned here. I just don’t think many folks are thinking about the entire landscape of getting what you need as a startup from your customers and soon-to-be customers, while providing them with what they need. I think folks are captivated by stories of scale at all cost, then honestly counfounded by why they are able to scale to a certain point and unable to go further. Without the feedback loops in place across these areas you become stuck. we hear the stories of consulting being bad so often over the years we retell it without much consideration for the overall landscape as well as where we are at with distributed open-source systems. Granted, there are plenty of times I should not be consulting and taking in money by the hour, but there are plenty of times when it will benefit both parties involved. Ultimately the lesson here for me is to know the when we should and when we shouldn’t, while also being honest about what we take and contribute from the open ecosystem along the way.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Consulting&searchFields=tags" class="post-tag me-2">#Consulting</a>
+        
+          <a href="/search/?search=Professional Services&searchFields=tags" class="post-tag me-2">#Professional Services</a>
+        
+          <a href="/search/?search=Evanglism&searchFields=tags" class="post-tag me-2">#Evanglism</a>
+        
+          <a href="/search/?search=Developmer Relations&searchFields=tags" class="post-tag me-2">#Developmer Relations</a>
+        
+          <a href="/search/?search=Sales Engineers&searchFields=tags" class="post-tag me-2">#Sales Engineers</a>
+        
+          <a href="/search/?search=Solution Architects&searchFields=tags" class="post-tag me-2">#Solution Architects</a>
+        
+          <a href="/search/?search=Value-Added Resellers&searchFields=tags" class="post-tag me-2">#Value-Added Resellers</a>
+        
+          <a href="/search/?search=Systems Integrators&searchFields=tags" class="post-tag me-2">#Systems Integrators</a>
+        
+          <a href="/search/?search=Managed Service Providers&searchFields=tags" class="post-tag me-2">#Managed Service Providers</a>
+        
+          <a href="/search/?search=Independent Software Vendors&searchFields=tags" class="post-tag me-2">#Independent Software Vendors</a>
+        
+          <a href="/search/?search=Consultants&searchFields=tags" class="post-tag me-2">#Consultants</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>October 23, 2025</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success">Kin Lane</span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

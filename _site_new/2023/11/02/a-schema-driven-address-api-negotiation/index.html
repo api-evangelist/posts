@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>A Schema-Driven Address API Negotiation - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2023/11/02/a-schema-driven-address-api-negotiation/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="A Schema-Driven Address API Negotiation - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-working-on-railroad-1.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">A Schema-Driven Address API Negotiation</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>November  2, 2023</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-working-on-railroad-1.jpg" alt="A Schema-Driven Address API Negotiation" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I recently finished <a href="https://us.macmillan.com/books/9780374602543/democracysdata">Democracy’s Data, The Hidden Stories in the U.S. Census and How to Read Them</a>, and the book was the closest thing to capturing how I see the Application Programming Interface, or simply the API. I regularly get frustrated with my role in the API universe because of the conflicting force’s between not just API producer and consumer, but also the API service and tooling providers, and the investors who do or do not support them. I am fascinated with this intersection, but also repeatedly horrified by what occurs at this intersection at scale online today.</p>
+
+<p>I study APIs not because I think there is a single right way or wrong way to do APIs. I study them because they are shaping who we are at scale within each moment of our increasingly online lives. APIs are defining who we are, and our usage of web and mobile applications like Facebook, TikTok, Instagram, and others are allowing API producers to shape who we are, and while we have some control within these digital templates to still be human, increasingly so much of what shapes us is decided very far out of our control. Like in the United States Census in Democracy’s data, I see stories in the API cracks I see just beneath the surface of our online lives, and this is my attempt to tell a single story about our perpetual negotiation of where we are in the world, which used to determined by our physical home, as described in Democracy’s Data, but increasingly is a real-time mix of IP addresses bound to longitude and latitude.</p>
+
+<h2 id="lets-begin-with-our-address">Let’s Begin with Our Address</h2>
+<p>Let’s begin this journey with the negotiation of what is in the world which is within our control. Something we regularly negotiate online and offline—our address. Our address seems like a pretty straightforward thing to many of us, but if you’ve worked on a census, for any global business, or other complicated human scenarios, you know it is anything but straightforward. For me, the address represents so much about who we are in the world, which is something that has been evolved and abused significantly in an always online world.</p>
+
+<h2 id="a-machine-readable-contract">A Machine-Readable Contract</h2>
+<p>In the world of APIs we have what is called the OpenAPI specification for describing the surface area of APIs. This YAML or JSON definition is used to describe an API for generating documentation and software development kits, but for me it is first and foremost about describing the surface area of the APIs that are governing our lives so that we can have a conversation about them. So, for this exercise I am going to use OpenAPI to describe and narrate the negotiation that occurs around where we are in the world. Instead of walking through each element of our Where We Are in the World API, I’ll start with this base definition.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># A machine and human readable contract.
+openapi: 3.0.0
+info:
+
+    # Title and description of what we are defining.
+    title: 'Where We Are In The World'
+    description: 'This is an OpenAPI contract for negotiating an address.'
+
+    # How we communicate changes.
+    version: 1.0.0
+
+    # Who is doing this work?
+    contact:
+      name: Kin Lane
+      url: https://apievangelist.com
+      email: info@kinlane.com
+
+    # Legal
+    license:
+      name: Attribution 4.0 International (CC BY 4.0)
+      url: 'https://creativecommons.org/licenses/by/4.0/'
+
+# Tags for organizing these thoughts and interfaces.
+tags:
+
+  # A general descriptor of what is an address
+  - name: Address
+    description: 'The particulars of the place where someone lives or an organization is situated.'
+
+# The ways in which this is accessed.
+paths: {}
+
+# These are centralized components referenced and reused across this definition.
+components:
+
+  examples:
+
+    Address:
+      description: A basic example of an address.
+      value:
+        address: 123 Main Street.
+
+  # JSON Schema used to validate objects.
+  schemas:
+
+    Address:
+      type: object
+      description: 'Our address object.'
+      properties: 	
+        address: 
+          type: string
+          description: 'This is the address.'
+
+</code></pre></div></div>
+<p>My goal here is to define an API that could be used to power a contact form on a website, or many contact forms across many websites. However, I do not have any paths, or even a base URL for my API. At this point I just want to use this as a contract for defining an address, providing a machine and human readable way to collaborate and iterate on what an address means — ensuring we are all on the same page. First, OpenAPI provides me with a way of defining the basics, like the name and description of my API, but also who to contact, and license being applied. I have added a single tag, but there are no paths, and I am mostly interested in fleshing out what an address is using the components object, using an example, but then also ensuring their is a JSON Schema for my example—-showing what an address is, while also articulating the shape of an address in a precise way.</p>
+
+<h2 id="iterating-upon-our-address">Iterating Upon Our Address</h2>
+<p>Right after establishing the baseline for our address, it becomes clear that we will need more structure to our definition to make it support our needs. We need more than just the street, and we don’t want to just pack everything into an address. We need a city, state or province, a zip code, and country. As soon as I suggest a country, I immediately realize that zip code won’t work, and change my property to be postal code. To help articulate my changes I update the example and the supporting schema to reflect my intent—helping everyone else on my team get on the same page.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># A machine and human readable contract.
+openapi: 3.0.0
+info:
+
+    # Title and description of what we are defining.
+    title: 'Where We Are In The World'
+    description: 'This is an OpenAPI contract for negotiating an address.'
+
+    # How we communicate changes.
+    version: 1.1.0
+
+    # Who is doing this work?
+    contact:
+      name: Kin Lane
+      url: https://apievangelist.com
+      email: info@kinlane.com
+
+    # Legal
+    license:
+      name: Attribution 4.0 International (CC BY 4.0)
+      url: 'https://creativecommons.org/licenses/by/4.0/'
+
+# Tags for organizing these thoughts and interfaces.
+tags:
+
+  - name: Address
+    description: 'The particulars of the place where someone lives or an organization is situated.'
+  - name: Countries
+    description: 'Expanding beyond just a single location, and placing each address within a country.'
+
+# The ways in which this is accessed.
+paths: {}
+
+# These are centralized components referenced and reused across this definition.
+components:
+
+  examples:
+
+    Address:
+      description: A basic example of an address.
+      value:
+        address: 123 Main Street.
+        city: New York
+        province: New York
+        postalCode: 10019
+        country: United States
+
+  # JSON Schema used to validate objects.
+  schemas:
+
+    Address:
+      type: object
+      description: 'Our address object.'
+      properties:   
+        address: 
+          type: string
+          description: 'This is the address.'
+        city: 
+          type: string
+          description: 'This is the city.'
+        province: 
+          type: string
+          description: 'This is the state or province.'
+        postalCode: 
+          type: string
+          description: 'This is the postal code.'        
+        country: 
+          type: string
+          description: 'This is the country.'                                  
+</code></pre></div></div>
+<p>I am pretending like I have a group of people negotiating this address API–taking a schema-driven approach to designing an API, and negotiating changes, expands the value of the API by adding constraints like country, which influences our zip and postal code property. Our examples and schema provide a precise way for us to articulate, iterate, and expand on our address API, in a collaborative way. This is an API contract. Everyone involved is getting to negotiate what an address is, from the team producing, to the developers consuming, and even the end-users of applications that will put the address API to use.</p>
+
+<h1 id="constraining-the-shape-of-our-address">Constraining the Shape of Our Address</h1>
+<p>Before we agree on this definition of the object we will return using our address object, we want to not just define the name, but also the shape of our address properties. Our address, city, province, postalCode, and country are all strings, but let’s narrow this down further using the JSON Schema properties of our OpenAPI contract. These additional constraints can be used by the gateway we use to deploy our API, as well as the applications using the API to validate the input of addresses into our API.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># A machine and human readable contract.
+openapi: 3.0.0
+info:
+
+    # Title and description of what we are defining.
+    title: 'Where We Are In The World'
+    description: 'This is an OpenAPI contract for negotiating an address.'
+
+    # How we communicate changes.
+    version: 1.2.0
+
+    # Who is doing this work?
+    contact:
+      name: Kin Lane
+      url: https://apievangelist.com
+      email: info@kinlane.com
+
+    # Legal
+    license:
+      name: Attribution 4.0 International (CC BY 4.0)
+      url: 'https://creativecommons.org/licenses/by/4.0/'
+
+# Tags for organizing these thoughts and interfaces.
+tags:
+
+  # A general descriptor of what is an address
+  - name: Address
+    description: 'The particulars of the place where someone lives or an organization is situated.'
+
+# The ways in which this is accessed.
+paths: {}               
+
+# These are centralized components referenced and reused across this definition.
+components:
+
+  examples:
+
+    Address:
+      description: A basic example of an address.
+      value:
+        address: 123 Main Street.
+        city: New York
+        province: New York
+        postalCode: 10019
+        country: United States
+
+  # JSON Schema used to validate objects.
+  schemas:
+
+    Addresses:
+      type: array
+      items:
+        $ref: "#/components/schemas/Address"
+
+    Address:
+      type: object
+      description: 'Our address object.'
+      properties: 	
+        address: 
+          type: string
+          description: 'This is the address.'
+          pattern: '^(\d{1,}) [a-zA-Z0-9\s]+(\,)? [a-zA-Z]+(\,)? [A-Z]{2} [0-9]{5,6}$'
+          minimum: 5
+          maximum: 100
+        city: 
+          type: string
+          description: 'This is the city.'
+          pattern: '^[a-zA-Z.-]+(?:[\s-][\/a-zA-Z.]+)*$'
+          minimum: 5
+          maximum: 50          
+        province: 
+          type: string
+          description: 'This is the state or province.'
+          pattern: '/^[a-zA-Z0-9 ]*$/'
+          minimum: 5
+          maximum: 50          
+        postalCode: 
+          type: string
+          description: 'This is the postal code.'   
+          pattern: '/^[a-zA-Z0-9 ]*$/'     
+          minimum: 5
+          maximum: 25          
+        country: 
+          type: string
+          description: 'This is the country.'
+          pattern: '/^[a-zA-Z0-9 ]*$/' 
+          minimum: 5
+          maximum: 50                                            
+</code></pre></div></div>
+<p>Now we have a regular expression (regex), as well as a minimum and maximum length for each of our address properties. This gives more shape to our address object, constraining the properties in a way that can be validated by gateways, user interfaces, and anywhere else you can run AJV (Another JSON Schema Validator). Additionally, we can validate our entire OpenAPI contract for our address API using the JSON Schema for the OpenAPI specification. This schema-driven approach keeps our address negotiation more structured, precise, and machine-readable, ensuring that we keep addresses as clean as possible in our API.</p>
+
+<h2 id="retrieving-our-addresses-using-an-api">Retrieving Our Addresses Using an API</h2>
+<p>Now we are ready to add an API path for accessing our addresses. This path can be appended to the HTTP URL for our API, allowing a JSON list of addresses to be returned. Our API uses HTTP to access our addresses, returning valid JSON according to our specification. Our single API operation references the JSON Schema iterated upon, returning an array of valid addresses, along with a 200 HTTP status code signaling a successful API call.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># A machine and human readable contract.
+openapi: 3.0.0
+info:
+
+    # Title and description of what we are defining.
+    title: 'Where We Are In The World'
+    description: 'This is an OpenAPI contract for negotiating an address.'
+
+    # How we communicate changes.
+    version: 1.3.0
+
+    # Who is doing this work?
+    contact:
+      name: Kin Lane
+      url: https://apievangelist.com
+      email: info@kinlane.com
+
+    # Legal
+    license:
+      name: Attribution 4.0 International (CC BY 4.0)
+      url: 'https://creativecommons.org/licenses/by/4.0/'
+
+# Tags for organizing these thoughts and interfaces.
+tags:
+
+  # A general descriptor of what is an address
+  - name: Address
+    description: 'The particulars of the place where someone lives or an organization is situated.'
+
+# The ways in which this is accessed.
+paths:
+
+  '/addresses':
+  
+    get:
+      operationId: getAddresses
+      summary: Addresses
+      description: 'Returns a list of addresses.'
+  
+      tags:
+  
+        - Address
+  
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Addresses"
+              example:
+                value:
+                  address: 123 Main Street.
+                  city: New York
+                  province: New York
+                  postalCode: 10019
+                  country: United States                
+
+# These are centralized components referenced and reused across this definition.
+components:
+
+  examples:
+
+    Address:
+      description: A basic example of an address.
+      value:
+        address: 123 Main Street.
+        city: New York
+        province: New York
+        postalCode: 10019
+        country: United States
+
+  # JSON Schema used to validate objects.
+  schemas:
+
+    Addresses:
+      type: array
+      items:
+        $ref: "#/components/schemas/Address"
+
+    Address:
+      type: object
+      description: 'Our address object.'
+      properties: 	
+        address: 
+          type: string
+          description: 'This is the address.'
+          pattern: '^(\d{1,}) [a-zA-Z0-9\s]+(\,)? [a-zA-Z]+(\,)? [A-Z]{2} [0-9]{5,6}$'
+          minimum: 5
+          maximum: 100
+        city: 
+          type: string
+          description: 'This is the city.'
+          pattern: '^[a-zA-Z.-]+(?:[\s-][\/a-zA-Z.]+)*$'
+          minimum: 5
+          maximum: 50          
+        province: 
+          type: string
+          description: 'This is the state or province.'
+          pattern: '/^[a-zA-Z0-9 ]*$/'
+          minimum: 5
+          maximum: 50          
+        postalCode: 
+          type: string
+          description: 'This is the postal code.'   
+          pattern: '/^[a-zA-Z0-9 ]*$/'     
+          minimum: 5
+          maximum: 25          
+        country: 
+          type: string
+          description: 'This is the country.'
+          pattern: '/^[a-zA-Z0-9 ]*$/' 
+          minimum: 5
+          maximum: 50                                             
+</code></pre></div></div>
+<p>Now we have an API. It is a simple example of the power of JSON Schema and OpenAPI. This API can now be mocked using a variety of commercial and open source tools, utilizing the example to emulate the behavior of our API. Since our API is defined as an OpenAPI you can easily render using common commercial and open source API documentation tooling. We have an API contract, documentation, and mocked implementation of our API, which we can use to further iterate on our API, and collaborate with our team, potential consumers, as well as end-users of the applications who put the API to work.</p>
+
+<h2 id="create-read-update-and-delete-crud">Create, Read, Update, and Delete (CRUD)</h2>
+<p>To put the finishing touches on our API, we want the ability to not just read addresses, but we also need to create, update, and delete addresses. HTTP provides us with a handful of HTTP methods for articulating a create with POST, updated with PUT, and delete with, well DELETE. This will expand our API to have two separate paths, with a total of five operations that round off our address API into something that is pretty valuable to application developers.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># A machine and human readable contract.
+openapi: 3.0.0
+info:
+
+    # Title and description of what we are defining.
+    title: 'Where We Are In The World'
+    description: 'This is an OpenAPI contract for negotiating an address.'
+
+    # How we communicate changes.
+    version: 1.4.0
+
+    # Who is doing this work?
+    contact:
+      name: Kin Lane
+      url: https://apievangelist.com
+      email: info@kinlane.com
+
+    # Legal
+    license:
+      name: Attribution 4.0 International (CC BY 4.0)
+      url: 'https://creativecommons.org/licenses/by/4.0/'
+
+# Tags for organizing these thoughts and interfaces.
+tags:
+
+  # A general descriptor of what is an address
+  - name: Address
+    description: 'The particulars of the place where someone lives or an organization is situated.'
+
+# The ways in which this is accessed.
+paths:
+
+  '/addresses':
+  
+    get:
+      operationId: getAddresses
+      summary: Addresses
+      description: 'Returns a list of addresses.'
+  
+      tags:
+  
+        - Address
+  
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Addresses"
+              example:
+                value:
+                  - addressId: 1
+                    address: 123 Main Street.
+                    city: New York
+                    province: New York
+                    postalCode: 10019
+                    country: United States  
+
+    post:
+
+      summary: Add Address
+      description: 'Adds a new address.'
+      operationId: addAddress
+
+      tags:
+
+        - Address
+
+      requestBody:
+      
+        $ref: "#/components/requestBodies/Address"
+
+      responses:
+        "201":
+          description: Successfully Added
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Address"                                
+
+  '/addresses/{addressId}':
+  
+    get:
+      operationId: getAddress
+      summary: Retrieve Address
+      description: 'Returns a single address.'
+
+      parameters:
+
+        - name: addressId
+          description: 'The unique address id.'       
+          in: path
+          required: true
+          schema:
+            type: string      
+  
+      tags:
+  
+        - Address
+  
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Address"
+              example:
+                value:
+                  addressId: 1
+                  address: 123 Main Street.
+                  city: New York
+                  province: New York
+                  postalCode: 10019
+                  country: United States 
+
+    put:
+
+      summary: Update Address
+      description: 'Updates an address.'
+      operationId: updateAddress
+
+      parameters:
+
+        - name: addressId
+          description: 'The unique address id.'       
+          in: path
+          required: true
+          schema:
+            type: string        
+
+      tags:
+
+        - Address
+
+      requestBody:
+        $ref: "#/components/requestBodies/Address"
+        
+      responses:
+        "204":
+          description: Successfully Added
+
+    delete:
+
+      summary: Delete Address
+      description: 'Deletes an address.'
+      operationId: deleteAddress
+
+      parameters:
+
+        - name: addressId
+          description: 'The unique address id.'       
+          in: path
+          required: true
+          schema:
+            type: string        
+
+      tags:
+
+        - Address
+        
+      responses:
+        "204":
+          description: Successfully Added          
+
+# These are centralized components referenced and reused across this definition.
+components:
+
+  # The Request Body for Address
+  requestBodies:
+
+    Address:
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Address"
+      required: true  
+
+  # Example JSON of Address
+  examples:
+
+    Address:
+      description: A basic example of an address.
+      value:
+        addressId: 1
+        address: 123 Main Street.
+        city: New York
+        province: New York
+        postalCode: 10019
+        country: United States
+
+  # JSON Schema used to validate objects.
+  schemas:
+
+    Addresses:
+      type: array
+      items:
+        $ref: "#/components/schemas/Address"
+
+    Address:
+      type: object
+      description: 'Our address object.'
+      properties: 	
+        address: 
+          type: string
+          description: 'This is the address.'
+          pattern: '^(\d{1,}) [a-zA-Z0-9\s]+(\,)? [a-zA-Z]+(\,)? [A-Z]{2} [0-9]{5,6}$'
+          minimum: 5
+          maximum: 100
+        city: 
+          type: string
+          description: 'This is the city.'
+          pattern: '^[a-zA-Z.-]+(?:[\s-][\/a-zA-Z.]+)*$'
+          minimum: 5
+          maximum: 50          
+        province: 
+          type: string
+          description: 'This is the state or province.'
+          pattern: '/^[a-zA-Z0-9 ]*$/'
+          minimum: 5
+          maximum: 50          
+        postalCode: 
+          type: string
+          description: 'This is the postal code.'   
+          pattern: '/^[a-zA-Z0-9 ]*$/'     
+          minimum: 5
+          maximum: 25          
+        country: 
+          type: string
+          description: 'This is the country.'
+          pattern: '/^[a-zA-Z0-9 ]*$/' 
+          minimum: 5
+          maximum: 50                                             
+</code></pre></div></div>
+<p>There are a number of other things we need to do to prepare our API for development, such as adding 400, 404, and 500 error responses for our APIs, but this provides us with a base contract for our API. We can develop and deploy our API, use our contract for documentation, but also as a baseline for ongoing negotiations with developers building applications, but also end-users of applications. This OpenAPI provides a precise way to articulate what creating, reading, updating, and deleting addresses mean, but also adding new properties such as address2, longitude, latitude, and introducing new paths and operations for handling directions and other address enabled capabilities.</p>
+
+<h2 id="a-record-of-negotiations">A Record of Negotiations</h2>
+<p>The [Semantic Versioning[(https://semver.org/)] that OpenAPI provides, allows us to articulate which version of OpenAPI we are using, which also defines which version of JSON Schema we are using, as well as communicate the change of our address schema and API. I am exploring other ways of documenting the actual negotiations of our API contract, providing the reason behind the addition of paths, operations, schema, and properties. I am also thinking about how OpenAPI can record suggestions for changes by API designers, architects, or even developers and end-users. I am looking to add a change management extension layer to OpenAPI, or possibly some sort of change management overlay using an <a href="https://apisjson.org/">APIs.json</a>.</p>
+
+<p>I am getting better at documenting my own APIs using this approach. While I am not technically documenting the negotiation of anything when an API is designed, developed, and deployed by a team of one. I am documenting change and recording the provenance of why I made certain decisions, which helps me out down the road when I go to iterate on an API I haven’t touched in a while. Everything I need is right there. Plus there is a way to hang issues and feedback from consumers and end-users, so I can rapidly gather what is needed to iterate on my API in more meaningful ways. All of this is why I use OpenAPI and JSON Schema. Sure, the documentation and mock servers are a nice benefit of a schema-driven approach, but it really is the structure and constraints of delivering APIs using a contract. It just helps me stay on my game, and deliver APIs that are consistent, robust, and useful to consumers.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Schema&searchFields=tags" class="post-tag me-2">#Schema</a>
+        
+          <a href="/search/?search=OpenAPI&searchFields=tags" class="post-tag me-2">#OpenAPI</a>
+        
+          <a href="/search/?search=APIs.json&searchFields=tags" class="post-tag me-2">#APIs.json</a>
+        
+          <a href="/search/?search=Contracts&searchFields=tags" class="post-tag me-2">#Contracts</a>
+        
+          <a href="/search/?search=Design&searchFields=tags" class="post-tag me-2">#Design</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>November  2, 2023</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

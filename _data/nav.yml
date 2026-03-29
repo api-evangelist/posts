@@ -1,14 +1,14 @@
 - name: API Learnings
   nav:
 
-    - name: Posts
+    - name: Stories
       symbol: auto_stories
       sub:
 
         - name: Categories
           href: https://apievangelist.com/categories
 
-        - name: Posts
+        - name: Stories
           href: https://apievangelist.com/2026/       
 
 

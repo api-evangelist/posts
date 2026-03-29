@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Thinking About Data and API Governance As Well As Observability - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2019/11/11/thinking-about-data-and-api-governance-as-well-as-observability/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Thinking About Data and API Governance As Well As Observability - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/35201856153_61bc075e4b-nazi-invasion.jpg">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">Thinking About Data and API Governance As Well As Observability</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>November 11, 2019</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/35201856153_61bc075e4b-nazi-invasion.jpg" alt="Thinking About Data and API Governance As Well As Observability" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center;">
+  <a href="https://apievangelist.com/#knowledge">Join Our Weekly API Governance Knowledge Bulding Sessions</a>
+</div>
+<p>I just got back to Seattle from Washington DC after spending a day talking about data governance at <a href="https://www.governingdata.org/">the Data Governance Design Conference</a>. I thoroughly enjoyed the on-stage discussions as well as the hallway, and cocktail party conversation around the increasing importance of the governance of data online. I have a notebook full of thoughts from the event, and a head full of ideas after a plane ride home. I’ll be doing some more writing on the subject, but I wanted to lay the foundation of how I see the world of data governance, which is a much more technical view of things, but also overlaps nicely with the policy view of the landscape I just experienced.</p>
+
+<p>The group participating in the #DGDC discussions were much more focused on the important big picture elements, and the human call to action when it comes to data governance. I learned a lot listening to these smart folks share their expertise on the world stage, and I mostly just listened and absorbed what was going on around me, occasionally sharing a bit of perspective from my view of the landscape. I have a much more technical view of the landscape, but I am captivated by the policy level discussions that were going on, which are much more closer to what I consider to be the human side of the discussion, and how laws are made to dictate what happens or doesn’t happens in countries around the globe. Coming out of the discussion I wanted to flesh out the building blocks of my technical view of the landscape, and re-evaluate them in terms of what I have heard at the event.</p>
+
+<h3 id="bringing-apis-to-the-data-governance-discussion">Bringing APIs To The Data Governance Discussion</h3>
+
+<p>This was a data governance discussion, but of course I’m going to bring the API to the table. You can’t talk data governance without talking APIs. Data is the valuable resource(s) being created, passed around, and put to use—APIs are how it is passed around and put to use. APIs are how Facebook, Twitter, and Google creates, manages, and shares the data they have via applications and 3rd party systems. APIs are how these platforms are accessed and scaled. APIs are the layer that any data governance approach will have to be realized, injecting governance between how several different actors interests are protected and policed. APIs aren’t something new to bring into the discussion, they are already the conduit for how applications are being delivered, making them the layer we need to understand when it comes to applying sensible data governance from within the firewall, or externally from within regulatory bodies.</p>
+
+<h3 id="who-are-the-actors-on-this-data-governance-stage">Who Are The Actors On This Data Governance Stage</h3>
+
+<p>To set the stage I wanted to describe the different actors that need to be involved in these data governance discussions, making sure there are considerations, policy, and tooling in place that governs this production already in motion. When it comes to API access to the valuable data and resources we are trying to govern, a clear set of actors have emerged that we will need to make sure have a seat at the table, and are part of the data governance discussions happening—including, but not limited to this primary buckets of actors.</p>
+
+<ul>
+  <li><strong>Provider</strong> - The platform provider, making sure the Twitters, Facebooks, Googles, and other platform providers are active and willing particpants in data governance conversation whether they want to be there or not.</li>
+  <li><strong>3rd Party</strong> - Ensuring that ALL 3rd party consumers and developers of platform data are accounted for, have a seat at the table, and are held accountable when it comes to putting valuable data to work across the web.</li>
+  <li><strong>End-User</strong> - Making sure ALL end-users are represented, ensuring that the human beings most impacted by all of this data are well represented, making sure the full spectrum of people are represented, and not just a select few.</li>
+  <li><strong>Regulator</strong> - Acknowledging that there is an increasing regulatory role in this discussion, and making sure regulators have the knowledge, skills, and access to do what they need to do from a municipal, state, and federal view.</li>
+  <li><strong>Law Enforcement</strong> - Going one step beyond the regulatory and looking at the enforcement side of the conversation, making sure law enforcement has the access they need, but are also just as accountable as all other actors.</li>
+  <li><strong>Researcher</strong> - Ensuring there is trusted researcher and press access to the data governance conversation, allowing for Universities, media, and other entities to participate in the analysis of data, and the API pipes the data is accessed through. </li>
+</ul>
+
+<p>All of these actors are already using the Twitter, Facebook, and Google APIs to do what they do. I’d say the regulator, law enforcement, and research roles are the least define here, but they are actively using APIs to adapt to the new landscape, whether it is directly via APIs, or via applications built on top of the APIs. Modern API infrastructure is currently serving all of the needs of these actors, but is currently not doing it in a structured approach with data governance in mind. Data governance already exists, but the deck is heavily tiled in favor of the platform, giving them the edge when it comes to governing 3rd parties, driving end-user behavior, and dictating what regulation, law enforcement, and research looks like on their platforms.</p>
+
+<h3 id="suite-of-specifications-being-employed-for-data-governance">Suite Of Specifications Being Employed For Data Governance</h3>
+
+<p>This industry and platform provider governance is being increasingly led by a handful of machine readable specifications that allow platforms to define and realize data governance across their platforms. This is where my view of the landscape shifts from the more policy oriented discussions I had yesterday, and will be seen as more technical, but in reality they aren’t—they perfectly dovetail with the objectives of all of the actors above. There are handful of standards driving the data governance across technology platforms, which are rapidly being evolved to meet the needs of platform providers, but can also be applied to help balance the data governance conversations across all of the actors involved.</p>
+
+<ul>
+  <li><strong>JSON Schema</strong> - A schema standard for describing each individual data object, it’s properties, and the validation meta data needed to maintain integrity of each piece of data, providing a machine readable view of the data landscape that exists within enterprise organizations.</li>
+  <li><strong>OpenAPI</strong> - An API standard for describing the surface area of an HTTP 1.1 request and response API (which most APIs are), defining how data will be accessed and made available internally and externally, leveraging JSON schema to describe the data, but goes further to describe the surface area of what is possible when it comes to access of the data.</li>
+  <li><strong>Postman Collections -</strong> An API definition for describing the schema and API, but done in a way that allows it to be accessed and executed, providing a portable, machine readable and executable representation of any capability that a platform has, and the data being leverage as part of each capability.</li>
+  <li><strong>Postman Environments</strong> - An API definition for describing the authentication, authorization, and variables needed to access APIs in general, or on behalf of a specific user, providing the credentials and meta data needed to actually make one or many API calls and retrieve data in a variety of contexts.</li>
+  <li><strong>AsyncAPI</strong> - An API standard for describing event-driven, TCP, websocket, HTTP/2 and HTTP/3, and other more real-time APIs, describing the surface area of a fast growing breed of APIs in use in B2B environments, and within the internal enterprise operations of platforms.</li>
+  <li><strong>OAuth</strong> - An open standard for handling authentication and authorization for APIs, used by Twitter, Facebook, Google, and other APIs providing a way for platform providers, 3rd party developers, and end-users to all have a voice in what data is accessed, within establish scopes by provider and regulatory body.</li>
+  <li><strong>RBAC</strong> - Role based authentication control for defining who has access to what, used by itself, or in conjunction with OAuth to define who has access to what data, defining roles for every stakeholder involved in data governance.</li>
+  <li><strong>APIs.json</strong> - API open standard for indexing API operations, and all the common building blocks like where documentation, signup and terms of service are for an API, while also indexing all of the artifacts listed above as part of a wider governance and discovery pfft.</li>
+</ul>
+
+<p>These specifications are currently being used by platforms to get a handle on data governance across operations. Some organizations are further along in this journey, while most are still just getting a handle on their “big data problem”, as well as governance of this explosion in data they find themselves drowning in. All of these machine readable artifacts can be used to negotiate, define, and automate governance across platforms, and within specific business sectors. You can find a variety of these artifacts for leading API platforms, and you can find them baked into the services, tooling, and infrastructure being put to use by companies, organizations, institutions, and government agencies. </p>
+
+<h3 id="leveraging-existing-infrastructure-in-service-of-data-governance">Leveraging Existing Infrastructure In Service Of Data Governance</h3>
+
+<p>Next up is the infrastructure that platform providers are already using to operate their APIs, and make data, content, and other resources available using the web. These common architecture components are already in use across platform providers, helping operate their existing API, application, device, and system integrations. These are just a handful of the common architectural areas of consideration when it comes to data governance across the enterprise.</p>
+
+<ul>
+  <li><strong>API Gateway</strong> - An architectural component used to deploy and manage APIs, connecting them to backend services, storage, and database components.</li>
+  <li><strong>API Management</strong> - An architectural solution for governing access to APIs, helping organization APIs in logical service tiers, and manage access to resources.</li>
+  <li><strong>Storage</strong> - Common storage in use across API, application, device, and system integrations, providing varying grades of object and data storage.</li>
+  <li><strong>Database</strong> - Common or specialized database where data is stored and organized, then made available via well defined API implementations.</li>
+  <li><strong>Logging</strong> - The gathering of activity logs across all areas of operation providing a record of every engagement with data resources being made available APIs.</li>
+</ul>
+
+<p>These are key architectural components already in use across the enterprise to govern the creation, access, evolution, and use of data on any platform. However there are two additional dimensions to this conversation that should be taken into consideration when thinking about how existing modern API infrastructure can be used to govern data within the enterprise, as well as externally within regulated industries. </p>
+
+<ul>
+  <li><strong>Infrastructure APIs</strong> - All of these infrastructure components all have APIs, allowing for remote and automated management of the data governance life cycle–yes APIs have APIs.</li>
+  <li><strong>Logging</strong> - All of these infrastructure components all have logging, allowing the data governance life cycle to tracked, audited, and managed programmatically.</li>
+</ul>
+
+<p>Logging and APIs are essential to properly governing the access to data via APIs. API gateways, management, storage, and databases are essential to properly governing the access to data via APIs. Leading technology platform providers have been developing and using this infrastructure for 20 years, and it is becoming a mainstream practice with all enterprise organization realizing they need to operate their APIs in not just an API-first way, but also to develop mature data and API governance practices along they way. We have the infrastructure needed to properly govern data at scale within the enterprise, and externally across industries–we just need the will to use it for proper data governance.</p>
+
+<h3 id="ensuring-there-is-always-platform-observability">Ensuring There Is Always Platform Observability</h3>
+
+<p>Behind the key infrastructure elements, and specifications in use, there is one more dimension of existing API operations that contributes significantly to the data governance conversation. There is a philosophy emerging out of historical industrial control practices called observability, which helps more effectively govern their platform operations by providing them with more visibility or observability into what is happening, using the existing outputs of these architectural components listed above. Observability spans several essential aspects of operating platforms at scale.</p>
+
+<ul>
+  <li><strong>Monitoring</strong> - The monitoring of infrastructure to understand the overall health and availability of platform resources.</li>
+  <li><strong>Performance</strong> - The monitoring of infrastructure from multiple to regions to understand the performance of platform resources.</li>
+  <li><strong>Privacy</strong> - The monitoring of how data is access to ensure there are no breaches of privacy based upon agreed upon policies.</li>
+  <li><strong>Security</strong> - Allowing the platform to identify and understand threats, address vulnerabilities, and mitigate breaches of access to data.</li>
+  <li><strong>Service Level Agreements (SLA)</strong> - Providing governance over the SLAs in place between platform providers and their consumers.</li>
+  <li><strong>Transparency Reports</strong> - Publishing regular information regarding how data is shared with law enforcement and government agencies.</li>
+</ul>
+
+<p>Observability provides platform providers with visibility into everything that is occurring across a platform. If it can do this for providers, it can also be leveraged on behalf of other stakeholders, providing visibility into essential areas for other actors like 3rd party developers, end-users, regulators, and researchers. Defining a set of observability policies in the service of data governance, helping ensure the health of the overall platform across every dimension of concern for each of the actors involved in the governance of data.</p>
+
+<h3 id="the-technology-and-processes-for-data-governance-already-exists">The Technology And Processes For Data Governance Already Exists</h3>
+
+<p>Data governance is something enterprise organizations already desire and work towards, using existing proprietary API services and open source tooling, and specifications. Data governance is not equally balanced across all of the data governance stakeholders listed above. This is an approach I have talked about several times before <a href="https://apievangelist.com/2018/03/26/a-regulatory-framework-for-facebook-and-other-platforms-is-already-in-place/">in service of governing Facebook</a>, being <a href="http://open.banking.blueprint.apievangelist.com/">applied to the banking industry</a>, and <a href="https://apievangelist.com/2018/07/19/api-governance-models-in-the-public-and-private-sector/">API governance models for both the public and private sector</a>. The technology and processes already exist to realize data governance across the enterprise, and the industries they operate in. The only thing that is missing is the desire to do so in a balanced way across all data governance stakeholders, and the establishment of well-defined blueprints for how to conduct data governance at this scale well. </p>
+
+<p>I will use this as my base for some more storytelling on the subject, and keep working through my notes from the Data Governance Design Conference. I have a lot of work to do to keep evolving my blueprints for conducting data governance using API infrastructure, specifications, and processes. I am thinking I need some more real world examples of doing this at scale for multiple industries, not just banking. Maybe apply it to what I know about Facebook, Twitter, and say YouTube—three API platforms I think could use a little more investment in observability and data governance. Then I will look at some more examples of data governance when it comes to health care, entertainment, and some of the other areas where data is making a significant positive or potentially negative effect on a wide audience of people—pushing my own understanding of how data governance might play out in coming years.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Governance&searchFields=tags" class="post-tag me-2">#Governance</a>
+        
+          <a href="/search/?search=Observability&searchFields=tags" class="post-tag me-2">#Observability</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>November 11, 2019</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

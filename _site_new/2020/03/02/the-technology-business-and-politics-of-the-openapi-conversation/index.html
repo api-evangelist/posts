@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>The Technology, Business, and Politics of the OpenAPI Conversation - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2020/03/02/the-technology-business-and-politics-of-the-openapi-conversation/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The Technology, Business, and Politics of the OpenAPI Conversation - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_03_02_at_3.15.06_pm.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">The Technology, Business, and Politics of the OpenAPI Conversation</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>March  2, 2020</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_03_02_at_3.15.06_pm.png" alt="The Technology, Business, and Politics of the OpenAPI Conversation" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p>I was pondering a tweet from Aidan Cunniffe (<a href="https://twitter.com/aidandcunniffe">@aidandcunniffe</a>) over at <a href="https://www.useoptic.com/">Optic</a> they other day.  He was expressing what he says is a <a href="https://twitter.com/aidandcunniffe/status/1229097618686513157">“controversial opinion that keeps getting backed up by conversations. Each version of OpenAPI and JSON Schema map to ~15 versions. All the implementations by vendors, cloud providers, and open source libs implement a useful (but not always the same subset.”</a> I don’t think it is a controversial opinion at all, I think he points to a pretty critical deficiency in our belief around APIs and specifications like OpenAPI. Something that begins with the specification itself and how it evolves, but as Aidan points out, echoes out through API service and tooling providers, but then also across API providers themselves who put the OpenAPI specification as part of their own operations. </p>
+
+<p>On Twitter, Aidan continues with, “what is the point of a data-spec if it’s not enforceable the same way, everywhere? We have to acknowledge that there’s no one spec (a versioned markdown file doesn’t count), there’s 15, 20, 30, 50 of them in the wild today – and that’s blocking teams from using tooling end-end.” Then continues by suggesting “a wasm reference implementation that every vendor and lib could drop-in and link to across programming languages might actually solve this problem and truly enable end-end use of OpenAPI I’d make this objective #1 for 2020 if I had the keys. I just have the tweets :)”. Makes sense to me, and I’d say something that the OpenAPI community should adopt. Honestly, and I’ve made the argument before, I think the OAI should be investing to stabilize core OpenAPI tooling, going beyond just the spec. </p>
+
+<h3 id="technical-solutions-require-business-and-industry-political-understanding">Technical Solutions Require Business and Industry Political Understanding</h3>
+
+<p>I support the technical solution Aidan puts forward, and would love to see investment across multiple providers to make happen. However, I think we will need to better understand the business and politics of it all to see the change we want—consistent support of the OpenAPI spec across services and tooling. What features are adopted as part of each service and tooling provider is more business and politics than it is technical, and the investment, or lack of investment into each commercial service or open source tooling is a reflection of the overall OpeAPI spec and it’s road map. The technical details of the OpenAPI spec isn’t easy to map out by itself, and how those details are adopted across a variety of commercial services, and open source tooling is exponentially more difficult—mapping out the business and politics of all of this is pretty near impossible, but let’s give it a try.</p>
+
+<h3 id="the-business-and-politics-of-the-openapi-specification">The Business and Politics of the OpenAPI Specification</h3>
+
+<p>To understand the foundation of it all we have to consider the motivations of everyone involved in moving the OpenAPI specification forward. There are many different reasons why people are involved in the evolution of the API specification, and while it is pretty difficult to fully understand the motivations beyond everyone involved, it helps to acknowledge at a high level that there different business and political motivations at play, amongst stakeholders.</p>
+
+<ul>
+  <li><strong><a href="http://www.3scale.net/">3Scale</a></strong></li>
+  <li><strong><a href="https://42crunch.com/">42Crunch</a></strong></li>
+  <li><strong><a href="https://aapi.io/">AAPI</a></strong></li>
+  <li><strong><a href="https://www.ably.io/">Ably</a></strong></li>
+  <li><strong><a href="https://www.acumatica.com/">Acumatica</a></strong></li>
+  <li><strong><a href="http://apifortress.com/">APIFortress</a></strong></li>
+  <li><strong><a href="https://assertible.com/">Assertible</a></strong></li>
+  <li><strong><a href="https://www.atlassian.com/">Atlassian</a></strong></li>
+  <li><strong><a href="https://bitmovin.com/">BitMovin</a></strong></li>
+  <li><strong><a href="https://www.techatbloomberg.com/">Blomberg</a></strong></li>
+  <li><strong><a href="https://www.ca.com/">CA Technologies</a></strong></li>
+  <li><strong><a href="https://www.ebayinc.com/">eBay</a></strong></li>
+  <li><strong><a href="http://finxact.com/">Finxact</a></strong></li>
+  <li><strong><a href="http://www.google.com/">Google</a></strong></li>
+  <li><strong><a href="https://www.gov.uk/government/organisations/cabinet-office">HM Government</a></strong></li>
+  <li><strong><a href="http://www.ibm.com/">IBM</a></strong></li>
+  <li><strong><a href="http://www.ifs.com/">IFS</a></strong></li>
+  <li><strong><a href="https://www.imperva.com/">Imperva</a></strong></li>
+  <li>
+    <p><strong><a href="https://www.imperva.com/">Imperva</a></strong></p>
+  </li>
+  <li><strong><a href="https://inten.to/">Intento</a></strong></li>
+  <li><strong><a href="https://www.interzoid.com/">Interzoid</a></strong></li>
+  <li><strong><a href="http://www.isa.us.es/">ISA</a></strong></li>
+  <li><strong><a href="https://konghq.com/">Kong</a></strong></li>
+  <li><strong><a href="https://www.liferay.com/solutions/headless-apis">Liferay</a></strong></li>
+  <li><strong><a href="https://www.linksrez.com/">LinksRez</a></strong></li>
+  <li><strong><a href="http://www.microsoft.com/">Microsoft</a></strong></li>
+  <li><strong><a href="https://www.mulesoft.com/">Mulesoft</a></strong></li>
+  <li><strong><a href="http://www.nhsx.nhs.uk/">NHS</a></strong></li>
+  <li><strong><a href="https://apiary.io/">Oracle + Apiary</a></strong></li>
+  <li><strong><a href="https://www.reprezen.com/openapi">Repreen</a></strong></li>
+  <li><strong><a href="http://sap.com">SAP</a></strong></li>
+  <li><strong><a href="http://smartbear.com/">Smartbear</a></strong></li>
+  <li><strong><a href="http://www.softwareag.com/">Software AG</a></strong></li>
+  <li><strong><a href="http://stoplight.io/">Stoplight</a></strong></li>
+  <li><strong><a href="https://www.talend.com/">Talend</a></strong></li>
+  <li><strong><a href="https://teejlab.com/">TeejLab</a></strong></li>
+  <li><strong><a href="https://tyk.io/">Tyk</a></strong></li>
+  <li><strong><a href="https://wso2.com/">WSO2</a></strong></li>
+</ul>
+
+<p>I am not making any assumption regarding the motivations of any of these OAI members, merely acknowledging they have different business and political motivations. Adding another dimension, I think it is worth also knowing the weight each company wields as part of the OpenAPI conversation and road map, by sending a delegate for the OAI technical steering committee. </p>
+
+<ul>
+  <li>Darrel Miller @darrelmiller - Microsoft</li>
+  <li>Jeremy Whitlock @whitlockjc - Google</li>
+  <li>Marsh Gardiner @earth2marsh - Google</li>
+  <li>Mike Ralphson @MikeRalphson - Mermade Software</li>
+  <li>Ron Ratovsky @webron - SmartBear</li>
+  <li>Uri Sarid @usarid - Mulesoft</li>
+</ul>
+
+<p>I know everyone on this list, and know they all have the best interest of the community in mind. I also know that like me, they work for a company, and have the best interest of that company in mind. Beyond the technical steering committee you also have the technical oversight board who can help resolve conflicts:</p>
+
+<ul>
+  <li>Isabelle Mauny @isamauny</li>
+  <li>Uri Sarid @usarid</li>
+  <li>Marsh Gardiner @earth2marsh</li>
+  <li>Ron Ratovsky @webron</li>
+</ul>
+
+<p>Why each of the companies above are members of the OAI varies, and why each company has support their employees being on each of the technical committees isn’t without reason. Again, I’m not passing judgement about what their motivations are, just that they do bring business and political motivations that are either in alignment with the wider API community, or may have more alignment with commercial aspirations, both good and bad. All of these companies influence what the OpenAPI specification should be, and they also influence what services and tooling exist, or do not exist within the community, and how much of the OpeAPI specification each service and tool supports. These aren’t purely technical decisions to support or not support all or part of the OpenAPI specifications. Consistent support of these features across tools begins with business considerations, like the amount of investment each service or tool gets, but then also have to do with the political climate that exists within the OpenAPI and wider API community.</p>
+
+<h3 id="a-technical-base-to-stabilize-the-openapi-service-and-tooling-space">A Technical Base To Stabilize The OpenAPI Service and Tooling Space</h3>
+
+<p>I support Aidan’s request for a “wasm [WebAssembly] reference implementation that every vendor and lib could drop-in and link to across programming languages”. This would begin laying the necessary technical base for helping stabilize tooling, however I’d say that we’d also need the OAI to consider investing in some of the core tooling needed by all services and tooling. Socializing some of the essential tooling like parsers, generators, and validators, along with the specification will help further stabilize things—if developers know there is one first-class validator, parser, and generator, the confidence in the community goes way up. This will provide a nice base for services and tooling providers to work from, helping ensure 100% (or near) of the OpenAPI specification is supported by default across at least the essential areas of tooling, but it won’t solve all of our problems. We are going to need more business investment in not just the core tooling areas, but also the long tail of solutions that are being offered across the sector.</p>
+
+<p>This technical base for services and tooling, collectively investing in what is needed to standardize the adoption of the OpenAPI specification across commercial services and open source tooling. However, much more will be needed to actually incentivize, support, and certify the actual adoption of the OpenAPI specification across available services and tools. I know it sounds easy, but if you build the WebAssembly, and provide essential tooling, there is no guarantees that the companies and individuals behind services and tooling will actually implement them, and support 100% of the capabilities that OpenAPI provides. This is where the conversation moves beyond just the technical, and moves into the business and political realm. This is the part of the game that many technologists don’t see, and because many business people who do get these things aren’t aware of the technical details, there is a significant opportunity for a few savvy stakeholders to lead the way, and steer the ship.</p>
+
+<h3 id="defining-support-for-the-openapi-specification-across-services-and-tools">Defining Support For The OpenAPI Specification Across Services and Tools</h3>
+
+<p>Shifting from the OpenAPI specification itself, and moving more towards the open source tooling that exists, or doesn’t exist. I want to highlight the mix of business and politics that occurs within the open source tooling realm of the OpenAPI community. There are many different reasons why companies, organizations, and individuals invest in open source tooling that supports OpenAPI, and there are many varying levels of support for all or part of the OpenAPI specification. Take a look at a handful of the open source tooling that exists in the space, and think a little bit about why these tools exists, and who the individuals and companies behind each of them existing.</p>
+
+<h3 id="converters">Converters</h3>
+
+<ul>
+  <li><strong><a href="https://github.com/googleapis/gnostic">Gnostic</a></strong> - A compiler for APIs described by the OpenAPI Specification with plugins for code generation and other API support tasks.</li>
+  <li><strong><a href="ttps://github.com/Mermade/oas-kit">OAS Kit</a></strong> - Convert Swagger 2.0 definitions to OpenAPI 3.0 and resolve/validate/lint.</li>
+</ul>
+
+<h3 id="documentation">Documentation</h3>
+
+<ul>
+  <li><strong><a href="https://github.com/swagger-api/swagger-ui">Swagger UI</a></strong> - Swagger UI is a collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.</li>
+  <li><strong><a href="https://github.com/Redocly/redoc/">Redoc</a></strong> - OpenAPI/Swagger-generated API Reference Documentation.</li>
+  <li><strong><a href="https://github.com/LucyBot-Inc/documentation-starter">LucyBot</a></strong> - Interactive REST API Documentation.</li>
+</ul>
+
+<h3 id="editor">Editor</h3>
+
+<ul>
+  <li><strong><a href="https://github.com/swagger-api/swagger-editor">Swagger Editor</a></strong> - A simple OpenAPI / Swagger editor.</li>
+  <li><strong><a href="https://github.com/mermade/openapi-gui">OpenAPI GUI</a></strong> - GUI / visual editor for creating and editing OpenAPI / Swagger definitions.</li>
+  <li><strong><a href="https://github.com/Apicurio/apicurio-studio">Apicurio</a></strong> - An open source API design editor.</li>
+</ul>
+
+<h3 id="mocks">Mocks</h3>
+
+<ul>
+  <li><strong><a href="https://github.com/microcks/microcks">Microcks</a></strong> - Manage your micro-services and API mocks.</li>
+  <li><strong><a href="https://github.com/zalando/connexion">Connexion</a></strong> - Swagger/OpenAPI First framework for Python on top of Flask with automatic endpoint validation &amp; OAuth2 support.</li>
+  <li><strong><a href="https://github.com/danielgtaylor/apisprout">APISprout</a></strong> - Lightweight, blazing fast, cross-platform OpenAPI 3 mock server with validation.</li>
+</ul>
+
+<h3 id="sdks">SDKs</h3>
+
+<ul>
+  <li><strong><a href="https://github.com/OpenAPITools/openapi-generator">OpenAPI Generator</a></strong> - OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3).</li>
+  <li><strong><a href="https://github.com/swagger-api/swagger-codegen">Swagger CodeGe</a></strong> - swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition.</li>
+</ul>
+
+<p>Open source tooling is fraught with challenges, but the open source tooling build around Swagger and OpenAPI have a uniquely challenging past due to the robust number of tools that existed around version 2.0, and the acquisition of the name, spec, and tooling by SmartBear, then the resulting establishment of the OAI, OpenAPI, and the lukewarm investment in tooling that supports version 3.0. The current state of open source tooling around the OpenAPI, and the varying scopes of the OpenAPI specification that each tool supports is a direct reflection of the OpenAPI governance, participating companies, and a vacuum when it comes to overall leadership. I invested hundreds of hours into advocating in this space during the 2.0 evolution of the specification, but ended up burnt out by the time we got things into the foundation, and 3.0 emerged. Phil Sturgeon has done an amazing job evangelizing around 3.0, and publishing of his API.Tools, but ultimately this is too big of a thing for any individual to take on, and there needs to be some tooling investment by the OAI, and from its members.</p>
+
+<h3 id="mapping-the-openapi-business-and-political-landscape">Mapping the OpenAPI Business and Political Landscape</h3>
+
+<p>To help drive this conversation I have a few things I am working on to help map out what is going on. I think that Phil’s OpenAPI.Tools helps us map the service and tooling landscape, but I want to better map out the corporate landscape of the OpenAPI community. I want to be able to see what companies are investing in the space, who is behind some of the tooling and better understand the business makeup of what is going on, while also trying to tune into where more of the politics are, and where I might be able to poke at to make some change. Here are some of the areas I’m investing in when it comes to mapping out the landscape of the OpenAPI community.</p>
+
+<ul>
+  <li><strong><a href="https://github.com/api-evangelist/openapi-support/blob/master/companies.md">Company Listing</a></strong> - List of all companies who are doing things with OpenAPI.</li>
+  <li><strong><a href="https://github.com/api-evangelist/openapi-support/blob/master/services.md">Service Listing</a></strong> - List of all commercial services that use OpenAPI.</li>
+  <li><strong><a href="https://github.com/api-evangelist/openapi-support/blob/master/tools.md">Tool Listing</a></strong> - List of all open source tooling that uses OpenAPI.</li>
+  <li><strong><a href="https://github.com/api-evangelist/openapi-support/blob/master/features.md">Feature Listing</a> -</strong> List of all features delivered by services and tools.</li>
+  <li><strong><a href="https://github.com/api-evangelist/openapi-support/blob/master/openapi-features.md">OpenAPI Feature Listing</a></strong> - List of all the OpenAPI features available.</li>
+</ul>
+
+<p>I have a lot of this data laying around, but I am looking at moving it forward in isolation, to try and move forward the conversation when it comes to OpenAPI and the services and tooling that exists. While I feel like the OAI and the governance leadership is doing well when it comes to the specification, I feel like there is a huge void when it comes to leadership on the services and tooling front. Now that I have a full time job I am going to invest more time into this conversation, as part of my work with Postman, but also as part of more formal work with the OAI. I feel like I am one of the few people who see the business and political currents swirling around, and I feel like most people involved right now only are seeing the technical details, as well as the business considerations of the companies they represent. If we are going to drive the OpenAPI specification forward in a meaningful way that serves the entire community, we are going to need a lot more investment in herding all the cats forward in a more constructive direction when it comes to not just the specification, but also how it is used within a variety of industries, and how it is applied across the services and tooling that exists across the API landscape.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=Politics&searchFields=tags" class="post-tag me-2">#Politics</a>
+        
+          <a href="/search/?search=Business&searchFields=tags" class="post-tag me-2">#Business</a>
+        
+          <a href="/search/?search=Technology&searchFields=tags" class="post-tag me-2">#Technology</a>
+        
+          <a href="/search/?search=OpenAPI&searchFields=tags" class="post-tag me-2">#OpenAPI</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>March  2, 2020</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

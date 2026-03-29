@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>APIs are at the Center of the Federal Trade Commission (FTC) Lawsuit Against Facebook - API Evangelist</title>
+    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="http://0.0.0.0:4001/2020/12/12/apis-are-at-the-center-of-the-federal-trade-commission-ftc-lawsuit-against-facebook/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="APIs are at the Center of the Federal Trade Commission (FTC) Lawsuit Against Facebook - API Evangelist">
+    <meta property="og:site_name" content="API Evangelist">
+    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/federal_trade_commission_facebook_filing.png">
+
+    <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
+
+
+<body>
+
+  <!-- Top Navigation -->
+<nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+  <div class="container-fluid px-3 px-lg-4">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop nav items -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <form class="d-flex" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('navSearch').value; return false;">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" id="navSearch" style="width: 180px;">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile offcanvas nav -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <a href="https://apievangelist.com" class="d-flex align-items-center text-decoration-none">
+      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form class="mb-3" role="search" onsubmit="location.href='https://search.apievangelist.com?search=' + document.getElementById('mobileSearch').value; return false;">
+      <input class="form-control" type="search" placeholder="Search" id="mobileSearch">
+    </form>
+
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Learnings</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-stories" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="mobile-stories">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/categories">Categories</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/2026/">Stories</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-conversations" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">forum</span>Conversations
+        </a>
+        <div class="collapse" id="mobile-conversations">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://conversations.apievangelist.com">All Conversations</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-videos" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">video_library</span>Videos
+        </a>
+        <div class="collapse" id="mobile-videos">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://video.apievangelist.com">All Videos</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-timeline" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="mobile-timeline">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/api/">API</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/resources/">Resources</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/industry/">Industry</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/timeline/people/">People</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+    <h6 class="text-uppercase text-muted small mt-3 mb-2 px-1">API Evangelist LLC</h6>
+    <ul class="nav flex-column mb-2">
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-about" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">info</span>About
+        </a>
+        <div class="collapse" id="mobile-about">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/kin-lane">Kin Lane</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/about/this-site">This Site</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-contact" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="mobile-contact">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://apievangelist.com/contact">Contact Form</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://bsky.app/profile/apievangelist.com">Bluesky</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://buttondown.com/apievangelist">Newsletter</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://www.postman.com/api-evangelist">Postman</a></li>
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://github.com/api-evangelist">GitHub</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-partner" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">handshake</span>Partner
+        </a>
+        <div class="collapse" id="mobile-partner">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://partners.apievangelist.com">Information</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+      <li class="nav-item">
+        
+        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-toolbox" role="button">
+          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="mobile-toolbox">
+          <ul class="nav flex-column ms-4">
+            
+            <li class="nav-item"><a class="nav-link px-1 py-1 text-muted small" href="https://contracts.apievangelist.com">APIs</a></li>
+            
+          </ul>
+        </div>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+  <!-- Main layout -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
+        <!-- Sidebar (desktop only) -->
+<div class="sidebar">
+
+  
+  <div class="nav-heading">API Learnings</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-stories" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">auto_stories</span>Stories
+        </a>
+        <div class="collapse" id="sidebar-stories">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/categories">Categories</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/2026/">Stories</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-conversations" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">forum</span>Conversations
+        </a>
+        <div class="collapse" id="sidebar-conversations">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://conversations.apievangelist.com">All Conversations</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-videos" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">video_library</span>Videos
+        </a>
+        <div class="collapse" id="sidebar-videos">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://video.apievangelist.com">All Videos</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-timeline" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">timeline</span>Timeline
+        </a>
+        <div class="collapse" id="sidebar-timeline">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/api/">API</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/resources/">Resources</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/industry/">Industry</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/timeline/people/">People</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+  <div class="nav-heading">API Evangelist LLC</div>
+  <nav class="nav flex-column">
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-about" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">info</span>About
+        </a>
+        <div class="collapse" id="sidebar-about">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/api-evangelist">API Evangelist</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/kin-lane">Kin Lane</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/surveying-assessment">API Surveying & Assessment</a>
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/about/this-site">This Site</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-contact" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">contact_support</span>Contact
+        </a>
+        <div class="collapse" id="sidebar-contact">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://apievangelist.com/contact">Contact Form</a>
+            
+            <a class="nav-link py-1" href="https://www.linkedin.com/company/api-evangelist/">LinkedIn</a>
+            
+            <a class="nav-link py-1" href="https://bsky.app/profile/apievangelist.com">Bluesky</a>
+            
+            <a class="nav-link py-1" href="https://mastodon.apievangelist.com/web/@api">Mastodon</a>
+            
+            <a class="nav-link py-1" href="https://buttondown.com/apievangelist">Newsletter</a>
+            
+            <a class="nav-link py-1" href="https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921">Apple Podcasts</a>
+            
+            <a class="nav-link py-1" href="https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO">Spotify</a>
+            
+            <a class="nav-link py-1" href="https://www.postman.com/api-evangelist">Postman</a>
+            
+            <a class="nav-link py-1" href="https://github.com/api-evangelist">GitHub</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-partner" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">handshake</span>Partner
+        </a>
+        <div class="collapse" id="sidebar-partner">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://partners.apievangelist.com">Information</a>
+            
+          </nav>
+        </div>
+      
+    
+      
+        <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#sidebar-toolbox" role="button" aria-expanded="false">
+          <span class="material-symbols-outlined">construction</span>Toolbox
+        </a>
+        <div class="collapse" id="sidebar-toolbox">
+          <nav class="nav flex-column ms-4">
+            
+            <a class="nav-link py-1" href="https://contracts.apievangelist.com">APIs</a>
+            
+          </nav>
+        </div>
+      
+    
+  </nav>
+  
+
+  <!-- Contact / Help -->
+  <div class="mt-4 pt-3 border-top">
+    <div class="px-2">
+      <p class="text-muted small mb-1">Need help?</p>
+      <a href="https://apievangelist.com/contact/" class="text-decoration-none small" style="color: var(--ae-green);">Contact us</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Content -->
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+        
+
+
+<div class="row">
+
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">APIs are at the Center of the Federal Trade Commission (FTC) Lawsuit Against Facebook</h1>
+
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>December 12, 2020</span>
+        
+        <span class="mx-2">&middot;</span>
+        <span></span>
+      </div>
+
+      
+      <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/federal_trade_commission_facebook_filing.png" alt="APIs are at the Center of the Federal Trade Commission (FTC) Lawsuit Against Facebook" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      
+
+      <div class="post-body">
+        <p><a href="https://www.ftc.gov/news-events/press-releases/2020/12/ftc-sues-facebook-illegal-monopolization">The Federal Trade Commission is sueing Facebook, alleging that they are illegally maintaining a monopoly on the personal social network space using a continued series of anticompetitive behavior</a>. The suit includes a coalition of attorneys general of 46 states, bringing the latest wave of regulatory scrutiny into the social media platform, highlighting three main dimensions of how Facebook has engaged in a systematic strategy of anticompetitive practices that has resulted in their current dominant position online.</p>
+
+<ul>
+  <li><strong>Instagram</strong> - Facebook purchased Instagram to remove what they saw as one of the biggest threats they faced, while also purchasing market dominance in the image and photos sharing space.</li>
+  <li><strong>WhatsApp</strong> - Fsacebook purchased WhatsApp to remove what they saw as one of the biggest threats they faced, while also purchasing market dominance in the messaging space.</li>
+  <li><strong>API</strong> - Facebook used their API to cut off access to applications they saw as a threat, and to generally suffocate anything else they saw as a threat to their business model.</li>
+</ul>
+
+<p>The anticompetitive nature of Facebook’s Instagram and WhatsApp purchase isn’t really in my wheelhouse, but how the API was used for anticompetitive activity most definitely is my speciality. I am happy to see the FTC finally elevate the abuse that has been going on at Facebook via it’s APIs, not just because of the impact on the Facebook developer community, but more importantly the wider tech sector. Facebook’s approach hurts wider competition across the tech sector, but also hurts the space API sector–ultimately giving APIs a bad reputation. To help me speak intelligently to what is occurring as part of the FTC’s lawsuit, offer my advice on what a remedy might be, while also contributing to the future of regulation in the tech sector, I wanted to gather my thoughts in a post here on the blog. </p>
+
+<h3 id="anticompetitive-conditioning-using-the-facebook-api">Anticompetitive Conditioning Using The Facebook API</h3>
+
+<p>The acquisition of Instagram and WhatsApp by Facebook to neutralize threats in two keys areas are a critical part of this filing and Facebook’s strategy to dominate, but it is their API that has the biggest impact in suffocating out competition in the areas of photos and messaging, but every other dimension in which other companies can compete with Facebook via their own API. I think the FTC filing sums it up best in section 22 with the phrase “anticompetitive conditioning”</p>
+
+<p><em>22. Anticompetitive Conditioning. In addition to its strategy of acquiring competitive threats to its personal social networking monopoly, Facebook has, over many years, announced and enforced anticompetitive conditions on access to its valuable platform interconnections, such as the application programming interfaces (“APIs”) that it makes available to third-party software applications.</em> </p>
+
+<p>This sums up the slow roll suffocation of competition that exists as part of the politics of APIs across not just Facebook, but also other leading platforms via their API ecosystems. Companies who view their API developer ecosystems as an asset use the API management layer of their APIs to incentivize developers, where companies like Facebook who have reached a size and scope where they view a significant portion of their API consumers as a threat will choose to engage in widespread anticompetitive conditioning via the management layer of their APIs.</p>
+
+<h3 id="removing-facebook-api-access-for-the-competition">Removing Facebook API Access for the Competition</h3>
+
+<p>The FTC filing focuses on the most overt and visible anticompetitive behavior from Facebook at the API layer, in particular the turning off of access to API consumers when they are viewed as a threat to their platform business. It is commonplace that API consumers have to register and obtain keys for access to API resources. This is a known aspect of API management, the API provider and consumer dance on Facebook and beyond, and it is common to revoke the API access keys of consumers who violate your terms of service. However, many API providers like Facebook also use this practice to “condition the competition”. The FTC filing focuses on two main consumers who Facebook cut off access, first in section 153 with Path.</p>
+
+<p><em>153. First, Facebook targeted promising apps that provided personal social networking. For example, Facebook took actions against a personal social networking competitor, Path, which was founded by a former Facebook manager. In or around April 2013, Facebook terminated Path’s access to Facebook’s APIs, and Path’s growth subsequently slowed significantly.</em> </p>
+
+<p>After Path, there was another high profile competitor (Twitter) that was moving into their territory, which the FTC filing outlined in section 155.</p>
+
+<p><em>155. Similarly, in January 2013, Facebook’s Director of Platform Partnerships and Operations wrote to colleagues: “[T]witter launched Vine today which lets you shoot multiple short video segments to make one single, 6-second video. As part of their NUX [new user experience], you can find friends via FB. Unless anyone raises objections, we will shut down their friends API access today. [W]e’ve prepared reactive PR, and I will let Jana know our decision.” Mr. Zuckerberg replied: “[Y]up, go for it.” By cutting off Vine, Facebook prevented it from accessing APIs that would have helped it grow.</em> </p>
+
+<p>Path and Vine were just the tip of the iceberg when it comes to Facebook’s campaign to cut off access to competitors when it came to their APIs, as the FTC filing outlines in section 156.</p>
+
+<p><em>156. The third group of targets were promising apps that offered mobile messaging services, that were existing competitors of Facebook Messenger, and that ultimately threatened to develop into competitive threats to Facebook Blue. Throughout 2013, Facebook blocked mobile messaging apps from using commercially significant APIs. For example, in August 2013, Facebook undertook an enforcement strike against a number of messaging apps simultaneously, with the Head of Developer Enforcement directing colleagues to restrict them from “accessing any read APls beyond basic info[,</em>]” instructing that “we will not be communicating with the [developers] in any way about these restrictions.” </p>
+
+<p>This reflects direct action taken by Facebook to snuff out the competition by removing access to their increasingly valuable resources by the competition. It becomes much more difficult to measure the indirect chilling effect all of this had on developers within the Facebook API ecosystem who would self-censor, and avoid developing applications that may get the attention of Facebook, even if they weren’t directly competing with the giant. Sometimes you just didn’t know if what you were building was emulating Facebook features and it would be better to just not build your application at all.</p>
+
+<h3 id="anticompetitive-tones-set-by-api-terms-of-service">Anticompetitive Tones Set By API Terms of Service</h3>
+
+<p>The terms of service (TOS) for API platforms always set the tone for engagement between API provider and consumer, but it is something that Facebook has wielded with great success when it comes to their anticompetitive practices across their developer community. There are several consecutive sections of the FTC filing that highlight the chilling effects TOS changes have had to the Facebook developer ecosystem, </p>
+
+<p><em>138. From July 2011 until December 2018, Facebook publicly announced and imposed a set of anticompetitive conditions governing access to Facebook Platform.</em> </p>
+
+<p><em>139. On July 27, 2011, Facebook introduced a new policy that “Apps on Facebook may not integrate, link to, promote, distribute, or redirect to any app on any other competing social platform.”</em></p>
+
+<p><em>141. Following that, Facebook imposed several other policies restricting app developers’ use of Facebook Platform, including Facebook APIs. Through these policies, Facebook used its control over APIs to deter and suppress competition.</em> </p>
+
+<p><em>142. September 2012: no exporting data to competitor social networks. On September 12, 2012, Facebook introduced a new policy: “Competing social networks: You [developers] may not use Facebook Platform to export user data into a competing social network without our permission[.]”</em></p>
+
+<p><em>143. January 2013: no promotion / data export to any app that “replicates a core Facebook product or service.” On January 25, 2013, Facebook added a new condition to prevent developers from “replicating core functionality” (i.e., competing with Facebook), or assisting others who might do so: Reciprocity and Replicating core functionality: (a) Reciprocity: Facebook Platform enables developers to build personalized, social experiences via the Graph API and related APIs. If you use any Facebook APIs to build personalized or social experiences, you must also enable people to easily share their experiences back with people on Facebook. (b) Replicating core functionality: You may not use Facebook Platform to promote, or to export user data to, a product or service that replicates a core Facebook product or service without our permission. (Emphasis added.)</em></p>
+
+<p>These types of TOS practices make for a very confusing environment within the Facebook developer ecosystem. As a developer using the API to develop an application you are faced with the task of trying to speculate on what constitutes a competing feature and what does not in a very fast moving sector. It also gives Facebook a pretty wide spectrum to choose from when it comes to determining which API consumers have violated their TOS, and which have not. Making for a pretty fraught relationship when it comes to building on the Facebook platform, and a pretty terrifying uphill battle when it comes to actually taking on the tech giant when it comes to any aspect of their current or future business.</p>
+
+<h3 id="the-role-apis-have-played-in-facebooks-dominance">The Role APIs Have Played in Facebook’s Dominance</h3>
+
+<p>The FTC filing does a great job outlining the role that the API community has played in Facebook’s evolution as a platform, and the role the platform plays in developing web and mobile applications across almost every business sector.  As outlined in section 135 the API community was the vehicle for Facebook growth over the years and resulting dominance.</p>
+
+<p><em>134. Further, third-party apps helped Facebook grow and provided other forms of value to Facebook by promoting Facebook around the internet, via the Facebook plug-ins and by directing social data, such as “Likes,” back to Facebook Blue. Since launching its Facebook Platform and Open Graph initiatives, Facebook has grown significantly, adding at least 150 million monthly users each year and serving over 2.7 billion monthly users worldwide today.</em> </p>
+
+<p>In the early years of Facebook, as with any platform, they needed their API developer community to build out new features, and deliver critical integrations with other platforms. But as the power of Facebook grew, it slowly, and then more rapidly began to assert the power it has over the trajectory of applications being developed by the community, as outlined in section 135.</p>
+
+<p><em>135. With the success of Facebook Platform, Facebook became important infrastructure for third-party apps and obtained immense power over apps’ developmental trajectories, competitive decision-making, and investment strategies.</em> </p>
+
+<p> Fully aware of it’s increased power, and growing even more hungry for power, Facebook would begin to see innovation within its own community as a threat, rather than an asset as it had in earlier days. Weaponizing the very thing that had helped it grow from the tech giant it is today, eliminating anything it saw as a threat within its own community.</p>
+
+<p><em>151. Moreover, Facebook knew and expected that API access was sufficiently important to affect the incentives of developers and the developmental trajectories of their apps. Developers were incentivized to make decisions that would not jeopardize their access to Facebook’s APIs. An internal Facebook slide deck dated January 2014 dealing with Facebook Platform policies directly acknowledged the importance of API access, asking whether Facebook was “[c]omfortable altering / killing prospects of many startups[.]”</em></p>
+
+<p>In the early days of any platform your API management layer is designed to secure your digital resources, requiring developers to register and obtain access keys before they can begin making API calls from their applications. API management is about striking a balance between API provider and consumer, agreeing to fair and equitable terms of service, as well as sometimes a price for providing access to digital resources and capabilities. It is how much of the growth we’ve seen in Facebook, Twitter, and other leading platforms has been built out, but once a platform has seen enough growth, investment, and power accrue, there always seems to come a time where leaders begin to see the community as a threat–which is something Facebook has taken to entirely new levels.</p>
+
+<h3 id="the-weaponization-of-api-change-management">The Weaponization of API Change Management</h3>
+
+<p>One of the greatest challenges any online platform or digital service will face comes in the form of managing change. Platform code and APIs are perpetually evolving, requiring some fairly advanced strategies for dealing with change using a well planned road map, while also actively addressing technical debt that accrues as part of legacy code that must be either evolved or deprecated. Version control is one way that platforms help manage and communicate change when it comes to making resources available via web APIs, helping manage the forward motion of a platform, while keeping API consumers moving along at the same speed. Change management is something Facebook has employed, but due to the overall tone being set by their leadership, they have also managed to weaponize something that is usually not so politically charged, as outlined in section 146.</p>
+
+<p><em>146. May 2014: Platform 3.0 launches. A new approach—dubbed Platform 3.0—launched on May 2, 2014. At that time, Facebook terminated all apps’ access to certain APIs, which included restricting third-party apps from accessing information about their users’ friends who were not already using that third-party app.</em> </p>
+
+<p>Major releases are not that unusual, but deprecating legacy resources and forcing developers to migrate to a major release is less common. Versioning and change management is something that is hard under any circumstance, requiring a great deal of communication between API provider and consumer. It is something that is often further balanced by giving developers an extended period of time to make a migration, before older APIs are deprecated. Facebook is notorious in the API industry for committing many of the sins that we collectively agree upon in the industry should be avoided when it comes to striking a balance in our API ecosystems.</p>
+
+<ul>
+  <li><strong>Communication</strong> - Facebook long has a reputation of poor communication around it’s releases, ensuring API consumers are prepared for the future, and are given enough time to evolve their integrations to keep pace with the removal of services. Communication is essential for helping keep an API developer community moving at the same pace as the platform, and is something that can easily be weaponized when it comes to keeping some partners informed of what is happening, while keeping others in the dark, making it difficult for competitors to keep up.</li>
+  <li><strong>Velocity</strong> - Mark Zuckerberg crafted the phrase, “Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.” This mantra is reflected in how they run their APIs, moving fast, making lots of changes, and quickly disposing of technical debt. This is something that makes it difficult for the API developer community to keep pace with, especially without proper communication and notification of what the future may hold.</li>
+  <li><strong>Breaking Changes</strong> - One of the core tenets of API development is that you do not introduce breaking changes in the design of your API with a release, unless it is deemed a major release (ie. 1.0, 2.0, 30). Again, Facebook is notorious for releasing mysterious breaking changes as part of their release process without much communication between why, breaking integrations along the way. When you are the one breaking things it is easy to make sure your applications and integrations keep up, but if you aren’t, your applications are always going to be left behind and be unreliable.</li>
+  <li><strong>Deprecation</strong> - API providers have different views of how long you keep older versions of APIs around before you deprecate them. Google often gives 18 months, while others will support in perpetuity – I believe Salesforce still supports many of its original APIs. However, Facebook regularly deprecates older versions of APIs shortly after the release of a newer version, giving developers months, weeks, or no notice before an API disappears, <a href="https://apievangelist.com/2017/12/04/facebook-quietly-deprecates-the-audience-insight-api-used-to-automate/">as Facebook did with their Audience Insight API in 2017</a>, giving no heads up that the controversial API would disappear, something you won’t find in their road map or change log – it just went away after regulatory scrutiny. </li>
+</ul>
+
+<p>Being able to deal with change is how you remain competitive. Weaponizing change on your platform so that you can punish and introduce friction for competitors is how you unfairly stay ahead in a fast moving game. Facebook’s anticompetitive practices were not limited to cutting off access to APIs, and setting an anticompetitive tone within the API community. It is also about weaponizing change and making it impossible for not just the competition to keep up, but also making it difficult for other application and integration developers to even get a foothold with their new and novel contributions to the market–something that hurts everyone, including Facebook.</p>
+
+<h3 id="finding-a-remedy-for-anticompetitive-behavior-at-the-api-layer">Finding a Remedy for Anticompetitive Behavior at the API Layer</h3>
+
+<p>Facebook’s anticompetive behavior is not original. It is a common abuse amongst platforms, and something I’ve seen and written about numerous times over the last decade. Facebook’s sins can be also seen on Twitter,and other platforms whose business models rely on advertising, rather than subscription or more direct approaches to revenue. The stakes are always higher when a platform is built using user-generated content and monetized via eyeballs and engagement. These are always the platforms whose APIs are wide open in the early days, and become more locked down and exploitative once the value, importance, and investment increases. APIs are a great way to build a platform, while incrementally over time ensuring that all or most of the value flows in your direction, and exploiting developers and end-users for the labor needed to generate all of the value.</p>
+
+<p>As stated by section 29 in the FTC filing, Facebook has been savvy in backing off or at least being more secretive about some of its anticompetitive practices, and even if there are repercussions for their acquisition of Instagram and WhatsApp, there is nothing stopping Facebook from continuing with their strategy, and finds ways to morph their anticompetive behavior by obfuscating it at the API layer.</p>
+
+<p><em>29. Today, Facebook’s course of conduct to unlawfully maintain its personal social networking monopoly continues, and must be enjoined. Facebook continues to hold and operate Instagram and WhatsApp, and continues to keep them positioned to provide a protective “moat” around its personal social networking monopoly. Facebook continues to look for competitive threats, and will seek to acquire them unless enjoined. Likewise, Facebook’s imposition of anticompetitive conditions on APIs continued until suspended—at least for the time being—in the glare of attention from governments and regulators around the globe. Facebook will resume those policies or equivalent measures unless enjoined.</em></p>
+
+<p>Facebook is in the business of constant evolution. It will keep morphing and evolving its strategy for dominating the personal social network, photo sharing, messaging, and any other dimensions it sees a key to its success. Facebook’s API layer has been how the platform has done this in the past, and it will be key to how it does it in the future. APIs are how Salesforce, Amazon, Google, Twitter, and others have built their platforms, and it is how they, and other tech platforms deal with change, remain agile and nimble, and remain competitive in a digital landscape. To help make sense of this fast moving, ever changing digital landscape you have to use the same tools that these platforms are employing to make sense of what is happening. You have to employ the very same tooling Facebook and these providers are using to their advantage, tapping into the APIs, and more specifically the API management layer that already exists to begin stabilizing the Internet using regulation in the same ways we stabilized energy, telecommunication, automobile, and other critical industries our economy and society depends upon.</p>
+
+<h3 id="a-quick-primer-on-api-management">A Quick Primer on API Management</h3>
+
+<p>The infrastructure Facebook uses to manage developer access to their APIs is widely known as API management infrastructure across the tech sector. API management began as a formal approach to managing API consumption in 2006 with the introduction of a startup called Mashery, which was eventually sold to Intel, and then to Tibco. Shortly after Mashery launched a wave of API management providers emerged to help companies secure and manage APIs at scale. After some consolidation of API management providers by 2015, API management has quickly become something that is baked into the fabric of the cloud, and is a fundamental offering on Amazon Web Services, Microsoft’s Azure, Google, IBM, and other cloud infrastructure platforms. </p>
+
+<p>API management is how you secure your digital assets and capabilities as an enterprise organization. It is how you strike a balance between making these resources accessible on the Internet and being able to retain control over who has access to these resources and the value that is generated around them. API management is defined by a couple of key features that you will find played a key role in shaping Facebook’s anticompetitive strategy.</p>
+
+<ul>
+  <li><strong>Accounts</strong> - Every developer is required to signup for an account if they expect to have access to an API, providing a minimum of name and email before they can gain access to any valuable API resources.</li>
+  <li><strong>Applications</strong> - Every developer is required to submit a definition of their application, providing a name and description of its purpose at a minimum, outlining what each developer will be building on top of an API.</li>
+  <li><strong>Keys</strong> - Once an account and application is approved, a set of keys are issued to a developer. These keys must accompany every request made to an API, providing essentially a user and password that authenticates a user, but also can be used to aggregate and report of usage by each developer. </li>
+  <li><strong>Plans</strong> - APIs can be organized into different access tiers or plans by the API provider. Providing a way to standardize access to digital resources and capabilities by different groups of API consumers. Defining what can be accessed by consumers, and what the business model (or lack of one) that will exist as part of the agreement between API provider and consumer.</li>
+  <li><strong>Rate Limiting</strong> - All API access is rate limited, allowing consumers to only access what their plan or access tier will allow. Ensuring that API consumers don’t overuse and abuse access to digital resources, without it being in alignment with the platform’s goals, while also protecting end-users.</li>
+  <li><strong>Logging</strong> - All API calls are logged, including the API consumers keys used to make each call, and the fingerprint of the application behind the consumption. Keeping a record of every call made to each API, and the consumer application behind each request.</li>
+  <li><strong>Reporting</strong> - API management is all about providing awareness of who is accessing what API resources, allowing both the API provider and in some cases the API consumer a dashboard of how APIs are being put to use, which resources are being access, and a whole range of other data points that are gathered on a regular basis as part of API operations.</li>
+</ul>
+
+<p>API management isn’t some new technological trend. It is a fundamental part of the cloud and how digital resources are made available in web, mobile, and device applications today. It is how digital resources are made available, while also keeping API consumers honest about how they are putting digital resources to work in their applications. API management quantifies and helps us visualize the value that is generated via platforms, measuring API activity in real time. API management is used to strike a balance with your API developer ecosystem, keeping a platform growing and evolving. It can also, as Facebook has demonstrated, be used to identify threats within your own ecosystem, then shut down or at least introduce friction into the applications you feel are a threat to your operations, making API management where you pull the knobs and levers of your anticompetitive digital strategy.</p>
+
+<h3 id="api-management-driving-anticompetitive-behavior">API Management Driving Anticompetitive Behavior</h3>
+
+<p>I have been studying APIs and API management for a decade now. I have seen this layer of platforms be used in many creative and innovative ways. I have also seen this layer of platforms be used in many anticompetitive ways. The API management layer is how Facebook sees the threats that exist on it’s own platform, and ultimately how it punishes it’s competitors. The API management layer is how Facebook requires API consumers to agree with it’s terms of service, and how it enforces it’s TOS. It is where Facebook decides to deprecate older versions of it’s APIs, while forcing everyone to migrate to newer versions. The API management layer is how, as the FTC filing states, Facebook is applying the anticompetitive conditioning portion of their business strategy. While the acquisition of Instagram and WhatsApp are the most visible outcomes of Facebook’s anti competitive strategy, the API management layer is where most of this behavior is playing out, and it where it will continue to morph and shape shift its strategy in coming years.</p>
+
+<h3 id="lack-of-observability-around-api-access-onboarding">Lack of Observability Around API Access Onboarding</h3>
+
+<p>Facebook knows exactly how many developers it has access to their APIs. They also know exactly how many applications are accessing their APIs. The wider Facebook community, and government entities have no visibility into who does or does not have access to Facebook resources and capabilities via their APIs. There is no official accounting of who uses Facebook APIs outside of Facebook, helping shine a light on which countries applications operate in, what industries they are applied to, or any other insights about what the landscape, let alone the competitive landscape looks like across the Facebook ecosystem. All of this information exists at the API management layer within Facebook, it is just that there is no motivation for Facebook to share this information with the public, or with regulatory authorities.</p>
+
+<h3 id="lack-of-observability-around-api-access-termination">Lack of Observability Around API Access Termination</h3>
+
+<p>Like onboarding with APIs, there is no observability into who gets their access to the Facebook APIs terminated. There is no accounting of who was terminated or why. All of this information exists at the API management layer at Facebook, but there is no incentive for Facebook to share this publicly or with regulators. There is no official accounting of who loses access to Facebook API, or whether or not this termination was justified or fair. There is no due process or official approach to contesting your loss of access to Facebook APIs. It is completely up to Facebook to terminate, and up to them whether they want to provide a reason, or whether the reason was honest and fully communicated. The API management layer provides us with everything we need to quantify whether Facebook, or any other platform is being fair and balanced in the termination of access to their APIs, we just need the will to make it available.</p>
+
+<h3 id="observable-regulatory-api-management-as-a-remedy">Observable Regulatory API Management as a Remedy</h3>
+
+<p>The answers we are looking for to help us understand in an ongoing way if Facebook, or other platforms are engaging in anticompetitive practices via their platforms exists today within the API management layer. The only thing lacking is that platforms are not compelled to make the outputs of their API management layer observable by outside interests. <a href="https://www.openbanking.org.uk/">There is a precedent in the United Kingdom for a more observable regulatory version of API management, within the banking industry</a> The UK government mandated that all banks adopt a set of standardized APIs across common resources like ATM locators, bank account, and credit card APIs, while also participating in an API management layer that is operated by a neutral entity, which brings the following elements to the regulatory table.</p>
+
+<ul>
+  <li><strong>API Definitions</strong> - Providing the definitions for each of the digital resources and capabilities being made available via APIs, so that which APIs are made available, as well as each version, are agreed upon in the interest of everyone involved.</li>
+  <li><strong>Accounts</strong> - API account signup and login are managed by a neutral authority, providing observability into who all of the actors are, as well as who onboards or is terminated as part of the regular goings on across the API ecosystem.</li>
+  <li><strong>Authentication</strong> - The authentication by developers with APIs is handled using a common set of industry standards as defined by the neutral entity, ensuring that all access is secured using common standards, and consistently applied across all APIs being regulated.</li>
+  <li><strong>Discovery</strong> - A directory of all API consumers is available, making a subset, as well as summary data available publicly, but also providing discoverability to regulators and other government stakeholders when it comes to defining the landscape of an API community. </li>
+  <li><strong>Management</strong> - The API management layer is standardized and externalized as part of the regulation of APIs. Each API provider, banks in this case, are required to implement the management layer as part of their operations, but the definition and oversight of what is API management is agreed upon and reported upon by the central body.</li>
+  <li><strong>Dispute Resolution</strong> - When API access is terminated, or other challenges arise within the API ecosystems, the central body provides dispute resolution between the provider and consumer, helping bring observability but also standardization and fairness to the discussion around termination or continuing the access to API resources by applications.</li>
+</ul>
+
+<p>API management provides us with many of the controls we need to put in place to help regulate the API access to digital resources and capabilities–it is how leading platforms have gotten where they are. We also have a precedent for how this ubiquitous approach to managing APIs can be externalized and run in a neutral way through a public and private sector partnership. We have the makings for a pretty straightforward approach for helping prevent Facebook from engaging in the same anticompetitive behavior they have been engaged in for the last decade–we just need the will to properly begin regulating the tech industry using their own infrastructure.</p>
+
+<h3 id="adding-a-government-access-plan-to-api-management">Adding a Government Access Plan to API Management</h3>
+
+<p>API management service providers deliver their API provider customers with a dashboard, and ironically, API access to this layer of their infrastructure. Meaning there is an API for accessing the logs behind who is accessing APIs. There is no reason that a regulatory access tier could be added to the API management layer by default, providing a summary of what is going on across a platform. This can be done in a way that protects the intellectual property of a platform like Facebook, as well as the privacy of end-users. It can be done in a way that doesn’t impact the performance of applications, or introduces friction into the already challenging work API developers encounter each day. All of the answers the FTC seeks to understand if Facebook is continuing to engage in anticompetitive behavior already exists, we just lack the API management plan to give them the access they need.</p>
+
+<h3 id="adding-a-researcher-access-plan-to-api-management">Adding a Researcher Access Plan to API Management</h3>
+
+<p>Facebook is going to continue to innovate, move fast, and break things when it comes to their platform, and API ecosystem. The company has made it clear they have very little interest in changing their behavior, and have only gotten better at apologizing and obfuscating along the way to stay off the radar of regulators. Even if regulators did impose a more observable approach to API management, Facebook is going to continue to innovate in how they reward partners and punish competitors when it comes to doing business on their platform. The pace and speed at which Facebook and other platforms move it will be also necessary to mandate a research plan at the API management layer where approved researchers can gain access to platform wide digital resources access and usage at the API management layer. Allowing researchers from universities and other institutions to come in and help quantify and make sense of what is happening in real time, helping bring operations into focus, while also helping regulators keep pace with Facebook and their strategy. Providing a secure, observable way to make sense of what is going on in real-time, helping minimize future abuse.</p>
+
+<h3 id="all-access-to-digital-resources-and-capabilities-go-through-apis">All Access to Digital Resources and Capabilities Go Through APIs</h3>
+
+<p>The first thing any tech person in the know will say to everything I have laid out is that Facebook will just route access to digital resources and capabilities outside the view of API management. Providing direct database and system access to trust partners, applications, integrations, and ensuring that only above the board activity shows up with the API management layer. Fair enough. Then Facebook should be required to route ALL external access to their digital resources and capabilities through their APIs. APIs are already the preferred approach of platforms when it comes to moving digital bits around, and making them available to partners–there is no technical or business argument for stating that APIs can’t be used. Platforms will make claims that APIs will slow things down, but there are plenty of high speed solutions available in the API toolbox, and API management can be done without injecting latency into API activity at any scale. Again, we have what we need to solve this problem, we just need the will to mandate that observably managed APIs become the normal mode of doing business today.</p>
+
+<h3 id="solving-platform-illnesses-beyond-just-anticompetitive-practices">Solving Platform Illnesses Beyond Just Anticompetitive Practices</h3>
+
+<p>While outside the scope of this FTC filing, the adoption of regulatory practices at the API management layer would have wider implications when it comes to addressing some of the illnesses that plague our online world today. Having a more observable API management layer would help address a couple of the top concerns we have when it comes to depending on platforms like Facebook.</p>
+
+<ul>
+  <li><strong>Data Exploitation</strong> - An observable, regulated API management layer would help reveal the type data exploitation of end users as we saw in the Cambridge Analytic scandal. To conduct it’s questionnaires and obtain access to the data of Facebook users, Cambridge Analytica had to sign up for API access, and provide a reason for their application. There is also an accounting of the number of OAuth tokens their applications would accrue every time a Facebook user provided access to Cambridge Analytica. The problem is Facebook wasn’t interested in punishing this type of behavior in the moment, until it became a problem for them. With a more observable API manamange layer, regulators and researchers could help identify these problems as they emerge, as opposed to willfully being blind as Facebook was because they were more concerned with their anticompetitive strategy, than they were with protecting end users.</li>
+  <li><strong>Breaches</strong> - If all digital resources are routed through APIs, and all API access is managed in a standard and observable way, the chances of a breach will be much lower. Breaches often occur via custom, unmaintained, and legacy infrastructure. If all applications and integrations are forced to go through a standardized API layer, possessing a standardized API management layer, situations like the Cambridge Analytica abuse which technically wasn’t a breach (but it was), and other malicious activity can be identified and addressed, even if it isn’t a priority of the platform provider.</li>
+</ul>
+
+<p>Modern API management infrastructure has been proven to help standardize and streamline how data, content, media, algorithms, and infrastructure can be securely made available online. APIs are behind every major shift of the last twenty years, and are at the heart of how Facebook rose to dominance, and executed their anticompetitive strategy. Leveraging these approaches to managing APIs would help in ensuring personal social networking, photos, messaging, and every other area of our online lives that Facebook touches enjoy healthy competition–which we all can agree will be better for everyone involved.</p>
+
+<h3 id="now-is-the-time-for-sensible-observable-regulation-of-technology-using-apis">Now Is the Time for Sensible, Observable Regulation of Technology Using APIs</h3>
+
+<p>I know that I am going to upset many people I know in the tech industry with this post. It is unforgivable in many libertarian corners of the tech sector to call for regulation of our industry. I disagree. Now is the time. If you look at other transformative industries like electricity, telecommunications, and transportation, which all were heavily technology driven, regulations have played an important role in not just taming and controlling industry, but also made them safer and more accessible for everyone. More importantly, it laid a more solid foundation for these industries to grow way beyond what their early entrepreneurs or investors envisioned. I am guessing that all of these people on the ground floors of these industries claimed the same thing in the early days of regulation of electricity, phones, and automobiles. Wildly missing the scope of how these technological advances impact our lives, and the role that government would play in actually making these the world changing industries they are today.</p>
+
+<p>I am writing this post, not because I believe in regulation, or hate Facebook. I am writing this because I believe in the potential of APIs when they are done in a balanced and observable way. I have witnessed APIs invade and alter almost every aspect of our now online, but also our offline lives over the last twenty years. I could see the potential of APIs when it came to commerce, social, cloud, mobile, and other major recent shifts in how our world works by 2010. But, by 2015 I was witnessing some pretty alarming behavior by leading API providers like Facebook, Twitter, Google, and others. To the point where I am pretty embarrassed by helping be a spokesperson of this industry. I am not trying to stick it to the tech sector with this suggestion that we use APIs and API management to regulate things. I am trying to take back the positive outcomes of using APIs from the greedy clutches of a few short sighted technology platforms. Ultimately I am convinced that there is even more money to be made, and even more innovation to occur, if we get down to the business of installing sensible regulation for the technology sector, and in my opinion, APIs are the key to getting it done. I am not under any delusion that this will be a quick fix for all that ails us, and I am pretty sure that initial legislation will not be sufficient. Not because we don’t have the right tools in our toolbox, but because of the lack of will and understanding among politicians, and the control the tech sector has over our government. However, this won’t stop me from trying, and I am guessing, based upon my experience so far in working with folks in DC, that I will be writing many more of these posts over the years, and working with waves of lawmakers wishing to make any change, until we reach a point where we can balance things back out a little bit, and wrestle back control from the tech platforms who dominate our lives today.</p>
+
+      </div>
+
+      <!-- Tags -->
+      
+      <div class="mt-4 pt-3 border-top">
+        
+          <a href="/search/?search=FTC&searchFields=tags" class="post-tag me-2">#FTC</a>
+        
+          <a href="/search/?search=Regulation&searchFields=tags" class="post-tag me-2">#Regulation</a>
+        
+          <a href="/search/?search=Facebook&searchFields=tags" class="post-tag me-2">#Facebook</a>
+        
+          <a href="/search/?search=Competition&searchFields=tags" class="post-tag me-2">#Competition</a>
+        
+      </div>
+      
+
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>December 12, 2020</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success"></span>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="widget-card">
+  <h5>Newsletter</h5>
+  <p class="text-muted small mb-2">Weekly highlights of stories, conversations, and API knowledge delivered Monday mornings.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/apievangelist" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/apievangelist', 'popupwindow')">
+    <input type="email" class="form-control form-control-sm mb-2" name="email" id="bd-email" placeholder="your@email.com" />
+    <button type="submit" class="btn btn-sm btn-success w-100">Subscribe</button>
+  </form>
+</div>
+
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        <div class="widget-card">
+  <h5>Live Conversations</h5>
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <span class="small text-muted">Tuesday 10:00 AM</span>
+    <a href="https://bit.ly/4qK9gZj" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <span class="small text-muted">Thursday 1:00 PM</span>
+    <a href="https://bit.ly/3O0gOsl" class="btn btn-sm btn-outline-success">Register</a>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="footer-ae py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>&copy; 2026 API Evangelist</span>
+      </div>
+      <div class="col-md-6 text-md-end mt-2 mt-md-0">
+        <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+        <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+        <a href="https://github.com/api-evangelist" class="text-muted text-decoration-none me-3">GitHub</a>
+        <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
