@@ -1,380 +1,80 @@
 ---
 layout: default
-section: Posts
-title: New Posts
-nav: Posts
-sub: By Year
 ---
 
-<script>
-  var postId = '{{ page.url }}';
-  console.log("postId:" + postId);
-</script>
+{% assign posts = page.url | split: "/" %}
+{% assign post_date = posts[1] | append: "-" | append: posts[2] | append: "-" | append: posts[3] | date: "%B %e, %Y" %}
 
-<style>
-  img{
-    max-width:600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-  }  
-  </style>
+<div class="row">
 
-<div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
-  You have made changes to the contract and will need to save.
-</div>
+  <!-- Main post content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
 
-<div id="commit-banner" class="alert alert-warning" role="alert" style="text-align: center; display: none;">
-  Changes have been made to this contract and will need committing to repo.
-</div>
+      <h1 class="mb-3">{{ page.title }}</h1>
 
-<div id="data-store" style="border: 1px solid #000; display: none;">
-  <input type="text" id="path" value="0">
-  <input type="text" id="page_start" value="0">
-  <input type="text" id="page_size" value="4">
-  <textarea id="posts-store" style="width: 100%; height: 350px;"></textarea>
-  <textarea id="policies-store" style="width: 100%; height: 350px;"></textarea>
-  <textarea id="rules-store" style="width: 100%; height: 350px;"></textarea>
-  <textarea id="review-store" style="width: 100%; height: 350px;"></textarea>
-  <textarea id="review-filter" style="width: 100%; height: 350px;">[]</textarea>
-</div>
+      <div class="d-flex align-items-center mb-4 text-muted small">
+        <span>{{ post_date }}</span>
+        {% if page.author %}
+          {% assign author = site.authors[page.author.name] %}
+        {% else %}
+          {% assign author = site.author %}
+        {% endif %}
+        <span class="mx-2">&middot;</span>
+        <span>{{ author.name }}</span>
+      </div>
 
-<div class="row gx-xl-9">
+      {% if page.image %}
+      <img src="{{ page.image }}" alt="{{ page.title }}" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      {% endif %}
 
-  <div class="col-12 col-xxl-4 order-xxl-1">
+      <div class="post-body">
+        {{ content }}
+      </div>
 
-    <div class="position-sticky mb-8" style="top: 2rem">
-      <div class="card bg-body">
-        <div class="card-body py-4">
-          <!-- List -->
-          <ul class="list-group list-group-flush bg-body mb-0">
-            
-            <!--Begin Save Post Button-->
-            <div style="display: none; border: 0px #FFF;" id="save-button-wrapper">
-              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
-                <span class="text-body-secondary text-danger"><strong>Save Post</strong></span>
-                <button id="save-button" type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#save-post">SAVE</button>
-              </li>  
-            </div> 
-            <!--End Save Post Button-->
+      <!-- Tags -->
+      {% if page.tags.size > 0 %}
+      <div class="mt-4 pt-3 border-top">
+        {% for tag in page.tags %}
+          <a href="/search/?search={{ tag }}&searchFields=tags" class="post-tag me-2">#{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
 
-            <!--Begin Commit Post Button-->
-            <div style="display: none; border: 0px #FFF;" id="commit-button-wrapper">
-              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
-                <span class="text-body-secondary text-danger"><strong>Commit Post</strong></span>
-                <button id="commit-button" type="button" class="btn btn-danger btn-sm" onclick="commitPost();">COMMIT</button>
-              </li>  
-            </div> 
-            <!--End Commit Post Button--> 
+      <!-- CTA -->
+      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
+        Have more questions after this post? <a href="https://apievangelist.com/contact/" style="color: var(--ae-green);">Let us know!</a>
+      </div>
 
-            {% assign posts = page.url | split: "/" %}
-            {% assign post_date = posts[1] | append: "-" | append: posts[2] | append: "-" | append: posts[3] %}
-            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
-              <span class="text-body-secondary">Published</span>
-              <time datetime="{{ post_date }}">{{ post_date }}</time>
-            </li>
+    </article>
+  </div>
 
-            {% if page.author %}
-              {% assign author = site.authors[page.author.name] %}
-            {% else %}
-              {% assign author = site.author %}
-            {% endif %}   
-            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
-              <span class="text-body-secondary">Author</span>
-              <span class="badge bg-success-subtle text-success">{{ author.name }}</span>
-            </li>                     
+  <!-- Sidebar widgets -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
 
-          </ul>
+      <!-- Post meta -->
+      <div class="widget-card mb-3">
+        <h5>About this post</h5>
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Published</span>
+          <time>{{ post_date }}</time>
+        </div>
+        <div class="d-flex justify-content-between small">
+          <span class="text-muted">Author</span>
+          <span class="badge text-bg-success">{{ author.name }}</span>
         </div>
       </div>
+
+      <!-- Newsletter -->
+      {% include newsletter-signup.html %}
+
+      <!-- Conversations -->
+      <div class="mt-3">
+        {% include live-conversations.html %}
+      </div>
+
     </div>
-
-    <div class="position-sticky mb-8" style="top: 2rem">
-      
-        {% include live-conversations.html %}            
-
-    </div>     
-
   </div>
 
-  <div class="col-12 col-xxl-8 order-xxl-0">
-
-    <section>
-      <div class="row">
-        <div class="col">
-  
-          <!-- Heading -->
-          
-          <h3 class="fs-3 mb-5" id="post-name-header" style="text-align: center;">{{ page.title }}</h3>
-          <center><img src="{{ page.image }}" width="95%" align="center" style="padding: 15px;" id="post-image-header"></center>      
-          <!-- Text -->
-          <p id="post-description-paragraph">{{ content }}</p>
-  
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="row">
-        <div class="col">
-          <style>
-            ul.cloud {
-              list-style: none;
-              padding-left: 0;
-              display: flex;
-              flex-wrap: wrap;
-              align-items: center;
-              justify-content: center;
-              line-height: 1.5rem;
-            }
-            ul.cloud a {
-              color: #a33;
-              display: block;
-              font-size: 1.5rem;
-              padding: 0.125rem 0.25rem;
-              text-decoration: none;
-              position: relative;
-              opacity: calc((15 - (9 - var(--size))) / 15); 
-            }
-
-            ul.cloud a[data-weight="1"] { --size: 1; }
-            ul.cloud a[data-weight="2"] { --size: 2; }
-            ul.cloud a[data-weight="3"] { --size: 3; }
-            ul.cloud a[data-weight="4"] { --size: 4; }
-            ul.cloud a[data-weight="5"] { --size: 5; }
-            ul.cloud a[data-weight="6"] { --size: 6; }
-            ul.cloud a[data-weight="7"] { --size: 7; }
-            ul.cloud a[data-weight="8"] { --size: 8; }
-            ul.cloud a[data-weight="9"] { --size: 9; }
-
-            ul.cloud li:nth-child(2n+1) a { --color: #181; }
-            ul.cloud li:nth-child(3n+1) a { --color: #33a; }
-            ul.cloud li:nth-child(4n+1) a { --color: #c38; }
-          </style>
-
-          <ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
-            {% for tag in page.tags %}  
-              <li><a data-weight="4" href="/search/?search={{ tag }}&searchFields=tags" style="text-decoration: underline;">#{{ tag }}</a></li>
-            {% endfor %}   
-          </ul>    
-        </div>
-      </div>
-    </section>    
-
-    <div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center;">
-      Have more questions after this post? <a href="https://apievangelist.com/contact/">Let us Know!</a>
-    </div>    
-
-    <section class="mb-8">   
-      
-      <script>
-        var require = { paths: { vs: '/assets/js/monaco-editor/min/vs' } };
-      </script>
-      <script src="/assets/js/monaco-editor/min/vs/loader.js"></script>
-      <script src="/assets/js/monaco-editor/min/vs/editor/editor.main.js"></script>          
-
-      <div class="accordion" id="postEditorBox">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#postEditorWrapper" aria-expanded="true" aria-controls="postEditorWrapper">
-              Editor
-            </button>
-          </h2>
-          <div id="postEditorWrapper" class="accordion-collapse collapse show" data-bs-parent="#postEditorBox">
-            <div class="accordion-body">
-
-            <!-- Post Editor Listing -->
-            <a name="monaco"></a>
-            <div id="post-editor" style="width: 100%; height: 450px; margin: 10px;"></div>
-            <script>
-              var PostEditor = monaco.editor.create(document.getElementById('post-editor'), {
-                value: [''].join('\n'),
-                language: 'markdown',
-                options:{
-                      wordWrap: "on",
-                    }       
-              });
-
-              PostEditor.updateOptions({ wordWrap: "on" })
-              PostEditor.getModel().onDidChangeContent((event) => {
-                if(event.isFlush){
-                  // Setting up
-                }
-                else{
-                  savePostLocal(); 
-                }
-              });        
-            </script>  
-            <!-- Post Properties Listing -->
-
-          </div>
-        </div>
-      </div>
-      </div>         
-    
-    </section>   
-    <!-- End Post Editor -->         
-
-  </div>
 </div>
-
-<script>  
- 
-  document.getElementById("postEditorWrapper").classList.remove('show');
-
-  function getPost(){
-
-    const options = {
-        method: 'GET'
-    };  
-    fetch('{{ site.postsApiBaseUrl }}/posts' + postId,options)
-        .then(function(response) {
-            if (!response.ok) {
-                console.log('Error with Status Code: ' + response.status);
-            }
-            response.json().then(function(response) {               
-
-              var post = response.data.post;
-              //post = post.replace(">-","");
-              post = post.trim();
-              var converter = new showdown.Converter(),
-              body_html = converter.makeHtml(response.data.body);
-              
-              document.getElementById("post-name-header").innerHTML = response.data.title;
-              //document.getElementById("post-image-header").src = response.data.image;
-              //document.getElementById("post-description-paragraph").innerHTML = body_html;
-            
-              PostEditor.setValue(post);
-
-              // Any changes?
-              if(response.data.changes == 1){
-                document.getElementById("commit-banner").style.display = '';
-                document.getElementById("commit-button-wrapper").style.display = '';             
-              }              
-
-
-            });
-          })
-          .catch(function(err) {
-              console.log('Error: ' + err);
-      });  
-  }
-
-
-  getPost();
-  
-  // Edit Post Modal Save
-  function savePostLocal(){
-  
-    var post_yaml = PostEditor.getValue();
-    var post = jsyaml.load(post_yaml);
-  
-    var postName = post.name
-    var postDescription = post.description;
-
-    // Update Post
-    document.getElementById("post-name-header").innerHTML = postName;
-    document.getElementById("post-description-paragraph").innerHTML = postDescription;
-    
-    //post_yaml = jsyaml.dump(post);  
-    //PostEditor.setValue(post_yaml);  
-  
-    document.getElementById("save-banner").style.display = '';
-    document.getElementById("save-button-wrapper").style.display = '';
-  
-    document.getElementById("commit-banner").style.display = 'none';
-    document.getElementById("commit-button-wrapper").style.display = 'none'; 
-  
-  }
-  
-  function savePost(){
-
-    var organization = "api-evangelist";
-  
-    if(Cookies.get('access_token')){
-
-      var changes_name = document.getElementById("post-changes-name").value;
-      var changes_description = document.getElementById("post-changes-description").value;
-    
-      var post_yaml = PostEditor.getValue();
-      var post_json = jsyaml.load(post_yaml);    
-    
-      const options = {
-        method: 'put',
-        headers: {
-            "Content-Type": "application/json"                 
-        },    
-        body: JSON.stringify(post_json)
-      };
-      var github_url = '{{ site.postsApiBaseUrl }}/posts/' + postId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
-      //console.log(github_url);
-      fetch(github_url, options)
-        .then(function (response) {
-          if (!response.ok) {
-            document.getElementById("error-banner").style.display = '';
-            document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
-          }
-          response.json().then(function (response) {
-            //savePost();    
-          });
-        })
-        .catch(function (err) {
-          console.log('Error: ' + err);
-        });
-  
-      document.getElementById("save-banner").style.display = 'none';
-      document.getElementById("save-button-wrapper").style.display = 'none';    
-  
-      document.getElementById("commit-banner").style.display = '';
-      document.getElementById("commit-button-wrapper").style.display = '';   
-  
-    }
-    else{
-      document.getElementById("error-banner").style.display = '';
-      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to update a post!';
-    }
-
-  }
-
-function commitPost(){
-  
-  var organization = "api-evangelist";
-
-  if(Cookies.get('access_token')){
-
-    const options = {
-      method: 'put',
-      headers: {
-          "Content-Type": "application/json"                 
-      }
-    };
-
-    var github_url = '{{ site.postsApiBaseUrl }}/posts/' + postId + '/commit?organization=' + organization;
-    console.log(github_url);
-    fetch(github_url, options)
-      .then(function (response) {
-        if (!response.ok) {
-          document.getElementById("error-banner").style.display = '';
-          document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
-        }
-        response.json().then(function (response) {
-          if(response.data.file){
-            commitPost();
-          }
-          else{
-            document.getElementById("commit-banner").style.display = 'none';
-            document.getElementById("commit-button-wrapper").style.display = 'none';  
-          }         
-        });
-      })
-      .catch(function (err) {
-        console.log('Error: ' + err);
-      });
-    }
-    else{
-      document.getElementById("error-banner").style.display = '';
-      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a post!';
-    }      
-
-}
-  </script>
