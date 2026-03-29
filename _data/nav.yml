@@ -95,13 +95,6 @@
         - name: GitHub
           href: https://github.com/api-evangelist                               
                                                 
-    - name: Partner
-      symbol: handshake
-      sub:
-
-        - name: Information
-          href: https://partners.apievangelist.com    
-
     - name: Toolbox
       symbol: construction
       sub:
