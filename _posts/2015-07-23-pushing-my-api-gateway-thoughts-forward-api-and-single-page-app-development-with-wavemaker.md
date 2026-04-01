@@ -1,14 +1,11 @@
 ---
 layout: post
-title: >-
-  Pushing My API Gateway Thoughts Forward: API and Single Page App Development
-  with Wavemaker
+title: 'Pushing My API Gateway Thoughts Forward: API and Single Page App Development with Wavemaker'
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
-  - My
-  - Gateway
+- Gateway
 ---
 I open up my Thursdays to briefings, calls, demos and other phone, skype, and hangout related activities. This morning I received a walk-through of the [Wavemaker Online platform](https://www.wavemakeronline.com), and got a look at the intersection of API design and API gateway in this new cloud-based, single page application design studio. 
 

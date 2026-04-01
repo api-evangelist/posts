@@ -1,18 +1,15 @@
 ---
 layout: post
-title: >-
-  APIMATIC Adds New API Validation Endpoint To Their API Client Code Generation
-  API Stack
+title: APIMATIC Adds New API Validation Endpoint To Their API Client Code Generation API Stack
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
-  - Client
-  - Validation
-  - Stack
-  - Generation
-  - Code Generation
-  - Code
+- Client
+- Validation
+- Generation
+- Code Generation
+- Code
 ---
 I am working hard to [establish a complete set of APIs for my own API stack](https://kin-lane.github.io/master/) which includes establishing complete Swagger definitions for the 25 APIs that I personally operate. These Swagger definitions are then used to generate [Postman Collections](http://alpha.apievangelist.com/2015/04/07/including-postman-collections-in-my-apisjson-files/), [APIMATIC SDKs](http://alpha.apievangelist.com/2015/06/06/adding-apimatic-sdks-to-my-master-stack-and-including-in-each-apisjson/), and [API Science monitors](http://alpha.apievangelist.com/2015/06/06/adding-api-science-monitors-to-my-master-stack-and-including-in-each-apisjson/). I am also [working hard to establish complete Swagger definitions for the 1000 companies in my API Stack](http://theapistack.com/), something I am partnering with [APIMATIC](https://apimatic.io) on. 
 

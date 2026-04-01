@@ -1,15 +1,14 @@
 ---
 layout: post
 title: 420% Growth In DNS API Usage Over At Dyn
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dyn-api-request.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dyn-api-request.png
 author:
   name: kinlane
 tags:
-  - DNS
-  - Growth
-  - Usage
-  - 4
+- DNS
+- Growth
+- Usage
+- '4'
 ---
 The folks over at [Dyn](http://dyn.com/) who provide traffic, message, remote access and domain services, including a suite of SOAP and REST based APIs, have [released some interesting stats on their API usage](http://dyn.com/blog/research-dynect-api-usage-managed-dns/ "Dyn").
 

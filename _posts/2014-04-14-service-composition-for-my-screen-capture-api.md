@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-composer.png
 author:
   name: kinlane
 tags:
-  - My
-  - Screen Capture
+- Screen Capture
 ---
 I now have a pretty simple [screen capture API](http://screen-capture.apievangelist.com/). You can pass it a URL and it gives you back a PNG image file of that website. Meeting my definition of a simple utility API. I use this API in my own platform, capturing what websites and applications look like for reference in stories, and other content.
 

@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Exploring The Possibilities of Being An API Broker
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-broker.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-broker.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- APIs.json
+- Authentication
+- Business
+- Data
+- Documentation
+- Evangelism
 ---
 I’m playing around with different ways of building API collections using [APIs.json](http://apisjson.org/), and building on a concept I saw introduced by [Cyril Gaillard’s story titled "I don’t need a business co-founder, I need an API broker](https://medium.com/@cyrilgaillard/i-dont-need-a-business-co-founder-i-need-an-api-broker-c9be536cf8fa)", something which was expanded on by Patricio Robles ([@probles](https://twitter.com/probles)) on [ProgrammableWeb with "would your company benefit from having an API broker](http://www.programmableweb.com/news/would-your-company-benefit-having-api-broker/analysis/2014/09/29)?"
 

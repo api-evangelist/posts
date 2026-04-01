@@ -1,14 +1,11 @@
 ---
 layout: post
-title: >-
-  Do My APIs Have The Skills They Need To Compete In A Voice And Bot Enabled
-  World?
+title: Do My APIs Have The Skills They Need To Compete In A Voice And Bot Enabled World?
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-skills.png
 tags:
-  - My
-  - Voice
-  - Skills
-  - APIs
+- Voice
+- Skills
+- APIs
 ---
 I'm evaluating the [Alexa Voice Service ecosystems](https://developer.amazon.com/public/solutions/alexa) alongside leading API messaging platforms like Telegram, and Slack, who are changing the way users engage and communicate, but also are evolving how we are putting our API driven resources to work. As I do this research, I keep finding myself coming [back to Amazon's concept of an Alexa Skill](https://developer.amazon.com/appsandservices/solutions/alexa/alexa-skills-kit), and thinking about how it applies to average everyday APIs like mine.
 

@@ -2,16 +2,14 @@
 published: true
 layout: post
 title: Harmonizing API Definitions Across Government With The U.S. Data Federation
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/usdf_logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/usdf_logo.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Data
-  - Government
-  - Definition
-  - Federation
+- Definitions
+- Data
+- Government
+- Federation
 ---
 Sharing of [API definitions](http://definitions.apievangelist.com/) is critical to any industry or public sector where APIs are being put to work. If the API sector is going to scale effectively, it needs to be reusing common patterns, something that many API and open data providers have not been that great at historically. While this is critical in any business sector, there is no single area where this needs to happen more urgently than within the public sector.
 

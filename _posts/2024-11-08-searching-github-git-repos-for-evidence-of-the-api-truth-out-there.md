@@ -3,12 +3,10 @@ published: true
 layout: post
 title: Searching GitHub (Git) Repos for Evidence of the API Truth Out There
 tags:
-  - Source Control
-  - GitHub
-  - Git
-  - Source of Truth
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-los-angeles-downtown-from-afar.jpg
+- Source Control
+- GitHub
+- Source of Truth
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-los-angeles-downtown-from-afar.jpg
 ---
 I just wired up the GitHub search for my new API Evangelist platform, alongside Google and Bing—-all designed for helping me find evidence of any public APIs, but also across my private and partner APIs. I am hyper aware of the nuance of how Bing, Google, and GitHub search all work, but also the nuance of each of these search API interfaces when it comes to looking for artifacts that contain evidence of APIs. There are pros and cons of each of these areas, and I find GitHub to be a fascinating area because of the foundational role Git and GitHub plays in the enterprise, but also on the open web. GitHub is a treasure trove of public and private API evidence, and where almost anyone should begin when it comes to monitoring the source of truth for APIs. 
 

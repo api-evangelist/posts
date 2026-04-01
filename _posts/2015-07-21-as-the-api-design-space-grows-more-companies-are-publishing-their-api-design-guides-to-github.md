@@ -1,18 +1,14 @@
 ---
 layout: post
-title: >-
-  As The API Design Space Grows, More Companies Are Publishing Their API Design
-  Guides to Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-design-guide.png
+title: As The API Design Space Grows, More Companies Are Publishing Their API Design Guides to Github
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-design-guide.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Design
-  - Guides
-  - Publishing
-  - Git
+- Github
+- Design
+- Guides
+- Publishing
 ---
 [I recently went through my API design research](http://design.apievangelist.com/), updating and evolving it, to help me better understand changes in the API design space, while also sharing as much of the information as I can with my readers. [One of the resources I include under my tools section are the increasing number of API design guides being published](http://design.apievangelist.com/tools.html). 
 

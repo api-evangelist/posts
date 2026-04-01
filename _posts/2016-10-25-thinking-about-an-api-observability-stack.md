@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Thinking About An API Observability Stack
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/datadog_observability_dashboard.png
-atomdate: 2016-10-25T18:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/datadog_observability_dashboard.png
+atomdate: 2016-10-25 18:00:00+00:00
 tags:
-  - Observability
-  - Stack
+- Observability
 ---
 I am learning about [observability](https://en.wikipedia.org/wiki/Observability) from reading Stripes [post on Veneur, a high performance and global aggregation for Datadog](https://stripe.com/blog/introducing-veneur-high-performance-and-global-aggregation-for-datadog). While the math of it all is over my head, the definition makes a lot of sense and provides me with a nice Venn diagram overlap across [several areas of my API research](http://apievangelist.com), including testing, monitoring, logging, analysis, and visualization.
 

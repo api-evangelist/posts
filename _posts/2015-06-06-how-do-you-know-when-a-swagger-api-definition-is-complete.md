@@ -1,13 +1,12 @@
 ---
 layout: post
 title: How Do You Know When A Swagger API Definition is Complete?
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round-certified.png
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round-certified.png
 author:
   name: kinlane
 tags:
-  - Definition
-  - Swagger
+- Definitions
+- Swagger
 ---
 As I go through [the research from APIMATIC regarding automatically generating client code using Swagger](http://apievangelist.com/2015/06/06/comparison-of-automatic-api-code-generation-tools-for-swagger/), and I prepare to crank out Swagger definitions for almost [1000 companies in the API Stack](http://theapistack.com/), one big question I face is, what exactly is a complete Swagger definition?
 

@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Gathering My Thoughts With APIs In Higher Education
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/priorities/university-of-api.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/priorities/university-of-api.png
 author:
   name: kinlane
 tags:
-  - My
-  - Education
-  - APIs
+- Education
+- APIs
 ---
 I had too many scribbles in my Evernote about work I’m doing for [APIs in higher education](http://university.apievangelist.com/index.html), so I decided I need to publish as a story, which hopefully will help me organize my thoughts, figure out my next moves, and share what I’m doing to a couple of folks who asked what I’m up to in this area.
 

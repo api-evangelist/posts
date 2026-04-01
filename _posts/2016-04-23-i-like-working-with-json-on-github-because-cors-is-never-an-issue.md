@@ -1,12 +1,10 @@
 ---
 layout: post
 title: I Like Working With JSON On Github Because CORS Is Never An Issue
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cross-origin-resource-sharing-cors.png
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cross-origin-resource-sharing-cors.png
 tags:
-  - Github
-  - JSON
-  - Git
+- Github
+- JSON
 ---
 I tend to only work in environments where I have full control over the server, so Cross-origin resource sharing (CORS) is never really an issue for any of the APIs I have control over, but is a pervasive problem for APIs, and JSON files I come across on the web. This is one of the reasons I really enjoy the fact that I publish all of my JSON driven, hacker storytelling projects using Github Pages and Jekyll.
 

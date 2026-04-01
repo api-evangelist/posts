@@ -1,19 +1,16 @@
 ---
 layout: post
-title: >-
-  IRS Modernized e-File (MeF): A Blueprint For Public &amp; Private Sector
-  Partnerships In A 21st Century Digital Economy (DRAFT)
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-irs-logo.jpg
+title: 'IRS Modernized e-File (MeF): A Blueprint For Public &amp; Private Sector Partnerships In A 21st Century Digital Economy
+  (DRAFT)'
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-irs-logo.jpg
 author:
   name: kinlane
 tags:
-  - Economy
-  - Partners
-  - Blueprint
-  - Public
-  - Digital
-  - Partnership
+- Economy
+- Partners
+- Blueprint
+- Digital
+- Partnership
 ---
 [Download as PDF](http://bit.ly/147BfVv)
 

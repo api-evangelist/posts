@@ -1,18 +1,15 @@
 ---
 published: true
 layout: post
-title: >-
-  The Average Person Will Never Care About APIs Until It Does Something
-  Meaningful
-date: 2017-11-30T11:00:00.000Z
+title: The Average Person Will Never Care About APIs Until It Does Something Meaningful
+date: 2017-11-30 11:00:00+00:00
 tags:
-  - API Evangelist
-  - 101
-  - Evangelism
-  - Politics of APIs
-  - Communication
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/17_88_800_500_0_max_0_-5_-5.jpg
+- API Evangelist
+- '101'
+- Evangelism
+- Politics of APIs
+- Communication
+image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/17_88_800_500_0_max_0_-5_-5.jpg
 ---
 <p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/17_88_800_500_0_max_0_-5_-5.jpg" align="right" width="45%" style="padding: 15px;" /></p>I am always looking for ways to introduce people to the concept of APIs, and that they are right below everything digital you do in your daily life. Even with my prolific writing, and sharing on social media, the number of new converts to API awareness are relatively low. I'm alright with what I do not scaling. I'm in this for the long haul, not to sell products or services. I'm looking to help turn on the API light for people not because I want them building the next API, I want to help enlighten folks so that they can take more control over their digital presence, and push back on the platforms and algorithms that are increasingly dominating our lives.
 

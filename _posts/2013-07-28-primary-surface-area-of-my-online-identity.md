@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Primary Surface Area of My Online Identity
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/KinLane-04-2012-Headshot-3-250.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/KinLane-04-2012-Headshot-3-250.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Identity
+- Identity
 ---
 I am always working to define myself, in both the physical world and the virtual one that has become an increasing part of my identity. As part of this work, I'm spending some time trying to understand the primary surface area of online identity. Sure there are other aspects, but this is the face that most of you will see.
 

@@ -1,18 +1,13 @@
 ---
 layout: post
-title: >-
-  Savvy API Providers Submit Pull Requests To Update Their OpenAPI Specs In My
-  Github Repo
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Update_SendGrid_Swagger_File_by_thinkingserious_Â·_Pull_Request__42_Â·_api-stack_api-stack.png
+title: Savvy API Providers Submit Pull Requests To Update Their OpenAPI Specs In My Github Repo
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Update_SendGrid_Swagger_File_by_thinkingserious_Â·_Pull_Request__42_Â·_api-stack_api-stack.png
 tags:
-  - My
-  - Github
-  - OpenAPI
-  - Providers
-  - Open
-  - Specs
-  - Git
+- Github
+- OpenAPI
+- Providers
+- Open
+- Specs
 ---
 I'm constantly working to hand-craft, scrape-craft, and auto-generate [OpenAPI Specs](https://github.com/OAI/OpenAPI-Specification), and [APIs.json](http://apisjson.org/) files for as many of the top APIs I can. It is something Steve Willmott ([@njyx](https://twitter.com/njyx)), the CEO of [3Scale](http://3scale.net) always flicks me shit about, saying I shouldn't have to do that--API providers should be doing this! While I agree, I feel like we haven't reached the point where all providers understand the importance of having an up to date OpenAPI Spec available for their API (some even have them, and work to hide them!)
 

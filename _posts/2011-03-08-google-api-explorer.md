@@ -5,7 +5,14 @@ url: http://apievangelist.com/2011/03/08/google-api-explorer/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Authentication
+- Discovery
+- Documentation
+- Google
+- Search
 ---
 Just days after Apigee made their [API explorer free and embeddable](http://apievangelist.com/2011/03/07/apigee-api-console-is-now-free-for-everyone-to-use/ "Apigee API Explorer"), Google has [announced a new API Explorer](http://googlecode.blogspot.com/2011/03/introducing-google-apis-explorer.html "Google API Explorer").
 

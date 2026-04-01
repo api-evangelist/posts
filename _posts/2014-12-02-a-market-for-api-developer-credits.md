@@ -4,7 +4,15 @@ title: A Market For API Developer Credits
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-pricing-request.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Monetization
+- Plans
+- Standards
+- Strategy
+- Twitter
 ---
 This story gets file into the “way in future” bucket, because the infrastructure needed to make happen doesn't even exist. Beyond research from API grandfather John Musser ([@johnmusser](https://twitter.com/johnmusser)), and a few other blog posts or conference decks, there is no standardization of monetization strategies and pricing across APIs—making my idea impossible currently.
 

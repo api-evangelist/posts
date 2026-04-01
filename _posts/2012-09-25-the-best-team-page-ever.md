@@ -1,11 +1,16 @@
 ---
 layout: post
 title: The Best Team Page Ever!!
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/singly-logo_300.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/singly-logo_300.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Evangelism
+- Github
+- Social
 ---
 When it comes to any business, you want to showcase your team, and the value they bring to the table.  
 

@@ -1,11 +1,16 @@
 ---
 layout: post
 title: What Exactly Does Your API Do?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dailymotion-dev-portal-screenshot.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dailymotion-dev-portal-screenshot.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Design
+- Documentation
+- Evangelism
+- Management
 ---
 A short, concise, portable description of what your API does, is one of the most critical building blocks of API management, and is essential to reducing friction when new users are on-boarding with any API. It can be easy to design, and populate your API developer portal from a perspective that is very much in the know. I do it all the time, structuring your portal to reach the widest possible audience can be hard—it is why I’m here! ;-)
 

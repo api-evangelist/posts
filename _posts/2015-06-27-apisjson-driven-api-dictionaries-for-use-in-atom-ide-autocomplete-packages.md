@@ -1,16 +1,14 @@
 ---
 layout: post
 title: APIs.json Driven API Dictionaries For Use In Atom IDE Autocomplete Packages
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/atom-editor/atom-editor-logo.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/atom-editor/atom-editor-logo.jpg
 author:
   name: kinlane
 tags:
-  - IDE
-  - APIs.json
-  - APIs
-  - Packages
-  - APIs.jso
+- IDE
+- APIs.json
+- APIs
+- Packages
 ---
 I have been using the [Atom editor](https://atom.io/) when I work on local files on my workstation for some time now. With the latest version 1.0 release I took a fresh look at the architecture, and under the hood at the packages that make the platform so powerful, and extensible. One of the packages I was reverse engineering this weekend, is the [Atom API Autocomplete Package](https://github.com/atom/autocomplete-atom-api).
 

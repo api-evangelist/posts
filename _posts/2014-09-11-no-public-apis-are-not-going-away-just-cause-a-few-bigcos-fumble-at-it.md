@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-fail.jpg
 author:
   name: kinlane
 tags:
-  - Public
-  - APIs
+- APIs
 ---
 I saw another story about whether or not public APIs are going away, which is another story in a fairly long line of stories I’m seeing lately from enterprise outlets about whether or not the demise of Netflix, ESPN, and now Aetna means public APIs are a bad idea, unsustainable and now will be going away—proving enterprise API architects right that an SOA is the way to go.
 

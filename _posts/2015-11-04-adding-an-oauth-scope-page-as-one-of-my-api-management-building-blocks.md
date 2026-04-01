@@ -1,17 +1,15 @@
 ---
 layout: post
 title: Adding An OAuth Scope Page As One Of My API Management Building Blocks
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/slack-oauth-scopes.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/slack-oauth-scopes.png
 author:
   name: kinlane
 tags:
-  - My
-  - Management
-  - API Management
-  - OAuth
-  - Scope
-  - ddi
+- Management
+- API Management
+- OAuth
+- Scope
+- ddi
 ---
 [I've had a handful of suggested building blocks when it comes to authentication, as part of my API management research](http://management.apievangelist.com/building-blocks.html), but after taking a look at the [OAuth Scopes page for the Slack API](https://api.slack.com/docs/oauth-scopes), I'm going to add another building block just for listing out OAuth scopes.
 

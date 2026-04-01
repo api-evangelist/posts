@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Using The Crunchbase API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/crunchbase-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/crunchbase-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Data
+- Documentation
+- Education
+- Evangelism
+- Google
 ---
 [Audrey](http://hackeducation.com/) came to me last night and said she had a project that she wanted to tackle, using the [CrunchBase API](http://developer.crunchbase.com/). She wanted to pull a list of education startups that were founded in 2010-2012, showing their investments, CEO, founders and other related company information.
 

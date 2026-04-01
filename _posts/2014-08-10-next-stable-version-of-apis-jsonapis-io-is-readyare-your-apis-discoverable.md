@@ -1,18 +1,15 @@
 ---
 published: true
 layout: post
-title: >-
-  Next Stable Version of APIs.json + APIs.io Is Ready - Are Your APIs
-  Discoverable?
+title: Next Stable Version of APIs.json + APIs.io Is Ready - Are Your APIs Discoverable?
 image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png
 author:
   name: kinlane
 tags:
-  - Discover
-  - APIs.json
-  - APIs
-  - APIs.io
-  - APIs.jso
+- Discovery
+- APIs.json
+- APIs
+- APIs.io
 ---
 Steve ([@njyx](https://twitter.com/njyx)), Nicolas ([@picsoung](https://twitter.com/picsoung)), and I have been working hard to gather all the feedback from some very smart folks on the [API.json format](http://apisjson.org/). Now we are stoked to finally announce that we have the [0.14 version](http://apisjson.org/format.html) ready for prime time. Our goal with the first version of APIs.json, was to just get the idea out there to get feedback from the community, and after four iterations, we feel like the format is now something the community can really build on.
 

@@ -1,19 +1,15 @@
 ---
 layout: post
-title: >-
-  Storing API Keys In The Private Master Github Repository For Use In Github
-  Pages
-sourceurl: >-
-  http://apievangelist.com/2015/01/14/storing-api-keys-in-the-private-master-github-repository-for-use-in-github-pages/
+title: Storing API Keys In The Private Master Github Repository For Use In Github Pages
+sourceurl: http://apievangelist.com/2015/01/14/storing-api-keys-in-the-private-master-github-repository-for-use-in-github-pages/
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-key.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Github Pages
-  - Keys
-  - Git
-  - Repository
+- Github
+- Github Pages
+- Keys
+- Repository
 ---
 My [public websites have been running on Github Pages for almost two years now](http://kinlane.com/2013/01/02/all-side-projects-are-now-hosted-on-github/), and slowly the private management tools for my platform are moving there as well. Alongside my public websites, I’m adding administrative functions for each projects. Most of the content is API driven already, so it makes sense to put some of the management tools side by side with the content or data that I’m publishing.
 

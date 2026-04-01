@@ -2,11 +2,14 @@
 published: true
 layout: post
 title: Simplifying oAuth With oAuth.io
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/oauth-io-gear.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/oauth-io-gear.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Authentication
+- Integration
 ---
 Securely accessing API with oAuth can be one of the bigger pains in the ass for developers. Poor understanding of how oAuth works and often lack of good client libraries, can make API authentication a hurdle developers can't jump over.
 

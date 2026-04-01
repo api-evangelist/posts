@@ -1,11 +1,10 @@
 ---
 layout: post
 title: The Unlimited Possibilities When You Become API Definition Fluent
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/apimatic_dx_kits.png
-atomdate: 2017-02-08T20:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/apimatic_dx_kits.png
+atomdate: 2017-02-08 20:00:00+00:00
 tags:
-  - Definition
+- Definitions
 ---
 I was a regular check-in with one of my favorite API service providers this week, talking about some of the new features they are rolling out in coming weeks, and they demonstrated for me why API definitions are so important in 2017.  [APIMATIC](http://apimatic.io) got their start deploying SDKs for your API, but have quickly moved into providing API documentation, testing, continuous integration, and some additional stops that they have planned for release in coming months.
 

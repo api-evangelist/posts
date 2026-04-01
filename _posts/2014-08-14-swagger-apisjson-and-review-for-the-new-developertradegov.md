@@ -1,16 +1,14 @@
 ---
 layout: post
 title: Swagger, APIs.json, And Review For The New Developer.Trade.gov
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/trade-gov/developer-trade-gov.png
+image: https://s3.amazonaws.com/kinlane-productions2/federal-government/trade-gov/developer-trade-gov.png
 author:
   name: kinlane
 tags:
-  - Review
-  - APIs.json
-  - Swagger
-  - APIs
-  - APIs.jso
+- Review
+- APIs.json
+- Swagger
+- APIs
 ---
 I got a gentle ping today, as I often do when there is a new developer hub or API launched in the federal government. This time it was located within the Department of Commerce, for the International Trade Administration, and was a new developer area, with five APIs at [Developer.Trade.Gov](http://developer.trade.gov/).
 

@@ -1,12 +1,10 @@
 ---
 layout: post
 title: 'Deploy API: MySQL to API'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-mysql.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-mysql.png
 author:
   name: kinlane
-tags:
-  - My
+tags: []
 ---
 I'm working on a series of simple scripts that help people deploy APIs from some of the most common data sources. I'm starting with a series of PHP scripts, and first up is MySQL to API.
 

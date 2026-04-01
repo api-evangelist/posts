@@ -4,7 +4,15 @@ title: A Cleaner, Simpler Example of API To SPA
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-single-page-apps.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Definitions
+- Deployment
+- Design
+- Github
+- Hypermedia
+- Swagger
 ---
 [One of my areas of research that got boost of energy at Gluecon last week, was the area of Single Page Applications, aka SPAs](http://spa.apievangelist.com/). SPAs are one huge area of potential growth for the API space, but like many other areas, they haven't seen the wider, more meaningful deployments, or adoption, that I had hoped for early on. I think up until now the definition of what an SPA is has been heavily dominated by the technical side of things, as opposed to the delivery side--SPA are still mostly about providing solutions for developers, over solutions for the end-user or business owner.
 

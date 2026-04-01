@@ -2,12 +2,11 @@
 layout: post
 title: Adding Behavior-Driven Development Assertions To My API Research
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-check3.png
-atomdate: 2016-10-06T22:00:00.000Z
+atomdate: 2016-10-06 22:00:00+00:00
 tags:
-  - My
-  - Research
-  - ddi
-  - Assertions
+- Research
+- ddi
+- Assertions
 ---
 I was [going through Chai, a behavior, and test driven assertion library](http://chaijs.com/api/assert/), and spending some time learning about behavior driven development, or BDD, as it applies to APIs today. This is one of the topics I've read about and [listened to talks from people I look up to](http://www.pragmaticapi.com/blog/2013/11/10/bdd-for-apis-talk-at-apistrat-sf-2013), but just haven't had the time to invest too many cycles in learning more. As I do with other interesting, and applicable areas, I'm going to add as a research area, which will force me to bump it up in priority.
 

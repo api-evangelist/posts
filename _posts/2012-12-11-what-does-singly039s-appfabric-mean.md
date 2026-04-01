@@ -2,11 +2,18 @@
 published: true
 layout: post
 title: What Does Singly&#039;s AppFabric Mean?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Singly-Mobile-Fabric-Your-App.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Singly-Mobile-Fabric-Your-App.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Authentication
+- Business
+- Data
+- Evangelism
+- Facebook
+- Integration
 ---
 [Singly](https://singly.com/ "Singly") is continuing its quest to easily explain what it does for developers.  The San Francisco startup has [re-launched defining itself as, fabric for connected apps, or AppFabric](http://techcrunch.com/2012/12/10/singly-launches-app-fabric-platform-for-developers-to-speed-up-integrations-with-dozens-of-services/).  
 

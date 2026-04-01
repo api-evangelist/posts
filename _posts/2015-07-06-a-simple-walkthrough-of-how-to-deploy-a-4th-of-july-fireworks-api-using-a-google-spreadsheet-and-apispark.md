@@ -1,15 +1,12 @@
 ---
 layout: post
-title: >-
-  A Simple Walkthrough Of How To Deploy A 4th of July Fireworks API Using A
-  Google Spreadsheet And APISpark
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/restlet/Restlet-whiteBg.png
+title: A Simple Walkthrough Of How To Deploy A 4th of July Fireworks API Using A Google Spreadsheet And APISpark
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/restlet/Restlet-whiteBg.png
 author:
   name: kinlane
 tags:
-  - Spreadsheet
-  - 4
+- Spreadsheet
+- '4'
 ---
 _This is a guest post by Guillaume Laforge ([@glaforge](https://twitter.com/glaforge)) of [Restlet](http://restlet.com). He did a very cool API deployment project over the holiday weekend, as was good enough to share the details of his project as a story. I've been trying to make time to do more of these simple how-to API deployment guides like this, so I'm always happy to guest post these when they help users understand that they can deploy APIs--no developer necessary._
 

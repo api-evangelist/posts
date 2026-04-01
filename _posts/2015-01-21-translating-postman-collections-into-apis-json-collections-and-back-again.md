@@ -2,19 +2,17 @@
 published: true
 layout: post
 title: Translating Postman Collections Into APIs.json Collections And Back Again
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/postman/postman-logo.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/postman/postman-logo.png
 author:
   name: kinlane
 tags:
-  - Postman
-  - Collections
-  - APIs.json
-  - Collection
-  - APIs
-  - ai
-  - Postman Collections
-  - APIs.jso
+- Postman
+- Collections
+- APIs.json
+- Collection
+- APIs
+- ai
+- Postman Collections
 ---
 I've been a [Postman](https://www.postman.com/) user for a while, as a tool for quickly making API calls against the APIs I use most, and explore the new APIs I discover daily. As I use Postman, I can't help but think the concept of assembling collections of API calls using Postman, is in sync with part of our vision for [APIs.json](http://apisjson.org)\--we just need a common way to communicate.
 

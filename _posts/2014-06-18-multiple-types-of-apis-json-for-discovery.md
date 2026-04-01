@@ -6,11 +6,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png
 author:
   name: kinlane
 tags:
-  - Discovery
-  - Discover
-  - APIs.json
-  - APIs
-  - APIs.jso
+- Discovery
+- APIs.json
+- APIs
 ---
 I’m working through thoughts around a suggestion for future versions of [APIs.json API discovery format](http://apisjson.org/), and as I do with other things I’m trying to make sense of, I wanted to write a blog post on API Evangelist. If you aren't familiar with the format, APIs.json is meant to be a machine readable JSON file that provides an overview and listing APIs available within a specific domain.
 

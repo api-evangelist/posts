@@ -1,14 +1,12 @@
 ---
 layout: post
 title: API Definitions, Documentation And Hypermedia
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/swingingbridge_blue_circuit.jpg
-atomdate: 2017-02-06T23:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/swingingbridge_blue_circuit.jpg
+atomdate: 2017-02-06 23:00:00+00:00
 tags:
-  - Definitions
-  - Hypermedia
-  - Documentation
-  - Definition
+- Definitions
+- Hypermedia
+- Documentation
 ---
 [I wrote about what is at stake with API definitions currently and someone made a thoughtful comment on the importance of continuing to discuss hypermedia amidst all of this](https://apievangelist.com/2017/01/25/what-is-at-stake-with-api-definitions-at-the-moment/#comment-3128000440)\--I agree. I've long been an advocate for OpenAPI Spec and API Bueprint as a bridge from where we are, to where we need to be, getting us closer to the world hypermedia folks think we should have. I'd love it if every API allowed for content negotiation using one of the major hypermedia formats like HAL, Collection+JSON, or JSON-LD, but unfortunately, we have a lot of education and training ahead of us before we'll get there.
 

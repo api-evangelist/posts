@@ -2,13 +2,12 @@
 layout: post
 title: Connecting My API Logging With My API DNS Using CloudFlare Page Rules API
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-logging-dns.png
-atomdate: 2016-09-06T18:00:00.000Z
+atomdate: 2016-09-06 18:00:00+00:00
 tags:
-  - Cloud
-  - My
-  - Logging
-  - DNS
-  - Rules
+- Cloud
+- Logging
+- DNS
+- Rules
 ---
 As I'm spending time learning more about what my DNS provider CloudFlare offers when it comes to securing my APIs. To facilitate this, I am playing around with how I can utilize my Apache log files, to help me better drive the definition of [DNS security using the CloudfFare API](https://api.cloudflare.com/#page-rules-for-a-zone-create-a-page-rule). I guess this is kind of a real time reactive, but also hopefully eventually a proactive solution to quantifying and defining the frontline of my API operations.
 

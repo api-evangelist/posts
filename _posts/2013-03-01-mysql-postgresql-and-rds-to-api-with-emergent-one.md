@@ -1,12 +1,10 @@
 ---
 layout: post
 title: MySQL, PostgreSQL and RDS to API With Emergent One
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/emergent-one-logo-horizontal.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/emergent-one-logo-horizontal.png
 author:
   name: kinlane
-tags:
-  - My
+tags: []
 ---
 There are numerous companies, with existing IT infrastructure, who are looking to deploy APIs in 2013. These companies will be deploying APIs using their existing technology teams, or depending on one of the [17 API management service providers](/serviceproviders/) available.
 

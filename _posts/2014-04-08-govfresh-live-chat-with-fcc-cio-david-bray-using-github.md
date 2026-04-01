@@ -1,13 +1,11 @@
 ---
 layout: post
 title: GovFresh Live Chat With FCC CIO David Bray Using Github
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/fcc/davidbray-150x150.png
+image: https://s3.amazonaws.com/kinlane-productions2/federal-government/fcc/davidbray-150x150.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Git
+- Github
 ---
 I stumbled into a pretty interesting use of Github yesterday, which I’m seeing as part of a greater push from our government to use the popoular social coding platform. The government blog [Govfresh](http://govfresh.com/) held a live chat session with FCC CIO David Bray ([@fcc\_cio](https://twitter.com/fcc_cio)), where some really interesting questions were asked of the very progressive CIO.
 

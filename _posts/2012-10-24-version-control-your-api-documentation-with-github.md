@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Version Control Your API Documentation with Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-text-horizontal.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-text-horizontal.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Documentation
-  - Git
+- Github
+- Documentation
 ---
 Out of date API documentation is by far the most common mistake API providers make, and also the [number one pain point for API developers](http://blog.programmableweb.com/2010/08/12/web-api-documentation-best-practices/). It makes sense that you will want to keep your API documentation in sync with each version of your API, and one way to handle this is to version them both, using Github.
 

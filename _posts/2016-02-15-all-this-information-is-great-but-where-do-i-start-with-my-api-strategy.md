@@ -3,8 +3,7 @@ layout: post
 title: All This Information Is Great, But Where Do I Start With My API Strategy?
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-start.png
 tags:
-  - My
-  - Strategy
+- Strategy
 ---
 I shared a [list of just the essential building blocks from across only 21 areas of my API areas of the API life cycle](http://apievangelist.com/2016/01/18/taking-a-snapshot-of-just-the-essential-api-building-blocks-across-my-research/) with a company I'm helping craft an API strategy for, and I got some very common feedback--all this information is great, but where do I start with my API strategy? This is excellent feedback, as that particular overview is void of any specific 101, or on-boarding elements for each of the areas of the API life cycle that I cover. 
 

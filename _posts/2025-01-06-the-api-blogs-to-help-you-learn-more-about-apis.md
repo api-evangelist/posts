@@ -3,11 +3,10 @@ published: true
 layout: post
 title: The API Blogs to Help You Learn More About APIs
 tags:
-  - 101
-  - Blogs
-  - Getting Started  
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-nyc-public-library.jpeg
+- '101'
+- Blogs
+- Getting Started
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-nyc-public-library.jpeg
 ---
 There are just a handful of blogs out there that we recommend for people to learn about the world of APIs from. There are a number of generic sources of information, but the stack of experienced, opinionated, and practical blogs that are regularly posting stories can be fund in this list.
 

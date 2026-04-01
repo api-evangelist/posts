@@ -5,8 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-attribution.png
 author:
   name: kinlane
 tags:
-  - Validation
-  - Definition
+- Validation
+- Definitions
 ---
 I have done a lot of work hand crafting, and often scrape crafting, [machine readable OpenAPI Spec](https://github.com/OAI/OpenAPI-Specification), as part of the work on the [API Stack](http://theapistack.com/). Creating a usable API definition is a lot of work, making it is a pretty valuable commodity, in contrast to my strong opinion that they should be readily available for EVERY API today. While there is still a HUGE AMOUNT of work to be done, I feel like the ball is beginning to move forward, when it comes to the number of publicly available API definitions. 
 

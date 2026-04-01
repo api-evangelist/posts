@@ -4,7 +4,13 @@ title: Continuing With The API Restaurant Analogy
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-waiter.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Definitions
+- Documentation
+- Onboarding
 ---
 I began exploring the [use a restaurant menu to help people understand API copyright](http://apivoice.com/2014/05/23/restaurant-menus-as-analogy-for-api-copyright/), and how your API definition is not your secret sauce, and that there is so much more to your API that just the surface area.
 

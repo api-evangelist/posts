@@ -1,11 +1,16 @@
 ---
 layout: post
 title: What Is The Biggest Challenge For Fraud Detection API SiftScience?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1475_logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1475_logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Evangelism
+- Integration
+- Twitter
+- ai
 ---
 I’m spending more time reaching out directly to API providers, in an effort to better understand what they are up to. A couple weeks ago, I asked Sarfaraz Rydhan ([@safoo](https://twitter.com/safoo)) from the [Fraud Detection API platform SiftScience](https://siftscience.com/), what is the biggest challenge you face in attracting developers to your system?
 

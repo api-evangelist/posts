@@ -1,12 +1,10 @@
 ---
 layout: post
 title: The Perils Of API Transport Over The Public Internet
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-danger.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-danger.png
 author:
   name: kinlane
-tags:
-  - Public
+tags: []
 ---
 George Reese has a very interesting post from last week over at O'Reilly. It is about an earlier post he did on the unpublished [Tesla REST API](http://programming.oreilly.com/2013/08/tesla-model-s-rest-api-authentication-flaws.html). I'll let you read the post, "T[he Myth of the Private API](http://programming.oreilly.com/2013/09/the-myth-of-the-private-api.html)"--I highly recommend it.
 

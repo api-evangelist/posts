@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Adding Journeys To Each Of My API Research Areas
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-plans-journey.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-plans-journey.png
 author:
   name: kinlane
 tags:
-  - My
-  - Research
-  - Journey
-  - ddi
+- Research
+- Journey
+- ddi
 ---
 I am continuing to build on the subway map exploration work, [that I talked about at @Defrag and @APIStrat last month](http://apievangelist.com/2015/11/29/the-api-lifecycle-my-talk-from-defrag-and-apistrat/), and have a more static version of my API life cycle explorer ready, which I'm simply calling the API journey. [I have only rolled this out for my API plans research](http://plans.apievangelist.com/journey/index.html), but so far I'm happy with the results, something that shouldn't be too difficult to light up for [the other 30+ areas I'm researching](http://apievangelist.com).
 

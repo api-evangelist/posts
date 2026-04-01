@@ -5,10 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - My
-  - Data
-  - Access
-  - Personal
+- Data
+- Access
+- Personal
 ---
 I was just downloading all of my Facebook data. You can [go under your account settings and there is a little link](https://www.facebook.com/download) that lets you download everything.  It takes some time to generate a full archive, but once my archive is ready, they’ll email me and I can get at my data and see what the download format looks like.
 

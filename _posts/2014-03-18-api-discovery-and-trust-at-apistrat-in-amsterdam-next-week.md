@@ -1,15 +1,13 @@
 ---
 layout: post
 title: 'API Discovery and Trust At #APIStrat in Amsterdam Next Week'
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/services/api-discovery.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/services/api-discovery.png
 author:
   name: kinlane
 tags:
-  - Discovery
-  - APIStrat
-  - Discover
-  - rust
+- Discovery
+- APIStrat
+- rust
 ---
 I'm continuing my journey through the [session line-up at API Strategy & Practice next week in Amsterdam](http://www.apistrategyconference.com/2014Amsterdam/schedule.php), next up is the API discovery and trust session, where the conversation will be about API directories, service descriptions and of trust and rating systems for APIs.
 

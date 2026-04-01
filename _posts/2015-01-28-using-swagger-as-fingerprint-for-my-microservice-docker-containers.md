@@ -1,17 +1,15 @@
 ---
 layout: post
 title: Using Swagger As Fingerprint For My Microservice Docker Containers
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-api-docker.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-api-docker.png
 author:
   name: kinlane
 tags:
-  - My
-  - Containers
-  - Swagger
-  - ai
-  - Micro
-  - Fingerprint
+- Containers
+- Swagger
+- ai
+- Micro
+- Fingerprint
 ---
 I'm rebuilding my underlying architecture using microservices, and docker containers, and I'm [using APIs.json for navigation and discovery within these new API stacks](http://apievangelist.com/2015/01/28/using-apisjson-for-my-microservice-navigation-and-discovery/) that I use to make my world go around. As I assign each microservice, and [APIs.json file](http://apisjson.org/format.html), taking inventory of the building blocks that make the service operate, I also begin including docker into the equation, and I find myself using Swagger definitions as a sort of fingerprint for my docker powered microservices.
 

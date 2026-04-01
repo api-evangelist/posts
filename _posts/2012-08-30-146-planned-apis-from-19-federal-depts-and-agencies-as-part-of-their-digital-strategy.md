@@ -1,18 +1,15 @@
 ---
 layout: post
-title: >-
-  146 Planned APIs from 19 Federal Depts and Agencies as Part of their Digital
-  Strategy
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/US_white_house_logo.png
+title: 146 Planned APIs from 19 Federal Depts and Agencies as Part of their Digital Strategy
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/US_white_house_logo.png
 author:
   name: kinlane
 tags:
-  - Agencies
-  - Strategy
-  - Digital
-  - APIs
-  - 4
+- Agencies
+- Strategy
+- Digital
+- APIs
+- '4'
 ---
 Three months after the [White House CIO mandated that all federal departments and agencies have a digital strategy](/federal_government.php "White House CIO mandated that all federal departments and agencies have a digital strategy"), we are getting closer to having access to some high value APIs, across almost twenty participating departments and agencies.
 

@@ -4,10 +4,9 @@ title: Taking A Look At The API Licensing Stack
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-onion.png
 author:
   name: kinlane
-date: 2014-08-14T03:42:52.000Z
+date: 2014-08-14 03:42:52+00:00
 tags:
-  - Licensing
-  - Stack
+- Licensing
 ---
 One of the byproducts of the [Oracle vs Google API copyright case](http://apievangelist.com/2014/05/10/where-will-your-api-stand-in-the-oracle-v-google-api-copyright-debate/), was a realization that many API providers and consumer do not understand the layers of the API stack, let alone the potential licensing considerations for each layer of the API onion. I wouldn't just blame API providers, and consumers, I’m still getting a grasp on all of this, which is why I'm blogging about the subject.
 

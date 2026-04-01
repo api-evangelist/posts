@@ -1,18 +1,15 @@
 ---
 layout: post
-title: >-
-  Scraping Static Docs Is Often Better Than Proxy For Generating Machine
-  Readable API Definitions
+title: Scraping Static Docs Is Often Better Than Proxy For Generating Machine Readable API Definitions
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Scraping
-  - Proxy
-  - Static
-  - Definition
-  - Docs
+- Definitions
+- Scraping
+- Proxy
+- Static
+- Docs
 ---
 I was looking to create an [APIs.json](http://apisjson.org) plus [OpenAPI Spec(s)](https://github.com/OAI/OpenAPI-Specification) for the [WordPress.org API](http://v2.wp-api.org/), and the [Instructure Canvas Learning Management System (LMS) API](https://canvas.instructure.com/doc/api/index.html). I am pulling together a toolkit to support a workshop at Davidson College in North Carolina this month, and I [wanted a handful of APIs that would be relevant to students, and faculty on campus](http://kinlane.github.io/indie-edtech-data-jam/). 
 

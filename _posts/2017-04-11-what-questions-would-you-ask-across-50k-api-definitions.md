@@ -2,10 +2,9 @@
 layout: post
 title: What Questions Would You Ask Across 50K API Definitions?
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-question-mark.png
-atomdate: 2017-04-11T19:00:00.000Z
+atomdate: 2017-04-11 19:00:00+00:00
 tags:
-  - Definitions
-  - Definition
+- Definitions
 ---
 Mike Ralphson‏ ([@PermittedSoc](https://twitter.com/PermittedSoc)) asked me the other day, "[if you could run SQL / #GraphQL queries over nearly 50K #API definitions, what would you ask?](https://twitter.com/PermittedSoc/status/847814927792451586)". I told him I would respond via blog post, which is one way I help amplify the conversation I have with other API folks in the space. Mike is doing som important work when it comes to API discovery, something that needs amplification if we are going to move this conversation forward.
 

@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Traffic and Weather - Virtualized API Stacks
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Traffic-and-Weather.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Traffic-and-Weather.png
 author:
   name: kinlane
-tags:
-  - Stack
+tags: []
 ---
 I recently added the [Traffic and Weather podcast](http://trafficandweather.io/) to the right hand menu for everyone to enjoy. What John Sheehan ([@johnsheehan](http://twitter.com/johnsheehan) ) and Steve Marx ([@smarx](http://twitter.com/smarx)) are doing on the podcast is **SO** needed in the API space, I highly recommend subscribing to the podcast in your itunes and listening regularly.
 

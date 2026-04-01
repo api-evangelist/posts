@@ -1,11 +1,15 @@
 ---
 layout: post
 title: API Trends
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/interoperability-trends.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/interoperability-trends.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Automation
+- Data
+- Evangelism
 ---
 In addition to helping people understand the [history of APIs](/history/), I'm looking to help people grasp what the future holds, when it comes to APIs. So, while tracking on the API industry, I'm always on the lookout for patterns of API usage that can help me understand what might be next for the web API movement. 
 

@@ -4,7 +4,13 @@ title: Foursquare API Version 2.0
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Authentication
+- Data
+- Support
+- Versioning
 ---
 [Foursquare released version 2.0 of its API](http://developer.foursquare.com/) today, after a year of development on the update.
 

@@ -1,11 +1,15 @@
 ---
 layout: post
 title: Showcasing When You Use Your Own API
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-drinking-fountain.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-drinking-fountain.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Integration
+- Mobile
 ---
 While looking through hundreds of blogs from API providers, one practice that I’m seeing more of is companies showcasing their own use of their API. Some of you may think this is obvious, but I think a lot of companies are using their own API and never tell the story about how they are using their own services—I mean if your API is so great, demonstrate to people why it is so kick ass.
 

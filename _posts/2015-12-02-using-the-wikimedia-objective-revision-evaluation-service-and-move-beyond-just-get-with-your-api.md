@@ -1,13 +1,15 @@
 ---
 layout: post
-title: >-
-  Using The Wikimedia Objective Revision Evaluation Service And Move Beyond Just
-  GET With Your API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Objective_Revision_Evaluation_Service_logo.svg.png
+title: Using The Wikimedia Objective Revision Evaluation Service And Move Beyond Just GET With Your API
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Objective_Revision_Evaluation_Service_logo.svg.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Open Source
+- ai
 ---
 I stumbled across [Objective Revision Evaluation Service (ORES)](https://meta.wikimedia.org/wiki/Objective_Revision_Evaluation_Service) last night, a web service running in Wikimedia Labs that provides machine learning as a service across Wikimedia Projects, and is designed to help automate vandalism detection and removal for content, being developed as part of the [R:Revision scoring as a service](https://meta.wikimedia.org/wiki/Research:Revision_scoring_as_a_service "Research:Revision scoring as a service") project.
 

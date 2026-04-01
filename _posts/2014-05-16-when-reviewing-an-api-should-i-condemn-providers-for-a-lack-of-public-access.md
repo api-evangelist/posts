@@ -5,10 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-windows.jpg
 author:
   name: kinlane
 tags:
-  - Review
-  - Public
-  - Access
-  - Providers
+- Review
+- Access
+- Providers
 ---
 I’m torn on a matter that I face when reviewing APIs for companies. I get emails from people who want me to review their API implementation, and they state they want public developers to get excited about an API, but the program isn't fully available out in the open. Most often these APIs just have some sort of landing page, which is really just a press release, and email address of someone to contact to gain access.
 

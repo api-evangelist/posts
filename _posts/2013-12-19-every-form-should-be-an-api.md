@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Every Form Should Be An API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/example-form.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/example-form.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Definitions
+- Design
+- Education
+- Federal Government
+- Github
 ---
 I'm working on an [API design for the free application for federal student aid form](http://ed-data.github.io/fafsa-api/index.html), also known as FAFSA, over the last couple weeks. I took [the form](http://www.fafsa.ed.gov/fotw1314/pdf/PdfFafsa13-14.pdf) which had over 150 separate fields, and turned into a basic create, read, update and delete (CRUD) API. I even added an endpoint that allows you to query and get a list of the fields.
 

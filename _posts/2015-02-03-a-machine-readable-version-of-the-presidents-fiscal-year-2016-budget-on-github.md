@@ -1,13 +1,11 @@
 ---
 layout: post
 title: A Machine Readable Version of The Presidents Fiscal Year 2016 Budget On Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/2016_budget_header.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/2016_budget_header.jpg
 author:
   name: kinlane
 tags:
-  - Github
-  - Git
+- Github
 ---
 The release of the the [president's fiscal year 2016 budget in a machine readable format on Github](https://github.com/WhiteHouse/2016-budget-data) was one of the most important things to come out of Washington D.C. in a while when it comes to open data and APIs. I was optimistic when [the president mandated that all federal agencies need to go machine readable by default](http://apievangelist.com/2012/06/01/barack-obama-directs-all-federal-agencies-to-have-an-api/), but the release of the annual budget in this way is an important sign that the White House is following its own open data rhetoric, and something every agency should emulate.
 

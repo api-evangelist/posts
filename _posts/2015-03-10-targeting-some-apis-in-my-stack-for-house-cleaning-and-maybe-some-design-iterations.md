@@ -1,17 +1,13 @@
 ---
 layout: post
-title: >-
-  Targeting Some APIs In My Stack For House Cleaning And Maybe Some Design
-  Iterations
+title: Targeting Some APIs In My Stack For House Cleaning And Maybe Some Design Iterations
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-painting-easel.png
 author:
   name: kinlane
 tags:
-  - My
-  - Design
-  - Targeting
-  - Stack
-  - APIs
+- Design
+- Targeting
+- APIs
 ---
 As I look through more APIs, and I don’t just play around in their developer portal, and look at documentation, I am actually get my hands dirty generating Swagger definitions, and authenticating and making calls to an API. There is no better way to get to know an API, that generating a Swagger definition, and integrating with it—something when done, you always walk away with a new perspective.
 

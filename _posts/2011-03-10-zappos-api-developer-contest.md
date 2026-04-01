@@ -4,7 +4,11 @@ title: Zappos API Developer Contest
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Documentation
+- Mobile
 ---
 [Zappos has announced an API developer contes](http://developer.zappos.com/blog/first-zappos-developer-contest "Zappos API Developer Contest")t called the Zappos API Developer Challenge-palooza-athon.
 

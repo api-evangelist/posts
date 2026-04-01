@@ -1,14 +1,12 @@
 ---
 layout: post
 title: API Evangelism is Equal Parts Internal, Partner and Public Outreach
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Evangelist-Thirds.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Evangelist-Thirds.png
 author:
   name: kinlane
 tags:
-  - Evangelism
-  - Public
-  - Internal
+- Evangelism
+- Internal
 ---
 Historically APIs are deployed to provide data and resources to business partners. However, in the last 5 years we have seen a shift in focus to also delivering more open, publicly focused APIs, based upon the success of popular services like [Google Maps](/2011/01/30/history-of-apis-google-maps-api/ "Google Maps"), [Twitter](/apis/twitter.php "Twitter") and [Twilio](/apis/twilio.php "Twilio"). In the last year, many companies are also seeing the benefits of deploying and consuming APIs internally, in addition to partner driven, and open public APIs.
 

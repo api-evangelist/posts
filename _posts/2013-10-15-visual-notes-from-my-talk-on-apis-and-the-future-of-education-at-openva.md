@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Visual Notes From My Talk On APIs And The Future of Education At OpenVA
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kinlane-openva-api-visual-notes.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kinlane-openva-api-visual-notes.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Education
-  - APIs
-  - Open
+- Education
+- APIs
+- Open
 ---
 Audrey and I went up to University of Mary Washington yesterday and participated in the #OpenVa discussion, where I gave a presentation on the importance of APIs and how they will play a significant role in the future of education.
 

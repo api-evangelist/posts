@@ -2,14 +2,12 @@
 published: true
 layout: post
 title: What Does Open Mean in the World of APIs?
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-do-not-enter-sign.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-do-not-enter-sign.jpg
 author:
   name: kinlane
 tags:
-  - Public
-  - Politics
-  - Access
+- Politics
+- Access
 ---
 The word “open” gets thrown around so much in the API space I find myself needing to regularly ground myself in what it actually means. It gets thrown around in so many different ways that I find eventually I start to believe the bullshit and regularly have to pause and recalibrate. It is one of those words that has been captured and used by people looking to manipulate the space so often it often means the exact opposite of what we all think it means, but it is also such an important word that I think we have to fight to keep it in our vocabulary. I feel like I am perpetually fighting with some invisible force over one of the front doors to the house we all live in, and I am determined for the door to not get completely shut, and I have to make sure the door actually ends up go where someone expects when they do open the door.
 

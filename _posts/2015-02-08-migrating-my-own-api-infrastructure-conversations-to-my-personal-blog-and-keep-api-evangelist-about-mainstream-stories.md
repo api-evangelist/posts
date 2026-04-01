@@ -1,22 +1,19 @@
 ---
 layout: post
-title: >-
-  Migrating My Own API Infrastructure Conversations To My Personal Blog And Keep
-  API Evangelist About Mainstream Stories
+title: Migrating My Own API Infrastructure Conversations To My Personal Blog And Keep API Evangelist About Mainstream Stories
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-moving-truck.png
 author:
   name: kinlane
 tags:
-  - My
-  - API Evangelist
-  - Blog
-  - Evangelist
-  - Infrastructure
-  - Stories
-  - Conversations
-  - ai
-  - Personal
-  - Mainstream
+- API Evangelist
+- Blog
+- Evangelist
+- Infrastructure
+- Stories
+- Conversations
+- ai
+- Personal
+- Mainstream
 ---
 After seeing the conversation around my In The Future There Will Be No Public vs. Private APIs, I'm reminded of my own mission. I write on API Evangelist first and foremost for my own education, and secondarily I do it to help educate the normals about the importance of APIs. Not page-views. Not to educate the API echo chamber. Not to drive conversation over at [DZone](http://www.dzone.com/links/two_api_pundants.html) or [Hacker News](https://news.ycombinator.com/item?id=9010304). Definitely not to insult anyone.
 

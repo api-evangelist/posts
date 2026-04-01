@@ -1,15 +1,13 @@
 ---
 layout: post
 title: How Do I Provide A List Of Certified Applications To My API Ecosystem Partners
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-trusted-apps-and-users.png
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-trusted-apps-and-users.png
 author:
   name: kinlane
 tags:
-  - My
-  - Applications
-  - Partners
-  - Ecosystem
+- Applications
+- Partners
+- Ecosystem
 ---
 I was emailed by someone working in government, asking some pretty interesting questions around using an application showcase, to make trusted applications available to an ecosystem of partners. I'm not going to talk specifically about the agency, as I have not gotten approval to talk publicly, but I think the question is an interesting mix of several areas I am researching, that I wanted to explore a little further, in an anonymous fashion.  
 

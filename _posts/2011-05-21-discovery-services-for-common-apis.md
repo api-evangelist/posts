@@ -5,10 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Discovery
-  - Discover
-  - APIs
-  - Services
+- Discovery
+- APIs
+- Services
 ---
 I just wrote about the potential of[open source API billing and traffic control](http://apievangelist.com/2011/05/21/open-source-api-billing-and-traffic-control/ "open source billing and traffic control") building blocks, if Google would open source their [Google API Console](http://apievangelist.com/2011/05/21/google-apis-console/ "API Console"), like they did with the [Google API Explorer](http://apievangelist.com/2011/05/21/google-apis-explorer/ "Google API Explorer").
 

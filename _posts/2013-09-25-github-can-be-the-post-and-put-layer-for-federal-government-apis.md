@@ -1,18 +1,16 @@
 ---
 layout: post
 title: Github Can Be the POST and PUT Layer For Federal Government APIs
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-government.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-government.jpg
 author:
   name: kinlane
 tags:
-  - Github
-  - Federal Government
-  - Government
-  - APIs
-  - PUT
-  - POST
-  - Git
+- Github
+- Federal Government
+- Government
+- APIs
+- PUT
+- POST
 ---
 I'm playing with different approaches to rapidly design, develop, deploy and manage APIs using Github. While about 90% of what I'm building runs on Github, there is still about 10% that runs on Amazon EC2.
 

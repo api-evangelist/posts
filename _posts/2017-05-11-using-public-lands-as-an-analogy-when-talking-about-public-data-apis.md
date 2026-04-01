@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Using Public Lands As An Analogy When Talking About Public Data APIs
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/anza_borrego_desert_state_park.jpg
-atomdate: 2017-05-11T22:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/anza_borrego_desert_state_park.jpg
+atomdate: 2017-05-11 22:00:00+00:00
 tags:
-  - Data
-  - Public Data
-  - Public
-  - APIs
+- Data
+- Public Data
+- APIs
 ---
 I have used [the analogy of public lands](http://apievangelist.com/2012/02/01/should-the-government-subsidize-and-profit-from-data-markets/) when talking about access to, and [monetization around public data resources](http://apievangelist.com/2015/08/24/setting-a-precedent-when-charging-for-high-volume-access-to-government-apis/), for a number of years. While not a perfect analogy, it provides me with a very tangible, and relatable way to help people understand access to, and the value of public data resources that can often be very abstract and difficult to see. Conveniently, some of the stories about public data, and policy I've worked on in the Federal Government involved public data that was actually about public lands, and more specifically national parks, and other resources in [the Recreational Information Database (RIDB)](http://apievangelist.com/2014/10/16/i-need-help-to-make-sure-the-dept-of-agriculture-leads-with-apis-in-their-parks-and-recreation-rfp/).
 

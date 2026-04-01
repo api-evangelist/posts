@@ -3,8 +3,7 @@ layout: post
 title: Further Simplifying My API Docs And Providing API Samples
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-samples.png
 tags:
-  - My
-  - Docs
+- Docs
 ---
 For some workshops preparation this week, I needed to isolate just the best of the API calls and documentation from handful of APIs I am trying to teach my intended audience about. [I have almost twenty separate companies targeted](http://kinlane.github.io/university-api-workshop/apis/), with a couple hundred individual endpoints across the API provided served up by these companies. I needed to a way to easily define, organize, and present a subset of API samples, intended for a specific purpose audience. 
 

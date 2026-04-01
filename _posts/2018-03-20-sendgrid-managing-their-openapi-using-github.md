@@ -2,15 +2,14 @@
 published: true
 layout: post
 title: SendGrid Managing Their OpenAPI Using Github
-date: 2018-03-20T11:00:00.000Z
+date: 2018-03-20 11:00:00+00:00
 tags:
-  - API Evangelist
-  - Definition
-  - Github
-  - Support
-  - Road Map
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/sendgrid/sendgrid-github-screenshot.png
+- API Evangelist
+- Definitions
+- Github
+- Support
+- Road Map
+image: https://s3.amazonaws.com/kinlane-productions2/sendgrid/sendgrid-github-screenshot.png
 ---
 <p></p>This is a post that has been in my API notebook for quite a while. I feel it is important to keep showcasing the growing number of API providers who are not just using OpenAPI, but also managing them on Github, so I had to make the time to talk about [the email API provider SendGrid managing their OpenAPI using Github](https://github.com/sendgrid/sendgrid-oai). Adding to the stack of top tier API providers managing their API definitions in this way.
 

@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Review
-  - Stack
+- Review
 ---
 [StackApps](http://stackapps.com) is an API for the family of Q&A websites using the Stack Exchange engine including [Stack Overflow](http://stackoverflow.com/), [Server Fault](http://serverfault.com/) and [Super User](http://superuser.com/).
 

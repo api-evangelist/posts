@@ -4,7 +4,9 @@ title: Hoovers API Tweetup
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
 ---
 [Hoovers Inc](http://www.hoovers.com/ "Hovers Inc"), a provider of an [API that allows you to stream reliable, on-demand business information](http://developer.hoovers.com/ "Business Information API") into applications is holding an API Tweetup: ![](http://kinlane-productions2.s3.amazonaws.com/Hoovers2005_logo.png) **When:** April 21, 2011
 

@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-micro-definitio
 author:
   name: kinlane
 tags:
-  - My
-  - Definition
-  - Micro
+- Definitions
+- Micro
 ---
 Like API, the term microservice has emerged as a force, along with a meaning that is very precise, or very broad, depending on who you are. The only thing I’m sure of at this point, is the term microservice is very personal, and means very different things to different people, depending on where you stand in the industry.
 

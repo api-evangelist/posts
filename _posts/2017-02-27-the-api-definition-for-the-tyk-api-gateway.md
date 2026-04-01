@@ -1,12 +1,11 @@
 ---
 layout: post
 title: The API Definition For The Tyk API Gateway
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_25_at_9.00.37_pm.png
-atomdate: 2017-02-27T20:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_25_at_9.00.37_pm.png
+atomdate: 2017-02-27 20:00:00+00:00
 tags:
-  - Gateway
-  - Definition
+- Gateway
+- Definitions
 ---
 If you are selling a service you should have an API. It is something you hear me talk about a lot here on the blog. I push on this subject because it is important, and there are numerous API service providers out there who do not have an API or choose to not make them available. In a DevOps, continuous integration world, we need the entire stack to have APIs--making our API platforms programmatic, just like the data, content, and algorithms we are making available via the APIs we are deploying.
 

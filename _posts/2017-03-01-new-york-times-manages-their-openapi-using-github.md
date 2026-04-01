@@ -1,15 +1,13 @@
 ---
 layout: post
 title: New York Times Manages Their OpenAPI Using Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_26_at_3.44.42_pm.png
-atomdate: 2017-03-01T17:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_26_at_3.44.42_pm.png
+atomdate: 2017-03-01 17:00:00+00:00
 tags:
-  - Github
-  - OpenAPI
-  - Time
-  - Open
-  - Git
+- Github
+- OpenAPI
+- Time
+- Open
 ---
 I come across more companies managing their [OpenAPI](http://openapis.org) definition as a single Github repository. One example of this is from [the New York Times](https://www.nytimes.com/), who as [the API definitions for their platform available as its own Github repository](https://github.com/NYTimes/public_api_specs). It demonstrates the importance of maintaining your API definitions separately from any particular implementation, such as just your documentation.
 

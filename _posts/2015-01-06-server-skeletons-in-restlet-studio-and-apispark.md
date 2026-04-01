@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Server Skeletons In Restlet Studio And APISpark
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-api-server-skeletons.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-api-server-skeletons.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Business
+- Cloud
+- Data
+- Definitions
+- Deployment
 ---
 I was working in [APISpark](http://restlet.com/technical-resources/apispark/guide), playing around with different approaches to creating APIs for data stores i have in Amazon S3, Github, and in Google Spreadsheets. The cloud API deployment solution allows me to generate APIs from CSV, XML, JSON and spreadsheet stores in these locations, to a central API platform faster than I could even consider doing manually.
 

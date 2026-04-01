@@ -1,14 +1,13 @@
 ---
 layout: post
 title: API Commons Is More Than Just The Definition, Specification or Schema
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-commons-icon.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-commons-icon.png
 author:
   name: kinlane
 tags:
-  - Schema
-  - Definition
-  - API Commons
+- Schema
+- Definitions
+- API Commons
 ---
 [API Commons](http://apicommons.org/ "API Commons") is about providing a simple and transparent mechanism for the copyright free sharing and collaborative design of API specifications, interfaces and data models. When learning about API Commons it can be easy to focus on the obvious technical deliverables of the project, API definitions, data models, schemas and specifications.
 

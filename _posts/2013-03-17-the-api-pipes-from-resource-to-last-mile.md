@@ -1,11 +1,18 @@
 ---
 layout: post
 title: The API Pipes, From Resource to Last Mile
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-resource-to-last-mile.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-resource-to-last-mile.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Business
+- Cloud
+- Data
+- Design
+- Discovery
 ---
 This post is more rant, and about me working through my thoughts on this subject, which is why its on [kinlane.com](/admin/blog/kinlane.com) and not [apievangelist.com](http://apievangelist.com) or [apivoice.com](http://apivoice.com).  This post is an aggregation of ongoing thoughts I'm having around my role in the API space, a diagram I drew the other day while enjoying an IPA, and inescapable thoughts fueled up by a post by Patrick Meir over at iRevolution, called [Crisis Mapping, Neogeography and the Delusion of Democratization](http://irevolution.net/2013/03/17/neogeography-and-democratization/).  
 

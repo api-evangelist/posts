@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Connect With Linguistics API Apicultur While They Are In San Francisco
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apicultur-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apicultur-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Mobile
+- Monetization
 ---
 I went to Spain at the beginning of the month to [speak at API Days](http://www.apievangelist.com/2013/06/04/apidays-mediterranea-is-a-wrap/). While there I had the pleasure of connecting with the team from [Apicultur](http://www.apicultur.com/en/). If you are not familiar with Apicultur, they are a platform for linguistic APIs, providing resources ranging from word frequency, synonyms and sentiment analysis to word games.
 

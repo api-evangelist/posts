@@ -1,10 +1,16 @@
 ---
 layout: post
 title: Your State Issued ID Is Required To Signup For This Online Service
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/shutterstock_upload_license.png
-atomdate: 2017-01-11T23:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/shutterstock_upload_license.png
+atomdate: 2017-01-11 23:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Authentication
+- Business
+- Github
+- Integration
+- Management
 ---
 [I am evaluating Shutterstock as a new destination for some of my photos and videos](https://apievangelist.com/2017/01/09/evaluating-a-new-channel-for-publishing-my-bits/). I've been a Shutterstock user for their stock images, but I'm just getting going being a publisher. I thought it was worth noting that as part of their sign up process they require me to upload a copy of my state issued identification before I can sell photos or images as a Shutterstock publisher.
 

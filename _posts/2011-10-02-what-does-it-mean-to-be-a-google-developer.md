@@ -1,11 +1,16 @@
 ---
 layout: post
 title: What Does It Mean To Be A Google Developer?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google_code.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google_code.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Facebook
+- Google
+- Support
+- Twitter
 ---
 With over 100 APIs, and an army of developer advocates, Google is one of the top API ecosystems in the world, alongside Twitter and Facebook.
 

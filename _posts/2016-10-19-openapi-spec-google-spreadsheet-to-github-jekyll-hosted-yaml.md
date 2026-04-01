@@ -1,17 +1,15 @@
 ---
 layout: post
 title: 'OpenAPI Spec Google Spreadsheet to Github Jekyll Hosted YAML '
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_19_at_12.02.32_am.png
-atomdate: 2016-10-19T16:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_19_at_12.02.32_am.png
+atomdate: 2016-10-19 16:00:00+00:00
 tags:
-  - Github
-  - OpenAPI
-  - Jekyll
-  - Spreadsheet
-  - YAML
-  - Open
-  - Git
+- Github
+- OpenAPI
+- Jekyll
+- Spreadsheet
+- YAML
+- Open
 ---
 [I have been playing around with different ways of using Google Spreadsheet to drive YAML and JSON data to Jekyll data projects hosted as Github repositories](http://apievangelist.com/2016/09/20/d3js-visualizations-using-yaml-and-jekyll/). It is an approach [I started playing around with in Washington DC, while I was helping data stewards publish government services as JSON-LD](http://government.services.adopta.agency/). It is something I've been playing around with lately using to [drive D3.js visualizations](http://apievangelist.com/2016/09/20/d3js-visualizations-using-yaml-and-jekyll/) and even [a comic book](https://kinlane.github.io/teh-jigz-up/two/).
 

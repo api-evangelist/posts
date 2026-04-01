@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Open Sourcing Hack Weekends Using Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-Hack-Weekends-Github.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-Hack-Weekends-Github.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Open
-  - Git
+- Github
+- Open
 ---
 I’ve been maintaining a calendar of hackathons for all of 2012. Originally it was just a section off of [API Evangelist](http://apievangelist.com "API Evangelist"), but eventually the site needed to be its own project. Up until now its just been a blog and calendar of events I curate from Eventbrite, Twitter, Google, Eventful and event organizers.
 

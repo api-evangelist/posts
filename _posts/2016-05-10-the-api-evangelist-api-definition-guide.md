@@ -1,12 +1,11 @@
 ---
 layout: post
 title: The API Evangelist API Definition Guide
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/whitepapers/definitions/api-evangelist-api-definitions-guide-may-2016-cover.png
+image: https://s3.amazonaws.com/kinlane-productions2/whitepapers/definitions/api-evangelist-api-definitions-guide-may-2016-cover.png
 tags:
-  - API Evangelist
-  - Evangelist
-  - Definition
+- API Evangelist
+- Evangelist
+- Definitions
 ---
 How we define our APIs has dramatically changed in recent years. Since Swagger came onto the scene around five years ago, there has been a rapid growth in the number of open formats, tooling, and services to help us define APIs. Companies are using API definitions like OpenAPI Spec, Postman, and API.json to communicate about their APIs at almost every stop along the API life cycle. This is my research to better understand all the moving parts in this fast growing sector.
 

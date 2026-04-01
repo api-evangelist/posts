@@ -1,15 +1,12 @@
 ---
 layout: post
 title: Engaging My API Developers Immediately with Rapportive
-url: >-
-  http://apievangelist.com/2012/01/23/engaging-my-api-developers-immediately-with-rapportive/
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/rapportive-logo.png
+url: http://apievangelist.com/2012/01/23/engaging-my-api-developers-immediately-with-rapportive/
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/rapportive-logo.png
 author:
   name: kinlane
 tags:
-  - My
-  - Developers
+- Developers
 ---
 kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/rapportive/rapportive-logo.png)](http://rapportive.com/ "Rapportive")
 

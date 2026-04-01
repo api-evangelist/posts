@@ -2,8 +2,16 @@
 layout: post
 title: How Do We Keep The Fire Alive In API Space?
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-flame.png
-atomdate: 2016-10-19T22:00:00.000Z
-tags: []
+atomdate: 2016-10-19 22:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Business
+- Email
+- Evangelism
+- Integration
+- Open Source
+- Social
 ---
 It is tough to keep a sustained fire burning in the world of technology, at the individual, organizational, and community level. I have been doing API Evangelist full time for six years, and it is no secret that I have had several moments where I've experienced a crisis of faith, and I do not doubt that there will be many more of these in my future--there is no perfect solution. It takes hard work, creativity, and a myriad of other considerations to keep going, stay energized, and keep other folks doing the same.
 

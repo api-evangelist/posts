@@ -2,8 +2,13 @@
 layout: post
 title: Fascinated With The Algorithm
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-algorithms.png
-atomdate: 2016-08-09T22:00:00.000Z
-tags: []
+atomdate: 2016-08-09 22:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Data
+- Facebook
+- Twitter
 ---
 According to Wikipedia, [in mathematics and computer science, an algorithm is a self-contained step-by-step set of operations to be performed. Algorithms perform a calculation, data processing, and/or automated reasoning tasks](https://en.wikipedia.org/wiki/Algorithm). These often very abstract inventions are increasingly guiding our personal and professional worlds from [deciding what we read on Facebook](http://www.slate.com/articles/technology/cover_story/2016/01/how_facebook_s_news_feed_algorithm_works.html), [scanning the videos uploaded to your Twitter and Vine feed](http://thenextweb.com/apps/2016/05/12/twitter-periscope-real-time-video-scannning/), to whether or not [you might commit a crime again](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing), and even [predict potential police misconduct](http://fivethirtyeight.com/features/we-now-have-algorithms-to-predict-police-misconduct/).
 

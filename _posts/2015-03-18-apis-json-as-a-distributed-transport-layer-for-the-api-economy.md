@@ -6,10 +6,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-economy-api.png
 author:
   name: kinlane
 tags:
-  - Economy
-  - APIs.json
-  - APIs
-  - APIs.jso
+- Economy
+- APIs.json
+- APIs
 ---
 I'm working with multiple partners to define what I’d consider to be the firsts stops along the API lifecycle, when you use [APIs.json](http://apisjson.org) as the scaffolding for your API operations. APIs.json is a machine readable format for indexing APIs, that exist under a specific website domain, or are part of a aggregate collection designed for a specific project or objective.
 

@@ -1,20 +1,16 @@
 ---
 published: true
 layout: post
-title: >-
-  An APIs.json Collection Of API Resources Across Your Public, Partner Or
-  Internal Resources
+title: An APIs.json Collection Of API Resources Across Your Public, Partner Or Internal Resources
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-internal-api.png
 author:
   name: kinlane
 tags:
-  - Public
-  - Internal
-  - APIs.json
-  - Collection
-  - Resources
-  - APIs
-  - APIs.jso
+- Internal
+- APIs.json
+- Collection
+- Resources
+- APIs
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 

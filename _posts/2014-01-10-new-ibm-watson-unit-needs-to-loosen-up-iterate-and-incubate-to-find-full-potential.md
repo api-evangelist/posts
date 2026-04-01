@@ -1,13 +1,18 @@
 ---
 layout: post
-title: >-
-  New IBM Watson Unit Needs To Loosen Up, Iterate and Incubate To Find Full
-  Potential
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ibm-watson.jpg
+title: New IBM Watson Unit Needs To Loosen Up, Iterate and Incubate To Find Full Potential
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ibm-watson.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Analytics
+- Business
+- Cloud
+- Facebook
+- Media
+- Monetization
 ---
 The latest [tech news to come out of IBM this week is a brand new business group to push innovation around the IBM Watson platform](http://www.zdnet.com/ibm-forms-watson-business-group-will-commercialization-follow-7000024929/), with IBM committed to spending $1B on the new business group, with $100M set aside to fund startups who build on top of the Watson platform.
 

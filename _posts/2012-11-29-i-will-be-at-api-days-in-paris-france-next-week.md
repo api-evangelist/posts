@@ -1,11 +1,18 @@
 ---
 layout: post
 title: I Will Be At API Days in Paris France Next Week
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Communications
+- Data
+- Evangelism
+- Governance
+- Mobile
+- Social
 ---
 I am heading to Paris, France next week for [API Days](http://apidays.io/). API Days is December 3rd and 4th in Paris and is dubbed as the _"First National Event on APIs in Europe"_. The two day event is organized by [faberNovel](http://www.fabernovel.com/en/ "FaberNovel"), who helps large organizations think and act like startups, and by [WebShell](http://webshell.io/ "Webshell"), who enables developers to easily make advanced web and mobile applications based on APIs.
 

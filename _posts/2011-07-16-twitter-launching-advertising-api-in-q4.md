@@ -6,10 +6,10 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Advertising
-  - Twitter
-  - Launching
-  - 4
+- Advertising
+- Twitter
+- Launching
+- '4'
 ---
 kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/twitter/Twitter-Logo.jpg)According to [Reuters](http://www.reuters.com "Reuters"), [Twitter is preparing to launch an Advertising API](http://www.reuters.com/article/2011/07/13/twitter-idUSN1E76C1Y920110713 "Twitter is preparing to launching an Advertising API"), targeting larger advertisers, allowing them to tailor, automate, and publish ads in bulk directly into Twitter users' streams.
 

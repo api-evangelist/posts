@@ -6,13 +6,11 @@ image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png
 author:
   name: kinlane
 tags:
-  - Federal Government
-  - Discovery
-  - Government
-  - Discover
-  - APIs.json
-  - APIs
-  - APIs.jso
+- Federal Government
+- Discovery
+- Government
+- APIs.json
+- APIs
 ---
 I recently updated my APIs.json files for all my API Evangelist network domains, to use version 0.14, which is getting pretty close to a stable version. While I await [APIs.io](https://bit.ly/1mtaqmK) to be updated to use this version, I wanted to to spend some time publishing APIs.json files, but this time across federal government APIs.
 

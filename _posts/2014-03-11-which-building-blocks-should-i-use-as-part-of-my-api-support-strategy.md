@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - My
-  - Support
-  - Strategy
+- Support
+- Strategy
 ---
 I wish I had more time to take many of the questions I get behind the scenes via email and publish as stories, but with an insane inbox I only can make time for some of the more relevant ones. I had one from a couple weeks ago that I just got around to responding to, which had to do with which support building blocks should an API provider use. This particular question comes from Jamie Parkins ([@jamieparkins](https://twitter.com/jamieparkins)) from [JustGiving](http://www.justgiving.com/):
 

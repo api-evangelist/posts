@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Trade.gov Using APIs.json And Added To APIs.io
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/trade-gov/developer-trade-gov.png
+image: https://s3.amazonaws.com/kinlane-productions2/federal-government/trade-gov/developer-trade-gov.png
 author:
   name: kinlane
 tags:
-  - APIs.json
-  - APIs
-  - APIs.io
-  - APIs.jso
+- APIs.json
+- APIs
+- APIs.io
 ---
 I've been a big proponent of APIs in the federal government, and it makes me really happy to see [Developer.Trade.Gov](http://developer.trade.gov/) using [APIs.json to provide an inventory of APIs available at the federal agency](http://developer.trade.gov/api.json) dedicated to strengthening "the competitiveness of U.S. industry, promotes trade and investment, and ensures fair trade through the rigorous enforcement of our trade laws and agreements".
 

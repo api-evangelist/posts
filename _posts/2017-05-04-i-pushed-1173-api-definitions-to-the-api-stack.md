@@ -1,13 +1,10 @@
 ---
 layout: post
 title: I Pushed 1173 API Definitions To The API Stack
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_stack_screen.png
-atomdate: 2017-05-04T19:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_stack_screen.png
+atomdate: 2017-05-04 19:00:00+00:00
 tags:
-  - Definitions
-  - Definition
-  - Stack
+- Definitions
 ---
 It has been over a year since I've pushed any API definitions to [my API Stack research](http://theapistack.com/), but I finally was able to prioritize time this week to make sure it was updated with the latest profiles I have in my API monitoring system. I pushed 1,173 companies who are doing interesting things with APIs. Not all of them have a traditional API program, but most of them do. It isn't all of the API related companies in my tracking system, but it's definitely the core group of what I'm watching.
 

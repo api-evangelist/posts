@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Google Hangouts For Bringing Your API Developer Team Out Of Their Silo
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/google-plus/google-plus-hangouts.png
+image: https://s3.amazonaws.com/kinlane-productions2/google-plus/google-plus-hangouts.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Deployment
+- Evangelism
+- Google
+- Management
+- Strategy
+- Stripe
 ---
 I did a Google Hangout with the [Cashtie API](http://bit.ly/1grzE1H "Cashtie API") development team this morning, which I thought was an interesting enough format to share with all of you. The Cashtie API team is a distributed team, between the corporate headquarters in Atlanta, Ukraine and Brazil. I’m working on ways to help Cashtie with their API strategy, and wanted to get to know the team—what better way than using Google Hangout.
 

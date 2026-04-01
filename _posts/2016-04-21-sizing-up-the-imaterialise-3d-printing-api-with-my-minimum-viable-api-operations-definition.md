@@ -1,16 +1,12 @@
 ---
 layout: post
-title: >-
-  Sizing Up The i.Materialise 3D Printing API With My Minimum Viable API
-  Operations Definition
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/i-materialise-logo.png
+title: Sizing Up The i.Materialise 3D Printing API With My Minimum Viable API Operations Definition
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/i-materialise-logo.png
 tags:
-  - 3D Printing
-  - My
-  - Definition
-  - Operations
-  - Print
+- 3D Printing
+- Definitions
+- Operations
+- Print
 ---
 I always have an inbox full of requests from companies asking me to take a look at their APIs, and provide any feedback that I can. I do conduct a more formal review for some companies, but I also enjoy looking through the API operations of any API, just as part of my regular monitoring (if I have time). When I do have time, the first part of any scope of review, is to see if it meets my definition of a minimum viable API operation.
 

@@ -4,7 +4,11 @@ title: 'Where You Will Find Me Next: Berlin, Barcelona, and Broomfield'
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-travel-calendar.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Strategy
+- Swagger
 ---
 I’ve been fortunate enough to be able to cut back on my travel in 2015, and focus on some important research, coding, and writing. I apologize to all the events I’ve said no to over the last couple months, but I hit a wall last year with speaking, and trying hard to make 2015 a much more healthier, and balanced year.
 

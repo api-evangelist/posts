@@ -1,16 +1,13 @@
 ---
 layout: post
-title: >-
-  Beyond Just API Discovery: The Technical, Business &amp; Political Decisions
-  Needed At Runtime
+title: 'Beyond Just API Discovery: The Technical, Business &amp; Political Decisions Needed At Runtime'
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-runtime-api.png
-atomdate: 2016-08-29T16:00:00.000Z
+atomdate: 2016-08-29 16:00:00+00:00
 tags:
-  - Business
-  - Discovery
-  - Runtime
-  - Discover
-  - Technical
+- Business
+- Discovery
+- Runtime
+- Technical
 ---
 [I was included in a conversation the other day on Twitter about runtime API discovery](https://twitter.com/steveklabnik/status/769658220159836160) which reminded me of some thoughts I was processing before I walked away from work this summer, and before I dive back into the technical work, I wanted to refresh these thoughts and bring them to the surface. Blogging on [API Evangelist](http://apievangelist.com), and other channels which I publish my work on is how I work through these ideas out in the open, something that saves me expensive time and research bandwidth while I'm down in the trenches doing the coding and API definition work.
 

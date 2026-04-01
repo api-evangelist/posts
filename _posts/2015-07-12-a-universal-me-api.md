@@ -4,7 +4,14 @@ title: A Universal Me API
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-me.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Authentication
+- Definitions
+- Government
+- Swagger
+- Twitter
 ---
 I am pretty demanding today, [I just asked for sandbox environments to be default for all APIs](http://apievangelist.com/2015/07/11/i-wish-all-apis-had-sandbox-environment-by-default/), and now I'd like to see a universal /me API. I am profiling AngelList API, [as part of my API Stack work](http://theapistack.com/), and while AngelList does not have it broke out as its own endpoint on the menu (it is just buried in the oAuth section), I thought it was worth breaking out all by itself.
 

@@ -1,12 +1,10 @@
 ---
 layout: post
-title: >-
-  Helping Folks Leave Their Platform and Language Baggage At Home Using API
-  Definition Formats
+title: Helping Folks Leave Their Platform and Language Baggage At Home Using API Definition Formats
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dogma.png
 tags:
-  - Platform
-  - Definition
+- Platform
+- Definitions
 ---
 I was just participating in an interesting conference call about multiple API implementations, which are putting the [Human Services Definition Specification (HSDS)](https://github.com/codeforamerica/OpenReferral/blob/master/Human%20Services%20Data%20Specification%20%20v1.0.md) to use. The call was brought together discuss a shift in the current path one of the projects was taking, which involved using [Azure Search Service](https://azure.microsoft.com/en-us/services/search/), and whether or not the original vendor solution was still necessary, because the cloud solution appeared to meet all their needs.
 

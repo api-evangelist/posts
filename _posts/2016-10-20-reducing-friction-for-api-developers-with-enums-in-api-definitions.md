@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Reducing Friction For API Developers With Enums In API Definitions
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_19_at_7.24.09_pm.png
-atomdate: 2016-10-20T18:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_19_at_7.24.09_pm.png
+atomdate: 2016-10-20 18:00:00+00:00
 tags:
-  - Definitions
-  - Enums
-  - Friction
-  - Definition
-  - Developers
+- Definitions
+- Enums
+- Friction
+- Developers
 ---
 I am going through [the Oxford Dictionaries API](https://developer.oxforddictionaries.com), learning about this valuable resource. Their onboarding process for registration, and learning about what the API does using interactive documentation, is very smooth. One of the things that really cuts the rough edges off learning about each API are the enums that are available for each path.
 

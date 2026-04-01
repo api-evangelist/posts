@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Google Goes All In With Github, You Should Too With Your API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-cloud-platform.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-cloud-platform.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Git
+- Github
 ---
 Google is migrating samples and tools for App Engine, BigQuery, Compute Engine, Cloud SQL, and Cloud Storage to a new Github account, they are calling the [Google Cloud Platform](http://google-opensource.blogspot.com/2013/01/find-sample-code-and-more-for-google.html "Google Cloud Platform").
 

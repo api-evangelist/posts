@@ -1,14 +1,12 @@
 ---
 layout: post
 title: One API Discovery Definition to Rule Them All
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/discovery-exploration.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/discovery-exploration.jpg
 author:
   name: kinlane
 tags:
-  - Discovery
-  - Definition
-  - Discover
+- Discovery
+- Definitions
 ---
 When I talk about API discovery, in-person at events, or on my blog(s), I notice people automatically default to thinking I mean a universal API discovery language that will work for all web APIs. I think the technologists that operate in the API space are always striving for technical perfection--resulting in the discussions that you see around REST, HATEOAS, OAuth and similarly for this one about API discovery.
 

@@ -1,20 +1,17 @@
 ---
 layout: post
-title: >-
-  API Definitions Broker Critical Conversations Between Business And Developers
-  Who Are Building NextGen Web, Mobile, and Device Apps
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-business-dev-code.png
+title: API Definitions Broker Critical Conversations Between Business And Developers Who Are Building NextGen Web, Mobile,
+  and Device Apps
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-business-dev-code.png
 author:
   name: kinlane
 tags:
-  - Business
-  - Definitions
-  - Mobile
-  - Web
-  - Definition
-  - Conversations
-  - Developers
+- Business
+- Definitions
+- Mobile
+- Web
+- Conversations
+- Developers
 ---
 If you are in an industry being impacted by technology, you have probably become very aware of the term Application Programming Interfaces, more widely known as APIs, and how they are driving web applications, mobile applications, and increasingly everyday objects in our homes, cars, businesses, and across the public landscape. If you are finding yourself part of this growing conversations, you have most likely have also heard talk of a new breed of API definition formats that are becoming ubiquitous like Swagger and API Blueprint.
 

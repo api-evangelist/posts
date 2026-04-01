@@ -2,12 +2,11 @@
 layout: post
 title: API Definitions Are Slowly Becoming More Important Than Having SDKs
 image: https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-icon.png
-atomdate: 2016-08-16T20:00:00.000Z
+atomdate: 2016-08-16 20:00:00+00:00
 tags:
-  - Definitions
-  - SDK
-  - Definition
-  - SDKs
+- Definitions
+- SDK
+- SDKs
 ---
 As the debate over [whether you need an SDK for your API or not](https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-icon.png) has rumbled over the last couple of years, API specification formats like OpenAPI Spec, Postman, and API Blueprint have been gaining traction. As this has progressed, I've asked myself several times whether or not API providers even need SDKs anymore. Not just because of the complexities of developing and maintaining, but because more developers are using web clients like Postman and DHC to evolve their integrations.
 

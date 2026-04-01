@@ -1,13 +1,12 @@
 ---
 layout: post
 title: 'API Definition Driven Visualizations: Verb Tag Clouds'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-verb-sms.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-verb-sms.png
 tags:
-  - Cloud
-  - Visualizations
-  - Visualization
-  - Definition
+- Cloud
+- Visualizations
+- Visualization
+- Definitions
 ---
 [I am playing with different ways of exploring APIs](http://apievangelist.com/2016/03/08/playing-with-concepts-around-simplifying-the-api-docs-that-are-generated-using-api-definitions/), building on documentation solutions like [Swagger UI](https://github.com/swagger-api/swagger-ui), [Lucybot Console](https://github.com/lucybot/lucy-console), and [Slate](https://github.com/tripit/slate). I want to push the boundaries of how we document, tell stories, and understand our APIs. I'm playing with two different formats, one is driven using Jekyll + Liquid, and the other are more embeddable JavaScript editions. I haven't hit on anything groundbreaking, but I am having fun breaking up the API definitions of common APIs, and organizing them for different experiences.
 

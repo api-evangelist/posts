@@ -1,12 +1,10 @@
 ---
 layout: post
 title: My Talk Tomorrow Night at the Dallas-Forth Worth API Professionals Meetup
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dfw-api-meetup-group.jpeg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dfw-api-meetup-group.jpeg
 author:
   name: kinlane
-tags:
-  - My
+tags: []
 ---
 After looking through the list of folks who have RSVP'd for the [DFW API Professionals Meetup in Dallas tomorrow night](http://www.meetup.com/DFW-API-Professionals/events/115600132/), it looks like an interesting mix of tech and business folk. The tech group is definitely the larger, with a mix of mobile, web and enterprise. The business folks look like a mix of VC, project manager, marketing and startups.
 

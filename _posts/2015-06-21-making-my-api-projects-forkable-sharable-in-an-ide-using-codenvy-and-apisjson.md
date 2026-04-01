@@ -1,20 +1,15 @@
 ---
 layout: post
-title: >-
-  Making My API Projects Forkable, Sharable In An IDE, Using Codenvy And
-  APIs.json
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-codenvy-menu.png
+title: Making My API Projects Forkable, Sharable In An IDE, Using Codenvy And APIs.json
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-codenvy-menu.png
 author:
   name: kinlane
 tags:
-  - My
-  - Project
-  - IDE
-  - APIs.json
-  - Code
-  - APIs
-  - APIs.jso
+- Project
+- IDE
+- APIs.json
+- Code
+- APIs
 ---
 I am playing around with making several stops along the API life cycle more accessible, and machine readable using APIs.json. To help me in my work, I am using [my own API stack](https://kin-lane.github.io/master/) as a proving ground, resulting in the [addition of Postman Collections](http://alpha.apievangelist.com/2015/04/07/including-postman-collections-in-my-apisjson-files/), [APIMATIC SDKs](http://alpha.apievangelist.com/2015/06/06/adding-apimatic-sdks-to-my-master-stack-and-including-in-each-apisjson/), and [API Science monitors](http://alpha.apievangelist.com/2015/06/06/adding-api-science-monitors-to-my-master-stack-and-including-in-each-apisjson/) over the last couple weeks. As I'm working through the 25 APIs I have, and almost 350 endpoints, making sure the Swagger definitions are complete, [the latest evolution of my API management service composition is applied](http://alpha.apievangelist.com/2015/06/08/my-api-service-composition-tiers/), APIMATIC SDKs up to date, and API Science monitors are setup, I stumbled across another critical stop along the life cycle--the IDE.
 

@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Free Application for Federal Student Aid (FAFSA) API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fafsa-form.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fafsa-form.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Design
+- Education
+- Evangelism
+- Federal Government
+- Financial
 ---
 I was asked to help put some thought into an API for the Free Application for Federal Student Aid iniative. First, what is FAFSA:
 

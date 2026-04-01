@@ -4,7 +4,15 @@ title: HAPi Hack Weekend
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Cloud
+- Data
+- Design
+- Education
+- Integration
+- Management
 ---
 There is a hackathon going on this weekend in San Francisco over at the TokBox Offices.
 

@@ -1,15 +1,11 @@
 ---
 layout: post
 title: Github Is Quickly Becoming My Most Important Discovery Source For API Space
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Trending_repositories_on_GitHub_today.png
-atomdate: 2016-08-29T22:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Trending_repositories_on_GitHub_today.png
+atomdate: 2016-08-29 22:00:00+00:00
 tags:
-  - My
-  - Github
-  - Discovery
-  - Discover
-  - Git
+- Github
+- Discovery
 ---
 I have monitored the Github accounts and organizations for individuals and companies doing interesting things with APIs for some time now. However, recently this channel is increasingly being the way that I discover truly interesting companies, individuals, specifications, tools, and even services. The most interesting people and companies doing things with APIs usually understand the importance of being transparent and aren't afraid of publishing their work on Github.
 

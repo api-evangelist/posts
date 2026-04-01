@@ -1,14 +1,12 @@
 ---
 layout: post
 title: API Developer Profiling Using Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Profiling
-  - Git
+- Github
+- Profiling
 ---
 One very powerful way to use [Github](https://github.com/ "Github") within your API strategy is for developer profiling. This approach requires the deployment of another Github solution, API [Developer login using Github](/2012/10/29/api-developer-login-using-github/ "Developer login using Github").
 

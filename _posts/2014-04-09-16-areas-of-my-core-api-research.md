@@ -1,13 +1,11 @@
 ---
 layout: post
 title: 16 Areas Of My Core API Research
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/services/api-management.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/services/api-management.png
 author:
   name: kinlane
 tags:
-  - My
-  - Research
+- Research
 ---
 When I first started API Evangelist, I wanted to better understand the business of APIs, which really focused on API management. Over the course of four years, the list of companies delivering API management services has expanded with new entrants, an evolved with acquisitions of some of the major players. Visit my API management research site for more news, companies, tools and analysis from this part of API operations.
 

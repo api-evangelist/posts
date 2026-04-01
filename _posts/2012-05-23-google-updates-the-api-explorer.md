@@ -1,11 +1,15 @@
 ---
 layout: post
 title: Google Updates the API Explorer
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Google-API-Explorer-v2.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Google-API-Explorer-v2.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Authentication
+- Google
+- Search
 ---
 Google just released an update to their [API Explorer](https://developers.google.com/apis-explorer/ "Google API Explorer").
 

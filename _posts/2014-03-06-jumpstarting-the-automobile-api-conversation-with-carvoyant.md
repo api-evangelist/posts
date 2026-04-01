@@ -1,11 +1,17 @@
 ---
 layout: post
 title: Jumpstarting the Automobile API Conversation With Carvoyant
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/carvoyant/carvoyant-logo.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/carvoyant/carvoyant-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Evangelism
+- Google
+- Integration
+- Security
 ---
 I had the pleasure of doing [Carvoyant Connected Car Cast today with Bret Tobey and Matt Galvin, hosted by the infamous Mike Maney (@the\_spinmd) today](http://www.youtube.com/watch?v=cKWgzOjgAjM). The session was nothing formal, just a conversation about cars and APIs.
 

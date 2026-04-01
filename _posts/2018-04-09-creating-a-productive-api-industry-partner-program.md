@@ -2,14 +2,12 @@
 published: true
 layout: post
 title: Crafting A Productive API Industry Partner Program
-date: 2018-04-09T09:00:00.000Z
+date: 2018-04-09 09:00:00+00:00
 tags:
-  - API Evangelist
-  - Partners
-  - Lifecycle
-  - Stack
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-red-seal.png
+- API Evangelist
+- Partners
+- Lifecycle
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-red-seal.png
 ---
 <p></p>I struggle with partner relationships. I've had a lot of partners operating API Evangelist over the years. Some good. Some not so good. And some amazing! You know who you are. It's tough to fund what I do as the API Evangelist. It's even harder to fund who I am as Kin Lane. I've revamped my approach to partnering several times now trying to find the right formula for me, my partners, and for my readers. As the partner requests pile up, and I fall short for some of my existing partners, while delivering as expected for others, it is time for me to take another crack at shaping my partner program.
 

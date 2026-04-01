@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Button To Run This API In The HTTP API Client of My Choice
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/run-api-in-postman.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/run-api-in-postman.png
 author:
   name: kinlane
 tags:
-  - My
-  - Client
-  - HTTP
+- Client
+- HTTP
 ---
 There are more [HTTP client tools](http://client.apievangelist.com/companies.html) out there than I can shake a stick at (I've reached that point, I'm shaking sticks at things), and in 2016 I predict there will be even more entrants into the space. [I'd say Postman was a pioneering force in the evolution of the HTTP client when it comes for web API space](http://apis.how/gwbjyujag1), but is [something that it is beginning to collide with API design tooling from Apiary](http://apis.how/ohgw3uqjt0), as well as being [morphed by new players like Stoplight.io](http://apis.how/syulwzictt).
 

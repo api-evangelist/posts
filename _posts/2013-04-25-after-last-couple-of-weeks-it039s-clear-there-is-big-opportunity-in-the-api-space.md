@@ -1,14 +1,19 @@
 ---
 published: true
 layout: post
-title: >-
-  After Last Couple of Weeks, It&#039;s Clear There Is Big Opportunity In The
-  API Space
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/hundred-dollar-bills.jpg
+title: After Last Couple of Weeks, It&#039;s Clear There Is Big Opportunity In The API Space
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/hundred-dollar-bills.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Data
+- Design
+- Discovery
+- Evangelism
+- Government
 ---
 There was a lot of buzz in the API space over the last two weeks. I'm not a big on being first with news from the world of APIs, I leave this approach to the tech blogs like Techcrunch, RWW, GigaOm, The Next Web and others. I'd rather simmer on things for a bit, think beyond the press release, and craft a post that offers value beyond the initial announcement and the [churnalism](https://en.wikipedia.org/wiki/Churnalism).
 

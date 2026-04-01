@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Identify Influencers with the Klout API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/klout-logo.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/klout-logo.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Documentation
+- Google
+- Mobile
+- Plans
+- Social
 ---
 [Klout](http://klout.com/ "Klout") just updated their API area. The [Klout API](http://developer.klout.com/ "Klout API") was originally released in 2009, but the new API area has several improvements including faster response times for the API, better documentation and improved terms of service.
 

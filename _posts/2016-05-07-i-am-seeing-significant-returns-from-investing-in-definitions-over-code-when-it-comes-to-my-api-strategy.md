@@ -1,15 +1,11 @@
 ---
 layout: post
-title: >-
-  I Am Seeing Significant Returns From Investing In Definitions Over Code When
-  It Comes To My API Strategy
+title: I Am Seeing Significant Returns From Investing In Definitions Over Code When It Comes To My API Strategy
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-invest-api.png
 tags:
-  - My
-  - Definitions
-  - Strategy
-  - Definition
-  - Code
+- Definitions
+- Strategy
+- Code
 ---
 I am doing way more work on the creation of machine-readable OpenAPI Specs for APIs, indexed using machine-readable APIs.json files than I am the actual creation of APIs lately. About [half of the API definitions I create are for existing APIs](http://theapistack.com/), with [the rest of them describing APIs that should exist](http://schema.org.apis.apievangelist.com/). With the existing APIs, in some cases, I am creating client-side code, but mostly just focusing on a well crafted API definition. When it comes to the new API designs, I am focusing on a complete API definition, but also crafting both server-side, as well as client-side code around the definition--when needed.
 

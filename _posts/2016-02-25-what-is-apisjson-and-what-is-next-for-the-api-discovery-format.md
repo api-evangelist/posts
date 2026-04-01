@@ -5,11 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Discovery
-  - Discover
-  - APIs.json
-  - APIs
-  - APIs.jso
+- Discovery
+- APIs.json
+- APIs
 ---
 As part of a renewed focus on the [API discovery definition format APIs.json](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-discovery.png), I wanted to revisit the propsed machine readable API discovery specification, and see what is going on. First, what is APIs.json? It is a machine readable JSON specification, that anyone can use to define their API operations. APIs.json does not describe your APIs like [OpenAPI Spec](https://github.com/OAI/OpenAPI-Specification) and [API Blueprint](https://apiblueprint.org/) do, it describes your surrounding API operations, with entries that can reference your Open API Spec, API Blueprint, or any other format that you desire.
 

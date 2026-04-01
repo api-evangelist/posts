@@ -1,14 +1,12 @@
 ---
 layout: post
 title: From Github Issue To Story to Resource
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ben-balter.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ben-balter.png
 author:
   name: kinlane
-date: 2013-07-17T20:47:24.000Z
+date: 2013-07-17 20:47:24+00:00
 tags:
-  - Github
-  - Git
+- Github
 ---
 As an evangelist, your responsibility is to get the word out about an API, and provide users with the resources they will need to be successful.
 

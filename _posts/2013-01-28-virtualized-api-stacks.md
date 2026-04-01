@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Virtualized API Stacks
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Virtualized-API-Stacks.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Virtualized-API-Stacks.png
 author:
   name: kinlane
-date: 2013-01-28T19:56:14.000Z
-tags:
-  - Stack
+date: 2013-01-28 19:56:14+00:00
+tags: []
 ---
 Up until now we tend to think of APIs individually--we approach integration in terms of the Twilio API, Twitter API or the Facebook API. But as the number of [public APIs has grown beyond 8K](http://www.programmableweb.com/apis/directory), and an [unknown amount of internal and partner APIs](/2013/01/24/estimating-the-number-of-non-public-apis/ "unknown amount of internal and partner APIs") become available, we are seeing new patterns of [aggregation](/trends/aggregation.php "aggregation") and [interoperability](/trends/interoperability.php "interoperability") emerge from companies like [Singly](http://singly.com "Singly"), but also seeing [automation](/trends/automation.php "automation") be added into the mix by companies like [Temboo](http://temboo.com "Temboo"), and entire backend stacks from providers like Parse.
 

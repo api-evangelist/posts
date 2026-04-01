@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Five Separate API Event Series In 2013
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-api-conference.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-api-conference.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Strategy
 ---
 When it came to API focused events, the only conference there was to attend was the [Business of APIs Conference](http://apiconference.com/ "Business of APIs Conference"), from [Mashery](http://mashery.com "Mashery"). They have been putting on the conference(correct me if I’m wrong) since 2007. There wasn’t much of an "API Industry" back then, and Mashery was definitely the pioneer in the space, getting the word out and along with [ProgrammableWeb](http://programmableweb.com "ProgrammableWeb"), has done a lot to define the API space.
 

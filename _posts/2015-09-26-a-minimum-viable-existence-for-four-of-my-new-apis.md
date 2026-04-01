@@ -1,13 +1,11 @@
 ---
 layout: post
 title: A Minimum Viable Existence For Four Of My New APIs
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/four-new-apis.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/four-new-apis.png
 author:
   name: kinlane
 tags:
-  - My
-  - APIs
+- APIs
 ---
 I have a whole bunch of APIs I want to deploy. There is a queue of APIs that I will never get to, but I can't help myself, and when I am tired of watching what everyone else is doing, and want to get busy actually building things, I crack open my queue of ideas. This weekend I launched four new APIs, that will be in the service of some very different objectives that I have.
 

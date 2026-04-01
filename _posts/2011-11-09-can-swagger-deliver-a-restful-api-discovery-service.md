@@ -1,17 +1,14 @@
 ---
 layout: post
 title: Can Swagger Deliver a RESTful API Discovery Service?
-url: >-
-  http://apievangelist.com/2011/11/09/can-swagger-deliver-a-restful-api-discovery-service/
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Swagger-Logo.png
+url: http://apievangelist.com/2011/11/09/can-swagger-deliver-a-restful-api-discovery-service/
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Swagger-Logo.png
 author:
   name: kinlane
 tags:
-  - Discovery
-  - REST
-  - Discover
-  - Swagger
+- Discovery
+- REST
+- Swagger
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 

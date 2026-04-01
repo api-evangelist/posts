@@ -1,10 +1,17 @@
 ---
 layout: post
 title: Google Acquired Apigee
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_09_12_at_9.18.25_am.png
-atomdate: 2016-09-12T22:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_09_12_at_9.18.25_am.png
+atomdate: 2016-09-12 22:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Cloud
+- Data
+- Deployment
+- Google
+- Management
 ---
 The news came in late last week that [Google was acquiring API management pioneer Apigee](https://cloudplatform.googleblog.com/2016/09/Google-to-acquire-apigee.html). The news caught me by surprise. I thought if there was still going to be an acquisition of Apigee that it would come from their flagship client AT&T or from other giants like IBM. While it was surprising, seconds after hearing it, the acquisition made total sense, and I think it just reflects the increased usage of APIs by businesses of all shapes and sizes.
 

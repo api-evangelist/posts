@@ -1,11 +1,14 @@
 ---
 layout: post
 title: HTML to Markdown API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fuck-yeah-markdown-api.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fuck-yeah-markdown-api.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Evangelism
+- Github
 ---
 I'm slowly getting my blog world in order after the move from my own proprietary blogging platform to using Github + Jekyll hosted using Github Pages.
 

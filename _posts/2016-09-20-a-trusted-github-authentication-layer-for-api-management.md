@@ -2,14 +2,13 @@
 layout: post
 title: A Trusted Github Authentication Layer For API Management
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.png
-atomdate: 2016-09-21T00:00:00.000Z
+atomdate: 2016-09-21 00:00:00+00:00
 tags:
-  - Github
-  - Management
-  - Authentication
-  - API Management
-  - rust
-  - Git
+- Github
+- Management
+- Authentication
+- API Management
+- rust
 ---
 I am reworking the management layer for my APIs. For the last couple of years, I had aspirations of running my APIs with a retail layer generating revenue for API Evangelist--something which required a more comprehensive API management layer. In 2016, I'm not really interested in generating revenue from the APIs I operate, I'm just looking to put them to work in my own business, and if others want access I'm happy to open things up and broker some volume deals.
 

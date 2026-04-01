@@ -4,7 +4,13 @@ title: What Is API Service Composition?
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-conductor.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Government
+- Media
+- Plans
 ---
 This is another one of those topics I talk a lot about, but only found few examples of me talking about on the blog--API service composition. If you aren't familiar with the concept, it is the art of taking digital resources (aka APIs), and mix and match them in different ways, until you find the right approach to delivering APIs, that provides value for both provider and consumer.
 

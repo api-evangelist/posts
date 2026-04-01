@@ -1,14 +1,13 @@
 ---
 layout: post
 title: An API Definition As The Truth In The API Contract
-url: >-
-  http://apievangelist.com/2014/07/15/an-api-definition-as-the-truth-in-the-api-contract/
+url: http://apievangelist.com/2014/07/15/an-api-definition-as-the-truth-in-the-api-contract/
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-contract.png
 author:
   name: kinlane
 tags:
-  - Definition
-  - Contract
+- Definitions
+- Contract
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 

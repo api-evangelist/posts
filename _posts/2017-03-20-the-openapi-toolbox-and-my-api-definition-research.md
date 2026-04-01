@@ -1,16 +1,14 @@
 ---
 layout: post
 title: The OpenAPI Toolbox And My API Definition Research
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/open_api_toolbox_icons.png
-atomdate: 2017-03-21T00:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/open_api_toolbox_icons.png
+atomdate: 2017-03-21 00:00:00+00:00
 tags:
-  - My
-  - OpenAPI
-  - Research
-  - Definition
-  - Open
-  - Toolbox
+- OpenAPI
+- Research
+- Definitions
+- Open
+- Toolbox
 ---
 [I have the latest edition of my API definition research published](http://definitions.apievangelist.com/guide/), complete with [a community-driven participation model](https://apievangelist.com/2017/03/20/a-community-strategy-for-my-api-definition-guide/), but before I moved on to my [design](http://design.apievangelist.com/), [deployment](http://deployment.apievangelist.com/), and [management](http://mangement.apievangelist.com/) guides, I wanted to take a moment and connect my [OpenAPI toolbox](http://openapi.toolbox.apievangelist.com/) to this research.
 

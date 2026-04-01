@@ -1,12 +1,10 @@
 ---
 layout: post
 title: API Stack - Optical Character Recognition with WiseTrend OCR API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/WiseTrend-OCR-API-Logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/WiseTrend-OCR-API-Logo.png
 author:
   name: kinlane
-tags:
-  - Stack
+tags: []
 ---
 The [WiseTrend OCR API](http://www.wisetrend.com/WiseTREND_Online_OCR_API_v2.0.htm "Wisetrend OCR API") allows developers to submit images in PDF, TIF, PNG, JPG,BMP, PCX and DCX formats, and get back textual results in TXT, PDF, RTF, Word, Excel, XML and CSV formats.
 

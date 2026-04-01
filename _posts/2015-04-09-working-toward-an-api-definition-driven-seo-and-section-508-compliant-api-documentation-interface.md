@@ -1,15 +1,13 @@
 ---
 layout: post
-title: >-
-  Working Toward An API Definition Driven, SEO, and Section 508 Compliant API
-  Documentation Interface
+title: Working Toward An API Definition Driven, SEO, and Section 508 Compliant API Documentation Interface
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-section-508.png
 author:
   name: kinlane
 tags:
-  - SEO
-  - Documentation
-  - Definition
+- SEO
+- Documentation
+- Definitions
 ---
 This is a topic I’ve had an increasing number of conversation with folks about in the last couple months, and a friend of mine Tweeted in response to today, resulting in this lovely rant. This is about two very separate problems, in which the solutions are what I'd consider significantly overlapped. I’m talking about the need to make sure the valuable metadata, as well as underlying resources made available via an API is accessible to search engines, while also making sure the it is all [Section 508 compliant](http://www.section508.gov/section508-laws), providing critical access to people with disabilities.
 

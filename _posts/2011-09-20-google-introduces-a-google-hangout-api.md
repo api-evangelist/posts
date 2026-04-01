@@ -1,11 +1,15 @@
 ---
 layout: post
 title: Google Introduces a Google+ Hangout API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-plus-hangouts.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-plus-hangouts.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Facebook
+- Google
+- Strategy
 ---
 Not even a week after Google rolled out the long awaited [Google+ API](/2011/09/16/google-api-a-technology-review/ "Google+ API"), they [launched the Google+ Hangouts API](http://googleplusplatform.blogspot.com/2011/09/introducing-google-hangouts-api.html "rolled out Google+ Hangouts API"), enabling developers to build collaborative apps that run inside of a Google+ Hangout
 

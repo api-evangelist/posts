@@ -2,14 +2,13 @@
 published: true
 layout: post
 title: API Transit - The Basics
-date: 2018-01-02T02:00:00.000Z
+date: 2018-01-02 02:00:00+00:00
 tags:
-  - API Evangelist
-  - API Transit
-  - 101
-  - Lifecycle
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-transit/api-transt-subway.png
+- API Evangelist
+- API Transit
+- '101'
+- Lifecycle
+image: https://s3.amazonaws.com/kinlane-productions2/api-transit/api-transt-subway.png
 ---
 <p align="center"><a href="http://basics.apievangelist.com/"><img src="https://s3.amazonaws.com/kinlane-productions2/api-transit/api-transt-subway.png" align="right" width="45%" style="padding: 15px;" /></a></p>I have been evolving my approach to mapping out all the stops along my API research, using a subway map approach lately. It has been something I've been [working on since 2014](http://apievangelist.com/2014/12/01/my-turkey-holiday-project-a-subway-map-api/), and had [developed as a keynote talk in 2015](https://apievangelist.com/2015/11/29/the-api-lifecycle-my-talk-from-defrag-and-apistrat/). My goal is to be able to lay out simple, as well as increasingly complex aspects of consistently operating an API. Something I've historically called the API life cycle, but [will work to call API transit in the future](http://apievangelist.com/2017/08/17/testing-out-the-concept-of-api-transit-instead-of-api-lifecycle/).
 

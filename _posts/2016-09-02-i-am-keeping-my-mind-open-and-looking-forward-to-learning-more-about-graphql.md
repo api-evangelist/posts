@@ -1,14 +1,12 @@
 ---
 layout: post
 title: I Am Keeping My Mind Open And Looking Forward To Learning More About GraphQL
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-graphql.png
-atomdate: 2016-09-02T22:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-graphql.png
+atomdate: 2016-09-02 22:00:00+00:00
 tags:
-  - My
-  - GraphQL
-  - Learning
-  - Open
+- GraphQL
+- Learning
+- Open
 ---
 I wrote a post the other day sharing my thoughts around [GraphQL seeming like we were avoiding the hard work of API design](http://apievangelist.com/2016/08/30/graphql-seems-like-we-do-not-want-to-do-the-hard-work-of-api-design/). Shortly after publishing Sashko Stubailo ([@stubailo](https://twitter.com/stubailo)) from [Apollo, a GraphQL solution provider](http://www.apollostack.com/), wrote a [very thoughtful response to me comments and questions about GraphQL](https://medium.com/apollo-stack/graphql-the-next-generation-of-api-design-f24b1689756a#.ph8196t2j). First I wanted to say that I really dig this approach to responding to other people's blog posts, with a blog post of your own, within your own personal or company domain.
 

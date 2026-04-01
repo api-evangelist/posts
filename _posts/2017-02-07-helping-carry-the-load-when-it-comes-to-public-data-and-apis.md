@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Helping Carry The Load When It Comes To Public Data And APIs
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/carryload_diego_rivera1.jpg
-atomdate: 2017-02-07T23:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/carryload_diego_rivera1.jpg
+atomdate: 2017-02-07 23:00:00+00:00
 tags:
-  - Data
-  - Public Data
-  - Public
-  - APIs
+- Data
+- Public Data
+- APIs
 ---
 I am finally getting back to [my Knight Foundation funded grant work on Adopta Agency](http://adopta.agency), I'm investing some research cycles into finding some tools that civic, science, journalism and other public data activists can put to use in their critical work. [We've seen folks rise to the occasion when it came to climate data, helping migrate vital resources from federal government servers](https://www.washingtonpost.com/news/energy-environment/wp/2016/12/13/scientists-are-frantically-copying-u-s-climate-data-fearing-it-might-vanish-under-trump/), something I'd like to see happen across other business sectors, as well as continue as an ongoing thing throughout this administration, and beyond.
 

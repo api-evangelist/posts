@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Mashery Plays API Match Maker with Developer Connect
-url: >-
-  http://apievangelist.com/2012/01/31/mashery-plays-api-match-maker-with-developer-connect/
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Mashery-Developer-Connect.png
+url: http://apievangelist.com/2012/01/31/mashery-plays-api-match-maker-with-developer-connect/
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Mashery-Developer-Connect.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Mobile
+- Versioning
 ---
 kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-service-providers/mashery/Mashery-Developer-Connect.png)](http://developer.mashery.com/devconnect "Developer Connect")
 

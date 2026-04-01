@@ -1,13 +1,12 @@
 ---
 layout: post
 title: I Am Up To 34 APIs Out Of The Netherlands
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-netherlands.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-netherlands.png
 author:
   name: kinlane
 tags:
-  - APIs
-  - 4
+- APIs
+- '4'
 ---
 As we gear up for [API Strategy & Practice in Amsterdam, March 24-26th](http://www.apistrategyconference.com/2014Amsterdam/index.php), I’m spending my time getting to know API companies across Europe. I published a [listing of APIs I found from the United Kingdom](http://apievangelist.com/2014/02/27/apis-coming-out-of-the-united-kingdom/) a few days ago, and next up is taking a look at what APIs are coming out of the Netherlands.
 

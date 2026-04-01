@@ -1,18 +1,15 @@
 ---
 layout: post
-title: >-
-  Driving Your Single Page Applications And API Cookbooks Using API Definition
-  Formats Like Swagger And API Blueprint
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/lucybot/lucybot-full-logo.png
+title: Driving Your Single Page Applications And API Cookbooks Using API Definition Formats Like Swagger And API Blueprint
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/lucybot/lucybot-full-logo.png
 author:
   name: kinlane
 tags:
-  - Applications
-  - Blueprint
-  - Definition
-  - Swagger
-  - API Blueprint
+- Applications
+- Blueprint
+- Definitions
+- Swagger
+- API Blueprint
 ---
 During my monitoring of the API space this last week I had one of those rare discoveries, amongst thousands of misses, and around a hundred slightly interesting nuggets, a simple move forward called [Lucybot](https://lucybot.com/) emerges. 
 

@@ -1,13 +1,18 @@
 ---
 layout: post
-title: >-
-  An Outside-In Approach To Jumpstarting An API Effort At The University of
-  Oklahoma
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/the-university-of-oklahoma.png
+title: An Outside-In Approach To Jumpstarting An API Effort At The University of Oklahoma
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/the-university-of-oklahoma.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Documentation
+- Evangelism
+- Github
+- Government
+- Open Data
 ---
 I wrote a story a couple of weeks ago, about [how to kickstart APIs at the University of Oklahoma (OU)](http://apievangelist.com/2014/09/30/where-do-we-start-with-apis-at-the-university-of-oklahoma/). I ended the post, saying I would find some easy targets for generating the initial APIs, and publish a basic developer portal using Github Pages. After some work I think I have enough done to initiate another conversation with my friends at OU.
 

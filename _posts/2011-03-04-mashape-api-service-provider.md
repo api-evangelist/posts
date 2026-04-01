@@ -4,7 +4,14 @@ title: Mashape API Service Provider
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Design
+- Management
+- Standards
+- Testing
 ---
 [Mashape](http://www.mashape.com/ "Mashape") provides tools that enable developers to quickly deliver and consume [APIs](http://www.apievangelist.com) and offers a marketplace for listing APIs to buy and sell.
 

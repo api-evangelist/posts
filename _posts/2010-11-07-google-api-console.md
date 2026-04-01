@@ -5,7 +5,15 @@ url: http://apievangelist.com/2010/11/07/google-api-console/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Analytics
+- Documentation
+- Google
+- Integration
+- Search
+- Security
 ---
 Google released some updates to its API ecosystem the other day with a new release of [Google Custom Search API](http://code.google.com/apis/customsearch/). Google also rewrote a bunch of [API documentation](http://googleajaxsearchapi.blogspot.com/2010/11/fall-housekeeping.html) and more importantly released an [API console for managing your Google APIs](https://code.google.com/apis/console/).
 

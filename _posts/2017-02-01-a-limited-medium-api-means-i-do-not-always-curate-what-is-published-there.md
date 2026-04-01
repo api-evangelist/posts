@@ -1,10 +1,16 @@
 ---
 layout: post
 title: A Limited Medium API Means I Do Not Always Curate What Is Published There
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/medium.png
-atomdate: 2017-02-01T17:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/medium.png
+atomdate: 2017-02-01 17:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Data
+- Integration
+- Management
+- Monetization
+- Strategy
 ---
 One of the deciding factors of whether or not I put a new online service to use in my business depends on whether or not they have an API. Sometimes I have no choice in the matter, but if I have any say, a service must allow me to move data in and out of their system programmatically, keeping in sync with my own systems, otherwise I will not adopt the service as part of my regular operations.
 

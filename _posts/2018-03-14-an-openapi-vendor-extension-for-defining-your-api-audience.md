@@ -2,16 +2,14 @@
 published: true
 layout: post
 title: An OpenAPI Vendor Extension For Defining Your API Audience
-date: 2018-03-14T11:00:00.000Z
+date: 2018-03-14 11:00:00+00:00
 tags:
-  - API Evangelist
-  - Definitions
-  - Evangelism
-  - Security
-  - Governance
-  - Evangelism
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/97_193_800_500_0_max_0_1_-1.jpg
+- API Evangelist
+- Definitions
+- Evangelism
+- Security
+- Governance
+image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/97_193_800_500_0_max_0_1_-1.jpg
 ---
 <p></p>The clothing marketplace Zalando has an interesting approach to classifying their APIs based upon who is consuming them. It isn't just about APIs being published publicly, or privately, they actually have standardized their definition, and have established an OpenAPI vendor extension, so that the definition is machine readable and available via their OpenAPI.
 

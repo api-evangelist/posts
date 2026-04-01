@@ -1,15 +1,12 @@
 ---
 layout: post
-title: >-
-  How To Discover No Name And Description Twitter Accounts For Folks In The
-  Enterprise
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mr_wilson.jpg
-atomdate: 2016-09-23T18:00:00.000Z
+title: How To Discover No Name And Description Twitter Accounts For Folks In The Enterprise
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mr_wilson.jpg
+atomdate: 2016-09-23 18:00:00+00:00
 tags:
-  - Twitter
-  - Enterprise
-  - Discover
+- Twitter
+- Enterprise
+- Discovery
 ---
 I am always fascinated by the online fence sitting persona that is the enterprise tech industry employee. I know many them are there, but few ever retweet my work, respond to my posts via comments, or other channels. Usually, I only know that many of them are there from the occasional like on one of my stories, but I'm slowly developing other ways to build lists of Twitter users from behind the enterprise fence.
 

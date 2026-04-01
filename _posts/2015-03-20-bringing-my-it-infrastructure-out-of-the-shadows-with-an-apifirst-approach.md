@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-bright.png
 author:
   name: kinlane
 tags:
-  - My
-  - Infrastructure
-  - API-First
+- Infrastructure
+- API-First
 ---
 I'm [slowly migrating my own infrastructure, towards a microservice first approach](https://kin-lane.github.io/master/index.html), something you can follow the details of on my [alpha.apievangelist.com blog](http://alpha.apievangelist.com). I've been running on my own custom brew content management system (CMS) since I started API Evangelist in 2010. There are many APIs in use across my system, both external publicly available APIs like Twitter and Crunchbase, and a wide variety of internal APIs I've developed myself.
 

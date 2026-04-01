@@ -1,16 +1,12 @@
 ---
 layout: post
-title: >-
-  SchemaHub&#039;s Usage Of Github To Launch Their API Service Is A Nice
-  Approach
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/schemahub_thanks.png
-atomdate: 2016-09-29T16:00:00.000Z
+title: SchemaHub&#039;s Usage Of Github To Launch Their API Service Is A Nice Approach
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/schemahub_thanks.png
+atomdate: 2016-09-29 16:00:00+00:00
 tags:
-  - Github
-  - Schema
-  - Usage
-  - Git
+- Github
+- Schema
+- Usage
 ---
 I'm looking through a new API definition focused service provider called [SchemaHub](http://schemahub.io/) today, and I found their approach to using Github as a base of operations was interesting and provided a nice blueprint for other API server providers to follow. I'm continually amazed at the myriad of ways that Github can be put to use in the world of APIs, which is one of the things I love about it.
 

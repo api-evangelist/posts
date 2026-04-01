@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Mulesoft Launches API Discovery Hub
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mulesoft-logo.jpeg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mulesoft-logo.jpeg
 author:
   name: kinlane
 tags:
-  - Discovery
-  - Discover
+- Discovery
 ---
 API Discovery is becoming an increasingly troubling problem. As an analyst, I see a dizzying amount of APIs each month. When I get asked to find a particular type of API, or group of APIs in a particular industry--it gets difficult to discover a meaningful results to any query.
 

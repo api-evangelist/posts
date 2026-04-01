@@ -2,14 +2,12 @@
 published: true
 layout: post
 title: Twice The Dose Of Vanick Digital At APIStrat in Nashville, TN Next Month
-date: 2018-08-07T09:00:00.000Z
+date: 2018-08-07 09:00:00+00:00
 tags:
-  - API Evangelist
-  - API Evangelist
-  - Agency
-  - Security
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/vanick-digital/apistrat-2018-vanick-digital.png
+- API Evangelist
+- Agency
+- Security
+image: https://s3.amazonaws.com/kinlane-productions2/vanick-digital/apistrat-2018-vanick-digital.png
 ---
 <p></p>We are kicking it into overdrive now that [the schedule is up for APIStrat in Nashville, TN this September 24th through 26th](https://events.linuxfoundation.org/events/apistrat-2018/program/schedule/). From now until the event at the end of September you are going to hear me talk about all the amazing speakers we have, the companies they work for, and the interesting things they are all doing with APIs. One of the perks of being a speaker or a sponsor at APIStrat--you get coverage on API Evangelist, a become part of the buzz around [the 9th edition of the API Strategy & Practice Conference (APIStrat)](https://events.linuxfoundation.org/events/apistrat-2018/program/schedule/), now operated by the [OpenAPI Initiative (OAI)](https://www.openapis.org/) and [the Linux Foundation](https://www.linuxfoundation.org/).
 

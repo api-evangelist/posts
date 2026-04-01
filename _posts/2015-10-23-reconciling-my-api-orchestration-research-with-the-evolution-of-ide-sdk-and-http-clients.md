@@ -1,20 +1,17 @@
 ---
 layout: post
-title: >-
-  Reconciling My API Orchestration Research With the Evolution of IDE, SDK, and
-  HTTP Clients
+title: Reconciling My API Orchestration Research With the Evolution of IDE, SDK, and HTTP Clients
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puzzle-round.png
 author:
   name: kinlane
 tags:
-  - My
-  - SDK
-  - Orchestration
-  - Client
-  - HTTP
-  - Research
-  - Clients
-  - IDE
+- SDK
+- Orchestration
+- Client
+- HTTP
+- Research
+- Clients
+- IDE
 ---
 I've been tagging companies that I come across in my research, and stories that I find with the term "orchestration" for some time now. Some of this overlaps with what we know as cloud-centric orchestration using Puppet or Chef, but I am specifically looking for how we orchestrate across the API lifecycle which I feel overlaps with cloud orchestration, but pushes into some new realms.
 

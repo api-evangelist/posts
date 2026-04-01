@@ -5,13 +5,11 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-recycling.jpg
 author:
   name: kinlane
 tags:
-  - Github
-  - Twitter
-  - Stack
-  - Feedback Loop
-  - APIs
-  - Feedback
-  - Git
+- Github
+- Twitter
+- Feedback Loop
+- APIs
+- Feedback
 ---
 I’m still extracting great examples of API design, deployment, and management, that other API providers can follow, from recent API projects out of our federal government, with [FBOpen](http://apievangelist.com/2014/04/08/18f-shows-what-is-possible-in-government-with-fbopen-api/) from [18F](https://18f.gsa.gov/), and [OpenFDA out of the Food & Drug Administration (FDA).](http://apievangelist.com/2014/06/04/another-strong-api-implementation-in-federal-government-with-openfda/)
 

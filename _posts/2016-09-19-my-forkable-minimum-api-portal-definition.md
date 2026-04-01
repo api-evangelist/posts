@@ -1,13 +1,11 @@
 ---
 layout: post
 title: My Forkable Minimum API Portal Definition
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/minimum_api_portal.png
-atomdate: 2016-09-19T16:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/minimum_api_portal.png
+atomdate: 2016-09-19 16:00:00+00:00
 tags:
-  - My
-  - Portal
-  - Definition
+- Portal
+- Definitions
 ---
 [I am updating my minimum API portal definition](http://portal.minimum.apievangelist.com/) so I can apply to my own API infrastructure, and since I operate 100% on Github using Github Page and Jekyll, [I have made it a forkable API portal definition that anyone can put to work as their own API developer portal](https://github.com/api-evangelist/portal-minimum). This edition of my API portal definition uses Bootstrap for its UI, and Jekyll for the CMS, making it pretty extensible, and remixable once you fork it on Github.
 

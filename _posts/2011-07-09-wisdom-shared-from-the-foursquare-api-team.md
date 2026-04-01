@@ -5,7 +5,15 @@ url: http://apievangelist.com/2011/07/09/wisdom-shared-from-foursquare-api-team/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Design
+- Documentation
+- Evangelism
+- Google
+- Versioning
 ---
 kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/foursquare/foursquare-engineering-logo.png)Foursquare is [sunsetting their APIv1](https://groups.google.com/forum/#!topic/foursquare-api/tZPFTbUTQJQ "sunsetting their APIv1"), and recently spent some time sharing the lessons they learned during APIv1 and the decisions that went into APIv2.
 

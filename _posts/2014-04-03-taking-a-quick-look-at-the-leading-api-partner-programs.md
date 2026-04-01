@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Taking A Quick Look At The Leading API Partner Programs
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-handshake.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-handshake.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Business
+- Cloud
+- Data
+- Evangelism
+- Facebook
 ---
 I’ve seen a wave of blog posts about additions to the developer and partner programs, of some of the leading APIs in the industry, making me think its time for some more research into the area. Partner programs come in several shapes and sizes, and go by different names, and are something I would like to understand better. I have several Evernote folders full of research on API partner programs, now I just need to polish it and publish it here on the blog, and possibly give it its own research repository on Github.
 

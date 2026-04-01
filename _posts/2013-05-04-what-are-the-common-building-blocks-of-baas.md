@@ -4,7 +4,13 @@ title: What Are The Common Building Blocks of BaaS?
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Definitions
+- Discovery
+- Management
+- Mobile
 ---
 After reviewing the top BaaS providers like Appcelerator, Appery.io Kinvey, Parse and StackMob, a pattern of building blocks begin to emerge. Building blocks that BaaS providers are using to assemble their platforms into meaningful stacks that developers can put to use.  While each BaaS provider has their own approach, a handful of common building blocks emerge, allowing a coherent definition of what is a BaaS provider to emerge.
 

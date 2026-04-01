@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-windows.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Internal
+- Internal
 ---
 The first consumer of all of my APIs, including my [screen capture API](http://screen-capture.apievangelist.com/) is me. I develop my APIs first for my use, and only recently have decided to make available to the public. So when I sat down to create my [service composition for my APIs](http://apievangelist.com/2014/04/14/service-composition-for-my-screen-capture-api/), I needed to figure out what I was going to do about my internal consumption.
 

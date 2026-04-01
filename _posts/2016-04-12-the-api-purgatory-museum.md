@@ -1,9 +1,16 @@
 ---
 layout: post
 title: The API Purgatory Museum
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/purgatory-sculpture.jpg
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/purgatory-sculpture.jpg
+tags:
+- API Evangelist
+- APIs
+- Data
+- Design
+- Documentation
+- Google
+- Lifecycle
+- Messaging
 ---
 While I am on the subject of API deprecation, [showcasing some of the interesting ways folks deprecate their APIs](http://apievangelist.com/2016/04/12/api-deprecation-art/), I want to actually send out a message to API operators, that if you are considering, preparing (or not preparing) to deprecate your API, I wanted to talk with you including it in the API Purgatory Museum. 
 

@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Hoping Schema Becomes Just As Important As API Definitions in 2017
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/schema_starburst.png
-atomdate: 2017-01-10T23:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/schema_starburst.png
+atomdate: 2017-01-10 23:00:00+00:00
 tags:
-  - Definitions
-  - Schema
-  - Definition
+- Definitions
+- Schema
 ---
 The importance of a [machine readable API definition](http://definitions.apievangelist.com/) has grown significantly over the last couple of years, with a lot of attention being spent (rightfully so) on helping educate API providers of the value of having an [OpenAPI Spec](https://github.com/OAI/OpenAPI-Specification), [API Blueprint](https://apiblueprint.org/), or another format. This is something I want to continue contributing to in 2017, but I also want to also shine a light on the importance of having your data schema well defined.
 

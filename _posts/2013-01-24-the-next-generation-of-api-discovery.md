@@ -1,14 +1,12 @@
 ---
 layout: post
 title: The Next Generation of API Discovery
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-API-Discovery.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-API-Discovery.png
 author:
   name: kinlane
 tags:
-  - Discovery
-  - Discover
-  - Generation
+- Discovery
+- Generation
 ---
 For the last seven years, when you wanted to find an API you went to [ProgrammableWeb](http://programmableweb.com). It has been the definitive way to discover new APIs, and responsible for all the buzz in the space that has gotten the industry to where it is.
 

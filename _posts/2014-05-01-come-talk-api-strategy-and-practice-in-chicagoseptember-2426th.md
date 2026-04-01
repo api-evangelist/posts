@@ -5,8 +5,8 @@ image: http://apistrategyconference.com/images/apistrat-logo.png
 author:
   name: kinlane
 tags:
-  - Strategy
-  - 4
+- Strategy
+- '4'
 ---
 Its official, the next edition of [API Strategy will be in Chicago, September 24,25, and 26th 2014](http://apistrategyconference.com/). We've dubbed this version of the conference, '**_APIs Going Mainstream_**'!
 

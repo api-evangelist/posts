@@ -1,11 +1,15 @@
 ---
 layout: post
 title: I Want An API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-i-want-api.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-i-want-api.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Integration
+- Mobile
 ---
 I feel we have done a good job explaining what is an API, why people need APIs, and providing services to manage APIs, but we are falling short on delivering information, tools and services for deploying APIs.
 

@@ -2,14 +2,13 @@
 published: true
 layout: post
 title: I Am A Professional In My Industry, Where Should I Begin With APIs?
-date: 2017-09-22T12:00:00.000Z
+date: 2017-09-22 12:00:00+00:00
 tags:
-  - API Evangelist
-  - 101
-  - Training
-  - Lessons
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/methuselah-mountain.jpg
+- API Evangelist
+- '101'
+- Training
+- Lessons
+image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/methuselah-mountain.jpg
 ---
 <p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/methuselah-mountain.jpg" align="right" width="40%" style="padding: 15px;" /></p>A regularly question I get from business folks out in the space, is regarding where they should start with APIs. My world is usually broke into two areas: 1) Providing APIs, and 2) Consuming APIs. I'd say that these business folk I keep coming across could easily span both of these areas, making it significantly more complicated to help them understand where they should be getting started with APIs. With the API landscape being so wide, and APIs becoming so ubiquitous across many industries, helping someone onboard to the concept can get pretty complex and confusing pretty quick.
 

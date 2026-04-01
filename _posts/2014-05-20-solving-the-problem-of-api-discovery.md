@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-discovery.p
 author:
   name: kinlane
 tags:
-  - Discovery
-  - Discover
+- Discovery
 ---
 API discovery has not changed much since 2005, when [John Musser launched ProgrammableWeb](http://apievangelist.com/2012/12/30/history-of-apis--programmableweb/), the API directory we've all come to know and love. In 2014 (9 years later), we have [Mashape](https://www.mashape.com/) and a handful of other API directory and discovery tools, but we have not made progress on truly being able to discover the best APIs possible, in a distributed, machine-readable way.
 

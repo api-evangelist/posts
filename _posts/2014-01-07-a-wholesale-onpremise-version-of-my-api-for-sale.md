@@ -1,13 +1,11 @@
 ---
 layout: post
 title: A Wholesale On-Premise Version Of My API For Sale
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-scraper.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-scraper.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Wholesale
+- Wholesale
 ---
 I was doing some research in the area of harvesting and scraping APs. I was taking another look at [Web Scrape Master](http://webscrapemaster.com/), a simple scraping API that allows you to pass it a URL and it harvests structured data and content from the page.
 

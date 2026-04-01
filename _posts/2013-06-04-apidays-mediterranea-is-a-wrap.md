@@ -1,11 +1,14 @@
 ---
 layout: post
 title: APIdays Mediterranea Is A Wrap
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-editerranea-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-editerranea-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Email
+- Management
 ---
 I just got back from Madrid, Spain, where I spoke at [APIdays Mediterranea](http://mediterranea.apidays.io/). I really enjoy the API Days format, because the events are small, intimate API learning and networking opportunities.
 

@@ -2,12 +2,11 @@
 layout: post
 title: Why I Added Cybersecurity To My API Monitoring Research
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cybersecurity.png
-atomdate: 2016-08-30T20:00:00.000Z
+atomdate: 2016-08-30 20:00:00+00:00
 tags:
-  - My
-  - Monitoring
-  - Cybersecurity
-  - Research
+- Monitoring
+- Cybersecurity
+- Research
 ---
 I recently added a [new area of research to API Evangelist focused on cybersecurity](http://cybersecurity.apievangelist.com/). I added this area of research not because APIs are being used to hack systems, which does happen occasionally. I did this because I wanted to better tune into this area because APIs are being applied by all sides (are there sides?) to communicate, evaluate cybersecurity events, and spread their message--which is a significant part of what is cybersecurity.
 

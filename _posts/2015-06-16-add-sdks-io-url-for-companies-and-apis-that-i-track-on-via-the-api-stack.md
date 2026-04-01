@@ -2,15 +2,13 @@
 published: true
 layout: post
 title: Add SDKs.io URL For Companies And APIs That I Track On Via The API Stack
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sdks-io/sdks-io-logo.jpeg
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sdks-io/sdks-io-logo.jpeg
 author:
   name: kinlane
 tags:
-  - SDK
-  - Stack
-  - APIs
-  - SDKs
+- SDK
+- APIs
+- SDKs
 ---
 I am partnering with [APIMATIC](https://apimatic.io/) to help establish a common set of complete, and validated API definitions for the almost [1000 APIs I track on as part of my API Stack](http://theapistack.com/companies.html). I am using my [Questions API](https://kin-lane.github.io/question/) to identify what work is needed to be done, [by asking basic questions about companies, via their APIs.json definition, resulting in quick tasks I can accomplish that help us achieve our goals.](http://apievangelist.com/2015/06/15/my-minimum-viable-definition-for-a-complete-swagger-api-definition/)
 

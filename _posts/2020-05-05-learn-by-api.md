@@ -2,12 +2,11 @@
 published: true
 layout: post
 title: Learn by API
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/postman-tutorials/learn-by-api/2-visualizer-experience.png
+image: https://kinlane-productions2.s3.amazonaws.com/postman-tutorials/learn-by-api/2-visualizer-experience.png
 author:
   name: kinlane
 tags:
-  - 101
+- '101'
 ---
 I was playing around with [my co-worker Sue Smith’s Learn by API project today](https://glitch.com/@sue.smith), and found it to be a pretty powerful usage of Postman for not just teaching users about Postman, but also teach them about healthy practices when it comes to API design. The [Learn by API Postman collection](https://explore.postman.com/templates/7499/learn-by-api) provides an interesting building block for development of other introductory API concepts, but also API design concepts in service of a formal API governance strategy across an organization. I recommend you just click on the Run in Postman button for the Learn by API to collection to better understand the potential, but I’d also like to break down what she did to help illustrate how it could be used as an API education and training blueprint.
 

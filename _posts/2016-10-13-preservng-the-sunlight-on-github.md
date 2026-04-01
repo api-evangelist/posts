@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Preserving The Sunlight On Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/ok_800.jpeg
-atomdate: 2016-10-13T22:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/ok_800.jpeg
+atomdate: 2016-10-13 22:00:00+00:00
 tags:
-  - Github
-  - Git
+- Github
 ---
 I'm following along as the Sunlight Foundation winds down their operations and gathering any lessons along the way, that can help us open data and transparency folks can learn from as we do our work. [I wrote earlier that we should be learning from the Sunlight Foundation situation and that we are making sure we bake transparency into our projects](http://apievangelist.com/2016/09/23/learning-from-the-sunlight-foundation-situation-and-baking-transparency-into-projects/) and wanted to continue to extract wisdom we can reuse as they turn out the lights.
 

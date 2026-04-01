@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Learning About Machine Learning APIs With My Algorithmic Rotoscope Work
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/algorotoscope/valleyrivertreeline/clean_view/file-00_01_06_83.jpg
-atomdate: 2017-01-03T17:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/valleyrivertreeline/clean_view/file-00_01_06_83.jpg
+atomdate: 2017-01-03 17:00:00+00:00
 tags:
-  - My
-  - Machine Learning
-  - APIs
-  - Learning
+- Machine Learning
+- APIs
+- Learning
 ---
 I was playing around with [Algorithmia](https://algorithmia.com) for a story about their business model back in December, when I got sucked into playing with their [DeepFilter service](https://algorithmia.com/algorithms/deeplearning/DeepFilter), resulting in a 4-week long distraction which ultimately became what I am calling my [algorithmic rotoscope](http://algorithmic.rotoscope.work) work. After weeks of playing around, I have a good grasp of what it takes to separate videos into individual images, applying the Algorithmia machine learning filters, and reassembling them as videos. I also have several of my own texture filters created now using [the AWS AMI and process provided Algorithmia](http://blog.algorithmia.com/training-style-transfer-models/)\--you can [learn more about algorithmic rotoscope, and details of what I did via the Github project updates](http://algorithmic.rotoscope.work/updates/)e.
 

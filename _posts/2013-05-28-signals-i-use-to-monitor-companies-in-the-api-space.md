@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Signals I Use To Monitor Companies In The API Space
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-stack-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-stack-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Evangelism
+- Federal Government
+- Github
+- Government
+- Healthcare
 ---
 Over the last year I've worked hard to standardize and automate as much of my monitoring of the API space as I can. The amount of information I was monitoring daily was getting overwhelming--I needed to scale what I do, so I created what I call my [API Stack Ranking](http://theapistack.com/ranking.html).
 

@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Converting Between The Popular API Definition Formats Using API Transformer
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-transformer-screenshot.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-transformer-screenshot.png
 author:
   name: kinlane
 tags:
-  - Definition
+- Definitions
 ---
 My own API management system allows me to import Postman collections, HAR files, Charles Proxy XML files, and Swagger version 1.2, but when it comes to output, it only speaks Swagger 2.0. I've been wanting to create a tool for outputting my definitions as API Blueprint for some time now, but just haven't had the time to do the work.
 

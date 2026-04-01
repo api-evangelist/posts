@@ -2,8 +2,13 @@
 layout: post
 title: What I Mean When I Say API
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png
-atomdate: 2016-09-21T16:00:00.000Z
-tags: []
+atomdate: 2016-09-21 16:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Data
+- Design
+- Github
 ---
 People love to tell me the limitations of my usage of the acronym API. They like to point out they were around before the web, that they are used in hardware, or are not an API unless it is REST. There are endless waves of dudes who like to tell me what I mean when I say API. To help counter-balance each wave I like to regularly evolve, and share what I mean when I say API--not what people might interpret I mean.
 

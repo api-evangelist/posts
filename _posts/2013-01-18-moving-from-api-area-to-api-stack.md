@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Moving From API Area to API Stack
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Stack-Colored.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Stack-Colored.png
 author:
   name: kinlane
-tags:
-  - Stack
+tags: []
 ---
 Finding APIs that compliment your API, and talking about the mutual benefits is nothing new. When I worked with the [print API Mimeo](http://mimeo.com), I would write code that used Mimeo API in conjunction with [Box API](http://developer.mimeo.com/blog/blog_detail.php?ID=91 "Box API") or [Dropbox API](http://developer.mimeo.com/blog/blog_detail.php?ID=223). Mashing up or bundling your APIs with other complimentary service can really help, when you are trying to explain the value your API delivers.
 

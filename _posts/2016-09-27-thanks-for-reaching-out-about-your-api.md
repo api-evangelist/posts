@@ -2,8 +2,16 @@
 layout: post
 title: Thanks For Reaching Out About Your API
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-email.png
-atomdate: 2016-09-27T16:00:00.000Z
-tags: []
+atomdate: 2016-09-27 16:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Communications
+- Email
+- Evangelism
+- Github
+- Monitoring
+- Standards
 ---
 I get a number of folks emailing me about their API and API-focused services. When I have the bandwidth I spend time in my inbox and respond to these emails. To help me do this a little more efficiently (I'm not always very quick about it), I'm formalizing some snippets I can use in my response(s). I want to thank them for reaching out, while also helping them understand my approach to successfully operating API Evangelist.
 

@@ -1,13 +1,10 @@
 ---
 layout: post
 title: Further Defining the AngelList API as Part of My API Stack
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/angellist-peace-sign.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/angellist-peace-sign.jpg
 author:
   name: kinlane
-tags:
-  - My
-  - Stack
+tags: []
 ---
 I am slowly making my way through defining of [the APIs available in the API Stack](http://theapistack.com/), beginning with [the APIs that I depend on to operate API Evangelist](http://stack.apievangelist.com/companies.html). The best way to understand any API in my opinion, is to create a [Swagger definition](http://swagger.io) for it, as well as an [APIs.json file](http://apisjson.org), indexing the overall API operations. Since my mission is all about understanding APIs, this is something I try to do on a regular basis.
 

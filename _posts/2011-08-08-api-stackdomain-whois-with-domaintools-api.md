@@ -1,14 +1,12 @@
 ---
 layout: post
 title: API Stack - Domain Whois with DomainTools API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/domain-tools-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/domain-tools-logo.png
 author:
   name: kinlane
 tags:
-  - Stack
-  - Tools
-  - ai
+- Tools
+- ai
 ---
 The [DomainTools API](http://www.domaintools.com/api/ "Domain Tools API") provides research and monitoring web services for domains.
 

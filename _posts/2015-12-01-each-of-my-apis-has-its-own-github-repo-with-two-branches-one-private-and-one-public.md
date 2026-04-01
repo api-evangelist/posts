@@ -1,17 +1,12 @@
 ---
 layout: post
-title: >-
-  Each Of My APIs Has Its Own Github Repo With Two Branches, One Private And One
-  Public 
+title: 'Each Of My APIs Has Its Own Github Repo With Two Branches, One Private And One Public '
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png
 author:
   name: kinlane
 tags:
-  - My
-  - Github
-  - Public
-  - APIs
-  - Git
+- Github
+- APIs
 ---
 While it will never be 100% complete or perfect, I finally have [my API stack](https://kin-lane.github.io/master/) in a way that lets me add, evolve, scale, and deprecate the endpoints as I need. I've been centralizing all of my APIs, [underneath a single Github organization](https://github.com/Kin-Lane), with each API as a single repository. 
 

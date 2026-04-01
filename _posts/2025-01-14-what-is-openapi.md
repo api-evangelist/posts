@@ -3,12 +3,11 @@ published: true
 layout: post
 title: What is OpenAPI?
 tags:
-  - OpenAPI
-  - 101
-  - Specifications
-  - Standards
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-docks-water-front-ships-containers.jpg
+- OpenAPI
+- '101'
+- Specifications
+- Standards
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-docks-water-front-ships-containers.jpg
 ---
 OpenAPI (formerly Swagger) is a specification for designing, documenting, and consuming RESTful APIs. It provides a standard, language-agnostic format that describes APIs, enabling both humans and machines to understand a service's capabilities without accessing its source code. By defining common schema properties, OpenAPI has become the universal language for API descriptions, bridging the gap between business and engineering teams across enterprises.
 

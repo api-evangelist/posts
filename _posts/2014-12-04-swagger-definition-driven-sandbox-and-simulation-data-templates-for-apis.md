@@ -5,12 +5,12 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-sandbox.png
 author:
   name: kinlane
 tags:
-  - Data
-  - Definition
-  - Sandbox
-  - Templates
-  - Swagger
-  - APIs
+- Data
+- Definitions
+- Sandbox
+- Templates
+- Swagger
+- APIs
 ---
 This is something I’ve written about before in [API Sandbox And Simulator From Carvoyant](http://apievangelist.com/2014/11/05/api-sandbox-and-simulator-from-carvoyant/), and [Salesforce Adds Sandbox Templates](http://apievangelist.com/2013/05/24/salesforce-adds-sandbox-templates/). However it is something I’d like to formalize, and get some new API service providers helping out in this area, or encourage the development of open source solutions.
 

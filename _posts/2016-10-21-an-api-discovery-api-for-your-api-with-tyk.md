@@ -1,12 +1,10 @@
 ---
 layout: post
 title: An API Discovery API For Your API With Tyk
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_20_at_7.37.43_pm.png
-atomdate: 2016-10-21T20:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_20_at_7.37.43_pm.png
+atomdate: 2016-10-21 20:00:00+00:00
 tags:
-  - Discovery
-  - Discover
+- Discovery
 ---
 [If you are selling services to the API space you should have an API](http://apievangelist.com/2015/10/27/which-api-service-providers-across-the-20-areas-i-track-on-have-apis/), it is just how this game works (if you are savvy). I was going through [Tyk's API for their open source API management solution and came across their API definitions API](https://tyk.io/docs/tyk-dashboard-v1-0/dashboard-api/api-definitions/), which gives you a list of APIs for each Tyk deployment--baking in API discovery into the open source API management solution by default.
 

@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Get A List Of All Classes At UC Berkeley With API Call
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/berkeley-api-central.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/berkeley-api-central.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Communications
+- Data
+- Documentation
+- Evangelism
+- Google
+- Management
 ---
 I see a lot of dead simple, yet meaningful uses of APIs come across my desk (I don’t have a desk, why do I keep saying this?) each day. One I saw today is something every school, whether K-12, college or university should have.
 

@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dimensions.png
 author:
   name: kinlane
 tags:
-  - My
-  - Monetization
-  - ddi
+- Monetization
+- ddi
 ---
 When it comes to the API space, it always takes numerous conversations with API providers and practitioners, before something comes into focus for me. I've spent five years having [API management](http://management.apievangelist.com) conversations, an area that is very much in focus for me when it comes to my own infrastructure, as well as using as a metric for reviewing the other public and private APIs that I review regularly.
 

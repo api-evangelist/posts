@@ -1,13 +1,18 @@
 ---
 layout: post
-title: >-
-  Parse Shutting Down: Maybe We Should Lower Our Expectations Of Tech Just A
-  Little Bit
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/parse-moving-on.png
+title: 'Parse Shutting Down: Maybe We Should Lower Our Expectations Of Tech Just A Little Bit'
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/parse-moving-on.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Business
+- Facebook
+- Google
+- Lifecycle
+- Mobile
 ---
 [The mobile backend as a service (MBaaS) platform Parse is shutting down](http://blog.parse.com/announcements/moving-on/). I started tracking on Parse as part of my BaaS research a couple years back, [something that resulted in having all of the BaaS providers, including Ilya Sukhar (@) of Parse, on stage at @APIStrat NYC in early 2013](http://apievangelist.com/2013/02/25/the-baas-reality-tv-show-panel-at-apistrat/)\--this conversation was just a couple months before Parse was acquired by Facebook. 
 

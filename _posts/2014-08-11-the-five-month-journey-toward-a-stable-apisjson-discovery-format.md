@@ -5,12 +5,10 @@ image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png
 author:
   name: kinlane
 tags:
-  - Discovery
-  - Journey
-  - Discover
-  - APIs.json
-  - APIs
-  - APIs.jso
+- Discovery
+- Journey
+- APIs.json
+- APIs
 ---
 I [published the story last night on finalizing the most recent version of the API discovery format APIs.json](http://apievangelist.com/2014/10/08/next-stable-version-of-apisjson--apisio-is-ready--are-your-apis-discoverable/), and the support for it in the open source API search engine [APIs.io](http://apis.io). Steve and I are done messing with the format for a while, and want to encourage API providers to begin describing their APIs using the open format.
 

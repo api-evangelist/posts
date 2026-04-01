@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dollar-sign.png
 author:
   name: kinlane
 tags:
-  - My
-  - Resources
+- Resources
 ---
 I am continuing to push my research around API [monetization](http://monetization.apievangelist.com/), [plans](http://plans.apievangelist.com/), and [partners](http://partners.apievangelist.com/) forward, whilep preparing for [my API lifecycle keynote at @Defrag and @APIStrat](http://apievangelist.com/2015/11/29/the-api-lifecycle-my-talk-from-defrag-and-apistrat/). Along the way, I am also exercising some of my API pricing and planning strategies with my partner in crime at [APIware](http://apiware.io), as we think through some new products that we are developing.
 

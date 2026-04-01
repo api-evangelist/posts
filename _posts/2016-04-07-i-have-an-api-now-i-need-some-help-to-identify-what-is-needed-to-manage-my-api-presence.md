@@ -1,13 +1,9 @@
 ---
 layout: post
-title: >-
-  I Have An API, Now I Need Some Help to Identify What Is Needed To Manage My
-  API Presence
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-manage-operations.png
+title: I Have An API, Now I Need Some Help to Identify What Is Needed To Manage My API Presence
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-manage-operations.png
 tags:
-  - My
-  - Presence
+- Presence
 ---
 It is pretty easy to design, define, and deploy APIs these days, and I get a number of folks who approach me with questions about how to get going with the operations and management side of things. While each company, and API provider, will have different needs, I have a general list of the common building blocks used by the leading API providers I track on across the API sector.
 

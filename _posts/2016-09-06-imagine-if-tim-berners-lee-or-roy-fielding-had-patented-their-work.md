@@ -2,8 +2,13 @@
 layout: post
 title: Imagine If Tim Berners Lee Or Roy Fielding Had Patented Their Work
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cybersecurity.png
-atomdate: 2016-09-06T16:00:00.000Z
-tags: []
+atomdate: 2016-09-06 16:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Integration
+- Mobile
 ---
 I'm back wallowing through [my API patent work](http://patents.apievangelist.com/), which I'm sure a portion of my readership is like, "oh gawd, hurry up and move on", which is the same way I feel, but the shit is so deep in this area of my API research I find myself often getting stuck. I just do not know enough about the law, intellectual property, and the patenting algorithms to argue coherently against API focused patents, but in my heart, I know that the API itself should be excluded from the process that is being defined.
 

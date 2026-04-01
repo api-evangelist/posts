@@ -4,7 +4,13 @@ title: Watch Out As 1000lb Gorillas Set Their Sights on BaaS Space!
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Cloud
+- Mobile
+- Salesforce
 ---
 The mobile app development space has grown into such an opportunity, it has begun to attract the attention of some of the heaviest hitters in the API space, Amazon Web Services, SalesForce and RackSpace.
 

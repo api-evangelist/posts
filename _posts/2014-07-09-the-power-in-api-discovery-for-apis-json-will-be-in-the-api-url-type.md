@@ -6,12 +6,10 @@ image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apis-json-gears.p
 author:
   name: kinlane
 tags:
-  - Discovery
-  - Discover
-  - APIs.json
-  - APIs
-  - Power
-  - APIs.jso
+- Discovery
+- APIs.json
+- APIs
+- Power
 ---
 An [APIs.json](http://apis.json) file lives in the root of any domain, or subdomain, and provides references to a collection of API resources. The APIs.json is meant to be a lightweight framework, where someone can build a collection of APIs, give it a name, description, some tags, and the APIs collection points you where you need to go, to get more information about those APIs.
 

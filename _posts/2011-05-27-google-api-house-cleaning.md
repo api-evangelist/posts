@@ -5,7 +5,15 @@ url: http://apievangelist.com/2011/05/27/google-api-house-cleaning/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Discovery
+- Documentation
+- Google
+- Integration
+- Lifecycle
 ---
 Google has had a busy year when it comes to APIs. So far this year they've launched 6 new APIs:
 

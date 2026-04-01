@@ -1,14 +1,12 @@
 ---
 layout: post
 title: I Am Always Amazed At How Little People Understand About Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
 author:
   name: kinlane
 tags:
-  - Github
-  - People
-  - Git
+- Github
+- People
 ---
 I work with some seriously smart people on a day to day basis, virtually across the web, and in person on some of the projects I'm working on in federal government. Much like APIs, Github is fast becoming a ubiquitous technology that people are using to manage their community, code, documents and much more.
 

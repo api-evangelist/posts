@@ -3,14 +3,13 @@ published: true
 layout: post
 title: The Missing API Fundamentals
 tags:
-  - Funamentals
-  - 101
-  - Education
-  - Evangelism
-  - Schema
-  - Governance
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-nyc-public-library.jpeg
+- Funamentals
+- '101'
+- Education
+- Evangelism
+- Schema
+- Governance
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-nyc-public-library.jpeg
 ---
 You can find endless information gathered profiling public APIs and the nuts and bolts of API governance via the API Evangelist website, but after much surveying and assessment of what API producers and consumers need, what is currently available to them from other services and tooling, API Evangelist will slowly shift over the next couple of weeks to focus on what we see as the missing fundamentals from API operations. These are the areas we see enterprises are the most deficient, and API service and tooling providers aren’t always investing in when it comes to surrounding their offerings with the knowledge teams need to be successful. These are the areas that API Evangelist will be heavily investing in when it comes to stories and knowledge building.
 

@@ -1,10 +1,17 @@
 ---
 layout: post
 title: Including End Users In the Conversation About Their Bits Being Sold
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_31_at_2.29.16_pm.png
-atomdate: 2017-02-01T20:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_31_at_2.29.16_pm.png
+atomdate: 2017-02-01 20:00:00+00:00
+tags:
+- API Evangelist
+- Business
+- Data
+- Financial
+- Healthcare
+- Integration
+- Mobile
+- Monetization
 ---
 [Fitbit recenttly announced a program to pay their wearable users up to $1500 for integrating](https://blog.fitbit.com/fitbit-charge-2-healthcare-integration/) their Charge 2 into the UnitedHealthcare Motion program powered by Qualcomm Life’s 2net Platform. The "UnitedHealthcare Motion is an employer-sponsored wearable device wellness program that offers financial incentives for enrollees who meet daily step goals". Pulling back the curtain just a little bit on the value of your Internet of Things data, and specifically the devices you strap to your body.
 

@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Public Library Operations Machine-Readable By Default
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/city-of-palo-alto-logo.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/city-of-palo-alto-logo.jpg
 author:
   name: kinlane
 tags:
-  - Public
-  - Operations
-  - Machine-Readable
+- Operations
+- Machine-Readable
 ---
 Palo Alto has opened up city data, including [operational data about the Palo Alto City Library](http://paloalto.opendata.junar.com/dashboards/8031/library/). Using the Palo Alto City open data portal you can access machine-readable data sets about various aspects of library operations including visitor count, checkouts by type of materia, information and circulation services, programs attendance, website visitors count and how library funds are spent.
 

@@ -2,11 +2,9 @@
 layout: post
 title: The List Of API Signals I Track On In My API Stack Research
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-signals.png
-atomdate: 2017-05-09T19:00:00.000Z
+atomdate: 2017-05-09 19:00:00+00:00
 tags:
-  - My
-  - Research
-  - Stack
+- Research
 ---
 I keep an eye on several thousand companies as part of my research into the API space and publish over a thousand of these profiles in [my API Stack project](http://theapistack.com). Across the over 1,100 companies, organizations, institutions, and government agencies I'm regularly running into [a growing number of signals that tune me into what is going on with each API provider](http://theapistack.com/channel-types/), or service provider. 
 

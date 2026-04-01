@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - My
-  - Zapier
-  - Process
+- Zapier
+- Process
 ---
 I had the pleasure of hanging out with Wade Foster ([@wadefoster](https://twitter.com/wadefoster)), co-founder and CEO of [Zapier](https://zapier.com/) (How do you pronounce Zapier? It rhymes with happier :-) recently. As I travel less, I'm looking at doing more of these Google Hangouts, to fill my need for hanging out with super smart people, doing really cool things with APIs.
 

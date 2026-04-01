@@ -1,19 +1,15 @@
 ---
 layout: post
-title: >-
-  Using Containers To Bridge What Swagger Cannot Define On The Server-Side For
-  My APIs
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-api-docker.png
+title: Using Containers To Bridge What Swagger Cannot Define On The Server-Side For My APIs
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-api-docker.png
 author:
   name: kinlane
 tags:
-  - My
-  - Containers
-  - Swagger
-  - Define
-  - APIs
-  - ai
+- Containers
+- Swagger
+- Define
+- APIs
+- ai
 ---
 When I discuss what is possible when it comes to generating both server and client side code using machine readable API definitions like [Swagger](http://swagger.io), I almost always get push-back, making sure I understand there are limitations of what can be auto-generated.
 

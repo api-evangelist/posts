@@ -1,15 +1,12 @@
 ---
 layout: post
-title: >-
-  A Shared, Distributed Experience(Metrics) Layer For The API Driven Application
-  Stack
+title: A Shared, Distributed Experience(Metrics) Layer For The API Driven Application Stack
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-analytics-4.jpeg
 author:
   name: kinlane
 tags:
-  - Metrics
-  - Stack
-  - Experience
+- Metrics
+- Experience
 ---
 I’m in the middle of processing multiple emails, as well as coming down off an early morning conversation, all on the subject of analytics. A portion of the conversations are about analytics at the web site, web or mobile app level, and a portion of it was around analytics for API developers, as well as API platform providers—basically the full stack of analytics including platforms, developers, apps, all the way to the end-user.
 

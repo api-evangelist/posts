@@ -3,11 +3,10 @@ published: true
 layout: post
 title: 'Taking Inventory: APIs Are Defined As API Contracts'
 tags:
-  - Strategy
-  - Contract
-  - APIs.jso
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-factory-road.jpg
+- Strategy
+- Contract
+- APIs.json
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-factory-road.jpg
 ---
 An API contract represents a shared machine-readable understanding of the business and technical requirements established between the producer and consumers of programmatic interfaces used across desktop, web, mobile, device, and artificial intelligence applications. API contracts are defined as a combination of APIs.json for the business definition and OpenAPI as the technical definition, along with other supporting human and machine-readable artifacts rounding off a contract. API contracts go beyond the current notion of API discovery and catalogs and is more about taking inventory of digital resources and capabilities used to operate the enterprise.
 

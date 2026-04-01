@@ -6,9 +6,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png
 author:
   name: kinlane
 tags:
-  - APIs.json
-  - APIs
-  - APIs.jso
+- APIs.json
+- APIs
 ---
 As I travel around talking to folks about APIs, I spend as much time as I can, educating folks about [APIs.json](http://apisjson.org). In the course of my evangelism, I’m constantly reminded how little people, who have even heard, and read about APIs.json, really understand about what it actually is. With this in mind, I will be regularly publishing examples of what APis.json is, to help on-board everyone to Steve ([@ngynx](https://twitter.com/njyx)), and mine vision for [APIs.json](http://apisjson.org).
 

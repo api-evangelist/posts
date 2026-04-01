@@ -1,14 +1,11 @@
 ---
 layout: post
-title: >-
-  A Complete (Enough) API Definition To Move On and Profile The Next API in The
-  Stack
+title: A Complete (Enough) API Definition To Move On and Profile The Next API in The Stack
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png
 author:
   name: kinlane
 tags:
-  - Definition
-  - Stack
+- Definitions
 ---
 I'm working to profile as many of the top, publicly available APIs out there, [as part of the API Stack](http://theapistack.com/). While I've come to feel that no API definition will ever actually be complete, [I'm working to at least establish a healthy baseline for the APIs I am profiling](http://apievangelist.com/2015/06/15/my-minimum-viable-definition-for-a-complete-swagger-api-definition/), while also automating as much of the process as I possibly can.
 

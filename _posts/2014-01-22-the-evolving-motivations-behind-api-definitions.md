@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-evolving.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Definition
+- Definitions
 ---
 I’m spending more time diving into the evolving world of API design over the next couple of weeks. There is a rapidly emerging community of companies, tooling and approaches to designing and developing APIs, that is centered around API definition languages.
 

@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-micro-definitio
 author:
   name: kinlane
 tags:
-  - My
-  - Definition
-  - Micro
+- Definitions
+- Micro
 ---
 I am evolving [my own personal microservices definition](http://apievangelist.com/2015/03/17/more-pondering-on-my-own-microservice-definition/), something that is constantly changing, as I work on my infrastructure, read other people’s own definitions (no shortage these lately), and continuing having conversations with smart folks across the space. I had the pleasure of having Mike Amundsen over the other night for dinner, and after having some interesting discussions about community, and potential micro services design, I’m adding a couple of elements to my microservice definition list.
 

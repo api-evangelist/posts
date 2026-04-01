@@ -1,12 +1,16 @@
 ---
 layout: post
-title: >-
-  Guest Post: Help Us Bring Out The Worst Of The Net So We Can Generate Page
-  Views
+title: 'Guest Post: Help Us Bring Out The Worst Of The Net So We Can Generate Page Views'
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-angry-mob.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Design
+- Email
+- Evangelism
+- Twitter
 ---
 _This is a guest post from one of our sponsors. We actually cringed, and puked in our mouth a little bit when we saw an email come in from this company, requesting a post, but they paid us well, and we knew the topic would generate an insane amount of page views, so what the hell—we can drink more so we can sleep at night._
 

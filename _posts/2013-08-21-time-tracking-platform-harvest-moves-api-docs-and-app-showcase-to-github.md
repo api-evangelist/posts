@@ -1,18 +1,16 @@
 ---
 layout: post
 title: Time Tracking Platform Harvest Moves API Docs and App Showcase to Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/harvest-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/harvest-logo.png
 author:
   name: kinlane
 tags:
-  - Tracking
-  - Github
-  - Showcase
-  - Platform
-  - Docs
-  - Time
-  - Git
+- Tracking
+- Github
+- Showcase
+- Platform
+- Docs
+- Time
 ---
 [Time Tracking API platform Harvest](http://www.getharvest.com/ "Time Tracking Platform Harvest") has embraced Github as part of their API ecosystem. I'm always on the hunt for examples of API providers using Github, so I figured I'd showcase Harvest's creative use of the social coding platform.
 

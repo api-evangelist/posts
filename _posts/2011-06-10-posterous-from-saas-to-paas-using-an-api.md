@@ -5,7 +5,12 @@ url: http://apievangelist.com/2011/06/10/posterous-from-saas-to-paas-using-an-ap
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Design
+- Documentation
 ---
 kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/posterous/posterous-logo.jpg)](https://posterous.com/)In a [single announcement yesterday](http://technology.posterous.com/announcing-a-new-api-for-developers-to-plug-i "single announcement yesterday"), the blogging service [Posterous](https://posterous.com/ "Posterous") went from Software as a Service (SaaS) to Platform as a Service (PaaS), with the introduction of a full set of APIs.
 

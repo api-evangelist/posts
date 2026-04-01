@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Exploring Github Curated Galleries
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/github_explore_showcases.png
-atomdate: 2017-04-12T19:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/github_explore_showcases.png
+atomdate: 2017-04-12 19:00:00+00:00
 tags:
-  - Github
-  - Git
+- Github
 ---
 Github has long been my number one source for discovering people doing interesting things with APIs. As I was trying to articulate how API providers can put Github to work as part of their API operations in another story, I came across [the Github Explore section](https://github.com/explore). I thought that the list of items on the home page helps demonstrate that Github is more than just about managing open source code--which is the common perception regarding what you do with Github amongst muggles.
 

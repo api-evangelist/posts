@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Thinking Through The Licensing For An API Stack
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-licensing-stack.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-licensing-stack.png
 author:
   name: kinlane
 tags:
-  - Licensing
-  - Stack
+- Licensing
 ---
 [I've spent a lot of time thinking through the licensing we apply to APIs, as part of my work on the Oracle v Google API copyright case](http://apievangelist.com/2015/08/22/what-we-can-do-to-make-a-difference-in-the-wake-of-oracle-v-google-api-copyright-case/). The licensing around APIs is still in flux, with the current precedent being that APIs are copyrightable. Even though I do not believe this stance, I encourage API designers to make sure and apply one of the more liberal Creative Commons licenses to your API definitions, taking a pre-emptive stance in the conversation.
 

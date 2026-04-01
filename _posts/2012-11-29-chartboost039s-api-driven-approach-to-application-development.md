@@ -2,11 +2,17 @@
 published: true
 layout: post
 title: Chartboost&#039;s API Driven Approach to Application Development
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Chartboost-Logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Chartboost-Logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Design
+- Evangelism
+- Github
+- Mobile
 ---
 The team over at [Chartboost](http://chartboost.com) have a pretty forward thinking [blog post about what they see as the next generation of web application development](http://blog.chartboost.com/post/36221629171/web-3-0-help-site?hn).
 

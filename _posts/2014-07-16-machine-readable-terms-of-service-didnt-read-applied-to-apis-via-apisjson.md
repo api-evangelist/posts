@@ -1,17 +1,13 @@
 ---
 layout: post
-title: >-
-  Machine Readable Terms of Service Didn&#039;t Read Applied To APIs Via
-  APIs.json
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/terms-of-service-didnt-read/tos-didnt-read-logo.png
+title: Machine Readable Terms of Service Didn&#039;t Read Applied To APIs Via APIs.json
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/terms-of-service-didnt-read/tos-didnt-read-logo.png
 author:
   name: kinlane
 tags:
-  - Terms of Service
-  - APIs.json
-  - APIs
-  - APIs.jso
+- Terms of Service
+- APIs.json
+- APIs
 ---
 I’ve long been fascinated by the [Terms of Service Didn’t Read](http://tosdr.org/index.html) project. i’m on the mailing list, and try to make time to stay in tune, but have yet to ever contribute any bandwidth to the EXTREMELY important project, around making sense of the crazy terms of services (TOS), that we agree to in our daily lives.
 

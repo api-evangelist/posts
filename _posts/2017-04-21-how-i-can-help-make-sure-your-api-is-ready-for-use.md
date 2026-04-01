@@ -1,10 +1,17 @@
 ---
 layout: post
 title: How I Can Help Make Sure Your API Is Ready For Use
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/drone_control_sunset.png
-atomdate: 2017-04-21T19:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/drone_control_sunset.png
+atomdate: 2017-04-21 19:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- APIs.json
+- Authentication
+- Communications
+- Data
+- Definitions
+- Deployment
 ---
 As one of my clients is preparing to move their API from deployment to management, I'm helping them think through what is necessary to make sure their API is ready for use by a wider, more public group of developers. Ideally, I am brought into the discussion earlier on in the lifecycle, to influence design and deployment decisions, but I'm happy to be included at any time during the process. This is a generalized, and anonymized version of what I'm proposing to my client, to help make sure their API is ready for prime time--I just wanted to share with you a little of what goes on behind the scenes at API Evangelist, even when my clients aren't quite ready to talk publicly.
 

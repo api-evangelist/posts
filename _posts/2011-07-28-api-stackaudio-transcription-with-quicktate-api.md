@@ -1,13 +1,11 @@
 ---
 layout: post
 title: API Stack - Audio Transcription with Quicktate API
-url: >-
-  http://apievangelist.com/2011/07/28/api-stack-audio-transcription-with-quicktate-api/
+url: http://apievangelist.com/2011/07/28/api-stack-audio-transcription-with-quicktate-api/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags:
-  - Stack
+tags: []
 ---
 kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/quicktate/quicktate-logo.jpg)](http://quicktate.com/)[Quicktate](http://quicktate.com/) provides an XML-RPC API audio transcription, using API keys for authentication.
 

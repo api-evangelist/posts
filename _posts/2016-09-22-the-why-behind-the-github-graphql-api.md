@@ -1,13 +1,11 @@
 ---
 layout: post
 title: The Why Behind The Github GraphQL API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/the_github_graphql_api__github_engineering.png
-atomdate: 2016-09-22T20:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/the_github_graphql_api__github_engineering.png
+atomdate: 2016-09-22 20:00:00+00:00
 tags:
-  - Github
-  - GraphQL
-  - Git
+- Github
+- GraphQL
 ---
 [I wrote a skeptical piece the other day about GraphQL](http://apievangelist.com/2016/08/30/graphql-seems-like-we-do-not-want-to-do-the-hard-work-of-api-design/), which I followed up with [another post saying I would keep an open mind](http://apievangelist.com/2016/09/02/i-am-keeping-my-mind-open-and-looking-forward-to-learning-more-about-graphql/). I've added GraphQL to my regular monitoring of the space, but I don't have its own research area yet, but if the conversation keeps expanding I will. A recent expansion in the GraphQL conversation for me was [Github releasing the GitHub GraphQL API](http://githubengineering.com/the-github-graphql-api/).
 

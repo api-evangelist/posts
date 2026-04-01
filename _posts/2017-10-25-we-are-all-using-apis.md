@@ -2,14 +2,13 @@
 published: true
 layout: post
 title: We Are All Using APIs
-date: 2017-10-25T14:00:00.000Z
+date: 2017-10-25 14:00:00+00:00
 tags:
-  - API Evangelist
-  - Evangelism
-  - 101
-  - Mobile
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/apis-are-all-around-us.png
+- API Evangelist
+- Evangelism
+- '101'
+- Mobile
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/apis-are-all-around-us.png
 ---
 <p><img src="https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/apis-are-all-around-us.png" align="right" width="40%" style="padding: 15px;" /></p>When I talk to ordinary people about what I do as the API Evangelist, they tend to think APIs don't have much of anything to do with their world. APIs exist in a realm of startups, technology, and make believe that doesn't have much to do with their ordinary lives. When trying to make the connection with folks on airplanes, in the hotel lobby, and at the coffee shop, I always resort to the most common API-driven thing in all of our lives--the smart phone. Pulling out my iPhone is the quickest way I can go from zero to API understanding, with almost anyone.
 

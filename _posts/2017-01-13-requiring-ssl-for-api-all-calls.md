@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Requiring SSL For API All Calls
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_11_28_at_9.58.49_am.png
-atomdate: 2017-01-13T20:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_11_28_at_9.58.49_am.png
+atomdate: 2017-01-13 20:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Email
+- Evangelism
 ---
 This is one of those regular public service announcements that if at all possible, you should be requiring SSL for all your API calls. I recently got an email from the IBM Watson team telling me that they would be enforcing encryption on all calls to the Alchemy API in February.
 

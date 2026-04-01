@@ -1,16 +1,12 @@
 ---
 published: true
 layout: post
-title: >-
-  API Stack - Single Sheet Printing with the Mimeo Connect Flyer &amp; Brochure
-  Printing API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/flyers-sample-image.png
+title: API Stack - Single Sheet Printing with the Mimeo Connect Flyer &amp; Brochure Printing API
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/flyers-sample-image.png
 author:
   name: kinlane
 tags:
-  - Stack
-  - Print
+- Print
 ---
 The Mimeo Connect Flyer & Brochure Printing API allows developers to submit PDF files, and order commercially printed flyers and brochures with different folds, color, paper, coating and hole punch from within your web and mobile applications.
 

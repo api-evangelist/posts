@@ -1,12 +1,19 @@
 ---
 layout: post
 title: CORS Makes Your API Portable And Remix-able
-url: >-
-  http://apievangelist.com/2014/07/15/cors-makes-your-api-portable-and-remixable/
+url: http://apievangelist.com/2014/07/15/cors-makes-your-api-portable-and-remixable/
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-turntable.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- APIs.json
+- Data
+- Definitions
+- Design
+- Developers
+- Discovery
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 

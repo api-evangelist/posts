@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Getting Your API Done From the Outside-In
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-inside-out.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-inside-out.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Design
+- Government
 ---
 Sometimes no matter how hard you try, you can't get the buy in for APIs within a company or organization. There are many reasons why API efforts will fail within entrenched companies, organizations or government agencies, but in the end you may have to look for alternatives.
 

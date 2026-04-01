@@ -1,16 +1,13 @@
 ---
 layout: post
-title: >-
-  Providing A Web Scraping Toolkit On Github To Jumpstart The API Conversation
-  At The University of Toronto
+title: Providing A Web Scraping Toolkit On Github To Jumpstart The API Conversation At The University of Toronto
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Scraping
-  - Web
-  - Git
+- Github
+- Scraping
+- Web
 ---
 [I found a pretty cool Github repository during my latest review of my university API research](https://github.com/cobalt-io/cobalt), with a mission "to provide a collection of RESTful web APIs that can allow developers to create applications or services that utilize public data from the University of Toronto."
 

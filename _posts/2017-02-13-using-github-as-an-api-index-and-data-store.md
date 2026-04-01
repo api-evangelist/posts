@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Using Github As An API Index And Data Store
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/jekyll_open_referral.png
-atomdate: 2017-02-13T23:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/jekyll_open_referral.png
+atomdate: 2017-02-13 23:00:00+00:00
 tags:
-  - Github
-  - Data
-  - Git
+- Github
+- Data
 ---
 I am spending a lot of time studying how companies are using Github as part of their software and API development life cycle, and how the social coding platform is used. More [companies like Netflix are using as part of their continuous integration workflow](http://techblog.netflix.com/2017/02/introducing-hubcommander.html), something that [API service providers like APIMATIC are looking to take advantage of with a new wave of services and tooling](http://apievangelist.com/2016/10/05/evolving-the-api-sdk-with-apimatic-dx-kits/). This usage of Github goes well beyond just managing code, and are making the platform more of an engine in any continuous integration and API life cycle workflow.
 

@@ -5,12 +5,10 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-discovery.p
 author:
   name: kinlane
 tags:
-  - Hypermedia
-  - Discovery
-  - Discover
-  - APIs.json
-  - APIs
-  - APIs.jso
+- Hypermedia
+- Discovery
+- APIs.json
+- APIs
 ---
 I spend a lot of time field questions from people about [APIs.json](http://apisjson.org/). This is something I expect to be doing for the next 10 years, and happy to field questions about exactly what it is all about, and help educate folks about exactly where APIs.json it fits in to the overall API landscape.
 

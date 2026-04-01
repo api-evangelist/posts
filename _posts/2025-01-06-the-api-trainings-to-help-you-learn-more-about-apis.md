@@ -3,11 +3,10 @@ published: true
 layout: post
 title: The API Trainings to Help You Learn More About APIs
 tags:
-  - 101
-  - Trainings
-  - Getting Started
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-nyc-public-library.jpeg
+- '101'
+- Trainings
+- Getting Started
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-nyc-public-library.jpeg
 ---
 A common question we get at API Evangelist about APIs is where one can find training materials on APIs that are high quality. There are a wealth of programming language and technology specific aprpoaches to delivering APIs, but these are the handful of high quality training materials on various levels of API operations that are delivered by experts.
 

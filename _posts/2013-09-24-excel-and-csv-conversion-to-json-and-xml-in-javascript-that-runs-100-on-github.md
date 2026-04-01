@@ -1,19 +1,15 @@
 ---
 layout: post
-title: >-
-  Excel and CSV Conversion to JSON and XML in JavaScript That Runs 100% on
-  Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/csv-converter-github.png
+title: Excel and CSV Conversion to JSON and XML in JavaScript That Runs 100% on Github
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/csv-converter-github.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Conversion
-  - CSV
-  - JSON
-  - XML
-  - Git
+- Github
+- Conversion
+- CSV
+- JSON
+- XML
 ---
 When it comes to building applications within the federal government, there are numerous road-blocks to innovation. I'm currently assisting with the inventorying of open data assets at the Department of Veterans Affairs, as well as across numerous other federal agencies.
 

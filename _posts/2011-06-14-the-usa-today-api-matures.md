@@ -4,7 +4,14 @@ title: The USA Today API Matures
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Data
+- Evangelism
+- Integration
+- Media
 ---
 Back when I first started doing API reviews on [API Evangelist](http://www.apievangelist.com "API Evangelist"), I did a review of [USA Today's API](http://apievangelist.com/2010/10/27/usa-today-api-review/ "USA Todays first release of their API").
 

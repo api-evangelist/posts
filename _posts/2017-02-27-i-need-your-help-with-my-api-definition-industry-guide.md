@@ -1,13 +1,11 @@
 ---
 layout: post
 title: I Need Your Help With My API Definition Industry Guide
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_26_at_8.38.50_pm.png
-atomdate: 2017-02-27T17:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_26_at_8.38.50_pm.png
+atomdate: 2017-02-27 17:00:00+00:00
 tags:
-  - My
-  - Industry
-  - Definition
+- Industry
+- Definitions
 ---
 I am approaching seven years doing API Evangelist. [I have over 70 areas of my core API lifecycle research available on the website](http://apievangelist.com) and have four of those areas ([definitions](http://definitions.apievangelist.com), [design](http://design.apievangelist.com), [deployment](http://deployment.apievangelist.com), & [management](http://management.apievangelist.com)) that I've been publishing industry guides for the last couple of years. In 2017, I want to take those guides, and hopefully a handful of other research areas to the next level. My guides have always been about the quantity of information, over the quality of the final guide. I want to turn that on its head and focus on the quality of information and presentation over the quantity, publishing an executive summary of each of my API industry research areas.
 

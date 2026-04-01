@@ -1,14 +1,11 @@
 ---
 layout: post
 title: API Stack - Document Merging with Drawloop API
-url: >-
-  http://apievangelist.com/2011/09/12/api-stack-document-merging-with-drawloop-api/
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Drawloop-Logo.jpg
+url: http://apievangelist.com/2011/09/12/api-stack-document-merging-with-drawloop-api/
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Drawloop-Logo.jpg
 author:
   name: kinlane
-tags:
-  - Stack
+tags: []
 ---
 kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/mimeo/drawloop/Drawloop-Logo.jpg)](/admin/Blog/)[DrawLoop](/admin/Blog/) provides a SOAP and REST API for merging data together into a single documents, using a User ID and Password combination for authentication.
 

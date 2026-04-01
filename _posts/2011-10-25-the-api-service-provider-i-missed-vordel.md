@@ -1,11 +1,18 @@
 ---
 layout: post
 title: The API Service Provider I Missed, Vordel
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Vordel-API-Management.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Vordel-API-Management.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Deployment
+- Design
+- Documentation
+- Facebook
+- Integration
 ---
 I have done a lot of research lately on the [API service provider](/serviceproviders/ "API Service Provider") landscape. My goal is to understand who provides API delivery and management services, what they offer and help API owners understand the differences.
 

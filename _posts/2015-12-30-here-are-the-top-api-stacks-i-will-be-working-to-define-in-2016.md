@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stack-people.pn
 author:
   name: kinlane
 tags:
-  - Stack
-  - Define
+- Define
 ---
 My new partner in API crime [Cloud Elements](http://cloud-elements.com/) is helping motivate me to spend more cycles in 2016 on defining specific stacks of APIs, as part of my ongoing API industry research. I am taking the approach I've honed over the last five years in [my core research](http://apievangelist.com), and continuing to push forward on specific areas of the API industry.
 

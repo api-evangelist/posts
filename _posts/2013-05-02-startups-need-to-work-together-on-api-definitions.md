@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Startups Need To Work Together on API Definitions
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/openi-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/openi-logo.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Definition
-  - Startups
+- Definitions
+- Startups
 ---
 I am tracking on 2000 APIs that I have deemed worthy enough to pay attention, out of the 9000 on [ProgrammableWeb](http://programmableweb.com), 13,000 in [APIHub](http://apihub.com) and numerous APIs in [Mashape's marketplace](http://mashape.com). In addition to these APIs, I'm also closely watching [30+ backend as a service providers](http://baas.apievangelist.com/ "backend as a service providers"), [20+ reciprocity providers](http://reciprocity.apievangelist.com/ "reciprocity providers") and emerging big data, analysis, visualization and other emerging platforms who are using APIs in new ways.
 

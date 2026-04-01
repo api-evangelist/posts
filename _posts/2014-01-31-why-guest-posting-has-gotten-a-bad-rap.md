@@ -4,7 +4,13 @@ title: Why Guest Posting Has Gotten A Bad Rap
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-comment-bubbles.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Evangelism
+- Google
+- Support
 ---
 As a proprietor of a small, successful niche blog, I can easily share some insight into why [Google recently started punishing blogs that have guest posts](https://support.google.com/webmasters/answer/66356?hl=en).
 

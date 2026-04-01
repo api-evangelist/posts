@@ -1,10 +1,17 @@
 ---
 layout: post
 title: The Google Baseline For A User Account Area
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_11_at_8.59.54_pm.png
-atomdate: 2017-01-12T23:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_11_at_8.59.54_pm.png
+atomdate: 2017-01-12 23:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Authentication
+- Business
+- Data
+- Definitions
+- Documentation
 ---
 I have [a minimum definition for what I consider to be a good portal for an API](http://portal.minimum.apievangelist.com/), and was spending some time thinking about a baseline definition for the API developer account portion of that portal, as well as potentially any other authenticated, and validated platform user. I want a baseline user account definition that I could use as aa base, and the best one out there off the top of my head would be from Google.
 

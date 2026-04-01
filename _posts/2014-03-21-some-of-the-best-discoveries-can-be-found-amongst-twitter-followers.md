@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Some Of The Best Discoveries Can Be Found Amongst Twitter Followers
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-twitter-icon.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-twitter-icon.png
 author:
   name: kinlane
 tags:
-  - Twitter
-  - Discover
+- Twitter
+- Discovery
 ---
 I spend a lot of time each week reading the blog feeds, and twitter streams from the best API providers in the space. In my opinion this represents the lowest hanging fruit in my API monitoring, where the stories just land in my lap, delivered to me by my feeds—then once I've picked all this fruit, I find myself looking through the Twitter followers of many of these APIs.
 

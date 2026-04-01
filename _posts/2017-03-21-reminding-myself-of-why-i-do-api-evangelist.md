@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Reminding Myself Of Why I Do API Evangelist
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist-site/blog/kin-lane-drone-catch.png
-atomdate: 2017-03-21T22:00:00.000Z
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-site/blog/kin-lane-drone-catch.png
+atomdate: 2017-03-21 22:00:00+00:00
 tags:
-  - My
-  - API Evangelist
-  - Evangelist
+- API Evangelist
+- Evangelist
 ---
 This is my regular public service reminder of why I do API Evangelist. I do not evangelize APIs because I think everybody should be doing them, that they are the solution to all of our problems, or because I have an API I want you to buy (I have other things for you to buy). I do API Evangelist because I want to better understand how platforms like Facebook, Twitter, Uber, and others are operating and impacting our personal and professional lives.
 

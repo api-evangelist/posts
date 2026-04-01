@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Swagger API Definition Mapper
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swaggerLogo360.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swaggerLogo360.png
 author:
   name: kinlane
 tags:
-  - Definition
-  - Swagger
+- Definitions
+- Swagger
 ---
 I was having one of my long overdue check ins with API godfather John Musser today, and it reminded me of an idea I wanted to put out there, so while it was fresh in my mind, I wanted to share. I’m applying this to my [Swagger](http://swagger.io/) driven world, but should be applied to all of the common API definition formats like API Blueprint, and RAML.
 

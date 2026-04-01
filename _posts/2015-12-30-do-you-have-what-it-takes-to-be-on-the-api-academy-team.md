@@ -1,11 +1,17 @@
 ---
 layout: post
 title: Do You Have What It Takes To Be On The API Academy Team?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-academy-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-academy-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Design
+- Evangelism
+- Government
+- Twitter
 ---
 When it comes to keeping an eye on what others are doing across the API space, and occasionally pushing forward a few crazy ideas, API Evangelist is your source. [However if you really want to learn about API design and architecture, that you can put to work at your company, organization, institution, and government agency--the API Academy is where you go](http://www.apiacademy.co/).
 

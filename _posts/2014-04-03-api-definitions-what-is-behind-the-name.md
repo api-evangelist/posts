@@ -1,13 +1,11 @@
 ---
 layout: post
 title: 'API Definitions: What Is Behind The Name?'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-logo.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Definition
+- Definitions
 ---
 Last week at [#APIStrat Amsterdam](http://www.apistrategyconference.com/2014Amsterdam/), I moderated, and presented in a session that was called API service descriptions. I gave the talk for the first 15 minutes, then Sumit Sharma ([@sumitcan](https://twitter.com/sumitcan)), Ole Lensmar ([@olensmar](https://twitter.com/olensmar)), and Ruben Verborgh ([@RubenVerborgh](https://twitter.com/RubenVerborgh)) followed me-- the [full video is on Youtube](https://www.youtube.com/watch?v=wqQxM6PAuh0) if you are interested.
 

@@ -1,10 +1,17 @@
 ---
 layout: post
 title: The General Bikeshare Feed Specification
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/north_american_bikeshare_association.png
-atomdate: 2016-09-13T18:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/north_american_bikeshare_association.png
+atomdate: 2016-09-13 18:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Data
+- Definitions
+- Documentation
+- Github
+- Monitoring
+- Open Data
 ---
 I came across a story about [Stage Intelligence Adds Support for the GBFS Open Data Standard](http://insidebigdata.com/2016/09/08/stage-intelligence-adds-support-for-the-gbfs-open-data-standard-into-its-bico-distribution-solution/) in my regular monitoring, and wanted to add the specification to my [API definition toolbox](http://definitions.apievangelist.com/), and share here on my blog. Staritng with the basics, what is the [GBFS Open Data Standard](https://github.com/NABSA/gbfs)?
 

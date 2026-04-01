@@ -1,17 +1,14 @@
 ---
 layout: post
-title: >-
-  The Future Of Public Private Sector Partnerships Being Negotiated At The API
-  oAuth Scope Level
+title: The Future Of Public Private Sector Partnerships Being Negotiated At The API oAuth Scope Level
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/oauth-logo.png
 author:
   name: kinlane
-date: 2014-05-14T21:12:35.000Z
+date: 2014-05-14 21:12:35+00:00
 tags:
-  - Partners
-  - Public
-  - Scope
-  - Partnership
+- Partners
+- Scope
+- Partnership
 ---
 A couple of weeks ago I attended a two day API specification session between major California utilities, [Southern California Edison](https://www.sce.com) (SCE), [San Diego Gas & Electric](http://www.sdge.com/) (SDG&E), and [Pacific Gas and Electric](http://www.pge.com/) (PG&E), that was organized by Hypertek Inc. for [National Institute of Standards and Technology](http://www.nist.gov/) (NIST), that is looking to push forward the [Green Button data](http://www.greenbuttondata.org/) and API agenda of the White House and Department of Energy.
 

@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Dropbox As Your Apps Default File System
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fargo-small-picture.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fargo-small-picture.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Cloud
+- Github
+- Government
+- Integration
+- Mobile
 ---
 Cloud storage of documents is becoming commonplace. Individuals, companies, government and non-government organizations have increasingly seen the potential of storing files in the cloud using services like Amazon S3, Dropbox and Box.
 

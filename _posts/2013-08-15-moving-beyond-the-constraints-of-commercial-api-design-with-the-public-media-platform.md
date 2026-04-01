@@ -1,19 +1,15 @@
 ---
 layout: post
-title: >-
-  Moving Beyond the Constraints of Commercial API Design With The Public Media
-  Platform
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/public-media-logo.jpeg
+title: Moving Beyond the Constraints of Commercial API Design With The Public Media Platform
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/public-media-logo.jpeg
 author:
   name: kinlane
 tags:
-  - Design
-  - Platform
-  - Public
-  - Constraints
-  - Commercial
-  - ai
+- Design
+- Platform
+- Constraints
+- Commercial
+- ai
 ---
 There are just a handful of API platforms that I feel have greatly impacted the world of APIs and were significant in leading the space in important ways. These platforms include, but are not limited to Amazon Web Services, EBay, Salesforce, Google Maps and Twitter. All of these companies have changed the way we build applications and conduct business, by using APIs.
 

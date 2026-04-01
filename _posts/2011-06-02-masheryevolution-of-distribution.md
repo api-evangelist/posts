@@ -5,7 +5,10 @@ url: http://apievangelist.com/2011/06/02/mashery-evolution-of-distribution/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Twitter
 ---
 Providing some real-world examples, Mashery invited four leaders in the API space to speak:
 

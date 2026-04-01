@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Moving APIs Out Of The Partner Realm And Making Them More Public
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/periscope_twitter.png
-atomdate: 2017-03-24T16:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/periscope_twitter.png
+atomdate: 2017-03-24 16:00:00+00:00
 tags:
-  - Public
-  - APIs
+- APIs
 ---
 It is common for API providers to be really private with their APIs, and we often hear about providers restricting access as time goes by. So, when API providers loosen up restrictions on their APIs, inviting wider use by developers, making them public--I think it is worth taking notice. 
 

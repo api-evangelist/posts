@@ -2,8 +2,13 @@
 layout: post
 title: 'Application: The Action of Putting Something Into Operation'
 image: null
-atomdate: 2017-02-06T20:00:00.000Z
-tags: []
+atomdate: 2017-02-06 20:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Definitions
+- Evangelism
+- Mobile
 ---
 I hate how technology dehumanizes things and went you bundle that with the current model for how things get funded, it tends to do this at scale, and with troubling efficiency. I'm the API Evangelist. I am not selling APIs as a technology solution, I am fighting to keep this sliver of our increasingly technical worlds open, and serving humans--otherwise I feel there is no hope for any of this to work with any kind of equity and compassion for the people it should be serving.
 

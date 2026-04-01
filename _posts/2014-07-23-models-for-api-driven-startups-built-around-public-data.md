@@ -3,10 +3,9 @@ layout: post
 title: 'Models For API Driven Startups Built Around Public Data '
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-society-2.png
 tags:
-  - Data
-  - Public Data
-  - Public
-  - Startups
+- Data
+- Public Data
+- Startups
 ---
 I had a conversation with a VC today who looking for some information on startups, who had APIs, and had built their company around public data. The two companies that were referenced in the original contact email, were companies like [Eligible API](https://eligibleapi.com/), and [Clever API](https://clever.com/). Two similar, yet very different approaches to aggregating public and data, into a viable startup—one thing to note, is Clever used to aggregate data from school districts, but now just provides login services.
 

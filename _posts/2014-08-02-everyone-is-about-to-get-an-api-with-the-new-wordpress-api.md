@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Everyone Is About To Get An API With The New Wordpress API
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/wordpress/wordpress-logo-stacked-rgb.png
+image: https://s3.amazonaws.com/kinlane-productions2/wordpress/wordpress-logo-stacked-rgb.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Authentication
+- Data
+- Deployment
+- Discovery
+- Facebook
 ---
 While at [API Craft in Detroit](http://bit.ly/1zIq2sl) this week I had the pleasure of hanging with two leads on the WordPress(org) development team, and discuss the API strategy for the blogging platform. Andrew Nacin ([@nacin](https://twitter.com/nacin)), Lead Developer, and Ryan McCue ([@rmccue](https://twitter.com/rmccue)), WordPress Plugin Developer, facilitated an open circle discussion to work through the challenges that WordPress is facing when developing an API for the open source blogging platform.
 

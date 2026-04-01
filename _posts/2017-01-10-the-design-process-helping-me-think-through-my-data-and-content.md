@@ -1,15 +1,13 @@
 ---
 layout: post
 title: The Design Process Helping Me Think Through My Data And Content
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_09_at_9.03.01_pm.png
-atomdate: 2017-01-10T17:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_09_at_9.03.01_pm.png
+atomdate: 2017-01-10 17:00:00+00:00
 tags:
-  - My
-  - Design
-  - Data
-  - Content
-  - Process
+- Design
+- Data
+- Content
+- Process
 ---
 I'm working on the next evolution in my API research, and I'm investing more time and energy into the design of the guides I produce as a result of each area of my research. I've long produced a 20+ page PDF dumps of the leading areas of my research like API design, definitions, deployment, and management, but with the next wave of industry guides, I want to polish my approach a little more. 
 

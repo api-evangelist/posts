@@ -1,9 +1,15 @@
 ---
 layout: post
 title: API, RSS, and The Ability To Look At Your Company Through An External Lens
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/workiva-rss.png
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/workiva-rss.png
+tags:
+- API Evangelist
+- APIs
+- Documentation
+- Email
+- Evangelism
+- Google
+- Monitoring
 ---
 A  huge pet peeve for me is when a company has a blog, but not provide an RSS feed--it really grinds my gears! Although it is something that aggravates me, I understand many of the reasons behind it. People just don't see their blog through an outside lens. They visit other company blogs when they want to read them, usually via a bookmark, or possibly rely on an email digest once a week--they aren't RSS reader users. RSS consumers were always a niche (that almost went mainstream), but is one that has taken a big hit with the closing of Google Reader.
 

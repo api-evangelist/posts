@@ -1,13 +1,11 @@
 ---
 layout: post
-title: >-
-  After Looking Through 23414 API Patents I Think It Will Just Come Down To Who
-  Litigates
+title: After Looking Through 23414 API Patents I Think It Will Just Come Down To Who Litigates
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-legal.png
-atomdate: 2016-09-02T20:00:00.000Z
+atomdate: 2016-09-02 20:00:00+00:00
 tags:
-  - Patents
-  - 4
+- Patents
+- '4'
 ---
 After looking through [the 23,414 API related patents from between 2005 and present day from 4,283 companies](http://patents.apievangelist.com/patents/?filter=2016), it is clear that the API patent game will be all about which companies decide to litigate using their "intellectual property". There is definitely a lot of education that could occur across all industries where these patents will be put to work, and hopefully we can see some reforms at the USPTO regarding how important it is to the economy that the APIs themselves to remain open and reusable, but I think that ultimately the world of API patents will be hammered out in courts across the United States, and other countries around the world.
 

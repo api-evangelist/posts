@@ -1,16 +1,14 @@
 ---
 layout: post
 title: What I Learned Crafting API Definitions For 66 Of The Amazon Web Services
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/amazon-aws-logo.jpg
-atomdate: 2017-01-05T23:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/amazon-aws-logo.jpg
+atomdate: 2017-01-05 23:00:00+00:00
 tags:
-  - Definitions
-  - Web
-  - Definition
-  - Amazon
-  - Amazon Web Services
-  - Services
+- Definitions
+- Web
+- Amazon
+- Amazon Web Services
+- Services
 ---
 [I just finished crafting API definitions for 66 of the Amazon Web Services](http://amazon.web.services.stack.network/). You can find [it all on Github](https://github.com/api-stack/amazon-web-services), indexed with [an APIs.json](https://raw.githubusercontent.com/api-stack/amazon-web-services/master/_data/apis.json). While I wish all API providers would do this hard work on their, I do enjoy the process because it forces me to learn a lot of each API, and the details of what providers are up to. I learned quite a bit about Amazon Web Services going through [the over 2000 paths that are available across the 66 services](http://amazon.web.services.stack.network/). 
 

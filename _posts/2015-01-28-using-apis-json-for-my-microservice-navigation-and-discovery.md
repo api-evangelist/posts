@@ -2,18 +2,14 @@
 published: true
 layout: post
 title: Using APIs.json For My Microservice Navigation And Discovery
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-api-navigation.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-api-navigation.png
 author:
   name: kinlane
 tags:
-  - My
-  - Discovery
-  - Discover
-  - APIs.json
-  - APIs
-  - Micro
-  - APIs.jso
+- Discovery
+- APIs.json
+- APIs
+- Micro
 ---
 I’m rebuilding my underlying architecture using microservices and docker containers, and the glue I’m using to bind it all together is [APIs.json](http://apisjson.org/). I’m not just using APIs.son to deliver on discoverability for all of my services, I am also using it to navigate around my stack. Right now I only have about 10 microservices running, but I have a plan to add almost 50 in total by the time I’m done with this latest sprint.
 

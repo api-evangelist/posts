@@ -1,12 +1,19 @@
 ---
 layout: post
 title: Early Thoughts on Robots.json
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-robot-json.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-robot-json.png
 author:
   name: kinlane
-date: 2013-11-25T20:01:04.000Z
-tags: []
+date: 2013-11-25 20:01:04+00:00
+tags:
+- API Evangelist
+- APIs
+- Data
+- Definitions
+- Integration
+- Rate Limiting
+- Standards
+- Twitter
 ---
 My friend [@harmophone](https://twitter.com/harmophone "@harmophone"), Director of Platform for the [Klout API](http://developer.klout.com/), wrote up a great piece before [#APIStrat](http://www.apistrategyconference.com/ "#APIStrat"), called [A Short Proposal for Robots.json](https://medium.com/p/4d36eab870c9).
 

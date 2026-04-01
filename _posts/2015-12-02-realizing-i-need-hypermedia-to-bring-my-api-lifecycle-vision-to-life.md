@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Realizing I Need Hypermedia To Bring My API Lifecycle Vision To Life
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/talks/november-2015/subway-map-15.png
+image: https://s3.amazonaws.com/kinlane-productions2/talks/november-2015/subway-map-15.png
 author:
   name: kinlane
 tags:
-  - My
-  - Hypermedia
-  - Lifecycle
-  - Vision
+- Hypermedia
+- Lifecycle
+- Vision
 ---
 I have been learning about hypermedia over the last three years now, and only earlier this year, [I began playing with Siren to help me craft a better experience around my API industry news and link curation API](http://apievangelist.com/2015/05/11/applying-a-little-hypermedia-is-helping-me-tighten-down-my-api-design-and-tell-a-better-api-story/). My motivations in going down this hypermedia road was never about easing my client side pain, or helping me with future versions of my API--I am just not that sophisticated of an operation.
 

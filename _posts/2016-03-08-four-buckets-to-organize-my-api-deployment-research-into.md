@@ -4,11 +4,10 @@ title: Four Buckets To Organize My API Deployment Research Into
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-bucket.png
 author:
   name: kinlane
-date: 2016-03-08T08:15:36.000Z
+date: 2016-03-08 08:15:36+00:00
 tags:
-  - My
-  - Deployment
-  - Research
+- Deployment
+- Research
 ---
 I was being interviewed by an IBM group the other day, and I scribbled some thoughts on a piece of paper as I was rambling, which I just picked up trying to make sense of what was going through my mind, before I archive the chicken scratches. 
 

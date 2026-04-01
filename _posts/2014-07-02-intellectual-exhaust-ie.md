@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Intellectual Exhaust (IE)
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Corvette-Aft-Cat-Exhaust-System1.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Corvette-Aft-Cat-Exhaust-System1.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Design
+- Evangelism
 ---
 As I generate shitloads of content playing the [API Evangelist](http://apievangelist.com) on the Internets, I struggle with certain words, as I write each day—one of these words is intellectual property (IP), which Wikipedia defines as:
 

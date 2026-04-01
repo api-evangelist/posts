@@ -1,16 +1,14 @@
 ---
 layout: post
 title: Virtual Containers, Stacks, APIs And Application Management
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/lego_docker.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/lego_docker.jpg
 author:
   name: kinlane
 tags:
-  - Containers
-  - Management
-  - Stack
-  - APIs
-  - ai
+- Containers
+- Management
+- APIs
+- ai
 ---
 I've been trying to organize my thoughts around emerging trends in using virtualized app containers, that are providing a much more modular approach to deploying and managing application backends. This is an evolution of earlier thoughts I've had around [virtual API stacks](http://apievangelist.com/2013/01/28/virtualized-api-stacks/ "virtualized API stacks").
 

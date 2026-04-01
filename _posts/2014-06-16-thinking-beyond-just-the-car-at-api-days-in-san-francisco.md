@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Thinking Beyond Just The Car At API Days in San Francisco
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-days-san-francisco-2014/api-days-sf-june-2014.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/events/api-days-san-francisco-2014/api-days-sf-june-2014.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Google
 ---
 After [speaking at API Craft SF on Thursday](http://apievangelist.com/2014/06/16/api-craft-san-francisco-wrapup-for-june-2014/), I kept the API talk going with [two days of API car talk at API Days San Francisco](http://sf.apidays.io/). While there is a lot of focus specifically on the car itself, there was also a lot of talk beyond the auto at API Days San Francisco, which was dubbed "Disrupting the Car Industry and Driver Experience with APIs".
 

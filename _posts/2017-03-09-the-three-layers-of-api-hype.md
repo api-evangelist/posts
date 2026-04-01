@@ -1,10 +1,15 @@
 ---
 layout: post
 title: The Three Layers Of API Hype
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_onion.png
-atomdate: 2017-03-09T20:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_onion.png
+atomdate: 2017-03-09 20:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Communications
+- Design
+- Documentation
+- ai
 ---
 I read a lot of content about APIs. I read a lot of redundant and fluffy marketing and technical jargon, trying to understand exactly what an API does, or doesn't do. Before I criticize, I have to admit that crafting really good API marketing and documentation is hard. Only about 5% of what I read is good, a significant portion is just incomplete and lazily done by someone who doesn't care--the rest is actually incorrect, misleading, and straight up hype.
 

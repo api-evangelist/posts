@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Publish Your API Presentations and Guides to Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Guides
-  - Git
+- Github
+- Guides
 ---
 [Github](https://github.com/) isn't just for code. Github can be used for HTML documents and PDF's as well. This opens up endless possibilities for management of documents you wish to share with your developer ecosystem.
 

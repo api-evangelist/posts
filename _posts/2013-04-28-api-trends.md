@@ -1,11 +1,16 @@
 ---
 layout: post
 title: API Trends
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/trends.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/trends.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Github
+- Monitoring
+- Twitter
 ---
 [](/trends/)
 

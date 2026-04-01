@@ -1,17 +1,13 @@
 ---
 layout: post
-title: >-
-  APIs Needs To Augment My World With A Tangible Benefit In Order To Achieve
-  Relevance
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/algorithmia-icon.png
+title: APIs Needs To Augment My World With A Tangible Benefit In Order To Achieve Relevance
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/algorithmia-icon.png
 author:
   name: kinlane
-date: 2016-04-05T19:19:35.000Z
+date: 2016-04-05 19:19:35+00:00
 tags:
-  - My
-  - APIs
-  - Tangible
+- APIs
+- Tangible
 ---
 I am spending time talking to more API providers, and API service providers, about the challenges they are facing, while reaching out to potential customers, thanks to the support of my partners [Cloud Elements](http://cloud-elements.com/). One of the conversation I had last week was with Diego Oppenheimer ([@doppenhe](https://twitter.com/doppenhe)) of Algorithmia ([@algorithmia](https://twitter.com/algorithmia)), who shared with me the challenges he faces in getting senior engineers to realize the potential of APIs, and the  value API driven platforms like Algorithmia bring to the table. 
 

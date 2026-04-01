@@ -6,9 +6,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Github
-  - Community
-  - Git
+- Github
+- Community
 ---
 kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/github/github-social-coding-words.png)[GitHub](https://github.com/ "GitHub") is a web-based hosting service for software development projects that uses the Git revision control system.
 

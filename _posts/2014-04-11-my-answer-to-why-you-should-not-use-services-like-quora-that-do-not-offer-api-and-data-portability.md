@@ -1,16 +1,12 @@
 ---
 layout: post
-title: >-
-  My Answer To Why You Should Not Use Services Like Quora That Do Not Offer API
-  And Data Portability
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/quora/quora_logo_620px.png
+title: My Answer To Why You Should Not Use Services Like Quora That Do Not Offer API And Data Portability
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/quora/quora_logo_620px.png
 author:
   name: kinlane
 tags:
-  - My
-  - Data
-  - Services
+- Data
+- Services
 ---
 As the API Evangelist I spend a lot of time cheering for companies to have APIs, and in 2014 I’m continuing a slow shift from cheerleading to calling out companies who do not have an API. If you are an older company or institution I will be a lot more forgiving about whether or not an API exists, but with newer tech companies, there is NO excuse --an API is mandatory!
 

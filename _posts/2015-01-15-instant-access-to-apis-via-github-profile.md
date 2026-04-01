@@ -5,10 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Access
-  - APIs
-  - Git
+- Github
+- Access
+- APIs
 ---
 An open project for me this month, is about better understanding how API keys are provisioned, and how developers are given access to valuable resources. As the number of APIs grows, so do the number of APIs that we depend on in any single application, forcing developer to have to manage many API keys, potentially from many different platforms.
 

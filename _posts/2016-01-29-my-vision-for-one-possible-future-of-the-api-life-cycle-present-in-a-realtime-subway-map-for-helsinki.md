@@ -1,20 +1,16 @@
 ---
 layout: post
-title: >-
-  My Vision For One Possible Future Of The API Life Cycle Present In A Real-Time
-  Subway Map For Helsinki
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/helsinki-subway-map.png
+title: My Vision For One Possible Future Of The API Life Cycle Present In A Real-Time Subway Map For Helsinki
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/helsinki-subway-map.png
 author:
   name: kinlane
 tags:
-  - My
-  - Subway Map
-  - Life Cycle
-  - Subway
-  - Real-Time
-  - Time
-  - Vision
+- Subway Map
+- Life Cycle
+- Subway
+- Real-Time
+- Time
+- Vision
 ---
 [If you caught my keynotes at @Defrag and @APIStrat last year, you know I'm working on using the subway map as a method for visualizing, understand, and eventually exploration of the API life cycle](http://apievangelist.com/2015/11/29/the-api-lifecycle-my-talk-from-defrag-and-apistrat/). I feel like the subway map concept, has helped us find a globally universal way of understanding the transport of humans, via some very complex transportation systems, in cities around the globe--something I feel can be applied to world of APIs.
 

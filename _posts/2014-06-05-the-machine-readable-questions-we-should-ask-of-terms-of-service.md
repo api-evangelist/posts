@@ -1,12 +1,15 @@
 ---
 layout: post
 title: The Machine Readable Questions We Should Ask Of Terms Of Service
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/terms-of-service-didnt-read/tos-didnt-read-logo.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/terms-of-service-didnt-read/tos-didnt-read-logo.png
 author:
   name: kinlane
-date: 2014-06-05T00:09:15.000Z
-tags: []
+date: 2014-06-05 00:09:15+00:00
+tags:
+- API Evangelist
+- APIs
+- Github
+- Versioning
 ---
 I’ve been following the work of [Terms of Service Didn’t Read](http://tosdr.org/) for some time now. In my opinion this work is some of the most important legal work out there right now, which is guiding all of our activity not just online, but increasingly in our offline worlds. If you aren't familiar with Terms of Service Didn’t Read, I think their slogan sums it up well:
 

@@ -1,15 +1,13 @@
 ---
 layout: post
 title: 'Another Embeddable Tool That Will Go Down In History: Github Ribbons'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/forkme_right_red.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/forkme_right_red.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Embeddable
-  - History
-  - Git
+- Github
+- Embeddable
+- History
 ---
 Simple, embeddable tools can be one of the most powerful tool in an API evangelists toolbox. While there was a wide variety of forces that were at play in the social API evolution, contributing to the success of Twitter and Facebook, embeddable buttons, badgers widgets definitely played a leading role.
 

@@ -1,16 +1,14 @@
 ---
 layout: post
 title: Managing API Terms of Service, Privacy, and Branding with Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-text-horizontal.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-text-horizontal.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Privacy
-  - Terms of Service
-  - Branding
-  - Git
+- Github
+- Privacy
+- Terms of Service
+- Branding
 ---
 The legal building blocks of an API can be just as critical as the technical and business building blocks. It makes sense to version and communicate your API terms of use (TOS) , privacy policy and branding guidelines alongside your code.
 

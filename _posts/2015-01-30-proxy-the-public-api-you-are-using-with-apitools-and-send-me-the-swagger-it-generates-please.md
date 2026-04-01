@@ -1,17 +1,13 @@
 ---
 layout: post
-title: >-
-  Proxy The Public API You Are Using With APITools And Send Me The Swagger It
-  Generates, Please...
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apitools/apitools-logo.png
+title: Proxy The Public API You Are Using With APITools And Send Me The Swagger It Generates, Please...
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apitools/apitools-logo.png
 author:
   name: kinlane
 tags:
-  - Proxy
-  - Public
-  - Tools
-  - Swagger
+- Proxy
+- Tools
+- Swagger
 ---
 [APITools](https://www.apitools.com/) is a simple, [open source](https://github.com/APItools/monitor), API middleware that allows you to “track, transform and analyze the traffic between your app and the APIs”. With just a few clicks you can proxy any API you use, and when you make calls through the proxy, you get a bunch of valuable information in return.
 

@@ -2,17 +2,16 @@
 published: true
 layout: post
 title: OpenAPI Specifications For 642 Of The Schema.org Types
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/schema-org-api-definitions.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/schema-org-api-definitions.png
 author:
   name: kinlane
 tags:
-  - OpenAPI
-  - Schema
-  - Specifications
-  - Schema.org
-  - Open
-  - 4
+- OpenAPI
+- Schema
+- Specifications
+- Schema.org
+- Open
+- '4'
 ---
 I am gearing up for another wave of [API definition](http://definitions.apievangelist.com/) work, so I am taking the opportunity to produce some more tooling that assists me in the process. One of the tools I want to build, is a simple solution for walking me through one or many OpenAPI Specs, and push me to make sure every parameter has a complete set of descriptions. I possess amazing powers of bullshit, and can craft default description for almost anything I come across, but it would be nice to have an an ever evolving autocomplete dictionary to augment my existing super powers. 
 

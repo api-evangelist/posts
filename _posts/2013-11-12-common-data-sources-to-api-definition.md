@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Common Data Sources To API Definition
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-google-docs.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-google-docs.png
 author:
   name: kinlane
 tags:
-  - Data
-  - Definition
+- Data
+- Definitions
 ---
 I've been working through several demos of how to go from common data sources like MySQL and Google Spreadsheet to API over the last couple of weeks. So far I have five basic working demos:
 

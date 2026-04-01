@@ -1,11 +1,16 @@
 ---
 layout: post
-title: >-
-  While It Does Suck Parse Went Away, I Wish Every Service That Shutdown Left
-  Behind The Same Page
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/parse-page.png
-tags: []
+title: While It Does Suck Parse Went Away, I Wish Every Service That Shutdown Left Behind The Same Page
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/parse-page.png
+tags:
+- API Evangelist
+- APIs
+- Evangelism
+- Facebook
+- Github
+- Messaging
+- Open Source
+- Versioning
 ---
 It definitely sucks that Parse went away like they did, but you have to commend them on the [page they left behind](https://www.parse.com/). Facebook put up the download link to an open source version of Parse Server, and a link to the migration guide. I like that they also left up the blog, which I think is almost just as important as the code, telling the story of what happened, right up to the end.
 

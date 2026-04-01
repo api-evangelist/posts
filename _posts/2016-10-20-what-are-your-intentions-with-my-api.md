@@ -1,11 +1,9 @@
 ---
 layout: post
 title: What Are Your Intentions With My API?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_19_at_4.41.44_pm.png
-atomdate: 2016-10-20T16:00:00.000Z
-tags:
-  - My
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_19_at_4.41.44_pm.png
+atomdate: 2016-10-20 16:00:00+00:00
+tags: []
 ---
 While it can be easy to bash on API providers for being tight with their API resources, it can be very difficult to be an API provider operating in today's online environment. Some developers are just badly behaved and hold some pretty unrealistic expectations when it comes to opening up access to valuable content, data, and algorithms.
 

@@ -1,14 +1,12 @@
 ---
 layout: post
 title: The API Driven Marketplace That Is My Digital Self
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/kinlane_physical_digital_self_publish.jpg
-atomdate: 2017-01-09T17:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/kinlane_physical_digital_self_publish.jpg
+atomdate: 2017-01-09 17:00:00+00:00
 tags:
-  - My
-  - Marketplace
-  - Digital
-  - Digital Self
+- Marketplace
+- Digital
+- Digital Self
 ---
 I spend a lot of time studying and thinking about the "digital bits" that we move around the Internet. Personally, and professionally I am dedicated to quantifying, and understanding those bits that are the most important to us as individuals, professionals, and business owners. Like many other folks who work in the tech sector I have always been good at paying attention to the digital bits, I am just not as good at others when monetizing these bits, adding to my own wealth.
 

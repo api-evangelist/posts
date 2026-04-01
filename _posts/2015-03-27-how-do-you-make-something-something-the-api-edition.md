@@ -4,7 +4,15 @@ title: How Do You Make Something, Something, The API Edition
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Deployment
+- Design
+- Discovery
+- Evangelism
+- Government
+- Hypermedia
 ---
 After [reflecting on API management and the Apigee IPO](http://apievangelist.com/2015/03/24/reflecting-on-api-management-and-the-apigee-ipo/), I’m thinking deeper on how the API space has come to be a “thing". To kick off this story, you have to start with the API itself, something very abstract, hard to see, let alone convey to the average person. A single API is difficult to quantify, let alone an entire sector, or the companies rising up to service this perceived sector—think of the argument from early API management service providers like Mashery, 3Scale, and Apigee had to make to their VCs.
 

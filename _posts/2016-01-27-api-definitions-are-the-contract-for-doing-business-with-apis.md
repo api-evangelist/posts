@@ -5,11 +5,10 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Business
-  - Definitions
-  - Definition
-  - APIs
-  - Contract
+- Business
+- Definitions
+- APIs
+- Contract
 ---
 [I held a hangout with API Evangelist this morning](https://plus.google.com/u/0/events/cl74hjb3vikaorq1o506seejl7s), with Steve Willmot ([@njyx](https://twitter.com/njyx)) of [@3scale](https://twitter.com/3scale), & Jakub Nesetril ([@jakubnesetril](https://twitter.com/jakubnesetril)) of [@apiaryio](https://twitter.com/apiaryio) today, where we discussed API definitions. Both Steve and Jakub are CEOs of leading tech companies, who are taking frontline positions when it comes to the whole API definition conversation.
 

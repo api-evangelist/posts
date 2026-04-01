@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Creating My Own Screenshot API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-screenshot-2.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-screenshot-2.png
 author:
   name: kinlane
-tags:
-  - My
+tags: []
 ---
 I use screenshots across the [API Evangelist network](http://apievangelist.com/network.html). I take screenshots of stories I curated, companies I track on and API developer areas I'm monitoring. Historically I've used a variety of screenshot APIs, to generate the 1000's of screenshots I need to make my network function.
 

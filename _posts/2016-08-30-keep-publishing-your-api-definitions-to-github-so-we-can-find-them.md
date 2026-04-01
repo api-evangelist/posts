@@ -2,13 +2,11 @@
 layout: post
 title: Keep Publishing Your API Definitions To Github So We Can Find Them
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-api.png
-atomdate: 2016-08-30T16:00:00.000Z
+atomdate: 2016-08-30 16:00:00+00:00
 tags:
-  - Github
-  - Definitions
-  - Definition
-  - Publishing
-  - Git
+- Github
+- Definitions
+- Publishing
 ---
 I was just getting started evolving upon my API definition discovery tools before I left this summer, and is something I am just picking up again, now that I am back at it. Historically there are three ways in which I find API definitions like OpenAPI Spec and API Blueprint for APIs:
 

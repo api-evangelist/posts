@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Pinboard API Tax Proposal
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/pinboard-icon.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/pinboard-icon.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Evangelism
+- Google
+- Open Source
+- Plans
+- Rate Limiting
+- Social
 ---
 Maciej Ceglowskiis, the founder of popular social bookmarking platform [Pinboard](https://pinboard.in),made an [interesting proposal over on the Pinboard Google Group](https://groups.google.com/d/msg/pinboard-dev/PidYOmyBaxI/mLDKIzC6olgJ):
 

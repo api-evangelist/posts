@@ -5,8 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Registration
-  - Open
+- Registration
+- Open Source
 ---
 You want to make it as easy as possible for developers to get up and running with your [API](http://www.apievangelist.com/).
 

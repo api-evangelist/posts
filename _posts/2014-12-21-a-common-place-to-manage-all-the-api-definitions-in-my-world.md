@@ -5,9 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-ico
 author:
   name: kinlane
 tags:
-  - My
-  - Definitions
-  - Definition
+- Definitions
 ---
 I’m profiling all the [700+ companies I monitor across the space](http://theapistack.com/), going through each one and defining their API program, evaluating the tech, business and politics of their operations. Part of this process is creating a Swagger definition for each API. I’m not deeply concerned with getting each API definition 100%, unless I'm directly integrating with the aPI. For this round I’m looking at defining just the surface area of the API, including each endpoint, headers, parameters, and body format, and leaving the underlying data model for another time.
 

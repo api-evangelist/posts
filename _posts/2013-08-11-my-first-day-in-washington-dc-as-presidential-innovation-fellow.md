@@ -1,13 +1,11 @@
 ---
 layout: post
 title: My First Day in Washington DC As Presidential Innovation Fellow
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kinlane-white-house-3-web.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kinlane-white-house-3-web.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Innovation
+- Innovation
 ---
 Tomorrow, will be my first official day in Washington D.C. as a [Presidential Innovation Fellow](http://www.whitehouse.gov/innovationfellows/round-2-fellows). I'm super excited, yet also very calm about what is happening. It seems like it is so meant to be, that I don't have any questions or reservations, I just want to get to work.
 

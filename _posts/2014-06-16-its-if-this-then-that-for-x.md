@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Its If This Then That For X
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/ifthisthenthat/IFTTT-logo.jpeg
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/ifthisthenthat/IFTTT-logo.jpeg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Automation
+- Business
+- Cloud
+- Data
+- Email
+- Evangelism
 ---
 One interesting theme I heard at [API Days San Francisco](http://sf.apidays.io/) last week, was the concept of API reciprocity, or [If This Then That](https://ifttt.com/)(IFTTT) moving into more niche areas. This edition of API Days was focused on "Disrupting the Car Industry and Driver Experience with APIs”, and I heard several times, people saying, “Its If This Then That for cars”.
 

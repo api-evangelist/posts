@@ -1,15 +1,13 @@
 ---
 layout: post
 title: API Visualization Exploration Using API Definitions
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-specification-visual-documentation.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-specification-visual-documentation.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Visualization
-  - Definition
-  - Exploration
+- Definitions
+- Visualization
+- Exploration
 ---
 There are number of areas across the API life-cycle that are being expanded upon in the current space, thanks to the evolution of API definition formats like Swagger, API Blueprint, and RAML. One area I haven't seen as much growth as I'd like, is in the area of [visualizations driven by API definitions](http://visualization.apievangelist.com/). 
 

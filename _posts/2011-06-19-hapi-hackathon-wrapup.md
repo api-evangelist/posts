@@ -5,7 +5,12 @@ url: http://apievangelist.com/2011/06/19/hapi-hackathon-wrapup/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Evangelism
+- Support
+- Twilio
 ---
 kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/HAPI-Hack-Weekend.png)](http://www.hapihack.com/ "HAPI Hackathon")The [HAPI hackathon](http://www.hapihack.com/ "HAPI Hackathon") wrapped up June 12th in San Francisco. The event brought developers together to hack on over 9 APIs in order to build something cool over the course of a weekend.
 

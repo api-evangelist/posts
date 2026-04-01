@@ -1,21 +1,17 @@
 ---
 published: true
 layout: post
-title: >-
-  Making Sure My API Roundup Stories Are Machine Readable By Designing Them As
-  APIs.json Collections
+title: Making Sure My API Roundup Stories Are Machine Readable By Designing Them As APIs.json Collections
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-collection.png
 author:
   name: kinlane
 tags:
-  - My
-  - Design
-  - Collections
-  - Stories
-  - APIs.json
-  - Collection
-  - APIs
-  - APIs.jso
+- Design
+- Collections
+- Stories
+- APIs.json
+- Collection
+- APIs
 ---
 Making a list of valuable APIs has been a staple of my tech blogging for 10 years now, and as I work to find even more meaningful ways of defining the API space, I’m pushing the envelope on how I do API roundup stories. Instead of just finding a handful of valuable APIs, and providing an HTML list of them, I'm going to use [APIs.json](http://apisjson.org/), to make sure all of my collections are machine readable by default.
 

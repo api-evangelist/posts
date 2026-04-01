@@ -4,7 +4,15 @@ title: Sending API Invites
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Email
+- Facebook
+- Integration
+- Media
+- Social
+- Twitter
 ---
 The ability to send email invitations to other potential users is a pretty common tool in place in many applications, helping them hopefully to expand their user-base.
 

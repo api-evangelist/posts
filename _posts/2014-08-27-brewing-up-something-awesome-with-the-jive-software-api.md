@@ -1,13 +1,19 @@
 ---
 layout: post
 title: Brewing Up Something Awesome With The Jive Software API
-sourceurl: >-
-  http://apievangelist.com/2014/08/27/brewing-up-something-awesome-with-the-jive-software-api/
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/jive-software/jive.png
+sourceurl: http://apievangelist.com/2014/08/27/brewing-up-something-awesome-with-the-jive-software-api/
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/jive-software/jive.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Evangelism
+- Federal Government
+- Github
+- Government
+- Messaging
 ---
 [Enterprise social API Jive Software](https://developer.jivesoftware.com/) wins for the best developer landing page. Normally I tell folks, [like I did with Trade.gov last week](http://apievangelist.com/2014/08/14/the-speed-of-federal-government-when-it-runs-on-github/), that your landing page should have a short, precise description of what you API does—this is some seriously valuable real estate, and you have one chance to make an impression.
 

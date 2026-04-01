@@ -1,12 +1,10 @@
 ---
 layout: post
 title: My First Keynote With The Infamous Audrey Watters
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/audrey-kin-paris.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/audrey-kin-paris.jpg
 author:
   name: kinlane
-tags:
-  - My
+tags: []
 ---
 I'm doing a keynote this weekend with the infamous, edtech rabble-rouser Audrey Watters ([@audreywatters](https://twitter.com/audreywatters)) at [InstructureCon](http://www.instructure.com/instructurecon) in Park City Utah, this Wednesday June 19th.
 

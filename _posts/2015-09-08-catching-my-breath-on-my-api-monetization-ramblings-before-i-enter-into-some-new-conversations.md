@@ -1,15 +1,12 @@
 ---
 layout: post
-title: >-
-  Catching My Breath On My API Monetization Ramblings Before I Enter Into Some
-  New Conversations
+title: Catching My Breath On My API Monetization Ramblings Before I Enter Into Some New Conversations
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gears-questions.png
 author:
   name: kinlane
 tags:
-  - My
-  - Monetization
-  - Conversations
+- Monetization
+- Conversations
 ---
 I have two more conversations kicking off on the topic of API monetization, so I just needed to take a moment to gather up the last wave of posts on the subject, catch my breath, and refresh my overall thoughts in the area. What I really like about this latest wave, is that they are about providing much needed funding for some potentially very important API driven resources. Another thing is that they are pretty complicated, unproven approaches to monetizing APIs--breaking ground!!
 

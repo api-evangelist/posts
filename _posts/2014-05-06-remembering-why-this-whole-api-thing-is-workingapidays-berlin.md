@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Remembering Why This Whole API Thing Is Working - APIDays Berlin
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/kin-lane/kin-lane-api-days-berlin-respect-privacy.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/kin-lane/kin-lane-api-days-berlin-respect-privacy.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Authentication
+- Cloud
+- Commerce
+- Communications
+- Data
 ---
 _This is my speaker notes from my talk this week at [APIDays Global in Berlin](http://berlin.apidays.io/). You can find [my slide deck in my talks repository on Github](https://www.flickr.com/photos/kinlane/sets/72157644603774353/), and find more [photos from the event on Flickr](https://www.flickr.com/photos/kinlane/sets/72157644603774353/)._
 

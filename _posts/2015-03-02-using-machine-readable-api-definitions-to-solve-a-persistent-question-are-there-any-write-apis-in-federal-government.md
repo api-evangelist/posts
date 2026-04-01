@@ -1,17 +1,14 @@
 ---
 layout: post
-title: >-
-  Using Machine Readable API Definitions To Solve A Persistent Question: Are
-  There Any Write APIs In Federal Government?
+title: 'Using Machine Readable API Definitions To Solve A Persistent Question: Are There Any Write APIs In Federal Government?'
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-question-mark.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Federal Government
-  - Government
-  - Definition
-  - APIs
+- Definitions
+- Federal Government
+- Government
+- APIs
 ---
 [A topic I've written about before](http://apievangelist.com/2014/06/03/significance-of-the-we-the-people-api-being-first-modern-read--write-web-api-in-government/), and one that I answer regularly on forums, via email, and on Twitter is, “Are there any write APIs in the federal government?” It is a valid question, and as I said in my [strategy suggestions for the federal government,](http://govfresh.com/2014/01/next-us-government-api-strategy/) write APIs are a critical aspect of all of this moving forward in a healthy way.
 

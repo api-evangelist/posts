@@ -1,10 +1,17 @@
 ---
 layout: post
 title: A Framework For Our All Day API Discussion
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_discussions_copper_circuit.jpg
-atomdate: 2017-03-08T17:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_discussions_copper_circuit.jpg
+atomdate: 2017-03-08 17:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- APIs.json
+- Amazon
+- Analytics
+- Authentication
+- Business
+- Cloud
 ---
 _This is an outline I pulled together for a potential project I am working on this week. It's derived from my research, and previous workshops I've done with companies, organizations, institutions, and government agencies in the past. I wanted to share here, in hopes it would stimulate API-focused conversations with some interesting folks._
 

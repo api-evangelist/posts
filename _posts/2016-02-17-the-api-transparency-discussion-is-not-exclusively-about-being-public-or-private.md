@@ -1,12 +1,9 @@
 ---
 layout: post
-title: >-
-  The API Transparency Discussion Is Not Exclusively About Being Public Or
-  Private
+title: The API Transparency Discussion Is Not Exclusively About Being Public Or Private
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-transparency.jpg
 tags:
-  - Transparency
-  - Public
+- Transparency
 ---
 When I talk about companies using APIs to be more transparent, one of the immediate comments I receive from folks is that "not everyone can be public by default". I agree with this situation, but I always counter with an introduction to the concept that transparency can be applied in strictly internal or partner situations as well--public is not the only type of transparency out there.
 

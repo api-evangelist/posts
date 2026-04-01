@@ -2,12 +2,11 @@
 layout: post
 title: Getting Back To Work On My OpenAPI Toolbox
 image: null
-atomdate: 2017-03-02T23:00:00.000Z
+atomdate: 2017-03-02 23:00:00+00:00
 tags:
-  - My
-  - OpenAPI
-  - Open
-  - Toolbox
+- OpenAPI
+- Open
+- Toolbox
 ---
 I used to have a Github repository dedicated to Swagger tooling and implementations, but I took it down after Swagger was donated to the Linux Foundation. I've rebooted it as [my OpenAPI Toolbox](http://openapi.toolbox.apievangelist.com/), providing [a single Github repository for managing an active list of open source tooling built on top of the OpenAPI specification](https://github.com/kinlane/openapi-toolbox).
 

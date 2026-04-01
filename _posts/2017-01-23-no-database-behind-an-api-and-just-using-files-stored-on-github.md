@@ -2,12 +2,11 @@
 layout: post
 title: No Database Behind An API and Just Using Files Stored on Github
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-api.png
-atomdate: 2017-01-23T20:00:00.000Z
+atomdate: 2017-01-23 20:00:00+00:00
 tags:
-  - Github
-  - Database
-  - Data
-  - Git
+- Github
+- Database
+- Data
 ---
 It is common for an API to just be a facade for a database. Meaning the data, and content served up via the API is read from and written to a database backend. This is probably the most common way to deploy an API, but increasingly I'm working to eliminate the database behind, and storing the content or data being served up via Github repositories. 
 

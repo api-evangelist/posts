@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Netflix API Is Much More Than A Public API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/netflix-square.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/netflix-square.png
 author:
   name: kinlane
-tags:
-  - Public
+tags: []
 ---
 Netflix has [entered the final stages of shuttering its public API last week](http://developer.netflix.com/blog/read/Changes_to_the_Public_API_Program). Its been coming for a while now, [starting in June of 2012](http://developer.netflix.com/blog/read/Upcoming_Changes_to_the_Netflix_API_Program), and now is official with the platform no longer accepting new API registrations.
 

@@ -1,11 +1,15 @@
 ---
 layout: post
 title: Method to the Madness
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/global-gears.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/global-gears.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Evangelism
+- Github
+- Google
 ---
 I'm always working to find a way to organize my world, to help me better keep track of my wealth of content and information, while also assisting people in navigating my sometimes chaotic world of sites, blogs and projects.
 

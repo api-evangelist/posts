@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png
 author:
   name: kinlane
 tags:
-  - Stack
-  - Reboot
+- Reboot
 ---
 I used to publish out a list of curated stories each week, and a listing of the top 25 APIs I was paying attention to during my regular monitoring of the API space to a site I called [The API Stack](http://theapistack.com/). When i went to Washington DC last summer as a Presidential Innovation Fellow, I suspended that weekly ritual, and never picked up after my world got back to normal.
 

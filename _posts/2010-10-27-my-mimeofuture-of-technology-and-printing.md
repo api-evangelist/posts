@@ -5,9 +5,8 @@ image: http://kinlane-productions2.s3.amazonaws.com/mimeo-logo.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Technology
-  - Print
+- Technology
+- Print
 ---
 I am in New York City this week kicking off my new career as the API Evangelist for [Mimeo Connect](http://www.mimeo.com/solutions/mimeo-connect.php).
 

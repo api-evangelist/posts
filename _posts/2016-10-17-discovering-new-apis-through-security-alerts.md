@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Discovering New APIs Through Security Alerts
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/cf60890864f3b19978e7a9a6a9c84152_400x400.png
-atomdate: 2016-10-17T20:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/cf60890864f3b19978e7a9a6a9c84152_400x400.png
+atomdate: 2016-10-17 20:00:00+00:00
 tags:
-  - Security
-  - Discover
-  - APIs
+- Security
+- Discovery
+- APIs
 ---
 I tune into a number of different channels looking for signs of individuals, companies, organizations, institutions, and government agencies doing APIs. I find APIs using Google Alerts, monitoring Twitter and Github, [using press releases](http://apievangelist.com/2016/09/14/harvesting-companies-who-are-doing-apis-from-press-releases/) and [via patent filings](http://apievangelist.com/2016/09/02/api-patent-search-as-way-to-discover-companies-who-are-doing-apis/). Another way I am learning to discover APIs is via alerts and notifications about security events.
 

@@ -1,13 +1,11 @@
 ---
 layout: post
 title: What Will It Take To Sell My API AS A Wholesale Resource
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-connected-network.png
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-connected-network.png
 author:
   name: kinlane
 tags:
-  - My
-  - Wholesale
+- Wholesale
 ---
 I'm continuing my exploration of the possibilities of offering up a wholesale version of an API resource. While wholesale is not an option for all types of APIs, there are a subset of APIs that are more utility in nature and would lend themselves nicely to being sold wholesale to other API providers.
 

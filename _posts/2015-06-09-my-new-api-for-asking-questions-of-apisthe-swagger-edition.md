@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-question-mark.p
 author:
   name: kinlane
 tags:
-  - My
-  - Swagger
-  - APIs
+- Swagger
+- APIs
 ---
 I am currently trying to move forward the [917 companies, from 223 business areas, with a total 882 APIs catalogued, and 407 Swagger definitions created](http://theapistack.com/), while working on a distributed way to understand where the profiling for each company is, and how far along the underlying Swagger definitions is. [I had kicked off another prototype APIs.json type a few months back I'm calling api-questions to handle just this](http://api-qa.apievangelist.com/), in a way that allows me to ask human readable questions about APis, while also storing in a distributed, machine readable format that can be indexed via each APIs.json file.
 

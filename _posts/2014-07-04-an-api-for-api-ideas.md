@@ -2,11 +2,15 @@
 layout: post
 title: An API For API Ideas
 url: http://apievangelist.com/2014/07/04/an-api-for-api-ideas/
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-light-bulb-bright.png
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-light-bulb-bright.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Evangelism
+- Github
+- Search
 ---
 I have a lot of ideas while being the API Evangelist. It just comes with the territory. I have an Evernote folder that I publish these ideas to, and some of them, like my [Screen Capture API](http://screen-capture.apievangelist.com/), I actually make a reality.
 

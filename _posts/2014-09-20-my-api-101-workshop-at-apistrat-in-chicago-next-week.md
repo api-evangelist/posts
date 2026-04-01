@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-101.png
 author:
   name: kinlane
 tags:
-  - My
-  - '101'
-  - APIStrat
+- '101'
+- APIStrat
 ---
 I’m working on the details of my [API 101 workshop](http://www.apistrategyconference.com/2014Chicago/workshops.php) with Kirsten Hunter ([@synedra](https://twitter.com/synedra)) next week. She is delivering most of the content for the 2 hour workshop, as she has evolved a pretty sophisticated set of API 101 materials. My contribution will be from my [history of APIs](http://history.apievangelist.com/), and my [API trends](http://apievangelist.com/trends/) material, helping people understand the how we got here, and some thoughts on where we are going.
 

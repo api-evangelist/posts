@@ -2,14 +2,13 @@
 layout: post
 title: Regex Suggestion Discovery For Web Concepts And Specs During API Design Time
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-regex.png
-atomdate: 2016-09-09T18:00:00.000Z
+atomdate: 2016-09-09 18:00:00+00:00
 tags:
-  - Design
-  - Discovery
-  - Web
-  - Discover
-  - Time
-  - Specs
+- Design
+- Discovery
+- Web
+- Time
+- Specs
 ---
 I am working on taking the [JSON feed of web concepts and specs](http://apievangelist.com/2016/09/06/a-json-feed-of-critical-web-concepts-to-integrate-into-api-design-service-and-tooling/) and developing a simple [website JavaScript tooltip library](http://apievangelist.com/2016/09/07/a-web-concepts-and-specifications-javascript-library-for-api-providers/) that API providers can employ to inject web literacy into their API developer portals and documentation. I have settled in on using an existing [JavaScript tooltip library](http://darsa.in/tooltip/) for the core functionality and have put [some thought into a basic dictionary lookup that can be used in web and API literacy tooling](http://apievangelist.com/2016/09/08/a-dictionary-to-lookup-web-concepts-and-specs-for-the-javascript-tooltip/).
 

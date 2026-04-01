@@ -1,15 +1,13 @@
 ---
 layout: post
 title: My API Design Research Distilled Down As Single PDF Guide
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-api-design-industry-guide-july-2015-cover.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-api-design-industry-guide-july-2015-cover.png
 author:
   name: kinlane
 tags:
-  - My
-  - Design
-  - Research
-  - PDF
+- Design
+- Research
+- PDF
 ---
 When API Evangelist began five years ago it was a single research into the business of APIs, which ultimately became a research project which I called API management. Over the last four years, I have spliced off other areas of research including the elements of my core research into API [design](http://design.apievangelist.com), [deployment](http://deployment.apievangelist.com), [management](http://management.apievangelist.com), [integration](http://integration.apievangelist.com), [evangelism](http://evangelism.apievangelist.com), and [monetization](http://monetization.apievangelist.com). 
 

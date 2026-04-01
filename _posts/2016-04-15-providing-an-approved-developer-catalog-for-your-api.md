@@ -1,9 +1,14 @@
 ---
 layout: post
 title: Providing An Approved Developer Catalog For Your API
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-developer-catalog.png
-tags: []
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-developer-catalog.png
+tags:
+- API Evangelist
+- APIs
+- Business
+- Documentation
+- Email
+- Mobile
 ---
 I was going through [the Expedia Affiliate Network](http://developer.ean.com) again yesterday, as part of my [Travel Stack Network](http://travel.stack.network/) work. Having individual research projects that pop up on my radar, and force to me take a fresh look at API providers is a huge part of what I do. As I was going through their portal, taking a fresh look at things, their [approved developer catalog](http://developer.ean.com/approved-devs/catalog/) was something that stood out for me.
 

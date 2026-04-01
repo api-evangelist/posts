@@ -5,7 +5,12 @@ url: http://apievangelist.com/2011/04/13/chicago-api-hack-day/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Evangelism
+- Google
+- Twilio
 ---
 kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/api-hack-day.png)[Hack Day](http://www.apihackday.com/ "API Hack Day"), the all-day API hackathon is coming to Chicago on Saturday, May 28th, from 8:00 AM to 8:00 PM.
 

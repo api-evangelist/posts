@@ -1,17 +1,13 @@
 ---
 layout: post
-title: >-
-  My Tooling And API For Gathering And Organizing The Details Of The Plans And
-  Pricing For APIs
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-plans-spec-interface-algolia.png
+title: My Tooling And API For Gathering And Organizing The Details Of The Plans And Pricing For APIs
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-plans-spec-interface-algolia.png
 tags:
-  - My
-  - Plans
-  - Tooling
-  - Pricing
-  - APIs
-  - ai
+- Plans
+- Tooling
+- Pricing
+- APIs
+- ai
 ---
 [A couple of weeks ago I started playing with a machine readable way to describe the pricing, and plans available for an API](http://alpha.apievangelist.com/2015/12/15/playing-with-a-json-representation-for-the-plans-for-many-of-the-leading-apis/). I spent a couple of days looking through over 50 APIs, and how they handled the pricing, and their API access plans, and gathered the details in a master list, which I am using for my master definition. I picked up this work, and moved it forward over the last two days, further solidifying the schema, as well as launching an API, and set of admin tools for me to use.
 

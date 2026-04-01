@@ -2,7 +2,15 @@
 layout: post
 title: More Considerations When Providing An Anonymous App For Your API Service
 atomdate: '2016-08-25T17:00:00-07:00'
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Email
+- Github
+- Postman
+- Twitter
+- Versioning
 ---
 [I wrote a post the other day about Postman.io having a limited, anonymous version of their API modeling tool](http://apievangelist.com/2016/08/19/providing-an-anonymous-layer-to-your-api-provider-service-like-stoplightio/). I stumbled across it while I was trying to upgrade my Stoplight.io account. Shortly after I tweeted out the blog post, John Sheehan ([@johnsheehan](https://twitter.com/johnsheehan)) from [Runscope](https://www.runscope.com/) chimed in with some wisdom on the subject.
 

@@ -2,8 +2,16 @@
 layout: post
 title: A Plan B API Switch
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-plan-b.png
-atomdate: 2016-09-30T22:00:00.000Z
-tags: []
+atomdate: 2016-09-30 22:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Business
+- Definitions
+- Developers
+- Discovery
+- Hypermedia
+- Integration
 ---
 I've had an idea for a bot-related service I call "plan b", which would act as a secondary action for any sort of bot request / response to an API. When developers are providing common bot responses like looking up a business address, sports statistic or stock quote, it could be exposed to suggestions for a "plan b". When a request is made, it can travel via its regular path, but it would also be included in a queue where other 3rd party developers could provide plan b suggestions, either free or paid. When a user is engaging with the bot and didn't like the primary response, they could click on the "plan b" option, opening up alternative responses. In theory, the user could cycle through each "plan b" suggestion until they find a suitable response. 
 

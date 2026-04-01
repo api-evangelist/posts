@@ -4,7 +4,14 @@ title: API KPIs Should Be Optimized for Developer Success
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Evangelism
+- Media
+- Monetization
+- Social
+- Standards
 ---
 When it comes to measuring the success of an API, we often experience a lack meaningful metrics, with [many companies only tracking the number of new developers and quantity of API calls](http://apievangelist.com/2012/05/15/developing-more-meaningful-api-metrics/ "many companies only tracking the number of new developers and quantity of API calls"). Going beyond these basic API metrics and identifying true performance indicators (KPI), will be essential if you want to find success with your API.
 

@@ -5,11 +5,10 @@ image: http://kinlane-productions2.s3.amazonaws.com/rellinking.png
 author:
   name: kinlane
 tags:
-  - Social
-  - My
-  - Blog
-  - Profiles
-  - ai
+- Social
+- Blog
+- Profiles
+- ai
 ---
 I made some more changes to my network over the holidays. I'm working to better tie together my blog(s) and my social network profiles using the [rel="" property](http://www.w3schools.com/jsref/prop_link_rel.asp "rel= property").
 

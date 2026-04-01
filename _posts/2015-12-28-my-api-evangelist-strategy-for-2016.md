@@ -5,10 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-strategy.png
 author:
   name: kinlane
 tags:
-  - My
-  - API Evangelist
-  - Strategy
-  - Evangelist
+- API Evangelist
+- Strategy
+- Evangelist
 ---
 As I approach 2016, I'm stepping back, and looking at the big picture of what it is that do, and using what I learn to help guide what I will accomplish in 2016. I tend to not subscribe to the concept of predictions, and instead focus on what change I personally would like make within the API space, and this strategy is key to me achieving this vision.
 

@@ -4,7 +4,15 @@ title: API Service Accord
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-handshake.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Definitions
+- Evangelism
+- Federal Government
+- Government
+- Management
+- Standards
 ---
 Building off a conversation I had with a fellow evangelist in the federal government today, regarding API service level agreements (SLA), I wanted to talk through some thoughts I’m having about a couple of key [API building blocks](http://management.apievangelist.com/building-blocks.html).
 

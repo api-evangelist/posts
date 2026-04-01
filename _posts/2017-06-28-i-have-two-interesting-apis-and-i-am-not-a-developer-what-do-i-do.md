@@ -2,13 +2,13 @@
 published: true
 title: I Have Two APIs I Am Interested In And I Am Not A Developer--What Do I Do?
 image: https://s3.amazonaws.com/kinlane-productions2/api-documentation-unistats.png
-date: 2017-06-28T09:00:00.000Z
+date: 2017-06-28 09:00:00+00:00
 tags:
-  - 101
-  - API Evangelist
-  - Education
-  - Spreadsheet
-  - Universities
+- '101'
+- API Evangelist
+- Education
+- Spreadsheet
+- Universities
 ---
 <p><img src="https://s3.amazonaws.com/kinlane-productions2/api-documentation-unistats.png" align="right" width="40%" style="padding: 15px;" /></p>My friend David Kernohan ([@dkernohan](https://twitter.com/dkernohan)) emailed me the other day asking me for some advice on where to get started working with some data APIs he had been introduced to. This is such a common question for me, and surprisingly seven years into API Evangelist they are questions I still do not have easy answers for. Partly because I spend the majority of my time writing about providing APIs, but also because API consumption is often times inconsistent, and just hard. 
 

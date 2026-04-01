@@ -1,15 +1,13 @@
 ---
 layout: post
 title: 'API Stack - API Account Management with 3Scale Account Management API '
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-logo.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-logo.jpg
 author:
   name: kinlane
 tags:
-  - Management
-  - 3Scale
-  - Scale
-  - Stack
+- Management
+- 3Scale
+- Scale
 ---
 [3scale](http://www.3scale.net/ "3Scale") provides scalable API Infrastructure as a Service to control, manage and monetize the distribution of data, content or services for devices, mobile and web applications.
 

@@ -1,14 +1,12 @@
 ---
 layout: post
 title: The API Lifecycle (My Talk From @Defrag and @APIStrat)
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/talks/november-2015/Beck_Map_1933.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/talks/november-2015/Beck_Map_1933.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Lifecycle
-  - APIStrat
+- Lifecycle
+- APIStrat
 ---
 I recently told the story of how I view the API life-cycle, based upon my research across the space, at the [Defrag Conference in Broomfield, CO](http://defragcon.com/), and at my [API Strategy & Practice conference in Austin, TX](http://austin2015.apistrat.com/). I spent two weeks pushing my research forward in preparation for these talks, and wanted to take a moment to gather my thoughts, and share the narrative of my talk.
 

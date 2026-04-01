@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Delivering Your API as a Virtual Appliance
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/repustate-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/repustate-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Analytics
+- Cloud
+- Data
+- Deployment
+- Management
+- Media
 ---
 Sentiment analysis and social media analytics API provider [Repustate](https://www.repustate.com/) is providing a [virtualized, portable, on-premise version of its API](http://blog.repustate.com/provisioning-virtual-appliances-with-vagrant/2013/08/03/)\--adding a new twist to the concept of API deployment.
 

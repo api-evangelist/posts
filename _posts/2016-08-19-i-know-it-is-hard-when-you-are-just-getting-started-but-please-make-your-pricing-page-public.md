@@ -1,15 +1,11 @@
 ---
 layout: post
-title: >-
-  I Know It Is Hard When You Are Just Getting Started, But Please Make Your
-  Pricing Page Public
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Banners_and_Alerts_and_StopLight.png
-atomdate: 2016-08-19T18:00:00.000Z
+title: I Know It Is Hard When You Are Just Getting Started, But Please Make Your Pricing Page Public
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Banners_and_Alerts_and_StopLight.png
+atomdate: 2016-08-19 18:00:00+00:00
 tags:
-  - Getting Started
-  - Pricing
-  - Public
+- Getting Started
+- Pricing
 ---
 I received an email from [Stoplight.io](https://stoplight.io/) about their version updates, which included the phasing out of the free beta period--makes sense. I clicked on the "you can view pricing, and setup billing, on your [account billing page](https://via.intercom-mail.com/e?ob=Fzn1KX8qpL4Tj%2Bdj7ZqP4%2BlJKxWc1o2l%2BxKdttdR9g2KcFuIc3J7XXtd8SOATo00&h=f74d2415ba4e11a5e1feb8d86c27010cced7c5c4-5693065993)" in the email, and was taken to the register page. 
 

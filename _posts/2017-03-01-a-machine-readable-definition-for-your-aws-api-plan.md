@@ -1,12 +1,11 @@
 ---
 layout: post
 title: A Machine Readable Definition For Your AWS API Plan
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_26_at_7.12.16_pm.png
-atomdate: 2017-03-01T23:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_26_at_7.12.16_pm.png
+atomdate: 2017-03-01 23:00:00+00:00
 tags:
-  - Definition
-  - AWS
+- Definitions
+- AWS
 ---
 I was learning about the [AWS Serverless Developer](https://github.com/awslabs/aws-api-gateway-developer-portal) [Portal](https://github.com/awslabs/aws-api-gateway-developer-portal), and found their API plan layer to be an interesting evolution in how we define the access tiers of our APIs. There were a couple different layers of AWS's approach to deploying APIs that I found interesting, including the AWS marketplace integration, but I wanted to stop for a moment and focus in on their API plan approach.
 

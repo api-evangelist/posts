@@ -1,11 +1,18 @@
 ---
 layout: post
 title: FDA Finding Their API Mojo With A New Drug Label API
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/open-fda-logo.png
+image: https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/open-fda-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Design
+- Documentation
+- Federal Government
+- Github
+- Government
 ---
 I first wrote about [openFDA](https://open.fda.gov/) back in June, [showcasing the launch of their new developer area](http://apievangelist.com/2014/06/04/another-strong-api-implementation-in-federal-government-with-openfda/), and I'm happy to see they aren't missing a beat when it comes to launching new APIs. I recently saw that openFDA just launch a new endpoint, called the [Drug Label API](https://open.fda.gov/drug/label/), which allows you to query over 60K prescriptions and over-the-counter drug labels.
 

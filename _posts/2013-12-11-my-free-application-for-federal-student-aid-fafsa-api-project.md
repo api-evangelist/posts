@@ -1,13 +1,11 @@
 ---
 layout: post
 title: My Free Application for Federal Student Aid (FAFSA) API Project
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fafsa-form.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fafsa-form.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Project
+- Project
 ---
 I was able to give my [FAFSA API project](http://ed-data.github.io/fafsa-api/index.html "FAFSA API Project") a little more attention in preparation for some data jams later this week. While there is still a lot of work to happen, I feel pretty good about what I have been able to get done. I'd love to reflect on the API design, get some feedback before I move it forward too much more.
 

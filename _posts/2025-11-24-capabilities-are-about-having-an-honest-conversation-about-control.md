@@ -2,15 +2,14 @@
 published: true
 layout: post
 title: Capabilities Are About Having An Honest Conversation About Control
-date: 2025-11-24T09:00:00.000Z
+date: 2025-11-24 09:00:00+00:00
 tags:
- - Control
- - Access
- - Public
- - Private
- - Partner
- - 3rd-party
- - Capacity
+- Control
+- Access
+- Private
+- Partner
+- 3rd-party
+- Capacity
 image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/braceros-domingo-ulloa-nyc-streeet-dark-steam-2.jpeg
 ---
 I am deep into [capablity thinking](https://github.com/capabilities-thinking/conversations). I am having some interesting conversations which I will be publishing as podcasts, blog posts, and white paper shortly, but I need to keep hammering on some thoughts here before I am ready to hit publish on these stories. In my API Evangelist newsletter [last week I was thinking about business alignment of capabilities](https://buttondown.com/apievangelist/archive/weekly-api-evangelist-governance-guidance-5590/), and this week [I was thinking about alignment different public or private spheres that shape our businesses](https://buttondown.com/apievangelist/archive/weekly-api-evangelist-governance-guidance-2589/), which ultimately left me realizing that capabilities are about having an honest conversation about how much control we have or do not have with each integration we depend upon to do business today, and tomorrow. This is bigger than just API contracts, which is just about a single API--this is about business derivatives involving multiple API contracts.

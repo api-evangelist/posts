@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Benefits Of Treating Your Private API Like a Public One
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-padlock.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-padlock.png
 author:
   name: kinlane
-tags:
-  - Public
+tags: []
 ---
 I stopped counting the number of successful applications that have had their private APIs reversed engineered by some savvy users, [Most recently Snapchat](http://apivoice.com/2014/01/08/are-your-api-security-practices-in-better-shape-than-the-snapchat-api/ "Snapchat API reverse engineered"), and famously the [original rogue Instagram API](http://blog.programmableweb.com/2010/12/15/the-full-featured-unpublished-instagram-api/) was developed this way, and even auto maker [Tesla had their API reverse engineered](http://www.teslamotors.com/forum/forums/flaws-rest-api-authentication).
 

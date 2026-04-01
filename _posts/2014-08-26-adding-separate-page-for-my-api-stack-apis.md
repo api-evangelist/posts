@@ -5,10 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png
 author:
   name: kinlane
 tags:
-  - My
-  - Stack
-  - APIs
-  - ddi
+- APIs
+- ddi
 ---
 I have been slowly producing my own stack of APIs, which I'm putting under [The API Stack](http://theapistack.com) brand. My goal with each of these APIs is to do one thing, and do it well, then package up the server side code, API definition, and publish as its own standalone Github repository. 
 

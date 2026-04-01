@@ -1,18 +1,15 @@
 ---
 layout: post
 title: API Deployment From MySQL, JSON, Github and Google Spreadsheets
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-toolbox.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-toolbox.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Github
-  - Deployment
-  - Spreadsheets
-  - Spreadsheet
-  - JSON
-  - Git
+- Github
+- Deployment
+- Spreadsheets
+- Spreadsheet
+- JSON
 ---
 I'm doing a lot more API deployments from dead simple data sources since I started working in the federal government. As part of these efforts I'm working to put together a simple toolkit that newbies to the API world can use to rapidly deploy APIs as well.
 

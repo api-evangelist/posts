@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Evaluating A New Channel For Publishing My Bits
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/shutterstock_developers_home.png
-atomdate: 2017-01-09T23:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/shutterstock_developers_home.png
+atomdate: 2017-01-09 23:00:00+00:00
 tags:
-  - My
-  - Publishing
+- Publishing
 ---
 I have used [Shutterstock](https://www.shutterstock.com/home) for some time now when it comes stock images but I've only recently started playing around with their publishing program, hoping to make some money from some of my photos and videos. As with any other channel that I am considering for inclusion in my line-up of tools and services, I am spending time going through their platform and evaluate the tech, business, and political considerations of adding any new service to work into my world. 
 

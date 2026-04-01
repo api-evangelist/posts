@@ -5,8 +5,7 @@ url: http://apievangelist.com/2011/07/19/building-the-perfect-api-stack/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags:
-  - Stack
+tags: []
 ---
 kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/poker-chip-stack.jpg)As I'm reviewing APIs, I spend a lot of time considering the viability and business use cases for an API.
 

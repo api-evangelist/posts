@@ -1,11 +1,15 @@
 ---
 layout: post
 title: Work On The Next Version Of The Crocodoc API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/crocodoc-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/crocodoc-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Design
+- Open Source
+- Versioning
 ---
 It looks like the [HTML5 document embedding platform Crocodoc](https://crocodoc.com/ "HTML5 document embedding platform Crocodoc") is starting to [plan the next version of their API](https://news.ycombinator.com/item?id=5358861). The are being very transparent about the process (which I like), and putting out the word looking for some new team members to help them get the job one.
 

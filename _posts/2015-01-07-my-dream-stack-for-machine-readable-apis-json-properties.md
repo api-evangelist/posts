@@ -6,12 +6,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png
 author:
   name: kinlane
 tags:
-  - My
-  - Stack
-  - APIs.json
-  - APIs
-  - Properties
-  - APIs.jso
+- APIs.json
+- APIs
+- Properties
 ---
 The properties of each API that is listed in an [APIs.json file](http://apisjson.org/) can be called anything, as long as you preface it with X-, and the URL can point to anything you wish--to me [this is one of the most flexibile aspects of APIs.json](http://apisjson.org/2014/07/09/the-power-in-api-discovery-for-apisjson-will-be-in-the-api-url-type/). The majority of APIs.json API properties are going to be to URLs designed for human consumption, but the ultimate goal of the project is to establish a core set of machine readable URIs that will help move the API discovery conversation forward.
 

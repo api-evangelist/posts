@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.p
 author:
   name: kinlane
 tags:
-  - My
-  - Definition
-  - Swagger
+- Definitions
+- Swagger
 ---
 [I have been working hard to establish some sort of minimum viable definition for a complete Swagger definition is](http://apievangelist.com/2015/06/06/how-do-you-know-when-a-swagger-api-definition-is-complete/), and I think I finally have got to a point where I have it--at least enough to work through the next 100 or so APIs I'm targeting for completion. 
 

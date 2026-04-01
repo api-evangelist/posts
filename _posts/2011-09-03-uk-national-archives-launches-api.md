@@ -2,11 +2,16 @@
 layout: post
 title: UK National Archives Launches API
 url: http://apievangelist.com/2011/09/03/uk-national-archives-launches-api/
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/uk-national-archives-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/uk-national-archives-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Discovery
+- Evangelism
+- Government
+- Monetization
 ---
 kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/uk-national-archives-logo.png)](http://www.nationalarchives.gov.uk/documentsonline/ "National Archives")The [National Archives](http://www.nationalarchives.gov.uk/documentsonline/ "National Archives") has [published a new API](http://www.computerweekly.com/Articles/2011/09/02/247784/National-Archives-releases-public-application-programming-interface-for-11m.htm "published a new API"), as part of an ongoing program to get more public records online, according to [ComputerWeekly.com](http://www.computerweekly.com "ComputerWeekly.com").
 

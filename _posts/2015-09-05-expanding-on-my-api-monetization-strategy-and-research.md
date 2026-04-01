@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Expanding On My API Monetization Strategy And Research
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-monetization-strategy.png
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-monetization-strategy.png
 author:
   name: kinlane
 tags:
-  - My
-  - Monetization
-  - Strategy
-  - Research
+- Monetization
+- Strategy
+- Research
 ---
 This is a full walk-through of me trying to distill down my approach to API monetization, in a way that can be applied across not just 30 APIs, but potentially 300, or 3000. There are several things converging for me right now, which includes the maturing of my own infrastructure, as well as conversations I'm having with startups, enterprise groups, federal government agencies, and my own partner(s).
 

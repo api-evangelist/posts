@@ -1,16 +1,14 @@
 ---
 layout: post
 title: The Speed Of Federal Government When It Runs On Github
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/trade-gov/trade-gov-developer-portal.png
+image: https://s3.amazonaws.com/kinlane-productions2/federal-government/trade-gov/trade-gov-developer-portal.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Federal Government
-  - Government
-  - Speed
-  - Git
+- Github
+- Federal Government
+- Government
+- Speed
 ---
 I’m [coordinating with the development team for Developer.Trade.Gov today](http://apievangelist.com/2014/08/14/swagger-apisjson-and-review-for-the-new-developertradegov/), providing them with a review of their new developer area, and some suggestions on how to make their APIs, and developer more usable.
 

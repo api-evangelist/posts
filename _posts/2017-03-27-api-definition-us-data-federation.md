@@ -1,13 +1,12 @@
 ---
 layout: post
 title: 'API Definition: U.S. Data Federation'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_us_data_federation_screenshot.png
-atomdate: 2017-03-27T16:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_us_data_federation_screenshot.png
+atomdate: 2017-03-27 16:00:00+00:00
 tags:
-  - Data
-  - Definition
-  - Federation
+- Data
+- Definitions
+- Federation
 ---
 _This is an article from the current edition of the [API Evangelist industry guide to API definitions](http://definitions.apievangelist.com/guide/). The guide is designed to be a summary of the world of API definitions, providing the reader with a recent summary of the variety of specifications that are defining the technology behind almost every part of our digital world._
 

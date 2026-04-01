@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Defining Virtual API Stacks Using The Service Broker API Over At IBM Bluemix
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ibm-bluemix-third-party-services.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ibm-bluemix-third-party-services.png
 author:
   name: kinlane
-tags:
-  - Stack
+tags: []
 ---
 I've been talking about developing [virtual API stacks for a while now](http://apievangelist.com/2013/01/28/virtualized-api-stacks/), and as I continue understand current shifts in cloud computing, I am doing my own [reshuffling towards a more microservices, and docker-centric way of life](http://apievangelist.com/2015/02/02/api-management-infrastructure-and-service-composition-is-key-to-orchestration-with-microservices-in-a-containerized-world/). When I say the phrase “virtual API stack”, I’m talking about the ability to deploy a stack of APIs you need for a specific organization, project, app, or other configuration. In 2015, you should be able to quickly define exactly the stack of private, and public API services you need to accomplish exactly what you need--nothing more.
 

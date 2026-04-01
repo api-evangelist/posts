@@ -1,22 +1,16 @@
 ---
 published: true
 layout: post
-title: >-
-  Using My APIs.json Annotation Tool To Drive An API Design Conversation Via
-  Github Issues
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-json-annotation.png
+title: Using My APIs.json Annotation Tool To Drive An API Design Conversation Via Github Issues
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-json-annotation.png
 author:
   name: kinlane
 tags:
-  - My
-  - Github
-  - Design
-  - Issues
-  - APIs.json
-  - APIs
-  - APIs.jso
-  - Git
+- Github
+- Design
+- Issues
+- APIs.json
+- APIs
 ---
 I am working on [one possible API definition for the Human Services Definition Specification (HSDS)](http://apievangelist.com/2016/04/09/playing-with-one-possible-openapi-spec-for-the-human-services-data-specification-hsds/), and the next phase of this work involves bringing in a small group of technical, and non-technical folks to have discussions around their API designs, in context of the master specification I am looking to pull together. 
 

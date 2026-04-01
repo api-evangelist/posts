@@ -2,13 +2,12 @@
 published: true
 layout: post
 title: Business Users Do Not Search For API Solutions, They Just Search For Solutions
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-machine-road-copper-circuit.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-machine-road-copper-circuit.jpg
 author:
   name: kinlane
 tags:
-  - Search
-  - Discover
+- Search
+- Discovery
 ---
 As I craft stories for my blog I am always working to reach as wide possible audience as I can. It is one of the reasons I write so many stories, because the process helps me refine how I say things, and the words that I use. The process is a double edge sword because I want to reach my more technical audience by using very precise and meaningful terms, but I also want to reach out to a more business focused audience by using other more general and meaningful terms. This is a tough balance to find across any single post, so I tend to mix things up across posts, going down the technical rabbit hole on some, while keeping things high level for my business users on others. Keeping the site reaching as many folks as possible.
 

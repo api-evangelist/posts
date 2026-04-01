@@ -1,17 +1,14 @@
 ---
 layout: post
-title: >-
-  Github As The Central Presence, Definition, Configuration, And Source Code For
-  Your API
+title: Github As The Central Presence, Definition, Configuration, And Source Code For Your API
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.jpg
 author:
   name: kinlane
 tags:
-  - Github
-  - Definition
-  - Code
-  - Git
-  - Presence
+- Github
+- Definitions
+- Code
+- Presence
 ---
 It is easy to think of [Github](http://github.com) as a central repository for your open source code—most developers understand that. I have written before about the [many ways to use Github as part of your API management strategy](http://apievangelist.com/2013/06/08/api-management-using-github/ "many ways to use Github as part of your API management strategy"), but in the last few months I'm really seeing Github playing more of a central role in the overall lifecycle of an API.
 

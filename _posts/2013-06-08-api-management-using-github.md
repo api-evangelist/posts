@@ -1,15 +1,13 @@
 ---
 layout: post
 title: API Management Using Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
 author:
   name: kinlane
 tags:
-  - Github
-  - Management
-  - API Management
-  - Git
+- Github
+- Management
+- API Management
 ---
 There are plenty of tools and services you can use to manage your API and its developer community. But there is no platform that provides as much benefit and versatility as [Github](http://github.com "Github").
 

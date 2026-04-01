@@ -1,12 +1,10 @@
 ---
 layout: post
 title: The Resource Stack
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Stack-Colored.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Stack-Colored.png
 author:
   name: kinlane
-tags:
-  - Stack
+tags: []
 ---
 I've been organizing much of my research around APIs into groupings that I call "stacks". The term allows me to loosely bundle common API resources into meaningful "stacks" for my readers to learn about.
 

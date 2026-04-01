@@ -1,10 +1,15 @@
 ---
 layout: post
 title: Log Files Are Only For When Things Go Wrong
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/logging_truck_accident.jpg
-atomdate: 2017-04-18T22:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/logging_truck_accident.jpg
+atomdate: 2017-04-18 22:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Analytics
+- Data
+- Management
+- Security
 ---
 I'm always amazed at the number of companies I work with that do not consider log files a first class data system. Log files for servers, web servers, and other systems or applications are only for when something goes wrong. I have to admit, I'm in the same situation. I have APIs on the logging for my API management layer, but I do not have easy API access to my Linux servers or the Apache web server that runs on top of them. 
 

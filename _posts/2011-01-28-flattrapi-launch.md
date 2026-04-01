@@ -4,7 +4,15 @@ title: Flattr - API Launch
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Authentication
+- Design
+- Integration
+- Payments
+- Social
+- Support
 ---
 [Flattr the social micro-payment site, made their API public today](http://blog.flattr.net/2011/01/public-rest-api/).
 

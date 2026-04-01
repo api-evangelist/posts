@@ -1,14 +1,12 @@
 ---
 layout: post
 title: An API For Your Github GeoJSON Stores
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/git-spatial-2.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/git-spatial-2.png
 author:
   name: kinlane
 tags:
-  - Github
-  - JSON
-  - Git
+- Github
+- JSON
 ---
 I've been pushing the boundaries of open data and API deployment using Github. I have a project I've been evolving since August called [Simple API](http://simple-api.github.io/central/ "Simple API") and its sister implementation [api.ongithub.com](http://api.ongithub.com "api.ongithub.com"), which allows you to launch an API by forking common API definitions that are hosted on Github.
 

@@ -1,17 +1,15 @@
 ---
 layout: post
 title: Tracking On Licensing For The Solutions In My OpenAPI Toolbox
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_12_at_11.20.06_pm.png
-atomdate: 2017-03-15T23:30:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_12_at_11.20.06_pm.png
+atomdate: 2017-03-15 23:30:00+00:00
 tags:
-  - Tracking
-  - My
-  - OpenAPI
-  - Licensing
-  - Open
-  - Solutions
-  - Toolbox
+- Tracking
+- OpenAPI
+- Licensing
+- Open
+- Solutions
+- Toolbox
 ---
 I wanted to provide an easy way to publish and share some of the tools that I'm tracking on in the [OpenAPI](http://openapis.org) ecosystem, so I launched [my API toolbox](http://openapi.toolbox.apievangelist.com/). In addition to tracking on the name, description, logo, and URL for OpenAPI tooling, I also wanted to categorize them, helping me better understand the different types of tools that are emerging. As I do with all my research, [I published the OpenAPI Toolbox as a Github repository](https://github.com/kinlane/openapi-toolbox), leveraging [its YAML data core to store all the tools](https://github.com/kinlane/openapi-toolbox/blob/master/_data/tools.yaml). 
 

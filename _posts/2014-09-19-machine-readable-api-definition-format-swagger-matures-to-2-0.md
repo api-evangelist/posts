@@ -2,13 +2,12 @@
 published: true
 layout: post
 title: Machine Readable API Definition Format Swagger Matures to 2.0
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-20.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-20.png
 author:
   name: kinlane
 tags:
-  - Definition
-  - Swagger
+- Definitions
+- Swagger
 ---
 The [machine readable API definition format Swagger](http://swagger.io/), just rolled over to version 2.0. I use Swagger to describe all of my APIs, and I largely associate the creator of Swagger, [Wordnik](https://www.wordnik.com/) for kicking off this latest renaissance in defining APIs in a way that provides us with a machine readable vocabulary to talk about all of these valuable resoures that we are exposing via APIs.
 

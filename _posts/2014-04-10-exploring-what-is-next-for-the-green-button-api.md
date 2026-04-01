@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Exploring What Is Next For The Green Button API
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/green-button/green-button.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/federal-government/green-button/green-button.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Documentation
+- Federal Government
+- Github
+- Government
+- Management
 ---
 The end of last year I was asked to spent time thinking about three things: 1) [An API for the Free Application for Federal Student Aid (FAFSA](http://ed-data.github.io/fafsa-api/)) 2) Next steps for the Green Button API 3) [API strategy for the overall United States Government](http://apievangelist.com/2014/01/06/what-is-next-for-the-us-government-api-strategy/). I managed to find the bandwidth to get two of the three projects active, but neglected to spend time on the Green Button API.
 

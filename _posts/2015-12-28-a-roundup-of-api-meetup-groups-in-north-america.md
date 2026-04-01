@@ -4,7 +4,14 @@ title: A Roundup Of API Meetup Groups In North America
 image: http://kinlane-productions2.s3.amazonaws.com/oscon-drinkup-2.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Definitions
+- Design
+- Evangelism
+- Support
+- Twitter
 ---
 The existence, membership, and activity around local API Meetup groups is one of the overall health indicators in the API space. [I've long been a proponent of local API meetups](http://apievangelist.com/2012/07/20/definition-of-api-craft/), helping jumpstart the [early API Craft gatherings](http://apievangelist.com/2012/08/18/api-craft-san-francisco/), as well as [helping new Meetup groups get off the ground](http://apievangelist.com/2013/05/13/my-talk-tomorrow-night-at-the-dallasforth-worth-api-professionals-meetup/).
 

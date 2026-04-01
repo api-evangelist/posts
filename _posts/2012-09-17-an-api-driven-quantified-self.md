@@ -1,11 +1,18 @@
 ---
 layout: post
 title: An API Driven Quantified Self
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/quantified-self.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/quantified-self.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Cloud
+- Data
+- Discovery
+- Healthcare
+- Integration
+- Management
 ---
 I’m immersing myself into the fascinating new world of the [Quantified Self](http://quantifiedself.com/about/ "Quantified Self") (QS). If you are not familiar with what QS is, according to Wikipedia:
 

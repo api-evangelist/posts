@@ -1,15 +1,13 @@
 ---
 layout: post
 title: A Wicked (Good) Open Source API Deployment And Management Stack
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wicked-logo-140.png
-atomdate: 2016-08-24T16:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wicked-logo-140.png
+atomdate: 2016-08-24 16:00:00+00:00
 tags:
-  - Deployment
-  - Management
-  - Open Source
-  - Stack
-  - Open
+- Deployment
+- Management
+- Open Source
+- Open
 ---
 I was introduced to a new [open source, Dockerized API operations solution called Wicked](http://wicked.haufe.io/index.html), that was developed by the integrated cloud and desktop solutions provider, the [Haufe Group](http://haufe.com). There are [a number of open source API management solutions out there](http://apievangelist.com/2014/10/05/taking-a-fresh-look-at-what-open-source-api-management-architecture-is-available/), and an even greater number of [API frameworks that can help you deploy your APIs](http://deployment.apievangelist.com/tools/framework/), but Wicked is the first to span several areas of the API life cycle including [DNS](http://dns.apievangelist.com), [deployment](http://deployment.apievangelist.com), [containers](http://containers.apievangelist.com), [authentication](http://authentication.apievangelist.com), [management](http://management.apievangelist.com/), and [documentation](http://documentation.apievangelist.com),
 

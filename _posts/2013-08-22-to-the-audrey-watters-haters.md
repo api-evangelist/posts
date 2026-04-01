@@ -1,11 +1,17 @@
 ---
 layout: post
 title: To The Audrey Watters Haters
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/audrey-kin-paris.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/audrey-kin-paris.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Authentication
+- Business
+- Education
+- Evangelism
+- Twitter
 ---
 I've had the joy of watching a lot of you bash on my girlfriend, from the misogynistic douche bags telling her to get back in the kitchen because she questions their technology startup, to the recent [@FakeAudreyWatters](https://twitter.com/FakeAudryWattrs) Twitter account spending a good portion of their day mocking her.
 

@@ -2,11 +2,9 @@
 layout: post
 title: My API Definitions Are Incomplete But You Do Not Want To Contribute
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-share-stack.png
-atomdate: 2016-09-26T20:00:00.000Z
+atomdate: 2016-09-26 20:00:00+00:00
 tags:
-  - My
-  - Definitions
-  - Definition
+- Definitions
 ---
 I am perpetually working to publish all of my API definitions [my API Stack Github repository](https://github.com/api-stack/api-stack), with [the front available as the API Stack](http://theapistack.com/). I regularly push the latest copies of all of my OpenAPI Specs to these Github repos when I have time, but my OpenAPI Specs are far from complete, and are [something I'm always working to make as complete as a I can, and certify when possible](http://apievangelist.com/2016/05/02/working-to-establish-a-complete-openapi-spec-for-leading-apis/).
 

@@ -1,16 +1,14 @@
 ---
 layout: post
 title: A Conversation About My Subway Map API On The APIsUncensored Podcast
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/subway-map-api.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/subway-map-api.png
 author:
   name: kinlane
 tags:
-  - My
-  - Subway Map
-  - Subway
-  - APIs
-  - Podcast
+- Subway Map
+- Subway
+- APIs
+- Podcast
 ---
 There is a new podcast on SoundCloud called [APIsUncensored](https://soundcloud.com/apisuncensored), from the folks over at SmartBear. I was honored to have a mention in the first episode, where they brought up a project I did a couple of months back, which I called the [Subway Map API](http://subway.map.apievangelist.com/index.html). I [published a full story on what I was doing](http://apievangelist.com/2014/12/01/my-turkey-holiday-project-a-subway-map-api/), and launched supporting Github repo, and API, but the work was very much a weekend side project, and something that will need a lot more love before it goes anywhere.
 

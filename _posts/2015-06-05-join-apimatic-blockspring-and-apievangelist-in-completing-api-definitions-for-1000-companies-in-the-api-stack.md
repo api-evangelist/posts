@@ -1,15 +1,11 @@
 ---
 layout: post
-title: >-
-  Join @apimatic, @blockspring, and @apievangelist In Completing API Definitions
-  For 1000 Companies In The API Stack
+title: Join @apimatic, @blockspring, and @apievangelist In Completing API Definitions For 1000 Companies In The API Stack
 image: https://s3.amazonaws.com/kinlane-productions2/api-stack/api-stack-logo.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Definition
-  - Stack
+- Definitions
 ---
 [3Scale](http://www.3scale.net/) and I have been working hard to craft [APIs.json](http://apisjson.org) files for the top public APIs out there, including machine readable Swagger definitions, ever since [we launched the open source API search engine APIs.io](http://apievangelist.com/2014/07/03/an-open-source-distributed-api-evangelist-engine/). We will keep working to define, and index the API space, but it is a lot of work ahead, and we could use some help.
 

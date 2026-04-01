@@ -1,19 +1,16 @@
 ---
 published: true
 layout: post
-title: >-
-  Three Areas I Would Like To Cover When We Sit Down For An API Consulting
-  Session
-date: 2018-02-27T09:00:00.000Z
+title: Three Areas I Would Like To Cover When We Sit Down For An API Consulting Session
+date: 2018-02-27 09:00:00+00:00
 tags:
-  - API Evangelist
-  - Consulting
-  - 101
-  - Strategy
-  - Governance
-  - Landscape
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/68_146_800_500_0_max_0_-1_-1.jpg
+- API Evangelist
+- Consulting
+- '101'
+- Strategy
+- Governance
+- Landscape
+image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/68_146_800_500_0_max_0_-1_-1.jpg
 ---
 <p><img src="http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/68_146_800_500_0_max_0_-1_-1.jpg" align="right" width="45%" style="padding: 15px;" /></p>I'm putting together some presentations for a handful of upcoming engagements, where I'm wanting to help my audience understand what an initial engagement will look like. While I am looking to have just a handful of bullets that can live on a single, or handful of slides, I also want a richer narrative to go along with it. To achieve this I rely on my blog, which helps me work my way through the details of what I do, and distill things down into something that I can deliver on the ground within the companies, organizations, institutions, and government agencies I am conducting business with.
 

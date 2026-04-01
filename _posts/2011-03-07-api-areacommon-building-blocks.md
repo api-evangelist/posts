@@ -4,7 +4,15 @@ title: API Area - Common Building Blocks
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Documentation
+- Evangelism
+- Google
+- Plans
+- Salesforce
+- Social
 ---
 I have spent time reviewing [100+ of the most popular APIs](http://www.programmableweb.com/apis/directory/1?sort=mashups "100+ Most Popular APIs"). I am trying to determine a common set of building blocks that are essential to API adoption.
 

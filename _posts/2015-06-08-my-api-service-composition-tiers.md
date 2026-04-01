@@ -4,8 +4,7 @@ title: My API Service Composition Tiers
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-composer.png
 author:
   name: kinlane
-tags:
-  - My
+tags: []
 ---
 I am slowly getting my [new API stack](https://kin-lane.github.io/master/index.html) in order, where I am close to opening it up for access to a wider audience. As part of this last round of work, I'm fine tuning my service composition strategy a little more. If you aren't familiar with API service composition, it is just about creating different levels of access to your APIs, and using my [3Scale API infrastructure](http://3scale.net) I can easily break this down.
 

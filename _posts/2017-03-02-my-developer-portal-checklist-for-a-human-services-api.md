@@ -1,14 +1,12 @@
 ---
 layout: post
 title: My Developer Portal Checklist For A Human Services API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_01_at_9.03.53_pm.png
-atomdate: 2017-03-02T17:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_01_at_9.03.53_pm.png
+atomdate: 2017-03-02 17:00:00+00:00
 tags:
-  - My
-  - Human Services
-  - Portal
-  - Services
+- Human Services
+- Portal
+- Services
 ---
 I was handed the URL for a human services API implementation for Miami. It was my job to now deploy a portal, documentation, and other supporting resources for the API implementation. This project is part of the work I'm doing with [Open Referral](https://openreferral.org/) to help push forward the API conversation around the human services data specification (HSDS).
 

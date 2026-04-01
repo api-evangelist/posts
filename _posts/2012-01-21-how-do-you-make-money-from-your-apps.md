@@ -1,11 +1,15 @@
 ---
 layout: post
 title: How Do You Make Money From Your Apps?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Hundred-dollar-bill.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Hundred-dollar-bill.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Mobile
+- Monetization
+- Versioning
 ---
 One of the areas of API development I'm focusing a lot of energy on in 2012 is around monetization. I want to help define the playing field, of how API owners make money from their APIs, as well as how developers make money from their apps.
 

@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Public And Private Sector Hybrid Data Marketplaces
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/copenhagens_innovative_big_data_marketplace.png
-atomdate: 2017-05-09T16:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/copenhagens_innovative_big_data_marketplace.png
+atomdate: 2017-05-09 16:00:00+00:00
 tags:
-  - Marketplace
-  - Data
-  - Marketplaces
-  - Public
+- Marketplace
+- Data
+- Marketplaces
 ---
 I have seen a number of incarnations when it comes to making public data available on the Internet, from startup implementations like earlier [InfoChimps](http://www.infochimps.com/), U.S. Federal Government efforts like [Dataa.gov](https://www.data.gov/), and [Socrata](https://socrata.com/). Recently, Andrew Nicklin ([@technickle](https://twitter.com/technickle?lang=en)), the Director of Data Practices at the [Center for Government Excellence at Johns Hopkins University](https://govex.jhu.edu/) pointed out a version I haven't come across yet, the public / private sector hybrid. 
 

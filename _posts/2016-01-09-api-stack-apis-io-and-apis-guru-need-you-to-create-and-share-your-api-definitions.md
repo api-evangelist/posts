@@ -1,18 +1,14 @@
 ---
 published: true
 layout: post
-title: >-
-  API Stack, APIs.io, And APIs.Guru Need You To Create And Share Your API
-  Definitions
+title: API Stack, APIs.io, And APIs.Guru Need You To Create And Share Your API Definitions
 image: https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-icon.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Definition
-  - Stack
-  - APIs
-  - APIs.io
+- Definitions
+- APIs
+- APIs.io
 ---
 I feel pretty strongly that for the next wave of growth in the API sector, we need the majority of public APIs in use today, to have well crafted, as complete as possible, [API definitions in either OpenAPI Spec or API Blueprint](http://definitions.apievangelist.com/). Yes I know, we actually need all of these APIs to be crafted using hypermedia approaches, but until then we need them all to possess machine readable API definitions, making them discoverable, learnable, and consumable.
 

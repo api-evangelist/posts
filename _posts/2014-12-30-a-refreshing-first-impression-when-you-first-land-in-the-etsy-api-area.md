@@ -1,11 +1,18 @@
 ---
 layout: post
 title: A Refreshing First Impression When You First Land In The Etsy API Area
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/etsy-e.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/etsy-e.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Documentation
+- Evangelism
+- Integration
+- Management
+- Messaging
+- Monitoring
 ---
 When you first land on any [API developer landing page](https://www.etsy.com/developers/), the impression you get, can be one of the most important aspects of on-boarding with an API that I know of. More time than not, I'm pretty confused when I land on the landing page of APIs, being forced to look for what I need to get up and running with API what an API does, and how I will have to integrate with it.
 

@@ -1,11 +1,18 @@
 ---
 layout: post
 title: The Next Decade is Going to Be A Wild Ride
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/KinLane-04-2012-Headshot-3-250.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/KinLane-04-2012-Headshot-3-250.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Cloud
+- Data
+- Design
+- Education
+- Evangelism
 ---
 I turned 41 in June. As I retool, reboot and readjust during what I guess could be called "vacation", I'm reflecting on the last year and the major shift that has gone on in my world.
 

@@ -1,12 +1,10 @@
 ---
 layout: post
 title: The Netflix Public API Was The Most Successful API Failure Ever
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/netflix-api-architecture-1.jpg
-atomdate: 2016-09-07T20:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/netflix-api-architecture-1.jpg
+atomdate: 2016-09-07 20:00:00+00:00
 tags:
-  - Public
-  - ai
+- ai
 ---
 I have written about the [continuing Netflix API story over the years](http://apievangelist.com/2013/07/02/the-continuing-netflix-api-story/), which despite shuttering their public API, is an API effort that just keeps giving to the public. It is an API story that better reflects the reality of APIs, not the bullshit version you often get from the tech sector, and in my opinion is the most successful public API failure of all times--definitely one of the API stories I'll catalog in my [history of APIs](http://history.apievangelist.com/).
 

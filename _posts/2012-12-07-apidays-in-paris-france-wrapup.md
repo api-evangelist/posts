@@ -1,11 +1,17 @@
 ---
 layout: post
 title: '#APIDays in Paris France Wrap-Up'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Data
+- Documentation
+- Mobile
+- Twitter
 ---
 I got back last night from France, where I spent the week at the #APIDays conference, billed as the first international event on APIs in Europe. The two day event was organized by [faberNovel](http://www.fabernovel.com/en/ "FaberNovel"), who helps large organizations think and act like startups, and by[WebShell](http://webshell.io/ "Webshell"), who enables developers to easily make advanced web and mobile applications based on APIs
 

@@ -1,11 +1,15 @@
 ---
 layout: post
 title: Join Me For AngelHack Los Angeles This Weekend with Singly
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/angelhack-11-cities.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/angelhack-11-cities.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- Business
+- Facebook
+- Google
+- Media
 ---
 I’m going to head over to [AngelHack Los Angeles](http://angelhack.com/) this weekend (Saturday, December 1, 2012 at 9:00 AM - Sunday, December 2, 2012 at 5:00 PM) with [Singly](http://singly.com).
 

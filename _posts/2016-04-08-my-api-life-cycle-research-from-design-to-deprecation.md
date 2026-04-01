@@ -5,11 +5,10 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - My
-  - Design
-  - Research
-  - Deprecation
-  - Life Cycle
+- Design
+- Research
+- Deprecation
+- Life Cycle
 ---
 It always makes me smile, when I talk to someone about one or many areas of my API research, sharing how I conduct my work, and they are surprised to find how many areas I track on. [My home page has always been a doorway to my research](http://apievangelist.com), and I try to keep this front door as open as possible, providing easy access to my more mature areas like API management, all the way to my newer areas like how bots are using APIs.
 

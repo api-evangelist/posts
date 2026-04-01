@@ -2,16 +2,14 @@
 published: true
 layout: post
 title: The Taiwanese Government Posts An APIs.json Index
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_11_14_at_11.34.48_am.png
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_11_14_at_11.34.48_am.png
 author:
   name: kinlane
 tags:
-  - Government
-  - APIs.json
-  - APIs
-  - ai
-  - APIs.jso
+- Government
+- APIs.json
+- APIs
+- ai
 ---
 My friend and partner in crime Nicolas Grenié ([@picsoung](https://twitter.com/picsoung)), and operator of our [open source API search engine APIs.io](http://apis.io/), just let me know that [the Taiwanese government just added an APIs.json file for their government open data site](http://data.gov.tw/apis.json). Adding to the other authoritative (added by owner) [government API indexes like from Trade.gov in the United States](https://developer.trade.gov/apis.json).
 

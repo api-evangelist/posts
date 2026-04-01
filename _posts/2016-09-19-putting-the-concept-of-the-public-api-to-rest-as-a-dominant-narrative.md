@@ -1,11 +1,9 @@
 ---
 layout: post
 title: Putting The Concept Of The Public API To Rest As A Dominant Narrative
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dominant-narrative.png
-atomdate: 2016-09-20T00:00:00.000Z
-tags:
-  - Public
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dominant-narrative.png
+atomdate: 2016-09-20 00:00:00+00:00
+tags: []
 ---
 APIs come in all different shapes and sizes. I focus on a specific type of APIs that leverage web technology for making data, content, and algorithms available over the Internet. While these APIs are available on the open Internet, who has the ability to discover, and put them to use will vary significantly. APIs have gained in popularity because of successful publicly available APIs like Twitter and Twilio, something that has contributed to these types of APIs being the dominant narrative of what APIs are.
 

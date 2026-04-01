@@ -4,7 +4,13 @@ title: Kicking Off Image Manipulation API Work
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puppet.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Cloud
+- Evangelism
+- Open Source
+- Versioning
 ---
 I'm working a wider campaign focused on getting my shit together around my images, and part of that is continueing work I had started with my [screen capture API](http://screen-capture.apievangelist.com/), and launch more image manipulation API resources.
 

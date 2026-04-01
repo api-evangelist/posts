@@ -4,7 +4,15 @@ title: What I Spent Ada Lovelace Day Working On
 image: https://s3.amazonaws.com/kinlane-productions2/ada-lovelace/ada-lovelace-1.jpeg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Design
+- Github
+- Mobile
+- Search
+- Twitter
 ---
 As I track on the API space, the gender gap becomes increasingly obvious. As with many other guys, I’m struggling with coming up with the most constructive way that I can contribute to closing the gender gap in technology. As I do with the rest of the API space, I figured I can work harder to tell more stories about women doing interesting things in the API space, while also working to understand the history of women in the space.
 

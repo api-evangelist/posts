@@ -1,13 +1,12 @@
 ---
 layout: post
 title: API Patent Search As Way To Discover Companies Who Are Doing APIs
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-patent-algorithms.png
-atomdate: 2016-09-02T16:00:00.000Z
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-patent-algorithms.png
+atomdate: 2016-09-02 16:00:00+00:00
 tags:
-  - Search
-  - Discover
-  - APIs
+- Search
+- Discovery
+- APIs
 ---
 I have been pulling all the patent applications from the USPTO for a while now. As I work to fire API Evangelist back up, I'm working to be more regular about processing these files, and track on which companies who are including the phrase "application programming interface" in their title, abstract, or full description. So far I have [23,414 API related patents from between 2005 and present day from 4,283 companies](http://patents.apievangelist.com/patents/?filter=2016)\--not all of these APIs are "web APIs", but there are many that directly reference being a method for providing and consuming an API for whatever process is being defined.
 

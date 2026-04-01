@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-101.png
 author:
   name: kinlane
 tags:
-  - My
-  - '101'
-  - Content
+- '101'
+- Content
 ---
 The [home page of API Evangelist](http://apievangelist.com/index.html) has always been my API 101 page, where any new visitor can land, not know a thing about APIs, read the page, and walk away understanding at least what an API is, and hopefully also a greater understanding of how it impacts their world. From the beginning the API Evangelist home page always had a lean toward API providers, and over time I've added information about consuming APIs, as well as trends in the API space I'm seeing.
 

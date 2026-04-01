@@ -1,11 +1,18 @@
 ---
 layout: post
 title: If This Then Visualize That (IFTVT)
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/IFTVT-logo.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/IFTVT-logo.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Automation
+- Business
+- Cloud
+- Data
+- Email
+- Github
 ---
 In the tech space, when we see a pattern that works, we run with it. This is why you hear, “It is the Uber for X”, or “It is the Github for X”, and I recently talked about how I’m starting to see more of, “[It is the If This Then That (IFTT) for X](http://apievangelist.com/2014/06/16/its-if-this-then-that-for-x/ "It is the If This Then That (IFTT) for X")”. The IFTTT model, or what I call “reciprocity”, is an [evolution on the classic enterprise ETL model](http://apievangelist.com/2013/02/10/bringing-etl-to-the-masses-with-apis/), resulting in over 25 companies that I’m tracking on in the space.
 

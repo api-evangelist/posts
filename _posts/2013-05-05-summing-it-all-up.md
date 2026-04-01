@@ -4,7 +4,14 @@ title: Summing It All Up
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Evangelism
+- Github
+- Mobile
+- Open Data
 ---
 BaaS is an evolution.  Its not a revolution, gamer changer or ground breaking new technology.  It is a logical response to the demand for mobile applications and how to logically bring together individual API driven resources into a loosely couple stack, that will allow mobile developers to build apps more efficiently.
 

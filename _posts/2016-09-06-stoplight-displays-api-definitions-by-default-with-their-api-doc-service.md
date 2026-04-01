@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Stoplight Displays API Definitions By Default With Their API Doc Service
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API_Docs.png
-atomdate: 2016-09-06T22:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API_Docs.png
+atomdate: 2016-09-06 22:00:00+00:00
 tags:
-  - Definitions
-  - Definition
+- Definitions
 ---
 I was doing some maintenance on my [bots and APIs research](http://bots.apievangelist.com/), and processing the information for the [bot analytics provider Botlytics](https://botlytics.co/), and as I was going [through their API](http://botlytics.api-docs.io/v1/messages) I noticed the prominent placement and availability of OpenAPI Specs for the API.
 

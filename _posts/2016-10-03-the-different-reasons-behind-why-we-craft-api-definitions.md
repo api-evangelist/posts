@@ -2,11 +2,10 @@
 layout: post
 title: The Different Reasons Behind Why We Craft API Definitions
 image: null
-atomdate: 2016-10-04T00:00:00.000Z
+atomdate: 2016-10-04 00:00:00+00:00
 tags:
-  - Definitions
-  - Definition
-  - Diff
+- Definitions
+- Diff
 ---
 [I wrote a post about the emails I get from folks telling me the API definitions contained within my API stack research](http://apievangelist.com/2016/09/26/my-api-definitions-are-incomplete-but-you-do-not-want-to-contribute/), something that has helped me better see why it is I do API definitions. I go through APIs and craft OpenAPI Specs for them because it helps me understand the value each company offers, while also helping me discover interesting APIs and the healthy practices behind them.
 

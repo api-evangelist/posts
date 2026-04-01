@@ -1,11 +1,18 @@
 ---
 layout: post
 title: API Trends I Am Watching
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/top-tech-trends.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/top-tech-trends.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Automation
+- Cloud
+- Communications
+- Data
+- Evangelism
+- Facebook
 ---
 Photo Credit: [AVnet](http://blogging.avnet.com/weblog/cioinsights/)
 

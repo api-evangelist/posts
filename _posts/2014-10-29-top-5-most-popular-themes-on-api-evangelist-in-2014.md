@@ -5,9 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-trends.png
 author:
   name: kinlane
 tags:
-  - API Evangelist
-  - Evangelist
-  - 4
+- API Evangelist
+- Evangelist
+- '4'
 ---
 Throughout 2014, when I look at the top 10 posts in my Google Analytics dashboard each month, there has been a consistent theme of what stories are driving page views. The concept of a page is only one metric I look at when evaluating where the API space might be going, and while I don’t write stories specifically to page views, they do provide me with a general barometer of what my readers are interested in.
 

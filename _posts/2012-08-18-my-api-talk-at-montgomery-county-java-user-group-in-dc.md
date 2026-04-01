@@ -1,12 +1,10 @@
 ---
 layout: post
 title: My API Talk at Montgomery County Java User Group in DC
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mcjug_logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mcjug_logo.png
 author:
   name: kinlane
-tags:
-  - My
+tags: []
 ---
 While out in Washington DC last week I was invited to speak at the [Montgomery County Java User Group](http://www.mcjug.org/ "Montgomery County Java Users Group") in Rockville, MD. Without much of an understanding of who my audience was I chose to talk about the [Building Blocks of a Successful API](http://apievangelist.com/2012/08/12/the-building-blocks-of-a-successful-api/ "Building Blocks of a Successful API").
 

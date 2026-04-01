@@ -2,17 +2,16 @@
 published: true
 layout: post
 title: A Blueprint For An Augmented Transit API
-date: 2018-01-09T13:00:00.000Z
+date: 2018-01-09 13:00:00+00:00
 tags:
-  - API Evangelist
-  - Transit
-  - Augmented
-  - 511
-  - 311
-  - 911
-  - City Government
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/metrohero/metro-hero-dashboard.png
+- API Evangelist
+- Transit
+- Augmented
+- '511'
+- '311'
+- '911'
+- City Government
+image: https://s3.amazonaws.com/kinlane-productions2/metrohero/metro-hero-dashboard.png
 ---
 <p><img src="https://s3.amazonaws.com/kinlane-productions2/metrohero/metro-hero-dashboard.png" align="right" width="45%" style="padding: 15px" /></p>I'm working through research on the world of [transit APIs](http://transit.apievangelist.com) as part of my partnership with [Streamdata.io](http://apis.how/streamdata). From what I've gathered so far, the world of transit data and APIs is quite a mess, and there is a pretty significant opportunity to improve upon what already exists. In the course of my research, I stumbled across [MetroHero](https://dcmetrohero.com/), which is an application and API provider that operates on top of the [Washington Metropolitan Area Transit Authority](https://wmata.com/) data and API feeds.
 

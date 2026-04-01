@@ -1,11 +1,9 @@
 ---
 layout: post
 title: My New API Vendor Evaluation Checklist
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_evaluation.png
-atomdate: 2017-05-02T22:00:00.000Z
-tags:
-  - My
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_evaluation.png
+atomdate: 2017-05-02 22:00:00+00:00
+tags: []
 ---
 I am helping a customer think through their decision-making process around the adoption of a new API service, and while I am doing this I am spending the time to think through my own API adoption process. I like having checklists to consider when making new purchasing and integration decision. Sometimes I have an immediate need which is driven by emotion, and it can help to step back and think through a more rational checklist I established for myself on a previous date.
 

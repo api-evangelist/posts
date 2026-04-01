@@ -2,12 +2,11 @@
 layout: post
 title: Thinking About Schema.org&#039;s Relationship To API Discovery
 image: https://s3.amazonaws.com/kinlane-productions2/schema-org/schema-org.png
-atomdate: 2017-03-15T17:30:00.000Z
+atomdate: 2017-03-15 17:30:00+00:00
 tags:
-  - Schema
-  - Discovery
-  - Schema.org
-  - Discover
+- Schema
+- Discovery
+- Schema.org
 ---
 I was following [the discussion around adding a WebAPI class](https://github.com/schemaorg/schemaorg/pull/1445) to Schema.org's core vocabulary, and it got me to think more about the role Schema.org has to play with not just our API definitions, but also significantly influencing API discovery. Meaning that we should be using Schema.org as part of our OpenAPI definitions, providing us with a common vocabulary for communicating around our APIs, but also empowering the discovery of APIs. 
 

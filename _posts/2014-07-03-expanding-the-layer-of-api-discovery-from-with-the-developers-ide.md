@@ -1,16 +1,14 @@
 ---
 layout: post
 title: Expanding The Layer Of API Discovery From With The Developers IDE
-url: >-
-  http://apievangelist.com/2014/07/03/expanding-the-layer-of-api-discovery-from-with-the-developers-ide/
+url: http://apievangelist.com/2014/07/03/expanding-the-layer-of-api-discovery-from-with-the-developers-ide/
 image: https://s3.amazonaws.com/kinlane-productions2/eclipse/eclipse-ide-logo.jpeg
 author:
   name: kinlane
 tags:
-  - Discovery
-  - IDE
-  - Discover
-  - Developers
+- Discovery
+- IDE
+- Developers
 ---
 Much like API [design](http://design.apievangelist.com) and [integration](http://integration.apievangelist.com), the world of [API discovery](http://discovery.apievangelist.com) is heating up in 2014. We are moving beyond the API directory as our primary mode of API search, in favor of a distributed approach using APIs.json, and supporting [open source search engines like APIs.io](http://apievangelist.com/2014/07/03/an-open-source-distributed-api-evangelist-engine/). Another area of API discovery I’ve been [watching for a while](http://apievangelist.com/2011/06/18/integrated-development-environment-ide-for-apis/), and predict will become an important layer of API discovery, will be via the Integrated Development Environment (IDE) plugin.
 

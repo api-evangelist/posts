@@ -5,7 +5,15 @@ url: http://apievangelist.com/2011/08/13/united-states-farmers-market-api/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Evangelism
+- Github
+- Google
+- Search
+- Twitter
 ---
 kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Farmers-Market-Data-US-Map.png)I'm always on the lookout for innovative data sets and examples of APIs that provide value in ever-day life. APIs are often a very geeky thing, and I'm always trying to find examples of APIs that make sense to my mainstream audience, and help me explain what APIs are, and the value they can deliver.
 

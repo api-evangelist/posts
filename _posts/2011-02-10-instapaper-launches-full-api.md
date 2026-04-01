@@ -5,7 +5,11 @@ url: http://apievangelist.com/2011/02/10/instapaper-launches-full-api/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Authentication
+- Data
 ---
 [Instapaper](http://www.instapaper.com/) just launched a [Full API](http://www.instapaper.com/api/full) giving developers access to web pages that Instagram users have saved to read later.
 

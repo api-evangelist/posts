@@ -1,18 +1,14 @@
 ---
 layout: post
-title: >-
-  Breaking Down Publication References With The Global Change Information System
-  API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Global-Change-Information-System-GCIS-home.png
+title: Breaking Down Publication References With The Global Change Information System API
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Global-Change-Information-System-GCIS-home.png
 author:
   name: kinlane
 tags:
-  - Change
-  - Public
-  - Reference
-  - Global
-  - References
+- Change
+- Reference
+- Global
+- References
 ---
 [I wrote about the Global Change Information System (GCIS) API earlier this year, and how they what they are doing with their API design represent how APIs are the next step in the evolution of the web](http://apievangelist.com/2015/02/04/what-do-i-mean-when-i-say-apis-are-just-the-next-step-in-the-evolution-of-the-web/). If you have the time, go look at what they have done, it is mind-blowing. I am on their email newsletter, and have had their latest update in my inbox for a few days, with some thoughts attached to it I wanted to blog about, before I archived the email.
 

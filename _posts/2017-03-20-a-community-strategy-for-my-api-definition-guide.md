@@ -1,14 +1,12 @@
 ---
 layout: post
 title: A Community Strategy For My API Definition Guide
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_2017_03.png
-atomdate: 2017-03-20T22:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_2017_03.png
+atomdate: 2017-03-20 22:00:00+00:00
 tags:
-  - My
-  - Community
-  - Strategy
-  - Definition
+- Community
+- Strategy
+- Definitions
 ---
 I have [tpublished the latest edition of my API definition guide](http://definitions.apievangelist.com/guide/). I've rebooted my industry guides to be a more polished, summary version of my research instead of the rougher, more comprehensive version I've bee publishing for the last couple of years. I'm looking for my guides to better speak to the waves of new people entering the API space, and help them as they continue on their API journey.
 

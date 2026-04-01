@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Open Source
-  - REST
-  - Open
+- Open Source
+- REST
 ---
 FRAPI is an [open source RESTful API framework](http://getfrapi.com/) developed in PHP. It can be used as the backbone of your RESTful web service.
 

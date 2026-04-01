@@ -1,10 +1,9 @@
 ---
 layout: post
 title: 'API Definition Driven UI Elements: Path, Verb, And Tag Autocomplete'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/sms-apisjson-autocomplete.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/sms-apisjson-autocomplete.png
 tags:
-  - Definition
+- Definitions
 ---
 I was experimenting with breaking apart [API definitions](http://definitions.apievangelist.com/) over the weekend, and exploring different ways of assembling the moving parts into different types of tools, visualizations, and other goodies. I do not have any particular objective with this work, other than just pushing the boundaries of we dynamically tell the story of our APIs, and hopefully assist in moving forward the current available API documentation toolbox we have for API providers, and consumers.
 

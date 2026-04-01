@@ -6,8 +6,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Public
-  - ai
+- ai
 ---
 kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/fear.gif)I spend a lot of time looking through various APIs. One common problem I see, are with, what on the surface appear to be [public APIs](http://apievangelist.com/2011/06/01/open-vs-closed-apis/ "public APIs"), but once I start looking to get access as a developer, I get walls thrown up.
 

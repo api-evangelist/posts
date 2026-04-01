@@ -1,21 +1,16 @@
 ---
 layout: post
-title: >-
-  Connecting Our History At The Digital Public Library of America Using APIs And
-  JSON-LD
-sourceurl: >-
-  http://apievangelist.com/2015/01/07/connecting-our-history-at-the-digital-public-library-of-america-using-apis-and-jsonld/
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/digital-public-library-of-america/DPLA_logo.jpg
+title: Connecting Our History At The Digital Public Library of America Using APIs And JSON-LD
+sourceurl: http://apievangelist.com/2015/01/07/connecting-our-history-at-the-digital-public-library-of-america-using-apis-and-jsonld/
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/digital-public-library-of-america/DPLA_logo.jpg
 author:
   name: kinlane
 tags:
-  - Public
-  - JSON
-  - JSON-LD
-  - History
-  - Digital
-  - APIs
+- JSON
+- JSON-LD
+- History
+- Digital
+- APIs
 ---
 If I had to pick one API that I worship the ground they walk on, and yet for some insane reason I don’t write about very often—it would be the [Digital Public Library of America](http://dp.la/). I can go on for days about how important the work that DPLA does. If you aren’t up to speed on DPLA, "The Digital Public Library of America brings together the riches of America’s libraries, archives, and museums, and makes them freely available to the world”—via APIs! ;-)
 

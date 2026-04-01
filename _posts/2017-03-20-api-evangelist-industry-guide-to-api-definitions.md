@@ -2,16 +2,14 @@
 published: true
 layout: post
 title: API Evangelist Industry Guide To API Definitions
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_2017_03.png
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_2017_03.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - API Evangelist
-  - Industry
-  - Evangelist
-  - Definition
+- Definitions
+- API Evangelist
+- Industry
+- Evangelist
 ---
 I keep an eye on over 70 areas of the API sector, trying to better understand how API providers are getting things done, and what services and tooling they are using, while also keeping my perspective as an API consumer--observing everything from the outside-in. The most important area of my research is [API definitions](http://definitions.apievangelist.com)\--where I pay attention to the specifications, schema, scopes, and other building blocks of the API universe. 
 

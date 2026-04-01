@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-fist.png
 author:
   name: kinlane
 tags:
-  - My
-  - Reclaim
-  - ai
+- Reclaim
+- ai
 ---
 After the recent heartbleed security fiasco, I’m spending my weekend going through [my list of online services that I depend on](http://kinlane.reclaimyourdomain.org/2014/04/12/which-online-services-do-i-depend-on/), changing my passwords, and along the way I’m going to reclaim as much of my domain as I can.
 

@@ -1,16 +1,13 @@
 ---
 layout: post
-title: >-
-  What If APIs Should Be Finding Developers Instead of Developers Discovering
-  APIs?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Upside.png
+title: What If APIs Should Be Finding Developers Instead of Developers Discovering APIs?
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Upside.png
 author:
   name: kinlane
 tags:
-  - Discover
-  - APIs
-  - Developers
+- Discovery
+- APIs
+- Developers
 ---
 I was spending time thinking about API discovery methodologies this afternoon (I know...I have issues), but with [ProgrammableWeb approaching 8K public APIs](http://www.programmableweb.com/ "ProgrammableWeb approaching 8K public APIs"), its a very real problem.
 

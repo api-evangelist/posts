@@ -1,15 +1,13 @@
 ---
 layout: post
 title: The New Github Developer Program and Integrations Page
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/github/github-developer-program.png
+image: https://s3.amazonaws.com/kinlane-productions2/github/github-developer-program.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Integration
-  - Integrations
-  - Git
+- Github
+- Integration
+- Integrations
 ---
 Github just announced [a new developer program](https://github.com/blog/1790-announcing-the-github-developer-program), which will allow [Github API](http://developer.github.com/v3/) developers to receive notifications about upcoming changes to the API, and get early access on some feature releases.
 

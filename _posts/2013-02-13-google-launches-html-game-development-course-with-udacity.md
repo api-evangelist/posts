@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Google Launches HTML Game Development Course with Udacity
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-html-developer-udacity-class.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-html-developer-udacity-class.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Education
+- Google
 ---
 Google is using the [online learning platform Udacity to teach developers about game development](http://googledevelopers.blogspot.com/2013/02/udacity-html5-game-development-course.html). The new [HTML Game Development course](https://www.udacity.com/course/cs255) (CS255), is the online classroom for the programming class, coupled with a series of study groups hosted at Google's San Francisco office and a contest providing developers an incentive to complete the class.
 

@@ -1,11 +1,16 @@
 ---
 layout: post
 title: Are You Going To Be At API Days in San Francisco?  I Am!
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-san-francisco-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-san-francisco-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Media
+- Salesforce
+- Stripe
+- Twitter
 ---
 Coming on the heels of [API Days Mediterranea in Madrid Spain](/2013/06/04/apidays-mediterranea-is-a-wrap/), is the next event in the series, [API Days San Francisco](http://sf.apidays.io/). We kicked off the API Days event series in Paris, at the end of last year, and now after the momentum in Spain, API Days has picked up enough speed to hop the ocean and land in the heart of technology.
 

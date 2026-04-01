@@ -3,13 +3,12 @@ published: true
 layout: post
 title: Making Mastercard the Default FDX API Blueprint to Showcase
 tags:
-  - Banking
-  - Blueprints
-  - FDX
-  - CFPB
-  - 1033
-image: >-
-  https://kinlane-productions2.s3.us-east-1.amazonaws.com/mastercard-developer-hub-for-fdx-apis.png
+- Banking
+- Blueprints
+- FDX
+- CFPB
+- '1033'
+image: https://kinlane-productions2.s3.us-east-1.amazonaws.com/mastercard-developer-hub-for-fdx-apis.png
 ---
 I’ve read rule 1033, and played around with the Financial Data Exchange (FDX) API, and I am working to expand my knowledge of what is happening around [the financial API regulation coming out of the Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/about-us/newsroom/cfpb-finalizes-personal-financial-data-rights-rule-to-boost-competition-protect-privacy-and-give-families-more-choice-in-financial-services/). To guide my work I would like to create an [APIs.json](https://apisjson.org) blueprint to showcase what is possible with FDX and 1033, expressing the business details as an APIs.json and the technical details as an [OpenAPI](https://openapis.org). Unfortunately due to FDX’s OpenAPI not being publicly available, and the [restrictive API licensing that exists around the “open” specification](https://financialdataexchange.org/common/Uploaded%20files/Policies/FDX%20API%20License%20Agreement-(11-13-2019).pdf), I am unable to do this. However, thankfully there is one “application” of FDX that I can showcase from Mastercard, via the [Mastercard Developer Hub for FDX APIs](https://developer.mastercard.com/fdx-dev-hub/documentation).
 

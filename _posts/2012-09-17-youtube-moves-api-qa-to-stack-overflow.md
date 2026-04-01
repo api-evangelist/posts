@@ -1,12 +1,10 @@
 ---
 layout: post
 title: YouTube Moves API QA to Stack Overflow
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Youtube-Stack-Overflow.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Youtube-Stack-Overflow.png
 author:
   name: kinlane
-tags:
-  - Stack
+tags: []
 ---
 YouTube has decided to [cease support for Youtube API QA via dedicated Google Group, and exclusively use Stack Overflow](http://apiblog.youtube.com/2012/09/the-youtube-api-on-stack-overflow.html) for developer QA support.
 

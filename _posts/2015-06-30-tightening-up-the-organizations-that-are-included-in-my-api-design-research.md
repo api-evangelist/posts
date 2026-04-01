@@ -5,10 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-design.png
 author:
   name: kinlane
 tags:
-  - My
-  - Design
-  - Research
-  - Organization
+- Design
+- Research
+- Organization
 ---
 I try to go through each of my areas of research as often as I can and update the content, as well as my understanding. Ideally I update the news each week, take a look at the organizations involved once a month, and evaluate the building blocks and tools each quarter. Unfortunately it doesn't always happen as planned, but as a one man operation, I think I do pretty well. 
 

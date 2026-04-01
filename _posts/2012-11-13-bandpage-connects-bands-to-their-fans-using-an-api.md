@@ -1,11 +1,18 @@
 ---
 layout: post
 title: BandPage Connects Bands To Their Fans Using An API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/BandPage-Connect-Logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/BandPage-Connect-Logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Documentation
+- Evangelism
+- Mobile
+- Social
+- Strategy
 ---
 [BandPage](http://www.bandpage.com/), a hub for musicians to manage and control their online presence, just expanded their reach with [BandPage Connect](https://developers.bandpage.com/home), an API, allowing developers to build apps for the music industry. I wrote about their [update once, publish everywhere with an embeddable API strategy](http://apievangelist.com/2012/07/25/update-once,-publish-everywhere-with-the-right-embeddable-api-strategy/ "update once, publish everywhere with an embeddable API strategy") back in July, feeling an API would be next.
 

@@ -1,15 +1,12 @@
 ---
 layout: post
 title: Rank My API Developers Who Authenticate With Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/singly-twitter-linkedin-github-facebook-authentication.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/singly-twitter-linkedin-github-facebook-authentication.png
 author:
   name: kinlane
 tags:
-  - My
-  - Github
-  - Developers
-  - Git
+- Github
+- Developers
 ---
 I’m updating the login and authentication for my content management system, APIs and other tools to provide authentication using Twitter, Facebook, LinkedIn and Github by default. I’m using [Singly as an authentication provider](https://singly.com/), because their aggregation of API authentication, endpoints and objects across these providers is easy and most efficient way I know to get this accomplished.
 

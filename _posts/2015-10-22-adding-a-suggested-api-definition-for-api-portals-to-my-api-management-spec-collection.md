@@ -1,20 +1,17 @@
 ---
 layout: post
-title: >-
-  Adding a Suggested API Definition for API Portals to My API Management Spec
-  Collection
+title: Adding a Suggested API Definition for API Portals to My API Management Spec Collection
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-portal.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Management
-  - Portal
-  - API Management
-  - Portals
-  - Definition
-  - Collection
-  - ddi
+- Management
+- Portal
+- API Management
+- Portals
+- Definitions
+- Collection
+- ddi
 ---
 One layer I am working to add to my API research, are machine readable API definitions that I find, or generate from the APIs of the API service providers I keep an eye on. Within this new layer I'm aggregating these API the specs of the companies who are offering services within the emerging areas of the API sector.
 

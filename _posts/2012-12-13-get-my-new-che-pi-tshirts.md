@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Get My New Che P.I. T-Shirts
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-che-pi-red.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-che-pi-red.jpg
 author:
   name: kinlane
-tags:
-  - My
+tags: []
 ---
 While I was in France, the art director at [Faber Novel](http://www.fabernovel.com/en/) did some cool sketches of me.  Since I'm so graphically challenged (see my logo), I'm stoked to have the artwork to work with.
 

@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-footprint.p
 author:
   name: kinlane
 tags:
-  - My
-  - Definition
+- Definitions
 ---
 This is something I talk about often, but it has been a while since I’ve done a story dedicated to it, so I wanted to make sure and take a fresh look at what I’d consider to be a minimum viable footprint for any API—I don’t care if it is public or not. This definition has grown out of five years of monitoring the approach taken by leading API providers, and [is also baked into what I’d consider to be a minimum viable APIs.json definition](http://apisjson.org/2015/02/08/a-minimum-viable-apisjson-file-for-your-apis/)—which provides an important index for API operations.
 

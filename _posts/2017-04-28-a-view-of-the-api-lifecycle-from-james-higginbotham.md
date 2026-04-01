@@ -2,8 +2,16 @@
 layout: post
 title: A View Of The API LIfecycle From James Higginbotham
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-lifecycle.png
-atomdate: 2017-04-28T18:00:00.000Z
-tags: []
+atomdate: 2017-04-28 18:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Business
+- Design
+- Documentation
+- Email
+- Evangelism
+- Lifecycle
 ---
 Us API Evangelists have a super secret Slack group where we talk about super interesting API Evangelist things, and one of the folks I regularly learn from in this group is James Higginbotham ([@launchany](https://twitter.com/launchany)). James is a highly skilled enterprise API architect and curator of [the popular API Developer Weekly email newslette](http://launchany.us2.list-manage1.com/subscribe?u=5005148108dfbac726f74e31e&id=239e48d26e)r. James is always dropping wisdom in the group, but I found a recent API lifecycle list to be particularly worth sharing, as many of my readers are looking to bring some coherence to their own API operations.
 

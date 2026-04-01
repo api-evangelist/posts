@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Qualifying for the API Stack
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/geoiq-logo.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/geoiq-logo.jpg
 author:
   name: kinlane
-tags:
-  - Stack
+tags: []
 ---
 I’m going through hundreds of APIs and curating a list of APIs, for what I’m calling the API Stack.  The API Stack consists of APIs that provide clear value for developers and have demonstrated real investment in their API, and are in it for long haul.
 

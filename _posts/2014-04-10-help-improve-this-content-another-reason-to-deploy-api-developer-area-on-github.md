@@ -1,16 +1,12 @@
 ---
 layout: post
-title: >-
-  Help Improve This Content: Another Reason To Deploy API Developer Area on
-  Github
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/regulations/regulations-gov-swagger-docs.png
+title: 'Help Improve This Content: Another Reason To Deploy API Developer Area on Github'
+image: https://s3.amazonaws.com/kinlane-productions2/federal-government/regulations/regulations-gov-swagger-docs.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Content
-  - Git
+- Github
+- Content
 ---
 I just published a post [showcasing Socrata's use of Github to deploy their new open data and API developer portal.](http://apievangelist.com/2014/04/10/developer-portals-on-github-example-from-socrata/) There are [numerous reasons for using Github as part of your API management strategy](http://apievangelist.com/2013/06/08/api-management-using-github/), with one of the main reasons being the collaborative features that Git, and the social coding platform Github introduce.
 

@@ -1,14 +1,12 @@
 ---
 layout: post
 title: The APIs That I Depend On For My Business
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-logo-250.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-logo-250.png
 author:
   name: kinlane
 tags:
-  - Business
-  - My
-  - APIs
+- Business
+- APIs
 ---
 I maintain an active list of online services I depend on for my business, in Evernote. Each month I spend an hour or two maintaining this list, to make sure it is complete and actively change my logins when appropriate. As a recovering IT guy, and maintaining infrastructure for myself, but also [Audrey Watters](http://hackeducation.com "Audrey Watters")\--so I keep good tabs on the various services I use.
 

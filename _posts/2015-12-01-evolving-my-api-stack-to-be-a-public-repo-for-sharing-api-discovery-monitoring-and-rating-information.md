@@ -1,20 +1,14 @@
 ---
 layout: post
-title: >-
-  Evolving My API Stack To Be A Public Repo For Sharing API Discovery,
-  Monitoring, And Rating Information
+title: Evolving My API Stack To Be A Public Repo For Sharing API Discovery, Monitoring, And Rating Information
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-sharing.png
 author:
   name: kinlane
 tags:
-  - My
-  - Monitoring
-  - Discovery
-  - Stack
-  - Public
-  - Rating
-  - Discover
-  - Sharing
+- Monitoring
+- Discovery
+- Rating
+- Sharing
 ---
 My [API Stack](http://theapistack.com/) began as a news site, and evolved into a directory of the APIs that I monitor in the space. [I published APIs.json indexes for the almost 1000 companies I am trackig on, with almost 400 OADF files for some of the APIs I've profiled in more detail](https://github.com/api-stack/api-stack/tree/gh-pages/data). My mission around the project so far, has been to create an open source, machine readable repo for the API space.
 

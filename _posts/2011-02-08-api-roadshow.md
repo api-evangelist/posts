@@ -4,7 +4,12 @@ title: API Roadshow
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Evangelism
+- Twilio
 ---
 Events are definitely one of the most important tools in an [API Evangelist's](http://www.apievangelist.com) tool box.
 

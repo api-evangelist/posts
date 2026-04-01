@@ -1,11 +1,18 @@
 ---
 layout: post
 title: API Priorities
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/priorities.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/priorities.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Cloud
+- Education
+- Evangelism
+- Federal Government
+- Government
+- Healthcare
 ---
 I spend a lot of time on API Evangelist getting excited about APIs. Going on three years doing this, I'm getting a little more hardened in my view on what is "good" in the API space. Along with that evolution, I'm getting my priorities in order.
 

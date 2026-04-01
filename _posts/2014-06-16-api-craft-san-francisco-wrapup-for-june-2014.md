@@ -1,12 +1,11 @@
 ---
 layout: post
 title: API Craft San Francisco Wrap-up For June 2014
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-craft/san-francisco/api-craft-sf-june-2014.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/events/api-craft/san-francisco/api-craft-sf-june-2014.jpg
 author:
   name: kinlane
 tags:
-  - 4
+- '4'
 ---
 I participated in an [API Craft meetup this last Thursday](http://www.meetup.com/API-Craft-San-Francisco/events/185583452/), hosted by 3Scale in San Francisco. The gathering included Uri Sarid([@usarid](https://twitter.com/usarid)) representing [RAML](http://raml.org/), Jakub Nesetril([@jakubnesetril](https://twitter.com/jakubnesetril)) on behalf of [API Blueprint](http://apiblueprint.org/), Tony Tam([@fehguy](https://twitter.com/fehguy)) with his [Swagger](http://swagger.wordnik.com/), and myself, discussing the fast growing world of API design.
 

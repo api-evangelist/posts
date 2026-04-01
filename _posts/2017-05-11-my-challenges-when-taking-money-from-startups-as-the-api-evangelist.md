@@ -1,14 +1,12 @@
 ---
 layout: post
 title: My Challenges When Taking Money From Startups As The API Evangelist
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/desert_dragon_light_dali.jpg
-atomdate: 2017-05-11T19:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/desert_dragon_light_dali.jpg
+atomdate: 2017-05-11 19:00:00+00:00
 tags:
-  - My
-  - API Evangelist
-  - Evangelist
-  - Startups
+- API Evangelist
+- Evangelist
+- Startups
 ---
 It is a hustle to do API Evangelist. I've been lucky to have the support of [3Scale](http://3scale.net) since 2013, without them API Evangelist would not have survived. I'm also thankful for the community stepping up last year to keep the site up and running, keeping it community focused thing, and not just yet another vendor mouthpiece. I make my money providing four ad slots on the site, by selling guides and white papers, and by consulting and creating content for others. It is a hustle that I enjoy much more than having a regular job, even though it is often more precarious, and unpredictable regarding what the future might hold.
 

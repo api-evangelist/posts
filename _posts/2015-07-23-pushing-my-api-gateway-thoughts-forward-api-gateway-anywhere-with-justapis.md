@@ -1,14 +1,12 @@
 ---
 layout: post
 title: 'Pushing My API Gateway Thoughts Forward: API Gateway Anywhere With JustAPIs'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/justapis-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/justapis-logo.png
 author:
   name: kinlane
 tags:
-  - My
-  - Gateway
-  - APIs
+- Gateway
+- APIs
 ---
 I open up my Thursdays to briefings, calls, demos and other phone, skype, and hangout related activities. This morning I received a walk-through of the [JustAPIs platform](http://justapis.com/) from [AnyPresence](http://www.anypresence.com/), taking my thoughts in a much different direction than in my conversation with [Wavemaker, which was at the intersection of API design and API gateway in this new cloud-based, single page application design studio](http://apievangelist.com/2015/07/23/pushing-my-api-gateway-thoughts-forward-api-and-single-page-app-development-with-wavemaker/). 
 

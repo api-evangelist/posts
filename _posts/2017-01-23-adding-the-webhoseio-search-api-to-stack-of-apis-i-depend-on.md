@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Adding The Webhose,io Search API To Stack Of APIs I Depend On
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_22_at_8.53.04_pm.png
-atomdate: 2017-01-23T17:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_22_at_8.53.04_pm.png
+atomdate: 2017-01-23 17:00:00+00:00
 tags:
-  - Search
-  - Web
-  - Stack
-  - APIs
-  - ddi
+- Search
+- Web
+- APIs
+- ddi
 ---
 I have been looking for a decent search engine API to help me uncover new sources of information across the API space. I've always been frustrated with the APIs in this category since all of the good Google search APIs went away. I need to search the web, and specifically for blog and news posts with API related insights. In an effort to find a suitable solution I recently came across and spent time digging into one called [Webhose.io, primarily because they had an APIs.JSON file](https://webhose.io/apis.json).
 

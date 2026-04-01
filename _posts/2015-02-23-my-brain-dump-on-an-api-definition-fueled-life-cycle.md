@@ -1,15 +1,13 @@
 ---
 layout: post
 title: My Brain Dump On An API Definition Fueled Life Cycle
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiblueprint-swagger.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiblueprint-swagger.png
 author:
   name: kinlane
 tags:
-  - My
-  - Life Cycle
-  - Definition
-  - ai
+- Life Cycle
+- Definitions
+- ai
 ---
 I’ve written about this topic before, in an effort to understand the [possible incentives for API providers to generate their own machine readable API definitions](http://apievangelist.com/2014/06/05/what-are-the-incentives-for-creating-machine-readable-api-definitions/) in formats like [Swagger](http://swagger.io) and [API Blueprint](https://apiblueprint.org/). These machine readable definitions for APIs and microservices are important to have, but not everyone produces them by default for their APIs, and honestly nobody is going to create them until there are enough incentives to sweeten the pot.
 

@@ -1,17 +1,13 @@
 ---
 layout: post
-title: >-
-  Parsing Charles Proxy Exports To Generate Swagger Definitions, While Also
-  Linking Them To Each Path
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/charles-proxy-to-swagger.png
+title: Parsing Charles Proxy Exports To Generate Swagger Definitions, While Also Linking Them To Each Path
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/charles-proxy-to-swagger.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Proxy
-  - Definition
-  - Swagger
+- Definitions
+- Proxy
+- Swagger
 ---
 Making sure the Swagger files I craft possess a complete definition for its underlying data model, one that is linked to each API path, and parameters where it is put to use, is important to me, but damn it is a lot of work. [As I mentioned in my last piece](http://apievangelist.com/2015/06/21/the-swagger-definitions-collection-is-the-cherry-on-top-of-each-api-that-i-profile/) I'm looking at [the Twitter Swagger file](https://github.com/api-stack/api-stack/blob/gh-pages/data/twitter/twitter-api-swagger.json), and my head starts spinning thinking about how much work it will be to hand-define all of the data models that used across the almost 100 Twitter endpoints.
 

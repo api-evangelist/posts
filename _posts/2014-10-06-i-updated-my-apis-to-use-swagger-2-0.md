@@ -2,14 +2,12 @@
 published: true
 layout: post
 title: I Updated My APIs To Use Swagger 2.0
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swaggerLogo360.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swaggerLogo360.png
 author:
   name: kinlane
 tags:
-  - My
-  - Swagger
-  - APIs
+- Swagger
+- APIs
 ---
 I spent some time this weekend updating a handful of my APIs to the new [Swagger 2.0 API definition format](http://swagger.io/). I was already using an older version of Swagger, so the migration wasn’t too difficult. I have about five new APIs I want to roll out over the next couple weeks, and I wanted them to up to date, using the latest version, so moving forward my knowledge using my existing APIs was the best way to prepare.
 

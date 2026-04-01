@@ -1,15 +1,13 @@
 ---
 layout: post
 title: In Search Of Some Funding For My Machine Learning API Research
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/machine_learning_gun_patent.jpg
-atomdate: 2017-05-10T16:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/machine_learning_gun_patent.jpg
+atomdate: 2017-05-10 16:00:00+00:00
 tags:
-  - My
-  - Machine Learning
-  - Search
-  - Research
-  - Learning
+- Machine Learning
+- Search
+- Research
+- Learning
 ---
 I am wanting to profile the world of machine learning APIs, similar to what I've done with [Amazon](http://amazon.web.services.stack.network/), [Google](http://google.stack.network/), [Microsoft](http://microsoft.stack.network/), [Facebook](http://facebook.stack.network/), and the rest of [my API Stack research](http://theapistack.com), but I'm in need of some investment to help make sure I can properly carve out the time to conduct the research, and publish a resulting guide that provides an overview of the space, when done. After profiling the tech giants, I'm seeing some interesting shifts in the landscape when it comes to machine learning and would like to spend time profiling the rest of the landscape beyond just the bigcos.
 

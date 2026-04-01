@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - My
-  - Research
+- Research
 ---
 [My API industry research is constantly moving forward, shifting, and being added to--much like the space itself](http://apievangelist.com/). As I work to update each of my research areas each week, my process involves adding any news I've curated, and changes to the companies who are doing things in the space, as well as add or remove any common building blocks I've identified. These building blocks are the common patterns I've identified by studying how API providers are operating, and what features API service providers are bringing to the table, for API providers to put to work.
 

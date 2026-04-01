@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Business
-  - My
+- Business
 ---
 I have had several conversations with API providers lately who are somewhat frustrated with the way their API operations are going. While their APIs have brought in many new conversations, and supported some interesting integration, they haven't been the business driver that they had hoped when they kicked off their API efforts. 
 

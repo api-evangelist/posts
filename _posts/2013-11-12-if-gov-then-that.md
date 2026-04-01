@@ -1,11 +1,17 @@
 ---
 layout: post
 title: If Gov Then That
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Automation
+- Github
+- Google
+- Government
+- Twitter
 ---
 I just found an interesting brainstorm going on via Github, about how to make government more efficient and interoperable using APIs, that was created by government consultant Leah Bannon ([@leahbannon](https://twitter.com/leahbannon)), called [If Gov Then That](https://github.com/leahbannon/if-gov-then-that/ "If Gov Then That").
 

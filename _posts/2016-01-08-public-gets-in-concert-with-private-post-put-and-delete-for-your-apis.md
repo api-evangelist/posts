@@ -5,10 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-open.png
 author:
   name: kinlane
 tags:
-  - Public
-  - APIs
-  - PUT
-  - POST
+- APIs
+- PUT
+- POST
 ---
 Another story I wanted to tell from [my work to expose an API yesterday, so I could get help with it](http://apievangelist.com/2016/01/07/i-loaded-that-csv-into-a-database-now-let-me-expose-an-api-so-i-can-get-some-help/), was focused around the service composition that I used. I feel like this is a powerful story, that should be told, and retold among API evangelists, across conversations with folks who are new to the API space, and the concept of putting APIs to work in their daily business worlds.
 

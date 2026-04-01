@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Two Things I Learned On Traffic And Weather Today
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/traffic-and-weather/Traffic-and-Weather.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/traffic-and-weather/Traffic-and-Weather.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Cloud
+- Deployment
+- Design
+- Evangelism
+- Management
+- Support
 ---
 If you aren’t already familiar with [Traffic and Weather](http://trafficandweather.io/), it is an extremely structured discussion between **[John Sheehan](http://twitter.com/johnsheehan)** ([Runscope](https://www.runscope.com/)) and **[Steve Marx](http://twitter.com/smarx)** ([Dropbox](https://www.dropbox.com/developers)), about "the latest API and cloud tools, news and technologies”.
 

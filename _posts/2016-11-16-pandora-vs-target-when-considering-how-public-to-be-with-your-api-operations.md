@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Pandora vs Target When Considering How Public To Be With Your API Operations
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/target_v_pandora.png
-atomdate: 2016-11-16T22:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/target_v_pandora.png
+atomdate: 2016-11-16 22:00:00+00:00
 tags:
-  - Public
-  - Operations
+- Operations
 ---
 I am reworking the API Evangelist developer area, and shifting most of my content to be available as YAML and JSON data on the Github repositories that drive my network of sites. I'm doing this partly because I am not in the business of managing and growing an API community, and because there are some really badly behaved people out there that I'm just not really interested in having keys to my internal network. I am happy to open up read only access to my work publicly and write capabilities to my trusted partners, but having self-service access to my server(s) just isn't fun in the current online climate. 
 

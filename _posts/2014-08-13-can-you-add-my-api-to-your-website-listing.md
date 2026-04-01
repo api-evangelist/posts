@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Can You Add My API To Your Website Listing?
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
 author:
   name: kinlane
 tags:
-  - My
-  - Web
+- Web
 ---
 I get regular requests to add APIs to my website via email, Twitter, and carrier pigeon. I have an Evernote that I put these requests into, and as I have time, I review, then possibly add to the appropriate API Evangelist network project.
 

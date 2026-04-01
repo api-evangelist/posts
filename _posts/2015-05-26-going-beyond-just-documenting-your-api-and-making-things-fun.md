@@ -4,7 +4,13 @@ title: Going Beyond Just Documenting Your API, And Making Things Fun
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-spotify-png.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Documentation
+- Search
+- Standards
+- Swagger
 ---
 I look at a lot of API documentation, something that until recently has been pretty static--pun intended. As an API consumer I really appreciate standardized approaches to documenting an API, like using [Swagger](http://swagger.io) or [API Blueprint](http://apiblueprint.com), but I also really enjoy when people go the extra mile to add little details, that make the experience a little more fun.
 

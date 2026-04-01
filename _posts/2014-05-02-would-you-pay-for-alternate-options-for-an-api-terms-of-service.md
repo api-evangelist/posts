@@ -4,8 +4,16 @@ title: Would You Pay For Alternate Options For An API Terms Of Service?
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-politics.png
 author:
   name: kinlane
-date: 2014-05-02T03:06:49.000Z
-tags: []
+date: 2014-05-02 03:06:49+00:00
+tags:
+- API Evangelist
+- APIs
+- Business
+- Integration
+- Management
+- Mobile
+- Plans
+- Twitter
 ---
 Terms of service [guide every aspect of how we provide and consume an APIs](http://apievangelist.com/2014/04/10/the-levers-dials-and-switches-for-your-participation-in-the-api-economy/) that drive our web and mobile applications. As an excercise, lets imagine a future where API terms of service (TOS) are machine readable, and always in alignment with the multiple partner tiers, and the service composition of an API platform.
 

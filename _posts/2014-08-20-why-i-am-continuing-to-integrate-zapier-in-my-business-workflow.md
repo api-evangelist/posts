@@ -1,16 +1,13 @@
 ---
 layout: post
 title: Why I Am Continuing To Integrate Zapier In My Business Workflow
-sourceurl: >-
-  http://apievangelist.com/2014/08/20/why-i-am-continuing-to-integrate-zapier-in-my-business-workflow/
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/zapier/zapier-logo.jpeg
+sourceurl: http://apievangelist.com/2014/08/20/why-i-am-continuing-to-integrate-zapier-in-my-business-workflow/
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/zapier/zapier-logo.jpeg
 author:
   name: kinlane
 tags:
-  - Business
-  - My
-  - Zapier
+- Business
+- Zapier
 ---
 I depend on a [number of cloud services to make my personal and business world go round](http://kinlane.reclaimyourdomain.org/2014/04/14/details-about-the-52-online-services-i-depend-on/). Even as a programmer, who can hand code just about any script to integrate, automate, and orchestrate my world, I find myself using more reciprocity services like [IFTTT](https://ifttt.com) and [Zapier](https://zapier.com).
 

@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Github Can Be More Than Code
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Code
-  - Git
+- Github
+- Code
 ---
 I have been using [Github](http://github.com) to manage my code for a couple years now, but in the last year I'm using Github more often for a variety of projects that don't always have code involved--examples ranging from [hosting slide decks for my talks](http://kinlane.github.io/talks/) to repositories for my [API research projects](/trends/).
 

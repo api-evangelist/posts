@@ -4,7 +4,15 @@ title: The API Focused Dev Shop
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-business-icon.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Automation
+- Business
+- Data
+- Design
+- Documentation
+- Evangelism
 ---
 I tag a lot of interesting companies that show up during my weekly API monitoring. When I see a tag go from 1 or 2, to over 5 companies--I take a closer look to see what is going on. An increase in the number of companies focusing in a specific area could be a trend, or it could be nothing.
 

@@ -1,18 +1,16 @@
 ---
 layout: post
 title: Modular APIs Driven From Github Blueprints Using OpenShift
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/openshift-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/openshift-logo.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Blueprint
-  - Blueprints
-  - APIs
-  - Modular
-  - Open
-  - Git
+- Github
+- Blueprint
+- Blueprints
+- APIs
+- Modular
+- Open
 ---
 I'm working on a variety of ways that anyone can easily deploy API on common cloud platforms. I'm working through a series of [open](http://apievangelist.com/2013/10/22/api-deployment-from-mysql-json-github-and-google-spreadsheets/) and [secure](http://apievangelist.com/2013/11/16/secure-api-deployment-from-mysql-json-github-and-google-spreadsheets/), modular API demos written in PHP, using the Slim framework.
 

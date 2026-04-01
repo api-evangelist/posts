@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Another API Definition Conversion In The Works From The LucyBot Team
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/LucyPNG.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/LucyPNG.png
 author:
   name: kinlane
 tags:
-  - Conversion
-  - Definition
+- Conversion
+- Definitions
 ---
 [I wrote about the ability to convert between multiple API definition formats using API Transformer](http://apievangelist.com/2015/09/22/converting-between-the-popular-api-definition-formats-using-api-transformer/) the other day, a solution being developed by the [APIMATIC](https://apimatic.io/) team, and shortly after posting, the [LucyBot](https://lucybot.com/) team pointed out they are [working on a similar tool](http://apievangelist.com/2015/09/22/converting-between-the-popular-api-definition-formats-using-api-transformer/). This is one of the reason I try to write these posts, it always brings folks out of the woodwork.
 

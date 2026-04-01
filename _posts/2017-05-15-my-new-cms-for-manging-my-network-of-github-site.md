@@ -1,11 +1,10 @@
 ---
 title: My New CMS For Managing My Network Of Github Sites
-date: 2017-05-15T00:00:00.000Z
+date: 2017-05-15 00:00:00+00:00
 tags:
-  - CMS
-  - My
-  - Github
-  - Amazon S3
+- CMS
+- Github
+- Amazon S3
 image: https://s3.amazonaws.com/kinlane-productions2/siteleaf/siteleaf-logo.png
 author:
   name: kinlane

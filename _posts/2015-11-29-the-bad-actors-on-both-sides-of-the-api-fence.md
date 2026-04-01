@@ -4,7 +4,10 @@ title: The Bad Actors On Both Sides Of The API Fence
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-unhappy.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Evangelism
 ---
 I've always been a strong advocate for the API consumer, which is one of the primary motivations for me working to define best practices that API providers can follow across their operations. The majority of my negative experiences, when it comes to APIs, has been as an API consumer, not as an API provider.
 

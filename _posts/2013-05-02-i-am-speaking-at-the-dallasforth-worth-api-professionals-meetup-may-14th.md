@@ -1,13 +1,12 @@
 ---
 layout: post
 title: I Am Speaking At The Dallas-Forth Worth API Professionals Meetup May 14th
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dfw-api-meetup-group.jpeg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dfw-api-meetup-group.jpeg
 author:
   name: kinlane
 tags:
-  - Speaking
-  - 4
+- Speaking
+- '4'
 ---
 Hey everyone. I'm heading out to the Dallas-Fort Worth area the week after next, Tuesday, May 14, to kick off the [DFW API Professionals Meetup](http://www.meetup.com/DFW-API-Professionals/events/115600132/ "DFW API Professional Meetup Group").
 

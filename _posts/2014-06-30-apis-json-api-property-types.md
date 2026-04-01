@@ -6,9 +6,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/legos.png
 author:
   name: kinlane
 tags:
-  - APIs.json
-  - APIs
-  - APIs.jso
+- APIs.json
+- APIs
 ---
 I’m working the great feedback we've had on [APIs.json](http://apisjson.org), an adding everything to the [Github issues for consideration in the next version](https://github.com/api-commons/api-json/issues). Today I’m spending a little time thinking through the big picture of APIs.json, and some of the building blocks I'd like to see reflected when API providers generate their APIs.json.
 

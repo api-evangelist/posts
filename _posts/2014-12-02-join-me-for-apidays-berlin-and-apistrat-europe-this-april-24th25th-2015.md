@@ -1,14 +1,13 @@
 ---
 layout: post
 title: Join Me For APIDays Berlin And APIStrat Europe This April 24th-25th 2015
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/apistrat-berlin-2015/apistrat-apidays-logo2.png
+image: https://s3.amazonaws.com/kinlane-productions2/events/apistrat-berlin-2015/apistrat-apidays-logo2.png
 author:
   name: kinlane
 tags:
-  - APIStrat
-  - Europe
-  - 4
+- APIStrat
+- Europe
+- '4'
 ---
 Here we go again. If you were in [Chicago for APIStrat this September](http://chicago2014.apistrat.com/), then you know we are planning to have the next edition of APIStrat in Berlin, this spring. This round 3Scale and API Evangelist are partnering with APIDays to deliver two days of API talks at the [Humboldt Carré, the Conference And Event Centre on Gendarmenmarkt](http://apidaysberlin2015.apistrat.com/venue/), April 24th and 25th, 2015.
 

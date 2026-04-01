@@ -2,13 +2,12 @@
 published: true
 layout: post
 title: Are API Docs &amp; Definition Formats A Single Thing Or Separate?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_splitter.png
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_splitter.png
 author:
   name: kinlane
 tags:
-  - Definition
-  - Docs
+- Definitions
+- Docs
 ---
 I was reading [a virtual panel: document and description formats for web APIs](https://www.infoq.com/articles/document-description-formats-web-apis), and thought the conversation was very productive when it comes to helping bring the world of API documentation and definitions into better focus. I encounter daily reminders that folks do not see the many dimensions of API definitions, and the role they play in almost every stop along the life cycle. This virtual panel helps move this discussion forward for me, providing some clarification for when it comes to the separation between API definitions and API documentation.
 

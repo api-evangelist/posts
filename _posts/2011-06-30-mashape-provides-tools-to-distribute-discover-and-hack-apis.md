@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Mashape Provides Tools to Distribute, Discover and Hack APIs
-url: >-
-  http://apievangelist.com/2011/06/30/mashape-provides-tools-to-distribute-discover-and-hack-apis/
+url: http://apievangelist.com/2011/06/30/mashape-provides-tools-to-distribute-discover-and-hack-apis/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
-  - Tools
-  - Discover
-  - APIs
+- Tools
+- Discovery
+- APIs
 ---
 kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-service-providers/mashape-logo.png)](http://www.mashape.com/)I'm exploring the [Mashape API Platform](http://www.mashape.com/ "Mashape API Platform"), trying to break things down and understand everything in more detail. Blogging about a topic does this for me.
 

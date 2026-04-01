@@ -1,19 +1,15 @@
 ---
 layout: post
-title: >-
-  Swagger Levels The API Design Playing Field With New Editor And YAML
-  Definitions
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-editor.png
+title: Swagger Levels The API Design Playing Field With New Editor And YAML Definitions
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-editor.png
 author:
   name: kinlane
 tags:
-  - Design
-  - Definitions
-  - Editor
-  - Definition
-  - YAML
-  - Swagger
+- Design
+- Definitions
+- Editor
+- YAML
+- Swagger
 ---
 In January I started taking a closer look at the world of API design, by reviewing the top movers in the space, [Swagger](http://bit.ly/1kFrKF0) from [Wordnik](http://bit.ly/1kFrINy), [API Blueprint](http://bit.ly/1cl8tCc) from [Apiary](http://bit.ly/1pb4H8k), and [RAML](http://bit.ly/16ZTZYt) from [Mulesoft](http://bit.ly/1mtmiF9). My goal was to quantity the world of API design, and help me understand where it might be going, or where there are opportunities for new tools and services.
 

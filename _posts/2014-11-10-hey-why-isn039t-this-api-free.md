@@ -2,11 +2,17 @@
 published: true
 layout: post
 title: Hey, Why Isn&#039;t This (API) Free
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/inbox-app/inbox-app-api-logo.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/inbox-app/inbox-app-api-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Data
+- Email
+- Plans
+- Support
 ---
 It always makes me happy to see a pricing page, front and center when I visit an API, but I found an added bonus over at the email API, Inbox. At the bottom of their pricing page, they have a pretty simple question: _**Hey, why isn't this free?**_
 

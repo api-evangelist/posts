@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Using Github For Your Hackathon
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Git
+- Github
 ---
 Hackathons are a fertile environment for generating code based upon the ideas of its attendees. However, much of the innovative programming that occurs at these events is forgotten the day after the event ends. This process tends to leave developers working on the same ideas over and over, without much continuity.
 

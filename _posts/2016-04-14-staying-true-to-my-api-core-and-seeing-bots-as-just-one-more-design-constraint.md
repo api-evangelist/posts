@@ -5,10 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - My
-  - Design
-  - Bots
-  - ai
+- Design
+- Bots
+- ai
 ---
 Over the last five years many of us have been pushing forward our API design skills to deliver valuable resources to mobile apps. The multi channel opportunity for delivering data, content, and other resources to not just websites, and web applications, but also to iPhone, Android, Windows, and other mobile platform is clear. Alongside delivering web apps to multiple browsers (IE, Chrome, and Firefox), we had to learn to deliver to an increasingly diverse mobile ecosystem (iOS, Android, Windows).
 

@@ -5,10 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-scale-api.png
 author:
   name: kinlane
 tags:
-  - My
-  - Scale
-  - APIs
-  - Usage
+- Scale
+- APIs
+- Usage
 ---
 [As I conclude the first phase of profiling the APIs that I depend on](http://stack.apievangelist.com/companies.html), I am thinking about my API usage at scale, and some new questions are arising, that I wasn't thinking about before. I find my API consumption, and API integration thinking historically has been on an individual API basis, which something that I hope to evolve upon in 2016.
 

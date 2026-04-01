@@ -2,10 +2,9 @@
 layout: post
 title: We Better Get To Work On Evolving An Open Emergency Response API Stack
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-error.png
-atomdate: 2016-09-09T16:00:00.000Z
+atomdate: 2016-09-09 16:00:00+00:00
 tags:
-  - Stack
-  - Open
+- Open
 ---
 As I listened to the news about flooding coming out of Louisiana, and the impending hurricane headed up the east coast, I'm momentarily distracted from my monitoring of the API space. As I switch back to my work, I can't help but think about the stack of open APIs we will need to tackle future disasters (global climate change). No, APIs are not the silver bullet solution, but if the networking, storage, database, messaging, and any other gear in the disaster relief machine had a wealth available open API definitions, and open source software--the disaster relief machine could potentially be more efficient, scalable, and decentralized.
 

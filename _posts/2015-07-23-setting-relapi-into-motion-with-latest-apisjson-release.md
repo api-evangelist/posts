@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Setting rel=api Into Motion With Latest APIs.json Release
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-icon.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-icon.jpg
 author:
   name: kinlane
 tags:
-  - APIs.json
-  - APIs
-  - APIs.jso
+- APIs.json
+- APIs
 ---
 Bruno Pedro ([@bpedro](/admin/blog/bpedro)) who has been building [APIs.json](http://apisjson.org/) into his [API Changelog service](https://www.apichangelog.com), made a pull request to the specification recently, pushing forward the link relation conversation for APIs.json. As listed in the specification, we have long intended to make APIs.json an official media type:
 

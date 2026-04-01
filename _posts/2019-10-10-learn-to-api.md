@@ -2,12 +2,11 @@
 published: true
 layout: post
 title: Learn to API
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/udnie-DSC_0109.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/udnie-DSC_0109.jpg
 author:
   name: kinlane
 tags:
-  - 101
+- '101'
 ---
 You hear a lot about learning to code in the tech sector. I want to invest more in people “learning to API”. Not just developers, but anyone who wants to understand how to push back a little on the digital word we’ve built for ourselves. I’m not convinced everyone should learn to code, but I am a believer that everyone should learn to API. If you use the web, you should learn to API. To help you in your job. To help you in your hobbies. To help you better understand the physical and online worlds around us. You may never actually write any code against an API, or build an application, but with the growing number of services available today that have APIs, there is no reason why you can’t be putting these APIs to work for you using the wide array of integration opportunities available to developers and non-developers.  
   

@@ -2,15 +2,14 @@
 layout: post
 title: Diff Tooling For JSON, YAML, And Markdown Versions Of API Definitions
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-diff.png
-atomdate: 2016-08-05T16:00:00.000Z
+atomdate: 2016-08-05 16:00:00+00:00
 tags:
-  - Definitions
-  - Tooling
-  - Definition
-  - YAML
-  - JSON
-  - Diff
-  - Versions
+- Definitions
+- Tooling
+- YAML
+- JSON
+- Diff
+- Versions
 ---
 As the number of available [API definitions](http://definitions.apievangelist.com/) out there grows, I am increasingly coming across variations of APIs that I already have included in my [API Stack](http://theapistack.com/). It can be tedious to try and sync these with existing copies, so I wanted to take a look and see if there was anything already available out there, that would help provide a diff for either OpenAPI Spec, RAML, or API Blueprint.
 

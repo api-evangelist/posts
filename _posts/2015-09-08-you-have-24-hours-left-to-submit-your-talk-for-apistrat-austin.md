@@ -1,13 +1,12 @@
 ---
 layout: post
 title: You Have 24 Hours Left To Submit Your Talk For APIStrat Austin
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-talk.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-talk.jpg
 author:
   name: kinlane
 tags:
-  - APIStrat
-  - 4
+- APIStrat
+- '4'
 ---
 [There is a little more than 24 hours left for you to submit your talk for APIStrat in Austin, TX, this November 18th, 19th, and 20th](http://austin2015.apistrat.com/call-for-papers/). With this sixth edition of APIStrat, we are taking things back to our roots, and not choosing a theme, but making it a conversation about the most important topics in the space facing API providers and consumers in 2015. 
 

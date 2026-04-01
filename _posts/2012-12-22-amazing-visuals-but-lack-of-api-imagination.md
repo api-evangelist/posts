@@ -1,11 +1,15 @@
 ---
 layout: post
 title: Amazing Visuals, But Lack of API Imagination
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/great-salt-desert.jpeg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/great-salt-desert.jpeg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Deployment
+- Github
 ---
 I was scrolling through my feeds today and I came across, "[Earth As Art](http://www.nasa.gov/connect/ebooks/earth_art_detail.html)" from NASA. I clicked on the homepage and didn’t think much, and moved on. Then I came across [Earth as Art book from NASA on Flowing Data](http://flowingdata.com/2012/12/21/earth-as-art-from-nasa/), where they showed an actual image from the “Earth As Art” collection.
 

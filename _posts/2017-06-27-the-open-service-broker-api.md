@@ -1,14 +1,12 @@
 ---
 title: The Open Service Broker API
-date: 2017-06-27T16:00:00.000Z
+date: 2017-06-27 16:00:00+00:00
 tags:
-  - Definitions
-  - Plugin
-  - Discovery
-  - Definitions
-  - API Evangelist
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/open-service-broker-api/osbapi_logo_concept3_wtm.png
+- Definitions
+- Plugin
+- Discovery
+- API Evangelist
+image: https://s3.amazonaws.com/kinlane-productions2/open-service-broker-api/osbapi_logo_concept3_wtm.png
 author:
   name: kinlane
 ---

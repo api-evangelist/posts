@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-harness.png
 author:
   name: kinlane
 tags:
-  - My
-  - Screen Capture
+- Screen Capture
 ---
 I am evolving my own approach to deploying my API resources, and I needed an important sounding name for it, so came up with “operational harness” over a couple pints of IPAs. Ok, so what do I mean when I say operational harness?
 

@@ -6,10 +6,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png
 author:
   name: kinlane
 tags:
-  - My
-  - APIs.json
-  - APIs
-  - APIs.jso
+- APIs.json
+- APIs
 ---
 I'm continuing my work, to help people understand what APIs.json is, and the [varying ways that it can be put to use](http://apievangelist.com/2015/03/06/three-ways-i-am-putting-apisjson-to-work/). My post the other week, [breaking down Fitbits APIs.json file is a good example of where to get started](http://apievangelist.com/2015/01/31/breaking-down-the-fitbit-apisjson-file/), and as a follow-up I wanted to help further set the bar for what a [minimum viable APIs.json](http://apievangelist.com/2015/02/08/a-minimum-viable-apisjson-file-for-your-apis/) looks like, and today, I am going in the other direction--toward my dream APis.json file.
 

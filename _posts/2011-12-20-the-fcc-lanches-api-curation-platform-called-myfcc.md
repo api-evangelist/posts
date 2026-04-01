@@ -1,13 +1,11 @@
 ---
 layout: post
 title: The FCC Lanches API Curation Platform Called MyFCC
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/My-FCC-Logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/My-FCC-Logo.png
 author:
   name: kinlane
 tags:
-  - My
-  - Platform
+- Platform
 ---
 The FCC just launched a new platform that allows anyone to create, save and manage a customized page, built from widgets that pull content from FCC APIs, called [MyFCC](http://my.fcc.gov/ "MyFCC"). 
 

@@ -1,13 +1,10 @@
 ---
 layout: post
-title: >-
-  As An API Service Provider, Should I Craft My Own API Definition Format, Or
-  Just Reuse What Is Already Available
+title: As An API Service Provider, Should I Craft My Own API Definition Format, Or Just Reuse What Is Already Available
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-definitions.png
 tags:
-  - My
-  - Definition
-  - ai
+- Definitions
+- ai
 ---
 I have had multiple conversations with folks in the space who are building services and tooling for the API sector lately, where I was asked whether or not they should only be using existing API definition formats, or create their own API definition format that better represents what they are delivering. The reasoning is usually that they feel their own format would offer a more comprehensive approach than any single, existing API definition could--yet they fully understand the potential for adoption when they use existing formats like [OpenAPI Spec](http://apis.how/xmynjnqxwr) and [API Blueprint](http://apis.how/2zarzoqrhc).
 

@@ -1,15 +1,13 @@
 ---
 layout: post
 title: API Definitions Covering Both REST and gRPC APIs
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/managing_grpc_apis_with_google_cloud_endpoints_3_638.jpg
-atomdate: 2017-03-10T17:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/managing_grpc_apis_with_google_cloud_endpoints_3_638.jpg
+atomdate: 2017-03-10 17:00:00+00:00
 tags:
-  - Definitions
-  - gRPC
-  - REST
-  - Definition
-  - APIs
+- Definitions
+- gRPC
+- REST
+- APIs
 ---
 I have been learning more about the way Google designs and defines their APIs after [their release of their API design guide](http://apievangelist.com/2017/03/03/google-shares-their-api-design-guide/). When I research a company's APIs I always spend time looking through their Github repositories for anything interesting, and while poking around in Google's I found a repository of "[interface definitions for a small (but growing) set of Google APIs](https://github.com/googleapis/googleapis)". I keep track of any Github repo I find containing API definitions, but Google's repo stood out because it contained a set of API definitions that covered both APIs that support both REST and gRPC.
 

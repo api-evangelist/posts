@@ -1,10 +1,17 @@
 ---
 layout: post
 title: API Life(middleware)Cycle API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_gear_life_cycle.png
-atomdate: 2017-02-14T20:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_gear_life_cycle.png
+atomdate: 2017-02-14 20:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Authentication
+- Communications
+- Data
+- Definitions
+- Deployment
 ---
 I have had a series of calls with an analyst group lately, discussing the overall API landscape in 2017. They have a lot of interesting questions about the space, and I enjoyed their level of curiosity and awareness around what is going on--it helps me think through this stuff, and (hopefully) better explain it to folks who aren't immersed in API like I am. 
 

@@ -4,7 +4,12 @@ title: What is an API?
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Definitions
+- Design
+- Mobile
 ---
 An [Application Programming Interface](http://www.apievangelist.com/) (API) is a way for websites, programs, and [mobile](http://www.kinlane.com/category/mobile/) applications to talk to each other.
 

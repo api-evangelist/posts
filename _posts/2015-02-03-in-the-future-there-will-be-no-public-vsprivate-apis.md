@@ -6,8 +6,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-open.png
 author:
   name: kinlane
 tags:
-  - Public
-  - APIs
+- APIs
 ---
 As I continue to evovle my service composition definition, using my [3Scale API infrastructure](https://bit.ly/1cHBhd5), across my [microservices stack](https://kin-lane.github.io/master/), the thought of public vs private doesn’t even enter the equation. I am doing my APIs using the Internet pipes, so they are public by default—then using my service composition I define the layer that actually regulates what is openly accessible by the public, what resources have limited access, and specifically how much of any resource any single person can access.
 

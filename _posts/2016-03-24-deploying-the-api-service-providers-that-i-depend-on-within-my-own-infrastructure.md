@@ -1,15 +1,11 @@
 ---
 layout: post
-title: >-
-  Deploying The API Service Providers That I Depend On Within My Own
-  Infrastructure
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/opsee-1.png
+title: Deploying The API Service Providers That I Depend On Within My Own Infrastructure
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/opsee-1.png
 tags:
-  - My
-  - Infrastructure
-  - Providers
-  - Service Providers
+- Infrastructure
+- Providers
+- Service Providers
 ---
 I play with a lot of services that are looking to provide solutions to the API industry, and I'm always looking to better understand what leading API services providers are using to deploy their warez. I was test driving the [testing and monitoring solutions from Opsee](https://opsee.com/) this week, and separate from the solutions they provide (which I'll talk about later), I thought the deployment of their API testing and monitoring solutions was worthy of talking about all by itself.
 

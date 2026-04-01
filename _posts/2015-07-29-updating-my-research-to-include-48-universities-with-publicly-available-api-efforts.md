@@ -1,19 +1,14 @@
 ---
 layout: post
-title: >-
-  Updating My Research To Include 48 Universities With Publicly Available API
-  Efforts
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/priorities/university-of-api.png
+title: Updating My Research To Include 48 Universities With Publicly Available API Efforts
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/priorities/university-of-api.png
 author:
   name: kinlane
 tags:
-  - My
-  - Universities
-  - Research
-  - Public
-  - ai
-  - 4
+- Universities
+- Research
+- ai
+- '4'
 ---
 I'm slowly working through all my research areas, updating the news items I've curated, adding and removing companies, continuing to identify some of the common building blocks, and the tools that are being put to work in the space--with t[he latest one in the area of higher education, with my university APIs research](http://university.apievangelist.com/).
 

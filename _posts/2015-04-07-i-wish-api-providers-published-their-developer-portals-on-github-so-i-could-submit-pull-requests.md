@@ -1,18 +1,14 @@
 ---
 layout: post
-title: >-
-  I Wish API Providers Published Their Developer Portals On Github So I Could
-  Submit Pull Requests
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-portal-developer-github.png
+title: I Wish API Providers Published Their Developer Portals On Github So I Could Submit Pull Requests
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-portal-developer-github.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Portal
-  - Portals
-  - Providers
-  - Git
+- Github
+- Portal
+- Portals
+- Providers
 ---
 I spend a lot of time looking through the developer portals of API providers. I see a lot of things, both the good and bad, while navigating these portals, and while some of the bad stuff I see are way too big for me to doing anything, there are many little things I see that I could help do something about. Sometimes it is just spelling mistakes, sometimes broken links, and other times I want to rewrite API descriptions, and add to the resources that are available for an API.
 

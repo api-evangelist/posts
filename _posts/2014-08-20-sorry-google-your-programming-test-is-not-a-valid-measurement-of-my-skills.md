@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Sorry Google, Your Programming Test Is Not A Valid Measurement Of My Skills
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tic-tac-toe.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tic-tac-toe.png
 author:
   name: kinlane
 tags:
-  - My
-  - Skills
+- Skills
 ---
 I’ve been talking with a very nice recruiter over at Google over the last couple weeks, and she has been so kind in keeping me updated about opportunities for evangelism at Google. This is the 3rd round of talks I've had with Google while being the [API Evangelist](http://apievangelist.com), talks that historically go nowhere because of their programming test, which is a super silly aspect of their HR process.
 

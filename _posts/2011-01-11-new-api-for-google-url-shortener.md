@@ -5,7 +5,13 @@ url: http://apievangelist.com/2011/01/11/new-api-for-google-url-shortener/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Design
+- Email
+- Google
 ---
 Google launched a much anticipated API for the Google URL shortener today as part of the [Google Code Labs](http://code.google.com/labs/).
 

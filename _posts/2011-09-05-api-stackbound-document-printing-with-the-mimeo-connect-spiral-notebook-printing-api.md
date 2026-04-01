@@ -1,15 +1,11 @@
 ---
 layout: post
-title: >-
-  API Stack - Bound Document Printing with the Mimeo Connect Spiral Notebook
-  Printing API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Spiral-Notebook-Example-Image.png
+title: API Stack - Bound Document Printing with the Mimeo Connect Spiral Notebook Printing API
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Spiral-Notebook-Example-Image.png
 author:
   name: kinlane
 tags:
-  - Stack
-  - Print
+- Print
 ---
 The Mimeo Connect Spiral Notebook Printing API allows developers to submit PDF files, and order commercially printed spiral notebooks in different sizes, paper and coatings from within your web and mobile applications.
 

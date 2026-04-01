@@ -2,10 +2,9 @@
 layout: post
 title: What Is At Stake With API Definitions At The Moment
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cards-playing.png
-atomdate: 2017-01-25T17:00:00.000Z
+atomdate: 2017-01-25 17:00:00+00:00
 tags:
-  - Definitions
-  - Definition
+- Definitions
 ---
 [I wrote angrily about Oracle's acquisition of Apiary last week](http://apievangelist.com/2017/01/19/oracle-acquiring-apiary/), and this week I find myself deeply considering the API definition landscape, so I wanted to take another look at this event from the 100K view. In 2017, API definitions are touching every aspect of the API lifecycle, from design to deprecation, and are becoming key to defining, automating, and evolving many different industries from [cloud computing](http://amazon.web.services.stack.network/) to [human services](http://developer.switchboard.miami.adopta.agency/). 
 

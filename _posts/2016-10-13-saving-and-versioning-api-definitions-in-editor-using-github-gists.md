@@ -1,16 +1,13 @@
 ---
 layout: post
 title: Saving and Versioning API Definitions In Editor Using Github Gists
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_12_at_6.28.48_pm.png
-atomdate: 2016-10-13T16:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_12_at_6.28.48_pm.png
+atomdate: 2016-10-13 16:00:00+00:00
 tags:
-  - Github
-  - Definitions
-  - Editor
-  - Versioning
-  - Definition
-  - Git
+- Github
+- Definitions
+- Editor
+- Versioning
 ---
 My friend Jordan Walsh ([@jordwalsh](https://twitter.com/jordwalsh)) just [released a new take on the Swagger editor](https://jordwalsh.com/2016/10/10/swagger-gist-io-saving-and-versioning-swagger-definitions/), that inches closer to [my vision of a dream API sketchbook and portfolio](http://apievangelist.com/2016/09/19/my-dream-api-sketchbook-and-portfolio/). His [swagger-gist.io tool](http://swagger-gist.io) allows you to open and save your API definitions to Github Gists, allowing you to use the snippet sharing solution to manage your API definitions, and their evolution.
 

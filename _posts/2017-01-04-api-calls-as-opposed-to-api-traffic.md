@@ -2,8 +2,16 @@
 layout: post
 title: API Calls as Opposed to API Traffic
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-traffic-light.png
-atomdate: 2017-01-04T17:00:00.000Z
-tags: []
+atomdate: 2017-01-04 17:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Business
+- Data
+- Mobile
+- Monetization
+- Open Data
+- Security
 ---
 I was doing [some planning around a potential business model for commercial implementations of OpenReferral](https://apievangelist.com/2017/01/03/thinking-about-the-monetization-layer-for-public-data/), which provides Open211 open data and API services for cities, allowing citizens to find local services, and I had separated out two types of metrics: 1) API calls  2) API traffic. My partner in crime on the project asked me what the difference was, looking for some clarification on how it might possibly contribute to the bottom line of municipalities looking to fund this important open data work.
 

@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-rolodex-card.pn
 author:
   name: kinlane
 tags:
-  - My
-  - APIs
+- APIs
 ---
 When I come across a new company, during the course of my monitoring and information gathering across the API space, I enter them into my company API. Once a company is in there, and I’ve deemed it worthy enough for a closer look, I profile their operations.
 

@@ -6,12 +6,10 @@ image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png
 author:
   name: kinlane
 tags:
-  - My
-  - Microservices
-  - APIs.json
-  - APIs
-  - Micro
-  - APIs.jso
+- Microservices
+- APIs.json
+- APIs
+- Micro
 ---
 I'm using [APIs.json to organize my swagger defined microservices running in docker containers](http://apievangelist.com/2015/01/10/use-apisjson-to-organize-my-swagger-defined-apis-running-in-docker-containers/), and using the [machine readable API index to drive navigation between microservices organized in a single collection](http://apievangelist.com/2015/01/28/using-apisjson-for-my-microservice-navigation-and-discovery/). APIs.json provides a simple, machine readable way to index the technology, business, and political elements of each microservice I deploy.
 

@@ -1,15 +1,13 @@
 ---
 layout: post
 title: With Seevl Music Discovery, the Website is the API
-url: >-
-  http://apievangelist.com/2011/05/27/with-seevl-music-discovery-the-website-is-the-api/
+url: http://apievangelist.com/2011/05/27/with-seevl-music-discovery-the-website-is-the-api/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
-  - Discovery
-  - Web
-  - Discover
+- Discovery
+- Web
 ---
 kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/seevl_logo1.png)](seevl.net "Seevl")[Seevl](seevl.net "Seevl"), a music discovery service that provides anew way to explore the cultural and musical universe of various artists, just launched an API with the assistance of [3Scale](http://www.3scale.net "3Scale").
 

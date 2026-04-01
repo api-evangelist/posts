@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Explaining My Work Around APIs In Higher Education To Institutions
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/priorities/university-of-api.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/priorities/university-of-api.png
 author:
   name: kinlane
 tags:
-  - My
-  - Education
-  - APIs
-  - ai
+- Education
+- APIs
+- ai
 ---
 I’m needing to quantify the work i do around APIs in higher education for a university in the U.K., so I figured I’d craft into a story that I can share with my readers, and potentially other schools who would ask what it is that I do.
 

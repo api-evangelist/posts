@@ -2,15 +2,14 @@
 published: true
 layout: post
 title: Headless CMS And The API Evolution Beyond WordPress
-date: 2017-11-15T11:00:00.000Z
+date: 2017-11-15 11:00:00+00:00
 tags:
-  - API Evangelist
-  - Content
-  - CMS
-  - 101
-  - WordPress
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/headless/headless-cms-brackets.png
+- API Evangelist
+- Content
+- CMS
+- '101'
+- WordPress
+image: https://s3.amazonaws.com/kinlane-productions2/headless/headless-cms-brackets.png
 ---
 <p><img src="https://s3.amazonaws.com/kinlane-productions2/headless/headless-cms-brackets.png" align="right" width="40%" style="padding: 15px;" /></p>I am a fan of what WordPress has done for the online world. I feel like it has enabled a lot of folks to take some control over their web presence, and in some situations even made programmers out of business people who never thought that is what they'd end up doing. Even with all the positive benefits of WordPress, it has had some significant negative side effects which I think warrant us to begin looking beyond the existing ecosystem--something I'm hoping the headless CMS, and static website movement can help fuel. I'm not anti-WordPress, but I think the movement has run its course, and we can do better when it comes to helping folks take control over their web presence, as well as avoid much of the security challenges we experience as a result of WordPress.
 

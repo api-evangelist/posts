@@ -4,7 +4,12 @@ title: How Not To On-Board With An API
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-no.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Evangelism
+- Integration
+- Onboarding
 ---
 I wrote a piece earlier today about the [kick-ass on-boarding process at the National Institutes of Health (NIH) 3D Print Exchange API](http://apievangelist.com/2015/01/21/this-is-how-you-onboard-with-an-api/)\--within two clicks I had my API key and was making an API call. To contrast this post I wanted to provide an example of how not to on-board with an API.
 

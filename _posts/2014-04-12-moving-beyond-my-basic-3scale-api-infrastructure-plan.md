@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Moving Beyond My Basic 3Scale API Infrastructure Plan
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3Scale/3scale-logo.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3Scale/3scale-logo.png
 author:
   name: kinlane
 tags:
-  - My
-  - 3Scale
-  - Scale
-  - Infrastructure
+- 3Scale
+- Scale
+- Infrastructure
 ---
 I have been using [3Scale API Infrastructure](http://bit.ly/13esk6Q) to manage API Evangelis's public APIs for almost two years now. My APIs provide access to my blog posts, news I curate, and the tools I track on. I also use the same infrastructure to secure and manage various projects I work on. You can view a list of my APi deployments on my [API account management home page](https://apievangelist.3scale.net/).
 

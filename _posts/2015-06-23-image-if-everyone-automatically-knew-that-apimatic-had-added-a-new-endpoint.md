@@ -4,7 +4,15 @@ title: Image If Everyone Automatically Knew That APIMATIC Had Added A New Endpoi
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- APIs.json
+- Data
+- Definitions
+- Design
+- Developers
+- Discovery
 ---
 [I wrote a story yesterday about APIMATIC releasing a new API validation API to compliment their existing API client code generation API](http://apievangelist.com/2015/06/22/apimatic-adds-new-api-validation-endpoint-to-their-api-client-code-generation-api-stack/). I received an email from the APIMATIC team is how I found out about the API, but as I'm processing that story, and thoughts around what I'd like to see for [API Changelog](https://www.apichangelog.com/) (something Paul of [@BlockSpring](https://twitter.com/BlockSpring) brought up), I'm lefting thinking about how antiquated our whole world of API discovery is.
 

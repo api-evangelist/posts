@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Thinking Through Some Of My Defensive API Management Tactics
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-defensive-tactics.png
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-defensive-tactics.png
 author:
   name: kinlane
 tags:
-  - My
-  - Management
-  - API Management
+- Management
+- API Management
 ---
 As I add each [API to my stack](https://kin-lane.github.io/master/), I consider security along the way. I require an API key to access all of my APIs using my [3Scale API management infrastructure](http://3scale.net), and I also have different tiers of access, and while defining this management layer my first impulse is always put POST, PUT, and DELETE methods into the most trusted tiers.
 

@@ -1,11 +1,17 @@
 ---
 layout: post
 title: Learn the Mogreet MMS API with GUI API Construction Tool
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mogreet-logo.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mogreet-logo.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Documentation
+- Evangelism
+- Integration
+- Messaging
+- Standards
 ---
 Hands on, interactive tools are proving to be the most useful way to learn about an API--empowering users to see it in action, and witness the value it delivers. Many companies are doing this by providing API explorers, consoles, interactive documentation and other hands-on tools that allow you to see how any API actually functions and learn about the API in realtime.
 

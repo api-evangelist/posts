@@ -1,15 +1,13 @@
 ---
 layout: post
 title: View CSV and TSV Data Files In Table Views Directly On Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-csv-table-view.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-csv-table-view.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Data
-  - CSV
-  - Git
+- Github
+- Data
+- CSV
 ---
 Github is really doing some cool stuff to help open data folks manage and share their data.
 

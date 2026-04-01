@@ -1,18 +1,15 @@
 ---
 layout: post
 title: Mapping Github Topics To My API Evangelist Research
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/github_api_topics.png
-atomdate: 2017-03-01T20:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/github_api_topics.png
+atomdate: 2017-03-01 20:00:00+00:00
 tags:
-  - My
-  - Github
-  - API Evangelist
-  - Evangelist
-  - Mapping
-  - Research
-  - Topics
-  - Git
+- Github
+- API Evangelist
+- Evangelist
+- Mapping
+- Research
+- Topics
 ---
 I was playing around with the [new Github topics](https://github.com/blog/2309-introducing-topics), and found that it provides an interesting look at the API space, one that I'm hoping will continue to evolve, and maybe I can influence.
 

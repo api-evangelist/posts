@@ -1,15 +1,13 @@
 ---
 layout: post
 title: SDK Management for Your API with Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
 author:
   name: kinlane
 tags:
-  - Github
-  - SDK
-  - Management
-  - Git
+- Github
+- SDK
+- Management
 ---
 The most common use of [Github](http://www.github.com "Github") by API providers is to publish API SDK's to the popular social coding platform. If you look at most of the the top API providers in operation today, you will find they are actively using Github to not just manage and publicize their API SDK's, but actively interact with their developer ecosystem in the process.
 

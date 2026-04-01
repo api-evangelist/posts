@@ -6,8 +6,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Public
-  - APIs
+- APIs
 ---
 kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/foursquare/foursquare-health-api-usage.png)[Foursquare just highlighted an innovative use of their API](http://blog.foursquare.com/2011/04/28/api-highlight-check-in-and-save-yourself-from-a-stomachache/ "Foursquare API Innovation"), that alerts people to public health issues.
 

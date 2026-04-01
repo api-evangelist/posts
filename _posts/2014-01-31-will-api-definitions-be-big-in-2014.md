@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Will API Definitions Be Big in 2014?
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/apistrat-john-sheehan.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/apistrat-john-sheehan.jpg
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Definition
-  - 4
+- Definitions
+- '4'
 ---
 I'm a big fan of [Traffic and Weather](http://trafficandweather.io/), where in a recent episode John Sheehan ([@johnsheehan](https://twitter.com/johnsheehan)) definitively answers the questions of "weather" or not API definitions will be a big thing 2014?
 

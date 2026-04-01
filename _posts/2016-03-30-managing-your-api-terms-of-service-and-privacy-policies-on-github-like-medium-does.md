@@ -1,16 +1,12 @@
 ---
 layout: post
-title: >-
-  Managing Your API Terms of Service And Privacy Policies On Github Like Medium
-  Does
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/medium-github-policy.png
+title: Managing Your API Terms of Service And Privacy Policies On Github Like Medium Does
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/medium-github-policy.png
 tags:
-  - Github
-  - Privacy
-  - Terms of Service
-  - Policies
-  - Git
+- Github
+- Privacy
+- Terms of Service
+- Policies
 ---
 I always dig it when API stories spin out of control, and I end up down story holes. I'm sure certain people waiting for other work from me do not appreciate it, but these are where some of the best stories in my world come from. As I was writing [the story about Best Buy limiting access to their API when you have a free email account](http://apievangelist.com/2016/03/30/best-buy-will-not-issue-api-keys-to-free-email-accounts-and-wants-to-get-to-know-your-company/), which resulted in [the story about Best Buy using Medium for their API platform blog presence](http://apievangelist.com/2016/03/30/i-am-seeing-more-api-platforms-manage-their-blog-presence-using-medium/), which ended up pushing me to read Medium's terms of service.
 

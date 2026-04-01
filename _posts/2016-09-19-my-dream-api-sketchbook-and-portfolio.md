@@ -2,9 +2,8 @@
 layout: post
 title: My Dream API Sketchbook And Portfolio
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-sketchbook.png
-atomdate: 2016-09-19T18:00:00.000Z
-tags:
-  - My
+atomdate: 2016-09-19 18:00:00+00:00
+tags: []
 ---
 I have a vision of an API notebook in my head I desperately want to get out. First of all, I want to come up with another name for it, which is a journey that always starts with playing around with synonyms. Direct synonyms of notebook include a diary, journal, log, workbook, pad, and binder-yes, all of that is relevant to what I would like to see. After that, a few other words resonated, including album, collection, portfolio, and registry.
 

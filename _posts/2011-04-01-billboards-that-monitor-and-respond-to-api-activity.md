@@ -4,7 +4,11 @@ title: Billboards that Monitor and Respond to API Activity
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Mobile
+- Monitoring
 ---
 Its kind of goofy at first glance, but if you think about it...it is a pretty powerful application of an API.
 

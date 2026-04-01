@@ -1,19 +1,15 @@
 ---
 published: true
 layout: post
-title: >-
-  Quantifying A Minimum Viable API Footprint Definition As Real APIs.json Driven
-  Portal
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Demo-APIs_json-Driven-Portal.png
+title: Quantifying A Minimum Viable API Footprint Definition As Real APIs.json Driven Portal
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Demo-APIs_json-Driven-Portal.png
 author:
   name: kinlane
 tags:
-  - Portal
-  - Definition
-  - APIs.json
-  - APIs
-  - APIs.jso
+- Portal
+- Definitions
+- APIs.json
+- APIs
 ---
 [I wrote a post the other day laying out what I'd consider a minimum viable footprint for API operations](http://apievangelist.com/2015/04/10/my-minimum-viable-api-footprint-definition/). My vision of just exactly what an API is, has gone beyond just the technical, ever since I started API Evangelist back in July of 2010. Early on I saw this was more than just about the API endpoints, and documentation, code samples, and many other building blocks were essential to the success (or failure) of any API platform, area, or ecosystem.
 

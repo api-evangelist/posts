@@ -2,12 +2,11 @@
 layout: post
 title: Thinking About How I Can Build Change Resilience Into My API Integrations
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-change-2.png
-atomdate: 2016-09-29T00:00:00.000Z
+atomdate: 2016-09-29 00:00:00+00:00
 tags:
-  - Change
-  - My
-  - Integration
-  - Integrations
+- Change
+- Integration
+- Integrations
 ---
 After I wrote [a piece on guidance from the USGS around writing fault-resistant code when putting their API to use](http://apievangelist.com/2016/09/08/when-working-with-our-api-make-sure-you-build-faultresistance-into-your-code/), my friend Darrel Miller expanding on this by suggesting I include "change resilience" as part of the definition. 
 

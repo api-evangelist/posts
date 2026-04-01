@@ -5,12 +5,11 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-government.jpg
 author:
   name: kinlane
 tags:
-  - Government
-  - Public
-  - Internal
-  - Access
-  - Resources
-  - APIs
+- Government
+- Internal
+- Access
+- Resources
+- APIs
 ---
 The conversation around open data and APIs in government is dominated by talk of making resources available to the public, which is a good thing, but is only 1/3 of the discussion that should be occurring amongst gov-focused techies, as well as the project owners, and data stewards who are managing these vital public resources across federal agencies.
 

@@ -5,7 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - 4
+- '4'
 ---
 [Binpress](http://www.binpress.com/) is a [marketplace](http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=130) for code, where software developers can buy and sell source code from each other. And it's [holding a developer contest](http://www.binpress.com/contest).
 

@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Expanding My Awareness Of How APIs Are Being Used At The Network Level
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Cisco_DevNet__pxGrid.png
-atomdate: 2016-08-18T19:38:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Cisco_DevNet__pxGrid.png
+atomdate: 2016-08-18 19:38:00+00:00
 tags:
-  - My
-  - Network
-  - Awareness
-  - APIs
+- Network
+- Awareness
+- APIs
 ---
 I work as hard as I can to understand every sector being opened up using web APIs, and the network level is one that I need to push my awareness of, partially because I find it interesting, but mostly because of the impact it can have on every other aspect of how the Internet works (or doesn't).
 

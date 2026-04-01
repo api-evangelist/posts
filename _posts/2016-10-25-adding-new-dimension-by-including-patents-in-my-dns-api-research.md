@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Adding New Dimension By Including Patents In My DNS API Research
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/uspto.png
-atomdate: 2016-10-25T22:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/uspto.png
+atomdate: 2016-10-25 22:00:00+00:00
 tags:
-  - My
-  - Patents
-  - DNS
-  - Research
-  - ddi
+- Patents
+- DNS
+- Research
+- ddi
 ---
 [I have been tracking on API related patents for some time](http://apievangelist.com/2016/01/27/my-stance-on-apis-and-patents/). I regularly pull XML dumps from the US Patent Office, a process in which I am getting more refined, so that I am able to easily tag, and organize them alongside the rest of my research. I spent some time this last week diving [into my DNS API research](http://dns.apievangelist.com), and after updating the rest of the data behind, I added [some DNS related patents](http://dns.apievangelist.com/patents/).
 

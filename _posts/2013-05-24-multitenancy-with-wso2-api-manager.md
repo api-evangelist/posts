@@ -1,11 +1,17 @@
 ---
 layout: post
 title: Multi-Tenancy with WSO2 API Manager
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wso2-multi-tenancy.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wso2-multi-tenancy.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Documentation
+- Evangelism
+- Management
+- Strategy
 ---
 I just had a demo of some of the new features in the [WSO2 API Manager](http://wso2.com/products/api-manager/ "API Manager"). Since WSO2 is one of my partners, I have a regular call with them to discuss the space and I often get demos of their new products and features.
 

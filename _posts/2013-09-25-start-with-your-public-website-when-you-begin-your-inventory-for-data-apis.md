@@ -1,16 +1,14 @@
 ---
 layout: post
 title: Start With Your Public Website When You Begin Your Inventory For Data APIs
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-barcode.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-barcode.jpg
 author:
   name: kinlane
 tags:
-  - Data
-  - Web
-  - Public
-  - Inventory
-  - APIs
+- Data
+- Web
+- Inventory
+- APIs
 ---
 I'm working on taking inventory of data assets at the Department of Veterans Affairs. While eventually this will include private data assets, in the beginning we are focusing on data that can be made public without being worried about personally identifiable information or health information.
 

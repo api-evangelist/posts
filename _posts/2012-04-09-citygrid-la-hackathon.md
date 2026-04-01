@@ -1,11 +1,18 @@
 ---
 layout: post
 title: CityGrid LA Hackathon
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/citygrid-los-angeles.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/citygrid-los-angeles.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Email
+- Government
+- Mobile
+- Search
+- Support
 ---
 The future of the World Wide Web is local. As we spend more of our lives on our mobile phones, local data and apps become critical in helping us find the restaurant for a lunch meeting, the bar where our best friends are Friday night, the local retail store to make our next purchase, and to interact with our city government to make the cities we live in a better place.
 

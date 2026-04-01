@@ -1,19 +1,15 @@
 ---
 layout: post
-title: >-
-  After Combining My API Plans, Pricing, And Rating Research I See Hints Of An
-  API Industry Economic Engine
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/API-plans-API-pricing-API-rating.png
+title: After Combining My API Plans, Pricing, And Rating Research I See Hints Of An API Industry Economic Engine
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/API-plans-API-pricing-API-rating.png
 author:
   name: kinlane
 tags:
-  - My
-  - Plans
-  - Industry
-  - Research
-  - Pricing
-  - Rating
+- Plans
+- Industry
+- Research
+- Pricing
+- Rating
 ---
 After writing [I Have A Bunch Of API Resources, Now I Need A Plan, Or Potentially Several Plans](http://apievangelist.com/2015/10/31/i-have-a-bunch-of-api-resources-now-i-need-a-plan-or-potentially-several-plans/), and [How Are We Going To Create The Standard And Poors And Moodys For The API Economy](http://apievangelist.com/2015/10/31/how-are-we-going-to-create-the-standard-and-poors-and-moodys-for-the-api-economy/), I wanted to combine what I had learned while crafting these stories, and try to look at how these two areas could work together. The API plan and pricing research is derived from [existing approaches to API service composition introduced by providers like 3Scale,](http://apis.how/ake3nxbapm",) however the rating portion is fresh territory for me, with very few precedents to follow.
 

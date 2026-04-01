@@ -1,16 +1,13 @@
 ---
 layout: post
-title: >-
-  The Swagger Definitions Collection Is The Cherry On Top Of Each API That I
-  Profile
+title: The Swagger Definitions Collection Is The Cherry On Top Of Each API That I Profile
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cherry.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Definition
-  - Collection
-  - Swagger
+- Definitions
+- Collection
+- Swagger
 ---
 [I create a lot of machine readable API definitions for the 1000 companies I monitor as part of my API Stack](https://github.com/api-stack/api-stack/tree/gh-pages/data). I am using [Swagger](http://swagger.io) to define all of my APIs, providing me with a simple, yet powerful way to profile each of the APIs I'm working to understand better. If you aren't familiar with Swagger, it provides a handful of fields you can use to fill out the metadata profile for APIs, like title, description, etc., but where it really gets powerful is when you put the paths collection to work, outline the details of each endpoint.
 

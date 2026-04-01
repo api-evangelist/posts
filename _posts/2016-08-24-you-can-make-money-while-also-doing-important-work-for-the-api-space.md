@@ -1,10 +1,16 @@
 ---
 layout: post
 title: You Can Make Money While Also Doing Important Work For The API Space
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/CloudFlare_-_The_web_performance___security_company.png
-atomdate: 2016-08-24T18:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/CloudFlare_-_The_web_performance___security_company.png
+atomdate: 2016-08-24 18:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Business
+- Monetization
+- Open Source
+- Security
+- Twitter
 ---
 I see a lot of companies doing things with APIs, and I often find myself struggling to find companies who are doing important things that benefit the community, have a coherent business model, and providing clear value via their services. In the drive to obtain VC funding, or after several rounds of funding, many companies seem to forget who they are, slowly stop doing anything important (ie. research, open source, etc.) with their platform, and seem to just focus on just making money. 
 

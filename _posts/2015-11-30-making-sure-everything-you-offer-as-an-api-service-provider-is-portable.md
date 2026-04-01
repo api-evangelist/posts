@@ -1,11 +1,15 @@
 ---
 layout: post
 title: Making Sure Everything You Offer As An API Service Provider Is Portable
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/runscope-api-tests.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/runscope-api-tests.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Definitions
+- Monitoring
 ---
 [Runscope added the ability to import and export your API tests as JSON](http://blog.runscope.com/posts/manage-api-tests-your-way-with-seamless-new-import-export-features), helping make API monitoring a much more flexible and portable thing. You can import and export using the Runscope UI, as well as import via their API, help you automate the setup of your API tests. 
 

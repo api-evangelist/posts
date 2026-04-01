@@ -1,21 +1,16 @@
 ---
 published: true
 layout: post
-title: >-
-  Visualizing And Exploring My Microservices Catalog Using APIs.json With
-  Swagger.ed
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-catalog.png
+title: Visualizing And Exploring My Microservices Catalog Using APIs.json With Swagger.ed
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-catalog.png
 author:
   name: kinlane
 tags:
-  - My
-  - Microservices
-  - APIs.json
-  - Swagger
-  - APIs
-  - Micro
-  - APIs.jso
+- Microservices
+- APIs.json
+- Swagger
+- APIs
+- Micro
 ---
 I'm just getting started exploring the ways to use [APIs.json](http://apisjson.org) when it comes organize my new Docker fueled, micro services stack. I’ve been [using APIs.son to describe each micro service](http://alpha.apievangelist.com/2015/01/10/use-apisjson-to-organize-my-swagger-defined-apis-running-in-docker-containers/), as well as define the overall collection of almost 20 micro services. I’m using the include collection, as a [navigation for the loosely coupled stack of micro-services](http://alpha.apievangelist.com/2015/01/28/using-apisjson-for-my-microservice-navigation-and-discovery/), and my friend Chris Spiliotopoulos ([@chefarchitect](https://twitter.com/chefarchitect)), has done some more work with [his Swagger.ed](https://github.com/chefArchitect/swagger.ed), delivering some [APIs.json](http://apisjson.org) goodness that is in alignment with where I want to take all of this.
 

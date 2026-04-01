@@ -2,11 +2,18 @@
 published: true
 layout: post
 title: '"Google API House Cleaning"'
-image: >-
-  http://img.zemanta.com/zemified_e.png?x-id=4283fddd-44da-4224-afee-fc567b803ab1
+image: http://img.zemanta.com/zemified_e.png?x-id=4283fddd-44da-4224-afee-fc567b803ab1
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Discovery
+- Documentation
+- Google
+- Integration
+- Lifecycle
 ---
 Google has had a busy year when it comes to APIs. So far this year they've launched 6 new APIs:
 

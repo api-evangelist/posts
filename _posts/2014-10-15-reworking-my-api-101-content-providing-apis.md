@@ -1,16 +1,14 @@
 ---
 layout: post
 title: 'Reworking My API 101 Content: Providing APIs'
-sourceurl: >-
-  http://apievangelist.com/2014/10/15/reworking-my-api-101-content-providing-apis/
+sourceurl: http://apievangelist.com/2014/10/15/reworking-my-api-101-content-providing-apis/
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gift.png
 author:
   name: kinlane
 tags:
-  - My
-  - '101'
-  - Content
-  - APIs
+- '101'
+- Content
+- APIs
 ---
 The world of APIs starts with an individual, company or organization, with some sort of content, data, or other digital resource, wanting to make it available, on the Internet, in a machine readable way, so that others can build sites, and applications around it. Even though APIs use the Internet for communication, it doesn't mean that they are openly accessible to anyone. Providing APIs, is very similar to providing websites, you can control which users have access to it, where they can go, and what they can do—APIs are just meant for other websites, web applications, and mobile developers. 
 

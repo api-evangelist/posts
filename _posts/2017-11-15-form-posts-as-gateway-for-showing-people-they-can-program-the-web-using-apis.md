@@ -2,12 +2,12 @@
 published: true
 layout: post
 title: Form Posts As Gateway For Showing People They Can Program The Web Using APIs
-date: 2017-11-15T13:00:00.000Z
+date: 2017-11-15 13:00:00+00:00
 tags:
-  - API Evangelist
-  - Forms
-  - 101
-  - Low Hanging Fruit
+- API Evangelist
+- Forms
+- '101'
+- Low Hanging Fruit
 image: https://s3.amazonaws.com/kinlane-productions2/forms/contact-form.png
 ---
 <p><img src="https://s3.amazonaws.com/kinlane-productions2/forms/contact-form.png" align="right" width="45%" style="padding: 15px;" /></p>I am always looking for new avenues to help on-board folks with APIs. [I'm concerned that folks aren't quite ready for the responsibility that comes with a programmable web](http://apievangelist.com/2017/11/10/are-people-ready-for-an-online-api-driven-world-that-is-progammable/), and I'm looking for ways to help show them how the web is already programmable, and that APIs can help them take more control over their data and content online. A significant portion of [my low hanging fruit API work](https://apievangelist.com/2016/04/13/formalizing-my-approach-to-identifying-the-low-hanging-api-fruit/) centers around the forms already in use across websites, and how these forms are a doorway for data, and content that should also be available via an API. If information is already available on your website, and being gathered or displayed in response to a form on your website, it is a great place to start a conversation around providing an API that delivers the same functionality.

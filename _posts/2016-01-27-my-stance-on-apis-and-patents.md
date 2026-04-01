@@ -3,9 +3,8 @@ layout: post
 title: My Stance On APIs And Patents
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-certificate.png
 tags:
-  - My
-  - Patents
-  - APIs
+- Patents
+- APIs
 ---
 [My post the other day on the hypermedia API focused patents from ElasticPath](http://apievangelist.com/2016/01/12/i-just-cannot-get-behind-api-patents-especially-when-they-apply-to-http-and-hypermedia/), has resulted in some very interesting conversations, with folks trying to understand this world, to those who are patent believers, and those who are just doing what they have to--in a world they do not control. This is why I write these stories, and frankly, it is why I am looking to push the patent conversation to new levels, to bring all y'all out of the woodwork.
 

@@ -1,9 +1,15 @@
 ---
 layout: post
 title: We Are All Responsible For Freemium Not Working
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/freemium.jpg
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/freemium.jpg
+tags:
+- API Evangelist
+- APIs
+- Business
+- Communications
+- Email
+- Monetization
+- Strategy
 ---
 I had another conversation with an API service provider today about their freemium accounts not converting. [I've been sharing my thoughts about these freemium service account conversations](http://apievangelist.com/2016/03/22/i-am-hearing-a-lot-more-talk-about-restricting-free-and-freemium-tiers-of-api-access/), as I work to understand a shift that is occurring, and what my own feelings are. At this point, I feel like we (providers and consumers) are all responsible for freemium not working, than it is about the concept itself not working.
 

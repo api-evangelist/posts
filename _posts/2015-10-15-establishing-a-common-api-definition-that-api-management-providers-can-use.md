@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Establishing A Common API Definition That API Management Providers Can Use
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg
 author:
   name: kinlane
 tags:
-  - Management
-  - API Management
-  - Definition
-  - Providers
+- Management
+- API Management
+- Definitions
+- Providers
 ---
 [I mentioned the concept of what I call API building blocks coming to life by API service providers yesterday](http://apievangelist.com/2015/10/13/bringing-api-building-blocks-to-life-as-the-apis-of-service-providers/). These are the features provided from API service providers that are made accessible via APIs. Mind blowing right? API service providers having APIs? Which then allows API providers to programmatically manage the operations of their own APIs? Who would have ever thought!! Actually it is a pretty clear example of API service providers who are kind of full of it, when they do not offer their own APIs--meaning they are telling you about the importance of APIs, but not actually practicing what they preach. It is kind of like API providers who do not use their own APIs in their applications (dogfooding).
 

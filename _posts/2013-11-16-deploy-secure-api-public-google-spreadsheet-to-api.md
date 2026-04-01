@@ -1,13 +1,11 @@
 ---
 layout: post
 title: 'Deploy Secure API: Public Google Spreadsheet to API'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-google-drive-icon.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-google-drive-icon.png
 author:
   name: kinlane
 tags:
-  - Spreadsheet
-  - Public
+- Spreadsheet
 ---
 I'm working on a series of simple scripts that help people deploy APIs from some of the most common data sources. I'm starting with a series of PHP scripts, and a couple weeks ago I did a [public Google Spreadsheet to API demo](http://apievangelist.com/2013/10/22/deploy-api-public-google-spreadsheet-to-api/), and this week I want to show how to secure access to the API by requiring an AppID and AppKey which will allow you to track on who has access to the API.
 

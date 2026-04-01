@@ -1,11 +1,17 @@
 ---
 layout: post
 title: The Continuing Netflix API Story
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/netflix-square.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/netflix-square.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Design
+- Github
+- Management
+- Monitoring
+- Open Source
 ---
 I have [written about the well publicized failure of the Netflix public API](http://apievangelist.com/2013/03/12/netflix-api-is-much-more-than-a-public-api/ "Netflix API") before, and how in the API space things are often not what they seem. By my measurement Netflix is a massive API success story, it is just not the classsic open API success story we all really want to be true.
 

@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Let Developers Register for Your API with Their Github Profile
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Developers
-  - Git
+- Github
+- Developers
 ---
 I was playing with [Singly](https://singly.com/ "Singly"), a unified social API last night. One of the first things I saw, after landing on the home page, were two choices for signing up as a developer--one with Facebook or the other with my Github account.
 

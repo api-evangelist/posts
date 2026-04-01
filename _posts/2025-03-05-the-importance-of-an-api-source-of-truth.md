@@ -2,13 +2,13 @@
 published: true
 layout: post
 title: The Importance of an API Source of Truth
-date: 2025-03-05T09:00:00.000Z
+date: 2025-03-05 09:00:00+00:00
 tags:
-  - Git
-  - Repositories
-  - Portals
-  - Workspaces
-  - Collaboration
+- Github
+- Repositories
+- Portals
+- Workspaces
+- Collaboration
 image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-thinking-man-5.jpeg
 ---
 Having a single place API producers can go to find everything for an API, as well as a single place API consumers can go to find everything for an API is important. Oftentimes this source of truth is an API portal, but it can also be a Git repository, or other workspaces. Just having a single unique URL for every API can reduce confusion, help settle disagreements, and goes a long way towards grounding discussion and collaboration between teams. It can’t be understated the importance a single source of truth will have downstream for both teams producing APIs, but also those who are putting APIs to work in applications and integrations.

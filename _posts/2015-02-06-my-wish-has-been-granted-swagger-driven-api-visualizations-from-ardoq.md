@@ -1,15 +1,13 @@
 ---
 layout: post
 title: 'My Wish Has Been Granted: Swagger Driven API Visualizations From Ardoq'
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/ardoq/ardoq_logo_small.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/ardoq/ardoq_logo_small.png
 author:
   name: kinlane
 tags:
-  - My
-  - Visualizations
-  - Visualization
-  - Swagger
+- Visualizations
+- Visualization
+- Swagger
 ---
 I'm a big fan of putting my ideas for new tools, services, and other stuff out on the Internet, for public consumption. My mother taught me how to manifest things in my life, and this is my digital version of her teachings. By putting my ideas out there, a) I don't actually feel compelled to do them b) someone else might think it is good idea and build it, and c) when someone does build it and they start looking to publicize, they will find you. c) happened today.
 

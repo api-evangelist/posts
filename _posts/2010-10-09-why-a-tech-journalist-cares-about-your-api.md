@@ -4,7 +4,14 @@ title: Why a Tech Journalist Cares About Your API
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Email
+- Mobile
+- Monetization
+- Strategy
 ---
 There are a lot of things I weigh when deciding to write about a company: is the product interesting, is the technology innovative, is the company's story compelling. Some days, it's "news" when a very small feature change occurs at a very big company. And some days, it's "news" when very big things are afoot at very small companies.
 

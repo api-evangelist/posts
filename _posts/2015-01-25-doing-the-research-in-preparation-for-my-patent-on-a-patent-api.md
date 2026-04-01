@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-certificate.png
 author:
   name: kinlane
 tags:
-  - My
-  - Research
+- Research
 ---
 David Berlind’s ([@dberlind](https://twitter.com/dberlind)), [Amid The API Copyright Controversy, An API Patent Claim Surfaces](http://www.programmableweb.com/news/amid-api-copyright-controversy-api-patent-claim-surfaces/analysis/2015/01/23) story from this last Friday, planted some ideas in my head around APIs and patents—something that once takes hold, becomes hopeless for me to resist, and 48 hours later, here are my initial thoughts.
 

@@ -4,12 +4,11 @@ title: Using API Definitions To Help API Providers With Their API Design Roadmap
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-journey.png
 author:
   name: kinlane
-date: 2015-06-10T18:29:19.000Z
+date: 2015-06-10 18:29:19+00:00
 tags:
-  - Design
-  - Definitions
-  - Definition
-  - Providers
+- Design
+- Definitions
+- Providers
 ---
 As I work to create [Swagger API definitions for the almost 1000 companies in my API stack](http://theapistack.com/companies.html), I'm chasing an elusive definition of a complete Swagger definition for any API. Only a small portion of APIs I am defining using Swagger will reach an 80-90% completions status, in reality most will never be complete for reasons that are totally out of my control.
 

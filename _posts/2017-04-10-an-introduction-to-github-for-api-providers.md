@@ -1,13 +1,11 @@
 ---
 layout: post
 title: An Introduction To Github For API Providers
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/github_guides.png
-atomdate: 2017-04-10T22:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/github_guides.png
+atomdate: 2017-04-10 22:00:00+00:00
 tags:
-  - Github
-  - Providers
-  - Git
+- Github
+- Providers
 ---
 I have had a number of requests from folks lately to write more about Github, and how they can use the social coding platform as part of their API operations. As I work with more companies outside of the startup echo chamber on their API strategies I am encountering more groups that aren't Github fluent and could use some help getting started. It has also been a while since I've thought deeply about how API providers should be using Github so it will allow me to craft some fresh content on the subject.
 

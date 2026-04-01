@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Look Across My API Monitoring API Methods By Grouping Them Using Tag
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-monitoring-tag-cloud.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-monitoring-tag-cloud.png
 author:
   name: kinlane
 tags:
-  - My
-  - Monitoring
-  - Methods
+- Monitoring
+- Methods
 ---
 [Last week I was playing with defining API monitoring APIs so I can map to each stop along the API life cycle](http://apievangelist.com/2015/12/16/defining-api-monitoring-apis-so-i-can-map-to-each-stop-along-the-api-life-cycle/). I took three of the API monitoring services I use (APIMetrics, API Science, and Runscope), and like I do for other areas along the API life cycle, and for common API stacks, I profiled their APIs using the OpenAPI Spec. This is standard operating procedure for any of my research areas, in that part of profiling each company's operations, I profile the API surface area in detail.
 

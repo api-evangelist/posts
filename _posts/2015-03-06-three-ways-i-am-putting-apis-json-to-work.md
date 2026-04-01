@@ -6,9 +6,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png
 author:
   name: kinlane
 tags:
-  - APIs.json
-  - APIs
-  - APIs.jso
+- APIs.json
+- APIs
 ---
 I had a conversation with some folks who are building a wikipedia of API definitions the other day, looking to employ formats like [Swagger](http://swagger.io), and [APIs.json](http://apisjson.org) to make an open, authoritative directory of machine readable API designs—something I can get behind 100%. I can even contribute the [700+ APIs.json files, and the 250+ Swagger files I have generated](https://github.com/kinlane/api-stack/tree/gh-pages/data) as part of my research.
 

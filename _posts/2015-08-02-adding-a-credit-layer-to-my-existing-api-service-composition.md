@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-counting.png
 author:
   name: kinlane
 tags:
-  - My
-  - ddi
+- ddi
 ---
 [I am revisiting the service composition for my own APIs on a regular basis lately](http://apievangelist.com/2015/02/02/api-management-infrastructure-and-service-composition-is-key-to-orchestration-with-microservices-in-a-containerized-world/), along with the ever increasing number of conversations I'm having with API providers about their own API monetization strategy. [An example of this can be seen with the conversation I had  with the Popup Archive about their monetization strategy for their AudioSear.ch API, and how they are shifting from a resource based perspective to a more experience based monetization approach.](http://apievangelist.com/2015/07/30/is-your-monetization-rooted-in-the-resource-or-experience-side-of-your-api-operations/) One side effect of this conversation, is that it looped me back around to thinking about the next steps for my own system.
 

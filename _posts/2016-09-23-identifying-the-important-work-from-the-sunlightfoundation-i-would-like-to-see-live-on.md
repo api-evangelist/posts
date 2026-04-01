@@ -1,12 +1,17 @@
 ---
 layout: post
-title: >-
-  Identifying The Important Work From The @SunlightFoundation I Would Like To
-  See Live On
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/sunlight_foundation.png
-atomdate: 2016-09-23T20:00:00.000Z
-tags: []
+title: Identifying The Important Work From The @SunlightFoundation I Would Like To See Live On
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/sunlight_foundation.png
+atomdate: 2016-09-23 20:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Data
+- Definitions
+- Deployment
+- Documentation
+- Email
+- Federal Government
 ---
 I am saddened to hear [the news of the Sunlight Foundation dimming the lights on their important work around government transparency](https://sunlightfoundation.com/blog/2016/09/20/statement-from-sunlight-foundations-board-chairman/). They have provided me a constant spotlight on government activity, and provide a model for me when it comes to opening up government data, and providing APIs that can make a difference. Having helped run non-profit organizations, working to make social change, I know this can be a very difficult thing to keep above water.
 

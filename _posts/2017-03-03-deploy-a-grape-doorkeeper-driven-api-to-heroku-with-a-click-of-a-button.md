@@ -1,10 +1,17 @@
 ---
 layout: post
 title: Deploy A Grape Doorkeeper Driven API To Heroku With A Click Of A Button
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_01_at_10.46.36_pm.png
-atomdate: 2017-03-03T20:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_01_at_10.46.36_pm.png
+atomdate: 2017-03-03 20:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Cloud
+- Definitions
+- Deployment
+- Design
+- Github
 ---
 There have been many advances in the way that we deploy APIs in the last couple of years, but I still want more of an embeddable, push botton way to deploy generic or even more specialized APIs. This is something I've ranted about before, [asking where the deploy to AWS and Google buttons](https://apievangelist.com/2016/09/12/where-is-the-deploy-to-aws-and-google-button/). I'm seeing more AWS solutions emerge, [helping deploy from Github using AWS Codeploy](https://apievangelist.com/2016/09/12/where-is-the-deploy-to-aws-and-google-button/), and the regular number of deploy to Heroku buttons, but not the real growth I'd like to see occur--making it a drum I will keep beating until I get what I want.
 

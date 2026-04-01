@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Gathering My Thoughts About Open Referral And The Human Services API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ohana-api.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ohana-api.png
 tags:
-  - My
-  - Open Referral
-  - Human Services
-  - Open
-  - Services
+- Open Referral
+- Human Services
+- Open
+- Services
 ---
 I am working on several very rewarding API efforts lately, but one I'm particularly psyched about is [Open Referral](https://openreferral.org/). I'm working with them to help apply the open API format in a handful of implementations, but to also share some insight on what the platform could be in the future. I have been working to carve out the time for about it, and finally managed to do so this week, resulting in what I am hoping will be some rewarding API work.
 

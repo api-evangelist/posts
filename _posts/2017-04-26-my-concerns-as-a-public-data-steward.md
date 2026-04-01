@@ -1,14 +1,11 @@
 ---
 layout: post
 title: My Concerns As A Public Data Steward
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/data_steward.png
-atomdate: 2017-04-26T22:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/data_steward.png
+atomdate: 2017-04-26 22:00:00+00:00
 tags:
-  - My
-  - Data
-  - Public Data
-  - Public
+- Data
+- Public Data
 ---
 _This is a multipart story on monetizing public data using APIs. I have_ spent _the last seven years studying over 75+ aspects of the API delivery_ lifecycle _across companies, organizations, institutions, and government agencies. This project is designed to be a distillation of my work to help drive a conversation around sensible and_ pragmatic _revenue generation using public data--allowing the_ city_, county, state, and federal government agencies to think critically about how open data efforts can exist and grow. It lives as a standalone repository, as well as individual stories that are meant to stand on their own, while also contributing to an overall narrative about public data monetization._
 

@@ -2,16 +2,14 @@
 published: true
 layout: post
 title: Tooling For Converting Your OpenAPI Definitions From 2.0 to 3.0
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_30_converter.png
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_30_converter.png
 author:
   name: kinlane
 tags:
-  - OpenAPI
-  - Definitions
-  - Tooling
-  - Definition
-  - Open
+- OpenAPI
+- Definitions
+- Tooling
+- Open
 ---
 [I wrote a post asking what it would take to migrate OpenAPI tooling from version 2.0 to 3.0 of the API specification](http://apievangelist.com/2017/03/16/what-will-it-take-to-evolve-openapi-tooling-to-version-30/), and Mike Ralphson ([@PermittedSoc](https://twitter.com/PermittedSoc)) commented about some of the projects he's been working on involving the latest specification version. Which I hope is a good sign of things to come, when it comes to moving from version 2.0 to 3.0 in 2017.
 

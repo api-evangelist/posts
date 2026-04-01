@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Discovery
-  - Discover
-  - APIs
+- Discovery
+- APIs
 ---
 The[Google APIs Discovery Service](http://code.google.com/apis/discovery/index.html "Google APIs Discovery Service") provides a set of web APIs for discovering metadata across Google APIs.
 

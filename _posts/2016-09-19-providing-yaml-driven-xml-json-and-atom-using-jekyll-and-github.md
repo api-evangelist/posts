@@ -2,14 +2,13 @@
 layout: post
 title: Providing YAML driven XML, JSON, and Atom using Jekyll And Github
 image: null
-atomdate: 2016-09-19T20:00:00.000Z
+atomdate: 2016-09-19 20:00:00+00:00
 tags:
-  - Github
-  - Jekyll
-  - YAML
-  - JSON
-  - XML
-  - Git
+- Github
+- Jekyll
+- YAML
+- JSON
+- XML
 ---
 The power of Jekyll on Github Pages as a data management solutions is not a very widely held concept. I'm always amazed at how technologists and programmers don't understand [Jekyll](http://jekyllrb.com/), let alone how it can be used as a data engine--maybe I can help a little by sharing my own usage. As I develop examples of this in action, I want to publish them as [Github repositories that anyone can fork and reverse engineer to use in their own work](http://xml.son.yaml.jekyll.apievangelist.com/).
 

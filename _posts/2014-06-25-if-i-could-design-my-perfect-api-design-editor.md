@@ -1,16 +1,13 @@
 ---
 layout: post
 title: If I Could Design My Perfect API Design Editor
-url: >-
-  http://apievangelist.com/2014/06/25/if-i-could-design-my-perfect-api-design-editor/
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-editor.png
+url: http://apievangelist.com/2014/06/25/if-i-could-design-my-perfect-api-design-editor/
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-editor.png
 author:
   name: kinlane
 tags:
-  - My
-  - Design
-  - Editor
+- Design
+- Editor
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 

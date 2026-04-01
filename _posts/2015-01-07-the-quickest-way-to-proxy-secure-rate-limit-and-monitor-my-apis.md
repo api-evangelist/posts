@@ -1,14 +1,12 @@
 ---
 layout: post
 title: The Quickest Way To Proxy, Secure, Rate Limit, and Monitor My APIs
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-apicast.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-apicast.png
 author:
   name: kinlane
 tags:
-  - My
-  - Proxy
-  - APIs
+- Proxy
+- APIs
 ---
 As I am designing my APIs, one of the first things I decide is whether or not I will be making this public. If its a simple enough resource, and doesn't put too much load on my servers, I will usually make it publicly available. However if an API has write capabilities, could potentially put a heavy load on my servers, or just posses some private resource that I want to keep private, I will secure the API.
 

@@ -1,17 +1,15 @@
 ---
 layout: post
 title: Simple APIs With Jekyll And Github With Data Managed Via Google Spreadsheets
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_toolbox_home_page.png
-atomdate: 2017-05-10T22:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_toolbox_home_page.png
+atomdate: 2017-05-10 22:00:00+00:00
 tags:
-  - Github
-  - Data
-  - Jekyll
-  - Spreadsheets
-  - Spreadsheet
-  - APIs
-  - Git
+- Github
+- Data
+- Jekyll
+- Spreadsheets
+- Spreadsheet
+- APIs
 ---
 I'm always looking for simpler, and cheaper ways of doing APIs that can help anyone easily manage data while making it available in both a human and machine readable way--preferably something developers and non-developers both will find useful. I've pushed forward my use of Github when it comes to managing simple datasets, and have a new approach I want to share, and potentially use across other projects.
 

@@ -4,7 +4,15 @@ title: What Drives Me Crazy When Integrating With a New API?
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Analytics
+- Communications
+- Documentation
+- Integration
+- Management
 ---
 I was directed to an API question today, that needs to be asked constantly in the space:
 

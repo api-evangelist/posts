@@ -1,13 +1,11 @@
 ---
 layout: post
 title: API Virtual Stack Composition Like The Absolut Drinks Data API
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/absolut/absolut-vodka.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/absolut/absolut-vodka.jpg
 author:
   name: kinlane
 tags:
-  - Data
-  - Stack
+- Data
 ---
 If you read my blog regularly, you know I am constantly pushing the boundaries of how I see the API space, and sometimes my ramblings can be pretty out there, but API Evangelist is how I work through these thoughts out loud, and hopefully bring them down to a more sane, practical level that everyone can understand.
 

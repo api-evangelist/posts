@@ -3,10 +3,9 @@ published: true
 layout: post
 title: How I Got Here (My API Evangelist Journey)
 tags:
-  - Journey
-  - 4
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-cell-tower-overloaded.jpeg
+- Journey
+- '4'
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-cell-tower-overloaded.jpeg
 ---
 To help me understand where I am going I wanted to take a quick walk through how I got here, and spend some time geo locating myself as I enter into some conversations this week about what is next for 2025.  My goal is to share a distilled down version of everything I’ve absorbed from doing APIs over the last fifteen years and help explain my location in the API universe at this moment. I enjoy a very high level view of the API space which spans almost every industry, and are behind every major technology advancement this century, however, explaining this reality to your average business person is a challenge I am determined to overcome in the coming years.
 

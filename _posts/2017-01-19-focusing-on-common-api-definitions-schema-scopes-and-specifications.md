@@ -2,13 +2,12 @@
 layout: post
 title: Focusing On Common API Definitions, Schema, Scopes and Specifications
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gears.png
-atomdate: 2017-01-19T17:00:00.000Z
+atomdate: 2017-01-19 17:00:00+00:00
 tags:
-  - Definitions
-  - Schema
-  - Specifications
-  - Definition
-  - Scope
+- Definitions
+- Schema
+- Specifications
+- Scope
 ---
 The API universe is rapidly expanding as more companies, organizations, institutions, and government agencies are sharing data, content, and algorithms using web APIs. It has expanded so much in the last year that I can't keep up with everything that is going on. I can't test new APIs, and the emerging services and tooling from providers who are targeting the space fast enough--that is ok, I'm not sweating it. 
 

@@ -4,7 +4,15 @@ title: What Are The Opportunities in BaaS?
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Design
+- Education
+- Evangelism
+- Government
+- Mobile
 ---
 [API Evangelist](http://apievangelist.com) doesn't focus on market or investment opportunities. I keep an eye out for product and innovation opportunities, which are a much different beast. These represent places where there are gaps in the delivery of API driven resources that developers will need to deliver the generation of not just apps, but compute.
 

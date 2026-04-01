@@ -1,18 +1,16 @@
 ---
 layout: post
 title: Secure API Deployment From MySQL, JSON and Google Spreadsheets With 3Scale
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-toolbox.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-toolbox.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Deployment
-  - Spreadsheets
-  - Spreadsheet
-  - 3Scale
-  - Scale
-  - JSON
+- Deployment
+- Spreadsheets
+- Spreadsheet
+- 3Scale
+- Scale
+- JSON
 ---
 I'm doing a lot more API deployments from dead simple data sources since I started working in the federal government. As part of these efforts I'm working to put together a simple toolkit that newbies to the API world can use to rapidly deploy APIs as well.
 

@@ -4,7 +4,14 @@ title: A Masking, Scrubbing, Anonymizing API
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Education
+- Government
+- Healthcare
+- Swagger
 ---
 In government there is a fear of exposing public data via APIs--rightfully so. This is not just a government concern, it exists in all industries within each an every business and organization. We all possess private data, and when opening up API driven resources, we need to make sure none of this is exposed in un-desired ways.
 

@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Next Steps For My Screen Capture API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-screen-capture.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-screen-capture.png
 author:
   name: kinlane
 tags:
-  - My
-  - Screen Capture
+- Screen Capture
 ---
 Earlier this year [I created a screen capture API](http://apievangelist.com/2014/01/06/creating-my-own-screenshot-api/), filling a need I have across my network—capturing an image snapshot of any web page. Not all APIs are created the same, but I think this screen capture API represents a very fundamental layer of the API economy, the utility API. This API isn't Twitter or Google Maps, it does one thing and it does it well—something most APIs should work hard to achieve.
 

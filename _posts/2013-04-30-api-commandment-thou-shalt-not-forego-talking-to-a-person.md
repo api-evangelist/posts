@@ -1,11 +1,18 @@
 ---
 layout: post
 title: 'API Commandment: Thou Shalt Not Forego Talking to a Person'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-in-api-we-trust-trimmed.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-in-api-we-trust-trimmed.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Communications
+- Evangelism
+- Integration
+- Support
+- Twilio
+- Twitter
 ---
 Listening to an episode of [Traffic and Weather](http://trafficandweather.io/) yesterday, renewed a concept that John Sheehan([@johnsheehan](https://twitter.com/johnsheehan)), founder of [Runscope](https://www.runscope.com/signin?next=%2F "Runscope") made in an [article he wrote for NextWeb back in March](http://thenextweb.com/dd/2013/03/12/apis-are-dead-long-live-apis/?fromcat=all). In the post, John walks us through his “Three Commandments for Using Someone Else’s API”, which, after listening to him talk about his story on [Episode 8 of Traffic and Weather](http://trafficandweather.io/post/46485798823/episode-8-im-going-to-withdraw-my-objection), I couldn't stop thinking about commandment #2:
 

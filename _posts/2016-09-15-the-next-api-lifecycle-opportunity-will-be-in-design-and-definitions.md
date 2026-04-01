@@ -1,14 +1,12 @@
 ---
 layout: post
 title: The Next API Lifecycle Opportunity Will Be In Design And Definitions
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_possibilities.png
-atomdate: 2016-09-15T18:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_possibilities.png
+atomdate: 2016-09-15 18:00:00+00:00
 tags:
-  - Design
-  - Definitions
-  - Lifecycle
-  - Definition
+- Design
+- Definitions
+- Lifecycle
 ---
 Looking through [the numbers for my API Evangelist research](http://apievangelist.com/numbers/), and tallying up what I've learned along the way, I feel like the next opportunity out there will be about API design and definitions. The release of the [API Stylebook](http://apievangelist.com/2016/09/12/api-stylebook-a-collections-of-resources-for-api-designers/), and [Materia](http://apievangelist.com/2016/09/12/the-new-api-design-and-deployment-solution-materia-is-pretty-slick/) reflect this opportunity--serving the growing appetite for API design knowledge, and tooling being generated as businesses continue waking up to the need for APIs.
 

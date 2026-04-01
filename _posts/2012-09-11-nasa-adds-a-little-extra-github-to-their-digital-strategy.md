@@ -1,16 +1,14 @@
 ---
 layout: post
 title: NASA Adds a Little Extra Github To Their Digital Strategy
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/nasa_logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/nasa_logo.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Strategy
-  - NASA
-  - Digital
-  - Git
+- Github
+- Strategy
+- NASA
+- Digital
 ---
 I’ve been tracking the [adoption of the White House CIO's digital strategy](/federal_government.php "progress of each federal agency’s adoption of the White House CIO digital strategy"), trying understand each agency's mobile and API plans.
 

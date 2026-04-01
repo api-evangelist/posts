@@ -1,20 +1,16 @@
 ---
 layout: post
-title: >-
-  APIphany Adds Support for Github, Facebook and Twitter in all API Developer
-  Portals
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiphany-developer-login.png
+title: APIphany Adds Support for Github, Facebook and Twitter in all API Developer Portals
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiphany-developer-login.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Twitter
-  - Support
-  - Portal
-  - Portals
-  - Facebook
-  - Git
+- Github
+- Twitter
+- Support
+- Portal
+- Portals
+- Facebook
 ---
 API service provider [APIphany](http://apiphany.com/ "APIphany") followed [some of my advice](http://apievangelist.com/2012/10/29/api-developer-login-using-github/ "some of my advice") this last week, and added [support for Github, Facebook and Twitter in all of their developer portals](http://apiphany.com/blog/support-for-github-facebook-and-twitter-accounts-in-our-developer-portals "support for Github, Facebook and Twitter in all of their developer portals").
 

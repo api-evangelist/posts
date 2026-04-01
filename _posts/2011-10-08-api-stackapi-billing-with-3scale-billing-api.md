@@ -1,14 +1,12 @@
 ---
 layout: post
 title: 'API Stack - API Billing with 3Scale Billing API '
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-logo.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-logo.jpg
 author:
   name: kinlane
 tags:
-  - 3Scale
-  - Scale
-  - Stack
+- 3Scale
+- Scale
 ---
 [3Scale](http://www.3scale.net/ "3Scale") provides scalable API Infrastructure as a Service to control, manage and monetize the distribution of data, content or services for devices, mobile and web applications.
 

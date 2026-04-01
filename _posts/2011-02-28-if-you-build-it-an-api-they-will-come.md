@@ -5,7 +5,12 @@ url: http://apievangelist.com/2011/02/28/if-you-build-it-an-api-they-will-come/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Design
+- Google
+- Integration
 ---
 One of the goals of any API is to catch the attention of developers and become a tool they depend on and integrate regularly into their applications.
 

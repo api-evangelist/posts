@@ -1,12 +1,11 @@
 ---
 layout: post
 title: 'API Definition: WebConcepts.info'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_webconcepts_screenshot.png
-atomdate: 2017-03-24T19:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_webconcepts_screenshot.png
+atomdate: 2017-03-24 19:00:00+00:00
 tags:
-  - Web
-  - Definition
+- Web
+- Definitions
 ---
 _This is an article from the current edition of the [API Evangelist industry guide to API definitions](http://definitions.apievangelist.com/guide/). The guide is designed to be a summary of the world of API definitions, providing the reader with a recent summary of the variety of specifications that are defining the technology behind almost every part of our digital world._
 

@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Measuring the Success of a Public Web API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Craft-Logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Craft-Logo.png
 author:
   name: kinlane
 tags:
-  - Web
-  - Public
+- Web
 ---
 I'm a member of a Google group called [API Craft](http://groups.google.com/group/api-craft "API Craft"). There are some really smart API folks talking about everything from API deployment to API business strategies there.
 

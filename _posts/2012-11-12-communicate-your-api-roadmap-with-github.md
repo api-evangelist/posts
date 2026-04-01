@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Communicate Your API Roadmap with Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
 author:
   name: kinlane
-date: 2012-11-12T23:20:35.000Z
+date: 2012-11-12 23:20:35+00:00
 tags:
-  - Github
-  - Git
+- Github
 ---
 When you operate an API, you need to make sure and communicate with your developer community about what your plans are for the future, so developers can plan their own roadmap, and keep in sync with the coming changes to the API.
 

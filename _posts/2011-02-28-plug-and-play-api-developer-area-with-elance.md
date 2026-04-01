@@ -4,7 +4,15 @@ title: Plug and Play API Developer Area with Elance
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Data
+- Design
+- Evangelism
+- Github
+- Integration
 ---
 One way to make sure your API has qualified and reputable developers from day one is to tap into an existing freelance developer community.
 

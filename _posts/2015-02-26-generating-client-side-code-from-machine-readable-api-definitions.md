@@ -5,10 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gears.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Client
-  - Definition
-  - Code
+- Definitions
+- Client
+- Code
 ---
 This post has been open for almost two weeks now in Evernote. It began as a simple story about the possibility for generating code samples and libraries using Swagger. The longer it stays open, the wider the definition becomes, so I have to post something, just to draw a line in the sand. I’m not talking about generating code that runs on the server, this post is all about everything on the API consumption side of things.
 

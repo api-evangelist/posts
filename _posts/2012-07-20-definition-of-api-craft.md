@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Definition of API Craft
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apigee-logo.gif
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apigee-logo.gif
 tags:
-  - Definition
+- Definitions
 ---
 The current API development space is very self-ruled, in that web API developers have freed themselves of earlier SOA attempts to rigidly define and ultimately constricted API growth, into a more grassroots, community-owned approach to RESTful API design.
 

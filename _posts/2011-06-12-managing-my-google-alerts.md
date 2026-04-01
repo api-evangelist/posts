@@ -4,8 +4,7 @@ title: Managing My Google Alerts
 image: http://kinlane-productions2.s3.amazonaws.com/google/google-alerts.jpg
 author:
   name: kinlane
-tags:
-  - My
+tags: []
 ---
 I am making some adjustments to my [Google Alerts](http://www.google.com/alerts/ "Google Alerts") today.
 

@@ -1,11 +1,13 @@
 ---
 layout: post
 title: February Hackathon Schedule
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-hackathon.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-hackathon.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- Business
+- Mobile
 ---
 Here are the hackathons I'm tracking on for February. I'm adding new ones as I find them, make sure and checkout the [hackathon events calendar](/events/ "Hackathon events calendar") for more information.
 

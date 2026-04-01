@@ -2,11 +2,10 @@
 layout: post
 title: Continuing My Struggle For Reciprocity As ETL Evolves Into The Cloud As iPaaS
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-reciprocity2.png
-atomdate: 2016-08-18T16:00:00.000Z
+atomdate: 2016-08-18 16:00:00+00:00
 tags:
-  - Cloud
-  - My
-  - iPaaS
+- Cloud
+- iPaaS
 ---
 [Early on in 2013, I started a research project to keep an eye on a specific type of API driven service provider, like IFTTT and Zapier, who were enabling individuals and businesses to move data around in the cloud](http://apievangelist.com/2013/02/27/merging-api-automation-and-interoperability-into-api-reciprocity/). This new wave of startups was moving from what we traditionally called ETL in the enterprise, which was about extracting, transforming, and loading data between various systems, into the cloud era. 
 

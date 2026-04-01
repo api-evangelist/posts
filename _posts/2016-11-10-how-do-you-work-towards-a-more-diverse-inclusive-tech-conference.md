@@ -2,8 +2,13 @@
 layout: post
 title: How Do You Work Towards A More Diverse Inclusive Tech Conference?
 image: http://apistrat.com/wp-content/uploads/2014/12/apisrtrat-logo.png
-atomdate: 2016-11-10T21:35:43.000Z
-tags: []
+atomdate: 2016-11-10 21:35:43+00:00
+tags:
+- API Evangelist
+- APIs
+- Communications
+- Strategy
+- Twitter
 ---
 The [7th edition of API Strategy & Practice Conference](http://boston2016.apistrat.com/) happened last week. While I wasn't fully engaged throughout the planning process for this edition, due to my summer being disrupted, I wanted to take the time to share some of what happened to make it more of an inclusive technology event. There is a lot of people who are "interested" in making their events more diverse and inclusive, but APIStrat is "committed" to this (thanks, Charles Ashley III [@CAsh\_The3rd](https://twitter.com/CAsh_The3rd)), and here are some of what we did.
 

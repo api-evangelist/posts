@@ -1,15 +1,12 @@
 ---
 layout: post
-title: >-
-  Gathering My Thoughts Around Common Patterns For Base URLs Across Nearly 700
-  APIs
+title: Gathering My Thoughts Around Common Patterns For Base URLs Across Nearly 700 APIs
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puzzly-square.png
 author:
   name: kinlane
 tags:
-  - My
-  - Patterns
-  - APIs
+- Patterns
+- APIs
 ---
 I just finished going through [my API Stack](http://theapistack.com/), taking a fresh look at each API provider, and looking for one simple thing—the base URL for each of their APIs. Throughout the process I looked at almost 700 API developer areas, trying to find the base URL they are using to serve up some of the most valuable API resources publicly available on the web.
 

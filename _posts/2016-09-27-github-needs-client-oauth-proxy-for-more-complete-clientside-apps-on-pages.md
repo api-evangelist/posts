@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Github Needs Client OAuth Proxy For More Complete Client-Side Apps On Pages
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/new_personal_access_token.png
-atomdate: 2016-09-28T00:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/new_personal_access_token.png
+atomdate: 2016-09-28 00:00:00+00:00
 tags:
-  - Github
-  - Client
-  - Proxy
-  - OAuth
-  - Git
+- Github
+- Client
+- Proxy
+- OAuth
 ---
 I'm building what I am calling "micro tools", that run 100% on Github. To push my work forward [I developed a base template I can use for deploying apps that run 100% on Github, using Github Pages, the Github API, and Github OAuth as the engine](https://kinlane.github.io/github-micro-tool/). As a next step I wanted to develop a simple YAML editor that run on Github, allowing me to edit the YAML core of each tool, that is stored in the \_data folder for each Jekyll site I host on Github Pages.
 

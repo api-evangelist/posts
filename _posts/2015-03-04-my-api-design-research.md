@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-design.png
 author:
   name: kinlane
 tags:
-  - My
-  - Design
-  - Research
+- Design
+- Research
 ---
 _I am giving each of my primary API research sites a refresh, and first up is the home page of my [API design research](http://design.apievangelist.com). As I update each home page, I'm going to publish here on API Evangelist to help bring more awareness to each of the main areas I'm studying._
 

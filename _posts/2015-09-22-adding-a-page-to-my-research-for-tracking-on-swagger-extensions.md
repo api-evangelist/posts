@@ -1,17 +1,15 @@
 ---
 layout: post
 title: Adding A Page To My Research For Tracking On Swagger Extensions
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/bw-swagger-round.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/bw-swagger-round.png
 author:
   name: kinlane
 tags:
-  - Tracking
-  - My
-  - Extensions
-  - Research
-  - Swagger
-  - ddi
+- Tracking
+- Extensions
+- Research
+- Swagger
+- ddi
 ---
 [I have a research project dedicated to trying to understand al things Swagger.](http://swagger.apievangelist.com) I try to add any new research, or tooling there when I can. The latest thing I added was a page to list out Swagger extensions that I find in the wild.
 

@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Find Your Hackathon Venue with EventUp
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Eventuplogo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Eventuplogo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- Twitter
 ---
 I am going through all my notes from organizing the [CityGrid Los Angeles Hackathon](http://www.citygridmedia.com/developer/blog/citygrid-hackathon-los-angeles-is-a-wrap/ "CityGrid Los angeles Hackathon") and trying to publish as many stories as I can, about how I planned and organized the hackathon.
 

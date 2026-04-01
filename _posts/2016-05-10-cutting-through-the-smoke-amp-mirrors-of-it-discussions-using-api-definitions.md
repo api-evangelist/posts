@@ -1,16 +1,12 @@
 ---
 published: true
 layout: post
-title: >-
-  Cutting Through The Smoke &amp; MIrrors Of IT Discussions Using API
-  Definitions
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-smoke-and-mirrors.png
+title: Cutting Through The Smoke &amp; MIrrors Of IT Discussions Using API Definitions
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-smoke-and-mirrors.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Definition
+- Definitions
 ---
 I get brought into a lot of API discussions with IT departments from companies, institutions, and government agencies, which are often coordinated by business groups who are interested in better meeting their goals using APIs. This is often an immediately charged conversation, with IT coming to their table with a whole array of baggage. 
 

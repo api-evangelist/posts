@@ -2,12 +2,11 @@
 layout: post
 title: API Definitions Influencing API Design
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-two-arrows.png
-atomdate: 2017-02-17T23:00:00.000Z
+atomdate: 2017-02-17 23:00:00+00:00
 tags:
-  - Design
-  - Definitions
-  - Definition
-  - Influencing
+- Design
+- Definitions
+- Influencing
 ---
 I was having a conversation about whether I should be putting my API definition or my API design work first--which comes earlier in the lifecycle of an API? The conclusion was to put definition first because you need a common set of definitions to work with when designing your API(s). You need definitions like HTTP and HTTP/2. In, 2017 you should be employing definitions like OpenAPI Spec, and JSON Schema. These definitions help set the tone of your API design process.
 

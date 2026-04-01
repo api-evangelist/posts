@@ -5,7 +5,15 @@ url: http://apievangelist.com/2011/07/16/tumblr-releases-api-v2/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Authentication
+- Data
+- Design
+- Documentation
+- Evangelism
+- Integration
 ---
 kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/tumblr/Tumblr-Engineering-Blog.png)[Tumblr just released version 2.0 of the popular blogging platform API](http://engineering.tumblr.com/post/7541361718/introducing-tumblrs-new-api "Tumblr just released version 2.0 of the blog platform API"), in an effort to make developers lives a little easier when integrating with the Tumblr platform.
 

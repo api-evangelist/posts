@@ -1,19 +1,15 @@
 ---
 layout: post
-title: >-
-  Static HTML Documentation Generated From Machine Readable API Blueprint
-  Definitions Using Aglio
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/aglio-logo.png
+title: Static HTML Documentation Generated From Machine Readable API Blueprint Definitions Using Aglio
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/aglio-logo.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Documentation
-  - Static
-  - Blueprint
-  - Definition
-  - API Blueprint
+- Definitions
+- Documentation
+- Static
+- Blueprint
+- API Blueprint
 ---
 I'm on the hunt for new ways to deploy attractive, interactive API documentation, from machine readable API definition formats like Swagger and API Blueprint. I am [advocating for the development of new approaches to deploy UI documentation](http://apievangelist.com/2015/02/02/we-need-better-api-documentation-and-ui-deployment-options/), and part of this showcasing what I find along the way.
 

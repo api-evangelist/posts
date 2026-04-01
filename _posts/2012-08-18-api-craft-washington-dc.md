@@ -1,11 +1,16 @@
 ---
 layout: post
 title: API Craft Washington DC
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Craft-DC-August-2012.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Craft-DC-August-2012.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Definitions
+- Government
+- Versioning
 ---
 Continuing my API Craft road show, I landed in Washington DC for the second week in August. As I planned my trip to the nations capital, I planted the seeds for an API Craft DC version.
 

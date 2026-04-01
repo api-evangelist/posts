@@ -1,10 +1,14 @@
 ---
 layout: post
 title: Providing An Anonymous Layer To Your API Provider Service Like Stoplight.io
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/StopLight-Anonymous-2.png
-atomdate: 2016-08-19T20:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/StopLight-Anonymous-2.png
+atomdate: 2016-08-19 20:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Business
+- Plans
+- Versioning
 ---
 I was playing around with the free and the now paid layers of Stoplight.io, and [wrote a previous piece about their lack of a public pricing page](http://apievangelist.com/2016/08/19/i-know-it-is-hard-when-you-are-just-getting-started-but-please-make-your-pricing-page-public/), and I noticed they provided an anonymous layer to their API modeling service--[without logging in, you can play around with their HTTP client tool, and make requests to an API.](https://app.stoplight.io/requests/)
 

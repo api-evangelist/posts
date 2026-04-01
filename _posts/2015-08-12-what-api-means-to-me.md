@@ -1,11 +1,15 @@
 ---
 layout: post
 title: What API Means To Me
-image: >-
-  http://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
+image: http://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Authentication
+- Design
+- Evangelism
 ---
 I love the wide swinging perception people have of who I am, often based upon a 15 seconds of sizing me up, reading the title, first and ending paragraph of a blog post, and often seeing this photo. I'm also humbled by the people who tell me the stories of who they thought I was, before they got to know me, and how that dramatically shifted once they met me. People think I'm all sorts of crazy things, without ever actually having a conversation with me.
 

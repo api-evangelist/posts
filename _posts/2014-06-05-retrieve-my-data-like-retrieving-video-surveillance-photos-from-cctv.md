@@ -1,16 +1,14 @@
 ---
 layout: post
 title: Retrieve My Data Like Retrieving Video Surveillance Photos From CCTV
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-surveillance-camera.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-surveillance-camera.jpg
 author:
   name: kinlane
-date: 2014-06-05T00:44:26.000Z
+date: 2014-06-05 00:44:26+00:00
 tags:
-  - My
-  - Data
-  - Video
-  - Surveillance
+- Data
+- Video
+- Surveillance
 ---
 I’m an advisor to the camera API platform, [EverCam](https://www.evercam.io/). I don’t advise the startup because I’m super excited about the opportunities for APIs for security cameras. I'm involved because I believe in the Evercam team, and I want to be aware of this fast growing aspect of the Internet of things and API economy. Security cameras are not going away, and I want to help lend some critical thought to how we use security cameras, and apply APIs to help introduce transparency and accountability into this easily abused layer of our society.
 

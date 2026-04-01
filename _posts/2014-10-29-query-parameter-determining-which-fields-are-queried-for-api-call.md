@@ -4,7 +4,10 @@ title: Query Parameter Determining Which Fields Are Queried For API Call
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-question-mark.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Design
 ---
 I was taking a look through the [NewsCred API](http://www.newscred.com/developer/docs) yesterday and there was a parameter I have seen before, but find interesting, and wanted to share with you. It was a field called query\_fields, which you could include the fields you wished to have searched, using a keyword provided in the parameter “q”.
 

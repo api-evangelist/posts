@@ -1,17 +1,15 @@
 ---
 layout: post
 title: Salesforce Plans to Move Code Share to Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/salesforce-code-share.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/salesforce-code-share.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Plans
-  - Sales
-  - Salesforce
-  - Code
-  - Git
+- Github
+- Plans
+- Sales
+- Salesforce
+- Code
 ---
 Salesforce has a pretty cool [Code Share](http://developer.force.com/codeshare/apex/resultspage?l=mru&title=All%20Projects "code share") area within the DeveloperForce ecosystem, which allows developers to share code snippets with the rest of the community.
 

@@ -1,11 +1,18 @@
 ---
 layout: post
 title: What is ALPS?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/alps-io-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/alps-io-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Google
+- Hypermedia
+- Mapping
+- Messaging
+- Mobile
 ---
 I was watching an [open thread around ALPS over at API Craft](https://groups.google.com/forum/#!topic/api-craft/mSFq__019ik), something that is on my working list to better understand, apply more in my world, and tell the story all along the way. ALPS author, and API visionary (;-) Mike Amundsen ([@mamund](/admin/blog/mamund)) responded to the thread with a nice overview, which I wantd to repost and share with you.
 

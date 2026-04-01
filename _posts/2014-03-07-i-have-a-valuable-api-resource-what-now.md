@@ -1,11 +1,18 @@
 ---
 layout: post
 title: I Have A Valuable API Resource, What Now?
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/pop-up-archive/pop-up-archive-logo.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/pop-up-archive/pop-up-archive-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Deployment
+- Documentation
+- Evangelism
+- Integration
+- Media
+- Monitoring
 ---
 One of the most enjoyable thing about being the API Evangelist is talking to API providers about their strategy, and helping brainstorm what they should do next. I have multiple APIs I do this with regularly, either because I’m an advisor, big fan, or simply because they pay me. ;-) My favorite discussions are from the providers that are fine with me retelling their story publicly, APIs like the [Cashtie API](https://www.cashtie.com/) and the [Popup Archive](https://popuparchive.com/).
 

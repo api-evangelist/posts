@@ -1,20 +1,17 @@
 ---
 published: true
 layout: post
-title: >-
-  Making Sure The APIs Being Served Up Via Your Enterprise Service Bus (ESB) Are
-  Discoverable and Consumable Using APIs.json and Swagger
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/warewolf-esb-logo.png
+title: Making Sure The APIs Being Served Up Via Your Enterprise Service Bus (ESB) Are Discoverable and Consumable Using APIs.json
+  and Swagger
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/warewolf-esb-logo.png
 author:
   name: kinlane
 tags:
-  - Enterprise
-  - Discover
-  - APIs.json
-  - Swagger
-  - APIs
-  - APIs.jso
+- Enterprise
+- Discovery
+- APIs.json
+- Swagger
+- APIs
 ---
 Making sure APIs that are available via the enterprise service bus, affectionately known as an ESB, more discoverable, accessible, and consumable via the open Internet, is one of the many challenges organizations will face along their API journey. Striking a balance between internal APIs, and public APIs, even if they aren’t open to the wider public, and only partners, is proving to be a big challenge for many enterprise groups I am engaged in conversations with.
 

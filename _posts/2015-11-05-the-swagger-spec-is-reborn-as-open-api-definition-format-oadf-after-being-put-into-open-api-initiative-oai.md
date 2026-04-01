@@ -1,17 +1,14 @@
 ---
 layout: post
-title: >-
-  The Swagger Spec Is Reborn As Open API Definition Format (OADF) After Being
-  Put Into Open API Initiative (OAI)
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/open-api-logo.png
+title: The Swagger Spec Is Reborn As Open API Definition Format (OADF) After Being Put Into Open API Initiative (OAI)
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/open-api-logo.png
 author:
   name: kinlane
 tags:
-  - Definition
-  - Swagger
-  - AI
-  - Open
+- Definitions
+- Swagger
+- AI
+- Open
 ---
 We reached another significant milestone in the API space today, after being acquired by SmartBear this spring, the Swagger specification is being moved into a Linux Foundation grouped called the [Open API Initiative (OAI)](https://openapis.org/).
 

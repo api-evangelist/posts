@@ -1,11 +1,18 @@
 ---
 layout: post
 title: LearnSrout Says IlluminateEd API is Best Student Information System API So Far
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/learnsprout-logo.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/learnsprout-logo.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Authentication
+- Communications
+- Data
+- Documentation
+- Education
+- Email
 ---
 I got an email from Anthony Wu over at [LearnSprout](http://learnsprout.com/#home) yesterday. If you are not following what LearnSprout is up to, they are bridging legacy student information systems (SIS) and providing easy to use web APIs that application developers can use to build educational apps.
 

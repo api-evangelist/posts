@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Github is the Social Network of the Future
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-transparent.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-transparent.png
 author:
   name: kinlane
 tags:
-  - Social
-  - Github
-  - Network
-  - Git
+- Social
+- Github
+- Network
 ---
 There is a lot of news about social networks in the last couple of weeks, with [Facebook reaching 1B users](http://go.bloomberg.com/tech-blog/2012-10-04-facebook-grows-to-1-billion-users-creates-video-to-show-global-reach/), a [brand new look for MySpace](http://www.altpress.com/news/entry/myspace_gets_new_look_stays_true_to_its_roots) giving people hope for the struggling social network, the [great Twitter migration to App.net](http://apivoice.com/2012/10/04/has-the-great-twitter-migration-to-app.net-begun/ "great twitter migration to app.net") and what a [master of improv Dick Costolo is, writing Twitters script](http://www.nytimes.com/2012/10/07/technology/dick-costolo-of-twitter-an-improv-master-writing-its-script.html).
 

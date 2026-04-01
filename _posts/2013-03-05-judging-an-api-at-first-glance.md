@@ -1,11 +1,17 @@
 ---
 layout: post
 title: Judging an API At First Glance
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/judging-gavel.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/judging-gavel.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Communications
+- Documentation
+- Google
+- Support
+- Twitter
 ---
 I’m a little behind in working through my list of new APIs to review. So I’m spending about 3 hours each day going through my list of new APIs accumulated from [ProgrammableWeb](http://programmableweb.com), Tweets, Bookmarks, Google Alerts and other ways I have for discovering new APIs.
 

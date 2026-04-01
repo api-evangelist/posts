@@ -1,11 +1,18 @@
 ---
 layout: post
 title: I Will Be At API Days in Paris This Week, Will You Be There?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-fonz.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-fonz.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Deployment
+- Design
+- Education
+- Evangelism
+- Monetization
 ---
 I'm pretty excited about heading to Paris this week to speak at [API Days](http://apidays.io/ "API Days"). The is the 2nd edition of the original french edition of API Days, and they have organized over 60 talks across two days: December 4th and 5th.
 

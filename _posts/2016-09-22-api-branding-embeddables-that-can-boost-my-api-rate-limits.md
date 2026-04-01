@@ -1,15 +1,13 @@
 ---
 layout: post
 title: API Branding Embeddables That Can Boost My API Rate Limits
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_boost_incentives.png
-atomdate: 2016-09-22T22:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_boost_incentives.png
+atomdate: 2016-09-22 22:00:00+00:00
 tags:
-  - My
-  - Embeddable
-  - Rate Limits
-  - Embeddables
-  - Branding
+- Embeddable
+- Rate Limits
+- Embeddables
+- Branding
 ---
 I'm expanding on my [API branding research](http://branding.apievangelist.com/), putting some thought into [how we might be able to include branding and attribution in API responses](http://apievangelist.com/2016/09/22/providing-branding-and-attribution-assets-with-each-api-response/). Next, I'd like to brainstorm ways to incentivize both API providers, as well as API consumers to employ sensible branding practices. You'd think API providers would be all over this stuff, but for some reason, they seem to need as much encouragement, and structure as API consumers do--this is why I'm wanting to explore how I can drive both sides.
 

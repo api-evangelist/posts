@@ -1,13 +1,13 @@
 ---
 title: A Zapier Advocate And Dedicated API Resources Page For Your Company
-date: 2017-07-12T09:00:00.000Z
+date: 2017-07-12 09:00:00+00:00
 published: true
 layout: post
 tags:
-  - API Evangelist
-  - iPaaS
-  - Zapier
-  - 101
+- API Evangelist
+- iPaaS
+- Zapier
+- '101'
 image: https://s3.amazonaws.com/kinlane-productions2/zapier/zapier-icons.png
 ---
 <p><a href="ttps://zapier.com"><img src="https://s3.amazonaws.com/kinlane-productions2/zapier/zapier-icons.png" align="right" width="40%" style="padding: 15px;" /></a></p>

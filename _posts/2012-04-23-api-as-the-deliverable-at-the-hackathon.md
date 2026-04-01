@@ -1,11 +1,14 @@
 ---
 layout: post
 title: API as the Deliverable at the Hackathon
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-500.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-500.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Mobile
 ---
 At most [hackathons](/events/ "Hackathons"), the end goal is building a web or mobile application, using various platforms and APIs. Even though I’ve seen this evolve to data visualization, or mashing up SaaS platforms at some events, the app really tends to be the primary deliverable at hackathons.
 

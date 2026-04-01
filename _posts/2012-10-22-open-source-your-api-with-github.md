@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Open Source Your API With Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-text-horizontal.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-text-horizontal.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Open Source
-  - Open
-  - Git
+- Github
+- Open Source
+- Open
 ---
 [Github](https://github.com/ "Github") is a frequently used service in the toolbox of API owners. The most common use of Github is for publishing API SDKs in a variety of languages and platforms. But when it comes to truly being an "open API", some API owners are actually open sourcing their API design using Github.
 

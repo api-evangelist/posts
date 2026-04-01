@@ -1,12 +1,15 @@
 ---
 layout: post
 title: The Building Blocks of a Successful API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/building
-  blocks.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/building blocks.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Evangelism
+- Monetization
+- Support
 ---
 When I started API Evangelist two years ago, I noticed some common practices by API owners, in how they tailored their API areas, and I started calling these [API building blocks](/buildingblocks/ "API Building Blocks"). I started a section of the site dedicated to my building block philosphy and showcased what I felt were the most common building blocks across the most successful APIs.
 

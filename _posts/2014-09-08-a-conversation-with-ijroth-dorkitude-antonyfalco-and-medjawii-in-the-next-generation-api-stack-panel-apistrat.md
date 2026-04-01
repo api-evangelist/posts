@@ -1,16 +1,12 @@
 ---
 layout: post
-title: >-
-  A Conversation With @ijroth, @dorkitude, @antonyfalco, and @medjawii In The
-  Next Generation API Stack Panel @APIStrat
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-stacks.png
+title: A Conversation With @ijroth, @dorkitude, @antonyfalco, and @medjawii In The Next Generation API Stack Panel @APIStrat
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-stacks.png
 author:
   name: kinlane
 tags:
-  - APIStrat
-  - Stack
-  - Generation
+- APIStrat
+- Generation
 ---
 When I think about the concept "API mashup", It conjures up visions of clever hacks using Twitter and Google Maps from 2008 or 2009, where savvy developers would find innovative ways to mashup two or more APIs, and deliver some sort of web, and eventually mobile application on top of a couple of common APIs.
 

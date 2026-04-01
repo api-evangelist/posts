@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Github
-  - Git
+- Github
 ---
 Github launched some[enhancements to its GitHub Jobs homepage](https://github.com/blog/836-github-jobs-update "enhancements to its Github Jobs homepage"), and IPhone application.
 

@@ -1,10 +1,12 @@
 ---
 layout: post
 title: CRX Extractor Wins For The Best Customer Quote Ever
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Get__CRX_Chrome_Extension_file__it_s_source_code_and_download__CRX_to_your_computer_.png
-atomdate: 2016-08-24T22:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Get__CRX_Chrome_Extension_file__it_s_source_code_and_download__CRX_to_your_computer_.png
+atomdate: 2016-08-24 22:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Evangelism
 ---
 Having quotes from your customers on your company website is a no-brainer. Finding the best examples of brands and companies putting your valuable service, or tool to work demonstrates it has value, and that people are using it.
 

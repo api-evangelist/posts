@@ -1,11 +1,16 @@
 ---
 layout: post
 title: 'Simple API Example: Company Listing'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/baas-trends.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/baas-trends.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Evangelism
+- Github
+- Versioning
 ---
 I'm always looking for dead simple examples of what an API is to help average folk understand what APIs are, and how they can be applied in their worlds.
 

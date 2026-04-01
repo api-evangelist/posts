@@ -1,15 +1,12 @@
 ---
 layout: post
-title: >-
-  Exploring My thoughts Around API Injection Into Messaging, Voice, And Other
-  Online Experiences
+title: Exploring My thoughts Around API Injection Into Messaging, Voice, And Other Online Experiences
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-injection.png
 tags:
-  - My
-  - Voice
-  - Messaging
-  - Experiences
-  - Experience
+- Voice
+- Messaging
+- Experiences
+- Experience
 ---
 [As I listen to my hangout with Wade Foster of Zapier](http://apievangelist.com/2016/02/23/my-hangout-with-wade-foster-of-zapier-its-about-the-process/), I'm considering the overlap between my API [reciprocity](http://reciprocity.apievangelist.com/), [bots](http://bots.apievangelist.com/), [virtualization](http://virtualization.apievangelist.com/), [containerization](http://containerization.apievangelist.com/), [webhooks](http://webhooks.apievangelist.com/), and even [voice](http://voice.apievangelist.com/) research. At the same time I'm thinking about how APIs are being used to inject valuable data, content, and other valuable API driven resources to the stream of existing applications we use every day. 
 

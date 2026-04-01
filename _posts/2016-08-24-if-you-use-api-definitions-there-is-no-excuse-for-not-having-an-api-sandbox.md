@@ -1,13 +1,11 @@
 ---
 layout: post
 title: If You Use API Definitions There Is No Excuse For Not Having An API Sandbox
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Sandbox_-_Quickly_create_REST_API_and_SOAP_mock_web_services.png
-atomdate: 2016-08-24T20:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Sandbox_-_Quickly_create_REST_API_and_SOAP_mock_web_services.png
+atomdate: 2016-08-24 20:00:00+00:00
 tags:
-  - Definitions
-  - Definition
-  - Sandbox
+- Definitions
+- Sandbox
 ---
 I have long been a proponent of using [API definitions](http://definitions.apievangelist.com/), not just because you can deploy interactive API documentation, but because they open up almost every other stop along the API life cycle. Meaning, if you have an OpenAPI Spec definition for your API you can also generate SDKs using APIMATIC, and API monitors using Runscope. 
 

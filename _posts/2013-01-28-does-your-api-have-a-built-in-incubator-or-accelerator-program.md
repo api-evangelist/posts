@@ -1,11 +1,17 @@
 ---
 layout: post
 title: Does Your API Have a Built in Incubator or Accelerator Program?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Nike-Accelerator.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Nike-Accelerator.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Developers
+- Evangelism
+- Mobile
+- Support
 ---
 API ecosystems are all about research & development, and an opportunity for incubating ideas and apps in a way that invites 3rd party developers and companies to develop innovative ways of using your company assets and resources. I’ve discussed [incubation within an API ecosystem before,](http://apievangelist.com/2012/01/31/four-potential-levels-of-an-api-business-ecosystem/) and how companies are not just identifying developer talent and the best apps, but actually investing in companies via their API.
 

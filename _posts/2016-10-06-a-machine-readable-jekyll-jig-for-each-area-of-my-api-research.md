@@ -1,13 +1,11 @@
 ---
 layout: post
 title: A Machine Readable Jekyll Jig For Each Area Of My API Research
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puzzle-piece-gear.png
-atomdate: 2016-10-06T16:00:00.000Z
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puzzle-piece-gear.png
+atomdate: 2016-10-06 16:00:00+00:00
 tags:
-  - My
-  - Jekyll
-  - Research
+- Jekyll
+- Research
 ---
 [I have over 70 areas of research occurring right now as part of my API lifecycle work](http://apievangelist.com)\--these are areas that I feel directly impact how APIs are provided and consumed today. [Each of these areas lives as a Github repository](https://github.com/api-evangelist), using Github Pages as the front-end of the research. 
 

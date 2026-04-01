@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-happy-face.jpeg
 author:
   name: kinlane
 tags:
-  - My
-  - Hypermedia
-  - Experience
+- Hypermedia
+- Experience
 ---
 I wish I had more time to spend on designing, and deploying APIs the way I desired. Without any real funding of individual APIs, I can only go so far with them, which usually doesn't go beyond the minimal viable API. However, even with this reality, I have two APIs I would love to see done right, and keep nagging at me.
 

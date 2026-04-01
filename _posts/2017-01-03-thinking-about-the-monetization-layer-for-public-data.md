@@ -2,12 +2,11 @@
 layout: post
 title: Thinking About The Monetization Layer For Public Data
 image: null
-atomdate: 2017-01-03T23:00:00.000Z
+atomdate: 2017-01-03 23:00:00+00:00
 tags:
-  - Monetization
-  - Data
-  - Public Data
-  - Public
+- Monetization
+- Data
+- Public Data
 ---
 This is my walk-through of the concepts involved with the monetization of public data using APIs. In this work I am not advocating that companies should be mindlessly profiting from publicly available data, my intent is to provide a framework for organizations to think through the process of generating revenue from commercial access to public data, acknowledging that it costs money to aggregate, serve up, and keep data up to date and usable for the greater public good--if public data is not accessible, accurate, and up to date it is of no use to anyone.
 

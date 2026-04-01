@@ -4,7 +4,15 @@ title: The edX API
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/edx/edx-logo.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Analytics
+- Authentication
+- Business
+- Communications
+- Data
 ---
 This post should tell you about how behind I am in my storytelling—this story is from an [event I attended in Arlington TX](/admin/blog/google), on April 30th, and May 1st. While in Arlington, I spoke to a group of professionals who were crafting an online data & analytics course. A couple of the participants were from edX, the online course platform partnership between MIT, Harvard, UC Berkeley and other universities.
 

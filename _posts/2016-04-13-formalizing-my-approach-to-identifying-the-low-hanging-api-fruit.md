@@ -2,8 +2,7 @@
 layout: post
 title: Formalizing My Approach To Identifying The Low Hanging API Fruit
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-grapes.png
-tags:
-  - My
+tags: []
 ---
 I get approached by folks all the time who are looking to do APIs at their company, organization, institution, or government agency. The reasons behind these desires to do APIs vary widely. Some want to do API to deliver a specific web or mobile app, while many others just understand they need to get started somewhere, but are unsure of exactly where to begin with this daunting, never-ending task. 
 

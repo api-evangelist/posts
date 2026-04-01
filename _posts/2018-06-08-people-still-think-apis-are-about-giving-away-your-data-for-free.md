@@ -2,15 +2,13 @@
 published: true
 layout: post
 title: People Still Think APIs Are About Giving Away Your Data For Free
-date: 2018-06-08T09:00:00.000Z
+date: 2018-06-08 09:00:00+00:00
 tags:
-  - API Evangelist
-  - Management
-  - Security
-  - Public
-  - Training
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/adam-smith_dali_three.jpg
+- API Evangelist
+- Management
+- Security
+- Training
+image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/adam-smith_dali_three.jpg
 ---
 <p></p>After eight years of educating people about sensible API security and management, I'm always amazed at how many people I come across who still think public web APIs are about giving away access to your data, content, and algorithms for free. I regularly come across very smart people who say they'd be doing APIs, but they depend on revenue from selling their data and content, and wouldn't benefit from just putting it online for everyone to download for free.
 

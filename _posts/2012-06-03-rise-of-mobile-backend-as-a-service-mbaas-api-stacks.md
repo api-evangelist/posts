@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Rise of Mobile Backend as a Service (MBaaS) API Stacks
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kinvey-logo-300.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kinvey-logo-300.png
 author:
   name: kinlane
 tags:
-  - Mobile
-  - Stack
-  - Backend
+- Mobile
+- Backend
 ---
 Mobile is fueling a lot of API growth right now. Or is it APIs fueling a lot of Mobile growth right now? Either way, APIs and Mobile go together like chocolate and peanut butter (or Nutella as my girlfriend would say).
 

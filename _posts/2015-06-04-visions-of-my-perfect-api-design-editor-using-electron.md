@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Visions Of My Perfect API Design Editor Using Electron
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/electron/electron-editor.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/electron/electron-editor.png
 author:
   name: kinlane
 tags:
-  - My
-  - Design
-  - Editor
-  - Vision
+- Design
+- Editor
+- Vision
 ---
 Darrel Miller([@darrel\_miller](https://twitter.com/darrel_miller)) reminded me of the [desktop development platform Electron](http://electron.atom.io/) the other day, with his story on [Moving Beyond the Browser with JavaScript and Hypermedia](http://blog.runscope.com/posts/moving-beyond-the-browser-with-javascript-and-hypermedia). I had been eyeballing Electron as a potential candidate for [my perfect API design editor](http://apievangelist.com/2014/06/25/if-i-could-design-my-perfect-api-design-editor/), something I honestly don't have the bandwidth to build, but is something I enjoy pushing forward in thought.
 

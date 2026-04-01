@@ -5,7 +5,13 @@ url: http://apievangelist.com/2011/04/01/the-mendeley-api-binary-battle/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Management
+- Media
+- Social
 ---
 [Mendeley](http://www.mendeley.com/ "Mendeley"), the academic social network for organizing, discovering and collaborating around research, has announced an API contest.
 

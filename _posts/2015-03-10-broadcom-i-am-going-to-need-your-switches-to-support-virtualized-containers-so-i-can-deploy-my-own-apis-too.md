@@ -1,18 +1,14 @@
 ---
 layout: post
-title: >-
-  @Broadcom, I Am Going To Need Your Switches To Support Virtualized Containers
-  So I Can Deploy My Own APIs Too
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/cloud_scale_net_chip.jpg
+title: '@Broadcom, I Am Going To Need Your Switches To Support Virtualized Containers So I Can Deploy My Own APIs Too'
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/cloud_scale_net_chip.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Containers
-  - Support
-  - APIs
-  - ai
+- Containers
+- Support
+- APIs
+- ai
 ---
 While processing the news today over at [API.Report](http://api.report), I came across a [story about Broadcom delivering an API for managing their latest network infrastructure](http://api.report/2015/03/10/broadcom-open-switch-apis-drive-innovation-in-network-infrastructure/). The intersection of Software Defined Networking (SDN) and Application Programming Interface (API) is something I’m paying closer attention to lately. Hmmm. SDN + API = Brand New Bullshit Acronym? Meh. Onward, I just can’t slow down to care--{"packet keep moving"}.
 

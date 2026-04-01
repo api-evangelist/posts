@@ -5,10 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-nose-disguise.p
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Definition
-  - Consumers
-  - Consumer
+- Definitions
+- Consumers
+- Consumer
 ---
 I am always pleased to see API providers publishing Swagger definitions, and using them to drive their interactive documentation. Projects like the [Global Change Information System API](http://data.globalchange.gov/), are getting on the API definition bandwagon, and this is a good thing. I have been pushing API definition formats like Swagger and API Blueprint since 2012, but in 2015, while I want to keep on-boarding folks to the concept of using API definitions for interactive documentation, but I also want them to also understand that their APIs definition will be used in other areas of API operations as well.
 

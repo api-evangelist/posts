@@ -1,14 +1,13 @@
 ---
 layout: post
 title: Modern API Service Providers Need To Speak Common API Definition Formats
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-speak-api-definitions.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-speak-api-definitions.png
 author:
   name: kinlane
 tags:
-  - Definition
-  - Providers
-  - Service Providers
+- Definitions
+- Providers
+- Service Providers
 ---
 I play with a lot of services that target the API space each week, during my regular monitoring of the space. These are services from all along the API lifecycle that service this space, from design to integration, that target both API provider and API consumer. After I on-board with a service, there is one trend I see emerging that really puts service providers into two distinct buckets. 
 

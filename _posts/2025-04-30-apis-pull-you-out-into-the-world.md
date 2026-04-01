@@ -2,12 +2,11 @@
 published: true
 layout: post
 title: APIs Pull You Out Into The World
-date: 2025-04-30T09:00:00.000Z
+date: 2025-04-30 09:00:00+00:00
 tags:
-  - Public
-  - External
-  - Outside
-  - Variety
+- External
+- Outside
+- Variety
 image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-hiding-monster-statue.jpg
 ---
 I heard someone at an API security conference here in NYC a couple weeks back mention how most of the API management, security, and governance solutions out there didn’t really meet their needs cause they were a large global company and had very different needs. I’ve heard this many times over from enterprises who aren’t quite listening to the message of what APIs are about and strongly believe in the culture of their companies, despite a significant amount of external and internal evidence pushing them to evolve. 

@@ -1,11 +1,14 @@
 ---
 layout: post
 title: API Enabled Toys For Our Children
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fisher-price-internet-enabled-device.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fisher-price-internet-enabled-device.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Security
 ---
 When it comes to the Internet of Things, APIs have a bright future. I tend to focus on the greater good when showcasing APIs, but occasionally I get tripped up by the market potential of APIs. I came across the [Baby Toys Get an App Extension](http://gadgetwise.blogs.nytimes.com/2013/05/01/baby-toys-get-an-app-extension/) post in the New York Times this week, and I can't think of a more lucrative market for API interaction via a smart phone, than a baby or toddler's toys.
 

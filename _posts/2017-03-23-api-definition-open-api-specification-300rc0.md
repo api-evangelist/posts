@@ -1,12 +1,11 @@
 ---
 layout: post
 title: 'API Definition: Open API Specification 3.0.0-RC0'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_openapi_30_screenshot.png
-atomdate: 2017-03-23T19:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_openapi_30_screenshot.png
+atomdate: 2017-03-23 19:00:00+00:00
 tags:
-  - Definition
-  - Open
+- Definitions
+- Open
 ---
 _This is an article from the current edition of the [API Evangelist industry guide to API definitions](http://definitions.apievangelist.com/guide/). The guide is designed to be a summary of the world of API definitions, providing the reader with a recent summary of the variety of specifications that are defining the technology behind almost every part of our digital world._
 

@@ -2,12 +2,11 @@
 published: true
 layout: post
 title: Uses And Disclosures Of Protected Health Information (45 CFR 164.502)
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-social-services-api.png
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-social-services-api.png
 author:
   name: kinlane
 tags:
-  - 4
+- '4'
 ---
 I am working my way through [Title 45](http://www.ecfr.gov/cgi-bin/text-idx?gp=&SID=c441be5b4dae3a7bcd23a1c7b98bbf60&mc=true&tpl=/ecfrbrowse/Title45/45tab_02.tpl), which is the principle set of rules and regulations issued by [federal agencies of the United States](https://en.wikipedia.org/wiki/Federal_agencies_of_the_United_States "Federal agencies of the United States") regarding public welfare. I've made my way through the [security standards](http://www.ecfr.gov/cgi-bin/text-idx?SID=938e08839465e82e2c30c3bd4a359ce2&node=pt45.1.164&rgn=div5%23se45.1.164_1402#sp45.1.164.c), and the [breach notification](http://www.ecfr.gov/cgi-bin/text-idx?SID=938e08839465e82e2c30c3bd4a359ce2&node=pt45.1.164&rgn=div5%23se45.1.164_1402#sp45.1.164.d) portions, but can't help but feel that much of the "[uses and disclosures of protected health information](http://www.ecfr.gov/cgi-bin/text-idx?SID=938e08839465e82e2c30c3bd4a359ce2&node=pt45.1.164&rgn=div5%23se45.1.164_1402#se45.1.164_1502)" section should be closely evaluated for consideration beyond healthcare.
 

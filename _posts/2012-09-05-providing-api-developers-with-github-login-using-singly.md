@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Providing API Developers with Github Login Using Singly
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/singly-plus-github.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/singly-plus-github.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Developers
-  - Login
-  - Git
+- Github
+- Developers
+- Login
 ---
 I’m building a small API that I want to allow developers to register for. I don’t want to make it a complicated registration process, I just want them to provide some sort of credentials and I will issWue a key that they can use to make API calls.
 

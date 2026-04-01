@@ -1,14 +1,12 @@
 ---
 layout: post
 title: On Losing My Storytelling Voice
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-voice.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-voice.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Voice
-  - Storytelling
+- Voice
+- Storytelling
 ---
 [photo credit](http://sarasvati.ca/season/giving-voice/)
 

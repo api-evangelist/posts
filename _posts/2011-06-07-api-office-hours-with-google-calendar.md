@@ -4,7 +4,13 @@ title: API Office Hours with Google Calendar
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Communications
+- Evangelism
+- Google
+- Support
 ---
 Google Calendar has a [new feature for managing "Appointment Slots"](http://www.google.com/support/calendar/bin/answer.py?answer=190998 "new feature for managing appointment slots"). These appointment slots are a great way to let others know preferred times when you are available.
 

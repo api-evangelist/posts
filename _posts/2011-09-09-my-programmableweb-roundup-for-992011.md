@@ -1,13 +1,11 @@
 ---
 layout: post
 title: My ProgrammableWeb Roundup for 9/9/2011
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/watertown-ma-sign.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/watertown-ma-sign.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Web
+- Web
 ---
 I made time for three posts on [ProgrammableWeb](http://blog.programmableweb.com/ "ProgrammableWeb") this week. I provided some more coverage of Dreamforce, and their latest mobile platform.  Then I covered the US invasion of Viadeo Social Network, and called out the Government software provider TylerTech about their lack of API support for cities across the country.  Check the blog posts out for yourself:
 

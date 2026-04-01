@@ -1,16 +1,14 @@
 ---
 layout: post
 title: My Open Data Panel At APIDaysBerlin and APIStrat This Friday In Berlin
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/apistrat-berlin-2015/apistrat-apidays-logo2.png
+image: https://s3.amazonaws.com/kinlane-productions2/events/apistrat-berlin-2015/apistrat-apidays-logo2.png
 author:
   name: kinlane
 tags:
-  - My
-  - Data
-  - APIStrat
-  - Open Data
-  - Open
+- Data
+- APIStrat
+- Open Data
+- Open
 ---
 In addition to helping be the MC for the API event, one of the conversation I am facilitating at [@APIDaysBerlin / @APIStrat Europe this Friday in Berlin](http://apidaysberlin2015.apistrat.com/), is an open data discussion on the main stage. What better place to discuss the world of open data and API, then in Germany. The country has some of the strictest laws when it comes to protecting the privacy of German citizens, and when it comes to API access to data, I couldn't think of a better place to have an open discussion in 2015.
 

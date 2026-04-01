@@ -1,12 +1,10 @@
 ---
 layout: post
 title: API Definitions Should Be Done By The API Provider
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puzzle-piece-gear.png
-atomdate: 2017-04-27T18:00:00.000Z
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puzzle-piece-gear.png
+atomdate: 2017-04-27 18:00:00+00:00
 tags:
-  - Definitions
-  - Definition
+- Definitions
 ---
 I talk to a lot of API service and tooling providers about API definitions. I've long been an advocate for API service providers supporting OpenAPI, as well as a variety of API definition formats--if you are having trouble doing this, check out [API Transformer](https://apimatic.io/transformer). While service providers are an important link in the API definition chain, support of API specification by API providers themselves, and the availability of definitions for all of their APIs is another very critical link in this API supply chain.
 

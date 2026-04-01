@@ -1,13 +1,11 @@
 ---
 layout: post
 title: 'Deploy API: Public Google Spreadsheet to API'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-google-docs.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-google-docs.png
 author:
   name: kinlane
 tags:
-  - Spreadsheet
-  - Public
+- Spreadsheet
 ---
 I'm working on a series of simple scripts that help people deploy APIs from some of the most common data sources. I'm starting with a series of PHP scripts, and next up is a public Google Spreadsheet to API, using JSON stored in Github.
 

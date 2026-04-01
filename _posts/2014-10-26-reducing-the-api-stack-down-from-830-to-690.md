@@ -4,8 +4,7 @@ title: Reducing The API Stack Down From 830 to 690
 image: https://s3.amazonaws.com/kinlane-productions2/api-stack/api-stack-logo.png
 author:
   name: kinlane
-tags:
-  - Stack
+tags: []
 ---
 I just finished going through my [API Stack](http://theapistack.com/), taking a fresh look at each API provider, and recording some information about each of the providers in my API monitoring system. When I started looking through my stack a couple days ago there was 830 companies listed, and after this pass through I carved the stack down to 690--why?
 

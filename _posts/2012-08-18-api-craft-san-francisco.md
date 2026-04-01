@@ -1,11 +1,15 @@
 ---
 layout: post
 title: API Craft San Francisco
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Craft-SFO-July-2012.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Craft-SFO-July-2012.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Definitions
+- Evangelism
+- Twitter
 ---
 On the heels of the successful [API Craft meetup in Portland during OSCON](http://apievangelist.com/2012/07/20/definition-of-api-craft/ "API Craft OSCON Portland, OR"), I was landing in San Francisco for a few days and at the request of SFO API folk, quickly organized a meetup at the Chieftain Pub, and thanks to [@abraham](https://twitter.com/abraham "@abraham") it was a great turnout.
 

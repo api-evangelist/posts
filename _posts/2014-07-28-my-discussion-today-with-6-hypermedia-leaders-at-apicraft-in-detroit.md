@@ -1,13 +1,11 @@
 ---
 layout: post
 title: My Discussion Today With 6 Hypermedia Leaders At API-Craft in Detroit
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-craft/api-craft-logo.png
+image: https://s3.amazonaws.com/kinlane-productions2/events/api-craft/api-craft-logo.png
 author:
   name: kinlane
 tags:
-  - My
-  - Hypermedia
+- Hypermedia
 ---
 I'm preparing for my hypermedia panel at [API Craft Detroit](http://api-craft.org/) today. The API Craft organizers have brought together one of the most important line-ups, when it comes to the hypermedia API discussion, that I've ever seen. To prepare for the discussion,  I've spent time profiling each of the panelist, to help me, and hopefully you, better understand who they are:
 

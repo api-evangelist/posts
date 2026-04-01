@@ -6,11 +6,10 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-feedback-loop.p
 author:
   name: kinlane
 tags:
-  - Feedback Loop
-  - APIs.json
-  - APIs
-  - Feedback
-  - APIs.jso
+- Feedback Loop
+- APIs.json
+- APIs
+- Feedback
 ---
 If you are following some of my recent stories, I’m heavily focused on [APIs.json](http://apisjson.org), as [I work to organize my own stack of microservices](https://kin-lane.github.io/master/index.html), using APIs.son and [Swagger](http://swagger.io). I’m working hard to define additional, machine readable layers to my microservices index that answer as many of the questions that I have about the microservices and APIs that I depend on.
 

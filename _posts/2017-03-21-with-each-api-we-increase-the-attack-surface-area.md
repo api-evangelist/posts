@@ -2,8 +2,15 @@
 layout: post
 title: With Each API We Increase The Attack Surface Area
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-target.png
-atomdate: 2017-03-21T18:00:00.000Z
-tags: []
+atomdate: 2017-03-21 18:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Design
+- Evangelism
+- Government
+- Mobile
+- Security
 ---
 It is easy for me to get excited about a new API. I'm an engineer. I'm a dude. I am the API Evangelist. It easy to think about the potential for good when it comes to APIs. It is much harder to suspend the logical side of my brain and think about the ways in which APIs can be used in negative ways. As a technologist it is natural for me to focus in on the technology, and tune out the rest of the world--it is what we do. It takes a significant amount of extra effort to stop, suspend the portion of your brain that technology whispers to, and think about the unintended consequences, and the pros and cons of why we are doing APIs.
 

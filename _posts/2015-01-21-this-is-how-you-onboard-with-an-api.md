@@ -1,11 +1,18 @@
 ---
 layout: post
 title: This Is How You On-Board With An API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-hourglass.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-hourglass.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Automation
+- Data
+- Deployment
+- Email
+- Evangelism
+- Federal Government
 ---
 I sign up for a lot of APIs, and when I encounter a frictionless on-boarding process, I feel the need to showcase, and help everyone understand how important it is to make the process as easy as possible. I'm still amazed at how many new APIs make this really, really hard. I will write a separate story after this about how not to on-board with an API, but for now lets take a look at a kick-ass example.
 

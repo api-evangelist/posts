@@ -5,11 +5,10 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-blog-to-news.pn
 author:
   name: kinlane
 tags:
-  - My
-  - Analysis
-  - Blog
-  - News
-  - APIs
+- Analysis
+- Blog
+- News
+- APIs
 ---
 When I started API Evangelist, I knew I didn't want to use WordPress or other common CMS, so I developed my own API, and page and blogging CMS. During the latest migration of my internal API infrastructure, I'm rebuilding everything as a [single stack of APIs](https://kin-lane.github.io/master/) that I  can use to operate API Evangelist. Part of this process is breaking down legacy systems, into the small possible unit of value, something I consider deeply as I rebuild each API.
 

@@ -2,15 +2,13 @@
 published: true
 layout: post
 title: Why Don&#039;t I Have Easy Access to all My Online Personal Data
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/facebook/Facebook+Download+Your+Archive.png
+image: https://s3.amazonaws.com/kinlane-productions2/facebook/Facebook+Download+Your+Archive.png
 author:
   name: kinlane
 tags:
-  - My
-  - Data
-  - Access
-  - Personal
+- Data
+- Access
+- Personal
 ---
 I was just downloading all of my Facebook data. You can [go under your account settings and there is a little link](https://www.facebook.com/download) that lets you download everything.  It takes some time to generate a full archive, but once my archive is ready, they’ll email me and I can get at my data and see what the download format looks like.
 

@@ -1,15 +1,12 @@
 ---
 layout: post
-title: >-
-  I Like Being Able To Verify A Developer Is Real Before Giving Them Access to
-  My APIs
+title: I Like Being Able To Verify A Developer Is Real Before Giving Them Access to My APIs
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-imperial-droid.png
 author:
   name: kinlane
 tags:
-  - My
-  - Access
-  - APIs
+- Access
+- APIs
 ---
 [As I think about the bad behavior that occurs on the API consumption side of API operations](http://apievangelist.com/2015/11/29/the-bad-actors-on-both-sides-of-the-api-fence/), I'm considering ways that I can help API providers address these problems when they arise within their ecosystems. What can you do when bad actors have access to your APIs? Also more critically for some providers, what can you do to prevent bad actors from on-boarding with your API program at all?
 

@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dictionary.png
 author:
   name: kinlane
 tags:
-  - My
-  - Collections
-  - Collection
+- Collections
+- Collection
 ---
 I’m playing around with different ways to compose, and examine collections of APIs. I have a database of over 2500 API that I keep an eye on, and for some of them I’ve been generating Swagger specs, and using [APIs.json](http://apisjson.org) to compose them into collections. I did this with 1[0 APIs I'm calling my utility stack](http://apievangelist.com/2014/10/10/exploring-the-possibilities-of-being-an-api-broker/), because they are some of the fundamental utility style resources I depend on to make the API Evangelist network function.
 

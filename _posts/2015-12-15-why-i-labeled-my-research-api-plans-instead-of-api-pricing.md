@@ -5,10 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-plan.png
 author:
   name: kinlane
 tags:
-  - My
-  - Plans
-  - Research
-  - Pricing
+- Plans
+- Research
+- Pricing
 ---
 How to monetize APIs is on of the top questions I get from companies, right after concerns around security and control. I have separated my research into two main buckets, the [first is focused on the questions I should be asking around API monetization as I'm planning my strategy](http://monetization.apievangelist.com/), with [the second focused on the actual plans for the operations of leading API providers](http://plans.apievangelist.com/). There is a lot of overlap between the two, but I guess API monetization is more strategy, and API plans is more about operations.
 

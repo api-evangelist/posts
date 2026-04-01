@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Taxation On Public Data Via The API Management Layer
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_percentage_api.png
-atomdate: 2017-05-06T01:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_percentage_api.png
+atomdate: 2017-05-06 01:00:00+00:00
 tags:
-  - Data
-  - Management
-  - API Management
-  - Public Data
-  - Public
+- Data
+- Management
+- API Management
+- Public Data
 ---
 I'm involved in some very interesting conversations with public data folks who are trying to push forward the conversation around sensible revenue generation by cities, counties, state, and the federal government using public data. I'm learning a lot from these conversations, resulting in the expansion and evolution my perceptions of how the API layer can help the government develop new revenue streams through making public data more accessible.Â 
 

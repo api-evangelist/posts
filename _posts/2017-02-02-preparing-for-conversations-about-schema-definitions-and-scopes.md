@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Preparing For Conversations About Schema, Definitions And Scopes
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-conversation-bubbles.png
-atomdate: 2017-02-03T01:00:00.000Z
+image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-conversation-bubbles.png
+atomdate: 2017-02-03 01:00:00+00:00
 tags:
-  - Definitions
-  - Schema
-  - Definition
-  - Scope
-  - Conversations
+- Definitions
+- Schema
+- Scope
+- Conversations
 ---
 [I am focusing heavily on schema, definitions, and scopes in 2017](http://apievangelist.com/2017/01/19/focusing-on-common-api-definitions-schema-scopes-and-specifications/), because it is the most important layer in the tech sector, the API space, and is something that touches almost every industry, while also reaching into our personal worlds. I'm working on refining my argument in 2017 that I'm not selling APIs as a solution all by themselves, I'm pushing APIs to help us tame this insane beast that we've let out of the closet, and will never be able to put back in.
 

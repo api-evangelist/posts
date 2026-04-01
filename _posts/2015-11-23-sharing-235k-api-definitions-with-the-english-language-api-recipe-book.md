@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-copyright.p
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Definition
-  - Sharing
+- Definitions
+- Sharing
 ---
 I needed a side project to reboot my mind after @APIStrat this last weekend, so I opened up my notebook and picked a project that I've been meaning to give some attention to, one that would help me clean my slate, and let me get back to my regular work levels. The project I picked is one that I came up with a little over a year ago, but recently had flushed out my vision further, as I hung out at my favorite watering whole drinking an IPA.
 

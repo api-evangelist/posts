@@ -4,7 +4,13 @@ title: Software Development to API Development
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Design
+- Developers
+- Mobile
+- Support
 ---
 In the last 20 years we've seen the how the Internet has altered the role of the developer from a desktop software developer to a[web application](http://www.kinlane.com/category/application/) developer.
 

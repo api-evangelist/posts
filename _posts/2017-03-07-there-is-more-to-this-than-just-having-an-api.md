@@ -1,10 +1,17 @@
 ---
 layout: post
 title: There Is More To This Than Just Having An API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/sonossystem.png
-atomdate: 2017-03-07T23:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/sonossystem.png
+atomdate: 2017-03-07 23:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Automation
+- Business
+- Communications
+- Design
+- Evangelism
 ---
 There is a reason why I encourage API providers to look at not just the technology of APIs but also invest heavily into the business and politics of API operations. There is a reason I evangelize a more open, web-based approach to doing APIs, even if you are peddling hardware and device APIs. It is because there are a number of human-centered elements present when doing APIs, that will define your services, and ultimately contribute to whether or not they are a success or a failure.
 

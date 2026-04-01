@@ -4,7 +4,14 @@ title: Sharper Developer Focus with Embed.ly Redesign
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Documentation
+- Evangelism
+- Github
+- Media
+- Social
 ---
 [Embed.ly launched a new, improved API area](http://api.embed.ly/ "Embed.ly launched a new, improved API area") with a focus on helping first time users to understand what the API is, and how to use it quicker.
 

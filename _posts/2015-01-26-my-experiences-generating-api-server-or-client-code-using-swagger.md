@@ -5,12 +5,11 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gears.png
 author:
   name: kinlane
 tags:
-  - My
-  - Client
-  - Swagger
-  - Code
-  - Experiences
-  - Experience
+- Client
+- Swagger
+- Code
+- Experiences
+- Experience
 ---
 When you start talking about generating server or client side code for APIs, using machine readable API definition formats like [Swagger](http://swagger.io) or [API Blueprint](https://apiblueprint.org/), many technologists feel compelled to let you know, that at some point you will hit a wall. There is only so far you can go, when using your API definition as guide for generating server-side or clienit-side code, but in my experience you can definitely save some significant time an energy, by auto-generating code using Swagger definitions.
 

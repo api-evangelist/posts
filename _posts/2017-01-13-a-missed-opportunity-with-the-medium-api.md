@@ -1,10 +1,17 @@
 ---
 layout: post
 title: A Missed Opportunity With The Medium API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/medium_storytelling_network2.jpg
-atomdate: 2017-01-13T23:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/medium_storytelling_network2.jpg
+atomdate: 2017-01-13 23:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Analytics
+- Authentication
+- Documentation
+- Github
+- Integration
+- Management
 ---
 In addition to [using the news of Medium's downsizing as a moment to stop and think about who owns our bits](http://kinlane.com/2017/01/05/medium-and-the-importance-of-maintaining-your-own-domain/), I wanted to point out what a missed opportunity [the Medium API](https://github.com/Medium/medium-api-docs) is. Having an API is no guarantee of success, and after $132M in [3 Rounds](https://www.crunchbase.com/organization/medium/funding-rounds) from [21 Investors](https://www.crunchbase.com/organization/medium/investors), I'm not sure an API can even help out, but it is fun to speculate about what might be possible if Medium had robust API in operation.
 

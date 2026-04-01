@@ -1,15 +1,12 @@
 ---
 layout: post
-title: >-
-  Applying A Little Hypermedia Is Helping Me Tighten Down My API Design And Tell
-  A Better API Story
+title: Applying A Little Hypermedia Is Helping Me Tighten Down My API Design And Tell A Better API Story
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hypermedia.png
 author:
   name: kinlane
 tags:
-  - My
-  - Design
-  - Hypermedia
+- Design
+- Hypermedia
 ---
 I get hypermedia at a high level, but have no real experience designing or deploying a hypermedia API or client. For the longest time I just watched the hypermedia conversation from afar, but in the last year I have spent time learning about the different approaches, but I still have not gone as deep as I'd like. I'm looking to change this over the summer, and begin to add some hypermedia thinking to my own API design.
 

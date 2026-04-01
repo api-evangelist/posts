@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Public APIs Are Tough When You Are In A Tightly Controlled Industry
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/espn/espn-api-black_200.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/espn/espn-api-black_200.png
 author:
   name: kinlane
 tags:
-  - Industry
-  - Public
-  - APIs
+- Industry
+- APIs
 ---
 ESPN just [announced that they will no longer be accepting registrations for public API keys](http://developer.espn.com/blog/read/publicretirement), and discontinuing all of their public APIs. I saw a few enraged comments on the Twitterz when I originally tweeted out the story, and also saw a couple of people compare it to the recent [Netflix API deprecation](http://apievangelist.com/2013/03/12/netflix-api-is-much-more-than-a-public-api/).
 

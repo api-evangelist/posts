@@ -1,11 +1,18 @@
 ---
 layout: post
 title: From CPU to API for Intel
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Intel-logo.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Intel-logo.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Data
+- Evangelism
+- Healthcare
+- Integration
+- Management
 ---
 [Intel is reportedly buying API service provider Mashery for “a range of $120 million to $180 million”](http://readwrite.com/2013/04/17/intel-acquires-mashery), according to ReadWrite(Web). As I reflect on this, two main questions come to mind:
 

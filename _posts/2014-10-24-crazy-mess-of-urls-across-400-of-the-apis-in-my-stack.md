@@ -1,17 +1,13 @@
 ---
 layout: post
 title: Crazy Mess Of URLs Across 400 Of The APIs In My Stack
-sourceurl: >-
-  http://apievangelist.com/2014/10/24/crazy-mess-of-urls-across-400-of-the-apis-in-my-stack/
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/consistent-api-program-domains.png
+sourceurl: http://apievangelist.com/2014/10/24/crazy-mess-of-urls-across-400-of-the-apis-in-my-stack/
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/consistent-api-program-domains.png
 author:
   name: kinlane
 tags:
-  - My
-  - Stack
-  - APIs
-  - 4
+- APIs
+- '4'
 ---
 I know that some of my readers are URI experts, URL ninjas, and masters of the domain, but most of my readers are not, and I wanted to share some of the 100K view of what I see across the world of domains, in the API space. I’m going through my [API Stack](http://theapistack.com/) over the last couple days (continuing this weekend), looking at 800+ companies who have APIs, and after going through roughly half, I’m seeing some seriously crazy practices for crafting URIs for APIs programs.
 

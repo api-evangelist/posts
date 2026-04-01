@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Continue With My API Service As A Guest
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/foxweave-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/foxweave-logo.png
 author:
   name: kinlane
-tags:
-  - My
+tags: []
 ---
 Making onboarding with an API as frictionless as possible is one thing I like to study and educate my readers about. While I was studying what I call the [API reciprocity](/trends/reciprocity.php "API reciprocity") space currently, which is an evolution of what is known in the enterprise as ETL, I came across a company called FoxWeave.
 

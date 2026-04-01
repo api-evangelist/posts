@@ -1,16 +1,14 @@
 ---
 layout: post
 title: 'HDScores: One Potential API Driven Business Model Aggregating Public Data'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/hdscores-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/hdscores-logo.png
 author:
   name: kinlane
 tags:
-  - Business
-  - Data
-  - Public Data
-  - Public
-  - Scores
+- Business
+- Data
+- Public Data
+- Scores
 ---
 I came across [HDScores](http://hdscores.com/) a couple of weeks agao, but their API wasn't quite ready, something they officially released this last week. HDScores is interesting to me for a couple of reasons. It is an API that aggregates open government data, but also has what I'd consider a potentially viable API business model as well. 
 

@@ -1,11 +1,16 @@
 ---
 layout: post
 title: API Usability Course at Carnegie Mellon
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/carnegie-mellon-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/carnegie-mellon-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Design
+- Education
+- Monitoring
+- Standards
 ---
 I am accumulating more references to API goodness from across Universities, [as part of my APIs in higher education research](http://university.apievangelist.com/). The more I monitor, the more I find, this is how the API monitoring game works. Unfortunately there is no silver bullet for finding APIs, and related resources, it takes going out and finding it--while also having an eye for what to look for.
 

@@ -5,10 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Definitions
-  - 3Scale
-  - Scale
-  - Definition
+- Definitions
+- 3Scale
+- Scale
 ---
 Join me, Steve Willmott([@njyx](https://twitter.com/njyx)) of [3Scale](http://apis.how/ake3nxbapm), and Jakub Nesetril([@jakubnesetril](https://twitter.com/jakubnesetril)) of [Apiary](http://apis.how/ohgw3uqjt0), for a hangout on API definitions this week. I wanted to explore  doing more hangouts under the APIStrat, as well as API Evangelist brand(s)--for this one I wanted to bring together some experts to talk about the fast moving world of API definitions, as a [Hangout with API Evangelist](http://hangoutwith.apievangelist.com/).
 

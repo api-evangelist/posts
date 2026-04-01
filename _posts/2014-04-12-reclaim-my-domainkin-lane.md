@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Reclaim My Domain - Kin Lane
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-fist.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-fist.png
 author:
   name: kinlane
 tags:
-  - My
-  - Kin Lane
-  - Reclaim
-  - ai
+- Kin Lane
+- Reclaim
+- ai
 ---
 Over ten years ago I learned the hard away about my domain. I purchased [kin lane.com](http://kinlane.com) from a website hosting provider I found online, and after they drained over 1K from my bank account for a simple $10.00 website and domain purchase, they proceeded to squat on my domain for almost two years. Eventually I got my domain back, but it taught me some serious lessons about navigating this new online world we were creating for ourselves.
 

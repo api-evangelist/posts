@@ -5,7 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-abstraction-2.p
 author:
   name: kinlane
 tags:
-  - Definition
+- Definitions
 ---
 I was on the road last week, so I didn't maintain my usual barrage of API analysis. As I go through my monitoring for the week, I'd say [the biggest news of the week was Apiary's support of the OpenAPI Spec](http://blog.apiary.io/2016/01/18/We-ve-got-Swagger/). I got a test drive of the support for the API definition format over the holidays, and was impressed with how smoothly Apiary integrated the [OpenAPI Spec](https://github.com/OAI/OpenAPI-Specification) into their [API design, virtualization, and management platform](http://apis.how/ohgw3uqjt0). 
 

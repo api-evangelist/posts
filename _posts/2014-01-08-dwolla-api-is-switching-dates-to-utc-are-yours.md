@@ -1,11 +1,16 @@
 ---
 layout: post
 title: Dwolla API Is Switching Dates to UTC, Are Yours?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/timezone_UTC.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/timezone_UTC.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Design
+- Email
+- Standards
 ---
 The [Dwolla API](https://www.dwolla.com/developers) sent out an email to developers today, letting us know that, "Effective January 21, 2014, all timestamps returned by REST API endpoints will be in UTC format.” Dwolla is looking to fix the issue of ambiguous timestamps, where the time zone is variable and not indicated in the timestamp.
 

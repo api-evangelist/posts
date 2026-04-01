@@ -1,14 +1,12 @@
 ---
 layout: post
 title: API Discovery Continues Its Move Into The IDE With Eclipse Che
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/eclipse/eclipse-logo.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/eclipse/eclipse-logo.png
 author:
   name: kinlane
 tags:
-  - Discovery
-  - IDE
-  - Discover
+- Discovery
+- IDE
 ---
 Another layer to the [release of Codenvy this week](http://apievangelist.com/2014/10/29/now-our-development-environment-is-now-containerized-and-scalable-like-our-production-environment/), was the [announcement of the Eclipse project Che](https://www.eclipse.org/org/press-release/20141027_cloud_initiative.php), an open source "project to create a platform for SAAS developer environment that contains all of the tools, infrastructure, and processes necessary for a developer to edit, build, test, and debug an application”. Che represents the next generation IDE that runs in the cloud, which coincides with other signs I've seen around [API discovery](http://discovery.apievangelist.com) moving into the IDE with signals from API pioneers like [SalesForce and Google](http://apievangelist.com/2014/07/03/expanding-the-layer-of-api-discovery-from-with-the-developers-ide/), or from [Microsoft in Visual Studio](http://apievangelist.com/2014/08/19/bing-developer-assistant-for-visual-studio-delivers-relevant-api-code/).
 

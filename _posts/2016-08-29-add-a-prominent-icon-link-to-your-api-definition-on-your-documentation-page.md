@@ -2,10 +2,10 @@
 layout: post
 title: Add A Prominent Icon Link To Your API Definition On Your Documentation Page
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-openapi-spec.png
-atomdate: 2016-08-29T18:00:00.000Z
+atomdate: 2016-08-29 18:00:00+00:00
 tags:
-  - Documentation
-  - Definition
+- Documentation
+- Definitions
 ---
 In an effort to help folks understand the many layers of just exactly what is an API and how people are using them, I'm going to emphasize (again) the importance of sharing your API definition publicly. I'm not going to talk about why you should have an API definition for your API, if you need a reason, [go look at the growing number of ways that API definitions are driving a modern API life cycle-](http://definitions.apievangelist.com/news/)\-this post is about making sure you are sharing it properly once you have one crafted.
 

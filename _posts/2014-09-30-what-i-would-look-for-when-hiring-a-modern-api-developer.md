@@ -4,7 +4,15 @@ title: What I Would Look For When Hiring a Modern API Developer?
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-people.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Communications
+- Design
+- Github
+- Mobile
+- Twitter
 ---
 I get asked about hiring developer advocates, and API developers quite often during the week, but this specific question in my inbox from [Augmate](http://augmate.com/), I found more interesting. I thought their usage of a “modern API developer” was a little different, which gave me a reason to provide some fresh thought on the subject.
 

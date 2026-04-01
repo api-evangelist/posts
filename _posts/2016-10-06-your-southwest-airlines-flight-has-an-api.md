@@ -1,10 +1,16 @@
 ---
 layout: post
 title: Your Southwest Airlines Flight Has An API
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/14500451_10157473672265368_6769931295752399398_o.jpg
-atomdate: 2016-10-07T00:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/14500451_10157473672265368_6769931295752399398_o.jpg
+atomdate: 2016-10-07 00:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Data
+- Facebook
+- Government
+- Messaging
+- Mobile
 ---
 A friend of mine messaged me this photo of the Southwest Airlines flight API on Facebook the other day. After doing a little homework I found that every flight has this available on the planes local network. There is a pretty interesting [write up on it from Roger Parks](http://rogerparks.com/projects/southwest-flight-logging/) if you care to learn more.
 

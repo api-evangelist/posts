@@ -5,8 +5,7 @@ image: http://kinlane-productions2.s3.amazonaws.com/junk-drawer.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Print
+- Print
 ---
 I had a discussion yesterday with [Audrey Watters](http://www.hackeducation.com "Audrey Watters")about the infamous junk drawer(s) that exists in every house. That end of the counter drawer that seems to accumulate everything from around our house that we think we may some day use.
 

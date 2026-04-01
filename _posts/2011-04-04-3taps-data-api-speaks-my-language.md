@@ -6,8 +6,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - My
-  - Data
+- Data
 ---
 All of us programmers have a preferred programming language. It is the language that we identify with and prefer to build projects in.
 

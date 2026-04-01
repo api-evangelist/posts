@@ -1,12 +1,10 @@
 ---
 layout: post
 title: My Oxford Dictionaries Talk About The World Of APIs
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/oxford_university_press.jpg
-atomdate: 2017-04-10T16:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/oxford_university_press.jpg
+atomdate: 2017-04-10 16:00:00+00:00
 tags:
-  - My
-  - APIs
+- APIs
 ---
 _This is from a conversation I had with the Oxford Dictionaries API team last week while in Oxford. I led a conversation with 30-40 folks across several teams at the Oxford University Press offices. I tried to paint a relevant and realistic picture of the world of APIs, as it would pertain to their organization. I talked for about an hour, with another hour of discussion with the group, where we discussed some of these areas in more detail._
 

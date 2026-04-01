@@ -1,10 +1,17 @@
 ---
 layout: post
 title: I Predict A Future Flooded With Google Prediction Galleries
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_machine_training_execution_api.png
-atomdate: 2017-03-27T19:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_machine_training_execution_api.png
+atomdate: 2017-03-27 19:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Cloud
+- Data
+- Financial
+- Google
+- ai
 ---
 I was roaming [through Google's Prediction](https://cloud.google.com/prediction/docs/reference/v1.6/) [API](https://cloud.google.com/prediction/docs/reference/v1.6/), and I thought [their prediction gallery provides us a look at a shift occurring right now in how we deliver APIs.](https://cloud.google.com/prediction/docs/gallery) I predict that machine learning galleries and marketplaces will become all the rage, independently operating like [Algorithmia](https://algorithmia.com/), or part of a specific API like the Google prediction gallery.
 

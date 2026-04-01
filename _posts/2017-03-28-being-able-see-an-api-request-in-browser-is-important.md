@@ -1,10 +1,14 @@
 ---
 layout: post
 title: Being Able See An API Request In Browser Is Important
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/delicious_xml.png
-atomdate: 2017-03-28T22:00:00.000Z
-tags: []
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/delicious_xml.png
+atomdate: 2017-03-28 22:00:00+00:00
+tags:
+- API Evangelist
+- APIs
+- Google
+- Postman
+- Twitter
 ---
 There are a number of things at work making this whole web API thing actually work. One of them that came up while I was at Google discussing APIs a couple weeks ago, while we were listening to Dan Ciruli ([@danciruli](https://twitter.com/danciruli)) was the importance of being able to see an API request in the browser. It is something I think we often overlook when it comes to understanding why web APIs have reached such a wide audience.
 

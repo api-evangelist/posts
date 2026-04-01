@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-carrot.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Definition
+- Definitions
 ---
 After [#Gluecon](https://twitter.com/gluecon) in Colorado the other week, I have API design on the brain. A portion of the [#APIStrat un-workshops were dedicated to API design related discussion](http://apievangelist.com/2014/05/23/keeping-the-api-conversation-moving-forward-at-the-gluecon-apistrat-unworkshops/), and [API Design](http://design.apievangelist.com) is also the most trafficked portion of API Evangelist this year, according to my Google Analytics.
 

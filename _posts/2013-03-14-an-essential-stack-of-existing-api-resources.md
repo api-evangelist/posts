@@ -1,13 +1,11 @@
 ---
 layout: post
 title: An Essential Stack of Existing API Resources
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/stack-rocks.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/stack-rocks.jpg
 author:
   name: kinlane
 tags:
-  - Stack
-  - Resources
+- Resources
 ---
 I see a lot of new API platforms emerge, and often times you see them deploying their own solutions to problems that are actively solved by top API platforms, and are already adopted by common mobile and web app users.
 

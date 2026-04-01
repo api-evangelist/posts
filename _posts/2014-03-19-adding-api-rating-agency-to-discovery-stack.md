@@ -1,17 +1,14 @@
 ---
 layout: post
 title: Adding API Rating Agency To Discovery Stack
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-rating-agency-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-rating-agency-logo.png
 author:
   name: kinlane
 tags:
-  - Discovery
-  - Stack
-  - Agency
-  - Rating
-  - Discover
-  - ddi
+- Discovery
+- Agency
+- Rating
+- ddi
 ---
 I’m adding the [API Rating Agency](http://apiratings.org/) to my stack of companies who deliver in the area of [API discovery](http://discovery.apievangelist.com/ "API discovery"). The API Rating Agency helps API consumers understand each API provider on a whole list of metrics, ranging from terms of service to platform uptime.
 

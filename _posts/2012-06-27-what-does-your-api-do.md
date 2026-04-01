@@ -1,11 +1,18 @@
 ---
 layout: post
 title: What Does Your API Do?
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/question-mark.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/question-mark.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Communications
+- Data
+- Design
+- Documentation
+- Integration
+- Mobile
 ---
 After looking at over 6000 APIs, the most irritating thing for me when reviewing an API, is when I have to work to figure out what an API does.  Many APIs just don't communicate what their API does and articulate the value for developers.
 

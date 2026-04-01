@@ -1,18 +1,14 @@
 ---
 layout: post
-title: >-
-  API Rate Limits Are Making Me Think More About How I Design My APIs, and How I
-  Consume Them
-url: >-
-  http://apievangelist.com/2015/08/03/api-rate-limits-are-making-me-think-more-about-how-i-design-my-apis-and-how-i-consume-them/
+title: API Rate Limits Are Making Me Think More About How I Design My APIs, and How I Consume Them
+url: http://apievangelist.com/2015/08/03/api-rate-limits-are-making-me-think-more-about-how-i-design-my-apis-and-how-i-consume-them/
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-rate-limit-api.png
 author:
   name: kinlane
 tags:
-  - My
-  - Design
-  - Rate Limits
-  - APIs
+- Design
+- Rate Limits
+- APIs
 ---
 [As I migrate the version 1.0 of my internal systems to an API-first version 2.0](https://kin-lane.github.io/master/), one of the challenges I face is the optimization of some of the features in my own system. I have numerous systems I crafted to solve a specific need, at a specific point in time, with very little consideration about the most efficient design. 
 

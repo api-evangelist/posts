@@ -1,13 +1,16 @@
 ---
 layout: post
-title: >-
-  An API For The Interactive JumboTron Floor Display At The National Museum of
-  Mathematics (MoMath) In New York 
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/national-museum-of-mathematic/momath-museum-of-mathematics.jpg
+title: 'An API For The Interactive JumboTron Floor Display At The National Museum of Mathematics (MoMath) In New York '
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/national-museum-of-mathematic/momath-museum-of-mathematics.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Education
+- Evangelism
+- Internet of Things
 ---
 I just found one of the coolest API stories I’ve seen in a while over at [CHANCE](http://chance.amstat.org/), the quarterly magazine designed for "anyone who has an interest in the analysis of data, informally highlighting sound statistical practice." CHANCE talked with the executive director of [The National Museum of Mathematics](http://momath.org/) (MoMath), Glen Whitney, about their new hands-on, API driven exhibit that the "museum has created a physical and virtual recreational math community to nurture this generation and the next in their mathematical pursuits."
 

@@ -1,18 +1,15 @@
 ---
 layout: post
-title: >-
-  My Response To How Can the Department of Education Increase Innovation,
-  Transparency and Access to Data?
+title: My Response To How Can the Department of Education Increase Innovation, Transparency and Access to Data?
 image: http://federal-government.apievangelist.com/images/logos/ed.png
 author:
   name: kinlane
 tags:
-  - My
-  - Data
-  - Transparency
-  - Education
-  - Innovation
-  - Access
+- Data
+- Transparency
+- Education
+- Innovation
+- Access
 ---
 I spent considerable time going through the [Department of Education RFI](http://www.ed.gov/blog/2014/04/how-can-the-department-of-education-increase-innovation-transparency-and-access-to-data/), answering each question in as much detail as I possibly could. You can find my full response below. In the end I felt I could provide more value by summarizing my response, eliminating much of the redundancy across different sections of the RFI, and just cut through the bureaucracy as I (and APIs) prefer to do.
 

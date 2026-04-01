@@ -2,9 +2,8 @@
 layout: post
 title: Managing The Apps Across All My API Accounts
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-apps-api.png
-atomdate: 2016-08-25T20:00:00.000Z
-tags:
-  - My
+atomdate: 2016-08-25 20:00:00+00:00
+tags: []
 ---
 I am going through all of my online accounts changing passwords, and one of the things I do along the way is check which applications have access to my digital self. Increasingly my accounts have two dimensions of applications: 1) apps I have created to allow me to make API calls for my system(s) 2) apps I have given access to any account using OAuth. This is a process that can take quite a bit of time, something that is only going to grow in coming years. 
 

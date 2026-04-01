@@ -5,9 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png
 author:
   name: kinlane
 tags:
-  - My
-  - Templates
-  - ddi
+- Templates
+- ddi
 ---
 As I build out new APIs for use across my systems, as well as map out the landscape of valuable API resources available today, I'm [working to define templates](http://apievangelist.com/templates/) that other API providers can follow when designing and deploying their own API infrastructure. I've accumulated 16 basic templates, prompting me to [add a new section to the website called templates](http://apievangelist.com/templates/).
 

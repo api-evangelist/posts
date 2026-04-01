@@ -5,8 +5,8 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-diff.png
 author:
   name: kinlane
 tags:
-  - Definition
-  - Diff
+- Definitions
+- Diff
 ---
 As the number of API definitions increases out there, I'm coming across many duplicates of APIs I already have in my collection(s). In 2016, I will increasingly need to be able to execute a diff on two [OpenAPI Spec](https://github.com/OAI/OpenAPI-Specification) or [API Blueprint](https://apiblueprint.org/) files, and get back a programmatic, as well as a visual reference, which allows me to quickly understand the differences between each spec in detail.
 

@@ -1,14 +1,12 @@
 ---
 layout: post
 title: API Developer Login Using Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Login
-  - Git
+- Github
+- Login
 ---
 As with most social platforms, [Github](https://github.com/) provides oAuth for their platform, allowing developers to provide secure credentials and authentication for their users via a Github account.
 

@@ -2,13 +2,12 @@
 published: true
 layout: post
 title: Introductory API Concepts Are Timeless
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-64-132-800-500-0-max-0--5--1-square.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-64-132-800-500-0-max-0--5--1-square.jpg
 author:
   name: kinlane
 tags:
-  - 101
-  - Stories
+- '101'
+- Stories
 ---
 I’ve been working on a series of introductory API blog posts for Postman, helping introduce people to the concepts of APIs. When I do series like this I tend to get comments from people that the work reflects my earlier writing on API Evangelist, and is something that reflects the past. Bringing people out of the woodwork who feel that everything I publish here on API Evangelist is always in forward motion, and my knowledge of is always advancing and marching ever into the future at a steady pace. I feel that this notion reflects a general belief that technology is always moving froward and that you either keep up with the pace, or you are left behind. Believing that most API concepts are outdated shortly after they are applied, and we will always have to be looking out for the next evolution in how APIs are being done.  
   

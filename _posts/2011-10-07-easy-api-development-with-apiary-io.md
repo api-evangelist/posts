@@ -2,11 +2,14 @@
 published: true
 layout: post
 title: Easy API Development with apiary.io
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiary-io-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiary-io-logo.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Deployment
+- Management
 ---
 I'm spending a lot of time lately evaluating the various API management service providers like [3Scale](/serviceproviders/3scale.php "3Scale"), [Apigee](/serviceproviders/apigee.php "Apigee"), [Mashery](/serviceproviders/mashery.php "Mashery"),and [Mashape](/serviceproviders/mashape.php "Mashape").
 

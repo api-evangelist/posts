@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Ask The Stack When You Need API Support
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/stackoverflow/stackoverflow-logo.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/stackoverflow/stackoverflow-logo.png
 author:
   name: kinlane
 tags:
-  - Support
-  - Stack
+- Support
 ---
 I was profiling the [video sharing API Dailymotion](https://developer.dailymotion.com) the other day, going through their developer area and profiling their API operations. One of the things I [do as part of the profiling of any company](http://apievangelist.com/2015/03/06/my-ideal-profile-of-companies-who-are-doing-interesting-things-with-apis/), is checkout how they execute their support.
 

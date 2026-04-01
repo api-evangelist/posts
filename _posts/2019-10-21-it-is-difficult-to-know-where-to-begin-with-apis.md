@@ -2,13 +2,12 @@
 published: true
 layout: post
 title: It Is Difficult To Know Where To Begin With APIs
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/starting_here.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/starting_here.jpg
 author:
   name: kinlane
 tags:
-  - 101
-  - Getting Started
+- '101'
+- Getting Started
 ---
 The API landscape is huge. APIs are being used to power desktop, web, mobile, and device applications across almost every business sector. While there are many common patterns used across the leading APIs, APIs still come in many shapes and sizes, making it difficult to know where to begin when first learning about APIs. This isn’t an exclusive situation with people who are just learning about APIs, it is the state of things for most people working with APIs on a regular basis. No matter how experienced you are with APIs, there is always some new approach emerging, and some evolution in how things are done that might just be out of view. Leaving us all struggling to keep up, stay aware of latest trends, while perpetually working master what we already know, always refining our approach to getting things done with APIs.  
   

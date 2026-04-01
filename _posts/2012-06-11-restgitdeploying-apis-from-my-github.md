@@ -1,16 +1,13 @@
 ---
 layout: post
 title: RESTGit - Deploying APIs from My Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo.png
 author:
   name: kinlane
 tags:
-  - My
-  - Github
-  - REST
-  - APIs
-  - Git
+- Github
+- REST
+- APIs
 ---
 I have a workflow for dealing with the steady stream of ideas that fly out of my arse on a daily basis. First, I write them all down in Evernote. If an idea sticks with me and keeps nagging on me in the back of my mind, I usually give it a place on the internal wiki that I use for managing my world. Then if an idea sits on the wiki for over a year and I haven’t finished building it, and successfully deployed or integrated into my platform--I set it free.
 

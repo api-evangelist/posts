@@ -1,13 +1,12 @@
 ---
 layout: post
 title: A Walk Through A Swagger API Definition To Identify The Moving Parts
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-walkthrough.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-walkthrough.png
 author:
   name: kinlane
 tags:
-  - Definition
-  - Swagger
+- Definitions
+- Swagger
 ---
 I recently added a new tool to my hacker storytelling toolbox, that allows me to easily assemble walk through, that help me guide my readers through a scripted series of steps around any of my research areas. [I first did it to walk through what I'd consider to be my minimum viable developer portal](http://api-portal.apievangelist.com/), and now I decided to [apply to my Swagger research](http://swagger.apievangelist.com/).
 

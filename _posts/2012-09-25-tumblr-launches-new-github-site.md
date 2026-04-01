@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Tumblr Launches New Github Site
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tumblr-black-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tumblr-black-logo.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Git
+- Github
 ---
 The Tumblr engineering team has been hard at work on a new Github page, showcasing the [open source projects they've released](http://tumblr.github.com/#code).  
 

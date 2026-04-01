@@ -4,7 +4,15 @@ title: Airline Pilots Issued iPads
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Cloud
+- Media
+- Mobile
+- Social
+- Testing
 ---
 I just finished the NYTimes article, [United Pilots Get iPad Flight Manuals](http://bits.blogs.nytimes.com/2011/08/23/united-airlines-to-give-all-pilots-ipad-flight-manuals/ "United Pilots Get iPad Flight Manuals"). This follows [Alaska Airlines adopting the iPad](http://www.pcworld.com/article/228924/ipad_enters_the_cockpit_on_alaska_air.html "Alaska Airlines adopting the iPad"), and [Delta Airlines testing the iPad](http://www.appleinsider.com/articles/11/08/17/delta_airlines_now_testing_apple_ipad_as_electronic_flight_bag.html "Delta Airlines testing the iPad") as a viable alternative to on-board manuals.
 

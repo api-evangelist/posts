@@ -1,15 +1,12 @@
 ---
 layout: post
-title: >-
-  Playing With Concepts Around Simplifying The API Docs That Are Generated Using
-  API Definitions
+title: Playing With Concepts Around Simplifying The API Docs That Are Generated Using API Definitions
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
-  - Definitions
-  - Definition
-  - Docs
+- Definitions
+- Docs
 ---
 I am building on my conversation with Abhinav Asthana ([@a85](https://twitter.com/a85)), the Co-founder and CEO of [Postman](http://www.getpostman.com/), around [how we can simplify the API documentation we are providing to our API consumers](http://apievangelist.com/2016/03/07/it-would-be-nice-to-have-some-simpler-interactive-api-documentation-in-addition-to-what-we-have-now/). As part of my work to profile the [50+ stacks of APIs I list on my home page](http://apievangelist.com), I am playing with different ways of listing APIs, sharing the valuable endpoints available within, and other key aspects with users. All this work is being driven by [APIs.json](http://apisjson.org), and [Open API Spec](https://github.com/OAI/OpenAPI-Specification) listings.
 

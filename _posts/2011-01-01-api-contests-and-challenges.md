@@ -5,7 +5,11 @@ url: http://apievangelist.com/2011/01/01/api-contests-and-challenges/
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Amazon
+- Twilio
 ---
 In 2010 contests were a proven way to generate attention about your API and products as well as generate some great code and applications for your API.
 

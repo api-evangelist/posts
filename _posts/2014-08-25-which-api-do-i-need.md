@@ -3,7 +3,13 @@ layout: post
 title: Which API Do I Need?
 sourceurl: http://apievangelist.com/2014/08/25/which-api-do-i-need/
 image: https://s3.amazonaws.com/kinlane-productions2/google/developers-logo.svg
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Documentation
+- Google
+- Mapping
 ---
 I was looking around the Google Developer area as part of some regular work, and I noticed an interesting page Google has under their mapping session, that [help users decide which API they need](https://developers.google.com/maps/documentation/api-picker) based upon their goals.
 

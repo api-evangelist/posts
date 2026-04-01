@@ -1,11 +1,18 @@
 ---
 layout: post
 title: 'How Not To Onboard With Your API: Fiber Locator API'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fiberlocator-api.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fiberlocator-api.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Definitions
+- Email
+- Evangelism
+- Integration
+- Monitoring
 ---
 Somewhere during my weekly monitoring I found the [Fiber Locator API](http://www.fiberlocator.com/fiberlocator-api/), which like all APIs, especially the ones that ask me to “request access”, I signed up for the service. Understanding where telecommunications companies have laid fiber optic cable, for me, equals a potentially valuable API resource—sure I would consider integrating these resources into my applications, and systems.
 

@@ -5,8 +5,7 @@ image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-carrot.png
 author:
   name: kinlane
 tags:
-  - Public
-  - Presence
+- Presence
 ---
 I spend time each day reviewing about 15 different press release distribution websites, looking for API related news for [API.Report](http://api.report), and potentially seeds for stories elsewhere on the API Evangelist network.
 

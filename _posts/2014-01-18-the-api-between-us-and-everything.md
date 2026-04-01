@@ -1,11 +1,18 @@
 ---
 layout: post
 title: The API Between Us And Everything
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/nest/nest-thermostat.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/nest/nest-thermostat.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Data
+- Financial
+- Google
+- Regulations
+- Security
+- Strategy
 ---
 I was doing some research on a video camera API platform that I'm keeping an eye on, and [Google, Nest and the $3.2 Billion API](http://blog.programmableweb.com/2014/01/17/google-nest-and-the-3-2-billion-api/) by Roberto Medrano of SOA Software popped up in my curation system. The [Nest](https://nest.com/) is currently the best known example of APIs being placed in between us, and everyday objects in our lives. The enhanced objects, and the applications that emerge are the obvious value, that end users see, however as Robert says:
 

@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Netflix Finally Shutters Support For Public API
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/netflix/netflix-logo.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/netflix/netflix-logo.png
 author:
   name: kinlane
 tags:
-  - Support
-  - Public
+- Support
 ---
 Netflix officially announced they will be ending support for their public API. Its no surprise, as they [announced early in 2013 that they would longer accept new registrations for the API](http://apievangelist.com/2013/03/12/netflix-api-is-much-more-than-a-public-api/).
 

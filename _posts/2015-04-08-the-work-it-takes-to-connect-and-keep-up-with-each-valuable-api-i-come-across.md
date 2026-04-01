@@ -4,7 +4,15 @@ title: The Work It Takes To Connect And Keep Up With Each Valuable API I Come Ac
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-pulling.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- APIs.json
+- Business
+- Data
+- Evangelism
+- Github
+- Monitoring
 ---
 If I find a new company during my research, it takes me about a minimum of 15 minutes to lightly profile what they are up, and add to my system, and [if I do a full profile](http://apievangelist.com/2015/03/06/my-ideal-profile-of-companies-who-are-doing-interesting-things-with-apis/), it can take several hours. All of this adds up to a lot of work, time that would be better spent on actually writing stories, hacking on the APIs, and publishing of the longer form research papers on what I’m seeing.
 

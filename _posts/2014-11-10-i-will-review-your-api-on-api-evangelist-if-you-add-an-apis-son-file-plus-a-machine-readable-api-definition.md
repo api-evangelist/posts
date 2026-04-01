@@ -1,19 +1,16 @@
 ---
 published: true
 layout: post
-title: >-
-  I Will Review Your API On API Evangelist if You Add An APIs.son File Plus A
-  Machine Readable API Definition
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
+title: I Will Review Your API On API Evangelist if You Add An APIs.son File Plus A Machine Readable API Definition
+image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
 author:
   name: kinlane
 tags:
-  - API Evangelist
-  - Review
-  - Evangelist
-  - Definition
-  - APIs
+- API Evangelist
+- Review
+- Evangelist
+- Definitions
+- APIs
 ---
 I've been crafting Swagger 2.0 definitions for many of the leading APIs i track on lately, and to help alleviate my pain and suffering, I’m willing to write about your company if you write your own Swagger 2.0 spec. I’m sorry, this is really important work, but it can be very grueling detail work, and I'd really like your help!
 

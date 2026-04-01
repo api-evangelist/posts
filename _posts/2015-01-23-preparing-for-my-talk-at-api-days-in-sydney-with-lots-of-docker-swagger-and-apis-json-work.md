@@ -1,19 +1,14 @@
 ---
 published: true
 layout: post
-title: >-
-  Preparing For My Talk At API Days In Sydney With Lots of Docker, Swagger, and
-  APIs.json Work
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-api-docker.png
+title: Preparing For My Talk At API Days In Sydney With Lots of Docker, Swagger, and APIs.json Work
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-api-docker.png
 author:
   name: kinlane
 tags:
-  - My
-  - APIs.json
-  - Swagger
-  - APIs
-  - APIs.jso
+- APIs.json
+- Swagger
+- APIs
 ---
 i’m spending a lot of time lately, playing around with different approaches to deploying APIs in Docker containers. Part of this is because it is the latest trend in API deployment and management, but also because I’m preparing for my talk at [API Days in Sydney Australia](http://syd.apidays.io/) next month.
 

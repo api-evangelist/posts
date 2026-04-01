@@ -1,13 +1,11 @@
 ---
 layout: post
 title: What I Would Like To See From API Providers When It Comes To Public Analytics
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_05_at_1.14.24_pm.png
-atomdate: 2017-02-06T17:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_05_at_1.14.24_pm.png
+atomdate: 2017-02-06 17:00:00+00:00
 tags:
-  - Analytics
-  - Public
-  - Providers
+- Analytics
+- Providers
 ---
 I'm putting some thought into the what a public analytics layer might look like for federal, state, county, and city governments. Something that looks like [analytics.usa.gov](https://analytics.usa.gov/), but for APIs. This is one of the things I really like about government is that you get to push forward ideas that you just can't convince folks to do in the private sector. There is no way companies will share their web or API traffic numbers publicly because there are too much smoke and mirrors involved in the process--for some reasons folks like accountability in government, but not in private sector???
 

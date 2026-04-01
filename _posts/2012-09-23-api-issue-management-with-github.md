@@ -1,14 +1,12 @@
 ---
 layout: post
 title: API Issue Management With Github
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Issue-Management-Github.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Issue-Management-Github.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Management
-  - Git
+- Github
+- Management
 ---
 [Github](http://www.github.com "Github") should be the center of your API operations, with the most obvious use being for SDK repositories, but Github offers a lot of other valuable tools that you can use to help manage your API platform.
 

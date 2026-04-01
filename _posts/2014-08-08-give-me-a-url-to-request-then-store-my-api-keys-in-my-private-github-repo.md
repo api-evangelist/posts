@@ -1,16 +1,13 @@
 ---
 layout: post
 title: Give Me A URL To Request Then Store My API Keys In My Private Github Repo
-sourceurl: >-
-  http://apievangelist.com/2014/08/08/give-me-a-url-to-request-then-store-my-api-keys-in-my-private-github-repo/
+sourceurl: http://apievangelist.com/2014/08/08/give-me-a-url-to-request-then-store-my-api-keys-in-my-private-github-repo/
 image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.jpg
 author:
   name: kinlane
 tags:
-  - My
-  - Github
-  - Keys
-  - Git
+- Github
+- Keys
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 

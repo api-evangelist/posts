@@ -1,13 +1,11 @@
 ---
 layout: post
 title: I Got A Response Regarding My Facebook Threat API Access
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_26_at_10.26.12_pm.png
-atomdate: 2017-01-27T20:00:00.000Z
+image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_26_at_10.26.12_pm.png
+atomdate: 2017-01-27 20:00:00+00:00
 tags:
-  - My
-  - Access
-  - Facebook
+- Access
+- Facebook
 ---
 I am pushing forward my security research, and profiling what threat information APIs and platforms are up to. I rarely ever dive into any API without actually signing up for an API, getting some keys, and actually get to work making API calls. I have come across a number of APIs that are just fronts so that they can get in ProgrammableWeb directory, or just issue a press release that they have an API, so I usually prefer to fire things up and validate an API does what is being advertised.
 

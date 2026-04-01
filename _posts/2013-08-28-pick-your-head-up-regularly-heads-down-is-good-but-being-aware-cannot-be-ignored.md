@@ -1,13 +1,18 @@
 ---
 layout: post
-title: >-
-  Pick Your Head Up Regularly, Heads Down is Good, But Being Aware Cannot Be
-  Ignored
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/y-u-no-guy-why-u-no-pay-attention.png
+title: Pick Your Head Up Regularly, Heads Down is Good, But Being Aware Cannot Be Ignored
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/y-u-no-guy-why-u-no-pay-attention.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Communications
+- Evangelism
+- Facebook
+- Google
+- Media
+- Monitoring
 ---
 One important thing I've learned while running API Evangelist, is the importance of picking your head up from your work on a regular basis, and tuning into the world around me. When you are running your API initiative it can be also be easy to go heads down coding, addressing technical issues, managing support channels and dealing with the general day-to-day, internal activity of running a company.
 

@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Migrating My Automation Services Beyond Free
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/IFTTT-logo.jpeg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/IFTTT-logo.jpeg
 author:
   name: kinlane
 tags:
-  - My
-  - Automation
-  - Services
+- Automation
+- Services
 ---
 I depend on [If This Then That (IFTTT)](https://ifttt.com/) to move data around the cloud.  I syndicate blog posts from [API Evangelist](http://apievangelist.com) to Blogger and Tumblr.  This isn't just blind syndication, it is SEO and also plan B scenarios to make sure my content exists in multiple areas.
 

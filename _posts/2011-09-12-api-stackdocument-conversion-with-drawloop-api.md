@@ -1,15 +1,12 @@
 ---
 layout: post
 title: API Stack - Document Conversion with Drawloop API
-url: >-
-  http://apievangelist.com/2011/09/12/api-stack-document-conversion-with-drawloop-api/
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Drawloop-Logo.jpg
+url: http://apievangelist.com/2011/09/12/api-stack-document-conversion-with-drawloop-api/
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Drawloop-Logo.jpg
 author:
   name: kinlane
 tags:
-  - Conversion
-  - Stack
+- Conversion
 ---
 kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/mimeo/drawloop/Drawloop-Logo.jpg)](/admin/Blog/)[DrawLoop](/admin/Blog/) provides a SOAP and REST API for conversion of documents in various formats, using a User ID and Password combination for authentication.
 

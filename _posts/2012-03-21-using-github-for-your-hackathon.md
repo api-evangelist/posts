@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Using Github For Your Hackathon
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Git
+- Github
 ---
 I’ve spent a lot of time trying to track on what gets created at [hackathons](/events/ "hackathons").  Some innovative programming occurs at these events and I’d say 98% of it is forgotten by Monday morning.
 

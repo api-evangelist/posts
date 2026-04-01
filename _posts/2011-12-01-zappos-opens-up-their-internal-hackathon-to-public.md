@@ -1,16 +1,13 @@
 ---
 layout: post
 title: Zappos Opens Up Their Internal Hackathon to Public
-url: >-
-  http://apievangelist.com/2011/12/01/zappos-opens-up-their-internal-hackathon-to-public/
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/hackathon_is_coming_2.jpg
+url: http://apievangelist.com/2011/12/01/zappos-opens-up-their-internal-hackathon-to-public/
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/hackathon_is_coming_2.jpg
 author:
   name: kinlane
 tags:
-  - Public
-  - Internal
-  - Open
+- Internal
+- Open
 ---
 kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/zappos/hackathon_is_coming_2.jpg)](http://developer.zappos.com/blog/zappos-api-hackathon-hack-long-contest "Zappos API Hackathon")
 

@@ -1,15 +1,13 @@
 ---
 layout: post
 title: 'Developer Portals On Github: Example From Socrata'
-image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-service-providers/socrata/socrata-data-experience-logo.png
+image: https://s3.amazonaws.com/kinlane-productions2/api-service-providers/socrata/socrata-data-experience-logo.png
 author:
   name: kinlane
 tags:
-  - Github
-  - Portal
-  - Portals
-  - Git
+- Github
+- Portal
+- Portals
 ---
 Civic data platform [Socrata](http://www.socrata.com/) has launched a [new developer area](http://dev.socrata.com/) to support developers who are building apps on top of city, county, state and federal data, as well as the publishers of this data. A release of a new developer area is always worthy of note in my tracking of the API space—anytime I see a tweet or blog post about the release of new developer area, I will visit to see what is going on.
 

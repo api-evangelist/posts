@@ -1,13 +1,12 @@
 ---
 layout: post
 title: I Find It Interesting That Wordnik Created The API Definition Format Swagger
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wordnik_logo_347x88.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wordnik_logo_347x88.png
 author:
   name: kinlane
 tags:
-  - Definition
-  - Swagger
+- Definitions
+- Swagger
 ---
 I’m working through my [API design stories](http://design.apievangelist.com), and was working through some research on the origins of [Swagger](http://swagger.io/), and as I'm writing a paragraph on [Wordnik](https://www.wordnik.com/), I became distracted around how Swagger was born out of this "word" startup. You see, Wordnik presents themselves as "a new way to discover meaning", and out of this work, Swagger, "a new way to discover meaning" from APIs was born.
 

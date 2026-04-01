@@ -1,13 +1,11 @@
 ---
 layout: post
 title: My Presentation to the Presidential Innovation Fellows
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/PresidentialInnovationFellows.jpeg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/PresidentialInnovationFellows.jpeg
 author:
   name: kinlane
 tags:
-  - My
-  - Innovation
+- Innovation
 ---
 I spent two hours with a handful of the [Presidential Innovation Fellows](http://www.whitehouse.gov/innovationfellows) in Washington DC yesterday. They were some super savvy folks from a wide variety of agencies and backgrounds including education, energy and health.
 

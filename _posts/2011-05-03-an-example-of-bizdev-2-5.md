@@ -5,7 +5,15 @@ title: An Example of BizDev 2.5
 image: http://kinlane-productions2.s3.amazonaws.com/flickr.jpg
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Business
+- Cloud
+- Email
+- Evangelism
+- Facebook
+- Google
 ---
 In 2006, Flickr co-founder Caterina Fake coined the phrase [Biz Dev 2.0](http://apievangelist.com/2010/10/07/biz-dev-2-0/ "Biz Dev 2.0") in a blog post explaining how several small companies had approached Flickr wanting to provide services that the photo-sharing site didn't feature.
 

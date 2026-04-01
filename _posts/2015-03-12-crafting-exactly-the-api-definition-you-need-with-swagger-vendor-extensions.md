@@ -5,9 +5,9 @@ image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-ev
 author:
   name: kinlane
 tags:
-  - Extensions
-  - Definition
-  - Swagger
+- Extensions
+- Definitions
+- Swagger
 ---
 I was listening the [APIsâUncensored podcast last weekend](https://soundcloud.com/apisuncensored), where Ole Lensmar ([@olensmar](https://twitter.com/olensmar)), and Lorinda Brandon ([@lindybrandon](/admin/blog/lindybrandon)) sat down for a conversation with Tony Tam ([@fehguy](https://twitter.com/fehguy)), the creator of API definition format Swagger. There are a lot of interesting API informational nuggets throughout the podcast, some of which I'll be writing about, but this one is about something Tony mentioned—called [Swagger vendor extensions](https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md#vendorExtensions).
 

@@ -1,11 +1,16 @@
 ---
 layout: post
 title: 'Another One Acquired: ApiAxle Acquired By Exicon'
-image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiaxle-logo-2.png
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiaxle-logo-2.png
 author:
   name: kinlane
-tags: []
+tags:
+- API Evangelist
+- APIs
+- Cloud
+- Email
+- Management
+- Open Source
 ---
 I got a email today letting me know that [cloud platform Exicon, purchase API management provider ApiAxle](http://apiaxle.com/docs/acquisition-statement/), further whittling away at all of the original and second wave of API management providers I’ve been tracking on over the last 4 years.
 
