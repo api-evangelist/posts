@@ -3,19 +3,83 @@
 
 <head>
     <meta charset="utf-8" />
+
+    <!-- Title: avoid duplication when page.title == site.title -->
+    
     <title>Using Google Sheet Templates For Defining API Tests - API Evangelist</title>
-    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    
+
+    <!-- Meta description: prefer page summary > page description > post excerpt > site description -->
+    
+    <meta name="description" content="The Runscope team recently published a post on a pretty cool approach to using Google Sheets for running API tests with multiple variable sets, which I thoug..." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://0.0.0.0:4001/2017/03/30/using-google-sheet-templates-for-defining-api-tests/" />
+
+    <!-- Open Graph -->
     <meta property="og:url" content="http://0.0.0.0:4001/2017/03/30/using-google-sheet-templates-for-defining-api-tests/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Using Google Sheet Templates For Defining API Tests - API Evangelist">
+    <meta property="og:type" content="article">
+    
+    <meta property="og:title" content="Using Google Sheet Templates For Defining API Tests">
+    
     <meta property="og:site_name" content="API Evangelist">
-    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:description" content="The Runscope team recently published a post on a pretty cool approach to using Google Sheets for running API tests with multiple variable sets, which I thoug...">
     <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_30_at_6.48.27_pm.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <meta property="article:published_time" content="2017-03-30T00:00:00-04:00">
+    <meta property="article:author" content="Kin Lane">
+    <meta property="article:tag" content="Templates">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <meta name="twitter:title" content="Using Google Sheet Templates For Defining API Tests">
+    
+    <meta name="twitter:description" content="The Runscope team recently published a post on a pretty cool approach to using Google Sheets for running API tests with multiple variable sets, which I thoug...">
+    <meta name="twitter:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_30_at_6.48.27_pm.png">
+
+    <!-- JSON-LD Structured Data -->
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Using Google Sheet Templates For Defining API Tests",
+      "description": "The Runscope team recently published a post on a pretty cool approach to using Google Sheets for running API tests with multiple variable sets, which I thoug...",
+      "image": "http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_30_at_6.48.27_pm.png",
+      "datePublished": "2017-03-30T00:00:00-04:00",
+      "dateModified": "2017-03-30T00:00:00-04:00",
+      "author": {
+        "@type": "Person",
+        "name": "Kin Lane",
+        "url": "http://0.0.0.0:4001/about/kin-lane"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "API Evangelist",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://0.0.0.0:4001/2017/03/30/using-google-sheet-templates-for-defining-api-tests/"
+      }
+    }
+    </script>
+    
 
     <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
     <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
 
     <!-- Bootstrap 5.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">

@@ -3,19 +3,89 @@
 
 <head>
     <meta charset="utf-8" />
+
+    <!-- Title: avoid duplication when page.title == site.title -->
+    
     <title>From CI/CD To A Continuous Everything (CE) Workflow - API Evangelist</title>
-    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    
+
+    <!-- Meta description: prefer page summary > page description > post excerpt > site description -->
+    
+    <meta name="description" content="I am evaluating an existing continuous integration and deployment workflow to make recommendations regarding how they can evolve to service their growing API..." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://0.0.0.0:4001/2017/12/19/from-ci-cd-to-a-continous-everything-ce-workflow/" />
+
+    <!-- Open Graph -->
     <meta property="og:url" content="http://0.0.0.0:4001/2017/12/19/from-ci-cd-to-a-continous-everything-ce-workflow/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="From CI/CD To A Continuous Everything (CE) Workflow - API Evangelist">
+    <meta property="og:type" content="article">
+    
+    <meta property="og:title" content="From CI/CD To A Continuous Everything (CE) Workflow">
+    
     <meta property="og:site_name" content="API Evangelist">
-    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:description" content="I am evaluating an existing continuous integration and deployment workflow to make recommendations regarding how they can evolve to service their growing API...">
     <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/27_93_800_500_0_max_0_-1_-1.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <meta property="article:published_time" content="2017-12-19T08:00:00-05:00">
+    <meta property="article:author" content="Kin Lane">
+    <meta property="article:tag" content="API Evangelist">
+    <meta property="article:tag" content="Orchestration">
+    <meta property="article:tag" content="Governance">
+    <meta property="article:tag" content="Lifecycle">
+    <meta property="article:tag" content="Documentation">
+    <meta property="article:tag" content="Communication">
+    <meta property="article:tag" content="Support">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <meta name="twitter:title" content="From CI/CD To A Continuous Everything (CE) Workflow">
+    
+    <meta name="twitter:description" content="I am evaluating an existing continuous integration and deployment workflow to make recommendations regarding how they can evolve to service their growing API...">
+    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/27_93_800_500_0_max_0_-1_-1.jpg">
+
+    <!-- JSON-LD Structured Data -->
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "From CI/CD To A Continuous Everything (CE) Workflow",
+      "description": "I am evaluating an existing continuous integration and deployment workflow to make recommendations regarding how they can evolve to service their growing API...",
+      "image": "https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/27_93_800_500_0_max_0_-1_-1.jpg",
+      "datePublished": "2017-12-19T08:00:00-05:00",
+      "dateModified": "2017-12-19T08:00:00-05:00",
+      "author": {
+        "@type": "Person",
+        "name": "Kin Lane",
+        "url": "http://0.0.0.0:4001/about/kin-lane"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "API Evangelist",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://0.0.0.0:4001/2017/12/19/from-ci-cd-to-a-continous-everything-ce-workflow/"
+      }
+    }
+    </script>
+    
 
     <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
     <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
 
     <!-- Bootstrap 5.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">

@@ -3,19 +3,86 @@
 
 <head>
     <meta charset="utf-8" />
+
+    <!-- Title: avoid duplication when page.title == site.title -->
+    
     <title>My Thoughts ON Amazon EventBridge Schema Registry And Discovery - API Evangelist</title>
-    <meta name="description" content="Understanding the technology, business, policies, and people of Apis." />
+    
+
+    <!-- Meta description: prefer page summary > page description > post excerpt > site description -->
+    
+    <meta name="description" content="My friend Fran Méndez (@fmvilas) over at AsyncAPI asked me to share my opinions on Amazon’s EventBridge schema registry and discovery which is in preview. So..." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://0.0.0.0:4001/2019/12/10/my-thoughts-on-amazon-eventbridge-schema-registry-and-discovery/" />
+
+    <!-- Open Graph -->
     <meta property="og:url" content="http://0.0.0.0:4001/2019/12/10/my-thoughts-on-amazon-eventbridge-schema-registry-and-discovery/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="My Thoughts ON Amazon EventBridge Schema Registry And Discovery - API Evangelist">
+    <meta property="og:type" content="article">
+    
+    <meta property="og:title" content="My Thoughts ON Amazon EventBridge Schema Registry And Discovery">
+    
     <meta property="og:site_name" content="API Evangelist">
-    <meta property="og:description" content="Understanding the technology, business, policies, and people of Apis.">
+    <meta property="og:description" content="My friend Fran Méndez (@fmvilas) over at AsyncAPI asked me to share my opinions on Amazon’s EventBridge schema registry and discovery which is in preview. So...">
     <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/event_bridge_unite_video_thumbnail.64e8041d0d3c919aa503c8376b1fb9ae4dc11dcf.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <meta property="article:published_time" content="2019-12-10T00:00:00-05:00">
+    <meta property="article:author" content="Kin Lane">
+    <meta property="article:tag" content="Schema">
+    <meta property="article:tag" content="Registry">
+    <meta property="article:tag" content="Discovery">
+    <meta property="article:tag" content="Event-Driven">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <meta name="twitter:title" content="My Thoughts ON Amazon EventBridge Schema Registry And Discovery">
+    
+    <meta name="twitter:description" content="My friend Fran Méndez (@fmvilas) over at AsyncAPI asked me to share my opinions on Amazon’s EventBridge schema registry and discovery which is in preview. So...">
+    <meta name="twitter:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/event_bridge_unite_video_thumbnail.64e8041d0d3c919aa503c8376b1fb9ae4dc11dcf.png">
+
+    <!-- JSON-LD Structured Data -->
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "My Thoughts ON Amazon EventBridge Schema Registry And Discovery",
+      "description": "My friend Fran Méndez (@fmvilas) over at AsyncAPI asked me to share my opinions on Amazon’s EventBridge schema registry and discovery which is in preview. So...",
+      "image": "http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/event_bridge_unite_video_thumbnail.64e8041d0d3c919aa503c8376b1fb9ae4dc11dcf.png",
+      "datePublished": "2019-12-10T00:00:00-05:00",
+      "dateModified": "2019-12-10T00:00:00-05:00",
+      "author": {
+        "@type": "Person",
+        "name": "Kin Lane",
+        "url": "http://0.0.0.0:4001/about/kin-lane"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "API Evangelist",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://0.0.0.0:4001/2019/12/10/my-thoughts-on-amazon-eventbridge-schema-registry-and-discovery/"
+      }
+    }
+    </script>
+    
 
     <link rel="alternate" type="application/rss+xml" title="API Evangelist" href="/atom.xml">
     <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
 
     <!-- Bootstrap 5.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">

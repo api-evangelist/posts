@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>API Evangelist</title>
-  <updated>2026-02-25T04:00:00Z</updated>
+  <updated>2026-03-31T05:00:00Z</updated>
   <link rel="self" href="http://0.0.0.0:4001/atom.xml"/>
   <author><name>Kin Lane</name></author>
   <id>http://0.0.0.0:4001/atom.xml</id>
 	<entry>
+    <title>Not a Single API Evangelist Post in March</title>
+    <link href="http://apievangelist.com/2026/03/31/not-a-single-api-evangelist-post-in-march/"/>
+    <updated>2026-03-31T05:00:00Z</updated>
+    <content><![CDATA[I did not write a single post on API Evangelist in March. I have gone months before without writing a story, but this month is primarily due to artificial intelligence. I am all in on using Claude and Gemini (not so much ChatGPT anymore) to tackle and scale what I am doing at Naftiko. Not because I am an AI believer, but I need to understand how it works, and how my customers and partners are putting to work. But as I close out the month, I can confidently say I was able to automate and scale what I delivered for Naftiko, but I failed completely at delivering anything that Kin Lane or API Evangelist needed on the personal and professional front due to AI. Artificial Intelligence sucks the nutrients out of the room. The emotion and opinion that drives API Evangelist was to be found. That fast pace frenzied work to deliver upon my Q1 goals for Naftiko, let me pretty numb and fatigued when it came to API Evangelist. I have a handful of one line notes in my notebook about what I wanted to write about on API Evangelist, but nothing made it to editorial completion, let alone published to the website. Working with Claude and Gemini via VSCode, the desktop, and in the browser keeps you feeling like you are producing but with API Evangelist stories as the metric, it doesn’t leave you with many deep or original thoughts about much. In April, I will have to take more drastic measures to ensure that I get off the AI hamster wheel for a bit and think more deeply about what is going on around me. The experience is rather addictive, and reminds me of previous and more unhealthy moments in my life—each time I pick my head up with the urge to share how cool AI is, and what I am doing and why it matters so much. Claude really conditions you to stay put at the slot machine, and even while writing this I feel the urge to flip back through my VScode projects to see what my Naftiko “agents” are up to. The ability to just stay put here in this notebook and write words has been seriously diminished. I am hyper aware of what I am losing because it has taken me so many years to build up the momentum. I am also aware of the state of my storytelling because of my wife and partner in crime being so immersed in real life, having opted to not participate in the AI hustle. When you combine my daily Claude usage with reading of actual books, writing of my stories in my notebook, and walks and deep daily talks with the love of my life—you realize just how nutrient deficient Claude feels. The close thing I can conjure up is Las Vegas. You know that feeling in the desert and air conditioning that leaves you gasping for meaningful life? It is that, but all...]]></content>
+    <id>http://apievangelist.com/2026/03/31/not-a-single-api-evangelist-post-in-march/</id>
+  </entry><entry>
     <title>The Promise of a New Specification</title>
     <link href="http://apievangelist.com/2026/02/25/the-promise-of-a-new-specification/"/>
     <updated>2026-02-25T04:00:00Z</updated>
@@ -227,24 +233,5 @@ I’ve long used the public, partner, and private phrasing to describe the APIs 
 You just do not see an honest conversation around control occurring around your usual API conversations–with producers or consumers. API contract testing and other approaches are looking to quantify this front line in technical terms, but your average API contract does not span multiple API providers, let alone include all the technical and non-technical stakeholders. I will do another pass over my current definitions of what a capability is and what capability thinking looks like, and find more ways I can better shine a light on and govern the control over access and the data we are making available via the endless number of integrations we are depending on to do business each day.
 ]]></content>
     <id>http://apievangelist.com/2025/11/24/capabilities-are-about-having-an-honest-conversation-about-control/</id>
-  </entry><entry>
-    <title>The Web and APIs Weren’t Built for Autonomous Agents, They Were Built For Humans</title>
-    <link href="http://apievangelist.com/2025/11/17/the-web-and-apis-werent-built-for-autonomous-agents-they-were-built-for-humans/"/>
-    <updated>2025-11-17T04:00:00Z</updated>
-    <content><![CDATA[You hear this a lot—especially from AI folks. I just read it again in an excellent, but very academic paper, Agentic Web: Weaving the Next Web with AI Agents. I’ll reference their research in my own work, but their claim that the web to date, and specifically APIs, weren’t built for agents gives me great pause. It’s simply not true. It sounds true to people, and it conveniently supports a lot of current AI narratives, but it’s still wrong.
-
-The web was built for autnomous agents. The web was built for bots. The web was built for automation and orchestration. Yes, it was also built for humans. APIs are the web; they just return JSON or another media type instead of HTML. You can see the fingerprints of automation everywhere: the HTTP User-Agent header, media types, link relations, and semantics that deliver automation and orchestration at every turn.
-
-So why do people say otherwise? Because along the way, organizations prioritized velocity over design. It became cheaper for human developers to manually negotiate integrations than to invest the time, resources, and coordination required to properly design APIs for automation and orchestration across autonomous and semi-autonomous applications.
-
-I spent years working with hypermedia folks trying to convince API producers to adopt HAL, Siren, ALPS, and other automation-friendly patterns. This stuff works. HTTP + Hypermedia + JSON-LD create rich transport and context layers that support automation and orchestration across large, distributed systems. I still remember people telling me they didn’t have time to learn HTTP or these patterns, or that mobile network constraints didn’t allow for anything beyond the minimum needed to ship features.
-
-The web and APIs were built for agents. We’ve had the protocols and patterns to automate, orchestrate, and support autonomous agents for a long time. We simply chose not to prioritize them. The work exists. The tooling exists. And plenty of autonomous agents patterns are already in production today.
-
-So why do people keep repeating this line? First, it makes for a clean story. A lazy story, but a clean one. It lets people pitch a product or service without having to understand HTTP, hypermedia, or JSON-LD. Our web isn’t fully automated and orchestrated—not because we couldn’t build it, but because we chose not to. It wasn’t always needed. It often wasn’t cost-effective. It wasn’t a priority. Having people do the work to integrate applications was quicker and cheaper.
-
-So if you’re spinning grand narratives about AI agents without acknowledging these business and political realities, I promise you’ll be disappointed in the next couple of years. Economics will always beat academic or sci-fi visions of how the world should work. You just can’t cherry-pick history to invent the future you want.
-]]></content>
-    <id>http://apievangelist.com/2025/11/17/the-web-and-apis-werent-built-for-autonomous-agents-they-were-built-for-humans/</id>
   </entry>
 </feed>
