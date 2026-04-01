@@ -3,28 +3,15 @@
 
     - name: Stories
       symbol: auto_stories
-      sub:
-
-        - name: Tags
-          href: /tags/
-
-        - name: Stories
-          href: /2026/       
-
+      href: /2026/
 
     - name: Conversations
       symbol: forum
-      sub:
+      href: https://conversations.apievangelist.com
 
-        - name: All Conversations
-          href: https://conversations.apievangelist.com  
-          
     - name: Videos
-      symbol: video_library      
-      sub:
-
-        - name: All Videos
-          href: https://video.apievangelist.com              
+      symbol: video_library
+      href: https://video.apievangelist.com
 
     - name: Timeline
       symbol: timeline

@@ -36,7 +36,8 @@
       <div class="col-12 col-md-6">
         <select id="tag-select" class="form-select form-select-sm" onchange="filterPosts()">
           <option value="">All tags</option>
-          {% for tag in site.data.tags %}
+          {% assign sorted_tags = site.data.tags | sort: "count" | reverse %}
+          {% for tag in sorted_tags %}
             <option value="{{ tag.name | downcase }}">{{ tag.name }} ({{ tag.count }})</option>
           {% endfor %}
         </select>
@@ -68,7 +69,7 @@
             <div class="d-flex flex-wrap align-items-center gap-2">
               <span class="post-meta">{{ post_date }}</span>
               {% for tag in post.tags %}
-                <a href="/tags/?tag={{ tag }}" class="post-tag">#{{ tag }}</a>
+                <a href="javascript:void(0)" class="post-tag" onclick="selectTag('{{ tag | downcase }}')">#{{ tag }}</a>
               {% endfor %}
             </div>
           </div>
@@ -106,6 +107,19 @@ function filterPosts() {
   });
 
   document.getElementById('no-results').style.display = visible === 0 ? '' : 'none';
+
+  // Update URL params without reload
+  var url = new URL(window.location);
+  if (selectedTag) { url.searchParams.set('tag', selectedTag); } else { url.searchParams.delete('tag'); }
+  if (query) { url.searchParams.set('search', query); } else { url.searchParams.delete('search'); }
+  history.replaceState(null, '', url);
+}
+
+function selectTag(tag) {
+  var select = document.getElementById('tag-select');
+  select.value = tag;
+  filterPosts();
+  select.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 // Support incoming search params
