@@ -80,6 +80,12 @@ exclude:
 sass:
   style: compressed
 
+# Site-wide alert banner
+alert:
+    enabled:        false
+    type:           light # light, danger, warning, success
+    message:        'Have more questions after this post? <a href="/contact/" style="color: var(--ae-green);">Let us know!</a>'
+
 apisApiBaseUrl: 'https://apis-api.apievangelist.com'
 basesApiBaseUrl: 'https://bases-api.apievangelist.com'
 blueprintsApiBaseUrl: 'https://blueprints-api.apievangelist.com'

@@ -42,9 +42,11 @@ layout: default
       {% endif %}
 
       <!-- CTA -->
-      <div class="alert alert-light border mt-4" role="alert" style="text-align: center;">
-        Have more questions after this post? <a href="/contact/" style="color: var(--ae-green);">Let us know!</a>
+      {% if site.alert.enabled %}
+      <div class="alert alert-{{ site.alert.type }} border mt-4" role="alert" style="text-align: center;">
+        {{ site.alert.message }}
       </div>
+      {% endif %}
 
     </article>
   </div>
