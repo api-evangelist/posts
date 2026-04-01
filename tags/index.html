@@ -1,0 +1,186 @@
+---
+layout: default
+section: Posts
+title: Tags
+summary: Browse stories by tag.
+nav: Stories
+sub: Tags
+---
+
+<!-- Tag cloud -->
+<div class="mb-4">
+  <div class="d-flex align-items-center mb-3">
+    <div class="flex-grow-1">
+      <h1 class="mb-0 fs-4">Tags</h1>
+      <p class="text-muted mb-0">{{ site.data.tags | size }} tags across {{ site.posts.size | plus: 0 }} stories. Click a tag to browse matching posts.</p>
+    </div>
+    <div style="min-width: 250px;">
+      <input type="text" id="tag-filter" class="form-control form-control-sm" placeholder="Filter tags..." onkeyup="filterTags()">
+    </div>
+  </div>
+
+  <div id="tag-cloud" class="d-flex flex-wrap gap-2 mb-4">
+    {% for tag in site.data.tags %}
+      {% if tag.count >= 80 %}
+        {% assign size = "fs-5" %}
+        {% assign weight = "fw-bold" %}
+      {% elsif tag.count >= 50 %}
+        {% assign size = "fs-6" %}
+        {% assign weight = "fw-semibold" %}
+      {% elsif tag.count >= 25 %}
+        {% assign size = "small" %}
+        {% assign weight = "fw-medium" %}
+      {% else %}
+        {% assign size = "small" %}
+        {% assign weight = "" %}
+      {% endif %}
+      <a href="#"
+         class="tag-pill badge rounded-pill text-decoration-none {{ size }} {{ weight }}"
+         data-tag="{{ tag.name }}"
+         data-name="{{ tag.name | downcase }}"
+         onclick="selectTag(this, event)"
+         style="background-color: #e9ecef; color: #495057; padding: 0.4em 0.8em; transition: all 0.1s; cursor: pointer;">
+        {{ tag.name }} <span class="text-muted" style="font-weight: 400;">{{ tag.count }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Selected tag header -->
+<div id="selected-tag-header" class="d-flex align-items-center mb-3" style="display: none !important;">
+  <h2 class="fs-5 mb-0 me-2">Posts tagged <span id="selected-tag-name" class="text-success"></span></h2>
+  <a href="#" onclick="clearTag(event)" class="btn btn-sm btn-outline-secondary">
+    <span class="material-symbols-outlined" style="font-size: 16px; vertical-align: -3px;">close</span> Clear
+  </a>
+</div>
+
+<!-- Post list (hidden until a tag is selected) -->
+<div id="post-list" style="display: none;">
+  {% for post in site.posts %}
+    {% assign p = post.url | split: "/" %}
+    {% assign post_date = p[1] | append: "-" | append: p[2] | append: "-" | append: p[3] | date: "%B %e, %Y" %}
+    {% assign excerpt = post.content | strip_html | truncate: 200 %}
+
+    <div class="post-entry" data-tags="{% for tag in post.tags %}{{ tag | downcase }}|||{% endfor %}">
+      <div class="post-item d-flex">
+        {% if post.image %}
+        <a href="{{ post.url | replace:'.html','' }}" class="flex-shrink-0">
+          <img src="{{ post.image }}" alt="" class="post-thumb me-3">
+        </a>
+        {% endif %}
+        <div class="flex-grow-1">
+          <h3 class="mb-1"><a href="{{ post.url | replace:'.html','' }}">{{ post.title }}</a></h3>
+          <p class="text-muted small mb-2">{{ excerpt }}</p>
+          <div class="d-flex flex-wrap align-items-center gap-2">
+            <span class="post-meta">{{ post_date }}</span>
+            {% for tag in post.tags %}
+              <a href="#" class="post-tag" onclick="selectTagByName('{{ tag }}', event)">#{{ tag }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div id="no-results" class="text-center text-muted py-5" style="display: none;">
+  No posts match this tag.
+</div>
+
+<style>
+  .tag-pill:hover,
+  .tag-pill.active {
+    background-color: var(--ae-green) !important;
+    color: #fff !important;
+  }
+  .tag-pill:hover .text-muted,
+  .tag-pill.active .text-muted {
+    color: rgba(255,255,255,0.7) !important;
+  }
+</style>
+
+<script>
+function filterTags() {
+  var query = document.getElementById('tag-filter').value.toLowerCase();
+  var pills = document.querySelectorAll('.tag-pill');
+  pills.forEach(function(pill) {
+    var name = pill.getAttribute('data-name');
+    pill.style.display = name.indexOf(query) !== -1 ? '' : 'none';
+  });
+}
+
+function selectTag(el, e) {
+  if (e) e.preventDefault();
+  var tag = el.getAttribute('data-tag');
+
+  // Toggle active state on pills
+  document.querySelectorAll('.tag-pill.active').forEach(function(p) { p.classList.remove('active'); });
+  el.classList.add('active');
+
+  showPostsForTag(tag);
+
+  // Update URL without reload
+  var url = new URL(window.location);
+  url.searchParams.set('tag', tag);
+  history.replaceState(null, '', url);
+}
+
+function selectTagByName(tag, e) {
+  if (e) e.preventDefault();
+  var pill = document.querySelector('.tag-pill[data-tag="' + tag + '"]');
+  if (pill) {
+    selectTag(pill, null);
+    // Scroll to top of tag cloud
+    document.getElementById('tag-cloud').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function showPostsForTag(tag) {
+  var tagLower = tag.toLowerCase();
+  var entries = document.querySelectorAll('.post-entry');
+  var visible = 0;
+
+  document.getElementById('selected-tag-header').style.display = '';
+  document.getElementById('selected-tag-name').textContent = '"' + tag + '"';
+  document.getElementById('post-list').style.display = '';
+
+  entries.forEach(function(entry) {
+    var tags = entry.getAttribute('data-tags').split('|||');
+    var match = tags.some(function(t) { return t.trim() === tagLower; });
+    if (match) {
+      entry.style.display = '';
+      visible++;
+    } else {
+      entry.style.display = 'none';
+    }
+  });
+
+  document.getElementById('no-results').style.display = visible === 0 ? '' : 'none';
+}
+
+function clearTag(e) {
+  if (e) e.preventDefault();
+  document.querySelectorAll('.tag-pill.active').forEach(function(p) { p.classList.remove('active'); });
+  document.getElementById('selected-tag-header').style.display = 'none';
+  document.getElementById('post-list').style.display = 'none';
+  document.getElementById('no-results').style.display = 'none';
+
+  var url = new URL(window.location);
+  url.searchParams.delete('tag');
+  history.replaceState(null, '', url);
+}
+
+// Support incoming ?tag= param
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  var tag = params.get('tag');
+  if (tag) {
+    var pill = document.querySelector('.tag-pill[data-tag="' + tag + '"]');
+    if (pill) {
+      selectTag(pill, null);
+    } else {
+      showPostsForTag(tag);
+    }
+  }
+})();
+</script>

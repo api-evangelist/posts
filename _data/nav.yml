@@ -5,8 +5,8 @@
       symbol: auto_stories
       sub:
 
-        - name: Categories
-          href: /categories
+        - name: Tags
+          href: /tags/
 
         - name: Stories
           href: /2026/       

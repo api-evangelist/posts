@@ -18,7 +18,7 @@
           {% for y in years %}
             <a href="/{{ y }}" class="btn btn-sm {% if page.year == y %}btn-success{% else %}btn-outline-secondary{% endif %}">{{ y }}</a>
           {% endfor %}
-          <a href="/categories/" class="btn btn-sm btn-outline-secondary ms-1">
+          <a href="/tags/" class="btn btn-sm btn-outline-secondary ms-1">
             <span class="material-symbols-outlined" style="font-size: 16px; vertical-align: -3px;">label</span> Tags
           </a>
         </div>
@@ -68,7 +68,7 @@
             <div class="d-flex flex-wrap align-items-center gap-2">
               <span class="post-meta">{{ post_date }}</span>
               {% for tag in post.tags %}
-                <a href="/search/?search={{ tag }}&searchFields=tags" class="post-tag">#{{ tag }}</a>
+                <a href="/tags/?tag={{ tag }}" class="post-tag">#{{ tag }}</a>
               {% endfor %}
             </div>
           </div>
