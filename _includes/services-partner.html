@@ -1,0 +1,9 @@
+<!-- Partner Services -->
+{% if site.data.services-partners %}
+{% for service in site.data.services-partners %}
+<div class="mb-3">
+  <h6><a href="{{ service.url }}">{{ service.title }}</a></h6>
+  <p class="small text-muted">{{ service.tagLine }}</p>
+</div>
+{% endfor %}
+{% endif %}
