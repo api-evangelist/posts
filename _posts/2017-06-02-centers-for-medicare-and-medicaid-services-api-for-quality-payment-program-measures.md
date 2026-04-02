@@ -1,4 +1,5 @@
 ---
+layout: post
 title: >-
   Centers for Medicare & Medicaid Services API for Quality Payment Program
   Measures

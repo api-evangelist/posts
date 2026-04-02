@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Managing Your Postman Collection Using Github
 date: 2017-06-01T10:00:00.000Z
 tags:

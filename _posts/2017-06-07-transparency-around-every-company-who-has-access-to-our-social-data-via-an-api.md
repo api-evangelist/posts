@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Transparency Around Every Company Who Has Access To Our Social Data Via An API
 date: 2017-06-07T11:00:00.000Z
 tags:

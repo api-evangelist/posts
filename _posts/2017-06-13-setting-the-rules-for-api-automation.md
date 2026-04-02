@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Setting The Rules For API Automation
 date: 2017-06-13T13:00:00.000Z
 tags:

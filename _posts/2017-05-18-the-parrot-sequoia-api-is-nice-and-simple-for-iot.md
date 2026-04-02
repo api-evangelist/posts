@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The Parrot Sequoia API Is Nice And Simple For IoT
 date: 2017-05-18T09:00:00.000Z
 tags:

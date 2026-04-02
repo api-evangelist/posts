@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Publishing Your API In The AWS Marketplace
 date: 2017-06-16T13:00:00.000Z
 tags:

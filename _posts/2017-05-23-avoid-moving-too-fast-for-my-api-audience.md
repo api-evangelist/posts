@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Avoid Moving Too Fast For My API Audience
 date: 2017-05-23T14:00:00.000Z
 tags:

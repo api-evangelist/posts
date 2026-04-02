@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Revisiting GraphQL As Part Of My API Toolbox
 date: 2017-06-12T16:00:00.000Z
 tags:

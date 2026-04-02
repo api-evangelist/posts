@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The Competitive Advantage Of API Agility Over Any Secret Sauce
 date: 2017-06-26T09:00:00.000Z
 tags:

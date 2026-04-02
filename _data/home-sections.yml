@@ -25,7 +25,7 @@
 - name: Vocabularies
   description: Organizing the words we use to describe API resources and capabilities and use them to better organize API operations to help us get on the same page.
   icon: dictionary
-  count: 13,500 word vocabulary
+  count: 13,600 word vocabulary
   url: https://vocabularies.apievangelist.com
 
 - name: Strategies
@@ -47,9 +47,9 @@
   url: https://conversations.apievangelist.com
 
 - name: Stories
-  description: Over 4,500 stories told on the API Evangelist blog since 2010, covering almost every aspect of how APIs are changing the way we live and work.
+  description: Over 5,000 stories told on the API Evangelist blog since 2010, covering almost every aspect of how APIs are changing the way we live and work.
   icon: auto_stories
-  count: 4,550 stories
+  count: 5,000 stories
   url: https://apievangelist.com/2024/
 
 - name: APIs
@@ -67,7 +67,7 @@
 - name: Schema
   description: The naming and structure of the digital objects that we are  passing back and forth via APIs within the business and personal applications we use.
   icon: schema
-  count: 6 schema
+  count: 11 schema
   url: https://schema.apievangelist.com
 
 - name: Properties
@@ -85,7 +85,7 @@
 - name: Guidance
   description: Modular guidance for teams producing and consuming APIs, providing snackable real-time guidance related to how to keep moving forward with APIs.
   icon: grid_guides
-  count: 456 guides
+  count: 87 guides
   url: https://experiences.apievangelist.com
 
 - name: Tools

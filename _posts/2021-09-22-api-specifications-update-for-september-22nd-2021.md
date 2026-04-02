@@ -1,0 +1,73 @@
+---
+published: true
+layout: post
+title: 'API Specifications Update for September 22nd, 2021'
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/adam-smith-adam-smith-copper-circuit.jpg
+tags:
+    - API Specification Update
+---
+<p><img src="{{ page.image }}" width="45%" align="right" style="padding: 15px;"></p>
+
+<p>The evolution of <a href="https://www.openapis.org/">OpenAPI</a>, <a href="https://www.asyncapi.com/">AsyncAPI</a>, and <a href="https://json-schema.org/">JSON Schema</a> is important to what I do at Postman, but also to the wider API space. I find it helpful to understand what is happening across each of the API specification communities, and I wanted to also find a way to share what I am seeing with everyone else. Each week I spend time to create a single digest of what is happening, without having to do all the work I am doing each week. While I am sure there is much more going on that I am not tuned into, here is what I see as the  snapshot of what I see happening across the API specifications.</p>
+
+<h3>Recent Meetings</h3>
+<ul>
+<li><a href="https://github.com/json-schema-org/community/discussions/34" target="_blank" style="color: #000;">Office Hours · Discussion #34 · json-schema-org/community</a> - The recurring JSON Schema office hours.</li>
+<li><a href="https://github.com/api-specification-toolbox/toolbox/issues/138" target="_blank" style="color: #000;">API Specification Office Hours · Issue #138 · api-specification-toolbox/toolbox</a> - This recurring API specification office hours.</li>
+<li><a href="https://github.com/json-schema-org/community/discussions/35" target="_blank" style="color: #000;">Open Community Working Meetings · Discussion #35 · json-schema-org/community</a> - The bi-monthly JSON Schema working meeting.</li>
+</ul>
+<h3>Upcoming Meetings</h3>
+<ul>
+<li><a href="https://calendar.google.com/calendar/u/0/r?cid=dGJyYmZxNGRlNWJjbmd0OG9rdmV2NGxzdGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank" style="color: #000;">AsyncAPI SIG - September 28th, 2021</a> - The regular AsyncAPI SIG meeting.</li>
+<li><a href="https://github.com/json-schema-org/community/discussions/34" target="_blank" style="color: #000;">Office Hours · Discussion #34 · json-schema-org/community</a> - The next JSON Schema public office hours.</li>
+<li><a href="https://github.com/api-specification-toolbox/toolbox/issues/138" target="_blank" style="color: #000;">API Specification Office Hours · Issue #138 · api-specification-toolbox/toolbox</a> - The next API specification office hours.</li>
+<li><a href="https://github.com/OAI/OpenAPI-Specification/issues/2717" target="_blank" style="color: #000;">Open Community (TDC) Meeting, Thursday 23 September 2021 · Issue #2717 · OAI/OpenAPI-Specification</a> - THe next OpenAPI TDC meeting.</li>
+</ul>
+<h3>Interesting Issues</h3>
+<ul>
+<li><a href="https://github.com/OAI/OpenAPI-Specification/issues/2720" target="_blank" style="color: #000;">Allow definition of immutable values in Schema Object · Issue #2720 · OAI/OpenAPI-Specification</a></li>
+<li><a href="https://github.com/asyncapi/spec/issues/628" target="_blank" style="color: #000;">The many meanings of an AsyncAPI file · Issue #628 · asyncapi/spec</a></li>
+<li><a href="https://github.com/asyncapi/event-gateway/issues/47" target="_blank" style="color: #000;">Define a better API that can be used by other applications · Issue #47 · asyncapi/event-gateway</a></li>
+</ul>
+<h3>Interesting Discussions</h3>
+<ul>
+<li><a href="https://github.com/asyncapi/community/discussions/77" target="_blank" style="color: #000;">AsyncAPI document bundler · Discussion #77 · asyncapi/community</a></li>
+<li><a href="https://github.com/asyncapi/community/discussions/72" target="_blank" style="color: #000;">Working to Bring More Women and People of Color Into the API Specification Conversation · Discussion #72 · asyncapi/community</a></li>
+<li><a href="https://github.com/asyncapi/community/discussions/74" target="_blank" style="color: #000;">Conference sponsors prospectus · Discussion #74 · asyncapi/community</a></li>
+<li><a href="https://github.com/json-schema-org/community/discussions/55" target="_blank" style="color: #000;">Question: $id keyword and dereferencing · Discussion #55 · json-schema-org/community</a></li>
+<li><a href="https://github.com/json-schema-org/community/discussions/53" target="_blank" style="color: #000;">Get the line number on which there is an error · Discussion #53 · json-schema-org/community</a></li>
+</ul>
+<h3>Interesting Releases</h3>
+<ul>
+<li><a href="https://github.com/asyncapi/spec/releases/tag/v2.2.0-2021-09-release.3" target="_blank" style="color: #000;">Release v2.2.0-2021-09-release.3 · asyncapi/spec</a> - update points from 2.1.0 version to 2.2.0</li>
+<li><a href="https://github.com/asyncapi/spec-json-schemas/releases/tag/v2.9.0-2021-09-release.2" target="_blank" style="color: #000;">Release v2.9.0-2021-09-release.2 · asyncapi/spec-json-schemas</a> - added servers field to channel object </li>
+<li><a href="https://github.com/asyncapi/spec/releases/tag/v2.2.0-2021-09-release.2" target="_blank" style="color: #000;">Release v2.2.0-2021-09-release.2 · asyncapi/spec</a> - unify Message and MessageTrait examples description</li>
+<li><a href="https://github.com/asyncapi/avro-schema-parser/releases/tag/v0.5.0" target="_blank" style="color: #000;">Release v0.5.0 · asyncapi/avro-schema-parser</a> - first support of bindings for AVRO key </li>
+<li><a href="https://github.com/asyncapi/spec/releases/tag/v2.2.0-2021-09-release.1" target="_blank" style="color: #000;">Release v2.2.0-2021-09-release.1 · asyncapi/spec</a> - add Anypoint MQ protocol to list of supported bindings </li>
+</ul>
+<h3>Interesting Blog Posts</h3>
+<ul>
+<li><a href="https://www.asyncapi.com/blog/hackathon-faq" target="_blank" style="color: #000;">AsyncAPI Hackathon FAQ | AsyncAPI Initiative for event-driven APIs</a> - Last year was the first time we hosted the AsyncAPI Conference. This year, we're going to host our first AsyncAPI Hackathon. This article tries to address the many questions coming from our community. 😀</li>
+<li><a href="https://www.openapis.org/blog/2021/09/22/arnaud-lauret-the-api-handyman-covers-his-top-4-must-attend-sessions-at-asc-2021" target="_blank" style="color: #000;">Arnaud Lauret, the API Handyman, Covers His Top 4 Must-Attend Sessions at ASC 2021 - OpenAPI Initiative</a> - We talked with Arnaud Lauret, well known as the API Handyman and author of The Design of Web APIs, to find out more about the upcoming ASC 2021 (Sept 28-29). Lauret is presenting “Taking advantage of OpenAPI for API Design reviews” on Tuesday, September 28 starting at 11:20am PDT.</li>
+</ul>
+<h3>Interesting News</h3>
+<ul>
+<li><a href="https://dev.to/bolt04/getting-started-with-cloudevents-and-asyncapi-8db" target="_blank" style="color: #000;">Getting Started with CloudEvents and AsyncAPI - DEV Community</a> - In the previous blog post we went over a case study for Azure Service Bus. In this article we’ll look at two specs, CloudEvents and AsyncAPI, that you can use to solve some problems of your event-driven architectures.</li>
+</ul>
+
+<h3>Interesting Tweets</h3>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I used <a href="https://twitter.com/microcksio?ref_src=twsrc%5Etfw">@microcksio</a> in my <a href="https://twitter.com/ApacheCon?ref_src=twsrc%5Etfw">@ApacheCon</a> demo yesterday, showing how I can get streaming test data generated from an uploaded <a href="https://twitter.com/hashtag/asyncapi?src=hash&amp;ref_src=twsrc%5Etfw">#asyncapi</a> description file. Their excellent docs and in particular this post on the docker-compose setup really helped me get started <a href="https://t.co/UVglZCzOXM">https://t.co/UVglZCzOXM</a> <a href="https://t.co/24uD5eZNOa">pic.twitter.com/24uD5eZNOa</a></p>&mdash; Lorna Mitchell (@lornajane) <a href="https://twitter.com/lornajane/status/1440592469523976195?ref_src=twsrc%5Etfw">September 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’m excited to be talking about <a href="https://twitter.com/jsonschema?ref_src=twsrc%5Etfw">@jsonschema</a> at <a href="https://twitter.com/APISpecs?ref_src=twsrc%5Etfw">@APISpecs</a> <a href="https://twitter.com/hashtag/APISpecs2021?src=hash&amp;ref_src=twsrc%5Etfw">#APISpecs2021</a>, September 28-29! Are you attending? Register to join me: <a href="https://t.co/hNtqVoAvkp">https://t.co/hNtqVoAvkp</a><br><br>There are THREE JSON Schema talks and one Open Discussion.<br>Here are some details 🧵 <a href="https://t.co/VlXV8aFrEn">pic.twitter.com/VlXV8aFrEn</a></p>&mdash; Ben Hutton (@relequestual) <a href="https://twitter.com/relequestual/status/1428635394250354690?ref_src=twsrc%5Etfw">August 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/AsyncAPI?src=hash&amp;ref_src=twsrc%5Etfw">#AsyncAPI</a> <a href="https://twitter.com/hashtag/Hackathon?src=hash&amp;ref_src=twsrc%5Etfw">#Hackathon</a> starts in 8 days.<br><br>Read 👇🏽 to get answers to all the ❓ you had about the hackathon.<br><br>🆘 We&#39;re looking for ideas on how and where we can promote the Hackathon 🆘<a href="https://t.co/Fbc06yMYdY">https://t.co/Fbc06yMYdY</a></p>&mdash; AsyncAPI Initiative (@AsyncAPISpec) <a href="https://twitter.com/AsyncAPISpec/status/1440583618120728576?ref_src=twsrc%5Etfw">September 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h3>Interesting Videos</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s2zMtwd5klg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yfi55EzFydY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3>Conclusion</h3>
+<p>If there is anything missing from my summary of what is going on in the world of API specifications, please let me know! As part of this process I am working to get folks behind the meetings, discussions, and other goings on to be more public about what they are doing so I have a URL to share. I am also working on updating the home page of <a href="https://api.specificationtoolbox.com/">the API Specification Toolbox</a> to showcase how you can learn, implement, and contribute to each of the specifications—-once I have up, I will link to more from this regularly summary. My goal is to provide a single place everyone can go to get involved within the communities for each of the API specifications, but also stay up to speed on what is going on each week.</p>

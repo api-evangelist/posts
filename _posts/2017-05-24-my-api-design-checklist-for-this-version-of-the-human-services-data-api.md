@@ -1,4 +1,5 @@
 ---
+layout: post
 title: My API Design Checklist For This Version Of The Human Services Data API
 date: 2017-05-24T09:00:00.000Z
 tags:

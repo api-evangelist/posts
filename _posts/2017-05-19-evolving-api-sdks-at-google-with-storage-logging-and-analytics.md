@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Evolving API SDKs at Google With Storage, Logging and Analytics
 date: 2017-05-19T16:00:00.000Z
 tags:

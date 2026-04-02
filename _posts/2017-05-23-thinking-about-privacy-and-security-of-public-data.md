@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Thinking About The Privacy And Security Of Public Data Using API Management
 date: 2017-05-23T15:00:00.000Z
 tags:

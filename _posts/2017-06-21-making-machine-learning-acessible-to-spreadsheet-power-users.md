@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Making Machine Learning Accessible To Spreadsheet Power Users
 date: 2017-06-21T09:00:00.000Z
 tags:

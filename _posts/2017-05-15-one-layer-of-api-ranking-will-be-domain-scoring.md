@@ -1,4 +1,5 @@
 ---
+layout: post
 title: One Layer Of An API Ranking System Will Need To Be Domain Scoring
 date: 2017-05-15T09:07:00.000Z
 tags:

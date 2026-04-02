@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Three New API Industry Groups On The Horizon
 date: 2017-06-26T16:00:00.000Z
 tags:

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Google Spanner Is A Database With An API Core
 date: 2017-05-16T00:00:00.000Z
 tags:

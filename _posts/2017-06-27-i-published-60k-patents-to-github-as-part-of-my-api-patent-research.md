@@ -1,4 +1,5 @@
 ---
+layout: post
 title: I Published 60K Patents To Github As Part Of My API Patent Research
 date: 2017-06-27T09:00:00.000Z
 tags:

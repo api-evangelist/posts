@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Healthcare API Interoperability At HL7 FHIR Dev Days In Amsterdam
 date: 2017-06-26T13:00:00.000Z
 tags:

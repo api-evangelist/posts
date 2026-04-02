@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Craft Your API Design Guide So You Can Move To Other Areas of The Lifecycle
 date: 2017-05-25T12:00:00.000Z
 tags:

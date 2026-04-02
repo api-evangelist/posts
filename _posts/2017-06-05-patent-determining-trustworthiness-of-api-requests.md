@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Patent US9462011: Determining trustworthiness of API requests'
 date: 2017-06-05T11:00:00.000Z
 tags:

@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 title: >-
   Shared Publishing Of Data and API Projects, Portals, and Dashboards Using

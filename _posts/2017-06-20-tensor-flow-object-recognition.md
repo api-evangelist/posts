@@ -1,4 +1,5 @@
 ---
+layout: post
 title: API Wrappers To Help Bring Machine Learning Into Focus
 date: 2017-06-20T16:00:00.000Z
 tags:

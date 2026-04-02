@@ -1,4 +1,5 @@
 ---
+layout: post
 title: An OpenAPI Generator For Publishing To Github
 date: 2017-05-16T09:00:00.000Z
 tags:

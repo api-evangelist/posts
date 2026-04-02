@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Keen IO Pushing Forward The Data Schema Conversation
 date: 2017-05-22T15:00:00.000Z
 tags:

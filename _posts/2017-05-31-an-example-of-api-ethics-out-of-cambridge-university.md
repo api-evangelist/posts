@@ -1,4 +1,5 @@
 ---
+layout: post
 title: An Example Of API Ethics Out Of Cambridge University
 date: 2017-05-31T12:00:00.000Z
 tags:

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The Successes And (Mostly) Failures Of A Developer Evangelist
 date: 2017-06-14T10:47:00.000Z
 tags:

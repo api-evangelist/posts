@@ -1,4 +1,5 @@
 ---
+layout: post
 title: A Perception Of Patent And Copyright Overlapping When It Comes To APIs
 date: 2017-05-31T09:00:00.000Z
 tags:

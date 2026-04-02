@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Some Thoughts On OpenAPI Not Being The Solution
 date: 2017-05-23T12:00:00.000Z
 tags:

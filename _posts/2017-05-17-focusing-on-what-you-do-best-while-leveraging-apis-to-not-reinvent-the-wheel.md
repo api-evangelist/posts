@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Focusing On What You Do Best While Leveraging APIs To Not Reinvent The Wheel
 date: 2017-05-17T15:00:00.000Z
 tags:

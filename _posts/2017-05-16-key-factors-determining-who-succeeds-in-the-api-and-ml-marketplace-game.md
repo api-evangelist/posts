@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Key Factors Determining Who Succeeds In The API and ML Marketplace Game
 date: 2017-05-16T17:00:00.000Z
 tags:

@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 title: API Preparation At The Bureau For The 2020 Census
 image: >-

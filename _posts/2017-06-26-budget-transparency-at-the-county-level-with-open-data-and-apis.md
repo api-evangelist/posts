@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Budget Transparency At The County Level With Open Data And APIs
 date: 2017-06-26T11:00:00.000Z
 tags:

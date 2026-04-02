@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 title: Highlighting Algorithmic Transparency Using My Algorotoscope Work
 tags:

@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 title: Algorithmic Observability In Predictive Policing
 image: >-

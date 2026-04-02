@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Studying How Providers Are Supporting Batch API Requests
 date: 2017-05-17T12:00:00.000Z
 tags:

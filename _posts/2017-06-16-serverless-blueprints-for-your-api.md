@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Serverless Blueprints For Your API
 date: 2017-06-16T11:00:00.000Z
 tags:

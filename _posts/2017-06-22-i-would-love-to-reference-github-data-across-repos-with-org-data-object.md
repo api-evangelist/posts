@@ -1,4 +1,5 @@
 ---
+layout: post
 title: I Would Love To Reference Github Data Across Repos With [org].data.[object]
 date: 2017-06-22T13:00:00.000Z
 tags:

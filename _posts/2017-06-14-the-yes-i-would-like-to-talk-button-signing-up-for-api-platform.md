@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The Yes I Would Like To Talk Button When Signing Up For An API Platform
 date: 2017-06-14T14:00:00.000Z
 tags:

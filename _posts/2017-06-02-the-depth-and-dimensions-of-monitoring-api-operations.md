@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The Depth And Dimensions Of Monitoring API Operations
 date: 2017-06-02T16:00:00.000Z
 tags:

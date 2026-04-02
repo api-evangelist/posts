@@ -1,4 +1,5 @@
 ---
+layout: post
 title: A Community Approval Dimension When Adding, Updating, And Deleting Via API
 date: 2017-06-15T11:00:00.000Z
 tags:

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Exploring The Possibilities With My Drone Prototype API
 date: 2017-05-30T12:00:00.000Z
 tags:

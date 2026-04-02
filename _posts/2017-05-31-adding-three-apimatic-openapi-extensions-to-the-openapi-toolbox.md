@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Adding Three APIMATIC OpenAPI Extensions To The OpenAPI Toolbox
 date: 2017-05-31T15:00:00.000Z
 tags:

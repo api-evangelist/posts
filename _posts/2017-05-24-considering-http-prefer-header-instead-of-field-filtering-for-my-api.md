@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Considering Using HTTP Prefer Header Instead Of Field Filtering For This API
 date: 2017-05-24T12:00:00.000Z
 tags:

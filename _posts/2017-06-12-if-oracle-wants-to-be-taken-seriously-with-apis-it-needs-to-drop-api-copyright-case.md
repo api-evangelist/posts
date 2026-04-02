@@ -1,4 +1,5 @@
 ---
+layout: post
 title: >-
   If Oracle Wants To Be Taken Seriously With Its API Campaign It Needs To Drop
   API Copyright Case

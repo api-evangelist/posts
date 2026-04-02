@@ -1,4 +1,5 @@
 ---
+layout: post
 title: An API You Should Consider Emulating When Crafting Your SaaS / API Business
 date: 2017-06-05T09:00:00.000Z
 tags:

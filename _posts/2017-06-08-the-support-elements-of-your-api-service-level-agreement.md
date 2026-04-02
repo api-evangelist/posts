@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The Support Elements Of Your API Service Level Agreement
 date: 2017-06-08T11:00:00.000Z
 tags:

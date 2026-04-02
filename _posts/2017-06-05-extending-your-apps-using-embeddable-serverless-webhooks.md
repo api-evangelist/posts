@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Extending Your Apps Using Embeddable Serverless Webhooks
 date: 2017-06-05T16:00:00.000Z
 tags:

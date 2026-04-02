@@ -1,4 +1,5 @@
 ---
+layout: post
 title: On Device Machine Learning API Stack
 date: 2017-05-19T12:00:00.000Z
 tags:

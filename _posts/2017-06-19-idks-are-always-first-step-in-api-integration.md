@@ -1,4 +1,5 @@
 ---
+layout: post
 title: IDK Is Always The First Step To API Integration
 date: 2017-06-19T11:00:00.000Z
 tags:

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: API Documentation From SDK Bridge
 date: 2017-06-02T14:00:00.000Z
 tags:

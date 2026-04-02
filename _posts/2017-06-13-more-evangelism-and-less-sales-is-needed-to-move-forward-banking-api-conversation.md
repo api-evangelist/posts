@@ -1,4 +1,5 @@
 ---
+layout: post
 title: More Evangelism Will Be Needed To Move Banking API Conversation Forward
 date: 2017-06-13T09:00:00.000Z
 tags:

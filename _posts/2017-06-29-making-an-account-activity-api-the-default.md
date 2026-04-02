@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 title: Making An Account Activity API The Default
 date: 2017-06-29T11:00:00.000Z

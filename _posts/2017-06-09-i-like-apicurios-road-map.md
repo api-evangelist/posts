@@ -1,4 +1,5 @@
 ---
+layout: post
 title: I Like The Apicurio Road Map
 date: 2017-06-09T11:00:00.000Z
 tags:

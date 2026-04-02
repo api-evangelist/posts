@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Patent #US 20170153932: Adapting Legacy Endpoints To Modern APIs'
 date: 2017-06-27T11:00:00.000Z
 tags:

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'KDL: A Graphical Notation for Kubernetes API Objects'
 date: 2017-06-08T14:00:00.000Z
 tags:

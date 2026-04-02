@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Validating My API Schema As Part of My API Security Practices
 date: 2017-06-21T13:00:00.000Z
 tags:

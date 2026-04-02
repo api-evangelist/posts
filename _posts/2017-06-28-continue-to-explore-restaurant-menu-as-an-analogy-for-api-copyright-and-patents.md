@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 title: >-
   Continue To Explore Restaurant Menu as an Analogy for API Copyright and

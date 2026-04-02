@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Expanding On The API Acronym
 date: 2017-06-06T11:00:00.000Z
 tags:

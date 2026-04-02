@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The GSA API Standards With A Working Prototype API And Portal
 date: 2017-06-14T16:00:00.000Z
 tags:

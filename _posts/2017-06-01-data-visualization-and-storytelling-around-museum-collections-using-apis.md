@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Data Visualization And Storytelling Around Museum Collections Using APIs
 date: 2017-06-01T15:00:00.000Z
 tags:

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Spreadsheet To Github For Sample Data CI
 date: 2017-05-24T17:00:00.000Z
 tags:

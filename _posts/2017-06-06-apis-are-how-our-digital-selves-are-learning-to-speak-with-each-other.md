@@ -1,4 +1,5 @@
 ---
+layout: post
 title: APIs Are How Our Digital Selves are Learning To Speak With Each Other
 date: 2017-06-06T09:00:00.000Z
 tags:

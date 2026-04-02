@@ -1,4 +1,5 @@
 ---
+layout: post
 title: My Google Sheet Driven Product API And Web Page
 date: 2017-05-18T15:00:00.000Z
 tags:

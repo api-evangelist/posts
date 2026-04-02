@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Patents As A Measure Of Individual Success
 date: 2017-06-08T12:00:00.000Z
 tags:

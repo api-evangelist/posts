@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The Open Service Broker API
 date: 2017-06-27 16:00:00+00:00
 tags:

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Its Not Just The Technology: API Monitoring Means You Care'
 date: 2017-05-19T14:00:00.000Z
 tags:

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: >-
   The Effect of Visual Design and Information Content on Readers’ Assessments of
   API Reference Topics

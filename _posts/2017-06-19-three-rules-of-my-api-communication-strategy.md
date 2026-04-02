@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Three Rules Of My API Communication Strategy
 date: 2017-06-19T16:00:00.000Z
 tags:

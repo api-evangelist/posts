@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Proprietary Views Of Your Taxonomy
 date: 2017-06-14T09:00:00.000Z
 tags:

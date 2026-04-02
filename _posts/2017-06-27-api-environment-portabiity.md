@@ -1,4 +1,5 @@
 ---
+layout: post
 title: API Environment Portability
 date: 2017-06-27T13:00:00.000Z
 tags:

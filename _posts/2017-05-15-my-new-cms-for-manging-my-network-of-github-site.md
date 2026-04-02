@@ -1,4 +1,5 @@
 ---
+layout: post
 title: My New CMS For Managing My Network Of Github Sites
 date: 2017-05-15 00:00:00+00:00
 tags:

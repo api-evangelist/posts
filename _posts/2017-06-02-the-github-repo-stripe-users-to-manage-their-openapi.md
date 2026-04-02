@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The Github Repo Stripe Uses To Manage Their OpenAPI
 date: 2017-06-02T12:00:00.000Z
 tags:

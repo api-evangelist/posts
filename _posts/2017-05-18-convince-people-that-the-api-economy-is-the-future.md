@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 15 Topics To Help Folks See The Business Potential Of APIs
 date: 2017-05-18T12:00:00.000Z
 tags:

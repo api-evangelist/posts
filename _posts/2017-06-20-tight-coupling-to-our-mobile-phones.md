@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Tightly Coupled To Our Mobile Phones
 date: 2017-06-20T12:00:00.000Z
 tags:

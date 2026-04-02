@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Github Helping Set The Bar For Your API Community Code Standards
 date: 2017-06-16T09:00:00.000Z
 tags:

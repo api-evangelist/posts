@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Patent US 8997069: API Descriptions'
 date: 2017-06-06T13:00:00.000Z
 tags:

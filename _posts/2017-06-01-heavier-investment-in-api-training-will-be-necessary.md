@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Heavier Investment In API Training Will Be Necessary
 date: 2017-06-01T12:00:00.000Z
 tags:

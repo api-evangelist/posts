@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Examples Of The OpenAPI Specification Used For Government APIs
 date: 2017-06-07T09:00:00.000Z
 tags:

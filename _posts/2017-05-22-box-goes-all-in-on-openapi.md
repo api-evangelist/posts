@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Box Goes All In On OpenAPI
 date: 2017-05-22T09:00:00.000Z
 tags:

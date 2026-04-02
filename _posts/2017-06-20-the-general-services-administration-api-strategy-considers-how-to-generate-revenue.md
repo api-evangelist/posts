@@ -1,4 +1,5 @@
 ---
+layout: post
 title: >-
   The General Services Administration API Strategy Considers How To Generate
   Revenue

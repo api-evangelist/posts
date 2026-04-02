@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Apicurio Is The Open Source Visual API Design Editor I Was Looking For
 date: 2017-05-30T08:30:00.000Z
 tags:

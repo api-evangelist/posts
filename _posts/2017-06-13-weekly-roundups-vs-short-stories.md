@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Weekly Roundups vs Short Stories
 date: 2017-06-13T16:00:00.000Z
 tags:

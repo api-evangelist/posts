@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Every API Should Begin With A Github Repository
 date: 2017-05-25T14:00:00.000Z
 tags:

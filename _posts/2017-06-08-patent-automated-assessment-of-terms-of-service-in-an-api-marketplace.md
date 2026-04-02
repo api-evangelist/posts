@@ -1,4 +1,5 @@
 ---
+layout: post
 title: >-
   Patent US 8954988: Automated Assessment of Terms of Service in an API
   Marketplace

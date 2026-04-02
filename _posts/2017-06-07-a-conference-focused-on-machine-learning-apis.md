@@ -1,4 +1,5 @@
 ---
+layout: post
 title: A Conference Focused On Machine Learning APIs
 date: 2017-06-07T14:00:00.000Z
 tags:

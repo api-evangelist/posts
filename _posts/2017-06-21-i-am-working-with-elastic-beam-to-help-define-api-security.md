@@ -1,4 +1,5 @@
 ---
+layout: post
 title: I Am Working With Elastic Beam To Help Define API Security
 date: 2017-06-21T03:23:00.000Z
 tags:

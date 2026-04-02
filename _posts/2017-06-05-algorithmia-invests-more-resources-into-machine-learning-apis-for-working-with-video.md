@@ -1,4 +1,5 @@
 ---
+layout: post
 title: >-
   Algorithmia Invests More Resources Into Machine Learning APIs For Working With
   Video

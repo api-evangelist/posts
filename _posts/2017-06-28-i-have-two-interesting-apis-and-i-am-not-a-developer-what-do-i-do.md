@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 title: I Have Two APIs I Am Interested In And I Am Not A Developer--What Do I Do?
 image: https://s3.amazonaws.com/kinlane-productions2/api-documentation-unistats.png

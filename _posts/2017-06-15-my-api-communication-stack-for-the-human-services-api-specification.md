@@ -1,4 +1,5 @@
 ---
+layout: post
 title: My API Communication Stack For The Human Services API Specification
 date: 2017-06-15T09:00:00.000Z
 tags:
