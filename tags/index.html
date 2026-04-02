@@ -74,7 +74,9 @@ sub: Tags
           <div class="d-flex flex-wrap align-items-center gap-2">
             <span class="post-meta">{{ post_date }}</span>
             {% for tag in post.tags %}
+              {% unless tag == "API Evangelist" or tag == "APIs" %}
               <a href="#" class="post-tag" onclick="selectTagByName('{{ tag }}', event)">#{{ tag }}</a>
+              {% endunless %}
             {% endfor %}
           </div>
         </div>

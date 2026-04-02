@@ -36,7 +36,9 @@ layout: default
       {% if page.tags.size > 0 %}
       <div class="mt-4 pt-3 border-top">
         {% for tag in page.tags %}
+          {% unless tag == "API Evangelist" or tag == "APIs" %}
           <a href="/tags/?tag={{ tag }}" class="post-tag me-2">#{{ tag }}</a>
+          {% endunless %}
         {% endfor %}
       </div>
       {% endif %}

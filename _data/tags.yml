@@ -1,11 +1,3 @@
-- name: "API Evangelist"
-  count: 883
-  slug: "api-evangelist"
-
-- name: "APIs"
-  count: 524
-  slug: "apis"
-
 - name: "Definitions"
   count: 230
   slug: "definitions"
