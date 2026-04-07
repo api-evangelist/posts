@@ -80,7 +80,10 @@
           href: https://www.postman.com/api-evangelist       
 
         - name: GitHub
-          href: https://github.com/api-evangelist                               
+          href: https://github.com/api-evangelist
+
+        - name: RSS Feed
+          href: /feed.xml
                                                 
     - name: Toolbox
       symbol: construction
