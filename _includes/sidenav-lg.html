@@ -45,12 +45,10 @@
       </div>
       <div id="chat-widget">
         <div id="chat-messages" style="max-height: 200px; overflow-y: auto; margin-bottom: 0.5rem;"></div>
-        <div class="d-flex gap-1">
-          <input type="text" id="chat-input" class="form-control form-control-sm" placeholder="Ask me about APIs..." style="font-size: 0.8rem;" />
-          <button id="chat-send" class="btn btn-sm" style="background-color: var(--ae-green); color: #fff; white-space: nowrap;" onclick="sendChatMessage()">
-            <span class="material-symbols-outlined" style="font-size: 16px; vertical-align: middle;">send</span>
-          </button>
-        </div>
+        <textarea id="chat-input" class="form-control form-control-sm mb-1" placeholder="Ask me about APIs..." rows="3" style="font-size: 0.8rem; resize: vertical;"></textarea>
+        <button id="chat-send" class="btn btn-sm w-100" style="background-color: var(--ae-green); color: #fff;" onclick="sendChatMessage()">
+          <span class="material-symbols-outlined" style="font-size: 16px; vertical-align: middle;">send</span> Send
+        </button>
         <div id="chat-status" class="text-muted mt-1" style="font-size: 0.65rem; display: none;"></div>
       </div>
     </div>
@@ -65,7 +63,10 @@
   var input = document.getElementById('chat-input');
   if (input) {
     input.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') sendChatMessage();
+      if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+        e.preventDefault();
+        sendChatMessage();
+      }
     });
   }
 
