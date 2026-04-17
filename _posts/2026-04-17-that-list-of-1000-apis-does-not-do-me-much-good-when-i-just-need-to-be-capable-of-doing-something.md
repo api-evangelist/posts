@@ -1,0 +1,20 @@
+---
+title: "That List of 1000 APIs Does Not Do Me Much Good When I Just Need To Be Capable of Doing Something"
+date: 2026-04-17
+tags:
+    - Discovery
+    - Integration
+    - Capabilities
+    - Naftiko
+    - Vocabulary
+    - APIs.io
+image: >-
+  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-los-angeles-downtown-from-afar.jpg
+---
+There is something that haunts me every time I am doing the market research I need for Naftiko. Every integration provider always has thousands of icons for the integrations they support on their website. I keep finding myself emulating this and then immediately stopping myself. This is dumb. Nobody wants this. From my experience with ProgrammableWeb, Postman Network, and API Evangelist is—nobody cares about API discovery and the APIs. They only care about what is going to be done with the service. Granted, is what integration service providers are working towards, but it still feels like a bunch of useless steps nobody really needs.
+
+The API discovery experience in me tells me that entering through the API service provider door with customers isn't always the most reliable way. Hell, after 16 years of talking to people I am not sure API is the right way to start conversations. Trust me, nobody tried harder and made more inroads getting folks to understand APIs as I have. And I won't give up. I'm just saying, if we are going to take shit to the next level, we gotta make this stuff normal people in enterprises are going to care about. I know people think a lot about their problems in terms of the services they use, but I'd say there are more shadows than sunlight using this language, and we to find a new way forward.
+
+I get the SEO and GTM value of having a massive directory of APIs, but from experience, I also know just how busy people are and how little people have the time to care. I am an expert in API discovery. It is the one area I consider myself the expert when it comes to APIs. The Rest, meh. And I am not convinced it is a solvable problem, especially in the ways we've been approaching for all of this century. I think API discovery has to evolve when it comes to the APIs we produce, the APIs we consume, no matter what our approach to integration is. I don't think people need the big picture anymore. That is fluff and hype. It's SEO flex. We need simpler ways for people to discovery what they need-meeting them where they are. I think there is an opportunity with artificial intelligence to build bridges here, but I do not think it is entirely the answer.
+
+While profiling the Google Analytics API recently I began playing with the generation of a "vocabulary" artifact. [https://github.com/api-evangelist/google-analytics/blob/main/vocabulary/google-analytics-vocabulary.yaml](https://github.com/api-evangelist/google-analytics/blob/main/vocabulary/google-analytics-vocabulary.yaml) I want to find new ways to drive the search for APIs.io that isn't the same old API blah blah blah or even search blah blah blah. I also don't buy that it can only be via AI chat. We need a blend. A mix for the new century. This is what I am working towards as I work with the Naftiko team to develop the framework, fleet, and explore how capabilities come to life and evolve. I just don't think massive directories of APIs and sprawling API integration pages are the way forward. It seems played out. Alongside many of the other properties of API operations I tune into like the portal and SDKs, I think that discovery is in flux, and the integration dimension of discovery and onboarding specially is shifting dramatically with the agentic assault under way. This is where I think I can begin to apply the vocabulary, along with reviving some of my API ratings work, to see what is possible.
