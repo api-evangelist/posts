@@ -16,7 +16,7 @@ Supreet opens with a diagnosis that will read as uncomfortably familiar to anyon
 
 That story has been true at every company I've worked with. The details change. The shape does not. I've been at this for 15 years. Same story.
 
-What Supreet does well is refuse to treat this as a purely technical problem. He names the human cost directly through three personas — Ada the developer, Alex the consumer, Iris the inspector — and walks each of them through the workflow that produces their specific flavor of frustration. Ada contributes to sprawl because finding a trustworthy existing service is harder than building a new one. Alex's project slips two weeks because the API he was promised doesn't exist in the way he was told. Iris is a cartographer with pen and paper, auditing a landscape that's shifting faster than she can draw it.
+I like how Supreet refuses to treat this as a purely technical problem. He names the human cost directly through three personas, Ada the developer, Alex the consumer, Iris the inspector — and walks each of them through the workflow that produces their specific flavor of frustration. Ada contributes to sprawl because finding a trustworthy existing service is harder than building a new one. Alex's project slips two weeks because the API he was promised doesn't exist in the way he was told. Iris is a cartographer with pen and paper, auditing a landscape that's shifting faster than she can draw it.
 
 Supreet's approach reflects why I am using more personas in my work.
 
@@ -47,20 +47,18 @@ This is the lever that makes everything else work. Zero-Touch Governance fails i
 
 Every governance program I've seen fail has failed here. Every one that succeeded treated developer experience as a first-class concern. The handbook makes that explicit.
 
-I am enjoying this phase of questioning everything I (we) know about API governance -- I am doing it in my Naftiko work right now.
+I am enjoying this phase of questioning everything I (we) know about API governance, and I am doing it in my Naftiko work right now.
 
 ## Where this lands for AI
-
 As required, Supreet spends times on on the Agentic AI imperative, and this is where I think the handbook lands at exactly the right moment. The argument is simple: AI agents don't chat anymore, they act, and acting means calling APIs. If your APIs live in a jungle, your agents hallucinate endpoints, call deprecated services, and fail to find the tools they need. If your APIs live on a highway — documented, tiered, discoverable, with machine-readable specs — your agents have a map.
 
 The phrase he uses is Contextual Grounding. A standardized, machine-readable API catalog is the grounding layer that lets an agent operate your business safely. Without it, every prompt is a hope. With it, every call is a known-safe operation with known-safe boundaries.
 
-This is the same territory Clemens Vasters is working on from the schema side — the idea that agents need faithful, precise metadata because they don't have the out-of-band human context that developers rely on. Supreet is working the governance layer. The same principle holds: the richness of the machine-readable surface determines what the agent can do correctly. Vague catalogs, like vague schemas, produce noise. Precise catalogs produce signal.
+[This is the same territory Clemens Vasters is working on from the schema side](https://naftiko.io/blog/json-structure-the-schema-language-that-actually-works-for-developers/), and the idea that agents need faithful, precise metadata because they don't have the out-of-band human context that developers rely on. Supreet is working the governance layer. The same principle holds: the richness of the machine-readable surface determines what the agent can do correctly. Vague catalogs, like vague schemas, produce noise. Precise catalogs produce signal.
 
 You cannot bolt this on later. You build it by making the Deployment Workflow require the OpenAPI spec, by making the Catalog mandatory, by making the Gateway the only path in. That's what Zero-Touch Governance actually buys you — not a cleaner architecture diagram, but an enterprise surface that an autonomous agent can operate against without hallucinating.
 
 ## What Brought Me Back to This Work
-
 Three things from the handbook have stuck with me.
 
 The first is Supreet's metric suggestion for executives: don't ask "are we compliant?" — ask "how long does it take to deploy a secure API?" That reframing is everything. Compliance is a binary snapshot that rewards paperwork. Time-to-secure-deploy is a continuous measurement that rewards investment in the Golden Path. One produces theater. The other produces velocity.
@@ -69,12 +67,11 @@ The second is the treatment of the ARB. Most governance writing I've read treats
 
 The third is the closing line: *"The future of your business is programmable. Govern it accordingly."* That sentence deserves to outlive the handbook. Enterprises that still treat APIs as back-office plumbing are going to be at a disadvantage that compounds every quarter as agent-driven work expands. Enterprises that treat their APIs as the programmable surface of the business — and govern that surface with the seriousness it deserves — will be the ones who get to operate at AI speed.
 
-## Where to find it
+## Get Supreet's Book
+[Supreet Nagi's handbook is worth reading if you're running API governance, building AI-agent-facing platforms](https://www.linkedin.com/posts/supreet-nagi_from-chaos-to-connectivity-by-supreet-nagi-activity-7432637737637326848-hqdV/), or trying to convince an executive team that APIs are strategic infrastructure rather than developer tooling. You can reach him at thesupreetnagi@gmail.com or [find him on LinkedIn](https://www.linkedin.com/in/supreet-nagi/). His site is supreet-nagi.com.
 
-Supreet Nagi's handbook is worth reading if you're running API governance, building AI-agent-facing platforms, or trying to convince an executive team that APIs are strategic infrastructure rather than developer tooling. You can reach him at thesupreetnagi@gmail.com or find him on LinkedIn as supreet-nagi. His site is supreet-nagi.com.
+The ideas in this handbook aren't new in the sense that every component, including Policy-as-Code, service catalogs, gateway telemetry, CI/CD integration already exists in the industry. What's new is the composition. Supreet has assembled a coherent closed-loop operating model out of parts most enterprises already own, and he's described it in language an executive can act on. That's rarer than any individual piece of technology, and in 2026 it matters more than it ever has.
 
-The ideas in this handbook aren't new in the sense that every component — Policy-as-Code, service catalogs, gateway telemetry, CI/CD integration — already exists in the industry. What's new is the composition. Supreet has assembled a coherent closed-loop operating model out of parts most enterprises already own, and he's described it in language an executive can act on. That's rarer than any individual piece of technology, and in 2026 it matters more than it ever has.
-
-At Naftiko we think about API capabilities as the unit of work that agents can reach for, reason about, and execute against. The case Supreet makes for Zero-Touch Governance is the same case for why capabilities need to be first-class, discoverable, machine-readable artifacts — not tribal knowledge trapped in Confluence. The jungle is the failure mode. The highway is the goal. [He just wrote the clearest map I've seen of how to get from one to the other](https://www.linkedin.com/posts/supreet-nagi_from-chaos-to-connectivity-by-supreet-nagi-activity-7432637737637326848-hqdV/).
+At [Naftiko we think about API capabilities as the unit of work](https://naftiko.io/) that agents can reach for, reason about, and execute against. The case Supreet makes for Zero-Touch Governance is the same case for why capabilities need to be first-class, discoverable, machine-readable artifacts — not tribal knowledge trapped in Confluence. The jungle is the failure mode. The highway is the goal. He just wrote a clear map  of how to get from one to the other.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qr3CXPdgpjw?si=wN8CegJ8ercj63oT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
