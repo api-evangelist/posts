@@ -1,0 +1,121 @@
+---
+layout: default
+section: 'Owen Rubel'
+title: Owen Rubel
+---
+
+  <div class="col-12 col-xxl-8 order-xxl-0">
+
+      <section>
+        <div class="card-body">
+          <div class="mb-4">
+            <h3 class="fs-4 mb-0">About Owen Rubel</h3>
+            <img src="images/ambassador.png" align="right" width="28%" style="padding: 15px;">
+            <p>If you've landing on this page you've probably encountered Owen Rubels harrassment on your social media or GitHub, or likely my social media or GitHub. Owen is a well-known harrasser in the space who has been targeting men and women in the space who are trying to make their living doing APIs.</p>
+
+            <p>Owen's harrassment is not unique to me, I have just become his target after helping people he's harrassed out of their jobs and into court rooms, and I have been the most outspoken about his harrassment in the space. This has been going on for over a decade now, and this page should provide everything you need to know.</p>
+
+            <p>If you have any questions, concerns, or have become the target of Owen's harassment please feel free to email me directly at <a href="mailto:kin@apievangelist.com">kin@apievangelist.com</a>, as I've helped many people navigate this unfortunate reality of working in the API space, and I would love to hear your advice for how to better deal with.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="card-body">
+          <div class="mb-4">
+            <h3 class="fs-5 mb-0">Message to Owen</h3><br>
+            <ul>
+              <li><strong>Do Not Contact Me</strong></li>
+              <li><strong>Do Not Mention My Name On or Offline</strong></li>
+              <li><strong>Do Not Comment On My Social Media Activity</strong></li>
+              <li><strong>Do Contact My Customers</strong></li>
+              <li><strong>You Are Damaging My Business</strong></li>
+              <li><strong>You Are Causing Me Daily Work Against My Will</strong></li>
+              <li><strong>Please Get The Help You Need And Stop This Abuse</strong></li>
+              <li><strong>This Page Will Remain Up Until I've Seen You Stop for 30 Days</strong></li>
+              <li><strong>This Page Will Go Back Up If You Begin Harassing Anyone in the API Community</strong></li>
+            </ul>
+          </div>
+        </div>
+      </section>      
+
+      <section>
+        <div class="card-body">
+          <div class="mb-4">
+            <h3 class="fs-5 mb-0">Timeline</h3>
+            <p>The drama with Owen has been going on for a decade now. I can't articulate how exhausting it feels, but I am determined to document his behavior, and push back. However, it is very difficult to also deal with the waves of people who do not know the history, which is why I have created this page to help people understand the scope and context beyond each individual comment.</p>
+            <div class="tm-timeline uk-margin-large-top" style="margin: 50px 0px 50px 0px">
+              {% for version in site.data.timeline-owen %}
+              <div class="tm-timeline-entry">
+                  <div class="tm-timeline-time">
+                      <h5>{{ version.date }}</h5>
+                  </div>
+                  <div class="tm-timeline-body">
+                      <h3 class="uk-flex uk-flex-middle" style="font-size: 14px;">{{ version.title }}{% if version.label %}<span class="uk-label uk-margin-small-left">{{ version.label }}</span>{% endif %}</h3>
+                      <ul class="uk-list">
+                          {% for item in version.list %}
+                          <li>{{ item }}</li>
+                          {% endfor %}
+                      </ul>
+                  </div>
+              </div>
+              {% endfor %}             
+          </div>
+        </div>
+        <p style="text-align: center;">* Each Item On This List Can Be Support By Another Person</p>        
+      </section> 
+      <section>
+        <div class="card-body">
+          <div class="mb-4">
+            <h3 class="fs-5 mb-0">Frequently Asked Questions</h3>
+            <p>These are answers to the questions I get most from people, and please feel free to email any questions or concerns at <a href="mailto:kin@apievangelist.com">kin@apievangelist.com</a></p>
+            <ul>
+              {% for faq in site.data.faq-owen %}
+                      <li><strong>{{ faq.question }}</strong> - {{ faq.answer }}</li>
+              {% endfor %}
+            </ul>
+        </div>
+      </section> 
+      
+      <section>
+        <div class="card-body">
+          <div class="mb-4">
+            <h3 class="fs-5 mb-0">Scope of Community Impact</h3>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7283472969283080196/">If you want to understand the some of the scope of his harassment you can visit this LinkedIn thread, as there are multiple of Owen's targets contributing to the discussion there, others who have seen his trolling but were wondering what was happening. Owen will not comment on this post, as I've linked to it in every response. I am guessing due to previous court cases, but unsure--regardless, it is an important introduction to what is happening.</a>
+        </div>
+      </section>     
+      <section>
+        <div class="card-body">
+          <div class="mb-4">
+            <h3 class="fs-5 mb-0">Context of the Severity</h3>
+            <p>Most of the time Owen's comments can seem harmless, but the quantity of them, combined with his in-person stalking and use of the the police, and the emails and direct messages he sends increase the damage of his behavior.</p>
+            <p align="center"><img src="images/owen-linkedin-message.png" width="50%" style="padding: 15px;"></p>
+            <p>If Owen has sent you one of these emails or direct messages about me, or is directly targeting you, please document and share with me at <a href="mailto:kin@apievangelist.com">kin@apievangelist.com</a>. I will not connect you to things publicly, but the evidence helps for any upcoming court cases.</p>
+        </div>
+      </section>
+      <a name="linkedin"></a>
+      <section>
+        <div class="card-body">
+          <div class="mb-4">
+            <h3 class="fs-5 mb-0">LinkedIn Logs</h3>
+            <p>This is a log of all his comments since I stopped blocking and deleting all his comments. Once I saw that he was direct messaging regularly and still talking about me, I started recording this each day. I will keep logging, screenshotting and publishing here as I have time. I will respond to each comment from him with a link to this page to keep the community informed.</p>
+            <ul>
+              {% for log in site.data.linkedin-log-owen %}
+                      <li><strong>{{ log.date }}-{{ log.entry }}</strong></a> (<a href="{{ log.url }}" target="_blank">LinkedIn</a>) (<a href="screenshots/{{ log.date }}-{{ log.entry }}.png" target="_blank">Screenshot</a>)</li>
+              {% endfor %}
+            </ul>            
+            <p>I hit the wall (again) with this at the end of February -- I had just been deleting or reporting, and I wish I had been documenting. Moving forward I will just be documenting and recording hours spend having to defend my repuation from Owen.</p>
+
+        </div>
+        <p style="text-align: center;">* I am logging each comment separately, even if on the same post.</p>
+      </section>  
+ 
+      <section>
+        <div class="card-body">
+          <div class="mb-4">
+            <h3 class="fs-5 mb-0">In Conclusion</h3>
+            <p>I do not enjoy this work. I would rather not have this page. I would prefer Owen stop harassing people in the space. As many times before I am at my whits end. I don't know what to do, but I refuse to go away. I refuse to stop telling stories. If you are a lawyer in the state of Washington, I have $15K to contribute to my case, and the fund will grow each month. I welcome any help or advice to ensure Owen stops harassing people in the API space. Until then, I will keep this page up and educating people about what is happening.</p>
+        </div>
+      </section>       
+     
+</div>
