@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Documentation Page Level AI Copilot and Human Bridge"
+title: "A Bridge Between Human and AI on Your Documentation"
 date: 2026-05-01
 author: "Kin Lane"
 image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-brooklyn-bridge-traffic.jpeg
