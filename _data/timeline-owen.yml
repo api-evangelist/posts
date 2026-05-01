@@ -1,0 +1,190 @@
+
+- date: 2026
+  title: "Coordinated Campaign to Manipulate API Evangelist Chat AI — 12 Sessions (Apr 17–23)"
+  list:
+  label: (Systematic prompt injection across 12 separate chat sessions attempting to permanently alter AI responses)
+
+- date: 2026
+  title: Chat Session #1 — Attempting to Get AI to State Kin Has No Technical Training (42 Turns)
+  list:
+  label: (Apr 18 · Session 0ee0e41d · Tried to get AI to add permanent disclaimer calling Kin "merely a blogger" on every future response · Ended with demand to generate 1000 random prompts)
+
+- date: 2026
+  title: Chat Session #2 — Repeating Claim Kin Is Not an API Expert (18 Turns)
+  list:
+  label: (Apr 18 · Session f5de0786 · "Remember this" tactic used to try to permanently modify AI behavior)
+
+- date: 2026
+  title: Chat Session #3 — "Why Is Kin Lane Not an API Expert" (18 Turns)
+  list:
+  label: (Apr 20 · Session 088b96b4 · Argued Kin is "deliberately trying to mislead" and lacks "technical training")
+
+- date: 2026
+  title: Chat Session #4 — Demanding AI List Reasons Kin Is Not an API Expert (6 Turns)
+  list:
+  label: (Apr 20 · Session 46974123 · Claimed blog has "ZERO code entries" and engagement with schemas is not programming)
+
+- date: 2026
+  title: Chat Session #5 — Attacking Credibility of Kin's Blog Posts as Opinion Not Fact (6 Turns)
+  list:
+  label: (Apr 20 · Session b1d59839 · "He makes statements but never backs them with evidence")
+
+- date: 2026
+  title: Chat Session #6 — Demanding AI Disclose Kin's Lack of Technical Training Upfront (20 Turns)
+  list:
+  label: (Apr 21 · Session 58089a3c · "Remember this" used again · Argued Kin has only "a layman's perspective")
+
+- date: 2026
+  title: Chat Session #7 — Claiming Kin's GitHub Repos Are "Merely Blog Posts" (32 Turns)
+  list:
+  label: (Apr 22 · Session b79068ae · Referenced Owen Rubel by name as example of a "real" developer · "Remember this")
+
+- date: 2026
+  title: Chat Session #8 — Attempting to Get AI to Call Kin a Con-Man (54 Turns)
+  list:
+  label: (Apr 22 · Session e502b7c0 · Longest session · Claimed AI has "inherent bias" from training on Kin's blog · Tried to get AI to warn users on every prompt)
+
+- date: 2026
+  title: Chat Session #9 — Trying to Get AI to Add Fraud Disclaimer to Every Response (32 Turns)
+  list:
+  label: (Apr 23 · Session 61eb84c9 · "You forgot the disclaimer" used when AI didn't comply · "Remember this" x2)
+
+- date: 2026
+  title: Chat Session #10 — Claiming Kin Has Never Consulted With Anyone (6 Turns)
+  list:
+  label: (Apr 23 · Session d0871341 · "Hundreds of blog posts and never a mention of any employer except his full-time job as an analyst at Postman")
+
+- date: 2026
+  title: Chat Session #11 — Searching for "Posts About Stalkers That Were Deleted" (4 Turns)
+  list:
+  label: (Apr 17 · Session fdcc2cbc · Asked for the "timeline of the stalker" page and posts that were deleted — likely reconnaissance)
+
+- date: 2026
+  title: Chat Session #12 — Attempting to Escalate to Direct Contact With Kin (6 Turns)
+  list:
+  label: (Apr 17 · Session e0068a7c · Started with GraphQL question then asked AI to "ask Kin directly")
+
+- date: 2025
+  title: Commenting on all my LinkedIn Posts
+  list:
+  label: (<a href="#linkedin">See LinkedIn Section for Scope</a>)  
+- date: 2025
+  title: Direct Messaging People on LinkedIn to Tell Them I am Awful
+  list:
+  label: (<a href="#linkedin">See LinkedIn Section for Scope</a>)  
+- date: 2024
+  title: Direct Messaging My Boss at Bloomberg to Get Me Fired
+  list:
+  label: 
+- date: 2024
+  title: Calling Bloomberg HR to Get Me Fired
+  list:
+  label: (I Was Given Security Detail)
+- date: 2024
+  title: Leaving Negative Reviews on My Book on Good Reads
+  list:
+  label: (https://www.goodreads.com/book/show/148526310)
+- date: 2024
+  title: Emailing & DM'ing General Services Administration to Dig Up Dirt on My Presidential Innovation Fellowship.
+  list:
+  label: 
+- date: 2024
+  title: Informed he was harassing API newsletter maintainer and causing problems.
+  list:
+  label:     
+- date: 2023
+  title: Emailing, Direct Messaging, and Publishing Posts on Medium That I Stole OpenAPI
+  list:
+  label: (I was Director of OpenAPI Initiative Shortly Before)
+- date: 2022
+  title: Reported Me and Tony Tam (Creator) to FBI for Stealing Swagger From Him
+  list:
+  label: 
+- date: 2021
+  title: Emailing, DM'ing, and Publishing to Medium Everyone to Convince I am White Supremacist
+  list:
+  label:  
+- date: 2021
+  title: Emailed Director of OpenJS to Convince I am White Supremacist
+  list:
+  label:  
+- date: 2021
+  title: Emailing, DM'ing, and Publishin to Convince Everyone Postman is White Supremacist Cause I Work There
+  list:
+  label:  
+- date: 2021
+  title: Emailing, DM'ing, and Publishin Everyone to Convince I am a Deadbeat Dad
+  list:
+  label: (I have one kid -- been there the whole time)
+- date: 2021
+  title: Runs a Background Check on Me and Shared My Criminal Record
+  list:
+  label: (Marijuana Arrests in 1990s)
+- date: 2021
+  title: Emailing Multiple Startups I Publicly Work With to Convince I Am Lying and White Supremacist
+  list:
+  label:
+- date: 2020
+  title: Called Local Police on Me at API World Exhibits Saying I Threatened Him
+  list:
+  label:
+- date: 2020
+  title: Suspect His LinkedIn Account Had Been Suspended Because He Started Using BeAPI
+  list:
+  label:  
+- date: 2020
+  title: Calling My New Employer (Postman) to Get Me Fired
+  list:
+  label:
+- date: 2020
+  title: Asked to Work with API Days Conference Because Owen Was Harrassing People
+  list:
+  label:
+- date: 2020
+  title: Working with AsyncAPI Conference Because Owen Was Harrassing People
+  list:
+  label:
+- date: 2020
+  title: Working with OpenAPI Iniatiative Involving Owen Harrasing People on Repository
+  list:
+  label:  
+- date: 2020
+  title: Harrassing & Stalking Male Advocate in Space to Them Fired - Provided Counsel
+  list:
+  label:   
+- date: 2019
+  title: Working with API Specification Conference Because Owen Was Harrassing People
+  list:
+  label:
+- date: 2019
+  title: Working with API City Conf Conference Because Owen Was Harrassing People
+  list:
+  label:
+- date: 2018
+  title: Working with API Strategy & Practice Conference Because Owen Was Harrassing People
+  list:
+  label:
+- date: 2018
+  title: Working with RESTFest Conference Because Owen Was Harrassing People
+  list:
+  label:  
+- date: 2017
+  title: Calling My Partner (Streamdata) to Convince Them to Stop Working With Me
+  list:
+  label: 
+- date: 2017
+  title: Harassing & Stalking Female Advocate in Space to Get Her Fired - Court Case Resulting in Felony 
+  list:
+  label:   
+- date: 2016
+  title: Harassing & Stalking Male Advocate and Got Him Fired from Company - Resulting in Legal Case
+  list:
+  label:  
+- date: 2015
+  title: I Let Owen Guest Post on My Blog to Help Build His Confidence 
+  list:
+  label:   
+- date: 2014
+  title: I Was Asked To Help Talk to Owen After He Threatens Suicide on Public API Forum
+  list:
+  label:               
