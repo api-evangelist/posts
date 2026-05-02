@@ -18,7 +18,7 @@
       </button>
     </li>
     <li>
-      <a class="dropdown-item small ae-view-markdown" href="#" target="_blank" rel="noopener">
+      <a class="dropdown-item small ae-view-markdown" href="https://raw.githubusercontent.com/api-evangelist/posts/main/{{ page.path }}" target="_blank" rel="noopener">
         <span class="material-symbols-outlined" style="font-size:15px;vertical-align:-2px;">code</span>
         View as Markdown
       </a>
@@ -52,7 +52,7 @@
 if (typeof aeAI === 'undefined') {
   var aeAI = (function() {
     function getToggle(el) {
-      return el.closest('.dropdown').querySelector('[data-page-url]');
+      return el.closest('.dropdown').querySelector('[data-raw-url]');
     }
     function showToast(btn, msg) {
       var orig = btn.innerHTML;
@@ -80,7 +80,8 @@ if (typeof aeAI === 'undefined') {
       if (mdLink)      mdLink.href      = rawUrl;
     }
     document.addEventListener('show.bs.dropdown', function(e) {
-      if (e.target.dataset.pageUrl) wireDropdown(e.target);
+      var toggle = e.relatedTarget || e.target.querySelector('[data-page-url]');
+      if (toggle && toggle.dataset.pageUrl) wireDropdown(toggle);
     });
     return {
       copyMarkdown: function(btn) {
