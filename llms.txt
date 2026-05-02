@@ -1,0 +1,46 @@
+---
+layout: none
+permalink: /llms.txt
+---
+# API Evangelist
+
+> 16 years of independent research on the technology, business, policies, and people of HTTP APIs — by Kin Lane.
+
+API Evangelist is a federated network of knowledge bases built on 5,000+ blog posts spanning 2010–2026. The research covers every aspect of API operations, from design and governance to AI agents and the programmable enterprise. Run by Kin Lane, co-founder of Naftiko (naftiko.io), where this work feeds directly into governed AI capabilities.
+
+## Core Content
+
+- [Blog](https://apievangelist.com/2026/): Current writing on APIs, AI agents, governance, and the API industry
+- [Conversations](https://conversations.apievangelist.com): Transcripts and summaries of conversations with API practitioners
+- [Rules](https://rules.apievangelist.com): Machine-readable API governance rules (Spectral/OpenAPI)
+- [Guidance](https://guidance.apievangelist.com): Guidance for API producers and consumers
+- [Policies](https://policies.apievangelist.com): API policies for enterprise operations
+- [Standards](https://standards.apievangelist.com): API standards landscape
+- [Strategies](https://strategies.apievangelist.com): API strategy patterns
+- [Vocabularies](https://vocabularies.apievangelist.com): API vocabulary and terminology
+- [Schema](https://schema.apievangelist.com): API-related schema definitions
+- [Properties](https://properties.apievangelist.com): API property patterns
+- [Experiences](https://experiences.apievangelist.com): API consumer experience patterns
+- [Videos](https://video.apievangelist.com): Video content on APIs
+
+## Reference Timelines
+
+- [People Timeline](https://apievangelist.com/timeline/people/): Historical figures in computing, cybernetics, and APIs
+- [API Timeline](https://apievangelist.com/timeline-api/): History of the API industry
+- [Industry Timeline](https://apievangelist.com/timeline-industry/): Regulatory history of technology industries
+
+## Ask & Chat
+
+- [Ask Kin](https://apievangelist.com/): AI assistant trained on API Evangelist content — answers questions, cites sources from the full blog archive
+- [MCP Server](https://chat-api.apievangelist.com/mcp): Connect via Model Context Protocol — tools: search_posts, ask_kin
+
+## About
+
+- [About API Evangelist](https://apievangelist.com/about/api-evangelist): What this site is and why it exists
+- [About Kin Lane](https://apievangelist.com/about/kin-lane): Background, experience, current work at Naftiko
+- [Contact](https://apievangelist.com/contact): Reach Kin directly
+
+## Optional
+
+- [Atom Feed](https://apievangelist.com/atom.xml): RSS/Atom feed of all posts
+- [Sitemap](https://apievangelist.com/sitemap.xml): Full sitemap of all content
