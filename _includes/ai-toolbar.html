@@ -1,0 +1,101 @@
+<div class="dropdown flex-shrink-0">
+  <button class="btn btn-sm btn-outline-secondary dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          data-page-url="{{ page.url | prepend: site.url }}"
+          data-raw-url="https://raw.githubusercontent.com/api-evangelist/posts/main/{{ page.path }}"
+          data-page-title="{{ page.title | escape }}"
+          aria-expanded="false"
+          style="white-space:nowrap;">
+    <span class="material-symbols-outlined" style="font-size:15px;vertical-align:-2px;">smart_toy</span> AI
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end" style="min-width:230px;">
+    <li><h6 class="dropdown-header small">This Page</h6></li>
+    <li>
+      <button class="dropdown-item small" onclick="aeAI.copyMarkdown(this)">
+        <span class="material-symbols-outlined" style="font-size:15px;vertical-align:-2px;">content_copy</span>
+        Copy page as Markdown
+      </button>
+    </li>
+    <li>
+      <a class="dropdown-item small ae-view-markdown" href="#" target="_blank" rel="noopener">
+        <span class="material-symbols-outlined" style="font-size:15px;vertical-align:-2px;">code</span>
+        View as Markdown
+      </a>
+    </li>
+    <li><hr class="dropdown-divider"></li>
+    <li><h6 class="dropdown-header small">Open &amp; Ask</h6></li>
+    <li>
+      <a class="dropdown-item small ae-open-claude" href="#" target="_blank" rel="noopener">
+        <span class="material-symbols-outlined" style="font-size:15px;vertical-align:-2px;">psychology</span>
+        Open in Claude
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item small ae-open-chatgpt" href="#" target="_blank" rel="noopener">
+        <span class="material-symbols-outlined" style="font-size:15px;vertical-align:-2px;">chat</span>
+        Open in ChatGPT
+      </a>
+    </li>
+    <li><hr class="dropdown-divider"></li>
+    <li><h6 class="dropdown-header small">Connect</h6></li>
+    <li>
+      <button class="dropdown-item small" onclick="aeAI.copyMcpCommand(this)">
+        <span class="material-symbols-outlined" style="font-size:15px;vertical-align:-2px;">terminal</span>
+        Copy Claude Code MCP command
+      </button>
+    </li>
+  </ul>
+</div>
+
+<script>
+if (typeof aeAI === 'undefined') {
+  var aeAI = (function() {
+    function getToggle(el) {
+      return el.closest('.dropdown').querySelector('[data-page-url]');
+    }
+    function showToast(btn, msg) {
+      var orig = btn.innerHTML;
+      btn.innerHTML = '<span class="material-symbols-outlined" style="font-size:15px;vertical-align:-2px;">check</span> ' + msg;
+      setTimeout(function() { btn.innerHTML = orig; }, 2000);
+    }
+    function copyText(text) {
+      if (navigator.clipboard) return navigator.clipboard.writeText(text);
+      var ta = document.createElement('textarea');
+      ta.value = text; document.body.appendChild(ta); ta.select();
+      document.execCommand('copy'); document.body.removeChild(ta);
+      return Promise.resolve();
+    }
+    function wireDropdown(toggle) {
+      var pageUrl = toggle.dataset.pageUrl;
+      var rawUrl  = toggle.dataset.rawUrl;
+      var title   = toggle.dataset.pageTitle;
+      var menu    = toggle.nextElementSibling;
+      var prompt  = encodeURIComponent('I\'m reading this API Evangelist page and want to discuss it: ' + pageUrl + ' — ' + title);
+      var claudeLink  = menu.querySelector('.ae-open-claude');
+      var chatgptLink = menu.querySelector('.ae-open-chatgpt');
+      var mdLink      = menu.querySelector('.ae-view-markdown');
+      if (claudeLink)  claudeLink.href  = 'https://claude.ai/new?q=' + prompt;
+      if (chatgptLink) chatgptLink.href = 'https://chatgpt.com/?q=' + prompt;
+      if (mdLink)      mdLink.href      = rawUrl;
+    }
+    document.addEventListener('show.bs.dropdown', function(e) {
+      if (e.target.dataset.pageUrl) wireDropdown(e.target);
+    });
+    return {
+      copyMarkdown: function(btn) {
+        var rawUrl = getToggle(btn).dataset.rawUrl;
+        fetch(rawUrl)
+          .then(function(r) { return r.text(); })
+          .then(function(text) { return copyText(text); })
+          .then(function() { showToast(btn, 'Copied!'); })
+          .catch(function() { window.open(rawUrl, '_blank'); });
+      },
+      copyMcpCommand: function(btn) {
+        var cmd = 'claude mcp add api-evangelist --transport http https://chat-api.apievangelist.com/mcp';
+        copyText(cmd).then(function() { showToast(btn, 'Copied!'); });
+      }
+    };
+  })();
+}
+</script>
