@@ -5,3 +5,4 @@ User-agent: *
 Allow: /
 
 Sitemap: {{ site.url }}/sitemap.xml
+# llms.txt: {{ site.url }}/llms.txt
