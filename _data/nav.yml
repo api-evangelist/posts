@@ -28,7 +28,19 @@
 
         - name: People
           href: /timeline/people/                     
-                                                             
+
+
+- name: Toolbox
+  nav:
+
+    - name: Contracts
+      symbol: description
+      href: https://contracts.apievangelist.com
+
+    - name: APIs
+      symbol: api
+      href: https://apis.apievangelist.com
+
 
 - name: API Evangelist LLC
   nav:
@@ -84,10 +96,3 @@
 
         - name: RSS Feed
           href: /feed.xml
-                                                
-    - name: Toolbox
-      symbol: construction
-      sub:
-
-        - name: APIs
-          href: https://apievangelist.com/apis/                                                           
