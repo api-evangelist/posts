@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "apie": "https://apievangelist.com/context.jsonld#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+
+    "Provider": "schema:Organization",
+    "API": "schema:WebAPI",
+    "Contract": "apie:Contract",
+    "Property": "apie:Property",
+    "Spec": "apie:Spec",
+    "Capability": "apie:Capability",
+    "Policy": "apie:Policy",
+    "Rule": "apie:Rule",
+    "Standard": "apie:Standard",
+    "Strategy": "apie:Strategy",
+    "Experience": "apie:Experience",
+    "Maintainer": "schema:Person",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "image": "schema:image",
+    "tags": "schema:keywords",
+    "created": { "@id": "schema:dateCreated", "@type": "schema:Date" },
+    "modified": { "@id": "schema:dateModified", "@type": "schema:Date" },
+
+    "aid": "apie:aid",
+    "baseURL": { "@id": "apie:baseURL", "@type": "@id" },
+    "humanURL": { "@id": "apie:humanURL", "@type": "@id" },
+    "specificationVersion": "apie:specificationVersion",
+    "type": "apie:type",
+    "access": "apie:access",
+    "position": "apie:position",
+
+    "apis": { "@id": "apie:apis", "@container": "@set" },
+    "properties": { "@id": "apie:properties", "@container": "@set" },
+    "common": { "@id": "apie:common", "@container": "@set" },
+    "maintainers": { "@id": "apie:maintainers", "@container": "@set" },
+    "contact": { "@id": "apie:contact", "@container": "@set" },
+
+    "OpenAPI": "apie:OpenAPI",
+    "AsyncAPI": "apie:AsyncAPI",
+    "JSONSchema": "apie:JSONSchema",
+    "JSONLD": "apie:JSONLD",
+    "Documentation": "schema:WebPage",
+    "GitHubRepository": "schema:SoftwareSourceCode",
+    "SDK": "schema:SoftwareApplication",
+
+    "email": "schema:email",
+    "FN": "schema:name",
+    "X-github": "apie:githubHandle",
+
+    "linkset": { "@id": "apie:linkset", "@container": "@set" },
+    "anchor": { "@id": "apie:anchor", "@type": "@id" },
+    "service-desc": { "@id": "apie:serviceDesc", "@container": "@set" },
+    "service-doc": { "@id": "apie:serviceDoc", "@container": "@set" },
+    "describedby": { "@id": "apie:describedby", "@container": "@set" }
+  }
+}

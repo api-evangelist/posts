@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agentskills.io/schema/index.json",
+  "name": "API Evangelist agent skills",
+  "description": "Skills for discovering and consuming the api-evangelist network — contracts (one per provider), individual APIs, and their machine-readable surfaces.",
+  "url": "https://apievangelist.com/skills/",
+  "skills": [
+    {
+      "name": "discover-apievangelist",
+      "description": "Discover the structure of the api-evangelist network — its subdomains, machine-readable catalogs, and content-negotiation conventions — so other skills can find APIs and contracts efficiently.",
+      "url": "https://apievangelist.com/skills/discover-apievangelist/SKILL.md"
+    },
+    {
+      "name": "search-apis",
+      "description": "Find APIs and contracts in the api-evangelist network by keyword, provider, or tag, using the RFC 9264 api-catalog endpoints.",
+      "url": "https://apievangelist.com/skills/search-apis/SKILL.md"
+    },
+    {
+      "name": "fetch-api-spec",
+      "description": "Given an api-evangelist URL or catalog entry, fetch the OpenAPI / AsyncAPI / JSON Schema specification for that API.",
+      "url": "https://apievangelist.com/skills/fetch-api-spec/SKILL.md"
+    }
+  ]
+}
