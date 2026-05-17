@@ -116,5 +116,3 @@ To be honest about the limits:
 - **The same playbook applied to the [Naftiko](https://naftiko.io) network.** Same RFCs, same Worker pattern, same agent skills. The Naftiko surface is younger and more concentrated, so the application should be cleaner.
 
 Most of what is in this playbook is not new technology. RFC 8288 has been around since 2017. RFC 9264 since 2022. RFC 9727 since 2025. Schema.org since 2011. APIs.json since 2014. What is new is treating them as a coherent stack — the catalog is the index, the linkset is the format, the Worker is the edge, the markdown is the alternate representation, the skill is the manual, the JSON-LD is the vocabulary, the robots.txt is the consent. Stack them together and a network of static Jekyll sites starts feeling like a single agent-readable surface.
-
-That is what shipped today.
