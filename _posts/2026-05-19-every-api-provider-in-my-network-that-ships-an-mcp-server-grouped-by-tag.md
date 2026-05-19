@@ -10,7 +10,7 @@ excerpt: "After a fresh pass across 6201 API providers in my network, I found 19
 
 I just did a fresh pass over every API provider in my network — 6201 repos in the [API Evangelist Network](https://github.com/api-evangelist) — looking for explicit evidence that each provider ships an MCP (Model Context Protocol) server. The bar I used: either an official repo in the company's own GitHub organization with `mcp` in the name (attributed back to the specific product, not a sister product), or a first-party blog announcement on the company's own domain whose title both names the company and uses an announcement verb (`introducing`, `announcing`, `now generally available`, etc.). No third-party tutorials, no "how-to-build-with-MCP" posts, no sister-product attribution.
 
-That filter surfaced **199 providers** with an MCP server. Below they are grouped by the first tag each provider declares for itself in its `apis.yml`. 162 sit in tag groups of three or more; the remaining 37 are collected at the bottom under "Other". The links go directly to the MCP repo or announcement post — not to my catalog, so you can verify each one against the source.
+That filter surfaced **199 providers** with an MCP server. Below they are grouped by the first tag each provider declares for itself in its [`apis.yml`](https://apis.json.org). 162 sit in tag groups of three or more; the remaining 37 are collected at the bottom under "Other". The links go directly to the MCP repo or announcement post and to my catalog, so you can verify each one against the source.
 
 ## Open Source (33)
 
@@ -304,4 +304,4 @@ That filter surfaced **199 providers** with an MCP server. Below they are groupe
 
 ---
 
-The detection method (signals, false-positive filtering, etc.) is preserved in the per-repo commit history under `github.com/api-evangelist/<slug>` — each `apis.yml` got a `common:` entry of type `MCPServer` pointing at the evidence URL. If a provider has an MCP server but isn't listed here, it's because either (a) the announcement post wasn't on the company's own domain, (b) the GitHub org isn't 1:1 with the product (large umbrella orgs like Microsoft and AWS), or (c) the repo name didn't carry enough of the product slug to attribute confidently. Send me a pointer and I'll add it.
+The detection method (signals, false-positive filtering, etc.) is preserved in the per-repo commit history under `github.com/api-evangelist/<slug>` — each [`apis.yml`](https://apis.json.org) got a `common:` entry of type `MCPServer` pointing at the evidence URL. If a provider has an MCP server but isn't listed here, it's because either (a) the announcement post wasn't on the company's own domain, (b) the GitHub org isn't 1:1 with the product (large umbrella orgs like Microsoft and AWS), or (c) the repo name didn't carry enough of the product slug to attribute confidently. Send me a pointer and I'll add it.
