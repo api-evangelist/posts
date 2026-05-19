@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Every API Provider in My Network That Ships an MCP Server, Grouped by Tag"
+title: "Who In The API Evangelist Network Has an MCP Server"
 date: 2026-05-19
 author: "Kin Lane"
 image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-building-art-construction.jpeg
