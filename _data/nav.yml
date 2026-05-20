@@ -3,7 +3,13 @@
 
     - name: Stories
       symbol: auto_stories
-      href: /2026/
+      sub:
+
+        - name: Stories
+          href: /2026/
+
+        - name: Areas
+          href: /areas/
 
     - name: Conversations
       symbol: forum
