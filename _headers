@@ -1,0 +1,26 @@
+# Cloudflare Pages _headers: per-route response headers.
+# Docs: https://developers.cloudflare.com/pages/configuration/headers/
+
+# RFC 9727 API Catalog must be served as application/linkset+json.
+/.well-known/api-catalog
+  Content-Type: application/linkset+json
+  Cache-Control: public, max-age=3600
+
+# Agent Skills discovery RFC v0.2.0 — application/json.
+/.well-known/agent-skills/index.json
+  Content-Type: application/json
+  Cache-Control: public, max-age=3600
+
+# Existing skills index — keep canonical content-type.
+/skills/index.json
+  Content-Type: application/json
+  Cache-Control: public, max-age=3600
+
+# Helpful CORS headers so agents can fetch from any origin.
+/.well-known/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+
+/skills/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, OPTIONS

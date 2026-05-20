@@ -1,0 +1,33 @@
+---
+layout: none
+permalink: /.well-known/agent-skills/index.json
+---
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/agent-skills-discovery-rfc/main/schemas/index.schema.json",
+  "name": "API Evangelist agent skills",
+  "description": "Skills for discovering and consuming the api-evangelist network — contracts (one per provider), individual APIs, and their machine-readable surfaces.",
+  "url": "https://apievangelist.com/skills/",
+  "skills": [
+    {
+      "name": "discover-apievangelist",
+      "type": "skill",
+      "description": "Discover the structure of the api-evangelist network — its subdomains, machine-readable catalogs, and content-negotiation conventions — so other skills can find APIs and contracts efficiently.",
+      "url": "https://apievangelist.com/skills/discover-apievangelist/SKILL.md",
+      "sha256": "36fd7de1fca131dc6e4e75673faf43903d28004e5c40dd9b7e677851dd01b865"
+    },
+    {
+      "name": "search-apis",
+      "type": "skill",
+      "description": "Find APIs and contracts in the api-evangelist network by keyword, provider, or tag, using the RFC 9264 api-catalog endpoints.",
+      "url": "https://apievangelist.com/skills/search-apis/SKILL.md",
+      "sha256": "9fd576cbc69b6b85f79c126c6a80921d3f1ed733dfdf5042621a05150dfbdc6b"
+    },
+    {
+      "name": "fetch-api-spec",
+      "type": "skill",
+      "description": "Given an api-evangelist URL or catalog entry, fetch the OpenAPI / AsyncAPI / JSON Schema specification for that API.",
+      "url": "https://apievangelist.com/skills/fetch-api-spec/SKILL.md",
+      "sha256": "ab6d6e6e34d913345d5d99afc64a91fec3f02fb7305aaa156093ad26a432846e"
+    }
+  ]
+}

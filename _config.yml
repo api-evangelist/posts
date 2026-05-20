@@ -77,6 +77,11 @@ exclude:
   - Gemfile.lock
   - node_modules
 
+# Files Jekyll would skip by default (leading underscore) but Cloudflare Pages needs.
+include:
+  - _headers
+  - _redirects
+
 sass:
   style: compressed
 
