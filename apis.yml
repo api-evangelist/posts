@@ -1,21 +1,49 @@
-aid: api-evangelist-standards
+aid: api-evangelist-posts
 specificationVersion: '0.19'
 type: Index
-name: API Evangelist Standards
-description: >-
-  This is the API contract for the API Evangelist standards API, inventorying
-  all of the APIs managed through the platform.
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+name: Posts
+description: Over 4,000 stories on the API Evangelist blog since 2010 — the technology, business, and politics of how APIs
+  are changing the way we live and work.
+image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png
 tags:
-  - Standards
+- Posts
+- Stories
+- Blog
 created: '2024-11-11'
-modified: '2024-11-11'
-url: https://github.com/api-evangelist/standards/blob/main/apis.yml
-common:
-  - type: Standards
-    url: https://github.com/api-evangelist/standards/standards.yml
-maintainers:
+modified: '2026-05-20'
+url: https://github.com/api-evangelist/posts/blob/main/apis.yml
+apis:
+- aid: api-evangelist-posts:posts
+  name: Posts Feed
+  description: Over 4,000 stories on the API Evangelist blog since 2010 — the technology, business, and politics of how APIs
+    are changing the way we live and work.
+  image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png
+  humanURL: https://developer.apievangelist.com/feeds/posts/
+  baseURL: https://apievangelist.com
+  tags:
+  - Posts
+  - Stories
+  - Blog
+  properties:
+  - type: Documentation
+    url: https://developer.apievangelist.com/feeds/posts/
+  - type: JSONFeed
+    url: https://posts.apievangelist.com/posts.json
+  - type: GitHubRepository
+    url: https://github.com/api-evangelist/posts
+  contact:
   - FN: Kin Lane
     email: info@apievangelist.com
-    X-github: kinlane
+common:
+- type: DeveloperPortal
+  url: https://developer.apievangelist.com/
+- type: Network
+  url: https://developer.apievangelist.com/network/
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: APIsJSON
+  url: https://developer.apievangelist.com/apis.json
+maintainers:
+- FN: Kin Lane
+  email: info@apievangelist.com
+  X-github: kinlane
