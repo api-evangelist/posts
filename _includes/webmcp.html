@@ -1,0 +1,131 @@
+<!-- WebMCP (W3C Web Machine Learning CG draft) -->
+<!-- Exposes browser-side tools to in-page AI agents via navigator.modelContext. -->
+<!-- Spec: https://webmachinelearning.github.io/webmcp/ -->
+<script>
+(function () {
+  var ctx = (typeof navigator !== 'undefined' && navigator.modelContext) || null;
+  if (!ctx || typeof ctx.provideContext !== 'function') return;
+
+  var FEEDS_CATALOG = 'https://developer.apievangelist.com/.well-known/api-catalog';
+
+  ctx.provideContext({
+    tools: [
+      {
+        name: 'get_page_as_markdown',
+        description:
+          'Return the current page rendered as markdown. Reads the page\'s ' +
+          '<link rel="alternate" type="text/markdown"> source if present.',
+        inputSchema: {
+          type: 'object',
+          properties: {},
+          additionalProperties: false
+        },
+        execute: async function () {
+          var link = document.querySelector(
+            'link[rel="alternate"][type="text/markdown"]'
+          );
+          if (!link) {
+            return { error: 'No markdown alternate is advertised for this page.' };
+          }
+          var r = await fetch(link.href, { headers: { Accept: 'text/markdown' } });
+          if (!r.ok) return { error: 'Failed to fetch markdown: ' + r.status };
+          return { url: link.href, markdown: await r.text() };
+        }
+      },
+      {
+        name: 'list_network_feeds',
+        description:
+          'List every machine-readable feed in the API Evangelist network ' +
+          '(apis, posts, conversations, contracts, experiences, guidance, ' +
+          'partners, policies, properties, rules, schema, standards, ' +
+          'strategies, utilities, videos, vocabularies, spotlight-rules). ' +
+          'Returns an RFC 9727 linkset describing each feed\'s anchor, ' +
+          'service-desc (JSON feed), service-doc (developer-portal page), ' +
+          'and service-meta (GitHub repo).',
+        inputSchema: {
+          type: 'object',
+          properties: {},
+          additionalProperties: false
+        },
+        execute: async function () {
+          var r = await fetch(FEEDS_CATALOG, {
+            headers: { Accept: 'application/linkset+json, application/json' }
+          });
+          if (!r.ok) return { error: 'Failed to fetch catalog: ' + r.status };
+          return await r.json();
+        }
+      },
+      {
+        name: 'fetch_network_feed',
+        description:
+          'Fetch a single API Evangelist network feed by its slug, e.g. ' +
+          '"apis", "posts", "policies". Returns the parsed JSON feed body. ' +
+          'Use list_network_feeds first to discover the available slugs and ' +
+          'their schemas.',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            slug: {
+              type: 'string',
+              description: 'The feed slug from list_network_feeds.',
+              pattern: '^[a-z0-9-]+$'
+            }
+          },
+          required: ['slug'],
+          additionalProperties: false
+        },
+        execute: async function (args) {
+          var slug = (args && args.slug) || '';
+          var catalogResp = await fetch(FEEDS_CATALOG);
+          if (!catalogResp.ok) {
+            return { error: 'Failed to fetch catalog: ' + catalogResp.status };
+          }
+          var catalog = await catalogResp.json();
+          var feedHref = null;
+          (catalog.linkset || []).forEach(function (entry) {
+            var anchor = entry.anchor || '';
+            if (anchor.indexOf('//' + slug + '.') !== -1 ||
+                anchor.indexOf('//' + slug + '-') !== -1 ||
+                anchor.indexOf('/' + slug + '/') !== -1) {
+              var desc = (entry['service-desc'] || [])[0];
+              if (desc && desc.href) feedHref = desc.href;
+            }
+          });
+          if (!feedHref) {
+            return { error: 'Unknown feed slug: ' + slug };
+          }
+          var feedResp = await fetch(feedHref);
+          if (!feedResp.ok) {
+            return { error: 'Failed to fetch feed: ' + feedResp.status };
+          }
+          return { url: feedHref, body: await feedResp.json() };
+        }
+      },
+      {
+        name: 'list_areas',
+        description:
+          'List the API Evangelist topic areas — focused subsites under ' +
+          '*.apievangelist.com (documentation, security, agents, automation, ' +
+          'aggregation, etc.). Returns the slug, display name, and URL for each.',
+        inputSchema: {
+          type: 'object',
+          properties: {},
+          additionalProperties: false
+        },
+        execute: async function () {
+          var r = await fetch('https://apievangelist.com/areas/');
+          if (!r.ok) return { error: 'Failed to fetch areas: ' + r.status };
+          var html = await r.text();
+          var re = /<a[^>]+href="(https:\/\/([a-z0-9-]+)\.apievangelist\.com\/?)"[^>]*>([^<]+)<\/a>/g;
+          var areas = [];
+          var m;
+          while ((m = re.exec(html))) {
+            areas.push({ slug: m[2], name: m[3].trim(), url: m[1] });
+          }
+          return { areas: areas };
+        }
+      }
+    ]
+  });
+})();
+</script>
