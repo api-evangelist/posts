@@ -125,8 +125,12 @@
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/atom.xml" | relative_url }}">
 
-    {% comment %} Markdown source for content negotiation. The Cloudflare Worker reads this href and serves it when Accept: text/markdown is preferred. {% endcomment %}
-    {% if page.path and page.path contains '.md' %}
+    {% comment %} Markdown source for content negotiation. The Cloudflare Worker reads this href and serves it when Accept: text/markdown is preferred. Pages can override with `markdown_source:` in front matter; the homepage uses a hand-curated llms-home.md. {% endcomment %}
+    {% if page.markdown_source %}
+    <link rel="alternate" type="text/markdown" title="Markdown source" href="{{ page.markdown_source }}">
+    {% elsif page.url == "/" %}
+    <link rel="alternate" type="text/markdown" title="Markdown source" href="https://raw.githubusercontent.com/api-evangelist/posts/main/llms-home.md">
+    {% elsif page.path and page.path contains '.md' %}
     <link rel="alternate" type="text/markdown" title="Markdown source" href="https://raw.githubusercontent.com/api-evangelist/posts/main/{{ page.path }}">
     {% endif %}
 

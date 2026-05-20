@@ -1,0 +1,8 @@
+# Cloudflare Pages _redirects: route rewrites (status 200) + redirects (3xx).
+# Docs: https://developers.cloudflare.com/pages/configuration/redirects/
+
+# RFC 9727 says the catalog lives at /.well-known/api-catalog (no extension).
+# Jekyll outputs the source file to /.well-known/api-catalog.json — rewrite the
+# canonical path to the actual file. 200 = URL stays, content from new path.
+/.well-known/api-catalog       /.well-known/api-catalog.json       200
+/.well-known/agent-skills      /.well-known/agent-skills/index.json 200
