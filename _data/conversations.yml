@@ -643,3 +643,23 @@
   guestCompany: Amabassador Labs
   youtubeId: FizRk34wADo
   url: /store/2025-03-06-derek-thompson/
+- title: >-
+    API Evangelist Conversation with Mike Amundsen on the Lineage of the Web,
+    Hypermedia, Capabilities, and What Comes Next
+  description: >-
+    Mike Amundsen has been writing about hypermedia, REST, microservices, and
+    the semantics of the web for the better part of two decades. In this
+    conversation we walk the lineage — Paul Otlet, Ted Nelson, Wendy Hall,
+    Leonard Richardson — through hypermedia and into the contemporary
+    conversation around capabilities, affordances, and agentic systems. Mike
+    makes the case that capabilities are not just an architectural pattern but
+    a worldview: the ability to do something, made meaningful through ontology,
+    taxonomy, and choreography. Along the way we talk about what the web has
+    become, why microservices still matter, what "agency" really means in an
+    agentic system, and how to stay grounded — and keep your spark — when the
+    hype cycle pulls everyone toward whatever today's tulip happens to be.
+  date: 2026-05-20 00:00:00 +0000
+  guestName: Mike Amundsen
+  guestCompany: Independent
+  youtubeId: j0wpJDPbROY
+  url: /store/2026-05-20-mike-amundsen/
