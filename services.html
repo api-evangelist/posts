@@ -71,15 +71,17 @@ sub: Services
         <div class="col-md-12 mb-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h3 class="fs-6 mb-2">2. API Management Agent Onboarding</h3>
-              <p class="text-muted small mb-2">Deploy an agent-onboarding doorway on top of an existing API management gateway and developer portal — complementing what's already there, without changing any of it.</p>
-              <p class="text-muted small mb-2">The doorway publishes the three primitives a trusted agent needs to bootstrap itself against an API surface:</p>
+              <h3 class="fs-6 mb-2">2. Automated Agent Onboarding — As a <a href="https://naftiko.io">Naftiko Capability</a></h3>
+              <p class="text-muted small mb-2">An agent shows up at your API with a verifiable Web Bot Auth identity, a clear purpose, and a list of scopes it would like. The capability verifies the signature, checks the request against the provider's declared policy, composes the three-to-five gateway calls needed to provision the agent in your existing API management platform, and returns a scoped credential in a single round trip. No human in the loop. No Jira ticket.</p>
+              <p class="text-muted small mb-2">The capability runs on the <a href="https://naftiko.io">Naftiko Framework</a> in front of the gateway you already operate. It publishes the four primitives a trusted agent needs to self-onboard:</p>
               <ul class="text-muted small mb-2">
-                <li><code>.well-known/api-catalog</code> — RFC 9727 LinkSet pointing at every spec the provider serves.</li>
-                <li><code>.well-known/mcp</code> — discovery for any MCP servers the provider operates.</li>
-                <li><strong>Agent skills</strong> — declarative onboarding flows that let trusted agents obtain keys, tokens, and scoped access in a secure, auditable way.</li>
+                <li><code>.well-known/api-catalog</code> — RFC 9727 LinkSet pointing at every spec the provider serves, with an <code>x-onboarding</code> extension declaring the consent document, supported signature schemes, and which scopes auto-issue vs. require approval.</li>
+                <li><code>.well-known/mcp</code> — discovery for any MCP servers the provider operates, and orchestration of any the gateway already manages.</li>
+                <li><strong>Agent skills at <code>/skills/</code></strong> — including <code>onboard-agent.md</code>, the published operating manual the agent reads to know exactly how to register, what to sign, and what to acknowledge.</li>
+                <li><strong>The <code>/onboard</code> endpoint</strong> — verifies the Web Bot Auth signature (RFC 9421), enforces the provider's declared trust policy, composes the gateway operations needed to issue a scoped credential, stamps the consent hash and signature onto the audit trail.</li>
               </ul>
-              <p class="text-muted small mb-0">Drops into an existing portal experience and lets a provider support agentic activity with minimal investment in new infrastructure.</p>
+              <p class="text-muted small mb-2">Provider policy is declarative — trusted operator domains, auto-issuable scopes vs. approval-required scopes, default rate limits, consent terms, audit destination — all editable without touching the gateway.</p>
+              <p class="text-muted small mb-0">Built from gateway operations the major API management platforms already publish (Kong, Apigee, WSO2, Tyk, Gravitee, AWS, Azure, Google). See the <a href="/2026/05/27/automated-agent-onboarding-is-a-naftiko-capability-not-a-gateway-feature/">accompanying writeup</a> for the per-gateway operation map and tier classification across 75 gateway providers.</p>
             </div>
           </div>
         </div>
