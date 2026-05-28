@@ -125,6 +125,8 @@ The capability is a single artifact. It declares what the agent will send, what 
 
 The gateway-specific operation paths above are not invented — they are pulled directly from the OpenAPIs already sitting in `/all/kong/openapi/`, `/all/apigee/openapi/`, `/all/wso2/openapi/`, `/all/tyk/openapi/`, and the rest. I [evaluated all of them this week](https://github.com/api-evangelist/api-evangelist/tree/main/working/agent-onboarding) and produced an inventory matrix scoring 75 gateway providers by how cleanly they can drive each leg of the flow.
 
+![Docks waterfront in the blue-circuit filter](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/blue-circuit-docks-water-front.jpg)
+
 ## The Eval Lives in the Working Folder
 
 Four documents in [`working/agent-onboarding/`](https://github.com/api-evangelist/api-evangelist/tree/main/working/agent-onboarding):
