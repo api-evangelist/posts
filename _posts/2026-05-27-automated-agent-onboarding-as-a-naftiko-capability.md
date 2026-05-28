@@ -56,7 +56,7 @@ The vendor that ships it is the one that treats the flow as a portable capabilit
 
 ## What the Capability Actually Contains
 
-An agent-onboarding Naftiko Capability declares roughly the following — note this is an illustrative sketch of the shape, simplified for the post. The first real artifact, against Kong Enterprise Admin, is committed at [api-evangelist/kong/capabilities/kong-agent-onboarding.yaml](https://github.com/api-evangelist/kong/blob/main/capabilities/kong-agent-onboarding.yaml) and uses the canonical `naftiko: 1.0.0-alpha2` schema with `consumes` + `orchestration` + `exposes` + `governance` sections.
+An agent-onboarding Naftiko Capability declares roughly the following — note this is an illustrative sketch of the shape, simplified for the post. The first real artifact, against Kong Enterprise Admin, is committed at [api-evangelist/kong/capabilities/kong-agent-onboarding.yaml](https://github.com/api-evangelist/kong/blob/main/capabilities/kong-agent-onboarding.yaml) and uses the canonical `naftiko: 1.0.0-alpha2` schema with `consumes` + `orchestration` + `exposes` sections per the [Ikanos specification](https://github.com/naftiko/ikanos.wiki).
 
 ```yaml
 naftiko: 1.0.0-alpha2
@@ -168,13 +168,13 @@ capability:
   - type: agent-skill
     namespace: agent-onboarding-skill
     skill: { name: onboard-agent, file: skills/onboard-agent.md }
-  governance:
-  - { id: require-web-bot-auth, severity: blocking, enforce_at: [runtime] }
-  - { id: require-consent-hash-match, severity: blocking, enforce_at: [runtime] }
-  - { id: forbidden-scopes-deny, severity: blocking, enforce_at: [runtime] }
-  - { id: approval-required-defer, severity: advisory, enforce_at: [runtime] }
-  - { id: ttl-enforced, severity: advisory, enforce_at: [runtime] }
 ```
+
+The runtime policy levers (require Web Bot Auth signature, require matching consent hash, deny forbidden scopes, defer approval-required scopes to a webhook) are *already encoded* in the orchestration steps via `on_failure: deny` — there is no separate `governance:` capability section to author. Policy enforcement is *what the orchestration is*.
+
+The lint-time governance — the rules that say "any capability claiming to do agent onboarding MUST include verify_signature, verify_consent, classify_scopes, and emit_audit steps, MUST bind AGENT_TRUSTED_ISSUERS and AGENT_CONSENT_HASH in its env namespace, and MUST expose REST/MCP/agent-skill surfaces on the canonical paths" — lives in a Polychro ruleset, not in the capability YAML. Polychro is Naftiko's [governance layer](https://github.com/naftiko/polychro.wiki), separate from the capability spec. The companion ruleset for this pattern is at [api-evangelist/posts/polychro/agent-onboarding-rules.yaml](https://github.com/api-evangelist/posts/blob/main/polychro/agent-onboarding-rules.yaml) — 17 rules extending `polychro:ai-safety`, applied with `polychro lint --tags agent-onboarding`.
+
+The three-layer split is the correct architecture per the canonical Naftiko docs: **Ikanos** is the capability spec (the YAML above), **Polychro** is the governance layer that lints capability files, and **Naftiko Fleet** is the operations layer that governs capabilities at scale across teams and compliance boundaries. None of those three is encoded inside the others.
 
 The capability is a single artifact. It declares what the agent will send, what trust is required, which gateway operations get composed in which order, what the policy levers are, and which surfaces are produced. The Naftiko Framework runs it. The provider edits `policy.yaml` and re-deploys without ever touching the capability or the gateway. Ten reference artifacts are now committed across the API Evangelist GitHub organization, all valid `naftiko: 1.0.0-alpha2` against the canonical schema and all exposing the same three downstream surfaces — REST `POST /v1/agents/onboard`, MCP `agent-register` tool, and an agent skill at `/skills/onboard-agent.md` — so an agent that knows how to call the onboarding endpoint doesn't care which capability sits behind it:
 
@@ -191,7 +191,7 @@ The capability is a single artifact. It declares what the agent will send, what 
 | Cloudflare | [cloudflare-agent-onboarding.yaml](https://github.com/api-evangelist/cloudflare/blob/main/capabilities/cloudflare-agent-onboarding.yaml) | Edge-native — the worker IS the gateway; tokens minted at the edge, Workers KV trust cache, R2 + Logpush audit |
 | Deutsche Telekom / CAMARA | [dt-camara-agent-onboarding.yaml](https://github.com/api-evangelist/deutsche-telekom/blob/main/capabilities/dt-camara-agent-onboarding.yaml) | Carrier-grade three-layer trust (operator agreement + agent registration + per-call user consent), regulatory archive with multi-year retention |
 
-That's ten gateway adapter shapes, all expressed as Naftiko Capabilities, all parsing with stock `yaml.safe_load`, all following the same `consumes` + `orchestration` + `exposes` + `governance` structure documented in the canonical [capability-spec](https://naftiko.io). The differences across the ten reflect the gateway data models and trust affordances — not the agent-facing contract. The orchestrations range from Tyk's five-step minimum (one atomic gateway call) to Kong and Azure APIM's eight-step composition; the shape of the contract above each of them is identical.
+That's ten gateway adapter shapes, all expressed as Naftiko Capabilities, all parsing with stock `yaml.safe_load`, all following the same `consumes` + `orchestration` + `exposes` structure documented in the canonical [Ikanos capability spec](https://github.com/naftiko/ikanos.wiki). The differences across the ten reflect the gateway data models and trust affordances — not the agent-facing contract. The orchestrations range from Tyk's five-step minimum (one atomic gateway call) to Kong and Azure APIM's eight-step composition; the shape of the contract above each of them is identical. The companion [Polychro ruleset](https://github.com/api-evangelist/posts/blob/main/polychro/agent-onboarding-rules.yaml) lints every one of the ten artifacts for cross-capability consistency — same `verify_signature` / `verify_consent` / `classify_scopes` / `emit_audit` step contract, same REST/MCP/agent-skill exposed surfaces, same required env bindings.
 
 The gateway-specific operation paths above are not invented — they are pulled directly from the OpenAPIs published across the [API Evangelist GitHub organization](https://github.com/api-evangelist) at [api-evangelist/kong/openapi](https://github.com/api-evangelist/kong/tree/main/openapi), [api-evangelist/apigee/openapi](https://github.com/api-evangelist/apigee/tree/main/openapi), [api-evangelist/wso2/openapi](https://github.com/api-evangelist/wso2/tree/main/openapi), [api-evangelist/tyk/openapi](https://github.com/api-evangelist/tyk/tree/main/openapi), and the rest. I evaluated all of them this week and produced an inventory matrix scoring 75 gateway providers by how cleanly they can drive each leg of the flow.
 
