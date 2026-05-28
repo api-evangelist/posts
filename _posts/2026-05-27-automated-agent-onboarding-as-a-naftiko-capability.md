@@ -59,69 +59,138 @@ The vendor that ships it is the one that treats the flow as a portable capabilit
 An agent-onboarding Naftiko Capability declares roughly the following — note this is an illustrative sketch of the shape, simplified for the post. The first real artifact, against Kong Enterprise Admin, is committed at [api-evangelist/kong/capabilities/kong-agent-onboarding.yaml](https://github.com/api-evangelist/kong/blob/main/capabilities/kong-agent-onboarding.yaml) and uses the canonical `naftiko: 1.0.0-alpha2` schema with `consumes` + `orchestration` + `exposes` + `governance` sections.
 
 ```yaml
-name: agent-onboarding
-description: |
- Verify an agent's Web Bot Auth identity, check it against the provider's
- trust policy, compose the gateway operations needed to provision a scoped
- credential, stamp the consent acknowledgement onto the audit trail, and
- return the credential to the agent in a single round trip.
-
-inputs:
- signature:
- type: web-bot-auth # RFC 9421 HTTP Message Signature
- verify_against: keys-directory
- skill_id: string # which onboarding skill version executed
- scopes: array # requested scopes from x-onboarding.automated_scopes
- consent_hash: string # SHA-256 of the published consent document
- contact:
- operator: string # e.g. anthropic.com
- support_url: url
- purpose: string
-
-policy: ref(./policy.yaml) # provider-declared trust, scopes, defaults
-
-operations:
- - id: create_identity
- map_per_gateway:
- kong: POST /{workspace}/consumers
- apigee: POST /organizations/{org}/developers
- wso2: POST /register # DCR
- tyk: inline_with_credential # one-shot
- gravitee: POST /environments/{envId}/applications
- - id: create_app
- map_per_gateway:
- kong: POST /{workspace}/consumer_groups
- apigee: POST /organizations/{org}/developers/{devEmail}/apps
- wso2: POST /devportal/applications
-...
- - id: issue_credential
- map_per_gateway:
- kong: POST /{workspace}/consumers/{id}/key-auth
- apigee: (returned in create_app response)
- wso2: POST /apis/{apiId}/api-keys/generate
-...
- - id: apply_scope_and_rate_limit
- map_per_gateway: {... }
- - id: record_audit_event
- map_per_gateway:
- kong: POST /v1/event-gateways/{gw}/topics/audit-events/produce
- apigee: (Google Cloud Audit Logs — out of band)
- wso2: GET /tenant-logs/{tenant}/apis/ # observe channel
- gravitee: POST /environments/{envId}/audits # native
-...
-
-outputs:
- rest: POST /onboard # what the agent calls
- mcp_tool: agent.register # what an MCP client calls
- skill: skills/onboard-agent.md # what the agent reads to know how to call
-
-audit:
- emit_to: ref(policy.audit.destination)
- include_web_bot_auth_signature: true
- include_consent_hash: true
+naftiko: 1.0.0-alpha2
+info:
+  label: Agent Onboarding (gateway-templated)
+  description: Verify agent identity, check policy, compose gateway operations,
+    return a scoped credential, emit audit. Valid against the canonical
+    naftiko 1.0.0-alpha2 schema; the Kong and AWS reference artifacts use
+    this exact shape.
+  tags: [Agent Onboarding, Web Bot Auth, RFC 9421]
+binds:
+- namespace: env
+  keys:
+    GATEWAY_ADMIN_TOKEN: GATEWAY_ADMIN_TOKEN
+    AGENT_TRUSTED_ISSUERS: AGENT_TRUSTED_ISSUERS
+    AGENT_CONSENT_HASH: AGENT_CONSENT_HASH
+capability:
+  consumes:
+  - type: http
+    namespace: gateway-admin
+    baseUri: '{{env.GATEWAY_ADMIN_BASE_URI}}'
+    description: The 3-5 gateway-native operations the orchestration composes.
+    resources:
+    # See per-gateway artifacts for exact resource paths — Kong uses
+    # /{workspace}/consumers + /{workspace}/consumer_groups + key-auth;
+    # AWS uses /apikeys + /usageplans + /usageplans/{id}/keys; etc.
+    - name: identity
+      path: /{gateway-native-identity-path}
+      operations:
+      - { name: createidentity, method: POST }
+    - name: scope-tier
+      path: /{gateway-native-scope-path}
+      operations:
+      - { name: ensurescopetier, method: POST }
+    - name: credential
+      path: /{gateway-native-credential-path}
+      operations:
+      - { name: mintcredential, method: POST }
+    authentication:
+      type: apikey
+      key: Authorization
+      value: '{{env.GATEWAY_ADMIN_TOKEN}}'
+      placement: header
+  orchestration:
+  - name: onboard-agent
+    description: End-to-end agent onboarding — 7 steps from signature to credential.
+    inputs:
+    - { name: signature, type: object, required: true }
+    - { name: signature_agent, type: string, required: true }
+    - { name: skill_id, type: string, required: true }
+    - { name: requested_scopes, type: array, required: true }
+    - { name: consent_hash, type: string, required: true }
+    - { name: contact, type: object, required: true }
+    steps:
+    - id: verify_identity
+      type: builtin.web-bot-auth.verify
+      with:
+        signature: '${input.signature}'
+        agent: '${input.signature_agent}'
+        trusted_issuers: '{{env.AGENT_TRUSTED_ISSUERS}}'
+      on_failure: deny
+    - id: verify_consent
+      type: builtin.policy.assert
+      with:
+        assert: '${input.consent_hash} == {{env.AGENT_CONSENT_HASH}}'
+      on_failure: deny
+    - id: classify_scopes
+      type: builtin.policy.scope-classify
+      with:
+        requested: '${input.requested_scopes}'
+    - id: create_identity
+      call: gateway-admin.createidentity
+      with:
+        body:
+          agent_id: '${steps.verify_identity.agent_id}'
+    - id: ensure_scope_tier
+      type: builtin.upsert
+      with:
+        name: '${steps.classify_scopes.target}'
+    - id: mint_credential
+      call: gateway-admin.mintcredential
+      with:
+        identity_id: '${steps.create_identity.id}'
+        scope_tier: '${steps.ensure_scope_tier.id}'
+    - id: emit_audit
+      type: builtin.audit.emit
+      with:
+        event: agent.onboarded
+        agent_id: '${steps.verify_identity.agent_id}'
+        credential_id: '${steps.mint_credential.id}'
+    output:
+      agent_id: '${steps.verify_identity.agent_id}'
+      credential: '${steps.mint_credential.value}'
+      scope: '${steps.classify_scopes.target}'
+  exposes:
+  - type: rest
+    namespace: agent-onboarding-rest
+    port: 8080
+    resources:
+    - path: /v1/agents/onboard
+      operations:
+      - { method: POST, name: onboardagent, call: orchestration.onboard-agent }
+  - type: mcp
+    namespace: agent-onboarding-mcp
+    port: 9090
+    transport: http
+    tools:
+    - { name: agent-register, call: orchestration.onboard-agent }
+  - type: agent-skill
+    namespace: agent-onboarding-skill
+    skill: { name: onboard-agent, file: skills/onboard-agent.md }
+  governance:
+  - { id: require-web-bot-auth, severity: blocking, enforce_at: [runtime] }
+  - { id: require-consent-hash-match, severity: blocking, enforce_at: [runtime] }
+  - { id: forbidden-scopes-deny, severity: blocking, enforce_at: [runtime] }
+  - { id: approval-required-defer, severity: advisory, enforce_at: [runtime] }
+  - { id: ttl-enforced, severity: advisory, enforce_at: [runtime] }
 ```
 
-The capability is a single artifact. It declares what the agent will send, what trust is required, which gateway operations get composed in which order, what the policy levers are, and which surfaces are produced. The Naftiko Framework runs it. The provider edits `policy.yaml` and re-deploys without ever touching the capability or the gateway. Two reference artifacts are now committed, both valid `naftiko: 1.0.0-alpha2` against the canonical schema: [api-evangelist/kong/capabilities/kong-agent-onboarding.yaml](https://github.com/api-evangelist/kong/blob/main/capabilities/kong-agent-onboarding.yaml) (473 lines, five consumed Kong Admin operations, two orchestrated flows, three exposed surfaces, five governance policies) and [api-evangelist/aws-api-gateway/capabilities/aws-api-gateway-agent-onboarding.yaml](https://github.com/api-evangelist/aws-api-gateway/blob/main/capabilities/aws-api-gateway-agent-onboarding.yaml) (536 lines, five consumed AWS API Gateway + CloudWatch Logs operations, dual identity verification covering both IAM principals and Web Bot Auth, six governance policies including the AWS-specific usage-plan-bind-window invariant). Both expose the same three downstream surfaces, so an agent that knows how to call `POST /v1/agents/onboard` doesn't care which capability is behind it.
+The capability is a single artifact. It declares what the agent will send, what trust is required, which gateway operations get composed in which order, what the policy levers are, and which surfaces are produced. The Naftiko Framework runs it. The provider edits `policy.yaml` and re-deploys without ever touching the capability or the gateway. Nine reference artifacts are now committed across the API Evangelist GitHub organization, all valid `naftiko: 1.0.0-alpha2` against the canonical schema and all exposing the same three downstream surfaces — REST `POST /v1/agents/onboard`, MCP `agent-register` tool, and an agent skill at `/skills/onboard-agent.md` — so an agent that knows how to call the onboarding endpoint doesn't care which capability sits behind it:
+
+| Gateway | Artifact | Distinctive |
+|---|---|---|
+| Kong | [kong-agent-onboarding.yaml](https://github.com/api-evangelist/kong/blob/main/capabilities/kong-agent-onboarding.yaml) | Single-surface adapter, 13 native MCP control-plane ops, Event Gateway for audit |
+| AWS API Gateway | [aws-api-gateway-agent-onboarding.yaml](https://github.com/api-evangelist/aws-api-gateway/blob/main/capabilities/aws-api-gateway-agent-onboarding.yaml) | Dual identity verification (IAM principals + Web Bot Auth), CloudWatch + CloudTrail audit, usage-plan-bind-window invariant |
+| Apigee | [apigee-agent-onboarding.yaml](https://github.com/api-evangelist/apigee/blob/main/capabilities/apigee-agent-onboarding.yaml) | Developer + App + API Product composition, Cloud Audit Logs side-channel |
+| WSO2 | [wso2-agent-onboarding.yaml](https://github.com/api-evangelist/wso2/blob/master/capabilities/wso2-agent-onboarding.yaml) | DCR-native (`POST /register`), per-API key model, native MCP server discovery via `getAllMCPServers` |
+| Gravitee | [gravitee-agent-onboarding.yaml](https://github.com/api-evangelist/gravitee/blob/main/capabilities/gravitee-agent-onboarding.yaml) | Plan-based scope (cleanest gateway-native abstraction), native audit on both APIM and AM |
+| Azure APIM | [azure-apim-agent-onboarding.yaml](https://github.com/api-evangelist/microsoft-azure-api-management/blob/main/capabilities/azure-apim-agent-onboarding.yaml) | Product / Subscription / User nested scope, Microsoft Entra short-circuit for in-tenant agents, Azure Monitor audit |
+| Merge | [merge-agent-onboarding.yaml](https://github.com/api-evangelist/merge/blob/main/capabilities/merge-agent-onboarding.yaml) | Meta-gateway pattern — one credential fans out to hundreds of downstream SaaS integrations via Linked Accounts |
+| Cloudflare | [cloudflare-agent-onboarding.yaml](https://github.com/api-evangelist/cloudflare/blob/main/capabilities/cloudflare-agent-onboarding.yaml) | Edge-native — the worker IS the gateway; tokens minted at the edge, Workers KV trust cache, R2 + Logpush audit |
+| Deutsche Telekom / CAMARA | [dt-camara-agent-onboarding.yaml](https://github.com/api-evangelist/deutsche-telekom/blob/main/capabilities/dt-camara-agent-onboarding.yaml) | Carrier-grade three-layer trust (operator agreement + agent registration + per-call user consent), regulatory archive with multi-year retention |
+
+That's nine gateway adapter shapes, all expressed as Naftiko Capabilities, all parsing with stock `yaml.safe_load`, all following the same `consumes` + `orchestration` + `exposes` + `governance` structure documented in the canonical [capability-spec](https://naftiko.io). The differences across the nine reflect the gateway data models and trust affordances — not the agent-facing contract.
 
 The gateway-specific operation paths above are not invented — they are pulled directly from the OpenAPIs published across the [API Evangelist GitHub organization](https://github.com/api-evangelist) at [api-evangelist/kong/openapi](https://github.com/api-evangelist/kong/tree/main/openapi), [api-evangelist/apigee/openapi](https://github.com/api-evangelist/apigee/tree/main/openapi), [api-evangelist/wso2/openapi](https://github.com/api-evangelist/wso2/tree/main/openapi), [api-evangelist/tyk/openapi](https://github.com/api-evangelist/tyk/tree/main/openapi), and the rest. I evaluated all of them this week and produced an inventory matrix scoring 75 gateway providers by how cleanly they can drive each leg of the flow.
 
@@ -141,9 +210,9 @@ Three findings worth pulling out of that work:
 
 ## Why I'm Writing This Up Without Shipping It Yet
 
-Honest disclosure: I don't have a live gateway tenant to run any of this against. Both the Kong and AWS API Gateway capability artifacts are complete, schema-valid Naftiko Capability declarations, but neither has yet been executed against a real customer environment. The per-gateway adapter shapes for Apigee, WSO2, Gravitee, Azure APIM, Merge, Cloudflare, and Deutsche Telekom CAMARA are still at the design-and-eval stage, not the artifact stage — Kong and AWS are the first two references. I'm publishing the design before the implementation for three reasons.
+Honest disclosure: I don't have a live gateway tenant to run any of this against. All nine capability artifacts are complete, schema-valid Naftiko Capability declarations, but none of them has yet been executed against a real customer environment. The full series of artifacts is design-validated — every YAML parses, every `consumes` block maps to operations the gateway actually publishes, every orchestration step references either a builtin or a consumed operation defined elsewhere in the same file — but the artifacts have not yet been deployed against any customer's gateway tenant. I'm publishing the design before the implementation for three reasons.
 
-**One:** I am [actively looking for design partners](https://apievangelist.com/services). If you run an API program — at any scale — and the "we cannot onboard agents fast enough" problem is real for you, I would like to talk. Kong and AWS API Gateway have committed reference capabilities; running either of them against a real customer tenant is one engagement away. Adapters for the other gateways follow the same shape and are similarly one engagement away each. The customer that goes first on any given gateway gets to shape the policy surface, the trust model, and the credential lifecycle to fit their needs while the standardized package is still being defined.
+**One:** I am [actively looking for design partners](https://apievangelist.com/services). If you run an API program — at any scale — and the "we cannot onboard agents fast enough" problem is real for you, I would like to talk. Every major commercial API gateway in the field now has a committed reference capability; running any of them against a real customer tenant is one engagement away. The customer that goes first on any given gateway shapes the policy surface, the trust model, and the credential lifecycle to fit their needs while the standardized package is still being defined.
 
 **Two:** The design is more useful in public than in private. Every API gateway vendor I have talked to in the last two months is wrestling with some version of this question, and every API provider I have talked to is wrestling with the other side of it. Publishing the operation-by-operation map of how each major gateway's existing API surface composes into this flow is a contribution to a conversation that needed somewhere to land. The conversation should not have to start over every time a provider gets asked "can your agent self-register against us."
 
@@ -153,4 +222,4 @@ Honest disclosure: I don't have a live gateway tenant to run any of this against
 
 I have refreshed both my [API Evangelist services page](https://apievangelist.com/services) and the [APIs.io services page](https://apis.io/services/) to lead with the automated onboarding angle on the agentic-preparation service. The doorway pattern is still there — `.well-known/api-catalog`, `.well-known/mcp`, agent skills, secure credential issuance — but it now leads with the *automated* framing because that is what the work this week made clear is the actual differentiator. A doorway that requires a human at the gate is a portal. A doorway that recognizes a signed agent and provisions it in one round trip is a different thing.
 
-If you are running an API program and your agents-need-credentials story is currently "they file a Jira ticket like everyone else," let's talk. Two reference capabilities are committed — [api-evangelist/kong](https://github.com/api-evangelist/kong/blob/main/capabilities/kong-agent-onboarding.yaml) and [api-evangelist/aws-api-gateway](https://github.com/api-evangelist/aws-api-gateway/blob/main/capabilities/aws-api-gateway-agent-onboarding.yaml). The per-gateway adapter for whichever other gateway you operate is one engagement away from being authored against the same schema.
+If you are running an API program and your agents-need-credentials story is currently "they file a Jira ticket like everyone else," let's talk. Nine reference capabilities are committed across the [API Evangelist GitHub organization](https://github.com/api-evangelist), one per major gateway. The one that matches whichever gateway you operate is one engagement away from being executed against your tenant.
