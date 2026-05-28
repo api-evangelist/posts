@@ -1,0 +1,309 @@
+# Polychro Ruleset — Agent Onboarding Naftiko Capabilities
+#
+# Lints any Naftiko Capability claiming to deliver automated agent onboarding
+# (per https://apievangelist.com/2026/05/27/automated-agent-onboarding-is-a-naftiko-capability-not-a-gateway-feature/).
+#
+# Extends polychro:ai-safety (which already includes polychro:governance + the
+# AI-safety checks like no-trailing-slash, unreachable-step, dangling-reference).
+# Adds rules specific to the agent-onboarding capability shape: the orchestration
+# MUST include the runtime policy steps (verify_signature, verify_consent,
+# classify_scopes, mint_credential, emit_audit) and MUST expose REST + MCP +
+# agent-skill surfaces.
+#
+# Usage:
+#   polychro lint -r agent-onboarding-rules.yaml <capability.yaml>
+#   polychro lint --tags agent-onboarding,security <capability.yaml>
+#
+# Reference capabilities this ruleset lints:
+#   https://github.com/api-evangelist/kong/blob/main/capabilities/kong-agent-onboarding.yaml
+#   https://github.com/api-evangelist/aws-api-gateway/blob/main/capabilities/aws-api-gateway-agent-onboarding.yaml
+#   ... plus 8 more (Apigee, WSO2, Gravitee, Azure APIM, Tyk, Merge, Cloudflare, DT/CAMARA)
+
+extends:
+  - polychro:ai-safety
+
+rules:
+
+  # ----------------------------------------------------------------------------
+  # Tag-based detection — these rules only apply to capabilities that have
+  # declared themselves as agent-onboarding (via the 'Agent Onboarding' tag).
+  # The given expressions use JSONPath filter syntax to match only when the
+  # capability tags include the marker.
+  # ----------------------------------------------------------------------------
+
+  agent-onboarding-has-onboard-flow:
+    given: $.capability.orchestration[?(@.name == "onboard-agent")]
+    then:
+      function: truthy
+    message: >
+      An agent-onboarding capability MUST declare an orchestration flow named
+      'onboard-agent'. Provider-facing REST/MCP surfaces call it as
+      orchestration.onboard-agent.
+    severity: error
+    description: |
+      Every adapter in the API Evangelist agent-onboarding lineup names this
+      flow identically so the agent-facing contract is gateway-independent. The
+      flow's output MUST include the issued credential and revocation_url.
+    tags:
+      - agent-onboarding
+      - orchestration
+
+  agent-onboarding-has-revoke-flow:
+    given: $.capability.orchestration[?(@.name == "revoke-agent")]
+    then:
+      function: truthy
+    message: >
+      An agent-onboarding capability MUST declare an orchestration flow named
+      'revoke-agent' so the revocation_url returned to the agent has a working
+      backing implementation.
+    severity: error
+    tags:
+      - agent-onboarding
+      - orchestration
+
+  # ----------------------------------------------------------------------------
+  # Runtime policy steps — the orchestration MUST include these steps in this
+  # order so the runtime policy is enforced before any side-effecting call.
+  # ----------------------------------------------------------------------------
+
+  agent-onboarding-verify-identity-step:
+    given: $.capability.orchestration[?(@.name == "onboard-agent")].steps[?(@.id == "verify_signature" || @.id == "verify_identity")]
+    then:
+      function: truthy
+    message: >
+      onboard-agent MUST include a verify_signature or verify_identity step
+      with on_failure: deny. This is the runtime policy enforcement for trusted
+      agent registration.
+    severity: error
+    description: |
+      The step MUST be either builtin.web-bot-auth.verify (for third-party
+      agents identified by RFC 9421 signatures) or builtin.identity.resolve
+      (for gateways like AWS APIM and Azure APIM that short-circuit on a
+      trusted IAM/Entra principal). Either way, it MUST carry on_failure: deny.
+    tags:
+      - agent-onboarding
+      - security
+      - orchestration
+
+  agent-onboarding-verify-consent-step:
+    given: $.capability.orchestration[?(@.name == "onboard-agent")].steps[?(@.id == "verify_consent")]
+    then:
+      function: truthy
+    message: >
+      onboard-agent MUST include a verify_consent step that asserts
+      input.consent_hash matches the provider-bound AGENT_CONSENT_HASH.
+    severity: error
+    description: |
+      The consent hash mechanism is what gives the provider a defensible
+      claim that the agent acknowledged the current terms-of-use document
+      at registration time. Skipping this step makes consent unauditable.
+    tags:
+      - agent-onboarding
+      - security
+      - orchestration
+
+  agent-onboarding-classify-scopes-step:
+    given: $.capability.orchestration[?(@.name == "onboard-agent")].steps[?(@.id == "classify_scopes")]
+    then:
+      function: truthy
+    message: >
+      onboard-agent MUST include a classify_scopes step that maps requested
+      scopes to (auto-issue | approval-required | forbidden) per the provider's
+      declared policy.
+    severity: error
+    tags:
+      - agent-onboarding
+      - orchestration
+
+  agent-onboarding-emit-audit-step:
+    given: $.capability.orchestration[?(@.name == "onboard-agent")].steps[?(@.id == "emit_audit")]
+    then:
+      function: truthy
+    message: >
+      onboard-agent MUST include an emit_audit step. The audit event MUST
+      include agent_id, operator, consent_hash, and the signature_keyid (or
+      iam_principal for trusted-IAM trust modes).
+    severity: error
+    description: |
+      Audit emission is non-optional for the agent-onboarding pattern. Even
+      for gateways with side-channel audit surfaces (Apigee→Cloud Audit Logs,
+      AWS→CloudTrail, Azure APIM→Azure Monitor), the orchestration writes a
+      structured event so the worker has a single join key across surfaces.
+    tags:
+      - agent-onboarding
+      - audit
+      - orchestration
+
+  # ----------------------------------------------------------------------------
+  # Required environment bindings — the policy levers the provider configures.
+  # ----------------------------------------------------------------------------
+
+  agent-onboarding-trusted-issuers-bind:
+    given: $.binds[?(@.namespace == "env")].keys.AGENT_TRUSTED_ISSUERS
+    then:
+      function: truthy
+    message: >
+      An agent-onboarding capability MUST bind AGENT_TRUSTED_ISSUERS in its
+      env namespace. This is the policy lever for declaring which Web Bot Auth
+      issuers (operator domains) the capability trusts.
+    severity: error
+    tags:
+      - agent-onboarding
+      - security
+      - configuration
+
+  agent-onboarding-consent-hash-bind:
+    given: $.binds[?(@.namespace == "env")].keys.AGENT_CONSENT_HASH
+    then:
+      function: truthy
+    message: >
+      An agent-onboarding capability MUST bind AGENT_CONSENT_HASH in its env
+      namespace. This is the SHA-256 of the provider's currently-published
+      consent document that the verify_consent step asserts against.
+    severity: error
+    tags:
+      - agent-onboarding
+      - security
+      - configuration
+
+  # ----------------------------------------------------------------------------
+  # Required exposed surfaces — the gateway-independent agent-facing contract.
+  # ----------------------------------------------------------------------------
+
+  agent-onboarding-rest-surface-present:
+    given: $.capability.exposes[?(@.type == "rest")]
+    then:
+      function: truthy
+    message: >
+      An agent-onboarding capability MUST expose a REST surface for the
+      onboard-agent + revoke-agent flows. Agents call POST /v1/agents/onboard
+      and POST /v1/agents/{agent_id}/revoke against this surface.
+    severity: error
+    tags:
+      - agent-onboarding
+      - expose
+
+  agent-onboarding-rest-onboard-path:
+    given: $.capability.exposes[?(@.type == "rest")].resources[?(@.path == "/v1/agents/onboard")]
+    then:
+      function: truthy
+    message: >
+      The REST surface MUST include a /v1/agents/onboard resource. This is
+      the canonical path the agent-skill template instructs agents to call.
+    severity: error
+    description: |
+      The same path on every adapter is what makes the agent-facing contract
+      gateway-independent. Changing the path here breaks every published
+      agent skill in the field.
+    tags:
+      - agent-onboarding
+      - expose
+      - contract
+
+  agent-onboarding-mcp-surface-present:
+    given: $.capability.exposes[?(@.type == "mcp")]
+    then:
+      function: truthy
+    message: >
+      An agent-onboarding capability MUST expose an MCP surface with the
+      agent-register and agent-revoke tools so MCP-native agents can use the
+      capability without going through the REST surface.
+    severity: error
+    tags:
+      - agent-onboarding
+      - expose
+      - mcp
+
+  agent-onboarding-mcp-register-tool:
+    given: $.capability.exposes[?(@.type == "mcp")].tools[?(@.name == "agent-register")]
+    then:
+      function: truthy
+    message: >
+      The MCP surface MUST include an agent-register tool. The tool's hints
+      MUST be { readOnly: false, destructive: false, idempotent: false }.
+    severity: error
+    tags:
+      - agent-onboarding
+      - expose
+      - mcp
+
+  agent-onboarding-mcp-revoke-tool:
+    given: $.capability.exposes[?(@.type == "mcp")].tools[?(@.name == "agent-revoke")]
+    then:
+      function: truthy
+    message: >
+      The MCP surface MUST include an agent-revoke tool with hints
+      { readOnly: false, destructive: true, idempotent: true }.
+    severity: error
+    tags:
+      - agent-onboarding
+      - expose
+      - mcp
+
+  agent-onboarding-skill-surface-present:
+    given: $.capability.exposes[?(@.type == "agent-skill")]
+    then:
+      function: truthy
+    message: >
+      An agent-onboarding capability MUST expose an agent-skill surface
+      pointing at skills/onboard-agent.md — the published operating manual
+      that tells the agent how to construct the onboarding request.
+    severity: error
+    tags:
+      - agent-onboarding
+      - expose
+      - skills
+
+  agent-onboarding-skill-file-name:
+    given: $.capability.exposes[?(@.type == "agent-skill")].skill.file
+    then:
+      function: pattern
+      functionOptions:
+        match: 'skills/onboard-agent\.md$'
+    message: >
+      The agent-skill file path MUST end with skills/onboard-agent.md. This
+      is the canonical name agents resolve against in the published
+      /skills/index.json directory.
+    severity: error
+    tags:
+      - agent-onboarding
+      - expose
+      - skills
+
+  # ----------------------------------------------------------------------------
+  # Information-style rules — quality signals, advisory rather than blocking.
+  # ----------------------------------------------------------------------------
+
+  agent-onboarding-related-master-post:
+    given: $.info.related
+    then:
+      function: pattern
+      functionOptions:
+        match: 'apievangelist\.com/2026/05/27/automated-agent-onboarding'
+    message: >
+      Consider including the API Evangelist master writeup in info.related
+      so the canonical pattern documentation is discoverable from the
+      capability artifact itself.
+    severity: info
+    tags:
+      - agent-onboarding
+      - metadata
+
+  agent-onboarding-tag-presence:
+    given: $.info.tags
+    then:
+      function: schema
+      functionOptions:
+        schema:
+          type: array
+          contains:
+            type: string
+            pattern: '^Agent Onboarding$'
+    message: >
+      An agent-onboarding capability SHOULD include the literal tag
+      'Agent Onboarding' in info.tags so the polychro --tags agent-onboarding
+      filter resolves correctly.
+    severity: warn
+    tags:
+      - agent-onboarding
+      - metadata
