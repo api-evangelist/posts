@@ -123,7 +123,7 @@ audit:
 
 The capability is a single artifact. It declares what the agent will send, what trust is required, which gateway operations get composed in which order, what the policy levers are, and which surfaces are produced. The Naftiko Framework runs it. The provider edits `policy.yaml` and re-deploys without ever touching the capability or the gateway.
 
-The gateway-specific operation paths above are not invented — they are pulled directly from the OpenAPIs already sitting in `/all/kong/openapi/`, `/all/apigee/openapi/`, `/all/wso2/openapi/`, `/all/tyk/openapi/`, and the rest. I evaluated all of them this week and produced an inventory matrix scoring 75 gateway providers by how cleanly they can drive each leg of the flow.
+The gateway-specific operation paths above are not invented — they are pulled directly from the OpenAPIs published across the [API Evangelist GitHub organization](https://github.com/api-evangelist) at [api-evangelist/kong/openapi](https://github.com/api-evangelist/kong/tree/main/openapi), [api-evangelist/apigee/openapi](https://github.com/api-evangelist/apigee/tree/main/openapi), [api-evangelist/wso2/openapi](https://github.com/api-evangelist/wso2/tree/main/openapi), [api-evangelist/tyk/openapi](https://github.com/api-evangelist/tyk/tree/main/openapi), and the rest. I evaluated all of them this week and produced an inventory matrix scoring 75 gateway providers by how cleanly they can drive each leg of the flow.
 
 ![Docks waterfront in the blue-circuit filter](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/blue-circuit-docks-water-front.jpg)
 
