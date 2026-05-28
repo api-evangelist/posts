@@ -21,11 +21,11 @@ excerpt: "An agent shows up at your API. It has a verifiable identity, a clear p
 ---
 An agent shows up at your API. Not a developer. An agent — Claude doing research for someone, an OpenAI Operator running a task for a user, a first-party agent your own company built. It carries a verifiable identity (a signed request, per [Web Bot Auth](https://datatracker.ietf.org/doc/draft-meunier-web-bot-auth-architecture/) over [RFC 9421](https://www.rfc-editor.org/rfc/rfc9421.html)), a published purpose, and a list of scopes it would like. It would like a credential. It would like to start calling APIs. It would like to do this in one round trip, without waiting two business days for a Slack message from a developer relations person who is also juggling four other things.
 
-Your existing API management platform cannot do this. None of them can.
+Your existing API management platform does not do this for you currently out of the box.
 
-I spent the last week reading every API gateway and API management OpenAPI in [my API Evangelist network](https://github.com/api-evangelist) — Kong, Apigee, Tyk, WSO2, Gravitee, AWS API Gateway, Azure APIM, Google Cloud API Gateway, MuleSoft, Workato, and seventy-odd others — looking for the operations that would compose into an "agent shows up and self-registers" flow. The operations exist. Every Tier 1 gateway can create a developer, create an app, issue a scoped key, attach a rate limit policy, and stream an audit event. The pieces are there. What's missing is the *composition* — the single endpoint that takes a signed onboarding request and orchestrates the three-to-five gateway calls needed to turn it into a credential the agent can use. No gateway has shipped that endpoint. It is not in their roadmap because it is not their job.
+I spent the last week looking through every API gateway and API management OpenAPI in [my API Evangelist network](https://github.com/api-evangelist) — Kong, Apigee, Tyk, WSO2, Gravitee, AWS API Gateway, Azure APIM, Google Cloud API Gateway, MuleSoft, Workato, and  others — looking for the operations that would compose into an "agent shows up and self-registers" flow. The operations exist. Every Tier 1 gateway can create a developer, create an app, issue a scoped key, attach a rate limit policy, and stream an audit event. The pieces are there. What's missing is the *composition* — the single endpoint that takes a signed onboarding request and orchestrates the three-to-five gateway calls needed to turn it into a credential the agent can use. No gateway has shipped that endpoint.
 
-It is the job of a [Naftiko Capability](https://naftiko.io).
+I see this as the job of a [Naftiko Capability](https://naftiko.io).
 
 ## The Flow
 
@@ -41,7 +41,7 @@ One round trip for the auto-issuable scopes. A clean async-with-status pattern f
 
 ## Why It's a Capability, Not a Gateway Feature
 
-I have been writing about Naftiko Capabilities for most of 2026. The shorthand: a Naftiko Capability is a declarative, domain-aligned unit of integration. It speaks existing API standards (OpenAPI, JSON Schema, APIs.json), composes operations across one or more underlying services, and produces consistent surfaces (REST, MCP, Agent Skills) on top of whatever inconsistent operations sit underneath. You can [generate them from OpenAPIs](https://apievangelist.com/2026/04/14/questioning-our-api-governance-reality/). You can [govern them with Spectral rules](https://github.com/api-evangelist/palo-alto-networks). You can run them through the [Naftiko Framework](https://naftiko.io) on top of whatever existing API or data source sits behind them.
+I have been blah blah blahing about Naftiko Capabilities for most of 2026. The shorthand: a Naftiko Capability is a declarative, domain-aligned unit of integration. It composes operations across one or more underlying services, and produces consistent surfaces (REST, MCP, Agent Skills) on top of whatever inconsistent operations sit underneath. You can [generate them from OpenAPIs](https://apievangelist.com/2026/04/14/questioning-our-api-governance-reality/). You can [govern them with Spectral rules](https://github.com/api-evangelist/palo-alto-networks). You can run them through the [Naftiko Framework (Ikanos)](https://naftiko.io) on top of whatever existing API or data source sits behind them.
 
 The agent onboarding flow is a *textbook* capability problem. Read why:
 
@@ -50,7 +50,7 @@ The agent onboarding flow is a *textbook* capability problem. Read why:
 - **The policy surface is declarative.** Trusted issuers, auto-issuable scopes, approval channels, default rate limits, consent terms, audit destination. All YAML. Editable by the provider without touching the gateway. The capability enforces the policy on every onboarding request.
 - **The outputs are multi-surface.** The same capability publishes a REST endpoint (`POST /onboard`), an MCP tool (`agent.register`), and an agent skill (`onboard-agent.md`). One declaration, three derivative surfaces. That is the Naftiko Capabilities pattern exactly.
 
-A gateway team is not going to ship this for you. Kong is not going to write the Apigee adapter. Apigee is not going to write a Web Bot Auth verifier in Apigee's policy language. WSO2 has *almost* shipped this in the form of dynamic client registration (`POST /register`), but they didn't model agent identity and they didn't ship the consent-hash or scope-translation legs of the flow. None of these vendors will. It is not their business model.
+The gateway team is unlikely to ship this for you. Kong is not going to write the adapter. Apigee is not going to write a Web Bot Auth verifier in Apigee's policy language. WSO2 has *almost* shipped this in the form of dynamic client registration (`POST /register`), but they didn't model agent identity and they didn't ship the consent-hash or scope-translation legs of the flow. None of these vendors will. It is not their business model.
 
 The vendor that ships it is the one that treats the flow as a portable capability that runs in front of any of them.
 
@@ -211,7 +211,7 @@ Three findings worth pulling out of that work:
 
 ## Why I'm Writing This Up Without Shipping It Yet
 
-Honest disclosure: I don't have a live gateway tenant to run any of this against. All ten capability artifacts are complete, schema-valid Naftiko Capability declarations, but none of them has yet been executed against a real customer environment. The full series of artifacts is design-validated — every YAML parses, every `consumes` block maps to operations the gateway actually publishes, every orchestration step references either a builtin or a consumed operation defined elsewhere in the same file — but the artifacts have not yet been deployed against any customer's gateway tenant. I'm publishing the design before the implementation for three reasons.
+I don't have a live gateway tenant to run any of this against this spectrum. All ten capability artifacts are complete, schema-valid Naftiko Capability declarations, but none of them has yet been executed against a real customer environment. The full series of artifacts is design-validated — every YAML parses, every `consumes` block maps to operations the gateway actually publishes, every orchestration step references either a builtin or a consumed operation defined elsewhere in the same file — but the artifacts have not yet been deployed against any customer's gateway tenant. I'm publishing the design before the implementation for three reasons.
 
 **One:** I am [actively looking for design partners](https://apievangelist.com/services). If you run an API program — at any scale — and the "we cannot onboard agents fast enough" problem is real for you, I would like to talk. Every major commercial API gateway in the field now has a committed reference capability; running any of them against a real customer tenant is one engagement away. The customer that goes first on any given gateway shapes the policy surface, the trust model, and the credential lifecycle to fit their needs while the standardized package is still being defined.
 
