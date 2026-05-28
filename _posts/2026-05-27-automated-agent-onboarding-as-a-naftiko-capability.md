@@ -7,16 +7,16 @@ author: "Kin Lane"
 image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-gatew-into-field.jpg
 category: "Blog"
 tags:
-  - Agent Onboarding
-  - Naftiko Capabilities
-  - Naftiko Framework
-  - API Management
-  - API Gateways
-  - Agent Skills
-  - Web Bot Auth
-  - Dynamic Client Registration
-  - RFC 9421
-  - RFC 7591
+ - Agent Onboarding
+ - Naftiko Capabilities
+ - Naftiko Framework
+ - API Management
+ - API Gateways
+ - Agent Skills
+ - Web Bot Auth
+ - Dynamic Client Registration
+ - RFC 9421
+ - RFC 7591
 excerpt: "An agent shows up at your API. It has a verifiable identity, a clear purpose, and a list of scopes it would like. Your existing API management platform cannot give it credentials in one round trip — every gateway in the field still assumes a human developer behind a portal. The fix is not a new feature on your gateway. The fix is a Naftiko Capability that sits in front of the gateway you already have, composes the three or four calls needed to provision the agent, enforces the policy you declare, and returns a scoped credential. Here is what that capability looks like."
 ---
 An agent shows up at your API. Not a developer. An agent — Claude doing research for someone, an OpenAI Operator running a task for a user, a first-party agent your own company built. It carries a verifiable identity (a signed request, per [Web Bot Auth](https://datatracker.ietf.org/doc/draft-meunier-web-bot-auth-architecture/) over [RFC 9421](https://www.rfc-editor.org/rfc/rfc9421.html)), a published purpose, and a list of scopes it would like. It would like a credential. It would like to start calling APIs. It would like to do this in one round trip, without waiting two business days for a Slack message from a developer relations person who is also juggling four other things.
@@ -61,80 +61,75 @@ The Naftiko Capability for agent onboarding declares:
 ```yaml
 name: agent-onboarding
 description: |
-  Verify an agent's Web Bot Auth identity, check it against the provider's
-  trust policy, compose the gateway operations needed to provision a scoped
-  credential, stamp the consent acknowledgement onto the audit trail, and
-  return the credential to the agent in a single round trip.
+ Verify an agent's Web Bot Auth identity, check it against the provider's
+ trust policy, compose the gateway operations needed to provision a scoped
+ credential, stamp the consent acknowledgement onto the audit trail, and
+ return the credential to the agent in a single round trip.
 
 inputs:
-  signature:
-    type: web-bot-auth          # RFC 9421 HTTP Message Signature
-    verify_against: keys-directory
-  skill_id:    string           # which onboarding skill version executed
-  scopes:      array            # requested scopes from x-onboarding.automated_scopes
-  consent_hash: string          # SHA-256 of the published consent document
-  contact:
-    operator:     string        # e.g. anthropic.com
-    support_url:  url
-    purpose:      string
+ signature:
+ type: web-bot-auth # RFC 9421 HTTP Message Signature
+ verify_against: keys-directory
+ skill_id: string # which onboarding skill version executed
+ scopes: array # requested scopes from x-onboarding.automated_scopes
+ consent_hash: string # SHA-256 of the published consent document
+ contact:
+ operator: string # e.g. anthropic.com
+ support_url: url
+ purpose: string
 
-policy: ref(./policy.yaml)      # provider-declared trust, scopes, defaults
+policy: ref(./policy.yaml) # provider-declared trust, scopes, defaults
 
 operations:
-  - id: create_identity
-    map_per_gateway:
-      kong:    POST /{workspace}/consumers
-      apigee:  POST /organizations/{org}/developers
-      wso2:    POST /register                       # DCR
-      tyk:     inline_with_credential                # one-shot
-      gravitee: POST /environments/{envId}/applications
-  - id: create_app
-    map_per_gateway:
-      kong:    POST /{workspace}/consumer_groups
-      apigee:  POST /organizations/{org}/developers/{devEmail}/apps
-      wso2:    POST /devportal/applications
-      ...
-  - id: issue_credential
-    map_per_gateway:
-      kong:    POST /{workspace}/consumers/{id}/key-auth
-      apigee:  (returned in create_app response)
-      wso2:    POST /apis/{apiId}/api-keys/generate
-      ...
-  - id: apply_scope_and_rate_limit
-    map_per_gateway: { ... }
-  - id: record_audit_event
-    map_per_gateway:
-      kong:    POST /v1/event-gateways/{gw}/topics/audit-events/produce
-      apigee:  (Google Cloud Audit Logs — out of band)
-      wso2:    GET  /tenant-logs/{tenant}/apis/        # observe channel
-      gravitee: POST /environments/{envId}/audits     # native
-      ...
+ - id: create_identity
+ map_per_gateway:
+ kong: POST /{workspace}/consumers
+ apigee: POST /organizations/{org}/developers
+ wso2: POST /register # DCR
+ tyk: inline_with_credential # one-shot
+ gravitee: POST /environments/{envId}/applications
+ - id: create_app
+ map_per_gateway:
+ kong: POST /{workspace}/consumer_groups
+ apigee: POST /organizations/{org}/developers/{devEmail}/apps
+ wso2: POST /devportal/applications
+...
+ - id: issue_credential
+ map_per_gateway:
+ kong: POST /{workspace}/consumers/{id}/key-auth
+ apigee: (returned in create_app response)
+ wso2: POST /apis/{apiId}/api-keys/generate
+...
+ - id: apply_scope_and_rate_limit
+ map_per_gateway: {... }
+ - id: record_audit_event
+ map_per_gateway:
+ kong: POST /v1/event-gateways/{gw}/topics/audit-events/produce
+ apigee: (Google Cloud Audit Logs — out of band)
+ wso2: GET /tenant-logs/{tenant}/apis/ # observe channel
+ gravitee: POST /environments/{envId}/audits # native
+...
 
 outputs:
-  rest:     POST /onboard          # what the agent calls
-  mcp_tool: agent.register         # what an MCP client calls
-  skill:    skills/onboard-agent.md # what the agent reads to know how to call
+ rest: POST /onboard # what the agent calls
+ mcp_tool: agent.register # what an MCP client calls
+ skill: skills/onboard-agent.md # what the agent reads to know how to call
 
 audit:
-  emit_to: ref(policy.audit.destination)
-  include_web_bot_auth_signature: true
-  include_consent_hash: true
+ emit_to: ref(policy.audit.destination)
+ include_web_bot_auth_signature: true
+ include_consent_hash: true
 ```
 
 The capability is a single artifact. It declares what the agent will send, what trust is required, which gateway operations get composed in which order, what the policy levers are, and which surfaces are produced. The Naftiko Framework runs it. The provider edits `policy.yaml` and re-deploys without ever touching the capability or the gateway.
 
-The gateway-specific operation paths above are not invented — they are pulled directly from the OpenAPIs already sitting in `/all/kong/openapi/`, `/all/apigee/openapi/`, `/all/wso2/openapi/`, `/all/tyk/openapi/`, and the rest. I [evaluated all of them this week](https://github.com/api-evangelist/api-evangelist/tree/main/working/agent-onboarding) and produced an inventory matrix scoring 75 gateway providers by how cleanly they can drive each leg of the flow.
+The gateway-specific operation paths above are not invented — they are pulled directly from the OpenAPIs already sitting in `/all/kong/openapi/`, `/all/apigee/openapi/`, `/all/wso2/openapi/`, `/all/tyk/openapi/`, and the rest. I evaluated all of them this week and produced an inventory matrix scoring 75 gateway providers by how cleanly they can drive each leg of the flow.
 
 ![Docks waterfront in the blue-circuit filter](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/blue-circuit-docks-water-front.jpg)
 
-## The Eval Lives in the Working Folder
+## What the Eval Surfaced
 
-Four documents in [`working/agent-onboarding/`](https://github.com/api-evangelist/api-evangelist/tree/main/working/agent-onboarding):
-
-- The [adapter specification](https://github.com/api-evangelist/api-evangelist/blob/main/working/agent-onboarding/adapter-spec.md) — the formal contract any per-gateway adapter must implement: `listAPIs`, `getSpec`, `issueCredential`, `streamAuditEvents`, `listMCPServers`.
-- A [Kong vs. Apigee deep dive](https://github.com/api-evangelist/api-evangelist/blob/main/working/agent-onboarding/kong-apigee-deep-dive.md) — operation-by-operation side-by-side. Kong's adapter is ~4.5 days; Apigee's is ~6.5 days plus a Cloud Audit Logs side-channel.
-- A [gateway inventory](https://github.com/api-evangelist/api-evangelist/blob/main/working/agent-onboarding/gateway-inventory.md) — tier classification across 75 providers. Eight Tier-1 turnkey targets. Thirty-three Tier-2 (needs audit side-channel). Thirty-four Tier-3 (thin OpenAPI surface).
-- The [automated onboarding flow](https://github.com/api-evangelist/api-evangelist/blob/main/working/agent-onboarding/automated-agent-flow.md) — the step-by-step specification the capability above is the declaration of.
+Four pieces of work behind this post — an adapter specification (the formal contract any per-gateway adapter must implement: `listAPIs`, `getSpec`, `issueCredential`, `streamAuditEvents`, `listMCPServers`), a Kong vs. Apigee deep dive (Kong's adapter is ~4.5 days, Apigee's is ~6.5 days plus a Cloud Audit Logs side-channel), a gateway inventory across 75 providers (Eight Tier-1 turnkey targets, thirty-three Tier-2 needing audit side-channels, thirty-four Tier-3 with thin OpenAPI surfaces), and the automated onboarding flow specification itself.
 
 Three findings worth pulling out of that work:
 
