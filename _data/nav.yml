@@ -62,12 +62,6 @@
         - name: Kin Lane
           href: /about/kin-lane   
 
-        - name: API Surveying & Assessment
-          href: /about/surveying-assessment    
-
-        - name: This Site
-          href: /about/this-site                        
-
     - name: Contact
       symbol: contact_support
       href: /contact
