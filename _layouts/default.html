@@ -13,14 +13,12 @@
     <div class="row">
 
       <!-- Sidebar -->
-      {% unless page.no_sidebar %}
       <div class="col-lg-3 col-xl-2 sidebar-col d-none d-lg-block py-4 ps-4 pe-2">
         {% include sidenav-lg.html %}
       </div>
-      {% endunless %}
 
       <!-- Content -->
-      <main class="{% if page.no_sidebar %}col-12{% else %}col-lg-9 col-xl-10{% endif %} py-4 px-3 px-lg-5">
+      <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
         {% unless page.layout == 'post' %}
         <div class="d-flex justify-content-end mb-3">
           {% include ai-toolbar.html %}
