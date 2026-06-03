@@ -1,0 +1,11 @@
+{%- comment -%}Renders a long-form date with ordinal suffix, e.g. "January 12th, 2026". Usage: {% include long-date.html date=some_date %}{%- endcomment -%}
+{%- assign _d = include.date | date: "%-d" | plus: 0 -%}
+{%- assign _m100 = _d | modulo: 100 -%}
+{%- assign _m10 = _d | modulo: 10 -%}
+{%- if _m100 >= 11 and _m100 <= 13 -%}{%- assign _suf = "th" -%}
+{%- elsif _m10 == 1 -%}{%- assign _suf = "st" -%}
+{%- elsif _m10 == 2 -%}{%- assign _suf = "nd" -%}
+{%- elsif _m10 == 3 -%}{%- assign _suf = "rd" -%}
+{%- else -%}{%- assign _suf = "th" -%}
+{%- endif -%}
+{{- include.date | date: "%B" }} {{ _d }}{{ _suf }}, {{ include.date | date: "%Y" -}}

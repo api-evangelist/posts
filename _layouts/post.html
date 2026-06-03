@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign posts = page.url | split: "/" %}
-{% assign post_date = posts[1] | append: "-" | append: posts[2] | append: "-" | append: posts[3] | date: "%B %e, %Y" %}
+{% assign post_date = posts[1] | append: "-" | append: posts[2] | append: "-" | append: posts[3] %}
 
 <div class="row">
 
@@ -17,7 +17,7 @@ layout: default
       </div>
 
       <div class="d-flex align-items-center mb-4 text-muted small">
-        <span>{{ post_date }}</span>
+        <span>{% include long-date.html date=post_date %}</span>
         {% if page.author %}
           {% assign author = site.authors[page.author.name] %}
         {% else %}
@@ -67,7 +67,7 @@ layout: default
         <h5>About this post</h5>
         <div class="d-flex justify-content-between small mb-1">
           <span class="text-muted">Published</span>
-          <time>{{ post_date }}</time>
+          <time>{% include long-date.html date=post_date %}</time>
         </div>
         <div class="d-flex justify-content-between small">
           <span class="text-muted">Author</span>

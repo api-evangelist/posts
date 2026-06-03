@@ -58,7 +58,7 @@ sub: Tags
 <div id="post-list" style="display: none;">
   {% for post in site.posts %}
     {% assign p = post.url | split: "/" %}
-    {% assign post_date = p[1] | append: "-" | append: p[2] | append: "-" | append: p[3] | date: "%B %e, %Y" %}
+    {% assign post_date = p[1] | append: "-" | append: p[2] | append: "-" | append: p[3] %}
     {% assign excerpt = post.content | strip_html | truncate: 200 %}
 
     <div class="post-entry" data-tags="{% for tag in post.tags %}{{ tag | downcase }}|||{% endfor %}">
@@ -72,7 +72,7 @@ sub: Tags
           <h3 class="mb-1"><a href="{{ post.url | replace:'.html','' }}">{{ post.title }}</a></h3>
           <p class="text-muted small mb-2">{{ excerpt }}</p>
           <div class="d-flex flex-wrap align-items-center gap-2">
-            <span class="post-meta">{{ post_date }}</span>
+            <span class="post-meta">{% include long-date.html date=post_date %}</span>
             {% for tag in post.tags %}
               {% unless tag == "API Evangelist" or tag == "APIs" %}
               <a href="#" class="post-tag" onclick="selectTagByName('{{ tag }}', event)">#{{ tag }}</a>

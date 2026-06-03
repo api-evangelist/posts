@@ -37,7 +37,7 @@ summary: Studying the technology, business, and politics of APIs since 2010.
         {% assign posts = site.posts %}
         {% for post in posts limit: 5 %}
           {% assign p = post.url | split: "/" %}
-          {% assign post_date = p[1] | append: "-" | append: p[2] | append: "-" | append: p[3] | date: "%B %e, %Y" %}
+          {% assign post_date = p[1] | append: "-" | append: p[2] | append: "-" | append: p[3] %}
           {% assign excerpt = post.content | strip_html | truncate: 180 %}
           <div class="post-item d-flex px-3{% if forloop.first %} pt-3{% endif %}">
             {% if post.image %}
@@ -46,7 +46,7 @@ summary: Studying the technology, business, and politics of APIs since 2010.
             <div>
               <h3><a href="{{ post.url | replace:'.html','' }}">{{ post.title }}</a></h3>
               <p class="text-muted small mb-1">{{ excerpt }}</p>
-              <div class="post-meta">{{ post_date }}</div>
+              <div class="post-meta">{% include long-date.html date=post_date %}</div>
             </div>
           </div>
         {% endfor %}
@@ -70,14 +70,14 @@ summary: Studying the technology, business, and politics of APIs since 2010.
       <div class="card-body p-0">
         {% assign conversations = site.data.conversations | reverse %}
         {% for conversation in conversations limit: 3 %}
-          {% assign post_date = conversation.date | date: "%B %e, %Y" %}
+          {% assign post_date = conversation.date %}
           {% assign excerpt = conversation.description | strip_html | truncate: 180 %}
           <div class="post-item d-flex px-3{% if forloop.first %} pt-3{% endif %}">
             <img src="https://i.ytimg.com/vi/{{ conversation.youtubeId }}/hqdefault.jpg" alt="" class="post-thumb me-3 flex-shrink-0">
             <div>
               <h3><a href="https://conversations.apievangelist.com{{ conversation.url }}">{{ conversation.title }}</a></h3>
               <p class="text-muted small mb-1">{{ excerpt }}</p>
-              <div class="post-meta">{{ post_date }}</div>
+              <div class="post-meta">{% include long-date.html date=post_date %}</div>
             </div>
           </div>
         {% endfor %}
