@@ -39,7 +39,7 @@
 - name: Toolbox
   nav:
 
-    - name: Contracts
+    - name: Companies
       symbol: description
       href: https://companies.apievangelist.com
 

@@ -103,21 +103,6 @@ summary: Studying the technology, business, and politics of APIs since 2010.
 
       {% include newsletter-signup.html %}
 
-      <!-- Quick links to toolbox -->
-      <div class="widget-card mt-3">
-        <h5>API Evangelist Toolbox</h5>
-        <ul class="list-unstyled mb-0 small">
-          {% for section in site.data.home-sections %}
-            <li class="mb-1">
-              <a href="{{ section.url }}" class="text-decoration-none" style="color: var(--ae-green);">
-                <span class="material-symbols-outlined" style="font-size:16px; vertical-align:-3px; margin-right:4px;">{{ section.icon }}</span>{{ section.name }}
-              </a>
-              <span class="text-muted"> - {{ section.count }}</span>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-
     </div>
   </div>
 
