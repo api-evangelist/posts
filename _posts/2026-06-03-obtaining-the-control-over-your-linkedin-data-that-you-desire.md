@@ -155,7 +155,7 @@ This skill turns that raw network exhaust into five readable markdown lists:
   decoding the LinkedIn response bodies into actual content lists.
 ````
 
-## Market Files
+## Markdown Files
 
 The reason I like using Claude as an extension in VSCode is that it is easy for Claude to work with entire folders of files, like the Fiddler RAW export, but also it can then easily output multiple markdown files. I had it dump a `groups.md`, `messages.md`, `posts.md`, `profiles.md`, and `reactions.md`, as well as a `README.md` and `data.json` dump for each time I run a report. Then I can reference the context for a specific research session, day, or other bounded context I wish. It gives me full control over my data, within the bounded context that matters to whatever I am trying to accomplish.
 
