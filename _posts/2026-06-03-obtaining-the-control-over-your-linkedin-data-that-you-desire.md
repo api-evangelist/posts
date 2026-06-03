@@ -53,7 +53,107 @@ I have created an Agent Skill to guide each time I do this, and I am happy to sh
 
 I save the Agent Skill to the `.claude/skills` folder in the project I have VSCode open to, which I then save my Fiddler file to `social/linkedin/*`—you will have to navigate this on your end, and update the path accordingly. Like I said earlier, if you want to do this via Claude desktop, web, or Gemini and ChatGPT, it is a separate process, but the same approach and skills will work, but the file system voodoo will vary.
 
-<script src="https://gist.github.com/kinlane/fa938f842c7b0a75432685a1a9b87c34.js"></script>
+Here is the full Agent Skill (you can also [download the raw file from the GitHub Gist](https://gist.github.com/kinlane/fa938f842c7b0a75432685a1a9b87c34)):
+
+````markdown
+---
+name: parse-linkedin
+description: Parse a Fiddler Everywhere RAW export of LinkedIn (Voyager API) traffic into markdown lists of Posts, Reactions, Profiles, Messages, and Groups. Use when a LinkedIn capture into social/linkedin/ is dropped and wants it turned into readable lists.
+user_invocable: true
+---
+
+# LinkedIn — Fiddler capture parser
+
+ Captures LinkedIn web traffic in Fiddler Everywhere and exports the **RAW**
+capture into a dated folder under:
+
+```
+[local path]social/linkedin/<YYYY-MM-DD-HHMMSS>/
+```
+
+Fiddler saves each captured HTTP **response body** as a file on disk, laid out
+as `<dump>/<hostname>/<url-path>[index]`. The signal lives under
+`www.linkedin.com/voyager/api/*` — LinkedIn's internal "Voyager" JSON API. Each
+file is one JSON response body (no HTTP headers). The bodies are
+`$type`-discriminated entity graphs.
+
+This skill turns that raw network exhaust into five readable markdown lists:
+
+- **Posts** — feed updates (`feed.Update`): author, age, commentary text, permalink
+- **Reactions** — likes/etc (`social.Reaction`): reactor name, headline, target activity
+- **Profiles** — people seen (`identity.profile.Profile`): name, headline, premium, profile link
+- **Messages** — DMs (rich messenger graph under `voyagerMessagingGraphQL/`):
+  grouped by conversation, showing who each thread was **with**, a permalink to
+  the thread, and every captured message (timestamp, sender, text; the user's
+  own outbound messages are labelled **Me**)
+- **Groups** — groups seen (`groups.Group`): name, member count, visibility, link
+
+## When to invoke
+
+- "Parse the LinkedIn export"
+- "Turn the latest LinkedIn capture into lists"
+- "What posts/reactions/messages are in social/linkedin?"
+- `/linkedin-parse`
+
+## Steps
+
+1. **Run the parser.** It defaults to the newest dated dump under
+   `social/linkedin/`.
+   ```bash
+   cd [local path]
+   python3 [local path].claude/skills/linkedin-parse/parse_linkedin.py
+   # or a specific dump:
+   python3 [local path].claude/skills/linkedin-parse/parse_linkedin.py [local path]social/linkedin/2026-06-03-154246
+   ```
+   It writes to `social/linkedin/_reports/<dump-name>/`:
+   - `posts.md`, `reactions.md`, `profiles.md`, `messages.md`, `groups.md`
+   - `README.md` — index with counts
+   - `data.json` — structured sidecar for downstream tooling
+
+2. **Read the generated reports** (or just the counts the script prints). Don't
+   paste whole files backm. Give a short briefing: counts per
+   list, plus 2–4 highlights (notable posts in the feed, who reacted to Kin's
+   posts, any inbound message threads, new groups).
+
+## How it works (so you can answer questions about it)
+
+- Walks every JSON body under `www.linkedin.com/voyager/api/` (recursively, so
+  it reaches subdirs like `voyagerMessagingGraphQL/`), visiting every dict node.
+- **Name resolution:** LinkedIn profile URNs are opaque (`ACoAA...`). For the
+  feed, names come from `ActorComponent` (post author) and `EntityLockupViewModel`
+  (reaction reactor) blocks, each pairing a display name with a `*profile` URN in
+  its image attributes. For messages, names come from the messenger graph's
+  `MessagingParticipant` records — `participantType.member` gives first/last name
+  and profile URL, `participantType.custom` gives sponsored-InMail names, and
+  company participants fall back to captured `Company` names.
+- **Messages** are decoded from the rich messenger graph (`_type`-keyed, e.g.
+  `com.linkedin.messenger.Conversation` / `.Message`, not the older `$type`
+  format). The viewer ("Me") is the first profile in each conversation URN tuple;
+  everyone else in the roster becomes the thread's "with". Thread permalinks come
+  from each conversation's `conversationUrl`. Output is grouped by conversation,
+  sorted most-recent-first, messages chronological within a thread.
+- De-dupes by entity URN / activity id / message backend URN so the same item
+  appearing across multiple captured responses is listed once.
+- It does **not** parse anything outside `voyager/api`. Coverage is whatever
+  threads/messages were loaded in the browser while capturing — an unnamed
+  "Unknown" thread just means that participant's name was never in the capture.
+
+## Notes / limits
+
+- Coverage depends entirely on what is scrolled past while capturing. A bigger
+  list means more was loaded in the browser, not that more exists.
+- Profiles often have no name (only the headline) when the profile was returned
+  without ever appearing in a feed/reaction lockup. Those still list by headline
+  and profile link.
+- Re-running is safe and idempotent — it overwrites the report folder for that
+  dump.
+
+## Related
+
+- `me-daily` skill summarizes the *same kind* of Fiddler dumps at the
+  host/category level (who was talked to). This skill goes the other way:
+  decoding the LinkedIn response bodies into actual content lists.
+````
 
 ## Market Files
 
