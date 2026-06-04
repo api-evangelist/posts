@@ -244,6 +244,31 @@
       .post-body p { line-height: 1.75; margin-bottom: 1rem; }
       .post-body a { color: var(--ae-green); }
 
+      /* Markdown tables */
+      .post-body table {
+        width: 100%;
+        margin: 1.5rem 0;
+        border-collapse: collapse;
+        font-size: 0.95rem;
+        display: block;
+        overflow-x: auto;
+      }
+      .post-body table thead th {
+        background: var(--ae-green);
+        color: #fff;
+        font-weight: 600;
+        text-align: left;
+        vertical-align: bottom;
+      }
+      .post-body table th,
+      .post-body table td {
+        padding: 0.6rem 0.85rem;
+        border: 1px solid #e9ecef;
+        vertical-align: top;
+      }
+      .post-body table tbody tr:nth-child(odd) { background: #f8f9fa; }
+      .post-body table tbody tr:hover { background: #f0f7ee; }
+
       /* Footer */
       .footer-ae {
         border-top: 1px solid #e9ecef;
