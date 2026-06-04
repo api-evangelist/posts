@@ -37,14 +37,6 @@
         Open in ChatGPT
       </a>
     </li>
-    <li><hr class="dropdown-divider"></li>
-    <li><h6 class="dropdown-header small">Connect</h6></li>
-    <li>
-      <button class="dropdown-item small" onclick="aeAI.copyMcpCommand(this)">
-        <span class="material-symbols-outlined" style="font-size:15px;vertical-align:-2px;">terminal</span>
-        Copy Claude Code MCP command
-      </button>
-    </li>
   </ul>
 </div>
 
@@ -91,10 +83,6 @@ if (typeof aeAI === 'undefined') {
           .then(function(text) { return copyText(text); })
           .then(function() { showToast(btn, 'Copied!'); })
           .catch(function() { window.open(rawUrl, '_blank'); });
-      },
-      copyMcpCommand: function(btn) {
-        var cmd = 'claude mcp add api-evangelist --transport http https://chat-api.apievangelist.com/mcp';
-        copyText(cmd).then(function() { showToast(btn, 'Copied!'); });
       }
     };
   })();

@@ -32,7 +32,6 @@ API Evangelist is a federated network of knowledge bases built on 5,000+ blog po
 ## Ask & Chat
 
 - [Ask Kin](https://apievangelist.com/): AI assistant trained on API Evangelist content — answers questions, cites sources from the full blog archive
-- [MCP Server](https://chat-api.apievangelist.com/mcp): Connect via Model Context Protocol — tools: search_posts, ask_kin
 
 ## About
 

@@ -5,28 +5,6 @@ permalink: /.well-known/api-catalog
 {
   "linkset": [
     {
-      "anchor": "https://contracts-api.apievangelist.com/",
-      "service-desc": [
-        {
-          "href": "https://apievangelist.com/openapi.yml",
-          "type": "application/vnd.oai.openapi"
-        }
-      ],
-      "service-doc": [
-        {
-          "href": "https://contracts.apievangelist.com/",
-          "type": "text/html"
-        }
-      ],
-      "service-meta": [
-        {
-          "href": "https://apievangelist.com/apis.yml",
-          "type": "application/yaml",
-          "title": "APIs.json catalog for the API Evangelist network"
-        }
-      ]
-    },
-    {
       "anchor": "https://apievangelist.com/skills/",
       "service-desc": [
         {

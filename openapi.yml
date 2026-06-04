@@ -6,8 +6,6 @@ info:
   contact:
     name: Kin Lane
     email: info@apievangelist.com
-servers:
-  - url: https://contracts-api.apievangelist.com/
 tags:
   - name: Contracts
     description: An agreement between API producer and consumers.
