@@ -39,9 +39,9 @@
 - name: Toolbox
   nav:
 
-    - name: Companies
+    - name: Providers
       symbol: description
-      href: https://companies.apievangelist.com
+      href: https://providers.apievangelist.com
 
     - name: APIs
       symbol: api
