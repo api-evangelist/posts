@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "The APIs of the World's Top Universities — 634 of Them, and Most Are Library Plumbing"
 date: 2026-06-04
