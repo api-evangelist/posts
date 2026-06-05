@@ -1,3 +1,28 @@
+- name: Guidance
+  nav:
+
+    - name: Guidance
+      symbol: school
+      sub:
+
+        - name: Technology of APIs
+          href: /technology-of-apis/
+
+        - name: Business of APIs
+          href: /business-of-apis/
+
+        - name: Evangelism of APIs
+          href: /evangelism-of-apis/
+
+        - name: Governance of APIs
+          href: /governance-of-apis/
+
+        - name: History of APIs
+          href: /history-of-apis/
+
+        - name: Politics of APIs
+          href: /politics-of-apis/
+
 - name: API Learnings
   nav:
 
