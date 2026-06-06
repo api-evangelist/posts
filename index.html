@@ -5,6 +5,11 @@ title: API Evangelist
 summary: Studying the technology, business, and politics of APIs since 2010.
 ---
 
+<style>
+  .guidance-card { transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease; }
+  .guidance-card:hover { transform: translateY(-2px); box-shadow: 0 .35rem .9rem rgba(0,0,0,.08); border-color: var(--ae-green); }
+</style>
+
 <!-- Page header -->
 <div class="d-flex align-items-center mb-5">
   <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-kin.png" width="60" class="me-3" alt="Kin Lane">
@@ -61,30 +66,89 @@ summary: Studying the technology, business, and politics of APIs since 2010.
       </div>
     </div>
 
-    <!-- Latest Conversations -->
+    <!-- Guidance -->
     <div class="card mb-4">
       <div class="card-header d-flex justify-content-between align-items-center">
-        <h5 class="mb-0 fs-6">Latest Conversations</h5>
-        <a href="https://conversations.apievangelist.com/" class="btn btn-sm btn-outline-secondary">Browse All</a>
+        <h5 class="mb-0 fs-6">Guidance</h5>
+        <a href="https://guidance.apievangelist.com/" class="btn btn-sm btn-outline-secondary">Browse All</a>
       </div>
-      <div class="card-body p-0">
-        {% assign conversations = site.data.conversations | reverse %}
-        {% for conversation in conversations limit: 3 %}
-          {% assign post_date = conversation.date %}
-          {% assign excerpt = conversation.description | strip_html | truncate: 180 %}
-          <div class="post-item d-flex px-3{% if forloop.first %} pt-3{% endif %}">
-            <img src="https://i.ytimg.com/vi/{{ conversation.youtubeId }}/hqdefault.jpg" alt="" class="post-thumb me-3 flex-shrink-0">
-            <div>
-              <h3><a href="https://conversations.apievangelist.com{{ conversation.url }}">{{ conversation.title }}</a></h3>
-              <p class="text-muted small mb-1">{{ excerpt }}</p>
-              <div class="post-meta">{% include long-date.html date=post_date %}</div>
-            </div>
+      <div class="card-body">
+        <div class="row g-3">
+
+          <div class="col-12 col-md-6">
+            <a href="https://apievangelist.com/technology-of-apis/" class="card h-100 text-decoration-none guidance-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-2">
+                  <span class="material-symbols-outlined me-2" style="color: var(--ae-green);">code</span>
+                  <h6 class="mb-0 text-body">Technology of APIs</h6>
+                </div>
+                <p class="card-text text-muted small mb-0">The technical building blocks of API operations—design, deployment, management, testing, and the standards that hold it all together.</p>
+              </div>
+            </a>
           </div>
-        {% endfor %}
+
+          <div class="col-12 col-md-6">
+            <a href="https://apievangelist.com/business-of-apis/" class="card h-100 text-decoration-none guidance-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-2">
+                  <span class="material-symbols-outlined me-2" style="color: var(--ae-green);">business_center</span>
+                  <h6 class="mb-0 text-body">Business of APIs</h6>
+                </div>
+                <p class="card-text text-muted small mb-0">The strategy, monetization, value, and partnerships that turn APIs into sustainable business operations.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <a href="https://apievangelist.com/evangelism-of-apis/" class="card h-100 text-decoration-none guidance-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-2">
+                  <span class="material-symbols-outlined me-2" style="color: var(--ae-green);">campaign</span>
+                  <h6 class="mb-0 text-body">Evangelism of APIs</h6>
+                </div>
+                <p class="card-text text-muted small mb-0">The storytelling, developer relations, documentation, and outreach that bring developers to your APIs.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <a href="https://apievangelist.com/governance-of-apis/" class="card h-100 text-decoration-none guidance-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-2">
+                  <span class="material-symbols-outlined me-2" style="color: var(--ae-green);">gavel</span>
+                  <h6 class="mb-0 text-body">Governance of APIs</h6>
+                </div>
+                <p class="card-text text-muted small mb-0">The policies, rules, standards, and oversight that keep API operations consistent, compliant, and repeatable.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <a href="https://apievangelist.com/history-of-apis/" class="card h-100 text-decoration-none guidance-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-2">
+                  <span class="material-symbols-outlined me-2" style="color: var(--ae-green);">history</span>
+                  <h6 class="mb-0 text-body">History of APIs</h6>
+                </div>
+                <p class="card-text text-muted small mb-0">The providers, platforms, and milestones that shaped the API economy from 2010 to today.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <a href="https://apievangelist.com/politics-of-apis/" class="card h-100 text-decoration-none guidance-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-2">
+                  <span class="material-symbols-outlined me-2" style="color: var(--ae-green);">account_balance</span>
+                  <h6 class="mb-0 text-body">Politics of APIs</h6>
+                </div>
+                <p class="card-text text-muted small mb-0">The privacy, consent, ownership, antitrust, and platform-power questions at the heart of how APIs shape society.</p>
+              </div>
+            </a>
+          </div>
+
+        </div>
       </div>
-    </div>
-    <div class="text-end mb-4">
-      <a href="https://calendly.com/kin-apievangelist" class="btn btn-sm btn-outline-success">Join the Conversation</a>
     </div>
 
     <!-- About the site -->
