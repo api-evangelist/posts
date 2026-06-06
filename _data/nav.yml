@@ -72,6 +72,18 @@
       symbol: api
       href: https://apis.apievangelist.com
 
+    - name: Services
+      symbol: cloud
+      href: https://services.apievangelist.com
+
+    - name: Tools
+      symbol: build
+      href: https://tools.apievangelist.com
+
+    - name: Standards
+      symbol: verified
+      href: https://standards.apievangelist.com
+
 
 - name: API Evangelist LLC
   nav:
