@@ -1,40 +1,13 @@
-- name: Guidance
-  nav:
-
-    - name: Guidance
-      symbol: school
-      sub:
-
-        - name: Technology of APIs
-          href: /technology-of-apis/
-
-        - name: Business of APIs
-          href: /business-of-apis/
-
-        - name: Evangelism of APIs
-          href: /evangelism-of-apis/
-
-        - name: Governance of APIs
-          href: /governance-of-apis/
-
-        - name: History of APIs
-          href: /history-of-apis/
-
-        - name: Politics of APIs
-          href: /politics-of-apis/
-
-- name: API Learnings
+- name: Learnings
   nav:
 
     - name: Stories
       symbol: auto_stories
-      sub:
+      href: https://apievangelist.com/2026/
 
-        - name: Stories
-          href: /2026/
-
-        - name: Areas
-          href: /areas/
+    - name: Areas
+      symbol: category
+      href: https://apievangelist.com/areas/
 
     - name: Conversations
       symbol: forum
@@ -49,24 +22,77 @@
       sub:
 
         - name: API
-          href: /timeline/api/
+          href: https://apievangelist.com/timeline/api/
 
         - name: Resources
-          href: /timeline/resources/
+          href: https://apievangelist.com/timeline/resources/
 
         - name: Industry
-          href: /timeline/industry/   
+          href: https://apievangelist.com/timeline/industry/
 
         - name: People
-          href: /timeline/people/                     
+          href: https://apievangelist.com/timeline/people/
+
+
+- name: Guidance
+  nav:
+
+    - name: Technology of APIs
+      symbol: code
+      href: https://apievangelist.com/technology-of-apis/
+
+    - name: Business of APIs
+      symbol: business_center
+      href: https://apievangelist.com/business-of-apis/
+
+    - name: Evangelism of APIs
+      symbol: campaign
+      href: https://apievangelist.com/evangelism-of-apis/
+
+    - name: Governance of APIs
+      symbol: gavel
+      href: https://apievangelist.com/governance-of-apis/
+
+    - name: History of APIs
+      symbol: history
+      href: https://apievangelist.com/history-of-apis/
+
+    - name: Politics of APIs
+      symbol: account_balance
+      href: https://apievangelist.com/politics-of-apis/
 
 
 - name: Toolbox
   nav:
 
     - name: Providers
-      symbol: description
+      symbol: domain
       href: https://providers.apievangelist.com
+      sub:
+
+        - name: Alphabetical
+          href: https://providers.apievangelist.com/alphabetical/
+
+        - name: Fortune 1000
+          href: https://providers.apievangelist.com/fortune-1000/
+
+        - name: Federal Government
+          href: https://providers.apievangelist.com/federal-government/
+
+        - name: Exemplar
+          href: https://providers.apievangelist.com/exemplar/
+
+        - name: Strong
+          href: https://providers.apievangelist.com/strong/
+
+        - name: Developing
+          href: https://providers.apievangelist.com/developing/
+
+        - name: Thin
+          href: https://providers.apievangelist.com/thin/
+
+        - name: Minimal
+          href: https://providers.apievangelist.com/minimal/
 
     - name: APIs
       symbol: api
@@ -90,46 +116,46 @@
 
     - name: About
       symbol: info
-      href: /about
+      href: https://apievangelist.com/about
       sub:
 
         - name: API Evangelist
-          href: /about/api-evangelist 
+          href: https://apievangelist.com/about/api-evangelist
 
         - name: Kin Lane
-          href: /about/kin-lane   
+          href: https://apievangelist.com/about/kin-lane
 
     - name: Contact
       symbol: contact_support
-      href: /contact
+      href: https://apievangelist.com/contact
       sub:
 
         - name: Contact Form
-          href: /contact 
+          href: https://apievangelist.com/contact
 
         - name: LinkedIn
-          href: https://www.linkedin.com/company/api-evangelist/   
+          href: https://www.linkedin.com/company/api-evangelist/
 
         - name: Bluesky
-          href: https://bsky.app/profile/apievangelist.com     
+          href: https://bsky.app/profile/apievangelist.com
 
         - name: Mastodon
-          href: https://mastodon.apievangelist.com/web/@api    
+          href: https://mastodon.apievangelist.com/web/@api
 
         - name: Newsletter
-          href: https://buttondown.com/apievangelist     
+          href: https://buttondown.com/apievangelist
 
         - name: Apple Podcasts
-          href: https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921  
+          href: https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921
 
         - name: Spotify
-          href: https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO    
+          href: https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO
 
         - name: Postman
-          href: https://www.postman.com/api-evangelist       
+          href: https://www.postman.com/api-evangelist
 
         - name: GitHub
           href: https://github.com/api-evangelist
 
         - name: RSS Feed
-          href: /feed.xml
+          href: https://apievangelist.com/feed.xml
