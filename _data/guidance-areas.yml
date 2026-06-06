@@ -1,0 +1,32 @@
+# The six API Evangelist guidance areas (books). Drives the homepage
+# Guidance cards; order here is the order rendered.
+
+- name: Technology of APIs
+  symbol: code
+  href: https://apievangelist.com/technology-of-apis/
+  description: The technical building blocks of API operations—design, deployment, management, testing, and the standards that hold it all together.
+
+- name: Business of APIs
+  symbol: business_center
+  href: https://apievangelist.com/business-of-apis/
+  description: The strategy, monetization, value, and partnerships that turn APIs into sustainable business operations.
+
+- name: Evangelism of APIs
+  symbol: campaign
+  href: https://apievangelist.com/evangelism-of-apis/
+  description: The storytelling, developer relations, documentation, and outreach that bring developers to your APIs.
+
+- name: Governance of APIs
+  symbol: gavel
+  href: https://apievangelist.com/governance-of-apis/
+  description: The policies, rules, standards, and oversight that keep API operations consistent, compliant, and repeatable.
+
+- name: History of APIs
+  symbol: history
+  href: https://apievangelist.com/history-of-apis/
+  description: The providers, platforms, and milestones that shaped the API economy from 2010 to today.
+
+- name: Politics of APIs
+  symbol: account_balance
+  href: https://apievangelist.com/politics-of-apis/
+  description: The privacy, consent, ownership, antitrust, and platform-power questions at the heart of how APIs shape society.
