@@ -28,8 +28,6 @@ excerpt: >-
 
 I have been writing about this since [March 2017](https://apievangelist.com/2017/03/10/focus-on-having-a-robust-and-diverse-api-toolbox/), kept expanding it through [2018](http://apievangelist.com/2018/01/02/my-evolving-definition-of-a-robust-and-diverse-api-toolbox/) with a diagram that I brought to talks and workshops, and reinforced it again in [2020](https://apievangelist.com/2020/08/31/a-diverse-api-toolbox-is-the-future/). Coming back from APIDays Amsterdam, the same message needs saying again — now with MCP and Agent Skills freshly added to the shelf.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/api-evangelist/diverse-api-toolbox-2026.svg" width="100%" style="padding: 15px;" />
-
 The diagram above is my current read on the toolbox. Every time someone tells you that REST is dead, or that everything will be GraphQL, or that MCP will replace all your APIs, remember: they are a tool salesperson, not a practitioner. The people who get things done across the real enterprise have a diverse set of tools and know when to reach for which one.
 
 ## API Design Patterns
