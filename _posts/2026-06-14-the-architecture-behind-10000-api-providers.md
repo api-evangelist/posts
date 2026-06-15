@@ -31,7 +31,7 @@ The reason any of this works at scale is that [APIs.json](https://apisjson.org) 
 
 This is the part that most people underestimate when they think about API discovery at scale. The problem is not scraping. I can scrape. The problem is that scraped data has no shared schema, so every consumer has to write a custom parser for every provider. APIs.json solves that by giving every provider the same vocabulary for describing what they publish. When my tooling sees `type: OpenAPI` in an `apis.yml`, it knows exactly what to do with that URL — regardless of whether the provider is a two-person startup or a Fortune 500 company.
 
-I started working on APIs.json in 2014 alongside [Steve Willmott](https://twitter.com/njyx) and others in the community. The goal was always to create a discovery primitive that sat one layer above the API specs themselves — not a replacement for OpenAPI, but an index of where OpenAPI (and everything else) lives. Twelve years later, with 10,000 repos all carrying an `apis.yml`, I feel like that bet paid off.
+I started working on APIs.json in 2014 alongside Steve Willmott and others in the community. The goal was always to create a discovery primitive that sat one layer above the API specs themselves — not a replacement for OpenAPI, but an index of where OpenAPI (and everything else) lives. Twelve years later, with 10,000 repos all carrying an `apis.yml`, I feel like that bet paid off.
 
 ## The Standards Layer Is the Governance Layer
 
