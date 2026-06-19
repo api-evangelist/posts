@@ -1,0 +1,99 @@
+---
+layout: default
+section: Services
+title: Governance Services
+summary: Define and iterate upon the strategies, experiences, policies, rules, pipelines, and skills that make your business operations consistent, compliant, and repeatable.
+nav: Services
+sub: Governance
+---
+
+<div class="row gx-xl-9">
+  <div class="col-12">
+    <section>
+
+      <!-- Page header -->
+      <p class="small text-muted mb-2"><a href="/services/" class="text-decoration-none">&larr; All Services</a></p>
+      <h1 class="fs-3 mb-2">{{ page.title }}</h1>
+      <p class="lead text-muted mb-5">{{ page.summary }}</p>
+
+      <!-- Governance -->
+      <h5 class="fw-semibold text-muted mb-3 mt-2 pb-1 border-bottom">Governance</h5>
+      <div class="row mb-5">
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h2 class="fs-6 mb-1">Strategies</h2>
+              <p class="text-muted small mb-0">Define and iterate upon the business strategies that are guiding how technology is used by business operations.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h2 class="fs-6 mb-1">Experiences</h2>
+              <p class="text-muted small mb-0">Help identify, focus on, and refine the experiences that exist at the intersection of people and interfaces.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h2 class="fs-6 mb-1">Policies</h2>
+              <p class="text-muted small mb-0">Define and iterate upon the business policies that shape and drive your business operations in repeatable ways.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h2 class="fs-6 mb-1">Rules</h2>
+              <p class="text-muted small mb-0">Define and iterate upon the machine-readable rules that govern the manual and automated aspects of your operations.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h2 class="fs-6 mb-1">Pipelines</h2>
+              <p class="text-muted small mb-0">Define and iterate upon the CI/CD pipelines you need to automate the integration and deployment of operations.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h2 class="fs-6 mb-1">Skills</h2>
+              <p class="text-muted small mb-0">Define and iterate upon the skills you need to operate your business using human and programmatic resources.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h2 class="fs-6 mb-1">Reviews</h2>
+              <p class="text-muted small mb-0">Provide formal reviews of policies, rules, pipelines, and skills used to govern repeatable business operations.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Page footer -->
+      <div class="card border-0 shadow-sm mt-2">
+        <div class="card-body">
+          <h2 class="fs-5 mb-2">Let's work together</h2>
+          <p class="text-muted mb-3">If governance work maps to something you're working on, I would love to talk.</p>
+          <p class="mb-0"><a href="mailto:info@apievangelist.com" class="btn btn-outline-secondary btn-sm">Get in touch — info@apievangelist.com</a></p>
+        </div>
+      </div>
+
+    </section>
+  </div>
+</div>
