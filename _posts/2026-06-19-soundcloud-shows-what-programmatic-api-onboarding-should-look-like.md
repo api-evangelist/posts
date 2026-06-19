@@ -18,9 +18,9 @@ I keep coming back to the problem of scaling the onboarding, the setting up of a
 
 I came across a [post](https://developers.soundcloud.com/blog/api-credentials-cli-openapi-github) from [Danny Preussler](https://www.linkedin.com/in/preusslerberlin/) of SoundCloud on obtaining API credentials using the terminal, and then using the SoundCloud OpenAPI on GitHub to automate onboarding with their API. It doesn't start from ground zero—you still have to have an existing SoundCloud account—but it achieves what I envision for setting up an application and obtaining your API token. They added an `sc-api-auth.mjs` script to their SoundCloud API GitHub repo.
 
-"It opens a browser for OAuth (think aws sso login), registers your app, and prints your Client ID and the credential JSON to stdout. One file, Node.js 18+, no npm install."
+> *"It opens a browser for OAuth (think aws sso login), registers your app, and prints your Client ID and the credential JSON to stdout. One file, Node.js 18+, no npm install."*
 
-"Same rules as the website: Artist Pro, app metadata, API Terms of Use. Already have an app? It returns what you have instead of creating a second one."
+> *"Same rules as the website: Artist Pro, app metadata, API Terms of Use. Already have an app? It returns what you have instead of creating a second one."*
 
 It is simple and effective. It is a pattern I will be showcasing and pointing other API providers toward. While this is a problem I'd love to solve with a product or a service, I really believe this is something that API providers should solve. If they are truly embracing this agentic AI moment like they say they are, then you should be able to onboard with their API in a programmatic way—and not with the myriad of ways currently making up the status quo.
 
