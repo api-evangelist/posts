@@ -23,7 +23,10 @@ sub: Evangelism
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Stories</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/stories.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Stories</h2>
+              </div>
               <p class="text-muted small mb-0">Craft stories that get published to blogs, social networks, newsletters, and other channels you use for business.</p>
             </div>
           </div>
@@ -32,7 +35,10 @@ sub: Evangelism
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Conversations</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/conversations.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Conversations</h2>
+              </div>
               <p class="text-muted small mb-0">Engage in in-person and virtual conversations which can be made available via podcasts and reusable videos.</p>
             </div>
           </div>
@@ -41,7 +47,10 @@ sub: Evangelism
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Talks</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/talks.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Talks</h2>
+              </div>
               <p class="text-muted small mb-0">Provide in-person and virtual talks on a variety of relevant topics at the intersection of people and interfaces.</p>
             </div>
           </div>
@@ -50,7 +59,10 @@ sub: Evangelism
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Research</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/research.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Research</h2>
+              </div>
               <p class="text-muted small mb-0">Publish research into vocabulary topics, outlining interfaces, standards, policies, rules, pipelines, and skills.</p>
             </div>
           </div>
@@ -59,7 +71,10 @@ sub: Evangelism
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Papers</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/papers.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Papers</h2>
+              </div>
               <p class="text-muted small mb-0">Iterate and publish formal research into specific topics, providing free and commercial blueprints on topics.</p>
             </div>
           </div>
@@ -68,7 +83,10 @@ sub: Evangelism
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Workshops</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/workshops.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Workshops</h2>
+              </div>
               <p class="text-muted small mb-0">Conduct in-person and virtual workshops on relevant topics at the intersection of people and interfaces.</p>
             </div>
           </div>

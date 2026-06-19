@@ -23,7 +23,10 @@ sub: Governance
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Strategies</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/strategies.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Strategies</h2>
+              </div>
               <p class="text-muted small mb-0">Define and iterate upon the business strategies that are guiding how technology is used by business operations.</p>
             </div>
           </div>
@@ -32,7 +35,10 @@ sub: Governance
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Experiences</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/experiences.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Experiences</h2>
+              </div>
               <p class="text-muted small mb-0">Help identify, focus on, and refine the experiences that exist at the intersection of people and interfaces.</p>
             </div>
           </div>
@@ -41,7 +47,10 @@ sub: Governance
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Policies</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/policies.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Policies</h2>
+              </div>
               <p class="text-muted small mb-0">Define and iterate upon the business policies that shape and drive your business operations in repeatable ways.</p>
             </div>
           </div>
@@ -50,7 +59,10 @@ sub: Governance
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Rules</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/rules.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Rules</h2>
+              </div>
               <p class="text-muted small mb-0">Define and iterate upon the machine-readable rules that govern the manual and automated aspects of your operations.</p>
             </div>
           </div>
@@ -59,7 +71,10 @@ sub: Governance
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Pipelines</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/pipelines.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Pipelines</h2>
+              </div>
               <p class="text-muted small mb-0">Define and iterate upon the CI/CD pipelines you need to automate the integration and deployment of operations.</p>
             </div>
           </div>
@@ -68,7 +83,10 @@ sub: Governance
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Skills</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/skills.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Skills</h2>
+              </div>
               <p class="text-muted small mb-0">Define and iterate upon the skills you need to operate your business using human and programmatic resources.</p>
             </div>
           </div>
@@ -77,7 +95,10 @@ sub: Governance
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Reviews</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/reviews.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Reviews</h2>
+              </div>
               <p class="text-muted small mb-0">Provide formal reviews of policies, rules, pipelines, and skills used to govern repeatable business operations.</p>
             </div>
           </div>

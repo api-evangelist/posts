@@ -23,7 +23,10 @@ sub: Discovery
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Vocabulary</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/vocabulary.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Vocabulary</h2>
+              </div>
               <p class="text-muted small mb-0">Develop the words that define what is needed (i.e. KitchenOps, Monitoring, Financial, Invoicing, Grants, etc.).</p>
             </div>
           </div>
@@ -32,7 +35,10 @@ sub: Discovery
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Interfaces</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/interfaces.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Interfaces</h2>
+              </div>
               <p class="text-muted small mb-0">Map the landscape of existing commercial or open-source interfaces available, and develop new ones when needed.</p>
             </div>
           </div>
@@ -41,7 +47,10 @@ sub: Discovery
         <div class="col-md-6 col-lg-4 mb-3">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h2 class="fs-6 mb-1">Standards</h2>
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/standards.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0">Standards</h2>
+              </div>
               <p class="text-muted small mb-0">Identify and develop the standards required to ensure the interoperability of any aspect of business operations.</p>
             </div>
           </div>
