@@ -4,9 +4,9 @@
       <feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="2" seed="7" result="noise"/>
       <feDisplacementMap in="SourceGraphic" in2="noise" scale="7"/>
     </filter>
-    <filter id="rough2" x="-5%" y="-5%" width="110%" height="110%">
+    <filter id="rough2" x="-12%" y="-12%" width="124%" height="124%">
       <feTurbulence type="fractalNoise" baseFrequency="0.013" numOctaves="2" seed="19" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
     </filter>
   </defs>
 
@@ -14,7 +14,7 @@
   <rect width="940" height="900" fill="#F7F2E7"/>
 
   <!-- Outer page keyline (hand-drawn) -->
-  <rect x="22" y="22" width="896" height="856" rx="16" fill="none" stroke="#111111" stroke-width="3" filter="url(#rough2)"/>
+  <rect x="30" y="28" width="880" height="844" rx="16" fill="none" stroke="#111111" stroke-width="3" filter="url(#rough2)"/>
 
   <!-- Title -->
   <text x="470" y="62" text-anchor="middle" font-size="30" font-weight="700" fill="#111111">The MCP Governance Venn</text>
