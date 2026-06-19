@@ -14,7 +14,7 @@
   <rect width="940" height="900" fill="#F7F2E7"/>
 
   <!-- Outer page keyline (hand-drawn) -->
-  <rect x="30" y="28" width="880" height="844" rx="16" fill="none" stroke="#111111" stroke-width="3" filter="url(#rough2)"/>
+  <rect x="28" y="28" width="884" height="844" rx="16" fill="none" stroke="#111111" stroke-width="3" filter="url(#rough2)"/>
 
   <!-- Title -->
   <text x="470" y="62" text-anchor="middle" font-size="30" font-weight="700" fill="#111111">The MCP Governance Venn</text>
