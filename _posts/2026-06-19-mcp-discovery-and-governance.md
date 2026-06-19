@@ -10,7 +10,7 @@ tags:
   - AI
   - APIs
   - Business of APIs
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/oakland-california-burned-van-back.jpeg
+image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-images/2026-06-19-mcp-discovery-and-governance.png
 ---
 I am working through research on "MCP governance"—meaning, what others out there are calling MCP governance. As with APIs, there is a wide mix of smoke, mirrors, and concrete practices around what governance of this new set of API patterns actually is.
 

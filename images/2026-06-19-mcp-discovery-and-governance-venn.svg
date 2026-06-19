@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="900" viewBox="0 0 940 900" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="2" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="7"/>
+    </filter>
+    <filter id="rough2" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.013" numOctaves="2" seed="19" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5"/>
+    </filter>
+  </defs>
+
+  <!-- Warm paper -->
+  <rect width="940" height="900" fill="#F7F2E7"/>
+
+  <!-- Outer page keyline (hand-drawn) -->
+  <rect x="22" y="22" width="896" height="856" rx="16" fill="none" stroke="#111111" stroke-width="3" filter="url(#rough2)"/>
+
+  <!-- Title -->
+  <text x="470" y="62" text-anchor="middle" font-size="30" font-weight="700" fill="#111111">The MCP Governance Venn</text>
+
+  <!-- Circles: thick black marker outlines, brand fills -->
+  <g filter="url(#rough)">
+    <!-- Cost: blue, top-left -->
+    <circle cx="360" cy="395" r="250" fill="#38A1DD" fill-opacity="0.22" stroke="#111111" stroke-width="4.5"/>
+    <!-- Risk: red, top-right -->
+    <circle cx="580" cy="395" r="250" fill="#EB1C37" fill-opacity="0.18" stroke="#111111" stroke-width="4.5"/>
+    <!-- Velocity: gold, bottom-center -->
+    <circle cx="470" cy="580" r="250" fill="#F5B74E" fill-opacity="0.30" stroke="#111111" stroke-width="4.5"/>
+  </g>
+
+  <!-- Circle labels (outside, brand accents) -->
+  <text x="118" y="168" text-anchor="middle" font-size="28" font-weight="700" fill="#2a7fb0">COST</text>
+  <text x="822" y="168" text-anchor="middle" font-size="28" font-weight="700" fill="#EB1C37">RISK</text>
+  <text x="470" y="868" text-anchor="middle" font-size="28" font-weight="700" fill="#B97E12">VELOCITY</text>
+
+  <!-- COST only -->
+  <text x="230" y="328" text-anchor="middle" font-size="14.5" font-weight="700" fill="#111111">Cost &amp; op-model</text>
+  <text x="230" y="348" text-anchor="middle" font-size="14.5" font-weight="700" fill="#111111">transparency</text>
+  <text x="230" y="366" text-anchor="middle" font-size="12.5" fill="#333333">(central vs. federated)</text>
+  <text x="230" y="392" text-anchor="middle" font-size="13.5" fill="#111111">Can't set team budgets</text>
+
+  <!-- RISK only -->
+  <text x="710" y="328" text-anchor="middle" font-size="14.5" font-weight="700" fill="#111111">Compliant MCPs</text>
+  <text x="710" y="350" text-anchor="middle" font-size="14.5" font-weight="700" fill="#111111">Secured MCPs</text>
+  <text x="710" y="368" text-anchor="middle" font-size="12.5" fill="#333333">(governance)</text>
+  <text x="710" y="394" text-anchor="middle" font-size="13.5" fill="#111111">Data-use visibility</text>
+  <text x="710" y="412" text-anchor="middle" font-size="12.5" fill="#333333">(PII / GDPR)</text>
+
+  <!-- VELOCITY only -->
+  <text x="470" y="688" text-anchor="middle" font-size="14.5" font-weight="700" fill="#111111">Team MCP production</text>
+  <text x="470" y="708" text-anchor="middle" font-size="13" fill="#333333">&amp; process</text>
+  <text x="470" y="734" text-anchor="middle" font-size="14.5" font-weight="700" fill="#111111">Embedded / automated</text>
+  <text x="470" y="754" text-anchor="middle" font-size="14.5" font-weight="700" fill="#111111">MCP compliance</text>
+
+  <!-- COST ∩ RISK (top center) -->
+  <text x="470" y="286" text-anchor="middle" font-size="14.5" font-weight="700" fill="#111111">MCP tooling</text>
+  <text x="470" y="306" text-anchor="middle" font-size="14.5" font-weight="700" fill="#111111">visibility</text>
+
+  <!-- COST ∩ VELOCITY (lower-left) -->
+  <text x="288" y="532" text-anchor="middle" font-size="14.5" font-weight="700" fill="#111111">Standardized</text>
+  <text x="288" y="552" text-anchor="middle" font-size="14.5" font-weight="700" fill="#111111">MCP usage</text>
+
+  <!-- RISK ∩ VELOCITY (lower-right) -->
+  <text x="652" y="532" text-anchor="middle" font-size="14.5" font-weight="700" fill="#111111">MCP</text>
+  <text x="652" y="552" text-anchor="middle" font-size="14.5" font-weight="700" fill="#111111">onboarding</text>
+
+  <!-- CENTER: all three -->
+  <text x="470" y="458" text-anchor="middle" font-size="19" font-weight="800" fill="#111111">MCP</text>
+  <text x="470" y="480" text-anchor="middle" font-size="19" font-weight="800" fill="#111111">DISCOVERY</text>
+</svg>
