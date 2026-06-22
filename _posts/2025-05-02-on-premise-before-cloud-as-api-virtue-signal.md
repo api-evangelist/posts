@@ -9,7 +9,7 @@ tags:
   - Priorities
   - Virtues
   - Investment
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-castle-clouds-green-lawn.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-castle-clouds-green-lawn.jpg
 ---
 I am advising a company who operates outside the United States on the development of suite of enterprise-grade API solutions. One question I had while learning about their offering was whether or not this would be available in the cloud or on-premise. Their product manager confidently responded that they were initially deploying as an on-premise solution because that was what customers and people they were talking to were asking for, and that a cloud version would emerge on the road map when the need arose. This conversation is the opposite of the conversations I’ve been having with API startups over the last decade that emerged from within the US technology echo chamber.
 

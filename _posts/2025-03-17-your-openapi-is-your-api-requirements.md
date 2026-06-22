@@ -9,7 +9,7 @@ tags:
   - Products
   - Business
   - Validation
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-public-market-farmers-market.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/green-circuit-public-market-farmers-market.jpg
 ---
 I spend a lot of time translating Word and PDF documents into machine-readable rules that can be used to validate an API during design, development, and build time. I’ve kind of given up on convincing people that they need to be API design-first. Not that it doesn’t matter, but I feel that it is more of a vendor concept that causes more friction than necessary, and choose to just embrace many of the concepts present in design-first, and explore what are some other ways we can make them appealing to product and engineering stakeholders. To support this, I tend to introduce business and product folks to the importance of an OpenAPI, because it provides them with a stronger vocabulary for getting what they want in the following ways.
 

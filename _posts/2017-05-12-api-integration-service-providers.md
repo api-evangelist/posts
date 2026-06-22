@@ -2,7 +2,7 @@
 layout: post
 title: API Integration Service Providers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/left_hook_custom_integrations_and_worfklow_intelligence.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/left_hook_custom_integrations_and_worfklow_intelligence.png
 atomdate: 2017-05-12T16:00:00.000Z
 tags:
   - Integration

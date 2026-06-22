@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Does It Mean To Be A Google Developer?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google_code.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_code.jpg
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Definitions Covering Both REST and gRPC APIs
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/managing_grpc_apis_with_google_cloud_endpoints_3_638.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/managing_grpc_apis_with_google_cloud_endpoints_3_638.jpg
 atomdate: 2017-03-10 17:00:00+00:00
 tags:
 - Definitions

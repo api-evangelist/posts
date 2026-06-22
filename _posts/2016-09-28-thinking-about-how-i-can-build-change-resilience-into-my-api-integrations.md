@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thinking About How I Can Build Change Resilience Into My API Integrations
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-change-2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-change-2.png
 atomdate: 2016-09-29 00:00:00+00:00
 tags:
 - Change

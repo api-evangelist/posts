@@ -2,14 +2,14 @@
 layout: post
 title: Instapaper Mobile App and API Strategy
 url: http://apievangelist.com/2011/04/28/instapaper-mobile-app-and-api-strategy/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Mobile
   - Strategy
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/instapaper.png)](http://www.instapaper.com/ "Instapaper")Marco Arment creator of [Instapaper](http://www.instapaper.com/ "Instapaper"), is sharing his [thoughts and strategy around the decision to discontinue the free version of the Instaper IPhone application](http://www.marco.org/2011/04/28/removed-instapaper-free).
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/shared/instapaper.png)](http://www.instapaper.com/ "Instapaper")Marco Arment creator of [Instapaper](http://www.instapaper.com/ "Instapaper"), is sharing his [thoughts and strategy around the decision to discontinue the free version of the Instaper IPhone application](http://www.marco.org/2011/04/28/removed-instapaper-free).
 
 A couple months ago he also shared his [thinking behind providing a full read / write API for paid Instaper subscriber accounts](http://blog.instapaper.com/post/3208433429).
 

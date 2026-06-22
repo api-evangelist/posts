@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Someone Please Build My Open, Interactive, Portable, And Visual API Documentation Toolkit
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-interactive-api-docs.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/swagger-interactive-api-docs.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ Let me explain what I would like to see developed for the API space:
 
 *   **API Definition Core -** As we are beginning to see across the space with current interactive API documentation practices, everything needs to be driven by a machine readable API definition, providing a set of instructions for how any user will engage with an API.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/open-fda-endpoint-visualization.png)](https://open.fda.gov/drug/event/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/fda/open-fda-endpoint-visualization.png)](https://open.fda.gov/drug/event/)
 
 *   **Interactive -** In 2014 the bar is already set, and API documentation should be interactive, allowing users to make live calls to a demo, or production API, making learning about an API hands-on experience.
 *   **Inline Code -** The tools are available to generate code samples from Swagger and API Blueprint, and wherever we make an API call, we should also be able see the code for making the call inline, side-by-side with wherever I am engaging with the API—in my language of choice please!
@@ -25,7 +25,7 @@ Let me explain what I would like to see developed for the API space:
 *   **Embeddable -** I enjoy being able to deploy my Swagger UI to any Github repository using Github Pages, and I think portability is essential for the success of API engagement. I want to be able to copy & paste API expressions, visualizations, and other simple, easy to use widgets to any site, anywhere—no coding experience necessary.
 *   **Open Source -** If you are building something like what I’m describing, it really should be open source so that all aspects of it can be reused, by anyone, anywhere. It just doesn’t make sense to be a proprietary, closed solution, and you if are building something in this way you owe me $1 million dollars for my ideas. ;-)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/slate/slate-tripit.png)](https://github.com/tripit/slate)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/slate/slate-tripit.png)](https://github.com/tripit/slate)
 
 API docs have become much more than just API documentation, they have become about API discovery, education, expression, collaborations, and interactions, going way beyond just our grandfathers way of documenting an API. We have the language (Swagger & API Blueprint) to describe our APIs, lets begin providing more meaningful ways to engage with them as well.
 

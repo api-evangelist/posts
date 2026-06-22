@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Common Data Sources To API Definition
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-google-docs.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-google-docs.png
 author:
   name: kinlane
 tags:

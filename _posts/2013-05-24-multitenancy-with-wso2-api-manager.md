@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Multi-Tenancy with WSO2 API Manager
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wso2-multi-tenancy.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/wso2-multi-tenancy.png
 author:
   name: kinlane
 tags:

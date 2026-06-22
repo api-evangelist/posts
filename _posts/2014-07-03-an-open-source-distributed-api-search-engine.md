@@ -2,7 +2,7 @@
 layout: post
 title: An Open Source Distributed API Search Engine
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apis-io/apis-io.png
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/apis-io/apis-io.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ Until 2014, when you said "search for APIs", it meant going to a website ([progr
 
 This is why 3Scale and API Evangelist developed APIs.json, and the first open tooling on top of the API discovery format, we called [APIs.io](http://apis.io/). We do not believe APIs.json + APIs.io is the next Google, but we do feel it will jumpstart the conversation around what is needed when it comes to API discovery. How do we find the best of breed APIs, not just on keyword search in the title and description, or driven from tags? We need a way for API providers to describe their APIs, and supporting building blocks, in a machine readable, distributed way, that can be indexed by many API discovery solutions.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png)](http://apisjson.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json/apisdotjson.png)](http://apisjson.org/)
 
 When searching for APIs, we will need to find specific API interfaces, with very specialized terms of service, and pricing. We will need API rating solutions like [API Rating Agency](http://api500.com/) baked into our API search algorithms. We need an extensible API discovery format, this is APIs.json. We need an open source search engine, that can be deployed as general search engine, or deployed as a specialized, niche, API search engine serving a specific business sector, like government--this is APIs.io.
 

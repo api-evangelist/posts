@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Dream API Sketchbook And Portfolio
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-sketchbook.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-sketchbook.png
 atomdate: 2016-09-19 18:00:00+00:00
 tags: []
 ---

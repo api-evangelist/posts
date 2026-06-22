@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'API Definition Driven UI Elements: Path, Verb, And Tag Autocomplete'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/sms-apisjson-autocomplete.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/sms-apisjson-autocomplete.png
 tags:
 - Definitions
 ---
@@ -9,7 +9,7 @@ I was experimenting with breaking apart [API definitions](http://definitions.api
 
 [Yesterday I published a short piece on API definition driven tag clouds](http://apievangelist.com/2016/03/13/api-definition-driven-visualizations-verb-tag-clouds/), and this morning I have an API definition driven autocomplete text box, providing access to the paths, verbs, or tags present in any single, or multiple OpenAPI Specs that are indexed using APIs.json.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/sms-apisjson-autocomplete.png)](http://sms.stack.network/apisjson/autocomplete/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/sms-apisjson-autocomplete.png)](http://sms.stack.network/apisjson/autocomplete/)
 
 This particular edition of the [API.json and OpenAPI Spec autocomplete](http://sms.stack.network/apisjson/autocomplete/) pulls across the [SMS API providers included in my SMS API research](http://sms.stack.network/apis/), but is something that will be available for any of my research areas, as part of my ever evolving set of APIs.json tooling. I will be building these into my own custom API design tooling, allowing me to quickly recall [the hundreds of endpoints available in my API stack](http://developer.kinlane.com/), as well as learn about [additional API endpoints available in the 3rd party APIs I already depend on](http://stack.apievangelist.com/companies.html).
 

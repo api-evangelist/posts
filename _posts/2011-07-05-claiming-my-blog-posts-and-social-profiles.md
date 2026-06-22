@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Claiming My Blog Posts and Social Profiles
-image: http://kinlane-productions2.s3.amazonaws.com/rellinking.png
+image: https://kinlane-images.s3.amazonaws.com/shared/rellinking.png
 author:
   name: kinlane
 tags:

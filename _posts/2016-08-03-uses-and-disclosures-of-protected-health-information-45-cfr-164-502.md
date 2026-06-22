@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Uses And Disclosures Of Protected Health Information (45 CFR 164.502)
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-social-services-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-social-services-api.png
 author:
   name: kinlane
 tags:

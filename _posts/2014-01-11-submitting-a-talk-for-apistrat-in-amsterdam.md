@@ -2,7 +2,7 @@
 layout: post
 title: 'Submitting A Talk For #APIStrat in Amsterdam'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-john-sheehan.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apistrat-john-sheehan.jpg
 author:
   name: kinlane
 tags:

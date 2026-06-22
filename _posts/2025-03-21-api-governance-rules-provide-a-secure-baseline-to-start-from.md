@@ -8,7 +8,7 @@ tags:
   - Governance
   - Security
   - Pipelines
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-docks-oakland-1.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/citizenship-docks-oakland-1.jpeg
 ---
 The weekly API governance conversation yesterday provided a wealth of insight that I will be looking to amplify as part of my storytelling on API Evangelist. I had ten people come by to discuss topics, with my opening up the conversation around Spectral, Vacuum, Redocly, and APIMATIC rules. I wanted to hear from the community what ruleset, tools, and approaches they were taking, and contrast with the conversations I am having with customers. I heard similar narratives for what rules were being applied, and the tooling they were using in their pipelines as I am seeing within the enterprise, with the following highlights.
 

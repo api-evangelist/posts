@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Guide to Sharing Your Data
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -10,7 +10,7 @@ tags:
 ---
 So you want to share some data-- perhaps out of the goodness of your heart, perhaps it makes you look good or perhaps you're required to do so.
 
-kinlane-productions2.s3.amazonaws.com Whatever the case, sharing your data should be done in such a way so that the data is truly open and accessible. ![](http://kinlane-productions.s3.amazonaws.com/share-data.jpg) **First:**
+kinlane-productions2.s3.amazonaws.com Whatever the case, sharing your data should be done in such a way so that the data is truly open and accessible. ![](https://kinlane-images.s3.amazonaws.com/apievangelist/share-data.jpg) **First:**
 
 Putting data in a PDF does not really constitute opening and sharing your data!
 

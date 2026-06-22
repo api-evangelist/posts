@@ -2,7 +2,7 @@
 layout: post
 title: A Unique and Personal API Onboarding Experience
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wearther2020-globe.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/wearther2020-globe.png
 author:
   name: kinlane
 tags:

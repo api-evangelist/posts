@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My API Evangelist Strategy for 2016
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-strategy.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-strategy.png
 author:
   name: kinlane
 tags:

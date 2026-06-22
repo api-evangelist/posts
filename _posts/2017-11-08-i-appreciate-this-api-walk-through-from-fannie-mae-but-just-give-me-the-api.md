@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'I Appreciate This API Walk Through From Fannie Mae But Just Give Me The API!'
-image: https://s3.amazonaws.com/kinlane-productions2/fannie-mae/fannie-mae-d-messages-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/fannie-mae/fannie-mae-d-messages-api.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/fannie-mae/fannie-mae-d-messages-api.png" align="right" width="45%" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/fannie-mae/fannie-mae-d-messages-api.png" align="right" width="45%" style="padding: 15px;" />
 <p>I came across the new Desktop Underwriter (DU) API from Fannie Mae which provides lenders a comprehensive credit risk assessment data that determines whether a loan meets Fannie Mae’s eligibility requirements. <a href="http://www.buildingoncertainty.com">They have a slick new website for the project</a>, with the tag line “building on certainty”, and <a href="http://fanniemae2.articulate-online.com/p/5070324196/story_html5.html">a smooth HTML story to walk you through what the new DU API</a> can do. While the API seems very exciting, and valuable, the whole production is missing one thing–the API!
 
 <p>I am sure you have to be a partner to get access to the API, but you can tell the whole things is being led by people who have never actually used an API. Otherwise you would give us an API to actually use, and allow us to kick the tires. A hallmark of modern APIs is that you get to play with it. Marketing materials, and a sharp single page application website isn’t enough. We need the documentation, and be able to actually see what the request and response structure is, so that we can better understand the value being generated, and how we will be integrating with it. Without this, there isn’t any value. Of course, you don’t have to make the real API 100% public, you can always create API access tiers, and even deploy a sandboxed or virtualized version of the API and data for new users, protecting your valuable resources–just do not hide the API away from us, and make us consumers beg for access.

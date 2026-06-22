@@ -9,7 +9,7 @@ tags:
   - Reports
   - Dashboards
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-building-crane-concreete.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-building-crane-concreete.jpeg
 ---
 There is a lot to [explore under the hood of Vacuum](https://bit.ly/3WDnhej) as one works to understand how the open-source API governance linting library shifts API governance from 1st gear into 2nd gear, and appears at first glance to give you everything one needs to get out on the freeway and go as fast as you need with your API governance. On feature we find ourselves playing with today is the [report command for Vacuum](https://bit.ly/4hBjl64), which will give you “vacuum-sealed” data for a review of an OpenAPI using Spectral or Vacuum rulesets, with the following benefits.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Another Embeddable Tool That Will Go Down In History: Github Ribbons'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/forkme_right_red.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/forkme_right_red.png
 author:
   name: kinlane
 tags:

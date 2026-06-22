@@ -2,7 +2,7 @@
 layout: post
 title: Baseline for Federal Government Open Data and API Portals
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-portal.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-portal.jpg
 author:
   name: kinlane
 tags:

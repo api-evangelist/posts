@@ -2,7 +2,7 @@
 layout: post
 title: Showcasing Your API Integrations With Other Platforms
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/hall/hall-api-integrations.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/hall/hall-api-integrations.png
 author:
   name: kinlane
 tags:

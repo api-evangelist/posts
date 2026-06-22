@@ -9,7 +9,7 @@ tags:
   - OpenAPI
   - JSON Schema
   - Rules
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-god-talking-statue.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-god-talking-statue.jpeg
 ---
 Continuing to parse the great discussion from the weekly API Evangelist API Governance conversation yesterday, and building on the presentation from Sohaib Tariq of APIMATIC on validating OpenAPIs, I wanted to explore the ways in which we seek to validate things, unpacking what was discussed in the conversation. The definition of validation is, “the action of checking or proving the validity or accuracy of something”. Which depends on who is doing the checking or proving, you will likely get many different perspectives. Let’s look at some of the insights introduced by the guests of the API governance conversation.
 

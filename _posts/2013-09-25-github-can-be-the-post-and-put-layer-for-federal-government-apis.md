@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github Can Be the POST and PUT Layer For Federal Government APIs
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-government.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-government.jpg
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ I'm playing with different approaches to rapidly design, develop, deploy and man
 
 There are just some aspects of a proper API interface that I can't do on Github. My recent prototypes use swagger and allow for much of the API interactions to occur via Github. I a working to carve off any elements I can from the architecture, including using JSON files stored at Github as the database backend for the API.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-government.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-government.jpg)
 
 If you look at my recent [Dev Hub](http://kinlane.github.io/dev-hub/index.html) prototype, you can browse the API interface, thanks to [Swagger](https://developers.helloreverb.com/swagger/), and when you make API calls to the endpoints via Amazon EC2, the REST interface is just acting as a search, filter and REST facade for the JSON files that are actually stored on Github--eliminating the need for a database backend.
 

@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Use APIs.json To Organize My Swagger Defined APIs Running In Docker Containers
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-api-docker.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/swagger-api-docker.png
 author:
   name: kinlane
 tags:

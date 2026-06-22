@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Looking At The 37 Apache Data Projects'
-image: https://s3.amazonaws.com/kinlane-productions2/apache/apache-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/apache/apache-logo.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/apache/apache-logo.png" align="right" width="30%" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apache/apache-logo.png" align="right" width="30%" style="padding: 15px;" />
 <p>I’m spending time investing in <a href="http://data.apievangelist.com">my data</a>, as well as <a href="http://database.apievangelist.com">my database API research</a>. I’ll have guides, with accompanying stories coming out over the next couple weeks, but I want to take a moment to publish some of the raw research that I think paints an interesting picture about where things are headed.
 
 <p>When studying what is going on with data and APIs you can’t do any search without stumbling across an Apache project doing something or other with data. <a href="https://projects.apache.org/projects.html?category">I found 37 separate projects at Apache that were data related</a>, and wanted to publish as a single list I could learn from.

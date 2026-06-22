@@ -6,7 +6,7 @@ tags:
 - '101'
 - Blogs
 - Getting Started
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-nyc-public-library.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/francis-williams-nyc-public-library.jpeg
 ---
 Podcasts are a great way to learn about APIs from people who are producing and consuming APIs withn enterprises and startup organization. There are a number of podcasts available that augment existing blogs and newsletter that we recmmend tuning into to learn more about APIs, but also the impact they have on businesses across many different business sectors.
 

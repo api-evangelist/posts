@@ -7,7 +7,7 @@ tags:
 - '3.2'
 - Tags
 - Domains
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-going-to-dowtown-los-angeles.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-going-to-dowtown-los-angeles.jpg
 ---
 The OpenAPI tagging object is one of the most under utilized objects of the API specification, and one that when used, is something that can have a profoundly positive effect on API experiences ranging from discovery to onboarding to documentation. Tagging as part of OpenAPI artifacts is often used to organize and group API paths as part of API documentation, helping break down large OpenAPI artifacts into more manageable chunks to help reduce the cognitive load. If you are actively using OpenAPI [tagging with 3.1](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md#tag-object), we think you should get involved with [the proposal for 3.2](https://github.com/OAI/OpenAPI-Specification/blob/v3.2-dev/src/oas.md#tag-object), which adds three new properties:
 

@@ -2,20 +2,20 @@
 layout: post
 title: New Pricing for Genability Energy API
 url: http://apievangelist.com/2011/06/30/new-pricing-for-genability-energy-api/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Energy
   - Pricing
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/genability/genability-logo.jpg)](http://www.genability.com/ "Energy pricing data provider Genability")[Energy pricing data provider Genability](http://www.genability.com/ "Energy pricing data provider Genability") just announced the roll-out of more [flexible pricing for their API](https://developer.genability.com/plans-pricing "flexible pricing for their API").
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/genability/genability-logo.jpg)](http://www.genability.com/ "Energy pricing data provider Genability")[Energy pricing data provider Genability](http://www.genability.com/ "Energy pricing data provider Genability") just announced the roll-out of more [flexible pricing for their API](https://developer.genability.com/plans-pricing "flexible pricing for their API").
 
 The new pricing structure gives Genability API developers more options with no long term commitments, when accessing the Genability tariff and electricity pricing database.
 
 [Genability API](https://developer.genability.com/ "Genability API") pricing starts kinlane-productions2.s3.amazonaws.comque tariff credits per month, and will serve up 1,000 calls per hour.
 
-Genability bulk paid plans range from $89.99 / month to $1499.99 a month:![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/genability/genability-pricing.png)
+Genability bulk paid plans range from $89.99 / month to $1499.99 a month:![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/genability/genability-pricing.png)
 
 *   **Bronze for 89.99 / month**, with 100 unique tariff credits per month, and 5,000 calls per hour
 *   **Silver for 299.99 / month**, with 350 unique tariff credits per month, and 20,000 calls per hour

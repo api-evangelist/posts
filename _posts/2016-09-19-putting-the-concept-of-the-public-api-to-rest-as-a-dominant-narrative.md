@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Putting The Concept Of The Public API To Rest As A Dominant Narrative
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dominant-narrative.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-dominant-narrative.png
 atomdate: 2016-09-20 00:00:00+00:00
 tags: []
 ---

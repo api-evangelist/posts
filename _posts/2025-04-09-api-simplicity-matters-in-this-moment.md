@@ -10,7 +10,7 @@ tags:
   - Complexity
   - Sprawl
   - Chaos
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-japanese-cherry-tree.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-japanese-cherry-tree.jpeg
 ---
 Arguing for the simplicity of HTTP APIs seems quaint in the face of so many different protocols in use for APIs as well as the artificial intelligence onslaught, however I would argue that it is even more important in this moment that it ever has been before. The sprawl, chaos, and complexity of your enterpriser API operations represents years of vendor-driven complexity washing up on your enterprise shores and capturing the attention of technologists looking for solutions to very big problems so they can be seen as a hero—-the challenge is now you have been left with trying to keep the ship moving forward. While doing this work, it is important that you strengthen your understanding of why API simplicity matters.
 

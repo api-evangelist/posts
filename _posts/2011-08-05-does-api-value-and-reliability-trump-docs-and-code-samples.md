@@ -3,7 +3,7 @@ layout: post
 title: Does API Value and Reliability Trump Docs and Code Samples?
 url: >-
   http://apievangelist.com/2011/08/05/does-api-value-and-reliability-trump-docs-and-code-samples/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ tags:
   - Docs
   - Code Samples
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Tag-Cloud-Code-Value-Reliability.png)I've written about the [essential building blocks necessary for a successful API](http://apievangelist.com/2011/03/07/api-area-common-building-blocks/ "essential building blocks necessary a successful API"), and there are other great posts like, [What Developers Say About API Documentation](http://blog.programmableweb.com/2011/05/20/what-developers-say-about-api-documentation/ "What Developers Say About API Documentation") from Peter Gruenbaum of [SDK Bridge](http://apievangelist.com/2010/10/09/api-documentation/ "SDK Bridge").
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Tag-Cloud-Code-Value-Reliability.png)I've written about the [essential building blocks necessary for a successful API](http://apievangelist.com/2011/03/07/api-area-common-building-blocks/ "essential building blocks necessary a successful API"), and there are other great posts like, [What Developers Say About API Documentation](http://blog.programmableweb.com/2011/05/20/what-developers-say-about-api-documentation/ "What Developers Say About API Documentation") from Peter Gruenbaum of [SDK Bridge](http://apievangelist.com/2010/10/09/api-documentation/ "SDK Bridge").
 
 Everyone seems pretty unanimous that a RESTful API, with simple and complete documentation, qualitiy code samples in the popular languages, and real API support from the owner and the community are the ingredients for a successful API.
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Web Harvesting to API with Import.io
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/import-io-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/import-io-logo.png
 author:
   name: kinlane
 tags:
@@ -21,7 +21,7 @@ After defining the data that will be extracted, and how it will be store you can
 **Put The Data To Work**  
 Using Import.io you can immediately extract the data you need and get to work, or establish an ongoing connection with your sources of data and use via the Import.io web app or you can manage and access via the [Import.io API](http://docs.import.io/)\--giving you full control over your web harvesting connections, and the resulting data.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/import-io/import-io-connectors.png)](https://import.io "Import.io")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/import-io/import-io-connectors.png)](https://import.io "Import.io")
 
 When getting to work using Import.io, you have the option to build your own connectors or explore a marketplace of existing data connectors, tailored to pull from some common sources like the Guardian or ESPN. The Import.io marketplace of connectors is a huge opportunity for data consumers as well as data scraping junkies (like me) to put their talents to use building unique and desireable data harvesting scripts.
 

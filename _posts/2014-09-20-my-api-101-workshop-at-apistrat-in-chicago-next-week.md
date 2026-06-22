@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My API 101 Workshop At @APIStrat In Chicago Next Week
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-101.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-101.png
 author:
   name: kinlane
 tags:
@@ -48,7 +48,7 @@ Even with the innovation in all of these areas by a handful of tech giants, and 
 *   **[Government](http://apievangelist.com/2014/02/24/the-importance-of-a-government-api-phase/)** - Federal, state, and city governments are opening up data, and APIs at an increasing pace, making some very valuable resources available to developers. Government APIs will be fuel to the app, and its underlying API economy, in coming years.
 *   **[Enterprise](http://apievangelist.com/2014/02/17/what-is-the-next-phase-of-apis/)** - The largest companies in the world are slowly beginning to see the potential of evolving their SOA approach to include an API-centric approach to delivering products and services It will take the enterprise to truly scale the API economy into the next decade. 
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-chicago/api-strategy-practice-chicago-logo.png)](http://www.apistrategyconference.com/2014Chicago/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-chicago/api-strategy-practice-chicago-logo.png)](http://www.apistrategyconference.com/2014Chicago/)
 
 I’d say that we are only 2-4 years into these layers tot he API economy, and there is a ton of work to do. We need leaders in these space to step up and help evangelize a sensible approach to APIs in their industry, but we also need the rest of the API space to be patient, and also contribute to helping guide government of all sizes, large enterprises, and institutions in understanding the tech, business, and politics of APIs.
 

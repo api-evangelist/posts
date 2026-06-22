@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My API Talk at Montgomery County Java User Group in DC
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mcjug_logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mcjug_logo.png
 author:
   name: kinlane
 tags: []

@@ -3,14 +3,14 @@ layout: post
 title: Facebook Mobile Hack Coming To Boston and New York
 url: >-
   http://apievangelist.com/2011/12/22/facebook-mobile-hack-coming-to-boston-and-new-york/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Mobile
   - Facebook
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/facebook/facebook.gif)](http://www.facebook.com/)
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/facebook/facebook.gif)](http://www.facebook.com/)
 
 Facebook just announced that they are hosting Mobile Hacks in Boston and New York:
 

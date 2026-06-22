@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'I Will Be Discussing The Government API Lifecycle At DevNation Federal In DC'
-image: https://s3.amazonaws.com/kinlane-productions2/talks/devnation-federal.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/talks/devnation-federal.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/talks/devnation-federal.png" width="45%" align="right" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/talks/devnation-federal.png" width="45%" align="right" style="padding: 15px;" />
 <p>I’m kicking off a busy week of travel and <a href="https://devnationfederal.org/">talks this week in DC with a discussion about delivering microservices at federal agencies at DevNation Federal on Tuesday, June 5th, 2018</a>. I was invited by <a href="https://www.redhat.com/en">Red Hat</a> to come speak about the work I’m doing as API Evangelist across federal agencies. You can find me in the afternoon lineup, sharing my stories title “The Tech, Business, and Politics of APIs In Federal Government”. Focusing on information gathered as part of my research, workshops, and consulting across the public and private sector.
 
 <p>My talk reflects my work to motivate federal agencies to do APIs over the last five years, and help pollinate the ideas and practices I gather from across the private sector, and understand which ones will work in the public sphere. Not everything about doing APIs at startups and in the enterprise translates perfectly to delivering APIs in the federal government, but there are many practices that will help agencies better serve the people. My goal is to open up discussion with government employees and contractors, to help figure out what works and what doesn’t–sharing stories along the way.

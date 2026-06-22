@@ -7,7 +7,7 @@ tags:
   - Shared
   - Collaboration
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/purple-circuit-japanese-carrying-over-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/purple-circuit-japanese-carrying-over-bridge.jpeg
 ---
 Despite the promise of connectivity and interoperability, technology and APIs have tended to separate us into ideological camps of business and engineering, by programming language, and any other tribal boundary you find in today’s enterprise, leaving a fairly sad state of knowledge and expertise being shared.
 

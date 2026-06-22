@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Public Lands As An Analogy When Talking About Public Data APIs
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/anza_borrego_desert_state_park.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/anza_borrego_desert_state_park.jpg
 atomdate: 2017-05-11 22:00:00+00:00
 tags:
 - Data

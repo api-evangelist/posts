@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Contemplating Hypermedia When My Focus Is On Experience
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-happy-face.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-happy-face.jpeg
 author:
   name: kinlane
 tags:

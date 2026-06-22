@@ -4,7 +4,7 @@ title: >-
   An Example Of Resource Based API Design Over At The Envirofacts Data Service
   API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/280px-Environmental_Protection_Agency_logo.svg.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/280px-Environmental_Protection_Agency_logo.svg.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ A concept I work hard to help API designers and architect adopt is around [exper
 
 When you land on [the Envirofacts Data Service API page](http://www.epa.gov/enviro/facts/services.html), you are given a single base URL to employ when "constructing a search" for the API:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/epa-envirofacts-api-base-url.gif)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/epa-envirofacts-api-base-url.gif)
 
 Ok, not the best API design, a little confusing, but where do I find the list of possible values for every potential path variable? I scroll down and see some examples, but I have to read the opening paragraph again, before I find a link to the data model. Once I click on the text link, I'm faced with 20 separate "tables"--which in reality are 20 separate APIs, all housed under the Envirofacts Data Service API. (who named this??)
 

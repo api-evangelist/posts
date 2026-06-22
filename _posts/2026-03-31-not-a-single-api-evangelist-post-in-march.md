@@ -9,7 +9,7 @@ tags:
   - Storytelling
   - API Evangelist
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-camel-in-desert.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-camel-in-desert.jpg
 ---
 I did not write a single post on API Evangelist in March. I have gone months before without writing a story, but this month is primarily due to artificial intelligence. I am all in on using Claude and Gemini (not so much ChatGPT anymore) to tackle and scale what I am doing at Naftiko. Not because I am an AI believer, but I need to understand how it works, and how my customers and partners are putting to work. But as I close out the month, I can confidently say I was able to automate and scale what I delivered for Naftiko, but I failed completely at delivering anything that Kin Lane or API Evangelist needed on the personal and professional front due to AI.
 

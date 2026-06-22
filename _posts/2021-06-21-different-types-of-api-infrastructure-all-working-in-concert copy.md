@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'The Different Ways to Engage with the OpenAPI Specification'
-image: https://kinlane-productions2.s3.amazonaws.com/openapi-screenshot-06-2021.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/openapi-screenshot-06-2021.png
 ---
 <p><img src="{{ page.image }}" width="45%" align="right" style="padding: 15px;"></p>
 

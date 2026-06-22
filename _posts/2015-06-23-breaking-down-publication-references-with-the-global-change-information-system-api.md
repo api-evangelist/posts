@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Breaking Down Publication References With The Global Change Information System API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Global-Change-Information-System-GCIS-home.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Global-Change-Information-System-GCIS-home.png
 author:
   name: kinlane
 tags:

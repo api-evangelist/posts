@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Any Way You Want It: Extending Swagger UI for Fun and Profit by Kyle Shockey'
-image: https://s3.amazonaws.com/kinlane-productions2/events/apistrat-2018/kyle-shocky-smarbear.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/events/apistrat-2018/kyle-shocky-smarbear.jpeg
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/events/apistrat-2018/kyle-shocky-smarbear.jpeg" width="45%" align="right" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/events/apistrat-2018/kyle-shocky-smarbear.jpeg" width="45%" align="right" style="padding: 15px;" />
 <p>We are getting closer to <a href="https://events.linuxfoundation.org/events/apistrat-2018/">the 9th edition of APIStrat happening in Nashville, TN this September 24th through 26th</a>. <a href="https://events.linuxfoundation.org/events/apistrat-2018/program/schedule/">The schedule for the conference is up</a>, along with <a href="https://events.linuxfoundation.org/events/apistrat-2018/program/keynote_speakers/">the first lineup of keynote speakers</a>, and my drumbeat of stories about the event continues here on the blog. Next up in our session lineup is <em>“Any Way You Want It: Extending Swagger UI for Fun and Profit”</em> by Kyle Shockey (@kyshoc) of SmartBear Software (@SmartBear) on September 25th.
 
 <p>Here is Kyle’s abstract for the session:

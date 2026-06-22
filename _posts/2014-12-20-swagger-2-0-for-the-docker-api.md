@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Swagger 2.0 For The Docker API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/docker-swagger.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/docker-swagger.png
 author:
   name: kinlane
 tags:

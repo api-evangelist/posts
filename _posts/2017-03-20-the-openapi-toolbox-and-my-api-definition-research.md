@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The OpenAPI Toolbox And My API Definition Research
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/open_api_toolbox_icons.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/open_api_toolbox_icons.png
 atomdate: 2017-03-21 00:00:00+00:00
 tags:
 - OpenAPI

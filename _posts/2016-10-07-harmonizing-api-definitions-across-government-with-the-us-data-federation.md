@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Harmonizing API Definitions Across Government With The U.S. Data Federation
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/usdf_logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/usdf_logo.png
 atomdate: 2016-10-07 18:00:00+00:00
 tags:
 - Definitions

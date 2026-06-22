@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Sharing Top Sections From Your API Documentation As Part Of Your'
-image: https://s3.amazonaws.com/kinlane-productions2/amazon/top-aws-iam-documentation-pages-so-far-in-2017.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/top-aws-iam-documentation-pages-so-far-in-2017.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/amazon/top-aws-iam-documentation-pages-so-far-in-2017.png" align="right" width="40%" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/top-aws-iam-documentation-pages-so-far-in-2017.png" align="right" width="40%" style="padding: 15px;" />
 <p>I’m always learning from the API communication practices from out of the different AWS teams. From <a href="http://communications.apievangelist.com/2016/10/04/amazon-alexa-as-an-example-when-it-comes-to-api-communications/">the regular storytelling coming out of the Alexa team</a>, to the <a href="https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/">mythical tales of leadership at AWS that have contributed to the platform’s success</a>, the platform provides a wealth of examples that other API providers can emulate.
 
 <p>As I talked about last week, <a href="http://apievangelist.com/2017/09/29/developing-an-ability-to-repeat-the-same-api-stories-over-and-over-you-are-going-to-need-it/">finding creative ways to keep publishing interesting content to your blog as part of your API evangelism and communications strategy is hard</a>. It is something you have to work at. One way I find inspiration is by watching the API leaders, and learning from what they do. An interesting example I recently found out of the AWS security team, <a href="https://aws.amazon.com/blogs/security/the-top-20-aws-iam-documentation-pages-so-far-in-2017/">was their approach to showcasing the top 20 AWS IAM documentation pages so far in 2017</a>. It is a pretty simple, yet valuable way to deliver some content for your readers, that can also help you expose the dark corners of your API documentation, and other resources on your blog.

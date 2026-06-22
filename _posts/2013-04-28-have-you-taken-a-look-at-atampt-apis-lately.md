@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Have You Taken A Look At AT&amp;T APis Lately?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/att-developer-program-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/att-developer-program-logo.png
 author:
   name: kinlane
 tags:

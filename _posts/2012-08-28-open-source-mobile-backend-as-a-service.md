@@ -2,7 +2,7 @@
 layout: post
 title: Open Source Mobile Backend as a Service
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Mobile
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Mobile
   Backend as a Service.png
 author:
   name: kinlane

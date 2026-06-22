@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Helping Carry The Load When It Comes To Public Data And APIs
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/carryload_diego_rivera1.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/carryload_diego_rivera1.jpg
 atomdate: 2017-02-07 23:00:00+00:00
 tags:
 - Data

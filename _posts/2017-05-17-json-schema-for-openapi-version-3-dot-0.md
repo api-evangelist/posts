@@ -2,7 +2,7 @@
 layout: post
 title: JSON Schema For OpenAPI Version 3.0
 date: 2017-05-17T09:00:00.000Z
-image: https://s3.amazonaws.com/kinlane-productions2/json/json-schema.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/json/json-schema.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My One Piece Of Advice To Next Generation of API Evangelists Is To Take Care Of Yourself
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-drinking.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-drinking.jpg
 tags:
 - API Evangelist
 - Evangelist

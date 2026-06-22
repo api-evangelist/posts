@@ -11,7 +11,7 @@ tags:
   - Ratings
   - Videos
   - Blogs
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-british-guards-marching.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-british-guards-marching.jpg
 ---
 When implementing API governance a lot of attention gets paid to the technical surrounding the API, while investing in the team behind an API will also help standardize and deliver more consistent and high quality APIs. People tend to take more pride in their work when they are acknowledged and showcased for that work, which can be easily baked into the overall API governance process, schema, and rules to help automate the elevation of teams behind APIs using these mechanisms.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The API Pipes, From Resource to Last Mile
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-resource-to-last-mile.png
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/apis-resource-to-last-mile.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ This post is more rant, and about me working through my thoughts on this subject
 
 Meir kicks up a bunch of thoughts related to how I perceive my role in the API space, which I believe is to help keep a certain amount of oxygen (aka open) present in the space, which I believe is the key ingredient in why the expirement we know as APIs is working.  At first glance, API Evangelist looks like just a blog, but in reality it is a pretty complex system of data stores, API connectors, jobs and curation that I'm using to help draw a map of the API space that I can follow. Currently it looks something like this:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apis-resource-to-last-mile.png)](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apis-resource-to-last-mile.png)
+[![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/apis-resource-to-last-mile.png)](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/apis-resource-to-last-mile.png)
 
 The way I see the space, is there are a shitload of resources, awaiting to be exposed via APIs that are both public and private resources. The stewards of these resources have the ability to select from tools and resources to deploy their API resources, using various building blocks for accomplishing this.
 

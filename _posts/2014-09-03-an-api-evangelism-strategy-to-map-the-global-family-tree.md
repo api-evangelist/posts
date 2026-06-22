@@ -2,7 +2,7 @@
 layout: post
 title: An API Evangelism Strategy To Map The Global Family Tree
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/250px-FamilySearch_logo.svg.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/250px-FamilySearch_logo.svg.png
 author:
   name: kinlane
 tags:

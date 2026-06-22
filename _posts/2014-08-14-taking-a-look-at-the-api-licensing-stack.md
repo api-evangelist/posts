@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Taking A Look At The API Licensing Stack
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-onion.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-onion.png
 author:
   name: kinlane
 date: 2014-08-14 03:42:52+00:00

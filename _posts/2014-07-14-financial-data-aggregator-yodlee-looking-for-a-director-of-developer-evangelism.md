@@ -4,7 +4,7 @@ title: >-
   Financial Data Aggregator Yodlee Looking For A Director of Developer
   Evangelism
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/yodlee/yodlee-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/yodlee/yodlee-logo.jpeg
 author:
   name: kinlane
 tags:

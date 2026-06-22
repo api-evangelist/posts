@@ -3,7 +3,7 @@ published: true
 layout: post
 title: I Got Swagger.ed Last Week, And Now I Am Seeing API Visualizations
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swaggerLogo360.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/swaggerLogo360.png
 author:
   name: kinlane
 tags:
@@ -15,11 +15,11 @@ Some of the side effects of being so open and transparent about my ideas, like [
 
 Last week Chris Spiliotopoulos ([@chefarchitect](https://twitter.com/chefarchitect)) sent me an email, with a [simple Chrome extension](https://github.com/chefArchitect/swagger.ed) attached, asking what I thought. After installing the add-on (just drag onto your Chrome extension page), I visited [my notebook of Swagger defined APIs over at API Stack](https://github.com/kinlane/api-stack/tree/gh-pages/data), and when Twilio’s Swagger definition loaded in the browser, I saw a little Swagger icon show up in my browsers address bar—you know kind of like when there is an RSS feed available.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger-ed/swagger-ed-address-bar.png)](https://github.com/chefArchitect/swagger.ed)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger-ed/swagger-ed-address-bar.png)](https://github.com/chefArchitect/swagger.ed)
 
 I click on the icon, and a new layer to my browser opens up, with a simple, crude, yet potentially powerful visualization of Twilio’s API surface area.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger-ed/swagger-ed-visualization-1.png)](https://github.com/chefArchitect/swagger.ed)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger-ed/swagger-ed-visualization-1.png)](https://github.com/chefArchitect/swagger.ed)
 
 Honestly, the visualization does little for sorting out the complexities of the API, but it demonstrates a possible future, where we can browse the Internet, stumble across APIs, and their machine readable definitions, and open up an entirely new, visual layer that helps us quantify, and make sense of what an API does. APIs are a very abstract concept, and helping developers understand the scope and value of an API can be difficult, the introduction of API definition driven visualizations go a long way in helping speed up the conversation.
 

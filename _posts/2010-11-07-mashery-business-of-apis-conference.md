@@ -2,7 +2,7 @@
 layout: post
 title: Mashery Business of APIs Conference
 url: http://apievangelist.com/2010/11/07/mashery-business-of-apis-conference/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I attended [Mashery's Business of APIs Conference](http://apiconference.com/) in
 
 The event was kicked off with a complete history of APIs from Oren Michels the CEO of Mashery. Michels took us from pre-Internet examples of APIs through eBay pioneering in the space, the mashup explosion and to present day.
 
-kinlane-productions2.s3.amazonaws.com Then Mike Hart, Director of Engineering at Netflix, gave a talk on the evolution of its API strategy from crowd-sourced innovation to its API enabling it to deliver Netflix on 200 individual devices. APis definitely played a part in Netflix out-maneuvering Blockbuster in the online movie space. ![](http://kinlane-productions.s3.amazonaws.com/events/Business-of-APIs-2010.jpg) After Hart we heard from Danny Boice, from [College Board](http://www.collegeboard.com) who talked about his challenges around internally selling an API strategy and ultimately building a successful API. Boice delivers an entertaining story of his battle to convince his organization to use APIs.
+kinlane-productions2.s3.amazonaws.com Then Mike Hart, Director of Engineering at Netflix, gave a talk on the evolution of its API strategy from crowd-sourced innovation to its API enabling it to deliver Netflix on 200 individual devices. APis definitely played a part in Netflix out-maneuvering Blockbuster in the online movie space. ![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/Business-of-APIs-2010.jpg) After Hart we heard from Danny Boice, from [College Board](http://www.collegeboard.com) who talked about his challenges around internally selling an API strategy and ultimately building a successful API. Boice delivers an entertaining story of his battle to convince his organization to use APIs.
 
 Then the event went into series of rapid fire case studies from:
 

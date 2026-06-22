@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mashery Open Sources Their API I/O Docs
-image: https://kinlane-productions2.s3.us-east-1.amazonaws.com/mashery/masher-io-docs.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/mashery/masher-io-docs.png
 author:
   name: kinlane
 tags:

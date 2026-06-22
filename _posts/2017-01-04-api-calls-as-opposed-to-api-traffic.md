@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Calls as Opposed to API Traffic
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-traffic-light.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-traffic-light.png
 atomdate: 2017-01-04 17:00:00+00:00
 tags:
 - API Evangelist

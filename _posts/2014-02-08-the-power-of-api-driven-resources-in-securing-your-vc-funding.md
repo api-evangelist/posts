@@ -2,7 +2,7 @@
 layout: post
 title: The Power of API Driven Resources In Securing Your VC Funding
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/paynearme/paynearme.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/paynearme/paynearme.png
 author:
   name: kinlane
 tags:

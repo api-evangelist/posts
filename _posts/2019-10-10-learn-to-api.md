@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Learn to API
-image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/udnie-DSC_0109.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/udnie-DSC_0109.jpg
 author:
   name: kinlane
 tags:

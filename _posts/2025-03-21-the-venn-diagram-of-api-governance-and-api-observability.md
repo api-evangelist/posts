@@ -13,7 +13,7 @@ tags:
   - SLA
   - SLO
   - SLI
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/norman-rockwell-ruby-bridges-nyc-57th-3.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/norman-rockwell-ruby-bridges-nyc-57th-3.jpeg
 ---
 Continuing to parse the great discussion from the weekly API Evangelist API Governance conversation yesterday, and building on the presentation from Paul Bruce on observability, I want to further process what I learned. Paul does a great job of making the overlap between API governance and API observability, well….observable. Paul distills down several definitions, eventually getting us to the fact that we are trying to “understand how the components, the infrastructure and the data all contribute to achieving a business outcome or objective”.  You’ll have to listen to the full discussion, but a few of the takeaways for me regarding the overlap of API observability and governance were:
 

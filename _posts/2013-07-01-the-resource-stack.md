@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Resource Stack
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Stack-Colored.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/API-Stack-Colored.png
 author:
   name: kinlane
 tags: []

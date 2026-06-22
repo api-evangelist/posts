@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Working To Establish A Complete OpenAPI Spec For Leading APIs
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -15,19 +15,19 @@ In most cases I only have the time to profile the surface area of an API -- the 
 
 Thankfully in addition to investing in this work myself, I am also getting the assistance of my partners like [Dream Factory](http://apis.how/bgdteovduo), who are interested in getting specific API definitions completed, and make sure they have complete API definitions for the leading APIs out there today. Here are a handful of them I'm working on producing this week:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/angellist.png)](http://angellist.stack.network/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/angellist.png)](http://angellist.stack.network/)
 
 [**AngelList**](http://angellist.stack.network/) - Working to define all the endpoints for the startup, and investment platform API.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/alchemy-api-logo.png)](http://alchemy.stack.network/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/alchemy-api-logo.png)](http://alchemy.stack.network/)
 
 [**Alchemy**](http://alchemy.stack.network/) - Working to define all the endpoints for the machine learning API.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/CenturyLinkLabsLogo.png)](http://century.link.stack.network/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/CenturyLinkLabsLogo.png)](http://century.link.stack.network/)
 
 [**Century Link**](http://century.link.stack.network/) - Working to define all the endpoints for the cloud computing API.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ntt-docomo-logo.png)](http://docomo.stack.network/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/ntt-docomo-logo.png)](http://docomo.stack.network/)
 
 [**Docomo**](http://docomo.stack.network/) - Working to define all the endpoints for the telco, image, machine learning API.
 
@@ -35,11 +35,11 @@ Thankfully in addition to investing in this work myself, I am also getting the a
 
 [**Stipe**](http://stripe.stack.network/) - Working to define all the endpoints for the payment API.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png)](http://twilio.stack.network/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/twilio-logo.png)](http://twilio.stack.network/)
 
 [**Twilio**](http://twilio.stack.network/) - Working to define all the endpoints for the voice & messaging API.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/vzlogo_lg.png)](http://verizon.stack.network/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/company/logos/vzlogo_lg.png)](http://verizon.stack.network/)
 
 [**Verizon**](http://verizon.stack.network/) - Working to define all the endpoints for their Internet of Things (IoT) API.
 

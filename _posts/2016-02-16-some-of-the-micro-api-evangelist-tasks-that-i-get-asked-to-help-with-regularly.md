@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some Of The Micro API Evangelist Tasks That I Get Asked To Help With Regularly
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ Getting your community to help out with tasks on your platform is nothing new. T
 
 As I was exploring these concepts with fellow evangelist, soliciting ideas for what some of the common tasks evangelist might need, someone brought up how sleezy this sounds. Are you going to give away swag, gift cards, or money for these tasks? Are you going to do it for points? I agree, on the surface, when you describe it like that, it does sound cheezy, if not sleezy. Then I got thinking about the micro transactions and tasks people ask of me on a regular basis--things like:
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-task-list.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-task-list.png)
 
 *   Writing Blog Posts
 *   Retweeting a Link

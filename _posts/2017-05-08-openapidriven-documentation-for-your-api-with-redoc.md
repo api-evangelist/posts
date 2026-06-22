@@ -2,7 +2,7 @@
 layout: post
 title: OpenAPI-Driven Documentation For Your API With ReDoc
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/redoc/redoc-demo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/redoc/redoc-demo.png
 atomdate: 2017-05-08T20:00:00.000Z
 tags:
   - OpenAPI

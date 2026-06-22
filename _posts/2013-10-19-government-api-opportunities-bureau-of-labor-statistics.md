@@ -2,7 +2,7 @@
 layout: post
 title: 'Government API Opportunities: Bureau of Labor Statistics'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bureau-of-labor-statistics-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bureau-of-labor-statistics-logo.png
 author:
   name: kinlane
 tags:

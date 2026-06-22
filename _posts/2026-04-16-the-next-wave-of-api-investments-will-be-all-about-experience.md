@@ -8,7 +8,7 @@ tags:
     - Capabilities
     - OpenAPI
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-hallelujah-junction.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-hallelujah-junction.jpeg
 ---
 I was publishing the [Naftiko Capabilities I had generated from the 36 Palo Alto Networks OpenAPIs](https://github.com/api-evangelist/palo-alto-networks?tab=readme-ov-file#naftiko-capabilities). Before I generated these capabilities I [generated a standardized set of Spectral rules](https://github.com/api-evangelist/palo-alto-networks?tab=readme-ov-file#spectral-rules) based upon the most common patterns present across Palo Alto Networks APIs. After generating the capabilities, I realized that the capabilities were still oriented based upon how APIs are defined and organized by Palo Alto Networks, and opted to group them based upon how the capabilities would be applied.
 

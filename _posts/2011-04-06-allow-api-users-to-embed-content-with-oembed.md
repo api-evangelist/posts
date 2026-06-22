@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Allow API Users to Embed Content with oEmbed
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ Now the content "consumer" can take returned inkinlane-productions2.s3.amazonaws
 
 This is just a simple example of using oEmbed to display a Flickr image, much more is possible with [oEmbed](http://woorkup.com/2010/01/16/emerging-techniques-every-web-developer-should-know/ "oEmbed").
 
-Some oEmbed providers include:![](http://kinlane-productions.s3.amazonaws.com/oembed/oEmbed.jpg)
+Some oEmbed providers include:![](https://kinlane-images.s3.amazonaws.com/apievangelist/oembed/oEmbed.jpg)
 
 *   [YouTube](http://www.youtube.com/ "Youtube")
 *   [Flickr](http://www.flickr.com/ "Flickr")

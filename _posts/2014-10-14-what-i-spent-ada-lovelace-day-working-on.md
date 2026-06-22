@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What I Spent Ada Lovelace Day Working On
-image: https://s3.amazonaws.com/kinlane-productions2/ada-lovelace/ada-lovelace-1.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/ada-lovelace/ada-lovelace-1.jpeg
 author:
   name: kinlane
 tags:

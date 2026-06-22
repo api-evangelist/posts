@@ -14,7 +14,7 @@ tags:
   - Usage
   - Invoicing
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-statue-capital-cannon.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-statue-capital-cannon.jpg
 ---
 We are seeing an uptick in conversations around API service composition, monetization, and value exchange. This business side of API operations has been part of the narrative here on API Evangelist since 2010, but it is one that often a conversation that often gets lost in the shuffle towards the latest shiniest object and trend. With the increased appetite of AI platforms for data and content, we are getting a lot more inquiries around how to generate value with APIs, but more specifically, how to protect the value that already exists using APIs. Here are the properties of API management that we would have recommended in 2010, and here are the properties of API management we recommend in 2025.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Solving The Problem Of API Discovery
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-discovery.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-api-discovery.png
 author:
   name: kinlane
 tags:

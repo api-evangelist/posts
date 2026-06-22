@@ -2,7 +2,7 @@
 layout: post
 title: An API For API Ideas
 url: http://apievangelist.com/2014/07/04/an-api-for-api-ideas/
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-light-bulb-bright.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-light-bulb-bright.png
 author:
   name: kinlane
 tags:

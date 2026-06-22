@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hey, Why Isn&#039;t This (API) Free
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/inbox-app/inbox-app-api-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/inbox-app/inbox-app-api-logo.png
 author:
   name: kinlane
 tags:

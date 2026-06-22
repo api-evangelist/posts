@@ -6,7 +6,7 @@ tags:
   - Enterprise Persona
   - Technical
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-japanese-carrying-over-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/green-circuit-japanese-carrying-over-bridge.jpeg
 ---
 The current state of technology within these enterprises is almost always the same, with well-meaning and smart people working hard over the years to deliver what is needed within any given moment, but have also picked their head up to realize that this work isn’t sustainable, and needs help getting back on track.
 

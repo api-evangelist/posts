@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Do You Know When A Swagger API Definition is Complete?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round-certified.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-swagger-round-certified.png
 author:
   name: kinlane
 tags:

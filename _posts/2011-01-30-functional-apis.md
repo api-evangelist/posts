@@ -2,13 +2,13 @@
 layout: post
 title: Functional APIs
 url: http://apievangelist.com/2011/01/30/functional-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - APIs
 ---
-APIs are not just for exchanging of [data](http://www.kinlane.com/category/data-20/). They provide much needed functionality for developers and integrators. ![](http://kinlane-productions2.s3.amazonaws.com/clock_gears.jpg) The functionality of an API can provide shipping costs as the [Fedex API](http://fedex.com/us/developer/) does, or provide you with directions from San Francisco, CA to New York, NY as with the [Google Maps API](http://code.google.com/apis/maps/index.html).
+APIs are not just for exchanging of [data](http://www.kinlane.com/category/data-20/). They provide much needed functionality for developers and integrators. ![](https://kinlane-images.s3.amazonaws.com/apievangelist/clock_gears.jpg) The functionality of an API can provide shipping costs as the [Fedex API](http://fedex.com/us/developer/) does, or provide you with directions from San Francisco, CA to New York, NY as with the [Google Maps API](http://code.google.com/apis/maps/index.html).
 
 Functional APIs can, as the name suggests, provide much needed functionality to users that might be very costly or impossible for them to implement on their own.
 

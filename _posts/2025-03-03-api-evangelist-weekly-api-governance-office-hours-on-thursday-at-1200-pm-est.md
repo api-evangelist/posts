@@ -7,7 +7,7 @@ tags:
   - Governance
   - Meetings
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-san-francisco-wharf-clock.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-san-francisco-wharf-clock.jpg
 ---
 I have been planning on adding weekly public office hours to help drive a discussion around the API governance needs of the community since the beginning of the year. I was struggling getting some customers to agree on participating in a public discussion versus paid private sessions, but we’ll just go ahead and get things rolling while they work things out. With this in mind, I am officially adding to the weekly schedule, **API Evangelist API Governance Office Hours each Thursday at 12:00 PM EST**. I don’t want to inject too much into the agenda, and would prefer hearing from the community, but to kick things off, I propose the following.
 

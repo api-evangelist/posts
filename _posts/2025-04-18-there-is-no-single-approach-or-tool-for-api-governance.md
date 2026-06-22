@@ -9,7 +9,7 @@ tags:
   - Tools
   - Education
   - Training
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-railroad-tracks-rocks.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-railroad-tracks-rocks.jpeg
 ---
 It is always interesting to come up against the anti-education and anti-skills sentiment that often exists around the tech sector. It is a world where services and tools are valued and prioritized over skills and experience. My approach to APIs is always to try and help increase what people’s knowledge and awareness of APIs as well as how they work, so that they can tackle problems in their world. My approach to APIs is much like my approach to education in general, that we should be teaching people to learn and think for themselves, not just team them how to use specific services and tooling. 
 

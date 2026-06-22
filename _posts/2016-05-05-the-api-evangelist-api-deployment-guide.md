@@ -2,7 +2,7 @@
 layout: post
 title: The API Evangelist API Deployment Guide
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/whitepapers/deployment/api-evangelist-api-deployment-guide-may-2016-cover.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/whitepapers/deployment/api-evangelist-api-deployment-guide-may-2016-cover.png
 tags:
   - Deployment
   - API Evangelist

@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: The Power In API Discovery For APIs.json Will Be In The API URL Type
-image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apis-json-gears.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json/apis-json-gears.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Trusted Github Authentication Layer For API Management
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-github.png
 atomdate: 2016-09-21 00:00:00+00:00
 tags:
 - Github

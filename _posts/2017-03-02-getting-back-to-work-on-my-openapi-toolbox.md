@@ -14,11 +14,11 @@ Here is a snapshot of my toolbox of [OpenAPI](https://www.openapis.org/)\-driven
 
 Here are the tools organized by type of implementation (something that is evolving quickly):
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-documentation-interactive.png)](http://openapi.toolbox.apievangelist.com/documentation/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-documentation-interactive.png)](http://openapi.toolbox.apievangelist.com/documentation/)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-general-gear.png)](http://openapi.toolbox.apievangelist.com/generators/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-general-gear.png)](http://openapi.toolbox.apievangelist.com/generators/)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-servers.png)](http://openapi.toolbox.apievangelist.com/servers/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-servers.png)](http://openapi.toolbox.apievangelist.com/servers/)
 
 [**Documentation**](http://openapi.toolbox.apievangelist.com/documentation/)
 
@@ -26,9 +26,9 @@ Here are the tools organized by type of implementation (something that is evolvi
 
 [**Servers**](http://openapi.toolbox.apievangelist.com/servers/)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-client.png)](http://openapi.toolbox.apievangelist.com/clients/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-client.png)](http://openapi.toolbox.apievangelist.com/clients/)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-ide-api.png)](http://openapi.toolbox.apievangelist.com/editors/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-ide-api.png)](http://openapi.toolbox.apievangelist.com/editors/)
 
  
 

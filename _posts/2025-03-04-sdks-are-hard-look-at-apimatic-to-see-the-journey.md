@@ -10,7 +10,7 @@ tags:
   - Generation
   - Publishing
   - Automation
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-desert-road-mountains.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-desert-road-mountains.jpg
 ---
 The SDK market is hot right now. If you look at the number of new services emerging and open-source tooling out there, one can conclude that the need for SDKs is blowing up. Clearly the API landscape has exploded and the need to generate code is increasing. I can only anecdotally speak to this based upon the number of SDK vendors I have in my inbox asking to sponsor the site. While unfortunate I can’t take their money, I am happy with the existing [SDK partnership with APIMATIC](https://bit.ly/3UFE1AP), who I have worked with for a decade. The one thing I will share with those producing new SDK generation tooling is that you have a long journey ahead of you, and there is more to it than you can imagine, but thankfully you can find the clues in APIMATIC’s journey to understand where you will need to go, but also where APIMATIC has already been.
 

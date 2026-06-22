@@ -3,10 +3,10 @@ layout: post
 title: 'Brochure &amp; Flyer Printer with Box.net and Mimeo Connect'
 source: http://apievangelist.com/2011/04/30/brochure--flyer-printer-with-boxnet-and-mimeo-connect/
 domain: apievangelist.com
-image: http://kinlane-productions.s3.amazonaws.com/cloud-storage/Box-logo-new.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/cloud-storage/Box-logo-new.jpg
 ---
 
-<img src="http://kinlane-productions.s3.amazonaws.com/cloud-storage/Box-logo-new.jpg" alt="" width="200" align="right" />
+<img src="https://kinlane-images.s3.amazonaws.com/shared/cloud-storage/Box-logo-new.jpg" alt="" width="200" align="right" />
 <p></p>
 As the <a title="Mimeo.com" href="http://www.mimeo.com">Mimeo.com</a> API Evangelist one of my jobs is to find other platforms, services and technology that goes well with the <a title="Mimeo Connect Cloud Print API" href="http://developer.mimeo.com">Mimeo Connect Cloud Print API</a>.
 <p></p>
@@ -27,7 +27,7 @@ An important part of this application is a callback URL for when users first add
 <p></p>
 Another important part of each application are whats called <em>service actions</em>.  Service actions which will show up for any user who adds this application to their Box.net account from OpenBox.  For my Open Box Application I create a new service action:
 <p></p>
-<img src="http://kinlane-productions.s3.amazonaws.com/Box.net/Open-Box.png" alt="" width="250" align="right" />
+<img src="https://kinlane-images.s3.amazonaws.com/shared/Box.net/Open-Box.png" alt="" width="250" align="right" />
 <ul class="blue">
 	<li>Give Application Service Action a title like, <strong><em>Print Flyer @ Mimeo</em></strong></li>
 	<li>Choose which document extensions my printer supports, PDF for now</li>

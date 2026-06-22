@@ -2,7 +2,7 @@
 layout: post
 title: Delivering API Docs Using OpenAPI Spec Driven Templates For Angular
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/REST_API_Documentation_-_Sandbox.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/REST_API_Documentation_-_Sandbox.png
 atomdate: 2016-08-22T18:00:00.000Z
 tags:
   - OpenAPI

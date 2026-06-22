@@ -13,7 +13,7 @@ tags:
   - Artifacts
   - Integrations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-old-time-cash-register.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-old-time-cash-register.jpg
 ---
 I enjoy reviewing APIs. I'm good at it. Over 15 years, I've developed a rich and proven API discovery and profiling process. Recently, folks at Avalara reached out to me about my API Evangelist Postman Workspace. This happens regularly, as I've created many workspaces to seed the Postman Network over the years. Beyond the workspace, they asked for a general review of their approach—something I welcome because I want them profiled for API Evangelist, APIs.io, and now Naftiko. It also gives me an opportunity to think more deeply about what matters for our API presence in this modern era, circa 2025.
 

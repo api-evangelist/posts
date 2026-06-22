@@ -8,7 +8,7 @@ tags:
   - JSON Schema
   - APIs.json
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-sailboat-under-bay-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-sailboat-under-bay-bridge.jpeg
 ---
 There is a lot of talk about API drift in the tech blogosphere and from API service providers. API drift is what occurs between the moment you craft the business requirements for an API to the moment it is pushed into production and made available for consumers. API drift refers to how close or how far away the original API requirements are from what is accessible in production. API drift can happen over the course of developing a single version of an API as well as multiple versions of an API. There are many reasons that will contribute this depending on how an enterprise produces APIs, but here are the most common contributors.
 

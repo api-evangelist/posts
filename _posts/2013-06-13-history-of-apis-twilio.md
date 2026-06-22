@@ -2,7 +2,7 @@
 layout: post
 title: History of APIs - Twilio
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twilio-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twilio-logo.jpeg
 author:
   name: kinlane
 tags:

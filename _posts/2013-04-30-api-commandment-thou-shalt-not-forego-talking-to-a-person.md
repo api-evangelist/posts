@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'API Commandment: Thou Shalt Not Forego Talking to a Person'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-in-api-we-trust-trimmed.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-in-api-we-trust-trimmed.png
 author:
   name: kinlane
 tags:

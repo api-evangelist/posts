@@ -8,7 +8,7 @@ tags:
   - Evangelism
   - Experiences
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-brooklyn-bridge-traffic.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-brooklyn-bridge-traffic.jpeg
 ---
 It is easy for API governance to become the bottleneck in API operations, especially when an API review is a face-to-face gate that is required before someone can move their API beyond any development stage. Depending on the scope of an API and the skills and preparedness of the team developing the API, but also the maturity of your API governance program, your API governance and specifically the concept of the API review can become a serious bottleneck that will give API governance a bad reputation within your enterprise. There are multiple ways you can work to mitigate your API governance becoming a bottleneck with teams depending on the shape and culture of your enterprise, but we recommend beginning with investing in the following.
 

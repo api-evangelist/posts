@@ -11,7 +11,7 @@ tags:
   - Overlays
   - MCP
   - A2A
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-nyc-people-marketplace.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-nyc-people-marketplace.jpeg
 ---
 Technologists are good at seeing and building technology, but aren’t so good at seeing the business things. We’d rather invent entirely new specifications and approaches to things rather than having to actually sit down with other human beings and learn about how business works. After 165 Breaking Changes Episodes and 100+ enterprise conversations at Postman, and spending a year in the trenches at Bloomberg, I can confidently say that the single greatest reason API operations is in the sprawling state of chaos it is today is due to the lack of business alignment with how APIs are done. Yet, we keep thinking that if we just throw some more technology at the problem, eventually we are going to fix it.
 

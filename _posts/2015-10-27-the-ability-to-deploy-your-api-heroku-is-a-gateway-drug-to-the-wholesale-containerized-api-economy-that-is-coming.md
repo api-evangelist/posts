@@ -4,7 +4,7 @@ title: >-
   The Ability To Deploy Your API Heroku Is A Gateway Drug To The Wholesale,
   Containerized API Economy That Is Coming
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/secure-db-on-premise.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/secure-db-on-premise.png
 author:
   name: kinlane
 tags:

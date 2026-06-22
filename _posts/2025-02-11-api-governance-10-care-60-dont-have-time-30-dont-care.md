@@ -7,7 +7,7 @@ tags:
   - Politics
   - Guidance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-angry-king-crown.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-angry-king-crown.jpeg
 ---
 When you crunch the number of visits, engagement, and contribution across the self-service aspects of your API governance, and then you do the diff with the conversations and feedback at API governance reviews, you begin to get a better understanding of the state of API operations. The people who read and put the self-service documentation to work, but also then show up to API reviews prepared demonstrate you know you are on track with your API governance (guidance). The question is how to help demonstrate to those who don’t show up prepared that you are there to help them in your busy world, and not be thrown off track by the people who don’t care and just want you to get out of there way. While it is something that will vary from enterprise to enterprise, in our experience these conversations break down along these lines.
 

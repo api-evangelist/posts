@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tracking On Licensing For The Solutions In My OpenAPI Toolbox
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_12_at_11.20.06_pm.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_12_at_11.20.06_pm.png
 atomdate: 2017-03-15 23:30:00+00:00
 tags:
 - Tracking

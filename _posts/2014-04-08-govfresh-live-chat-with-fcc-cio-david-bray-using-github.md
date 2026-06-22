@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GovFresh Live Chat With FCC CIO David Bray Using Github
-image: https://s3.amazonaws.com/kinlane-productions2/federal-government/fcc/davidbray-150x150.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/fcc/davidbray-150x150.png
 author:
   name: kinlane
 tags:

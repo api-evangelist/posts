@@ -8,7 +8,7 @@ tags:
   - Talks
   - Tyk
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-supreme-court_36341562380_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-supreme-court_36341562380_o.jpg
 ---
 I opened up [the Tyk LEAP 2.0 API Governance conference](https://tyk.io/events/leap-api-governance/) yesterday. It was a virtual conference but had the staying energy of a real conference. I opened up things at 9:30 AM my time, but then found myself sticking around for all of the rest of the tracks. I regret that I couldn’t see all of the talks, but I know that Tyk has recorded everything and will be making it available. It was a really good event with nothing else out there like it, and I can confidently say that Tyk is leading the API governance conversation by producing this event, and I will definitely be working to support future iterations.
 

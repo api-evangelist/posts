@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: An Example of BizDev 2.5
-image: http://kinlane-productions2.s3.amazonaws.com/flickr.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/flickr.jpg
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ tags:
 ---
 In 2006, Flickr co-founder Caterina Fake coined the phrase [Biz Dev 2.0](http://apievangelist.com/2010/10/07/biz-dev-2-0/ "Biz Dev 2.0") in a blog post explaining how several small companies had approached Flickr wanting to provide services that the photo-sharing site didn't feature.
 
-She noted that Flickr executives had little time in their schedules to arrange meetings to hash out these partnerships, and instead encouraged companies to feel free to apply for a Commercial API key and build something off the API.![](https://kinlane-productions2.s3.amazonaws.com/flickr.jpg)
+She noted that Flickr executives had little time in their schedules to arrange meetings to hash out these partnerships, and instead encouraged companies to feel free to apply for a Commercial API key and build something off the API.![](https://kinlane-images.s3.amazonaws.com/shared/flickr.jpg)
 
 [Biz Dev 2.0](http://caterina.net/archive/000996.html "Biz Dev 2.0"), she called it.
 
@@ -45,7 +45,7 @@ Box.net has an API and a self-service application development environment called
 
 Once ready I can submit for approval in the OpenBox directory, or keep private and just send invites out to users with a link directly to my OpenBox application.
 
-I have someone I can email at Box.net and discuss business development opportunities, but I don't have to. I can do all the work myself.![](https://kinlane-productions2.s3.amazonaws.com/Box.net/box-net-250x161.jpg)
+I have someone I can email at Box.net and discuss business development opportunities, but I don't have to. I can do all the work myself.![](https://kinlane-images.s3.amazonaws.com/apievangelist/Box.net/box-net-250x161.jpg)
 
 I'm able to build an application that uses the APIs of a leading web application provider, launch that application integrated into the platform, and access the existing user-base. When users choose to use my application it adds actions or navigation options for them that are linked to my service.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Preparing for the Defrag Experience
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Defrag-2012.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Defrag-2012.png
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ Eric has a unique way of bringing together the leaders from the space to discuss
 
 The first of Eric’s events I attended was a Gluecon, several years back. We drove out to the location, and I remember thinking, “oh man we are going to be stuck way out here for 4 days”. But as I learned, that is the point.
 
-![](https://s3.amazonaws.com/kinlane-productions2/events/defrag-2012/Omni-Interlocken.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/defrag-2012/Omni-Interlocken.png)
 
 You are stuck in a very intimate location where you will eat killer grub, including beef sliders and drink some kick-ass craft beers while rubbing elbows and having deep technical and philosophical conversations with the deepest thinkers and leaders in our space.
 

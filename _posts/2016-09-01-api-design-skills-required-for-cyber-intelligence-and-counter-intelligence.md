@@ -2,7 +2,7 @@
 layout: post
 title: API Design Skills Required For Cyber Intelligence and Counter Intelligence
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/cyber-innovation-unit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/cyber-innovation-unit.jpg
 atomdate: 2016-09-02T00:00:00.000Z
 tags:
   - Design

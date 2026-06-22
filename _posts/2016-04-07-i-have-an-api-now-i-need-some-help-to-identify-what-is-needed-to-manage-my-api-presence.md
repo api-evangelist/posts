@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Have An API, Now I Need Some Help to Identify What Is Needed To Manage My API Presence
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-manage-operations.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-manage-operations.png
 tags:
 - Presence
 ---

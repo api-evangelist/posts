@@ -2,7 +2,7 @@
 layout: post
 title: Private Sector Sharing The Load Through Government APis
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-irs-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-irs-logo.jpg
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ As with every other federal agency, the IRS faced the problem of modernizing its
 
 Web services, also widely called Application Programming Interfaces (APIs), provide the ability to submit traditional IRS forms over the Internet, directly from existing or new software platforms that are developed by 3rd party, public and private sector partners. These web services don't just speak in terms of IRS forms, they also understand the myriad of business rules that surround the submission of these forms, adhering to not just the legacy IRS forms process, but allow developers to follow the IRS tax code without fully understanding the intricacies of the complex tax system.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/irs/irs-efile-logo.jpeg)](/admin/blog/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/irs/irs-efile-logo.jpeg)](/admin/blog/)
 
 This new set of APIs provides the foundation for what is known as the [modernized e-File system for software developers and transmitters](http://www.irs.gov/pub/irs-pdf/p4164.pdf). By employing APIs, the IRS is securely opening up access to the digital filing of IRS tax forms and supporting business rules, to trusted 3rd party partners from the public and private sector. This API driven approach allows the IRS to stick with what they do best, and not worry about being the sole developer of online, desktop and mobile applications that interface with the US tax process--giving birth to not just TurboTax, but a whole ecosystem of API driven technology solutions from the prviate sector.
 

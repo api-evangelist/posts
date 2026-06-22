@@ -2,12 +2,12 @@
 layout: post
 title: 'Weekly API.Report For March 16th, 2015'
 sourceurl: http://apievangelist.com/2015/03/16/weekly-apireport-for-march-16th-2015/
-image: https://s3.amazonaws.com/kinlane-productions/api-report/api-report-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png
 ---
 
 
 <div style="background-color:#ff4c4c; width:100%; height: 40px; padding:5px; margin-bottom: 5px;"><p align="center"><strong>Swagger is now Open API Definition Format (OADF) -- <a href="http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/" style="text-decoration:none;"><strong>READ MORE</strong></a></strong></p></div>
-<p><a href="http://api.report/" target="_blank"><img style="padding: 20px;" src="https://s3.amazonaws.com/kinlane-productions/api-report/api-report-logo.png" alt="" width="325" align="right" /></a></p>
+<p><a href="http://api.report/" target="_blank"><img style="padding: 20px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png" alt="" width="325" align="right" /></a></p>
 <p>Phew!! This week was hard. I just couldn't find the mojo to plow through, but I did it. A little late on Monday evening, but still so worth doing--putting the week into perspective.</p>
 <p>I'm still trying to assess the best balance with what I post as individual news stories on <a href="http://api.report">API.Report</a>. I think more of this could be pulled out as actual news stories, but will have to see if I have the time. Overall I am happy with how the weekly API.Report is evolving, but there is so much more I could do.</p>
 <p><span>The Weekly API.Report represents the best of what I've read throughout the week, and is only what I personally felt should be showcased. Each news item comes with a link, and some thoughts I had after curating the piece of API related news. I'm trying to break down stories into as coherent buckets as I can, but it remains something that is ever changing for me, but ultimately I will settle on a clear definition for each of the research areas.</span></p>

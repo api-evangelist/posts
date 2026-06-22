@@ -2,7 +2,7 @@
 layout: post
 title: Crazy Mess Of URLs Across 400 Of The APIs In My Stack
 sourceurl: http://apievangelist.com/2014/10/24/crazy-mess-of-urls-across-400-of-the-apis-in-my-stack/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/consistent-api-program-domains.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/consistent-api-program-domains.png
 author:
   name: kinlane
 tags:

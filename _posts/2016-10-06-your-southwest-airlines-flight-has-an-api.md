@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Your Southwest Airlines Flight Has An API
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/14500451_10157473672265368_6769931295752399398_o.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/14500451_10157473672265368_6769931295752399398_o.jpg
 atomdate: 2016-10-07 00:00:00+00:00
 tags:
 - API Evangelist

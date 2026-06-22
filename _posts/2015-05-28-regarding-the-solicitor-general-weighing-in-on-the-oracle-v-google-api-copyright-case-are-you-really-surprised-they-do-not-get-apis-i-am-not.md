@@ -4,7 +4,7 @@ title: >-
   Regarding The Solicitor General Weighing In On The Oracle v Google API
   Copyright Case: Are You Really Surprised They Do Not Get APIs? I Am Not!
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/oracle-v-google/google-v-oracle-solicitor-general-brief-may-2015.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/oracle-v-google/google-v-oracle-solicitor-general-brief-may-2015.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
   - Oracle
   - APIs
 ---
-My first emotion after reading [the brief filed by the US Solicitor General](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/oracle-v-google/google-v-oracle-solicitor-general-brief-may-2015.pdf), is that the federal government's stance is so wrong, antiquated, and shows how behind the curve our government actually is when it comes to the unfolding API economy around us. Then as with each moment in the past, associated with this very important legal case, I become tangled in the web that is politics and intellectual property (IP) law in our country--leaving me confused, betrayed, and embarrassed for the industry that I take pride in being a champion for. It is easy to get caught up in the page view buzz, emotion, and hype of each of these episodes, but in the end I will just keep fighting for open API patterns, and Oracle's damaging stance, and the fact the federal government is a revolving door for industry, really is just par for the course--business as usual.
+My first emotion after reading [the brief filed by the US Solicitor General](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/oracle-v-google/google-v-oracle-solicitor-general-brief-may-2015.pdf), is that the federal government's stance is so wrong, antiquated, and shows how behind the curve our government actually is when it comes to the unfolding API economy around us. Then as with each moment in the past, associated with this very important legal case, I become tangled in the web that is politics and intellectual property (IP) law in our country--leaving me confused, betrayed, and embarrassed for the industry that I take pride in being a champion for. It is easy to get caught up in the page view buzz, emotion, and hype of each of these episodes, but in the end I will just keep fighting for open API patterns, and Oracle's damaging stance, and the fact the federal government is a revolving door for industry, really is just par for the course--business as usual.
 
 This is not the first time, nor will it be the last time, that someone who does not understand APIs will be making laws that regulate how things work in industry. What is really frustrating is that this isn't just a single court case, it sets a very dangerous precedent that will impact every business sectors. Think of the role the web plays in our lives in 2015, and how important companies like SalesForce, eBay, Paypal, Amazon, Google, Twitter, and Facebook have been to the economy--you just dealt a potentially lethal blow to the next wave of these companies even existing, good job US government. The Solicitor General has no idea of the separation in the API layers, but most of the API industry doesn't see it as well, so why would I be surprised that the government isn't up to speed.
 

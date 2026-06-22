@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Preserving The Sunlight On Github
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/ok_800.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ok_800.jpeg
 atomdate: 2016-10-13 22:00:00+00:00
 tags:
 - Github

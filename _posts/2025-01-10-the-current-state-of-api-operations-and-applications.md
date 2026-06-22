@@ -7,7 +7,7 @@ tags:
   - Applications
   - Operations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/leaflets-of-the-russian-revolution-japanese-carrying-over-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/leaflets-of-the-russian-revolution-japanese-carrying-over-bridge.jpeg
 ---
 Despite the prevailing narrative of API reuse that exists across different types of applications, many organizations opted to choose new protocols and patterns to deliver what they need, and are still facing reusability and redundancy issues, but now with more APIs and more API protocols in the mix to deal with.
 

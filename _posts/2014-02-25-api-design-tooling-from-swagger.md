@@ -2,7 +2,7 @@
 layout: post
 title: API Design Tooling From Swagger
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-round.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/swagger-round.png
 author:
   name: kinlane
 tags:

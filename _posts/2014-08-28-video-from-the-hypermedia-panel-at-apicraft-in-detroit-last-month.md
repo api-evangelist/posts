@@ -4,7 +4,7 @@ title: Video From The Hypermedia Panel At API-Craft In Detroit Last Month
 sourceurl: >-
   http://apievangelist.com/2014/08/28/video-from-the-hypermedia-panel-at-apicraft-in-detroit-last-month/
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-craft/api-craft-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-craft/api-craft-logo.png
 author:
   name: kinlane
 tags:

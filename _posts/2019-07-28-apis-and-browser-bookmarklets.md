@@ -8,7 +8,7 @@ tags:
   - Embeddables
   - Browsers
   - Bookmarklets
-image: https://s3.amazonaws.com/kinlane-productions/algorotoscope-master/gears-4882162452-fa3126b38d-b-blue-circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/gears-4882162452-fa3126b38d-b-blue-circuit.jpg
 ---
 <img src="{{ page.image }}" width="45%" align="right" style="padding: 15px;" />
 I have quite a few API driven bookmarklets I use to profile APIs. I recently quit using Google Chrome, so I needed to migrate all of them to Firefox. I saw this work as an opportunity to better define and organize them, as they had accumulated over the years without any sort of strategy. When I need some new functionality in my browser I would create a new API, and craft a bookmarklet that would accomplish whatever I needed. I wish I had more browser add-on development skills, something I regular try to invest in, but I find that bookmarklets are the next best thing when it comes to browser and API interactions.

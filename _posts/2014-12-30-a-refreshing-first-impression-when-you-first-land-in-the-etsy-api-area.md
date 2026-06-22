@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Refreshing First Impression When You First Land In The Etsy API Area
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/etsy-e.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/etsy-e.jpg
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ When you first land on any [API developer landing page](https://www.etsy.com/dev
 
 Anytime I come across an API landing page, where I'm immediately given the best possible first impression I can image, I have to showcase. This just happened while taking another look at the Etsy API, which I found refreshingly simple--yet complete.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/etsy-first-impressions.png)](https://www.etsy.com/developers/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/etsy-first-impressions.png)](https://www.etsy.com/developers/)
 
 Everything on the [Etsy API developer landing page](https://www.etsy.com/developers/) has a purpose in assisting me during on-boarding with the Etsy API. To better understand this in action, let's look at the handful of essential API management building blocks available on the Etsy home page.
 

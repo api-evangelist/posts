@@ -10,7 +10,7 @@ tags:
   - Automation
   - Agentic
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-freeway-interchange-fence.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-freeway-interchange-fence.jpeg
 ---
 I am genuinely trying to understand the essence of the agentic wave of artificial intelligence. I am always frustrated when I don't understand something. Unfortunately, much of popular life and capitalism is like this for me. But I work regularly to make sense of what I can. Since I have to write stories that speak to this agentic moment, engage with people on the front lines, and help provide guidance to my team and customers, I am doing the work to separate the layers, make sense of the narratives being used, and find my way forward as I do with every other application that uses APIs.
 

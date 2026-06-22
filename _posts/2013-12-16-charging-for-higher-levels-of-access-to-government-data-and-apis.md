@@ -2,7 +2,7 @@
 layout: post
 title: Charging For Higher Levels Of Access To Government Data and APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/hawaii-gov-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/hawaii-gov-logo.png
 author:
   name: kinlane
 tags:

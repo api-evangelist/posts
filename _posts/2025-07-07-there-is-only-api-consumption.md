@@ -7,7 +7,7 @@ tags:
   - Consumption
   - Integrations
   - Applications
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/1939-new-york-worlds-fair-waterfall-southern-oregon.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/1939-new-york-worlds-fair-waterfall-southern-oregon.jpg
 ---
 I have hit the wall one more time in the last five years when it comes to my belief that people producing APIs will want to do the right thing. Whether it be API design-first, productization of APIs, governance, or any other narrative we’ve constructive narrative we’ve constructed to guide SMB, SME, and enterprises forward. The majority of this rhetoric is in service of selling you something, and the few people who do care about doing APIs well within large organizations just do not have the bandwidth and budget to care at the levels we’ve been selling to over the last decade or more. It is all a very nice thought, but once you spend enough time on the ground, you realize we are all pretty delusional in our beliefs for what the enterprise will do or won’t do, and what their priorities truly are.
 

@@ -2,7 +2,7 @@
 layout: post
 title: History of APIs  - Flickr API
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist/Flickr-Code-Screenshot.PNG
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Flickr-Code-Screenshot.PNG
 author:
   name: kinlane
 tags:

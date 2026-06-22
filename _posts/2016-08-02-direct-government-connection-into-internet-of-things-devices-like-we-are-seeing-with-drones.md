@@ -4,7 +4,7 @@ title: >-
   Direct Government Connection Into Internet of Things Devices Like We Are
   Seeing With Drones
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Wildfire-Screenshot-Web-App-1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Wildfire-Screenshot-Web-App-1.png
 atomdate: 2016-08-02T17:00:00.000Z
 tags:
   - Internet of Things

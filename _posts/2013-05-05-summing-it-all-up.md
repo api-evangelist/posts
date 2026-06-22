@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Summing It All Up
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -24,4 +24,4 @@ This document is a living white paper and will change month to month as the BaaS
 Since this document is a living white paper, it may contain minor errors in formatting, grammar or spelling.  Please let me know and I'll correct for the next revision.
 
   
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/api-evangelist-logo-400.png)](http://apievangelist.com "API Evangelist")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-evangelist-logo-400.png)](http://apievangelist.com "API Evangelist")

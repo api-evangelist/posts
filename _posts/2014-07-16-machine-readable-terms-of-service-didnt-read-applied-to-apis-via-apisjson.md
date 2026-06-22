@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Machine Readable Terms of Service Didn&#039;t Read Applied To APIs Via APIs.json
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/terms-of-service-didnt-read/tos-didnt-read-logo.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/terms-of-service-didnt-read/tos-didnt-read-logo.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ Second, I’m looking to build on the TOS Didn't Read work, and apply further to
 
 I want to build on the work TOS Didn’t Read has done, apply their tracking and ranking system of online services, to the APIs that I monitor. Using APIs.json I want to encourage API providers to publish this machine readable index of their available APIs, allowing them to be indexed by API search engines like [APIs.io](http://apis.io). Then, as part of each APIs.json I want to help API providers understand the benefits of machine readable API definitions, API copyright declarations, and API terms of service (TOS). I know, that is a pretty tall order, but I think it can be done.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png)](http://apisjson.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json/apisdotjson.png)](http://apisjson.org/)
 
 TOS Didn't Read provides me with a wealth of topics, and detailed points to apply when evaluating API provider’s terms of service—which is an excellent foundation to build on top of. I've forked the [TOS Didn't Read repository](https://github.com/tosdr/tosdr.org), as part of the APIs.json organization, and will be establishing a supporting project for defining what a machine readable terms of service file might look like. I think I will call this project Terms of Service; Machine Readable, or TOS;MR.
 

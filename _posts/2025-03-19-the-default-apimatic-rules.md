@@ -8,7 +8,7 @@ tags:
   - APIMATIC
   - Rules
   - OpenAPI
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-old-church-police-car.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-old-church-police-car.jpeg
 ---
 I am continuing to document the API governance rule landscape, beginning with [Spectral](https://apievangelist.com/2025/03/14/evaluating-the-default-spectral-api-governance-ruleset/), but then adding on [Vacuum](https://apievangelist.com/2025/03/14/evaluating-the-default-doctor-and-vacuum-api-governance-ruleset/). Next I wanted to inventory what APIMATIC makes available--they have the most complete set of rules. SDK generation requires the most complete OpenAPI, so it makes sense that APIMATIC has invested in this level of detail. APIMATIC has their rules conveniently organized into the following groups.
 

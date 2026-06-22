@@ -2,7 +2,7 @@
 layout: post
 title: Lack of Pinterest API is a Lack of API Business Strategy
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Pinterest_Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Pinterest_Logo.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ There is also a [reply to a Quora thread by Yashh Nelapati](http://www.quora.com
 
 So why not learn from Twitter and other APIs, and use the appropriate API building blocks to address this:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/pinterest/Pinterest-Home-Page.png)](http://pinterest.com/ "Pinterest")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/pinterest/Pinterest-Home-Page.png)](http://pinterest.com/ "Pinterest")
 
 *   **Branding Guidelines** - Establish branding guidelines that clearly lays out what apps that use Pinterest API should look like
 *   **UI / UX Toolkit** - Provide a UI / UX toolkit like Twitter Bootstrap that sets the tone for applications built on the API

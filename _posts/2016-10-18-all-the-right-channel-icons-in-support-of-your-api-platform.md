@@ -2,7 +2,7 @@
 layout: post
 title: All The Right Channel Icons In Support Of Your API Platform
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/restlet_icons.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/restlet_icons.png
 atomdate: 2016-10-19T00:00:00.000Z
 tags:
   - Support

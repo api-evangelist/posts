@@ -2,7 +2,7 @@
 layout: post
 title: Another Strong API Implementation In Federal Government With OpenFDA
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/open-fda-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/fda/open-fda-logo.png
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ OpenFDA explains what the OpenFDA is all about with a detailed about page, telli
 **Key Based Authentication**  
 All that is required to get up and running using the OpenFDA API, is a valid email address, which in return you get an API key that you can use to make all API calls. Of course there are terms of service (TOS) and rate limit restrictions on each key, but this is standard operating procedure for APIs, especially one still in beta.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/elasticsearch/elastic-search-logo.jpg)](http://www.elasticsearch.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/elasticsearch/elastic-search-logo.jpg)](http://www.elasticsearch.org/)
 
 **Deployed Using ElasticSearch**  
 Where the FBOpen from 18F used [Apache Solr to deploy their API](https://lucene.apache.org/solr/), OpenFDA uses [search and analytics platform ElasticSearch](http://www.elasticsearch.org/) to deploy their API. I think both of these approaches reflect an interesting trend in government, which deploys APIs from existing, an sometimes messy data stores, allowing a more meaningful and useful layer to be added with very little effort.
@@ -41,7 +41,7 @@ Interactive API documentation, allowing API consumers to make live API calls whi
 **Essential Communication Channels**  
 OpenFDA doesn't miss a beat in establishing the required communication channels for the API, providing updates on the platform in a blog format, available directly from the home page. Additionally OpenFDA employs Twitter, providing a real-time conversation around the valuable API resource, between the FDA and 3rd party consumers. Open, active communication channels, providing two-way communication between a platform and its consumers, is one of the [essential ingredients that make this whole API thing work](http://apievangelist.com/2014/05/06/remembering-why-this-whole-api-thing-is-working--apidays-berlin/).
 
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/introducing-open-fda.png)](https://open.fda.gov/index.html)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/fda/introducing-open-fda.png)](https://open.fda.gov/index.html)
 
 **Essential Support Framework**  
 Building on top of OpenFDA platform updates, and Twitter communication channels, OpenFDA provides a multi-tiered support framework, allowing API consumers to ask questions on StackExchange, report bugs via Github, and send feedback via email. The OpenFDA support framework plus the open communication channels, establishes a robust feedback loop for the FDA around drug event report data.

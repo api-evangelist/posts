@@ -2,7 +2,7 @@
 layout: post
 title: Axway Acquires API Management Service Provider Vordel
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/vordel_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/vordel_logo.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ I don’t know if you saw the big news last week, but [software publisher Axway 
 
 Financial terms of the deal haven’t been disclosed, but the acquisition shows the API industry is maturing and producing desirable companies with proven API products, that larger software companies can use as a competitive advantage. While Vordel's API management, SOA governance and identity management will help Axway’s customers, I think Vordel’s customers is probably the type of new client large software companies will want be also seeking out through acquisitions.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/vordel/Axway-Acquires-Vordel_779x119_Secondary.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/vordel/Axway-Acquires-Vordel_779x119_Secondary.jpg)
 
 I always joke with John and Adam at [ProgrammableWeb](http://programmableweb.com) about, “Is this the year of the API”? They have been at it longer than I have, and are very hesitant to dub any particular year, the year of the API. But, with the growth we’ve seen in 2012, two open source API management platforms deployed and now a major acquisition in the space--I confidently would say 2012 is the year APIs came of age.
 

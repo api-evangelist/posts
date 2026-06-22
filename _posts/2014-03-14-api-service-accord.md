@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Service Accord
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-handshake.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-handshake.jpg
 author:
   name: kinlane
 tags:

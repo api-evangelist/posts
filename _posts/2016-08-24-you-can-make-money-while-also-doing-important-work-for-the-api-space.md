@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You Can Make Money While Also Doing Important Work For The API Space
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/CloudFlare_-_The_web_performance___security_company.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/CloudFlare_-_The_web_performance___security_company.png
 atomdate: 2016-08-24 18:00:00+00:00
 tags:
 - API Evangelist

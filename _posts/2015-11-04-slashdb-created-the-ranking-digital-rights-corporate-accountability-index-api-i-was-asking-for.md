@@ -4,7 +4,7 @@ title: >-
   @SlashDB Created The Ranking Digital Rights Corporate Accountability Index API
   I Was Asking For
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/slashdb-new-logo-sideways-medium.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/slashdb-new-logo-sideways-medium.png
 author:
   name: kinlane
 tags:
@@ -26,7 +26,7 @@ Victor Olex ([@agilevic](https://twitter.com/agilevic)) from [SlashDB](http://ww
 
 _I took your Twitter challenge and created the API for Ranking Digital Rights data. The data model does not include scores for individual lines of business, but it does have all qualitative data needed to make sense of it. I did not write any data aggregation queries, but we can add those later. The whole thing works off a MySQL database model, which I designed and fed with data from the spreadsheet._
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/slashdb-ranking-digital-rights-diagram)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/slashdb-ranking-digital-rights-diagram)
 
 Using SlashDB, Victor quickly generated the following endpoints for quick access to the digital rights data behind the report:
 

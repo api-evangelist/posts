@@ -3,7 +3,7 @@ layout: post
 title: "Making the API Evangelist Network Agent-Readable"
 date: 2026-05-16
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-banana-subway-stairs.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-banana-subway-stairs.jpeg
 category: "Blog"
 excerpt: "I spent the day applying the agent-readiness playbook across twenty-two subdomains of the API Evangelist network. The result is end-to-end agent-readable infrastructure — RFC 9264 linksets at /.well-known/api-catalog on every site, a Cloudflare Worker doing markdown content negotiation in front of GitHub Pages, agent skills at /skills/, a JSON-LD context for the API Evangelist vocabulary, and AI consent signals in every robots.txt. Twenty-two sites. One coherent surface."
 ---

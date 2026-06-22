@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Vision For One Possible Future Of The API Life Cycle Present In A Real-Time Subway Map For Helsinki
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/helsinki-subway-map.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/helsinki-subway-map.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ tags:
 
 I was giving a version of my API life cycle talk to a group in Finland the other evening (their morning), and someone in the audience sent me [a link to the real-time subway map for Helsinki](http://liikenne.hylly.org/rata/lahi/). If you watch it closely, it updates based upon where the trains are, sharing times and locations. 
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/helsinki-subway-map.png)](http://liikenne.hylly.org/rata/lahi/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/helsinki-subway-map.png)](http://liikenne.hylly.org/rata/lahi/)
 
 _Click To See Real Interactive Map_
 

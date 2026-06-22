@@ -4,7 +4,7 @@ title: >-
   Bridging How We Currently Document Our APIs Now With How We Should Be
   Experiencing APIs Via Hypermedia
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/foxycart-api-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/foxycart-api-screenshot.png
 author:
   name: kinlane
 tags:

@@ -4,7 +4,7 @@ title: >-
   Chief Data Officer Needs To Make The Department Of Commerce Developer Portal
   The Center Of API Economy
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/digital-strategy/logos/commerce.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/commerce.png
 author:
   name: kinlane
 tags:
@@ -25,7 +25,7 @@ I think she also does a fine job of describing the urgency behind making sure Co
 
 To understand the importance of content, data and other resources that are coming out the Department of Commerce, you just have to look at the list of agencies that are underneath Commerce, who already have API initiatives:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/matrix-dollar-sign.png)](http://www.usa.gov/directory/federal/department-of-commerce.shtml)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/matrix-dollar-sign.png)](http://www.usa.gov/directory/federal/department-of-commerce.shtml)
 
 *   [Bureau of Economic Analysis](http://www.usa.gov/directory/federal/bureau-of-economic-analysis.shtml)
 *   [Bureau of the Census](http://www.usa.gov/directory/federal/bureau-of-the-census.shtml)
@@ -69,7 +69,7 @@ Within each of the Commerce, and associate agency developer portals, there needs
 **Machine Readable API Definitions For All Resources**  
 This is an area, that is a little bit leading edge, even for the private sector, but is rapidly emerging to play a central role in how APIs are designed, deployed, managed, discovered, tested, monitored, and ultimately integrated into other systems and applications. Machine readable [API definitions are being used as a sort of central truth](http://apievangelist.com/2014/07/15/an-api-definition-as-the-truth-in-the-api-contract/), defining how and what an API does, in a machine readable, but common format, that any developer, and potentially other system can understand. Commerce needs to ensure that all existing, as well as future APIs developed around Commerce data, possess a machine readable API definition, which will allow for all data resources to be plug and play in the API economy.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/18f/18F_logo.png)](https://18f.gsa.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/18f/18F_logo.png)](https://18f.gsa.gov/)
 
 **Established An Assortment Of Blueprints For Other Agencies To Follow**  
 The new Commerce CDO will have to be extremely efficient at establishing successful patterns that other agencies, projects and programs can follow. This starts with developer portal blueprints they can follow when designing, deploying and managing their own developer programs, but should not stop there, and Commerce will need a wealth of blueprints for open source software, APIs, system connectors, and much, much more. Establishing common blueprints, and sharing these widely across government will be critical for consistency and interoperability--reducing the chances that agencies, or private sector partners will be re-inventing the wheel, while also reducing development costs.

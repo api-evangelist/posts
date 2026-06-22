@@ -5,7 +5,7 @@ title: >-
   Facebook Quietly Deprecates The Audience Insight API Used To Automate
   Targeting During The Election
 date: 2017-12-04T09:00:00.000Z
-image: https://s3.amazonaws.com/kinlane-productions2/facebook/audience-insights/facebook-audience-insights-api-affinity.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/facebook/audience-insights/facebook-audience-insights-api-affinity.png
 tags:
   - API Evangelist
   - Social

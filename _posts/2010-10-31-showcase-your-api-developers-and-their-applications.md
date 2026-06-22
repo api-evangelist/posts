@@ -3,7 +3,7 @@ layout: post
 title: Showcase Your API Developers and Their Applications
 url: >-
   http://apievangelist.com/2010/10/31/showcase-your-api-developers-and-their-applications/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

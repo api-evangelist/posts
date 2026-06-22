@@ -8,7 +8,7 @@ tags:
   - Integrations
   - Regulations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-power-station-new-building.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-power-station-new-building.jpeg
 ---
 We like to compare APIs with electricity here at API Evangelist. It really is the best analogy to help business stakeholders understand the importance of API governance, and to show them how we are still just in the early stages of the evolution of digital resources. Like electricity, application programming interfaces, or simply APIs are universal and in use across almost every industry. As with electricity in the early days every company putting this new universal resource to work is investing in their own production and distribution of APIs. In the early days of electricity things weren’t standardized and everything was custom, so can you imagine what some of the challenges and parallels are with APIs.
 

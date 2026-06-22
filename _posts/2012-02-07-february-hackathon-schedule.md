@@ -1,7 +1,7 @@
 ---
 layout: post
 title: February Hackathon Schedule
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-hackathon.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tag-cloud-hackathon.png
 author:
   name: kinlane
 tags:

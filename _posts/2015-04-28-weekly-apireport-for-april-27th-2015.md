@@ -2,12 +2,12 @@
 layout: post
 title: 'Weekly API.Report For April 27th, 2015'
 sourceurl: http://apievangelist.com/2015/04/28/weekly-apireport-for-april-27th-2015/
-image: https://s3.amazonaws.com/kinlane-productions/api-report/api-report-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png
 ---
 
 
 <div style="background-color:#ff4c4c; width:100%; height: 40px; padding:5px; margin-bottom: 5px;"><p align="center"><strong>Swagger is now Open API Definition Format (OADF) -- <a href="http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/" style="text-decoration:none;"><strong>READ MORE</strong></a></strong></p></div>
-<p><a href="http://api.report/" target="_blank"><img style="padding: 20px;" src="https://s3.amazonaws.com/kinlane-productions/api-report/api-report-logo.png" alt="" width="325" align="right" /></a></p>
+<p><a href="http://api.report/" target="_blank"><img style="padding: 20px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png" alt="" width="325" align="right" /></a></p>
 <p>This week's report was a painful one, because I did very little work last week when it came to monitoring the space, thus I was forced to play catch up this week after <a href="https://twitter.com/search?q=%23apisberlin&amp;src=typd">#APIsBerlin</a>. It took 20 hours to produce this work, and get myself up to speed. #ouch</p>
 <p><span>My Weekly API.Report represents the best of what I've read throughout the week, and is only what I personally felt should be showcased. Each news item comes with a link, and some thoughts I had after curating the piece of API related news. I'm trying to break down stories into as coherent buckets as I can, but it remains something that is ever changing for me, but ultimately I will settle on a clear definition for each of the research areas.</span></p>
 <p>More on <span style="text-decoration: underline;"><strong>Account Management</strong></span> with APIs:</p>

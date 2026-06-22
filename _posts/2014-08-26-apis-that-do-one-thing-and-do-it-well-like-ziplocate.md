@@ -2,7 +2,7 @@
 layout: post
 title: APIs That Do One Thing And Do It Well Like ZipLocate
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ZipLocate.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/ZipLocate.png
 author:
   name: kinlane
 tags:

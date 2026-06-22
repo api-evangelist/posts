@@ -4,7 +4,7 @@ title: >-
   Using APIs To Help Achieve A More Owner-Controlled Internet of Things
   Experience
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/phil_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/phil_logo.png
 author:
   name: kinlane
 tags:

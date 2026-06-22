@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'API Stack - API Billing with 3Scale Billing API '
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-logo.jpg
 author:
   name: kinlane
 tags:

@@ -20,7 +20,7 @@ If your not familiar with Embed.ly, the API allows developers to embed videos, i
 
 The web site redesign brings [API documentation](http://api.embed.ly/docs "API Documentation") and overview of their [oEmbed](http://oembed.com/ "oembed") technology front and center on dashboard.
 
-Also providng direct links to client-side libraries:[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/embedly-api-area.png)](http://api.embed.ly/ "Embed.ly launched a new, improved API area")
+Also providng direct links to client-side libraries:[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/embedly-api-area.png)](http://api.embed.ly/ "Embed.ly launched a new, improved API area")
 
 *   [jQuery](https://github.com/embedly/embedly-jquery "JQuery")
 *   [Closure](https://github.com/embedly/embedly-closure "Closure")

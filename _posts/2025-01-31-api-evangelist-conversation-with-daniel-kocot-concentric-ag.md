@@ -9,7 +9,7 @@ tags:
   - Portals
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 [Daniel Kocot came by again to talk about the lines between our private and public APIs](https://conversations.apievangelist.com/store/2025-01-30-daniel-kocot-codecentric-ag/). We had been talking about internal, first-party, and third-party APIs back and forth on LinkedIn, and I recommended that he come by and we will have a conversation. Danield helped us realize that our separation between the layers was more about access, control, and the speed of business over just about being inside or outside the firewall and DMZ. Daniel sees this for what it is--it is about people. Lines of business, teams, tribes, and partners. Daniel has that very outside-in view of API operations, and codecentric AG is being brought inside to solve the big problems for their customers. Talking with Daniel makes me realize how important it is to have these conversations about our APIs and portals, because not everyone has a handle on the nuance of what is happening at the edge of our enterprises.
 

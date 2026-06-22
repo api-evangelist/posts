@@ -2,7 +2,7 @@
 layout: post
 title: Let&#039;s Talk APIs In Scandinavia With Nordic APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/nordic-apis-logo-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/nordic-apis-logo-2.png
 author:
   name: kinlane
 tags:

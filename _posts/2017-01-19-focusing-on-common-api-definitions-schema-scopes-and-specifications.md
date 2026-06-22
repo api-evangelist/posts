@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Focusing On Common API Definitions, Schema, Scopes and Specifications
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gears.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-gears.png
 atomdate: 2017-01-19 17:00:00+00:00
 tags:
 - Definitions

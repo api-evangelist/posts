@@ -2,7 +2,7 @@
 layout: post
 title: 18F Shows What Is Possible In Government With FBOpen API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/18f/18F_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/18f/18F_logo.png
 author:
   name: kinlane
 tags:
@@ -21,7 +21,7 @@ The 18F demonstrates their tech chops by not re-inventing the wheel when it come
 **Simplicity Rules**  
 The FBOpen API interface adheres to API simplicity by providing logical, versioned URI for accessing the government business opportunities, with a query and data source parameter allowing you to tailor the source of your query. Then you can filter by noncompetes or closed opportunities, as well as controlling the number of results returned, including common pagination controls developers are used to when working with APIs. FBOpen API does one thing, and does it well--the calling card of successful APis.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/fbopen/fbopen-pilot-logo.png)](https://fbopen.gsa.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/fbopen/fbopen-pilot-logo.png)](https://fbopen.gsa.gov/)
 
 **Modern Design Lifecycle**  
 Again, demonstrating their grasp of modern technology, 18F employs Apiary to model and design the FBOpen API interface--using [API Blueprint](http://apiblueprint.org/) allowed them to define the API interface in markdown, then deploy a mock interface, interactive API documentation and code samples in a variety of languages. This approach to designing APIs in government is the future for not just providing a machine readable definition of the API, but delivers the documentation and code necessary to onboard any developer in minutes—increasing the chances the API will be integrated with.
@@ -35,7 +35,7 @@ Before you can make calls on the central FBOpen API instance, you must obtain an
 **Read / Write APIs in Government (kindasorta)**  
 I started to cry when I saw that there was not just a GET method for FBOpen, but here was a POST method, allowing for users to add or update opportunities via the API—then I saw it was disabled, and the tears dried up. The option is only available if you deploy your own instance of the API, which in my opinion actually represents the future of read / write APIs in government. I just don't think government can move fast enough, and manage the responsibility of write APIs in all scenarios, and providing open source APIs like FBOpen, that anyone can download, install and allow for adding and updating data can bridge this canyon. If enough trusted instances of the FBOpen can be established outside the federal government firewall, agencies can make their own decision around which sources they want to trust and pull opportunities back into internal systems. With proper certification of API deployments by our government, APIs lie FBOpen can share the load of managing data with private sector, without the risk that comes with doing it all internally.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/gsa/gsa-logo.jpeg)](http://gsa.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/gsa/gsa-logo.jpeg)](http://gsa.gov/)
 
 **Examples Of What Is Possible With FBOpen API**  
 Along with all the essential technical building blocks, 18F provides three examples of what you can build with the FBOpen API, stimulating the imagination of would be developers. While developers are very innovative when it comes to APIs, they often need stimulation when it comes to understanding what is possible within specific domains—the FBOpen examples achieve this, planting seeds of what developers can do, increasing the chance that meaningful integrations with the API will occur.

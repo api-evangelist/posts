@@ -1,7 +1,7 @@
 ---
 layout: post
 title: As An API Service Provider, Should I Craft My Own API Definition Format, Or Just Reuse What Is Already Available
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-definitions.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-api-definitions.png
 tags:
 - Definitions
 - ai

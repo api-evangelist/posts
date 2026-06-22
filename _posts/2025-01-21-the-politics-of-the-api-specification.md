@@ -8,7 +8,7 @@ tags:
   - APIs.json
   - Specifications
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-turing-front-view.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-turing-front-view.jpg
 ---
 The importance of open-source API specifications isn't always easy to see as teams work to complete their sprints, and ensuring their Jira tickets meet the definition of done. The value of the naming, order, and completeness or incompleteness of the machine-readable artifact used to describe the surface area of HTTP digital resources and capabilities matter a lot to both API producers, consumers, service providers, and stewards of these standards. Portals, documentation, sandbox, and SDKs are the obvious place to begin when looking for the politics of API specs, but here are a few of the areas it tends to accumulate.
 

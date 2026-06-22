@@ -1,7 +1,7 @@
 ---
 layout: post
 title: One API Discovery Definition to Rule Them All
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/discovery-exploration.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/discovery-exploration.jpg
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I’m thankful for the passion and dedication of the technologists in this space
 
 I am a fan of supporting API providers to do something, anything! Sure, it should be a standardized as you feel necessary. I hope you use something that is already in existence like [WADL](http://en.wikipedia.org/wiki/Web_Application_Description_Language "WADL"), [Swagger](http://developers.helloreverb.com/swagger/ "Swagger") or [I/O Docs](https://github.com/mashery/iodocs) (don’t reinvent the wheel), and make sure and look at the [approach Google is taking with their API discovery service](https://developers.google.com/discovery/)\--as they have some experience in the field.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/Swagger-Screenshot-1.png)](http://swagger.com)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/Swagger-Screenshot-1.png)](http://swagger.com)
 
 In reality though, your motivation to develop JSON or XML definitions for your API will probably be to provide interactive documentation or allow for easy generation of code libraries for your API--not discovery. With the API discovery conversation automatically defaulting to a universal definition by the tech pundits, API providers will often avoid these discussions, leaving it a lower priority when planning and implementing an API. Much like with HATEOAS, without concrete examples of value, API providers won’t see value in providing JSON or XML definitions of their APIs. Interactive docs and auto generation of code libraries are clear value propositions, and show potential for bringing discovery back to the forefront.
 
@@ -24,7 +24,7 @@ If you think about how web page discovery came together in late 1990s with Yahoo
 
 Since APIs are about “programmatic discovery”, I think how developers discover API will vary, occuring via these directories and hubs, but also occur via their chosen PaaS platform like Drupal, Heroku, Salesforce or with BaaS providers like Parse or Kinvey--as well as popular IDEs like Eclipse who allow for plugins.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mulesoft/API-Hub-Screenshot-2.png)](http://apihub.com)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/mulesoft/API-Hub-Screenshot-2.png)](http://apihub.com)
 
 It will up to PaaS, BaaS or other 3rd party platform providers to assemble resource stacks that are meaningful to their community. They will do the legwork to find best of breed API resources, which will be made easier if API providers provider JSON or XML definitions of their API resources, but not a requirement.
 

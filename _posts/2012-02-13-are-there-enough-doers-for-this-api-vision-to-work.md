@@ -2,7 +2,7 @@
 layout: post
 title: Are There Enough Do-ers For This API Vision to Work?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Twilio-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Twilio-Logo.png
 author:
   name: kinlane
 tags:

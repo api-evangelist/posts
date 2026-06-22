@@ -3,7 +3,7 @@ layout: post
 title: "API Evangelist Scores 83% Agent-Ready — And the Last 17% Doesn't Apply"
 date: 2026-05-20
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-train-nyc-125th.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-train-nyc-125th.jpg
 category: "Blog"
 excerpt: "Cloudflare's new isitagentready.com scanner gave apievangelist.com an 83 — Level 5, 'Agent-Native'. Discoverability, content, and bot access control all came back 100%. The four-out-of-six on API/Auth/MCP/Skill discovery was the only place the score got dinged, and the two misses were the two OAuth checks — which don't apply to a static site with no protected resources. I want to write down what scored, what didn't, and where I think the scoring loses signal."
 ---

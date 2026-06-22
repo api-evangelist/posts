@@ -10,7 +10,7 @@ tags:
   - Marketing
   - Storytelling
   - Evangelism
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-sin-will-find-you.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-sin-will-find-you.jpeg
 ---
 I heard it repeatedly at API Days in NYC last week-—apologies from people doing AI, and positioning their marketing and storytelling to speak to AI. People know me, know my brand, and know that API Evangelist is about pushing back on the fabulism that is ubiquitous in the world of technology. So, it is interesting to hear folks make their plea to me that they have to speak to AI In this moment, and there is no operating outside the AI bubble when it comes to their investors and customers—I disagree with the customers bit, but the investor demands makes a lot of sense to me. It is a reality I get and empathize with, even though I disagree with it with every bit of my existence. It is untenable for me to live with all the other myths that get told about startups and technology, but somehow I am supposed to just accept the shapeshifting that is occurring in the name of AI.
 

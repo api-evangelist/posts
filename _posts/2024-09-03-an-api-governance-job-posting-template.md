@@ -7,7 +7,7 @@ tags:
   - Job Posting
   - Templates
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-chess-in-the-park-with-pigeons.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-chess-in-the-park-with-pigeons.jpg
 ---
 <div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center;">
   <a href="https://apievangelist.com/#knowledge">Join Our Weekly API Governance Knowledge Bulding Sessions</a>

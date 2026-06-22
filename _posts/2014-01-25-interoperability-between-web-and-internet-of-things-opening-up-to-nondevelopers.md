@@ -4,7 +4,7 @@ title: >-
   Interoperability Between Web and Internet Of Things Opening Up To
   Non-Developers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/temboo/2-Temboos-Arduino-page.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/temboo/2-Temboos-Arduino-page.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Helping Folks Leave Their Platform and Language Baggage At Home Using API Definition Formats
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dogma.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-dogma.png
 tags:
 - Platform
 - Definitions

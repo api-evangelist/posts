@@ -2,7 +2,7 @@
 layout: post
 title: Building Internet of Things Products? You Better Secure It, Says the FTC
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/trendnet-camera.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/trendnet-camera.jpg
 author:
   name: kinlane
 tags:

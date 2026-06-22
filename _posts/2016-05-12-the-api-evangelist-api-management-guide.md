@@ -2,7 +2,7 @@
 layout: post
 title: The API Evangelist API Management Guide
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/whitepapers/management/api-evangelist-api-management-guide-may-2016-cover.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/whitepapers/management/api-evangelist-api-management-guide-may-2016-cover.png
 tags:
   - Management
   - API Evangelist

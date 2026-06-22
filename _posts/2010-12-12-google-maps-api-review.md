@@ -2,7 +2,7 @@
 layout: post
 title: Google Maps API Review
 url: http://apievangelist.com/2010/12/12/google-maps-api-review/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

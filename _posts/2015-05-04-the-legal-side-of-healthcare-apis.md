@@ -2,7 +2,7 @@
 layout: post
 title: The Legal Side of Healthcare APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/validic/validic-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/validic/validic-logo.png
 author:
   name: kinlane
 tags:

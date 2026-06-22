@@ -3,7 +3,7 @@ layout: post
 title: Have Fun with Your Terms of Service
 url: http://apievangelist.com/2010/09/25/hello-world/
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/slack/slack-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/slack/slack-logo.jpg
 author:
   name: kinlane
 tags:

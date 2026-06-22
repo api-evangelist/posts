@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Perils Of API Transport Over The Public Internet
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-danger.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-danger.png
 author:
   name: kinlane
 tags: []

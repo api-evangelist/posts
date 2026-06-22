@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NASA Adds a Little Extra Github To Their Digital Strategy
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/nasa_logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/nasa_logo.png
 author:
   name: kinlane
 tags:

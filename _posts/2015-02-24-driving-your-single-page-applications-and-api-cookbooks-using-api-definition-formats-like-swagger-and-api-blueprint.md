@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Driving Your Single Page Applications And API Cookbooks Using API Definition Formats Like Swagger And API Blueprint
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/lucybot/lucybot-full-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/lucybot/lucybot-full-logo.png
 author:
   name: kinlane
 tags:

@@ -8,7 +8,7 @@ tags:
   - Data
   - Open
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-please-do-not-feed-the-pigeons.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-please-do-not-feed-the-pigeons.jpeg
 ---
 One way people try to appeal to me in regards to artificial intelligence (AI) is by telling me it will make data more accessible. As the API Evangelist I am regularly advocating for companies, organizations, institutions, and government agencies to make their data more accessible using HTTP APIs. Which is a very nuanced argument which people misread and misinterpret in some pretty telling ways. The people who are believers in AI know this about me, and regularly try to appeal to my desire to just make data more accessible, without actually having read my work, understanding my position, or seeing the finer details of API management and service composition and how this plays out in making data "accessible" via the Internet.
 

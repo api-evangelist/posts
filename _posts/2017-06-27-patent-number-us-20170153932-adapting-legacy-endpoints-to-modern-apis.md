@@ -6,11 +6,11 @@ tags:
   - Patents
   - API Evangelist
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/jetpack-patent.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/jetpack-patent.jpg
 author:
   name: kinlane
 ---
-<p><img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/jetpack-patent.jpg" align="right" width="35%" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/jetpack-patent.jpg" align="right" width="35%" style="padding: 15px;" /></p>
 [I made my API patent inventory a little more explorable this week](http://patents.apievangelist.com/#Patents), allowing me to more easily discover new and interesting patents that will affect the world of APIs, which I can include in my research. An interesting patent from eBay quickly floated up to the top as a questionable idea for a patent.
 
 [**Adapting legacy endpoints to modern APIs:**](http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=09576314&OS=09576314&RS=09576314)

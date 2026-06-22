@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Time Tracking Platform Harvest Moves API Docs and App Showcase to Github
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/harvest-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/harvest-logo.png
 author:
   name: kinlane
 tags:

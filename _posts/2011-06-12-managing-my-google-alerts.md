@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Managing My Google Alerts
-image: http://kinlane-productions2.s3.amazonaws.com/google/google-alerts.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/google/google-alerts.jpg
 author:
   name: kinlane
 tags: []

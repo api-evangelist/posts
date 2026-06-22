@@ -2,7 +2,7 @@
 layout: post
 title: Introducing Data Ongithub
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-matrix.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/github-matrix.jpg
 author:
   name: kinlane
 tags:
@@ -22,6 +22,6 @@ Data Ongithub can be forked and deployed to run under any Github account as a Gi
 
 Using [oAuth.io](http://oauth.io "oauth.io"), Data OnGithub enables completely client-side authentication using Github oAuth, and if a user is a member of the repository, they are allowed to not just upload and convert common open data file formats, but also save them as JSON files to the master repository. This approach creates a self-contained data conversion, management and storage platform that if you keep open source, is completely free to operate. Think of it as a "pod" for your open data.
 
-![](https://s3.amazonaws.com/kinlane-productions2/data-on-github/pod-container.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/data-on-github/pod-container.png)
 
 If you have any comments, visit the [blog](/blog/), [roadmap](/roadmap.html), then submit your questions via the [Github Issue Management](https://github.com/ongithub/data/issues) for the project.

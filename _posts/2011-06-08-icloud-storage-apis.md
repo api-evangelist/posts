@@ -2,7 +2,7 @@
 layout: post
 title: iCloud Storage APIs
 url: http://apievangelist.com/2011/06/08/icloud-storage-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -10,7 +10,7 @@ tags:
   - Storage
   - APIs
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/apple/iCloud-Steel.jpg)[iCloud](http://www.apple.com/icloud/ "iCloud") storage APIs allow IOS application developers to store documents and other data to a central location so userscan view or edit from any device without having to sync or transfer files.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/apple/iCloud-Steel.jpg)[iCloud](http://www.apple.com/icloud/ "iCloud") storage APIs allow IOS application developers to store documents and other data to a central location so userscan view or edit from any device without having to sync or transfer files.
 
 There are two ways that applications can take advantage of iCloud storage:
 
@@ -21,7 +21,7 @@ Most applications will use iCloud document storage to share documents, which is 
 
 Key-value storage will be used for smallkinlane-productions2.s3.amazonaws.comlication state, settings, and other important information that delivers a better user experience. Although not as apparent to the end-user, key-value storage will be just as important as document storage.
 
-![](http://kinlane-productions.s3.amazonaws.com/apple/iCloud-Storage-APIs.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/apple/iCloud-Storage-APIs.png)
 
 All iCloud storage is managed centrally by the iCloud service, which handles coordination of documents and key-value stores. The iCloud service handles storage searches, change notifications, version control, conflicts, and security for applications that integrate with a user's iCloud storage account.
 

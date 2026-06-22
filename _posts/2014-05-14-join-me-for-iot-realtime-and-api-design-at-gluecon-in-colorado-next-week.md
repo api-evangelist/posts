@@ -2,7 +2,7 @@
 layout: post
 title: Join Me For Iot, Realtime And API Design At Gluecon In Colorado Next Week
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-gluecon/gluecon.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-gluecon/gluecon.png
 author:
   name: kinlane
 tags:

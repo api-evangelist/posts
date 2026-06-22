@@ -4,7 +4,7 @@ title: >-
   Delivering Value For Developers Is First When It Comes To The Census Bureau
   APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/census.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/census.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reconciling My API Orchestration Research With the Evolution of IDE, SDK, and HTTP Clients
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puzzle-round.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-puzzle-round.png
 author:
   name: kinlane
 tags:

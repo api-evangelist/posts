@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'An API For The Interactive JumboTron Floor Display At The National Museum of Mathematics (MoMath) In New York '
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/national-museum-of-mathematic/momath-museum-of-mathematics.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/national-museum-of-mathematic/momath-museum-of-mathematics.jpg
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ As part of their plans to reach people outside New York City, and encourage them
 
 At the heart of the interactive mathematics exhibit:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/national-museum-of-mathematic/momath-floor.jpg)](http://momath.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/national-museum-of-mathematic/momath-floor.jpg)](http://momath.org/)
 
 > _"There will be an API (application programming interface)—a system by which groups can submit their own activity to be displayed on the Math Square floor. We will invite submissions from across the country. And we’ll have a curation process, of course. If one group’s exhibit is selected, we’ll give them the opportunity through live streaming video where the class can see another group in the museum interacting with their creation and get feedback about what these other students experienced as they explored whatever puzzle, problem, or illustration the originators created. We’re looking forward to that as a way of connecting people from around the country."_
 

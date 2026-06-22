@@ -2,7 +2,7 @@
 layout: post
 title: Dwolla Open Sources Mobile Payment App
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dwolla-open-source-iphone-app.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dwolla-open-source-iphone-app.png
 author:
   name: kinlane
 tags:

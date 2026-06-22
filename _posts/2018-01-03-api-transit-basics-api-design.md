@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'API Transit Basics: API Design'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-design.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-design.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-design.png" align="right" width="25%" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-design.png" align="right" width="25%" style="padding: 15px;" />
 
 <p><em>This is a series of stories I’m doing as part of <a href="http://basics.apievangelist.com/">my API Transit work</a>, trying to map out a simple journey that some of my clients can take to rethink some of the basics of their API strategy. I’m using a subway map visual, and experience to help map out the journey, which I’m calling <a href="http://basics.apievangelist.com/">API transit</a>–leveraging the verb form of transit, to describe what every API should go through.</em>
 

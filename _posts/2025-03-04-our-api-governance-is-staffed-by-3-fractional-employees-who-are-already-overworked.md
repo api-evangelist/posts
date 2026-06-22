@@ -9,7 +9,7 @@ tags:
   - Champions
   - Communication
   - Self-Service
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-japanese-carrying-over-bridge.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/francis-williams-japanese-carrying-over-bridge.jpeg
 ---
 Rarely do you come across an API governance program that has the resources they need. Most of the teams we talk to are staffed by maybe 1 full time person, but usually are just a handful of individuals who are working part time as part of an already overloaded workload. Because API governance touches almost every part of enterprise operations the workload talking to teams and reviewing their APIs can quickly become a bottleneck, which is why API Evangelist is working to produce snackable guidance that can help teams be more efficient and effective in their work. Here are just a couple of recommendations we have for teams who are understaffed and under-resourced.
 

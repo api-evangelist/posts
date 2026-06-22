@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Expanding My Awareness Of How APIs Are Being Used At The Network Level
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Cisco_DevNet__pxGrid.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Cisco_DevNet__pxGrid.png
 atomdate: 2016-08-18 19:38:00+00:00
 tags:
 - Network

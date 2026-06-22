@@ -10,7 +10,7 @@ tags:
   - Payments
   - Healthcare
   - Advertising
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-supreme-court-columns.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-supreme-court-columns.jpg
 ---
 I have been tuned into and contributing towards the regulation of APIs for payments and healthcare space for a number of years. I feel that the work to regulate payment APIs must continue being the top priority when it comes to regulation of APIs—-PSD2, 1033, and other work is super critical moving forward. Along with that work, I feel that the second top priority must be healthcare interoperability with FHIR and other relevant schema, but after payments and healthcare, I believe that regulating advertising APIs must be the 3rd highest priority.
 

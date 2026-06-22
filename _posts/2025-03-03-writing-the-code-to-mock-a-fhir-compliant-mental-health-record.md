@@ -7,7 +7,7 @@ tags:
   - Healthcare
   - Mental Health
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/purple-circuit-old-chair-hopsital.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/purple-circuit-old-chair-hopsital.jpg
 ---
 [The Fast Healthcare Interoperability Resources (FHIR)](https://fhir.org/) provides a standardized way to make healthcare records more interoperable across different healthcare providers. Healthcare interoperability is essential to ensuring people are getting the help they need, when they need it. To help demonstrate the potential of the FHIR specification to mock a mental health behavior record by writing the code for a simple Node.js API.
 

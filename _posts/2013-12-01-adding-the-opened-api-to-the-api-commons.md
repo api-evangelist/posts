@@ -2,7 +2,7 @@
 layout: post
 title: Adding The OpenEd API To The API Commons
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/open-ed-logo-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/open-ed-logo-2.png
 author:
   name: kinlane
 tags:

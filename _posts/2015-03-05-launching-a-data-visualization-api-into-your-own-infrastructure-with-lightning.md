@@ -2,7 +2,7 @@
 layout: post
 title: Launching A Data Visualization API Into Your Own Infrastructure With Lightning
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/lightning-data-visualization-server.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/lightning-data-visualization-server.png
 author:
   name: kinlane
 date: 2015-03-05T23:54:40.000Z

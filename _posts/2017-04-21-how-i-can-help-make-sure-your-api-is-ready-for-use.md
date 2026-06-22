@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How I Can Help Make Sure Your API Is Ready For Use
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/drone_control_sunset.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/drone_control_sunset.png
 atomdate: 2017-04-21 19:00:00+00:00
 tags:
 - API Evangelist

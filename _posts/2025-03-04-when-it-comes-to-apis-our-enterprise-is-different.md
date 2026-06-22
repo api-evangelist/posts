@@ -10,7 +10,7 @@ tags:
   - JSON
   - Portals
   - OpenAPI
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-nyc-57th-3.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/citizenship-nyc-57th-3.jpeg
 ---
 I hear this quite regularly from folks I talk to about API governance. That their enterprise organization is different. I get that, and it probably is in many ways, but when it comes to interfacing with applications and integrating with external systems-—it helps to not be that different from the industries you operate within. I would even add that you are likely not that different, but you may not have a lot of exposure to how other enterprises work to see the similarities, and just prefer the insulated qualities of what you are used to. APIs are all about tuning into conversations outside your enterprise and striking a balance between what is unique and special about your enterprise, and what the market thinks has value. It is easy to focus on the differences, but maybe you should be starting with the similarities, such as the following.
 

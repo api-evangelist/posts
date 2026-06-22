@@ -2,7 +2,7 @@
 layout: post
 title: 'Initial Thoughts About #ReclaimYourDomain'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/person-spider-web.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/person-spider-web.jpg
 author:
   name: kinlane
 tags:
@@ -15,11 +15,11 @@ The ability for me to own [kinlane.com](/admin/blog/kinlane.com), point it at a 
 
 Anytime I can teach this approach to someone else and empower them to own their own domain, I’ve jumped at the chance, resulting in numerous individuals who have their own thriving domains--including my girlfriend [Audrey Watters](http://audrewyatters.com "Audrey Watters") with her blog [Hack Education](http://hackeducation.com "Hack Education"). Understanding what is necessary to purchase, own and manage your domain, servers, sites, applications and other portions of our digital lives is something everyone should do! But be careful, you just might change the world, and make a significant impact like Audrey ([@audrewyatters](https://twitter.com/audreywatters)) has.
 
-![](https://s3.amazonaws.com/kinlane-productions2/reclaimyourdomain/mit-media-lab-phillip.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/reclaimyourdomain/mit-media-lab-phillip.jpg)
 
 Last weekend while at MIT, I had a chance to work on a project that takes this concept of owning your domain and looks to make it an educational resource anyone can take advantage of. I ended up at the MIT Media Lab after being summoned for an [open learning hackathon](http://open.media.mit.edu/hackathon.html "open learning hackathon") by MIT and Phillip Schmidt ([@schmidtphi](https://twitter.com/schmidtphi)) of [P2PU](https://p2pu.org/en/).  During the event I had the pleasure of plotting and scheming with infamous technology educator Jim Groom ([@jimgroom](https://twitter.com/jimgroom)) and education rabble rouser Audrey Watters on an [idea Jim brought with him](http://bavatuesdays.com/a-domain-of-ones-own-to-community-syndication-hubs/), that was born out of the [University of Mary Washington Domain of One's Own Project](http://umwdomains.com/).
 
-![](https://s3.amazonaws.com/kinlane-productions2/reclaimyourdomain/kin-jim-brainstorming.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/reclaimyourdomain/kin-jim-brainstorming.jpg)
 
 After the hackathon was kicked off properly Friday afternoon, Jim and I spent the afternoon of whiteboarding, followed up by a quality evening of beer drinking, in which Jim, Audrey and I hatched a plan we called #ReclaimYourDomain, which would act a hub to allow anyone to easily learn about taking control over their domain, complete with the tools for actually delivering on the promise.
 
@@ -50,7 +50,7 @@ When done running the #ReclaimYourDomain wizard, the service will purchase a top
 
 The goal is to successfully setup a domain, landing page and blog for a user, but the mission is to educate the user about the process ,different resources, location configurations by providing a series of learning objects and migration paths which will allow users to make educated decisions about which options are best for them. If you want to understand more about why this is important read Audrey's [Reclaim Your Domain: A #ReclaimOpen Hackathon Project](http://hackeducation.com/2013/04/11/reclaim-your-domain/) and Jim's [Reclaim Open Learning](http://bavatuesdays.com/reclaim-open-learning/), located at their domain blogs.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/gears-brain.jpg)](http://fineartamerica.com/featured/4-brain-design-by-cogs-and-gears-setsiri-silapasuwanchai.html "Brain Gears")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/gears-brain.jpg)](http://fineartamerica.com/featured/4-brain-design-by-cogs-and-gears-setsiri-silapasuwanchai.html "Brain Gears")
 
 ### Learning Objects
 
@@ -87,7 +87,7 @@ Each #ReclaimYourDomain site will also have a programmatic layer allowing discov
 
 ### Domain Modules
 
-[![](https://s3.amazonaws.com/kinlane-productions2/reclaimyourdomain/puzzle-cloud-services.png)](http://reclaimyourdomain.org "Reclaim")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/reclaimyourdomain/puzzle-cloud-services.png)](http://reclaimyourdomain.org "Reclaim")
 
 #ReclaimYourDomain will initially employ a handful of modules, but eventually could provide access to a robust library of common or niche components. While the goal is to empower users to set up application within their domain, the platform will easily support common cloud services like Tumblr, Flickr, Evernote and others--with the intention of educating users about the pros and cons of each service, with clear migration paths between resource services and various locations.
 
@@ -97,7 +97,7 @@ All domain modules will have their own learning objects to support educating use
 
 ### Next Steps
 
-[![](https://s3.amazonaws.com/kinlane-productions2/fist.png)](http://reclaimyourdomain.org "Reclaim")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/fist.png)](http://reclaimyourdomain.org "Reclaim")
 
 Currently Jim, Audrey and I have a mocked up version of [#ReclaimYourDomain Hub](http://reclaimyourdomain.org/) and a [#ReclaimYourDomain domain site](http://template.reclaimyourdomain.org/).  All the buttons and lnks work, so make sure and click around to see it in action.  I need to gather my thoughts from the project, then I will be publishing all #ReclaimYourDomain code and a framework for planning via Github.
 

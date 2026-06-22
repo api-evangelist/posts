@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overview Of The Backend as a Service (BaaS) Space
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
 
 **May 2013**
 
-![](https://s3.amazonaws.com/kinlane-productions2/baas/tag-cloud-black-baas-2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/baas/tag-cloud-black-baas-2.png)
 
 Table of Contents
 =================
@@ -81,4 +81,4 @@ What is possible with BaaS varies depending on the platform provider, but we are
 
 BaaS is a natural response to software development being moved into the cloud, and the decoupling of common resources into individual APIs.  In 2013 we know we need our platforms to perform and scale in the cloud, while bringing the resources we depend on into meaningful sets that we can efficiently build apps around, without having to go gather them from around the web.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/baas-trends.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/trends/baas-trends.png)

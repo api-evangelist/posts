@@ -2,7 +2,7 @@
 layout: post
 title: It Takes A Team Of Evangelists To Raise An API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sendgrid/sendgrid-logo.jpeg
 author:
   name: kinlane
 tags:
@@ -15,45 +15,45 @@ The blog series delivers some great API evangelism wisdom, from the mouths of ev
 
 You have two managers leading the charge:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid-tim-falls.jpeg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sendgrid/sendgrid-tim-falls.jpeg)
 
 Tim Falls [@timfalls](https://twitter.com/timfalls)) - Director of Developer Relations
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid-brandon-west.jpeg)](https://twitter.com/bwest)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sendgrid/sendgrid-brandon-west.jpeg)](https://twitter.com/bwest)
 
 Brandon West ([@bwest](https://twitter.com/bwest)) - Manager of Developer Relations
 
 Then 8 developer evangelists, making up the evangelist team:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid-nick-quinlan.png)](https://twitter.com/YayNickQ)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sendgrid/sendgrid-nick-quinlan.png)](https://twitter.com/YayNickQ)
 
 Nick Quinlan ([@YayNickQ](https://twitter.com/YayNickQ)) - Developer Evangelist
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid-scottmotte.jpeg)](https://twitter.com/scottmotte)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sendgrid/sendgrid-scottmotte.jpeg)](https://twitter.com/scottmotte)
 
 Scott Motte ([@scottmotte](https://twitter.com/scottmotte)) - Developer Evangelist
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid-martin-davies.jpeg)](https://twitter.com/martynd)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sendgrid/sendgrid-martin-davies.jpeg)](https://twitter.com/martynd)
 
 Martyn Davies ([@martynd](https://twitter.com/martynd)) - Developer Evangelist
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid-robin-johnson.jpeg)](https://twitter.com/rbin)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sendgrid/sendgrid-robin-johnson.jpeg)](https://twitter.com/rbin)
 
 Robin Johnson ([@rbin](https://twitter.com/rbin)) - Developer Evangelist
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid-kunal-batra.png)](https://twitter.com/kunal732)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sendgrid/sendgrid-kunal-batra.png)](https://twitter.com/kunal732)
 
 Kunal Batra ([@kunal732](https://twitter.com/kunal732)) - Developer Evangelist
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid-yamil-asusta.jpeg)](https://twitter.com/elbuo8)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sendgrid/sendgrid-yamil-asusta.jpeg)](https://twitter.com/elbuo8)
 
 Yamil Asusta ([@elbuo8](https://twitter.com/elbuo8)) - Developer Evangelist
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid-heitor-sarget.jpeg)](https://twitter.com/heitorburger)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sendgrid/sendgrid-heitor-sarget.jpeg)](https://twitter.com/heitorburger)
 
 Heitor (Burger) Sergent ([@heitorburger](https://twitter.com/heitorburger)) - Developer Evangelist
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid-eddie-zaneski.jpeg)](https://twitter.com/eddiezane)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sendgrid/sendgrid-eddie-zaneski.jpeg)](https://twitter.com/eddiezane)
 
 Eddie Zaneski ([@eddiezane](https://twitter.com/eddiezane)) - Developer Evangelist
 
@@ -63,7 +63,7 @@ Will Smidlein ([@ws](https://twitter.com/ws)) - Developer Evangelist
 
 And one distinguised hacker in residence:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendrid-elmer-thomas.jpeg)](https://twitter.com/thinkingserious)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sendgrid/sendrid-elmer-thomas.jpeg)](https://twitter.com/thinkingserious)
 
 Elmer Thomas ([@thinkingserious](https://twitter.com/thinkingserious)) - Hacker in Residence
 

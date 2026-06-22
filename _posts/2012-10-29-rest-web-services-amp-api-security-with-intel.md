@@ -3,7 +3,7 @@ published: true
 layout: post
 title: REST Web Services &amp; API Security with Intel
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Intel-IESG-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Intel-IESG-Logo.png
 author:
   name: kinlane
 tags:
@@ -27,7 +27,7 @@ The Intel REST Web Services Gateway provides:
 
 You can find a [summary of the product](http://cloudsecurity.intel.com/white-papers/enterprise-security-for-rest-soap/), a [full data sheet](http://cloudsecurity.intel.com/data-sheets/expressway-service-gateway/), as well as some video tutorials over at [Intel](http://cloudsecurity.intel.com/solutions/rest-web-services-api-security).
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/intel/intel-rest-security.gif)](http://cloudsecurity.intel.com/solutions/rest-web-services-api-security "REST Web Services & API Security")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/intel/intel-rest-security.gif)](http://cloudsecurity.intel.com/solutions/rest-web-services-api-security "REST Web Services & API Security")
 
 If you would like to know more, or have questions make sure and come to [API Strategy & Practice](http://www.apistrategyconference.com/) this week in NYC. Intel will have a session on their approach to APIs, as well as be on a panel that I’ll be moderating on API service providers.  Intel is also a [gold sponsor of API Strategy & Practice](http://www.apistrategyconference.com/sponsors.php)\--the event wouldn't be happing if it wasn't for Intel.  Thanks!
 

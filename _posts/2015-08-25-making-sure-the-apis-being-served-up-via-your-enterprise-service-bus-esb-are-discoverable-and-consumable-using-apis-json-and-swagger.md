@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Making Sure The APIs Being Served Up Via Your Enterprise Service Bus (ESB) Are Discoverable and Consumable Using APIs.json
   and Swagger
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/warewolf-esb-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/warewolf-esb-logo.png
 author:
   name: kinlane
 tags:

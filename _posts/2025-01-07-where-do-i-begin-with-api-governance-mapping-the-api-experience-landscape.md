@@ -7,7 +7,7 @@ tags:
   - Landscape
   - Experience
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-statue-of-liberty-front-bright.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-statue-of-liberty-front-bright.jpg
 ---
 To close this series, you should have a solid understanding of what API experiences actually matter most. Every enterprise API program is struggling with having too few resources, and needing to do more with less. This means that you have to have a solid understanding on what experiences will matter the most to your enterprise and you invest in the portions of your API landscape and the policies that will produce the most optimal experience possible, but in the areas that matter the most.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Continuing With The API Restaurant Analogy
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-waiter.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-waiter.png
 author:
   name: kinlane
 tags:

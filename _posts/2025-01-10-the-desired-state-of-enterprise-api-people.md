@@ -6,7 +6,7 @@ tags:
   - Enterprise Persona
   - People
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-japanese-carrying-over-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-japanese-carrying-over-bridge.jpeg
 ---
 People are the most costly, messy, and valuable asset an enterprise possesses, and enterprise leadership is extremely focused on keeping the talent they have and empowering them to do more work over time with API integrations and automation—raising the stakes for getting all the API people moving in the same direction.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scraping Static Docs Is Often Better Than Proxy For Generating Machine Readable API Definitions
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

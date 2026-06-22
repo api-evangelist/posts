@@ -9,7 +9,7 @@ tags:
 - Github
 - Support
 - Road Map
-image: https://s3.amazonaws.com/kinlane-productions2/sendgrid/sendgrid-github-screenshot.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/sendgrid/sendgrid-github-screenshot.png
 ---
 <p></p>This is a post that has been in my API notebook for quite a while. I feel it is important to keep showcasing the growing number of API providers who are not just using OpenAPI, but also managing them on Github, so I had to make the time to talk about [the email API provider SendGrid managing their OpenAPI using Github](https://github.com/sendgrid/sendgrid-oai). Adding to the stack of top tier API providers managing their API definitions in this way.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: After Combining My API Plans, Pricing, And Rating Research I See Hints Of An API Industry Economic Engine
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/API-plans-API-pricing-API-rating.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/API-plans-API-pricing-API-rating.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ What I see when I start wading through a structured approach for API providers t
 
 I wanted to explore this concept, by crafting a visualization, and ponder how common approaches to API plans, and pricing, could be complimented by a standardized API industry rating system.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/API-plans-API-pricing-API-rating.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/API-plans-API-pricing-API-rating.png)
 
 The only thing really original in this diagram, is the introduction of an API rating system, and the potential for developers being able to exchange credits between the API service providers they depend on. The rest of this standard API management approaches, that are defined by API providers like 3Scale. If you aren't familiar with modern approaches to API service composition, API providers can have many different API resources, as well as many different plans for subscribing to these API services, which provide a wealth of dimension for API providers to define, price, and limit how developers put API resources to use in applications.
 

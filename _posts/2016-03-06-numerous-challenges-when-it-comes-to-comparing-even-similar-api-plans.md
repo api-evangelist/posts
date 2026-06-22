@@ -2,7 +2,7 @@
 layout: post
 title: Numerous Challenges When It Comes To Comparing Even Similar API Plans
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twilio-api-plan.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twilio-api-plan.png
 tags:
   - Plans
 ---

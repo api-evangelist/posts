@@ -2,7 +2,7 @@
 layout: post
 title: Keep Your API Developer Area Blog Up To Date
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/espn/espn-blog.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/espn/espn-blog.png
 author:
   name: kinlane
 tags:

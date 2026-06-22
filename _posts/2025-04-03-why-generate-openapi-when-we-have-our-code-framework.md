@@ -11,7 +11,7 @@ tags:
   - Gateways
   - Documentation
   - Examples
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-skyscraper-construction-crane-2.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-skyscraper-construction-crane-2.jpeg
 ---
 Code-first is still the dominant approach to producing an API in the etnerprise, in which more teams are coming up against the need to generate an OpenAPI artifact from their code, and asking, “why do we need to generate an OpenAPI when we have our code frameworks?” It is a good question, as the code tends to be the source of truth in my enterprises, but once you begin to inventory and assess the entire lifecycle surround each API, as well as the operational considerations, there are other essential experiences involved with producing and consuming an API that will benefit or be diminished without an accurate, up-to-date, and governed OpenAPI artifact being generated from the code you’ve produced to power an API.
 

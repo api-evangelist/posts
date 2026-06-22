@@ -9,7 +9,7 @@ tags:
   - Monetization
   - Costs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-old-broken-piano-street.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-old-broken-piano-street.jpg
 ---
 There are many things you can learn about producing APIs by studying the practices of other API producers. Understanding when you should write a blog post or make some other announcements will vary from provider to provider, and very much depend on the resources you have available. Some elements of API operations aren’t always worth individual announcements, and it is interesting to assess why GitHub felt the need to [post about updating the retention period for the ‘last_activity_at’ parameter](https://github.blog/changelog/2025-01-17-updating-retention-period-for-last_activity_at-values-on-the-user-management-api-public-preview-to-90-days/#clarifying-the-behavior-of-last_activity_at-in-the-context-of-the-current-changes), with the following bullets shared for why this change warranted its own blog post.
 

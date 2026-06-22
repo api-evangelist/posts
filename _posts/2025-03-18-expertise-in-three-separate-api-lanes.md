@@ -7,7 +7,7 @@ tags:
   - Economy
   - Governance
   - Operations
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/oakland-california-lane-1-2-3.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/oakland-california-lane-1-2-3.jpeg
 ---
 I have been collaborating with [Claire Barret of APIsFirst](https://www.linkedin.com/in/claire-global/) and [Marjukka Niinioja of Osaango](https://www.linkedin.com/in/marjukkaniinioja/) on API consulting, partnership, and storytelling projects lately and I am really enjoying the balance they bring to my work. While I can speak to almost every aspect of enterprise API operations, I am most successful at translating the technical details not the ground floor into the business details required at higher levels. Working with Claire and Marjukka I realize just how important it is to find people who compliment what you do, but also how important it is to invest in these three separate levels when it comes to enterprise APIs.
 

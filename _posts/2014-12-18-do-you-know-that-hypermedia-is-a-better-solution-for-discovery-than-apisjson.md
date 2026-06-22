@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Do You Know That Hypermedia Is A Better Solution For Discovery Than APIs.json?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-discovery.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-api-discovery.png
 author:
   name: kinlane
 tags:

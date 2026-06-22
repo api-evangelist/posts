@@ -7,7 +7,7 @@ tags:
   - Accountability
   - Business
   - Engineeriing
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/stalin-time-city-fog-sun.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/stalin-time-city-fog-sun.jpeg
 ---
 I have worked to identify, discuss, and narrow the classic line between business and IT for this entire century. Every bit of my work as the API Evangelist has been focused on reducing the barriers for business stakeholders to get more involved in the API conversation, and encourage engineering, IT, and developer stakeholders to get more involved in the business conversations. After 25 years of doing this and seeing the pushback from both sides on why they shouldn’t be crossing the line, I am convinced that this line is intentional and it is purely there as an accountability sink. 
 

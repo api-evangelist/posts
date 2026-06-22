@@ -2,7 +2,7 @@
 layout: post
 title: Connecting Our History At The Digital Public Library of America Using APIs And JSON-LD
 sourceurl: http://apievangelist.com/2015/01/07/connecting-our-history-at-the-digital-public-library-of-america-using-apis-and-jsonld/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/digital-public-library-of-america/DPLA_logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/digital-public-library-of-america/DPLA_logo.jpg
 author:
   name: kinlane
 tags:

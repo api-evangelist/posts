@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Publicly Available Private Target APIs
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/developer-target-com-portal.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/developer-target-com-portal.png
 author:
   name: kinlane
 tags:

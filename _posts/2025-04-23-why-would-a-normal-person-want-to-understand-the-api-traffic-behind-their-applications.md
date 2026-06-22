@@ -7,7 +7,7 @@ tags:
   - Applications
   - Traffic
   - Proxies
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-audrey-nyc-skyline.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-audrey-nyc-skyline.jpeg
 ---
 I find the traffic behind our online web and mobile phone activity to interesting. [I am exploring how to use Mitmproxy to pull back the curtain on the APIs in use by the applications I depend upon](https://apievangelist.com/2025/04/22/when-applications-demand-all-the-attention-copy/). I am nerdy and enjoy the technical and system detail of our online world, so I understand that most people will be not be interested in thinking about this layer of our world. I mean people tend to not care about the electricity in their homes and the water in the faucet until they stop or begin to cost to much. So why would people care about the APIs behind their daily activity online? I figured I’d try to explore this from a variety of angles, beginning with the following areas.
 

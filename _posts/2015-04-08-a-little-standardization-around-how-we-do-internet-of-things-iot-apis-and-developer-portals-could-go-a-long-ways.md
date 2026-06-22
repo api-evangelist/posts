@@ -4,7 +4,7 @@ title: >-
   A Little Standardization Around How We Do Internet of Things (IoT) APIs And
   Developer Portals Could Go a Long Ways
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/myfox/myfox-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/myfox/myfox-api.png
 author:
   name: kinlane
 tags:

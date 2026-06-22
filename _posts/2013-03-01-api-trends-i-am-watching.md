@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Trends I Am Watching
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/top-tech-trends.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/top-tech-trends.jpg
 author:
   name: kinlane
 tags:
@@ -25,7 +25,7 @@ To change things up a little I moved a couple of the most important trends in AP
 *   **Reciprocity** - The integration, interoperability, automation and transformation of data between cloud services, in a way that respects the relationshiop between user and platform, that uses APIs.
 *   **Realtime** - A realtime flow of data and resources using APIs and web technologies, meeting the demand of the API economy.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/tag-cloud-api-trends.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/tag-cloud-api-trends.png)
 
 I feel these areas will represent a shift in how APIs are deployed and consumed to meet the growing demand for the data and resources driving web and mobile applications. While the API should exist on its own, these areas represent an evolution in how APIs are bundled together into more meaningful stacks, new mashups of resources and providing the integration, interoperability, automation and real-time needs of businesses in the API economy.
 

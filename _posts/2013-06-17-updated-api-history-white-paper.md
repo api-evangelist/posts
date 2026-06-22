@@ -2,7 +2,7 @@
 layout: post
 title: Updated API History White Paper
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-white-papers-history-of-apis.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-evangelist-white-papers-history-of-apis.png
 author:
   name: kinlane
 tags:
@@ -26,4 +26,4 @@ You can [download an updated copy of the History of APIs](http://bit.ly/19dMjBe)
 
 Make sure and share the History of APIs with your friends and anyone you think would benefit learning about the space.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/whitepapers/download-as-pdf.jpeg)](http://bit.ly/19dMjBe)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/whitepapers/download-as-pdf.jpeg)](http://bit.ly/19dMjBe)

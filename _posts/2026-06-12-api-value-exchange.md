@@ -4,7 +4,7 @@ layout: post
 title: API Value Exchange
 date: 2026-06-12
 author: Kin Lane
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/1939-new-york-worlds-fair-markets-amsterdam.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/1939-new-york-worlds-fair-markets-amsterdam.jpeg
 tags:
   - Value Exchange
   - Monetization

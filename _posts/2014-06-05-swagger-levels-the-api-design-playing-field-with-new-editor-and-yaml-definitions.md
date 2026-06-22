@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Swagger Levels The API Design Playing Field With New Editor And YAML Definitions
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-editor.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/swagger-editor.png
 author:
   name: kinlane
 tags:

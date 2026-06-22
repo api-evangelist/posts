@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Public And Private Sector Hybrid Data Marketplaces
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/copenhagens_innovative_big_data_marketplace.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/copenhagens_innovative_big_data_marketplace.png
 atomdate: 2017-05-09 16:00:00+00:00
 tags:
 - Marketplace

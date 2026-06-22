@@ -2,13 +2,13 @@
 layout: post
 title: Definition of Hack
 url: http://apievangelist.com/2012/01/10/definition-of-hack/
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Hack-the-Planet.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Hack-the-Planet.jpg
 author:
   name: kinlane
 tags:
 - Definitions
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Hack-the-Planet.jpg)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Hack-the-Planet.jpg)
 
 I’m spending a lot of time traveling around the country going to [hackathons](/events/ "hackathons"). I find myself constantly explaining what the term hack means.
 

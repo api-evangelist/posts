@@ -2,7 +2,7 @@
 layout: post
 title: A Walk Through Data.gov with Some Thoughts on Whats Next
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Datagov.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Datagov.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ Data.gov is not just for developers, many of the data-sets are available in inte
 
 Since Data.gov is a the top level site for the open data initiative, there is an obvious need to break it down into some smaller communities. These communities include:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/data-gov/Energy-Data-Gov.png)](http://www.data.gov/communities/energy "Energy")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/data-gov/Energy-Data-Gov.png)](http://www.data.gov/communities/energy "Energy")
 
 *   **[Energy](http://www.data.gov/communities/energy "Energy")** - Data, tools, apps, challenges, resources, blog, forums centered around energy data, meant to facilitate public discussion of and awareness on our Nation’s energy activity.
 *   **[Health](http://www.data.gov/communities/health "Health")** - Data, apps, blog and forum centered around health and health care, intended to help the public make better informed decisions about their health.
@@ -31,7 +31,7 @@ There are two other communities, that are more focused on technology, as opposed
 *   **[Open Data](http://www.data.gov/communities/opendata "Open Data")** - Blog, forum and Twitter stream dedicate to the concept of open data and the government, and the community being built around it.
 *   **[Semantic Web](http://www.data.gov/communities/semantic "Semantic Web")** - Apps, blog and forums dedicated to evolving linked data amongst the Data.gov open data initiative.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/data-gov/Environmental-Compliance-Data.png)](http://explore.data.gov/Geography-and-Environment/EPA-Enforcement-and-Compliance-History-Online-ECHO/c8kh-iqih "Environmental and Compliance Data")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/data-gov/Environmental-Compliance-Data.png)](http://explore.data.gov/Geography-and-Environment/EPA-Enforcement-and-Compliance-History-Online-ECHO/c8kh-iqih "Environmental and Compliance Data")
 
 There is one more community called **"[Restore the Gulf](http://www.data.gov/restorethegulf "Restore the Gulf")"**, which is focused around the specific issue that we are facing down in the Gulf of Mexico. Hopefully it is the start of a third type of Data.gov community that can address various issues our country faces, pulling together data, tools and resources to build a community to address the issue.
 
@@ -41,13 +41,13 @@ There are other sections tying together the site like an [about page](http://www
 
 The site does a great job showcasing applications and important data-sets with a gallery, also using feature displays on the home page and within community pages. These are great for exposing some of the great data-sets and applications available within the site. This kind of discovery is very important to introducing users to whats available without feeling overwhelmed by the large amounts of data available.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/data-gov/Featured-Tool.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/data-gov/Featured-Tool.png)
 
 Overall Data.gov does an amazing job of delivering huge amounts of quality government data-sets in very usable formats, making it interactive and providing applications for working with the data. There are also APIs available for accessing the data, which is extremely important in empowering developers to build web an mobile applications, crunch data and build visualizations that shedding light into how our government operates, increasing participation. The Data.gov platform and APIs are delivered by a service provider called [Socrata](http://www.socrata.com/ "Socrata"). I will provide more coverage of the APIs and Socrata after I work with them a little more, and gain a better understanding of how they work.
 
 A lot of effort has been put into building community around the Data.gov initiative, but as I mentioned in my last post about [bringing awareness to Data.gov with grassroots evangelism](/2011/10/24/bringing-awareness-to-data-gov-with-grassroots-evangelism/ "Bringing Awareness to Data.Gov with Grassroots Evangelism"), I think there is a lot more to do in making sure people everywhere are aware Data.gov exists and do a little more to bring them to the site, by reaching out to the online communities where they already exists, like [Github](http://github.com "Github"), [Stack Exchange](http://stackexchange.com/ "Stack Exchange") and [Hacker News](http://news.ycombinator.com/ "Hacker News"), participating in their community, listening, joining and taking part in their world.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/data-gov/digital-town-hall.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/data-gov/digital-town-hall.png)
 
 There is a lot that can be done online to create awareness around the resources our government is making available, but a robust online presence is not enough. There needs to be a grassroots effort to bring Data.gov to every small town, engaging the public within each community via schools, libraries and other community gathering places--make them aware of the rich resources our government has exposed and challenge them to come together and help us find the answers that make our government operate more efficiently.
 

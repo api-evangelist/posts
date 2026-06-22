@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Making Sure Your API Service Connects To Other Stops Along The API Lifecycle'
-image: https://s3.amazonaws.com/kinlane-productions2/runscope/runscope-connected-services.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/runscope/runscope-connected-services.png
 ---
 
-<p><a href="https://www.runscope.com/docs/api-testing/integrations"><img src="https://s3.amazonaws.com/kinlane-productions2/runscope/runscope-connected-services.png" align="right" width="40%" style="padding: 15px; " /></a>
+<p><a href="https://www.runscope.com/docs/api-testing/integrations"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/runscope/runscope-connected-services.png" align="right" width="40%" style="padding: 15px; " /></a>
 <p>I am continuing <a href="http://ipaas.apievangelist.com/">my integration platform as a service research</a>, and spending a little bit of time trying to understand how API providers are offering up integrations with other APIs. Along the way, I also wanted to look at how API service providers are doing it as well, opening themselves up to other stops along n API lifecycle. To understand how API service providers are allowing their users to easily connect to other services I’m taking a look at how my partners are handling this, starting with <a href="https://www.runscope.com/docs/api-testing/integrations">connected services at Runscope</a>.
 
 <p>Runscope provides ready to go integration of their API monitoring and testing services with twenty other platforms, delivering a pretty interesting Venn diagram of services along the API lifecycle:

@@ -2,7 +2,7 @@
 layout: post
 title: An APIs.json Collection Of API Resources Across Your Public, Partner Or Internal Resources
 sourceurl: http://apievangelist.com/2014/08/19/an-apisjson-collection-of-api-resources-across-your-public-partner-or-internal-resources/
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-internal-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-internal-api.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ tags:
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-internal-api.png)](http://apisjson.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-internal-api.png)](http://apisjson.org/)
 
 [APIs.json](http://apisjson.org/) was designed to be a versatile API discovery format, not just a format for public API discovery via search engines like [APIs.io](http://apis.io). An APIs.json is meant to be a machine readable index of APIs within a single developer hub, providing information on the API endpoints as well as any other supporting resources--there is no reason that all of this can’t also be applied in a private setting.
 

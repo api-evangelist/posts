@@ -2,7 +2,7 @@
 layout: post
 title: Hacker Storytelling
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-Hacker-Storytelling.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-Hacker-Storytelling.png
 author:
   name: kinlane
 tags:

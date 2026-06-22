@@ -9,7 +9,7 @@ tags:
   - Rate Limits
   - Onboarding
   - Usage
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-surveillance-over-the-city.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-surveillance-over-the-city.jpg
 ---
 I have long been an advocate for wide self-service API onboarding with loose rate limits, but in the age of artificial intelligence I’ve gotten much more conservative. APIs have always been about identifying who is consuming your digital resources and imposing service composition on them, ensuring API consumers only have access to the resources they are supposed to and only the amount of those resources that are in alignment with wider business strategy. The technology for managing your API consumers hasn’t changed in 15 years, but my guidance on how to use them has in the following ways.
 

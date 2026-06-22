@@ -2,7 +2,7 @@
 layout: post
 title: All You Can Eat Buffet of Developer Tools at Splunk
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/splunk-logo.gif
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/splunk-logo.gif
 tags:
   - Tools
 ---

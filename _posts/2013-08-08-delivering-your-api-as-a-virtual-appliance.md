@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Delivering Your API as a Virtual Appliance
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/repustate-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/repustate-logo.png
 author:
   name: kinlane
 tags:

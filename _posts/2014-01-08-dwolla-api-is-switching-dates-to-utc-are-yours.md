@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dwolla API Is Switching Dates to UTC, Are Yours?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/timezone_UTC.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/timezone_UTC.png
 author:
   name: kinlane
 tags:

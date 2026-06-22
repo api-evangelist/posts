@@ -3,7 +3,7 @@ layout: post
 title: >-
   If Your API Is Worthy Of Mentioning In Your Press Release It Should Also Be
   Linked On Your Website
-image: https://s3.amazonaws.com/kinlane-productions2/api-report/api-report-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png
 tags:
   - Web
 ---

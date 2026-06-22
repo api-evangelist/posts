@@ -2,7 +2,7 @@
 layout: post
 title: Storytelling and the Future of Hypermedia APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/one-night-at-kachka-eater.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/one-night-at-kachka-eater.png
 author:
   name: kinlane
 tags:

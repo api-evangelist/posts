@@ -2,7 +2,7 @@
 layout: post
 title: API Patents 2005 Through 2015
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/patent-diagram.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/patent-diagram.jpg
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ In 2004, the XML data files I'm processing start to change, and I'm getting erro
 
 So far, I have found 16,485 patent applications that had the phrase "application programming interface" in either the title, abstract, or full description for the patent. I found [151 patents that specifically mentioned API in the patent title](http://patents.apievangelist.com/patents.html?filter=name), and [569 that specifically said it in the abstract](http://patents.apievangelist.com/patents.html?filter=abstract). Here is the breakdown by year:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/patent-diagram.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/patent-diagram.jpg)
 
 *   [2015 - 105](http://patents.apievangelist.com/patents.html?filter=2015)
 *   [2014 - 322](http://patents.apievangelist.com/patents.html?filter=2014)

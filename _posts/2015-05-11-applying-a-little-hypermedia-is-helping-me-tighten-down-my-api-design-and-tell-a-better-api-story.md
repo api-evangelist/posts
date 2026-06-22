@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Applying A Little Hypermedia Is Helping Me Tighten Down My API Design And Tell A Better API Story
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hypermedia.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-hypermedia.png
 author:
   name: kinlane
 tags:

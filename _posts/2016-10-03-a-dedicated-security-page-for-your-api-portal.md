@@ -2,7 +2,7 @@
 layout: post
 title: A Dedicated Security Page For Your API Portal
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/security__datadog.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/security__datadog.png
 atomdate: 2016-10-03T20:00:00.000Z
 tags:
   - Security

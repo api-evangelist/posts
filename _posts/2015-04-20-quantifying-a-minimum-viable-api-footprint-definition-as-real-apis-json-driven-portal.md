@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Quantifying A Minimum Viable API Footprint Definition As Real APIs.json Driven Portal
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Demo-APIs_json-Driven-Portal.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Demo-APIs_json-Driven-Portal.png
 author:
   name: kinlane
 tags:

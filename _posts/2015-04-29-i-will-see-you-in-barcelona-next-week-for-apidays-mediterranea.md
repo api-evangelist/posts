@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Will See You In Barcelona Next Week For APIDays Mediterranea
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apidays-mediteranea.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apidays-mediteranea.png
 author:
   name: kinlane
 tags:
@@ -33,7 +33,7 @@ Then starting Wednesday, the main event kicks off with many of the usual suspect
 
 It doesn't stop there. What really makes me happy about APIDays, is the increasing number of local, and regional API talent the event attracts. I see a number of other talented API prfoessional, doing some very interesting talks, ranging from the business of APIs to hypermedia. This is the most important aspect of APIDays in my opinion, is that it doesn't just import API talent from around the world, it also cultivates and grows local and regional API voices.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apidays-mediteranea-2.jpg)](http://mediterranea.apidays.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apidays-mediteranea-2.jpg)](http://mediterranea.apidays.io/)
 
 I will also be speaking, closing up the two day event, with a talk on what I'm calling "A Community Driven API Lifecycle", where I'll showcase some of the work I'm doing around the tech, business, and politics of APIs, driven by Swagger, Docker, and brought together using APIs.json. This is the first in a series of talks I'll be doing on this subject, concluding with Gluecon in Colorado, later this month.
 

@@ -4,7 +4,7 @@ title: >-
   Helping EFF Urge The Courts to Block Copyright Claims in Oracle v. Google API
   Fight
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-v-oracle-brief.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google-v-oracle-brief.png
 author:
   name: kinlane
 tags:

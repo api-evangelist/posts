@@ -2,7 +2,7 @@
 layout: post
 title: Spectagram Rolls Out Instagrams Embeddable Strategy for Them
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Spectagram-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Spectagram-Logo.png
 author:
   name: kinlane
 tags:

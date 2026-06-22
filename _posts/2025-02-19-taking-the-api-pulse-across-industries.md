@@ -8,7 +8,7 @@ tags:
   - State
   - Pulse
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-times-square-up-road.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-times-square-up-road.jpg
 ---
 <div id="commit-banner" class="alert alert-success" role="alert" style="text-align: center;">
   <a href="https://github.com/api-evangelist/api-pulse">The API Pulse Schema</a>

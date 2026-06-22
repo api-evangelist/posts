@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding An OAuth Scope Page As One Of My API Management Building Blocks
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/slack-oauth-scopes.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/slack-oauth-scopes.png
 author:
   name: kinlane
 tags:

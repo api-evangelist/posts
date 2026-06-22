@@ -7,7 +7,7 @@ tags:
   - Monetization
   - Advertising
   - Social Media
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-old-piano-playing-hospital.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-old-piano-playing-hospital.jpg
 ---
 I am spending more time thinking about [where good APIs go bad](https://apievangelist.com/2025/04/02/where-good-apis-go-bad/), and it is something that has helped me understand how things change once a platform moves beyond doing the original thing they are known for and begin scaling and automating their monetization functions using APIs. You can see what I am talking about relfected in [why monetization governance is the next frontier of tech policy](https://www.techpolicy.press/beyond-content-why-monetization-governance-is-the-next-frontier-of-tech-policy/), and [why monetization systems are what is broken and in need of fixing](https://www.whattofix.tech/publications/monetization2025/). From my experience the problem isn’t just that these platforms have developed monetization functions, it is that they are scaling them using APIs and providing a Las Vegas style casino on top of the social layer that has emerged around the globe.
 

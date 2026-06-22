@@ -10,7 +10,7 @@ tags:
   - Vacuum
   - libopenapi
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-spacce-burger-fence.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-spacce-burger-fence.jpeg
 ---
 Quobix from from Princess Beef Heavy Industries came by again, this time to talk about [OpenAPI Doctor](https://bit.ly/3UTwuOF) and [libopenapi](https://bit.ly/4hAxBf2) at it's core. I knew "The Doctor" was a modular OpenAPI editor w/ governance built-in, but I didn't realize how deeply modularity is baked into it's design. This modularity allows Quobix to stitch together Vacuum, libopenapi, OpenAPI changes, wiretap, and other Princess Beef Heavy Industries solutions, but also potentially other 3rd party solutions. This modularity in API hubs, dashboards, and tools is becoming a common themes in conversations that I am having, and something I am going to work to leverage more as part of my work. This episode went 30 minutes because I wanted to do two separate episoides, 1) OpenAPI, 2) libopenapi, but the stories are so entertwhined we just did it back to back.
 

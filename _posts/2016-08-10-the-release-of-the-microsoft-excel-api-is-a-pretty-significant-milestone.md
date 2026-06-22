@@ -2,7 +2,7 @@
 layout: post
 title: The Release Of The Microsoft Excel API Is A Pretty Significant Milestone
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Office_Dev_Center_Excel_Powered_Apps.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Office_Dev_Center_Excel_Powered_Apps.png
 atomdate: 2016-08-10T18:00:00.000Z
 tags:
   - Micro

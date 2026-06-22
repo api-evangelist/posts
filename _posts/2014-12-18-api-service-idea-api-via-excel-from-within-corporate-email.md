@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'API Service Idea: API Via Excel From Within Corporate Email'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-email.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-email.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ To help data stewards go from spreadsheet to API, I [wrote an Excel to JSON conv
 
 Over the last year, this concept has simmered in my brain, and I can’t help but think how important both Excel and email are to the onboarding the data that exists across small businesses, the enterprise, organizations, and government agencies. Imagine if you could monitor all the email that flowed within an organization, and look for spreadsheets being emailed back and forth. This would tell you a lot of about how data is stored, managed, and shared across groups. This intelligence could then be used to help direct API efforts, and open data initiatives like the one I participated in within the federal government.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-excel-icon.jpg)](/admin/blog/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-excel-icon.jpg)](/admin/blog/)
 
 I put this idea in my Evernote a couple months back, and tried writing about it a few times, and during a recent flight I added to it. You could go beyond just identifying data usage patterns across a company, you could also generate APIs from this activity. Anytime an email with a spreadsheet attached was intercepted, a reply could be sent giving them a path to an API that was created, education about how to use that API, including a spreadsheet connector for the API, so that the person could continue working in the tools they are most comfortable, but now the data would be centralized, rather than fragmented across inboxes.
 

@@ -8,7 +8,7 @@ tags:
   - Feedback
   - Monetization
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-nyc-people-marketplace.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-nyc-people-marketplace.jpeg
 ---
 Words and phrases get tossed around in the API spaces regularly without much clarification, negotiation, and alignment on what they mean. As we engage with teams producing and consuming APIs we regularly encounter situations where someone says something and it means something else. One of these phrases that has been attached to the monetization of publicly available APIs for 3rd-party developers is the phrase API product. To help us clarify, negotiate, and align people we are working with as we shift gears from our vendor API management past, with a collective unbundled future, we wanted to distill down the essence of what an API product is for us.
 

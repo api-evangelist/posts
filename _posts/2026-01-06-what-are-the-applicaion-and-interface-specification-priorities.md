@@ -26,7 +26,7 @@ tags:
   - API Commons
   - FinOps Focus
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/red-circuit-shipping-docs-cranes.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/red-circuit-shipping-docs-cranes.jpg
 ---
 I am deep diving into the properties of interface and application specifications to understand the overlaps across the standards in use within both of these domains. I pulled the JSON Schema for five application specifications and the JSON Schema for fourteen interface specifications, then “exploded” all of the properties across all of these specifications. The JSON Schema provides me with the most honest view of each specification, and a programmatic opportunity for me to look across these specifications. 
 

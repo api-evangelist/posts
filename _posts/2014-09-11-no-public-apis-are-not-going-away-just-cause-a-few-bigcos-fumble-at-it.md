@@ -1,7 +1,7 @@
 ---
 layout: post
 title: No Public APIs Are Not Going Away Just Cause A Few BigCos Fumble At It
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-fail.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-fail.jpg
 author:
   name: kinlane
 tags:

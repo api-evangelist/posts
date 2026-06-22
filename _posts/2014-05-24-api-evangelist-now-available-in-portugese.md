@@ -2,7 +2,7 @@
 layout: post
 title: API Evangelist Now Available In Portugese
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sensedia/sensedia-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sensedia/sensedia-logo.png
 author:
   name: kinlane
 tags:

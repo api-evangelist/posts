@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'API Specifications Update for August 6th, 2021'
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-shipping-docks_36331347010_o.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-shipping-docks_36331347010_o.jpg
 tags:
     - API Specification Update
 ---

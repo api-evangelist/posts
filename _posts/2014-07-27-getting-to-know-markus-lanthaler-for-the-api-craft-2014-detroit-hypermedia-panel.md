@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Getting To Know Markus Lanthaler For The API Craft 2014 Detroit Hypermedia Panel '
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/markus-lanthaler.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/markus-lanthaler.jpg
 author:
   name: kinlane
 tags:

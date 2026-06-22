@@ -8,7 +8,7 @@ tags:
   - Business Platform
   - Platform
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-statue-of-liberty-front-bright.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/green-circuit-statue-of-liberty-front-bright.jpg
 ---
 With an [engineering platform](https://apievangelist.com/2025/01/07/where-do-i-begin-with-api-governance-mapping-api-engineering-platform-landscape/) helping teams producing APIs successfully being defined, let’s move on to the mapping of the API business platform landscape, and what the business properties of API operations will look like. This business perspective applies to both internal, private partner, or public API operations, providing a standardized way to define and govern the business aspects of making APIs available between domains within the enterprise, externally with trusted partners, and in some cases publicly to 3rd-party developers.
 

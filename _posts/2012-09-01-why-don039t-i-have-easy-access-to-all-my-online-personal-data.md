@@ -23,7 +23,7 @@ That is a pretty good start. Two of my biggest networks allow me to download dat
 
 I use all six of these services daily. It bums me out that I can’t get out my own data. Of course all of these services have an API, which allows developers to get at my data, but even [Twitter’s API doesn’t give me full access to all my accounts data](http://apivoice.com/2012/06/29/twitter-continues-to-restrict-access-to-our-tweets/ "Twitter’s API doesn’t give me full access to all my accounts data").
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/ifthisthenthat/IFTTT-My-Recipes.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/ifthisthenthat/IFTTT-My-Recipes.png)
 
 I want access to a data store of all my [Facebook](https://www.singly.com/docs/facebook "Facebook"), [Google](https://www.singly.com/docs/gcontacts "Google"), [Twitter](https://www.singly.com/docs/twitter "Twitter"), [Instagram](https://www.singly.com/docs/instagram "Instagram"), [Foursquare](https://www.singly.com/docs/foursquare "Foursquare") and [LinkedIn](https://www.singly.com/docs/linkedin "LinkedIn") data in a single location. There are software available trying to solve this problem such as [ThinkUp](http://thinkupapp.com/ "ThinkUp") or [The Locker Project](http://lockerproject.org/ "The Locker Project"). As with APIs, these solutions require you to be a developer. (I see ThinkUp has a cloud solution now)
 

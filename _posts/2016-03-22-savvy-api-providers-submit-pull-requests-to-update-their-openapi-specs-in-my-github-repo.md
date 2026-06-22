@@ -13,7 +13,7 @@ I'm constantly working to hand-craft, scrape-craft, and auto-generate [OpenAPI S
 
 This is something [the savvy API providers like SendGrid](http://sendgrid.com) are doing, rolling around Github, making sure copies of their OpenAPI Specs are up to date. 
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Update_SendGrid_Swagger_File_by_thinkingserious_·_Pull_Request__42_·_api-stack_api-stack.png)](https://github.com/api-stack/api-stack/pull/42)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Update_SendGrid_Swagger_File_by_thinkingserious_·_Pull_Request__42_·_api-stack_api-stack.png)](https://github.com/api-stack/api-stack/pull/42)
 
 Thank Elmer, you da man. Now I just need to convince another 2K other API providers of the importance of having up to date machine readable API definitions available, and actively maintain them. Having your definitions up to date, and easy to find increases the chance a developer will load up in the favorite [HTTP client like Postman, Postman, PAW, or API Garage](http://client.apievangelist.com/organizations/). 
 

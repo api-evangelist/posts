@@ -4,7 +4,7 @@ title: Notification Focused Startups Within Leading API Ecosystems
 sourceurl: >-
   http://apievangelist.com/2014/08/26/notification-focused-startups-within-leading-api-ecosystems/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/hooked-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/hooked-logo.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Continuing My Struggle For Reciprocity As ETL Evolves Into The Cloud As iPaaS
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-reciprocity2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-reciprocity2.png
 atomdate: 2016-08-18 16:00:00+00:00
 tags:
 - Cloud

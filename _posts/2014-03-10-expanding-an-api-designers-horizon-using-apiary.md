@@ -2,7 +2,7 @@
 layout: post
 title: Expanding An API Designers Horizon Using Apiary
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apiary/apiary-logo-300x93.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apiary/apiary-logo-300x93.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ I spent some time developing a [hello world product API with Blueprint, RAML And
 
 After I had gotten to a certain point in my design, and I wanted to see it in action, so I clicked on the preview button. A panel slid out showing me the interactive documentation my developers will see when it is published, and potentially see how it will work with sample API responses, and code samples in a variety of programming languages.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apiary/apiary-preview-code.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apiary/apiary-preview-code.png)
 
 Just like interactive API documentation has been important in teaching developers about an API interface, it will also assist API providers in understanding their own interface throughout the design process, and be able to better articulate the interface to developers.
 

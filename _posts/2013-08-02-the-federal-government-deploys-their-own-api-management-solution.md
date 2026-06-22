@@ -2,7 +2,7 @@
 layout: post
 title: The Federal Government Deploys Their Own API Management Solution
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-umbrella.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-umbrella.png
 author:
   name: kinlane
 tags:

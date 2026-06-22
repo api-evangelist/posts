@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The FCC Lanches API Curation Platform Called MyFCC
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/My-FCC-Logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/My-FCC-Logo.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ At first glance [MyFCC](http://my.fcc.gov/ "MyFCC") might look like just another
 
 To understand, you have to go back to the beginning and see the scope of the problem being solved. To deliver on its promise for a more open government, the FCC didn't just want a new website, they needed a platform. To do this the FCC embraced an API-driven methodology while building their web site, meant to standardize the way they deliver information between internal groups, government agencies and with the public.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/seabourne-inc/Seabourne.png)](http://seabourneinc.com/ "Seabourne")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/seabourne-inc/Seabourne.png)](http://seabourneinc.com/ "Seabourne")
 
 At the time, the managing FCC director Steve Van Roekel, partnered with [Seabourne](http://seabourneinc.com/ "Seabourne") to architect a platform that could deliver on this vision.
 
@@ -21,7 +21,7 @@ The new FCC web site would start with Drupal, providing a content management sys
 
 The new Drupal web site provided public access to the content, but the FCC needed to allow sharing of content with other departments, agencies and allow the public to get at the raw data for re-use.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/fcc/My-FCC-Available-Widgets.png)](http://my.fcc.gov/ "MyFCC")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/fcc/My-FCC-Available-Widgets.png)](http://my.fcc.gov/ "MyFCC")
 
 > _"Everyone is talking about opening up data with APIs, to me it makes more sense to focus on opening up content using APIs.", says Mike Reich, owner of Seabourne._
 
@@ -36,7 +36,7 @@ Now with MyFCC the FCC is providing a dashboard that allows anyone to curate con
 
 All of this potential is made possible through a healthy dose of open source Drupal CMS, open source Drupal modules, open data, and open APIs. That is a lot of open, and shows the commitment of the FCC.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/fcc/My-FCC-Topic-Watcher.png)](http://my.fcc.gov/ "MyFCC")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/fcc/My-FCC-Topic-Watcher.png)](http://my.fcc.gov/ "MyFCC")
 
 I sat down with Mike, while in DC in October, when he first introduced me to [Cumula](https://github.com/Cumula/framework "Cumula Framework to Github") , the framework that drives MyFCC. During their work with the FCC, they have been committing the [Cumula framework to Github](https://github.com/Cumula/framework "Cumula Framework to Github"), planting the seeds for a much larger vision of what the framework could do.
 

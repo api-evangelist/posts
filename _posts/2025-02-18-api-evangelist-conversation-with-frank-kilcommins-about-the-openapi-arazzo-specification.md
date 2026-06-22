@@ -8,7 +8,7 @@ tags:
   - Arazzo
   - Workflows
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-subway-brooklyn-station.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-subway-brooklyn-station.jpg
 ---
 Frank Kilcommins of SmartBear came by to talk about the OpenAPI Arazzo specification. He shared the history how it came to be and how it is changing the conversation inside and outside the OpenAPI Initiative (OAI). Franks done amazing work to move the API workflows specification over the finish line, but also keep it evolving and moving forward afterwards. The specification has renewed energy with API service providers who are integrating the spec into their API guided walkthroughs, SDK generation, and testing. I am a big fan of Frank's work, and wish we had 10 more of him working at the OpenAPI, so if you are feeling like you have some spare cycles, I recommend you rolling up your sleeves and getting involved.
 <style>

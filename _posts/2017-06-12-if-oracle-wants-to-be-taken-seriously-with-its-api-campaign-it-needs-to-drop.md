@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'If Oracle Wants To Be Taken Seriously With Its API Campaign It Needs To Drop'
-image: https://s3.amazonaws.com/kinlane-productions2/oracle/the-oracle-in-the-matrix.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/oracle/the-oracle-in-the-matrix.jpg
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/oracle/the-oracle-in-the-matrix.jpg" align="right" width="35%" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/oracle/the-oracle-in-the-matrix.jpg" align="right" width="35%" style="padding: 15px;" /></p>
 <p>Oracle is investing a serious amount resources to become a contender in the API space lately. [They've acquired Apiary](http://apievangelist.com/2017/01/19/oracle-acquiring-apiary/), and are beating a regular PR drum regarding API design, deployment, management, and everything API. The tech giant shows up on my API monitoring daily with new waves of messaging about how it is the platform of choice when it comes to APIs. The problem is these are always from meaningless outlets who publish every press release they get, not the sources the community looks to for answers.</p>
 
 <p></p>The company is facing an uphill battle because it is extremely late to the game, but also because of it's ongoing API copyright lawsuit against Google. I know from their vantage point they think they can just change their tune when it comes to marketing and PR, and many enterprise zombies will gladly follow along. They also can flex their financial resources and the venture capital behind startups like Apiary will also fall in line, but when it comes to gaining significant mind share amongst the core API community, they will never be taken seriously until they drop their lawsuit, and make a public announcement demonstrating their commitment to the community.</p>

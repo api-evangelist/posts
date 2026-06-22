@@ -7,7 +7,7 @@ tags:
   - Operations
   - APIOps
   - Business
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/norman-rockwell-ruby-bridges-docks-water-front-ships-containers.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/norman-rockwell-ruby-bridges-docks-water-front-ships-containers.jpg
 ---
 I was talking with Marjukka and Claire as part of regular discussions around governing API operations, and Marjukka shared their [APIOps Cycles Canvas Creator](https://canvascreator.apiopscycles.com/)--I have had it open and playing with it every since. The simple interface allows you to define API operations using the following ten APIOps Cycles Canvases.
 

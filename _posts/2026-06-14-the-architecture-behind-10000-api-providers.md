@@ -11,7 +11,7 @@ tags:
   - APIs.io
   - Standards
   - Network
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/1939-new-york-worlds-fair-city-skyline-clouds-sun-shadows.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/1939-new-york-worlds-fair-city-skyline-clouds-sun-shadows.jpeg
 ---
 When I started API Evangelist in September 2010, I was writing stories from a one-bedroom apartment in Eugene, Oregon, trying to make sense of what Twitter, Twilio, and Stripe were doing to software development. I had no idea it would eventually turn into a catalog of 10,000 API providers indexed across a searchable network. But here we are.
 

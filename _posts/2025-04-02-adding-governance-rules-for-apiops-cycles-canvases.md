@@ -10,7 +10,7 @@ tags:
   - APIs.json
   - Rules
   - Governance
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-docks-oakland-6.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-docks-oakland-6.jpeg
 ---
 [I was playing with the APIOps Cycles Canvas Creator](https://apievangelist.com/2025/04/02/the-apiops-cycles-canvas-creator/), and [published the ten possible canvases to the APIs.json for a demo product API](https://apievangelist.com/2025/04/02/adding-apiops-canveses-to-apis-json-index-for-api/). Next I want to lay the groundwork for governing the APIOPs Cycles against any API. In the same way we have API governance rules for the surface area of each API, using an OpenAPI to govern the technical details, we can produce API governance rules for the surface area of API operations, using an APIs.json to govern the business details.
 

@@ -2,7 +2,7 @@
 layout: post
 title: A 3rd Party API Showcase for Your API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twitter-counter-api-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twitter-counter-api-2.png
 author:
   name: kinlane
 tags:

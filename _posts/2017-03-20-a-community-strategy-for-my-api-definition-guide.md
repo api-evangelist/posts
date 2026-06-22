@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Community Strategy For My API Definition Guide
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_2017_03.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_definitions_2017_03.png
 atomdate: 2017-03-20 22:00:00+00:00
 tags:
 - Community

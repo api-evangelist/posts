@@ -9,7 +9,7 @@ tags:
   - Categories
   - Tags
   - Lifecycle
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-building-art-construction.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-building-art-construction.jpeg
 ---
 It is a common mistake made by API governance teams once they learn the power of linting the OpenAPI contracts at design, develop, and build time within pipelines-—turning on all rules for all APIs across all teams. There is not a one size fits all set of API governance rules and by the time teams begin applying rules they are often significantly behind when it comes to standardization, and the first encounter tends to be a little overwhelming. [This is something you can see being worked out in the schema for Vacuum API governance rule](https://apievangelist.com/2025/02/17/vacuum-api-governance-rules-all-spectral-properties-plus-id-category-and-howtofix/), which has added a category property which can be used to group rules into more meaningful sets of API governance considering the following areas.
 

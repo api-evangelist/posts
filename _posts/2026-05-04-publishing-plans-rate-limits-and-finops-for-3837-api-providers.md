@@ -3,7 +3,7 @@ layout: post
 title: "Publishing Plans, Rate Limits, and FinOps for 3,837 API Providers"
 date: 2026-05-04
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-markets-amsterdam.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-markets-amsterdam.jpeg
 category: "Blog"
 excerpt: "I just finished a project to publish three new machine-readable artifacts — API Commons Plans & Pricing, API Commons Rate Limits, and a FinOps Foundation FOCUS-aligned framework — across every API provider in the API Evangelist Network that has APIs published. That is 3,837 of the 5,127 repositories in the network. 11,511 new YAML artifacts. The full Tier 1 set of 184 well-known providers reconciled with researched values from each vendor's published pricing pages."
 ---

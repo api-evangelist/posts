@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Got A Response Regarding My Facebook Threat API Access
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_26_at_10.26.12_pm.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_01_26_at_10.26.12_pm.png
 atomdate: 2017-01-27 20:00:00+00:00
 tags:
 - Access

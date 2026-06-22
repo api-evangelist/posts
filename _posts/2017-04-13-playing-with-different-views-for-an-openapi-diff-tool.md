@@ -2,7 +2,7 @@
 layout: post
 title: Playing With Different Views For An OpenAPI Diff Tool
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_diff.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_diff.png
 atomdate: 2017-04-13T19:00:00.000Z
 tags:
   - OpenAPI

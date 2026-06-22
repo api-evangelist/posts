@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Trends
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/trends.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/trends.jpg
 author:
   name: kinlane
 tags:

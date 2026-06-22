@@ -2,7 +2,7 @@
 layout: post
 title: An Increase In Number Of Press Releases Involving API Integration
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-press-release-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-press-release-api.png
 author:
   name: kinlane
 tags:

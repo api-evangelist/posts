@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Remembering Why This Whole API Thing Is Working - APIDays Berlin
-image: https://s3.amazonaws.com/kinlane-productions2/kin-lane/kin-lane-api-days-berlin-respect-privacy.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/kin-lane-api-days-berlin-respect-privacy.jpg
 author:
   name: kinlane
 tags:
@@ -39,7 +39,7 @@ As the web began its collision with the emerging world of mobile devices, a new 
 
 ### What Makes Web APIs So Appealing?
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-shipping-containers.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-shipping-containers.png)
 
 The wealth of individual resources has made the world of APIs very appealing to developers, but this approach to deploying very modular, web-based resources was also proven valuable to companies when exposing their own resources, for internal development, extending access to partners, and in some cases making available to the general public and open developers.
 
@@ -57,7 +57,7 @@ With valuable assets securely available on the Internet, all resources are avail
 
 ### What Have We Learned?
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-question-mark.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-question-mark.png)
 
 Challenging the top down planning approaches of earlier API movements like SOA, web APIs have produced some valuable lessons in deploying application infrastructure that focuses on simplicity, rapid iterations, and bottom-up, grassroots evolution of how a service oriented architecture is designed, deployed, managed and evolved. Studying the approaches from API pioneers, as well as the current waves of public API deployments provide numerous lessons that other companies, organizations, and government agencies can learn from. Let’s walk through some of the biggest lessons from the world of APIs.
 
@@ -84,7 +84,7 @@ APIs are allowing well established, and new business to evolve their existing bu
 
 ### What Are APIs Delivering?
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-deliver.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-deliver.png)
 
 APIs open up multiple channels for distribution of resources, which is the primary reason for their increased usage. Many start-ups tout an API-first development strategy, where they focus first on developing a stack of API resources before they consider developing any web or mobile application. APIs can be platform agnostic, allowing for easily adding of new application channels, devices and other objectives without changing the API.
 
@@ -105,7 +105,7 @@ As the Internet matures, the desire to connect not just mobile phones, tablets, 
 
 ### Emerging Trends Enabled By APIs
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-trends.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-trends.png)
 
 As API usage expands rapidly into the Internet of Things, other practitioners are exploring new ways to put APIs to use in the the web and mobile applications they already use—approaches that will enhance the user experience, and increase the quality and reach of API driven resources.
 
@@ -120,7 +120,7 @@ APIs have helped developed a serious appetite amongst end-users for the delivery
 
 ### Remembering Why It All Works
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-ying-yang.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-ying-yang.png)
 
 With the increasing pace of technology and APIs, it can get easy to get caught up in the complexity of the web, and make similar mistakes to earlier API initiatives, forgetting exactly what made web APIs work in the first place. For web APIs to be sustainable there are a number core elements that API providers and consumers should keep in mind, to make sure all this success we are seeing doesn’t fade.
 
@@ -144,7 +144,7 @@ Inherited from the 3 legs of oAuth, a balanced approach to API operations in a w
 
 ### What We Need To Do
 
-![](https://s3.amazonaws.com/kinlane-productions2/kin-lane/kin-kaia.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/kin-kaia.png)
 
 There are two things that I feel are critical to helping guide the API economy, and help prevent us from going down a dark alley or face failure like earlier API efforts like SOA encountered. While there are other illnesses and problems we face, I think that these two areas reflect system illnesses that could prove catastrophic to the entire space.
 

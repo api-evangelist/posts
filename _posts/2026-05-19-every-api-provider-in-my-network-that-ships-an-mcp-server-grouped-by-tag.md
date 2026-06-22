@@ -3,7 +3,7 @@ layout: post
 title: "Who In The API Evangelist Network Has an MCP Server"
 date: 2026-05-19
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-building-art-construction.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-building-art-construction.jpeg
 category: "Blog"
 excerpt: "After a fresh pass across 6201 API providers in my network, I found 199 that ship an MCP server. They span 30 tag groups, with the biggest concentrations in Open Source, Analytics, DevOps, Security."
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Freemium API Tools Can Drive Experimentation And  Innovation
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/SmartBear-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/SmartBear-Logo.png
 author:
   name: kinlane
 tags:

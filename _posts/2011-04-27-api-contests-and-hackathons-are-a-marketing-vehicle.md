@@ -3,14 +3,14 @@ layout: post
 title: API Contests and Hackathons are a Marketing Vehicle
 url: >-
   http://apievangelist.com/2011/04/27/api-contests-and-hackathons-are-a-marketing-vehicle/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Marketing
   - Hackathons
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Twilio%20Developer%20Contests.png)As I'm identifying [common building used by various API service providers](http://apievangelist.com/2011/03/07/api-area-common-building-blocks/ "common building blocks used by API service providers") to build their APIs and communities, there are two innovative tools Im seeing show up more often.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Twilio%20Developer%20Contests.png)As I'm identifying [common building used by various API service providers](http://apievangelist.com/2011/03/07/api-area-common-building-blocks/ "common building blocks used by API service providers") to build their APIs and communities, there are two innovative tools Im seeing show up more often.
 
 API contestsand hackathons.
 

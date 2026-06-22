@@ -2,7 +2,7 @@
 layout: post
 title: APIs At Brigham Young University
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-at-brigham-young-university-cover.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apis-at-brigham-young-university-cover.png
 tags:
   - APIs
 ---

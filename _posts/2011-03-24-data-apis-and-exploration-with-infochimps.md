@@ -2,7 +2,7 @@
 layout: post
 title: Data APIs and Exploration with Infochimps
 url: http://apievangelist.com/2011/03/24/data-apis-and-exploration-with-infochimps/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -10,7 +10,7 @@ tags:
   - APIs
   - Exploration
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/infochimips-find-the-worlds-data.jpg)](http://www.infochimps.com/ "Infochimps")[Infochimps](http://www.infochimps.com/ "Infochimps") recently launch some [new API calls](http://blog.infochimps.com/2011/03/13/infochimps-launches-even-more-api-calls/ "new API calls"), and expect to be launching hundreds more in the coming months.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/infochimips-find-the-worlds-data.jpg)](http://www.infochimps.com/ "Infochimps")[Infochimps](http://www.infochimps.com/ "Infochimps") recently launch some [new API calls](http://blog.infochimps.com/2011/03/13/infochimps-launches-even-more-api-calls/ "new API calls"), and expect to be launching hundreds more in the coming months.
 
 Infochimps is taking large data sets in areas like[census](http://www.infochimps.com/tags/Census "Census Data"), [housing](http://www.infochimps.com/tags/Housing "Housing"), and [education](http://www.infochimps.com/search?query=education "Education") and making them available via an API.
 

@@ -4,7 +4,7 @@ layout: post
 title: "Where Is the Fortune 1000 at When It Coms to AI — Here Are the Receipts for All 989 of Them"
 date: 2026-05-25
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-times-square-up-road.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-times-square-up-road.jpg
 category: "Blog"
 tags:
   - Artificial Intelligence

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Regex Suggestion Discovery For Web Concepts And Specs During API Design Time
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-regex.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-regex.png
 atomdate: 2016-09-09 18:00:00+00:00
 tags:
 - Design

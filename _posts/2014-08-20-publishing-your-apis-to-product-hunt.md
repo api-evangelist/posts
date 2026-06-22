@@ -2,7 +2,7 @@
 layout: post
 title: Publishing Your APIs To Product Hunt
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/product-hunt/product-hunt-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/product-hunt/product-hunt-logo.jpg
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ Product Hunt does a good job of describing what they do:
 
 I’ve had the site open for the last five days, scanning for cool tech creations that grab my attention, and when I opened the tab today, I noticed that APIs dominated the top of the list.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/product-hunt/product-hunt-api.png)](http://www.producthunt.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/product-hunt/product-hunt-api.png)](http://www.producthunt.com/)
 
 You see the Uber API (of course), and Zapier both jockeying for top slots, as well as Product Hunts API too. Product Hunt allows you to post product name, tagline, and url for any web, mobile or single page app—a format that is perfect for publishing and sharing your individual API resource creations.
 

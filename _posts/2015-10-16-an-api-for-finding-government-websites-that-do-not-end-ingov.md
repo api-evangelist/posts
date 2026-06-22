@@ -3,7 +3,7 @@ published: true
 layout: post
 title: An API For Finding Government Websites That Do Not End In .gov
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/digital-gov-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/digital-gov-logo.jpg
 author:
   name: kinlane
 tags:

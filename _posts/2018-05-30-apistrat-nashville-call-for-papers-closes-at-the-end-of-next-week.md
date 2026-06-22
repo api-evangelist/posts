@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'APIStrat Nashville Call For Papers Closes At The End Of Next Week'
-image: https://s3.amazonaws.com/kinlane-productions2/apistrat/apistrat-2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/apistrat/apistrat-2.png
 ---
 
-<p><a href="https://events.linuxfoundation.org/events/apistrat-2018/"><img src="https://s3.amazonaws.com/kinlane-productions2/apistrat/apistrat-2.png" width="45%" align="right" style="padding: 15px;" /></a>
+<p><a href="https://events.linuxfoundation.org/events/apistrat-2018/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apistrat/apistrat-2.png" width="45%" align="right" style="padding: 15px;" /></a>
 <p>I know, time flies and we are all very busy, but have you submitted your talk for APIStrat Nashville? The <a href="https://events.linuxfoundation.org/events/apistrat-2018/cfp/">call for papers</a> closes next Friday, June 8, 2018 at 11:59 PM PST! This is the second edition of the conference being run by <a href="https://www.openapis.org/">the OpenAPI community</a>, and is something you aren’t going to want to miss. We are bringing together the usual API community suspects, but also working to build upon the work that is going on in the fast growing OpenAPI community. The conference continues to be its usual voice of the API community, and won’t be all about the OpenAPI specification, but it it will definitely be where you want to be showcasing any groundbreaking work you are doing around the specification.
 
 <p>The CFP process for APIStrat Nashville asks three main questions:

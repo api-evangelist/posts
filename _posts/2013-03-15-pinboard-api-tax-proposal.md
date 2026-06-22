@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pinboard API Tax Proposal
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/pinboard-icon.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/pinboard-icon.png
 author:
   name: kinlane
 tags:
@@ -38,7 +38,7 @@ _To be clear, if such a "tax" were to be implemented, I will have to stop develo
 
 Matt provides some real life feedback, that I can’t. PindDroid is a vital player in the PinBoard ecosystem, that could be hurt by such a tax. Free and open source code and clients are a vital aspect of any API ecosystem, you definitely want to understand how this layer will be affected by such a tax.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/pinboard/pindroid.png)](https://play.google.com/store/apps/details?id=com.pindroid)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/pinboard/pindroid.png)](https://play.google.com/store/apps/details?id=com.pindroid)
 
 Maciej just made this proposal today, so the conversation is fresh. Head over to the [Pinboard Google Group](https://groups.google.com/d/msg/pinboard-dev/PidYOmyBaxI/mLDKIzC6olgJ) to weigh in. I’ll post another story after the conversation dies down, providing more thoughts about API taxes.
 

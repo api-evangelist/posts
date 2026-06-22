@@ -2,7 +2,7 @@
 layout: post
 title: A HandFul Of Microsoft Flow OpenAPI Extensions
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/ms_flow_icon.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ms_flow_icon.jpg
 atomdate: 2017-05-11T16:00:00.000Z
 tags:
   - OpenAPI

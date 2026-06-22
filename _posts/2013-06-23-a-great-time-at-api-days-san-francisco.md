@@ -2,7 +2,7 @@
 layout: post
 title: A Great Time At API Days San Francisco
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-logo.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/api-days-logo.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I really like the API Days format. I've done all 3 of the events now including P
 
 You can easily rub elbows with everyone and learn from everyone there. All speakers are accessible, and the spaces are always small enough that you have some amazing conversations, while enjoying good food and drink.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-days-san-francisco/api-design-at-api-days-san-francisco.jpg)](http://sf.apidays.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-days-san-francisco/api-design-at-api-days-san-francisco.jpg)](http://sf.apidays.io/)
 
 I'd love to see more API Days pop up around the world, I really think it is a great format for introducing APIs into new region and spread the API best practices, knowledge and wisdom we often take for granted here in Silicon Valley.
 

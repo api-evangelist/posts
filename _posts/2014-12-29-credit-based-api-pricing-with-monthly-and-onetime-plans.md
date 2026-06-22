@@ -2,7 +2,7 @@
 layout: post
 title: Credit Based API Pricing, With Monthly And One-Time Plans
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/convertapi-buy-credits.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/convertapi-buy-credits.png
 author:
   name: kinlane
 tags:

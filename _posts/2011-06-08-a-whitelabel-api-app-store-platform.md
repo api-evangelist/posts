@@ -2,19 +2,19 @@
 layout: post
 title: A White-Label API App Store Platform
 url: http://apievangelist.com/2011/06/08/a-white-label-api-appstore-platform/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Platform
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/app-showcase/Appstores.png)The goal of any API evangelist is to encourage its community to build mobile and web applications around their API.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/app-showcase/Appstores.png)The goal of any API evangelist is to encourage its community to build mobile and web applications around their API.
 
 When you and your community have several web apps, mobile apps, plugins or other tools you are proud of, showcase them.
 
 Whether you call it a showcase, directory, gallery or store...havingkinlane-productions2.s3.amazonaws.comtions built upon your API is critical to continued API adoption and success.
 
-Application showcases do several things:![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/app-showcase/SimpleGeo-app-showcase.png)
+Application showcases do several things:![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/app-showcase/SimpleGeo-app-showcase.png)
 
 *   Show developers love by showcasing their work and giving them the exposure the need
 *   Emphasize the work of your partners and the value they add to your platform
@@ -39,7 +39,7 @@ They provide a complete set of management tools:
 *   **ContentManagementSystem (CMS)** - Add custom pages to your AppShowcase
 kinlane-productions2.s3.amazonaws.com
 
-They encourage application discovery:![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/app-showcase/IndexTank-App-Gallery.png)
+They encourage application discovery:![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/app-showcase/IndexTank-App-Gallery.png)
 
 *   **App Categorization** - Create categories to organize applications and feature the very best
 *   **App Details -** Provide descriptions, editorial reviews and ratings. Include screenshots and video tutorials on each app

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Signals I Use To Monitor Companies In The API Space
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-stack-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-stack-logo.png
 author:
   name: kinlane
 tags:

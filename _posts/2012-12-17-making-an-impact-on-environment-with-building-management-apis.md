@@ -2,7 +2,7 @@
 layout: post
 title: Making An Impact On Environment With Building Management APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/panoptix-appcloud.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/panoptix-appcloud.png
 author:
   name: kinlane
 tags:

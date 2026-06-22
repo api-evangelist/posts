@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Startups Need To Work Together on API Definitions
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/openi-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openi-logo.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ What is great about OPENi, is they are doing all this research and planning, and
 
 As I watch aggregate API providers like [Singly](http://singly.com) plow forward and reciprocity providers like [Zapier](http://zapier.com) deliver some amazing integrations, using APIs, and bridging some of the most meaningful cloud platforms in our world--I can't help but think about how much redundant work is going on amongst startups.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/baas/openi/OPENi-Blog-API1.png)](http://www.openi-ict.eu/openi-api-framework-part-i-studying-the-landscape-of-cloud-based-services/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/baas/openi/OPENi-Blog-API1.png)](http://www.openi-ict.eu/openi-api-framework-part-i-studying-the-landscape-of-cloud-based-services/)
 
 When it comes to the definitions of specific APIs, the nuances of their interface and authentication, each of these service providers is doing their own work, in a silo. In a perfect world, API providers would provide Swagger definitions, standard oAuth implementations, etc. API owners would do a lot of the legwork for these providers.  As we know, this isn't the reality, and each of these aggegrators, reciprocity providers, analytics tools are all mapping these API connections on their own.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Dedicated Space For Telling The Stories Of Your API Consumers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_07_at_10.13.17_am.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_02_07_at_10.13.17_am.png
 atomdate: 2017-02-07T20:00:00.000Z
 tags:
   - Consumers

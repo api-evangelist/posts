@@ -8,7 +8,7 @@ tags:
     - MCP
     - Agents
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-train-switch.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-train-switch.jpg
 ---
 It is difficult to think like an API consumer when you are an API producer. When I talk to anyone about what I am building at [Naftiko](https://naftiko.io), which is extremely API consumer centric, almost everyone I know stumbles while discussing API design, governance, and other considerations—only seeing things from an API producer mindset. The money is in producing APIs, and the real value is generated consuming APIs. APIs don’t exist until they are consumed, but vendors all sell towards producing APIs, so this in turn drives the conversation out on open waters. 
 

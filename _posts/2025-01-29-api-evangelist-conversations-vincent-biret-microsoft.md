@@ -8,7 +8,7 @@ tags:
   - SDKs
   - AI
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 We sat down with [Vincent Biret, Microsoft Graph SDKs Principal Software Developer at Microsoft](https://conversations.apievangelist.com/store/2025-01-19-vincent-biret-microsoft/) to talk about all things integration. We are very interested in the intersection of APIs, specifications, and integrations where Vincent operates. Vincent shared his view of the important role that OpenAPI plays in taming the Microsoft Graph API landscape, but specifically how it gets applied as part of producer or consumer driven SDK generation using Kiota. Vincent shared all kinds of experience and wisdom at this intersection, but he also shared a pragmatic view of the role APIs, specs, and integrations play when it comes to training LLMs, but also feeding agents deployed on top of those LLMs with the real-time resources and capabilities they will need.
 

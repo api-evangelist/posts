@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deploy An API From A Google Spreadsheet Using APISpark
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-spreadsheet-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-spreadsheet-api.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ When it comes to data management, not all of us live in the world of big data, a
 
 [Google Spreadsheets allows for accessing data via a JSON feed natively](https://developers.google.com/gdata/samples/spreadsheet_sample), and I wrote about adding an API, plus management layer on top of a [public](http://apievangelist.com/2013/10/22/deploy-api-public-google-spreadsheet-to-api/) or [private](http://apievangelist.com/2013/11/12/deploy-api-private-google-spreadsheet-to-api/) Google Spreadsheet, but there is also an instant, cloud-based approach to deploying an API from Google Spreadsheet, using [APISpark](http://bit.ly/1sgwGpq). Restlet has taken their open source REST framework, launched it as a service, and opened up the possibility for anyone to deploy an API, from an existing Google Spreadsheet—no coding necessary.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-spreadsheet-api.png)](http://bit.ly/1sgwGpq)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-spreadsheet-api.png)](http://bit.ly/1sgwGpq)
 
 APISpark has provided both the API deployment, plus API management layer, spreadsheet owners will need. This is an important evolution in the API economy, because it allows people who are actually managing vital data to securely expose it, for use in applications, without needing any developer or IT resources. This will bring data stewards closer to the actual people who need their data, whether it be internally between systems or business units, externally with partners, or even publicly for anyone looking to use a dataset on a website or application.
 

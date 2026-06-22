@@ -7,7 +7,7 @@ tags:
   - APIs
   - Integrations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 Ben Hutton of the Guild came by to talk about his [recent LinkedIn thread about APIs vs SDKs](https://www.linkedin.com/posts/benhuttonuk_developers-dont-want-to-use-apis-they-activity-7275448234238517248-47lE). The topic is an evergreen one that brings out all of the opinions and is something that I enjoy talking with Ben about so that I can get his pragmatic view of things. Ben has a lot of experience as a software engineer and working on the JSON Schema specification, which I think gives him unique perspective on what is needed when it comes to integrating with APIs. Ben was on my open technologies team at Postman, but we are now collaborating around helping people understand the importance of getting their enterprise schema house in order. 
 

@@ -2,7 +2,7 @@
 layout: post
 title: Helping People Understand APIs Through Real World Examples
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/commercial-fueling-network.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/commercial-fueling-network.jpg
 author:
   name: kinlane
 tags:

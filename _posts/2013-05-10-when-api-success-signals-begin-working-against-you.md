@@ -2,7 +2,7 @@
 layout: post
 title: When API Success Signals Begin Working Against You
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/restful-labs-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/restful-labs-logo.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ Three very important signals I use are blogs, twitter and Github. These tools pr
 
 However, in some scenarios a companies blogs, twitter and Github accounts can also tell me when a company has given up and has run out of money or just stopped putting energy and resources into a project. An example of this is with a company I came across during my monitoring last week, called [RESTful Labs](http://www.restful-labs.com/). RESTful Labs has all the eye candy to draw me in. I mean they have REST in their name, and they build tools for developers!
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/restful-labs/restful-metrics.png)](http://www.restful-labs.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/restful-labs/restful-metrics.png)](http://www.restful-labs.com/)
 
 RESTful Labs provides API analytics tools for developers. I'm pretty stoked anytime I find something like this, then I immediately look at the common signals:
 

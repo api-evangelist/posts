@@ -4,7 +4,7 @@ title: >-
   Are Your APIs Ready For The Coming Containerization Evolution Of The API
   Space?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-shipping-container.png
+  https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-shipping-container.png
 author:
   name: kinlane
 tags:

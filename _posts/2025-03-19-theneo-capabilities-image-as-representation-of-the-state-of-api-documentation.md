@@ -15,7 +15,7 @@ tags:
 - VSCode
 - SEO
 - Access
-image: https://kinlane-productions2.s3.us-east-1.amazonaws.com/theneo-stripe-like-api-docs.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/theneo-stripe-like-api-docs.png
 ---
 I am always looking for the interesting bits being offered by the partners who fund API Evangelist. You know, the interesting things I can talk about and showcase while remaining faithful to the API Evangelist brand, providing value to my audience, but also showcasing the good stuff my partners do so they keep sponsoring me. ;-) I hope you trust me [as I walk this line showcasing this interesting image from the onboarding process for Theneo](https://bit.ly/41n9vPS). I spend a lot of time studying API documentation and portals and the capabilities reflected in this single image tell a lot about the API space, but also demonstrate how Theneo has done their homework on the state of the API space—let’s break things down.
 

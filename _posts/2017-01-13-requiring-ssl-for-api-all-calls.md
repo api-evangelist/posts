@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Requiring SSL For API All Calls
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_11_28_at_9.58.49_am.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_11_28_at_9.58.49_am.png
 atomdate: 2017-01-13 20:00:00+00:00
 tags:
 - API Evangelist

@@ -2,7 +2,7 @@
 layout: post
 title: State of Hypermedia Today @ API Craft In Detroit
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-craft/api-craft-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-craft/api-craft-logo.png
 author:
   name: kinlane
 tags:

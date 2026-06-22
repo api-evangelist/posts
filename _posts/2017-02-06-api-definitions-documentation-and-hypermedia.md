@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Definitions, Documentation And Hypermedia
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/swingingbridge_blue_circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/swingingbridge_blue_circuit.jpg
 atomdate: 2017-02-06 23:00:00+00:00
 tags:
 - Definitions

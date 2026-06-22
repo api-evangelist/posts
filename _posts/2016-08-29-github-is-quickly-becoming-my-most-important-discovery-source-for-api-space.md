@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github Is Quickly Becoming My Most Important Discovery Source For API Space
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Trending_repositories_on_GitHub_today.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Trending_repositories_on_GitHub_today.png
 atomdate: 2016-08-29 22:00:00+00:00
 tags:
 - Github

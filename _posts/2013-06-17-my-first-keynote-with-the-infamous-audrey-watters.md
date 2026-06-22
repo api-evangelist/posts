@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My First Keynote With The Infamous Audrey Watters
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/audrey-kin-paris.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/audrey-kin-paris.jpg
 author:
   name: kinlane
 tags: []

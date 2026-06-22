@@ -9,7 +9,7 @@ tags:
  - Trends
  - Standards
  - Specifications
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/1939-new-york-worlds-fair-times-square-up-road.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/1939-new-york-worlds-fair-times-square-up-road.jpg
 ---
 I don’t usually talk about what is around the corner. I am more about understanding history, and telling stories in the present. However, after several cycles now I am feeling like can develop a “vibe” for how this moment will shake out around the corner. Meaning, as the current artificial intelligence bubble reaches peak hype and begins shrinking back down to reasonable levels of investment and building, what can we expend in coming months and years when it comes to the integration and automation conversaitn.
 

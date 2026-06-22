@@ -8,7 +8,7 @@ tags:
   - Mocking
   - Testing
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-autom-leaves-street.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-autom-leaves-street.jpeg
 ---
 [The Microcks team is proposing adding an MCP server for the mocking and testing platform](https://github.com/microcks/microcks/issues/1935#issuecomment-3806602196), arguing that every tool needs one. I definitely support every API service and tool having an API, so this lines up perfectly with my historical views. It also reflects work I’m doing with Microcks to deploy Spectral rules, API design guidelines, and even API ops cycles and other more lifecycle- and product-oriented work into a mock API.
 

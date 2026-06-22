@@ -2,7 +2,7 @@
 layout: post
 title: Mobile Provider APIs
 url: http://apievangelist.com/2011/02/10/mobile-provider-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -15,12 +15,12 @@ Many API providers are seeing the majority of calls coming from mobile phones vs
 
 kinlane-productions2.s3.amazonaws.com Another unnoticed area of mobile API growth is from mobile carriers themselves. Verizon, Sprint, and AT&T all provide developer APIs.
 
-[![](http://kinlane-productions.s3.amazonaws.com/telcos/verizon-wireless.jpeg)](http://developer.verizon.com/)The [Verizon Developer Community](http://developer.verizon.com/) provides documentation, tools, support, resources and two API services:
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/telcos/verizon-wireless.jpeg)](http://developer.verizon.com/)The [Verizon Developer Community](http://developer.verizon.com/) provides documentation, tools, support, resources and two API services:
 
 *   **Location API** - Allows developers to create applications that use the subscriber's location as part okinlane-productions2.s3.amazonaws.com>
 *   **Messaging API** - Provides developers with a network based Messaging API service to offer interactive services to our customers using Mobile Originated (MO) andMobile Terminated (MT) messaging.
 
-[![](http://kinlane-productions.s3.amazonaws.com/telcos/sprint.jpg)](http://developer.sprint.com/site/global/home/p_home.jsp)The [Sprint Application Developer Program](http://developer.sprint.com/site/global/home/p_home.jsp) provides documentation, tools, support and go to market resources as well as six API services:
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/telcos/sprint.jpg)](http://developer.sprint.com/site/global/home/p_home.jsp)The [Sprint Application Developer Program](http://developer.sprint.com/site/global/home/p_home.jsp) provides documentation, tools, support and go to market resources as well as six API services:
 
 *   **Geofence** - Provides virtual perimeter services.
 *   **Location** - Provides API for determining the location of a Sprint CDMA Device that is opted in to a developer's account.
@@ -29,7 +29,7 @@ kinlane-productions2.s3.amazonaws.com Another unnoticed area of mobile API growt
 *   **Usekinlane-productions2.s3.amazonaws.comervices to allow for dynamic user management.**
 **kinlane-productions2.s3.amazonaws.comkinlane-productions2.s3.amazonaws.com*   **iDen Content Uploader** \- A service meant to upload applications to iDen devices.**
 
-**[![](http://kinlane-productions.s3.amazonaws.com/telcos/att-logo.jpg)](http://kinlane-productions.s3.amazonaws.com/telcos/att-logo.jpg)The [AT&T Developer Program](http://kinlane-productions.s3.amazonaws.com/telcos/att-logo.jpg) provides documentation, tools, support, resources, developer sandbox and seven API services:
+**[![](https://kinlane-images.s3.amazonaws.com/apievangelist/telcos/att-logo.jpg)](https://kinlane-images.s3.amazonaws.com/apievangelist/telcos/att-logo.jpg)The [AT&T Developer Program](https://kinlane-images.s3.amazonaws.com/apievangelist/telcos/att-logo.jpg) provides documentation, tools, support, resources, developer sandbox and seven API services:
 
 *   **SMS** - A GSM protocols that allows the exchange of short text messages between mobile phone devices.
 *   **MMS** - Extends SMS capabilities to include multimedia content.

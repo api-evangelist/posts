@@ -2,7 +2,7 @@
 layout: post
 title: API Aggregation For Federal Government with FedAPI
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Fed-API-Logo-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Fed-API-Logo-2.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ Last year, after I started spending more time in Washington DC, I met a talented
 
 Fed{API} is looking to make government data more accessible and reusable by taking data from multiple sources, some easy to pull and some much more difficult, then collect, correlate and catalog into a single, aggregate API stack that developers can put to use.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/fedapi/fedapi-1.png)](http://fedapi.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/fedapi/fedapi-1.png)](http://fedapi.com/)
 
 I'm a big fan of [API Aggregation](http://aggregation.apievangelist.com/). I think this is the future of standardizing APIs and data across many sources, but as I'm watching providers tackle this, you begin to realize what a massive undertaking it will be. And FedAPI is looking to do this by opening up federal government data, which by itself is a massive challenge. So FedAPI is tackling two pretty massive problems, as a core business model.
 
@@ -27,7 +27,7 @@ Even with the massive challenge ahead, I will be supporting FedAPI 100%, and doi
 *   **Other API Aggregate Providers** - FedAPI needs to make sure and reach out to Singly, Temboo, Adigami and the other API aggregators and see what they can learn, share knowledge and wisdom. Aside from FedAPI, all these providers need to work together and not re-invent the wheel when it comes to Auth and API connectors
 *   **Public At Large** - FedAPI has to introduce tools that allow figure everyday Joe and Jane citizen into the equation. Some users are going to be very knowledgable and passionate about specific areas, and there has to be ways to share the load and let them help clean and verify data, and other meaningful tasks
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/fedapi/fedapi-capital.png)](http://fedapi.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/fedapi/fedapi-capital.png)](http://fedapi.com/)
 
 I don't think that API Aggregation is the answer to all the problems that plague API integration, but I think API aggregators will play a major role in helping standardize API interfaces, data formats and provide critical cross-provider, inter-agency knowledge and wisdom--something individual API providers may never be able to deliver alone.
 

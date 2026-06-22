@@ -7,13 +7,13 @@ tags:
   - Infrastructure
   - Operations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-docks-ships-cranes.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/francis-williams-docks-ships-cranes.jpg
 ---
 The concept of a platform means many different things to many different people. API Evangelist has a pretty specific meaning when we say API platform, _intentionally invoking a machine-readable artifact that defines the APIs behind the infrastructure used to power API operations, covering the production and consumption of HTTP APIs by both business and engineering groups_. 
 
 To help illustrate what API Evangelist means by API platform we wanted to offer an [interactive API engineering platform builder](https://engineering-platform-builder.apievangelist.com) that allows anyone to assemble a machine-readable (YAML) definition of the specifications, services, and tools used to power API operations. Currently we’ve abstracted down each tool and service to a single resource or capabilities, which is something we will augment with executable OpenAPIs in the near future—helping make different areas of API operations more forkable and executable via Git. Here is the first edition of the [API Evangelist Engineering Platform Builder](https://engineering-platform-builder.apievangelist.com).
 
-<a href="https://engineering-platform-builder.apievangelist.com"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/platform-builder-screenshot.jpg" width="100%"></a>
+<a href="https://engineering-platform-builder.apievangelist.com"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/platform-builder-screenshot.jpg" width="100%"></a>
 
 The API Platform Builder is a work in progress, with additional features, as well as specifications, tools, and services under development. If you have any services or tools you’d like to see added, have a helpful feature in mind, or would like to work with us to stabilize and refine the tool to run locally, we’d be happy to hear from you. The primary goal of the API Evangelist API Engineering Platform Builder is to drive conversations about the specifications, services, and tooling we are all using, as well as what we’d like to be using.
 

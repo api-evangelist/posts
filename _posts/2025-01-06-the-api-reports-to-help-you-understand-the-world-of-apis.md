@@ -8,7 +8,7 @@ tags:
 - Analysts
 - State of APIs
 - Getting Started
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-nyc-public-library.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-nyc-public-library.jpeg
 ---
 There are a handful of very insightful reports on the API industry available today. While the cadence will vary, most of these API reports publish annually, tapping into their customers and community to help us all make a little more sense of APIs. These reports do a good job of covering both the technical and business aspects of doing APIs in a general way, or specifically to a single area of APIs, like security.
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Focusing On Digital API Capabilities Over Just Doing APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-satellite-dishes-pointing-up.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-satellite-dishes-pointing-up.jpg
 author:
   name: kinlane
 tags:

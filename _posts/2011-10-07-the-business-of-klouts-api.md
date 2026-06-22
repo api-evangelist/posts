@@ -2,7 +2,7 @@
 layout: post
 title: The Business of Klout&#039;s API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/klout-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/klout-logo.jpg
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ I [attended Mashery's Business of APIs Conference in San Francisco](/2011/10/06/
 
 Tyler Singletary([@harmophone](http://twitter.com/#!/harmophone "@harmophone")), Developer Evangelist at [Klout](http://klout.com/ "Klout"), told a story around how they are continuing to grow, control and monetize Klout, while also ensuring Klout continues to have meaning and deliver value.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/klout/klout.JPG)](http://klout.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/klout/klout.JPG)](http://klout.com/)
 
 Klout's value lies in brand awareness, integrity and the meaning, usefulness and value of the Klout Score to consumers and businesses. To continue offering value and maintaing the integrity of the brand, they are creating a dynamic way to manage their API community, incentivize postive usage of the API, while controlling negative usage.
 
@@ -22,7 +22,7 @@ Not all API users will deliver the same value to the Klout brand, competitors ma
 
 Through a dynamic terms of service, branding guidelines, and pricing, Klout can adjust these business controls based upon how much value an API user brings to the Klout brand, establishing a desired balance within their API ecosystem. Finding that sweet spot where they are delivering the desired units of value to their consumers, while protecting, growing and building value in the Klout brand, even generating revenue it where it makes sense.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/klout/klout-plus-k.jpg)](http://klout.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/klout/klout-plus-k.jpg)](http://klout.com/)
 
 I really like Tyler's transparent way telling the story of how Klout is defining its business model, and employing their API to deliver maximum value to their business. Their dynamic approach to incentivize and tariff their community, using their terms of service, branding guidelines and pricing is something I'll be thinking about a lot more.
 

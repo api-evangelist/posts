@@ -4,7 +4,7 @@ title: >-
   #APIStrat Videos - Laura Merling - 3 Things You Need to Turn Your Enterprise
   Into A Platform
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/laura-merling-apistrat.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/laura-merling-apistrat.png
 author:
   name: kinlane
 tags:

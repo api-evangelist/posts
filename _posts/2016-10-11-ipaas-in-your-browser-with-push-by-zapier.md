@@ -2,7 +2,7 @@
 layout: post
 title: iPaaS In Your Browser With Push By Zapier
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/zapier_push_icon.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/zapier_push_icon.png
 atomdate: 2016-10-11T16:00:00.000Z
 tags:
   - iPaaS
@@ -14,7 +14,7 @@ Allowing users to trigger API functionality from the browser adds an empowering 
 
 Some of the API driven events Zapier highlights in their release are:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/push_by_zapier.gif)](https://zapier.com/blog/push-by-zapier-google-chrome-extension/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/push_by_zapier.gif)](https://zapier.com/blog/push-by-zapier-google-chrome-extension/)
 
 *   Add Tasks to Your To-Do List
 *   Send an Email or SMS to a Specific Person

@@ -8,7 +8,7 @@ tags:
   - Webinars
   - Sessions
 image: >-
-  https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-knowledge-building-sessions.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-knowledge-building-sessions.png
 ---
 We spent the last part of 2024 breaking down what we’ve learned about API governance over the last five years (15 really), and the month of January workshopping the different ways in which we could share this knowledge with enterprise teams. We settled on delivering knowledge bases for each of the areas we feel contribute the most to governance of enterprise APIs, but after talking with folks, we couldn’t agree on a single way to deliver these knowledge bases into the enterprises. So, to help get the conversation going about the best possible way to bring this knowledge home, while still making the knowledge available to product and engineering people fighting the good API governance fight, we settled in on [weekly knowledge building sessions](https://apievangelist.com/#knowledge) for each of the following areas.
 

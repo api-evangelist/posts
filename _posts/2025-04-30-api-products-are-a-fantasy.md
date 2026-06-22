@@ -7,7 +7,7 @@ tags:
   - Products
   - Feedback Loops
   - Customers
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-dinosaur-walking-desert.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-dinosaur-walking-desert.jpg
 ---
 I’ve long been a proponent of treating your APIs as a product. I still believe in all the moving parts of what we collectively believe to be an API product, things like customer centricity, bridging product and engineering, feedback loops, and all that, but I am finding myself increasingly realizing that it is all a fantasy. APIs are invisible abstract things, and something that is difficult for technical people to properly see, let alone non-technical people, and with the rolling waves of startups hustling their API product fantasy, I think the fantasy is wearing thin.
 

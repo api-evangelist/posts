@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'API Specifications Update for September 22nd, 2021'
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/adam-smith-adam-smith-copper-circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/adam-smith-adam-smith-copper-circuit.jpg
 tags:
     - API Specification Update
 ---

@@ -6,7 +6,7 @@ tags:
   - Experiences
   - Lifecycle
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-times-square-corner.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-times-square-corner.jpeg
 ---
 After talking with [Lorna Mitchell about OpenAPI overlays the other day](https://apievangelist.com/2024/12/12/api-evangelist-conversation-with-lorna-mitchell-openapi-specification-maintainer-with-the-openapi-initiative/), and continuing work on my API Evangelist platform, I found myself thinking a lot about API experiences. Human experiences like onboarding (ie. Documentation, Sandboxes), reliability (ie. Testing), integration (ie. SDKs), trust (ie. Performance, Security), access (ie, Registration, Authentication), and how we (API producers) tend to  conflate the API lifecycle for how people experience the APIs we are producing.
 

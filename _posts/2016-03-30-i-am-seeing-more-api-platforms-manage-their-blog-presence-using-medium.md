@@ -2,7 +2,7 @@
 layout: post
 title: I Am Seeing More API Platforms Manage Their Blog Presence Using Medium
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/best-buy-medium.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/best-buy-medium.png
 tags:
   - Blog
   - Platform

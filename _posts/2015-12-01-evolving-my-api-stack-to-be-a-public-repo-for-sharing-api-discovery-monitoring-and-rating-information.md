@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Evolving My API Stack To Be A Public Repo For Sharing API Discovery, Monitoring, And Rating Information
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-sharing.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-sharing.png
 author:
   name: kinlane
 tags:

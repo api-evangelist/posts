@@ -2,7 +2,7 @@
 layout: post
 title: Increased Analytics At The API Client And SDK Level
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/aws_coding_analytics.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aws_coding_analytics.png
 atomdate: 2016-10-05T00:00:00.000Z
 tags:
   - SDK

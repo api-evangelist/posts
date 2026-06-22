@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Deploy API: Github JSON to API'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/bw-github.jpg
 author:
   name: kinlane
 tags:

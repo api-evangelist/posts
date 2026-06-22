@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Doing The Research In Preparation For My Patent On A Patent API
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-certificate.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-certificate.png
 author:
   name: kinlane
 tags:

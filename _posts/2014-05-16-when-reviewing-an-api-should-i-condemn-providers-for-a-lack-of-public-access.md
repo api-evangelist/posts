@@ -1,7 +1,7 @@
 ---
 layout: post
 title: When Reviewing An API Should I Condemn Providers For A Lack of Public Access?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-windows.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-windows.jpg
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: The Business and Politics of Platform Status Page Details
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-big-antennae-tower.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-big-antennae-tower.jpg
 author:
   name: kinlane
 tags:

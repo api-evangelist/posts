@@ -3,14 +3,14 @@ layout: post
 title: What Does Online Sales Tax Battle Mean for APIs
 url: >-
   http://apievangelist.com/2011/06/30/what-does-online-sales-tax-battle-mean-for-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Sales
   - APIs
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/amazon/affiliate/amazon-affiliates.png)](https://affiliate-program.amazon.com/ "Amazon Affiliate Program")Amazon sent me an email about the recent [signing of the online sales tax law by California Governor Brown](http://www.mercurynews.com/top-stories/ci_18282733 "signing of the online sales tax law, by California Governor Brown"), which would force online retailers who have no physical presence in California, to collect the same levies as bricks-and-mortar stores.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/shared/amazon/affiliate/amazon-affiliates.png)](https://affiliate-program.amazon.com/ "Amazon Affiliate Program")Amazon sent me an email about the recent [signing of the online sales tax law by California Governor Brown](http://www.mercurynews.com/top-stories/ci_18282733 "signing of the online sales tax law, by California Governor Brown"), which would force online retailers who have no physical presence in California, to collect the same levies as bricks-and-mortar stores.
 
 As a result of this, contracts with all [California residents participating in the Amazon Associates Program are terminated](http://www.kinlane.com/2011/06/amazon-end-affiliate-program-in-california/ "California residents particpating in the Amazon Associates Program are terminated") effective, June 29, 2011.
 

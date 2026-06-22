@@ -13,7 +13,7 @@ tags:
   - Capabilities
   - Economics
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-adam-smith-edinburgh.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-adam-smith-edinburgh.jpg
 ---
 I love people waking up to the importance of APIs. I have to work hard not diminish people’s excitement for each wave of “application” of the value in which APIs deliver. People get very attached to each application wave, because it is what they can see, and it is often what they can see because it is what is being invested in. The web (Facebook). The cloud (AWS). The mobile app (Instagram). The device application (Nest). The artificial Intelligence (Wolfram Alpha/Watson). The bots (Twitter/Slack). The single page app (React). The artificial intelligence (ChatGPT). The agents (Anthropic). People get really excited about the value that APIs bring, and the incremental improvements to the API toolbox (Graphs, Events, Cards, Capabilities, Prompts, etc) that come with wave of investment. For me, I see the pipes behind, and I have been advocating for a balance of the machine-readable and human-readable bits ever since 2010. 
 

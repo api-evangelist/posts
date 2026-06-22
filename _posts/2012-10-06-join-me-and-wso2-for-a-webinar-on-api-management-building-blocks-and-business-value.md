@@ -4,7 +4,7 @@ title: >-
   Join Me and WSO2 for a Webinar on API Management Building Blocks and Business
   Value
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wso2-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/wso2-logo.jpeg
 author:
   name: kinlane
 tags:

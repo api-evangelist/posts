@@ -8,7 +8,7 @@ tags:
   - Rules
   - Business
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-marketplace-people.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-marketplace-people.jpg
 ---
 [What is API governance?](https://apievangelist.com/2024/02/22/what-is-api-governance/) It is a topic I’ve explored from a technical, business, policy, and people perspective over and over for many years now, and my hope was renewed last week to hear that others share the belief that API governance is much more than Spectral or Vacuum rules. Like with OpenAPI, there is all kinds of money and interest in the machine-readable Spectral and Vacuum rules, without any acknowledgement and awareness of the human work, expertise, coordination, and communication that goes into the rules. This is API governance, not the YAML or JSON output of all of that peopling.
 

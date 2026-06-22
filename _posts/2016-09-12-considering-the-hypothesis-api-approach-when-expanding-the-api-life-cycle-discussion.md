@@ -4,7 +4,7 @@ title: >-
   Considering The Hypothesis API Approach When Expanding The API Life Cycle
   Discussion
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/linkedin/the_hypothesis_api_the_hypothesis_annotation_framework.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/linkedin/the_hypothesis_api_the_hypothesis_annotation_framework.png
 atomdate: 2016-09-12T18:00:00.000Z
 tags:
   - Life Cycle

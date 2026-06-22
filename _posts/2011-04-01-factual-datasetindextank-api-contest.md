@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Factual Dataset + IndexTank API Contest
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -38,7 +38,7 @@ Contest submissions are judged upon the following criteria:
 *   Extra points if you incorporate Factual's RESTful write API to allow for your users to edit the data.
 *   Extra points for making the source kinlane-productions2.s3.amazonaws.comgle Code, etc.) within 24 hours of the contest deadline.
 
-![](http://kinlane-productions.s3.amazonaws.com/indextank.png) Contest judges are:
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/indextank.png) Contest judges are:
 
 *   Diego Basch, CEO IndexTank (@dbasch)
 *   Bill Michels, Factual VP Developer Platform (@bill\_michels)

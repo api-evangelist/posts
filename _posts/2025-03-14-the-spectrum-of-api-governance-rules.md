@@ -9,7 +9,7 @@ tags:
   - Rules
   - Functions
   - JSON Schema
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-old-church-police-car.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-old-church-police-car.jpeg
 ---
 When you say the phrase “API governance rule” it will mean different things to different people. An API governance rule may or may not be precise and executable, and even when it is, that can mean a mix of approaches. While the focus with API governance rules is always focused on governing APIs, it is also governing people, processes, and experiences. Grounding conversations around API governance using rules is important to help make sure everyone is on the same page, by establishing a common spectrum for what a rule is along the following common approaches.
 

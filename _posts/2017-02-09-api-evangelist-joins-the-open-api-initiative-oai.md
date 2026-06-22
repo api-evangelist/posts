@@ -2,7 +2,7 @@
 layout: post
 title: API Evangelist Joins The Open API Initiative (OAI)
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/open_api_initiative_members.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/open_api_initiative_members.png
 atomdate: 2017-02-09T18:00:00.000Z
 tags:
   - API Evangelist

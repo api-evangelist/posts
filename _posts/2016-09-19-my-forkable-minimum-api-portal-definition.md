@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Forkable Minimum API Portal Definition
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/minimum_api_portal.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/minimum_api_portal.png
 atomdate: 2016-09-19 16:00:00+00:00
 tags:
 - Portal
@@ -13,7 +13,7 @@ My goal was to make a simple, forkable API portal, that could act as a checklist
 
 All you have to do is scroll down the API portal definition and comment out what you don't want, and fill in the areas you do, and the Jekyll site should do the rest. I've included the most common areas I like to see from all API providers in my definition.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/minimum_api_portal.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/minimum_api_portal.png)
 
 *   Portal
 *   Simple Description

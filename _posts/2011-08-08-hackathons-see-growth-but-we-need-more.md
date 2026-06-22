@@ -2,14 +2,14 @@
 layout: post
 title: Hackathons See Growth, But We Need More
 url: http://apievangelist.com/2011/08/08/hackathons-see-growth-but-we-need-more/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Hackathons
   - Growth
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/hackathons/Hackathon-Tag-Cloud-2.png)[Hackathons](http://www.apievangelist.com/hackathons-and-contests.php "Hackathons") are becoming a popular vehicle worldwide for identifying talent, sharing ideas, tackling big data, building apps, and providing a forum for developers, graphic designers and business minds to network.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/hackathons/Hackathon-Tag-Cloud-2.png)[Hackathons](http://www.apievangelist.com/hackathons-and-contests.php "Hackathons") are becoming a popular vehicle worldwide for identifying talent, sharing ideas, tackling big data, building apps, and providing a forum for developers, graphic designers and business minds to network.
 
 Hackthons were born out of the Silicon Valley start-up scene. During these events, companies bring together a group of developers, give them a coding target, allow them to break into teams where they build a plan and hack together apps, mobile apps, and other web services that meet the criteria of the event.
 

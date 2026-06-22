@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connecting My API Logging With My API DNS Using CloudFlare Page Rules API
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-logging-dns.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-logging-dns.png
 atomdate: 2016-09-06 18:00:00+00:00
 tags:
 - Cloud

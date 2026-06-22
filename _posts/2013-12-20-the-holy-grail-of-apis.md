@@ -2,7 +2,7 @@
 layout: post
 title: The Holy Grail of APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-irs-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-irs-logo.jpg
 author:
   name: kinlane
 tags:

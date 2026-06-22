@@ -8,7 +8,7 @@ tags:
   - AI
   - Artificial Intelligence
   - Agents
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-roman-marcus-looking-down.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-roman-marcus-looking-down.jpg
 ---
 The spell of AI is strong today. It is difficult to escape. Most do not have a choice. I am not here to do the work for folks to compare the latest AI moose diarrhea with reality, but I am here to remind you that you do not need agents to automate your business. I am here to remind you that it is not the most cost effective or efficient way to automate your business. I am here to remind you that the current state of generative AI is about applying a predictive approach to automation when you are most likely just needing a deterministic approach to mundane business tasks you need accomplished. Enterprise business automation does not require agents to do the work.
 

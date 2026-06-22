@@ -2,10 +2,10 @@
 layout: post
 title: 'Weekly API.Report For March 23rd, 2015'
 sourceurl: http://apievangelist.com/2015/03/23/weekly-apireport-for-march-23rd-2015/
-image: https://s3.amazonaws.com/kinlane-productions/api-report/api-report-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png
 ---
 
-<p><a href="http://api.report/" target="_blank"><img style="padding: 20px;" src="https://s3.amazonaws.com/kinlane-productions/api-report/api-report-logo.png" alt="" width="325" align="right" /></a></p>
+<p><a href="http://api.report/" target="_blank"><img style="padding: 20px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png" alt="" width="325" align="right" /></a></p>
 <p>Ok, it seems like Monday is going to be the regular posting day for my weekly API.Report. No matter how hard I try to get done over the weekend, something always seems to get in the way. Regardless, I'm still going to do, as the process is more than worth it.</p>
 <p><span>The Weekly API.Report represents the best of what I've read throughout the week, and is only what I personally felt should be showcased. Each news item comes with a link, and some thoughts I had after curating the piece of API related news. I'm trying to break down stories into as coherent buckets as I can, but it remains something that is ever changing for me, but ultimately I will settle on a clear definition for each of the research areas.</span></p>
 <p>A couple of <span style="text-decoration: underline;"><strong>3D printing</strong></span> footnotes for the week:</p>

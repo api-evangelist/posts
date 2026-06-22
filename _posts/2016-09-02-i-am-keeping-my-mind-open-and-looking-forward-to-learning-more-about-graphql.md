@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Am Keeping My Mind Open And Looking Forward To Learning More About GraphQL
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-graphql.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-graphql.png
 atomdate: 2016-09-02 22:00:00+00:00
 tags:
 - GraphQL

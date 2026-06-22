@@ -6,7 +6,7 @@ date: 2019-06-19T12:00:00.000Z
 tags:
   - API Evangelist
 image: >-
-  https://s3.amazonaws.com/kinlane-productions/algorotoscope-master/aws-s3-stories-containership-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-containership-copper-circuit.jpg
 ---
 <img src="{{ page.image }}" width="45%" align="right" style="padding: 15px;" />
 I like my OpenAPI tags. Honestly, I like tags in general. Almost every API resource I design ends up having some sort of tagging layer. Too help me organize my world, I have a centralized tagging vocabulary that I use across my JSON Schema, OpenAPI, and AsyncAPI, to help me group, organize, filter, publish, and maintain my catalog of API and schema resources.

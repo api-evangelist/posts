@@ -2,7 +2,7 @@
 layout: post
 title: API Badging and Credentialing To Demonstrate Skills
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/badges.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/badges.jpg
 author:
   name: kinlane
 tags:

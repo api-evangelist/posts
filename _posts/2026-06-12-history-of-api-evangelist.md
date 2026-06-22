@@ -4,7 +4,7 @@ layout: post
 title: History of API Evangelist
 date: 2026-06-12
 author: Kin Lane
-image: https://kinlane-productions2.s3.us-east-1.amazonaws.com/1778714877409.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/1778714877409.jpeg
 tags:
   - API Evangelist
   - History

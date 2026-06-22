@@ -2,7 +2,7 @@
 layout: post
 title: Google And AWS APIs Available In Visual Studio And Eclipse IDEs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_visual_studio_ide_apidiscovery.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_visual_studio_ide_apidiscovery.png
 atomdate: 2017-04-25T16:00:00.000Z
 tags:
   - IDE

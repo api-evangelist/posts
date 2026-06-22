@@ -6,7 +6,7 @@ title: >-
 sourceurl: >-
   http://apievangelist.com/2015/04/09/opportunities-in-the-long-tail-of-api-deployment-for-nondevelopers-using-kimono-labs/
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/kimono/kimono-black-square.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/kimono/kimono-black-square.jpeg
 author:
   name: kinlane
 tags:

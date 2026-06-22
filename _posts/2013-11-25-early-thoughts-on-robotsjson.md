@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Early Thoughts on Robots.json
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-robot-json.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-robot-json.png
 author:
   name: kinlane
 date: 2013-11-25 20:01:04+00:00

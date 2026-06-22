@@ -2,7 +2,7 @@
 layout: post
 title: Translating The World Of Hypermedia APIs For The Normals
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/elasticpath/elastic-path-logo-2014.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/elasticpath/elastic-path-logo-2014.jpeg
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ As of January 2014 [I’ve committed more time to doing research on hypermedia A
 
 Personally, I don’t 100% speak hypermedia-eze, but I know with some practice I can get better at translating. I also know that some of the hypermedia folks aren’t so good at speaking plain english to normal people, but with some practice I htink they will also get better. To help me in my jouney I figured I’d translate what Elastic Path has written on their Cortex API page, but first I want to acknowledge the image they have--which is the first sophisticated hypermedia visual I’ve seen, and I want to work on creating more like it.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/elasticpath/elastic-path-developer-cortex-diagram-2.jpg)](http://www.elasticpath.com/hypermedia-api)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/elasticpath/elastic-path-developer-cortex-diagram-2.jpg)](http://www.elasticpath.com/hypermedia-api)
 
 Let’s get on with the translation from hypermedia-eze to plain english. Elastic Path starts with:
 

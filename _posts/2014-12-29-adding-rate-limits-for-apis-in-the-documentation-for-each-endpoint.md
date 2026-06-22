@@ -2,7 +2,7 @@
 layout: post
 title: Adding Rate Limits For APIs In The Documentation For Each Endpoint
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twitter-rate-limit-docs.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twitter-rate-limit-docs.png
 author:
   name: kinlane
 tags:

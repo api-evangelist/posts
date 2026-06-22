@@ -2,7 +2,7 @@
 layout: post
 title: Browsing The 261 APIs At Brigham Young University
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/brigham-young-university.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/brigham-young-university.jpeg
 author:
   name: kinlane
 tags:

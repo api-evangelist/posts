@@ -2,7 +2,7 @@
 layout: post
 title: NPR Adds Content Permission Control to their API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/npr-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/npr-logo.jpeg
 author:
   name: kinlane
 tags:
@@ -31,6 +31,6 @@ The new changes allow stations to set these permissions at the individual story 
 
 NPR's approach is a great model for how APIs can facilitate content exchange across a large network of providers, allowing for the widest distribution possible-while also allowing content owners control over who has access to their valuable content in a very granular way.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/npr/NPR-Digital-Services.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/npr/NPR-Digital-Services.png)
 
 APIs are all about providing access to valuable content and resources, but should also be designed to give the proper amount of access, so your content doesn’t end up being consumed, distributed in ways you don’t find appropriate.

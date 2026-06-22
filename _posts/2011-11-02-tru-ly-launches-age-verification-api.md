@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: '"Tru.ly Launches Age Verification API"'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/truly-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/truly-logo.png
 author:
   name: kinlane
 tags:

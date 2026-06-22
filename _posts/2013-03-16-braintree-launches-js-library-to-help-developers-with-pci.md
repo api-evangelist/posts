@@ -2,7 +2,7 @@
 layout: post
 title: Braintree Launches JS Library to Help Developers With PCI
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/braintree-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/braintree-logo.png
 author:
   name: kinlane
 tags:

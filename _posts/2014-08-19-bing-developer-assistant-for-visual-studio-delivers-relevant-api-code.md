@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bing Developer Assistant for Visual Studio Delivers Relevant API Code
-image: https://s3.amazonaws.com/kinlane-productions2/microsoft/visual-studio.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/microsoft/visual-studio.jpg
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ _"Code snippets are short piece of code that you can easily learn and copy"_, an
 
 The approach by the Bing Developer Center team [reflects what I’m seeing from Salesforce, Google, and other API IDE integrations](http://apievangelist.com/2014/07/03/expanding-the-layer-of-api-discovery-from-within-the-developers-ide/). I’m interested in continuing to explore what role API definitions like [Swagger, API Blueprint, and RAML](http://apievangelist.com/2014/01/16/api-design-do-you-swagger-blueprint-or-raml/) will play when it comes to API discovery via popular IDEs like Visual Studio.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-ide-api.png)](http://discovery.apievangelist.com)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-ide-api.png)](http://discovery.apievangelist.com)
 
 I also envision [APIs.json](http://apisjson.org/) also taking a lead role when it comes to discovering new APIs, or pulling from a curated list of existing APIs, while programming within any IDE. There will also be an opportunity for IT, and development support staff to discovery API resources using [API search engines like APIs.io](http://apis.io), and then create their own internal APIs.json collection of sanctioned API resources from across public, partner and internal sources.
 

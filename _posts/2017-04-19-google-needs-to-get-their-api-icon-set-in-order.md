@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Needs To Get Their API Icon Set In Order
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_icons.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_icons.png
 atomdate: 2017-04-19 16:00:00+00:00
 tags:
 - API Evangelist

@@ -2,7 +2,7 @@
 layout: post
 title: 'JCI &amp; Panoptix APIs: Write APIs Are Much Harder Than Read APIs'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/panoptix/johnson-control-panoptix.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/panoptix/johnson-control-panoptix.png
 author:
   name: kinlane
 tags:

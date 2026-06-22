@@ -3,7 +3,7 @@ published: true
 layout: post
 title: '"Google Launches OAuth 2.0 Playground"'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/OAuth2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/OAuth2.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Help Improve This Content: Another Reason To Deploy API Developer Area on Github'
-image: https://s3.amazonaws.com/kinlane-productions2/federal-government/regulations/regulations-gov-swagger-docs.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/regulations/regulations-gov-swagger-docs.png
 author:
   name: kinlane
 tags:

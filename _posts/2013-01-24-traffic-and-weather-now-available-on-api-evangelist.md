@@ -2,7 +2,7 @@
 layout: post
 title: Traffic and Weather Now Available on API Evangelist
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Traffic-and-Weather.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/Traffic-and-Weather.png
 author:
   name: kinlane
 tags:

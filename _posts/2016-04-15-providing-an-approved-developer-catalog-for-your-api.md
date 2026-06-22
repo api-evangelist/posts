@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Providing An Approved Developer Catalog For Your API
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-developer-catalog.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-developer-catalog.png
 tags:
 - API Evangelist
 - APIs

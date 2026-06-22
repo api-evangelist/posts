@@ -2,7 +2,7 @@
 layout: post
 title: Tweeting Out The iPaaS Opportunities That Are Available For Your API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Mailjet_on_Twitter___Sync__Mailjet____Fullcontact_to_auto_add_contacts_from_business_cards_to_email_lists_https___t_co_6dBDnYUqGY__Zapier_https___t_co_tcuoooBMwg_.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Mailjet_on_Twitter___Sync__Mailjet____Fullcontact_to_auto_add_contacts_from_business_cards_to_email_lists_https___t_co_6dBDnYUqGY__Zapier_https___t_co_tcuoooBMwg_.png
 atomdate: 2016-08-18T18:00:00.000Z
 tags:
   - iPaaS

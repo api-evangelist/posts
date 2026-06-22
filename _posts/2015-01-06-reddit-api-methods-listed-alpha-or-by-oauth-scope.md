@@ -2,7 +2,7 @@
 layout: post
 title: Reddit API Methods Listed Alpha or By oAuth Scope
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/redit-api-listing.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/redit-api-listing.png
 author:
   name: kinlane
 tags:

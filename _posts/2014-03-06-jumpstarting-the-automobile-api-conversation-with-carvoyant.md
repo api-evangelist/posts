@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jumpstarting the Automobile API Conversation With Carvoyant
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/carvoyant/carvoyant-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/carvoyant/carvoyant-logo.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ The conversation triggered several potential stories for me, but after the talk 
 
 Auto companies are on board with APIs playing a significant role in the future of the auto industry, but their window for change is in not just years, but multiple years. Tech giants like Google and Apple are turning their attention to the opportunities surrounding the connected car, but their runway is pretty lengthy as well—highly dependent on the car manufacturers.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/carvoyant/carvoyant-connected-car-cast.png)](http://www.youtube.com/watch?v=cKWgzOjgAjM "Carvoyant")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/carvoyant/carvoyant-connected-car-cast.png)](http://www.youtube.com/watch?v=cKWgzOjgAjM "Carvoyant")
 
 Carvoyant has options for connecting cars right now, providing a device you can plug in cars that are 1996 and newer, and an API for developers to build apps that integrate with user’s vehicles. Carvoyant isn’t about delivering content to your vehicle like Apple and Google are working on, it is about getting data from your vehicle, about its location, engine, tires, fuel and other vehicle data points and automobile centric events.
 

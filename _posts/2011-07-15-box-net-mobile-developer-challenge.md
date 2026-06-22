@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Box.net Mobile Developer Challenge
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist/box/Box-Mobile-Dev-Challenge.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/box/Box-Mobile-Dev-Challenge.png
 author:
   name: kinlane
 tags:

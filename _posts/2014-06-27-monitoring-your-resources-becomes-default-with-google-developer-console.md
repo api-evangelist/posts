@@ -2,7 +2,7 @@
 layout: post
 title: Monitoring Your Resources Becomes Default With Google Developer Console
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/google/Google-Developers-Console.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/google/Google-Developers-Console.png
 author:
   name: kinlane
 tags:

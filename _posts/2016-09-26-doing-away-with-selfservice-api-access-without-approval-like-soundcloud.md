@@ -2,7 +2,7 @@
 layout: post
 title: Doing Away With Self-Service API Access Without Approval Like SoundCloud
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/backstage_blog__api_sign_up_changes__soundcloud_developers.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/backstage_blog__api_sign_up_changes__soundcloud_developers.png
 atomdate: 2016-09-26T18:00:00.000Z
 tags:
   - Cloud

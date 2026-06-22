@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Building An API Partner Program For Streamdata.io'
-image: https://s3.amazonaws.com/kinlane-productions2/streamdata/streamdata-api-evangelist-partner.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/streamdata/streamdata-api-evangelist-partner.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/streamdata/streamdata-api-evangelist-partner.png" align="right" width="45%" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/streamdata/streamdata-api-evangelist-partner.png" align="right" width="45%" style="padding: 15px;" />
 <p>I am working with <a href="http://apis.how/streamdata">Streamdata.io</a> on a number of fronts when it comes to our partnership in 2018. One of the areas I’m helping them build, is the partner program around their API service. I’m taking what <a href="http://partners.apievangelist.com/">I’ve learned from studying the partner programs of other leading APIs</a>, and I am pulling it together into coherent strategy that Streamdata.io can put to work over time. Like any other area of operations, we are going to start small, and move forward incrementally, making sure we are doing this in a sensible, and pragmatic way.
 
 <p>First up, are the basics. What are we trying to accomplish with the Streamdata.io partner program. I want to have a simple and concise answer to what their partner program does, and is designed to accomplish.

@@ -2,7 +2,7 @@
 layout: post
 title: Give Me A URL To Request Then Store My API Keys In My Private Github Repo
 sourceurl: http://apievangelist.com/2014/08/08/give-me-a-url-to-request-then-store-my-api-keys-in-my-private-github-repo/
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-github.jpg
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-github.jpg)
 
 I went through [77 federal government API developer portals](http://apievangelist.com/2014/07/10/looking-at-77-federal-government-api-developer-portals-and-190-apis/) a couple of weeks ago, as part of some [API discovery](http://discovery.apievangelist.com) work I’m doing with [APIs.json](http://apisjson.org). I ended up [targeting 120 APIs](http://apievangelist.com/2014/07/10/low-hanging-fruit-for-api-discovery-in-the-federal-government/) that I will be generating of [Swagger](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/) definitions, and [API.json](http://apisjson.org) for their umbrella domain, or subdomain over the next couple months.
 
@@ -21,7 +21,7 @@ To augment this common, yet distribution API management strategy, I would like t
 
 I shouldn't have to go through 77 separate API registration flows to get the API keys I need. I should be able to get API access in a programmatic way, using my existing Github account, and put Github oAuth to use in an authentication flow, getting the API keys I need in real time, in the location that I need them.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-key.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-key.png)
 
 This API access workflow would allow me to quickly gain access to resources I need for my apps, and store all my API keys in a single, or across multiple Github repositories—potentially giving me a simple, but powerful way to manage all of my API keys, via Github. 
 

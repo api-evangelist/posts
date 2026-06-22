@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Incentives For Companies To Be More Public With Their API Presence
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-carrot.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-carrot.png
 author:
   name: kinlane
 tags:

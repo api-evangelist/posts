@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Roundup Of API Meetup Groups In North America
-image: http://kinlane-productions2.s3.amazonaws.com/oscon-drinkup-2.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/oscon-drinkup-2.jpg
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ The existence, membership, and activity around local API Meetup groups is one of
 
 As we move into 2016, it is a good time to take another look at what API Meetup groups exist, and here is what I found:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/oscon-drinkup-2.jpg)](http://apievangelist.com/2012/07/20/definition-of-api-craft/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/oscon-drinkup-2.jpg)](http://apievangelist.com/2012/07/20/definition-of-api-craft/)
 
 *   [San Francisco, CA](http://www.meetup.com/API-Meetup/) with 884 members
 *   [San Francisco (API Craft)](http://www.meetup.com/api-craft-san-francisco/) with 662 members

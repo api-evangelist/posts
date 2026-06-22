@@ -4,7 +4,7 @@ layout: post
 title: "Stripe Through the Lens of API Evangelist"
 date: 2026-05-21
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-docks-oakland-4.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-docks-oakland-4.jpeg
 category: "Blog"
 tags:
   - Stripe

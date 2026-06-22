@@ -9,7 +9,7 @@ tags:
 - Definitions
 - Collections
 - Capabilities
-image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stories-gears-numbers-blue.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/stories-gears-numbers-blue.jpg
 ---
 In my world API definitions are more valuable than code. Code is regularly thrown away and rewritten. API definitions hold the persistent detail of what an API delivers, and contain all of the proprietary value when they are properly matured. OpenAPI has definitely risen to the top when it comes to which API definition formats you should be using, however, Postman Collections have one critical ingredient that makes them ultimately more usable, sharable, and meaningful to developers—-environmental context. This small but important difference is what makes Postman Collections so valuable as a single quantifiable, shareable, executable unit of representation for any digital capability.
 

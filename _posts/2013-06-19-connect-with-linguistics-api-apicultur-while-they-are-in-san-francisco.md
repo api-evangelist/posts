@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connect With Linguistics API Apicultur While They Are In San Francisco
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apicultur-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apicultur-logo.png
 author:
   name: kinlane
 tags:

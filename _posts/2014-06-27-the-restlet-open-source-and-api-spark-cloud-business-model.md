@@ -2,7 +2,7 @@
 layout: post
 title: The Restlet (Open Source) and API Spark (Cloud) Business Model
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-service-providers/api-spark/restlet-apispark.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/api-spark/restlet-apispark.png
 author:
   name: kinlane
 tags:

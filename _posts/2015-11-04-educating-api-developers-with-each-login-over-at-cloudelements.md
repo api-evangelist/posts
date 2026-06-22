@@ -2,7 +2,7 @@
 layout: post
 title: Educating API Developers With Each Login Over At @CloudElements
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/cloud-element-login.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/cloud-element-login.png
 author:
   name: kinlane
 tags:

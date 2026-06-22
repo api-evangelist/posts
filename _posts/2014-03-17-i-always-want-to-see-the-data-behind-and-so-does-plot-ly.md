@@ -3,7 +3,7 @@ published: true
 layout: post
 title: I Always Want To See the Data Behind, And So Does Plot.ly
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/plotly/plotly-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/plotly/plotly-logo.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ I don’t have a love of infographics, mostly because they more graphic, than in
 
 This sentiment is shared by a startup I was introduced this last week, called [Plot.ly](https://plot.ly/). I had a great conversation Nolan Browne the co-founder & chief business officer at Plot.ly, and he conveyed to me about how serious Plot.ly is about providing embeddable, API driven data analysis and visualizations tools that really empower data stewards.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/plotly/plotly-visualizations.png)](https://plot.ly/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/plotly/plotly-visualizations.png)](https://plot.ly/)
 
 First, I really like Plot.ly because it is JSON driven. Next they provide you with all the web-based tool you need to import, manage and share data in a way that lets you collaborate and publish along the way. Plot.ly even provides an API to help you manage everything about your data analysis and visualization work.
 

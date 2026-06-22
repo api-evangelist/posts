@@ -7,7 +7,7 @@ tags:
   - Digital Resources
   - Digital Capabilities
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-japanese-carrying-over-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/good-year-home-merchandise-japanese-carrying-over-bridge.jpeg
 ---
 Your average enterprise organization has a sprawling and chaotic mix of application programming interfaces being produced and consumed, making business operations difficult to see, understand, and confidently move in any single direction, and always working to play catch up when it comes to technical debt.
 

@@ -2,7 +2,7 @@
 layout: post
 title: API Management Platform Emergent One Launches Free Tier
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/emergent-one-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/emergent-one-logo.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ I didn’t sign up for their service when they first launched, because they didn
 
 The Emergent One approach to deploying APIs from common data sources, is one I think will resonate with users who aren’t developers, but understand the importance of APIs, and are often restrained by unresponsive, limited or no IT resources.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/emergent-one/Emergent-One-Get-Started.png)](https://emergentapi.com/cp/register?type=internal)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/emergent-one/Emergent-One-Get-Started.png)](https://emergentapi.com/cp/register?type=internal)
 
 Emergent One one is responding to user requests for a cheaper tier that support entry level API users, which will allow them to tweak their API strategies before spending money. This is something I think is mandatory for all API service providers, something [3Scale](http://3scale.net/) were the first movers on, and we have seen [Apigee](http://apigee.com/about/pricing) implement recently, as well as [Layer7](/serviceproviders/layer_7_technologies.php) with their [Apify](http://www.apify.co/).
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '#APIDays in Paris France Wrap-Up'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-logo.png
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/api-days-logo.png
 author:
   name: kinlane
 tags:
@@ -21,13 +21,13 @@ After some scheduling shuffling due to speaker cancellations API Days asked me i
 *   [The Secret to a Successful API is Internal](/2012/12/07/the-secret-to-a-successful-api-is-internal-apidays/ "The Secret to a Successful API is Internal")
 *   [Business Models for Your API as a Start-Up](/2012/12/07/business-models-for-your-api-as-a-startup-api-days/ "Business Models for Your API as a Start-Up")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-days-paris-france/faberNovel-logo.png)](http://www.fabernovel.com/en/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-days-paris-france/faberNovel-logo.png)](http://www.fabernovel.com/en/)
 
 While the building blocks presentation is my usual material (but needs to be told over and over to new audiences), the other two talks represents entirely new work based upon other stories and research I’ve done in the past.
 
 I learned a lot while at API Days. It was about 200 people, discussing APIs over the course of two days. I was really impressed with the passion everyone had for APIs and the genuine interest in understand the essence of the web API movement--discussing ideas, philosophies and approach rather than just the technology of APIs.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-days-paris-france/webshell-logo.jpeg)](http://webshell.io)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-days-paris-france/webshell-logo.jpeg)](http://webshell.io)
 
 I feel an awakening occurring in Europe right now in regards to APIs. My Twitter has lit up in the past three months with new European based followers focusing on APIs, and flood of new requests for discussions and information about APIs.
 

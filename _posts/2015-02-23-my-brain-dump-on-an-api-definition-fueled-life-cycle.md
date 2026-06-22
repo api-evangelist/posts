@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Brain Dump On An API Definition Fueled Life Cycle
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiblueprint-swagger.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apiblueprint-swagger.png
 author:
   name: kinlane
 tags:

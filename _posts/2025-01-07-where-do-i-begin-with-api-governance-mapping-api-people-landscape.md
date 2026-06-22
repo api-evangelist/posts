@@ -9,7 +9,7 @@ tags:
   - Teams
   - Roles
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-statue-of-liberty-front-bright.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-statue-of-liberty-front-bright.jpg
 ---
 With an understanding of the [API](https://apievangelist.com/2025/01/07/where-do-i-begin-with-api-governance-mapping-the-api-landscape/) and [operational](https://apievangelist.com/2025/01/07/where-do-i-begin-with-api-governance-mapping-the-operational-api-landscape/) landscape you must always map out the teams who are using any API being produced. Understanding the people and the tribes they belong to, as well rules, policies, and other things that shape their world is important. Many APIs will remain internal services and require little resources and governance, but other opportunities for productization and further investment in APIs will be defined by people and the bounded contexts they operate within.
 

@@ -2,13 +2,13 @@
 layout: post
 title: Twitter Launches New API Developer Area
 url: http://apievangelist.com/2011/07/11/twitter-launches-new-api-developer-area/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Twitter
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/twitter/New-Twitter-Developer-Area.png)](https://dev.twitter.com/ "dev.twitter.com")Twitter just launch an updated version of the [Twitter Developer Site](https://dev.twitter.com/ "Twitter Developer Site"). The new developer area focuses on enhancing developer communication channels and providing improved reference material and documentation.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/twitter/New-Twitter-Developer-Area.png)](https://dev.twitter.com/ "dev.twitter.com")Twitter just launch an updated version of the [Twitter Developer Site](https://dev.twitter.com/ "Twitter Developer Site"). The new developer area focuses on enhancing developer communication channels and providing improved reference material and documentation.
 
 The new [dev.twitter.com](https://dev.twitter.com/ "dev.twitter.com") is built using the [Drupal platform](http://www.drupal.org "Drupal Platform") and focuses on providing core building blocks for its developer community:
 

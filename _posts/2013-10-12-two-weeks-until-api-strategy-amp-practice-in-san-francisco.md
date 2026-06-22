@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Two Weeks Until API Strategy &amp; Practice in San Francisco
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/APIStrat-Home-Page-Slice-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/APIStrat-Home-Page-Slice-2.png
 author:
   name: kinlane
 tags:

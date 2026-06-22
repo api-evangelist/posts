@@ -2,7 +2,7 @@
 layout: post
 title: Google Adjusts Adwords API Access Tiers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-adwords-300x125.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google-adwords-300x125.jpeg
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Commons Is More Than Just The Definition, Specification or Schema
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-commons-icon.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-commons-icon.png
 author:
   name: kinlane
 tags:

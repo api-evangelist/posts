@@ -2,7 +2,7 @@
 layout: post
 title: Evolving The API SDK With APIMATIC DX Kits
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/apimatic_dx_kits.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apimatic_dx_kits.png
 atomdate: 2016-10-05T22:00:00.000Z
 tags:
   - SDK
@@ -14,7 +14,7 @@ Let's walk through what APIMATIC already does, then I'll talk more about some of
 **API Definitions**  
 What makes APIMATIC such an important service, in my opinion, is that they just don't speak using modern API definition formats, they speak in all of the API definition formats, allowing anyone to generate SDKs from the specification of your choice: 
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_transformer.png)](http://apimatic.io)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_transformer.png)](http://apimatic.io)
 
 *   API Blueprint
 *   Swagger 1.0 - 1.2
@@ -43,7 +43,7 @@ Because APIMATIC is so heavily invested in having a complete API definition, one
 **SDK Auto Generation**  
 Now we get to the valuable, and time-saving portion of what APIMATIC does best--generate SDKs in 10 separate programming language and platform environments. Once your API definition validates, you can select to generate in their preferred language.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_04_at_4.45.42_pm.png)](http://apimatic.io)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_04_at_4.45.42_pm.png)](http://apimatic.io)
 
 *   **Visual Studio** \- A class library project for Portable and Universal Windows Platform
 *   **Eclipse** - A compatible maven project for Java 5 and above
@@ -66,7 +66,7 @@ This is where we start moving beyond SDK for me, into the realm of what APIMATIC
 **Continuous Integration**  
 The evolution of the SDK continues with...well, continuous integration, and orchestration. If you go under the settings for your API in APIMATIC, you now also have the option to publish configuration files for four leading CI solutions:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/apimatic_dx_kits.png)](http://apimatic.io)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apimatic_dx_kits.png)](http://apimatic.io)
 
 *   **Generate Appveyor** - Generate Appveyor configuration file?
 *   **Generate CircleCI** \- Generate CircleCI configuration file?

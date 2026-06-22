@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Am I Going to See You @NordicAPIs in Sweden, September 18th &amp; 19th?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/nordic-apis-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/nordic-apis-logo.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ I will be heading out for the conference and giving a talk I'm calling "The Poli
 
 In addition to my talk, I will be moderating a panel on the Internet of Things, but specifically on business models, with Ronnie Mitra, Bradford Stephens, David Henricson Briggs and Ellen Sundh:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/nordic-apis/stockholm-image.jpeg)](http://nordicapis.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/nordic-apis/stockholm-image.jpeg)](http://nordicapis.com/)
 
 > _As we just begin getting a hold on monetization strategies and business models for APIs delivering data and resources for mobile development. How will we begin to understand how to apply what we have learned for the Internet of Things across our homes, vehicles, sensors and other Internet enabled objects that are being integrating with our lives._
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Every Form Should Be An API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/example-form.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/example-form.png
 author:
   name: kinlane
 tags:

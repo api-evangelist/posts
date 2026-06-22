@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Strategy &amp; Practice Conference in New York is SOLD OUT!!
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-strategy-practice-vertical.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-strategy-practice-vertical.jpg
 author:
   name: kinlane
 tags:

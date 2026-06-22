@@ -1,7 +1,7 @@
 ---
 layout: post
 title: APIs Needs To Augment My World With A Tangible Benefit In Order To Achieve Relevance
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/algorithmia-icon.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/algorithmia-icon.png
 author:
   name: kinlane
 date: 2016-04-05 19:19:35+00:00

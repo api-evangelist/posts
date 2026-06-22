@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Let Developers Register for Your API with Their Github Profile
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/github-logo.png
 author:
   name: kinlane
 tags:

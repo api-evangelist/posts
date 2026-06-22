@@ -12,7 +12,7 @@ tags:
   - Business
   - Funding
   - Expertise
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/stalin-time-statue-supreme-court.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/stalin-time-statue-supreme-court.jpg
 ---
 I have heard this on LinkedIn for two years now, and continue to hear it said privately by people who aren’t AI believers, but due to their position in the market are forced to comply and have to put on an AI costume and assume an AI script. Many others I’ve talked to have chosen just to go completely silent on the subject and silently work on their regular API work behind the scenes-—stepping back from the spotlight. As with anything I am choosing to write my way through how I feel about the state of technology right now.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Craft San Francisco Wrap-up For June 2014
-image: https://s3.amazonaws.com/kinlane-productions2/events/api-craft/san-francisco/api-craft-sf-june-2014.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/events/api-craft/san-francisco/api-craft-sf-june-2014.jpg
 author:
   name: kinlane
 tags:

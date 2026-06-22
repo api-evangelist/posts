@@ -8,7 +8,7 @@ tags:
   - Repositories
   - Gateways
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-stone-door.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-stone-door.jpeg
 ---
 If you’ve worked in a large enterprise you are very familiar with the physical security that exists, and that there are primary entrances you can take into a building. There may be a handful of emergencies or other exits you can take out of a building, but entering a building is done via a single entrance with security. This is how you manage your valuable Human Resources and tackle physical security, but once you begin to apply this same logic to digital resources you begin to see a very different picture. If you turn on Charles Proxy and begin to use any web, desktop, or mobile application for an enterprise, or you begin scanning the public GitHub repositories you will find many different entrances for accessing enterprise digital resources, with only a handful possessing a proper front door for API resources.
 

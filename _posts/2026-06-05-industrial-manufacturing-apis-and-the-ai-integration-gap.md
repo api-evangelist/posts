@@ -4,7 +4,7 @@ layout: post
 title: "Industrial Manufacturing APIs and the AI Integration Gap"
 date: 2026-06-05
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-shipping-docs-cranes.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/citizenship-shipping-docs-cranes.jpg
 category: "Blog"
 tags:
  - Manufacturing

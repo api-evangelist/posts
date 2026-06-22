@@ -2,7 +2,7 @@
 layout: post
 title: Postman Collections Will Take Your API Productivity To The Next Level
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/postman/postman-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/postman/postman-logo.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: 'HTTP Header Awareness: Using The Link Header For Pagination'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-link-header.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/github-link-header.png
 tags:
   - HTTP
   - Awareness

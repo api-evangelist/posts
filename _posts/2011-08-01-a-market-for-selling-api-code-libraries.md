@@ -2,13 +2,13 @@
 layout: post
 title: A Market for Selling API Code Libraries
 url: http://apievangelist.com/2011/08/01/a-market-for-selling-api-code-libraries/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Code
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/php-scripts-codecanon-gist-api.png)](http://codecanyon.net/item/gist-api/410684 "PHP code library for the Github Gist API")One of my Google Alerts picked up on something interesting today. A [PHP code library for the Github Gist API](http://codecanyon.net/item/gist-api/410684 "PHP code library for the Github Gist API"), for sale on the code marketplace [CodeCanyon](http://codecanyon.net/ "CodeCanyon") for $2.00.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/php-scripts-codecanon-gist-api.png)](http://codecanyon.net/item/gist-api/410684 "PHP code library for the Github Gist API")One of my Google Alerts picked up on something interesting today. A [PHP code library for the Github Gist API](http://codecanyon.net/item/gist-api/410684 "PHP code library for the Github Gist API"), for sale on the code marketplace [CodeCanyon](http://codecanyon.net/ "CodeCanyon") for $2.00.
 
 I almost just closed the window, but then thought a little more about it. I think its the first time I've seen a code libraries for sale like this. I've seen more robust integrations and API clients for sale, but never a simple library for working with an API.
 

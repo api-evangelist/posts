@@ -2,7 +2,7 @@
 layout: post
 title: API Inception Getting Twitter Data Via Gnip Through New Brandwatch API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/brandwatch-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/brandwatch-logo.jpeg
 author:
   name: kinlane
 tags:

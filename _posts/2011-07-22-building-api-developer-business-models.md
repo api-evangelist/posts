@@ -2,13 +2,13 @@
 layout: post
 title: Building API Developer Business Models
 url: http://apievangelist.com/2011/07/22/building-api-developer-business-models/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Business
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/bluevia/bluevia-logo.jpg)](https://bluevia.com/en/ "Bluevia API")API business models are still in its infancy. Many API owners are in experimental mode when it comes to how they make money with their API.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/bluevia/bluevia-logo.jpg)](https://bluevia.com/en/ "Bluevia API")API business models are still in its infancy. Many API owners are in experimental mode when it comes to how they make money with their API.
 
 Beyond the fuzzy plans for how API owners intend to make money, even more API owners don't have a clear vision of how they will reward their developers, and share revenue with its API ecosystem.
 
@@ -22,7 +22,7 @@ The [Bluevia API](https://bluevia.com/en/ "Bluevia API") is another innovator in
 *   Messaging Sending and Receiving - Earn 10% of SMS and MMS that are sent from a developer app
 kinlane-productions2.s3.amazonaws.com
 
-[![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/bluevia/bluevia-business-models.png)](https://bluevia.com/en/page/view/menupath/main.gotomarket.sell.businessModels "Bluevia lays out four business models")Bluevia provides a step-by-step process for walking developers through obtaining an API key, certifying an application and API key, publishing to the store, and collecting revenue from one or all of the available developer business models.
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/bluevia/bluevia-business-models.png)](https://bluevia.com/en/page/view/menupath/main.gotomarket.sell.businessModels "Bluevia lays out four business models")Bluevia provides a step-by-step process for walking developers through obtaining an API key, certifying an application and API key, publishing to the store, and collecting revenue from one or all of the available developer business models.
 
 This type of straightforward approach represents the future of how API owners can clearly communicate how a platform intends to generate revenue, and share revenue with the developer community so that they too can be successful in building businesses around an API platform. It sets clear expectations with the developer community, allowing developers to understand the risks and benefits with building a business around an API.
 

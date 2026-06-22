@@ -2,7 +2,7 @@
 layout: post
 title: Nest Provides A Real-Time Layer By Default For API Consumers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/nest/nest-developer-program.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/nest/nest-developer-program.png
 author:
   name: kinlane
 tags:
@@ -23,6 +23,6 @@ Nest also provides options, if you can’t use the Firebase library (not sure wh
 
 I track on [real-time technology](http://bit.ly/11RorBM) like Firebase as part of my [API trends research](http://apievangelist.com/trends/), and much like other trends like [aggregation](http://bit.ly/11RojT4 "aggregation") and [reciprocity](http://bit.ly/19Li6cS/), I think we’ll start seeing these trending layers baked into API operations by default. I’ve seen [APIs reference default API reciprocity, using platforms like Zapier](http://apievangelist.com/2014/03/13/api-management-adding-reciprocity-building-blocks/), and I think we’ll see more APIs adopt real-time frameworks by default in the future.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/firebase/firebase-logo.png)](https://www.firebase.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/firebase/firebase-logo.png)](https://www.firebase.com/)
 
 API providers need to focus on what they do best, providing API access to their valuable data, content and other programmatic resources. It is wise for providers to leverage existing providers to deliver real-time, aggregation, reciprocity, [voice](http://bit.ly/10sgWQI), and other complimentary API layers. I will continue to keep my eye out for how APIs are providing a much fuller stack of resources for developers, using their own resources, while also augmenting with other leading technology platforms.

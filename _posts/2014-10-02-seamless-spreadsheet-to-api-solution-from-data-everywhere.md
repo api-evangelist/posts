@@ -2,7 +2,7 @@
 layout: post
 title: Seamless Spreadsheet To API Solution From Data Everywhere
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/data-everywhere-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/data-everywhere-logo.png
 author:
   name: kinlane
 tags:

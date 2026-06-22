@@ -2,7 +2,7 @@
 layout: post
 title: When Your API Consumption Influences The Acquisition Of Your Startup
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/conspire_blogHeader.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/conspire_blogHeader.png
 atomdate: 2016-08-19T22:00:00.000Z
 tags:
   - Consumption

@@ -9,7 +9,7 @@ tags:
   - Human Services
   - Vendors
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/open-referral/hsda-documentation-v11.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/open-referral/hsda-documentation-v11.png
 ---
 I'm comparing five separate vendor API implementations with [the Human Services API standard I'm working on](https://openreferral.github.io/api-specification/definition/) at the moment. I'm looking to push version 1.0 of the API towards a 1.1 with some incremental, forward-thinking changes.
 

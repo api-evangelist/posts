@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deeper Connections Between Apps with Web Intents
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -13,13 +13,13 @@ On my blog I can give users a couple of basic actions to interact with my posts:
 
 kinlane-productions2.s3.amazonaws.com [Google and Mozilla are trying to evolve the actions available to us](http://www.webmonkey.com/2011/08/google-mozilla-team-up-to-create-a-smarter-action-based-web/ "Google and Mozilla are trying to evolve the actions available to us") with the concept of [Web Intents](http://www.webintents.com/ "Web Intents"). Both companies are building this spec into their browsers, but [Google seems to be taking it a step further with their Web Intents API](http://blog.chromium.org/2011/08/connecting-web-apps-with-web-intents.html "Google seems to be taking it a step further with their Web Intents API"). This web platform API will provide the same benefits of [Android Intents](http://developer.android.com/guide/topics/intents/intents-filters.html "Android Intents"), but better suited for web applications. With Web Intents, you will be able to connect your web app or site to a service with a couple lines of code, and the browser will handle the rest.
 
-![](http://kinlane-productions.s3.amazonaws.com/firefox/firefox-logo.jpg)A web intent based application will let users request a generic action like share or like, triggering this action, and the user is presented with a list of registered apps that can handle the requested intent. When selected, the action is triggered, information passed, and the intended action is fulfilled.
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/firefox/firefox-logo.jpg)A web intent based application will let users request a generic action like share or like, triggering this action, and the user is presented with a list of registered apps that can handle the requested intent. When selected, the action is triggered, information passed, and the intended action is fulfilled.
 
 Web Intents will start with the usual of intent actions like edit, view, and share, but it will create a framework allowing new types of web intents to evolve. Google intends to build a site allowing the adding, viewing and curation of web intents and their corresponding actions, and build a community around web intents that will create a sort of marketplace of what can actions can occur on the web.
 
 kinlane-productions2.s3.amazonaws.com This all reminds me somewhat of the online marketing term conversion event. When someone clicks off a Google Ad and ends up your site, you need to define a conversion event to measure if your Google Ad campaign is successful. The most common type of conversion event being a shopping cart purchase, but could be anything like newsletter sign-up, or even sharing a post to Twitter.
 
-[![](http://kinlane-productions.s3.amazonaws.com/facebook/facebook-like.jpg)](http://frankmedia.com.au/2011/07/18/why-you-need-to-stop-chasing-likes-on-facebook/frank-media-facebook-like-button/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/facebook/facebook-like.jpg)](http://frankmedia.com.au/2011/07/18/why-you-need-to-stop-chasing-likes-on-facebook/frank-media-facebook-like-button/)
 
 [Photo Credit](http://frankmedia.com.au/2011/07/18/why-you-need-to-stop-chasing-likes-on-facebook/frank-media-facebook-like-button/)
 

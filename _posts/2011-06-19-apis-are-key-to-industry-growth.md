@@ -2,7 +2,7 @@
 layout: post
 title: APIs Are Key to Industry Growth
 url: http://apievangelist.com/2011/06/19/apis-are-key-to-industry-growth/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -10,7 +10,7 @@ tags:
   - Growth
   - APIs
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/NetworkedHelpDesk/Networked-help-desk.png)At the [Glue Conference](http://gluecon.com/2011/ "Glue Conference") this year in Colorado, I sat on a panel called, [Whats Next for APIs?](http://www.kinlane.com/2011/05/whats-next-for-apis/ "Whats Next for APIs?"). In my talk, one area I focused on, was how industries would organize and put APIs to work.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/NetworkedHelpDesk/Networked-help-desk.png)At the [Glue Conference](http://gluecon.com/2011/ "Glue Conference") this year in Colorado, I sat on a panel called, [Whats Next for APIs?](http://www.kinlane.com/2011/05/whats-next-for-apis/ "Whats Next for APIs?"). In my talk, one area I focused on, was how industries would organize and put APIs to work.
 
 There is a growing trend within specific industries. They are coming together and pushing for standards, interoperability, and ways to work together.
 

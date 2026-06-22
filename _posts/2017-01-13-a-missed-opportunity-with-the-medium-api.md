@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Missed Opportunity With The Medium API
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/medium_storytelling_network2.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/medium_storytelling_network2.jpg
 atomdate: 2017-01-13 23:00:00+00:00
 tags:
 - API Evangelist

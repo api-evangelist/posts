@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Using Machine Readable API Definitions To Solve A Persistent Question: Are There Any Write APIs In Federal Government?'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-question-mark.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-question-mark.png
 author:
   name: kinlane
 tags:

@@ -9,7 +9,7 @@ tags:
   - MCP
   - GraphQL
   - Event-Driven
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-mining-mountains-2.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/francis-williams-mining-mountains-2.jpeg
 ---
 It is easy to get caught up in any given moment of the API space, and much more difficult to keep yourself elevated above the space. It is lonely up in the tops of the peaks above the API space, and much more exciting down in the city and streets. I am purposefully staying out of AI discussions as I do with most applications that put APIs to work. Applications definitely shape the API conversations, but often tend to distort the API conversation as well. The application of our digital resources and capabilities using APIs should be our North Star, with specific applications shaping and guiding our approach, but not dictating our overall approach to defining, designing, and operating our APIs across many different types of applications.
 

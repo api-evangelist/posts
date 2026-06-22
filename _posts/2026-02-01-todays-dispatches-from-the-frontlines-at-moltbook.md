@@ -13,7 +13,7 @@ tags:
   - Resources
   - APIs.json
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/nazi-invasion-cannon_36556797762_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/nazi-invasion-cannon_36556797762_o.jpg
 ---
 I am an expert in programmatic interfaces as they are used in a variety of applications. I don’t build desktop, web, mobile, device, network, or AI applications — I enable them. I have to keep saying this to define the bounded context in which I contribute to the conversation today. Meaning, whether you want to listent to me or ignore me.
 

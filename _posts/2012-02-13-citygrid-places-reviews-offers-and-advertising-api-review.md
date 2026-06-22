@@ -2,7 +2,7 @@
 layout: post
 title: CityGrid Places, Reviews, Offers and Advertising API Review
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/CityGrid-Getting-Started.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/CityGrid-Getting-Started.png
 author:
   name: kinlane
 tags:
@@ -27,7 +27,7 @@ When I first started working with [CityGrid](http://www.citygrid.com "CityGrid")
 *   [Usage Requirements](http://docs.citygridmedia.com/display/citygridv2/Usage+Requirements "usage requirements")
 *   [Self-Service Registratio](http://developer.citygridmedia.com/dashboard/registration "self-service registration")n
 
-[![](http://kinlane-productions2.s3.amazonaws.com/citygrid/CityGrid-Getting-Started.png)](http://docs.citygridmedia.com/display/citygridv2/Getting+Started)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/citygrid/CityGrid-Getting-Started.png)](http://docs.citygridmedia.com/display/citygridv2/Getting+Started)
 
 I have a list of what I consider [essential API area building blocks](http://apievangelist.com/2012/01/31/four-potential-levels-of-an-api-business-ecosystem/ "essential api building blocks"), and most of them are represented here, but there were a couple missing. So today I added 3 more areas:
 

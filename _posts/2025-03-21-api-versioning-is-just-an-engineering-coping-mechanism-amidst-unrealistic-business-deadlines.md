@@ -8,7 +8,7 @@ tags:
   - Change
   - Prioritization
   - Business
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-old-barn-falling-over.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-old-barn-falling-over.jpg
 ---
 It is interesting to have studied API versioning all of these years. Every conference I produced and supported, the discussions around API versioning are always the most attended, heated, and engaging. Engineers hold very strong opinions about how to version, what involves version, and when to version, as well as why you shouldn’t version at all. It is a fascinating discourse. However, when you actually tune into the change logs of top API platforms you realize that most aren’t as religious about managing change as the discourse would leave you to believe, and breaking changes, lack of communication, and other problems are actually pretty commonplace. As with many other isolated technological concerns in the API space, this reality has me zooming out to see what might be actually driving this from the business or political dimensions.
 

@@ -2,7 +2,7 @@
 layout: post
 title: A New Open Source Interactive API Documentation From Folks Over At Lucybot
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/lucyboty-api-console.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/lucyboty-api-console.png
 author:
   name: kinlane
 tags:

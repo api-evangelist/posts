@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Enabled Toys For Our Children
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fisher-price-internet-enabled-device.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/fisher-price-internet-enabled-device.png
 author:
   name: kinlane
 tags:

@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Tightly Coupled To Our Mobile Phones'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-mobile-apps.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-mobile-apps.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-mobile-apps.png" align="right" width="25%" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-mobile-apps.png" align="right" width="25%" style="padding: 15px;" />
 <p>I had ditched my phone last year after being with AT&amp;T for just shy of 20 years. Not having a phone made me realize how much you need a phone number to exist online these days. Facebook, Twitter, Google, all needed me to have a phone number which I can verify from time to time, to keep my accounts active.
 
 <p>In addition to just needing it for an account, I also need it regularly to secure my world via two-factor authentication. Sometimes I need it for SMS, but mostly I just need the authenticator app–both requiring at least having the mobile device in my presence. I’m not very tightly coupled with my phone, but it feels like it increasingly like it is always coupled to me.

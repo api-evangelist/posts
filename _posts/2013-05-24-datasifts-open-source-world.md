@@ -2,7 +2,7 @@
 layout: post
 title: DataSift&#039;s Open Source World
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/datasift-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/datasift-logo.png
 author:
   name: kinlane
 tags:
@@ -21,7 +21,7 @@ An example of this is with social data platform, [DataSift's new open source are
 
 I think DataSift approach is a very meaningful demonstration in the potential of being "open".  As a company, DataSift provides access to valuable social signals, that any company can access via their interface and API, allowing them to develop insight and intelligence. If you look closely at their approach to deploying their Github hosted, open source site, it provides four very critical signals. API client libraries, open source code projects, job openings and updates across the company's Github profile.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/datasift/datasift-open-source.png)](http://datasift.github.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/datasift/datasift-open-source.png)](http://datasift.github.io/)
 
 Think about it. The number of platforms supported for an API, the number of public open source code projects and the number and type of job postings for a company are pretty significant signals regarding the health of a company these days.  These can be pretty difficult areas to fake, and in many cases will quickly show the activity, growth and stability of a company.
 

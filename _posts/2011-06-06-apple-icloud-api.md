@@ -2,13 +2,13 @@
 layout: post
 title: Apple iCloud API
 url: http://apievangelist.com/2011/06/06/apple-icloud-api/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Cloud
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/apple/apple-icloud.jpg)Lots of big news coming out of [Apple’s World Wide Developer Conference](http://developer.apple.com/wwdc/ "Apple's World Wide Developer Conference") (WWDC2011) in San Francisco today.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/shared/apple/apple-icloud.jpg)Lots of big news coming out of [Apple’s World Wide Developer Conference](http://developer.apple.com/wwdc/ "Apple's World Wide Developer Conference") (WWDC2011) in San Francisco today.
 
 There were major enhancements coming down the pipes with IOS 5 and Mac OS X Lion. What really stood out was their new [iCloud](http://www.apple.com/icloud/ "iCloud").
 

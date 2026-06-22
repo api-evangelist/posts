@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Server Skeletons In Restlet Studio And APISpark
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-api-server-skeletons.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-api-server-skeletons.png
 author:
   name: kinlane
 tags:

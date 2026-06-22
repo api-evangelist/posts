@@ -2,7 +2,7 @@
 layout: post
 title: An API For Encrypted Storage Of All Your Accounts, Data, Files, And Setting
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/securedb-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/securedb-logo.png
 author:
   name: kinlane
 tags:

@@ -8,7 +8,7 @@ tags:
   - OpenAPI
   - Spectral
   - Editor
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-waterfront-in-italy-mist.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-waterfront-in-italy-mist.jpg
 ---
 [Spectral rules](https://bit.ly/3Q0yku9) have been the base of API governance since it evolved from Speccy in 2018, and is the widest adopted ruleset and linter. If you are just getting started with API governance and have the technical chops I recommend looking at [Vacuum](https://bit.ly/3WDnhej), or if you are looking for an industrial-grade approach with API governance I recommend looking at [APIMATIC](https://bit.ly/3NyONos). However, if you are on a budget, still trying to develop your internal capacity around what API governance is, and how rules work I recommend sticking with the Spectral rule for the time being, as it has the visibility, adoption, and open-source you will need to get started.
 

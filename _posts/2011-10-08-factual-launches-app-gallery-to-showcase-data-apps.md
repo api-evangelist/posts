@@ -2,7 +2,7 @@
 layout: post
 title: Factual Launches App Gallery to Showcase Data Apps
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/factual-logo-315x82.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/factual-logo-315x82.png
 author:
   name: kinlane
 tags:

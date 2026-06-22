@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Introduces a Google+ Hangout API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-plus-hangouts.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google-plus-hangouts.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ The [Google+ Hangout API](http://developers.google.com/+/hangouts/ "Google+ Hang
 
 To use Google+ you have to register your application with Google, and specify any other Google+ users on your team that will be able to load the application into their hangout.  Since the Google+ Hangouts API is only in developer preview, this is temporary requirement.
 
-![](http://kinlane-productions2.s3.amazonaws.com/google-plus/google-plus-hangouts.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/google-plus/google-plus-hangouts.png)
 
 Once registered, apps behaves like a normal web app, but it also can take part in the real-time conversations within a hangout using the API.  Google+ Hangout apps will use whats called a “shared state” among all instances, notifying users of changes by other application users in real-time.
 

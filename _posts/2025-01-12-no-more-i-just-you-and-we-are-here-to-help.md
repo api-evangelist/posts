@@ -7,7 +7,7 @@ tags:
   - Process
   - Conversation
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-JgpD9bo3DNLd4.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-JgpD9bo3DNLd4.jpg
 ---
 With the recent reboot of API Evangelist, and the release of 4.0 of the website, we are going back to using some of what we feel helped us successfully build the brand in the first place. Version 2.0 of the website and brand resonated with folks partly because the author was somewhat abstracted away behind an opinionated persona that existed somewhere between the physical and digital world. Sure some folks know that the author is Kin Lane, a human being who used to show up to conferences, and whatnot, but most people who read, retweeted, and shared APIs stories they simply knew as the API Evangelist--this is a good thing.
 

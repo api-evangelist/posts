@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Here Are The Top API Stacks I Will Be Working To Define in 2016
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stack-people.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-stack-people.png
 author:
   name: kinlane
 tags:

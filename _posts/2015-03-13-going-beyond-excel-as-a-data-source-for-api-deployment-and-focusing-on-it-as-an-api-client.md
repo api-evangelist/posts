@@ -5,7 +5,7 @@ title: >-
   An API Client
 sourceurl: >-
   http://apievangelist.com/2015/03/13/going-beyond-excel-as-a-data-source-for-api-deployment-and-focusing-on-it-as-an-api-client/
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-excel-icon.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-excel-icon.jpg
 author:
   name: kinlane
 tags:

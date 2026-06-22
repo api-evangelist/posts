@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'API Specifications Update for September 8th, 2021'
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-cloks-many-of-them.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-cloks-many-of-them.jpg
 tags:
     - API Specification Update
 ---

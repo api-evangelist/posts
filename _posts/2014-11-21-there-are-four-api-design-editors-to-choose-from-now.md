@@ -2,7 +2,7 @@
 layout: post
 title: There Are Four API Design Editors To Choose From Now
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-design-editor/swagger-editor.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-design-editor/swagger-editor.png
 author:
   name: kinlane
 tags:
@@ -15,21 +15,21 @@ In my opinion the expansion of APIs design formats, and API design tooling is ex
 
 There are three API design tools, from each of the providers of the modern API design formats:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-design-editor/apiary-editor.png)](http://apiary.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-design-editor/apiary-editor.png)](http://apiary.io/)
 
 [Apiary.io](http://apiary.io/) - Collaborative design, instant API mock, generated documentation, integrated code samples, debugging and automated testing using the API Blueprint API definition format.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-design-editor/mulesoft-api-designer.png)](http://api-portal.anypoint.mulesoft.com/raml/api-designer)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-design-editor/mulesoft-api-designer.png)](http://api-portal.anypoint.mulesoft.com/raml/api-designer)
 
 [API Designer | Anypoint API Portal](http://api-portal.anypoint.mulesoft.com/raml/api-designer) - Enables the ability to design APIs in the RAML API definition format, and mock, preview and save API designs into a notebook, and integrate with other Mulesoft API tooling.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-design-editor/swagger-editor.png)](http://editor.swagger.io)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-design-editor/swagger-editor.png)](http://editor.swagger.io)
 
 [Swagger Editor](http://editor.swagger.io) - Allows the designing APIs in the Swagger format in both YAML and JSON, allowing you to import, edit, preview, and export API design docs.
 
 All three of these API design tools are developed by the creator of the leading API definition formats, [API Blueprint](http://apiblueprint.org/), [Swagger](http://swagger.io/), and [RAML](http://raml.org/). (aka. Apiary, Wordnik, and Mulesoft). Now, a significant evolution in the API design tooling space has occurred and a cross format API design tool has emerged from the popular Java API framework [Restlet](http://restlet.com/).
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-design-editor/restlet-studio.png)](http://studio.restlet.com)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-design-editor/restlet-studio.png)](http://studio.restlet.com)
 
 [Restlet Studio](http://studio.restlet.com) - Allows you to create, and load API designs in Swagger and RAML formats, save, and generate server side scaffolding, and client side SDKs in multiple languages.
 

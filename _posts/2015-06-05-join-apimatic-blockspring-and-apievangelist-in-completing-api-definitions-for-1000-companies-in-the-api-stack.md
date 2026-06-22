@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Join @apimatic, @blockspring, and @apievangelist In Completing API Definitions For 1000 Companies In The API Stack
-image: https://s3.amazonaws.com/kinlane-productions2/api-stack/api-stack-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-stack/api-stack-logo.png
 author:
   name: kinlane
 tags:

@@ -3,7 +3,7 @@ layout: post
 title: Rise in Mobile Payments Good Sign for APIs
 url: >-
   http://apievangelist.com/2011/06/27/rise-in-mobile-payments-good-sign-for-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
   - Mobile
   - APIs
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/paypal/paypal-mobile-payments.gif)](https://personal.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=marketing_us/mobile_payments)Mobile is hot. Everyone is talking about the[growth in mobile payments this year](http://gigaom.com/2011/06/24/3b-in-mobile-payments-for-paypal-this-year-but-bigger-prize-at-stake/ "growth in mobile payments in 2011").
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/paypal/paypal-mobile-payments.gif)](https://personal.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=marketing_us/mobile_payments)Mobile is hot. Everyone is talking about the[growth in mobile payments this year](http://gigaom.com/2011/06/24/3b-in-mobile-payments-for-paypal-this-year-but-bigger-prize-at-stake/ "growth in mobile payments in 2011").
 
 Forrester Research predicted that mobile commerce will hit $6 billion in 2011 - and reach up to $31 billion by 2016.
 

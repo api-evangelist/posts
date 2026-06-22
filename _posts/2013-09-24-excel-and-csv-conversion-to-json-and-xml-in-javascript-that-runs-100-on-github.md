@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Excel and CSV Conversion to JSON and XML in JavaScript That Runs 100% on Github
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/csv-converter-github.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/csv-converter-github.png
 author:
   name: kinlane
 tags:

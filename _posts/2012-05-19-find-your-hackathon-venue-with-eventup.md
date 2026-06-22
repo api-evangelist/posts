@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Find Your Hackathon Venue with EventUp
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Eventuplogo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Eventuplogo.png
 author:
   name: kinlane
 tags:

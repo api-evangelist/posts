@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Adding A Lead To SalesForce Using The REST API'
-image: https://s3.amazonaws.com/kinlane-productions2/salesforce/salesforce-rest-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/salesforce/salesforce-rest-api.png
 ---
 
-<p><a href="https://developer.salesforce.com/page/Salesforce_APIs"><img src="https://s3.amazonaws.com/kinlane-productions2/salesforce/salesforce-rest-api.png" width="45%" align="right" style="padding: 15px;" /></a>
+<p><a href="https://developer.salesforce.com/page/Salesforce_APIs"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/salesforce/salesforce-rest-api.png" width="45%" align="right" style="padding: 15px;" /></a>
 <p>I spend a lot of time talking about <a href="https://developer.salesforce.com/page/Salesforce_APIs">the SalesForce API</a>, using it as a reference for where the API evolution began 18 years ago, but it has been a long time since I’ve actually worked with the SalesForce API. Getting up and running with any API, especially iconic APIs that we all should be familiar with, is always an enlightening experience for me. Going from zero to understanding what is going on and actually achieving the API call(s) you want, is really what this game is all about.
 
 <p>As part of some work I’m doing <a href="http://streamdata.io">with Streamdata.io</a> I needed to be able to add new leads into SalesForce, and I thought it would be a good time for me to get back into the saddle with the SalesForce REST API–so I volunteered to tackle the integration. The SalesForce API wasn’t as easy to get up and running as many simpler APIs I onboard with is, as the API docs isn’t as modern as I’d expect, and what you need is buried behind multiple clicks. Once you find what you are looking for, and click numerous times, you begin to get a feel for what is going on, and the object model in use becomes a little more accessible.

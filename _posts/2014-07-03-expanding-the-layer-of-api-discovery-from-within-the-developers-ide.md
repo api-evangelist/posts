@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Expanding The Layer Of API Discovery From Within The Developers IDE
-image: https://s3.amazonaws.com/kinlane-productions2/eclipse/eclipse-ide-logo.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/eclipse/eclipse-ide-logo.jpeg
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ SalesForce just [announced they have just open sourced their API IDE plugin on G
 **Does Your API Have An IDE Plugin?**  
 How far along are you on your own APIs Eclipse Plugin? Are you trying to reach enterprise developers with your API resource? You should probably look at the pros and cons of providing your API developers with a plugin, for leading IDEs. With the open sourcing of SalesForce API IDE plugin, [you can reverse engineer their approach](https://github.com/forcedotcom/idecore) and see what you can use for your own APIs IDE plugin—smells like a good opportunity to me.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/salesforce/apex_doc_plugin_menu.jpg)](https://developer.salesforce.com/blogs/engineering/2014/07/new-eclipse-plugin.html)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/salesforce/apex_doc_plugin_menu.jpg)](https://developer.salesforce.com/blogs/engineering/2014/07/new-eclipse-plugin.html)
 
 **Opportunity For General Or Niche API IDE Plugins**  
 Not that using SalesForce open source IDE would be the place to start for this kind of project, but I think there is a huge opportunity to develop API focused IDE plugins, for top developed environments, across many popular APIs. Developers shouldn’t have to leave their development environments to find the resources they need, they should be able to have quick access to the APIs they depend on te most, and discover new API resources right from their local environment, aking IDE plugins an excellent API discovery opportunity.

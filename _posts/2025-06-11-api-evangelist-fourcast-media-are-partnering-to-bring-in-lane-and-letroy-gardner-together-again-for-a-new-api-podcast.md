@@ -8,7 +8,7 @@ tags:
   - Conversations
   - Fourcast Media
   - Consumption
-image: https://kinlane-productions2.s3.us-east-1.amazonaws.com/kin-letroy.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/kin-letroy.jpeg
 ---
 While at API Days in NYC a couple weeks ago, I heard from several people that they missed the Breaking Changes podcast when I was the host. And that the show had a certain tone and line of questioning they found extremeley useful in their work. I agree. And specifically it was season two of Breaking Changes where I was able to hit a stride with the conversations where I was learning a ton, which is something that tends to translate into a meaningful show that helps the audience stay engaged. Why was season two so good? Well, because I had someone behind the scenes lining up new guests and pushing me outside the usual tech echo chamber to find interesting people that I could interview and learn from. As much as I’d like to take all the credit, the table was set for each show that made my job much easier, interesting, and something that translated into a good podcast.
 

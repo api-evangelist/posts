@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Swagger Spec Is Reborn As Open API Definition Format (OADF) After Being Put Into Open API Initiative (OAI)
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/open-api-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/open-api-logo.png
 author:
   name: kinlane
 tags:

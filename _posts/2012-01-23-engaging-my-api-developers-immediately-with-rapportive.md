@@ -2,13 +2,13 @@
 layout: post
 title: Engaging My API Developers Immediately with Rapportive
 url: http://apievangelist.com/2012/01/23/engaging-my-api-developers-immediately-with-rapportive/
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/rapportive-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/rapportive-logo.png
 author:
   name: kinlane
 tags:
 - Developers
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/rapportive/rapportive-logo.png)](http://rapportive.com/ "Rapportive")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/rapportive/rapportive-logo.png)](http://rapportive.com/ "Rapportive")
 
 When new developers register for the [CityGrid API](http://developer.citygridmedia.com/ "CityGrid APIs"), I get an email with their name and email address. I want to make sure each developer knows I’m here, and available to help them get up and running as quick as possible.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Shared, Distributed Experience(Metrics) Layer For The API Driven Application Stack
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-analytics-4.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-analytics-4.jpeg
 author:
   name: kinlane
 tags:
@@ -45,7 +45,7 @@ All of these experiences would be meaningful to the application developer, helpi
 
 Next, let's talk about end-users of applications that are built. We could also use this to drive end-user analytics, allowing them to see a report of their activity on any application, or depending on how this whole idea is deployed, across applications. It would provide a web and mobile dashboard like app users are growing accustom to, as well as provide a sort of notification layer, if end-users are interested.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/tin-can-api/tin-can-api-scorm-cloud.jpg)](http://tincanapi.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/tin-can-api/tin-can-api-scorm-cloud.jpg)](http://tincanapi.com/)
 
 What is important about this model is transparency. It gives platforms, and developers single place to record metrics (experiences), in a way that provides transparency to the end-user.(controversial!) We can also open up the experience definitions to the end-users, letting each end-user define the things that matter to them, and the experiences they want to capture. I imagine, this is only for the savvy app user, seems like you’d end up with a lot of ridiculous experience statements, but even if 1% of the feedback was interesting, it could provide an interesting feedback loop about what really is meaningful to end-users. Not exactly sure how you’d integrate user-defined experiences into the application operations, but at the minimum it could be a feedback mechanism, and integration is manual.
 

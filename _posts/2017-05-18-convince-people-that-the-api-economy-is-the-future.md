@@ -10,7 +10,7 @@ tags:
   - Cloud
   - Economy
   - Business of APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-business-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-business-api.png
 author:
   name: kinlane
 ---

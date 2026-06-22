@@ -5,7 +5,7 @@ title: >-
   Hypermedia APIs From S&eacute;bastien Cevey of The Guardian at @APIDaysBerlin
   / @APIStrat Next Week
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/the-guardian-open-platform.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/the-guardian-open-platform.jpeg
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ The most important stories told across the API space, the ones that have the big
 
 With this in mind, we've asked Sébastien Cevey ([@theefer](https://twitter.com/theefer)) of The Guardian to come to [@APIDaysBerlin / @APIStrat Europe 2015](http://apidaysberlin2015.apistrat.com/), and share a story from API operations at the worlds leading media API provider. Sébastien wanted to share their view of what Hypermedia APIs are, by comparing them to a classical RPC architecture and ad-hoc "JSON APIs". He will also cover key benefits of using Hypermedia APIs (cacheability, discoverability, evolveability/extensibility, simplicity, interactive nature), presented in the context of real-world examples and the different constraints of REST (HTTP, URIs, verbs, hypermedia controls like links and forms).
 
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/sebastien-sevey-the-guardian.jpg)](https://twitter.com/theefer)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/sebastien-sevey-the-guardian.jpg)](https://twitter.com/theefer)
 
 What I like about Sébastien viepoint, is 1) he works at one of the most progressive media outlets in the world, where he is actually putting APIs to work, and 2) his pragmatic approach. Sébastien will talk about what hypermedia APIs are, anchoring his lessons in real-world examples from Guardian operations, but he will also discuss the caveats of this API style, acknowledging the realities of API operations. There are no perfect solutions, but technologists like Sébastien are pushing the discipline of API design forward, while also balancing with the real-world reality that exists in their workplaces.
 

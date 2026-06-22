@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API, RSS, and The Ability To Look At Your Company Through An External Lens
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/workiva-rss.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/workiva-rss.png
 tags:
 - API Evangelist
 - APIs
@@ -19,7 +19,7 @@ In my experience companies who are able to think outside the corporate firewall,
 
 You can see this awareness in play over at [the risk, audit, finance, and compliance platform Workiva](https://www.workiva.com/). It is one of the few places I've seen [RSS at work in such a useful, and transparent way](http://investor.workiva.com/investors/resources/default.aspx):
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/workiva-rss.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/workiva-rss.png)
 
 This is a level of RSS, and corporate accessibility that I only dream of. If I had an RSS feed for the press releases, event schedule, and SEC filings for every company I track on, I'd be in heaven. However with Workiva, the dream ends there--[their blog doesn't have an RSS feed](https://www.workiva.com/blog), or at least one that I can easily find. Which for me demonstrates where the average company invests in, and will develop empathy. It is usually developed around their own pain points in their operation, and within their own industry. Workiva is in the the business of monitoring corporations, and they see the value in having RSS for the signals that matter the most to them--blog, obviously not that important of a signal in this game yet.
 

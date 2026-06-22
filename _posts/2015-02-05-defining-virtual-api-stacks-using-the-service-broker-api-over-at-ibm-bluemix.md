@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Defining Virtual API Stacks Using The Service Broker API Over At IBM Bluemix
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ibm-bluemix-third-party-services.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ibm-bluemix-third-party-services.png
 author:
   name: kinlane
 tags: []

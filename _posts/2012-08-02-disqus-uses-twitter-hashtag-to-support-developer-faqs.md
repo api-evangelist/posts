@@ -2,7 +2,7 @@
 layout: post
 title: 'Disqus Uses Twitter #HashTag to Support Developer FAQs'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/disqus-logo.gif
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/disqus-logo.gif
 tags:
   - Twitter
   - Support

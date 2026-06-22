@@ -2,7 +2,7 @@
 layout: post
 title: IRS Needs To Use White House Open Data Policy For Guidance
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/open-knowledge-foundation-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/open-knowledge-foundation-logo.jpg
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ I'm reading [IRS: Turn Over a New Leaf, Open Up Data](http://blog.okfn.org/2013/
 
 > _By sharing readily available IRS data on tax-exempt organizations, encouraging Congress to pass a budget proposal that mandates release of all tax-exempt returns in a machine-readable format, and increasing the transparency of its own processes, the agency can begin to turn the page on this scandal and help rebuild trust and partnership between government and its citizens._
 
-_![](https://s3.amazonaws.com/kinlane-productions2/federal-strategy/irs/irs-logo.jpg)_
+_![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-strategy/irs/irs-logo.jpg)_
 
 > _Making IRS data open won’t solve every problem; the recent scandal has proven that the IRS must be more transparent about both the information it collects, but also how it manages that information. A commitment on day one to share the data it collects in a machine readable manner would show true leadership by Mr. Werfel and help solidify the Obama administration’s legacy as an open government._
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: An API Could Be The Fancy&#039;s Kill Move Against Pinterest
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/the-fancy.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/the-fancy.jpg
 author:
   name: kinlane
 tags:
@@ -17,6 +17,6 @@ Now if The Fancy wanted to seal the deal and put a death nail in Pinterest's cof
 
 Once you have this mapped out, deploy a well crafted suite of embeddable objects, like share and buy buttons, along with essential widgets--all with the commerce layer built in.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/pinterest/Pinterest_Logo.png)](https://pinterest.com/ "Pinterest")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/pinterest/Pinterest_Logo.png)](https://pinterest.com/ "Pinterest")
 
 Developers and non-developers will make sure The Fancy becomes ubiquitous across the web, and because you chose to consider monetization, while making your platform play, and included developers in this model, the entire platform will be sustainable and outlast anything Pinterest can come up with.

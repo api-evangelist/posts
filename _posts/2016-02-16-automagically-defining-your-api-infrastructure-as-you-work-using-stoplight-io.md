@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Automagically Defining Your API Infrastructure As You Work Using Stoplight.io
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/stoplight-io-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/stoplight-io-logo.png
 author:
   name: kinlane
 tags:

@@ -4,7 +4,7 @@ title: >-
   Intuit Baked Their itDuzzit Acquisition Into Their Platform And Are Calling It
   Intuit AppConnect
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/itduzzit_formula.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/itduzzit_formula.png
 author:
   name: kinlane
 tags:

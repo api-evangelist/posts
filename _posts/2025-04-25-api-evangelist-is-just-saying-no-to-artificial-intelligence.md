@@ -12,7 +12,7 @@ tags:
   - Business
   - Funding
   - Expertise
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/stalin-time-statue-of-liberty-front-bright.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/stalin-time-statue-of-liberty-front-bright.jpg
 ---
 I am taking a firm stance on saying no to artificial intelligence in its current incarnation. I still use machine learning, specifically Tensorflow as my Algorotoscope protest to the bias in the machine, and continue to assess the AI augmentation present in applications I depend upon on a case by case basis. However, I was using the ChatGPT, Gemini, and Claude APIs in my profiling tools, and occasionally I would edit website copy using ChatGPT, and moving forward I am backing away from any remaining usage of the leading generative AI tooling because the benefits do not outweigh the negative impact of AI I this moment.
 

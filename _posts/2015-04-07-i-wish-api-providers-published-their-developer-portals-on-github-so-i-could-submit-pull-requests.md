@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Wish API Providers Published Their Developer Portals On Github So I Could Submit Pull Requests
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-portal-developer-github.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-portal-developer-github.png
 author:
   name: kinlane
 tags:

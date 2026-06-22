@@ -2,7 +2,7 @@
 layout: post
 title: Some Suggested Elements for Online API Education Platforms
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/studeio-sketchpad-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/studeio-sketchpad-logo.png
 author:
   name: kinlane
 tags:
@@ -31,7 +31,7 @@ Studio Sketchpad, while still a work in progress has many of the essential eleme
 
 I found nine additional features, beyond what is available via Codecademy. I strongly feel both embeddability and learn with instructor are critical to API education.  My primary arguement in yesterday's post is I can’t endorse sending our API users away to learn about an API. API education is an hands-on, iterative process, and we have invested too much in our API ecosystems to ship our users off to boarding school.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/studio-sketchpad/studio-sketchpad-example.png)](http://studio.sketchpad.cc/ "Studio Sketchpad")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/studio-sketchpad/studio-sketchpad-example.png)](http://studio.sketchpad.cc/ "Studio Sketchpad")
 
 Secondarily API education is not just people learning about your API, it is about you learning from your API consumers and making your API endpoints, resources and community better. As API owners there is so much to learn through interacting with our API consumers as they learn and integrate with a platform. API education isn’t a one way street.
 

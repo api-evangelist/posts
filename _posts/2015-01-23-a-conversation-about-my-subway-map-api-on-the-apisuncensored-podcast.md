@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Conversation About My Subway Map API On The APIsUncensored Podcast
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/subway-map-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/subway-map-api.png
 author:
   name: kinlane
 tags:

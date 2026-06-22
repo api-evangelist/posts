@@ -6,7 +6,7 @@ tags:
   - Enterprise Persona
   - Business
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-japanese-carrying-over-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-japanese-carrying-over-bridge.jpeg
 ---
 Almost everyone involved with APIs in the enterprise is focused exclusively on the direct monetization of API resources, with very few actually doing anything to standardize this work across all internal and external APIs, and always lack a balanced understanding of what direct and indirect API value generation means.
 

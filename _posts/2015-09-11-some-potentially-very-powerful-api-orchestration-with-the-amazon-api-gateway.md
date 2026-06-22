@@ -2,7 +2,7 @@
 layout: post
 title: Some Potentially Very Powerful API Orchestration With The Amazon API Gateway
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/aws-api-gateway-icon.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aws-api-gateway-icon.png
 author:
   name: kinlane
 tags:
@@ -70,7 +70,7 @@ There are some [current limitations of the Amazon API Gateway](https://docs.aws.
 **What Will This Cost?**  
 Lambda is providing the first 1 million requests per month for  free, and $0.20 per 1 million requests thereafter, or $0.0000002 per request. The Amazon API Gateway costs $3.50 per million API calls received, plus the cost of data transfer out, in gigabytes. It will be interesting to see what this costs at scale, but I'm sure overall, it will be very inexpensive to operate like other AWS services, and with time the cost will come down even further as they dial it all in.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/amazon-api-gateway-screen.png)](https://aws.amazon.com/api-gateway/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/amazon-api-gateway-screen.png)](https://aws.amazon.com/api-gateway/)
 
 **AWS API Gateway Has Me Thinking**  
 I won't be adopting AWS right away, I'd prefer to watch it evolve some more, but overall I like where they are taking things. The ability to quickly deploy code with Lambda, and use blueprints to clone, and deploy the code-behind APIs, has a lot of potential. Most of my APIs are just simple code that either returns data from a database, and conducts some sort of programmatic function, making Lambda pretty attractive, especially when it comes to helping you scale and monitor everything by default. 

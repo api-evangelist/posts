@@ -2,7 +2,7 @@
 layout: post
 title: Chicago API Hack Day
 url: http://apievangelist.com/2011/04/13/chicago-api-hack-day/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
 - Google
 - Twilio
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/api-hack-day.png)[Hack Day](http://www.apihackday.com/ "API Hack Day"), the all-day API hackathon is coming to Chicago on Saturday, May 28th, from 8:00 AM to 8:00 PM.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-hack-day.png)[Hack Day](http://www.apihackday.com/ "API Hack Day"), the all-day API hackathon is coming to Chicago on Saturday, May 28th, from 8:00 AM to 8:00 PM.
 
 Hack Day is hosted at the Morningstar offices, [22 West Washington Street](http://maps.google.com/maps?q=22+West+Washington+Street+chicago&um=1&ie=UTF-8&hq=&hnear=22+W+Washington+St,+Chicago,+IL+60602&gl=us&ei=liOmTa-wJ5OesQOe_Oj6DA&sa=X&oi=geocode_result&ct=title&resnum=1&ved=0CBgQ8gEwAA "22 West Washington Street"), home of the Morningstar Tech Talks.
 

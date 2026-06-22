@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Easy API Development with apiary.io
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiary-io-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apiary-io-logo.png
 author:
   name: kinlane
 tags:

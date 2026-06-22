@@ -2,7 +2,7 @@
 layout: post
 title: Can API Platforms Ensure Access to Federally Funded Research?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/US_white_house_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/US_white_house_logo.png
 author:
   name: kinlane
 tags:

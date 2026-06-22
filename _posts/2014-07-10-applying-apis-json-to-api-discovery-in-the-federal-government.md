@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Applying APIs.json To API Discovery In The Federal Government
-image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json/apisdotjson.png
 author:
   name: kinlane
 tags:
@@ -22,7 +22,7 @@ Out of the 190 APIs, around 120 of them were actual web APIs, that were somethin
 
 Before I could generate an APIs.json at each of the two domains (www.usa.gov and explore.data.gov), I needed machine readable API definition for the four APIs. I purposely picked federal agency APIs that were REST(flu), and were something I could easily generate a Swagger definition for.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-government.jpg)](http://federal-government.apievangelist.com)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-government.jpg)](http://federal-government.apievangelist.com)
 
 The [federal agency domain API at explore.data.gov](https://explore.data.gov/developers/docs/federal-executive-agency-internet-domains) was pretty easy, ony taking me a few minutes to handcraft a Swagger definition. Then I moved on to the [Federal Agency Directory API at www.usa.gov](https://www.usa.gov/About/developer-resources/federal-agency-directory/index.shtml), and I was happy to see there was already a Swagger definition for the API. After that I tackled the [Social Media Registry API](https://www.usa.gov/About/developer-resources/social-media-registry.shtml), and [Mobile App Gallery API](https://www.usa.gov/About/developer-resources/mobile-app-gallery/index.shtml), both of which I had to handcraft a Swagger definition for. The Mobile App Gallery API has a CORS issue, but I'm moving on and will setup a proxy to handle later.
 

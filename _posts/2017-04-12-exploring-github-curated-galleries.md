@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exploring Github Curated Galleries
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/github_explore_showcases.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/github_explore_showcases.png
 atomdate: 2017-04-12 19:00:00+00:00
 tags:
 - Github

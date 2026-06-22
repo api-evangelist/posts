@@ -7,7 +7,7 @@ tags:
   - Technical
   - Operations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/stalin-time-japanese-carrying-over-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-japanese-carrying-over-bridge.jpeg
 ---
 The enterprise leadership API Evangelist has been talking to is not asking a lot, they are just looking for some quick ways they can achieve, or at least get closer to a more desired technical state of API operations, giving teams the autonomy and accountability they need, while still steering the ship in the right direction.
 

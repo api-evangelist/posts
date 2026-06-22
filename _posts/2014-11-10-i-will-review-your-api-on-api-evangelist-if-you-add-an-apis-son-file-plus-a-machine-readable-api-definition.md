@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: I Will Review Your API On API Evangelist if You Add An APIs.son File Plus A Machine Readable API Definition
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
 author:
   name: kinlane
 tags:

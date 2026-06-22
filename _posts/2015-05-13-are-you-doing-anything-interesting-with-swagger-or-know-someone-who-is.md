@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Are You Doing Anything Interesting With Swagger? Or Know Someone Who Is?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png
 author:
   name: kinlane
 tags:

@@ -4,7 +4,7 @@ layout: post
 title: "Only Four API Providers Publish a Real .well-known/api-catalog Right Now"
 date: 2026-05-22
 author: "Kin Lane"
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 category: "Blog"
 tags:
   - Agent Readiness

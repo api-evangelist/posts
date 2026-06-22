@@ -1,7 +1,7 @@
 ---
 layout: post
 title: If This Then Visualize That (IFTVT)
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/IFTVT-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/IFTVT-logo.jpg
 author:
   name: kinlane
 tags:

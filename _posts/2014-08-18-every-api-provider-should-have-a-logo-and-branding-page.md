@@ -4,7 +4,7 @@ title: Every API Provider Should Have A Logo And Branding Page
 sourceurl: >-
   http://apievangelist.com/2014/08/18/every-api-provider-should-have-a-logo-and-branding-page/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Concur_Logo_HZ_Black_500px.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/Concur_Logo_HZ_Black_500px.png
 author:
   name: kinlane
 tags:

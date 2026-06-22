@@ -3,7 +3,7 @@ layout: post
 title: AlchemyAPI Adds Sentiment Analysis to Text Mining Platform
 url: >-
   http://apievangelist.com/2011/03/21/alchemyapi-adds-sentiment-analysis-to-text-mining-platform/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

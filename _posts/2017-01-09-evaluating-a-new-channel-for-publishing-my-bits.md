@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Evaluating A New Channel For Publishing My Bits
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/shutterstock_developers_home.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/shutterstock_developers_home.png
 atomdate: 2017-01-09 23:00:00+00:00
 tags:
 - Publishing

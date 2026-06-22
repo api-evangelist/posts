@@ -3,7 +3,7 @@ layout: post
 title: Module Exposes Drupal Resources as RESTful API
 url: >-
   http://apievangelist.com/2011/01/29/module-exposes-drupal-resources-as-restful-api/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
 ---
 A [new Drupal module](http://drupal.org/project/restws) makes use of the [Drupal Entity API](http://drupal.org/project/entity) and then takes information about the entity and delivers it as a [Restful](http://www.kinlane.com/) [Web Service](http://www.apievangelist.com/).
 
-kinlane-productions2.s3.amazonaws.com Features are:[](http://drupal.org)![](http://kinlane-productions.s3.amazonaws.com/drupal-logo.jpg)
+kinlane-productions2.s3.amazonaws.com Features are:[](http://drupal.org)![](https://kinlane-images.s3.amazonaws.com/apievangelist/drupal-logo.jpg)
 
 *   RESTful compliant
 *   Support for all Drupal entity types

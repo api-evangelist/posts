@@ -9,7 +9,7 @@ tags:
   - Technical
   - Engineering
   - Myths
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-mo-business-center.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-mo-business-center.jpeg
 ---
 Isn’t it strange that we are regularly talking about the need to get business stakeholders more involved in doing APIs? Like us engineers producing and consuming APIs operate in some liminal space outside the business of APIs. I work with Claire Barrett of APIsFirst on a weekly basis and she is always quick to point out that there is no separation between business and engineering when it comes to doing APIs, we are actually all in this together-—there is not "outside the business".
 

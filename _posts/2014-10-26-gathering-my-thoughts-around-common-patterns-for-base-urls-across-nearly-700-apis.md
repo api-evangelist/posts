@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gathering My Thoughts Around Common Patterns For Base URLs Across Nearly 700 APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puzzly-square.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-puzzly-square.png
 author:
   name: kinlane
 tags:

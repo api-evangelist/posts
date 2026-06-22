@@ -2,7 +2,7 @@
 layout: post
 title: Google Deploys a Single, Centralized Terms of Use for APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-logo-legal-600.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google-logo-legal-600.jpg
 author:
   name: kinlane
 tags:

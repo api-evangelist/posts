@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github As The Central Presence, Definition, Configuration, And Source Code For Your API
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-github.jpg
 author:
   name: kinlane
 tags:

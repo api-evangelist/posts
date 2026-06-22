@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Swagger As Fingerprint For My Microservice Docker Containers
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-api-docker.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/swagger-api-docker.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Preparing For My Talk At API Days In Sydney With Lots of Docker, Swagger, and APIs.json Work
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-api-docker.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/swagger-api-docker.png
 author:
   name: kinlane
 tags:

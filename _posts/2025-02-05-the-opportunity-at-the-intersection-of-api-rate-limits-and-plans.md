@@ -8,7 +8,7 @@ tags:
   - Rate Limits
   - Products
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-nyc-intersection.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/francis-williams-nyc-intersection.jpg
 ---
 One of the knowledge builders we are working on right now is focused on [API service composition](https://apievangelist.com/2025/01/27/what-is-api-service-composition/). We recently [talked with Zuplo about their view of API rate limits and planning from the gateway perspective](https://apievangelist.com/2025/01/30/api-evangelist-conversation-with-adrian-machado-staff-software-engineer-at-zuplo/), as well as had a conversation with Moesif about the same intersection from their API monetization and analytics perspective. The Moesif podcast will be released soon. Our favorite thing about API intersections is that when they are properly invested in they can become a bridge between product and engineering groups to optimize around the delivery of APIs. There are numerous API intersections to consider but rate limits, which are very technical one, also can lead to many interesting business details that can contribute to building a bridge using the following planks.
 

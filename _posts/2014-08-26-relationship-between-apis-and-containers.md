@@ -3,7 +3,7 @@ layout: post
 title: Relationship Between APIs And Containers
 sourceurl: http://apievangelist.com/2014/08/26/relationship-between-apis-and-containers/
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-shipping-container.png
+  https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-shipping-container.png
 author:
   name: kinlane
 tags:

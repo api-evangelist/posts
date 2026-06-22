@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Virtualized API Stacks
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Virtualized-API-Stacks.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Virtualized-API-Stacks.png
 author:
   name: kinlane
 date: 2013-01-28 19:56:14+00:00
@@ -19,7 +19,7 @@ After these conversation with the Temboo team, over the weekend I continued to t
 
 In this vision of the future, API providers could focus on what they do best, and not worry about every use case out there. Providers like Singly, Temboo, Parse can build abstracted layers on top of this. With this abstraction I wouldn’t be limited to just the friends and followers features on Twitter or Facebook, I could take advantage of the next generation of friend discovery tools like what Singly is delivering--in addition to the value of individual API providers.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/interoperability-trends.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/trends/interoperability-trends.png)
 
 With a virtualized approach, I could build the stack that is most meaningful for my internal, partner or public developers and if one piece of my stack is proving unreliable, I can replace it with another. APIs resources would be further commoditized, required to provide JSON definitions of their interfaces (or die a quick death), which virtual API stack platforms could use to discover and offer API resources. [API ranking](http://theapistack.com/ranking.html "API Ranking") algorithms would emerge allowing anyone to make sure they were discovering, selecting and using the best of breed API resources in the areas that matter for any vertical.
 

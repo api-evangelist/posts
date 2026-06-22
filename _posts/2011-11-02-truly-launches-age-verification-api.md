@@ -2,7 +2,7 @@
 layout: post
 title: Tru.ly Launches Age Verification API
 url: http://apievangelist.com/2011/11/02/tru.ly-launches-age-verification-api/
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/truly-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/truly-logo.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ tags:
 - Evangelism
 - Government
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/truly/truly-logo.png)](https://tru.ly "Tru.ly")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/truly/truly-logo.png)](https://tru.ly "Tru.ly")
 
 [Tru.ly](https://tru.ly "Tru.ly") just launched an [age verification API](https://tru.ly "Tru.ly") that authenticates the age of an online user based by cross-referencing user-submitted personal information with data points from Tru.ly verification partners.
 

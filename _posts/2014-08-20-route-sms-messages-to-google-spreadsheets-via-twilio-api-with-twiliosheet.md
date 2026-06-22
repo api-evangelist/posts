@@ -2,7 +2,7 @@
 layout: post
 title: Route SMS Messages To Google Spreadsheets Via Twilio API With TwilioSheet
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/twilio/TwilioSheet.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/twilio/TwilioSheet.png
 author:
   name: kinlane
 tags:

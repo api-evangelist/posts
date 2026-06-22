@@ -4,7 +4,7 @@ title: >-
   A Glimpse At What I Am Imagining For API Driven Analysis, Visualization, And
   Beyond
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/rason.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/rason.png
 author:
   name: kinlane
 tags:

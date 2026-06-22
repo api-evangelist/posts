@@ -2,7 +2,7 @@
 layout: post
 title: Why Do Companies Who Ask Me To Update Their Logo Never Have Branding Page?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-branding-logo-page.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-branding-logo-page.png
 atomdate: 2016-09-01T18:00:00.000Z
 tags:
   - Branding

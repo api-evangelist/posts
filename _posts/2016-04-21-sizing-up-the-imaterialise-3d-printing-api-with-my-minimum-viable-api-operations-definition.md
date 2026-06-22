@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sizing Up The i.Materialise 3D Printing API With My Minimum Viable API Operations Definition
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/i-materialise-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/i-materialise-logo.png
 tags:
 - 3D Printing
 - Definitions
@@ -18,19 +18,19 @@ To help me streamline the reviews I do, and deliver feedback to API providers, I
 
 **Name:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 i.materialise
 
 **Description:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 i.materialise has developed several interfaces (APIs) that allows your business to connect with our systems. Integrating apps or websites with i.materialise has never been easier. Feed your data to us, receive all possible order information and let our +100 3D printers do the rest!
 
 **Image:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://i.materialise.com/img/API/imat-logo-white.png
 
@@ -38,13 +38,13 @@ https://i.materialise.com/img/API/imat-logo-white.png
 
 **API Portal:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://i.materialise.com/api
 
 **API Base URL:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://i.materialise.com/web-api/
 
@@ -52,25 +52,25 @@ https://i.materialise.com/web-api/
 
 **Getting Started:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://i.materialise.com/api/getting-started
 
 **Registration:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://imatsandbox.materialise.net/Account/Login
 
 **Documentation:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 http://i.materialise.com/api/docs
 
 **Code:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-yellow-warning.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-yellow-warning.png)
 
 Code samples, libraries, and SDKs help reduce friction when on boarding for API consumers.
 
@@ -78,25 +78,25 @@ Code samples, libraries, and SDKs help reduce friction when on boarding for API 
 
 **Road Map:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-red-warning.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-red-warning.png)
 
 A road map shared with the community will keep consumers in sync with platform operations, giving them time to prepare, and possibly provide feedback that can be considered.  
 
 **Change Log:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-red-warning.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-red-warning.png)
 
 A publicly available change log shared with the community will keep consumers aware of what has happened, and reduce the resources needed to support.
 
 **Pricing:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://i.materialise.com/api/business-models
 
 **Terms of Service:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://i.materialise.com/legal/terms
 
@@ -104,19 +104,19 @@ https://i.materialise.com/legal/terms
 
 **OpenAPI Spec:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-yellow-warning.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-yellow-warning.png)
 
 A machine readable OpenAPI Specification for an API is fast becoming an essential element of API operations.
 
 **API Blueprint:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-yellow-warning.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-yellow-warning.png)
 
 A machine readable API Blueprint for an API is fast becoming an essential element of API operations.
 
 **Postman Collection:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-yellow-warning.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-yellow-warning.png)
 
 A machine readable Postman Collection for an API is fast becoming an essential element of API operations.
 
@@ -124,31 +124,31 @@ A machine readable Postman Collection for an API is fast becoming an essential e
 
 **Github Org / User:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://github.com/imaterialise
 
 **Twitter Account:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://twitter.com/imaterialise
 
 **Blog:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://i.materialise.com/blog/
 
 **Blog RSS:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 http://feeds.feedburner.com/imaterialise
 
 **Support Page:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-red-warning.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-red-warning.png)
 
 Pulling together all your support items into a single, easy to find page can help reduce frustration within your API community. Nobody likes to have to hunt down ways to get support, put it in a single page.  
 
@@ -156,13 +156,13 @@ Pulling together all your support items into a single, easy to find page can hel
 
 **Contact Name:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-red-warning.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-red-warning.png)
 
 A dedicated person, who can be responsible for an API is a pretty fundamental piece of API operations--don't hide.  
 
 **Contact Email:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-red-warning.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-red-warning.png)
 
 A dedicated email address for an API is a pretty fundamental piece of API operations--don't hide.
 

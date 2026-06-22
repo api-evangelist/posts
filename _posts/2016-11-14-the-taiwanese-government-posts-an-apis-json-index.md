@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: The Taiwanese Government Posts An APIs.json Index
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_11_14_at_11.34.48_am.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_11_14_at_11.34.48_am.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: A Book API Platform
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-epub-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-epub-logo.jpg
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ The new cloud services like [EmergentOne](http://deployment.apievangelist.com/co
 
 In the same spirit of helping data owners generate APIs, I'd like to see the same types of tools, but designed for books and their authors or publishers. When I create a book and generate the ePub version, I would like to be able to upload it to a cloud platform, where the service would spider the ePub file and help generate a simple, but meaningful API for the book allowing developers to search, annotate and interact with the books content via web, mobile or tablet applications.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/books/bw-epub-logo.jpg)](http://en.wikipedia.org/wiki/EPUB)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/books/bw-epub-logo.jpg)](http://en.wikipedia.org/wiki/EPUB)
 
 My thoughts are still in the idea stage, I have done very little research on what is out there. But I would envision something like this would work well will existing platforms like [Project Gutenberg](http://www.gutenberg.org/). As I do with all my ideas, I will share my thoughts here in real-time as I do the research.
 

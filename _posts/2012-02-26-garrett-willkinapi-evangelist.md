@@ -2,7 +2,7 @@
 layout: post
 title: Garrett Willkin - API Evangelist
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/garrettwilkin_apievangelist.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/garrettwilkin_apievangelist.jpg
 author:
   name: kinlane
 tags:

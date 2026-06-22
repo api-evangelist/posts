@@ -9,7 +9,7 @@ tags:
   - Business
   - APIs.json
   - Discovery
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-seattle-waterfront-ferris-wheel.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-seattle-waterfront-ferris-wheel.jpg
 ---
 [I was playing with the APIOps Cycles Canvas Creator](https://apievangelist.com/2025/04/02/the-apiops-cycles-canvas-creator/) and wanted to prepare one of my demo APIs for a working session with [Marjukka Niinioja](https://www.linkedin.com/in/marjukkaniinioja/) and [Claire Barrett](https://www.linkedin.com/in/claire-global/) next week. This is all part of my work to bridge the API economy level knowledge Claire brings to the table with the API operations level knowledge Marjukka brings to the table. Marjukka has done an amazing job standardizing how we think about API operations with the [APIOps Cycles](https://www.apiopscycles.com/), and brought this to life with ten [APIOps Cycles canvases](https://canvascreator.apiopscycles.com/). To help me wire up API Ops to the rules-based API governance I have been doing [I fired up a GitHub repo, added one of my demo APIs, and added the ten APIOps cycles Canvases to the APIs.json index for my product APIs](https://github.com/api-evangelist/apiops-cycles-canvas/tree/main).
 

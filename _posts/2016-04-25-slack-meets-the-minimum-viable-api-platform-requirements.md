@@ -2,7 +2,7 @@
 layout: post
 title: Slack Meets The Minimum Viable API Platform Requirements
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/slack/slack_api_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/slack/slack_api_logo.png
 tags:
   - Platform
   - Slack
@@ -16,19 +16,19 @@ Using my minimum viable API definition, I went through the Slack API portal look
 
 **Name:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 Slack API
 
 **Description:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 All of our APIs can be used alone or in conjunction with each other to build many different kinds of Slack apps. Whether you're looking to build an official Slack app for your service, or you just want to build a custom integration for your team, we can help you get started!
 
 **Image:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://a.slack-edge.com/ae57/img/slack\_api\_logo.png
 
@@ -36,13 +36,13 @@ https://a.slack-edge.com/ae57/img/slack\_api\_logo.png
 
 **API Portal:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://api.slack.com/
 
 **API Base URL:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://slack.com/api/
 
@@ -50,25 +50,25 @@ https://slack.com/api/
 
 **Getting Started:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://api.slack.com/slack-apps
 
 **Registration:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://slackhq.typeform.com/to/kOHQvo
 
 **Documentation:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://api.slack.com/rtm
 
 **Code:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://api.slack.com/community
 
@@ -76,25 +76,25 @@ https://api.slack.com/community
 
 **Road Map:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://api.slack.com/roadmap
 
 **Change Log:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://api.slack.com/changelog
 
 **Pricing:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-red-warning.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-red-warning.png)
 
 You should be at least sharing some rate limits, acceptable uses, and other pricing and access related information.
 
 **Terms of Service:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://slack.com/terms-of-service/api
 
@@ -102,19 +102,19 @@ https://slack.com/terms-of-service/api
 
 **OpenAPI Spec:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-yellow-warning.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-yellow-warning.png)
 
 A machine readable OpenAPI Specification for an API is fast becoming an essential element of API operations.
 
 **API Blueprint:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-yellow-warning.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-yellow-warning.png)
 
 A machine readable API Blueprint for an API is fast becoming an essential element of API operations.
 
 **Postman Collection:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-yellow-warning.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-yellow-warning.png)
 
 A machine readable Postman Colelction for an API is fast becoming an essential element of API operations.
 
@@ -122,31 +122,31 @@ A machine readable Postman Colelction for an API is fast becoming an essential e
 
 **Github Org / User:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://github.com/slackhq
 
 **Twitter Account:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://twitter.com/slackapi
 
 **Blog:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://medium.com/slack-developer-blog
 
 **Blog RSS:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://medium.com/feed/slack-developer-blog
 
 **Support Page:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://api.slack.com/docs/support
 
@@ -154,13 +154,13 @@ https://api.slack.com/docs/support
 
 **Contact Name:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 Slack
 
 **Contact Email:**
 
-![](https://s3.amazonaws.com/kinlane-productions2/icon-set/icon-green-check.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/icon-green-check.png)
 
 https://apievangelists.slack.com/help/requests/new
 

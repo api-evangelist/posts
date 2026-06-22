@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From Github Issue To Story to Resource
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ben-balter.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ben-balter.png
 author:
   name: kinlane
 date: 2013-07-17 20:47:24+00:00

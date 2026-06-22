@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Hunch&#039;s Clear Vision of Privacy and OAuth'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist/hunch/hunch-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/hunch/hunch-logo.png
 ---
 
-<img style="padding: 15px;" src="https://kinlane-productions2.s3.amazonaws.com/api-evangelist/hunch/hunch-logo.png" alt="" align="right" />Having a <a title="privacy policy on your API" href="http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=165">privacy policy on your API</a> is an important part of making it clear to developers and end-users, where your company stands in regard to their data and personal privacy.
+<img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/hunch/hunch-logo.png" alt="" align="right" />Having a <a title="privacy policy on your API" href="http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=165">privacy policy on your API</a> is an important part of making it clear to developers and end-users, where your company stands in regard to their data and personal privacy.
 <p>
 Just having a privacy policy is not enough, make sure it truly reflects your companies values, whats important to your users, and is in line with how you deploy your technology.
 <p>

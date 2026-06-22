@@ -7,7 +7,7 @@ tags:
     - JSON Schema
     - Storytelling
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-bletchley-computer.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-bletchley-computer.jpg
 ---
 Many engineers I've worked with over the years see OpenAPI and AsyncAPI as a configuration for whatever tooling outcome they desire. I see OpenAPI, AsyncAPI, and JSON Schema that defines them as a common language that leads to common understanding. Before all the technology bullshit, I am a storyteller. The words matter the most to me, right after the people, and before all of the technology. OpenAPI and AsyncAPI represented a common way for us to communicate and move in the right direction.
 

@@ -3,7 +3,7 @@ layout: post
 title: How to Avoid Frustrating Your API Developers
 url: >-
   http://apievangelist.com/2010/10/13/how-to-avoid-frustrating-your-api-developers/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

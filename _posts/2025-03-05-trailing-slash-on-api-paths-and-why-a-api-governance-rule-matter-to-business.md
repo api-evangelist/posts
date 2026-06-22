@@ -10,7 +10,7 @@ tags:
   - Governance
   - Business
   - Product
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/braceros-domingo-ulloa-central-park-bridge-morning.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-central-park-bridge-morning.jpeg
 ---
 I am working rule by rule to try and bridge the technical details of what we are governing with the business reasons why we want to invest in API governance. On deck is a common rule you come across but few, including me, have done much thought about why we govern it, let alone explaining it to product stakeholders why you should or shouldn’t have a trailing slash on your APIs. Here is the Vacuum rule that governs the existence of a trailing on your API paths, as defined in your OpenAPI 3.x definition for your API.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Helping Standardize How We Communicate About The API Integration Possibilities
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_integrations_icon_page.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_integrations_icon_page.png
 atomdate: 2017-05-12T22:00:00.000Z
 tags:
   - Integration

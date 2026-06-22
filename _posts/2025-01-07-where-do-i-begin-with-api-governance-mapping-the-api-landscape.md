@@ -7,7 +7,7 @@ tags:
   - Landscape
   - APIs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/american-dream-fundamental-statue-of-liberty-front-bright.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/american-dream-fundamental-statue-of-liberty-front-bright.jpg
 ---
 To answer the question of where to begin with API governance you have to start with mapping your API landscape. You simply cannot govern what you cannot see and talk to people about. The entire landscape of API being produced or consumed should be mapped with OpenAPI, XML Schema, JSON Schema, AsyncAPI, WSDL, XSD, and other available artifacts, providing a machine-readable inventory of all APIs being considered as part of API governance.
 

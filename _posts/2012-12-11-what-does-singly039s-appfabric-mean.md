@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: What Does Singly&#039;s AppFabric Mean?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Singly-Mobile-Fabric-Your-App.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Singly-Mobile-Fabric-Your-App.png
 author:
   name: kinlane
 tags:
@@ -26,23 +26,23 @@ _When building mobile apps you are going to need to bridge social networks for y
 
 The best example of this in the wild, is with Singly developed mobile app [Timehop](http://timehop.com/ "Timehop").
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/singly/timehop/timehop-1.png)](http://timehop.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/singly/timehop/timehop-1.png)](http://timehop.com/)
 
 Timehop lets you see your photos and updates from this exact day in history.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/singly/timehop/timehop-2.png)](http://timehop.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/singly/timehop/timehop-2.png)](http://timehop.com/)
 
 To use Timehop, I need to sign up using [Facebook](https://www.singly.com/docs/facebook) (this is Singly).
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/singly/timehop/timehop-3.png)](http://timehop.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/singly/timehop/timehop-3.png)](http://timehop.com/)
 
 Now I'm registered for Timehop and I have my [Facebook](https://www.singly.com/docs/facebook) history connected.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/singly/timehop/timehop-4.png)](http://timehop.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/singly/timehop/timehop-4.png)](http://timehop.com/)
 
 Using Singy AppFabric, Timehop allows me to easily connect my [Foursquare](https://www.singly.com/docs/foursquare), [Instagram](https://www.singly.com/docs/instagram), [Twitter](https://www.singly.com/docs/twitter) and Flickr services.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/singly/timehop/timehop-5.png)](http://timehop.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/singly/timehop/timehop-5.png)](http://timehop.com/)
 
 Now [Timehop](http://timehop.com/) can intelligently connect me to my friends across these networks and share my Timehop stories, where it is most important to me.
 

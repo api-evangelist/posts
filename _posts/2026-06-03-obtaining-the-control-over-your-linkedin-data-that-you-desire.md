@@ -4,7 +4,7 @@ layout: post
 title: "Obtaining the Control Over Your LinkedIn Data That You Desire"
 date: 2026-06-03
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/server-cloud-server-racks-clouds-copper-circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/server-cloud-server-racks-clouds-copper-circuit.jpg
 category: "Blog"
 tags:
  - LinkedIn

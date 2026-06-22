@@ -2,7 +2,7 @@
 layout: post
 title: Keeping an Eye on the Open Banking API Movement in the UK
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/open-data-and-sharing-for-banks.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/open-data-and-sharing-for-banks.png
 author:
   name: kinlane
 tags:

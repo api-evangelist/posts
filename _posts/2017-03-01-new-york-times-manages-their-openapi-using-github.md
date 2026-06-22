@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New York Times Manages Their OpenAPI Using Github
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_26_at_3.44.42_pm.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_02_26_at_3.44.42_pm.png
 atomdate: 2017-03-01 17:00:00+00:00
 tags:
 - Github

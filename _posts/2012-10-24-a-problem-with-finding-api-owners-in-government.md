@@ -2,7 +2,7 @@
 layout: post
 title: A Problem With Finding API Owners in Government
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/government-owners-uncle-sam.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/government-owners-uncle-sam.jpeg
 author:
   name: kinlane
 tags:

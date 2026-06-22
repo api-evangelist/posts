@@ -4,7 +4,7 @@ title: >-
   With The Addition Of The DroneKit API, I Am Now Tracking On The World Of Drone
   APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/3d-robotics/3d-robotics-dronekit.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/3d-robotics/3d-robotics-dronekit.jpeg
 author:
   name: kinlane
 tags:
@@ -20,6 +20,6 @@ Amongst the numerous drone stories I curate, I'm seeing more shift in the space 
 
 [](http://api.3drobotics.com/swagger-ui/)
 
-[](http://api.3drobotics.com/swagger-ui/)[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/3d-robotics/drone-kit-air-ground-cloud.png)](http://3drobotics.com/)
+[](http://api.3drobotics.com/swagger-ui/)[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/3d-robotics/drone-kit-air-ground-cloud.png)](http://3drobotics.com/)
 
 Now that I have an API blueprint for a drone API, in Swagger too! ;-) I will be able to start thinking about what some of the API patterns for drones might look like, and what some of the common building blocks might be for managing the technical, but also business, and political side of drone operation. I’m thinking that when it comes to drone operations, APIs might not just be a nice to have, they might be something that becomes mandatory in trying to bring this fast growing, not well defined space, under some control.

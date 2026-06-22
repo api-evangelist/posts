@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Pushing My API Gateway Thoughts Forward: API Gateway Anywhere With JustAPIs'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/justapis-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/justapis-logo.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ JustAPIs is a downloadable, installable, portable, little API design, deployment
 
 I downloaded JustAPis, ran at localhost, and begin mapping it to a handful of my remote APIs, and crafting a couple simple APIs to understand what is possible. Its obvious there is still a lot of work to be done, as the whole management side of JustAPIs is under construction, but I like what I see so far. I like the micro gateway characteristic. I think it has potential in not just the API economy, but specifically in the mobile, and IoT layers of the API economy. 
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/JustAPIs-Admin.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/JustAPIs-Admin.png)
 
 As with my Wavemaker discussion today, there are aspects of JustAPIs I'd like to see a become a reaility, in the realm of hypermedia, discovery with APIs.json, and portability, and interoperability using API definitions like Swagger and API Blueprint, but it is a great start. JustAPIs is a significant movement forward in the evolution my perception of just what is an API gateway, and after talking with the JustAPIs team, I am confident that because of the extensibility available in the solution, it will become a ubiquitous layer of the API economy.
 

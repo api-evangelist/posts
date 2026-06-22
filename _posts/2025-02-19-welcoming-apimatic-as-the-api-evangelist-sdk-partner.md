@@ -8,7 +8,7 @@ tags:
   - Governance
   - Transformations
 image: >-
-  https://kinlane-productions2.s3.us-east-1.amazonaws.com/apimatic/apimatic-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/apimatic/apimatic-screenshot.png
 ---
 I wanted to give a big welcome to [APIMATIC as a sponsor of API Evangelist](https://bit.ly/3UFE1AP). APIMATIC and API Evangelist began working together in 2014, and [after a decade of working and storytelling together](https://apievangelist.com/2014/07/07/evolving-how-we-approach-the-api-lifecycle-with-apimatic/) I am honored to have them as an official sponsor of API Evangelist. I’ve added a mix of APIMATIC solutions to the top ticket as well as on the right menu, and will be weaving their solutions into my stories. If you know my style of partnership I won’t be writing any long glowing pieces on APIMATIC, but their offerings are woven into the fabric of the site, but also my stories-—so when I mention SDK I will reference their solutions, and mention them in my newsletter.
 

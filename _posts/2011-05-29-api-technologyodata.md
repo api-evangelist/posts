@@ -2,14 +2,14 @@
 layout: post
 title: API Technology - OData
 url: http://apievangelist.com/2011/05/29/api-technology-odata/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Data
   - Technology
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/OData_Protocol.png)](http://www.odata.org/ "Open Data Protocol")There is an ever growing amount of data available today and much of this data is now being collected and stored across a wide variety of system, locked into specific applications or formats, making it difficult to access, integrate and share.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/OData_Protocol.png)](http://www.odata.org/ "Open Data Protocol")There is an ever growing amount of data available today and much of this data is now being collected and stored across a wide variety of system, locked into specific applications or formats, making it difficult to access, integrate and share.
 
 The [Open Data Protocol (OData)](http://www.odata.org/ "Open Data Protocol") is a Web protocol for querying and updating data that provides a way to unlock data and free it from silos that exist in many applications.
 

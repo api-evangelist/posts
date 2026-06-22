@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reworking My API 101 Content And First Up Is The 100K View
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-101.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-101.png
 author:
   name: kinlane
 tags:

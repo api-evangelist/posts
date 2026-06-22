@@ -11,7 +11,7 @@ tags:
   - Vacuum
   - Redocly
   - APIMATIC
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/purple-circuit-statue-supreme-court.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/purple-circuit-statue-supreme-court.jpg
 ---
 Like OpenAPI not being the thing, API governance rules like [Spectral](https://apievangelist.com/2025/03/14/evaluating-the-default-spectral-api-governance-ruleset/), [Vacuum](https://apievangelist.com/2025/03/14/evaluating-the-default-doctor-and-vacuum-api-governance-ruleset/), and [APIMATIC](https://apievangelist.com/2025/03/19/the-default-apimatic-rules/), and [Redocly](https://apievangelist.com/2025/03/20/default-redocly-rules/) tend to get all the attention when it comes to API governance. The rules matter as they can help automate API governance at design time in editors, at development time in our IDEs, but also at the build time in our CI/CD pipelines. However, as with all of the other artifacts used across operations, the rule itself isn’t the thing, but the collective work, discussion, and awareness generated in the creation of the rule, when you encounter the rule, and in the evolution or deprecation of rules. Here are some of the things enterprises develop while producing API governance rules that aren't always reflected in the YAML or JSON rule being focused upon.
 

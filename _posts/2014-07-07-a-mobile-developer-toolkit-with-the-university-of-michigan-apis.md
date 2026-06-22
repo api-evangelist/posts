@@ -2,7 +2,7 @@
 layout: post
 title: A Mobile Developer Toolkit With The University Of Michigan APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/university-of-michigan-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/university-of-michigan-logo.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ The University of Michigan mobile developer toolkit is broken down into four sep
 
 ### Design
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/university/university-of-michigan/universitiy-of-michigan-mobile-developer-toolkit.png)](http://developer.it.umich.edu/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/university/university-of-michigan/universitiy-of-michigan-mobile-developer-toolkit.png)](http://developer.it.umich.edu/)
 
 *   [Requirements and Features](http://mobileapps.its.umich.edu/devtoolkit/requirements-features)
 *   [User Interface (UI) Design](http://mobileapps.its.umich.edu/devtoolkit/ui-design#overlay-context=front-page)

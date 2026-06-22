@@ -2,7 +2,7 @@
 layout: post
 title: RESTful Business Architecture
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/blueprints.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/blueprints.jpg
 author:
   name: kinlane
 tags:
@@ -21,7 +21,7 @@ While networking research:
 
 > _...is focused on the details of generic communication behavior between systems and improving the performance of particular communication techniques, often ignoring the fact that changing the interaction style of an application can have more impact on performance than the communication protocols used for that interaction._
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/parthenon.jpg) Fieldings work was motivated by the desire to understand and evaluate the architectural design of network-based application software. He wanted to rethink software design in the context of the World Wide Web.
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/parthenon.jpg) Fieldings work was motivated by the desire to understand and evaluate the architectural design of network-based application software. He wanted to rethink software design in the context of the World Wide Web.
 
 The World Wide Web is intended to be an Internet-scale, distributed system, interconnecting information networks across organizational boundaries, and cope with the demands of scalability and independent deployment of software.
 

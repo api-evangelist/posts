@@ -7,7 +7,7 @@ tags:
   - OpenAPI
   - Enforcement
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-docks-water-front-ships-containers.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-docks-water-front-ships-containers.jpg
 ---
 It is a tough sell to convince teams producing an API, as well as leadership for those teams, that API governance is an answer the chaos of noise that exists across API operations today. Applying Spectral or Vacuum rules to the design of your API during design, develop, or build time dominates the narrative for what API governance is today. Business leadership is always keen on baking those rules into CI/CD pipelines and calling that API governance enforcement, when the actual enforcement of API governance throughout API operation is actulaly when you use OpenAPI as the configuration artifact for key pieces of API operation infrastructure.
 

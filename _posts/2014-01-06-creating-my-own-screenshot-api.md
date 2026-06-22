@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating My Own Screenshot API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-screenshot-2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-evangelist-screenshot-2.png
 author:
   name: kinlane
 tags: []

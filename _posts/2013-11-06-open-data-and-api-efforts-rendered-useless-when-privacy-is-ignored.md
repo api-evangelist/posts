@@ -2,7 +2,7 @@
 layout: post
 title: Open Data And API Efforts Rendered Useless When Privacy Is Ignored
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/open-government-partnership.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/open-government-partnership.png
 author:
   name: kinlane
 date: 2013-11-06T23:43:50.000Z

@@ -8,7 +8,7 @@ tags:
   - Storage
   - Analytics
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/google/sdk/google-sdk-essential-tools.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/google/sdk/google-sdk-essential-tools.png
 author:
   name: kinlane
 ---

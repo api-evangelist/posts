@@ -2,7 +2,7 @@
 layout: post
 title: The White House Wants Our Thoughts On Data Portability
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/tool/white-house-seal.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/tool/white-house-seal.jpg
 atomdate: 2016-10-13T00:00:00.000Z
 tags:
   - Data

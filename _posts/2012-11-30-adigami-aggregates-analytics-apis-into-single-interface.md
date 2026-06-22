@@ -2,7 +2,7 @@
 layout: post
 title: Adigami Aggregates Analytics APIs Into Single Interface
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/adigami-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/adigami-logo.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ In 2012 the number of APIs has grown significantly. We are transitioning from â€
 
 A couple of weeks ago I was introduced [Adigami](http://www.adigami.com/ "Adigami"), a "Singly for Analytics". While Singly focuses on personal data API aggregation, Adigami is focused on [aggregating the top analytic platforms used in business today](http://www.adigami.com/ "aggregating the top analytic platforms used in business today")\--covering seven key channels:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/adigami/adigami-data-visual.png)](http://www.adigami.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/adigami/adigami-data-visual.png)](http://www.adigami.com/)
 
 *   **Web** - Google Analytics
 *   **Search** - Google AdWords, Microsoft Bing

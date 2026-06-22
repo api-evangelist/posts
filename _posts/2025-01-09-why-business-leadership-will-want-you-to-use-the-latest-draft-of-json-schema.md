@@ -8,7 +8,7 @@ tags:
   - Policies
   - Versions
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-nyc-from-lex.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-nyc-from-lex.jpeg
 ---
 Explaining the nuts and bolts of API operations to business leadership takes some serious workshopping. Very few engineers, let alone business folks across the enterprise, will care about [JSON Schema](https://standards.apievangelist.com/store/json-schema/), let alone why it is essential to business for the latest draft of JSON Schema to be consistently used across the enterprise. Every enterprise today is running multiple versions of JSON Schema, which is something that causes serious instability and impacts everyday business, so API Evangelist wants to keep workshopping reasons why business leadership should care about JSON Schema versions.
 

@@ -7,7 +7,7 @@ tags:
   - Surveying
   - Landscape
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-emergency-third-rail-power-trip.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-emergency-third-rail-power-trip.jpeg
 ---
 It can be difficult to convince people how important seeing and knowing where all the APIs within the enterprise are. When you talk about API discovery it often gets labeled as about developers looking for new APIs to play with or something more serious like securing the enterprise and keeping bad actors out. Knowing where all your APIs are and being able to see them contribute to every aspect of operating an enterprise, from building new things and securing infrastructure, but it really is about awareness and control over the enterprise supply and distribution chain--the problem is that most people have deemed seeing and knowing about APIs as something out of their wheelhouse. 
 

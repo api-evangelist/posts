@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Will Be At API Days in Paris France Next Week
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-logo.png
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/api-days-logo.png
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ I am heading to Paris, France next week for [API Days](http://apidays.io/). API 
 
 > _The Web 1.0 was readable, the Web 2.0 was social, now the web is programmable through application programming interfaces, aka APIs. Web APIs are a unique opportunity for companies, governments and developers to either better organize the governance of their IT into a scalable and flexible model, either leverage a complete ecosystem around the organization, exchanging data through the web for trillion of applications on billion devices. Because each civilization has been described by the way it communicates and make exchanges, API are the beginning of a programmable civilization._
 
-![](https://s3.amazonaws.com/kinlane-productions2/events/api-days-paris-france/API-Days-Kin-Lane.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-days-paris-france/API-Days-Kin-Lane.png)
 
 The API event is hosting over 50 sessions from over 30 speakers--including two of my own talks:
 

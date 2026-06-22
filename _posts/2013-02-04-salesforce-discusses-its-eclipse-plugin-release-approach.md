@@ -2,7 +2,7 @@
 layout: post
 title: Salesforce Discusses Its Eclipse Plugin Release Approach
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/eclipse-ide-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/eclipse-ide-logo.jpeg
 author:
   name: kinlane
 tags:

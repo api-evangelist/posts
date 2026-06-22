@@ -4,7 +4,7 @@ title: >-
   How Are Dev Shops In Chicago Using APIs? A Talk With Bryson Pouw At Blaze
   Portfolio
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/blaze-portfolio/atom-align-blaze-portfolio.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/blaze-portfolio/atom-align-blaze-portfolio.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ I recently talked with Bryson Pouw ([@bpouw](https://twitter.com/bpouw)), Founde
 *   **Trade Orders** – Place, execute, cancel, and allocate trade orders
 *   **Manage Trade Extracts** – Create and download trade extract file
 
-The Atom Align API is only made available to trusted Blaze Portfolio partners and clients upon request, while also being used internally to drive system integrations. This approach to API design, as the core for specialty, or even widely available web and mobile applications, [![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-market-graph.png)](http://www.blazeportfolio.com)is the signature of a software development shop that has evolved and realized that a core API stack is essential for internal, as well as external integrations—APIs aren’t just for public consumption when it comes to todays dev shop operations.
+The Atom Align API is only made available to trusted Blaze Portfolio partners and clients upon request, while also being used internally to drive system integrations. This approach to API design, as the core for specialty, or even widely available web and mobile applications, [![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-market-graph.png)](http://www.blazeportfolio.com)is the signature of a software development shop that has evolved and realized that a core API stack is essential for internal, as well as external integrations—APIs aren’t just for public consumption when it comes to todays dev shop operations.
 
 Beyond their own internal Atom Align API, Blaze Portfolio also uses several other financial related APIs as part of their core operations. APIs are core to the Atom Align secret sauce, aggregating, refining, and making sense of markets by pulling data and content from multiple API sources, most notably [financial data from Xignite](ttp://www.xignite.com/). You can’t be an investment professional in 2014 without having the right technology in your toolbox, and Blaze Portfolio has done well aggregating financial data from public API sources, into tje tool the pros are needing.
 

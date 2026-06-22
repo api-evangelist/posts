@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tumblr Launches New Github Site
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tumblr-black-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tumblr-black-logo.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ What's interesting is they have also included [select presentations from confere
 
 The [Github implementation by Tumblr](http://tumblr.github.com/) is pretty unique, and to go even further, Tumblr has also [open sourced their whole approach to deploying it on Github](https://github.com/tumblr/tumblr.github.com).
 
-[![](https://s3.amazonaws.com/kinlane-productions2/github/github-logo.png)](https://github.com/ "Github")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-logo.png)](https://github.com/ "Github")
 
 Tumblr's use of Github is worth showcasing.  I think it's an innovative approach that other API owners could follow to showcase the open source project they are working on, as well as valuable event presentations.
 

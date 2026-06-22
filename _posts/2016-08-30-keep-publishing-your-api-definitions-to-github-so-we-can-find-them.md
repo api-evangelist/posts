@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keep Publishing Your API Definitions To Github So We Can Find Them
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-github-api.png
 atomdate: 2016-08-30 16:00:00+00:00
 tags:
 - Github

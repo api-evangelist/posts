@@ -3,14 +3,14 @@ layout: post
 title: Moving the File Open Dialog Box to the Web with Google Picker API
 url: >-
   http://apievangelist.com/2011/07/22/moving-the-file-open-dialog-box-to-the-web-with-google-picker-api/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Web
   - Open
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/file-open-dialog.png)The file open dialog box is an important tool that we use every day, but we very rarely notice it or think much about it.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/file-open-dialog.png)The file open dialog box is an important tool that we use every day, but we very rarely notice it or think much about it.
 
 On the Windows platform, using the file open dialog box, we see our desktop, my documents or whatever was the last hell hole of a folder we were working in.
 

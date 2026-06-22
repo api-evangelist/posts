@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API as the Deliverable at the Hackathon
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-500.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-500.png
 author:
   name: kinlane
 tags:

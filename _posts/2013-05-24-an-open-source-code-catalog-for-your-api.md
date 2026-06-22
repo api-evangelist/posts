@@ -2,7 +2,7 @@
 layout: post
 title: An Open Source Code Catalog for your API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/digital-services-innovation-center.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/digital-services-innovation-center.jpg
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ The GSA's [Digital Services Innovation Center](http://gsablogs.gsa.gov/dsic/) h
 
 The idea of a code catalog is pretty interesting, and I see it as an evolution of several API building blocks I talk about--code samples, SDKs, starter kits and application showcase all rolled into one. Imagine if your API consumers can come into your developer area and not just find code samples, they can find complete applications that they can download, reverse-engineer and put to use. Talk about going from zero to API integration in as short of time as possible.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-strategy/mobile-code-catalog.png)](http://gsa.github.io/Mobile-Code-Catalog/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-strategy/mobile-code-catalog.png)](http://gsa.github.io/Mobile-Code-Catalog/)
 
 I know that many API owners compete with their ecosystems, by deploying their own version of their mobile, web or desktop apps, but for the others a code catalog is an excellent way to facilitate integrations with your platform.
 

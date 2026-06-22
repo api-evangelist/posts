@@ -2,7 +2,7 @@
 layout: post
 title: Webhook as a Service
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/webscript-io-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/webscript-io-logo.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ Webhooks are a common way for API providers to make API integration a two ways s
 
 Webhooks are also a common tool for [API automation and reciprocity platforms](http://reciprocity.apievangelist.com/companies.html) like [Zapier](http://reciprocity.apievangelist.com/companies-detail.html?id=38) and [IFTTT](http://reciprocity.apievangelist.com/companies-detail.html?id=39). Users can setup webhooks, that respond to just about any action across multiple, API driven platforms.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/webscript/webscripts-io-webhook-script-example.png)](https://webscript.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/webscript/webscripts-io-webhook-script-example.png)](https://webscript.io/)
 
 After hearing webhooks mentioned so often, I wondered if anyone out there is offering web hook as a service (WHaaS) (LOL). Sure enough, John Sheehan ([@johnsheehan](https://twitter.com/johnsheehan)) pointed me to [webscript.io](https://webscript.io/).
 

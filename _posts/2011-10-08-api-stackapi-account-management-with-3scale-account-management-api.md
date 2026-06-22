@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'API Stack - API Account Management with 3Scale Account Management API '
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-logo.jpg
 author:
   name: kinlane
 tags:

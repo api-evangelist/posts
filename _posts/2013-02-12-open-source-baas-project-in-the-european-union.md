@@ -2,7 +2,7 @@
 layout: post
 title: Open Source BaaS Project In The European Union
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/openi-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openi-logo.png
 author:
   name: kinlane
 tags:
@@ -40,4 +40,4 @@ If you are going to be at [API Strategy & Practice](http://www.apistrategyconfer
 
 If you have any questions you’d like asked about the future of MBaaS, let me know. I'm going to make it a great conversation!
 
-[![](https://s3.amazonaws.com/kinlane-productions2/baas/openi/openi-concept.png)](http://www.openi-ict.eu/open-source/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/baas/openi/openi-concept.png)](http://www.openi-ict.eu/open-source/)

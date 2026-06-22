@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thinking About An API Observability Stack
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/datadog_observability_dashboard.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/datadog_observability_dashboard.png
 atomdate: 2016-10-25 18:00:00+00:00
 tags:
 - Observability

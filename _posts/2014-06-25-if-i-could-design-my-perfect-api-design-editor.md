@@ -2,7 +2,7 @@
 layout: post
 title: If I Could Design My Perfect API Design Editor
 url: http://apievangelist.com/2014/06/25/if-i-could-design-my-perfect-api-design-editor/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-editor.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/swagger-editor.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ tags:
 
 /kinlane-productions2/
 
-![](https://s3.amazonaws.com/kinlane-productions/api-evangelist/swagger/swagger-editor.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/swagger-editor.png)
 
 I’ve been thinking a lot about API design lately, the services and tooling coming from Apiary, RAML and Swagger, and wanted to explore some thoughts around what I would consider to be killer features for the killer API design editor. Some of these thoughts are derived from the features I’ve seen in Apiary and RAML editor, and most recently the Swagger Editor, but I’d like to \*riff\* on a little bit and play with what could be the next generation of features.
 

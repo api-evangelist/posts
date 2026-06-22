@@ -9,7 +9,7 @@ tags:
   - Protocols
   - Standards
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-hallway-mirrors-hotel.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-hallway-mirrors-hotel.jpg
 ---
 I think a lot about a conversation I had with [Daniel Sterberg](https://daniel.haxx.se/), the creator and maintainer of [curl](https://curl.se/) a couple years back while at working at Postman. During our acquisition of all desirable talent possible for the Postman Open Technologies phase I had pinged Daniel for a conversation. He kindly accepted and shared his back story as well as his vision for curl. We talked about HTTP 1.1, HTTP/2 and the push for HTTP/3. Then we talked about Postman and APIs. He was so gloriously uninterested in APIs, and so honest and confident in the URL--I never even tried to hire him. No way. I just enjoyed learning from him, but I think about this conversation at least once a month. 
 

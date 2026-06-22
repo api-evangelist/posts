@@ -8,7 +8,7 @@ tags:
   - Graphs
   - Charts
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-japanese-cherry-tree.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-japanese-cherry-tree.jpeg
 ---
 A question came in yesterday about being able to visualize a rather large OpenAPI that was an industry standard. Visualizing API requests and responses, but also the surface area of an API and API operations is a recurring need in the API space with very few solutions delivered over the years. Every time a question comes in from the API Evangelist it is a fresh opportunity to take a look at what is available to help visualize the API landscape. Seeing APIs is difficult so any tooling is helpful, with the following options currently available to work with.
 

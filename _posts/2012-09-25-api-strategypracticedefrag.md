@@ -2,7 +2,7 @@
 layout: post
 title: API Strategy &amp; Practice + Defrag
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Defrag-2012-Conference.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Defrag-2012-Conference.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ When you spend a lot of time going to conferences, hackathons and events, you st
 
 When it comes to the latest in Internet technolgy, I always make time each year for the Gluecon and Defrag conferences. [Gluecon](http://gluecon.com/2012/ "Gluecon") is usually in the spring and [Defrag](http://www.defragcon.com/2012/ "Defrag") is in the fall--both occurring at the Omni Interlocken in Broomfield, CO.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/defrag-2012/Defrag-2012-Conference.png)](http://www.defragcon.com/2012/ "Defrag Confernece")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/defrag-2012/Defrag-2012-Conference.png)](http://www.defragcon.com/2012/ "Defrag Confernece")
 
 [Defrag is coming up November 15th and 16th](http://www.defragcon.com/2012/)\--right after November 1st and 2nd for the [API Strategy & Practice in NYC.](http://www.apistrategyconference.com/index.php "API Strategy & Practice Conference")
 

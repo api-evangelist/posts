@@ -2,7 +2,7 @@
 layout: post
 title: Socrata Planning Open Source Government Data Server
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Socrata-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Socrata-logo.jpeg
 author:
   name: kinlane
 tags:
@@ -22,7 +22,7 @@ The goal of the Socrata open source strategy is to enable customers to rapidly a
 2.  **Data Portability Based on Standard Data Formats –** Standardize outputs including JSON, XML, and CSV, as well as RDF and other Linked Data standards. The goal is to evolve towards standard schemas that developers can use for popular data sets, based on real-world examples and collaboration between data publishers
 3.  **Application Portability Based on Open Data API Standards –** Standardize the Application Programming Interfaces (APIs) used to programmatically access open data, using established paradigms and protocols such as REST, HTTP, and Structured Query Language (SQL)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/socrata/The-Open-Data-Substrate.png)](http://open-data-standards.github.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/socrata/The-Open-Data-Substrate.png)](http://open-data-standards.github.com/)
 
 Socrata’s move to open source their technology is in line with their mission:
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The API Transparency Discussion Is Not Exclusively About Being Public Or Private
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-transparency.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-transparency.jpg
 tags:
 - Transparency
 ---

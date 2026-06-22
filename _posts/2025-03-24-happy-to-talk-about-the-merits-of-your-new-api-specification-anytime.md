@@ -8,7 +8,7 @@ tags:
   - Protocols
   - Patterns
   - Schema
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-cell-tower-satellite-dishes.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-cell-tower-satellite-dishes.jpeg
 ---
 I am nobody, but I have been around the block or two when it comes to API specifications. You are unlikely to agree with most of my views on API specifications, and there are folks out there who strongly believe you have to contribute code to the conversations, otherwise you don’t exist or matter. However, if you are truly interested in creating a new specification for APIs or a specification that will make APIs obsolete, you are welcome to come by and talk about the merits of your new specification anytime-—who knows, you might learn something from me, or  maybe you might teach me something I have missed. If you are unfamiliar with my work, here are a handful of conversations I’ve helped stir the pot on over the years that might bring value to your efforts.
 

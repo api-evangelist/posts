@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 420% Growth In DNS API Usage Over At Dyn
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dyn-api-request.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dyn-api-request.png
 author:
   name: kinlane
 tags:

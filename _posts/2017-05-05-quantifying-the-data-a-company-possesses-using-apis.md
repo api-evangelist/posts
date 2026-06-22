@@ -2,7 +2,7 @@
 layout: post
 title: Quantifying The Data A Company Possesses Using APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/facebook_schema_feed_files.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/facebook_schema_feed_files.png
 atomdate: 2017-05-05T22:00:00.000Z
 tags:
   - Data

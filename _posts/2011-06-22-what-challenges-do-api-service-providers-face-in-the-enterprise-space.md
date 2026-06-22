@@ -3,7 +3,7 @@ layout: post
 title: What Challenges Do API Service Providers Face in the Enterprise Space?
 url: >-
   http://apievangelist.com/2011/06/22/what-challenges-do-api-service-providers-face-in-the-enterprise-space/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
   - Providers
   - Service Providers
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/enterprise.jpg)APIs are hot right now. With the success of Twitter, Twilio, Facebook and others -- due in no small part to their APIs -- the enterprise space is taking notice. The demand for enterprise API services is increasing, with a number of services providers stepping up to compete for the business. As this happens, there are three major areas that may prove challenging for API service providers targeting the enterprise space:
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/enterprise.jpg)APIs are hot right now. With the success of Twitter, Twilio, Facebook and others -- due in no small part to their APIs -- the enterprise space is taking notice. The demand for enterprise API services is increasing, with a number of services providers stepping up to compete for the business. As this happens, there are three major areas that may prove challenging for API service providers targeting the enterprise space:
 
 **Developers:** Wide range of vendor, partner, and public developer needs and expectations.
 

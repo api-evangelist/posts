@@ -2,12 +2,12 @@
 layout: post
 title: Building the Perfect API Stack
 url: http://apievangelist.com/2011/07/19/building-the-perfect-api-stack/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags: []
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/poker-chip-stack.jpg)As I'm reviewing APIs, I spend a lot of time considering the viability and business use cases for an API.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/poker-chip-stack.jpg)As I'm reviewing APIs, I spend a lot of time considering the viability and business use cases for an API.
 
 While considering this, I keep having thoughts about the perfect API stack. In my opinion, these are APIs that do one thing and do it well, makes a developers life easier, and have clear business value.
 

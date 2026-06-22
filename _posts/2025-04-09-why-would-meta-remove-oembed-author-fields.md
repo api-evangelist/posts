@@ -11,7 +11,7 @@ tags:
   - Social
   - Posts
   - Videos
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-fixing-satellite-1.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-fixing-satellite-1.jpeg
 ---
 I regularly monitor the developer feeds of platforms to understand the technology, business, and politics of their work. One thing that caught my eye yesterday was [the removal of oEmbed author_name and author_url fields by Meta](https://developers.facebook.com/blog/post/2025/04/08/oembed-updates/). They did this for posts and videos, giving quite a blow to the concept of authorship when it comes to the social media platform.
 

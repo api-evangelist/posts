@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mulesoft Launches API Discovery Hub
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mulesoft-logo.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mulesoft-logo.jpeg
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ API Hub is looking to provide a solution for two distinct groups:
 
 With first release APIhub doesn’t have much out of the gate that is different than [ProgrammableWeb](http://www.programmableweb.com "ProgrammableWeb"), except for a much cleaner layout, search tools that is not cluttered by news, mashups and advertising.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mulesoft/API-Hub-Screenshot-2.png)](http://www.apihub.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/mulesoft/API-Hub-Screenshot-2.png)](http://www.apihub.com/)
 
 Once you explore APIhub further, you start seeing early signs of deeper features. When you add or claim your API, your given the option to upload a API spec in a Swagger or WADL format, with more formats coming soon. If implemented for all 13K APIs, this could be a powerful discovery engine.
 

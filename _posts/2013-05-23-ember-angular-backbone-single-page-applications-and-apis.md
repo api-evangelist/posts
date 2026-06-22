@@ -2,7 +2,7 @@
 layout: post
 title: Ember, Angular, Backbone, Single Page Applications and APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/single-page-web-applications.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/single-page-web-applications.png
 author:
   name: kinlane
 tags:

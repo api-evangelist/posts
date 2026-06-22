@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Concerns As A Public Data Steward
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/data_steward.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/data_steward.png
 atomdate: 2017-04-26 22:00:00+00:00
 tags:
 - Data

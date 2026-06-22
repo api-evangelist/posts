@@ -2,7 +2,7 @@
 layout: post
 title: Making API Terms Of Service And Privacy Policy Easy To Read And Understand
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-developer-policy-center_.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google-developer-policy-center_.png
 tags:
   - Privacy
   - Privacy Policy

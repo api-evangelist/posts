@@ -9,7 +9,7 @@ tags:
   - Menu
   - Artificial Intelligence
   - Politics
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-dragon-shadow-sun.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-dragon-shadow-sun.jpg
 ---
 The lack of business details in all the MCP vs API and MCP vs A2A discussions reveal the true intent of this artificial intelligence moment. One of the tells for me is how API, database, and file system are part of the MCP targeting system. Similar to the GraphQL argument, but scaled to artificial intelligence levels, MCP wants to circumvent the last twenty years of intentionally standing up APIs in front of our databases and file systems. Everyone tells me, well this is to speed up internal usage of AI. Hmmm….OK, so OpenAI, Claude, Microsoft, Google, and the other powers that be jockeying for dominance in the AI space are internal? Their models are owned and controlled exclusively by your enterprise? OK.
 

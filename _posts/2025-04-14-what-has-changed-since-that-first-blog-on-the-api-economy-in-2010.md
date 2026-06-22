@@ -9,7 +9,7 @@ tags:
   - Access
   - Community
   - Simplicity
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-crane-sunrise-buildings.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-crane-sunrise-buildings.jpeg
 ---
 I have had [the first blog post for API Evangelist from September of 2010](https://apievangelist.com/2010/09/25/the-api-economy/) up for the last week pondering what my headspace was like in that moment, as well as what has changed. I would say the technology of APIs hasn’t changed much, but the business and politics of APIs has dramatically changed, making it a different world, with entirely different reasons for why API matter—with the following highlights.
 
@@ -21,4 +21,4 @@ I have had [the first blog post for API Evangelist from September of 2010](https
 
 I am fascinated by my friends who declare AI will make things more accessible and democratized than APIs. Without even an acknowledgement of the resources you need to operate AI versus API, let alone the impact on the environment. People approach AI without even any awareness of who and how AI is being wielded or of the resistance to AI that exists in this moment. I am dead serious that I see the move from API to AI as simply entropy and decay at scale of the API economy. Money and power has corrupted the API economy since 2010, and there is a lot less humanity in what we do. 
 <br>
-<a href="https://apievangelist.com/2010/09/25/the-api-economy/"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/the-api-economy.png" width="100%"></a>
+<a href="https://apievangelist.com/2010/09/25/the-api-economy/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/the-api-economy.png" width="100%"></a>

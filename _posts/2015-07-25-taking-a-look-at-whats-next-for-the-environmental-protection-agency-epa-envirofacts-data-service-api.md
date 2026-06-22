@@ -4,7 +4,7 @@ title: >-
   Taking A Look At Whats Next For The Environmental Protection Agency (EPA)
   Envirofacts Data Service API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/280px-Environmental_Protection_Agency_logo.svg.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/280px-Environmental_Protection_Agency_logo.svg.png
 author:
   name: kinlane
 tags:
@@ -20,27 +20,27 @@ As I dug into the process of profiling the Envirofacts Data Service API one eve
 
 While the API does use the URL, it uses few of the other HTTP components that make some RESTful. I can see how the design would make sense to a database engineer, but will be a little confusing for API developers.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/epa-envirofacts-api-base-url.gif)[After looking beyond this portal I have since found other possible APIs,](http://developer.epa.gov/) but honestly they are often even more incoherent than the Envirofacts Data Service API. I'm not trying to review the entire EPA API efforts, and will be specifically focusing on the resources available in the Envirofacts Data Service API for this round.
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/epa-envirofacts-api-base-url.gif)[After looking beyond this portal I have since found other possible APIs,](http://developer.epa.gov/) but honestly they are often even more incoherent than the Envirofacts Data Service API. I'm not trying to review the entire EPA API efforts, and will be specifically focusing on the resources available in the Envirofacts Data Service API for this round.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/280px-Environmental_Protection_Agency_logo.svg.png)](http://www.epa.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/280px-Environmental_Protection_Agency_logo.svg.png)](http://www.epa.gov/)
 
 [**Environmental Protection Agency**](http://www.epa.gov/)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/ "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-portal-developers.jpg)](http://www.epa.gov/developer/ "Portal")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-portal-developers.jpg)](http://www.epa.gov/developer/ "Portal")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png)](http://theapistack.com/data/environmental-protection-agency/apis.json "APIs.json")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-a.png)](http://theapistack.com/data/environmental-protection-agency/apis.json "APIs.json")
 
  
 
 EPA Air Facility System (AFS) API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/afs/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/afs/ "Website")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/afs/model.html "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/afs/model.html "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-air-facility-system-afs-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-air-facility-system-afs-api-swagger.json "Swagger")
 
  
 
@@ -48,11 +48,11 @@ EPA Air Facility System (AFS) API
 
 EPA Biennial Report API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/br/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/br/ "Website")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/br/model.html "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/br/model.html "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-biennial-report-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-biennial-report-api-swagger.json "Swagger")
 
  
 
@@ -60,11 +60,11 @@ EPA Biennial Report API
 
 EPA Comprehensive Environmental Response, Compensation, and Liability Information System API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/cerclis/model.html "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/cerclis/model.html "Website")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.epa.gov/enviro/html/fii/model.html "Documentation") 
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.epa.gov/enviro/html/fii/model.html "Documentation") 
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-comprehensive-environmental-response-compensation-and-liability-information-system-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-comprehensive-environmental-response-compensation-and-liability-information-system-api-swagger.json "Swagger")
 
  
 
@@ -72,11 +72,11 @@ EPA Comprehensive Environmental Response, Compensation, and Liability Informatio
 
 EPA Facility Registry System API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/html/fii/index.html "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/html/fii/index.html "Website")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.epa.gov/enviro/html/fii/model.html "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.epa.gov/enviro/html/fii/model.html "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-facility-registry-system-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-facility-registry-system-api-swagger.json "Swagger")
 
  
 
@@ -84,11 +84,11 @@ EPA Facility Registry System API
 
 EPA Greenhouse Gas API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/ghg/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/ghg/ "Website")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/ghg/model.html "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/ghg/model.html "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-greenhouse-gas-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-greenhouse-gas-api-swagger.json "Swagger")
 
  
 
@@ -96,11 +96,11 @@ EPA Greenhouse Gas API
 
 EPA Integrated Grants Management System API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/igms/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/igms/ "Website")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/igms/model.html "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/igms/model.html "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-integrated-grants-management-system-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-integrated-grants-management-system-api-swagger.json "Swagger")
 
  
 
@@ -108,11 +108,11 @@ EPA Integrated Grants Management System API
 
 EPA Locational information API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/html/locational/index.html "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/html/locational/index.html "Website")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.epa.gov/enviro/html/locational/lrt/model.html "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.epa.gov/enviro/html/locational/lrt/model.html "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-locational-information-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-locational-information-api-swagger.json "Swagger")
 
  
 
@@ -120,11 +120,11 @@ EPA Locational information API
 
 EPA Permit Compliance System API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/pcs-icis/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/pcs-icis/ "Website")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/pcs-icis/pcsmodel.html "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/pcs-icis/pcsmodel.html "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-permit-compliance-system-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-permit-compliance-system-api-swagger.json "Swagger")
 
  
 
@@ -132,11 +132,11 @@ EPA Permit Compliance System API
 
 EPA Radiation Ambient Monitoring API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/radnet/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/radnet/ "Website")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/radnet/model.html "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/radnet/model.html "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-radiation-ambient-monitoring-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-radiation-ambient-monitoring-api-swagger.json "Swagger")
 
  
 
@@ -144,11 +144,11 @@ EPA Radiation Ambient Monitoring API
 
 EPA Radiation Information Database API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/radinfo/index.html "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/radinfo/index.html "Website")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/radinfo/model.html "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/radinfo/model.html "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-radiation-information-database-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-radiation-information-database-api-swagger.json "Swagger")
 
  
 
@@ -156,11 +156,11 @@ EPA Radiation Information Database API
 
 EPA Resource Conservation and Recovery Act Information API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/rcrainfo/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/rcrainfo/ "Website")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/rcrainfo/model.html "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/rcrainfo/model.html "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-resource-conservation-and-recovery-act-information-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-resource-conservation-and-recovery-act-information-api-swagger.json "Swagger")
 
  
 
@@ -168,11 +168,11 @@ EPA Resource Conservation and Recovery Act Information API
 
 EPA Safe Drinking Water Information System API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/sdwis/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/sdwis/ "Website")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/sdwis/model.html "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/sdwis/model.html "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-safe-drinking-water-information-system-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-safe-drinking-water-information-system-api-swagger.json "Swagger")
 
  
 
@@ -180,11 +180,11 @@ EPA Safe Drinking Water Information System API
 
 EPA Toxics Release Inventory API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/tri/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.epa.gov/enviro/facts/tri/ "Website")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/tri/model.html "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.epa.gov/enviro/facts/tri/model.html "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-toxics-release-inventory-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/environmental-protection-agency/epa-toxics-release-inventory-api-swagger.json "Swagger")
 
  
 
@@ -201,7 +201,7 @@ While FRS\_PROGRAM\_FACILITY may had made sense to the database administrator w
 **Wrap In A Clean Portal**  
 The current landing page for the Envirofacts API is fairly cluttered, and ultimately doesn't say much--it made me work to hard to get what I need. My goal was to distill down the 13 APIs I found buried in the Envirofacts API page, and expose exactly what you need to understand and get to work using any of the 13 APIs and the over 400 endpoints--nothing more.  [I started with a simple Github Pages hosted template, with a single APIs.json home page, and interactive documentation for each of the APIs](http://epa-envirofacts.apievangelist.com/) (which you can fork).
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/280px-Environmental_Protection_Agency_logo.svg.png)](http://theapistack.com/environmental-protection-agency/apis.json "Environmental Protection Agency")**[Environmental Protection Agency](http://theapistack.com/environmental-protection-agency/apis.json "Environmental Protection Agency") ([apis.json](http://theapistack.com/environmental-protection-agency/apis.json "Environmental Protection Agency"))**  
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/280px-Environmental_Protection_Agency_logo.svg.png)](http://theapistack.com/environmental-protection-agency/apis.json "Environmental Protection Agency")**[Environmental Protection Agency](http://theapistack.com/environmental-protection-agency/apis.json "Environmental Protection Agency") ([apis.json](http://theapistack.com/environmental-protection-agency/apis.json "Environmental Protection Agency"))**  
 The United States Environmental Protection Agency (EPA or sometimes USEPA) is an agency of the U.S. federal government which was created for the purpose of protecting human health and the environment by writing and enforcing regulations based on laws passed by Congress. The EPA was proposed by President Richard Nixon and began operation on December 2, 1970, after Nixon signed an executive order. The order establishing the EPA was ratified by committee hearings in the House and Senate. The agency is led by its Administrator, who is appointed by the president and approved by Congress. The current administrator is Gina McCarthy. The EPA is not a Cabinet department, but the administrator is normally given cabinet rank.
 
 **APIs**
@@ -210,105 +210,105 @@ The United States Environmental Protection Agency (EPA or sometimes USEPA) is an
 
 **[EPA Air Facility System (AFS) API](http://www.epa.gov/enviro/facts/afs/model.html)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-air-facility-system-afs-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-air-facility-system-afs-api-swagger.json)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-air-facility-system-afs-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-air-facility-system-afs-api-swagger.json)
 
 * * *
 
 **[EPA Biennial Report API](http://www.epa.gov/enviro/facts/br/model.html)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-biennial-report-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-biennial-report-api-swagger.json)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-biennial-report-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-biennial-report-api-swagger.json)
 
 * * *
 
 **[EPA Environmental Response, Compensation, and Liability Information API](http://www.epa.gov/enviro/facts/cerclis/model.html)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-comprehensive-environmental-response-compensation-and-liability-information-system-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-comprehensive-environmental-response-compensation-and-liability-information-system-api-swagger.json)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-comprehensive-environmental-response-compensation-and-liability-information-system-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-comprehensive-environmental-response-compensation-and-liability-information-system-api-swagger.json)
 
 * * *
 
 **[EPA Facility Registry System API](http://www.epa.gov/enviro/html/fii/model.html)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-facility-registry-system-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-facility-registry-system-api-swagger.json)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-facility-registry-system-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-facility-registry-system-api-swagger.json)
 
 * * *
 
 **[EPA Greenhouse Gas API](http://www.epa.gov/enviro/facts/ghg/model.html)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-greenhouse-gas-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-greenhouse-gas-api-swagger.json)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-greenhouse-gas-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-greenhouse-gas-api-swagger.json)
 
 * * *
 
 **[EPA Integrated Grants Management System API](http://www.epa.gov/enviro/facts/igms/model.html)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-integrated-grants-management-system-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-integrated-grants-management-system-api-swagger.json)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-integrated-grants-management-system-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-integrated-grants-management-system-api-swagger.json)
 
 * * *
 
 **[EPA Locational information API](http://www.epa.gov/enviro/html/locational/lrt/model.html)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-locational-information-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-locational-information-api-swagger.json)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-locational-information-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-locational-information-api-swagger.json)
 
 * * *
 
 **[EPA Permit Compliance System API](http://www.epa.gov/enviro/facts/pcs-icis/pcsmodel.html)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-permit-compliance-system-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-permit-compliance-system-api-swagger.json)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-permit-compliance-system-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-permit-compliance-system-api-swagger.json)
 
 * * *
 
 **[EPA Radiation Ambient Monitoring API](http://www.epa.gov/enviro/facts/radnet/model.html)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-radiation-ambient-monitoring-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-radiation-ambient-monitoring-api-swagger.json)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-radiation-ambient-monitoring-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-radiation-ambient-monitoring-api-swagger.json)
 
 * * *
 
 **[EPA Radiation Information Database API](http://www.epa.gov/enviro/facts/radinfo/model.html)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-radiation-information-database-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-radiation-information-database-api-swagger.json)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-radiation-information-database-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-radiation-information-database-api-swagger.json)
 
 * * *
 
 **[EPA Resource Conservation and Recovery Act Information API](http://www.epa.gov/enviro/facts/rcrainfo/model.html)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-resource-conservation-and-recovery-act-information-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-resource-conservation-and-recovery-act-information-api-swagger.json)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-resource-conservation-and-recovery-act-information-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-resource-conservation-and-recovery-act-information-api-swagger.json)
 
 * * *
 
 **[EPA Safe Drinking Water Information System API](http://www.epa.gov/enviro/facts/sdwis/model.html)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-safe-drinking-water-information-system-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-safe-drinking-water-information-system-api-swagger.json)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-safe-drinking-water-information-system-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-safe-drinking-water-information-system-api-swagger.json)
 
 * * *
 
 **[EPA Toxics Release Inventory API](http://www.epa.gov/enviro/facts/tri/model.html)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-toxics-release-inventory-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://epa-envirofacts.apievangelist.com/docs.html?swagger=/swagger/epa-toxics-release-inventory-api-swagger.json)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-toxics-release-inventory-api-swagger.json)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://epa-envirofacts.apievangelist.com/swagger/epa-toxics-release-inventory-api-swagger.json)
 
 * * *
 

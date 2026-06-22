@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding New Section For My Sixteen Basic API Templates
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-stacks.png
 author:
   name: kinlane
 tags:
@@ -16,112 +16,112 @@ Each API is functional, and has its own Github repository for storing of a Swagg
 
  
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-arrows-circular.png)](http://actions.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-arrows-circular.png)](http://actions.apievangelist.com/)
 
 [**Actions**](http://actions.apievangelist.com/)  
 This project is a template actions API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private actions API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-calendar.png)](http://bit.ly/1wHtdiq)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-calendar.png)](http://bit.ly/1wHtdiq)
 
 [**Events**](http://bit.ly/1wHtdiq)  
 This project is a template event API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private event API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-users-male-female.png)](http://humans.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-users-male-female.png)](http://humans.apievangelist.com/)
 
 [**Humans**](http://humans.apievangelist.com/)  
 This project is a template human API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private human API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-images.png)](htp://images.apievangelist.com)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-images.png)](htp://images.apievangelist.com)
 
 [**Images**](htp://images.apievangelist.com)  
 This project is a template image API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private image API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-job.jpg)](http://jobs.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-job.jpg)](http://jobs.apievangelist.com/)
 
 [**Jobs**](http://jobs.apievangelist.com/)  
 This project is a template job API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private job API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dna.png)](http://lifebits.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-dna.png)](http://lifebits.apievangelist.com/)
 
 [**Lifebits**](http://lifebits.apievangelist.com/)  
 This project is a template lifeboats API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private lifeboats API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-link.png)](http://links.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-link.png)](http://links.apievangelist.com/)
 
 [**Links**](http://links.apievangelist.com/)  
 This project is a template links API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private links API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-office-worker.png)](http://offices.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-office-worker.png)](http://offices.apievangelist.com/)
 
 [**Offices**](http://offices.apievangelist.com/)  
 This project is a template office API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private office API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-people.png)](http://people.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-people.png)](http://people.apievangelist.com/)
 
 [**People**](http://people.apievangelist.com/)  
 This project is a template people API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private people API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-geo-pin.jpeg)](http://places.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-geo-pin.jpeg)](http://places.apievangelist.com/)
 
 [**Places**](http://places.apievangelist.com/)  
 This project is a template places API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private places API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-news.png)](http://press.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-news.png)](http://press.apievangelist.com/)
 
 [**Press**](http://press.apievangelist.com/)  
 This project is a template press API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private intention API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dollar-sign.png)](http://bit.ly/1rZYGKg)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-dollar-sign.png)](http://bit.ly/1rZYGKg)
 
 [**Products**](http://bit.ly/1rZYGKg)  
 This project is a template product API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private product API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-programs.png)](http://programs.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-programs.png)](http://programs.apievangelist.com/)
 
 [**Programs**](http://programs.apievangelist.com/)  
 This project is a template program API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private program API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-question-mark.png)](http://qa.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-question-mark.png)](http://qa.apievangelist.com/)
 
 [**Questions**](http://qa.apievangelist.com/)  
 This project is a template questions API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private questions API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-service-request.png)](http://services.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-service-request.png)](http://services.apievangelist.com/)
 
 [**Services**](http://services.apievangelist.com/)  
 This project is a template services API, mean to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private services API.
 
 * * *
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-video.png)](http://video.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-video.png)](http://video.apievangelist.com/)
 
 [**Videos**](http://video.apievangelist.com/)  
 This project is a template video API, meant to demonstrate what is possible with an API. My intention with template APIs is to help onboard folks with new ideas for APIs, and this is one in particular is meant to kickstart the conversation around having a public or private video API.

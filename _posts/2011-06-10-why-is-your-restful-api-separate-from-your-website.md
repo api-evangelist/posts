@@ -3,14 +3,14 @@ layout: post
 title: Why is your RESTful API Separate From Your Website?
 url: >-
   http://apievangelist.com/2011/06/10/why-is-your-restful-api-separate-from-your-website/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Web
   - REST
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/seevl_logo1.png)](http://seevl.net/)I was having a beer with [Dr. Alexandre Passant](http://twitter.com/#!/terraces) of [Seevl](http://seevl.net/) the other day, we were talking about music, APIs and the [Seevl API](http://developers.seevl.net/).
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/seevl_logo1.png)](http://seevl.net/)I was having a beer with [Dr. Alexandre Passant](http://twitter.com/#!/terraces) of [Seevl](http://seevl.net/) the other day, we were talking about music, APIs and the [Seevl API](http://developers.seevl.net/).
 
 A while back I wrote a piece about Seevl titled, [With Seevl Music Discovery, the Website is the API](http://apievangelist.com/2011/05/27/with-seevl-music-discovery-the-website-is-the-api/). When building the Seevl API, instead of providing a separate API to access information, Seevl relies on content negotiation principles to deliver alternative representations of web pages.
 

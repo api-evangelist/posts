@@ -2,7 +2,7 @@
 layout: post
 title: Hacker Storytelling
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ada-the-enchantress-of-numbers.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ada-the-enchantress-of-numbers.jpg
 author:
   name: kinlane
 tags:
@@ -33,7 +33,7 @@ So far I’ve produced a lot of quality content from this hacker storytelling pr
 *   Code Samples for Searching and Pulling Places Detail for 3 APIs
 *   Code Libraries for Each of the 3 APIs
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/hacker-storytelling/Hyp3rL0cal-Interactive-Places-API-Comparison-Tool-Listing.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/hacker-storytelling/Hyp3rL0cal-Interactive-Places-API-Comparison-Tool-Listing.png)
 
 All blog posts are syndicated out to Twitter, LinkedIn and Facebook as well as bookmarked at Reddit, StumbleUpon and Hacker News. All code samples live as Github Gists so I can embed in blog posts and other places, while code libraries live as Github repositories.
 

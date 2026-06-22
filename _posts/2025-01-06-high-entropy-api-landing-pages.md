@@ -8,7 +8,7 @@ tags:
   - Chaos
   - Cognitive Load
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/leaflets-of-the-russian-revolution-docks-water-front-ships-containers.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/leaflets-of-the-russian-revolution-docks-water-front-ships-containers.jpg
 ---
 According to [Claude Shannon’s Mathematical Theory of Communication](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf) for a message to be properly received the entropy needs to be low. Think of high entropy as when the board on the game show Wheel is Fortune first comes up with very view letters exposed, and low entropy as being when more letters are revealed and you can begin to guess what the phrase is. Entropy is disorder and chaos, [some simply define it as ignorance](https://www.quantamagazine.org/what-is-entropy-a-measure-of-just-how-little-we-really-know-20241213/), but an increasing number of API land pages I come across possess dangerously high levels of entropy, leaving consumers scratching their head about what each API actually does.
 

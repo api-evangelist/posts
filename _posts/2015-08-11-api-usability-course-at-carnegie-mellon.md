@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Usability Course at Carnegie Mellon
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/carnegie-mellon-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/carnegie-mellon-logo.png
 author:
   name: kinlane
 tags:

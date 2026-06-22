@@ -2,7 +2,7 @@
 layout: post
 title: An API Definition As The Truth In The API Contract
 url: http://apievangelist.com/2014/07/15/an-api-definition-as-the-truth-in-the-api-contract/
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-contract.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-contract.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ tags:
 
 /kinlane-productions2/
 
-![](https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-contract.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-contract.png)
 
 One conversation I had at #Gluecon this year, was around the role an API plays in being a contract between providers and consumers, with Tony Tam ([@fehguy](https://twitter.com/fehguy)) from [Reverb](https://helloreverb.com/). API contract, is a common phrase to describe how API services are consumed, and depending on the on-boarding process, an API provider and consumer can enter into a contract for services around a set of resources, in a self-service way.
 

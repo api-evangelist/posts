@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Foursquare API Version 2.0
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ tags:
 ---
 [Foursquare released version 2.0 of its API](http://developer.foursquare.com/) today, after a year of development on the update.
 
-kinlane-productions2.s3.amazonaws.com The API provides the following upgrades:[![](http://kinlane-productions.s3.amazonaws.com/foursquare_logo.png)](http://www.foursquare.com)
+kinlane-productions2.s3.amazonaws.com The API provides the following upgrades:[![](https://kinlane-images.s3.amazonaws.com/apievangelist/foursquare_logo.png)](http://www.foursquare.com)
 
 *   OAuth 2.0 Authentication
 *   User Badges

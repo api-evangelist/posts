@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Know It Is Hard When You Are Just Getting Started, But Please Make Your Pricing Page Public
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Banners_and_Alerts_and_StopLight.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Banners_and_Alerts_and_StopLight.png
 atomdate: 2016-08-19 18:00:00+00:00
 tags:
 - Getting Started

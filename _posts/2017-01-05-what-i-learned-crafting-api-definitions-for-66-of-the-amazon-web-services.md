@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What I Learned Crafting API Definitions For 66 Of The Amazon Web Services
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/amazon-aws-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/company/logos/amazon-aws-logo.jpg
 atomdate: 2017-01-05 23:00:00+00:00
 tags:
 - Definitions

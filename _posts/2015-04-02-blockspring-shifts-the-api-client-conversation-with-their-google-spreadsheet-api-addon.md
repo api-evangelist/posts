@@ -4,7 +4,7 @@ title: >-
   Blockspring Shifts The API Client Conversation With Their Google Spreadsheet
   API Add-On
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/blockspring/blockspring-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/blockspring/blockspring-logo.png
 author:
   name: kinlane
 tags:
@@ -19,23 +19,23 @@ We have done a decent job of providing resources to data stewards, [helping them
 
 Yeah I know, making APIs work in spreadsheets has been done for a while, via Google Spreadsheets and Excel Spreadsheets, but nobody has standardized it like Blockspring just did. So let’s take a quick look at the implementation. [I went to the Google Chrome App Store, and downloaded the add-on](https://chrome.google.com/webstore/detail/blockspring/aihldeahgcpbpmimkdpkafaedhbmfhoh).
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/blockspring/blockspring-google-spreadsheets-add-on.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/blockspring/blockspring-google-spreadsheets-add-on.png)
 
 Then using a new spreadsheet, I click on add-ons > Blockspring, and logged into my account. After giving Blockspring access to the Google Spreadsheet via my Google Account oAuth, I was given an API console in the right hand sidebar of my spreadsheet interface. The API options I’m given aren't the usual geek buffet, they are everyday use scenarios that would attract the average spreadsheet users.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/blockspring/blockspring-google-spreadsheets-add-on-console.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/blockspring/blockspring-google-spreadsheets-add-on-console.png)
 
 I select the IMDB movie search, which once chosen, I’m given the option to populate my spreadsheet with results, providing me with API driven resources, right in my worksheets. The best part is it is complete with one cell as a search term, allowing me to customize my IMDB search.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/blockspring/blockspring-google-spreadsheets-add-on-imdb.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/blockspring/blockspring-google-spreadsheets-add-on-imdb.png)
 
 Using Blockspring, I’m given easy to use, API driven resources, that anyone can implement, like visualizing the recent news:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/blockspring/blockspring-google-spreadsheets-add-on-tools.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/blockspring/blockspring-google-spreadsheets-add-on-tools.png)
 
 Or possibly evaluate stock volatility clustering, using stock market data APIs (cause you know we all do a lot of this):
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/blockspring/blockspring-google-spreadsheets-add-on-tools-2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/blockspring/blockspring-google-spreadsheets-add-on-tools-2.png)
 
   
 Blockspring gives me over 1000 API driven functions that I can use in my Google Spreadsheet—kicking everyone’s asses when it comes to potential API client delivery. While us technologists are arguing over whether or not we can automatically generated Swagger driven SDKs, and the importance of hypermedia APIs when deploying the next generation clients, someone like Blockspring comes along and pipes in APIs to the #2 client in the world—the spreadsheet. #winning

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Its If This Then That For X
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/ifthisthenthat/IFTTT-logo.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/ifthisthenthat/IFTTT-logo.jpeg
 author:
   name: kinlane
 tags:

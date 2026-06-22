@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quantifying The Community Around The Swagger API Specification
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -52,199 +52,199 @@ Swagger is often known for its interactive API documentation (aka Swagger UI), b
 
 I want a better understanding of the core group of companies who have embraced the Swagger specification, and baked it into their own platform. I know there are hundreds of them out there, but finding them can be easier said than done, especially when I'm looking some sort of public announcement, blog post, press release, service description, to use as my reference. So far I have **49 companies** that I’m tracking on, who have pulled the Swagger spec, and incorporated into their own platform and infrastructure.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg)](http://www.3scale.net/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/3scale-logo.jpg)](http://www.3scale.net/)
 
 [**3scale**](http://www.3scale.net/) ([reference](http://www.3scale.net/tag/swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/akana-logo-formerly-soa.png)](http://www.akana.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/akana-logo-formerly-soa.png)](http://www.akana.com/)
 
 [**Akana**](http://www.akana.com/) ([reference](https://akana.com/news/press_detail/soa_software_eases_api_management_with_new_multi_api_description_language_s))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apache-apollo-logo.png)](http://activemq.apache.org/apollo/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apache-apollo-logo.png)](http://activemq.apache.org/apollo/)
 
 [**Apache Apollo**](http://activemq.apache.org/apollo/) ([reference](http://www.davsclaus.com/2014/09/66th-apache-camel-release-is-out-its.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apache-camel.jpeg)](http://camel.apache.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apache-camel.jpeg)](http://camel.apache.org/)
 
 [**Apache Camel**](http://camel.apache.org/) ([reference](http://camel.apache.org/swagger.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/apigee-logo.gif)](https://apigee.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/apigee-logo.gif)](https://apigee.com/)
 
 [**Apigee**](https://apigee.com/) ([reference](https://blog.apigee.com/taglist/swagge))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apigility-logo.png)](https://apigility.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apigility-logo.png)](https://apigility.org/)
 
 [**Apigility**](https://apigility.org/) ([reference](https://apigility.org/documentation/api-doc/swagger))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apimatic-logo.png)](https://www.apimatic.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apimatic-logo.png)](https://www.apimatic.io/)
 
 [**APIMATIC**](https://www.apimatic.io/) ([reference](https://www.facebook.com/apimatic/posts/94217215247839))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apis-io.png)](http://apis.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apis-io.png)](http://apis.io/)
 
 [**apis.io**](http://apis.io/) ([reference](http://apis.io/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apisdotjson.png)](http://apisjson.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apisdotjson.png)](http://apisjson.org/)
 
 [**APIs.json**](http://apisjson.org/) ([reference](http://apisjson.org/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apitools-logo.png)](https://www.apitools.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apitools-logo.png)](https://www.apitools.com/)
 
 [**APItools**](https://www.apitools.com/) ([reference](https://www.apitools.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/appnow-logo.png)](http://appnow.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/appnow-logo.png)](http://appnow.com/)
 
 [**AppNow**](http://appnow.com/) ([reference](https://appnow.radarconline.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ardoq-logo.png)](http://ardoq.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/ardoq-logo.png)](http://ardoq.com/)
 
 [**Ardoq**](http://ardoq.com/) ([reference](http://ardoq.com/visualizing-swagger-api-documentation/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Axway_Logo_4_Color.jpg)](http://www.axway.com/vordel-products/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/Axway_Logo_4_Color.jpg)](http://www.axway.com/vordel-products/)
 
 [**Axway**](http://www.axway.com/vordel-products/) ([reference](https://www.axway.com/en/datasheet/axway-api-portal))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/beego_logo.png)](http://beego.me/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/beego_logo.png)](http://beego.me/)
 
 [**Beego**](http://beego.me/) ([reference](http://beego.me/blog/beego_api))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/catch_logo.gif)](http://catchsoftware.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/catch_logo.gif)](http://catchsoftware.com/)
 
 [**Catch Software**](http://catchsoftware.com/) ([reference](http://catchsoftware.com/blogs/2013/08/get-your-swagger-on/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/cloud-elements-logo.png)](http://www.cloud-elements.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/cloud-elements-logo.png)](http://www.cloud-elements.com/)
 
 [**Cloud Elements**](http://www.cloud-elements.com/) ([reference](https://github.com/cloud-elements/doc-builder))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/django-rest-framework.png)](http://www.django-rest-framework.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/django-rest-framework.png)](http://www.django-rest-framework.org/)
 
 [**Django REST**](http://www.django-rest-framework.org/) ([reference](http://www.django-rest-framework.org/topics/documenting-your-api/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/dreamfactory.png)](http://www.dreamfactory.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/dreamfactory.png)](http://www.dreamfactory.com/)
 
 [**DreamFactory**](http://www.dreamfactory.com/) ([reference](http://blog.dreamfactory.com/blog/bid/294825/why-we-like-swagger-for-api-docs))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/elasticio_logo.png)](http://www.elastic.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/elasticio_logo.png)](http://www.elastic.io/)
 
 [**elastic.io**](http://www.elastic.io/) ([reference](https://github.com/elasticio/sphereio-api/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/esspresso-logic-logic.png)](http://www.espressologic.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/esspresso-logic-logic.png)](http://www.espressologic.com/)
 
 [**Espresso Logic**](http://www.espressologic.com/) ([reference](http://docs.espressologic.com/docs/live-api/api-docs/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/gluu-logo.png)](http://www.gluu.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/gluu-logo.png)](http://www.gluu.org/)
 
 [**Gluu**](http://www.gluu.org/) ([reference](https://github.com/GluuFederation/gluu-flask))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/bw-ibm-logo.jpeg)](https://apim.ibmcloud.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/bw-ibm-logo.jpeg)](https://apim.ibmcloud.com/)
 
 [**IBM**](https://apim.ibmcloud.com/) ([reference](https://developer.ibm.com/answers/questions/27580/swagger-ui-import-and-export-in-api-management.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Magnolia-CMS-logo.png)](https://www.magnolia-cms.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/Magnolia-CMS-logo.png)](https://www.magnolia-cms.com/)
 
 [**Magnolia CMS**](https://www.magnolia-cms.com/) ([reference](https://documentation.magnolia-cms.com/display/DOCS/REST+API#RESTAPI-SwaggerAPIexplorer))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-azure-logo.png)](http://azure.microsoft.com/en-us/services/api-management/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/microsoft-azure-logo.png)](http://azure.microsoft.com/en-us/services/api-management/)
 
 [**Microsoft Azure**](http://azure.microsoft.com/en-us/services/api-management/) ([reference](http://azure.microsoft.com/en-us/documentation/articles/api-management-howto-import-api/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/neo4j-logo-2015.png)](http://neo4j.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/neo4j-logo-2015.png)](http://neo4j.com/)
 
 [**Neo4J**](http://neo4j.com/) ([reference](http://neo4j-swagger.tinj.com/docs/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1620_logo.png)](http://developer.netflix.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/1620_logo.png)](http://developer.netflix.com/)
 
 [**Netflix**](http://developer.netflix.com/) ([reference](http://www.oscon.com/oscon2014/public/schedule/detail/33481))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/nomos-software-logo.png)](http://nomos-software.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/nomos-software-logo.png)](http://nomos-software.com/)
 
 [**Nomos Software**](http://nomos-software.com/) ([reference](http://nomos-software.com/blog/swagger-ui-example))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/open311-logo.jpeg)](http://open311.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/open311-logo.jpeg)](http://open311.org/)
 
 [**Open311**](http://open311.org/) ([reference](https://github.com/open311/swagger-open311))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/opendaylight-logo.png)](http://www.opendaylight.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/opendaylight-logo.png)](http://www.opendaylight.org/)
 
 [**OpenDaylight Project**](http://www.opendaylight.org/) ([reference](https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL:Restconf_API_Explorer))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/openi-logo.png)](http://www.openi-ict.eu/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/openi-logo.png)](http://www.openi-ict.eu/)
 
 [**OPENi**](http://www.openi-ict.eu/) ([reference](https://github.com/OPENi-ict/swagger-def))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/200px-OpenShift-LogoType.svg.png)](https://www.openshift.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/200px-OpenShift-LogoType.svg.png)](https://www.openshift.com/)
 
 [**OpenShift by Red Hat**](https://www.openshift.com/) ([reference](https://blog.openshift.com/visualize-openshift-api-with-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/pivotal-logo.jpeg)](http://pivotal.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/pivotal-logo.jpeg)](http://pivotal.io/)
 
 [**Pivotal**](http://pivotal.io/) ([reference](http://gemfire.docs.pivotal.io/latest/userguide/gemfire_rest/using_swagger.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/postman-rest-logo.png)](http://www.getpostman.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/postman-rest-logo.png)](http://www.getpostman.com/)
 
 [**Postman REST Client**](http://www.getpostman.com/) ([reference](http://blog.getpostman.com/index.php/2014/11/17/postman-1-0-is-out-gorgeous-dark-theme-curlramlswaggerwadl-imports-performance-improvements/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/220px-Quandl_Logol.svg.png)](https://www.quandl.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/220px-Quandl_Logol.svg.png)](https://www.quandl.com/)
 
 [**Quandl**](https://www.quandl.com/) ([reference](https://github.com/AnCh7/FinancialCharting))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/rest-united.png)](http://restunited.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/rest-united.png)](http://restunited.com/)
 
 [**REST United**](http://restunited.com/) ([reference](http://restunited.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/RESTBase-Logo.png)](http://www.mediawiki.org/wiki/RESTBase)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/RESTBase-Logo.png)](http://www.mediawiki.org/wiki/RESTBase)
 
 [**RESTBase**](http://www.mediawiki.org/wiki/RESTBase) ([reference](https://github.com/wikimedia/swagger-router))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/RESTFiddle-Logo.png)](http://www.restfiddle.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/RESTFiddle-Logo.png)](http://www.restfiddle.com/)
 
 [**RESTFiddle**](http://www.restfiddle.com/) ([reference](http://www.restfiddle.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apispark-logo)](https://apispark.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apispark-logo)](https://apispark.com/)
 
 [**Restlet / APISpark**](https://apispark.com/) ([reference](http://restlet.com/technical-resources/restlet-framework/guide/2.3/extensions/swagger))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/get-sandbox-logo.png)](https://getsandbox.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/get-sandbox-logo.png)](https://getsandbox.com/)
 
 [**Sandbox**](https://getsandbox.com/) ([reference](https://getsandbox.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/service-stack.png)](https://servicestack.net/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/service-stack.png)](https://servicestack.net/)
 
 [**Service Stack**](https://servicestack.net/) ([reference](https://github.com/ServiceStack/ServiceStack/wiki/Swagger-API))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png)](http://smartbear.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/SmartBear-Logo.png)](http://smartbear.com/)
 
 [**SmartBear Software**](http://smartbear.com/) ([reference](http://smartbear.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/snaplogic-logo.png)](http://www.snaplogic.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/snaplogic-logo.png)](http://www.snaplogic.com/)
 
 [**SnapLogic**](http://www.snaplogic.com/) ([reference](http://video.snaplogic.com/fL5g/the-snaplogic-swagger-snap/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/strongloop-logo.png)](http://strongloop.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/strongloop-logo.png)](http://strongloop.com/)
 
 [**StrongLoop**](http://strongloop.com/) ([reference](https://strongloop.com/strongblog/enterprise-api-swagger-2-0-loopback/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/synapp-io-logo.png)](http://www.synapp.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/synapp-io-logo.png)](http://www.synapp.io/)
 
 [**Synapp.io**](http://www.synapp.io/) ([reference](http://www.synapp.io/blog/2014/11/7/putting-the-api-in-synappio))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/tibco-logo.png)](http://www.tibco.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/tibco-logo.png)](http://www.tibco.com/)
 
 [**TIBCO Software**](http://www.tibco.com/) ([reference](https://docs.tibco.com/pub/activematrix_businessworks/6.2.0/doc/html/GUID-FDE5F1A2-D4B3-4410-B8E2-2D412C00F596.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/visual-studio-2013-logo.png)](https://www.visualstudio.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/visual-studio-2013-logo.png)](https://www.visualstudio.com/)
 
 [**Visual Studio**](https://www.visualstudio.com/) ([reference](http://blogs.msdn.com/b/visualstudio/archive/2015/03/24/introducing-the-azure-api-apps-tools-for-visual-studio-2013.aspx))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/wavemaker-logo.png)](http://www.wavemaker.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/wavemaker-logo.png)](http://www.wavemaker.com/)
 
 [**WaveMaker, Inc.**](http://www.wavemaker.com/) ([reference](http://www.wavemaker.com/blog/wavemaker-api-designer-brings-api-driven-development-to-custom-built-enterprise-applications/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/wso2-logo-white-800X360.jpg)](http://wso2.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/wso2-logo-white-800X360.jpg)](http://wso2.com/)
 
 [**WSO2**](http://wso2.com/) ([reference](http://blog.cobia.net/cobiacomm/2013/05/31/swagger-with-wso2-api-manager/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/536_logo.png)](http://www.yelp.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/536_logo.png)](http://www.yelp.com/)
 
 [**Yelp**](http://www.yelp.com/) ([reference](https://github.com/Yelp))
 
@@ -253,251 +253,251 @@ This list represents a pretty interesting mix of folks who understand the potent
 After looking at the platforms who have pulled the Swagger specification into their operations, I wanted to see if I could also begin to quantify the community of APIs who have deployed Swagger UI, providing interactive API documentation for their own API platform. Since this is what Swagger is known for, I knew I would find quite a few to showcase. So far I have found 62:  
   
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/world-population-project.png)](http://population.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/world-population-project.png)](http://population.io/)
 
 [**World Population Project**](http://population.io/) ([reference](http://api.population.io/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg)](http://www.3scale.net/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/3scale-logo.jpg)](http://www.3scale.net/)
 
 [**3scale**](http://www.3scale.net/) ([reference](https://support.3scale.net/reference/active-docs#/account_management_api))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ACI_Scholarly_Blog_Index.png)](http://scholar.acindex.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/ACI_Scholarly_Blog_Index.png)](http://scholar.acindex.com/)
 
 [**ACI Blog Index**](http://scholar.acindex.com/) ([reference](http://developer.acindex.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-evangelist-logo-400.png)](http://apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/api-evangelist-logo-400.png)](http://apievangelist.com/)
 
 [**API Evangelist**](http://apievangelist.com/) ([reference](http://developer.apievangelist.com/core-apis.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-2-cart.png)](https://www.api2cart.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/api-2-cart.png)](https://www.api2cart.com/)
 
 [**API2Cart**](https://www.api2cart.com/) ([reference](http://docs.api2cart.com/post/interactive-d))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/appspin_100.png)](http://appsp.in/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/appspin_100.png)](http://appsp.in/)
 
 [**AppSpin**](http://appsp.in/) ([reference](http://docs.appsp.in/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/548_logo.jpg)](http://banckle.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/548_logo.jpg)](http://banckle.com/)
 
 [**Banckle**](http://banckle.com/) ([reference](http://chat.banckle.com/api/v2.0/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/betisn-logo.png)](http://www.apiisn.com/betting/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/betisn-logo.png)](http://www.apiisn.com/betting/)
 
 [**BetISN**](http://www.apiisn.com/betting/) ([reference](http://www.apiisn.com/betting/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/bitdango-logo.png)](https://bitdango.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/bitdango-logo.png)](https://bitdango.com/)
 
 [**Bitdango**](https://bitdango.com/) ([reference](https://bitdango.com/api))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/BitTitan_100.png)](https://www.bittitan.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/BitTitan_100.png)](https://www.bittitan.com/)
 
 [**BitTitan**](https://www.bittitan.com/) ([reference](http://www.bittitan.com/swagger/ui/index.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png)](http://www.callfire.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/CallFire_Logo.png)](http://www.callfire.com/)
 
 [**CallFire**](http://www.callfire.com/) ([reference](https://www.callfire.com/api-documentation/rest/version/1.1))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/carnival-logo-small.png)](http://carnivalmobile.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/carnival-logo-small.png)](http://carnivalmobile.com/)
 
 [**Carnival Mobile**](http://carnivalmobile.com/) ([reference](https://api.carnivalmobile.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/cdscience-logo.png)](http://www.commercedatascience.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/cdscience-logo.png)](http://www.commercedatascience.com/)
 
 [**CDScience**](http://www.commercedatascience.com/) ([reference](http://api.cdscience.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/citygro-logo-color.png)](http://citygro.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/citygro-logo-color.png)](http://citygro.com/)
 
 [**CityGro**](http://citygro.com/) ([reference](https://api.citygro.com/v1/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/citysdk-logo.png)](http://citysdk.waag.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/citysdk-logo.png)](http://citysdk.waag.org/)
 
 [**CitySDK**](http://citysdk.waag.org/) ([reference](http://dev.hel.fi/open311-test/swagger/dist/index.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/clarify-logo.png)](http://clarify.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/clarify-logo.png)](http://clarify.io/)
 
 [**Clarify API**](http://clarify.io/) ([reference](http://clarify.io/docs/api/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/textLogoClimateChange.png)](http://www.climatechangecosts.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/textLogoClimateChange.png)](http://www.climatechangecosts.com/)
 
 [**Climate Change Costs**](http://www.climatechangecosts.com/) ([reference](http://www.climatechangecosts.com/docs/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/cloudify-logo.png)](http://getcloudify.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/cloudify-logo.png)](http://getcloudify.org/)
 
 [**Cloudify**](http://getcloudify.org/) ([reference](http://getcloudify.org/guide/3.0/rest-api/index.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/commafeed-logo.png)](https://www.commafeed.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/commafeed-logo.png)](https://www.commafeed.com/)
 
 [**CommaFeed**](https://www.commafeed.com/) ([reference](https://www.commafeed.com/api/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Concur_Logo_HZ_Black_500px.png)](https://www.concur.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/Concur_Logo_HZ_Black_500px.png)](https://www.concur.com/)
 
 [**Concur**](https://www.concur.com/) ([reference](https://www.concursolutions.com/api/docs/index.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/data-validation-api.png)](https://developer.datavalidation.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/data-validation-api.png)](https://developer.datavalidation.com/)
 
 [**DataValidation API**](https://developer.datavalidation.com/) ([reference](https://developer.datavalidation.com/docs))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/datumbox.png)](http://www.datumbox.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/datumbox.png)](http://www.datumbox.com/)
 
 [**Datumbox**](http://www.datumbox.com/) ([reference](http://www.datumbox.com/api-sandbox/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/dreamfactory.png)](http://www.dreamfactory.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/dreamfactory.png)](http://www.dreamfactory.com/)
 
 [**DreamFactory**](http://www.dreamfactory.com/) ([reference](http://www.dreamfactory.com/developers/live_API))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/3dr-dronekit-logo.png)](http://dronekit.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/3dr-dronekit-logo.png)](http://dronekit.io/)
 
 [**DroneKit**](http://dronekit.io/) ([reference](http://api.3drobotics.com/swagger-ui/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/evercam-logo.png)](http://www.evercam.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/evercam-logo.png)](http://www.evercam.io/)
 
 [**Evercam**](http://www.evercam.io/) ([reference](http://www.evercam.io/develop/docs))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/195_logo.jpg)](http://developer.ean.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/195_logo.jpg)](http://developer.ean.com/)
 
 [**Expedia**](http://developer.ean.com/) ([reference](https://www.expedia.com/static/mobile/swaggerui/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/logo3.png)](https://fanart.tv/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/logo3.png)](https://fanart.tv/)
 
 [**fanart.tv**](https://fanart.tv/) ([reference](http://hermes.fanart.tv/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/formaggio-logo.png)](http://formagg.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/formaggio-logo.png)](http://formagg.io/)
 
 [**Formagg.io**](http://formagg.io/) ([reference](http://api.formagg.io/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/GeoTrellis-Transit-Logo.png)](http://transit.geotrellis.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/GeoTrellis-Transit-Logo.png)](http://transit.geotrellis.com/)
 
 [**GeoTrellis**](http://transit.geotrellis.com/) ([reference](http://transit.geotrellis.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg)](http://www.gettyimages.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/getty-images.jpeg)](http://www.gettyimages.com/)
 
 [**Getty Images**](http://www.gettyimages.com/) ([reference](https://api.gettyimages.com/swagger/ui/index.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1066_logo.png)](http://groupdocs.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/1066_logo.png)](http://groupdocs.com/)
 
 [**GroupDocs**](http://groupdocs.com/) ([reference](http://api.groupdocs.com/v2.0/spec/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/guru-logo.png)](https://www.getguru.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/guru-logo.png)](https://www.getguru.com/)
 
 [**Guru**](https://www.getguru.com/) ([reference](http://help.getguru.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/habitrpg_pixel.png)](https://habitrpg.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/habitrpg_pixel.png)](https://habitrpg.com/)
 
 [**HabitRPG**](https://habitrpg.com/) ([reference](https://habitrpg.com/static/api))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/hapi-js-logo.png)](http://hapijs.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/hapi-js-logo.png)](http://hapijs.com/)
 
 [**hapi.js**](http://hapijs.com/) ([reference](http://hapijs.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png)](http://kubernetes.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/kubernetes-logo.png)](http://kubernetes.io/)
 
 [**Kubernetes**](http://kubernetes.io/) ([reference](http://kubernetes.io/third_party/swagger-ui/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/League_of_legends_logo_transparent.png)](http://gameinfo.na.leagueoflegends.com/en/game-info/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/League_of_legends_logo_transparent.png)](http://gameinfo.na.leagueoflegends.com/en/game-info/)
 
 [**League of Legends**](http://gameinfo.na.leagueoflegends.com/en/game-info/) ([reference](http://na.lolesports.com/api/swagger#!/api))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/league-of-legends-esports.jpeg)](http://na.lolesports.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/league-of-legends-esports.jpeg)](http://na.lolesports.com/)
 
 [**League of Legends eSports**](http://na.lolesports.com/) ([reference](http://na.lolesports.com/api/swagger))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/likibu-logo.png)](http://www.likibu.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/likibu-logo.png)](http://www.likibu.com/)
 
 [**Likibu**](http://www.likibu.com/) ([reference](http://api.likibu.com/doc/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Mobovivo_Logo.png)](http://www.mobovivo.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/Mobovivo_Logo.png)](http://www.mobovivo.com/)
 
 [**Mobovivo**](http://www.mobovivo.com/) ([reference](http://swagger-intel.mobovivo.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/mozilla-open-badges-logo.png)](http://openbadges.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/mozilla-open-badges-logo.png)](http://openbadges.org/)
 
 [**Mozilla Open Badges**](http://openbadges.org/) ([reference](http://directory.openbadges.org/developers/api-explorer))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/muckrock_medium.jpg)](https://www.muckrock.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/muckrock_medium.jpg)](https://www.muckrock.com/)
 
 [**MuckRock**](https://www.muckrock.com/) ([reference](https://www.muckrock.com/api_doc/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/myfox-logo.png)](https://www.getmyfox.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/myfox-logo.png)](https://www.getmyfox.com/)
 
 [**MyFox**](https://www.getmyfox.com/) ([reference](https://api.myfox.me/dev/documentation))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/myneighbor-logo.png)](https://myneighbor.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/myneighbor-logo.png)](https://myneighbor.com/)
 
 [**MyNeighbor**](https://myneighbor.com/) ([reference](http://api.myneighbor.com/docs/index.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/mysms-logo.jpg)](http://www.mysms.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/mysms-logo.jpg)](http://www.mysms.com/)
 
 [**MySMS**](http://www.mysms.com/) ([reference](https://api.mysms.com/swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/pingup-logo-horizontal-preview.png)](http://pingup.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/pingup-logo-horizontal-preview.png)](http://pingup.com/)
 
 [**Pingup**](http://pingup.com/) ([reference](http://developers.pingup.com/#api-explorer))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/popuparchive-logo.png)](https://www.popuparchive.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/popuparchive-logo.png)](https://www.popuparchive.com/)
 
 [**Pop Up Archive**](https://www.popuparchive.com/) ([reference](https://developer.popuparchive.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Project-Chronos-Logo.png)](http://www.spacexplore.it/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/Project-Chronos-Logo.png)](http://www.spacexplore.it/)
 
 [**Project Chronos**](http://www.spacexplore.it/) ([reference](http://www.spacexplore.it/api/docs/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ptisp-logo.png)](https://www.ptisp.pt/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/ptisp-logo.png)](https://www.ptisp.pt/)
 
 [**PTisp**](https://www.ptisp.pt/) ([reference](http://api.ptisp.pt/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/puppet-labs-logo.png)](http://puppetlabs.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/puppet-labs-logo.png)](http://puppetlabs.com/)
 
 [**Puppet Labs**](http://puppetlabs.com/) ([reference](https://forgeapi.puppetlabs.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/qi-bench.jpg)](http://qi-bench.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/qi-bench.jpg)](http://qi-bench.org/)
 
 [**QI Bench**](http://qi-bench.org/) ([reference](http://api.qi-bench.org/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/rackspace-logo.jpg)](http://www.rackspace.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/rackspace-logo.jpg)](http://www.rackspace.com/)
 
 [**Rackspace**](http://www.rackspace.com/) ([reference](http://rackerlabs.github.io/wadl2swagger/rackspace.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/reliefweb-logo.jpg)](http://reliefweb.int/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/reliefweb-logo.jpg)](http://reliefweb.int/)
 
 [**ReliefWeb**](http://reliefweb.int/) ([reference](http://apidoc.rwlabs.org/swagger))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/924_logo.png)](https://sensr.net/api)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/924_logo.png)](https://sensr.net/api)
 
 [**Sensr.net**](https://sensr.net/api) ([reference](https://api.sensr.net/doc/v3/index.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/480_logo.png)](http://shoeboxed.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/480_logo.png)](http://shoeboxed.com/)
 
 [**Shoeboxed**](http://shoeboxed.com/) ([reference](https://api.shoeboxed.com/v2/explorer/index.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/933_logo.png)](http://skimlinks.com/skimlinks)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/933_logo.png)](http://skimlinks.com/skimlinks)
 
 [**Skimlinks**](http://skimlinks.com/skimlinks) ([reference](https://skimlinks-pi.3scale.net/docs))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/subledger.png)](http://subledger.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/subledger.png)](http://subledger.com/)
 
 [**Subledger**](http://subledger.com/) ([reference](https://api.subledger.com/v2/index.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/tadaweb-logo.png)](http://www.tadaweb.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/tadaweb-logo.png)](http://www.tadaweb.com/)
 
 [**TaDaweb**](http://www.tadaweb.com/) ([reference](https://api.tadaweb.com/v1/index.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Taxamo_logo-copy.jpg)](http://www.taxamo.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/Taxamo_logo-copy.jpg)](http://www.taxamo.com/)
 
 [**taxamo**](http://www.taxamo.com/) ([reference](https://api.taxamo.com/swagger/ui/index.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/resumator-logo.png)](https://theresumator.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/resumator-logo.png)](https://theresumator.com/)
 
 [**The Resumator**](https://theresumator.com/) ([reference](http://www.resumatorapi.com/v1/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/uk-commission-for-employment-and-skills.png)](https://www.gov.uk/government/organisations/uk-commission-for-employment-and-skills)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/uk-commission-for-employment-and-skills.png)](https://www.gov.uk/government/organisations/uk-commission-for-employment-and-skills)
 
 [**UK Commission for Employment and Skills**](https://www.gov.uk/government/organisations/uk-commission-for-employment-and-skills) ([reference](http://api.lmiforall.org.uk/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/wordnik-logo-131gihv.jpeg)](https://www.wordnik.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/wordnik-logo-131gihv.jpeg)](https://www.wordnik.com/)
 
 [**Wordnik**](https://www.wordnik.com/) ([reference](http://developer.wordnik.com/docs.html))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/YunoHost-Logo.png)](https://yunohost.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/YunoHost-Logo.png)](https://yunohost.org/)
 
 [**YunoHost**](https://yunohost.org/) ([reference](http://api.yunohost.org/))
 
@@ -526,147 +526,147 @@ This isn’t accurate, because many of the JavaScript repositories are actually 
   
 Beyond the programming languages I want to know which platforms and frameworks developers are applying Swagger. Here are 36 frameworks and platforms I’ve identified so far.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/AngularJS_logo.svg.png)](https://angularjs.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/AngularJS_logo.svg.png)](https://angularjs.org/)
 
 [**AngularJS**](https://angularjs.org/) ([reference](http://github.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apache-ant.png)](http://ant.apache.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apache-ant.png)](http://ant.apache.org/)
 
 [**Apache Ant**](http://ant.apache.org/) ([reference](http://github.com/cstroe/swagger-ant-task/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apache-camel.jpeg)](http://camel.apache.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apache-camel.jpeg)](http://camel.apache.org/)
 
 [**Apache Camel**](http://camel.apache.org/) ([reference](http://github.com/myfear/CamelEE7RestSwagger))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apache-maven.png)](https://maven.apache.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apache-maven.png)](https://maven.apache.org/)
 
 [**Apache Maven**](https://maven.apache.org/) ([reference](http://github.com/kongchen/swagger-maven-plugin/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Apache_Wink_Logo.png)](https://wink.apache.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/Apache_Wink_Logo.png)](https://wink.apache.org/)
 
 [**Apache Wink**](https://wink.apache.org/) ([reference](http://github.com/zouzias/swagger-jaxrs-wink/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/arangodb_logo2.png)](https://www.arangodb.com/foxx)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/arangodb_logo2.png)](https://www.arangodb.com/foxx)
 
 [**ArangoDB Foxx**](https://www.arangodb.com/foxx) ([reference](http://github.com/arangodb/foxx-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/backbone-rest.png)](https://www.npmjs.com/package/backbone-rest)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/backbone-rest.png)](https://www.npmjs.com/package/backbone-rest)
 
 [**BackboneREST**](https://www.npmjs.com/package/backbone-rest) ([reference](http://github.com/robblovell/backbone-rest-swagger-example/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/cake-logo.png)](http://cakephp.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/cake-logo.png)](http://cakephp.org/)
 
 [**CakePHP**](http://cakephp.org/) ([reference](http://github.com/dave-newson/cakephp-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ckan-logo.png)](http://ckan.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/ckan-logo.png)](http://ckan.org/)
 
 [**CKAN**](http://ckan.org/) ([reference](http://github.com/deepviator/ckan-integrate-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/django-rest-framework.png)](http://www.django-rest-framework.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/django-rest-framework.png)](http://www.django-rest-framework.org/)
 
 [**Django REST**](http://www.django-rest-framework.org/) ([reference](http://github.com/avinash240/django-rest-framework-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/tastypie2.jpg)](https://django-tastypie.readthedocs.org/en/latest/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/tastypie2.jpg)](https://django-tastypie.readthedocs.org/en/latest/)
 
 [**Django Tastypie**](https://django-tastypie.readthedocs.org/en/latest/) ([reference](http://github.com/concentricsky/django-tastypie-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1910_logo.jpg)](http://www.elasticsearch.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/1910_logo.jpg)](http://www.elasticsearch.org/)
 
 [**elasticsearch**](http://www.elasticsearch.org/) ([reference](http://github.com/timschlechter/swagger-for-elasticsearch/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/express-logo.png)](http://expressjs.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/express-logo.png)](http://expressjs.com/)
 
 [**Express**](http://expressjs.com/) ([reference](http://github.com/krakenjs/swaggerize-express/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/feathers-logo.png)](http://feathersjs.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/feathers-logo.png)](http://feathersjs.com/)
 
 [**Feathers**](http://feathersjs.com/) ([reference](http://github.com/Glavin001/feathers-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/flask-logo.png)](http://flask.pocoo.org/docs/0.10/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/flask-logo.png)](http://flask.pocoo.org/docs/0.10/)
 
 [**Flask**](http://flask.pocoo.org/docs/0.10/) ([reference](http://github.com/martinp/flask-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/bw-github.png)](http://swagger.apievangelist.com/external-integrations.html)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/bw-github.png)](http://swagger.apievangelist.com/external-integrations.html)
 
 [**Flask MongoRest**](http://swagger.apievangelist.com/external-integrations.html) ([reference](http://github.com/matchbox/flask-mongorest-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/flask-restful-logo.png)](https://flask-restful.readthedocs.org/en/0.3.2/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/flask-restful-logo.png)](https://flask-restful.readthedocs.org/en/0.3.2/)
 
 [**Flask Restful**](https://flask-restful.readthedocs.org/en/0.3.2/) ([reference](http://github.com/rantav/flask-restful-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/gradle.png)](http://swagger.apievangelist.com/external-integrations.html)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/gradle.png)](http://swagger.apievangelist.com/external-integrations.html)
 
 [**Gradle**](http://swagger.apievangelist.com/external-integrations.html) ([reference](http://github.com/dave-ellis/gradle-swagger-plugin))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/grails-logo.jpg)](http://swagger.apievangelist.com/external-integrations.html)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/grails-logo.jpg)](http://swagger.apievangelist.com/external-integrations.html)
 
 [**Grails**](http://swagger.apievangelist.com/external-integrations.html) ([reference](http://github.com/alvarosanchez/grails-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/grape-logo.jpeg)](http://intridea.github.io/grape/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/grape-logo.jpeg)](http://intridea.github.io/grape/)
 
 [**Grape**](http://intridea.github.io/grape/) ([reference](http://github.com/tim-vandecasteele/grape-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/grunt-logo.jpg)](http://gruntjs.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/grunt-logo.jpg)](http://gruntjs.com/)
 
 [**Grunt**](http://gruntjs.com/) ([reference](http://github.com/tmalbonph/grunt-swagger-tools/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/guzzle-logo.png)](http://guzzle.readthedocs.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/guzzle-logo.png)](http://guzzle.readthedocs.org/)
 
 [**Guzzle**](http://guzzle.readthedocs.org/) ([reference](http://github.com/oco/swizzle/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/jersey-logo.png)](https://jersey.java.net/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/jersey-logo.png)](https://jersey.java.net/)
 
 [**Jersey**](https://jersey.java.net/) ([reference](http://github.com/salimane/java-jersey2/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/laravel-logo.png)](http://laravel.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/laravel-logo.png)](http://laravel.com/)
 
 [**Laravel**](http://laravel.com/) ([reference](http://github.com/slampenny/Swaggervel/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/linqpad-logo.jpg)](https://www.linqpad.net/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/linqpad-logo.jpg)](https://www.linqpad.net/)
 
 [**LINQPad**](https://www.linqpad.net/) ([reference](http://github.com/dylanmei/linqpad-swagger-driver/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/mongodb.jpeg)](https://www.mongodb.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/mongodb.jpeg)](https://www.mongodb.org/)
 
 [**MongDB**](https://www.mongodb.org/) ([reference](http://github.com/dgiul/node-swagger-express-mongodb/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/nancy-logo.png)](http://nancyfx.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/nancy-logo.png)](http://nancyfx.org/)
 
 [**Nancy**](http://nancyfx.org/) ([reference](http://github.com/khellang/Nancy.Swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/pyramid-logo.png)](http://www.pylonsproject.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/pyramid-logo.png)](http://www.pylonsproject.org/)
 
 [**Pyramid**](http://www.pylonsproject.org/) ([reference](http://github.com/striglia/pyramid_swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/salesforce-logo.png)](https://developer.salesforce.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/salesforce-logo.png)](https://developer.salesforce.com/)
 
 [**Salesforce**](https://developer.salesforce.com/) ([reference](http://github.com/thysmichels/force.com-swagger-rest-spring-mvc/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/sequelize-logo.png)](http://swagger.apievangelist.com/external-integrations.html)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/sequelize-logo.png)](http://swagger.apievangelist.com/external-integrations.html)
 
 [**Sequelize**](http://swagger.apievangelist.com/external-integrations.html) ([reference](https://github.com/mathisonian/swaggerize))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/silex-logo.png)](http://silex.sensiolabs.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/silex-logo.png)](http://silex.sensiolabs.org/)
 
 [**Silex**](http://silex.sensiolabs.org/) ([reference](http://github.com/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/sinatra-logo.png)](http://www.sinatrarb.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/sinatra-logo.png)](http://www.sinatrarb.com/)
 
 [**Sinatra**](http://www.sinatrarb.com/) ([reference](http://github.com/jphastings/sinatra-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/spring-by-pivotal.png)](https://spring.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/spring-by-pivotal.png)](https://spring.io/)
 
 [**Spring**](https://spring.io/) ([reference](http://github.com/wkennedy/swagger4spring-web/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/symfony-logo.png)](http://symfony.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/symfony-logo.png)](http://symfony.com/)
 
 [**Symfony**](http://symfony.com/) ([reference](http://github.com/creads/api2symfony-bundle/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/tornado-logo.png)](http://www.tornadoweb.org/en/stable/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/tornado-logo.png)](http://www.tornadoweb.org/en/stable/)
 
 [**Tornado-JSON**](http://www.tornadoweb.org/en/stable/) ([reference](http://github.com/andyno/tornado-swagger/))
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/veneer-logo.png)](https://github.com/ryanuber/veneer)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/veneer-logo.png)](https://github.com/ryanuber/veneer)
 
 [**Veneer**](https://github.com/ryanuber/veneer) ([reference](http://github.com/ryanuber/veneer-swagger/))
 

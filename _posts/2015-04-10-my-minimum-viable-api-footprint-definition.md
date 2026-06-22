@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Minimum Viable API Footprint Definition
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-footprint.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-footprint.png
 author:
   name: kinlane
 tags:

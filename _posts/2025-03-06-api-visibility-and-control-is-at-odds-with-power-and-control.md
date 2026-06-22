@@ -9,7 +9,7 @@ tags:
   - Control
   - Discovery
   - Registries
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-god-sitting-hand-out.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-god-sitting-hand-out.jpeg
 ---
 I regularly leverage social media for engaging with my audience and customers, but I am also a big fan of keeping as much back within my domain as possible, while still engaging in conversation via LinkedIn, Bluesky, Mastodon, and others. [Daniel Kocot asked me a very interesting question in response to one of my stories](https://www.linkedin.com/feed/update/urn:li:activity:7303113564439957504/), and knowing my answer might be a little longer than a comment, but more importantly that this is something I’d want a URL to share with customers, I wanted to answer Daniel’s question here.
 

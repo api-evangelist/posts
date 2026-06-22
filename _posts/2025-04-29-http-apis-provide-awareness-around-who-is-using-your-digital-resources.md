@@ -9,7 +9,7 @@ tags:
   - Data Sovereignty
   - Verification
   - Artificial Intelligence
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/nazi-invasion-castle-cannon-tree.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/nazi-invasion-castle-cannon-tree.jpg
 ---
 I am fielding more questions about, and participating in discussions around companies, organizations, institutions, and government agencies who are looking to build defenses around their digital resources to keep them out of the hands of people building AI large language models. When you operate within the tech echo chamber getting access to digital resources and capabilities is the top priority, but outside the echo chamber within enterprises possessing valuable digital resources, more people are asking some of the following questions.
 

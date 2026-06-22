@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: APIs.json API Property Types
-image: https://s3.amazonaws.com/kinlane-productions2/legos.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/legos.png
 author:
   name: kinlane
 tags:

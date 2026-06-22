@@ -7,7 +7,7 @@ tags:
   - Weekly
   - Governance
   - Conversations
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-statue-supreme-court.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/green-circuit-statue-supreme-court.jpg
 ---
 The agenda for this Thursday's Weekly API Governance conversation has been set. Each week I am conducting an hour long discussion about API governance and inviting guests to come and drive discussion on a variety of topics. My goal is to get API producers, consumers, and service providers coming by each week to talk about what matters most to them as they are approaching API governance. The first week was a more free form discussion, but this Thursday at 12:00 PM EST we have the following four topics and presenters.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Like Being Able To Verify A Developer Is Real Before Giving Them Access to My APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-imperial-droid.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-imperial-droid.png
 author:
   name: kinlane
 tags:

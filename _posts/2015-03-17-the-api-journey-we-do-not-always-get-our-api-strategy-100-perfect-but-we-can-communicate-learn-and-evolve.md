@@ -4,7 +4,7 @@ title: >-
   The API Journey: We Do Not Always Get Our API Strategy 100% Perfect, But We
   Can Communicate, Learn and Evolve
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/sam-api-gov.gif
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/sam-api-gov.gif
 tags:
   - Strategy
   - Journey

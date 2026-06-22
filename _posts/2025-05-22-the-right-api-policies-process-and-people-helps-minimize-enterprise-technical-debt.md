@@ -9,7 +9,7 @@ tags:
   - Rules
   - Processes
   - People
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-white-house-press-room-flag.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-white-house-press-room-flag.jpg
 ---
 API governance policies are meant to cover a wide range of operational areas, which begin with API design considerations like which HTTP methods we use to communicate around our digital resources and capabilities, but they go much further and help define how we version our APIs, which authentication, documentation, and even testing we provide as part of our operations. When it comes to government policies or even enterprise policies, the concept of a policly is often seen as slow moving and fixed, but when it comes to API policies, they are as fast or slow as your ability to mobile discussion amongst the stakeholders in your organization, and it is this intersection of policy, process, and people that will help you minimize enterprise technical debt.
 

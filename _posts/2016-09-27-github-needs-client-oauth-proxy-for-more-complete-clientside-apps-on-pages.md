@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github Needs Client OAuth Proxy For More Complete Client-Side Apps On Pages
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/new_personal_access_token.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/new_personal_access_token.png
 atomdate: 2016-09-28 00:00:00+00:00
 tags:
 - Github

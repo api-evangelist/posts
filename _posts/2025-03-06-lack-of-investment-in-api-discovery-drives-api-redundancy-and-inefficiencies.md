@@ -8,7 +8,7 @@ tags:
   - Discovery
   - Redundancy
   - Inefficiencies
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-containers-white.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-containers-white.jpg
 ---
 Responding to another excellent comment on [the importance of having an API source of truth](https://www.linkedin.com/feed/update/urn:li:activity:7303113564439957504/), as well as [providing a direct URL for how visibility and control is at odds with power and control])https://apievangelist.com/2025/03/06/api-visibility-and-control-is-at-odds-with-power-and-control), I wanted a "reusable" (&#128515;) link I could share to highlight the importance of of API discovery that Shaugh McIntosh emphasized in his comment on LinkedIn.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Zypr API Provides Siri-Like Voice Tasking for Any Developer
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Zypr-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Zypr-Logo.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ The [Zypr API](http://www.zypr.net/ "Zypr API") provides a single RESTful API fo
 
 I’ve covered [unified and aggregate APIs](http://www.apievangelist.com/2011/09/13/unified-data-apis-for-geo,-weather-and-beyond/ "unified and aggregate APIs") in the past, where within maturing industries like social and cloud computing, service providers are stepping up with a single API to work with multiple providers. Zypr is similar in that it offers a single API for multiple providers, but uses voice as the mechanism for search. Zypyr’s goal is to normalize, stable and voice-enhanced method for accessing a wide array of constantly changing APIs, Zypr can reduces the impact of service-specific API changes.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/Zypr/Zypr-Server-Architecture.jpg)](http://www.zypr.net/ "Zypr API")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Zypr/Zypr-Server-Architecture.jpg)](http://www.zypr.net/ "Zypr API")
 
 “Pioneer created Zypr so that any type of developer or device maker on any platform can easily offer compelling new services to enhance their own technology and brand equity,” said Susumu Kotani, the president of Pioneer Corporation. “We have also changed the rules by allowing developers and device makers alike the opportunity to share in revenue when they deploy Zypr.”
 

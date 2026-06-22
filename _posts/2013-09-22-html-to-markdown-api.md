@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HTML to Markdown API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fuck-yeah-markdown-api.png
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/fuck-yeah-markdown-api.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CityGrid LA Hackathon
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/citygrid-los-angeles.png
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/citygrid-los-angeles.png
 author:
   name: kinlane
 tags:

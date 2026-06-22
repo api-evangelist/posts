@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Beyond Public APIs In Government: Internal Access to Resources'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-government.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-government.jpg
 author:
   name: kinlane
 tags:

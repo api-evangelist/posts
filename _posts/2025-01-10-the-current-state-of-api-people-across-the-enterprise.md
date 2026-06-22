@@ -6,7 +6,7 @@ tags:
   - Enterprise Persona
   - People
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/nazi-invasion-japanese-carrying-over-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/nazi-invasion-japanese-carrying-over-bridge.jpeg
 ---
 The state of teams producing and consuming APIs across the enterprise is almost always fragmented, competitive, and political, and when this is the foundation for producing external APIs that power a company’s applications, is given to partners, or made available via public portal, it can become a problem.
 

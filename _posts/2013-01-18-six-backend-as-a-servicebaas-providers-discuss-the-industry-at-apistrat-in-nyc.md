@@ -4,7 +4,7 @@ title: >-
   Six Backend as a Service(BaaS) Providers Discuss the Industry at #APIStrat in
   NYC
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/baas-trends.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/baas-trends.png
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ Beyond the research, stories and analysis on BaaS, I just added a [BaaS panel at
 *   Ilya Sukhar ([@ilyasu](https://twitter.com/ilyasu)) of [Parse](http://www.parse.com/)
 *   Ty Amell ([@tyamell](https://twitter.com/tyamell)) of [StackMob](https://www.stackmob.com/) 
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-conference-logo.png)](http://www.apistrategyconference.com/ "API Strategy & Practice")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/api-strategy-conference-logo.png)](http://www.apistrategyconference.com/ "API Strategy & Practice")
 
 API play a critical role in BaaS platforms by providing interfaces for the common services emerging in the BaaS space, like object storage, user management and location, to name a few, but also bring in other 3rd party services like Twitter and Facebook.
 

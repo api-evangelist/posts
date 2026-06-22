@@ -2,7 +2,7 @@
 layout: post
 title: Providing Video Walk Throughs On Youtube For Your API or API Provider Services
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Postman_YouTube.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Postman_YouTube.png
 atomdate: 2016-09-09T20:00:00.000Z
 tags:
   - Video

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Alpha API Evangelist Workbench
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-vice.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-vice.png
 author:
   name: kinlane
 tags:

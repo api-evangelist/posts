@@ -2,7 +2,7 @@
 layout: post
 title: Why The New API Blueprint Sharing Button From Apiary Is So Important
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apiary/apiary-logo-300x93.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apiary/apiary-logo-300x93.png
 author:
   name: kinlane
 tags:
@@ -18,23 +18,23 @@ Now we you are visiting the Apiary driven API documentation for common platforms
 
 [Akamai Imaging API](https://developer.akamai.com/api/imaging/imaging/reference.html)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-blueprint/api-blueprint-icon.png)](https://developer.akamai.com/api/imaging/imaging/blueprint-expanded.apib)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-blueprint/api-blueprint-icon.png)](https://developer.akamai.com/api/imaging/imaging/blueprint-expanded.apib)
 
 [Relayr Definition API](http://docs.sensordefinitionapi.apiary.io)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-blueprint/api-blueprint-icon.png)](https://jsapi.apiary.io/apis/sensordefinitionapi.apib)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-blueprint/api-blueprint-icon.png)](https://jsapi.apiary.io/apis/sensordefinitionapi.apib)
 
 [Loader.io From SendGrid](http://docs.loaderio.apiary.io/)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-blueprint/api-blueprint-icon.png)](https://jsapi.apiary.io/apis/loaderio.apib)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-blueprint/api-blueprint-icon.png)](https://jsapi.apiary.io/apis/loaderio.apib)
 
 [CloudBreak From SequenceIQ](http://docs.cloudbreak.apiary.io/)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-blueprint/api-blueprint-icon.png)](https://jsapi.apiary.io/apis/cloudbreak.apib)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-blueprint/api-blueprint-icon.png)](https://jsapi.apiary.io/apis/cloudbreak.apib)
 
 The machine readable API Blueprint definition, driving the documentation now has the potential to be accessible. This may not seem like much, but it is actually fundamental to the health, and growth of the overall API industry. Developers cannot learn from other developers, and from leading API platforms, and share best practices for API design across the space without it—we need this to grow, and evolve.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-blueprint/apiblueprint-logo-2.png)](https://apiblueprint.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-blueprint/apiblueprint-logo-2.png)](https://apiblueprint.org/)
 
 This is one of the reasons [Swagger has seen such wide adoption](http://apievangelist.com/2015/03/30/quantifying-the-community-around-the-swagger-api-specification/), because it isn’t just an open format, it is also because the API definitions that these public platforms generate are also available to share, and learn from. You can still lock down the valuable resources made available via an API, but the interface patterns we apply to our APIs should be shared as widely as possible, for everyone to see. This is why I’ve been fighting so hard [to push back against Oracle in their API copyright case against Google](https://www.eff.org/document/amicus-brief-computer-scientists-scotus)—API designs do not need to be locked up.
 

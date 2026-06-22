@@ -10,7 +10,7 @@ tags:
   - Troubleshooting
   - Differences
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-feminist-pioneers.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/good-year-home-merchandise-feminist-pioneers.jpeg
 ---
 Postman, Bruno, and Insomnia collections are commonly used for both formal and ad hoc support of API consumers. In contrast, OpenAPI is often regarded as the source of truth for an API, serving as the foundation for developer-facing API documentation. OpenAPI tends to be more foundational, while collections are typically more ephemeral and supplementary. However, with the [release of Bump’s OpenAPI-powered API Explorer](https://bit.ly/409FCkd), we’re seeing a shift in how OpenAPI and collections can be leveraged. They are increasingly being used not only for technical purposes but also for sharing, support, sales, and other business-related activities.
 

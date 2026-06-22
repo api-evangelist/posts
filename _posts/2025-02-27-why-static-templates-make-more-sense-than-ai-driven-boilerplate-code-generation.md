@@ -11,7 +11,7 @@ tags:
   - Boilerplate
   - SDKs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-fixing-cross.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-fixing-cross.jpg
 ---
 I was having a lively debate on social media with the folks over at [Ambassador](https://bit.ly/43mU4bw) about [AI-Driven Boilerplate Code Automation](https://www.getambassador.io/blog/boilerplate-code-automation), but in the context of API operations. We have a podcast recording scheduled to talk through the topic, but to prime the pump and get my brain heading in the right direction I wanted to publish a story of how I’d push back on their narrative. I've grabbed the highlights from their post and broke out below to help me digest, but also respond a little  more coherently.
 

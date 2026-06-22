@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Explaining My Work Around APIs In Higher Education To Institutions
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/priorities/university-of-api.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/priorities/university-of-api.png
 author:
   name: kinlane
 tags:

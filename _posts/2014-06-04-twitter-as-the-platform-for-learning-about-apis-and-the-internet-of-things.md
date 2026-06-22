@@ -2,7 +2,7 @@
 layout: post
 title: Twitter As The Platform For Learning About APIs And The Internet Of Things
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/twitter/romain-huet-twitter-slide-twitter-pulse-of-planet.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/romain-huet-twitter-slide-twitter-pulse-of-planet.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ The first demo Romain does, is taking an audience selfie using a Raspberry Pi dr
 
 I think the demos that Romain delivers are important, because they offer a unique learnng gateway to both Iot and APIs. While Twitter as a communication layer for the Internet of things may not be a scalable, production ready solution for talking to devices, I think it is a great learning platform for individuals to learn not just about APIs, but how APIs can be used to communicate with the devices in their world.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/romain-apistrat-ams.jpg)](https://www.youtube.com/watch?v=DkKEZMjFLSQ)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/romain-apistrat-ams.jpg)](https://www.youtube.com/watch?v=DkKEZMjFLSQ)
 
 **Simple Communication**  
 Twitter is a simple communication platform, which posseses a social graph that is easy to understand by people who are new to the world of APIs. When individuals are experimenting with both APIs and Iot, Twitter provides a great 101 level sandbox to learn from fun, simple, meaningful IoT + API tutorials.

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Thinking About Data and API Governance As Well As Observability
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/35201856153_61bc075e4b-nazi-invasion.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/35201856153_61bc075e4b-nazi-invasion.jpg
 author:
   name: kinlane
 tags:

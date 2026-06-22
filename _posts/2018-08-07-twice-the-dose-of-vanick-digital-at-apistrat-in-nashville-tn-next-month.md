@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Twice The Dose Of Vanick Digital At APIStrat in Nashville, TN Next Month'
-image: https://s3.amazonaws.com/kinlane-productions2/vanick-digital/apistrat-2018-vanick-digital.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/vanick-digital/apistrat-2018-vanick-digital.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/vanick-digital/apistrat-2018-vanick-digital.png" width="45%" align="right" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/vanick-digital/apistrat-2018-vanick-digital.png" width="45%" align="right" style="padding: 15px;" />
 <p>We are kicking it into overdrive now that <a href="https://events.linuxfoundation.org/events/apistrat-2018/program/schedule/">the schedule is up for APIStrat in Nashville, TN this September 24th through 26th</a>. From now until the event at the end of September you are going to hear me talk about all the amazing speakers we have, the companies they work for, and the interesting things they are all doing with APIs. One of the perks of being a speaker or a sponsor at APIStrat–you get coverage on API Evangelist, a become part of the buzz around <a href="https://events.linuxfoundation.org/events/apistrat-2018/program/schedule/">the 9th edition of the API Strategy &amp; Practice Conference (APIStrat)</a>, now operated by the <a href="https://www.openapis.org/">OpenAPI Initiative (OAI)</a> and <a href="https://www.linuxfoundation.org/">the Linux Foundation</a>.
 
 <p>Today’s post is about my friends over at <a href="https://www.vanick.com/">the digital solutions and API management agency Vanick Digital</a>. With APIStrat coming to their backyard, and their ability to capture the attention of the APIStrat program committee, Vanick Digital has two separate talks this year:

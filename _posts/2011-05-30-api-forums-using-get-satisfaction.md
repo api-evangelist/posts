@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Forums Using Get Satisfaction
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ Simply engaging your customers in conversation won't earn you the respect of you
 
 Get Satisfaction focuses on outcomes in order to create value, as opposed to the confusing and ineffective taxonomy of traditional forums, it is focused on conversations around four simple, outcome-oriented topic types. This helps keep conversations focused and productive.
 
-Working together with an API community to build a dynamic, social knowledge-base helps developers find answers to their questions on their own time, and often times much faster through traditional support channels. Every answer is publicly searchable, so there's never a need to answer the same question twice. This results in a dramatic reduction in the cost of API support, while greatly improving customer satisfaction at the same time.![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/get_satisfaction/get-satisfaction-screenshot.jpg)
+Working together with an API community to build a dynamic, social knowledge-base helps developers find answers to their questions on their own time, and often times much faster through traditional support channels. Every answer is publicly searchable, so there's never a need to answer the same question twice. This results in a dramatic reduction in the cost of API support, while greatly improving customer satisfaction at the same time.![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/get_satisfaction/get-satisfaction-screenshot.jpg)
 
 Different topics inside of forums are full of opinions, wishes and wants. Opening a community conversation about your API roadmap can help you gather valuable market data you can quickly fold into your API development cycle, communications strategy or program schedule.
 

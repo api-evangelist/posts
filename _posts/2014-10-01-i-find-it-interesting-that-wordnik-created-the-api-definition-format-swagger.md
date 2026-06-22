@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Find It Interesting That Wordnik Created The API Definition Format Swagger
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wordnik_logo_347x88.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/wordnik_logo_347x88.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Hacking on Amazon Alexa with AWS Lambda and APIs At @APIStrat
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_06_at_12.30.23_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_06_at_12.30.23_pm.png
 atomdate: 2016-10-07T16:00:00.000Z
 tags:
   - APIStrat

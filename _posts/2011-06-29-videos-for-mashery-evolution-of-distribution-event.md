@@ -3,13 +3,13 @@ layout: post
 title: Videos for Mashery, Evolution of Distribution Event
 url: >-
   http://apievangelist.com/2011/06/29/videos-for-mashery-evolution-of-distribution-event/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Video
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/events/evolution-of-distribution/mashery-evolution-of-distribution-event-1.png)](http://mashery.com/events/eod.html "Evolution of Distribution")The other week I attended an event put on by[Mashery](http://www.mashery.com/ "Mashery"), called[The Evolution of Distribution](http://mashery.com/events/eod.html "Evolution of Distribution"). Mashery has published videos from the event on their site.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/evolution-of-distribution/mashery-evolution-of-distribution-event-1.png)](http://mashery.com/events/eod.html "Evolution of Distribution")The other week I attended an event put on by[Mashery](http://www.mashery.com/ "Mashery"), called[The Evolution of Distribution](http://mashery.com/events/eod.html "Evolution of Distribution"). Mashery has published videos from the event on their site.
 
 The event focused on the growing need to distribute information to a multitude of Internet connected devices using APIs, andMashery invited four leaders in the API space to showcase their experience:
 

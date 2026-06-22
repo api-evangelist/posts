@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing API.Report, A Community API News Site
-image: https://s3.amazonaws.com/kinlane-productions2/api-report/api-report-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ Over the summer, this got me thinking, and while wandering around Detroit after 
 
 Steve and I both aggreed that PW is the tip of the API news iceberg, and while API Evangelist, and API Voice provide some added analysis, there was no straight news site that showcased all of the news across the thousands of companies doing interesting things in 2014. Beyone PW, [APIScene](http://apiscene.com/) and [API Codex](http://apicodex.3scale.net/content/Welcome) are aggregating stories from across the blogosphere, providing access to the best stories across the blogosphere, but still do not reflect the wealth of stories I see being published by both API providers, and consumers.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-report/api-report-news.png)](http://api.report/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-news.png)](http://api.report/)
 
 Out of this conversation, the [API.Report](http://api.report/) was born. The API.Report is a Github Pages hosted API news site, that anyone can post short, concise blog posts that are no more than 500 words, with supporting links to additional sources of information. There are two ways you can post:
 

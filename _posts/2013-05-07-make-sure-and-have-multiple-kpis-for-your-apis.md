@@ -2,7 +2,7 @@
 layout: post
 title: Make Sure And Have Multiple KPIs For Your APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-billionaires-club.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-billionaires-club.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ To quickly get to the point of my story, let's take one of my favorite members o
 
 Netflix, along with Twitter are both  API case studies for the history books. Both of these API stories reflect the ups and downs of the API world, and the often bipolar nature of the public API ecosystem and schizophrenic nature of the tech blogosophere. In contrast, along with Amazon Web Services, Twitter and Twilio, Netflix is a constant player in the stories I tell about success in the API sector. But at the same time, Netflix is considered to be a failure by common public APIs measurements. Are you feeling the crazy?  I do!!
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/netflix/netflix-square.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/netflix/netflix-square.png)
 
 As I've [covered before](http://apievangelist.com/2013/03/12/netflix-api-is-much-more-than-a-public-api/), the blogosphere tends to associate closure of the Netflix, with the ecosystem failures of Twitter. While this is an easy comparison to make, when you look further, you see a lot more going on.  Which tells me we need better ways to measure API success and failure and tell the stories around the ups and downs.
 

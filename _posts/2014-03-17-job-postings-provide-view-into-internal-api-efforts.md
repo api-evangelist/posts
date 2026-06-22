@@ -2,7 +2,7 @@
 layout: post
 title: Job Postings Provide View Into Internal API Efforts
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/bluejeans/bluejeans-video-conferencing.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/bluejeans/bluejeans-video-conferencing.png
 author:
   name: kinlane
 tags:

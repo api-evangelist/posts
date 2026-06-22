@@ -2,7 +2,7 @@
 layout: post
 title: Zapier and The Excel API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Excel_Integrations_-_Zapbook_-_Zapier.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Excel_Integrations_-_Zapbook_-_Zapier.png
 atomdate: 2016-08-17T18:36:00.000Z
 tags:
   - Zapier

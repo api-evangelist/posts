@@ -3,7 +3,7 @@ layout: post
 title: "83 of the Fortune 100 Have a Developer or API Portal"
 date: 2026-05-11
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-skyscraper-construction-crane-nbc-2.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-skyscraper-construction-crane-nbc-2.jpeg
 category: "Blog"
 tags:
   - Fortune 100

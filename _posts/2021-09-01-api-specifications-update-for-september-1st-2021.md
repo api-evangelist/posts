@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'API Specifications Update for September 1st, 2021'
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-shipping-docs-cranes.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/citizenship-shipping-docs-cranes.jpg
 tags:
     - API Specification Update
 ---

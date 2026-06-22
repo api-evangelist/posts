@@ -10,7 +10,7 @@ tags:
   - JSON-LD
   - Jobs
   - Careers
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/leaflets-of-the-russian-revolution-new-and-old-building.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/leaflets-of-the-russian-revolution-new-and-old-building.jpeg
 ---
 I have become an API standards realist over the years. Yes I believe we should all strive for a common good through the standardization of APIs, but I’ve become all to aware of the misalignment of incentives out there across different companies and industries when it comes to why we standardize. In short, people rarely standardize for the greater good. They standardize for their own selfish needs. You can see this in action when it comes to the standardization of job posting--as in the job posting company publish on their sites to find new employees. 
 

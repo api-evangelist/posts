@@ -10,7 +10,7 @@ tags:
   - Banking
   - Governance
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/talks/november-2015/subway-map-15.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/talks/november-2015/subway-map-15.png
 ---
 [I'm still kicking around my API Transit strategy in my head](https://apievangelist.com/2017/08/17/testing-out-the-concept-of-api-transit-instead-of-api-lifecycle/), trying to find a path forward with applying to API governance. [I started moving it forward a couple years ago as a way to map out the API lifecycle](https://apievangelist.com/2015/11/29/the-api-lifecycle-my-talk-from-defrag-and-apistrat/), but in my experience, managing APIs are rarely a linear lifecycle. I have been captivated by the potential of the subway map to help us map out, understand, and navigate complex infrastructure since I learned about [Harry Beck's approach to the London Tube map which has become the standard for quantifying transit around the globe](https://en.wikipedia.org/wiki/Tube_map). 
 

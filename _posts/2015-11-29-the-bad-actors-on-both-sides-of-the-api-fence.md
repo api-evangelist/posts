@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Bad Actors On Both Sides Of The API Fence
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-unhappy.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-unhappy.png
 author:
   name: kinlane
 tags:

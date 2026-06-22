@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Trade.gov Using APIs.json And Added To APIs.io
-image: https://s3.amazonaws.com/kinlane-productions2/federal-government/trade-gov/developer-trade-gov.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/trade-gov/developer-trade-gov.png
 author:
   name: kinlane
 tags:

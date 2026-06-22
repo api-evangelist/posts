@@ -2,7 +2,7 @@
 layout: post
 title: Join Me Tomorrow For A Panel Discussion On API Ecosystems At SF MusicTech
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/sfmusictech-logo-nodate-300x300.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/sfmusictech-logo-nodate-300x300.png
 author:
   name: kinlane
 tags:

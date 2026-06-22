@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Making The API Feedback Loop Machine Readable With APIs.json
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-feedback-loop.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-feedback-loop.png
 author:
   name: kinlane
 tags:

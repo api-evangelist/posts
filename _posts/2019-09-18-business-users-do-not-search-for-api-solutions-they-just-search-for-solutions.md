@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Business Users Do Not Search For API Solutions, They Just Search For Solutions
-image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-machine-road-copper-circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-machine-road-copper-circuit.jpg
 author:
   name: kinlane
 tags:

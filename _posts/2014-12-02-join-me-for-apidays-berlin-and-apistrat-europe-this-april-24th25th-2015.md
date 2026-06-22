@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Join Me For APIDays Berlin And APIStrat Europe This April 24th-25th 2015
-image: https://s3.amazonaws.com/kinlane-productions2/events/apistrat-berlin-2015/apistrat-apidays-logo2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/events/apistrat-berlin-2015/apistrat-apidays-logo2.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ Of course we need sponsors to make the conversation happen. APIDays and APIDays 
 
 Make sure and contact us at contact@apistrat.com to help support the conversation, in Berlin. And like our APIs, APIStrat is powered by 3Scale.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3Scale/3scale-logo.png)](http://bit.ly/13esk6Q)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/3Scale/3scale-logo.png)](http://bit.ly/13esk6Q)
 
 Without the 3Scale team, APIStrat wouldn't happen. As we prepared for the launch of the [APIDays Berlin & APIStrat Europe 2015](http://apidaysberlin2015.apistrat.com/) website, I was reminded that this is the 5th edition of APIStrat, and I think the 8th edition of APIDays, and I can feel that the API space is significantly picking up momentum going into 2015.
 

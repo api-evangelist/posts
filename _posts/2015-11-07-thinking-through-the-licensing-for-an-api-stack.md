@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thinking Through The Licensing For An API Stack
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-licensing-stack.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-licensing-stack.png
 author:
   name: kinlane
 tags:

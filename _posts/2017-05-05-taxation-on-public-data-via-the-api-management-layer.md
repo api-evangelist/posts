@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Taxation On Public Data Via The API Management Layer
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_percentage_api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_percentage_api.png
 atomdate: 2017-05-06 01:00:00+00:00
 tags:
 - Data

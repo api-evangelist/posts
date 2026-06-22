@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Framework For Our All Day API Discussion
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_discussions_copper_circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_discussions_copper_circuit.jpg
 atomdate: 2017-03-08 17:00:00+00:00
 tags:
 - API Evangelist
@@ -346,7 +346,7 @@ The three main areas of API access companies are thinking about are internal, pa
 **Evangelism / Outreach / Inreach  
 **Last I want to discuss the evangelism, outreach, and what I like to call reach around API operations. Successful API operations have advocates, evangelists, and dedicated resources to helping spread the word about APIs, supporting the needs of consumers, and ensure there is a feedback loop around everything happening. There are some common approaches established by leading providers when it comes to API outreach. 
 
-![](http://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png)
 
 *   **Goals** - Let's start again with the basics. What are our goals in doing APIs, and wanting to take an API-first approach to internal, and partner operations?
 *   **Consumer Outreach** - What can be done to reach out to the developer community, and join the existing API community, to drive integration with the platform?

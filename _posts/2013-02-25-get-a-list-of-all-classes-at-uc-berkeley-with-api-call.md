@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Get A List Of All Classes At UC Berkeley With API Call
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/berkeley-api-central.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/berkeley-api-central.png
 author:
   name: kinlane
 tags:
@@ -26,7 +26,7 @@ Then with the proper department code you can pull a list of classes:
 
 With the proper keys, anyone can easily pull relevant UC Berkeley department and class data to use in website or app, or even populate a Google Spreadsheet for other purposes.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/university/uc-berkeley/uc-berkeley-get-classes.jpg)](https://developer.berkeley.edu/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/university/uc-berkeley/uc-berkeley-get-classes.jpg)](https://developer.berkeley.edu/)
 
 The [UC Berkeley API Management Portal](https://developer.berkeley.edu/ "UC Berkeley API Management") is brand new, I’m still working on separate story regarding their approach, but I wanted to talk about how good it is to see such straightforward, valuable uses of an API at a leading university.
 

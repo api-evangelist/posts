@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Virtual Containers, Stacks, APIs And Application Management
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/lego_docker.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/lego_docker.jpg
 author:
   name: kinlane
 tags:
@@ -14,17 +14,17 @@ I've been trying to organize my thoughts around emerging trends in using virtual
 
 From the last week, I'm looking at three separate approaches to application and API management using virtualized containers:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/docker/docker-logo.gif)](http://docker.io)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/docker/docker-logo.gif)](http://docker.io)
 
 **[Docker - The Linux Container Engine](http://www.docker.io/)**  
 Docker is an open-source engine which automates the deployment of applications as highly portable, self-sufficient containers. Docker containers are both hardware-agnostic and platform-agnostic, allowing them to run anywhere, freeing you from having to use a particular language, framework or packaging system--making them great building blocks for deploying and scaling web apps, databases and backend services without depending on a particular stack or provider.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/heroku/heroku-logo.png)](http://heroku.com)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/heroku/heroku-logo.png)](http://heroku.com)
 
 **[Heroku - Application Instances with Portable Features and Dependencies](https://blog.heroku.com/archives/2013/7/10/heroku-pipelines-beta)**  
 Heroku fork lets you create unique, running instances of existing applications in a single command, making it fast and simple to set up homogenous development, staging and production environments. Heroku pipelines then lets you define the relationship between apps and easily promote from one app to another using what is known as a "slug". On Heroku, a slug is a bundle of your source, fetched dependencies, the language runtime, and compiled/generated output of the build system, ready for execution in development or production environments.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/stackmob/stackmob-logo.png)](http://stackmob.com)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/stackmob/stackmob-logo.png)](http://stackmob.com)
 
 **[StackMob - BaaS Development and Production Workflows](https://blog.stackmob.com/2013/07/ready-set-deploy-with-stackmob-apps/)**  
 StackMob has its own unique approach application development workflow which includes use integrated SDKs, and custom configuration for establishing an applications separate development and production environments. Then using this separate environment, Stackmob offers multiple concurrent APIs in production through the use of API snapshots which ensures backwards compatibility of your app over time.
@@ -33,7 +33,7 @@ Docker, definitely offers the widest opportunity for what I'm talking about beca
 
 While we have a long way to go, I think we are getting closer to being able to easily define, meaningful stacks of API resources. I envision a future where I can set out to build an app, bring together exactly the API driven resources I will need from private and public resources, into a single virtualized stack.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/docker/lego_docker.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/docker/lego_docker.jpg)
 
 [Borrowed from Docker Site](http://docker.io)
 

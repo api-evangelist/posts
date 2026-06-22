@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Design Process Helping Me Think Through My Data And Content
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_09_at_9.03.01_pm.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_01_09_at_9.03.01_pm.png
 atomdate: 2017-01-10 17:00:00+00:00
 tags:
 - Design

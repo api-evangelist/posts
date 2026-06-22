@@ -2,7 +2,7 @@
 layout: post
 title: API Automation is the New SDK
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/zapier-sendgrid.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/zapier-sendgrid.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ A sign of this growth can be seen by [Sendgrid’s announcement of their partner
 
 > _Zapier makes it easy to sync data between web applications. They allow SaaS users to create integrations that push data between different web applications without having to waste time coming up with complicated systems. Now you can easily connect to SendGrid along with hundreds of other apps without having to write a single line of code._
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sendgrid/sendgrid.jpeg)](http://sendgrid.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sendgrid/sendgrid.jpeg)](http://sendgrid.com/)
 
 API automation is allowing API providers to reach entirely new audiences, acting as a sort of icon-based interface allowing anyone put their APIs to work for them.
 

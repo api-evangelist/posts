@@ -2,7 +2,7 @@
 layout: post
 title: Startup API Pricing
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/import-io-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/import-io-logo.png
 author:
   name: kinlane
 tags:

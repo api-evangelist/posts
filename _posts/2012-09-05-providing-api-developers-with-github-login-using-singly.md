@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Providing API Developers with Github Login Using Singly
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/singly-plus-github.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/singly-plus-github.png
 author:
   name: kinlane
 tags:
@@ -15,11 +15,11 @@ To keep it simple I’m offering a login using a [Github](http://www.github.com 
 
 Using [Singly](http://www.singly.com "Singly"), I sign in with my Github account (this is where I got this idea), then I [add a new application](https://singly.com/apps/new), giving it the root URL and callback URL of my API developer area.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/singly/Singly-Application-Github.png)](https://singly.com/apps/new)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/singly/Singly-Application-Github.png)](https://singly.com/apps/new)
 
 Next I need to link up my Github account to my Singly account, by [adding an application to my Github account](https://github.com/settings/applications). I give it a name, URL and when adding the callback, I add a Singly specific callback--Singly will handle the rest.
 
-![](https://s3.amazonaws.com/kinlane-productions2/singly/Github-App-Settings.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/singly/Github-App-Settings.png)
 
 Now I just add a login with Github button to my developer area with the following URL: 
 
@@ -29,6 +29,6 @@ When one of my API developers click on the Github login, it will route them to G
 
 Now I can reference my API developer using their Github account, using their profile image, name as well as having some stats about the user like how many repositories they have, number of followers and who they follow--which provides me a pretty good baseline metric for distinguishing active developers vs. in-active developers.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/kinlane-github.png)](https://github.com/kinlane)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/kinlane-github.png)](https://github.com/kinlane)
 
 Github login should be default for all API providers. It reduces developer on-boarding friction with an API, and uses the social network that makes the most sense for API developers.

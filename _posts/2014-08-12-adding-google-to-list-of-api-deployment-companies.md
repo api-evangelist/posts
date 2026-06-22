@@ -2,7 +2,7 @@
 layout: post
 title: Adding Google To List Of API Deployment Companies
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/google-cloud-platform/google-cloud-platform-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/google-cloud-platform/google-cloud-platform-logo.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ I think Google describes their service better than I can do it justice:
 
 While much of the Google Cloud Platform offering looks a lot like the cloud offering over at Amazon Web Services, AWS definitely does not have API deployment as a service, baked into their cloud stack, like Google does with Google Cloud Endpoints.
 
-![](https://s3.amazonaws.com/kinlane-productions2/google-cloud-platform/google-cloud-endpoints-architecture.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/google-cloud-platform/google-cloud-endpoints-architecture.png)
 
 Google puts an emphasis on API endpoint deployment for mobile purposes, but leaves it open to be used in JavaScript as well—which seems a little limiting, since you could call same endpoints in any language. Oh well, I’m not writing their marketing.
 

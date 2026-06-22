@@ -2,7 +2,7 @@
 layout: post
 title: 'Small Utility APIs: Deck of Cards'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/deck-of-cards.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/deck-of-cards.jpg
 author:
   name: kinlane
 tags:

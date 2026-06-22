@@ -4,7 +4,7 @@ title: >-
   Influencing Important Work Like the UK Open Banking API Standard Is Why I Do
   This
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/data-sharing-and-open-data-for-banks.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/data-sharing-and-open-data-for-banks.png
 author:
   name: kinlane
 tags:

@@ -2,14 +2,14 @@
 layout: post
 title: Widget Builder Environment for APIs
 url: http://apievangelist.com/2011/06/22/widget-builder-environment-for-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Environment
   - APIs
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/apigee-api-console.jpg)](http://apigee.com/about/products_togo.html "Apigee Console")There are many tools out there for working with Web APIs, but the one I am seeing used more and more is an API explorer. API explorers allow users to make calls and explore REST APIs using a Web interface -- all without writing code.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apigee-api-console.jpg)](http://apigee.com/about/products_togo.html "Apigee Console")There are many tools out there for working with Web APIs, but the one I am seeing used more and more is an API explorer. API explorers allow users to make calls and explore REST APIs using a Web interface -- all without writing code.
 
 These [API explorers](http://apievangelist.com/2011/03/24/explorers-open-api-access-beyond-developers/ "API explorers") are making it a lot easier for developers to discover, learn, and integrate with Web APIs. I also think they have a lot more potential, beyond the developer community.
 
@@ -26,7 +26,7 @@ An API widget builder would have similar features to the [Integrated Development
 *   **Github Integration** - Allow adding and connecting to both private and public Github repositories
 kinlane-productions2.s3.amazonaws.com
 
-[![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/wolfram-alpha/wolfram-alpha-widget-builder.png)](http://developer.wolframalpha.com/widgetbuilder/ "WolframAlphas widget builder")Then I would add a new layer to the environment:
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/wolfram-alpha/wolfram-alpha-widget-builder.png)](http://developer.wolframalpha.com/widgetbuilder/ "WolframAlphas widget builder")Then I would add a new layer to the environment:
 
 *   **Widget Builder** - Provide tools for widget discovery, creation, connecting to APIs, configuration, sandbox, and copy / paste embeddable code for syndication.
 *   **Export Tools** - Ability to export any API responses to Google Spreadsheet, Microsoft Excel, Comma Separate or Tab Separated values.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My New API For Asking Questions Of APIs - The Swagger Edition
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-question-mark.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-question-mark.png
 author:
   name: kinlane
 tags:

@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Patent US9462011: Determining trustworthiness of API requests'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-patent-algorithms.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-patent-algorithms.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-patent-algorithms.png" align="right" width="20%" style="padding: 20px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-patent-algorithms.png" align="right" width="20%" style="padding: 20px;" />
 <p>I’m always fascinated by the patents that get filed related to APIs. Most just have an API that is part of the equation, but some of the patents are directly for an API process. It’s no secret that I’m a patent skeptic. I’m not anti-patent, I just think the process is broken when it comes to the digital world, and specifically when it comes to APIs and interoperability. Here is one of those API patents that show just how broken things are:
 
 <p>Title: <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&amp;Sect2=HITOFF&amp;p=1&amp;u=/netahtml/PTO/search-bool.html&amp;r=1&amp;f=G&amp;l=50&amp;d=PALL&amp;RefSrch=yes&amp;Query=PN/9462011">Determining trustworthiness of API requests based on source computer applications’ responses to attack messages</a>

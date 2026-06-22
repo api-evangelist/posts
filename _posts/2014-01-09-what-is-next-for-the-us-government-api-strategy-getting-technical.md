@@ -2,7 +2,7 @@
 layout: post
 title: What Is Next For The US Government API Strategy, Getting Technical
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Building-a-21st-century-platform-to-better-serve-the-american-people-1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Building-a-21st-century-platform-to-better-serve-the-american-people-1.png
 author:
   name: kinlane
 tags:

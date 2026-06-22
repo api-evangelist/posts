@@ -2,7 +2,7 @@
 layout: post
 title: Paid Version of Google Translate API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-Google-Translate.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-Google-Translate.png
 author:
   name: kinlane
 tags:

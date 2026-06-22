@@ -4,7 +4,7 @@ layout: post
 title: >-
   Selling Your Digital Goods In Amazon.com Where Amazon Uses Your API To
   Purchase
-image: https://s3.amazonaws.com/kinlane-productions2/amazon/amazon-instant-access.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/amazon-instant-access.png
 author:
   name: kinlane
 tags:

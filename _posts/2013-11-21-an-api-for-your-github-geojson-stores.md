@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An API For Your Github GeoJSON Stores
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/git-spatial-2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/git-spatial-2.png
 author:
   name: kinlane
 tags:

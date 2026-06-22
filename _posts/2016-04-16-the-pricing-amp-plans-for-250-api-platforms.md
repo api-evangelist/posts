@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Pricing &amp; Plans For 250 API Platforms
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-250-pricing-and-plan-pages.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-evangelist-250-pricing-and-plan-pages.png
 author:
   name: kinlane
 tags:

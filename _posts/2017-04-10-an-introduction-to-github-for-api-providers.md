@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Introduction To Github For API Providers
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/github_guides.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/github_guides.png
 atomdate: 2017-04-10 22:00:00+00:00
 tags:
 - Github

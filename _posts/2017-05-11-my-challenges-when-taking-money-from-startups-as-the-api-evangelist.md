@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Challenges When Taking Money From Startups As The API Evangelist
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/desert_dragon_light_dali.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/desert_dragon_light_dali.jpg
 atomdate: 2017-05-11 19:00:00+00:00
 tags:
 - API Evangelist

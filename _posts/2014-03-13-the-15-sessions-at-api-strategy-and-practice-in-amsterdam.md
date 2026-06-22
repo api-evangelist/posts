@@ -2,7 +2,7 @@
 layout: post
 title: The 15 Sessions At API Strategy And Practice in Amsterdam
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-vertical.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/events/api-strategy-practice-vertical.jpg
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I think our lineup delivers on this, which we've broken up into three tracks:
 
 **API Provider**
 
-![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/apistrat-sf-audience.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/apistrat-sf-audience.jpg)
 
 *   Design and Development
 *   Service Descriptions
@@ -24,7 +24,7 @@ I think our lineup delivers on this, which we've broken up into three tracks:
 
 **API By Industry**
 
-![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/apistrat-daniel-adam.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/apistrat-daniel-adam.jpg)
 
 *   Media, Music and Audio APIs
 *   Civic APIs

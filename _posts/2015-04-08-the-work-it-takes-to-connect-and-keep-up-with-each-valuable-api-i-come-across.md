@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Work It Takes To Connect And Keep Up With Each Valuable API I Come Across
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-pulling.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-pulling.png
 author:
   name: kinlane
 tags:

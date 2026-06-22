@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Catching My Breath On My API Monetization Ramblings Before I Enter Into Some New Conversations
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gears-questions.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-gears-questions.png
 author:
   name: kinlane
 tags:

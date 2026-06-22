@@ -2,7 +2,7 @@
 layout: post
 title: I See An Opportunity In Paying Attention To Other Types Of APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/infolytica-motorsolve.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/infolytica-motorsolve.png
 author:
   name: kinlane
 tags:

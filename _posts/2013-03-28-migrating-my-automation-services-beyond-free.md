@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Migrating My Automation Services Beyond Free
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/IFTTT-logo.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/IFTTT-logo.jpeg
 author:
   name: kinlane
 tags:

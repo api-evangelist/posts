@@ -2,7 +2,7 @@
 layout: post
 title: Jumpstarting The API Conversation Using Prototypes
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/ed/fafsa-form.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/federal-government/ed/fafsa-form.jpg
 author:
   name: kinlane
 tags:

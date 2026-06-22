@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: API Stack, APIs.io, And APIs.Guru Need You To Create And Share Your API Definitions
-image: https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-icon.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-commons/api-commons-icon.png
 author:
   name: kinlane
 tags:

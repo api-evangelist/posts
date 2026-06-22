@@ -2,7 +2,7 @@
 layout: post
 title: I Will Be Speaking At APIDays In Berlin Next Week
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-days-berlin/apidays-berlin.png
+  https://kinlane-images.s3.amazonaws.com/shared/events/api-days-berlin/apidays-berlin.png
 author:
   name: kinlane
 tags:

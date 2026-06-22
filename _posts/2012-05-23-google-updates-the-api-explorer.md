@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Updates the API Explorer
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Google-API-Explorer-v2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Google-API-Explorer-v2.png
 author:
   name: kinlane
 tags:

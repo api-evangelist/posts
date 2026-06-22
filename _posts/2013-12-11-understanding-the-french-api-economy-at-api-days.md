@@ -2,7 +2,7 @@
 layout: post
 title: Understanding the French API Economy At API Days
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-days-logo.jpeg
 author:
   name: kinlane
 tags:

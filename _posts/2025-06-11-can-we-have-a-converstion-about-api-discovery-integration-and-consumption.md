@@ -8,7 +8,7 @@ tags:
   - Discovery
   - Integration
   - Consumption
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-seattle-shipping-people-walking.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-seattle-shipping-people-walking.jpg
 ---
 As we work to build Naftiko, we are interested in talking with people about what they are facing when it comes to putting APIs to work. Throughout the summer we will be having conversations with people we know, and hopefully many people we do not know about what they face when it comes to API integration  and consumption at scale. We are looking to understand the business and technical challenges everyone is facing when it comes to the consumption of any APIs and data currently, or as part of recent work.
 

@@ -2,14 +2,14 @@
 layout: post
 title: How Do I Convince My Managers of the Importance of Having Internal APIs?
 url: http://apievangelist.com/2011/10/25/how-do-i-convince-my-managers-of-the-importance-of-having-internal-apis/
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/puzzle-apis-decoupling.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/puzzle-apis-decoupling.jpg
 author:
   name: kinlane
 tags:
 - Internal
 - APIs
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/puzzle-apis-decoupling.jpg)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/puzzle-apis-decoupling.jpg)
 
 One of the ways I develop content for this site is by talking through my day to day experiences as an API Evangelist. I feel that talking through what I’m learning in real-time, is the best way to make it stick, while also sharing with the public. There is a lot of value that comes out of my daily learning, and it would be wrong to not share this.
 
@@ -26,7 +26,7 @@ When trying to sell your bosses on APIs for internal use, I would start with:
 *   **Organization Interoperability** - APIs enable much more flexible collaboration between different departments that may be geographically or organizational distant. With a growing virtual workforce, this type of interoperability will be key to companies being able to staff up and meet the demands of their growing businesses.
 *   **Multi-Use** - APIs will enable your companies resources and data to be used across multiple implementations from internal applications, websites, mobile and tablet devices without building out separate systems.
 
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/blueprints.jpg)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/blueprints.jpg)
 
 That is where I’d start with selling colleagues and managers on the importance of having internal APIs. APIs can introduce flexibility and agility not only into your IT and development operations, but also introduce a [RESTful business architecture](/2011/04/09/restful-business-architecture/ "RESTful Business Architecture") into your company.
 

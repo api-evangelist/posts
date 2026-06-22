@@ -2,7 +2,7 @@
 layout: post
 title: Defining API Surface Area By Converting HTML Forms To Open API Specs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/USGS_Groundwater_Levels_REST_Web_Service_URL_Generation_Tool.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/USGS_Groundwater_Levels_REST_Web_Service_URL_Generation_Tool.png
 atomdate: 2016-09-08T16:00:00.000Z
 tags:
   - Forms

@@ -3,7 +3,7 @@ layout: post
 title: 'Ryan Sarver at the Mashery Business of APIs Conference'
 source: http://apievangelist.com/2011/10/06/ryan-sarver-at-the-mashery-business-of-apis-conference/
 domain: apievangelist.com
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/ryan_sarver_twitter.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ryan_sarver_twitter.jpg
 ---
 
 <p>A video of the fireside chat with Twitter Director of Platform Ryan Sarver at the Mashery Business of APIs conference in San Francisco this month.  Some interesting insight into Twitters approach to managing their API and its 750K developers, 1.1 M registered apps and 15 Billion API requests per day.</p>

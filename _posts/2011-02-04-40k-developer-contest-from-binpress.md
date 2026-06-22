@@ -1,7 +1,7 @@
 ---
 layout: post
 title: $40K Developer Contest from Binpress
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -9,7 +9,7 @@ tags:
 ---
 [Binpress](http://www.binpress.com/) is a [marketplace](http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=130) for code, where software developers can buy and sell source code from each other. And it's [holding a developer contest](http://www.binpress.com/contest).
 
-Binpress is looking for high quality code from professional developers thatkinlane-productions2.s3.amazonaws.comhed in the Binpress marketplace. [![](http://kinlane-productions.s3.amazonaws.com/contests/binpress-programming-contest.png)](http://www.binpress.com/contest) Prizes include:
+Binpress is looking for high quality code from professional developers thatkinlane-productions2.s3.amazonaws.comhed in the Binpress marketplace. [![](https://kinlane-images.s3.amazonaws.com/apievangelist/contests/binpress-programming-contest.png)](http://www.binpress.com/contest) Prizes include:
 
 *   Grand Prizes of $17,000
 *   Two Runner Up Prizes of $13,000

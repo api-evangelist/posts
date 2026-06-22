@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'The ElasticSearch Security APIs'
-image: https://s3.amazonaws.com/kinlane-productions2/elastic-search/elasticsearch-security-apis.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/elastic-search/elasticsearch-security-apis.png
 ---
 
-<p><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/security-api.html"><img src="https://s3.amazonaws.com/kinlane-productions2/elastic-search/elasticsearch-security-apis.png" align="right" width="40%" style="padding: 15px;" /></a>
+<p><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/security-api.html"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/elastic-search/elasticsearch-security-apis.png" align="right" width="40%" style="padding: 15px;" /></a>
 <p>I was looking <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/security-api.html">at the set of security APIs over at Elasticsearch</a> as I was diving into my API security research recently. I thought the areas they provide security APIs for the search platform was worth noting and including in not just my API security research, but also <a href="http://search.apievangelist.com">search</a>, deployment, and probably overlap with <a href="http://authentication.apievangelist.com">my authentication research</a>.
 
 <ul>

@@ -9,7 +9,7 @@ tags:
   - Rules
   - Functions
   - JSON Schema
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-shipping-container-yard-police-boat.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-shipping-container-yard-police-boat.jpg
 ---
 The first thing that comes to mind after evaluating the default rulesets for both [Spectral](https://apievangelist.com/2025/03/14/evaluating-the-default-spectral-api-governance-ruleset/) as well as [Vacuum](https://apievangelist.com/2025/03/14/evaluating-the-default-doctor-and-vacuum-api-governance-ruleset/), is that a naming convention for rules is needed. There is no consistency within each provider's approach, let alone across providers. I’ve noticed that each approach to standardizing API governance rules is more of a simple JSON or YAML configuration, than it is ever meant to be a standard—ironic, but representative of the state of API governance in general. To help drive conversation and fuel my own work, I’d like to propose we standardize the slugified naming of our API governance rules in the following ways.
 

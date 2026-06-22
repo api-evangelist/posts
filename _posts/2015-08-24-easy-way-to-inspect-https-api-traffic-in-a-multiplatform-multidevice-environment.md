@@ -4,7 +4,7 @@ title: >-
   Easy Way to Inspect HTTP(S) API Traffic in a Multi-platform, Multi-device
   Environment
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mitmproxy-long.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mitmproxy-long.png
 author:
   name: kinlane
 tags:

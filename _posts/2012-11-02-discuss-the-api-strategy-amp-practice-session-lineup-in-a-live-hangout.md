@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Discuss the API Strategy &amp; Practice Session Lineup in a Live Hangout
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-conference-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/api-strategy-conference-logo.png
 author:
   name: kinlane
 tags:

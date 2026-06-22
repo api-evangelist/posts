@@ -9,7 +9,7 @@ tags:
   - Playgrounds
   - Explorers
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-border-crossing-through-fence.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-border-crossing-through-fence.jpg
 ---
 [We dedicated time recently to map out a high-level overview of what API producers offer to make onboarding and integration easier for API consumers](https://apievangelist.com/2025/01/12/api-openapi-collections-docs-explorer-playground-clients-sdks-and-integrations/). We analyzed the distribution and adoption of third-party APIs by documenting the producer and consumer perspectives across key elements: APIs, OpenAPI specifications, Collections, Documentation, Explorers, Playgrounds, SDKs, and Integrations. Our goal was to understand the motivations of both API producers and consumers, identifying what is essential for effectively leveraging APIs. From this research, we aimed to answer a straightforward question: as an API producer, should we invest in SDKs, or is there a baseline set of resources our consumers will require?
 

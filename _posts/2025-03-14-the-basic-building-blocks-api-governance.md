@@ -11,7 +11,7 @@ tags:
 - JSON Schema
 - Rules
 - JSON Path
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/braceros-domingo-ulloa-new-and-old-building.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-new-and-old-building.jpeg
 ---
 The API Evangelist vision of API governance is a much more bottom tactical approach which can be aligned with enterprise business or engineering strategy, as well as centralized or federated approaches, but always centers on education, literacy, and guidance around the basic building blocks teams will need to be successful, no matter what the strategy is in any given moment within an enterprise. These are the basic building blocks of API governance that are standards-based and separate from any single commercial service or open-source tooling that you will be using as part of API operations.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Working Toward An API Definition Driven, SEO, and Section 508 Compliant API Documentation Interface
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-section-508.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-section-508.png
 author:
   name: kinlane
 tags:

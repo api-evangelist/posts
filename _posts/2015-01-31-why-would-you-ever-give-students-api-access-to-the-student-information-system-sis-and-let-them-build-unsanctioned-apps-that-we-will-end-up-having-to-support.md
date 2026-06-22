@@ -4,7 +4,7 @@ title: >-
   Why Would You Ever Give Students API Access To The Student Information System
   (SIS), And Let Them Build Un-Sanctioned Apps That We Will End Up Having To
   Support?
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

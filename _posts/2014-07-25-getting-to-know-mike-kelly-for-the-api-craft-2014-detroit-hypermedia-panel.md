@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Getting To Know Mike Kelly For The API Craft 2014 Detroit Hypermedia Panel '
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/profile/logos/mike-kelly.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/profile/logos/mike-kelly.jpeg
 author:
   name: kinlane
 tags:

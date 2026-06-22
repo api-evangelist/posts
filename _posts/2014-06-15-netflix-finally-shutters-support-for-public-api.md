@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Netflix Finally Shutters Support For Public API
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/netflix/netflix-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/netflix/netflix-logo.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Interesting Example of Social Page Over At Cisco
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/cisco/cisco-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/cisco/cisco-logo.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ Its not often I find myself referencing Cisco when it comes to shedding light on
 
 At some point yesterday, I found myself at cisco.com, and I stumbled across their [social page](http://socialmedia.cisco.com/), which gives equal real estate to their blog, Facebook, Twitter, Google+ and Youtube channel, as well as highlights from their community forum.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/cisco/cisco-social-page.png)](http://socialmedia.cisco.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/cisco/cisco-social-page.png)](http://socialmedia.cisco.com/)
 
 I like the idea of having a page like this for API providers. It helps you establish a single page, that can act as a one-stop shop for getting information about what is going on within an API community.
 

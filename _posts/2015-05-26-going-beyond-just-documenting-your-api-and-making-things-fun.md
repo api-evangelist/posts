@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Going Beyond Just Documenting Your API, And Making Things Fun
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-spotify-png.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-spotify-png.png
 author:
   name: kinlane
 tags:

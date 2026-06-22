@@ -9,7 +9,7 @@ tags:
   - OpenAPI
   - AsyncAPI
   - Trust
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-docks-ships-cranes.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-docks-ships-cranes.jpg
 ---
 There is lots of renewed energy around API discovery latetly, but this round is in service of Agentic AI automation. There is a lot of speculation surrounding Anthropic’s release of an MCP Registry, and how it can once and for all solve this pesky problem. Bruno Pedro’s newsletter recently has been dedicated to this subject, exploring what an OpenAPI registry can bring to the table, and even the role APIs.json plays or doesn’t play in the conversation. He said something at the top of his latest issue about the importance of an OpenAPI registry that gets at the heart of why we haven’t cracked this one for me.
 

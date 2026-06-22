@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apigee API Console is Now Free for Everyone to Use
-image: https://kinlane-productions2.s3.us-east-1.amazonaws.com/apigee/apigee-api-console.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/apigee/apigee-api-console.png
 author:
   name: kinlane
 tags:

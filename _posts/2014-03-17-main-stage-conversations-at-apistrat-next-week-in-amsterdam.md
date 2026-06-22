@@ -2,7 +2,7 @@
 layout: post
 title: 'Main Stage Conversations At #APIStrat Next Week in Amsterdam'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-vertical.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/events/api-strategy-practice-vertical.jpg
 author:
   name: kinlane
 tags:

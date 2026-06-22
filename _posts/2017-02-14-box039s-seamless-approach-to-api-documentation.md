@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Box&#039;s Seamless Approach To API Documentation
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_13_at_10.20.02_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_02_13_at_10.20.02_pm.png
 author:
   name: kinlane
 tags:

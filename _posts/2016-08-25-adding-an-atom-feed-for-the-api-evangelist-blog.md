@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding An Atom Feed For The API Evangelist Blog
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-atom-feed.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-atom-feed.png
 atomdate: 2016-08-25T16:00:00.000Z
 tags:
   - API Evangelist

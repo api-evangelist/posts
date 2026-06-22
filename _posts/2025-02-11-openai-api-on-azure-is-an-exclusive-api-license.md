@@ -8,7 +8,7 @@ tags:
   - Licenses
   - Legal
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/stalin-time-flag-police-car.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-flag-police-car.jpeg
 ---
 The topic of [API copyright was top of mind for most of the time between 2010 and 2020 due to the Oracle vs Google API copyright case](https://apievangelist.com/2021/04/13/My-oracle-vs-google-api-copyright-journey/). That was settled in early 2021 with APIs being copyrightable now the law of the land in the United States. Honestly it really didn’t change much, as most companies saw the naming and ordering of their APIs as something that is proprietary and their secret sauce despite convincing hundreds or thousands of developers to bake it into their application. This left us believing that API copyright doesn’t really matter, and that the API copyright debate would come down to who would litigate in defense of their APIs, which is something we see beginning to unfold in the artificial intelligence space in a couple of dimensions of the often obfuscated realm.
 

@@ -2,7 +2,7 @@
 layout: post
 title: APITools Raises The Bar With Open, On-Premise API Testing and Monitoring Tools
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-tools/api-tools-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-tools/api-tools-logo.jpeg
 author:
   name: kinlane
 tags:

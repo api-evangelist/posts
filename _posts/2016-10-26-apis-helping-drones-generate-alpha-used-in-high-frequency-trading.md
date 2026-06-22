@@ -2,7 +2,7 @@
 layout: post
 title: APIs Helping Drones Generate Alpha Used In High Frequency Trading
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/gamaya_agriculture_analytics.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/gamaya_agriculture_analytics.png
 atomdate: 2016-10-26T22:00:00.000Z
 tags:
   - Drones

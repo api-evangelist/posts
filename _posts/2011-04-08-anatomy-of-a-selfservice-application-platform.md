@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anatomy of a Self-Service Application Platform
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ In addition to the [growth in number of APIs](http://apievangelist.com/2011/03/0
 
 Platforms such as [Google Apps](http://apievangelist.com/2011/04/08/google-apps-marketplace/ "Google Apps") and Box.net are adding these self-service application development environments within their API ecosystem.
 
-Each platform has its own approach to this type of self-service architecture, but there are many similar characteristics:![](http://kinlane-productions.s3.amazonaws.com/self-service.jpg)
+Each platform has its own approach to this type of self-service architecture, but there are many similar characteristics:![](https://kinlane-images.s3.amazonaws.com/apievangelist/self-service.jpg)
 
 *   **Applications** - Interface for defining new application characteristics.
 *   **OpenID / OAuth / User Resource Access** - Secure and granular access to users profile and resources.

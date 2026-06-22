@@ -11,7 +11,7 @@ tags:
   - Open Source
   - Agents
   - AI
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-old-piano-playing-hospital.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-old-piano-playing-hospital.jpg
 ---
 I spend a lot of my time on the consuming end of API keys—banging my head against the wall of how every API provider handles the issuing, verifying, and managing of credentials differently. So when I come across a tool that takes the producing side of that equation seriously, I pay attention. [Ory Talos](https://github.com/ory/talos) is an open source API key management server from the [Ory](https://www.ory.sh/) team, built for issuing, verifying, and managing API keys at scale—for users, for services, for machine-to-machine communication, and increasingly for AI agents.
 

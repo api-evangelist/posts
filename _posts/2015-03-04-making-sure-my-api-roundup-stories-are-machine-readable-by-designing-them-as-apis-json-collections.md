@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Making Sure My API Roundup Stories Are Machine Readable By Designing Them As APIs.json Collections
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-collection.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-collection.png
 author:
   name: kinlane
 tags:
@@ -19,6 +19,6 @@ For each API I profile, it is valuable to have a nice logo, name, short descript
 
 I’m using APIs.json in two ways, as an index for each API, as well as an index for the overall collection I’m building--you will find the overall collection using the big {A} below, and each API has its own little {A}. To show you this in action, here is an [SMS API collection](http://sms.apievangelist.com/) I've built:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-icon.png)](http://sms.apievangelist.com/apis.json "Collection APIs.json") ![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png)
+[![](https://kinlane-images.s3.amazonaws.com/shared/api-commons/api-commons-icon.png)](http://sms.apievangelist.com/apis.json "Collection APIs.json") ![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png)
 
 SMS API Stack

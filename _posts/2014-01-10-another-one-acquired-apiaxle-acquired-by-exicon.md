@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Another One Acquired: ApiAxle Acquired By Exicon'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiaxle-logo-2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apiaxle-logo-2.png
 author:
   name: kinlane
 tags:

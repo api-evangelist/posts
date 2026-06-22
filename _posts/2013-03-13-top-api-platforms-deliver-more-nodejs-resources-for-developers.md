@@ -2,7 +2,7 @@
 layout: post
 title: Top API Platforms Deliver More Node.js Resources for Developers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/node-js-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/node-js-logo.png
 author:
   name: kinlane
 tags:

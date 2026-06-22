@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Private Internal Tier Of My API Service Composition
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-windows.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-windows.jpg
 author:
   name: kinlane
 tags:

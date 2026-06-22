@@ -2,7 +2,7 @@
 layout: post
 title: API Contests and Challenges
 url: http://apievangelist.com/2011/01/01/api-contests-and-challenges/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

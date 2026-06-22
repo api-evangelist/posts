@@ -2,7 +2,7 @@
 layout: post
 title: Giving Thanks To The Open Source Software Gods
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/flowdock/flowdock-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/flowdock/flowdock-logo.png
 author:
   name: kinlane
 tags:

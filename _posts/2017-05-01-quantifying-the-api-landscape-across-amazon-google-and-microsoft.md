@@ -2,7 +2,7 @@
 layout: post
 title: Quantifying The API Landscape Across Amazon, Google, and Microsoft
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/microsoft_graph_api_surface.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/microsoft_graph_api_surface.png
 atomdate: 2017-05-01T16:00:00.000Z
 tags:
   - Landscape

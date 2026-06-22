@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: APIs.json As A Distributed Transport Layer For The API Economy
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-economy-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-economy-api.png
 author:
   name: kinlane
 tags:

@@ -10,7 +10,7 @@ tags:
   - Artificial Intelligence
   - AI
   - Guidance
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-under-the-west-side-highway.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/america-under-socialism-under-the-west-side-highway.jpeg
 ---
 I see two distinct types of API governance unfolding within enterprises who view their operational culture and their workforce having different levels of understanding and respect for leadership. I get asked to come in and provide advice, guidance, and even enforcement of API governance, and once you begin to ask a few questions about their current understanding of what API governance is and what business or engineering would like to accomplish with API governance--you can usually put enterprises into two very different approaches to governing the API sprawl that has emerged across your average enterprise in 2025.
 

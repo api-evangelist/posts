@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Swagger API Definition Mapper
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swaggerLogo360.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/swaggerLogo360.png
 author:
   name: kinlane
 tags:

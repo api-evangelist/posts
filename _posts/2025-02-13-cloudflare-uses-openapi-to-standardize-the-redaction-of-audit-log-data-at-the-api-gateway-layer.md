@@ -8,7 +8,7 @@ tags:
   - Gateways
   - OpenAPI
 image: >-
-  https://kinlane-productions2.s3.us-east-1.amazonaws.com/cloudflare/cloudflare-api-gateway-openapi-redactor.webp
+  https://kinlane-images.s3.amazonaws.com/apievangelist/cloudflare/cloudflare-api-gateway-openapi-redactor.webp
 ---
 [Cloudflare has a great story about how they handle API audit logging at the API gateway layer](https://blog.cloudflare.com/introducing-automatic-audit-logs/). It is a good read even if you aren’t a Cloudflare customer. What caught our attention was specifically how they are using the OpenAPI specification to redact data as part of their audit data pipeline. [We have covered other ways of extending the OpenAPI specification in support of GDPR and flagging PII](https://apievangelist.com/2024/02/24/twilio-uses-a-pii-openapi-extension-on-their-api/), but Cloudflare introduces a compelling approach to standardizing the customization of audit log redaction across teams.
 

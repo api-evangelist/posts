@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Developer Portal Checklist For A Human Services API
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_01_at_9.03.53_pm.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_01_at_9.03.53_pm.png
 atomdate: 2017-03-02 17:00:00+00:00
 tags:
 - Human Services

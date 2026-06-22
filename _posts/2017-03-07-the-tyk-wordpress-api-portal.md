@@ -2,7 +2,7 @@
 layout: post
 title: The Tyk Wordpress API Portal
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_05_at_6.44.14_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_05_at_6.44.14_pm.png
 atomdate: 2017-03-07T20:00:00.000Z
 tags:
   - Portal

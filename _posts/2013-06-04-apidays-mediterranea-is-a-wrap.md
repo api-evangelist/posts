@@ -1,7 +1,7 @@
 ---
 layout: post
 title: APIdays Mediterranea Is A Wrap
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-editerranea-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-days-editerranea-logo.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ While at API Days I got to hang out with many of the usual suspects Andy Thurai 
 
 I also had the opportunity to re-enforce some existing relationships in person, with Isabelle Mauny of [WSO2](http://wso2.com "API Management"), Jeremiah Lee a UX researcher from SF and Eduardo Basterrechea and Elena Alvarez of [Apicultur](http://www.apicultur.com/en/).
 
-[![](https://s3.amazonaws.com/kinlane-productions2/kin-lane/kin-lane-api-days-spain.jpg)](http://mediterranea.apidays.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/kin-lane-api-days-spain.jpg)](http://mediterranea.apidays.io/)
 
 API Days Mediterranea was a great introduction to the API innovation occurring in Spain, and a great opportunity to have conversations with companies and developers from the region, and hear the challenges they face in getting the word out about APIs in their country.
 

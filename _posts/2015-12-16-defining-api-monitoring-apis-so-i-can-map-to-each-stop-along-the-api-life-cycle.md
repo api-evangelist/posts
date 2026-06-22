@@ -3,7 +3,7 @@ layout: post
 title: >-
   Defining API Monitoring APIs So I Can Map To Each Stop Along The API Life
   Cycle
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-heart-monitor.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-heart-monitor.png
 author:
   name: kinlane
 tags:

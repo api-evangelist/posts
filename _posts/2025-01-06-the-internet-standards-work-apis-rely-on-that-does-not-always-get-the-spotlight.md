@@ -8,7 +8,7 @@ tags:
   - HTTP
   - IETF
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-fixing-satellite-2.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-fixing-satellite-2.jpeg
 ---
 After [posting a sarcastic comment on people’s ability to be distracted by new technology instead of being aware of and doing the hard work to improve the ubiquitous and dominant HTTP API work on the table](https://www.linkedin.com/feed/update/urn:li:activity:7280941018164654080/), API veteran Darrel Miller posted a nice list of links to interesting Internet standards work that is happening. This list represents foundational work on Internet standards that often goes overlooked by the regular Silicon Valley spotlight, but is what will actually provides the foundation for the future of APIs and Internet powered technology.
 

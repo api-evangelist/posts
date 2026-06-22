@@ -3,7 +3,7 @@ layout: post
 title: >-
   What Do I Mean When I Say APIs Are Just The Next Step In The Evolution Of The
   Web?
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -22,11 +22,11 @@ According to their own description the [Global Change Information System](https:
 
 For me the Global Change Information System is an example of how websites, linked data, and APIs should work in concert, but is something I understand very little about how to actually do. The _GCIS_ platform organizes an amazing amount of information, all the people, organizations, and relationships involved, in a very elegant way-you can start seeing in action by browsing the database, by clicking on the menu in top left corner.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/global-change-information-system/gcis-api-report-view.png)](https://data.globalchange.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/global-change-information-system/gcis-api-report-view.png)](https://data.globalchange.gov/)
 
 Immediately I notice how structured everything, then as I scroll to bottom I see that everything is available in a machine readable format. What is even cooler, is that it isn’t just available as JSON, you get it in YAML, Turtle, RDF, and some formats I’m not familiar with. Then of course, you get a robust, yet simple web API as well.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/global-change-information-system/gcis-api-reference.png)](https://data.globalchange.gov/api_reference)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/global-change-information-system/gcis-api-reference.png)](https://data.globalchange.gov/api_reference)
 
 I’m impressed with the amount of detail available in the Global Change Information System, and the amount thought put into the relationships between all the information, and actors involved. It makes me optimistic for what can come out of government, and that something so forward thinking is being applied to an area as import as the environment.
 

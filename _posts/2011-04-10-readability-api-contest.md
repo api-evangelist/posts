@@ -2,7 +2,7 @@
 layout: post
 title: Readability API Contest
 url: http://apievangelist.com/2011/04/10/readability-api-contest/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -10,7 +10,7 @@ tags:
 - APIs
 - Evangelism
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/readability-logo.png "Readability")Readability is having a contest encouraging developers to build innovative reading applications using the [Readability API](https://www.readability.com/publishers/api "Readability API").
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/readability-logo.png "Readability")Readability is having a contest encouraging developers to build innovative reading applications using the [Readability API](https://www.readability.com/publishers/api "Readability API").
 
 *   Contest Starts: 4/6/2011
 *   Submission Deadline: 5/5/2011

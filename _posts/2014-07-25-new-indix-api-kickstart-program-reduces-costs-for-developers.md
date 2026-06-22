@@ -2,7 +2,7 @@
 layout: post
 title: New Indix API KickStart Program Reduces Costs For Developers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/indix/indix-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/indix/indix-logo.png
 author:
   name: kinlane
 tags:

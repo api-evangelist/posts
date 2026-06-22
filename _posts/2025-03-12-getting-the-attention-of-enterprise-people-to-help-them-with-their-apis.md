@@ -8,7 +8,7 @@ tags:
   - Storytelling
   - Feedback Loops
   - Education
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-big-seven.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-big-seven.jpeg
 ---
 Getting the attention of people who are doing APIs within enterprises is not easy. I would say that I do pretty well getting people to tune in for brief moments, but it is something that is more art than science. People who work within enterprises on APIs don’t always have the time, bandwidth, interest, and incentive to tune into what is happening outside their enterprise, and when they do, there are numerous channels to tune into depending on their age, role, and multiple other dimensions. While I don’t have sales quotas to meet or other GTM metrics to satisfy, I enjoy the game of trying to capture the attention of new folks as well as keeping the attention of people who regularly disappear and pull back because of their day to day work expectations, with a few considerations.
 

@@ -14,7 +14,7 @@ tags:
   - Editor
   - Support
   - Descriptions
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/leaflets-of-the-russian-revolution-hollywood-sign-with-tower.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/leaflets-of-the-russian-revolution-hollywood-sign-with-tower.jpg
 ---
 One of the reasons [I recommend my customers use a simple OpenAPI governance editor](https://apievangelist.com/2025/04/16/a-simple-api-governance-editor-for-openapi-and-spectral/) created by the [Italian government](https://github.com/italia/api-oas-checker/blob/master/README.en.md) is that it provides an opportunity to customize and make the linting of OpenAPI using Spectral rules something seamless with enterprise operations. The approach to building an OpenAPI linter using Monaco Editor and React then using Spectral to lint the OpenAPI using rules provides the following ways to provide inline guidance for teams who are looking to standardize their APIs.
 

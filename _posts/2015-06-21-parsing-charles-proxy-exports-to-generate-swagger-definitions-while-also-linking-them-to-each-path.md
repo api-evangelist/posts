@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Parsing Charles Proxy Exports To Generate Swagger Definitions, While Also Linking Them To Each Path
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/charles-proxy-to-swagger.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/charles-proxy-to-swagger.png
 author:
   name: kinlane
 tags:

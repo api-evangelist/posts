@@ -9,7 +9,7 @@ tags:
   - Teams
   - Workers
   - People
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/american-dream-fundamental-marketplace-people.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/american-dream-fundamental-marketplace-people.jpg
 ---
 As I was reading the [Study of Man Adjusting Men to Machines](https://www.commentary.org/articles/daniel-bell-2/the-study-of-man-adjusting-men-to-machines/) I kept thinking about how API governance is actually about people, despite the focus on the technical details of the design of APIs. I think that API operations has replaced the older concept of the factory, but much of what applied in the 1940s when it comes to understanding workers within the factor applies to our API operations.
 

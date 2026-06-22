@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Make Sure You Are At API Strategy &amp; Practice in February
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-strategy-conference-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-strategy-conference-logo.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ I'm rebooting the marketing and PR for the [API Strategy & Practice conference](
 
 We had a whole bunch of new requests for speaker additions over the holidays, and while we tried to squeeze in where we could, with such a killer lineup and the fact that everyone was committed to the new dates, we had to decline some pretty good talks.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-home-1.png)](http://www.apistrategyconference.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/api-strategy-home-1.png)](http://www.apistrategyconference.com/)
 
 Over the next week we are going through and confirming with all registered attendees to verify they will be attending, but since the event was sold out before hurricane Sandy, I expect we will be announcing the event as sold out pretty soon.
 

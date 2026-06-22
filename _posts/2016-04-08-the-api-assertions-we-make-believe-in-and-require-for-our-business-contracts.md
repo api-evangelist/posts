@@ -2,7 +2,7 @@
 layout: post
 title: The API Assertions We Make, Believe In, And Require For Our Business Contracts
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API_Evangelist_Blog_-_DHC_by_Restlet.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/API_Evangelist_Blog_-_DHC_by_Restlet.png
 tags:
   - Business
   - Contracts
@@ -15,7 +15,7 @@ Every couple of weeks I spend an hour or two talking with Jerome Louvel ([@jlouv
 
 While I was playing with DHC, making some calls to my blog API, I kept being pulled down to the bottom tab, below my API response information, where there are tabs for history, assertions, HTTP, and docs. While the API request and response is very technical, at the bottom of the DHC client, I see elements of the business and politics of APIs.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API_Evangelist_Blog_-_DHC_by_Restlet.png)](https://restlet.com/products/dhc/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/API_Evangelist_Blog_-_DHC_by_Restlet.png)](https://restlet.com/products/dhc/)
 
 For me, the features Restlet has exposed as tabs in the DHC footer, resemble how APIs are acting as business contracts. The docs represents the contract language, the HTTP tab is the details of the exchange, assertions are what is expected of the contract, and history is the recording of the contracted exchange (or lack of). What keep pulling my eyes to the bottom of the screen in DHC was the concept of assertions, which the dictionary says is:
 

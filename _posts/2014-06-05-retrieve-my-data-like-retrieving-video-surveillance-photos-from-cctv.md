@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Retrieve My Data Like Retrieving Video Surveillance Photos From CCTV
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-surveillance-camera.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-surveillance-camera.jpg
 author:
   name: kinlane
 date: 2014-06-05 00:44:26+00:00

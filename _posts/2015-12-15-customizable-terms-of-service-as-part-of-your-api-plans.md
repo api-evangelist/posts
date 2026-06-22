@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Customizable Terms of Service As Part Of Your API Plans
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-terms-conditions.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-terms-conditions.png
 author:
   name: kinlane
 tags:

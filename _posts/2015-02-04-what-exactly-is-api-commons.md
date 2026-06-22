@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Exactly Is API Commons?
-image: https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-commons/api-commons-logo.png
 author:
   name: kinlane
 tags:

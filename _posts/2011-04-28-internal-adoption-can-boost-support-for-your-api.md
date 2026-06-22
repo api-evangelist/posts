@@ -3,7 +3,7 @@ layout: post
 title: Internal Adoption Can Boost Support for your API
 url: >-
   http://apievangelist.com/2011/04/28/internal-adoption-can-boost-support-for-your-api/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
   - Internal
   - Adoption
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/internal-business-users.jpg)When it comes to APIs, and who uses them, we often think about partners. Sharing data and resources with partners has long been the number one reason for deploying APIs.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/internal-business-users.jpg)When it comes to APIs, and who uses them, we often think about partners. Sharing data and resources with partners has long been the number one reason for deploying APIs.
 
 With the increased popularity of web APIs, many companies are opening up their APIs to the general public and freelance developers as well.
 

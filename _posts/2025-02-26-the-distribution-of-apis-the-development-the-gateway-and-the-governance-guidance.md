@@ -9,7 +9,7 @@ tags:
   - Gateways
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-docks-oakland-6.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-docks-oakland-6.jpeg
 ---
 There are many ways teams producing APIs talk past each other. Is this an internal, 1st-party, or 3rd-party API, because what needs to be discussed will vary widely. Is this an existing API or a new API, because the conversation will be very different. Is this a code-first or design-first approach, because the conversation will shift dramatically. Another way that in which people tend to talk past each other is within the centralized vs. federated conversation, where teams are talking at different scopes of the API work happening, but lumping it all into a single philosophical debate about whether it happens centrally or it will be federated.
 

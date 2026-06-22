@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Management Using Github
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/bw-github.jpg
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ There are plenty of tools and services you can use to manage your API and its de
 
 Github is a social coding platform that developers have grown to love and respect. With a high level of adoption by developers, and the versatility of the features available on Github, API providers have developed many innovative ways to use the platform to manage an API.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.jpg)](http://github.com "Github")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-github.jpg)](http://github.com "Github")
 
 I have documented eleven approaches to using Github for API management to date:
 

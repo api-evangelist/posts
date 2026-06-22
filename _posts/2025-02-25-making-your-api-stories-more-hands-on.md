@@ -10,7 +10,7 @@ tags:
   - Environments
   - Jupyter Notebooks
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-demon-art.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/francis-williams-demon-art.jpeg
 ---
 Developers love to reverse engineer functional aspects of API operations, and they see code and artifacts as just puzzles. The best way to get technically minded folks engaged with your stories is to make them hands-on in some way. Actually, it is an increasingly valuable way to get business stakeholders involved by telling stories and providing hands-on artifacts for sales, support, and other functions. These are a handful of ways in which you can extend a simple blog post or a video and make it something that anyone can take back to their workspace.
 

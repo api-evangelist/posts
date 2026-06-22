@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Quick Example Of An API Provider Putting Content Type Negotiation To Work
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

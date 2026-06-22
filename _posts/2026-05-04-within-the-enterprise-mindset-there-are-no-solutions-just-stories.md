@@ -3,7 +3,7 @@ layout: post
 title: "Within the Enterprise Mindset There Are No Solutions, Just Stories"
 date: 2026-05-04
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/stalin-time-skyscraper-dark.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/stalin-time-skyscraper-dark.jpg
 category: "Blog"
 excerpt: "I think a lot about the mindset of executive, but also the middle tiers of leadership at enterprises. This is one of the reasons I went to work at Bloomberg for the year that I did. Not that I wanted a career at that enterprise, but I wanted to understand the mindset enterprise leadership has when it comes to API integration inside and outside the enterprise firewall."
 ---

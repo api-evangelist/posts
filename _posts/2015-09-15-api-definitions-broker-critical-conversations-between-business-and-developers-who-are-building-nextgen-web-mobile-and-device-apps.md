@@ -2,7 +2,7 @@
 layout: post
 title: API Definitions Broker Critical Conversations Between Business And Developers Who Are Building NextGen Web, Mobile,
   and Device Apps
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-business-dev-code.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-business-dev-code.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ API definitions are a way to describe what an API does, providing a machine read
 
 The first widely available API definition format was the [Web Services Description Language (WSDL)](http://www.w3.org/TR/wsdl), which is an XML format established in 2001 that described web services. Much like web services (an API predecessor), WSDL was a very technical vision of APIs, something dictated by IT, and developer groups, with heavy top down governance from business and industry leadership. While web services, and WSDL are still ubiquitous across the enterprise, they are rapidly being replaced with much lighter weight, simpler web APIs that use the Internet as a way of delivering the digital data, content, and resources web, mobile, and devices are demanding in 2015.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round-certified.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-swagger-round-certified.png)
 
 Along the way, newer, more web friendly API definition formats emerged, such as [Web Application Description Language (WADL)](https://en.wikipedia.org/wiki/Web_Application_Description_Language), but ultimately WADL was something that never took root, suffering from many of the same illness of its predecessor WSDL. It wasn't until a new format called [Swagger](http://swagger.io) was born, that we started to see the conversation around how we define, communicate and develop standardized tooling around APIs evolve, providing an open specification for defining all the details that go into an API. 
 
@@ -27,7 +27,7 @@ Swagger provided developers a way to describe an API that was more in sync with 
 
 Shortly after Swagger began seeing wide adoption because of the interactive documentation it provided for APIs, a new API definition format also emerged called API Blueprint, which provided interactive documentation, but rather than using JSON, it used Markdown, making the process of defining APIs a little less intimidating for non-developers. Apiary, the makers of API Blueprint did another thing that would move the conversation forward again, making the reasons for defining APIs in these formats, more about API design, than just about delivering up-to-date documentation.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-blueprint-icon.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-api-blueprint-icon.png)
 
 Using API Blueprint, API designers could define an API, before any code was actually written. Developers could craft an API using Apiary's tooling, then a mock version of an API could be generated, which could be shared with other project stakeholders, from business users, to potential web or mobile developers. This process saves considerable time, money, and other resources in ensuring than API would be something web, mobile, and device developers could actually put to use. With two new API definition formats Swagger, and now API Blueprint, the processing of defining, designing APIs in a machine readable way, was accessible to everyone, across a rapidly expanding API life-cycle.
 

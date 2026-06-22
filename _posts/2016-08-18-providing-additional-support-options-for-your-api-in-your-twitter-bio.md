@@ -2,7 +2,7 @@
 layout: post
 title: Providing Additional Support Options For Your API In Your Twitter Bio
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Mailjet___mailjet____Twitter.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Mailjet___mailjet____Twitter.png
 atomdate: 2016-08-18T20:00:00.000Z
 tags:
   - Twitter

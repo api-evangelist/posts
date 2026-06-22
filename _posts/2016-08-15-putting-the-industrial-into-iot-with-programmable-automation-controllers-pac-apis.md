@@ -4,7 +4,7 @@ title: >-
   Putting The Industrial Into IoT With Programmable Automation Controllers (PAC)
   APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/SNAP-PAC-RESTful-API-v1_1600.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/SNAP-PAC-RESTful-API-v1_1600.png
 atomdate: 2016-08-15T21:00:00.000Z
 tags:
   - Automation

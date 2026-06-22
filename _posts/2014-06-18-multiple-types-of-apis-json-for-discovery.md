@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Multiple Types of APIs.json For Discovery
-image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json/apisdotjson.png
 author:
   name: kinlane
 tags:
@@ -27,7 +27,7 @@ If I learned anything working in the federal government last year, it is that AP
 **Aggregate APIs.json**  
 In fast growing areas of the API economy, we are seeing API aggregation trends, with sectors like social, media, cloud, financial, analytics, and other areas that have matured, and users are depending on potentially multiple API platforms.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-discovery.png)](http://apisjson.org/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-api-discovery.png)](http://apisjson.org/)
 
 **Derived APIs.json**  
 I envision derived APis as just an evolution of tribute or facade, stating that I started with a certain API design, but have evolved it beyond what it once was. Not acknowledging where we got our API patterns is a darker side of the API space that needs to go away—let’s be honest about where we learned our patterns and give a nod to these sources.

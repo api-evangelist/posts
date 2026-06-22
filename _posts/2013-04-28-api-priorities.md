@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Priorities
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/priorities.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/priorities.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ tags:
 ---
 I spend a lot of time on API Evangelist getting excited about APIs. Going on three years doing this, I'm getting a little more hardened in my view on what is "good" in the API space. Along with that evolution, I'm getting my priorities in order.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/att/priorities.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/att/priorities.png)
 
 While I may get excited about cloud computing APIs or quantified self APIs, there are other areas I think are straight up priorities--ones that we can't ignore. To support this I'm launching several research projects into areas I have labeled as API priorities:
 

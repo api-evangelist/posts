@@ -3,7 +3,7 @@ layout: post
 title: "Guardrails, Not Gates: Supreet Nagi on Taming the API Jungle"
 date: 2026-04-23
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-freeway-carss-overpass.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-freeway-carss-overpass.jpg
 category: "Blog"
 excerpt: "Supreet Nagi's new handbook reframes API governance as highway engineering instead of tollbooth staffing. The metaphor holds because the underlying architecture does — and it lands at exactly the moment enterprises need a machine-readable map for their AI agents to follow."
 ---

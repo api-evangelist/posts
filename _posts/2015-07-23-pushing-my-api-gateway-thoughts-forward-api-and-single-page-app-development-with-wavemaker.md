@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Pushing My API Gateway Thoughts Forward: API and Single Page App Development with Wavemaker'
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -13,15 +13,15 @@ I open up my Thursdays to briefings, calls, demos and other phone, skype, and ha
 
 The screenshot below from my WaveMaker Studio workspace tells an important story. This is API design, deployment, and management, all in the service of rapidly deploying a single page app client, via a single platform. [While Wavemarker has their own gateway solution as well](http://www.wavemaker.com/gateway/), the WaveMaker Online Studio has "gateway-esque"features in it, allowing me to design and deploy APIs in support of my single page application, and widget development.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/wavemaker/WaveMaker-Studio.png)](http://www.wavemaker.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/wavemaker/WaveMaker-Studio.png)](http://www.wavemaker.com/)
 
 Wavemaker speaks the common gateway speak I would say that your average application designer would need to speak, allowing you to craft APIs for your apps from other web APIs, SOAP, APIs, feeds, and databases (the common gateway building block). You just define each of the resources you depend on, and they are available in your toolbox.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/wavemaker/WaveMaker-Studio-Web-Service.png)](http://www.wavemaker.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/wavemaker/WaveMaker-Studio-Web-Service.png)](http://www.wavemaker.com/)
 
 I'm going to call this API gateway light(wish I had better word). This gateway is in the service of single page application development (which is another spect I like), and I'm assuming they could be part of your larger Wavemaker API strategy, but they might also never be used past this single implementation. With all of your newly configured, "gatewayed" resources in your toolbox, you can being crafting apps, widgets, visualizations, and other common API driven implementations.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/wavemaker/WaveMaker-Studio-3.png)](http://www.wavemaker.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/wavemaker/WaveMaker-Studio-3.png)](http://www.wavemaker.com/)
 
 Ideally any application designer who was using the Wavemaker Studio to craft their APIs, would also have a wealth of internal API resources to depend on, who are managed by skilled API teams, but even if they don't, Wavemaker acts as an API gateway to existing internal infrastructure, as well as the wealth of public API resources available to us today. To me, API design solutions like Wavemaker are beginning to look like web design solutions of the last 10 years, but are applying gateway logic to help move beyond just data and document stores for sources, and going API-first.
 

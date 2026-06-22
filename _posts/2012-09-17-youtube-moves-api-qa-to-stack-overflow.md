@@ -1,7 +1,7 @@
 ---
 layout: post
 title: YouTube Moves API QA to Stack Overflow
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Youtube-Stack-Overflow.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Youtube-Stack-Overflow.png
 author:
   name: kinlane
 tags: []

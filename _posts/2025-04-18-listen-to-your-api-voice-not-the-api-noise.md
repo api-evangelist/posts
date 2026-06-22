@@ -9,7 +9,7 @@ tags:
   - Politics
   - Noise
   - Hype
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-times-square-corner.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-times-square-corner.jpeg
 ---
 The entropy is high in the API world right now. I find it near impossible to read any “API news” right now because of the “disruption capture” that occurred across the API conversation. I firmly stand in the camp that we should be 100% resisting anything artificial intelligence in this moment due to environmental, labor, and authoritarian reasons, even before we get unreliability, complexity, and other details. All of this makes conversations around MCP, A2A, and other AI-fueled API specifications a none starter for me. I’ve gone on the record stating [MCP is a bad idea](https://apievangelist.com/2025/04/09/adopting-mcp-is-a-bad-idea/), but even before these business reasons, using AI in this moment is simply just obeying in advanced to the power driving the discussions in this very dangerous moment. Period.
 

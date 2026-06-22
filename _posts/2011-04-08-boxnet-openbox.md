@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Box.net OpenBox
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
 
 [Box.net OpenBox](http://www.box.net/services "Box.net OpenBox") provides a directory of custom third party applications that add value to Box.net and can be integkinlane-productions2.s3.amazonaws.com
 
-On the back-end Box.net OpenBox provides developers with a self-service application development platform to build and deploy applications in the OpenBox directory.![](http://kinlane-productions.s3.amazonaws.com/Box.net/Open-Box.png)
+On the back-end Box.net OpenBox provides developers with a self-service application development platform to build and deploy applications in the OpenBox directory.![](https://kinlane-images.s3.amazonaws.com/shared/Box.net/Open-Box.png)
 
 Any developer can register with Box.net and:
 

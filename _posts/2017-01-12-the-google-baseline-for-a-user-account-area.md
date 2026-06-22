@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Google Baseline For A User Account Area
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_11_at_8.59.54_pm.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_01_11_at_8.59.54_pm.png
 atomdate: 2017-01-12 23:00:00+00:00
 tags:
 - API Evangelist

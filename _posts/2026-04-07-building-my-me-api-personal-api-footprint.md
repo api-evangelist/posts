@@ -7,7 +7,7 @@ tags:
     - Sovereign
     - Aggregate
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-kin-chesapeake.jpg   
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-kin-chesapeake.jpg   
 ---
 [For years I've been writing on API Evangelist about the idea of a personal API footprint](https://apievangelist.com/2017/01/09/the-api-driven-marketplace-that-is-my-digital-self/) — the idea that every individual should have a single, coherent surface representing themselves across the dozens (or hundreds) of services they touch every day. I've explored this with partners, sketched it at Postman, and watched the pattern slowly become normalized inside individual APIs: GitHub has `/user`, Slack has `auth.test`, Spotify has `/me`, Notion has `/users/me`, Bluesky has `getProfile`. Almost every platform now agrees that "me" is a high priority API resource,they just don't agree on what "me" looks like, where it lives, or how to compose it.
 

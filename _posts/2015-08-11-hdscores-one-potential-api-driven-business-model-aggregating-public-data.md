@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'HDScores: One Potential API Driven Business Model Aggregating Public Data'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/hdscores-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/hdscores-logo.png
 author:
   name: kinlane
 tags:
@@ -28,7 +28,7 @@ I know many folks who feel that you shouldn't be able to charge for access to pu
 
 In addition to aggregating this data from so many sources, organizing it into a single, coherent collection that is available via an API, HDScores also provides web and mobile apps, as well as embeddable resources built on top of the data. They go well beyond just aggregation, and seem to be actively working to improve upon the open government data.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/hdscores-web-app.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/hdscores-web-app.png)
 
 While I do worry about companies profiting in extreme ways on top of public data, I think what HDScores is up to represents one layer to the future of open government data and APIs. As you will see through my work around the recent grant I received from the Knight Foundation, I strongly feel that the government opening up data is just one piece of the puzzle, and that the private sector needs to step up and complete the puzzle. 
 

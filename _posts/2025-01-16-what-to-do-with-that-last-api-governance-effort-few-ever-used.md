@@ -6,7 +6,7 @@ tags:
   - Governance
   - Changes
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-destruction-seattle-viaduct.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-destruction-seattle-viaduct.jpg
 ---
 After spending time in the API space—-whether navigating the challenges of enterprises or startups—-you develop strategies for acknowledging failures and leveraging past efforts. Successful API practitioners learn to build upon, adapt, and repurpose previous work within an enterprise. There's much to gain from studying earlier attempts to navigate the complexities of enterprise systems. As you embark on new projects, consider incorporating these lessons in the following ways to inform and strengthen your approach.
 

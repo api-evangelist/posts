@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Public APIs Are Tough When You Are In A Tightly Controlled Industry
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/espn/espn-api-black_200.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/espn/espn-api-black_200.png
 author:
   name: kinlane
 tags:

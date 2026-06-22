@@ -8,7 +8,7 @@ tags:
   - Investments
   - Contracts
   - Derivatives
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-dragon-shadow-sun-2.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-dragon-shadow-sun-2.jpg
 ---
 I have done a lot of soul searching over the years to try and understand the line between a good API and a bad API. It can be hard to tell between the two, but somewhere along the way APIs we found useful and beneficial to our applications change, and begin to become less useful, less beneficial, and even harmful and extractive. To help tell more precise stories on the subject I have done a lot of other sketching and more verbose storytelling of the evolution of Facebook and other APIs that have shaped the conversation to come up with handful of things that signal an API has likely lost their way from the original reasons we began to an API.
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Context.io API And Thinking Out Of The Box When Crafting APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/context-io/context-io-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/context-io/context-io-logo.jpeg
 author:
   name: kinlane
 tags:

@@ -8,7 +8,7 @@ tags:
   - HTTP
   - Standardization
   - Experience
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-old-church-police-car.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/citizenship-old-church-police-car.jpeg
 ---
 Last up in my series of evaluating the leading API governance rules formats is [Redocly](https://redocly.comhttps://redocly.com/docs/cli/rules/built-in-rules). Like APIMATIC, Redocly has organized their rules, making my post an easy copy / paste, but the work of still going through each rule to compare with [Spectral](https://apievangelist.com/2025/03/14/evaluating-the-default-spectral-api-governance-ruleset/), [Vacuum](https://apievangelist.com/2025/03/14/evaluating-the-default-doctor-and-vacuum-api-governance-ruleset/), and [APIMATIC](https://apievangelist.com/2025/03/19/the-default-apimatic-rules/) is still cumbersome. However, learning the nuance and detail of each rule is important, but also the Venn Diagram of support for Spectral, while slipping in your own special magic is worthwhile.
 

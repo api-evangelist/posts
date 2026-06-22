@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Qualifying for the API Stack
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/geoiq-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/geoiq-logo.jpg
 author:
   name: kinlane
 tags: []

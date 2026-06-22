@@ -2,7 +2,7 @@
 layout: post
 title: Extract Knowledge From Audio And Video Using The Clarify API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/clarify/clarify-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/clarify/clarify-logo.png
 author:
   name: kinlane
 tags:

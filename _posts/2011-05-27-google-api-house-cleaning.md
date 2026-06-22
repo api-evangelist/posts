@@ -2,7 +2,7 @@
 layout: post
 title: Google API House Cleaning
 url: http://apievangelist.com/2011/05/27/google-api-house-cleaning/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

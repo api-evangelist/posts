@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Sports Data API Simulations From SportRadar'
-image: https://s3.amazonaws.com/kinlane-productions2/sportradar/sportradar-simulations.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/sportradar/sportradar-simulations.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/sportradar/sportradar-simulations.png" width="45%" align="right" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/sportradar/sportradar-simulations.png" width="45%" align="right" style="padding: 15px;" />
 <p>I’m a big fan of API sandboxes, labs, and other virtualization environments. <a href="https://streamdata.io/blog/sandbox-default-feature-banking-apis/">API sandboxes should be default in heavily regulated industries like banking</a>. I also support the virtualization of schema and data used across API operations, <a href="http://apievangelist.com/2018/05/01/synthetic-healthcare-records-for-your-api-using-synthea/">like I am doing at the Department of Veterans Affairs (VA), with synthetic healthcare data</a>. I’m very interested in anything that moves forward the <a href="http://virtualization.apievangelist.com/">API virtualization</a> conversation, so I found <a href="https://developer.sportradar.com/files/indexFootball.html#nfl-official-api-v2-simulations">the live sporting API simulations over at SportRadar</a> very interesting.
 
 <p>SportRadar’s <em>“live simulations give you the opportunity to test your code against a simulation of live data before the preseason starts or any time! Our simulation system replays select completed games allowing you to view our API feeds as if they were happening live.”</em> Here are the details of their NFL Official API simulations that run every day:

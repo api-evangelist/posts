@@ -7,7 +7,7 @@ tags:
   - Consumers
   - Feedback
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-train-hand-car.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-train-hand-car.jpeg
 ---
 A lot of attention gets spent talking about API producers doing “the right thing” when it comes to treating their APIs as products and cultivating feedback loops with their consumers. It is one of the most important ways enterprises can do to align what they produce with what their consumers need. However, all of this work depends on API product managers and their business leadership wanting to do “the right thing”, making a space for consumers to be heard, and honestly evaluating feedback as part of their road maps. In a perfect world this makes a lot of sense, but in a less than perfect world, as API consumers you can also work together to own the product feedback loops requiring that API producers:
 

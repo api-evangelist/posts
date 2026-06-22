@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How To Discover No Name And Description Twitter Accounts For Folks In The Enterprise
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mr_wilson.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mr_wilson.jpg
 atomdate: 2016-09-23 18:00:00+00:00
 tags:
 - Twitter

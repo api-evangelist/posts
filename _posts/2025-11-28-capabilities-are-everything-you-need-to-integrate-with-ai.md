@@ -10,7 +10,7 @@ tags:
  - Boundaries
  - Business
  - Engineering
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-arrow-in-ground.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-arrow-in-ground.jpeg
 ---
 I am back to my work to precisely define how we integrate with many different APIs. With this round I am doing it for a handful of use cases meant to satisfy customer conversations around their AI integration needs. If you’ve been tuned into my newsletter than you’ll know that I am wrestling with defining these conversations in the context of a capability. Not an API capability, but just a capability that describes something we need to be capable of when it comes to our businesses. As part of this work I am aggregating many voices from stories I’ve read online, but also podcast episodes I am producing as part of this work. Across these stories I regularly hear how a capability is a wrapper for everything you need to integrate with AI—something that like AI, often seems pretty hand wavy. 
 

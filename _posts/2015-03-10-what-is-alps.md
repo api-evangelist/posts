@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is ALPS?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/alps-io-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/alps-io-logo.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Being Able See An API Request In Browser Is Important
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/delicious_xml.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/delicious_xml.png
 atomdate: 2017-03-28 22:00:00+00:00
 tags:
 - API Evangelist

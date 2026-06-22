@@ -2,7 +2,7 @@
 layout: post
 title: Some API Embeddable Best Practices Out Of Yelp
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_10_at_8.08.25_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_10_at_8.08.25_pm.png
 atomdate: 2016-10-11T18:00:00.000Z
 tags:
   - Embeddable

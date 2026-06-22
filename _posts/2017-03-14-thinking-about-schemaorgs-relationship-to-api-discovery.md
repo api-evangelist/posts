@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thinking About Schema.org&#039;s Relationship To API Discovery
-image: https://s3.amazonaws.com/kinlane-productions2/schema-org/schema-org.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/schema-org/schema-org.png
 atomdate: 2017-03-14 16:00:00+00:00
 tags:
 - Schema

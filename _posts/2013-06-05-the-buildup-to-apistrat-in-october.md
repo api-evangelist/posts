@@ -2,7 +2,7 @@
 layout: post
 title: 'The Build-Up To #APIStrat in October'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-sf-1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apistrat-sf-1.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ After just a couple months of REST and relaxation, the build up to API Strategy 
 
 With the following sponsors stepping up to make sure the API community comes together and shares stories and experiences from the trenches:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-sf/apistrat-sf-2.png)](http://www.apistrategyconference.com/2013SF/index.php)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-sf/apistrat-sf-2.png)](http://www.apistrategyconference.com/2013SF/index.php)
 
 *   [3scale](http://3scale.net/)
 *   [540.co](http://540.co/)

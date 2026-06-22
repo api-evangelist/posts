@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Are The Incentives For Creating Machine Readable API Definitions?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-carrot.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-carrot.png
 author:
   name: kinlane
 tags:
@@ -15,47 +15,47 @@ With this in mind, I wanted to do some exploration--what would be possible incen
 
 **JSON API Definition**
 
-**[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/Swagger-Logo.png)](http://swagger.wordnik.com/)**
+**[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/Swagger-Logo.png)](http://swagger.wordnik.com/)**
 
 **Interactive Documentation**
 
-**[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/Swagger-Logo.png)](http://swagger.wordnik.com/)**
+**[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/Swagger-Logo.png)](http://swagger.wordnik.com/)**
 
 **Server Side Code Deployment**
 
-**[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/Swagger-Logo.png)](http://swagger.wordnik.com/)**
+**[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/Swagger-Logo.png)](http://swagger.wordnik.com/)**
 
 **Client Side Code generation**
 
-**[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/Swagger-Logo.png)](http://swagger.wordnik.com/)**
+**[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/Swagger-Logo.png)](http://swagger.wordnik.com/)**
 
 **Design, Mocking, and Collaboration**
 
-**[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apiary/apiary-logo-300x93.png)](http://apiary.io)**
+**[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apiary/apiary-logo-300x93.png)](http://apiary.io)**
 
 **Markdown Based API Definition**
 
-**[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apiary/apiary-logo-300x93.png)](http://apiary.io)**
+**[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apiary/apiary-logo-300x93.png)](http://apiary.io)**
 
 **YAML Based API Definition**
 
-**[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/raml/raml-logo.jpg)](http://raml.org)**
+**[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/raml/raml-logo.jpg)](http://raml.org)**
 
 **Reusability, Interoperability and Copyright**
 
-**[![](https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-logo.png)](http://apicommons.org)**
+**[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-commons/api-commons-logo.png)](http://apicommons.org)**
 
 **Testing & Monitoring**
 
-**[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/smartbear/SmartBear-Logo.png)](http://smartbear.com/)**
+**[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/smartbear/SmartBear-Logo.png)](http://smartbear.com/)**
 
 **Discovery**
 
-**[![](https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png)](http://apisjson.org)**
+**[![](https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json/apisdotjson.png)](http://apisjson.org)**
 
 **Search**
 
-**[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apis-io/apis-io.png)](http://apis.io)**
+**[![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/apis-io/apis-io.png)](http://apis.io)**
 
 The importance of having an API definition of available resources, is increasing. It was hard to realize the value of defining APIs with the heavy, top down defined WSDL, and even its web counterpart WADL, but with these new approaches, other incentives are emerging—incentives that live throughout the API lifecycle.
 

@@ -2,7 +2,7 @@
 layout: post
 title: API Sandbox And Simulator From Carvoyant
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/carvoyant/carvoyant-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/carvoyant/carvoyant-logo.png
 author:
   name: kinlane
 tags:

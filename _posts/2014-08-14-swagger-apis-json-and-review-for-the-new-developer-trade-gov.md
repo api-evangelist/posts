@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Swagger, APIs.json, And Review For The New Developer.Trade.gov
-image: https://s3.amazonaws.com/kinlane-productions2/federal-government/trade-gov/developer-trade-gov.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/trade-gov/developer-trade-gov.png
 author:
   name: kinlane
 tags:
@@ -23,7 +23,7 @@ I submitted my feedback as Github issues, on the repository for the developer hu
 *   Trade Leads
 *   Trade News & Articles
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](https://bit.ly/1w9oKpq)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](https://bit.ly/1w9oKpq)
 
 I chose to use [Swagger](https://bit.ly/1w9oKpq) for creating my machine readable API definitions, and while I was waiting for the Github commit to take for the Market Research Library API Swagger definition + Swagger UI, I got to work on the ITA Offices & Centers API. As I was finishing up, I reloaded the [interactive docs for the Market Research Library API](http://developer.trade.gov.apievangelist.com/market-research-library-api.html), and got the dreaded CORS warning:
 
@@ -31,7 +31,7 @@ I chose to use [Swagger](https://bit.ly/1w9oKpq) for creating my machine readabl
 
 That is where the fun ends for me. I can keep creating Swagger specs for the other three APIs, but I won’t be able to play with them until I create a proxy to make calls through, and open up CORS on my end. I will make time to do this over the weekend, but until then the fun stops. I am hoping they will also open up CORS, but I'm sure it will take a while.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png)](http://apisjson.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json/apisdotjson.png)](http://apisjson.org/)
 
 To wrap up my work, I also generated an [APIs.json file for the Developer.Trade.Gov domain](http://developer.trade.gov.apievangelist.com/apis.json), listing the details for both the Market Research Library API, and the ITA Offices & Centers API--opening up the APIs to discovery by API search engines like APIs.io. When Developer.Trade.Gov publishes the APIs.json + Swagger specs under their domain, it will become more authoratative and given prominence in search engine results.
 

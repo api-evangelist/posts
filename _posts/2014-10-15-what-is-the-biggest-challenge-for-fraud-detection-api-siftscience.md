@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Is The Biggest Challenge For Fraud Detection API SiftScience?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/1475_logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/company/1475_logo.png
 author:
   name: kinlane
 tags:

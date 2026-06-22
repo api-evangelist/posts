@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gathering My Thoughts About Open Referral And The Human Services API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ohana-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ohana-api.png
 tags:
 - Open Referral
 - Human Services
@@ -109,7 +109,7 @@ Right now, there is only the Ohana API, and supporting client tools that have be
 
 The Open Referral developer portal really is just a project website which organizes links, and meta information about any valuable code that is developed, that uses HSDS as its core. The ultimate goal is to provide a rich marketplace of server, client-side, platform, and language resources that can be applied anywhere. Some of it will be officially platform support, while other will be partner and Open Referral community supported. The central portal is purely to help organize all the valuable resources that are generated from the community, and easy to find by the community.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ohana-api.png)](/admin/blog/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ohana-api.png)](/admin/blog/)
 
 **Open Referral Demo Portal  
 **I'd like to see a dedicated demo portal for the platform available at [http://demo.openreferral.org](http://developer.openreferral.org), which can be forked and launched as a new project if necessary. Maybe there can be multiple demo portals available, meant for different languages and platforms? I'd like to see a forkable, HTML, CSS, and JavaScript version available, that can be used as a base, with some of the more dynamic aspects done in specific languages, or via specific platforms.
@@ -313,7 +313,7 @@ Most of these areas will be applied to each project, but no doubt will need to b
 
 Monetization strategies applied to Open Referral will heavily drive the plans for API access that are applied to each individual implementation. While not everything will be standard across HSDS supporting implementations, there should be a base set of plans for how partners can operate, and generate their own revenue to support operations.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/open-referral/pricing-mapbox.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/open-referral/pricing-mapbox.png)
 
 **Platform API Plans  
 **What are the details of API engagement plans offered as part of operations? I wanted to explore the many ways that leading API platforms open up access to their resources, and hand pick the ones that made sense for a minimum set of plans that could be inherited by default, within each implementation. Of course, each potential implementation might be different, but these are some of the essential platform plan considerations.
@@ -362,7 +362,7 @@ While it is ideal that HSDS implementations provide public access to the vital r
 
 I can keep adding to this list, but I think this represents a pretty significant v2 presence for Open Referral, as well as the Human Services Data Specification (HSDS) format. This isn't just a suggested proposal. I needed to think about what was needed, and what is next to help support projects on table, and proposals that in the works for specific implementations. I couldn't think about any single project without exploring the big picture. 
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/icarol-screenshot.png)](http://ohanapi.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/icarol-screenshot.png)](http://ohanapi.org/)
 
 Now I'm going to share this with Greg Bloom, the passionate champion behind Open Referral, and HSDS. I just needed to make sure everything was in my head, in support of our discussion in person tomorrow. We'll be looking to move the needle forward on this vision, in conjunction with the implementations on the table. Exploring the big picture on my blog, is how I put my experience on the table, working through all of its moving parts, and make sure I've covered all the ground I need to discuss.
 

@@ -2,13 +2,13 @@
 layout: post
 title: Genability API Review
 url: http://apievangelist.com/2011/06/18/1775/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Review
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/genability/genability-logo.jpg)](http://genability.com/ "Genability")[Genability](http://genability.com/ "Genability") have assembled a database of electricity pricing information from over 3500 electricity providers throughout North America.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/genability/genability-logo.jpg)](http://genability.com/ "Genability")[Genability](http://genability.com/ "Genability") have assembled a database of electricity pricing information from over 3500 electricity providers throughout North America.
 
 The[Genability API](https://developer.genability.com/ "Genability API") is RESTful with JSON responses, and application keys for authentication.
 

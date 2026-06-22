@@ -5,7 +5,7 @@ title: >-
   Learning About Commonly Used Standards and Classifications API with Ariā From
   Stats New Zealand
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/learning-about-commonly-used-standards-and-classifications-api-with-aria-from-stats-new-zealand.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/learning-about-commonly-used-standards-and-classifications-api-with-aria-from-stats-new-zealand.png
 tags:
   - Standards
   - Statistics

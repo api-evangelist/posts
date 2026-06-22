@@ -2,7 +2,7 @@
 layout: post
 title: Convert OpenAPI Spec to Slate / Shins Markdown API Docs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/widdershins_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/widdershins_logo.png
 atomdate: 2016-10-18T00:00:00.000Z
 tags:
   - OpenAPI

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My API Building Blocks Workshop With Intel at the Gartner AADI Conference
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/intel-aadi-workshop.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/intel-aadi-workshop.png
 author:
   name: kinlane
 tags: []

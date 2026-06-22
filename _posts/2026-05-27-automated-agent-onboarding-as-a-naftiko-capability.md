@@ -4,7 +4,7 @@ layout: post
 title: "Automated Agent Onboarding Is a Naftiko Capability, Not a Gateway Feature"
 date: 2026-05-27
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-gatew-into-field.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-gatew-into-field.jpg
 category: "Blog"
 tags:
  - Agent Onboarding
@@ -195,7 +195,7 @@ That's ten gateway adapter shapes, all expressed as Naftiko Capabilities, all pa
 
 The gateway-specific operation paths above are not invented — they are pulled directly from the OpenAPIs published across the [API Evangelist GitHub organization](https://github.com/api-evangelist) at [api-evangelist/kong/openapi](https://github.com/api-evangelist/kong/tree/main/openapi), [api-evangelist/apigee/openapi](https://github.com/api-evangelist/apigee/tree/main/openapi), [api-evangelist/wso2/openapi](https://github.com/api-evangelist/wso2/tree/main/openapi), [api-evangelist/tyk/openapi](https://github.com/api-evangelist/tyk/tree/main/openapi), and the rest. I evaluated all of them this week and produced an inventory matrix scoring 75 gateway providers by how cleanly they can drive each leg of the flow.
 
-![Docks waterfront in the blue-circuit filter](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/blue-circuit-docks-water-front.jpg)
+![Docks waterfront in the blue-circuit filter](https://kinlane-images.s3.amazonaws.com/shared/blue-circuit-docks-water-front.jpg)
 
 ## What the Eval Surfaced
 

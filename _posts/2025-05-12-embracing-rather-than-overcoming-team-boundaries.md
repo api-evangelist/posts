@@ -10,7 +10,7 @@ tags:
   - Organization
   - Domains
   - Tooling
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-baseball-field.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-baseball-field.jpg
 ---
 Mapping the API landscape across an enterprise should always include the mapping of team boundaries. The outcomes of your API governance will be shaped by these boundaries, resulting in many API governance efforts looking to overcome and flatten team boundaries, when you should be understanding and embracing these boundaries. There are many ways you can introduce standardization across many different teams as part of API governance, but if you are looking to bend teams to your central API governance, rather than shaping and adapting your API governance to these team boundaries, you will have a very tough road ahead. As part of the ongoing mapping of the enterprise API landscape I recommend understanding the following alongside the APIs you are profiling and looking to govern.
 

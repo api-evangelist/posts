@@ -5,7 +5,7 @@ title: Where I Am Going (My API Evangelist Journey)
 tags:
 - Journey
 - '4'
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-highway-line.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-highway-line.jpeg
 ---
 To augment my how I got here post, I want to explore where I am going with the next fifteen years of API Evangelist. I have all the building blocks for the next portion of my API journey, I just need to organize them into a set of services that will make sense to where various enterprise organizations are in their API journey. I am confident that I have the building blocks to help contribute to the API operations of almost any enterprise organization or startup, but I need to find the areas of business strategy and experience that matter most to business leadership right now in this very chaotic and sprawling global digital landscape.
 

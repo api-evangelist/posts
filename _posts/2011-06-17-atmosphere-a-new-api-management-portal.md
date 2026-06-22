@@ -2,7 +2,7 @@
 layout: post
 title: Atmosphere, a New API Management Portal
 url: http://apievangelist.com/2011/06/17/atmosphere-a-new-api-management-portal/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -10,7 +10,7 @@ tags:
   - Portal
   - API Management
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-service-providers/atmosphere-api-management.png)](http://atmosphere.soa.com/ "Atmosphere")[SOA Software](soa.com "SOA Software") just launched a new API management platform called, [Atmosphere](http://atmosphere.soa.com/ "Atmosphere").
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/atmosphere-api-management.png)](http://atmosphere.soa.com/ "Atmosphere")[SOA Software](soa.com "SOA Software") just launched a new API management platform called, [Atmosphere](http://atmosphere.soa.com/ "Atmosphere").
 
 Atmosphere provides a secure, platform that companies can deploy to manage their APIs for either a private or public developer community.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thanks For Reaching Out About Your API
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-email.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-email.png
 atomdate: 2016-09-27 16:00:00+00:00
 tags:
 - API Evangelist

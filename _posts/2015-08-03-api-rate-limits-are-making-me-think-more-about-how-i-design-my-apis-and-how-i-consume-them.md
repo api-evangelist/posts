@@ -2,7 +2,7 @@
 layout: post
 title: API Rate Limits Are Making Me Think More About How I Design My APIs, and How I Consume Them
 url: http://apievangelist.com/2015/08/03/api-rate-limits-are-making-me-think-more-about-how-i-design-my-apis-and-how-i-consume-them/
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-rate-limit-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-rate-limit-api.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: CORS Makes Your API Portable And Remix-able
 url: http://apievangelist.com/2014/07/15/cors-makes-your-api-portable-and-remixable/
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-turntable.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-turntable.jpg
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ tags:
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-turntable.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-turntable.jpg)
 
 I was looking through [federal government APIs](http://apievangelist.com/2014/07/10/looking-at-77-federal-government-api-developer-portals-and-190-apis) the other day, looking for the [low hanging fruit](http://apievangelist.com/2014/07/10/low-hanging-fruit-for-api-discovery-in-the-federal-government), when it came to making government APIs more discoverable using [APIs.json](http://apisjson.org). During my initial work, I played with [three separate APIs from www.usa.gov](http://www.usa.gov.apievangelist.com/), which I think demonstrates the importance of CORS, and how opening it up for APIs, makes them more portable and remix-able.
 

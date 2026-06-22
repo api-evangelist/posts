@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Getting To Know J&Atilde;&cedil;rn Wildt For The API Craft 2014 Detroit Hypermedia Panel '
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/jorn-wildt.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/jorn-wildt.jpg
 author:
   name: kinlane
 tags:

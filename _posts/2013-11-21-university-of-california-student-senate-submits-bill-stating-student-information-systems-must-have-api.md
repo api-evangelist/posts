@@ -4,7 +4,7 @@ title: >-
   University of California Student Senate Submits Bill Stating Student
   Information Systems Must Have API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/associated-student-university-california-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/associated-student-university-california-logo.png
 author:
   name: kinlane
 tags:

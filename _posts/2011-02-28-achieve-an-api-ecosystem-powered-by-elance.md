@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Achieve an API Ecosystem Powered by Elance
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Ecosystem
   - Power
 ---
-Taking an API from area to community takes a lot of work. It just doesn't happen overnight. It takes a perfect balance of technology, developers, partners, resources and hard work. ![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/ecosystem.png) APIs are a big part of the future of a distributed workforce, and developer communities like [Elance](http://www.elance.com "Elance") are building the workforce to support the APIs. You can leverage the Elance platform to:
+Taking an API from area to community takes a lot of work. It just doesn't happen overnight. It takes a perfect balance of technology, developers, partners, resources and hard work. ![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/ecosystem.png) APIs are a big part of the future of a distributed workforce, and developer communities like [Elance](http://www.elance.com "Elance") are building the workforce to support the APIs. You can leverage the Elance platform to:
 
 *   Providing High Quality, Professional Developers
 *   Develop API SDK and Code Samples

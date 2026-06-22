@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Complete (Enough) API Definition To Move On and Profile The Next API in The Stack
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-stacks.png
 author:
   name: kinlane
 tags:
@@ -11,33 +11,33 @@ I'm working to profile as many of the top, publicly available APIs out there, [a
 
 To help focus my work, [I'm targeting 30 companies that I depend on to run API Evangelist](http://apievangelist.com/2015/06/23/the-over-30-apis-i-depend-on-to-run-api-evangelist/), and one of the first APIs I wanted to harden my process on was the AlchemyAPI. The API is fairly straightforward in design, and operation, so it made for an easy target--so far here is what I have:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/alchemy-api-logo.png)](http://www.alchemyapi.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/alchemy-api-logo.png)](http://www.alchemyapi.com/)
 
 [**AlchemyAPI**](http://www.alchemyapi.com/)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.alchemyapi.com/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.alchemyapi.com/ "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-blog-icon.png)](http://blog.alchemyapi.com/ "Blog")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-blog-icon.png)](http://blog.alchemyapi.com/ "Blog")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-rss-icon.png)](http://blog.alchemyapi.com/rss.xml "Blog RSS")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-rss-icon.png)](http://blog.alchemyapi.com/rss.xml "Blog RSS")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png)](https://twitter.com/alchemyapi "Twitter")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-twitter-icon.png)](https://twitter.com/alchemyapi "Twitter")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png)](https://github.com/AlchemyAPI "Github")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-github-icon.png)](https://github.com/AlchemyAPI "Github")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png)](http://theapistack.com/data/alchemyapi/apis.json "APIs.json")([swagger](http://theapistack.com/ask-swagger-questions.html?apisjson_url=http://theapistack.com/data/alchemyapi/apis.json "Ask Swagger Questions")) ([apis.json](http://theapistack.com/ask-apis-json-questions.html?apisjson_url=http://theapistack.com/data/alchemyapi/apis.json "Ask APIs.json Questions"))
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-a.png)](http://theapistack.com/data/alchemyapi/apis.json "APIs.json")([swagger](http://theapistack.com/ask-swagger-questions.html?apisjson_url=http://theapistack.com/data/alchemyapi/apis.json "Ask Swagger Questions")) ([apis.json](http://theapistack.com/ask-apis-json-questions.html?apisjson_url=http://theapistack.com/data/alchemyapi/apis.json "Ask APIs.json Questions"))
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sdks-io/sdks-io-icon.png)](https://sdks.io/SDK/View/alchemyapi "SDKs.io")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sdks-io/sdks-io-icon.png)](https://sdks.io/SDK/View/alchemyapi "SDKs.io")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/building-blocks/x-postman.png)](https://raw.githubusercontent.com/api-stack/api-stack/gh-pages/data/alchemyapi/alchemy-api-postman-collection.json "Postman Collection")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/x-postman.png)](https://raw.githubusercontent.com/api-stack/api-stack/gh-pages/data/alchemyapi/alchemy-api-postman-collection.json "Postman Collection")
 
  
 
 Alchemy Author Extraction API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/author-extraction/ "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/author-extraction/ "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-author-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-author-extraction-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-author-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-author-extraction-api-swagger.json "Edit Swagger")
 
  
 
@@ -49,9 +49,9 @@ Alchemy Author Extraction API
 
 Alchemy Authors Extraction API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/authors-extraction "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/authors-extraction "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-authors-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-authors-extraction-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-authors-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-authors-extraction-api-swagger.json "Edit Swagger")
 
  
 
@@ -63,9 +63,9 @@ Alchemy Authors Extraction API
 
 Alchemy Combined Call API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/combined-call "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/combined-call "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-combined-call-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-combined-call-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-combined-call-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-combined-call-api-swagger.json "Edit Swagger")
 
  
 
@@ -77,9 +77,9 @@ Alchemy Combined Call API
 
 Alchemy Concept Tagging API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/concept-tagging "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/concept-tagging "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-concept-tagging-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-concept-tagging-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-concept-tagging-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-concept-tagging-api-swagger.json "Edit Swagger")
 
  
 
@@ -91,9 +91,9 @@ Alchemy Concept Tagging API
 
 Alchemy Entity Extraction API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/entity-extraction "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/entity-extraction "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-entity-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-entity-extraction-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-entity-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-entity-extraction-api-swagger.json "Edit Swagger")
 
  
 
@@ -105,9 +105,9 @@ Alchemy Entity Extraction API
 
 Alchemy Face Detection API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/face-detection "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/face-detection "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-face-detection-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-face-detection-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-face-detection-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-face-detection-api-swagger.json "Edit Swagger")
 
  
 
@@ -119,9 +119,9 @@ Alchemy Face Detection API
 
 Alchemy Feed Detection API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/feed-detection "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/feed-detection "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-feed-detection-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-feed-detection-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-feed-detection-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-feed-detection-api-swagger.json "Edit Swagger")
 
  
 
@@ -133,9 +133,9 @@ Alchemy Feed Detection API
 
 Alchemy Image Link Extraction API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/image-link-extraction "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/image-link-extraction "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-image-link-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-image-link-extraction-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-image-link-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-image-link-extraction-api-swagger.json "Edit Swagger")
 
  
 
@@ -147,9 +147,9 @@ Alchemy Image Link Extraction API
 
 Alchemy Keyword and Term Extraction API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/keyword-extraction/ "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/keyword-extraction/ "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-keyword-and-term-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-keyword-and-term-extraction-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-keyword-and-term-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-keyword-and-term-extraction-api-swagger.json "Edit Swagger")
 
  
 
@@ -161,9 +161,9 @@ Alchemy Keyword and Term Extraction API
 
 Alchemy Language Detection API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/language-detection "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/language-detection "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-language-detection-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-language-detection-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-language-detection-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-language-detection-api-swagger.json "Edit Swagger")
 
  
 
@@ -175,9 +175,9 @@ Alchemy Language Detection API
 
 Alchemy Microformats Parsing API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/microformats-parsing "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/microformats-parsing "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-microformats-parsing-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-microformats-parsing-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-microformats-parsing-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-microformats-parsing-api-swagger.json "Edit Swagger")
 
  
 
@@ -189,9 +189,9 @@ Alchemy Microformats Parsing API
 
 Alchemy News API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://docs.alchemyapi.com/ "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://docs.alchemyapi.com/ "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-news-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-news-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-news-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-news-api-swagger.json "Edit Swagger")
 
  
 
@@ -203,9 +203,9 @@ Alchemy News API
 
 Alchemy Publication Date Extraction API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/publication-date "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/publication-date "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-publication-date-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-publication-date-extraction-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-publication-date-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-publication-date-extraction-api-swagger.json "Edit Swagger")
 
  
 
@@ -217,9 +217,9 @@ Alchemy Publication Date Extraction API
 
 Alchemy Relation Extraction API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/relation-extraction "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/relation-extraction "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-relation-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-relation-extraction-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-relation-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-relation-extraction-api-swagger.json "Edit Swagger")
 
  
 
@@ -231,9 +231,9 @@ Alchemy Relation Extraction API
 
 Alchemy Sentiment Analysis API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/sentiment-analysis "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/sentiment-analysis "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-sentiment-analysis-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-sentiment-analysis-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-sentiment-analysis-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-sentiment-analysis-api-swagger.json "Edit Swagger")
 
  
 
@@ -245,9 +245,9 @@ Alchemy Sentiment Analysis API
 
 Alchemy Taxonomy API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/taxonomy "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/taxonomy "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-taxonomy-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-taxonomy-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-taxonomy-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-taxonomy-api-swagger.json "Edit Swagger")
 
  
 
@@ -259,9 +259,9 @@ Alchemy Taxonomy API
 
 Alchemy Text Extraction (RAW) API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/text/urls.html#rtext "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/text/urls.html#rtext "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-raw-text-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-raw-text-extraction-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-raw-text-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-raw-text-extraction-api-swagger.json "Edit Swagger")
 
  
 
@@ -273,9 +273,9 @@ Alchemy Text Extraction (RAW) API
 
 Alchemy Text Extraction API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/text-extraction/ "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/text-extraction/ "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-text-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-text-extraction-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-text-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-text-extraction-api-swagger.json "Edit Swagger")
 
  
 
@@ -287,9 +287,9 @@ Alchemy Text Extraction API
 
 Alchemy Title Extraction API
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/text/urls.html#title "Documentation")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-list.png)](http://www.alchemyapi.com/api/text/urls.html#title "Documentation")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-title-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-title-extraction-api-swagger.json "Edit Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/alchemyapi/alchemy-title-extraction-api-swagger.json "Swagger")[(edit)](http://theapistack.com/editor-swagger-json.html?swaggerurl=http://theapistack.com/data/alchemyapi/alchemy-title-extraction-api-swagger.json "Edit Swagger")
 
  
 

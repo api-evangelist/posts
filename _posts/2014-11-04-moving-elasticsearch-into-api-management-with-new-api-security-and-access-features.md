@@ -4,7 +4,7 @@ title: >-
   Moving Elasticsearch Into API Management With New API Security And Access
   Features
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/elasticsearch/elastic-search-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/elasticsearch/elastic-search-logo.jpg
 author:
   name: kinlane
 tags:

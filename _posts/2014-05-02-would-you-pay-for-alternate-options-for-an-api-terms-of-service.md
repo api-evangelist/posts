@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Would You Pay For Alternate Options For An API Terms Of Service?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-politics.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-politics.png
 author:
   name: kinlane
 date: 2014-05-02 03:06:49+00:00

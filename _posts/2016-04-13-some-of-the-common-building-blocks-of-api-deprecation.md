@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some Of The Common Building Blocks Of API Deprecation
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-deprecation-2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-deprecation-2.png
 tags:
   - Deprecation
 ---

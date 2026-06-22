@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From CPU to API for Intel
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Intel-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Intel-logo.jpg
 author:
   name: kinlane
 tags:
@@ -27,7 +27,7 @@ Next is this a logical move for Intel? They are maker of physical things like mo
 
 Intel is known for making the thing essential ingredients “inside” our PCs, laptops, servers, smart phones and digital devices. They have been the driving force of “compute” for the last 40 years, basically my entire life. I’ve heard lots of chatter today that Intel moving from building the physical ingredients, to virtual APIs is too big of a switch for Intel, and they will fail.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/intel/intel-Expressway-Service-Gateway-Whiteboard.png)](http://cloudsecurity.intel.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/intel/intel-Expressway-Service-Gateway-Whiteboard.png)](http://cloudsecurity.intel.com/)
 
 Obviously I don’t know shit about chip manufacturing, but if Intel wants to be the leader in the next 40 years of computing, moving from central processing units (CPU) to distributed processing units (DPU) makes sense. In the past they have provided the computer, memory, graphics, networking and other essential elements we needed for personal, server or mobile computing. While these elements are still relevant at the physical level, compute has moved into the clouds and when it comes to the components or resources we will need to deliver the next generation of laptop, tablet, mobile, server, automobile or anything in the realm of Internet of Things, you will need hardened and secure API compute resources.
 

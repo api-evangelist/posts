@@ -2,7 +2,7 @@
 layout: post
 title: API Providers Guide - API Design
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-api-providers-guide-api-design-white-paper.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-evangelist-api-providers-guide-api-design-white-paper.png
 author:
   name: kinlane
 tags:

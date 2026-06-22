@@ -2,7 +2,7 @@
 layout: post
 title: Increasing The Focus On APIs In Higher Education Is Important
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/priorities/university-of-api.png
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/priorities/university-of-api.png
 author:
   name: kinlane
 tags:

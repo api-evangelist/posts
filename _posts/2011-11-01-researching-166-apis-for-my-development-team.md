@@ -2,14 +2,14 @@
 layout: post
 title: Researching 166 APIs for My Development Team
 url: http://apievangelist.com/2011/11/01/researching-166-apis-for-my-development-team/
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-Industries.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-Industries.png
 author:
   name: kinlane
 tags:
 - Research
 - APIs
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Tag-Cloud-Industries.png)](/industries/ "API Industries")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Tag-Cloud-Industries.png)](/industries/ "API Industries")
 
 I try to pay attention to how APIs are transforming as many [industries](/industries/ "API Industries") as I can. I usually carve out at least an hour each day, to evalute a specific industry, the APIs in it, trying to understand what each API delivers and how the industry works, while also identifying where the opportunities lie.
 

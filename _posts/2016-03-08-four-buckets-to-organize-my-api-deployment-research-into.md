@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Four Buckets To Organize My API Deployment Research Into
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-bucket.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-bucket.png
 author:
   name: kinlane
 date: 2016-03-08 08:15:36+00:00

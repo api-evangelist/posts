@@ -2,7 +2,7 @@
 layout: post
 title: What Do You Get When You Search For The Schema.org Logo?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_10_at_11.56.17_am.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_02_10_at_11.56.17_am.png
 atomdate: 2017-02-10T20:00:00.000Z
 tags:
   - Schema

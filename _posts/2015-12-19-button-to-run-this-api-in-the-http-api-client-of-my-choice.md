@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Button To Run This API In The HTTP API Client of My Choice
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/run-api-in-postman.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/run-api-in-postman.png
 author:
   name: kinlane
 tags:

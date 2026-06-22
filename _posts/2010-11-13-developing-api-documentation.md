@@ -2,7 +2,7 @@
 layout: post
 title: Developing API Documentation
 url: http://apievangelist.com/2010/11/13/developing-api-documentation/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

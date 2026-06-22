@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using API Definitions To Help API Providers With Their API Design Roadmap
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-journey.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-journey.png
 author:
   name: kinlane
 date: 2015-06-10 18:29:19+00:00

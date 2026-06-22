@@ -4,7 +4,7 @@ title: >-
   Microsoft Increases The Visibility Of Their API Driven Platform With A New
   Road Map
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/microsoft-cloud-platform-roadmap.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/microsoft-cloud-platform-roadmap.png
 author:
   name: kinlane
 date: 2016-01-04T08:00:00.000Z

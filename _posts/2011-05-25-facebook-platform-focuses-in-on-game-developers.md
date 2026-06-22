@@ -3,7 +3,7 @@ layout: post
 title: Facebook Platform Focuses in on Game Developers
 url: >-
   http://apievangelist.com/2011/05/25/facebook-platform-focuses-in-on-game-developers/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
   - Facebook
   - Developers
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/facebook/Facebook-Games.png)Tomorrow I'm participating in a session at [Gluecon called Finishing School for Potential API Providers](http://gluecon.com/2011/?page_id=16 "Gluecon called Finishing School for Potential API Providers").
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/facebook/Facebook-Games.png)Tomorrow I'm participating in a session at [Gluecon called Finishing School for Potential API Providers](http://gluecon.com/2011/?page_id=16 "Gluecon called Finishing School for Potential API Providers").
 
 [Justin Tormey](http://twitter.com/#!/justintormey "Justin Tormey") of Alcatel-Lucent will be talking some about segmentation of API developers to focus on the different types personalities wtihin an API ecosystem.
 

@@ -4,7 +4,7 @@ title: >-
   A Data Migration Tool To Help You Import, Export, and Sync Your Data In The
   Cloud
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/cloud-elements-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/cloud-elements-logo.png
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ I think Cloud Elements is moving the needle forward just a bit, by formalizing a
 
 I have been calling this reclaim your domain for a couple years now, where I think the process of identifying the services we depend on is extremely valuable, and one where establishing a plan for how your bits and bytes work in concert, really pushes things into the realm of actually healthy IT operations--for both individuals and businesses.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ElementLoaderWorkflow.png)](http://cloud-elements.com/element-loader/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ElementLoaderWorkflow.png)](http://cloud-elements.com/element-loader/)
 
 I do not have my world synced. My contacts on Google, LinkedIn, and other platforms are totally out of sync, and my documents are spread between Google, Amazon, and Dropbox, without any coherency at all. Don’t get me started on my images. This is a real problem, that is only growing, and a segment where I'd like to see more solutions like Element Loader emerge.
 

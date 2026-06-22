@@ -4,7 +4,7 @@ title: >-
   Exploring A New Way To Fund API Life Cycle Tooling By Open Sourcing The API
   Garage
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-garage/api-garage-vertical.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-garage/api-garage-vertical.png
 tags:
   - Tooling
   - Life Cycle

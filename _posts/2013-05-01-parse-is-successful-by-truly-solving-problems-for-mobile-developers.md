@@ -2,7 +2,7 @@
 layout: post
 title: Parse Is Successful By Truly Solving Problems for Mobile Developers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/parse-cloud.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/parse-cloud.png
 author:
   name: kinlane
 tags:

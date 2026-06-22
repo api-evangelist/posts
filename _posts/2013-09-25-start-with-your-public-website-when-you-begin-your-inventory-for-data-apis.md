@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Start With Your Public Website When You Begin Your Inventory For Data APIs
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-barcode.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-barcode.jpg
 author:
   name: kinlane
 tags:

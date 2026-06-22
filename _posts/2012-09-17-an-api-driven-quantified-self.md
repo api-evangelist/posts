@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An API Driven Quantified Self
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/quantified-self.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/quantified-self.png
 author:
   name: kinlane
 tags:

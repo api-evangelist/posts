@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Salesforce Plans to Move Code Share to Github
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/salesforce-code-share.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/salesforce-code-share.png
 author:
   name: kinlane
 tags:

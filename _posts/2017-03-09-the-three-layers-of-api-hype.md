@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Three Layers Of API Hype
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_onion.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_onion.png
 atomdate: 2017-03-09 20:00:00+00:00
 tags:
 - API Evangelist

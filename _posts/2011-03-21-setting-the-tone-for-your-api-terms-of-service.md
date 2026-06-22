@@ -3,14 +3,14 @@ layout: post
 title: Setting the Tone for your API Terms of Service
 url: >-
   http://apievangelist.com/2011/03/21/setting-the-tone-for-your-api-terms-of-service/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Terms of Service
   - Tone
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/terms-legal.jpg)I wanted to establish a base [Terms of Service](http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=150 "Terms of Service") for my API area.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/terms-legal.jpg)I wanted to establish a base [Terms of Service](http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=150 "Terms of Service") for my API area.
 
 So I went and read the API terms of service from 15 top APIs
 

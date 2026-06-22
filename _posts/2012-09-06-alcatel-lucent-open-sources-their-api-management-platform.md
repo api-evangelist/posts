@@ -4,7 +4,7 @@ title: Alcatel-Lucent Open Sources their API Management Platform
 url: >-
   http://apievangelist.com/2012/09/06/alcatel-lucent-open-sources-their-api-management-platform/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apigrove-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apigrove-logo.png
 author:
   name: kinlane
 tags:
@@ -25,7 +25,7 @@ The API management capabilities in OAP are being released under the name [apiGr
 
 Alcatel-Lucent is opening sourcing the first of the four components, allowing companies to deploy APIs and meter usage to support a variety of monetization plans, provide authentication via API key, username/password for REST and SOAP APIs.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/alcatel-lucent/apigrove/apigrove-logo.png)](http://apigrove.net/ "apiGrove")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/alcatel-lucent/apigrove/apigrove-logo.png)](http://apigrove.net/ "apiGrove")
 
 Alcatel-Lucent’s goal is to initially open source the API management component, while providing paid upgrades to API service composition, monetization and analytics, and are considering open sourcing other components in the future, when it makes sense.
 
@@ -33,7 +33,7 @@ The functionality of apiGrove API Management platform represents the basic featu
 
 Bundled with apiGrove is a GUI administration tool, providing a simple interface for administrators to use, but only represents some of the features available on the platform. To fully take advantage of apiGrove API management you need to use the API--with everything on the platform accessible via an API.
 
-![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/speakers/laura-merling.jpeg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/speakers/laura-merling.jpeg)
 
 While talking with [Laura Merling, SVP for Application Enablement at Alcatel-Lucent](http://www.linkedin.com/in/merling), she articulated that, “there is a big difference between running in the cloud and being integrated into the fabric of the cloud”, supporting Alcatel-Lucent's official response that:
 

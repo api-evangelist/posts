@@ -12,7 +12,7 @@ tags:
  - Semantics
  - Hypermedia
  - JSON-LD
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-crane-sunrise-buildings.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/francis-williams-crane-sunrise-buildings.jpeg
 ---
 I’ve been spending a lot of time bouncing between different perspectives on automation to assess what’s truly needed for AI integration. The enterprise teams I’m talking with are most interested exploring how to build on their existing investments in APIs—specifically, how to extend their OpenAPI definitions to generate the MCP servers they need. Teams are looking to build on their existing momentum with APIs, and avoid having to re-invent the wheel when it comes to responding integrating AI into their enterprise.
 

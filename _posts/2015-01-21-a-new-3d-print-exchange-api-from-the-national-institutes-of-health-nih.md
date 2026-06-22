@@ -2,7 +2,7 @@
 layout: post
 title: A New 3D Print Exchange API from the National Institutes of Health (NIH)
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/NIH-3D-Print-Exchange.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/NIH-3D-Print-Exchange.png
 author:
   name: kinlane
 tags:

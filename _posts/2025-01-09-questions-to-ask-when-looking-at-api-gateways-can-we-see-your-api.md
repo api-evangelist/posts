@@ -10,7 +10,7 @@ tags:
   - Plans
   - Automation
 image: >-
-  https://kinlane-productions2.s3.us-east-1.amazonaws.com/zuplo/zuplo-api-update-api-key.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/zuplo/zuplo-api-update-api-key.png
 ---
 One recurring paid service API Evangelist provides is helping enterprises decide which API gateway to choose from out of the multiple waves of solutions available today. Most API gateways have common features, where others are pushing forward with new features that [shape where this whole API gateway thing is going](https://apievangelist.com/2023/11/12/where-is-this-api-gateway-thing-going/), and it is difficult to always know how to assess the landscape. Even before you begin doing any work assessing the most common features of APIs gateways, one of the first questions you should be asking is, can we see your API? API Evangelist is always looking to be able to automate the following.
 

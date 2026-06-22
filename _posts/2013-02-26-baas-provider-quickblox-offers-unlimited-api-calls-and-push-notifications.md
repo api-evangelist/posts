@@ -2,7 +2,7 @@
 layout: post
 title: BaaS Provider Quickblox Offers Unlimited API Calls and Push Notifications
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/quickblox-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/quickblox-logo.png
 author:
   name: kinlane
 tags:

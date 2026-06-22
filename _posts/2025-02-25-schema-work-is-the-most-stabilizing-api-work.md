@@ -8,7 +8,7 @@ tags:
   - JSON
   - YAML
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-city-clouds-waterfront.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/green-circuit-city-clouds-waterfront.jpg
 ---
 Stop what you are doing for a moment. Close your eyes and think about how much schema is around you in your API work. Every API you produce and consume has a schema for the API, but also consumes schema as part of requests and returns schema for each API response. Schema makes up everything around you. It is what defines and validates all of the digital bits you need to get work done. When it comes to API governance it is important to always start teams out with the fundamentals of schema, focusing on how these elements are shaping our world whether we are aware or not.
 

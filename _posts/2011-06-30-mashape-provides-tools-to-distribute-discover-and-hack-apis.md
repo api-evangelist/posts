@@ -2,7 +2,7 @@
 layout: post
 title: Mashape Provides Tools to Distribute, Discover and Hack APIs
 url: http://apievangelist.com/2011/06/30/mashape-provides-tools-to-distribute-discover-and-hack-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -10,7 +10,7 @@ tags:
 - Discovery
 - APIs
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-service-providers/mashape-logo.png)](http://www.mashape.com/)I'm exploring the [Mashape API Platform](http://www.mashape.com/ "Mashape API Platform"), trying to break things down and understand everything in more detail. Blogging about a topic does this for me.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/shared/api-service-providers/mashape-logo.png)](http://www.mashape.com/)I'm exploring the [Mashape API Platform](http://www.mashape.com/ "Mashape API Platform"), trying to break things down and understand everything in more detail. Blogging about a topic does this for me.
 
 So let's start with deploying an API with Mashape.
 
@@ -28,7 +28,7 @@ Mashape then provides a way for developers to sign-up and start hacking on any A
 
 All APIs that are published kinlane-productions2.s3.amazonaws.comnicate with Mashape through an API Proxy. This is the proxy that handles the authorization of users, implementation of billing, rate limiting and other functions described above.
 
-![](http://kinlane-productions.s3.amazonaws.com/api-service-providers/mashape/Mashape-Manage-Your-API.png)Right now the proxy is primarily available via the Mashape platform, but you can also find an [open-source version of the Mashape API proxy](http://apievangelist.com/2011/06/30/open-source-version-of-the-mashape-api-proxy/ "Open-Source version of the Mashape API Proxy") on Github. The API Proxy is intended to be downloaded and installed on your servers, which will increase the performance and security of your API.
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/mashape/Mashape-Manage-Your-API.png)Right now the proxy is primarily available via the Mashape platform, but you can also find an [open-source version of the Mashape API proxy](http://apievangelist.com/2011/06/30/open-source-version-of-the-mashape-api-proxy/ "Open-Source version of the Mashape API Proxy") on Github. The API Proxy is intended to be downloaded and installed on your servers, which will increase the performance and security of your API.
 
 In addition to being able to register your API and use the [Mashape API Proxy](http://apievangelist.com/2011/06/30/open-source-version-of-the-mashape-api-proxy/ "Mashape API Proxy") in the cloud, you can [download and install](https://github.com/Mashaper/Mashape-API-Proxy "download and install") on-premise. Since it is open-source, you could also fork the code and potentially add in your own modifications to the API proxy, which is written in JavaScript and runs on the latest version of node.js
 

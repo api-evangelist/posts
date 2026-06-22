@@ -2,7 +2,7 @@
 layout: post
 title: Ocotoparts Open Source Google Spreadsheet
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/octoparts/octopart-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/octoparts/octopart-logo.jpg
 author:
   name: kinlane
 tags:

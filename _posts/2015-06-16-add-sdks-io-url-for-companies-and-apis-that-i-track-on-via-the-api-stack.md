@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Add SDKs.io URL For Companies And APIs That I Track On Via The API Stack
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sdks-io/sdks-io-logo.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sdks-io/sdks-io-logo.jpeg
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I am partnering with [APIMATIC](https://apimatic.io/) to help establish a common
 
 A portion of this work, involves making sure that the APIs in my stack are also linked to their [SDKs.io](https://sdks.io/) profile. If an API in my stack doesn't have an SDKs.io icon, I know that I either need to search and find it in SDKs.io, or I need to publish a copy of the Swagger definitions I have to APIMATIC, and publish it to SDKs.io--then record the default SDKs.io page in my system, and republish. #hakunamatata
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sdks-io/sdks-sio-api-stack-icon.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sdks-io/sdks-sio-api-stack-icon.png)
 
 Right now you will only find a handful of SDKs.io on the main listing(AngelList, Google, Eventbrite). I am just declaring that I will be doing this as part of the process moving forward. So keep an eye out for the SDKs.io icon, because it means that SDKs.io is in sync with the API Stack (or shortly will be). [For all of my own internal APIs I will be actually generating SDKs using APIMATIC](https://kin-lane.github.io/master/index.html)\--for the APIs I profile as part of my API Stack work, I'll just make sure things are in sync with SDKs.io.
 

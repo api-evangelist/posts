@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Diff And Merging Of API Definition Formats
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-diff.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-diff.png
 author:
   name: kinlane
 tags:

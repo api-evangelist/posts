@@ -2,7 +2,7 @@
 layout: post
 title: Server Side API Templates On AWS Cloud Formation And OpenShift
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/aws-CloudFormation.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aws-CloudFormation.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ For all 11 API designs I started with a [Swagger definition](https://github.com/
 
 This approach isn't just for these 11 API design templates, I'm using it for all my projects right now. I'm designing the API definition, generating and modifying the server side code, publishing Swagger UI documentation, then any client side code libraries I will need.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/openshift/openshift-logo.png)](https://www.openshift.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/openshift/openshift-logo.png)](https://www.openshift.com/)
 
 I'm publishing the API definition and Swagger UI, plus a project overview completely on Github. Currently I'm generating PHP / Slim framework driven code on AWS EC2 instance. I'm will expand this to include server side frameworks in Ruby, Python, Node.JS.
 

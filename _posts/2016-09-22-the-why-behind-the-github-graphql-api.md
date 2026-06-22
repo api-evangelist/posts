@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Why Behind The Github GraphQL API
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/the_github_graphql_api__github_engineering.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/the_github_graphql_api__github_engineering.png
 atomdate: 2016-09-22 20:00:00+00:00
 tags:
 - Github

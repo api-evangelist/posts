@@ -4,7 +4,7 @@ title: >-
   That Thing You All Are Doing With Slack Integrations, @Blockspring Is Doing It
   With Spreadsheets
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/blockspring-google-sheets-templates.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/blockspring-google-sheets-templates.jpg
 tags:
   - Spreadsheets
   - Spreadsheet

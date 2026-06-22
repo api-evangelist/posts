@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Launches HTML Game Development Course with Udacity
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-html-developer-udacity-class.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google-html-developer-udacity-class.png
 author:
   name: kinlane
 tags:

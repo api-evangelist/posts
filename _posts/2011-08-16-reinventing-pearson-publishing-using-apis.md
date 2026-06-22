@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Re-inventing Pearson Publishing using APIs
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ We hear about the struggles of newspapers, magazines, and book publishers to sta
 
 For those of us who live and breathe APIs, its easy for us to understand the power of a simple RESTful interace when it comes to content, but for publishing dinosaurs, it is much harder. I wrote a post back in May about the [publishing company Pearson, looking to unlock their content with a new API platform](http://apievangelist.com/2011/05/10/pearson-plans-api-platform-to-unlock-content/ "publishing company Pearson, looking to unlock their content with a new API platform"). Pearson made good on their promise, and launched the [Pearson Plug & Play Platform](http://developer.pearson.com/ "Pearson Plug & Play Developer Platform") at the end of July. The platform includes three content APIs:
 
-/kinlane-productions2/*   ![](https://s3.amazonaws.com/kinlane-productions/api-evangelist/pearson/Pearson-Plug-And-Play-API-iphone-app.png)**[DK's Eyewitness London Travel Guide API](http://developer.pearson.com/api/Eyewitness%2520Guide%2520to%2520London/List%2520Guide%2520Entries%2520in%2520Category/overview "DK's Eyewitness London Travel Guide API"):** Provides information about hotels, restaurants, bars and shops in London, plus insider tips on everything from where to find the best markets and traditional pubs to great attractions for children.
+/kinlane-productions2/*   ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/pearson/Pearson-Plug-And-Play-API-iphone-app.png)**[DK's Eyewitness London Travel Guide API](http://developer.pearson.com/api/Eyewitness%2520Guide%2520to%2520London/List%2520Guide%2520Entries%2520in%2520Category/overview "DK's Eyewitness London Travel Guide API"):** Provides information about hotels, restaurants, bars and shops in London, plus insider tips on everything from where to find the best markets and traditional pubs to great attractions for children.
 *   **[Financial Times (FT) Press API](http://developer.pearson.com/api/FT%2520Press/List%2520All%2520Books/overview "Financial Times (FT) Press API"):** Provides access to over 500 articles on business, management, marketing and science from award winning authors who deliver timely and authoritative content.
 *   **[Longman Dictionary of Contemporary English API](http://developer.pearson.com/api/Longman%2520Dictionary/Get%2520Entry/overview "Longman Dictionary of Contemporary English API"):** Rich multimedia dictionary containing over 230,000 words, phrases and meanings plus examples and pronunciations as MP3 and pictures.
 
@@ -26,4 +26,4 @@ I'm always skeptical of larger companies when it comes to understanding how to l
 
 What the Pearson Plug & Play team is doing can't be easy, I imagine they are up against some seriously entrenched management not just at Pearson, but with their network of partners as well. I will be keeping any eye on the [Pearson Plug & Play Platform](http://developer.pearson.com/ "Pearson Plug & Play Developer Platform"), and see what lessons we can pull from what they are doing with their innovative content APIs.
 
-[![](https://s3.amazonaws.com/kinlane-productions/api-evangelist/pearson/Pearson_WebBar_Bottom_Blue_RGB.jpg)](http://www.pearson.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/pearson/Pearson_WebBar_Bottom_Blue_RGB.jpg)](http://www.pearson.com/)

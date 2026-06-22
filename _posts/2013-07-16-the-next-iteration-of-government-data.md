@@ -2,7 +2,7 @@
 layout: post
 title: The Next Iteration of Government Data
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/next-data-gov-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/next-data-gov-screenshot.png
 author:
   name: kinlane
 tags:

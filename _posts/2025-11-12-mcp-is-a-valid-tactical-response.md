@@ -8,7 +8,7 @@ tags:
  - RPC
  - Design
  - Governance
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-arrow-in-ground.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-arrow-in-ground.jpeg
 ---
 I hear it a lot from people and GPTs about JSON RPC (ie. MCP) being simpler, direct, explicit, and possessing a reduced overhead. All true. It is a remote procedure call using JSON. You just want to get something done. It is function. It is operational. It is actionable. I get it. It scratches an itch and gets things done. Which makes sense in any given moment.
 

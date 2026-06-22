@@ -2,7 +2,7 @@
 layout: post
 title: API Terms of Service Wizard From Swedish API License
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swedish-api-license-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/swedish-api-license-2.png
 author:
   name: kinlane
 date: 2013-12-16T18:26:56.000Z
@@ -22,7 +22,7 @@ The goals with the project was to create an API license that...
 *   Respects both the publisher and the consumer of the API.
 *   Easy to understand for people without a law degree
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swedish-api-license/swedish-api-license-wizard-2.png)](http://apilicens.se/en/dokumentation/wizard/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swedish-api-license/swedish-api-license-wizard-2.png)](http://apilicens.se/en/dokumentation/wizard/)
 
 The Swedish API license covers the following areas:
 

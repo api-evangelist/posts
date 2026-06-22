@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'API Specifications Update for August 25th, 2021'
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/braceros-domingo-ulloa-san-pedro-light-cities.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-san-pedro-light-cities.jpg
 tags:
     - API Specification Update
 ---

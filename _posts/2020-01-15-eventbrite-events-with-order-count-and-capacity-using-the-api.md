@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Eventbrite Events with Order Count and Capacity Using the API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/https__cdn.evbuc.com_images_85596975_293025926021_1_original.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/https__cdn.evbuc.com_images_85596975_293025926021_1_original.png
 author:
   name: kinlane
 tags:

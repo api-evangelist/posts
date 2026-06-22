@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Including End Users In the Conversation About Their Bits Being Sold
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_31_at_2.29.16_pm.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_01_31_at_2.29.16_pm.png
 atomdate: 2017-02-01 20:00:00+00:00
 tags:
 - API Evangelist

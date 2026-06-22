@@ -4,7 +4,7 @@ title: >-
   Making Sure The Latest API Pricing Update Is Available In A Developer Portal
   Messaging Area
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/auth0-pricing-fma.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/auth0-pricing-fma.png
 author:
   name: kinlane
 tags:

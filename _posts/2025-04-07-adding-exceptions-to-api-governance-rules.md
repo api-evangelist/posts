@@ -8,7 +8,7 @@ tags:
   - Rules
   - Exceptions
   - Feedback Loops
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-supreme-court_36341562380_o.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-supreme-court_36341562380_o.jpg
 ---
 One important aspect of successfully using API governance rules as part of the automated delivery of APIs using CI/CD pipelines is the ability to ask for an exception to the rule. Every rule, especially those with a severity of “error” should have the ability to override as part of the design, development, and build of APIs. Sadly this isn’t something that is widely or consistently supported in CLI and other tooling that support Spectral or other formats. The ability to request an execution for each rule continues to build on each individual introducing a learning opportunity for teams producing APIs to learn about governance, but this is an opportunity for API governance stakeholders to learn from teams in the moment by injecting the following.
 

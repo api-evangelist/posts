@@ -10,7 +10,7 @@ tags:
   - Schema
   - Interoperability
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-statue-capital-cannon.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-statue-capital-cannon.jpg
 ---
 API service provider [Bump recently introduced an API explorer](https://bit.ly/409FCkd), and we’ve been evaluating its role within the broader ecosystem of API platform services, tooling, and the API specification landscape. Bump, known for its API documentation solutions, has a strong focus on OpenAPI. Their support for OpenAPI in the API explorer is a noteworthy addition. By enabling API consumers to interact with and explore APIs directly, Bump is shifting the narrative of API documentation back toward interactivity. This approach highlights the key strengths of OpenAPI and facilitates a smoother transition for developers to begin working with APIs as clients.
 

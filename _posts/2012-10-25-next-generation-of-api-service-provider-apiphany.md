@@ -2,7 +2,7 @@
 layout: post
 title: 'Next Generation of API Service Provider: APIphany'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/APIphany-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/APIphany-Logo.png
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ I’ve been watching their progress and they have 3 very cool projects made publ
 
 When I met the team in August, they described how they were building out so many custom projects for customers that were API driven, they decided to standardize their approach and offer a product. The APIphany API management solution provides all the standard offerings we are getting used to in the space:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/apiphany/apiphany-team.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/apiphany/apiphany-team.jpg)
 
 *   Administration Portal
 *   Developer Portal

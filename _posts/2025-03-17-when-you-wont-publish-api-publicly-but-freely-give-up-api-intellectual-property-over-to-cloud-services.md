@@ -9,7 +9,7 @@ tags:
   - Control
   - Intellectual Property
   - Artificial Intelligence
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-border-down-the-fence-line.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-border-down-the-fence-line.jpg
 ---
 Pushing back on making APIs available via a public portal is the top things I hear from enterprise leadership. Why would they want to just give away their road map and their digital resources to the competition? Those of us who understand the game and know the power of API gateways, authentication, and access control know better, but convincing leadership they aren’t giving away the farm is one of the most recurring discussions we tend to have. Where these conversation become even more frustrating is when you are perpetually having to convince leadership of the importance of having a public API portal and product catalog while you simultaneously see them freely giving up their intellectual property over to cloud services in these ways that exponentially more damaging that making an API publicly available.
 

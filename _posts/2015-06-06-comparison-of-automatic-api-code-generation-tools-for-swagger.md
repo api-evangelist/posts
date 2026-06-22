@@ -2,7 +2,7 @@
 layout: post
 title: Comparison of Automatic API Code Generation Tools For Swagger
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apimatic-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apimatic-logo.png
 author:
   name: kinlane
 tags:
@@ -92,11 +92,11 @@ I also known Adeel and Zeeshan, and know they truly care about the health and qu
 
 **Statistics for Sources of API Descriptions (Where They Found Definitions)**
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apimatic-api-definition-research-location.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apimatic-api-definition-research-location.png)
 
 **Statistics for API Descriptions Located (What Format The Definitions Were)**
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apimatic-api-definition-research-type.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apimatic-api-definition-research-type.png)
 
 There are two things interesting here, what formats are available, and where are people putting them. I’m focused heavily on supporting Swagger and API Blueprint, and often find that discovery and indexing of these definitions is very difficult. I can find definitions on Github fairly easy, but finding them on the open Internet is proving to be more challenging, and resource intensive—something I will be working with the APIMATIC team on more as well.
 

@@ -2,7 +2,7 @@
 layout: post
 title: A Web Concepts And Specifications JavaScript Library For API Providers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tooltip-js-for-web-api-concepts.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tooltip-js-for-web-api-concepts.png
 atomdate: 2016-09-07T22:00:00.000Z
 tags:
   - Web

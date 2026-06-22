@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Using My APIs.json Annotation Tool To Drive An API Design Conversation Via Github Issues
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-json-annotation.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apis-json-annotation.png
 author:
   name: kinlane
 tags:

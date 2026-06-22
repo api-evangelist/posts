@@ -10,7 +10,7 @@ tags:
   - Arazzo
   - Spectral
   - Vacuum
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-border-crossing-through-fence.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/francis-williams-border-crossing-through-fence.jpg
 ---
 My friend Jason (JSON) Harmon said something very profound about the API governance rules space](https://www.linkedin.com/feed/update/urn:li:activity:7306387751614988288/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A7306387751614988288%2C7306681446256033792)&dashCommentUrn=urn%3Ali%3Afsd_comment%3A(7306681446256033792%2Curn%3Ali%3Aactivity%3A7306387751614988288)&dashReplyUrn=urn%3Ali%3Afsd_comment%3A(7306760848339787776%2Curn%3Ali%3Aactivity%3A7306387751614988288)&replyUrn=urn%3Ali%3Acomment%3A(activity%3A7306387751614988288%2C7306760848339787776)), which I think also applies to the world of API specifications—that, “it’s both a silent and noisy space.” I just touched on this with [my story about the backwards OpenAPI world we live in](https://apievangelist.com/2025/03/19/the-backwards-openapi-world-we-live-in/), but I think it is something wider than just OpenAPI as Jason points out with Spectral rules. If you’ve worked publicly in the OpenAPI, OpenAPI, JSON Schema, or Spectral rules space for any amount of time you’ve experienced what Jason means by it being a silent and noisy space, which my definition may vary from Jason’s, but I feel is made up of the following.
 

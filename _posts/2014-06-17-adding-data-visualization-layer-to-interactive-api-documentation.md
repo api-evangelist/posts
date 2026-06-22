@@ -2,7 +2,7 @@
 layout: post
 title: Adding Data Visualization Layer to Interactive API Documentation
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/open-fda-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/fda/open-fda-logo.png
 author:
   name: kinlane
 tags:
@@ -17,6 +17,6 @@ I talk a lot about [interactive documentation for APIs](http://apievangelist.com
 
 Via the OpenFDA Drug API documentation you can actually build an API query by selecting from radio button values, which then updates the resulting URL query, some summary text, and generates a graph visualization of the resulting query. After building your filter, you can run the API query, and see the request and response, which is a common feature other interactive API documentation implementations.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/open-fda-endpoint-visualization.png)](https://open.fda.gov/drug/event/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/fda/open-fda-endpoint-visualization.png)](https://open.fda.gov/drug/event/)
 
 The addition of a visualization, that is driven by each endpoint is very interesting, and something I’d like to see baked into the DNA of interactive API documentation. Helping me build an API call, visualize and understand the value contained within an API has huge potential. Currently we have Swagger, API Blueprint, and RAML generated interactive documentation solution, which are pretty similar—I’d love to see more visualizations integrated into future interactive documentation implementations.

@@ -2,7 +2,7 @@
 layout: post
 title: Divorces, Mergers And Acquisitions, In The API Economy
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/HP-large.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/HP-large.png
 author:
   name: kinlane
 tags:

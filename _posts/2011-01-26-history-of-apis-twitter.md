@@ -2,7 +2,7 @@
 layout: post
 title: History of APIs - Twitter
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/twitter/Twitter-Introducing-The-Twitter-API.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/Twitter-Introducing-The-Twitter-API.png
 author:
   name: kinlane
 tags:

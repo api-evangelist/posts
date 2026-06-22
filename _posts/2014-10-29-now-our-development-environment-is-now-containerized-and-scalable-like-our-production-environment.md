@@ -4,7 +4,7 @@ title: >-
   Now Our Development Environment Is Now Containerized And Scalable Like Our
   Production Environment
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/codenvy/codenvy-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/codenvy/codenvy-logo.jpg
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ The production environment for delivering web and mobile applications has radica
 
 I’ve been talking about [containerization in the API space](http://apievangelist.com/2014/04/07/containers-will-do-for-apis-what-apis-do-for-companies/) for a while now, something that is still a very manual process, so I have been looking out for a potential development environment that matches my vision for orchestration with APIs for some time now. This is why I was stoked when I ran into Tyler Jewell ([@TylerJewell](https://twitter.com/TylerJewell)) back in September, who introduced me to [Codenvy](http://codenvy.co)—"a new SaaS developer environment that allows developers to create hosted environments optimized for creating, editing, compiling, testing and debugging applications authored in different programming languages”.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/codenvy/codenvy-api-ide-screenshot.png)](http://codenvy.com)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/codenvy/codenvy-api-ide-screenshot.png)](http://codenvy.com)
 
 At first glance Codenvy appears to be just another web-based IDE, with autocomplete, data source management, and Github integration. As you play with more you begin to realize you can configure and share projects, allowing you to setup environments, share and even clone them. Then you realize the whole IDE is configurable, clone-able, shareable, and scalable using the ever popular Docker, complete with API or CLI access to all work spaces, projects and files. This is the environment I was looking for—this is the orchestration I envision for building applications using APIs.
 

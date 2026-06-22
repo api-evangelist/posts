@@ -2,7 +2,7 @@
 layout: post
 title: Hand Crafted Or Generated SDKs For Your API?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apimatic-sdks.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apimatic-sdks.png
 author:
   name: kinlane
 tags:

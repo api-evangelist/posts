@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Life(middleware)Cycle API
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_gear_life_cycle.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_gear_life_cycle.png
 atomdate: 2017-02-14 20:00:00+00:00
 tags:
 - API Evangelist

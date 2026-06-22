@@ -7,7 +7,7 @@ tags:
 - API Evangelist
 - Agency
 - Security
-image: https://s3.amazonaws.com/kinlane-productions2/vanick-digital/apistrat-2018-vanick-digital.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/vanick-digital/apistrat-2018-vanick-digital.png
 ---
 <p></p>We are kicking it into overdrive now that [the schedule is up for APIStrat in Nashville, TN this September 24th through 26th](https://events.linuxfoundation.org/events/apistrat-2018/program/schedule/). From now until the event at the end of September you are going to hear me talk about all the amazing speakers we have, the companies they work for, and the interesting things they are all doing with APIs. One of the perks of being a speaker or a sponsor at APIStrat--you get coverage on API Evangelist, a become part of the buzz around [the 9th edition of the API Strategy & Practice Conference (APIStrat)](https://events.linuxfoundation.org/events/apistrat-2018/program/schedule/), now operated by the [OpenAPI Initiative (OAI)](https://www.openapis.org/) and [the Linux Foundation](https://www.linuxfoundation.org/).
 

@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Testing and Meaningful Mocks in a Microservice System by Laura Medalia'
-image: https://s3.amazonaws.com/kinlane-productions2/events/apistrat-2018/laura-medalia.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/events/apistrat-2018/laura-medalia.jpg
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/events/apistrat-2018/laura-medalia.jpg" width="45%" align="right" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/events/apistrat-2018/laura-medalia.jpg" width="45%" align="right" style="padding: 15px;" />
 <p>We are getting closer to <a href="https://events.linuxfoundation.org/events/apistrat-2018/">the 9th edition of APIStrat happening in Nashville, TN this September 24th through 26th</a>. <a href="https://events.linuxfoundation.org/events/apistrat-2018/program/schedule/">The schedule for the conference is up</a>, along with <a href="https://events.linuxfoundation.org/events/apistrat-2018/program/keynote_speakers/">the first lineup of keynote speakers</a>, and my drumbeat of stories about the event continues here on the blog. Next up in our session lineup is <em>“Testing and Meaningful Mocks in a Microservice System”</em>  by Laura Medalia (@codergirl__) of Care/Of on September 25th.
 
 <p>Here is Laura’s abstract for the session:

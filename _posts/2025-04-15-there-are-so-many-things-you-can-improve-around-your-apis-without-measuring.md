@@ -9,7 +9,7 @@ tags:
   - Planning
   - Measuring
   - Changes
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-thinking-man-5.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-thinking-man-5.jpeg
 ---
 In a very binary world it is easy to just follow everyone's lead with what seems like proven wisdom, moving forward and executing based upon what you’ve read and already know. It is easy to fall prey to common business tropes we hear while working within the machine, but I am here to remind you that it is also to always remember that you have the expertise and agency to also reject the status quo. Phrases like “you can't improve what you don't measure” are common place in our industry--used oftentimes to sell you something, but I seem them an opportunity test out your ability to think for yourself. When reading something like this I always recommend to pause, step back, and ask—-is this true? When it comes to your API operations, I bet there are plenty of things you can improve without measuring—-such as:
 

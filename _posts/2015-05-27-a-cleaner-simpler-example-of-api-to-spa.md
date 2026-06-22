@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Cleaner, Simpler Example of API To SPA
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-single-page-apps.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-single-page-apps.png
 author:
   name: kinlane
 tags:

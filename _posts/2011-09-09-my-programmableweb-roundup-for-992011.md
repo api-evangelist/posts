@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My ProgrammableWeb Roundup for 9/9/2011
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/watertown-ma-sign.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/watertown-ma-sign.jpg
 author:
   name: kinlane
 tags:

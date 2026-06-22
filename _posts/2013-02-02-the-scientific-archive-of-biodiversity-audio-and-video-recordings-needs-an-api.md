@@ -2,7 +2,7 @@
 layout: post
 title: The Scientific Archive of Biodiversity Audio and Video Recordings Needs an API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/The-Cornell-Lab-of-Ornithology-Macauay-Library.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/The-Cornell-Lab-of-Ornithology-Macauay-Library.png
 author:
   name: kinlane
 tags:

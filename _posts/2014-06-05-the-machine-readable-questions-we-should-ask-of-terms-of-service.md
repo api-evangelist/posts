@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Machine Readable Questions We Should Ask Of Terms Of Service
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/terms-of-service-didnt-read/tos-didnt-read-logo.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/terms-of-service-didnt-read/tos-didnt-read-logo.png
 author:
   name: kinlane
 date: 2014-06-05 00:09:15+00:00

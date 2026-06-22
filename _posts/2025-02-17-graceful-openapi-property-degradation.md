@@ -8,7 +8,7 @@ tags:
   - Changes
   - Versioning
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-ny-56th-foggy.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-ny-56th-foggy.jpeg
 ---
 As the [3.2 version of the OpenAPI specification](https://github.com/OAI/OpenAPI-Specification/blob/v3.2-dev/src/oas.md#tag-object) picks up momentum (get your feedback in), it is a good time to evaluate one of the [industrial-grade API capabilities that the libopenapi specification possesses](https://bit.ly/4hAxBf2). When libopenapi was developed they wanted to ensure the library could grow alongside the OpenAPI standard as it evolved. This libopenapi super power helps reduce some common pain points for teams applying OpenAPI over time, helping abstract away some of the following for teams producing APIs.
 

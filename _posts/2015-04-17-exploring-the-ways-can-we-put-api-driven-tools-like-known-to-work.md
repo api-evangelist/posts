@@ -2,7 +2,7 @@
 layout: post
 title: Exploring The Ways Can We Put API Driven Tools Like Known To Work
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/known/known-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/known/known-logo.png
 author:
   name: kinlane
 tags:
@@ -30,7 +30,7 @@ Where Known really starts to get exciting for me, is when it comes to the extens
 **API Driven Known Targets**  
 The default syndication channels that Known provides, coupled with the opportunities the plugins and webhooks introduce, open up an endless amount of POSSE scenarios for me. I envision an entire API stack deployed to support various types of Known installations. I'd like to see API driven docker containers that can auto deploy with a push of a button to provide additional syndication channels for Known. Once you have a POSSE approach established with Known, defining new API driven channels that you can take advantage of, brokering further sydnication, transformation, and storage of all of my personal and business life bits, become much easier envision.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/known/known-publishing.png)](https://withknown.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/known/known-publishing.png)](https://withknown.com/)
 
 **Who Could Put Known To Work?**  
 This is where I need to work through some of my initial thoughts about Known, and push things to new levels. Known makes sense to me when it comes to reclaiming control over my content, while also giving me a single doorway to create additional channels for syndication and publishing, beyond the Twitter, and Facebook I am already working with. However when it comes to other folks who aren't familiar with reclaim, or POSSE principles, it becomes challenging to explain how it can be put to work.

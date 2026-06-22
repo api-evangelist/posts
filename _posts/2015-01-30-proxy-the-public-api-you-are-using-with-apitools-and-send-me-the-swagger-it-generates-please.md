@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Proxy The Public API You Are Using With APITools And Send Me The Swagger It Generates, Please...
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apitools/apitools-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apitools/apitools-logo.png
 author:
   name: kinlane
 tags:

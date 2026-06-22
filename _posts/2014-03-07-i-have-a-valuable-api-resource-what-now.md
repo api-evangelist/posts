@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Have A Valuable API Resource, What Now?
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/pop-up-archive/pop-up-archive-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/pop-up-archive/pop-up-archive-logo.png
 author:
   name: kinlane
 tags:
@@ -22,7 +22,7 @@ Anne and Bailey have built a high value web site and API, and recently finished 
 
 Anne and Bailey have some great ideas about how the audio transcription API could be used, and they have some partners who are kicking the tires, understanding what is possible with integrating with Popup Archive API. This is where you start! You harness the ideas, and the early integrations and you tell the story of how the Popup Archive is providing a solution. Tell these stories on the Popup Archive Blog, on the Twitterz, and anywhere else you can find an audience.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/pop-up-archive/old%2Btime%2Bradio.jpg)](https://www.popuparchive.org/ "Pop Up Archive")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/pop-up-archive/old+time+radio.jpg)](https://www.popuparchive.org/ "Pop Up Archive")
 
 Then launch a formal idea showcase where you can submit ideas on how the Popup Archie could be put to use, allow people to browse and search the idea showcase and imagine what is possible. Next establish a section for actual case studies, and as partners and other developers successfully integrate, tell these stories as well, but in a more formal way, demonstrating established approaches for putting the Popup Archive API to use—not just the dreamy ideas. 
 

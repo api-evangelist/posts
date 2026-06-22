@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Instant Access To APIs Via Github Profile
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-github.png
 author:
   name: kinlane
 tags:

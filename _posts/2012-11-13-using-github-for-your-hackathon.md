@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Github For Your Hackathon
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/github-logo-basic.png
 author:
   name: kinlane
 tags:

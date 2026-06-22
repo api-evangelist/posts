@@ -2,7 +2,7 @@
 layout: post
 title: Thank You For Your API Evangelist Blog(s)
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/saswat-anand.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/saswat-anand.jpg
 author:
   name: kinlane
 tags:

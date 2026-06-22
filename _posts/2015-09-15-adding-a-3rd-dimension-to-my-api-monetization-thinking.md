@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding A 3rd Dimension To My API Monetization Thinking
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dimensions.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-dimensions.png
 author:
   name: kinlane
 tags:

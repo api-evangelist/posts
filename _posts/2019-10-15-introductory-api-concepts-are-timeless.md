@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Introductory API Concepts Are Timeless
-image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-64-132-800-500-0-max-0--5--1-square.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-square-64-132-800-500-0-max-0--5--1-square.jpg
 author:
   name: kinlane
 tags:

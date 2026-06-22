@@ -2,7 +2,7 @@
 layout: post
 title: The Schedule Is Up For API Strategy &amp; Practice in Amsterdam
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-conference-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/api-strategy-conference-logo.png
 author:
   name: kinlane
 tags:

@@ -12,7 +12,7 @@ tags:
   - Hints
   - Spectral
   - Editor
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-ferris-wheel-fair.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-ferris-wheel-fair.jpeg
 ---
 I wanted to encourage my customers to take advantage of a [simple API governance editor](https://apievangelist.com/2025/04/16/a-simple-api-governance-editor-for-openapi-and-spectral/) that I use in demos and workshops. [I have my own more robust version seamlessly woven into API Evangelist](https://utilities.apievangelist.com/openapi-linter/) and my processes, but I encourage my customers who are just getting started with governance to [use this simple one built by the Italian government](https://github.com/italia/api-oas-checker/blob/master/README.en.md)—-I applaud their work. However, there is one capability it has that I wanted to highlight on its own, and that is the ability to provide autocomplete or intellisense hints using JSON Schema. 
 

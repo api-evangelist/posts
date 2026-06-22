@@ -2,7 +2,7 @@
 layout: post
 title: New API for Google URL Shortener
 url: http://apievangelist.com/2011/01/11/new-api-for-google-url-shortener/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Storytelling Is Essential Companion To Open Data and APIs at World Bank
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/The-World-Bank-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/The-World-Bank-Logo.png
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ If you look through the [World Bank data catalog](http://data.worldbank.org/), a
 
 If you look at the home page of the World Bank data site today, there is a link to the blog post, "[What does data tell us about debt of high income and developing countries?](http://blogs.worldbank.org/opendata/what-does-data-tell-us-about-debt-of-high-income-and-developing-countries)" This is a great example of not just providing a dataset, but actually telling the story around the data, while providing tools that let you interact with the data, making everything a very hands on experience--increasing the chances users will make an emotional connection with the data.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/world-bank/World-Bank-Exernal-Debt-to-GDP-Ratio.png)](http://blogs.worldbank.org/opendata/what-does-data-tell-us-about-debt-of-high-income-and-developing-countries)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/world-bank/World-Bank-Exernal-Debt-to-GDP-Ratio.png)](http://blogs.worldbank.org/opendata/what-does-data-tell-us-about-debt-of-high-income-and-developing-countries)
 
 According to the blog post, the World Bank maintains two quarterly databases of information on external and public sector debt of many countries. The blog post narrates what the statistical data from the [Quarterly External Debt Statistics](http://worldbank.org/qeds) (QEDS) and the [Public Sector Debt Statistics](http://worldbank.org/qpsd) (PSD) databases tell us about trends in debt levels of some high income and developing countries, while also providing us with links to the data sets and JavaScript charts (using [Tableau Software](http://www.tableausoftware.com)) we can play with, making the story an interactive, hands-on experience.
 

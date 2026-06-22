@@ -8,7 +8,7 @@ tags:
   - Governance
   - Process
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-railroad-tracks-rocks.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-railroad-tracks-rocks.jpeg
 ---
 A lot of attention is given to a finished and complete OpenAPI for any HTTP API. This is a good thing, but it is also equally important to focus attention on the importance of everything that goes into an OpenAPI, which rises above any individual OpenAPI and contributes to the overall strength and velocity of an enterprise. Today’s OpenAPI artifact is often the result of multiple product, architect, engineering, and platform roles contributing to a single OpenAPI artifact over time, with the following ongoing benefits across teams who are producing APIs inside and outside of the enterprise.
 

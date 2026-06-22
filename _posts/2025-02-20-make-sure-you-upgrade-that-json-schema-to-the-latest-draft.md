@@ -8,7 +8,7 @@ tags:
   - Versioning
   - Tooling
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-gears-pipes-plumbing.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/green-circuit-gears-pipes-plumbing.jpg
 ---
 Every enterprise organization in the world uses [JSON Schema](https://json-schema.org/), and most have multiple versions of the specification in use, with teams largely unaware of the implications. JSON Schema is a specification design for validating JSON data, and is in use within developers IDEs to the API gateway and across API testing tooling. Not having consistent versions of JSON Schema in use across enterprise API operations can result in a number of familiar, but also less familiar and inconsistent ways. To help you upgrade and validate that your JSON Schema is correctly validating your data you can use two separate open-source solutions.
 

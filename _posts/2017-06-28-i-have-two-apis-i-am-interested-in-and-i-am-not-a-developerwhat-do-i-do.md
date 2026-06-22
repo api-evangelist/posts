@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'I Have Two APIs I Am Interested In And I Am Not A Developer--What Do I Do?'
-image: https://s3.amazonaws.com/kinlane-productions2/api-documentation-unistats.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-documentation-unistats.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/api-documentation-unistats.png" align="right" width="40%" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-documentation-unistats.png" align="right" width="40%" style="padding: 15px;" />
 <p>My friend David Kernohan (<a href="https://twitter.com/dkernohan">@dkernohan</a>) emailed me the other day asking me for some advice on where to get started working with some data APIs he had been introduced to. This is such a common question for me, and surprisingly seven years into API Evangelist they are questions I still do not have easy answers for. Partly because I spend the majority of my time writing about providing APIs, but also because API consumption is often times inconsistent, and just hard.
 
 <p>David provided me with two sources of data he wanted to work, which I think help articulate the differences between APIs, that can make things hard to work with when you are just getting started with any API. Let’s break down the two APIs he wants to work with:

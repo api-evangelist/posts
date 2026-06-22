@@ -2,7 +2,7 @@
 layout: post
 title: A Social API Performance Report From @APIMetrics
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apimetrics-social-api-performance-report.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apimetrics-social-api-performance-report.png
 author:
   name: kinlane
 tags:

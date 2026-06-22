@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: API Evangelist Industry Guide To API Definitions
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_2017_03.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_definitions_2017_03.png
 author:
   name: kinlane
 tags:

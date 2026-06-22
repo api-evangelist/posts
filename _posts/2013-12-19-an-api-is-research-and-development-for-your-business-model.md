@@ -2,7 +2,7 @@
 layout: post
 title: An API Is Research And Development For Your Business Model
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/pop-up-archive-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/pop-up-archive-logo.png
 author:
   name: kinlane
 tags:
@@ -29,7 +29,7 @@ When identifying their potential target audience, the Pop Up Archive starting wi
 **Not All API Consumers Are Created Equally**  
 When identifying your API consumers make sure you get to know their needs and goals. In the case of the Pop Up Archive, some users may be using the API for audio transcription, while others may be using it to gain access to the rich library of audio uploaded by other users. These two groups will have radically different needs, and possess very differ thresholds of what they will pay for API access. While it makes sense to charge audio transcription users for the heavy lifting of transcribing, you want to incentivize archive users to access, syndicate and share as much content as you can. Why even charge them? With a proper branding strategy these users can become the marketing vehicle of the API, building directories, sites, widgets and other content syndication that could potentially drive new users to the API.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/pop-up-archive/pop-up-archive-tapes.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/pop-up-archive/pop-up-archive-tapes.png)
 
 Anne and Bailey are doing a great job of approaching their API strategy in a very open and agile way. The worst thing any API provider can do is approach their strategy with a very rigid view, thinking they understand exactly how developers should use an API resource. The Pop Up Archive has built a great service that does two things, and does them well:
 

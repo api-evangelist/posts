@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Simplifying oAuth With oAuth.io
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/oauth-io-gear.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/oauth-io-gear.png
 author:
   name: kinlane
 tags:

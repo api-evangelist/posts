@@ -9,7 +9,7 @@ tags:
   - Politics
   - Stories
   - Downstream
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-looking-toward-sky.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-looking-toward-sky.jpeg
 ---
 I have spent a lot of time questioning APIs. It is what I do. Questioning and interrogating APIs is my way of pushing back on the machine. I have made a living doing this from inside the machine for the last fifteen years. I wanted to intimately understand how the machine works, including the technology, business, and politics of it. I get that now, but after [seeing so many APIs go from good to bad](https://apievangelist.com/2025/04/02/where-good-apis-go-bad/), and seeing APIs being wielded by this administration right alongside AI, it is a sign. I don’t feel like API Evangelist can safely operate from within the machine while also keeping from losing our soul and credibility. 
 

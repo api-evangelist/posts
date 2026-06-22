@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The API Definition For The Tyk API Gateway
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_25_at_9.00.37_pm.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_02_25_at_9.00.37_pm.png
 atomdate: 2017-02-27 20:00:00+00:00
 tags:
 - Gateway
@@ -11,15 +11,15 @@ If you are selling a service you should have an API. It is something you hear me
 
 If you need an example of this in the wild, [you don't have to look much further than my partner in crime Tyk](http://tyk.management.apievangelist.com/), who have a simple API for their API gateway--no matter where you deploy the gateway, you can manage it using it's APIs. The Tyk API Gateway API provides you with a base set of paths for you to manage your gateway.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/tyk_io_logo.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/company/logos/tyk_io_logo.png)
 
 An open source, lightweight, fast and scalable API Gateway. Set rate limiting, request throttling, and auto-renewing request quotas to manage how your users access your API. Tyk supports access tokens, HMAC request signing, basic authentication and OAuth 2.0 to integrate old and new services easily. Tyk can record and store detailed analytics which can be segmented by user, error, endpoint and client ID across multiple APIs and versions. Integrate your existing or new applications with Tyk using a simple REST API, Tyk even support hot-reloads so you can introduce new services without downtime.
 
-*   [![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-portal-developers.jpg)](http://tyk.io/)
-*   [![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-blog-icon.png)](https://tyk.io/news-2/)
-*   [![](https://s3.amazonaws.com/kinlane-productions2/building-blocks/x-signup.png)](/admin/blog/)
-*   [![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-bug.png)](/admin/blog/)
-*   [![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-terms-conditions.png)](/admin/blog/)
+*   [![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-portal-developers.jpg)](http://tyk.io/)
+*   [![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-blog-icon.png)](https://tyk.io/news-2/)
+*   [![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/x-signup.png)](/admin/blog/)
+*   [![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-bug.png)](/admin/blog/)
+*   [![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-terms-conditions.png)](/admin/blog/)
 
 Tyk API Management Paths Available
 
@@ -46,7 +46,7 @@ Tyk API Management Paths Available
 
 The Tyk API Gateway provides a base set of API management features that can be deployed in the cloud, on-premise, or on-device. Making the key ingredients for API management programmable.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_25_at_9.00.37_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_02_25_at_9.00.37_pm.png)
 
 Tyk's API Gateway represents just one component in any API operation's toolbox. [Tyk also provides an OpenAPI for the API gateway](https://github.com/TykTechnologies/tyk-swagger-definitions/blob/master/tyk_gateway_api.yml) making things much more plug and play as part of any API life cycle--something [I've made even more discoverable using APIs.json](https://raw.githubusercontent.com/kinlane/tyk-api-management/master/_data/api-commons/tyk/apis.json). Their approach provides a nice blueprint that all API providers should be following--well-defined APIs for all your services (open source if you can ;-).
 

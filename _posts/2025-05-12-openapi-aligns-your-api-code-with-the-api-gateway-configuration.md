@@ -8,7 +8,7 @@ tags:
   - OpenAPI
   - Gateways
   - Code
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-gatew-into-field.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-gatew-into-field.jpg
 ---
 It takes work to strengthen the awareness engineering teams have surrounding OpenAPI. OpenAPI is often seen as simply a configuration for producing API documentation, or possibly for generating client side SDKs, but it is the alignment between backend API code and the API gateways which can have the greatest impact. The strength of your API, as defined by a complete and accurate OpenAPI, which is used to configure your API gateway is the most important thing you can be doing to realize API governance.
 

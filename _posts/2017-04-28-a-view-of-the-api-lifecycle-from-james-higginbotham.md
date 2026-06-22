@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A View Of The API LIfecycle From James Higginbotham
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-lifecycle.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-lifecycle.png
 atomdate: 2017-04-28 18:00:00+00:00
 tags:
 - API Evangelist

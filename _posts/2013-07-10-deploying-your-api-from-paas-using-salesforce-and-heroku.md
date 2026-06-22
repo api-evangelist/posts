@@ -2,7 +2,7 @@
 layout: post
 title: Deploying Your API From PaaS Using Salesforce and Heroku
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/salesforce-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/salesforce-logo.png
 author:
   name: kinlane
 tags:

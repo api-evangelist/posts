@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Streaming API Strategy &amp; Practice Around The Globe
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-practice-steve-kin-open.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/api-strategy-practice-steve-kin-open.jpg
 author:
   name: kinlane
 tags:

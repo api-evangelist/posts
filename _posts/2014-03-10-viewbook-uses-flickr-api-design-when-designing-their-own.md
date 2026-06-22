@@ -2,7 +2,7 @@
 layout: post
 title: Viewbook Uses Flickr API Design When Designing Their Own
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/viewbook/viewbook.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/viewbook/viewbook.jpg
 author:
   name: kinlane
 tags:

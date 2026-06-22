@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: It Is Difficult To Know Where To Begin With APIs
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/starting_here.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/starting_here.jpg
 author:
   name: kinlane
 tags:

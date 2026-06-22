@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Beyond Just API Discovery: The Technical, Business &amp; Political Decisions Needed At Runtime'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-runtime-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-runtime-api.png
 atomdate: 2016-08-29 16:00:00+00:00
 tags:
 - Business

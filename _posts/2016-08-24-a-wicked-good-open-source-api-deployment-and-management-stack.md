@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Wicked (Good) Open Source API Deployment And Management Stack
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wicked-logo-140.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/wicked-logo-140.png
 atomdate: 2016-08-24 16:00:00+00:00
 tags:
 - Deployment
@@ -42,7 +42,7 @@ Allowing for either API key or OAuth will cover 75% of the use cases companies a
 *   **Group based rights to custom content -** The content section also supports group-based access, e.g. to How-tos or tutorials.
 *   **Subscription Approval Workflow -** API Plans can be configured to require an approval of subscription; you will be sent an email to a predefined email address to the approval request.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wicked-architecture-components.png)](http://wicked.haufe.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/wicked-architecture-components.png)](http://wicked.haufe.io/)
 
 While I am not a big fan of API approval workflows, as I prefer resources to be self-service, I was intrigued by the email approval feature, allowing for a (hopefully) frictionless onboarding flow that can add an additional layer of security for our most valuable of API resources.
 
@@ -61,7 +61,7 @@ Users may have one or many apps which integrate with one or many APIs. This many
 
 Using open API definitions like OpenAPI Spec, as well as providing up-to-date interactive API documentation is pretty much much the new baseline for APIs these days, and Wicked keeps up.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist-site/blog/docker-swarm-hero2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/docker-swarm-hero2.png)
 
 **Scalable Deployment  
 **Next, as if that wasn't enough, you get te scalable deployment of APIs using Docker. Wicked weaves together the DNS, deployment, and management of your APIs, and allows for modular deploy with Docker, and scaling with Docker Compose:

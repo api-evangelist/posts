@@ -2,7 +2,7 @@
 layout: post
 title: Providing Plain English Version Of API Terms of Service
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/heello-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/heello-logo.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ This is one of the most damaging aspects of online life, as through this process
 
 Service providers have to go further in educating users about the terms of service they are agreeing to. There is a great example of this in action, via an article in NextWeb called “[now THIS is how to write your startup’s Terms of Service](http://thenextweb.com/insider/2013/03/29/now-this-is-how-to-write-a-terms-of-service-document/)”. The post showcases how [real-time sharing platform Heello](http://heello.com/) has provided [plain english descriptions, next to each “legaleze” paragraph in their terms of service](https://heello.com/terms).
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/heello/heello-terms-of-service.png)](https://heello.com/terms)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/heello/heello-terms-of-service.png)](https://heello.com/terms)
 
 This is nothing new. [You see it with other providers like Tumblr](http://www.tumblr.com/policy/en/terms_of_service). But I think it is a very simple enhancement to API terms of service that can have a huge effect, and begin leading us in a more healthy direction when it comes to educating end-users about the TOS they are bound to. While companies need the protection of a legal terms of service, there is no reason you can't provide your end users with a translated, plain english version.  It doesn't take much work, and really sets you apart from other API service providers.
 

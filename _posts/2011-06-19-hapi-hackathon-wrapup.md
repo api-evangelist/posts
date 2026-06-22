@@ -2,7 +2,7 @@
 layout: post
 title: HAPI Hackathon Wrapup
 url: http://apievangelist.com/2011/06/19/hapi-hackathon-wrapup/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
 - Support
 - Twilio
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/HAPI-Hack-Weekend.png)](http://www.hapihack.com/ "HAPI Hackathon")The [HAPI hackathon](http://www.hapihack.com/ "HAPI Hackathon") wrapped up June 12th in San Francisco. The event brought developers together to hack on over 9 APIs in order to build something cool over the course of a weekend.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/HAPI-Hack-Weekend.png)](http://www.hapihack.com/ "HAPI Hackathon")The [HAPI hackathon](http://www.hapihack.com/ "HAPI Hackathon") wrapped up June 12th in San Francisco. The event brought developers together to hack on over 9 APIs in order to build something cool over the course of a weekend.
 
 The event started out Friday night with [TokBox](http://www.opentok.com/ "Tokbox"), Ebay / [Paypal](http://x.com/ "Paypal"), [Foursquare](http://developer.foursquare.com/ "Foursquare"), [Box.net](http://box.net/developers "Box.net"), [Twilio](http://twilio.com/ "Twilio"), [Genability](http://developer.genability.com/ "Genability"), [Factual](http://www.factual.com/ "Factual"), and [Mashery](http://developer.mashery.com/apis "Mashery") showcasing their companies and their APIs to developers.
 

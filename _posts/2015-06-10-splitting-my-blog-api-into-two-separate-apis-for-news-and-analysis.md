@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Splitting My Blog API Into Two Separate APIs For News And Analysis
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-blog-to-news.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-blog-to-news.png
 author:
   name: kinlane
 tags:

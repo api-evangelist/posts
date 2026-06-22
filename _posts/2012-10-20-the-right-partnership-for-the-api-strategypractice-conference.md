@@ -2,7 +2,7 @@
 layout: post
 title: The Right Partnership for the API Strategy &amp; Practice Conference
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-logo.png
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ Through the regular discussion I have with the 3Scale team, we discovered our sh
 
 Here we are, 8 weeks later, and the event is a reality. I just wanted to say thanks to 3Scale for not just sharing my vision of the API industry, but also partnering with me to make this event a reality. I hope all my readers can make it to the event and participate in the discussions about APIs, platforms, mobile, and how we can all work to solve the biggest challenges in the space.  This discussion will allow all of us to make significant change across all business sectors and at all levels of government using APIs.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-home-1.png)](http://www.apistrategyconference.com/speakers.php)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/api-strategy-home-1.png)](http://www.apistrategyconference.com/speakers.php)
 
 Make sure you are there November 1st and 2nd in New York City for the [API Strategy & Practice Conference](http://www.apistrategyconference.com/speakers.php), so your voice can be part of the solution.
 

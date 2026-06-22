@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Sharing Your API Platform Road Map And Telling The Story Like Readme.io
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist-site/blog/roadmap-readme-io.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/roadmap-readme-io.png
 author:
   name: kinlane
 tags:

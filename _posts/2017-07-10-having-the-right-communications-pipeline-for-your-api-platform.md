@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Having The Right Communications Pipeline For Your API Platform'
-image: https://s3.amazonaws.com/kinlane-productions2/matts-blog.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/matts-blog.png
 ---
 
-<p><a href="https://matthewreinbold.com/2017/07/04/SiteUpdate/"><img src="https://s3.amazonaws.com/kinlane-productions2/matts-blog.png" align="right" width="40%" style="padding: 15px;" /></a>
+<p><a href="https://matthewreinbold.com/2017/07/04/SiteUpdate/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/matts-blog.png" align="right" width="40%" style="padding: 15px;" /></a>
 <p>My friend Matthew Reinbold, formerly of Vox Pop, and now the Lead for the Capital One API Center of Excellence, as well as the maintainer of <a href="http://webapi.events/">web API events</a> has shifted <a href="https://matthewreinbold.com/2017/07/04/SiteUpdate/">his blogging platform to use Github, using Jekyll</a>. Ok, yawn, why is this news? Someone is shifting the underlying platform for their blog. Well, first Matt is one of the leading API practitioners in the space, who is also a storyteller. Second, his approach highlights a set of tools that other API providers should be considering for their API communications pipeline.
 
 <p>Matt is using a pretty potent formula for his communications platform in my opinion, with a handful of essential ingredients:

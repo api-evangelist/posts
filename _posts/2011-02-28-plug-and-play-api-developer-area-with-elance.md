@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Plug and Play API Developer Area with Elance
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ kinlane-productions2.s3.amazonaws.com Using the Elance API, I have built a plug 
 
 My API Evangelist, [API Developer Community](http://elance.apievangelist.com/ "Elance API Developer Community") prototype provides an example of what is possible when tapping into existing developer communities to satisfy the development needs of a new API community.
 
-My API developer community provides the following tools:![](http://kinlane-productions.s3.amazonaws.com/elance/elance-api-developer-area-screenshot.png)
+My API developer community provides the following tools:![](https://kinlane-images.s3.amazonaws.com/apievangelist/elance/elance-api-developer-area-screenshot.png)
 
 *   **Browse Developers (by tag)** \- Allows users to browse developers by categories (tags) that are predefined. Settings to allow API owner to only display the type of developers, skills and tags that are relevant.
 *   **All Developers Listing -** Provides a paged results of all developers for an API area.

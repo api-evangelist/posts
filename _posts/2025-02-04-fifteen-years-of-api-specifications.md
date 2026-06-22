@@ -8,7 +8,7 @@ tags:
   - Workflows
   - Overlays
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-eeob-white-house.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-eeob-white-house.jpg
 ---
 The OpenAPI specification is the most important standard we have in the API space, because of what the specification describes, but more importantly it’s wide adoption and ability to get us API producers and consumers talking and potentially on the same page. OpenAPI is not the only API specification or necessarily the “best” API specification, but it is the one that has won out when it comes to defining our most valuable and ubiquitous enterprise assets—-HTTP APIs. API Evangelist like to take a moment and celebrate all of the people who have put work into the specifications over the years, including the sister specifications, and the one that has emerged to help us standardize and govern our OpenAPI specifications.
 

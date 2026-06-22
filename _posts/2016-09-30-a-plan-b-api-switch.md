@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Plan B API Switch
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-plan-b.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-plan-b.png
 atomdate: 2016-09-30 22:00:00+00:00
 tags:
 - API Evangelist

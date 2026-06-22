@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Everyone is an API Evangelist in an API-Driven Company
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-red-seal.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-logos/api-evangelist-red-seal.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I’ve had some amazing feedback on my post about [the demand for API and devel
 
 Ironi.io’s has a unique company philosophy that addresses the need hire an API or developer evangelist. Their approach is that in an API-driven company everybody is an API and developer evangelist. Iron.io has their entire team monitoring their public chat, which has lead to everyone in the company understanding customer pain points as well as hearing the praise and positive feedback from the community.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/ironio/banner-scale-robot.png)](http://www.iron.io/ "Iron.io")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/ironio/banner-scale-robot.png)](http://www.iron.io/ "Iron.io")
 
 While it sounds simple, spreading core philosophies like this company-wide can have a transformative power. Think of [Amazon’s success after Jeff Bezos mandated](http://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/ "Amazon’s success after Jeff Bezos mandated") that, "All teams will henceforth expose their data and functionality through service interfaces."
 

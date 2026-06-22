@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Branding Embeddables That Can Boost My API Rate Limits
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_boost_incentives.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_boost_incentives.png
 atomdate: 2016-09-22 22:00:00+00:00
 tags:
 - Embeddable

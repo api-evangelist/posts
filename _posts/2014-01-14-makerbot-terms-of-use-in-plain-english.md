@@ -2,7 +2,7 @@
 layout: post
 title: Makerbot Terms of Use in Plain English
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/makerbot-thingiverse-logo-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/makerbot-thingiverse-logo-2.png
 author:
   name: kinlane
 date: 2014-01-14T21:53:28.000Z

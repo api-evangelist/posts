@@ -2,7 +2,7 @@
 layout: post
 title: Last Weeks API Strategy And Practice in Amsterdam (#APIStratAMS)
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-ams-kin-steve-opening.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apistrat-ams-kin-steve-opening.jpg
 author:
   name: kinlane
 tags:

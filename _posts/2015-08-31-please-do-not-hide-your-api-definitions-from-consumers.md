@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Please Do Not Hide Your API Definitions From Consumers
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-nose-disguise.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-nose-disguise.png
 author:
   name: kinlane
 tags:

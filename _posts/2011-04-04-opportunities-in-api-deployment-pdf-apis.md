@@ -2,7 +2,7 @@
 layout: post
 title: Opportunities in API Deployment, PDF APIs
 url: http://apievangelist.com/2011/04/04/opportunities-in-api-deployment-pdf-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -10,7 +10,7 @@ tags:
   - APIs
   - PDF
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/Tag-Cloud-API-PDF.png)I'm spending time evaluating different types of APIs in various categories.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/Tag-Cloud-API-PDF.png)I'm spending time evaluating different types of APIs in various categories.
 
 I want to see how each provider delivers their API in similar categories, and potentially look for opportunities within those categories for new API services.
 
@@ -30,7 +30,7 @@ The first main group of APIs I notice are HTML to PDF conversion APIs:
 *   [PDF Crowd](http://pdfcrowd.com/html-to-pdf-api/ "PDF Crowd")
 kinlane-productions2.s3.amazonaws.com
 
-Next there are a couple of other PDF conversion tools:![](http://kinlane-productions.s3.amazonaws.com/PDF_red.jpg)
+Next there are a couple of other PDF conversion tools:![](https://kinlane-images.s3.amazonaws.com/shared/PDF_red.jpg)
 
 *   [Anything to PDF](http://api.danielprocter.com/ "Anything to PDF") - Convert base 64 encoded data to PDF
 *   [PDF Alchemy](http://www.pdfalchemy.com/ "PDF Alchemy") - Word to PDF
@@ -50,7 +50,7 @@ There are two clear leaders that provide more advanced PDF document management s
 *   [Google Docs](http://code.google.com/apis/documents/ "Google Docs ") - File Conversion to PDF, OCR, translation
 kinlane-productions2.s3.amazonaws.com
 
-With the ubiquitous nature of PDFs, and a wide range of desktop and web based PDF tools, I think there is a huge opportunity for new types of APIs in this area. ![](http://kinlane-productions.s3.amazonaws.com/pdf-ocr.png) There are dozens of code libraries in various languages for manipulating PDFs. I would suggest some savvy developer:
+With the ubiquitous nature of PDFs, and a wide range of desktop and web based PDF tools, I think there is a huge opportunity for new types of APIs in this area. ![](https://kinlane-images.s3.amazonaws.com/apievangelist/pdf-ocr.png) There are dozens of code libraries in various languages for manipulating PDFs. I would suggest some savvy developer:
 
 *   Identify the most viable business uses for PDF APis
 *   Select the strong set of PDF language libraries

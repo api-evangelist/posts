@@ -2,7 +2,7 @@
 layout: post
 title: API Search Endpoint Using Solr
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apache-solr-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apache-solr-logo.png
 author:
   name: kinlane
 tags:

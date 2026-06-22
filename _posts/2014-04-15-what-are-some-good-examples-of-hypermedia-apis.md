@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Are Some Good Examples of Hypermedia APIs?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hypermedia.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-hypermedia.png
 author:
   name: kinlane
 tags:
@@ -25,42 +25,42 @@ Providing some much needed examples of hypermedia APIs in the wild. I haven't lo
 
 It is nice to have three clear examples of hypermedia APIs to showcase:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/foxy-cart/foxy-cart-api.png)](https://wiki.foxycart.com/v/0.0.0/hypermedia_api)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/foxy-cart/foxy-cart-api.png)](https://wiki.foxycart.com/v/0.0.0/hypermedia_api)
 
 [**FoxyCart**](https://wiki.foxycart.com/v/0.0.0/hypermedia_api)  
 A hypermedia example from the world of commerce, providing an example that fits nicely into the API economy.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/family-search/family-search-api.png)](https://familysearch.org/developers/docs/guides)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/family-search/family-search-api.png)](https://familysearch.org/developers/docs/guides)
 
 [**FamilySearch**](https://familysearch.org/developers/docs/guides)  
 An interesting approach to using hypermedia APIs for discovering and managing your family history.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/huddle/huddle-api.png)](https://code.google.com/p/huddle-apis/wiki/BasicConcepts)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/huddle/huddle-api.png)](https://code.google.com/p/huddle-apis/wiki/BasicConcepts)
 
 [**Huddle**](https://code.google.com/p/huddle-apis/wiki/BasicConcepts)  
 An enteprise example of hypermdia APIs from the content collaboration platform huddle. 
 
-[![](https://s3.amazonaws.com/kinlane-productions2/AWS_LOGO_CMYK.jpg)](http://docs.aws.amazon.com/appstream/latest/developerguide/rest-api.html)
+[![](https://kinlane-images.s3.amazonaws.com/shared/AWS_LOGO_CMYK.jpg)](http://docs.aws.amazon.com/appstream/latest/developerguide/rest-api.html)
 
 [**Amazon AppStream REST API**](http://docs.aws.amazon.com/appstream/latest/developerguide/rest-api.html)  
 The Amazon AppStream web service provides APIs you can call to manage applications hosted on Amazon AppStream and to manage client sessions connecting to those applications.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/clarify/clarify-logo.png)](http://clarify.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/clarify/clarify-logo.png)](http://clarify.io/)
 
 [**Clarify**](http://clarify.io/)  
 Our platform makes searching AV files simple for developers to integrate into their applications. This means the valuable mindspace and the time of developers can be employed building new and better services that use the information locked up in existing and growing AV libraries. In other words Clarify connects your AV files with their potential.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/lync/lync-web-developer-logo.png)](https://ucwa.lync.com/documentation/GettingStarted-WebLinks)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/lync/lync-web-developer-logo.png)](https://ucwa.lync.com/documentation/GettingStarted-WebLinks)
 
 [**Microsoft Lync Web Developer**](https://ucwa.lync.com/documentation/GettingStarted-WebLinks)  
 Microsoft’s Unified Communications Web API (UCWA) is the Next Generation Platform for Mobile and Web Development.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/paypal/paypal-developer-logo.png)](https://developer.paypal.com/docs/api/#hateoas-links)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/paypal/paypal-developer-logo.png)](https://developer.paypal.com/docs/api/#hateoas-links)
 
 [**PayPal REST API**](https://developer.paypal.com/docs/api/#hateoas-links)  
 One of the key features of the PayPal REST API is HATEOAS (Hypertext As The Engine Of Application State).
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/verticalresponse/verticalresponse-developers-logo.png)](http://developer.verticalresponse.com/docs/read/HATEOAS_API)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/verticalresponse/verticalresponse-developers-logo.png)](http://developer.verticalresponse.com/docs/read/HATEOAS_API)
 
 [**VerticalResponse**](http://developer.verticalresponse.com/docs/read/HATEOAS_API)  
 VerticalResponse's API generally follows the REST model, based on the principles behind HTTP.

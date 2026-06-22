@@ -2,7 +2,7 @@
 layout: post
 title: A Drone Law API For Use In Planning And At Flight Time
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/copy_of_united_states_data_map.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/copy_of_united_states_data_map.jpg
 atomdate: 2016-10-28T20:00:00.000Z
 tags:
   - Planning

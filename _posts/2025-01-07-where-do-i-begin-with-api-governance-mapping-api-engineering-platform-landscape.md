@@ -8,7 +8,7 @@ tags:
   - Business Platform
   - Platform
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-statue-of-liberty-front-bright.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-statue-of-liberty-front-bright.jpg
 ---
 This is where we move from the current state of where to start with API governance to beginning to shape what the future state will look like. This is about mapping out the engineering platform, real or desired, which will provide the guard rails for teams who are producing APIs, and eventually the consumers who are putting those APIs to work in applications and integrations. The API engineering platform landscape map is about documenting the common resources that will be provided to teams in a centralized or federated manner.
 

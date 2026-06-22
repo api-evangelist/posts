@@ -4,7 +4,7 @@ title: >-
   API Integration Service Providers Should Have An API So That Their Actions Are
   Embeddable
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/services/bw-embeddable.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/services/bw-embeddable.png
 tags:
   - Embeddable
   - Integration

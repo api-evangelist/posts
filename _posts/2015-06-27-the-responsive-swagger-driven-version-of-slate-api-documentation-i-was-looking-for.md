@@ -4,7 +4,7 @@ title: >-
   The Responsive Swagger Driven Version of Slate API Documentation I Was Looking
   For
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-explorer.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/swagger-explorer.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ tags:
 
 [The more response, Swagger driven version of Slate API document is perfect](https://github.com/jensoleg/swagger-ui)! Giving API providers a more attractive, response version of Swagger UI (sorry Tony), while also keeping the core machine readable.--it is the best of both worlds! I plugged in one of my other complete Swagger definitions, and boom...I had a new version of my API docs.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-explorer.png)](http://senodio.com/site/swagger/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/swagger-explorer.png)](http://senodio.com/site/swagger/)
 
 Tips like this from my readers is why I blog about all my ideas out loud. If I kept my thoughts locked up, this type of discovery would never occur. I am going to play with deploying this version of the Swagger UI for my API stack, to see how versatile it is, and how well it works with my own site template. 
 

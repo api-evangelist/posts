@@ -6,7 +6,7 @@ title: >-
 sourceurl: >-
   http://apievangelist.com/2014/10/25/i-am-using-kimono-labs-to-fill-in-gap-for-companies-who-do-not-have-an-rss-feed-for-their-blog/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/kimono-labs-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/kimono-labs-logo.png
 author:
   name: kinlane
 tags:

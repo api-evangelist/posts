@@ -2,7 +2,7 @@
 layout: post
 title: App Design With An Acquire, Process, Publish API Architecture
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/seabourne-logo-2013.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/seabourne-logo-2013.png
 author:
   name: kinlane
 tags:
@@ -23,7 +23,7 @@ I think that pretty much describes the challenges we face building web and mobil
 
 Using GovInfo, anyone can sign up to receive alerts from more than 100 different federal agency websites. GovInfo gets its information from a large number of sources ranging from RSS, APIs or scraped from HTML sources. Once acquired, the framework de-dupes, cleanses and normalizes the data as needed, then makes available for publishing or pushing out via email, SMS or other means.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/seabourne-inc/govinfo_diagram.png)](http://seabourneinc.com/ "Seabourne")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/seabourne-inc/govinfo_diagram.png)](http://seabourneinc.com/ "Seabourne")
 
 The Seabourne approach is not just [rethinking extract, transform and load (ETL)](http://seabourneinc.com/2013/02/08/rethinking-etl-for-the-api-age/), but also makes your app platform centered around acquire, process and publish, in a way that improves flexibility, centralizes processing rules for all incoming information and reduces the amount of time it takes to add new sources of data, all while providing scalability, in a very granular way.
 

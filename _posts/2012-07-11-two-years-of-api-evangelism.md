@@ -2,7 +2,7 @@
 layout: post
 title: Two Years of API Evangelism
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-logo-250.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-evangelist-logo-250.png
 author:
   name: kinlane
 tags:

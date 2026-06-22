@@ -2,7 +2,7 @@
 layout: post
 title: Liberate Government Data By Deploying Web APIs With Solr
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apache-solr/apache-solr-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apache-solr/apache-solr-logo.png
 author:
   name: kinlane
 tags:

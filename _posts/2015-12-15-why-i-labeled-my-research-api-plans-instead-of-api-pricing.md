@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why I Labeled My Research API Plans Instead Of API Pricing
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-plan.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-plan.png
 author:
   name: kinlane
 tags:

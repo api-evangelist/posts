@@ -2,7 +2,7 @@
 layout: post
 title: You Can&#039;t Spell Capitalism Without API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/you-cant-spell-capitalism-without-api.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/you-cant-spell-capitalism-without-api.jpg
 author:
   name: kinlane
 tags:

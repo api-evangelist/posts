@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Definitions Influencing API Design
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-two-arrows.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-two-arrows.png
 atomdate: 2017-02-17 23:00:00+00:00
 tags:
 - Design

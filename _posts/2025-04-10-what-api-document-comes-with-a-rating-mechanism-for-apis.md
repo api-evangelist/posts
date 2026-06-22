@@ -6,7 +6,7 @@ date: 2025-04-10T09:00:00.000Z
 tags:
   - Documentation
   - Ratings
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-corner-restaurant.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-corner-restaurant.jpeg
 ---
 I had someone from a large enterprise ask me about the opportunity around updating their documentation and including a rating for each API as part of the documentation. There are couple of streams being cross here at the intersection of portals, documentation, catalog, discovery, and governance, which makes this a difficult thing to solve out of the box, but I wanted to recommend two solutions for them from vendors who have invested in a couple of these areas, but are coming at from very different places.
 

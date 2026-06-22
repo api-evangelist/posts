@@ -2,7 +2,7 @@
 layout: post
 title: Standard Energy Efficiency Data APIs For Buildings
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/doe/seed_database_graphic.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/doe/seed_database_graphic.jpg
 author:
   name: kinlane
 tags:

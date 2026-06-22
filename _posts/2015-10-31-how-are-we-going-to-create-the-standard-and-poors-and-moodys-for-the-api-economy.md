@@ -5,7 +5,7 @@ title: >-
   Economy?
 url: >-
   http://apievangelist.com/2015/10/31/how-are-we-going-to-create-the-standard-and-poors-and-moodys-for-the-api-economy/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -47,7 +47,7 @@ I have worked hard to understand the line between the tech, and the business of 
 
 An API platform reflects the core business values of the company that operates it. The business of an API sets the tone for their entire community, something API consumers can contribute to, but it is ultimately left to the platform provider to set overall. It is fairly easy to identify bad actors, because of significant gaps in the business model, support, and communication around platform operations. There are many other aspects of API business operations to consider, but this provides a good base to start.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-fist.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-fist.png)
 
 **The Politics of APIs**  
 In the last three years, another significant line has emerged when determining which APIs are good ones, and which are the bad ones. While much of this area depends on legal building blocks of API operations, I call it the politics of APIs, because it tends to reflect the politics of a company, or maybe the industry it resides in. Some of these areas will make or break APIs, and definitely put them in the good or bad bucket.
@@ -78,7 +78,7 @@ What information can API providers share, and what signals are the sending, eith
 
 It may sound silly to track on such basic things, but when a platform is about to die, the blog and Twitter accounts go silent, and you see diminished activity on Github. These content and social signals are the heartbeat of modern API operations. If you aren't telling stories, being social, and pushing code on a regular basis, your overall rating in the space goes down.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-signals.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-signals.png)
 
 **The Signals From The Community, Industry, and Open Web**  
 What is the community saying about a platform? This is one of the benefits of being a public API operation is you can generate the right signals across the space that attract other developers, businesses, analysts, and generally open you up for inclusion in any potential API rating systems. What are some of the common signals the community sends, that could be gathered as part of an open API rating system?
@@ -124,7 +124,7 @@ There are a number of government induced influences that could impact the rating
 **It Will Take Everyone Working Together To Make This Work**  
 A realistic API rating system or systems, will take work between all the groups listed above. API providers will have to step up and be more transparent, and share the data they possess. The developer community, API service providers, and the public at large will have to share information, and knowledge they accumulate from across the space. Analysts are going to have to step up, providing leadership and analysis across all industries, as well as within specific industries. The government will play a role in not just regulating industries, but also being API providers, and consumers themselves, providing valuable data, and aggregate resources, as well as informed analysis from the vital public sector perspective.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-blueprint-2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-blueprint-2.png)
 
 **How Do We Make Sure An Share An Open Blueprint For Rating Algorithm(s) Exists?**  
 This post is just an executive summary of the summary data points I'd like to see in a potential open API rating algorithm. Ultimately I'd like to see an API-Rating outline published to Github, outlining all of the areas I track on. I'm happy to be caretaker of these open blueprints, and use Github to store the algorithm, and public or proprietary data that goes into the end rating. Ultimately it should be an open, and transparent blueprint that anyone can follow, or contribute to.

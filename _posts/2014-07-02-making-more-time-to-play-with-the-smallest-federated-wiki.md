@@ -2,7 +2,7 @@
 layout: post
 title: Making More Time To Play With The Smallest Federated Wiki
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/smallest-federated-wiki/smallest-federated-wiki.png
+  https://kinlane-images.s3.amazonaws.com/shared/smallest-federated-wiki/smallest-federated-wiki.png
 author:
   name: kinlane
 tags:

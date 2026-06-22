@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Pushed 1173 API Definitions To The API Stack
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_stack_screen.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_stack_screen.png
 atomdate: 2017-05-04 19:00:00+00:00
 tags:
 - Definitions

@@ -4,7 +4,7 @@ title: >-
   Going Beyond Just API Status And Providing An Official API Monitoring
   Service(s) With Your API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-science-monitors.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-science-monitors.png
 author:
   name: kinlane
 tags:

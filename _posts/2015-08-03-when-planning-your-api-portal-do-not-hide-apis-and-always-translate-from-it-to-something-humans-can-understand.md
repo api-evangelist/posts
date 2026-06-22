@@ -4,7 +4,7 @@ title: >-
   When Planning Your API Portal Do Not Hide APIs and Always Translate From IT To
   Something Humans Can Understand
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/osu-banner-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/osu-banner-logo.png
 author:
   name: kinlane
 tags:
@@ -21,7 +21,7 @@ This evolution has been slowly pulling back the curtain of IT, exposing more of 
 
 As I was updating my university API work, [I stumbled across the same evolution occurring at The Ohio State University](https://kmdata.osu.edu/s/). When you land on this API developer portal, you are given no signal that this contains course, and other valuable campus related APIs.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/the-ohio-state-university-api-portal-hidden.png)](https://kmdata.osu.edu/s/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/the-ohio-state-university-api-portal-hidden.png)](https://kmdata.osu.edu/s/)
 
 This API effort is born out of a classic IT lead project, and while it brings forward some healthy API patterns, it also carries forth the language and culture of IT. I am not saying the team behind the API portal is approaching their portal with intentional bias, these types of efforts are common, and often done by very well meaning groups, who only shortcomings are they don't think about reaching a widest audience possible. 
 

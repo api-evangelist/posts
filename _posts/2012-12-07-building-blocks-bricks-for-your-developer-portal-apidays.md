@@ -2,7 +2,7 @@
 layout: post
 title: 'Building Blocks (Bricks) For Your Developer Portal #APIDays'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-logo.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/api-days-logo.png
 author:
   name: kinlane
 tags:

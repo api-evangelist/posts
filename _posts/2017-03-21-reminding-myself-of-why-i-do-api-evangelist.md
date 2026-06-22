@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reminding Myself Of Why I Do API Evangelist
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-site/blog/kin-lane-drone-catch.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-drone-catch.png
 atomdate: 2017-03-21 22:00:00+00:00
 tags:
 - API Evangelist

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Expanding On My API Monetization Strategy And Research
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-monetization-strategy.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-monetization-strategy.png
 author:
   name: kinlane
 tags:
@@ -123,7 +123,7 @@ The goal of my platform is not simply to make money. Sure I like making money, b
 
 All of this looks intimidating when you scroll back through. However my goal is to produce a standardized pricing page that can exist across all of my API ecosystem(s), which are growing in number, and prompting me to think in this way. I need a better handle on my costs, and ultimately be able to generate more revenue to keep me with a roof over my head, food on the table, and my AWS bill paid.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-building-blocks-monetization.png)](http://monetization.apievangelist.com/building-blocks.html)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-building-blocks-monetization.png)](http://monetization.apievangelist.com/building-blocks.html)
 
 [While I only have a single API portal right now](https://kin-lane.github.io/master/), I'm preparing to deploy a specific collection using [APIs.json](http://apisjson.org) and publish as version 2.0 of my API Evangelist developer portal. I'm also looking to immediately publish a few other API portals, designed to support various collections or stacks of APIs available in my network (images, API definitions, etc.). I need a standard way to deliver on-boarding, and pricing for the APIs, and this backend framework gives me the v1 approach to that. 
 

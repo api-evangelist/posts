@@ -2,7 +2,7 @@
 layout: post
 title: Constant Contact Provides Good Blueprint For An API Getting Started Page
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Get_Started_Constant_Contact_Developer.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Get_Started_Constant_Contact_Developer.png
 atomdate: 2016-08-11T16:00:00.000Z
 tags:
   - Getting Started

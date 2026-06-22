@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Limited Medium API Means I Do Not Always Curate What Is Published There
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/medium.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/medium.png
 atomdate: 2017-02-01 17:00:00+00:00
 tags:
 - API Evangelist

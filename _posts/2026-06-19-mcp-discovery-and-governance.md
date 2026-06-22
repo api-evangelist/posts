@@ -10,7 +10,7 @@ tags:
   - AI
   - APIs
   - Business of APIs
-image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-images/2026-06-19-mcp-discovery-and-governance.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/2026-06-19-mcp-discovery-and-governance.png
 ---
 I am working through research on "MCP governance"—meaning, what others out there are calling MCP governance. As with APIs, there is a wide mix of smoke, mirrors, and concrete practices around what governance of this new set of API patterns actually is.
 
@@ -57,4 +57,4 @@ For me, there isn't anything new with MCP. This is pretty classic API governance
 
 Then I want to keep doing the work to wordsmith the language and bullets I use to emphasize the cost, risk, and velocity considerations when integrating AI into business operations—which is all about APIs, whether people want to admit it or not.
 
-<p align="center"><img src="https://kinlane-productions2.s3.amazonaws.com/api-evangelist-images/2026-06-19-mcp-discovery-and-governance.png" alt="The MCP Governance Venn — Cost, Risk, Velocity" width="80%"></p>
+<p align="center"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/2026-06-19-mcp-discovery-and-governance.png" alt="The MCP Governance Venn — Cost, Risk, Velocity" width="80%"></p>

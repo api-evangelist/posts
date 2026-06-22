@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'My Turkey Holiday Project: A Subway Map API'
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-evangelist-metro-map-575.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-evangelist-metro-map-575.png
 author:
   name: kinlane
 tags:

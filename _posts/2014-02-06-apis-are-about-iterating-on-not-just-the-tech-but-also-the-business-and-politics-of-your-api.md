@@ -4,7 +4,7 @@ title: >-
   APIs Are About Iterating On Not Just The Tech, But Also The Business and
   Politics Of Your API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/marvel-comics/marvel-avengers-logo.jpg"
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/marvel-comics/marvel-avengers-logo.jpg"
 tags:
   - Business
   - Politics

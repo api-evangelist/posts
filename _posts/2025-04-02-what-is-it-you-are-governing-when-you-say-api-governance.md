@@ -8,7 +8,7 @@ tags:
   - People
   - Process
   - Vendors
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-statue-supreme-court.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/citizenship-statue-supreme-court.jpg
 ---
 Like many aspects of our API operations when you say API governance it will mean different things to different people. So, it is always helpful to ensure that people are on the same page when it comes to your definition of API governance, and what your intention is. [I’ve explored the definition of API governance before](https://apievangelist.com/2024/02/22/what-is-api-governance/), and how it overlaps with the governance of countries and even engines, but the misconceptions and overlaps in which people tend to see API governance addressing tend to focus on four key areas.
 

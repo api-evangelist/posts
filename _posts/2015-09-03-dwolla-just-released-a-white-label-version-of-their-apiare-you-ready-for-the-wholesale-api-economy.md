@@ -4,7 +4,7 @@ title: >-
   Dwolla Just Released A White Label Version Of Their API -- Are You Ready For
   The Wholesale API Economy?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dwolla-white-label-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dwolla-white-label-api.png
 author:
   name: kinlane
 tags:

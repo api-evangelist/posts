@@ -1,7 +1,7 @@
 ---
 layout: post
 title: There Is More To This Than Just Having An API
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/sonossystem.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/sonossystem.png
 atomdate: 2017-03-07 23:00:00+00:00
 tags:
 - API Evangelist

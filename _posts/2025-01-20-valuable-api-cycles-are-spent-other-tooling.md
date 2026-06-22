@@ -7,7 +7,7 @@ tags:
   - Distractions
   - Automation
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/dark-dali-fixing-satellite-1.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/dark-dali-fixing-satellite-1.jpeg
 ---
 When you work within the enterprise reaching out to other teams for alignment around API governance policies and rules, you tend to encounter a lot of pushback and redirection from teams who see you as being in the way of what they are trying to accomplish. In technology, rather than taking the time to learn something new and just slow down a little bit to understand API goverance, teams often choose to perfect the art of deflection and redirection using whatever they have in their toolbox, with one of the most common tools irconically being about “other tooling” of the API policies and rules on the table in some of the following ways.
 

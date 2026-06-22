@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Look Across My API Monitoring API Methods By Grouping Them Using Tag
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-monitoring-tag-cloud.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-monitoring-tag-cloud.png
 author:
   name: kinlane
 tags:

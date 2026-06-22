@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Modern API Service Providers Need To Speak Common API Definition Formats
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-speak-api-definitions.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-speak-api-definitions.png
 author:
   name: kinlane
 tags:

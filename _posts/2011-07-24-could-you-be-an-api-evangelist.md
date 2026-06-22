@@ -2,14 +2,14 @@
 layout: post
 title: Could you be an API Evangelist?
 url: http://apievangelist.com/2011/07/24/could-you-be-an-api-evangelist/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - API Evangelist
   - Evangelist
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/api-evangelist-tag-cloud-1.png)In the summer of 2010 I was looking to reinvent my career. I was looking for a new direction. Somewhere I could apply all my strengths, and stay relevant and at the forefront of a fast changing tech landscape.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-evangelist-tag-cloud-1.png)In the summer of 2010 I was looking to reinvent my career. I was looking for a new direction. Somewhere I could apply all my strengths, and stay relevant and at the forefront of a fast changing tech landscape.
 
 As part of this effort, I spent some time considering what areas dominated the past 5 years of my career. Looking at my resume, social media and cloud computing were the two major themes. Then I put some thought into what technology is dominating right now, and will continue growing in the next couple years. The answer was mobile technology.
 

@@ -4,7 +4,7 @@ title: >-
   API Integration, Aggregation, Organization, and Reciprocity with Cloud
   Elements
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/cloud-elements-element-mapper.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/cloud-elements-element-mapper.png
 author:
   name: kinlane
 tags:

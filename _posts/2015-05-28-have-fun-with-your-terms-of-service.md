@@ -3,7 +3,7 @@ published: true
 layout: post
 title: '"Have Fun with Your Terms of Service"'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/slack/slack-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/slack/slack-logo.jpg
 author:
   name: kinlane
 tags:

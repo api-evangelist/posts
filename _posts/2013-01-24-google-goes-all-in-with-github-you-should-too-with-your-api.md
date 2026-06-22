@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Goes All In With Github, You Should Too With Your API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-cloud-platform.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google-cloud-platform.png
 author:
   name: kinlane
 tags:

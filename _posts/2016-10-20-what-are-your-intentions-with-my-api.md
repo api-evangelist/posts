@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Are Your Intentions With My API?
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_19_at_4.41.44_pm.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_19_at_4.41.44_pm.png
 atomdate: 2016-10-20 16:00:00+00:00
 tags: []
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hoping Schema Becomes Just As Important As API Definitions in 2017
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/schema_starburst.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/schema_starburst.png
 atomdate: 2017-01-10 23:00:00+00:00
 tags:
 - Definitions

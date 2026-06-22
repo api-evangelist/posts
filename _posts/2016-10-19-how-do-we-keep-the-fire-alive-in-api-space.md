@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Do We Keep The Fire Alive In API Space?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-flame.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-flame.png
 atomdate: 2016-10-19 22:00:00+00:00
 tags:
 - API Evangelist

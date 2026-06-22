@@ -2,7 +2,7 @@
 layout: post
 title: Using Anchors In Your FAQ And Other API Support Pages
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Web_API_User_Guide_-_Spotify_Developer.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Web_API_User_Guide_-_Spotify_Developer.png
 atomdate: 2016-08-26T16:00:00.000Z
 tags:
   - Support

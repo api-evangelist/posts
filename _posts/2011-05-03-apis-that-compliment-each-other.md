@@ -1,7 +1,7 @@
 ---
 layout: post
 title: APIs That Compliment Each Other
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ As an API Evangelist I look for other APIs that enhance the [Mimeo Connect Cloud
 
 Today I saw that[Rdio](http://rdio.com), the social music service [announce their partnership](http://blog.rdio.com/post/5161479190/announcing-rdios-partnership-with-the-echo-nest "announce their partnership") with [The Echo Nest](http://the.echonest.com/ "The Echo Nest"), a music intelligence platform.
 
-They are partnering behind the scenes, but I'm sure the API is the driving force behind this relationship.[![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/the-echo-nest.gif)](http://the.echonest.com/ "The Echo Nest")
+They are partnering behind the scenes, but I'm sure the API is the driving force behind this relationship.[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/the-echo-nest.gif)](http://the.echonest.com/ "The Echo Nest")
 
 APIs enable new types of partnerships, and even allow API providers to work together and offer a more collective value.
 

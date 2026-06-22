@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fascinated With The Algorithm
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-algorithms.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-algorithms.png
 atomdate: 2016-08-09 22:00:00+00:00
 tags:
 - API Evangelist

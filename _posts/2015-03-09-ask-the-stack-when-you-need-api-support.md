@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ask The Stack When You Need API Support
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/stackoverflow/stackoverflow-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/stackoverflow/stackoverflow-logo.png
 author:
   name: kinlane
 tags:

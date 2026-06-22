@@ -3,7 +3,7 @@ layout: post
 title: "The Bullshit Levels Came Down at APIDays NYC"
 date: 2026-05-16
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-nyc-public-library.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-nyc-public-library.jpeg
 category: "Blog"
 excerpt: "I am just processing what happened the last couple of days at APIDays NYC. I spent Wednesday and Thursday. I love events that I can sleep at home each night, but I'd say that APIDays NYC is my new favorite event because it is focused on APIs, has many of the usual suspects I like to see from the API realm, but also because the bullshit levels came down a little bit from last year."
 ---

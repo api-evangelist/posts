@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Top 5 Most Popular Themes On API Evangelist In 2014
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-trends.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-trends.png
 author:
   name: kinlane
 tags:

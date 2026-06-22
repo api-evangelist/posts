@@ -2,7 +2,7 @@
 layout: post
 title: Where Do I Start With The Storytelling Drumbeat For Our API?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-evangelism-bubble.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-evangelism-bubble.png
 author:
   name: kinlane
 tags:

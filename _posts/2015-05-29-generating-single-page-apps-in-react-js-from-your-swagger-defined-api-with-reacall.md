@@ -5,7 +5,7 @@ title: >-
   Generating Single Page Apps In React.js From Your Swagger Defined API With
   ReaCall
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/project-reacall/project-reacall-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/project-reacall/project-reacall-logo.png
 author:
   name: kinlane
 tags:

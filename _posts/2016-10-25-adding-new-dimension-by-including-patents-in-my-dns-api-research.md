@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding New Dimension By Including Patents In My DNS API Research
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/uspto.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/uspto.png
 atomdate: 2016-10-25 22:00:00+00:00
 tags:
 - Patents

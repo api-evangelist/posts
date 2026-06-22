@@ -9,7 +9,7 @@ tags:
   - Portals
   - Presence
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-old-car-model-t.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-old-car-model-t.jpg
 ---
 [The previous example of how the credit card companies handled their public API presence](https://apievangelist.com/2025/02/24/what-stands-out-across-the-apis-for-the-seven-major-credit-card-companies/) provides a very strong industry for showcasing APIs in a heavily regulated space. Grownup APIs. Another interesting business sector to look at is the [automobile industry](https://vocabularies.apievangelist.com/details/?vocabularyId=automobiles), which has some shining examples like credit card companies, but there are also a lot more non-existent, and messier approaches to learn from within the automobile space. Across the automobile manufacturers you can really enterprises who are at very different points in their API journey, which help contrast their approaches in useful ways.
 
@@ -30,37 +30,37 @@ image: >-
  </div>
  <div class="carousel-inner">
    <div class="carousel-item active">
-     <a href="https://aos-portal.bmwgroup.com/" target="_blank"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/automobiles/bmw-screenshot.png" class="d-block w-100" alt="BMW"></a>
+     <a href="https://aos-portal.bmwgroup.com/" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/automobiles/bmw-screenshot.png" class="d-block w-100" alt="BMW"></a>
    </div>
    <div class="carousel-item">
-     <a href="https://developer.ford.com/" target="_blank"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/automobiles/ford-screenshot.png" class="d-block w-100" alt="Ford"></a>
+     <a href="https://developer.ford.com/" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/automobiles/ford-screenshot.png" class="d-block w-100" alt="Ford"></a>
    </div>
    <div class="carousel-item">
-     <a href="https://developer.gm.com/" target="_blank"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/automobiles/general-motors-screenshot.png" class="d-block w-100" alt="General Motors"></a>
+     <a href="https://developer.gm.com/" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/automobiles/general-motors-screenshot.png" class="d-block w-100" alt="General Motors"></a>
    </div>
    <div class="carousel-item">
-     <a href="https://csat.services.honda.com/swagger/ui/index.html" target="_blank"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/automobiles/honda-screenshot.png" class="d-block w-100" alt="Honda"></a>
+     <a href="https://csat.services.honda.com/swagger/ui/index.html" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/automobiles/honda-screenshot.png" class="d-block w-100" alt="Honda"></a>
    </div>   
    <div class="carousel-item">
-     <a href="https://www.hyundaiusa.com/us/en" target="_blank"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/automobiles/hyundai-screenshot.png" class="d-block w-100" alt="Hyundai"></a>
+     <a href="https://www.hyundaiusa.com/us/en" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/automobiles/hyundai-screenshot.png" class="d-block w-100" alt="Hyundai"></a>
    </div> 
    <div class="carousel-item">
-     <a href="https://developer.mercedes-benz.com/" target="_blank"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/automobiles/mercedes-benz-screenshot.png" class="d-block w-100" alt="Mercedes-Benz"></a>
+     <a href="https://developer.mercedes-benz.com/" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/automobiles/mercedes-benz-screenshot.png" class="d-block w-100" alt="Mercedes-Benz"></a>
    </div> 
    <div class="carousel-item">
-     <a href="https://developer.na.nissancloud.com/" target="_blank"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/automobiles/nissan-screenshot.png" class="d-block w-100" alt="Nissan"></a>
+     <a href="https://developer.na.nissancloud.com/" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/automobiles/nissan-screenshot.png" class="d-block w-100" alt="Nissan"></a>
    </div> 
    <div class="carousel-item">
-     <a href="https://developer.porsche.com/" target="_blank"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/automobiles/porsche-screenshot.png" class="d-block w-100" alt="Porsche"></a>
+     <a href="https://developer.porsche.com/" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/automobiles/porsche-screenshot.png" class="d-block w-100" alt="Porsche"></a>
    </div>     
    <div class="carousel-item">
-     <a href="https://developer.tesla.com/" target="_blank"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/automobiles/tesla-screenshot.png" class="d-block w-100" alt="Tesla"></a>
+     <a href="https://developer.tesla.com/" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/automobiles/tesla-screenshot.png" class="d-block w-100" alt="Tesla"></a>
    </div> 
    <div class="carousel-item">
-     <a href="https://developer.eig.toyota.com/" target="_blank"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/automobiles/toyota-screenshot.png" class="d-block w-100" alt="Toyota"></a>
+     <a href="https://developer.eig.toyota.com/" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/automobiles/toyota-screenshot.png" class="d-block w-100" alt="Toyota"></a>
    </div> 
    <div class="carousel-item">
-     <a href="https://productdata.volkswagenag.com/" target="_blank"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/automobiles/volkswagen-screenshot.png" class="d-block w-100" alt="Volkswagen"></a>
+     <a href="https://productdata.volkswagenag.com/" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/automobiles/volkswagen-screenshot.png" class="d-block w-100" alt="Volkswagen"></a>
    </div>     
  </div>
  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

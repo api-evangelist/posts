@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making Sure Everything You Offer As An API Service Provider Is Portable
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/runscope-api-tests.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/runscope-api-tests.png
 author:
   name: kinlane
 tags:

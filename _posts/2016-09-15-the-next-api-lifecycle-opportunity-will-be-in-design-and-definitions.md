@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Next API Lifecycle Opportunity Will Be In Design And Definitions
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_possibilities.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_possibilities.png
 atomdate: 2016-09-15 18:00:00+00:00
 tags:
 - Design

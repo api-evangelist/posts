@@ -2,7 +2,7 @@
 layout: post
 title: 'New API Management Providers: Clean, Modern API Portals With ReadMe'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/readme/readme-io-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/readme/readme-io-logo.png
 author:
   name: kinlane
 tags:
@@ -36,6 +36,6 @@ Then ReadMe goes a little further to include some concepts that I see in some of
 
 In 2014, emulating the social elements that Github has introduced into the world of coding, in your API program is essential. You cannot manage your entire API community by yourself, and including your developer in the process is essential. This adds relevant layers to the term "open" that everyone likes to use, providing the roots you will need to actually build trust with your developers, in something that goes both ways, and will also grow your own trust of developed within your own API community.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/readme/readme-io-what-is-a-developer-hub.png)](https://readme.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/readme/readme-io-what-is-a-developer-hub.png)](https://readme.io/)
 
 I'm keeping an eye on what ReadMe is up to, alongside the other API management providers I've been tracking on. I haven't give a lot of attention to the [API management](http://management.apievangelist.com) space in the last year, as I've been focusing on the faster growing areas like API [discovery](http://discovery.apievangelist.com), [design](http://design.apievangelist.com), and [integration](http://integration.apievangelist.com), but now that I see new players stepping up, I will make sure and give the area equal attention in my research and monitoring.

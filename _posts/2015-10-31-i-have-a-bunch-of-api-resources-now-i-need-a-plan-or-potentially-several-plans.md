@@ -3,7 +3,7 @@ layout: post
 title: >-
   I Have A Bunch Of API Resources, Now I Need A Plan, Or Potentially Several
   Plans
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -33,7 +33,7 @@ I can create as many APIs, and individual methods, and package them up into plan
 **Provide The Features My Consumers Will Need Along With Each Plan**  
 Along with the access of API resources within each plan, I need to also bundle other features, like support, service level agreement (SLA), and other resources that consumers will need to be successful with integrations. Again, each plan should be tailored for the intended audience, providing the API access they need, while also makes sure all their adjacent needs are met along the way as well.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-conductor.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-conductor.png)
 
 **Providing Variable Unit(s) of Value For All API Transactions**  
 Whether its an API call, bandwidth transmitted, or duration of resource usage, you have measurable units of value, where a price can be set, in a way that lets it be adjusted by volume, or each plan level. An API call might be one cent (for sake of discussion), but if you access more than 10K per day, it goes down to half a cent per API call. For partner plans, each API call might be 1/10th of a cent by default, with 1/100th of a cent if you access more than 10K per day. Each API has its unit of value, with the price for this unit of value variable depending which plan you are in, and how much you consume.
@@ -70,7 +70,7 @@ Public APIs have dominated the conversation for some time now, but web APIs brin
 **Units of Value Can Go Both Ways, Depending On Who Is Access An API**  
 It is very common for APIs to charge for access, restricting access by some of the common units of value listed above. It is less common for APIs to pay consumers for access APIs, incentivizing the publishing of content, posting of images and videos, and other value generating ways of putting APIs to work. What is the value of the first image added to an API for a business location vs. the 10th photo added? What is the value of encouraging API consumers to add their own content to a a system, augmenting existing information. There are endless ways to encourage developers to contribute to a platform, the only limit is your own plan for defining the boundaries of this participation.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-transfer-cloud.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-transfer-cloud.png)
 
 **We Should Be Making Value Transferrable Across API Providers**  
 All of this provides a standardized way for API providers to define the value of API resources, and incentivize usage, while also generating needed revenue. Money is spent accessing some resources, while money is generated for publishing or refining other resources. This two way value generation shouldn't be locked up within each API providers silo, and be transferrable between API providers. In 2015, developers are using not just one or two APIs, they putting many different APIs to work, and while API providers need to cover costs, and generate revenue, so do API consumers. It is two sides of the same coin--the API balance.

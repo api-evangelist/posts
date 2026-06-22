@@ -2,7 +2,7 @@
 layout: post
 title: 'The Gumroad Small Product Lab: Accelerating Simple Ideas'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/gumroad/gumroad-logo.jpeg"
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/gumroad/gumroad-logo.jpeg"
 tags:
   - Product
 ---
@@ -10,7 +10,7 @@ I use [Gumroad](https://gumroad.com) for publishing of my white papers, and I al
 
 According to Gumroad the the Small Product Lab is a _"mini course, community, launchpad, and contest to remove the unknowns and barriers to getting your work out in the world"_\--Ten days, ten actionable lessons:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/gumroad/gumroad-small-product-labs.png)](https://gumroad.com/smallproductlab)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/gumroad/gumroad-small-product-labs.png)](https://gumroad.com/smallproductlab)
 
 *   Day 1: Mark your calendars
 *   Day 2: What’s your product?

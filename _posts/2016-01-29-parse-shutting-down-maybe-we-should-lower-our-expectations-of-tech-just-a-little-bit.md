@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Parse Shutting Down: Maybe We Should Lower Our Expectations Of Tech Just A Little Bit'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/parse-moving-on.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/parse-moving-on.png
 author:
   name: kinlane
 tags:

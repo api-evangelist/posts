@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Breaking Down The Fitbit APIs.json File
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/www_fitbit_com-apis_json.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/www_fitbit_com-apis_json.png
 author:
   name: kinlane
 tags:
@@ -10,7 +10,7 @@ tags:
 ---
 The quantified-self API [Fitbit](http://www.fitbit.com) recently added an [APIs.json for their domain](http://www.fitbit.com/apis.json). Their usage of APIs.json is a perfect, dead-simple, introductory example of how APIs can start putting APIs.json for their API platform. To help other providers understand, I wanted to take a look at the moving parts of Fitbits APIs.json, and to assist the conversation I labeled each part.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/www_fitbit_com-apis_json.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/www_fitbit_com-apis_json.png)
 
 > **A)** The heart of an APIs.json, providing a name, description, image, and tags for API platform and collection.  
 > **B)** The technical details of where this APIs.json came from, which version it is, and when it was created and last modified.  

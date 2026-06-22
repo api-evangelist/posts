@@ -2,7 +2,7 @@
 layout: post
 title: Are You Doing Anything Interesting With @APIBlueprint? Or Know Someone Who Is?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apiary/bw-api-blueprint-icon.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apiary/bw-api-blueprint-icon.png
 author:
   name: kinlane
 tags:

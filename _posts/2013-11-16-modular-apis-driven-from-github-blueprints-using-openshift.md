@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Modular APIs Driven From Github Blueprints Using OpenShift
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/openshift-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openshift-logo.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Realizing I Need Hypermedia To Bring My API Lifecycle Vision To Life
-image: https://s3.amazonaws.com/kinlane-productions2/talks/november-2015/subway-map-15.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/talks/november-2015/subway-map-15.png
 author:
   name: kinlane
 tags:

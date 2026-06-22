@@ -2,7 +2,7 @@
 layout: post
 title: We Need An API For The Chronology of Data Breaches Database
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/privacy-rights-clearinghouse-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/privacy-rights-clearinghouse-logo.jpg
 author:
   name: kinlane
 tags:

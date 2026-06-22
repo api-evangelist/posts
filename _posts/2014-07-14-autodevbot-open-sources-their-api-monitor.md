@@ -2,7 +2,7 @@
 layout: post
 title: AutoDevBot Open Sources Their API Monitor
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/autodevbot/autodevbot-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/autodevbot/autodevbot-logo.png
 author:
   name: kinlane
 tags:

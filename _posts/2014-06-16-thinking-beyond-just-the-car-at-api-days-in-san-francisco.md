@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thinking Beyond Just The Car At API Days in San Francisco
-image: https://s3.amazonaws.com/kinlane-productions2/events/api-days-san-francisco-2014/api-days-sf-june-2014.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-days-san-francisco-2014/api-days-sf-june-2014.jpg
 author:
   name: kinlane
 tags:

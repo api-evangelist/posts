@@ -8,7 +8,7 @@ tags:
  - Automation
  - Orchestration
  - Autonomous
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-loom.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-loom.jpeg
 ---
 You hear this a lot—especially from AI folks. I just read it again in an excellent, but very academic paper, [Agentic Web: Weaving the Next Web with AI Agents](https://arxiv.org/abs/2507.21206
 ). I’ll reference their research in my own work, but their claim that the web to date, and specifically APIs, weren’t built for agents gives me great pause. It’s simply not true. It sounds true to people, and it conveniently supports a lot of current AI narratives, but it’s still wrong.

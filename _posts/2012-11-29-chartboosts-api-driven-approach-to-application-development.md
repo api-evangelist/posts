@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chartboost&#039;s API Driven Approach to Application Development
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Chartboost-Logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Chartboost-Logo.png
 author:
   name: kinlane
 tags:
@@ -26,7 +26,7 @@ To practice what they preach, Charboost is overhauling their help site to be an 
 *   **Markdown** - Using the simple markup language to allow anyone on their team to write and edit help articles
 *   **GitHub** - Using Github to manage the help center as an open project
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/chartboost/Chartboost-Help-Center-Screenshot.png)](http://chartboost.com)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/chartboost/Chartboost-Help-Center-Screenshot.png)](http://chartboost.com)
 
 I agree that their metholody has the potential to be one possible future of web and mobile application development. JavaScript and API development have both matured in the last 10 years, getting us to this point where you can build some damn sexy, but simple apps that run smoothly on the web or mobile devices.  
 

@@ -2,7 +2,7 @@
 layout: post
 title: 'Messente API: Always Use A Backup DNS Solution'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/messente-sms-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/messente-sms-api.png
 author:
   name: kinlane
 tags:

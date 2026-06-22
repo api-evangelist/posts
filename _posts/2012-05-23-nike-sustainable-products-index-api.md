@@ -2,7 +2,7 @@
 layout: post
 title: Nike Sustainable Products Index API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Nike-Makers.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Nike-Makers.png
 author:
   name: kinlane
 tags:

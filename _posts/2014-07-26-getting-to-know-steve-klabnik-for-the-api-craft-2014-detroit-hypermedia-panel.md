@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Getting To Know Steve Klabnik For The API Craft 2014 Detroit Hypermedia Panel '
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/steve-klabnik-api-days.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/steve-klabnik-api-days.jpg
 author:
   name: kinlane
 tags:

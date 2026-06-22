@@ -7,7 +7,7 @@ tags:
   - OpenAPI
   - Access
   - Interoperability
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-razor-wire-buildings.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/francis-williams-razor-wire-buildings.jpg
 ---
 I spent a lot of time trying to convince companies to create OpenAPIs for their APIs. I spent a lot of time discovering, harvesting, and evaluating the OpenAPIs for companies who create them. I also spend a lot of time creating OpenAPIs for companies who do not produce them and I publish them openly on Github. I also know of many startups who take and use the OpenAPIs I create, and also create their own OpenAPIs for companies, and are not interested in publishing them out in the open for others to use. Thinking about this leaves me scratching my head over the backwards API world we live in where the following is the norm.
 

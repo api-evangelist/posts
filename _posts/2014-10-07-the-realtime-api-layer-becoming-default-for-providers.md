@@ -2,7 +2,7 @@
 layout: post
 title: The Real-Time API Layer Becoming Default For Providers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/firebase/firebase-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/firebase/firebase-logo.png
 author:
   name: kinlane
 tags:

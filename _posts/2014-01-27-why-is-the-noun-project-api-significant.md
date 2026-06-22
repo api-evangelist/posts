@@ -2,7 +2,7 @@
 layout: post
 title: Why Is The Noun Project API Significant?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/noun-project/noun-project-jetpack.gif
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/noun-project/noun-project-jetpack.gif
 tags:
   - Project
 ---

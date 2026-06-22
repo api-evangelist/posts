@@ -2,7 +2,7 @@
 layout: post
 title: Twitter API Is Gateway Drug For Internet Of Things
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-amsterdam-2014/apistrat-romain-huett.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-amsterdam-2014/apistrat-romain-huett.jpg
 author:
   name: kinlane
 tags:

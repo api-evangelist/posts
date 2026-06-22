@@ -2,7 +2,7 @@
 layout: post
 title: Kicking The API Strategy &amp; Practice Conference Into Full Gear
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-strategy-and-practice-san-francisco-october-23-24-25-half.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-strategy-and-practice-san-francisco-october-23-24-25-half.png
 author:
   name: kinlane
 tags:

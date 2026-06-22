@@ -11,7 +11,7 @@ tags:
   - OpenAPI
   - Overlays
   - Arazzo
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-loom.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-loom.jpeg
 ---
 [Derek Thompson of Ambassador came by for a discussion about code generation and artificial intelligence](https://conversations.apievangelist.com/store/2025-03-06-derek-thompson/). I had began engaging with Derek's team about the importance of maintaining OpenAPI specs while generating code on Bluesky, and they agreed to have Derek come and share more of his expertise with me on the subject. I was very pleased to hear that first, they weren't focused on client SDKs, and they are generating boilerplate server code, mock servers, and all the details that go with that. I was also very satisfied to hear of their embrace of OpenAPI, but also overlays and Arazzo. I enjoyed Derek's expertise in both API but also AI, and his focus on the developer, as well as respect for OpenAPI.
 

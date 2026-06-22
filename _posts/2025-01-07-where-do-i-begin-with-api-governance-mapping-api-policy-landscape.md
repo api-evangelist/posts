@@ -9,7 +9,7 @@ tags:
   - Rules
   - Stakeholders
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-statue-of-liberty-front-bright.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-statue-of-liberty-front-bright.jpg
 ---
 Now that we have the API, operational, people, landscape we can properly inform what API governance should be. The engineering and business platform should define what resources are available for teams to use across internal, 1st-party, or 3rd-party APIs. This is where we define the actual API policies that align API governance with business and the individual machine-readable API rules that will lint and enforce API governance at design, develop, or build time.
 

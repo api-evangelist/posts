@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Does Your API Do?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/question-mark.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/question-mark.jpg
 author:
   name: kinlane
 tags:

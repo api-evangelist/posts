@@ -2,7 +2,7 @@
 layout: post
 title: Open Source Drag And Drop API Lifecycle Design Tooling
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/aws_cloud_formation_designer.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aws_cloud_formation_designer.png
 atomdate: 2017-04-12T16:00:00.000Z
 tags:
   - Design

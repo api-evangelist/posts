@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Machine Readable Version of The Presidents Fiscal Year 2016 Budget On Github
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/2016_budget_header.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/2016_budget_header.jpg
 author:
   name: kinlane
 tags:

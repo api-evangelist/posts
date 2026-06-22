@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What API Means To Me
-image: http://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
 author:
   name: kinlane
 tags:

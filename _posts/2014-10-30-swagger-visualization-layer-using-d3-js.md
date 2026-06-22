@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Swagger Visualization Layer Using D3.js
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/d3-js.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/d3-js.jpg
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: 'API Stack - API Analytics with 3Scale Analytics API '
 url: http://apievangelist.com/2011/10/08/api-stack-api-analytics-with-3scale-analytics-api-/
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-logo.jpg
 author:
   name: kinlane
 tags:
@@ -10,7 +10,7 @@ tags:
 - 3Scale
 - Scale
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-service-providers/3scale-logo.jpg)](http://www.3scale.net/)
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/shared/api-service-providers/3scale-logo.jpg)](http://www.3scale.net/)
 
 [3scale](http://www.3scale.net/ "3Scale") provides scalable API Infrastructure as a Service to control, manage and monetize the distribution of data, content or services for devices, mobile and web applications.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rise of Mobile Backend as a Service (MBaaS) API Stacks
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kinvey-logo-300.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kinvey-logo-300.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ The goal of MBaaS providers is to make it very easy for developers to setup and 
 
 MBaaS provider [Kinvey](http://www.kinvey.com/ "Kinvey") is doing just that. Using [ql.io](http://www.ebaytechblog.com/2011/11/30/announcing-ql-io/ "ql.io"), a declarative, evented, data-retrieval and aggregation gateway for HTTP APIs, they are bringing web APIs to developers, like GeoPlaces data using Google Places, product data from Ebay’s Product API and social data using Twitter.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-tools/qlio-logo-300.png)](http://ql.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-tools/qlio-logo-300.png)](http://ql.io/)
 
 Kinvey is baking in the most popular and valuable web APIs right into the Kinvey SDK, making data from APIs as easy to access, as data in your local Kinvey data store. Kinvey will deliver an abstracted layer on top of each API, storing data into tables, making them accessible using common queries like SELECT, FROM and WHERE. They will even let you do JOINS on multiple data sources, allowing you to mashup and improve API data performance.
 

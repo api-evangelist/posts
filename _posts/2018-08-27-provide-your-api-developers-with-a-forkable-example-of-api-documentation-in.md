@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Provide Your API Developers With A Forkable Example of API Documentation In'
-image: https://s3.amazonaws.com/kinlane-productions2/va-working/va-demo-swagger-ui-documentation.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/va-working/va-demo-swagger-ui-documentation.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/va-working/va-demo-swagger-ui-documentation.png" width="45%" align="right" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/va-working/va-demo-swagger-ui-documentation.png" width="45%" align="right" style="padding: 15px;" />
 <p><a href="https://apievangelist.com/2018/08/24/how-should-teams-be-documenting-their-are-new-and-legacy-apis/">I responded about how teams should be documenting their APIs when they have both legacy and new APIs the other day</a>. I wanted to keep the conversation thread going with an example of one possible API documentation implementation. The best way to deliver API documentation guidance in any organization is to provide a forkable, downloadable example of whatever you are talking about. To help illustrate what I am talking about, I wanted to take one documentation solution, and publish it as a GitHub repository.
 
 <p>I chose to go with a simple OpenAPI 3.0 defined API contract, driving a Swagger UI driven API documentation, hosted using GitHub Pages, and <a href="https://github.com/va-working/openapi-documentation">managed as a GitHub repository</a>. In my story about how teams should be documenting their APIs, I provided several API definition formations, and API documentation options–for this walk-through I wanted to narrow it down to a single combination, providing the minimum(alist) viable options possible using OpenAPI 3.0 and SwaggerUI. Of course, any federal agency implementing such a solution should wrap the documentation with their own branding, similar to the <a href="https://gsa.github.io/prototype-city-pairs-api-documentation/api-docs/">City Pairs API prototype out of GSA</a>, which <a href="https://cfpb.github.io/api/ccdb/">originated over at CFPB</a>.

@@ -8,7 +8,7 @@ tags:
   - Semantics
   - Hypermedia
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-banana-subway-stairs.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-banana-subway-stairs.jpeg
 ---
 The official stance of API Evangelist on the AI hype is the same as it has been for fifteen years, and to never ever go too far down any single API application rabbit hole. Mobile application development evolved a lot, but stopping short of the interfaces that were used was very important. Devices made for compelling interfaces, but no need to get caught up too heavily with the Internet of Things. Wolfram Alpha, IBM Watson, and Tensorflow have been amazing learning experiences, but just sticking with interfaces was the best approach. The same applies to the current wave of artificial intelligence, so when you say AI Agents, API Evangelist just sees the following.
 

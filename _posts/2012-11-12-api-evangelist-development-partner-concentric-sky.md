@@ -2,7 +2,7 @@
 layout: post
 title: API Evangelist Development Partner, Concentric Sky
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Concentric-Sky-Black-White.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Concentric-Sky-Black-White.png
 author:
   name: kinlane
 tags:
@@ -15,15 +15,15 @@ I get a lot of questions from companies looking to deploy APIs, where they can f
 
 Now that has changed, I’ve been working with a rock star web and mobile dev shop called [Concentric Sky](http://concentricsky.com/). And over the last couple years I have really gotten to know their team of developers and management--and I’ve been blown away by some of the projects they are producing:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/concentric-sky/Concentric-Sky-Encyclopaedia-Britannica-App.png)](http://concentricsky.com/work/encyclopaedia-britannica-app)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/concentric-sky/Concentric-Sky-Encyclopaedia-Britannica-App.png)](http://concentricsky.com/work/encyclopaedia-britannica-app)
 
 **[Encyclopedia Britannica](http://concentricsky.com/work/encyclopaedia-britannica-app)** - for iPad and iPhone - The definitive encyclopedia app. Over 80,000 articles, and thousands of photographs - and the “LinkMap” lets you explore each article with a dynamic view of related topics.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/concentric-sky/Concentric-Sky-NSF-STEP-Central.png)](http://concentricsky.com/work/national-science-foundation-stepcentral)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/concentric-sky/Concentric-Sky-NSF-STEP-Central.png)](http://concentricsky.com/work/national-science-foundation-stepcentral)
 
 **[NSF's STEP Central](http://concentricsky.com/work/national-science-foundation-stepcentral)** - Commissioned by the National Science Foundation (NSF), we designed and architected a robust, online community for STEP grantees to present and share their project information in a centralized place.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/concentric-sky/Concentric-Sky-United-Nations-Country-Stats.png)](http://concentricsky.com/work/united-nations-countrystats)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/concentric-sky/Concentric-Sky-United-Nations-Country-Stats.png)](http://concentricsky.com/work/united-nations-countrystats)
 
 **[United Nations CountryStats](http://concentricsky.com/work/united-nations-countrystats)** - Developed for the United Nations, UN CountryStats is a data visualization app for iPhone and iPad that makes it easy to compare key economic, social, environmental, trade, and area & population indicators for 216 countries and territories. All data drawn from the United Nations' unique and authoritative data set.
 

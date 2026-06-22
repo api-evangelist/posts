@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'My Moving Towards a Modern API Lifecycle From POST/CON 2018'
-image: https://s3.amazonaws.com/kinlane-productions2/talks/postcon/moving-towards-a-modern-api-lifecycle-postcon.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/talks/postcon/moving-towards-a-modern-api-lifecycle-postcon.png
 ---
 
 <p>I gave a talk early in in June at POST/CON 2018 in San Francisco. The conference was a great mix of discussions reflecting the Postman community. <a href="https://www.youtube.com/playlist?list=PLM-7VG-sgbtCv6yx5Af3pGikTYIE3CAdu">You can find all the talks on Google</a>, including mine about moving towards a modern AP lifecycle.

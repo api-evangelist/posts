@@ -7,7 +7,7 @@ tags:
   - Change
   - Operations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-japanese-carrying-over-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-japanese-carrying-over-bridge.jpeg
 ---
 API Evangelist has been talking with enterprise API leadership since 2010, and in the last fifteen years, very little has changed, aside from a focus on APIs as a product evolving, API governance become top of mind, and maybe the concept of Microservices—all of this would reflect a conversation with enterprises in 2010. Granted, more companies are further along in their API journey, and there are many, many, many more APIs in production in 2025, but the conversation is basically the same. 
 

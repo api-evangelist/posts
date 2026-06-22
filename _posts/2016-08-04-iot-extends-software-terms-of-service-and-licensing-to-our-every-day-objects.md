@@ -1,7 +1,7 @@
 ---
 layout: post
 title: IoT Extends Software Terms of Service And Licensing To Our Every Day Objects
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-terms-of-use.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-terms-of-use.png
 atomdate: 2016-08-04T17:00:00.000Z
 tags:
   - Terms of Service

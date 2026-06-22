@@ -2,7 +2,7 @@
 layout: post
 title: From ETL to API Reciprocity, Looking at 20 Service Providers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/reciprocity-trends.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/reciprocity-trends.png
 author:
   name: kinlane
 tags:
@@ -15,35 +15,35 @@ With more and more of our lives existing in the cloud and via mobile devices, th
 
 There are quite a few ETL solutions, but I feel there are 3 solutions that are starting to make a migration towards an easier to understand and implement vision of ETL:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/cloveretl-logo.png)](/serviceproviders/cloveretl.php "CloverETL")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/cloveretl-logo.png)](/serviceproviders/cloveretl.php "CloverETL")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/snaplogic-logo.png)](/serviceproviders/snaplogic.php "SnapLogic")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/snaplogic-logo.png)](/serviceproviders/snaplogic.php "SnapLogic")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/talend-logo.png)](/serviceproviders/talend.php "Talend")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/talend-logo.png)](/serviceproviders/talend.php "Talend")
 
  
 
 These providers are more robust, and provide much of the classic ETL tools the enterprise is used to, but also have the new emphasis on API driven services. But there are 10 new service providers I’m calling reciprocity platforms, that demonstrate the potential with offering very simple tasks, triggers and actions that can provide interaction between two or more API services:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/IFTTT-logo.jpeg)](/serviceproviders/if_this_then_that_\(ifttt\).php "If This Then That (IFTTT)")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/IFTTT-logo.jpeg)](/serviceproviders/if_this_then_that_\(ifttt\).php "If This Then That (IFTTT)")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/factor-io-logo.png)](/serviceproviders/factor.io.php "Factor.io")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/factor-io-logo.png)](/serviceproviders/factor.io.php "Factor.io")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/zapier-logo.png)](/serviceproviders/zapier.php "Zapier")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/zapier-logo.png)](/serviceproviders/zapier.php "Zapier")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/Temboo-Logo.png)](/serviceproviders/temboo.php "Temboo")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/Temboo-Logo.png)](/serviceproviders/temboo.php "Temboo")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/foxweave-logo.png)](/serviceproviders/foxweave.php "Foxweave")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/foxweave-logo.png)](/serviceproviders/foxweave.php "Foxweave")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/elasticio_logo.png)](/serviceproviders/elastic.io.php "Elastic.io")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/elasticio_logo.png)](/serviceproviders/elastic.io.php "Elastic.io")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/rules-io-logo.jpeg)](/serviceproviders/rules.io.php "Rules.io")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/rules-io-logo.jpeg)](/serviceproviders/rules.io.php "Rules.io")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/itduzzit-logo.png)](/serviceproviders/itduzzit.php "itDuzzit")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/itduzzit-logo.png)](/serviceproviders/itduzzit.php "itDuzzit")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/We-Wired-Web-Logo.png)](/serviceproviders/wewiredweb.php "WeWiredWeb")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/We-Wired-Web-Logo.png)](/serviceproviders/wewiredweb.php "WeWiredWeb")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/Ritc-logo.png)](/serviceproviders/ritc.php "RITC")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/Ritc-logo.png)](/serviceproviders/ritc.php "RITC")
 
 I consider reciprocity an evolution of ETL, because of three significant approaches:
 
@@ -55,17 +55,17 @@ This new generation of ETL providers began the migration online with [Yahoo Pipe
 
 While I feel the 10 reciprocity providers isted above represent this new wave, there are six others incumbents trying to solve the same problem:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/automateit-logo.png)](/serviceproviders/automateit.php "AutomateIt")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/automateit-logo.png)](/serviceproviders/automateit.php "AutomateIt")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/cloudwork-logo.png)](/serviceproviders/cloudwork.php "Cloudwork")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/cloudwork-logo.png)](/serviceproviders/cloudwork.php "Cloudwork")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/mashablelogic-logo.jpeg)](/serviceproviders/mashablelogic.php "MashableLogic")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/mashablelogic-logo.jpeg)](/serviceproviders/mashablelogic.php "MashableLogic")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/pentaho-logo.png)](/serviceproviders/pentaho_-_kettle.php "Pentaho - Kettle")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/pentaho-logo.png)](/serviceproviders/pentaho_-_kettle.php "Pentaho - Kettle")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/sortmybox-logo.png)](/serviceproviders/sortmybox.php "SortMyBox")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/sortmybox-logo.png)](/serviceproviders/sortmybox.php "SortMyBox")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/wappwolf-logo.png)](/serviceproviders/wappwolf.php "Wappwolf")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/wappwolf-logo.png)](/serviceproviders/wappwolf.php "Wappwolf")
 
 While studying the approach of these 20 reciprocity providers, it can be tough to identify a set of common identifiers to refer to the value created.  Each provider has their own approach and potentially identifying terminology. For my understanding, I wanted to try and establish a common way to describe how reciprocity providers are redefining ETL.  While imperfect, it will give me a common language to use, while also being a constant work in progress.
 

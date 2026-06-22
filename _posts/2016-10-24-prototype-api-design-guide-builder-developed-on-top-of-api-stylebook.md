@@ -2,7 +2,7 @@
 layout: post
 title: Prototype API Design Guide Builder Developed On Top Of API Stylebook
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_23_at_10.59.54_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_23_at_10.59.54_pm.png
 atomdate: 2016-10-24T18:00:00.000Z
 tags:
   - Design

@@ -2,14 +2,14 @@
 layout: post
 title: Integrate Github Into an API Community
 url: http://apievangelist.com/2011/04/02/integrate-github-into-an-api-community/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
 - Github
 - Community
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/github/github-social-coding-words.png)[GitHub](https://github.com/ "GitHub") is a web-based hosting service for software development projects that uses the Git revision control system.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-social-coding-words.png)[GitHub](https://github.com/ "GitHub") is a web-based hosting service for software development projects that uses the Git revision control system.
 
 The site also provides social networking functionality such as feeds, followers and a network graph to display how developers work on their versions of a repository.
 
@@ -26,7 +26,7 @@ There are several ways to use Github repositories and Gists in an API area:
 *   **Prototypes** - Publish API prototypes as Github repositories
 kinlane-productions2.s3.amazonaws.com
 
-![](http://kinlane-productions.s3.amazonaws.com/github/github-round.png) Github provides a way for API owners to manage a large number of code samples, libraries and prototypes, in a way that allows developers to fork and contribute code as part of the community.
+![](https://kinlane-images.s3.amazonaws.com/shared/github/github-round.png) Github provides a way for API owners to manage a large number of code samples, libraries and prototypes, in a way that allows developers to fork and contribute code as part of the community.
 
 The social spects of Github extends a API community to the existing, vibrant developer community that exists at Github.
 

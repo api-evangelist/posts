@@ -3,7 +3,7 @@ layout: post
 title: "Signals, Stories, and Search"
 date: 2026-05-19
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-seattle-public-market_36725946605_o.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-seattle-public-market_36725946605_o.jpg
 category: "Blog"
 excerpt: "I needed to understand the market we were entering with Naftiko, so I turned 16 years of API Evangelist data into an ICP, scored 292 companies across 49 industries against 44 signal groups, and tied it all back to APIs.io. Here is how it came together."
 ---

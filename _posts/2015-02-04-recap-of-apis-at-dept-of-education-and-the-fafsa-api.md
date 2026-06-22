@@ -2,7 +2,7 @@
 layout: post
 title: Recap Of APIs At Dept of Education, And The FAFSA API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/ed/fafsa-form.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/federal-government/ed/fafsa-form.jpg
 author:
   name: kinlane
 tags:

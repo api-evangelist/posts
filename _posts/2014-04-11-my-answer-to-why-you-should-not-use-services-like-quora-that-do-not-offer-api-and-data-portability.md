@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Answer To Why You Should Not Use Services Like Quora That Do Not Offer API And Data Portability
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/quora/quora_logo_620px.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/quora/quora_logo_620px.png
 author:
   name: kinlane
 tags:

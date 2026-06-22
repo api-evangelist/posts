@@ -9,7 +9,7 @@ tags:
   - Rules
   - Words
   - Slow
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-an-me-store-front.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/francis-williams-an-me-store-front.jpeg
 ---
 I was reading [The Restless Clock byJessica Riskin](https://press.uchicago.edu/ucp/books/book/chicago/R/bo21519800.html), and learned that in the early days of science they went through a phase where everything was described using poetry. I can’t help but feel like this is one of the reasons we’ve lost our way when it comes to computer science and APIs--we didn’t have a poetry phase. So, to help contribute to getting us on the right path, I’ve produced some Spectral poems.
 

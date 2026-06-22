@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Work With Your Partners To Iterate On Your APIs
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/att/att-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/att/att-logo.jpg
 author:
   name: kinlane
 tags:

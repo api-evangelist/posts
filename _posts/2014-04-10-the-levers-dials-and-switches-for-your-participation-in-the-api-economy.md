@@ -2,7 +2,7 @@
 layout: post
 title: The Levers, Dials, And Switches For Your Participation In The API Economy
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-economy.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-economy.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ I am playing with different ways of explaining the 100K view of how companies, a
 
 Much like developers are looking into the details of each API call, using API integration tools like [RunScope](https://www.runscope.com/) and [APITools](https://www.apitools.com/), to better understand how their applications are consuming APIs, API providers need to understand all the moving parts involved with successfully executing an API strategy. To help me articulate to API providers, I try to break things down into small digestible modules that will help me demonstrate  how they all work in concert to orchestrate the delivery of digital resources inside and outside the firewall. 
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/into-the-api-economy.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/into-the-api-economy.png)
 
 **On-Boarding** - How you get consumers up and running with an API
 

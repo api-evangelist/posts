@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Static HTML Documentation Generated From Machine Readable API Blueprint Definitions Using Aglio
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/aglio-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aglio-logo.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ In the spotlight today is [Aglio](https://github.com/danielgtaylor/aglio), which
 
 > _An API Blueprint renderer that supports multiple themes and outputs static HTML that can be served by any web host. API Blueprint is a Markdown-based document format that lets you write API descriptions and documentation in a simple and straightforward way._
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/aglio-html-docs.png)](https://github.com/danielgtaylor/aglio)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aglio-html-docs.png)](https://github.com/danielgtaylor/aglio)
 
 Aglio is significant because it is driven from the machine readable format API Blueprint, and produces static HTML that can be served up anywhere, specifically on Github or Amazon S3 deployed using Jekyll. Additionally it just makes your document simple, easy to follow, and just damn sexy.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Google Affiliate Network API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Google-Affiliate-Network-API.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Google-Affiliate-Network-API.png
 author:
   name: kinlane
 tags:

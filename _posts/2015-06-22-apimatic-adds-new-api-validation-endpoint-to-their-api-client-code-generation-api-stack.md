@@ -1,7 +1,7 @@
 ---
 layout: post
 title: APIMATIC Adds New API Validation Endpoint To Their API Client Code Generation API Stack
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

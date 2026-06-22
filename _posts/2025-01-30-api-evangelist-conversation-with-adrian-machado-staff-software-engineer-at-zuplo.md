@@ -8,7 +8,7 @@ tags:
   - Plans
   - Documentation
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 [Adrian Machado from Zuplo came by for a talk on API rate limiting](https://conversations.apievangelist.com/store/2025-01-30-adrian-machado-zuplo/), but not just the technical bits. Zuplo is doing a good job at bridging the business and technical aspects of rate limiting at the API gateway layer, and we had a compelling discussion around how planning your rate limits will shape your overall API business plan. Adrian provided some compelling thoughts around the need for standardization of API rate limits and how we approach the API access plans and policies we are implementing in regions around the globe. After the gateway layer Adrian shared more about the Zuplo ethos of API documentation should be free with their [Zudoku offering](https://bit.ly/3WHrZI5), something I can definitely get behind.
 

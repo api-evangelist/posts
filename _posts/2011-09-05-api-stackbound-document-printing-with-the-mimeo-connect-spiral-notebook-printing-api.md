@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Stack - Bound Document Printing with the Mimeo Connect Spiral Notebook Printing API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Spiral-Notebook-Example-Image.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Spiral-Notebook-Example-Image.png
 author:
   name: kinlane
 tags:

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Don&#039;t Be Afraid To Ask Your API Developers What They Want
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/splunk/splunk-logo.gif
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/splunk/splunk-logo.gif
 tags:
   - ai
   - Developers

@@ -3,14 +3,14 @@ layout: post
 title: Beyond Partners and Developers with Your API
 url: >-
   http://apievangelist.com/2011/04/17/beyond-partners-and-developers-with-your-api/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Partners
   - Developers
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/hackeducation.png)I've been watching my girlfriend [Audrey Watters](http://www.hackeducation.com "Audrey Watters"), evolve her online presence as a freelance writer working for [ReadWriteWeb](http://www.readwriteweb.com/start/author/audrey-watters.php "ReadWriteWeb"), [O'Reilly](http://radar.oreilly.com/audreyw/ "O'Reilly"), [NPR Mindshift](http://mindshift.kqed.org/ "NPR Mindshift"), and other high profile blogs.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/hackeducation.png)I've been watching my girlfriend [Audrey Watters](http://www.hackeducation.com "Audrey Watters"), evolve her online presence as a freelance writer working for [ReadWriteWeb](http://www.readwriteweb.com/start/author/audrey-watters.php "ReadWriteWeb"), [O'Reilly](http://radar.oreilly.com/audreyw/ "O'Reilly"), [NPR Mindshift](http://mindshift.kqed.org/ "NPR Mindshift"), and other high profile blogs.
 
 [@AudreyWatters](http://twitter.com/#!/audreywatters "@AudreyWatters") has large Twitter following, however she keeps her Facebook very private.
 
@@ -22,7 +22,7 @@ Facebook social plug-ins make your site social, but by using the [Open Graph Pro
 
 Audrey got her inspiration to do this from the Journalist on Facebook fan page, a page created by Facebook to educate journalists about best practices using Facebook to disseminate information.
 
-I see Facebook doing two things to encourage this kind of API usage:![](http://kinlane-productions.s3.amazonaws.com/facebook_logo-icon.png)
+I see Facebook doing two things to encourage this kind of API usage:![](https://kinlane-images.s3.amazonaws.com/shared/facebook_logo-icon.png)
 
 *   **API User Targetin**g - Going beyond the current definition of partner and (internal and external)l developer focus, and identifying other target groups of users beyond the developer community, and providing a Facebook page and other information for a target group.
 *   **API Embed Strategy** - Facebook has a great API embed strategy, providing a suite of embeddable tools that any user can use to make their sites social -- extending their sites reach to Facebook, while also expanding Facebook's presence on to other sites.

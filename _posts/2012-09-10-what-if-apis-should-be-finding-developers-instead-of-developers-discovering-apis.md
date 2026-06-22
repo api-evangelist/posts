@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What If APIs Should Be Finding Developers Instead of Developers Discovering APIs?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Upside.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/API-Upside.png
 author:
   name: kinlane
 tags:

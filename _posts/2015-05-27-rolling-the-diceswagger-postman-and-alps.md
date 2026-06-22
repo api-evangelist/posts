@@ -2,7 +2,7 @@
 layout: post
 title: Rolling The Dice - Swagger, Postman, and ALPS
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/roll-dice.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/roll-dice.jpeg
 author:
   name: kinlane
 tags:

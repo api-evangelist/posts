@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some Of The Best Discoveries Can Be Found Amongst Twitter Followers
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-twitter-icon.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-twitter-icon.png
 author:
   name: kinlane
 tags:

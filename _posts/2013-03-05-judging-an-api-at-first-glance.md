@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Judging an API At First Glance
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/judging-gavel.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/judging-gavel.jpg
 author:
   name: kinlane
 tags:

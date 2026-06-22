@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kicking Off Image Manipulation API Work
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puppet.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-puppet.png
 author:
   name: kinlane
 tags:

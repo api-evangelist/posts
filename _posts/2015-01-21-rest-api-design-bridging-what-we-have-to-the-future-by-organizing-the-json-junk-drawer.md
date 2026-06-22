@@ -4,7 +4,7 @@ title: >-
   REST API Design: Bridging What We Have, To The Future, By Organizing The JSON
   Junk Drawer
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/REST-API-Design-Avoid-future-proofing-with-the-JSON-junk-drawer-YouTube.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/REST-API-Design-Avoid-future-proofing-with-the-JSON-junk-drawer-YouTube.png
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ The lesson J(a)son provides, describes the journey of each APIs.json property, t
 
 When Steve and I originally hammered out the [APIs.json format](http://apisjson.org/), we couldn't 100% agree on what should be first class properties and collections for each API defined using an APIs.json file—what you see in version 0.14 is what we agreed to, the rest needs to be defined by the community, through actually implementations and discussion on the [APIs.json Github repo](https://github.com/api-commons/api-json/issues).
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-recycling.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-recycling.jpg)
 
 When you are crafting the JSON, for a new API, J(a)son’s lesson is very important, but when you are evaluating hundreds of APIs, and trying to define a common pattern for representing not just the tech, but the business, and politics of an API—you don’t have as much control over how things get defined. I’m not worried about the overhead involved with adding a little more complexity to my code, to bridge the well-defined aspects of API operations with the lesser-defined parts of the space.
 

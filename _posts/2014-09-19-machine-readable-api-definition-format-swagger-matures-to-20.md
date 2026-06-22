@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Machine Readable API Definition Format Swagger Matures to 2.0
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-20.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/swagger-20.png
 author:
   name: kinlane
 tags:

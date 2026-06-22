@@ -3,7 +3,7 @@ layout: post
 title: Whats Next for APIs?  Learning From Social APIs
 url: >-
   http://apievangelist.com/2011/05/24/whats-next-for-apis-learning-from-social-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
   - APIs
   - Learning
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Qwerly-A-Data-API-for-the-Social-Web.png)](http://qwerly.com/ "Querly's aggregation of social media profiles")The modern Web API got its start in CRM with [Salesforce](http://apievangelist.com/2011/01/28/history-of-apis-salesforce-com/ "Salesforce"), and in E-commerce with [Ebay](http://apievangelist.com/2011/01/26/history-of-apis-ebay/ "Ebay") and [Amazon](http://apievangelist.com/2011/01/28/history-of-apis-amazon-e-commerce/ "Amazon"), but it really found traction with social platforms like [Flickr](http://apievangelist.com/2011/02/09/history-of-apis-flickr-api/ "Flickr"), [Twitter](http://apievangelist.com/2011/01/26/history-of-apis-twitter/ "Twitter"), and [Facebook](http://apievangelist.com/2011/01/28/history-of-apis-facebook-development-platform/ "Facebook").
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Qwerly-A-Data-API-for-the-Social-Web.png)](http://qwerly.com/ "Querly's aggregation of social media profiles")The modern Web API got its start in CRM with [Salesforce](http://apievangelist.com/2011/01/28/history-of-apis-salesforce-com/ "Salesforce"), and in E-commerce with [Ebay](http://apievangelist.com/2011/01/26/history-of-apis-ebay/ "Ebay") and [Amazon](http://apievangelist.com/2011/01/28/history-of-apis-amazon-e-commerce/ "Amazon"), but it really found traction with social platforms like [Flickr](http://apievangelist.com/2011/02/09/history-of-apis-flickr-api/ "Flickr"), [Twitter](http://apievangelist.com/2011/01/26/history-of-apis-twitter/ "Twitter"), and [Facebook](http://apievangelist.com/2011/01/28/history-of-apis-facebook-development-platform/ "Facebook").
 
 If we want a glimpse of whats next for APIs we need to look at the areas where web APIs have been applied for the longest. We need to look at examples like[Amazon's integration of their affiliate program with their Product API](http://apievangelist.com/2011/05/06/amazon-affiliate-is-integrated-with-product-api/ "Amazon's integration of their affiliate program with their Product API"), and [Qwerly's aggregation of social media profiles](http://qwerly.com/ "Querly's aggregation of social media profiles") into a single API.
 
@@ -19,7 +19,7 @@ The social space is an area where the future of APIs is being played out right n
 
 I've talked about [unified APIs that allow you to work with multiple APIs through a single interface](http://blog.programmableweb.com/2011/05/02/unified-apis-or-api-standards-the-race-is-on/ "kinlane-productions2.s3.amazonaws.comwith multiple APIs through a single interface"), and the [potential of API discovery services for industry or common API areas](http://apievangelist.com/2011/05/21/discovery-services-for-common-apis/ "potential of API discovery services for industry or common API areas"), but Qwerly's approach offers another view.
 
-![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/qwerly.png)[Qwerly](http://qwerly.com/ "Qwerly") aggregates social profiles across many networks into a single dead-simple data API for the social web.
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/qwerly.png)[Qwerly](http://qwerly.com/ "Qwerly") aggregates social profiles across many networks into a single dead-simple data API for the social web.
 
 With Qwerly you can get data about a user by querying the API with an email address or a social identifier, like a Twitter handle, a Facebook username or a Facebook ID, and the Qwerly API returns:
 

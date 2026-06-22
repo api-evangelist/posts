@@ -2,7 +2,7 @@
 layout: post
 title: An API Case Study Format From Google Cloud Platform
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/google-cloud-platform/google-cloud-platform-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/google-cloud-platform/google-cloud-platform-logo.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ This pattern was evident in the [Travel Agency Masters Big Data with Google BigQ
 *   A quote from company 
 *   Results from the solution
 
-[![](https://s3.amazonaws.com/kinlane-productions2/google-cloud-platform/logo-redbus.jpg)](https://cloud.google.com/customers/redbus/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/google-cloud-platform/logo-redbus.jpg)](https://cloud.google.com/customers/redbus/)
 
 Additionally, Google provides an "At a Glance" summary in the left hand bar, for those busy folks who don't have the time to read case studies, providing a quick summary of the case study:
 

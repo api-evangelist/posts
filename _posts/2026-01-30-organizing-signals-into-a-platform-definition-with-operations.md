@@ -13,7 +13,7 @@ tags:
   - Resources
   - APIs.json
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-cell-tower-satellite-dishes.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-cell-tower-satellite-dishes.jpeg
 ---
 I have been [gathering signals about what enterprises are invested in as part of my Naftiko Signals work](https://naftiko.github.io/signals//companies/). As I do, I am working out in the open to make sense of the services I am profiling as part of this work, and the most recent work this week focuses on organizing signals into a platform definition with operations organized by role. And what better place to start than with the services that we are using to build [Naftiko](https://naftiko.io/), building our own platform on top of the signals we are gathering.
 
@@ -49,7 +49,7 @@ With OpenAPIs available for our platform, I loop through all of the tags being a
 
 These tags need a lot of refinement across each of the twelve APIs. They do not reflect everything available from these services, but the initial set of resources that we are currently using in one way or another, providing a vocabulary to describe our platform which will grow over time.
 
-<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-tags.png" width="100%"></center>
+<center><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/naftiko-platform-tags.png" width="100%"></center>
 
 ## Platform Operations
 Next, I was able to loop through each of the OpenAPIs for the twelve services and extract the summary of each operation, providing a more precise look at the available operations, which can then be translated into capabilities (Naftiko), workflows (Arazzo), context (MCP), cards (A2A), skills (Agent Skills), and other more tactical functions.
@@ -58,7 +58,7 @@ Next, I was able to loop through each of the OpenAPIs for the twelve services an
 
 The operations across the OpenAPIs for these services provide me with all of the available "lego bricks" for the Naftiko platform. I manage the OpenAPIs for each service separate from the Naftiko platform definition, and I am looking to be understand how to keep translating this operations into terms that will make more sense to business stakeholders, while maintaining their connection to the engineering details.
 
-<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-operations.png" width="100%"></center>
+<center><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/naftiko-platform-operations.png" width="100%"></center>
 
 ## Platform Roles
 I wanted to take one last step today to align what Naftiko is capable of with different roles. Naftiko is just a handful of roles right now, but I wanted to challenge Claude to associate each of the available operations with a role in the list of roles I am using to guide our Naftiko Signals work--further aligning the engineering details with the busienss details.
@@ -67,7 +67,7 @@ I wanted to take one last step today to align what Naftiko is capable of with di
 
 This was just a test. But, I am pretty happy with the results. I'll repeat this process with the services, resources, and operations I am gathering as par tof Naftiko Signals, which will give me a much more robust list of operations to match my robust list of roles, which I can then filter and search on based on company and industry--providing a much richer viewer of what is happening.
 
-<center><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/naftiko-platform-roles.png" width="100%"></center>
+<center><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/naftiko-platform-roles.png" width="100%"></center>
 
 ## Engineering Context
 That is it for now. I am looking to apply this approach to as many of [the top services](https://naftiko.github.io/signals//services/) I have harvested as part of Naftiko Signals. Then I will use this approach to get at [the intent behind each role](https://naftiko.github.io/signals//intent/)--developing some sort of tag cloud or other visual that shows what you are capable of when you select your services and your role, instantly engineering context for you, which you can then dial in with a few tags to describe what you are looking to shape as an individual or aggregate Naftiko capability.

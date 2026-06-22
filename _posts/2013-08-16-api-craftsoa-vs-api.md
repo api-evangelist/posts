@@ -2,7 +2,7 @@
 layout: post
 title: API Craft - SOA vs API?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-craft-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-craft-logo.jpg
 author:
   name: kinlane
 tags:

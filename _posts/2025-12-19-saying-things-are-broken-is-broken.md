@@ -8,7 +8,7 @@ tags:
  - Change
  - Breaking Changes
  - Vocabularies
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/norman-rockwell-ruby-bridges-old-broken-piano-street.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/norman-rockwell-ruby-bridges-old-broken-piano-street.jpg
 ---
 You read a lot of posts about "X" being broken. Especially in the age of AI smoke and mirrors. Everything that came before and in need of disruption is broken. In the API realm I exist within, OAuth is broken, OpenAPI is broken, and pretty much anything else that stands in the way of the artificial intelligence is broken. Saying something is broken is how you engage with people about the finer details of the world in way where you don’t actually have to engage with people about the finer details. “It is broken”, is a conversation ending cliche.
 

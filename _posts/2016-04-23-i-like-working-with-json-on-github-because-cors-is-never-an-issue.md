@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Like Working With JSON On Github Because CORS Is Never An Issue
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cross-origin-resource-sharing-cors.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-cross-origin-resource-sharing-cors.png
 tags:
 - Github
 - JSON

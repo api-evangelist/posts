@@ -2,7 +2,7 @@
 layout: post
 title: 'API Management: Adding Reciprocity Building Blocks'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/reciprocity-trends.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/trends/reciprocity-trends.png
 author:
   name: kinlane
 tags:
@@ -25,7 +25,7 @@ With this in mind I’m adding four building blocks for reciprocity as part of m
 
 Reciprocity is not just about users getting the ability to download their data, so they can leave a platform. Reciprocity is about using APIs to empower everyone to maximize the exchange of resources. If a users is given a chance to use their data in other applications, and back again, the more valuable a resource will become, and the more likely a user will continue using a service—it is just good business.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/nimble/nimble-zapier-integration.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/nimble/nimble-zapier-integration.png)
 
 I was able to use a service like Nimble to manage my contacts, which I first imported from Gmail, Facebook, LinkedIn, and Twitter, then using the Nimble API I was able to publish contact from a proprietary CRM system. Now using Zapier, I’m able to further automate workflow around my relationship management, adding to the features that are already available in Nimble.
 

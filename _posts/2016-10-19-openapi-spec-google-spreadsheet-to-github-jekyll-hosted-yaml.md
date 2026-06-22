@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'OpenAPI Spec Google Spreadsheet to Github Jekyll Hosted YAML '
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_19_at_12.02.32_am.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_19_at_12.02.32_am.png
 atomdate: 2016-10-19 16:00:00+00:00
 tags:
 - Github

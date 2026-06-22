@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding a Suggested API Definition for API Portals to My API Management Spec Collection
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-portal.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-portal.jpg
 author:
   name: kinlane
 tags:

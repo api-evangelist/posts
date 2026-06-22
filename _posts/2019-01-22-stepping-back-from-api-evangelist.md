@@ -6,7 +6,7 @@ date: 2019-01-22T09:00:00.000Z
 tags:
   - API Evangelist
 image: >-
-  https://s3.amazonaws.com/kinlane-productions/api-evangelist-logos/api-evangelist-red-seal.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-logos/api-evangelist-red-seal.png
 ---
 <p><img src="{{ page.image }}" width="25%" align="right" style="padding: 15px;" /></p>After eight years of storytelling I have decided to step back from API Evangelist. There just aren't enough nutrients in the work to sustain me financially, ethically, or creatively. It has been a fun and interesting ride since I kicked off this crazy idea in 2010, but the time has come to step away.
 

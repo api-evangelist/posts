@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Definition Origin, Validation, And Attribution
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-attribution.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-attribution.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ A lot of work goes into crafting these definitions, and it is good to see them i
 
 All of this forces me to consider, as this new [API definition layer of the API economy](http://definitions.apievangelist.com/) evolves, and we are all borrowing, reusing, and building upon the work of others, where does API design attribution come in? In a post Oracle v Google API copyright case world, where APIs are copyrightable, how do we start moving forward with a healthier vision of defining and sharing of API designs, challenging the dystopian future handed to us by Oracle and our the federal courts. API design attribution is how we do this, where we give credit the sources of valuable API definitions.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-guru-banner.png)](https://github.com/APIs-guru/api-models)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-guru-banner.png)](https://github.com/APIs-guru/api-models)
 
 [While browsing the machine readable index for the APIs Guru collection](https://github.com/APIs-guru/api-models), I noticed that they had an x-origin collection avaiable for each API they define. Within this object, they describe the format, url, and version for the OpenAPI Spec file in the index is available, much like I do with [APIs.json indexes of APIs](http://apisjson.org). I have provided references to "swagger-original", as part of some of my APIs.json indexes, but many of them were hand crafted so there was no source, with only the static documentation acting as the source. 
 

@@ -10,7 +10,7 @@ tags:
   - Consultancies
   - Modernization
   - Technical Debt
-image: https://kinlane-productions2.s3.us-east-1.amazonaws.com/consultancy-opportunity.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/consultancy-opportunity.png
 ---
 One of our trusted advisors for [Nafitko](https://www.linkedin.com/company/naftiko/) sent [this tweet over to me about there being a big consultancy opportunity involved with “finishing folks Replit and Loveable apps”](https://x.com/jasonlk/status/1945925511680537002?s=46&t=6Pj_NdObIgY_J3_I2DaDQA). I chuckled because this cycle has emerged after outsourcing to [fill in blank] country, and a variety of low-code and no-code trends trends throughout this centruy. It is always fascinating how much money there is to fix broken things and not actually doing the proper planning and design, while also bringing in the proper product and engineering talent.
 

@@ -7,7 +7,7 @@ tags:
   - Landscape
   - Operations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/purple-circuit-statue-of-liberty-front-bright.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/purple-circuit-statue-of-liberty-front-bright.jpg
 ---
 API governance begins with [mapping the API landscape](https://apievangelist.com/2025/01/07/where-do-i-begin-with-api-governance-mapping-the-api-landscape/) for the enterprise, but then should also occur for the operational landscape surrounding those existing APIs. A map of the operations surrounding APIs should also be machine-readable using the [APIs.json format](https://apisjson.org/) as [recommended by the IETF as part of the draft spec for an api-catalog, and providing a well-known URI and link relation to help discovery of APIs](https://datatracker.ietf.org/doc/draft-ietf-httpapi-api-catalog/), which begins by indexing the following.
 

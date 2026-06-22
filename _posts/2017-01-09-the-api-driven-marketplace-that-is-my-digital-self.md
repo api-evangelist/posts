@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The API Driven Marketplace That Is My Digital Self
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/kinlane_physical_digital_self_publish.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/kinlane_physical_digital_self_publish.jpg
 atomdate: 2017-01-09 17:00:00+00:00
 tags:
 - Marketplace
@@ -26,7 +26,7 @@ Only in recent years have I seen more tangible discussion around who these bits 
 
 I guess that I am looking to help shift this balance by being a very vocal "average citizen", and active participant in the tech sector, one who cares about privacy and security. This is why I do API Evangelist--to shine a light on this layer of our increasingly digital world, and be transparent about my own world, so that I can help educate other "normals", and people who care, about this version of our digital self that is being generated, cultivated, and often exploited online without any respect for us as individual human beings. To help quantify the digital version of myself, I wanted to walk through my footprint, and share it with others.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/kinlane_physical_digital_self_publish.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/blog/kinlane_physical_digital_self_publish.jpg)
 
 **What Makes Up The Digital Version Of Kin Lane?**  
 Alongside studying the world of APIs, and how the bits and bytes are being moved around the Interwebz, I regularly try to assess my own online presence, define, a regularly redefine who is Kin Lane on the Internet--this is how I make money, and pay my rent, so it is very important to me. I am always eager to dive in and quantify this presence, because the more I am aware of this digital presence, the more I am able to make it work in the service of what I want, over what other people, companies, and the government want for me. Let's take a stroll through the core services that define my digital self in 2017. 

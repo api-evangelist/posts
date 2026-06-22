@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Trends
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/interoperability-trends.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/interoperability-trends.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ In addition to helping people understand the [history of APIs](/history/), I'm l
 
 Based upon what I'm seeing across the space I launched a new [trends section to API Evangelist](/trends/ "API Trends"), where I'm gathering news, analysis and company data in seven separate areas:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/aggregation-trend.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/trends/aggregation-trend.png)
 
 [**Aggregation**](/trends/aggregation.php)
 
@@ -23,7 +23,7 @@ Based upon what I'm seeing across the space I launched a new [trends section to 
 
  
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/automation-trends.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/trends/automation-trends.png)
 
 [**Automation**](/trends/automation.php)
 
@@ -31,7 +31,7 @@ Based upon what I'm seeing across the space I launched a new [trends section to 
 
  
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/baas-trends.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/trends/baas-trends.png)
 
 [**Backend as a Service (BaaS)**](/trends/baas.php)
 
@@ -39,7 +39,7 @@ Based upon what I'm seeing across the space I launched a new [trends section to 
 
  
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/interoperability-trends.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/trends/interoperability-trends.png)
 
 [**Interoperability**](/trends/interoperability.php)
 
@@ -47,7 +47,7 @@ Based upon what I'm seeing across the space I launched a new [trends section to 
 
  
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/real-time-2.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/trends/real-time-2.jpg)
 
 [**Real-Time**](/trends/realtime.php)
 
@@ -55,7 +55,7 @@ Based upon what I'm seeing across the space I launched a new [trends section to 
 
  
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/Javascript-Array-4-2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/trends/Javascript-Array-4-2.png)
 
 [**Scripting Platforms**](/trends/scripting-platforms.php)
 
@@ -63,7 +63,7 @@ Based upon what I'm seeing across the space I launched a new [trends section to 
 
  
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/voice-trends-microphone.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/trends/voice-trends-microphone.jpg)
 
 [**Voice**](/trends/voice.php)
 

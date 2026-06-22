@@ -2,7 +2,7 @@
 layout: post
 title: Pull The Social Media Accounts For Gov Using The US Digital Registry API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_24_at_11.36.10_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_01_24_at_11.36.10_pm.png
 atomdate: 2017-01-25T23:00:00.000Z
 tags:
   - Social

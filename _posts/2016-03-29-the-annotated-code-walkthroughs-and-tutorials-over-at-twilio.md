@@ -2,7 +2,7 @@
 layout: post
 title: The Annotated Code Walk-Throughs and Tutorials Over At Twilio
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twilio-tutorials.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twilio-tutorials.png
 tags:
   - Tutorials
   - Twilio

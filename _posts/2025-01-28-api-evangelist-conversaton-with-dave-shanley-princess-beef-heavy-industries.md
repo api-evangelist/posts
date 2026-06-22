@@ -9,7 +9,7 @@ tags:
   - Spectral
   - Vacuum
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-mining-mountains-2.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-mining-mountains-2.jpeg
 ---
   We have been wanting to sit down with Dave Shanley for a while now, but we needed to spend more time with [Vaccuum](https://bit.ly/3WDnhej) to understand where it would fit into our world view of API governance. We finally did proper research and readingw, and theneb got to sit down with Dave Shanley, CEO of [Princess Beef Heavy Industries](https://bit.ly/3WCMa9M), and creator of Vacuum, [OpenAPI Doctor](https://bit.ly/3UTwuOF), and other important OpenAPI tooling. We were able to finally got the full background of why he felt [Spectral](https://bit.ly/3Q0yku9) was falling short when it came to linting our API specifications, and it was much more than just about speed. We left our conversation with a head full of ideas and a bunch of notes on what is next for API governance and rules, and need to have Dave back talk about OpenAPI Doctor, libopenapi, and his other great work.
 

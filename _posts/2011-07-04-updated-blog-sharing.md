@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Updated Blog Sharing
-image: http://kinlane-productions2.s3.amazonaws.com/core-share-buttons.png
+image: https://kinlane-images.s3.amazonaws.com/shared/core-share-buttons.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ I'm changing it, putting emphasis on:
 
 These are the topkinlane-productions2.s3.amazonaws.comPI Evangelist that drives traffic to the blog.
 
-![](http://kinlane-productions.s3.amazonaws.com/secondary-share-buttons.png)I started by adding individual buttons from all the major providers:
+![](https://kinlane-images.s3.amazonaws.com/shared/secondary-share-buttons.png)I started by adding individual buttons from all the major providers:
 
 *   [Facebook](http://developers.facebook.com/docs/reference/plugins/like/# "Facebook Like Button")
 *   [StumbleUpon](http://www.stumbleupon.com/badges/ "StumbleUpon Share Button")

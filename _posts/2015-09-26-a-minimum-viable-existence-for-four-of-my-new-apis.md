@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Minimum Viable Existence For Four Of My New APIs
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/four-new-apis.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/four-new-apis.png
 author:
   name: kinlane
 tags:

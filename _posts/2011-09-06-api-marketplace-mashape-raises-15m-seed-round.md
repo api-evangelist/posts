@@ -2,7 +2,7 @@
 layout: post
 title: API Marketplace Mashape Raises $1.5M Seed Round
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mashape-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mashape-logo.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ The round was led by [NEA](http://www.crunchbase.com/financial-organization/new-
   
 Mashape is one of the most recent additions to the API management space, providing an end to end solution allowing you to deploy, manage and market your API from within the Mashape platform.    Mashape provides API management tools that can be found with other providers like Mashery, Apigee and 3Scale, but where they stand out is they also provide you with a library to deploy your API, auto-generate the code developers will need to integrate with your API, and a social API marketplace to generate attention and drive adoption around your API.  
   
-![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/mashape/Mashape-Tag-Cloud.png)“ We have a very long term vision, we believe APIs will play a major role in the  
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/mashape/Mashape-Tag-Cloud.png)“ We have a very long term vision, we believe APIs will play a major role in the  
 world of Information Technology for the years to come - the interesting part  
 is that even companies not related to Internet as a core business, are now  
 integrating APIs into their products, such Toyota or Nike.” [Mashape’s CEO](http://twitter.com/#!/sinzone "Mashape's CEO Augusto Marietti")[  

@@ -2,7 +2,7 @@
 layout: post
 title: I Am Working With @HitchHQ Team To Help API Providers Build Their Communities
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Hitch-FMA-Screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Hitch-FMA-Screenshot.png
 tags:
   - Providers
 ---

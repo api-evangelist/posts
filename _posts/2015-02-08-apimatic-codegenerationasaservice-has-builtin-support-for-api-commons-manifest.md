@@ -4,7 +4,7 @@ title: >-
   APIMATIC Code-Generation-as-a-Service Has Built-In Support For API Commons
   Manifest
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apimatic/apimatic-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apimatic/apimatic-logo.png
 author:
   name: kinlane
 tags:

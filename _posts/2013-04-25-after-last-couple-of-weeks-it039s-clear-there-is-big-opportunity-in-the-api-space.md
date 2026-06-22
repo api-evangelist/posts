@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: After Last Couple of Weeks, It&#039;s Clear There Is Big Opportunity In The API Space
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/hundred-dollar-bills.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/hundred-dollar-bills.jpg
 author:
   name: kinlane
 tags:
@@ -44,7 +44,7 @@ First, ProgrammableWeb is the grandfather of API discovery, it's history and fut
 
 I know all my haters will laugh, but I think the meager $4.2M investment made in 3Scale, is truly a positive sign for the API space. 3Scale isn't building an API service provider company for an exit. 3Scale has been the only freemium API service provider in the space since the beginning. Over the last 3 years, I've had multiple arguments with people across the space that the API opportunity for APIs is about unlocking enterprise resources with APIs, when in reality I feel the true API opportunity is about making sure every single business, organization and government entity understands APIs, stands one up, manages, iterates and evolves it until they get it right, without spending a fortune and being locked into contracts that are ultimately about boosting the numbers of a company intent on their exit. 3Scale has been doing this for years, and the $4.2M is just enough to grow and scale to the next logical and sustainable level.
 
-![](https://kinlane-productions2.s3.amazonaws.com/api-craft/API-Craft-SFO-July-2012.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-craft/API-Craft-SFO-July-2012.png)
 
 I know the 3Scale approach it is not the sexy "startup way" or the "big numbers" that the TechCrunch and Silicon Valley audience loves, but to me it is a healthy way to approach what the API space truly needs.  3Scale's approach to running their business, and helping people stand up and manage their APIs is a realistic, healthy and sustainable way that API owners, developers and the overall space really needs. 3Scale is profitable and sought a sensible next round of funding to do more of what they are already doing. They aren't brining in customers to boost numbers or strictly pandering to the enterprise, ultimately seeking an exit over delivering a quality product. 3Scale focuses on delivering the resources, tools and services that people need to understand and successfully manage their APIs. The sign that 3Scale can get the funding they need to keep moving forward, shows the space has a healthy edge.
 

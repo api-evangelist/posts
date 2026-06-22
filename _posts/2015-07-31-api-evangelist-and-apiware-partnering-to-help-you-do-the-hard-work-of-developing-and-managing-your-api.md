@@ -6,7 +6,7 @@ title: >-
 url: >-
   http://apievangelist.com/2015/07/31/api-evangelist-and-apiware-partnering-to-help-you-do-the-hard-work-of-developing-and-managing-your-api/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiware-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apiware-logo.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ I would like to change this with a new relationship I've established with [APIWa
 
 API Evangelist and APIWare are partnering to make sure that some is always available to help you meet the demand of your API operations, by exclusively focusing on:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apiware-working.png)](http://apiware.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apiware-working.png)](http://apiware.io/)
 
 *   **Defining Your API -** Where do your resources originate, and what is the best path forward in defining and designing your APIs.
 *   **Developing Your API -** The actual hard work of crafting your APIs from scratch, all the way to using common API gateway solutions and frameworks.

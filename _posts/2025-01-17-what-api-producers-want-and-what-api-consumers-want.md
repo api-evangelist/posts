@@ -10,7 +10,7 @@ tags:
   - SDKs
   - Politics
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/braceros-domingo-ulloa-met-stage.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-met-stage.jpeg
 ---
 You can see the tussle between what API producers want and what API consumers want present in the API portals and experiences of leading public API producers, but this is a theater production that plays out over and over within the enterprise, and behind closed door partnerships between enterprise organizations. Publishing complete and accurate API documentation is the most visible evidence of API producers giving consumers what they want or need, but other resources like sandboxes, examples, clients, SDKs, and other machine-readable artifacts like OpenAPI and Postman or Bruno collections also provide tea leaves that can be read to understand the tango occurring in any given moment between API producer and consumer inside or outside the enterprise. 
 

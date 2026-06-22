@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'IRS Modernized e-File (MeF): A Blueprint For Public &amp; Private Sector Partnerships In A 21st Century Digital Economy
   (DRAFT)'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-irs-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-irs-logo.jpg
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ tags:
 ---
 [Download as PDF](https://bit.ly/147BfVv)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/irs/bw-irs-logo.jpg)](https://s3.amazonaws.com/kinlane-productions2/federal-government/irs/bw-irs-logo.jpg)The Internal Revenue Service is the revenue arm of the United States federal government, responsible for collecting taxes, the interpretation and enforcement of the Internal Revenue code.
+[![](https://kinlane-images.s3.amazonaws.com/shared/federal-government/irs/bw-irs-logo.jpg)](https://kinlane-images.s3.amazonaws.com/shared/federal-government/irs/bw-irs-logo.jpg)The Internal Revenue Service is the revenue arm of the United States federal government, responsible for collecting taxes, the interpretation and enforcement of the Internal Revenue code.
 
 The first income tax was assessed in 1862 to raise funds for the American Civil War, and over the years the agency has grown and evolved into a massive federal entity that collects over $2.4 trillion each year from approximately 234 million tax returns.
 
@@ -31,7 +31,7 @@ It was a rocky start for the EFS, and Eileen McCrady, systems development branch
 
 Even with the success of early e-file technology, the program did not get the momentum it needed without the support of two major tax preparation partnerships--H&R Block and Jackson-Hewitt. These helped change the tone of EFS efforts, making it more acceptable and appealing to tax professionals. It was clear that e-File needed to focus on empowering a trusted network of partners to submit tax forms electronically, sharing the load of tax preparation and filing with 3rd party providers. And this included not just the filing technology, but a network of evangelists spreading the word that e-File was a trustworthy and viable way to work with the IRS.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/irs/irs-efile-logo.jpeg)](https://s3.amazonaws.com/kinlane-productions2/federal-government/irs/irs-efile-logo.jpeg)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/irs/irs-efile-logo.jpeg)](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/irs/irs-efile-logo.jpeg)
 
 ### [](https://github.com/kinlane/irs-modernized-efile-blueprint/blob/master/README.md#bringing-e-file-into-the-internet-age)Bringing e-File Into The Internet Age
 

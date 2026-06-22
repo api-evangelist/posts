@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Converting Between The Popular API Definition Formats Using API Transformer
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-transformer-screenshot.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-transformer-screenshot.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ My own API management system allows me to import Postman collections, HAR files,
 
 I have been secretly hoping someone would build a good quality, so I wouldn't have to do this work myself. Now I have [API Transformer](https://apitransformer.com/), an API definition translation platform, developed by the [APIMATIC](http://apimatic.io) team. Using API Transformer you can upload or pull API definitions in the following formats:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-json-with-blueprint.png)](https://kin-lane.github.io/blog/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apis-json-with-blueprint.png)](https://kin-lane.github.io/blog/)
 
 *   API Blueprint
 *   Swagger 1.0 - 1.2

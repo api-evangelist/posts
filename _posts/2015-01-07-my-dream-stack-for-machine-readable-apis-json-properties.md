@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: My Dream Stack For Machine Readable APIs.json Properties
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-stacks.png
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ The fourth machine readable property for APIs listed in an APIs.json is:
 
 *   **[API Commons](http://apicommons.org) -** A machine readable format for associating licensing fo ran API interface (aka CC, Apache).
 
-[![](https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png)](http://apisjson.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json/apisdotjson.png)](http://apisjson.org/)
 
 With [APIs.json version .014](http://apisjson.org/format/apisjson_0.14.txt), we now have a glimpse of the surface area of APIs present within each APIs.json file, via the API Blueprint, Swagger, and RAML properties, and a basic awarness of the licensing of this surface area using the API Commons property.
 
@@ -36,7 +36,7 @@ I’m not 100% sure what is next for APIs.json property types, but if I had my v
 
 For me, APIs.json takes the [API discovery](http://discovery.apievangelist.com) conversation beyond just the meta, which, don’t get me wrong is super valuable, with titles, description, tags, and other characteristics of APIs are critical to discovery, but I want to also be able to go deeper than just a simple keyword search. I want to be able to dig in on the areas above, but in a machine readable, bottom up, organic way.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-discovery.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-api-discovery.png)
 
 I want to be able to ask for:
 

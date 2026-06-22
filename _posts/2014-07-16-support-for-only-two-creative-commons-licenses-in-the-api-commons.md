@@ -2,7 +2,7 @@
 layout: post
 title: 'Support For Only Two Creative Commons Licenses In The API Commons '
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/creative-commons/cc.logo.large.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/creative-commons/cc.logo.large.png
 author:
   name: kinlane
 tags:

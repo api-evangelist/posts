@@ -4,7 +4,7 @@ title: >-
   Accepting Cash Payments As Part Of Your Web or Mobile Apps Using The Cashtie
   API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/cashtie/cashtie-mobile-barcode.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/cashtie/cashtie-mobile-barcode.png
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ InComm is the company behind gift card activation solutions for all those major 
 
 The immediate use of cash for purchasing virtual goods can be applied to the hottest virtual products like online movies, music and gaming. Think of the possibilities for impulse buys at the cash register of Walmart and Target, when you aren’t limited to the physical items that surround the cash register, but expanded into an unlimited world of digital goods and services.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/cashtie/cashtie-billpay.png)](https://cashtie.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/cashtie/cashtie-billpay.png)](https://cashtie.com/)
 
 Opening up cash payments for digital goods to all retail consumers is interesting, but the application that really gets me interested, is delivering applications to what is considered as the unbanked, and underbanked across the nation. According to the FDIC, 8.2 percent of US households are unbanked, representing 10 million in total, as well as 20.1 percent of US households are underbanked, which represents 24 million consumers—this is a pretty significant audience to reach with online goods and services.
 

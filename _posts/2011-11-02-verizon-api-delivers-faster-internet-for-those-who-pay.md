@@ -2,7 +2,7 @@
 layout: post
 title: Verizon API Delivers Faster Internet for Those Who Pay
 url: http://apievangelist.com/2011/11/02/verizon-api-delivers-faster-internet-for-those-who-pay/
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/verizon-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/verizon-logo.jpg
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
 - Evangelism
 - Monetization
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/verizon/verizon-logo.jpg)](http://www.verizonwireless.com/b2c/index.html "Verizon Wireless")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/verizon/verizon-logo.jpg)](http://www.verizonwireless.com/b2c/index.html "Verizon Wireless")
 
 According to PCMag.com, [Verizon will publish an API that could allow consumers to "turbocharge" the network bandwidth](http://www.pcmag.com/article2/0,2817,2395728,00.asp?kc=PCRSS05039TX1K0000762#fbid=r4tz9kBNC_8 "Verizon will publish an API that could allow consumers to turbocharge the network bandwidth") on their smartphone, for a small fee.
 

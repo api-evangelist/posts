@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Stack - Domain Whois with DomainTools API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/domain-tools-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/domain-tools-logo.png
 author:
   name: kinlane
 tags:

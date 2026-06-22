@@ -1,7 +1,7 @@
 ---
 layout: post
 title: StackExchange, Twitter, And Github As Default Feedback Loop For APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-recycling.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-recycling.jpg
 author:
   name: kinlane
 tags:

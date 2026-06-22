@@ -1,7 +1,7 @@
 ---
 layout: post
 title: More Pondering On My Own Microservice Definition
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-micro-definition.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-micro-definition.png
 author:
   name: kinlane
 tags:

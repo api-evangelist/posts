@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My 3D Printed Junk Drawer
-image: http://kinlane-productions2.s3.amazonaws.com/junk-drawer.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/junk-drawer.jpg
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ We all live with this delusion. I have no hard data on what we actually use from
 
 Instead of having a junk drawer, what if we could take a picture of each object with our mobile devices. The mobile app would use image recognition or some sort of image scanning to identify the object. The mobile application would scan potentially millions of parts and pieces to identify this little piece of treasure in our lives. Once identified it would pull all meta data related to it, identifying it as a screw, faster for a futon or drawer handle from IKEA.
 
-![](http://kinlane-productions2.s3.amazonaws.com/AutoCAD_Symbols_Fasteners.jpg)We could create a virtual junk drawer of all these items. Once cataloged in our virtual junk drawer, we could properly dispose of in a recycling bin, Goodwill donation bag, or items in garage for the big yard sale that will make us rich. No more physical junk drawer. We could access our virtual junk drawer at any time, in an online environment.
+![](https://kinlane-images.s3.amazonaws.com/shared/AutoCAD_Symbols_Fasteners.jpg)We could create a virtual junk drawer of all these items. Once cataloged in our virtual junk drawer, we could properly dispose of in a recycling bin, Goodwill donation bag, or items in garage for the big yard sale that will make us rich. No more physical junk drawer. We could access our virtual junk drawer at any time, in an online environment.
 
 When that magical time comes, and we actually need the exact same screw, knob, fastener or obscure alan wrench we could search in our virtual junk drawer and pull up the item. Then we could either find out a local place to purchase, or even better the virtual junk drawer would pull the 3D drawing for the part and have it printed for us at the nearest 3D printer.
 

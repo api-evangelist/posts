@@ -2,7 +2,7 @@
 layout: post
 title: Dwolla Using Slate For An Evolved API Documentation Experience
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/dwolla/dwolla-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/dwolla/dwolla-logo.jpeg
 author:
   name: kinlane
 tags:
@@ -22,7 +22,7 @@ Here are the features Slate lists on the Github repository for the project:
 
 Slate provides some pretty interesting tools for any API documentation toolbox. I also really like that they are Github-centric, acknowledging that many API providers will use Github Pages when deploying their docs, adding that _"Not only does this mean you get free hosting for your docs with Github Pages, but it also makes it's simple for other developers to make pull requests to your docs if they find typos or other problems.” - s_omething I thoroughly enjoy across the [API Evangelist network](http://apievangelist.com/network.html).
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/dwolla/dwolla-api-docs.png)](https://docs.dwolla.com)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/dwolla/dwolla-api-docs.png)](https://docs.dwolla.com)
 
 It looks like to me (maybe I’m wrong) that the code samples are hand written? Something that could easily be remedied using Swagger. It would be way cool to see a Swagger and API Blueprint generated version of Slate emerge—merging the Slate experience, with the interactive documentation experience we’ve seen evolve over the last couple years. This way your docs would be elegant, interactive, and very utilitarian with the inline code samples. 
 

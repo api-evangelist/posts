@@ -3,7 +3,7 @@ layout: post
 title: >-
   Thinking About The Better Business Bureau API In Context Of The Overall API
   Economy
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bbb.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bbb.jpg
 atomdate: 2016-08-04T23:00:00.000Z
 tags:
   - Economy

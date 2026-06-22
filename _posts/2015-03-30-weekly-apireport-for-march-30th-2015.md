@@ -3,10 +3,10 @@ layout: post
 title: 'Weekly API.Report For March 30th, 2015'
 source: http://apievangelist.com/2015/03/30/weekly-apireport-for-march-30th-2015/
 domain: apievangelist.com
-image: https://s3.amazonaws.com/kinlane-productions/api-report/api-report-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png
 ---
 
-<p><a href="http://api.report/" target="_blank"><img style="padding: 20px;" src="https://s3.amazonaws.com/kinlane-productions/api-report/api-report-logo.png" alt="" width="325" align="right" /></a></p>
+<p><a href="http://api.report/" target="_blank"><img style="padding: 20px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png" alt="" width="325" align="right" /></a></p>
 <p>I swear <span style="text-decoration: underline;"><strong>3D Printing</strong></span> is continuing to cross over in some interesting ways:</p>
 <ul>
 <li><a href="http://3dprint.com/53152/sensors-in-casts-3d-printing/">Sensors Embedded into 3D Printed Casts and Braces Will Track Patients Progress</a> - An interesting intersection of healthcare and 3d printing, and sensor &amp; IoT. I'm seeing a lot of crossover like this, and trying to separate the fact v fiction.&nbsp;</li>

@@ -8,11 +8,11 @@ tags:
   - Universities
   - Social
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/university-of-cambridge/apply-magic-sauce-prediction-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/university-of-cambridge/apply-magic-sauce-prediction-api.png
 author:
   name: kinlane
 ---
-<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions2/university-of-cambridge/apply-magic-sauce-prediction-api.png" align="right" width="40%" /></p>I was doing some research into what was going on with the API landscape at universities and I came across the [Trait Prediction API from the University of Cambridge](https://applymagicsauce.com/about_us.html). I'm still studying what they have going on from a social API perspective, but I thought their approach to API ethics stood out as something I wanted to explore some more.
+<p><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/university-of-cambridge/apply-magic-sauce-prediction-api.png" align="right" width="40%" /></p>I was doing some research into what was going on with the API landscape at universities and I came across the [Trait Prediction API from the University of Cambridge](https://applymagicsauce.com/about_us.html). I'm still studying what they have going on from a social API perspective, but I thought their approach to API ethics stood out as something I wanted to explore some more.
 
 The University of Cambridge, "encourage all of our collaborators to adhere to the following ethical principles, in addition to the applicable legal restrictions":
 

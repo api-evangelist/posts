@@ -2,7 +2,7 @@
 layout: post
 title: CVS And The Role Of APIs In The New Retail Healthcare Landscape
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/cvs-pharmacy/cvs_logo_large.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/cvs-pharmacy/cvs_logo_large.png
 author:
   name: kinlane
 tags:

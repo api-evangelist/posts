@@ -2,7 +2,7 @@
 layout: post
 title: Looking At API Design, Deployment, And Management From A Form Point Of View
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/form-io/formio-logo-full.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/form-io/formio-logo-full.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ The concept of a form, is one one of those [skeuomorphs](https://en.wikipedia.or
 
 Form.io lets users craft their resources, from a forms point of view, allowing you to construct using common elements like email, password, address block, as well as being able to define the custom elements you will need. This is important because it is shifting API design to begin from the standpoint of how it will gathered or put to use, rather than just the system resource it came from like a database. This approach, in my opinion, has the potential to bring API design, closer to the people who are trying to solve everyday problems.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/form-io/form-io-builder.png)](https://form.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/form-io/form-io-builder.png)](https://form.io/)
 
 Once you have crafted your forms, and the underlying resources, Form.io gives you the ability to publish [an application front-end as an AngularJS driven Single Page Application (SPA)](https://angularjs.org/), which will be a whole other aspect that I will write about in coming weeks. Using Form.io, you end up with simple, embeddable forms you can publish anywhere, and a complete API that you can easily integrate with other systems, or web, and mobile applications. 
 

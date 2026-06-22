@@ -2,14 +2,14 @@
 layout: post
 title: Facebook Removes Application Directory
 url: http://apievangelist.com/2011/07/16/facebook-removes-app-directory/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Directory
   - Facebook
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/facebook/facebook-removes-app-directory.jpg)Many [Facebook developers](https://developers.facebook.com/ "Facebook Developers") have been confused about what it means to submit to the Facebook App Directory, and frustrated by the length of time it took to get their applications approved.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/facebook/facebook-removes-app-directory.jpg)Many [Facebook developers](https://developers.facebook.com/ "Facebook Developers") have been confused about what it means to submit to the Facebook App Directory, and frustrated by the length of time it took to get their applications approved.
 
 [Facebook has stated](https://developers.facebook.com/blog/post/523/ "Facebook has stated") that the Facebook App Directory actually drives less than 0.5% of all application installations, with the highest number of installations actually coming from Facebook search.
 

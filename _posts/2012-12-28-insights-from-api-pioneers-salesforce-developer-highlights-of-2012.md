@@ -2,7 +2,7 @@
 layout: post
 title: 'Insights From API Pioneers: Salesforce Developer Highlights of 2012'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/developer-force-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/developer-force-logo.png
 author:
   name: kinlane
 tags:
@@ -23,6 +23,6 @@ I was reading through the [Salesforce top developers highlights of 2012](http://
 
 What I hear when I read this list is that to get to 800K developers (holy shit), you need to constantly release new technologies, product resources and content to support your platform, give your community a voice with an emphasis on showcasing the leaders--while also engaging with developers both online and offline.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/salesforce/Force-Com-Developer-Relations.png)](http://developerforce.com/developer-relations/2012/12/yearinreview.html)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/salesforce/Force-Com-Developer-Relations.png)](http://developerforce.com/developer-relations/2012/12/yearinreview.html)
 
 Salesforce has been building their API ecosystem for 12 years!  Twice as long as Twitter.  What they highlight as part of their developer community in 2012 is something you should be doing in your own developer community.

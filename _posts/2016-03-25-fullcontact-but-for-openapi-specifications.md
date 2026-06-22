@@ -2,7 +2,7 @@
 layout: post
 title: FullContact But For OpenAPI Specifications
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fullcontact-update.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/fullcontact-update.png
 tags:
   - OpenAPI
   - Specifications

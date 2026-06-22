@@ -8,7 +8,7 @@ tags:
  - Changes
  - Naftiko
  - Storytelling
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-kin-flag.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-kin-flag.jpeg
 ---
 I have to manually roll the blog for my website over each year. The primary link for my blog goes to whatever the most recent year is, which is a static page. I like it this way. It forces me to manually turn the page each year, which provides the opportunity for a (hopefully) thoughtful post about what is happening. I’ve never been one to look forward and do predictions for the coming year, but have been known to reflect back on the year that just happened. I don’t feel compelled to do either this year, but I still need a post to turn the page.
 

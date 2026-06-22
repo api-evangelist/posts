@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Am Seeing Significant Returns From Investing In Definitions Over Code When It Comes To My API Strategy
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-invest-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-invest-api.png
 tags:
 - Definitions
 - Strategy

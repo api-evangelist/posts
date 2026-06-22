@@ -6,7 +6,7 @@ tags:
   - Ranking
   - Domains
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/whoapi/Domain-score-API-integration-in-WhoAPI.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/whoapi/Domain-score-API-integration-in-WhoAPI.png
 ---
 I saw that WhoAPI launched a [Domain Score API](https://whoapi.com/blog/3068/we-are-introducing-domain-score-api/) recently, helping put a value on whether or not you can trust a domain. The example they have in their blog post applies a domain score to the email addresses for any developer signing up for the Domain Score API--pretty useful stuff.
 

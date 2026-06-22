@@ -6,7 +6,7 @@ tags:
   - Governance
   - Reviews
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-fixing-cross.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-fixing-cross.jpg
 ---
 <div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center;">
   <a href="https://apievangelist.com/#knowledge">Join Our Weekly API Governance Knowledge Bulding Sessions</a>
@@ -19,7 +19,7 @@ Most of the API reviews today are considered API design reviews where teams are 
 ## Self-Service
 Making API reviews self-service helps reduce the anxiety for teams producing APIs, but also the API governance teams who are in charge of API reviews. Self-service API reviews help more efficiently move API operations forward in an asynchronous way without meetings. Self-service also leaves teams producing APIs to figure things out for themselves in isolation, oftentimes without the proper context, references, and guidance to understand why each particular aspect of API governance means, why it matters, and how to implement. Self-service is essential to a successful API governance program, but it also can quickly become the number one reason why your API governance will slow, stall, and fail.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-ferris-wheel-fair.jpeg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-ferris-wheel-fair.jpeg" style="padding: 15px;">
 
 ## In-Person
 Most API reviews are conducted before you can leave a development stage via video conferencing. Reviews are often a single API governance, design, or architect leading the review, with one or many team members representing the producers behind an API. In-person reviews provide much needed human interaction, can facilitate learning and engagement on both sides of the equation, but then can also quickly become a bottleneck depending on schedules and the amount of API governance resources that are available.
@@ -33,7 +33,7 @@ We are beginning to see API reviews move into the realm of business concerns, be
 ## Lifecycle
 I see very little evidence that the lifecycle of an API is playing into the API review approach of API governance teams, services, and tooling. Despite teams asking, when should I do this work, and do I need to do all of this during development--we aren’t doing a very good job of organizing our API governance and reviews based upon any time frame or lifecycle. There are some efforts to shift API governance left, but API reviews are still generally done before you move into staging or production to support a code-first approach.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-statue-supreme-court.jpg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-statue-supreme-court.jpg" style="padding: 15px;">
 
 ## Teams
 The team who is producing an API will significantly change the tone of any review, and teams as a whole should be part of an API review. Teams are expected to do reviews, without much consideration to which roles are involved, what skills do they possess, and any confirmation that they’ve read the API review guidance. Teams are why API reviews should zoom out beyond just the technical details of an API, ensuring that we are reviewing the whole package of what delivers an API, with actual people at the center.
@@ -47,7 +47,7 @@ There will always be exceptions to rules applied as part of API reviews. Excepti
 ## Automation
 API reviews can and should be automated within tooling teams are using, through the adoption of design tooling, through IDE plugins and extensions, and baked into existing source control and CI/CD solutions. API review automation ideally is incremental over time beginning with the first step in bringing an API to life, but then also validated and enforced on any API moving out of development stages, keeping automation incremental and guiding teams forward rather than just dumping a bunch of errors in the way of production.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-supreme-court_36341562380_o.jpg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-supreme-court_36341562380_o.jpg" style="padding: 15px;">
 
 ## Rules
 API reviews are defined and automated using Spectral and other types of machine-readable rules that help us define each granular detail of API governance. Rules are defined using a YAML or  TypeScript/JavaScript format which apply to specific patterns or anti-patterns present in an OpenAPI or other machine-readable artifact we use to define our APIs. Rules are only as good as the artifact they are being applied to, and then again based upon how that artifact is used to actually configure API operations and most importantly the runtime. 
@@ -61,7 +61,7 @@ API reviews can and should be conducted in a tactical fashion to help ensure mor
 ## Guidance
 API reviews should possess Just-in-Time API Guidance &#8482;, ensuring that teams have exactly what they need at the moment of an API review to correct and evolve the design and delivery of their APIs. API guidance should be textual, video, and provide examples of what to do, as well as what not to do. API guidance should be simple, informative, and help turn each technical and business element of an API review into a teachable moment, helping make up for other deficiencies in education and teams reading the documentation.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-old-books-rack.jpg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-old-books-rack.jpg" style="padding: 15px;">
 
 ## Education
 API reviews are always reflecting the overall training and education that exists within an enterprise. Each technical and business detail being surfaced by an API review will represent a single area that an individual or team is missing from the skills needed to properly design, develop, and deliver a modern HTTP API. API governance and the reviews that happen on the ground are the result of underinvestment by enterprises and entire industries in their works regarding the fundamentals of HTTP and the web we use each day.
@@ -75,7 +75,7 @@ Having a source of truth for the technical and business details of an API, but a
 ## History
 API reviews aren’t a one time affair and the history of an API, the team behind, as well as the teams who are governing and reviewing APIs will define the success, failure, and friction of API reviews. An API review will likely not happen in a single isolated instance and will occur over time, while also being applied to each version of an API as they are being iterated upon. Having a handle on the history of each API review should inform future reviews, and ensure that we are actually moving forward with our APIs.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-railroad-tracks-rocks.jpeg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-railroad-tracks-rocks.jpeg" style="padding: 15px;">
 
 ## Progress
 Keeping an eye towards the progress being made through the review of APIs will help improve APIs and the teams behind them, but also the policies, rules, and overall API strategy. It is easy to focus on API reviews being a single event, but in reality they happen throughout the lifecycle of an API. Tracking on the progress of teams, APIs, as well as policies and rules are how you collectively iterate upon your business operations from a technical, business, policy, and people perspective, keeping things always on track.

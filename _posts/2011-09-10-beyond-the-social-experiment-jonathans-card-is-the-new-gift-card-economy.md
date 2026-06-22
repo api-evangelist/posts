@@ -2,7 +2,7 @@
 layout: post
 title: Beyond the Social Experiment Jonathans Card is the New Gift Card Economy
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/starbucks-gift-card-300x229.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/starbucks-gift-card-300x229.jpg
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ It all starts with an image of Jonathan’s Starbucks Card. But it took the mobi
 
 An image and your smart phone are essential technology in this experiment, but none of this would be possible without the [Starbucks Card program](https://www.starbucks.com/card). Starbucks allows anyone to purchase and add money to the balance of the card as long as you know the card number, and the site also allows you to see charges made against the card.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/Jonathans-Card/jonathans-card-image.png)](http://jonathanstark.com/card/)The Starbucks Card is the central ingredient in this experiment, but Twitter also plays an important role. Jonathan uses Twitter as a central messaging channel, and ultimately an API for the Johnathan’s Card Experiment. He wrote a bot that scrapes the Starbucks site for the card balance and posts it to Twitter, whenever anything is charged to the Starbucks Card.
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Jonathans-Card/jonathans-card-image.png)](http://jonathanstark.com/card/)The Starbucks Card is the central ingredient in this experiment, but Twitter also plays an important role. Jonathan uses Twitter as a central messaging channel, and ultimately an API for the Johnathan’s Card Experiment. He wrote a bot that scrapes the Starbucks site for the card balance and posts it to Twitter, whenever anything is charged to the Starbucks Card.
 
 Twitter is also being used by the community participating in this “social experiment”. Twitter allows them to tweet at @jonathanscard adding to the Twitter data stream. Also, some innovative developer particpated by adding graphing apps on top of the @jonathanscard Twitter stream, that provided visualisations for the experiment.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple APIs With Jekyll And Github With Data Managed Via Google Spreadsheets
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_toolbox_home_page.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_toolbox_home_page.png
 atomdate: 2017-05-10 22:00:00+00:00
 tags:
 - Github
@@ -24,7 +24,7 @@ First, and foremost the data in the OpenAPI Toolbox is meant to be accessible by
 **JavaScript Spreadsheet Sync To YAML Data Store**  
 To keep the data in the Google Spreadsheet in sync with the YAML data store in the Github hosted repository I use a simple JavaScript driven page on the website. To make it work you have to provide a valid Github OAuth token to be passed along as query string like this [http://openapi.toolbox.apievangelist.com/pull-spreadsheet/?token=\[github token\]](http://openapi.toolbox.apievangelist.com/pull-spreadsheet/?token=[github token]). The token can be acquired by doing the usual OAuth dance with Github or using the Github account of any user where you can issue personal tokens. If the user is a valid contributor on the repository, the JavaScript will pull a recent copy of the data in the Google Spreadsheet, and publish as YAML in the \_data folder for the toolbox repository successfully--otherwise, it just throws an error.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_toolbox_spreadsheet.png)](https://docs.google.com/spreadsheets/d/15jtjyQivmgMohiKiUcnyJCsN48lk97suR8QfPFJd9ak/pubhtml)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_toolbox_spreadsheet.png)](https://docs.google.com/spreadsheets/d/15jtjyQivmgMohiKiUcnyJCsN48lk97suR8QfPFJd9ak/pubhtml)
 
 **HTML Toolbox For Humans To Browse The Toolbox**  
 Jekyll provides a static website that acts as the public face for the OpenAPI Toolbox. The home page provides icon links to each of the types of tools I have indexed, as well as to specific tags I've selected, such as the programming language of each tool. Each page of the website is an HTML page that uses Liquid to display data stored in the central YAML store. Liquid handles the filtering of data by type, tags, or any other criteria I choose. Soon I will be adding a search, and other ways to browse the data in the toolbox as the data store grows, and I obtain more data points to slice and dice things on. 
@@ -38,7 +38,7 @@ Rather than just making the data available via JSON files, I wanted to also prov
 **Project Support and Road Map Using Github Issues**  
 As with all of my projects I am [using the underlying issue management system to help me manage support and the roadmap for the project](https://github.com/kinlane/openapi-toolbox/issues). Anyone can submit an issue regarding a tool they'd like to see in the toolbox, regarding API integration, or possibly new APIs they would like to see published. I can use the Github issue management to handle general support requests, and communication around the project, as well as incrementally manage the data, schema, website, and API for the toolbox. 
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_toolbox_api_docs.png)](http://openapi.toolbox.apievangelist.com/api-documentation/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_toolbox_api_docs.png)](http://openapi.toolbox.apievangelist.com/api-documentation/)
 
 **Indexed In Machine Readable Way With APIs.json**  
 [The entire project is indexed using APIs.json](http://openapi.toolbox.apievangelist.com/apis.json), providing metadata for the project as well as other indexes for the API, support, and other aspects of operating the project. APIs.json is meant to provide a machine readable index for not just the API, which is already defined using OpenAPI, but for the rest of the project, including documentation and support, and eventually a road map, blog, and other supporting elements. Using the APIs.json index, other systems can easily discover the API, and programmatically access the data via the APIs, or even access the repository for the spreadsheet via the Github API, or the Google Sheet via its API--all the information is available in the APIs.json for use.

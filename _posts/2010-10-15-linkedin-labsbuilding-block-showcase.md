@@ -2,7 +2,7 @@
 layout: post
 title: LinkedIn Labs - Building Block Showcase
 url: http://apievangelist.com/2010/10/15/linkedin-labs--building-block-showcase/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

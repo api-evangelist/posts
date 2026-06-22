@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding A Page To My Research For Tracking On Swagger Extensions
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/bw-swagger-round.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/bw-swagger-round.png
 author:
   name: kinlane
 tags:

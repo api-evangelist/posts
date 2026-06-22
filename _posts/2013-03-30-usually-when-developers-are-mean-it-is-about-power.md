@@ -2,7 +2,7 @@
 layout: post
 title: Usually When Developers Are Mean, It Is About Power
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/angry-bird.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/blog/angry-bird.jpg
 author:
   name: kinlane
 tags:
@@ -23,7 +23,7 @@ Many places I’ve worked or contracted with, this power struggle plays itself o
 
 While the root of this behavior I feel is insecurity, I think ultimately it is all about power. I also strongly believe one of the by-products of this reality is the sexism, racism and other negativity that is a systemic issue in the tech space.
 
-![](https://s3.amazonaws.com/kinlane-productions2/information-technology.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/information-technology.jpg)
 
 I’m not writing this to say that all developers are power trippers. They aren’t. But us technologists have a huge problems with wanting to be keepers of the knowledge. I’m not excluding myself from this. I fall victim to the desire for power and glory. I’m not exempt. But I work really, really, really hard at trying to transcend this past I share with the rest of the tech space.
 

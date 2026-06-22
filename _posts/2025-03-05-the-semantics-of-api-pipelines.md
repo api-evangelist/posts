@@ -16,7 +16,7 @@ tags:
   - Documentation
   - Mocking
   - Gateways
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/purple-circuit-gears-pipes-plumbing.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/purple-circuit-gears-pipes-plumbing.jpg
 ---
 [After taking a fresh look at some of the tooling areas that I’d recommend running in API CI/CD pipelines](https://apievangelist.com/2025/03/05/what-api-tools-should-i-be-running-in-my-pipeline/), I wanted to draft an initial list of the different areas of consideration at the pipeline layer for delivering APIs. Based upon the tooling I’ve evaluated I’ve tried to identify what the semantics are for each of the capabilities offered that would matter to API governance. This is what I have so far, but will continue evolving based upon feedback.
 

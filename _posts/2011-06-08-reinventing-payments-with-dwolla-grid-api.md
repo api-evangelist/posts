@@ -2,13 +2,13 @@
 layout: post
 title: Reinventing Payments with Dwolla Grid API
 url: http://apievangelist.com/2011/06/08/reinventing-payments-with-dwolla-grid-api/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Payments
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/dwolla-logo.jpg)The [Dwolla payment service](https://www.dwolla.com "Dwolla") just [launched a new payment API called Grid](http://www.dwolla.org/blog/grid-is-here-cash-just-got-more-secure-than-plastic/ "launched a new payment network called Grid"). Before you can understand grid, you need to understand Dwolla'sphilosophyon payments.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/dwolla-logo.jpg)The [Dwolla payment service](https://www.dwolla.com "Dwolla") just [launched a new payment API called Grid](http://www.dwolla.org/blog/grid-is-here-cash-just-got-more-secure-than-plastic/ "launched a new payment network called Grid"). Before you can understand grid, you need to understand Dwolla'sphilosophyon payments.
 
 Every time you want to do seemingly simple things, like buy a coffee, pay for lunch, or buy gas, current providers are requiring you hand over your name, credit card number, and expiration date, leaving trail of personal and financial data behind you.
 
@@ -26,7 +26,7 @@ Merchants can get paid online without the recurring costs associated with other 
 
 **Why this is huge forkinlane-productions2.s3.amazonaws.com
 
-![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/internet-payment-transactions.jpg)For the first time ever, developers will have access to a payment network to innovate and build on top of, that removes a lot of liability that is typically associated with credit card networks.
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/internet-payment-transactions.jpg)For the first time ever, developers will have access to a payment network to innovate and build on top of, that removes a lot of liability that is typically associated with credit card networks.
 
 I tend to only focus on stories around innovative approaches to the business of APIs, which usually means how an API is delivered. Another area that I enjoy covering is how businesses are using APIs to change entire industries. Dwolla fits this profile.
 

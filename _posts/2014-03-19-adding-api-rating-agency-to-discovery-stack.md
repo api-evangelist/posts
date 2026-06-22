@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding API Rating Agency To Discovery Stack
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-rating-agency-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/api-rating-agency-logo.png
 author:
   name: kinlane
 tags:

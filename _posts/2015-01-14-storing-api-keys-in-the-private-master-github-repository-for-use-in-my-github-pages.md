@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Storing API Keys In The Private Master Github Repository For Use In My Github Pages
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-key.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-key.png
 author:
   name: kinlane
 tags:

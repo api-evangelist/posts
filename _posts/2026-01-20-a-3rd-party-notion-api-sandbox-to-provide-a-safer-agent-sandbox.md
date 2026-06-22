@@ -13,7 +13,7 @@ tags:
   - Capabilities
   - Economics
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-miami-beach-walkway.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-miami-beach-walkway.jpg
 ---
 I am creating a series of [3rd-party Notion API sandbox](https://github.com/naftiko/notion-sandbox) for my team to develop against, and provide safe spaces for Naftiko customers to develop agents against. The foundation of my Notion API sandbox is OpenAPI, combined with MIcrocks to deliver the mock, and Bruno to provide client access to the sandbox. The first piece of the journey is to produce a complete OpenAPI artifact for the Notion API, but without Notion maintaining their own, I have to produce one through a mix of scripts, AI, and good old fashion hands-on domain-expert refinements and organization.
 

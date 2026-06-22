@@ -2,7 +2,7 @@
 layout: post
 title: A New Look For API Evangelist
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_evangelist_new_look.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_evangelist_new_look.png
 atomdate: 2017-05-12T19:00:00.000Z
 tags:
   - API Evangelist

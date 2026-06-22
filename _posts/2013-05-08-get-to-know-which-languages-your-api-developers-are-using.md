@@ -2,7 +2,7 @@
 layout: post
 title: Get To Know Which Languages Your API Developers Are Using
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/xero-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/xero-logo.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ To create a snapshot of what tools developers are using, Xero needed to find the
 
 The next best place to look for this data, is with the code samples themselves. It would be nice, if Xero code samples were hosted using Github where they could track downloads, forks, followers, etc. But the best they had, was the page views from the pages for each code library, within the Xero developer area.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/xero/xero-2013-usage-chart.png)](http://developer.xero.com/ "Xero Accounting Software")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/xero/xero-2013-usage-chart.png)](http://developer.xero.com/ "Xero Accounting Software")
 
 Using this approach, Xero was able to extract some pretty interesting data about which programming languages developers were clicking on. Identifying the growing dominance of languages like PHP and the emergence of newer approaches using Node.js.
 

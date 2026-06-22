@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Want An API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-i-want-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tag-cloud-i-want-api.png
 author:
   name: kinlane
 tags:

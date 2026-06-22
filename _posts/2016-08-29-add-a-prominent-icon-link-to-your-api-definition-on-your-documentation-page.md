@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Add A Prominent Icon Link To Your API Definition On Your Documentation Page
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-openapi-spec.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-openapi-spec.png
 atomdate: 2016-08-29 18:00:00+00:00
 tags:
 - Documentation

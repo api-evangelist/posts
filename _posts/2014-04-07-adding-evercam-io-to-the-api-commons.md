@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Adding Evercam.io To The API Commons
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/evercam/evercam-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/evercam/evercam-logo.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ I’ve been impressed with the amount of leadership that is coming out of this n
 
 Marco Herbst ([@marcoherbst](https://twitter.com/marcoherbst)) of evercam.io approached me during [#APIStrat in Amsterdam](http://www.apistrategyconference.com/2014Amsterdam/index.php) and expressed interest in submitting their [Swagger API definition](https://api.evercam.io/v1/swagger.json) into the commons, and this last weekend we created the API Commons manifest and published to the commons.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-icon.png)](https://bit.ly/1e27KIc)
+[![](https://kinlane-images.s3.amazonaws.com/shared/api-commons/api-commons-icon.png)](https://bit.ly/1e27KIc)
 
 When I spoke with Marco several months ago about API Commons, he took the importance of submitting an API definition to heart. By doing so evercam.io is saying that their API definition is significant in their industry, and something that others in the industry should follow.
 

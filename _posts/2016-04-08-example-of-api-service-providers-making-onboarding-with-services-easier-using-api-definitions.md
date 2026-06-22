@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Example Of API Service Providers Making Onboarding With Services Easier Using API Definitions
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Fullscreen_4_8_16__1_09_PM.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Fullscreen_4_8_16__1_09_PM.png
 tags:
 - Definitions
 - Onboarding
@@ -15,7 +15,7 @@ I'm always encouraging companies, who are selling software services to the API s
 
 The screen that comes up, when you go to add new API calls to the monitoring service is exactly what I am talking about, allowing me to get up and running using the API definition format of my choosing.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Fullscreen_4_8_16__1_09_PM.png)](http://apimetrics.io)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Fullscreen_4_8_16__1_09_PM.png)](http://apimetrics.io)
 
 I am given the option to manually add an API, or do a bulk import of the APIs I wish to monitor using the service. I'm given the option of importing WSDL, OpenAPI Spec, RAML, Blueprint, and Postman, which reflects the leading API definition formats, any API service provider should be speaking by default. If you need help enabling this in your services, I recommend talking to the [APIMATIC](https://apimatic.io/) folks about using their [API Transformer](https://apitransformer.com/).
 

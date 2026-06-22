@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Do You Have What It Takes To Be On The API Academy Team?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-academy-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/api-academy-logo.png
 author:
   name: kinlane
 tags:

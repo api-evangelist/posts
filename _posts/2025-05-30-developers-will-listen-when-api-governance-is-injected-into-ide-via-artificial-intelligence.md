@@ -10,7 +10,7 @@ tags:
   - Artificial Intelligence
   - AI
   - Guidance
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-nyc-57th-1.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/francis-williams-nyc-57th-1.jpeg
 ---
 I have heard it several times now, folks in charge of API governance sharing with me that they are finding success in injecting API governance into developers workflow using artificial intelligence. They had tried changing behavior with teams through meetings, sprints, workshops, and other approaches unsuccessfully, and now they are finding that developers question things less when it is introduced via artificial intelligence available in their integrated development environment (IDE). It is one of those aspects of enterprise operations that seem like a positive technological solution, when in reality it is a sign of larger systemic issues in how people work together, communicate, and respect each other in the workplace.
 

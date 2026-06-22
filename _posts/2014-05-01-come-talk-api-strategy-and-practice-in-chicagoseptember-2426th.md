@@ -14,37 +14,37 @@ As APIs make their way into almost every business sector imaginable, we thought 
 
 We are kicking things off with six speakers:
 
-![](http://kinlane-productions2.s3.amazonaws.com/up-image.php/speaker/ashe-dryden.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/up-image.php/speaker/ashe-dryden.jpg)
 
 #### Ashe Dryden
 
 Ashe is an outspoken educator for diversity, inclusiveness, and empathy. She's currently writing a book on increasing diversity within companies, as well as working on a video series and site to serve as a resource to people who want to get involved. 
 
-![](http://kinlane-productions2.s3.amazonaws.com/up-image.php/speaker/john-ellis.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/up-image.php/speaker/john-ellis.jpg)
 
 #### John Ellis
 
 As Global Technologist and Head of the Ford Developer Program with Ford Motor Company, John is tasked with expanding Ford’s “brought-in” strategy of integrating mobile technology into the vehicle.
 
-![](http://kinlane-productions2.s3.amazonaws.com/up-image.php/speaker/John-Musser-blackandwhite1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/up-image.php/speaker/John-Musser-blackandwhite1.png)
 
 #### John Musser
 
 John Musser is the CEO of API Science and previously founded ProgrammableWeb, the leading online resource on open APIs.
 
-![](http://kinlane-productions2.s3.amazonaws.com/up-image.php/speaker/Marten_Mickos.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/up-image.php/speaker/Marten_Mickos.jpg)
 
 #### Marten Mickos
 
 Marten Mickos is CEO of Eucalyptus Systems, the leader in open source cloud computing platforms for on-premise use. Previously as CEO of MySQL AB, Marten grew that company from a garage start-up to the second largest open source company in the world.
 
-![](http://kinlane-productions2.s3.amazonaws.com/up-image.php/speaker/phil%20windley.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/up-image.php/speaker/phil%20windley.jpg)
 
 #### Phil Windley
 
 Phil is the founder and CTO of Kynetx, which provides a cloud-based application platform that is uniquely architected to use events, personal data, and APIs to create social products and services.
 
-![](http://kinlane-productions2.s3.amazonaws.com/up-image.php/speaker/Pratap.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/up-image.php/speaker/Pratap.png)
 
 #### Pratap Ranade
 

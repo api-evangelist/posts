@@ -2,7 +2,7 @@
 layout: post
 title: The Window To The API Economy For Everybody Else
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Blockspring-Money-Shot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Blockspring-Money-Shot.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ API Evangelist has always been about helping on-board the masses with concepts i
 
 The Blockspring home page image says it all in my opinion--valuable API resources, neatly available in Google Sheets, and Excel on the desktop, and in the Cloud with Office 365:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Blockspring-Money-Shot.png)](https://www.blockspring.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Blockspring-Money-Shot.png)](https://www.blockspring.com/)
 
 This is it! This is the window to the API economy that will be required to take things to the next level. Most of the worlds business is conducted through this interface, without drag and drop access to valuable API resources, the API economy is a non-starter.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The List Of API Signals I Track On In My API Stack Research
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-signals.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-signals.png
 atomdate: 2017-05-09 19:00:00+00:00
 tags:
 - Research

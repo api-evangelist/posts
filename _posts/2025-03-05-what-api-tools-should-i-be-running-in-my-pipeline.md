@@ -10,7 +10,7 @@ tags:
   - Generation
   - Linting
   - OpenAPI
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/leaflets-of-the-russian-revolution-gears-pipes-plumbing.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/leaflets-of-the-russian-revolution-gears-pipes-plumbing.jpg
 ---
 I am needing to answer a question for a customer regarding what they should be running in their CI/CD pipelines. It is a question I have to answer regularly, and I am always needing to refresh my memory of what is available out there, as well as the different ways you can approaching managing the delivery of APIs using GitHub, GitLab, or BitBucket pipelines, but also any other CI/CD solution. I have organized the tools that I am working with as part of the [API Evangelist Engineering Platform Builder](https://engineering-platform-builder.apievangelist.com/), but like everything else it is a perpetual work in progress.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Changes To LinkedIn Developer Program Are No Surprise
-image: https://s3.amazonaws.com/kinlane-productions2/linkedin/linkedin-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/linkedin/linkedin-logo.png
 author:
   name: kinlane
 tags:

@@ -8,7 +8,7 @@ tags:
   - Integration
   - Open Source
   - Community
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/dark-dali-cargo-ship-fog.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/dark-dali-cargo-ship-fog.jpg
 ---
 I have been engaged in a number of conversations with folks since I left Bloomberg last August, consulting and exploring different ways that I can work with startups and enterprises to govern APIs. I have been open to full time positions and consulting work, while still investing in content and artifacts for API Evangelist. I have also been cultivating and steering my work as API Evangelist towards some potential startup ideas for when the right people come along.
 

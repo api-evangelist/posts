@@ -2,7 +2,7 @@
 layout: post
 title: New Open Source Backend as a Services Platform for Game Developers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/OpenKit.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/OpenKit.png
 author:
   name: kinlane
 tags:

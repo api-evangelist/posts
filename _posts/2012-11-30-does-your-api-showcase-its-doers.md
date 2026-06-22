@@ -2,7 +2,7 @@
 layout: post
 title: Does Your API Showcase Its DOers?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twilio-doers-gallery.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twilio-doers-gallery.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ Poster boy for how to properly run your API ecosystem properly, [Twilio](http://
 
 Twilio has the best record I’ve seen of any API, when it comes to showcasing and being loved by their developer community, and I'm sure the DOer Gallery plays an important role in that.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/twilio/twilio-doers-gallery.png)](http://www.twilio.com/doers)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/twilio/twilio-doers-gallery.png)](http://www.twilio.com/doers)
 
 The Twilio DOer Gallery has the following features:
 

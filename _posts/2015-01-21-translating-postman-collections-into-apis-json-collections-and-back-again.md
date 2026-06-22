@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Translating Postman Collections Into APIs.json Collections And Back Again
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/postman/postman-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/postman/postman-logo.png
 author:
   name: kinlane
 tags:

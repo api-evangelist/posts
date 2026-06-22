@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Visualizing And Exploring My Microservices Catalog Using APIs.json With Swagger.ed
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-catalog.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apis-catalog.png
 author:
   name: kinlane
 tags:
@@ -16,11 +16,11 @@ I'm just getting started exploring the ways to use [APIs.json](http://apisjson.o
 
 Adding to the [discovery and visualization work he did for Swagger](http://apievangelist.com/2015/02/23/i-got-swaggered-last-week-and-now-i-am-seeing-api-visualizations/), Chris enabled Swagger.ed to look for valid APIs.son files as well, so when you browse to any APIs.son, like the one I have for my [micro services stack](https://kin-lane.github.io/master), you see the little APIs.son search icon in the address bar.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-json-in-browser.png)](https://kin-lane.github.io/master/apis.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apis-json-in-browser.png)](https://kin-lane.github.io/master/apis.json)
 
 When you click on the APIs.son search icon in the address bar, you get a very cool visualization. Its pretty basic at the moment, just a visual catalog of the APIs available in the include collection of my stack, but when you connect up with the Swagger visualization work he's already done, we could have a pretty cool API catalog for managing and exploring microservices.
 
-![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-catalog.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apis-catalog.png)
 
 I have almost 20 micro-services listed, and Swagger.ed gives me the ability to navigate it in a very interactive way. Whats next? We don’t know…it is about exploration, and finding out the most meaningful way of exploring the APIs I deploy and aggregate into APIs.son collections.
 

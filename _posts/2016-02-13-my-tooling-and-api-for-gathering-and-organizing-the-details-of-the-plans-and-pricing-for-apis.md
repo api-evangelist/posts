@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Tooling And API For Gathering And Organizing The Details Of The Plans And Pricing For APIs
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-plans-spec-interface-algolia.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-plans-spec-interface-algolia.png
 tags:
 - Plans
 - Tooling
@@ -13,11 +13,11 @@ tags:
 
 While my primary objective is to help me establish a machine readable definition that I can use to describe the plans of the APIs I provide, as well as the ones that I monitor as part of my regular work in the space--I needed an easier way to help me track the details of each API's plan. So I got to work creating an simple, yet robust admin tool that allows me to add one or many plans, for each API that I track on. 
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-plans-spec-interface-algolia.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-plans-spec-interface-algolia.png)
 
 To help me drive this administrative interface I needed an API (of course), that would allow me to add, edit, and delete the details for each plan, using my API plan schema as a guide. I got to work designing, developing, and launched [the first beta version of my API plans API](http://plans.apievangelist.com/api/), to help me gather, and organize the details for any API I want, whether its mine, or one of the many public APIs I track on.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-plans-ui-interface.png)](http://plans.apievangelist.com/api/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-plans-ui-interface.png)](http://plans.apievangelist.com/api/)
 
 Now that I have an API, and an administrative interface, I'm going to get to work adding the data I gathered from my previous research. I have almost 60 APIs to enter, then I hope to be able to step back, and see the API plan data Ive gathered in a new light. Once I get to this stage, I'm looking to craft a simple embeddable page for viewing an API's plan, and create some visualizations for looking across, and comparing multiple APIs. I'm looking to apply this concept to verticals, like with business data via APIs like Crunchbase, AngelList, OpenCorporates, and others.
 

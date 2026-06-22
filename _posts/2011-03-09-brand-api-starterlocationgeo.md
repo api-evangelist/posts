@@ -2,7 +2,7 @@
 layout: post
 title: Brand API Starter - Location / Geo
 url: http://apievangelist.com/2011/03/09/brand-api-starter--location--geo/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ Brands that don't have an API will be left behind.
 
 kinlane-productions2.s3.amazonaws.com I suggested companies get their feet wet in the API space by starting with a basic [RESTful](http://apievangelist.com/2011/01/30/api-technology-rest/) API that servers up data about their products. Then once a company is confident in supporting their API they can consider delivering more supporting product information.
 
-Whats a good next move? Location and Geographic Data. Where can your products be found? Retail and Wholesale. ![](http://kinlane-productions.s3.amazonaws.com/SimpleGeo.jpg) Provide quality, up to date information about who sells your products. Provide as much detail as you can, names, addresses, specific products and even geographic coordinates.
+Whats a good next move? Location and Geographic Data. Where can your products be found? Retail and Wholesale. ![](https://kinlane-images.s3.amazonaws.com/apievangelist/SimpleGeo.jpg) Provide quality, up to date information about who sells your products. Provide as much detail as you can, names, addresses, specific products and even geographic coordinates.
 
 There are plenty of [geo and mapping API](http://simplegeo.com/ "Geo and Mapping API") resources to provide additional data that enriches your retail and wholesale store information.
 

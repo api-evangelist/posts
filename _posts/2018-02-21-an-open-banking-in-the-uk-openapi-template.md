@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'An Open Banking in the UK OpenAPI Template'
-image: https://s3.amazonaws.com/kinlane-productions2/open-banking/open-banking-openapi.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/open-banking/open-banking-openapi.png
 ---
 
 <p>After learning more about <a href="https://www.openbanking.org.uk/">what Open Banking is doing for APIs in the UK</a>, I realized that I needed an OpenAPI template for the industry specification. There are six distinct schema available as part of the project, and I wanted a complete OpenAPI to describe which paths were available, as well as the underlying response schema. I got work crafting one from the responses that were available within <a href="https://www.openbanking.org.uk/open-data-apis/">the Open Banking documentation</a>.

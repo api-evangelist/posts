@@ -8,7 +8,7 @@ tags:
  - Rules
  - Policies
  - Experiences
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-supreme-court_36341562380_o.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-supreme-court_36341562380_o.jpg
 ---
 I struggle to share the entirety of my vision for API governance as it requires prior awareness of multiple API specifications and the current state of governance within the industry—with some leaning into what could or should be next when it comes to regulating our business operations. I need to distill my work out of Postman, Bloomberg, and API Evangelist down into a series of steps I can articulate to investors, our Naftiko engineering team, and the wider community to help demonstrate how we can shift gears beyond the sprawl we live in today.
 

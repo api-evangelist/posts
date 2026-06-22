@@ -2,7 +2,7 @@
 layout: post
 title: Build Some APIs With Restlet And API Evangelist During The Summer of APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/restlet/Sparky_Summer_of_love_hippie_standing.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/restlet/Sparky_Summer_of_love_hippie_standing.png
 author:
   name: kinlane
 tags:

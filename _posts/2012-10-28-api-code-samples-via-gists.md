@@ -2,7 +2,7 @@
 layout: post
 title: API Code Samples via Gists
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/github-logo-basic.png
 author:
   name: kinlane
 tags:

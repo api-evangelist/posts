@@ -4,7 +4,7 @@ title: >-
   How Are Mobile Dev Shops In Chicago Using APIs? A Talk With Dave Devitt At
   SYDCON
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/chicago/sydcon/sydcon-web-development.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/chicago/sydcon/sydcon-web-development.jpg
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ First, Dave said something I found very interesting when we first started our co
 
 When it comes to API usage at SYDCON, they primarily use what we all call public APIs for driving commerce. Whether it is B2B or B2C, Dave’s team is using APIs to sell products, integrate with payment systems like Authorize.net and PayPal, activating and validating of gift cards. Whether it is the nature of development or just a reflection on the type of customers SYDCON has, commerce is a pretty clear motivator for public API integration. The modern web API movement was started by commerce platforms like Amazon, eBay, and Paypal, and 14 years in it makes sense that commerce is a major driver of development at smaller develop shops.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/chicago/sydcon/dave-nevitt-sydcon.jpeg)](https://twitter.com/sydcon)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/chicago/sydcon/dave-nevitt-sydcon.jpeg)](https://twitter.com/sydcon)
 
 Beyond commerce, the main usage of APIs at SYDCON is about opening up access to internal resources that exist within their client systems, and making them available to buid apps on top of. Dave provided an example of a oil & gas worker who uses one of the mobile applications they’ve developed to scan the barcode of a 4 inch PVC pipe, and using an API the mobile application is then able to access the company’s internal product database and return information to the worker looking to get their job done, with the assistance of the mobile app they've developed. APIs are how they deliver the resources they need for the mobile applications they develop for their customers. Period. It can be products in a database, or media across servers, APIs are how these reousrces are delivered to the web enabled applications SYDCON delivers.
 

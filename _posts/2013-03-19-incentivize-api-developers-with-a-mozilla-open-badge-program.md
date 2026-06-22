@@ -2,7 +2,7 @@
 layout: post
 title: Incentivize API Developers With A Mozilla Open Badge Program
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mozilla-open-badges.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mozilla-open-badges.png
 author:
   name: kinlane
 tags:
@@ -26,7 +26,7 @@ Some examples badge-worthy milestones might be:
 
 It would take a bit of planning to developer the right approach to badging for each API, as goals would be different for each provider. But, providing badges could provide an incentive for developers to work towards meaningful goals you have tied to important KPIs for your API strategy, While also providing an easy way to track your most knowledgable and potentially trusted developers.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mozilla-open-badges/mozilla-open-badges-diagram.jpg)](http://openbadges.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/mozilla-open-badges/mozilla-open-badges-diagram.jpg)](http://openbadges.org/)
 
 If API providers start issuing sensible and consistent badges for API knowledge it would also provide additional ways to measure the size and overall health of the API developer community. I could envision badges that would serve specific business sectors or even around city, state and federal government APIs and civic efforts.
 

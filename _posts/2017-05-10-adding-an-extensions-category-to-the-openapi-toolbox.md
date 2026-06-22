@@ -2,7 +2,7 @@
 layout: post
 title: Adding An Extensions Category To The OpenAPI Toolbox
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_extensions_in_the_openapi_toolbox.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_extensions_in_the_openapi_toolbox.png
 atomdate: 2017-05-10T19:00:00.000Z
 tags:
   - OpenAPI

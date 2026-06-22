@@ -8,7 +8,7 @@ tags:
   - Specifications
   - Standards
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-spacce-burger-fence.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-spacce-burger-fence.jpeg
 ---
 I recently purchased the Radiohead record, OK Computer. I’m in a phase where I am investing in my vinyl record collection, and doing the work to get out of my comfort zone. This means challenging a lot of the norms I have around the music I know. I have always hated Coldplay. But I wanted to challenge this idea. Other people like, and this album is widely held up as being important. So, there has to be something wrong with me right? Well, after purchasing it, and listening to it about 5 times end to end, I realize I didn’t hate Coldplay, I hated Wayne, a kid from high school and my home town who was really into Coldplay, and a complete asshole douchebag. But for some reason that reality had gotten associated with the band, and abstracted away over 35 years of my life. 
 

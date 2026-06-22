@@ -2,7 +2,7 @@
 layout: post
 title: Launching 25 APIs To Assemble A Single Poem For Each Day
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/poem-of-the-times/poem-of-the-times.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/poem-of-the-times/poem-of-the-times.png
 author:
   name: kinlane
 tags:

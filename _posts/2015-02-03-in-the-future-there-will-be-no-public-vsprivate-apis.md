@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: In The Future There Will Be No Public vs. Private APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-open.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-open.png
 author:
   name: kinlane
 tags:

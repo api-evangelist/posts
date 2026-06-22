@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New OAuth Toolkit from Layer 7 Technologies
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
 
 [OAuth](http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=184 "OAuth") is a simple way to publish and interact with protected data, and is a popular method to allow secure API authorization, enabling websites to provide a more streamlined user login experience with the additional benefits of enhanced privacy and security.kinlane-productions2.s3.amazonaws.com
 
-The Layer 7 OAuth Toolkit is the first solution of its kind that enables enterprises to control policy and identity aspects of many different OAuth token operations, a capability that is particularly important as enterprises increasingly use OAuth to authorize access to APIs in cloud settings, said Phil Walston, vice president of products at Layer 7 Technologies. By allowing enterprises to seamlessly manage their OAuth implementations as the standard evolves, the toolkit simplifies operations while providing rigorous security and control.[![](http://kinlane-productions.s3.amazonaws.com/api-service-providers/layer7-logo.png)](http://www.layer7tech.com/ "Layer 7 Technologies")
+The Layer 7 OAuth Toolkit is the first solution of its kind that enables enterprises to control policy and identity aspects of many different OAuth token operations, a capability that is particularly important as enterprises increasingly use OAuth to authorize access to APIs in cloud settings, said Phil Walston, vice president of products at Layer 7 Technologies. By allowing enterprises to seamlessly manage their OAuth implementations as the standard evolves, the toolkit simplifies operations while providing rigorous security and control.[![](https://kinlane-images.s3.amazonaws.com/shared/api-service-providers/layer7-logo.png)](http://www.layer7tech.com/ "Layer 7 Technologies")
 
 Features of the Layer 7 OAuth Toolkit are:
 

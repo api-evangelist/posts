@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Open Source Your API With Github
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-text-horizontal.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/github-logo-text-horizontal.png
 author:
   name: kinlane
 tags:

@@ -5,7 +5,7 @@ title: >-
   I Am Liking The Modular Services That Are Delivering In Specific Areas Of API
   Life Cycle Like API-Docs.io
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-docs-io-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-docs-io-screenshot.png
 author:
   name: kinlane
 tags:

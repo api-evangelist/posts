@@ -4,7 +4,7 @@ title: >-
   A JSON Feed Of Critical Web Concepts To Integrate Into API Design Service And
   Tooling
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/webconcepts_info_concepts_concepts_json.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/webconcepts_info_concepts_concepts_json.png
 atomdate: 2016-09-07T00:00:00.000Z
 tags:
   - Design

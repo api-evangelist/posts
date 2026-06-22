@@ -2,7 +2,7 @@
 layout: post
 title: Your Wholesale API For Sale In The Major API Marketplaces
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/announcing_multi_year_contracts_for_saas_and_apis.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/announcing_multi_year_contracts_for_saas_and_apis.png
 atomdate: 2017-04-25T19:00:00.000Z
 tags:
   - Marketplace

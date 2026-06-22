@@ -9,7 +9,7 @@ tags:
   - Healthcare
   - Finance
   - Network
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-reparations.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/citizenship-reparations.jpeg
 ---
 In today’s extractive world of APIs being shifted into higher gear and looking like a Studio Ghibli scene all powered by artificial intelligence I wanted to spend some time learning from the world of consent APIs. You know, where we have to ask people for permission for their digital and real-world bits? As with all APIs, I don’t see consent APIs as some silver bullet to this reality, but I do see a lot of existing intent and ideology baked into why these APIs exist. While there is mostly a regulatory requirement to do so, with every regulatory requirement there are always plenty of vultures hanging around to make money-—let’s take a look at some of the consent APIs out there.
 

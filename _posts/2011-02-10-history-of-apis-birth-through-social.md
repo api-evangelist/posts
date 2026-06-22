@@ -1,7 +1,7 @@
 ---
 layout: post
 title: History of APIs - Birth through Social
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -25,7 +25,7 @@ The social period had one clear pioneer:
 
 Flickr was the clear leader in redefininkinlane-productions2.s3.amazonaws.comstablishing the [RESTful](http://en.wikipedia.org/wiki/Representational_State_Transfer "Representational State Transfer") movement with their dead simple API.
 
-The next major players in the social period were: ![](http://kinlane-productions.s3.amazonaws.com/flickr/flickr-beta.png)
+The next major players in the social period were: ![](https://kinlane-images.s3.amazonaws.com/apievangelist/flickr/flickr-beta.png)
 
 *   [**Twitter**](http://apievangelist.com/2011/01/26/history-of-apis-twitter/) - September, 2006
 *   [**Facebook**](http://apievangelist.com/2011/01/28/history-of-apis-facebook-development-platform/) - August, 2006

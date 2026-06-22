@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Area - Common Building Blocks
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ tags:
 ---
 I have spent time reviewing [100+ of the most popular APIs](http://www.programmableweb.com/apis/directory/1?sort=mashups "100+ Most Popular APIs"). I am trying to determine a common set of building blocks that are essential to API adoption.
 
-Here is a list of what I consider are thkinlane-productions2.s3.amazonaws.comcks for API" href="http://www.apievangelist.com/ecosystem-building-blocks.php">building blocks for API areas: ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/building blocks.jpg)
+Here is a list of what I consider are thkinlane-productions2.s3.amazonaws.comcks for API" href="http://www.apievangelist.com/ecosystem-building-blocks.php">building blocks for API areas: ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/building blocks.jpg)
 
 *   Overview
 *   Getting Started

@@ -4,7 +4,7 @@ title: >-
   API Providers &amp; Consumers Keeping In Touch Is How You Can Set The Right
   Tone For An API Community
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/slack-platform-keeping-in-touch.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/slack-platform-keeping-in-touch.png
 tags:
   - Community
   - Consumers

@@ -2,7 +2,7 @@
 layout: post
 title: An Embeddable Run In Postman Button For Your API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/postman-run-embeddable-code.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman-run-embeddable-code.png
 author:
   name: kinlane
 tags:

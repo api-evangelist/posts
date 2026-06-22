@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 146 Planned APIs from 19 Federal Depts and Agencies as Part of their Digital Strategy
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/US_white_house_logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/US_white_house_logo.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ Up to now, it is just a lot of talk about strategy, without much detail on what 
 
 Here is a list of "systems" that each participating department or agency will be deploying:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/usda.png)](http://www.usda.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/usda.png)](http://www.usda.gov/)
 
 **[Department of Agriculture (USDA)](http://www.usda.gov/)**
 
@@ -32,7 +32,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **SNAP Retailer Locator information** - As the agency's flagship publication, Amber Waves provides a window into ERS research through highly readable articles geared to educated but non-specialized audiences. Amber Waves covers important issues on U.S. markets & trade, diet & health, resou
 *   **Office Information Profile System**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/commerce.png)](http://www.commerce.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/commerce.png)](http://www.commerce.gov/)
 
 **[Department of Commerce](http://www.commerce.gov/)**
 
@@ -41,7 +41,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **Census API** - Ensuring mobile-optimization of Commerce.gov
 *   **Census mobile apps**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/defense.png)](http://www.defense.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/defense.png)](http://www.defense.gov/)
 
 **[Department of Defense (DOD)](http://www.defense.gov/)**
 
@@ -52,7 +52,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **United States Army Corps of Engineers (USACE) Lockage Data** - Provides users the closet store hours, directions, contact information, floor plans, etc.
 *   **Defense Finance and Accounting Service (DFAS) myPay system**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/ed.png)](http://www.ed.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/ed.png)](http://www.ed.gov/)
 
 **[Department of Education (ED)](http://www.ed.gov/)**
 
@@ -66,7 +66,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **Program Information Publication System (Part of Program Information on the Web)**
 *   **ED.gov** - Web-based tool for searching all colleges and universities in the United States. College Navigator consists primarily of the latest data from the Integrated Postsecondary Education Data System (IPEDS), the core postsecondary education data collection
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/hud.png)](http://www.hud.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/hud.png)](http://www.hud.gov/)
 
 **[Department of Housing and Urban Development (HUD)](http://www.hud.gov/)**
 
@@ -83,7 +83,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **GMP Monitoring Exhibits Handbook** - View contact information for Public Housing Agencies in your city and state
 *   **Enterprise GIS**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/justice.png)](http://www.justice.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/justice.png)](http://www.justice.gov/)
 
 **[Department of Justice (DOJ)](http://www.justice.gov/)**
 
@@ -97,7 +97,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **Office on Violence Against Women Resource Map**
 *   **National Crime Victimization Survey** - The Uniform Crime Reporting (UCR) Program was conceived in 1929 by the International Association of Chiefs of Police to meet a need for reliable, uniform crime statistics for the nation. In 1930, the FBI was tasked with collecting, publishing, and ar
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/labor.png)](http://www.labor.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/labor.png)](http://www.labor.gov/)
 
 **[Department of Labor (DOL)](http://www.labor.gov/)**
 
@@ -107,7 +107,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **Compliance Assistance: Family and Medical Leave Act (FMLA)**
 *   **Current Population Survey (CPS)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/state.png)](http://www.state.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/state.png)](http://www.state.gov/)
 
 **[Department of State](http://www.state.gov/)**
 
@@ -125,7 +125,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **U.S. Passport Issuance Data**
 *   **U.S. Passport Issuance Data** - The goal of the Foreign Assistance Dashboard is to make all U.S. Government foreign assistance investments available in an accessible and easy-to-understand format.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/dot.png)](http://www.dot.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/dot.png)](http://www.dot.gov/)
 
 **[Department of Transportation (DOT)](http://www.dot.gov/)**
 
@@ -134,7 +134,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **SaferCar.gov Recall and Complaint Data** \- DOT will create a user-friendly iOS smartphone product to streamline access to information on SaferCar.gov, including vehicle 5-star safety ratings; vehicle defects; and the Child Safety Seat Locator. The app will also allow consumers to search and s
 *   **Grade Crossing App**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/epa.png)](http://www.epa.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/epa.png)](http://www.epa.gov/)
 
 **[Environmental Protection Agency (EPA)](http://www.epa.gov/)**
 
@@ -146,7 +146,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **EPA.gov**
 *   **FRS Mobile Facility Data Collection** - EPA is considering replacing the limited mobile access currently available for home page content with a more fully featured page using responsive design.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/ferc.png)](http://www.ferc.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/ferc.png)](http://www.ferc.gov/)
 
 **[Federal Energy Regulatory Commission (FERC)](http://www.ferc.gov/)**
 
@@ -162,7 +162,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **Electric Quarterly Reports (EQR)**
 *   **Electric Quarterly Reports (EQR)** - eRegistration provides the FERC customer an easy-to-use entry point to do business with all FERC Online applications. Think of eRegistration as a form of membership. By registering, the user will receive a single user id and password that allows them
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/gsa.png)](http://www.gsa.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/gsa.png)](http://www.gsa.gov/)
 
 **[General Services Administration (GSA)](http://www.gsa.gov/)**
 
@@ -187,7 +187,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **Automated Advanced Acquisition Program (AAAP)** - Federal agencies can report their excess computers and related peripheral equipment to GSA through the GSAXcess® website. Eligible recipients can view and request the available federal excess property at the CFL website.
 *   **GO.USA.gov**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/nasa.png)](http://www.nasa.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/nasa.png)](http://www.nasa.gov/)
 
 **[National Aeronautics and Space Administration (NASA)](http://www.nasa.gov/)**
 
@@ -199,7 +199,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **Visualization Explorer**
 *   **people.nasa.gov** - NASA Visualization Explorer, the coolest way to get stories about advanced space-based research delivered right to your iPad. A direct connection to NASA’s extraordinary fleet of research spacecraft, this app presents cutting edge research stories
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/archives.png)](http://www.archives.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/archives.png)](http://www.archives.gov/)
 
 **[National Archives and Records Administration (NARA)](http://www.archives.gov/)**
 
@@ -218,7 +218,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **Today's Document** - Make additional National Archives records available on Flickr, which is accessible through the Flickr API
 *   **DocsTeach** - Make improvements to the Today's Document mobile application
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/nsf.png)](http://www.nsf.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/nsf.png)](http://www.nsf.gov/)
 
 **[National Science Foundation (NSF)](http://www.nsf.gov/)**
 
@@ -237,7 +237,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **Vacancies** - Demographic information for recipients of NSF GRFP awards. The GRFP provides three years of graduate education support for individuals who have demonstrated the potential for significant achievements in science and engineering research
 *   **Directions** - Current job vacancies at NSF.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/nrc.png)](http://www.nrc.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/nrc.png)](http://www.nrc.gov/)
 
 **[Nuclear Regulatory Commission (NRC)](http://www.nrc.gov/)**
 
@@ -249,7 +249,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **Part 21 (Component Defect Reports)** - A web-based system that allows the NRC to report on observations and findings of inspections occurring at commercial power reactors located within the continental United States
 *   **Public Affairs Daily News Releases** - A web-based system that allows the NRC to report on licensed facilities, activities, or basic component that fail to comply with NRC regulations
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/ssa.png)](http://www.ssa.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/ssa.png)](http://www.ssa.gov/)
 
 **[Social Security Administration (SSA)](http://www.ssa.gov/)**
 
@@ -263,7 +263,7 @@ Here is a list of "systems" that each participating department or agency will be
 *   **Mobile Optimized Life Expectancy Calculator**
 *   **SSA/Dept of State Identity Verification [Web Service](http://www.apievangelist.com/)** - A monthly ranking of the 165 ODAR hearing offices (including 3 satellite offices) by the average number of days until final disposition of the hearing request. The average shown will be a combined average for all cases completed in that hearing offic
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/usaid.png)](http://www.usaid.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/usaid.png)](http://www.usaid.gov/)
 
 **[United States Agency for International Development (USAID)](http://www.usaid.gov/)**
 

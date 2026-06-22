@@ -2,7 +2,7 @@
 layout: post
 title: Making Transparency Reports Standard Operating Procedure
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/US_transparency_report.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/US_transparency_report.png
 author:
   name: kinlane
 date: 2013-01-23T19:35:20.000Z

@@ -9,7 +9,7 @@ tags:
   - Industries
   - Awareness
   - Narratives
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/leaflets-of-the-russian-revolution-hospital-old.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/leaflets-of-the-russian-revolution-hospital-old.jpeg
 ---
 Having been out on the front line of API storytelling since 2010 I can attest to the reality that you need a lot of stories to be told before people understand the digital resources and capabilities that they are already using on a daily basis. You can see the impact of a decades worth of storytelling within the open banking space, but when it comes to the healthcare space the absence of storytelling and the lack of awareness around APIs, standards, and regulation is evident.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Open Sourcing Hack Weekends Using Github
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-Hack-Weekends-Github.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-Hack-Weekends-Github.png
 author:
   name: kinlane
 tags:

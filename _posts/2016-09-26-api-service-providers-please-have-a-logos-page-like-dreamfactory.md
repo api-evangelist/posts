@@ -2,7 +2,7 @@
 layout: post
 title: API Service Providers Please Have A Logos Page Like dreamfactory
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/dreamfactory_logo__google_search.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dreamfactory_logo__google_search.png
 atomdate: 2016-09-26T16:00:00.000Z
 tags:
   - Logo

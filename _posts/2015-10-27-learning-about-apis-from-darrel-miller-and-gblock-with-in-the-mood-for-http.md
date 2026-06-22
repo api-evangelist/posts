@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Learning About APIs From @darrel_miller And @gblock With In The Mood For HTTP
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/in-the-mood-for-http.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/in-the-mood-for-http.png
 author:
   name: kinlane
 tags:

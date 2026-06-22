@@ -2,7 +2,7 @@
 layout: post
 title: United States Farmers Market API
 url: http://apievangelist.com/2011/08/13/united-states-farmers-market-api/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ tags:
 - Search
 - Twitter
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Farmers-Market-Data-US-Map.png)I'm always on the lookout for innovative data sets and examples of APIs that provide value in ever-day life. APIs are often a very geeky thing, and I'm always trying to find examples of APIs that make sense to my mainstream audience, and help me explain what APIs are, and the value they can deliver.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Farmers-Market-Data-US-Map.png)I'm always on the lookout for innovative data sets and examples of APIs that provide value in ever-day life. APIs are often a very geeky thing, and I'm always trying to find examples of APIs that make sense to my mainstream audience, and help me explain what APIs are, and the value they can deliver.
 
 I found a story from [John Mertens](http://twitter.com/#!/@mertonium "John Mertens") of [Code for America](http://codeforamerica.org/ "Code for America"), about [building a Famers Market API](http://codeforamerica.org/2011/08/08/farmers-market-api/ "building a famers market Api"), which I think tells a great story about how anyone with a need, can take a valuable dataset and make it available using an API.
 

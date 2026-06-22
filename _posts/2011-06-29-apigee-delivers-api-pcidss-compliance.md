@@ -2,13 +2,13 @@
 layout: post
 title: Apigee Delivers API PCI-DSS Compliance
 url: http://apievangelist.com/2011/06/29/apigee-delivers-on-api-pci-dss-compliance/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Compliance
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-service-providers/apigee-logo.gif)](http://apigee.com/ "Apigee")[Apigee](http://apigee.com/ "Apigee") justannounced their [Apigee Enterprise Cloud PCI](http://forms.apigee.com/acton/form/549/001c:d-0002/0/index.htm "Apigee Enterprise Cloud PCI"), a new offering that enables organizations to deliver transactional APIs, securely deployed in a private or public cloud.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/shared/api-service-providers/apigee-logo.gif)](http://apigee.com/ "Apigee")[Apigee](http://apigee.com/ "Apigee") justannounced their [Apigee Enterprise Cloud PCI](http://forms.apigee.com/acton/form/549/001c:d-0002/0/index.htm "Apigee Enterprise Cloud PCI"), a new offering that enables organizations to deliver transactional APIs, securely deployed in a private or public cloud.
 
 Apigee's new Enterprise Cloud PCI supports full compliance with the [Payment Card Industry Data Security Standard (PCI-DSS)](https://www.pcisecuritystandards.org/security_standards/ "Payment Card Industry Data Security Standard"), while taking advantage of the compute resources of the cloud to support transactional API traffic and sensitive customer data.
 

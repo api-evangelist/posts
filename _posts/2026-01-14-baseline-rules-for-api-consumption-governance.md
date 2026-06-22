@@ -10,7 +10,7 @@ tags:
   - Rules
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-docks-oakland-4.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-docks-oakland-4.jpeg
 ---
 API governance using Spectral or Vacuum rules changes when you go from governing APIs you are producing to governing 3rd-party APIs you are consuming. It is a simple, but pretty radical shift in how we approach API governance. Governance in a world where you have even less control than you do with internal APIs. 
 

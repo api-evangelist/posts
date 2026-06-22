@@ -2,7 +2,7 @@
 layout: post
 title: 'Hypermedia In The Wild: Amazon AppStream API'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/amazon-appstream-main.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/amazon-appstream-main.jpg
 author:
   name: kinlane
 tags:

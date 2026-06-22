@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Allowing Users To Get Their Own OAuth Tokens For Accessing An API Without The'
-image: https://s3.amazonaws.com/kinlane-productions2/github/github-personal-access-token.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-personal-access-token.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/github/github-personal-access-token.png" width="45%" align="right" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-personal-access-token.png" width="45%" align="right" style="padding: 15px;" />
 <p>I run a lot of different applications that depend on GitHub, and use GitHub authentication as the identity and access management layer for these apps. One of the things I like the most about GitHub and how I feel it handles it’s OAuth more thoroughly than most other platforms, is how they let you get you own OAuth token under your settings &gt; developer settings &gt;personal access tokens. You don’t need to setup an application, and do the whole OAuth dance, you just get a token that you can use to pass along with each API call.
 
 <p>I operate my own OAuth server which allows me to authenticate using OAuth with many leading APIs, so generating an OAuth token, and setting up a new provider isn’t too hard. However, it is always much easier to go under my account settings, create a new personal access token for a specific purpose, and get to work playing with an API. I wish that ALL API providers did this. At first glance, it looks like <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">GitLab</a>, <a href="https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/">Harvest</a>, <a href="https://developer.typeform.com/get-started/personal-access-token/">TypeForm</a>, and <a href="https://www.contentful.com/r/knowledgebase/personal-access-tokens/">ContentFul</a> all provide personal access tokens as a first option for on-boarding with their APIs. Demonstrating this is more of a pattern, than just a GitHub feature.

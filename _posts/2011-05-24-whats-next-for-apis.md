@@ -2,13 +2,13 @@
 layout: post
 title: Whats Next for APIs?
 url: http://apievangelist.com/2011/05/24/whats-next-for-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - APIs
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/events/gluecon.jpg)I'm preparing for another talk tomorrow at the [Glue conference](http://gluecon.com/2011/ "Glue Conference") in Colorado. Glue is a conference that assists architects, developers, administrators and integrators in solving problems around web application integration.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/shared/events/gluecon.jpg)I'm preparing for another talk tomorrow at the [Glue conference](http://gluecon.com/2011/ "Glue Conference") in Colorado. Glue is a conference that assists architects, developers, administrators and integrators in solving problems around web application integration.
 
 Glue is about all of bits and pieces, APIs and meta-data, standards and connectors that will help us to glue together the varying applications of the new platform.
 

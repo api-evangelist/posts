@@ -4,7 +4,7 @@ title: >-
   Pushing The Space Forward With Talks At #APIStrat - Did You Submit Yours For
   Chicago?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/romain-apistrat-ams.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/romain-apistrat-ams.jpg
 author:
   name: kinlane
 tags:

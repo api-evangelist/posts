@@ -7,7 +7,7 @@ tags:
   - Politics
   - Lessons
   - International
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-washington-monument-afar.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-washington-monument-afar.jpg
 ---
 The majority of my consulting clients are international in this moment. It is interesting to start every meeting with commentary and discussion on the current administration in the United States, but conversations are increasingly also moving towards the alignment of our wider technology and business priorities with this administration. While it is difficult to cut through the noise right now on social media and via search engines, my messages around focusing on the fundamental of HTTP APIs, experience, and governance in this moment is attracting a certain time of international customer who are savvy and know they need to be doing APIs, and see a number of lessons in the US approach to APIs, but not all of these lessons are good.
 

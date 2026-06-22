@@ -7,7 +7,7 @@ tags:
   - Weekly
   - Governance
   - Conversations
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-statue-supreme-court.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-statue-supreme-court.jpg
 ---
 The first weekly API Evangelist API Governance Conversation was a success--[you can tune into the discussion on Youtube](https://www.youtube.com/watch?v=PHXAPgJiHZ0&list=PL5x2w5x0IRnHzljjSmPApbhBHgp3NeTdM&ab_channel=KinLane%2CTheAPIEvangelist), but for this week I wanted to introduce a little more structure, while keeping the conversation going. I would like to keep the free public accessibility of the gathering while breaking the conversation down into four separate ten minute slots, with a twenty minute buffer for going over. Here is the current agenda I am proposing, but last week’s guests have also chimed in as well, with the final topic to be determind shortly.
 

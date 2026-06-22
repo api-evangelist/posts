@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Outside-In Approach To Jumpstarting An API Effort At The University of Oklahoma
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/the-university-of-oklahoma.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/the-university-of-oklahoma.png
 author:
   name: kinlane
 tags:

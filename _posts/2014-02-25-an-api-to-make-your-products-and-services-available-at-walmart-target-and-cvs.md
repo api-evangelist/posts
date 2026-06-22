@@ -4,7 +4,7 @@ title: >-
   An API To Make Your Products and Services Available At Walmart, Target and
   CVS?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/cashtie/cashtie_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/cashtie/cashtie_logo.png
 author:
   name: kinlane
 tags:

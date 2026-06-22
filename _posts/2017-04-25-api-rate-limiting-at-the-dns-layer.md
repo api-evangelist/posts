@@ -2,7 +2,7 @@
 layout: post
 title: API Rate Limiting At The DNS Layer
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_rate_limiting_at_dns_layer_cloudflare.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_rate_limiting_at_dns_layer_cloudflare.png
 atomdate: 2017-04-25T22:00:00.000Z
 tags:
   - DNS

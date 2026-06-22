@@ -2,7 +2,7 @@
 layout: post
 title: API Management Is Getting More Modular And Composable
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/tyk_variants_1200px.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tyk_variants_1200px.png
 atomdate: 2017-02-09T20:00:00.000Z
 tags:
   - Management

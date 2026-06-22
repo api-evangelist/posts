@@ -2,7 +2,7 @@
 layout: post
 title: Who Is Going To Do The DevOps Aggregation API Platform?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/aggregation-trend.png
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/trends/aggregation-trend.png
 atomdate: 2016-08-23T18:00:00.000Z
 tags:
   - Aggregation

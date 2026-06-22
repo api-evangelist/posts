@@ -9,7 +9,7 @@ tags:
   - Tags
   - Artifacts
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-tea-timer.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-tea-timer.jpeg
 ---
 We’ve encountered a lot of domain-driven design (DDD) sessions over the last fifteen years of our work. It is something few organizations have the time and resources to do, with even fewer who execute them coming out the other side with practical and meaningful change that lives on as part of the enterprise. Even with this reality, DDD still is very important work. Every time we encounter domain-driven design emerge as part of a conversations we tend to encourage everyone to do more thinking about how we can get everyone more aligned within a domain, but doing it in motion without disrupting existing work. This approach cknowledges that it is unlikely we will ever have the time and bandwidth and time for properly implementing full blown domain-driven design-—choosing instead tofocus on micro versions of the same work, but doing it incrementally in this moment with the following characteristics.
 

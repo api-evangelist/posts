@@ -2,7 +2,7 @@
 layout: post
 title: Where Do We Start With APIs At The University of Oklahoma?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/the-university-of-oklahoma.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/the-university-of-oklahoma.png
 author:
   name: kinlane
 tags:

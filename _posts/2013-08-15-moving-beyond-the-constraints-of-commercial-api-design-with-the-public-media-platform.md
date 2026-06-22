@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving Beyond the Constraints of Commercial API Design With The Public Media Platform
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/public-media-logo.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/public-media-logo.jpeg
 author:
   name: kinlane
 tags:
@@ -29,4 +29,4 @@ The PMP team is heads down in the build phase of the project, and will be launch
 
 I have crafted a 15 story series based upon the PMP platform, which I will be releasing in tune with the PMP roadmap, so make sure and tune in over the next six months. With the lack of commercial constraints, the PMP team is going to lead in not just the public media space, but deliver a platform model, API design definition and suite of open source tools that can be applied across numerous industries, and show many commercial API platforms a whole new world of API possibilities.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/public-media-platform/public-media-platform.jpg)](http://publicmediaplatform.org/ "Public Media Platform")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/public-media-platform/public-media-platform.jpg)](http://publicmediaplatform.org/ "Public Media Platform")

@@ -2,7 +2,7 @@
 layout: post
 title: Protecting Your Brand With API Branding Guidelines
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/power-by--drk.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/power-by--drk.png
 author:
   name: kinlane
 tags:
@@ -21,7 +21,7 @@ _At ACTIVE Network, we want you to be able to create fantastic applications with
 
 Next Active Network explains to developers why branding guidelines are important to their own users:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/Active-Network/Active-Branding-Guidelines.png)](http://developer.active.com/branding_guidelines)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Active-Network/Active-Branding-Guidelines.png)](http://developer.active.com/branding_guidelines)
 
 *   The ACTIVE brand holds credibility in the mind of the customer. It serves as a seal of approval giving customers the confidence to transact through a trusted source
 *   As a consumer utility, ACTIVE.com® captures and records registration activity providing people with a record of their personal registration history if they need it at a future date

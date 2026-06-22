@@ -2,7 +2,7 @@
 layout: post
 title: Business of Google APIs 2011
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google_code.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_code.jpg
 author:
   name: kinlane
 tags:
@@ -17,13 +17,13 @@ With this in mind I wanted to take a look at the Business of Google APIs in 2011
 
 Google was already setting the theme for 2011, with the [launch of Google Console in November 2010](http://googlecode.blogspot.com/2010/11/introducing-google-apis-console-and-our.html "launch of Google Console in 2010"). The [Google API Console](https://code.google.com/apis/console/ "Google API Console") helps developers manage their Google API usage across all of thier sites and apps. It was clear, Google was not just looking for a way to get a handle on how they deploy and manage large numbers of APIs, they were acknowledging developers needed a way as well.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/google/Google-APIs-Console-Dashboard.png)](http://apievangelist.com/2011/05/21/google-apis-console/ "Google API Console")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/google/Google-APIs-Console-Dashboard.png)](http://apievangelist.com/2011/05/21/google-apis-console/ "Google API Console")
 
 [Google API Console](http://apievangelist.com/2011/05/21/google-apis-console/ "Google API Console") centralized how developers managed the Google APIs they used, traffic generated via these APIs, introduced billing management for some APIs, and provided developers with project and team building tools.  Google supports 30 APIs inside of the API Console now.
 
 In 2011 Google also worked to make their [APIs more discoverable for developers](http://googlecode.blogspot.com/2011/05/google-apis-discovery-service-one-api.html "Google APIs more discoverable") with the launch [Google API Discovery Service](http://code.google.com/apis/discovery/ "Google API Discovery Service"). The [Google API Discovery Service](http://apievangelist.com/2011/05/21/google-apis-discovery-service/ "Google API Discover Service") provides a set of web APIs for discovering metadata across Google APIs by delivering a JSON-based API that provides a directory of supported Google APIs, and a machine-readable discovery document for each API.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/google/google-discover-file-cabinet.png)](http://apievangelist.com/2011/05/21/google-apis-discovery-service/ "Google API Discover Service")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/google/google-discover-file-cabinet.png)](http://apievangelist.com/2011/05/21/google-apis-discovery-service/ "Google API Discover Service")
 
 Now developers can integrate Google API discovery into client libraries, IDE plugins and other tools, making it easier to discover the API they need. After providing an API discovery service, Google followed another 2011 trend around deploying the [Google API Explorer](https://code.google.com/apis/explorer/ "Google API Explorer").
 
@@ -38,7 +38,7 @@ API explorers have done a lot to improve the time it takes for developers to get
 
 Beyond making it easier to discover, explore and manage APIs with Google Discovery, Google Explorer and Google Console in 2011, Google also spent a lot of time addressing API security.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/Google-OAuth-2-Playground.png)](https://code.google.com/oauthplayground/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Google-OAuth-2-Playground.png)](https://code.google.com/oauthplayground/)
 
 The first step to [improving the security of Google APIs was by supporting SSL](http://googlecode.blogspot.com/2011/03/improving-security-of-google-apis-with.html "improving security across Google APIs by supporting SSL") across all Google APIs. Next Google went all in by not just working to [support OAuth 2.0 across Google APIs](http://googlecode.blogspot.com/2011/03/making-auth-easier-oauth-20-for-google.html "support OAuth across Google APIs"), they want to help developers understand OAuth 2.0, making it easier to secure applications with the standard. To help facilitate this understanding, [Google opened up the OAuth 2.0 Playground](http://googlecode.blogspot.com/2011/11/oauth-20-playground-open-to-developers.ht "Google opened up the oauth playground"), which is meant to simplify experimentation with the OAuth 2.0 protocol and APIs that use the protocol by developers.
 
@@ -48,7 +48,7 @@ Google has rewritten their terms from the ground up with the goal of making them
 
 Overall Google made some pretty significant improvements to get their API house in order. Of course in order to do this they also had to make some hard decision, like deciding to [shut down 18 Google APIs in May](http://googlecode.blogspot.com/2011/05/spring-cleaning-for-some-of-our-apis.html "shut down 18 Google APIs in May"), which included the Google Translate API. A decision they reversed two months later, when they decided it was better to [offer Google Translate as a billable API](/2011/08/25/paid-version-of-google-translate-api/ "offer Google Translate as a Billable API") under Google Console.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/Tag-Cloud-Google-Translate.png)](/2011/08/25/paid-version-of-google-translate-api/ "offer Google Translate as a Billable API")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Tag-Cloud-Google-Translate.png)](/2011/08/25/paid-version-of-google-translate-api/ "offer Google Translate as a Billable API")
 
 As the [API Evangelist](http://apievangelist.com "API Evangelist") I don’t really invent any of the API approaches I write about, I try to shed light on what others are doing. Thats what this post is all about, shedding light on how Google is conducting the business of their APIs, so we can learn from them-- the good and the bad.
 

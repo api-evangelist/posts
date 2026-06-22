@@ -7,7 +7,7 @@ tags:
   - Business
   - Operations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-japanese-carrying-over-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-japanese-carrying-over-bridge.jpeg
 ---
 Enterprise API operations have to be sustainable and pay its way, and API Evangelist has always heard questions around how APIs can pay for themselves, but the bar is getting higher when it comes to there being a solid business strategy, dashboard, and reporting to dial-in the business of enterprise API operations.
 

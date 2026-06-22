@@ -4,7 +4,7 @@ title: >-
   What We Can Do To Make A Difference In The Wake Of Oracle v Google API
   Copyright Case
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-architecture/api-architecture-three.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-architecture/api-architecture-three.png
 author:
   name: kinlane
 tags:

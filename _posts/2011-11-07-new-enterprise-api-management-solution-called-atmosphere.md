@@ -2,7 +2,7 @@
 layout: post
 title: New Enterprise API Management Solution Called Atmos.phe.re
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/atmosphere-logo-1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/atmosphere-logo-1.png
 author:
   name: kinlane
 tags:

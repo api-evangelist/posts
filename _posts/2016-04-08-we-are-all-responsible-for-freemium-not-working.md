@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We Are All Responsible For Freemium Not Working
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/freemium.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/freemium.jpg
 tags:
 - API Evangelist
 - APIs

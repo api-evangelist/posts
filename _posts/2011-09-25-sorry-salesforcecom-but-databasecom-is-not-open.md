@@ -2,7 +2,7 @@
 layout: post
 title: Sorry SalesForce.com, but Database.com is not Open
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/salesforce-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/salesforce-logo.png
 author:
   name: kinlane
 tags:

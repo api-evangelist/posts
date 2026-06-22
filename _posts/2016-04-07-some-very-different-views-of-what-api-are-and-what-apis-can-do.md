@@ -2,7 +2,7 @@
 layout: post
 title: Some Very Different Views Of What API Are And What APIs Can Do
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tom-woodward.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tom-woodward.jpeg
 tags:
   - Diff
   - APIs

@@ -8,7 +8,7 @@ tags:
     - Naftiko
     - Design
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-feminist-pioneers.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-feminist-pioneers.jpeg
 ---
 Questioning how I see the technology, business, and politics of APIs is the foundation of API Evangelist. I've changed my opinions on a lot of things over the years, as my awareness expands on different topics. Right now I am questioning how I see and approach API governance. In an attempt to try and apply what we've built at Naftiko to the problem of API governance, I find myself question a lot of what I've been writing about when it comes to API governance. IDK, maybe I am over thinking it. Let's see.
 

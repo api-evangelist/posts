@@ -2,7 +2,7 @@
 layout: post
 title: Evolving How We Approach The API Lifecycle With APIMatic
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apimatic/apimatic-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apimatic/apimatic-logo.png
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ Then the first option for generating an SDK is from a marketplace of existing AP
 **Supporting API Integration**  
 Since APIMatic generates the code that sits between your app and the API resources it depends on, it has a unique lens for looking into how your applications are using APIs. This provides an alternative approach to the proxies and tooling I'm seeing emerge to monitor, track, test, and report on API integration. I’m not sure of the pros and cons to this type of API integration, but think APIMatic vision is worth taking a closer look at.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apimatic/apimatic-search-import-specify.png)](https://apimatic.io)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apimatic/apimatic-search-import-specify.png)](https://apimatic.io)
 
 **Mobile Focused Software Development Kits (SDK)**  
 APIMatic focuses on delivering mobile SDKs, for iOS, Android, Windows, and Java platforms. When I talked to the founders, they said they would eventually provide more web focused SDKs, but mobile is obviously a major driver of API consumption, and was the low hanging fruit.

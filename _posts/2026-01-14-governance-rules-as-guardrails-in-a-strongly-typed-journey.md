@@ -12,7 +12,7 @@ tags:
   - Products
   - Capabilities
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-railroad-tracks-rocks.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-railroad-tracks-rocks.jpeg
 ---
 I am always fascinated by how the same people who are TypeScript believers often become advocates against using a schema-driven approach anywhere beyond “the code”. I am a big fan of having a schema for all the words we use to describe what we do. It helps us get on the same page, stay on the same page over time, and help teams move forward more confidently in the same direction.
 

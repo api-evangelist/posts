@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Amazing Visuals, But Lack of API Imagination
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/great-salt-desert.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/great-salt-desert.jpeg
 author:
   name: kinlane
 tags:
@@ -35,7 +35,7 @@ Instead of a single, static PDF--I now have all my images and the title, details
 *   **Deck.js Presentation** \- Create a presentation in markdown using the satellite imagery and content, laid out using the deck.js framework
 *   **Widgets** - Develop several, embeddable, syndicatable JavaScript widgets that are driven from the JSON file
 
-[![](https://s3.amazonaws.com/kinlane-productions2/earth-as-art/great-salt-desert.jpeg)](http://kinlane.github.com/earth-as-art/index.html)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/earth-as-art/great-salt-desert.jpeg)](http://kinlane.github.com/earth-as-art/index.html)
 
 Having the Earth as a Art assets stored as individual images with name, details, location and image paths as JSON allows me build my own HTML display, presentations and widgets around the content.
 

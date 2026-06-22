@@ -11,7 +11,7 @@ tags:
  - Policies
  - Experiences
  - Properties
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-oxford-old-building.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-oxford-old-building.jpg
 --- 
 I’ve been down the API style guide rabbit hole several times. A couple times drunk and a couple times sober. I ended up with a whole bunch of assumptions that I wanted to validate on the ground within the enterprise—this is one of the reasons I spent a year at Bloomberg leading API governance. So, after all of that, this is where I stand on the subject. While I think API style guides can be worthy work, after absorbing all of the style guides out there, working with several enterprises to produce, maintain, and evolve style guides—I am just not a big believer that it is a worthwhile street to continue driving down, and here is why.
 

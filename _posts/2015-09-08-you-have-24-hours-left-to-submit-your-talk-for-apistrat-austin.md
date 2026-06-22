@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You Have 24 Hours Left To Submit Your Talk For APIStrat Austin
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-talk.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apistrat-talk.jpg
 author:
   name: kinlane
 tags:

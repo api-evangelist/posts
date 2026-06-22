@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Method to the Madness
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/global-gears.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/global-gears.jpg
 author:
   name: kinlane
 tags:

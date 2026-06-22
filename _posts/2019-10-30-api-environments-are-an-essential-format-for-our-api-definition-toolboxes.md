@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Environments Are An Essential Format For Our API Definition Toolboxes
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/environment_green.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/environment_green.jpg
 author:
   name: kinlane
 tags:

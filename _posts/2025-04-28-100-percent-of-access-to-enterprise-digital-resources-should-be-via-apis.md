@@ -8,7 +8,7 @@ tags:
   - Control
   - Databases
   - Files
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-castle-front-shot.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-castle-front-shot.jpg
 ---
 HTTP APIs have evolved over the last quarter century to be the standard for how you make digital resources and capabilities available in web, mobile, device, and artificial intelligence applications. At the early part of the century HTTP APIs combined with API gateway and API management began providing some simple yet sophisticated ways of managing how data, content, media, and other resources are accessed that ODBC, file systems, and other approaches couldn’t provide. HTTP APIs provided a low-cost, yet robust approach to safely and securely providing access to backend systems, offering a much more professional front to the many different ways in which enterprises generate revenue and produce value as part of the markets in which they operate.
 

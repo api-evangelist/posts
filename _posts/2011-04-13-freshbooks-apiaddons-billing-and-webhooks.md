@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Freshbooks API  Add-Ons, Billing, and Webhooks
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ While reviewing the [Freshbooks API](http://developers.freshbooks.com/ "Freshboo
 *   **[Webhooks](http://developers.freshbooks.com/webhooks/ "Webhooks")** - Framework for enabling application callbacks, URLs where the Freshbook system can send notifications to third party applications
 *   [Self-Service Application Frameworks](http://community.freshbooks.comkinlane-productions2.s3.amazonaws.comStor</strong>e</a> - Application store and development platform for developers to build custom apps, showcase,  and sell to Freshbook customers.</li>
     </ul>
-    <a title= "Freshbooks Add-On Store") like the Freshbooks Add-On Store are growing more common. I've talked about similar systems from [Box.net](http://apievangelist.com/2011/04/08/box-net-openbox/ "Box.net") and [Google Apps Marketplace](http://apievangelist.com/2011/04/08/google-apps-marketplace/ "Google Apps Marketplace"). The Freshbooks Add-On store is not 100% self-service, but it is close. [![](http://kinlane-productions.s3.amazonaws.com/freshbooks-leaf.jpg)](http://www.freshbooks.com/) Webhooks are nothing new, but Freshbook offers a standardized approach to deploying web-hooks that makes them easy for developer to use.
+    <a title= "Freshbooks Add-On Store") like the Freshbooks Add-On Store are growing more common. I've talked about similar systems from [Box.net](http://apievangelist.com/2011/04/08/box-net-openbox/ "Box.net") and [Google Apps Marketplace](http://apievangelist.com/2011/04/08/google-apps-marketplace/ "Google Apps Marketplace"). The Freshbooks Add-On store is not 100% self-service, but it is close. [![](https://kinlane-images.s3.amazonaws.com/apievangelist/freshbooks-leaf.jpg)](http://www.freshbooks.com/) Webhooks are nothing new, but Freshbook offers a standardized approach to deploying web-hooks that makes them easy for developer to use.
     
     A built in payment system is definitely a notable [API building block](http://www.apievangelist.com/ecosystem-building-blocks.php "API Building Block"). Providing developers with a baked-in payment system for handling application monetization is very innovative.
     

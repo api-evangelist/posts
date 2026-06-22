@@ -2,7 +2,7 @@
 layout: post
 title: Tracking Federal Agencies Progress on API Deployment
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Track-Federal-Agency-API.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Track-Federal-Agency-API.png
 author:
   name: kinlane
 tags:

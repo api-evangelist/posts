@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The edX API
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/edx/edx-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/edx/edx-logo.jpg
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Containers To Bridge What Swagger Cannot Define On The Server-Side For My APIs
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-api-docker.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/swagger-api-docker.png
 author:
   name: kinlane
 tags:

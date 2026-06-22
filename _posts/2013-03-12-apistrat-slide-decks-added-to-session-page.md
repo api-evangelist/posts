@@ -2,7 +2,7 @@
 layout: post
 title: '#APIStrat Slide Decks Added To Session Page'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-strategy-practice-event-2-sold-out.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-strategy-practice-event-2-sold-out.png
 author:
   name: kinlane
 tags:

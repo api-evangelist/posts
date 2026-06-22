@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding A Credit Layer To My Existing API Service Composition
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-counting.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-counting.png
 author:
   name: kinlane
 tags:

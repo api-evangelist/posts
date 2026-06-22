@@ -3,14 +3,14 @@ layout: post
 title: API Evangelist Tour Schedule for January
 url: http://apievangelist.com/2012/01/05/api-evangelist-tour-schedule-for-january/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-hackathon.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tag-cloud-hackathon.png
 author:
   name: kinlane
 tags:
   - API Evangelist
   - Evangelist
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/hackathons/Hackathon-Tag-Cloud-2.png)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/hackathons/Hackathon-Tag-Cloud-2.png)
 
 In 2012 I will be stepping up my coverage, participation and sponsorship of [Hackathon events](http://apievangelist.com/events/ "hackathon events") across the United States.  In January I will be attending 9 events across 5 cities.  
 

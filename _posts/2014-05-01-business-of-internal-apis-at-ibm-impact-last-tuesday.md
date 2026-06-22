@@ -2,7 +2,7 @@
 layout: post
 title: Business Of Internal APIs At IBM Impact Last Tuesday
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/ibm-impact-2014/ibm-impact-logo.png
+  https://kinlane-images.s3.amazonaws.com/shared/events/ibm-impact-2014/ibm-impact-logo.png
 author:
   name: kinlane
 tags:

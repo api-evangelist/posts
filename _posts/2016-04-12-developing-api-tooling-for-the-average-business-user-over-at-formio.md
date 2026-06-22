@@ -2,7 +2,7 @@
 layout: post
 title: Developing API Tooling For The Average Business User Over At Form.io
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/formio-form-building.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/formio-form-building.png
 tags:
   - Business
   - Tooling

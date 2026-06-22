@@ -8,7 +8,7 @@ tags:
   - Politics
   - Access
   - Control
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-lion-mouth-open.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-lion-mouth-open.jpeg
 ---
 I learned about the usage of the word “open” the hard way during the Web 2.0 dayz. I was the frontline of the open data and open API (and OpenAPI) push. Like with APIs, I was the face of various charges forward to open up government, higher education institutions, and other structural aspects of our world when it came to calls for opening up data and valuable digital resources. It took me about five years to learn that the calls for opening up data and other digital resources was about opening up other people's resources, and the powers that be in technology weren’t at all interested in opening up their own resources, just encouraging others to open up theirs, so that they could be freely consumed by others.
 

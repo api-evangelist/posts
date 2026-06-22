@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'How Not To Onboard With Your API: Fiber Locator API'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fiberlocator-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/fiberlocator-api.png
 author:
   name: kinlane
 tags:
@@ -22,11 +22,11 @@ _FiberLocator offers an application programming interface that gives you access 
 
 I filled out the form, providing my name, email, phone and company name, the provided the additional details: _I am the API Evangelist, and I’d like to write a story about the Fiber Locator API_. Something I do a lot. Within 24 hours I received:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fiber-api-2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/fiber-api-2.png)
 
 Then I got this:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fiber-api-1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/fiber-api-1.png)
 
 Both of these emails I replied with the same additional details I included with my request for API access. I received a third solicitation, but felt it didn't add any value to the conversation. From what I can tell, the Fiber Locator API is simply a lead generation form, which routes to sales people—I see no evidence of an API.
 

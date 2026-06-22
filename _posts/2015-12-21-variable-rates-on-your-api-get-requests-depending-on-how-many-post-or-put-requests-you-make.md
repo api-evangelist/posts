@@ -3,7 +3,7 @@ layout: post
 title: >-
   Variable Rates On Your API GET Requests Depending On How Many POST or PUT
   Requests You Make
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-scatter-plot.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-scatter-plot.png
 author:
   name: kinlane
 tags:

@@ -6,7 +6,7 @@ tags:
   - Enterprise Persona
   - Experience
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/red-circuit-japanese-carrying-over-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/red-circuit-japanese-carrying-over-bridge.jpeg
 ---
 Few in the enterprise care about APIs, but everyone cares about the experience of running the enterprise and its applications and integrations via a sub-optimal API experience, and enterprise leadership has some pretty clear desires when it comes to improving the human experience that happens across API operations.
 

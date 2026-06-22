@@ -2,7 +2,7 @@
 layout: post
 title: 'API Design: Do You Swagger, Blueprint or RAML?'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-design.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-design.png
 author:
   name: kinlane
 tags:

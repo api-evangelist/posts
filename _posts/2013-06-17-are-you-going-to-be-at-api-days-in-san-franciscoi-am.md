@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Are You Going To Be At API Days in San Francisco?  I Am!
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-san-francisco-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-days-san-francisco-logo.png
 author:
   name: kinlane
 tags:

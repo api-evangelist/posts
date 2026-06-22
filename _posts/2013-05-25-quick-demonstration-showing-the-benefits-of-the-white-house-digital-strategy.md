@@ -2,7 +2,7 @@
 layout: post
 title: Quick Demonstration Showing The Benefits of The White House Digital Strategy
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/energy-developer.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/energy-developer.png
 author:
   name: kinlane
 tags:
@@ -23,28 +23,28 @@ To demonstrate, let's look at the Department of Energy.
 
 Let's go to:  **[http://energy.gov/digitalstrategy](http://energy.gov/digitalstrategy)**
 
-![](https://s3.amazonaws.com/kinlane-productions2/federal-strategy/energy-digital-strategy.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-strategy/energy-digital-strategy.png)
 
 Next:  **[http://energy.gov/data/](http://energy.gov/data/)**
 
-![](https://s3.amazonaws.com/kinlane-productions2/federal-strategy/energy-data.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-strategy/energy-data.png)
 
 Then:  **[http://energy.gov/data/](http://energy.gov/developer/)**
 
-![](https://s3.amazonaws.com/kinlane-productions2/federal-strategy/energy-developer.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-strategy/energy-developer.png)
 
 After the Department of Energy, let's take a look at another agency, like the Internal Revenue Service (IRS).
 
 Let's go to:  **[http://irs.gov/digitalstrategy](http://irs.gov/digitalstrategy)**
 
-![](https://s3.amazonaws.com/kinlane-productions2/federal-strategy/irs-digital-strategy.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-strategy/irs-digital-strategy.png)
 
 Next:  **[http://irs.gov/data](http://irs.gov/data)**
 
-![](https://s3.amazonaws.com/kinlane-productions2/federal-strategy/irs-digital-strategy.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-strategy/irs-digital-strategy.png)
 
 Then:  **[http://irs.gov/developer](http://irs.gov/developer)**
 
-![](https://s3.amazonaws.com/kinlane-productions2/federal-strategy/irs-digital-strategy.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-strategy/irs-digital-strategy.png)
 
 Granted, these are two very different agencies. But I can't help but think that the IRS should hand out a copy of the White House Open Data Policy internally, and figure out how they can begin to let a little light into their operations and culture.

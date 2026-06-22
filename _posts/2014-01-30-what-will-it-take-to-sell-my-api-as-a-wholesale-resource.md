@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Will It Take To Sell My API AS A Wholesale Resource
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-connected-network.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-connected-network.png
 author:
   name: kinlane
 tags:

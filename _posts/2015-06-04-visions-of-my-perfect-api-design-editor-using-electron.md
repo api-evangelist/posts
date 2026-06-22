@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visions Of My Perfect API Design Editor Using Electron
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/electron/electron-editor.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/electron/electron-editor.png
 author:
   name: kinlane
 tags:

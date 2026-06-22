@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Do My APIs Have The Skills They Need To Compete In A Voice And Bot Enabled World?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-skills.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-skills.png
 tags:
 - Voice
 - Skills

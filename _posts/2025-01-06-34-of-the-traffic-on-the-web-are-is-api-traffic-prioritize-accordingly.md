@@ -9,7 +9,7 @@ tags:
   - Storytelling
   - Conversations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-freeway-interchange-fence.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-freeway-interchange-fence.jpeg
 ---
 Version 4.0 API Evangelist is centered around a single narrative-—the governance of our HTTP APIs. According to Akamai, 83% of the web traffic are APIs, something Cloudflare puts at greater than 50%. Whichever you want to believe, one can easily argue that 3/4 of the traffic on the web, as well as within the enterprise is being defined and shaped by HTTP APIs. This is where API Evangelist will be focused when it comes to telling stories, producing forkable and usable artifacts, and the sale of knowledge bases and services that emphasizes the following.
 

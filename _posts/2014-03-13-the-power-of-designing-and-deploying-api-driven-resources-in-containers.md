@@ -2,7 +2,7 @@
 layout: post
 title: The Power Of Designing And Deploying API Driven Resources In Containers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/autodevbot/autodevbot-icon.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/autodevbot/autodevbot-icon.png
 author:
   name: kinlane
 tags:
@@ -33,7 +33,7 @@ As I was exploring this new world of containerization I came across an API monit
 
 After talking with the Garland Kan ([@gargar454](https://twitter.com/gargar454)) of AutoDevBot, about this new containerization movement, and how they are using Github as a central configuration repository for their API monitoring service, I realized how this Github use was just the tip of iceberg when it came to the containerization of AutoDevBot. Everything about AutoDevBot is containerized. You need a new data pipeline? They deploy a data pipeline container. You need a new NoSQL Data Store? They deploy a data pipeline container.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/autodevbot/autodevbot-data-pipeline.png)](http://autodevbot.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/autodevbot/autodevbot-data-pipeline.png)](http://autodevbot.com/)
 
 AutoDevBot is a suite of containers, that they’ve organized into a workflow to help you monitor your API endpoints. AutoDevBot can design, develop, deploy, manage, and scale as needed, allowing them to orchestrate an experience, and resulting service that API providers need. What AutoDevbot is doing represents the future of delivering digital services, across all industries.
 

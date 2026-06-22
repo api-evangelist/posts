@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The API Purgatory Museum
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/purgatory-sculpture.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/purgatory-sculpture.jpg
 tags:
 - API Evangelist
 - APIs

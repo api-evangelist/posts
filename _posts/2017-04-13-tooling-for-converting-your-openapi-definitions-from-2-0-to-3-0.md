@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Tooling For Converting Your OpenAPI Definitions From 2.0 to 3.0
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_30_converter.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_30_converter.png
 author:
   name: kinlane
 tags:

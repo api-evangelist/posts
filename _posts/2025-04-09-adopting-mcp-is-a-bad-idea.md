@@ -9,7 +9,7 @@ tags:
   - Specifications
   - Complexity
   - Databases
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-horrified-statue.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-horrified-statue.jpg
 ---
 I refuse to get on the hype train, and I regularly archive my rants on artificial intelligence before ever publishing them because I feel like I am screaming into the void. However, I am neck deep reading [Timothy Snyder’s](https://snyder.substack.com/) work right now and I feel regular dissent matters to counteract the negative consequences of technology in our world right now. With this in mind I will be posting regular posts to make sure my voice is heard in this moment, and today I will be sharing specifically why adopting MCP is such a bad idea. This round I won’t even pile on with the many other technical reasons why MCP is half baked, I am going to point of the business and politics reasons that every other single API pundit out there seems to take pride in ignoring.
 

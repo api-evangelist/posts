@@ -1,13 +1,13 @@
 ---
 layout: post
 title: The New API Economy
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Economy
 ---
-Those of us in the tech community who work with APIs talk a lot about the API economy. ![](http://kinlane-productions2.s3.amazonaws.com/financial/stock-market-display.jpg) This refers to how the Internet is changing all industries on a global scale, and how APIs are a driving force behind this.
+Those of us in the tech community who work with APIs talk a lot about the API economy. ![](https://kinlane-images.s3.amazonaws.com/apievangelist/financial/stock-market-display.jpg) This refers to how the Internet is changing all industries on a global scale, and how APIs are a driving force behind this.
 
 Behind the scenes, APIs are an integral part of:
 
@@ -18,7 +18,7 @@ APIs help enable the current smart phone revolution we're seeing with [IPhone](h
 
 These API-powered movements are significkinlane-productions2.s3.amazonaws.com conduct business. Even though the term API economy applies in these contexts, it rings even louder when it comes the actual financial markets.
 
-With the [growing dominance of high frequency trading](http://www.time.com/time/business/article/0,8599,1914724,00.html), APIs such as [TD Ameritrade API](http://www.tdameritrade.com/tradingtools/partnertools/api_dev.html) truly signal the beginning of a new API economy. ![](http://kinlane-productions.s3.amazonaws.com/financial/td-ameritrade-logo.jpg) These APIs provide programmatic control over:
+With the [growing dominance of high frequency trading](http://www.time.com/time/business/article/0,8599,1914724,00.html), APIs such as [TD Ameritrade API](http://www.tdameritrade.com/tradingtools/partnertools/api_dev.html) truly signal the beginning of a new API economy. ![](https://kinlane-images.s3.amazonaws.com/apievangelist/financial/td-ameritrade-logo.jpg) These APIs provide programmatic control over:
 
 *   Trading
 *   Real-Time Streaming data

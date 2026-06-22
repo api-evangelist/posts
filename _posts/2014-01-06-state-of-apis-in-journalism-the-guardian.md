@@ -2,7 +2,7 @@
 layout: post
 title: 'State of APIs In Journalism: The Guardian'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/guardian-open-platform.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/guardian-open-platform.jpg
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ This dive into the world of journalism will take some time, but I will start wit
 
 The Guardian Open Platform revolves around two API resource, the Content API and Politics API and a vast data store of spreadsheets and other data sets that the Guardian has gathered throughout news cycles. There is an API Explorer which allows you to quickly get your hands dirty with the Guardian APIs, which is essential.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/guardian/guaridan-data-visualization.jpg)](http://www.theguardian.com/open-platform)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/guardian/guaridan-data-visualization.jpg)](http://www.theguardian.com/open-platform)
 
 There is also a variety of code libraries including Java, Scala, Ruby and ColdFusion flavors, as well as an App Gallery showcasing what has been built on the Guardian APIs.
 

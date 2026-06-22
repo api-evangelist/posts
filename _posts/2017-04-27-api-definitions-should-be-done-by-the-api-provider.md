@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Definitions Should Be Done By The API Provider
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puzzle-piece-gear.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-puzzle-piece-gear.png
 atomdate: 2017-04-27 18:00:00+00:00
 tags:
 - Definitions

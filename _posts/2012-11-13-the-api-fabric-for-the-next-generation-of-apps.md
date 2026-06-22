@@ -2,7 +2,7 @@
 layout: post
 title: The API Fabric for the Next Generation of Apps
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/singly-logo_300.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/singly-logo_300.png
 author:
   name: kinlane
 tags:
@@ -22,7 +22,7 @@ At first glance, to a non technical person, fabric may be defined as:
 
 With synonyms being cloth, material, structure, textile, texture and web. Using this definition of fabric as the source for my analogy can work by itself. It can help a non-technical person understand what is possible when you can quickly begin weave together apps using different APIs--visualizing some sort of woven textile, with unique meaning. Immediately helping anyone, visually relate to the potential when developing on top of social and personal APIs.
 
-![](https://s3.amazonaws.com/kinlane-productions2/singly/mayan-weaving.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/singly/mayan-weaving.jpg)
 
 If you are more technical, the term “fabric” might help you understand Singly at another level. In information technology, fabric is a synonym for the words framework or platform. In general, the term fabric can describe the way different parts of something work together to form a single entity. Fabric can be used as a metaphor to illustrate the idea that if someone were to document computer components and their relationships on paper, the lines would weave back and forth so densely that the diagram would resemble a woven piece of cloth.
 

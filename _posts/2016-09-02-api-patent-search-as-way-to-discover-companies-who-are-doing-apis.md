@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Patent Search As Way To Discover Companies Who Are Doing APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-patent-algorithms.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-patent-algorithms.png
 atomdate: 2016-09-02 16:00:00+00:00
 tags:
 - Search

@@ -2,7 +2,7 @@
 layout: post
 title: 'API Stylebook: A Collections Of Resources For API Designers'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_stylebook.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_stylebook.png
 atomdate: 2016-09-12T16:00:00.000Z
 tags:
   - Design

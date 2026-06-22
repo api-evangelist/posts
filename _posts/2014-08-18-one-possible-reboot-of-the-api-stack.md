@@ -1,7 +1,7 @@
 ---
 layout: post
 title: One Possible Reboot Of The API Stack
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-stacks.png
 author:
   name: kinlane
 tags:

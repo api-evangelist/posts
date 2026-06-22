@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OpenAPI Specifications For 642 Of The Schema.org Types
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/schema-org-api-definitions.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/schema-org-api-definitions.png
 tags:
 - OpenAPI
 - Schema
@@ -16,7 +16,7 @@ I already have [an APIs.json driven autocomplete tool, that loops through all th
 
 [As a starting point, I created 642 separate OpenAPI Specs](http://schema.org.apis.apievangelist.com/). One for each of the schema types. I already have an API that will generate an OpenAPI Spec from any JSON schema, building out GET, POST, PUT, and DELETE methods, as well as a default 200 response, and connecting it to the schema for the API response definition. As I was doing the work I realized that I didn't want to limit the OpenAPI Specs to just the JSON version, so as I generated I also published a YAML version.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/schema-org-api-definitions.png)](http://schema.org.apis.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/schema-org-api-definitions.png)](http://schema.org.apis.apievangelist.com/)
 
 Next I'm going to use [these 642 OpenAPI Specs as an autocomplete index](https://github.com/api-evangelist-tools/schema-org-openapi-specs/tree/gh-pages/api-commons) for helping me quickly fluff up the parameters of other existing API definitions. Next I'll work on wiring up the hierarchies and relationships present in the Schema.org definitions. Right now, none of the OpenAPI Specs will validate as the parameter types aren't all valid, but I didn't want to lose the object references. 
 

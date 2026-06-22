@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Continued Support As Signer Of Oracle v Google Amicus Brief From EFF
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Amicus_Brief_of_Computer_Scientists_-_SCOTUS___Electronic_Frontier_Foundation.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Amicus_Brief_of_Computer_Scientists_-_SCOTUS___Electronic_Frontier_Foundation.png
 author:
   name: kinlane
 tags:

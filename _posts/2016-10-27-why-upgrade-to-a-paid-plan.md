@@ -2,7 +2,7 @@
 layout: post
 title: Why upgrade to a paid plan?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/pricing_and_faq_nanoscale_io.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/pricing_and_faq_nanoscale_io.png
 atomdate: 2016-10-27T16:00:00.000Z
 tags:
   - ai

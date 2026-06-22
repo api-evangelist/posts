@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'API Definition: U.S. Data Federation'
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_us_data_federation_screenshot.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_definitions_us_data_federation_screenshot.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'API Definition: Human Services API Specification'
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_human_services_screenshot.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_definitions_human_services_screenshot.png
 atomdate: 2017-03-22 19:00:00+00:00
 tags:
 - Human Services

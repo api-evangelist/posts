@@ -10,7 +10,7 @@ tags:
   - OAuth
   - OpenID
   - Security
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-amsterdam-water.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-amsterdam-water.jpg
 ---
 It helps to have positive examples of how to do API governance. In my experience most people, teams, and enterprises tend to just emulate the vendors and other players that they are already tuned into when it comes to their API operations. I can talk until I am blue in the face about many of these things, but until you find an example of doing APIs well that people will look up to, it really doesn’t matter. So it helps to have leaders in the space like the Netherlands—yes, [the country of Netherlands who has published key aspects of their API guidance including a robust set of API design rules](https://developer.overheid.nl/blog/2025/04/02/update-api-design-rules).
 

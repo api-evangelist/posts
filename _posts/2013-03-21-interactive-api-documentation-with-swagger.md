@@ -2,7 +2,7 @@
 layout: post
 title: Interactive API Documentation With Swagger
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/reverb-for-developers-swagger.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/reverb-for-developers-swagger.png
 author:
   name: kinlane
 tags:
@@ -17,11 +17,11 @@ Interactive API documentation using Swagger starts with a Swagger definition, wh
 
 This JSON describes everything about my very basic endpoint, which allows users to query almost 3 years of API Evangelist blog posts. Using this definition, Swagger generates the following API documentation automatically:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-interactive-documentation-1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/swagger-interactive-documentation-1.png)
 
 As someone learning about the API Evangelist Analysis API, this describes the endpoint, which fields are required to make an API call, but it doesn’t just describe this with text, it provides an interactive interface in which I can enter my API keys, provide a query value and actually make a request against the API:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-interactive-documentation-2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/swagger-interactive-documentation-2.png)
 
 So I don’t just learn about the API endpoint. I learn about what keys are needed and fields are present that allow me to request different information of the API endpoint. It allows me to actually see the request to the API, the resulting body of my API request.
 

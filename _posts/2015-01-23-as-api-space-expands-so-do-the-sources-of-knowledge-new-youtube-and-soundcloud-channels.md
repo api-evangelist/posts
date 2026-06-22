@@ -4,7 +4,7 @@ title: >-
   As API Space Expands, So Do The Sources Of Knowledge: New YouTube and
   SoundCloud Channels
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/jason-harmon-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/jason-harmon-logo.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ The API space is continuing its rapid expansion, and along with the number of AP
 *   **[API Workshop](https://www.youtube.com/channel/UCKK2ir0jqCvfB-kzBGka_Lg) -** We'll discuss topics around API Design, including: sustainability concepts: how to design APIs that last, new ideas in API design, voices and posts from the API blog world.
 *   **[APIsUncensored](https://soundcloud.com/apisuncensored) -** The official home of the APIs Uncensored podcast, a monthly series where Ole Lensmar and Lorinda Brandon blather about all things APIs with experts in the industry.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apisuncensored-podcast.png)](https://soundcloud.com/apisuncensored)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apisuncensored-podcast.png)](https://soundcloud.com/apisuncensored)
 
 API Workshop is a production by J(a)son Harmon ([@jharmn](https://twitter.com/jharmn)), and APIsUncensored is from the smart folks over at [SmartBear](http://smartbear.com/)(when describing them I always feel tricked into saying they are smart). I was honored to have mentions in both of them, and you can read [my response to API Workshop here](http://apievangelist.com/2015/01/21/rest-api-design-bridging-what-we-have-to-the-future-by-organizing-the-json-junk-drawer/), and to [APIsUncensored over here](http://apievangelist.com/2015/01/23/a-conversation-about-my-subway-map-api-on-the-apisuncensored-podcast/).
 

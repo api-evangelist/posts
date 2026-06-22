@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Join @3Scale, @Apiary, And I For A Hangout On API Definitions This Wednesday
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ Join me, Steve Willmott([@njyx](https://twitter.com/njyx)) of [3Scale](http://ap
 
 [This Wednesday, January 27th, at 11:00 AM PST, the three of us will jump on a Google Hangout](http://hangouts.apistrat.com/), and you are welcome to join in the conversation. We will be doing the gathering as a Hangout on Air, so that you can ask questions if you want, joining in the live conversation, or you can wait until after we are done, I will make sure and publish the video to Youtube.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apiary-logo.png)](http://apis.how/ohgw3uqjt0)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apiary-logo.png)](http://apis.how/ohgw3uqjt0)
 
 Its a pretty important time for API definitions with [the Swagger specification reborn as the OpenAPISpec](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/), and Apiary, the creator of API Blueprint and MSON, [also adopting OpenAPI Spec this last week, allowing you to design and mock your API in both formats](http://blog.apiary.io/2016/01/18/We-ve-got-Swagger/). 3Scale was an earlier adopter of Swagger, and [has taken a leadership position in shepherding it to into the Linux Foundation, and is a member of the governance working group](http://www.3scale.net/tag/swagger/).
 

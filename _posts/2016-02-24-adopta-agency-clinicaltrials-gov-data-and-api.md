@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Adopta.Agency ClinicalTrials.gov Data And API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/clinical-trials-adopta-agency.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/clinical-trials-adopta-agency.png
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ _I am working on a project that uses data from https://clinicaltrials.gov/ . The
 
 I get questions like this a lot, something that contributed to me pushing forward my [Adopta.Agency](http://adopta.agency) work. The Knight Foundation prototype grant was just that, the prototype funding, something I intend to keep pushing forward, targeting new data sets, and looking for more open data activists to assist in doing the heavy lifting. The ClinicalTrials.gov database seemed like an excellent candidate because it is a high value data sets, and is something that is pretty poorly presented [via the download and API (?) page available at ClinicalTrials.gov](https://clinicaltrials.gov/ct2/resources/download).
 
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/clinical-trials-adopta-agency.png)](https://adopta-agency.github.io/clinical-trials/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/clinical-trials-adopta-agency.png)](https://adopta-agency.github.io/clinical-trials/)
 
 Enough talk. I got to work downloading the ClinicalTrials.gov data file, and kicking off a new Adopta.Agency project. Here is what I've accomplished so far:
 

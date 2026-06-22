@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: What Exactly Is APIs.json?
-image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json/apisdotjson.png
 author:
   name: kinlane
 tags:

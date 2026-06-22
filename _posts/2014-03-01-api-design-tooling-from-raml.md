@@ -2,7 +2,7 @@
 layout: post
 title: API Design Tooling From RAML
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/raml/raml-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/raml/raml-logo.jpg
 author:
   name: kinlane
 tags:

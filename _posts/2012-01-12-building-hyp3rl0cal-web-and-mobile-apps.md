@@ -2,7 +2,7 @@
 layout: post
 title: Building Hyp3rL0cal Web and Mobile Apps
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-HyperLocal.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/Tag-Cloud-HyperLocal.png
 author:
   name: kinlane
 tags:

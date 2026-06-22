@@ -2,7 +2,7 @@
 layout: post
 title: Can Swagger Deliver a RESTful API Discovery Service?
 url: http://apievangelist.com/2011/11/09/can-swagger-deliver-a-restful-api-discovery-service/
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Swagger-Logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Swagger-Logo.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 
-kinlane-productions2.s3.amazonaws.com [](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/ "Swagger")![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/swagger/Swagger-Logo.png)
+kinlane-productions2.s3.amazonaws.com [](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/ "Swagger")![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/Swagger-Logo.png)
 
 There is a lot of discussion around the growth of APIs, and what the future will look like. How will we discover and make sense of the number of available APIs, and quickly get to work integrating with the APIs that bring the most value to our apps and businesses.
 
@@ -28,7 +28,7 @@ Swagger provides a declarative resource specification, allowing users to underst
 
 I’m familiarizing myself with the specification more and playing with the various tools they provide:
 
-kinlane-productions2.s3.amazonaws.com [](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/ "Swagger")![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/swagger/Swagger-Screenshot-1.png)
+kinlane-productions2.s3.amazonaws.com [](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/ "Swagger")![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/Swagger-Screenshot-1.png)
 
 *   **Swagger UI** - A dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API
 *   **Swagger Core** - Defines Java annotations and required logic to generate a Swagger server or client.

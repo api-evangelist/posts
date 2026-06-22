@@ -10,7 +10,7 @@ tags:
   - Add-Ons
   - OpenAPI
   - Command Line Interface
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-old-man-crossing-border.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-old-man-crossing-border.jpg
 ---
 Pulling back the curtain on the web and mobile applications we use each day is a common way for us to make sense of how things work. I have regularly used Charles Proxy to map out my personal and professional API landscape, and made the most of Postman Interceptor for many years to do the same in Chrome. To continue the journey, but provide an open-source and free approach that my readers and customers can use I have shifted to using [Mitmproxy](https://bit.ly/4jtATCs) which provides me with the following capabilities.
 

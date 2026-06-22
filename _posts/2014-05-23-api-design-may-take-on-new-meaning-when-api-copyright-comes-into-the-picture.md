@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Design May Take On New Meaning When API Copyright Comes Into The Picture
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-design.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-design.png
 author:
   name: kinlane
 tags:

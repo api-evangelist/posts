@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Strategy &amp; Practice Call For Papers Ends This Week
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-strategy-conference-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-strategy-conference-logo.png
 author:
   name: kinlane
 tags:

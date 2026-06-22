@@ -8,7 +8,7 @@ image:
 ---
 
 Having a framework for managing your API code samples and libraries is essential to providing partners and developers with relevant, useful and functional code they can use to integrate with your API.
-<a href="http://github.com" target="_blank"><img style="padding: 15px;" src="http://kinlane-productions.s3.amazonaws.com/github-logo.png" alt="" width="150" align="right" /></a>
+<a href="http://github.com" target="_blank"><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/shared/github-logo.png" alt="" width="150" align="right" /></a>
 First start by breaking down your code into relevant projects that address specific types of integration with your API.
 <p></p>
 Within each project you can create an appropriate title and description and set some goals for the project.
@@ -19,7 +19,7 @@ Then build your code samples that satisfy the project goals.   After organizing 
 	<li><strong><a href="http://en.wikipedia.org/wiki/Apache_Subversion" target="_blank">SVN</a> - <a href="http://code.google.com/hosting/" target="_blank">Google Project Hosting</a></strong> is an SVN or Subversion based repository service.  They also provider Mercurial repositories.</li>
 </ul>
 Both GitHub and Google Project Hosting provide methods for you to manage your code in two popular version control formats.  This will allow API developers and partners to quickly check out code repositories, stay current with updates, and even contribute back to your API code projects.
-<a href="http://code.google.com/hosting/" target="_blank"><img style="padding: 15px;" src="http://kinlane-productions.s3.amazonaws.com/google-project-hosting/google-project-hosting.png" alt="" align="right" /></a>
+<a href="http://code.google.com/hosting/" target="_blank"><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/google-project-hosting/google-project-hosting.png" alt="" align="right" /></a>
 Publishing your code to GitHub and Google Project hosting will also provide added marketing benefits to your API community, by extending its reach beyond your domain into existing popular social code communities and the open Internet.
 <p></p>
 Make sure and spend time to choose the proper <a href="http://en.wikipedia.org/wiki/Open-source_license" target="_blank">open source licensing model</a> for your code projects.

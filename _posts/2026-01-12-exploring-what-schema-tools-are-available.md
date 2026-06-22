@@ -16,7 +16,7 @@ tags:
   - Discovery
   - Registries
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/blue-circuit-docks-water-front.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/blue-circuit-docks-water-front.jpg
 ---
 
 My Naftiko team [asked me for more information on what schema tools are available](https://github.com/naftiko/go-to-market/issues/31). Well, more specifically they asked schema explorers there were, but I thought it was an opportunity to take a fresh look at the JSON Schema tooling I use, and what was available out there. While comprehensive, [the JSON Schema tooling list can also be overwhelming](https://json-schema.org/tools?query=&sortBy=name&sortOrder=ascending&groupBy=toolingTypes&licenses=&languages=&drafts=&toolingTypes=&environments=&showObsolete=false&supportsBowtie=false), which is common for community tooling lists. So, I just wanted to take a curated approach understanding what was out there.

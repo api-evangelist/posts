@@ -8,7 +8,7 @@ tags:
   - Stories
   - Artifacts
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-corner-restaurant.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-corner-restaurant.jpeg
 ---
 API Evangelist is perpetually stuck in between the strategic and tactical while crafting stories for the API space. We have heeded warnings of wise architects like [Gregor Hohpe and getting too comfortable riding the elevator up to the higher levels of operations and staying too long](https://architectelevator.com/). However, we also fully understand the dangers of the isolation and intentional separation that occurs at the lower levels of enterprise operations. Our goal is to thoughtfully swing between the ground floors and the upper levels providing snackable stories that truly help people in this moment, while also providing fuel for the long haul to get a handle on our API operations by considering the following.
 

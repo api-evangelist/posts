@@ -2,7 +2,7 @@
 layout: post
 title: Every Government Agency Should Have A Forms API Like DOL Does
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_09_26_at_4.59.29_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_09_26_at_4.59.29_pm.png
 atomdate: 2016-09-27T20:00:00.000Z
 tags:
   - Forms

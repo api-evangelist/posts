@@ -18,7 +18,7 @@ I would love to take credit, but all of the responsibility goes to [3Scale](http
 
 @APIStrat has been helping move forward the conversation in the API space for two years now, starting with [New York](http://apistrategyconference.com/2013NYC/) and [San Francisco](http://apistrategyconference.com/2013SF/) in 2013, and now [Amsterdam](http://apistrategyconference.com/2014Amsterdam/) and [Chicago](http://www.apistrategyconference.com/2014Chicago/index.php) in 2014, all made possible because of 3Scale's investment.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3Scale/3scale-logo.png)](http://bit.ly/13esk6Q)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/3Scale/3scale-logo.png)](http://bit.ly/13esk6Q)
 
 The number one priority for 3Scale, when it comes to @APIStrat, is to move the conversation forward, while investing in the API community. This is why the event is a success, setting the tone for the conversation amongst sponsors, speakers, and attendees. I’m thankful for being able to to take part in @APIStrat, and look forward to digesting all of the [videos from Chicago, which are already on YouTube](https://www.youtube.com/user/apistrat).
 

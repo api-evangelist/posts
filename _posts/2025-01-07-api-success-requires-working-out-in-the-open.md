@@ -8,7 +8,7 @@ tags:
   - Education
   - Awareness
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-wb5l8MPD9GnLl.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-wb5l8MPD9GnLl.jpg
 ---
 People assume API Evangelist is so prolific and performative out in the open on the web due to some sort of ego or narcissism, when in reality it is meant to demonstrate how you can achieve success with your API operations on the open web or within your enterprise. API success requires up to date and complete documentation, SDKs, and other resources, but is also requires demonstrating and showing what works and what doesn’t work because it is how us human beings learn, and we all tend to just emulate what we see around us each day in our work.
 

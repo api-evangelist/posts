@@ -4,7 +4,7 @@ title: >-
   Working Hard To Generate API Value Within An Entrenched Legacy Industry Like
   Real Estate
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/idx-summit-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/idx-summit-logo.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ If you aren't familiar with the world of real estate data, it has been long cont
 
 When it comes to APIs, the real estate industry is the OG API provider, making data available via FTP locations as soon as the web was a thing. However, [when it comes to the core principles of what makes APIs work](http://apievangelist.com/2014/05/06/remembering-why-this-whole-api-thing-is-working--apidays-berlin/), the real estate industry is the anti-API. MLS hoard facts, something that cannot have copyright applied, but if you are litigious enough, it is something you can defend. The address, and details of residential and commercial property is data that should be accessible to everyone, but MLS groups, and National Association of Realtor (NAR) have created a cartel, that prevents this from ever being a reality. Think what the Record Industry Association of America (RIAA) and record labels have done to music--the MLS and NAR do this to real estate.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/idx-real-estate.png)](http://www.idxbroker.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/idx-real-estate.png)](http://www.idxbroker.com/)
 
 IDX has struck a balance between hundreds of these MLS organizations, allowing them to process their prized data, and enable real estate agents and brokers to publish this data on their websites using seamless and often embeddable tooling, that adheres to the distribution, and branding guidelines set by the MLS. IDX provides a bridge between the online digital world, and this legacy world of data control, potentially providing the real estate industry with the online tooling they will need to be successful.
 

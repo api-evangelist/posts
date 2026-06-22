@@ -2,7 +2,7 @@
 layout: post
 title: Interactive Feedback On The FDA Recall API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fda-recall.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/fda-recall.jpg
 author:
   name: kinlane
 tags:

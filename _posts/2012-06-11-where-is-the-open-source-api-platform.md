@@ -2,7 +2,7 @@
 layout: post
 title: Where Is The Open Source API Platform?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/building_blocks_blank_stack_image_500_clr.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/building_blocks_blank_stack_image_500_clr.png
 author:
   name: kinlane
 tags:
@@ -25,7 +25,7 @@ While the top [API management service providers](http://apievangelist.com/servic
 *   Ecosystem Building Blocks Like Documentation, Code Samples, etc.
 *   Discovery
 
-![](http://kinlane-productions2.s3.amazonaws.com/google/Google-APIs-Console-1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/google/Google-APIs-Console-1.png)
 
 I know there are individual tools that deliver in some of these area, and this is what I am working to bring together via the [API Evangelist tools](http://apievangelist.com/apitools/ "API Evangelist Tools") section. But we need a full suite of tools that API owners can deploy from start to finish, and service providers can benefit from as well as contribute to--something in PHP, Python, Ruby and / or Java.
 

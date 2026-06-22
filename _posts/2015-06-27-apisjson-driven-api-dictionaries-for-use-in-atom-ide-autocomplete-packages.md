@@ -1,7 +1,7 @@
 ---
 layout: post
 title: APIs.json Driven API Dictionaries For Use In Atom IDE Autocomplete Packages
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/atom-editor/atom-editor-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/atom-editor/atom-editor-logo.jpg
 author:
   name: kinlane
 tags:

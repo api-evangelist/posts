@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Talk Tomorrow Night at the Dallas-Forth Worth API Professionals Meetup
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dfw-api-meetup-group.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/dfw-api-meetup-group.jpeg
 author:
   name: kinlane
 tags: []
@@ -47,13 +47,13 @@ I'm pulling together a talk from some of my regular material, but updating for w
     *   Sensors
 *   In Closing
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/therightapi-logo-2.png)](http://www.therightapi.com/ "TheRightAPI")
+[![](https://kinlane-images.s3.amazonaws.com/shared/company/therightapi-logo-2.png)](http://www.therightapi.com/ "TheRightAPI")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/Proxomo-Logo.png)](http://www.proxomo.com/ "Proxomo")
+[![](https://kinlane-images.s3.amazonaws.com/shared/serviceproviders/Proxomo-Logo.png)](http://www.proxomo.com/ "Proxomo")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/layer7-logo.png)](http://www.layer7tech.com/ "Layer 7 Technologies")
+[![](https://kinlane-images.s3.amazonaws.com/shared/api-service-providers/layer7-logo.png)](http://www.layer7tech.com/ "Layer 7 Technologies")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/pariveda-solutions-logo.png)](http://www.parivedasolutions.com/ "Pariveda Solutions")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/pariveda-solutions-logo.png)](http://www.parivedasolutions.com/ "Pariveda Solutions")
 
 As with all of my talks, I look forward to making it a conversation with the audience and hopefully shifting the discussion, further towards what Dallas-Forth worth folks are looking to understand and share within the API space.
 

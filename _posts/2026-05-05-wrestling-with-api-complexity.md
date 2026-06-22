@@ -3,7 +3,7 @@ layout: post
 title: "Wrestling With API Complexity"
 date: 2026-05-05
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-kin-boulder-last-before.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/green-circuit-kin-boulder-last-before.jpeg
 category: "Blog"
 excerpt: "I like wrestling with API complexity. I see endless lessons baked into how APIs have been historically done, and how we are going to keep them working to do what we need to keep moving forward."
 ---

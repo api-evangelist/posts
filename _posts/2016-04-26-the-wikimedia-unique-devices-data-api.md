@@ -2,7 +2,7 @@
 layout: post
 title: The Wikimedia Unique Devices Data API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wikimedia-rest-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/wikimedia-rest-api.png
 tags:
   - Data
   - Devices

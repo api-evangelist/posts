@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deploying The API Service Providers That I Depend On Within My Own Infrastructure
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/opsee-1.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/opsee-1.png
 tags:
 - Infrastructure
 - Providers
@@ -11,7 +11,7 @@ I play with a lot of services that are looking to provide solutions to the API i
 
 Opsee deploys as a micro-instance within my AWS stack, and gets to work testing and monitoring the APIs that I direct it to, providing a very precise, and effective way of doing monitoring.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/opsee-1.png)](https://opsee.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/opsee-1.png)](https://opsee.com/)
 
 I do not think this approach will work in all scenarios, for all API providers, but I think packaging up the services, so that API providers can deploy within their stack, and run within the cloud or on-premise environment they choose, is a potentially very powerful formula.
 

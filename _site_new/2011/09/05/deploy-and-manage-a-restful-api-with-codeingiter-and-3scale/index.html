@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="At Mimeo, my API developers were running into problems integrating with our cloud print API, I needed a fast way to virtualize and deploy an API built on top...">
-    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-500.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-500.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -43,7 +43,7 @@
     <meta name="twitter:title" content="Deploy and Manage a RESTful API with CodeIngiter and 3Scale">
     
     <meta name="twitter:description" content="At Mimeo, my API developers were running into problems integrating with our cloud print API, I needed a fast way to virtualize and deploy an API built on top...">
-    <meta name="twitter:image" content="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-500.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-500.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -53,7 +53,7 @@
       "@type": "Article",
       "headline": "Deploy and Manage a RESTful API with CodeIngiter and 3Scale",
       "description": "At Mimeo, my API developers were running into problems integrating with our cloud print API, I needed a fast way to virtualize and deploy an API built on top...",
-      "image": "http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-500.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-500.png",
       "datePublished": "2011-09-05T00:00:00-04:00",
       "dateModified": "2011-09-05T00:00:00-04:00",
       "author": {
@@ -66,7 +66,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -364,7 +364,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -394,7 +394,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -728,7 +728,7 @@
       </div>
 
       
-      <img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-500.png" alt="Deploy and Manage a RESTful API with CodeIngiter and 3Scale" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-500.png" alt="Deploy and Manage a RESTful API with CodeIngiter and 3Scale" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -738,7 +738,7 @@
 
 <p>First I launched a copy of the CodeIgniter framework on my existing Amazon EC2 instance, configured mod_rewrite to handle my URLs, and wrote seven API methods dedicated to printing just one type of document, like a poster.  I now had a simple RESTful API that handled requests, and returned XML and JSON responses.</p>
 
-<p><a href="http://codeigniter.com/"><img src="http://kinlane-productions2.s3.amazonaws.com/api-tools/codeigniter-logo.jpg" alt="" /></a>I need a quick way to manage access to my API and measure its usage.  So I would know who was using it, how they were using it, and if it was worth while to keep the API and put more resources into it.  I selected <a href="http://apievangelist.com/serviceproviders/3scale.php" title="3Scale API Management">3Scale API management</a>, one of two free, self-service API mangement platforms out there.  The other is <a href="http://apievangelist.com/serviceproviders/mashape.php" title="Mashape">Mashape</a>, but they are still in BETA, so 3Scale was the only other solution I could deploy for free, and scale as I needed when things were successful.</p>
+<p><a href="http://codeigniter.com/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-tools/codeigniter-logo.jpg" alt="" /></a>I need a quick way to manage access to my API and measure its usage.  So I would know who was using it, how they were using it, and if it was worth while to keep the API and put more resources into it.  I selected <a href="http://apievangelist.com/serviceproviders/3scale.php" title="3Scale API Management">3Scale API management</a>, one of two free, self-service API mangement platforms out there.  The other is <a href="http://apievangelist.com/serviceproviders/mashape.php" title="Mashape">Mashape</a>, but they are still in BETA, so 3Scale was the only other solution I could deploy for free, and scale as I needed when things were successful.</p>
 
 <p>I deployed the 3Scale PHP connector on my Amazon EC2 instance as part of the CodeIgniter REST framework.  I then launched my 3Scale self-service API area, which provides me with:</p>
 

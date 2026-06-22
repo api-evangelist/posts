@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting rel=api Into Motion With Latest APIs.json Release
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-icon.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-icon.jpg
 author:
   name: kinlane
 tags:
@@ -34,7 +34,7 @@ As with the media type, we intend to submit the link relation to Iana, per its R
 
 With the interest and usage we have seen in the first year of the specification, we are confident the API discovery format will get traction. We are already seeing exploration around the link relation, achieving RSS like experience in the browsers, when visiting websites that have an active API program.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-link-relation.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-evangelist-link-relation.png)
 
 I have added a link relation to my [API Evangelist](http://apievangelist.com), [Kin Lane](/admin/blog/Kin Lane), and [Master API project](https://kin-lane.github.io/master/), all pointing to my [central APIs.json](https://kin-lane.github.io/master/apis.json), which provides an index of not just each of the APIs I use to operate the API Evangelist network, but also the supporting building blocks of API operations like pricing, support, etc. 
 

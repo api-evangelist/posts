@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Saving and Versioning API Definitions In Editor Using Github Gists
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_12_at_6.28.48_pm.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_12_at_6.28.48_pm.png
 atomdate: 2016-10-13 16:00:00+00:00
 tags:
 - Github

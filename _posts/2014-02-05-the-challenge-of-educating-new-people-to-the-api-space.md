@@ -2,7 +2,7 @@
 layout: post
 title: The Challenge Of Educating New People To The API Space
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-alchemy/api-alchemy.png
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/api-alchemy/api-alchemy.png
 author:
   name: kinlane
 tags:

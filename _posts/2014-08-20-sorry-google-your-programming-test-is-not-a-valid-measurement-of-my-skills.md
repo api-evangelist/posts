@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sorry Google, Your Programming Test Is Not A Valid Measurement Of My Skills
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tic-tac-toe.png
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/tic-tac-toe.png
 author:
   name: kinlane
 tags:
@@ -19,4 +19,4 @@ I’m not under the influence that I will change your hiring practices Google—
 
 I actually prefer working with organizations from the outside in, I think it better reflects the essence of API Evangelism. The companies who have trouble working with outside entities, without tradition HR processes, are probably not going to lead when it comes developing an API driven ecosystem.
 
-If your company doesn't have the time to research me, and understand what I bring to the API space, and what my skills are, we probably aren't a fit. Everything about me is available online at [API Evangelist](http://apievangelist.com), [Kin Lane](http://kinlane.com), [Twitter](https://twitter.com/kinlane), and [Github](https://github.com/kinlane)\--you just have to look. If you are only looking at [resumes](https://s3.amazonaws.com/kinlane-productions2/kin-lane-resume/Resume-Kin-Lane-API-Evangelist-Summary.pdf), and making people take tests, you will probably get what you are looking for!
+If your company doesn't have the time to research me, and understand what I bring to the API space, and what my skills are, we probably aren't a fit. Everything about me is available online at [API Evangelist](http://apievangelist.com), [Kin Lane](http://kinlane.com), [Twitter](https://twitter.com/kinlane), and [Github](https://github.com/kinlane)\--you just have to look. If you are only looking at [resumes](https://kinlane-images.s3.amazonaws.com/shared/kin-lane-resume/Resume-Kin-Lane-API-Evangelist-Summary.pdf), and making people take tests, you will probably get what you are looking for!

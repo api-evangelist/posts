@@ -2,7 +2,7 @@
 layout: post
 title: The New API Design And Deployment Solution Materia Is Pretty Slick
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/materia_screen_entities.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/materia_screen_entities.png
 atomdate: 2016-09-12T20:00:00.000Z
 tags:
   - Deployment

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overview of API Integration
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -25,4 +25,4 @@ This area of API evangelist is brand new and will be evolving as I continue my r
   
   
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gears.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-gears.png)

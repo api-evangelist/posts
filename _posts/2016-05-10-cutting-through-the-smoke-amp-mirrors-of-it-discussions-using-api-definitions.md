@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Cutting Through The Smoke &amp; MIrrors Of IT Discussions Using API Definitions
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-smoke-and-mirrors.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-smoke-and-mirrors.png
 author:
   name: kinlane
 tags:

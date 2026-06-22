@@ -3,14 +3,14 @@ layout: post
 title: Top 10 API Evangelist Posts for 2011
 url: http://apievangelist.com/2011/12/31/top-10-api-evangelist-posts-for-2011/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-logo-400.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-evangelist-logo-400.png
 author:
   name: kinlane
 tags:
   - API Evangelist
   - Evangelist
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/business-of-apis/Business-of-APIs-Front-Cover-Cropped.png)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/business-of-apis/Business-of-APIs-Front-Cover-Cropped.png)
 
 2011 was an interesting year for APIs. I wasn't as good as I wanted to be at covering all major API events, but I got some traction with some posts I didn't anticipate.
 

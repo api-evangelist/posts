@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'The Github Repo Stripe Uses To Manage Their OpenAPI'
-image: https://s3.amazonaws.com/kinlane-productions2/stripe/stripes-openapi-specification-on-github.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/stripe/stripes-openapi-specification-on-github.png
 ---
 
 <p>I’m beating a drum every time I find a company managing their OpenAPI on Github, like we would the other code elements of our API operations. Today’s drumbeat comes from my friend Nicolas Grenié (<a href="https://twitter.com/picsoung">@picsoung</a>), who posted Stripe’s Github repository for their OpenAPI in our Slack channel for the super cool API Evangelists in the sector. ;-)

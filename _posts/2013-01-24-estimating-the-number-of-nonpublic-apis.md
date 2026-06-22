@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Estimating the Number of Non-Public APIs
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/SDKBridge-logo.gif
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/SDKBridge-logo.gif
 tags:
 - APIs
 ---

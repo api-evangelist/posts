@@ -2,7 +2,7 @@
 layout: post
 title: Are API Service Providers Relevant?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/defrag-2011.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/defrag-2011.jpg
 author:
   name: kinlane
 tags:

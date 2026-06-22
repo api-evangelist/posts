@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why I Added Cybersecurity To My API Monitoring Research
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cybersecurity.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-cybersecurity.png
 atomdate: 2016-08-30 20:00:00+00:00
 tags:
 - Monitoring

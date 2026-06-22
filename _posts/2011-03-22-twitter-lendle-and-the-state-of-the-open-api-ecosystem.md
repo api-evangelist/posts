@@ -3,7 +3,7 @@ layout: post
 title: Twitter, Lendle and the State of the Open API Ecosystem
 url: >-
   http://apievangelist.com/2011/03/22/twitter-lendle-and-the-state-of-the-open-api-ecosystem/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -11,13 +11,13 @@ tags:
   - Ecosystem
   - Open
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/Twitter-Logo.jpg)As such, there has been much discussion recently about Open APIs and whether or not third party developers are wise or foolish to build their businesses on someone else's platform. The concern stems from a number of reasons, least of which being Twitter's pronouncements about the ["rules of the road" for its ecosystem](http://dev.twitter.com/pages/api_terms "\"Rules of the Road\" for Its Ecosystem"), and now [Lendle's announcement that Amazon has revoked its access to the Amazon API](http://lendle.me/ "Lendles announcement that Amazon has revoked its access to the Amazon API").
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/shared/Twitter-Logo.jpg)As such, there has been much discussion recently about Open APIs and whether or not third party developers are wise or foolish to build their businesses on someone else's platform. The concern stems from a number of reasons, least of which being Twitter's pronouncements about the ["rules of the road" for its ecosystem](http://dev.twitter.com/pages/api_terms "\"Rules of the Road\" for Its Ecosystem"), and now [Lendle's announcement that Amazon has revoked its access to the Amazon API](http://lendle.me/ "Lendles announcement that Amazon has revoked its access to the Amazon API").
 
 The reactions to both Twitter and Amazon have been pretty strong. And while I do think Twitter is making some serious mistakes with its approach to its API and developer ecosystem, we might be making some mistakes of our own if we lump the Lendle/Amazon issue in to concerns about Twitter. Is Amazon shutting down apps that are poaching on its ecosystem? That's not clear.
 
 As it stands, everyone seems to be stirring the pot and feeding the hysteria around the perils of using Open APIs, or rather, the dangers of relying on them for your businesses..kinlane-productions2.s3.amazonaws.com
 
-But it seems to me that there is much more going on here. While APIs may be the focus -- the way in which apps and websites are connecting to a larger platform -- we're also looking at larger conflicts with new business models, whether those are publishing and DRM in the case of Amazon and Lendle or whether those conflicts are around a startup still struggling to monetize its core business. ![](http://kinlane-productions.s3.amazonaws.com/AWS_LOGO_CMYK.jpg) This isn't to say that there aren't precautions that people should take when building on an Open API. But when I hear some of the FUD lately, much of this echoes what we were hearing (and still hear, I suppose) about cloud computing.
+But it seems to me that there is much more going on here. While APIs may be the focus -- the way in which apps and websites are connecting to a larger platform -- we're also looking at larger conflicts with new business models, whether those are publishing and DRM in the case of Amazon and Lendle or whether those conflicts are around a startup still struggling to monetize its core business. ![](https://kinlane-images.s3.amazonaws.com/shared/AWS_LOGO_CMYK.jpg) This isn't to say that there aren't precautions that people should take when building on an Open API. But when I hear some of the FUD lately, much of this echoes what we were hearing (and still hear, I suppose) about cloud computing.
 
 _**Your server or storage could disappear at any moment, because its virtualized!** Sure, as would any server or storage, that's why I have plan A and B, and in the clouds I have C & D as well. I plan for failure no matter where my infrastructure is located._
 
@@ -31,7 +31,7 @@ _**An API owner could decide to poach business from its community at any time!**
 
 kinlane-productions2.s3.amazonaws.com
 
-Open APIs aren't really the problem here. ![](http://kinlane-productions.s3.amazonaws.com/lendle-logo.png) If a company is built entirely around a single API ecosystem, maybe the owners should consider diversification into other areas, expanding their business. The fault is with the business strategy; it's not the fault of the API.
+Open APIs aren't really the problem here. ![](https://kinlane-images.s3.amazonaws.com/apievangelist/lendle-logo.png) If a company is built entirely around a single API ecosystem, maybe the owners should consider diversification into other areas, expanding their business. The fault is with the business strategy; it's not the fault of the API.
 
 If an API ecosystem grows large enough where business opportunities develop that are ripe for picking by companies or poaching by the APIs owners, then the responsibility is on the API owner to establish a partner strategy that considers and includes ecosystem developers. It's not the fault of the API.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Icons For Helping Me Communicate How Open Or Closed An API Is
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -13,15 +13,15 @@ I find it difficult to conjure up just the right image, or images, to represent 
 
 **API (Flowing)**
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-rating-1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-rating-1.png)
 
 **API (Just Is)**
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-rating-2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-rating-2.png)
 
 **API (Not Flowing)**
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-rating-3.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-rating-3.png)
 
 My objective here is to provide a quick and easy way to help articulate how open an API is or isn't. Right now, these icons are set manually by me, based upon my overall feeling of the platform, the access they offer (or don't), terms of service, and overall business model. This will evolve in the future, as I have a lot of data that could also influence these ratings, but for now, it is all me. (Mwahahahaaaa)
 

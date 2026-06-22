@@ -2,7 +2,7 @@
 layout: post
 title: Daisy Chaining Multiple API Paths Using Stoplight Scenarios
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/stoplight_scenarios.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/stoplight_scenarios.png
 atomdate: 2016-11-14T21:00:00.000Z
 tags:
   - ai

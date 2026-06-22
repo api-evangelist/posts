@@ -2,7 +2,7 @@
 layout: post
 title: Tracking On Where The Politics Of APIs Intersects With The Business of APis
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_09_14_at_10.48.11_am.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_09_14_at_10.48.11_am.png
 atomdate: 2016-09-14T18:00:00.000Z
 tags:
   - Business

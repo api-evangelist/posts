@@ -2,7 +2,7 @@
 layout: post
 title: Providing A Dedicated Mobile SDK Page For Your API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Mobile_Client_SDKs__Beta_Bandwidth_Voice_Messaging_APIs.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Mobile_Client_SDKs__Beta_Bandwidth_Voice_Messaging_APIs.png
 atomdate: 2016-08-25T22:00:00.000Z
 tags:
   - SDK

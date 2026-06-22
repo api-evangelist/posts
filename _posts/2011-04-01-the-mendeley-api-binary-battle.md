@@ -2,7 +2,7 @@
 layout: post
 title: The Mendeley API Binary Battle
 url: http://apievangelist.com/2011/04/01/the-mendeley-api-binary-battle/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ tags:
 
 Mendeley is awarding $10,001 for anyone kinlane-productions2.s3.amazonaws.com0 million documents, usage statistics, reader demographics, social tags, and related research.
 
-All you need to do is: ![](http://kinlane-productions.s3.amazonaws.com/mendeley-academic-social-network.jpg)
+All you need to do is: ![](https://kinlane-images.s3.amazonaws.com/apievangelist/mendeley-academic-social-network.jpg)
 
 *   [Register for an API key](https://www.mendeley.com/join/ "Register now for an API Key")
 *   Build an application using the [Mendeley API](http://dev.mendeley.com/ "Mendeley API")

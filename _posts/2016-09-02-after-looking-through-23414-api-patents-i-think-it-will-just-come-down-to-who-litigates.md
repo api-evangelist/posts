@@ -1,7 +1,7 @@
 ---
 layout: post
 title: After Looking Through 23414 API Patents I Think It Will Just Come Down To Who Litigates
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-legal.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-legal.png
 atomdate: 2016-09-02 20:00:00+00:00
 tags:
 - Patents

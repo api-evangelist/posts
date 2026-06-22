@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Discussion Today With 6 Hypermedia Leaders At API-Craft in Detroit
-image: https://s3.amazonaws.com/kinlane-productions2/events/api-craft/api-craft-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-craft/api-craft-logo.png
 author:
   name: kinlane
 tags:

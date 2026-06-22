@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'I Am Speaking In Washington D.C. At The Blue Button 2.0 Developer Conference'
-image: https://s3.amazonaws.com/kinlane-productions2/federal-government/blue-button/blue-button-api-docs.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/blue-button/blue-button-api-docs.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/blue-button/blue-button-api-docs.png" width="45%" align="right" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/blue-button/blue-button-api-docs.png" width="45%" align="right" style="padding: 15px;" />
 <p><a href="https://bluebutton.cms.gov/bb2dc18/">I’m heading to Washington D.C. this Monday to speak on the API life cycle as part of the Blue Button 2.0 Developer Conference</a>. We’ll be coming together in the Eisenhower Executive Office Building, within the west wing complex of the White House, to better understand how we can, “bring together developers to learn and share insights on how we can leverage claims data to serve the Medicare population.”
 
 <p>The gathering will hear from CMS Administrator Seema Verma and other Administrator Leadership about Blue Button 2.0 and the MyHealthEData initiative, while also hosting a series of break sessions, which I’m part of:

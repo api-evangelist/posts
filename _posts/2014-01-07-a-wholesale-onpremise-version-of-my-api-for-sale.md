@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Wholesale On-Premise Version Of My API For Sale
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-scraper.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-scraper.jpg
 author:
   name: kinlane
 tags:

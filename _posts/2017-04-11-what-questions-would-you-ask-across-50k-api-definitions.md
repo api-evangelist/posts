@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Questions Would You Ask Across 50K API Definitions?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-question-mark.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-question-mark.png
 atomdate: 2017-04-11 19:00:00+00:00
 tags:
 - Definitions

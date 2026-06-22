@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Providing API.json As A Discovery Media Type Every One Of My API Endpoints
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-discovery.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-api-discovery.png
 author:
   name: kinlane
 tags:

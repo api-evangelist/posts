@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Discovering New APIs Through Security Alerts
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/cf60890864f3b19978e7a9a6a9c84152_400x400.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/cf60890864f3b19978e7a9a6a9c84152_400x400.png
 atomdate: 2016-10-17 20:00:00+00:00
 tags:
 - Security

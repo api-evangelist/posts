@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Open Skills API From Dept of Labor &amp; University of Chicago
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_12_at_11.19.25_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_12_at_11.19.25_pm.png
 author:
   name: kinlane
 tags:

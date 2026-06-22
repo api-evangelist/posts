@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding The Webhose,io Search API To Stack Of APIs I Depend On
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_22_at_8.53.04_pm.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_01_22_at_8.53.04_pm.png
 atomdate: 2017-01-23 17:00:00+00:00
 tags:
 - Search

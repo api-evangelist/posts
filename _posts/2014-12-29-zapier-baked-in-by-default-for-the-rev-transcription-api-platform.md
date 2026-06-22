@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Zapier Baked In By Default For The Rev Transcription API Platform
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/rev/rev-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/rev/rev-logo.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I look at a lot of API portals, and always enjoy the ones that speak to the wide
 
 Rev provides some valuable  information on what Zapier is, what you can do with Rev and Zapier, and actually walks you through how to actually setup this up, on a page that is given the same prominence as the API documentation (important!).
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/rev/rev-zapier.png)](https://www.rev.com/api/zapier)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/rev/rev-zapier.png)](https://www.rev.com/api/zapier)
 
 Rev provides you with direct links to put Rev to work, by transcribing from YouTube and Vimeo, and workflows for putting these transcripts on Dropbox, Google Drive or Box. You can click on links that take you to the detail page on Zapier, where you can get up and running with the recipe. I [added Zapier as a building block a while back](http://management.apievangelist.com/building-blocks.html), but I really feel that it is quickly becoming an essential building block, something all providers should be considering in 2015.
 

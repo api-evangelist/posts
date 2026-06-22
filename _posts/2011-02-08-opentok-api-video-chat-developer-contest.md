@@ -2,7 +2,7 @@
 layout: post
 title: OpenTok API Video Chat Developer Contest
 url: http://apievangelist.com/2011/02/08/opentok-api-video-chat-developer-contest/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -26,7 +26,7 @@ The company is holding a series of contests over 6 weeks:
     *   Deadline: 11.59pm Monday March 7th
     *   Prize: Apple iPad
 
-Deadline for all finalists to submit final versions of their apps Monday, March 21.kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/tokbox/open-tok-dark.png)](http://www.tokbox.com/opentok/) OpenTok will announce the winning app on April 5.
+Deadline for all finalists to submit final versions of their apps Monday, March 21.kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/tokbox/open-tok-dark.png)](http://www.tokbox.com/opentok/) OpenTok will announce the winning app on April 5.
 
 Applications will be judged on the following criteria:
 

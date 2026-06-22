@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Diff Tooling For JSON, YAML, And Markdown Versions Of API Definitions
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-diff.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-diff.png
 atomdate: 2016-08-05 16:00:00+00:00
 tags:
 - Definitions

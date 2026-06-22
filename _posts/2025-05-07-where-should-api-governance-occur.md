@@ -8,7 +8,7 @@ tags:
   - Federated
   - Centralized
   - Feedback Loops
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-arrow-in-ground.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-arrow-in-ground.jpeg
 ---
 For teams who have adopted a design-first approach to APIs governance happens during the design time, and if your team is code-first it happens in the IDE during development time. If you are an engineering manager you likely don’t really care about the nuance between design and development times and see API governance occurring during the build-time right before production or any previous stage. This is something that very much shapes API governance because of who services and tooling are being sold to, but in reality API governance should occur D) All the Above.
 

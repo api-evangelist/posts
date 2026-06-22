@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Establishing A Common API Definition That API Management Providers Can Use
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/3scale-logo.jpg
 author:
   name: kinlane
 tags:

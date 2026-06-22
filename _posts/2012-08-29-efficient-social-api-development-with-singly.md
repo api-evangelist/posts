@@ -2,7 +2,7 @@
 layout: post
 title: Efficient Social API Development with Singly
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/singly-logo-horizontal.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/singly-logo-horizontal.png
 author:
   name: kinlane
 tags:
@@ -18,11 +18,11 @@ Before diving in, let me start with the basics. What is [Singly](https://singly.
 
 For this project I focused on the top social network APIs: [Facebook](https://www.singly.com/docs/facebook "Facebook"), [Foursquare](https://www.singly.com/docs/foursquare "Foursquare"), [Github](https://www.singly.com/docs/github "Github"), [Instagram](https://www.singly.com/docs/instagram "Instagram"), [LinkedIn](https://www.singly.com/docs/linkedin "LinkedIn") and [Twitter](https://www.singly.com/docs/twitter "Twitter"). Ok, for many Github isn’t a social network. It’s something just geeks use, but to us, it is a social network. Anyways, let’s start building my social data exploration prototype.
 
-![](https://s3.amazonaws.com/kinlane-productions2/github/github-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-logo.png)
 
 First, I [signed up for Singly using my Github login](/2012/07/18/let-developers-register-for-your-api-with-their-github-profile/ "signed up for Singly which was instant using my Github login"). Once signed up, I added my first Singly application, which allows me to generate application specific Singly keys, which features I will use, and provides a single interface to store and manage that access for each social network that I will be using. When adding a new app, it takes some time to setup, and create an app definition in all 6 social networks and add keys to my Singly app, but once you are all done, all you have to worry about is a single Singly key--Singly takes care of the rest.
 
-![](https://s3.amazonaws.com/kinlane-productions2/singly/Singly-App-Management.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/singly/Singly-App-Management.jpg)
 
 Now I have a single API for accessing all six social APIs. Singly provides consistent endpoints across these services:
 

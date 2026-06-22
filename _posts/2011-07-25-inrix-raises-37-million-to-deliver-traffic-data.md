@@ -3,14 +3,14 @@ layout: post
 title: INRIX Raises $37 Million to Deliver Traffic Data
 url: >-
   http://apievangelist.com/2011/07/25/inrix-raises-37-million-to-deliver-traffic-data/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Data
   - ai
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/inrix/inrix-logo.gif)](http://www.inrix.com/)[INRIX�](http://www.inrix.com/), an international provider of traffic information, and driving services, [announced a commitment of $37 million in funding](http://www.inrix.com/pressrelease.asp?ID=133 "announced a commitment of $37 million in funding") led by Kleiner, Perkins, Caufield & Byers' (KPCB) Green Growth Fund and August Capital.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/inrix/inrix-logo.gif)](http://www.inrix.com/)[INRIX�](http://www.inrix.com/), an international provider of traffic information, and driving services, [announced a commitment of $37 million in funding](http://www.inrix.com/pressrelease.asp?ID=133 "announced a commitment of $37 million in funding") led by Kleiner, Perkins, Caufield & Byers' (KPCB) Green Growth Fund and August Capital.
 
 The investment will be used as part of a continued global expansion and R&D efforts focused on the company's in-car, location based services (LBS) and mobile applications businesses.
 
@@ -18,7 +18,7 @@ With over 150 industry-leading customers across 8 different distribution channel
 
 The investment by KPCB Green Growth Fund and August Capital show the growth of the LBS data market, and resulting APIs that gather and deliver this data to mobile applications.
 
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/inrix/inrix-traffic-mobile-applications.jpg)Traffic congestion costs the U.S. economy upwards of $155 billion dollars annually. Last year alone, US drivers wasted 3.9 billion gallons of fuel sitting idle in traffic, and the US is a small part of a much larger and growing global traffic problem, commented Michael Linse, partner at Kleiner, Perkins, Caufield & Byers. We believe that INRIX is uniquely positioned to help improve the efficiency of our cars in ways that reduce fuel consumption and improve sustainability for all.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/inrix/inrix-traffic-mobile-applications.jpg)Traffic congestion costs the U.S. economy upwards of $155 billion dollars annually. Last year alone, US drivers wasted 3.9 billion gallons of fuel sitting idle in traffic, and the US is a small part of a much larger and growing global traffic problem, commented Michael Linse, partner at Kleiner, Perkins, Caufield & Byers. We believe that INRIX is uniquely positioned to help improve the efficiency of our cars in ways that reduce fuel consumption and improve sustainability for all.
 
 We are experiencing a convergence of automotive and mobile efforts that leverage the latest smart devices, data analytics and connectivity technologies that improve how the world's one billion drivers travel from place to place.
 

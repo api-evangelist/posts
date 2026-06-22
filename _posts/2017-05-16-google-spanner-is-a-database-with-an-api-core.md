@@ -7,7 +7,7 @@ tags:
   - Deployment
   - Design
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/google/spanner/google-spanner.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/google/spanner/google-spanner.png
 author:
   name: kinlane
 ---

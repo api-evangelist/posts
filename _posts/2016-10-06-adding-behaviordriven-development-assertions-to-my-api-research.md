@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding Behavior-Driven Development Assertions To My API Research
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-check3.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-check3.png
 atomdate: 2016-10-06 22:00:00+00:00
 tags:
 - Research

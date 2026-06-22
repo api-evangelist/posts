@@ -4,7 +4,7 @@ title: >-
   Defining The Industrial Programmable Automation Controller (PAC) Strategy
   Using An API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/pcbased_io_320x224.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/pcbased_io_320x224.jpg
 atomdate: 2016-08-16T18:00:00.000Z
 tags:
   - Automation

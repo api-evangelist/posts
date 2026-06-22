@@ -2,7 +2,7 @@
 layout: post
 title: Access To Satellite Imagery Via A Web API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/landsat-api.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/landsat-api.jpg
 atomdate: 2016-08-08T18:00:00.000Z
 tags:
   - Web

@@ -9,7 +9,7 @@ tags:
   - Gateways
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-skyscraper-construction-crane-3.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/green-circuit-skyscraper-construction-crane-3.jpeg
 ---
 [Juan Cruz Viotti](https://www.linkedin.com/in/jviotti/) of [Sourcemeta](https://www.sourcemeta.com/) came by for a conversation about [the schema registry solution](https://schemas.sourcemeta.com/) he had recently built. Juan has gone deep into the JSON Schema rabbit hole, deeper than anyone else I've ever met. His validation tooling and schema registry are providing a new foundation for enterprises to get their schema house in order. This is something Juan and I both agree is the single most foundational thing you can invest in when it comes to API governance. I learn so much everytime I talk to Juan and explore his work, and we will be working together more around the evolution of his schema registry, and API Evangelist will be leaning more into using the JSON Schema educational resources he's contributed to at [Learning JSON Schema](https://www.learnjsonschema.com/2020-12/).
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My API Design Research Distilled Down As Single PDF Guide
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-api-design-industry-guide-july-2015-cover.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-evangelist-api-design-industry-guide-july-2015-cover.png
 author:
   name: kinlane
 tags:

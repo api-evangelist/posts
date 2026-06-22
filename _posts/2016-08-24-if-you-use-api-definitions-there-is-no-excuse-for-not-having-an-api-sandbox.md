@@ -1,7 +1,7 @@
 ---
 layout: post
 title: If You Use API Definitions There Is No Excuse For Not Having An API Sandbox
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Sandbox_-_Quickly_create_REST_API_and_SOAP_mock_web_services.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Sandbox_-_Quickly_create_REST_API_and_SOAP_mock_web_services.png
 atomdate: 2016-08-24 20:00:00+00:00
 tags:
 - Definitions

@@ -2,7 +2,7 @@
 layout: post
 title: Merging API Automation and Interoperability Into API Reciprocity
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/reciprocity-trends.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/reciprocity-trends.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ I have settled on the word reciprocity. The dictionary defines reciprocity as:
 *   the quality or state of being reciprocal : mutual dependence, action, or influence
 *   a mutual exchange of privileges; specifically : a recognition by one of two countries or institutions of the validity of licenses or privileges granted by the other
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/social-reciprocity.png)](http://apievangelist.com/trends/reciprocity.php)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/trends/social-reciprocity.png)](http://apievangelist.com/trends/reciprocity.php)
 
 When you look in the thesaurus, reciprocity has a definition of "interchange" with synonyms of cooperation, exchange, mutuality and reciprocation. Reciprocity is also a synonym of connection with a definition of “person who aids another in achieving goal”. With synonyms being acquaintance, agent, ally, associate, association, contact, friend, go-between, intermediary, kin, kindred, kinship, mentor, messenger, network, reciprocity, relation, relative and sponsor.  (i love that "kin" is a synonym too)
 
@@ -26,7 +26,7 @@ All of these terms apply to what I’m seeing unfold with this new generation of
 
 What I really like about reciprocity is it describes the mutual relationship between users and the platforms where their data and information resides. Reciprocity describes the connection that has to occur between these valuable API platforms, and their users, in ways the ETL misses. ETL stands for extract, transform and load, very technical and programmatic responses to moving my valuable resources, assets and personal information between the cloud platform I depend on daily.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/reciprocity-2.jpeg)](http://apievangelist.com/trends/reciprocity.php)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/trends/reciprocity-2.jpeg)](http://apievangelist.com/trends/reciprocity.php)
 
 In the physical world we have reciprocity agreements between countries to ensure free trade and a healthy balance in world markets. This next generation of reciprocity platform providers will not just be extracting, transforming and loading data--reciprocity platforms will be the nervous system of the global API economy, moving valuable resources around the world while respecting relationships between users, developers and the platforms in a way that preserves maximum value for everyone involved.
 

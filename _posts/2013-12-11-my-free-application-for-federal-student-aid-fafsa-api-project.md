@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Free Application for Federal Student Aid (FAFSA) API Project
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fafsa-form.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/fafsa-form.jpg
 author:
   name: kinlane
 tags:
@@ -42,7 +42,7 @@ I used a variety of PDF and website resources to understand the FAFSA program an
 **Adding To The Commons**  
 With a first draft of the API definition and underlying data model for the FAFSA form published, i wanted to make sure I put forth the definition for public comment and consumption. To do this I create an [API Commons](http://apicommons.org "API Commons") manifest which registers the FAFSA API swagger definition with the commons. As I evolve the project and update the specification the manifest will keep it actively published in the API commons.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-logo.png)](http://apicommons.org)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-commons/api-commons-logo.png)](http://apicommons.org)
 
 **Licensing**  
 Beyond adding the FAFSA API definition to the API Commons, I make sure all code that is published as part of my FAFSA project is licensed using the [MIT License](http://opensource.org/licenses/MIT), and any content is available under a [CC-BY license](http://creativecommons.org/licenses/by/3.0/). I want the entire project to be freely and widely used, but make sure the central project is attributed to help build awareness and contributions to the project.

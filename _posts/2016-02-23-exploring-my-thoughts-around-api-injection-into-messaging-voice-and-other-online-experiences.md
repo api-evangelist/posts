@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exploring My thoughts Around API Injection Into Messaging, Voice, And Other Online Experiences
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-injection.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-injection.png
 tags:
 - Voice
 - Messaging

@@ -2,7 +2,7 @@
 layout: post
 title: CloudMine + Singly = Rapid Mobile App Development With Social Baked In
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/cloudmine-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/cloudmine-logo.png
 author:
   name: kinlane
 tags:

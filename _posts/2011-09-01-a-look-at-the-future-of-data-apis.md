@@ -2,7 +2,7 @@
 layout: post
 title: A Look at the Future of Data APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/infochimps-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/infochimps-logo.jpg
 author:
   name: kinlane
 tags:

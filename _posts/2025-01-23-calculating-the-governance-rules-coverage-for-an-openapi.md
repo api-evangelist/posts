@@ -9,7 +9,7 @@ tags:
   - OpenAPI
   - APIs.json
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-containers-stack.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-containers-stack.jpeg
 ---
 There are a number of ways to evaluate the effectiveness of API governance. You see a lot of API scores, ratings, and grades. But, this approach places a heavy weight on the rules being applied having some sort of completeness, accuracy, and sufficient coverage--which is rarely evaluated. Like code coverage for testing, it would help to have some sort of notion of API contract coverage for API governance, which is something that will introduce other additional concerns, but would help further expand the API governance discussion. When using Spectral rules for listing OpenAPI or other artifacts as part of governance you get back the range of line numbers applied, which provide an opportunity to define OpenAPI rules coverage with the following dimensions.
 

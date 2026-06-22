@@ -1,7 +1,7 @@
 ---
 layout: post
 title: FDA Finding Their API Mojo With A New Drug Label API
-image: https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/open-fda-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/fda/open-fda-logo.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ I first wrote about [openFDA](https://open.fda.gov/) back in June, [showcasing t
 
 It is satisfying to see such a large government agency find their API mojo. The original spark at the FDA was lit by Presidential Innovate Fellow Sean Herron ([@seanherron)](https://twitter.com/seanherron), but most recently Sean has handed off the iniative to an internal team who will keep they platform moving forward using the same formula.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/Drug_facts_label_gl01.jpg)](https://open.fda.gov/index.html)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/fda/Drug_facts_label_gl01.jpg)](https://open.fda.gov/index.html)
 
 Beyond just the API, openFDA is also seriously putting the "open" in openFDA with:
 

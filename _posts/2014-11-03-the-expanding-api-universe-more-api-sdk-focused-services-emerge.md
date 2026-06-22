@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'The Expanding API Universe: More API SDK Focused Services Emerge'
-image: https://s3.amazonaws.com/kinlane-productions2/magnet/magnet-rest2mobile.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/magnet/magnet-rest2mobile.png
 author:
   name: kinlane
 tags:

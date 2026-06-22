@@ -3,7 +3,7 @@ layout: post
 title: "Seeing MCP"
 date: 2026-05-07
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-los-angeles-downtown-from-afar.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-los-angeles-downtown-from-afar.jpg
 category: "Blog"
 excerpt: "I am talking to a number of folks about documenting their MCP servers. Others about discovering them. Others about governing them. Generally, we are mostly talking about being able to just see the MCP wave of API expansion that has occurred across your average enterprises. This expansion phase isn't much different than previous waves of REST, GraphQL, gRPC, Websockets, and Kafka expansions—it just happened faster and wider than most of those."
 ---

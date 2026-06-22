@@ -2,7 +2,7 @@
 layout: post
 title: 'Amazon Echo: Voice Enablement Will Be Major API Driven Channel In The Future'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/amazon-echo/amazon_echo_main.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/amazon-echo/amazon_echo_main.png
 author:
   name: kinlane
 tags:

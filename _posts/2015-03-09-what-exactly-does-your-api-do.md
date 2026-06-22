@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Exactly Does Your API Do?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dailymotion-dev-portal-screenshot.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dailymotion-dev-portal-screenshot.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ A short, concise, portable description of what your API does, is one of the most
 
 Here is a great example of providing all the right elements, but leaving out the essential detail that new API consumers will need. View the [Dailymotion developer area](https://developer.dailymotion.com/), land on home page, and without clicking, tell me what Dailymotion does.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dailymotion-dev-portal-screenshot.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dailymotion-dev-portal-screenshot.png)
 
 The portal has all the right moves, except it neglects to say anything about videos, or show a video picture. I guess you could argue that anyone landing here will probably be getting there via the main Dailymotion site, with the proper knowledge of what is going on. This is probably true, but there will always be people landing on the API developer portal page, without any clue of what Dailymotion does—do not make them click to find out.
 

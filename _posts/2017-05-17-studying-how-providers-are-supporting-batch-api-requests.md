@@ -5,7 +5,7 @@ date: 2017-05-17T12:00:00.000Z
 tags:
   - Batch
   - Design
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-bulk-requests.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-bulk-requests.png
 author:
   name: kinlane
 ---

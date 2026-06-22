@@ -8,7 +8,7 @@ tags:
  - Business
  - Integrations
  - Automation
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-docks-oakland-4.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-docks-oakland-4.jpeg
 ---
 I have several folks asking me what I mean when I say capability in the context of what we are building with Naftiko. I have been writing about API capabilities in the context of [the journey from API resources to API experience for some time](https://apievangelist.com/2024/02/09/api-resource-capabilities-and-experiences/). I used to call [a certain type of Postman Collections capabilities](https://www.postman.com/api-evangelist/atlassian-jira/overview) for some time, but I want to refresh my definition of what I mean, build on the work of other smart people, and publish something I can share with others to help articulate what I mean when I say capability.
 

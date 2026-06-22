@@ -2,7 +2,7 @@
 layout: post
 title: A Rare Beast In Government, The Write API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/we-the-people/we_the_people.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/we-the-people/we_the_people.jpg
 author:
   name: kinlane
 tags:
@@ -22,7 +22,7 @@ Second, why an API?
 
 An API opens up the petition platform to exist within any website, application and mobile applications. A read API allows for content to display on any site or app, and a write API allows for participation in the petition process via any site or app—changing the dynamics of the petition process, moving it off of just .gov websites, ultimately evolving how our government operates.
 
-![](https://s3.amazonaws.com/kinlane-productions2/federal-government/we-the-people/we-the-people-write-api-beta.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/we-the-people/we-the-people-write-api-beta.png)
 
 **Testing The Waters With A Beta Phase**  
 With any web software you need a beta phase, allowing trusted users to play with and debug an implementation, and this is what the team behind the We The People API are doing. They are using Github as a collaborative platform during the beta phase to test the write API, fix issues and squash bugs, and improve documentation ahead of the public release.

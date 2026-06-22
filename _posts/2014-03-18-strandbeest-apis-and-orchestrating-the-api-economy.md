@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Strandbeest, APIs And Orchestrating The API Economy
-image: https://s3.amazonaws.com/kinlane-productions2/strandbeest.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/strandbeest.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I have not seen this talk by Mike, so I have no idea what he is planning, but I 
 
 As I watched Strandbeest I had a realization, this was a physical manifestation of what I envision as API driven application architecture for the API economy. Over the years I had built up visualizations in my mind of what architecture will look like when you are building applications with not 1 or 2, or 10 or 20 API, but hundreds of API driven resources, all working together in concert for a single outcome. The Strandbeest is the first physical object I've seen to come close to what i was seeing in my minds eye, and even more telling was that it was Mike Amundsen who introduced me to this object.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-mind-blown.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-mind-blown.png)
 
 When you watch the [Strandbeest video](http://bit.ly/13esk6Q), imagine each tube as a single API, and each resulting "beest" as a system or application you intend to build with APIs. Imagine being an architect at this scale, orchestrating hundreds of APIs into a workflow, or series of workflows that produces a virtual "strandbeest" that doesn't just run on the beach, but operates within the API economy at a global scale.
 

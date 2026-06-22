@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Swagger Definition Driven Sandbox And Simulation Data Templates For APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-sandbox.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-sandbox.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reducing The API Stack Down From 830 to 690
-image: https://s3.amazonaws.com/kinlane-productions2/api-stack/api-stack-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-stack/api-stack-logo.png
 author:
   name: kinlane
 tags: []

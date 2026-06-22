@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The New Github Developer Program and Integrations Page
-image: https://s3.amazonaws.com/kinlane-productions2/github/github-developer-program.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-developer-program.png
 author:
   name: kinlane
 tags:

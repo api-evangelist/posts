@@ -8,7 +8,7 @@ tags:
   - Business
   - Politics
   - Priorities
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-adam-smith-edinburgh.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-adam-smith-edinburgh.jpg
 ---
 I know many of us have bought into the API management messaging and the APIs as a product vision over the last ten years. It is a logical response to obtaining and maintaining a handle on the API sprawl that emerged as we made the switch from to power web and mobile applications. Turning this sprawling and chaotic digital factory floor into a well known orchestration engine to automate the enterprise is the proper response to what has been happening. The problem comes in when you come up against the army of business leadership and other stakeholders who don’t see the API sprawl and chaos and have a single minded focus on digital resources and capabilities being made available in a single application or integration that will drive short term interests.
 

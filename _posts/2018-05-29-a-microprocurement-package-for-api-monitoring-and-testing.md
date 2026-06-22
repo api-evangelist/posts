@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'A Microprocurement Package For API Monitoring And Testing'
-image: https://s3.amazonaws.com/kinlane-productions2/federal-government/va/microconsulting-work-state-va-api-landscape-analysis.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/va/microconsulting-work-state-va-api-landscape-analysis.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/federal-government/va/microconsulting-work-state-va-api-landscape-analysis.png" width="45%" align="right" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/va/microconsulting-work-state-va-api-landscape-analysis.png" width="45%" align="right" style="padding: 15px;" />
 <p><a href="https://github.com/department-of-veterans-affairs/VA-Micropurchase-Repo/issues/6">I’m kicking off a micro-procurement project with the Department of Veterans Affairs (VA) this week</a>. I’m going to to be conducting one of <a href="https://apievangelist.com/2016/04/13/formalizing-my-approach-to-identifying-the-low-hanging-api-fruit/">my API low hanging fruit campaigns</a> for them, where I help them identify the best possible data sets available across their public websites for turning into APIs. The project is one of many small projects the federal agency is putting out there to begin working on their agency wide API platform they are calling Lighthouse. Laying the groundwork for better serving veterans through a robust stack of microservices that each do one thing really well, but can be used in concert to deliver the applications the agency needs to meet their mission.
 
 <p>While not specifically a project to develop a microservice. The landscape analysis project is an API focused research project, that is testing a new procurement model called microprocurement. At my government consulting agency partnership <a href="http://skylight.digital/">Skylight Digital</a>, my partner in crime Chris Cairns has been pushing for a shift in how government tackles technology projects, pushing them to do in smaller chunks that essentially can be put on the credit card in less than 10K increments. So far we’ve been doing consulting, research, and training related projects like how to create a bug bounty program, and internal evangelism strategies. Now we are kicking our campaign into high gear and pushing more agencies to think about microprocurement for microservices–the VA was the first agency to buy into this new way of thinking about how government IT gets delivered.

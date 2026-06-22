@@ -2,7 +2,7 @@
 layout: post
 title: Student, Instructor, Classroom, Class, And Course API Planning At BYU
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/brigham-young-university.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/brigham-young-university.jpeg
 author:
   name: kinlane
 tags:

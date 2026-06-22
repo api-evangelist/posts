@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Am Speaking At The Dallas-Forth Worth API Professionals Meetup May 14th
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dfw-api-meetup-group.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/dfw-api-meetup-group.jpeg
 author:
   name: kinlane
 tags:
@@ -18,6 +18,6 @@ After that we can just hang out and talk about APIs and see what all y'all are d
 
 Look forward to seeing you there and connecting.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/therightapi-logo-2.png)](http://www.therightapi.com/ "TheRightAPI")
+[![](https://kinlane-images.s3.amazonaws.com/shared/company/therightapi-logo-2.png)](http://www.therightapi.com/ "TheRightAPI")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/Proxomo-Logo.png)](http://www.proxomo.com/ "Proxomo")
+[![](https://kinlane-images.s3.amazonaws.com/shared/serviceproviders/Proxomo-Logo.png)](http://www.proxomo.com/ "Proxomo")

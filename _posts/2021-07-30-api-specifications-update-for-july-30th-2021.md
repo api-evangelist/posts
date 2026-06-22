@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'API Specifications Update for July 30th, 2021'
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-shipping-docks_36331347010_o.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-shipping-docks_36331347010_o.jpg
 tags:
     - API Specification Update
 ---

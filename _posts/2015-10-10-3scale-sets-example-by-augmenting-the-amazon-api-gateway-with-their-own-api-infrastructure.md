@@ -4,7 +4,7 @@ title: >-
   3Scale Sets Example By Augmenting The Amazon API Gateway With Their Own API
   Infrastructure
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3Scale/AAG-and-3scale2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/3Scale/AAG-and-3scale2.png
 author:
   name: kinlane
 tags:

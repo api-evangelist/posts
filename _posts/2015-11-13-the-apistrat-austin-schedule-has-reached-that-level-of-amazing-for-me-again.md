@@ -2,7 +2,7 @@
 layout: post
 title: The APIStrat Austin Schedule Has Reached That Level Of Amazing For Me Again
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/16672086073_12b6e018c1_z.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/16672086073_12b6e018c1_z.jpg
 author:
   name: kinlane
 tags:

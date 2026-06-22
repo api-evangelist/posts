@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving APIs Out Of The Partner Realm And Making Them More Public
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/periscope_twitter.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/periscope_twitter.png
 atomdate: 2017-03-24 16:00:00+00:00
 tags:
 - APIs

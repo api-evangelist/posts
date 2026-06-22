@@ -8,7 +8,7 @@ tags:
   - Search
   - Diff
 image: >-
-  https://s3.amazonaws.com/kinlane-productions/algorotoscope-master/aws-s3-stories-death-valley-national-park-dali-three-just-road.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-death-valley-national-park-dali-three-just-road.jpg
 ---
 <img src="{{ page.image }}" width="45%" align="right" style="padding: 15px;" />
 I always find an API providers business model to be very telling about the company’s overall strategy when it comes to APIs. I’m currently navigating the difference between two big API providers, trying to balance my needs spread across very different approaches to offering up API resources. I’m working to evolve and refine my API search algorithms and I find myself having to do a significant amount of work due to the differences between GitHub and Microsoft Search. Ironically, they are both owned by the same company, but we all know their business models are seeking alignment as we speak, and I suspect my challenges with GitHub API is probably a result of this alignment.

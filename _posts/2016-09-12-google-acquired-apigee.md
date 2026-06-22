@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Acquired Apigee
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_09_12_at_9.18.25_am.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_09_12_at_9.18.25_am.png
 atomdate: 2016-09-12 22:00:00+00:00
 tags:
 - API Evangelist

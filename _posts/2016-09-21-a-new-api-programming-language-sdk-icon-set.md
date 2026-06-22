@@ -2,7 +2,7 @@
 layout: post
 title: A New API Programming Language SDK Icon Set
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/devicon_all_programming_languages_and_development_tools_related_icons_font.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/devicon_all_programming_languages_and_development_tools_related_icons_font.png
 atomdate: 2016-09-22T00:00:00.000Z
 tags:
   - SDK

@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'The OpenAPI Community'
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_20_at_4.26.05_pm.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_20_at_4.26.05_pm.png
 tags:
 - OpenAPI
 - Community

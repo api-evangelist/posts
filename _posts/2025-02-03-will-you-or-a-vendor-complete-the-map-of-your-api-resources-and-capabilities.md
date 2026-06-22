@@ -13,7 +13,7 @@ tags:
   - Clients
   - Security
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-city-clouds-waterfront.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-city-clouds-waterfront.jpg
 ---
 Mapping out the landscape of existing HTTP APIs across the enterprise is the number one challenge engineering leadership faces right now. In the race for the web, then for mobile, and now for API, enterprises are left with thousands of APIs in operation that they can’t quite ever see. Vendors are racing to provide the solution for enterprises to survey and assess their APIs from a gateway, security, client, or other perspective. As with every other aspect of our enterprise operations there are plenty of vendors working to provide us with solutions for surveying and assessing our API landscape in one-time and ongoing ways, approaching this landscape mapping from the following dimensions of our API operations.
 

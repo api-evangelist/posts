@@ -3,7 +3,7 @@ layout: post
 title: Use Google Apps APIs Without Being a Programmer
 url: >-
   http://apievangelist.com/2011/02/15/use-google-apps-apis-without-being-a-programmer/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

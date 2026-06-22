@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Thinking About API Status Codes For Destroying Entities Using DELETE'
-image: https://s3.amazonaws.com/kinlane-productions2/deliveroo/deliveroo-new-visual-branding-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/deliveroo/deliveroo-new-visual-branding-logo.jpg
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/deliveroo/deliveroo-new-visual-branding-logo.jpg" width="45%" align="right" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/deliveroo/deliveroo-new-visual-branding-logo.jpg" width="45%" align="right" style="padding: 15px;" />
 <p>I am pulling together some API design guidance for some projects I’m consulting on, so I’m spending time reviewing the API design guides the leading API providers who have published them publicly. Learning from what they are doing across their own companies, organizations, institutions, and government agencies when it comes to sensible API governance.
 
 <p>Today, I am learning from the British food delivery company, Deliveroo, and documenting <a href="https://deliveroo.engineering/guidelines/api-design/#external-facing">their guidance for which HTTP status codes should be returned for any API methods that use DELETE</a>:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The API Between Us And Everything
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/nest/nest-thermostat.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/nest/nest-thermostat.png
 author:
   name: kinlane
 tags:

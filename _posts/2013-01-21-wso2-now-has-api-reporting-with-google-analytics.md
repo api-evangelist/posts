@@ -2,7 +2,7 @@
 layout: post
 title: WSO2 Now Has API Reporting With Google Analytics
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wso2-logo-white-400X180.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/wso2-logo-white-400X180.png
 author:
   name: kinlane
 tags:

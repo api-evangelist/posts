@@ -10,7 +10,7 @@ tags:
   - Automation
   - Gateways
   - OpenAPI
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-time-square-tables.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-time-square-tables.jpeg
 ---
 One of the most difficult things about producing APIs is getting everyone doing the work on the same page. This is why you have seen API guidelines emerge that provide a checklist of the things that you should be doing as a product owner or engineer when it comes to defining, designing, developing, and deploying an API. The problem with API guidelines is that they are usually markdown or some other text format and they tend to jump around, with one piece of guidance focusing on status code and the next focused on documentation. Some guidelines are rules-driven, but most aren’t, allowing them to jump all around operations, but once you realize rules can actually help ground these conversations, you can achieve much more velocity by simply asking.
 

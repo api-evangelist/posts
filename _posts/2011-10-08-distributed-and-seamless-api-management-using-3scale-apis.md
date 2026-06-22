@@ -2,7 +2,7 @@
 layout: post
 title: Distributed and Seamless API Management Using 3Scale APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-logo.jpg
 author:
   name: kinlane
 tags:
@@ -28,7 +28,7 @@ These four APIs offer the essential building blocks to control, manage and monet
 
 Adding a set of APIs, definitely sets 3Scale apart from the other [API management service providers](/serviceproviders/ "API Management Service Providers"). You can sign-up, connect 3Scale services to your API, without routing your API through a proxy, and seamlessly integrate 3Scale service, account and billing management into your existing systems, complete with analytics.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/3Scale/API-Management -3scale-API-Management-Solution.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/3Scale/API-Management -3scale-API-Management-Solution.png)
 
 Using 3Scale you can operate for free up to 50K calls per day, and start paying after your API grows or once you are looking to monetize your API and begin billing users.
 

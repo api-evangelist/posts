@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The API Service Provider I Missed, Vordel
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Vordel-API-Management.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Vordel-API-Management.png
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ Vordel provides a range of products we recognize with enterprise API deployments
 
 The Vordel API Gateway compares to what I've seen from [Layer7](http://www.apievangelist.com/2011/06/17/layer-7-technologies-launches-new-api-portal/ "Layer7") and [SOA Software](/2011/06/17/atmosphere-a-new-api-management-portal/ "SOA Software"), with the following key features:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/vordel/Vordel-API-Gateway.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/vordel/Vordel-API-Gateway.png)
 
 *   Protocol translation for REST and SOAP
 *   Versioning and lifecycle management

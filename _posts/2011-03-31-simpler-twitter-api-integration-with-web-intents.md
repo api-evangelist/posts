@@ -3,7 +3,7 @@ layout: post
 title: Simpler Twitter API Integration with Web Intents
 url: >-
   http://apievangelist.com/2011/03/31/simpler-twitter-api-integration-with-web-intents/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
   - Integration
   - Web
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/twitter/intents-summary.png)Since the [Twitter OAuth Apocalypse](http://twitter.com/#!/SNFLabs/status/16426051477 "Twitter OAuth Apocalypse") integrating tweets into a web page requires writing an OAuth application for even the simplest of Twitter integrations, like replying, retweeting and favoriting.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/intents-summary.png)Since the [Twitter OAuth Apocalypse](http://twitter.com/#!/SNFLabs/status/16426051477 "Twitter OAuth Apocalypse") integrating tweets into a web page requires writing an OAuth application for even the simplest of Twitter integrations, like replying, retweeting and favoriting.
 
 Twitter just released a new [simpler API called Web Intents](http://dev.twitter.com/pages/intents "Simpler API Called Web Intents") that makes Tweets more interactive when you display on the web.
 

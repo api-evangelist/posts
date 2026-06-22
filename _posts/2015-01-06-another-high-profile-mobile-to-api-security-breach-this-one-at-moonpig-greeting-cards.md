@@ -4,7 +4,7 @@ title: >-
   Another High Profile Mobile To API Security Breach, This One At MoonPig
   Greeting Cards
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/logo_moonpig.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/logo_moonpig.png
 author:
   name: kinlane
 tags:

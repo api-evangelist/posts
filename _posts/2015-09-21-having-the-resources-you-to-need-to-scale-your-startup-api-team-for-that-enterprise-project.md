@@ -3,7 +3,7 @@ layout: post
 title: >-
   Having The Resources You To Need To Scale Your Startup API Team For That
   Enterprise Project
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

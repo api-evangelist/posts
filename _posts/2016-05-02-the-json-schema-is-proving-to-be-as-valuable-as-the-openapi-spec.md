@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The JSON Schema Is Proving To Be As Valuable As The OpenAPI Spec
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:

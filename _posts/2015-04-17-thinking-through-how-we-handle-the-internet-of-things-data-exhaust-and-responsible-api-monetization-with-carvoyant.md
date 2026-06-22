@@ -3,7 +3,7 @@ layout: post
 title: >-
   Thinking Through How We Handle The Internet of Things Data Exhaust, And
   Responsible API Monetization, With Carvoyant
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -28,7 +28,7 @@ When it comes to figuring out a healthy monetization strategy for the Carvoyant 
 
 If you identify a customer in need of vehicle servicing, and successfully refer them to a local service center, you can be paid money for making the connection, something that when done right could also be applied to the end-user in form of credits, discounts, and other loyalty opportunities. An affiliate approach to the monetization of data via the Carvoyant API makes for an easy sell, but one that can be applied to a myriad of business sectors ranging from automobile services to food, shopping, travel, and much, much more. While an affiliate base is being established, Carvoyant can also begin to look towards the future, and shifting behavior.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-highway-open.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-highway-open.png)
 
 **Monetization Beyond Affiliate**  
 While I'm fine with Carvoyant kicking off their monetization strategy with a calssic affiliate program, I feel pretty strongly there are many other opportunities for monetization, something that Bret agrees too. When you think about the central role cars play in our lives, the opportunities for inciting meaningful experiences, are endless. While the real money is probably around the mundane realities of the average car owner, the chances for serendipity, beyond these known areas is the exciting aspect. How do you not just help users find the best time to get their oil changed, but also take that side street, instead of freeway that might involve a chance experience that could range from dinner, to concert, or just find that right sunset location.
@@ -45,7 +45,7 @@ As our worlds continue to change, partially because of technology, but also beca
 
 **Establishing Common Blueprints** Beyond the individual conversion events for individual drives, or the wider opportunities for sharing economy companies, and commercial fleet operators, where are the opportunities around identifying common patterns of vehicle usage at scale? How does the vehicle usage of the LAPD differ from NYPD? What does the average residential vehicle owner in San Diego look like, versus the rental car tourist for San Diego? Using connected vehicle technology like Carvoyant opens up a huge opportunity for better understanding car culture at a macro level, beyond what the auto industry, or maybe Department of Transportation sees. How do we begin having honest conversations about our vehicle usage, and allow drivers to be educated about larger studies, allowing them as a company or individual to opt in, and share data, to participate in larger studies? We have to make sure and consider the bigger opportunities for understanding beyond any single endpoint on the connected car network, and look at entire cities, states, countries, and other meaningful demographics.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/carvoyant/Carvoyant-Affiliate.png)](https://www.carvoyant.com/affiliate-2/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/carvoyant/Carvoyant-Affiliate.png)](https://www.carvoyant.com/affiliate-2/)
 
 **Lots More To Discuss, Something That Needs Transparency  
 **This is just the beginning of these types of discussions. I have a handful of companies, like https://www.carvoyant.com, who have access to huge volumes of extremely valuable user-generated data, who are trying to figure out how to developer useful tech, make money, all while doing it in a healthy way that protects end-users privacy and security. I am not opposed to companies making money off their API platforms, and user generated data, I just insist that APIs always be used to make it more transparent, and technology such as oAuth employed to give end-users more control, and a vote in how their data is collected, stored, shared.

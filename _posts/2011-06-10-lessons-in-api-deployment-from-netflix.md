@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lessons in API Deployment From Netflix
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ It all started when Netflix set out to build an API, where the original charter 
 
 The concept of 1,000 flowers refers tkinlane-productions2.s3.amazonaws.comargeting with the API, where ideas and applications would flower from each developer.
 
-Fast forward a couple years, and the API has been successful, with growth looking something like this: ![](http://kinlane-productions.s3.amazonaws.com/netflix/growth-of-netflix-api.png) However the innovation did not come from where the original charter identified. The API delivered the greatest value from these groups (in order of importance):
+Fast forward a couple years, and the API has been successful, with growth looking something like this: ![](https://kinlane-images.s3.amazonaws.com/apievangelist/netflix/growth-of-netflix-api.png) However the innovation did not come from where the original charter identified. The API delivered the greatest value from these groups (in order of importance):
 
 *   Internal Engineering Teams
     *   Netflix Product Owners
@@ -31,7 +31,7 @@ kinlane-productions2.s3.amazonaws.com
 
 Even with over 18K public developers using the API, it accounts for less than .5% of the traffic to the API. With internal teams and external device manufacturers accounting for the largest consumption.
 
-![](http://kinlane-productions.s3.amazonaws.com/netflix/netflix-api-usage-by-audience.png) With these lessons in mind, the new charter for the Netflix API goes something like this:
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/netflix/netflix-api-usage-by-audience.png) With these lessons in mind, the new charter for the Netflix API goes something like this:
 
 > _Build and maintain an infinitely scalable data distribution pipeline for getting metadata and services from internal Netflix systems to streaming client apps on all platforms in the format and / or deliver method that is most optimal for each app and platform._
 

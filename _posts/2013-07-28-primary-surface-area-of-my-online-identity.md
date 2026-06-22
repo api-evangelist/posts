@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Primary Surface Area of My Online Identity
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/KinLane-04-2012-Headshot-3-250.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/KinLane-04-2012-Headshot-3-250.jpg
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ I am always working to define myself, in both the physical world and the virtual
 
 **Description:** API Evangelist, Hacker, Tech Gypsy, Beer Snob and Father
 
-**Photo:** [https://s3.amazonaws.com/kinlane-productions2/kin-lane/KinLane-04-2012-Headshot-3-250.jpg](https://s3.amazonaws.com/kinlane-productions2/kin-lane/KinLane-04-2012-Headshot-3-250.jpg) 
+**Photo:** [https://kinlane-images.s3.amazonaws.com/shared/KinLane-04-2012-Headshot-3-250.jpg](https://kinlane-images.s3.amazonaws.com/shared/KinLane-04-2012-Headshot-3-250.jpg) 
 
 **Email:** info@kinlane.com
 

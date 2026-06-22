@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google APIs Explorer
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -9,7 +9,7 @@ tags:
 ---
 The [Google APIs Explorer](http://code.google.com/apis/explorer/ "Google APIs Explorer") is is a tool that helps you explore various [Google APIs](http://code.google.com/more/ "Google APIs") in a web interface without writing any code.
 
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/google/Google-APIs-Explorer.png)Google APIs Explorer allows you to:
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/google/Google-APIs-Explorer.png)Google APIs Explorer allows you to:
 
 *   Browse quickly through available APIs and versions
 *   See methods available for each API and available parameters

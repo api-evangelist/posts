@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'My Wish Has Been Granted: Swagger Driven API Visualizations From Ardoq'
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/ardoq/ardoq_logo_small.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/ardoq/ardoq_logo_small.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ I'm a big fan of putting my ideas for new tools, services, and other stuff out o
 
 One idea that I put out there recently, that I really wanted to manifest, was a [visualization layer for APIs using Swagger](http://apievangelist.com/2014/10/30/swagger-visualization-layer-using-d3js/). My wish has been granted, and a startup called [Ardoq](http://ardoq.com/), has done just that, developed a [visualization layer using Swagger](http://ardoq.com/visualizing-swagger-api-documentation/). As they were taking their new product public they came across my story, and pinged me this morning. I’m going to follow-up, with a link to the story, and get a full tour of the product, talk with the team, and better understand what they are up to.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/ardoq/IBM_API_Swagger_To_Ardoq.gif)](http://ardoq.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/ardoq/IBM_API_Swagger_To_Ardoq.gif)](http://ardoq.com/)
 
 Ardoc is an important next step for machine readable API definition conversation, adding another [incentive for API providers to generate definitions for their APIs in API Blueprint, Swagger, and RAML](http://apievangelist.com/2014/06/05/what-are-the-incentives-for-creating-machine-readable-api-definitions/). I really see three main phases of the evolution so far in this conversation, 1) when Wordnik introduce Swagger and Swagger UI, 2) with introduction of Apiary.io moving the conversation further upstream to API design, and now 3) more meaningful visualizations built on top of APIs and microservices.
 

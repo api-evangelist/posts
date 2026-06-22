@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Is At Stake With API Definitions At The Moment
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cards-playing.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-cards-playing.png
 atomdate: 2017-01-25 17:00:00+00:00
 tags:
 - Definitions

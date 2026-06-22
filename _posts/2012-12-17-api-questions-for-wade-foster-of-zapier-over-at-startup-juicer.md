@@ -2,7 +2,7 @@
 layout: post
 title: API Questions for Wade Foster of Zapier over at Startup Juicer
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/zapier-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/zapier-logo.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ Some great [API questions for Wade Foster, Co-founder & CEO of Zapier](http://st
 
 **What your thoughts are about the changing landscape of API access with some of the free big networks such as Facebook, Twitter, Linkedin are becoming increasingly restrictive in the way they allow developers to access their feeds?**
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/startup-juicer/startup-juicer.png)](http://startupjuicer.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/startup-juicer/startup-juicer.png)](http://startupjuicer.com/)
 
 > _The only services I’m seeing become more restrictive in how they allow developers to use their APIs are free tools. Many those services are in the high growth stage and are starting to think about monetization and are experimenting with lots of different ways to make money. Unfortunately this means instability for developers. Zapier leans heavily B2B though. And B2B services are doubling down on their APIs. For them, more usage of the API leads to more usage of the core product and since their core product is a paid service that means more paying users and the paying users are upgrading to higher plans. That means a service like Zapier is highly valuable to both API providers and to consumers alike._
 

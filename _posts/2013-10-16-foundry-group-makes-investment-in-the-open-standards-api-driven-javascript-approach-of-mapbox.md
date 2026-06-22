@@ -4,7 +4,7 @@ title: >-
   Foundry Group Makes Investment In The Open Standards, API Driven, JavaScript
   Approach Of MapBox
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mapbox-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mapbox-logo.png
 author:
   name: kinlane
 tags:
@@ -26,7 +26,7 @@ In 2013, when you are looking to deploy a true platform, you have to shed your s
 *   **[mbtiles-spec](http://github.com/mapbox/mbtiles-spec)** - The mbtiles specification is an open approach to storing tiled map data in [SQLite](http://sqlite.org/) databases for immediate usage and for transfer, making invidual tiles portable and easily migrated between apps and systems.
 *   **[utfgrid-spec](http://github.com/mapbox/utfgrid-spec)** - UTFGrid is a format for interactive data that uses JSON and can be transferred tile-by-tile to fit maps of any scale, allowing scalable interaction of maps within applications.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/openstreetmaps/openstreetmap-logo.png)](https://www.mapbox.com)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/openstreetmaps/openstreetmap-logo.png)](https://www.mapbox.com)
 
 Open standards help provide grounding anchors for any platform, and MapBox is going all in, by not just employing these four open specifications--MapBox is also entirely powered by [OpenStreetMap](http://www.openstreetmap.org/#map=5/51.500/-0.100 "OpenStreetMap"), an active community of tens of thousands of dedicated open source mappers who keep MapBox maps up to date and accurate in a real-time, crowdsourced way.
 
@@ -38,7 +38,7 @@ MapBox provides static and REST API access to all aspects of the mapping platfor
 **Custom Layers**  
 The ability to customize every layer of a map, making it as meaningful as possible to each application is the future of mapping. MapBox allows for the development of custom maps, markers and related data, allowing developers to define mapping layers as containers of rich context that will benefit the end-user experience and establish millions of virtual map tiles and layers as rich stores of geo and context relevant information.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mapbox/mapbox-streets.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/mapbox/mapbox-streets.png)
 
 **Next Generation Architecture**  
 MapBox reflects the latest approaches to scalable, real-time platform development using Node.js, a JavaScript driven approach that delivers high input / output throughput which naturally scales on top of a redundant, distributed cloud infrastructure deployed using Amazon Web Services. The MapBox approach to architecture is fast becoming the standard for API driven, scalable platforms, something that developers and companies are recognizing provide the elastic base that web and mobile applications are demanding.
@@ -49,7 +49,7 @@ The use of JavaScript is present across all aspects of MapBox, from the server-s
 **Mobile Focused**  
 MapBox identifies that mobile is a major driver of the growing role maps are playing in our daily lives, with a GPS in all of our pockets, and providing realtime location data to applications. MapBox has invested in providing iOS SDKs for developing rich mapping solutions for the iPhone, including native mapping based upon Apple's MapKit with their MapBox MBXMapkit. Beyond mobile specific SDKs, the MapBox API provides many mobile focused resources including the ability to optimize resolution of mapping images and overall access via modern, mobile friendly web APIs.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mapbox/mapbox-mobile.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/mapbox/mapbox-mobile.png)
 
 **Simplicity Rules**  
 The simple, attractive approach to mapping that MapBox introduces goes being just the visual, with simplicity being a key aspect in the deployment and management of MapBox integrations. MapBox has expanded the opportunity within map layers for developers with many advanced features, but MapBox also provides a suite of ready-to-go HTML, CSS and JavaScript bundles for rapid copy / paste of maps by publishers and hackers who only know enough tech to be dangerous. MapBox also provides an add-on script for Google Docs Spreadsheets called Geo, that lets anyone geocode arbitrary addresses and export spreadsheets as GeoJSON that works fluently with MapBox maps.
@@ -60,7 +60,7 @@ The pricing of cloud platforms are always an immediate signal of the potential o
 **Serious Client Portfolio**  
 MapBox isn't just a favorite for the usual alpha tech developer community. The existing portfolio of MapBox users includes tech heavyweights like Foursquare, Evernote, Github and Uber including leading news and media groups like NPR, US Today, Financial Times and National Geographic. This is just a sampling of some of the best known brands who have embraced MapBox, and understand the importance of custom, open attractive maps that compliment their brand, while also providing the best user experience possible.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mapbox/mapbox-foursquare.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/mapbox/mapbox-foursquare.png)
 
 **A Platform Blueprint**  
 The MapBox approach to delivering their platform by building it on top of existing open standards, baking in APIs access to all resources, while embracing the latest architectural design patterns that focus on lightweight JavaScript and JSON, and having a mobile focus that operates in the cloud, is more than just a blueprint for a successful mapping platform. MapBox is a model that other cloud platforms can follow in their own operations, focusing on simplicity, customization and all the vital features that make a platform truly an open, vibrant ecosystem, while still employing a viable business model.

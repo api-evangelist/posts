@@ -3,7 +3,7 @@ layout: post
 title: Provide High Quality, Professional API Developers with Elance
 url: >-
   http://apievangelist.com/2011/02/28/provide-high-quality-professional-api-developers-with-elance/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ Every API owner wants to ensure she or he has high quality, professional develop
 
 Freelance developer communities like Elance have existing devkinlane-productions2.s3.amazonaws.comor:
 
-![](http://kinlane-productions.s3.amazonaws.com/elance/elance-logo.jpg) *   **Defining Skills -** Establishing common development skillsets that are needed for API integration.
+![](https://kinlane-images.s3.amazonaws.com/shared/elance/elance-logo.jpg) *   **Defining Skills -** Establishing common development skillsets that are needed for API integration.
 *   **Skills Acreditation -** Self assessment, skills testing, and acreditation around a specific API.
 *   **Rating System -** Establishing a rating system for developers to set levels of expected quality around API development.
 *   **Job History -** Show job history for API developer, establishing a professional history of API developoment.

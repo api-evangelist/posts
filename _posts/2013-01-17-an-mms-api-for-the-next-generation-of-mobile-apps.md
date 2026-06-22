@@ -2,7 +2,7 @@
 layout: post
 title: An MMS API For The Next Generation of Mobile Apps
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mogreet-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mogreet-logo.jpg
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ When you think of the popularity of Instagram, the rebirth of Flickr and the ubi
 
 I have a daughter, who sometimes responds to my SMS, email, chats and facebook messages. Her attention span doesn’t include always responding to her dad in "his" preferred formats. While she was visiting lately I sat on couch and watched her interact with friends and use her iPhone. I noticed she communicated mostly in photos.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mogreet/mogreet-api-mms.png)](https://developer.mogreet.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/mogreet/mogreet-api-mms.png)](https://developer.mogreet.com/)
 
 She communicates by taking photos and sending them, tweaking or distorting them and writing messages before sending, and spent a lot of time surfing and sharing silly photos from around the web--all in a social way via her smart phone.
 

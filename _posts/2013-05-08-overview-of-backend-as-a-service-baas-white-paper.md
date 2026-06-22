@@ -2,7 +2,7 @@
 layout: post
 title: Overview Of Backend as a Service (BaaS) White Paper
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-black-baas-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tag-cloud-black-baas-2.png
 author:
   name: kinlane
 tags:

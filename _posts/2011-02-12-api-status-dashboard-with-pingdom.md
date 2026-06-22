@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Status Dashboard with Pingdom
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ Recently they started [offering public report pages](http://royal.pingdom.com/20
 
 kinlane-productions2.s3.amazonaws.com These status pages can easily be converted to deliver an [API](http://www.apievangelist.com/) status page for your developer community. Pingdom provides HTTP and Custom HTTP monitoring that gives you enough tools to monitor a RESTful API and provide reporting.
 
-[![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/pingdom-api-dashboard.png)](http://www.pingdom.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/pingdom-api-dashboard.png)](http://www.pingdom.com/)
 
 Since the public reports are hosted at Pingdom, they will be available even when your own website is down.
 
@@ -26,7 +26,7 @@ kinlane-productions2.s3.amazonaws.com*   Daily and monthly overviews.
 *   Customizable history (how far back in time the reports go).
 *   Customizable design (colors, logo).
 
-[![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/pingdom-api-dashboard-reports.png)](http://www.pingdom.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/pingdom-api-dashboard-reports.png)](http://www.pingdom.com/)
 
 The charts are built using HTML, [CSS](http://www.kinlane.com/category/css/) and [JavaScript](http://www.kinlane.com/category/javascript/) (to avoid flash), so they work across browsers and on [IPhone](http://www.kinlane.com/category/mobile/iphone/), [IPad](http://www.kinlane.com/category/mobile/ipad/) and other mobile devices.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Future Of Public Private Sector Partnerships Being Negotiated At The API oAuth Scope Level
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/oauth-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/oauth-logo.png
 author:
   name: kinlane
 date: 2014-05-14 21:12:35+00:00

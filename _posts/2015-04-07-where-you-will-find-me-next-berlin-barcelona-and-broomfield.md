@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Where You Will Find Me Next: Berlin, Barcelona, and Broomfield'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-travel-calendar.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-travel-calendar.png
 author:
   name: kinlane
 tags:

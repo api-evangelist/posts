@@ -5,7 +5,7 @@ title: >-
   JCI &amp; Panoptix Internal Evangelism: Selling Not Just The API, But The
   Overall Approach Internally
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/panoptix/johnson-control-panoptix.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/panoptix/johnson-control-panoptix.png
 author:
   name: kinlane
 tags:

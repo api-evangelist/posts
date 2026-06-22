@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'API Discovery and Trust At #APIStrat in Amsterdam Next Week'
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/services/api-discovery.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/services/api-discovery.png
 author:
   name: kinlane
 tags:

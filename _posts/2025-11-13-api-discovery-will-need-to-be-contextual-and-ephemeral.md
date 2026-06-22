@@ -10,7 +10,7 @@ tags:
  - Catalogs
  - Workspaces
  - Sandboxes
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/leaflets-of-the-russian-revolution-cell-tower-close.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/leaflets-of-the-russian-revolution-cell-tower-close.jpeg
 ---
 I’ve learned over my career that there is no single source of truth for APIs. I’ve been looking for it for 15 years. It’s a mirage—“free beer tomorrow.” I’ve spent a long time studying why ProgrammableWeb and other API catalogs eventually shuttered. [Bruno Pedro is right](https://apichangelog.substack.com/p/the-openapi-registry) that the Postman Network is one of the more successful representations of API discovery, but even it leaves significant gaps. The workspace model for partner, private, and public views works well, but the uneven quality of APIs, the limitations of search, and other issues leave a lot on the table.
 
@@ -18,7 +18,7 @@ I believe a central API catalog—curated, semantically rich, and well-maintaine
 
 I’ve also come to believe that we need complementary, more ephemeral API discovery spaces—workspaces, repos, catalogs—where evidence of API activity from gateways, logs, pipelines, clients, SDKs, and other operational exhaust can accumulate. These catalogs will rarely be complete and will require constant enrichment. They will be messy, dynamic, and reflect APIs at different maturity levels. Our catalogs will need maturity ratings, federation, and flexibility. Microcks’ vision points in this direction.
 
-<a href="https://microcks.io/documentation/explanations/deployment-topologies/"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/microcks/microcks-organization.png" width="100%"></a>
+<a href="https://microcks.io/documentation/explanations/deployment-topologies/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/microcks/microcks-organization.png" width="100%"></a>
 
 [I like Microcks’ scopes—local, domain, use case, and company](https://microcks.io/documentation/explanations/deployment-topologies/)—but I think reality will be even messier, and that’s fine. Testing and mocking should sit at the frontline of these catalogs, anchoring how we evaluate API quality and how we assess the readiness of our discovery repositories, catalogs, and workspaces. There is no perfect state and no single source of truth. API state is contextual, relative, ephemeral, and always evolving. Our catalogs should be regularly torn down and rebuilt, with testing and mocking as the default mode, shifting API discovery “right” and ensuring value and maturity accrue over time.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Managing The Apps Across All My API Accounts
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-apps-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-apps-api.png
 atomdate: 2016-08-25 20:00:00+00:00
 tags: []
 ---

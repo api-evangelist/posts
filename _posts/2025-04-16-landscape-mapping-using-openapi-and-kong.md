@@ -8,7 +8,7 @@ tags:
   - OpenAPI
   - Gateways
   - Landscape
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-gatew-into-field.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-gatew-into-field.jpg
 ---
 I am working with someone to map their API landscape, run various Spectral rules against, and produce a report and insights into the best approach to light up rules in pipelines based upon teams and domains. The best place to map the API landscape is at the gateway layer, and in this case Kong is in use, providing the following approaches to getting the OpenAPIs you need into a single GitHub repository so that it can be used as part of a wider landscape map survey and assessment. 
 

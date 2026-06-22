@@ -2,7 +2,7 @@
 layout: post
 title: The Noun Project API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/the-noun-project.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/the-noun-project.png
 author:
   name: kinlane
 tags:
@@ -23,7 +23,7 @@ A Noun Project API would enable a next generation of mobile and web application 
 **Picture Is Worth a Thousand Words**  
 The Noun Project API would enable a wealth of text to image visualization possibilities, allowing developers to accompany and represent everyday text in much more impactful ways. Imagine if in addition to titles and summaries, you always had a Noun Project icon to reference when reading on the web and via your favorite applications. A couple examples might be:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/noun-project/the-noun-project-idea.png)](http://thenounproject.com/ "The Noun Project")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/noun-project/the-noun-project-idea.png)](http://thenounproject.com/ "The Noun Project")
 
 *   **Blog & News Listings** - Often times our blogging platforms have a way to upload an image to represent a post or story. The Noun Project could be used as visual cues for stories in certain categories or programmable determined by the text content of a story, dynamically pulled from the Noun Project API
 *   **Link Representations** - When faced with a link, all you have to reference is the title and possibly a description. The addition of a Noun Project icon, pulled from the API after indexing the content of links page would help users make a determination of a site’s content before clicking
@@ -45,7 +45,7 @@ The Noun Project API would allow innovative new ways to use Noun Project icons i
 
 That are just some of my initial thoughts around how a Noun Project API could be put to use in meaningful ways. Regarding what The Noun Project API would look like. I'd like to see some of the following endpoints:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/noun-project/the-noun-project-clicking-heels.jpg)](http://thenounproject.com/ "The Noun Project")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/noun-project/the-noun-project-clicking-heels.jpg)](http://thenounproject.com/ "The Noun Project")
 
 *   **Designers** - Endpoint for icon designers, with access to their profile, collections and icons 
 *   **Users** - Enpoint for Noun Project user accounts with access to account and billing settings as well as favorite, saved, purchased icons and collections

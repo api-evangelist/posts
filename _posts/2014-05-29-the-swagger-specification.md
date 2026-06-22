@@ -2,7 +2,7 @@
 layout: post
 title: The Swagger Specification
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/Swagger-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/Swagger-Logo.png
 author:
   name: kinlane
 tags:

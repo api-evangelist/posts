@@ -2,7 +2,7 @@
 layout: post
 title: The OpenAPI Specification Version 3.0 Highlights
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_spec_structural_improvements.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_spec_structural_improvements.png
 atomdate: 2017-01-25T20:00:00.000Z
 tags:
   - OpenAPI

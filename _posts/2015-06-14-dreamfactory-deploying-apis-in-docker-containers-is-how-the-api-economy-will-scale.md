@@ -4,7 +4,7 @@ title: >-
   DreamFactory Deploying APIs In Docker Containers Is How The API Economy Will
   Scale
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/dreamfactory/dreamfactory-logo-vertical.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/dreamfactory/dreamfactory-logo-vertical.png
 author:
   name: kinlane
 tags:

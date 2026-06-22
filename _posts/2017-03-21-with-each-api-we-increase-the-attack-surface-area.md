@@ -1,7 +1,7 @@
 ---
 layout: post
 title: With Each API We Increase The Attack Surface Area
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-target.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-target.png
 atomdate: 2017-03-21 18:00:00+00:00
 tags:
 - API Evangelist

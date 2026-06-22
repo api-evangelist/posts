@@ -4,7 +4,7 @@ layout: post
 title: Your Diverse API Toolbox
 date: 2026-06-12
 author: Kin Lane
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-old-tools.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-old-tools.jpeg
 tags:
   - Toolbox
   - REST

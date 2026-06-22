@@ -2,7 +2,7 @@
 layout: post
 title: Generate API Server, Docs and Client Code Using Swagger
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Swagger-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Swagger-Logo.png
 author:
   name: kinlane
 tags:
@@ -30,7 +30,7 @@ To demonstrate, Tony walked me through Wordnik’s approach to designing, develo
 
 The process took 2.5 hours in total, from API to interface--a technique they call interface-driven development, which focuses on modeling the perfect interface for the problem they are trying to solve using an API.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/wordnik/Swagger-Logo.png)](http://swagger.wordnik.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/wordnik/Swagger-Logo.png)](http://swagger.wordnik.com/)
 
 To solve this particular problem, they needed a scala server for the back-end. they could have just as easily generated a Node.JS server, a Rails Sinatra server or any other based upon simple [mustache templates](http://mustache.github.com/ "mustache templates"). Additionally they could generate JavaScript, Scala, PHP or Python clients, but for this project they only needed Objective-C.
 

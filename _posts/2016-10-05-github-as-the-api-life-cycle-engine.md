@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github As The API Life Cycle Engine
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/undefined/bw-api-engine.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/undefined/bw-api-engine.png
 atomdate: 2016-10-05 18:00:00+00:00
 tags:
 - Github

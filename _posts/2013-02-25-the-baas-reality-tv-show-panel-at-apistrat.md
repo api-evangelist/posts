@@ -2,7 +2,7 @@
 layout: post
 title: The BaaS Reality TV Show Panel at APIStrat
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-baas-panel.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apistrat-baas-panel.jpg
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Deployment From MySQL, JSON, Github and Google Spreadsheets
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-toolbox.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/bw-toolbox.jpg
 author:
   name: kinlane
 tags:

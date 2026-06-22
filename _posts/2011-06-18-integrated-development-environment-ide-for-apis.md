@@ -3,7 +3,7 @@ layout: post
 title: Integrated Development Environment (IDE) for APIs
 url: >-
   http://apievangelist.com/2011/06/18/integrated-development-environment-ide-for-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
   - IDE
   - APIs
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Akshell-Screenshot.png)](http://www.akshell.com/ide/ "Akshell")I recently moved my IDE off my desktop and onto the web. I'm test driving two separate web-based integrated development environments (IDE):
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Akshell-Screenshot.png)](http://www.akshell.com/ide/ "Akshell")I recently moved my IDE off my desktop and onto the web. I'm test driving two separate web-based integrated development environments (IDE):
 
 *   **[Akshell](http://www.akshell.com/ide/ "Akshell")** - I like environment, its smooth and has Github integration. But its primarily a JavaScript IDE. I met the developers and like where they are going with it.
 *   **[ShiftEdit](http://shiftedit.net/ "ShiftEdit")** - This is the one I'm using the most, because I work 70% of the time in PHP. I like the FTP access, but only has SVN for its repositoring integration.

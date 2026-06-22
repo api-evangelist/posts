@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding Journeys To Each Of My API Research Areas
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-plans-journey.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-plans-journey.png
 author:
   name: kinlane
 tags:

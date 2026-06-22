@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'Using Postman Visualizer as a Data Editor'
-image: https://kinlane-productions2.s3.amazonaws.com/restaurant-json-editor.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/restaurant-json-editor.png
 tags:
   - Postman
   - Data
@@ -13,11 +13,11 @@ tags:
 
 <p>I have a number of collections I use for data storage, but I figured I’d build my proof of concept data editor using Postman visualizer on <a href="https://www.postman.com/postman/workspace/restaurant/overview">my restaurant demo workspace</a>. This is a workspace I use multiple times a week during meetings, demos, talks, and demonstrating how you do APIs in an API-first way, and I’d like to have a simple editor for editing the underlying data, but also available for demonstrating the power of Postman visualizer. My restaurant workspace began with an OpenAPI, but then I quickly generated a Postman collection, added examples, and published as a mock API—pretty standard API-first Postman platform stuff. I can plug the URL of my mock server into my collection and see the results each time I hit send for any of the paths I have defined. Each request in my collection has one example which is used for the API documentation and the mock server, and I am looking to visualize and edit the first request, which happens to be a list of my restaurants.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/restaurant-json-view.png" width="100%" style="padding: 10px"></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/restaurant-json-view.png" width="100%" style="padding: 10px"></p>
 
 <p>Then using visualizer for the request I pull the JSON and render as a table, showing two the of properties for cuisine and menu, potentially allowing me to actually edit each property in my list of restaurants. Rendering the returning JSON as HTML, and giving me a little UI editor for my example restaurant data.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/restaurant-json-editor.png" width="100%" style="padding: 10px"></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/restaurant-json-editor.png" width="100%" style="padding: 10px"></p>
 
 <p>Now that I have my restaurant listing editable in text fields I add a save button. When the visualizer loads it stores the JSON in a central textarea, then each time you edit one of the fields it will update the centralized JSON, and when I click the save button it grabs this JSON, pulls the collection from the Postman API, updates the example body of the collection with my changed JSON, and PUTs it back via the Postman API. Providing a pretty hacky, but interesting script for rendering, updating, and then saving data via a collection.</p>
 

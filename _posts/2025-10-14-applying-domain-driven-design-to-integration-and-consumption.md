@@ -10,7 +10,7 @@ tags:
  - Boundaries
  - Integration
  - Consumption
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-nyc-public-library.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-nyc-public-library.jpeg
 ---
 At Naftiko, we are reshaping integrations as business capabilities through the alignment of the technical details with business strategy using domain-driven design. Domain-driven design is a fundamental concept from the world of software development and heavily used in shaping how we produce APIs, but it is something that when you mention out of an API producer context, making things more about API consumers, people seem to get stuck and confused. We have had conversations with folks who possess a strong grasp of domain-driven design, one could say domain experts, but fail to see and understand how and why the methodology applies to other side of the integration conversations with the consumers of 3rd-party APIs.
 

@@ -2,7 +2,7 @@
 layout: post
 title: How Are We Going to Track Private APIs?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fiber-cable-map.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/fiber-cable-map.jpeg
 author:
   name: kinlane
 tags:

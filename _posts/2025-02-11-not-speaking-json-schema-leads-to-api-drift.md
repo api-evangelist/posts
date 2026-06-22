@@ -9,7 +9,7 @@ tags:
   - Pipelines
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-japanese-little-boats.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-japanese-little-boats.jpeg
 ---
 There are many aspects of API operations that API product managers probably shouldn’t be poking their head into. However, there are many aspects of API operations that would lead to better business outcomes if API product managers were brave, curious, and fearless in approaching them. One of these areas is learning the fundamentals of [JSON Schema](https://bit.ly/409FGR1). It is daunting, we get it. However you can edit JSON Schema using YAML, which removes one layer of complexity and potential confusion, and we’ll stop short of you having to use JSON Schema as part of the more technical aspects of API operations. But, we strongly believe that when API product managers learn to speak even the fundamentals of JSON Schema, it can lead to more participation and involvement throughout the delivery of APIs.
 

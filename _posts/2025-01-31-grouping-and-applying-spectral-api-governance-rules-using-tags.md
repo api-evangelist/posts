@@ -7,7 +7,7 @@ tags:
   - Rules
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-border-watching-cars.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/francis-williams-border-watching-cars.jpg
 ---
 One of the most important properties that Spectral does not possess is tagging. OpenAPI tags applied at the operational level allow for a simple yet powerful way to organize and group your API resources, and when you extend the Spectral specification adding in tags, you find you will discover a new found super power in grouping and executing rules. This is an experimental aspects of using clusters and groups of API governance rules to run against OpenAPI, JSON Schema, APIs.json, and other artifacts. When you begin to cluster and group Spectral rules as part of design-time, build-time, or real-time always on API governance, some new features begin to emerge, going well beyond just rulesets.
 

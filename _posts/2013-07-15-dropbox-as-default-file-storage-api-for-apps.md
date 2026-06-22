@@ -2,7 +2,7 @@
 layout: post
 title: Dropbox As Default File Storage API For Apps
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dbx-press-datastores.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dbx-press-datastores.png
 author:
   name: kinlane
 tags:

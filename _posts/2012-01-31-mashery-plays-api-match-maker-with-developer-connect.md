@@ -2,7 +2,7 @@
 layout: post
 title: Mashery Plays API Match Maker with Developer Connect
 url: http://apievangelist.com/2012/01/31/mashery-plays-api-match-maker-with-developer-connect/
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Mashery-Developer-Connect.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Mashery-Developer-Connect.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
 - Mobile
 - Versioning
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-service-providers/mashery/Mashery-Developer-Connect.png)](http://developer.mashery.com/devconnect "Developer Connect")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/mashery/Mashery-Developer-Connect.png)](http://developer.mashery.com/devconnect "Developer Connect")
 
 One of the biggest areas around APIs I think needs attention in 2012 is more tools that focus on developers. There are plenty API services and tools focusing on API owners, but we need to start making sure developers are taken care of.
 

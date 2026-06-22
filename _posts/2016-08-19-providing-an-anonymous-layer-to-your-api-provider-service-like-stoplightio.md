@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Providing An Anonymous Layer To Your API Provider Service Like Stoplight.io
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/StopLight-Anonymous-2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/StopLight-Anonymous-2.png
 atomdate: 2016-08-19 20:00:00+00:00
 tags:
 - API Evangelist

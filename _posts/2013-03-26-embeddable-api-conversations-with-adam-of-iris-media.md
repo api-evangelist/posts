@@ -2,7 +2,7 @@
 layout: post
 title: Embeddable API Conversations with Adam of Iris Media
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/iris-media-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/iris-media-logo.jpeg
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ I spent some time drinking IPAs and talking education technology with Audrey ([@
 
 During our discussion, Adam was describing how he wanted to make Iris Media resources available for people to use on any platform, by providing valuable embeddable tools and resources for organizations and professionals to use on their own sites and portals.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/iris-media/iris-media-video.png)](https://www.irised.com/ "Iris Educational Media")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/iris-media/iris-media-video.png)](https://www.irised.com/ "Iris Educational Media")
 
 As Adam was talking, of course I’m thinking API. An API would not just a way to drive their own line of embeddable tools, but would also allow for other 3rd party developers to build specialized tools and widgets for other platforms that Iris Media might not have awareness, time or resources to focus on. Wanting to be available on numerous platforms is easy, but actually delivering on them can be costly and time consuming--APIs are a way to share this load with a 3rd party community.
 

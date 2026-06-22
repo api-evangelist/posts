@@ -4,7 +4,7 @@ title: >-
   Mobile and Web Advertising Will Heat Up in 2013 With Heavyweight Advertising
   APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/amazon-mobile-app-distribution-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/amazon-mobile-app-distribution-logo.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ tags:
 ---
 It was interesting to see Amazon step up in the advertising game with the beta release of the [Amazon Mobile Ads API](https://developer.amazon.com/sdk/mobileads.html "Amazon Mobile Ads API") this week. I wouldn’t want Amazon getting into my space, when it comes to any API resource, especially advertising. On the other hand, one can say that the space needs disruption with the dominance of Google with their multiple offerings:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/amazon/amazon-mobile-app-distribution-dollar-sign-cloud.png)](https://developer.amazon.com/sdk/mobileads.html "Amazon Mobile Ads API")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/amazon-mobile-app-distribution-dollar-sign-cloud.png)](https://developer.amazon.com/sdk/mobileads.html "Amazon Mobile Ads API")
 
 *   [Google Mobile](http://www.google.com/ads/mobile/)
 *   [Google Adwords](https://developers.google.com/advertise/adwords)
@@ -29,7 +29,7 @@ I think we can expect some intense competition when it comes to advertising and 
 
 Another layer that will add to the competititiveness with advertising APIs is the fact that all three social media and networking giants have their own advertising APIs now as well:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/amazon/amazon-mobile-app-distribution-people-devices.png)](https://developer.amazon.com/sdk/mobileads.html "Amazon Mobile Ads API")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/amazon-mobile-app-distribution-people-devices.png)](https://developer.amazon.com/sdk/mobileads.html "Amazon Mobile Ads API")
 
 *   [Facebook](http://developers.facebook.com/docs/reference/ads-api/)
 *   [Twitter](https://dev.twitter.com/programs/ads-api)

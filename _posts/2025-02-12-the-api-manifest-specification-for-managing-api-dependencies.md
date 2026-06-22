@@ -7,7 +7,7 @@ tags:
   - Standards
   - Manifests
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-freeway-interchange-fence.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-freeway-interchange-fence.jpeg
 ---
 We regularly try to do the work to stay in tune with the good work coming out of the Internet Engineering Task Force (IETF). As part of this work we learned about the [API manifest standards proposal by Darrel Miller](https://darrelmiller.github.io/api-manifest/draft-miller-api-manifest.html). API manifest aims to be a declarative machine-readable format for describing the dependencies that our applications and integrations have on HTTP APIs. The API manifest intends to address a number of scenarios enterprises face when maintaining applications across many different APIs that power the functionality we depend on in applications.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Will Be At API Days in Paris This Week, Will You Be There?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-days-fonz.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-days-fonz.png
 author:
   name: kinlane
 tags:

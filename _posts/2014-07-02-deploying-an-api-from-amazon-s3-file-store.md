@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deploying An API From Amazon S3 File Store
-image: https://s3.amazonaws.com/kinlane-productions2/amazon/Amazon_S3_Site.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/Amazon_S3_Site.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ I'm spending a lot of time updating my [API deployment research](http://deployme
 
 When it comes to the realities of deploying an API, your data or content sources is likely to come from a myriad of file stores, databases, and other systems, and I’m looking to explore as many of the as I possibly can. Todays exploration is focused on deploying an API, using Amazon S3 as a file store. I use Amazon S3 for all my heavy object storage which includes images, PDFs, XML, JSON and CSV data stores—it makes sense that someone companies would want to deploy APIs using their Amazon S3 stores.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/api-spark/apispark-s3.png)](http://bit.ly/1sgwGpq)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/api-spark/apispark-s3.png)](http://bit.ly/1sgwGpq)
 
 I’m using APISpark as my API deployment platform, which allows me to first establish a datastore, which is mapped to a specific bucket within my Amazon S3. What I put into my buckets, and folders is up to me. I might use it to quickly provide access to my images, a folder of XML files, PDFs, or other resource. Once I have my datastore defined, I can deploy a simple web API using APISpark, which gives me all the expected features of an API—URL API endpoints, documentation, code samples, basic authentication (username / password), analytics, and much more.
 

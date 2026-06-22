@@ -2,7 +2,7 @@
 layout: post
 title: Unlocking Government Data with Socrata
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Socrata-Data-Overview.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Socrata-Data-Overview.png
 author:
   name: kinlane
 tags:
@@ -28,7 +28,7 @@ They seems to get the political, technical and economic challenges faced when de
 
 The problem with trying to get data from government agencies, is often that you end up with PDF and MIcrosoft Excel reports, and not the quality data feeds and APIs developers need. In my post, “[Every City, County and State Should Have an API](http://apievangelist.com/2011/09/06/every-city,-county-and-state-should-have-an-api/)”, I identify that government workers are only working with the tools we give them. They need better tools.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/socrata/Socrata-Data-Overview.png)](http://www.socrata.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/socrata/Socrata-Data-Overview.png)](http://www.socrata.com/)
 
 Socrata looks like just the tool for the job. Socrata appears to have all the key elements that government agencies will need to manage, publish and share important data with other agencies and the public using “Social Data Discovery”. I’m thoroughly impressed with what they’ve delivered for our government in the form of [Data.gov](http://explore.data.gov/ "Data.gov"). They also provide solutions for [MediCare](http://www.socrata.com/customer-spotlight/medicare/ "Medicare"), [State of Oregon](http://www.socrata.com/customer-spotlight/state-of-oregon/ "State of Oregon"), [State of Oklahoma](http://www.socrata.com/customer-spotlight/state-of-oklahoma/ "State of Oklahoma"), [City of Seattle](http://www.socrata.com/customer-spotlight/city-of-seattle/ "City of Seattle") and [City of Chicago](http://www.socrata.com/customer-spotlight/city-of-chicago/ "City of Chicago"), among others.
 

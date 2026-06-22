@@ -8,7 +8,7 @@ tags:
   - Security
   - Authentication
   - OWASP
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-surveillance-cameras_36569244062_o.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/citizenship-surveillance-cameras_36569244062_o.jpg
 ---
 Governance spans multiple dimensions of our API operations, but few areas get people thinking and talking about API governance than talking about the security of your APIs. I am working with customers to think through the details of the [OWASP Top 10 API Security Risks](https://owasp.org/API-Security/editions/2023/en/0x11-t10/), and up at the top of the list is [broken authentication](https://owasp.org/API-Security/editions/2023/en/0xa2-broken-authentication/), which forgetting to actually configure and enforce API authentication across APIs being a pretty common slice of this API security. API security and API governance overlap in many ways that can be confusing for teams producing APIs, so I wanted to take a look at governing the security of APIs using keys, which speaks to the OWASP broken authentication policy.
 

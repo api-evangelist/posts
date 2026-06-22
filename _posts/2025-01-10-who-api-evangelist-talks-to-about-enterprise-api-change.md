@@ -10,7 +10,7 @@ tags:
   - CTO
   - Products
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-japanese-carrying-over-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-japanese-carrying-over-bridge.jpeg
 ---
 There are many people involved with API change within the enterprise, but there is a classic persona of who knocks on the API Evangelist door or is recommended by someone who is familiar with what API Evangelist does and brings them to our door to have a conversation about property governing their enterprise API operations.
 

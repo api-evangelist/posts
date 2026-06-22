@@ -2,7 +2,7 @@
 layout: post
 title: Publish Your API Into The API Commons From APISpark
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-service-providers/api-spark/apispark-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/api-spark/apispark-logo.png
 author:
   name: kinlane
 tags:
@@ -14,6 +14,6 @@ Using APISpark you can deploy APIs from existing Google Spreadsheets, machine re
 
 For me, the best part is that once you have your API deployed with APISpark, it automatically generates an [API Commons](http://apicommons.org) manifest, and serves up the URL you need to publish into the commons.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/api-spark/apispark-api-commons.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/api-spark/apispark-api-commons.png)
 
 It means a lot that APISpark understands the importance of publishing your APis to the commons, allow users to publicly showcase their API designs, acknowledging that API definitions should be interoperable, and licensed for re-use. Thanks for baking this feature directly into your API platform, and ensuring all your users play healthy role in the API economy.

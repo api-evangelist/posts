@@ -2,7 +2,7 @@
 layout: post
 title: Internal API Evangelism - Demo Fridays
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mimeo-logo-400.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mimeo-logo-400.png
 author:
   name: kinlane
 tags:

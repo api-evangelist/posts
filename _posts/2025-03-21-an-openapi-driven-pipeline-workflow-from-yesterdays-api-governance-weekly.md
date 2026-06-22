@@ -9,7 +9,7 @@ tags:
   - OpenAPI
   - Terraform
   - SDKs
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-gears-pipes-plumbing.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/green-circuit-gears-pipes-plumbing.jpg
 ---
 Continuing to parse the great discussion from the weekly API Evangelist API Governance conversation yesterday, and building on the presentation from Yarra Letz of Tyk on where to store our OpenAPIs. Yarra provided a nice sequence or flow diagram that gets real world pipeline workflows that I want to shine a light on to drive discussion around how we govern our APIs. Her process offers a rich look at what your pipeline can be doing when it comes to a code-first or design-first approach to not just governance, but also generation, publishing, and distribution of your APIs.
 

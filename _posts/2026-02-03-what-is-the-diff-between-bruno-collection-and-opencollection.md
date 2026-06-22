@@ -8,7 +8,7 @@ tags:
   - OpenCollection
   - Clients
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-soliders-fighting-statue.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-soliders-fighting-statue.jpg
 ---
 [Bruno](https://bit.ly/4fpe6FO) has been slow rolling their release of their new [OpenCollection format](https://bit.ly/4tgOeDk) to augment the Bruno Collection, and continue grabbing mindshare from Postman Collections, while simultaneously embracing the OpenAPI specification. I needed to undersstand the diff between the two specs to support work at Naftiko, but also as par tof my continued reporting from the frontlines of the specification wars.
 

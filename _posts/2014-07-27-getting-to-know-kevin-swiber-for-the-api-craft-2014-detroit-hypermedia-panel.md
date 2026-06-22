@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Getting To Know Kevin Swiber For The API Craft 2014 Detroit Hypermedia Panel '
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kevin-swiber.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kevin-swiber.jpg
 author:
   name: kinlane
 tags:

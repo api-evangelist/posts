@@ -2,7 +2,7 @@
 layout: post
 title: Amazon Alexa As An Example When It Comes To API Communications
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/amazon_alexa_echo_dot_tap_4011.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/amazon_alexa_echo_dot_tap_4011.jpg
 atomdate: 2016-10-04T18:00:00.000Z
 tags:
   - Communication

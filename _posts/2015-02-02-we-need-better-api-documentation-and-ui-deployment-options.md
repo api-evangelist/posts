@@ -2,7 +2,7 @@
 layout: post
 title: We Need Better API Documentation And UI Deployment Options
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swagger-interactive-api-docs.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/swagger-interactive-api-docs.png
 author:
   name: kinlane
 tags:

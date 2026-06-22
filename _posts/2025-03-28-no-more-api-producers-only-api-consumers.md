@@ -8,7 +8,7 @@ tags:
   - Artificial Intelligence
   - MCP
   - Extraction
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-destruction-seattle-viaduct.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-destruction-seattle-viaduct.jpg
 ---
 Like most APIs, Twitter, Facebook, Google Maps, and other APIs begin as pro-consumer and community, until they reach a critical mass, then the APIs themselves became the consumer, extracting as much value as possible from users and the once championed developer communities that rose around these APIs. Then I witnessed this become the Silicon Valley playbook of choice, framing APIs and API tooling in a bottom-up product-led motion, getting developers using and building for free, then at the right moment, you flick the switch and the extraction machine is in full force. We are watching the next generation of this motion emerge with Model Context Protocol, or simply MCP, and with it the demise of the API producer—-there is only the API consumer now. 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Do I Provide A List Of Certified Applications To My API Ecosystem Partners
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-trusted-apps-and-users.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-trusted-apps-and-users.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Migrating My Own API Infrastructure Conversations To My Personal Blog And Keep API Evangelist About Mainstream Stories
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-moving-truck.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-moving-truck.png
 author:
   name: kinlane
 tags:

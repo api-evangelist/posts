@@ -2,7 +2,7 @@
 layout: post
 title: Business of APIs 2nd Edition
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Business-of-APIs-Front-Cover-Cropped.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Business-of-APIs-Front-Cover-Cropped.png
 author:
   name: kinlane
 tags:

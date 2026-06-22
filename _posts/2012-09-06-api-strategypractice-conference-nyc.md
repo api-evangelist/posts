@@ -2,7 +2,7 @@
 layout: post
 title: API Strategy &amp; Practice Conference NYC
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Strategy-Home-Page.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/API-Strategy-Home-Page.png
 author:
   name: kinlane
 tags:

@@ -8,7 +8,7 @@ tags:
   - Rules
   - Provenance
   - Automation
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-Dk0ewNEeqbGlP.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-Dk0ewNEeqbGlP.jpg
 ---
 I find myself in a lot of “rules don’t matter” conversations with folks, telling me that Spectral rules alone won’t govern enterprise API operations. It is a perspective that also plagues OpenAPI and other artifacts, where people think having OpenAPI won’t fix API operations either. This is the same mindset that has allowed artificial intelligence to spread—-people who see outputs as the thing, content, JSON, YAML, Markdown, and code as the thing, and refuse to see any of the human things that go into the thing. People are right when they say 250 Spectral rules aren’t going to fix API operations, but you know what does?
 

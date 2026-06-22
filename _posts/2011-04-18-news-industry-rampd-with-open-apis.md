@@ -1,7 +1,7 @@
 ---
 layout: post
 title: News Industry R&amp;amp;D with Open APIs
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -22,7 +22,7 @@ After studying the approaches of the four biggest players with open APIs are [NP
 *   Open APIs create an ecosystem effect
 *   Open APIs cakinlane-productions2.s3.amazonaws.comthe news organization
 
-![](http://kinlane-productions.s3.amazonaws.com/journalism/the_guardian.jpg) Lewis and Aitamurto conclude that Open APIs are not the solution to all of the news industries problems, but they are significant step toward a form of online publishing that is in sync with the web, and also allow publishers to take advantage of thewisdomof the (developer) crowd for research & development.
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/journalism/the_guardian.jpg) Lewis and Aitamurto conclude that Open APIs are not the solution to all of the news industries problems, but they are significant step toward a form of online publishing that is in sync with the web, and also allow publishers to take advantage of thewisdomof the (developer) crowd for research & development.
 
 These new approaches offer a first glimpse of what [open innovation](http://en.wikipedia.org/wiki/Open_innovation "Open Innovation") using APIs could bring to the news business when it comes to revenue and partnerships.
 

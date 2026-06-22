@@ -2,7 +2,7 @@
 layout: post
 title: New Features From BaaS Provider AnyPresence
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/anypresense-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/anypresense-logo.png
 author:
   name: kinlane
 tags:

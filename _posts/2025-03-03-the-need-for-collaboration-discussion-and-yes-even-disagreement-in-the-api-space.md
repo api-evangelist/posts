@@ -9,7 +9,7 @@ tags:
   - Policies
   - Standards
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-japanese-carrying-over-bridge.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-japanese-carrying-over-bridge.jpeg
 ---
 One of the things that has made the API space so rich over the last fifteen years has been the discussion, collaboration, and even disagreement that has occurred between people. There used to be more meetups and conferences dedicated to APIs, and most of these were in person. Things shifted since Covid, but this engagement amongst veterans and new entrants into the world of APIs has slowly diminished over the years, but I am hopeful it is making a comeback. API Days and other conferences are keeping up in-person, but shifts in social media and the hype around AI has thrown a wet blanket on the online portion of what is needed.
 

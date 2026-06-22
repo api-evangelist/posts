@@ -2,7 +2,7 @@
 layout: post
 title: Why We Write API Documentation
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/SDKBridge-logo.gif
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/SDKBridge-logo.gif
 tags:
   - Documentation
 ---

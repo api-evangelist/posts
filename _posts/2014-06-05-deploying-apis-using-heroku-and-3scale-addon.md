@@ -2,7 +2,7 @@
 layout: post
 title: Deploying APIs Using Heroku And 3Scale Add-On
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/heroku/heroku-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/heroku/heroku-logo.png
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ Using 3Scale I can control who has access to my screen capture API, by setting r
 **API Traffic Report and Analytics**  
 With all of my screen capture API traffic managed with 3Scale, I can now see traffic analytics and reports, broken down any account, application or for specific service. Any developer who signs up for my screen capture API, will get access to the reports for their account usage as well.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3Scale/3scale-heroku-add-on.png)](https://addons.heroku.com/threescale)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/3Scale/3scale-heroku-add-on.png)](https://addons.heroku.com/threescale)
 
 **Ready-To-Go Developer Portal**  
 One of the benefits of using 3Scale for deploying your API on Heroku, is that you get a developer portal to go with your APIs. This is where developers will to learn about your API, register for API keys, and view reports on their usage.

@@ -2,7 +2,7 @@
 layout: post
 title: Google Launches Real Time API and JavaScript Library
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-real-time-api-playground.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google-real-time-api-playground.png
 author:
   name: kinlane
 tags:

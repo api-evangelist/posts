@@ -2,7 +2,7 @@
 layout: post
 title: API Management Platform for Universities
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/UW-Web-Service-Registry.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/UW-Web-Service-Registry.png
 author:
   name: kinlane
 tags:
@@ -30,7 +30,7 @@ Quickly invdividual schools are going to face the same [problems Google has face
 *   **Explorer** - Provide an API explorer so developers and even non-programmers can make calls against any API without writing code 
 *   **Billing** - Establish some sort of billing layer, if only for making high volume users pay for access and pay for infrastructure--but also possibly opening up new revenue streams for universities
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/universities/univeristy-info-systems.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/universities/univeristy-info-systems.jpg)
 
 In addition to these areas, Universities will have to establish a common set of API building blocks that they will use across all departments, creating a consistent API area for developers to use while learning about and integrating with University Web Services.
 

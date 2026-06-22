@@ -2,7 +2,7 @@
 layout: post
 title: City of Philadelphia Shares Its Open Data Roadmap
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tecnically-philly.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tecnically-philly.png
 author:
   name: kinlane
 date: 2013-03-26T23:10:43.000Z
@@ -17,7 +17,7 @@ The [City of Philadelphia is sharing its roadmap of data sets](http://technical.
 
 According to the open data roadmap, Philadelphia is releasing data on street closures, energy consumption, evacuation routes, campaign finance, bike racks, budgets, expenditures and city employee salaries to name just a few.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/city/philadelphia/city-of-philly-open-data-roadmap.png)](http://technical.ly/philly/ "tecnically philly")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/city/philadelphia/city-of-philly-open-data-roadmap.png)](http://technical.ly/philly/ "tecnically philly")
 
 This type of transparency doesn’t just build trust with citizens and developers, it provides an incentive for the city government to deliver high quality public data, in a meaningful and timely manner. There is still a lot of work to be done once this data is available, in order to develop quality analysis, visualizations, other APIs and tools that can be used in mobile and web applications. But what Philly is doing is a great start.
 

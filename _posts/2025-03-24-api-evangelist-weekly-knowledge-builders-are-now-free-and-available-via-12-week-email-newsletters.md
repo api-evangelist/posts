@@ -13,7 +13,7 @@ tags:
   - Operations
   - Chagnes
   - Evangelism
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-satellite-dishes-pointing-up.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-satellite-dishes-pointing-up.jpg
 ---
 I have developed what I consider to be [a base of knowledge organized into nine separate categories that I am pretty confident are what can improve enterprise API operations in useful ways](https://apievangelist.com/#knowledge). Taking what I learned working at Postman and Bloomberg, as well as the last fifteen years as API Evangelist, I have created a [base of knowledge](https://bases.apievangelist.com/) that I want to share with people at all levels of the enterprise doing APIs. I launched these knowledge bases beginning in February and was charging a fee for the hourly classes I have been calling Knowledge Builders, and then consulting with companies to make the knowledge base available internally. Based upon feedback, I will be now breaking the knowledge bases into a twelve week newsletter that is supported by weekly office hour discussions to further support across these nine areas.
 

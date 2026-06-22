@@ -3,7 +3,7 @@ layout: post
 title: "Artificial Intelligence Choosing My Tools and Services"
 date: 2026-05-04
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-sin-will-find-you.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-sin-will-find-you.jpeg
 category: "Blog"
 excerpt: "While building a signup form for my new CentralPark.Guide website I was using Claude to help me deploy a Cloudflare worker to handle the submission of form and the emails that get sent to me and to end-users. As part of the setup Claude asked me to clarify one thing that I thought was worth tuning into."
 ---

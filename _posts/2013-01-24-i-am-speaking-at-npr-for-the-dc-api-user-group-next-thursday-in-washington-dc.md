@@ -2,7 +2,7 @@
 layout: post
 title: I Am Speaking at NPR for the DC API User Group Next Thursday in Washington DC
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/washington-dc-api-users-group.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/blog/washington-dc-api-users-group.jpeg
 author:
   name: kinlane
 tags:

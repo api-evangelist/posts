@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exposing Dictionaries From My API Collections
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dictionary.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-dictionary.png
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ I generated Swagger specs for the 10 following APIs:
 
 Then using these Swagger definitions, I outputted any parameters that are used for endpoints, as well as the fields for all of the APIs underlying data model. I grouped all of these fields together and created a sort of dictionary for my utility stack API collection. By doing this I’m learning a lot about the vocabulary that each of these API providers are using, as well as beginning to see patterns across similar APIs, like text extraction APIs, and URL shortener APIs.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/utility-stack-dictionary.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/utility-stack-dictionary.png)
 
 In a perfect world, APIs would use commonly established vocabularies like [schema.org](http://schema.org), but in the imperfect API world we are given, I’m enjoying taking a look at the sort of API slang that has emerged across the various types of popular APIs we are adopting. API definition formats like Swagger give me a great way to define the surface are of APIs, and these exercises allow me to push forwards tools and approaches to understanding this new landscape.
 

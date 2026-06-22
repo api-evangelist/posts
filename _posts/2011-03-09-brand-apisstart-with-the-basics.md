@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Brand APIs - Start with the Basics
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ When companies consider an API for their brand, they should start with the basic
 *   **[Supporting Product Information](http://apievangelist.com/2011/03/09/brand-api-starter-supporting-product-data/ "Supporting Product Information")** - Additional supporting information about your products like documents, videos, reviews, etc.
 *   **Location and Geo** - Location of where to get your products.
 
-With proper API terms and conditions, brand guidelines, and requiring all developers to register a company can monitor and protect the quality of their brand. ![](http://kinlane-productions.s3.amazonaws.com/start.jpg) By starting small, companies can get familiar with having an API and supporting the community that goes with it.
+With proper API terms and conditions, brand guidelines, and requiring all developers to register a company can monitor and protect the quality of their brand. ![](https://kinlane-images.s3.amazonaws.com/apievangelist/start.jpg) By starting small, companies can get familiar with having an API and supporting the community that goes with it.
 
 I recommend engaging with an API service provider like [Mashery](http://www.mashery.com/), [Apigee](http://apigee.com/) or [3Scale](http://www.3scale.net/) when planning an API.
 

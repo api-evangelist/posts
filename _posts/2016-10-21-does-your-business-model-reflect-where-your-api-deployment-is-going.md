@@ -2,7 +2,7 @@
 layout: post
 title: Does Your Business Model Reflect Where Your API Deployment Is Going
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist-site/blog/platform-nanoscale-io-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/platform-nanoscale-io-screenshot.png
 atomdate: 2016-10-21T18:00:00.000Z
 tags:
   - Business

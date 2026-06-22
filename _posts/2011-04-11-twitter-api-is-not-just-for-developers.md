@@ -2,14 +2,14 @@
 layout: post
 title: Twitter API is Not Just for Developers
 url: http://apievangelist.com/2011/04/11/twitter-api-is-not-just-for-developers/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Twitter
   - Developers
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/Twitter-Logo.jpg)I keep stumbling across innovative approaches to using Web APIs, for non-developers.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/shared/Twitter-Logo.jpg)I keep stumbling across innovative approaches to using Web APIs, for non-developers.
 
 The other day I wrote about [quantifying your social media impact,](http://apievangelist.com/2011/04/09/apis-are-not-just-for-developers/ "Quantifying your social media impact, using Google Docs and social media") using Google Docs and social media APIs, by[Tom Critchlow](http://www.seomoz.org/users/profile/30546 "Tom Critchlow").
 

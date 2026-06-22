@@ -2,7 +2,7 @@
 layout: post
 title: 3Taps Data API Speaks My Language
 url: http://apievangelist.com/2011/04/04/3taps-data-api-speaks-my-language/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ All of us programmers have a preferred programming language. It is the language 
 
 When it comes to delivering an API area, one of the most important [building blocks](http://www.apievangelist.com/ecosystem-building-blocks.php "building blocks") for getting programmers up and running are [language libraries](http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=125 "code language libraries").
 
-Data API provider [![](http://kinlane-productions.s3.amazonaws.com/3taps-Languages.png)](http://kinlane-productions2.s3.amazonaws.comw to deliver their API code libraries</a>, in just one click.
+Data API provider [![](https://kinlane-images.s3.amazonaws.com/apievangelist/3taps-Languages.png)](http://kinlane-productions2.s3.amazonaws.comw to deliver their API code libraries</a>, in just one click.
 <p></p><a title= "3Taps shows how to deliver their API code libraries")
 
 As soon as I click on "Developers" off the main menu, I get all the top languages front and center.

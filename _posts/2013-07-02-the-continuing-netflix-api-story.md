@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Continuing Netflix API Story
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/netflix-square.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/netflix-square.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ In the end the experiment that was the Netflix API didn't pan out, but that is o
 
 As I continue to follow the Netflix API story, I'm seeing new narrative emerge, one that is equally about open source software, than about open APIs. When I do my monitoring I am constantly seeing new blog posts coming from the Netflix tech blog, announcing the latest OSS release from the Netflix tech team.
 
-![](https://s3.amazonaws.com/kinlane-productions2/netflix/netflix-open-source-center.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/netflix/netflix-open-source-center.png)
 
 Netflix is up to 34 public repositories currently, and before you dig into the details of their releases, Netflix also wins in the presentation of their Github open source site. Nice job!!
 

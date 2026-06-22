@@ -2,7 +2,7 @@
 layout: post
 title: Generating OpenAPI Specs For The Mobile Apps You Depend On Just By Using Them
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/stoplight-discovery-mobile.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/stoplight-discovery-mobile.png
 tags:
   - OpenAPI
   - Mobile

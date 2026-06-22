@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Mimeo - Future of Technology and Printing
-image: http://kinlane-productions2.s3.amazonaws.com/mimeo-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/mimeo-logo.jpg
 author:
   name: kinlane
 tags:
@@ -10,7 +10,7 @@ tags:
 ---
 I am in New York City this week kicking off my new career as the API Evangelist for [Mimeo Connect](http://www.mimeo.com/solutions/mimeo-connect.php).
 
-[Mimeo Conneckinlane-productions2.s3.amazonaws.comtp://www.mimeo.com/" target="\_blank">Mimeo Print Platform](http://www.mimeo.com/solutions/mimeo-connect.php). Before evangelizing about the API I have to talk about the Mimeo Platform for a bit. I have spent the week learning everything I can about the self-service, next generation print platform. [![](http://kinlane-productions.s3.amazonaws.com/mimeo-logo.jpg)](http://www.mimeo.com/) What intrigued me about this job is the unique blend of technology and manufacturing that is involved. The Mimeo team truly does it, they have created a beautiful print document builder, storage and ordering system seamlessly integrated with 3 print facilities in New Jersey, Tennessee, and California.
+[Mimeo Conneckinlane-productions2.s3.amazonaws.comtp://www.mimeo.com/" target="\_blank">Mimeo Print Platform](http://www.mimeo.com/solutions/mimeo-connect.php). Before evangelizing about the API I have to talk about the Mimeo Platform for a bit. I have spent the week learning everything I can about the self-service, next generation print platform. [![](https://kinlane-images.s3.amazonaws.com/shared/mimeo-logo.jpg)](http://www.mimeo.com/) What intrigued me about this job is the unique blend of technology and manufacturing that is involved. The Mimeo team truly does it, they have created a beautiful print document builder, storage and ordering system seamlessly integrated with 3 print facilities in New Jersey, Tennessee, and California.
 
 Once signed up for a Mimeo account you can build bound documents, binders, booklets, flyers, brochures, posters and much more. I'm impressed with the UI and the level of control you have over building and viewing your document.
 

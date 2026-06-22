@@ -3,7 +3,7 @@ layout: post
 title: "We Standardized the API. We Didn't Standardize the Application."
 date: 2026-05-01
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-dark-city-street.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-dark-city-street.jpg
 category: "Blog"
 excerpt: "I walked through the application sign-up flow for six API providers in one sitting — Notion, Slack, LinkedIn, GitHub, Cloudflare, Google — and recorded every required field, every gate, every credential type. Six providers. Six different worlds. This was tolerable when we managed ten APIs. It is not tolerable for the agents and copilots we are about to point at hundreds of them."
 ---

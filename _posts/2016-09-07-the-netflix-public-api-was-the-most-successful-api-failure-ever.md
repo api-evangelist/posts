@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Netflix Public API Was The Most Successful API Failure Ever
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/netflix-api-architecture-1.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/netflix-api-architecture-1.jpg
 atomdate: 2016-09-07 20:00:00+00:00
 tags:
 - ai

@@ -2,7 +2,7 @@
 layout: post
 title: API Evangelist, Healthcare.gov and Hacker Storytelling
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/blog/bw-github.jpg
 author:
   name: kinlane
 tags:

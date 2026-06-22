@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dropbox As Your Apps Default File System
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fargo-small-picture.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/fargo-small-picture.png
 author:
   name: kinlane
 tags:

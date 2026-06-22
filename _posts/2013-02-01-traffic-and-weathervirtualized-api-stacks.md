@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Traffic and Weather - Virtualized API Stacks
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Traffic-and-Weather.png
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/Traffic-and-Weather.png
 author:
   name: kinlane
 tags: []

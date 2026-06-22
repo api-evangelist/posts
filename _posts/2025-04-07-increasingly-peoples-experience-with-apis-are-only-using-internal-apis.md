@@ -8,7 +8,7 @@ tags:
   - Rules
   - Exceptions
   - Feedback Loops
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/leaflets-of-the-russian-revolution-vkJ5dpm0bK2Gn.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/leaflets-of-the-russian-revolution-vkJ5dpm0bK2Gn.jpg
 ---
 For a number of years between 2010 and 2020 when people told stories about APIs, they almost always were talking about public APIs. Even when you talked about internal APIs, people assumed you were talking about public APIs. Upon reviewing a lot of the rhetoric around APIs and API specifications in service of AI lately there is a shift in the other direction where you get the feeling that the author is only talking about internal APIs and never has actually had to produce or use a publicly available API. There are several tells you can use to identify that an API story is written within and about internal APIs, without much exposure and thinking about API access outside the firewall, while generally wielding the API acronym without any clear distinction or acknowledgement around the access and control over the API. 
 

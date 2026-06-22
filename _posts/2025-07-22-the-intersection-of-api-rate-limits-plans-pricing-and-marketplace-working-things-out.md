@@ -10,7 +10,7 @@ tags:
   - Marketplaces
   - Features
   - Markets
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/1939-new-york-worlds-fair-markets-amsterdam.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/1939-new-york-worlds-fair-markets-amsterdam.jpeg
 ---
 Before I understood the business and politics of the API hustle I used to cry fowl here on API Evangelist about the sudden shifts in plans and pricing for APIs, as well as the unfair and restrictive rate limits put in place for the APIs I depended upon. These things still hurt, and often negatively impact my business, but I am much more aware of the market forces at play now and I understand that it is just "markets working things out". 
 

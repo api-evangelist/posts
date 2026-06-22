@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Evangelism is Equal Parts Internal, Partner and Public Outreach
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Evangelist-Thirds.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/API-Evangelist-Thirds.png
 author:
   name: kinlane
 tags:

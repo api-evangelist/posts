@@ -2,7 +2,7 @@
 layout: post
 title: API Education With Codecademy
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/codecademy-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/codecademy-logo.png
 author:
   name: kinlane
 tags:
@@ -27,7 +27,7 @@ Additionally, by using existing building blocks to construct specific lessons fo
 
 Beyond SEO, you will deprive new users of the additional benefits provided by your API ecosystem, like direct and community support. On Codecademy you won’t be there to answer their questions along the way, and they won’t be able to access the knowledge and wisdom of your existing developer community--an essential aspect of taking your API from just an area, to a community and ultimately an ecosystem.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/codecademy/codecademy-api-page.png)](http://www.codecademy.com/tracks/apis)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/codecademy/codecademy-api-page.png)](http://www.codecademy.com/tracks/apis)
 
 My objective on API Evangelist is to help API owners be successful in their API initiatives by understand the best practices to deploying and managing their APIs. I think Codecademy is a very cool platform and if you have the resources it is something you should add to your toolbox. But if your API team resources are short (as they are in most), you need to rely on many of the existing building blocks you have and build meaningful education material for your API that users can find and put to use within your API area, where you can make sure and support them in real-time.
 

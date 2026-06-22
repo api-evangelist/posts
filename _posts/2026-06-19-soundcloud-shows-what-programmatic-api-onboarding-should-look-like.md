@@ -12,7 +12,7 @@ tags:
   - GitHub
   - Agents
   - AI
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-working-waterfront-2.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-working-waterfront-2.jpg
 ---
 I keep coming back to the problem of scaling the onboarding, the [setting up of applications](https://apievangelist.com/blog/2026/05/01/we-standardized-the-api-we-didnt-standardize-the-application/), and the obtaining of API keys across many different APIs. The differences in how every API provider handles this keep leaving me hitting a brick wall. When you combine those differences with the anti-bot tactics so many API providers take, and pair that with their contradictory "all-in" stance on this agentic AI moment, I end up stepping away weekly from banging my head against this wall. It is just too big of a problem for me to solve. I can't hack a solution, so I always come back to the most effective tool in my toolbox—stories.
 

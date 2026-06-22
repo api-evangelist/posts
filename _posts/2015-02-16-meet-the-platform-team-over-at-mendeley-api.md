@@ -2,7 +2,7 @@
 layout: post
 title: Meet The Platform Team Over At Mendeley API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mendeley/mendeley-logo-square.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/mendeley/mendeley-logo-square.png
 author:
   name: kinlane
 tags:

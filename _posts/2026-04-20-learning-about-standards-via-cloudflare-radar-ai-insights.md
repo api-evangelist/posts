@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Learning About Standards via Cloudflare Radar AI Insights
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-train-tracks-bending.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-train-tracks-bending.jpg
 author:
   name: kinlane
 tags:
@@ -39,4 +39,4 @@ There are a couple items on here that are old hat for me, things like robots.txt
 
 I see a lot we are taking for granted in the diff between this list and apis.json properties. I am coming at it from the human side, and the very smart people behind these standards are coming at it from the bot perspective. I am beginning to to see the business side of things reflected in Universal Commerce Protocol  (UCP), x402 Payment, and Agents Payments Protocol. But it is not enough. I'll need to dive in deeper, but I don't see enough of the things business and regulatory folks will care about. I see a lot of the human bits left on the table, taking humans for granted in the cracks of this system. Regardless, there is a lot of learning to be had here when it comes to building on the original vision of the API economy I had back in 2010.
 
-![Cloudflare Adoption of AI Agent Standards](https://kinlane-productions2.s3.us-east-1.amazonaws.com/cloud-flare-adoption-of-ai-agent-standards.png)
+![Cloudflare Adoption of AI Agent Standards](https://kinlane-images.s3.amazonaws.com/apievangelist/cloud-flare-adoption-of-ai-agent-standards.png)

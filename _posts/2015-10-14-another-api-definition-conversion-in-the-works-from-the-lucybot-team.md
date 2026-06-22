@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Another API Definition Conversion In The Works From The LucyBot Team
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/LucyPNG.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/LucyPNG.png
 author:
   name: kinlane
 tags:

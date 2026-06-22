@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Communicate Your API Roadmap with Github
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/github-logo-basic.png
 author:
   name: kinlane
 date: 2012-11-12 23:20:35+00:00

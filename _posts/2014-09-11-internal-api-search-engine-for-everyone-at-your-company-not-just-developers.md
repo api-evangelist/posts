@@ -2,7 +2,7 @@
 layout: post
 title: Internal API Search Engine For Everyone At Your Company (Not Just Developers)
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apis-io/apis-io.png
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/apis-io/apis-io.png
 author:
   name: kinlane
 tags:

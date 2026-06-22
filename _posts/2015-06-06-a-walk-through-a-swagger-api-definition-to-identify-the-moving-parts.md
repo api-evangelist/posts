@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Walk Through A Swagger API Definition To Identify The Moving Parts
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-walkthrough.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/swagger-walkthrough.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: 'Reworking My API 101 Content: Providing APIs'
 sourceurl: http://apievangelist.com/2014/10/15/reworking-my-api-101-content-providing-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gift.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-gift.png
 author:
   name: kinlane
 tags:

@@ -3,10 +3,10 @@ layout: post
 title: 'Hello IPA Evangelist'
 source: http://apievangelist.com/2012/12/26/hello-ipa-evangelist/
 domain: apievangelist.com
-image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-beer.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-beer.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-beer.png" alt="" width="150" align="right" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-beer.png" alt="" width="150" align="right" /></p>
 <p>My name is Kin Lane, I am the <a href="http://apievangelist.com" target="_blank">API Evangelist</a>.</p>
 <p>While traveling the globe, dedicating my life to API evangelism, I only drink one beer--IPAs.</p>
 <p>Coincidence?  I think not!</p>

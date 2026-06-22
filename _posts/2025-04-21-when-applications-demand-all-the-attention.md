@@ -8,7 +8,7 @@ tags:
   - Artificial Intelligence
   - AI
   - GraphQL
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-abandoned-church-far.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-abandoned-church-far.jpg
 ---
 A big part of the API evolutionary story was that web APIs were used to via the web between 2000 and 2010 to power widgets, affiliate programs, and other ways of sharing information via HTTP. Once mobile phones emerged and we started using HTTP APIs to power mobile applications we began to reconcile with the sharing and reuse of digital resources and capabilities across multiple types of applications. This shift elevated APIs above any single application, but since then we regularly see applications who are often the most visual element begin to demand all the attention in an attempt to overshadow what is needed when it comes to our APIs.
 

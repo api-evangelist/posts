@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: What Does Open Mean in the World of APIs?
-image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-do-not-enter-sign.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-do-not-enter-sign.jpg
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ Let’s begin by actually taking inventory regarding the many different ways peo
 *   **Discovery** - Can I find the API? Is it easy to discover and explore for any potential consumer, and able to find via common, well-known channels.
 *   **Portal** - Is the landing page or portal for the API accessible to the public, partners, or a private audience allowing them to learn about the API.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-imperial-inn.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-imperial-inn.jpg)
 
 *   **Documentation** - Is there complete, up to date API documentation for the API that is accessible, providing an honest and open view of what an API does..
 *   **Paths** - Do developers have access to all of the paths that are available for the API made available, or are there hidden paths available behind applications.
@@ -60,7 +60,7 @@ Let’s begin by actually taking inventory regarding the many different ways peo
 *   **Privacy** - Is there a privacy policy in place that protects developers and their usage of an API, regulating how open individuals lives are when on a platform.
 *   **Terms of Service** - Is there a TOS in place that governs the API, and what are the constraints in place, and how open is the language used for terms of service.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-seattle-public-market_36725946605_o.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-seattle-public-market_36725946605_o.jpg)
 
 *   **Service Level Agreement** - Are there any guarantees In place that govern the availability and costs associated with an API, being open about exceptions.
 *   **Regulations** - The constraints of regulations will define how open or closed a specific business sector will be, setting the tone for open across APIs in that space.

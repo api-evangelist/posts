@@ -7,7 +7,7 @@ tags:
   - JSON Schema
   - JSON
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/braceros-domingo-ulloa-new-building-start.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-new-building-start.jpeg
 ---
 JSON Schema enables the confident and reliable use of the JSON data format, bringing consistency, validity, and interoperability to enterprise operations. JSON Schema defines the digital objects that we post to APIs, and receive as responses. JSON Schema defines the payloads of our APIs, but it also defines the surface area of our APIs as part of the OpenAPI specification. JSON Schema is ubiquitous in all enterprise organizations, bringing the following benefits to operations.
 

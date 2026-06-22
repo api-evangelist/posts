@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Makes BaaS Relevant to APIs?
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -22,4 +22,4 @@ APIs have helped identify and make available essential resources developers depe
 
 There is a danger that BaaS will move us back to more rigid, platform approaches to application development, but BaaS has the potential to be a kind elastic glue, that will bring together authentication and other essential resources into a permanent or temporary, but meaningful stack for developers to put to use.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/baas-apis.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/baas-apis.png)

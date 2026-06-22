@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'The Human Services Schema Defines The Storage And The API Defines Access'
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-red-seal.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-logos/api-evangelist-red-seal.png
 ---
 
-<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions2/open-referral/hsda-documentation-v11.png" align="right" width="35%" />
+<p><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/open-referral/hsda-documentation-v11.png" align="right" width="35%" />
 <p>I’m comparing five separate vendor API implementations with <a href="https://openreferral.github.io/api-specification/definition/">the Human Services API standard I’m working on</a> at the moment. I’m looking to push version 1.0 of the API towards a 1.1 with some incremental, forward-thinking changes.
 
 <p>During This phase of the project, I’m looking to get as much feedback on the API interface from commercial vendors. The Human Services schema is being moved forward by a separate, but overlapping group, and has already gone through a feedback phase, and <a href="https://openreferral.org/upgrade-the-human-services-data-specification-version-1-1/">has officially released version 1.1 of the schema</a>–I’m looking to do the same for the API.

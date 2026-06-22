@@ -2,7 +2,7 @@
 layout: post
 title: The Free Law Projects Launches Court Opinion API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/free-law-project.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/free-law-project.png
 author:
   name: kinlane
 tags:

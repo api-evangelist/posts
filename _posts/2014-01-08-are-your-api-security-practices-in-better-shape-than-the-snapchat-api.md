@@ -2,7 +2,7 @@
 layout: post
 title: Are Your API Security Practices In Better Shape Than The Snapchat API?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/snapchat.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/snapchat.png
 author:
   name: kinlane
 tags:

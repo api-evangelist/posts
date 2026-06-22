@@ -8,7 +8,7 @@ tags:
   - Service Composition
   - Business
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-an-me-store-front.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-an-me-store-front.jpeg
 ---
 The concept of API service composition has been around for some time, but is one that hasn’t remained part of the dominant API narrative. API service composition is a concept that aligns well with Representational State Transfer, or more commonly called, REST. Service composition was introduced by API management providers who were delivering solutions for API producers to define, control, and monetize access to their HTTP APIs. Service composition refers to the organization and access of HTTP APIs using the following concepts.
 

@@ -8,7 +8,7 @@ tags:
   - Gateways
   - OpenAPI
   - Extensions
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-nyc-streeet-dark-steam-1.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-nyc-streeet-dark-steam-1.jpeg
 ---
 You can lint your OpenAPI artifacts in your CI/CD pipelines, but if you aren’t actually using it to configure your API gateway, and then validating the outputs of the configuration are in alignment with your API governance goals—-it is all just talk. It will be different with each API gateway, but AWS API Gateway allows you to configure your APIs using OpenAPI, but then you can also retrieve an [updated OpenAPI output from the gateway with the following potential OpenAPI extensions applied](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-swagger-extensions.html).
 

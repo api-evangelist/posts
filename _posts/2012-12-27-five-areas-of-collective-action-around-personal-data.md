@@ -2,7 +2,7 @@
 layout: post
 title: Five Areas of Collective Action Around Personal Data
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/world-economic-forum-personal-data-cover.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/world-economic-forum-personal-data-cover.png
 author:
   name: kinlane
 tags:

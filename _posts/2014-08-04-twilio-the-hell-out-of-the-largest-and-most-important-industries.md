@@ -2,7 +2,7 @@
 layout: post
 title: Twilio The Hell Out Of The Largest And Most Important Industries
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/twilio/Twilio-Logo.png
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/twilio/Twilio-Logo.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: A Simple, Honest Approach to Getting Started With The Marvel Comics API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/marvel-comics/marvel-avengers-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/marvel-comics/marvel-avengers-logo.jpg
 author:
   name: kinlane
 tags:

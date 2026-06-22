@@ -2,7 +2,7 @@
 layout: post
 title: The Four Categories Of Dwolla API Consumers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dwolla-developer-home.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dwolla-developer-home.png
 author:
   name: kinlane
 tags:

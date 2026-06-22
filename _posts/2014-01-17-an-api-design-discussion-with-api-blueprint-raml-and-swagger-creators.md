@@ -2,7 +2,7 @@
 layout: post
 title: An API Design Discussion With API Blueprint, RAML And Swagger Creators
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-design.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-design.png
 author:
   name: kinlane
 tags:

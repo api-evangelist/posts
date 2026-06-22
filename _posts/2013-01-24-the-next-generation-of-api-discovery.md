@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Next Generation of API Discovery
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-API-Discovery.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-API-Discovery.png
 author:
   name: kinlane
 tags:

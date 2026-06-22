@@ -2,7 +2,7 @@
 layout: post
 title: Google Drive SDK Early Access Program
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Google-Drive-SDK-Early-Access-Program.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Google-Drive-SDK-Early-Access-Program.png
 author:
   name: kinlane
 tags:

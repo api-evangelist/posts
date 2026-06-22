@@ -3,14 +3,14 @@ layout: post
 title: API Management Service Provider Roundup for 2011
 url: >-
   http://apievangelist.com/2011/12/23/api-management-service-provider-roundup-for-2011/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Management
   - API Management
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/First-Dimension-API-Management.png)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/First-Dimension-API-Management.png)
 
 As 2011 comes to an end, I’d like to take another look at what I learned about the [API management service provider](/serviceproviders/ "API Service Provider") space in 2011. I started the year engaging 3Scale, Apigee and Mashery, trying to find a platform to build the Mimeo Connect API platform on. Then spent the entire year getting to know each of the API management service providers, and the products they offer. At the end of the year, we are [discussing the relevancy of API service providers](http://www.linkedin.com/groups/How-can-Infrastructure-API-vendors-4084799.S.86250844?qid=c824d4cb-887b-41d2-81c1-1170eff1c6d8&trk=group_most_popular-0-b-ttl&goback=%2Egde_4084799_member_86250844%2Egmp_4084799 "discussing the relevancy of API service providers"), so I think a year-end API service provider post is due.
 
@@ -40,7 +40,7 @@ A common Google search or in-person query I get is: Apigee vs. Mashery, 3Scale v
 
 After all my research, and talking to all the API management service providers--I don’t have a straight answer. My response is...visit each of their sites, choose the ones that speak to you, and call them. They each have a unique style to API management, and its healthy to get acquainted with each of their approaches, and find one that fits your companies objectives.
 
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Second-Dimension-Data-API-Management.png)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Second-Dimension-Data-API-Management.png)
 
 **The Second Dimension**  
 Beyond the primary players I’d say there are a group of data driven API service providers that bring a different set of tools and expertise:
@@ -61,7 +61,7 @@ There is also a wave of new breed API management platforms, each with a slightly
 
 These new players are bringing community and social to API management, along with new ways to describe, test, manage and share APIs. This new wave has a chance to change the conversation around APIs dramatically in 2012.
 
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Third-Dimension-New-Wave-API-Management.png)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Third-Dimension-New-Wave-API-Management.png)
 
 **The Fourth Dimension**  
 Beyond these companies directly offering API management services, there is always the bootstrap model. Wordpress, Github, Google Groups, Twitter and some custom coding on an Amazon EC2 instance can make for a pretty fine API and supporting area.

@@ -2,7 +2,7 @@
 layout: post
 title: Why I Am Continuing To Integrate Zapier In My Business Workflow
 sourceurl: http://apievangelist.com/2014/08/20/why-i-am-continuing-to-integrate-zapier-in-my-business-workflow/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/zapier/zapier-logo.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/zapier/zapier-logo.jpeg
 author:
   name: kinlane
 tags:

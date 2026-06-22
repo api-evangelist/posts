@@ -1,7 +1,7 @@
 ---
 layout: post
 title: If You Have A Publicly Available Mobile App You Have a Public API
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/snapchat/snapchat-logo-transparent.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/snapchat/snapchat-logo-transparent.png
 author:
   name: kinlane
 tags:
@@ -30,7 +30,7 @@ APIs are not a cure-all. I'm not prescribing APIs because they fix everything. I
 
 It does take time to build an open and trustworthy third-party application ecosystem, but with the proven blueprints already in existence, and a growing number of API service providers, it doesn't take a lot of resource. What Snapchat and other mobile providers lack is a healthy awareness of not just the tech of APIs, but also the critical business and political aspects of API operations, and just putting their head in the sand and pretending like these issues do not exist.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/services/api-management.png)](http://management.apievangelist.com)
+[![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/services/api-management.png)](http://management.apievangelist.com)
 
 If you have a publicly available mobile application, you have a publicly available API, and you should possess a modern API management strategy to protect the privacy and security of your end-users. How open you make access to this API is up to you, but I encourage you to make it as open as possible, providing transparency into security, and platform operations. I don't feel like this is something state or federal government should be enforcing, but is something that should be the acceptable approach to delivering public applications, something that is enforced by end-users be educated about avoiding web and mobile applications that do not have an API, and this transparent approach, demonstrating they have each users privacy and security in mind.
 

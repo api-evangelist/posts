@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pandora vs Target When Considering How Public To Be With Your API Operations
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/target_v_pandora.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/target_v_pandora.png
 atomdate: 2016-11-16 22:00:00+00:00
 tags:
 - Operations

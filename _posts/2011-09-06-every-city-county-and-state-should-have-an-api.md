@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Every City, County and State Should Have an API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/washington-crossing-the-delaware-thumb.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/washington-crossing-the-delaware-thumb.png
 author:
   name: kinlane
 tags:
@@ -26,7 +26,7 @@ Matt reached out to TylerTech, and asked whether or not they had an API for thei
   
 As I said I'm changing my tune about who is to blame.  The average government or school administration can only work with what is given to them.  In the case of Watertown, its Munis from TylerTech.  
   
-[![](http://kinlane-productions2.s3.amazonaws.com/tylertech-logo.png)](http://www.tylertech.com/ "TylerTech")TylerTech is 50 year old company with almost 300 Million in annual revenue, servicing a number of cities across the country.  The only mention of an API on the TylerTech site is part of their Eagle Product Suite:
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/tylertech-logo.png)](http://www.tylertech.com/ "TylerTech")TylerTech is 50 year old company with almost 300 Million in annual revenue, servicing a number of cities across the country.  The only mention of an API on the TylerTech site is part of their Eagle Product Suite:
 
  _Eagle Software is engineered with XML Web Services in mind — unlike many systems, where XML transactions are an afterthought. Taking advantage of open standards, WSDL and SOAP, Eagle Software can expose a robust API — simplifying external system integration with Java, .NET, VB, C++, C#, COBOL and others._
 
@@ -35,6 +35,6 @@ Without talking with TylerTech this appears to be an add-on suite, and not a sta
   
 When it comes to public data we need to have a high standard, and we need to expect more out of the technology that is purchased with our tax dollars.   In this time time of economic crisis our municipalities are already overburdened with doing their regular job, they can't be expected to to do extra work, and even better, they could use the help of citizens like myself and Matt, who want to help make sense of data, build apps, and help make government more efficient.  
   
-[![](http://kinlane-productions2.s3.amazonaws.com/watertown-ma-sign.jpg)](http://www.ci.watertown.ma.us/ "Watertown, MA")We can't do it without access to the right data, and APIs are the perfect way for the government to share data in real-time.  They need to be given tools and training that allow them share and publish data in real-time without extra effort.  PDF is not Portable Data Format...its a Portable Document Format.  XML export is a start, but it still just an export....its not an API.  With an API, municipalities can share data with the public in a self-service way, that still allows the government to understand who is accessing data, and how they are using it.  
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/watertown-ma-sign.jpg)](http://www.ci.watertown.ma.us/ "Watertown, MA")We can't do it without access to the right data, and APIs are the perfect way for the government to share data in real-time.  They need to be given tools and training that allow them share and publish data in real-time without extra effort.  PDF is not Portable Data Format...its a Portable Document Format.  XML export is a start, but it still just an export....its not an API.  With an API, municipalities can share data with the public in a self-service way, that still allows the government to understand who is accessing data, and how they are using it.  
   
 I look to technology companies like [TylerTech](http://www.tylertech.com/ "TylerTech") to lead, and provide our government with the tools they need to open data, and let the rest of the tech community build web and mobile applications for the government, and crunch data to help them be more efficient, and make the most of taxpayers money.

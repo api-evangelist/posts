@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Definition of API Craft
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apigee-logo.gif
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apigee-logo.gif
 tags:
 - Definitions
 ---
@@ -11,7 +11,7 @@ You can see this happen in real-time on the public Google Group called [API Craf
 
 I thoroughly enjoy the online version of [API Craft](https://groups.google.com/forum/?fromgroups#!forum/api-craft "API Craft"), and just experienced my first offline version of API Craft at OSCON in Portland this week. Several API folks got together for beers and API Craft discussion at the White Eagle Saloon creating an awesome real-time, face-to-face extension of the online [API Craft](https://groups.google.com/forum/?fromgroups#!forum/api-craft "API Craft") group--an experience I intend to initiate whenever I am in new cities around the country, and I encourage you to do the same.
 
-![](http://kinlane-productions2.s3.amazonaws.com/oscon-drinkup-2.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/oscon-drinkup-2.jpg)
 
 I think Apigee has really started something important and feeling inspired, I wanted to share my thoughts on a definition of API Craft. Deriving from the dictionary definition of craft:
 

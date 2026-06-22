@@ -2,13 +2,13 @@
 layout: post
 title: PubSubHubbub for APIs
 url: http://apievangelist.com/2011/02/23/pubsubhubbub-for-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - APIs
 ---
-[Superfeedr](http://www.superfeedr.com/) is now supporting [PubSubHubbub for data APIs]( http://disqus.com/forums/superfeedr-thoughts/superfeedr_pubsubhubbub_for_apis/trackback/). [PubSubHubbub](http://code.google.com/p/pubsubhubbub/) was initially created for [XML](http://en.wikipedia.org/wiki/XML "XML") to alleviate the number of times a feed is polled versus how many times it actually has an update. [![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/Superfeedr.png)](http://www.superfeedr.com/) The bandwidth consumption and server load of an API can be reduced greatly by adding a PubSubHubbub layer on a data API.
+[Superfeedr](http://www.superfeedr.com/) is now supporting [PubSubHubbub for data APIs]( http://disqus.com/forums/superfeedr-thoughts/superfeedr_pubsubhubbub_for_apis/trackback/). [PubSubHubbub](http://code.google.com/p/pubsubhubbub/) was initially created for [XML](http://en.wikipedia.org/wiki/XML "XML") to alleviate the number of times a feed is polled versus how many times it actually has an update. [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Superfeedr.png)](http://www.superfeedr.com/) The bandwidth consumption and server load of an API can be reduced greatly by adding a PubSubHubbub layer on a data API.
 
 Primary areas of a Superfeedr PubSubHubbub deployment are:
 

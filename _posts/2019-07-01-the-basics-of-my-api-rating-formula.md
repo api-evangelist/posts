@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'The Basics of My API Rating Formula'
-image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-supreme-court-judgement.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-square-supreme-court-judgement.jpg
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-supreme-court-judgement.jpg" width="45%" align="right" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-square-supreme-court-judgement.jpg" width="45%" align="right" style="padding: 15px;" />
 I have been working on various approaches to rating APIs since about 2012. I have different types of algorithms, even having invested in operating one from about 2013 through 2016, which I used to rank my daily intake of API news. Helping me define what the cream on top of each industry being impacted by APIs, while also not losing site of interesting newcomers to the space. I have also had numerous companies and VCs approach me about establishing a formal API rating system—many of whom concluded they could do fairly easily and went off to try, then failed, and gave up. Rating the quality of APIs is subjective and very hard.
 
 <p>When it comes to rating APIs I have a number of algorithms to help me, but I wanted to step back and think of it from a more simpler human vantage point, and after establishing a new overall relationship with the API industry. What elements do I think should exist within a rating system for APIs:

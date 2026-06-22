@@ -9,7 +9,7 @@ tags:
   - OpenAPI
   - Arazzo
   - Overlays
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-autom-leaves-street.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-autom-leaves-street.jpeg
 ---
 I’ve been resisting as much as I can to the recent waves of obsequious posts on Model Control Protocol (MCP) in recent weeks, [inviting anyone to come talk about how the specification or any other specification fits into the API space](https://apievangelist.com/2025/03/24/happy-to-talk-about-the-merits-of-your-new-api-specification-anytime/), and sharing my feelings on [why MCP is just another vendors attempt at controlling the API protocol conversation](https://apievangelist.com/2025/03/20/me-controlling-the-protocol-mcp/). I genuinely believe that the space should have many specifications and protocols. Maybe not in a pure libertarian market will work things out kind of way, but I strongly believe there is no one specification to rule them all. With that said, I am confident in saying that MCP is just another specification, in a long line of specifications that is more about a power grab than it ever is about what is needed to connect and automate APIs.
 

@@ -2,7 +2,7 @@
 layout: post
 title: 3Scale Launches Open Source API Proxy Built On NGNIX
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-logo.png
 author:
   name: kinlane
 tags:
@@ -27,7 +27,7 @@ In addition to the benefits provided by NGNIX, the proxy provides seamless integ
 *   Developer portal for self-service registration and onboarding
 *   Interactive API Documentation for better adoption using Swagger
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3Scale/3scale-API-Proxy-Admin-Panel.png)](http://www.3scale.net/ "3Scale")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/3Scale/3scale-API-Proxy-Admin-Panel.png)](http://www.3scale.net/ "3Scale")
 
 This list represents everything you will need to get your API up and running. 3Scale enables you to do this both on premise or in the cloud, using a proxy that you cotrol--then alllowing you to choose which 3Scale API management services you need to use. But what is most important for me, is 3Scale allows you start off without spending any money. 3Scale has a free, entry level tier that will allow you to design, experiment and iterate until you find the meaningful API definition that works for your developers--at which time you can scale, paying for only what you need, as you grow. 
 

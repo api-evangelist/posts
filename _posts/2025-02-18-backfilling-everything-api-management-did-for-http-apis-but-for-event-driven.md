@@ -9,7 +9,7 @@ tags:
   - Monetization
   - Gateways
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-working-waterfront-2.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-working-waterfront-2.jpg
 ---
 The next frontier of API investment will not be focused on artificial intelligence, but filling in everything enterprises take for granted (and often do not even use) with API gateways when it comes to HTTP or REST APIs, but this round of investment will be focused on event-driven APIs. The road from 2006 through 2016 centered around moving on from an internal enterprise service oriented architecture (SOA) approach to managing digital resources to one that embraced the web and opened up your business to partners and when it makes sense, to the public. When you look out across the latest round of API investment occurring by startups as well as venture capital you see the backfilling of these areas we’ve long had for HTTP APIs, but now the focus is on event-driven APIs.
 

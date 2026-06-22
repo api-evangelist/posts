@@ -4,7 +4,7 @@ title: >-
   Airmap Is Positioning Itself To Be A Critical API Broker For The Drone
   Industry
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/airmap-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/airmap-screenshot.png
 atomdate: 2016-08-05T22:00:00.000Z
 tags:
   - Industry

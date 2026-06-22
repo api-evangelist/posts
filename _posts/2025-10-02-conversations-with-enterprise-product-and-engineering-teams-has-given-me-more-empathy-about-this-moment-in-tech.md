@@ -10,7 +10,7 @@ tags:
   - MCP
   - Empathy
   - Uncertainty
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-japanese-man-sitting.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-japanese-man-sitting.jpeg
 ---
 I have been having conversations with a lot of folks about API integration, consumption, and automation as I work to build Naftiko. I entered into these conversations with folks in the early part of this summer without much empathy for people doing artificial intelligence, and have come out the other side with a lot more empathy for what is happening and where we are headed. I still strongly feel that AI is overhyped and overblown and obfuscate some very dangerous realities around labor, climate change, and copyright, but as I’ve learned more, I’ve softened the edge on how I talk with folks about this moment we are in, and specifically regarding how we are going to address what is next without jeopardizing what we already have built.
 

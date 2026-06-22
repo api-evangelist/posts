@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Public GETs, In Concert With Private POST, PUT, And DELETE For Your APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-open.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-open.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Cultivating the Next Generation of API Design Skills
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-design-providers-guide.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-design-providers-guide.png
 author:
   name: kinlane
 tags:

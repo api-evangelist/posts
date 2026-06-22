@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'One Layer Of An API Ranking System Will Need To Be Domain Scoring'
-image: https://s3.amazonaws.com/kinlane-productions2/whoapi/Domain-score-API-integration-in-WhoAPI.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/whoapi/Domain-score-API-integration-in-WhoAPI.png
 ---
 
-<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions2/whoapi/Domain-score-API-integration-in-WhoAPI.png" align="right" width="40%" />
+<p><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/whoapi/Domain-score-API-integration-in-WhoAPI.png" align="right" width="40%" />
 <p>I saw that WhoAPI launched a <a href="https://whoapi.com/blog/3068/we-are-introducing-domain-score-api/">Domain Score API</a> recently, helping put a value on whether or not you can trust a domain. The example they have in their blog post applies a domain score to the email addresses for any developer signing up for the Domain Score API–pretty useful stuff.
 
 <p>I do not know anything about the algorithm behind the domain scoring API, or what data it pulls from, but I think the concept is definitely applicable in today’s online environment. <a href="http://apievangelist.com/2016/03/30/best-buy-will-not-issue-api-keys-to-free-email-accounts-and-wants-to-get-to-know-your-company/">I wrote about Best Buy requiring their developers to register with an email at their business domain</a>, not some general email service, and this seems like another layer of security you could add to this process.

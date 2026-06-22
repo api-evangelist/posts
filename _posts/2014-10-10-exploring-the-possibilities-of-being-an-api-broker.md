@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exploring The Possibilities of Being An API Broker
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-broker.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-broker.png
 author:
   name: kinlane
 tags:
@@ -35,7 +35,7 @@ Here are the 10 APIs I’m working with:
 
 These are all API resources that provide some very useful elements in my operations. I use them to pull details about blog posts, look-up start-ups, shorten URLs, organize bookmarks, and other very utilitarian functions that I perform across my platform. I use these APIs for my own purposes, but for this project I’m looking to assemble them potentially as a collection that can be used in the development of a specific application, or for ongoing development within specific company or group.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/swagger/swaggerLogo360.png)](http://swagger.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/swagger/swaggerLogo360.png)](http://swagger.io/)
 
 I’m using Swagger version 2.0 to describe these APIs, and publishing all of it to Github, using APIs.json as an index of the collection. This allows me to generate interactive documentation for each API in the collection, which makes the entire stack accessible via a [single development portal](http://utility-stack.apievangelist.com/). I’m still working on the authentication across all of these resources, some of which are basic API keys, and other are BasicAuth or oAuth. Its all doable though, and based upon work I’ve done before I can easily store API keys, and oAuth credentials in the master branch of the Github repository which I keep as private.
 
@@ -43,7 +43,7 @@ To summarize this exercise, as an API broker I could easily find the resources m
 
 Think of this applied to Cyri’s vision of needing an API broker, or possibly something that every company would have as Patricio suggests in his ProgrammableWeb post. With this project, I’m not deploying any APIs, I’m merely aggregating and brokering a machine readable collection across numerous other API resources. This exercise has also shown me that I can easily identify gaps within any stack I’m working on, and make suggestions for new APIs that help developers accomplish a specific project objective.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png)](http://apisjson.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json/apisdotjson.png)](http://apisjson.org/)
 
 Imagine if I needed to add an image stack, like my [screen capture API](http://screen-capture.apievangelist.com/), or my [image manipulate API](http://image.manipulation.apievangelist.com/)? I could easily added in other features, and resources that developers are needing, allowing them to do what they do best, building applications, and delivering on system integrations. As a broker I can do the legwork of finding the resources they need, and aggregating into a single developer hub.
 

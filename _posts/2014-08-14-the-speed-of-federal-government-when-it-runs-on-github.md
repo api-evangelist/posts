@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Speed Of Federal Government When It Runs On Github
-image: https://s3.amazonaws.com/kinlane-productions2/federal-government/trade-gov/trade-gov-developer-portal.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/trade-gov/trade-gov-developer-portal.png
 author:
   name: kinlane
 tags:

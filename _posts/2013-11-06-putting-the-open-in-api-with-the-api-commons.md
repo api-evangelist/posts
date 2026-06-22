@@ -2,7 +2,7 @@
 layout: post
 title: Putting The Open In API With The API Commons
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-commons-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-commons-logo.png
 author:
   name: kinlane
 tags:

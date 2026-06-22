@@ -2,13 +2,13 @@
 layout: post
 title: API Stack - Text Analysis with Saplo API
 url: http://apievangelist.com/2011/07/23/api-stack-text-analysis-with-saplo-api/
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/saplo-logo.pg.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/saplo-logo.pg.jpeg
 author:
   name: kinlane
 tags:
 - Analysis
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/saplo/saplo-logo.jpeg)[Saplo](http://saplo.com/ "Saplo") provides an RESTful API for text analysis, using oath for authentication.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/saplo/saplo-logo.jpeg)[Saplo](http://saplo.com/ "Saplo") provides an RESTful API for text analysis, using oath for authentication.
 
 Using the [Saplo API](http://saplo.com/api "Saplo API") you can perform text analysis such as entity tagging, related articles, contextual recognition and sentiment anlysis.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Giving Excel Power Users The API Driven Resources They Need
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/octopart-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/octopart-logo.jpg
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ I've been an advocate for non-developers being one of the most important audienc
 
 Another example of this dynamic I'm seeing unfold in slow motion is from web APIs that are driving the Excel spreadsheet. I've posted before about [using Google Spreadsheets in conjunction with APIs](http://apievangelist.com/2011/04/11/twitter-api-is-not-just-for-developers/), and I just saw a another [great example of using Microsoft Excel from the electronics parts provider Octoparts](http://octopart.com/blog/archives/2013/7/octopart-in-excel).
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/octoparts/octopart-excel.png)](http://octopart.com/blog/archives/2013/7/octopart-in-excel)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/octoparts/octopart-excel.png)](http://octopart.com/blog/archives/2013/7/octopart-in-excel)
 
 Octoparts walks us through an API to Microsoft Excel solution, that has some pretty obvioius potential, by providing a direct connection between their product catalog to customers and partners via their API and an Excel spreadsheet. The particular approach requires the usage of [DataNitro](https://datanitro.com/), a plugin for Excel that allow you to run Python functions within your spreadsheets. Once installed, you can import products using the Ocotoparts APIs, complete with functions for filtering by manufacture, SKU, price and other key catalog fields.
 

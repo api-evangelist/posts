@@ -9,7 +9,7 @@ tags:
   - OpenAPI
   - Agent Skills
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-nyc-public-library.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-nyc-public-library.jpeg
 ---
 Starting a new specification is exciting. You have a vision. You flesh out the vision. You distill it down into some documentation, schema, blog post, and a social media post. You don’t have the baggage of a specification that has been around for a decade or more. Things are easy. But, does anyone care? It is an interesting place to be and something I find it exciting, but I have been here numerous times before and I’ve learned to be skeptical of when I get excited about something new—-knowing there is always more going on behind why I am getting excited.
 

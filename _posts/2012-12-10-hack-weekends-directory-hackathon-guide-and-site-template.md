@@ -2,7 +2,7 @@
 layout: post
 title: Hack Weekends Directory, Hackathon Guide and Site Template
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Hack-Weekends-Guide-Screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Hack-Weekends-Guide-Screenshot.png
 author:
   name: kinlane
 tags:
@@ -26,7 +26,7 @@ With this content and my experience I wanted to organize into something more. Re
 
 While maintaining the calendar for Hack Weekends, I see a lot of hackathon sites. To accompany the Hack Weekends Guide I wanted [hackathon organizers to be able to easily deploy a website in support of the event](http://kinlane.github.com/hack-weekends-guide/).
 
-[![](http://kinlane-productions2.s3.amazonaws.com/hackweekends/hackweekends-logo.png)](http://hackweekends.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/hackweekends/hackweekends-logo.png)](http://hackweekends.com/)
 
 The [Hack Weekends Guide](https://github.com/kinlane/hack-weekends-guide) comes with a [hackathon website template](http://kinlane.github.com/hack-weekends-guide/) as part of the Github repository. So all you have to do is fork the Hack Weekends Guide, and you get a detailed guide in addition to a website. It is up to you, which parts of the guide you will use--as little or as much as you feel necessary.
 

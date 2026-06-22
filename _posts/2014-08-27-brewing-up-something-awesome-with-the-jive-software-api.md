@@ -2,7 +2,7 @@
 layout: post
 title: Brewing Up Something Awesome With The Jive Software API
 sourceurl: http://apievangelist.com/2014/08/27/brewing-up-something-awesome-with-the-jive-software-api/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/jive-software/jive.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/jive-software/jive.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ tags:
 
 I would put Jive Software into the category of more making a first impression, than providing a short description of what the API does:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/jive-software/brew-up-something-awesome.png)](https://developer.jivesoftware.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/jive-software/brew-up-something-awesome.png)](https://developer.jivesoftware.com/)
 
 I wouldn’t recommend this approach for every API provider, but if you can do it right, and make a solid first impression—run with it! As an [API Evangelist](http://apievangelist.com), and [IPA Evangelist](http://ipaevangelist.com), I can seriously get behind a message like “brew up something awesome”. +1
 

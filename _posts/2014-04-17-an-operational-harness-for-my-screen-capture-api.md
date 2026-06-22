@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Operational Harness For My Screen Capture API
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-harness.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-harness.png
 author:
   name: kinlane
 tags:

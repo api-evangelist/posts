@@ -2,12 +2,12 @@
 layout: post
 title: 'Weekly API.Report For March 2nd, 2015'
 sourceurl: http://apievangelist.com/2015/03/02/weekly-apireport-for-march-2nd-2015/
-image: https://s3.amazonaws.com/kinlane-productions/api-report/api-report-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png
 ---
 
 
 <div style="background-color:#ff4c4c; width:100%; height: 40px; padding:5px; margin-bottom: 5px;"><p align="center"><strong>Swagger is now Open API Definition Format (OADF) -- <a href="http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/" style="text-decoration:none;"><strong>READ MORE</strong></a></strong></p></div>
-<p><a href="http://api.report/" target="_blank"><img style="padding: 20px;" src="https://s3.amazonaws.com/kinlane-productions/api-report/api-report-logo.png" alt="" width="325" align="right" /></a></p>
+<p><a href="http://api.report/" target="_blank"><img style="padding: 20px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png" alt="" width="325" align="right" /></a></p>
 <p>I am a couple days late on this weeks API.Report, after being sick last week, taking the weekend to recover--at least I got it done. The process is proving to very valuable to my understanding of what is going on, so I predict it will continue.&nbsp;</p>
 <p><span>The Weekly API.Report represents the best of what I've read throughout the week, and is only what I personally felt should be showcased. Each news item comes with a link, and some thoughts I had after curating the piece of API related news. I'm trying to break down stories into as coherent buckets as I can, but it remains something that is ever changing for me, but ultimately I will settle on a clear definition for each of the research areas.</span></p>
 <p>I am a big fan of any <strong><span style="text-decoration: underline;">API 101</span></strong> work out there, helping on-board new users, and industries:</p>

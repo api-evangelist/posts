@@ -4,7 +4,7 @@ title: >-
   All Facts And Statistics Should Have An Interactive Experience Like US Census
   Bureaus Quick Facts
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/us-census-tools.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/us-census-tools.png
 atomdate: 2016-08-03T23:00:00.000Z
 tags:
   - Census

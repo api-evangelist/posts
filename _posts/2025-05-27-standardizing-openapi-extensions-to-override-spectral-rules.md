@@ -10,7 +10,7 @@ tags:
   - OpenAPI
   - Sandboxes
   - Servers
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-rail-crossing.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-rail-crossing.jpg
 ---
 While continuing to process the Spectral rules in use by API producers as part of their efforts to govern their API operations I am always looking for interesting and useful patterns being applied by API producers, and I recently came across the use of standardized OpenAPI extensions to override governance rules in specific circumstances. This particular use case was about enforcing encryption on server URLs, but it also provides a way to override the need for encryption using x-sandbox OpenAPI extension.
 

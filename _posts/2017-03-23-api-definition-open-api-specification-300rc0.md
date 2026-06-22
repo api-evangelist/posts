@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'API Definition: Open API Specification 3.0.0-RC0'
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_openapi_30_screenshot.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_definitions_openapi_30_screenshot.png
 atomdate: 2017-03-23 19:00:00+00:00
 tags:
 - Definitions

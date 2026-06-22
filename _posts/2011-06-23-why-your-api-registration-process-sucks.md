@@ -2,14 +2,14 @@
 layout: post
 title: Why Your API Registration Process Sucks
 url: http://apievangelist.com/2011/06/23/why-your-api-registration-process-sucks/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Registration
   - Process
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/api-registration.png)](http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=198 "self-service registration to your API")This is one story I'm sure I will be telling over and over. Its about providing [self-service registration to your API](http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=198 "self-service registration to your API"), and access to your documentation.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-registration.png)](http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=198 "self-service registration to your API")This is one story I'm sure I will be telling over and over. Its about providing [self-service registration to your API](http://www.apievangelist.com/ecosystem-building-blocks-detail.php?Building_Block_ID=198 "self-service registration to your API"), and access to your documentation.
 
 I'm working my way through 78 travel APIs right now, reviewing each of them for a series of travel industry API stories.
 

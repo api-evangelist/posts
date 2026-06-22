@@ -15,7 +15,7 @@ tags:
   - JSON Pointer
   - ABNF
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-banana-subway-stairs.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-banana-subway-stairs.jpeg
 ---
 I’ve been down each of these rabbit holes before. I’ve paid really smart people to go down these rabbit holes. But honestly, what I am talking about is actually a “rabbit warren”. I know we all like to say “going down the rabbit hole”, but once you’ve explored this realm, you realize it is much more than that, and realm where you literally can lose your mind in—-I have seen it happen. But, before we get started, let’s explain what a rabbit warren is…
 

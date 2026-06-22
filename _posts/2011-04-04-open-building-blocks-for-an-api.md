@@ -2,13 +2,13 @@
 layout: post
 title: Open Building Blocks for an API
 url: http://apievangelist.com/2011/04/04/open-building-blocks-for-an-api/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Open
 ---
-kinlane-productions2.s3.amazonaws.com When deploying an API, the interface is just the beginning. You need tools and resources to support the API. ![](http://kinlane-productions.s3.amazonaws.com/building_blocks.jpeg) There are [common building blocks that are used by many existing APIs](http://apievangelist.com/2011/03/07/api-area-common-building-blocks/ "Common Building Blocks Used by APIs"), such as documentation, forums, code samples and other tools developers have come to expect from APIs.
+kinlane-productions2.s3.amazonaws.com When deploying an API, the interface is just the beginning. You need tools and resources to support the API. ![](https://kinlane-images.s3.amazonaws.com/apievangelist/building_blocks.jpeg) There are [common building blocks that are used by many existing APIs](http://apievangelist.com/2011/03/07/api-area-common-building-blocks/ "Common Building Blocks Used by APIs"), such as documentation, forums, code samples and other tools developers have come to expect from APIs.
 
 When selecting which [building blocks to use for an API area](http://www.apievangelist.com/ecosystem-building-blocks.php "Building Blocks to Use for an API Area"), there are many things to consider. There are many opinions on which are essential, and this can vary from industry to industry.
 
@@ -23,7 +23,7 @@ Beyond the common building blocks, many API owners are providing new innovative 
 
 If you are planning an API and do not have much experience with API technology, or what building blocks you will need, you should talk to experienced API service providers such as [Mashery](http://wwkinlane-productions2.s3.amazonaws.comMashery "Apigee"), or [3Scale](http://www.3scale.net "3Scale"). These providers have a lot of experience, tools and services you can access to plan, develop, deploy, and manage your API.
 
-Even with the growth in the number of available APIs, and the number of service providers I do not see much in the way of open-source API building blocks available on the market yet. ![](http://kinlane-productions.s3.amazonaws.com/open.jpg) We need more innovation around development of open API building blocks. Think what [Wordpress](http://www.wordpress.org "Wordpress") has done for blogging, and [Heroku](http://heroku.com/ "Heroku") has done for cloud computing.
+Even with the growth in the number of available APIs, and the number of service providers I do not see much in the way of open-source API building blocks available on the market yet. ![](https://kinlane-images.s3.amazonaws.com/apievangelist/open.jpg) We need more innovation around development of open API building blocks. Think what [Wordpress](http://www.wordpress.org "Wordpress") has done for blogging, and [Heroku](http://heroku.com/ "Heroku") has done for cloud computing.
 
 The availablility of open API building blocks delivering the common, innovative and essential tools needed for APIs, would give a much needed boost to the entire industry.
 

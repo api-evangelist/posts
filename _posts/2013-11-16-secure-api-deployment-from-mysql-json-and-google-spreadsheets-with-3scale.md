@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Secure API Deployment From MySQL, JSON and Google Spreadsheets With 3Scale
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-toolbox.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/bw-toolbox.jpg
 author:
   name: kinlane
 tags:

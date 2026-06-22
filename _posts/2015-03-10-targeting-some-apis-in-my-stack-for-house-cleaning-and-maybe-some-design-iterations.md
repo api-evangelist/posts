@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Targeting Some APIs In My Stack For House Cleaning And Maybe Some Design Iterations
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-painting-easel.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-painting-easel.png
 author:
   name: kinlane
 tags:

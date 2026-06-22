@@ -2,7 +2,7 @@
 layout: post
 title: API Driven Voice Architecture
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/zypr-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/zypr-logo.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ Zypr fits in with my vision of where APIs are going, because Zypr is doing the s
 
 That sounds exactly like what [Singly](http://singly.com "Singly") is doing, but with voice as the vehicle for making valuable API resources avilable on apps running via mobile phones, tablets and in our cars and homes. I really like the Zypr graphic. I will have to create a similar version to articulate some the API trends I’m seeing.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/zypr/zypr-voice-enabled.jpg)](https://www.zypr.net/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/zypr/zypr-voice-enabled.jpg)](https://www.zypr.net/)
 
 I hope Zypr is just heads down, working hard on their platform. According to my API stack rank, there aren’t very many positive signals coming out of the platform:
 

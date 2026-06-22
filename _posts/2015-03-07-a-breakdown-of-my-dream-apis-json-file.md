@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: A Breakdown Of My Dream APIs.json File
-image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json/apisdotjson.png
 author:
   name: kinlane
 tags:
@@ -32,7 +32,7 @@ The next essential element of an APIs.json file, is the APIs collection, providi
 *   **humanURL** - The url any human should visit to learn more about an API.
 *   **baseURL** - The base url any machine should follow to start using an API.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gears-soft-round.png)](http://apisjson.org)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-gears-soft-round.png)](http://apisjson.org)
 
 Each API should have at least this information, at a minimum. I could stay here, with a [minimum viable APIs.json definition](http://apievangelist.com/2015/02/08/a-minimum-viable-apisjson-file-for-your-apis/), but I encourage you to take one more step, and put the properties collection to use for each API. You can provide any other URL you want for an APIs properties, but I recommend starting with the basic properties:
 
@@ -66,7 +66,7 @@ After that, I’d say there are a handful custom properties I’d like to see ap
 *   **x-blogrss -** where can I just get an RSS of your blog stream.
 *   **b-github -** what is the primary Github account for the API.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-circuit-paths.png)](http://apisjson.org)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-circuit-paths.png)](http://apisjson.org)
 
 That concludes my list of elements I’d like to see available in my dream APIs.json file. You can see examples of this in action, with the [700+ companies I've generated APIs.json files for, over at my API Stack Github repo](https://github.com/kinlane/api-stack/tree/gh-pages/data). There is a lot of work left to do, but this dream APIs.json file resembles a vision I have for the future of API discovery—which I see as the engine for the API economy.
 

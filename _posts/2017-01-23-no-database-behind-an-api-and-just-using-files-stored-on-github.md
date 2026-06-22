@@ -1,7 +1,7 @@
 ---
 layout: post
 title: No Database Behind An API and Just Using Files Stored on Github
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-github-api.png
 atomdate: 2017-01-23 20:00:00+00:00
 tags:
 - Github

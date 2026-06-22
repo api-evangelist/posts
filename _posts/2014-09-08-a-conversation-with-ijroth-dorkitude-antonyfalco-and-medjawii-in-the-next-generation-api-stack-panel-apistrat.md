@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Conversation With @ijroth, @dorkitude, @antonyfalco, and @medjawii In The Next Generation API Stack Panel @APIStrat
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-stacks.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-stacks.png
 author:
   name: kinlane
 tags:

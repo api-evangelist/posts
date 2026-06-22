@@ -13,7 +13,7 @@ tags:
   - Severity
   - Security
   - Versioning
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-ferris-wheel-fair.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-ferris-wheel-fair.jpeg
 ---
 [As I continue to evaluate the potential standardization around the governance of HTTP APIs within CI/CD pipelines](https://apievangelist.com/2025/03/05/what-api-tools-should-i-be-running-in-my-pipeline/) I am incorporating in several conversation around the phased rollout of API governance rule enforcement by team or domain. In addition to which tooling should be applied as part of CI/CD pipelines, and whether you will be using Spectral, Vacuum, Redocly, APIMATIC, or some other approach-—you should also be considering the rollout of API governance rules in different ways. Here are some of the considerations that I have come across in my conversations with people who have implemented phased approaches to the rollout and enforcement of API governance rules.
 

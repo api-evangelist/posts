@@ -4,7 +4,7 @@ title: >-
   When The Products We Own Use APIs To Order Their Own Replacement Parts (Or
   Service)
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/brita-infinity-pitcher.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/brita-infinity-pitcher.jpg
 tags:
   - Products
   - APIs

@@ -2,7 +2,7 @@
 layout: post
 title: A Unified Interface for Social APIs with Singly
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/singly-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/singly-logo.png
 author:
   name: kinlane
 tags:

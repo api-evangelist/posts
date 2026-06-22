@@ -8,7 +8,7 @@ tags:
   - Interactive Documentation
   - Playgrounds
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-old-piano-playing-hospital.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-old-piano-playing-hospital.jpg
 ---
 The intersection of static API documentation, interactive API documentation, API explorers, and API clients is a fascinating neighborhood that we see ebb and flow with excitement, investment, and abandonment every cycle or two in the space, and like a hip Brooklyn neighborhood we are finding ourselves coming back around for some more fun. We can all agree that API documentation is always better when hands-on and interactive, but we find ourselves at another round of investment in how we onboard, learn, and engage with APIs.
 

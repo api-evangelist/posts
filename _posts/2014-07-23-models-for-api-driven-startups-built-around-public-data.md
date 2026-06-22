@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Models For API Driven Startups Built Around Public Data '
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-society-2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-society-2.png
 tags:
 - Data
 - Public Data

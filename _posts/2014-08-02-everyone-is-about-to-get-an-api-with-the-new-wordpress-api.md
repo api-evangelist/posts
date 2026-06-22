@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Everyone Is About To Get An API With The New Wordpress API
-image: https://s3.amazonaws.com/kinlane-productions2/wordpress/wordpress-logo-stacked-rgb.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/wordpress/wordpress-logo-stacked-rgb.png
 author:
   name: kinlane
 tags:
@@ -25,7 +25,7 @@ At face value, I know a number of API developers who will be less than pleased w
 
 These stats don’t even touch on the number of WordPress plugins and mobile solutions there are developed on the insanely popular website, and blogging platform. I couldn't think of a better platform to start rolling APIs out APIs to the masses, and quickly educating a very large group of tech savvy folks along the way.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/wordpress/wordpress-traffic.png)](http://en.wordpress.com/stats/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/wordpress/wordpress-traffic.png)](http://en.wordpress.com/stats/)
 
 Many of these WordPress sites are already integrated with popular API platforms like Twitter, Facebook, Google, and Amazon, so it makes sense to educate WordPress administrators on the APIs they are already using, as well as introduce them to the concept of having their own API around the potentially valuable content they generate.
 

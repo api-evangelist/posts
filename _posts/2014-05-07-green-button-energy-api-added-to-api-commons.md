@@ -2,7 +2,7 @@
 layout: post
 title: Green Button (Energy) API Added To API Commons
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/green-button/green-button.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/federal-government/green-button/green-button.jpg
 author:
   name: kinlane
 tags:

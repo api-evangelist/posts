@@ -3,7 +3,7 @@ published: true
 layout: post
 title: App.net File API And The Opportunity for Private Label BaaS Resources
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/AppNet-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/AppNet-Logo.png
 author:
   name: kinlane
 tags:

@@ -2,13 +2,13 @@
 layout: post
 title: Netflix API Review
 url: http://apievangelist.com/2011/03/29/netflix-api-review/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Review
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/netflix_logo.gif)The [Netflix API](http://developer.netflix.com/ "Netflix API") allows anyone to build a custom application integrated with the Netflix movie and television streaming platform.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/netflix_logo.gif)The [Netflix API](http://developer.netflix.com/ "Netflix API") allows anyone to build a custom application integrated with the Netflix movie and television streaming platform.
 
 Netflix provides a RESTful and JavaScript API, and uses OAuth for authentication. The API provides access to users account data and the Netflix movie and TV catalog.
 

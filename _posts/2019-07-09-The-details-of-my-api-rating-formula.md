@@ -8,7 +8,7 @@ tags:
   - Ratings
   - Ranking
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/udnie-IMG_7559.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/udnie-IMG_7559.jpg
 author:
   name: kinlane
 ---

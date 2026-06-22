@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The API Evangelist API Definition Guide
-image: https://s3.amazonaws.com/kinlane-productions2/whitepapers/definitions/api-evangelist-api-definitions-guide-may-2016-cover.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/whitepapers/definitions/api-evangelist-api-definitions-guide-may-2016-cover.png
 tags:
 - API Evangelist
 - Evangelist

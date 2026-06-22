@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Measuring the Success of a Public Web API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Craft-Logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/API-Craft-Logo.png
 author:
   name: kinlane
 tags:

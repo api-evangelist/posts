@@ -11,7 +11,7 @@ tags:
   - Consumers
   - Investors
   - Services
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-construction-site-through-fence.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/america-immigration_dumping-ground-construction-site-through-fence.jpeg
 ---
 Business alignment in the world of API integrations is essential—from both a producer and consumer perspective. The challenge is that there are different bubbles of business alignment that leaves people aligning towards the business goals which may not reflect their own long term business outcomes. Moving between the API producer and consumer perspective for so many years, as well as between startups and the enterprise, you realize that the phrase “business alignment” means different things to different people, and is something that is often manipulated and manufactured for competing reasons.
 

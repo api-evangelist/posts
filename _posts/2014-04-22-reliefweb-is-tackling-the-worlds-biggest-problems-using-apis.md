@@ -2,7 +2,7 @@
 layout: post
 title: ReliefWeb Is Tackling The Worlds Biggest Problems Using APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/reliefweb/reliefweb-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/reliefweb/reliefweb-logo.jpg
 author:
   name: kinlane
 tags:
@@ -34,7 +34,7 @@ The design of the API is pretty well thought out, providing some common, as well
 *   **Hypermedia** - Control links facilitate paging, deep cross-linking of content allows navigating between related resources, and all resources can be reached by drilling down from the top level of the API at http://api.rwlabs.org.
 *   **Caching** - Uses Cache-Control headers to point out how often ReliefWeb recommends checking for updates.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/reliefweb/reliefweb-syra.png)](http://reliefweb.int)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/reliefweb/reliefweb-syra.png)](http://reliefweb.int)
 
 I started playing around making some calls and enjoyed the way the API flows, and excited about the potential. I do have some critique of the implementation, with the hope of influencing their roadmap.
 

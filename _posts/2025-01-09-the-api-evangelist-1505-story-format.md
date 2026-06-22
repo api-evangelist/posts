@@ -7,7 +7,7 @@ tags:
   - Stories
   - Editorial
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-cell-tower-close.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/francis-williams-cell-tower-close.jpeg
 ---
 Back in the early days of API Evangelist we employed a simple rapid fire approach to storytelling that seemed to fit with the appetite of people who were seeking more information about the API lifecycle. With version 4.0 of API Evangelist we are putting back in place our 1505 story format to bring some more discipline back into the writing on the site by following the following rules.
 

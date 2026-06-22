@@ -4,7 +4,7 @@ title: >-
   Balancing Commercial, Non-Commercial, Privacy and Ownership In The World of
   APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/openi-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openi-logo.png
 author:
   name: kinlane
 tags:

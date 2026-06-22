@@ -2,7 +2,7 @@
 layout: post
 title: Scribd Review
 url: http://apievangelist.com/2010/10/07/scribd-review/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
 
 The Scribd API has the following building blocks:kinlane-productions2.s3.amazonaws.com
 
-[![](http://kinlane-productions.s3.amazonaws.com/Scribd.PNG "Scribd")](http://www.scribd.com/developers)*   API Overview
+[![](https://kinlane-images.s3.amazonaws.com/shared/Scribd.PNG "Scribd")](http://www.scribd.com/developers)*   API Overview
 *   Sign Up for an API Account
 *   API Tutorials
 *   Client Libraries

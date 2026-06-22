@@ -2,7 +2,7 @@
 layout: post
 title: The Essential Building Blocks For Integration, Automation, and Reciprocity
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/zapier-zaps-orchestration.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/zapier-zaps-orchestration.png
 tags:
   - Automation
   - Integration

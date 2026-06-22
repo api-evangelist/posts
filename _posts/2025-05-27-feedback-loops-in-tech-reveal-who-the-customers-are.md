@@ -7,7 +7,7 @@ tags:
   - Products
   - Feedback
   - Investment
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-clown-shoes-bang.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/john-wayne-the-searchers-clown-shoes-bang.jpeg
 ---
 You hear a lot about feedback loops with customers in technology and the world of APIs. There are entire disciplines dedicated to establishing and managing feedback loops with customers as part of the software development lifecycle. However, in my experience few technologists and engineering leadership within startups and enterprises are actually interested in listening to, let alone engaging with customers via these feedback loops. As you can see with the current state of technology and artificial intelligence, people aren’t concerned with what the customers or would be customers of their APIs and applications want or ask for—-you will do AI whether you want or not, and whatever else you need won’t be discussed.
 

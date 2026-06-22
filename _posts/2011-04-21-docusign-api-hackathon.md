@@ -2,7 +2,7 @@
 layout: post
 title: DocuSign API Hackathon
 url: http://apievangelist.com/2011/04/21/docusign-api-hackathon/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ tags:
 ---
 [Hackathon](http://www.docusign.kinlane-productions2.s3.amazonaws.comitle= "DocuSign") to build the most innovative app in either the business, consumer, enterprise and mobile space using the [DocuSign API](http://www.docusign.com/developers-center/developers-center-overview "DocuSign API").
 
-**Dates**![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/DocuSign-Logo.jpg)
+**Dates**![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/DocuSign-Logo.jpg)
 
 *   May 14-15, 2011
 

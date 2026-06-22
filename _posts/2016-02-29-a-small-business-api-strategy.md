@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Small Business API Strategy
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-business-of-apis.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-business-of-apis.png
 tags:
   - Business
   - Strategy
@@ -20,7 +20,7 @@ The result is a pretty comprehensive API strategy that might help a small busine
 *   **Weekly -** What are my weekly considerations to help me course correct what I'm doing on the ground with my overall API strategy?
 *   **Monthly -** What are my monthly considerations to help me course correct what I'm doing on the ground with my overall API strategy?
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-strategy.png)](http://small-business-api-strategy.apievangelist.com/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-strategy.png)](http://small-business-api-strategy.apievangelist.com/)
 
 These are just six of the tactical areas I could use help with in my own operations, and are the key areas some of the organizations I'm talking with are looking for guidance as well. My objective is to establish a high level API strategy that a small business could apply to the 100K level, but also have lower level plans that can help small businesses get started on day one, launch their developer portals, establish a design first process that can be applied to any new APIs, and successfully launch new API efforts. I also threw in a general weekly, and monthly version as well, just to deal with the mundane aspects of API operations that we all kind of suck at--I know I do!
 

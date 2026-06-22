@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Each Of My APIs Has Its Own Github Repo With Two Branches, One Private And One Public '
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-github-icon.png
 author:
   name: kinlane
 tags:

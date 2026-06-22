@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Using APIs.json For My Microservice Navigation And Discovery
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-api-navigation.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-api-navigation.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ Each microservice lives as its own Github repository, within a [specific organiz
 
 All the Github repositories for this microservice stack lives within a single Github organization, which I give a "master" repo, which acts as a single landing page for the entire stack. It has its own APIs.json file, but rather than having any API collections, it just uses includes, referencing the APIs.json for each microservice in the stack.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-api-navigation-2_png.png)](https://kin-lane.github.io/master/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-api-navigation-2_png.png)](https://kin-lane.github.io/master/)
 
 APIs.json acts as an index for each microservice, but through the include collection it also provides links to other related microservices within its own stack, which I use to navigate, in a circular way between all supporting services. All of that sounds very dizzying to write out, and I’m sure you are like WTF? You can [browse my work on Github](https://kin-lane.github.io/master/), some of it is public, but much of it you have to have oAuth access to see. The public elements all live in the gh-pages branch, while the private aspects live within the private master branch.
 

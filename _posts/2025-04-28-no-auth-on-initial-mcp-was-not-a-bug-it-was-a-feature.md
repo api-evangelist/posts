@@ -9,7 +9,7 @@ tags:
   - Access
   - Control
   - Security
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-banana-subway-stairs.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-banana-subway-stairs.jpeg
 ---
 It is fascinating to watch all the pundits jump and respond to the MCP rush on top of the AI hype happening. Everyone was quick to point out that MCP does not have the adequate authentication and access control which has become common place in the world of APIs. Everyone at the trough was quick to point out that MCP is in its early stages and of course authentication is coming, it is just early days and it will be coming shortly. However, everyone treated the lack of authentication as an oversight or bug in the early version of the MCP spec, when in reality it is a feature.
 

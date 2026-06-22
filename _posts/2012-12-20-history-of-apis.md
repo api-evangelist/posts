@@ -2,7 +2,7 @@
 layout: post
 title: History of APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-History-of-APIs.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-History-of-APIs.png
 author:
   name: kinlane
 tags:

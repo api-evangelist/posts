@@ -2,7 +2,7 @@
 layout: post
 title: API Embeddables In A Conversational Interface World
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/push_by_zapier_icon_button.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/push_by_zapier_icon_button.png
 atomdate: 2017-02-08T23:00:00.000Z
 tags:
   - Embeddable

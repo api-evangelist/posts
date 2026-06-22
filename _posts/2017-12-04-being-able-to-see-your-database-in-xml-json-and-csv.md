@@ -9,7 +9,7 @@ tags:
   - Definitions
   - Data
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/slashdb/slashdb-content-negotiation.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/slashdb/slashdb-content-negotiation.png
 ---
 _This is a sponsored post by my friends over at [SlashDB](https://www.slashdb.com/). The topic is chosen by me, but the work is funded by SlasDB, making sure I keep doing what I do here at API Evangelist. Thank you [SlashDB](https://www.slashdb.com/) for your support, and helping me educate my readers about what is going on in the API space._
 

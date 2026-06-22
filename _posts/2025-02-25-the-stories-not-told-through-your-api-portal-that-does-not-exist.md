@@ -8,7 +8,7 @@ tags:
   - SDKs
   - Communication
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/norman-rockwell-ruby-bridges-old-small-town-buildings.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/norman-rockwell-ruby-bridges-old-small-town-buildings.jpeg
 ---
 Having conversations with business and engineering leadership regarding the availability of a public develop portal, API catalog, SDKs, and feedback loops is in the top five of the conversations that occur regularly with API Evangelist audience and customers. Helping enterprise leadership see the importance of providing a robust public catalog of digital resources is a big part of that, but helping emphasize the missed opportunity for storytelling is also at the top of our list. Too much energy is spent worrying about what gets published to a public API portal that massive opportunities for influencing the public in these ways are missed.
 

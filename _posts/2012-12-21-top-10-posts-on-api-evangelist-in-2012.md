@@ -2,7 +2,7 @@
 layout: post
 title: Top 10 Posts on API Evangelist in 2012
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-API-2012.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-API-2012.png
 author:
   name: kinlane
 tags:

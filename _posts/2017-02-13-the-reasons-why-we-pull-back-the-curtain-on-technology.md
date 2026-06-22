@@ -2,7 +2,7 @@
 layout: post
 title: The Reasons Why We Pull Back The Curtain On Technology
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/curtain.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/curtain.jpg
 atomdate: 2017-02-13T20:00:00.000Z
 tags:
   - Technology

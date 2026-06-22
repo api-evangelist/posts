@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '@Broadcom, I Am Going To Need Your Switches To Support Virtualized Containers So I Can Deploy My Own APIs Too'
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/cloud_scale_net_chip.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/cloud_scale_net_chip.jpg
 author:
   name: kinlane
 tags:

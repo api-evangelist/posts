@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Next Steps For My Screen Capture API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-screen-capture.png
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/api-evangelist-screen-capture.png
 author:
   name: kinlane
 tags:

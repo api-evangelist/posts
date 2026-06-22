@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Issue Management Using Github
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo-basic.png
+image: https://kinlane-images.s3.amazonaws.com/shared/blog/github-logo-basic.png
 author:
   name: kinlane
 date: 2012-11-09 04:27:33+00:00

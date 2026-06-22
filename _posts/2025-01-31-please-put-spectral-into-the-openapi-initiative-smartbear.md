@@ -8,7 +8,7 @@ tags:
   - OpenAPI
   - Linux Foundation
 image: >-
-  https://kinlane-productions2.s3.us-east-1.amazonaws.com/spectral/spectral-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/spectral/spectral-logo.png
 ---
 I find myself reliving the anxiety from [March of 2015](https://apievangelist.com/2015/03/26/swagger-shifts-hands-from-reverb-to-smartbear/) to [October 2015](https://apievangelist.com/2015/10/22/how-to-build-an-api-brand-through-consistent-storytelling/) to [November of 2015](https://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/) regarding the behind the scenes negotiations to get Swagger put into the Linux Foundation on API Evangelist. API Evangelist was much more diplomatic and obsequious back then, but a decade later we are much more outspoken and direct. So let’s cut to the chase. SmartBear would you please put Spectral into the OpenAPI initiative alongside OpenAPI, Arazzo, and Overlay specifications? Like Reverb, your acquisition of Stoplight has shifted some very important open-source intellectual property from which the API community has invested in over the years, and donating to the OpenAPI Initiative (OAI) would demonstrate that you are truly committed to contributing value to the space and not just extracting.
 

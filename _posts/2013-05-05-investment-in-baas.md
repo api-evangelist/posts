@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Investment in BaaS
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -17,4 +17,4 @@ This is just a small slice of the investment going on in the space.  To underst
 
 The research and development environment for the future of API resources will play out within the BaaS industry, through the efforts of small start-ups as well as from the major tech companies.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/facebook/facebook-parse.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/facebook/facebook-parse.png)

@@ -4,7 +4,7 @@ title: >-
   Are You Being Transparent With Your API Infrastructure To Attract Top Talent
   Like Netflix Is
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Work_at_Netflix.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Work_at_Netflix.png
 atomdate: 2016-09-08T20:00:00.000Z
 tags:
   - Talent

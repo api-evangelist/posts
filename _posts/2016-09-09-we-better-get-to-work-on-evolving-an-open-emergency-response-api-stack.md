@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We Better Get To Work On Evolving An Open Emergency Response API Stack
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-error.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-error.png
 atomdate: 2016-09-09 16:00:00+00:00
 tags:
 - Open

@@ -2,7 +2,7 @@
 layout: post
 title: Another View of The API vs. Data Download Model
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/quandl/quandl-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/quandl/quandl-logo.png
 author:
   name: kinlane
 tags:

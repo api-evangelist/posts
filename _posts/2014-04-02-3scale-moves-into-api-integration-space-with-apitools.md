@@ -2,7 +2,7 @@
 layout: post
 title: 3Scale Moves Into API Integration Space With APITools
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apitools-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apitools-logo.png
 author:
   name: kinlane
 tags:
@@ -21,7 +21,7 @@ APITools allows you to add all the APIs you depend on, whether they are public A
 **Establish Middleware Between Your Apps and APIs**  
 Without API integration tools, the inside of API calls are a black box. APITools doesn't just profile API transactions, it allows you to establish a middleware platform between your apps and the API they depend on. This middleware allows you to transform and inject elements into API transactions, allowing you to not just understand API operations, but force them to execute as you desire.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apitools/apitools-monitor-home-page.png)](http://bit.ly/1higNDr)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apitools/apitools-monitor-home-page.png)](http://bit.ly/1higNDr)
 
 **Evolved Awareness Of How Your APIs Operate**  
 Once web API services are connected with APITools, and the middleware configured, the learning begins via a visual dashboard, providing you with intelligence on all API operations. This awareness of API operations can become real-time, with notifications of API events, staying in tune with operations beyond the dashboard—shining a real-time light on what used to be a black box.

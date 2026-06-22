@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Join Me For AngelHack Los Angeles This Weekend with Singly
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/angelhack-11-cities.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/angelhack-11-cities.png
 author:
   name: kinlane
 tags:

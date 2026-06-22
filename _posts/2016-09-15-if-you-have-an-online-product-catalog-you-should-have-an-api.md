@@ -2,7 +2,7 @@
 layout: post
 title: If You Have An Online Product Catalog You Should Have An API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/datasheets_electronic_parts_components_search__octopart.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/datasheets_electronic_parts_components_search__octopart.png
 atomdate: 2016-09-15T16:15:44.000Z
 tags:
   - Product

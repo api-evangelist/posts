@@ -2,7 +2,7 @@
 layout: post
 title: Zapier Looks To Educate Everyone With An Introduction To APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/zapier/zapier-introduction-to-apis.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/zapier/zapier-introduction-to-apis.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ API [interoperability and reciprocity provider Zapier](https://zapier.com) is lo
 
 To help get people up to speed on APIs, Zapier’s introduction has eight chapters covering the big picture:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/zapier/zapier-introduction-to-apis.png)](https://zapier.com/learn/apis/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/zapier/zapier-introduction-to-apis.png)](https://zapier.com/learn/apis/)
 
 *   Chapter 1: Introduction
 *   Chapter 2: Protocols

@@ -2,12 +2,12 @@
 layout: post
 title: 'Weekly API.Report For March 9th, 2015'
 sourceurl: http://apievangelist.com/2015/03/09/weekly-apireport-for-march-9th-2015/
-image: https://s3.amazonaws.com/kinlane-productions/api-report/api-report-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png
 ---
 
 
 <div style="background-color:#ff4c4c; width:100%; height: 40px; padding:5px; margin-bottom: 5px;"><p align="center"><strong>Swagger is now Open API Definition Format (OADF) -- <a href="http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/" style="text-decoration:none;"><strong>READ MORE</strong></a></strong></p></div>
-<p><a href="http://api.report/" target="_blank"><img style="padding: 20px;" src="https://s3.amazonaws.com/kinlane-productions/api-report/api-report-logo.png" alt="" width="325" align="right" /></a></p>
+<p><a href="http://api.report/" target="_blank"><img style="padding: 20px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-report/api-report-logo.png" alt="" width="325" align="right" /></a></p>
 <p>This is the third week in a row I've managed to do this weekly report, something that took me about 9 hours of work, so I can see that the amount of work will vary pretty dramatically each week. Doesn't matter, I'm in for the long haul now, butI'm guessing Monday morning is going to be the common release date, as I start wrapping up on Saturday, but often can't do all the heavy lifting until Sunday.&nbsp;</p>
 <p><span>The Weekly API.Report represents the best of what I've read throughout the week, and is only what I personally felt should be showcased. Each news item comes with a link, and some thoughts I had after curating the piece of API related news. I'm trying to break down stories into as coherent buckets as I can, but it remains something that is ever changing for me, but ultimately I will settle on a clear definition for each of the research areas.</span></p>
 <p>You don't often see me lead into a story with <strong><span style="text-decoration: underline;">accounting</span></strong>, but Xero is pushing forward with their world domination plan, worthy of highlighting:</p>

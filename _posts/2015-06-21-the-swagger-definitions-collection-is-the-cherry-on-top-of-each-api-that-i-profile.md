@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Swagger Definitions Collection Is The Cherry On Top Of Each API That I Profile
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cherry.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-cherry.png
 author:
   name: kinlane
 tags:

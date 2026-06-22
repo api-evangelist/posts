@@ -2,7 +2,7 @@
 layout: post
 title: API Design Tooling From API Blueprint
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apiblueprint/apiblueprint-logo-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apiblueprint/apiblueprint-logo-2.png
 author:
   name: kinlane
 tags:

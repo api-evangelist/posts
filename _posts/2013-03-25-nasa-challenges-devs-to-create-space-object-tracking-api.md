@@ -2,7 +2,7 @@
 layout: post
 title: NASA Challenges Devs to Create Space Object Tracking API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/nasa-skymorph.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/nasa-skymorph.jpg
 author:
   name: kinlane
 tags:

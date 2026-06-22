@@ -3,7 +3,7 @@ layout: post
 title: "A Roundup of US Federal Agencies and Their APIs"
 date: 2026-05-05
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-white-house-close-up.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-white-house-close-up.jpg
 category: "Blog"
 tags:
   - Federal Government

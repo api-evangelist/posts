@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MySQL, PostgreSQL and RDS to API With Emergent One
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/emergent-one-logo-horizontal.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/emergent-one-logo-horizontal.png
 author:
   name: kinlane
 tags: []
@@ -16,7 +16,7 @@ Emergent One is a cloud service that allows you to connect to your company's MyS
 
 Using Emergent One you can define a new API, connect to your database using an agent or direct connection, then define your API resources complete with meta data, sub-resources, in-line resources, fields and computed fields. Pretty much all you will need to make a clean web API from a database.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/emergent-one/emergent-one-api-resources-from-database.png)](http://www.emergentone.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/emergent-one/emergent-one-api-resources-from-database.png)](http://www.emergentone.com/)
 
 Once you have your API resources defined, Emergent One provides you with a developer portal around these APIs, and the ability to provide developer registration, then issue keys they can use to access your data--providing the openness you desire, while keeping things secure and within your control.
 

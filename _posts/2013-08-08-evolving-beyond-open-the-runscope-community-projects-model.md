@@ -2,7 +2,7 @@
 layout: post
 title: 'Evolving Beyond Open: The Runscope Community Projects Model'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/runscope-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/runscope-logo.png
 author:
   name: kinlane
 tags:

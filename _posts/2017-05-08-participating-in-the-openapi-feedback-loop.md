@@ -2,7 +2,7 @@
 layout: post
 title: Participating In The OpenAPI Feedback Loop
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/oai_silverbadge_text.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/oai_silverbadge_text.png
 atomdate: 2017-05-08T18:00:00.000Z
 tags:
   - OpenAPI

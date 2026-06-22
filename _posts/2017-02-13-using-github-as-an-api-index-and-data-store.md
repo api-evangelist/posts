@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Github As An API Index And Data Store
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/jekyll_open_referral.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/jekyll_open_referral.png
 atomdate: 2017-02-13 23:00:00+00:00
 tags:
 - Github

@@ -2,7 +2,7 @@
 layout: post
 title: Not Every Successful API Needs Venture Capital
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/pinboard_in_blue.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/pinboard_in_blue.png
 author:
   name: kinlane
 tags:

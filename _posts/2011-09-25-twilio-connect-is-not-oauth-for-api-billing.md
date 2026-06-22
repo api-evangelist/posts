@@ -2,7 +2,7 @@
 layout: post
 title: Twilio Connect is NOT OAuth for API Billing
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/OAuth2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/OAuth2.png
 author:
   name: kinlane
 tags:
@@ -21,11 +21,11 @@ Then yesterday I got called out on Twitter by [Travis Spencer](http://travisspen
 
 In most cases OAuth is implemented for basic user account authentication, but with the introduction of OAuth 2.0 you can use for authenticating access in a very granular way for any user resources that you choose. So it could be very easily used for billing authentication, and its irresponsible of Twilio to not embrace industry standards, and developing their own, proprietary, one-off implementation.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/oauth/oauth-basic.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/oauth/oauth-basic.png)
 
 OAuth has a reputation for being tough to implement, both from a provider standpoint as well as working with as a developer, but with each version it is getting easier to use, and since its being widely accepted as an industry standard it is all of our responsibility as API owners to make sure it is used properly, and help developers understand the benefits.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/oauth/oauth-additionalscope.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/oauth/oauth-additionalscope.png)
 
 Travis is right, and using widely accepted standards like OAuth 2.0 make API consumption easier. API owners need to implement OAuth for user account authentication, as well as adding additional scope for accessing other user resources such as billing.
 

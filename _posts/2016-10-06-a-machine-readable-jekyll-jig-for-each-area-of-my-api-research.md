@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Machine Readable Jekyll Jig For Each Area Of My API Research
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puzzle-piece-gear.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-puzzle-piece-gear.png
 atomdate: 2016-10-06 16:00:00+00:00
 tags:
 - Jekyll

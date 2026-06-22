@@ -9,7 +9,7 @@ tags:
   - Sharing
   - Socialized
   - Centralized
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-autom-leaves-street.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-autom-leaves-street.jpeg
 ---
 As I have developed my understanding of how folks within enterprises wield certain words I am pulling back from using the word centralized to using the word common. There are some things that could and should be centralized, but in my experience the reasons behind why people want to centralize things are not in alignment with the best business outcomes, and what diverse teams across a large enterprise will need. In my opinion, focusing on what is common across teams is a more pragmatic and human-centered way of talking about what teams are needing.
 

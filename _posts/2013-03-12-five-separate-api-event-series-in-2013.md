@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Five Separate API Event Series In 2013
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-api-conference.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tag-cloud-api-conference.png
 author:
   name: kinlane
 tags:
@@ -13,15 +13,15 @@ When it came to API focused events, the only conference there was to attend was 
 
 Fast forward five years, and after the successful [API Strategy & Practice](http://www.apistrategyconference.com/) in February (originally scheduled for November), there are now five API event series going on:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/business-of-apis-2012/bapi-logo.png)](http://apiconference.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/business-of-apis-2012/bapi-logo.png)](http://apiconference.com/)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-practice-event-2.png)](http://www.apistrategyconference.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/api-strategy-practice-event-2.png)](http://www.apistrategyconference.com/)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-days-paris-france/api-days-logo.png)](http://apidays.io/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/events/api-days-paris-france/api-days-logo.png)](http://apidays.io/)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/nordic-apis/nordic-apis-logo-2.png)](http://nordicapis.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/nordic-apis/nordic-apis-logo-2.png)](http://nordicapis.com/)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-summit/api-summit-logo.png)](http://pages.apigee.com/api-summit-tour-registration-pr.html)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-summit/api-summit-logo.png)](http://pages.apigee.com/api-summit-tour-registration-pr.html)
 
 It is exciting to see the explosion of events, and I’m hopeful regarding how much progress will occur in 2013 with this many conversations going on. It is also promising to see the international growth, with Nordic APIs happening in Scandinavia, API Days coming from France, Business of APIs in London and API Summit spreading the conversation from United States and Australia.
 

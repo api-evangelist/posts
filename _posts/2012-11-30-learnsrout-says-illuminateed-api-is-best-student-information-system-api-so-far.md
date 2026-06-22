@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LearnSrout Says IlluminateEd API is Best Student Information System API So Far
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/learnsprout-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/learnsprout-logo.jpg
 author:
   name: kinlane
 tags:

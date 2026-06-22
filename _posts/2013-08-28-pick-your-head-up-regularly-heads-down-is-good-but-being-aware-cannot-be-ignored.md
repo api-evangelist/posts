@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pick Your Head Up Regularly, Heads Down is Good, But Being Aware Cannot Be Ignored
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/y-u-no-guy-why-u-no-pay-attention.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/y-u-no-guy-why-u-no-pay-attention.png
 author:
   name: kinlane
 tags:

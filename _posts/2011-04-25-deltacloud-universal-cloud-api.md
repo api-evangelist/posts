@@ -2,13 +2,13 @@
 layout: post
 title: Deltacloud Universal Cloud API
 url: http://apievangelist.com/2011/04/25/deltacloud-universal-cloud-api/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Cloud
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/cloud-computing/DeltaCloud.PNG "DeltaCloud")I'm spending time going through [RedHat's](http://www.redhat.com/) [Deltacloud set of cloud APIs](http://deltacloud.org/). They recently recently moved the project to the [Apache Incubator](http://incubator.apache.org/deltacloud/index.html) and submitted it to the [Distributed Management Task Force](http://www.dmtf.org/) (DMTF) .
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/cloud-computing/DeltaCloud.PNG "DeltaCloud")I'm spending time going through [RedHat's](http://www.redhat.com/) [Deltacloud set of cloud APIs](http://deltacloud.org/). They recently recently moved the project to the [Apache Incubator](http://incubator.apache.org/deltacloud/index.html) and submitted it to the [Distributed Management Task Force](http://www.dmtf.org/) (DMTF) .
 
 With the [Deltacloud API](http://deltacloud.org/) you can start an instance on an internal cloud, then with the same code start another on [Amazon EC2](http://aws.amazon.com/ec2/) or [Rackspace](http://www.rackspace.com/). This seems like the closest thing we have at the moment, to a true [cloud API standard](http://www.kinlane.com/2010/06/cloud-storage-api-standard/).
 

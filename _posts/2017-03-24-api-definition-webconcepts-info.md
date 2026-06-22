@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'API Definition: WebConcepts.info'
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_webconcepts_screenshot.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_definitions_webconcepts_screenshot.png
 author:
   name: kinlane
 tags:

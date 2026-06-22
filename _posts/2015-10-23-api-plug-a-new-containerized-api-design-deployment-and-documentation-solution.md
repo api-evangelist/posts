@@ -4,7 +4,7 @@ title: >-
   API PLUG, A New Containerized API Design, Deployment, and Documentation
   Solution
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-plug-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-plug-logo.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ tags:
 
 As 2015 has progressed, I'm seeing containers emerge as part of more stops along the API life-cycle, specifically in [deployment](http://deployment.apievangelist.com) and [virtualization](http://virtualization.apievangelist.com). A new one that just came across my radar is [API PLUG](https://apiplug.com/). I haven't played with the containerized API deployment solution yet, but after watching video, and looking through site it seems in line with what I'd expect to see from a next generation, containerized, API deployment solution.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-plug-screenshot.png)](https://apiplug.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-plug-screenshot.png)](https://apiplug.com/)
 
 [Overlapping with my previous post on reconciling API orchestration](http://apievangelist.com/2015/10/23/reconciling-my-api-orchestration-research-with-the-evolution-of-ide-sdk-and-http-clients/), I'm seeing several stops along API lifecycle present in API PLUG, beyond just API deployment, it allows you to design, deploy, and document your API which moves well into the world of API management. As I'm seeing with other emerging solutions like [API Studio from Apigee](http://apistudio.io/), I predict we will see [testing](http://testing.apievangelist.com/), [monitoring](http://monitoring.apievangelist.com/), and other critical layers of the API life-cycle emerge as orchestration layers of API PLUG.
 

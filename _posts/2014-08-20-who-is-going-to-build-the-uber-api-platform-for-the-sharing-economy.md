@@ -2,7 +2,7 @@
 layout: post
 title: Who Is Going To Build The Uber API Platform For The Sharing Economy?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/uber-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/uber-logo.jpg
 author:
   name: kinlane
 tags:

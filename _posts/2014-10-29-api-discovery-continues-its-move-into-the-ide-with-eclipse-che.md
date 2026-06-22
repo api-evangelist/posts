@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Discovery Continues Its Move Into The IDE With Eclipse Che
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/eclipse/eclipse-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/eclipse/eclipse-logo.png
 author:
   name: kinlane
 tags:

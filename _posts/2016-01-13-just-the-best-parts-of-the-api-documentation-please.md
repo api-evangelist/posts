@@ -2,7 +2,7 @@
 layout: post
 title: Just The Best Parts Of The API Documentation Please
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/slate/slate-tripit.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/slate/slate-tripit.png
 author:
   name: kinlane
 tags:

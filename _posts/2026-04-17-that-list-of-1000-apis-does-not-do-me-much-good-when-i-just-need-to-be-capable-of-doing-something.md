@@ -9,7 +9,7 @@ tags:
     - Vocabulary
     - APIs.io
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-los-angeles-downtown-from-afar.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-los-angeles-downtown-from-afar.jpg
 ---
 There is something that haunts me every time I am doing the market research I need for Naftiko. Every integration provider always has thousands of icons for the integrations they support on their website. I keep finding myself emulating this and then immediately stopping myself. This is dumb. Nobody wants this. From my experience with ProgrammableWeb, Postman Network, and API Evangelist is—nobody cares about API discovery and the APIs. They only care about what is going to be done with the service. Granted, is what integration service providers are working towards, but it still feels like a bunch of useless steps nobody really needs.
 

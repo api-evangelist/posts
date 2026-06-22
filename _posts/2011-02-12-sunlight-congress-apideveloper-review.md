@@ -2,7 +2,7 @@
 layout: post
 title: Sunlight Congress API - [Developer Review]
 url: http://apievangelist.com/2011/02/12/sunlight-congress-api--developer-review/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -28,7 +28,7 @@ The Sunlight Congress API provides the following methods:
 *   **legislators.allForZip** - get information on all legislators that represent some portion of a given zip code (typically 2 senators + 1 or more representatives)
 *   **legislators.allForLatLong** - get information on all legislators that represent a given latitude/longitude
 
-![](http://kinlane-productions.s3.amazonaws.com/sunlight-labs/sunlight-labs-112th-congress.jpg) **District**
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/sunlight-labs/sunlight-labs-112th-congress.jpg) **District**
 
 *   **districts.getDistrictsFromZip** - get district(s) that a given zip code falls within
 *   **districts.getZipsFromDistrict** - get zip codes that fall within a given district

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Ideal Profile Of Companies Who Are Doing Interesting Things With APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-rolodex-card.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-rolodex-card.png
 author:
   name: kinlane
 tags:

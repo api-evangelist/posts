@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RESTGit - Deploying APIs from My Github
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/github-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/github-logo.png
 author:
   name: kinlane
 tags:

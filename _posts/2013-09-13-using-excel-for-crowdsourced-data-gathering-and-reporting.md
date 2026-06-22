@@ -2,7 +2,7 @@
 layout: post
 title: Using Excel For Crowdsourced Data Gathering And Reporting
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ramps-to-play-components-600.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ramps-to-play-components-600.jpg
 author:
   name: kinlane
 tags:

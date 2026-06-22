@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Preparing For Conversations About Schema, Definitions And Scopes
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-conversation-bubbles.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-conversation-bubbles.png
 atomdate: 2017-02-03 01:00:00+00:00
 tags:
 - Definitions

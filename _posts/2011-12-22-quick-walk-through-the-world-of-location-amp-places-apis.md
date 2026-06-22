@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Quick Walk Through the World of Location &amp; Places APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/local-search-map-pin.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/local-search-map-pin.png
 author:
   name: kinlane
 tags:
@@ -17,14 +17,14 @@ I took a walk through what I am calling the locations and places API landscape t
 As I immerse myself in this semi-new world I want to share my findings with everyone else.  If you have any suggestions make sure and let me know in comments below.
 
 First I started with **[CityGrid APIs](http://developer.citygridmedia.com/ "CityGrid APIs")**, which provide several key location and places APIs:  
-[![](https://kinlane-productions2.s3.amazonaws.com/citygrid/citygrid_logo_200.png)](http://developer.citygridmedia.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/citygrid/citygrid_logo_200.png)](http://developer.citygridmedia.com/)
 
 *   **The Places API** - Provides functionality for information on local businesses, including search, detail, user content submission, and predictive text
 *   **The Offers API** - Provides coupons and special offers from businesses based on geography and category
 *   **The Reviews API** - Provides access to customer reviews for businesses selected by id or by geography or category
 
 Then I wanted to see what Google was doing, and of course started with the **[Google Maps APIs](https://code.google.com/apis/maps/index.html "Google Maps API"):**  
-[![](https://kinlane-productions2.s3.amazonaws.com/google/Google-Maps-Logo.jpg)](https://code.google.com/apis/maps/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/google/Google-Maps-Logo.jpg)](https://code.google.com/apis/maps/)
 
 *   **Maps JavaScript API** - The Google Maps Javascript API lets you embed Google Maps in your own web pages
 *   **Maps Image API** - The Google Maps Image APIs make it easy to embed a static Google Maps image or Street View panorama into your web page, with no need for JavaScript
@@ -37,12 +37,12 @@ Along with Google Maps they offer a set of **[Geo Web Services](https://code.go
 *   **Geocoding API** - Geocoding is the process of converting addresses into geographic coordinates
 *   **Places API** - The Google Places API is a service that returns information about places, defined as establishments, geographic locations, or prominent points of interest
 
-Already with **[CityGrid](http://www.citygrid.com/ "CityGrid")** and Google I’m seeing that the type of location and places services, really start to get complicated and diverse. With **[Google Latitude](https://code.google.com/apis/latitude/)** I start separating the location from the place, with what are two location specific APIs:[![](https://kinlane-productions2.s3.amazonaws.com/google/google_latitude_icon.jpeg)](https://code.google.com/apis/latitude/)
+Already with **[CityGrid](http://www.citygrid.com/ "CityGrid")** and Google I’m seeing that the type of location and places services, really start to get complicated and diverse. With **[Google Latitude](https://code.google.com/apis/latitude/)** I start separating the location from the place, with what are two location specific APIs:[![](https://kinlane-images.s3.amazonaws.com/apievangelist/google/google_latitude_icon.jpeg)](https://code.google.com/apis/latitude/)
 
 *   **Curent locations** - Represents the user's most recent known location
 *   **Location history** - Represents the list of all recorded user locations
 
-After Google I have to look at another big player, **[Yahoo](https://developer.yahoo.com/everything.html?category=location&view=detail "Yahoo")**. Yahoo has several location based services:[![](https://kinlane-productions2.s3.amazonaws.com/yahoo/yahoo_geo_logo_med.png)](https://developer.yahoo.com/everything.html?category=location&view=detail)
+After Google I have to look at another big player, **[Yahoo](https://developer.yahoo.com/everything.html?category=location&view=detail "Yahoo")**. Yahoo has several location based services:[![](https://kinlane-images.s3.amazonaws.com/apievangelist/yahoo/yahoo_geo_logo_med.png)](https://developer.yahoo.com/everything.html?category=location&view=detail)
 
 *   **Fire Eagle** - Fire Eagle is a service designed to build and use location-aware applications and services
 *   **GeoPlanet** - Yahoo! GeoPlanet is a resource for managing all geo-permanent named places on Earth
@@ -51,12 +51,12 @@ After Google I have to look at another big player, **[Yahoo](https://developer.
 *   **PlaceFinder** - Converts street addresses or place names into geographic coordinates (and vice versa)
 *   **Placemaker** - Identifies places mentioned in text, disambiguating them and returning unique identifiers
 
-Naturally after taking a look at Yahoo I have to go see what **[Microsoft](https://msdn.microsoft.com/en-us/library/ff701715.aspx "Microsoft")** is up to in the space:[![](https://kinlane-productions2.s3.amazonaws.com/bing/Bing_Maps_blue_200.jpg)](https://msdn.microsoft.com/en-us/library/ff701715.aspx)
+Naturally after taking a look at Yahoo I have to go see what **[Microsoft](https://msdn.microsoft.com/en-us/library/ff701715.aspx "Microsoft")** is up to in the space:[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bing/Bing_Maps_blue_200.jpg)](https://msdn.microsoft.com/en-us/library/ff701715.aspx)
 
 *   **Bing Maps API**\- The API that power Bing Maps, an online mapping service that enables users to search, discover, explore, plan, and share information about specific locations
 *   **Bings Maps Location API** - Use the Locations API to get location information (_I love this description!_)
 
-After looking at what local and mobile offerings the big players Google, Yahoo and Microsoft had I started looking at less search and mapping based services to more carrier based location and place services. I started with **[Verizon](http://developer.verizon.com/content/vdc/en/verizon-tools-apis/verizon_apis.html "Verizon")**, who has a single location API:[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/verizon/verizon-logo.jpg)](http://developer.verizon.com/content/vdc/en/verizon-tools-apis/verizon_apis.html)
+After looking at what local and mobile offerings the big players Google, Yahoo and Microsoft had I started looking at less search and mapping based services to more carrier based location and place services. I started with **[Verizon](http://developer.verizon.com/content/vdc/en/verizon-tools-apis/verizon_apis.html "Verizon")**, who has a single location API:[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/verizon/verizon-logo.jpg)](http://developer.verizon.com/content/vdc/en/verizon-tools-apis/verizon_apis.html)
 
 *   **LBS Network API** - The Verizon LBS API allows you to use the user's location to deliver specific services
 
@@ -66,7 +66,7 @@ After looking at what local and mobile offerings the big players Google, Yahoo a
 *   **Location** - Determines the location of a Sprint CDMA Device
 *   **Presence** - Determines if a device is present on the Sprint CDMA network
 
-**[AT&T](https://kinlane-productions2.s3.amazonaws.com/telcos/att-logo.jpg "AT&T")** has a LBS API:
+**[AT&T](https://kinlane-images.s3.amazonaws.com/apievangelist/telcos/att-logo.jpg "AT&T")** has a LBS API:
 
 *   **Terminal Location** - Set of Location-based Services (LBS)
 
@@ -88,7 +88,7 @@ After looking at what local and mobile offerings the big players Google, Yahoo a
 
 Makes sense for every carrier to also provide developers with a set of location services, as they don’t want to just be dumb pipes. They want to be an integrated player in their own customers handset usage.
 
-Next I start looking to put the social in local, mobile, social. Where else to you start but Facebook, which has two location based objects as part of the **[Graph API](https://developers.facebook.com/docs/reference/api/):**[![](https://kinlane-productions2.s3.amazonaws.com/facebook/facebook_logo-icon.png)](https://developers.facebook.com/docs/reference/api/)
+Next I start looking to put the social in local, mobile, social. Where else to you start but Facebook, which has two location based objects as part of the **[Graph API](https://developers.facebook.com/docs/reference/api/):**[![](https://kinlane-images.s3.amazonaws.com/shared/facebook/facebook_logo-icon.png)](https://developers.facebook.com/docs/reference/api/)
 
 *   **Checkin** - A checkin represents a single visit by a user to a location
 *   **Places** - A search option before initiating a checkin, returning name and location information from Graph API
@@ -97,7 +97,7 @@ I thought I'd consider Twitter next.  They have [Places and Geo](https://dev.t
 
 In the category of location based social network I was investigating **[Foursquare](https://developer.foursquare.com/)** and **[Gowalla](http://gowalla.com/ "Gowalla")**, but with the recent Facebook acquisition of Gowalla I think I will only look at **[Foursquare](https://developer.foursquare.com/)**. Foursquare offers access to four different APIs:
 
-[![](https://kinlane-productions2.s3.amazonaws.com/foursquare/foursquare_logo_200.png)](https://developer.foursquare.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/foursquare/foursquare_logo_200.png)](https://developer.foursquare.com/)
 
 *   **Core API** - Users, Venues, Venue Groups, Checkins, Tips, Lists, Photos, Specials, Campaigns, Events
 *   **Real-time API** - Notifies venue managers when users check in to their venues, and our user push API notifies developers when their users check in anywhere
@@ -111,7 +111,7 @@ After Foursquare you leave social, getting into the places data world, with popu
 *   **SimpleGeo Context** - Provides relevant contextual information such as weather, demographics, or neighborhood data for a specific location
 *   **SimpleGeo Places** - Businesses and points of interest
 
-In the pure places data game I’d put **[Factual](ttps://www.factual.com)** in the same category as SimpleGeo. Factual has seven location and places APIs:[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/factual/factual-logo.png)](ttps://www.factual.com)
+In the pure places data game I’d put **[Factual](ttps://www.factual.com)** in the same category as SimpleGeo. Factual has seven location and places APIs:[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/factual/factual-logo.png)](ttps://www.factual.com)
 
 *   **Places Category API** - Taxonomy to classify entities in the various Factual point-of-interest (POI) datasets
 *   **Places Crossref API** - URLs for pages that mention a specific business or point of interest or vice versa
@@ -121,7 +121,7 @@ In the pure places data game I’d put **[Factual](ttps://www.factual.com)** i
 *   **Places Resolve API** - Makes partial records complete, matches one entity against another, and assists in de-duping and normalizing datasets
 *   **Places Restaurants API** - Core places attributes in addition to 43 extended attributes on 800,000+ restaurants, bars, and casual eateries including datatypes such as cuisine, ratings, hours of operations, and price
 
-Tied with SimpleGeo and Factual is **[InfoChimps](http://www.infochimps.com/apis/geo)**. InfoChimps is a data marketplace player with some very strong location and places services:[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/infochimps/infochimps-logo.jpg)](http://www.infochimps.com/apis/geo)
+Tied with SimpleGeo and Factual is **[InfoChimps](http://www.infochimps.com/apis/geo)**. InfoChimps is a data marketplace player with some very strong location and places services:[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/infochimps/infochimps-logo.jpg)](http://www.infochimps.com/apis/geo)
 
 *   **Wikipedia Articles** - Correlate Wikipedia articles with geographic locations
 *   **Business Places by Locationary** - The Business Places by Locationary API delivers quality business information based on your geographically defined query
@@ -138,7 +138,7 @@ Tied with SimpleGeo and Factual is **[InfoChimps](http://www.infochimps.com/api
 *   **Geocoding API** - The Geocoding API is a powerful and useful tool that provides location information for any given address in the United States. Geocoding is a process that assigns geographic data (ie, latitude and longitude) to an address
 *   **Latitude Longitude and Zip Code Conversions -** This API returns approximated latitude/longitude centroids for a given zip code, along with the relative city, state, and county
 
-Then moving out of pure data players **[Yelp](https://www.yelp.com/developers/documentation/v2/overview)** has always been centered around reviews, and more recently, with version 2.0 of their API moved to be centered around the businesses. Yelp has two places APIs:[![](https://kinlane-productions2.s3.amazonaws.com/api-evangelist/yelp/Yelp_Logo_200.jpg)](https://www.yelp.com/developers/documentation/v2/overview)
+Then moving out of pure data players **[Yelp](https://www.yelp.com/developers/documentation/v2/overview)** has always been centered around reviews, and more recently, with version 2.0 of their API moved to be centered around the businesses. Yelp has two places APIs:[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/yelp/Yelp_Logo_200.jpg)](https://www.yelp.com/developers/documentation/v2/overview)
 
 *   **Search API** - Searches for Businesses
 *   **Business API** - Returns full details of businesses

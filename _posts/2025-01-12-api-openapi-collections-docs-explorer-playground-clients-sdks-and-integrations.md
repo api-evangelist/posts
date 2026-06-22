@@ -12,7 +12,7 @@ tags:
   - SDKs
   - Integrations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-nyc-intersection.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-nyc-intersection.jpg
 ---
 
 <style>

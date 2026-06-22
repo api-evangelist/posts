@@ -2,7 +2,7 @@
 layout: post
 title: API Monitoring Is Often About The Little Details
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-fortress.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/api-fortress.png
 author:
   name: kinlane
 tags:

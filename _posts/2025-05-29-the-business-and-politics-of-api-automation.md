@@ -7,7 +7,7 @@ tags:
   - Business
   - Politics
   - Automation
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-docks-oakland-4.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-docks-oakland-4.jpeg
 ---
 I learned over a decade ago why API discovery isn’t a solvable problem within the world of technology—the people in charge of the narrative don’t see business, they see technological solutions. Pundits in the API universe often give a blank nod towards [APIs.json](https://apisjson.org/) as part of the API discovery solution, but rarely ever put it to work and adopt as part of their narrative. Why? Because APIs.json provides references to the technical bits they care about, but also provides references to the business bits they do not see or care about-—which nullifies the use case for them. The precision of the technical details like headers, parameters, and semantics are everything, but having to get access to resources, pay for something, and be aware of terms of service are just taken for granted as gravity in our universe and are just part of the reality of an engineers world-—they aren’t things they have to think or care about. I used to think this was just engineers, but now I know it is actually by design.
 

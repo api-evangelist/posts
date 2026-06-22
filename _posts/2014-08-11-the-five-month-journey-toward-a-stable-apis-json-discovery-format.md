@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: The Five Month Journey Toward A Stable APIs.json Discovery Format
-image: https://s3.amazonaws.com/kinlane-productions2/apis-json/apisdotjson.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json/apisdotjson.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ I [published the story last night on finalizing the most recent version of the A
 
 After publishing the story last night, I also had an interesting comment on Google+ from [Jonas Hellström](https://plus.google.com/u/0/+JonasHellstr%C3%B6m/posts):
 
-![](https://s3.amazonaws.com/kinlane-productions2/apis-json/apis-json-timeline.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json/apis-json-timeline.png)
 
 The question got me thinking about how APIs.json rolled out. As with [API Commons](http://apicommons.org/), APIs.json started as a conversation between Steve Willmott ([@njyx](https://twitter.com/njyx)) and I. Around the beginning of April we combined our notes on what each of us envisioned when it came to API discovery, establishing the first APIs.json definition with the timeline going roughly like this:
 

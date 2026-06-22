@@ -2,7 +2,7 @@
 layout: post
 title: Finding Sponsors for my Local Hackathon Tour
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/citygrid-los-angeles.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/citygrid-los-angeles.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: API Icon Vocabulary
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/devicons_screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/devicons_screenshot.png
 atomdate: 2017-03-22T16:00:00.000Z
 tags:
   - Vocabulary

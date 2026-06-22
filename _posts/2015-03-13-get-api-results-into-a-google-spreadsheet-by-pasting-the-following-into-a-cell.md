@@ -4,7 +4,7 @@ title: >-
   Get API Results Into A Google Spreadsheet By Pasting The Following Into A
   Cell 
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/alan-delevie.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/alan-delevie.jpeg
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ My API hero of the day is [Alan deLevie](https://twitter.com/adelevie) (@adelevi
 
 When you visit [ecfa.link](https://ecfs.link/search?q=12-83), and scroll to the bottom of the page you will see simple instructions on how to get the data into your Google Spreadsheet:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ecfs-link-google-spreadsheet-importxml.png)](https://ecfs.link/search?q=12-83)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ecfs-link-google-spreadsheet-importxml.png)](https://ecfs.link/search?q=12-83)
 
 This is what we need more of, something that should be default for all data APIs. There are some other RSS, JSON, and XML goodies on the page too, but that is another story. Providing a simple copy / paste option for taking API driven data and making available in Google Spreadsheets is what I'd consider fundamental building block, getting us towards what I talk about in my post. Spreadsheet users need a wealth of simple, copy and paste resources like this that they can tap, from both public, and private data sources.
 

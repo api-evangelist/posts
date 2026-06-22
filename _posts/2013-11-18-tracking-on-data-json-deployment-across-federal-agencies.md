@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Tracking On Data.json Deployment Across Federal Agencies
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/FDA_-_Data.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/FDA_-_Data.png
 author:
   name: kinlane
 tags:

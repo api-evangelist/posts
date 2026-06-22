@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The General Bikeshare Feed Specification
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/north_american_bikeshare_association.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/north_american_bikeshare_association.png
 atomdate: 2016-09-13 18:00:00+00:00
 tags:
 - API Evangelist

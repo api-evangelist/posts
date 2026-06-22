@@ -2,7 +2,7 @@
 layout: post
 title: The Logo Page Over At The MYOB API Is Very Helpful
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/myob-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/myob-logo.png
 author:
   name: kinlane
 tags:

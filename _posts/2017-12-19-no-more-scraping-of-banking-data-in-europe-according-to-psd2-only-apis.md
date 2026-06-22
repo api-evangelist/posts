@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'No More Scraping Of Banking Data In Europe According to PSD2, Only APIs'
-image: https://s3.amazonaws.com/kinlane-productions2/psd2/european-commission-press-release-psd2-scraping.png"
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/psd2/european-commission-press-release-psd2-scraping.png"
 ---
 
-<p><a href="http://europa.eu/rapid/press-release_MEMO-17-4961_en.htm"><img src="https://s3.amazonaws.com/kinlane-productions2/psd2/european-commission-press-release-psd2-scraping.png" align="right" width="45%" style="padding: 15px" /></a>
+<p><a href="http://europa.eu/rapid/press-release_MEMO-17-4961_en.htm"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/psd2/european-commission-press-release-psd2-scraping.png" align="right" width="45%" style="padding: 15px" /></a>
 <p>Part of my partnership with <a href="Streamdata.io">http://streamdata.io</a> centers around me investing more time into studying the banking industry, starting with the rollout of PSD2 in Europe next month. I’ll be working through each aspect of the regulations for the banking industry when it comes to APIs, but I wanted to highlight a recent change regarding scraping that is pretty monumental. In <a href="http://europa.eu/rapid/press-release_MEMO-17-4961_en.htm">a recent press release from the European Commission they further clarified guidance for third party payment services providers (TPPs)</a>, and whether or not they can be scraping data from bank still, instead of using the APIs being mandated by the commission.
 
 <p>Here is the section from the press release specifically addressing “what data can TPPs access and use via screen scraping”:

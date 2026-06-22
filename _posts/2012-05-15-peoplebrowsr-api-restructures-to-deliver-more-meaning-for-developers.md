@@ -2,7 +2,7 @@
 layout: post
 title: PeopleBrowsr API Restructures to Deliver More Meaning for Developers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kr_pb_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kr_pb_logo.png
 author:
   name: kinlane
 tags:
@@ -21,7 +21,7 @@ On the surface its really hard to know what each of these APIs does, but after I
 
 Today they’ve restructured their three APis into a single API, dubbed the [PeopleBrowsr Kred API](https://developer.peoplebrowsr.com/ "PeopleBrowsr Kred API"), and grouped all the API methods into four logical groups:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/peoplebrowsr/kred-dashboard.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/peoplebrowsr/kred-dashboard.png)
 
 *   **[Find Influencers](https://developer.peoplebrowsr.com/find "Find Influencers")** - Pinpoints influential people on any subject or within communities connected by shared interests or affinities.
 *   **[Deep Analytics](https://developer.peoplebrowsr.com/deep "Deep Analytics")** - Author-based analytics which includes Kredentials (a single-screen summary of anyone’s social presence), historical Kred scores, reach, and friends & followers.

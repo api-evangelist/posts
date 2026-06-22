@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Do You Make Money From Your Apps?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Hundred-dollar-bill.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Hundred-dollar-bill.jpg
 author:
   name: kinlane
 tags:

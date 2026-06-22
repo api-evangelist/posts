@@ -8,7 +8,7 @@ tags:
   - Documentation
   - Interactive
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-docks-big-cosco-ship.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-docks-big-cosco-ship.jpg
 ---
 We’ve done a lot of sifting through the [details of how and why API producers provide documentation, OpenAPI, SDKs, and other resources this week](https://apievangelist.com/2025/01/12/api-openapi-collections-docs-explorer-playground-clients-sdks-and-integrations/). We’ve thought through the [what API producers want as well as what API consumers want](https://apievangelist.com/2025/01/17/what-api-producers-want-and-what-api-consumers-want/). We are working towards a standardized set of benchmark of what each API must, should, and could have. There is plenty of more conversations to have and stories to tell, but as of this week, here is what we recommend for API producers to consider as a baseline for every one of their APIs, whether or not is is publicly or privately available, establishing an onboarding base, ensuring governance in place, and only then do you begin reaching even further with integrations. 
 

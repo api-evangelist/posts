@@ -2,7 +2,7 @@
 layout: post
 title: The New StrongLoop API Server Provides A Look At Future Of API Deployment
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/strongloop/strongloop-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/strongloop/strongloop-logo.png
 author:
   name: kinlane
 tags:
@@ -28,7 +28,7 @@ Just as StrongLoop did in their release post, let’s dive deeper into LoopBack 
 
 This is one of the few sophisticated, next generation, API deployment frameworks I have seen. We have had gateways for a while, and we have a new breed of database and spreadsheet to API providers like [APISpark](http://bit.ly/1sgwGpq). We also have a new wave of [scraping](http://scraping.apievangelist.com) to API solutions from [Kimono Labs](http://bit.ly/1kNmUGe) and [Import.io](http://bit.ly/1pKwOg9), but I’d say [Orchestrate.io](http://bit.ly/1wWkDwH) gets us closest to the vision I have for StrongLoop, when it comes to API deployment.
 
-![](https://s3.amazonaws.com/kinlane-productions2/legos.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/legos.png)
 
 I’ve referenced this ability in my stories on virtual API stacks:
 

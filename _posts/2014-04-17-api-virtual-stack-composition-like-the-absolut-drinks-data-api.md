@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Virtual Stack Composition Like The Absolut Drinks Data API
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/absolut/absolut-vodka.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/absolut/absolut-vodka.jpg
 author:
   name: kinlane
 tags:

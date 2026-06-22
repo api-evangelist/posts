@@ -4,7 +4,7 @@ title: Focusing On What You Do Best While Leveraging APIs To Not Reinvent The Wh
 date: 2017-05-17T15:00:00.000Z
 tags:
   - Analysis
-image: https://s3.amazonaws.com/kinlane-productions2/keen_logo_dark.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/keen_logo_dark.png
 author:
   name: kinlane
 ---

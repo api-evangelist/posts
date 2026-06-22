@@ -2,7 +2,7 @@
 layout: post
 title: Slack Nails The Reasons Why You Open Up And Share Your API Road Map
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/slack-platform-road-map.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/slack-platform-road-map.png
 author:
   name: kinlane
 date: 2016-04-07T20:56:15.000Z

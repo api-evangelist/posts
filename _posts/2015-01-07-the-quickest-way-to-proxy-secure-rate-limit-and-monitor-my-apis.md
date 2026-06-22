@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Quickest Way To Proxy, Secure, Rate Limit, and Monitor My APIs
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-apicast.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-apicast.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I use [3Scale for my API management infrastructure](/admin/blog/bit.ly/13esk6Q)\
 
 This time around, I logged into my 3Scale admin area, went to my API integration area, and saw the setup for the 3Scale Cloud API proxy that they are calling [APICast](http://www.3scale.net/apicast/). I can't help but notice the simple setup of the proxy--I give it a private base URL for my API, it gives me a public base URL back, and then I can configure the proxy rules, setting the rate limits for each of my API resources.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-apicast.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-apicast.png)
 
 That is it. I can set up my APIs in a sandbox environment, then take it live when I am ready. It is the quickest way to secure my APIs I've seen, allowing me to instantly lock down my APIs, and require anyone who uses it to register for a key, and then I am able to track on how it is being put to use—no server configuration or setup needed.
 

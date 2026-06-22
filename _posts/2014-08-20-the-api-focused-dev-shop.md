@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The API Focused Dev Shop
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-business-icon.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-business-icon.png
 author:
   name: kinlane
 tags:
@@ -20,51 +20,51 @@ The tag "API Agency" ticked over to 6 today, when I added [Aquevix](http://www.
 
 **6 Companies**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/it-assist-log.png)](http://apisupport.itassist.com/)[**API Support**](http://apisupport.itassist.com/)  
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/it-assist-log.png)](http://apisupport.itassist.com/)[**API Support**](http://apisupport.itassist.com/)  
   
 Developer Support Beyond FAQ, Forums and Documentation. First class support for your API. Processing an API request often means directly or indirectly interacting with 2 or more systems. Is your support team equipped with the necessary training, tools, information and support infrastructure to be successful? IT Assist helps you design and implement your API support strategy and infrastructure, offer training to your support team and as needed handle your developer support.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://apisupport.itassist.com/ "Website") [![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png)](https://twitter.com/api_support "Twitter")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://apisupport.itassist.com/ "Website") [![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-twitter-icon.png)](https://twitter.com/api_support "Twitter")
 
 * * *
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-chappies.png)](http://www.apichappies.co.uk/)[**APIChappies**](http://www.apichappies.co.uk/)  
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/api-chappies.png)](http://www.apichappies.co.uk/)[**APIChappies**](http://www.apichappies.co.uk/)  
   
 We are a small Independent software business specialising in the. Enhancement of existing software. We use standalone applications and APIs to extend the functionality of existing systems. Integration of separate systems. We connect disparate online SaaS applications together to create an integrated system. Automation of business processes. We convert manual menial tasks into automated business processes, reclaiming time and costs.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.apichappies.co.uk/ "Website") [![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png)](https://twitter.com/APIChappies "Twitter")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.apichappies.co.uk/ "Website") [![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-twitter-icon.png)](https://twitter.com/APIChappies "Twitter")
 
 * * *
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apinomic-logo.png)](http://www.apinomic.com/)[**Apinomic**](http://www.apinomic.com/)  
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/apinomic-logo.png)](http://www.apinomic.com/)[**Apinomic**](http://www.apinomic.com/)  
   
 We design market strategies for companies looking to extend their APIs into digital partnerships. API Strategies to accelerate social and mobile content and digital partnerships. Big data asset definitions and valuations to define API approaches. API pricing and tier strategies to monetize data. Developer and partner outreach strategies to expand mobile success and "mash-ups”. Business model development for emerging start ups and matching them to enterprise clients and needs. Best practices to compete and win in the social, mobile, and big data marketplaces.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.apinomic.com/ "Website") [![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png)](https://twitter.com/Apinomic "Twitter")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.apinomic.com/ "Website") [![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-twitter-icon.png)](https://twitter.com/Apinomic "Twitter")
 
 * * *
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/aquevix-logo-50px.png)](http://www.aquevix.com/)[**Aquevix**](http://www.aquevix.com/)  
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/aquevix-logo-50px.png)](http://www.aquevix.com/)[**Aquevix**](http://www.aquevix.com/)  
   
 Aquevix is the go to company that can weave the abstract into a finished product. We are a software company that provides innovative, business solutions worldwide. Need an API? We got you covered. We provide full REST/JSON based API implementation and related apps with best practices! We are capable of developing highly specialized APIs that integrate seamlessly with powerful apps and increase overall performance of applications.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://www.aquevix.com/ "Website") [![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png)](https://twitter.com/aquevix "Twitter")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://www.aquevix.com/ "Website") [![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-twitter-icon.png)](https://twitter.com/aquevix "Twitter")
 
 * * *
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/LaunchAny-Logo.png)](http://launchany.com/)[**Blue Jazz Consulting**](http://launchany.com/)  
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/LaunchAny-Logo.png)](http://launchany.com/)[**Blue Jazz Consulting**](http://launchany.com/)  
   
 Blue Jazz Consulting is focused on guiding product companies from idea to revenue using Ruby and Rails and Java-based technologies. Based in Austin,TX, we bring experienced professionals and a history of successful projects to the community. We offer expert consulting services for existing products and early-stage startups. We offer expert consulting and development in software architecture, specifically on the backend requirements of complex B2C and B2B applications. We love to model, design, and build web and mobile APIs to ensure that your business capabilities can be consumed successfully by internal developers, devices, and third-parties using a Ruby or Java platform.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://launchany.com/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://launchany.com/ "Website")
 
 * * *
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/stateless-api-consulting.png)](http://stateless.co/)[**Stateless**](http://stateless.co/)  
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/stateless-api-consulting.png)](http://stateless.co/)[**Stateless**](http://stateless.co/)  
   
 At Stateless we employ our specialist experience, design processes and tools to ensure our clients realise the most value from their APIs. We're making the world of APIs beautiful.We work with you to surface the business goals for the API. We decide on the metrics to measure and track. These will help in understanding whether we are achieving our goals. We create developer personas to represent the various types of consumer, and a roadmap to deliver features tailored to them. We offer engineering and product management resources delivered using the best modern processes and tools. We employ Lean practice by tracking important metrics and constantly feeding that insight back into the live roadmap. We provide technical writers, and use the latest tools and techniques to interlace your test suite and your documentation.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://stateless.co/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://stateless.co/ "Website")
 
 * * *
 

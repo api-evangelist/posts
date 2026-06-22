@@ -2,7 +2,7 @@
 layout: post
 title: Simple, Intuitive API Backends With HTTPHUB
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Httphub-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Httphub-Logo.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ HTTPHUB is very interesting. It starts by giving you a root namespace, like http
 
 I think that HTTPHUB captures the simplicity of APIs. Obviously the system will have some limitations, but ultimately it makes on boarding with the concept of APIs, and getting up and running with an API backend as frictionless as possible. HTTPHUB also gives you logging, and user management for your namespace, adding some other essential elements you will need for your API backend.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Httphub-examples.png)](https://www.httphub.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Httphub-examples.png)](https://www.httphub.com/)
 
 Here are some of the features of an HTTPHUB account:
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google APIs Console
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ Developers can bundle a collection of APIs into a project, and manage the follow
 *   **Project keys** - Each project can be identified by either an API key or an OAuth 2.0 token. Using this key/token in API requests will identify the project, and enable the recording of usage data, filtering restrictions, and bill usage to the proper project. Within the Console developers can generate or revoke API keys or OAuth 2.0 certificates for specific application.
 *   **Team members** \- Team members can be established with read, write, or ownership access to each project's Console page.
 
-The Google APIs Console supports fifteenkinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/google/Google-APIs-Console-1.png)
+The Google APIs Console supports fifteenkinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/google/Google-APIs-Console-1.png)
 
 *   [Books API](http://code.google.com/apis/books/ "Google Books API")
 *   [Buzz API](http://code.google.com/apis/buzz/ "Buzz API")

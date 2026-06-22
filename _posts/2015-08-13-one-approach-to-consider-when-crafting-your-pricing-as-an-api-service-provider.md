@@ -2,7 +2,7 @@
 layout: post
 title: One Approach To Consider When Crafting Your Pricing As An API Service Provider
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/APIMATIC-Pricing.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/APIMATIC-Pricing.png
 author:
   name: kinlane
 tags:

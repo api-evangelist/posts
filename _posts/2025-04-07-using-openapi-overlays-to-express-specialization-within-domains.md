@@ -8,7 +8,7 @@ tags:
   - Rules
   - Exceptions
   - Feedback Loops
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-docks-oakland-4.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-docks-oakland-4.jpeg
 ---
 I was learning about [the role of service domain specialization in adopting the Banking Industry Architecture Network (BIAN)](https://www.linkedin.com/pulse/role-service-domain-specialization-adopting-bian-banking-sarangal-xd35c/), and felt there is a significant opportunity to take the OpenAPI for BIAN and apply OpenAPI Overlays to reflect the domain-based specialization they are highlighting. BIAN has defined a list of 327 service domains, which are designed to be mutually exclusive and collectively exhaustive, ensuring there I no functional redundancy between them. BIAN provides a pretty compelling list of reasons why specialization may be necessary which also speaks to the reasons I see enterprises exploring [OpenAPI Overlays](https://bit.ly/41InuzT).
 

@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Narrowing In On My API Governance Strategy Using API Transit To Map Out PSD2'
-image: https://s3.amazonaws.com/kinlane-productions2/talks/november-2015/subway-map-15.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/talks/november-2015/subway-map-15.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/talks/november-2015/subway-map-15.png" align="right" width="45%" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/talks/november-2015/subway-map-15.png" align="right" width="45%" style="padding: 15px;" />
 <p><a href="https://apievangelist.com/2017/08/17/testing-out-the-concept-of-api-transit-instead-of-api-lifecycle/">I’m still kicking around my API Transit strategy in my head</a>, trying to find a path forward with applying to API governance. <a href="https://apievangelist.com/2015/11/29/the-api-lifecycle-my-talk-from-defrag-and-apistrat/">I started moving it forward a couple years ago as a way to map out the API lifecycle</a>, but in my experience, managing APIs are rarely a linear lifecycle. I have been captivated by the potential of the subway map to help us map out, understand, and navigate complex infrastructure since I learned about <a href="https://en.wikipedia.org/wiki/Tube_map">Harry Beck’s approach to the London Tube map which has become the standard for quantifying transit around the globe</a>.
 
 <p>I am borrowing from Beck’s work, but augmenting for a digital world to try and map out the API practices I study in my research of the space in a way that allow them to be explored, but also implemented, measured, and reported upon by all stakeholders involved with API operations. While I’m still pushing forward this concept in the safe space of my own API projects, I’m beginning to dabble with applying at the industry level, by applying to PSD2 banking, and seeing if I can’t provide an interactive map that helps folks see, understand, and navigate what is going on when it comes to banking APIs.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using The Crunchbase API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/crunchbase-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/crunchbase-logo.png
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ To prove we could get what we needed, we took the first startup returned, grabbe
 
 Back to the /search endpoint. Each search only returned 10 results, when there were actually 5,700. I looked at the documentation and the only parameter listed, was “query”. No way to control how many results returned, paginate or otherwise. So I start guessing, appending page=, and max=, maxrows=, anything to get more results. Eventually I was able to change the page, so I was able to write logic to loop through each page, getting at all the results required.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/crunchbase/crunchbase-search-endpoint.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/crunchbase/crunchbase-search-endpoint.png)
 
 For each returned result from the /search endpoint, I would take the company name and perform a company search on the /entity endpoint. However each call to the endpoint would yield a 301, redirecting me to another URL. So the search for:
 
@@ -42,7 +42,7 @@ With the /search endpoint based upon a single keyword search, that spans title, 
 
 Now we had a MySQL table filled with 772 education startups. I exported as CSV, uploaded as a Google Spreadsheet, and shared it with Audrey. Game over. She had what she needed. Overall it took about 3 hours start to finish, which she felt was tedious, and feeling there was a lack of clarity regarding the whole process--something she couldn’t have done with me and my API programming skills. This is a problem CrunchBase.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/crunchbase/startup-ecosystem-visualization.png)](http://developer.crunchbase.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/crunchbase/startup-ecosystem-visualization.png)](http://developer.crunchbase.com/)
 
 Audrey is your target audience. This needs to be dead simple. She shouldn’t have to blindly navigate the API endpoints, documentation, data structures and holes in the data. These are things I’m used to having to cobble together, but an analyst like herself, won’t have the time and patience.
 

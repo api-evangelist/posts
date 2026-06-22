@@ -4,7 +4,7 @@ title: >-
   This Week Is First Milestone in White House Roadmap for an API Driven Digital
   Strategy
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/US_white_house_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/US_white_house_logo.png
 author:
   name: kinlane
 date: 2012-08-19T22:24:34.000Z
@@ -21,23 +21,23 @@ This Thursday, August 23rd 2012 will be the first major milestone for department
 
 I’ve been [monitoring 246 departments and agencies](/federal_government.php "monitoring 246 departments and agencies") and so far three have released drafts of their strategy:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/commerce.png)](http://www.commerce.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/commerce.png)](http://www.commerce.gov/)
 
 **[Department of Commerce](http://www.commerce.gov/)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/icon-set/green-check-150.jpg)](/federal_government_digital_strategy.php?a=commerce&TB_iframe=true&height=500&width=700)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/green-check-150.jpg)](/federal_government_digital_strategy.php?a=commerce&TB_iframe=true&height=500&width=700)
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/ed.png)](http://www.ed.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/ed.png)](http://www.ed.gov/)
 
 **[Department of Education (ED)](http://www.ed.gov/)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/icon-set/green-check-150.jpg)](/federal_government_digital_strategy.php?a=ed&TB_iframe=true&height=500&width=700)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/green-check-150.jpg)](/federal_government_digital_strategy.php?a=ed&TB_iframe=true&height=500&width=700)
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/usaid.png)](http://www.usaid.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/usaid.png)](http://www.usaid.gov/)
 
 **[United States Agency for International Development (USAID)](http://www.usaid.gov/)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/icon-set/green-check-150.jpg)](/federal_government_digital_strategy.php?a=usaid&TB_iframe=true&height=500&width=700)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/icon-set/green-check-150.jpg)](/federal_government_digital_strategy.php?a=usaid&TB_iframe=true&height=500&width=700)
 
 While the Department of Commerce and Department of Education have only published paragraphs discussing how they are engaging with users, the United States Agency for International Development (USAID) has identified three datasets for the web API portion and two optimized for mobile use. All three have published their digital strategy in HTML, XML and JSON formats, meeting the requirements of "machine readable by default".
 

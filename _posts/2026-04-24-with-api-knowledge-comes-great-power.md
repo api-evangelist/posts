@@ -3,7 +3,7 @@ layout: post
 title: "With API Knowledge Comes Great Power"
 date: 2026-04-24
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/stalin-time-electric-tower-sun-behind.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/stalin-time-electric-tower-sun-behind.jpg
 category: "Blog"
 excerpt: "If you know where the APIs are, you end up with more control in your workplace. If you know the people who own these APIs, you end up with more control in your workplace. It isn't something that just happens overnight. You have to do the work."
 ---

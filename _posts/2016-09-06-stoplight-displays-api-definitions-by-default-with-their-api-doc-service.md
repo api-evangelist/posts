@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stoplight Displays API Definitions By Default With Their API Doc Service
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API_Docs.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/API_Docs.png
 atomdate: 2016-09-06 22:00:00+00:00
 tags:
 - Definitions

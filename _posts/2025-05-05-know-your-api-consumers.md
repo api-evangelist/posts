@@ -9,7 +9,7 @@ tags:
   - Transparency
   - Consumers
   - Trust
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-times-square-corner.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-times-square-corner.jpeg
 ---
 The age of build and they will come API portals with free tiers across your APIs is over. Web, mobile, and even device applications were friendlier versions of API consumers that may (or may not) help you evolve your business and platform, but artificial intelligence has changed the game. The API game isn’t a friendly game anymore and if you are the steward of valuable digital resources and capabilities you will need to know your API consumer.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Defining The Surface Area Of The Facebook API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/the_facebook_api_index_screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/the_facebook_api_index_screenshot.png
 atomdate: 2017-05-02T16:00:00.000Z
 tags:
   - Facebook

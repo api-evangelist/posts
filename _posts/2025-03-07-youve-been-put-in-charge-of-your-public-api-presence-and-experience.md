@@ -8,7 +8,7 @@ tags:
   - Experience
   - Portal
   - OpenAPI
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-seattle-shipping-people-walking.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-seattle-shipping-people-walking.jpg
 ---
 In an effort to capture another recent conversation I had with someone being tasked with API change at scale within their enterprise, I wanted to capture as much of what I shared in a story that others can read and learn from on their own, but also so that I can use as a link referral in response to future conversations. The conversation reflects my recent journey at Bloomberg, and conversations I am having with enterprises across many industries, while outlining what it is I offer to enterprise organizations in the form of guidance and consulting.
 

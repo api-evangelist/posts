@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BandPage Connects Bands To Their Fans Using An API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/BandPage-Connect-Logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/BandPage-Connect-Logo.png
 author:
   name: kinlane
 tags:
@@ -22,7 +22,7 @@ This is where BandPage Connect comes in. The API will allow bands to provide con
 
 BandPage Connect provides a solid approach for the music industry to provide access to valuable band assets, but also provides a centralized way to control presence. Ryan Kavontrka, Digital Manager for Maroon 5, Sara Bareilles, Gavin DeGraw, and Eve 6, says, "There are a lot of platforms out there that have our bio, photos, and videos, but the info they have about us is out of date and we don't have a way to change it. This makes it so that any member of a band or their manager/label can update the content, not just the guy who knows HTML. If you're connected with BandPage, you know your entire online presence is up-to-date."
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/bandpage/BandPage-Developer-Portal.png)](https://developers.bandpage.com/home)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/bandpage/BandPage-Developer-Portal.png)](https://developers.bandpage.com/home)
 
 All a band has to do, is manage their presence via BandPage, and they can use BandPage Everywhere to allow any fan or partner to easily embed content on sites and social networks, as well as allowing developers to build custom experiences--all while maintaining control over every aspect of a bands presence.
 

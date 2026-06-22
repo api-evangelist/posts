@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sharing 235K API Definitions With The English Language API Recipe Book
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-copyright.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-copyright.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ You see, in my opinion, API definitions should NOT fall under copyright. Like re
 
 For each API definition, I cover the base GET, POST, PUT, and DELETE verbs for each word, providing a basic query via a parameter, and return a name, and description as the basic underlying data model. I am already playing with other variations of database models, and have also generated another dimension for each word, by again iterating through each word, and adding it as a secondary level resource. I am also playing with other relationships, and ideas for expanding the dimensions of this recipe book, but wanted to get this first version out the door.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/english-language-dictionary-notes.png)](http://english-language-api-recipe-book.github.io/master/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/english-language-dictionary-notes.png)](http://english-language-api-recipe-book.github.io/master/)
 
 Overall, I just want to show how easy it is to programmatically generate API definitions, and add this English Language API Recipe Book to my already growing number of API definitions, [from popular APIs that I include in the API Stack](http://theapistack.com). Through this work, I wanted to emphasize, that no matter how much work you put into the naming, ordering, and design of your API definitions, they are not creative works that you should lock up and defend--your API definitions should be open, easily accessible, shared, and designed for reuse.
 

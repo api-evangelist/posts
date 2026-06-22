@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reclaiming My Domain
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-fist.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-fist.png
 author:
   name: kinlane
 tags:

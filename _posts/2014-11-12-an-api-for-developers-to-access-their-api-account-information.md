@@ -2,7 +2,7 @@
 layout: post
 title: An API For Developers To Access Their API Account Information
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mailjet/logo-mailjet.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/mailjet/logo-mailjet.png
 author:
   name: kinlane
 tags:

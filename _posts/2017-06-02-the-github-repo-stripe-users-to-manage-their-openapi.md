@@ -8,7 +8,7 @@ tags:
   - Github
   - API Evangelist
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/stripe/stripes-openapi-specification-on-github.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/stripe/stripes-openapi-specification-on-github.png
 author:
   name: kinlane
 ---

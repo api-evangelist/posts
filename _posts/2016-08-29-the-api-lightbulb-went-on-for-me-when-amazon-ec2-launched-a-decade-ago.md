@@ -2,7 +2,7 @@
 layout: post
 title: The API Lightbulb Went On For Me When Amazon EC2 Launched A Decade Ago
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Amazon_EC2_Beta___AWS_Blog.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Amazon_EC2_Beta___AWS_Blog.png
 atomdate: 2016-08-29T20:00:00.000Z
 tags:
   - Amazon

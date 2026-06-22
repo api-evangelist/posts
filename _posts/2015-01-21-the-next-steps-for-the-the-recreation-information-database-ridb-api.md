@@ -2,7 +2,7 @@
 layout: post
 title: The Next Steps For The The Recreation Information Database (RIDB) API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ridb-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ridb-api.png
 author:
   name: kinlane
 tags:

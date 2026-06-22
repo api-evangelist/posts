@@ -4,7 +4,7 @@ layout: post
 title: "The APIs of the World's Top Universities — 634 of Them, and Most Are Library Plumbing"
 date: 2026-06-04
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-aov6mV1n7VGeQ.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-aov6mV1n7VGeQ.jpg
 category: "Blog"
 tags:
  - Universities

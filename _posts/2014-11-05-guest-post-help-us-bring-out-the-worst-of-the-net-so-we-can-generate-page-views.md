@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Guest Post: Help Us Bring Out The Worst Of The Net So We Can Generate Page Views'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-angry-mob.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-angry-mob.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: 'Combined Calls: Monetization Through The Bundling Of API Calls '
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/alchemy/alchemy-api-ibm-version.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/alchemy/alchemy-api-ibm-version.png
 author:
   name: kinlane
 tags:

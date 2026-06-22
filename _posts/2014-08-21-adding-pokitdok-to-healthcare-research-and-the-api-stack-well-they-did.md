@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding PokitDok To Healthcare Research And The API Stack (Well They Did)
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/pokitdok.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/pokitdok.png
 author:
   name: kinlane
 tags:

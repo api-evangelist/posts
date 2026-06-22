@@ -10,7 +10,7 @@ tags:
   - AI
   - Artificial Intelligence
   - Automation
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-border-watching-cars.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-border-watching-cars.jpg
 ---
 I am an equal opportunity hater of automobiles as well as the Internet. I see them both as equal destroyers of the earth and humanity. Of course, one can argue that both of these technologies have benefits, but once can also easily argue they are widely misused and have very damaging effects on our world. As I was thinking about these parallel universes I was pondering how automobiles are also an “agentic”, in the same sense that “agentic” AI is being hustled right now. They are both being sold as “freedom”, but in reality dictate your reality as part of a wider system that is very difficult to get out of once you are indoctrinated into.
 

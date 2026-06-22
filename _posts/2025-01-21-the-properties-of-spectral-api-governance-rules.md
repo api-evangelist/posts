@@ -8,7 +8,7 @@ tags:
   - Spectral
   - Rules
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-statue-supreme-court.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-statue-supreme-court.jpg
 ---
 [Spectral is a command line tool for linting OpenAPI and other schema for common patterns and anti-patterns](https://standards.apievangelist.com/store/spectral/). Spectral is configured using what are called Spectral rules organized into Spectral rulesets, which can be defined as YAML, JSON. Each Spectral rule comes with a handful of properties which can be configured to achieve the desired outcomes with a rule, which should be explored and intimately understood in relation to the schema properties being linted, before you consider moving on to crafing custom Spectral rules.
 

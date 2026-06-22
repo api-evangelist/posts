@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Work On The Next Version Of The Crocodoc API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/crocodoc-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/crocodoc-logo.png
 author:
   name: kinlane
 tags:

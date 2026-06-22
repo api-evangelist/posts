@@ -3,7 +3,7 @@ layout: post
 title: >-
   An API Monetization Framework To Help Me Standardize Pricing For The APIs I
   Bring Online
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-monetization.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-monetization.png
 author:
   name: kinlane
 tags:

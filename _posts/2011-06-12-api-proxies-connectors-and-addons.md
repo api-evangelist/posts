@@ -2,7 +2,7 @@
 layout: post
 title: API Proxies, Connectors, and Add-Ons
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist/proxy-connector/APIProxy.png
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/proxy-connector/APIProxy.png
 author:
   name: kinlane
 tags:
@@ -17,15 +17,15 @@ I wrote the other day about the Battle for Your API Proxy between the API servic
 
 This included a tier of "proxy" API skinlane-productions2.s3.amazonaws.comPIs through proxy before hitting your API.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/proxy-connector/APIProxy.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/proxy-connector/APIProxy.png)
 
 Next there are the group of "connector" API service providers that provide you with a connector to put in your API and provide the same services that a proxy would.
 
-![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/proxy-connector/APIConnector.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/proxy-connector/APIConnector.png)
 
 Based upon what I'm seeing with Mashape and other indicators, I tried to show the playing field in a slightly different, and evolved way.
 
-![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/proxy-connector/Proxy-PerfectWorld.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/proxy-connector/Proxy-PerfectWorld.png)
 
 My vision of the future of APIs involves several key areas of evolution. These are based upon movements I'm already seeing, and where I'd like to see things go.
 

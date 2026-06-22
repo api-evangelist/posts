@@ -2,7 +2,7 @@
 layout: post
 title: Overcoming API Rate Limits Like They Did With WebhookDB
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/traffic-and-weather/Traffic-and-Weather.png
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/traffic-and-weather/Traffic-and-Weather.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Log Files Are Only For When Things Go Wrong
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/logging_truck_accident.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/logging_truck_accident.jpg
 atomdate: 2017-04-18 22:00:00+00:00
 tags:
 - API Evangelist

@@ -4,7 +4,7 @@ title: Providing Users With Reciprocity Tools So Important Intuit Purchases itDu
 sourceurl: >-
   http://apievangelist.com/2014/08/19/providing-users-with-reciprocity-tools-so-important-intuit-purchases-itduzzit/
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/intuit/intuitbig.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/intuit/intuitbig.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ The Intuit announcement recognizes that this new breed of reciprocity providers 
 
 > _The itDuzzit technology allows multiple audiences to create sophisticated integrations with very little coding required. With their technology combined with the range of QuickBooks platform services we already offer, the breadth and depth of integrations our partners can build will grow tremendously. itDuzzit’s sophisticated rules-based engine really set them apart from the competition, and their technology benefits the entire QuickBooks Online ecosystem: third-party developers, accountants and small businesses._
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/intuit/itduzzit.jpeg)](http://cloud.itduzzit.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/intuit/itduzzit.jpeg)](http://cloud.itduzzit.com/)
 
 The world of accounting seems like a great place to start when providing interoperability, automation, and reciprocity tools that are not just developers, but also empower end-users to use API. If you are as advanced as Zapier, [even your reciprocity layer will have an API that developers](https://zapier.com/developer/) can put to use when taking advantage of the cross platform API integration and automation possibilities.
 

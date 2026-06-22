@@ -10,7 +10,7 @@ tags:
   - Explorer
   - Documentation
 image: >-
-  https://kinlane-productions2.s3.us-east-1.amazonaws.com/princess-b33f-heavy-industries/openapi-doctor-explorer.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/princess-b33f-heavy-industries/openapi-doctor-explorer.png
 ---
 It can be hard to find API innovation across the API space. There is a lot of reinventing the wheel and positioning about a future that doesn’t exist, with very little investment in rounding off the sharp corners of our day to day existence. So when you come across someone doing the work it is important to call it out, and shine a light. A refreshing bit of work that helps make working with OpenAPI and Spectral more manageable can be found over at [Princess B33f Heavy Industries with OpenAPI Doctor](https://bit.ly/3UTwuOF), but specifically their work on making things more visible.
 

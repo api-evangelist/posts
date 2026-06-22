@@ -2,7 +2,7 @@
 layout: post
 title: 'Libraries Hacked: UK Library API, Data And Technology Hacks'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/libraries-hack/libraries-hacked.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/libraries-hack/libraries-hacked.png
 author:
   name: kinlane
 tags:
@@ -11,27 +11,27 @@ tags:
 ---
 I stumbled across a pretty cool site, dedicated to educating, and providing librarians with the tools they need to hack--of course with an emphasis on APIs. [Libraries Hacked](http://www.librarieshacked.org/) mission is "analyzing and promoting open source technology hacks and projects in libraries", and providing a wealth of resources for institutions along the way:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/libraries-hack/uk-library-apis.png)](http://www.librarieshacked.org/apis)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/libraries-hack/uk-library-apis.png)](http://www.librarieshacked.org/apis)
 
 **[APIs](http://www.librarieshacked.org/apis)** - open systems online to integrate into your hacks
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/libraries-hack/uk-libraries-source-code.png)](http://www.librarieshacked.org/source)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/libraries-hack/uk-libraries-source-code.png)](http://www.librarieshacked.org/source)
 
 **[source code](http://www.librarieshacked.org/source) -** open-source apps, and projects to explore and enhance
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/libraries-hack/uk-libraries-data.png)](http://www.librarieshacked.org/otherdata)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/libraries-hack/uk-libraries-data.png)](http://www.librarieshacked.org/otherdata)
 
 **[data](http://www.librarieshacked.org/otherdata)** - links around the web to download reports and stats in various formats (pdf, excel...)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/libraries-hack/uk-libraries-events.png)](http://www.librarieshacked.org/events)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/libraries-hack/uk-libraries-events.png)](http://www.librarieshacked.org/events)
 
 **[hack events](http://www.librarieshacked.org/events) -** past and future events to get involved in and get inspiration from
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/libraries-hack/uk-libraries-articles.png)](http://www.librarieshacked.org/articles)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/libraries-hack/uk-libraries-articles.png)](http://www.librarieshacked.org/articles)
 
 **[articles](http://www.librarieshacked.org/articles)** - articles on relevant subjects to the site, with guest contributions
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/libraries-hack/uk-libraries-tutorials.png)](http://www.librarieshacked.org/tutorials)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/libraries-hack/uk-libraries-tutorials.png)](http://www.librarieshacked.org/tutorials)
 
 **[tutorials](http://www.librarieshacked.org/tutorials)** - how-to guides and reviews of software tools and apps to use when hacking
 

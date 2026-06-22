@@ -7,7 +7,7 @@ tags:
   - Functions
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-docks-ships-cranes.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-docks-ships-cranes.jpg
 ---
 When it comes to governing the technical details of APIs as part of the design, development, and pipeline build processes, the open-source client and rules format Spectral has led the conversation for the last five years. Spectral provides a YAML and JSON rules format that allows anyone to define rules that lint and validate specific patterns or anti-patterns in an APIs.json, OpenAPI, JSON Schema, or other schema format. Anyone can write custom functions for Spectral rules, but the specification comes with a common set of functions that cover about 75% of the most common API governance needs—-these nine default Spectral functions provide you and your team with a robust vocabulary for articulating what API governance means across design, develop, build, and even run-time.
 

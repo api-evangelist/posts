@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Predict A Future Flooded With Google Prediction Galleries
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_machine_training_execution_api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_machine_training_execution_api.png
 atomdate: 2017-03-27 19:00:00+00:00
 tags:
 - API Evangelist

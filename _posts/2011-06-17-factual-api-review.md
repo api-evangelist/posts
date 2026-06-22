@@ -2,13 +2,13 @@
 layout: post
 title: Factual API Review
 url: http://apievangelist.com/2011/06/17/factual-api-review/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Review
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/factual/factual-logo.png)](http://www.factual.com/)[Factual](http://www.factual.com/) is an open data platform and community, with a goal to maximize data accuracy, transparency, and availability. They provide a marketplace of evolving data on thousands of topics.
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/factual/factual-logo.png)](http://www.factual.com/)[Factual](http://www.factual.com/) is an open data platform and community, with a goal to maximize data accuracy, transparency, and availability. They provide a marketplace of evolving data on thousands of topics.
 
 Factual provides a RESTful API that returns JSON response, using an application key for authentication. Factual provides full data sets for download, Ruby Gem and IPhone SDK for development.
 

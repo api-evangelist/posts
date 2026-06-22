@@ -2,7 +2,7 @@
 layout: post
 title: Deploy and Manage a RESTful API with CodeIngiter and 3Scale
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/3scale-500.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3scale-500.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ So I [virtualized four document APIs](http://apievangelist.com/2011/09/05/virtua
   
 First I launched a copy of the CodeIgniter framework on my existing Amazon EC2 instance, configured mod\_rewrite to handle my URLs, and wrote seven API methods dedicated to printing just one type of document, like a poster.  I now had a simple RESTful API that handled requests, and returned XML and JSON responses.  
   
-[![](http://kinlane-productions2.s3.amazonaws.com/api-tools/codeigniter-logo.jpg)](http://codeigniter.com/)I need a quick way to manage access to my API and measure its usage.  So I would know who was using it, how they were using it, and if it was worth while to keep the API and put more resources into it.  I selected [3Scale API management](http://apievangelist.com/serviceproviders/3scale.php "3Scale API Management"), one of two free, self-service API mangement platforms out there.  The other is [Mashape](http://apievangelist.com/serviceproviders/mashape.php "Mashape"), but they are still in BETA, so 3Scale was the only other solution I could deploy for free, and scale as I needed when things were successful.  
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-tools/codeigniter-logo.jpg)](http://codeigniter.com/)I need a quick way to manage access to my API and measure its usage.  So I would know who was using it, how they were using it, and if it was worth while to keep the API and put more resources into it.  I selected [3Scale API management](http://apievangelist.com/serviceproviders/3scale.php "3Scale API Management"), one of two free, self-service API mangement platforms out there.  The other is [Mashape](http://apievangelist.com/serviceproviders/mashape.php "Mashape"), but they are still in BETA, so 3Scale was the only other solution I could deploy for free, and scale as I needed when things were successful.  
   
 I deployed the 3Scale PHP connector on my Amazon EC2 instance as part of the CodeIgniter REST framework.  I then launched my 3Scale self-service API area, which provides me with:
 

@@ -5,11 +5,11 @@ date: 2017-05-30T15:00:00.000Z
 tags:
   - Serverless
   - Deployment
-image: https://s3.amazonaws.com/kinlane-productions2/twilio/twilio-sms-message.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/twilio/twilio-sms-message.png
 author:
   name: kinlane
 ---
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/twilio/twilio-sms-message.png" align="right" width="40%" style="padding: 15px;" /></p>[Twilio launched their Twilio Function this last week](https://www.twilio.com/blog/2017/05/introducing-twilio-functions.html), localizing serverless infrastructure for Twilio API consumers, when it comes to powering key functionality that Twilio brings to the table. This seems like a logical move for mature API providers, keeping in tune with shifts in how developers are integrating with APIs, and deploying their applications in a DevOps, continuous integration world.
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/twilio/twilio-sms-message.png" align="right" width="40%" style="padding: 15px;" /></p>[Twilio launched their Twilio Function this last week](https://www.twilio.com/blog/2017/05/introducing-twilio-functions.html), localizing serverless infrastructure for Twilio API consumers, when it comes to powering key functionality that Twilio brings to the table. This seems like a logical move for mature API providers, keeping in tune with shifts in how developers are integrating with APIs, and deploying their applications in a DevOps, continuous integration world.
 
 I could see other API providers following Twilio's lead, jumping on the serverless bandwagon, and localizing compute within their API ecosystems. [I can see this approach converging with other movements in the SDK space where service providers like APIMATIC are enabling the continuous deployment of SDKs, samples, and other scripts for API integration](http://apievangelist.com/2016/10/05/evolving-the-api-sdk-with-apimatic-dx-kits/). Allowing developers to quickly deploy integration scripts, in the programming language of choice--all baked into their existing API platform developer arrangement.
 

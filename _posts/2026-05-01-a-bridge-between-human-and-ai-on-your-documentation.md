@@ -3,7 +3,7 @@ layout: post
 title: "A Bridge Between Human and AI on Your Documentation"
 date: 2026-05-01
 author: "Kin Lane"
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-brooklyn-bridge-traffic.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-brooklyn-bridge-traffic.jpeg
 category: "Blog"
 excerpt: "AssemblyAI's per-page Copy Page button — with options to view as markdown, open in Claude or ChatGPT, or connect to Cursor and Claude Code via MCP — is a small UI element that quietly reveals the new shape of the human-to-copilot bridge inside developer documentation."
 ---

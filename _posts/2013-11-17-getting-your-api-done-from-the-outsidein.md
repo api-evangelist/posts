@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Your API Done From the Outside-In
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-inside-out.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-inside-out.png
 author:
   name: kinlane
 tags:

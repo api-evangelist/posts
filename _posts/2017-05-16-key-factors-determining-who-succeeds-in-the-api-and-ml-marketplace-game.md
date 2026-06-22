@@ -8,7 +8,7 @@ tags:
   - Machine Learning
   - Monetization
   - Plans
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-marketplace.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-marketplace.png
 author:
   name: kinlane
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: In Search Of Some Funding For My Machine Learning API Research
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/machine_learning_gun_patent.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/machine_learning_gun_patent.jpg
 atomdate: 2017-05-10 16:00:00+00:00
 tags:
 - Machine Learning

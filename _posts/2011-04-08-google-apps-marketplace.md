@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Apps Marketplace
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ tags:
 
 kinlane-productions2.s3.amazonaws.com Google Apps Marketplace also provides a self-service platform for application developers to build applications and deliver for free, or for pay, via the Marketplace.
 
-Any developer can register for a vendor profile, and:![](http://kinlane-productions.s3.amazonaws.com/google/Google-Apps-Marketplace.jpg)
+Any developer can register for a vendor profile, and:![](https://kinlane-images.s3.amazonaws.com/shared/google/Google-Apps-Marketplace.jpg)
 
 *   Create new application listing
 *   Provide details of application including category, name, and summary

@@ -2,7 +2,7 @@
 layout: post
 title: It Is All About No Limitations With The Enterprise API Plans
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/algolia-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/algolia-logo.png
 author:
   name: kinlane
 tags:
@@ -17,6 +17,6 @@ _Your own dedicated infrastructure. Don't like limits? Meet our dedicated cluste
 
 The basic building blocks of how Algolia is monetizing their search API, records and operation API calls, melt away at the enterprise level. The lower four plans for Algolia API access meter the number of record, and operation API calls you make, and charge consumers, using four separate pricing levels. If you are an enterprise customer, the need for this metering melts away, eliminating the default limitations applied to lower levels of API consumption.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/enterprise-solutions.png)](https://www.algolia.com/pricing)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/enterprise-solutions.png)](https://www.algolia.com/pricing)
 
 I support more transparency in enterprise API plans, as well as other [partner tiers of access](http://partners.apievangelist.com). I do not think Algolia's approach to delivering enterprise services is unique, but their straightforward, simple, and transparent approach to doing it is. In an API driven world, the enterprise levels of access do not always have to be that age old mating dance, that involves smoke and mirrors, and pricing pulled out of a magic hat--it can be just be about reducing the limitations around retail levels of API access, and getting business done.

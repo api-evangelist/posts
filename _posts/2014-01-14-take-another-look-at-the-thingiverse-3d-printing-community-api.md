@@ -2,7 +2,7 @@
 layout: post
 title: Take Another Look At The Thingiverse 3D Printing Community API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/thingiverse-home-page-screenshot-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/thingiverse-home-page-screenshot-2.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: API Stack - Single Sheet Printing with the Mimeo Connect Flyer &amp; Brochure Printing API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/flyers-sample-image.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/flyers-sample-image.png
 author:
   name: kinlane
 tags:

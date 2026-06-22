@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Showcasing When You Use Your Own API
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-drinking-fountain.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-drinking-fountain.jpg
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My API Definitions Are Incomplete But You Do Not Want To Contribute
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-share-stack.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-share-stack.png
 atomdate: 2016-09-26 20:00:00+00:00
 tags:
 - Definitions

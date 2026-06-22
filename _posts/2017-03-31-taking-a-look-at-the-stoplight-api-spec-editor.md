@@ -2,7 +2,7 @@
 layout: post
 title: Taking A Look At The Stoplight API Spec Editor
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_31_at_2.40.15_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_31_at_2.40.15_pm.png
 atomdate: 2017-03-31T19:00:00.000Z
 tags:
   - Editor

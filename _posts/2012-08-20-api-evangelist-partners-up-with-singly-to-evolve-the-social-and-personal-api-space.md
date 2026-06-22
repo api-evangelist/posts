@@ -4,7 +4,7 @@ title: >-
   API Evangelist Partners Up with Singly To Evolve The Social and Personal API
   Space
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/singly-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/singly-logo.png
 author:
   name: kinlane
 tags:
@@ -33,4 +33,4 @@ We believe the industry needs more leadership and content and we have partnered 
 
 In spending time with Jason Cavnar ([@jasoncavnar](https://twitter.com/jasoncavnar "@jasoncavnar")), Jeremie Miller ([@jeremie](https://twitter.com/jeremie "@jeremie")) and the Singly team, it’s clear they have a very valuable and unique perspective when it comes to API consumption and the future of personal data -- not only for consumers and developers but also that will benefit the platforms themselves. Every day they are monitoring and consuming the personal and social data flowing through the most important APIs in the space and I can’t wait to tell the stories of their journey and share their insights along the way. Keep an eye out for these stories in the coming weeks.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/singly/powered-by-singly-horizontal.png)](https://singly.com "Singly")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/singly/powered-by-singly-horizontal.png)](https://singly.com "Singly")

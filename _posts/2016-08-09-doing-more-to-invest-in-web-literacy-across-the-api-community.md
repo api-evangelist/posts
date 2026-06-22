@@ -2,7 +2,7 @@
 layout: post
 title: Doing More To Invest In Web Literacy Across The API Community
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Web_Concepts.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Web_Concepts.png
 atomdate: 2016-08-09T16:00:00.000Z
 tags:
   - Community

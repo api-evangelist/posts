@@ -11,7 +11,7 @@ tags:
   - Panelists
   - Attendees 
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-cell-tower-satellite-dishes.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-cell-tower-satellite-dishes.jpeg
 ---
 [I had a really energizing webinar with Nordic APIs last week, hosted by Bill Doerrfeld, and with Lorna Jane Mitchell, Kevin Swiber, and myself in attendance](https://www.youtube.com/watch?v=gJNQPhvS2NI). The questions were good, the conversations were great, and the feedback loop via chat was lively and entertaining. It was suggested that we try to do something in a recurring way to tap into the energy, and I am always game to try new variations of old tactics to se if we can make entirely new human connections in this moment.
 

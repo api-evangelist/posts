@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thinking Through Some Of My Defensive API Management Tactics
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-defensive-tactics.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-defensive-tactics.png
 author:
   name: kinlane
 tags:

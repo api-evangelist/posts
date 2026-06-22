@@ -8,7 +8,7 @@ tags:
   - Governance
   - Titles
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-blue-hhill-fair.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-blue-hhill-fair.jpeg
 ---
 Naming your APIs is hard. Having governance and guidance available for teams when producing APIs helps a lot. It can be difficult for teams, especially the engineering teams producing APIs to choose the right name, have it make sense to others, but then also be something that is easily discovered and consistent with others. While profiling the Barclays APIs as part of the evaluation of APIs across the credit card industry, the inconsistent naming of APIs stands out, which when down in the weeds of API development won’t matter much, but begin to become much more noticeable downstream in the following ways.
 
@@ -21,5 +21,5 @@ Naming your APIs is hard. Having governance and guidance available for teams whe
 It is easy to have a Spectral or Vacuum rule that will check that each OpenAPI for an API has a title, but you will need to craft more custom scripting or automation to check for and append the company or brand name to the name of each API. API naming, how informative and useful it is, but also how consistent it is acts as a hallmark of not just the quality of your APIs, but of your API options. Having consistent names shows that producing APIs is a collaborative effort between engineering and product, and that there is someone thinking about the big picture as APIs move from developing into production, and beyond.
 
 
-<center><a href="https://developer.barclays.com/catalogue"><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/barclays-api-catalog.png" style="width: 100%;"></a></center>
+<center><a href="https://developer.barclays.com/catalogue"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/barclays-api-catalog.png" style="width: 100%;"></a></center>
 

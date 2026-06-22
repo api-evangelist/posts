@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Need Your Help With My API Definition Industry Guide
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_26_at_8.38.50_pm.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_02_26_at_8.38.50_pm.png
 atomdate: 2017-02-27 17:00:00+00:00
 tags:
 - Industry

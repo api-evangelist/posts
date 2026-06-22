@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Further Simplifying My API Docs And Providing API Samples
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-samples.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-samples.png
 tags:
 - Docs
 ---

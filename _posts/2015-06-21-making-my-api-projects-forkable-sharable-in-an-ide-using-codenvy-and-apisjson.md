@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making My API Projects Forkable, Sharable In An IDE, Using Codenvy And APIs.json
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-codenvy-menu.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-codenvy-menu.png
 author:
   name: kinlane
 tags:
@@ -27,7 +27,7 @@ Each API menu is meant to provide an aggregate view of all the APIs I wish to pr
 
 I am starting with the essential links, like to each portal, pricing, blog, Twitter, and Github pages. At this point, each project is just an aggregate API directory page, I want it to be more, so I am using APIs.json + Swagger to localize a handful of the important building blocks of any API integration process, such as:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/codenvy/codenvy-logo.jpg)](https://codenvy.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/codenvy/codenvy-logo.jpg)](https://codenvy.com/)
 
 *   **Interactive Documentation -** Provide aggregate API documentation using Swagger UI, allowing developers to explore all APIs as they learn about them. [I have done this across all 25 of my APIs, something that needs some performance tuning, but provides a worthwhile aggregate API documentation experience](https://kin-lane.github.io/master/documentation/).
 *   **Software Development Kits -** Using APIMATIC + SDKs.io I will be localizing relevant SDKs for each API, so if the project is a PHP project, I will include a copy of the PHP SDK.

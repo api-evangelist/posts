@@ -3,7 +3,7 @@ layout: post
 title: >-
   I Am In Philly This Friday Speaking On Openness, Should We Create a More
   Transparent World, At The Franklin Institue
-image: https://s3.amazonaws.com/kinlane-productions2/events/educon-2014/educon.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/events/educon-2014/educon.jpg
 author:
   name: kinlane
 tags:

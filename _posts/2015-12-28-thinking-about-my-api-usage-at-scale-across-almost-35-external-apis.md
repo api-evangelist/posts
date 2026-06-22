@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thinking About My API Usage At Scale Across Almost 35 External APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-scale-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-scale-api.png
 author:
   name: kinlane
 tags:

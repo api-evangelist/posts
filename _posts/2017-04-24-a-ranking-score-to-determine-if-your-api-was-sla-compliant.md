@@ -2,7 +2,7 @@
 layout: post
 title: A Ranking Score to Determine If Your API Was SLA Compliant
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/apimetrics_casc_score.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apimetrics_casc_score.png
 atomdate: 2017-04-24T16:00:00.000Z
 tags:
   - Ranking

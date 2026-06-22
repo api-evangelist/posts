@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving Beyond My Basic 3Scale API Infrastructure Plan
-image: https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3Scale/3scale-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/3Scale/3scale-logo.png
 author:
   name: kinlane
 tags:

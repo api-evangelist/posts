@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Does Your API Have a Built in Incubator or Accelerator Program?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Nike-Accelerator.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Nike-Accelerator.png
 author:
   name: kinlane
 tags:
@@ -28,7 +28,7 @@ The 10 partner companies will be given the following:
 *   Two Investor Demo Days: one at the Nike World Headquarters and one in Silicon Valley
 *   Real Access to Decision Makers
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/reeses-peanut-butter-cup.jpeg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/reeses-peanut-butter-cup.jpeg)
 
 Then, at the end of the Nike+ Accelerator, each team will present to Nike executives, mentors, angel investors, venture capitalists, and tech industry leaders.
 

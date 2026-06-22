@@ -2,13 +2,13 @@
 layout: post
 title: The Rainmaker API Challenge
 url: http://apievangelist.com/2011/05/27/the-rainmaker-api-challenge/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - ai
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/rainmaker-api-logo.png)The [Rainmaker API](http://rainmaker.cc/ "Rainmaker API"), which provides developers with a bi-directional sync from Facebook, LinkedIn, Twitter and other contact management systems is holding an API developer contest.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/rainmaker-api-logo.png)The [Rainmaker API](http://rainmaker.cc/ "Rainmaker API"), which provides developers with a bi-directional sync from Facebook, LinkedIn, Twitter and other contact management systems is holding an API developer contest.
 
 The [Rainmaker API Challenge](http://rainmaker.cc/challenge/ "Rainmaker API Challenge") is a month-long API developer competition to create new apps based on the Rainmaker API.
 

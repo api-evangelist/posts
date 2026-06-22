@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Speaking to API Strategy While Still Celebrating The Little Things That Matter
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-old-piano-paris-hospital.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-old-piano-paris-hospital.jpg
 tags:
   - Strategy
   - Enterprise

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WebServius API Service Provider
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
@@ -26,7 +26,7 @@ Once data is integrated, WebServius allows you to create custom details, plans, 
 
 Each published API on WebServius is given a detail page for subscribers to access. There are also options for custom site integration and private label deployment solutions.
 
-[![](http://kinlane-productions.s3.amazonaws.com/api-service-providers/webservius/piggybank-monetize-api.png)](http://www.webservius.com/ "WebServius")Users can then register, and subscribe to specific plan for any published API,then access data via the API or a full data download.
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/webservius/piggybank-monetize-api.png)](http://www.webservius.com/ "WebServius")Users can then register, and subscribe to specific plan for any published API,then access data via the API or a full data download.
 
 All subscribers are given API keys and WebServius provides tools for validating API keys, and throttling of API requests.
 

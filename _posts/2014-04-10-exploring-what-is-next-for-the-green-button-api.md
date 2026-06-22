@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exploring What Is Next For The Green Button API
-image: https://s3.amazonaws.com/kinlane-productions2/federal-government/green-button/green-button.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/federal-government/green-button/green-button.jpg
 author:
   name: kinlane
 tags:

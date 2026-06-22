@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Managing Your API Terms of Service And Privacy Policies On Github Like Medium Does
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/medium-github-policy.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/medium-github-policy.png
 tags:
 - Github
 - Privacy

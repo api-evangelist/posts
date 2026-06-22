@@ -2,7 +2,7 @@
 layout: post
 title: History of APIs - del.icio.us
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/delicious-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/delicious-logo.jpg
 tags:
   - History
   - APIs

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learn the Mogreet MMS API with GUI API Construction Tool
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mogreet-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mogreet-logo.jpg
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ Hands on, interactive tools are proving to be the most useful way to learn about
 
 One of the latest companies to do this is [MMS API provider Mogreet](http://www.mogreet.com/ "MMS API Provider"), which has stepped into the API explorer game with their own API tester allowing anyone to visually build an API call that sends multimedia messages, as well as take advantage of the 25 other methods available via the API platform.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mogreet/mogreet-api-tester.jpg)](http://www.mogreet.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/mogreet/mogreet-api-tester.jpg)](http://www.mogreet.com/)
 
 The API tester is available for all users via the developer dashboard, providing a hands on way to learn about the Mogreet API, all available endpoints, understand which parameters are required or optional, experiment with alternatives and quickly make the calls and see the result, understanding the value and operations before you get to work coding around the API.
 

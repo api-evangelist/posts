@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What I Mean When I Say API
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-a.png
 atomdate: 2016-09-21 16:00:00+00:00
 tags:
 - API Evangelist

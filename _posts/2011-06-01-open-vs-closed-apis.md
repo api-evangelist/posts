@@ -2,14 +2,14 @@
 layout: post
 title: Open vs. Closed APIs
 url: http://apievangelist.com/2011/06/01/open-vs-closed-apis/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - APIs
   - Open
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/open-closed-sign.jpg)With all the buzz around APIs these days, its easy to get swept up in all the hype around open APIs, and miss the mark with your own API deployment.
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/open-closed-sign.jpg)With all the buzz around APIs these days, its easy to get swept up in all the hype around open APIs, and miss the mark with your own API deployment.
 
 So what do I mean by Open APIs? Open APIs are like Twitter, Twilio and many of Google APIs that are available for anyone to register for a key, and start programming against.
 

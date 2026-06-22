@@ -8,7 +8,7 @@ tags:
   - HTTP
   - Standardization
   - Experience
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-feminist-pioneers.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-feminist-pioneers.jpeg
 ---
 A lot of attention gets placed on OpenAPI as a final output, without much understanding of the importance of OpenAPI being more about everything that goes into its creation. A complete OpenAPI doesn’t just magically appear and does everything you need to deliver an API, documentation, SDKs, and client. It takes work. It takes collaboration. It takes general HTTP and other standards knowledge. It takes specific domain knowledge. An OpenAPI is simply a negotiated contract between different stakeholders producing an API, while also considering and ideally negotiating over time what different stakeholders who are consuming an API will need. The OpenAPI is a representation of that work, and does not just magically appear from the cloud, a prompt, or via a GitHub search. Here are the things an OpenAPI provides that you will not get when just auto generating an OpenAPI.
 

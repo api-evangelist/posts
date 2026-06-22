@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'OpenAPI Leading The Open Banking API Conversation'
-image: https://s3.amazonaws.com/kinlane-productions2/openapi/openapi-blue-icons.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/openapi-blue-icons.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/openapi/openapi-blue-icons.png" align="right" width="40%" style="padding: 15px;" />
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/openapi-blue-icons.png" align="right" width="40%" style="padding: 15px;" />
 <p>I’ve been looking through the ecosystems of banking API platforms trying to understand the technical, business, and political approach of banks when it comes to the API conversation. While <a href="http://apievangelist.com/2016/09/01/the-sustained-api-storytelling-assault-on-the-banking-industry/">Capital One is definitely leading the conversation in the U.S.</a>, I’ve also been looking to better understand what is happening around the PSD2 banking API conversation in the EU and UK.
 
 <p>I was pleased to find <a href="https://psd2-apiexplorer.openbankproject.com/?ignoredefcat=true&amp;tags=#2_2_0-getCurrentFxRate">OpenAPI present in the OpenBankProject PSD2 API Explorer</a>, as well as leading <a href="https://www.openbanking.org.uk/read-write-apis/">the specification standards conversation over at Open Banking in the UK</a>. The existence of the OpenAPI allows analysts like me to quickly load up the OpenAPI in an API client like Postman or Restlet, and become more intimate with what paths, and definitions are available–developing my awareness of where banking API standards are headed.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Expanding My API Partner Research Into Its Own Project
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-partner.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-partner.png
 author:
   name: kinlane
 tags:

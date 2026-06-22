@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Netflix API Is Much More Than A Public API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/netflix-square.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/netflix-square.png
 author:
   name: kinlane
 tags: []

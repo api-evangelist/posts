@@ -2,7 +2,7 @@
 layout: post
 title: Understanding More About The Web Communications Platform Respoke
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/respoke/respoke-web-communications-300x101.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/respoke/respoke-web-communications-300x101.jpg
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ To continue understanding what Respoke does, let’s take a stroll through all o
 **Actual API Endpoints**  
 I always start with the actual API endpoints when reviewing an platform. Respoke provides a basic set of endpoints, mostly for authentication of communications via the platform, but also managing roles, groups, etc. You can tell the API is new, and it doesn't have the telltale signs of a fully mature API that has been used for a while, but I know with Respoke, they are just getting going. I’m not a fan of using POST, and relying on request data being passed through the body as JSON. I like simple parameter based design, with sensible usage of your verbs. I feel this approach makes an API more hackable by users, even non-developers who only know enough to be dangerous. It is not a show stopper, just a personal opinion of mine.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/respoke/Respoke-Web-Communications.png)](https://www.respoke.io)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/respoke/Respoke-Web-Communications.png)](https://www.respoke.io)
 
 **Developer On-Boarding**  
 Respoke provides a simple, frictionless on-boarding experience, easing you in with a getting started that walks you through the platform, and the self-service registration flow you need to get started with the service. At first glance I’d say they can do a little better job of explaining the authentication. I haven't actually hacked on it yet, but at first glance it seems overly complex, or maybe just could be explained better. Another thing I'd like to see is a simple FAQ that I can scan to be able to see many of the common questions that get asked, and educate myself about Respoke in one page.
@@ -53,7 +53,7 @@ One of things I judge APIs on is their pricing, and whether or not the pricing p
 **Resources**  
 When it came to supporting resources for the Respoke platform, there really were no case-studies, slides from events, how to guides, and other vital resources to help developers through all stages of development. This is one area I’m pretty lenient in early on, because I understand that many APIs are just getting going, and it will take time for supporting resources to be developed properly. My goal is to just make sure the platform is aware of the lack of general resources, and make sure it gets into the roadmap ASAP.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/respoke/Respoke-Pricing.png)](https://www.respoke.io/#pricing)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/respoke/Respoke-Pricing.png)](https://www.respoke.io/#pricing)
 
 **Research & Development**  
 I always like to see some sort of forward leaning research & development areas of an API, such as an idea showcase, or labs environment. I think Respoke touches on this with their starter projects, that don’t just provide valuable code, but also ideas for how the service can be integrated with, but I think they could take this further. Respoke needs to bring their experience with web communications, and WebRTC to the table and providing leading examples of what is next for web communications. There are many proven ways platforms demonstrate where their platform, and supporting technologies are headed, and I’d like to see more of this within the Respoke community, I know the knowledge and talent exists, they just need to showcase on site.

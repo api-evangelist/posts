@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Hangouts For Bringing Your API Developer Team Out Of Their Silo
-image: https://s3.amazonaws.com/kinlane-productions2/google-plus/google-plus-hangouts.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/google-plus/google-plus-hangouts.png
 author:
   name: kinlane
 tags:

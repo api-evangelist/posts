@@ -10,7 +10,7 @@ tags:
   - Applications
   - Observability
   - Changes
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-desert-road-mountains.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-desert-road-mountains.jpg
 ---
 I cannot go into the details of the work required to produce usable high quality software development kits (SDKs) for APIs, you’ll have to talk to [APIMATIC](https://bit.ly/3NyONos), or any of the latest numerous other SDK generations solutions that come and go. I can speak to the high level pitfalls I have seen enterprises make when they go it alone with thinking they can generate SDKs across many different programming languages. I have repeatedly seen enterprises explore the commercial and open-source solutions out there for SDK generation using OpenAPI, and then drive their efforts into the ditch along these highways.
 

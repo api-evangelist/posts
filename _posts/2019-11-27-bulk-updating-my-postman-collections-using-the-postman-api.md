@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Bulk Updating My Postman Collections Using The Postman API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-file-00-00-35-50-los-angeles-square.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-square-file-00-00-35-50-los-angeles-square.jpg
 author:
   name: kinlane
 tags:

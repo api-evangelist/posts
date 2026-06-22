@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Are API Docs &amp; Definition Formats A Single Thing Or Separate?
-image: http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_splitter.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_splitter.png
 author:
   name: kinlane
 tags:

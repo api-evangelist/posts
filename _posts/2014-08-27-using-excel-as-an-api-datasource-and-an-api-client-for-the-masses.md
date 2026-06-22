@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Excel As An API Datasource And An API Client For The Masses
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-excel-icon.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-excel-icon.jpg
 author:
   name: kinlane
 tags:

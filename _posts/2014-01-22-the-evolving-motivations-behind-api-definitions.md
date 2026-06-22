@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Evolving Motivations Behind API Definitions
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-evolving.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-evolving.png
 author:
   name: kinlane
 tags:

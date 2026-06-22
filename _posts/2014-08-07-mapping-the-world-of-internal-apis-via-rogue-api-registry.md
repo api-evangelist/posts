@@ -2,7 +2,7 @@
 layout: post
 title: Mapping The World Of Internal APIs Via Rogue API Registry
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/netflix/scaling-the-netflix-api-3-638.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/netflix/scaling-the-netflix-api-3-638.jpg
 author:
   name: kinlane
 tags:

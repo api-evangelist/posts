@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The New API Definition Abstraction Layer Over At Apiary
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-abstraction-2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-abstraction-2.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Visualization Exploration Using API Definitions
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/swagger-specification-visual-documentation.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/swagger-specification-visual-documentation.png
 author:
   name: kinlane
 tags:

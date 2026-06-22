@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rank My API Developers Who Authenticate With Github
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/singly-twitter-linkedin-github-facebook-authentication.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/singly-twitter-linkedin-github-facebook-authentication.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ In addition to it being easy, I’m using Singly for another advantage. Each ser
 
 For example, when a user authenticates via [Github Using Singly](https://github.com/), I get the following meta data and endpoints:
 
-![](https://s3.amazonaws.com/kinlane-productions2/singly/Singly-Github-Meta-Endpoints.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/singly/Singly-Github-Meta-Endpoints.png)
 
 Singly gives me 6 endpoints with data from the user’s activity in these areas. I’m looking to create an algorithm that will provide me with some quick ranking score based upon the number of repositories, followers and following a user has.
 

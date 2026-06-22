@@ -6,7 +6,7 @@ tags:
   - Clients
   - OpenAPI
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-ellis-island-windows.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-ellis-island-windows.jpg
 ---
 There are more API clients out there now than you can shake a stick at. [A recent article had 20 separate API clients dueling for your attention](https://medium.com/@merisstupar11/battle-of-20-api-clients-which-one-saves-you-the-most-time-8188c37c0617). API clients begin with allowing you to authenticate and make requests, then see the response for simple HTTP APIs. From there the features explode depending on if it sticks with being a pure HTTP API client, expanding to other protocols, as well as to other areas of API operations like testing, automation, mocking, and much more. In this API client explosion we are coming across more enterprises who are committed to develop their own in-house, and API Evangelist is helping guide these efforts in the following ways.
 

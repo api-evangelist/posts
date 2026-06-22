@@ -9,7 +9,7 @@ tags:
   - Rules
   - Functions
   - JSON Schema
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-old-church-police-car.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-old-church-police-car.jpeg
 ---
 Alongside [evaluating the default ruleset that comes with Spectral](https://apievangelist.com/2025/03/14/evaluating-the-default-spectral-api-governance-ruleset/) I wanted to evaluate the default ruleset that comes with Vacuum. I am looking to do a diff between the rulesets, but also diff against my own set of rules so that I can establish a baseline for conversations with customers. This is my walk through of each of the available rules which you can find natively part of the OpenAPI Doctor, adding my thoughts as I contrast with the Spectral default set.
 

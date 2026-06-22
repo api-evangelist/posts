@@ -8,7 +8,7 @@ tags:
   - Bruno Collections
   - Onboarding
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-banana-subway-stairs.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/francis-williams-banana-subway-stairs.jpeg
 ---
 One of the steps of profiling any API for API Evangelist and inclusion in [APIs.io](https://apis.io) involves searching for the name of the company plus Swagger, OpenAPI, and Postman. While profiling we are always looking for the evidence of these artifacts, but more importantly we are looking to quantify how a company handles their support for consumers building applications and using their API for integrations. There are plenty of signals to harvest within a company’s API portal to better understand, but there are also plenty of signals to harvest on the open web via GitHub, forums, and API hubs and marketplaces which tell the story of how well an API is supported.
 

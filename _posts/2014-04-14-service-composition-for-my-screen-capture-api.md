@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Service Composition for My Screen Capture API
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-composer.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-composer.png
 author:
   name: kinlane
 tags:

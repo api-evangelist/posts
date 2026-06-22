@@ -2,7 +2,7 @@
 layout: post
 title: 'The University of API White Paper: Looking At APIs In Higher Education'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/whitepapers/api-evangelist-the-university-of-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/whitepapers/api-evangelist-the-university-of-api.png
 author:
   name: kinlane
 tags:

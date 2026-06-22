@@ -2,7 +2,7 @@
 layout: post
 title: A Hackathon Philosophy From Warren Wilbee of Microsoft
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/warren-wilbee-microsoft.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/warren-wilbee-microsoft.jpeg
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ After talking to several people I was directed to a gentleman by the name of War
 
 He feels strong that hackathons are very useful, you get the opportunity to get X number of people into a room, doing exactly what you want--delivering a very direct result. "Hackathons are purpose built", when you put on a hackathon for developers you get to define exactly what you, sending the desired message your company wants developers to receive, says Wilbee. By contrast, sponsoring a hackathon is a very different exercise and value proposition--proceed with caution. The hackathon organizer gets to define the purpose and drive the outcomes. The sponsor will not have access to this value, potentially excluding you from all the marketing or social "halo" produced at the event. Sometimes there are opportunities to offer a prize that will be in-line with the organizers purpose, but just flashing your logo will not deliver much value to your company.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/microsoft/windows-8-hackathons.jpeg)](http://www.devcamps.ms/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/microsoft/windows-8-hackathons.jpeg)](http://www.devcamps.ms/)
 
 When you do put on a hackathon, Wilbee is passionate about it being a "participatory event". Get your people to come and participate, don't just require them to show up, make it part of their responsibility to be involved. There is a social and community aspect to hackathons, "the shared experience of being in a room at 3am, committed to a common goal is a galvanizing, bonding experience." This is something you get by just showing up for a short period of time or just sponsoring an event.
 

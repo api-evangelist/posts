@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Further Defining the AngelList API as Part of My API Stack
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/angellist-peace-sign.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/angellist-peace-sign.jpg
 author:
   name: kinlane
 tags: []
@@ -12,33 +12,33 @@ Creating an APIs.json file allows me to index each APIs operations from registra
 
 Here is what I ended up with for AngelList so far:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/339_logo.png)](http://angel.co/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/339_logo.png)](http://angel.co/)
 
 [**AngelList**](http://angel.co/)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](http://angel.co/ "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](http://angel.co/ "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-blog-icon.png)](http://blog.angel.co/ "Blog")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-blog-icon.png)](http://blog.angel.co/ "Blog")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-rss-icon.png)](http://blog.angel.co/rss "Blog RSS")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-rss-icon.png)](http://blog.angel.co/rss "Blog RSS")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png)](https://twitter.com/angellist "Twitter")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-twitter-icon.png)](https://twitter.com/angellist "Twitter")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github-icon.png)](https://github.com/angellist "Github")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-github-icon.png)](https://github.com/angellist "Github")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png)](http://theapistack.com/data/angellist/apis.json "APIs.json")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-a.png)](http://theapistack.com/data/angellist/apis.json "APIs.json")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sdks-io/sdks-io-icon.png)](https://sdks.io/SDK/View/angellist-startup-api "SDKs.io")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sdks-io/sdks-io-icon.png)](https://sdks.io/SDK/View/angellist-startup-api "SDKs.io")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/building-blocks/x-postman.png)](http://theapistack.com/data/angellist/angellist-postman-collection.json "Postman Collection")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/x-postman.png)](http://theapistack.com/data/angellist/angellist-postman-collection.json "Postman Collection")
 
  
 
 AngelList Accreditation API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/accreditation "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/accreditation "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-accreditation-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-accreditation-api-swagger.json "Swagger")
 
  
 
@@ -56,9 +56,9 @@ AngelList Accreditation API
 
 AngelList Comments API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/comments "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/comments "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-comments-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-comments-api-swagger.json "Swagger")
 
  
 
@@ -76,9 +76,9 @@ AngelList Comments API
 
 AngelList Follows API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/follows "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/follows "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-follows-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-follows-api-swagger.json "Swagger")
 
  
 
@@ -96,9 +96,9 @@ AngelList Follows API
 
 AngelList Jobs API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/jobs "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/jobs "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-jobs-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-jobs-api-swagger.json "Swagger")
 
  
 
@@ -116,9 +116,9 @@ AngelList Jobs API
 
 AngelList Like API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/likes "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/likes "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-like-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-like-api-swagger.json "Swagger")
 
  
 
@@ -136,9 +136,9 @@ AngelList Like API
 
 AngelList Me API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/oauth/faq "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/oauth/faq "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-me-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-me-api-swagger.json "Swagger")
 
  
 
@@ -156,9 +156,9 @@ AngelList Me API
 
 AngelList Messages API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/messages "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/messages "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-messages-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-messages-api-swagger.json "Swagger")
 
  
 
@@ -176,9 +176,9 @@ AngelList Messages API
 
 AngelList Paths API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/paths "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/paths "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-paths-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-paths-api-swagger.json "Swagger")
 
  
 
@@ -196,9 +196,9 @@ AngelList Paths API
 
 AngelList Press API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/press "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/press "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-press-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-press-api-swagger.json "Swagger")
 
  
 
@@ -216,9 +216,9 @@ AngelList Press API
 
 AngelList Reservations API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/reservations "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/reservations "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-reservations-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-reservations-api-swagger.json "Swagger")
 
  
 
@@ -236,9 +236,9 @@ AngelList Reservations API
 
 AngelList Reviews API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/reviews "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/reviews "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-reviews-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-reviews-api-swagger.json "Swagger")
 
  
 
@@ -256,9 +256,9 @@ AngelList Reviews API
 
 AngelList Search API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/search "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/search "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-search-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-search-api-swagger.json "Swagger")
 
  
 
@@ -276,9 +276,9 @@ AngelList Search API
 
 AngelList Startups API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/startups "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/startups "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-startups-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-startups-api-swagger.json "Swagger")
 
  
 
@@ -296,9 +296,9 @@ AngelList Startups API
 
 AngelList Status Updates API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/status_updates "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/status_updates "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-status-updates-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-status-updates-api-swagger.json "Swagger")
 
  
 
@@ -316,9 +316,9 @@ AngelList Status Updates API
 
 AngelList Tags API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/tags "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/tags "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-tags-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-tags-api-swagger.json "Swagger")
 
  
 
@@ -336,9 +336,9 @@ AngelList Tags API
 
 AngelList Users API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/users "Website")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-home-icon.jpeg)](https://angel.co/api/spec/users "Website")
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-users-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/angellist/angellist-users-api-swagger.json "Swagger")
 
  
 

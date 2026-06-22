@@ -11,7 +11,7 @@ tags:
   - GEMINI.md
   - AGENTS.md
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-docks-water-front-ships-containers.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-docks-water-front-ships-containers.jpg
 ---
 [I saw Speakeasy publish their agent skills](https://github.com/speakeasy-api/skills). It caught my attention, not because I care about agents, but because I care deeply about the knowledge expressed in these agent skills. Honestly, I don’t care one bit about what happens with agents, that is y’all’s hustle, but when it comes to codifying the value that exist within enterprise and can be put to use accomplishing things that optimize how the enterprise operates in a digital world—that interests me. 
 

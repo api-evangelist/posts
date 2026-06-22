@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using The Wikimedia Objective Revision Evaluation Service And Move Beyond Just GET With Your API
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Objective_Revision_Evaluation_Service_logo.svg.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Objective_Revision_Evaluation_Service_logo.svg.png
 author:
   name: kinlane
 tags:

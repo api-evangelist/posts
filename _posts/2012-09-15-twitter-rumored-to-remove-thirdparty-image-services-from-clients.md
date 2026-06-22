@@ -2,7 +2,7 @@
 layout: post
 title: Twitter Rumored to Remove Third-Party Image Services From Clients
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twitter-image
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twitter-image
   service.jpeg
 author:
   name: kinlane

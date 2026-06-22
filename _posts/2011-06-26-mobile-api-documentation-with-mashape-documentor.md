@@ -3,14 +3,14 @@ layout: post
 title: Mobile API Documentation with Mashape Documentor
 url: >-
   http://apievangelist.com/2011/06/26/mobile-api-documentation-with-mashape-documentor/
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Documentation
   - Mobile
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-service-providers/mashape-documentor-261x300.png)The [Mashape Documentor](http://www.magdev.de/mashape-documentor/ "Mashape Documentor") is an engine for automatically generating a mobile version of documentation for any API running on the [Mashape API Platform](http://www.mashape.com/ "Mashape API Platform").
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/mashape-documentor-261x300.png)The [Mashape Documentor](http://www.magdev.de/mashape-documentor/ "Mashape Documentor") is an engine for automatically generating a mobile version of documentation for any API running on the [Mashape API Platform](http://www.mashape.com/ "Mashape API Platform").
 
 Using PHP, the Mashape Documenter reads the api.xml for a Mashape API, then generates a mobile version of the documentation in HTML5, CSS3, and Jquery.
 

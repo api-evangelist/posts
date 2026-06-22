@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Examples Of The OpenAPI Specification Used For Government APIs'
-image: https://s3.amazonaws.com/kinlane-productions2/cms/cms-quality-payment-program.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/cms/cms-quality-payment-program.png
 ---
 
-<p><a href="https://qpp.cms.gov/api/"><img src="https://s3.amazonaws.com/kinlane-productions2/cms/cms-quality-payment-program.png" align="right" width="40%" style="padding: 15px;" /></a>
+<p><a href="https://qpp.cms.gov/api/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/cms/cms-quality-payment-program.png" align="right" width="40%" style="padding: 15px;" /></a>
 <p>I was answering some questions for <a href="http://apis.how/bgdteovduo">my partners over at DreamFactory</a> when it comes to APIs in government, and one of the questions they asked was about some examples of the <a href="https://github.com/OAI/OpenAPI-Specification">OpenAPI specification</a> being used in government. To help out, I started going through  my list of government API looking for any examples in the wild–here is what I found:
 
 <ul>
