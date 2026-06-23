@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Postman Collection For Capitalizing Folders and Requests In Collections
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_collection_for_capitalizing_folders_requests_in_collections.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_collection_for_capitalizing_folders_requests_in_collections.png
 author:
   name: kinlane
 tags:

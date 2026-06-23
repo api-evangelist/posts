@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'I Am Needing Some Evidence Of How APIs Can Make An Impact In Government'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/capital-battle_blue_circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/i-am-needing-some-evidence-of-how-apis-can-make-an-impact-in-government.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/capital-battle_blue_circuit.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>Eric Horesnyi (<a href="https://twitter.com/EricHoresnyi">@EricHoresnyi</a>), the CEO of <a href="http://streamdata.io">Streamata.io</a> and I were on a call with a group of people who are moving forward the API conversation across Europe, with the assistance of the EU. The project has asked us to assist them in the discovery of more data and evidence of how APIs are making an impact in how government operates within the European Union, but also elsewhere in the world. Aggregating as much evidence as possible to help influence the EU API strategy, and learn from what is already being done. I’m heading to Italy next month to present to the group, and participate in conversations with other API practitioners and evangelists, so I wanted to start my usual amount of storytelling here on the blog to solicit contributions from my audience about what they are seeing.
 
 <p>I am looking for some help from my readers who work at city, county, state, and federal agencies, or at the private entities who help them with their API efforts. I am looking for official, validated, on the record examples of APIs making a positive impact on how government serves its constituents. Quantifiable examples of how a government agency have published a private, partner, or public API, and it helped the agency better meet its mission. I’m looking for anything mundane, as well as the unique and interesting, with tangible evidence to back it all up. Like number of developers, partners, apps, cost saving, efficiencies, or any other positive effect. Demonstrating that APIs when done right can move the conversation forward at a government agency. For this round, I’m going to need first hand accounts, because I will need to help organize the data, and work with this group to submit it to the European Union as part of their wider effort.

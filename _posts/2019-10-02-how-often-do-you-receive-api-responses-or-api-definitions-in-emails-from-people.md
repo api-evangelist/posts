@@ -5,7 +5,7 @@ title: >-
   How Often Do You Receive API Responses Or API Definitions In Emails From
   People?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/soldier-kneeling-26304845730-d4e495e25f-o-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/soldier-kneeling-26304845730-d4e495e25f-o-copper-circuit.jpg
 author:
   name: kinlane
 tags:

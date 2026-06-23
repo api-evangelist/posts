@@ -3,7 +3,7 @@ published: true
 layout: post
 title: What Layer Are You Used to API Complexity Being At?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/amusement-park-amusement-park-2-blue-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/amusement-park-amusement-park-2-blue-circuit.jpg
 author:
   name: kinlane
 tags:
@@ -49,7 +49,7 @@ Depending on who you ask these questions you will get different answers. There i
 
 ### What is the Scope of Your APIs?
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-G0520270-blue-circuit.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-G0520270-blue-circuit.jpg)
 
 There is no hard and fast rule about how big or small an API is. Honestly this is one of the most damaging aspects of the microservices movement is that everyone assumes that you have to go to the smallest possible unit of value. The words we use matter. The scope of each 3rd party, and internal API will vary widely across each organization, making for a dizzying mix of what is an API. For the last five years the microservices movement has been all about embracing complexity in the number of APIs teams develop and operate. However, recently you are beginning to see significant pushback on this notion from folks who are not interested in having to manage many different APIs, citing friction with discoverability and context switching, leaving us with many questions about API complexity at this level.
 
@@ -90,7 +90,7 @@ If you embrace complexity at the query parameter layer, and develop an API this 
 
 ### All Your Focus on The Request Body
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-ellisisland-blue-circuit.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-ellisisland-blue-circuit.jpg)
 
 Like query parameters, developers who rely on the HTTP request body for their API complexity tend to come from the world of web development, where remote procedure calls (RPC) design patterns were adopted, as well as out of the mobile evolution of APIs that began in 2008. If a developer was introduced to APIs being about RPC, then they tend to use the body. Also, developers who evolved into the modern world of web APIs out of the enterprise SOA and SOAP era, tend to see the HTTP request body as the place you put the complexity of your API—it is all about the payload. Leaving me with many questions when it comes to adopting API complexity at this level, pushing me to be more thoughtful in how I craft my HTTP request body payload, and when I don’t use it at all.
 
@@ -125,7 +125,7 @@ API responses are a hotbed of API complexity. There are few API standards in use
 
 Where you are used to, and believe API complexity will vary on how you have learned about APIs, and how you are applying them across applications. There are no right answers here, only right questions. For me, the process of asking the right questions has helped me evolve beyond my legacy beliefs around where API complexity should exist. Thinking through API complexity and whether it should exist or not exist across all of these levels has helped me learn to understand how large groups of develoeprs see APIs, as well as define, design, and deliver APIs that reach a much larger group of developers by employing common patterns and vocabulary. It has helped me unpack my own dogma. It has helped me better understand those who have gone off of me for investing too heavily or too little in API complexity across each of these layers. For me, people’s insistence on API complexity at a single level often demonstrates how little they have thought about API complexity across all of the layers.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/statue-face-open-mouth-statue-face-open-mouth-blue-circuit.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/statue-face-open-mouth-statue-face-open-mouth-blue-circuit.png)
 
 ### API Complexity Often Gives Way To API Religion
 

@@ -9,7 +9,7 @@ tags:
   - Landscape
   - Adoption
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/machine-road-machine-road-blue-circuit-3.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/machine-road-machine-road-blue-circuit-3.jpg
 author:
   name: kinlane
 ---

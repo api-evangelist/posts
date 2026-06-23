@@ -8,7 +8,7 @@ tags:
   - Google Sheets
   - Github
   - Jekyll
-image: http://apievangelist.com/images/product-square.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/my-google-sheet-driven-product-api-and-web-page.png
 author:
   name: kinlane
 ---

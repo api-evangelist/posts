@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scrubbing Individuals And Company Names From Stories I Tell
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-anonymous-person.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-anonymous-person.png
 author:
   name: kinlane
 tags:

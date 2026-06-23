@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Interrogation
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-hiding-monster-statue.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-hiding-monster-statue.jpg
 author:
   name: kinlane
 tags:

@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'What Has Been The Biggest Change In The Industry Since I Started API'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/beach-rocks-currents_internet_numbers.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/what-has-been-the-biggest-change-in-the-industry-since-i-started-api.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/beach-rocks-currents_internet_numbers.jpg" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p><em>I am spending two days this week with the <a href="https://developer.capitalone.com/">Capital One DevExchange</a> team outside of Washington DC, and they’ve provided me with a list of questions for one of our sessions, which they will be recording for internal use. To prepare, I wanted to work through my thoughts, and make sure each of these answers were on the tip of my tongue–here is one of those questions, along with my thoughts.</em>
 
 <p>The biggest change in the industry since I started doing API Evangelist in 2010 is who is doing APIs. In 2010 it was 95% startups doing APIs, with a handful of enterprise, and small businesses doing them. I’d say over the last couple years the biggest change is that this had spread beyond the startup community and is something we see across companies, organizations, institutions, and government agencies of all shapes and sizes. Granted, there are a variety when it comes to the level they are doing them, and the quality, but APIs are something that has been moving mainstream over the last seven years, and becoming more commonplace in many different industries.

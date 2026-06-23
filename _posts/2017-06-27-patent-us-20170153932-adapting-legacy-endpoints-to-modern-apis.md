@@ -4,8 +4,6 @@ layout: post
 title: 'Patent #US 20170153932: Adapting Legacy Endpoints To Modern APIs'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/jetpack-patent.jpg
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/jetpack-patent.jpg" align="right" width="35%" style="padding: 15px;" />
 <p><a href="http://patents.apievangelist.com/#Patents">I made my API patent inventory a little more explorable this week</a>, allowing me to more easily discover new and interesting patents that will affect the world of APIs, which I can include in my research. An interesting patent from eBay quickly floated up to the top as a questionable idea for a patent.
 
 <p><a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&amp;Sect2=HITOFF&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&amp;r=1&amp;f=G&amp;l=50&amp;d=PALL&amp;S1=09576314&amp;OS=09576314&amp;RS=09576314"><strong>Adapting legacy endpoints to modern APIs:</strong></a>

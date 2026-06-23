@@ -20,7 +20,7 @@ RESTful APIs open up data and functionality to anyone, and we are starting to se
 
 As technology becomes increasingly important in our every day lives, people can't wait for IT or programmers to deliver, savvy users start hacking on their own.
 
-A very innovative example of this I saw lately was by Social Media Strategist, [Tom Critchlow](http://www.seomoz.org/users/profile/30546 "Tom Critchlow"). Tom wrote a great post called, [Using Tools & APIs To Track Your Social Media Strategy.](http://www.seomoz.org/blog/how-to-track-your-social-media-strategy "Using Tools & APIs to Track Your Social Media Strategy") ![](http://www.seomoz.org/img/users/30546.jpg) Through a need to understand the impact of his social media efforts, he learned that he can query top social sites using their API to quantify the impact of his site(s).
+A very innovative example of this I saw lately was by Social Media Strategist, [Tom Critchlow](http://www.seomoz.org/users/profile/30546 "Tom Critchlow"). Tom wrote a great post called, [Using Tools & APIs To Track Your Social Media Strategy.](http://www.seomoz.org/blog/how-to-track-your-social-media-strategy "Using Tools & APIs to Track Your Social Media Strategy")  Through a need to understand the impact of his social media efforts, he learned that he can query top social sites using their API to quantify the impact of his site(s).
 
 Then using Google Docs, along with with the power of [Google App Scripts](http://code.google.com/googleapps/appsscript/ "Google App Scripts") he pulls counts for shares, likes, etc for his site using Social Media APIs.
 

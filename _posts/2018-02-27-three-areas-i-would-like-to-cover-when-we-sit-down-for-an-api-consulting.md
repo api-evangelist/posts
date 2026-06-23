@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Three Areas I Would Like To Cover When We Sit Down For An API Consulting'
-image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/68_146_800_500_0_max_0_-1_-1.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/three-areas-i-would-like-to-cover-when-we-sit-down-for-an-api-consulting.png
 ---
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/68_146_800_500_0_max_0_-1_-1.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>I’m putting together some presentations for a handful of upcoming engagements, where I’m wanting to help my audience understand what an initial engagement will look like. While I am looking to have just a handful of bullets that can live on a single, or handful of slides, I also want a richer narrative to go along with it. To achieve this I rely on my blog, which helps me work my way through the details of what I do, and distill things down into something that I can deliver on the ground within the companies, organizations, institutions, and government agencies I am conducting business with.
 
 <p>When I am sitting down with a new audience, and working to help them understand how I can help them begin, jumpstart, revive, and move forward with their API journey, I’m usually breaking things into three main areas:

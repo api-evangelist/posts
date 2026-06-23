@@ -10,7 +10,7 @@ tags:
   - Access
   - Lifecycle
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-banana-subway-stairs.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/green-circuit-banana-subway-stairs.jpeg
 ---
 I have a new set of APIs and dashboard for editing APIs.json contracts, as well as individual APIs defined by OpenAPI. It will be a couple more months before it's ready to share, but now that I can edit my APIs.json and OpenAPI through an API-driven user interface I am getting pretty excited about what is next—-overlaying my vision for what I call Just in Time API guidance. So far, the UI for my Just in Time API Guidance is a “sticky” sidebar that remains on the right-hand side when viewing the UI or YAML view of an APIs.json or OpeAPI artifacts, showing the results of real-time reviews of each artifact defined by Spectral rules. To help ground the next set of API and UI work I wanted to outline the capabilities of this new layer of my APIs.json contract management.
 
@@ -20,7 +20,7 @@ My Just-in-Time API Guidance Kiosk is a listing of Spectral rules applied to an 
 ### Access Filtered
 Which rules that are run are first and foremost filtered by the access of each API. Meaning you get different rules if it is an internal, 1st-party, or 3rd-party API. Each of these APIs will have different needs based upon what access is available, and the number of rules being run against an internal API will be far fewer than it will be for a 3rd-party APIs. The Just-in-Time API guidance kiosks must be aware out of the gate regarding the access of each API—-this is critical for reducing information overload. The access defined by each APIs.json contract will set the stage for which ruleset gets run, something the user will be able to adjust for each of their contracts—-something that will set in motion a different API journey for each team that is producing APIs.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-subway-train-125th.jpg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/green-circuit-subway-train-125th.jpg" style="padding: 15px;">
 
 ### Policy Filtered
 The rules that get run against APIs will be also potentially filtered by the policies which organize them. Anyone working with an API contract or individual API can choose to see the rules based upon each API policy. This means that users can choose to see the individual rules that apply to metadata, documentation, schema, and other key elements. Policies are still very technical, but they are more aligned with business goals and operational objectives driving API governance, and allow anyone to focus on specific groups of rules that satisfy different areas of concern. Policies are linked to each area of an API strategy which will drive reporting, the guidance that helps move teams forward, and connect API governance to different areas of experience outlined below.
@@ -31,7 +31,7 @@ I’d also like to filter my kiosk based upon the API lifecycle. If an API contr
 ### Experience Filtered
 All API policies have experience tags applied to them, which also allows the rules supporting each policy to be grouped and filtered based upon how it impacts experience. This means things like design, documentation, mocking, SDKs, testing, security, and other common areas of developer experience can be used to filter the rules that are applied. This allows teams to focus on improving specific problem areas, investing in naming, summaries, and descriptions needed to enrich documentation, or the examples that are used in mocking and sandboxes. The experience filter for the Just-in-Time API Guidance kiosk allows teams to not be overwhelmed with everything needed across the API lifecycle and work on just what is needed to improve the experience in meaningful areas.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-train-subway-125th-down-the-line.jpg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/green-circuit-train-subway-125th-down-the-line.jpg" style="padding: 15px;">
 
 ### Next Three Steps
 One thing I’ve learned over and over talking about APIs is how you can quickly overwhelm people with too much information. I want the Just-in-Time API Guidance kiosk to only show the next three or so steps that anyone can take. I want to find an elegant way to show just a couple things that need work, while also showcasing what has been done. API guidance should walk teams producing or consuming through what is needed next, without overwhelming with everything that is next, helping reduce the anxiety encountered working with APIs. It should be easy for users to navigate beyond the next three steps, but the kiosk interface should always emphasize keeping things simple and provide easy stepping stones for API producers and consumers to use throughout their journey.
@@ -42,7 +42,7 @@ API rules are organized by API policies, which are linked to API guidance. Guida
 ### Sleeping on It
 I want each rule to be something you can snooze. Allowing teams to sleep on items and work their way through each policy and rule in their own way. Rules will always show back up, but the kiosk should give teams some agency over how they ensure their APIs are compliant. The snooze button for API governance (guidance) is one way we can make sure governance isn’t a bottleneck and give teams a little more control in a seemingly endless list of API governance rules, reducing friction when possible, but still requiring teams to get the work done. I’d also like to work to better understand how teams navigate through rules and utilize a snooze button, keeping the history of how API governance rules are snoozed and in what order they are tackled to help refine how the kiosk works over time.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-subway-underground_36599191851_o.jpg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/green-circuit-subway-underground_36599191851_o.jpg" style="padding: 15px;">
 
 ### Scope Clarity
 The Just-in-Time API Guidance kiosk will help reduce the API operational scope confusion I see regularly across the enterprise. There is a different set of guidance for OpenAPI than there is for APIs.json. There are many rules that are intertwined, but when working with an APIs.json contract for an API you are governing the operational scope of your API, and when working with an OpenAPI you are at the individual API scope level. Not having clarity regarding which scope we are talking about is a common point of friction for API operations and teams. I am looking to bring more clarity regarding scope into API conversations through separate API artifacts and API rule sets that are used to power an abstraction layer that reduce the complexity of how we produce and consume APIs.

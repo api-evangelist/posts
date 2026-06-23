@@ -4,14 +4,14 @@ title: Four Potential Levels of an API Business Ecosystem
 url: >-
   http://apievangelist.com/2012/01/31/four-potential-levels-of-an-api-business-ecosystem/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/incubation.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/incubation.jpg
 author:
   name: kinlane
 tags:
   - Business
   - Ecosystem
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/citygrid/CityGrid.png)](http://developer.citygridmedia.com "CityGrid API")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/shared/citygrid/CityGrid.png)](http://developer.citygridmedia.com "CityGrid API")
 
 I'm working on a framework for the [City Grid API](http://developer.citygridmedia.com "CityGrid API") that helps define the different types of developers that are using our APIs, helping me understand how to better support them, and ensure their success.
 
@@ -26,7 +26,7 @@ I'm breaking down our API developers into four distinct levels:
 
 Anyone can register to use the API and become an open developer, integrating businesses, [places](http://docs.citygridmedia.com/display/citygridv2/Places+API "places") and other related content like [reviews](http://docs.citygridmedia.com/display/citygridv2/Reviews+API "reviews"), [offers](http://docs.citygridmedia.com/display/citygridv2/Offers+API "offers"), images and videos in their web or mobile apps. The API is self-service, allowing anyone to participate.  I can speculate what these developers need, but its up to them to let me know how they are building on the API and what they need to go to the next level.
 
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/incubation.jpg)](http://sustainablelab.co.za/idea-incubation "Photo Credit - Sustainable Labs")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/incubation.jpg)](http://sustainablelab.co.za/idea-incubation "Photo Credit - Sustainable Labs")
 
 To rise up to the next level of associate, you need to demonstrate you've integrated CityGrid APis into your app, using best practices, while adhering to the CityGrid [Terms and Conditions](http://docs.citygridmedia.com/display/citygridv2/Terms+and+Conditions "Terms and Conditions") and [Usage Requirements](http://docs.citygridmedia.com/display/citygridv2/Usage+Requirements "Usage Requirements"). Once approved as an associate you can start making money with your application or site using [web](http://docs.citygridmedia.com/display/citygridv2/Web+Ads+API "web advertising"), [mobile](http://docs.citygridmedia.com/display/citygridv2/Mobile+Ads+API "local mobile advertising") or [custom advertising](http://docs.citygridmedia.com/display/citygridv2/Custom+Ads+API "custom advertising"), as well as taking advantage of [Place that Pay](http://docs.citygridmedia.com/display/citygridv2/Places+that+Pay "places that pay").
 

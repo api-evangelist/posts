@@ -2,7 +2,7 @@
 layout: post
 title: This Is How APIs Will Deliver The Change We Need
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/indie-edtech-mix.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/indie-edtech-mix.png
 tags:
   - Change
   - APIs

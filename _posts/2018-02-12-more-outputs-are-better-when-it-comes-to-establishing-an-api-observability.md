@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'More Outputs Are Better When It Comes To Establishing An API Observability'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/ellisisland_blue_circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/more-outputs-are-better-when-it-comes-to-establishing-an-api-observability.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/ellisisland_blue_circuit.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>I’ve been evolving an observability ranking for the APIs I track on for a couple years now. I’ve bene using the phrase to describe my API profiling and measurement approach <a href="http://apievangelist.com/2016/10/25/thinking-about-an-api-observability-stack/">since I first learned about the concept from Stripe</a>. There are many perspectives floating around the space about what observability means in the context of technology, however mine is focused completely on APIs, and is more about communicating with external stakeholders, more than it is just about monitoring of systems. To recap, <a href="https://en.wikipedia.org/wiki/Observability">the Wikipedia definition for observability is</a>:
 
 <blockquote>

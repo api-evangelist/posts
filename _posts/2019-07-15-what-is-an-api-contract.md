@@ -11,7 +11,7 @@ tags:
   - Service Level Agreement
   - SLA
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/adam-smith-adam-smith-purp-paper.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/adam-smith-adam-smith-purp-paper.jpg
 author:
   name: kinlane
 ---

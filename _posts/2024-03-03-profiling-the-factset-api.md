@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Profiling the FactSet APIs Using APIs.json
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-old-books-rack.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-old-books-rack.jpg
 author:
   name: kinlane
 tags:

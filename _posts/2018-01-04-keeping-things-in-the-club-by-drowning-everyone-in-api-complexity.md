@@ -5,7 +5,7 @@ title: 'Keeping Things In The Club By Drowning Everyone In API Complexity'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-logos/api-evangelist-red-seal.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/16_38_600_500_0_max_1_1_2-0.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>After seven years of doing API Evangelist I have learned a lot about the realities of the technology sector, versus my own beliefs. One of the things that attracted me to web APIs in the first place was the ability to simplify the access to data, content, algorithms, and other resources using a web url. I could get a list of news articles, post a picture, launch a server in the cloud, and many other common business tasks using a simple URL. To me good API design is more about simplicity, than it was ever about REST, or any other dogmatic approach to doing APIs. However, after seven years of doing this, I’m pretty convinced that most folks have very little interest in truly making things simple for anyone.
 
 <p>As API space continues to move forward with efforts to address technical debt, and the cultural issues involved with the technology we are using within large enterprises as a part of the microservices movement–we are simultaneously see other fronts where leading edge practitioners are embracing technical complexity in service of scope, volume, and satisfying the requests of developers down in the weeds, and not taking time to consider the big picture. You see this with trends like Kafka, GraphQL, ad other areas, where we are moving forward with technology that isn’t entirely embracing the web, and introducing some pretty complex approaches to getting the job done.

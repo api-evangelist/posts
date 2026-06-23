@@ -2,7 +2,7 @@
 layout: post
 title: Running Synthetic Data And Content Through Your APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_synthetic_api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_synthetic_api.png
 atomdate: 2016-10-03T16:00:00.000Z
 tags:
   - Data

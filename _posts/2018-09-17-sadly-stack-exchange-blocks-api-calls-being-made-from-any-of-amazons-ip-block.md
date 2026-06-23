@@ -4,8 +4,6 @@ layout: post
 title: '"Sadly Stack Exchange Blocks API Calls Being Made From Any Of Amazons IP Block"'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/stack-exchange/stack-exchange-api.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/stack-exchange/stack-exchange-api.png" width="45%" align="right" style="padding: 15px;" />
 <p>I am developing an authentication and access layer for <a href="http://api.gallery.streamdata.io/">the API Gallery</a> that I am building for <a href="http://streamdata.io">Streamdata.io</a>, while also federating it for usage as part of <a href="http://theapistack.com">my API Stack research.</a> In addition to building out these catalogs for API discovery purposes, I’m also developing a suite of tools that allow users to subscribe to different topics from popular sources like <a href="http://subscribe.github.repository.search.streamdata.io/">GitHub</a>, <a href="http://subscribe.reddit.streamdata.io/">Reddit</a>, and <a href="http://subscribe.stack.exchange.search.streamdata.io/">Stack Overflow (Exchange)</a>. I’ve been busy adding one or two providers to my OAuth broker each week, until the other day I hit a snag with the Stack Exchange API.
 
 <p>I thought my Stack Exchange API OAuth flow had been working, it’s been up for a few months, and I seem to remember authenticating against it before, but this weekend I began getting an error that my IP address was blocked. I was looking at log files trying to understand if I was making too many calls, or some other potential violation, but I couldn’t find anything. Eventually I emailed Stack Exchange to see what their guidance once, to which I got a prompt reply:

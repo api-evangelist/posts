@@ -2,13 +2,13 @@
 layout: post
 title: Is Your API More Than Just A Footnote On Your Website?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dpla-home-page.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dpla-home-page.png
 author:
   name: kinlane
 tags:
   - Web
 ---
-[](/admin/blog/)![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dpla-home-page.png)
+[](/admin/blog/)![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dpla-home-page.png)
 
 Not all companies who have an API are Twilio, where the API is the product. With Twilio when you land on their website home page, you are in API developer area by default, this is what Twilio does. Many other API driven companies like Twitter, provide link to the API developer program as a link in the footer of the main site, something developers have become accustom to finding.
 

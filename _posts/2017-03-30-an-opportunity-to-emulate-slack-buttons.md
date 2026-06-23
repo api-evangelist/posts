@@ -2,7 +2,7 @@
 layout: post
 title: An Opportunity To Emulate Slack Buttons
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/1_z1ibgzv_gvmvo_zt8jnevw.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/1_z1ibgzv_gvmvo_zt8jnevw.jpeg
 atomdate: 2017-03-30T16:00:00.000Z
 tags:
   - Slack

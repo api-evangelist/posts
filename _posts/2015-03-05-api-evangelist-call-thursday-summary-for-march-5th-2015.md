@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Evangelist Call Thursday Summary For March 5th, 2015
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-headset.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-headset.png
 author:
   name: kinlane
 tags:

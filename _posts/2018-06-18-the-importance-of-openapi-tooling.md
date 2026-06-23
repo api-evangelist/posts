@@ -6,7 +6,7 @@ date: 2018-06-18T09:00:00.000Z
 tags:
   - API Evangelist
   - Definitions
-image: https://s3.amazonaws.com/kinlane-productions2/openapi/OpenAPI_Pantone.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/OpenAPI_Pantone.png
 ---
 <p></p>In my world, OpenAPI is always a primary actor, and the tooling and services that put it to work are always secondary. However, I'd say that 80% of the people I talk with are the opposite, putting OpenAPI tooling in a primary role, and the OpenAPI specification in a secondary role. This is the primary reason that many still see Swagger tooling as the value, and haven't made the switch to the concept of OpenAPI, or understand the separation between the specification and the tooling.
 

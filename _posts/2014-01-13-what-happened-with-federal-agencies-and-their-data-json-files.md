@@ -3,7 +3,7 @@ published: true
 layout: post
 title: What Happened With Federal Agencies And Their Data.json Files
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-json-data-store.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-json-data-store.png
 author:
   name: kinlane
 tags:

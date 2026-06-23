@@ -2,7 +2,7 @@
 layout: post
 title: Markup APIs and API Scripting Platforms
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/markup-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/markup-api.png
 author:
   name: kinlane
 tags:

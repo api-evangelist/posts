@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mapping Your Social Media Footprint As Part Of Your API Security Strategy
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-footprint.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-footprint.png
 atomdate: 2016-09-01T22:00:00.000Z
 tags:
   - Social

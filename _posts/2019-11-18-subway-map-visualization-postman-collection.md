@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Subway Map Visualization Postman Collection
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_visualizer_subway_map.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_visualizer_subway_map.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I have been working to migrate all the different API driven JavaScript solutions
 
 I had developed a way to visualize the API lifecycle a while back using [the Subway Map Visualization jQuery Plugin, by Nik Kalyani](http://kalyani.com/2010/10/subway-map-visualization-jquery-plugin/). It provides a pretty slick way of drawing lines, establishing stations, connectors, and other icon Subway map visualizations. I have been running this on Github using Jekyll, but wanted to make it something that I could keep portable and machine readable so that anyone else could run in locally or on the web. 
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_visualizer_subway_map.png)](https://documenter.postman.com/view/35240/SW7XbVW4?version=latest)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_visualizer_subway_map.png)](https://documenter.postman.com/view/35240/SW7XbVW4?version=latest)
 
 I haven't hooked the visualization up to any specific APIs yet. I’m going to make it run from my API lifecycle training, allowing users to visualize and then explore the stops along the API life cycle they want. Then I want to see what I can do to hook it up to AWS, Google, and Azure for helping visualize API infrastructure, allowing me to map out different APIs, and organize them into lines based upon OpenAPI tags or Postman collection folders.
 

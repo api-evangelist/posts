@@ -1,7 +1,7 @@
 ---
 layout: post
 title: When The Latest Tech Bullshit Has Me Down I Will Work On Water APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-glass-half-full.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-glass-half-full.png
 atomdate: 2016-09-08T18:00:00.000Z
 tags:
   - APIs

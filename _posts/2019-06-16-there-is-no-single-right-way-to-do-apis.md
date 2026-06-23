@@ -8,7 +8,7 @@ tags:
   - Complexity
   - Politics
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/rockingchair-face-2-atari-asteroids.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/rockingchair-face-2-atari-asteroids.jpg
 author:
   name: kinlane
 ---

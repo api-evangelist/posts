@@ -2,7 +2,7 @@
 layout: post
 title: Next Generation of API Driven Analytics and Visualizations
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-analytics.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-analytics.png
 author:
   name: kinlane
 tags:
@@ -15,11 +15,11 @@ API driven analytics and visualizations is one of the new areas of API usage I'
 
 Think of [reciprocity providers like IFTT, Zapier and Elastic.io](/trends/reciprocity.php). These new API driven service providers, make it easy to migrate data between cloud services, using a simple set of source API, triggers, actions and target APIs--with a dead simple icon and wizard based UI, allowing any user to put the platform to work.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-analytics/ducksboard-logo.png)](http://ducksboard.com/ "Ducksboard")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-analytics/ducksboard-logo.png)](http://ducksboard.com/ "Ducksboard")
 
 I want this approach for embeddable analytics, visualizations and other widgets that are easily generated via APIs. Last week I came across a new platform called [Ducksboard](http://ducksboard.com/), which allows you to easily generate some pretty sophisticated analytical widgets from common API sources. The platform even comes with a marketplace where you can find other widgets. The only problem is that Duckboards is meant to generate dashboards, and not really open and portable widgets.  We'll keep an eye on this platform, see where it goes.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-analytics/keen-io-logo.png)](https://keen.io/ "Keen IO")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-analytics/keen-io-logo.png)](https://keen.io/ "Keen IO")
 
 [Then last night I came across](http://ducksboard.com/ "Ducksboard") [Keen IO](https://keen.io/ "Keen IO"), an analytics Backend as a Service (BaaS) platform that lets developers build analytics features directly into their apps, from common API services. Keen IO provides a pretty sophisticated workbench for building embeddable charts, metrics and other analytics or visualizations that you can render anywhere, using iOS, Android, JavaScript, Ruby, Python and Java libraries they provide.
 

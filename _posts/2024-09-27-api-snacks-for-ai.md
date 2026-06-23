@@ -10,7 +10,7 @@ tags:
   - Messages
   - Twilio
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/1939-new-york-worlds-fair-corner-restaurant.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/1939-new-york-worlds-fair-corner-restaurant.jpeg
 ---
 I have been trying to prioritize something AI related as part of my regular API work, but the closest I've come is using ChatGPT API for writing descriptions and summaries of [APIs I am profiling for APIs.io](https://apis.io/blog/). Eventually I intend to create a small language model from API Evangelist content, just so I understand how AI works, but I just haven’t had time, and honestly it doesn’t seem to be rising up as a priority in my work. However, as I am profiling APIs for inclusion in my API search engine, I keep thinking that [APIs.json](https://apisjson.org) could have some benefits when it comes to the modularity, semantics, and execution of API capabilities as part of the AI conversations.
 

@@ -4,7 +4,7 @@ title: Bringing Awareness to Data.Gov with Grassroots Evangelism
 url: >-
   http://apievangelist.com/2011/10/24/bringing-awareness-to-data.gov-with-grassroots-evangelism/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Datagov.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Datagov.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
   - Evangelism
   - Awareness
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/data-gov/Datagov.png)](http://explore.data.gov/ "Data.gov")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/data-gov/Datagov.png)](http://explore.data.gov/ "Data.gov")
 
 I just finished a four week roadshow that included three [Startup Weekend](http://startupweekend.org/ "Startup Weekend") EDU events -- one in Seattle, one in San Francisco and one in Washington DC -- as well as two versions of the [Business of APIs conferences](http://apiconference.com/ "Business of APIs Conference") -- one in San Francisco and one in New York City.
 
@@ -24,7 +24,7 @@ At both series of events, I encountered many people who had never heard of [Twil
 
 But having someone on-the-ground isn't always enough. At the Startup Weekend EDU events, for example, there were several people present from the Department of Education and to their credit, they spent the entire time engaging and listening to business people, teachers and developers about what they needed. That was great to see, but at the same time, but there were no materials there about the amazing data and APIs provided by the Department of Education at data.ed.gov and no real encouragement of developers to take advantage of these things.
 
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/data-gov/data_gov_open.png)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/data-gov/data_gov_open.png)
 
 It seems as though we are missing the opportunity to help people become familiar with the various resources that the [Department of Ed](http://data.ed.gov/ "Department of Education") (along with its parent [data.gov](http://explore.data.gov/ "Data.gov") site) offers. As code-athons and other startup-building events continue to spread, it seems a shame to not take better advantage of these tools.
 

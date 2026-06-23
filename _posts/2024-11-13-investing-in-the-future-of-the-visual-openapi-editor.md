@@ -6,7 +6,7 @@ tags:
   - OpenAPI
   - Editor
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-the-empress-front.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/good-year-home-merchandise-the-empress-front.jpeg
 ---
 I have long been encouraging folks to rethink a visual editor for OpenAPI. I am NOT a front-end person, and I am very thankful for people who are. With that said I have very strong opinions and beliefs around what a visual editor for OpenAPI should and could be. As I spend time exploring [OpenAPI Doctor](https://pb33f.io/doctor/), [API-Fiddle](https://api-fiddle.com/), and other innovations occurring around editing of OpenAPI, I wanted to reassess what my priorities are when it comes to a visual OpenAPI editor and how it fits into the API lifecycle.
 

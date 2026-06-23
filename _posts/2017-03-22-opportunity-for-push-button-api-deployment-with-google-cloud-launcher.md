@@ -2,7 +2,7 @@
 layout: post
 title: Opportunity For Push Button API Deployment With Google Cloud Launcher
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_cloud_launcher_lead.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_cloud_launcher_lead.png
 atomdate: 2017-03-22T22:00:00.000Z
 tags:
   - Cloud

@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Sharper Developer Focus with Embed.ly Redesign
-image: http://api.embed.ly/media/images/api/logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/sharper-developer-focus-with-embed-ly-redesign.png
 author:
   name: kinlane
 tags:

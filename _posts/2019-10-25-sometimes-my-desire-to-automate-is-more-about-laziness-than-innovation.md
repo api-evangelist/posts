@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Sometimes My Desire To Automate Is More About Laziness Than Innovation
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-docks-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-docks-copper-circuit.jpg
 author:
   name: kinlane
 tags:

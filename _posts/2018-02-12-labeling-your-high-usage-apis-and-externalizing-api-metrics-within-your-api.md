@@ -4,8 +4,6 @@ layout: post
 title: 'Labeling Your High Usage APIs and Externalizing API Metrics Within Your API'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/alpha-advantage/alpha-vantage-high-usage-api.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/alpha-advantage/alpha-vantage-high-usage-api.png" align="right" width="45%" style="padding: 15px;" />
 <p>I am profiling a number of market data APIs as part of my research with <a href="http://apis.how/streamdata">Streamdata.io</a>. As I work my way through the process of profiling APIs I am always looking for other interesting ideas for stories on API Evangelist. <a href="https://www.alphavantage.co/documentation/">One of the things I noticed while profiling Alpha Vantage</a>, was that they highlighted their high usage APIs with prominent, very colorful labels. One of the things I’m working to determine in this round of profiling is how “real time” APIs are, or aren’t, and the high usage label adds another interesting dimension to this work.
 
 <p>While reviewing API documentation it is nice to have labels that distinguish APIs from each other. Alpha Vantage has a fairly large number of APIs so it is nice to be able to focus on the ones that are used the most, and are more popular. For example, as part of my profiling I focused on the high usage technical indicator APIs, rather than profiling all of them. I need to be able to prioritize my work, and these labels helped me do that. Providing one example of the benefit that these types of labels can bring to the table. I’m guessing that there are many other time saving aspects of labeling popular APIs, beyond just saving me time.

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Core Strengthening API Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-turing-front-view.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-turing-front-view.jpg
 tags:
   - Governance
   - Lifecycle

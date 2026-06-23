@@ -5,7 +5,7 @@ title: >-
   Attacking Cumbersome API Queries With A More Organized and Coherent API
   Collection
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/desert-dragon-light-dali.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/desert-dragon-light-dali.jpg
 author:
   name: kinlane
 tags:
@@ -21,7 +21,7 @@ Many APIs are born out of database backends, with very little design applied to 
 
 To help abstract away this complexity I am developing a Postman collection for the Food and Drug Administration (FDA) National Drug Code (NDC) API, possessing folders for each of the search properties, with individual collections that are pre-populated values for each parameter, so consumers do not have to learn the query language or the potential values.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/pharmaceutical_drugs_brands.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/pharmaceutical_drugs_brands.jpg)
 
 Here are a handful of examples of the queries I’ve populated:
 

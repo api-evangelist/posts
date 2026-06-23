@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: API Technology - JSON
-image: http://kinlane-productions2.s3.amazonaws.com/JSON.gif
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/JSON.gif
 author:
   name: kinlane
 tags:

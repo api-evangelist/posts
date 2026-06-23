@@ -4,8 +4,6 @@ layout: post
 title: 'The gRPC Meetup Kit'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/grpc/grpc-logo.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/grpc/grpc-logo.png" align="right" width="40%" style="padding: 15px;" />
 <p><a href="http://apievangelist.com/2017/09/29/tyk-is-conducting-api-surgery-meetups/">I wrote about Tyk’s API surgery meetups last week</a>, and adding a new approach to our API event and workshop toolbox, and next I wanted to highlight <a href="https://github.com/grpc-ecosystem/meetup-kit">the gRPC Meetup Kit</a>, a resource for creating your own gRPC event. gRPC is an approach out of Google for designing, delivering, and operating high performance APIs. If you look at the latest wave of APIs out of Google you’ll see they are all REST and/or gRPC. Most of them are dual speed, providing both REST and gRPC. gRPC is an open source initiative, but very much a Google led effort that we’ve seen picking up momentum in 2017.
 
 <p>While I am keeping an eye on gRPC itself, this particular story is about the concept of providing a Meetup kit for your API related service or tooling, providing an “In a Box” solution that anyone can use to hold a Meetup. The gRPC team provides three groups of resources:

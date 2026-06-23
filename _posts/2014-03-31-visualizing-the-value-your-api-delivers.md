@@ -2,7 +2,7 @@
 layout: post
 title: Visualizing The Value Your API Delivers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/bandpage/band-pages.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/bandpage/band-pages.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ I was reading the news about "[BandPage raising $9.25M to help musicians reach a
 
 One thing that I did find interesting in this post, was the image depicting the distribution via the BandPages platform:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/bandpage/band-pages.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/bandpage/band-pages.png)
 
 This image provides a very simple and clear way to articulate the value delivered via an API driven platform--showing users what BandPages does in a single image.
 

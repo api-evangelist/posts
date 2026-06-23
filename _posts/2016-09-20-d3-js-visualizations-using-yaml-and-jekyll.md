@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: D3.js Visualizations Using YAML and Jekyll
-image: http://d3.js.yaml.jekyll.apievangelist.com/images/d3-js-bar-chart.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/d3-js-visualizations-using-yaml-and-jekyll.png
 author:
   name: kinlane
 tags:

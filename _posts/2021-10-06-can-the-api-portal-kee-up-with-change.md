@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Can the API Portal Keep up with Change?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-hallway-mirrors-hotel.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-hallway-mirrors-hotel.jpg
 tags:
   - Change
   - Portals

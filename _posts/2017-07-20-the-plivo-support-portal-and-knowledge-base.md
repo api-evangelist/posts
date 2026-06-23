@@ -4,8 +4,6 @@ layout: post
 title: 'The Plivo Support Portal And Knowledge Base'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/plivo/plivo-support-knowledge-base.png
 ---
-
-<p><a href="https://support.plivo.com"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/plivo/plivo-support-knowledge-base.png" align="right" width="40%" style="padding: 15px;" /></a>
 <p>I’m always watching out for how existing API providers are shifting up their support strategies in their communities as part of my work. This means staying into tune with their communications, which includes processing their email newsletters and developer updates. Staying aware of what is actually working, and what is not working, based upon active API service providers who are finding ways to make it all work.
 
 <p>Plivo opted out to phase out direct emails at the end of the month, and pushing developers to use <a href="https://support.plivo.com">the Plivo support portal</a>, and the ticketing system. The support portal provides a knowledge base which provides a base of self-service support before any developer actually uses the support ticketing system to:

@@ -2,7 +2,7 @@
 layout: post
 title: A Common, Open Source API Design Editor Is Needed For API Service Providers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/restlet/restlet-studio-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/restlet/restlet-studio-screenshot.png
 author:
   name: kinlane
 tags:

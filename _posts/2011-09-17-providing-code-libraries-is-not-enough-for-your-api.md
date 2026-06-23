@@ -2,7 +2,7 @@
 layout: post
 title: Providing Code Libraries is Not Enough for Your API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-API-Code-Samples.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-API-Code-Samples.png
 author:
   name: kinlane
 tags:
@@ -16,13 +16,13 @@ Does this reflect the future of what API owners should be providing for their de
 
 By providing starter applications projects to our developers we can go beyond faster integration, and also help steer the quality of how applications are designed, ensure they using best coding practices, following security standards, and ultimately delivering better applications that are in line with the goals of the API owner.
 
-![](http://kinlane-productions2.s3.amazonaws.com/google-plus/Google-Plus-Starter-Projects.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/google-plus/Google-Plus-Starter-Projects.png)
 
 Companies don't just want developers using their APIs, they want them building quality applications around them, that reflect positively on the API.  Starter projects, may be just the way to steer how developers build around an API, and guide them in a positive direction.
 
 Starter projects do this from a functional perspective, but another example of this from the UI and branding perspective, can be seen with [Twitter's Bootstrap toolkit](http://twitter.github.com/bootstrap/ "Twitters Bootstrap Toolkit").  Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites, and includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation and everything developers need to build sharp looking Twitter web apps.
 
-![](http://kinlane-productions2.s3.amazonaws.com/twitter/Bootstrap-Twitter.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/Bootstrap-Twitter.png)
 
 I'm sure Twitter is interested in helping developers kickstart development, but ultimately they are helping developers build better looking apps that fall in line with Twitter's vision of what a Twitter client should look like.  The Twitter Bootstrap toolkit helps jump start developers, but it also guides their UI to reflect the standards of the API owners, and can also help developers adhere to branding requirements.
 

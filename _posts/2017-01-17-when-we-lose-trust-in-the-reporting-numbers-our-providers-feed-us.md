@@ -1,7 +1,7 @@
 ---
 layout: post
 title: When We Lose Trust In The Reporting Numbers Our Providers Feed Us
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-trust.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-trust.png
 atomdate: 2017-01-17T20:00:00.000Z
 tags:
   - Providers

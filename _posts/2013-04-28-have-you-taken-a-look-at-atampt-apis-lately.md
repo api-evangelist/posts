@@ -23,47 +23,25 @@ I thought [AT&T's API catalog](https://developer.att.com/developer/basicTemplate
 
  
 
-![](https://developer.att.com/home/api/advertising_small.png)
-
 [Advertising](https://developer.att.com/developer/forward.jsp?passedItemId=13400964) - Create a new revenue stream through the use of customized advertising. The Advertising API allows you to incorporate a simple, easy-to-use solution that supports revednue share-based monetization of your apps through the placement of paid advertising.
-
-![](https://developer.att.com/home/api/call_management_small.png)
 
 [Call Management](https://developer.att.com/developer/forward.jsp?passedItemId=12700025) - Pick a virtual telephone number and add real time, cross-carrier voice, and SMS communications to your app.
 
-![](https://developer.att.com/home/api/device_capabilities_small.png)
-
 [Device Capabilities](https://developer.att.com/developer/forward.jsp?passedItemId=12700037) - Returns important information about a device—allowing you to customize your apps accordingly.
-
-![](https://developer.att.com/home/api/in_app_messaging_small.png)
 
 [In-app Messaging](https://developer.att.com/developer/forward.jsp?passedItemId=12700029) - Drive further engagement with your customers by allowing them to share information with friends and family directly from within your app.
 
-![](https://developer.att.com/home/api/location_small.png)
-
 [Location](https://developer.att.com/developer/forward.jsp?passedItemId=12700033) - Quickly and accurately pinpoint the location of an AT&T mobile device.
-
-![](https://developer.att.com/home/api/mhealth_small.png)
 
 [mHealth Platform](https://mhealth.att.com/) - AT&T mHealth Solutions for healthcare combines mobility technologies, devices, connectivity, and apps to help minimize medical costs and deliver better patient outcomes.
 
-![](https://developer.att.com/home/api/mms_small.png)
-
 [MMS](https://developer.att.com/developer/forward.jsp?passedItemId=12700039) - Multimedia Messaging Service (MMS) greatly enhances the power of your communications by moving beyond the text only capabilities of text based messaging.
-
-![](https://developer.att.com/home/api/notary_management_small.png)
 
 [Notary Management](https://developer.att.com/developer/forward.jsp?passedItemId=12700047) - Add the capability to digitally sign content or data payloads to your app.
 
-![](https://developer.att.com/home/api/payment_small.png)
-
 [Payment](https://developer.att.com/developer/forward.jsp?passedItemId=12700035) - Give your customers the convenience and security of having their in-app purchases charged directly to their AT&T bill.
 
-![](https://developer.att.com/home/api/sms_small.png)
-
 [SMS](https://developer.att.com/developer/forward.jsp?passedItemId=12700031) - Short Message Service (SMS) enables your application or service to reliably send and receive secure, targeted text messages and alerts to your AT&T mobility subscribers.
-
-![Speech](https://developer.att.com/home/api/speech_small.png)
 
 [Speech](https://developer.att.com/developer/forward.jsp?passedItemId=12500023) - Allow your customers to interact with your app using their voice. You send us audio. We send you text. It's that easy.   
   
@@ -71,11 +49,7 @@ Now with the option to customize our speech recognizer for your app. 
   
 Plus, Text to Speech.
 
-![](https://developer.att.com/home/api/UVE_symbol.jpg)
-
 [AT&T U-verse](https://developer.att.com/developer/forward.jsp?passedItemId=12700045) - Enable your app with the U-verse TV experience and allow U-verse TV customers to "connect" their world to yours via this cutting edge IPTV service.
-
-![](https://developer.att.com/home/api/wap_push_small.png)
 
 [WAP Push](https://developer.att.com/developer/forward.jsp?passedItemId=12700041) - Provide support to legacy device customers that have limited message content and formatting capabilities.  
   

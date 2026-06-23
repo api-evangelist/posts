@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Basics of Working with the Postman API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_api_docs_get_all_collections.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_api_docs_get_all_collections.png
 author:
   name: kinlane
 tags:

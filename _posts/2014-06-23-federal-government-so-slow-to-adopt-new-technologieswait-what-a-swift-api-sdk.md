@@ -3,7 +3,7 @@ layout: post
 title: >-
   Federal Government So Slow To Adopt New Technologies...Wait, What, A Swift API
   SDK?
-image: http://federal-government.apievangelist.com/images/logos/labor.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/federal-government-so-slow-to-adopt-new-technologieswait-what-a-swift-api-sdk.png
 author:
   name: kinlane
 tags:

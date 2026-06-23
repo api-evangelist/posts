@@ -2,7 +2,7 @@
 layout: post
 title: Providing Inline API Documentation Within Your SaaS User Interface
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/cloudflare_dns_api_inline_1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/cloudflare_dns_api_inline_1.png
 atomdate: 2016-10-06T20:00:00.000Z
 tags:
   - Documentation
@@ -12,11 +12,11 @@ The common approach to discovering that a SaaS provider has an API is through a 
 
 When you are logged into CloudFlare managing your DNS, right below the area for adding, editing, and deleting DNS records you are given some extra options, including expandable access to your API--down in the right-hand corner, between Advanced and Help.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/cloudflare_dns_api_inline_1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/cloudflare_dns_api_inline_1.png)
 
 Once you click on the API option, you are given a listing of DNS record related API endpoints, allowing me to bake the same functionality available to me in the CloudFlare UI, into my own systems and application. A summary, path, and verb is provided for each relevant API, with a link to the full API documentation.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist-site/blog/cloudflare-dns-api-inline-2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/cloudflare-dns-api-inline-2.png)
 
 I really like this approach. It is a great way to make APIs more accessible to the muggles (thanks [@CaseySoftware](https://twitter.com/CaseySoftware)). It is also a great way to think about connecting UI functionality to the (hopefully) API behind. Imagine if every UI element had an API link in the corner to see the API behind, and a link to its documentation . You could even display the request and response bodies for the API call made by the UI, allowing people to easily reverse engineer what an API does. 
 

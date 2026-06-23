@@ -2,7 +2,7 @@
 layout: post
 title: How to Run a Successful Hackathon for Your Open APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/layer7-logo.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/layer7-logo.png
 author:
   name: kinlane
 tags:

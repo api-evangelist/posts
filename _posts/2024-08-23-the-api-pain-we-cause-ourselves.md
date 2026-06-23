@@ -7,7 +7,7 @@ tags:
   - Friction
   - Solutions
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-dinosaur-stepping-on-lego.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-dinosaur-stepping-on-lego.jpg
 ---
 My friend [Emmanuel Paraskakis recently published a list the top 7 Ways To Screw Up Your API Product](https://www.linkedin.com/posts/emmanuelparaskakis_ive-looked-at-thousands-of-apis-in-my-career-activity-7232105386118373376-oBQ_)-—which I agree with, but told him I’d ponder and add some of my to the list.  From Emmanuel’s experience, here are the top ways we cause ourselves API pain when it comes to enterprise operations.
 

@@ -8,7 +8,7 @@ tags:
   - Enterprise
   - Alignment
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-construction-zone-claw.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-construction-zone-claw.jpg
 ---
 It is always one of the unrealistic lesser bullets in a [job description for API governance roles](https://apievangelist.com/2024/09/03/an-api-governance-job-posting-template/), and will continue to be the greatest challenge for any of the service providers selling services to enterprises-—aligning API governance to where the enterprise is at today. From the outside-in it is easy to think there are common patterns and anti-patterns that will need implementing, and from a purely technical perspective this is often true, but once you start having to map that technical to the legacy business, infrastructure, and people decisions that have been made—-this is where the real work begins.
 

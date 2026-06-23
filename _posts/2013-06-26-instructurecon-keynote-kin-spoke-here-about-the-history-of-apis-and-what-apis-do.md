@@ -4,7 +4,7 @@ title: >-
   InstructureCon Keynote: [Kin spoke here about the history of APIs and what
   APIs do.]
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/instructurecon-keynote-utah.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/instructurecon-keynote-utah.jpg
 author:
   name: kinlane
 tags:

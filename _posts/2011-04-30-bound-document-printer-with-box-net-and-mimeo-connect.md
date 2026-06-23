@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Bound Document Printer with Box.net and Mimeo Connect
-image: http://kinlane-productions2.s3.amazonaws.com/cloud-storage/Box-logo-new.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/cloud-storage/Box-logo-new.jpg
 author:
   name: kinlane
 tags:
@@ -27,7 +27,7 @@ An important part of this application is a callback URL for when users first add
 
 Another important part of each application are whats called _service actions_. Service actions which will show up for any user who adds this application to their Box.net account from OpenBox.
 
-For my Open Box Application I create a new service action: ![](https://kinlane-productions2.s3.amazonaws.com/Box.net/Open-Box.png)
+For my Open Box Application I create a new service action: ![](https://kinlane-images.s3.amazonaws.com/shared/Box.net/Open-Box.png)
 
 *   Give Application Service Action a title like, **_Bound Document Printer @ Mimeo_**
 *   Choose which document extensions my printer supports, PDF for now

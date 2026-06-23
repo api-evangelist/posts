@@ -2,7 +2,7 @@
 layout: post
 title: Will Internet of Things And The SDK Push Out REST?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-internet-of-things.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-internet-of-things.png
 author:
   name: kinlane
 tags:

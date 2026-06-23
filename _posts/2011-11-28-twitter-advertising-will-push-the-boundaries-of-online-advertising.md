@@ -4,7 +4,7 @@ title: Twitter Advertising Will Push the Boundaries of Online Advertising
 url: >-
   http://apievangelist.com/2011/11/28/twitter-advertising-will-push-the-boundaries-of-online-advertising/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Twitter-Promoted-Tweets.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Twitter-Promoted-Tweets.png
 author:
   name: kinlane
 tags:
@@ -29,7 +29,7 @@ I’m following Twitter’s rollout of their advertising network because its a b
 
 The Internets seem to be stuck in a rut, when it comes to monetization of our online real estate. There isn’t much innovation beyond the classic online and slightly newer mobile advertising platforms dominated by Google and a handful of others. What is next?
 
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Tag-Cloud-API-Advertising.png)](/2011/09/28/advertising-network-dedicated-to-apis-and-developers/ "advertising network dedicated to APIs")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Tag-Cloud-API-Advertising.png)](/2011/09/28/advertising-network-dedicated-to-apis-and-developers/ "advertising network dedicated to APIs")
 
 APIs of course. As APIs also struggle to develop their monetization strategies, they tend to default to charging for their services, with some API providers like [CityGrid](http://www.citygridmedia.com/ "CityGrid") are providing mobile and web advertising solutions alongside their APIs.
 

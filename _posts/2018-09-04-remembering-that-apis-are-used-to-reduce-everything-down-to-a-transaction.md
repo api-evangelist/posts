@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Remembering That APIs Are Used To Reduce Everything Down To A Transaction'
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/reduce+everything+to+a+transaction_tr.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/remembering-that-apis-are-used-to-reduce-everything-down-to-a-transaction.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/reduce+everything+to+a+transaction_tr.png" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>This is our regular reminder that APIs are not good, nor bad, nor neutral. They are simply a tool in our technological toolbox, and something that is often used for very dark reasons, and occasionally for good. One of the most dangerous things I’ve found about APIs is just the general thought process that goes along with them, regarding how all roads lead to reducing, and distilling things down to a single transaction. APIs, REST, microservices, and other design patterns are all about taking something from our physical world, and redefining it as something that can be transmitted back and forth using the low cost request and response infrastructure of the web.
 
 <p>No matter what you are designing your API for, your mission is to reduce everything to a simple transaction that can be exchanged between your server, and any other system, web, mobile, device, or network application. This digital resource could be a photo of your kids, a message to your mother, the balance of your bank account, your personal thoughts going into your notebook, the latest song you listened to, your DNA, your test results for cancer, or any other piece of relevant data, content, media, object, or other resource that is being sent or received online. APIs are all about reducing all of our meaningful digital bits to the smallest possible transaction, and then daisy chaining them together to produce some desired set of results.

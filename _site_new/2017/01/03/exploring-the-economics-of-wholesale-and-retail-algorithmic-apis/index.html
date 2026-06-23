@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I got sucked into a month long project applying machine learning filters to video over the holidays. The project began with me doing the research on the econ...">
-    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/algorithmia_pricing_how_it_works.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/shared/blog/algorithmia_pricing_how_it_works.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -42,7 +42,7 @@
     <meta name="twitter:title" content="Exploring The Economics of Wholesale and Retail Algorithmic APIs">
     
     <meta name="twitter:description" content="I got sucked into a month long project applying machine learning filters to video over the holidays. The project began with me doing the research on the econ...">
-    <meta name="twitter:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/algorithmia_pricing_how_it_works.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/shared/blog/algorithmia_pricing_how_it_works.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -52,7 +52,7 @@
       "@type": "Article",
       "headline": "Exploring The Economics of Wholesale and Retail Algorithmic APIs",
       "description": "I got sucked into a month long project applying machine learning filters to video over the holidays. The project began with me doing the research on the econ...",
-      "image": "http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/algorithmia_pricing_how_it_works.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/shared/blog/algorithmia_pricing_how_it_works.png",
       "datePublished": "2017-01-03T00:00:00-05:00",
       "dateModified": "2017-01-03T00:00:00-05:00",
       "author": {
@@ -65,7 +65,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -363,7 +363,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -393,7 +393,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -727,7 +727,7 @@
       </div>
 
       
-      <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/algorithmia_pricing_how_it_works.png" alt="Exploring The Economics of Wholesale and Retail Algorithmic APIs" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/blog/algorithmia_pricing_how_it_works.png" alt="Exploring The Economics of Wholesale and Retail Algorithmic APIs" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -742,7 +742,7 @@ The first “rabbit hole” concept I fell into when doing the research on Algor
 <p><strong>Developing My Own API Layer For Working With Images and Videos</strong><br />
 Once I had experience using Algorithmia’s deep filter via their API, and had produced a handful of my own style transfer models, I got to work designing my own process for uploading and applying the filters to images, then eventually separating out videos into individual images, applying the filters, then reassembling them into videos. The entire process, start to finish is a set of APIs, with a couple of them simply acting as a facade for Algorithmia’s file upload, download, and DeepFilter APIs. It provided me with a perfect hypothetical business for thinking through the economics of building on top of Algorithmia’s platform.</p>
 
-<p><a href="https://algorithmia.com/pricing"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/algorithmia_pricing_how_it_works.png" alt="" /></a></p>
+<p><a href="https://algorithmia.com/pricing"><img src="https://kinlane-images.s3.amazonaws.com/shared/blog/algorithmia_pricing_how_it_works.png" alt="" /></a></p>
 
 <p><strong>Defining My Hard Costs of Algorithmia’s Service and the AWS Compute Needed</strong><br />
 Algorithmia provides <a href="https://algorithmia.com/algorithms/deeplearning/DeepFilter">a pricing calculator along with each of their algorithms</a>, allowing you to easily predict your costs. They charge you per API call, and the compute usage by the second. Each API has its own calculator, and average runtime duration costs, so I’m easily able to calculate a per image cost to apply filters–something that exponentially grows when you are applying to 60 frames (images) per second of video. Similarly, when it comes to training filter models using AWS EC2 GUP instance, I have a per hour charge for compute, storage costs, and (now) a pretty good idea of how many hours it takes to make a single filter. </p>

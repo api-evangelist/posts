@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'The Service Level Agreement (SLA) Definition For The OpenAPI Specification'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/legalstatue_light_dali.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-service-level-agreement-sla-definition-for-the-openapi-specification.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/legalstatue_light_dali.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p><a href="https://github.com/isa-group/SLA4OAI-Specification">I’m currently learning more about SLA4OAI, an open source standard for describing SLA in APIs</a>, which is based on the standards proposed by the OAI, adding an optional profile for defining SLA (Service Level Agreements) for APIs. “This SLA definition in a neutral vendor flavor will allow to foster innovation in the area where APIs expose and documents its SLA, API Management tools can import and measure such key metrics and composed SLAs for composed services aggregated way in a standard way.” Providing not just a needed standard for the API sector, but more importantly one that is built on top of an existing standard.
 
 <p>SLA4OAI, provides an interesting way to define the SLA for any API, providing a set of objects that augment and can be paired with an OpenAPI definition using an x-sla vendor extension:

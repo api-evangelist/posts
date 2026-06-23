@@ -3,7 +3,7 @@ layout: post
 title: >-
   Looking Beyond The Number Of APIs, Or Just New APIs, And Working Harder To
   Find Only The Most Important APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-ruler-2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-ruler-2.png
 author:
   name: kinlane
 tags:

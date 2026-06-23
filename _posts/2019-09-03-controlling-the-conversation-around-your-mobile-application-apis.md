@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Controlling The Conversation Around Your Mobile Application APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/desert-dragon-light-dali.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/desert-dragon-light-dali.jpg
 author:
   name: kinlane
 tags:

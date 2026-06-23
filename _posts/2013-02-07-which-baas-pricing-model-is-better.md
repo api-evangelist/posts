@@ -2,7 +2,7 @@
 layout: post
 title: Which BaaS Pricing Model Is Better?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/baas-trends.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/baas-trends.png
 author:
   name: kinlane
 tags:

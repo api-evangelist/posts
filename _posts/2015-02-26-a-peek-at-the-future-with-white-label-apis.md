@@ -2,7 +2,7 @@
 layout: post
 title: A Peek At The Future With White Label APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Mobile-Recharge-API.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Mobile-Recharge-API.png
 author:
   name: kinlane
 tags:

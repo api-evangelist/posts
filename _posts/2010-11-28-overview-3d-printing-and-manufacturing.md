@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Overview: 3D Printing and Manufacturing'
-image: http://cdn.venturebeat.com/wp-content/uploads/2008/07/shapeways_logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/overview-3d-printing-and-manufacturing.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ As the Mimeo Connect Cloud Print API Evangelist, I get asked why I would be an e
 
 My primary argument is: Through new technology such as cloud computing, social media, and mobile the print and publishing industry will be redefined. We won't even recognize it as the old beast.
 
-One example of this is [Shapeways](http://www.shapeways.com). Shapeways turns 3D designs and drawings to tangible products through 3D printing. ![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/shapeways/shapeways-logo.png) You can choose from their pre-defined creators to build proven products, partner with other designers to create a product or upload your own designs to the Shapeways platform.
+One example of this is [Shapeways](http://www.shapeways.com). Shapeways turns 3D designs and drawings to tangible products through 3D printing. ![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/shapeways/shapeways-logo.png) You can choose from their pre-defined creators to build proven products, partner with other designers to create a product or upload your own designs to the Shapeways platform.
 
 [Shapeways](http://www.shapeways.com) will check your 3D model that you upload to make sure it can be printed properly before sending to their production facility.
 

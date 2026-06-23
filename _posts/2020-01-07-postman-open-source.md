@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Postman Open Source
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_open_source_philosphy.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/blog/postman_open_source_philosphy.jpg
 author:
   name: kinlane
 tags:

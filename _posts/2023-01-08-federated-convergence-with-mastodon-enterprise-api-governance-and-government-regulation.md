@@ -5,7 +5,7 @@ title: >-
   Federated Convergence With Mastodon, Enterprise API Governance, and Government
   Regulation
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-city-fog-sun.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-city-fog-sun.jpeg
 author:
   name: kinlane
 tags:

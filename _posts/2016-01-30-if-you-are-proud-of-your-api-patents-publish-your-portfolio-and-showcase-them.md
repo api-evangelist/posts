@@ -2,7 +2,7 @@
 layout: post
 title: If You Are Proud Of Your API Patents Publish Your Portfolio And Showcase Them
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-showcase-something.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-showcase-something.png
 author:
   name: kinlane
 tags:

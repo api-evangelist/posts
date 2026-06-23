@@ -2,18 +2,18 @@
 layout: post
 title: The API Behind Every Feature In The User Interface
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_23_at_11.14.58_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_23_at_11.14.58_pm.png
 atomdate: 2016-10-24T20:00:00.000Z
 tags:
   - User Interface
 ---
 I have blogged about this topic in the last 60 days, but I predict it is an area you will hear from me about regularly until I see it baked into more software solutions. [CloudFlare, one of my favorite DNS API providers](http://cloudflare.com) has what I think is the best approach to linking to an API in the bottom corner of every UI element in their dashboard. If you look in the bottom right corner, next to the help icon you will see an API link.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/cloudflare_ui_api_1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/cloudflare_ui_api_1.png)
 
 When I click on the API link I'm given the API path that corresponds to the UI element. In this scenario it allows me to purge the cache for my domain.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_23_at_11.14.58_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_23_at_11.14.58_pm.png)
 
 [I am also given a link to the full CloudFlare API documentation](https://api.cloudflare.com/#zone-purge-all-files). I have always been an advocate for companies making sure to have an "API" or "Developer" link in the footer of their main website. If you can make sure and have it front and center in the global navigation--all the better. Now I"m going to be advocating for an inline approach like CloudFlare. If all software as a service (SaaS) providers provided API transparency and access in this way, it would be a much different landscape.
 

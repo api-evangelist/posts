@@ -13,7 +13,7 @@ tags:
   - Low Hanging Fruit
   - Adopta Agency
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/kin-lane-presidential-innovation-fellow.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/state-2017/kin-lane-presidential-innovation-fellow.png
 ---
 <p></p>The Department of Veterans Affairs (VA) is listening to my advice around how to execute their API strategy and adopting a micro-approach to not just delivering services, but also to the business of moving the platform forward at the federal agency. I've responded to [round one](http://apievangelist.com/2017/10/26/my-response-on-the-department-of-veterans-affairs-rfi-for-the-lighthouse-api-management-platform/), and [round two](http://apievangelist.com/2018/02/24/department-of-veterans-affairs-lighthouse-platform-rfi-round-two/) of the RFI's, and [now they have submitted a handful of work statements on Github](https://github.com/department-of-veterans-affairs/lighthouse), so I wanted to provide an official response, share my thoughts on each of the work statements, and actually bid for the work.
 

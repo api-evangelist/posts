@@ -5,7 +5,7 @@ title: >-
   I am Giving a Workshop on API Testing to Computer Science Students at
   Tecnológico de Monterrey Tomorrow
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_08_13_at_9.35.11_am.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_08_13_at_9.35.11_am.png
 author:
   name: kinlane
 tags:

@@ -8,7 +8,7 @@ tags:
   - Testing
   - Bias
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-DSC-0084-dali-three.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-DSC-0084-dali-three.jpg
 author:
   name: kinlane
 ---

@@ -8,7 +8,7 @@ tags:
   - Security
   - Management
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/IMG_4038_blue_circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/IMG_4038_blue_circuit.jpg
 author:
   name: kinlane
 ---

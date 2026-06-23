@@ -2,7 +2,7 @@
 layout: post
 title: SDK Generation, API Validation And Transformation Using The APIMATIC CLI
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/introducing_apimatic_cli.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/introducing_apimatic_cli.png
 atomdate: 2017-04-27T20:00:00.000Z
 tags:
   - SDK

@@ -8,10 +8,8 @@ tags:
   - API Transit
   - Lifecycle
   - Definitions
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-definition.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-definition.png
 ---
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-definition.png" align="right" width="40%" style="padding: 15px;" /></p>
-
 _This is a series of stories I'm doing as part of [my API Transit work](http://basics.apievangelist.com/), trying to map out a simple journey that some of my clients can take to rethink some of the basics of their API strategy. I'm using a subway map visual, and experience to help map out the journey, which I'm calling [API transit](http://basics.apievangelist.com/)--leveraging the verb form of transit, to describe what every API should go through._
 
 Defining an API is the first stop along any API journey. When I say definitions, I'm not just talking about OpenAPI (fka Swagger), and specifically definitions for the surface area of your API. I'm talking about defining your idea, your goals, and the standard aspects of doing business with APIs. By API definitions, I mean having a robust toolbox of definitions for everything that is going into your API operations, from standardized dates and currencies, to common data schema, and yes to making sure there is an active OpenAPI definition for every single one of your APIs.

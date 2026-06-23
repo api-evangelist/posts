@@ -2,7 +2,7 @@
 layout: post
 title: The Flickr API Will Be Unavailable
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/flickr-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/flickr-logo.jpg
 author:
   name: kinlane
 tags:

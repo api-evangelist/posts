@@ -6,10 +6,8 @@ date: 2018-01-16T15:00:00.000Z
 tags:
   - API Evangelist
   - Training
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-classroom-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-classroom-api.png
 ---
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-classroom-api.png" width="45%" align="right" style="padding: 15px;" /></p>
-
 _This is a series of stories I'm doing as part of [my API Transit work](http://basics.apievangelist.com/), trying to map out a simple journey that some of my clients can take to rethink some of the basics of their API strategy. I'm using a subway map visual, and experience to help map out the journey, which I'm calling [API transit](http://basics.apievangelist.com/)--leveraging the verb form of transit, to describe what every API should go through._
 
 Think of support as a reactive area, while training will be the proactive area of the API life cycle. Ensuring there is a wealth of up to date material for API developers and consumers across all stops along the API life cycle. Investing in internal, and partner capacity when it comes to the fundamentals of APIs, as well as the finer details of each stop along the API life cycle, and CI/CD pipelines will pay off big time down the road.

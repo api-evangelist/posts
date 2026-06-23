@@ -3,7 +3,7 @@ published: true
 layout: post
 title: People Are Aware Of Public APIs But Less Aware Of Mobile APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mobile_phone_apps.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mobile_phone_apps.jpg
 author:
   name: kinlane
 tags:

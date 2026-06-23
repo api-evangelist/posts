@@ -4,8 +4,6 @@ layout: post
 title: 'Thinking About The Privacy And Security Of Public Data Using API Management'
 image: https://kinlane-images.s3.amazonaws.com/shared/kin-lane-api-days-berlin-respect-privacy.jpg
 ---
-
-<p><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/shared/kin-lane-api-days-berlin-respect-privacy.jpg" align="right" width="35%" />
 <p>When I suggest modern approaches to API management be applied to public data I always get a few open data folks who push back saying that public data shouldn’t be locked up, and needs to always be publicly available–as the open data gods intended. I get it, and I agree that public data should be easily accessible, but there are increasingly a number of unintended consequences that data stewards need to consider before they publish public data to the web in 2017.
 
 <p>I’m going through this exercise with my recommendations and guidance for municipal 211 operators when it comes to implementing <a href="http://developer.open.referral.adopta.agency/documentation/">Open Referral’s Human Services Data API (HSDA)</a>. The schema and API definition centers around the storage and access to organizations, locations, services, contacts, and other key data for human services offered in any city–things like mental health resources, suicide assistance, food banks, and other things we humans need on a day to day basis.

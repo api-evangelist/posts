@@ -2,7 +2,7 @@
 layout: post
 title: Continous Integration Platform As A Service At The Command Line
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_04_17_at_12.55.54_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_04_17_at_12.55.54_pm.png
 atomdate: 2017-04-20T16:00:00.000Z
 tags:
   - Integration

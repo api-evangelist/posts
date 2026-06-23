@@ -2,7 +2,7 @@
 layout: post
 title: Why I Still Believe In APIs--The 2017 Edition
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/kl_inapiwetrust_500_filtered.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kl_inapiwetrust_500_filtered.png
 atomdate: 2017-01-12T20:00:00.000Z
 tags:
   - APIs

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Transparent Data Transfer Control APIs At The IoT Device Level
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-device-data.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-device-data.png
 atomdate: 2016-10-27T00:00:00.000Z
 tags:
   - Data

@@ -9,7 +9,7 @@ tags:
   - Communication
   - Evangelism
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/gray-brooks/gray-brooks-microphone.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/gray-brooks/gray-brooks-microphone.jpg
 ---
 <p></p>Most of this API stuff isn't technical. For APIs to work at scale within a single company, a wider industry, or across government agencies, you need people who are committed to evangelism, coaching, and communication around everything that is occurring across API ecosystems. We often times get caught up in our work, and operating within our silos and forget to email, call, and just walk next door sometimes to share stories of what is going on. If you are a regular reader of my work you know how I feel about storytelling, and just how important it is to all of this working or not. Which is why I like to make sure that I showcase the storyelling of other evangelists who are working their magic, and spreading API knowledge within their domains.
 

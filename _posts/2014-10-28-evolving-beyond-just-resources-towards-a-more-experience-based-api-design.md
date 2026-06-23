@@ -2,7 +2,7 @@
 layout: post
 title: Evolving Beyond Just Resources Towards A More Experience Based API Design
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-experience-design.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-experience-design.png
 author:
   name: kinlane
 tags:

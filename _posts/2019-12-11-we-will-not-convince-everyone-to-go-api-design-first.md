@@ -3,7 +3,7 @@ published: true
 layout: post
 title: We Will Not Convince Everyone To Go API Design First
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/gears-4882162452-fa3126b38d-b-blue-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/gears-4882162452-fa3126b38d-b-blue-circuit.jpg
 author:
   name: kinlane
 tags:

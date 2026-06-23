@@ -2,7 +2,7 @@
 layout: post
 title: Intercom Providing Docker Images Of Their SDKs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_10_at_7.57.42_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_01_10_at_7.57.42_pm.png
 atomdate: 2017-01-11T20:00:00.000Z
 tags:
   - Images

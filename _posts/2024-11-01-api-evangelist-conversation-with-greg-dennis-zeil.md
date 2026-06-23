@@ -8,7 +8,7 @@ tags:
   - JSON Schema
   - Language Libraries
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 Greg Dennis who was on my team at Postman, and part of my master plan to spend as much VC money as I could on open source API technology, came by to share his expert view on the diff between HTTP APIs and programming language library APIs. Greg is one of the caring souls who are tending to the JSON Schema specification, and has extensive experience developing and maintaining his .NET JSON Schema library--json-everything. Greg is learning more about HTTP API design these days, but I find his view of the art of programming language library API maintenance important, and something that helps expand, color, and shape my views as an HTTP API craftsperson.
 

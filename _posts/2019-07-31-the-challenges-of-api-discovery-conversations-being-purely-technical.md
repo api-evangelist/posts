@@ -8,7 +8,7 @@ tags:
   - Discovery
   - Service Mesh
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/containership-containership-blue-circuit-5.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/containership-containership-blue-circuit-5.jpg
 author:
   name: kinlane
 ---

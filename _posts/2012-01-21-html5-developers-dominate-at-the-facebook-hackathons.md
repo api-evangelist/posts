@@ -2,7 +2,7 @@
 layout: post
 title: HTML5 Developers Dominate at the Facebook Hackathons
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/HTML5_Logo_512.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/HTML5_Logo_512.png
 author:
   name: kinlane
 tags:

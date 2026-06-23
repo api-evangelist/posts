@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Please Tell Your API Stories
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-story.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-story.png
 author:
   name: kinlane
 tags:

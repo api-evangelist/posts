@@ -2,7 +2,7 @@
 layout: post
 title: 'API Monetization: API Affiliate Network API + Google URL Shortener API'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-affiliate-network.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google-affiliate-network.jpg
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ I don’t have any access to Google Affiliate Network (I submitted request), so 
 *   **API Owners** - As an API owner I could use the Google Affiliate network to define “events” that could occur via my APIs, and setup my API developers as “publishers”.
 *   **API Consumers** - As an API consumer I could setup various APIs I use as “advertisers”, creating specific events for these APIs, and setup my own applications or sites as “publishers”.
 
-![](http://kinlane-productions2.s3.amazonaws.com/google/google-url-shortener.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/google/google-url-shortener.jpg)
 
 In either case, API owners or API consumers could replace any URLs in content or URLs directly served up via APIs with a Google Affiliate Network generated URL with specific conversion events defined, then shortened using [Google URL Shortener API](https://developers.google.com/url-shortener/ "Google URL Shortener API").
 

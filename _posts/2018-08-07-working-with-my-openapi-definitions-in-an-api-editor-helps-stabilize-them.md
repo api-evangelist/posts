@@ -10,7 +10,7 @@ tags:
   - Validation
   - Definitions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/openapi/swagger-editor-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/swagger-editor-screenshot.png
 ---
 <p></p>I'm deploying three new APIs right now, using a new experimental serverless approach I'm evolving. One is a location API, another providing API access to companies, and the third involves working with patents. I will be evolving these three simple web APIs to meet the specific needs of some applications I'm building, but then I will also be selling retail and wholesale access to each API once they've matured enough. With all three APIs of these APIs, I began with a simple JSON schema from the data source, which I used to generate three rough OpenAPI definitions that will acts the contract seed for my three services.
 

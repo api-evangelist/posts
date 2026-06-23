@@ -4,7 +4,7 @@ title: >-
   Evangelists Needed in New York, Chicago, Boston, Seattle, Denver, Austin and
   Portland
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-API-Evangelist.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-API-Evangelist.png
 author:
   name: kinlane
 tags:

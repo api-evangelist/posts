@@ -2,7 +2,7 @@
 layout: post
 title: 'Learning from Sqoot: Making Hackathons Accessible to EVERYONE!'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-jam.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-jam.jpg
 author:
   name: kinlane
 tags:
@@ -12,23 +12,23 @@ tags:
 ---
 Boston API Jam organizer Sqoot just got themselves into a lot of hot water with some very sexist comments on their hackathon home page (now removed):
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/sqoot/boston-api-jam.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sqoot/boston-api-jam.png)
 
 From what I can tell, Sqoot was called out by [@BoazSender](https://twitter.com/#!/BoazSender):
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/sqoot/Sqoot-Boaz-Sender-.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sqoot/Sqoot-Boaz-Sender-.png)
 
 Then the pressure quickly was put on in the Twittershpere:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/sqoot/sqoot-jacobian.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sqoot/sqoot-jacobian.png)
 
 Resulting in Apigee pulling their sponsorship:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/sqoot/Sqoot-Apigee.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sqoot/Sqoot-Apigee.png)
 
 And Heroku pulling theirs as well:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/sqoot/sqoot-heroku.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sqoot/sqoot-heroku.png)
 
 [Sqoot quickly released an "apology"](https://docs.google.com/document/d/1tCdfaMOC2xmx9LFsn7At_34uabeqjqaB4mbNjj1j4N8/preview?pli=1&sle=true) which included:
 

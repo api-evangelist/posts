@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I am working my way through profiling API analytics provider Moesif. I have a pile of partner related work accumulating and there is no better way to work th...">
-    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_28_at_6.08.30_pm.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_28_at_6.08.30_pm.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -42,7 +42,7 @@
     <meta name="twitter:title" content="Developing a Reference OpenAPI and Collection for the Moesif Analytics API So That I Can Build an API Management Collection">
     
     <meta name="twitter:description" content="I am working my way through profiling API analytics provider Moesif. I have a pile of partner related work accumulating and there is no better way to work th...">
-    <meta name="twitter:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_28_at_6.08.30_pm.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_28_at_6.08.30_pm.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -52,7 +52,7 @@
       "@type": "Article",
       "headline": "Developing a Reference OpenAPI and Collection for the Moesif Analytics API So That I Can Build an API Management Collection",
       "description": "I am working my way through profiling API analytics provider Moesif. I have a pile of partner related work accumulating and there is no better way to work th...",
-      "image": "http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_28_at_6.08.30_pm.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_28_at_6.08.30_pm.png",
       "datePublished": "2020-07-29T00:00:00-04:00",
       "dateModified": "2020-07-29T00:00:00-04:00",
       "author": {
@@ -65,7 +65,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -363,7 +363,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -393,7 +393,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -727,7 +727,7 @@
       </div>
 
       
-      <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_28_at_6.08.30_pm.png" alt="Developing a Reference OpenAPI and Collection for the Moesif Analytics API So That I Can Build an API Management Collection" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_28_at_6.08.30_pm.png" alt="Developing a Reference OpenAPI and Collection for the Moesif Analytics API So That I Can Build an API Management Collection" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -735,15 +735,15 @@
 
 <p>My review of any API service provider always begins with looking at their own developer area, and identifying whether or not they have an API (all API service providers should have APIs)—Moesif has one. Next, I need a machine readable API definition—either an OpenAPI or Postman, ideally both, as they have varied but overlapping purposes. Moesif is using Postman, which I will talk about more in a bit, but alas there wasn’t an easy OpenAPI or Postman collection for me to put to work (shame shame). Luckily they use Slate for their docs, which always means there is some easy to scrape and parse markdown or HTML right behind things. I quickly <a href="https://github.com/api-evangelist/moesif/blob/master/openapi.json">generated an OpenAPI for the Moesif API analytics API</a>.</p>
 
-<p><a href="https://github.com/api-evangelist/moesif/blob/master/openapi.json"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_28_at_6.07.31_pm.png" alt="" /></a></p>
+<p><a href="https://github.com/api-evangelist/moesif/blob/master/openapi.json"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_28_at_6.07.31_pm.png" alt="" /></a></p>
 
 <p>It isn’t a complete OpenAPI, but it does give me the paths, summaries, and parameters in a machine readable format. I can use this to generate a Postman collection, then begin using it to certify each of the endpoints, saving examples, and making for a more robust definition for docs, mocks, testing, and other lifecycle stops. To continue working with my Moesif OpenAPI definition I will need to create a dedicated workspace in Postman for my work with this partner, and publish the OpenAPI in my Postman API Builder.</p>
 
-<p><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_28_at_6.08.30_pm.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_28_at_6.08.30_pm.png" alt="" /></p>
 
 <p>With the entry level OpenAPI in Postman, I am not able to generate a Postman collection, which I then do a little more polishing and organization of requests, helping make the Moesif API a little more actionable as part of other work. <a href="https://github.com/api-evangelist/moesif/blob/master/collection.json">Right now this is what I call a reference collection</a>, providing me with a complete list of the value that Moesif brings to the table.</p>
 
-<p><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_28_at_6.09.54_pm.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_28_at_6.09.54_pm.png" alt="" /></p>
 
 <p>Now that I have the building blocks of what Moesif does, as tags within the OpenAPI, and as folders within the Postman collection. This provides me with the understanding I will need to create additional Postman collections that help API providers accomplish specific business objectives. I have my sights set on pushing forward three Postman collections for the Moesif API:</p>
 

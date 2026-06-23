@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Postman API Governance Collections
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_08_03_at_5.16.56_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_08_03_at_5.16.56_pm.png
 author:
   name: kinlane
 tags:
@@ -94,8 +94,6 @@ After thinking long and hard about API governance, and thinking about how organi
 *   **Common Rules** \- Default sets of common questions that need asked as part of the API design process can be bundled and made available for API providers who are just beginning their journey, and there is plenty of room for more advanced sets of rules, as well as custom rules to be developed.
 *   **Automation** - Postman collections can be run as manually using Runners within the web or desktop versions of Postman, and the scheduled to run from multiple regions using monitors, or directly from the pipeline using the open source Newman runner, allowing governance to be defined as collections and then execute wherever they are needed.
 *   **Open Source -** Postman Collections and Newman are both open source, so API providers can define, apply, and evolve their rules without the friction of any specific vendor. Allowing API governance rules to be developed in or outside of Postman, and executed as part of any pipeline, tooling, or service provider that supports collections.
-
-![](https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/square/C32Eg8bUEAEa_gj_square.jpg)
 
 While I believe the scripting portion of this approach is going to quickly become pretty unwieldy, and will need much more standardization, a possible YAML or JSON rules engine, and other housekeeping support--it shows one possible future for governance. One where API developers can test the design and implementation of their APIs using the same tooling and scripting language. I don't think we can develop a one-size fits all approach to API governance, and I think there will be a solid core of common patterns we can define and apply, but I think there will be a pretty significant long tail to what is actually needed by enterprise organizations in the trenches, and they will need full control over being able to deliver API governance on their own terms.
 

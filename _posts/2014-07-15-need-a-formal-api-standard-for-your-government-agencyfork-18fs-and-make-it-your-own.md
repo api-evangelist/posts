@@ -6,7 +6,7 @@ title: >-
 url: >-
   http://apievangelist.com/2014/07/15/need-a-formal-api-standard-for-your-government-agency--fork-18fs-and-make-it-your-own/
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/18f/18F_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/18f/18F_logo.png
 author:
   name: kinlane
 tags:

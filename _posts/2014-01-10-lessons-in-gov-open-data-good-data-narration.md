@@ -2,7 +2,7 @@
 layout: post
 title: 'Lessons In Gov Open Data: Good Data Narration'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-data-narration.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-data-narration.png
 author:
   name: kinlane
 tags:

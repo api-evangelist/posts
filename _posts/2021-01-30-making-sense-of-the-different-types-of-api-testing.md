@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Making Sense of the Different Types of API Testing
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-gauge-on-aircraft-carrier.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-gauge-on-aircraft-carrier.jpg
 author:
   name: kinlane
 tags:
@@ -23,7 +23,7 @@ Beyond just “testing out” an API, from what I can gather across about 25 sep
 6.  **Performance Testing** - Overlapping with load testing, but benchmarking the API performance.
 7.  **Reliability Testing** - Understanding the overall reliability of each individual API.
 8.  **Runtime Error Detection** \- Focusing specifically on errors encountered at runtime.
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-gears-pipes-plumbing.jpg)10.  **Security Testing** - A broad umbrella for testing the layers of API security that is present.
+![](https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-gears-pipes-plumbing.jpg)10.  **Security Testing** - A broad umbrella for testing the layers of API security that is present.
 11.  **Authorization Tests** \- Focused on testing the authentication for each individual API.
 12.  **Penetration Testing** \- Seeing you can actually get into an API through alternate ways.
 13.  **Fuzz Testing** - Blasting an API with garbage, noise, and other junk to see what it does.
@@ -57,7 +57,7 @@ Everything I have covered so far is about testing API instances. Making sure eac
 
 I can get finer grain on requests, responses, and other aspects of governance, but this provides a general set of what I’ve seen when it comes to tangible API governance testing. The discipline of manual or automated API governance testing isn’t as mature as other areas of API testing, but this will prove as a nice base for considering API governance as part of the overall API testing suite. The big difference with these types of tests is that you aren’t testing the results of each API instance, you are testing the surface area of the API and comparing it against all the other APIs, and an organizational, or industry wide set of specifications and standards. 
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-fire-hydrant-water.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-fire-hydrant-water.jpg)
 
 ### Considering How we Test API Operations
 

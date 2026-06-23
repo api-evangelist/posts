@@ -5,7 +5,7 @@ title: How to Govern APIs
 tags:
   - Governance
 image: >-
-  https://kinlane-productions2.s3.us-east-1.amazonaws.com/building-blocks-flow.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks-flow.jpg
 ---
 It is really difficult to distill down how to approach enterprise API operations, let alone the governance of API operations into a single bullied list. There are a lot of moving parts already in motion as well as a lot of new building blocks you can apply to achieve the right quality and velocity for any enterprise operations. Some of these moving parts are well known (red), some are less known but ubiquitous (yellow), others are commonly discussed (green), but most lack the connections needed to properly govern the enterprise(purple), with many aspects of APIs ending up negatively impacting people at all levels of the enterprise (black)--to help better illustrate API operations, let’s break down how you govern APIs.
 

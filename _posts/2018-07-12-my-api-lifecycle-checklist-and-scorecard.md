@@ -6,7 +6,7 @@ date: 2018-07-12T09:00:00.000Z
 tags:
   - API Evangelist
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-blue-seal.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-logos/api-evangelist-blue-seal.png
 ---
 <p></p>I am working on delivering a handful of new APIs, which I will be turning into products. I will be prototyping, developing, and operating them in production environments for myself, and for a handful of customers. To help guide my workflow, I've crafted this API lifecycle definition to help direct my efforts in an ongoing lifecycle approach.
 

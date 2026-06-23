@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Spec-First Development
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/copper_circuit_cross_against_trees.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/copper_circuit_cross_against_trees.jpg
 tags:
   - API-First
 ---

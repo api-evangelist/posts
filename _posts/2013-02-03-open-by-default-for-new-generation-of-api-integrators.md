@@ -2,7 +2,7 @@
 layout: post
 title: Open By Default for New Generation of API Integrators
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/platform-stability.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/platform-stability.jpg
 author:
   name: kinlane
 tags:

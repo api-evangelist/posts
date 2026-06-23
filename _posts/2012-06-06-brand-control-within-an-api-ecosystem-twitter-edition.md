@@ -2,7 +2,7 @@
 layout: post
 title: 'Brand Control Within An API Ecosystem: Twitter Edition'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twitter-bird-blue-on-white.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twitter-bird-blue-on-white.png
 author:
   name: kinlane
 tags:
@@ -29,7 +29,7 @@ The [#TwitterBird](https://twitter.com/#!/search/%23TwitterBird "#TwitterBird") 
 *   What to do when your writing a book or publication about Twitter
 *   How to display Tweets and other Twitter content
 
-![](http://kinlane-productions2.s3.amazonaws.com/twitter/Twitter-Branding-Old-1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/Twitter-Branding-Old-1.png)
 
 We’ve come a long ways from [2008](http://www.twitip.com/181-twitter-buttons-badges-widget-and-counters-to-help-you-find-followers/ "2008") and [2009](http://www.hongkiat.com/blog/100-remarkably-beautiful-twitter-icons-and-buttons/ "2009") where logos, buttons, badges and other Twitter branding items were yet another area where Twitter depended on the Twitter ecosystem for support. The Twitter community created a wild assortment of assets to be used when integrating Twitter into your site or application.
 
@@ -37,7 +37,7 @@ Then [starting in 2010 Twitter started pulling in the reigns and took more contr
 
 Over the next two years Twitter has continued to polish their brand, while also tightening the rules of how you can use Twitter and Tweets in your own sites and applications. While I totally understand Twitter’s need to get more control, my only criticism are:
 
-![](http://kinlane-productions2.s3.amazonaws.com/twitter/Twitter-Branding-Old-2-2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/Twitter-Branding-Old-2-2.png)
 
 *   **Four Years Late** - They should have done this a long time ago. It took four years before they started doing anything in branding.
 *   **Developers** - They should have included the ecosystem in more of the planning as well as creating a layer that includes ecosystem apps in the equation

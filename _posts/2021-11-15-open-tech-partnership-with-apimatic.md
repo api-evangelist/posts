@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Open Tech Partnership with APIMATIC
-image: https://kinlane-productions2.s3.amazonaws.com/apimatic-screen-2021-11.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/apimatic-screen-2021-11.png
 tags:
   - Partnership
   - SDK

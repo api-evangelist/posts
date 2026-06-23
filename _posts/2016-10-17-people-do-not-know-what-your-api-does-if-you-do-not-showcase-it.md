@@ -1,7 +1,7 @@
 ---
 layout: post
 title: People Do Not Know What Your API Does If You Do Not Showcase It
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-spotlights.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-spotlights.png
 atomdate: 2016-10-17T16:00:00.000Z
 tags:
   - Showcase

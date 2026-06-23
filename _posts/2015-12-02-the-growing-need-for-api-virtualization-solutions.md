@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Growing Need For API Virtualization Solutions
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-virtulization.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-virtulization.png
 author:
   name: kinlane
 date: 2015-12-02T05:13:24.000Z

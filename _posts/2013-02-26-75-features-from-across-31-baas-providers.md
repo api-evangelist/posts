@@ -2,7 +2,7 @@
 layout: post
 title: 75 Features From Across 31 BaaS Providers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/baas-trends.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/baas-trends.png
 author:
   name: kinlane
 tags:
@@ -11,69 +11,69 @@ tags:
 ---
 I’m currently tracking on [31 backend as a service providers](/trends/baas.php), in an effort to better understand how this new breed of platforms are helping developers build web and mobile apps. After looking at all the BaaS providers, there are 13 clear leaders:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/appcelerator-logo.png)](/serviceproviders/appcelerator.php "Appcelerator")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/appcelerator-logo.png)](/serviceproviders/appcelerator.php "Appcelerator")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/flurry-logo.png)](/serviceproviders/flurry.php "Flurry")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/flurry-logo.png)](/serviceproviders/flurry.php "Flurry")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/urban-airship-logo.png)](/serviceproviders/urban_airship.php "Urban Airship")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/urban-airship-logo.png)](/serviceproviders/urban_airship.php "Urban Airship")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/Kii-Logo.png)](/serviceproviders/kii.php "Kii")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/Kii-Logo.png)](/serviceproviders/kii.php "Kii")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/stackmob-logo.png)](/serviceproviders/stackmob.php "StackMob")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/stackmob-logo.png)](/serviceproviders/stackmob.php "StackMob")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/Parse-Logo.png)](/serviceproviders/parse.php "Parse")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/Parse-Logo.png)](/serviceproviders/parse.php "Parse")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/Geoloqi-logo.png)](/serviceproviders/geoloqi.php "Geoloqi")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/Geoloqi-logo.png)](/serviceproviders/geoloqi.php "Geoloqi")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/kinvey-logo.png)](/serviceproviders/kinvey.php "Kinvey")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/kinvey-logo.png)](/serviceproviders/kinvey.php "Kinvey")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/buddy-platform.png)](/serviceproviders/buddy.php "Buddy")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/buddy-platform.png)](/serviceproviders/buddy.php "Buddy")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/sencha-logo.png)](/serviceproviders/sencha.io.php "Sencha.io")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/sencha-logo.png)](/serviceproviders/sencha.io.php "Sencha.io")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/quickblox-logo.png)](/serviceproviders/quickblox.php "Quickblox")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/quickblox-logo.png)](/serviceproviders/quickblox.php "Quickblox")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/FeedHenry-Logo.png)](/serviceproviders/feedburner.php "FeedBurner")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/FeedHenry-Logo.png)](/serviceproviders/feedburner.php "FeedBurner")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/cloudmine-logo.png)](/serviceproviders/cloudmine.php "Cloudmine")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/cloudmine-logo.png)](/serviceproviders/cloudmine.php "Cloudmine")
 
 Then there are another 18 other players, trying to play catch up in a space that is working hard to define itself in 2013:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/anypresence-logo.png)](/serviceproviders/anypresence.php "AnyPresence")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/anypresence-logo.png)](/serviceproviders/anypresence.php "AnyPresence")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/api-o-mat-logo.png)](/serviceproviders/api_o_mat.php "API O MAT")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/api-o-mat-logo.png)](/serviceproviders/api_o_mat.php "API O MAT")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/app42-logo.png)](/serviceproviders/app42.php "App42")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/app42-logo.png)](/serviceproviders/app42.php "App42")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/Appacitive.png)](/serviceproviders/appacitive.php "Appacitive")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/Appacitive.png)](/serviceproviders/appacitive.php "Appacitive")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/applicasa-logo.png)](/serviceproviders/applicasa.php "Applicasa")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/applicasa-logo.png)](/serviceproviders/applicasa.php "Applicasa")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/baasbox-logo.png)](/serviceproviders/baasbox.php "BaaSBox")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/baasbox-logo.png)](/serviceproviders/baasbox.php "BaaSBox")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/baobab-logo.png)](/serviceproviders/baobab.php "Baobab")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/baobab-logo.png)](/serviceproviders/baobab.php "Baobab")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/CloudyRec-logo-2.png)](/serviceproviders/cloudyrec.php "CloudyRec")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/CloudyRec-logo-2.png)](/serviceproviders/cloudyrec.php "CloudyRec")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/FatFractal-Logo.png)](/serviceproviders/fatfractal.php "FatFractal")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/FatFractal-Logo.png)](/serviceproviders/fatfractal.php "FatFractal")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/kumulos-logo.png)](/serviceproviders/kumulos.php "Kumulos")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/kumulos-logo.png)](/serviceproviders/kumulos.php "Kumulos")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/LeanEngine-Logo.png)](/serviceproviders/leanengine.php "LeanEngine")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/LeanEngine-Logo.png)](/serviceproviders/leanengine.php "LeanEngine")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/Mod-DB-logo.png)](/serviceproviders/mobdb.php "mobDB")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/Mod-DB-logo.png)](/serviceproviders/mobdb.php "mobDB")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/Mobeelizer-Logo.png)](/serviceproviders/mobeelizer.php "Mobeelizer")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/Mobeelizer-Logo.png)](/serviceproviders/mobeelizer.php "Mobeelizer")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/openi-logo.png)](/serviceproviders/openi.php "OPENi")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/openi-logo.png)](/serviceproviders/openi.php "OPENi")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/open-kit-logo-larger.png)](/serviceproviders/openkit.php "OpenKit")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/open-kit-logo-larger.png)](/serviceproviders/openkit.php "OpenKit")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/openmobster-logo.png)](/serviceproviders/openmobster.php "OpenMobster")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/openmobster-logo.png)](/serviceproviders/openmobster.php "OpenMobster")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/Proxomo-Logo.png)](/serviceproviders/proxomo.php "Proxomo")
+[![](https://kinlane-images.s3.amazonaws.com/shared/serviceproviders/Proxomo-Logo.png)](/serviceproviders/proxomo.php "Proxomo")
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/Scotty-App-Logo.png)](/serviceproviders/scottyapp.php "ScottyApp")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/Scotty-App-Logo.png)](/serviceproviders/scottyapp.php "ScottyApp")
 
 My goal is to better understand what features are offered across these 31 BaaS providers. To accomplish this, I spent no more than an hour per provider looking through their sites and playing with their products to get at least a basic understanding of their offerings.
 

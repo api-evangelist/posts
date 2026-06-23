@@ -2,7 +2,7 @@
 layout: post
 title: I Would Review Your API Dropcam, But I Cannot Access It
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/dropcam/dropcam.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/dropcam/dropcam.jpg
 author:
   name: kinlane
 tags:

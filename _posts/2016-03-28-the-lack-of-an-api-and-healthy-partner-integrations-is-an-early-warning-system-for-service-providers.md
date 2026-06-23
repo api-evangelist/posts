@@ -3,7 +3,7 @@ layout: post
 title: >-
   The Lack Of An API And Healthy Partner Integrations Is An Early Warning System
   For Service Providers
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hazard.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-hazard.png
 tags:
   - Integration
   - Integrations

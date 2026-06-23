@@ -2,7 +2,7 @@
 layout: post
 title: 'Project Idea: Codenvy-Like Containerized Spreadsheets'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/docker-spreadsheets.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/docker-spreadsheets.png
 author:
   name: kinlane
 tags:

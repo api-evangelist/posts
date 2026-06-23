@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Evangelist Does Not Run On GitHub Anymore
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/old-gas-pumps-oldgaspumps-dark-dali.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/old-gas-pumps-oldgaspumps-dark-dali.jpg
 author:
   name: kinlane
 tags:

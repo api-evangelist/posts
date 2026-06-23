@@ -8,7 +8,7 @@ tags:
   - Gateways
   - Management
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/udnie-IMG_8312.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/udnie-IMG_8312.jpg
 author:
   name: kinlane
 ---

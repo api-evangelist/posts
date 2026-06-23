@@ -2,7 +2,7 @@
 layout: post
 title: I Support You Adria Richards
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-adria-richards.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-adria-richards.png
 author:
   name: kinlane
 tags:

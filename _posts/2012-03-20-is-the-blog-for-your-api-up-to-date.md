@@ -2,7 +2,7 @@
 layout: post
 title: Is The Blog for Your API Up to Date?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/blog_icon.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/blog_icon.jpg
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: With Number Of APIs Continuing To Grow Account Automation Will Be Key
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gears.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-gears.png
 author:
   name: kinlane
 tags:

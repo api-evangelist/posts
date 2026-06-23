@@ -3,7 +3,7 @@ published: true
 layout: post
 title: What Makes Charismatic APIs?
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-arrow-in-ground.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/good-year-home-merchandise-arrow-in-ground.jpeg
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ I am working my way through profiling the Twilio and Stripe APIs. They are good 
 
 A big reason we hold up Stripe and Twilio as examples of doing APIs right is their presence. APIs weren’t just a link in the footer developers followed, it was their primary offering. These companies spoke exclusively to developers, providing all the essential building blocks including documentation, SDKs, and the other resources we needed to be successful. Sure, the simplistic design of the APIs played a role, but it was the whole package that helped ensure developers onboarding and integrating with the Stripe and Twilio APIs. When you used these APIs as a developer, you felt like a first class citizen in a world where APIs are often published to the support section. The documentation was useful and up to date. The SDKs spoke your programming language. You could play around with the API without putting your credit card in. These APIs were easy to understand, onboard with, and began playing around, but most importantly they were useful in a moment where they are building the next generation of mobile applications that were being powered by the fast growing API economy.
 
-![Eiffel Tower](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-effiel-tower-paris.jpg "Eiffel Tower")
+![Eiffel Tower](https://kinlane-images.s3.amazonaws.com/shared/good-year-home-merchandise-effiel-tower-paris.jpg "Eiffel Tower")
 
 I think the primary reason these APIs have risen to the level of charismatic APIs is because of the role they play in the API economy over the last decade. In my opinion, API providers like Twilio and Stripe are not the API economy, it is what their API ecosystems enable that represents what we like to call the API economy. You needed messaging and payments to do just about any mobile application today. Ride-sharing, food delivery, and every mobile powered transformation over the last decade depends on essential API resources like the messaging and payment APIs that Twilio and Stripe offer. The simple design, developer presence, and usefulness of Stripe and Twilio are what elevated them to charismatic levels. I have often asked why we haven’t seen more Twilios and Stripes—I am not sure why I do this—we have. Plaid, Slack, Spotify, Slack, Cloudflare, and many other developer favorites boast simple APIs, a developer presence, and a usefulness that expands the API economy.
 

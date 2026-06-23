@@ -2,7 +2,7 @@
 layout: post
 title: The Amazon Console Came After The API And CLI
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/aws_console.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aws_console.png
 atomdate: 2017-02-02T17:00:00.000Z
 tags:
   - CLI

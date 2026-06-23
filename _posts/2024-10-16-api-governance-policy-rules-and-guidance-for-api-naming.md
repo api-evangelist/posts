@@ -8,7 +8,7 @@ tags:
   - Guidance
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-cotton-candy.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-cotton-candy.jpeg
 ---
 I am working my way through each of the moving parts of my API governance for HTTP APIs, showcasing the policy, rules, and guidance I employ for each dimension. This work has two purposes, 1) it helps me further refine each of the machine-readable policies, rules, and guidance which are used across the sites and tools I use for API governance, and 2) helps me generate more attention to my API governance services. I find that most people doing startups right now keep the rules behind governance close to their chest, and I feel pretty strong that this stuff has to be in the [API Commons](https://apicommons.org) (literally).
 
@@ -152,7 +152,7 @@ This blog post is just an output on my policy and rules work in this area, and I
 
 I will create these new rules and associate them with the policy. Rules coverage for policies is one of my greatest concerns and until I have more automated tools to help me out in this area, I manually keep an eye on as part of this work.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-please-do-not-feed-the-pigeons.jpeg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-please-do-not-feed-the-pigeons.jpeg" style="padding: 15px;">
 
 Right now rules are primarily achieved using Spectral default functions, but I will be creating more custom functions to help me tackle some of the more complex rules, multi-specification rules, as well as making API calls as part of rule execution like I will need for the vocabulary lookup.
 

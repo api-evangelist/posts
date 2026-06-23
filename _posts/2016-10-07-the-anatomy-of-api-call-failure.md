@@ -2,18 +2,18 @@
 layout: post
 title: The Anatomy Of API Call Failure
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/ct3y_zqviaaggk5.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ct3y_zqviaaggk5.jpg
 atomdate: 2016-10-07T20:00:00.000Z
 tags:
   - ai
 ---
 I have been spending time thinking about how we can build in [fault tolerance](http://apievangelist.com/2016/09/08/when-working-with-our-api-make-sure-you-build-faultresistance-into-your-code/), and [change resiliency](http://apievangelist.com/2016/09/28/thinking-about-how-i-can-build-change-resilience-into-my-api-integrations/) into our API SDKs, and client code. I want to better understand what is necessary to develop the best possible integrations as possible. While doing my regular monitoring this week I came across a [Tweet from @Runscope](https://twitter.com/Runscope/status/783020481276317696/), with a pretty interesting image on this subject [crafted by @realm](https://twitter.com/realm), a mobile platform for sync.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/ct3y_zqviaaggk5.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ct3y_zqviaaggk5.jpg)
 
 There is a wealth of building blocks here to apply at the client and SDK level, helping us achieve more fault tolerance, and make our applications, systems, and device integrations more change resilient. I wanted to break them out, providing a bulleted list I could include in my research:
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-broken-link.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-broken-link.png)
 
 *   Is the API Online?
 *   Did the server receive the request?

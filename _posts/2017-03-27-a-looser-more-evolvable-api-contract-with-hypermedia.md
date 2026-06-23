@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Looser More Evolvable API Contract With Hypermedia
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hang-loose.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-hang-loose.png
 atomdate: 2017-03-27T22:00:00.000Z
 tags:
   - Hypermedia

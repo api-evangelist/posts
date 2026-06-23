@@ -2,7 +2,7 @@
 layout: post
 title: How Much Do You Spend Attracting and Supporting Freemium API Developers?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/freemium-customers.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/freemium-customers.jpg
 author:
   name: kinlane
 tags:

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Contrasting API Contract Testing and Functional Testing
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-fire-hydrant-water.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-fire-hydrant-water.jpg
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ I am neck deep in very philosophical debates around API specifications and testi
 
 My co-worker Jordan Walsh published a great walk through of what contract testing is, and specifically what producer vs consumer contract testing is, but for this conversation I am just workshopping a single concept I thought he articulated very well, when comparing how OpenAPI and specifically JSON Schema differs from common assertion-based testing using code. Here is a screen shot of the slide from Jordan’s contract testing.
 
-![OpenAPI Schema and Postman Tests](https://kinlane-productions2.s3.amazonaws.com/provider-managed-contract-tests.png)
+![OpenAPI Schema and Postman Tests](https://kinlane-images.s3.amazonaws.com/apievangelist/provider-managed-contract-tests.png)
 
 One the left you have a JSON Schema from an OpenAPI contract, and on the right, you have test assertions being executed against an API. While this shows two separate ways to approach the problem of testing, there is a whole lot of unspoken nuances here that gets at why API contract testing is desirable over just API functional testing alone. I am not saying that functional testing is going anywhere, what I am saying is that you can do much of what you are accomplishing with functional testing using a contract, but the scope and perspective is where you get more bang for your buck.
 

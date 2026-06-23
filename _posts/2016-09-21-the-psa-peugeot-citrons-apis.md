@@ -2,7 +2,7 @@
 layout: post
 title: The PSA Peugeot Citroën’s APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/psa_group_for_developers_api_for_connected_cars_peugeot_citroen_and_ds_automobiles.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/psa_group_for_developers_api_for_connected_cars_peugeot_citroen_and_ds_automobiles.png
 atomdate: 2016-09-21T16:00:00.000Z
 tags:
   - APIs

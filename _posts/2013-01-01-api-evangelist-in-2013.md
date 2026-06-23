@@ -2,7 +2,7 @@
 layout: post
 title: API Evangelist in 2013
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Evangelism.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/API-Evangelism.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ _Every year I rewrite my bio, based upon where I am in my life. I’ve been doin
 
 * * *
 
-![](https://s3.amazonaws.com/kinlane-productions2/kin-lane/API-Evangelism.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/API-Evangelism.png)
 
 API Evangelist is my obsession. I started the blog in summer of 2012, in an effort to reinvent myself and find a career path that didn’t just make sense for me, but also was something that would be around in a couple, while also returning something to society.
 
@@ -27,7 +27,7 @@ In 2012 I felt an awakening. An awakening that APIs exist, and the potential the
 
 While APIs time has definitely come, there are many paths we can take from here when it comes to terms of use, business models or decisions around hypermedia that could benefit or severely damage the potential APIs can deliver.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-evangelist-2013.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-evangelist-2013.png)
 
 To quote a friend of mine, APIs are very tactical.  And because of this, I don’t think we can make predictions.  As API owners you can just focus on what you do best, solve your problems in real-time--while also making sure to look up from time to time and get your bearings in respect to the rest of the space and your industry.
 

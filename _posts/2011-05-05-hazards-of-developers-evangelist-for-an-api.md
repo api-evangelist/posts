@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hazards of Developers Evangelist for an API.
-image: http://kinlane-productions2.s3.amazonaws.com/mimeo/mimeo_connect_logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/mimeo/mimeo_connect_logo.jpg
 author:
   name: kinlane
 tags:

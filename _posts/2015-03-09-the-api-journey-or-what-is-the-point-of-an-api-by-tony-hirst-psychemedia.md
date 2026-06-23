@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The API Journey Or What Is the Point of an API, By Tony Hirst (@psychemedia)
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-journey.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-journey.png
 author:
   name: kinlane
 tags:

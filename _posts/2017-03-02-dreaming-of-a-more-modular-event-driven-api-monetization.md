@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dreaming Of A More Modular Event Driven API Monetization
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-operations.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-operations.png
 atomdate: 2017-03-02T20:00:00.000Z
 tags:
   - Monetization

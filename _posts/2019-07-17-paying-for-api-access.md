@@ -9,7 +9,7 @@ tags:
   - Pricing
   - Plans
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-old-door-lock-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-old-door-lock-copper-circuit.jpg
 author:
   name: kinlane
 ---

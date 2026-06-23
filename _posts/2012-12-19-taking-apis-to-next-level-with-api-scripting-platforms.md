@@ -2,7 +2,7 @@
 layout: post
 title: Taking APIs To Next Level With API Scripting Platforms
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/scripting-platforms.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/scripting-platforms.jpg
 author:
   name: kinlane
 tags:

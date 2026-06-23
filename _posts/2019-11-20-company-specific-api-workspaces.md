@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Company Specific API Workspaces
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_api_collection_workspace_api_evangelist.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_api_collection_workspace_api_evangelist.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ I have many different workspaces defined within my Postman team account. I’m o
 
 I am currently profiling [the Postman API](https://docs.api.postman.com/?version=latest#99810ef3-3cc0-a6cc-06f5-d8e2ae9d84e4), while also defining the capabilities present within the API that I depend on to conduct API Evangelist business. I have already added the Postman API to several other workspaces including design, mocking, documentation, testing, and client, but now I’m going to create a company specific workspace for managing my API collections for Postman. My master copy of the Postman collection which I’ve downloaded from the Postman API Network will act as the master API collection for Postman, and I will share the collection out to any relevant workspace, but I will also be creating some more specific workflow and capability collections that reflect how I use the Postman API to run API Evangelist.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_api_collection_workspace_api_evangelist.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_api_collection_workspace_api_evangelist.png)
 
 I’m not sure this approach will scale, but I’m purposely looking to push the number of collections and workspaces I’m managing using Postman to see where the friction is. I’m using the Postman API to help me organize and audit how I’m managing APIs at scale, so I I can adapt and pivot based upon how I’m breaking things up. If I had to manage everything through the Postman interface it would take me days to get things reorganized each time I change my strategy, but since I have the API I am confident that I can rapidly make changes at scale. The process should really harden the way I view collections, workspaces, and environments at scale, helping realize the pros and cons of different ways of organizing thousands of APIs, and derivative collections.
 

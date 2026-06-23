@@ -4,8 +4,6 @@ layout: post
 title: 'How Do We Get API Developers To Follow The Minimum Viable API Documentation'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/va-working/api-documentation-guidance-1.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/va-working/api-documentation-guidance-1.png" width="45%" align="right" style="padding: 15px;" />
 <p>After <a href="https://apievangelist.com/2018/08/24/how-should-teams-be-documenting-their-are-new-and-legacy-apis/">providing some guidance the other day on how teams should be documenting their APIs</a>, one of the follow up comments was: “Now we just have to figure out how to get the developers to follow the guidance!” Something that any API leadership and governance team is going to face as they work to implement new policies across their organization. You can craft the best possible guidance for API design, deployment, management, and documentation, but it doesn’t mean anyone is actually going to follow your guidance.
 
 <p>Moving forward API governance within any organization represents the cultural frontline of API operations. Getting teams to learn about, understand, and implement sensible API practices is always easier said than done. You may think your vision of the organizations API future is the right one, but getting other internal groups to buy into that vision will take a significant amount of work. It is something that will take time, resources, and be something that will always be shifting and evolving over time.

@@ -9,7 +9,7 @@ tags:
   - Status Codes
   - HTTP
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/deliveroo/deliveroo-new-visual-branding-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/deliveroo/deliveroo-new-visual-branding-logo.jpg
 ---
 <p></p>I am pulling together some API design guidance for some projects I'm consulting on, so I'm spending time reviewing the API design guides the leading API providers who have published them publicly. Learning from what they are doing across their own companies, organizations, institutions, and government agencies when it comes to sensible API governance.
 

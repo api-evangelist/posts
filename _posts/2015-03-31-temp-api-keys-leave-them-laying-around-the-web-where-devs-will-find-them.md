@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Temp API Keys: Leave Them Laying Around The Web Where Devs Will Find Them'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-key-skeleton.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-key-skeleton.png
 author:
   name: kinlane
 tags:

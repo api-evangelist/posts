@@ -3,7 +3,7 @@ layout: post
 title: >-
   Developing Small, Simple, Meaningful Tools That Make An Impact Across The API
   Space
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-modular.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-modular.png
 author:
   name: kinlane
 tags:

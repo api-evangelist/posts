@@ -2,7 +2,7 @@
 layout: post
 title: APIs as Art
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/washington-crossing-the-delaware-cropped.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/washington-crossing-the-delaware-cropped.png
 author:
   name: kinlane
 tags:
@@ -37,7 +37,7 @@ While JSON might be the only way we have to visually describe an API, each web, 
 
 I remember back in 8th grade(1984) I was in my social studies class with Ms. Schuler. She brought in some fractal prints, she said were created by her mathematician boyfriend. She walked us through how each visual was actually a math problem. This was the same year my math teacher Mr. Hathaway got around 20 Commodore Vic 20s, which he didn’t know how to setup and run, so a handful of us stayed after school and helped setup the lab. At this point in my education I hated math, and without seeing the beauty of the fractal, I may never have developed a passion (obsession) for computing. My counselors told me I’d never have a career in computers, because I was so poor at math. Ha! Eat it middle school counselors!
 
-![](https://s3.amazonaws.com/kinlane-productions2/washington-crossing-the-delaware-cropped.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/washington-crossing-the-delaware-cropped.png)
 
 Jer Thorp’s tweets really resonate with me. APIs are a technical, business and political representation that can interpreted in so many different ways. When I read a [swagger definition of an API](https://developers.helloreverb.com/swagger/), images begin to form in my mind around the intent of the APIs author (think girl in red dress from the Matrix).
 

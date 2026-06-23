@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Look At Existing APIs In The Space Before Designing Your Own
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-telescope.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-telescope.png
 author:
   name: kinlane
 tags:

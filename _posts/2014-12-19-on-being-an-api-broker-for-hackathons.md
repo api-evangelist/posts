@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On Being An API Broker For Hackathons
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hackathon.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-hackathon.png
 author:
   name: kinlane
 tags:

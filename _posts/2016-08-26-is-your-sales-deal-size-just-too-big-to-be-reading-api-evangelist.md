@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Is Your Sales Deal Size Just Too Big To Be Reading API Evangelist?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-handshake.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-handshake.png
 atomdate: 2016-08-26T22:00:00.000Z
 tags:
   - API Evangelist

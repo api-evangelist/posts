@@ -2,7 +2,7 @@
 layout: post
 title: Stories Are The Best Way To Keep The Door Open
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/keep_door_open_stories.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/keep_door_open_stories.jpg
 atomdate: 2017-04-20T22:00:00.000Z
 tags:
   - Stories

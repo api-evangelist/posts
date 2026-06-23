@@ -2,7 +2,7 @@
 layout: post
 title: APIs Have Been Copyrightable for 22 Years
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-legal.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-legal.jpg
 author:
   name: kinlane
 tags:

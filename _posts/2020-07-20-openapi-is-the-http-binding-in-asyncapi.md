@@ -3,7 +3,7 @@ published: true
 layout: post
 title: OpenAPI is the HTTP Binding in AsyncAPI
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-docks-water-front-ships-containers.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-docks-water-front-ships-containers.jpg
 author:
   name: kinlane
 tags:

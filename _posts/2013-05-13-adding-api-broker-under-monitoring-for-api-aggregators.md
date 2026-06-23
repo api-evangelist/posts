@@ -2,7 +2,7 @@
 layout: post
 title: Adding API Broker Under Monitoring for API Aggregators
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/payments-api-broker-spreedly.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/payments-api-broker-spreedly.png
 author:
   name: kinlane
 tags:

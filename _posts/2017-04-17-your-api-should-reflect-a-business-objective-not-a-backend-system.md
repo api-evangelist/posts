@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Your API Should Reflect A Business Objective Not A Backend System
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-database-new.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-database-new.png
 atomdate: 2017-04-17T16:00:00.000Z
 tags:
   - Business

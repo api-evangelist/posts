@@ -5,7 +5,7 @@ title: >-
   Remember That An Application Is Not Just About Someone Building A Web or
   Mobile Application With Your API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/la-muse-butterfly-purple-flower.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/la-muse-butterfly-purple-flower.jpg
 author:
   name: kinlane
 tags:

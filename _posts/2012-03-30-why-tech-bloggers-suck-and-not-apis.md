@@ -2,7 +2,7 @@
 layout: post
 title: Why Tech Bloggers Suck and Not APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tag-cloud-api.png
 author:
   name: kinlane
 tags:

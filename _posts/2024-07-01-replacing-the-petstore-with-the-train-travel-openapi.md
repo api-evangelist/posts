@@ -8,7 +8,7 @@ tags:
   - Blueprints
   - API Commons
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-high-speed-train-station-france.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-high-speed-train-station-france.jpg
 ---
 While writing the story on [Bump.sh's adoption of APIs.json](https://apievangelist.com/2024/06/16/bumpsh-support-apisjson-with-their-api-documentation-hubs/) I stumbled across their story on [replacing the ubiquitous PetStore OpenAPI that comes default with the Swagger and OpenAPI tooling](https://bump.sh/blog/modern-openapi-petstore-replacement) of the previous decade. I am a big fan of replacing this default OpenAPI that comes with services and tooling, but I am also impressed with Bump.sh's approach to actually deliver a well designed OpenAPI that people can learn from.
 

@@ -4,7 +4,7 @@ title: >-
   Certifying The Network And Storage Is In Country Before We Adopt Internet
   Connected Devices
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-country-in-database.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-country-in-database.png
 atomdate: 2016-08-03T16:00:00.000Z
 tags:
   - Storage

@@ -3,7 +3,7 @@ layout: post
 title: >-
   External API Deployments Using Sync One Possible Future Of Government API
   Deployments
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-external.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-external.png
 author:
   name: kinlane
 tags:

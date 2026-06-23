@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Postman Meetup This Tuesday In Seattle
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/rain_princess_img_8374.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/rain_princess_img_8374.jpg
 author:
   name: kinlane
 tags:

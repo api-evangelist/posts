@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Conducting An API Landscape Analysis
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/va_api_landscape_analysis_and_roadmapping_project.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/va_api_landscape_analysis_and_roadmapping_project.png
 author:
   name: kinlane
 tags:

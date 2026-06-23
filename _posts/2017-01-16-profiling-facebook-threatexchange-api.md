@@ -2,7 +2,7 @@
 layout: post
 title: Profiling Facebook ThreatExchange API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_15_at_6.40.58_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_01_15_at_6.40.58_pm.png
 atomdate: 2017-01-16T20:00:00.000Z
 tags:
   - Facebook

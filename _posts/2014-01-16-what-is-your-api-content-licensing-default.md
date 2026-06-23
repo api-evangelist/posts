@@ -2,7 +2,7 @@
 layout: post
 title: What Is Your API Content Licensing Default?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/thingiverse-license-setting-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/thingiverse-license-setting-2.png
 author:
   name: kinlane
 date: 2014-01-16T21:47:28.000Z
@@ -14,7 +14,7 @@ I was [taking another look at the Makerbot Thingiverse API the other day](http:/
 
 Interestingly this is a feature you don't see in many SaaS apps, let alone as part of API developer settings. I remember first seeing this in my Flickr account settings, and is something I wish I’d see it in every platform I use (keep dream'n buddy).
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/flickr/Flickr__Your_Account.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/flickr/Flickr__Your_Account.png)
 
 When it comes to user generated content via APIs, this licensing is kind of a big deal. It decides as a user and developer, who ultimately owns the exhaust from your work or just from your daily online world.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'An API Idea: HTTP Status Code Clinic'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-clinic.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-clinic.png
 author:
   name: kinlane
 tags:

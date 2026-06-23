@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Keeping API Entropy Low is Needed to Continue API Growth and Expansion
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/nazi-invasion-steam-engine-iceland.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/nazi-invasion-steam-engine-iceland.jpg
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ In the realm of physics entropy means, a thermodynamic quantity representing the
 
  Think about the level of information one encounters when it comes to putting APIs to work these days. Consider the surprise one encounters when seemingly similar API resources speak entirely different dialects or behave inconsistently. Stop to think about the amount of uncertainty that exists between each version of an API, let alone each version of an API across the increasing number of APIs your average organization depends upon today. The velocity at which an organization moves, or should be moving, considered alongside the velocity of each individual API being published or consumed, reveals the reality of API entropy on the ground within your average enterprise organization, as well as the industries in which they operate. When an API and resulting integration or application is brand new API entropy is usually relatively low, but as momentum increases, and the number of consumers increases, entropy will ultimately increase and contribute to the eventual decline of  an API, the applications they power, and even platform that they operate on.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/nazi-invasion-seattle-public-market_36725946605_o.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/nazi-invasion-seattle-public-market_36725946605_o.jpg)
 
 APIs work best where the cognitive load involved with putting them to work is low, where common patterns are employed, and predictability and reliability are high. The reduction of API entropy within API operations and communities can come in many forms. Popular API documentation tooling like Swagger UI, Slate, Postman, and Redoc help reduce API entropy by taming the information surrounding each API. API specifications like OpenAPI, AsyncAPI, and JSON Schema help reduce API entropy by standardizing the surface area of each API and reducing it to a common vocabulary that an increasing number of developers, commercial services, and open source tooling are familiar with. OpenAPI forces API providers to reduce the information a consumer needs to digest when integrating with an API, and has the potential to reduce surprise and uncertainty throughout the life of each API, and the journey of each consumer putting it to work. 
 

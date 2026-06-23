@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Three Ways to Use Postman and Azure DevOps
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bf_skinner_gears_pipes_plumbing.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bf_skinner_gears_pipes_plumbing.jpg
 author:
   name: kinlane
 tags:
@@ -51,7 +51,7 @@ This is a pretty critical pattern for any API provider to think about. I am work
 
 There is one last use of Postman in conjunction with the Azure DevOps platform that I wanted to highlight. Allowing you to orchestrate your Azure DevOps life cycle using a Postman collection for the Azure DevOps API. You can get at the collection via GitHub, but also the Postman documentation they have published to support the Azure DevOps Postman collection usage.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-train-tracks-seattle-waterfront.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-train-tracks-seattle-waterfront.jpg)
 
 *   **[Azure DevOps Collection](https://github.com/hkamel/azuredevops-postman-collections)** - A Postman collection for the Azure DevOps API, for orchestrating your deployment.
 *   **[Azure DevOps API Documentation](https://explore.postman.com/templates/4400/azure-devops-rest-apis-v50)** - Resulting Postman documentation published from collection.

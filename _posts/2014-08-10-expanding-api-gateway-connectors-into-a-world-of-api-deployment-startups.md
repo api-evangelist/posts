@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Expanding API Gateway Connectors Into A World of API Deployment Startups
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-connector.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-connector.png
 author:
   name: kinlane
 tags:

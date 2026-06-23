@@ -5,7 +5,7 @@ title: >-
   We Are Just Swiping Credit Cards, Doing Our Accounting Using Multiple Sets of
   Books, and Do Not Allow Time for Budget Planning in the API Space
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-old-time-cash-register.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-old-time-cash-register.jpg
 author:
   name: kinlane
 tags:

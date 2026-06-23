@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Postman Business Model Is In Alignment With Enterprise Objectives
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_plans_and_pricing.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_plans_and_pricing.png
 author:
   name: kinlane
 tags:

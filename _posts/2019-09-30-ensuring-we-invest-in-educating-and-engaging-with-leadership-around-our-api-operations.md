@@ -5,7 +5,7 @@ title: >-
   Ensuring We Invest In Educating And Engaging With Leadership Around Our API
   Operations
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/adam_smith_adam_smith_china_prop.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/adam_smith_adam_smith_china_prop.jpg
 author:
   name: kinlane
 tags:

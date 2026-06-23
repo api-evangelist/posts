@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Producing a Postman Collection for Mulesoft API Manager and Platform
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_29_at_9.20.45_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_29_at_9.20.45_pm.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I am making my way through all of the partner conversation I am having, publishi
 
 I downloaded the generated Swagger 2.0 definitions Mulesoft provides for their API manager and API platform. There are some other interesting APIs available there that I would like to see live as Postman collections. Honestly, I’d like to see all of the APIs they have published via [the Mulesoft // Dev catalog](https://anypoint.mulesoft.com/exchange/portals/anypoint-platform/) in the Postman API network, as well as Postman collection added to the dropdown list Mulesoft provides for each API, allowing it’s definition to be downloaded as RAML, Swagger, or Postman Collection. As with the other API management service providers I am profiling as part of this work, I created a Postman workspace for managing Mulesoft APIs.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_29_at_9.20.45_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_29_at_9.20.45_pm.png)
 
 With the Swagger 2.0 and Postman collections for the Mulesoft API Manager and API Platform I can begin to break down the individual capabilities that the API management solution provides. Then I can pick from the most common of these API management building blocks and get to work developing some collections that help API providers automate and orchestrate the management of their APIs.
 

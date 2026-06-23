@@ -3,7 +3,7 @@ layout: post
 title: AWS Has A Blog That Is Dedicated To The Command Line
 url: >-
   http://apievangelist.com/2016/01/05/aws-has-a-blog-that-is-dedicated-to-the-command-line/
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-command-line.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-command-line.png
 author:
   name: kinlane
 tags:

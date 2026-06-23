@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Different Types of API Infrastructure All Working in Concert
-image: https://kinlane-productions2.s3.amazonaws.com/five-dimensions-of-apis.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/five-dimensions-of-apis.jpg
 tags:
   - Infrastructure
   - Orchestraton

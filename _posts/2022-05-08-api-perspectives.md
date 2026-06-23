@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Perspectives
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-losangeles-from-observatory-blue-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-losangeles-from-observatory-blue-circuit.jpg
 tags:
   - Roles
   - Perspectives

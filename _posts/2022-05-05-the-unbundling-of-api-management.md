@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Unbundling of API Management
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/containership-containership-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/containership-containership-copper-circuit.jpg
 tags:
   - Postman
   - Management

@@ -2,7 +2,7 @@
 layout: post
 title: Protecting Our Valuable Data With APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/old_door_lock_2_umberto_bocc.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/old_door_lock_2_umberto_bocc.jpg
 atomdate: 2017-04-19T19:00:00.000Z
 tags:
   - Data

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Looking At The Latest API Related Certification Stories
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-certification.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-certification.png
 atomdate: 2016-10-25T16:00:00.000Z
 tags:
   - Certification

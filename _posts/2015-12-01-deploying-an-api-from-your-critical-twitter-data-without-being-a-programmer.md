@@ -2,7 +2,7 @@
 layout: post
 title: Deploying An API From Your Critical Twitter Data Without Being A Programmer
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twitter-to-restlet.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twitter-to-restlet.png
 author:
   name: kinlane
 tags:

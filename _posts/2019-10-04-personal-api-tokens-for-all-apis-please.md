@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Personal API Tokens For All APIs Please
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-new-old-door-lock-2-marcel-duchamp.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-new-old-door-lock-2-marcel-duchamp.jpg
 author:
   name: kinlane
 tags:

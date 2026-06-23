@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Everything Is Fragile In The World Of APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-broken-link.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-broken-link.png
 atomdate: 2016-09-09T22:00:00.000Z
 tags:
   - APIs

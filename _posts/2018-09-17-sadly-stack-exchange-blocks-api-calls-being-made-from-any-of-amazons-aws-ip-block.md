@@ -11,7 +11,7 @@ tags:
   - Security
   - Politics of APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/stack-exchange/stack-exchange-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/stack-exchange/stack-exchange-api.png
 ---
 <p></p>I am developing an authentication and access layer for [the API Gallery](http://api.gallery.streamdata.io/) that I am building for [Streamdata.io](http://streamdata.io), while also federating it for usage as part of [my API Stack research.](http://theapistack.com) In addition to building out these catalogs for API discovery purposes, I'm also developing a suite of tools that allow users to subscribe to different topics from popular sources like [GitHub](http://subscribe.github.repository.search.streamdata.io/), [Reddit](http://subscribe.reddit.streamdata.io/), and [Stack Overflow (Exchange)](http://subscribe.stack.exchange.search.streamdata.io/). I've been busy adding one or two providers to my OAuth broker each week, until the other day I hit a snag with the Stack Exchange API.
 

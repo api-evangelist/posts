@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Reference, Capability, and Workflow Jira API Collections
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_12_19_at_3.17.51_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_12_19_at_3.17.51_pm.png
 author:
   name: kinlane
 tags:

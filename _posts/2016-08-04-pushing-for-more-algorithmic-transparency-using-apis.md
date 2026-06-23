@@ -2,7 +2,7 @@
 layout: post
 title: Pushing For More Algorithmic Transparency Using APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-algorithmic-transparency-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-algorithmic-transparency-2.png
 atomdate: 2016-08-04T19:00:00.000Z
 tags:
   - Transparency

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: I Am Heading To Vegas For AWS re:Invent
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/aws_reinvent_2019_las_vegas.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aws_reinvent_2019_las_vegas.png
 author:
   name: kinlane
 tags:

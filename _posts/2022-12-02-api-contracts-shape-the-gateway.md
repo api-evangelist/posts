@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Contracts Shape the Gateway
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/norman-rockwell-ruby-bridges-gatew-into-field.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/norman-rockwell-ruby-bridges-gatew-into-field.jpg
 author:
   name: kinlane
 tags:

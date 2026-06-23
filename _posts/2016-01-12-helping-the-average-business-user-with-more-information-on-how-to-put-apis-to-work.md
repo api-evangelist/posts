@@ -3,7 +3,7 @@ layout: post
 title: >-
   Helping The Average Business User With More Information On How To Put APIs To
   Work
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-users-business.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-users-business.png
 author:
   name: kinlane
 tags:

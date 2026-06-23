@@ -2,7 +2,7 @@
 layout: post
 title: Overlay API Data On Satellite Imagery Then Make Available Again Via API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/satellite-weather-data.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/satellite-weather-data.png
 atomdate: 2016-08-08T22:00:00.000Z
 tags:
   - Data

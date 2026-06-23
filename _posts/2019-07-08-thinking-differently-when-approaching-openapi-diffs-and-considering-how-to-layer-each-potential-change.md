@@ -10,7 +10,7 @@ tags:
   - Definitions
   - OpenAPI
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-server-cloud1-feed-people.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-server-cloud1-feed-people.jpg
 author:
   name: kinlane
 ---

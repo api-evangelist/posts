@@ -2,7 +2,7 @@
 layout: post
 title: Help EFF Make Case For No Copryight on APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/electronic-frontier-foundation-logo.gif
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/electronic-frontier-foundation-logo.gif
 tags:
   - APIs
 ---
@@ -22,13 +22,13 @@ I think we are in the infancy of API deployment, so it’s going to be tough to 
 
 I think another clear example of open API design being used to help users is Pinboard’s implementation of the Delicious API:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/pinboard/pinboard-icon.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/pinboard/pinboard-icon.png)
 
 **[Pinboard](http://pinboard.in/api/ "Pinboard")** - Wherever possible the Pinboard API uses the same syntax and method names as the Delicious V1 API. This implementation allowed users to seamlessly export Delicious bookmarks accumulated over several years to Pinboard when Delicious was sold by Yahoo.  If Yahoo had copyrighted their API design, Pinboard could never have done this.
 
 A slightly different approach to offering benefit to users via an open API design is surrounding the Instagram API:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/instagram/instagram-icon-250.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/instagram/instagram-icon-250.png)
 
 **[Instagram API](http://apievangelist.com/2011/02/08/instagram-launches-api/)** \- In 2010, before Instagram itself launched an API, a passionate developer launched a rogue API for the popular photo sharing platform based upon Instagram's own internal API design they used to drive the popular iPhone application. The move showed Instagram the demand for an API, and after designing and launching their own asked the rogue API to shut down. A slightly different scenario, but if API design was copyright this may not have been possible. We’ve seen the same approach with a [rogue Pinterest API](http://apievangelist.com/2012/05/25/lack-of-pinterest-api-is-a-lack-of-api-business-strategy/), but it hasn’t resulted in the same response from Pinterest unfortunately. But community driven API design has a lot of potential for opening up companies and encouraging API innovation.
 

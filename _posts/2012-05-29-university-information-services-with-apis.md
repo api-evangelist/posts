@@ -2,7 +2,7 @@
 layout: post
 title: University Information Services with APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/UW-Web-Service-Registry.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/UW-Web-Service-Registry.png
 author:
   name: kinlane
 tags:
@@ -48,6 +48,6 @@ Under the Universities of Washingtons web services site, you can learn, discover
 
 Its grest to see that the University is trying to create a single directory of all University web services, and even has an API suggestion service where students and faculty can submit and vote on ideas for new, useful campus APIs.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/universities/UW-Web-Service-Registry.png)](http://webservices.washington.edu/ "University of Washington")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/universities/UW-Web-Service-Registry.png)](http://webservices.washington.edu/ "University of Washington")
 
 With the volatility of school funding, online learning and just overall competition in higher ed, Universities need to start noticing of the transformative powers of APIs, and how it can make University operations more transparent, accessible and nimble, and potentially even save money when it comes to empowering the students themselves to build interfaces for accessing vital University information.

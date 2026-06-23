@@ -5,7 +5,7 @@ title: >-
   Being Transparent By Default and Over Communicating When Doing API
   Specifications
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/udnie-IMG_4564.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/udnie-IMG_4564.jpg
 tags:
   - Communication
   - Specifications

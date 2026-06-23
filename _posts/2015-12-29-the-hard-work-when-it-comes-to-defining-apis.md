@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Hard Work When It Comes To Defining APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-work-in-progress.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-work-in-progress.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Restaurant Menus As Analogy For API Copyright
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-restaurant-menu.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-restaurant-menu.jpg
 author:
   name: kinlane
 tags:

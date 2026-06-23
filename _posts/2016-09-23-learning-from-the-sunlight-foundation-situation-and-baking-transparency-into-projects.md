@@ -4,7 +4,7 @@ title: >-
   Learning From The Sunlight Foundation Situation And Baking Transparency Into
   Projects
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/sunlight_foundation_transparency.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/sunlight_foundation_transparency.png
 atomdate: 2016-09-23T22:00:00.000Z
 tags:
   - Transparency

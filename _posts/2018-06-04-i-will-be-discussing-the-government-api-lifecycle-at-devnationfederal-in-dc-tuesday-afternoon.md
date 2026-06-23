@@ -10,7 +10,7 @@ tags:
   - API Events
   - Federal Government
   - Lifecycle
-image: https://s3.amazonaws.com/kinlane-productions2/talks/devnation-federal.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/talks/devnation-federal.png
 ---
 <p></p>I'm kicking off a busy week of travel and [talks this week in DC with a discussion about delivering microservices at federal agencies at DevNation Federal on Tuesday, June 5th, 2018](https://devnationfederal.org/). I was invited by [Red Hat](https://www.redhat.com/en) to come speak about the work I'm doing as API Evangelist across federal agencies. You can find me in the afternoon lineup, sharing my stories title "The Tech, Business, and Politics of APIs In Federal Government". Focusing on information gathered as part of my research, workshops, and consulting across the public and private sector.
 

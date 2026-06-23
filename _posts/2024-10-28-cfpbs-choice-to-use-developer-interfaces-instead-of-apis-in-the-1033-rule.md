@@ -7,7 +7,7 @@ tags:
   - Policies
   - Banking
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-seattle-shipping-people-walking.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-seattle-shipping-people-walking.jpg
 ---
 While I applaud [the CFPB's recent finalizing of the 1033 rule requiring banks to use the FDX standard to make banking more interoperable and competitive](https://www.consumerfinance.gov/about-us/newsroom/cfpb-finalizes-personal-financial-data-rights-rule-to-boost-competition-protect-privacy-and-give-families-more-choice-in-financial-services/), I think their choice of wording to talk about APIs is a missed opportunity. When you read the 1033 rule you will notice that the acronym API was not used, in exchange for calling them “developer interfaces”. Which is something that will backfire and reduce the effectiveness of the rule, ignoring 25 years of business and engineering evolution in how application programming interfaces are talked about and used.
 

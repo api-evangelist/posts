@@ -2,7 +2,7 @@
 layout: post
 title: Enterprise Does Not Know (Care) How Big And Destructive It Is To APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-destructive-robot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-destructive-robot.png
 atomdate: 2016-08-31T20:00:00.000Z
 tags:
   - Enterprise

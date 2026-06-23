@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Real Time Email Notifications About API Deprecations Down the Road
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-desert-road-mountains.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-desert-road-mountains.jpg
 author:
   name: kinlane
 tags:

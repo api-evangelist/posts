@@ -2,7 +2,7 @@
 layout: post
 title: The State of California Drinking Water Program Repository
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_19_at_11.20.03_am.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_01_19_at_11.20.03_am.png
 atomdate: 2017-01-19T20:00:00.000Z
 tags:
   - Repository

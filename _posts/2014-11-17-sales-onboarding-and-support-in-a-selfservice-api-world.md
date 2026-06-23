@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sales, Onboarding And Support In A Self-Service API World
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-sales.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-sales.png
 author:
   name: kinlane
 tags:

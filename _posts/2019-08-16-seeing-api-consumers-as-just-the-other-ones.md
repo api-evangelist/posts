@@ -9,7 +9,7 @@ tags:
   - Communication
   - Consumers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/border-crossing-bordercrossing-dali-three.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/border-crossing-bordercrossing-dali-three.png
 ---
 As API providers, it can be easy to find ourselves in a very distant position from the consumers of our APIs. In recent weeks I have been studying the impacts of behavioral approaches to putting technology to work, something that has led me to the work of Max Meyer, and <a href="https://www.amazon.com/Psychology-Other-One-1921-Friedrich-Meyer/dp/1112557342?SubscriptionId=AKIAILSHYYTFIVPWUY6Q&tag=duckduckgo-ffab-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1112557342">his Psychology of the Other-One (1921)</a>. I haven’t read his book yet, but have finished other works citing his work on how to “properly” study how animals (including humans) behave. While the psychological impact of all of this interests me, I’m most interested in how this perspective has amplified and driven how we use technology, and specifically how APIs can be used to create or bridge the divide between us (API providers) and our (API consumers).
 

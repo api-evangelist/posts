@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Using Postman Workspaces and GitHub Repositories Together
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-chess-in-the-park-with-pigeons.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-chess-in-the-park-with-pigeons.jpg
 author:
   name: kinlane
 tags:

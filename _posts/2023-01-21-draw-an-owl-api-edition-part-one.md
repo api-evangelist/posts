@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: How to Draw an Owl, the API Edition - Part One
-image: https://kinlane-productions2.s3.amazonaws.com/how-to-draw-an-owl.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/how-to-draw-an-owl.png
 author: null
 name: kinlane
 tags:

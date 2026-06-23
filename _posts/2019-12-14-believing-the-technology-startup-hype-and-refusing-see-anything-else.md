@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Believing The Technology Startup Hype And Refusing See Anything Else
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-dragon-shadow-sun-2.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-dragon-shadow-sun-2.jpg
 author:
   name: kinlane
 tags:

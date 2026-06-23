@@ -2,7 +2,7 @@
 layout: post
 title: An Outside-In Approach Will Play A Critical Role In Driving The API Economy
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-changelog-eye-icon.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-changelog-eye-icon.jpeg
 author:
   name: kinlane
 tags:

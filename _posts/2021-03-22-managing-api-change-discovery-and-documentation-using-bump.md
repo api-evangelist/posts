@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Managing API Change, Discovery, and Documentation Using Bump
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/managing-api-change-discovery-and-documentation-using-bump.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/managing-api-change-discovery-and-documentation-using-bump.png
 tags:
   - Change
   - Discovery

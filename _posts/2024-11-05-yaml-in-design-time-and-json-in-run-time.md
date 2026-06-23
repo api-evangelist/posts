@@ -6,7 +6,7 @@ tags:
   - JSON
   - YAML
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-skyscraper-construction-crane-2.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-skyscraper-construction-crane-2.jpeg
 ---
 It is a stance I have taken a lot of shit for working on the ground within enterprises, but one I feel is an important stance to take—using YAML in design/development time and JSON in the build/run time. I know a lot of developers hate YAML, in the same way I hated JSON when it came onto the scene, but over time you get used to change and the less than perfect solution wins. Keeping things editable by normals is helpful to the overall motion of delivering APIs, and keeping things YAML as a base, but then switching to JSON can have a serious impact on velocity.
 

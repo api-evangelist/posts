@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Postman Collection For Updating a Collection Host, Path, or Query Parameter
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_11_30_at_5.23.57_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_11_30_at_5.23.57_pm.png
 author:
   name: kinlane
 tags:

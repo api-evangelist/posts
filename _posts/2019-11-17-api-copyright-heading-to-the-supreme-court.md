@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Copyright Heading To The Supreme Court
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/supreme-court-supremecourt-feed-people.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/supreme-court-supremecourt-feed-people.jpg
 author:
   name: kinlane
 tags:
@@ -96,8 +96,6 @@ I think that gives us four new ways to look at why APIs are not copyrightable. T
 *   **Architecture** - Similar to software, the interface for your architecture is not the entirety of your architecture. Also, I believe this is purely a more tangible form of architecture, not the many ways in which us in the tech space have co-opted terms for our use.
 
 The key thing to remember when it comes to API copyright is that this is about creativity and expression. I know that most technical folks within startups and the enterprise feel like their APIs are creative, original, and a form of expression, but sadly they are largely not. This is more about our lack of exposure to the humanities, than it is about beliefs in intellectual property. I’m pretty confident that I could craft an API that was creative and interesting enough, that was wrapped in an original narrative, and presented in such a way that it MIGHT warrant having copyright applied—if that was your thing. [I could see if Twitter’s API design creatively mapped to their earlier field guide style API documentation](http://twitter-field-guide.apievangelist.com/), that it may begin to approach creative and expressive territory. But, the interfaces we are defining, designing, delivering, and supporting for use across desktop, web, mobile, device, and network applications are not creative expressions. Sorry, they aren't. That is too low of a bar, we can do better.
-
-![](https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/supreme-court-judgement.jpg)
 
 **The Reductive Qualities of API Transactions  
 **APIs are all about reducing something to a transaction, a search of a directory, retrieving of an a one or more ingredients within a recipe, or simple posting of a digital form. APIs are formulaic and work with words, data, and facts to provide access to digital resources using common standards and protocols. We rarely “create” APIs out of our imaginations, we assemble or generate them from known constructs—our IDE, OpenAPI definitions, HTTP, and other protocols, services, and tooling define what and how we can assemble. Crafting of your API path or operation name is no more copyrightable that the domain that precedes it when implementing as a web API—it is just another dimension of the public domain name system (DNS) you are employing to make the directory of your digital resources more accessible. The variables, parameters, and keys that you employ as part of your API design are just the existing building blocks of your directories, forms, and digital recipes--they aren’t poetry.

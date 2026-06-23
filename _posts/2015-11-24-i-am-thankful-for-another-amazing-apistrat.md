@@ -2,7 +2,7 @@
 layout: post
 title: I Am Thankful For Another Amazing APIStrat
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-austin-2015.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apistrat-austin-2015.jpg
 author:
   name: kinlane
 tags:

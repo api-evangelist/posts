@@ -2,7 +2,7 @@
 layout: post
 title: Getting Our Schema In Order With Postman&#039;s New Data Editor
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/dataeditor.gif,qx38712.pagespeed.ce.jrrfqkxj5z.gif
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dataeditor.gif,qx38712.pagespeed.ce.jrrfqkxj5z.gif
 atomdate: 2017-03-14T19:00:00.000Z
 tags:
   - Data

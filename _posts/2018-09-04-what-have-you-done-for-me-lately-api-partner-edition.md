@@ -7,7 +7,7 @@ tags:
   - API Evangelist
   - Partners
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/streamdata/streamdata-api-partners-philosophy.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/streamdata/streamdata-api-partners-philosophy.png
 ---
 <p></p>I've been working on developing and evolving the Streamdata.io partner program, trying to move forward conversations with other service providers in the space that have existed long before I started working on things, as well as other newer relationships that I've helped bring in. I'm fascinated by how partner programs work, or do not work, and have [invested a lot of time trying to optimize and improve how I do my own operations](http://apievangelist.com/2018/04/09/creating-a-productive-api-industry-partner-program/), and assist my partners and clients in evolving and delivering on their own partner vision.
 

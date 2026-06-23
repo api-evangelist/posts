@@ -9,7 +9,7 @@ tags:
   - Logging
   - Search
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/abandonedbuildings_blue_circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/abandonedbuildings_blue_circuit.jpg
 author:
   name: kinlane
 ---

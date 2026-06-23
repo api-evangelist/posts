@@ -3,7 +3,7 @@ published: true
 layout: post
 title: What is an API workspace?
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/postman-workspaces-building-blocks.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/postman-workspaces-building-blocks.png
 tags:
   - Workspace
   - Postman

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Technology, Business, and Politics of the OpenAPI Conversation
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_03_02_at_3.15.06_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_03_02_at_3.15.06_pm.png
 author:
   name: kinlane
 tags:

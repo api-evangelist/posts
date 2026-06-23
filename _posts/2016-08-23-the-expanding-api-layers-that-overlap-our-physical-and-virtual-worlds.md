@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Expanding API Layers That Overlap Our Physical And Virtual Worlds
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-layers.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-layers.png
 atomdate: 2016-08-23T20:00:00.000Z
 tags:
   - Physical

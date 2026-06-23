@@ -2,7 +2,7 @@
 layout: post
 title: Now Keeping An Eye On 66 Areas Of The API Lifecycle
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_lifecycle_66_tag_cloud.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_lifecycle_66_tag_cloud.png
 atomdate: 2016-09-15T20:00:00.000Z
 tags:
   - Lifecycle
@@ -11,7 +11,7 @@ As I was firing back up API Evangelist after a break this summer, I took the opp
 
 I approach my work this way because the individual repositories allow me to put my blinders on when it comes to each project, while also scaling my work to include as many possible areas that influence what we like to call the API economy. Not all areas are as mature as API management, which has been being defined for well over a decade, but each area plays its own significant role that in my mind makes it worthy enough to be its own separate project.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_lifecycle_66_tag_cloud.png)](http://apievangelist.com)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_lifecycle_66_tag_cloud.png)](http://apievangelist.com)
 
 [You can always access the list of API lifecycle research projects from the home page of API Evangelist](http://apievangelist.com), and I try to provide a sort of pagination on the home page of each project, allowing for a leisurely stroll through all 66 areas of research. Each area will at least have some news I've curated, with some of the more mature areas also having companies, tools, and blog posts that I've written over the years.
 

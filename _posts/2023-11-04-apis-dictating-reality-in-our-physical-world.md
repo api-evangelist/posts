@@ -3,7 +3,7 @@ published: true
 layout: post
 title: APIs Dictating Reality In Our Physical World
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/stalin-time-gargoyle-paris.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-gargoyle-paris.jpg
 author:
   name: kinlane
 tags:

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Provider On-Boarding Best Practices
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stories-new-27-93-800-500-0-max-0--1--1.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/stories-new-27-93-800-500-0-max-0--1--1.jpg
 author:
   name: kinlane
 tags:

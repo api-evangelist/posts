@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Emerging Landscape Of API Orchestration Platforms
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-conductor.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-conductor.png
 author:
   name: kinlane
 tags:

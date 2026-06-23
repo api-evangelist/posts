@@ -2,7 +2,7 @@
 layout: post
 title: Maintaining On Premise Capacity As Well As Cloud Expertise
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/beachclouds_clean_view.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/beachclouds_clean_view.jpg
 atomdate: 2017-02-07T17:00:00.000Z
 tags:
   - Cloud

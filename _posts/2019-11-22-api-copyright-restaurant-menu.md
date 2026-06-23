@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'API Copyright: Restaurant Menu'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/koji_taco_menu.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/koji_taco_menu.png
 author:
   name: kinlane
 tags:

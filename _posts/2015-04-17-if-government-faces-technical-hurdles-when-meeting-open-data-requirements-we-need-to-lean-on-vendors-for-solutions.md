@@ -3,7 +3,7 @@ layout: post
 title: >-
   If Government Faces Technical Hurdles When Meeting Open Data Requirements, We
   Need to Lean On Vendors For Solutions
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hurdles.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-hurdles.png
 author:
   name: kinlane
 tags:

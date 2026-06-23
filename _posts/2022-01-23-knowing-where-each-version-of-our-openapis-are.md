@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Knowing Where Each Version of Our OpenAPIs Are
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/citizenship-los-angeles-downtown-from-afar.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-los-angeles-downtown-from-afar.jpg
 tags:
   - Discovery
   - OpenAPI

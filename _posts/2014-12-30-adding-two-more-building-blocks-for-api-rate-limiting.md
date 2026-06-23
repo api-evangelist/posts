@@ -2,7 +2,7 @@
 layout: post
 title: Adding Two More Building Blocks For API Rate Limiting
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-speed-limit-blank.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-speed-limit-blank.jpg
 author:
   name: kinlane
 tags:
@@ -15,15 +15,15 @@ Until now, I had a single building block, underneath a category I titled “serv
 
 I now have three rate limiting related API building blocks I recommend API providers consider when designing their platform:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-speed-limit.jpeg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-speed-limit.jpeg)
 
 **Rate Limits Page** - Developers need to understand what the limitations of API usage are upfront. Rate limiting an throttling of API access has become commonplace to manage security, and resource load. This building block is about providing a single page explaining how this process works, setting expectations with API consumers.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-documentation-inline-rate-limits.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-documentation-inline-rate-limits.png)
 
 **Rate Limit Information Inline In Docs** - In addition to a rate limits page, explaining information about limitations on API usage, some API providers like Twitter are including rate limits within API documentation. With this approach, each API endpoint has its related rate limits published alongside other details.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-rate-limit-api.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/building-blocks/bw-rate-limit-api.png)
 
 **Account Rate Limit API** - As API usage grows the need to be able to programmatically manage your account is increasing. Some API platforms also provide APIs for the management of platform operations. It makes sense that API providers should also offer an API for getting rate limit details for their respect account and apps.
 

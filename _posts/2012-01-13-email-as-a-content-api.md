@@ -2,7 +2,7 @@
 layout: post
 title: Email as a Content API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ifthisthenthat-api-evangelist-to-wordpress-via-email.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ifthisthenthat-api-evangelist-to-wordpress-via-email.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ An example of this is [If This Then That (iftt)](http://ifttt.com/ "If This Then
 
 Using iftt you can setup tasks that get triggered on certain events. One such trigger is a new post to an RSS feed. So when a new blog posts shows up in the [API Evangelist RSS](http://feeds.feedburner.com/ApiEvangelist "API Evangelist RSS Feed") feed I can have iftt pull the title and body and push to a channel. iftt provides channels for Posterous and Tumblr, allowing me to automatically syndicate using their APIs.  
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/ifthisthenthat/ifthisthenthat-api-evangelist-to-wordpress-via-email.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/ifthisthenthat/ifthisthenthat-api-evangelist-to-wordpress-via-email.png)
 
 There are no channels for Blogger and Wordpress, so I use their Gmail channel in conjunction with the post by email features on Blogger and Wordpress. So instead of using an API to syndicate my content, I use email as an interface for these blogging platforms.
 

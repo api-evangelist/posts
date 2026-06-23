@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Business and Technical API Alignment
-image: https://kinlane-productions2.s3.amazonaws.com/working-with-visa-apis.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/working-with-visa-apis.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: App Center Best Practices
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/facebook-app-center.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/facebook-app-center.png
 author:
   name: kinlane
 tags:

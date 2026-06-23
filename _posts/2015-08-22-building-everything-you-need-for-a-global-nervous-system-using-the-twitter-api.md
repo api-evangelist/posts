@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building Everything You Need For A Global Nervous System Using The Twitter API
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-twitter-icon.png
 author:
   name: kinlane
 tags:

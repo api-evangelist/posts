@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Diverse API Workspace Example Using OpenAPI and GraphQL From GitHub
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/github_graphql_openapi.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/github_graphql_openapi.png
 author:
   name: kinlane
 tags:
@@ -113,7 +113,7 @@ The purpose of a dedicated workspace for GitHub is to provide me with a single p
 *   **Monitors** - All workflow and lifecycle collections can be scheduled to run using monitors, executing all the requests within a collection, applying different environments and data files to further focus the outcomes of each execution.
 *   **Pipelines** - All workflow and lifecycle collections can also be baked into the pipeline using the open source runner Newman, further baking GitHub API workflows into the existing pipelines that are deploying and integrating with APIs.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_platform.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_platform.png)
 
 Workspaces allow me to organize all of my OpenAPI and GraphQL definitions, demonstrating what is possible, but also the derivative collections that help me actually set these possibilities in motion. This is something that I can open up to other team members, allowing me to define what is possible across both GitHub APIs, while also providing a suite of workflows that anyone with access to the workspace can put into motion using their own keys, tokens, and other relevant context defined as Postman environments.
 

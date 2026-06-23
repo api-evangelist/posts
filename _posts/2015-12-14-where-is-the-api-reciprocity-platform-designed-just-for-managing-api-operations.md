@@ -3,7 +3,7 @@ layout: post
 title: >-
   Where Is The API Reciprocity Platform Designed Just For Managing API
   Operations
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-operations.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-operations.png
 author:
   name: kinlane
 tags:

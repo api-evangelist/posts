@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Where Is The WordPress For APIs?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-wordpress.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-wordpress.png
 atomdate: 2016-10-06T00:00:00.000Z
 tags:
   - WordPress

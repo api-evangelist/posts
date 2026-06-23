@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I have been working on developing new ways to make the Salesforce API more accessible and easier to onboard with over the last couple of months, helping redu...">
-    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/postman-collections/salesforce/salesforce-collection-builder-3.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/postman-collections/salesforce/salesforce-collection-builder-3.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -41,7 +41,7 @@
     <meta name="twitter:title" content="A Dynamic Salesforce REST API Postman Collection Builder Collection">
     
     <meta name="twitter:description" content="I have been working on developing new ways to make the Salesforce API more accessible and easier to onboard with over the last couple of months, helping redu...">
-    <meta name="twitter:image" content="https://kinlane-productions2.s3.amazonaws.com/postman-collections/salesforce/salesforce-collection-builder-3.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/postman-collections/salesforce/salesforce-collection-builder-3.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -51,7 +51,7 @@
       "@type": "Article",
       "headline": "A Dynamic Salesforce REST API Postman Collection Builder Collection",
       "description": "I have been working on developing new ways to make the Salesforce API more accessible and easier to onboard with over the last couple of months, helping redu...",
-      "image": "https://kinlane-productions2.s3.amazonaws.com/postman-collections/salesforce/salesforce-collection-builder-3.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/postman-collections/salesforce/salesforce-collection-builder-3.png",
       "datePublished": "2020-01-06T00:00:00-05:00",
       "dateModified": "2020-01-06T00:00:00-05:00",
       "author": {
@@ -64,7 +64,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -362,7 +362,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -392,7 +392,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -726,7 +726,7 @@
       </div>
 
       
-      <img src="https://kinlane-productions2.s3.amazonaws.com/postman-collections/salesforce/salesforce-collection-builder-3.png" alt="A Dynamic Salesforce REST API Postman Collection Builder Collection" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/postman-collections/salesforce/salesforce-collection-builder-3.png" alt="A Dynamic Salesforce REST API Postman Collection Builder Collection" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -734,21 +734,21 @@
 
 <p>To help make on-boarding with the Salesforce API easier I created <a href="https://github.com/api-evangelist/salesforce-api-collection-builder">a Postman collection that uses the Salesforce API to autogenerate the Postman collection based upon the available objects and endpoints for the Salesforce REST API</a>. The Postman collection has three requests within the collection to accomplish the creation of a dynamic collection. The first request pulls all the latest versions for the Salesforce API, using the Salesforce API.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/postman-collections/salesforce/salesforce-collection-builder-1.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/postman-collections/salesforce/salesforce-collection-builder-1.png" alt="" /></p>
 
 <p>Once I have the version of the Salesforce API I am targeting for a build I add it to the Postman environment I am using to define the operations of my Postman collection, and then I pull the list of available objects for this version, and for my own Salesforce account.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/postman-collections/salesforce/salesforce-collection-builder-2.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/postman-collections/salesforce/salesforce-collection-builder-2.png" alt="" /></p>
 
 <p>The objects that exist will vary for each Salesforce account, as well as version, making it pretty critical that that any Postman collection is dynamic, being generated from this personalized list of objects. The next request in our Salesforce Postman collection builder is the build, which generates individual requests for all of the available objects. After you run, the response just shows the list of available objects, but the test script for the request loops through each object and generates a set of requests from the derived values.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/postman-collections/salesforce/salesforce-collection-builder-3.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/postman-collections/salesforce/salesforce-collection-builder-3.png" alt="" /></p>
 
 <p>After the build request is sent, it will take 30-60 seconds for things to build, but once it does you should see a new folder called “Generated Requests” that has over a 1000 individual API requests in it organized by folders for each object. Providing a complete Postman collection for the entire surface area of the Salesforce REST API.</p>
 
 <p>To use the Salesforce Postman collection builder collection you will need to <a href="https://github.com/api-evangelist/oauth-apps/blob/master/salesforce.md">setup an OAuth application in your own Salesforce account</a>, and add the settings to the authorization for your Postman collection.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/postman-collections/salesforce/7-salesforce-authorization-settings.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/postman-collections/salesforce/7-salesforce-authorization-settings.png" alt="" /></p>
 
 <p>You will also need a Postman environment with your base URL for your Salesforce instance, as well as the version you wish to use, and the API key for your Postman account, which you can find under your account settings.</p>
 

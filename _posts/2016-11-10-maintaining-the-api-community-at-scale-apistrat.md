@@ -2,7 +2,7 @@
 layout: post
 title: 'Maintaining The API Community At Scale #APIStrat'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/steve_and_i_apistrat_2016.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/steve_and_i_apistrat_2016.jpg
 atomdate: 2016-11-10T20:00:00.000Z
 tags:
   - Community

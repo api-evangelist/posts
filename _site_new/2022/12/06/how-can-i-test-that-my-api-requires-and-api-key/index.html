@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I am working on some new approaches to telling more consistent visual stories across the API lifecycle. I have a list of common API testing scenarios I will ...">
-    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/test-for-api-keys-1.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/test-for-api-keys-1.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -42,7 +42,7 @@
     <meta name="twitter:title" content="How Can I Test That My API Requires an API Key">
     
     <meta name="twitter:description" content="I am working on some new approaches to telling more consistent visual stories across the API lifecycle. I have a list of common API testing scenarios I will ...">
-    <meta name="twitter:image" content="https://kinlane-productions2.s3.amazonaws.com/test-for-api-keys-1.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/test-for-api-keys-1.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -52,7 +52,7 @@
       "@type": "Article",
       "headline": "How Can I Test That My API Requires an API Key",
       "description": "I am working on some new approaches to telling more consistent visual stories across the API lifecycle. I have a list of common API testing scenarios I will ...",
-      "image": "https://kinlane-productions2.s3.amazonaws.com/test-for-api-keys-1.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/test-for-api-keys-1.png",
       "datePublished": "2022-12-06T00:00:00-05:00",
       "dateModified": "2022-12-06T00:00:00-05:00",
       "author": {
@@ -65,7 +65,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -363,7 +363,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -393,7 +393,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -727,7 +727,7 @@
       </div>
 
       
-      <img src="https://kinlane-productions2.s3.amazonaws.com/test-for-api-keys-1.png" alt="How Can I Test That My API Requires an API Key" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/test-for-api-keys-1.png" alt="How Can I Test That My API Requires an API Key" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -735,11 +735,11 @@
 
 <p>For this story, I am looking to establish a Spectral rule that I can apply at design, develop, as well as build time. I want to automate checking that every API operational that goes out the door is secured with an API key—something I am enforcing using my CI/CD.</p>
 
-<p><a href="https://kinlane-productions2.s3.amazonaws.com/test-for-api-keys-2.png" target="_blank"><img src="https://kinlane-productions2.s3.amazonaws.com/test-for-api-keys-2.png" width="100%" alt="Test for API Keys" /></a></p>
+<p><a href="https://kinlane-images.s3.amazonaws.com/apievangelist/test-for-api-keys-2.png" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/test-for-api-keys-2.png" width="100%" alt="Test for API Keys" /></a></p>
 
 <p>I am using platform rules linting and collection testing to look at the OpenAPI contract at design, but also development, and enforced rules at build time. This is a great start, but I am also looking to test for the API key when making a series of test calls to the API, but also lint the gateway for proper configuration using the gateway API. This approach gives me three dimensions I can test and automate looking at how tall my APIs are properly secured using keys.</p>
 
-<p><a href="https://kinlane-productions2.s3.amazonaws.com/test-for-api-keys-3.png" target="_blank"><img src="https://kinlane-productions2.s3.amazonaws.com/test-for-api-keys-3.png" width="100%" alt="Test for API Keys" /></a></p>
+<p><a href="https://kinlane-images.s3.amazonaws.com/apievangelist/test-for-api-keys-3.png" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/test-for-api-keys-3.png" width="100%" alt="Test for API Keys" /></a></p>
 
 <p>This approach pushes my API testing beyond just the instance of an API. I can test all operations to see if they require keys or not. But I can also “test” the surface area of the API for the same design patterns I am looking for. I can add another dimension as well. I can “test” the gateway to see if the API has been configured to require a key. This gives me a repeatable blueprint I can apply here to my API key scenario, but also beyond, approach API testing in 3D.</p>
 

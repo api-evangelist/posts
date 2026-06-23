@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Evangelist Logomaker
-image: http://kinlane-productions2.s3.amazonaws.com/logo-2015-02-02-11-46-41.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/api-evangelist-logomaker.png
 author:
   name: kinlane
 tags:

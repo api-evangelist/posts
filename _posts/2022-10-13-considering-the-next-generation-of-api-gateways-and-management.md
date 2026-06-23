@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Considering the Next Generation of API Gateways and Management
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/san-francisco-skyline-night-san-francisco-skyline-night-blue-circuit-3.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/san-francisco-skyline-night-san-francisco-skyline-night-blue-circuit-3.jpg
 author:
   name: kin
 tags:

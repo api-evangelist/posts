@@ -28,12 +28,8 @@ _We’ve included some visualization examples from the collection below, but the
 _Create a bar chart comparing positive and total covid tests by state:_  
  
 
-[![](https://aws1.discourse-cdn.com/business6/uploads/getpostman/optimized/2X/1/1b2c8430bf259f625909d40f3b7fd0b8b2884dfa_2_624x360.gif)](https://aws1.discourse-cdn.com/business6/uploads/getpostman/original/2X/1/1b2c8430bf259f625909d40f3b7fd0b8b2884dfa.gif)
-
 [](https://aws1.discourse-cdn.com/business6/uploads/getpostman/original/2X/1/1b2c8430bf259f625909d40f3b7fd0b8b2884dfa.gif)  
 Create a line chart comparing covid cases between countries:
-
-[![](https://aws1.discourse-cdn.com/business6/uploads/getpostman/optimized/2X/9/9a880cddc319cb626b612973052cb96497719594_2_624x360.gif)](https://aws1.discourse-cdn.com/business6/uploads/getpostman/original/2X/9/9a880cddc319cb626b612973052cb96497719594.gif)
 
   
 

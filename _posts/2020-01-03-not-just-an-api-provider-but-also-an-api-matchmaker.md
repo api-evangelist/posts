@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Not Just An API Provider But Also An API Matchmaker
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/la_muse_electric_tower_sun_behind_cropped.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/la_muse_electric_tower_sun_behind_cropped.jpg
 author:
   name: kinlane
 tags:

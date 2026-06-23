@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I just got a Mastodon instance setup for my Kin Lane domain. I am being thoughtful about this shift in my social presence, but as with every other aspect of ...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/uncle-sam-waterpump-old-time.jpg">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-waterpump-old-time.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -44,7 +44,7 @@
     <meta name="twitter:title" content="Making the First Mastodon API Call to My Instance">
     
     <meta name="twitter:description" content="I just got a Mastodon instance setup for my Kin Lane domain. I am being thoughtful about this shift in my social presence, but as with every other aspect of ...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/uncle-sam-waterpump-old-time.jpg">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-waterpump-old-time.jpg">
 
     <!-- JSON-LD Structured Data -->
     
@@ -54,7 +54,7 @@
       "@type": "Article",
       "headline": "Making the First Mastodon API Call to My Instance",
       "description": "I just got a Mastodon instance setup for my Kin Lane domain. I am being thoughtful about this shift in my social presence, but as with every other aspect of ...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/uncle-sam-waterpump-old-time.jpg",
+      "image": "https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-waterpump-old-time.jpg",
       "datePublished": "2022-11-25T00:00:00-05:00",
       "dateModified": "2022-11-25T00:00:00-05:00",
       "author": {
@@ -67,7 +67,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -365,7 +365,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -395,7 +395,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -729,7 +729,7 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/uncle-sam-waterpump-old-time.jpg" alt="Making the First Mastodon API Call to My Instance" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-waterpump-old-time.jpg" alt="Making the First Mastodon API Call to My Instance" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -737,7 +737,7 @@
 
 <p>You can find the documentation for the <a href="https://docs.joinmastodon.org/api/guidelines/">Mastodon API</a> via their docs site, and to help guide my work I have setup a public Mastodon API workspace. To get started, I wanted to play around with the lowest hanging fruit, and in my opinion that would be the <a href="https://docs.joinmastodon.org/methods/timelines/">Mastadon Timeline API</a>. I created what I’d consider to be [a “capabilities” collection for pulling the timeline for my instance(https://www.postman.com/api-evangelist/workspace/mastodon/request/35240-6b0d54d1-3476-4423-aa33-aa10faa675f7). The Timeline API doesn’t require authentication as it is a public feed, so I am able to quickly setup a request and see the response in JSON. Once I get a 200 OK, I add a little test script to visual each of the users plus messages in a simple HTML layout.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/mastodon-timeline-api-hello-world.png" alt="Mastodon Timeline API Capability Collection" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/mastodon-timeline-api-hello-world.png" alt="Mastodon Timeline API Capability Collection" /></p>
 
 <p>Now I can create different versions of this collection to help me harvest the pulling of data and automating the curation, syndication, and engagement with people I follow in similar ways to what I do on Twitter. I can tweak and evolve the test script to look for hashtags and other keywords, make decisions based upon the user, and customize how I want to automate how I consume messages via my Mastodon instance. Honestly this is something I should revisit for my email inboxes, standardizing how I use APIs to maximize how I work across these federated channels—both private and public messaging. </p>
 

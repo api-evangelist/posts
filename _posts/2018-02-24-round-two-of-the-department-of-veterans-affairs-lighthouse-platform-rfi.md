@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Round Two Of The Department of Veterans Affairs Lighthouse Platform RFI'
-image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/23_113_800_500_0_max_0_1_-1.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/round-two-of-the-department-of-veterans-affairs-lighthouse-platform-rfi.png
 ---
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/23_113_800_500_0_max_0_1_-1.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>I’m spending some more time thinking about APIs at the Department of Veterans Affairs (VA), in response to round two of their request for information (RFI). <a href="http://apievangelist.com/2017/10/26/my-response-on-the-department-of-veterans-affairs-rfi-for-the-lighthouse-api-management-platform/">A couple months back I had responded to an earlier RFI</a>, providing as much information as I could think of, for consideration as part of their API journey. As a former VA employee, and son of two Vietnam Vets (yes two), you can say I’m always willing to invest some in APIs over at the VA.
 
 <p>To provide a response, I have taken the main questions they asked, broken them out here, and provided answers to the best of my ability. In my style, the answers are just free form rants, based upon my knowledge of the VA, and the wider API space. It is up to the VA, to decide what is relevant to them, and should be included in their agency API strategy.
@@ -103,7 +103,7 @@ As mentioned before, this aspect of Lighthouse should be delivered as microservi
 
 <p>The VA wants to be the Amazon of serving veterans. They want internal groups, vendors, contractors, veteran health and service organizations, and independent developers to come build their solutions on the Lighthouse platform. The VA should uses its own services for internal service delivery, as well as supporting external projects. The operational side of Lighthouse platform should be all microservice projects, with the underlying infrastructure being Azure or AWS solutions, providing a common platform as a service stack that can be leveraged, no matter where the actual service is deployed.
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/68_113_800_500_0_max_0_-1_-1.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 
 <p><em><strong>Question: DevOps Continuous Integration and Continuous Delivery (CI/CD) of APIs</strong></em><br />
 Every service in support of operations or implementations via the Lighthouse platform will exist as a self-contained Github repository, with all the artifacts needed to be included in any application pipeline. The basic DNA blueprint for each service should be crafted to support any single CI/CD service, or ideally even multiple types of CI/CD and orchestration solutions like AWS and Azure both support.
@@ -228,7 +228,7 @@ To better provide insight into aligning activities to contracts, VA has provided
 
 <p>APIs, coupled with the proper terms of service in place can eliminate an environment where defensive data positions are established. If other API owners can get access to the same data, and offer a better quality API, then evangelize and gain traction with application owners, entrenched API providers will no longer flourish. Aggregate and facade APIs allow for the evolution of existing APIs, even if the API owners are unwilling to move and evolve. Shifting the definition of what is authoritative, making it much more liquid, allowing it to shift and evolve, rather than just be diluted and meaningless, as it is often seen in the current environment.
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/69_113_800_500_0_max_0_-1_-1.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 
 <p>_<strong>Question: 4. Response<br />
 In addition to providing the requested content above, VA asks for vendors to respond to the following questions:</strong>
@@ -308,7 +308,7 @@ I think I hit on this with the above answer(s). Keep payments small, and well de
 
 <p><em><strong>Based on the information provided, please discuss your possible technology stack and detail your experience supporting these technologies.</strong></em><br />
 Both Amazon Web Services and Azure provide the building blocks of what you need to execute the above. Each cloud platform has its own approach to delivering infrastructure at scale. Providing an interesting mix of API driven resources you can jumpstart any project.
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/27_113_800_500_0_max_0_-1_-1.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p><strong>AWS</strong>
 First, let’s take a look at what is relevant to this vision from the Amazon Web Services side of things. These are all the core AWS solutions on the table, with dashboard, API, and command line access to get the job done.
 
@@ -453,7 +453,7 @@ First, let’s take a look at what is relevant to this vision from the Amazon We
   <li><a href="https://azure.microsoft.com/en-us/services/storage/queues/">Queue Storage</a> - Effectively scale apps according to traffic</li>
   <li><a href="https://azure.microsoft.com/en-us/services/storage/files/">File Storage</a> - File shares that use the standard SMB 3.0 protocol</li>
 </ul>
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/27_113_800_500_0_max_0_-1_-1.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p><strong>Deployment</strong>
 <ul>
   <li><a href="https://azure.microsoft.com/en-us/services/app-service/api/">API Apps</a> - Easily build and consume Cloud APIs</li>

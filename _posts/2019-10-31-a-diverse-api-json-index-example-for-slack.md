@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Diverse API.json Index Example For Slack
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/slack_api_logo_vogue.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/slack_api_logo_vogue.png
 author:
   name: kinlane
 tags:

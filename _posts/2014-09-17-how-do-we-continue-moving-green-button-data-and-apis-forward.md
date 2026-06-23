@@ -2,7 +2,7 @@
 layout: post
 title: How Do We Continue Moving Green Button Data And APIs Forward?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/green-button/green-button.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/federal-government/green-button/green-button.jpg
 author:
   name: kinlane
 tags:

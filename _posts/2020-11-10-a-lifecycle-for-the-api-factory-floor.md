@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Lifecycle for the API Factory Floor
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-factory-road.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-factory-road.jpg
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ Do not underestimate the importance of a dedicated workspace that is designed fo
 
 ### Machine Readable Contracts
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-factory-road.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-factory-road.jpg)
 
 The centerpiece of any workspace should be one or many OpenAPI contracts defining what is possible with an API. Providing the details of each request and response as a single human and machine readable contract, that can be versioned, evolved, and used across the API lifecycle. Postman allows you to place the contract for your APIs at the center of your workspace, providing a dashboard where you can manage and collaborate around the evolution of the two dimensions of your API contracts.
 
@@ -53,7 +53,7 @@ If you have managed an OpenAPI contract for an API you know how much detail work
 
 ### API Lifecycle Collection
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-factory-road.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-factory-road.jpg)
 
 In Postman, from each OpenAPI you can generate one or many collections that help you deliver on a variety of stops along the API lifecycle. The OpenAPI is the truth of each API, but collections are how you realize that APIs potential across the API lifecycle. For each collection, there are a number of ways in which they can be leveraged within Postman to help move forward the conversation around each API, providing a standardized approach to delivering APIs across teams.
 
@@ -82,7 +82,7 @@ An API governance collection is just one example of what operational level colle
 
 ### API Environments
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-factory-road.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-factory-road.jpg)
 
 Environments are used as a governor against each collection used across the API lifecycle. Allowing the base URL, keys, tokens, and other essentials to be abstracted away from each collection, then applied using variables as part of the execution process. Environments help define each stage of an APIs life, using them to design, develop, operate, and manage the maturation of each API.
 
@@ -115,7 +115,7 @@ Each API should leverage automation for defining and delivering itself. Moving i
 
 ### OpenAPI Factory Orchestration
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/leaflets-of-the-russian-revolution-factory-road.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/leaflets-of-the-russian-revolution-factory-road.jpg)
 
 Everything I have covered lays the foundation for the API factory floor, but the teams that operate the factory floor will need to have a certain baseline of knowledge and understanding of the big picture to make it all work. Beginning with having a strong understanding of the OpenAPI specification which specifies the contract for all APIs in motion on the factory floor, but also why quality matters when it comes to positively impacting everything downstream from them across API operations and the applications and integrations that depend on them.
 

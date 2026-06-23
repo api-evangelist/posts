@@ -2,7 +2,7 @@
 layout: post
 title: The Expanding World of Technology Evangelism
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-conversation-expanding.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-conversation-expanding.png
 atomdate: 2016-08-22T16:00:00.000Z
 tags:
   - Evangelism

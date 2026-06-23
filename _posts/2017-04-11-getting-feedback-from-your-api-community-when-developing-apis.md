@@ -2,7 +2,7 @@
 layout: post
 title: Getting Feedback From Your API Community When Developing APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/oxford_prototype_questions.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/oxford_prototype_questions.png
 atomdate: 2017-04-11T22:00:00.000Z
 tags:
   - Community

@@ -7,7 +7,7 @@ tags:
   - Products
   - Business
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-corner-shirt-waist-factory.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-corner-shirt-waist-factory.jpeg
 ---
 The number one thing I learned over the last year of getting hands-on with API governance is that it won’t be enough to govern APIs, because APIs are just the symptom of what flourishes inside the firewall of any enterprise. Don’t get me wrong, there will be a lot of money to be paid selling API governance services to the enterprise, but it is not going to tame and bring order to the API sprawl that exists. The reasons why APIs are inconsistent goes beyond what defining a set of Spectral rules and injecting into your CI/CD pipeline can accomplish, but it is where most enterprises are beginning their API governance journey.
 

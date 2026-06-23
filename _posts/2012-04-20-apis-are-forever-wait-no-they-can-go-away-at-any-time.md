@@ -3,7 +3,7 @@ published: true
 layout: post
 title: APIs Are Forever, Wait No...They Can Go Away at Any Time!!!
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Google-Developer-Blog-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Google-Developer-Blog-Logo.png
 author:
   name: kinlane
 tags:

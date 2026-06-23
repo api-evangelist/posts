@@ -4,7 +4,7 @@ title: >-
   Empowering You To Make Informed Decisions Around Your Information Is What The
   Personal API Is About
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-personal-api-decisions.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-personal-api-decisions.png
 tags:
   - Personal
 ---

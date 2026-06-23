@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Not All APIs Are Created Equal So Make Sure You Set Expectations Properly
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-not-equal.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-not-equal.png
 atomdate: 2016-08-16T16:00:00.000Z
 tags:
   - APIs

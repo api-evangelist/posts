@@ -2,7 +2,7 @@
 layout: post
 title: Provide Release Valves for API Rate Limits
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/teapot-steaming.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/teapot-steaming.jpg
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ As I continue to understand the impact of rate limits on developers it’s becom
 *   **Increase Request Form** - There should be a formal, self-service way to request rate limits either for valid uses that you hadn’t considered bumping up against rate limit ceiling, or quite possibly for non-commercial purposes.
 *   **Utility Pricing** - Providing a pay as you go model, where users meet the "courtesy limit", they can put in their credit card and pay for what they use above and beyond the default rate limit.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/google/Google-APIs-Console-Rate-Limits.png)](https://code.google.com/apis/console/ "API Console")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/google/Google-APIs-Console-Rate-Limits.png)](https://code.google.com/apis/console/ "API Console")
 
 There are many points of friction for developers trying to integrate with an API. In my research, one of the ongoing complaints of developers regarding an API is around rate limits. Many of these complaints are directed at APIs who impose rate limits without any clear path beyond the default limits.
 

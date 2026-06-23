@@ -5,7 +5,7 @@ title: >-
   API Catalogs and Portals Keeping Pace with the Number of APIs, Change Across
   APIs, and the Expanding Roles Involved Across the API Lifecycle
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/la_muse_lighthouse_36679514616_o.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/la_muse_lighthouse_36679514616_o.jpg
 tags:
   - Portals
   - Catalogs

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Gathering My Thoughts on Public API Workspaces
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-thinking-man-statue.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-thinking-man-statue.jpg
 author:
   name: kinlane
 tags:
@@ -42,7 +42,7 @@ I can store OpenAPIs, collections, and other artifacts on Github, but it doesn't
 
 Like with the Postman public API network, the first place people will go when thinking of a public API workspace will be providing a place for public API providers like Salesforce to publish their APIs, collections, and engage with their consumers. While there is just a lone collection in [this official Salesforce public workspace](https://www.postman.com/salesforce-developers/workspace/salesforce-developers/overview), I think it represents how we'll see most API providers begin their public API workspace journey.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/salesforce-public-workspace.png)](https://www.postman.com/salesforce-developers/workspace/salesforce-developers/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/salesforce-public-workspace.png)](https://www.postman.com/salesforce-developers/workspace/salesforce-developers/overview)
 
 One of the things our partners are dealing with in their own way is how complete, ready, or polished a workspace needs to be. With some of them realizing that it is first and foremost a workspace, which means it will be a place to do the work to complete, ready, and polish the APIs, collections, and other moving parts of a public workspace. Realizing that iit is a journey, and you are best to just get something stood up, then spend the time polishing what is happening using the feedback from your community--not opting for the perfect workspace.
 
@@ -50,7 +50,7 @@ One of the things our partners are dealing with in their own way is how complete
 
 [Dropbox has also published a public workspace](https://www.postman.com/dropbox-api/workspace/dropbox-public-workspace/overview) under their team page, but they have applied a different level of prioritization when it comes to what they are publishing to the Postman network, but also to their workspace. In the Dropbox public workspace you'll find a single collection designed for supporting Dropbox admins, helping automate some of the most common support requests from their admin API consumers.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/dropbox-public-workspace.png)](https://www.postman.com/dropbox-api/workspace/dropbox-public-workspace/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/dropbox-public-workspace.png)](https://www.postman.com/dropbox-api/workspace/dropbox-public-workspace/overview)
 
 This reflects where I think that API providers should be headed with their API collections as well as public workspaces. Every API provider should start by publishing an OpenAPI and/or a reference collection for all of their APIs, but then quickly get to work on collections that put their APIs to work to solve real world business problems. I think the Dropbox approach demonstrates the diversity that will exist even amongst this most common definition of what a public workspace i'll be for an API provider.
 
@@ -58,7 +58,7 @@ This reflects where I think that API providers should be headed with their API c
 
 When I first got the ability to publish a public workspace I immediately thought about being able to use demos, webinars, and workshops to show people how to build APIs. I have one private workspace that you will see me use in all of my demos to demonstrate an API-first lifecycle, and the potential of Postman as an API development tool--a reference implementation for a simple product API. [Something I made sure to fire up as a public workspace](https://www.postman.com/cs-demo/workspace/products-api-blueprint/overview), showing one possible way to develop APIs.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/products-public-workspace.png)](https://www.postman.com/cs-demo/workspace/products-api-blueprint/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/products-public-workspace.png)](https://www.postman.com/cs-demo/workspace/products-api-blueprint/overview)
 
 I feel like this is the type of workspace that will have the greatest impact on the API community, but I am a little biased towards workspaces being educational. Regardless, I plan on publishing a variety of these types of public workspaces to demonstrate how someone can approach the API lifecycle in a more structured and consistent way using Postman public workspaces, using OpenAPI, collections, and other key Postman platform resources.
 
@@ -66,7 +66,7 @@ I feel like this is the type of workspace that will have the greatest impact on 
 
 One project I am working with our runtime partner [APIMetrics](https://apimetrics.io/) on is showcasing how API regulation is being applied in the United Kingdom to make banks more transparent, observable, and consistent. Resulting in a [UK public banking API workspace](https://www.postman.com/api-evangelist/workspace/uk-public-banking/overview) with a handful of OpenAPIs and collections for a handful of the public APIs in which the UK government mandates all banks possess.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/uk-bank-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/uk-public-banking/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/uk-bank-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/uk-public-banking/overview)
 
 This type of API workspace demonstrates how APIs can be standardized to help drive a specific industry. Showing how one OpenAPI can be used in conjunction with Postman collections to move forward the design of APIs, but also move them forward across the API lifecycle, and demonstrate how they can be applied across multiple API providers. 
 
@@ -74,7 +74,7 @@ This type of API workspace demonstrates how APIs can be standardized to help dri
 
 Continuing to build on this type of industry public API workspace for defining an API that can be used by many API providers, I fired up [a public API workspace](https://www.postman.com/api-evangelist/workspace/fast-healthcare-interoperability-resources-fhir) for the [Fast Healthcare Interoperability Resources (FHIR)](https://www.hl7.org/fhir/overview.html) API. With this workspace I am looking to demonstrate how a workspace can be used to move forward an industry wide standard for the healthcare space, while also showing it in action with documentation, mock servers, and suite of testing to validate the instance.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/fhir-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/fast-healthcare-interoperability-resources-fhir)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/fhir-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/fast-healthcare-interoperability-resources-fhir)
 
 The FHIR API specification is one of the most important API specifications out there right now. You can see this API being applied as part of the [Department of Veterans Affairs (VA) APIs](https://developer.va.gov/), as well as [Center for Medicare and Medicaid Blue Button APIs](https://bluebutton.cms.gov/). LIke many of the workspaces listed here, there is a lot of work needed on this OpenAPI, it's collection(s), examples, and other moving parts of demonstrating what is possible with the API.
 
@@ -82,7 +82,7 @@ The FHIR API specification is one of the most important API specifications out t
 
 Following a similar approach to the UK banking and FHIR API public workspaces, next up is the Human Services Data API (HSDA) which is used to deliver 211 services within cities. Helping make human services across the community accessible by those who need it to deliver a variety of web and mobile applications. I am the technical lead on the HSDA API, and will be using [this workspace to move forward the specification](https://www.postman.com/api-evangelist/workspace/open-referral-human-services-data-api-hsda/overview), while demonstrating what is possible with the API.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/211-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/open-referral-human-services-data-api-hsda/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/211-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/open-referral-human-services-data-api-hsda/overview)
 
 HSDA is a pretty critical API for helping ensure our communities are healthy and liveable. Ensuring that critical organizations, locations, and services are accessible by citizens within a community. Providing a common interface that can be used within a single community, but also used to harmonize web and mobile applications across many different cities. 
 
@@ -90,7 +90,7 @@ HSDA is a pretty critical API for helping ensure our communities are healthy and
 
 Complimenting the HSDA 211 API above is the same but for 311 services, helping provide a common API that communities can use to engage with the community around the reporting and servicing of non emergency events that occur across a community. Adding to the stack of API standards that municipalities can use to effectively manage a city and all of the goings on across them each day via a [311 public workspace](https://www.postman.com/api-evangelist/workspace/open311/overview).
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/311-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/open311/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/311-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/open311/overview)
 
 I am working with the technical lead, and other stakeholders of the 311 standard to move the specification forward, showcase the cities that have embraced the standard, and demonstrate what the potential is when you put this API standard to work. Both the 211 and 311 API standards provide us pretty solid examples of the importance that APIs and public API workspaces can play in making our lives more livable.
 
@@ -98,7 +98,7 @@ I am working with the technical lead, and other stakeholders of the 311 standard
 
 I am working my way through the thousands of APIs I have indexed and publishing and aggregating APIs into a variety of business sector public workspaces. I started with all of the commerce related APIs I have available, and publishing the OpenAPI for each one, then generating a collection for the purposes of documentation as part of a single workspace. Making it easier to browse through and kick the tires on all of these APIs, side by side in [a single public workspace](https://www.postman.com/api-evangelist/workspace/commerce/overview).
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/commerce-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/commerce/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/commerce-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/commerce/overview)
 
 Commerce is the original reason for doing APIs, so I figured I'd start here when it comes to showcasing the potential of public workspaces. Seeing APIs side by side like this, then being able to assess the potential available across all of them is something that is going to continue to evolve how I see APIs in these sectors, but also how I see public API workspaces.
 
@@ -106,7 +106,7 @@ Commerce is the original reason for doing APIs, so I figured I'd start here when
 
 After commerce I was eager to see all of the messaging APIs side by side to better understand this sector. Aggregating all the different types of SMS, email, and other APIs [into a single public workspace](https://www.postman.com/api-evangelist/workspace/messaging/overview) so that they can be used together, or just used to understand this slice of the API pie. 
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/messaging-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/messaging/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/messaging-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/messaging/overview)
 
 Messaging is one of the most relevant sectors of the API space, providing a suite of APIs that will resonate with a wide audience. Providing a public workspace that I can use to help drive conversations with developers as well as business users. Messaging comes in many shapes and sizes, and this workspaces helps bring the sector into focus for me, and I will keep aggregating, publishing, and evolving APIs to show what is possible.
 
@@ -114,7 +114,7 @@ Messaging is one of the most relevant sectors of the API space, providing a suit
 
 Driven by the success of our [COVID-19 resource center](https://covid-19-apis.postman.com/), as soon as public workspaces were available we [published the best of the collections from the resource center into a single public workspace](https://www.postman.com/postman/workspace/covid-19/overview). Showing how a single topic, trend, or other bounded context can be applied to a public workspace, making a variety of APIs available in a single place for developers and other users to put to use in their applications.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/covid-public-workspace.png)](https://www.postman.com/postman/workspace/covid-19/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/covid-public-workspace.png)](https://www.postman.com/postman/workspace/covid-19/overview)
 
 I am looking forward to adding more automation, visualizations, and other elements to this workspace. Showing how public workspaces can be used to make these types of APIs available, but can also be used to better make sense of what is happening around the world when it comes to COVID-19.
 
@@ -122,7 +122,7 @@ I am looking forward to adding more automation, visualizations, and other elemen
 
 After we launched the COVID-19 resource center we wanted to apply the same approach to making sense of the US election this year. Aggregating the best of the election related APIs into [a single workspace where developers can fork and put to use](https://www.postman.com/postman/workspace/us-2020-election/overview), while also engaging with each other when it comes to getting their questions answered.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/election-public-workspace.png)](https://www.postman.com/postman/workspace/us-2020-election/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/election-public-workspace.png)](https://www.postman.com/postman/workspace/us-2020-election/overview)
 
 Now that the election is over I am looking forward to showing why these APIs matter during an election, but also afterwards to help us make sense of what is happening. Demonstrating the importance of APIs in each election, and that we should be investing in standards as well as individual implementations in perpetuity, not just as we ramp up for the next election.
 
@@ -130,7 +130,7 @@ Now that the election is over I am looking forward to showing why these APIs mat
 
 I spend a lot of time answering OpenAPI related questions which are a collection. Helping demonstrate a specific aspect of working with OpenAPIs to Postman customers and the community. To help me be more organized around publishing, evolving, sharing, and collaborating around these collection driven capabilities [I published a single workspace for managing my OpenAPI collections, orchestrations, and automation](https://www.postman.com/api-evangelist/workspace/openapi).
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/openapi-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/openapi)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/openapi-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/openapi)
 
 As the number of my workspaces increases the importance of having these types of collections organized in a single workspace becomes even more important. I normally would just organize these across a variety of personal and team workspaces, then share them as needed, occasionally publishing to the API network as a template, but now that I have a public workspace I am being a little more organized about publishing them to a single place and then linking to them via a single URL.
 
@@ -138,7 +138,7 @@ As the number of my workspaces increases the importance of having these types of
 
 I spend a lot of time answering collection related questions. Helping demonstrate a specific aspect of working with collections to Postman customers and the community. To help me be more organized around publishing, evolving, sharing, and collaborating around these collection driven capabilities [I published a single workspace for managing my "collection collections", orchestrations, and automation](https://www.postman.com/api-evangelist/workspace/collections/overview).
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/collection-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/collections/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/collection-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/collections/overview)
 
 As the number of my workspaces increases the importance of having these types of collections organized in a single workspace becomes even more important. I normally would just organize these across a variety of personal and team workspaces, then share them as needed, occasionally publishing to the API network as a template, but now that I have a public workspace I am being a little more organized about publishing them to a single place and linking to them via a single URL.
 
@@ -146,7 +146,7 @@ As the number of my workspaces increases the importance of having these types of
 
 One area of the API economy I am keenly interested in is when it comes to government, and after publishing the FEC API to the US election public workspace, I figured I'd add it to a workspace for the agency. [Providing a single workspace](https://www.postman.com/api-evangelist/workspace/federal-election-commission-fec/overview) where you can find all of the APIs from this very critical federal agency.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/fec-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/federal-election-commission-fec/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/fec-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/federal-election-commission-fec/overview)
 
 For me, a workspace provides a reference to each government agency, helping remind me to invest some time in researching what is happening with APIs at this government agency. Allowing the workspace to drive work around the government agency, helping keep things up to date and representing what is going on with APIs and open data in government.
 
@@ -154,7 +154,7 @@ For me, a workspace provides a reference to each government agency, helping remi
 
 Next up to demonstrate the potential of APIs in government is out of one of the government agencies that is near and dear to my heart, the Department of Veterans Affairs (VA). [I took all of the OpenAPIs the VA provides as part of their developer area and imported them into a single workspace](https://www.postman.com/api-evangelist/workspace/department-of-veterans-affairs-va/overview), generating collections from them to help document what is available.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/public-workspaces/va-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/department-of-veterans-affairs-va/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/public-workspaces/va-public-workspace.png)](https://www.postman.com/api-evangelist/workspace/department-of-veterans-affairs-va/overview)
 
 The VA Lighthouse effort is one of the solid examples of APIs making a difference in government, and I am keen on demonstrating how public API workspaces can be used to help the VA better serve veterans. Providing a pretty compelling use case for public workspaces that can help make a difference in the lives of Americans. 
 
@@ -187,7 +187,7 @@ CI/CD have become synonymous with software delivery lifecycle, and while the dep
 
 Think of a public workspace as that microbrewery restaurant that has the view into how the beer you are drinking is actually brewed. Letting everyone see the entire process from start to finish, instilling confidence in consumers that they are getting the best possible beer, made from the best possible ingredients, using the most streamlined process possible--it is so good, we want to show you all how it works.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-factory-road.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-factory-road.jpg)
 
 ### Observability By Default with Public Workspaces
 
@@ -224,7 +224,7 @@ There are so many possibilities of what a public API workspace can be because of
 
 Public API workspaces have the potential to pull back the curtain of our API operations. I know that this makes some folks nervous. If your APIs are being consumed by 3rd party applications and integrations you should be working to be as public with your efforts as you can. The least amount of distance between you and your consumers is optimal for putting APIs to work, as well as evolving them. Having a feedback loop in place around each of your APIs, but also the moving parts of your API operations like documentation, mock servers, testing, and other elements helps grease the wheels of your operations. Supporting API consumers in this way will be foreign for some API providers, but as I said before, it will let in some much needed sunlight on your operations, bring your API consumers closer, and give them a voice in the design and delivery of your API infrastructure. The distance between API consumer and producer, as well as the lack of a two way feedback loop is the top deficiencies that plague API platforms tidat. Public API workspaces help pull back the curtain on your API operations, helping bring in the communication that is required to optimize your API factory floor, as well as the supply chain betweeb you and your consumers.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/curtain-curtain-blue-circuit.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/curtain-curtain-blue-circuit.jpg)
 
 ### Emulating the Best API Patterns Across the Landscape
 

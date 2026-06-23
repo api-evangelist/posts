@@ -2,7 +2,7 @@
 layout: post
 title: Facebook Launches a New Video Channel for Developers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fb-devlive-blog-stacked.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/fb-devlive-blog-stacked.png
 author:
   name: kinlane
 tags:

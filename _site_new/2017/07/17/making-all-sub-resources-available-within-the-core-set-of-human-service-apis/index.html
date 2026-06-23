@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I had recently taken the Human Services Data Specification (HSDS) and exposed it as a set of API paths that provide access to about 95% of the schema, which ...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/3D-Printing/regions/api-regions-global-map-from-google.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/3D-Printing/regions/api-regions-global-map-from-google.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -45,7 +45,7 @@
     <meta name="twitter:title" content="Making All Sub-Resources Available Within The Core Set Of Human Service APIs">
     
     <meta name="twitter:description" content="I had recently taken the Human Services Data Specification (HSDS) and exposed it as a set of API paths that provide access to about 95% of the schema, which ...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/3D-Printing/regions/api-regions-global-map-from-google.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/3D-Printing/regions/api-regions-global-map-from-google.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -55,7 +55,7 @@
       "@type": "Article",
       "headline": "Making All Sub-Resources Available Within The Core Set Of Human Service APIs",
       "description": "I had recently taken the Human Services Data Specification (HSDS) and exposed it as a set of API paths that provide access to about 95% of the schema, which ...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/3D-Printing/regions/api-regions-global-map-from-google.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/3D-Printing/regions/api-regions-global-map-from-google.png",
       "datePublished": "2017-07-17T05:00:00-04:00",
       "dateModified": "2017-07-17T05:00:00-04:00",
       "author": {
@@ -68,7 +68,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -366,7 +366,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -396,7 +396,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -730,11 +730,11 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/3D-Printing/regions/api-regions-global-map-from-google.png" alt="Making All Sub-Resources Available Within The Core Set Of Human Service APIs" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/3D-Printing/regions/api-regions-global-map-from-google.png" alt="Making All Sub-Resources Available Within The Core Set Of Human Service APIs" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
-        <p><img src="https://s3.amazonaws.com/kinlane-productions2/open-referral/hsds-organization.png" align="right" width="40%" style="padding: 15px;" /></p>
+        <p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/open-referral/hsds-organization.png" align="right" width="40%" style="padding: 15px;" /></p>
 <p>I had recently taken <a href="http://openreferral.readthedocs.io/en/latest/reference/">the Human Services Data Specification (HSDS)</a> and exposed it as a set of API paths that provide access to about 95% of the schema, which we are calling the <a href="https://openreferral.github.io/api-specification/definition/">Human Services Data API (HSDA)</a>. When you make a call to the /organizations/ path, you receive an array collection of organizations that each match the HSDA organization schema. The same applies when you make a call to the /locations, /contacts, and /services, opening up access to the entire schema–minus three objects I pushed off until future releases.</p>
 
 <p>After the core set of API paths /organization, /service, /location, /contact, there are a set of sub-resources available across those as it makes sense–including /phone, /programs, /physical_address, /postal_address, /regular_schedule, /holiday_schedule, /funding, /eligibility, /service_area, /required_document, /payment_accepted, /language, /accessiblity_for_disabilities, and /service_at_location_id. I took the HSDA schema, and published API paths for each sub-resource so that it exactly returned, and accepted HSDA compliant schema–making all aspects of the schema accessible via an API, with POST and PUT requests accepting compliant schema, and GET returning compliant schema.</p>

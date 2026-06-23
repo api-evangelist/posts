@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Monitoring Should Be Baked Into Your API Strategy By Default
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-heart-monitor.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-heart-monitor.png
 author:
   name: kinlane
 tags:

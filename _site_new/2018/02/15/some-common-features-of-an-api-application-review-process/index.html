@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I received a tweet from my friend Kelly Taylor with USDS, asking for any information regarding establishing an “approve access to production data” for develo...">
-    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -47,7 +47,7 @@
     <meta name="twitter:title" content="Some Common Features Of An API Application Review Process">
     
     <meta name="twitter:description" content="I received a tweet from my friend Kelly Taylor with USDS, asking for any information regarding establishing an “approve access to production data” for develo...">
-    <meta name="twitter:image" content="https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -70,7 +70,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -368,7 +368,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -398,7 +398,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -736,7 +736,7 @@
       
 
       <div class="post-body">
-        <p><a href="https://twitter.com/ktinboulder/status/961601920887607296"><img src="https://s3.amazonaws.com/kinlane-productions2/kelly-taylor-app-approval-tweet.png" align="right" width="40%" style="padding: 15px;" /></a></p>
+        <p><a href="https://twitter.com/ktinboulder/status/961601920887607296"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/kelly-taylor-app-approval-tweet.png" align="right" width="40%" style="padding: 15px;" /></a></p>
 <p><a href="https://twitter.com/ktinboulder/status/961601920887607296">I received a tweet from my friend Kelly Taylor with USDS</a>, asking for any information regarding establishing an “approve access to production data” for developers. <a href="https://bluebutton.cms.gov/developers/">He is working on an OAuth + FHIR implementation for the Centers for Medicare and Medicaid Services (CMS) Blue Button API</a>. Establishing a standard approach for on-boarding developers into a production environment always makes sense, as you don’t want to give access to sensitive information without making sure the company, developer, and application has been thoroughly vetted.</p>
 
 <p>As I do with my work, I wanted to think through some of the approaches I’ve come across in my research, and share some tips and best practices. <a href="https://bluebutton.cms.gov/developers/#production-api-access">The Blue Button API team has a section published regarding how to get your application approved</a>, but I wanted to see if I can expand on, while also helping share this information with other readers. This is a relevant use case that I see come up regularly in healthcare, financial, education, and other mainstream industries.</p>
@@ -759,7 +759,7 @@ Beyond the initial pitch selling an API provider on the concept of an applicatio
 <p><strong>Getting Into The Code</strong><br />
 As part of the application review process many API providers require that you actually submit your code for review via Github. Providing details on ALL dependencies, and performing code, dependency, and security scans before an application can be approved. I’ve also see this go as far as requiring the use of specific SDKs, frameworks, or include proxies within the client layer, and requiring all HTTP calls be logged as part of production applications. This process can be extended to include all cloud and SaaS solutions involved, limiting where compute, storage, and other resources can be operated. Requiring all 3rd party APIs in use be approved, or already on a white list of API providers before they can be put to use. This is obviously the most costly part of the application review process, but depending on how high the bar is being set, it is one that many providers will decide to invest in, ensuring the quality of all applications that run in a production environment.</p>
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/apple-app-review.png" align="right" width="40%" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apple-app-review.png" align="right" width="40%" style="padding: 15px;" /></p>
 
 <p><strong>Regular Review &amp; Reporting</strong><br />
 One important thing about the application review process is that it isn’t a one time process. Even once an application is accepted an added into the production environment, this process will need to be repeated for each version release of the application, along with the changes to the API. Of course the renewal process might be shorter than the initial approval workflow, but auditing and regular check-in should be common, and not forgotten. This touches on the client level SDK, and API management logging needs of the platform, and that regular reporting upon application usage and activity should be available in real time, as well as part of each application renewal. API operations is always about taking advantage the real time awareness introduced at the API consumption layer, and staying in tune with the healthy, and not so healthy patterns that emerge from logging everything an application is doing.</p>

@@ -4,14 +4,14 @@ title: Opening Up Information is Not Enough, Its Needs to be Accessible
 url: >-
   http://apievangelist.com/2011/11/02/opening-up-information-is-not-enough,-its-needs-to-be-accessible/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/television-icon.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/television-icon.png
 author:
   name: kinlane
 tags:
   - Access
   - Open
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/fcc/FCC-Logo.jpg)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/fcc/FCC-Logo.jpg)
 
 The [FCC Open Commission](http://www.fcc.gov/encyclopedia/open-commission-meetings-schedule-2011 "FCC Open Comission") recently proposed to require that television stations make their “public inspection file” available online. The public inspection file is a traditional hallmark of broadcast regulation--a collection of documents that all radio and television stations must maintain and make publicly accessible.
 
@@ -25,7 +25,7 @@ This approach to information disclosure is does not meet the transparency guidel
 
 > _"publish information online in an open format that can be retrieved, downloaded, indexed, and searched by commonly used web search applications. An open format is one that is platform independent, machine readable, and made available to the public without restrictions that would impede the re-use of that information."_
 
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/fcc/television-icon.png)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/fcc/television-icon.png)
 
 Transparency offers an alternative to regulation that goes all the way back to President Clinton’s Executive Order 12866 (1993) which states "Each agency shall identify and assess available alternatives to direct regulation, including … providing information upon which choices can be made by the public."
 

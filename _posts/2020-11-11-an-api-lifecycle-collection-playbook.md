@@ -3,7 +3,7 @@ published: true
 layout: post
 title: An API Lifecycle Collection Playbook
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/1_playbook.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/1_playbook.png
 author:
   name: kinlane
 tags:
@@ -15,11 +15,11 @@ I have a single API request that is becoming the first call I make on a growing 
 
 Any partnership with an API service provider and the Postman platform begins with publishing of a team profile to the Postman network. Providing a logo, name, and description for your company, creating your official team profile on the Postman platform—here is my reference API implementation team page from the Postman API network. 
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/1_playbook.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/1_playbook.png)
 
 You can manage your team profile under your team settings in your Postman dashboard. You can upload a logo, choose a name, and provide a description. When ready, you can choose to make your profile public, choosing a subdomain for your company on the Postman platform. 
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/2_playbook.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/2_playbook.png)
 
 This is the profile for your API services on the Postman platform, accessible by 13 million developers via their desktop application and on the web. All the collections and template you publish for your services will show up here, and be discoverable via Postman and Google search, providing more exposure for the services you are making available to API providers.
 
@@ -43,7 +43,7 @@ You can use this blueprint to create any number of API calls that help move an A
 
 After you have published your team, and built a useful API lifecycle collection—[publish it to the Postman API network](https://learning.postman.com/docs/publishing-your-api/add-api-network/). Make sure you provide adequate documentation for your collection, explaining what it does, and how you will need to obtain any credentials, keys, or tokens to make it happen. When ready, publish it to your team profile, making it available to 13 million Postman users.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/3_playbook.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/3_playbook.png)
 
 Repeat this for every API lifecycle capability your company brings to the table. Sure, you can make a single collection for the entire surface area of your service's API, but it is even better if you make single executable representations of each capability, publish to the Postman API network, and enable users to execute using a Run in Postman button from across all of the documentation for your API services.
 

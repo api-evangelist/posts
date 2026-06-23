@@ -3,7 +3,7 @@ published: true
 layout: post
 title: I Understand That Not Everyone Wants To Use The Command Line
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/old-church-oldchurch-blue-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/old-church-oldchurch-blue-circuit.jpg
 author:
   name: kinlane
 tags:

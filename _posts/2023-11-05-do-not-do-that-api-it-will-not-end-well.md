@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Do Not Do That API — It Will Not End Well
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-subway-underground_36599191851_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-subway-underground_36599191851_o.jpg
 author:
   name: kinlane
 tags:

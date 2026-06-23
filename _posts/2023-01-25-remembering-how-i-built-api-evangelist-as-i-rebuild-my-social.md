@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Remembering How I Built API Evangelist As I Rebuild My Social Presence
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/california-travel-by-train-building-hanger.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/california-travel-by-train-building-hanger.jpeg
 author: null
 name: kinlane
 tags:

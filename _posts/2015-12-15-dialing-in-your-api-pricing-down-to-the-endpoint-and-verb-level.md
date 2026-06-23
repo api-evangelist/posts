@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dialing In Your API Pricing Down To The Endpoint And Verb Level
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-getpostputdelete.pn
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/dialing-in-your-api-pricing-down-to-the-endpoint-and-verb-level.png
 tags:
   - Pricing
 ---

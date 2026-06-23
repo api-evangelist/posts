@@ -5,7 +5,7 @@ title: >-
   Twitter Collection Of @SarahJeong, @Xor &amp; @Swiftstories Oracle vs Google
   Coverage
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-voice/oraclevgoogle/oraclevgoogle.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-voice/oraclevgoogle/oraclevgoogle.png
 author:
   name: kinlane
 tags:

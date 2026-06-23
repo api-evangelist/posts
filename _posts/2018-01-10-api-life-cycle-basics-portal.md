@@ -4,8 +4,6 @@ layout: post
 title: 'API Life Cycle Basics: Portal'
 image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-portal.jpg
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-portal.jpg" align="right" width="45%" style="padding: 15px;" />
 <p>A coherent strategy to delivering and operating API portals is something that gets lost in a number of the API operations I am asked to review. It is also one of the more interesting aspects of the successful strategies I track on, something that when done right, can become a vibrant source of information, and when done wrong, can make an API a ghost town, and something people back away from when finding. As part of my research I think a lot about how API portals can be used as part of each APIs lifecycle, as well as at the aggregate levels across teams, within groups, between partners, and the public.
 
 <p>The most common form of the API portal is the classic public developer portal you find with Twitter, Twilio, Facebook, and other leading API pioneers. These portals provide a wealth of healthy patterns we can emulate, as well as some not so healthy ones. Beyond these public portals, I also se other patterns within the enterprise organizations I work with, that I think are worth sharing, showing how portals aren’t always just a single public destination, and can be much, much more.

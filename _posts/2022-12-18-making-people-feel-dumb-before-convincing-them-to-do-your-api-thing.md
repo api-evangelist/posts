@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Making People Feel Dumb Before Convincing Them To Do Your API Thing
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/citizenship-hiding-monster-statue.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-hiding-monster-statue.jpg
 author:
   name: kinlane
 tags:

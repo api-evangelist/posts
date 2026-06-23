@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Well-Defined API Workflows Are Sign Of API Maturity
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/art-museum-art-museum-internet-numbers.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/art-museum-art-museum-internet-numbers.jpg
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: APIs Driving Augmented Reality For Drones
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/base_drone_screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/base_drone_screenshot.png
 atomdate: 2016-10-12T22:00:00.000Z
 tags:
   - Drones

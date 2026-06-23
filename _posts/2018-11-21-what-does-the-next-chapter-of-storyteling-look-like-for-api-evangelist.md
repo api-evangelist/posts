@@ -9,7 +9,7 @@ tags:
   - Communication
   - Storytelling
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 ---
 <p></p>
 I find myself refactoring API Evangelist again this holiday season. Over the last eight years of doing API Evangelist I've had to regularly adjust what I do to keep it alive and moving forward. As I  close up 2018, I'm finding the landscape shifting underneath me once again, pushing me to begin considering what the next chapter of API Evangelist will look like. Pushing me to adjust my presence to better reflect my own vision of the world, but hopefully also find balance with where things are headed out there in the real world.

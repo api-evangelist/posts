@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Pulling Links From Those Tweets You Have Favorited
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-fat-old-pigeon-on-fence.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-fat-old-pigeon-on-fence.jpg
 author:
   name: kinlane
 tags:

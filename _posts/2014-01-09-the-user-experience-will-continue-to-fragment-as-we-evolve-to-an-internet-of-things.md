@@ -4,7 +4,7 @@ title: >-
   The User Experience Will Continue To Fragment As We Evolve To An Internet Of
   Things
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/puzzle-loose-pieces.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/puzzle-loose-pieces.png
 author:
   name: kinlane
 tags:

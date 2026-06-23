@@ -10,7 +10,7 @@ tags:
   - Overlays
   - Workflows
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-baggage-department.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-baggage-department.jpg
 ---
 [I am finding more OpenAPIs being managed on GitHub than I ever have before](https://apievangelist.com/2024/07/08/more-examples-of-using-github-to-manage-your-openapi/). I learn so much studying different companies' approaches to managing their API artifacts out in the open, and I think collectively we can keep sharing, refining, and evolving how we use GitHub to manage essential API artifacts for the benefit of producers and consumers. I was processing [Asana’s impressive OpenAPI published to GitHub](https://github.com/Asana/openapi/blob/master/defs/asana_oas.yaml) as part of my profiling for APis.io, and while I find their OpenAPI extremely useful, I can’t help but feel like we are overloading our OpenAPI definition too much.
 

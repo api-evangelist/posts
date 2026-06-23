@@ -4,8 +4,6 @@ layout: post
 title: 'Where Are All The API Focused Agencies?'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/good-api/good-api-agency.png
 ---
-
-<p><a href="https://goodapi.co/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/good-api/good-api-agency.png" align="right" width="40%" style="padding: 15px;" /></a>
 <p><a href="http://apievangelist.com/2017/08/16/the-importance-of-api-stories/">Earlier this week at the CA API Academy virtual gathering I spoke at in Boulder CO</a>, the question around why there aren’t more API focused agencies came up. We were talking about the need for consulting services around common areas of API operations like design, deployment, management, testing, as well as training around API lifecycle related topics. We are seeing some movement in the area of API focused agencies, but not enough to cover the current demand.
 
 <p>We are seeing full service shops like <a href="http://apivista.com/about/">APIvista</a>, and <a href="https://goodapi.co/">Good API</a> emerge. There is also movement on the agency level when it comes to integration platform as a service (iPaaS), over at <a href="https://lefthookdigital.com/">Left Hook Digital</a>, helping companies leverage Zapier, and integrate with API platforms. There is definitely significant movement in the number of API focused agencies, but we are going to need more to meet the demand for API design, deployment, management, testing, and other stops along the API lifecycle.

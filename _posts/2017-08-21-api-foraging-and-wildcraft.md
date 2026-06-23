@@ -9,7 +9,7 @@ tags:
   - Github
 image: https://s3.amazonaws.com/drone-recovery/diamond04.jpg
 ---
-<p><img src="https://s3.amazonaws.com/drone-recovery/diamond04.jpg" align="right" width="40%" style="padding: 15px;" /></p>I was in Colorado this last week at a CA internal gathering listening to my friend Erik Wilde talking about APIs. One concept he touched on was what he called API gardening, where different types of API providers approached the planting, cultivating, and maintenance of their gardens in a variety of different ways. I really like this concept, and will be working my way through the slide deck from his talk, and see what else I can learn from his work.
+I was in Colorado this last week at a CA internal gathering listening to my friend Erik Wilde talking about APIs. One concept he touched on was what he called API gardening, where different types of API providers approached the planting, cultivating, and maintenance of their gardens in a variety of different ways. I really like this concept, and will be working my way through the slide deck from his talk, and see what else I can learn from his work.
 
 As he was talking I was thinking about a project I had just published to Github, which leverages the Google Sheets API, and the Github API to publish data as YAML, so I could publish as a simple set of static APIs. I'd consider this approach to be more about foraging and wildcrafting, then it is about tending to my API garden. My API garden just happens spread across a variety of services, often free and public space, in many different regions. I will pay for a service when it is needed, but I'd rather tend smaller, wilder, APIs, that grow in existing spaces--in the cracks.
 

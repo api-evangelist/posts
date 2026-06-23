@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Deploy, Publish or Launch An API?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_api_deployment.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_api_deployment.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ I’m always fascinated by the words we use to describe what we do in a digital 
 
 After searching for publish API, here is what stood out:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_api_deployment.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_api_deployment.png)
 
 *   [**Apigee**](https://cloud.google.com/apigee/api-management/publish-apis/)
 *   [**SwaggerHub**](https://app.swaggerhub.com/help/apis/publishing-api)

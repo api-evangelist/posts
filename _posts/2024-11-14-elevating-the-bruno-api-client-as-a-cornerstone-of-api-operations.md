@@ -8,7 +8,7 @@ tags:
   - Runner
   - Automation
   - Testing
-image: https://kinlane-productions2.s3.us-east-1.amazonaws.com/bruno-client.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bruno-client.png
 ---
 I am working on my engineering platform definition this morning and working my way through all the commercial services and open-source tooling that I use to operate API Evangelist and APIs.io. I am evaluating what I use each service or tool for and how I recommend it to my audience and customers for building their own platform. Based upon what I’ve learned over the years, I’ve settled in on a pretty opinionated definition of the capabilities and business model for tools that I consider to be part of my API platform, let alone what I will recommend and link to in my storytelling and consulting with enterprise customers.
 

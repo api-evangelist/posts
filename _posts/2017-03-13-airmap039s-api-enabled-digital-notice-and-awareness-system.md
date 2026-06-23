@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Airmap&#039;s API Enabled Digital Notice And Awareness System
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_12_at_5.33.25_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_12_at_5.33.25_pm.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I am spending time learning more about what [Airmap](https://www.airmap.com) is 
 
 Now, Airmap's digital notice and awareness system caught my attention: _AirMap’s Digital Notice & Awareness System works by sending an encrypted digital flight notice from a drone operator to a secure airspace management dashboard accessible by airspace authorities._ Moving this beyond just the drone operator getting notifications about device or environmental conditions based upon my latitude, longitude, and elevation. This system allows for an event driven notification system to be put in place between drone operator(s) and the cloud, modeling an airplane flight control system, but for the drone universe. 
 
-[![](https://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_12_at_5.33.25_pm.png)](https://www.airmap.com/stakeholders/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_12_at_5.33.25_pm.png)](https://www.airmap.com/stakeholders/)
 
 For me, this is just one possible control system for drones--a cloud, mobile, and device based flight control system. I'm thinking about movie production, agricultural, mining, disaster, and many other types of control systems. [Airmap provides you with some of the APIs you will need to develop a drone platform and/or application(s) that will deliver in these areas](https://developers.airmap.com/):
 

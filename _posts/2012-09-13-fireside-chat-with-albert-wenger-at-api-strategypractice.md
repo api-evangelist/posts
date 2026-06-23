@@ -2,7 +2,7 @@
 layout: post
 title: Fireside Chat with Albert Wenger at API Strategy &amp; Practice
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/albert-wenger.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/albert-wenger.jpeg
 author:
   name: kinlane
 tags:

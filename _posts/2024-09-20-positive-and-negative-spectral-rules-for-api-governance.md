@@ -9,7 +9,7 @@ tags:
   - Linting
   - Behavioral
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-dandelions-in-rocks.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-dandelions-in-rocks.jpg
 ---
 One of the biggest challenges I encounter using Spectral rules (and linting) is that it focuses primarily on what is wrong. I’ve seen enterprise after enterprise turn on many Spectral rules for teams instantly telling them hundreds of things they’ve done wrong. Fun. There is a lot of research out there that will tell you that you won’t get very far in your API governance efforts if you just sit there and tell people what they’ve done wrong. Which is why I work to always have a positive and negative version of a rule that helps guide teams rather than just throw problems their way.
 

@@ -9,7 +9,7 @@ tags:
   - Business
   - Products
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-electric-tower-sun-behind.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-electric-tower-sun-behind.jpg
 ---
 Getting people to care about APIs is hard work. It is something I will keep working on until the end of my career, pushing people to see and care about what is happening, but I will always admit it is very hard. This is one of the reasons I keep trying, and refuse to give up. In my experience, nobody cares about APIs or SDKs — really they can’t tell them apart. A good analogy is with electricity, with most people caring less about whether it is 12, 110, or 220 volt electricity, and would rather not think about the details of three prong or two prong plugs, dimmer switches, and the other ways we put electricity to work throughout our days.
 
@@ -21,7 +21,7 @@ Unless you’ve worked with electricity you won’t know the benefits of cheaper
 
 Electricity provides a pretty good analogy for APIs. Electricity as a concept is much like a concept of APIs, and I’d say plugs and switches are good analogies for SDKs. It is an analogy that transcends personal and professional lines. Electricity and APIs is something we all use, and we all take for granted. We don’t see or care about electricity or APIs until they go away or stop working. We don’t understand the importance of the right voltage or protocol until we are trying to implement a specific project. We don’t understand the importance of standardization or regulation until we’ve traveled or experienced something different from our normal world, or experienced an accident. We don’t care about discovery until we are in the coffee shop needing power, or using a new application where we can’t get the data we need. So, how do we bring attention to APIs? Do we need to? Do we need people caring about the voltage in the walls or behind the plugs? I don’t think we do, but they should understand the importance.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-fixing-satellite-2.jpeg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-fixing-satellite-2.jpeg" style="padding: 15px;">
 
 How do we get people to understand that the third prong on a plug is as important as the authentication layer across your SDKs? How do we get people to see the importance of stapling a wire every 12 inches when it comes to saving cost and providing safety down the road? How do you explain the importance of standardization around 110V volt and REST APIs, but in Europe they use 220 and 230 volt and REST APIs, but when should 12 volt and MQTT APIs make sense. This is one of the reasons we have standards, regulation, and compliance, because not everyone will get the technical details and prioritize the right things during development and construction—causing damage, inflicting costs, or worse down the road. How do we come up with the language and incentives for business stakeholders to think about the quality of their APIs and SDKs, along with the quality of the electricity and switches and plugs in their homes and offices. It will take regulation. It will take standardization. It will take telling stories over many years until people just understand and do not question policies that are in place to ensure things just work.
 

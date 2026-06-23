@@ -2,7 +2,7 @@
 layout: post
 title: The AWS Serverless API Portal
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/aws_serverless_portal.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aws_serverless_portal.png
 atomdate: 2017-02-28T20:00:00.000Z
 tags:
   - Serverless

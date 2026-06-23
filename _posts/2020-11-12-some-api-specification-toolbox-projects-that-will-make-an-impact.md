@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Some API Specification Toolbox Projects That Will Make an Impact
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-construction-crane-city.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-construction-crane-city.jpg
 author:
   name: kinlane
 tags:
@@ -22,7 +22,7 @@ I feel this area is one of the cornerstone deficiencies that slows the forward m
 *   **[People #20](https://github.com/api-specification-toolbox/home/issues/20)** - Identifying, profiling, and publishing a directory of people who are working on the specifications, and doing things with them.
 *   **[Specification Extension #24](https://github.com/api-specification-toolbox/home/issues/24)** - Identifying, profiling, and publishing a directory of specification extensions that are in use across the space.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-construction-zone-claw.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-construction-zone-claw.jpg)
 
 I pulled together a simple Jekyll single page application that runs 100% on Github for service providers and for tooling, and can apply the same “[toolbox](https://github.com/postman-toolboxes/toolbox)” approach to people and extensions. It provides an open format that anyone can fork and replicate, publishing their own full or sub-directory. Next, I wanted to identify a handful of things that will be needed to move these forward to help drive some conversations about more investment in making these directories happen—here is what I am thinking about right now. 
 
@@ -35,7 +35,7 @@ I pulled together a simple Jekyll single page application that runs 100% on Gith
 
 I am using GitHub to move each of these projects forward. There should be an issue added for each service provider, tool, person, and extension. This provides a feedback loop to be established that people who are working on the catalogs can use to record activity and engage with the community. Each issue can be used to handle intake for each entry, evolve each of them, and provide an ongoing feedback loop for each entry, as well as each catalog. It is going to be tough to put a scope and price tag on all of this work, but it seems like there should be a set amount of hours each month that can be dedicated to this work, and recruiting volunteers as well as a handful of paid workers. As I will demonstrate, this work will lay the foundation for other projects I am advocating for, as well as help strengthen and grow the entire API economy.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-construction-crane-city.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-construction-crane-city.jpg)
 
 ### Self-Service Virtual Storytelling
 
@@ -56,7 +56,7 @@ These interviews, conversations, and forums could be cultivated from the work ab
 
 I am sure there is a lot more work to be done here, but I am just looking to get the main talking points down right now. Then I will open up for discussion during the API Specification Toolbox office hours, and as part of the conversation I am having with the OAI, AsyncAPI, JSON Schema, and at Postman. I really see this self-service virtual storytelling and the mapping of the API landscape all working together in a virtuous cycle that expands the awareness and literacy around API specifications.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-construction-zone-claw.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-construction-zone-claw.jpg)
 
 ### Information and Propaganda
 
@@ -79,7 +79,7 @@ I have already started pulling together [a handful of pilot newsletters](https:/
 *   **Poster Artist** \- Find an artist who can actually produce each of the propaganda posters, and provide use with the finished product that will work.
 *   **Poster Syndication -** Establish a strategy for making the posters available and get them out to the community in a way that will make them memorable and exposed.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-construction-crane-city.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/citizenship-construction-crane-city.jpg)
 
 These are just talking points I can use to help drive some of the conversations I am having. There will be a lot of things to do that I am not seeing, but I wanted to make a first pass at what the scope of these projects might be. Clearly the newsletter will take an ongoing effort, but the white papers and propaganda will take a heavy one time lift, with light touches after that. While we may not be tackling all of these, I wanted to lay them out in hopes that we can at least tackle one or two of them. 
 

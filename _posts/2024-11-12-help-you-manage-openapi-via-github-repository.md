@@ -7,7 +7,7 @@ tags:
   - GitHub
   - Repository
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-docks-oakland-2.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-docks-oakland-2.jpeg
 ---
 I am assembling a toolbox of API governance services for my customers based upon what I’ve been doing for the last year, but also based upon the needs of folks I am talking to right now. One of these services is the [management of OpenAPI specifications via GitHub](https://github.com/api-evangelist/demo-openapi). I’ve done a lot of work around this recently, and [have been learning from the approach of other top API services providers](https://apievangelist.com/2024/07/08/more-examples-of-using-github-to-manage-your-openapi/). I am starting with the fundamentals when it comes to helping folks manage their OpenAPIs via GitHub, including these areas:
 

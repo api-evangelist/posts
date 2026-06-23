@@ -3,7 +3,7 @@ layout: post
 title: >-
   A Better Understanding Of Government APIs And Their Consumers Before
   Considering Charging For Use
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stack-cash.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-stack-cash.png
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ Before government agencies consider charging for their API resources, they need 
 **Getting To Know Your Audience**  
 Before government agencies consider charging for their API resources, they need to make sure they have initiate understanding of who is using their APIs. There is no way that you can set a price for an API resource, without knowing who is going to use it, and what price point the market will bear. If the API resource you are deploying is being used by civic open data groups, the market won't take much, but if consumers of the API resource is large financial institutions, it is an entirely different conversation. Price shouldn't just be based upon covering costs, as Mark said their are other considerations with APIs being a shared resource—in short there will be numerous conversations that have to happen before pricing can be set, and a healthy understanding of who is using your APIs, and how they are putting them to use is critical.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/federal-government/nationl-park-ranger.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/federal-government/nationl-park-ranger.jpg)
 
 My answer to whether government should charge for APIs, is yes. We have to make sure and cover the costs of operations, and make sure new API resources get funded. However I second Luke and Mark as well, we can't let pricing get in the way of API usage, and there are many variables to consider before pricing can be set. My personal opinion is that all government APIs should require keys, so that agencies can measure and understand API usage, if developers want to get full downloads of data they can, but to use APIs you need to register and key up. Entry level tiers should allow for sensible rate limits, but always cap usage, with the expectation that developers can request rate limit increases, which at some point may warrant the charging of fees. If all agencies employ this method, APIs can still be freely accessed, agencies have the data they need to better understand how APIs are use, and by whom, and heavy or specialized API usage can be dealt with on a case by case basis—leaving open the potential for fees applied to API usage in future…or not.
 

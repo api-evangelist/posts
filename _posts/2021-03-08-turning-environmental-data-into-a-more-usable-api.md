@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Turning Environmental Data Into a More Usable API
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/turning-environmental-data-into-a-more-usable-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/turning-environmental-data-into-a-more-usable-api.png
 tags:
   - Environment
   - Data

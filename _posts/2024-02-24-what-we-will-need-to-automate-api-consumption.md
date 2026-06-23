@@ -3,7 +3,7 @@ published: true
 layout: post
 title: What We Will Need To Automate API Consumption
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-iron-horse-close.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-iron-horse-close.jpeg
 author:
   name: kinlane
 tags:

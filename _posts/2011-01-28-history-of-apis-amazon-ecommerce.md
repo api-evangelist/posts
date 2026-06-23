@@ -2,7 +2,7 @@
 layout: post
 title: History of APIs - Amazon E-Commerce
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/amazon/Amazon-Web-Services-News-Release.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/Amazon-Web-Services-News-Release.png
 author:
   name: kinlane
 tags:

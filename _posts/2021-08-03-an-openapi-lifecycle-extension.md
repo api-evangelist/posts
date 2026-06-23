@@ -3,7 +3,7 @@ published: true
 layout: post
 title: An OpenAPI Lifecycle Extension
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-working-on-railroad-1.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-working-on-railroad-1.jpg
 tags:
   - Lifecycle
   - OpenAPI

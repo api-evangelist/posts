@@ -2,7 +2,7 @@
 layout: post
 title: Evolving Beyond API Service Providers and Tools to Goal Based API Toolkits
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/universe-expansion.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/universe-expansion.png
 author:
   name: kinlane
 tags:

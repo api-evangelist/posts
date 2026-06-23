@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Management For An Event-Driven API Landscape
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/amusement-park-amusement-park-2.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/amusement-park-amusement-park-2.jpg
 author:
   name: kinlane
 tags:

@@ -10,7 +10,7 @@ tags:
   - Support
   - Feedback Loop
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/va/va-github-issue-production-api-access-request.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/va/va-github-issue-production-api-access-request.png
 ---
 <p></p>I'm working to break down the moving parts of API efforts over at the VA, and work to provide as much relevant feedback as I possibly can. One of the components I'm wanting to think about more is the feedback loop for the VA API efforts. The feedback loop is one of the most essential aspects of doing an API, and is quickly can become one of the most debilitating, paralyzing, and nutrient starving aspects of operating an API platform if done wrong, or non-existent. However, the feedback loop is also one of the most valuable reasons for wanting to do APIs in the first place, providing the essential feedback you will need from consumers, and the entire API ecosystem to move the API forward in a meaningful way.
 

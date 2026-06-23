@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Capital G API Governance vs Lowercase g API Governance
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/supreme-court-supremecourt-feed-people.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/supreme-court-supremecourt-feed-people.jpg
 author:
   name: kinlane
 tags:

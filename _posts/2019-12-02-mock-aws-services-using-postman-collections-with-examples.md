@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Mock AWS Services Using Postman Collections With Examples
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mock_api_postman.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mock_api_postman.jpeg
 author:
   name: kinlane
 tags:

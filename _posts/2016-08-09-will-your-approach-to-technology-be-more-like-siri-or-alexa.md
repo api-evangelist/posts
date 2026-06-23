@@ -2,7 +2,7 @@
 layout: post
 title: Will Your Approach To Technology Be More Like Siri Or Alexa?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/alexa-or-siri.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/alexa-or-siri.png
 atomdate: 2016-08-09T22:30:00.000Z
 tags:
   - Technology

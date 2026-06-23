@@ -2,7 +2,7 @@
 layout: post
 title: A Look At The State Of API Documentation Solutions
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/swagger_ui_petstore.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/swagger_ui_petstore.png
 atomdate: 2016-09-16T17:00:00.000Z
 tags:
   - Documentation

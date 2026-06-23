@@ -2,7 +2,7 @@
 layout: post
 title: Drone Recovery In The Attention Economy
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/kin_drinking.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin_drinking.jpg
 atomdate: 2016-11-04T15:13:00.000Z
 tags:
   - Economy

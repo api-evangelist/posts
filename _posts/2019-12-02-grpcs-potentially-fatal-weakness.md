@@ -3,7 +3,7 @@ published: true
 layout: post
 title: gRPCs Potentially Fatal Weakness
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-old-broken-piano-street.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-old-broken-piano-street.jpg
 author:
   name: kinlane
 tags:

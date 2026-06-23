@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: What Is Behind The CLI Making A Comeback?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-command-line.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-command-line.png
 author:
   name: kinlane
 tags:

@@ -4,7 +4,7 @@ layout: post
 title: >-
   The New AWS API (Gateway): Anyone Who Does Not Do This, Will Be Fired. Thank
   You. Have A Nice Day! - Jeff Bezos
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/aws/aws-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/aws/aws-logo.jpg
 author:
   name: kinlane
 tags:

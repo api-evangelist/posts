@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Role APIs Can Play When It Comes To Online Trolling
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-mean.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-mean.png
 author:
   name: kinlane
 tags:

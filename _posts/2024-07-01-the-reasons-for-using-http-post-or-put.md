@@ -10,7 +10,7 @@ tags:
   - Stripe
   - Twilio
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-old-bearded-man-thinking.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-old-bearded-man-thinking.jpeg
 ---
 I wrote about [Stripe and Twilio not using PUT for updates a couple months back](https://apievangelist.com/2024/02/07/twilio-and-stripe-do-not-use-put-for-http-resource-updates/). Since then a co-worker happened to have the chance to sit next to the CTO of Stripe at an event, and was able to ask them directly why they made the decision to use POST for both creating and updating their resources. The answer was simple, their customers utilized integration solutions that couldn’t support HTTP PUT, revealing the influence API consumers can have of our API design.
 

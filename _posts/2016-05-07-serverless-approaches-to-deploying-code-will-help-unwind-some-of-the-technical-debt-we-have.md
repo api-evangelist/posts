@@ -4,7 +4,7 @@ title: >-
   Serverless Approaches To Deploying Code Will Help Unwind Some Of The Technical
   Debt We Have
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-technical-debt-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-technical-debt-api.png
 author:
   name: kinlane
 date: 2016-05-07T20:22:02.000Z

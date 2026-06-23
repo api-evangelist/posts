@@ -4,7 +4,7 @@ title: >-
   Patent #20150363171: Generating Virtualized API From Narrative API
   Documentation
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-patent-algorithms.png
+  https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-patent-algorithms.png
 atomdate: 2017-01-17T17:00:00.000Z
 tags:
   - Documentation

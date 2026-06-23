@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Where Do You Like Your API Complexity?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/udnie-DSC_0109.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/udnie-DSC_0109.jpg
 author:
   name: kinlane
 tags:

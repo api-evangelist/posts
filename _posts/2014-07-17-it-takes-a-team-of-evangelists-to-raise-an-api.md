@@ -57,8 +57,6 @@ Heitor (Burger) Sergent ([@heitorburger](https://twitter.com/heitorburger)) - De
 
 Eddie Zaneski ([@eddiezane](https://twitter.com/eddiezane)) - Developer Evangelist
 
-[![](http://willsmidlein.com/assets/img/me.png)](https://twitter.com/ws)
-
 Will Smidlein ([@ws](https://twitter.com/ws)) - Developer Evangelist
 
 And one distinguised hacker in residence:

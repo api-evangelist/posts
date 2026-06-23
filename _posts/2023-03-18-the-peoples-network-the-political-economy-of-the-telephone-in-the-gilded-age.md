@@ -4,7 +4,7 @@ layout: post
 title: >-
   The People’s Network - The Political Economy of the Telephone in the Gilded
   Age
-image: https://kinlane-productions2.s3.amazonaws.com/peoples-network/IMG_4484.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/peoples-network/IMG_4484.jpeg
 author:
   name: kinlane
 tags:
@@ -25,8 +25,8 @@ Patents drove a lot of the early days of telephony, something that has been sign
 What I really like about AT&T’s approach to storytelling was how in the early part of the 20th century they focused on the network or the system. Like the railroad that had just redefined the country, and the radio that was also beginning to shape who were, the telephone was the beginning of “The Network Effect” we now take for granted online. My belief about APIs being all about operating at the intersection of the technology, business, and politics of the digital landscape reflects that narrative around the telephone network. The stories you believe tend to reflect where you are in the food chain when it came to the early telephone network as well as the API-driven world of digital applications we find ourselves drowning in today. So far, I have read history about regulation for railroads, radio, and now telephony. Next, I’ll dive deeper into the world of electricity, and then broadcast television. I will be keeping an eye out for how monopolies like Bell told stories about the shifting landscape around us.
 
 <center>
-<img src="https://kinlane-productions2.s3.amazonaws.com/peoples-network/IMG_4480.jpeg" width="45%" style="padding: 15px;">
-<img src="https://kinlane-productions2.s3.amazonaws.com/peoples-network/IMG_4483.jpeg" width="45%" style="padding: 15px;">
-<img src="https://kinlane-productions2.s3.amazonaws.com/peoples-network/IMG_4482.jpeg" width="45%" style="padding: 15px;">
-<img src="https://kinlane-productions2.s3.amazonaws.com/peoples-network/IMG_4481.jpeg" width="45%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/apievangelist/peoples-network/IMG_4480.jpeg" width="45%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/apievangelist/peoples-network/IMG_4483.jpeg" width="45%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/apievangelist/peoples-network/IMG_4482.jpeg" width="45%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/apievangelist/peoples-network/IMG_4481.jpeg" width="45%" style="padding: 15px;">
 </center>

@@ -4,7 +4,7 @@ title: >-
   Using APIs To Provide Building Blocks For Still And Motion UAV Imagery Media
   Applications
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Insitu-1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Insitu-1.png
 tags:
   - Applications
   - APIs
@@ -13,11 +13,11 @@ I see a lot of APIs in my daily work. The diverse number of ways in which APIs a
 
 Increasingly I am stumbling across API implementations, that when I am initially learning about, the 12 year old boy in me is immediately interested, but then the 43 year old skeptical in me recoils, like I am seeing a car accident on the highway. [Insitu's Tungsten Software Development Kit has this effect on me](https://insitu.com/information-delivery/video-exploitation/tungsten) -- Insitu makes technology for unmanned aerial vehicles (UAV).
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/insitu-drones.png)](https://insitu.com/blog/2016/02/16/a-true-find-capability-for-uas)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/insitu-drones.png)](https://insitu.com/blog/2016/02/16/a-true-find-capability-for-uas)
 
 I think the tagline on their home page sums itup well--the API opportunity is at this layer of civil, commercial, and defense deployment of UAVs.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Insitu-1.png)](https://insitu.com/blog/2016/02/16/a-true-find-capability-for-uas)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Insitu-1.png)](https://insitu.com/blog/2016/02/16/a-true-find-capability-for-uas)
 
 I think their own description of the Tungsten Software Development Kit, speaks well to what APIs can do for almost any device, including UAVs:
 

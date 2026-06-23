@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Slowly Adding The People Layer To The API Evangelist Network
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dancing.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-dancing.png
 author:
   name: kinlane
 tags:

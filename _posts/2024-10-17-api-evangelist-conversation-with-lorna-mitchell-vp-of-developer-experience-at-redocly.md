@@ -10,7 +10,7 @@ tags:
   - OpenAPI
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 The opinionated and deeply knowledgeable driver of API specifications and VP of Developer Experience at Redocly, Lorna Mitchell came by to share some knowledge on Redocly CLI with me. I have made an executive decision to not have API service providers on my podcast, opting to speak with API producer and consumers, but Lorna transcends her role at Redocly. Lorna is part of the TSC for the OpenAPI Initiative (OAI), and has deep experience across the specs, but more specifically across approaches to lint these specs--this is the knowledge I am looking to tap into during our conversation.
 

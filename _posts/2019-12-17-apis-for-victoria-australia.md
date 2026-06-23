@@ -3,7 +3,7 @@ published: true
 layout: post
 title: APIs For Victoria Australia
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/victoria_australia_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/victoria_australia_logo.png
 author:
   name: kinlane
 tags:

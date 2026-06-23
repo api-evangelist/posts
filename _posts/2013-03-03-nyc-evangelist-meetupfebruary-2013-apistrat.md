@@ -2,7 +2,7 @@
 layout: post
 title: 'NYC Evangelist Meetup - February 2013 #APIStrat'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dev-evangelist-nyc.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dev-evangelist-nyc.jpeg
 author:
   name: kinlane
 tags:
@@ -15,4 +15,4 @@ I got the chance to hang out with several evangelist I know online, but have nev
 
 Thanks for having me over everyone!  Have you ever seen so many evangelists in one room?
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/pics/dev-evangelist-nyc.jpeg)](http://www.meetup.com/nycevangelists/events/104141492/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/pics/dev-evangelist-nyc.jpeg)](http://www.meetup.com/nycevangelists/events/104141492/)

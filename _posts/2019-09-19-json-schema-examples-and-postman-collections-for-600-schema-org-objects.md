@@ -3,7 +3,7 @@ published: true
 layout: post
 title: JSON Schema, Examples, And Postman Collections For 600 Schema.org Objects
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/schema-org/schema-org-schema-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/schema-org/schema-org-schema-screenshot.png
 author:
   name: kinlane
 tags:

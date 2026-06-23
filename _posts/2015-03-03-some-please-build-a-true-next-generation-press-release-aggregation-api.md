@@ -2,7 +2,7 @@
 layout: post
 title: Some Please Build A True Next Generation Press Release Aggregation API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/press-release.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/press-release.jpeg
 author:
   name: kinlane
 tags:

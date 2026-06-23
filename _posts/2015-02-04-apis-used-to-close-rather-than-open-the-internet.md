@@ -2,7 +2,7 @@
 layout: post
 title: APIs Used To Close, Rather Than Open The Internet
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-traffic-fast-lane.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-traffic-fast-lane.png
 author:
   name: kinlane
 tags:

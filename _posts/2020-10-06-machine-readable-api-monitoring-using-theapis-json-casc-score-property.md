@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Machine Readable API Monitoring Using the  APIs.json CASC Score Property
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_10_06_at_1.30.32_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_10_06_at_1.30.32_pm.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ First, to make sure everyone is up to speed, [APIs.json](http://apisjson.org/) /
 
 CASC Score is a way to understand the reliability and maturity of an API from my friends over at APIMetrics. I just took their data and created a machine readable APIs.yaml property that I could then use to display the CASC score for each of my COVID-19 and U.S. Election APIs. Using the property to sort and display the CASC score as part of each listing.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_10_06_at_1.30.32_pm.png)](https://postman-toolboxes.github.io/covid-19/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_10_06_at_1.30.32_pm.png)](https://postman-toolboxes.github.io/covid-19/)
 
 I needed a way to float the cream of each API resource center to the top, and the CASC score is one thing I consider when it comes to ranking each of the community contributed APIs. I am looking at other metrics, which I will also publish as APIs.yaml properties in the near future, but understanding the overall availability and reliability of the API from many different geographic regions over time is a pretty key indicator of whether an API is something I want to be recommending to developers.
 

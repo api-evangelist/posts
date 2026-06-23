@@ -6,11 +6,11 @@ tags:
   - Producer
   - Consumer
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-chess-in-the-park-with-pigeons.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-chess-in-the-park-with-pigeons.jpg
 ---
 I love the confidence that exists within the enterprise when it comes to knowing everything you need to produce an API, but also the simultaneous anxiety and lack of awareness regarding the external consumption of the same APIs. My experience with the dissonance of API producers can be seen in this API lifecycle visualization I contributed to while working at Postman as the Chief Evangelist.
 
-<img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/postman-api-lifecycle.jpg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/apievangelist/postman-api-lifecycle.jpg" style="padding: 15px;">
 
 I worked for months to negotiate this representation of the API lifecycle and with the help of [Shruthi Venkatesh](https://www.linkedin.com/in/shruthivee/) at Postman, it was brought to life as this meaningful visualization. So why does it matter?
 

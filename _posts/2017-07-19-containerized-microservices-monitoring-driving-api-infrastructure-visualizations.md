@@ -13,9 +13,9 @@ tags:
   - Deployment
   - Containers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/netsil/1-P8w_-2-oCz0QfV6OENawJQ.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/netsil/1-P8w_-2-oCz0QfV6OENawJQ.png
 ---
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/netsil/1-P8w_-2-oCz0QfV6OENawJQ.png" align="right" width="40%" style="padding: 15px" /></p>While I track on what is going on with visualizations generated from data, I haven't seen much when it comes to API driven visualizations, or specifically visualization about API infrastructure, that is new and interesting. [This week I came across an interesting example in a post from Netsil about mapping microservices so that you can monitor them](https://blog.netsil.com/kubernetes-monitoring-needs-maps-6ef673d840c7). They are a pretty basic visualization of each database, API, and DNS element for your stack, but it does provide solid example of visualizing not just the deployment of database and API resources, but also DNS, and other protocols in your stack.
+While I track on what is going on with visualizations generated from data, I haven't seen much when it comes to API driven visualizations, or specifically visualization about API infrastructure, that is new and interesting. [This week I came across an interesting example in a post from Netsil about mapping microservices so that you can monitor them](https://blog.netsil.com/kubernetes-monitoring-needs-maps-6ef673d840c7). They are a pretty basic visualization of each database, API, and DNS element for your stack, but it does provide solid example of visualizing not just the deployment of database and API resources, but also DNS, and other protocols in your stack.
 
 Netsil microservices visualization is focused on monitoring, but I can see this type of visualization also being applied to design, deployment, management, logging, testing, and any other stop along the API lifecycle. I can see API lifecycle visualization tooling like this becoming more common place, and play more of a role in making API infrastructure more observable. Visualizations are an important of the storytelling around API operations that moves things from just IT and dev team monitoring, making it more observable by all stakeholders.
 

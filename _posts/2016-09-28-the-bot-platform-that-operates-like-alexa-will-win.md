@@ -2,7 +2,7 @@
 layout: post
 title: The Bot Platform That Operates Like Alexa Will Win
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/amazon_alexa_blue.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/amazon_alexa_blue.png
 atomdate: 2016-09-28T22:00:00.000Z
 tags:
   - Platform

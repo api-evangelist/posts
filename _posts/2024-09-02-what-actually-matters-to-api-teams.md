@@ -5,7 +5,7 @@ title: What Actually Matters to API Teams
 tags:
   - Teams
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-soliders-fighting-statue.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-soliders-fighting-statue.jpg
 ---
 Getting teams producing APIs to care about APIs is an equally daunting task of getting business leadership to care about and invest in APIs. This post overlaps heavily with my thoughts on what actually matters to API leadership, as these apply to leadership as well, but is primarily focused on the middle and lower levels of the enterprise. I would love for everyone to care about doing APIs well, but in my experience, the people who truly care about APIs will always be less than 5% of the people you talk to who work within the enterprise delivering APIs. Everyone else will have a wide mix of perspective, opinions, and levels of awareness that you will have to navigate if you expect to move the API conversation forward at scale within an enterprise.
 

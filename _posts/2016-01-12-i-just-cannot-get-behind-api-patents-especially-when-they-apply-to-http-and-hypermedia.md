@@ -3,7 +3,7 @@ layout: post
 title: >-
   I Just Cannot Get Behind API Patents, Especially When They Apply To HTTP And
   Hypermedia
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-sad-face.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-sad-face.png
 author:
   name: kinlane
 tags:

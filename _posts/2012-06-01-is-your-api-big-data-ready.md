@@ -2,7 +2,7 @@
 layout: post
 title: Is Your API Big Data Ready?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/big-data-matrix.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/big-data-matrix.jpg
 author:
   name: kinlane
 tags:

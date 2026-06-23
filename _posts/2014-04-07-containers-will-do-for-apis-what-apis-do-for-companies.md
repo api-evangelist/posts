@@ -2,7 +2,7 @@
 layout: post
 title: Containers Will Do for APIs what APIs Do For Companies
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-shipping-container.png
+  https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-shipping-container.png
 author:
   name: kinlane
 tags:

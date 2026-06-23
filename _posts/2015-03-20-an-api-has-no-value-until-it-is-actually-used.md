@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An API Has No Value Until It Is Actually Used
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-transaction.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-transaction.png
 author:
   name: kinlane
 tags:

@@ -4,8 +4,6 @@ layout: post
 title: 'Apicurio Is The Open Source Visual API Design Editor I Was Looking For'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-logos/api-evangelist-red-seal.png
 ---
-
-<p><a href="http://www.apicur.io/"><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/apicurio/apicurios-studio-methods.png" align="right" width="40%" /></a>
 <p><a href="http://apievangelist.com/2015/08/13/a-common-open-source-api-design-editor-is-needed-for-api-service-providers/">I’ve been wanting someone to create an open source API editor for some time</a>, and now the folks over at Red Hat / 3Scale have delivered one <a href="http://www.apicur.io/">called Apicurio</a>. It is a web-based Angular2 app, for visually designing your APIs using OpenAPI, with a Github focus.
 
 <p><a href="http://www.apicur.io/">Apicurio is that blend of visual designer, and code view that I was hoping for, letting you manage all your paths, and definitions using OpenAPI via Github</a>. It doesn’t have all <a href="http://apievangelist.com/2014/06/25/if-i-could-design-my-perfect-api-design-editor/">the bells and whistles I’d love to see in my perfect API design editor</a>, but they are just getting going, and I think it is an excellent start.

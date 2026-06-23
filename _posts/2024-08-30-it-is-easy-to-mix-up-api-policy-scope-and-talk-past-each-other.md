@@ -7,7 +7,7 @@ tags:
   - Scope
   - Conversations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-feminist-pioneers.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-feminist-pioneers.jpeg
 ---
 API conversations are hard. Not because APIs are hard, but because they are virtual and difficult to see, and there are multiple perspectives and scopes existing across individual APIs, and the APIs that exist across an enterprise, as well as the industries they operate in. One of the most interesting aspects of doing APIs I have witnessed in the last 15 years of API hustling, is that it is very easy to talk past each other, with one person focused at one level and the other at another level. Understanding the perspective of who you are talking with, and possessing a common understanding of the API landscape that is ideally machine and human readable, is the only way to move things forward in this chaotic landscape.
 

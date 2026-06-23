@@ -2,7 +2,7 @@
 layout: post
 title: Five Years Of API Evangelist
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-evangelist-five-years-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-evangelist-five-years-logo.png
 author:
   name: kinlane
 tags:

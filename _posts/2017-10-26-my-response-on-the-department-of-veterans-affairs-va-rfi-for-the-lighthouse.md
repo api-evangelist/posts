@@ -4,8 +4,6 @@ layout: post
 title: 'My Response On The Department Of Veterans Affairs (VA) RFI For The Lighthouse'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/veterans-affairs/va-logo.jpg
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/veterans-affairs/va-logo.jpg" align="right" width="40%" style="padding: 15px;" />
 <p>I am working with my partners in the government API space (<a href="https://skylight.digital/">Skylight</a>, <a href="https://540.co/">540</a>, <a href="https://agile6.com/">Agile Six</a>) to respond to a request for information (RFI) out of the Department of Veterans Affairs (VA), for what they call the <a href="https://www.fbo.gov/index?s=opportunity&amp;mode=form&amp;tab=core&amp;id=b5a3e0c29fa78545f0556dac972bac69">Lighthouse API Management platform</a>. The RFI provides a pretty interesting look into the way the government agency which supports our vets is thinking about how they should be delivering government resource using APIs, but also how they play a role in the wider healthcare ecosystem. My team is meeting today to finalize our response to the RFI, and in preparation I wanted to prepare my thoughts, and in my style of doing things, involves publishing them here on API Evangelist.
 
 <p>You can read <a href="https://www.fbo.gov/index?s=opportunity&amp;mode=form&amp;tab=core&amp;id=b5a3e0c29fa78545f0556dac972bac69">the whole RFI</a>, but I’ll provide the heart of it, to help set the table for my response.

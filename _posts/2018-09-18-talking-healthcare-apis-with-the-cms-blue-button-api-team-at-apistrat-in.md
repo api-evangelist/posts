@@ -4,8 +4,6 @@ layout: post
 title: 'Talking Healthcare APIs With The CMS Blue Button API Team At #APIStrat In'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/blue-button/blue-button-api-docs.png
 ---
-
-<p><a href="https://bluebutton.cms.gov/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/blue-button/blue-button-api-docs.png" width="45%" align="right" style="padding: 15px;" /></a>
 <p>We have the API evangelist from one of the most significant APIs out there today at #APIStrat in Nashville next week. Mark Scrimshire (<a href="https://twitter.com/ekivemark">@ekivemark</a>), Blue Button Innovator and Developer Evangelist from NewWave Telecoms and Technologies will be on the main stage next Tuesday, September 25th 2018. Mark will be bringing his experience helping stand up <a href="https://bluebutton.cms.gov/">the Blue Button API with the Centers for Medicare and Medicaid Services (CMS)</a>, and sharing the stories from the trenches while delivering this critical piece of health API infrastructure within the United States.
 
 <p>I consider the Blue Button API to be one of the most significant APIs out there right now for several key factors:

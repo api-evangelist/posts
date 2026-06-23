@@ -3,7 +3,7 @@ layout: post
 title: >-
   API Service Providers Need To Decouple The Services They Offer To API
   Providers
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-services.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-services.png
 author:
   name: kinlane
 tags:

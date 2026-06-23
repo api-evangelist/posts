@@ -2,7 +2,7 @@
 layout: post
 title: Simple API Developer Tracking Framework
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/charts-graphs-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/charts-graphs-2.png
 author:
   name: kinlane
 tags:
@@ -30,7 +30,7 @@ Then make sure and flag each user with a timestmap when they change status:
 *   7/9/2012 - Billable
 *   8/15/2012 - Inactive
 
-![](https://s3.amazonaws.com/kinlane-productions2/charts-graphs-2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/charts-graphs-2.png)
 
 I like to generate daily, weekly and monthly counts for each bucket, plus see numbers on the churn between buckets.
 

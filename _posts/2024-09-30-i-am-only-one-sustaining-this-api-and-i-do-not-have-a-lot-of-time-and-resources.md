@@ -9,7 +9,7 @@ tags:
   - Tools
   - Contracts
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-old-gas-station_36588462091_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-old-gas-station_36588462091_o.jpg
 ---
 I am profiling hundreds of APIs each month as part of my [APIs.io research](https://apis.io), and I always learn a lot by reaching out to the API producers I am profiling. When you are in the business of selling your warez to API producers, we like to tell ourselves a story about how companies have a strong sense of purpose and desire to do the right then when operating an API. When in reality a significant portion of APIs are maintained by someone who didn’t build it, isn’t always up to speed on the latest API technology, and do not have a lot of time and resources when it comes to managing an API.
 

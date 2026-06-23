@@ -2,7 +2,7 @@
 layout: post
 title: API Technology Does Not Have To Mindlessly March Forward
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-marching-shouting.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-marching-shouting.png
 atomdate: 2016-10-26T00:00:00.000Z
 tags:
   - Technology

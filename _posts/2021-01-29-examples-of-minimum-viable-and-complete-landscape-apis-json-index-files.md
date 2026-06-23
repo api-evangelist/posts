@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Examples of Minimum Viable and Complete Landscape APIs.json Index Files
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/norman-rockwell-ruby-bridges-border-crossing-through-fence.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/norman-rockwell-ruby-bridges-border-crossing-through-fence.jpg
 author:
   name: kinlane
 tags:

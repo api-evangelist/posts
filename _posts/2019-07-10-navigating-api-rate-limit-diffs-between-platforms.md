@@ -8,7 +8,7 @@ tags:
   - Search
   - Diff
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-death-valley-national-park-dali-three-just-road.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-death-valley-national-park-dali-three-just-road.jpg
 author:
   name: kinlane
 ---

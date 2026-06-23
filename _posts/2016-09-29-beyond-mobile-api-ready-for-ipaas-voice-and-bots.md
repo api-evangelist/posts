@@ -2,7 +2,7 @@
 layout: post
 title: 'Beyond Mobile: API Ready For iPaaS, Voice, and Bots'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/announcing_the_clearbit__zapier_integration.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/announcing_the_clearbit__zapier_integration.png
 atomdate: 2016-09-29T22:00:00.000Z
 tags:
   - iPaaS

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Seeing API Change
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-old-barn-falling-over.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-old-barn-falling-over.jpg
 tags:
   - Changes
   - Change Mangement

@@ -11,7 +11,7 @@ tags:
   - Security
   - Real-Time
   - Event-Driven
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-connect-plug.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-connect-plug.png
 ---
 <p></p>I've been evaluating API management providers, and this important stop along the API lifecycle in which they serve for eight years now. It is a space that I'm very familiar with, and have enjoyed watching it mature, evolve, and become something that is more standardized, and lately more commoditized. I've enjoyed watching the old guard (3Scale, Apigee, and Mashery) be acquired, and API management be baked into the cloud with AWS, Azure, and Google. I've also had fun learning about Kong, Tyk, and the next generation API management providers as they grow and evolve, as well as some of the older players like Axway as they work to retool so that they can compete and even lead the charge in the current environment.
 

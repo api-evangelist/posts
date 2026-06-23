@@ -1,7 +1,7 @@
 ---
 layout: post
 title: APIs Role In Data Security And Privacy
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/api-security.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/api-security.png
 author:
   name: kinlane
 tags:

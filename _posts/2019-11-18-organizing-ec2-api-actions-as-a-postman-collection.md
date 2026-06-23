@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Organizing EC2 API Actions As A Postman Collection
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_ec2_documentation.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_aws_ec2_documentation.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ I’m crafting Postman collections in support of the upcoming re:Invent conferen
 
 When crafting the AWS EC2 Postman collection I wanted to take some time to better organize the wealth of actions you can take, making them more accessible via a single Postman collection, organized by resource. [You can access the collection here](https://www.postman.com/collections/e6e8465143cba95cf28b), and the Postman generated API documentation for the AWS EC2 API by clicking on the image below.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_ec2_documentation.png)](https://documenter.postman.com/view/35240/SW7XZpAm?version=latest)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_aws_ec2_documentation.png)](https://documenter.postman.com/view/35240/SW7XZpAm?version=latest)
 
 The Postman collection helps organize the 350+ actions into folders by resource—making them a little easier on the eyes, and to navigate, while also making every AWS EC2 action immediately executable once you publish your keys and secrets to the Postman environment that accompanies the collection. By organizing all of the individual resources into more coherent groups, it increases the chance that the resource you need will be found, and put too use.
 

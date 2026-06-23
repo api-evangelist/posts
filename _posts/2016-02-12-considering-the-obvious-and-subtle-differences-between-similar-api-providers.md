@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Considering The Obvious And Subtle Differences Between Similar API Providers
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-differences.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-differences.png
 tags:
   - Diff
   - Providers

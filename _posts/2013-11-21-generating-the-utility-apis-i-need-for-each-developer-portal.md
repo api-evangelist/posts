@@ -2,7 +2,7 @@
 layout: post
 title: Generating The Utility APIs I Need For Each Developer Portal
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-united-states.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-united-states.png
 author:
   name: kinlane
 tags:

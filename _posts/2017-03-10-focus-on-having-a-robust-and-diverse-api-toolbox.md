@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Focus On Having A Robust And Diverse API Toolbox
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-toolbox.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-toolbox.jpg
 atomdate: 2017-03-10T23:00:00.000Z
 tags:
   - Toolbox

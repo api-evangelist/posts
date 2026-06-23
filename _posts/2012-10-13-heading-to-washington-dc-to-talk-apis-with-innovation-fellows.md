@@ -2,7 +2,7 @@
 layout: post
 title: Heading to Washington DC to Talk APIs with Innovation Fellows
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/PresidentialInnovationFellows.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/PresidentialInnovationFellows.jpeg
 author:
   name: kinlane
 tags:

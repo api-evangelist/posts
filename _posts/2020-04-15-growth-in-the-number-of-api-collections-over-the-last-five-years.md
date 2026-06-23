@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Growth in the Number of API Collections Over the Last Five Years
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/growth_in_api_collections.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/growth_in_api_collections.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ There are surprisingly few meaningful API numbers to showcase across the API sec
 
 Postman has a pretty unique view of the API landscape, possessing many interesting data points. The company is working on a strategy for compiling, organizing, publishing, and sharing the data it has in a thoughtful way, something that you can see trickling out through a variety of slides from recent events like the Postman Galaxy Tour, and Postcon last year. Like this one showing the growth in API collections, topping at 34.9M collections published in 2020.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/growth_in_api_collections.png)](https://www.postman.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/growth_in_api_collections.png)](https://www.postman.com/)
 
 The important thing with this visual is it reflects both private and public APIs. This graphis is just one of many data points Postman possesses that I am working to encourage packing up, so that others can reference and use, much like the ProgrammableWeb public API chart over the last decade. Visuals like this are important all of us making sense of what is going on, and be able to truly see the scope of what is happening.
 

@@ -4,7 +4,7 @@ title: >-
   Exposing The Meaningful Skills Our APIs Possess For Use In The Next Gen
   Messaging And Voice Apps
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-noise-wave.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-noise-wave.png
 tags:
   - Voice
   - Skills

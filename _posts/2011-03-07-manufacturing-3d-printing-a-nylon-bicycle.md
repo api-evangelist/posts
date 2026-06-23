@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Manufacturing: 3D Printing a Nylon Bicycle'
-image: http://kinlane-productions2.s3.amazonaws.com/3D-Printing/3D-Nylon-Bike.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/3D-Printing/3D-Nylon-Bike.jpg
 author:
   name: kinlane
 tags:

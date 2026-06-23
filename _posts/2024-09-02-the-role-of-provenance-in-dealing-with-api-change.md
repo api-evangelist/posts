@@ -6,7 +6,7 @@ tags:
   - Provenance
   - Change
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-gauge-holding.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-gauge-holding.jpg
 ---
 Change is the great enemy of a successful API. There are many ways that change can erode the quality, performance, velocity, and trust with the APIs we have powering desktop, web, mobile, and artificial intelligence applications. The versioning of APIs is just the tip of this iceberg, and there are other properties of our API operations that can positively or negatively impact API operations as APIs change, the operations around them change, consumers using an API change, or the industries we operate in change around everything.
 

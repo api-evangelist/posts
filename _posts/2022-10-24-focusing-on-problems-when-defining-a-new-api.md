@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Focusing on Problems When Defining a New API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/norman-rockwell-ruby-bridges-old-piano-playing-hospital.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/norman-rockwell-ruby-bridges-old-piano-playing-hospital.jpg
 author:
   name: kin
 tags:

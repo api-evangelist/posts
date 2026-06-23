@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Getting More Hands-On Talking About API Governance
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/citizenship-supreme-court_36341562380_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-supreme-court_36341562380_o.jpg
 author:
   name: kinlane
 tags:
@@ -51,7 +51,7 @@ OpenAPI, and an API-driven lifecycle is critical to being able to govern APIs at
 
 API governance using Postman provides you with a machine readable way to ask and answer your API governance questions. As with each other stop along the API lifecycle you can use OpenAPI as the contract for each API, while using a collection in combination with an environment to realize governance across API operations. The OpenAPI is the contract for defining and validating each individual API instance, but it is also what keeps each individual API in alignment with other APIs, providing a common vocabulary for speaking about governance of resources being made available via APIs. Providing a self-contained, machine readable representation of how an API should be designed and behave, which can be manually run by developers to see if the API they are working is compliant with wider API governance, or scheduled and automated to run as part of regular processes.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/citizenship-turing-front-view.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/citizenship-turing-front-view.jpg)
 
 ### API Governance Automation
 

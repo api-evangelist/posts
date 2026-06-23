@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Why Are APIs Better Than Direct ODBC / JDBC Connections?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/conversation_questions_318_56224.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/conversation_questions_318_56224.png
 author:
   name: kinlane
 tags:

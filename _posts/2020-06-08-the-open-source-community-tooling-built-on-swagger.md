@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Open Source Community Tooling Built on Swagger
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/copper-circuit-working-waterfront-2.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-working-waterfront-2.jpg
 author:
   name: kinlane
 tags:

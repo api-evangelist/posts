@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API-First [Design || Code]
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/la_muse-alan-turing-side.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/la_muse-alan-turing-side.jpg
 tags:
   - API-First
 ---
@@ -72,7 +72,7 @@ I firmly believe API-First \[Design\] is a faster and more consistent way to del
 
 ### Infrastructure Is Costly
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/la-muse-blechlety-old-racks.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/la-muse-blechlety-old-racks.jpg)
 
 It takes time, resources, and know-how to setup the infrastructure needed to deliver an API. If you are looking to just design and iterate upon each API amongst stakeholders you don’t really need a database, storage, compute, code, and pipelines to get things done. Sure, you’ll need these things before you can move an API from design to production, but you really don’t need these things to iterate upon the design of an API. So I wouldn’t say they aren’t unnecessary, but they are extra costs and potential friction when you are just trying to iterate upon the design of an API. As I stated in the previous paragraph, each organization will have to weigh what is more costly based upon their own infrastructure costs, as well as the cultural and organizational costs of an API-First \[Design\] shift. Even if API-First \[Design\] is more efficient I do not think we can expect every organization will make the shift, and I am not in the business of shaming folks for their practices. We need to acknowledge, and equip API-First \[Code\] teams with what they need to be successful, and work to ensure the API contract produced from all approaches are in alignment.
 

@@ -11,7 +11,7 @@ tags:
   - Self-Help
   - Wellness
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 My friend from Postman days [Ian Mai came by to talk about addiction and impulse control with me](https://conversations.apievangelist.com/sessions/2024-10-29-ian-mai-executive-coach.html). This isn't your average API conversation, but neither is my podcast, and I am all about sharing my own struggles, while also giving friends a platform to help others with their battles. I appreciate Ian's honesty in his own struggles with addiction and trying to find balance, and wanted to learn more about why he left Postman, and why he said he was leaving tech. I don't see Ian as leaving tech, I think he'll continue to help us all find our way, and be there for anyone who hits the wall or drives into the ditch, as most everyone will experience at one time or another. I always cherished Ian's energy, and think this is the perfect role for him and his boundless enthusiasm.
 

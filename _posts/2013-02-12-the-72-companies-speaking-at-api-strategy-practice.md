@@ -5,8 +5,6 @@ source: http://apievangelist.com/2013/02/12/the-72-companies-speaking-at-api-str
 domain: apievangelist.com
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-strategy-practice-event-2.png
 ---
-
-<p><a href="http://www.apistrategyconference.com/" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/api-strategy-practice-event-2.png" alt="" width="250" align="right" /></a></p>
 <p>The <a href="http://www.apistrategyconference.com/">API Strategy &amp; Practice Conference</a> is happening next week in NYC. I have had so much fun pulling together the schedule of keynotes, panels, sessions and the talks on the 429 - Too Many Requests stage. &nbsp;</p>
 <p>The number of requests we've received for sponsoring, speaking and attending has been overhelming. &nbsp;Resulting in a sold out conference, and an amazing lineup of speakers. &nbsp;I was spending some time tidying up the speakers page and sponsor page today, and was so impressed with the companies involved, I had to share.</p>
 <p>There are 72 companies represented at API Strategy &amp; Practice:</p>
@@ -31,7 +29,7 @@ image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-strategy-p
 <td style="height: 75px;" align="center"><a title="AT&amp;T" href="http://developer.att.com/" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/speakers/att-logo.png" alt="" width="150" /></a></td>
 </tr>
 <tr>
-<td style="height: 75px;" align="center"><a title="Best Buy" href="https://bbyopen.com/developer" target="_blank"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Best_Buy_Logo.svg/800px-Best_Buy_Logo.svg.png" alt="" width="90" /></a></td>
+<td style="height: 75px;" align="center"><a title="Best Buy" href="https://bbyopen.com/developer" target="_blank"></a></td>
 </tr>
 <tr>
 <td style="height: 75px;" align="center"><a title="Braintree" href="http://www.braintree.com/" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/speakers/braintree-logo.png" alt="" width="125" /></a></td>

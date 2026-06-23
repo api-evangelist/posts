@@ -2,7 +2,7 @@
 layout: post
 title: Landscape Analysis and Monitoring as Part of Your API Evangelism
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/landscape
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/landscape
   monitoring.png
 author:
   name: kinlane
@@ -32,7 +32,7 @@ After tackling these areas and identifying who the players are, you will identif
 *   **Facebook** - Identify and sometimes connect with a target’s Facebook account
 *   **Github** - Identify, follow and engage with a companies Github profile and appropriate repositories
 
-![](http://kinlane-productions2.s3.amazonaws.com/twitter/twitter-bird-blue-on-white.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/twitter-bird-blue-on-white.png)
 
 After getting the primary channels for each target on my landscape identified, I will go deeper sometimes and actually identify key individuals associated with target companies, either the founders and / or key employees. I look for Twitter, LinkedIn, Facebook and Github for individuals as well, and sometimes even personal blogs when available.
 

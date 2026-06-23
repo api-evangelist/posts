@@ -3,7 +3,7 @@ layout: post
 title: >-
   If An Algorithm Impacts Our Life It Should Be Opened Up With An API For
   Auditing
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-algorithm-flow.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-algorithm-flow.png
 atomdate: 2016-09-13T20:00:00.000Z
 tags:
   - Open

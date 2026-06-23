@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Finished Processing 973 API Related Patents From 2013
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-patents.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-patents.png
 author:
   name: kinlane
 tags:

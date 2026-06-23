@@ -2,7 +2,7 @@
 layout: post
 title: Defining OAuth Scope Inline Within The API Documentation
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_16_at_2.35.09_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_16_at_2.35.09_pm.png
 atomdate: 2016-10-17T18:00:00.000Z
 tags:
   - Documentation
@@ -13,11 +13,11 @@ I am working on a project using the Youtube API, and came across their inline OA
 
 To kick off my education of the YouTube API I started playing with [the search endpoint for the Youtube Data API](https://developers.google.com/youtube/v3/docs/search/list). As I was playing with I noticed the had an API explorer allowing me to call the search method and see the live data.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_16_at_2.35.09_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_16_at_2.35.09_pm.png)
 
 Once I clicked on the "Authorize requests using OAuth 2.0" slider I got a popup that gave me options for selecting OAuth 2.0s copes, that would be applied by the API explorer when I make API calls.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_16_at_2.34.01_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_16_at_2.34.01_pm.png)
 
 The inline OAuth is simple, intuitive, and what I needed to define my API consumption, in line within the Youtube API documentation. I didn't have to write any code or jump through a bunch of classic OAuth hoops. It gves me what I need for OAuth, right in the documentation--simple OAuth is something you don't see very often.
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Pulling All My Postman Collections Using The Postman API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_api_all_collections_docs.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_api_all_collections_docs.png
 author:
   name: kinlane
 tags:

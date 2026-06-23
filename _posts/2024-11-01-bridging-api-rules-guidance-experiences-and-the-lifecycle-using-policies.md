@@ -9,7 +9,7 @@ tags:
   - Lifecycle
   - Policies
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-bay-bridge-second-half.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-bay-bridge-second-half.jpeg
 ---
 I realize that it is hard to follow all of my work. That is fine. It is primarily for me to make sense of where I am going with this work, while also priming the pump for API governance conversation with my customers. I am also very aware that most won’t see my work because it is simply a bunch of YAML in a GitHub repository. People need interfaces to see the work and understand the relationships between all of the YAML schema I am working on. To help me articulate to some partners and customers while I am still working on a user interface for working with, I wanted to try and break things down here in a post, and via the README for each of the schema I am using to deliver API governance (guidance).
 

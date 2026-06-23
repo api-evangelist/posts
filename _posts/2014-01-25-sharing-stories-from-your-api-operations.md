@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sharing Stories From Your API Operations
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-storytelling.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-storytelling.png
 author:
   name: kinlane
 tags:

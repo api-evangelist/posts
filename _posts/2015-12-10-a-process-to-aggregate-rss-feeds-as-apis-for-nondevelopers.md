@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Process To Aggregate RSS Feeds As APIs For Non-Developers
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-rss-icon.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-rss-icon.png
 author:
   name: kinlane
 tags:

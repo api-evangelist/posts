@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I don’t have any production experience deploying JSON Web Tokens (JWT), but it has been something I’ve been reading up on, and staying in tune with for some ...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/json-web-token/json-web-token.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/json-web-token/json-web-token.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -42,7 +42,7 @@
     <meta name="twitter:title" content="API Message Integrity with JSON Web Token (JWT)">
     
     <meta name="twitter:description" content="I don’t have any production experience deploying JSON Web Tokens (JWT), but it has been something I’ve been reading up on, and staying in tune with for some ...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/json-web-token/json-web-token.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/json-web-token/json-web-token.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -52,7 +52,7 @@
       "@type": "Article",
       "headline": "API Message Integrity with JSON Web Token (JWT)",
       "description": "I don’t have any production experience deploying JSON Web Tokens (JWT), but it has been something I’ve been reading up on, and staying in tune with for some ...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/json-web-token/json-web-token.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/json-web-token/json-web-token.png",
       "datePublished": "2017-08-08T07:00:00-04:00",
       "dateModified": "2017-08-08T07:00:00-04:00",
       "author": {
@@ -65,7 +65,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -363,7 +363,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -393,7 +393,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -727,11 +727,11 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/json-web-token/json-web-token.png" alt="API Message Integrity with JSON Web Token (JWT)" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/json-web-token/json-web-token.png" alt="API Message Integrity with JSON Web Token (JWT)" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
-        <p><a href="https://jwt.io"><img src="https://s3.amazonaws.com/kinlane-productions2/json-web-token/json-web-token.png" align="right" width="30%" style="padding: 15px;" /></a></p>
+        <p><a href="https://jwt.io"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/json-web-token/json-web-token.png" align="right" width="30%" style="padding: 15px;" /></a></p>
 <p>I don’t have any production experience deploying <a href="https://jwt.io/introduction/">JSON Web Tokens (JWT)</a>, but it has been something I’ve been reading up on, and staying in tune with for some time. I often reference JWT as the leading edge for API authentication, but there is one aspect of JWT I think is worth me referencing more often–message integrity. JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object.</p>
 
 <p>JWT can not only be used for authentication of both message sender/receiver, it can ensure the message integrity as well, leveraging a digital signature hash value of the message body to ensure the message integrity during transmission. It adds another interesting dimension to the <a href="http://security.apievangelist.com">API security</a> conversation, and while not be applicable in all APIs, I know many that it would make a lot of sense. Many of the networks we use today and applications we depend on today are proxied, creating an environment where message integrity should always come into question, and JWT gives us another tool in our toolbox to help us keep things secure.</p>

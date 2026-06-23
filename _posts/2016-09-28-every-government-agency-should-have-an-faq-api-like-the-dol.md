@@ -2,7 +2,7 @@
 layout: post
 title: Every Government Agency Should Have An FAQ API Like The DOL
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_09_27_at_9.27.34_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_09_27_at_9.27.34_pm.png
 atomdate: 2016-09-28T20:00:00.000Z
 tags:
   - Government

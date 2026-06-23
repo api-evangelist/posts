@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Help Defining 13 of the AsyncAPI Protocol Bindings
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-shipping-docks_36331347010_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-shipping-docks_36331347010_o.jpg
 author:
   name: kinlane
 tags:

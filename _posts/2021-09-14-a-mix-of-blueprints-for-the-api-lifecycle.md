@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: A Mix of Blueprints for the API Lifecycle
-image: https://apis.how/images/lifecycle.png
+image: https://kinlane-images.s3.amazonaws.com/algorotoscope/every-sunday-morning-covid-tests.jpeg
 tags:
   - Lifecycle
   - Blueprints

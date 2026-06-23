@@ -11,7 +11,7 @@ tags:
   - Templates
   - Definitions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/va-working/va-demo-swagger-ui-documentation.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/va-working/va-demo-swagger-ui-documentation.png
 ---
 <p></p>[I responded about how teams should be documenting their APIs when they have both legacy and new APIs the other day](https://apievangelist.com/2018/08/24/how-should-teams-be-documenting-their-are-new-and-legacy-apis/). I wanted to keep the conversation thread going with an example of one possible API documentation implementation. The best way to deliver API documentation guidance in any organization is to provide a forkable, downloadable example of whatever you are talking about. To help illustrate what I am talking about, I wanted to take one documentation solution, and publish it as a GitHub repository.
 

@@ -11,7 +11,7 @@ tags:
   - Leadership
   - Business
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-thinking-man-5.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-thinking-man-5.jpeg
 ---
 One of the oldest tricks in my API storytelling playbook has been writing about competitors within an industry or sector of business and government. It is a tactic I used to obtain the attention that led me to being [a Presidential Innovation Fellow (PIF)](https://presidentialinnovationfellows.gov/fellows/kin-lane/), and strengthening the relationships I had across many different business sectors. People in enterprise organizations who were frustrated with the pace of change from their business leadership when it came to APIs would ask me to write about their competitors and showcase their API operations—-something that would in turn get read by leadership, piss them off, and motivate them to invest more in their API strategy.
 

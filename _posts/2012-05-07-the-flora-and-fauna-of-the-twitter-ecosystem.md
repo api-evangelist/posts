@@ -2,7 +2,7 @@
 layout: post
 title: The Flora and Fauna of the Twitter Ecosystem
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Field-Guide-Tweets.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Field-Guide-Tweets.png
 author:
   name: kinlane
 tags:

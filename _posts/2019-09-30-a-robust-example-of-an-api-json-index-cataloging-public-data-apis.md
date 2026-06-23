@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Robust Example Of An API.json Index Cataloging Public Data APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/socrata_apis_json.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/socrata_apis_json.png
 author:
   name: kinlane
 tags:

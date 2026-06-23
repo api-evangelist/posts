@@ -6,7 +6,7 @@ tags:
   - Career
   - Jobs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-old-piano-playing-hospital.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-old-piano-playing-hospital.jpg
 ---
 Friday was my last day at Bloomberg. I learned what I had come there to learn and now it is time for me to get back to my API Evangelist work. Moving forward, I will be taking my previous API Evangelist foundation, combining it with what I learned at F5 and Bloomberg (both enterprises), but also what I learned at Postman (a startup) through my conversations with numerous enterprise customers, as well as via my 125+ Breaking Changes podcast episodes, then applying it all as a new podcast (kinda sorta) and a set of API services focused on helping the enterprise govern API operations.
 
@@ -26,27 +26,27 @@ I will continue telling stories on API Evangelist as I always have, but instead 
 ## 3rd-Party Inbound
 The most common type of API, where enterprises publish APIs publicly via portal for 3rd-party developers to consume and use in their applications and integrations.
 
-![3rd-Party Inbound](https://kinlane-productions2.s3.amazonaws.com/3rd-party-inbound.jpg "3rd-Party Inbound")
+![3rd-Party Inbound](https://kinlane-images.s3.amazonaws.com/apievangelist/3rd-party-inbound.jpg "3rd-Party Inbound")
 
 ## 3rd-Party Outbound
 A very ad hoc and shadowy aspect of API operations, with all of the 3rd-party API consumed by teams within an enterprise to automate, integrate, and use in applications.
 
-![3rd-Party Outbound](https://kinlane-productions2.s3.amazonaws.com/3rd-party-outbound.jpg "3rd-Party Outbound")
+![3rd-Party Outbound](https://kinlane-images.s3.amazonaws.com/apievangelist/3rd-party-outbound.jpg "3rd-Party Outbound")
 
 ## 3rd-Party On-Premise
 3rd-party APIs, but the ones that come with the infrastructure decisions that have been made and run on-premise, providing another opportunity to define API consumption.
 
-![3rd-Party On-Premise](https://kinlane-productions2.s3.amazonaws.com/on-premise-3rd-party.jpg "3rd-Party On-Premise")
+![3rd-Party On-Premise](https://kinlane-images.s3.amazonaws.com/apievangelist/on-premise-3rd-party.jpg "3rd-Party On-Premise")
 
 ## 1st-Party
 The shadowy APIs we developed between web, mobile, and desktop applications, which are often available via public DNS, making for a significant area to standardize.
 
-![1st-Party](https://kinlane-productions2.s3.amazonaws.com/1st-party.jpg "1st-Party")
+![1st-Party](https://kinlane-images.s3.amazonaws.com/apievangelist/1st-party.jpg "1st-Party")
 
 ## Internal
 The many APIs and microservices that are powering the enterprise, that may mature and evolve to power 1st-party of 3rd-party applications, but likely will never see the light of day.
 
-![Internal](https://kinlane-productions2.s3.amazonaws.com/internal.jpg "Internal")
+![Internal](https://kinlane-images.s3.amazonaws.com/apievangelist/internal.jpg "Internal")
 
 I’ve broken down API operations into what I consider to be the most common relationships that exist within the enterprise, but aren't always talked about as part of API lifecycle and governance. This is where I will be focusing when it comes to API contracts, where API producer and consumer come together to get business done. I am eager to take my combined learnings from the last five years and roll up into a suite of strategic and tactical services, combined with ongoing conversations focused on the following aspects of API operations which I have been immersed in for the last couple of years.
 
@@ -74,7 +74,7 @@ I am not dismissing that some enterprises will need GraphQL, Websockets, Kafka, 
 
 I will not just be focusing on messaging that speaks to who is making the buying decisions within the enterprise. I will have a message for them, but I will also be having conversations with and be focusing on honing a message for both API producers and consumers across the five areas I listed above. I will be working with API services providers as partners, but I will be extremely wary of their approach and their venture backed influence on what the enterprise needs. I am not looking to defend enterprise leadership buying software from the grift of Silicon Valley, but the people on the ground floor who have to live with these decisions, and have to deal with the implications of this circus. I will be looking to provide an on or off the record opportunity for conversations with these folks on my API Evangelist podcast, and I will be looking to empower them with API contract support services, helping them produce and consume APIs within the decision making of enterprise leadership and the influence of venture backed startups.
 
-![Supreme](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-statue-supreme-court.jpg "Supreme")
+![Supreme](https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-statue-supreme-court.jpg "Supreme")
 
 I feel like I am in a good spot. I have learned a lot working at F5 Networks, Postman, and Bloomberg in the last five years. I have some money in the bank to pay the bills for a little while, I am not burnt out, and I feel like that we are getting back on our feet after a few very difficult personal years. I feel like I still have a strong and credible voice in the industry. I really, really, really enjoy what I do. I feel like I am always learning and at the top of my game. I feel like it is time that I use my skills and my voice. I think that I also have some of the coolest domains in the API universe—-[API Evangelist](https://apievangelist.com), [API Commons](http://apicommons.org), and [APIs.io](https://apis.io). I mean c’mon, I have gotta something across these domains. I'd like to do something that is real, creative, fun, and that hopefully will have lasting impact beyond just the latest investment cycle or collective market hallucination. With this moment in time, I feel like I know my shit, and enjoy a strong position within a very relevant and cross cutting aspect of our economy—-HTTP APIs.
 

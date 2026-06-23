@@ -7,7 +7,7 @@ tags:
   - Abandonment
   - Legacy
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-creepy-doll-looking-down.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-creepy-doll-looking-down.jpg
 ---
 I want to add a new type of API to our lexicon. There is a lot of talk about zombie APIs that were stood up a long time ago to support a single application or integration but are no longer in use, and there are Rogue APIs that are reversed engineered by consumers or stood up as part unsanctioned producers, and used to access the digital resources behind an application. I want to propose the haunted house API, which is similar to a zombie API, but it is the entire API portal and presence for a company—-except there is nobody home, and there are just hauntings of what used to be.
 

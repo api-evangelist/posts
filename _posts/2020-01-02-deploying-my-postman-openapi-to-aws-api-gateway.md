@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Deploying My Postman OpenAPI To AWS API Gateway
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-nyc-subway-train-125th.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-nyc-subway-train-125th.jpg
 author:
   name: kinlane
 tags:

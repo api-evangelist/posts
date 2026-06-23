@@ -2,7 +2,7 @@
 layout: post
 title: Talking APIs Up At California State University Channel Islands
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-ciu-2.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-ciu-2.jpg
 author:
   name: kinlane
 tags:

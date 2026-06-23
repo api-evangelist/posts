@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Suggested, And Sponsored Link Relation Engine For Hypermedia APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-engine-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-engine-api.png
 author:
   name: kinlane
 tags:

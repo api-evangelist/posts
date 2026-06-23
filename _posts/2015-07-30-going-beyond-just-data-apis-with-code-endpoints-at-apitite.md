@@ -2,7 +2,7 @@
 layout: post
 title: Going Beyond Just Data APIs With Code Endpoints At Apitite
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apittie-node-endpoints.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apittie-node-endpoints.png
 author:
   name: kinlane
 tags:

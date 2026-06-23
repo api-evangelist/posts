@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Are You The API Librarian Within Your Organization?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/powerlines-power-yellow-collage.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/powerlines-power-yellow-collage.jpg
 author:
   name: kinlane
 tags:

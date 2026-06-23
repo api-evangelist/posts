@@ -5,7 +5,7 @@ title: >-
   OpenAPI is the Static Truth and Postman Collections are Real World Derivatives
   of that Truth
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-thinking-man-statue.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-thinking-man-statue.jpg
 author:
   name: kinlane
 tags:

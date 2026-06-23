@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A More Honest And Flexible API Contract Using Hypermedia
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-contract.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-contract.png
 atomdate: 2016-10-18T20:00:00.000Z
 tags:
   - Hypermedia

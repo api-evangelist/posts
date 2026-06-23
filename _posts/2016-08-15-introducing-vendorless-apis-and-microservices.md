@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing Vendorless APIs and Microservices
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-vendorless.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-vendorless.png
 atomdate: 2016-08-15T17:00:00.000Z
 tags:
   - Microservices

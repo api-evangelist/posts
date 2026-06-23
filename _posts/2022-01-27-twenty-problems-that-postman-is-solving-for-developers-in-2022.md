@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Twenty Problems That Postman is Solving for Developers in 2022
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/Reimagined-API-First-Worflow-Testers-postman-blog.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/Reimagined-API-First-Worflow-Testers-postman-blog.jpeg
 tags:
   - Postman
   - PlatformOps
@@ -41,7 +41,7 @@ Git and CI/CD pipelines have changed the enterprise landscape when it comes to m
 ### Managing Change for Your APIs
 Managing change across a single API is difficult, but doing it across hundreds or thousands of APIs is extremely challenging. You simply cannot do it without a platform approach to versioning many different API artifacts which act as the source of truth for each API, but also the lifecycle elements like documentation, mock servers, and tests that surround them. The Postman API platform provides the ability to version your API artifacts, as well as the collections that power the elements of the API lifecycle, allowing you to apply semantic or date-based versioning to APIs. This versioning is available for producers to use to manage and communicate change, but is also available to consumers via private or public workspaces to understand change as it is happening across the API they depend on. Postman allows for managing change across APIs in a way that can be synced via existing source control and CI/CD solutions, but also automated and leveraged as part of API operations using the Postman API—allowing for change management to be scaled across API operations in a consistent way.
 
-![](https://kinlane-productions2.s3.amazonaws.com/Git-Postman-blog-better-practics-scaled.jpeg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/Git-Postman-blog-better-practics-scaled.jpeg)
 ### Help Increase Your API Quality
 API testing is in Potman’s DNA, with collections and embedded test scripts acting as the essential building block of contract, integration, performance, security, and many other types of API tests. Developers can define very granular level API testing for each API to test individual API responses, as well as stitch together common business workflows into a more complex series of API tests that ensure essential business capabilities are performing as expected. API testing using Postman collections is something every developer can implement within workspaces, and then manually run using Postman runners, scheduled to run from multiple cloud regions using monitors, or baked into the CI/CD pipeline using our open-source collection runner Newman. The existence of tests can be visualized using enterprise reporting, the results of monitors can be piped into existing APM solutions, and test results at scale across APIs can be aggregated via any 3rd party service that possesses an API, helping teams understand quality at scale across operations. Providing very localized testing for API developers that can be woven together into a team-wide, as well as an organization-wide approach to realizing quality across the enterprise.
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: When API Examples Become the Real Thing
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/when-api-examples-become-the-real-thing.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/when-api-examples-become-the-real-thing.png
 tags:
   - Examples
   - Mocks

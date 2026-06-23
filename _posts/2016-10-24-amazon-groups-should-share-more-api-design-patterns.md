@@ -2,7 +2,7 @@
 layout: post
 title: Amazon Groups Should Share More API Design Patterns
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/squirrelbin_arch.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/squirrelbin_arch.png
 atomdate: 2016-10-24T16:00:00.000Z
 tags:
   - Design

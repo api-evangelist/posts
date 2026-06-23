@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'What You Can Expect As A Client From SOAP To gRPC'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/57_64_800_500_0_max_0_-5_-5.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/what-you-can-expect-as-a-client-from-soap-to-grpc.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/57_64_800_500_0_max_0_-5_-5.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>I’m working hard on what I consider to be my definition of a robust API deployment toolbox, and was enjoying the 100K perspective. As I explore, I wanted to share some of my thoughts about by you might expect to receive as a client in each of these scenarios.
 
 <ul>

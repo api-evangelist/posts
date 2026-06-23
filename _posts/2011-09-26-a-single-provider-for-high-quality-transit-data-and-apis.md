@@ -4,7 +4,7 @@ title: A Single Provider for High Quality Transit Data and APIs
 url: >-
   http://apievangelist.com/2011/09/26/a-single-provider-for-high-quality-transit-data-and-apis/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/jeppesen-logo-400.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/jeppesen-logo-400.jpg
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ tags:
   - APIs
   - Quality
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/jeppesen/jeppesen-logo-400.jpg)](http://ww1.jeppesen.com/main/corporate/land/journey-planning/index.jsp)
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/jeppesen/jeppesen-logo-400.jpg)](http://ww1.jeppesen.com/main/corporate/land/journey-planning/index.jsp)
 
 I wrote about the [need for more Transit APIs](/2011/09/11/the-need-for-more-transit-apis/ "need for more transit API") a couple weeks ago, and the opportunity for some company or organization to step up and coordinate transit APIs on a global, country, regional and local level. Also the opporunity for developers to provide local resources for building applications, "acquiring" of local data, understanding local constraints, and be the overall contact for a specific locale.
 
@@ -36,7 +36,7 @@ Jeppesen is aggregating data from transit agencies around the world, including 2
 
 Their pricing is very affordable and is broken down by stop timetable and journey planning requests. Even though the API currently targets the enterprise and businesses, it is low priced enough that individual developers could use to build applications, that they could monetize and build a viable business around.
 
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/jeppesen/Jeppesen-Journey-Planner.png)](http://ww1.jeppesen.com/main/corporate/land/journey-planning/index.jsp)
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/jeppesen/Jeppesen-Journey-Planner.png)](http://ww1.jeppesen.com/main/corporate/land/journey-planning/index.jsp)
 
 Jeppesen has spent the last 18 months developing the transit API, looking to provide high quality data aggregation for developers. The API has just been made available for production and has partners in Australia and the UK building applications on the platform.
 

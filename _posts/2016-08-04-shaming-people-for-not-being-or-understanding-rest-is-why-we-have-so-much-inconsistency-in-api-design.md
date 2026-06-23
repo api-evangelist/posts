@@ -3,7 +3,7 @@ layout: post
 title: >-
   Shaming People For Not Being Or Understanding REST Is Why We Have So Much
   Inconsistency In API Design
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-shaming-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-shaming-api.png
 atomdate: 2016-08-04T21:00:00.000Z
 tags:
   - Design

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Where Does Mastodon Fit In With My Overall API Circus Stack?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/copper-circuit-clowns_35893926114_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-clowns_35893926114_o.jpg
 author:
   name: kinlane
 tags:

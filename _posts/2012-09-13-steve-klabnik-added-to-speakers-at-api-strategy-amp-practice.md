@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Steve Klabnik Added to Speakers at API Strategy &amp; Practice
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/steve-klabnik.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/steve-klabnik.jpeg
 author:
   name: kinlane
 tags:

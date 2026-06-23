@@ -4,8 +4,6 @@ layout: post
 title: 'What Have You Done For Us Lately (API Partner Edition)'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/streamdata/streamdata-api-partners-philosophy.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/streamdata/streamdata-api-partners-philosophy.png" width="45%" align="right" style="padding: 15px;" />
 <p>I’ve been working on developing and evolving the Streamdata.io partner program, trying to move forward conversations with other service providers in the space that have existed long before I started working on things, as well as other newer relationships that I’ve helped bring in. I’m fascinated by how partner programs work, or do not work, and have <a href="http://apievangelist.com/2018/04/09/creating-a-productive-api-industry-partner-program/">invested a lot of time trying to optimize and improve how I do my own operations</a>, and assist my partners and clients in evolving and delivering on their own partner vision.
 
 <p>It is difficult to establish, and continue meaningful and balanced partnerships between technology service and tooling providers. Sometimes providers have enough compatibility and synergy, that they are able to hit the ground running with meaningful activities that strengthen, and build partnership momentum. We are trying to establish a meaningful, yet effective way of measuring partner activity, and understanding the value that is being generated, and where reciprocity exists. Looking at the following activities produced by Streamdata.io and it’s partners:

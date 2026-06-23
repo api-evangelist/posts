@@ -2,7 +2,7 @@
 layout: post
 title: The Demand for API and Developer Evangelists
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-API-Developer-Evangelist.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-API-Developer-Evangelist.png
 author:
   name: kinlane
 tags:

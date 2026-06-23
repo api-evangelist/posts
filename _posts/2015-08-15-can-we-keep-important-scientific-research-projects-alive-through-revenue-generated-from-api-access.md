@@ -4,7 +4,7 @@ title: >-
   Can We Keep Important Scientific Research Projects Alive Through Revenue
   Generated From API Access?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/research-funding-using-apis.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/research-funding-using-apis.png
 author:
   name: kinlane
 tags:

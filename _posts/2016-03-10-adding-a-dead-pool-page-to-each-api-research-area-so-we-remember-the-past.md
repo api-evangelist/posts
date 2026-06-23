@@ -2,7 +2,7 @@
 layout: post
 title: Adding A Dead Pool Page To Each API Research Area So We Remember The Past
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kimono-labs-goodbye.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kimono-labs-goodbye.png
 tags:
   - Research
   - ddi
@@ -13,7 +13,7 @@ When Parse announced they are turning off the lights, and Kimono Labs said they 
 
 To support this effort [I am beginning to add a dead pool page to each of my research areas](http://baas.apievangelist.com/organization-deadpool/), where I will simply re-tag any company or organization that is present in my research, when the shut off the lights--providing a single place where we can see our recent history.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/baas-dead-pool.png)](http://baas.apievangelist.com/organization-deadpool/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/baas-dead-pool.png)](http://baas.apievangelist.com/organization-deadpool/)
 
 I find it valuable to have this recent history, right at my fingertips, when I am trying to understand where each of my research areas are headed. Without the actual companies to reference I am reliant on my own memory, which isn't always the best. In the tech space, I feel like we are good at focusing on the future, and we easily forget the past, even what just happened last month.
 

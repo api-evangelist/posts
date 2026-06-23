@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learning About Machine Learning APIs With My Algorithmic Rotoscope Work
-image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/valleyrivertreeline/clean_view/file-00_01_06_83.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/learning-about-machine-learning-apis-with-my-algorithmic-rotoscope-work.png
 atomdate: 2017-01-03 17:00:00+00:00
 tags:
 - Machine Learning

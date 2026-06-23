@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Storytelling with Mike and Aidan
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-storytelling-with-mike-and-aidan.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-storytelling-with-mike-and-aidan.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Twitter&#039;s Embed Strategy Gets Priority in API Developer Area
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twitter-bird-light.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twitter-bird-light.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ I’m a big supporter of [API providers having a healthy embed strategy](/2011/0
 
 I noticed that Twitter gave it’s embeddable tools feature status in the [Twitter developer area](https://dev.twitter.com/):
 
-[![](https://s3.amazonaws.com/kinlane-productions2/twitter/Twitter-Developers-Embed.png)](https://dev.twitter.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/Twitter-Developers-Embed.png)](https://dev.twitter.com/)
 
 Embeddable tools like Twitter’s [Embedded Timelines](https://dev.twitter.com/docs/embedded-timelines), [Twitter Cards](https://dev.twitter.com/docs/cards), [Embedded Tweets](https://dev.twitter.com/docs/embedded-tweets), [Tweet Button](https://dev.twitter.com/docs/tweet-button) and [Follow Button](https://dev.twitter.com/docs/follow-button) are all great for empowering all your users to take advantage of an API.
 

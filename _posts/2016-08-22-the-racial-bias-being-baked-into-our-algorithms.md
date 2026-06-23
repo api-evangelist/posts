@@ -2,7 +2,7 @@
 layout: post
 title: The Racial Bias Being Baked Into Our Algorithms
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/14053653_10100755560532564_6054061118171116858_o.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/14053653_10100755560532564_6054061118171116858_o.jpg
 atomdate: 2016-08-22T20:00:00.000Z
 tags:
   - Algorithms

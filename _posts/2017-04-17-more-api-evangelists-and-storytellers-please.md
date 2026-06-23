@@ -2,7 +2,7 @@
 layout: post
 title: More API Evangelists And Storytellers Please
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/kin_lane_talks.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin_lane_talks.jpg
 atomdate: 2017-04-17T19:00:00.000Z
 tags:
   - API Evangelist

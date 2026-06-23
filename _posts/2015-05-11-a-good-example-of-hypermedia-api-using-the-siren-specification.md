@@ -2,7 +2,7 @@
 layout: post
 title: A Good Example Of Hypermedia API Using The Siren Specification
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wurl-developer.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/wurl-developer.png
 author:
   name: kinlane
 tags:

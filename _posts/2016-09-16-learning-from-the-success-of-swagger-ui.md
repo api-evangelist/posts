@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learning From The Success Of Swagger UI
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-openapi-spec.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-openapi-spec.png
 atomdate: 2016-09-16T22:00:00.000Z
 tags:
   - Swagger

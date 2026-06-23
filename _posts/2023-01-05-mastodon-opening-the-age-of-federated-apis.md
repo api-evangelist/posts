@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Mastodon Opening the Age of Federated APIs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/aws-s3-square-christianity-under-construction-copper-circuit-square.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/aws-s3-square-christianity-under-construction-copper-circuit-square.jpg
 author:
   name: kinlane
 tags:

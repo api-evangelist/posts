@@ -5,7 +5,7 @@ title: >-
   API First Is Hard To Adopt Because API Deployment Is Still A Manual Step For
   Many
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/sand-hand-sand-hand-internet-numbers.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/sand-hand-sand-hand-internet-numbers.jpg
 author:
   name: kinlane
 tags:

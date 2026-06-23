@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Image Management in the Cloud
-image: http://kinlane-productions2.s3.amazonaws.com/AWS_LOGO_CMYK.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/AWS_LOGO_CMYK.jpg
 author:
   name: kinlane
 tags:

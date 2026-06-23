@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Evolution of API Documentation
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-lane-shif-ahead.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-lane-shif-ahead.jpg
 tags:
   - Documentation
   - Lifecycle

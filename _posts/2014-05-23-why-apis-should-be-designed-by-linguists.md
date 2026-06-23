@@ -2,7 +2,7 @@
 layout: post
 title: Why APIs Should Be Designed By Linguists
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/linguistics/why-apis-should-be-designed-by-linguists.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/linguistics/why-apis-should-be-designed-by-linguists.png
 author:
   name: kinlane
 tags:

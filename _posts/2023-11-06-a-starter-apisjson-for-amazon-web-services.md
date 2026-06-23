@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Starter APIs.json for Amazon Web Services
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-seatlle-shipping-mountain.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-seatlle-shipping-mountain.jpg
 author:
   name: kinlane
 tags:
@@ -25,7 +25,7 @@ description: Amazon Web Services, Inc. is a subsidiary of Amazon that provides o
   a metered, pay-as-you-go basis. Clients will often use this in combination with
   autoscaling.
 
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://aws.amazon.com/
 created: 2023/11/6
 modified: 2023/11/6
@@ -45,7 +45,7 @@ apis:
     S3 is built to store and retrieve any amount of data from anywhere. Customers
     of all sizes and industries can store and protect any amount of data for virtually
     any use case, such as data lakes, cloud-native applications, and mobile applications.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://aws.amazon.com/s3/?nc2=h_ql_prod_st_s3
   baseURL: https://s3.Region.amazonaws.com
   
@@ -67,7 +67,7 @@ apis:
 
 - name: Amazon EC2
   description: This is the description of your API.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://aws.amazon.com/ec2/?nc2=h_ql_prod_fs_ec2
   baseURL: https://ec2.region.amazonaws.com
   

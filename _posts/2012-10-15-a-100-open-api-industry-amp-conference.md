@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A 100% Open API Industry &amp; Conference
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/open.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/open.jpeg
 author:
   name: kinlane
 tags:
@@ -48,7 +48,7 @@ That is 10 out of 60 of the session and keynote speakers bringing open discussio
 
 As you can see there will be plenty of "open" discussions at API Strategy & Practice--I’m sure I could extract more if I had time. I would love to be able to have a perfectly open API industry and perfectly open API event, where everyone agreed on what open was, widely used open standards and came together to truly make the industry the best it can be. But it doesn’t exist. We have to create it incrementally.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/api-strategy-home-1.png)](http://www.apistrategyconference.com/index.php)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/api-strategy-home-1.png)](http://www.apistrategyconference.com/index.php)
 
 API Strategy & Practice took corporate sponsorship to make sure everyone has an event to come to. Then we got to work bringing together the best minds (yes some corporate running closed APIs), to work together and discuss all the issues across a multitude of industries. 
 

@@ -11,7 +11,7 @@ tags:
   - Governance
   - Repositories
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-gears-pipes-plumbing.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-gears-pipes-plumbing.jpg
 ---
 After learning more about [GitHub repository properties, policies, and rules](https://github.blog/changelog/2024-12-04-enterprise-repository-properties-policies-and-rulesets-public-preview/), the overlap of the operational push of API governance occurring with [APIs.json](https://apisjson.org) becomes more tangible. In coming years, it will become much more urgent for enterprises to expand API governance beyond the surface area of individual APIs, and we should be following the lead of other governance and policy work like [OpenAPI Policy Agent (OPA)](https://www.openpolicyagent.org/) and of GitHub's to better inform how we should be structuring our own policy investments.
 

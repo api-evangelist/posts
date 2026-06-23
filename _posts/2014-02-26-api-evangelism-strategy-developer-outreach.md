@@ -2,7 +2,7 @@
 layout: post
 title: 'API Evangelism Strategy: Developer Outreach'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-conversation-bubbles.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-conversation-bubbles.png
 author:
   name: kinlane
 tags:

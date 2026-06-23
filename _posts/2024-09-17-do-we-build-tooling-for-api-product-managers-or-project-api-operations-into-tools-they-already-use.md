@@ -11,7 +11,7 @@ tags:
   - Services
   - Tooling
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-old-tools.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-old-tools.jpeg
 ---
 I keep [coming across discussions around how we get more API product managers involved in the API lifecycle](https://www.linkedin.com/posts/francoislasne_oas-tooling-oas-tooling-are-activity-7239668047412695042-TJ1e), and one thing that keeps coming up involves the creation of tooling that is accessible to these business stakeholders. I agree, I’d been investing a lot in getting product managers to work with YAML and GitHub, and keep asking what other tools they use, but the conversation always seems to go back to building something new to make APIs accessible to stakeholders, but I am always skeptical when we speak of new technical solutions rather than using the ones we already have.
 

@@ -5,7 +5,7 @@ title: Properly Defining Your API Platform
 tags:
   - Platform
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-seatlle-shipping-mountain.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-seatlle-shipping-mountain.jpg
 ---
 There is a lot of talk today about platforms. A topic that has evolved over the years, beginning with waves of startup technology platforms, and now followed by everyone thinking they are a platform. There is a lot of focus within enterprise organizations right now to centralize a platform, with a significant portion of that work focused on what many consider the API platform. While my definition of an API platform might not exactly match the definition popularized in this moment, there is a lot of overlap. Like most of my work, I am focused on the fundamentals of an API platform, and understanding what is essential to HTTP API operations, and working real hard to get a handle on the basics, ensure teams are aligned, and this is something that begins with an API contract dedicated to defining your API platform.
 

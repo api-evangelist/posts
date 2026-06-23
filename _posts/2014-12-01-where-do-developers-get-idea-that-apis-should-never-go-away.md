@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Where Do Developers Get Idea That APIs Should Never Go Away?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-angry-mob.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-angry-mob.jpg
 author:
   name: kinlane
 tags:

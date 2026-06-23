@@ -2,7 +2,7 @@
 layout: post
 title: Be a Feature in Other Platforms with an API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-Platforms.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-Platforms.png
 author:
   name: kinlane
 tags:

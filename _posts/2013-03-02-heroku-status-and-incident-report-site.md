@@ -2,7 +2,7 @@
 layout: post
 title: Heroku Status and Incident Report Site
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/heroku-status-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/heroku-status-2.png
 author:
   name: kinlane
 tags:
@@ -12,4 +12,4 @@ tags:
 
 I really like the [Heroku status and incident report site](https://status.heroku.com/). The site elegantly displays the last 30 days of status for the Heroku platform--complete with real-time notifications via email, SMS, Twitter, RSS and API.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/heroku/heroku-status-2.png)](https://status.heroku.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/heroku/heroku-status-2.png)](https://status.heroku.com/)

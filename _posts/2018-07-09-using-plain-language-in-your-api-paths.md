@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Using Plain Language In Your API Paths'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/power_colorful_blocks.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/using-plain-language-in-your-api-paths.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/power_colorful_blocks.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>It is tough to help developers think outside of the world they operate within. Most software is still developed and managed within silos, knowing it’s inner workings will never be seen by anyone outside of the team. This mode of operation is a rich environment for poor code quality, and teams with port communication. This is one of the reasons I’ve embraced web APIs, after running software development teams since the 1990s, I’ve been put in charge of some pretty dysfunctional teams, and some pretty unwieldy legacy codebases, so once I started working out in the open using web APIs, I did’t want to go back. Web APIs aren’t the cure for all of our technology problems, but it does begin to let some sunlight in on some messed up ways of doing things.
 
 <p>One common illness I still see trickling out of API operations are developers not using plain language. Speaking in acronyms, code, and other cryptic ways of articulating the resources they are exposing. I came across a set of API resources for managing a DEG the other day. You could  add, updated, delete and get DEGs. You can also pull analytics, history, and other elements of a DEG. I spent about 10-15 minutes looking around their developer portal, documentation, and even Googling, but never could figure out what a DEG was. Nowhere in their documentation did they ever tell consumers what a DEG was, you just had to be in the know I guess. The API designer (if that occurred) and developer had never stopped to consider that maybe someone would stumble across their very public API and not know what a DEG was. Demonstrating how us developers have trouble thinking outside our silos, and thinking about what others will need.

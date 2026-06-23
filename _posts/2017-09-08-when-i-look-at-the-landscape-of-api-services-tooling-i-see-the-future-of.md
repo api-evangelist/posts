@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'When I Look At The Landscape Of API Services & Tooling I See The Future Of'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/servers-hallway-door.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/when-i-look-at-the-landscape-of-api-services-tooling-i-see-the-future-of.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/servers-hallway-door.jpg" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p>There are a number of API service and tooling providers that I still get excited about in the space. 3Scale, Restlet, Runscope, and Tyk - to begin with my sponsors! ;-) ;-) ;-) However, there are others like Postman, APIMATIC, Materia, OAuth.io, Stoplight, Apicurio, API Platform, API Umbrella, Github, API Science, and others that keep me thinking good thoughts about the things that API service providers are doing. However, I also see a lot of services and tooling that are simply playing the startup game, and have more to do with investment, then they do about APIs.
 
 <p>It is these services and tools I see as the next generation of technical debt. When you bundle the vendors who are usually chasing trends as part of their investment and exit strategy, and really don’t care about truly helping you solve your technical, and business challenges, with your existing problems, you are just multiplying your problems. These types of customers only want you as an active customer, preferably locked into a contract, with their services and tools baked into your operations. You know what all of this leads to? Technical debt. When you buy into the vendor stories, and jump on trends, without thinking through the consequences of your actions, and the long term effects on your road map, you end up with a significant amount of technical debt down the road.

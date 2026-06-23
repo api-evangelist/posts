@@ -4,8 +4,6 @@ layout: post
 title: 'Patent US 8997069: API Descriptions'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-definition.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-definition.png" align="right" width="25%" style="padding: 15px;" />
 <p>There are so many API patents out there, I’m going to have to start posting one a day just to keep up. Lucky for you I begin to get really depressed by all the API patents I lose interest in reading them and begin to work harder looking for positive examples of API in the world, but until then here is today’s depressing as fuck API patent.
 
 <p>Title: <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&amp;Sect2=HITOFF&amp;p=1&amp;u=/netahtml/PTO/search-bool.html&amp;r=1&amp;f=G&amp;l=50&amp;d=PALL&amp;RefSrch=yes&amp;Query=PN/8997069">API descriptions</a>

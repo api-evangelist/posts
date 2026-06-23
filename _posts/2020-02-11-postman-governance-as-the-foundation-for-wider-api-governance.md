@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Postman Governance as the Foundation for Wider API Governance
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-supreme-court_36341562380_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-supreme-court_36341562380_o.jpg
 author:
   name: kinlane
 tags:
@@ -50,7 +50,7 @@ Currently there is no API for managing teams, but the Postman web account provid
 
 Defining a centralized team helps establish visibility into what users are doing, and what they have access to. Providing the foundation for how Postman, and wider API governance can be realized across operations. Connecting the dots between all the individual Postman users, applying roles and access control, and allowing for additional Postman runtime features to be used in concert, instead of in isolation. 
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-supreme-court-columns.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/stalin-time-supreme-court-columns.jpg)
 
 ### Postman Workspaces
 
@@ -145,7 +145,7 @@ The value of governing environments manually or automatically via the API is onl
 *   **Backup Environments** - Backup environments to external locations and workspaces.
 *   **Sync Environments** \- Sync environments to external locations and workspaces.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-statue-supreme-court.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/stalin-time-statue-supreme-court.jpg)
 
 The proper usage of environments along with a healthy amount of manual and automated governance represents one of the greatest opportunities for helping secure and stabilize API operations. Isolating how secrets, PII, and other essential data is stored and applied across API operations. Which when combined with effective governance of collections, workspaces, and teams, makes for a pretty effective approach to not just defining how Postman gets used, but how APIs are used across an organization.
 

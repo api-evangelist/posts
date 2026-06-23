@@ -2,7 +2,7 @@
 layout: post
 title: The Next Generation of API Programming Using Temboo and Webshell
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/temboo-webshell.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/temboo-webshell.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
 ---
 I’m exploring the [future of web APIs](http://apievangelist.com/2012/07/27/what-is-the-future-of-web-apis/ "future of web APIs"), and have come to what I feel is what of the most fascinating areas of evolution in the usage of web APIs.  An approach that is very developer centric, which is something you don't always see in the current API service landscape.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/temboo/Temboo-Logo.png)](https://www.temboo.com "Temboo")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/temboo/Temboo-Logo.png)](https://www.temboo.com "Temboo")
 
 There are two companies working hard on developing new libraries for popular programming languages that abstract away much of the authentication and other complexities developers face when using APIs.
 
@@ -19,7 +19,7 @@ There are two companies working hard on developing new libraries for popular pro
 
 This isn’t just programming directly against a single API. These are libraries that allow you to make calls against APIs using sometimes as little as 2 or 3 lines of code, opening new possibilities of efficiently programming against not just one API, but fluently across multiple APIs.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/webshell/webshell-logo.jpg)](http://webshell.io/ "Webshell")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/webshell/webshell-logo.jpg)](http://webshell.io/ "Webshell")
 
 In addition to simplifying calls made against APIs, both platforms work to abstract away the complexities of API authentication, one of the biggest pain points for developers.
 

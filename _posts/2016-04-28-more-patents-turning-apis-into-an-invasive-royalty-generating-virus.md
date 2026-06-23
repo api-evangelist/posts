@@ -1,7 +1,7 @@
 ---
 layout: post
 title: More Patents Turning APIs Into An Invasive, Royalty Generating Virus
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-fever.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-fever.png
 tags:
   - Patents
   - APIs

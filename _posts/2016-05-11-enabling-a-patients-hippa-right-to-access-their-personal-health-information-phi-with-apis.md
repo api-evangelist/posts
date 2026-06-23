@@ -4,7 +4,7 @@ title: >-
   Enabling A Patients HIPPA Right To Access Their Personal Health Information
   (PHI) With APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/DDOD-agency-icon-blog-feature-image-640x380-2016-01-22-2.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/DDOD-agency-icon-blog-feature-image-640x380-2016-01-22-2.jpg
 tags:
   - Access
   - APIs

@@ -2,7 +2,7 @@
 layout: post
 title: Are Device Based APIs Where It Is At?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-devices.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-devices.png
 author:
   name: kinlane
 tags:

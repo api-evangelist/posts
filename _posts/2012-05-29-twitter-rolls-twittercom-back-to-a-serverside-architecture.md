@@ -2,7 +2,7 @@
 layout: post
 title: Twitter Rolls Twitter.com Back to a Server-Side Architecture
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Twitter-Home.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Twitter-Home.png
 author:
   name: kinlane
 tags:

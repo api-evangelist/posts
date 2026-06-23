@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How To Generate An API Surface Area Map For A Microservice?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-map-grid.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-map-grid.png
 author:
   name: kinlane
 tags:

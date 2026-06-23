@@ -3,7 +3,7 @@ layout: post
 title: >-
   What Is More Important? Helping New Users Be Aware Of APIs Or Pushing Concept
   Forward?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-forward.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-forward.png
 atomdate: 2016-10-20T20:00:00.000Z
 tags:
   - APIs

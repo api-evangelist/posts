@@ -2,7 +2,7 @@
 layout: post
 title: Series - 3D Printers - Printers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/3D-Printing/3d-printing-printers.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/3D-Printing/3d-printing-printers.jpg
 author:
   name: kinlane
 tags:

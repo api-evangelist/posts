@@ -4,8 +4,6 @@ layout: post
 title: 'An OpenAPI-Driven, API Governance Rules Engine'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/rules/9968073905_95ce575233_z.jpg
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/rules/9968073905_95ce575233_z.jpg" align="right" width="45%" style="padding: 15px;" />
 <p>Phil Sturgeon (<a href="https://twitter.com/philsturgeon">@philsturgeon</a>) alerted me to a pretty cool project he is cooking up, called <a href="https://github.com/wework/speccy">Speccy</a>. Which provides a rules engine for validating your OpenAPI definitions. “Taking off from where <a href="https://twitter.com/PermittedSoc/">Mike Ralphson</a> started with linting in <a href="https://github.com/Mermade/swagger2openapi/">swagger2openapi</a>, Speccy aims to become the <a href="https://github.com/bbatsov/rubocop">rubocop</a> or <a href="https://eslint.org/">eslint</a> of OpenAPI”, and to “sniff your files for potentially bad things. “Bad” is objective, but you’ll see validation errors, along with special rules for making your APIs better.” Helping make sure your API definitions are as consistent as they possibly can be, and deliver on your API governance strategy (you have one right?)
 
 <p>With Speccy, there are a default set of rules, things like ensuring you have a summary or a description for each API path:

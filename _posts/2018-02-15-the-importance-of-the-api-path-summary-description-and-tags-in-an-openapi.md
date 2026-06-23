@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'The Importance of the API Path Summary, Description, and Tags in an OpenAPI'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/15_190_800_500_0_max_0_1_-5.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-importance-of-the-api-path-summary-description-and-tags-in-an-openapi.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/15_190_800_500_0_max_0_1_-5.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>I am creating a lot of OpenAPI definitions right now. <a href="http://apis.how/streamdata.io">Streamdata.io</a> is investing in me pushing forward my <a href="http://theapistack.com">API Stack</a> work, where I profile API using OpenAPI, and index their operations using APIs.json. From the resulting indexes, we are building out the <a href="https://streamdata.io/developers/api-gallery/">Streamdata.io API Gallery</a>, which shows the possibilities of providing streaming APIs on top of existing web APIs available across the landscape. The OpenAPI definitions I’m creating aren’t 100% complete, but they are “good enough” for what we are needing to do with them, and are allowing me to catalog a variety of interesting APIs, and automate the proxying of them using Streamdata.io.
 
 <p>I’m finding the most important part of doing this work is making sure there is a rich summary, description, and set of tags for each API. While the actual path, parameters, and security definitions are crucial to programmatically executing the API, the summary, description, and tags are essential so that I can understand what the API does, and make it discoverable. As I list out different areas of my API Stack research, like <a href="http://market.data.apievangelist.com/">the financial market data APIs</a>, it is critical that I have a title, and description for each provider, but the summary, description, and tags are what provides the heart of the index for what is possible with each API.

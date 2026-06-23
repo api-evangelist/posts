@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="Framing the COVID-19 Testing Location Problem">
-    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_data_api_blueprint_multiple_google_sheets.jpg">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_data_api_blueprint_multiple_google_sheets.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -40,7 +40,7 @@
     <meta name="twitter:title" content="Crowdsourcing COVID-19 Testing Location Data">
     
     <meta name="twitter:description" content="Framing the COVID-19 Testing Location Problem">
-    <meta name="twitter:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_data_api_blueprint_multiple_google_sheets.jpg">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_data_api_blueprint_multiple_google_sheets.jpg">
 
     <!-- JSON-LD Structured Data -->
     
@@ -50,7 +50,7 @@
       "@type": "Article",
       "headline": "Crowdsourcing COVID-19 Testing Location Data",
       "description": "Framing the COVID-19 Testing Location Problem",
-      "image": "http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_data_api_blueprint_multiple_google_sheets.jpg",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_data_api_blueprint_multiple_google_sheets.jpg",
       "datePublished": "2020-04-03T00:00:00-04:00",
       "dateModified": "2020-04-03T00:00:00-04:00",
       "author": {
@@ -63,7 +63,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -361,7 +361,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -391,7 +391,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -725,7 +725,7 @@
       </div>
 
       
-      <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_data_api_blueprint_multiple_google_sheets.jpg" alt="Crowdsourcing COVID-19 Testing Location Data" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_data_api_blueprint_multiple_google_sheets.jpg" alt="Crowdsourcing COVID-19 Testing Location Data" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -750,7 +750,7 @@
 
 <p>To mange the crowdsourcing of COVID-19 testing location data I looked to Google Sheets, which is the quickest free way to stand up a data store that most individual will know how to work with. To lay the foundation for managing the COVID-19 testing location data I opted to setup 50 separate sheets, which was pretty easy to do using a simple script that uses the Google Drive and Sheets API. I opted for 50 separate sheets to help isolate users working on different states into different buckets, sharding out the potentially large amount of data, management, and user access using Google accounts. Something that allows me to quickly use the Google sharing and publishing features to manage a group of evolving individuals who are helping crowdsource the COVID-19 testing location data across all 50 states, and maybe wider.</p>
 
-<p><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_sheets_covid_testing_locations.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_sheets_covid_testing_locations.png" alt="" /></p>
 
 <h3 id="managing-covid-19-testing-location-data-syndication-using-postman">Managing COVID-19 Testing Location Data Syndication Using Postman</h3>
 
@@ -766,13 +766,13 @@
 
 <p><a href="https://covid-19-apis.postman.com/covid-19-testing-locations/">You can view the documentation for my COVID-19 testing location data management collection</a>, and use the Run in Postman button to import into your own Postman client. The code isn’t the most beautiful or well documented, but it gets the job done and accomplishes what I am looking to do. The Postman collection comes with a starter environment which I have duplicated to create 50 separate environments for each state, providing me with my local data store for pulling COVID-19 testing location data and refactoring for then making available through API syndication. I have already improved upon this model for another crowdsourcing model I am building, but the collection provides an interesting look at how to work with data in Google sheets, but also how to leverage Postman to pull, aggregate, and transform data, but also auto-generate Postman collections for pulling the data.</p>
 
-<p><a href="https://documenter.postman.com/view/8854915/SzS7P5VZ?version=latest"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/covid_19_testing_locations_management.png" alt="" /></a></p>
+<p><a href="https://documenter.postman.com/view/8854915/SzS7P5VZ?version=latest"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/covid_19_testing_locations_management.png" alt="" /></a></p>
 
 <h3 id="publishing-covid-19-testing-location-to-github-for-wider-access">Publishing COVID-19 Testing Location to GitHub for Wider Access</h3>
 
 <p>While Postman can work a lot of magic, it doesn’t have a scalable way to publish an API. Earlier on I had includedf a request where I would automatically publish a mock API using the collection, but I quickly realized I would need a better way of quickly publishing JSON and CSV data that would be receiving a significant amount of traffic. For me, the quickest, cheapest, and APIi-driven way to publish JSON and CSV data for high volume access by other applications is GitHub. So I added a set of requests to the collection for publishing individual JSON and CSV files for the COVID-19 testing location data to GitHub, as well as a single complete JSON endpoint that rolls it all up into a single JSON file for each state. It is important to keep the data as flat as possible so that consumers can work with in spreadsheets, this is why I publish as CSV. But then it is also important to publish as JSON, which allows for more complex data structures, going beyond what spreadsheets can handle. </p>
 
-<p><a href="https://github.com/covid-19-testing/locations"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/covid_19_github.png" alt="" /></a></p>
+<p><a href="https://github.com/covid-19-testing/locations"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/covid_19_github.png" alt="" /></a></p>
 
 <p>GItHub is designed for quickly making public data available in a machine readable format. I use the GitHub API to publish the data to GitHub, and consumers can make calls to the variety of JSON and CSV files publicly via GitHub using the URL. I also added a request to the COVID-19 testing location collection above for automatically generating another collection for accessing and consuming the 50 individual JSON files published to GitHub. Making for <a href="https://documenter.postman.com/view/8854915/SzS7PR3t?version=latest">a single set of documentation and Run in Postman button for viewing, processing, and syndicating of COVID-19 testing location data</a> across other systems and applications. Adding another dimension for how Postman can be used, publishing two separate collections, 1) for managing the COVID-19 testing location data, and 2) for accessing the resulting data aggregated from Google Sheets, converted to a more usable <a href="http://docs.openreferral.org/en/latest/">Open Referral specification</a>, and then publishing to Github so that the APIs can handle a large volume of calls, while being updated on a regular basis.</p>
 
@@ -780,17 +780,17 @@
 
 <p>With a Postman collection for managing the crowdsourced COVID-19 testing location data, and separate Postman environments for each of the 50 US states, I am able to schedule the pulling, refactoring, and publishing of testing location data across all 50 states using Postman monitors. To automate this process I schedule separate Postman monitors for each of the 50 states, applying the collection above to a specific states environment, resulting in the same process being executed for all 50 US states. Leveraging the Postman platform as the engine for making COVID-19 testing location data more accessible using a low-cost crowdsourced way to solve this problem.</p>
 
-<p><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_monitoring_covid_test.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_monitoring_covid_test.png" alt="" /></p>
 
 <h3 id="browsing-covid-19-testing-locations-and-accessing-via-api">Browsing COVID-19 Testing Locations and Accessing via API</h3>
 
 <p>You can <a href="https://covid-19-apis.postman.com/covid-19-testing-locations/">browse the COVID-19 testing locations using the microsite setup by Postman</a>, and you can access <a href="https://documenter.postman.com/view/8854915/SzS7PR3t?version=latest">the COVID-19 testing location API using the documentation and Run in Postman button</a>. If you want to help work on adding COVID-19 testing locations for any of the states—there is an email to hit, and we’ll plug you in. If you want to build something on top of the API, you can grab any of the URLs from the Postman collection for accessing the COVID-19 testing location API published as part of this work.</p>
 
-<p><a href="https://covid-19-apis.postman.com/covid-19-testing-locations/"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_covid_19_testing_locations.png" alt="" /></a></p>
+<p><a href="https://covid-19-apis.postman.com/covid-19-testing-locations/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_covid_19_testing_locations.png" alt="" /></a></p>
 
 <p>If you want to learn more about the overall model I am using for crowdsourcing this data, feel free to ping us as well. I am still honing the overall approach. As I said earlier, I have an improved version of this data management collection driving a separate project, which I will talk about in a future post. Postman is also looking for other interesting projects involving public data, APIs, and the COVID-19 fight. I’ll end this post with an overview diagram of this process, which I hope can provide an open blueprint that could easily be replicated to serve other project that also use multiple Google Sheets as the data store.</p>
 
-<p><a href="https://covid-19-apis.postman.com/covid-19-testing-locations/how-it-works/"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_data_api_blueprint_multiple_google_sheets.jpg" alt="" /></a></p>
+<p><a href="https://covid-19-apis.postman.com/covid-19-testing-locations/how-it-works/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_data_api_blueprint_multiple_google_sheets.jpg" alt="" /></a></p>
 
       </div>
 

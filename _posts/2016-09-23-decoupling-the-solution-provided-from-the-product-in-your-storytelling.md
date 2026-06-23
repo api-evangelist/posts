@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Decoupling The Solution Provided From The Product In Your Storytelling
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-storytelling.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-storytelling.png
 atomdate: 2016-09-23T16:00:00.000Z
 tags:
   - Storytelling

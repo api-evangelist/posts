@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Allowing Your API Portal To Meet Consumers Where They Are
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-sin-will-find-you.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-sin-will-find-you.jpeg
 author:
   name: kinlane
 tags:

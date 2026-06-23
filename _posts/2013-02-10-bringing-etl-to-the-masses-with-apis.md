@@ -2,7 +2,7 @@
 layout: post
 title: Bringing ETL to the Masses with APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-API-Automation.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-API-Automation.png
 author:
   name: kinlane
 tags:
@@ -16,51 +16,51 @@ Mike Reich of Seabourne, and I were discussing this last time I was in Washingto
 
 To better help me better understand the space, I’m watching 12 service providers that I’m putting in a bucket of what I consider the next generation of ETL providers:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/cloudwork-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/cloudwork-logo.png)
 
 [**Cloudwork**](http://cloudwork.com/ "Cloudwork") - Cloudwork is a service that allows users to automate tasks between Google Apps, Salesforce, Evernote, Zoho, Twitter, Freshbooks, MailChimp, Zendesk, Dropbox, WordPress and others.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/elasticio_logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/elasticio_logo.png)
 
 [**Elastic.io**](http://elastic.io/ "Elastic.io") - elastic.io helps you to automate routine operations and connect multiple cloud APIs.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/foxweave-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/foxweave-logo.png)
 
 [**Foxweave**](http://www.foxweave.com/ "Foxweave") - FoxWeave is a Cloud-Based Data Integration Platform that lets you easily migrate and synchronize data across all your Cloud and On-Premise applications and databases, without having to write any code.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/IFTTT-logo.jpeg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/IFTTT-logo.jpeg)
 
 [**If This Then That (IFTTT)**](https://ifttt.com/ "If This Then That (IFTTT)") - IFTTT is a service that enables customers to connect channels (i.e. Facebook, Evernote, Weather, Dropbox, etc.) with personally created or publicly shared Recipes.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/itduzzit-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/itduzzit-logo.png)
 
 [**itDuzzit**](http://cloud.itduzzit.com/ "itDuzzit") - itDuzzit is a cloud integration platform like no other; simple enough for non-technical users, yet powerful enough to support the most complex integration.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/mashablelogic-logo.jpeg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/mashablelogic-logo.jpeg)
 
 [**MashableLogic**](http://www.mashablelogic.com/ "MashableLogic") - MashableLogic is a mashup development platform that provides a system for leveraging API's by turning them into re-usable components that can be combined to compose software solutions.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/rules-io-logo.jpeg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/rules-io-logo.jpeg)
 
 [**Rules.io**](https://www.rules.io/ "Rules.io") - Overwhelmed with too much data and too many metrics?  The rules.io team drills into your data with you, giving you a concrete idea of which users you should talk to and how to engage them.At the core of rules.io is a rules and segmentation engine which captures user-centric data such as usage and behavior, purchases, and technical problems, and allows you to act on this information in real-time or via triggered automation.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/snaplogic-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/snaplogic-logo.png)
 
 [**SnapLogic**](http://www.snaplogic.com/ "SnapLogic") - SnapLogic's modern web architecture, "containerized" Snaps, and thriving SnapStore ecosystem make it the only practical way to continually connect your company to the burgeoning number and diversity of data sources and cloud applications. 
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/sortmybox-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/sortmybox-logo.png)
 
 [**SortMyBox**](http://www.sortmybox.com/ "SortMyBox") - Like e-mail filters, for your files in the cloud. SortMyBox is a magic folder that moves files to folders based on your rules.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/wappwolf-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/wappwolf-logo.png)
 
 [**Wappwolf**](http://wappwolf.com/dropboxautomator/ "Wappwolf") - Wappwolf is focused on deconstructing the barriers of the Cloud, by connecting your Evernote, Facebook, Flickr, and other web services / apps to Dropbox, allowing users to drag & drop files into a predefined folder on Dropbox and automatically convert and sync to your favorite places.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/yahoo-pipes-logo.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/yahoo-pipes-logo.jpg)
 
 [**Yahoo Pipes**](http://pipes.yahoo.com/pipes/ "Yahoo Pipes") - Pipes is a composition tool to aggregate, manipulate, and mashup content from around the web. Like Unix pipes, simple commands can be combined together to create output that meets your needs.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/zapier-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/zapier-logo.png)
 
 [**Zapier**](https://zapier.com "Zapier") - Zapier lets SaaS users create integrations that push data between hundreds of best-in-breed web applications without having to write any code or wrangle APIs.
 
@@ -72,19 +72,19 @@ I think the new players like Zapier and IFTTT have to be concerned with getting 
 
 I think there is an opportunity to quickly build the next generation ETL solutions that solve a set of automation, integration and interoperability problems for a niche audience using the simple icon based format we are seeing from providers like IFTT and [Elastic.io](http://elastic.io/ "Elastic.io"). If you are considering building one of these new solutions, make sure and evaluate existing open source ETL solutions like:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/automateit-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/automateit-logo.png)
 
 [**AutomateIt**](http://automateit.org/ "AutomateIt") - AutomateIt is an open source tool for automating the setup and maintenance of servers, applications and their dependencies, providing a way to manage files, packages, services, networks, accounts, roles, templates and more. 
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/cloveretl-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/cloveretl-logo.png)
 
 [**CloverETL**](http://www.cloveretl.com/ "CloverETL") - CloverETL is open source data integration platform based on Java. It can be used for data migration, data cleansing and other data transformation tasks.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/pentaho-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/pentaho-logo.png)
 
 [**Pentaho - Kettle**](http://kettle.pentaho.com/ "Pentaho - Kettle") - Delivers powerful Extraction, Transformation and Loading (ETL) capabilities using an innovative, metadata-driven approach. With an intuitive, graphical, drag and drop design environment, and a proven, scalable, standards-based architecture, Pentaho Data Integration is increasingly the choice for organizations over traditional, proprietary ETL or data integration tools.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/talend-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/talend-logo.png)
 
 [**Talend**](http://www.talend.com/ "Talend") - Talend offers open source middleware solutions that address big data integration, data management and application integration needs for businesses of all sizes.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Drones And Other Devices Having Their Own Software Defined Networks
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-drone-signal.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-drone-signal.png
 atomdate: 2016-10-13T20:00:00.000Z
 tags:
   - Devices

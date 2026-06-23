@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Selling Your AWS API Gateway Driven API Through The AWS Marketplace'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/cargo-ship-on-sea_diego_rivera1.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/selling-your-aws-api-gateway-driven-api-through-the-aws-marketplace.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/cargo-ship-on-sea_diego_rivera1.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>I am getting intimate with AWS API Gateway. Learning about what it does, and what it doesn’t do. The gateway brings a number of essential API management elements to the table, like issuing keys, establishing plans, and enforcing rate limits. However, it also lacks many of the other active elements of API management like billing for usage, which is an important aspect of managing API consumption for API providers. With AWS, things tend to work like legos, meaning many of their services work together to deliver a larger picture, and I’ve been learning more about how AWS API Gateway works with the AWS Marketplace to deliver some of the business of API features I’m looking for.
 
 <p><a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/sell-api-as-saas-on-aws-marketplace.html">Here is the blurb from the AWS API Gateway documentation regarding how you can setup AWS API Gateway to work with AWS Marketplace</a>, making your API available for sale as a SaaS service:

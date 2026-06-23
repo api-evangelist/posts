@@ -3,7 +3,7 @@ layout: post
 title: >-
   Explaining APIs To Senior Leadership: Access To Company Resources Without The
   IT Hassle
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-key.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-key.png
 author:
   name: kinlane
 tags:

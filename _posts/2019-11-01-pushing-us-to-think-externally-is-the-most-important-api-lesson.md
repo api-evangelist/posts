@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Pushing Us To Think Externally Is The Most Important API Lesson
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-window-mountain-dark-dali.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-window-mountain-dark-dali.jpg
 author:
   name: kinlane
 tags:

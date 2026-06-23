@@ -8,7 +8,7 @@ tags:
   - Meetups
   - API Events
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/paris-api-meetup/DqJd3bkJ.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/paris-api-meetup/DqJd3bkJ.jpeg
 ---
 <p><a href="https://www.meetup.com/ParisAPI/events/255614957/"></a></p>I am in Europe for most of October, and while I am in Paris we thought it would be a good idea to pull together a last minute API Meetup. Romain Simiand ([@RomainSimiand](https://twitter.com/RomainSimiand)), the API Evangelist at [PeopleDoc](https://www.people-doc.com/) was gracious enough to help pull things together, and the [Streamdata.io](http://streamdata.io) team is stepping up to help with food and drink. Pulling together a last minute gathering at PeopleDoc in Paris, and bringing me on stage to talk about the technology, business, and politics of APIs, well as about some of my recent work on API discovery, and event-driven architecture.
 

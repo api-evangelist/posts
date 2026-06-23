@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Automatically Generate OpenAPI For Your APIs Just By Using Them
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/optic_openapi_generation_diff.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/optic_openapi_generation_diff.png
 author:
   name: kinlane
 tags:

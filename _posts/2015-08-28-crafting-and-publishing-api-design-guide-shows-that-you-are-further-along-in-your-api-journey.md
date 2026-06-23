@@ -4,7 +4,7 @@ title: >-
   Crafting and Publishing API Design Guide Shows That You Are Further Along In
   Your API Journey
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-api-evangelist-microsoft.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-api-evangelist-microsoft.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ A group of about 20 of us, spent the entire day walk through the high levels of 
 
 I did not feel like I had a lot to contribute to the process. They have some really good API designers, and there was plenty of high quality API design talent in the room, to provide the feedback they wanted. When Microsoft is ready for more of the management, evangelism, and other areas more in the business and politics of APIs, I will have much more to bring to the table. I did however, provide some insight that I think could help the overall process, and will continue to provide feedback--which is why I'm gathering my thoughts in this series of posts.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-design-guide.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-design-guide.png)
 
 Prior to me participating in the OneAPI Technical Advisory Group, [I had just published the API design guides for Cisco and Paypal, as part of my API design research](http://design.apievangelist.com/tools.html). Bringing the number of API design guides to 9, which is a good sign the space is getting more serious about standardizing how we do API design. For me, there are two important things going on here:
 

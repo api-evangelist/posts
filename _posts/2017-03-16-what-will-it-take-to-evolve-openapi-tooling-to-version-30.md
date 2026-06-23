@@ -2,7 +2,7 @@
 layout: post
 title: What Will It Take To Evolve OpenAPI Tooling to Version 3.0
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_spec_structural_improvements.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_spec_structural_improvements.png
 atomdate: 2017-03-16T22:00:00.000Z
 tags:
   - OpenAPI

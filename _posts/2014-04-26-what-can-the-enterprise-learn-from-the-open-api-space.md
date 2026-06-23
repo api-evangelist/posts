@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Can The Enterprise Learn From The Open API Space?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-enterprise.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-enterprise.png
 author:
   name: kinlane
 tags:

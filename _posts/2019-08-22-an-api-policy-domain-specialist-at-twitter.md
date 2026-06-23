@@ -11,7 +11,7 @@ tags:
   - Privacy Policy
   - Service Level Agreement
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/white-house-lawn-white-house-window-propaganda-leaflets.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/white-house-lawn-white-house-window-propaganda-leaflets.jpg
 author:
   name: kinlane
 ---

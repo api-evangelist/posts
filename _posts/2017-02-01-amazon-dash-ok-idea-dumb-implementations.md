@@ -2,7 +2,7 @@
 layout: post
 title: 'Amazon Dash: Ok Idea. Dumb Implementations'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/1027205_health_and_personal_care_project_snake_always_accessible_v2_1920x1080.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/1027205_health_and_personal_care_project_snake_always_accessible_v2_1920x1080.png
 atomdate: 2017-02-01T23:00:00.000Z
 tags:
   - Amazon

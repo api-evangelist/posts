@@ -2,7 +2,7 @@
 layout: post
 title: Regulatory API Monitoring For Validating Algorithmic Assertions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-check-black-round.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-check-black-round.png
 atomdate: 2016-10-08T00:00:00.000Z
 tags:
   - Monitoring

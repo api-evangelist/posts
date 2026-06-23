@@ -4,8 +4,6 @@ layout: post
 title: '68 Stops In A Comprehensive API Strategy Transit Map'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/transit/calcagno-2017-01-01.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/transit/calcagno-2017-01-01.png" align="right" width="45%" style="padding: 15px;" />
 <p>I am refining my comprehensive list of stops that I highlight as part of the API lifecycle, or what I call <a href="https://apievangelist.com/2017/08/17/testing-out-the-concept-of-api-transit-instead-of-api-lifecycle/">API Transit</a>–the stops that each of the services we deliver will have “pass through” at some point. I’m sharing this list with other team members as part of existing consulting arrangements I’m engaged in with Streamdata.io, as well as baking into my API transit work for some workshops I’m doing in April. All of these are available on <a href="http://apievangelist.com/api-lifecycle/">the API lifecycle section of API Evangelist</a>, but I will be pushing them to become a first class citizen on the home page of API Evangelist once again.
 
 <p>Here are 68 potential stops I’d consider for any microservice to be exposed to, as part of a larger API transit strategy map:

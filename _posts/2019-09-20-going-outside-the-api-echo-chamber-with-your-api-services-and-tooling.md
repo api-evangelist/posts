@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Going Outside The API Echo Chamber With Your API Services And Tooling
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-castle-on-hill-edinburgh-feed-people.JPG
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-castle-on-hill-edinburgh-feed-people.JPG
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Complimentary APIs For The Oxford Dictionaries API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_30_at_3.12.32_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_30_at_3.12.32_pm.png
 atomdate: 2017-03-30T19:00:00.000Z
 tags:
   - APIs

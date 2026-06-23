@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Open Data Using Postman Collections
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/open-data-using-postman-collections/environmental-dashboard-workspace.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/open-data-using-postman-collections/environmental-dashboard-workspace.png
 author:
   name: kinlane
 tags:
@@ -16,15 +16,15 @@ I am pushing forward how Postman can be used for public data. I have a whole mes
 
 As I began aggregating the datasets into Postman, the first couple of datasets were pretty basic. Simple CSV or JSON files, and a couple basic APIs. I just created a collection, added a new request, and pasted the URL into the request and pulled the data from the source.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-data-using-postman-collections/simple-dataset-response.png)](https://www.postman.com/api-evangelist/workspace/environmental-dashboard/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-data-using-postman-collections/simple-dataset-response.png)](https://www.postman.com/api-evangelist/workspace/environmental-dashboard/overview)
 
 Once I had the response from each API I would save the response as an example for the request. Then the entire CSV or JSON would be stored locally within the collection. For most of them I’d convert the data to, or from JSON or CSV, and add a parameter property so that each response could returned depending on what format the consumer desires for the visualizations.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-data-using-postman-collections/simple-dataset-example.png)](https://www.postman.com/api-evangelist/workspace/environmental-dashboard/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-data-using-postman-collections/simple-dataset-example.png)](https://www.postman.com/api-evangelist/workspace/environmental-dashboard/overview)
 
 Now that I have an example stored for each dataset as part of the collection I can mock the collection, making the data available as a simple “mocked” API. This approach provides a public or private URL I can share with anyone who is building a prototype application-—in this case a widget. Going from dataset to a simple API in just a few clicks.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-data-using-postman-collections/simple-dataset-mock.png)](https://www.postman.com/api-evangelist/workspace/environmental-dashboard/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-data-using-postman-collections/simple-dataset-mock.png)](https://www.postman.com/api-evangelist/workspace/environmental-dashboard/overview)
 
 Each of these mock servers are rate limited so I don’t want to share with anyone who will create a lot of traffic, but for low volume design and development it works just fine. Also, anyone can fork the collections, publish their own mock servers within their own accounts—-pulling a fresh copy of the dataset whenever it gets updated. Localizing the mock servers so that they can do what they want with the data and put data to use within their own workspaces.
 
@@ -32,11 +32,11 @@ Each of these mock servers are rate limited so I don’t want to share with anyo
 
 After working through a couple of the datasets I came across a couple pretty large ones that were to big to publish as a single request example, pushing me to find another way by sharding the data on top level data points. Properties like year, month, and categories make for good sharding targets, which I make available as separate requests within a single collection.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-data-using-postman-collections/large-dataset-collection.png)](https://www.postman.com/api-evangelist/workspace/environmental-dashboard/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-data-using-postman-collections/large-dataset-collection.png)](https://www.postman.com/api-evangelist/workspace/environmental-dashboard/overview)
 
 If a dataset is large enough or works better as separate collections I would also break things up as completely separate collections. Allowing them to be organized via a public workspace or embedded as Run in Postman buttons on any website or documentation.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-data-using-postman-collections/large-dataset-collections.png)](https://www.postman.com/api-evangelist/workspace/environmental-dashboard/overview)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-data-using-postman-collections/large-dataset-collections.png)](https://www.postman.com/api-evangelist/workspace/environmental-dashboard/overview)
 
 Like the simple datasets, these larger ones can be mocked and accessed via the mock endpoint or it can be forked by users and then mocked and access via endpoints under their own accounts—-pulling updates from the master whenever changes occur.
 

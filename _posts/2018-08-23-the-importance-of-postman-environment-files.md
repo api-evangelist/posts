@@ -8,7 +8,7 @@ tags:
   - Definitions
   - Clients
   - Authentication
-image: https://s3.amazonaws.com/kinlane-productions2/postman/postman-environments.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/postman/postman-environments.png
 ---
 <p></p>I'm a big fan of [Postman](https://www.getpostman.com/), and the power of their development environment, as well as their Postman Collection format. I think their approach to not just integrating with APIs, but also enabling the development and delivery of APIs has shifted the conversation around APIs in the last couple of years--not too many API service providers accomplish this in my experience. There are several dimensions to what Postman does that I think are pushing the API conversation forward, but one that has been capturing my attention lately [are Postman Environment Files](https://www.getpostman.com/docs/v6/postman/environments_and_globals/manage_environments).
 

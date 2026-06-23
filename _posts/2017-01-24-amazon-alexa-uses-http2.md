@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Amazon Alexa Uses HTTP/2
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-http2.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-http2.jpg
 atomdate: 2017-01-24T20:00:00.000Z
 tags:
   - HTTP

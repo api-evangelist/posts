@@ -2,7 +2,7 @@
 layout: post
 title: Google API a Technology Review
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google_plus.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_plus.png
 author:
   name: kinlane
 tags:
@@ -23,7 +23,7 @@ I'll stop there.  Without write access, there is no use railing about lack of a
 
 In short, I think Google could have come out of the gate with a little more.  Maybe linking up some of my other Google systems via my Google + profile, like Picassa images, and Youtube video.  But more importantly developers should have write access.  OAuth, plus write access to my social profile and activity stream should have been part of this release.   It would have sent the right message to developers.
 
-![](http://kinlane-productions2.s3.amazonaws.com/google-plus/Google-Developers.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/google-plus/Google-Developers.png)
 
 I also understand how hard all of this is for them.  They have a lot to consider, and pleasing developers are only one piece of the puzzle.   But as we’ve seen with Twilio and Twitter, your developer ecosystem can help make your platform have the applications and features users are looking for, making it a desirable place to be.  
 

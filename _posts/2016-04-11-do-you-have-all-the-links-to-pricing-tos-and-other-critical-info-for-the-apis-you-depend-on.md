@@ -3,7 +3,7 @@ layout: post
 title: >-
   Do You Have All The Links To Pricing, TOS, And Other Critical Info For The
   APIs You Depend On?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-network-nodes.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-network-nodes.png
 tags:
   - Links
   - Pricing

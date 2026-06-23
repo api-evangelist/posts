@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Y’all See API Contract Testing Like You Do Terms of Service
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/aws-s3-stories-crypto-machine-bletchley-copper-circuit.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-crypto-machine-bletchley-copper-circuit.png
 author: null
 name: kinlane
 tags:

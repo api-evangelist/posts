@@ -7,7 +7,7 @@ tags:
   - API Evangelist
   - Portals
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/server-cloud-server-racks-clouds-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/server-cloud-server-racks-clouds-copper-circuit.jpg
 author:
   name: kinlane
 ---

@@ -7,7 +7,7 @@ tags:
   - API Evangelist
   - Definitions
   - Discovery
-image: https://s3.amazonaws.com/kinlane-productions2/api-definitions-api-stack.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-definitions-api-stack.png
 ---
 <p></p>I'm rebooting [my API Stack](http://theapistack.com/) work as part of my partnership with [Streamdata.io](http://streamdata.io). I'm spending a significant portion of my day profiling API providers, documenting what it is they bring to the table. Historically I've published the resulting APIs.json and OpenAPI definition(s) to a single Github repository driving theapistack.com. The primary folder was already getting too big, and since I'm looking at adding at least a thousand more API providers to the stack, I am going to need to shard things out a bit.
 

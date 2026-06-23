@@ -2,7 +2,7 @@
 layout: post
 title: Preserving The Twitter API Field Guide
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_24_at_3.54.55_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_24_at_3.54.55_pm.png
 atomdate: 2016-10-24T22:00:00.000Z
 tags:
   - Twitter
@@ -11,7 +11,7 @@ I'm a fan of the human elements of this technological shift that is going on in 
 
 One of the moments that has stood out for me in the last decade was the Twitter API Field Guide created by Taylor Singletary ([@episod](https://twitter.com/episod)) during his time as an evangelist at Twitter. This field guide was removed by Twitter (not sure when as I just noticed today), but [the original blog post remained](https://blog.twitter.com/2012/field-guide-of-platform-objects). Thank the Internet gods [for the Internet Archive (and Tyler pointing it out),](https://web.archive.org/web/20131017194923/https://dev.twitter.com/docs/platform-objects) because a copy of his work still lives on for us all to enjoy.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_24_at_3.54.55_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_24_at_3.54.55_pm.png)
 
 I wanted to make sure a copy of it lives on beyond Twitter, and the Internet Archive, [so I copied (cleaned up) and published on Github (ha)](https://github.com/api-evangelist/twitter-field-guide). While this work may seem out of date, and irrelevant, it is art and will be something we will look back on fondly in the future--it shouldn't simply be deleted. This is one of the problems with the constant change we have embraced in the tech space--many things we care about will just be deleted and lost forever.
 

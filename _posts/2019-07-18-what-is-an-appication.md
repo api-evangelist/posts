@@ -7,7 +7,7 @@ tags:
   - API Evangelist
   - Applications
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/lost-angeles-downtown-freeway-los-angeles-downtow-freeway-copper-circuit-2.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/lost-angeles-downtown-freeway-los-angeles-downtow-freeway-copper-circuit-2.jpg
 author:
   name: kinlane
 ---

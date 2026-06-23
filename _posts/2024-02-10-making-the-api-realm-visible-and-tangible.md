@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Making the API Realm Visible and Tangible
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-highway-line.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-highway-line.jpeg
 author:
   name: kinlane
 tags:

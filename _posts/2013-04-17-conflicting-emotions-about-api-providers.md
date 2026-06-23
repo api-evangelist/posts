@@ -2,7 +2,7 @@
 layout: post
 title: Conflicting Emotions About API Providers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/conflict-with-myself.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/conflict-with-myself.png
 author:
   name: kinlane
 tags:

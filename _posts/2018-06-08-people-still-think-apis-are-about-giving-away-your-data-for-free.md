@@ -8,7 +8,7 @@ tags:
 - Management
 - Security
 - Training
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/adam-smith_dali_three.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/people-still-think-apis-are-about-giving-away-your-data-for-free.png
 ---
 <p></p>After eight years of educating people about sensible API security and management, I'm always amazed at how many people I come across who still think public web APIs are about giving away access to your data, content, and algorithms for free. I regularly come across very smart people who say they'd be doing APIs, but they depend on revenue from selling their data and content, and wouldn't benefit from just putting it online for everyone to download for free.
 

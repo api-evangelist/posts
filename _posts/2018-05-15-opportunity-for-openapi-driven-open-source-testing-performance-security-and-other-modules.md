@@ -11,7 +11,7 @@ tags:
   - Open Source
   - Federal Government
   - Lifecycle
-image: https://s3.amazonaws.com/kinlane-productions2/openapi/openapi-icons-gears.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/openapi-icons-gears.png
 ---
 <p></p>I've been on five separate government reflated projects lately where finding modular OpenAPI-driven open source tooling has been a top priority. All of these projects are microservice-focused and OpenAPI-driven, and are investing significant amounts of time looking open source tools that will help with design governance, monitoring, testing, and security, and interact with the Jenkins pipeline. Helping government agencies find success as their API journey picks up speed, and the number of APIs grows exponentially.
 

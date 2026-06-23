@@ -5,7 +5,7 @@ title: >-
   How Are We Going To Consistently Manage Policies Across Multiple API Gateway
   Vendors?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-train-switch.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-train-switch.jpg
 author:
   name: kinlane
 tags:

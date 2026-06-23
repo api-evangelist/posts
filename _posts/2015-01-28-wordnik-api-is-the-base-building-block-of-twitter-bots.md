@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wordnik API Is The Base Building Block Of Twitter Bots
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-bot.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-twitter-bot.jpg
 author:
   name: kinlane
 tags:

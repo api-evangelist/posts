@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Where Is The Ethical Line When Defining And Securing The API Landscape?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-safety.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-safety.png
 atomdate: 2016-08-09T23:30:00.000Z
 tags:
   - Landscape

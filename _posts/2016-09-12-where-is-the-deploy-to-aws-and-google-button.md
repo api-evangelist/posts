@@ -2,7 +2,7 @@
 layout: post
 title: Where Is The Deploy To AWS and Google Button?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/deploy_buttons_heroku_azure.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/deploy_buttons_heroku_azure.png
 atomdate: 2016-09-13T00:00:00.000Z
 tags:
   - AWS

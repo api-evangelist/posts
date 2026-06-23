@@ -2,7 +2,7 @@
 layout: post
 title: The Expanding API Evangelist Network
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/KL_InApiWeTrust-1000.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/KL_InApiWeTrust-1000.png
 author:
   name: kinlane
 tags:

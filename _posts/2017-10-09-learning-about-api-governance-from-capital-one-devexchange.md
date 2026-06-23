@@ -4,8 +4,6 @@ layout: post
 title: 'Learning About API Governance From Capital One DevExchange'
 image: https://cdn-images-1.medium.com/max/800/0*DOAJXcR7VcCN3iOh.jpg
 ---
-
-<p><a href="https://medium.com/capital-one-developers/api-lifecycle-governance-best-practices-56a1ebbb4f1b"><img src="https://cdn-images-1.medium.com/max/800/0*DOAJXcR7VcCN3iOh.jpg" align="right" width="40%" style="padding: 15px;" /></a>
 <p>I am still working through my notes from a recent visit to Capital One, where I spent time talking with Matthew Reinbold (<a href="https://twitter.com/libel_vox">@libel_vox</a>) about their API governance strategy. I was given a walk through their approach to defining API standards across groups, as well as how they incentivize, encourage, and even measure what is happening. I’m still processing my notes from our talk, and waiting to see Matt publish more on his work, before I publish too many details, but I think it is worth looking at from a high level view, setting the bar for other API governance conversations I am engaging in.
 
 <p>First, what is API governance. I personally know that many of my readers have a lot of misconceptions about what it is, and what it isn’t. I’m not interesting in defining a single definition of API governance. I am hoping to help define it so that you can find it a version of it that you can apply across your API operations. API governance is at its simplest form, about ensuring consistency in how you do API across your development groups, and a more robust definition might be about having an individual or team dedicated to establishing organization-wide API standards, helping train, educate, enforce, and in the case of capital one, measure their success.

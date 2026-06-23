@@ -6,7 +6,7 @@ tags:
   - Conversations
   - Podcast
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-fixing-satellite-2.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-fixing-satellite-2.jpeg
 ---
 I have really, really, really missed the public conversations I was having on my [Breaking Changes podcast](https://apievangelist.com/videos/), as well as the private conversations I've been having with enterprise folks across different business industries as the Chief Evangelist at Postman, and as the API Evangelist--these conversations are the feedback loop for my storytelling and the nutrients required for my soul.
 

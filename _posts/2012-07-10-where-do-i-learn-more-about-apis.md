@@ -2,7 +2,7 @@
 layout: post
 title: Where Do I Learn More About APIs?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/i-love-apis.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/i-love-apis.jpeg
 author:
   name: kinlane
 tags:
@@ -26,7 +26,7 @@ During this case Judge William Alsup defined copyright by saying:
 
 I’m not 100% sure where I stand on copyright of APIs, I have a lot more education and contemplation to do on the subject. My gut reaction is concern. If you can’t mimic an API interface, what will this do for innovation and growth in the API space?
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/pinboard/pinboard_in_blue.png)](http://pinboard.in/api/ "PInboard API")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/pinboard/pinboard_in_blue.png)](http://pinboard.in/api/ "PInboard API")
 
 One API I depend on daily is the [Pinboard API](http://pinboard.in/api/ "PInboard API"). Pinboard provides an essential bookmarking API I use in my curation, which is modeled after [Delicious](http://delicious.com/ "Delicious"). This is right off the Pinboard API documentation page:
 

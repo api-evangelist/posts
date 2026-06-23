@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Importance Of APIs In Journalism Right Now
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-news-icon.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-news-icon.png
 atomdate: 2017-01-31T17:00:00.000Z
 tags:
   - Journalism

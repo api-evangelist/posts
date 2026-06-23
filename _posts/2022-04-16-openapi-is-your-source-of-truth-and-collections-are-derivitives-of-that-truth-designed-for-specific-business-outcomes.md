@@ -5,7 +5,7 @@ title: >-
   OpenAPI is Your Source of Truth and Collections are Derivatives of That Truth
   Designed For Specific Business Outcomes
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-public-market-fish.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-public-market-fish.jpg
 tags:
   - Postman
   - OpenAPI

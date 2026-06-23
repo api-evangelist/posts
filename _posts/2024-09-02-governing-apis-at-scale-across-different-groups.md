@@ -6,7 +6,7 @@ tags:
   - Enterprise
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-supreme-court_36341562380_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-supreme-court_36341562380_o.jpg
 ---
 Enterprises are interesting entities. I am very keen on understanding more about the how and why they operate, but I am also very keen at avoiding getting ground down by the churn of enterprise gears. I enjoy mapping the business, technology, and people landscape that exists across enterprises in different industries. I enjoy hearing stories about what matters to business and engineering stakeholders across different enterprises. I enjoy crafting strategy, programs, platforms, policies, lifecycles, rules, and supporting evangelism across enterprises. I do not enjoy the games and drama that exists within enterprises, which end up coating everything that exists across the API lifecycle, and oozing out via API portals with partners and consumers. The API journey is entirely defined by the enterprise landscape, policies, and the games people play, and I am determined to shape all of this with my API Evangelist Contracts approach to governance as a service.
 

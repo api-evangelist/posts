@@ -6,13 +6,13 @@ title: >-
 url: >-
   http://apievangelist.com/2011/10/09/getting-ready-for-the-x.commerce-innovate-developer-conference-in-san-francisco/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/logo_xcommerce.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/logo_xcommerce.png
 author:
   name: kinlane
 tags:
   - Commerce
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/xcommerce/x-commerce-innovate-developer-conference-2011.png)](http://www.innovate-conference.com/)
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/xcommerce/x-commerce-innovate-developer-conference-2011.png)](http://www.innovate-conference.com/)
 
 I'm getting ready for the [X.Commerce Innovate Developer Conference 2011](http://www.innovate-conference.com/), at Moscone Center in San Francisco this week.
 
@@ -28,7 +28,7 @@ X.Commerce strives to bring together Marketplace, Payment, Mobile Products into 
 
 Even though you still have to go out to each individual sites developer ecosystems, you can tell they are working to bring together the communities in a central next generation merchant portal.
 
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/xcommerce/x-commerce-powered-by-paypal-ebay-magento.png)](http://www.innovate-conference.com/)
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/xcommerce/x-commerce-powered-by-paypal-ebay-magento.png)](http://www.innovate-conference.com/)
 
 This is what I expect at the X.Commerce Innovate Developer Conference, an event bringing together all eBay, Paypal and Magento developers and learn about each other, as well as share resources between the communities.
 

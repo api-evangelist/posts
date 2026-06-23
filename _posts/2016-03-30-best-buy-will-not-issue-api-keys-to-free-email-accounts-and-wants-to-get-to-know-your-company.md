@@ -4,7 +4,7 @@ title: >-
   Best Buy Will Not Issue API Keys To Free Email Accounts And Wants To Get To
   Know Your Company
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/best-buy-developer.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/best-buy-developer.png
 tags:
   - Email
   - Keys

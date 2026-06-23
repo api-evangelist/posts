@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: '"YellowAPI.com and the Future of API Monetization"'
-image: http://kinlane-productions2.s3.amazonaws.com/yellowAPI/yellow-api.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/yellowAPI/yellow-api.jpg
 author:
   name: kinlane
 tags:
@@ -10,7 +10,7 @@ tags:
 ---
 Canada's [Yellow Pages Group (YPG)](http://www.ypg.com/en/ "Yellow Pages Group") launched a new developer ecosystem to support their local search and location based services (LBS) API, [YellowAPI.com](http://www.yellowapi.com/ "YellowAPI.com").
 
-[![](https://kinlane-productions2.s3.amazonaws.com/yellowAPI/yellow-api.jpg)](http://www.yellowapi.com/ "YellowAPI.com")YPG sees their developer ecosystem much differently than many other companies, they view the YellowAPI as a direct extension of its core business model, and the API dramatically extends the reach of its business network.
+[![](https://kinlane-images.s3.amazonaws.com/shared/yellowAPI/yellow-api.jpg)](http://www.yellowapi.com/ "YellowAPI.com")YPG sees their developer ecosystem much differently than many other companies, they view the YellowAPI as a direct extension of its core business model, and the API dramatically extends the reach of its business network.
 
 Within many API communities, the API owners can often seem distant from developers, or even view the development community as a problem.
 
@@ -29,7 +29,7 @@ In addition to these resources, YellowAPI.com provides opportunities for develop
 
 These aren't side opportunities invented just for the API, they represent YPG's core business.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/yellowAPI/yellow-pages-group.png)](http://www.ypg.com/en/ "Yellow Pages Group")Since YPG sees the API and its ecosystem as an extension of their core business, they are opening up revenue sharing opportunities for approved developers within its community.
+[![](https://kinlane-images.s3.amazonaws.com/shared/yellowAPI/yellow-pages-group.png)](http://www.ypg.com/en/ "Yellow Pages Group")Since YPG sees the API and its ecosystem as an extension of their core business, they are opening up revenue sharing opportunities for approved developers within its community.
 
 If the YellowAPI community is successful in building sustainable business applications, YPG benefits. And because of the forward thinking API ecosystem strategy, when YPG makes money, the API developer community shares in this revenue.
 

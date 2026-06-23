@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Your API Strategy Provide A Glimpse Into Your Company Culture
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-theater-mask.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-theater-mask.png
 author:
   name: kinlane
 tags:

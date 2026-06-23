@@ -3,7 +3,7 @@ published: true
 layout: post
 title: My API Platform or Yours?
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-adam-smith-edinburgh.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-adam-smith-edinburgh.jpg
 author:
   name: kinlane
 tags:

@@ -4,7 +4,7 @@ title: >-
   Access, Interoperability, Privacy and Security Of Technology Will Set The
   Stage For The Future of Education
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-education.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tag-cloud-education.png
 author:
   name: kinlane
 tags:
@@ -27,8 +27,6 @@ Helping business owners, developers and end-users understand the potential that 
 oAuth has introduced a new online dance, that is widely known as three-legged authentication, and is being used across common platforms from Google to Facebook, allowing end-users, developers and platforms to interact in a way that makes the Internet go round. If any of these three legs are out of balance and security or privacy is compromised, or one of the players is not educated and exploitation occurs, the cycle quickly breaks down. This delicate balance encourages all three legs to be educated, empowered and in control over their role in this critical supply chain of the Internet.
 
 Online platforms, and the web and mobile applications that are built on them, are playing an ever increasing role in every aspect of our personal, professional and public lives, from turning in class assignments in high school to paying our taxes as adults. APIs and oAuth are being used as the pipes and gatekeepers for everything from photos and location data to our vital healthcare records. These online platforms will play a central role in our education from infancy to retirement, and being educated, aware and literate in how these platforms operate is essential to it all working--for everyone involved.
-
-[![](http://openva.org/wp-content/uploads/2013/09/cropped-openva_header.jpg)](http://openva.org/2013/10/09/minding-the-future-program-at-a-glance/)
 
 The future of education depends on all online platforms providing access, interoperability and data portability, while also fully respecting end-users privacy and security and investing in their education about these features and the opportunities they open up. Education will continue to exist within traditional institutions, but will persist throughout our lives in this new online environment. It is imperative that every citizen possesses a certain level of web literacy to be able to learn, grow and evolve as a human being in this increasingly digital society.
 

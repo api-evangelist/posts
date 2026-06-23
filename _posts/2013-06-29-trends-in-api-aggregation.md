@@ -2,7 +2,7 @@
 layout: post
 title: Trends in API Aggregation
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/aggregation-trend.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aggregation-trend.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ One trend in API usage I'm closely watching is the [aggregation of APIs by a new
 
 I'm currently tracking on [15 API aggregators](http://aggregation.apievangelist.com "API Aggregation"), who focus on bringing together data and content in 10 areas:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/trends/aggregation-trend.png)](http://aggregation.apievangelist.com "API Aggregation")
+[![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/trends/aggregation-trend.png)](http://aggregation.apievangelist.com "API Aggregation")
 
 *   Analytics
 *   Cloud Computing

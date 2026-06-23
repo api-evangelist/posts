@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Web Evolved Under Different Environment Than Web APIs Are
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-evolution.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-evolution.png
 atomdate: 2016-10-05T20:00:00.000Z
 tags:
   - Environment

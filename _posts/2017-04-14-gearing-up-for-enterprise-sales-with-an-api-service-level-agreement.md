@@ -2,7 +2,7 @@
 layout: post
 title: Gearing Up For Enterprise Sales With An API Service Level Agreement
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_sla.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_sla.png
 atomdate: 2017-04-14T19:00:00.000Z
 tags:
   - Enterprise

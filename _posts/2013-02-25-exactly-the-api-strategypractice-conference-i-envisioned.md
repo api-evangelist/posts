@@ -2,7 +2,7 @@
 layout: post
 title: Exactly the API Strategy &amp; Practice Conference I Envisioned
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-strategy-practice-steve-kin-open.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-strategy-practice-steve-kin-open.jpg
 author:
   name: kinlane
 tags:
@@ -33,7 +33,7 @@ I did not get to attend as many of the sessions as I wished, and due to event co
 *   **Payments Session** - I heard from several folks this session was a very lively discussion between Paypal and the newer generation of payment providers like Stripe, Braintree and Dwolla.
 *   **Security Session** - Like the payment one I was not present, but I heard from several folks there was a pretty interesting exchange. I look forward to the video.
 *   **Steve Klabnik** \- Everyone needs to be exposed to Steve’s extremely clear perspective of not just open APIs, but open software development. His talks are never about product or companies, they are more a philosophical vision that is rooted in a healthy understanding of developers, development communities and how it dovetails into society, business and politics.
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/3scale-logo.jpg)](http://3scale.net)*   **Backend as a Service Panel** \- I had so much fun on this panel. I cannot wait to see the video. The banter back and forth between lya Sukhar ([@ilyasu](https://twitter.com/ilyasu)) of [Parse](http://www.parse.com/), Morgan Bickle ([@morganbickle](https://twitter.com/morganbickle)) of [Kinvey](http://www.kinvey.com/), Marc Weil ([@marcweil](https://twitter.com/marcweil)) of [Cloudmine](https://cloudmine.me/), Miko Matasumura ([@mikojava](https://twitter.com/mikojava)) of [Kii](http://kii.com/), Ty Amell ([@tyamell](https://twitter.com/tyamell)) of [StackMob](https://www.stackmob.com/) James Tamplin ([@jamestamplin](https://twitter.com/jamestamplin)) of [Firebase](https://www.firebase.com/) was priceless. At times, it felt like reality TV show. There will definitely be more discussion about this panel.
+[![](https://kinlane-images.s3.amazonaws.com/shared/api-service-providers/3scale-logo.jpg)](http://3scale.net)*   **Backend as a Service Panel** \- I had so much fun on this panel. I cannot wait to see the video. The banter back and forth between lya Sukhar ([@ilyasu](https://twitter.com/ilyasu)) of [Parse](http://www.parse.com/), Morgan Bickle ([@morganbickle](https://twitter.com/morganbickle)) of [Kinvey](http://www.kinvey.com/), Marc Weil ([@marcweil](https://twitter.com/marcweil)) of [Cloudmine](https://cloudmine.me/), Miko Matasumura ([@mikojava](https://twitter.com/mikojava)) of [Kii](http://kii.com/), Ty Amell ([@tyamell](https://twitter.com/tyamell)) of [StackMob](https://www.stackmob.com/) James Tamplin ([@jamestamplin](https://twitter.com/jamestamplin)) of [Firebase](https://www.firebase.com/) was priceless. At times, it felt like reality TV show. There will definitely be more discussion about this panel.
 *   **Jeff Meisel** \- I’m captivated by the potential of National Instrument’s Labview Tools API program. His talk walked us through the potential from a platform that can provide any physically engineered object with an API. Jeff’s talk left my mind spinning with visions around the future of APIs.
 *   **John Musser** - John always delivers an education for anyone in the space, whether your novice, intermediate or expert. And his 20 API Business Models in 20 Minutes continued this trend. As someone who is immersed in the space as I am, I immediately recognize the amount of work and perspective that is needed to gather, organize and distill down a topic like this into a meaningful presentation. Extremely valuable work.
 *   **Daniel Jacobson** \- I thoroughly enjoy watching the evolution of not just Daniel’s talks, but evolution of his and the Netflix perspective on APIs. He talks about Netflix evolving beyond REST, and leaves it for you to decide if Netflix is just an edge case or signs what is to come in our every growing device driven, internet of things world. I think we need to watch what Daniel and Netflix is doing very closely, and learn.
@@ -48,7 +48,7 @@ Beyond the keynotes, panels and sessions and moving into the networking opportun
 
 Next, I have to throw in a comment about the beer during the drinks reception. Did you notice the IPA amongst the beer choices? Nice work [Ping Identity](https://www.pingidentity.com/ "Ping Identity") and the 3Scale team. It is the little things that make these events successful.
 
-![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/augusto-marietta-mashape-apistrat.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/augusto-marietta-mashape-apistrat.jpg)
 
 Ok. I know there was more, but I will be writing stories from now until the next API Strategy & Practice in October or November (more to come), and this post is pretty long as it is.
 

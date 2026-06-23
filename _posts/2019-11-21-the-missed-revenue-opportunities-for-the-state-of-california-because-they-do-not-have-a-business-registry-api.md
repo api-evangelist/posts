@@ -5,7 +5,7 @@ title: >-
   The Missed Revenue Opportunities For The State Of California Because They Do
   Not Have A Business Registry API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/california_republic.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/california_republic.jpeg
 author:
   name: kinlane
 tags:

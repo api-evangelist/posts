@@ -2,7 +2,7 @@
 layout: post
 title: Lots Of Talk About Machine Learning Marketplaces
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_12_at_1.24.18_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_12_at_1.24.18_pm.png
 atomdate: 2017-03-13T16:00:00.000Z
 tags:
   - Marketplace

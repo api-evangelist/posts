@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Needing Inspiration to Care About APIs?
-image: https://kinlane-productions2.s3.amazonaws.com/strella-biotech-apples.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/strella-biotech-apples.png
 tags:
   - Apples
   - Produce

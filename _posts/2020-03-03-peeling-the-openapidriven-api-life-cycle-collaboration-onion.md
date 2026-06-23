@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Peeling the OpenAPI-Driven API Life Cycle Collaboration Onion
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-working-on-railroad-2.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-working-on-railroad-2.jpg
 author:
   name: kinlane
 tags:
@@ -60,7 +60,7 @@ This layer is all about acknowledging that organizations aren’t just defining 
 
 I think standardization, reuse, and modularization of the API design process is something OpenAPI excels at, and something all API service should embrace as part of their adoption of OpenAPI as the central truth for APIs. Providing users with the ability to generate, aggregate, manage, share, and collaborate around healthy API patterns across API operations. Many API developers are beginning to think about API components across a single API thanks to the OpenAPI components object, but few are adequately considering how the components object can be centralized, allowing for API gears to be consistently applied across many different APIs defining the digital factory floor.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-train-tracks-seattle-waterfront.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/stalin-time-train-tracks-seattle-waterfront.jpg)
 
 ### Layer Three - Multiple API Derivates
 
@@ -114,7 +114,7 @@ If the OpenAPI contract cannot properly service multiple stops along the API lif
 
 Postman collections, and other definitions or extensions can act as the connector between an APIs central truth, and the realization of each version across the API lifecycle. This relationship has to be easily defined, realized, observes, and reported upon to fully realized as part of maintaining and elevating an OpenaPI as the central truth of an API. Postman collections and OpenAPI extensions augment the truth, providing a completely separate API definition that is derived from the truth but contains additional data that speaks to the individual needs at each stop of the API life cycle.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-subway-brooklyn-station.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/stalin-time-subway-brooklyn-station.jpg)
 
 **Layer Six - Multiple People (aka Collaboration)**
 

@@ -4,8 +4,6 @@ layout: post
 title: 'Keen IO Pushing Forward The Data Schema Conversation'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/keen/1-6YVuTRnIIEM7o6XQO-QtMA.png
 ---
-
-<p><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/keen/1-6YVuTRnIIEM7o6XQO-QtMA.png" align="right" width="405" />
 <p><a href="http://apievangelist.com/2017/01/19/focusing-on-common-api-definitions-schema-scopes-and-specifications/">I wrote earlier this year that I would like us all to focus more on our schema and definitions of our data we use across API operations</a>. Since then I’ve been keeping an eye out for any other interesting signs in this area <a href="http://apievangelist.com/2017/03/15/getting-our-schema-in-order-with-postmans-new-data-editor/">like Postman with their data editor</a>, and now I’ve come across <a href="https://blog.keen.io/a-new-way-to-debug-your-data-models-b7bc49ccf97a">the Streams Manager for inspecting the data schema of your event collections in Keen IO.</a>.
 
 <p>With Streams Manager you can:

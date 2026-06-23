@@ -3,7 +3,7 @@ layout: post
 title: Real-time and Visualizations Will Be Key in Financial API Deployments
 sourceurl: >-
   http://apievangelist.com/2014/08/26/realtime-and-visualizations-will-be-key-in-financial-api-deployments/
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-market-graph.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-market-graph.png
 author:
   name: kinlane
 tags:

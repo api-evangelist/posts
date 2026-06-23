@@ -2,7 +2,7 @@
 layout: post
 title: An OpenAPI Spec For A Building Permits API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/OpenPermit.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/OpenPermit.png
 atomdate: 2016-08-25T00:00:00.000Z
 tags:
   - OpenAPI

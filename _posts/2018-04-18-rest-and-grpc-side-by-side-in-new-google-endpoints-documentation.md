@@ -9,7 +9,7 @@ tags:
   - Documentation
   - gRPC
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/google-cloud-platform/google-cloud-endpoints-portal-docs.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/google-cloud-platform/google-cloud-endpoints-portal-docs.png
 ---
 <p></p>Google has been really moving forward with their development, and storytelling around gRPC. Their high speed to approach to doing APIs that uses HTTP/2 as a transport, and protocol buffers (ProtoBuf) as its serialized message format. Even with all this motion forward they aren't leaving everyone doing basic web APIs behind, and are actively supporting both approaches across all new Google APIs, as well as in their services and tooling for deploying APIs in the Google Cloud--supporting two-speed APIs side by side, across their platform.
 

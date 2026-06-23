@@ -2,7 +2,7 @@
 layout: post
 title: The Monitoring Layer Of The DevOps Aggregation API Platform
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puzzle-four-pieces.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-puzzle-four-pieces.png
 atomdate: 2016-10-14T22:00:00.000Z
 tags:
   - Monitoring

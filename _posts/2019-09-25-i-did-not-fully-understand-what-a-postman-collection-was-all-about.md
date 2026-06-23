@@ -3,7 +3,7 @@ published: true
 layout: post
 title: I Did Not Fully Understand What A Postman Collection Was All About
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/rockingchair_face_2_blue_circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/rockingchair_face_2_blue_circuit.jpg
 author:
   name: kinlane
 tags:

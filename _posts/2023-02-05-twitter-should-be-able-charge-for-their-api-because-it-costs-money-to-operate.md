@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Twitter Should Be Able Charge for Their API Because It Costs Money to Operate
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-adam-smith-edinburgh.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-adam-smith-edinburgh.jpg
 author: null
 name: kinlane
 tags:

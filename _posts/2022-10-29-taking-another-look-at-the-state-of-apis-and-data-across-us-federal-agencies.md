@@ -5,7 +5,7 @@ title: >-
   Taking Another Look at the APIs and Data Available Across U.S. Federal
   Agencies
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-capital_36728420065_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-capital_36728420065_o.jpg
 author: null
 name: kin
 tags:

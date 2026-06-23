@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I was brainstorming with Shelby Switzer (@switzerly) yesterday around potential projects for upcoming events we are attending, looking for interesting ideas ...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/openapi/openapi-dynamic.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/openapi-dynamic.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -43,7 +43,7 @@
     <meta name="twitter:title" content="Automatically Generating OpenAPI From A YAML Dataset Using Jekyll">
     
     <meta name="twitter:description" content="I was brainstorming with Shelby Switzer (@switzerly) yesterday around potential projects for upcoming events we are attending, looking for interesting ideas ...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/openapi/openapi-dynamic.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/openapi-dynamic.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -53,7 +53,7 @@
       "@type": "Article",
       "headline": "Automatically Generating OpenAPI From A YAML Dataset Using Jekyll",
       "description": "I was brainstorming with Shelby Switzer (@switzerly) yesterday around potential projects for upcoming events we are attending, looking for interesting ideas ...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/openapi/openapi-dynamic.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/openapi-dynamic.png",
       "datePublished": "2017-09-07T12:00:00-04:00",
       "dateModified": "2017-09-07T12:00:00-04:00",
       "author": {
@@ -66,7 +66,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -364,7 +364,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -394,7 +394,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -728,11 +728,11 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/openapi/openapi-dynamic.png" alt="Automatically Generating OpenAPI From A YAML Dataset Using Jekyll" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/openapi-dynamic.png" alt="Automatically Generating OpenAPI From A YAML Dataset Using Jekyll" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
-        <p><img src="https://s3.amazonaws.com/kinlane-productions2/openapi/openapi-dynamic.png" align="right" width="35%" style="padding: 15px;" /></p>
+        <p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/openapi-dynamic.png" align="right" width="35%" style="padding: 15px;" /></p>
 <p>I was brainstorming with Shelby Switzer (<a href="https://twitter.com/switzerly">@switzerly</a>) yesterday around potential projects for upcoming events we are attending, looking for interesting ideas we can push forward, and one of the ideas we settled in on, was automatically generating OpenAPIs from any open data set. We aren’t just looking for some code to do this, we are looking for a forkable, reusable way of doing this that anyone could potentially put to work making open data more accessible. It’s an interesting idea that I think could have legs, and compliment some of the existing projects I’m tackling, and would help folks make their open data more usable.</p>
 
 <p>To develop a proof of concept I took one of my existing projects for <a href="http://api.integration.tool.apievangelist.com/">publishing an API integration page within the developer portal of API providers</a>, and replaced the hand crafted OpenAPI with a dynamic one. <a href="https://github.com/api-evangelist-tools/api-integration/blob/master/_data/integrations.yaml">The project is driven from a single YAML data file</a>, which I manage and publish using Google Sheets, and already had a static API and OpenAPI documentation, making it a perfect proof of concept. As I said, the OpenAPI is currently static YAML, so I got to work making it dynamically driven from the YAML data store. The integrations.yaml data store has eight fields, which I hd published as four separate API paths, depending on which category each entry is in. I was able to assemble the OpenAPI using a handful of variables already in the config.yaml for the project, but the rest I was able to generate by mounting the integrations.yaml, dynamically identifying the fields and the field types, and then generating the API paths, and schema definitions needed in the OpenAPI.</p>

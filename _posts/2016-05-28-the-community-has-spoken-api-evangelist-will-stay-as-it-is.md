@@ -2,7 +2,7 @@
 layout: post
 title: 'The Community Has Spoken: API Evangelist Will Stay As It Is'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist-site/blog/kin-lane-drone-catch.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-drone-catch.png
 tags:
   - API Evangelist
   - Community

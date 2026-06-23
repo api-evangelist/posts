@@ -5,7 +5,7 @@ title: Having a Clear API Vendor Strategy
 tags:
   - Vendors
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-public-market-farmers-market.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-public-market-farmers-market.jpg
 ---
 Adopting 3rd-party infrastructure, tooling, and services is an inevitable reality of API operations today. You will depend on 3rd-party infrastructure and services like GitHub, Postman, or Jira, and having a strategy for the history of why you have relationships with these vendors, and how you are using as part of your API operations, is a critical step towards getting a handle on the API sprawl and chaos that exists, wrestle with your legacy technical debt. Having a clear API vendor strategy goes hand in hand with establishing your API platform strategy, and goes beyond what is commonly associated with procurement efforts today. In 2024, if you don’t have a handle on all of the free and paid vendors your teams are using to produce APIs, it means that these vendors have a handle on your business that you do not control.
 

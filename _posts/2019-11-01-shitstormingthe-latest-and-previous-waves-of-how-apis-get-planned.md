@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Shit-Storming — The Latest (and Previous) Waves of How APIs Get Planned
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-schoolhouse-dark-dali.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-schoolhouse-dark-dali.jpg
 author:
   name: kinlane
 tags:

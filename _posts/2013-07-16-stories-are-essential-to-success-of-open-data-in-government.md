@@ -2,7 +2,7 @@
 layout: post
 title: Stories Are Essential To Success of Open Data in Government
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-story-bubble.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-story-bubble.png
 author:
   name: kinlane
 tags:

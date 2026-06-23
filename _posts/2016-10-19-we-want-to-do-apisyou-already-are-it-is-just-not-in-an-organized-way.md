@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We Want To Do APIs -- You Already Are, It Is Just Not In An Organized Way
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-organized.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-organized.png
 atomdate: 2016-10-19T20:00:00.000Z
 tags:
   - APIs

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Reworking My API 101 Content: Consuming APIs'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-consuming.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/reworking-my-api-101-content-consuming-apis.png
 author:
   name: kinlane
 tags:

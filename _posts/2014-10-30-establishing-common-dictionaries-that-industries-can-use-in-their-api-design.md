@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Establishing Common Dictionaries That Industries Can Use In Their API Design
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dictionary.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-dictionary.png
 author:
   name: kinlane
 tags:

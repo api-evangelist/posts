@@ -8,7 +8,7 @@ tags:
   - GraphQL
   - Kafka
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-streaming-fountain-5.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-streaming-fountain-5.jpeg
 ---
 I have been working to understand REST, WebHooks, GraphQL, WebSockets, MQTT, Kafka, and gRPC side by side as protocols and patterns, but also as the specification that define them like OpenAPI, AsyncAPI, Protocol Buffers, and Postman Collections for about six years solid now, with another five years previous studying what it meant to have a diverse API toolbox. I agree that enterprise organizations will need a multi-protocol approach to API governance, but I am making the executive decision that I am exclusively going to focus on just HTTP APIs and Webhooks—excluding GraphQL, WebSockets, MQTT, Kafka, and gRPC from my work. It is too much. Too diverse. Too many competing ideologies. I am determined to get a handle on API governance as a discipline, and believe that focusing on anything beyond HTTP APIs and Webhooks to be a distraction.
 

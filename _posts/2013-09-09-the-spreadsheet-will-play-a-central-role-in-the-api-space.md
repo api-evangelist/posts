@@ -2,7 +2,7 @@
 layout: post
 title: The Spreadsheet Will Play A Central Role In The API Space
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/spreadsheet-basic.gif
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/spreadsheet-basic.gif
 tags:
   - Spreadsheet
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Business Models For Your API as Startup from API Days
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Talk-Kin-Lane.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/API-Talk-Kin-Lane.png
 author:
   name: kinlane
 tags:

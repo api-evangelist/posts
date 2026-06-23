@@ -10,7 +10,7 @@ tags:
   - Management
   - Authentication
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/dawex/requiring-linkedin-validation.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/dawex/requiring-linkedin-validation.png
 ---
 <p></p>I was on-boarding with [the data marketplace Dawex](https://www.dawex.com/en/) the other day, and I thought their on-boarding process was interesting. It is pretty rigid, requiring users to validate themselves in multiple ways, but it provides some interesting approaches to knowing more about who your API developers are. Dawex has the basic level email and phone number validation, but they have added a 3rd dimension, validating who you are using your LinkedIn profile.
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Governing the Title of Your APIs With Spectral Rules
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-satellite-dish-pointing-upwards.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-satellite-dish-pointing-upwards.jpg
 author:
   name: kinlane
 tags:

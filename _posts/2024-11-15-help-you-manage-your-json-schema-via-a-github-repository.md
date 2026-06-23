@@ -7,7 +7,7 @@ tags:
   - Repositories
   - JSON Schema
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-docks-big-cosco-ship.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/green-circuit-docks-big-cosco-ship.jpg
 ---
 I am assembling a toolbox of API governance services for my customers based upon what I’ve been doing for the last year, but also based upon the needs of folks I am talking to right now. One of these services is the management of JSON Schema via GitHub. There are a number of schema registries out there, but they are mostly in service of a specific type of API implementation or protocol like Kafka or GraphQL, and I am looking to start with the fundamentals of getting your schema house in order without the distraction of these other motions.
 

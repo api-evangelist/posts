@@ -4,7 +4,7 @@ title: >-
   A Blockchain To Act As A Universal API Credit Layer That Can Be Used By Both
   API Provider And Consumer
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-blockchain-api-monetization.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-blockchain-api-monetization.png
 author:
   name: kinlane
 tags:

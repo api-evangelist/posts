@@ -7,7 +7,7 @@ tags:
   - API Evangelist
   - Evangelism
   - Communication
-image: https://s3.amazonaws.com/kinlane-productions2/IMG_7598.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/IMG_7598.jpg
 ---
 <p></p>Travel is an important part of what I do. It is essential to striking up new relationships, and reenforcing old ones. It is important for me to get out of my bubble, expose myself to different perspectives, and see the world in different ways. I am extremely grateful for the ability to travel around the US, and the world the way that I do. I am also extremely aware of the impact that travel has on me being the API Evangelist--the positive, the negative, and the general shift in my tone in storytelling after roaming the world.
 

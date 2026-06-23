@@ -9,7 +9,7 @@ tags:
   - Documentation
   - Communication
   - Collaboration
-image: https://s3.amazonaws.com/kinlane-productions2/openapi/OpenAPI_Pantone.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/OpenAPI_Pantone.png
 ---
 <p></p>APIs are hard to talk about across large groups of people, while ensuring everyone is on the page. APIs don't have much a visual side to them, providing a tangible reference for everyone to use by default. This is where OpenAPI comes in, helping us "see" an API, and establish a human and machine readable document that we can produce, pass around, and use as a reference to what an API does. OpenAPI makes me feel like I have a handle on what an API does, in a way that can actually have a conversation around with other people--without it, things are much fuzzier.
 

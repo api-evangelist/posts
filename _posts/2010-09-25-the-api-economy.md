@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The API Economy
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-tag-cloud.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/api-tag-cloud.jpg
 author:
   name: kinlane
 tags:

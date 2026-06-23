@@ -4,8 +4,6 @@ layout: post
 title: 'The Trusted Automated Exchange of Intelligence Information (TAXII)'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/taxii/taxii-logo.png
 ---
-
-<p><a href="https://oasis-open.github.io/cti-documentation/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/taxii/taxii-logo.png" align="right" width="30%" style="padding: 15px;" /></a>
 <p>I recently wrote about <a href="http://apievangelist.com/2017/07/10/opportunity-to-develop-a-threat-intelligence-apis-json/">the opportunity around developing an aggregate threat information API</a>, and got some interest in both creating, as well as investing in some of the resulting products and services that would be derived from this security API work. As part of the feedback and interest on that post, I was pointed in the direction of <a href="https://oasis-open.github.io/cti-documentation/">the Trusted Automated Exchange of Intelligence Information (TAXII)</a>, as one possible approach to defining a common set of API definitions and tooling for the exchange of threat intelligence.
 
 <p>The description of TAXII from the project website describes it well:

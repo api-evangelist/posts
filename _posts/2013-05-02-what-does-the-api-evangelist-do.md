@@ -2,7 +2,7 @@
 layout: post
 title: What Does The API Evangelist Do?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-in-api-we-trust.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-in-api-we-trust.png
 author:
   name: kinlane
 tags:

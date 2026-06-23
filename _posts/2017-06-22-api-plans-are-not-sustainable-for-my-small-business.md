@@ -4,8 +4,6 @@ layout: post
 title: 'API Plans Are Not Sustainable For My Small Business'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/imageoptim/imageoptim-api-pricing.png
 ---
-
-<p><a href="https://imageoptim.com/api/pricing"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/imageoptim/imageoptim-api-pricing.png" align="right" width="40%" style="padding: 15px;" /></a>
 <p><a href="http://apievangelist.com/2017/05/09/pricing-tiers-works-for-saas-but-not-really-for-apis/">I’ve already written about how I just don’t like class pricing tiers for API consumption</a>, but I want to keep beating this drum until service providers hear what I’m singing. I think pricing tiers worked well to onboard the world with SaaS but for an API-driven world we a lot more flexibility and scalability when it comes to t
 he business model.
 

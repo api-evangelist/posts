@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Titles, Summaries, Descriptions, and Tags For APIs.json and OpenAPI
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-docks-oakland-3.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-docks-oakland-3.jpeg
 author:
   name: kinlane
 tags:

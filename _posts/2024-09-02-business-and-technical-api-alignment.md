@@ -7,7 +7,7 @@ tags:
   - Technical
   - Alignment
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-train-hand-car.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-train-hand-car.jpeg
 ---
 The lack of business and technical alignment across API operations was the number one concern I heard across my 125+ guests doing my Breaking Changes podcast. In my experience, the lack of alignment between what the business side of the enterprise wants, and what the engineering side of the enterprise wants, is the number one cause of friction, chaos, and sprawl across API operations. What product managers, and sales are asking engineering for when it comes to what consumers need increasingly does not always look like the API engineering is producing. The difference between business requirements and the actual resources, capabilities, and experience provided by HTTP APIs can be quite large within the enterprise, depending on the group you are working with, introducing an unmanageable amount of API sprawl and chaos. 
 

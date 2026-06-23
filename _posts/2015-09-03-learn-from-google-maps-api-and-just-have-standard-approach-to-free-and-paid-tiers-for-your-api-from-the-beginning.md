@@ -3,7 +3,7 @@ layout: post
 title: >-
   Learn From Google Maps API And Just Have Standard Approach To Free And Paid
   Tiers For Your API From The Beginning
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-map-pricing.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-map-pricing.png
 author:
   name: kinlane
 tags:

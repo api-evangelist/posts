@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Source of Truth for an API
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-marketplace-people.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-marketplace-people.jpg
 author: null
 name: kinlane
 tags:

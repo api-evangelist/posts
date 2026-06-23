@@ -4,8 +4,6 @@ layout: post
 title: 'I Added A Simple Bulk API For My Human Services Data API'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/open-referral/human-services-data-bulk-api.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/open-referral/human-services-data-bulk-api.png" align="right" width="45%" style="padding: 15px;" />
 <p>The core Human Services Data API allows for adding of organizations, locations, services, and contacts one by one using a single POST on the core API paths for each available resource. However, if you want to add thousands, or even hundreds of records, it can quickly become cumbersome to submit each of the calls, so I wanted to introduce a simple Human Services Bulk API for helping handle the adding of large quantity of data, on a one-time, or recurring basis. I know there job queuing solutions available out there, but my goal with this project is to focus on the API definition, as well as the backend system(s). For this round, I just want to get a simple baseline definition in place, with a simple API backend for orchestrating. I’ll update to support AWS, and other queuing solutions as part of the road-map–further hammering out a consistent <a href="http://developer.open.referral.adopta.agency/#HSDA Bulk">HSDA Bulk API</a>.
 
 <p>The first dimension of this new HSDA Bulk API focuses on providing paths for POSTing large quantities of data across the core human service resources:

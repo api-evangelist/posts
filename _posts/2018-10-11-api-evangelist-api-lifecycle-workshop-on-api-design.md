@@ -10,7 +10,7 @@ tags:
   - Trainings
   - Evangelism
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/workshops/43043431_10156747264069813_2487933138479611904_n.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/workshops/43043431_10156747264069813_2487933138479611904_n.jpg
 ---
 <p><a href="http://locations.api.lifecycle.workshop.apievangelist.com/"></a></p>I've been doing more <a href="http://locations.api.lifecycle.workshop.apievangelist.com/">workshops on the API lifecycle within enterprise groups lately</a>. Allowing me to refine my materials on the ground within enterprise groups, further flesh out the building blocks I recommend to API groups to help them craft their own API strategy. One area of the API lifecycle I find more groups working on these days, centers around a design-first approach to the API lifecycle.
 

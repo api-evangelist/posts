@@ -2,7 +2,7 @@
 layout: post
 title: Markdown APIs and Future of Reporting on Data
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/markdown-icon.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/markdown-icon.png
 author:
   name: kinlane
 tags:

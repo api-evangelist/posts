@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Dead Simple Real World API Management
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-docks-big-cosco-ship.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-docks-big-cosco-ship.jpg
 author:
   name: kinlane
 tags:

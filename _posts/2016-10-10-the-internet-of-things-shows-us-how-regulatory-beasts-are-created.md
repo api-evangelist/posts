@@ -2,7 +2,7 @@
 layout: post
 title: The Internet of Things Shows Us How Regulatory Beasts Are Created
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-frankenstein-beast.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-frankenstein-beast.png
 atomdate: 2016-10-10T20:00:00.000Z
 tags:
   - Internet of Things

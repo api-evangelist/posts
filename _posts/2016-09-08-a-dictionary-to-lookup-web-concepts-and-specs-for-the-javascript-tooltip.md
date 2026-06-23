@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Dictionary To Lookup Web Concepts And Specs For The JavaScript Tooltip
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dictionary-popup.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-dictionary-popup.png
 atomdate: 2016-09-08T22:00:00.000Z
 tags:
   - Web

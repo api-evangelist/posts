@@ -4,8 +4,6 @@ layout: post
 title: 'Craft Your API Design Guide So You Can Move To Other Areas of The Lifecycle'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/talks/november-2015/api-lifecycle-tag-cloud.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/talks/november-2015/api-lifecycle-tag-cloud.png" align="right" width="40%" style="padding: 15px;" />
 <p><a href="https://apievangelist.com/2017/05/24/my-api-design-checklist-for-this-version-of-the-human-services-data-api/">I am working on an API definition and design guide for my human services API work</a>, helping establish a framework for approaching API design as part of the human services data and API specification, but also for implementers to follow in their own individual deployments. Every time I work on the subject of API design, I’m reminded of how far behind the API sector is when it comes to standardizing what it is we do.
 
 <p>Every month or so I see a new company publicly share their API design guide. When they do my friend <a href="http://apistylebook.com/">Arnaud always adds to his API Stylebook</a>, adding it to the wealth of information available in his work. I’m happy to see each API design guide release, but in reality, ALL API providers should have an API design guide, and they should also be open to publishing it publicly, showing their consumers they have their act together, and sharing with the wider API community the best practices in play.

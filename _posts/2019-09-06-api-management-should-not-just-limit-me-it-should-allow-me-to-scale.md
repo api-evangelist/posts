@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Management Should Not Just Limit Me, It Should Allow Me To Scale
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/docks-docks-graham-sutherland.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/docks-docks-graham-sutherland.jpg
 author:
   name: kinlane
 tags:

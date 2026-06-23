@@ -3,14 +3,14 @@ layout: post
 title: AT&T's new Cloud API Platform
 url: http://apievangelist.com/2012/01/16/atts-new-cloud-api-platform/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ATT-API-Platform.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ATT-API-Platform.png
 author:
   name: kinlane
 tags:
   - Cloud
   - Platform
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/att/ATT-API-Platform.png)](http://developer.att.com/)
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/att/ATT-API-Platform.png)](http://developer.att.com/)
 
 _This is a guest post by [Travis Spencer](http://travisspencer.com/ "Travis Spencer"), a Software engineer specializing in federation, SSO, cloud computing, Web services, & enterprise architecture._
 
@@ -22,13 +22,13 @@ This week, [AT&T announced](http://www.attinnovationspace.com/innovation/story/a
 *   SDKs for common development environments such as C#, PHP, Ruby, and Java that can be used to call the API
 *   An HTML5 client-side SDK built atop Sencha Touch that abstract away the various mobile UI differences of Android, iOS, Blackberry and others while simultaneously simplifying the integration w/ their new cloud services
 
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/att/att-1.png)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/att/att-1.png)
 
 These are complimented by extensive samples, documentation, forums, on-line support, and a non-production environment where you can create an unlimited number of test applications.
 
 After [joining the developer program](https://developer.att.com/developer/urlRouter.jsp?referer=callToAction), you can use the portal to create applications. When you do so, you specify which services your application will use (as shown in the adjacent screenshot). If you are developing a mobile Web application w/ HTML5, the SDK for that platform greatly simplifies the process and reduces the effort required.
 
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/att/att-2.png)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/att/att-2.png)
 
 It does this using the architecture shown in the following figure. As depicted, an HTML5 application calls the new cloud API via a proxy (possibly hosted by AT&T). This intermediary hides the security of the API in a Sencha plug-in, simplifying the programming model clients must follow.
 

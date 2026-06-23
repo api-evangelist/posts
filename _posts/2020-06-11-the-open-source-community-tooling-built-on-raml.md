@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Open Source Community Tooling Built on RAML
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-docks-big-cosco-ship.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-docks-big-cosco-ship.jpg
 author:
   name: kinlane
 tags:

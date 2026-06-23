@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Getting Started With Postman Templates
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_templates_graph_bar.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_templates_graph_bar.png
 author:
   name: kinlane
 tags:

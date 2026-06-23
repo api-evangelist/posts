@@ -4,8 +4,6 @@ layout: post
 title: 'API As A Product Principles From Zalando'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/zalando/zalando-api-guidelines.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/zalando/zalando-api-guidelines.png" width="45%" align="right" style="padding: 15px;" />
 <p>As I’m working through the API design guides from API leaders, looking for useful practices that I can include in my own API guidance, I’m finding <a href="zalando.github.io/restful-api-guidelines/">electronic commerce company Zalando’s API design guide</a> full of some pretty interesting advice. I wanted to showcase the section about their API as a product principles, which I think reflects what I hear many companies striving for when they do APIs.
 
 <p>From the Zalando API design guide principles:

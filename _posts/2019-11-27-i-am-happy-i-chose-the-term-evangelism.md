@@ -3,7 +3,7 @@ published: true
 layout: post
 title: I Am Happy I Chose The Term Evangelism
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-ellis-island-nazi-poster.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/aws-s3-stories-ellis-island-nazi-poster.jpg
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: SSL Required for Twitter Streaming API by End of Month
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Twitter-Logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Twitter-Logo.jpg
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: 'Art: 3-D Print a Figurine of Yourself'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/3D-Printing/3d-printing-souveniers.png
+  https://kinlane-images.s3.amazonaws.com/shared/3D-Printing/3d-printing-souveniers.png
 author:
   name: kinlane
 tags:

@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Admitting There Is So Much I Do Not Understand Makes Be Better At APIs'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/server-racks-clouds_copper_circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/admitting-there-is-so-much-i-do-not-understand-makes-be-better-at-apis.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/server-racks-clouds_copper_circuit.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>One of the reasons I’m so good at APIs is because I embrace how little I know. This rolling realization keeps my appetite wet when it comes to learning to things, and working hard to discover, and realize sensible API practices. I am comfortable with the fact that I do not know something. I enjoy coming up against things I do not understand, eager to learn more. However, I think there is one big difference in the way I approach technology from other developers, is that I’m not confident that I will ever be able to fully understand a particular domain, let alone think that technology, or specifically APIs are a solution to a specific set of problems within every domain.
 
 <p>Many developers are overly confident in what they know. They are also overly confident in their ability to learn new things. They are also overly confident that they can hammer out a technological solution that will solve all problems within a domain. I feel like many technologists aren’t in the game to learn, they are in the game to prove they have the chops to solve problems, and when they can’t they just walk away. When you approach APIs in this way you are leaving a lot of opportunity for learning and growth on the table. APIs shouldn’t be seen as simply a solution. APIs are just a tool (like the web) in a business toolbox, that should be applied when appropriate, and not applied when it doesn’t make sense.

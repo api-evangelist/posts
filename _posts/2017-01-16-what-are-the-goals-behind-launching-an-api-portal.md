@@ -2,7 +2,7 @@
 layout: post
 title: What Are The Goals Behind Launching An API Portal?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/portal_screenshot.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/portal_screenshot.jpg
 atomdate: 2017-01-16T23:00:00.000Z
 tags:
   - Portal

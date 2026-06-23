@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The State of California Doing APIs The Right Way By Starting Simple
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/state_of_california.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/state_of_california.png
 author:
   name: kinlane
 tags:
@@ -43,7 +43,7 @@ I am going to spend some time thinking about this approach to allowing suggestio
 *   **[Lane Closures](https://github.com/cagov/API/tree/master/LaneClosures)** - Caltrans CCWWP, could consume all the separate district specific json files from Caltrans web portal.
 *   **[Safe to Swim](https://github.com/cagov/API/tree/master/SafeToSwim)** - Swimming location water contaminant measurements, which could also include algae bloom info. 
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/1_jgrirb9lj7tsrvkesuxwta.jpeg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/1_jgrirb9lj7tsrvkesuxwta.jpeg)
 
 I’m going to dive into thinking about all three of these APIs, and using them as an opportunity to help their team think through the delivery of each API, but also begin defining what their overall API life cycle might look like. Helping them establish some clear guidelines on how to deliver APIs consistently across teams, eventually maybe publishing it alongside their web site, UX, handbook, and the other resources they are making available. I just wanted to get up to speed on their approach to doing things, and process all of the links they had shared with me. Next I am going to focus on a couple of areas to hopefully contribute some value.
 

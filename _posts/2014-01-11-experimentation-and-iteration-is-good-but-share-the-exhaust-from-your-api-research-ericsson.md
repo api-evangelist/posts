@@ -4,7 +4,7 @@ title: >-
   Experimentation And Iteration Is Good, But Share The Exhaust From Your API
   Research Ericsson
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ericsson-labs.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ericsson-labs.png
 author:
   name: kinlane
 tags:

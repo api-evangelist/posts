@@ -11,7 +11,7 @@ tags:
   - Github
   - OAuth
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/github/github-personal-access-token.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-personal-access-token.png
 ---
 <p></p>I run a lot of different applications that depend on GitHub, and use GitHub authentication as the identity and access management layer for these apps. One of the things I like the most about GitHub and how I feel it handles it's OAuth more thoroughly than most other platforms, is how they let you get you own OAuth token under your settings > developer settings >personal access tokens. You don't need to setup an application, and do the whole OAuth dance, you just get a token that you can use to pass along with each API call.
 

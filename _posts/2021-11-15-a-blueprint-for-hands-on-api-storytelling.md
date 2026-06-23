@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: A Blueprint for Hands-On API Storytelling
-image: https://kinlane-productions2.s3.amazonaws.com/lost-in-space.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/lost-in-space.png
 tags:
   - Developer Relations
   - Evangelism

@@ -4,7 +4,7 @@ title: >-
   The Emphasis During Next Phase Of API Evangelist Will Be About You Telling
   Your Story
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/api-evangelist-next.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/t-shirts/api-evangelist-next.png
 author:
   name: kinlane
 tags:
@@ -15,13 +15,13 @@ I am going on five years of API Evangelist this summer, and I've been doing some
 
 First, I want to clarify that when I started API Evangelist in summer of 2010, I spent a lot of time trying to create a logo, resulting in me creating this temporary (5 years) logo, that you have seen on my t-shirts for the last five years.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/api-evangelist.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/t-shirts/api-evangelist.png)
 
 After listening to Mike spin his yarn, I'm convinced that the next wave of growth for API Evangelist has very little to do with me, and my brand, than it does with the rest of the API community. I've spent a lot of time sharing stories, but for us to get to the next level, it has to be about the community sharing its stories, or we will never get to the scale all of us API delusionaries envision. 
 
 To support this vision, I'm going to play with a new logo for API Evangelist, and print up a round of t-shirts with this evolution of the logo.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/api-evangelist-next.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/t-shirts/api-evangelist-next.png)
 
 I know I'll get a lot of flack from the restarfarians, and hypermedia folks about the design, but it is more about the storytelling, than it is about being technical, but in my opinion, they both work in concert. I've often answered, when people ask me what is scale for API Evangelist, that it is about having hundreds of people doing what I do, across many business sectors, around the globe--this new design reflects that.
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: We Are Strengthening the Toxic Bros Playbook With Our Response to Twitter
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-screaming-face-statue.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-screaming-face-statue.jpg
 author:
   name: kinlane
 tags:

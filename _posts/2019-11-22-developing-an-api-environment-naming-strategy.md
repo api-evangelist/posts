@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Developing An API Environment Naming Strategy
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/telephone_wires_drawing.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/telephone_wires_drawing.jpg
 author:
   name: kinlane
 tags:

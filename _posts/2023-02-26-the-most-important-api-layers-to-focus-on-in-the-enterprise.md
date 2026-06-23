@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Most Important API Layers To Focus on in the Enterprise
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-seattle-looking-north.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-seattle-looking-north.jpg
 author: null
 name: kinlane
 tags:

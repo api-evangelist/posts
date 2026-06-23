@@ -2,7 +2,7 @@
 layout: post
 title: People Doing Interesting Things With APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/ivan_goncharov.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ivan_goncharov.jpg
 atomdate: 2017-03-08T23:00:00.000Z
 tags:
   - APIs
@@ -14,14 +14,14 @@ If have been paying attention to API definitions in the last year, then you prob
 
 Here are the hardworking, API-savvy folks behind APIs.guru:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/ivan_goncharov.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ivan_goncharov.jpg)
 
 **Ivan Goncharov**
 
 *   Github: [https://github.com/IvanGoncharov](https://github.com/IvanGoncharov)
 *   Twitter: [https://twitter.com/E1Goncharov](https://twitter.com/E1Goncharov)
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/roman_hotsiy.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/roman_hotsiy.jpg)
 
 **Roman Hotsiy**  
 

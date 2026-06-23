@@ -4,8 +4,6 @@ layout: post
 title: 'HTTP as a Substrate'
 image: https://s3.amazonaws.com/drone-recovery/babyfoot04.jpg
 ---
-
-<p><img src="https://s3.amazonaws.com/drone-recovery/babyfoot04.jpg" align="right" width="40%" style="padding: 15px;" />
 <p>I am spending a significant amount of time reading RFCs lately. I find the documents to be very cumbersome to read, but the more you read, the more tolerant you become. When I browse through RFCs I’m always reminded of how little I actually know about the web. In an effort to push forward my education, and maybe yours along the way, I’m going to be cherry picking specific sections of the interesting RFCs I’m digesting here on the blog. <a href="https://tools.ietf.org/html/rfc3205">Today’s RFC is 3205, filed under Best Current Practice”, and is on the use of HTTP as a Substrate</a>.
 
 <p>_Recently there has been widespread interest in using Hypertext Transfer Protocol (HTTP) [1] as a substrate for other applications- level protocols. Various reasons cited for this interest have included:

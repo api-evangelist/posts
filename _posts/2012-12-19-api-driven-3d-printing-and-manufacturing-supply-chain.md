@@ -2,7 +2,7 @@
 layout: post
 title: API Driven 3D Printing and Manufacturing Supply Chain
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Manufacturing_supply_chain.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Manufacturing_supply_chain.jpg
 author:
   name: kinlane
 tags:
@@ -30,7 +30,7 @@ I've identified 10 major components of 3D printing:
 *   **[Makers](/2011/05/18/series--3d-printing--makers/ "Makers")** - The people who understand 3D printers, process, materials and industries
 *   **[Delivery](/2011/05/18/series--3d-printing--delivery/ "Delivery")** - Logistics behind getting 3D printed products to consumers
 
-Of course this is just my perspective of the industry and can evolve as I learn more, and collaborate with other industry players.![](http://kinlane-productions2.s3.amazonaws.com/3D-Printing/3d-printing-manufacturing.jpg) 
+Of course this is just my perspective of the industry and can evolve as I learn more, and collaborate with other industry players.![](https://kinlane-images.s3.amazonaws.com/shared/3D-Printing/3d-printing-manufacturing.jpg) 
 
 This series was just to help me understand the major components, and I will do another series on how APIs can impact these areas.  I also have a summary post on [ProgrammableWeb.com](http://www.programmableweb.com/ "ProgrammableWeb.com") about the role of APIs in 3D printing.
 

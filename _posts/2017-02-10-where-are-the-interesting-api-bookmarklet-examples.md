@@ -2,7 +2,7 @@
 layout: post
 title: Where Are The Interesting API Bookmarklet Examples?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/share_bookmarklet_flow.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/share_bookmarklet_flow.png
 atomdate: 2017-02-10T23:00:00.000Z
 tags:
   - Examples

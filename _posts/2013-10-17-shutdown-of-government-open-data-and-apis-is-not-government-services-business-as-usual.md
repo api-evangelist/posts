@@ -4,7 +4,7 @@ title: >-
   Shutdown of Government Open Data and APIs Is NOT Government Services Business
   As Usual
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-government.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-government.jpg
 author:
   name: kinlane
 tags:

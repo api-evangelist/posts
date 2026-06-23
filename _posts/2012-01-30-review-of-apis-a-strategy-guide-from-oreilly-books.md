@@ -4,7 +4,7 @@ title: 'Review of APIs: A Strategy Guide from O''Reilly Books'
 url: >-
   http://apievangelist.com/2012/01/30/review-of-apis-a-strategy-guide-from-oreilly-books/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apis-a-strategy-guide.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apis-a-strategy-guide.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
   - Strategy
   - APIs
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/books/apis-a-strategy-guide.png)](http://shop.oreilly.com/product/0636920021223.do)
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/books/apis-a-strategy-guide.png)](http://shop.oreilly.com/product/0636920021223.do)
 
 I had the pleasure of getting an early copy of the [APIs: A Strategy Guide](http://shop.oreilly.com/product/0636920021223.do), Creating Channels with Application Programming Interfaces, by Daniel Jacobson([@daniel\_jacobson](https://twitter.com/#!/daniel_jacobson)), Greg Brail([@gbrail](https://twitter.com/#!/gbrail)), Dan Woods([@danwoodscito](https://twitter.com/#!/danwoodscito)), published by O’Reilly Books.
 

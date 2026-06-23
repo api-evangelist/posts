@@ -7,7 +7,7 @@ tags:
   - Vendors
   - Venture Capital
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-old-small-town-buildings.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-old-small-town-buildings.jpeg
 ---
 With his latest post [API Complexity Is a Lie, How some businesses live off API complexity while others sell simplicity](https://apichangelog.substack.com/p/api-complexity-is-a-lie), Bruno Pedro nails a reality that perpetually weighs on me daily as part of my work. It is easy to be excited by the latest API hype cycle when you live in the forest, but when you regularly head up to the rocky outcropping above the forest and sit thinking as I have for almost 15 years, it becomes much harder to get excited. After a while you realize why we are still so bad at the fundamentals of HTTP APIs like paths, parameters, status codes, and the security of our APIs-—it is by design. We are told that new technology and more venture capital will be the solution to all of our complex enterprise problems, but what if it was the opposite, and as Bruno highlights we are just being played by the reality that “businesses thrive on incentivizing the growth of API complexity."
 

@@ -4,7 +4,7 @@ title: >-
   Does The Way I Look Make You Uncomfortable?  Ok Now You&#039;re Ready for
   APIs!
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Kin-Lane-2010-2012-2.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/Kin-Lane-2010-2012-2.png
 author:
   name: kinlane
 tags:

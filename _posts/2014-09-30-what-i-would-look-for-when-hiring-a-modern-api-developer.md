@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What I Would Look For When Hiring a Modern API Developer?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-people.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/what-i-would-look-for-when-hiring-a-modern-api-developer.png
 author:
   name: kinlane
 tags:

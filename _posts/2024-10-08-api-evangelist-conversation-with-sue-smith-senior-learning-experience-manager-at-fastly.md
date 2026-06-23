@@ -9,7 +9,7 @@ tags:
   - Learning
   - Developer Relations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 [Sue Smith, Senior Learning Experience Manager at Fastly](https://conversations.apievangelist.com/sessions/2024-10-08-sue-smith-fastly.html) came by to chat with me about the state of education in the tech sector. Sue has a genuine passion for education and can take just about any area of the tech landscape, dive-in, and begin helping onboard others to some very complex topics. Sue and I share a concern about the amount of investment enterprises and startups make across their operations and teams, and question that we all have enough discipline to consider ourselves engineers. 
 

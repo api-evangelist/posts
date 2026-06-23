@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Open Source Community Tooling Built on gRPC
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-working-on-railroad-1.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-working-on-railroad-1.jpg
 author:
   name: kinlane
 tags:

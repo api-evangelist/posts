@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Leveraging FastAPI to Deploy APIs in the Postman Ecosystem
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/fastapi_logo_teal.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/fastapi_logo_teal.png
 author:
   name: kinlane
 tags:

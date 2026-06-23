@@ -8,7 +8,7 @@ date: 2018-08-13T09:00:00.000Z
 tags:
   - API Evangelist
   - Documentation
-image: https://s3.amazonaws.com/kinlane-productions2/pdf-everywhere.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/pdf-everywhere.jpg
 ---
 <p></p>I look at a lot of APIs. I can tell a lot about a company, and the people behind an API from looking at their developer portal, documentation, and other building blocks of their presence. One of the more egregious sins I feel an API provider can make when operating their API is publishing their API documentation as a PDF. This is something that was acceptable up until about 2006, but over a decade after it shows that the organization behind an API hasn't done their homework.
 

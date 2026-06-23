@@ -6,10 +6,8 @@ date: 2018-01-15T15:00:00.000Z
 tags:
   - API Evangelist
   - Communications
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-comment-bubbles.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-comment-bubbles.png
 ---
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-comment-bubbles.png" align="right" width="45%" style="padding: 15px;" /></p>
-
 _This is a series of stories I'm doing as part of [my API Transit work](http://basics.apievangelist.com/), trying to map out a simple journey that some of my clients can take to rethink some of the basics of their API strategy. I'm using a subway map visual, and experience to help map out the journey, which I'm calling [API transit](http://basics.apievangelist.com/)--leveraging the verb form of transit, to describe what every API should go through._
 
 Moving further towards the human side of this API transit journey, I'd like to focus on one of the areas that I see cause the failure and stagnation of many API operations--basic communications. A lack of communication, and one way communication are the most common contributors to APIs not reaching their intended audience, and establishing much needed feedback loops that contribute to the API road map. This portion of the journey is not rocket science, it just take stepping back from the tech for a moment and thinking about the humans involved.

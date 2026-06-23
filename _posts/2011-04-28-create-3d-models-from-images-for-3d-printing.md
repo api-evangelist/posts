@@ -2,7 +2,7 @@
 layout: post
 title: Create 3D Models from Images for 3D Printing
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/3D-Printing/shapeways-drawing-to-3d-model.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/3D-Printing/shapeways-drawing-to-3d-model.jpg
 author:
   name: kinlane
 tags:

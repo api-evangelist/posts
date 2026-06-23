@@ -2,7 +2,7 @@
 layout: post
 title: Quality of Service API Endpoint For Your API Platform
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twilio-call-feedback-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twilio-call-feedback-api.png
 tags:
   - Platform
   - Quality
@@ -11,7 +11,7 @@ I'm spending a lot of time in the Twilio API ecosystem this week, so you will he
 
 Twilio's feedback API focuses on a single API resource, a call, but could just as easily be applied equally as a quality of service feedback endpoint for anything you are serving up, like video, bot responses, recommendations, and beyond. I like the idea of having one endpoint for serving up a resource, and another endpoint for reporting the quality of service around the resource. 
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twilio-call-feedback-api.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twilio-call-feedback-api.png)
 
 Now that I have filed a report on Twilio's approach to using APIs as part of their platform operations, I will be keeping a closer eye out for other platforms doing similar things. I will consider adding it to my stack of existing API infrastructure APIs, alongside access to account, application, billing, and analytics via an API.
 

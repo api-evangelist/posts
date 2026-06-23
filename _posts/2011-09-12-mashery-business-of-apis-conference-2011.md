@@ -3,7 +3,7 @@ layout: post
 title: Mashery Business of APIs Conference 2011
 url: http://apievangelist.com/2011/09/12/mashery-business-of-apis-conference-2011/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mashery-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mashery-logo.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
   - Business of APIs
   - APIs
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-service-providers/mashery-logo.png)](http://www.mashery.com "Mashery")[Mashery](http://www.mashery.com "Mashery") has announced the 2011 Business of APIs event series in October.  [The Business of APIs Conference](http://apiconference.com/ "The Business of APIs Conference") discusses winning strategies for API businesses, how to grow a successful developer program, and what the future holds for the business of APIs.  
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/shared/api-service-providers/mashery-logo.png)](http://www.mashery.com "Mashery")[Mashery](http://www.mashery.com "Mashery") has announced the 2011 Business of APIs event series in October.  [The Business of APIs Conference](http://apiconference.com/ "The Business of APIs Conference") discusses winning strategies for API businesses, how to grow a successful developer program, and what the future holds for the business of APIs.  
   
 There are events in three cities
 

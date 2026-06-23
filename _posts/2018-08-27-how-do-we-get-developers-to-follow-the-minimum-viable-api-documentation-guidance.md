@@ -11,7 +11,7 @@ tags:
   - Governance
   - Culture
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/va-working/api-documentation-guidance-1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/va-working/api-documentation-guidance-1.png
 ---
 <p></p>After [providing some guidance the other day on how teams should be documenting their APIs](https://apievangelist.com/2018/08/24/how-should-teams-be-documenting-their-are-new-and-legacy-apis/), one of the follow up comments was: "Now we just have to figure out how to get the developers to follow the guidance!" Something that any API leadership and governance team is going to face as they work to implement new policies across their organization. You can craft the best possible guidance for API design, deployment, management, and documentation, but it doesn't mean anyone is actually going to follow your guidance.
 
@@ -22,7 +22,7 @@ The best way to get developers to follow the minimum viable API documentation gu
 
 **Make It A Group Effort**<br />
 To help get API developers on board with the minimum viable API documentation guidance being set forth, I recommend making it a group effort. Recruit help from developers to improve upon API documentation templates provided, and encourage them to extend, evolve, and push forward their individual API documentation implementations. Give API developers a stake in how you define governance for API documentation--not everyone will be up for the task, but you'd be surprised who will raise their hand to contribute if they are asked.
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/va-working/api-documentation-guidance-2.png" width="45%" align="right" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/va-working/api-documentation-guidance-2.png" width="45%" align="right" style="padding: 15px;" /></p>
 **Provide Incentive Model**<br />
 This is something that will vary in effectiveness from organization to organization, but consider offering a reward, benefit, perk, or some other incentive to any group who adopts the API documentation guidance. Provide them with praise, and showcase their work. Bring exposure to their work with leadership, and across other groups. Brainstorm creatives ways of incentivizing development groups to get more involved. Establish a list of all development groups, track on ideas for incentivizing their participation and adoption, and work regularly to close them on playing an active role in moving forward your organization's API documentation strategy.
 

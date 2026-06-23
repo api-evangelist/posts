@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Patent #9397835, Web of trust management in a distributed system'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/gypsy-eyes_blue_circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/patent-9397835-web-of-trust-management-in-a-distributed-system.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/gypsy-eyes_blue_circuit.jpg" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p>I found a couple more API patents in my notebook that I wanted to get published. I try to take time regularly to publish the strangest API related patents I can find. Today’s patent is out of Amazon, which I find to be a fascinating outlet for patent storytelling. It isn’t squarely in the realm of APIs like some of my others, but I think tells a fascinating story by itself, showing how the web and the concept of a patent are colliding.
 
 <p>Title - <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&amp;Sect2=HITOFF&amp;p=1&amp;u=/netahtml/PTO/search-bool.html&amp;r=1&amp;f=G&amp;l=50&amp;d=PALL&amp;RefSrch=yes&amp;Query=PN/9397835">Web of trust management in a distributed system</a><br />

@@ -5,7 +5,7 @@ title: >-
   API Examples, Schema, Mocks, Static, Synthetic, Dynamic, Data, Functions,
   Frameworks, Gateway, Deployment, Documentation, and Client
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/life_purpose_venn_diagram.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/life_purpose_venn_diagram.jpg
 author:
   name: kinlane
 tags:
@@ -44,4 +44,4 @@ One things that really fascinates me here is the line between a dynamic mock API
 
 I am going to keep noodling on this one. I am stuck on this line between mock and deployment right now. I am also stuck between reality on the ground at enterprise organizations and the right way of doing things. I am determined to better define the API deployment process and bring it out of the shadows with some clearly defined steps, while also working to identify the common API deploy patterns that exist within the enterprise. While I am eager to flesh out what the best practices are when it comes to deploying many different types of APIs, I am also painfully aware that not everyone will get to adopt best practices on the ground with their organizations, as they are just expected to get a job done. I am looking for quick examples of how API development teams can be changing their behavior in incremental ways to be more successful in what they are trying to do. I am also very interested in shining a light into the world of API deployment at the enterprise level because historically it is a process that many organizations keep to themselves, and isn’t something very many API service providers have historically helped out with. There is a lot to learn at this layer, and seismic shifts coming in the next ten years when it comes to how we deploy API infrastructure.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/life_purpose_venn_diagram.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/life_purpose_venn_diagram.jpg)

@@ -8,7 +8,7 @@ tags:
   - Infrastructure as Code
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/purple-circuit-statue-supreme-court.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/purple-circuit-statue-supreme-court.jpg
 ---
 It is interesting to think of the different ways in which APIs are put to use and how some of those applications have a loud venture-backed bullhorn, while others do not. Mobile definitely possessed a loud bullhorn at one point in time, and now AI has the bullhorn in this moment, but there are other approaches to integrating with APIs, like in support of infrastructure as code that could have even more of an impact. I was just reading [API characteristics that make it harder to integrate Infrastructure as Code tools by Brian Grant](https://itnext.io/api-characteristics-that-make-it-easier-or-harder-to-integrate-infrastructure-as-code-tools-7a1910e6ed94), and enjoyed distilling down their list of concerns and doing a diff with my own API governance policies and rules. 
 

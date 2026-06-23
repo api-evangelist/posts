@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Twilio Process To Emulate Within Your Own API Operations
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-recycling.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-recycling.jpg
 atomdate: 2016-09-19T22:00:00.000Z
 tags:
   - Operations

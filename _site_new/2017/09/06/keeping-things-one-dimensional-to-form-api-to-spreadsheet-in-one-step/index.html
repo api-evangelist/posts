@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I have been working on the next version of my human services work, which provides a way for cities to make information about organizations, locations, and se...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-to-spreadsheet.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-to-spreadsheet.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -43,7 +43,7 @@
     <meta name="twitter:title" content="Keeping Things One Dimensional To Go From API To Spreadsheet In One Step">
     
     <meta name="twitter:description" content="I have been working on the next version of my human services work, which provides a way for cities to make information about organizations, locations, and se...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-to-spreadsheet.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-to-spreadsheet.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -53,7 +53,7 @@
       "@type": "Article",
       "headline": "Keeping Things One Dimensional To Go From API To Spreadsheet In One Step",
       "description": "I have been working on the next version of my human services work, which provides a way for cities to make information about organizations, locations, and se...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-to-spreadsheet.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-to-spreadsheet.png",
       "datePublished": "2017-09-06T05:00:00-04:00",
       "dateModified": "2017-09-06T05:00:00-04:00",
       "author": {
@@ -66,7 +66,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -364,7 +364,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -394,7 +394,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -728,11 +728,11 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-to-spreadsheet.png" alt="Keeping Things One Dimensional To Go From API To Spreadsheet In One Step" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-to-spreadsheet.png" alt="Keeping Things One Dimensional To Go From API To Spreadsheet In One Step" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
-        <p><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-to-spreadsheet.png" align="right" width="40%" style="padding: 15px;" /></p>
+        <p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-to-spreadsheet.png" align="right" width="40%" style="padding: 15px;" /></p>
 <p>I have been working on the next version of <a href="http://org.open.referral.adopta.agency/">my human services work</a>, which provides a way for cities to make information about organizations, locations, and services available on the web. Part of the feedback from the community around what was missing from the last version, was the number of API calls you needed to make to get a complete representation of a resource, and its sub-resources, as each API response was one dimensional. An example would be that you could get a list of locations, but to get at the list of services you had to make a separate API call. This wasn’t a lapse in API design, it was a result of the schema being born out of a CSV format, and me working to stay true to the original design, and usage of the schema.</p>
 
 <p>In the latest version, I did release a handful of paths that provide a complete representation of each resource and it’s sub-resources. However, I have maintained the original one dimension representation of each resource and sub-resources, allowing me to offer an XML, JSON, as well as CSV representation for each API call. This allows API consumers to pull CSV lists of organizations, locations, services, and their sub-resources like address and phone lists. While not something that would be useful in all API implementations, I feel like the audience for municipal level human services data will benefit significantly being able to go from API to spreadsheet in a single step. All the GET paths for organizations, locations, and services are publicly available by default, not requiring authentication, making CSV data available via a single URL–something anyone can make happen.</p>

@@ -9,7 +9,7 @@ tags:
 image: >-
   http://i1.wp.com/restlet.dreamhosters.com/wp-content/uploads/2013/12/kinlane.png
 ---
-<p><img src="http://i1.wp.com/restlet.dreamhosters.com/wp-content/uploads/2013/12/kinlane.png" align="right" width="40%" style="padding: 15px;" /></p>
+<p></p>
 _I am spending two days this week with the [Capital One DevExchange](https://developer.capitalone.com/) team outside of Washington DC, and they've provided me with a list of questions for one of our sessions, which they will be recording for internal use. To prepare, I wanted to work through my thoughts, and make sure each of these answers were on the tip of my tongue--here is one of those questions, along with my thoughts._
 
 The idea of an influencer in the API space will mean many things to many different people. I have pretty strong opinions about what an influencer should do, and it is always something that should be as free of product pitches as it possibly can. Influencing someone in the API space should mean that you are not just influencing their decision to buy your product or service. That is sales, which has it's place, but we are talking about influencing. I would also add that influencing SHOULD NOT be steeped in convincing folks regarding what they should invest in, at the technology purchasing level, all the way up to the venture capital level. The role of an influencer in the API industry should always be about education, awareness, and helping influence how average flks get everyday problems solved. 

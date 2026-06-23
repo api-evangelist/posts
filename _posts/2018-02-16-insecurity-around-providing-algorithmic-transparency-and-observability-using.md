@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Insecurity Around Providing Algorithmic Transparency And Observability Using'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/68_113_800_500_0_max_0_-1_-1.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/insecurity-around-providing-algorithmic-transparency-and-observability-using.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/68_113_800_500_0_max_0_-1_-1.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p><a href="https://streamdata.io/blog/benchmark-quantifying-api-performance/">I’m working on a ranking API for my partner Streamdata.io to help quantify the efficiencies they bring to the table when you proxy an existing JSON web API using their service</a>. I’m evolving an algorithm they have been using for a while, wrapping it in a new API, and applying it across the APIs I’m profiling as part of my <a href="http://theapistack.com">API Stack</a>, and the <a href="https://streamdata.io/developers/api-gallery/">Streamdata.io API Gallery</a> work. I can pass the ranking API any OpenAPI definition, and it will poll and stream the API for 24 hours, and return a set of scores regarding how real time the API is, and what the efficiency gains are when you use Streamdata.io as a proxy for the API.
 
 <p>As I do this work, I find myself thinking more deeply about the role that APIs can play in helping make algorithms more transparent, observable, and accountable. My API ranking algorithm is pretty crude, but honestly it isn’t much different than many other algorithms I’ve seen companies defend as intellectual property and their secret sauce. Streamdata.io is invested in the ranking algorithm and API being as transparent as possible, so that isn’t a problem here, but each step of the process allows me to think through how I can continue to evangelize other algorithm owners to use APIs, to make their algorithms more observable and accountable.

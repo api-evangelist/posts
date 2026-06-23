@@ -3,7 +3,7 @@ published: true
 layout: post
 title: What Else Has Influenced APIs Over the Last 50+ Years?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-old-gas-station_35891228584_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-old-gas-station_35891228584_o.jpg
 author:
   name: kinlane
 tags:

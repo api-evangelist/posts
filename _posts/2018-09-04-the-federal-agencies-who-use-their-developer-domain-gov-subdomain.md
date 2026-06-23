@@ -9,7 +9,7 @@ tags:
   - DNS
   - Portals
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/federal-goverment-portals.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/federal-goverment-portals.png
 ---
 <p></p>I was reviewing the new developer portal for the Department of Veterans Affairs (VA), and one of things I took notice of, was their use of the developer.va.gov subdomain. In my experience, the API efforts that invest in a dedicated subdomain, and specifically a developer dot subdomain, tend to more invested in what they are doing than efforts that publish to a subfolder, or subsection of their website. As I was writing this post, I had a question in arise in my mind, regarding how many other federal agencies use a dedicated subdomain for their developer programs--something I wanted to pick up later, and understand the landscape a little more.
 

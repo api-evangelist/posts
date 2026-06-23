@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'That Point Where API Session Management Become API Surveillance'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/border-traffic.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/that-point-where-api-session-management-become-api-surveillance.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/border-traffic.jpg" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p><a href="https://www.youtube.com/watch?v=i7YUymQkZ_8&amp;feature=youtu.be">I was talking to my friends TC2027 Computer and Information Security class at Tec de Monterrey via a Google hangout today</a>, and one of the questions I got was around managing API sessions using JWT, which was spawned from a <a href="https://blog.websecurify.com/2017/02/hacking-json-web-tokens.html">story about security JWT</a>. A student was curious about managing session across API consumption, while addressing securing concerns, making sure tokens aren’t abused, and there isn’t API consumption from 3rd parties who shouldn’t have access going unnoticed.
 
 <p>I feel like there are two important, and often competing interests occurring here. We want to secure our API resources, making sure data isn’t leaked, and prevent breaches. We want to make sure we know who is accessing resources, and develop a heightened awareness regarding who is accessing what, and how they are putting them to use. However, the more we march down the road of managing session, logging, analyzing, tracking, and securing our APIs, we are also simultaneously ramping up the surveillance of our platforms, and the web, mobile, network, and device clients who are putting our resources to use. Sure, we want to secure things, but we also want to think about the opportunity for abuse, as we are working to manage abuse on our platforms.

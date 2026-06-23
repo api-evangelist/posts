@@ -8,7 +8,7 @@ tags:
   - Producing
   - Costs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-adam-smith-edinburgh.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-adam-smith-edinburgh.jpg
 ---
 [Augmenting my research yesterday into how many APIs does the average company have, I am working to answer how much does it cost to build an API](https://apievangelist.com/2024/11/26/how-many-apis-does-the-average-enterprise-have/). It is a very different but related question, with a whole different set of actors answering the question. I would say that I get a lot more concrete answers with a pretty clear range of costs of what it takes to produce an API these days.
 

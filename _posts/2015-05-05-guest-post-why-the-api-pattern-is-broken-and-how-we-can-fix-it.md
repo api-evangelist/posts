@@ -5,8 +5,6 @@ source: http://apievangelist.com/2015/05/05/guest-post-why-the-api-pattern-is-br
 domain: apievangelist.com
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/owen-rubel-icon.jpeg
 ---
-
-<p><a href="https://twitter.com/OwenRubel"><img style="padding: 10px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/owen-rubel-icon.jpeg" alt="" width="100" align="right" /></a></p>
 <p align="center" style="font-color#FF0000"><strong>Has Owen Rubel emailed you, commented on your thread, called you or your co-workers? <br /> Your not alone, feel free to contact me for more information.</strong></p>
 <p><em>This a guest post by Owen Rubel, fellow API architect, and "master of api automation, creator of #iostate, #apichaining". I am working with Owen to better understand API Chaining, and how it can be applied in several projects I am working on. Owen was kind enough to craft this post, to better help me understand is vision, as well as share with my audience. If you want to find out more about Owen, you can follow him on Twiiter <a href="https://twitter.com/OwenRubel">@OwenRubel</a>, and visit his <a href="https://github.com/orubel">Github repository</a> for the more technical side of his work.</em></p>
 <p>In the early days of API development, the concept of the API was simple. It was designed as an interface to a separation of concern with two sets of functionality: standardized I/O and resource management. This was very convenient when the communication was localized in the application as the bound I/O state for an API call didn't have to be shared with external components. (see fig 1.)</p>

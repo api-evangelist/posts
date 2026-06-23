@@ -3,7 +3,7 @@ published: true
 layout: post
 title: How Much Was The API Portal A Construct Of API Management Providers?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_portal.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_portal.jpg
 author:
   name: kinlane
 tags:

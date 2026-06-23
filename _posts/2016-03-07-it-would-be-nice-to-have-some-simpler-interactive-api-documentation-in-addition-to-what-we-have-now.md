@@ -3,7 +3,7 @@ layout: post
 title: >-
   It Would Be Nice To Have Some Simpler Interactive API Documentation In
   Addition To What We Have Now
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-documentation.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-documentation.png
 tags:
   - Documentation
   - ddi

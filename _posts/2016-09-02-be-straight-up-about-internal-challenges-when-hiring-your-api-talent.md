@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Be Straight Up About Internal Challenges When Hiring Your API Talent
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-brick-wall.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-brick-wall.png
 atomdate: 2016-09-02T18:00:00.000Z
 tags:
   - Talent

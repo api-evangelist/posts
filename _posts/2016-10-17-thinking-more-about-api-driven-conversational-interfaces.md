@@ -2,7 +2,7 @@
 layout: post
 title: Thinking More About API Driven Conversational Interfaces
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-conversational-interfaces.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-conversational-interfaces.png
 atomdate: 2016-10-17T22:00:00.000Z
 tags:
   - Conversational Interfaces

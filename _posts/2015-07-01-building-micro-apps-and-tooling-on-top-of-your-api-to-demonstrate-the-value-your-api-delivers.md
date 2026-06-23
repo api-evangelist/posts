@@ -4,7 +4,7 @@ title: >-
   Building Micro Apps and Tooling On Top Of Your API To Demonstrate The Value
   Your API Delivers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/audiosearch-people-index.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/audiosearch-people-index.png
 author:
   name: kinlane
 tags:

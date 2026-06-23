@@ -9,7 +9,7 @@ tags:
   - Source Control
   - Pipelines
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-factory-road.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-factory-road.jpg
 ---
 I have used a lot of different analogies over my fifteen years as the API Evangelist, but moving forward you will hear me stick with the API factory floor to describe what we do with source control, pipelines, and gateways. I think we technologists like to jump around in our analogies, and I think it will be helpful if we stick with a familiar one during this time where we do the work to align business and engineering interests across the API lifecycle. The APIs we consume are clearly our supply chain, but our factory floor represents the APIs we produce, bringing our source control, CI/CD pipelines, and API gateways into focus beyond just IT, and getting business stakeholders involved to help align the delivery of digital resources and capabilities with business objectives.
 

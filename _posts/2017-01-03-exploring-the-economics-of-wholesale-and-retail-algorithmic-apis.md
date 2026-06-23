@@ -2,7 +2,7 @@
 layout: post
 title: Exploring The Economics of Wholesale and Retail Algorithmic APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/algorithmia_pricing_how_it_works.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/algorithmia_pricing_how_it_works.png
 atomdate: 2017-01-03T20:00:00.000Z
 tags:
   - Wholesale
@@ -20,7 +20,7 @@ The first "rabbit hole" concept I fell into when doing the research on Algorithm
 **Developing My Own API Layer For Working With Images and Videos**  
 Once I had experience using Algorithmia's deep filter via their API, and had produced a handful of my own style transfer models, I got to work designing my own process for uploading and applying the filters to images, then eventually separating out videos into individual images, applying the filters, then reassembling them into videos. The entire process, start to finish is a set of APIs, with a couple of them simply acting as a facade for Algorithmia's file upload, download, and DeepFilter APIs. It provided me with a perfect hypothetical business for thinking through the economics of building on top of Algorithmia's platform.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/algorithmia_pricing_how_it_works.png)](https://algorithmia.com/pricing)
+[![](https://kinlane-images.s3.amazonaws.com/shared/blog/algorithmia_pricing_how_it_works.png)](https://algorithmia.com/pricing)
 
 **Defining My Hard Costs of Algorithmia's Service and the AWS Compute Needed**  
 Algorithmia provides [a pricing calculator along with each of their algorithms](https://algorithmia.com/algorithms/deeplearning/DeepFilter), allowing you to easily predict your costs. They charge you per API call, and the compute usage by the second. Each API has its own calculator, and average runtime duration costs, so I'm easily able to calculate a per image cost to apply filters--something that exponentially grows when you are applying to 60 frames (images) per second of video. Similarly, when it comes to training filter models using AWS EC2 GUP instance, I have a per hour charge for compute, storage costs, and (now) a pretty good idea of how many hours it takes to make a single filter. 

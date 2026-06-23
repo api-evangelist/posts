@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Providing Branding And Attribution Assets With Each API Response
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-brand.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-brand.png
 atomdate: 2016-09-22T16:00:00.000Z
 tags:
   - Branding

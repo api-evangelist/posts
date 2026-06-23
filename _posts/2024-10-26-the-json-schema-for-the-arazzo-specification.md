@@ -7,7 +7,7 @@ tags:
   - JSON Schema
   - OpenAPI
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-docks-big-cosco-ship.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-docks-big-cosco-ship.jpg
 ---
 When I am learning any new specification, I always look for the JSON Schema behind it. This essential artifact is your map to any schema or specification. It is the truth. It is what will validate your work as you are fumbling your way through learning the properties and shape of any specification and schema. As I dive into better understanding where the Arazzo specification fits into my APIs.json, OpenAPI, and JSON Schema driven world, I immediately go looking for the [JSON Schema for the Arazzo](https://github.com/OAI/Arazzo-Specification/tree/v1.0.0-dev/schemas/v1.0).
 

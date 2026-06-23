@@ -4,7 +4,7 @@ title: >-
   Automating API Key Management Using API Service Provider APIs, And Other Open
   Source Solutions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-key-management-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-key-management-api.png
 author:
   name: kinlane
 tags:

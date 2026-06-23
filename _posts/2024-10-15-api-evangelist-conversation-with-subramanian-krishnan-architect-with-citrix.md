@@ -10,7 +10,7 @@ tags:
   - Customers
   - Conversations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 Subramanian Krishnan, or simply "Subu", Architect and API Integration at Cloud Software Group within Citrix joined came by for an API Evangelist Conversation. Subu was one of the accumulated driving forces that pushed me towards a focus on API governance after our Breaking Changes episode in 2022. So I was happy to have him back to learn more about their API journey. Subu is always pragmatic, seeing the technology, business, and people of APIs equally, which I find to be a rare skill in the world of APIs. So, I enjoyed learning about Subu's push into financial optimization and focus on what Citrix's customers are needing--which is a shift I am seeing beyond just Citrix, and something that is unfolding across many enterprises as they look to do more with fewer resources.
 

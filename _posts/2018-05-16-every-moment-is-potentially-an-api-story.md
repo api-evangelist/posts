@@ -8,7 +8,7 @@ tags:
   - Storytelling
   - Communication
   - Evangelism
-image: https://s3.amazonaws.com/kinlane-productions2/skylight/skylight-home.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/skylight/skylight-home.png
 ---
 <p><a href="https://skylight.digital/"></a></p>I was on a call for a federal government API platform project with my partner in crime Chris Cairns ([@cscairns](https://twitter.com/cscairns)) of [Skylight.Digital](https://skylight.digital/). We were back channeling in our Slack channel during the call, when he said, _"I always imagine you participating in these things, finding topics you haven't covered or emphasized from a certain angle, and then writing a blog post in real time."_ He was right, I had taken notes on a couple of new angles regarding the testing, monitoring, and understanding performance of APIs involved with federal government projects.
 

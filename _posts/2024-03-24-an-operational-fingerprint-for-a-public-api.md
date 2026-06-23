@@ -3,7 +3,7 @@ published: true
 layout: post
 title: An Operational Fingerprint for a Public API
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-gears-pipes-plumbing.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-gears-pipes-plumbing.jpg
 author:
   name: kinlane
 tags:

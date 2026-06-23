@@ -2,7 +2,7 @@
 layout: post
 title: Having A Program For Researchers Baked Into Your API Operations
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_09_at_12.15.02_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_02_09_at_12.15.02_pm.png
 atomdate: 2017-02-09T23:00:00.000Z
 tags:
   - Research

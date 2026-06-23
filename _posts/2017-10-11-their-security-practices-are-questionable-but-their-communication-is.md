@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Their Security Practices Are Questionable But Their Communication Is'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/status-berlin_propaganda_leaflets.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/their-security-practices-are-questionable-but-their-communication-is.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/status-berlin_propaganda_leaflets.jpg" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p>I study the API universe every day of the week, looking for common patterns in the way people are using technology. <a href="http://apievangelist.com/api-lifecycle/">I study almost 100 stops along the API lifecycle</a>, looking for healthy practices that companies, organizations, institutions, and government agencies can follow when dialing in their API operations. Along the way I am also looking for patterns that aren’t so healthy, which are contributing to many of the problems we see across the API sector, but more importantly the applications and devices that they are delivering valuable data, content, media, and algorithms to.
 
 <p><a href="http://security.apievangelist.com/">One layer of my research is centered around studying API security</a>, which also includes keeping up with <a href="http://vulnerabilities.apievangelist.com/">vulnerabilities</a> and <a href="http://breaches.apievangelist.com/">breaches</a>. I also pay attention to <a href="http://cybersecurity.apievangelist.com/">cybersecurity</a>, which is a more theatrical version of regular security, with more drama, hype, and storytelling. I’ve been reading everything I can on the Equifax, Accenture, and other scary breaches, and like the other areas of the industry I track on, I’m beginning to see some common patterns emerge. It is something that starts with the way we use (or don’t use) technology, but then is significantly amplified by the human side of things.

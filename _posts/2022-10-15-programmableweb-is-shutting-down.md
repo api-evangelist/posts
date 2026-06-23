@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: ProgrammableWeb is Shutting Down
-image: https://kinlane-productions2.s3.amazonaws.com/programmable-web-then-now.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/programmable-web-then-now.png
 author:
   name: kin
 tags:

@@ -4,8 +4,6 @@ layout: post
 title: 'The OpenAPI-Powered Mock API Server From Stripe'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/stripe/stripe-mock-api-server.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/stripe/stripe-mock-api-server.png" align="right" width="45%" style="padding: 15px;" />
 <p>I showcased Stripe’s OpenAPI definition the other week, so I wanted to also highlight a side effect of Stripe deciding to be OpenAPI-Driven. <a href="https://github.com/stripe/stripe-mock#development">Stripe recently published an OpenAPI-powered mock server</a>, allowing Stripe API consumers to test drive, and play with the Stripe API in a simulated environment. “It operates statelessly (i.e. it won’t remember new resources that are created with it) and responds with sample data that’s generated using a similar scheme to the one found in the API reference.”
 
 <p>The Stripe Mock Server is written in Go, and <a href="https://github.com/stripe/stripe-mock">is available on Github</a>. You can rebuild the Stripe API mock server from an updated OpenAPI anytime. It is a pretty dead simple mock server that seems like should be standard practice for any API. Providing a simple, safe, and portable way to play with an API. I’m going to fork the Stripe Mock API and play with it, see what is possible with the tool.

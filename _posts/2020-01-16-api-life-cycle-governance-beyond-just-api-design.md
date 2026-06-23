@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Life Cycle Governance Beyond Just API Design
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-working-waterfront-2.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-working-waterfront-2.jpg
 author:
   name: kinlane
 tags:

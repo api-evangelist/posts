@@ -4,8 +4,6 @@ layout: post
 title: 'Understanding The Words We Use To Describe Machine Learning APIs'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/mining-machine-learning.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/mining-machine-learning.png" align="right" width="40%" style="padding: 15px;" />
 <p>I spend a lot of time trying out new APIs, working to understand what it is they do, or do not do. I have a pretty robust way of looking at APIs, profiling the company, and the APIs they offer, but when I’m wading through the marketing content, API documentation, and other resources, I am regularly stumped by the language that is used to describe what an API does. Honestly, this problem isn’t exclusive to machine learning APIs, but with the recent explosion in artificial intelligence, machine learning, deep learning, cognitive and other types of algorithmic voodoo, the words being used seem to have gone to entirely new levels.
 
 <p>I am interested in understanding what it is an API does. I want to go from zero to understanding in 2.34 seconds. I don’t want to wade through marketing, and documentation to understand what an API does. I want to find simple, concise language that properly describes an API. In the world of artificial intelligence, this can be difficult to do, and is something that varies from provider to provider. Some machine learning API providers are better at describing what they do, while others seem to prefer hype, and fluff when it comes to explaining what is actually possible.

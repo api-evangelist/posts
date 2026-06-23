@@ -2,7 +2,7 @@
 layout: post
 title: Service Level Agreements for Researchers Who Depend On APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-service-level-agreements.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-service-level-agreements.png
 atomdate: 2017-01-09T20:00:00.000Z
 tags:
   - Service Level Agreements

@@ -3,7 +3,7 @@ layout: post
 title: >-
   When You Are Ready For Nuanced Discussion About Who Has Access To Your API I
   Am Here
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-conductor.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-conductor.png
 author:
   name: kinlane
 tags:

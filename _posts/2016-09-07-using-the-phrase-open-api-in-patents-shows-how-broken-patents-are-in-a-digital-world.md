@@ -4,7 +4,7 @@ layout: post
 title: >-
   Using The Phrase Open API In Patents Shows How Broken Patents Are In A Digital
   World
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-broken-media.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-broken-media.png
 author:
   name: kinlane
 tags:

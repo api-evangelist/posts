@@ -5,7 +5,7 @@ title: >-
   Talking About the Importance of API Specifications with Marjukka Niinioja
   (@mniinioja)
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_spec_toolbox_conversations_marjukka.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_spec_toolbox_conversations_marjukka.png
 author:
   name: kinlane
 tags:

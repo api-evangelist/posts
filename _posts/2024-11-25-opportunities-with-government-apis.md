@@ -7,7 +7,7 @@ tags:
   - State Government
   - City Government
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/state-2017/kin-lane-presidential-innovation-fellow.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/state-2017/kin-lane-presidential-innovation-fellow.png
 ---
 I am diving back into my work to profile government APIs, and had a friend inquire about the opportunities that exist in the cracks of government APIs, so I figure I’d try to load as much of it back up into my head as possible, and share a few links with folks along the way. I will try to keep short and concise, and let past work, and upcoming work speak for itself, but I want to try to capture the momentum and interest I’ve had over the years. There is always a massive opportunity to build on top of the valuable digital resources produced as part of our government, but it is something that is rarely done well, and an opportunity that shifts dramatically from administration to administration.
 

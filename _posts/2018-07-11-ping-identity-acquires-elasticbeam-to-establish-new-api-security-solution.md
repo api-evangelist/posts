@@ -10,7 +10,7 @@ tags:
   - Security
   - Acquisitions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/elastic-beam/image.ping.480.medium.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/elastic-beam/image.ping.480.medium.png
 ---
 <p></p>You don't usually find me writing about API acquisitions unless I have a relationship with the company, or there are other interesting aspects of the acquisition that makes it noteworthy. [This acquisition of Elastic Beam by Ping Identity](https://www.pingidentity.com/en/company/press-releases-folder/2018/ping-identity-acquires-elastic-beam-launches-new-ai-driven-solution-to-secure-apis.html) has a little of both for me, as I've been working with the Elastic Beam team for over a year now, and I've been interested in what Ping Identity is up to because of some research I am doing around open banking in the UK, and the concept of an industry level API identity and access management, as well as API management layer. All of which makes for an interesting enough mix for me to want to quantify here on the blog and load up in my brain, and share with my readers.
 

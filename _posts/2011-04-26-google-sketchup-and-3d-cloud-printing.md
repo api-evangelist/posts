@@ -2,7 +2,7 @@
 layout: post
 title: Google Sketchup and 3D Cloud Printing
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/google-sketchup/Google-SketchUp.png
+  https://kinlane-images.s3.amazonaws.com/shared/google-sketchup/Google-SketchUp.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
 ---
 I'm doing a lot of researching and thinking about the future of commercial printing, 3D printing, and manufacturing.
 
-Yesterday I was brainstorming on [3D printing and manufacturing with Google](http://www.kinlane.com/2011/04/3d-printing-and-manufacturing-with-google/ "3D printing and manufacturing with Google").![](http://kinlane-productions2.s3.amazonaws.com/google-sketchup/Google-SketchUp.png)
+Yesterday I was brainstorming on [3D printing and manufacturing with Google](http://www.kinlane.com/2011/04/3d-printing-and-manufacturing-with-google/ "3D printing and manufacturing with Google").![](https://kinlane-images.s3.amazonaws.com/shared/google-sketchup/Google-SketchUp.png)
 
 Tonight I'm learning more about [Google SketchUp](http://sketchup.google.com/intl/en/ "Google SketchUp"),which [Google added toGoogle Apps](http://googlesmb.blogspot.com/2010/12/now-available-with-google-apps-google_03.html "Google added to Google Apps") in December of 2010.
 
@@ -25,7 +25,7 @@ They also provide a [3D Warehouse](http://sketchup.google.com/intl/en/product/3d
 
 There is a [community of resources](http://sketchup.google.com/intl/en/community/ "community of resources") as well as [training](http://sketchup.google.com/intl/en/training/ "training") and [education](http://sketchup.google.com/intl/en/industries/education.html "education") materials to learn about the platform.
 
-Everything is there to build models to be used in 3D printing and manufacturing. The only missing link right now is integration with Google Cloud Print.![](http://kinlane-productions2.s3.amazonaws.com/3D-Printing/shapeways_logo.png)
+Everything is there to build models to be used in 3D printing and manufacturing. The only missing link right now is integration with Google Cloud Print.![](https://kinlane-images.s3.amazonaws.com/shared/3D-Printing/shapeways_logo.png)
 
 Maybe Google will support STL file printing in the [Google Cloud Print (GCP) Services Interface](http://www.kinlane.com/category/google/google-cloud-print-services-interface/ "Google Cloud Print Services Interface") soon.
 

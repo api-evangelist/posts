@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Simple Or Complex API Collections For Different Levels Of API Consumers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-file-00-00-00-00-frozen-tree-sun-square.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-square-file-00-00-00-00-frozen-tree-sun-square.jpg
 author:
   name: kinlane
 tags:

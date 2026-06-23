@@ -2,7 +2,7 @@
 layout: post
 title: The Ability To Deploy APIs In AWS, Google, or Microsoft Clouds
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_google_aws_microsoft.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_google_aws_microsoft.png
 atomdate: 2017-03-16T19:00:00.000Z
 tags:
   - Cloud

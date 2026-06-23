@@ -2,7 +2,7 @@
 layout: post
 title: The 30 Areas I Am Working To Define In The API Space
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-watching-api-space.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-watching-api-space.png
 author:
   name: kinlane
 tags:

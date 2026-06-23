@@ -9,7 +9,7 @@ tags:
   - Speaking
   - London
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-conference/api-conference-keynote-details.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-conference/api-conference-keynote-details.png
 ---
 <p></p>I am hitting the road this week heading to London to speak at [the API Conference](https://apiconference.net). I will be giving a keynote on Thursday afternoon, and conducting an all day workshop on Friday. Both of my talks are a continuation of my API life cycle work, and pushing forward my use of a transit map to help me make sense of the API life cycle. My keynote will be covering the big picture of why I think the transit model works for making sense of complex infrastructure, and my workshop is going to get down in the weeds with it all.
 

@@ -4,8 +4,6 @@ layout: post
 title: 'Version 1.2 Draft Of The Human Services Data API'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/open-referral/hsda-v1-2.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/open-referral/hsda-v1-2.png" align="right" width="40%" style="padding: 15p;" />
 <p>I have been working on the next version of the Human Services Data API (HSDA) OpenAPI lately, taking all the comments from the Github repository, and pushing forward the specification as far as I can with the minor v1.2 release. <a href="https://github.com/openreferral/api-specification/issues?q=is%3Aissue+is%3Aopen+label%3Av1.2">I have the Github issues organized by v1.2</a>, and have invested time moving forward the OpenAPI for the project, as well as my demo site for the effort.
 
 <p>With this release I am focusing on six main areas, based upon feedback from the group, and what makes sense to move forward without any non-breaking changes:

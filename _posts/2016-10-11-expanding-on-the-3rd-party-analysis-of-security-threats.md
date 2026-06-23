@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Expanding On The 3rd Party Analysis Of Security Threats
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cybersecurity-2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-cybersecurity-2.png
 atomdate: 2016-10-11T22:00:00.000Z
 tags:
   - Analysis

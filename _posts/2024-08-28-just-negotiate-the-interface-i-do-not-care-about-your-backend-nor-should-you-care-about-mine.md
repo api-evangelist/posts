@@ -10,7 +10,7 @@ tags:
   - Backend
   - Programming Languages
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-fixing-cross.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-fixing-cross.jpg
 ---
 I am always fascinated by how us technologists can’t leave our backends out of API discussions. Keeping an API design conversation just about the interface between a producer and consumers proves to be one of the most difficult things about collaborating within or across teams. Sure, there are plenty of backend concerns expressed in interfaces, but those things need to be abstracted away and distilled down into only what is needed for a single, or series of API transactions with consumers. When you come to an API collaboration session, please leave your language and backend dogma at your desk, and let’s negotiate only what is needed to get this one job done.
 

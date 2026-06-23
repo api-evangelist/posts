@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'My GraphQL Thoughts After Almost Two Years'
-image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/16_38_600_500_0_max_1_0_-2.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/my-graphql-thoughts-after-almost-two-years.png
 ---
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/16_38_600_500_0_max_1_0_-2.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>It has been almost a year and half since I first wrote <a href="http://apievangelist.com/2016/08/30/graphql-seems-like-we-do-not-want-to-do-the-hard-work-of-api-design/">my post questioning that GraphQL folks didn’t want to do the hard work of API design</a>, which I also <a href="http://apievangelist.com/2016/09/02/i-am-keeping-my-mind-open-and-looking-forward-to-learning-more-about-graphql/">clarified that I was keeping my mind open regarding the approach</a> to delivering APIs. I’ve covered several GraphQL implementations since then, as well as my post <a href="http://apievangelist.com/2017/09/05/just-waiting-the-graphql-assault-out/">on waiting the GraphQL assault out</a>-to which I received a stupid amount of, “dude you just don’t get it!”, and “why you gotta be so mean?” responses.
 
 <p><strong>GraphQL Is A Tool In My Toolbox</strong><br />

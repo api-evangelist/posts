@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Consumption Moves To The Main Stage At @APIStrat Austin This Month
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-consumption-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-consumption-api.png
 author:
   name: kinlane
 tags:

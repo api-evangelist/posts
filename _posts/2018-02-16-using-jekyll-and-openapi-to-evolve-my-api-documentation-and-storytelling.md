@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Using Jekyll And OpenAPI To Evolve My API Documentation And Storytelling'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/68_158_800_500_0_max_0_1_-1.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/using-jekyll-and-openapi-to-evolve-my-api-documentation-and-storytelling.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/68_158_800_500_0_max_0_1_-1.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>I’m reworking my API Stack work as independent sets of <a href="https://jekyllrb.com/docs/collections/">Jekyll collections</a>. Historically I just dumped all <a href="http://apisjson.org/">APIs.json</a>, and OpenAPIs into the central data folder, and grouped them into folders by company name. Now I am breaking them out into tag based collections, using a similar structure. Further evolving how I document and tell stories using each API. I have been published a single OpenAPI for each platform, but now I’m publishing a separate OpenAPI for each API path–we will see where this goes, it might ultimately end up biting me in the ass. I’m doing this because I want to be able to talk about a single API path, and provide a definition that can be viewed, interpreted, and executed against, independent of the other paths–Jekyll+OpenAPI is helping me accomplish this.
 
 <p>With each API provider possessing its own APIs.json index, and each API path having its own OpenAPI definition, I’m able to mix up how I document and tell stories around these APIs. I can list them by API provider, or by individual API path. I can filter based upon tags, and provide execute-time links that reference each individual unit of API. I have separate JavaScript functions that can be referenced if the API path is GET, POST, or PUT. I can even inherit other relevant links like API sign up or terms of service as part of its documentation. I can reference all of this as part of larger documentation, or within blog posts, and other pages throughout the website–which will be refreshed whenever I update the OpenAPI definition.

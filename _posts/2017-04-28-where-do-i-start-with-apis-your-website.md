@@ -2,7 +2,7 @@
 layout: post
 title: Where Do I Start With APIs? Your Website!
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_website_scrape.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/bw_website_scrape.png
 atomdate: 2017-04-28T21:00:00.000Z
 tags:
   - Web

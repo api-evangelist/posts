@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Are We Stepping Back And Considering The Potential For Abuse With Our APIs?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-evil.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-evil.png
 author:
   name: kinlane
 tags:

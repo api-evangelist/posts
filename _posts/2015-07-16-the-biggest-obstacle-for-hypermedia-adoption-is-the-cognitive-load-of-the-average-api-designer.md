@@ -4,7 +4,7 @@ title: >-
   The Biggest Obstacle For Hypermedia Adoption Is The Cognitive Load Of The
   Average API Designer
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cognitive-load-hypermedia.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-cognitive-load-hypermedia.png
 author:
   name: kinlane
 tags:

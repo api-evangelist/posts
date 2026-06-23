@@ -2,7 +2,7 @@
 layout: post
 title: When Working With Our API Make Sure You Build Fault-Resistance Into Your Code
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Writing_Fault-Resistant_Code.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Writing_Fault-Resistant_Code.png
 atomdate: 2016-09-09T00:00:00.000Z
 tags:
   - Code

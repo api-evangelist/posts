@@ -8,7 +8,7 @@ tags:
   - JSON Schema
   - Responses
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-fixing-satellite-1.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-fixing-satellite-1.jpeg
 ---
 I love getting sucked down into standards rabbit holes. As long as I don’t get lost for many days it usually results in fruitful outcomes. I am working on my base structure that I will use across all of the API Evangelist APIs I am developing. I like using [JSON:API](https://jsonapi.org/) for responses because of the flexibility the meta and data properties provide, but also the “hypermedia light” links properties. To be honest I don’t fully know the rest of it, but I will spend more time learning how it all works—-I just wanted to get started with the fundamentals that I’ve used before, meta and data. 
 

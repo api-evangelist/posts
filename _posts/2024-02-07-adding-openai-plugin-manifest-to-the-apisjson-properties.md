@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Adding OpenAI Plugin Manifest to the APIs.json Properties
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-old-pay-phone.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-old-pay-phone.jpg
 author:
   name: kinlane
 tags:

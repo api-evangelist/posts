@@ -3,7 +3,7 @@ layout: post
 title: >-
   I See A Number Of Incomplete API Efforts That Come Out Of Connected Device
   Providers
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-footprint.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-footprint.png
 atomdate: 2016-08-05T21:00:00.000Z
 tags:
   - Providers

@@ -10,7 +10,7 @@ tags:
   - Federal Government
   - Deprecation
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-adam-smith-edinburgh.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-adam-smith-edinburgh.jpg
 ---
 I am a big fan of the mundane aspects of API operations. I love the day to day things it takes to make APIs work over the hype, big announcements, and over promising that tends to come with venture backed API discussions. To highlight what I am talking about and what I want to celebrate more, I wanted to showcase the recent API deprecation announcement in my inbox from the United States Department of Labor (DOL).
 

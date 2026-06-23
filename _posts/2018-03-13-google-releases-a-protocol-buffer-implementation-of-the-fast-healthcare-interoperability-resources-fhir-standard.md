@@ -11,7 +11,7 @@ tags:
   - Healthcare
   - Definitions
   - Standards
-image: https://s3.amazonaws.com/kinlane-productions2/fhir/FHIR_logo-1080x675.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/fhir/FHIR_logo-1080x675.png
 ---
 <p></p>Google is renewing its interest in the healthcare space by [releasing a protocol buffer implementation of the fast healthcare interoperability resources (FHIR) standard](https://research.googleblog.com/2018/03/making-healthcare-data-work-better-with.html). Protocol buffers are "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data – think XML, but smaller, faster, and simpler". Its the core of the next generation of APIs at Google, often using HTTP/2 as a transport, while also living side by side with RESTful APIs, which use OpenAPI as the definition, in parallel to what protocol buffers deliver.
 

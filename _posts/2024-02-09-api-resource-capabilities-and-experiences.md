@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Resource, Capabilities, and Experiences
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-butterfly-on-flower.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-butterfly-on-flower.jpg
 author:
   name: kinlane
 tags:

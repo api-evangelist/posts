@@ -5,7 +5,7 @@ title: >-
   Attracting The Big Customers You Desire Requires A Steady Stream Of API
   Storytelling
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/curtain-curtain-kand-two.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/curtain-curtain-kand-two.jpg
 author:
   name: kinlane
 tags:

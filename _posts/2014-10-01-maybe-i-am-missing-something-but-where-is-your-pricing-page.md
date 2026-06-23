@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Maybe I Am Missing Something, But Where Is Your Pricing Page?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dollar-sign.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-dollar-sign.jpg
 author:
   name: kinlane
 tags:

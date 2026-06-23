@@ -2,7 +2,7 @@
 layout: post
 title: An Opportunity For A RESTful API Layer On Top Of New TensorFlow Models
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/tensorflow.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tensorflow.jpg
 atomdate: 2016-09-30T00:00:00.000Z
 tags:
   - REST

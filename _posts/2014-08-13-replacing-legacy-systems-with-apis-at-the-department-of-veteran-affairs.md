@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Replacing Legacy Systems With APIs At The Department Of Veteran Affairs
-image: https://s3.amazonaws.com/kinlane-productions2/digital-strategy/logos/va.png
+image: https://kinlane-images.s3.amazonaws.com/shared/digital-strategy/logos/va.png
 author:
   name: kinlane
 tags:

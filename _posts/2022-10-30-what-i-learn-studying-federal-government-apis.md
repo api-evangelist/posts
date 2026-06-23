@@ -3,7 +3,7 @@ published: true
 layout: post
 title: What I Learn Studying Federal Government APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/nazi-invasion-capital_36728420065_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/nazi-invasion-capital_36728420065_o.jpg
 author: null
 name: kin
 tags:

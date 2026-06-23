@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Why Hasn’t There Been Another Stripe or Twilio?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/christianity-christianity-under-construction-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/christianity-christianity-under-construction-copper-circuit.jpg
 author:
   name: kinlane
 tags:

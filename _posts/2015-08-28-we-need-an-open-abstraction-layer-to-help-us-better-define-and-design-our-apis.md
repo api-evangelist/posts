@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We Need an Open Abstraction Layer to Help Us Better Define and Design Our APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-abstraction.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-abstraction.png
 author:
   name: kinlane
 tags:

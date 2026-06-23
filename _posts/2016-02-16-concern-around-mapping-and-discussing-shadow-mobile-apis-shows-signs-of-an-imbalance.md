@@ -3,7 +3,7 @@ layout: post
 title: >-
   Concern Around Mapping And Discussing Shadow Mobile APIs Shows Signs Of An
   Imbalance
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-shadow-gear.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-shadow-gear.png
 tags:
   - Mobile
   - Mapping

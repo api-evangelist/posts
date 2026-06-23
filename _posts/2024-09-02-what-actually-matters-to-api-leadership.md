@@ -5,7 +5,7 @@ title: What Actually Matters to API Leadership
 tags:
   - Leadership
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-statue-facing-scrunched.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-statue-facing-scrunched.jpg
 ---
 Getting enterprise leadership to care about APIs is the top challenge in the API universe. Everybody benefits with executive leadership mandates the prioritization of APIs, and invests in all stages of the API lifecycle. While I have spent an enormous amount of brain power on this subject over the years, I feel like it has primarily been from a vendor perspective, which always has the goal of convincing leadership to buy, not necessarily care or understand. I am looking to develop an ongoing series of stories, policies, and guidance that focus on helping business leadership actually care and develop an awareness of APIs, admitting that I have a lot of work ahead of me to properly dovetail my messaging with how leadership in different industries truly sees the world. 
 

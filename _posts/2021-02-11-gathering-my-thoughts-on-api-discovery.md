@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Gathering My Thoughts on API Discovery
-image: https://kinlane-productions2.s3.amazonaws.com/postman-network.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/postman-network.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I am working to load up all my API discovery experiences into my head for some u
 
 [ProgrammableWeb](https://www.programmableweb.com/) was the first source of being able to discover API, and in 2020 it is still the place you go to find APIs. Really not much has changed in the last fifteen years with ProgrammableWeb except for the owners and operators, and the look and feel of the site. It is still where you go to look for new and existing APIs, and where you find APIs when Googling.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/programmable-web.png)](https://www.programmableweb.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/programmable-web.png)](https://www.programmableweb.com/)
 
 I have fond memories of writing for ProgrammableWeb, and the site is still a great source of information for me, but I am left frustrated that PW hasn’t moved forward the API discovery conversation in any interesting ways over the years. I just think it is a missed opportunity, and reflects much about the API space that I think holds us all back.
 
@@ -22,7 +22,7 @@ I have fond memories of writing for ProgrammableWeb, and the site is still a gre
 
 After ProgrammableWeb, the next evolution in the API space when it came to API discovery was Mashape, which is now known as [Rapid API](https://rapidapi.com/marketplace). The API marketplace was born out of the age of API management and provides basic management capabilities alongside with API discovery services. Providing a pretty rich set of APIs you can search and onboard with using the Rapid API marketplace.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/rapid-api.png)](https://rapidapi.com/marketplace)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/rapid-api.png)](https://rapidapi.com/marketplace)
 
 Mashape and Rapid API definitely moved forward the API discovery conversation a bit, but much like ProgrammableWeb, it stopped there. RapidAPI is definitely giving ProgrammableWeb a run for their money when it comes to the SEO game, but there really hasn’t been much out of RapidAPI beyond the fundamentals of a simple API marketplace—-that is fine, but I’m always looking for forward motion.
 
@@ -51,7 +51,7 @@ Next I am going to take a little detour, but it relates to API discovery, I prom
 
 Shortly after leaving Washington DC I created a new API discovery format with Steve Willmott from 3Scale called [APIs.json](http://apisjson.org/). Like the data.json file, APIs.json would provide an discovery format for APIs, but I would evolve to better fit what I felt was needed to help move the API discovery conversation forward inside and outside of government. Providing a way to index individual APIs, collections of APIs, workflows, and other ways we are needing to discover and put APIs to work in automated and manual ways.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/apis-json.png)](http://apisjson.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json.png)](http://apisjson.org/)
 
 I am about to move the specification forward to the next version, and will keep working to evolve the specification. [I have over 40K APIs.json files for companies, organizations, institutions, and government agencies](https://github.com/api-network/organizations/tree/main/_data) I have identified of having an API, working with APIs, or being suspect of having an API. I will keep working to iterate upon each of the entries I have in the list as I continue to expand the ways in which I am crawling and discovering APIs.
 
@@ -59,7 +59,7 @@ I am about to move the specification forward to the next version, and will keep 
 
 When we launched APIs.json we also launched [APIs.io](http://apis.io/), the first API search engine. We wanted an implementation of the API discovery specification to show what was possible pushing API providers to learn more about, and begin publish the specification as part of their operations. APIs.io was also beginning to poll for updates to APIs.json files it indexed, as well as beginning to consider how to search for new ones. Making it the first API search engine that allows you to search for APIs, while also looking for updates, and expanding the catalog in an automated way.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/apis-io.png)](http://apis.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/apis-io.png)](http://apis.io/)
 
 Sadly I know that APIs.io isn’t maintained. People are still adding APIs to it, but if the site goes down I am guessing there is nobody home to get back up and running. The site got lost in the shuffle of Red Hat acquiring 3Scale and then IBM acquiring Red Hat. While the site isn’t a living part of the API discovery conversation it still plays a role in shaping the discussion.
 
@@ -78,7 +78,7 @@ API specifications provide a pretty critical building block when it comes to API
 
 After Smartbear put Swagger into the Linux Foundation as OpenAPI, they launched [SwaggerHub](https://swagger.io/tools/swaggerhub/) to help API providers publish their OpenAPIs, making them available for discovery. The platform does as it says, provides a hub for Swagger, and now OpenAPI. Allowing developers to publish and search for different types of APIs, while also being able to edit and orchestrate using them across the API lifecycle.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/swaggerhub.png)](https://swagger.io/tools/swaggerhub/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/swaggerhub.png)](https://swagger.io/tools/swaggerhub/)
 
 SwaggerHub is definitely an API discovery solution, but it focuses on it from a very different postition. It is more about editing and designing APIs, then making them available across multiple stops along the API lifecycle, including discovery. Building on top of the leading API specifications, but focusing on how it will be put to work across the API lifecycle.
 
@@ -86,7 +86,7 @@ SwaggerHub is definitely an API discovery solution, but it focuses on it from a 
 
 Similar to SwaggerHub, another more open source approach emerged with [APIs.guru](https://apis.guru/), which also aggregates Swagger and OpenAPI definitions, but does it as a GitHub repository, with a simple search website built on top. Providing a rich catalog of OpenAPI definitions for some of the most known APIs. Providing a single place you can go to download or fork the OpenAPI for a variety of APIs, making search dead simple.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/apis-guru.png)](https://apis.guru/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/apis-guru.png)](https://apis.guru/)
 
 I like the APIs.guru approach. API discovery on Github makes sense to me. GitHub isn’t just for managing code and provides a wealth of features you can use to move forward different APIs using OpenAPI and other specifications. You can fork the entire APIs.guru OpenAPI catalog, making it pretty portable and forkable API discovery solution that you can run anywhere.
 
@@ -94,7 +94,7 @@ I like the APIs.guru approach. API discovery on Github makes sense to me. GitHub
 
 As all of these other things were happening, Postman published their own API directory that is called the [Postman API Network](https://www.postman.com/explore). Providing a listing of different APIs which are defined by Postman’s own API specification called collections. Postman users can publish their collections to the API network, then consumers can browse APIs by category, or search for APIs by keyword.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/postman-network.png)](https://www.postman.com/explore)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/postman-network.png)](https://www.postman.com/explore)
 
 With the latest release of the Postman platform you can now find APIs defined by OpenAPI, RAML, or GraphQL, as well as collections, monitors, mock servers, and other components in publish workspaces. Think Github repositories but designed for APIs. Additionally the search for the Postman network has evolved to provide a more detailed look at public APIs, but also APIs you have available privately within personal or team workspaces.
 
@@ -130,13 +130,13 @@ You see a whole mix of why we need to discover APIs represented here. I feel lik
 
 In reality, most APIs are discovered by a simple [Google search](https://www.google.com/). It is something that I think will always remain a reality, and something I think Google will continue to invest in to help us find the APIs we need. However, this will only help us surface the public APIs we are looking for. We will need solutions that help us find public APIs, but also the private and partner ones we depend on which aren't discoverable using a Google search.
 
-![](https://kinlane-productions2.s3.amazonaws.com/google.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/google.png)
 
 ### The Joy of Finding New APIs
 
 There really aren’t many ways to be introduced to new APIs on a regular basis. You can learn new ones by reading Techcrunch, tuning into the right slices of the Twitterverse or Reddit, but I’d say that [Product Hunt](https://www.producthunt.com/topics/apis?order=most-upvoted). You can also tune into ProgramambleWeb and get introduced to new APIs using their steady drip of new APIs, but I ultimately wish that there were more ways of being introduced APIs, but is probably the way that is the least likely to be monetizable.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/product-hunt.png)](https://www.producthunt.com/topics/apis?order=most-upvoted)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/product-hunt.png)](https://www.producthunt.com/topics/apis?order=most-upvoted)
 
 ### The Further Semantics of Discovery
 

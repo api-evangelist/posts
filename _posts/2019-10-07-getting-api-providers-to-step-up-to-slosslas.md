@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Getting API Providers To Step Up to SLOs/SLAs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/nazi-invasion-IMG_7169.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/nazi-invasion-IMG_7169.jpg
 author:
   name: kinlane
 tags:

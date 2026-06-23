@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Do You Have Visibility Into Which Teams Are Developing Your APIs?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/border-crossing-bordercrossing-crabapple.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/border-crossing-bordercrossing-crabapple.png
 author:
   name: kinlane
 tags:

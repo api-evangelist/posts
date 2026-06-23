@@ -10,7 +10,7 @@ tags:
   - Surveyor
   - Assesor
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-central-park-winter-walkway.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-central-park-winter-walkway.jpeg
 ---
 I am struggling with how I communicate about what I do, and the value I bring to the table. My perspective of the API universe and what I offer aligns sometimes with the popular vendor narrative and what enterprises are accustomed to being sold, but it also doesn’t in many ways. I left Postman looking for more learning at the intersection of API products and API governance, and I found it at Bloomberg. I came out of the gate at Bloomberg convinced I was going to do API governance as a service. I learned a lot and left eager to repeat the spec-first GitOps approach to API governance I proved out there, but this time with multiple enterprises across other industries. However, I am not sure I’d call this API governance, so I am exploring new possible labels like API surveyor and assessor.
 
@@ -18,7 +18,7 @@ My work in API governance moved on significantly from the wider vendor-backed di
 
 The services I am building for the next phase of my career begin with the discovery, aggregation, evolution, review, and certification of API artifacts in a Git repository. This is done using OpenAPI + Spectral rules, which overlaps with the current notion of what API governance is, but I also apply APIs.json + Spectral rules which expands beyond individual APIs and looks governs API operations. This expansion of API governance begins to collide with other existing notions of governance within the enterprise, such as data governance, compliance, and even security. So I hesitate to call it API governance. I am mapping the API landscape, which is needed for every aspect of API operations from design to documentation to security, but I am not applying rules to govern what vendors are selling to enterprise IT leadership. My API landscape mapping, rules building in service of pattern and anti-pattern matching, and publishing of API artifacts into a Git repo is much more about surveying and assessing the API landscape so that one can eliminate redundancy, modernize their legacy, or simply just reduce the cost operations-—the primary focus is not really in the service of centralized platform governance.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-old-tower-buildings-light-nyc.jpeg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-old-tower-buildings-light-nyc.jpeg" style="padding: 15px;">
 
 I enjoy making sense of API sprawl. I am good at making sense of API sprawl. I believe it is important to govern APIs at scale, but not necessary to platformitize and make them all the same. I believe in identifying healthy patterns as well as anti-patterns. I believe in interoperability and standardization at the Internet and industry levels, and encourage it at the enterprise level. I strongly believe we’ve embraced more complexity which is required for APIs by not properly making sense of and properly investing in HTTP APIs and Webhooks. I genuinely want to map and understand the API landscape so that we can see it and have a productive conversation about it. I have crafted a suite of services around all of this, delivering the following:
 

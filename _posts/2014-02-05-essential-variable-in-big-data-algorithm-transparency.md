@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Essential Variable in Big Data Algorithm: Transparency'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-windows.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-windows.jpg
 author:
   name: kinlane
 date: 2014-02-05T20:25:40.000Z

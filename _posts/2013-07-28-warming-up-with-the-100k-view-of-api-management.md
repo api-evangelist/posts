@@ -2,7 +2,7 @@
 layout: post
 title: Warming Up With The 100K View of API Management
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/technology-business-politics-apis.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/technology-business-politics-apis.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ When I started API Evangelist, I acknowledged that the technology of APIs was be
 
 This venn diagram is a rough, 100K view of what I consider to reflect a healthy strategy for an API provider. Depending on each company's goals, they may give more attention to any of these building blocks.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/technology-business-politics-apis.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/technology-business-politics-apis.png)
 
 If you are coming from the enterprise you will see much of this as SOA governance, which I have spoken about in the past being the legacy inverse of API management, and will continue to articulate in future stories as I can.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Reflecting On API Management And The Apigee IPO
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-service-providers/apigee-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/apigee-logo.png
 author:
   name: kinlane
 tags:

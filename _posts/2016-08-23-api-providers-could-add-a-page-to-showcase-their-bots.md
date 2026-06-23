@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Providers Could Add A Page To Showcase Their Bots
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-bot-showcase.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-bot-showcase.png
 atomdate: 2016-08-23T16:00:00.000Z
 tags:
   - Bots

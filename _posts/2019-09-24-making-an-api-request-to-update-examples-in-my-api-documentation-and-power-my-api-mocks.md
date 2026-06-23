@@ -5,7 +5,7 @@ title: >-
   Making An API Request To Update Examples In My API Documentation And Power My
   API Mocks
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_request_open_fda_update_docs.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_request_open_fda_update_docs.png
 author:
   name: kinlane
 tags:

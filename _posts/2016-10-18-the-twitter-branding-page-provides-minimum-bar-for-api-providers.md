@@ -2,7 +2,7 @@
 layout: post
 title: The Twitter Branding Page Provides Minimum Bar For API Providers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/twitter_logo_blue.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twitter_logo_blue.png
 atomdate: 2016-10-18T18:00:00.000Z
 tags:
   - Twitter
@@ -24,4 +24,4 @@ I do not agree with all of Twitter's branding enforcement, but I respect that th
 
 When done right, APIs extend the reach of any brand. Think about Twitter and Facebook sharing, and other embeddables. Most API consumers are more than happy to help extend your brand, but we are going to be lazy, and ALWAYS need guidance and things to copy / paste. At the very least, make sure you have the minimum viable branding assets and guidance like Twitter does, it really is the minimum bar for any API operating out there, and should not be ignored.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_17_at_3.00.28_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_17_at_3.00.28_pm.png)

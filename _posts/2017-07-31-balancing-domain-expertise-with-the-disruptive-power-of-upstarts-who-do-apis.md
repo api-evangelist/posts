@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Balancing Domain Expertise With The Disruptive Power Of Upstarts Who Do APIs'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/shipping-energy-trucking.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/balancing-domain-expertise-with-the-disruptive-power-of-upstarts-who-do-apis.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/shipping-energy-trucking.jpg" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p>APIs aren’t good, or bad, nor are they neutral. APIs do the bidding of their providers, and sometimes their consumers. In my experience APIs are more often used for bad than they are ever used for good, something I try to be as vocal as I can about, while working hard to shine a light on the good that is possible. After many years of trying to help folks understand APIs, one of the biggest challenges I face involves the unrealistic rhetoric of startups. The overoptimistic vision and promises of what APIs will do, coupled with an an often limiting awareness of the challenges and complexity of industries where APIs are targeting, making for a pretty toxic, non-cooperative environment for actually getting anything done.
 
 <p>I work hard to keep APIs alive in a variety of industries that have seen multiple waves of startups trumpeting their disruption and change horns, while also often belittling and underestimating the people within the industry. <a href="http://www.dcvelocity.com/articles/20170725-capital-amnesia/">I recently came across a post recently that captures the challenge we all face when we are looking to make change within established, and often entrenched industries using APIs</a>. I feel this paragraph captures it well:

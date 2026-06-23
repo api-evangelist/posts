@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: The API Lifecycle for New or Active APIs
-image: https://apievangelist.com/images/new-active-apis.jpg
+image: https://kinlane-images.s3.amazonaws.com/algorotoscope/nazi-invasion-IMG_2636.jpeg
 tags:
   - Lifecycle
   - OpenAPI

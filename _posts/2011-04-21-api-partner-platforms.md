@@ -11,7 +11,7 @@ tags:
 ---
 As an [API Evangelist](http://www.apievangelist.com "API Evangelist") I'm always grouping and targeting my API consumers, to better meet their needs and identify their role within my [API ecosystem](http://www.apievangelist.com/ecosystem.php "API Ecosystem").
 
-The three main groups that I break my API users into, are:![API Ecosystem](http://chart.apis.google.com/chart?chs=300x225&cht=p3&chd=s:SSMG&chdl=Partner|Public|Inernal|Platform&chdlp=b&chma=1,1,1,1&chtt=API+Ecosystem&chts=000000,14)
+The three main groups that I break my API users into, are:
 
 *   Partners Developers
 *   Public Developers

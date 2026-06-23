@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Shadow API: Launching An API Before Someone Else Does'
-image: https://s3.amazonaws.com/kinlane-productions2/kin-aud-shadow.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/kin-aud-shadow.jpg
 author:
   name: kinlane
 tags:

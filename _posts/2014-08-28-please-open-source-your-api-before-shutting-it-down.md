@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Please Open Source Your API Before Shutting It Down
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-death.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-death.png
 author:
   name: kinlane
 tags:

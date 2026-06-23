@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Embedding JSON-LD To Power API Discovery
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/autosave_payments_desktop.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/autosave_payments_desktop.png
 author:
   name: kinlane
 tags:

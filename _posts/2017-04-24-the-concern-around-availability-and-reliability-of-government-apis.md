@@ -2,7 +2,7 @@
 layout: post
 title: THe Concern Around Availability And Reliability Of Government APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/epa_website_reliability.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/epa_website_reliability.png
 atomdate: 2017-04-24T19:00:00.000Z
 tags:
   - Reliability

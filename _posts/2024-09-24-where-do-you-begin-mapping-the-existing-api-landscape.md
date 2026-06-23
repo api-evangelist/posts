@@ -8,7 +8,7 @@ tags:
   - Discovery
   - Teams
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-city-clouds-waterfront.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-city-clouds-waterfront.jpg
 ---
 I had a customer this morning asking another question I hear a lot-—where do you begin when mapping the existing API landscape within an enterprise. API sprawl is common, and it is rare for an organization to have a handle on all of the APIs they produce for internal and external needs. It is even rarer for enterprises to also have a handle on all of the APIs that they consume, adding another dimension to the API landscape mapping discussion. It is a daunting challenge and work that will never truly be done, but let’s explore where you can start with this important work.
 

@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Cautiously Aware Of How APIs Can Be Used To Feed Government Privatization'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/white-house-window_atari_missle.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/cautiously-aware-of-how-apis-can-be-used-to-feed-government-privatization.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/white-house-window_atari_missle.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>I’m working to define APIs at the Department of Veterans Affairs (VA) on several fronts right now. I’ve <a href="http://apievangelist.com/2017/10/26/my-response-on-the-department-of-veterans-affairs-rfi-for-the-lighthouse-api-management-platform/">provided not just one</a>, but <a href="http://apievangelist.com/2018/02/24/department-of-veterans-affairs-lighthouse-platform-rfi-round-two/">two detailed reponses</a> to their Lighthouse API platform RFIs. Additionally, I’m providing guidance to different teams who are working on a variety of projects occurring simultaneously to serve veterans who receive support from the agency.
 
 <p>As I do this work, I am hyper aware of the privatization machinations of the current administration, and the potential for APIs to serve these desires. APIs aren’t good, bad, nor are they neutral. APIs reflect the desires of their owners, and the good or bad they can inflict is determined by their consumers. Because APIs are so abstract, and are often buried within web and mobile applications, it can be difficult to see what they are truly doing on a day to day basis. This is why we have API management solutions in place to help paint a picture of activity in real time, but as we’ve seen with the Facebook / Cambridge Analytica, it requires the API provider to be paying attention, and to possess incentives that ensure they will actually care about paying attention, and responding to negative events.

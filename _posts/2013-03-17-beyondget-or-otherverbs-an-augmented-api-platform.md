@@ -2,7 +2,7 @@
 layout: post
 title: 'BeyondGET or OtherVerbs, an Augmented API Platform '
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/augmented-post.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/augmented-post.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ This idea is an evolution from an earlier one, which I had while working with th
 
 Fast forward to the other night, I did some data journalism for my girlfriend Audrey ([@audreywatters](https://twitter.com/audreywatters)), which included [pulling data from the Crunchbase API](/2013/03/16/using-the-crunchbase-api/). I pulled 3000 education startups from around the world, then after delivering to her in a JSON object and Google Spreadsheet, I immediately used the script to pull any API related startup, for my own needs. I quickly compared a handful of results with my existing API database and in many cases, I have much better information on some of these companies than CrunchBase. Yet I have no way to submit this data back to CrunchBase, to correct or add to what they have.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/augmented-put.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/augmented-put.png)
 
 This is common in the open API space. Most data APIs only allow you to /GET. Allowing for the other verbs /POST, /PUT, and /DELETE, usually require not just more resources to deploy and manage, but also a certain mindset that is open to receiving information from your API consumers, which could range from internal and partner users, to the general public. Some places I’ve worked, are just scared shitless of repercussions of doing something like this.
 
@@ -23,7 +23,7 @@ Which brings me to my idea for a new API service. Let’s call it **BeyondGET** 
 
 Developers could use a primary API resource as well as the augmented version of the API if they choose. You would have to add some sort of trusted user layer, so developers could only show data submitted by trusted sources.  Seems like some sort of Git layer for versioning would be needed as well.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/augmented-delete.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/augmented-delete.png)
 
 API owners could also choose to use an augmented layer as a sort of crowdsource queue for their API. The API owner could decide which users they trust and what data was relevant enough to let back in. It could act as a DMZ for your API.
 

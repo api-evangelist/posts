@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Evaluating APIs.json API Property Types Alongside OpenAPI Extensions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-chess-in-the-park-with-pigeons.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-chess-in-the-park-with-pigeons.jpg
 author:
   name: kinlane
 tags:
@@ -21,7 +21,7 @@ I have several thousand API Providers and API service providers in my API Evange
 
 ### Onboarding
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-escalator-close-in.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-escalator-close-in.jpg)
 
 These are the properties of any API operation that help consumers, or any other party onboard with the concept of an API, begin using the API, as well as allowing them to return on a regular basis to get what what they need for integration. 
 
@@ -73,7 +73,7 @@ This is one area that will also have to get more machine readable if we are goin
 
 ### Communications
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-satellite-dishes-pointing-up.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-satellite-dishes-pointing-up.jpg)
 
 Being able to communicate with consumers is one of the most vital characteristics of an API provider. If you aren’t able to provide a regular stream of communication around of the value offered by an API, and able to keep consumers informed, you probably won’t be very successful in operating an API. While these channels may shift when it comes to partner or internal APIs, the need for communication remains the same—here are the most common public API communication property types.
 
@@ -103,7 +103,7 @@ These support centered property types complete the feedback loop for API Provide
 
 ### Resources
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-docks-ships-cranes.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-docks-ships-cranes.jpg)
 
 You can always tell when an API provider has invested in their platform and community because there are always a wealth of resources available to support the community. These are the leading resources you will find in a modern API provider’s community, further adding to the information available to put a platform to work.  
 
@@ -134,7 +134,7 @@ I track on a couple hundred property types for API providers, but this reflects 
 
 The list of API property types for APIs.json has always been defined by how API providers are doing what they do to support their communities. Overlapping with this work, but emerging from a variety of OpenAPI focused projects I am working on, and stemming from me assuming my role as co-chair of the business governance board (BGB) for the OpenAPI Initiative (OAI), I find myself further studying the ways in which the OpenAPI specification is currently being extended. [After looking through the OpenAPI extensions from 14 different providers](https://github.com/api-specification-toolbox/toolbox/issues?q=is%3Aissue+is%3Aopen+label%3Anew-extensions) I was able to break down a short (ha!) list of the ways in which API Providers are extending the specification to meet their needs for each API, but also their needs across the entire API lifecycle. Here is the breakdown of OpenAPI extensions I found while doing the work to add them to the API Specification Toolbox.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-gears-pipes-plumbing.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-gears-pipes-plumbing.jpg)
 
 *   **Documentation** - Expanding on the spec for publishing documentation.
 *   **Examples** - Enriching the examples for each API for use across the API lifecycle.
@@ -168,7 +168,7 @@ The list of API property types for APIs.json has always been defined by how API 
 *   **Code Samples -** Providing samples or snippets for all available API paths.
 *   **Client Code Generation** \- Information regarding what client side code generation.
 *   **Server Code Generation** \- Information regarding what server side code generation.
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-grain-ship-docking-grass.jpg)*   **Requests Scripts** \- Defining scripts that are executed with each API request made.
+![](https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-grain-ship-docking-grass.jpg)*   **Requests Scripts** \- Defining scripts that are executed with each API request made.
 *   **Responses Scripts -** Defining scripts that are executed after each API response.
 *   **Translation** - Details about what translation occurs as part of each API request or response. 
 *   **Filtering** - Information regarding what filtering is available or applied to each API request or response.
@@ -196,7 +196,7 @@ The easiest way to understand why we created the API.json specification is to th
 
 ### An APIs.json Blueprint
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-city-skyline-bright.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-city-skyline-bright.jpg)
 
 After you see more robust APIs.json indexes like from [Twilio](https://github.com/api-evangelist/twilio/blob/master/apis.json) or [Stripe](https://github.com/api-evangelist/stripe/blob/master/apis.json) you begin to see that they can become a blueprint for how to deliver APIs. If you just swap out the OpenAPI and Postman collections for each of the Twilio and Stripe APIs and add your own, you realize that have a blueprint that you can follow when operating your own API. This is all I have done with the APIs.json property types listed out above—I have defined APIs.json for thousands of APIs, then providing a distinct and grouped set of the most common property types applied by API providers. Adding the list of the API extensions to this list helps us further understand how API providers are not just operating their APIs on the ground on their API factory floors, it also reveals how they are trying to standardize how they do what they do, and more effectively communicate it using the OpenAPI specification.
 
@@ -210,7 +210,7 @@ Assimilating all of the details I outlined above into a single coherent index, b
 
 This isn’t meant to describe a single API. It is unlikely any single API would or should possess all of these individual or common properties. This is just meant to be a snapshot what is possible when it comes to operating, consuming, and orchestrating with one or many APIs. It provides me with the scaffolding to process and lay each of the extensions I discovered above, helping me evaluate whether each of the individual extensions should indeed be augmenting the OpenAPI, or maybe the AsyncAPI, JSON Schema, or possibly stand on its own legs as an independent specification or overlay. I am looking to establish a more formal way for me to process extensions that I find across the API sector, as well as better understanding how services and tooling are using API specifications to do what they do. 
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-seatlle-shipping-mountain.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-seatlle-shipping-mountain.jpg)
 
 I am not pulling all of this out of thin air.It is based upon mapping out the API landscape for over ten years--recording what I see. The OpenAPI extensions, and continued research into how API providers and service providers are extending the specification also reflects the realities on the ground across API operations. Additionally when you take into account that the infrastructure we use to design deploy, and manage APIs across the API lifecycle also have APIs, you begin to see how much of the machine readable meta data we need to fill out this APIs.json already exists, and all we need is a place to hang it. This isn’t an artifact that you will be crafting by hand. It is one that we will have to rely on API service and tooling providers across the spectrum to output and publish for us.  
 

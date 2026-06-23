@@ -2,10 +2,8 @@
 published: true
 layout: post
 title: 'The Role of European Banking Authority (EBA) When It Comes To PSD2'
-image: https://s3.amazonaws.com/kinlane-productions2/psd2/220px-European_Banking_Authority_(EBA)_logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-role-of-european-banking-authority-eba-when-it-comes-to-psd2.png
 ---
-
-<p><a href="https://www.eba.europa.eu/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/psd2/european-banking-authority-eba.jpg" align="right" width="45%" style="padding: 15px;" /></a>
 <p>As part of my continued effort to break down <a href="https://ec.europa.eu/info/law/payment-services-psd-2-directive-eu-2015-2366_en">the Payment Services Directive 2 (PSD2) in Europe</a>, and develop my awareness of how the regulations are intended, as well as the reality on the ground within the industry, I am working to map out all of the players involved. This post is about understanding the role of the European Banking Authority (EBA), and clearly understanding when and where they come into the conversation.
 
 <p>First, what is the <a href="https://www.eba.europa.eu/">European Banking Authority (EBA)</a>? They are the regulatory agency for the European Union, who is in charge of conducting stress tests on European banks and increasing transparency in the European financial system and identifying weaknesses in banks’ capital structures. When it comes to PSD2, their role is to:

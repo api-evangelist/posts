@@ -2,7 +2,7 @@
 layout: post
 title: Still Looking for Evangelists in Portland, Seattle and Austin
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Interested-In-Evangelism.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Interested-In-Evangelism.png
 author:
   name: kinlane
 tags:

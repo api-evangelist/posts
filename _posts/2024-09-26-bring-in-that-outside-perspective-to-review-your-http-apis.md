@@ -6,7 +6,7 @@ tags:
   - Governance
   - Reviews
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-turing-front-view.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-turing-front-view.jpg
 ---
 When it comes to reviewing your HTTP API, it can really help to bring in an outside perspective. While I feel that enterprise organizations should always be investing in their own API governance capacity, I know that it helps to bring in an outside perspective to help change the tone of things, and get outside the normal business and politics that is the day-to-day within your enterprise. To help enterprises optimize their API review processes, [I am developing a set of services](https://apievangelist.com/services/), which includes API review as a service for HTTP APIs.
 

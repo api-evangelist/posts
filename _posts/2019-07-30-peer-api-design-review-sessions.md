@@ -9,7 +9,7 @@ tags:
   - Reviews
   - Communication
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/abe-lincoln-one-smooth-ride-file-00-00-07-91.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/abe-lincoln-one-smooth-ride-file-00-00-07-91.jpg
 author:
   name: kinlane
 ---

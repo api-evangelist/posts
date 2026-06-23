@@ -2,7 +2,7 @@
 layout: post
 title: WordPress Style API Modules For Government
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/newzealand-government-banner.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/newzealand-government-banner.png
 author:
   name: kinlane
 tags:

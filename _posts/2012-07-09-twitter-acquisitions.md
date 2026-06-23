@@ -6,7 +6,6 @@ domain: apievangelist.com
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twitter-bird-blue-on-white.png
 atomdate: 2012-07-09T23:17:23-07:00
 ---
-<p><a title="Twitter" href="http://www.twitter.com/" target="_blank"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/twitter-bird-blue-on-white.png" alt="" width="150" align="right" /></a></p>
 <p>Acquisition of technology startups by companies is a regular part of business today, providing a way for these companies to get the technology, talent, as well as user and market share they need to be successful. These acquisitions play an important part of API ecosystems, with API owners hoping developers build the next killer feature that users will love, something they can invest in, and developers dream API owners will notice their work and purchase their &ldquo;startup&rdquo;.</p>
 <p>Looking back at the acquisitions made by a company can function as a sort of &ldquo;tea leaves&rdquo;, allowing us to interpret the companies motivations, possibly telling us where they are headed and who they might acquire next. As part of my&nbsp;<a title="Twitter research" href="http://twitter.apivoice.com/">Twitter research</a>&nbsp;I wanted to look at the acquisitions made by Twitter over its six year history:</p>
 <table cellspacing="5" cellpadding="5" width="90%" align="center">

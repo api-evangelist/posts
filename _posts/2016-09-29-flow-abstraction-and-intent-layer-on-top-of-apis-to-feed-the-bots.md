@@ -2,7 +2,7 @@
 layout: post
 title: Flow Abstraction And Intent Layer On Top Of APIs To Feed The Bots
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/1_lfoybsgdnspy0i24b3dubg.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/1_lfoybsgdnspy0i24b3dubg.png
 atomdate: 2016-09-29T18:00:00.000Z
 tags:
   - Bots
@@ -22,7 +22,7 @@ According to Meya, "intents can be keywords, regular expressions, and natural la
 
 The third step is components, which is where the direct API connection comes clear. If you look at their example, in the component they are simply making a call to the Chuck Norris joke API, returning the results as part of the flow. Each part of the flow calls its targeted component, and each component can make a GET, POST, PUT, PATCH, or DELETE to an API that provides the data, content, or algorithm behind the component.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/1_lfoybsgdnspy0i24b3dubg.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/1_lfoybsgdnspy0i24b3dubg.png)
 
 This provides me with a beginning scaffolding to think about how bot platforms are constructing the API abstraction layer behind bot activity. I will be going through other bot platforms to understand each individual napproach. Bots to me are just another endpoint for the API economy, and like mobile phones, we can have the API layer be shadowy and dark, or we can have it be more transparent and standardized, with platforms sharing their approach like Meya does.
 

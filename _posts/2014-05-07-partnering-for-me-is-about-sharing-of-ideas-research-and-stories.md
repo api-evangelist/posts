@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Partnering For Me Is About Sharing Of Ideas, Research and Stories
-image: https://s3.amazonaws.com/kinlane-productions2/acme/acme-corp.png
+image: https://kinlane-images.s3.amazonaws.com/shared/acme/acme-corp.png
 author:
   name: kinlane
 tags:
@@ -23,7 +23,7 @@ At this point my inbox was already out of control, and I boarded the 12 hour fli
 
 This time I found another reminder, to sign the digital copy of NDA. At this point, I’ve received 2 separate NDAs, and two reminders to please sign the NDA--ith no knowledge of what the ideas are. Maybe these are ideas or research I’m already working on? Who the fuck knows!
 
-[![](https://s3.amazonaws.com/kinlane-productions2/acme/dont-give-fuck.png)](https://www.youtube.com/watch?v=0bLFO4ZV0i4&feature=kp)
+[![](https://kinlane-images.s3.amazonaws.com/shared/acme/dont-give-fuck.png)](https://www.youtube.com/watch?v=0bLFO4ZV0i4&feature=kp)
 
 I just sent an email to my Acme representative, stating that I will regretfully decline the partnership, and summarized my feelings. Acme thanked me.
 

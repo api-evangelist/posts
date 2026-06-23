@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Stories &gt; Code
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/christianity-christianity-under-construction-blue-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/christianity-christianity-under-construction-blue-circuit.jpg
 tags:
   - Politics of APIs
   - Governance

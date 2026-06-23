@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Taking a Fresh Look at APIs Across All the United States Federal Agencies
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-capital_36728420065_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-capital_36728420065_o.jpg
 author:
   name: kinlane
 tags:

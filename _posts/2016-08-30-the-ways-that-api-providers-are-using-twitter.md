@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Ways That API Providers Are Using Twitter
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-twitter-icon.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-twitter-icon.png
 atomdate: 2016-08-31T00:00:00.000Z
 tags:
   - Twitter

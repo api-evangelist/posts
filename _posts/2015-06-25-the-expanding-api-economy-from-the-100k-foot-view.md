@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Expanding API Economy From The 100K Foot View
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-mountain-climber.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-mountain-climber.png
 author:
   name: kinlane
 tags:

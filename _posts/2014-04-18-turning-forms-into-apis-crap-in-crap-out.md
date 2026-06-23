@@ -2,7 +2,7 @@
 layout: post
 title: 'Turning Forms Into APIs: Crap In, Crap Out'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-documentation-interactive.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-documentation-interactive.png
 author:
   name: kinlane
 tags:

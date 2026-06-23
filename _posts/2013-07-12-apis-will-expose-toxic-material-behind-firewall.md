@@ -2,7 +2,7 @@
 layout: post
 title: APIs Will Expose Toxic Material Behind Firewall
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dam-breach.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dam-breach.jpg
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ _Every year I rewrite my bio, based upon where I am. I’ve been doing this sinc
 
 * * *
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-voice/Tag-Cloud-API-Voice.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-voice/Tag-Cloud-API-Voice.png)
 
 I started API Voice because I believe the politics of APIs is one of the most important areas that will make or break the API space. APIs are not just technical. There are a wide range of political issues facing companies when it comes to APIs.
 

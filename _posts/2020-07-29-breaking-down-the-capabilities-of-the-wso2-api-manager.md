@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Breaking Down the Capabilities of the WSO2 API Manager
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_29_at_4.00.10_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_29_at_4.00.10_pm.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ I am profiling a number of API management APIs right now and reaching out to eac
 
 Next up on my list of API service providers is to profile and assess as part of this work is [WSO2](https://wso2.com/). I’ve worked with WSO2 since way back in 2012, so I am somewhat familiar with their product and services. As with all of the other API management providers I am profiling I am looking for an existing OpenAPI or Postman collection to help me understand what is possible with each API. It was pretty easy to find the Swagger file for each of the WSO2 [publisher](https://docs.wso2.com/display/AM200/apidocs/publisher/), [store](https://docs.wso2.com/display/APICloud/apidocs/store), and [administrative](https://docs.wso2.com/display/APICloud/apidocs/admin/) APIs, but I couldn’t easily find them for their tokens or analytics API, or their Microgateway—I will ping them to see if they have Swagger for these. I was able to upload three Swagger 2.0 definitions into a Postman workspace—I normally would upgrade to OpenAPI 3.0, but since these were provider managed specs I will keep them as is, in case I need to update.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_29_at_4.00.10_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_29_at_4.00.10_pm.png)
 
 There are a wealth of resources available across these three WSO2 API, and having them available as Swagger definitions, and generated Postman collections helps me make sense of what is possible. This provides me with a set of three reference collections that I can use to begin planning a variety of WSO2 specific workflow collections. In addition to the reference collections for WSO2 API Manager, and WSO2 specific API management workflow collections, I am looking to define a handful of common patterns that I see across other API management service providers I am profiling. I want a full suite of Postman API management collections across as many providers as I can, as well as being able to clearly point to common API management practices that exist across multiple API management providers.
 

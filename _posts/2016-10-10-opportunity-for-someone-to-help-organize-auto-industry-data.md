@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Opportunity For Someone To Help Organize Auto Industry Data
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-car-mechanic.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-car-mechanic.png
 atomdate: 2016-10-11T00:00:00.000Z
 tags:
   - Data

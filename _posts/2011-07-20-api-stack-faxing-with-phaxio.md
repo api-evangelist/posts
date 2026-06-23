@@ -5,8 +5,7 @@ source: http://apievangelist.com/2011/07/20/api-stack--faxing-with-phaxio/
 domain: apievangelist.com
 image: 
 ---
-
-<a href="http://www.phaxio.com/" target="_blank"><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/phaxio-logo-2.png" alt="" width="200" align="right" /></a><a href="http://www.phaxio.com/" target="_blank">Phaxio</a> provides a RESTful API for developers to send faxes from their applications.
+<a href="http://www.phaxio.com/" target="_blank">Phaxio</a> provides a RESTful API for developers to send faxes from their applications.
 <p></p>
 Using Phaxio you can send and receive faxes, with all responses formatted in JSON.
 <p></p>

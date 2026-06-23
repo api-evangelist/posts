@@ -7,7 +7,7 @@ title: >-
 date: 2018-07-09T09:00:00.000Z
 tags:
   - API Evangelist
-image: https://s3.amazonaws.com/kinlane-productions2/predix/predix-diagram.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/predix/predix-diagram.png
 ---
 <p></p>I was profiling [the volume of API from the Internet of Things platform Predix](https://www.predix.io/api) this last week. Luckily they have OpenAPI definitions for each of the APIs, something that makes my life a lot easier. As, they have a wealth of APIs available, doing an amazing amount of work when it comes to connecting devices to the Internet--I love their enthusiasm for putting out APIs. My only critical feedback for them after working my way through their API definitions, is they should invest some time to develop an API design guide, and distribute across their teams. The wild variances in definition and design of their APIs made me stumble a number of times while learning about what they do.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We Need An Open Library Of The Most Common Utility API Implementations
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-utility.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-utility.png
 author:
   name: kinlane
 tags:

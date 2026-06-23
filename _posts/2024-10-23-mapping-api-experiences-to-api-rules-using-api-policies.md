@@ -7,7 +7,7 @@ tags:
   - Rules
   - Policies
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-docks-far-way.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-docks-far-way.jpeg
 ---
 I am developing the experience filter for [my Just-in-Time API Guidance kiosk](https://apievangelist.com/2024/10/21/my-just-in-time-api-guidance-kiosk/), allowing teams who are producing or consuming APIs to filter API governance (guidance) rules by experience. To define my experiences I had reverse engineered what I considered to be the baseline of Spectral rules for an HTTP API. There are more rules needed, but this was my baseline. The role of the API policy in this situation is to help me align the technical with business outcomes, but I wanted to start where the current narrative operates—-which is focused on linting the technical details of a technical spec (OpenAPI).
 

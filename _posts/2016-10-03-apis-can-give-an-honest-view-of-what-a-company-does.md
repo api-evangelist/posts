@@ -2,7 +2,7 @@
 layout: post
 title: APIs Can Give An Honest View Of What A Company Does
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_02_at_11.04.26_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_02_at_11.04.26_pm.png
 atomdate: 2016-10-03T22:00:00.000Z
 tags:
   - APIs

@@ -2,7 +2,7 @@
 layout: post
 title: Using Forms As An Introduction To World Of APIs For Normals
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/forms-davidso-college.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/forms-davidso-college.png
 tags:
   - Forms
   - APIs

@@ -15,7 +15,7 @@ tags:
   - Performance
   - Security
   - Discovery
-image: https://s3.amazonaws.com/kinlane-productions2/openapi/OpenAPI_Pantone.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/OpenAPI_Pantone.png
 ---
 <p></p>I've talked about how [generating an OpenAPI (fka Swagger) definition from code is still the dominate way that microservice](http://apievangelist.com/2018/02/14/code-generating-openapi-still-prevailing-approach/) owners are producing this artifact. This is a by-product of developers seeing it as just another JSON artifact in the pipeline, and from it being primarily used to create API documentation, often times using Swagger UI--which is also why it is still called Swagger, and not [OpenAPI](https://www.openapis.org/). I'm continuing my campaign to help the projects I'm consulting on be more successful with their overall microservices strategy by helping them better understand how they can work in concert by focus in on OpenAPI, and realizing that it is the central contract for their service.
 

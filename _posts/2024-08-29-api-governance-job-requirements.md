@@ -7,7 +7,7 @@ tags:
   - Job Postings
   - Requirements
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-eeob-white-house.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-eeob-white-house.jpg
 ---
 One way I keep my finger on the pulse of API governance is studying the job postings out there in any given moment. I learn a lot from what companies are asking for via their job posts, while also understanding which companies and industries are finding themselves at the point in their API journey where API governance is needed. 
 

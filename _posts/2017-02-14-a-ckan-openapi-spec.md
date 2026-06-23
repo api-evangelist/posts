@@ -2,7 +2,7 @@
 layout: post
 title: A CKAN OpenAPI Spec
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ckan-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/ckan-logo.png
 atomdate: 2017-02-14T17:00:00.000Z
 tags:
   - OpenAPI
@@ -10,7 +10,7 @@ tags:
 ---
 .gist {width:100% !important;} .gist-file .gist-data {max-height: 500px;}
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ckan-logo.png)](https://ckan.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/ckan-logo.png)](https://ckan.org/)
 
 [I was working on publishing an index of the General Service Administration (GSA) APIs I currently have in my API monitoring system](http://gsa.index.apievangelist.com/), and I remembered that [I updated my Data.gov work publishing a cache of the index on Github](https://github.com/gsa-data/data-gov-dump). Part of this work I had left a note for myself about finding / creating an OpenAPI Spec for the Data.gov API, which since it is a CKAN implementation should be pretty easy--I hoped.
 

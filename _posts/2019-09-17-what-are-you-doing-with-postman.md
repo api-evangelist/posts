@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: What Are You Doing With Postman?
-image: https://kinlane-productions2.s3.amazonaws.com/postman/logo-glyph.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/postman/logo-glyph.png
 author:
   name: kinlane
 tags:

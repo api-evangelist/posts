@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Greyballing Is Embedded In API&#039;s DNA
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dna.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-dna.png
 author:
   name: kinlane
 tags:

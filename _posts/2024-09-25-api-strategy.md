@@ -7,7 +7,7 @@ tags:
   - Strategy
   - Business
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-japanese-man-sitting.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-japanese-man-sitting.jpeg
 ---
 I recently assembled a strategy from the [400+ Spectral rules](https://github.com/api-evangelist/rules) I have developed. I wanted to abstract away these rules I am using to automate API governance using two separate layers. 1) [Policies](https://github.com/api-evangelist/policies), which are meant for product managers and other business stakeholders, and 2) [Strategy areas](https://github.com/api-evangelist/strategy), which are meant for business leadership. I went about things backwards (as I do), and created the rules, backfilled the policies, and then organized into a series of strategy areas.
 

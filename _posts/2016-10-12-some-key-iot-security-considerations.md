@@ -2,7 +2,7 @@
 layout: post
 title: Some Key IoT Security Considerations
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/acti_e77_10mp_od_dome_with_1027471.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/acti_e77_10mp_od_dome_with_1027471.jpg
 atomdate: 2016-10-12T18:00:00.000Z
 tags:
   - Security

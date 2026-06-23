@@ -9,7 +9,7 @@ tags:
   - Authentication
   - Onboarding
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-public-market-fish.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-public-market-fish.jpg
 ---
 I am working on how to better communicate in a machine-readable way that an API is free to use. There is a lot taken for granted at this layer when technologists are looking to automate with APIs, and I want to keep shining a light on the missing steps, but also translate human-readable steps into machine-readable ones that can actually be automated around. I profiled two APIs last week that were free to use, but one of them was open and did not require signing up with the other one requiring an active account with email before you can begin making APIs calls-—this has got me thinking more about how to express that an API is free to use.
 

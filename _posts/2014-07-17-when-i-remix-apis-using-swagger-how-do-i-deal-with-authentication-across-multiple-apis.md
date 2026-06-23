@@ -3,7 +3,7 @@ layout: post
 title: >-
   When I Remix APIs Using Swagger How Do I Deal With Authentication Across
   Multiple APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-key.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-key.png
 author:
   name: kinlane
 tags:

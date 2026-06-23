@@ -10,8 +10,6 @@ image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-questio
 author:
   name: kinlane
 ---
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-question-shared.png" align="right" width="35%" style="padding: 15px;" /></p>
-
 I spend a lot of time trying to figure out what technology does. I read press releases, pitch emails, documentation, and marketing materials trying to get an idea of what is possible. While many of the APIs I come across are intuitive, and just make sense there is still a significant portion of them that leave me scratching my head regarding what it even does.
 
 As developers, it can be easy to think about the SDKs you will need to support API integration with your API, but I think you are making a lot of assumptions about your consumers when you focus your initial energy here. The first step in any API integration begins with IDK and not the SDK. When a potential API consumer comes across your API, the first question to be answered is: what does this API do? If the answer is I Don't Know (IDK), we have a problem. A problem no amount of SDKs will solve, no matter how many languages you create them in.

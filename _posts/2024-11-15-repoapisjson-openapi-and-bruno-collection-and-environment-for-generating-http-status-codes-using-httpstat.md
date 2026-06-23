@@ -11,7 +11,7 @@ tags:
   - Bruno Collection
   - Bruno Environment
   - README
-image: https://kinlane-productions2.s3.us-east-1.amazonaws.com/httpstat-repo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/httpstat-repo.png
 ---
 I am finding my stride profiling new APIs for APIs.io and I am settling in on the minimum viable repository structure for any API. To demonstrate what I am talking about I took HTTPStat, a simple API for generating different HTTP Status Codes that you could use in testing, tutorials, or other use cases. The [repository for HTTPStat](https://github.com/api-evangelist/httpstat) is a generated output from my API Evangelist, with the following building blocks.
 

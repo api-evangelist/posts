@@ -2,7 +2,7 @@
 layout: post
 title: Learning The Dimensions Of The DJI Drone SDKs And APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/dji_phantom_3_pro.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dji_phantom_3_pro.png
 atomdate: 2016-10-26T20:00:00.000Z
 tags:
   - SDK
@@ -85,7 +85,7 @@ That is a pretty robust SDK. I'm taking the time to learn about each action, as
 
 **Set Callback and Exposure**
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mobile_sdk_54b1bdda33.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mobile_sdk_54b1bdda33.png)
 
 *   **Event Handler -** Set callback function handler. When data from Guidance comes, it will be called by data transfer thread.
 *   **Exposure Parameters -** Get stereo calibration parameters.
@@ -124,7 +124,7 @@ This data is generated constantly by a drone, and you have control over this tra
 **DJI Drone Mobile SDK**  
 I use the DJI drone application to operate my two drones. The DJI Drone Mobile SDK is where you can get to work crafting your own custom application, to deliver exactly the drone operation experience you want. This is what the iPhone application was for mobile, but this is for the consumer and commercial drone world. There are a wealth of areas you can develop around in this SDK:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/onboard_sdk_d6bc94cc85.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/onboard_sdk_d6bc94cc85.png)
 
 *   **[Flight Controller](https://developer.dji.com/mobile-sdk/documentation/introduction/component-guide-flightController.html)** - The flight controller is an onboard computer that combines control information from the pilot with sensor information to adjust the thrust at each propellor and fly the aircraft as desired.
 *   **[Camera](https://developer.dji.com/mobile-sdk/documentation/introduction/component-guide-camera.html)** - The camera captures photos and videos. Many different modes of operation, resolutions, frame rates, exposure settings, picture settings and file types can be selected. Cameras have local storage to hold the media which will typically be an SD card, and in some cases an SSD (solid state drive).

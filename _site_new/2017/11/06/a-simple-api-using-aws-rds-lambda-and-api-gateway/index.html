@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I wrote about a simple API with AWS DynamoDB, Lambda, and API Gateway last week. I like this approach because of the simple nature of AWS DynamoDB. One benef...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/amazon/api-gateway/aws-rds-lambda-api-gateway.jpg">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/api-gateway/aws-rds-lambda-api-gateway.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -40,7 +40,7 @@
     <meta name="twitter:title" content="A Simple API Using AWS RDS, Lambda, and API Gateway">
     
     <meta name="twitter:description" content="I wrote about a simple API with AWS DynamoDB, Lambda, and API Gateway last week. I like this approach because of the simple nature of AWS DynamoDB. One benef...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/amazon/api-gateway/aws-rds-lambda-api-gateway.jpg">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/api-gateway/aws-rds-lambda-api-gateway.jpg">
 
     <!-- JSON-LD Structured Data -->
     
@@ -50,7 +50,7 @@
       "@type": "Article",
       "headline": "A Simple API Using AWS RDS, Lambda, and API Gateway",
       "description": "I wrote about a simple API with AWS DynamoDB, Lambda, and API Gateway last week. I like this approach because of the simple nature of AWS DynamoDB. One benef...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/amazon/api-gateway/aws-rds-lambda-api-gateway.jpg",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/api-gateway/aws-rds-lambda-api-gateway.jpg",
       "datePublished": "2017-11-06T08:00:00-05:00",
       "dateModified": "2017-11-06T08:00:00-05:00",
       "author": {
@@ -63,7 +63,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -361,7 +361,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -391,7 +391,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -725,11 +725,11 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/amazon/api-gateway/aws-rds-lambda-api-gateway.jpg" alt="A Simple API Using AWS RDS, Lambda, and API Gateway" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/api-gateway/aws-rds-lambda-api-gateway.jpg" alt="A Simple API Using AWS RDS, Lambda, and API Gateway" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
-        <p><img src="https://s3.amazonaws.com/kinlane-productions2/amazon/api-gateway/aws-rds-lambda-api-gateway.jpg" align="right" width="45%" style="padding: 15px;" /></p>
+        <p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/api-gateway/aws-rds-lambda-api-gateway.jpg" align="right" width="45%" style="padding: 15px;" /></p>
 <p><a href="http://apievangelist.com/2017/10/23/a-simple-api-with-aws-dynamodb-lambda-and-api-gateway/">I wrote about a simple API with AWS DynamoDB, Lambda, and API Gateway last week</a>. I like this approach because of the simple nature of AWS DynamoDB. One benefit of going this route is that you can even bypass Lambda, as the AWS API Gateway can work directly with AWS DynamoDB API. I’m just playing around with different configurations and pushing forward my understanding of what is possible, and this week I switched out the database in this with AWS RDS, which opens up the ability to use MySQL or Postgres as the backend for any API.</p>
 
 <p>For this example, I’m using a simple items database, which you can build with this SQL script after you fire up an RDS instance (I’m using MySQL):</p>
@@ -762,7 +762,7 @@
 
 <p>This gives me the skeleton framework for my API, with the paths and methods I need to accomplish the basics of reading and writing data. Now, I just need to wire up each API method to its accompanying Lambda function, something API Gateway makes easy.</p>
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/amazon/api-gateway/aws-api-gateway-lambda.png" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/api-gateway/aws-api-gateway-lambda.png" /></p>
 
 <p>Now I have an API for my basic backend. There is one thing you have to do to make each method work properly with the Lambda function. You have to setup a body mapping to the item_id when passed in the path for the PUT, GET, and DELETE functions. If you don’t the item_id won’t be passed on to the Lambda function–it took me a while to get this one. There are other things you have to do, like setting up a usage plan, turning on API key access for each API, and setting up custom domain if you want, but hopefully this simple gets the point across. I will work on other parts in future posts. Hopefully it provides a basic example of an API using RDS, Lambda, and API Gateway, which is something I have wanted to have in my toolbox for some time.</p>
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Using API Mocks as Part of an API-First Workflow
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mock_story_1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mock_story_1.png
 author:
   name: kinlane
 tags:
@@ -15,15 +15,15 @@ I owe an answer on my thoughts about mocking APIs to my coworker Andy, and I don
 
 The first part of this conversation involves the concept that you can generate a mock server from any Postman collection. There is a three step process involved with producing a mock API in Postman using a collection. First you create a collection with the path and parameters you would like to use as the definition of the API you are mocking.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mock_story_1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mock_story_1.png)
 
 Once you have your path you can select examples up near the send button and add a new example for this request. It will take your path with parameters and map to a new example where you can add a JSON example to represent what should be returned by your mock server for an example.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mock_story_2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mock_story_2.png)
 
 You should now have a single request, and the example that should be returned when the API request is sent. Now you can select to mock the collection, giving it a name, mapping to an environment, making private, and a handful of other settings that will help us manage the mocked representation of our API.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mock_story_3.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mock_story_3.png)
 
 Once complete you will be given a URL for the mock server, which can be added to the environment or collection and used for any requests. This is the baseline of mocking of an API using Postman, which can be used as part of an API-first process, but there are a couple of other dimensions to this that will help truly strengthen mocking as a critical stop along an API-first lifecycle.
 
@@ -31,7 +31,7 @@ Once complete you will be given a URL for the mock server, which can be added to
 
 For the first part of this I am just generating a mock from a standalone collection. Using Postman you can also generate a collection from an OpenAPI definition, and identify the purpose of that collection is for mocking. If you identify it as existing for the purpose of a mock servers when generating it will link the OpenAPI, as well as generate the mock server for you upon generate.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mock_story_4.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mock_story_4.png)
 
 This gives you the ability to derive one or many collections from an OpenAPI, using the OpenAPI as a central truth in the discussion. Then use those collections to power mock APIs, as well as a variety of other usage. Which helps define the difference between OpenAPI and Postman collections, but also demonstrates how they can be used in tandem, opening up other doors in the API-First conversation.
 
@@ -39,15 +39,15 @@ This gives you the ability to derive one or many collections from an OpenAPI, us
 
 With my mock API collection(s) derived from the OpenAPI, Postman knows that my collections are linked to the API contract and I can choose to validate them, letting me know if my mock collections, or collection used for any other purpose are in alignment with the central contract.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mock_story_5.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mock_story_5.png)
 
 When there are issues it will show them to me, and when the collections are in alignment it will show a green checkbox letting me know each of them are in alignment, helping keep every stop along the API lifecycle in alignment with the central OpenAPI contract.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mock_story_6.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mock_story_6.png)
 
 When issues are found between my collection(s) and the OpenAPI, I can review these issue one by one, fixing them individual, or opt to select all changes and make them all at once, forcing the changes on the collection, treating the OpenAPI as the truth and each collection as an API lifecycle endpoint that needs regular syncing.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mock_story_7.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mock_story_7.png)
 
 These changes are downstream from your OpenAPI, meaning you can only add or remove changes to the generated collection, and not pull changes from your collections into your OpenAPI. This allows you to keep iterating upon the OpenAPI contract, and then push those changes downstream. Next, I will be exploring using how collections can be used as part of the contract iteration process to help clarify what is possible and what is not currently.
 

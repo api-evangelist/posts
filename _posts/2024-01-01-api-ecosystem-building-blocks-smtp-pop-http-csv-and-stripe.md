@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Ecosystem Building Blocks – SMTP, POP, HTTP, CSV, and Stripe
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/yellow-journalism-gargoyle-paris.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-gargoyle-paris.jpg
 author:
   name: kinlane
 tags:

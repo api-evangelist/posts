@@ -4,7 +4,7 @@ title: The Mainstream New York Times Audience is Ready for APIs
 url: >-
   http://apievangelist.com/2011/11/29/the-mainstream-new-york-times-audience-is-ready-for-apis/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/NYT-TaskRabbit.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/NYT-TaskRabbit.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ tags:
   - ai
   - Mainstream
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/NYT-TaskRabbit.png)](http://bits.blogs.nytimes.com/2011/11/10/taskrabbit-looks-to-expand-cities-and-offer-an-a-p-i/)
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/NYT-TaskRabbit.png)](http://bits.blogs.nytimes.com/2011/11/10/taskrabbit-looks-to-expand-cities-and-offer-an-a-p-i/)
 
 There was a post a couple weeks back in the [New York Times Bits Blog](http://bits.blogs.nytimes.com/ "New York Times Bits Blog") called, "[TaskRabbit Looks to Expand Cities and Offer an A.P.I.](http://bits.blogs.nytimes.com/2011/11/10/taskrabbit-looks-to-expand-cities-and-offer-an-a-p-i/ "TaskRabbit Looks to Expand Cities and Offers an API")"
 

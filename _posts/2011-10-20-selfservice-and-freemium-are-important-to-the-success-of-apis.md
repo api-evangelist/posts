@@ -3,14 +3,14 @@ layout: post
 title: Self-Service and Freemium Are Important to the Success of APIs
 url: >-
   http://apievangelist.com/2011/10/20/self-service-and-freemium-are-important-to-the-success-of-apis/
-image: http://kinlane-productions2.s3.amazonaws.com/self-service.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/self-service.jpg
 author:
   name: kinlane
 tags:
   - APIs
   - Self-Service
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/self-service.jpg)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/self-service.jpg)
 
 At a recent presentation at the [Business of API conference in San Francisco](http://www.apievangelist.com/2011/10/06/business-of-apis-conference-in-san-francisco-wrapup/ "Business of APIs Conference in San Francisco"), Twilio CEO Jeff Lawson argued that two of the ways APIs can be successful in courting new developers are by being self-service and by having a "freemium" option. Both of these features empower developers to start using an API right away, without entering a credit card, talking to customer service, sales or having to wait for budget approval. They can just sign-up, get a key and start hacking!
 
@@ -20,7 +20,7 @@ Of course, an API can still have a traditional sales funnel, where developers ca
 
 I strongly believe that both self-service and freemium have a place with all APIs. These help expose what is needed for developers to see the value an API delivers so they can prove this value to their company; then later, they can engage sales and business departments to strengthen and harden the relationship.
 
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/freepremium.jpg)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/freepremium.jpg)
 
 This approach is gaining acceptance and can be seen across many of the successful APIs in the space, like Twilio Self-Service and freemium pricing are things that all the major API service providers ([3Scale](/serviceproviders/3scale.php "3Scale"), [Mashery](/serviceproviders/mashery.php "Mashery") and [Apigee](/serviceproviders/apigee.php)) endorse when they advise their customers during setup of their own APIs.
 

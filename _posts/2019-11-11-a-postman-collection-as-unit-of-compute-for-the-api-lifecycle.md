@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Postman Collection As Unit of Compute For The API Lifecycle
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/apimetrics_monitoring_home_page.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apimetrics_monitoring_home_page.png
 author:
   name: kinlane
 tags:

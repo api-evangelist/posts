@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Dimensions of the API Lifecycle
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-hallway-mirrors-hotel.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-hallway-mirrors-hotel.jpg
 tags:
   - Lifecycle
   - OpenAPI

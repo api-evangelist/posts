@@ -8,7 +8,7 @@ tags:
   - Storytelling
   - Communication
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/long-factory-uncle-sam.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/long-factory-uncle-sam.jpg
 author:
   name: kinlane
 ---

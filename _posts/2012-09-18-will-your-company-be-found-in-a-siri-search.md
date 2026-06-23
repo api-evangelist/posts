@@ -2,7 +2,7 @@
 layout: post
 title: Will Your Company Be Found In a Siri Search?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apple-siri.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apple-siri.jpeg
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ It started with a discussion with the [Webshell](http://webshell.io/home "Webshe
 
 Pat has an interesting image in his deck, showing who the next generation consumer of your API will be:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/siri/Siri-API-Search.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/siri/Siri-API-Search.png)
 
 These conversations reflect a whole new area of consideration for the future of web APIs. Will voice be the dominant way to search via our mobile devices? If so, how do we expose our companies resources, in a way that makes them easily consumed by voice enabled apps?
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Automating the Management of Postman Collections Using a Postman Collection
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_11_23_at_9.35.47_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_11_23_at_9.35.47_pm.png
 author:
   name: kinlane
 tags:

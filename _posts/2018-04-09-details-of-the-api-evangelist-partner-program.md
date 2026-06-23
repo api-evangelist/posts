@@ -7,7 +7,7 @@ tags:
   - API Evangelist
   - Partners
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-blue-seal.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-logos/api-evangelist-blue-seal.png
 ---
 <p></p>I've been retooling the partner program for API Evangelist. There are many reasons for this, and [you can read the full backstory I have written a narrative for these changes to the way in which I partner](http://apievangelist.com/2018/04/09/creating-a-productive-api-industry-partner-program/). I need to make a living, and my readers are expecting me to share relevant stories from across the sector on my blog. I'm also tired of meaningless partner arrangements that never go anywhere, and I'm looking to incentivize my partners to engage with me, and the API community in an impactful way. I've crafted a program that I think will do that.
 

@@ -8,7 +8,7 @@ tags:
   - Patterns
   - Protocols
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-subway-crowd-average-day.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/green-circuit-subway-crowd-average-day.jpeg
 ---
 HTTP Web APIs are the dominant form of private and public APIs. It has been this way for over a decade, and will continue for some time to come. I know that GraphQL, gRPC, Kafka, and other API believers feel confident they will displace their simpler HTTP variant, but I am fairly confident they won’t when it comes to externally available 1st and 3rd-party APIs. HTTP Web APIs, or often called REST, RESTful, or RESTish dominate because they are simple (most of the time), cheap, and messy—-just like us humans who are producing and consuming them.
 

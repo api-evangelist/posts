@@ -8,7 +8,7 @@ tags:
   - Blueprints
   - API Commons
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-high-speed-train-station.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-high-speed-train-station.jpg
 ---
 I am working on producing an APIs.json for the [Train Travel API produced by Bump.sh](https://bump.sh/bump-examples/doc/train-travel-api). I am adding the [API to the API Commons as a base API](http://localhost:4000/base/train-travel/), and publishing an APIs.json is where it all starts. I will be producing a template type APIs.json for the API, and will leave for Bump.sh to create an index of their own API. I am simply looking to build on their great work and establish a set of APIs.json + OpenAPI templates I can use to flesh out other base APIs in the commons like accounts, images and videos.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Last Chance To Register For Workshops At #APIStrat in Amsterdam'
-image: http://www.3scale.net/wp-content/uploads/2013/12/apistrat-ams-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/last-chance-to-register-for-workshops-at-apistrat-in-amsterdam.png
 author:
   name: kinlane
 tags:

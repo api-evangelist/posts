@@ -9,7 +9,7 @@ tags:
   - Marketing
   - Management
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/nest/nestreview-workswithnest.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/nest/nestreview-workswithnest.png
 ---
 <p></p>I'm always looking out for examples of API providers who have invested energy into formalizing process around the business and politics of API operations. I'm hoping to aggregate a variety of approaches that I can aggregate into a single blueprint that I can use in my API storytelling and consulting. The more I can help API providers standardize what they do, the better off the API sector will be, so I'm always investing in the work that API providers should be doing, but doesn't always get prioritized.
 

@@ -2,7 +2,7 @@
 layout: post
 title: How Do You Run Your Developer API Community?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/developer-think-tank.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/developer-think-tank.png
 author:
   name: kinlane
 tags:

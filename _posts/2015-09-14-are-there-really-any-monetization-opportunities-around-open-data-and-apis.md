@@ -2,7 +2,7 @@
 layout: post
 title: Are There Really Any Monetization Opportunities Around Open Data And APIs?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-monetization-strategy.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-monetization-strategy.png
 author:
   name: kinlane
 tags:

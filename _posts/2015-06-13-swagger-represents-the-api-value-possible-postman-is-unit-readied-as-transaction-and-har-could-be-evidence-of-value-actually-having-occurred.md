@@ -4,7 +4,7 @@ title: >-
   Swagger Represents The API Value Possible, Postman Is Unit Readied As
   Transaction, And HAR Could Be Evidence Of Value Actually Having Occurred
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/gears-api-economy-swagger-postman-api-science.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/gears-api-economy-swagger-postman-api-science.png
 author:
   name: kinlane
 tags:

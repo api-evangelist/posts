@@ -5,7 +5,7 @@ title: >-
   I Am Speaking About Powering the API Lifecycle with Collections & Environments
   Tomorrow at @APIdaysGlobal INTERFACE
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_06_29_at_2.12.34_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_06_29_at_2.12.34_pm.png
 author:
   name: kinlane
 tags:
@@ -48,7 +48,7 @@ Everything I have shown you so far isn’t that ground breaking. These are some 
 
 These collections do not live within each domain workspace, and are managed centrally as part of an operational workspace. They are not generated or tailored to each individual API. They are defined as part of a wider organizational API operations strategy, and then get shared to each workspace when they are being applied. Providing a standardized way to govern how APIs are delivered across an organization.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_06_29_at_2.12.51_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_06_29_at_2.12.51_pm.png)
 
 ### Environments
 

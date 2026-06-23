@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Developer On-boarding Use Case For Postman
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/yosemite-yosemite-marcel-duchamp.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/yosemite-yosemite-marcel-duchamp.jpg
 author:
   name: kinlane
 tags:

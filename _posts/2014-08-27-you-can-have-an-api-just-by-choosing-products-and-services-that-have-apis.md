@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You Can Have An API Just By Choosing Products And Services That Have APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-hold.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-hold.png
 author:
   name: kinlane
 tags:

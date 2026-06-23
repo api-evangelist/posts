@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Generating a Serverless API in Multiple Languages From a Postman Collection
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_09_09_at_3.55.41_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_09_09_at_3.55.41_pm.png
 author:
   name: kinlane
 tags:

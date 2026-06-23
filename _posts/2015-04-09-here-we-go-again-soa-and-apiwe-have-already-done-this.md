@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Here We Go Again, SOA And API - We Have Already Done This!
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hourglass.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-hourglass.png
 author:
   name: kinlane
 tags:

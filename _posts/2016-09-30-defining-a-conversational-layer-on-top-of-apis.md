@@ -2,7 +2,7 @@
 layout: post
 title: Defining A Conversational Layer On Top Of APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-conversational-interfaces.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-conversational-interfaces.png
 atomdate: 2016-10-01T00:00:00.000Z
 tags:
   - Conversational

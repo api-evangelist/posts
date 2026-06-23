@@ -2,7 +2,7 @@
 layout: post
 title: Trying To Define API Awareness
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_light_bulb_bright_api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_light_bulb_bright_api.png
 atomdate: 2017-02-17T03:00:00.000Z
 tags:
   - Awareness
@@ -94,7 +94,7 @@ This is a master dump of my research, and the approach I have used to track on i
 *   **Integration** - What integration platform as a service (iPaaS), continuous integration, and other orchestration solutions are available for helping to make sense of API operations within this world.
 *   **Deprecation** - What deprecation notices are on the horizon for APIs, applications, SDKs, and other elements of API operations.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_signals.jpeg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_signals.jpeg)
 
 API awareness spans many stops along the API lifecycle, and across a variety of the most common, and critical building blocks of what drives API ecosystems. Awareness doesn't come easy. It takes time, and have access to the right information, and signals, potentially across many different entities and domains--aggregating, filtering, and ranking is essential developing and strengthening your awareness. In the end, even with the same signals and information available, there will be many definitions of what is the necessary awareness.
 

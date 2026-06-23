@@ -11,7 +11,7 @@ The ability to explain your API to developers and potential developers critical 
 
 The importance of documentation -- samples, training materials, guides, docs -- can't be understated. Quality [documentation and reference material for your Application Programming Interface](http://sdkbridge.com/index.php) (API) can be the difference between a developer adopting your API or moving on to another vendor. And yet these can be difficult documents to collect and/or to write.
 
-![](http://sdkbridge.com/images/ui/SDKBridge-logo.gif "SDK Bridge")[SDK Bridge](http://sdkbridge.com/index.php) is a company that specializes in explaining technology through documentation and software development kits. It provides a variety of API-related services including:
+[SDK Bridge](http://sdkbridge.com/index.php) is a company that specializes in explaining technology through documentation and software development kits. It provides a variety of API-related services including:
 
 *   API Documentation
 *   Sample code and tutorials

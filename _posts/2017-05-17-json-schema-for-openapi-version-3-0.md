@@ -4,8 +4,6 @@ layout: post
 title: 'JSON Schema For OpenAPI Version 3.0'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/json/json-schema.png
 ---
-
-<p><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/json/json-schema.png" align="right" width="40%" />
 <p>We are inching closer to a final release of version 3.0 for the OpenAPI specification, with the official version currently set at 3.0.0-rc1. We are beginning to see tooling emerge, and services like <a href="https://apimatic.io/">APIMATIC are already supporting version 3.0 when it comes to SDK generation</a>, as well their <a href="https://apimatic.io/transformer">API Transformer conversion tool</a>.
 
 <p>I am working on an OpenAPI validation solutions tailored specifically for municipal API deployments and was working with <a href="https://github.com/OAI/OpenAPI-Specification/blob/master/schemas/v2.0/schema.json">the JSON Schema for version 2.0 of the API specification</a>.  I wanted to help make my work be as ready for the future of the API specification and wanted to see if there was a JSON Schema for version 3.0 of the OpenAPI specification. I couldn’t find anything in the new branch of the repository, so I set out seeing if anyone else has been working on it.

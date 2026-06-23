@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Working Tips and Tricks Into Your Regular API Evangelism Efforts
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-magic.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-magic.png
 atomdate: 2016-09-06T20:00:00.000Z
 tags:
   - Evangelism

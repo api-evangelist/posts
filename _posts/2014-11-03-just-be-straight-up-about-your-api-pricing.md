@@ -2,7 +2,7 @@
 layout: post
 title: Just Be Straight Up About Your API Pricing
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/stocklytics/stockyltics-completely-free.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/stocklytics/stockyltics-completely-free.png
 author:
   name: kinlane
 tags:
@@ -13,11 +13,11 @@ I know. I’m kind of a broken record this week, but I’m trying to quantify th
 
 Here is an example of what I’m talking about over at [Stocklytics](http://www.stocklytics.com/). When you land on Stocklytics home page, this is what you see:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/stocklytics/stockyltics-completely-free.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/stocklytics/stockyltics-completely-free.png)
 
 After spending some time looking for anything else about pricing, I signed up for the service, and after I logged in to my account I found this page, which then takes me directly to a Paypal page:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/stocklytics/stocklytics-credit-account.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/stocklytics/stocklytics-credit-account.png)
 
 Do companies even think about what this does to the on-boarding process? I’m not evening focusing on the errors in my brand new developer account that I had to contend with before I discovered the add credits page. At this point, why would use this service? Even if the data is amazing? You just bullshitted me into signing up for your service. There was never a mention of cost until I signed up.
 

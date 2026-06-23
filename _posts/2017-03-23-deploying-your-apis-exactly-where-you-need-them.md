@@ -2,7 +2,7 @@
 layout: post
 title: Deploying Your APIs Exactly Where You Need Them
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw_deploy_google_aws_microsoft.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw_deploy_google_aws_microsoft.png
 atomdate: 2017-03-23T16:00:00.000Z
 tags:
   - APIs

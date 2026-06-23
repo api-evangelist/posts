@@ -5,7 +5,7 @@ title: >-
   Shifting How API Providers Define What An Application Is When Onboarding and
   Integrating With Their APIs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-subway-train-125th.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-subway-train-125th.jpg
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ When I sign up for Twitter’s API I have to create an application before I can 
 
 The most significant breakdown in the concept of defining an application is that it is designed for use by developers. In an iPaaS, BPM, and API automated business world, the legacy API management application definition doesn’t work. It is bad enough that an application stands in between a regular user of a platform and getting access to their data, content, and the useful algorithms that exist, but we often also hide all of this in some other completely separate developer area, excluding them from the conversation—instead of just making the API, and access to the API a natural part of the platform account management and settings. This separation between business and integration interfaces reflect decades of division between business and IT groups that needs to be done away with as we move forward in an API-driven business landscape. There is no reason that as a user of an “application”, that I need to venture to another separate section of a platform and create another “application”, just so that I can access the same data, content, and algorithms I am already putting to use via the platform. It just doesn’t pencil out anymore.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-subway-underground_35904617894_o.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-subway-underground_35904617894_o.jpg)
 
 This portal and management infrastructure that is serving API consumers who are building web or mobile applications. This usually doesn’t include the other types of applications consumers will be developing like integrations, automation, orchestrations etc., but more importantly it doesn’t serve other complimentary API providers, or API service providers. Meaning, Twilio and Stripe are optimized for their consumers to build applications on each of their respective APIs, but there is very little done to address when SMS and payments are made in a single application across both providers. There is a huge opportunity for API providers to share consumers, and optimize for bundled onboarding, integration, reporting, and other key areas. Additionally, there is very little considerations for how API service providers will be putting APIs to work across many different API providers. Which brings me to why I am writing this. As an API consumer using Postman across many different APIs, the burden is on me to setup applications and obtain keys for all of the APIs I am using, and there are very few API management affordances for me as Postman to help bridge these gaps. Can I go setup a single application and service all of my customers via the Twitter API? Yes, I guess I could argue that Postman is the application, but really developers are just using us as a vehicle to get them to their application or integration. Lots of conversations to be had here, and very few ways these discussions are being facilitated via existing API providers or service providers.
 

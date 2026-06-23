@@ -2,7 +2,7 @@
 layout: post
 title: Playing With The New SwaggerHub
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tony-kin-swaggerhub.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tony-kin-swaggerhub.jpg
 author:
   name: kinlane
 tags:

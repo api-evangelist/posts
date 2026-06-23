@@ -3,7 +3,7 @@ published: true
 layout: post
 title: More Information Is Not Always Better When On-Boarding Someone With An API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stories-beach-rocks-currents-internet-numbers.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/stories-beach-rocks-currents-internet-numbers.jpg
 author:
   name: kinlane
 tags:

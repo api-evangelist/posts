@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Can You Show Me The ROI On All Of This API Stuff Before We Commit
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-investment.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-investment.png
 author:
   name: kinlane
 tags:

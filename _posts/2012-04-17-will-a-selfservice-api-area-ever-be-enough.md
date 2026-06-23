@@ -2,7 +2,7 @@
 layout: post
 title: Will a Self-Service API Area Ever be Enough?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Customer-Self-Service.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Customer-Self-Service.jpg
 author:
   name: kinlane
 tags:
@@ -37,7 +37,7 @@ Even with all of this, I still get some pretty basic questions like:
 *   **Can I save your data in my database?** \- Says it on the Usage Requirements
 *   **Do I have to show your logo?** - Says it on the Usage Requirements
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/building%20blocks.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/building%20blocks.jpg)
 
 That is just the tip of the iceberg. I’ve posed this question before...[are there enough doers in the world to make this whole API vision work?](/2012/02/13/are-there-enough-doers-for-this-api-vision-to-work/ "Are there enough doers to make this whole API vision work?") It’s hard to tell if its just my view, while in the pit of despair, or if it is just the way it is.
 

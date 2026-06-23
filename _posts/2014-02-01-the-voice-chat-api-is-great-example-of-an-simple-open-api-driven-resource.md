@@ -2,7 +2,7 @@
 layout: post
 title: The Voice Chat API Is Great Example Of An Simple, Open, API Driven Resource
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/voice-chat-api/voicechatapi_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/voice-chat-api/voicechatapi_logo.png
 author:
   name: kinlane
 tags:

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Alcatel-Lucent&#039;s Laura Merling at API Strategy &amp; Practice
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/laura-merling.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/laura-merling.jpeg
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ As soon as I told her about the event, she said “We are in! What do we need to
 
 I’m stoked to have Laura kick off the event on Thursday, November 1st with a keynote as well as having [Alcatel-Lucent as a gold sponsor.](http://www.apistrategyconference.com/sponsors.php)
 
-[![](https://s3.amazonaws.com/kinlane-productions2/events/api-strategy-practice-conference/sponsors/alcatel-lucent-logo.jpeg)](https://www.alcatel-lucent.com/open-api-platform/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/sponsors/alcatel-lucent-logo.jpeg)](https://www.alcatel-lucent.com/open-api-platform/)
 
 If you’ve never heard Laura speak, I highly recommend making sure you are there. She always has great insight into the success Alcatel-Lucent is having within emerging markets and the telco space.  Also, her talks are always positive, energetic and demonstrate leadership in the space--something I want my daughter Kaia to experience.
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Current State of Mock APIs Using Postman
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mocking_apis_postman.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mocking_apis_postman.jpeg
 author:
   name: kinlane
 tags:
@@ -54,7 +54,7 @@ The robustness and completeness of your examples will define the functionality o
 
 An important dimension of mocking APIs on the Postman platform is the ability to create, manage, and destroy your mock servers using the Postman API.  Using the Postman API to automate and orchestrate how you mock your APIs is a great way to reduce the workload when it comes to ensuring there is mock coverage across all of the API you are managing using Postman.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_platform_marketecture.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_platform_marketecture.png)
 
 *   **[Set up a collection for mocking](https://learning.postman.com/docs/designing-and-developing-your-api/mocking-data/mock-with-api/#set-up-a-collection-for-mocking)** - Collectionis are the core of mock servers on Postman, and this will help you understand what is going into each one.
 *   **[Retrieve information needed for mock creation](https://learning.postman.com/docs/designing-and-developing-your-api/mocking-data/mock-with-api/#retrieve-information-needed-for-mock-creation)** - You need a collection and environment to make your mock server work, so this will help make sure you have those, and their unique identifiers.

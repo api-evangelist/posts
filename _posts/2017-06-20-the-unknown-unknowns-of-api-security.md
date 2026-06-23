@@ -4,8 +4,6 @@ layout: post
 title: 'The Unknown Unknowns Of API Security'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-security-unknown.png
 ---
-
-<p><a href="http://security.apievangelist.com/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-security-unknown.png" align="right" width="25%" style="padding: 15px;" /></a>
 <p>I am trying to wrap my head around the next steps in the evolution of <a href="http://security.apievangelist.com/">API security</a>. I am trying to help separate some of the layers of what we collectively call API security, into some specific building blocks I can reference in my storytelling. I’m ramping up my API security research as I onboard a new API service provider partner, and will have more resources to invest in the API security discussion.
 
 <p>Let’s start with the easy “Known Knowns”:

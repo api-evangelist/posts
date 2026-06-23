@@ -2,7 +2,7 @@
 layout: post
 title: What Happens to Instagram API Developers After Facebook Acquisition?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Instagram_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Instagram_logo.png
 author:
   name: kinlane
 tags:

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Business-First API Design and Development
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-seattle-public-market_36725946605_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-seattle-public-market_36725946605_o.jpg
 tags:
   - API-Frist
   - Design

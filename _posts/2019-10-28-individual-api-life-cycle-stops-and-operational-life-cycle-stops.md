@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Individual API Life Cycle Stops And Operational Life Cycle Stops
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-new-32-161-800-500-0-max-0--5--1.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-new-32-161-800-500-0-max-0--5--1.jpg
 author:
   name: kinlane
 tags:

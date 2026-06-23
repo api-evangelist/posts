@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Making the First Mastodon API Call to My Instance
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/uncle-sam-waterpump-old-time.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-waterpump-old-time.jpg
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ tags:
 
 You can find the documentation for the [Mastodon API](https://docs.joinmastodon.org/api/guidelines/) via their docs site, and to help guide my work I have setup a public Mastodon API workspace. To get started, I wanted to play around with the lowest hanging fruit, and in my opinion that would be the [Mastadon Timeline API](https://docs.joinmastodon.org/methods/timelines/). I created what I’d consider to be [a “capabilities” collection for pulling the timeline for my instance(https://www.postman.com/api-evangelist/workspace/mastodon/request/35240-6b0d54d1-3476-4423-aa33-aa10faa675f7). The Timeline API doesn’t require authentication as it is a public feed, so I am able to quickly setup a request and see the response in JSON. Once I get a 200 OK, I add a little test script to visual each of the users plus messages in a simple HTML layout.
 
-![Mastodon Timeline API Capability Collection](https://kinlane-productions2.s3.amazonaws.com/mastodon-timeline-api-hello-world.png)
+![Mastodon Timeline API Capability Collection](https://kinlane-images.s3.amazonaws.com/apievangelist/mastodon-timeline-api-hello-world.png)
 
 Now I can create different versions of this collection to help me harvest the pulling of data and automating the curation, syndication, and engagement with people I follow in similar ways to what I do on Twitter. I can tweak and evolve the test script to look for hashtags and other keywords, make decisions based upon the user, and customize how I want to automate how I consume messages via my Mastodon instance. Honestly this is something I should revisit for my email inboxes, standardizing how I use APIs to maximize how I work across these federated channels—both private and public messaging. 
 

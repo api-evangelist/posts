@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'What Is The Streamdata.io API Gallery?'
-image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/68_174_800_500_0_max_0_-5_-1.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/what-is-the-streamdata-io-api-gallery.png
 ---
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/68_174_800_500_0_max_0_-5_-1.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>As I prepare to launch the Streamdata.io API Gallery, I am doing a handful of presentations to partners. As part of this process I am looking to distill down the objectives behind the gallery, and the opportunity it delivers to just a handful of talking points I can include in a single slide deck. Of course, as the API Evangelist, the way I do this is by crafting a story here on the blog. To help me frame the conversation, and get to the core of what I needed to present, I wanted to just ask a couple questions, so that I can answer them in my presentation.
 
 <p><strong>What is the Streamdata.io API Gallery?</strong><br />

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The API Reality In Our Heads Versus The Reality On The Ground
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/udnie-IMG_7162.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/udnie-IMG_7162.jpg
 author:
   name: kinlane
 tags:

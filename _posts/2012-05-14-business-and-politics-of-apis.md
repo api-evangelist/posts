@@ -2,7 +2,7 @@
 layout: post
 title: Business and Politics of APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-Deep-Research-Twitter.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/Tag-Cloud-Deep-Research-Twitter.png
 author:
   name: kinlane
 tags:

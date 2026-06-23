@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Giving A Postman Collection To Your Sales Team
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/soldiers-talking-34536952486-52cd6bb1d1-h-blue-circuit-3.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/soldiers-talking-34536952486-52cd6bb1d1-h-blue-circuit-3.jpg
 author:
   name: kinlane
 tags:

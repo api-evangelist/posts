@@ -2,7 +2,7 @@
 layout: post
 title: ' Internet Connectivity And Data Transfer Control For IoT Devices On The Network'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/arlons_iot_poster.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/arlons_iot_poster.jpg
 atomdate: 2016-10-28T17:00:00.000Z
 tags:
   - Data

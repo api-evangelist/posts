@@ -2,7 +2,7 @@
 layout: post
 title: The Burden On API Providers When It Comes To Web Literacy
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/USGS_Daily_Values_Web_Service.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/USGS_Daily_Values_Web_Service.png
 atomdate: 2016-09-07T18:00:00.000Z
 tags:
   - Web

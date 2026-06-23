@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Dedicated Open Source Page For Your API Platform
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/netflix.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/netflix.png
 author:
   name: kinlane
 tags:
@@ -25,7 +25,7 @@ tags:
 *   **3rd Party** - External open source project being used.
 *   **Categories** - Breaking projects down by simple categories.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/paypal.png)](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/paypal.png)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/paypal.png)](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/paypal.png)
 
 ### Communication:
 
@@ -46,7 +46,7 @@ tags:
 *   **Stars** - Exposing the stars for projects derived from GitHub.
 *   **Forks** - Exposing the number of times a projects has been forked on GitHub.
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/intuit.png)](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/intuit.png)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/intuit.png)](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/intuit.png)
 
 ### Innovation:
 

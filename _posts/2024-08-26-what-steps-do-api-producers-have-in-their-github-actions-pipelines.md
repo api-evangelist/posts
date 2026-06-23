@@ -7,7 +7,7 @@ tags:
   - Friction
   - Solutions
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-gears-pipes-plumbing.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-gears-pipes-plumbing.jpg
 ---
 I have been studying the [GitHub repositories of API producers who choose to manage their OpenAPIs via a public repository](https://apievangelist.com/2024/07/08/more-examples-of-using-github-to-manage-your-openapi/). I have broken down all the properties of these repositories to help me better understand how producers are managing their OpenAPI, but also how they perceive or their consumers are requesting different things derived from and surrounding a valid OpenAPI definition for each API represented.
 

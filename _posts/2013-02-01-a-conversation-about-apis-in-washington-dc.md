@@ -2,7 +2,7 @@
 layout: post
 title: A Conversation About APIs in Washington DC
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/dcapi-1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/dcapi-1.png
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ Next up was Gray Brooks from the General Services Administration (GSA) who walke
 
 After Gray talked, Tim Herzog ([@tgherzog](http://twitter.com/tgherzog)) the Open Data Specialist at the World Bank walked us through what the [World Bank](http://www.worldbank.com "World Bank") is doing with their open data initiatives, which APIs are at the core. He discussed how they couldn't have delivered their open data platform in the time and budget, without making it driven by APIs.
 
-![](https://s3.amazonaws.com/kinlane-productions2/events/dcapi-january/dcapi-7.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/dcapi-january/dcapi-7.png)
 
 Last up was Javaun Moradi ([@javaun](http://twitter.com/javaun)) of NPR, who walked us through some of the lessons learned from deploying and managing the NPR APIs. His talk was full of nuggets of wisdom, including "Don't build an API unless it solves a user problem" and "We drink our own champagne, because we don't make dog food!". I'm hoping to spend more time this spring, doing a deeper dive into the NPR approach and share those insights in blog posts and ultimately a white paper.
 

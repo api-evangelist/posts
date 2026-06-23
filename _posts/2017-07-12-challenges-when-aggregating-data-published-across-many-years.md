@@ -4,8 +4,6 @@ layout: post
 title: 'Challenges When Aggregating Data Published Across Many Years'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/hack-education/ed-tech-investment-research.png
 ---
-
-<p><a href="http://funding.hackeducation.com/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/hack-education/ed-tech-investment-research.png" align="right" width="40%" style="padding: 15px;" /></a>
 <p><a href="http://funding.hackeducation.com/">My partner in crime is working on a large data aggregation project regarding ed-tech funding</a>. She is publishing data to Google Sheets, and I’m helping her develop Jekyll templates she can fork and expand using Github when it comes to publishing and telling stories around this data across her network of sites. Like API Evangelist, <a href="https://github.com/hackeducation/">Hack Education runs as a network of Github repositories</a>, with a common template across them–we call the overlap between API Evangelist, <a href="http://contrafabulists.com/">Contrafabulists</a>.
 
 <p>One of the smaller projects she is working on as part of her ed-tech funding research involves pulling the grants made by the Gates Foundation since the 1990s. Similar to my story a couple weeks ago about my friend David Kernohan, <a href="https://apievangelist.com/2017/06/28/i-have-two-interesting-apis-and-i-am-not-a-developer-what-do-i-do/">where he was wanting to pull data from multiple sources</a>, and aggregate into a single, workable project. Audrey is looking to pull data from a single source, but because the data spans almost 20 years–it ends up being a lot like aggregating data from across multiple sources.

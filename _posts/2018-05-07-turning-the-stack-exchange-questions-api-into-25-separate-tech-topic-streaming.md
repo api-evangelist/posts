@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Turning The Stack Exchange Questions API Into 25 Separate Tech Topic Streaming'
-image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/80_168_800_500_0_max_0_1_-1.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/turning-the-stack-exchange-questions-api-into-25-separate-tech-topic-streaming.png
 ---
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/80_168_800_500_0_max_0_1_-1.jpg" width="40%" align="right" style="padding: 15px;" />
+<p>
 <p><a href="http://streamdata.io">I’m turning different APIs into topical streams using Streamdata.io</a>. I have been profiling hundreds of different APIs as part of my work to build out the <a href="http://api.gallery.streamdata.io/">Streamdata.io API Gallery</a>, and as I’m creating OpenAPI definitions for each API, I’m realizing the potential for event and topical driven streams across many existing web APIs. One thing I am doing after profiling each API is that I benchmark them to see how often the data changes, applying what we are calling StreamRank to each API path. Then I try to make sure all the parameters, and even enum values for each parameter are represented for each API definition, helping me see the ENTIRE surface area of an API. Which is something that really illuminates the possibilities surrounding each API.
 
 <p>After profiling <a href="https://api.stackexchange.com/docs/questions#order=desc&amp;sort=activity&amp;tagged=php&amp;filter=default&amp;site=stackoverflow&amp;run=true">the Stack Exchange Questions API</a>, I began to see how much functionality and data is buried within a single API endpoint, and was something I wanted to expose and make much easier to access. Taking a single OpenAPI definition for the Stack Exchange Questions API:

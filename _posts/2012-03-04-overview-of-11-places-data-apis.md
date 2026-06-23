@@ -2,7 +2,7 @@
 layout: post
 title: Overview of 11 Places Data APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/CityGrid.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/CityGrid.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ Since starting as [API Evangelist](http://apievangelist.com "API Evangelist") he
 
 * * *
 
-**[![](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/citygrid_logo-300x66.jpg "citygrid_logo")](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/citygrid_logo.jpg)**CityGrid Places API****
+****CityGrid Places API****
 
 **Search Overview -** Providing a places search that can be searched by longitude/latitude, "where" using cities, neighborhoods, zip codes, metro areas, addresses and intersections. Details for each places is also available.
 
@@ -42,7 +42,7 @@ Since starting as [API Evangelist](http://apievangelist.com "API Evangelist") he
 
 * * *
 
-**[![](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/facebook_logo-300x99.jpg "facebook_logo")](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/facebook_logo.jpg)Facebook Graph API**
+**Facebook Graph API**
 
 **Search Overview -** Providing the ability to search the Facebook Graph objects with a “type” of place, and longitude/latitude, keyword search and area to find places listed as objects within Facebook.
 
@@ -66,7 +66,7 @@ Since starting as [API Evangelist](http://apievangelist.com "API Evangelist") he
 
 * * *
 
-**[![](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/factual-logo-315x82-300x78.png "factual-logo-315x82")](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/factual-logo-315x82.png)Factual**
+**Factual**
 
 **Search Overview -** Providing a places search that can be searched by latitude/longitude, and “where” using full text search query string.
 
@@ -96,7 +96,7 @@ Since starting as [API Evangelist](http://apievangelist.com "API Evangelist") he
 
 * * *
 
-**[![](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/foursquare_logo-300x93.png "foursquare_logo")](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/foursquare_logo.png)Foursquare Venue API**
+**Foursquare Venue API**
 
 **Search Overview -** Providing a places search that can be searched by  hierarchical list of categories, longitude/latitude, “where” using search term, managed by requesting users, over time range, trending and exploration.
 
@@ -123,7 +123,7 @@ Since starting as [API Evangelist](http://apievangelist.com "API Evangelist") he
 
 * * *
 
-**[![](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/fwix_logo_300.jpg "fwix_logo_300")](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/fwix_logo_300.jpg)Fwix**
+**Fwix**
 
 **Search Overview -** Providing a places search that can be searched by  
 latitude/longitude, and text search based upon categories, address, city, province, postal code, country, neighborhood and text keyword.
@@ -152,7 +152,7 @@ latitude/longitude, and text search based upon categories, address, city, provin
 
 * * *
 
-**[![](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/google-places-logo-square.gif "google-places-logo-square")](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/google-places-logo-square.gif)Google Places API**
+**Google Places API**
 
 **Search Overview -** Providing a places search that can be searched by latitude/longitude, keyword matched against all fields, name of place, type of place restricted by radius.   As well as pulling details for each places.
 
@@ -176,7 +176,7 @@ latitude/longitude, and text search based upon categories, address, city, provin
 
 * * *
 
-**[![](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/infochimps-logo-300x122.jpg "infochimps-logo")](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/infochimps-logo.jpg)InfoChimps**
+**InfoChimps**
 
 **Search Overview -** Providing a places search that can be searched by longitude/latitude with radius, address, bounding box or IP address.
 
@@ -200,7 +200,7 @@ latitude/longitude, and text search based upon categories, address, city, provin
 
 * * *
 
-**[![](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/nokia-developer.jpeg "nokia-developer")](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/nokia-developer.jpeg)Nokia**
+**Nokia**
 
 **Search Overview -** Providing a JavaScript places search that can be searched by search term, with a detail search for display by JS widget.
 
@@ -224,7 +224,7 @@ latitude/longitude, and text search based upon categories, address, city, provin
 
 * * *
 
-**[![](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/yahoo_geo_logo_med.png "yahoo_geo_logo_med")](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/yahoo_geo_logo_med.png)Yahoo GeoPlanet**
+**Yahoo GeoPlanet**
 
 **Search Overview -** Providing a places search that can be searched by type, county, state, country, oceans, seas, continents, hierarchy and full text search.  Also returns places detail by ID.
 
@@ -247,7 +247,7 @@ latitude/longitude, and text search based upon categories, address, city, provin
 
 * * *
 
-**[![](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/Yelp_Logo-300x153.jpg "Yelp_Logo")](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/Yelp_Logo.jpg)Yelp API**
+**Yelp API**
 
 **Search Overview -** You can search location using geo bounding box, longitude and latitude, neighborhood, address or city and filter listings by “where”, using a list of support categories.   As well as pulling details for each places.
 
@@ -271,7 +271,7 @@ latitude/longitude, and text search based upon categories, address, city, provin
 
 * * *
 
-**[![](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/yp-developer-center-300x67.png "yp-developer-center")](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/yp-developer-center.png)YP**
+**YP**
 
 **Search Overview -** Providing a places search that can be queried by keyword and longitude/latitude, street address, city, postal code, Neighborhood, state, points of interest or by phone number with a radius.  Places details are also provided.
 

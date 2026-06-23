@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Average Number of APIs Used In A Modern App
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-app-apis.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-app-apis.png
 author:
   name: kinlane
 tags:

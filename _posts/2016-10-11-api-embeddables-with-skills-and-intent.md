@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Embeddables With Skills and Intent
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-embeddable.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-embeddable.png
 atomdate: 2016-10-11T20:00:00.000Z
 tags:
   - Embeddable

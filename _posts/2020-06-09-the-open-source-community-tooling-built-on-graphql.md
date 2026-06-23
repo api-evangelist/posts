@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Open Source Community Tooling Built on GraphQL
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-construction-zone-claw.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-construction-zone-claw.jpg
 author:
   name: kinlane
 tags:

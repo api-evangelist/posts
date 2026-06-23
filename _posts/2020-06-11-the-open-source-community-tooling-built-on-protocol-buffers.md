@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Open Source Community Tooling Built on Protocol Buffers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-satellite-with-sunset.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-satellite-with-sunset.jpg
 author:
   name: kinlane
 tags:

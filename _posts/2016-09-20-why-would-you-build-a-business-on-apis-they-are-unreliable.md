@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Would You Build A Business On APIs? They Are Unreliable!
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-unstable.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-unstable.png
 atomdate: 2016-09-20T16:00:00.000Z
 tags:
   - Business

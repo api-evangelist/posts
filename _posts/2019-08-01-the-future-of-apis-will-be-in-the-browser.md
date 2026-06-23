@@ -8,7 +8,7 @@ tags:
   - Discovery
   - Browsers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/nazi-invasion-dark-hallway.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/nazi-invasion-dark-hallway.jpg
 author:
   name: kinlane
 ---

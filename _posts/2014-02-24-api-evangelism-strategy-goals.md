@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'API Evangelism Strategy: Goals'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-goal-posts.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-goal-posts.png
 author:
   name: kinlane
 tags:

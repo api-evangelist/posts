@@ -11,7 +11,7 @@ tags:
   - Investment
   - Business of APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/los-angeles-from-observatory-losangeles-from-observatory-purp-paper.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/los-angeles-from-observatory-losangeles-from-observatory-purp-paper.jpg
 author:
   name: kinlane
 ---

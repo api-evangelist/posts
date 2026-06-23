@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Personal APIs Are Not Just A Local Destination, They Are A Journey
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-square-star.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-square-star.png
 author:
   name: kinlane
 tags:
@@ -30,7 +30,7 @@ In the end, my point is that the lines between personal and other APIs are very 
 **Breaking Down The Core Personal API Stack**  
 To help think through this, I wanted to take a moment and break down what some of the core personal API stack might be. With my experience it is pretty easy to identify what might be the core personal API stack, [as one area my API research into the backend as a service (BaaS) spac](http://baas.apievangelist.com)e, works hard to deliver many of these common objects that are used across mobile apps that developers are building today. These are just a handful of the common, end-user facing API resources that are available as part of the standard BaaS offering:
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-circle-grouped.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-circle-grouped.png)
 
 *   **Profiles** - The account and profile data for users.
 *   **People** - The individual friends and acquaintances.
@@ -54,7 +54,7 @@ With a core stack defined, let's think about where this personal API stack will 
 
 **Profiles**
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-slider-circle-knobs.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-slider-circle-knobs.png)
 
 *   **Facebook** - Your account and profile on Facebook.
 *   **Twitter** - Your account and profile on Twitter.
@@ -142,7 +142,7 @@ With a core stack defined, let's think about where this personal API stack will 
 
 The APIs of these platforms are your APIs, and much of this information is never going anywhere, unless you are simply looking to backup, or sync to other locations (which you should be doing). I try to look at this as a positive, by default, you have a rich stack of APIs available, to help you manage your digital information. Whether you are a company, or an individual, you will always have to make some trade offs about how you manage your information, and ultimately where things are stored, how important the resources are, and ultimately are seeking to strike some sort of balance.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-circle-star.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-circle-star.png)
 
 **OK, So What? Nobody Cares About Their Information**  
 Even if we look at APIs in this way, that our personal APIs will always be a mix of APIs across the services we use, the average individual doesn't know or care about APIs--this is a non-problem. #truth The average individual most likely will never care about the bits and bytes they generate online each day. The photos, videos, messages, and other exhaust from our daily lives can just be lost (and monetized and owned by some one lese), along with many of our memories in the physical world--not everything needs to saved.

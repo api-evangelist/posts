@@ -3,7 +3,7 @@ published: true
 layout: post
 title: AsyncAPI Version 2.0 Is Ready For Use
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/fast-lights-freeway-redes-fast-flux-623x425-blue-electricity.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/fast-lights-freeway-redes-fast-flux-623x425-blue-electricity.jpg
 author:
   name: kinlane
 tags:

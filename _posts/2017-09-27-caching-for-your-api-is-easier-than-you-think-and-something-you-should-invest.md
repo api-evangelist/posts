@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Caching For Your API Is Easier Than You Think And Something You Should Invest'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/internet-gauages-3.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/caching-for-your-api-is-easier-than-you-think-and-something-you-should-invest.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/internet-gauages-3.jpg" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p>I’m encountering more API providers who have performance and scalability concerns with their APIs, who are making technical procurement decisions (gateways, proxies, etc) based upon these challenges, but have not invested any time or energy into planning and optimization of caching for their existing web servers that are delivering their APIs. Caching is another aspect of HTTP that I keep finding folks have little or no awareness of, and do not consider more investment in it to assist them in alleviating their scalability and performance concerns.
 
 <p>There was a meeting I attended a couple weeks back where an API implementation was concerned about a new project for bulk loading and syncing of data between multiple external systems and their own, because of the strain it put on their database. Citing that they received millions of website, and API calls daily, they said they could not take the added load on their already strained systems during the day, limiting this type of activity to a narrow window at night. I began inquiring regarding caching practices in place on web, and API traffic, and they acknowledged that they new of no such activity or practices in place. This isn’t uncommon in my experiences, and I regularly encounter IT groups who just don’t have the time and HTTP awareness to implement any coherent strategy–this particular one just happened to admit it.

@@ -4,7 +4,7 @@ title: >-
   Are 1000lb Gorillas Buying Startups To Look Pretty, Or Just So That Nobody
   Else Buys Them First?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/1000-lb-gorilla-with-startup-jewelry.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/1000-lb-gorilla-with-startup-jewelry.jpg
 tags:
   - Startups
 ---

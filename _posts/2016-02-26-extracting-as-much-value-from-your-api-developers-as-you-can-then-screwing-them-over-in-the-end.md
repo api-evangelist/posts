@@ -3,7 +3,7 @@ layout: post
 title: >-
   Extracting As Much Value From Your API Developers As You Can, Then Screwing
   Them Over in The End
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-extraction.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-api-extraction.png
 tags:
   - Value
   - Developers

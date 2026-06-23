@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Starting Simple in the Overwhelming World of API Governance
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/35201856153_61bc075e4b-nazi-invasion.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/35201856153_61bc075e4b-nazi-invasion.jpg
 tags:
   - Governance
   - Rules

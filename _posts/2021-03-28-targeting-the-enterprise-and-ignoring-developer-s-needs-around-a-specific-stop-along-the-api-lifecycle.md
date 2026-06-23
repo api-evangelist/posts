@@ -5,7 +5,7 @@ title: >-
   Targeting the Enterprise and Ignoring Developer’s Needs Around a Specific Stop
   Along the API LIfecycle
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/long-factory-nazi-invasion.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/long-factory-nazi-invasion.jpg
 tags:
   - Lifecycle
   - Platform
@@ -59,6 +59,6 @@ If the Postman web or desktop doesn’t do what you want it to do currently, and
 ### Postman is Selling to the Enterprise and Working to Meet the Needs of Over 13 Million Developers
 I understand that it can be difficult to see the full scope of the API universe. I don’t expect folks to be able to see it. I also don’t expect that I am going to fully understand what it is like to “do APIs” on the ground within your organization or industry. I also am not in denial that Postman struggles with delivering a user interface and user experience that meets the needs of all 13 million users—it just ain’t an easy thing to do. However, I do get to write lengthy responses to the quick, emotional, and broad sweeping claims about Postman not caring about its developers. It is something that is difficult to not take personally, and at this stage of my career I know better than engaging with folks on Twitter about these things—especially as a Postman employee. However, I do find it valuable to think through my responses to these allegations, and work through how I see things, so that next time I do find myself in a conversation with someone, I can dive in with more clarity and coherence.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/long-factory-uncle-sam.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/long-factory-uncle-sam.jpg)
 
 Ultimately, it isn’t easy to operate a platform. Let alone a platform that is the underlying plumbing for platforms across almost every business sector. We aren’t going to be able to make everyone happy. I am fine with this. However, I am in the business of understanding the overall API lifecycle, and helping folks develop more awareness of the big picture. This is all journey that we are ultimately at different places on, and it is my job to quickly iterate through many different possible journeys regularly on my own, while also joining customers and partners in their own journeys. Throughout this process I learn from what I am seeing, while also sharing previous learnings and experiences with whoever I encounter. So whenever I encounter folks stuck at a specific stop along the way, banging their head on one specific areas of a much longer journey, I feel compelled to share what I know in the most constructive way possible. So, publishing it here on API Evangelist  as opposed to engaging on Twitter has become the healthiest way for me to do this, which also has the widest impact possible within this ever expanding API universe we find ourselves in.

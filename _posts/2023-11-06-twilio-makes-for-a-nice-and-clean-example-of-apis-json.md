@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Twilio Makes for a Nice and Clean Example of APIs.json
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/norman-rockwell-ruby-bridges-bright-light-bulb.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/norman-rockwell-ruby-bridges-bright-light-bulb.jpg
 author:
   name: kinlane
 tags:
@@ -41,7 +41,7 @@ name: Twilio
 description: "We are a software company that strengthens businesses by unifying their
   data to build insightful paths to customers, so they are smarter with every interaction
   and able to outmaneuver their competition."
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://www.twilio.com/en-us
 
 created: 2023/9/25
@@ -61,7 +61,7 @@ apis:
 - name: Twilio Messaging API
   description: Send and receive messages via SMS, MMS, WhatsApp, Facebook Messenger,
     and more through our Messaging and Conversations APIs.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://www.twilio.com/en-us/ahoy
   baseURL: https:/api.twilio.com
   tags:
@@ -77,7 +77,7 @@ apis:
 - name: Twilio Email API
   description: Reach customers with the Twilio SendGrid Email API for reliable email
     delivery at scale.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://www.twilio.com/en-us/sendgrid/email-api
   baseURL: https:/api.twilio.com
   tags:
@@ -91,7 +91,7 @@ apis:
 - name: Twilio Identity and Verification API
   description: Set up SMS or voice verifications to quickly authenticate users, fight
     fraud, and protect user accounts.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://www.twilio.com/en-us/trusted-activation/verify
   baseURL: https:/api.twilio.com
   tags:
@@ -108,7 +108,7 @@ apis:
 - name: Twilio Programmable Voice API
   description: Build custom voice call experiences for your applications to reach
     customers around the world.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://www.twilio.com/en-us/voice
   baseURL: https:/api.twilio.com
   tags:
@@ -121,7 +121,7 @@ apis:
 
 - name: Twilio Video API
   description: Twilio Video is a programmable real-time communications platform that allows you to add video chat functionality to your web, iOS, and Android applications. The platform provides APIs, SDKs, and helper tools to capture, distribute, record, and render high quality audio and video applications.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://www.twilio.com/docs/video
   baseURL: https:/api.twilio.com
   tags:
@@ -134,7 +134,7 @@ apis:
 
 - name: Twilio Accounts API
   description: When you first sign up with Twilio, you have just one account, your main account. But you can also create more accounts... subaccounts are useful for things like segmenting phone numbers and usage data for your customers and controlling access to data.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://www.twilio.com/docs/iam/api/account
   baseURL: https:/api.twilio.com
   tags:

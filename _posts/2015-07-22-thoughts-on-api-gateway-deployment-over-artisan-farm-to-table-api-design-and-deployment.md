@@ -6,7 +6,7 @@ title: >-
 url: >-
   http://apievangelist.com/2015/07/22/thoughts-on-api-gateway-deployment-over-artisan-farm-to-table-api-design-and-deployment/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-farm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-farm.png
 author:
   name: kinlane
 tags:

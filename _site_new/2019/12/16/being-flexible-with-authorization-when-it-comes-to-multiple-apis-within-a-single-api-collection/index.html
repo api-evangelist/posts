@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I am working on a Postman collection that deploys an API to AWS. I’m pulling the OpenAPI from Postman using the Postman API API (mind blown), and then publis...">
-    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_deploy_aws_api_gateway_auth.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_aws_deploy_aws_api_gateway_auth.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -42,7 +42,7 @@
     <meta name="twitter:title" content="Being Flexible With Authorization When It Comes To Multiple APIs Within A Single API Collection">
     
     <meta name="twitter:description" content="I am working on a Postman collection that deploys an API to AWS. I’m pulling the OpenAPI from Postman using the Postman API API (mind blown), and then publis...">
-    <meta name="twitter:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_deploy_aws_api_gateway_auth.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_aws_deploy_aws_api_gateway_auth.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -52,7 +52,7 @@
       "@type": "Article",
       "headline": "Being Flexible With Authorization When It Comes To Multiple APIs Within A Single API Collection",
       "description": "I am working on a Postman collection that deploys an API to AWS. I’m pulling the OpenAPI from Postman using the Postman API API (mind blown), and then publis...",
-      "image": "http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_deploy_aws_api_gateway_auth.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_aws_deploy_aws_api_gateway_auth.png",
       "datePublished": "2019-12-16T00:00:00-05:00",
       "dateModified": "2019-12-16T00:00:00-05:00",
       "author": {
@@ -65,7 +65,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -363,7 +363,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -393,7 +393,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -727,7 +727,7 @@
       </div>
 
       
-      <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_deploy_aws_api_gateway_auth.png" alt="Being Flexible With Authorization When It Comes To Multiple APIs Within A Single API Collection" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_aws_deploy_aws_api_gateway_auth.png" alt="Being Flexible With Authorization When It Comes To Multiple APIs Within A Single API Collection" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -735,15 +735,15 @@
 
 <p>When defining Postman collections you can apply the authorization at the collection, folder, or request levels. This allows you to be more thoughtful of how authenticate across multiple APIs within a single Postman collection. This Postman collection is going to end up being what I’d consider to be a workflow collection, meaning it will walk through each step for the deployment of an API to AWS using Postman, so eventually it most likely will just be a series of individual API requests which can be run manually by a user, or automated with a Postman runner or monitor. However, as I am architecting my collection I don’t want to have to define the authorization for each individual request—I just want them to inherit authorizations, so I am just going to add a folder for each service. This gives me the ability to set authorization for Postman at the header level for an individual request, which I will move up to the folder level if I need to make another request to the Postman API.</p>
 
-<p><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_deploy_postman_auth_header.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_aws_deploy_postman_auth_header.png" alt="" /></p>
 
 <p>Then I can set authorization for AWS API Gateway, and inherit for each individual call that I am making to the AWS API Gateway API to configure the surface area of the API I am deploying to AWS.</p>
 
-<p><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_deploy_aws_api_gateway_auth.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_aws_deploy_aws_api_gateway_auth.png" alt="" /></p>
 
 <p>Then I can set authorization for AWS DynamoDB, and inherit for each individual call that I am making to the configure the persistent data store that I am deploying to AWS behind the API.</p>
 
-<p><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_deploy_aws_dynamodb_auth.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_aws_deploy_aws_dynamodb_auth.png" alt="" /></p>
 
 <p>I am using three separate APIs to deploy my API—Postman, AWS API Gateway, and AWS DynamoDB. I have an API key for Postman, and one set of a key and secret I am using to work with AWS—configuring AWS IAM to allow my key and secret to work with both service. While I am using the same set of key and secrets across both AWS services and relying on AWS IAM to manage access, I am still keeping the variables I use for each service separate so that I can keep all of my AWS variables consistent across the different Postman collections I am developing. I have built a whole list of AWS reference collections, and will be using these parts and pieces across many different workflow collections, with this just being the first one designed to deploy an API.</p>
 

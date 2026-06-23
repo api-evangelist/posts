@@ -10,7 +10,7 @@ tags:
   - Github
   - Github Pages
   - Applications
-image: https://s3.amazonaws.com/kinlane-productions2/github/run-on-github-button.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/github/run-on-github-button.png
 ---
 <p></p>My world runs on Gitub. 100% of my public website projects run on Github Pages, and about 75% of my public web applications run on Gitub Pages. The remaining 25% of it all is my API infrastructure. However, I'm increasingly pushing my data and content APIs to run entirely on Github with Github Pages as frontend, and the Github repo as the backend, with the Github API as the transport. I'd rather be serving up static JSON and YAML from repositories, and building JavaScript web applications that run using Jekyll, than dynamic server-side web applications.
 

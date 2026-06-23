@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Challenges Binding APIs Deployed Via Gateway To Backend Services
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stories-statue-face-open-mouth-blue-circuit-5.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/stories-statue-face-open-mouth-blue-circuit-5.png
 author:
   name: kinlane
 tags:

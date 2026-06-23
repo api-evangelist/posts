@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Is The Golden Age Of Google Maps API Over?
-image: http://kinlane-productions2.s3.amazonaws.com/google/google-map-logo.gif
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/google/google-map-logo.gif
 tags:
   - Maps
 ---

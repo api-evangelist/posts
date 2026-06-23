@@ -2,7 +2,7 @@
 layout: post
 title: Sharing Compute Costs For Open Data And API Consumers Using The Cloud
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_08_at_8.18.41_am.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_02_08_at_8.18.41_am.png
 atomdate: 2017-02-08T17:00:00.000Z
 tags:
   - Cloud

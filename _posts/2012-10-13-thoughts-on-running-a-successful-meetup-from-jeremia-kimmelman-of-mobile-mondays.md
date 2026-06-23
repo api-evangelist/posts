@@ -4,7 +4,7 @@ title: >-
   Thoughts On Running a Successful Meetup From Jeremia Kimmelman of Mobile
   Mondays
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Jeremia-Kimelman.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Jeremia-Kimelman.jpeg
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ I recently spoke to Jeremia Kimelman ([@jeremiak](https://twitter.com/jeremiak))
 
 This is a model that I'm sure many tech companies would drool over, and very often view meetups as a perfect medium for this type of sales pitch. As I reach out to meet up organizers I get the vibe that many of them already get solicited by companies in this fashion--either because they don't respond at all, or by being somewhat hostile to my questions about their meetup.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/healthy-developers/Tout.png)](http://www.tout.com/ "Tout")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/healthy-developers/Tout.png)](http://www.tout.com/ "Tout")
 
 Jeremia was able to grow his meet ups from about 40 to 140 members with this model, but when I asked him if this was a model that could be replicated, he replied, "definitely not". It doesn't create value. It doesn't solve the problems developers face and ultimately will doom your meetup to failure.
 
@@ -26,7 +26,7 @@ In an effort to truly deliver value to developers, Jeremia decided to pivot, wor
 
 Not all developers are created equal. iPhone developers won't see things the same way as Android devs, and Windows mobile developers are going to have way different needs than others. "Don't try to be everything to everyone", said Jeremia.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/meetup/meetup_logo.gif)](http://www.meetup.com/ "Meetups")
+[![](https://kinlane-images.s3.amazonaws.com/shared/meetup/meetup_logo.gif)](http://www.meetup.com/ "Meetups")
 
 To make it about developers and to introduce community into the meetup he is playing around with letting attendees share the problems they personally face as developers, letting the group openly discuss the problem, provide solutions and help each other learn and grow. This has the potential to bring value and community to the meetup in an organic way, not something that is imposed by him or a company.
 

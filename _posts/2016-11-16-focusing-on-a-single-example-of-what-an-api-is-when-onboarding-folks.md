@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Focusing On A Single Example Of What An API Is When On-Boarding Folks
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-focused-targed.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-focused-targed.png
 atomdate: 2016-11-16T18:00:00.000Z
 tags:
   - On-Boarding

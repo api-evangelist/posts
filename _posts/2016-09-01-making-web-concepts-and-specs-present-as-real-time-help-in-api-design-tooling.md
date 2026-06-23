@@ -13,7 +13,7 @@ tags:
 ---
 .gist-data {max-height: 500px;}
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-web-concepts.png)](https://github.com/dret/webconcepts)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-web-concepts.png)](https://github.com/dret/webconcepts)
 
 I took the [Github repository](https://github.com/dret/webconcepts) for Erik Wilde's ([@dret](https://twitter.com/dret)) [Web Concepts](http://webconcepts.info/) work and forked it, then generated some JSON which I could use to import into my API monitoring system. I've been manually adding specs to my Tweet and LinkedIn scheduling system, but I keep forgetting to go back to the site and add more entries. So I wanted to go ahead and import all the concepts and specs, and schedule out the tweets and LinkedIn posts for everything, over the next couple months.
 

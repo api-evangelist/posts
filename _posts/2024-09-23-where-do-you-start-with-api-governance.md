@@ -7,7 +7,7 @@ tags:
   - Getting Started
   - Strategy
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/oakland-california-docks-oakland-4.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/oakland-california-docks-oakland-4.jpeg
 ---
 I have two customers at mainstream companies asking the same question right now--where do you start with API governance? It is an important question, as well as a very difficult one to answer simply. API governance is something you have to do at a strategic level, but you have to begin somewhere with significant tactical investment—-then repeat, until you get somewhere. When answering this question I tend to go to the highest level, most strategic, and robust approach, which can be just as, or more overwhelming than actually doing API governance. I work hard to soften my answers to this question, but if you are someone in a position of having to ask this question, you are going to have to get used to being overwhelmed, and rolling up your sleeves to start making sense of things.
 

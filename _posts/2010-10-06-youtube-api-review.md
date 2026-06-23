@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Youtube API Review
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 author:
   name: kinlane
 tags:
   - Review
 ---
-One of the keys to YouTube's success as a video sharing platform is its successful API that allows developers and site owners to embed, share and distribute YouTube content across the Intertubes. ![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/Youtube-Google-Code-Screenshot.PNG) As with many of its other products, Google starts with the essential API ecosystem building blocks:
+One of the keys to YouTube's success as a video sharing platform is its successful API that allows developers and site owners to embed, share and distribute YouTube content across the Intertubes. ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Youtube-Google-Code-Screenshot.PNG) As with many of its other products, Google starts with the essential API ecosystem building blocks:
 
 *   Dashboard
 *   Quickstart

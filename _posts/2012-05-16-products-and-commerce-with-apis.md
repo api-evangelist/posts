@@ -2,7 +2,7 @@
 layout: post
 title: Products and Commerce with APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-API-Economy.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-API-Economy.png
 author:
   name: kinlane
 tags:

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Stops Along The API Lifecycle That Postman Services
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stories-downtheline-dali-three.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/stories-downtheline-dali-three.jpg
 author:
   name: kinlane
 tags:

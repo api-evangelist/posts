@@ -2,7 +2,7 @@
 layout: post
 title: Treating New API Startups Like The Companies They Will Become
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-startup-new-greed.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-startup-new-greed.png
 atomdate: 2016-09-01T00:00:00.000Z
 tags:
   - Startups

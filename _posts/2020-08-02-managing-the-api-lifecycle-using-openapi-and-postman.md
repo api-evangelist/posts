@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Managing the API Lifecycle Using OpenAPI and Postman
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_workspace_collection_dashboard.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_workspace_collection_dashboard.png
 author:
   name: kinlane
 tags:
@@ -23,7 +23,7 @@ The foundation of this blueprint is all about having an OpenAPI definition withi
 
 This provides the foundation of the factory floor I am proposing with this blueprint. It gives you a single place to find each API, both for internal stakeholders, and with partners or public consumers of an API. It leverages Postman for much of the team work to move an API forward, and Github to manage the external facing elements of the API lifecycle. While depending on a machine readable contract as the source of truth within Postman, but also within any other system or pipeline using GitHub.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_workspace_collection_dashboard.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_workspace_collection_dashboard.png)
 
 ### Powering the API Lifecycle from the OpenAPI Contract
 
@@ -94,7 +94,7 @@ This blueprint isn’t meant to be just a static snapshot of what the API lifecy
 
 Runners, monitors, and pipelines provide us with the ability to automate the factory floor that moves each API forward. Working from a central OpenAPI contract, then generating, versioning, and validating each stop along the API lifecycle, we are able to choose to manually deliver a specific aspect of API operations, or schedule and execute upon different actions and events that occur as part of regular business operations. Giving us a significant amount of control when it comes to consistently moving each API forward, while making sure we are consciously managing change, and ensuring we are always meeting our API contractual obligation, as well as SLA when it comes to performance and security.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_runners.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_runners.png)
 
 ### The Required Security Controls
 

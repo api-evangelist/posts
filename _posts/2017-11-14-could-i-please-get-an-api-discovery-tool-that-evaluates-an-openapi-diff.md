@@ -4,8 +4,6 @@ layout: post
 title: 'Could I Please Get An API Discovery Tool That Evaluates An OpenAPI Diff'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/openapi-logo.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/openapi/openapi-logo.png" align="right" width="30%" style="padding: 25px;" />
 <p>I am increasingly tracking on OpenAPI definitions published to Github by leading API providers I track on. Platforms like <a href="http://apievangelist.com/2017/11/12/stripes-openapi-is-available-on-github-in-version-30/">Stripe</a>, <a href="http://apievangelist.com/2017/05/22/box-goes-all-in-on-openapi/">Box</a>, <a href="http://apievangelist.com/2017/03/01/new-york-times-manages-their-openapi-using-github/">New York Times</a> are actively managing their OpenAPI definitions using Github, making them well suited for integration into their platform operations, API consumer scenarios, and even within analyst systems like what I have going on as the API Evangelist.
 
 <p>Once I have an authoritative source of an OpenAPI, meaning a public URI for an OpenAPI that is actively being maintained by the API provider, I have a pretty valuable feed into the roadmap, as well as change log for an API. I feel like we are getting to the point where there are enough authoritative OpenAPIs that we can start using as a machine readable notification and narrative tool for helping us stay in tune with one or many APIs across the landscape. Helping us stay in tune with APIs in real-time, and giving APIs an effective tool for communicating out changes to the platform–we just need more OpenAPIs, and some new tooling to emerge.

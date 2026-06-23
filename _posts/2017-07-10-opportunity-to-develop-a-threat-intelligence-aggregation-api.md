@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Opportunity To Develop A Threat Intelligence Aggregation API'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/facing-cannon_copper_circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/opportunity-to-develop-a-threat-intelligence-aggregation-api.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/facing-cannon_copper_circuit.jpg" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p>I came across <a href="https://github.com/hslatman/awesome-threat-intelligence">this valuable list of threat intelligence resources</a> and think that the section on information sources should be aggregated and provided as a single threat intelligence API. When I come across valuable information repos like this my first impulse is to go through them, standardize and upload as JSON and YAML to Github, making all of this data forkable, and available via an API.
 
 <p>Of course if I responded to every impulse like this I would never get any of my normal work done, and actually pay my bills. A second option for me is to put things out there publicly in hopes that a) someone will pay me to do the work, or b) someone else who has more time, and the rent paid will tackle the work. With this in mind, this list of sources should be standardized, and publish to Github and as an API:

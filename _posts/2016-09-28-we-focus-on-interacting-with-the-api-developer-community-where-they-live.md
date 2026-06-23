@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We Focus On Interacting With The API Developer Community Where They Live
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-localhost.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-localhost.png
 atomdate: 2016-09-28T18:00:00.000Z
 tags:
   - Community

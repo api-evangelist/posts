@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Internal Strategy Trumping External API Efforts In Many Conversations
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-ying-yang.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-ying-yang.png
 author:
   name: kinlane
 tags:

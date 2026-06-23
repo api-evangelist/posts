@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Tight Is The Coupling Between The SaaS Business Model And The API?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-link.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-link.png
 author:
   name: kinlane
 tags:

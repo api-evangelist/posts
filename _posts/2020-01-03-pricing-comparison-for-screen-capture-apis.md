@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Pricing Comparison for Screen Capture APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-old-time-cash-register.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-old-time-cash-register.jpg
 author:
   name: kinlane
 tags:

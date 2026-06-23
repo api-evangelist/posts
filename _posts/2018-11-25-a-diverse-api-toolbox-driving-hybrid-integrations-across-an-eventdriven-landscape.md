@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'A Diverse API Toolbox Driving Hybrid Integrations Across An Event-Driven Landscape'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/machine-road_atari_missle.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/a-diverse-api-toolbox-driving-hybrid-integrations-across-an-eventdriven-landscape.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/machine-road_atari_missle.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>I’m heading to Vegas in the morning to spend two days in conversations with folks about APIs. I am not there for <a href="https://reinvent.awsevents.com/">AWS re:Invent</a>, or <a href="https://www.gartner.com/en/conferences/na/applications-us">the Gartner thingy</a>, but I guess in a way I am, because there are people there for those events, who want to talk to me about the API landscape. Folks looking to swap stories about enterprise API investment in possessing a diverse API toolbox for driving hybrid integrations in an event-driven landscape. I’m not giving any formal talks, but as with any engagement, I’m brushing up on the words I use to describe what I’m seeing across the space when it comes to the enterprise API lifecycle.
 
 <p><strong>The Core Is All About Doing Resource Based, Request And Response APIs Well</strong><br />
@@ -25,7 +25,7 @@ A well oiled request and response API infrastructure is a critical base for any 
 
 <p><strong>Have A Reason For When You Switch Protocols</strong><br />
 There are a number of reasons why we switch protocols, moving off HTTP towards a TCP way of getting things done, with most reasoning being more emotional than they are ever technical. When I ask people why they went from HTTP APIs to Kafka, or Websockets, there is rarely a protocol based response. They did it because they needed things done in real time, through the existence of specific channels, or just simple because Kafka is how you do big data, or Websockets is how you do real time data. There wasn’t much scrutiny of who the consumers are, what was gained by moving to TCP, and what was lost by moving off HTTP. There is little awareness of the work Google has done around gRPC and HTTP/2, or what has happened recently around HTTP/3, formerly known as Quick UDP Internet Connections (QUIC). I’m no protocol expert, but I do grasp the role that these protocols play, and understand that the fundamental foundation of APIs is the web, and the importance of having a well thought out strategy when it comes to using the Internet for delivering on the API vision across the enterprise.
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/containership_copper_circuit.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p><strong>Ensuring All Your API Infrastructure Is Reliable</strong><br />
 It doesn’t matter what your API design processes are, and what tools you are using if you cannot do it reliably. If you aren’t monitoring, testing, securing, and understanding performance, consumption, and limitations across ALL of your API infrastructure, then there will never be the right API solution. Web APIs, hypermedia, GraphQ, Webooks, Server-Sent Events, Websockets, Kafka, gRPC, and any other approach will always be inadequate if you cannot reliably operate them. Every tool within your API design toolbox should be able to be effectively deployed, thoughtfully managed, and coherently monitored, tested, secured, and delivered as a reliable service. If you don’t understand what is happening under the hood with any of your API infrastructure, out of your league technically, or kept in the dark through vendor magic, it should NOT be a tool in your toolbox, and be something that left in the R&amp;D lab until you can prove that you can reliably deliver, support, scale, and evolve something that is in alignment with, and has purpose augmenting and working with your existing API infrastructure.
 

@@ -4,14 +4,14 @@ title: Making APIs Accessible to Regular Users with Widgets
 url: >-
   http://apievangelist.com/2011/09/25/making-apis-accessible-to-regular-users-with-widgets/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Recovery-Gov-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Recovery-Gov-Logo.png
 author:
   name: kinlane
 tags:
   - Access
   - APIs
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/federal-government/recovery-org/Recovery-Gov-Logo.png)](http://www.recovery.gov/FAQ/Developer/Pages/RecoveryAPI.aspx)
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/federal-government/recovery-org/Recovery-Gov-Logo.png)](http://www.recovery.gov/FAQ/Developer/Pages/RecoveryAPI.aspx)
 
 I was reviewing the [Recovery API](http://www.recovery.gov/FAQ/Developer/Pages/RecoveryAPI.aspx) yesterday, which gives you a RESTful API for exploring where all the money went as part of our governments Recovery Act. I have a sort of obsession with this kind of government data, and began playing with, and tracking on where the stimulus money went in my home state of Oregon.
 
@@ -19,7 +19,7 @@ I started hacking on the API by manipulating the query string variables to get d
 
 The advanced recipient data search widget allows me to adjust the same fields, but using an actual form. Using the widget anyone can easily build requests against the Recovery API without being a developer, and I even found it allowed me to explore and understand the API quicker and easier. The widget even displays the final request string you can copy and paste and see the XML results in the browser or just as results grid on the screen. And you can also choose to download the results as a CSV when done.
 
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/federal-government/recovery-org/recovery-org-widget-screenshot.gif)](http://www.recovery.gov/FAQ/Developer/Pages/AdvSearchWidget.aspx)
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/federal-government/recovery-org/recovery-org-widget-screenshot.gif)](http://www.recovery.gov/FAQ/Developer/Pages/AdvSearchWidget.aspx)
 
 The form could be better. It does not provide drop-down values for each of the fields, and the pop-up window is a little clunky. It still is a very useful tool helping not only developers get up and running, but allows the average user to come in and use, understand and export results from the Recovery API.
 

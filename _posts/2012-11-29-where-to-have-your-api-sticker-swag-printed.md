@@ -2,7 +2,7 @@
 layout: post
 title: Where To Have Your API Sticker Swag Printed?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apigee-i-love-apis.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apigee-i-love-apis.jpg
 author:
   name: kinlane
 tags:

@@ -11,7 +11,7 @@ tags:
   - Clients
   - Mobile
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stories-copper-servers.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/stories-copper-servers.jpg
 ---
 I spend a lot of time running web and mobile applications through a proxy to reverse engineer their APIs. I generally use Charles Proxy for routing my desktop, web, and mobile traffic through, which then automatically saves a JSON dump of sessions every five minutes, and syncs with Dropbox via my shared folders. From there I have a schedule service that will look in the shared Dropbox folder every hour, sift through the Charles Proxy JSON dump, and look for JSON, XML, CSV, and other common machine readable formats—which are then converted into OpenAPI definitions. Allowing me to reverse engineer desktop, web, and mobile applications as I use them, and map the API surface area for these targeted applications.
 

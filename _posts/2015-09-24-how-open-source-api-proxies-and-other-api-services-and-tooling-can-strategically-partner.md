@@ -3,7 +3,7 @@ layout: post
 title: >-
   How Open Source API Proxies, And Other API Services And Tooling Can
   Strategically Partner
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puzzle-strategic.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-puzzle-strategic.png
 author:
   name: kinlane
 date: 2015-09-24T21:17:26.000Z

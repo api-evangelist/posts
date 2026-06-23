@@ -7,7 +7,7 @@ tags:
   - API Evangelist
   - Documentation
   - Getting Started
-image: https://s3.amazonaws.com/kinlane-productions2/captain_small.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/captain_small.jpg
 ---
 <p></p>I read a lot of API documentation, and help review API portals for clients, and one of the most common rookie mistakes I see made, is people pointing out the obvious, and writing a bunch of fluffy, meaningless content that gets in the way of people actually using an API. When the obvious API industry stuff is combined with the assumed elements of what a company does, you end up with a meaningless set of obstacles that slow API integration down. Here is the most common thing I read when entering an API portal:
 

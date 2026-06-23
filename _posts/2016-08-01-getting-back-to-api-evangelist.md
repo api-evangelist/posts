@@ -2,7 +2,7 @@
 layout: post
 title: Getting Back To API Evangelist
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/IMG_3539.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/IMG_3539.png
 atomdate: 2016-08-01T18:52:25.000Z
 tags:
   - API Evangelist

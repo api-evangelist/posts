@@ -2,7 +2,7 @@
 layout: post
 title: API Evangelist Goes to Washington
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/PresidentialInnovationFellows.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/PresidentialInnovationFellows.jpeg
 author:
   name: kinlane
 tags:

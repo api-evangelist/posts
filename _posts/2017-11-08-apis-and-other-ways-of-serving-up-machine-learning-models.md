@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'APIs And Other Ways Of Serving Up Machine Learning Models'
-image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope/stories/crypto-machine-bletchley_copper_circuit.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/apis-and-other-ways-of-serving-up-machine-learning-models.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope/stories/crypto-machine-bletchley_copper_circuit.png" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>As with most areas of the tech sector, behind the hype there are real world things going on, and machine learning is one area I’ve been studying, learning, and playing withd what is actually possible when it comes to APIs. I’ve been studying the approach across each of the major cloud platforms, including AWS, Azure, and Google t push forward my understanding of the ML landscape. Recently the Google Tensorflow team released an interesting overview of how they are serving up Tensorflow models, making machine learning accessible across a wide variety of use cases. Not all of these are API specific, but I do think they are should be considered equally as part of the wider machine learning (ML) application programming interface (API) delivery approach.
 
 <p>Over the past year and half, with the help of our users and partners inside and outside of Google, TensorFlow Serving has advanced performance, best practices, and standards for ML delivery:

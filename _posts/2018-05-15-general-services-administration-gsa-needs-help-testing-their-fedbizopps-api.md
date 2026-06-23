@@ -8,7 +8,7 @@ tags:
   - Testing
   - Federal Government
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/FedBizOppsLogo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/FedBizOppsLogo.jpg
 ---
 <p></p>[The General Services Administration (GSA) has an open call for help to test the new FedBizOpps API](https://www.nextgov.com/it-modernization/2018/05/gsa-needs-vendor-volunteers-test-fedbizopps-api/148136/). Setting a pretty compelling precedent for releasing APIs in the federal government, slowly bringing federal agencies out of their shell, and moving the API conversation forward in government. Hopefully it will be something that other federal agencies, and other levels of government will consider as they move forward on their API journeys.
 

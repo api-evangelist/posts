@@ -8,7 +8,7 @@ tags:
   - Data
   - Open Data
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/fast-lights-freeway-redes-fast-flux-623x425-internet-numbers.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/fast-lights-freeway-redes-fast-flux-623x425-internet-numbers.jpg
 author:
   name: kinlane
 ---

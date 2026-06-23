@@ -6,7 +6,7 @@ tags:
   - Contracts
   - Services
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/braceros-domingo-ulloa-old-tools.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-old-tools.jpeg
 ---
 The next phase of API Evangelist will be defined by API contracts. The phrase API contracts has been thrown around loosely over the years to describe an OpenAPI definition, and used as part of a specific type of API testing where consumers are involved called API contract testing. I am co-opting and elevating the phrase API contracts as part of the next stage of evolution of API Evangelist, but also the API economy, using it as a vehicle to help govern the enterprise. Per my definition, an API contract represents a shared machine-readable understanding of the business and technical requirements established between the producer and consumers of programmatic interfaces used across desktop, web, mobile, device, and artificial intelligence applications. This is what I will be 100% focused on for the next couple of years when it comes to the governance of HTTP APIs and Webhooks across enterprises operating in any business sector.
 

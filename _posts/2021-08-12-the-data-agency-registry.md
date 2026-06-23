@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Data Agency Registry
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-capital_36728420065_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-capital_36728420065_o.jpg
 tags:
   - Lifecycle
   - OpenAPI

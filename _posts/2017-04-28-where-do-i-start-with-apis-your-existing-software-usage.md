@@ -2,7 +2,7 @@
 layout: post
 title: Where Do I Start With APIs? Your Existing Software Usage!
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_software_usage.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_software_usage.png
 atomdate: 2017-04-28T23:00:00.000Z
 tags:
   - APIs

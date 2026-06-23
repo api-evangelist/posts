@@ -2,7 +2,7 @@
 layout: post
 title: Moving Beyond API Pricing to API Price Reduction
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/aws-pricing.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aws-pricing.png
 author:
   name: kinlane
 tags:

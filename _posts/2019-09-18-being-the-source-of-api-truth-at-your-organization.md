@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Being The Source Of API Truth At Your Organization
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-C32Eg8bUEAEa-gj-square.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-square-C32Eg8bUEAEa-gj-square.jpg
 author:
   name: kinlane
 tags:

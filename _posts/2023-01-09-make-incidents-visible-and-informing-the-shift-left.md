@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Make Incidents Visible and Informing the Shift Left
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-destruction-seattle-viaduct.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-destruction-seattle-viaduct.jpg
 author:
   name: kinlane
 tags:

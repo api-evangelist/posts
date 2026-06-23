@@ -2,7 +2,7 @@
 layout: post
 title: Six API Embeddables To Consider For Your API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_embeddables.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_embeddables.png
 atomdate: 2017-04-12T22:00:00.000Z
 tags:
   - Embeddable
@@ -12,7 +12,7 @@ tags:
 
 I think that the six embeddable tools Google offers up as part of their social API represent the top embeddable tooling I see across this space. Partially because of the dominance of social media platform, but also because they make sense to end-users, and accomplish common things that people want to accomplish online.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_embeddables.png)](https://developers.google.com/+/web/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_embeddables.png)](https://developers.google.com/+/web/)
 
 Share, follow, and vote buttons are relevant to any platform with user accounts. Is yours available via API, enabling this type of tools? Then the badges, snippets, and embedded posts are relevant to any company, organization, institution, and agency looking to share content over the web (everyone wants to do this). I'm going to start a list of essential embeddable building blocks, providing a getting started list for companies looking to develop embeddable tooling for their consumers--Google gives me another good reference to add to my research.
 

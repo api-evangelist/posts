@@ -4,7 +4,7 @@ title: Twilio Rolling Out Twilio Voice API Into Europe
 url: >-
   http://apievangelist.com/2011/10/26/twilio-rolling-out-twilio-voice-api-into-europe/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twiliomap.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twiliomap.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
   - Europe
   - Twilio
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/twilio/twiliomap.png)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/twilio/twiliomap.png)
 
 Twilio just made their first move into Europe by offering [Twilio Voice service in the United Kingdom](http://www.twilio.com/blog/2011/10/twilio-launches-in-europe-opens-office-london.html "Twilio Voice Service in the United Kingdom").
 

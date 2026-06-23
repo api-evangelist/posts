@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Continue Pushing The API Documentation Conversation Forward
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/udnie-IMG_4564.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/udnie-IMG_4564.jpg
 author:
   name: kinlane
 tags:

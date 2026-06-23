@@ -8,7 +8,7 @@ tags:
   - Reliability
   - Breaking Changes
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-pong.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-pong.jpg
 ---
 A lot of attention is spent on breaking changes when it comes to the technical details involved with releasing new versions of our APIs, but recent conversations I've been having with folks have left me wondering what breaking changes look like when it comes to the business side of things. While there is still a lot of confusion around what a technical breaking change is, it is generally accepted that if you remove or update anything that existed in a previous version of an API, you are introducing a breaking change--wat is the equivalent of this business side of things?
 

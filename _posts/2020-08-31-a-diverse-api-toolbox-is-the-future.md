@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Diverse API Toolbox is the Future
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-working-on-railroad-2.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-working-on-railroad-2.jpg
 author:
   name: kinlane
 tags:

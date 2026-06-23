@@ -11,7 +11,7 @@ tags:
   - Environments
   - OAuth
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/stack-exchange/stack-exchange-access-tokens-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/stack-exchange/stack-exchange-access-tokens-api.png
 ---
 <p></p>I'm a big fan of helpful authentication features, where API providers make it easier to manage our increasingly hellish environment, application, token, and other management duties of the average API integrator. To help me better manage my API apps, and the OAuth tokens I have in play, I am trying to document all the sensible approaches I come across while putting different APIs to work, and scouring the API landscape for stories.
 

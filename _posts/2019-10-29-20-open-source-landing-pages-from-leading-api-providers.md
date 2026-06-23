@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 20 Open Source Landing Pages From Leading API Providers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/salesforce.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/salesforce.png
 author:
   name: kinlane
 tags:
@@ -15,83 +15,81 @@ To help me get an understanding of what is happening, I took a sampling of top A
 
 ### Google
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/google.png)](https://opensource.google/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/google.png)](https://opensource.google/)
 
 ### Stripe
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/stripe.png)](https://stripe.com/open-source)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/stripe.png)](https://stripe.com/open-source)
 
 ### Twilio
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/twilio.png)](https://www.twilio.com/open-source)
-
 ### Netflix
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/netflix.png)](https://netflix.github.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/netflix.png)](https://netflix.github.io/)
 
 ### Facebook
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/facebook.png)](https://opensource.facebook.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/facebook.png)](https://opensource.facebook.com/)
 
 ### Twitter
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/twitter.png)](https://twitter.github.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/twitter.png)](https://twitter.github.io/)
 
 ### LinkedIn
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/linkedin.png)](https://linkedin.github.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/linkedin.png)](https://linkedin.github.io/)
 
 ### Pinterest
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/pinterest.png)](https://opensource.pinterest.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/pinterest.png)](https://opensource.pinterest.com/)
 
 ### Dropbox
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/dropbox.png)](https://opensource.dropbox.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/dropbox.png)](https://opensource.dropbox.com/)
 
 ### Microsoft
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/microsoft.png)](https://opensource.microsoft.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/microsoft.png)](https://opensource.microsoft.com/)
 
 ### Uber
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/uber.png)](https://uber.github.io/#/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/uber.png)](https://uber.github.io/#/)
 
 ### Lyft
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/lyft.png)](https://lyft.github.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/lyft.png)](https://lyft.github.io/)
 
 ### Box
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/box.png)](https://opensource.box.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/box.png)](https://opensource.box.com/)
 
 ### Paypal
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/paypal.png)](http://paypal.github.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/paypal.png)](http://paypal.github.io/)
 
 ### Salesforce
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/salesforce.png)](https://opensource.salesforce.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/salesforce.png)](https://opensource.salesforce.com/)
 
 ### Shopify
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/shopify.png)](https://shopify.github.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/shopify.png)](https://shopify.github.io/)
 
 ### Adobe
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/adobe.png)](https://opensource.adobe.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/adobe.png)](https://opensource.adobe.com/)
 
 ### Hubspot
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/hubspot.png)](https://github.hubspot.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/hubspot.png)](https://github.hubspot.com/)
 
 ### Intuit
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/intuit.png)](https://opensource.intuit.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/intuit.png)](https://opensource.intuit.com/)
 
 ### Tableau
 
-[![](https://kinlane-productions2.s3.amazonaws.com/open-source-pages/tableau.png)](https://tableau.github.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/open-source-pages/tableau.png)](https://tableau.github.io/)
 
 These 20 API providers offer up a bunch of lessons for me when it comes to showcasing open source as part of their operations. Next I will be going through each of these pages and documenting the common building blocks in use, and assemble a master list of elements other API providers should think about when it comes to showcasing their open source offerings. Helping demonstrate that API providers aren't just about APIs, and they also actively invest in giving back with open source.
 

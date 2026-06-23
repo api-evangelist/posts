@@ -2,7 +2,7 @@
 layout: post
 title: 'Hacker Storytelling: Open and Machine Readable By Default'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/open-machine-readable.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/open-machine-readable.png
 author:
   name: kinlane
 tags:
@@ -22,7 +22,7 @@ As part of my BaaS research I've published two datasets:
 *   [BaaS Providers](http://baas.apievangelist.com/companies.html "BaaS Providers")
 *   [Building Blocks](http://baas.apievangelist.com/building-blocks.html "Common Building Blocks of BaaS Providers")
 
-![](https://s3.amazonaws.com/kinlane-productions2/hacker-storytelling/machine-readable-toolbar.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/hacker-storytelling/machine-readable-toolbar.png)
 
 You can view the data on the website, using JavaScript templates that display the JSON data on HTML pages. When you view the page that lists the BaaS providers or the common BaaS building blocks, you can choose to get at the data behind the display as JSON, via API, as well as being able to grab the script I use to display the JSON data.
 

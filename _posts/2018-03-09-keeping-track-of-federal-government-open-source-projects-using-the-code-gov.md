@@ -4,8 +4,6 @@ layout: post
 title: 'Keeping Track Of Federal Government Open Source Projects Using The Code.gov'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/code-gov/code-gov-screenshot.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/code-gov/code-gov-screenshot.png" width="45%" align="right" style="padding: 15px;" />
 <p>Open source software is increasingly driving the federal government, <a href="https://fcw.com/articles/2017/10/04/oracle-rips-18f-usds.aspx">despite the wishes of companies like Oracle</a>. I’ve been watching an interesting project grow within the federal government to help quantify open source across the federal government called Code.gov, which “leverages the power of code sharing and collaboration to help the US Government cut down on duplicative software development and save millions of taxpayer dollars for the American people.” Something I think we can all get behind, when it comes to the collision of technology and government we are seeing play out.
 
 <p>Code.gov allows you to <a href="https://code.gov/#/explore-code">browse open source projects by government agency</a>, see the details for the project, visit the repository, and contact the project owners. The project even has <a href="https://code.gov/#/help-wanted">a help wanted section where you can roll up your sleeves and actually contribute to specific projects</a>, and help agencies push forward their project. You can follow up on what is happening using <a href="https://code.gov/#/roadmap">the Code.gov roadmap</a>, and stay in tune with whats next for the very important project. However, the aspect I’m most interested in, is the evolution of the Code.gov API.

@@ -10,7 +10,7 @@ tags:
   - Monitoring
   - Testing
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-algo-microservices.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-algo-microservices.jpg
 author:
   name: kinlane
 ---

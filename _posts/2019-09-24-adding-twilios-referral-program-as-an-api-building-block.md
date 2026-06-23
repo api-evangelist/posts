@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Adding the Twilio Referral Program As An API Building Block
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/_2kpoxqnev15jogubur1txboga_lkstp7jmvmvf8szkjur.width_808.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/_2kpoxqnev15jogubur1txboga_lkstp7jmvmvf8szkjur.width_808.png
 author:
   name: kinlane
 tags:

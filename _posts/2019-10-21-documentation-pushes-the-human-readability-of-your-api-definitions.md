@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Documentation Pushes The Human Readability of Your API Definitions
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/salesforce_rest_postman_docs.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/salesforce_rest_postman_docs.png
 author:
   name: kinlane
 tags:

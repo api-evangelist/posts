@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Asynchonous Conversational Interfaces For Us Anti Social Folks
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-anti-social.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-anti-social.png
 atomdate: 2016-10-26T18:00:00.000Z
 tags:
   - Social

@@ -8,7 +8,7 @@ tags:
   - Search
   - Definitions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stories-beach-rocks-currents-internet-numbers.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/stories-beach-rocks-currents-internet-numbers.jpg
 author:
   name: kinlane
 ---

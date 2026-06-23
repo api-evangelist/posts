@@ -2,7 +2,7 @@
 layout: post
 title: Analytics For Both API Providers and Consumers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-analytics-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-analytics-2.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ Generally analytics for API providers and consumers are provided by one of the n
 
 I learned about using [StatsD](https://github.com/etsy/statsd/ "StatsD") and [Graphite](http://graphite.wikidot.com/) from the [InfoChimps](http://www.infochimps.com/) team, and I've discussed the potential of using Google Analytics API as a layer of your API deployment or integration. There are also a lot of mobile analytics packages, but there is no straightforward solution for API providers and consumers.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-analytics-4.jpeg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-analytics-4.jpeg)
 
 Maybe it is because API management providers are meeting the needs of API providers, and I think the new breed of API integration providers like Runscope and TheRightAPI will be addressing the consumer side of the demand. Or maybe I'm just not looking hard enough, and there is another solution out there.
 

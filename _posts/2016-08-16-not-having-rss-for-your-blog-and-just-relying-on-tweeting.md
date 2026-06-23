@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Not Having RSS For Your Blog And Just Relying On Tweeting
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-rss-icon.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-rss-icon.png
 atomdate: 2016-08-16T22:00:00.000Z
 tags:
   - Blog

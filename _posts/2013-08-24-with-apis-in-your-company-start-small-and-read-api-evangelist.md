@@ -2,7 +2,7 @@
 layout: post
 title: With APIs In Your Company, Start Small And Read API Evangelist
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-start.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-start.jpeg
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Are API Keys and Secrets Actually Very Secure?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-padlock.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-padlock.png
 author:
   name: kinlane
 tags:

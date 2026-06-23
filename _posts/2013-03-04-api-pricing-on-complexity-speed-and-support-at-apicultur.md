@@ -2,7 +2,7 @@
 layout: post
 title: API Pricing On Complexity, Speed and Support At Apicultur
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apicultur-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apicultur-logo.png
 author:
   name: kinlane
 tags:
@@ -23,7 +23,7 @@ Apicultur recently shared some of the thinking behind the [current version of th
 *   **Speed** - The max speed by default is one call per second. In order to get more calls per second, Apicultur ask for a prepayment that is discounted from the final price at the end of the month (i.e., is not an extra price, is just a prepayment as a commitment). In addition, there's a discount at the end of the month for users for those who get a speed limit feature
 *   **Support -** The basic support offered is the community support. For more support, special fees are offered
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/apicultur/apicultur-pricing.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/apicultur/apicultur-pricing.png)
 
 Apicultur feels that by keeping the everything priced at 10,000 API calls, keeps things easy to understand as well as being fair for small and large projects.  Leaving the costs spread between the varying value of individual API endpoints, the speed at which you need API calls and for overall support.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Should Government Provide Download Or API Of Government Data Resources?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-download-vs-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-download-vs-api.png
 author:
   name: kinlane
 tags:
@@ -34,7 +34,7 @@ Every person I talk to who feel that government should only provide full data do
 **APIs Keep Government Data Fresh And Up To Date**  
 Sometimes by the time a developer downloads and integrates government data it can be already out of date. If government is looking to provide the highest quality service level agreement (SLA) or at least service accord with the public, they should look at providing APIs. With APIs developers can focus on what their applications do best and not become stewards of the data, leaving this role to those within government who are already closest to the acquisition and management of data—making government data much more real-time.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/digital-strategy/logos/census.png)](http://www.census.gov/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/census.png)](http://www.census.gov/)
 
 The only thing to prevent any government agency from deploying APIs is the available resources to deploy, manage and support properly, a bar that is getting lower and lower with the wealth of cloud based services available for designing, deploying, and management your API data assets that are locked up in spreadsheet, databases or even an existing agency website. You don’t have to be a developer or have investment from your IT to launch an API in 2014.
 

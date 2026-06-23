@@ -4,7 +4,7 @@ title: >-
   Your API Access Replicated Into Multiple Regions Around The Globe For
   Additional Charge
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/algolia-world-wide-replication-slider.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/algolia-world-wide-replication-slider.png
 author:
   name: kinlane
 tags:
@@ -16,11 +16,11 @@ I am finding all sorts of interesting examples as I push forward my [API plans r
 
 One of the cool aspects I found [was a "world-wide replicator" option on the pricing page for Algolia](https://www.algolia.com/pricing). The feature is interesting to me because of the UX / UI approach employed, as well as the concept of offering API replication to different regions as a dimension of API plans. You have to admit the separate section, as part of API pricing, is pretty forward leaning, and not something you see often.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/algolia-world-wide-replication-slider.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/algolia-world-wide-replication-slider.png)
 
 What is even cooler, is that when you move the slider, increasing the number of regions the API is available in, your price per package is adjusted to include the replication. I believe they apply just a flat rate increase for each plan level, but I could see this be something that has unique cost per region (ie. US being more expensive than EU). As the debate about in-country data storage and compute evolves, I think this will become pretty significant.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/algolia-world-wide-replication-slider-2_png.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/algolia-world-wide-replication-slider-2_png.png)
 
 The goal for the Algolia world-wide replication, is to decrease latency for end-users, when searches are made. Providing up to five separate regions around the globe, where your API can be deployed, as part of your Algolia API plan. While not something that could be accomplished by every API, the approach is in alignment with wholesale API movements I've talked about before.
 

@@ -4,7 +4,7 @@ title: >-
   Who Is Working On The Twitter Cards For Slack Messages, Unfurl, and
   Attachments?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/slack-message.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/slack-message.png
 tags:
   - Twitter
   - Slack

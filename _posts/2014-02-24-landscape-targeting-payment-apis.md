@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Landscape Targeting: Payment APIs'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-target.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-target.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Netflix Storytelling And Why You Should Tell Stories of Your Platform
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/netflix-square.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/netflix-square.png
 author:
   name: kinlane
 tags:
@@ -22,7 +22,7 @@ At first, I felt there was a flaw in the way I track on APIs. If an API offers v
 
 On the flip side, [going into 2013 I am eager to find “new” stories of APIs,](http://apievangelist.com/2012/12/27/new-api-stories-in-2013/) feeling like I’m constantly telling stories of Amazon and Netflix--contrasting this with the lack of stories around 500 of my APIs, I felt there is an important link. There is a reason I tell so many stories about Netflix isn't chance, it is because Netflix shares so much about its operations, providing fuel for my analysis and storytelling.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/netflix/daniel-jacobson-netflix.JPG)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/netflix/daniel-jacobson-netflix.JPG)
 
 To shed light on this, I sat down with Daniel Jacobson ([@daniel\_jacobson](https://fr.twitter.com/daniel_jacobson)), Director of Engineering for APIs at Netflix and asked him, **_“Why does Netflix share so many stories about their operations?”_**
 
@@ -36,7 +36,7 @@ Daniel related this approach to strorytelling with their internal [culture of fr
 
 The Netflix storytelling process isn’t a PR stunt. Its truly about a genuine desire to share the story of their operations, the successes and failures--demonstrating their expertise and thought leadership not just in the movie and TV industry, but across the technology sector.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/netflix/netflix-reed-hastings.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/netflix/netflix-reed-hastings.jpg)
 
 API Evangelist is my learning and storytelling platform. It is rooted in my learning in real-time, and my desire to share these thoughts, in hopes others can learn along with me. I’m not seeking pageviews, I just want to share my view of the space, showcase the good and bad across all sectors, helping lead, in hopes that I can contribute to making the space as healthy as possible.
 

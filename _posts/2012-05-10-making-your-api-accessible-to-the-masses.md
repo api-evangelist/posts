@@ -2,7 +2,7 @@
 layout: post
 title: Making Your API Accessible to the Masses
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-analytics-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google-analytics-screenshot.png
 author:
   name: kinlane
 tags:
@@ -24,6 +24,6 @@ Now, you still have to be JavaScript savvy to work with the Google Analytics Das
 
 LinkedIn also has some great examples of taking concept this to the next level with their [“plugin” builders](https://developer.linkedin.com/plugins/member-profile-plugin-generator "plugin builders") which essentially generates the widgets for users, using the API. Since Google is going to keep working with the Google Analytics Dashboard Library over the next 3 quarters, so I’m sure you’ll see their library evolve as well.
 
-![](http://kinlane-productions2.s3.amazonaws.com/linkedin/LinkedIn-Widget-Builder.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/linkedin/LinkedIn-Widget-Builder.png)
 
 I’ll keep exploring other great examples of API embeddable strategies that can potentially bring in a much wider audience, opening up your API for access beyond developers, potentially bringing in other more business oriented groups.

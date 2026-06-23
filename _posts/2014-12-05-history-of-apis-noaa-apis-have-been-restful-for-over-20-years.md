@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'History Of APIs: NOAA APIs Have Been RESTful For Over 20 Years'
-image: http://federal-government.apievangelist.com/images/logos/noaa.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/history-of-apis-noaa-apis-have-been-restful-for-over-20-years.png
 author:
   name: kinlane
 tags:
@@ -12,8 +12,6 @@ tags:
 _This post is a comment that was left on my [Low Hanging Fruit For API Discovery In The Federal Government](http://apievangelist.com/2014/07/10/low-hanging-fruit-for-api-discovery-in-the-federal-government/#comment-1725976136) post, showcasing some of the government API work I am doing. I get a lot of people who email me telling me that what I'm saying is nothing new, they've been doing APIs since 1492! ;-) Many of them are pretty hostile to the new API movement, but I love this comment from Bob Simons from NOAA, which is the exact opposite of many of the comments I receive._
 
 * * *
-
-[![](http://federal-government.apievangelist.com/images/logos/noaa.png)](http://www.noaa.gov/)
 
 ...a group in the oceanography community was one of the pioneers of web accessible APIs. The original Distributed Oceanographic Data System (DODS) was created in the early 1990's, before the WWW! It defined the dods: protocol for requesting data and getting a response. When the WWW came along, it was revised to use HTTP and renamed to be the Data Access Protocol (DAP), partly because they realized its usefulness in a wide variety of scientific and other disciplines, not just oceanography. DAP is an open source project stewarded by a group called OPeNDAP. DAP was IMHO brilliant and amazingly far-sighted:
 

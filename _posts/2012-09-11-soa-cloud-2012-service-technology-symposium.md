@@ -2,7 +2,7 @@
 layout: post
 title: SOA Cloud 2012 Service Technology Symposium
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/soa-cloud-2012-service-technology-symposium-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/soa-cloud-2012-service-technology-symposium-logo.jpeg
 author:
   name: kinlane
 tags:

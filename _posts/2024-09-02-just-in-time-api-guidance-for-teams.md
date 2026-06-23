@@ -7,7 +7,7 @@ tags:
   - Education
   - Training
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-sundial.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-sundial.jpeg
 ---
 People don’t read documentation. People don’t have time to read books. But, I find people pretty receptive to absorbing API guidance in bite-size snackable chunks. My last book The API-First Transformation that I wrote while at Postman had the seeds of what I mean by guidance, but I define all my guidance as simple Jekyll powered YAML artifacts that help me modularize and reuse API guidance across my stories. The one thing that didn’t make it into the API-First Transformation book was the blueprints and links to complete guidance, which is something I am now finishing as part of my API Evangelist Guidance work to complement the API governance services I will be offering beginning this fall. I’ve been cultivating this guidance for the last fifteen years, I just now have the framework and suite of services for making them available in the moment across the API lifecycle to API producers and consumers. 
 

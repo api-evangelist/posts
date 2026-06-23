@@ -4,8 +4,7 @@ layout: post
 title: 'API Tools &amp; Service Providers'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/app-showcase/Appstores.png
 ---
-
-<a href="http://appstores.com/"><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/app-showcase/Appstores.png" alt="" align="right" /></a>When I review a new API, I take a look at the technology they provide, but I tend to focus on the business of their API.
+When I review a new API, I take a look at the technology they provide, but I tend to focus on the business of their API.
 <p>
 One area I look at, is what tools they use to deliver the <a title="building blocks that make of their API" href="http://www.apievangelist.com/ecosystem-building-blocks.php">building blocks that make up their API</a>.  Did they build it themselves?   Did they use <a title="Mashery" href="http://blog.apievangelist.com/2010/10/10/mashery-api-services/">Mashery</a>, <a title="Apigee" href="http://blog.apievangelist.com/2010/10/10/apigee-api-services/">Apigee</a> or <a title="3Scale" href="http://blog.apievangelist.com/2010/10/10/3scale-api-services/">3Scale</a>?  Are they using other open-source tools or a software as a service (SaaS) provider?
 <p>

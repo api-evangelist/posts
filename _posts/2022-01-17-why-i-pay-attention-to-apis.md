@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Why I Pay Attention to APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/tech-business-politics-03-2014.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/tech-business-politics-03-2014.png
 tags:
   - Stories
 ---

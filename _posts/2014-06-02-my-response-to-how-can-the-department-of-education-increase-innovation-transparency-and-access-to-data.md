@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Response To How Can the Department of Education Increase Innovation, Transparency and Access to Data?
-image: http://federal-government.apievangelist.com/images/logos/ed.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/my-response-to-how-can-the-department-of-education-increase-innovation-transparency-and-access-to-data.png
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: I Am Very Proud of the Breaking Changes Podcast
-image: https://kinlane-productions2.s3.amazonaws.com/breaking-changes-six-videos.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/breaking-changes-six-videos.png
 author:
   name: kinlane
 tags:
@@ -56,7 +56,7 @@ You can see hints of where LeTroy was taking things towards a larger and much mo
 ## Highlight
 Breaking Changes was the highlight of each of my very busy weeks at Postman. My team was 45 people, with 15 direct reports when I left Postman. I was also the face of the company with all of our largest enterprise customers. My notebook from Breaking Changes conversation that never happened, the ones that ended up being published, and from the conversations I was having with their largest enterprise conversations is fascinating. There is so much to learn there. Breaking Changes even had an API for accessing the transcripts from each show, and all of the topics that were discussed across each show, so that I could easily pull up references for blog posts, or find where I was deficient for planning upcoming questions I’d ask new guests. Breaking Changes was (and will continue to be) a rich space for me to learn about APIs.
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/kin-letroy.jpeg" width="100%" style="padding: 15px;"></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/kin-letroy.jpeg" width="100%" style="padding: 15px;"></p>
 
 I am extremely thankful for LeTroy, and all the guests he brought on the show. I guess I also have to give some credit to Postman for making it happen. However, I think that the show became so rich because of LeTroy’s hard work to find guests. He convinced some people who were very shy or skeptical to come on the show. He took to heart when I said I wanted to break out of the echo chamber and bring diverse voices from around the world. While I can highlight other meaningful things I did while at Postman, something I will do in another post, I put Breaking Changes at the top of the list. I would say that I have learned so much from 2010 through 2020 as the API Evangelist, but what I learned from Breaking Changes and the enterprise API conversations I had as Chief Evangelist at Postman are equal to the previous decade—-something I am continuing in my current role.
 

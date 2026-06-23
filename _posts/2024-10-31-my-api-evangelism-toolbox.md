@@ -7,7 +7,7 @@ tags:
   - Advocacy
   - Toolbox
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-cell-tower-satellite-dishes.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-cell-tower-satellite-dishes.jpeg
 ---
 I am revisiting the fundamentals of my API evangelism toolbox. My [personal  definition of what evangelism is](https://apievangelist.com/2020/09/19/i-am-an-evangelist/), as well as [algorithm](https://apievangelist.com/2023/03/10/my-personal-evangelism-algorithm/) shifts and [evolves over time](https://apievangelist.com/2019/11/27/i-am-happy-i-chose-the-term-evangelism/), and writing about it always helps me make sure I am moving forward. This post is also the outline for a couple of presentations I have coming up, so I’d like to workshop in different ways here on the blog leading up to these conversations. Extracting from previous posts, and tightening up based upon what I am doing these days, here is what I have.
 
@@ -65,6 +65,6 @@ Acknowledging that time and space matters with evangelism.
 
 That is my recommended toolbox for on the web or within the enterprise. Things will vary from industry to industry and enterprise to enterprise. This is a distillation of 15 years of evangelism. It is platform agnostic, although GitHub, Postman, and VSCode play an outsized role in my world. I manage most of my content in GitHub repositories. I manage all of my artifacts on GitHub and in Postman. It is up to you to find the topics and channels that matter the most. You can find which metrics are meaningful and what time frames work with your way of operating. I try to keep the hands-on portion and workspaces as universal as possible. 
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-fixing-satellite-2.jpeg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/citizenship-fixing-satellite-2.jpeg" style="padding: 15px;">
 
 I will work on a deck and some visuals for this round of work on my API evangelism toolbox definition. I will also be building this into the new API Evangelist platform dashboard I am working on. For me, there is no separate between operations and evangelism. They happen in the same motion. Evangelism can’t be extra work. It is work. I don’t sweat the metrics and I try to ride the waves, but also stay true to the messaging I personally feel matters the most. You will have to find the tone and cadence that works for you, your team, who you work for, and the industry you operate in.

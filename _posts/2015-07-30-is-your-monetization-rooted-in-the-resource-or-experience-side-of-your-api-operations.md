@@ -4,7 +4,7 @@ title: >-
   Is Your Monetization Rooted In The Resource Or Experience Side Of Your API
   Operations?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-experience-monetization.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-experience-monetization.png
 author:
   name: kinlane
 tags:

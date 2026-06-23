@@ -2,7 +2,7 @@
 layout: post
 title: Hack the Process
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/gears-grey.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/gears-grey.jpeg
 author:
   name: kinlane
 tags:

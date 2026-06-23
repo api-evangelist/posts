@@ -2,7 +2,7 @@
 layout: post
 title: API Lifecycle Service Providers Instead Of Walled Gardens
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/walled_garden_blue_gray_circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/walled_garden_blue_gray_circuit.jpg
 atomdate: 2017-02-16T20:00:00.000Z
 tags:
   - Lifecycle

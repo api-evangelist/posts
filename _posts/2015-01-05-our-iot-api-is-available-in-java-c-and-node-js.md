@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Our IoT API Is Available In Java, C++, and Node.js
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-chain-broken.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-chain-broken.png
 author:
   name: kinlane
 tags:

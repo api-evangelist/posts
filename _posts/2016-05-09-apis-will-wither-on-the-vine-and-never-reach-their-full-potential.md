@@ -1,7 +1,7 @@
 ---
 layout: post
 title: APIs Will Wither On The Vine And Never Reach Their Full Potential
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-grapes-on-vine.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-grapes-on-vine.png
 tags:
   - APIs
 ---

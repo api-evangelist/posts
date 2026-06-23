@@ -8,7 +8,7 @@ tags:
   - Applications
   - Business
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-highway-granary-truck_36557728122_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-highway-granary-truck_36557728122_o.jpg
 ---
 Completing our digital supply chain and factory floor API analogy, the last legs are the wholesale and retail distribution channels. Your API developer portal(s) are your wholesale distribution channels, but it is important not to forget about the applications you develop representing your retail distribution channels. The raw resources (internal APIs) and resources and capabilities from suppliers (3rd-party cloud and on-premise APIs) are combined with your products (3rd-party and 1st-party) APIs that are used in the desktop, web, mobile, and artificial intelligence applications you and your wholesale partners develop and maintain.
 

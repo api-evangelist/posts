@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I have been working hard for about a year now trying to craft machine readable API definitions for the leading APIs out there. I’ve written before about my u...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -44,7 +44,7 @@
     <meta name="twitter:title" content="Automated Mapping Of The API Universe With Charles Proxy, Dropbox, OpenAPI Spec, And Some Custom APIs">
     
     <meta name="twitter:description" content="I have been working hard for about a year now trying to craft machine readable API definitions for the leading APIs out there. I’ve written before about my u...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -54,7 +54,7 @@
       "@type": "Article",
       "headline": "Automated Mapping Of The API Universe With Charles Proxy, Dropbox, OpenAPI Spec, And Some Custom APIs",
       "description": "I have been working hard for about a year now trying to craft machine readable API definitions for the leading APIs out there. I’ve written before about my u...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png",
       "datePublished": "2016-02-05T00:00:00-05:00",
       "dateModified": "2016-02-05T00:00:00-05:00",
       "author": {
@@ -67,7 +67,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -365,7 +365,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -395,7 +395,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -729,7 +729,7 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png" alt="Automated Mapping Of The API Universe With Charles Proxy, Dropbox, OpenAPI Spec, And Some Custom APIs" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png" alt="Automated Mapping Of The API Universe With Charles Proxy, Dropbox, OpenAPI Spec, And Some Custom APIs" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -740,7 +740,7 @@
 <p><strong>Logging All Of My Traffic Using Charles Proxy On Machine</strong><br />
 Using <a href="http://www.charlesproxy.com/">Charles Proxy</a>, I route all of my network traffic on my Macbook Pro through a single proxy which I am in control of, allowing me to log every Internet location my computer visits throughout the day. It is something I cannot leave running 100% of the time, as it breaks certificates, sets of security warnings from a number of destinations, but is something I can run about 75% of my world through–establishing a pretty interesting map of the resources I consume, and produce on each day. </p>
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/charles-proxy/relciam-charles-proxy-auto-save-settings.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/charles-proxy/relciam-charles-proxy-auto-save-settings.png" alt="" /></p>
 
 <p><strong>Auto Saving Charles Proxy Session Files Every 30 Minutes</strong><br />
 While running running Charles Proxy, I have it setup to auto save a session XML every 30 minutes, giving me bite size snapshots of transaction throughout my day. I turn Charles Proxy on or off, depending on what I am doing. I selected to save as a session XML file because after looking at each format, I felt it had the information I needed, while also easily imported into my database back end. </p>
@@ -751,7 +751,7 @@ The session XML files generated by Charles Proxy get saved into my local Dropbox
 <p><strong>Custom API To Process Session Files Available In Dropbox</strong><br />
 With network traffic logged, and stored in the cloud using Dropbox, I can then access them via the Dropbox API. To handle this work, I setup an API that will check the specified Dropbox app folder, associated with its Dropbox API application access, and import any new files that it finds. Once a file has been processed, I delete it from Dropbox, dumping any personally identifiable information that may have been present–however, I am not doing banking, or other vital things with Charles Proxy on.</p>
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/charles-proxy/reclaim-store-charles-proxy-files-in-dropbox.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/charles-proxy/reclaim-store-charles-proxy-files-in-dropbox.png" alt="" /></p>
 
 <p><strong>Custom API To Organize Transactions By Host &amp; Media Type</strong><br />
 I now have all my logged transactions stored in a database, and I can begin to organize them by host, and media type–something I’m sure I will evolve with time. To facilitate this process I have created a custom API that allows me to see each unique domain or sub-domain that I visit during my logging with Charles Proxy. I am mostly interested in API traffic, so I’m looking for JSON, XML, and other API related media types. I do not process any image, and many other common media types, but do log traffic to HTML sites, routing into a separate bucket which I describe below. </p>
@@ -762,7 +762,7 @@ In addition to storing the primary details for each transaction I log, for each 
 <p><strong>Custom API To Generate JSON Schema For Each Transaction</strong><br />
 In addition to generating an OpenAPI Spec for each transaction that I track on with a application/json response, I generate a JSON Schema for the JSON returned. This allows me to map out what data is being returned, without it containing any of the actual data itself. I will do the same for any request body as well, providing a JSON Schema definition for what data is being sent as well as received within any transaction that occurs during my Charles Proxy monitoring.</p>
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/charles-proxy/reclaim-charles-proxy-process-files.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/charles-proxy/reclaim-charles-proxy-process-files.png" alt="" /></p>
 
 <p><strong>Automation Of Process Using The EasyCRON Layer Of Platform</strong><br />
 I now have four separate APIs that help me automate the logging of my network traffic, storing, processing of all transactions I record, then automatically generate an OpenAPI Spec, and JSON Schema for each API call. This provides me with a more efficient way to kick off the API documentation process, automatically generating machine readable API definitions and data schema, from the exhaust of my daily work, which includes numerous API calls, for a wide variety different reasons.</p>
@@ -773,7 +773,7 @@ The primary goal of this work is to help me map out the world of APIs, as part o
 <p><strong>Helping Me Understand The Media Types In Use Out There Today</strong><br />
 One thing I noticed right away, was the variety of media types I was coming across. At first I locked things down to application/json, but then I realized I wanted XML, and others. So I reversed my approach and let through all media-types, and started building a blacklist for which ones I did not want to let through. Leaving this part of the process open, and requiring manual evaluation of media types is really pushing forward my awarnesss of alternative media types, and is something that was an unexpected aspect to this owrk.</p>
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/charles-proxy/reclaim-process-transactions.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/charles-proxy/reclaim-process-transactions.png" alt="" /></p>
 
 <p><strong>Helping Me Understand The Companies I Use Daily In My Business</strong><br />
 It is really interesting to see the list of hosts that I have generated as part of this work. Some of these companies I depend on for applications that I depend on like Tweetdeck, Github, and Dropbox, while others are companies I’m looking to learn more about as part of API Evangelist research, and storytelling. I’m guessing this understanding of the companies that I’m using daily in my work will continue to evolve significantly as I continue looking at the world through this lens. </p>
@@ -784,7 +784,7 @@ The host of each transaction gives me a look at the companies I transact with da
 <p><strong>Routing Websites That I Visit Into A Separate Bucket For Tracking On</strong><br />
 At first I was going to just ditch all GET requests that returned HTML, but instead I decided to log these transactions, keeping the host, path, and parameters in a separate media type bucket. While I won’t be evaluating these domains like I do the APIs that return JSON, XML, etc, I will be keeping an eye on them. I’m feeding these URLs into my core monitoring system, and for some companies I will pull their blog RSS, Twitter handles, and Github accounts, in addition to looking for other artifacts like OpenAPI Specs, API Blueprints, Postman Collections, APIs.json, and other machine readable goodies.</p>
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/charles-proxy/reclaim-open-api-spec.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/charles-proxy/reclaim-open-api-spec.png" alt="" /></p>
 
 <p><strong>Targeting Of Specific Web, Mobile, Device, And API Driven Platforms</strong><br />
 Now that I have this new, more automated API mapping system setup, it will encourage me to target specific web mobile, devices, and API platforms. I will be routing my iPhone, and iPad through the proxy, allowing me to map out mobile applications. If I can just get to work using an API in my Postman client, or use the website or mobile app, and auto-generate a map of the APIs in use in OpenAPI Spec, and data models using JSON Schema, you are going to find me mapping a number of new platform targets in 2016. </p>
@@ -801,7 +801,7 @@ You know, I’m not sure what is next. I learned a lot from this 25 hour sprint,
   <li>Am I in control of my account and data for these platforms &amp; companies?</li>
 </ul>
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/charles-proxy/reclaim-json-schema.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/charles-proxy/reclaim-json-schema.png" alt="" /></p>
 
 <p>For the moment, I am just looking at establish a map of the digital surface area I touch on each day, and further scale my ability to map out unknown areas of the API wildnerness. I am curious to see how many OpenAPISpecs and JSON Schemas I can generate in a week or month now. I have no idea how I’m going to store or organize all of these maps of the API sector, but it is something I’m sure I can find a solution for using my <a href="http://apisjson.org">APIs.json format</a>. </p>
 

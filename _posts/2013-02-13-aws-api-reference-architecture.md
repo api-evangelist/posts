@@ -2,7 +2,7 @@
 layout: post
 title: AWS API Reference Architecture
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/aws-ecommerce-reference-architecture.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aws-ecommerce-reference-architecture.png
 author:
   name: kinlane
 tags:

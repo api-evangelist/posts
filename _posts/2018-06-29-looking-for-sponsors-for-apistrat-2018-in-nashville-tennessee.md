@@ -9,7 +9,7 @@ tags:
   - API Events
   - Sponsors
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/apistrat/apistrat-conference-sponsorship-prospectus.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/apistrat/apistrat-conference-sponsorship-prospectus.png
 ---
 <p></p>We are building up to [the 9th edition of API Strategy & Practice (APIStrat) happening in Nashville, Tennessee this September 24th through 26th](https://events.linuxfoundation.org/events/apistrat-2018/). As part of the build up we are looking for sponsors to help make the event happen, bringing the API community together once again to share stories from the trenches, and discuss healthy practices that are allowing companies, organizations, institutions, and government agencies make an impact when it comes to their API operations.
 

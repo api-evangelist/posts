@@ -3,7 +3,7 @@ layout: post
 title: >-
   What I Have Been Calling API Trends, Are Slowly Being Baked Into API
   Operations
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-bread.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-bread.png
 author:
   name: kinlane
 tags:

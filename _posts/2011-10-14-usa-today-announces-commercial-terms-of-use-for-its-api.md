@@ -4,13 +4,13 @@ title: USA Today Announces Commercial Terms of Use for Its API
 url: >-
   http://apievangelist.com/2011/10/14/usa-today-announces-commercial-terms-of-use-for-its-api/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/USA-Today-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/USA-Today-Logo.png
 author:
   name: kinlane
 tags:
   - Commercial
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/usatoday/USA-Today-Logo.png)](http://developer.usatoday.com/ "USA Today")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/usatoday/USA-Today-Logo.png)](http://developer.usatoday.com/ "USA Today")
 
 [USA Today](http://developer.usatoday.com/ "USA Today") has announced that they now support the commercial access of articles, reviews and census data through their content APIs.
 

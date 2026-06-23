@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The SalesForce API Could Use A Little Modernization
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/salesforce_rest_api_developer_guide.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/salesforce_rest_api_developer_guide.png
 author:
   name: kinlane
 tags:

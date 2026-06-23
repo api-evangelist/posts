@@ -1,7 +1,7 @@
 ---
 layout: post
 title: One Characteristic Of Many Of The Enterprise API Folks I Meet
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-sad-face.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-sad-face.png
 author:
   name: kinlane
 tags:

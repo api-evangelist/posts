@@ -2,7 +2,7 @@
 layout: post
 title: Hello World Product API With Blueprint, RAML And Swagger
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-building-blocks-design.png
+  https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-building-blocks-design.png
 author:
   name: kinlane
 tags:

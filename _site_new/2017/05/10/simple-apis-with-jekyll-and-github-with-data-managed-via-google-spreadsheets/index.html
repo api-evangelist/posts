@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I’m always looking for simpler, and cheaper ways of doing APIs that can help anyone easily manage data while making it available in both a human and machine ...">
-    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_toolbox_home_page.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_toolbox_home_page.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -46,7 +46,7 @@
     <meta name="twitter:title" content="Simple APIs With Jekyll And Github With Data Managed Via Google Spreadsheets">
     
     <meta name="twitter:description" content="I’m always looking for simpler, and cheaper ways of doing APIs that can help anyone easily manage data while making it available in both a human and machine ...">
-    <meta name="twitter:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_toolbox_home_page.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_toolbox_home_page.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -56,7 +56,7 @@
       "@type": "Article",
       "headline": "Simple APIs With Jekyll And Github With Data Managed Via Google Spreadsheets",
       "description": "I’m always looking for simpler, and cheaper ways of doing APIs that can help anyone easily manage data while making it available in both a human and machine ...",
-      "image": "http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_toolbox_home_page.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_toolbox_home_page.png",
       "datePublished": "2017-05-10T00:00:00-04:00",
       "dateModified": "2017-05-10T00:00:00-04:00",
       "author": {
@@ -69,7 +69,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -367,7 +367,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -397,7 +397,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -731,7 +731,7 @@
       </div>
 
       
-      <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_toolbox_home_page.png" alt="Simple APIs With Jekyll And Github With Data Managed Via Google Spreadsheets" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_toolbox_home_page.png" alt="Simple APIs With Jekyll And Github With Data Managed Via Google Spreadsheets" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -748,7 +748,7 @@ First, and foremost the data in the OpenAPI Toolbox is meant to be accessible by
 <p><strong>JavaScript Spreadsheet Sync To YAML Data Store</strong><br />
 To keep the data in the Google Spreadsheet in sync with the YAML data store in the Github hosted repository I use a simple JavaScript driven page on the website. To make it work you have to provide a valid Github OAuth token to be passed along as query string like this <a href="http://openapi.toolbox.apievangelist.com/pull-spreadsheet/?token=[github token]">http://openapi.toolbox.apievangelist.com/pull-spreadsheet/?token=[github token]</a>. The token can be acquired by doing the usual OAuth dance with Github or using the Github account of any user where you can issue personal tokens. If the user is a valid contributor on the repository, the JavaScript will pull a recent copy of the data in the Google Spreadsheet, and publish as YAML in the _data folder for the toolbox repository successfully–otherwise, it just throws an error.</p>
 
-<p><a href="https://docs.google.com/spreadsheets/d/15jtjyQivmgMohiKiUcnyJCsN48lk97suR8QfPFJd9ak/pubhtml"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_toolbox_spreadsheet.png" alt="" /></a></p>
+<p><a href="https://docs.google.com/spreadsheets/d/15jtjyQivmgMohiKiUcnyJCsN48lk97suR8QfPFJd9ak/pubhtml"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_toolbox_spreadsheet.png" alt="" /></a></p>
 
 <p><strong>HTML Toolbox For Humans To Browse The Toolbox</strong><br />
 Jekyll provides a static website that acts as the public face for the OpenAPI Toolbox. The home page provides icon links to each of the types of tools I have indexed, as well as to specific tags I’ve selected, such as the programming language of each tool. Each page of the website is an HTML page that uses Liquid to display data stored in the central YAML store. Liquid handles the filtering of data by type, tags, or any other criteria I choose. Soon I will be adding a search, and other ways to browse the data in the toolbox as the data store grows, and I obtain more data points to slice and dice things on. </p>
@@ -762,7 +762,7 @@ Rather than just making the data available via JSON files, I wanted to also prov
 <p><strong>Project Support and Road Map Using Github Issues</strong><br />
 As with all of my projects I am <a href="https://github.com/kinlane/openapi-toolbox/issues">using the underlying issue management system to help me manage support and the roadmap for the project</a>. Anyone can submit an issue regarding a tool they’d like to see in the toolbox, regarding API integration, or possibly new APIs they would like to see published. I can use the Github issue management to handle general support requests, and communication around the project, as well as incrementally manage the data, schema, website, and API for the toolbox. </p>
 
-<p><a href="http://openapi.toolbox.apievangelist.com/api-documentation/"><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openapi_toolbox_api_docs.png" alt="" /></a></p>
+<p><a href="http://openapi.toolbox.apievangelist.com/api-documentation/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_toolbox_api_docs.png" alt="" /></a></p>
 
 <p><strong>Indexed In Machine Readable Way With APIs.json</strong><br />
 <a href="http://openapi.toolbox.apievangelist.com/apis.json">The entire project is indexed using APIs.json</a>, providing metadata for the project as well as other indexes for the API, support, and other aspects of operating the project. APIs.json is meant to provide a machine readable index for not just the API, which is already defined using OpenAPI, but for the rest of the project, including documentation and support, and eventually a road map, blog, and other supporting elements. Using the APIs.json index, other systems can easily discover the API, and programmatically access the data via the APIs, or even access the repository for the spreadsheet via the Github API, or the Google Sheet via its API–all the information is available in the APIs.json for use.</p>

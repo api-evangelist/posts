@@ -2,7 +2,7 @@
 layout: post
 title: Continuous Integration Conversational Interfaces
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-conversational-interfaces.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-conversational-interfaces.png
 atomdate: 2017-04-21T16:00:00.000Z
 tags:
   - Integration

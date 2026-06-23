@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Make Legacy APIs Visible To Highlight Technical Debt
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/braceros-domingo-ulloa-old-train-on-tracks.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-old-train-on-tracks.jpg
 author:
   name: kinlane
 tags:

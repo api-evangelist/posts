@@ -7,7 +7,7 @@ tags:
   - Specifications
   - Documentation
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-old-remington-typewriter.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-old-remington-typewriter.jpg
 ---
 I wanted to take a moment to once again develop my understanding of why OpenAPI was successful. Some would argue that its success is unevenly distributed because of Swagger-—which is true. I would also say it is also unevenly distributed because of Postman collections, GraphQL, and now with the latest release of AsyncAPI, which enables you to define request/response APIs, this will continue to expand. Even with all of this, it is difficult to argue that OpenAPI is the de facto machine-readable format for defining the surface area of your HTTP APIs.
 

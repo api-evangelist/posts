@@ -8,7 +8,7 @@ tags:
   - APIs.json
   - JSON Schema
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-railroad-tracks-rocks.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-railroad-tracks-rocks.jpeg
 ---
 I have cared about API specs over code for some time now. I have long invested in OpenAPI for defining the surface area of HTTP APIs, APIs.json for defining the surface area of API operations, JSON Schema for validating it all, and Spectral rules for governing it all across the API lifecycle. However, in the last five years I’ve developed stronger opinions about the role that infrastructure, tooling, and services play as part of helping or hurting API governance efforts. Like programming languages, there is a lot of ideology and dogma surrounding infrastructure, tooling, and services.  While API specifications are free of some of the same forces, it exists in my smaller doses, and artifacts tend to be pretty modular, portable, and keep moving, where infrastructure, tooling, and services stay put and accumulate or lose power.
 

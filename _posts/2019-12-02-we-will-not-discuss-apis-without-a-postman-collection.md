@@ -3,7 +3,7 @@ published: true
 layout: post
 title: We Will Not Discuss APIs Without A Postman Collection
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-chess-in-the-park-with-pigeons.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-chess-in-the-park-with-pigeons.jpg
 author:
   name: kinlane
 tags:

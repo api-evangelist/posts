@@ -4,7 +4,7 @@ title: >-
   Keeping The API Conversation Moving Forward At The Gluecon APIStrat
   Un-Workshops
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/steve-apistrat-gluecon.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/steve-apistrat-gluecon.png
 author:
   name: kinlane
 tags:

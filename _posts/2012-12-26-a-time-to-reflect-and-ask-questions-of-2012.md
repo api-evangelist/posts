@@ -2,7 +2,7 @@
 layout: post
 title: A Time to Reflect and Ask Questions of 2012
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-Personal-Data-Questions.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-Personal-Data-Questions.png
 author:
   name: kinlane
 tags:

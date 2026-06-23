@@ -2,7 +2,7 @@
 layout: post
 title: Introducing the Next Generation of Communication Using APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/singly-tiggzi-cloudmine-webshell-ifttt.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/singly-tiggzi-cloudmine-webshell-ifttt.png
 author:
   name: kinlane
 tags:
@@ -24,7 +24,7 @@ In the past month I’ve explored a couple different areas where I’m seeing AP
 
 These are the five fastest growing areas where I see API usage being taken to the next level, potentially allowing developers and even non-developers to better communicate using APIs, in ways that are more sophisticated than just single word uses.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/communicate-in-new-ways.jpeg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/communicate-in-new-ways.jpeg)
 
 Ironically there is a sixth area where APIs takes communicating with APIs to a new level, using speech and voice applications like Apple’s Siri. This is one area that we’ll continue to see an explosion of APIs to support. If your business resources aren’t exposed via an API, they won’t be found by mobile users taking advantage of Siri-like speech applications.
 

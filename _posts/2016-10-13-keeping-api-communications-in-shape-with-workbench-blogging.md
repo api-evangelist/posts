@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keeping API Communications In Shape With Workbench Blogging
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stretching.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-stretching.png
 atomdate: 2016-10-13T18:00:00.000Z
 tags:
   - Communication

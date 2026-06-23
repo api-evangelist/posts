@@ -2,7 +2,7 @@
 layout: post
 title: Hello Pinboard Customers, From Linden Tibbets, the CEO of IFTTT
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ifttt-291.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ifttt-291.png
 tags:
   - Customers
 ---

@@ -20,7 +20,7 @@ Of course it all starts with places infokinlane-productions2.s3.amazonaws.comes 
 
 CityGrid and Foursquare also bring merchant APIs to the game, allowing businesses to manage their profile data as well as how it gets syndicated across many networks.
 
-Along with places data there are various geo related services that are offered across these APIs: ![](http://kinlane-productions.s3.amazonaws.com/hyp3rl0cal/geofencing.jpg)
+Along with places data there are various geo related services that are offered across these APIs: 
 
 *   [GeoCoding](http://en.wikipedia.org/wiki/Geocoding "Geocoding")
 *   Directions
@@ -37,7 +37,7 @@ The next area I'm grouping location services under would be other content direct
 kinlane-productions2.s3.amazonaws.com*   Menus
 *   Editorials
 
-After location and business related content I'd say there is a growing pool of related content that may not be directly associated with a business or location, but provide context, and augment places data making it more meaningful to users: ![](http://kinlane-productions.s3.amazonaws.com/hyp3rl0cal/neighborhood-city-center.jpg)
+After location and business related content I'd say there is a growing pool of related content that may not be directly associated with a business or location, but provide context, and augment places data making it more meaningful to users: 
 
 *   Weather
 *   Demographics
@@ -55,7 +55,7 @@ kinlane-productions2.s3.amazonaws.com*   Check-In
 
 You can't talk about location data without bringing in mapping. Google Maps is the most well known mapping API, but there are several providers that have JavaScript and Image based location mapping that developers can use in their web and mobile applications.
 
-![](http://kinlane-productions.s3.amazonaws.com/hyp3rl0cal/urban-spoon-iphone.png)Next I broke out a group of location specific services, that provide location tools for developers that provide current location of users as well as tools for recording the history of users. There are also robust tools for doing look-ups of location based upon IP address, longitude and latitude and physical address.
+Next I broke out a group of location specific services, that provide location tools for developers that provide current location of users as well as tools for recording the history of users. There are also robust tools for doing look-ups of location based upon IP address, longitude and latitude and physical address.
 
 While doing the review of location and places APIs I also notice mobile specific tools offered by a few of the provider like mobile network probe for identifying network quality, and mobile specific SDKs, making sure mobile developers can take maximize their usage of services.
 

@@ -2,7 +2,7 @@
 layout: post
 title: An API That Scrubs Personally Identifiable Information From Other APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/personally-identifable-information.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/personally-identifable-information.png
 author:
   name: kinlane
 tags:

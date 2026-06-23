@@ -6,7 +6,7 @@ tags:
   - JSON Schema
   - Validation
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-arrow-in-ground.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-arrow-in-ground.jpeg
 ---
 JSON Schema is the most important API specification today. I’ll fight anyone on this. It is more important than OpenAPI, AsyncAPI, GraphQL, Protocol Buffers, and even my own APIs.json. Why? Because every aspect of API operations is defined and validated by JSON Schema. OpenAPI and AsyncAPI both use JSON Schema. Every enterprise organization is using JSON Schema, most just are completely unaware they are, and aren’t very good at applying it evenly. JSON Schema is how API operations are defined and validated at design, develop, build, run, and distribute time. 
 

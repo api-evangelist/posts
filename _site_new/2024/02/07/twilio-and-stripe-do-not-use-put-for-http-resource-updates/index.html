@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="The shouts of the RESTafarians in 2010 still ring loud in my head. REST wasn’t just a philosophy, it was a religion. You needed to have read Roy Fielding’s d...">
-    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-old-bearded-man-thinking.jpeg">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-old-bearded-man-thinking.jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -43,7 +43,7 @@
     <meta name="twitter:title" content="Twilio and Stripe Do Not Use PUT For HTTP Resource Updates">
     
     <meta name="twitter:description" content="The shouts of the RESTafarians in 2010 still ring loud in my head. REST wasn’t just a philosophy, it was a religion. You needed to have read Roy Fielding’s d...">
-    <meta name="twitter:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-old-bearded-man-thinking.jpeg">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-old-bearded-man-thinking.jpeg">
 
     <!-- JSON-LD Structured Data -->
     
@@ -53,7 +53,7 @@
       "@type": "Article",
       "headline": "Twilio and Stripe Do Not Use PUT For HTTP Resource Updates",
       "description": "The shouts of the RESTafarians in 2010 still ring loud in my head. REST wasn’t just a philosophy, it was a religion. You needed to have read Roy Fielding’s d...",
-      "image": "https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-old-bearded-man-thinking.jpeg",
+      "image": "https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-old-bearded-man-thinking.jpeg",
       "datePublished": "2024-02-07T00:00:00-05:00",
       "dateModified": "2024-02-07T00:00:00-05:00",
       "author": {
@@ -66,7 +66,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -364,7 +364,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -394,7 +394,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -728,7 +728,7 @@
       </div>
 
       
-      <img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-old-bearded-man-thinking.jpeg" alt="Twilio and Stripe Do Not Use PUT For HTTP Resource Updates" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-old-bearded-man-thinking.jpeg" alt="Twilio and Stripe Do Not Use PUT For HTTP Resource Updates" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -737,10 +737,10 @@
 <p>There are many dimensions of this conversation, but one of the many fundamental principles of REST states clearly that you utilize your HTTP methods for handling your basic Create, Read, Update, and Delete (CRUD) capabilities. Meaning you use POST to create resources, GET to read resources, PUT to update resources, and DELETE to delete resources. It is so simple. It is widely known and believed. However, in 2024, anyone on the ground doing APIs, knows it is far from the gospel truth. Evidence for this is that both Stripe and Twilio use POST to update many common payment, messaging, and other resources.</p>
 
 <h2 id="stripe">Stripe</h2>
-<p><a href="https://stripe.com/docs/api/charges/update"><img src="https://kinlane-productions2.s3.amazonaws.com/stripe-post-update.png" width="100%" style="padding; 15px;" /></a></p>
+<p><a href="https://stripe.com/docs/api/charges/update"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/stripe-post-update.png" width="100%" style="padding; 15px;" /></a></p>
 
 <h2 id="twilio">Twilio</h2>
-<p><a href="https://www.twilio.com/docs/iam/api/account"><img src="https://kinlane-productions2.s3.amazonaws.com/twilio-post-update.png" width="100%" style="padding; 15px;" /></a></p>
+<p><a href="https://www.twilio.com/docs/iam/api/account"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/twilio-post-update.png" width="100%" style="padding; 15px;" /></a></p>
 <p>￼
 These are two API producers that we hold up as shiny examples of how to do APIs well, and both deviate from true REST, operating in the RESTful and RESTish lands where the rest of us are struggling in for years. What does it mean? Not much. Sure, I recommend you standardize your APIs what the other APIs developers are use to do, but the world doesn’t end if you are kinda sorta REST. Sorry, it doesn’t. I know it drives many of us API pedantic nuts, but it reflects the real world we all are forced to live in each day.</p>
 

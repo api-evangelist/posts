@@ -3,7 +3,7 @@ published: true
 layout: post
 title: OpenAPI Governance Using Rule-Based or Script-Based Approaches
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-statue-supreme-court.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-statue-supreme-court.jpg
 tags:
   - Governance
   - OpenAPI

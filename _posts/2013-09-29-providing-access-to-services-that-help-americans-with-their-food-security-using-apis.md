@@ -4,7 +4,7 @@ title: >-
   Providing Access To Services That Help Americans With Their Food Security
   Using APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/the-ohana-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/the-ohana-api.png
 author:
   name: kinlane
 tags:

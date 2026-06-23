@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Company X&#039;s Competitive Advantage Is That They Have An API
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-advantage.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-advantage.png
 author:
   name: kinlane
 tags:

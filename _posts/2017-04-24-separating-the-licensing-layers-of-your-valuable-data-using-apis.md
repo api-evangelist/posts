@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Separating The Licensing Layers Of Your Valuable Data Using APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-onion.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-onion.png
 atomdate: 2017-04-24T22:00:00.000Z
 tags:
   - Data
@@ -14,7 +14,7 @@ Data is valuable. We put a lot of work into acquiring, creating, normalizing, up
 
 You worked hard to develop the data you have, but you also want to make accessible. To protect our interests I see many folks impose pretty proprietary restrictions around their data, which ends up hurting its usage and viability in partner systems, and introducing friction when it comes to accessing and putting data to work--when this is the thing you really want as a data steward. Let me take a stab at helping you reduce this friction by better understanding how APIs can help you peel the licensing onion layers back when it comes to your valuable data.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/contact_point_data.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/contact_point_data.png)
 
 **Your Valuable Data**  
 This is an example point of contact record. I've worked hard to create this bit of data (not really), and maintain a relationship with this point of contact. It takes time to validate that their record is up to date, always relfecting reality in my database.
@@ -23,7 +23,7 @@ While openly licensed data is one important piece of the puzzle, and data should
 
 In an online, always on, digital environment, you want data accessible, but to be able to do this you need to think critically about how you peel back the licensing onion when it comes to this data.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/contact_point_schema.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/contact_point_schema.png)
 
 **The Schema For Your Data**  
 The first layer to peel back when you are looking to make data more accessible with APIs is at the schema level. This is the names, description, data type, and other details about the meta layer of your valuable data--it isn't the data, but the description of the structure of your data.
@@ -36,7 +36,7 @@ Data is often more ephemeral than the schema. Ideally, schemas do not change oft
 
 Make sure the schema for your data is well-defined, machine readable, and openly licensed for the widest possible use.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/contact_point_api.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/contact_point_api.png)
 
 **Defining Access To Data Using OpenAPI**   
 The third layer of this licensing onion is the API layer, which governs access to data, defining how requests are made upon data, and how responses are structured. Many API providers are putting [OpenAPI](http://openapis.org) to work to define this layer of data operations.

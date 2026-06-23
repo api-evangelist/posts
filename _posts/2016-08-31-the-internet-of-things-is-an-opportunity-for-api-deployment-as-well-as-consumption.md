@@ -3,7 +3,7 @@ layout: post
 title: >-
   The Internet of Things Is An Opportunity For API Deployment As Well As
   Consumption
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-two-way-arrows.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-two-way-arrows.png
 atomdate: 2016-08-31T22:00:00.000Z
 tags:
   - Deployment

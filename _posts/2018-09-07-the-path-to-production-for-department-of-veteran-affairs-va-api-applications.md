@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'The Path To Production For Department of Veteran Affairs (VA) API Applications'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/los-angeles-downtow-freeway_blue_circuit_5.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-path-to-production-for-department-of-veteran-affairs-va-api-applications.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/los-angeles-downtow-freeway_blue_circuit_5.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>This post is part of my ongoing <a href="http://apievangelist.com/2018/08/28/reviewing-the-department-of-veterans-affairs-va-new-developer-portal/">review of the Department of Veteran Affairs (VA) developer portal and API presence</a>, moving on to where I take a closer look at their path to production process, and provide some feedback on how the agency can continue to refine the information they provide to their new developers. Helping map out the on-boarding process for any new developer, ensuring they are fully informed about what it will take to develop an application on top of VA APIs, and move those application(s) from a developer state to a production environment, and actually serving veterans.
 
 <p>Beginning with <a href="https://github.com/department-of-veterans-affairs/vets-api-clients/blob/master/Alpha-Path-to-Production.md">the VA’s base path to production template on GitHub</a>, then pulling in some elements I found across the other APIs they have published to developer.va.gov, and finishing off with some ideas of my own, I shifted the outline for the path to production to look something like this:

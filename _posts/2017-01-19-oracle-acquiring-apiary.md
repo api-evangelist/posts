@@ -2,7 +2,7 @@
 layout: post
 title: Oracle Acquiring Apiary
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/gorilla_red_circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/gorilla_red_circuit.jpg
 atomdate: 2017-01-19T23:00:00.000Z
 tags:
   - Oracle

@@ -3,7 +3,7 @@ layout: post
 title: >-
   The Enterprise Will Make The Same Mistakes With API And Microservices That
   They Did With SOA, Because Essential API Concepts Go Right Over Their Head
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-enterprise.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-enterprise.png
 author:
   name: kinlane
 tags:

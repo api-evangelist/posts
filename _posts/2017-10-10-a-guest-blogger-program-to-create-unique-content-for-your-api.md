@@ -4,8 +4,6 @@ layout: post
 title: 'A Guest Blogger Program To Create Unique Content For Your API'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/runscope/runscope-featured-guest-series.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/runscope/runscope-featured-guest-series.png" align="right" width="40%" style="padding: 15p;" />
 <p>Creating regular content for your blog is essential to maintaining a presence. If you don’t publish regularly, and refresh your content, you will find your SEO, and wider presence quickly becoming irrelevant. I understand that unlike me, many of you have jobs, and responsibilities when it comes to operating your APIs, and carving out the time to craft regular blog posts can be difficult. To help you in your storytelling journey I am always looking for other stories to help alleviate your pain, while helping keep your blog active, and ensure folks will continue stumbling across your API, or API service, while Google, or on social media.
 
 <p>Another interesting example of how to keep your blog fresh came from my partners over at Runscope, <a href="https://blog.runscope.com/writing-for-runscope">who conducted a featured guest blog post series</a>, where they were paying API community leaders to help “create an incredible resource of blog posts about APIs, microservices, DevOps, and QA.” Which has produced a handful of interesting posts:

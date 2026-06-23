@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Benefits of Transparency
-image: http://kinlane-productions2.s3.amazonaws.com/transparency-jellyfish.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/transparency-jellyfish.jpg
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ One of the aspects of my current job that I enjoy, is the transparent nature of 
 
 Let me give you an example. In various roles I've had at companies as lead developer, director of technology, or just a developer I spend a lot of time researching new technologies.
 
-kinlane-productions2.s3.amazonaws.com When I research new technologies I usually create some sort of overview document, a presentation and probably some sort of sample code or prototype. ![](http://kinlane-productions.s3.amazonaws.com/transparency-jellyfish.jpg) In legacy positions I do all this hard work, and usually submit to my boss and maybe do apresentationto other teams. Often times, my work goes nowhere.
+kinlane-productions2.s3.amazonaws.com When I research new technologies I usually create some sort of overview document, a presentation and probably some sort of sample code or prototype. ![](https://kinlane-images.s3.amazonaws.com/shared/transparency-jellyfish.jpg) In legacy positions I do all this hard work, and usually submit to my boss and maybe do apresentationto other teams. Often times, my work goes nowhere.
 
 In my new role as an API Evangelist I enjoy a lot of transparency. I get to talk about my work as I'm learning. For exmple I wrote these blog posts yesterday:
 

@@ -3,7 +3,7 @@ layout: post
 title: >-
   When Intelligent Programmers Realize They Do Not Understand HTTP And The Web
   That They Use Daily
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-http.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-http.png
 author:
   name: kinlane
 tags:

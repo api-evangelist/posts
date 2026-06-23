@@ -2,7 +2,7 @@
 layout: post
 title: 'Caching APIs With CloudFormations Or OpenShift '
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-cache.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-cache.png
 author:
   name: kinlane
 tags:

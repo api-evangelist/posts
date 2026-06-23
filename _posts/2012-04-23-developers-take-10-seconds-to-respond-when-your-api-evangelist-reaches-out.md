@@ -2,7 +2,7 @@
 layout: post
 title: Developers, Take 10 Seconds to Respond When Your API Evangelist Reaches Out
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/reaching_out.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/reaching_out.jpg
 author:
   name: kinlane
 tags:

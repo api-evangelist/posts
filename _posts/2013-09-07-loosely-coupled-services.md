@@ -2,7 +2,7 @@
 layout: post
 title: Loosely Coupled Services
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-gears.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/bw-gears.png
 author:
   name: kinlane
 tags:

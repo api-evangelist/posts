@@ -3,7 +3,7 @@ published: true
 layout: post
 title: An Introduction to API Authentication
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stories-new-old-door-lock-smoking-cigarette.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/stories-new-old-door-lock-smoking-cigarette.jpg
 author:
   name: kinlane
 tags:

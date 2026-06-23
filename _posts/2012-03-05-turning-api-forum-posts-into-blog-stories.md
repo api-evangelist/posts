@@ -2,7 +2,7 @@
 layout: post
 title: Turning API Forum Posts into Blog Stories
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/forums-icon.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/forums-icon.jpg
 author:
   name: kinlane
 tags:

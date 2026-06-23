@@ -3,7 +3,7 @@ layout: post
 title: Printing and Publishing APIs
 url: http://apievangelist.com/2011/09/13/printing-and-publishing-apis/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/printing-press.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/printing-press.jpg
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
   - APIs
   - Print
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/mimeo/printing-press.jpg)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/shared/mimeo/printing-press.jpg)
 
 As the API Evangelist for Mimeo, I spend a lot of time looking for other print related APIs. I spent some time today to update my list, and here what I found:
 

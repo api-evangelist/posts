@@ -3,7 +3,7 @@ published: true
 layout: post
 title: An API Deployment Narrative
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-new-van-gogh-starry-night-container-bridge-2.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-new-van-gogh-starry-night-container-bridge-2.jpg
 author:
   name: kinlane
 tags:

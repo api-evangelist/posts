@@ -3,7 +3,7 @@ published: true
 layout: post
 title: APIs.json APIs, Includes, and Network Properties
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-radio-antanae.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-radio-antanae.jpeg
 author:
   name: kinlane
 tags:
@@ -25,7 +25,7 @@ description: >-
   Millions of companies of all sizes use Stripe online and in person to accept
   payments, send payouts, automate financial processes, and ultimately grow
   revenue.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://artisinal.apisjson.org/apis/stripe/apis.yml
 created: 2023/10/06
 modified: '2024-03-09'
@@ -38,7 +38,7 @@ apis:
       see the balance currently on your Stripe account. You can also retrieve
       the balance history, which contains a list of transactions that
       contributed to the balance (charges, payouts, and so forth).
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://stripe.com/docs/api/balance
     baseURL: https://api.stripe.com
     tags: []
@@ -88,7 +88,7 @@ aid: payments
 name: APIs.io - Payments
 description: The APIs that make payments possible, as well as a number of other related
   capabilities.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://payments.apis.io/apis.json
 created: 2024/04/13
 modified: 2024/04/13
@@ -116,7 +116,7 @@ specificationVersion: '0.18'
 aid: explore
 name: APIs.io
 description: The first API search engine.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://explore.apis.io/apis.json
 created: 2024/04/13
 modified: 2024/04/13

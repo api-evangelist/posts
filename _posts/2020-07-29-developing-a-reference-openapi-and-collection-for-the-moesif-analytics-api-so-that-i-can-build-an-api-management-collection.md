@@ -5,7 +5,7 @@ title: >-
   Developing a Reference OpenAPI and Collection for the Moesif Analytics API So
   That I Can Build an API Management Collection
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_28_at_6.08.30_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_28_at_6.08.30_pm.png
 author:
   name: kinlane
 tags:
@@ -17,15 +17,15 @@ I am working my way through profiling [API analytics provider Moesif](https://ww
 
 My review of any API service provider always begins with looking at their own developer area, and identifying whether or not they have an API (all API service providers should have APIs)—Moesif has one. Next, I need a machine readable API definition—either an OpenAPI or Postman, ideally both, as they have varied but overlapping purposes. Moesif is using Postman, which I will talk about more in a bit, but alas there wasn’t an easy OpenAPI or Postman collection for me to put to work (shame shame). Luckily they use Slate for their docs, which always means there is some easy to scrape and parse markdown or HTML right behind things. I quickly [generated an OpenAPI for the Moesif API analytics API](https://github.com/api-evangelist/moesif/blob/master/openapi.json).
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_28_at_6.07.31_pm.png)](https://github.com/api-evangelist/moesif/blob/master/openapi.json)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_28_at_6.07.31_pm.png)](https://github.com/api-evangelist/moesif/blob/master/openapi.json)
 
 It isn’t a complete OpenAPI, but it does give me the paths, summaries, and parameters in a machine readable format. I can use this to generate a Postman collection, then begin using it to certify each of the endpoints, saving examples, and making for a more robust definition for docs, mocks, testing, and other lifecycle stops. To continue working with my Moesif OpenAPI definition I will need to create a dedicated workspace in Postman for my work with this partner, and publish the OpenAPI in my Postman API Builder.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_28_at_6.08.30_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_28_at_6.08.30_pm.png)
 
 With the entry level OpenAPI in Postman, I am not able to generate a Postman collection, which I then do a little more polishing and organization of requests, helping make the Moesif API a little more actionable as part of other work. [Right now this is what I call a reference collection](https://github.com/api-evangelist/moesif/blob/master/collection.json), providing me with a complete list of the value that Moesif brings to the table.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_28_at_6.09.54_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_28_at_6.09.54_pm.png)
 
 Now that I have the building blocks of what Moesif does, as tags within the OpenAPI, and as folders within the Postman collection. This provides me with the understanding I will need to create additional Postman collections that help API providers accomplish specific business objectives. I have my sights set on pushing forward three Postman collections for the Moesif API:
 

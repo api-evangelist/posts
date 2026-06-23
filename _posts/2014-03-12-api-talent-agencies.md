@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Talent Agencies
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-juggling.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-juggling.png
 author:
   name: kinlane
 tags:

@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Bringing Discovery Within Data API Marketplaces Out Into The Open'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/granaryfield_dali_three.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/bringing-discovery-within-data-api-marketplaces-out-into-the-open.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/granaryfield_dali_three.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>I spend time reviewing each wave of data API marketplaces as they emerge on the landscape every couple of years. There are a number of reasons why these data marketplaces exist, ranging from supporting government agencies, NGOs, or for commercial purposes. One of the most common elements of API-driven data marketplaces that frustrates me is when they don’t do the hard work to expose the meta data around the databases, datasets, spreadsheets, and the raw data they are providing access to–making it very difficult to actually discover anything of interest.
 
 <p>You can see a couple examples of this with <a href="https://docs.mlab.com/data-api/#list-databases">mLab</a>, <a href="http://apps.who.int/gho/data/node.resources.api">World Health Organization</a>, <a href="https://apidocs.data.world/api">Data.World</a>, and others. While these platforms provide (sometimes) impressive ability to manage data stores, but they don’t always do a good job exposing the meta data of their catalogs as part of the available APIs. Dynamically generating API endpoints, documentation, and other resources based upon the data that is being published to their platforms. Leaving developers to do the digging, and making the investment to understand what is available on a platform.

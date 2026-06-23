@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Detecting Breaking Changes Across API Versions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-working-on-railroad-1.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-working-on-railroad-1.jpg
 tags:
   - Breaking Changes
   - Governance

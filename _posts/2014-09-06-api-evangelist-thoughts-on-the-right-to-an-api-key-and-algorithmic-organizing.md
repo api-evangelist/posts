@@ -2,7 +2,7 @@
 layout: post
 title: API Evangelist Thoughts On The Right To An API Key And Algorithmic Organizing
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/tech-business-politics-03-2014.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/tech-business-politics-03-2014.png
 author:
   name: kinlane
 tags:

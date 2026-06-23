@@ -2,7 +2,7 @@
 layout: post
 title: Learning About OPC, The Interoperability Standard For Industrial Automation
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/plcopen_opcfoundation_opc_ua_diagram.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/plcopen_opcfoundation_opc_ua_diagram.png
 atomdate: 2016-09-28T16:00:00.000Z
 tags:
   - Automation

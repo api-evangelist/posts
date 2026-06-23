@@ -2,7 +2,7 @@
 layout: post
 title: It Will Be A Busy Week For API Industry Next Week At Gluecon
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/gluecon-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/gluecon-conversations.jpg
 author:
   name: kinlane
 tags:

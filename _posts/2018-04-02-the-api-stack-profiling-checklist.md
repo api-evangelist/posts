@@ -4,8 +4,6 @@ layout: post
 title: 'The API Stack Profiling Checklist'
 image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-stacks.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-stacks.png" width="45%" align="right" style="padding: 15px;" />
 <p><a href="http://apievangelist.com/2018/04/02/my-api-stack-profiling-process/">I just finished a narrative around my API Stack profiling</a>, telling the entire story around the profiling of APIs for inclusion in the stack. To help encourage folks to get involved, I wanted to help distill down the process into a single checklist that could be implemented by anyone.
 
 <p><strong>The Github Base</strong>

@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: A Postman Resource Bot
-image: https://kinlane-productions2.s3.amazonaws.com/postman-resource-bot.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/postman-resource-bot.png
 tags:
   - Collection
   - Bots

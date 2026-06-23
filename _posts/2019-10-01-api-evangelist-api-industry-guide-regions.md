@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'API Evangelist API Industry Guide: Regions'
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/guides/regions/industry-guide-tyk-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/guides/regions/industry-guide-tyk-screenshot.png
 author:
   name: kinlane
 tags:
@@ -38,4 +38,4 @@ In this guide I talk about the different reasons why API providers will want to 
 
 _Thank you to [Tyk](https://tyk.io/) for sponsoring this API industry guide. Without their assistance I would not have been able to conduct the research that went into this stop of the API lifecycle, which is a stop that is becoming more critical as the API economy expands, grows, and drives more of our world. If you read and share the information in this guide, [I recommend you head over to Tyk](https://tyk.io/), and learn more about how they can help you in your own API journey. Thanks!_
 
-[**Download the API Industry Regions Guide**](https://kinlane-productions2.s3.amazonaws.com/guides/regions/api-evangelist-tyk-api-industry-guide-10-2019.pdf)
+[**Download the API Industry Regions Guide**](https://kinlane-images.s3.amazonaws.com/apievangelist/guides/regions/api-evangelist-tyk-api-industry-guide-10-2019.pdf)

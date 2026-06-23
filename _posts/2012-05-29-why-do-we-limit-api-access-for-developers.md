@@ -2,7 +2,7 @@
 layout: post
 title: Why Do We Limit API Access for Developers?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/API-Rate-Limiting.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/API-Rate-Limiting.png
 author:
   name: kinlane
 tags:

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Benefits of Good API Design at the Gateway Layer
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-walk-through-garden-tunnel.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-walk-through-garden-tunnel.jpg
 author:
   name: kinlane
 tags:

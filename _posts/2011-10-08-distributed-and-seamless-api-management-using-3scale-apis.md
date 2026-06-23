@@ -28,8 +28,6 @@ These four APIs offer the essential building blocks to control, manage and monet
 
 Adding a set of APIs, definitely sets 3Scale apart from the other [API management service providers](/serviceproviders/ "API Management Service Providers"). You can sign-up, connect 3Scale services to your API, without routing your API through a proxy, and seamlessly integrate 3Scale service, account and billing management into your existing systems, complete with analytics.
 
-![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/3Scale/API-Management -3scale-API-Management-Solution.png)
-
 Using 3Scale you can operate for free up to 50K calls per day, and start paying after your API grows or once you are looking to monetize your API and begin billing users.
 
 Since [3Scale](/serviceproviders/3scale.php "3Scale") has a freemium model, I can play around with a lot of different deployments, until I find the configuration I'm looking for. I think I'll launch an API for [API Evangelist](http://www.apievangelist.com "API Evangelist") using 3Scale. See if I can integrate 3Scale service and user management into my existing CMS, and deploy some API analytics. I don't have anything at the moment I'd feel good about billing for, but maybe some day.

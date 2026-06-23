@@ -4,8 +4,6 @@ layout: post
 title: 'What Does The Next Chapter Of Storytelling Look Like For API Evangelist?'
 image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png" width="45%" align="right" style="padding: 15px;" />
 <p>I find myself refactoring API Evangelist again this holiday season. Over the last eight years of doing API Evangelist I’ve had to regularly adjust what I do to keep it alive and moving forward. As I  close up 2018, I’m finding the landscape shifting underneath me once again, pushing me to begin considering what the next chapter of API Evangelist will look like. Pushing me to adjust my presence to better reflect my own vision of the world, but hopefully also find balance with where things are headed out there in the real world.
 
 <p>I started API Evangelist in July of 2010 to study the business of APIs. As I was researching things in 2010 and 2011 I first developed what I consider to be the voice of the API Evangelist, which continues to be the voice I use in my storytelling here in 2018. Of course, it is something that has evolved and matured over the years, but I feel I have managed to remain fairly consistent in how I speak about APIs throughout the journey. It is a voice I find very natural to speak, and is something that just flows on some days whether I want it to or not, but then also something I can’t seem to find at all on other days. Maintaining my voice over the last eight years has required me to constantly adjust and fine tune, perpetually finding the frequency required to keep things moving forward.

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: What Is My API Network
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-satellite-with-sunset.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-satellite-with-sunset.jpg
 author:
   name: kinlane
 tags:
@@ -66,7 +66,7 @@ I am ending the noun discussion there, although I am going to continue describin
 *   **Export** - Artifacts should also be able to be exported from different areas of my network, allowing me to easily get artifacts out.
 *   **Remove** - I should be able to remove any part of my network, allowing me to curate my network as I see fit, across every area.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-satellite-dish-pointing-upwards.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-satellite-dish-pointing-upwards.jpg)
 
 There are several actions here that clearly have objects associated with them, but my intend here is to understand what they enable, and what action is being taken as part of my network—not be hard about what is a noun vs verb. I see my network as made up of people, teams, projects, workspaces, specifications, definitions, organizations, domains, and industries. These are the defining lines of my network, and this list of actions I take will produce data, content, and other artifacts as part of my network, but they provide me with a way to map out the intent, incentives, and meaningful value that gets delivered across my network. These are the things that make my network remain viable and something that helps me accomplish what I am looking to do as a professional within an organization, and across multiple industries. 
 

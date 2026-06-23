@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Postman API Reference and Capability Collections
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-docks-water-front-ships-containers.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-docks-water-front-ships-containers.jpg
 author:
   name: kinlane
 tags:

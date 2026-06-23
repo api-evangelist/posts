@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Open Source Educational Resources on Modern APIs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/school-clouds-church-clouds-blue-circuit-3.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/school-clouds-church-clouds-blue-circuit-3.jpg
 author:
   name: kinlane
 tags:

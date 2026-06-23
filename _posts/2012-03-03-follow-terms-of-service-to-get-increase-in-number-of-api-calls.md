@@ -4,13 +4,13 @@ title: Follow Terms of Service to Get Increase in Number of API Calls
 url: >-
   http://apievangelist.com/2012/03/03/follow-terms-of-service-to-get-increase-in-number-of-api-calls/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/foursquare_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/foursquare_logo.png
 author:
   name: kinlane
 tags:
   - Terms of Service
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/foursquare/foursquare_logo.png)](https://developer.foursquare.com "Foursquare API")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/foursquare/foursquare_logo.png)](https://developer.foursquare.com "Foursquare API")
 
 I am going through the [Foursquare API](https://developer.foursquare.com "Foursquare API"), and found their section about how to get an increase in the number of calls you can make against the Foursquare API interesting:
 

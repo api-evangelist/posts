@@ -4,7 +4,7 @@ title: >-
   The 70 Platforms With Job Postings For A Developer Evangelist Or Advocate
   Currently
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/keith-casey.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/keith-casey.jpeg
 tags:
   - Evangelist
   - Platform
@@ -18,7 +18,7 @@ Google, Brightcove, Pubnub, Atlassian, Yahoo, Uber, Esri, Indix, Couchbase, edX,
 
 I gathered these company names, after looking around LinkedIn, Indeed, and a couple of Google searches, over the course of an hour. I'm sure I would find even more if I kept on looking. As the API Evangelist, I have had a handful of these companies reach out, asking if I'm interested in the job, or possibly know someone that would be. Another seasoned evangelist, Keith Casey ([@CaseySoftware](https://twitter.com/CaseySoftware)), Twilio Alum, and Director of Product at [@ClarifyIO](https://twitter.com/clarifyio), who also lives with a similar amount of attention from recruiters, responded like this when I shared the list with him.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/keith-casey.jpeg)](https://twitter.com/CaseySoftware)_I’ve been contacted by at least 6 on that list in the last week or so.. I end up shutting down most conversations with three questions:_ 
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/keith-casey.jpeg)](https://twitter.com/CaseySoftware)_I’ve been contacted by at least 6 on that list in the last week or so.. I end up shutting down most conversations with three questions:_ 
 
 _#1 What group do you evangelists report to?  
 __#2 What metrics are your evangelists measured on?  

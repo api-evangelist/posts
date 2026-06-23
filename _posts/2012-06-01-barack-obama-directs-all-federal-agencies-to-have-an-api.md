@@ -2,7 +2,7 @@
 layout: post
 title: Barack Obama Directs All Federal Agencies to Have an API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/whitehouse-seal.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/whitehouse-seal.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ The Whitehouse CIO has released a strategy, entitled "[Digital Government: Build
 
 President Obama has set the timeframe for roll-out and accountability at:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/federal-government/building-a-21st-century-platform-to-better-serve-the-american-people.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/federal-government/building-a-21st-century-platform-to-better-serve-the-american-people.png)
 
 *   Within 90 days of the date of this memorandum, create a page on its website, located at www.\[agency\].gov/digitalstrategy, to publicly report progress in meeting the requirements of the Strategy in a machine-readable format.
 *   implement the requirements of the Strategy within 12 months of the date of this memorandum and comply with the timeframes for specific actions specified therein

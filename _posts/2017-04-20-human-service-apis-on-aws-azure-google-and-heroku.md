@@ -2,7 +2,7 @@
 layout: post
 title: Human Service APIs On AWS, Azure, Google, and Heroku
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/open_referral_aws_google_azure_heroku.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/open_referral_aws_google_azure_heroku.png
 atomdate: 2017-04-20T19:00:00.000Z
 tags:
   - AWS

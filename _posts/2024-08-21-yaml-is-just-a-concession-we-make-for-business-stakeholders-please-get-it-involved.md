@@ -6,7 +6,7 @@ tags:
   - YAML
   - Business
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-baggage-department.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-baggage-department.jpg
 ---
 I hear a lot of complaints from developers about the usage of YAML when it comes to defining APIs. I have a pretty strong design and develop time YAML, and build and run time JSON philosophy in my work. I use YAML to define, configure, and validate EVERYTHING until it reaches a state where it is building, deploying, and operating as part of runtime—-then it is all JSON. I do this as a concession for business stakeholders, to help them get more involved in the design and development of APIs.
 

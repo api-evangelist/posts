@@ -2,7 +2,7 @@
 layout: post
 title: Add An API To The Web For Sharing Text, URLs And Images
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/share_mobile_web_native.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/share_mobile_web_native.png
 atomdate: 2017-04-17T22:00:00.000Z
 tags:
   - Images

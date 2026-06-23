@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API-First Development
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-lighthouse-lighthouse-still.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-lighthouse-lighthouse-still.jpg
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Google Spreadsheets As An Engine For API Goodness
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/how_to_make_a_twitter_bot_with_google_spreadsheets_version_0_4_zach_whalen.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/how_to_make_a_twitter_bot_with_google_spreadsheets_version_0_4_zach_whalen.png
 atomdate: 2016-09-23T00:00:00.000Z
 tags:
   - Spreadsheets

@@ -12,7 +12,7 @@ tags:
   - JSON
   - CSV
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/meadowbutterfly-meadow-butterfly-internet-numbers.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/meadowbutterfly-meadow-butterfly-internet-numbers.jpg
 author:
   name: kinlane
 ---

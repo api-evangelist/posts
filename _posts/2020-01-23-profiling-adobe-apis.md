@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Profiling Adobe APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/adob_io_home_page_1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/adob_io_home_page_1.png
 author:
   name: kinlane
 tags:
@@ -30,7 +30,7 @@ When you Google Adobe APIs you get this main landing page with the tagline, “_
 *   **[Terms of Use](https://www.adobe.com/legal/terms.html) -** The terms of use.
 *   **[Cookies](https://www.adobe.com/privacy/cookies.html)** - The cookies policy.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/adob_io_home_page_2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/adob_io_home_page_2.png)
 
 These building blocks provides the basis for their API operations, providing a single landing page for brining everything together, and help folks find what they are looking for when it comes to APIs for all of the Adobe products. When listing out their products Adobe breaks them into three distinct categories:
 

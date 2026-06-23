@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Is An API First Strategy? Adding Some Dimensions To This New Question
-image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-first.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-first.png
 author:
   name: kinlane
 tags:

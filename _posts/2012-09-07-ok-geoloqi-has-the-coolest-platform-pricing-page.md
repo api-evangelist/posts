@@ -2,7 +2,7 @@
 layout: post
 title: 'Ok, Geoloqi Has the Coolest Platform Pricing Page '
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Geoloqi-Pricing.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Geoloqi-Pricing.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ Have an [easy to find and understand pricing page for an API](/buildingblocks/pr
 
 Today, one of the developers at [Singly](https://www.singly.com), pointed out the way [cool pricing page for Geoloqi](http://geoloqi.com/pricing):
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/geoloqi/Geoloqi-Pricing.png)](http://geoloqi.com/pricing)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/geoloqi/Geoloqi-Pricing.png)](http://geoloqi.com/pricing)
 
 It doesn't get much cooler than that!  I want to sign up for the Pterodactyl level, and I don't even need that amount of usage. 
 

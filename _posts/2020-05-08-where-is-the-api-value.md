@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Where is the API Value?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_value.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_value.jpg
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ I had some thoughts bouncing around in my head the last couple days about where 
 
 In 2020, I feel like the message is still the center of value, but I would disagree about the meaning of those messages being irrelevant, but that is another post. However I would say that other dimensions have emerged in the 70+ years since Shannon wrote his theory. I would argue that Shannon's view of the message still hold true in 2020, but I just think he couldn't have imagined the many ways in which protocols, connections, formats, channels, and the network, performance, and volume of messages would influence the purpose, meaning, and ultimately value of each message, and messages in bulk. This is my first draft at trying to map out the moving parts. It is far from complete, or laid out as I see in my head, but its a start to try and understand where the value lies within doing APIs across the landscape in the 2020s. 
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_value.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_value.jpg)
 
 Here:
 

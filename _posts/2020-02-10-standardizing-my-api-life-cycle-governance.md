@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Standardizing My API Life Cycle Governance
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/amusement-park-amusement-park-2-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/amusement-park-amusement-park-2-copper-circuit.jpg
 author:
   name: kinlane
 tags:
@@ -51,7 +51,7 @@ To help me govern the life cycle for each API, I am going to be quantifying and 
     *   **DELETE** - Use of DELETE properly across all APIs.
     *   **OPTIONS** - Use of OPTIONS properly across all APIs.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/amusement-park-amusement-park-2-blue-circuit.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/amusement-park-amusement-park-2-blue-circuit.jpg)
 
 *   **Response**
     *   **HTTP Headers** \- Ensure the common usage of standard or custom HTTP headers
@@ -115,7 +115,7 @@ To help me govern the life cycle for each API, I am going to be quantifying and 
     *   **JSON Schema -** Provide JSON schema represenations for all schema in use.
     *   **Schema.org** \- Consider using Schema.org representations for common data elements.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/amusement-park-amusement-park-2-purp-paper.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/amusement-park-amusement-park-2-purp-paper.jpg)
 
 **Mock**
 
@@ -217,7 +217,7 @@ To help me govern the life cycle for each API, I am going to be quantifying and 
 
 **Monitoring**
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/amusement-park-amusement-park-2-atari-asteroids.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/amusement-park-amusement-park-2-atari-asteroids.jpg)
 
 **Mock**
 

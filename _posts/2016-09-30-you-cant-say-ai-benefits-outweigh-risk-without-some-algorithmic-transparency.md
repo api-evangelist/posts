@@ -4,7 +4,7 @@ title: >-
   You Can&#039;t Say AI Benefits Outweigh Risk Without Some Algorithmic
   Transparency
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-algorithmic-transparency-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-algorithmic-transparency-2.png
 atomdate: 2016-09-30T16:00:00.000Z
 tags:
   - Transparency

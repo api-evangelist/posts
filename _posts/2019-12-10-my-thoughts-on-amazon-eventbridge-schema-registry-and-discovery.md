@@ -3,7 +3,7 @@ published: true
 layout: post
 title: My Thoughts ON Amazon EventBridge Schema Registry And Discovery
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/event_bridge_unite_video_thumbnail.64e8041d0d3c919aa503c8376b1fb9ae4dc11dcf.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/event_bridge_unite_video_thumbnail.64e8041d0d3c919aa503c8376b1fb9ae4dc11dcf.png
 author:
   name: kinlane
 tags:
@@ -35,6 +35,6 @@ I haven’t taken EventBridge for a test drive, so all of my thoughts are purely
 
 The EventBridge schema registry reflects my own design for an automated API discovery solution. I don’t think we are going to get people to be API design first and thoughtfully craft all of their schema in use across API infrastructure. I think we are going to have to hoover it up from log files and other artifacts left around as part of regular operations. I think the EventBridge schema registry and approach to discovery should be default for all API Infrastructure, not just streaming, event-driven, and message bus solutions. Teams should be able to visit the schema registry and retrieve the artifacts like JSON Schema, OpenAPI, and Async API that they need. They should also be able to gather documentation, tests, and code bindings for all the messages already in motion. The schema registry should be the heartbeat of our operations, providing us with a complete view of the digital bits flowing around the enterprise.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/product_page_diagram_eventbridge_how_it_works.96da753d6591f93925f16716142f98d849c2ee0e.png)](https://aws.amazon.com/eventbridge/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/product_page_diagram_eventbridge_how_it_works.96da753d6591f93925f16716142f98d849c2ee0e.png)](https://aws.amazon.com/eventbridge/)
 
 I’ll keep an eye on what is happening with EventBridge. I think it will take some serious tooling to make it something people will put to use. I think people want to get their schema house in order but don’t always have the bandwidth and will to actually make something meaningful occur in this area—this is why API discovery has been so stalled for over a decade. However, with the right automation and tangible tooling like documentation, visualizations, notification, testing, code bindings, and traceability, we might see something like the EventBridge schema registry get more adoption. If you can pipe all your existing channels into the EventBridge and magically come out the other side with a usable registry of all our digital bits, you might see some folks finally begin to get a handle on the growing amount of data that is flowing around the enterprise on any given day.

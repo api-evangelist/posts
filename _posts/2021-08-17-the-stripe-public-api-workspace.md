@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: The Stripe Public API Workspace
-image: https://kinlane-productions2.s3.amazonaws.com/stripe-developers-workspace.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/stripe-developers-workspace.png
 tags:
   - Stripe
   - Payments

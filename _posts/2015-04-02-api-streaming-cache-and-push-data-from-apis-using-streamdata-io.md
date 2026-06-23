@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'API Streaming: Cache And Push Data From APIs Using StreamData.io'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/streamdata-io-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/streamdata-io-logo.png
 author:
   name: kinlane
 tags:

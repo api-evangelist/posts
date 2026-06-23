@@ -4,7 +4,7 @@ title: >-
   APIs Give You The Ability To Define And Execute On The Actions That Are Most
   Important To You
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/IFTTT___Connect_YouTube_to_SoundCloud.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/IFTTT___Connect_YouTube_to_SoundCloud.png
 author:
   name: kinlane
 tags:

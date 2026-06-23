@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Infrastructure To Help Your 3rd Party Developers Be More Efficient
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-code.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-code.png
 atomdate: 2016-09-13T22:00:00.000Z
 tags:
   - Infrastructure

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: So You Wanna Build An iPaaS Solution
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/docks-docks-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/docks-docks-copper-circuit.jpg
 author:
   name: kinlane
 tags:

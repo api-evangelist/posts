@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Watching Out For Your API Keys &amp; Tokens On Open Internet
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-keys-servers.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-keys-servers.png
 atomdate: 2016-08-25T18:00:00.000Z
 tags:
   - Tokens

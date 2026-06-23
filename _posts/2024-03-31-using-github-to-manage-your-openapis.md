@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Using GitHub To Manage Your OpenAPIs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-shipping-containers-cranes.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-shipping-containers-cranes.jpeg
 author:
   name: kinlane
 tags:

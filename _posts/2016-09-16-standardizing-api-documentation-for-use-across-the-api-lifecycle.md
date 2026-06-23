@@ -2,7 +2,7 @@
 layout: post
 title: Standardizing API Documentation For Use Across The API Lifecycle
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/swagger_ui_petstore.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/swagger_ui_petstore.png
 atomdate: 2016-09-16T19:00:00.000Z
 tags:
   - Documentation

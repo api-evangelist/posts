@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Politics, Marketing, And Fear of API Security
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-mobile-security.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-mobile-security.png
 author:
   name: kinlane
 tags:

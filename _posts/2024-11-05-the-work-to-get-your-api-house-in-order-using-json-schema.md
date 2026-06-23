@@ -7,7 +7,7 @@ tags:
   - Schema
   - Objects
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-house-freeway-behind.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-house-freeway-behind.jpeg
 ---
 I am a big fan of [JSON Schema](https://json-schema.org/). I have a strong belief that JSON Schema is the most important specification for any enterprise, no matter which industry they operate in. I was talking with my friend [Ben Hutton](https://www.linkedin.com/in/benhuttonuk/) from JSON Schema this morning about the current and future state of the spec, and the conversation reminded me that I needed to [renew my call to action for enterprises to do the work to get their schema house in order](https://apievangelist.com/2017/01/10/hoping-schema-becomes-just-as-important-as-api-definitions-in-2017/) with JSON Schema. The work isn’t trivial, but the cost of the investment is low, with significant amounts of alignment across the enterprise when realized. 
 

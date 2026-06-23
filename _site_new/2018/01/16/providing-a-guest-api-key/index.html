@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I’m spending time immersed in the world of transit data and APIs lately, and found a simple, yet useful approach to helping onboard developers over at the Wa...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/washington-metro/wmata-guest-key.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/washington-metro/wmata-guest-key.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -43,7 +43,7 @@
     <meta name="twitter:title" content="Providing a Guest API Key">
     
     <meta name="twitter:description" content="I’m spending time immersed in the world of transit data and APIs lately, and found a simple, yet useful approach to helping onboard developers over at the Wa...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/washington-metro/wmata-guest-key.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/washington-metro/wmata-guest-key.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -53,7 +53,7 @@
       "@type": "Article",
       "headline": "Providing a Guest API Key",
       "description": "I’m spending time immersed in the world of transit data and APIs lately, and found a simple, yet useful approach to helping onboard developers over at the Wa...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/washington-metro/wmata-guest-key.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/washington-metro/wmata-guest-key.png",
       "datePublished": "2018-01-16T04:00:00-05:00",
       "dateModified": "2018-01-16T04:00:00-05:00",
       "author": {
@@ -66,7 +66,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -364,7 +364,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -394,7 +394,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -728,11 +728,11 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/washington-metro/wmata-guest-key.png" alt="Providing a Guest API Key" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/washington-metro/wmata-guest-key.png" alt="Providing a Guest API Key" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
-        <p><a href="https://developer.wmata.com/Products"><img src="https://s3.amazonaws.com/kinlane-productions2/washington-metro/wmata-guest-key.png" align="right" width="45%" style="padding: 15px;" /></a></p>
+        <p><a href="https://developer.wmata.com/Products"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/washington-metro/wmata-guest-key.png" align="right" width="45%" style="padding: 15px;" /></a></p>
 <p>I’m spending time immersed in the world of transit data and APIs lately, and found a simple, yet useful approach to helping onboard developers over at the <a href="https://developer.wmata.com/">Washington Metropolitan Area Transit Authority (WMATA) API</a>. When you you click on <a href="https://developer.wmata.com/Products">their products page</a> (not sure why they use this name), you get a guest API key which allows you try out the API, and kick the tires. Of course, you can’t use the key in production applications, as it is rate limited and can change at any time, but the concept is simple, and provides an example which other API providers might want to consider.</p>
 
 <p>In my days as the API Evangelist I’ve seen API providers do this in a variety of ways, by providing sample API URLs complete with an API key, and by embedding a key in the OpenAPI definition, so that the interactive documentation picks up the key and will allow developers to make live, interactive API calls–to name a few. No matter what your approach, providing a guest key for users to play around without signing up makes a lot of sense. Of course, you want to rotate this key regularly, or at least be monitoring it to see what IP addresses it is being called from, and maybe understand how its being used–you never know, it might reveal some interesting use cases.</p>

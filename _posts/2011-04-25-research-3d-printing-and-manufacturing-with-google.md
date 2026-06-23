@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Research: 3D Printing and Manufacturing with Google'
-image: http://kinlane-productions2.s3.amazonaws.com/3D-Printing/3D-Nylon-Bike.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/3D-Printing/3D-Nylon-Bike.jpg
 author:
   name: kinlane
 tags:

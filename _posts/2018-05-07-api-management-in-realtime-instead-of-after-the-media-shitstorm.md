@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'API Management In Real-Time Instead Of After The Media Shitstorm'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/109_204_800_500_0_max_0_1_-5.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/api-management-in-realtime-instead-of-after-the-media-shitstorm.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/109_204_800_500_0_max_0_1_-5.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>I have been studying API management for eight years now. I’ve spent a lot of time understanding the approach of leading API providers, and the services and tools put out there by API service providers from 3Scale to Tyk, and how the cloud service providers like AWS are baking API management into their clouds. API management isn’t the most exciting aspect of doing APIs, but I feel it is one of the most important elements of doing APIs, delivering on the business and politics of doing APIs, which can often make or break a platform and the applications that depend on it.
 
 <p>Employing a common API management solution, and having a solid plan in place, takes time and investment. To do it properly takes lots of regular refinement, investment, and work. It is something that will often seem unnecessary–having to review applications, get to know developers, and consider how they fit into the picture picture. Making it something that can easily be to pushed aside for other tasks on a regular basis–until it is too late. This is frequently the case when your API access isn’t properly aligned with your business model, and there are no direct financial strings attached attached to new API users, or a line distinguishing active from inactive users, let alone governing what they can do with data, content, and algorithms that are made accessible via APIs.

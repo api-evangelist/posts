@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Commons Added To The API Commons
-image: https://s3.amazonaws.com/kinlane-productions2/api-commons/api-commons-icon.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-commons/api-commons-icon.png
 author:
   name: kinlane
 tags:

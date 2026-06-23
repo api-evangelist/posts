@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Reference And Walkthrough API Documentation And Collections From ShipEngine
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/walkthrough_screenshot_2_zoom.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/walkthrough_screenshot_2_zoom.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ Reference Postman collections is the most common approach you will find in the w
 
 First they provide **[ShipEngine Walkthrough](https://documenter.postman.com/view/305204/SW7XbA6V?version=latest)**, which provides collection is a guided tour through ShipEngine's most popular features, reducing the overhead for any developer looking to quickly understand what the ShipEngine API provides—highlight the following capabilities.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/walkthrough_screenshot_4_zoom.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/walkthrough_screenshot_4_zoom.png)
 
 *    Create and download shipping labels
 *    Calculate shipping costs for any package

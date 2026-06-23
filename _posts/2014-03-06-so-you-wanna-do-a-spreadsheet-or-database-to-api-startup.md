@@ -2,7 +2,7 @@
 layout: post
 title: So You Wanna Do a Spreadsheet or Database To API Startup
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-spreadsheet-db.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-spreadsheet-db.png
 author:
   name: kinlane
 tags:
@@ -23,7 +23,7 @@ Even with the availability of Google Spreadsheet and its API, and data portal so
 *   **[Data.OnGithub.com](http://data.ongithub.com/)** - My attempt at providing users with a free (if publicly licensed) place to upload and manage their open data that originates in spreadsheets and CSVs within Github repositories. The entire app runs on Github Pages, using HTML, CSS ad JavaScript for core functionality, making it something that can be forked and implemented by anyone.
 *   **[API.OnGithub.com](http://api.ongithub.com/)** - My attempt to provide the API layer on top of data.ongithub.com, separating the data management from the API deployment. This application runs as simple PHP API framework, deployed on Linux on AWS.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/socrata/socrata-vertical.jpeg)](http://www.socrata.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/socrata/socrata-vertical.jpeg)](http://www.socrata.com/)
 
 While this work was interesting, it still didn’t solve the problem of allowing the average data steward to easily manage their data that is warehoused in spreadsheets, and deploy APIs with no technical experience required. However it was a fun exercise to see what is possible for developing open tooling around this problem.
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: An APIs.json for Amazon Web Services
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-seatlle-shipping-mountain.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-seatlle-shipping-mountain.jpg
 author:
   name: kinlane
 tags:
@@ -22,7 +22,7 @@ description: >-
   cloud computing platforms and APIs to individuals, companies, and governments,
   on a metered, pay-as-you-go basis. Clients will often use this in combination
   with autoscaling.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: >-
   https://raw.githubusercontent.com/apis-json/artisanal/main/apis/amazon-web-services.yml
 created: 2023/11/06
@@ -39,7 +39,7 @@ apis:
       With ACM, the tedious tasks of purchasing, uploading, and renewing SSL/TLS
       certificates are streamlined and automated, saving you valuable time and
       effort.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/certificate-manager/
     baseURL: https://example.com
     tags:
@@ -76,7 +76,7 @@ apis:
       effectively manage their Identity and Access Management policies. These
       tools include the ability to identify external and unused access, perform
       basic and custom policy checks, and create highly detailed policies.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iam/access-analyzer/
     baseURL: https://example.com
     tags:
@@ -120,7 +120,7 @@ apis:
       home region before using any API functions to prevent encountering a
       HomeRegionNotSetException error. Furthermore, all API requests should
       originate from within your assigned home region for proper functioning.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/migration-hub/
     baseURL: https://example.com
     tags:
@@ -161,7 +161,7 @@ apis:
       API for managing resources such as workspaces, rule groups, and alert
       managers, as well as a Prometheus-compatible API for working within the
       Prometheus workspace.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/prometheus/
     baseURL: https://example.com
     tags:
@@ -221,7 +221,7 @@ apis:
       running on Lambda, Amazon EC2, or other external web services. This
       ensures robust and reliable communication between applications and APIs,
       all within a secure environment.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/api-gateway/
     baseURL: https://example.com
     tags:
@@ -308,7 +308,7 @@ apis:
       request parameters and JSON responses. Additionally, users have the option
       to utilize Amazon Web Services SDKs for accessing APIs that are customized
       for their preferred programming language or platform.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/private-ca/
     baseURL: https://example.com
     tags:
@@ -332,7 +332,7 @@ apis:
       streamlined oversight and protection by IT and security professionals
       using a standardized data structure. Leveraging the capabilities of
       generative AI, employees can simplify their daily workflows.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/appfabric/
     baseURL: https://example.com
     tags:
@@ -375,7 +375,7 @@ apis:
       automate the preparation and registration of your schema with the AWS Glue
       Data Catalog for easy discovery and sharing of data with AWS analytics and
       machine learning services.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/appflow/
     baseURL: https://example.com
     tags:
@@ -418,7 +418,7 @@ apis:
       interface, you can create scaling plans for resources such as Amazon EC2
       instances, Amazon ECS tasks, Amazon DynamoDB tables, Amazon Aurora
       Replicas, and Spot Fleets.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/autoscaling/
     baseURL: https://example.com
     tags:
@@ -451,7 +451,7 @@ apis:
       deleting them. It also allows users to import usage data into the
       Application Cost Profiler service. For more information on using this API,
       please consult the AWS Application Cost Profiler User Guide.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/aws-cost-management/aws-application-cost-profiler/
     baseURL: https://example.com
     tags:
@@ -478,7 +478,7 @@ apis:
       streamlines the monitoring and management of containerized microservices.
       It simplifies communication between microservices, providing in-depth
       visibility and ensuring reliable availability for applications. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/app-mesh/
     baseURL: https://example.com
     tags:
@@ -521,7 +521,7 @@ apis:
       With AWS AppSync, easily create serverless GraphQL and Pub/Sub APIs that
       streamline application development by providing a secure endpoint for
       querying, updating, and publishing data.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/appsync/
     baseURL: https://example.com
     tags:
@@ -592,7 +592,7 @@ apis:
       Amazon AppStream 2.0 is a secure, fully managed application streaming
       service that allows you to effortlessly stream desktop applications to
       users without the need for application rewriting. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/appstream2/
     baseURL: https://example.com
     tags:
@@ -633,7 +633,7 @@ apis:
       continuous delivery and hosting service specifically tailored for web
       applications. To learn more about Amplify Hosting, refer to the user
       guide. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/amplify/
     baseURL: https://example.com
     tags:
@@ -680,7 +680,7 @@ apis:
       registry or source code repository, providing a fully managed delivery
       pipeline with high performance, scalability, and security. For more
       information, refer to the App Runner Developer Guide and Release Notes. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/apprunner/
     baseURL: https://example.com
     tags:
@@ -721,7 +721,7 @@ apis:
       and management, as you only pay for the queries you execute. Athena is
       designed to scale automatically, executing queries in parallel to deliver
       fast results even with large datasets and complex queries. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/athena/
     baseURL: https://example.com
     tags:
@@ -758,7 +758,7 @@ apis:
       terminating of EC2 instances based on predefined scaling policies,
       scheduled actions, and health checks. Refer to the Amazon EC2 Auto Scaling
       User Guide and API Reference for further details.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/ec2/autoscaling/
     baseURL: https://example.com
     tags:
@@ -796,7 +796,7 @@ apis:
       parameters, and XML responses for each of the B2BI API actions. B2BI
       facilitates the seamless exchange of EDI-based business transactions at
       cloud scale, offering elasticity and pay-as-you-go pricing. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/b2b-data-interchange/
     baseURL: https://example.com
     tags:
@@ -827,7 +827,7 @@ apis:
       ongoing auditing of your Amazon Web Services usage. With this tool, users
       can evaluate the effectiveness of controls, mitigate risks, and simplify
       compliance procedures.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/audit-manager/
     baseURL: https://example.com
     tags:
@@ -911,7 +911,7 @@ apis:
       capacity. You can also set minimum and maximum capacity limits, retrieve
       information on existing scaling plans, and access forecast data for up to
       56 days previous.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/autoscaling/
     baseURL: https://example.com
     tags:
@@ -943,7 +943,7 @@ apis:
       With features such as simplified backup creation, migration, restoration,
       and deletion, as well as robust reporting and auditing capabilities,
       Backup Backup ensures the protection of your AWS services and data.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/backup/
     baseURL: https://example.com
     tags:
@@ -1033,7 +1033,7 @@ apis:
       Batch uses the advantages of the batch computing to remove the
       undifferentiated heavy lifting of configuring and managing required
       infrastructure. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/batch/
     baseURL: https://example.com
     tags:
@@ -1088,7 +1088,7 @@ apis:
       and data sources. Amazon Bedrock agents improve operational efficiency,
       customer service, and decision-making processes whilst simultaneously
       driving down costs and fostering innovation within the organization.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/bedrock/agents/
     baseURL: https://example.com
     tags:
@@ -1140,7 +1140,7 @@ apis:
       compare the rates you set to your actual AWS rates. With the API, payer
       accounts can view custom rates on the billing details page or set up cost
       and usage reports per billing group. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/aws-cost-management/aws-billing-conductor/
     baseURL: https://example.com
     tags:
@@ -1194,7 +1194,7 @@ apis:
       personalized budgets to monitor your costs and usage, and receive instant
       notifications via email or SNS alerts if you surpass your set threshold.
       Stay on top of your spending and act swiftly to prevent overages.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/aws-cost-management/aws-budgets/
     baseURL: https://example.com
     tags:
@@ -1225,7 +1225,7 @@ apis:
       specific operations for services like Amazon DynamoDB. The service
       endpoint for the Cost Explorer API is https://ce.us-east-1.amazonaws.com.
       For pricing details, refer to Amazon Web Services Cost Management Pricing.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/aws-cost-management/aws-cost-explorer/
     baseURL: https://ce.us-east-1.amazonaws.com
     tags:
@@ -1265,7 +1265,7 @@ apis:
       and Android devices. Developers can further enhance their applications
       with messaging, audio, video, and screen sharing capabilities using the
       Amazon Chime SDK.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/chime/
     baseURL: https://example.com
     tags:
@@ -1392,7 +1392,7 @@ apis:
       combine their data in a shared workspace. This collaborative environment
       enables members to query and receive insights from aggregated datasets
       without exposing raw data to other parties. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/clean-rooms/
     baseURL: https://example.com
     tags:
@@ -1459,7 +1459,7 @@ apis:
       integrated development environment that enables them to experiment with
       and create quantum algorithms, validate them using quantum circuit
       simulators, and execute them on a variety of quantum hardware platforms.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/braket/
     baseURL: https://example.com
     tags:
@@ -1503,7 +1503,7 @@ apis:
       services by providing a standardized set of APIs for developers and
       partners. With five key operations (CRUDL), users can easily create, read,
       update, delete, and list their cloud infrastructure.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/cloudcontrolapi/
     baseURL: https://example.com
     tags:
@@ -1536,7 +1536,7 @@ apis:
       provides a comprehensive overview of Cloud Directory operations that can
       be accessed programmatically, offering detailed insights into data types
       and potential errors. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/cloud-directory/
     baseURL: https://example.com
     tags:
@@ -1617,7 +1617,7 @@ apis:
       template file, CloudFormation organizes them into a stack, enabling
       seamless creation and deletion of all resources within the stack while
       managing dependencies between them.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/cloudformation/
     baseURL: https://example.com
     tags:
@@ -1655,7 +1655,7 @@ apis:
       deleting environments and members, getting information about environments
       and members, listing environments, managing tags, and updating environment
       settings. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/cloud9/
     baseURL: https://example.com
     tags:
@@ -1688,7 +1688,7 @@ apis:
       other web assets. By seamlessly integrating with various Amazon Web
       Services products, developers and businesses can effortlessly optimize
       content delivery to end users without any mandatory usage requirements.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/cloudfront/
     baseURL: https://example.com
     tags:
@@ -1780,7 +1780,7 @@ apis:
       provides training data to create and configure an audience model, which is
       associated with a collaboration. Then, the second party brings their seed
       data to generate an audience that closely resembles the training data.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/clean-rooms/ml/
     baseURL: https://example.com
     tags:
@@ -1827,7 +1827,7 @@ apis:
       single-tenant HSM instances running in your Virtual Private Cloud (VPC),
       you can easily meet corporate, contractual, and regulatory data security
       requirements.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/cloudhsm/
     baseURL: https://example.com
     tags:
@@ -1865,7 +1865,7 @@ apis:
       CloudSearch, you can enhance your website with search functionality
       without the need for extensive expertise or concerns about hardware
       management. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/cloudsearch/
     baseURL: https://example.com
     tags:
@@ -1892,7 +1892,7 @@ apis:
       and accounts called AWS APIs for services that support CloudTrail, the
       source IP address from which the calls were made, and when the calls
       occurred. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/cloudtrail/
     baseURL: https://example.com
     tags:
@@ -1923,7 +1923,7 @@ apis:
       capabilities, and spend less time setting up project tools, managing CI/CD
       pipelines, provisioning and configuring various development environments
       or coordinating with team members.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/codecatalyst/
     baseURL: https://example.com
     tags:
@@ -1970,7 +1970,7 @@ apis:
       and choose your build settings, and CodeBuild will run your build scripts
       for compiling, testing, and packaging your code.
 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/codebuild/
     baseURL: https://example.com
     tags:
@@ -2005,7 +2005,7 @@ apis:
       developers to find and offers suggestions for improving your Java and
       Python code. This service has been released for general availability in
       several Regions.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/codeguru/latest/reviewer-api/index.html
     baseURL: https://example.com
     tags:
@@ -2046,7 +2046,7 @@ apis:
       public and CodeArtifact repositories. Additionally, CodeArtifact enables
       the creation of upstream relationships between repositories, effectively
       combining their contents for package manager clients.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/codeartifact/
     baseURL: https://example.com
     tags:
@@ -2093,7 +2093,7 @@ apis:
       records Amazon Web Services API calls and stores log files in an Amazon S3
       bucket. The recorded information includes user identity, API call start
       time, source IP address, request parameters, and response elements. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/cloudtrail/
     baseURL: https://example.com
     tags:
@@ -2128,7 +2128,7 @@ apis:
       ECS, AWS Lambda, and on-premises servers. By utilizing CodeDeploy, you can
       streamline software deployments, reducing the risk of errors associated
       with manual operations.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/codedeploy/
     baseURL: https://example.com
     tags:
@@ -2166,7 +2166,7 @@ apis:
       CodeGuru Security’s policies, which are informed by years of Amazon.com
       and AWS security best practices, help you to create and deploy secure,
       high-quality applications.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/codeguru/latest/security-api/index.html
     baseURL: https://example.com
     tags:
@@ -2205,7 +2205,7 @@ apis:
       Securely host highly scalable private Git repositories and collaborate on
       code. AWS CodeCommit is a secure, highly scalable, fully managed source
       control service that hosts private Git repositories.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/codecommit/
     baseURL: https://example.com
     tags:
@@ -2244,7 +2244,7 @@ apis:
       With various visualization tools, the API allows you to track CPU usage,
       identify time-consuming code segments, and offers actionable insights to
       minimize CPU consumption.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/codeguru/latest/profiler-api/index.html
     baseURL: https://example.com
     tags:
@@ -2304,7 +2304,7 @@ apis:
       delivery service that simplifies the automation of release pipelines,
       facilitating swift and dependable updates to both applications and
       infrastructure.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/codepipeline/
     baseURL: https://example.com
     tags:
@@ -2335,7 +2335,7 @@ apis:
       The AWS CodeStar Notifications API Reference offers detailed explanations
       and practical examples on using the various operations and data types
       within the AWS CodeStar Notifications API.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/codestar-notifications/latest/APIReference/Welcome.html
     baseURL: https://example.com
@@ -2372,7 +2372,7 @@ apis:
       configurations used to connect AWS resources to external code
       repositories, allowing services like CodePipeline to trigger actions based
       on changes in third-party code repositories.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/codeconnections/latest/APIReference/Welcome.html
     baseURL: https://example.com
@@ -2398,7 +2398,7 @@ apis:
       your app, the user pool functions as an OpenID Connect (OIDC) identity
       provider, offering enhanced security features, identity federation
       capabilities, seamless app integration, and customizable user experiences.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-identity-pools.html
     baseURL: https://example.com
@@ -2425,7 +2425,7 @@ apis:
       client libraries available for iOS and Android, developers can easily
       persist data locally for offline access without the need to store
       credentials on the device. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-sync.html
     baseURL: https://example.com
@@ -2470,7 +2470,7 @@ apis:
       valuable insights from their documents. It should be noted, however, that
       this API only detects entities in English language texts and imposes size
       limits on files for various API operations.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/comprehend/medical/
     baseURL: https://example.com
     tags:
@@ -2504,7 +2504,7 @@ apis:
       temporary credentials for mobile devices and other untrusted environments.
       It offers consistent identity management for users throughout the lifespan
       of an application. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/cognitoidentity/latest/APIReference/Welcome.html
     baseURL: https://example.com
@@ -2530,7 +2530,7 @@ apis:
       at any scale. It provides metrics and real-time reporting for optimizing
       contact routing and efficiently resolving customer issues by connecting
       them with the appropriate agents. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/connect/
     baseURL: https://example.com
     tags:
@@ -2688,7 +2688,7 @@ apis:
       With Config, you can easily access current and historical configurations
       for resources such as Amazon EC2 instances, EBS volumes, ENIs, and
       security groups.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/config/
     baseURL: https://example.com
     tags:
@@ -2727,7 +2727,7 @@ apis:
       includes sentiment analysis, issue detection, and automatic contact
       categorization. This tool provides real-time and post-call analytics for
       customer-agent interactions.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/connect/contact-lens/
     baseURL: https://example.com
     tags:
@@ -2767,7 +2767,7 @@ apis:
       Scaling groups, Lambda functions, EBS volumes, and ECS services on
       Fargate. It provides optimization recommendations to enhance performance
       and reduce costs, based on current and projected utilization data.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/compute-optimizer/
     baseURL: https://example.com
     tags:
@@ -2797,7 +2797,7 @@ apis:
       Amazon Comprehend is an AI-powered service from Amazon Web Services that
       provides deep analysis of document content. It allows users to extract
       topics, sentiment, language, and other insights from their documents.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/comprehend/
     baseURL: https://example.com
     tags:
@@ -2833,7 +2833,7 @@ apis:
       filtering, aggregation, and quantification of cost savings for your
       optimization recommendations across various Amazon Web Services Regions
       and accounts within your organization. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/aws-cost-management/cost-optimization-hub/
     baseURL: https://example.com
     tags:
@@ -2861,7 +2861,7 @@ apis:
       journey.  AWS Control Tower orchestrates multiple AWS services on your
       behalf while maintaining the security and compliance needs of your new or
       existing organization.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/controltower/
     baseURL: https://example.com
     tags:
@@ -2908,7 +2908,7 @@ apis:
       targets and resolves data issues that are difficult to identify and
       time-consuming to address, making data preparation more efficient and
       accessible. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/glue/features/databrew/
     baseURL: https://example.com
     tags:
@@ -2955,7 +2955,7 @@ apis:
       and ERP systems with contact history from your Amazon Connect contact
       center. If you are a new user, the Amazon Connect Administrator Guide can
       assist you in familiarizing yourself with the platform.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/connect/customer-profiles/
     baseURL: https://example.com
     tags:
@@ -3013,7 +3013,7 @@ apis:
       Cost and Usage Report definitions programmatically. This API allows you to
       create, query, and delete Cost and Usage Report definitions, which track
       monthly costs and usage associated with your Amazon Web Services account.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/
     baseURL: https://example.com
     tags:
@@ -3041,7 +3041,7 @@ apis:
     description: >
       AWS DataSync is a secure, online service that automates and accelerates
       moving data between on premises and AWS Storage services.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/datasync/
     baseURL: https://example.com
     tags:
@@ -3079,7 +3079,7 @@ apis:
       accounts and regions. With Amazon DataZone, you can seamlessly integrate
       with various Amazon Web Services offerings such as Redshift, Athena, Glue,
       and Lake Formation to enhance your data management capabilities.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/datazone/
     baseURL: https://example.com
     tags:
@@ -3157,7 +3157,7 @@ apis:
       AWS Data Exchange is a service that makes it easy for AWS customers to
       exchange data in the cloud. You can use the AWS Data Exchange APIs to
       create, update, manage, and access file-based data set in the AWS Cloud. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/data-exchange/
     baseURL: https://example.com
     tags:
@@ -3198,7 +3198,7 @@ apis:
       pipeline. AWS Data Pipeline handles the details of scheduling and ensuring
       that data dependencies are met so that your application can focus on
       processing the data. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/data-pipeline/
     baseURL: https://example.com
     tags:
@@ -3225,7 +3225,7 @@ apis:
       testing services: desktop browser testing and real mobile device testing.
       Use Device Farm to test your web applications on desktop browsers with
       Selenium through the TestGrid-named APIs. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/device-farm/
     baseURL: https://example.com
     tags:
@@ -3255,7 +3255,7 @@ apis:
       Direct Connect allows you to establish a high-speed, private connection
       between your internal network and an Direct Connect location using a
       standard Ethernet fiber-optic cable. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/directconnect/
     baseURL: https://example.com
     tags:
@@ -3290,7 +3290,7 @@ apis:
       prebuilt data aggregations, summaries, and context provided by Amazon
       Detective, users can quickly assess and understand potential security
       threats.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/detective/
     baseURL: https://example.com
     tags:
@@ -3351,7 +3351,7 @@ apis:
       lifecycle policies, which are used to automate operations on the specified
       resources. Amazon Data Lifecycle Manager supports Amazon EBS volumes and
       snapshots.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/ebs/latest/userguide/snapshot-lifecycle.html
     baseURL: https://example.com
     tags:
@@ -3380,7 +3380,7 @@ apis:
       Web Services resources they want DevOps Guru to monitor, allowing the
       service to analyze CloudWatch metrics and CloudTrail events related to
       those resources. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/devops-guru/
     baseURL: https://example.com
     tags:
@@ -3442,7 +3442,7 @@ apis:
       frequently accessed data from DynamoDB, allowing applications to retrieve
       that data with extremely low latency. Setting up a DAX cluster is a
       straightforward process through the AWS Management Console. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/dynamodbaccelerator/
     baseURL: https://example.com
     tags:
@@ -3465,7 +3465,7 @@ apis:
       The Amazon Web Services Application Discovery Service helps users plan
       application migration projects by automatically identifying servers,
       virtual machines, and network dependencies in on-premises data centers. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/application-discovery/
     baseURL: https://example.com
     tags:
@@ -3499,7 +3499,7 @@ apis:
       users easily establish and manage directories in the Amazon Web Services
       cloud. It also allows users to connect their Amazon Web Services resources
       to an existing Microsoft Active Directory that they manage themselves. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/directoryservice/
     baseURL: https://example.com
     tags:
@@ -3531,7 +3531,7 @@ apis:
       cloud-based applications. It utilizes cost-effective storage, minimal
       computing resources, and offers point-in-time recovery for optimal
       efficiency.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/disaster-recovery/
     baseURL: https://example.com
     tags:
@@ -3596,7 +3596,7 @@ apis:
       databases, including Oracle, PostgreSQL, Microsoft SQL Server, Amazon
       Redshift, MariaDB, Amazon Aurora, MySQL, and SAP Adaptive Server
       Enterprise (ASE). 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/dms/
     baseURL: https://example.com
     tags:
@@ -3633,7 +3633,7 @@ apis:
       create Amazon EBS snapshots, write data directly to your snapshots, read
       data on your snapshots, and identify differences or changes between two
       snapshots. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/ebs/
     baseURL: https://example.com
     tags:
@@ -3678,7 +3678,7 @@ apis:
       making it easy to set up, operate, and scale databases. With Amazon
       DocumentDB, you can seamlessly run your existing application code and
       access the same drivers and tools you currently use with MongoDB.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/documentdb/
     baseURL: https://example.com
     tags:
@@ -3714,7 +3714,7 @@ apis:
       volumes of reads/writes per second and store petabytes of data. These
       clusters make it easier for developers to work with Amazon DocumentDB by
       removing the need to select, oversee, or update instances.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/documentdb/latest/developerguide/docdb-using-elastic-clusters.html
     baseURL: https://example.com
@@ -3744,7 +3744,7 @@ apis:
       Amazon EC2 Instance Connect allows system administrators to generate and
       share one-time use SSH public keys on EC2, offering users a convenient and
       reliable method to access their instances securely.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-linux-inst-eic.html
     baseURL: https://example.com
@@ -3773,7 +3773,7 @@ apis:
       DynamoDB, you only pay for the resources you use, and the database can
       scale down to zero, eliminating cold starts, version upgrades, maintenance
       windows, patching, and downtime. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/dynamodb/
     baseURL: https://example.com
     tags:
@@ -3822,7 +3822,7 @@ apis:
       the most cost-effective inference instances in the cloud. AWS has the
       largest number of SAP, high performance computing (HPC), ML, and Windows
       workloads compared to any other cloud provider.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/ec2/
     baseURL: https://example.com
     tags:
@@ -3865,7 +3865,7 @@ apis:
       Services. With Amazon EKS, users can easily deploy, scale, and manage
       containerized applications without the need to set up or maintain their
       own Kubernetes control plane. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/eks/
     baseURL: https://example.com
     tags:
@@ -3940,7 +3940,7 @@ apis:
       preferred client. Amazon ECR supports private repositories with
       resource-based permissions using IAM, allowing specific users or Amazon
       EC2 instances to access repositories and images. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/ecr/
     baseURL: https://example.com
     tags:
@@ -3986,7 +3986,7 @@ apis:
       needs. By using Amazon ECS, you can simplify cluster management,
       configuration, and scalability, eliminating the need for your own cluster
       and configuration management systems.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/ecs/
     baseURL: https://example.com
     tags:
@@ -4029,7 +4029,7 @@ apis:
       users with increased visibility into the important performance metrics of
       their cache and the ability to receive alerts if any parts of their cache
       become overloaded.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/elasticache/
     baseURL: https://example.com
     tags:
@@ -4069,7 +4069,7 @@ apis:
       public repositories within Amazon ECR, while private repository
       functionality can be found in the Amazon Elastic Container Registry API
       Reference.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/AmazonECR/latest/public/what-is-ecr.html
     baseURL: https://example.com
     tags:
@@ -4098,7 +4098,7 @@ apis:
       storage capacity dynamically adjusts to accommodate your changing file
       needs, ensuring your applications always have the necessary storage
       resources available. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/efs/
     baseURL: https://example.com
     tags:
@@ -4154,7 +4154,7 @@ apis:
       traffic across your EC2 instances, increasing the availability of your
       application. The load balancer monitors the health of registered instances
       and ensures that traffic is only routed to healthy instances. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/elasticloadbalancing/
     baseURL: https://example.com
     tags:
@@ -4198,7 +4198,7 @@ apis:
     description: >-
       AWS Elastic Beanstalk makes it easy to develop, deploy, and maintain
       resilient and scalable applications in the Amazon Web Services cloud.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/elasticbeanstalk/
     baseURL: https://example.com
     tags:
@@ -4235,7 +4235,7 @@ apis:
       allows for seamless execution of tasks like web indexing, data mining, log
       file analysis, machine learning, scientific simulation, and data warehouse
       management.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/emr/
     baseURL: https://example.com
     tags:
@@ -4279,7 +4279,7 @@ apis:
       it is used for CLI commands, IAM policy actions, and service endpoints
       related to Amazon EMR on EKS. For more information about Amazon EMR on EKS
       concepts and tasks, please refer to the documentation.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/emr-eks.html
     baseURL: https://example.com
@@ -4320,7 +4320,7 @@ apis:
       developers and businesses to convert (or “transcode”) media files from
       their source format into versions that will playback on devices like
       smartphones, tablets and PCs.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/elastictranscoder/
     baseURL: https://example.com
     tags:
@@ -4351,7 +4351,7 @@ apis:
       the Amazon SES Developer Guide in conjunction with this document. The
       Amazon SES Developer Guide also includes a list of Amazon SES endpoints
       for service requests. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/ses/
     baseURL: https://example.com
     tags:
@@ -4387,7 +4387,7 @@ apis:
       that offers a serverless runtime environment for running analytics
       applications with popular open source frameworks like Apache Spark and
       Apache Hive. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/emr-serverless.html
     baseURL: https://emr-serverless.[region].amazonaws.com
@@ -4421,7 +4421,7 @@ apis:
       the Amazon Elasticsearch Service Developer Guide for sample code
       showcasing the Configuration API in action, as well as instructions for
       sending signed HTTP requests to Elasticsearch APIs.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/opensearch-service/latest/developerguide/createupdatedomains.html
     baseURL: https://es.[region].amazonaws.com
@@ -4489,7 +4489,7 @@ apis:
       customer has to a particular product, such as user seats in an SaaS
       application or data capacity in a database. The GetEntitlements function
       retrieves entitlement records for a Marketplace product.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/marketplace/latest/userguide/checking-entitlements.html
     baseURL: https://example.com
@@ -4514,7 +4514,7 @@ apis:
       within source records. By utilizing Entity Resolution, developers and
       analysts in the advertising and marketing industries can effortlessly
       create a comprehensive and accurate view of their customers.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/entity-resolution/
     baseURL: https://example.com
     tags:
@@ -4570,7 +4570,7 @@ apis:
       schedule actions to be performed at specific intervals. For example, you
       can automate tasks such as updating DNS entries, analyzing API records for
       security risks, or creating snapshots of EBS volumes. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/eventbridge/
     baseURL: https://example.com
     tags:
@@ -4610,7 +4610,7 @@ apis:
       Amazon S3, Amazon OpenSearch Service, Amazon Redshift, Splunk, and more.
       This fully managed service streamlines the process of transmitting data
       effectively and efficiently.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/firehose/
     baseURL: https://example.com
     tags:
@@ -4646,7 +4646,7 @@ apis:
       features to a percentage of your user base before full deployment.
       Monitoring the performance of these new features allows you to make
       informed decisions on when to increase user traffic. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Evidently.html
     baseURL: https://example.com
@@ -4691,7 +4691,7 @@ apis:
     description: >-
       Amazon Forecast, is a powerful tool designed for businesses looking to
       analyze and predict time-series data using machine learning.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/forecast/
     baseURL: https://example.com
     tags:
@@ -4729,7 +4729,7 @@ apis:
       controlled fault injection tests across various AWS services, FIS empowers
       teams to increase their confidence in the reliability of their
       applications.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/fis/
     baseURL: https://example.com
     tags:
@@ -4775,7 +4775,7 @@ apis:
       detection model. Start detecting fraud immediately, easily enhance models
       with customized business rules, and deploy results to generate critical
       predictions.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/fraud-detector/
     baseURL: https://example.com
     tags:
@@ -4810,7 +4810,7 @@ apis:
       actions, data types, and errors associated with the Firewall Manager API.
       For a more detailed overview of Firewall Manager features, please refer to
       the Firewall Manager Developer Guide. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/firewall-manager/
     baseURL: https://example.com
     tags:
@@ -4845,7 +4845,7 @@ apis:
       Amazon Web Services' robust global computing network, GameLift ensures
       top-tier performance, reliability, and cost-efficiency for your game
       servers.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/gamelift/
     baseURL: https://example.com
     tags:
@@ -4882,7 +4882,7 @@ apis:
       both local and global users. This API Reference provides detailed
       information on Global Accelerator API actions, data types, and errors,
       catering to developers looking to leverage Global Accelerator features.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/global-accelerator/
     baseURL: https://example.com
     tags:
@@ -4918,7 +4918,7 @@ apis:
       applications requiring fast or frequent access to data, Amazon S3 is
       recommended. Users can store data in any format without limits on the
       total amount of data stored in Glacier. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/s3/storage-classes/glacier/
     baseURL: https://example.com
     tags:
@@ -4967,7 +4967,7 @@ apis:
       Markets with our API, which offers Managed kdb Insights. Take advantage of
       our free AWS training to enhance your skills and advance your career with
       AWS Cloud Practitioner Essentials. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/finspace/
     baseURL: https://example.com
     tags:
@@ -5021,7 +5021,7 @@ apis:
       FSx supports a variety of workloads. Leveraging the latest AWS
       technologies in compute, networking, and disk storage, Amazon FSx delivers
       high performance at a lower total cost of ownership.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/fsx/
     baseURL: https://example.com
     tags:
@@ -5055,7 +5055,7 @@ apis:
       and analyze data closer to the source of information, react autonomously
       to local events, and communicate securely with each other on local
       networks. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/greengrass/
     baseURL: https://example.com
     tags:
@@ -5122,7 +5122,7 @@ apis:
       your data is prepared for quality results. AWS Glue is a serverless data
       integration service that streamlines and simplifies the data preparation
       process, making it faster and more cost-effective. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/glue/
     baseURL: https://example.com
     tags:
@@ -5162,7 +5162,7 @@ apis:
       isolated Grafana servers, called workspaces, where they can design
       dashboards and visualizations to analyze their data without the need for
       hardware deployment.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/grafana/
     baseURL: https://example.com
     tags:
@@ -5209,7 +5209,7 @@ apis:
       analyzes various data sources within your Amazon Web Services environment,
       such as VPC flow logs, CloudTrail event logs, EKS audit logs, DNS logs,
       and more. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/guardduty/
     baseURL: https://example.com
     tags:
@@ -5295,7 +5295,7 @@ apis:
       respond quickly to local events even with intermittent connectivity,
       minimizing the cost of transmitting data to the cloud by enabling the
       execution of AWS Lambda functions locally.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/greengrass/
     baseURL: https://example.com
     tags:
@@ -5374,7 +5374,7 @@ apis:
       comprehensive view of individual and patient population health data. This
       HIPAA-eligible service utilizes FHIR API transactions to securely store
       and transform data into a queryable format at a large scale.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/healthlake/
     baseURL: https://example.com
     tags:
@@ -5410,7 +5410,7 @@ apis:
       IAM is a trusted web service that enables secure access control for Amazon
       Web Services. It offers centralized management of users, access keys, and
       permissions to regulate access to AWS resources. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iam/
     baseURL: https://example.com
     tags:
@@ -5445,7 +5445,7 @@ apis:
       communications, downlink and process satellite data, and scale your
       satellite operations efficiently and cost-effectively without having to
       build or manage your own ground station infrastructure.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/ground-station/
     baseURL: https://example.com
     tags:
@@ -5505,7 +5505,7 @@ apis:
       User Guide, which outlines the available identity store operations that
       can be accessed programmatically. The API utilizes the sso and
       identitystore namespaces for seamless integration with your systems.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/singlesignon/latest/IdentityStoreAPIReference/welcome.html
     baseURL: https://example.com
@@ -5531,7 +5531,7 @@ apis:
       distribution of personalized, secure, and current server images which are
       pre-loaded and pre-configured with software and settings according to
       required IT guidelines.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/image-builder/
     baseURL: https://example.com
     tags:
@@ -5586,7 +5586,7 @@ apis:
       The Amazon Inspector API effortlessly identifies workloads, such as Amazon
       EC2 instances, containers, and Lambda functions, and conducts thorough
       scans to detect software vulnerabilities and unintentional network risks.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/inspector/
     baseURL: https://example.com
     tags:
@@ -5622,7 +5622,7 @@ apis:
       The Health API grants access to Health information displayed in the Health
       Dashboard. Users can utilize API operations to retrieve data on events
       that may impact their Amazon Web Services and resources. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/health/
     baseURL: https://example.com
     tags:
@@ -5664,7 +5664,7 @@ apis:
       IoT-Data endpoints, set up data processing rules, integrate with other
       services, manage device resources, configure logging, and create
       authentication policies and credentials. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iot/
     baseURL: https://example.com
     tags:
@@ -5825,7 +5825,7 @@ apis:
       remote operations to be executed on devices connected to AWS IoT. These
       operations can include tasks such as downloading updates, installing
       firmware, rebooting devices, rotating certificates, and troubleshooting. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/iot/latest/developerguide/iot-jobs.html
     baseURL: https://example.com
     tags:
@@ -5852,7 +5852,7 @@ apis:
       issues impact the performance and availability between your applications
       hosted on Amazon Web Services and your end users. It can reduce the time
       it takes for you to diagnose internet issues from days to minutes. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-InternetMonitor.html
     baseURL: https://example.com
@@ -5888,7 +5888,7 @@ apis:
       API allows users to easily query and run sophisticated analytics on IoT
       data, enabling advanced exploration and visualization through integration
       with Jupyter Notebooks and Amazon QuickSight. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iot-analytics/
     baseURL: https://example.com
     tags:
@@ -5940,7 +5940,7 @@ apis:
       service designed to verify the functionality and security of IoT devices
       before deployment. It offers a range of pre-built tests to ensure reliable
       connectivity with Amazon Web Services IoT Core. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iot-core/device-advisor/
     baseURL: https://example.com
     tags:
@@ -5980,7 +5980,7 @@ apis:
       This API allows AWS IoT 1-Click devices to easily and securely connect to
       AWS IoT Core upon deployment, eliminating the need for manual certificate
       management.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iot-1-click/
     baseURL: https://example.com
     tags:
@@ -6023,7 +6023,7 @@ apis:
       operation and take appropriate actions. With IoT Events Data API, you can
       interact with detectors by sending inputs, listing detectors, and
       accessing or modifying their status. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iot-events/
     baseURL: https://example.com
     tags:
@@ -6071,7 +6071,7 @@ apis:
       scale. Seamlessly integrate with AWS IoT Core for cloud device
       connectivity and management, as well as with AWS IoT Device Defender for
       auditing and monitoring the security posture of your fleet.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iot-device-management/
     baseURL: https://example.com
     tags:
@@ -6106,7 +6106,7 @@ apis:
       Internet-connected devices and the Amazon Web Services cloud. It acts as a
       broker for devices to publish messages via HTTP and manage shadows,
       persistent representations of the device state in the AWS cloud. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/iot/latest/apireference/API_Operations_AWS_IoT_Data_Plane.html
     baseURL: https://example.com
@@ -6139,7 +6139,7 @@ apis:
       devices come pre-provisioned with certificates during manufacturing,
       eliminating the need for writing firmware or device-specific code to
       utilize them.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iot-1-click/devices/
     baseURL: https://example.com
     tags:
@@ -6178,7 +6178,7 @@ apis:
       for devices situated behind restricted firewalls at remote sites. With IoT
       Secure Tunneling, users can troubleshoot, perform configuration updates,
       and execute other operational tasks on these devices. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/iot/latest/developerguide/secure-tunneling.html
     baseURL: https://example.com
@@ -6204,7 +6204,7 @@ apis:
       fully managed service allows users to standardize data models, regardless
       of communication systems in use, and set up rules for transferring only
       essential data to the cloud.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iot-fleetwise/
     baseURL: https://example.com
     tags:
@@ -6241,7 +6241,7 @@ apis:
       Reference. API Request Parameters and URLs are case-sensitive. For a
       detailed account of documentation changes in each release, please refer to
       the Document History section.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/ivs/
     baseURL: https://example.com
     tags:
@@ -6295,7 +6295,7 @@ apis:
       actions in response to these events. The API provides operations to manage
       inputs and detector models, including creating, reading, updating, and
       deleting them, as well as listing their versions.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iot-events/
     baseURL: https://example.com
     tags:
@@ -6340,7 +6340,7 @@ apis:
       Industrial Internet of Things (IIoT) devices to the Amazon Web Services
       Cloud. Dive into the IoT SiteWise User Guide for further details and
       resources.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iot-sitewise/
     baseURL: https://example.com
     tags:
@@ -6421,7 +6421,7 @@ apis:
       visualizations to effectively monitor the performance of their factories,
       buildings, or industrial plants. This real-time data can be utilized for
       operational monitoring, error detection, and troubleshooting purposes.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iot-twinmaker/
     baseURL: https://example.com
     tags:
@@ -6480,7 +6480,7 @@ apis:
       Messaging API for real-time chat room interactions. This regional AWS
       service includes resources such as LoggingConfiguration and Room, which
       can be tagged for organization and access management.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/ivs/features/chat/
     baseURL: https://example.com
     tags:
@@ -6514,7 +6514,7 @@ apis:
       Amazon Managed Streaming for Apache Kafka (Amazon MSK) simplifies the
       process of ingesting and processing real-time streaming data by offering a
       fully managed Apache Kafka service.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/msk/
     baseURL: https://example.com
     tags:
@@ -6579,7 +6579,7 @@ apis:
       Amazon Kendra is a sophisticated enterprise search tool that simplifies
       the process of searching through multiple content repositories by
       providing pre-installed connectors.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/kendra/
     baseURL: https://example.com
     tags:
@@ -6617,7 +6617,7 @@ apis:
       clicks on the Amazon Web Services Management Console or through a few
       lines of code, without the need to set up any infrastructure or install
       software. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/keyspaces/
     baseURL: https://example.com
     tags:
@@ -6657,7 +6657,7 @@ apis:
       internet-connected wireless devices and the AWS Cloud. It supports
       onboarding of LoRaWAN and Sidewalk devices, which use the Low Power Wide
       Area Networking (LPWAN) protocol to communicate with AWS IoT. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/iot-wireless/
     baseURL: https://example.com
     tags:
@@ -6720,7 +6720,7 @@ apis:
       Amazon Kendra Intelligent Ranking leverages the advanced semantic search
       capabilities of Amazon Kendra to intelligently re-prioritize the search
       results provided by a search service.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/kendra/latest/dg/intelligent-rerank.html
     baseURL: https://example.com
     tags:
@@ -6748,7 +6748,7 @@ apis:
       "What is AWS Lambda" for a service overview and "AWS Lambda How it Works"
       in the AWS Lambda Developer Guide for detailed information on how the
       service functions.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/lambda/
     baseURL: https://example.com
     tags:
@@ -6815,7 +6815,7 @@ apis:
       The Amazon Kinesis Data Streams Service API Reference provides developers
       with access to a managed service that can dynamically scale for processing
       streaming big data in real-time.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/kinesis/data-streams/
     baseURL: https://example.com
     tags:
@@ -6853,7 +6853,7 @@ apis:
       KMS has replaced the term customer master key (CMK) with KMS key, but the
       concept remains the same. Amazon Web Services provides SDKs for various
       programming languages and platforms to create programmatic access to KMS. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://example.com
     baseURL: https://example.com
     tags:
@@ -6887,7 +6887,7 @@ apis:
       applications, including Microsoft SQL Server Always On and HANA based SAP
       systems. This streamlined approach eliminates the need for manual
       identification and provisioning of individual AWS resources.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/launchwizard/
     baseURL: https://example.com
     tags:
@@ -6913,7 +6913,7 @@ apis:
       Build voice and text conversational interfaces with Amazon Lex API for
       AWS. These actions will allow you to easily create, update, and delete
       chatbots for both new and existing client applications.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/lex/latest/dg/API_Operations.html
     baseURL: https://example.com
     tags:
@@ -6959,7 +6959,7 @@ apis:
       The License Manager API simplifies the management of software licenses for
       various vendors across numerous Amazon Web Services accounts and physical
       servers located on-premises.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/license-manager/
     baseURL: https://example.com
     tags:
@@ -6996,7 +6996,7 @@ apis:
       rate. With the ability to manage resources through the Lightsail console,
       API, CLI, and SDKs, developers can easily launch and maintain their
       projects.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/lightsail/
     baseURL: https://example.com
     tags:
@@ -7033,7 +7033,7 @@ apis:
       Amazon Lookout for Equipment is a machine learning service that uses
       advanced analytics to identify anomalies in machines from sensor data for
       use in predictive maintenance.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/lookout-for-equipment/
     baseURL: https://example.com
     tags:
@@ -7066,7 +7066,7 @@ apis:
     description: >-
       The AWS Lake Formation API streamlines data permissions management and
       facilitates seamless sharing within and outside your organization.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/lake-formation/
     baseURL: https://example.com
     tags:
@@ -7146,7 +7146,7 @@ apis:
       instances, CloudTrail, and other sources using Amazon CloudWatch Logs. You
       can retrieve log data through the CloudWatch console, AWS CLI, API, or
       SDK. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html
     baseURL: https://example.com
@@ -7171,7 +7171,7 @@ apis:
       Amazon Lookout for Metrics, leverages machine learning technology to
       identify and explain abnormal patterns in business and operational
       datasets.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/lookout-for-metrics/
     baseURL: https://example.com
     tags:
@@ -7232,7 +7232,7 @@ apis:
       and even tiny imperfections in items like silicon wafers or printed
       circuit boards. Lookout for Vision is a powerful tool for ensuring quality
       in production processes.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/lookout-for-vision/
     baseURL: https://example.com
     tags:
@@ -7284,7 +7284,7 @@ apis:
       and deployment resources. Trusted by over 100,000 customers, from major
       corporations to new businesses, AWS machine learning services are used to
       tackle business challenges and foster innovation. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/ai/machine-learning/
     baseURL: https://example.com
     tags:
@@ -7318,7 +7318,7 @@ apis:
       protect your sensitive data in AWS. Macie automates the discovery of
       sensitive data, such as PII and intellectual property, to provide you with
       insight into the data that your organization stores in AWS. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/macie/
     baseURL: https://example.com
     tags:
@@ -7406,7 +7406,7 @@ apis:
       current mainframe applications, creating or enhancing applications with
       COBOL or PL/I, and setting up a streamlined automated process for
       continuous integration and delivery of the applications.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/mainframe-modernization/
     baseURL: https://example.com
     tags:
@@ -7461,7 +7461,7 @@ apis:
       functionality, such as maps, points of interest, geocoding, routing,
       tracking, and geofencing, to their applications without sacrificing data
       security and user privacy.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/location/
     baseURL: https://example.com
     tags:
@@ -7539,7 +7539,7 @@ apis:
       functionality for listing, describing, and updating them. By integrating
       the AWS Marketplace Catalog API with product build or deployment
       pipelines, users can streamline the process of updating entities. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/marketplace-catalog/latest/api-reference/welcome.html
     baseURL: https://example.com
@@ -7577,7 +7577,7 @@ apis:
       time frame. Users can also retrieve specific transaction details,
       including transaction events, which can be further analyzed or
       incorporated into business logic for various applications.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/managed-blockchain/
     baseURL: https://example.com
     tags:
@@ -7618,7 +7618,7 @@ apis:
       Marketplace Deployment Service provides sellers with a secure method for
       passing deployment parameters (for example, API keys and external IDs) to
       buyers during the Quick Launch experience.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/marketplace-deployment/latest/api-reference/welcome.html
     baseURL: https://example.com
@@ -7650,7 +7650,7 @@ apis:
       that combines the reliability and security of satellite and fiber-optic
       technology with the flexibility, agility, and cost-effectiveness of
       IP-based networks.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/mediaconnect/
     baseURL: https://example.com
     tags:
@@ -7707,7 +7707,7 @@ apis:
       AWS Elemental MediaConvert is a high-quality video transcoding service
       designed for creating live stream content for broadcast and multi-screen
       delivery on a large scale.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/mediaconvert/
     baseURL: https://example.com
     tags:
@@ -7752,7 +7752,7 @@ apis:
       AWS Elemental MediaLive is a professional live video processing service
       designed to produce high-quality streams for distribution to both
       broadcast televisions and internet-connected devices.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/medialive/
     baseURL: https://example.com
     tags:
@@ -7820,7 +7820,7 @@ apis:
       properly configured. Users must have the necessary permissions to carry
       out actions such as describing agreements, getting agreement terms, and
       searching through all agreements.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/marketplace-agreements/latest/api-reference/welcome.html
     baseURL: https://example.com
@@ -7845,7 +7845,7 @@ apis:
       storage specifically tailored for media content, offering reliable
       consistency and minimal latency to support the seamless delivery of live
       streaming video content.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/mediastore/
     baseURL: https://example.com
     tags:
@@ -7878,7 +7878,7 @@ apis:
       product and customer data from AWS Marketplace through a programmable
       interface. Upon signing up for the service, you can retrieve usage,
       subscription, and billing reports using the AWS SDK.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/marketplace/latest/userguide/commerce-analytics-service.html
     baseURL: https://example.com
@@ -7904,7 +7904,7 @@ apis:
       The AWS Marketplace Metering Service API allows AWS Marketplace sellers to
       submit usage data for custom usage dimensions. This reference provides
       detailed descriptions of the low-level API functions available for use.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/marketplace/
     baseURL: https://example.com
     tags:
@@ -7932,7 +7932,7 @@ apis:
       processes that are time-consuming and prone to errors. It also offers
       convenient optimization options for modernizing your applications, both
       through pre-built configurations and custom settings.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/application-migration-service/
     baseURL: https://example.com
     tags:
@@ -8011,7 +8011,7 @@ apis:
       standards. It is specifically built to help healthcare providers and their
       medical imaging ISV partners effectively store, manipulate, and utilize
       machine learning techniques on medical images.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://example.com
     baseURL: https://example.com
     tags:
@@ -8057,7 +8057,7 @@ apis:
       the AWS ecosystem. By leveraging Refactor Spaces, users can seamlessly
       transition from monolithic to microservices architecture, minimizing the
       manual effort involved in setting up and managing AWS infrastructure. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/migrationhub-refactor-spaces/latest/userguide/what-is-mhub-refactor-spaces.html
     baseURL: https://example.com
@@ -8093,7 +8093,7 @@ apis:
       stores the entire database in-memory for low latency and high throughput
       access. Compatible with Redis, it supports Redis' data structures, APIs,
       and commands.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/memorydb/
     baseURL: https://example.com
     tags:
@@ -8128,7 +8128,7 @@ apis:
       Additionally, Migration Hub delivers essential metrics and progress
       updates for specific applications, regardless of the tools employed for
       their migration.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/migrationhub/
     baseURL: https://example.com
     tags:
@@ -8171,7 +8171,7 @@ apis:
       topic for each action shows the API request parameters and the response.
       Alternatively, you can use one of the AWS SDKs to access an API that is
       tailored to the programming language or platform that you're using.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/migrationhub-orchestrator/latest/userguide/what-is-migrationhub-orchestrator.html
     baseURL: https://example.com
@@ -8216,7 +8216,7 @@ apis:
       by leveraging their existing video content. With this service, users can
       seamlessly monetize their channels and live streams through personalized
       ad insertion, enhancing the overall viewing experience for audiences.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/mediatailor/
     baseURL: https://example.com
     tags:
@@ -8271,7 +8271,7 @@ apis:
       allows companies to leverage a global workforce to streamline processes,
       improve data collection and analysis, and enhance machine learning
       projects.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.mturk.com/
     baseURL: https://example.com
     tags:
@@ -8309,7 +8309,7 @@ apis:
       alarms, automatically react to changes, and gain a unified view of
       operational health.
 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/cloudwatch/
     baseURL: https://example.com
     tags:
@@ -8343,7 +8343,7 @@ apis:
       Acyclic Graphs (DAGs) written in Python. Your DAGs, plugins, and Python
       requirements are stored in an Amazon Simple Storage Service (S3) bucket
       provided by you. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/managed-workflows-for-apache-airflow/
     baseURL: https://example.com
     tags:
@@ -8389,7 +8389,7 @@ apis:
       purpose-built, high-performance graph database engine optimized for
       storing billions of relationships and querying the graph with milliseconds
       latency.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/neptune/
     baseURL: https://example.com
     tags:
@@ -8427,7 +8427,7 @@ apis:
       brokers in the cloud. Message brokers enable communication between
       software applications and components, supporting multiple programming
       languages, operating systems, and messaging protocols.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/amazon-mq/
     baseURL: https://example.com
     tags:
@@ -8464,7 +8464,7 @@ apis:
       popular graph analytic algorithms through rapid queries, Neptune Analytics
       greatly accelerates the insights generation process, delivering analytics
       results within seconds.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/neptune-analytics/latest/userguide/what-is-neptune-analytics.html
     baseURL: https://example.com
@@ -8504,7 +8504,7 @@ apis:
       Studio. Nimble Studio is a cutting-edge virtual studio designed to support
       visual effects, animation, and interactive content teams, enabling them to
       create securely within a flexible, private cloud environment.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/nimble-studio/
     baseURL: https://example.com
     tags:
@@ -8563,7 +8563,7 @@ apis:
       within either the AWS network or your own company's network. With Network
       Monitor, users can select source VPCs and subnets from AWS and specify
       destination IP addresses from their own on-premises network. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://example.com
     baseURL: https://example.com
     tags:
@@ -8595,7 +8595,7 @@ apis:
       valuable insights from the data to enhance health outcomes. The platform
       also enables large-scale analysis and facilitates collaborative research
       efforts.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/healthomics/
     baseURL: https://example.com
     tags:
@@ -8669,7 +8669,7 @@ apis:
       can seamlessly search, visualize, and analyze metrics, logs, traces, and
       Application Insights applications from linked accounts without any account
       limitations. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/OAM/latest/APIReference/Welcome.html
     baseURL: https://example.com
     tags:
@@ -8699,7 +8699,7 @@ apis:
       Utilize AWS Network Firewall to establish customized firewall rules that
       offer precise management of network traffic and seamlessly implement
       firewall security measures across your VPCs.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://example.comhttps://aws.amazon.com/network-firewall/
     baseURL: https://example.com
     tags:
@@ -8736,7 +8736,7 @@ apis:
       Amazon OpenSearch Service. OpenSearch Serverless removes the operational
       complexities of provisioning, configuring, and tuning your OpenSearch
       clusters. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/opensearch-service/features/serverless/
     baseURL: https://example.com
     tags:
@@ -8778,7 +8778,7 @@ apis:
       analytics, real-time application monitoring, website search, and more.
       OpenSearch is an open source, distributed search and analytics suite
       derived from Elasticsearch. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/opensearch-service/
     baseURL: https://example.com
     tags:
@@ -8868,7 +8868,7 @@ apis:
       AWS accounts by providing a policy-based management system. This feature
       enables users to efficiently manage policies for groups of accounts and
       streamline the process of creating new accounts through automation.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/organizations/
     baseURL: https://example.com
     tags:
@@ -8904,7 +8904,7 @@ apis:
       OpsWorks, users can leverage Chef and Puppet to automate the setup,
       deployment, and maintenance of servers within Amazon EC2 instances or
       on-premises compute environments. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/opsworks/
     baseURL: https://example.com
     tags:
@@ -8930,7 +8930,7 @@ apis:
       collections. With OpenSearch Ingestion, there is no longer a need for
       third-party solutions like Logstash or Jaeger to ingest data into your
       OpenSearch Service domains and OpenSearch Serverless collections. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/opensearch-service/latest/developerguide/ingestion.html
     baseURL: https://example.com
@@ -8962,7 +8962,7 @@ apis:
       AWS Panorama is a set of machine learning (ML) tools and software
       development kit (SDK) that enables the integration of computer vision (CV)
       capabilities into on-site internet protocol (IP) cameras.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/panorama/
     baseURL: https://example.com
     tags:
@@ -9024,7 +9024,7 @@ apis:
       to manage encryption keys for payment-related cryptographic operations.
       With these APIs, you can create, import, export, share, manage, and delete
       keys, as well as manage Identity and Access Management (IAM) policies. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/payment-cryptography/
     baseURL: https://example.com
     tags:
@@ -9048,7 +9048,7 @@ apis:
       Directory that are signed by your own private CA. For further details,
       visit the Amazon Web Services Private CA Connector for Active Directory
       documentation.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/privateca/latest/userguide/connector-for-ad.html
     baseURL: https://example.com
@@ -9089,7 +9089,7 @@ apis:
       data can be used on its own or in combination with historical data. For
       further details, refer to the documentation on Recording item interaction
       events.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/personalize/latest/dg/API_Types_Amazon_Personalize_Events.html
     baseURL: https://example.com
@@ -9116,7 +9116,7 @@ apis:
       This API allows you to efficiently manage your Amazon Web Services Cloud
       WAN core network and Transit Gateway network across multiple AWS accounts,
       Regions, and on-premises locations.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/network-manager/latest/cloudwan/what-is-cloudwan.html
     baseURL: https://example.com
@@ -9189,7 +9189,7 @@ apis:
       capacity. With Outposts, customers can access AWS managed infrastructure
       locally, allowing for the development and operation of applications on
       premises with the same programming interfaces as in AWS Regions.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/outposts/
     baseURL: https://example.com
     tags:
@@ -9228,7 +9228,7 @@ apis:
       recommendations powered by machine learning into various platforms,
       including websites, applications, and email marketing systems, thereby
       facilitating your digital transformation.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/personalize/
     baseURL: https://example.com
     tags:
@@ -9263,7 +9263,7 @@ apis:
       messaging. This API enhances the functionality of the Amazon Pinpoint
       platform, enabling users to send personalized email campaigns and track
       performance metrics.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/pinpoint-email/latest/APIReference/Welcome.html
     baseURL: https://example.com
@@ -9324,7 +9324,7 @@ apis:
       access specialized features for sending SMS messages and making voice
       calls, expanding upon the functionalities available in the Amazon Pinpoint
       API.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/pinpoint-sms-voice/latest/APIReference/welcome.html
     baseURL: https://example.com
@@ -9351,7 +9351,7 @@ apis:
       eliminating the need for specialized knowledge and integration code. This
       tool ensures consistency across a company's applications by allowing any
       available EventBridge target to be used. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-pipes.html
     baseURL: https://example.com
     tags:
@@ -9380,7 +9380,7 @@ apis:
       and usage examples for the various actions and data types available within
       the Proton service. The API documentation includes Query API request
       parameters and XML responses for each action. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/proton/
     baseURL: https://example.com
     tags:
@@ -9417,7 +9417,7 @@ apis:
       pre-configured hardware and software, simplifies setup with automation,
       and allows for seamless scalability to accommodate more devices when
       necessary.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/private5g/
     baseURL: https://example.com
     tags:
@@ -9465,7 +9465,7 @@ apis:
       high-quality speech from plain text and Speech Synthesis Markup Language
       (SSML), along with managing pronunciations lexicons that enable you to get
       the best results for your application domain.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/polly/
     baseURL: https://example.com
     tags:
@@ -9506,7 +9506,7 @@ apis:
       customer satisfaction. Instead of having knowledge articles, wikis, and
       FAQs scattered across various repositories, Amazon Q in Connect integrates
       them into one platform. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/connect/q/
     baseURL: https://example.com
     tags:
@@ -9565,7 +9565,7 @@ apis:
       product information, business results, code base, employees, and many
       other topics—by connecting to enterprise data repositories to summarize
       the data logically, analyze trends, and engage in dialogue about the data.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/q/
     baseURL: https://example.com
     tags:
@@ -9626,7 +9626,7 @@ apis:
       CloudWatch serves as the source for monitoring metrics, while Performance
       Insights provides a specialized view of DB load, measured in average
       active sessions. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/rds/performance-insights/
     baseURL: https://example.com
     tags:
@@ -9656,7 +9656,7 @@ apis:
       information through programmatic queries. The API utilizes standardized
       product attributes like Location, Storage Class, and Operating System, and
       provides pricing at the SKU level. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/pricing/
     baseURL: https://example.com
     tags:
@@ -9681,7 +9681,7 @@ apis:
       transactions on a ledger. When working with an AWS SDK, it is advised to
       use the QLDB driver, which abstracts the data plane and manages
       SendCommand API calls.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/qldb/
     baseURL: https://example.com
     tags:
@@ -9718,7 +9718,7 @@ apis:
       ability to share resources with entire Organizations or specific
       organizational units. Additionally, supported resource types can be shared
       with individual IAM roles and users. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/ram/
     baseURL: https://example.com
     tags:
@@ -9795,7 +9795,7 @@ apis:
       (Serverless v2, Serverless v1, and provisioned) and Aurora MySQL
       (Serverless v1). Detailed instructions on utilizing the Data API can be
       found in the Amazon Aurora User Guide.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/rds/
     baseURL: https://example.com
     tags:
@@ -9839,7 +9839,7 @@ apis:
       integration, business analysts and users can quickly build, discover, and
       share valuable insights using natural language, ultimately making informed
       decisions faster.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/quicksight/
     baseURL: https://example.com
     tags:
@@ -9967,7 +9967,7 @@ apis:
       capacity, monitoring, backup, and applying patches and upgrades to the
       engine, allowing users to focus on leveraging their data for business
       insights.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/redshift/
     baseURL: https://example.com
     tags:
@@ -10009,7 +10009,7 @@ apis:
       documentation provides detailed descriptions and syntax for each action
       and data type within Recycle Bin. When you use Recycle Bin, any deleted
       resources are stored in the bin for a specified time period. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/recyclebin/latest/APIReference/Welcome.html
     baseURL: https://example.com
     tags:
@@ -10042,7 +10042,7 @@ apis:
       tables by running SQL statements. Successful statements will be committed.
       Refer to the Amazon Redshift Management Guide for further details on the
       Amazon Redshift Data API and CLI usage examples.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/redshift/
     baseURL: https://example.com
     tags:
@@ -10077,7 +10077,7 @@ apis:
       managing datasets and projects. Common parameters and errors are also
       documented to assist developers in integrating this API into their
       applications.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/rekognition/
     baseURL: https://example.com
     tags:
@@ -10112,7 +10112,7 @@ apis:
       delivering high performance and simplified operations. With Amazon
       Redshift Serverless, users can focus on utilizing their data to gain new
       insights for their business and customers.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/redshift/redshift-serverless/
     baseURL: https://example.com
     tags:
@@ -10152,7 +10152,7 @@ apis:
       comprehensive view of their resources across all indexed Regions in their
       account. For more information on enabling and configuring Resource
       Explorer, refer to the user guide provided by Amazon Web Services.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/resourceexplorer/
     baseURL: https://example.com
     tags:
@@ -10200,7 +10200,7 @@ apis:
       support tagging only through that service's native tagging operations, and
       don't yet support this API. See the documentation for an individual
       service for information about that service's native tagging operations.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/overview.html
     baseURL: https://example.com
@@ -10225,7 +10225,7 @@ apis:
       AWS RoboMaker is a cloud-based simulation service that enables robotics
       developers to run, scale, and automate simulation without managing any
       infrastructure.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/robomaker/
     baseURL: https://example.com
     tags:
@@ -10278,7 +10278,7 @@ apis:
       Support plans. This platform grants access to a wealth of knowledge and
       expert guidance, enabling organizations to expedite their transition to
       the cloud and enhance developer productivity.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/repost-private/
     baseURL: https://example.com
     tags:
@@ -10318,7 +10318,7 @@ apis:
       temporary AWS credentials. By leveraging IAM policies and roles, workloads
       can access AWS resources without the need for long-term credentials
       management. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iam/roles-anywhere/
     baseURL: https://example.com
     tags:
@@ -10356,7 +10356,7 @@ apis:
       Amazon Web Services resources, including instances from Amazon Elastic
       Compute Cloud, databases from Amazon Relational Database Service, and
       buckets from Amazon Simple Storage Service. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/ARG/latest/APIReference/Welcome.html
     baseURL: https://example.com
     tags:
@@ -10390,7 +10390,7 @@ apis:
       by redirecting traffic across different Availability Zones or Amazon Web
       Services Regions with high reliability. Routing controls act as simple
       on/off switches hosted on a highly available cluster within Route 53 ARC. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/r53recovery/latest/dg/routing-control.html
     baseURL: https://example.com
     tags:
@@ -10414,7 +10414,7 @@ apis:
       service that ensures high availability and scalability for connecting user
       requests to internet applications hosted on AWS or on-premises
       environments.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/route53/
     baseURL: https://example.com
     tags:
@@ -10515,7 +10515,7 @@ apis:
       you to monitor the readiness of your applications and resources for
       recovery and facilitates traffic redirection between AWS Regions or away
       from Availability Zones to support application disaster recovery efforts.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/amazonarc/
     baseURL: https://example.com
     tags:
@@ -10563,7 +10563,7 @@ apis:
       proactively identifies and mitigates weaknesses in your applications,
       ensures RTO and RPO targets are met, and resolves potential issues before
       deployment to production.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/resilience-hub/
     baseURL: https://example.com
     tags:
@@ -10616,7 +10616,7 @@ apis:
     description: >-
       The Amazon Route 53 API allows users to easily register domain names and
       carry out various related functions.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html
     baseURL: https://example.com
@@ -10641,7 +10641,7 @@ apis:
       efficiently resolving DNS queries across AWS, the internet, and
       on-premises networks. It also enables secure management of DNS within your
       Amazon Virtual Private Cloud (VPC).
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/route53/resolver/
     baseURL: https://example.com
     tags:
@@ -10672,7 +10672,7 @@ apis:
       operations. Your conversational bot utilizes the runtime API to interpret
       user input text or voice. For instance, if a user says "I want pizza," the
       bot sends this input to Amazon Lex via the runtime API. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/lex/
     baseURL: https://example.com
     tags:
@@ -10716,7 +10716,7 @@ apis:
       View this data in aggregated form or broken down by browsers and devices
       used by customers. Use this data to quickly pinpoint and resolve
       client-side performance issues.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-RUM.html
     baseURL: https://example.com
@@ -10755,7 +10755,7 @@ apis:
       Availability Zones. By streamlining the recovery process and reducing
       manual steps, this tool helps ensure that applications and resources are
       prepared for recovery. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/route53/application-recovery-controller/
     baseURL: https://example.com
     tags:
@@ -10792,7 +10792,7 @@ apis:
     description: >-
       Amazon Web Services S3 Control, allows users to perform control plane
       actions on Amazon S3.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/AmazonS3/latest/API/API_Types_AWS_S3_Control.html
     baseURL: https://example.com
@@ -10866,7 +10866,7 @@ apis:
       incorporating human judgment when necessary. Human reviewers can step in
       when an AI application is unable to assess data confidently, through a
       process known as a human review workflow. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/augmented-ai/
     baseURL: https://example.com
     tags:
@@ -10904,7 +10904,7 @@ apis:
       models at scale using various tools like notebooks, debuggers, profilers,
       pipelines, MLOps, and more within a single integrated development
       environment (IDE).
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/sagemaker/
     baseURL: https://example.com
     tags:
@@ -10942,7 +10942,7 @@ apis:
       offering the ability to store and secure any volume of data for a wide
       range of purposes, including data lakes, cloud-native applications, and
       mobile apps. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/s3/
     baseURL: https://example.com
     tags:
@@ -11037,7 +11037,7 @@ apis:
       maintain machine learning models across fleets of edge devices. The
       SageMaker Edge Manager component takes care of installing and managing the
       SageMaker Edge Manager agent lifecycle on the core device. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/greengrass/v2/developerguide/sagemaker-edge-manager-component.html
     baseURL: https://example.com
@@ -11065,7 +11065,7 @@ apis:
       specifically designed for storing, sharing, and managing features for
       machine learning (ML) models. Features are the inputs necessary for ML
       models during both training and inference. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/sagemaker/feature-store/
     baseURL: https://example.com
     tags:
@@ -11097,7 +11097,7 @@ apis:
       infrastructure, services, and tools to virtually any data center,
       co-location space, or on-premises facility for a truly consistent hybrid
       experience
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/s3/outposts/
     baseURL: https://example.com
     tags:
@@ -11131,7 +11131,7 @@ apis:
       Contains all data plane API operations and data types for Amazon SageMaker
       Metrics. Use these APIs to put and retrieve (get) features related to your
       training run.    BatchPutMetrics
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/sagemaker/latest/dg/monitoring-cloudwatch.html
     baseURL: https://example.com
     tags:
@@ -11158,7 +11158,7 @@ apis:
       provides access to pre-built processing operations, pretrained ML models,
       and visualization tools, enabling users to run geospatial ML efficiently
       and on a large scale.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/sagemaker/geospatial/
     baseURL: https://example.com
     tags:
@@ -11208,7 +11208,7 @@ apis:
       three-year hourly spend commitment. AWS offers three types of Savings
       Plans: Compute Savings Plans, EC2 Instance Savings Plans, and Amazon
       SageMaker.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/savingsplans/
     baseURL: https://example.com
     tags:
@@ -11249,7 +11249,7 @@ apis:
       for popular programming languages to accelerate development. You can
       manage schemas and work with code bindings from the EventBridge console,
       API, or directly in your IDE using AWS toolkits.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-schema.html
     baseURL: https://example.com
     tags:
@@ -11291,7 +11291,7 @@ apis:
       and adjusts schedules based on downstream target availability. This
       reference provides a list of available API actions and data types for
       EventBridge Scheduler.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/eventbridge/
     baseURL: https://example.com
     tags:
@@ -11321,7 +11321,7 @@ apis:
       handling the complex tasks of managing a web-scale database, SimpleDB
       empowers developers to concentrate on developing applications without
       worrying about database operations. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/simpledb/
     baseURL: https://example.com
     tags:
@@ -11352,7 +11352,7 @@ apis:
       The AWS Secrets Manager API allows users to securely manage, fetch, and
       update database credentials, API keys, and other sensitive information at
       various stages of their existence.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/secrets-manager/
     baseURL: https://example.com
     tags:
@@ -11389,7 +11389,7 @@ apis:
       developers and businesses to discover and deploy serverless applications
       in the AWS Cloud. This integration with the AWS Lambda console allows
       developers of all skill levels to easily start with serverless computing. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/serverless/serverlessrepo/
     baseURL: https://example.com
     tags:
@@ -11431,7 +11431,7 @@ apis:
       account management service that lets you consolidate multiple Amazon Web
       Services accounts into an organization that you create and centrally
       manage. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/security-lake/
     baseURL: https://example.com
     tags:
@@ -11487,7 +11487,7 @@ apis:
       Easily monitor and control your quotas as your Amazon Web Services
       projects expand with Service Quotas. Limits, also known as quotas, define
       the maximum number of resources you can generate within your AWS account. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/servicequotas/latest/userguide/intro.html
     baseURL: https://example.com
     tags:
@@ -11513,7 +11513,7 @@ apis:
       and optional health checks for public or private DNS namespaces, providing
       clients with up to eight healthy records in response to queries or
       requests.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/cloud-map/
     baseURL: https://example.com
     tags:
@@ -11547,7 +11547,7 @@ apis:
       include servers, databases, websites, or applications that are deployed
       using AWS resources (for example, an Amazon EC2 instance or an Amazon RDS
       database). 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/servicecatalog/
     baseURL: https://example.com
     tags:
@@ -11582,7 +11582,7 @@ apis:
       types, and errors. To learn more about the WAF and Shield Advanced
       features and how to effectively utilize the APIs, refer to the WAF and
       Shield Developer Guide.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/shield/
     baseURL: https://example.com
     tags:
@@ -11614,7 +11614,7 @@ apis:
       immersive experiences. The SimSpace Weaver API allows direct interaction
       with the service, providing detailed descriptions of available operations
       and data structures. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/simspaceweaver/
     baseURL: https://example.com
     tags:
@@ -11656,7 +11656,7 @@ apis:
       automating the conversion of source servers to run on AWS, reducing manual
       errors and saving time. It also offers a range of built-in and custom
       optimization options to simplify application modernization.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/application-migration-service/
     baseURL: https://example.com
     tags:
@@ -11686,7 +11686,7 @@ apis:
       network connectivity. The Snow Family (comprised of AWS Snowcone,
       Snowball, and AWS Snowmobile) oﬀers a number of physical devices and
       capacity profiles, most with built-in computing capabilities.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/snow/
     baseURL: https://example.com
     tags:
@@ -11724,7 +11724,7 @@ apis:
       against industry standards and best practices. By collecting security data
       across AWS accounts and third-party products, Security Hub enables
       analysis of security trends and identification of high-priority issues.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/security-hub/
     baseURL: https://example.com
     tags:
@@ -11805,7 +11805,7 @@ apis:
       allows developers to create distributed web-enabled applications. With
       Amazon SNS, applications can easily send real-time notification messages
       to subscribers using multiple delivery protocols. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/sns/
     baseURL: https://example.com
     tags:
@@ -11838,7 +11838,7 @@ apis:
       hosted queue that facilitates the storage and transmission of messages
       between applications and microservices. Amazon SQS effectively moves data
       between distributed components, promoting decoupling. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/sqs/
     baseURL: https://example.com
     tags:
@@ -11874,7 +11874,7 @@ apis:
       which can be written in either CloudFormation or Terraform configurations.
       This service helps you maintain compliance standards while enabling your
       customers to easily deploy the necessary cloud resources.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/servicecatalog/
     baseURL: https://example.com
     tags:
@@ -11912,7 +11912,7 @@ apis:
       AWS Systems Manager provides a comprehensive and secure management
       solution for resources across AWS and in both multicloud and hybrid
       environments.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/systems-manager/
     baseURL: https://example.com
     tags:
@@ -11952,7 +11952,7 @@ apis:
       container images. Integrated support is provided for services like Amazon
       S3, Amazon CloudWatch, and AWS CloudTrail. For more details on how to use
       AWS Signer, refer to the AWS Signer Developer Guide.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/signer/
     baseURL: https://example.com
     tags:
@@ -11996,7 +11996,7 @@ apis:
       resolution by promptly alerting responders of the impact, presenting key
       troubleshooting information, and offering collaborative features to
       facilitate the swift restoration of services. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/incident-manager/latest/userguide/what-is-incident-manager.html
     baseURL: https://example.com
@@ -12040,7 +12040,7 @@ apis:
       assignment of user access to IAM Identity Center resources, such as the
       AWS access portal. Users can have AWS account applications and roles
       assigned to them and be federated into the application. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/iam/identity-center/
     baseURL: https://example.com
     tags:
@@ -12074,7 +12074,7 @@ apis:
       seamless communication between AWS services and SAP applications running
       on AWS. Users can easily access and utilize AWS Systems Manager for SAP
       through AWS APIs.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/ssm-sap/latest/userguide/what-is-ssm-for-sap.html
     baseURL: https://example.com
@@ -12111,7 +12111,7 @@ apis:
       create visual workflows for utilizing AWS services, building distributed
       applications, automating processes, orchestrating microservices, and
       setting up data and machine learning pipelines.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/step-functions/
     baseURL: https://example.com
     tags:
@@ -12148,7 +12148,7 @@ apis:
       Amazon Web Services infrastructure. This service enables cost-effective
       backup and rapid disaster recovery by allowing secure data uploads to the
       AWS cloud. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/storagegateway/
     baseURL: https://example.com
     tags:
@@ -12189,7 +12189,7 @@ apis:
       by Amazon certificates. The use of the AWS SDK is required, along with AWS
       Identity and Access Management users and roles to ensure secure access and
       permission policies.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/aws-supply-chain/
     baseURL: https://example.com
     tags:
@@ -12227,7 +12227,7 @@ apis:
       functionality, with detailed instructions on how to utilize this service
       effectively. For further insights on using temporary security credentials,
       refer to the resources on Temporary Security Credentials.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/STS/latest/APIReference/welcome.html
     baseURL: https://example.com
     tags:
@@ -12252,7 +12252,7 @@ apis:
       work within a workflow, with the service handling the management of
       intertask dependencies, scheduling, and concurrency to maintain the
       logical flow of the application.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/swf/
     baseURL: https://example.com
     tags:
@@ -12287,7 +12287,7 @@ apis:
       services by creating and managing canaries. These canaries are lightweight
       scripts that monitor your endpoints and APIs externally, allowing you to
       set them up to run 24/7, once per minute.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/cloudwatch/
     baseURL: https://example.com
     tags:
@@ -12327,7 +12327,7 @@ apis:
       managed time-series database engine allows developers and DevOps teams to
       run InfluxDB databases on AWS using open-source APIs for real-time
       time-series applications. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/timestream/
     baseURL: https://example.com
     tags:
@@ -12353,7 +12353,7 @@ apis:
       documents. Unlike traditional OCR tools, Textract can intelligently
       identify and extract specific data from various types of documents,
       including PDFs, images, tables, and forms. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/textract/
     baseURL: https://example.com
     tags:
@@ -12394,7 +12394,7 @@ apis:
       of data points per day. Timestream is ideal for IoT sensor data analysis,
       industrial telemetry management, and log data and metric analysis for
       application performance improvement. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/timestream/
     baseURL: https://example.com
     tags:
@@ -12420,7 +12420,7 @@ apis:
       Amazon Web Services facilitates the seamless migration of file transfer
       workflows to Transfer Family by integrating with existing authentication
       systems and providing DNS routing via Amazon Route 53. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/aws-transfer-family/
     baseURL: https://example.com
     tags:
@@ -12462,7 +12462,7 @@ apis:
       medical terminology. The Call Analytics option is specifically designed
       for call center audio, providing insights into customer service
       interactions.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/transcribe/
     baseURL: https://example.com
     tags:
@@ -12502,7 +12502,7 @@ apis:
       telecom networks. With AWS TNB, users can efficiently manage the lifecycle
       of their telecommunication network functions, from initial planning to
       deployment and ongoing maintenance.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/tnb/
     baseURL: https://example.com
     tags:
@@ -12549,7 +12549,7 @@ apis:
       Amazon Translate enables users to adapt content for a global audience and
       efficiently translate and analyze a large amount of text to facilitate
       communication across different languages.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/translate/
     baseURL: https://example.com
     tags:
@@ -12588,7 +12588,7 @@ apis:
       authorization policies using the Cedar policy language, supporting both
       role-based access control (RBAC) and attribute-based access control (ABAC)
       models. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/verified-permissions/
     baseURL: https://example.com
     tags:
@@ -12626,7 +12626,7 @@ apis:
       optimization, performance, resilience, security, operational excellence,
       and service limits, Trusted Advisor provides actionable recommendations to
       address any areas of concern.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
     baseURL: https://example.com
     tags:
@@ -12656,7 +12656,7 @@ apis:
       and legacy services, Amazon VPC Lattice enhances the efficiency of
       discovery and management. Consult the Amazon VPC Lattice User Guide for
       further details.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/vpc/lattice/
     baseURL: https://example.com
     tags:
@@ -12712,7 +12712,7 @@ apis:
       CloudFront, or an Application Load Balancer. Additionally, AWS WAF Classic
       enables you to manage access to your content by setting conditions such as
       originating IP addresses or query string values. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/waf/latest/developerguide/classic-waf-chapter.html
     baseURL: https://example.com
@@ -12741,7 +12741,7 @@ apis:
       authentication methods, Voice ID uses the caller's unique voice
       characteristics to provide instant and accurate caller verification at a
       minimal cost. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/connect/voice-id/
     baseURL: https://example.com
     tags:
@@ -12776,7 +12776,7 @@ apis:
       data types, and errors for developers using AWS WAF Classic. Additional
       resources and detailed instructions on utilizing AWS WAF Classic can be
       found in the AWS WAF Classic developer guide.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: >-
       https://docs.aws.amazon.com/waf/latest/APIReference/API_Operations_AWS_WAF_Regional.html
     baseURL: https://example.com
@@ -12801,7 +12801,7 @@ apis:
       The API offered by the AWS Well Architected Tool serves as a reliable
       framework to assess your cloud architecture, enabling you to develop
       scalable designs that can adapt and grow over time.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/well-architected-tool/
     baseURL: https://example.com
     tags:
@@ -12872,7 +12872,7 @@ apis:
       protection for various resources like Amazon CloudFront distributions,
       Amazon API Gateway REST APIs, Application Load Balancers, and AWS AppSync
       GraphQL APIs.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/waf/
     baseURL: https://example.com
     tags:
@@ -12902,7 +12902,7 @@ apis:
       offers interoperability with Microsoft Exchange Server and programmable
       management of users, groups, and resources through the Amazon WorkMail
       SDK.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/workmail/
     baseURL: https://example.com
     tags:
@@ -12935,7 +12935,7 @@ apis:
       hardware procurement and complex software installation. With WorkSpaces,
       you can quickly add or remove users as needed and provide access to
       virtual desktops from various devices and web browsers. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/workspaces/
     baseURL: https://example.com
     tags:
@@ -12970,7 +12970,7 @@ apis:
       cost-effective cloud desktop solution. The compact WorkSpaces Thin Client
       device supports up to two monitors and various peripherals, such as
       keyboards, mice, headsets, and webcams.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/workspaces/thin-client/
     baseURL: https://example.com
     tags:
@@ -13016,7 +13016,7 @@ apis:
       WorkDocs and take necessary actions to ensure data security. General
       administrative applications, such as eDiscovery and analytics, can record
       and replicate data from WorkDocs for backup and analysis purposes. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/workdocs/
     baseURL: https://example.com
     tags:
@@ -13073,7 +13073,7 @@ apis:
     description: >-
       The WorkMail Message Flow API provides access to email messages as they
       are being sent and received by a WorkMail organization.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.aws.amazon.com/workmail/
     baseURL: https://example.com
     tags:
@@ -13098,7 +13098,7 @@ apis:
       of granting employees access to internal websites and SaaS web
       applications without the need for complex appliances or specialized client
       software. 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/workspaces/web/
     baseURL: https://example.com
     tags:
@@ -13152,7 +13152,7 @@ apis:
       components. Utilizing both no-code and low-code actions, AWS X-Ray
       provides a seamless way to track and manage requests throughout your
       application.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/xray/
     baseURL: https://example.com
     tags:

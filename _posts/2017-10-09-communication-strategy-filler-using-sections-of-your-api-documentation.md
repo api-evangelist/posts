@@ -4,8 +4,7 @@ layout: post
 title: 'Communication Strategy Filler Using Sections Of Your API Documentation'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/aws/aws-tweet-documentation-links.png
 ---
-
-<p><a href="https://twitter.com/AWSSecurityInfo/status/868059146280550400"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/aws/aws-tweet-documentation-links.png" align="right" width="35%" style="padding: 15px;" /></a>&lt;/a&gt;
+<p>&lt;/a&gt;
 <p>Coming up with things creative things to write about regularly on the blog, and on Twitter when you are operating an API is hard. It has taken a lot of discipline to keep posts going up on API Evangelist regularly for the last seven years–totaling almost 3K total stories told so far. I don’t expect every API provider to have the same obsessive compulsive disorder that I do, so I’m always looking for innovative things that they can do to communicate with their API communities–something that Amazon Web Services is always good at providing healthy examples that I feel I can showcase.
 
 <p>One thing the AWS team does on a regular basis is tweeting out links to specific areas of their documentation, that helps users accomplish specific things with AWS APIs. The AWS security team is great at doing this, with recent examples focusing on securing things with <a href="https://twitter.com/AWSSecurityInfo/status/868059146280550400">the AWS Directory Service</a>, and <a href="https://twitter.com/AWSSecurityInfo/status/867711869900935169">API Organizations</a>. Each contains a useful description, attractive looking image, and a link to a specific page in the documentation that helps you learn more about what is possible.

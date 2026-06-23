@@ -2,7 +2,7 @@
 layout: post
 title: APIs In The Most Mature Sectors Have Pricing APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-machine-readable-pricing.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-machine-readable-pricing.jpg
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: The Paradox Of API Evangelist
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/oxford_university_press_blue_circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/oxford_university_press_blue_circuit.jpg
 atomdate: 2017-04-10T19:00:00.000Z
 tags:
   - API Evangelist

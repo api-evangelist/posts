@@ -2,7 +2,7 @@
 layout: post
 title: An Integrations Page For Your API Solution
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_03_at_10.44.34_am.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_03_at_10.44.34_am.png
 atomdate: 2016-10-04T16:00:00.000Z
 tags:
   - Integration
@@ -14,4 +14,4 @@ API service providers like [DataDog](https://www.datadoghq.com/product/integrati
 
 Directly, API integrations provide a great way to inform customers about which of the other services they use can be integrated with this platform, potentially adding to the number of reasons why they might choose to go with a service. Indirectly, API integration pages provide a great way to inform the sector about which API driven platforms are important to service providers, and their customers. After I get a number of these integration pages bookmarked as part of my research, I will work on other stories showcasing the various approaches I find.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_03_at_10.44.34_am.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_03_at_10.44.34_am.png)

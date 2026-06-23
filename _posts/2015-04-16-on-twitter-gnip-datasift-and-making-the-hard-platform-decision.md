@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On Twitter, Gnip, DataSift, And Making The Hard Platform Decision
-image: http://kinlane-productions2.s3.amazonaws.com/twitter/twitter-access.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/twitter-access.png
 author:
   name: kinlane
 tags:

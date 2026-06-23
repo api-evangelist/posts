@@ -8,7 +8,7 @@ tags:
   - OpenAPI
   - Deployment
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-rail-crossing.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-rail-crossing.jpg
 ---
 I hit a lot of “[How to Draw An Owl](https://www.youtube.com/watch?v=GndXHY8J7Jo&ab_channel=Twilio)” issues while profiling API operations for interesting APIs. These are often things that developers take for granted and just assume people will know about how to put an API to work. One challenge I came across today, which I have encountered before, was how do you articulate that an API is open source and will need implementing. Meaning, when I publish an OpenAPI for Twilio or Stripe, there are explicit sandbox or production server URLs that I can put in the OpenAPI server object. But, when I am profiling an open-source solution as I did with [the OpenAPI Policy Agent (OPA) API](https://github.com/api-evangelist/open-policy-agent), there is no sandbox or production URL to put into the OpenAPI server object. So, how do I articulate in a machine-readable way that you will have to deploy the API before the OpenAPI and collections are usable.
 

@@ -3,7 +3,7 @@ layout: post
 title: >-
   Freemium Access For Your API Is Not Bad, It Is Just One Tool In Your Providers
   Toolbox
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-tools.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-tools.png
 author:
   name: kinlane
 tags:

@@ -6,10 +6,8 @@ date: 2018-01-17T11:00:00.000Z
 tags:
   - API Evangelist
   - Deprecation
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-deprecation-2.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-deprecation-2.png
 ---
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-deprecation-2.png" align="right" width="30%" style="padding: 15px;" /></p>
-
 _This is a series of stories I'm doing as part of [my API Transit work](http://basics.apievangelist.com/), trying to map out a simple journey that some of my clients can take to rethink some of the basics of their API strategy. I'm using a subway map visual, and experience to help map out the journey, which I'm calling [API transit](http://basics.apievangelist.com/)--leveraging the verb form of transit, to describe what every API should go through._
 
 This is a simple one. All APIs will eventually need to be deprecated. This is how you avoid legacy systems that have been up for over decades. Make sure the life span of each service is discussed as part of its conception, and put some details out about the expected timeline for its existence. Even if this becomes an unknown, at least you thought about it, and hopefully discussed it with others.

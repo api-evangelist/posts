@@ -4,7 +4,7 @@ title: Business of APIs Conference in San Francisco
 url: >-
   http://apievangelist.com/2011/10/03/business-of-apis-conference-in-san-francisco/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Business-of-APIs-Conference-2011.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Business-of-APIs-Conference-2011.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
   - Business of APIs
   - APIs
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/events/Business-of-APIs-Conference-2011.png)](http://apiconference.com/ "Business of APIs Conference")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/Business-of-APIs-Conference-2011.png)](http://apiconference.com/ "Business of APIs Conference")
 
 I am getting ready for the [Mashery](http://www.mashery.com "Mashery"), [Business of APIs Conference](http://apiconference.com/ "Business of APIs Conference") in San Francisco tomorrow.
 
@@ -37,7 +37,7 @@ There are 16 speakers this year:
 *   **Jeff Lawson** - CEO and Co Founder at Twilio
 *   **Reeve S. Thompson** - Co-CEO, at Cabana
 
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/events/business-of-apis-audience.jpg)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/business-of-apis-audience.jpg)
 
 That is a whole lot of API experience. I went to BAPI last year, and the talks were great and I connected with a bunch of other API experts, during the half-day event.
 

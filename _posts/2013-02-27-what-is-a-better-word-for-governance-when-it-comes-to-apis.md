@@ -2,7 +2,7 @@
 layout: post
 title: What Is A Better Word For Governance When It Comes To APIs?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/respect-my-authority.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/respect-my-authority.jpg
 author:
   name: kinlane
 tags:
@@ -30,7 +30,7 @@ I think the illness around the word, when it is applied to APIs becomes clear wh
 
 Let's separate the potentially bad synonyms:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/governance-bad.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/governance-bad.png)
 
 *   administration
 *   authority
@@ -50,7 +50,7 @@ Let's separate the potentially bad synonyms:
 
 And the good synonyms:
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/governance-good.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/governance-good.png)
 
 *   direction
 *   execution

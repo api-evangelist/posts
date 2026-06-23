@@ -2,7 +2,7 @@
 layout: post
 title: Googles Embeddable Approach to the Civic Information API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Google-Voter-Information-Widget.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Google-Voter-Information-Widget.png
 author:
   name: kinlane
 tags:

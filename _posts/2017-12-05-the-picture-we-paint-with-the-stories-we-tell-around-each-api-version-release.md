@@ -4,8 +4,6 @@ layout: post
 title: 'The Picture We Paint With The Stories We Tell Around Each API Version Release'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/facebook/facebook-version-211-release.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/facebook/facebook-version-211-release.png" align="right" width="45%" style="padding: 15px;" />
 <p>I fell down the rabbit hole of the latest Facebook version release, trying to understand the deprecation of their User Insights API. The story of the deprecation of the API isn’t told accurately as part of the the regular release process, so I found myself thinking more deeply about how we tell stories (or don’t) around each step forward of our APIs. I have dedicated areas of my API research for the <a href="http://road-map.apievangelist.com/">road map</a>, <a href="http://issues.apievangelist.com/">issues</a>, and <a href="http://change-log.apievangelist.com/">change log</a> for API operations, because their presence tell a lot about the character of an API, and their usage I feel paints and accurate painting of each moment in time for an API.
 
 <p><a href="https://developers.facebook.com/docs/graph-api/changelog">Facebook has a dedicated change log for their API platform</a>, as well as an <a href="https://developers.facebook.com/status/dashboard/">active status</a> and <a href="https://developers.facebook.com/status/issues/">issues</a> pages, but they do not share much about what their road map looks like. They provide a handful of elements with each releases change log:

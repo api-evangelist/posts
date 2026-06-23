@@ -64,7 +64,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -362,7 +362,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -392,7 +392,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -734,11 +734,11 @@
 
 <p>To understand a piece of /me I wanted to breakdown my LinkedIn footprint, and to do this I was going to use <a href="https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo?hl=en">Postman Interceptor</a> to map out my digital footprint. To do this I turned on Interceptor, filtered by the linkedin.com domain, pointed it to a collection I had added to my Postman on the desktop, and began making my way around the LinkedIn website in my Chrome browser. Postman Interceptor records every API call made behind the scenes of the LinkedIn web application, allowing me to now play around with in Postman, export locally, or access via the Postman API. After clicking around the application for a few minutes I generated 973 individual API requests, available in a specific collection.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/linkedin-in-collection.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/linkedin-in-collection.png" alt="" /></p>
 
 <p>Ok, what I can I do with these requests? The Postman collection provides the URLs, paths, query parameters, as well as the responses for each API call made behind my LinkedIn web application usage during that period of time. This represents just a momentary slice of my online world that exists within the LinkedIn domain, and I wanted to play around with different ways I could use Postman visualizer to “see” this slice of my world. To help me do this I created a separate collection which pulls my LinkedIn collection from the Postman API, and then looped through each of the 973 API requests stored within the collection. A lot of interesting information is contained within the domain, path, ad query parameters sent with each request, as well as the structure and data returned as part of each response. I chose to just loop through each of the elements of the paths for all 973 requests, then organized and counted them, returning as a simple tag cloud visualization.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/linkedin-path-tag-cloud.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/linkedin-path-tag-cloud.png" alt="" /></p>
 
 <p>You can’t see all of the tags because some of them occur more than others, but it provides a nice visual representation of the API paths used to define my digital self within the LinkedIn domain. I’ll spend time clean things up. Splitting the camelCase variables, snake case, dashes, and other more cryptic aspects of LinkedIn API design into meaningful words and phrases to represents the digital resources and capabilities they represent. Then I will look closer at the query parameters, as well as the schema of each response being returned. I just wanted to lay the foundation for visualizing collections that are generated from my LinkedIn web traffic using Interceptor. It provides a pretty compelling way to visualize each slice of my digital footprint within, or across domain. Establishing an approach that can be applied to other domains, reverse engineering the aPis behind any of the web applications I use each day.</p>
 

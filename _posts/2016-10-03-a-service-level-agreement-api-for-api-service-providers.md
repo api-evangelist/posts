@@ -2,7 +2,7 @@
 layout: post
 title: A Service Level Agreement API For API Service Providers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-service-level-agreements.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-service-level-agreements.png
 atomdate: 2016-10-03T18:00:00.000Z
 tags:
   - Service Level Agreement

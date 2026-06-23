@@ -5,7 +5,7 @@ title: >-
   APIs are at the Center of the Federal Trade Commission (FTC) Lawsuit Against
   Facebook
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/federal_trade_commission_facebook_filing.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/federal_trade_commission_facebook_filing.png
 author:
   name: kinlane
 tags:

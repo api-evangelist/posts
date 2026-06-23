@@ -1,7 +1,7 @@
 ---
 layout: post
 title: White Label API Reciprocity And Interoperability
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-white-label.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-white-label.png
 author:
   name: kinlane
 tags:

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Establishing an API-First Reference Implementation
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-christianity-under-construction-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-christianity-under-construction-copper-circuit.jpg
 tags:
   - API-First
   - Reference
@@ -13,7 +13,7 @@ I do a lot of API blah blah blah’ing about abstract technical concepts. Someti
 ### Welcome Union Fashion
 One of my co-workers at Postman had created a fictional company called Union Fashion when he started working on our solutions engineering team, but hadn’t put much more work into the project since. When I heard about it sounded exactly like what I was looking for. An e-commerce reference implementation that a wide audience could relate with, providing us with a model API implementation that we could use across webinars, workshops, and other storytelling channels. I’m big on building on the work of others, so I adopted Union Fashion, and I am working to define the fictional company as an [API-first](https://www.postman.com/api-first/) approach to operating a common real world business.
 
-![](https://kinlane-productions2.s3.amazonaws.com/union-fashion/union-fashion-logo.png)Repo) ([Docs](https://documenter.postman.com/view/10394726/SzS2xojt?version=latest)) - Defining all of the products that Union Fashion offers.
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/union-fashion/union-fashion-logo.png)Repo) ([Docs](https://documenter.postman.com/view/10394726/SzS2xojt?version=latest)) - Defining all of the products that Union Fashion offers.
 
 *   **Orders** - ([Repo](https://github.com/union-fashion/orders)) ([Docs](https://documenter.postman.com/view/10394726/SzYXXzLu?version=latest)) - Allows for the ordering of Union Fashion products online.
 *   **Baskets** - ([Repo](https://github.com/union-fashion/baskets)) ([Docs](https://documenter.postman.com/view/10394726/SzYXXzVh?version=latest)) - Allows for the ordering of Union Fashion products online.

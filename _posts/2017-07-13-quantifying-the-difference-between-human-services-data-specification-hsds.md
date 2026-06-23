@@ -4,8 +4,6 @@ layout: post
 title: 'Quantifying The Difference Between Human Services Data Specification (HSDS)'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/3D-Printing/regions/api-regions-global-map-from-google.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/openapi-spec/openapi-spec-icon.png" align="right" width="25%" style="padding: 15px;" />
 <p>To help quantify the move from version 1.0 to 1.1 of the Human Services Data API (HSDA) definition I took the existing Ohana API and created an OpenAPI definition to describe what was present in version 1.0 of the HSDA. Then I took <a href="https://openreferral.readthedocs.io/en/latest/reference/#organization">version 1.1 of the Human Services Data Specification (HSDS)</a> and made sure as much of HSDS was returned as part of API responses, as well as allowing adding, updating, and deleting across the schema.
 
 <p>During the vendor API review portion of our process I took the documentation for four of the vendors APIs and created OpenAPI for each of them. I then laid all the vendor OpenAPIs alongside <a href="https://openreferral.github.io/api-specification/definition/">the current draft I had of the HSDA definition</a>. I then consider each path, the parameters, body, and responses for inclusion as part of the HSDA definition. This allowed me to consider the existing vendor API implementations that are already serving human service implementations.

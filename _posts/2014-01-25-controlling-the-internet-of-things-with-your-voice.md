@@ -2,7 +2,7 @@
 layout: post
 title: Controlling The Internet of Things With Your Voice
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/thingspeak/thingspeak-talkback-api-to-cloud.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/thingspeak/thingspeak-talkback-api-to-cloud.jpg
 author:
   name: kinlane
 tags:

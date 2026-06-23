@@ -3,14 +3,14 @@ layout: post
 title: What is API Evangelist?
 url: http://apievangelist.com/2012/02/26/what-is-an-api-evangelist/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-API-Evangelist.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-API-Evangelist.png
 author:
   name: kinlane
 tags:
   - API Evangelist
   - Evangelist
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Tag-Cloud-API-Evangelist.png)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Tag-Cloud-API-Evangelist.png)
 
 **[API Evangelist](http://apievangelist.com "API Evangelist")** has grown beyond being just a research blog. It is time for me to update the [about us page](/about.php "about us page"), and its time for me to tell the story of what is "API Evangelist", and how I view my role in the API industry.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Visualize Your Cloud Presence Using Mohiomap
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/mohiomap/mohiomap-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/mohiomap/mohiomap-logo.png
 author:
   name: kinlane
 tags:

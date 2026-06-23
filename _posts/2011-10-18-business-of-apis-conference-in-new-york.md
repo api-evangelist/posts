@@ -3,7 +3,7 @@ layout: post
 title: Business of APIs Conference in New York
 url: http://apievangelist.com/2011/10/18/business-of-apis-conference-in-new-york/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Business-of-APIs-Conference-2011.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Business-of-APIs-Conference-2011.png
 author:
   name: kinlane
 tags:
@@ -11,7 +11,7 @@ tags:
   - Business of APIs
   - APIs
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/events/Business-of-APIs-Conference-2011.png)](http://apiconference.com/ "Business of APIs Conference")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/Business-of-APIs-Conference-2011.png)](http://apiconference.com/ "Business of APIs Conference")
 
 I am getting ready for the [Mashery](http://www.mashery.com "Mashery"), [Business of APIs Conference](http://apiconference.com/ "Business of APIs Conference") in New York tomorrow.
 

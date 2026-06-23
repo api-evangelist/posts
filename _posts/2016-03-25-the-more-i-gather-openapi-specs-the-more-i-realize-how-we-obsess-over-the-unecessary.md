@@ -3,7 +3,7 @@ layout: post
 title: >-
   The More I Gather OpenAPI Specs The More I Realize How We Obsess Over The
   Unecessary
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-obsess-data.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-obsess-data.png
 tags:
   - OpenAPI
   - Open

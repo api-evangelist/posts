@@ -4,8 +4,6 @@ layout: post
 title: 'The Rockstar Committees We Have Assembled To Make APIStrat Nashville Rock!!'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/apistrat/apistrat-nashville-header.jpg
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apistrat/apistrat-nashville-header.jpg" width="45%" align="right" style="padding: 15px;" />
 <p>It is APIStrat time again! This time it is in Nashville, Tennessee! We are in the early stages of the event, but we are getting close to the deadline of the call for papers. We’ve assembled another rockstar ensemble for this round to help us steer the event, and review talk submissions once the CFP process has closed. I just wanted to take a moment and recognize the folks who are helping out and make sure they get the recognition they deserve.
 
 <p>First up are the six members of the APIStrat steering committee, playing different leadership roles in the conference, making sure everything gets done by September:

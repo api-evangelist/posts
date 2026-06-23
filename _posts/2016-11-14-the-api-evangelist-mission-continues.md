@@ -2,7 +2,7 @@
 layout: post
 title: The API Evangelist Mission Continues
 image: >-
-  http://s3.amazonaws.com/kinlane-productions2/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
 atomdate: 2016-11-14T18:00:00.000Z
 tags:
   - API Evangelist

@@ -8,7 +8,7 @@ tags:
   - GitLab
   - Bitbucket
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-old-piano-playing-hospital.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/good-year-home-merchandise-old-piano-playing-hospital.jpg
 ---
 Augmenting a specs-only approach to API governance, I am continuing to invest in a GitOps-Driven API source of truth. I don’t care if it is GitHub, GitLab, or BitBucket, but Git is the core of your API governance, and the factory floor of your API operations. These three pieces of infrastructure I give a pass to when it comes to my specs-only policy. I also require that business and technical stakeholders both equally be able to engage around APIs.json, OpenAPI, JSON Schema, Spectral rules and other custom schema. A specs-only approach combined with a GitOps-driven engine is how I will operate my strategic and tactical API contract services, but also encourage my customers to operate their own API governance programs in a similar way. 
 

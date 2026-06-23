@@ -2,7 +2,7 @@
 layout: post
 title: Politics Of The API Economy
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-protest.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-protest.png
 author:
   name: kinlane
 tags:
@@ -12,8 +12,6 @@ tags:
 I did a napkin doodle the other day at my favorite local hangout during lunch and beers. I was thinking about the finer points of the API economy that I dwell on, and feel are important not just for API success, but also developer, end-user, and industry level health. In this doodle, I'm trying to think about where I need to focus my energy when working to keep the API pipes as transparent and open as possible.
 
 For me, this isn't just an API story, this is a story about the evolution fo the web, and ultimately a story of the journey humans are on, when it comes to defining our virtual self, that participates in the online domains that capture our attention on a daily basis. I wanted to better understand how companies are moving digital assets online, generating new resources, which are often times user-generated resources, empowered by developers. This is a complex world unfolding, and here was my attempt to better understand.
-
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Virtual Domains.png)
 
 I worked to distill this down, and represent the key actors, and struggles, we are facing as the API economy becomes a reality. Companies are moving more digital resources online, while also developing platforms for users and developers to generate, and work with valuable resources like images, text, videos, and more. These resources (or lifebits to users) live within the growing number of virtual domains.
 

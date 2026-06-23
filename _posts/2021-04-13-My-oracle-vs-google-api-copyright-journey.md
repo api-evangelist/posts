@@ -3,7 +3,7 @@ published: true
 layout: post
 title: My Oracle vs Google API Copyright Journey
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/my-oracle-vs-google-api-copyright-journey.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/my-oracle-vs-google-api-copyright-journey.png
 tags:
   - Copyright
   - Oracle vs. Google

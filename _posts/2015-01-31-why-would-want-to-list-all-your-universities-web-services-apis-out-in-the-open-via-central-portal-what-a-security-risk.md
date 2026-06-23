@@ -3,7 +3,7 @@ layout: post
 title: >-
   Why Would Want To List All Your Universities Web Services (APIs) Out In The
   Open, Via Central Portal? What A Security Risk!
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-unhappy.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-unhappy.png
 author:
   name: kinlane
 tags:
@@ -31,7 +31,7 @@ A centralized API portal provides a single place for anyone to discover or share
 **Self-Service Access For 3rd Party Vendors Delivering Vital Campus Services**  
 It takes resources to engage with 3rd party vendors on campus, and a single, self-service portal provides a standardized way for vendors to access the institutional resources they need to deliver the services they are bringing to campus operations. There is no reason that IT or departmental contacts should ever be bottlenecks in delivering the information vendors will need. API portals should provide them with the access they need, along with proper identity and access management, and monitoring of exactly how vendors are accessing, and putting campus resources to use (or not).
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/web-services-listing.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/web-services-listing.png)
 
 **Interoperability Between Higher Educational Institutions**  
 Most higher educational institutions are part of a larger network of institutions, and at the very least have relationships with other schools, in which information, and resources are shared. As with vendors, much of this can be provided via a self-service API portal, where institutions can find the data, content, and other resources they need, able to access only the resources they are supposed to during the fullfillment of established relationships.

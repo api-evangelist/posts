@@ -1,7 +1,7 @@
 ---
 layout: post
 title: No Innovation Around Terms of Service Reveals True Motives
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-terms-of-use.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-terms-of-use.png
 atomdate: 2017-01-16T17:00:00.000Z
 tags:
   - Terms of Service

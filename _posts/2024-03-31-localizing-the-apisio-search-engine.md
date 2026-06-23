@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Localizing the APIs.io Search Engine
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-paris-bookstand.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-paris-bookstand.jpg
 author:
   name: kinlane
 tags:

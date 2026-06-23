@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Academic or Street API Tooling
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/rain-princess-P5290036.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/rain-princess-P5290036.jpg
 author:
   name: kinlane
 tags:

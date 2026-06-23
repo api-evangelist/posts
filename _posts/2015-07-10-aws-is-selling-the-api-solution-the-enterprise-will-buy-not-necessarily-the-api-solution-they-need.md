@@ -3,7 +3,7 @@ layout: post
 title: >-
   AWS Is Selling The API Solution The Enterprise Will Buy, Not Necessarily The
   API Solution They Need
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-highway.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-highway.png
 author:
   name: kinlane
 tags:

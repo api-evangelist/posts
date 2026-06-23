@@ -5,7 +5,7 @@ title: >-
   Aligning the API Specification Contribution Process Across OpenAPI, AsyncAPI,
   and GraphQL
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/aligning-the-api-specification-contribution-process-across-openapi-asyncapi-and-graphql.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aligning-the-api-specification-contribution-process-across-openapi-asyncapi-and-graphql.png
 tags:
   - AsyncAPI
   - OpenAPI

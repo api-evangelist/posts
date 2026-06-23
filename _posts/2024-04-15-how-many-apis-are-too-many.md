@@ -3,7 +3,7 @@ published: true
 layout: post
 title: How Many APIs Are Too Many?
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-fire-hydrant-water.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-fire-hydrant-water.jpg
 author:
   name: kinlane
 tags:

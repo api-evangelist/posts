@@ -4,8 +4,6 @@ layout: post
 title: '15 Topics To Help Folks See The Business Potential Of APIs'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-business-api.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-business-api.png" align="right" width="40%" />
 <p>One of my clients asked me for fifteen bullet points of what I’d say to help convince folks at his company that APIs are the future, and have potentially viable business models. While helping convince people of the market value of APIs is not really my game anymore, I’m still interested in putting on my business of APIs hat, and playing this game to see what I can brainstorm to convince folks to be more open with their APIs.
 
 <p>Here are the fifteen stories from the API space that I would share with folks to help them understand the potential.

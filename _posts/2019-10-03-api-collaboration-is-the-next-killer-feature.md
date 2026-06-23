@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Collaboration Is The Next Killer Feature
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bridge_astoria.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bridge_astoria.jpg
 author:
   name: kinlane
 tags:

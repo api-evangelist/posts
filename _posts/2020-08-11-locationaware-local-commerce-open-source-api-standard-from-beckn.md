@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Location-Aware Local Commerce Open Source API Standard From Beckn
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_08_11_at_9.51.17_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_08_11_at_9.51.17_pm.png
 author:
   name: kinlane
 tags:
@@ -18,15 +18,15 @@ I love to see these kinds of projects. My concern is always heldping ensure they
 
 To help me move things forward I created a workspace in Postman dedicated to Beckn, then I took five of their OpenAPI definitions and published to the workspace, allowing me to use Postman to manage the collections and resulting docs, mocks, and eventually tests for the APIs.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_builder.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_builder.png)
 
 Right now I am just interested in helping the Beckn team better understand how they can manage their OpenAPI definitions using Postman, then [sync the definition for each API bck to the GitHub repo they have setup](https://github.com/beckn/protocol-specifications). Then they can generate collections from the OpenAPI contract for each API. Right now I am just looking to publish documentation for each API, so I am going to generate a collection to use as the base for docs.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_generate.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_generate.png)
 
 I repeat this process for each of the five API, producing five separate collections, which I can then publish documentation using Postman, resulting in a robust set of docs that can be used by Beckn, or by API providers and consumers. Going a little further than the current API documentation does, showcasing what is possible with the platform.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_08_11_at_9.51.17_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_08_11_at_9.51.17_pm.png)
 
 While there are a many more benefits of managing your APIs using the Postman platform, here are a few of the benefits that are exclusive just to API documentation:
 
@@ -43,19 +43,19 @@ I am publishing this post to help convince the Beckn team to import their OpenAP
 
 Having Postman collection in the Postman network for the Beckn protocol will help it become more discoverable. Having Postman generated documentation will add more value with examples, code snippets, and environments. Having a run in Postman button available for each API all help reduce friction for developers when learning about the spec. However, if each collection possesses examples for each method, they can also be mocked using Postman, as easily as publishing documentation was, by clicking on the menu for each collection, and choosing to publish as mock servers.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_mock.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_mock.png)
 
 Postman will take the collection and generate a static mock server for each method, using each request body example, and response body example as part of the mocked experience. Leaving you with a URL you can then use to actually make calls to the API.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_mock_url.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_mock_url.png)
 
 I can take this URL and add it to an environment, abstracting away the baseURL so we can generate multiple mock servers, or eventually replace with development, staging, and production environments—helping make the Beckn collections more versatile using Postman environments.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_environment.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_environment.png)
 
 Beckn can also publish the environment along with documentation, removing any mock URL, and allowing API providers and consumers to replace with their own. This essentially turns each Beckn API collection into a portal sandbox, making learning about the protocol a hands on experience for developers. Allowing API providers and consumers to be able to play with responses and learn how everything works. A mocked representation of the Beckn APIs that can actually be used to begin mocking and developing applications as part of a hackathon, prototyping, or actually kicking off the development process.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_call.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_call.png)
 
 ### More Work to Be Done
 

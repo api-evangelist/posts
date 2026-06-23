@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prepare For The More Boring And Very Business Age of APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-boring.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-boring.png
 atomdate: 2016-09-10T00:00:00.000Z
 tags:
   - Business

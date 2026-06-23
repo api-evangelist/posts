@@ -10,7 +10,7 @@ tags:
   - Legacy
   - Tools
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/amusement-park-amusement-park-2-satan-red.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/amusement-park-amusement-park-2-satan-red.jpg
 author:
   name: kinlane
 ---

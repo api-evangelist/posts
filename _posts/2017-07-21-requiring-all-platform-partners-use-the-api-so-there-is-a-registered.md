@@ -4,8 +4,6 @@ layout: post
 title: 'Requiring ALL Platform Partners Use The API So There Is A Registered'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/google/google-apps-connected.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/google/google-apps-connected.png" align="right" width="40%" style="padding: 15px;" />
 <p><a href="http://kinlane.com/2017/07/16/opting-in-out-to-sharing-our-data-through-partnerships/">I wrote a story about Twitter allowing users to check or uncheck a box regarding sharing data with select Twitter partners</a>. While I am happy to see this move from Twitter, I feel the concept of information sharing being simply being a checkbox is unacceptable. I wanted to make sure I praised Twitter in my last post, but I’d like to expand upon what I’d like to see from Twitter, as well as ALL other platforms that I depend on in my personal and professional life.
 
 <p>There is no reason that EVERY platform we depend on couldn’t require ALL partners to use their API, resulting in every single application of our data be registered as an official OAuth application. The technology is out there, and there is no reason it can’t be the default mode for operations. There just hasn’t been the need amongst platform providers, as as no significant demand from platform users. Even if you don’t get full access to delete and adjust the details of the integration and partnership, I’d still like to see companies, share as many details as they possibly can regarding any partner sharing relationships that involve my data.

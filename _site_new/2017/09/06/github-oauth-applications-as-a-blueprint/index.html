@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I was creating a very light-weight API management solution for one of my projects the other day, and I wanted to give my API consumers a quick and dirty way ...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/github/github-oauth-application.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-oauth-application.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -44,7 +44,7 @@
     <meta name="twitter:title" content="Github OAuth Applications As A Blueprint">
     
     <meta name="twitter:description" content="I was creating a very light-weight API management solution for one of my projects the other day, and I wanted to give my API consumers a quick and dirty way ...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/github/github-oauth-application.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-oauth-application.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -54,7 +54,7 @@
       "@type": "Article",
       "headline": "Github OAuth Applications As A Blueprint",
       "description": "I was creating a very light-weight API management solution for one of my projects the other day, and I wanted to give my API consumers a quick and dirty way ...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/github/github-oauth-application.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-oauth-application.png",
       "datePublished": "2017-09-06T09:00:00-04:00",
       "dateModified": "2017-09-06T09:00:00-04:00",
       "author": {
@@ -67,7 +67,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -365,7 +365,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -395,7 +395,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -729,11 +729,11 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/github/github-oauth-application.png" alt="Github OAuth Applications As A Blueprint" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-oauth-application.png" alt="Github OAuth Applications As A Blueprint" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
-        <p><img src="https://s3.amazonaws.com/kinlane-productions2/github/github-oauth-application.png" align="right" width="20%" style="padding: 15px;" /></p>
+        <p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-oauth-application.png" align="right" width="20%" style="padding: 15px;" /></p>
 <p>I was creating a very light-weight API management solution for one of my projects the other day, and I wanted to give my API consumers a quick and dirty way to begin making calls against the API. Most of the API paths are publicly available, but there were a handful of POST, PUT, and DELETE paths I didn’t want to just have open to the public. I didn’t feel like this situation warranted a full blown API management solution like <a href="http://apis.how/zflfesymzk">Tyk</a> or <a href="http://apis.how/ake3nxbapm">3Scale</a>, but if I could just let people authenticate with their existing Github account, it would suffice.</p>
 
 <p>This project has it’s own Github organization, with each of the APIs living as open source API repositories, so I just leveraged Github, and the ability to create Github OAuth applications to do what I needed. You can find OAuth applications under your Github organizational settings, and when you are creating it, all you really need is to give the application a name, description, and a home page and callback URL, then you are given a client id and secret you can use to authenticate individual users with their Github accounts. I didn’t even have to do the complete OAuth dance to get access to resources, or refresh tokens (may will soon), I was just able to implement a single page PHP script to accomplish what I needed for this version:</p>

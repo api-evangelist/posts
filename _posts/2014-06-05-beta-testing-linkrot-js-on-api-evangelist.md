@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Beta Testing Linkrot.js On API Evangelist
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-broken-chain.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-broken-chain.png
 author:
   name: kinlane
 tags:

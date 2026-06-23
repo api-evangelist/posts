@@ -14,7 +14,7 @@ tags:
   - Federal Government
   - Veterans
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/va/va-definitions-support.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/va/va-definitions-support.png
 ---
 <p><a href="https://va-working.github.io/api-documentation/"></a></p>I was taking a look at the Department of Veterans Affairs (VA) API documentation for the VA Facilities API, and intending on providing some feedback on the API implementation. The API itself is pretty sound, and I don't have any feedback without having actually integrated it into an application, but following on the heals of [my previous story about how we get API developers to follow minimum viable API documentation guidance](http://apievangelist.com/2018/08/27/how-do-we-get-developers-to-follow-the-minimum-viable-api-documentation-guidance/), I had lots of feedback on the overall deliver of the documentation for [the VA Facilities API](https://developer.va.gov/explore/facilities/docs/facilities), helping improve on what they have there.
 

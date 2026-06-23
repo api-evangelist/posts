@@ -4,7 +4,7 @@ title: >-
   All Companies Who Have An Online Product Catalog Should Look At What Octopart
   Does With Their API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/octopart-api-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/octopart-api-screenshot.png
 author:
   name: kinlane
 tags:

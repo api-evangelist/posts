@@ -2,7 +2,7 @@
 layout: post
 title: Making Scientific Research More Real Time And Collaborative Using APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-science-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-science-api.png
 atomdate: 2016-08-03T18:30:00.000Z
 tags:
   - Real Time

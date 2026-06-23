@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Setting Up API Broker Workspaces
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-seattle-public-market_36725946605_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-seattle-public-market_36725946605_o.jpg
 author:
   name: kinlane
 tags:

@@ -9,8 +9,6 @@ tags:
   - Life Cycle
 image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-design.png
 ---
-<p><img src="https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-design.png" align="right" width="25%" style="padding: 15px;" /></p>
-
 _This is a series of stories I'm doing as part of [my API Transit work](http://basics.apievangelist.com/), trying to map out a simple journey that some of my clients can take to rethink some of the basics of their API strategy. I'm using a subway map visual, and experience to help map out the journey, which I'm calling [API transit](http://basics.apievangelist.com/)--leveraging the verb form of transit, to describe what every API should go through._
 
 API design is not just about REST. Sure, a great deal of the focus within this stop along the API journey will be focused on REST, but this is because it is the dominant methodology at this moment in time. API design is about establishing a framework for how you will consistently craft your APIs across teams, whether they are REST, GraphQL, Microservices, or even gRPC. Your API design strategy might be dominated by RESTful practices, especially early on in your journey, but API design should not be considered to be only REST methodologies.

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Learning About Railroad Regulation in the Empire Express
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-railroad-tracks-rocks.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-railroad-tracks-rocks.jpeg
 author: null
 name: kinlane
 tags:

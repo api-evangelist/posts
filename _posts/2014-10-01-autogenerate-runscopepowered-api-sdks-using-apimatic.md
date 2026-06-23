@@ -4,7 +4,7 @@ title: Autogenerate Runscope-powered API SDKs Using APIMatic
 sourceurl: >-
   http://apievangelist.com/2014/10/01/autogenerate-runscopepowered-api-sdks-using-apimatic/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apimatic-runscope.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apimatic-runscope.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ tags:
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apimatic-runscope.png)](http://blog.runscope.com/posts/runscope-powered-sdks)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apimatic-runscope.png)](http://blog.runscope.com/posts/runscope-powered-sdks)
 
 As the API lifecycle continues to expand and comes into focus, new services are emerging to help both API providers, and consumers, better manage API operations from start to finish. New API integration services like [Runscope](https://www.runscope.com/) have emerged to better understand how APIs are actually being consumed, and services like [APIMatic](https://apimatic.io/) are born out of the need to produce better quality SDKs for developers--it only seems natural that eventually these services would start working together.
 

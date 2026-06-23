@@ -4,7 +4,7 @@ title: >-
   API Testing and Monitoring Finding A Home In Your Companies Existing QA
   Process
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-qa.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-qa.jpeg
 author:
   name: kinlane
 tags:

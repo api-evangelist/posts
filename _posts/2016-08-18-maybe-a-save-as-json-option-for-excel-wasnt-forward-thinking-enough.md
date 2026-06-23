@@ -2,7 +2,7 @@
 layout: post
 title: Maybe A Save As JSON Option For Excel Wasn&#039;t Forward Thinking Enough
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-spreadsheet-to-json.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-spreadsheet-to-json.png
 atomdate: 2016-08-19T00:00:00.000Z
 tags:
   - JSON

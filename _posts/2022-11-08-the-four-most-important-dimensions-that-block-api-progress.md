@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Four Most Important Dimensions That Block API Progress
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-los-angeles-downtown-from-afar.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-los-angeles-downtown-from-afar.jpg
 author:
   name: kinlane
 tags:

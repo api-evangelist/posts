@@ -5,7 +5,7 @@ title: >-
   Working to Bring More Women and People of Color Into the API Specification
   Conversation
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/diverse-faces-breaking-changes.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/diverse-faces-breaking-changes.png
 tags:
   - Women
   - People of Color

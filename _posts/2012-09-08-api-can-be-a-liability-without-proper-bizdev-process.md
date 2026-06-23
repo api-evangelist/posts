@@ -2,7 +2,7 @@
 layout: post
 title: API Can Be a Liability Without Proper BizDev Process
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bizdev.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bizdev.jpeg
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ This process is BizDev 2.0.  However, even with this evolution in establishing 
 
 I’ve been the face of this process several times, only to bring in good ideas, get traction and identify potential value, but when I present these implementations internally...I get well, nothing. Companies often don’t have the infrastructure and resources to handle this flow of new business opportunities, even a formal process for saying, “that’s a great idea, we see the value, but we don't have the resources to deal with that right now”, aka no!
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/Biz-20-Workflow.png)](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/Biz-20-Workflow.png)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Biz-20-Workflow.png)](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Biz-20-Workflow.png)
 
 If your going to open up a public or private API, you need to make sure you have a proper BizDev 2.0 process for handling new relationships that get traction via your API. This isn’t saying you have to take in every relationship that comes in the door, but you need to have an efficient framework for receiving, evaluating and either accepting as a new relationship or formally declining and providing secondary options for the relationship--one of which can be putting the project back out to the ecosystem, for a crowd-sourced implementation.
 

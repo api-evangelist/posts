@@ -1,7 +1,7 @@
 ---
 layout: post
 title: APIs Are Often Just A Facade That Is Covering Up The Legacy View Of World
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-apartments.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-apartments.png
 author:
   name: kinlane
 tags:

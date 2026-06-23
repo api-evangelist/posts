@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I am building on my conversation with Abhinav Asthana (@a85), the Co-founder and CEO of Postman, around how we can simplify the API documentation we are prov...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -42,7 +42,7 @@
     <meta name="twitter:title" content="Playing With Concepts Around Simplifying The API Docs That Are Generated Using API Definitions">
     
     <meta name="twitter:description" content="I am building on my conversation with Abhinav Asthana (@a85), the Co-founder and CEO of Postman, around how we can simplify the API documentation we are prov...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -52,7 +52,7 @@
       "@type": "Article",
       "headline": "Playing With Concepts Around Simplifying The API Docs That Are Generated Using API Definitions",
       "description": "I am building on my conversation with Abhinav Asthana (@a85), the Co-founder and CEO of Postman, around how we can simplify the API documentation we are prov...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png",
       "datePublished": "2016-03-08T00:00:00-05:00",
       "dateModified": "2016-03-08T00:00:00-05:00",
       "author": {
@@ -65,7 +65,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -363,7 +363,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -393,7 +393,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -727,7 +727,7 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-butterfly-vertical.png" alt="Playing With Concepts Around Simplifying The API Docs That Are Generated Using API Definitions" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png" alt="Playing With Concepts Around Simplifying The API Docs That Are Generated Using API Definitions" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -735,17 +735,17 @@
 
 <p>First I’ve rewritten <a href="http://sms.stack.network/apis/">my main API listing page using Liquid, running in Jekyll</a>, which uses a _data folder full of APIs.json, and OpenAPI Specs published as part of each of <a href="http://apievangelist.com">my API life cycle, or API stack research</a>. To operate, this listing just mounts the _data folder, and loops through all APIs.json files it contains, then parses each property present, giving special attention to OpenAPI Spec, and API plan formats.</p>
 
-<p><a href="http://sms.stack.network/apis/"><img src="https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sms-api-organization-listing.png" alt="" /></a></p>
+<p><a href="http://sms.stack.network/apis/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sms-api-organization-listing.png" alt="" /></a></p>
 
 <p><a href="http://liquidmarkup.org/">Liquid</a> + <a href="https://jekyllrb.com/">Jekyll</a>, running on <a href="https://pages.github.com/">Github Pages</a> gives me a simple, static way of representing the machine readable indexes I generate for any of my research areas using APIs.json, OpenAPI Spec, and my new API plan format. Jekyll gives me the entire contents of the API definitions I’m storing in my _data folder, as a single Liquid object which I can loop through, to generate the static HTML for my listing of APIs. Using this approach gives me a machine readable index of all the moving parts of any single, or multiple API collection. </p>
 
 <p><a href="http://sms.stack.network/apis/">The list of SMS APIs in this research is pretty verbose</a>. I’m not even listing out the parameters, headers, and other details of each API, and the listings are pretty involved–further backing up Abhinav thoughts around simplifying the API documentation that we are generating. To help me push forward my Liquid skills, and the possibilities around breaking up the properties of each API defined using APIs.json, I took the same code and generated a separate, <a href="http://sms.stack.network/plans/">trimmed down version which only shows the APIs overview, and the details of their API plans, leaving out the details of each API endpoint</a>.</p>
 
-<p><a href="http://sms.stack.network/plans/"><img src="https://s3.amazonaws.com/kinlane-productions2/api-evangelist/nexmo-api-plans.png" alt="" /></a></p>
+<p><a href="http://sms.stack.network/plans/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/nexmo-api-plans.png" alt="" /></a></p>
 
 <p>While the static approach to generating HTML, using Liquid, Jekyll, and APIs.json, OpenAPI Spec, and API plan, has given me a lot of control, and I will keep pushing forward a toolbox of Liquid, Jekyll + JSON modules, I wanted to also push forward a JavaScript solution as well. Using Jquery, I basically recreated what I was doing with Liquid, giving me JavaScript array containing the APIs.json index of APIs. Now I know I can loop through, and share all the API details just as I listed above, but using JS I wanted to go beyond the Liquid representation, and make smaller, more embeddable API documentation solutions, that wouldn’t be bound to a Jekyll site, if you didn’t want them to be.</p>
 
-<p><a href="http://sms.stack.network/apisjson/bycollection/"><img src="https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sms-apis-by-collection.png" alt="" /></a></p>
+<p><a href="http://sms.stack.network/apisjson/bycollection/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sms-apis-by-collection.png" alt="" /></a></p>
 
 <p><a href="http://sms.stack.network/">In my SMS research, I am profiling nine separate APIs</a>, which each have its own APIs.json indexing each of the APIs, there is also a root APIs.json for the SMS research, which includes each of the sub API collections. I wanted to start here, and share a simple list of the API endpoints contained within each collection.</p>
 
@@ -753,7 +753,7 @@
 
 <p>This gives me to quick, alternate vantage points of my API collections. While I like browsing the entire collection in detail via the main page, I can see the potential in understanding these resources on a new level, when I break them down by provider, or tags applied. One thing this brought to the surface for me, is how poorly, and inconsistently some of the API definitions are, but once I clean up the summaries and tags across these APIs, I’m thinking it could be some pretty powerful JuJu.</p>
 
-<p><a href="http://sms.stack.network/apisjson/bytag/"><img src="https://s3.amazonaws.com/kinlane-productions2/api-evangelist/sms-api-by-tag.png" alt="" /></a></p>
+<p><a href="http://sms.stack.network/apisjson/bytag/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/sms-api-by-tag.png" alt="" /></a></p>
 
 <p>Ok, so WTF am I doing here? Why does it matter? I am decoupling the benefits that API definition driven, interactive documentation like Swagger UI, Apiary, and Lucybot Console have brought us. None of this is functional like Swagger UI is, I am just focusing on the decoupling of the surface area of any API, or collections of API, next I will play around with making things minimally interactive, like being able to make a simple GET call for an API, or maybe a POST as well–it will come with time.</p>
 

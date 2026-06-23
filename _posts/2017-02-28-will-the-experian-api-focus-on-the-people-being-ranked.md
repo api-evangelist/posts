@@ -2,7 +2,7 @@
 layout: post
 title: Will The Experian API Focus On The People Being Ranked?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_02_25_at_6.02.50_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_02_25_at_6.02.50_pm.png
 atomdate: 2017-02-28T17:00:00.000Z
 tags:
   - People

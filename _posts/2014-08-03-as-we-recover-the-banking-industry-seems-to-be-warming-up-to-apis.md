@@ -1,7 +1,7 @@
 ---
 layout: post
 title: As We Recover The Banking Industry Seems To Be Warming Up To APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-bank.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-bank.png
 author:
   name: kinlane
 tags:

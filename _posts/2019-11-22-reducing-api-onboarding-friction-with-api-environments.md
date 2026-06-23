@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Reducing API On-Boarding Friction With API Environments
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_evangelist_environments_screenshots.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_evangelist_environments_screenshots.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I’m obsessed with making my Postman collections more accessible and executable
 
 I’ve been working hard to create a number of new Postman collections and even once you click on the Run in Postman button for each API collection, you still have to go signup for an account, create an OAuth application, and plugin in the OAuth details for API before you can make your first API call — this is dumb. We desperately need to redefine what an application is in the context of the API management layer for providers. As I’ve said many times before, [every API provider needs to provide personal OAuth access tokens by default as part of your account like GitHub does](http://apievangelist.com/2019/10/04/personal-api-tokens-for-all-apis-please/). This should be the baseline for all APIs, but we also need more services and tooling that helps us generate and manage tokens for use across our low-code and no-code API integration solutions. I got frustrated enough recently that I just began hacking together what I am simply calling: [API Evangelist Environments](https://environments.apievangelist.com).
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_evangelist_environments_screenshots.png)](https://environments.apievangelist.com)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_evangelist_environments_screenshots.png)](https://environments.apievangelist.com)
 
 It’s a pretty crude tool, but it represents a pretty good start. It helps establish a base OAuth application for a handful of common APIs, allowing anyone to click and generate a token which can be used to make API calls. If you put your Postman API key in the text box, it will also generate a Postman environment and place it in your Postman account. There are lots of other things to consider as part of this project--things like the scope of each token request, the naming of the Postman environment key, and which services do I add next. It doesn't do everything I need, but it is a nice start. It helps me quickly generate OAuth tokens for the services I’m building collections for, and it gets me thinking about what is next when it comes to making my Postman collections easier to use out of the box.
 

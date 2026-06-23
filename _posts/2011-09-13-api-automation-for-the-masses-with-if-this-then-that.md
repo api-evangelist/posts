@@ -4,13 +4,13 @@ title: API Automation for the Masses with If This Then That
 url: >-
   http://apievangelist.com/2011/09/13/api-automation-for-the-masses-with-if-this-then-that/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/if-this-then-that.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/if-this-then-that.png
 author:
   name: kinlane
 tags:
   - Automation
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/ifthisthenthat/if-this-then-that.png)I believe that [REST](/buildingblocks/restful_api.php "REST") and [JSON](/2011/01/27/api-technology-json/ "JSON") are breaking up the web, into smaller more understandable, re-usable, mashable pieces that potentially anyone can use, even non-developers.  
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/ifthisthenthat/if-this-then-that.png)I believe that [REST](/buildingblocks/restful_api.php "REST") and [JSON](/2011/01/27/api-technology-json/ "JSON") are breaking up the web, into smaller more understandable, re-usable, mashable pieces that potentially anyone can use, even non-developers.  
   
 I have written several posts on how tools like [API explorers](/2011/03/24/explorers-open-api-access-beyond-developers/ "API Explorers") and standards like [oEmbed](/2011/04/06/allow-api-users-to-embed-content-with-oembed/ "oEmbed") are making APIs accessible by non-developers.  And I’m always on the look out for new ideas, for new ways to arm the masses with tools that take advantage of APIs.  
   
@@ -21,7 +21,7 @@ ifttt allows you to creates tasks.  Tasks are defined like this: when something
 *   **this (triggers) -** The this part of a task is the Trigger. Some example Triggers are "if I'm tagged in a photo on Facebook" or "if I tweet on Twitter." 
 *   **that (actions) -** The that part of a task is the Action. Some example Actions are "then send me a text message" or "then create a status message on Facebook." 
 
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/ifthisthenthat/ifttt-Dashboard.png)Triggers and Actions come from Channels. Channels are the services and devices we use every day, such as:  Twitter, Facebook, Instagram, Email, Phone Call or Weather.  
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/ifthisthenthat/ifttt-Dashboard.png)Triggers and Actions come from Channels. Channels are the services and devices we use every day, such as:  Twitter, Facebook, Instagram, Email, Phone Call or Weather.  
   
 You can put one channel's trigger together with another channel's action to create a task that runs every 15 minutes and can be turned on and off.  
   

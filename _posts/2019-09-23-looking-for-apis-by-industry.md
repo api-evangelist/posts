@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Looking For APIs By Industry
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/long-factory-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/long-factory-copper-circuit.jpg
 author:
   name: kinlane
 tags:

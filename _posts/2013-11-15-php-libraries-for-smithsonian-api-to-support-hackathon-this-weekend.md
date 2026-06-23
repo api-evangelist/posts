@@ -2,7 +2,7 @@
 layout: post
 title: PHP Libraries For Smithsonian API to Support Hackathon This Weekend
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/smithsonian-statue-hackathon.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/smithsonian-statue-hackathon.jpg
 author:
   name: kinlane
 tags:

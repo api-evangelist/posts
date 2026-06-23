@@ -1,7 +1,7 @@
 ---
 layout: post
 title: fotobooks on Facebook
-image: http://kinlane-productions2.s3.amazonaws.com/mimeo/fotobooks.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/mimeo/fotobooks.jpg
 author:
   name: kinlane
 tags:
@@ -9,7 +9,7 @@ tags:
 ---
 I'm going through the my list of existing and potential self-publishing and print-on-demand applications. First on my list is the [fotobooks the Facebook social print application](http://apps.facebook.com/fotobooks/).
 
-Its a pretty straightforward app allowing you to organize photos from your Facebook alkinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/mimeo/fotobooks.jpg)](http://apps.facebook.com/fotobooks/) With 2 clicks you can have the application installed in your Facebook profile:
+Its a pretty straightforward app allowing you to organize photos from your Facebook alkinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/shared/mimeo/fotobooks.jpg)](http://apps.facebook.com/fotobooks/) With 2 clicks you can have the application installed in your Facebook profile:
 
 *   Click Getting Started from fotobooks home page
 *   Allow the applications request for permissions

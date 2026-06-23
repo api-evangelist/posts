@@ -3,7 +3,7 @@ layout: post
 title: >-
   Internet Of Things Security And Privacy Will Always Begin With Asking If We
   Should Do This At All
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dead-end-sign.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-dead-end-sign.jpeg
 author:
   name: kinlane
 date: 2015-01-09T00:53:22.000Z

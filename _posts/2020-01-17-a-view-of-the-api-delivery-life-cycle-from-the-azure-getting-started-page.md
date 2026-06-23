@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A View of the API Delivery Life Cycle from the Azure Getting Started Page
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-seatlle-shipping-mountain.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-seatlle-shipping-mountain.jpg
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ I am working my way through doing more work around the multi-cloud deployment of
 
 ### Infrastructure
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-seatlle-shipping-mountain.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/stalin-time-seatlle-shipping-mountain.jpg)
 
 Providing the fundamental building blocks of compute for all of this.
 
@@ -83,7 +83,7 @@ This area will continue grow pretty rapidly in coming years in all industries.
 
 ### Interfaces
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-seattle-shipping-people-walking.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/stalin-time-seattle-shipping-people-walking.jpg)
 
 The ways in which we are interfacing with the software development life cycle.
 

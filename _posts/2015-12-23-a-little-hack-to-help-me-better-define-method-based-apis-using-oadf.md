@@ -2,7 +2,7 @@
 layout: post
 title: A Little Hack To Help Me Better Define Method Based APIs Using OADF
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-technology-of-apis.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-technology-of-apis.png
 author:
   name: kinlane
 tags:

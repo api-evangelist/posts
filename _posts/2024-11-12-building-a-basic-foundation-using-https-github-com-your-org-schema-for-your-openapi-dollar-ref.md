@@ -9,7 +9,7 @@ tags:
   - JSON Schema
   - References
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-subway-platform.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-subway-platform.jpeg
 ---
 It is fascinating how complex we can make things through us technologists overthinking things. One example of this is around the usage of $ref in OpenAPI, JSON Schema, and AsyncAPI. It is one are of API operations we continue to overthink and under deliver on, and I am always looking for ways to help people get a handle on things. I am not pointing fingers here, because I am struggling with how to properly reference things in my APIs.json specification, while also struggling with stabilizing the conversation across OpenAPI, AsyncAPI, and JSON Schema while I was helping lead conversations in these spaces. This stuff is hard, but we need to begin to get more pragmatic and bring home some realistic solutions.
 

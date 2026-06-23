@@ -2,7 +2,7 @@
 layout: post
 title: Which Of The Three OAuth Legs Is The Most Important?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apistrat-ecosystem-panel.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apistrat-ecosystem-panel.jpg
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ To provide a quick primer for the portion of my audience that aren’t OAuth gee
 
 Ok, what does that mean? Think Twitter. Twitter is server. You are the owner of your tweet resources. When you authenticate anywhere using your Twitter ID, that website or app uses OAuth to get access to your tweets, via the Twitter platform. If you login to your Twitter account, click on settings and select apps from the left menu--these are apps and sites that have requested OAuth access your Twitter resources.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/oauth/OAuth2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/oauth/OAuth2.png)
 
 OAuth is a relationship between you, your platform provider and various sites and apps that want to access your data via the API. Sometimes these apps and your platform provider are one and the same, but the beauty of OAuth is that anyone can request access from you--access that you can revoke when you choose.
 
@@ -26,7 +26,7 @@ Back to the panel at API Strategy & Practice. Every panelist, except for Asif Ra
 
 In reality, I worry that when platform discussions do occur, the conversation leans too much in favor of platform, then the developer, with very little to no involvement of the end user. Think of the Twitter ecosystem discussions since March of 2010. Rarely do you hear discussion about API access and ecosystem viability in the context of the end-users. Platforms and especially developers are very good at being very loud in these conversations.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/oauth/oauth-twitter-3-legs.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/oauth/oauth-twitter-3-legs.png)
 
 In my opinion all three legs of OAuth are equally important, with an emphasis on the end-user. It is their resource right? Or is it? The only thing standing between healthy OAuth conversations and relationships is the platforms terms of use and privacy policies.
 

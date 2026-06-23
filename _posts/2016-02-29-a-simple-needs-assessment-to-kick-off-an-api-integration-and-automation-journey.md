@@ -4,7 +4,7 @@ title: >-
   A Simple Needs Assessment To Kick Off An API Integration And Automation
   Journey
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-integration-automation.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-integration-automation.png
 tags:
   - Automation
   - Integration

@@ -10,7 +10,7 @@ tags:
   - Github
   - Management
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/nexmo/nexmo-api-specifications.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/nexmo/nexmo-api-specifications.png
 ---
 <p></p>
 I'm big on supporting API providers that publish their OpenAPI definitions to Github. It is important for the wider API community that ALL API definitions are machine readable, and available in a way that can be forked, and integrated into continuous integration pipelines. I'm not even talking about the benefits to the API providers when it comes to managing their own API lifecycle. I'm just focusing on the benefits to API consumers, and helping make on-boarding, integration, and keeping in sync with the road map as frictionless as possible.

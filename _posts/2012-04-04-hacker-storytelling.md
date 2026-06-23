@@ -18,8 +18,6 @@ Then I realized that I needed to actually hack on each API to truly understand h
 
 I chose to build an [Interactive Places API Comparison Tool.](http://places-comparison-v1.hyp3rl0cal.com/index.php "Interactive Places API Comparison Tool")
 
-[![](http://www.citygridmedia.com/developer/wp-content/uploads/2012/03/CityGrid-Google-Yelp-1024x189.png)](http://places-comparison-v1.hyp3rl0cal.com/index.php "Interactive Places API Comparison Tool")
-
 As a start, I chose 3 places APIs to compare: [CityGrid](http://developer.citygridmedia.com/ "CityGrid"), [Google](https://developers.google.com/maps/documentation/places/ "Google") and [Yelp](http://www.yelp.com/developers/documentation/v2/overview "Yelp"). The Interactive Places API Comparison Tool provides a what and where textual search as well as a latitude and longitude search, simultaneously across the 3 APIs.
 
 Once I built the first prototype I [blogged about the comparison tool for the first time](http://www.citygridmedia.com/developer/blog/interactive-places-api-comparison-for-citygrid-google-and-yelp/), as well as some of the research that went into it, like [Places API request format comparison](http://www.citygridmedia.com/developer/blog/interactive-places-api-comparison-for-citygrid-google-and-yelp/ "places api comparison")\--talking about how CityGrid, Google and Yelp each tailored their API requests.

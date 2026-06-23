@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Open Source Community Tooling Built on Postman
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/uncle-sam-construction-crane-city.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-construction-crane-city.jpg
 author:
   name: kinlane
 tags:

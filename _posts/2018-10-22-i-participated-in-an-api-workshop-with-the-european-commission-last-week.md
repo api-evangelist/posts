@@ -4,8 +4,6 @@ layout: post
 title: 'I Participated In An API Workshop With The European Commission Last Week'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/events/apis4dgov/DpyR9qrXoAAYo4r.jpg
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/events/apis4dgov/DpyR9qrXoAAYo4r.jpg" width="45%" align="right" style="padding: 15px;" />
 <p>I was in Ispra, Italy last week for a two day workshop on APIs with the European Commission. <a href="https://ec.europa.eu/digital-single-market/en/news/new-study-digital-government-apis-apis4dgov-project">The European Commission’s DG CONNECT together with the Joint Research Centre (JRC) launched a study</a> with the purpose to gain further understanding of the current use of APIs in digital government and their added value for public services, and they invited me to participate. I was joined by Mehdi Medjaoui (<a href="https://twitter.com/medjawii">@medjawii</a>), David Berlind (<a href="https://twitter.com/dberlind">@dberlind</a>), and Mark Boyd (<a href="https://twitter.com/mgboydcom">@mgboydcom</a>), along with EU member states, and European cities, to help provide feedback and strategies for consideration by the commission.
 
 <p>This European Commission study is looking at <em>“innovative ways to improve interconnectivity of public services and reusability of public sector data, including dynamic data in real-time, safeguarding the data protection and privacy legislation in place.”</em> Looking to:

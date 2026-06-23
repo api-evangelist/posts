@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Discovery is Hard
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-statue-facing-scrunched.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-statue-facing-scrunched.jpg
 author:
   name: kinlane
 tags:

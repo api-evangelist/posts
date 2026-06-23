@@ -8,7 +8,7 @@ tags:
   - AI
   - Artificial Intelligence
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 I was happy to have Raymond Camden, Developer Advocate at Adobe come by for another conversation. Raymond was on Breaking Changes back in the day, and I've been a follower of his work for well over a decade. He provided his obligatory plug for Adobe APIs he is an advocate for, but what is really motivating him was his new work at the intersection of API and AI. I don't have the time and budget to go to deep on AI, so I enjoy learning from someone who is as curious and pragmatic as I am about new technologies, a conversation that left me with some ideas of how I am going to use not just ChatGPT, but also Google Gemini for some of the API profiling work I am doing.
 

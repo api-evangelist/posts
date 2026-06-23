@@ -2,7 +2,7 @@
 layout: post
 title: Developing Internal API Curriculum And Workshops For Your Organization
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/11401079_10153382852574813_2225414678045568111_n.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/11401079_10153382852574813_2225414678045568111_n.jpg
 atomdate: 2017-04-21T23:00:00.000Z
 tags:
   - Workshops

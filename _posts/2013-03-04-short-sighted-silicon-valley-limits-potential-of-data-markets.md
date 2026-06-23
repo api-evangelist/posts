@@ -2,7 +2,7 @@
 layout: post
 title: Short Sighted Silicon Valley Limits Potential of Data Markets
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/data-market-visualization.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/data-market-visualization.jpg
 author:
   name: kinlane
 tags:
@@ -23,7 +23,7 @@ There will be plenty of money down the road from APIs and data marketplaces, but
 
 I’m spending time looking through the API service provider space, and [last week I noticed the big gap in there being API deployment services vs. API management services](/2013/03/01/api-deployment-as-a-service/). This imbalance is due to a gold rush by heavily VC funded API service providers looking to capitalize on the enterprise looking to proxy their existing infrastructure with a new breed of API services.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/data-marketplaces/data-markets.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/data-marketplaces/data-markets.jpg)
 
 I’ve argueed this with execs at _unamed API service provider companies_, on whether the next growth in APIs will be from new, API providers or from the enterprise. I was told I’m naive and it shows my inexperience that I think it will come from outside the enterprise. While there will be money to be made off the enterprise evolving their existing infrastructure in this new way, in reality this is just a small evolution in business not anywhere near a revolution. Where big change in business sectors and economies will occur is when companies, organizations and government who didn’t jump on SOA bandwagon understand the value of opening up data, and making available via APIs in this new way.
 

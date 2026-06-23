@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Enabling the API Lifecycle with the Postman Platform
-image: https://apievangelist.com/images/openapi-lifecycle-1.jpg
+image: https://kinlane-images.s3.amazonaws.com/algorotoscope/purple-circuit-IMG_2476.jpeg
 tags:
   - Lifecycle
   - OpenAPI

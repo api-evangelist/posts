@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some Advice For The Enterprise When Beginning Your API Journey
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hiking.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-hiking.png
 author:
   name: kinlane
 tags:

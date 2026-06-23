@@ -7,7 +7,7 @@ tags:
   - API Evangelist
   - Design
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/gears-4882162452-fa3126b38d-b-umberto-bocc.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/gears-4882162452-fa3126b38d-b-umberto-bocc.jpg
 author:
   name: kinlane
 ---

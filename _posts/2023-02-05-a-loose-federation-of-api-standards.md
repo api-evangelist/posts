@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Loose Federation of API Standards
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-city-clouds-waterfront.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-city-clouds-waterfront.jpg
 author: null
 name: kinlane
 tags:

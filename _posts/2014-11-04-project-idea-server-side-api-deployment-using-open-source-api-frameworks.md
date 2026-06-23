@@ -2,7 +2,7 @@
 layout: post
 title: 'Project Idea: Server Side API Deployment Using Open Source API Frameworks'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-stack-api-frameworks.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-stack-api-frameworks.png
 author:
   name: kinlane
 tags:

@@ -4,7 +4,6 @@ layout: post
 title: 'The OpenAPI Demand Generation Office Hours Last Friday'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_demand_generation.png
 ---
-<p><a href="https://github.com/oai-demandgen/home"><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openapi_demand_generation.png" alt="" width="40%" align="right" /></a></p>
 <p class="p1">I conducted the first OAI Demand Generation Public Office Hours last Friday. On behalf of the OAI I am looking to generate more awareness and demand around the specification, helping bring together members and non-members in the community to tell more stories about what is happening around the specification. I pitched the idea as part of the OAI marketing meeting, and didn&rsquo;t want to waste any time in scheduling a meeting and getting the conversation going. We had a pretty small turnout for the first one, resulting me just talking about what I am already working on for over a half hour. However, we now have over 20 people added to the invite for the recurring meeting every Friday at 8:00 AM Pacific Time.</p>
 <p class="p1">Here are a few ways you can catch up on what is going on, and get involved:</p>
 <ul>

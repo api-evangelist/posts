@@ -2,7 +2,7 @@
 layout: post
 title: Google Shares Insight On How To Improve Upon The API Experience
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_improve_your_api_experience.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_improve_your_api_experience.png
 atomdate: 2016-10-10T16:00:00.000Z
 tags:
   - Experience

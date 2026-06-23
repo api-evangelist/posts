@@ -2,7 +2,7 @@
 layout: post
 title: Open Discussions About Funding API Startups
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-business-api-response.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-business-api-response.png
 atomdate: 2017-05-02T19:00:00.000Z
 tags:
   - Open

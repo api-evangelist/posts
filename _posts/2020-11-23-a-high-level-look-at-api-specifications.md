@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A High Level Look At API Specifications
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/aws-s3-stories-crypto-machine-bletchley-copper-circuit.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-crypto-machine-bletchley-copper-circuit.png
 author:
   name: kinlane
 tags:
@@ -30,7 +30,7 @@ SOAP has been around for a number of years, but OpenAPI, AsyncAPI, JSON Schema, 
 
 There are a number of reasons why API providers and API service providers adopt each of these specifications, but here are a few of the most common reasons why you will find these API specification in use across the enterprise. Hopefully these help you make a decision between what specification you are using. 
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/aws-s3-stories-docks-copper-circuit.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-docks-copper-circuit.jpg)
 
 **OpenAPI**
 
@@ -66,7 +66,7 @@ There are a number of reasons why API providers and API service providers adopt 
 
 **RAML**
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/aws-s3-stories-machine-road-copper-circuit.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-machine-road-copper-circuit.jpg)
 
 *   You are heavily using the Mulesoft API ecosystem.
 *   You are modeling centered in your API design

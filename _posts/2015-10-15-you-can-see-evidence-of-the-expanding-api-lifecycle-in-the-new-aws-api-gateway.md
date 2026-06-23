@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You Can See Evidence Of The Expanding API Lifecycle In The New AWS API Gateway
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-lifecycle.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-lifecycle.png
 author:
   name: kinlane
 tags:

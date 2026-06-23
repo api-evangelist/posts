@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Quickest Way To Make An Idea for an API Usable By Others
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/6_request.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/6_request.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ I have used Postman in a handful of webinars and takes recently to demonstrate h
 
 To demonstrate how you can quickly deploy an API using Postman I’ve compiled a list of some of the restaurants in Oakland (where I live) that are still open for take-out and delivery. To demonstrate what is possible I have added four restaurants to a JSON file, providing me with what I’d like to see for my API response.
 
-![](https://kinlane-productions2.s3.amazonaws.com/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/1-json.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/1-json.png)
 
 This JSON will become the response for me new API, providing a list of restaurants for Oakland. However, with an eye for the future I will be looking to create separate JSON responses for Berkeley and other surrounding cities, breaking up my API into more usable chunks.
 
@@ -23,13 +23,13 @@ This JSON will become the response for me new API, providing a list of restauran
 
 To launch my new restaurants API I am opening up Postman, creating a new request for the API I am wanting to share with others. Adding a path resource named restaurants with a city parameter with a value of Oakland, allowing me to break things up by city in the near future.
 
-![](https://kinlane-productions2.s3.amazonaws.com/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/2-request.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/2-request.png)
 
 ### Save Request as a Collection
 
 Before I can actually put my new imaginary API to work I will need to save the request as part of a collection. Helping provide me with a way to organize my API, but also begin to make it more tangible and executable as a Postman collection. Taking the first step towards making my API idea a little more real.
 
-![](https://kinlane-productions2.s3.amazonaws.com/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/3-save.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/3-save.png)
 
 This collection will make my new API much more defined, providing me with something that I can use to further bring my API to life, but more importantly it is something that I can share with others using a URL or workspace, providing them with an executable representation of what I am thinking.
 
@@ -37,7 +37,7 @@ This collection will make my new API much more defined, providing me with someth
 
 Now I am going to take the JSON example I create for my Oakland restaurants and I’m going to add it to Postman. For my new request I am going to add new example, and paste in my JSON, representing what I’d like to see come back for each request to my new API.
 
-![](https://kinlane-productions2.s3.amazonaws.com/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/4-example.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/4-example.png)
 
 This will provide users of my new API with a response when the city is Oakland, but I can also add examples for Berkeley and other surrounding cities once I am ready. Providing several different responses fo ray different consumers allowing them to choose which restaurants they are looking for.
 
@@ -45,7 +45,7 @@ This will provide users of my new API with a response when the city is Oakland, 
 
 With my new request, collection, and example, I can take the next step of actually publishing a mock server for my new API. To bring to life I click on the three dots (…) action menu for my collection, and choose to mock our new collection.
 
-![](https://kinlane-productions2.s3.amazonaws.com/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/5-mock.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/5-mock.png)
 
 We can give out new mock server a name, and chose to make public or private. I am just going to make public for the sake of the demo. Making my API as easy for consumers to put to use as I am working to get them on-board with my new API idea. Removing as much friction from the process as possible.
 
@@ -53,7 +53,7 @@ We can give out new mock server a name, and chose to make public or private. I a
 
 Now using the URL I was given for my new mock server I can I can paste into the request I have defined. Completing the circle for what I am needing to actually make a call to my API. I should now be able to hit send on my request and I will get back the JSON response I’ve published for my API.
 
-![](https://kinlane-productions2.s3.amazonaws.com/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/6-request.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/6-request.png)
 
 Now I have an API that I can share with others using the browser, or using Postman. Demonstrating what I mean when I am talking about my Restaurant API. However, I’d like to go one more step, helping make my API more tangible and executable by others I am talking to about my API idea.
 
@@ -61,7 +61,7 @@ Now I have an API that I can share with others using the browser, or using Postm
 
 Having my Mock API makes my idea much more tangible, but there is one more step I’d like to take helping put a face to my new API—publishing documentation. Using Postman I also click on the three dots (…) action button for my new collection, and choose to publish documentation for my new API.
 
-![](https://kinlane-productions2.s3.amazonaws.com/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/7-docs.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/postman-tutorials/quickest-way-to-make-an-api-usable-by-others/7-docs.png)
 
 As you work your way through the wizard for publishing your API documentation you can just hit publish and leave all the settings default, or you can get to work tweaking and customizing. For purposes of this demo I am just looking for that link to my documentation, so that I can share with others to help illustrate what I am talking about.
 

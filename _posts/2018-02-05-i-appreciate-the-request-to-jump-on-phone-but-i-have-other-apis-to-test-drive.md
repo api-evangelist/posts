@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'I Appreciate The Request To Jump On Phone But I Have Other APIs To Test Drive'
-image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/desertroad/clean_view/file-00_00_00_00.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/i-appreciate-the-request-to-jump-on-phone-but-i-have-other-apis-to-test-drive.png
 ---
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/desertroad/clean_view/file-00_00_00_00.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p><a href="http://apis.how/streamdata">Streamdata.io</a> is investing in my <a href="http://theapistack.com">API Stack</a> work as we build out their API Gallery of valuable data streaming APIs. I’m powering through hundreds of APIs and using my approach to profiling APIs that I have been developing over the last eight years of operating API Evangelist. I have a large number of APIs to get through, so I don’t have a lot of time to spend on each API. I am quickly profiling and ranking them to quickly identify which one’s are worth my time. While there are many elements that get in the way of me actually being able to obtain an API key and begin using an API, one of the more frustrating elements when API providers require me to jump on the phone with them before I can test drive any APIs.
 
 <p>I’ve encountered numerous APIs that require me talk to a sales person before I can do anything. I know that y’all think this is savvy. This is how business is done these days, but it just isn’t the way you start conversations with API consumers. Sure, there should be support channels available when I need them, but it SHOULD NOT be the way you begin a conversation with us API consumers. I’ve heard all the reasons possible for why companies feel like they need to do this, and I guarantee that all of them are based upon out of date perspectives around what APIs are all about. Often times they are a bi-product of not having a modern API management solution in place, and a team that lacks a wider awareness of the API sector and how API operations works.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: More Meaningful, Niche API Hubs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-stacks.png
 author:
   name: kinlane
 tags:

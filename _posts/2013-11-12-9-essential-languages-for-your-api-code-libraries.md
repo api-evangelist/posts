@@ -2,7 +2,7 @@
 layout: post
 title: 9 Essential Languages For Your API Code Libraries
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-google-drive-icon.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-google-drive-icon.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ I was working with Google APIs over the last couple days while building [Google 
 
 In this post I wanted to highlight the [Google Drive Code Libraries](https://developers.google.com/drive/downloads "Google Drive Code Libraries"). While the Google approach isn't perfect, I think it sets a good bar for what can be achieved by API providers when delivering their own API code libraries.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/google-drive/google-drive-code-samples-2.png)](https://developers.google.com/drive/downloads "Google Drive Code Libraries")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/google-drive/google-drive-code-samples-2.png)](https://developers.google.com/drive/downloads "Google Drive Code Libraries")
 
 I think the languages represented are the baseline for any modern API, and all API providers should consider providing the following languages:
 

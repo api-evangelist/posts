@@ -4,7 +4,7 @@ title: The Secret to Amazon's Success--Internal APIs
 url: >-
   http://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/amazon-com-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/amazon-com-logo.jpg
 author:
   name: kinlane
 tags:
@@ -29,7 +29,7 @@ The mandate closed with:
 > **_Anyone who doesn’t do this will be fired.  Thank you; have a nice day!_**
 
 Everyone got to work and over the next couple of years, Amazon transformed itself, internally into a service-oriented architecture (SOA), learning a tremendous amount along the way.  
-![](http://kinlane-productions2.s3.amazonaws.com/AWS_LOGO_CMYK.jpg)  
+![](https://kinlane-images.s3.amazonaws.com/shared/AWS_LOGO_CMYK.jpg)  
 Think about what Bezos was asking!   Every team within Amazon had to interact using web services.  If you were human resources and you needed some numbers from marketing, you had to get them using an API.  He was asking every team to decouple, define what resources they had, and make them available through an API.  Every team within your company essential becomes a partner of the other.
 
 Some of the lessons Amazon learned along the way:

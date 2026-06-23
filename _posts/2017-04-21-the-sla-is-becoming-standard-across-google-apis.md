@@ -2,7 +2,7 @@
 layout: post
 title: The SLA Is Becoming Standard Across Google APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_04_21_at_11.16.22_am.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_04_21_at_11.16.22_am.png
 atomdate: 2017-04-21T22:00:00.000Z
 tags:
   - SLA

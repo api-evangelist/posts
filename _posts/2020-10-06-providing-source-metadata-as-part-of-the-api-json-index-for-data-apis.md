@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Providing Source Metadata as Part of the API.json Index for Data APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_10_06_at_2.03.22_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_10_06_at_2.03.22_pm.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ First, to make sure everyone is up to speed, [APIs.json](http://apisjson.org/) /
 
 Right now the x-sources APIs.yaml property just provides an array of name and urls for each of the data sources behind each API. Mostly just providing a list of URL sources that can be displayed, but it is a property that could be evolved to provide more machine readable capabilities like grouped by domain, rating, public or private sector, and other things you might be considered with when discovering data APIs. Eventually I will add a way for me to easily filter by all of the APIs that pull from Johns Hopkins, but for right now I am just looking to list the sources on the website for each resource center.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_10_06_at_2.03.22_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_10_06_at_2.03.22_pm.png)
 
 Initially I thought this would be a provenance type of property, but really it is just about the source of the data in this moment. I am trying to keep each property focused on solving a specific problem, and answering a meaningful set of questions, and I can always evolve the schema for a property or create new ones for addressing other issues. Right now I am just giving each API a bonus point if they have sources listed—even just one. I am finding that little meta details like this help out in search and discovery, but also are a great way to identify the API owners and curators who actually care about their APIs--which always demonstrates the potential for a better quality API in the end.
 

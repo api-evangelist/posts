@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Two Platforms That Will Bring APIs To The Masses
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-masses.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-masses.png
 author:
   name: kinlane
 tags:
@@ -13,12 +13,12 @@ I'm always on the hunt for API driven solutions that will help the average busin
 
 This is why, having a constant reminder to look for solutions that bridge the technical world of APIs, to the average business users world, helps me break free from my own biased approach. When I lean back in my chair, and think about what solutions are currently available in the space, that have this potential, these are the two companies.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/blockspring-logo.png)](https://www.blockspring.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/blockspring-logo.png)](https://www.blockspring.com/)
 
 [**Blockspring**](https://www.blockspring.com/)  
 Access web services from spreadsheets. Blockspring is the world's library of functions, accessible from everywhere you do work. Your tables automatically stay up-to-date. Save hours of manual, error-prone exports and copy/paste. Get fresh data from any source whenever your spreadsheet recalculates. Build and share powerful spreadsheet tools.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/form-io/formio-logo-full.png)](https://form.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/form-io/formio-logo-full.png)](https://form.io/)
 
 [**Form.io**](https://form.io/)  
 Form.io is a platform that enables developers to rapidly build modern web and mobile applications. Our intuitive drag & drop interface allows you to create both the forms and the RESTful API's all in one easy step!

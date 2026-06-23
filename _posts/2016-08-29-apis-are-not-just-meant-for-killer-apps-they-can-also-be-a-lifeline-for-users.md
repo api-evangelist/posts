@@ -1,7 +1,7 @@
 ---
 layout: post
 title: APIs Are Not Just Meant For Killer Apps, They Can Also Be A Lifeline For Users
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-life-line-rescue.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-life-line-rescue.png
 atomdate: 2016-08-30T00:00:00.000Z
 tags:
   - APIs

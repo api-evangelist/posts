@@ -2,7 +2,7 @@
 layout: post
 title: Should You Consider API Starter Kits for 3rd Party Platforms
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/wordpress-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/blog/wordpress-logo.jpg
 author:
   name: kinlane
 tags:

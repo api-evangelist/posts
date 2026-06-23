@@ -5,7 +5,7 @@ title: >-
   Technical
 url: >-
   http://apievangelist.com/2015/12/07/75-of-your-api-efforts-in-the-enterprise-will-be-cultural-and-political-not-technical/
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-roadblock.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-roadblock.png
 author:
   name: kinlane
 tags:

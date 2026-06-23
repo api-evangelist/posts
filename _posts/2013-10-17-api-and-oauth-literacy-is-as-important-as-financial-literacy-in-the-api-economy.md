@@ -4,7 +4,7 @@ title: >-
   API and OAuth Literacy Is As Important As Financial Literacy in the API
   Economy
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/universal-library-sign.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/universal-library-sign.png
 author:
   name: kinlane
 tags:

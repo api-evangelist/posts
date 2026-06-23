@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Managing API Secrets Using Postman Environments
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-P9180054.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/birth-of-a-nation-P9180054.jpg
 author:
   name: kinlane
 tags:

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Postman Has Documentation And Executable Collection For Their Own API
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/postman/postman-api-collections.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/postman/postman-api-collections.png
 author:
   name: kinlane
 tags:

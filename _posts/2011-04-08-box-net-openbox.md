@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Box.net OpenBox
-image: http://kinlane-productions2.s3.amazonaws.com/Box.net/Open-Box.png
+image: https://kinlane-images.s3.amazonaws.com/shared/Box.net/Open-Box.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
 
 [Box.net OpenBox](http://www.box.net/services "Box.net OpenBox") provides a directory of custom third party applications that add value to Box.net and can be integrated with users accounts.
 
-On the back-end Box.net OpenBox provides developers with a self-service application development platform to build and deploy applications in the OpenBox directory.![](https://kinlane-productions2.s3.amazonaws.com/Box.net/Open-Box.png)
+On the back-end Box.net OpenBox provides developers with a self-service application development platform to build and deploy applications in the OpenBox directory.![](https://kinlane-images.s3.amazonaws.com/shared/Box.net/Open-Box.png)
 
 Any developer can register with Box.net and:
 

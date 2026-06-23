@@ -2,7 +2,7 @@
 layout: post
 title: Prioritizing Commonly Requested Information With Your API Deployment
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-prioritization.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-prioritization.png
 atomdate: 2016-08-23T22:00:00.000Z
 tags:
   - Deployment

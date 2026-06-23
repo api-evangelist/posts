@@ -3,7 +3,7 @@ published: true
 layout: post
 title: One Possible Vision for API Commons
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-highway-line.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-highway-line.jpeg
 author: null
 name: kinlane
 tags:
@@ -50,7 +50,7 @@ Alongside API Commons we launched [APIs.json](http://apisjson.org/) to help API 
 {
   "name": "Example API",
   "description": "This is an example APIs.json file, demonstrating what is possible with the API discovery specification.",
-  "image": "https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "image": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "tags": [
     "Application Programming Interface",
     "API"
@@ -63,7 +63,7 @@ Alongside API Commons we launched [APIs.json](http://apisjson.org/) to help API 
     {
       "name": "Example API",
       "description": "This provides details about a specific API, telling what is possible.",
-      "image": "https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+      "image": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
       "humanURL": "http://example.com",
       "baseURL": "http://api.example.com",
       "tags": [

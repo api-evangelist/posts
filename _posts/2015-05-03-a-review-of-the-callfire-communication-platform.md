@@ -4,7 +4,7 @@ title: A Review of The CallFire Communication Platform
 sourceurl: >-
   http://apievangelist.com/2015/05/03/a-review-of-the-callfire-communication-platform/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/callfire-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/callfire-logo.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ tags:
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 
-[![CallFire Messaging](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/callfire/callfire-logo.png)](https://www.callfire.com/)
+[![CallFire Messaging](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/callfire/callfire-logo.png)](https://www.callfire.com/)
 
 This is a review of the [communication API platform CallFire](https://www.callfire.com/), crafting a snapshot of platform operations, from an external viewpoint, providing the CallFire platform team with a fresh take on their API from the outside-in. The criteria applied in this review is gathered from looking at the API operations across thousands of API providers, and aggregating best practices, into a single, distilled review process.
 
@@ -27,7 +27,7 @@ I prefer to share my API reviews in a narrative format, walking through each of 
 
 Next you see five simple icons, with simple text, breaking what CallFire does down: Text Messaging, Call Tracking, Video Broadcast, Cloud Call Center, IVR. Within the first five seconds you fully understand what is being offered, and given the opportunity to sign up. If that is not enough, you are also told the reasons why: Engage Your Customers, Save Valuable Time, Increase Revenue.
 
-[![CallFire Messaging](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/callfire/callfire-home-page.png)](https://www.callfire.com/)
+[![CallFire Messaging](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/callfire/callfire-home-page.png)](https://www.callfire.com/)
 
 After you look at thousands of APIs, nothing is more frustrating than to have to figure out what an API does. CallFire gives me what I need, in five seconds or less, without clicking or scrolling. This is the way all APIs should be, if not the homepage of website, then the landing page of the API developer portal. The main page of the CallFire website is well designed, and organized in a simple, and robust way, giving you one-click access to everything you need to get going with the platform--no other feedback required.
 
@@ -49,7 +49,7 @@ The intuitive and informative CallFire home page made the API easy to find, and 
 
 On-boarding with an API is often the most frustrating part of API integration, and it wasn't something I worried about at all with CallFire. The process was intuitive, smooth, and didn't leave me trying to understand what the API does, and how I am supposed to make it work. Solid A on the on-boarding process for the CallFire API.
 
-[![CallFire Messaging](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/callfire/callfire-api-documentation.png)](https://www.callfire.com/api-documentation/rest/version/1.1)
+[![CallFire Messaging](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/callfire/callfire-api-documentation.png)](https://www.callfire.com/api-documentation/rest/version/1.1)
 
 **Documentation**  
 Documentation is one of the most critical aspects of API integration, making or breaking many integration efforts by developers. CallFire has double duty, in that it needs to provide documentation for the REST and SOAP version. Somethig CallFire manages to deliver with no problem, providing clean, easy to follow documentation for both APIs they offer.
@@ -104,7 +104,7 @@ As platform providers, we are asking developers to depend on us, and integrate o
 
 Sharing the change history of a platform, a roadmap to the future, and a status of API operations at the moment go a long way in help build trust with developers. Transparency in the development of any platform, is essential in helping developers feel comfortable that a platform will be around to support their needs, and is worthy of their time.
 
-[![CallFire Messaging Pricing](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/callfire/callfire-pricing-page.png)](https://www.callfire.com/pricing)
+[![CallFire Messaging Pricing](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/callfire/callfire-pricing-page.png)](https://www.callfire.com/pricing)
 
 **Business Model**  
 When reviewing APIs, the overall business model is usually one of the most incomplete aspects of operations, in my experience. This is ok, as many platforms are still figuring this out, however this is not the case with CallFire. The business model for the platform isn't just well defined, it provides me with an example to use when helping other API providers visualize what is possible.

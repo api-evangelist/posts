@@ -2,7 +2,7 @@
 layout: post
 title: Amazon Launches Their Own QA Solution Called AWS Answers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/aws_answers_splat_1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aws_answers_splat_1.png
 atomdate: 2016-10-07T22:00:00.000Z
 tags:
   - AWS

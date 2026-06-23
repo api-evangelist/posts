@@ -3,7 +3,7 @@ published: true
 layout: post
 title: I Think We Will Have To Embrace Chaos With the Future of APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/rain-princess-IMG_7162.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/rain-princess-IMG_7162.jpg
 author:
   name: kinlane
 tags:

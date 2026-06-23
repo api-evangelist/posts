@@ -8,7 +8,7 @@ tags:
   - Producers
   - Consumers
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-western-union-telegraph-and-cable.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-western-union-telegraph-and-cable.jpeg
 ---
 I have been [exploring the addition of a new property type to APIs.json called “Contract”](https://apisjson.org/2024/07/07/considering-some-new-apis-json-types/). I wrote about recently [how we need to expand our definition of the API contract beyond a technical contract like OpenAPI or AsyncAPI](https://apievangelist.com/2024/07/06/expanding-the-definition-of-our-api-contracts/). I am looking to establish a baseline any company could use as a boilerplate contract between API consumer and producer. Here is the draft I have crafted to express the minimum API contract.
 

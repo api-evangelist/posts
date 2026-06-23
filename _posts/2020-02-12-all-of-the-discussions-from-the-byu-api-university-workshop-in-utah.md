@@ -3,7 +3,7 @@ published: true
 layout: post
 title: All of the Discussions from the BYU API University Workshop in Utah
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/university_api_workshop_1.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/university_api_workshop_1.jpg
 author:
   name: kinlane
 tags:
@@ -84,7 +84,7 @@ The University API Workshop is an _“unConference Focused on University & Perso
 
 The titles don’t do all of the discussions justice, so make sure and peek inside each of the Google Docs. I participated in as many of the talks as I could and will be doing additional posts on my Postman talk, Reclaim the API, API governance, and the Raspberry Pi session. I think overall the gathering provides a pretty compelling look into the university API landscape and showcases the challenges they face, and the problems they are looking to solve. In my experience universities aren’t always the best at telling the stories of the interesting things they are working on across campus, so this type of event is critical for helping us better understand the university API landscape.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/university_api_workshop_2.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/university_api_workshop_2.jpg)
 
 A small API event like this in Utah is easy for many API folks in the mainstream to dismiss, but I hold this event, and what the BYU team up at the same level as just about any other event I attend as part of my global work on APIs. BYU’s CIO Kelly Flanagan (and team) has carved out the space for API exploration across campus in a way I have not seen anywhere else. I’m not exaggerating. Sure, startups like Twilio and Stripe are rocking APIs, but there is no other institution, government agency, or enterprise organization I’ve seen that has issued an API mandate like Kelly Flanagan has. If you want to truly understand the successes and challenges of doing APIs at scale across a large organization I recommend talking with the BYU team, and participating in one of the University of API gatherings—I am still learning from them after a decade of API Evangelist, and six years of being exposed to what their teams are up to.
 

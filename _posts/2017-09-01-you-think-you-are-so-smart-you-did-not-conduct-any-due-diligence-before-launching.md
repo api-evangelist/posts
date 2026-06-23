@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'You Think You Are So Smart You Did Not Conduct Any Due Diligence Before Launching'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/supreme-court-judgement.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/you-think-you-are-so-smart-you-did-not-conduct-any-due-diligence-before-launching.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/supreme-court-judgement.jpg" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p>You know your API stuff. You know it so well, you don’t even need to look at other APIs. There is no reason to Google and look for other APIs because your stuff is that good. Your idea came to you in a flash, and you worked for an entire weekend to bring to life. Your a genius. Everyone has told you so. This stuff just comes to you, and as long as you are left alone, the magic just happens. If people just stay out of your way, do not burden you with outside influences, and unnecessary concerns, you will keep rolling out amazing APIs that everyone will love and need.
 
 <p>You consume books, and digest endless blog posts and white papers recommended by your trusted network of friends. You don’t ever notice authorship. They don’t matter. It is all about feeding your mind, and you will decide whether it is worthy or not. You don’t save bookmarks for citations or attributions, once inside your brain ALL ideas becomes yours. If someone’s idea is dumb, you make sure an let them know, making sure they are aware of how they are substandard and beneath you. If your friends let you know your ideas are amazing, you let them know they are great too, and will be rewarded by being in your presence, and part of your team.

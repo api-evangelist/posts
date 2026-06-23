@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Asking The Right Questions Of API Operations
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-questions-ask.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-questions-ask.png
 author:
   name: kinlane
 tags:

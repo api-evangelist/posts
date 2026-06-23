@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Evolving API Deployment to Be More Defined and Observable Using APIs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/evolving-api-deployment-to-be-more-defined-and-observable-using-apis.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/evolving-api-deployment-to-be-more-defined-and-observable-using-apis.png
 tags:
   - Observability
   - Deployment

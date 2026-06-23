@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Strongly Typed API Operations
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-shipping-container-yard-police-boat.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-shipping-container-yard-police-boat.jpg
 author:
   name: kinlane
 tags:

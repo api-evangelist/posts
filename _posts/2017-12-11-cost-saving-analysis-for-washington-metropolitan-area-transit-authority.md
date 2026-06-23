@@ -2,10 +2,8 @@
 published: true
 layout: post
 title: 'Cost Saving Analysis For Washington Metropolitan Area Transit Authority'
-image: https://s3.amazonaws.com/kinlane-productions2/transit/washington-metropolitan-area-transit-authority-api.pn
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/cost-saving-analysis-for-washington-metropolitan-area-transit-authority.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/transit/washington-metropolitan-area-transit-authority-api.png" align="right" width="45%" style="padding: 15px;" />
 <p>Even before I engaged with Streamdata.io on our current partnership, I was working with them to quantity the value they bring to the table with their service. As I was working on my story regarding <a href="http://apievangelist.com/2017/11/30/licensing-over-dc-transit-data/">the roubling terms of service changes From Washington Metropolitan Area Transit Authority (WMATA) data APIs</a>, the Streamdata.io team was running a cost savings analysis on the WMATA APIs. This is where they take their web API, and see what they could save if they used Streamdata.io, and turned it into a streaming API.
 
 <p>The Streamdata.io team took <a href="https://developer.wmata.com/docs/services/5476365e031f590f38092508/operations/5476365e031f5909e4fe331e">the WMATA Real-Time Bus PredictionsAPI</a>, and assessed the efficiency gains for WMATA when it comes to their most demanding API consumers. Here are the bandwidth and CPU savings:

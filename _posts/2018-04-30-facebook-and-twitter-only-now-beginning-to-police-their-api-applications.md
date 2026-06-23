@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Facebook And Twitter Only Now Beginning To Police Their API Applications'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/desert-dragon_horiz_circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/facebook-and-twitter-only-now-beginning-to-police-their-api-applications.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories-new/desert-dragon_horiz_circuit.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>I’ve been reading about all the work Facebook and Twitter have been doing over the last couple of weeks to begin asserting more control over their API applications. I’m not talking about the deprecation of APIs, that is a separate post. I’m focusing on them reviewing applications that have access to their API, and shutting off access to the ones who are’t adding value to the platform and violating the terms of service. Doing the hard work to maintain a level of quality on the platform, which is something they should have been doing all along.
 
 <p>I don’t want to diminish the importance of the work they are doing, but it really is something that should have been done along the way–not just when something goes wrong. This kind of behavior really sets the wrong tone across the API sector, and people tend to focus on the thing that went wrong, rather than the best practices of what you should be doing to maintain quality across API operations. Other API providers will hesitate launching public APIs because they’ll not want to experience the same repercussions as Facebook and Twitter have, completely overlooking the fact that you can have public APIs, and maintain control along the way. Setting the wrong precedent for API providers to emulate, and damaging the overall reputation of operating public APIs.

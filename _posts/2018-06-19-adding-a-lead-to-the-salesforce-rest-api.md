@@ -9,7 +9,7 @@ tags:
   - Documentation
   - SalesForce
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/salesforce/salesforce-rest-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/salesforce/salesforce-rest-api.png
 ---
 <p><a href="https://developer.salesforce.com/page/Salesforce_APIs"></a></p>I spend a lot of time talking about [the SalesForce API](https://developer.salesforce.com/page/Salesforce_APIs), using it as a reference for where the API evolution began 18 years ago, but it has been a long time since I've actually worked with the SalesForce API. Getting up and running with any API, especially iconic APIs that we all should be familiar with, is always an enlightening experience for me. Going from zero to understanding what is going on and actually achieving the API call(s) you want, is really what this game is all about.
 

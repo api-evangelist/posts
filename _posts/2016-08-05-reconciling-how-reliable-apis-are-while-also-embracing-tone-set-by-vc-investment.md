@@ -3,7 +3,7 @@ layout: post
 title: >-
   Reconciling How Reliable APIs Are While Also Embracing Tone Set By VC
   Investment
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-broken.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-broken.png
 atomdate: 2016-08-05T23:15:00.000Z
 tags:
   - Investment

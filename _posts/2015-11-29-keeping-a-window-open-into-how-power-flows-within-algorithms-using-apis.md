@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keeping A Window Open Into How Power Flows Within Algorithms Using APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-power-button.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-power-button.png
 author:
   name: kinlane
 tags:

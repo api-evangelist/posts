@@ -2,7 +2,7 @@
 layout: post
 title: A Tighter API Contract With gRPC
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_12_at_9.16.57_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_12_at_9.16.57_pm.png
 atomdate: 2017-03-14T22:00:00.000Z
 tags:
   - gRPC

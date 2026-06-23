@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Smoothing the Rough Edges Off Serverless with Nimbella
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_09_09_at_1.35.35_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_09_09_at_1.35.35_pm.png
 author:
   name: kinlane
 tags:
@@ -32,7 +32,7 @@ Within five minutes you can be reverse engineering what is possible when you dep
 *   **Functions** - This is the functional API side of the serverless app coin.
 *   **Web** - This is the human web side of each micro application being delivered.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_09_09_at_1.36.12_pm.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_09_09_at_1.36.12_pm.png)
 
 Once your project is deployed, all you do is develop exactly the API and web application you need, and Nimbella syncs your local dev environment with the cloud. Abstracting away all the backend complexities of actually delivering a serverless API and application. After banging my head on the serverless worlds of each of the top three cloud providers I can seriously appreciate the frictionless deployment of Nimbella. They make it easy. I am not even touching on the application side of things, just the API. Where the Nimbella approach really shines is bringing in the ability to manage state, IAM, logging, and everything you will need to scale each of your APIs and applications, into a simple solution that will run in each of the clouds, or in an on-premise environment at the higher tiers. If you are truly looking to explore the world of serverless, but don’t have an allegiance to any of the cloud providers I recommend checking out what is possible with Nimbella, it will make your first serverless experience much more more pleasant. Nimbella has abstracted away the complexities I first encountered with each of the cloud providers solutions, which made my early serverless journey a little hellish.
 

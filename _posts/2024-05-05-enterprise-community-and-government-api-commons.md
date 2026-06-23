@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Enterprise, Community, and Government API Commons
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-nyc-people-marketplace.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-nyc-people-marketplace.jpeg
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ I’ve been studying web APIs since 2010. I’ve seen all the dimensions of APIs
 
 As usual, I find myself working to find my way through all the noise out there and stay true to what is important, but hopefully also what also matters to humans in a world that rarely pauses and cares for humans, and prefers to be moving at digital speeds. I am fortunate that I do not have to pander to the latest wave of the technology sector, and I get to spend this weekend thinking deeply about my API research over the last decade. I am coming up for air from work and the digital venture-backed tech hustle, to think deeply and guide my ongoing work with APIs.json, APIs, and API Commons, continuing to use my API Evangelist voice and lens. This is what APIs are all about for me, and I find renewed energy in resisting all the noise of each moment and do my best to connect the dots to produce a more meaningful picture of the landscape, and hopefully equip myself with some stories that will get me through the next couple of decades. 
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-oakland-oak-tree.jpeg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-oakland-oak-tree.jpeg" width="100%" style="padding: 15px;">
 
 Before I get to work on version 2.0 of [API Commons](http://apicommons.org/), I wanted to take a moment and think deeply about why APIs matter today, and how the API Commons could be used to codify what we just experienced in the last 25 years of this century, and help us take us into the future in a less exploitative and more balanced way. I’ve learned a lot by studying APIs over the last quarter century, and while I regularly am tempted to walk away from it all, I can’t help but muster the energy to share what I have seen, and use it to hopefully shape what is next. There is no escaping the Internet, or putting it back in the bottle. We have to wrestle with what we’ve created. I also acknowledge there is no utopian vision of either the digital or physical worlds, and humans are very messy, creative, emotional, and beautiful—-I have to take all of this into consideration as I share what my vision of the API Commons can be.
 
@@ -29,7 +29,7 @@ This moment we are experiencing began picking up speed at the turn of the centur
 
 The approach of these early pioneers fueled subsequent social, and emerging cloud waves of innovation, setting the stage for the mobile evolution of our personal and professional lives. Lightweight and scrappy web APIs were well suited to what was needed in delivering the applications and experiences we were beginning to deliver via our mobile devices. You can see essence of why API works in [the now infamous Jeff Bezos mandate ordering everyone at Amazon to interact with each other using APIs](https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/), and you can see the blueprint alive an well via Stripe, Twilio, and many other tech industry commodities like payments, messages, images, and videos. This blueprint has been proven to work, and is still being applied across many public API platforms, but it is one that is besieged from both those who understand as well as those who do not understand what APIs are and why they work-—this narrative is looking to highlight, account for, and defend against this intentional and unintentional besiegement.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-paris-bookstand.jpg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-paris-bookstand.jpg" width="100%" style="padding: 15px;">
 
 To help bring my vision of the API Commons up to an adequate state, I want to explore more of the technical, business, and political details of what the API Commons will serve. I am looking for the API Commons strategy and vision to capture everything that brought us here, but also address much of why we still can’t seem to ever find our full mojo and momentum due to the gravity and inevitability of capitalism, and how it will often do the “wrong” thing despite all the evidence on the table. Highly successful APIs begin out in the open via a common enterprise space that is available on the open web, something which seems counterintuitive to business leadership who’s job, as they see it, is to lock up any value generated, and establish command and control over the supply and demand of infinitely available digital resources. 
 
@@ -42,7 +42,7 @@ The most significant signs of the health of any enterprise organization can be s
 
 From a behavioral perspective (which is really all you got), these are the areas you size up the health, confidence, and viability of any enterprise in the digital era. I can rank any business on the first three elements (portal + org + gateway), with the fourth one being a pretty advanced concept that is still playing out. As you will see, it isn’t just the availability, access, and activity of these aspects of enterprise operations, it is how you wield them, which goes well beyond just publishing an API and documentation publicly. Anytime someone tells me you are giving something away by having these areas of your operations publicly available, I immediately know where they exist on the API journey. To understand the scope in which these areas play across the technology landscape, just take a moment to assess where Microsoft has been investing--they are rocking the investment in GitHub, Gateway, and IDE, but alas they kind of suck at the portal game--3 out of 4.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-mining-mountains.jpeg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-mining-mountains.jpeg" width="100%" style="padding: 15px;">
 
 ## Common API Building Blocks
 I have looked at all the public API portals. I have. Sure there are always new ones I haven’t seen, but I’ve looked at so many over the years, and studied how they work or don’t work for so long now, I can iterate what the common building blocks are from heart, and point you to the good and bad ones. However, there are always new ones emerging through innovation that are occurring—-I saw a “Quantum Computing” option in an API portal just last night—-but the most common aspects of portals are a proven thing. To understand how these building blocks work in concert, it helps to organize them into logical groupings that help better demonstrate the often invisible business value they bring. This is something is often taken for granted by developers and overlooked by business leadership-—it is a small handful of folks who understand how to use them in concert at scale to shape an API ecosystem.
@@ -70,7 +70,7 @@ Once you find an API, the next logical step is to onboard with it. After discove
 
 These building blocks are organized under the onboarding category because I am wearing my API consumer hat, but as an API producer this is where you understand the level of control your APIs offer, reducing any concerns around the public nature of your portal to something that just doesn’t matter anymore. Modern API management, combined with a portal and common API onboarding building blocks give you what you need to properly protect your business interests--if you can’t see this, you aren’t experienced, and your customers and competition know this.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-los-angeles-downtown-from-afar.jpg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-los-angeles-downtown-from-afar.jpg" width="100%" style="padding: 15px;">
 
 ## Machine-Readable Artifacts
 APIs are about making the technical details of our API operations more visible to both producers and consumers, and there are a handful of machine-readable artifacts that are increasingly being demanded by consumers, and producers are also using to ensure everyone is on the same page.
@@ -112,7 +112,7 @@ We addressed part of observable and the challenge with seeing APIs above with di
 
 Do not limit your API observability to the APIs themselves, and bake observability into operations, so that you can see where APIs are in their lifecycle. While there will undoubtedly be aspects of observability you won’t make available to consumers, making these building blocks accessible to consumers should be the default.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-san-francisco-fence.jpeg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-san-francisco-fence.jpeg" width="100%" style="padding: 15px;">
 
 ## Consumer Engagement
 Once an API consumer has integrated with an API, deeper engagement is required to keep them putting digital resources to use, expanding to new resources, and increasing API consumption over time. There are a handful of building blocks that are proven aspects of API management that keep consumers engaged, making the business of your APIs stickier.
@@ -146,7 +146,7 @@ Your public API portal is an essential lifeline to feedback from your consumers,
 
 Depending on the velocity and breadth of your APIs, and the trust you possess or do not possess with your consumers, these feedback loops will be essential to the velocity of your business, the product you produce, and how aligned they are with what your consumer need. This is where you find your new product ideas. This is where you validate new capabilities. This is where you acquire the talent you will need to grow your business. Without this feedback loop you will always be behind.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-central-park-leaves.jpeg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-central-park-leaves.jpeg" width="100%" style="padding: 15px;">
 
 ## Enterprise API Orchestration
 There are numerous other building blocks I could highlight such as sandboxes, integrations, and tutorials, but these are the most common building blocks of public API platforms. This is what I am looking to ensure the API Commons is in service of. These are all of the areas that matter when having conversations with enterprise business and technical leadership about why having a public API presence is so critical. This isn’t about whether you are giving away information to your competitors, and which APIs or applications consuming them should or should not access your digital resources, capabilities, and experiences. Those conversations happen down on the factory floor, supply chain, and wholesale and retail experience that occurs (or doesn’t) via your own enterprise commons. I am aware that all those bullets above might just look like words, but each of those words provides a knob or dial you can turn to optimize your business at scale, and these knobs and dials do not exist if you aren’t actively playing the API game.
@@ -160,7 +160,7 @@ I can’t talk every enterprise into having a publicly available developer porta
 
 The API Commons reflects everything I have learned at the intersection of the technology, business, and politics of APIs since 2010, and the learnings I am applying to my shift to focus on the technology, business, people, and policies of APIs going forward. I have one, maybe two more API cycles left in me, and while I may (or may not) have the energy for one more startup in my future, I am more concerned with properly laying the foundation we will need to tame this Wild West Technology Shitshow &#8482; in the coming years. I’ve seen how venture capital can suffocate API innovation by extracting more nutrients than it puts back. I’ve seen how big companies excel at weakening the role the government plays in the API game across the industries that matter. I want API Commons to be something that will survive and thrive in the inevitably toxic environment that is the tech sector. API does not equal good. There is no right way to do APIs, and there are plenty of proven wrong ways to do APIs. APIs are just as good at extracting value than they are at generating value. I want API Commons to be built with all of this in mind.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-rv-rest-area-bench.jpeg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-rv-rest-area-bench.jpeg" width="100%" style="padding: 15px;">
 
 I set out to write this vision without fleshing out my vision of the enterprise API Commons, but found that I would need that narrative to set the table with the realities of operating an enterprise API platform, or more specifically a public enterprise API platform. But, I’ll let you in on a little secret—there is no difference between public and private. It is all in your head. All of our lives are on the Internet now, whether we like it or not. It just comes down to how high you want the bar to be for your business, and how in tune you are with where you are in your digital transformation, how far along the journey you are, as well as how far into the future you are able to see. I’ve been studying the electricity, telephone, radio, railroad, and television industries over the last couple of years, and thinking deeply about what went into helping standardize, regulate, and expand these industries safely. I want to add these learnings into my vision of what API Commons needs to be, but the API Commons vision begins with its most critical schema and building block—-APIs.json.
 
@@ -201,7 +201,7 @@ After showcasing existing schema, the purpose of the API Commons is to identify 
 
 I already have a schema for all of these. They aren’t complicated. I just need to get them standardized and presented as part of the API Common GitHub organization and published to a new version of the website. I am not worried about them not being perfect—I am just looking to get the conversation started around what is actually needed. These aren’t new conversations for me, but ones that I am looking to amplify using this API Commons reboot.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-subway-platform.jpeg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-subway-platform.jpeg" width="100%" style="padding: 15px;">
 
 ## Vendor Overlays
 Overlapping with the properties in which common and community schema deliver value, I’d like to find a way to shine a light on the potential of APIs.json overlays when it comes to the enrichment of API operations. I have fleshed out the APIs.json overlay property using APIs.io Search, as well as API Evangelist Ratings, but I’d like to quickly evolve to address all of these essential areas:
@@ -234,7 +234,7 @@ I am using API Commons to translate all of the work I have been doing for over a
 
 The API Commons began as licensing for your interfaces, but is now about providing the openly licensed interfaces you need for your APIs and your API operations. [After watching the Oracle vs. Google copyright case reach the Supreme Court](https://apievangelist.com/2021/04/13/My-oracle-vs-google-api-copyright-journey/) I realized that API providers and consumers care very little about copyright. It isn’t that it doesn’t matter, they just don’t see it or understand how it gums up the works until we see resulting litigation or regulation focused at the API intersection. So, I better get to work just producing the schema we will need to discover, but also automate, regulate, and govern API operations, rather than just tell stories about why it matters. I am a believer in enabling people to do the right thing over just trying to convince them they need to do the right thing.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-border-fence-down-the-line-2.jpg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-border-fence-down-the-line-2.jpg" width="100%" style="padding: 15px;">
 
 I am exhausted from saying the same things over and over as the API Evangelist. I am exhausted from the willingness to reinvent the wheel in the API space due to lack of imagination, delusions of proprietary value, and just greedy short sightedness. API management was commoditized in 2015. You aren’t witnessing an unbundling of anything today. It is just the reality that we shouldn’t be competing on the essential building blocks of API operations, API requests, responses, and events of our proven digital infrastructure. We don’t need special snowflake payment, images, videos, messaging, and other proven digital resources and capabilities. We should only be competing on experiences, and the next generation of digital resources and capabilities. However, to get there we are not just going to need the standardization of the enterprise and community commons, there is one more critical dimension to all of this—government.
 
@@ -252,7 +252,7 @@ The most important thing that the government can do when it comes to the API Com
 
 I'd like to make the same argument as I did with the enterprise API Commons, in that the government API Commons needs to be public. Sunlight is a great disinfectant. We need to raise the bar when it comes to government interoperability, as well as the delivery of 1st and 3rd party applications and integrations that serve consistent interests. Look at what [the Department of Veterans Affairs has done with their developer portal](https://developer.va.gov/), or [CMS has done with Blue Button](https://bluebutton.cms.gov/). This isn’t rookie level stuff, and it is properly serving constituents, and demonstrating how the government can lead the API conversation, setting the right tone across other government agencies.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-statue-supreme-court.jpg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-statue-supreme-court.jpg" width="100%" style="padding: 15px;">
 
 ## Standards
 Producing and consuming APIs is the most important thing that the government can do, but when it comes to specifically standardizing, regulating, and governing APIs, there are a handful of dimensions to consider. These are the most important dimensions we can consider when it comes to the Government API Commons, and something I will do more writing about to flesh out in the near future—once I stand up the next iteration of the API Commons.
@@ -279,7 +279,7 @@ To help drive work on schema in the API Commons I am envisioning three individua
 
 I’d like to figure out a contribution-based framework for the advertising and other featured aspects of operating an API search engine, or a network of API search engines. Meaning, if you help build and refine the index, you can get preferential treatment when it comes to network perks, advertising, and such. This is one reason I am running everything on GitHub, is that the opportunity to manage projects as individual repositories with their own issues, permissions, data, and content-—keeping things open and transparent, while still leveraging the network effect GitHub provides.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-surveillance-3-camers.jpg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-surveillance-3-camers.jpg" width="100%" style="padding: 15px;">
 
 ## APIs.io Search Engine
 I didn’t want to tell the stories of API Commons without including an acknowledgement  of the role that commercial private sector services and tooling will play. While [APIs.io](https://apis.io/) is an open source API search engine, there are parts of the API search engine Steve and I intend to eventually use to generate revenue. We don’t know what these parts are yet, and we are still just exploring what is possible, but we both consider APIs.io to be a commercial partnership—-contrasted with APIs.json and the API Commons, which are our open source work we feel are essential to power the API economy. 
@@ -302,7 +302,7 @@ We have built APIs.io using GitHub Pages, using Jekyll and Bootstrap for the use
 
 While cloud search isn’t something we are charging for now, it is something we’d likely offer a premium or on-premise search experience at some point in the future. We don’t have any plans to monetize APIs.io in the near future. It is just an open-source side hustle at this point, but who knows what the future will hold if we can keep growing the index and the value of the content. APis.io is meant to be a search engine, but think of it also as a crawler that is mapping out the API landscape, producing the properties and schema we need to power the API Commons.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-desert-mining.jpeg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-desert-mining.jpeg" width="100%" style="padding: 15px;">
 
 ## API Evangelist
 Last but not least, there is the role that API Evangelist plays in all of this. Nothing much changes here. I’ll keep it as my soap box, and part of my personal domain. I am working to clean up some of the previous work, use anything I can to plant seeds in the API Commons, but then also tighten up the blog and information section. Then I’ll focus on showcasing the Spectral rules I’ve developed as part of all of the APIs.json profiling I’ve done behind APIs.io. I am using all of these rules to rate and rank the APIs I am publishing via the APIs.io search engine, powering both the local and cloud searches I mentioned above. This is API Evangelist’s commercial contribution to the commercial APIs.io search engine, but also a valuable exhaust from my work profiling Stripe, Twilio, and other top APIs that I have included in the index. 
@@ -313,7 +313,7 @@ Spectral is how I identify any relevant pattern across the world of APIs. OpenAP
 
 My vision for API Evangelist reflects what it has always been, but I am hoping I can squeeze more interesting stories out of the API landscape, without having to rely on social media sources. I am looking to go directly to the source, and map things out at scale. API Evangelist will just remain where I rant and rave about what I am seeing, but I am hoping to be able to conjure up compelling stories at scale from across the API Commons.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-public-market-fish.jpg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-public-market-fish.jpg" width="100%" style="padding: 15px;">
 
 ## The API Commons
 I want the API Commons to be a reflection projected in front of us of the API landscape we are mapping out using APIs.json. Our goal is to produce the common schema needed to power the API economy at scale from our crawling, profiling, and indexing the API landscape. This is about turning things like [Twilio’s PII OpenAPI vendor extension into a common schema that can be used to identify personally identifiable information (PII) available via APIs](https://apievangelist.com/2024/02/24/twilio-uses-a-pii-openapi-extension-on-their-api/), and making it available as part of the API Commons.

@@ -2,7 +2,7 @@
 layout: post
 title: Google For API Code Examples Just Like Your New Developers Will
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twilio_API_python_-_Google_Search.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twilio_API_python_-_Google_Search.png
 atomdate: 2016-08-10T17:00:00.000Z
 tags:
   - Examples

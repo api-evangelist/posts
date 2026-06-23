@@ -6,7 +6,7 @@ tags:
   - Supply Chain
   - Business
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-docks-oakland-5.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-docks-oakland-5.jpeg
 ---
 I have been looking to develop analogies for APIs that will make more sense to business folks. I’ve settled in on using what people already understand, the supply chain. But, instead of the raw physical materials and labor that goes into physical products, I am talking about the digital raw resources your business depends on available in your internal data, content, and algorithms, as well as those acquired from 3rd-party producers. My intent with this analogy is to bring more visibility to the important raw resources that already exist across the enterprise, and get API contracts in place to help you better manage these resources.
 

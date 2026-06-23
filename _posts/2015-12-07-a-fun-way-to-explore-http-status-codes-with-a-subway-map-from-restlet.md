@@ -2,7 +2,7 @@
 layout: post
 title: A Fun Way To Explore HTTP Status Codes With A Subway Map From Restlet
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/restlet-http-status-codes.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/restlet-http-status-codes.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ If you were at [@defrag](https://twitter.com/defrag) or [@apistrat](https://twit
 
 [It made me happy to see the folks over at Restlet playing with the same concept](http://restlet.com/http-status-codes-map) (we didn't coordinate on it honestly), to help articulate HTTP status codes, which is a very important topic for the space, and we need more education tools, and stories around it. Using the subway map analogy, Restlet provides a representation of the five areas of status codes, providing a simple way to explore them, and find a description of each individual status code.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/restlet-http-status-codes.png)](http://restlet.com/http-status-codes-map)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/restlet-http-status-codes.png)](http://restlet.com/http-status-codes-map)
 
 The subway map they provide is currently a static map, but this is one of the biggest potential areas in using this analogy for me, is that with the right JavaScript + JSON voodoo, you can make it real-time, and interactive. This is something I'm working on to bring the entire lifecycle to the forefront this month. 
 

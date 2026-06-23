@@ -3,7 +3,7 @@ layout: post
 title: >-
   The API Integration Providers Who Have API Access to Actions Will Be
   Successful In Bot Environments
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-bot-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-bot-api.png
 tags:
   - Environment
   - Integration

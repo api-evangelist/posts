@@ -3,7 +3,7 @@ published: true
 layout: post
 title: I See You As Just a Bunch of Daily API Calls
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/blue-circuit-face-mosaic.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/blue-circuit-face-mosaic.jpg
 author:
   name: kinlane
 tags:

@@ -4,8 +4,6 @@ layout: post
 title: 'Continue To Explore Restaurant Menu as an Analogy for API Copyright and'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/burger-guild-menu1.jpg
 ---
-
-<p><a href="https://portlandfoodcartadventures.com/2013/01/23/burger-guild-food-cart-a-portland-food-cart-review/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/burger-guild-menu1.jpg" align="right" width="35%" style="padding: 15px;" /></a>
 <p>While working on my feedback to the EFF for the first response to the Oracle v Google API copyright case, <a href="https://apievangelist.com/2014/05/23/restaurant-menus-as-analogy-for-api-copyright/">one of the stories I published used the restaurant menu as an analogy for API copyright</a>. This example was used in the most recent response by Google’s lawyers as they defended themselves in court, and as I’m working on my API patent research, I wanted to revisit this analogy, in the same way, helping focus attention on why API patents are such a bad idea.
 
 <p>Building on my previous analogy, as a restaurant, imagine your restaurant specialty is delivering meat-centric dishes. Your burgers and steaks are da bomb! You literally have several “secret sauces”, some unique preparation processes, as well as some very appealing ways of naming and describing your dishes. Not that different from many API providers, who have some “secret sauces”, some unique process, as well as some very appealing ways of naming and describing the very useful APIs they are offering.

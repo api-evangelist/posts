@@ -2,7 +2,7 @@
 layout: post
 title: Exploring a New Way of Planning and Executing Hackathons
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/oc-hackerz-logo.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/oc-hackerz-logo.jpeg
 author:
   name: kinlane
 tags:

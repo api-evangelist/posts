@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Most API Owners Are Just Focused On Issues
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/udnie_img_8374.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/udnie_img_8374.jpg
 author:
   name: kinlane
 tags:

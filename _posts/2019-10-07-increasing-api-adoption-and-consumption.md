@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Increasing API Adoption and Consumption
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-new-machine-road-blue-circuit-4.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-new-machine-road-blue-circuit-4.jpg
 author:
   name: kinlane
 tags:

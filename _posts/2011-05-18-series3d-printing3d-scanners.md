@@ -2,7 +2,7 @@
 layout: post
 title: Series - 3D Printing - 3D Scanners
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/3D-Printing/3d-printing-scanners.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/3D-Printing/3d-printing-scanners.jpg
 author:
   name: kinlane
 tags:

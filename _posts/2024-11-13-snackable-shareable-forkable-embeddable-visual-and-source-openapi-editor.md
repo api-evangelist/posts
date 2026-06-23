@@ -6,7 +6,7 @@ tags:
   - OpenAPI
   - Editor
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-funnel-cake.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-funnel-cake.jpeg
 ---
 I wanted to add one more point on top of [my thinking about what is needed with an OpenAPI editor](https://apievangelist.com/2024/11/13/investing-in-the-future-of-the-visual-openapi-editor/), as well as [specifically what OpenAPI Doctor was doing with API governance rules](https://apievangelist.com/2024/11/13/innovation-at-the-intersection-of-openapi-editor-and-governance-rules-with-openapi-doctor/), and talk about where I believe that the concept of an OpenAPI editor. While I support all the innovation occurring around editors for OpenAPI, I am sticking with my long held belief that OpenAPI is just a bridge to get us to the API future we envision. No, I am not saying that OpenAPI will go away anytime soon or we should work to abstract it away—I am saying, most people don’t care about the OpenAPI specification, and it is just a configuration file to them. We need to build for this, so saying we need an OpenAPI editor is the wrong approach, we need an API editor, or even something more meaningful.
 

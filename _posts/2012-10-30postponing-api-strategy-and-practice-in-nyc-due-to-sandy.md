@@ -2,7 +2,7 @@
 layout: post
 title: ' Postponing API Strategy and Practice in NYC Due to #sandy'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-strategy-practice-event.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-strategy-practice-event.png
 author:
   name: kinlane
 tags:

@@ -9,7 +9,7 @@ tags:
   - Dereferencing
   - OpenAPI
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-docks-water-front-ships-containers.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-docks-water-front-ships-containers.jpg
 ---
 After prescribing that my clients fire up a GitHub repository and begin centrally managing schema used across their OpenAPI definitions, I want to work on my guidance for helping them bundle and unbundle your APIs. As I sit down to assess the current state I am pleased to see my favorite people have already done great work. Phil has [Popular OpenAPI Bundling Tools Compared](https://apisyouwonthate.com/blog/openapi-bundling-tools-compared-blog-post/), and Lorna has a good one on [Combine OpenAPI Files](https://redocly.com/blog/combining-openapis)--added bonus [Unbundle that giant OpenAPI file!](https://wellshapedwords.com/posts/split-files-to-save-time/) from Matt Dodson. I love it when good work already exists, and I am happy to build on top of, and reference in my own work.
 

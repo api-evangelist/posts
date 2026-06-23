@@ -5,7 +5,7 @@ title: >-
   Turning Centers for Medicare & Medicaid Services Providers Data Files Into an
   API
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/turning-centers-for-medicare--medicaid-services-providers-data-files-into-an-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/turning-centers-for-medicare--medicaid-services-providers-data-files-into-an-api.png
 tags:
   - Healthcare
   - Data

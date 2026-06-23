@@ -2,7 +2,7 @@
 layout: post
 title: Augmenting A Read Only API With AN External POST, PUT, And DELETE
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/augmented-post.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/augmented-post.png
 author:
   name: kinlane
 tags:

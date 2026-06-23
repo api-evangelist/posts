@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Initial Thoughts Around Monetization For An API Deployment Service
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-dollar-sign.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-dollar-sign.png
 author:
   name: kinlane
 tags:

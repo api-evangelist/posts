@@ -2,7 +2,7 @@
 layout: post
 title: Zapier Was Pretty Savvy In Their Approach To Launching Their Partner API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/21f48611824b752981e51eff1c1dfbe1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/21f48611824b752981e51eff1c1dfbe1.png
 atomdate: 2017-04-26T20:00:00.000Z
 tags:
   - Zapier

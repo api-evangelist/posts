@@ -6,7 +6,7 @@ description: >-
   This is the API contract for the API Evangelist standards API, inventorying
   all of the APIs managed through the platform.
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 tags:
   - Standards
 created: '2024-11-11'

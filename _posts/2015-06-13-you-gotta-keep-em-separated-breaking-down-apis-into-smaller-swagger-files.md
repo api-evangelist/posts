@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'You Gotta Keep Em Separated: Breaking Down APIs Into Smaller Swagger Files'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-puzzle-piece-two.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-puzzle-piece-two.png
 author:
   name: kinlane
 tags:
@@ -16,27 +16,27 @@ An example of this in the wild, is with the messaging API from [TigerText](http:
 
 TigerConnect Events API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/tigertext/tigerconnect-events-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/tigertext/tigerconnect-events-api-swagger.json "Swagger")
 
 TigerConnect Group API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/tigertext/tigerconnect-group-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/tigertext/tigerconnect-group-api-swagger.json "Swagger")
 
 TIgerConnect Message API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/tigertext/tigerconnect-message-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/tigertext/tigerconnect-message-api-swagger.json "Swagger")
 
 TigerConnect Metadata API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/tigertext/tigerconnect-metadata-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/tigertext/tigerconnect-metadata-api-swagger.json "Swagger")
 
 TigerConnect Roster API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/tigertext/tigerconnect-roster-api-swagger.json "Swagger")
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/tigertext/tigerconnect-roster-api-swagger.json "Swagger")
 
 TigerConnect User API
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/tigertext/tigerconnect-user-api-swagger.json "Swagger")  
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-swagger-round.png)](http://theapistack.com/data/tigertext/tigerconnect-user-api-swagger.json "Swagger")  
   
 
 Ultimately this is more work for me, but from an API discovery perspective, I'm looking to identify the small, most unique unit of value possible, which allows me to discovery, and organize APIs into extremely precise, yet powerful API menus. Right now this is a very manual process, but I'm developing tooling that will help me to "explode" existing Swagger definitions based upon unique API paths--we will see how that goes.

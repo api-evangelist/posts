@@ -4,8 +4,6 @@ layout: post
 title: 'Patent US9639404: API Matchmaking Using Feature Models'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-logos/api-evangelist-red-seal.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/uspto.png" align="right" width="25%" style="padding: 15px;" />
 <p>Here is another patent in my series of API related patents. I’d file this in the category as the other similar one from IBM–<a href="http://apievangelist.com/2017/06/08/patent-automated-assessment-of-terms-of-service-in-an-api-marketplace/">Patent US 8954988: Automated Assessment of Terms of Service in an API Marketplace</a>. It is a good idea. I just don’t feel it is a good patent idea.
 
 <blockquote>

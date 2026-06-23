@@ -2,7 +2,7 @@
 layout: post
 title: How To Get Your Grandma, Mother, Daughter and Sister to Understand APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/finger-pointing.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/finger-pointing.jpg
 author:
   name: kinlane
 tags:

@@ -5,7 +5,7 @@ title: >-
   The Diff Between What JSON Schema and Spectral Provide When Mapping the API
   Landscape
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-los-angeles-downtown-from-afar.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-los-angeles-downtown-from-afar.jpg
 author:
   name: kinlane
 tags:
@@ -30,7 +30,7 @@ As the description states, JSON Schema gives me the vocabulary to consistently d
 
 I recently learned more about how [VSCode uses JSON Schema to validate JSON files](https://code.visualstudio.com/docs/languages/json#_intellisense-and-validation), but specifically about their extensions of JSON Schema for powering intellisense and validation using defaultSnippets and markdownDescription. I am keenly interested in using these two properties as a bridge between JSON Schema and Spectral to help connect the dots, automate, and reduce friction when applying governance at scale across the thousands of APIs.json files I am managing. I am hesitant to extend the JSON Schema because I don’t always know what I am doing in there, and Ben, Jason, and Julian might give me a hard time. ;-) But these properties piqued my interest, and got me thinking more about the relationship between JSON Schema and how I am using Spectral for a richer set of operational API governance guard rails.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-crow-stailess-steal.jpg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-crow-stailess-steal.jpg" width="100%" style="padding: 15px;">
 
 ## Why Spectral Matters
 I love exploring and pushing my limits of Spectral. Phil is too busy planting trees to give me a hard time. If I shed all the OAS and AsyncAPI specific language for Spectral, I guess I am left with “automated style guides”. I don’t think this does Spectral justice. I find Spectral, with its use of JSON Path, and built-in functions to be an extremely powerful base for defining, validating, and guiding API and API operational governance. Spectral is very granular. It also provides a rich vocabulary for describing APIs.json, but I’d say it is more about what you can do with APIs.json. If that makes sense. I see Spectral having several key dimensions that work in concert to help me map the public API landscape—let’s see if I can articulate how I am wielding the specification.
@@ -48,7 +48,7 @@ I use JSON Schema as the foundation for APIs.json and each individual property I
 ## 100K Operational Governance
 I hesitate calling what I am doing with APIs.json using JSON Schema and Spectral as governance. I am not looking to standardize. I mean, ultimately I am, at scale, but that is the primary focus. I am mapping the landscape, and trying to reserve judgment about what is good or bad, right or wrong, and just describe the patterns I find. I will be working to better understand and define what are patterns or anti-patterns, and apply my own unique brand of API ratings, but the primary objective here is API discovery.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-central-park-bridge-light.jpeg" width="100%" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-central-park-bridge-light.jpeg" width="100%" style="padding: 15px;">
 
 I want to see the landscape. I need JSON Schema to lay the foundation of what I am seeing, and Spectral rules are the trees, bushes, rivers, roads, buildings, bridges, and other infrastructure. I am just getting started with applying JSON Schema and Spectral rules to APIs.json. I enjoy the flexibility of this work. I JSON Schema and Spectral rules to any schema, hanging the results on an APIs.json index with rich APIs.json overlays applied. I didn’t even get into the way I can apply rules differently depending on what overlay they are being applied to, where the JSON Schema is going to be pretty consistent. That will be a good topic for the next round of exploration at this intersection.
 

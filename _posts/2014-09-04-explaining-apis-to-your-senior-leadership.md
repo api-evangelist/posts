@@ -2,7 +2,7 @@
 layout: post
 title: Explaining APIs To Your Senior Leadership
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-knowledge-transfer.png
+  https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-knowledge-transfer.png
 author:
   name: kinlane
 tags:

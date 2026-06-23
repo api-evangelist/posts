@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Stops Along a Multi-Protocol API Lifecycle
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-nyc-subway-train-125th.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-nyc-subway-train-125th.jpg
 author:
   name: kinlane
 tags:

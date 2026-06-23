@@ -2,7 +2,7 @@
 layout: post
 title: Transparency In Police Access To Social Platforms Using OAuth And APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/facebook_instagram_and_twitter_provided_data_access_for_a_surveillance_product_marketed_to_target_activists_of_color__american_civil_liberties_union.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/facebook_instagram_and_twitter_provided_data_access_for_a_surveillance_product_marketed_to_target_activists_of_color__american_civil_liberties_union.png
 atomdate: 2016-10-15T00:00:00.000Z
 tags:
   - Social

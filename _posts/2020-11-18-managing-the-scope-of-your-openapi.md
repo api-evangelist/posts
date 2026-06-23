@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Managing the Scope of Your OpenAPI
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-city-clouds-waterfront.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-city-clouds-waterfront.jpg
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ Managing the size of an OpenAPI is a common challenge for API development teams.
 
 The size of your APIs matter. The size of your OpenAPI for your APIs matters. The scope, complexity, and consistency of your APIs will define how easy they are to maintain and put to work. Organizations that do not use OpenAPI struggle with being able to define the API landscape at all, let alone being able to define the scope of individual APIs or groups of APIs. It is common for API providers who are moving into the OpenAPI realm to slam into the brick wall of API scope right away, realizing their OpenAPI definitions are too big to work with in some services and tooling, and become a maze of complexity when it comes to maintenance and consumption. While there are many ways your API design practices can reduce or at least better define the scope of your APIs and resulting APIs, there are a handful of ways you can slice and dice your APIs up to make them easier to manage, or settle in with accepting that there is one monolith OpenAPI to rule them all!
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-dark-city-street.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-dark-city-street.jpg)
 
 ### Paths
 
@@ -27,7 +27,7 @@ How you use your HTTP methods as part of the API design process will help you do
 
 Adding to the dimensions of how your API design will define the scope of your API and OpenAPI, your usage of path and query parameters, as well as headers will shape how big or small your APIs are. Having an overall organization API design strategy will help lay the groundwork for the scope of the parameter layer of your APIs. Using common parameters for as much of this dimension will help you reuse parameters across APIs, and centralize them as part of your OpenAPI. Each unique parameter will add baggage to the surface area of an API, which is something that will have to be defined in an OpenAPI, adding to the overall scope of each API and resulting OpenAPI. Parameter sprawl is an easy trap to fall into, but once you spend the time laying out an overall API design strategy it is something that will become much more manageable for your team.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-surveillance-over-the-city.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-surveillance-over-the-city.jpg)
 
 ### Tags
 
@@ -41,7 +41,7 @@ The components object represents the greatest opportunity for API providers to b
 
 Once you begin getting your API design house in order, and get more organized about how you use the OpenAPI specification to map out your API landscape, including having your APIs well tagged with logical bounded contexts, you will become more efficient with breaking your OpenAPIs up into separate files. Leveraging your tag work you can split up monolith OpenAPI documents into separate OpenAPI files which can then be used independently of each other. Helping you load balance the scope of your OpenAPI across many files, providing a well organized selection of smaller, more precise OpenAPIs rather than relying on everything being in a single file. Of course, there are tradeoffs to having to navigate multiple files, but it depends on whether you like your complexity vertically or horizontally--either way you will have to work through the paths, schema, and other parts and pieces.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-dark-city-buildings.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-dark-city-buildings.jpg)
 
 ### External $ref
 

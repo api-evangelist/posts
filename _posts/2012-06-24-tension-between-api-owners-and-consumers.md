@@ -2,7 +2,7 @@
 layout: post
 title: Tension Between API Owners and Consumers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/knight-dragon-standoff.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/knight-dragon-standoff.jpg
 author:
   name: kinlane
 tags:

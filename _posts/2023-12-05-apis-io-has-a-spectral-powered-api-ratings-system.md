@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Using Spectral As An API Ratings System
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-fox-oakland-day.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-fox-oakland-day.jpeg
 author:
   name: kinlane
 tags:

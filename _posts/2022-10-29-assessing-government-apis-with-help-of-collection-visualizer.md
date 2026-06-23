@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Assessing Government APIs with Help of Collection Visualizer
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/postman-government-search-listing.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/postman-government-search-listing.png
 author:
   name: kin
 tags:

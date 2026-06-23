@@ -9,7 +9,7 @@ tags:
   - Github
 image: https://octodex.github.com/images/daftpunktocat-thomas.gif
 ---
-<p><a href="https://octodex.github.com/daftpunktocat-thomas"><img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" align="right" width="30%" style="padding: 15px;" /></a></p>I run the entire front-end of my online presence using Github. [All my API Evangelist research lives as open repositories on Github, with the website running Jekyll, hosted on Github Pages](http://apievangelist.com/api-lifecycle/). My front-end is all HTML, JavaScript, and CSS, that leverages YAML data, and displayed using [Liquid](https://shopify.github.io/liquid/). It provides me a nice way to offload the public side of my operations to Github.
+I run the entire front-end of my online presence using Github. [All my API Evangelist research lives as open repositories on Github, with the website running Jekyll, hosted on Github Pages](http://apievangelist.com/api-lifecycle/). My front-end is all HTML, JavaScript, and CSS, that leverages YAML data, and displayed using [Liquid](https://shopify.github.io/liquid/). It provides me a nice way to offload the public side of my operations to Github.
 
 I am increasingly doing this with all of my data, by publishing it as YAML, and rendering a dynamic (static) API representation in JSON--all done with the same approach I'm using to publish my website(s). [You can get at all of the data I use across my API research in a single API Evangelist developer portal](http://developer.apievangelist.com/), which just aggregates all of the JSON APIs I've published across my network almost 100 Github repositories, and supporting sites.
 

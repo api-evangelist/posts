@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Official Cloudflare API Postman Collection
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/clouidflare_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/clouidflare_logo.png
 author:
   name: kinlane
 tags:

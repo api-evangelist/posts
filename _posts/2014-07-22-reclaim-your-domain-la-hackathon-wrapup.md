@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reclaim Your Domain LA Hackathon Wrap-up
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-fist.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-fist.png
 author:
   name: kinlane
 tags:
@@ -52,7 +52,7 @@ I also got some quality time, getting more up to speed on two other of tools tha
 
 Over the course of two days I was able to share what I was working on, and learn about [@withknown](https://twitter.com/withknown), and what [@holden](https://twitter.com/holden) is up to with Smallest Federated Wiki, and get a closer look at what [@timmmmyboy](https://twitter.com/timmmmyboy), [@jimgroom](https://twitter.com/jimgroom), [@mburtis](https://twitter.com/) are up to with Reclaim Hosting, while also explore some other areas I think are vital to #Reclaim moving forward. #WIN There were also some other really important takeways for me.
 
-![](https://s3.amazonaws.com/kinlane-productions2/events/reclaim-your-domain-la-hackathon/reclaim-hackathon.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/events/reclaim-your-domain-la-hackathon/reclaim-hackathon.png)
 
 **POSSEE**  
 [POSSE](http://indiewebcamp.com/POSSE) is an acronym for Publish (on your) Own Site, Syndicate Elsewhere. For the first time I saw an application that delivers on this concept, while also holding potential for the whole reclaim your domain philosophy--[Known](http://withknown.com/). I am excited to fire up my own instance of Known and see how I can actually use to manage my digital self, and add this slick piece of software to the #Reclaim stack of tools that everyone else can put to use.
@@ -66,7 +66,7 @@ One of the topics we covered was the basics of using Github. I walked through th
 **APIs.json Playing a Role in #Reclaim**  
 After hearing [@timmmmyboy](https://twitter.com/timmmmyboy) talk about how Reclaim Hosting aggregates domain users within each university, I brought up [APIs.json](http://apisjson.org) and how I’m using this as a index for APIs in both the public and private sector. While it may not be something that is in the immediate roadmap for #Reclaim, I think APIs.json will play a significant role in #Reclaim process down the road, and is worth noting here.
 
-![](https://s3.amazonaws.com/kinlane-productions2/events/reclaim-your-domain-la-hackathon/kin-lan-reclaim-hackathon-la.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/events/reclaim-your-domain-la-hackathon/kin-lan-reclaim-hackathon-la.png)
 
 **Containerization Movement**  
 One pattern I saw across the Reclaim Hosting and Domain of One’s Own work from [@timmmmyboy](https://twitter.com/timmmmyboy), [@jimgroom](https://twitter.com/jimgroom), and [@mburtis](https://twitter.com/), is that they are mimicking what is currently happening in the [@docker](https://twitter.com/docker) dominated containerization movement we are seeing from tech leaders like Amazon, Google, Microsoft, and Red Hat. Then only difference is Reclaim Hosting is doing it as apps that can be deployed across a known set of domains, spanning physical servers, within a particular institution. Containers offer portability for the #Reclaim lifecycle, for when students leave institutions, as well as for the wider public space, when people are looking to #Reclaim their digital self.
@@ -77,7 +77,7 @@ APIs are central to everything about #Reclaim. It is how users will take control
 **Evolving the Hackathon Format**  
 The Reclaim Your Domain LA Hackathon has moved forward the hackathon definition for me. There were no applications built over the weekend, and there were no prizes given away to winners, but there was significant movement that will live beyond just this single event—something that the previous definition of hackathon didn’t possess for me. Fifteen of us came together Friday night for food and drink at [@amichaelberman](https://twitter.com/amichaelberman) house. Saturday morning we came together at Pepperdine and spent the day working through ideas and tool demonstrations, which included a lot of open discussion. Saturday night we came together at our house in Hermosa Beach, where we drank, continued conversations from the day, and Jazzercised on the roof until wee hours of the morning. Then Sunday we came together for breakfast, and went back to work at Pepperdine for the rest of the day. Once done, some folks headed to airport, and the rest of headed back to Hermosa Beach for dinner, more drinks, and conversation until late in the evening.
 
-![](https://s3.amazonaws.com/kinlane-productions2/events/reclaim-your-domain-la-hackathon/reclaim-hackathon-beers.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/events/reclaim-your-domain-la-hackathon/reclaim-hackathon-beers.png)
 
 Over the two days, there was plenty of hacking, setting up Known and Smallest Federated Wiki, as part of Reclaim Your Domain. Most attendees got to work on their #Reclaim definitions, and POSSEE workflow using Known, and learned how to generate API keys, commit to Github, and other essential #Reclaim tasks. At many other hackathons I’ve been to, there were tangible projects that came out of the event, but were always abandoned after the short weekend. #Reclaim didn’t produce any single startup or application, but deployed and evolved on top of existing work, and processes, that will continue long after this single event, and will continue to build momentum with each event we do--capturing much more of the exhaust from a weekend hackathon.
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Box.net Review
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-blue-seal.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-logos/api-evangelist-blue-seal.png
 author:
   name: kinlane
 tags:

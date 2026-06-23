@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Adding Search Metadata, Ratings, and More With APIs.json Overlays
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-new-and-old-building.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-new-and-old-building.jpeg
 author:
   name: kinlane
 tags:
@@ -19,13 +19,13 @@ My profiling of [Stripe](https://github.com/apis-json/artisanal/blob/main/apis/s
 
 ## APIs.io Search Overlay
 I need to have consistent titles, descriptions, and tags for the API providers I am profiling, and each of the individual APIs they provide, to make for consistent search results in APIs.io. While I do control this currently while I am making the APIs.json, I will not be doing this forever, and I often do not when it comes to the summaries, descriptions, and tags for OpenAPI, and I need them to deliver consistent search results on APIs.io. So I add an APIs.json, and multiple OpenAPI overlays for each API provider I am producing, publishing a completely separate APIs.json and OpenAPI and link them in the master APIs.json using the overlay property. Then when building [APIs.io](https://apis.io) I can take the original, and overlay the APIs.io search metadata to make for a more consistent search experience.
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-old-docks-tree.jpeg" width="100%" style="padding: 10px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-old-docks-tree.jpeg" width="100%" style="padding: 10px;">
 ## API Evangelist Ratings Overlay
 After each APIs.json and OpenAPI is overlaid with search metadata, enhancing the titles, summaries, descriptions, and tags, I need to apply my API Evangelist ratings system to each APIs.json and OpenAPI. I take each of these artifacts and run my hand-crafted Spectral rule sets against each one, and output the results as overlay to the original APIs.json and OpenAPIs, indexing them using the overlay properties in the original APIs.json for each provider. This gives me all of the rules that each API, and the operations around them pass or fail on in a single YAML output that I can overlay to the APIs.json, and use to power the ratings in search and on the detail pages of APIs.io. Overlays provides a nice opportunity for APIs.io to outsource the ratings of APIs to API Evangelist—in this situation, there is overlap between these entities, but it helps me demonstrate the possibilities of using APIs.json overlays.
 
 ## Other 3rd Party Overlays
 Our goal with the usage of APIs.json overlays is to demonstrate how APIs.json can be used by API producers to index their API operations, but allow trusted 3rd parties to come in and offer different services. In this situation, the original APIs.json is created by an APIs.json representative (and soon to be API producers), the OpenAPIs are created and maintained by API producers, but the search metadata is provided by APIs.io, and the rating system by API Evangelist. In the future you could envision SDK providers like [APIMATIC](https://www.apimatic.io/) coming in to generate SDKs, and monitoring companies like API Metrics adding status and monitoring data. All of which could be made authoritative by the API producers themselves simply by maintaining their own authoritative APIs.json and linking to these 3rd party overlays using the overlays property. Giving the thumbs up that these overlays are valuable, and something that should be included as part of the index for their API operations.
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-power-station-new-building.jpeg" width="100%" style="padding: 10px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-power-station-new-building.jpeg" width="100%" style="padding: 10px;">
 ## Defining Overlays With Our Artisanal APIs.json Work
 I am 100% immersed in our [Artisanal APIs.json work](https://github.com/apis-json/artisanal) outside my day job with Bloomberg. Any free cycles I have outside of work I spent on profiling APIs. It is tedious work, but I learn a lot. I am getting better at it, with more of the process automated. I have finished up Twilio, Stripe, OpenAI, and Adyen. Now I am adding all APIs for AWS and Azure to their APIs.json index. This includes producing OpenAPI for each individual API, and producing the APIs.io search and API Evangelist ratings overlays. I have other overlays I would like to do for all of these APIs I am profiling, but I am determined to get the top 100 or so APIs profiled with this approach in the next couple of months. It is a lot of work, so I don’t want to derail my effort by taking on too much—-I am king of doing this kind of shit to myself.
 

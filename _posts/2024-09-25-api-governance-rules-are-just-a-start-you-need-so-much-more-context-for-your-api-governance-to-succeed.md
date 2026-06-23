@@ -9,7 +9,7 @@ tags:
   - Rules
   - Context
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-emergency-third-rail-power-trip.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-emergency-third-rail-power-trip.jpeg
 ---
 I am endlessly fascinated with the belief that enterprise leadership has in Spectral rules, and the number of companies I’ve seen just turn on Spectral rules in their CI/CD pipelines and other automation believing that they will “govern” their APis. Some Spectral rules you can use out of the box with the CLI or other tooling, but most you will have to tweak and adjust, and there will always come a time where you have to get to work crafting your own rules. Even with this reality and work, all of these rules will only get you so far, and you need a lot more context for your API governance to succeed.
 

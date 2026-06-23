@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I’m rebuilding my underlying architecture using microservices and docker containers, and the glue I’m using to bind it all together is APIs.json. I’m not jus...">
-    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-api-navigation.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-api-navigation.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -46,7 +46,7 @@
     <meta name="twitter:title" content="Using APIs.json For My Microservice Navigation And Discovery">
     
     <meta name="twitter:description" content="I’m rebuilding my underlying architecture using microservices and docker containers, and the glue I’m using to bind it all together is APIs.json. I’m not jus...">
-    <meta name="twitter:image" content="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-api-navigation.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-api-navigation.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -56,7 +56,7 @@
       "@type": "Article",
       "headline": "Using APIs.json For My Microservice Navigation And Discovery",
       "description": "I’m rebuilding my underlying architecture using microservices and docker containers, and the glue I’m using to bind it all together is APIs.json. I’m not jus...",
-      "image": "http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-api-navigation.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-api-navigation.png",
       "datePublished": "2015-01-28T00:00:00-05:00",
       "dateModified": "2015-01-28T00:00:00-05:00",
       "author": {
@@ -69,7 +69,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -367,7 +367,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -397,7 +397,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -731,7 +731,7 @@
       </div>
 
       
-      <img src="http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-api-navigation.png" alt="Using APIs.json For My Microservice Navigation And Discovery" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-api-navigation.png" alt="Using APIs.json For My Microservice Navigation And Discovery" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -741,7 +741,7 @@
 
 <p>All the Github repositories for this microservice stack lives within a single Github organization, which I give a “master” repo, which acts as a single landing page for the entire stack. It has its own APIs.json file, but rather than having any API collections, it just uses includes, referencing the APIs.json for each microservice in the stack.</p>
 
-<p><a href="https://kin-lane.github.io/master/"><img src="https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-api-navigation-2_png.png" alt="" /></a></p>
+<p><a href="https://kin-lane.github.io/master/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-api-navigation-2_png.png" alt="" /></a></p>
 
 <p>APIs.json acts as an index for each microservice, but through the include collection it also provides links to other related microservices within its own stack, which I use to navigate, in a circular way between all supporting services. All of that sounds very dizzying to write out, and I’m sure you are like WTF? You can <a href="https://kin-lane.github.io/master/">browse my work on Github</a>, some of it is public, but much of it you have to have oAuth access to see. The public elements all live in the gh-pages branch, while the private aspects live within the private master branch.</p>
 

@@ -2,7 +2,7 @@
 layout: post
 title: APIs Can Open Up Your Company To Outside Ideas
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/absolut/absolut-vodka-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/absolut/absolut-vodka-logo.png
 author:
   name: kinlane
 tags:

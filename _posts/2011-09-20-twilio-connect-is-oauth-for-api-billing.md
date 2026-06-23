@@ -3,14 +3,14 @@ layout: post
 title: Twilio Connect is OAuth for API Billing
 url: http://apievangelist.com/2011/09/20/twilio-connect-is-oauth-for-api-billing/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twilio-connect-button.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twilio-connect-button.png
 author:
   name: kinlane
 tags:
   - OAuth
   - Twilio
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/twilio/Twilio-Logo.png)](http://www.twilio.com "Twilio")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/twilio/Twilio-Logo.png)](http://www.twilio.com "Twilio")
 
 [Twilio](http://www.twilio.com "Twilio") just announced a new API billing solution called Twilio Connect.  The new billing solution enables developers to offload charges for Twilio API usage to their application users, rather than their own Twilio accounts, and billing customers separately.
 
@@ -22,7 +22,7 @@ If you think about it, it makes perfect sense.  What OAuth has done for user ac
 
 Not all APIs would benefit from a billing authentication model like Twilio Connect.  It would work best for APIs that truly have a “cloud utility” model for their pricing, allowing developers to pay for only what they consume.  This would allow for the burden of billing to be lifted from developers, enabling them to do what they do best--code applications.  
 
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/twilio/twilio-connect-button.png)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/twilio/twilio-connect-button.png)
 
 One problem I see here is that developers who rely on marking up underlying API services as part of their businesss model, would not benefit from a billing model like this.  But there is opportunity for API owners to take control of in-app billing, to make secure, and operate in the best interest of all application users, while also open up a new revenue sharing opportunity for their developers.  They could offer different percentages of revenue share depending on how much business a developers app generates.  
 

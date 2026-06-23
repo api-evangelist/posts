@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Managing Your API Definitions On GitHub
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/github_schema_gear.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/github_schema_gear.png
 author:
   name: kinlane
 tags:

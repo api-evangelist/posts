@@ -10,7 +10,7 @@ tags:
   - Bugs
   - Experience
   - Security
-image: https://kinlane-productions2.s3.amazonaws.com/influxdb-support-issues.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/influxdb-support-issues.png
 ---
 I am a fan of using GitHub issues to manage the feedback loop for APIs. Mostly because it keeps the provenance of what is happening alongside the API contracts. [As I am profiling APIs for inclusion in APIs.io I enjoy writing stories about the unique approaches I see as part of API operations](https://apis.io/2024/09/25/profiling-influxdb-time-series/).  So when I find interesting uses of GitHub by API providers, I am always happy to showcase. This round is from [the InfluxDB Time Series APIs](https://github.com/influxdata/influxdb/issues/new/choose/), and the way they have broken out their support into the following GitHub issue templates.
 

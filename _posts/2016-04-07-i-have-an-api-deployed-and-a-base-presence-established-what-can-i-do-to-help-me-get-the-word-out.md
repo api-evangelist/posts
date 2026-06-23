@@ -3,7 +3,7 @@ layout: post
 title: >-
   I Have An API Deployed, And A Base Presence Established, What Can I Do To Help
   Me Get The Word Out?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-outreach.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-outreach.png
 tags:
   - Presence
 ---

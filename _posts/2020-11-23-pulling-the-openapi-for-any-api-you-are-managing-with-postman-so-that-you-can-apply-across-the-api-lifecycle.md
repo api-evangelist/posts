@@ -5,7 +5,7 @@ title: >-
   Pulling the OpenAPI For Any API You Are Managing With Postman So That You Can
   Apply Across the API Lifecycle
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_11_23_at_12.22.32_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_11_23_at_12.22.32_pm.png
 author:
   name: kinlane
 tags:

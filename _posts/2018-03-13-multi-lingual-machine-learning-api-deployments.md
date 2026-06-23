@@ -10,7 +10,7 @@ tags:
   - Localization
   - Regions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/paralleldots/multi-lingual-website-676x507.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/paralleldots/multi-lingual-website-676x507.jpg
 ---
 <p></p>[Machine learning API ParallelDots has a story on launching their APIs in multiple languages](https://hackernoon.com/launching-paralleldots-ai-apis-in-multiple-languages-2bed9eeff664). Allowing them to "serve a truly global customer base with following language options for our key APIs (Sentiment Analysis, Emotion Analysis, and Keyword generator)". Something that I think more APIs providers are going to have to think about in coming years, as the need for API resources expands around the globe.
 

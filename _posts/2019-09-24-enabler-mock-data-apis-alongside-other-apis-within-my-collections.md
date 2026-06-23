@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Enabler Mock Data APIs Alongside Other APIs Within My Collections
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-containership-dark-dali.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-containership-dark-dali.jpg
 author:
   name: kinlane
 tags:

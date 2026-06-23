@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Is An API First Strategy? IT architecture And Catalyst For Engagement
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-collaboration.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-collaboration.png
 author:
   name: kinlane
 tags:

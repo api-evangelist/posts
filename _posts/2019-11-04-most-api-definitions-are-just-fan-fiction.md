@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Most API Definitions Are Just Fan Fiction
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stories-mosaic-face-blue-circuit-3.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/stories-mosaic-face-blue-circuit-3.jpg
 author:
   name: kinlane
 tags:

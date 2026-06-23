@@ -2,7 +2,7 @@
 layout: post
 title: API Environment Variable Autocomplete And Tooltips In Postman
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/autocomplete.gif,qx38712.pagespeed.ce.mdv9wuhtbw.gif
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/autocomplete.gif,qx38712.pagespeed.ce.mdv9wuhtbw.gif
 atomdate: 2017-03-16T16:00:00.000Z
 tags:
   - Postman

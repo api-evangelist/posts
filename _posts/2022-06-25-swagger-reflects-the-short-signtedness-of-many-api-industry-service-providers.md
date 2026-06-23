@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Swagger Reflects the Short-Sightedness of Many API Industry Service Providers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-dinosaur-stepping-on-lego.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-dinosaur-stepping-on-lego.jpg
 tags:
   - Swagger
   - OpenAPI

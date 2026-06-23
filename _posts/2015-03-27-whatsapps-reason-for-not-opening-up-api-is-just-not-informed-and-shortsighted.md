@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WhatsApps Reason For Not Opening Up API Is Just Not Informed And Short-Sighted
-image: https://s3.amazonaws.com/kinlane-productions2/whatsapp/whatsapp-logo.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/whatsapp/whatsapp-logo.png
 author:
   name: kinlane
 tags:

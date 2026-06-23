@@ -2,7 +2,7 @@
 layout: post
 title: If You Need Assistance With Your Healthcare API Strategy I Have The Person
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mark-silverberg.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mark-silverberg.jpeg
 author:
   name: kinlane
 tags:

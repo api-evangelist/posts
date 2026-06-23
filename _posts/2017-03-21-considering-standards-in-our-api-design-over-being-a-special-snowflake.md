@@ -2,7 +2,7 @@
 layout: post
 title: Considering Standards In Our API Design Over Being A Special Snowflake
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_spectrum_database.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_spectrum_database.png
 atomdate: 2017-03-21T20:00:00.000Z
 tags:
   - Design

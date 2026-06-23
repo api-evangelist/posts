@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'API Management Dashboard: The Consumer View'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/cargo-ship-on-sea_constitution.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/api-management-dashboard-the-consumer-view.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/cargo-ship-on-sea_constitution.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>I’m helping some clients think through their approach to API management. These projects have different needs, as well as different resources available to them, so I’m looking to distill things down to the essential components needed to get the job done. I’ve taken a look at the API consumer account basics as well as their usage, and next I want to consider the view of all of this from the API provider vantage point. For both of my current projects, I’m needing to think about the UI elements that deliver on API management elements from both the API provider and consumer levels. I’ve already tackled the API provider view, next up is the API consumer view.
 
 <p>To help me think though the UI elements needed for helping manage the essential elements of managing API consumption for developers I wanted to create a simple list of each screen that will be needed to get the job done. So far, I have the following X UI elements as part of my API management base:

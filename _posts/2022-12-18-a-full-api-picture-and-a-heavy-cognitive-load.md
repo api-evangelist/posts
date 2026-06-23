@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Full API Picture and a Heavy Cognitive Load
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/full-api-lifecycle-2022-12-08.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/full-api-lifecycle-2022-12-08.jpeg
 author:
   name: kinlane
 tags:

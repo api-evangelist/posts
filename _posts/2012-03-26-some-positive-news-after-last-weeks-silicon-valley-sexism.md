@@ -2,7 +2,7 @@
 layout: post
 title: Some Positive News After Last Weeks Silicon Valley Sexism
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Intel-Code-for-Good-hackathon.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Intel-Code-for-Good-hackathon.png
 author:
   name: kinlane
 tags:

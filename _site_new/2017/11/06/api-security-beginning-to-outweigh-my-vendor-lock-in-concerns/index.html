@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I’ve been on the AWS train since day one. I’ve been integrating Amazon S3 and EC2 into my business(es) since they first launched a decade ago. While the plat...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/amazon/iam/aws-iam-api-gateway.jpg">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/iam/aws-iam-api-gateway.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -43,7 +43,7 @@
     <meta name="twitter:title" content="API Security Beginning To Outweigh My Vendor Lock-In Concerns">
     
     <meta name="twitter:description" content="I’ve been on the AWS train since day one. I’ve been integrating Amazon S3 and EC2 into my business(es) since they first launched a decade ago. While the plat...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/amazon/iam/aws-iam-api-gateway.jpg">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/iam/aws-iam-api-gateway.jpg">
 
     <!-- JSON-LD Structured Data -->
     
@@ -53,7 +53,7 @@
       "@type": "Article",
       "headline": "API Security Beginning To Outweigh My Vendor Lock-In Concerns",
       "description": "I’ve been on the AWS train since day one. I’ve been integrating Amazon S3 and EC2 into my business(es) since they first launched a decade ago. While the plat...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/amazon/iam/aws-iam-api-gateway.jpg",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/iam/aws-iam-api-gateway.jpg",
       "datePublished": "2017-11-06T06:00:00-05:00",
       "dateModified": "2017-11-06T06:00:00-05:00",
       "author": {
@@ -66,7 +66,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -364,7 +364,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -394,7 +394,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -728,11 +728,11 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/amazon/iam/aws-iam-api-gateway.jpg" alt="API Security Beginning To Outweigh My Vendor Lock-In Concerns" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/iam/aws-iam-api-gateway.jpg" alt="API Security Beginning To Outweigh My Vendor Lock-In Concerns" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
-        <p><img src="https://s3.amazonaws.com/kinlane-productions2/amazon/iam/aws-iam-api-gateway.jpg" align="right" width="45%" style="padding: 15px;" /></p>
+        <p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/iam/aws-iam-api-gateway.jpg" align="right" width="45%" style="padding: 15px;" /></p>
 <p>I’ve been on the AWS train since day one. I’ve been integrating Amazon S3 and EC2 into my business(es) since they first launched a decade ago. While the platform has faithfully provided my storage and compute for over a decade I’ve always been wary of vendor lock-in. After a decade long ride on Microsoft (1998-2008), I felt pretty burned. Then recently after a similar decade long ride on Google (2005-2015), I felt burned, but in a different way. After a decade on AWS I’m nervous, but I don’t feel as burned, however I’d say there is one aspect of doing business online that is making me put aside some of my concerns regarding vendor lock-in on AWS, and even on Google, and Azure–SECURITY. I’m just not convinced I can do this alone, and I need the help of the platforms I operate on to help make sure my operations are secure.</p>
 
 <p>I spent the weekend setting up a set of APIs using AWS RDS as the backend database, AWS Lambda as the code layer, and AWS API Gateway as the API front-end. As part of this work I established an identity and access management (IAM) role with policies tailored for brokering the exchanges between RDS, Lambda, and the API Gateway. I’m leaning on AWS for two key API security pieces here: 1) API key management with AWS API Gateway, and 2) backend security using AWS IAM. The key management stuff is pretty straightforward and something I can easily replicate, but the AWS IAM stuff is a little more involved, and I’m grateful for how easy AWS IAM makes it for me to setup roles, cherry pick from common policies, and lock down the infrastructure I a using to drive the backend of my APIs and other applications.</p>

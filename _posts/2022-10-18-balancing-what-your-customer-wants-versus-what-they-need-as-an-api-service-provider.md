@@ -5,7 +5,7 @@ title: >-
   Balancing What Your Customer Wants Versus What They Need As An API Service
   Provider
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/uncle-sam-working-waterfront-2.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-working-waterfront-2.jpg
 author:
   name: kin
 tags:

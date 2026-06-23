@@ -8,7 +8,7 @@ tags:
   - Communication
   - Evangelism
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/abe-lincoln-one-yellow-collage-file-00-00-00-00.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/abe-lincoln-one-yellow-collage-file-00-00-00-00.jpg
 ---
 I am an empathic human being. It is one of my top strengths, as well as one of my top weaknesses. It is also one of the most important tools in my API toolbox. Being able to understand the API experience from the position of different people throughout the world of APIs is a cornerstone of the API Evangelist brand. Personally, I find APIs themselves to be empathy triggering, and something that has regularly forced me out of my silos, then allowing me t put myself in the shoes of my consumers. Something that when realized in a perpetual fashion can become a pretty powerful force for dialing in the services you offer, and establish, maintain, and strengthen connections with other people within the community.
 

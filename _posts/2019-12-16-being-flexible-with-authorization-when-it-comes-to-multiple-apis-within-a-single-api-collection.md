@@ -5,7 +5,7 @@ title: >-
   Being Flexible With Authorization When It Comes To Multiple APIs Within A
   Single API Collection
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_deploy_aws_api_gateway_auth.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_aws_deploy_aws_api_gateway_auth.png
 author:
   name: kinlane
 tags:
@@ -17,15 +17,15 @@ I am working on a Postman collection that deploys an API to AWS. I’m pulling t
 
 When defining Postman collections you can apply the authorization at the collection, folder, or request levels. This allows you to be more thoughtful of how authenticate across multiple APIs within a single Postman collection. This Postman collection is going to end up being what I’d consider to be a workflow collection, meaning it will walk through each step for the deployment of an API to AWS using Postman, so eventually it most likely will just be a series of individual API requests which can be run manually by a user, or automated with a Postman runner or monitor. However, as I am architecting my collection I don’t want to have to define the authorization for each individual request—I just want them to inherit authorizations, so I am just going to add a folder for each service. This gives me the ability to set authorization for Postman at the header level for an individual request, which I will move up to the folder level if I need to make another request to the Postman API.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_deploy_postman_auth_header.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_aws_deploy_postman_auth_header.png)
 
 Then I can set authorization for AWS API Gateway, and inherit for each individual call that I am making to the AWS API Gateway API to configure the surface area of the API I am deploying to AWS.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_deploy_aws_api_gateway_auth.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_aws_deploy_aws_api_gateway_auth.png)
 
 Then I can set authorization for AWS DynamoDB, and inherit for each individual call that I am making to the configure the persistent data store that I am deploying to AWS behind the API.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_aws_deploy_aws_dynamodb_auth.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_aws_deploy_aws_dynamodb_auth.png)
 
 I am using three separate APIs to deploy my API—Postman, AWS API Gateway, and AWS DynamoDB. I have an API key for Postman, and one set of a key and secret I am using to work with AWS—configuring AWS IAM to allow my key and secret to work with both service. While I am using the same set of key and secrets across both AWS services and relying on AWS IAM to manage access, I am still keeping the variables I use for each service separate so that I can keep all of my AWS variables consistent across the different Postman collections I am developing. I have built a whole list of AWS reference collections, and will be using these parts and pieces across many different workflow collections, with this just being the first one designed to deploy an API.
 

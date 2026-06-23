@@ -2,7 +2,7 @@
 layout: post
 title: New API Stories in 2013
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/telling-stories.gif
+  https://kinlane-images.s3.amazonaws.com/shared/blog/telling-stories.gif
 tags:
   - Stories
 ---

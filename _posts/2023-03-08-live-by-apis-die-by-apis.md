@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Live By APIs Die By APIs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-dragon-desert-looking.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-dragon-desert-looking.jpg
 author:
   name: kinlane
 tags:

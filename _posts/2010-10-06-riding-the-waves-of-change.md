@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Riding the Waves of Change
-image: http://kinlane-productions2.s3.amazonaws.com/waves.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/waves.jpg
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
 ---
 Change happens. With technology, change seems to be accelerating, or at least the waves of change seem to come more frequently.
 
-I feel I've developed a certain rhythm fkinlane-productions2.s3.amazonaws.coms rhythm is a regular evaluation of where I stand, a sort of agile career methodology. I'm in one of those evaluation periods right now. ![](http://kinlane-productions.s3.amazonaws.com/waves.jpg) What wave is next?
+I feel I've developed a certain rhythm fkinlane-productions2.s3.amazonaws.coms rhythm is a regular evaluation of where I stand, a sort of agile career methodology. I'm in one of those evaluation periods right now. ![](https://kinlane-images.s3.amazonaws.com/shared/waves.jpg) What wave is next?
 
 In January 2007 I found myself jumping on the social media wave, in which I still ride to some degree.
 

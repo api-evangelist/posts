@@ -12,7 +12,7 @@ image: >-
 author:
   name: kinlane
 ---
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/open-referral/human-services-data-specification-draft-snapshot.png" align="right" width="40%" style="padding: 15px" /></p>I'm refining my approach to moving forward the discussion around [the Human Services Data Specification and API](https://openreferral.github.io/api-specification/definition/) in an attempt to include more vendors and implementors in the conversation. Part of this work is to streamline how we move forward an increasing number of conversations regarding the schema and API definition.
+I'm refining my approach to moving forward the discussion around [the Human Services Data Specification and API](https://openreferral.github.io/api-specification/definition/) in an attempt to include more vendors and implementors in the conversation. Part of this work is to streamline how we move forward an increasing number of conversations regarding the schema and API definition.
 
 I am looking help solidify our communication strategy around the human services API, and help make clear which channels participants can tune into:
 

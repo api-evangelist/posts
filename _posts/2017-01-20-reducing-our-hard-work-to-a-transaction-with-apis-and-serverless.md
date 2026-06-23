@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reducing Our Hard Work To A Transaction With APIs and Serverless
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-fist.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-fist.png
 atomdate: 2017-01-20T17:00:00.000Z
 tags:
   - Serverless

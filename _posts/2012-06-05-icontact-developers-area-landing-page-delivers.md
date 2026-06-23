@@ -2,7 +2,7 @@
 layout: post
 title: iContact Developers Area Landing Page Delivers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/icontact-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/icontact-logo.jpg
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ I look at a lot of APIs, the first page you land on makes a big impression, and 
 
 I’ve talked about [what it takes to qualify for my API stack](/2012/03/15/qualifying-for-the-api-stack/ "what it takes to qualify for the API stack"), and today’s winner for simply and elegantly qualifying for the API stack is [iContact](http://developer.icontact.com/ "iContact").
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/iContact/iContact-Developer-Portal.png)](http://developer.icontact.com/ "iContact Developers Area")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/iContact/iContact-Developer-Portal.png)](http://developer.icontact.com/ "iContact Developers Area")
 
 Upon landing on the iContact Developers Area main page I visually see what I need to get going:
 

@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="This is a sponsored post by my friends over at SlashDB. The topic is chosen by me, but the work is funded by SlasDB, making sure I keep doing what I do here ...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/slashdb/slashdb-sql-pass-through-mode.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/slashdb/slashdb-sql-pass-through-mode.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -43,7 +43,7 @@
     <meta name="twitter:title" content="SQL Statement Pass-Through Using Web APIs">
     
     <meta name="twitter:description" content="This is a sponsored post by my friends over at SlashDB. The topic is chosen by me, but the work is funded by SlasDB, making sure I keep doing what I do here ...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/slashdb/slashdb-sql-pass-through-mode.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/slashdb/slashdb-sql-pass-through-mode.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -53,7 +53,7 @@
       "@type": "Article",
       "headline": "SQL Statement Pass-Through Using Web APIs",
       "description": "This is a sponsored post by my friends over at SlashDB. The topic is chosen by me, but the work is funded by SlasDB, making sure I keep doing what I do here ...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/slashdb/slashdb-sql-pass-through-mode.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/slashdb/slashdb-sql-pass-through-mode.png",
       "datePublished": "2017-11-30T08:00:00-05:00",
       "dateModified": "2017-11-30T08:00:00-05:00",
       "author": {
@@ -66,7 +66,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -364,7 +364,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -394,7 +394,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -728,13 +728,13 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/slashdb/slashdb-sql-pass-through-mode.png" alt="SQL Statement Pass-Through Using Web APIs" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/slashdb/slashdb-sql-pass-through-mode.png" alt="SQL Statement Pass-Through Using Web APIs" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
         <p><em>This is a sponsored post by my friends over at <a href="https://www.slashdb.com/">SlashDB</a>. The topic is chosen by me, but the work is funded by SlasDB, making sure I keep doing what I do here at API Evangelist. Thank you <a href="https://www.slashdb.com/">SlashDB</a> for your support, and helping me educate my readers about what is going on in the API space.</em></p>
 
-<p><a href="https://www.slashdb.com/how-it-works/#sql-pass-thru"><img src="https://s3.amazonaws.com/kinlane-productions2/slashdb/slashdb-sql-pass-through-mode.png" align="right" width="45%" style="padding: 15px;" /></a></p>
+<p><a href="https://www.slashdb.com/how-it-works/#sql-pass-thru"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/slashdb/slashdb-sql-pass-through-mode.png" align="right" width="45%" style="padding: 15px;" /></a></p>
 <p>I’m closely following the approach of GraphQL when it comes to making data resources more accessible by API consumers when developing applications. I think there is some serious value introduced when it comes empowering front-end developers with the ability to get exactly the data they need using a variety of querying structures. I enjoy studying up on different approaches to making different dimensions of a database to consumers and end-users, and found a pretty scrappy one from my friends over at SlashDB, with <a href="https://www.slashdb.com/how-it-works/#sql-pass-thru">their SQL statement pass through</a>. It’s not the most formal approach to query a database, but I think it’s scrappy and simple enough, that it might work for a wide variety of technical, as well as non-technical users.</p>
 
 <p>Using the SlashDB mode, an administrator, or an application backend developer can define arbitrary SQL queries which once defined, can be executed as a smple URL. The example query they provide returns customers from London: http://demo.slashdb.com/query/customers-in-city/city/London.html. It is something that will make RESTafarians pull their hair (dreads?) out, but for business users looking to get their hands on some data to populate a spreadsheet, or share with a partner when developing an application–it will be a lifesaver. As the GraphQL folks like trumpet, REST isn’t the only way to get things done, and while I think we should be thinking critical about the long term impact of our API design choices, getting business done efficiently is an important aspect of doing APIs as well.</p>

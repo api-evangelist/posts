@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Postman API Governance Collection
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-supreme-court-judgement.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-square-supreme-court-judgement.jpg
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ You can use Postman to test your APIs. With each request you can include a test 
 
 To explore the possibilities I created [a Postman collection for applying some basic API design governance to any API you have defined in a Postman workspace](https://documenter.postman.com/view/35240/SWLh46Dv?version=latest). The collection uses the Postman API to pull the OpenAPI for each API and store it within an environment, then there are a range of basic requests that can be made to evaluate the design of the APIs that we have defined as an OpenAPI.  The collection is a proof of concept, and is meant to be a starting point for designing many difference types of API governance rules, and thinking about how Postman collections can be used to govern the API life cycle, starting with the design of our APIs—something that is exposed as OpenAPI.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-supreme-court-judgement.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-square-supreme-court-judgement.jpg)
 
 My new Postman API governance collection has a handful of folders, and the following requests:
 

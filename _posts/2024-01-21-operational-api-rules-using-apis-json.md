@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Operational API Rules Using APIs.json
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-plumbing-water-agriculture.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-plumbing-water-agriculture.jpeg
 author:
   name: kinlane
 tags:

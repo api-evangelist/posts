@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An API Data Retention Policy And Paying for Longer Storage
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-data-retention.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-data-retention.png
 atomdate: 2016-09-14T16:00:00.000Z
 tags:
   - Storage

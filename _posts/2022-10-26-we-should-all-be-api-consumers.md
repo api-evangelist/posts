@@ -3,7 +3,7 @@ published: true
 layout: post
 title: We Should All Be API Consumers
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/uncle-sam-fire-hydrant-water.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-fire-hydrant-water.jpg
 author:
   name: kin
 tags:

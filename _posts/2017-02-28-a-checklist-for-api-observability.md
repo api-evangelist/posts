@@ -2,7 +2,7 @@
 layout: post
 title: A Checklist For API Observability
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_observability_lighthouse.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_observability_lighthouse.jpg
 atomdate: 2017-02-28T23:00:00.000Z
 tags:
   - Observability

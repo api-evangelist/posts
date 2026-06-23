@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Deployment Collections - AWS API Gateway and DynamoDB
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_api_deployment_collection_aws_api_gateay_dynamodb.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_api_deployment_collection_aws_api_gateay_dynamodb.png
 author:
   name: kinlane
 tags:

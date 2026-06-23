@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Profiling The bunq Banking API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/pull_image_09_26_2019_07_20_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/pull_image_09_26_2019_07_20_pm.png
 author:
   name: kinlane
 tags:
@@ -29,7 +29,7 @@ You quickly get an idea for what bunq does across these three pages. It allowed 
 
 As I profiled bunq I worked to apply a set of meaningful tags to the profile, which I use to organize and make the API available as part of my research. These tags are applied by me as I work my way through the website, providing some useful dimensions for considering where bunq fits in with the overall API economy--here are the tags I applied to bunq, helping illustrate what it is that they deliver.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bunq_company_tag_cloud.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bunq_company_tag_cloud.png)
 
 These help me define the entity behind each API. It is a taxonomy that will evolve over time as my taxonomy continues to expand and contract to accomodate the landscape I'm seeing. They provide a rich set of tags we can use to understand the value the bunq platform provides, allowing us to pick and choose which dimeinsion is the most meaningful to what we are looking to accomplish as an API consumer.
 
@@ -48,7 +48,7 @@ If I had to critique their approach in some way I would add that the bunq docume
 
 The tag cloud for the company paints an important picture of what bunq does, but I always find that the actual design of the API tends to add another critical layer to what is possible. Getting down to the technical details of what bunq can do, providing us with another rich set of tags that are directly associated with what each individual API path can deliver.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bunq_api_tag_cloud.png)I find the API design to be a more honest view of what is happening than the general marketing. It isn't always as coherent as the marketing materials, but it provides a nice snapshot of what is truly possible at the ground level. I think that bunq has a pretty sophisticated and rich set of API resources, representing a pretty relevant slice of the Fintech landscape.
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bunq_api_tag_cloud.png)I find the API design to be a more honest view of what is happening than the general marketing. It isn't always as coherent as the marketing materials, but it provides a nice snapshot of what is truly possible at the ground level. I think that bunq has a pretty sophisticated and rich set of API resources, representing a pretty relevant slice of the Fintech landscape.
 
 ### Access
 
@@ -71,7 +71,7 @@ bunq's OAuth is pretty straightforward, providing the expected security for a ba
 
 bunq nails it when it comes to API definitions for their banking API. They have both OpenAPI and Postman collections for their platform. Making it dead simple to get up and running using their Swagger UI documentation, or within the Postman platform--providing us with a blueprint for how all API providers should be defining the APIs they are making available.
 
-*   [OpenAPI](https://kinlane-productions2.s3.amazonaws.com/api-definitions/openapi/30773-2019-10-25-18-26-13.json) - An OpenAPI for the bunq API.
+*   [OpenAPI](https://kinlane-images.s3.amazonaws.com/apievangelist/api-definitions/openapi/30773-2019-10-25-18-26-13.json) - An OpenAPI for the bunq API.
 *   [Postman Collection](https://www.postman.com/collections/8012148-2a401c1b-b64c-41d7-b0ba-e3f26c0a6a7a-S1a8zkS4) - A Postman Collection for the bunq API.
 *   [Postman on GitHub](https://github.com/bunq/postman) - The Postman collection managed on GitHub for the bunq API.
 

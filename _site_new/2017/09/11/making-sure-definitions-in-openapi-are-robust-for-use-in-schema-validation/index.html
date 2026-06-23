@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I’m working on v1.2 of my Human Sevices Data API (HSDA), and with this wave of work I’m making sue there is a functional API for validating all JSON that get...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/open-referral/hsda-schema.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/open-referral/hsda-schema.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -44,7 +44,7 @@
     <meta name="twitter:title" content="Making Sure Definitions In OpenAPI Are Robust For Use In Schema Validation">
     
     <meta name="twitter:description" content="I’m working on v1.2 of my Human Sevices Data API (HSDA), and with this wave of work I’m making sue there is a functional API for validating all JSON that get...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/open-referral/hsda-schema.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/open-referral/hsda-schema.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -54,7 +54,7 @@
       "@type": "Article",
       "headline": "Making Sure Definitions In OpenAPI Are Robust For Use In Schema Validation",
       "description": "I’m working on v1.2 of my Human Sevices Data API (HSDA), and with this wave of work I’m making sue there is a functional API for validating all JSON that get...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/open-referral/hsda-schema.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/open-referral/hsda-schema.png",
       "datePublished": "2017-09-11T07:00:00-04:00",
       "dateModified": "2017-09-11T07:00:00-04:00",
       "author": {
@@ -67,7 +67,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -365,7 +365,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -395,7 +395,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -729,11 +729,11 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/open-referral/hsda-schema.png" alt="Making Sure Definitions In OpenAPI Are Robust For Use In Schema Validation" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/open-referral/hsda-schema.png" alt="Making Sure Definitions In OpenAPI Are Robust For Use In Schema Validation" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
-        <p><img src="https://s3.amazonaws.com/kinlane-productions2/open-referral/hsda-schema.png" align="right" width="40%" style="padding: 15p;" /></p>
+        <p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/open-referral/hsda-schema.png" align="right" width="40%" style="padding: 15p;" /></p>
 <p>I’m working on v1.2 of <a href="http://org.open.referral.adopta.agency/">my Human Sevices Data API (HSDA)</a>, and with this wave of work I’m making sue there is a functional API for validating all JSON that gets posted as the body in requests, as well as when it gets returned as part of API responses. To drive my validator I’m using JSON schema, which I already have defined as part of <a href="https://github.com/human-services/portal/tree/master/_data/api-commons">the OpenAPI definition for the project</a>. I want to reuse, and build on top of this work, but I found the definitions for my OpenAPI to be pretty deficient in much of the details I am needing to validate the request and response bodies of my HSDA APIs.</p>
 
 <p>The process has showed me the importance of making sure the definitions portion of my OpenAPIs are as robust as I can. Possessing required, default, regex patterns, and other details I’m going to need to make sure my schema validator is as robust as possible. I’m entering the phase of this project where vendors, and implementors are looking for guidance on whether or not their schema are HSDS/A compliant, and they are supporting the fields necessary to get a stamp of approval. The schema validator is essential to this, but the new validation API I’ve created is only as good as the JSON schema that I’m using as part of its engine.</p>

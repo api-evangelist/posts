@@ -10,7 +10,7 @@ tags:
   - Communication
   - Road Map
   - Github
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-readme.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-readme.png
 ---
 <p></p>I have several projects right now that are needed a baseline for what is expected of microservices developers when it comes to the README for their Github repository. Each microservice should be a self-contained entity, with everything needed to operate the service within a single Github repository. Making the README the front door for the service, and something that anyone engaging with a service will depend on to help them understand what the service does, and where to get at anything needed to operate the service.
 

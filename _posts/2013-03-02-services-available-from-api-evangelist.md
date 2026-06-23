@@ -2,7 +2,7 @@
 layout: post
 title: Services Available From API Evangelist
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-api-evangelist-services.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tag-cloud-api-evangelist-services.png
 author:
   name: kinlane
 tags:

@@ -3,7 +3,7 @@ layout: post
 title: Automated Documentation for REST APIs
 url: http://apievangelist.com/2012/03/08/automated-documentation-for-rest-apis/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/SDKBridge-logo.gif
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/SDKBridge-logo.gif
 tags:
   - Documentation
   - REST
@@ -11,7 +11,7 @@ tags:
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-service-providers/sdk-bridge/SDKBridge-logo.gif)](http://sdkbridge.com/ "SDK Bridge")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/sdk-bridge/SDKBridge-logo.gif)](http://sdkbridge.com/ "SDK Bridge")
 
 _This post comes from the [SDK Bridge](http://sdkbridge.com/ "SDK Bridge") newsletter.  I find so much value from what Peter and Jonathan do over at SDK Bridge, I always have to post their newsletter here and share with all of you._
 

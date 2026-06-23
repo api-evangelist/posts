@@ -5,7 +5,7 @@ title: >-
   Publishing My FHIR API Collection As Documentation And Making Available In The
   Postman Network
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/fhir/fast-healthcare-interoperability-resources-fhir-documentation.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/fhir/fast-healthcare-interoperability-resources-fhir-documentation.png
 author:
   name: kinlane
 tags:

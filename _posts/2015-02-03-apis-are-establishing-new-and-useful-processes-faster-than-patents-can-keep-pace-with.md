@@ -4,7 +4,7 @@ title: >-
   APIs Are Establishing New And Useful Processes Faster Than Patents Can Keep
   Pace With
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/jetpack-patent.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/jetpack-patent.jpg
 author:
   name: kinlane
 tags:
@@ -42,8 +42,6 @@ I am sure there are numerous motivations for filing a patent on an API, and the 
 
 **Patents Are Rich Person’s Game — We Don’t All Have The Resources To Play!**  
 To play in the patent game, you need money. You have to be able to afford to file your patents, and you need to be able to afford to defend them in court. This is not a doers game, it is a rich person’s game. My everyday world would be an extremely fertile environment for the defining of patents, as I spend my days playing with thousands of API resources, and deeply thinking how these APIs could be used in new an novel ways in our personal and business lives. However without the resource ($$) to be able to file the patents, and defend these virtual, API driven spaces, in a court of law, patents are a game I will never participate in. I can guarantee there are thousands of patentable ideas laying around my workbench, but because patents aren’t a concept I subscribe to, and I don’t have the resources to play in the game, you will never see a patent with my name on it.
-
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Daimler_Reitwagen_color_drawing_1885  DE patent 36423 - Basic original patent first motorcycle in the world.jpg)
 
 **Still Not Convinced You Can Define And Lock Up Ideas, Let Alone API Driven Ones**  
 Even after about 60+ hours of [patent API research](http://patents.apievangelist.com/), I’m still not convinced the patent process is something that is applicable in the API space. I’m barely sold on the concept when it involves the assembly of gears, conveyer belts, and physical elements, let alone with the new and useful process is algorithmic, allowing me to orchestrate infinite number of processes using APIs. I’m preparing a keynote talk in Sydney Australia next week, about the opportunities for orchestration with microservices and docker containers, using machine readable definitions like [APIs.json](http://apisjson.org) and [Swagger](http://swagger.io). As part of my work, I defined 18 specific processes that I depend on to operate as a business, and as soon as those were defined and deployed, I quickly define 8 new iterations on top of the existing processes. I’m still defining my overall approach to API orchestration with virtualized containers, but once ready, I will be able to define a new node on my network in seconds, and remix with other resources instantly, reworking existing processes and defining entirely new ones each day—why would I want to lock these up, I need these ideas to flow to be successful. Execution trumps definition.

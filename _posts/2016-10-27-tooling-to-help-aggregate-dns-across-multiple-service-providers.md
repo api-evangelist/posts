@@ -2,7 +2,7 @@
 layout: post
 title: Tooling To Help Aggregate DNS Across Multiple Service Providers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/68747470733a2f2f7261772e6769746875622e636f6d2f4e6574666c69782f64656e6f6d696e61746f722f6d61737465722f64656e6f6d696e61746f722e6a7067.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/68747470733a2f2f7261772e6769746875622e636f6d2f4e6574666c69782f64656e6f6d696e61746f722f6d61737465722f64656e6f6d696e61746f722e6a7067.jpeg
 atomdate: 2016-10-27T22:00:00.000Z
 tags:
   - DNS
@@ -18,7 +18,7 @@ Adrian Cockroft (@adrianco) turned me on to a DNS aggregation solution the other
 
 [Denominator is a portable Java library for manipulating DNS clouds](https://github.com/Netflix/denominator). It has pluggable backends, including AWS Route53, Neustar Ultra, DynECT, Rackspace Cloud DNS, and OpenStack Designate. Here is a good post on it from back in 2013, [describing it as a multi-vendor interface for DNS](http://techblog.netflix.com/2013/03/denominator-multi-vendor-interface-for.html). 
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/68747470733a2f2f7261772e6769746875622e636f6d2f4e6574666c69782f64656e6f6d696e61746f722f6d61737465722f64656e6f6d696e61746f722e6a7067.jpeg)](https://github.com/Netflix/denominator)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/68747470733a2f2f7261772e6769746875622e636f6d2f4e6574666c69782f64656e6f6d696e61746f722f6d61737465722f64656e6f6d696e61746f722e6a7067.jpeg)](https://github.com/Netflix/denominator)
 
 There doesn't look to be a lot of activity around the project in the last year, but it provides a good model for what I'd like to eventually see across all the major stops along the API lifecycle. I picture a wealth of aggregate tooling like Denominator that can act as a broker between API service providers and help switch, migrate, and sync between providers whether you are deploying, managing, testing, monitoring, or dialing in your DNS.
 

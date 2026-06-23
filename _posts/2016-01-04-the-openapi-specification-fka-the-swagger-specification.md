@@ -2,7 +2,7 @@
 layout: post
 title: The OpenAPI Specification (fka The Swagger Specification)
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/open-api-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/open-api-logo.png
 author:
   name: kinlane
 tags:
@@ -10,7 +10,7 @@ tags:
   - Swagger
   - Open
 ---
-[](https://github.com/OAI/OpenAPI-Specification)[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/open-api-logo.png)](https://openapis.org/)
+[](https://github.com/OAI/OpenAPI-Specification)[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/open-api-logo.png)](https://openapis.org/)
 
 It is a new year, and we have a lot of work to do when it comes to defining APIs in the new year. One of the results of 2015, [was that the specification known as Swagger was spun off into the Linux Foundation, where for the remaining of the year we were simply calling it the Open API Definition Format (OADF)](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)\--quite a mouthful.
 

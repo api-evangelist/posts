@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Imagine What Would Be Possible If Twitter Cards Were Open?
-image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/fist.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/fist.png
 author:
   name: kinlane
 tags:

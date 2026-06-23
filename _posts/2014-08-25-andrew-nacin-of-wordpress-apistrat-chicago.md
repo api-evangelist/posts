@@ -2,7 +2,7 @@
 layout: post
 title: Andrew Nacin Of WordPress @APIStrat Chicago
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/andrew-nacin-wordpress.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/andrew-nacin-wordpress.jpg
 author:
   name: kinlane
 tags:

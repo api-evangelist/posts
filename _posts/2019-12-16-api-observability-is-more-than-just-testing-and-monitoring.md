@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Observability Is More Than Just Testing And Monitoring
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-seatlle-shipping-mountain.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-seatlle-shipping-mountain.jpg
 author:
   name: kinlane
 tags:

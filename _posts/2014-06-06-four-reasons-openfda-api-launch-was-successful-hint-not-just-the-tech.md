@@ -2,7 +2,7 @@
 layout: post
 title: 'Four Reasons OpenFDA API Launch Was Successful (Hint: Not Just The Tech)'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/fda/open-fda-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/fda/open-fda-logo.png
 author:
   name: kinlane
 tags:

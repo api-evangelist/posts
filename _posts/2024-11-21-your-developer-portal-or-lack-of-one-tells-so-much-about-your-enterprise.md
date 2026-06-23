@@ -7,7 +7,7 @@ tags:
   - Presence
   - Discovery
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-san-francisco-fence.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-san-francisco-fence.jpeg
 ---
 Having a dedicated developer portal for your company is a drum I have been beating for 15 years now. Some listen, most don’t, despite the huge amounts of evidence supporting the need. Amazon has Amazon.com and Amazon Web Services. Despite Amazon changing the business world as we know it forever, and AWS being more profitable than Amazon proper, people still don’t follow the advice. This is what we are up against. Those of us who have fought this fight know how difficult it is to change hearts and minds, and shows that APIs are more business and politics, than they are ever about technology.
 
@@ -15,7 +15,7 @@ I am profiling all the top credit card companies, and you can tell who is leadin
 
 When profiling a company I start by Googling or Binging their name + API, then name + OpenAPI, then name + Postman Collection. When I find multiple landing pages for APIs and GitHub repositories for different groups within a company without a unifying portal—you know the company has many siloes that probably don’t talk or get along. When I find a company that has an API presence, but everything is being a login, I will research their competition within their industry to see what presence their competition has. This helps further paint a picture about what is going on within the industry, but specifically the companies who are further behind and do not realize the importance of visibility and access as part of their APIs, documentation, SDKs, and other resources. This is something I’ll bring out more in industry blueprints that often tell the real story of why one company within a sector doesn’t let the sunlight in with a developer portal—they are behind.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-razor-wire-buildings.jpg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-razor-wire-buildings.jpg" style="padding: 15px;">
 
 You can tell when someone is early on in their journey and they have stood up a portal, have one or two APIs published, maybe one SDK, but not much else. I am cheering for you!! I know how much work it is. Opening up a portal size hole in the outer shell of your enterprise is hard work and should be done thoughtfully. It is something that takes time and experience. It is something you can’t move too fast with otherwise you will let unwanted activity into the enterprise, and reveal unwanted dysfunction occurring inside the enterprise out for everyone to see. Visit any portal for a company who has been doing this a while to see how much work there is, how much more is needed beyond just publishing API documentation, and how much they are able to control the narrative about their business via blog posts, guides, what’s new, canary releases, and much much more. Visit Mastercard’s developer portal or Blue Button within the federal government, as well as the leaders who paved the way like eBay, Twilio, or Stripe.
 

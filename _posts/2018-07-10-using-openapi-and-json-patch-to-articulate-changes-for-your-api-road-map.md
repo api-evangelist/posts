@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Using OpenAPI And JSON PATCH To Articulate Changes For Your API Road Map'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/downtheline_dali_three.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/using-openapi-and-json-patch-to-articulate-changes-for-your-api-road-map.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/downtheline_dali_three.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>I’m doing a lot of thinking regarding how JSON PATCH can be applied because of my work with <a href="http://streamdata.io">Streamdata.io</a>. When you proxy an existing JSON API with Streamdata.io, after the initial response, every update sent over the wire is articulated as a <a href="https://tools.ietf.org/html/rfc6902">JSON PATCH</a> update, showing only what has changed. It is an efficient, and useful way to show what has changed with any JSON API response, while being very efficient about what you transmit with each API response, reducing polling, and taking advantage of HTTP caching.
 
 <p>As I’m writing an OpenAPI diff solution, helping understand the differences between OpenAPI definitions I’m importing, and allowing me to understand what has changed over time, I can’t help but think that JSON PATCH would be a great way to articulate change of the surface area of an API over time–that is, if everyone loyally used OpenAPI as their API contract. Providing an OpenAPI diff using JSON PATCH would be a great way to articulate an API road map, and tooling could be developed around it to help API providers publish their road map to their portal, and push out communications with API consumers. Helping everyone understand exactly what is changing in way that could be integrated into existing services, tooling, and systems–making change management a more real time, “pipelinable” (making this word up) affair.

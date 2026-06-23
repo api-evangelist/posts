@@ -2,7 +2,7 @@
 layout: post
 title: API Evangelist 2.0
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-logo-400.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-evangelist-logo-400.png
 author:
   name: kinlane
 tags:

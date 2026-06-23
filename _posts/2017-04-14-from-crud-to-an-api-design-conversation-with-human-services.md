@@ -2,7 +2,7 @@
 layout: post
 title: From CRUD To An API Design Conversation With Human Services
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/human_services_data_specification_discussion.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/human_services_data_specification_discussion.png
 atomdate: 2017-04-14T16:00:00.000Z
 tags:
   - Design

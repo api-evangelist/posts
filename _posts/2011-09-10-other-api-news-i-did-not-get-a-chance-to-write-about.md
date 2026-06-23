@@ -4,7 +4,7 @@ title: Other API News I Did Not Get a Chance to Write About
 url: >-
   http://apievangelist.com/2011/09/10/other-api-news-i-did-not-get-a-chance-to-write-about/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-e-commerce.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tag-cloud-e-commerce.jpg
 author:
   name: kinlane
 tags:

@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'The Need for Standardized API Plans and Pricing to Compete with Cloud'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/docks_copper_circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-need-for-standardized-api-plans-and-pricing-to-compete-with-cloud.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/docks_copper_circuit.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p><a href="https://cloudplatform.googleblog.com/2018/02/introducing-Cloud-Billing-Catalog-API-GCP-pricing-in-real-time.html">Google launched their Cloud Billing Catalog API, providing access to thee pricing for their cloud API catalog</a> the other day. <a href="https://docs.microsoft.com/en-us/azure/billing/">Azure has their billing API</a>, and <a href="https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/Welcome.html">AWS has their cost explorer API service</a>, showing that programmatic access to what API resources cost, as well as management of usage, billing, invoicing, and other aspects of doing business with APIs is becoming the normal mode of operating an API platform.
 
 <p>I’ve long used AWS, Google, and increasingly Azure as a blueprint for what us smaller API providers should be doing. They are full of positive and negative lessons for any API provider. However, I’m starting to see what they are doing as not just a blueprint, but potentially something that will force many of us API providers out of businesses if we cannot emulate what they are doing at scale. The tractor beam that is the cloud providers is strong. They bring a lot of benefits to the table. So much so, it is getting harder and harder for independent API providers to compete. Offering benefits to consumers that will become deal breakers with using other 3rd party API providers services, pushing API consumers to stay within their chosen cloud platform walled garden.

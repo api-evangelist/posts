@@ -2,7 +2,7 @@
 layout: post
 title: What to Include in API Reference Documentation
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/SDKBridge-logo.gif
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/SDKBridge-logo.gif
 tags:
   - Documentation
   - Reference
@@ -11,7 +11,7 @@ _This post comes from the [SDK Bridge](http://sdkbridge.com/ "SDK Bridge") newsl
 
 * * *
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/SDKBridge-logo.gif)](http://sdkbridge.com/ "SDK Bridge")This article presents a series of questions that your writing should answer for each type of element you would typically find in reference documentation.
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/SDKBridge-logo.gif)](http://sdkbridge.com/ "SDK Bridge")This article presents a series of questions that your writing should answer for each type of element you would typically find in reference documentation.
 
 To begin with, think about what a new user needs to know. If you can write for a new user, then you'll cover everything that an existing user will need to know. Once you have that mindset, answer the questions below. For a given element, some of the answers will be obvious from the context and not need to be documented, so use your judgment. In general:
 

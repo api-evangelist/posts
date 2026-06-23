@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Deployment Collections - AWS API Gateway, Lambda, and RDS
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_04_21_at_2.59.41_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_04_21_at_2.59.41_pm.png
 author:
   name: kinlane
 tags:

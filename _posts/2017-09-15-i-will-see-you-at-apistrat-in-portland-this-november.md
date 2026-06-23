@@ -4,8 +4,6 @@ layout: post
 title: 'I Will See You At APIStrat In Portland This November'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/apistrat/apistrat-portland-screenshot.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apistrat/apistrat-portland-screenshot.png" align="right" width="40%" style="padding: 15px;" />
 <p><a href="http://events.linuxfoundation.org/events/apistrat/program/schedule">We are putting the finishing touches on the schedule for APIStrat in Portland, OR, October 31st through November 2nd</a>. We have all the workshops, sessions, and keynotes dialed in (not all keynotes announced, wink, wink), and it is all just about making sure y’all show up and participate in the conversation. This is my 2nd favorite part of the event, the build-up for the big day(s). This is the 8th APIStrat we’ve done, and it is the first one we’ve done as part of the Linux Foundation, and with the OpenAPI Initiative. I’m excited.
 
 <p><a href="http://events.linuxfoundation.org/events/apistrat/program/schedule">Make sure and take a look at the session schedule</a>. We received over 165 submissions, and had a program committee of almost 30 people vote to decide with 60 would be accepted. I am the program chair and helped make some difficult decisions, but ultimately I”m pretty proud of the lineup we’ve pulled together. It’s much of the same popular topics as you’ve seen at previous events, with new faces, and brands, but there is also some of the leading edge conversations around serverless, gRPC, GraphQL. Of course, there is also going to be a lot of talk about OpenAPI, in workshops, sessions, and on the main stage. So check out the schedule if you haven’t, it’s pretty sweet lineup.

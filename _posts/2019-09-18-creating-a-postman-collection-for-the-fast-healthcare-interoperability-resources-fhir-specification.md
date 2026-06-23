@@ -5,7 +5,7 @@ title: >-
   Creating A Postman Collection For The Fast Healthcare Interoperability
   Resources (FHIR) Specification
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/fhir/fhir-specification-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/fhir/fhir-specification-screenshot.png
 author:
   name: kinlane
 tags:

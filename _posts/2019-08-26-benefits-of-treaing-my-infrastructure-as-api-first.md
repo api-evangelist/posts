@@ -8,7 +8,7 @@ tags:
   - Infrastructure
   - Business of APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-23-160-800-500-0-max-0--5--1-square.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-square-23-160-800-500-0-max-0--5--1-square.jpg
 ---
 Most API providers I speak with see the value of consistently delivering API infrastructure to power desktop, web, mobile, device, and network applications. Less than 10% of these providers see the API infrastructure that powers their APIs, and ultimately their applications as APIs. Meaning, these providers do not view every stop along the API lifecycle as a set of APIs, ensuring that your API definitions, design, mocking, deployment, management, monitoring, testing, orchestration, security, and documentation all have APIs, and are able to be governed programmatically. Mostly it is because they are just getting started on their API journey and / or they just don’t have the bandwidth to be able to step back and look holistically at what they are trying to accomplish.
 

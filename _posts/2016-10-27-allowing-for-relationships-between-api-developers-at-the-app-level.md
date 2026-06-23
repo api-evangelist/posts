@@ -2,7 +2,7 @@
 layout: post
 title: Allowing For Relationships Between API Developers At The App Level
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_26_at_9.05.40_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_26_at_9.05.40_pm.png
 atomdate: 2016-10-27T20:00:00.000Z
 tags:
   - Developers

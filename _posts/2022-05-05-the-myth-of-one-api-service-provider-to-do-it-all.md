@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Myth of One API Service Provider to Do It All
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-crypto-wheels-old-compute-bletchley.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-crypto-wheels-old-compute-bletchley.jpg
 tags:
   - Management
   - Providers

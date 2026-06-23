@@ -2,7 +2,7 @@
 layout: post
 title: API SDKs Getting More Specialized
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_sdk_expanding.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_sdk_expanding.png
 atomdate: 2016-09-30T20:00:00.000Z
 tags:
   - SDK

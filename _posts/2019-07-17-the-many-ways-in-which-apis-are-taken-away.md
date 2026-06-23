@@ -8,7 +8,7 @@ tags:
   - Deprecation
   - Reliability
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/catacombs-catacombs-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/catacombs-catacombs-copper-circuit.jpg
 author:
   name: kinlane
 ---

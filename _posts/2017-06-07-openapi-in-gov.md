@@ -12,7 +12,7 @@ image: >-
 author:
   name: kinlane
 ---
-<p><a href="https://qpp.cms.gov/api/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/cms/cms-quality-payment-program.png" align="right" width="40%" style="padding: 15px;" /></a></p>I was answering some questions for [my partners over at DreamFactory](http://apis.how/bgdteovduo) when it comes to APIs in government, and one of the questions they asked was about some examples of the [OpenAPI specification](https://github.com/OAI/OpenAPI-Specification) being used in government. To help out, I started going through  my list of government API looking for any examples in the wild--here is what I found:
+I was answering some questions for [my partners over at DreamFactory](http://apis.how/bgdteovduo) when it comes to APIs in government, and one of the questions they asked was about some examples of the [OpenAPI specification](https://github.com/OAI/OpenAPI-Specification) being used in government. To help out, I started going through  my list of government API looking for any examples in the wild--here is what I found:
 
 * [Federal Election Commission](https://api.open.fec.gov/developers/) (FEC) ([OpenAPI](https://api.open.fec.gov/swagger/))
 

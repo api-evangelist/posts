@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Great API Unbundling
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/art-museum-art-museum-blue-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/art-museum-art-museum-blue-circuit.jpg
 author:
   name: kinlane
 tags:

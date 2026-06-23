@@ -9,7 +9,7 @@ tags:
   - Discovery
   - Proxy
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-97-193-800-500-0-max-0-1--1-square.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-square-97-193-800-500-0-max-0-1--1-square.jpg
 author:
   name: kinlane
 ---

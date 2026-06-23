@@ -2,7 +2,7 @@
 layout: post
 title: What Is A RESTful API And Why Does It Matter To IoT?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-internet-of-things.png
+  https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-internet-of-things.png
 atomdate: 2016-08-23T00:00:00.000Z
 tags:
   - REST

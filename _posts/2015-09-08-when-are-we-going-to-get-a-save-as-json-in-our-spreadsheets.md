@@ -2,7 +2,7 @@
 layout: post
 title: When Are We Going To Get A Save As JSON In Our Spreadsheets?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-spreadsheet-to-json.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-spreadsheet-to-json.png
 author:
   name: kinlane
 tags:

@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Obtaining A Scalable API Definition Driven API Design Workflow On Github'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/G0520270_blue_circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/obtaining-a-scalable-api-definition-driven-api-design-workflow-on-github.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/G0520270_blue_circuit.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>There is a lot of talk of an API design first way of doing things when it comes to delivering microservices. I’m seeing a lot of organizations make significant strides towards truly decoupling how they deliver the APIs they depend on, and continue to streamline their API lifecycle, as well as governance. However, if you are down in the weeds, doing this work at scale, you know how truly hard it is to actualy get everything working in concert across many different teams. While I feel like I have many of the answers, actually achieving this reality, and assembling the right tools and services for the job is much harder then it is in theory.
 
 <p>There was <a href="https://groups.google.com/forum/#!topic/api-craft/H3tpTPJnoZQ">a question posted on API Craft recently that I think gets at the challenges we all face</a>:

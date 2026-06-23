@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Constraints Introduced By Supporting Standardized API Definitions and Schema'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/server-cloud1_feed_people.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/constraints-introduced-by-supporting-standardized-api-definitions-and-schema.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/server-cloud1_feed_people.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>I’ve had a few API groups contact me lately regarding the challenges they are facing when it comes to supporting organizational, or industry-wide API definitions and schema. They were eager to support common definitions and schema that have been standardized, but were getting frustrated by not being able to do everything they wanted, and having to live within the constraints introduced by the standardized definitions. Which is something that doesn’t get much discussion by those of use who are advocating for standardization of APIs and schema.
 
 <p><strong>Web APIs Come With Their Own Constraints</strong><br />

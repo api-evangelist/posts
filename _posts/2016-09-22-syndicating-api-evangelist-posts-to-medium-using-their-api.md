@@ -2,7 +2,7 @@
 layout: post
 title: Syndicating API Evangelist Posts To Medium Using Their API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/medium_black.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/medium_black.png
 atomdate: 2016-09-22T18:00:00.000Z
 tags:
   - API Evangelist

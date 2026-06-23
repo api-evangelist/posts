@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making Data Serve Humans Through API Design
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-waiter.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-waiter.png
 atomdate: 2016-10-04T20:00:00.000Z
 tags:
   - Design

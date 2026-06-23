@@ -2,7 +2,7 @@
 layout: post
 title: An API Evangelist Review Of Your API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/technology-business-politics-apis.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/technology-business-politics-apis.png
 author:
   name: kinlane
 tags:
@@ -43,4 +43,4 @@ In some cases, when approved, I will publicly write up a review, providing a mor
 
 The goal with a review is to better understand the balance of technology, business and politics going on within an API ecosystem, providing feedback that will help a company better achieve balance and success with their API initiative.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/technology-business-politics-apis.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/technology-business-politics-apis.png)

@@ -2,7 +2,7 @@
 layout: post
 title: Using Google Sheet Templates For Defining API Tests
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_30_at_6.48.27_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_30_at_6.48.27_pm.png
 atomdate: 2017-03-30T22:00:00.000Z
 tags:
   - Templates

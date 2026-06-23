@@ -10,7 +10,7 @@ tags:
   - Kafka
   - gRPC
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-fixing-cross.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/green-circuit-fixing-cross.jpg
 ---
 I am always fascinated by the dogma that exists around each successful API pattern that comes along. Everyone believes their "aha" moment is elevated over everyone else’s "aha" moment. I’ve been guilty of the same response many times over the years. It takes practice and time to be able to elevate yourself over the dogma and see the value and benefit of any individual API pattern, and even then you’ll still be subject to being sucked back down with new trends, and peer pressure along the journey.
 

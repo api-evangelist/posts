@@ -9,7 +9,7 @@ tags:
   - Declarative
   - Design
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/server-cloud-server-racks-clouds-smoking-cigarette.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/server-cloud-server-racks-clouds-smoking-cigarette.jpg
 author:
   name: kinlane
 ---

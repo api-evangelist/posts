@@ -2,7 +2,7 @@
 layout: post
 title: Reach Corporate API Devs On LinkedIn, Independent API Devs On Twitter
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/linkedin-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/linkedin-logo.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ As I email each new API developer I use [Rapportive to identify more information
 
 After 3 months of doing this, I’ve noticed that developers who work for larger companies have LinkedIn profiles and developers who either are freelance, own or work with a smaller development shop tend to have Twitter.
 
-![](http://kinlane-productions2.s3.amazonaws.com/twitter/twitter-logo-puffy-border.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/twitter-logo-puffy-border.png)
 
 It makes sense. Twitter is a more public forum, and smaller companies tend to need to market their skills and services and actively engage the world around them. While established companies tend to keep their developers in a more closed environment, suitable for the business social network LinkedIn.
 

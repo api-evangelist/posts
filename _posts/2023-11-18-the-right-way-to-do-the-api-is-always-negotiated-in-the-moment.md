@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: The Right Way To Do the API Is Always Negotiated in the Moment
-image: https://kinlane-productions2.s3.amazonaws.com/the-right-way-to-do-an-api.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/the-right-way-to-do-an-api.jpg
 author:
   name: kinlane
 tags:

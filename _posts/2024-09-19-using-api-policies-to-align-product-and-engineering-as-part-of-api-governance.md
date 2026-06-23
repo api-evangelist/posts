@@ -9,7 +9,7 @@ tags:
   - Linting
   - Policies
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-skyscraper-construction-crane-2.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-skyscraper-construction-crane-2.jpeg
 ---
 One of the greatest challenges with API governance is aligning the product and engineering interests across every stage of the API lifecycle. API governance is heavily invested in from a engineering side of things (OpenAPI, JSON Schema, Spectral), but rarely are aligning the business side of things (Use Cases, Provenance, Education), and I am very interested in closing this gap in my API governance work moving forward. I have numerous tools in my toolbox, but one of the ways I am aligning the current engineering investment of API governance is using API policies.
 

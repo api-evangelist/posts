@@ -8,7 +8,7 @@ tags:
   - Regions
   - Definitions
   - Discovery
-image: https://s3.amazonaws.com/kinlane-productions2/amazon/aws-cloud-regions.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/aws-cloud-regions.png
 ---
 <p></p>[I wrote about Werner Vogel of Amazon's post considering the impact of cloud regions a couple weeks back](http://apievangelist.com/2018/03/29/the-impact-of-availability-zones-regions-and-api-deployment-around-the-globe/). I feel that [his post](https://www.allthingsdistributed.com/2018/03/ten-years-of-aws-compartimentalization.html) captured an aspect of doing business in the cloud that isn't discussed enough, and one that will continue to drive not just the business of APIs, but also increasingly the politics of APIs. Amidst increasing digital nationalism, and growing regulation of not just the pipes, but also platforms, understanding where your APIs are operating, and what networks you are using will become very important to doing business at a global scale.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Taking A Moment To Catch Up With APIs Before Moving To Next Big Thing
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-pause.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-pause.png
 atomdate: 2016-08-30T22:00:00.000Z
 tags:
   - APIs

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Color Of Money When Deploying APIs At The Department Of Veterans Affairs
-image: https://s3.amazonaws.com/kinlane-productions2/digital-strategy/logos/va.png
+image: https://kinlane-images.s3.amazonaws.com/shared/digital-strategy/logos/va.png
 author:
   name: kinlane
 tags:

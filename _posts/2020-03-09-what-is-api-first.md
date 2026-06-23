@@ -3,7 +3,7 @@ published: true
 layout: post
 title: What Is API First?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-docks-water-front-ships-containers.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-docks-water-front-ships-containers.jpg
 tags:
   - API-First
 ---
@@ -61,7 +61,7 @@ As with discussion amongst a more technical crowd, it is natural for folks to as
 *   The more eyeballs on the pipes behind the applications we depend on the better.
 *   Help demystify API technology, and force technical stakeholders to simply and make more accessible.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-docks-big-cosco-ship.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-docks-big-cosco-ship.jpg)
 
 As you can see, this really isn’t about API. It is about people, communication, and planning. APIs are just a convenient vehicle for introducing healthier approaches to these areas, and better define the human-machine relationship that exists throughout our personal and professional lives. APIs aren’t purely technical. They also have the human meaning and behavioral outcomes coded into their endpoints. APIs are both human and machine readable when they are designed well. This reflects the API-first mandate. APIs aren’t new. Really, the most recent innovation in the development and delivery of APIs that has made a significant impact in how business gets done using APIs, is that they have become simpler, and more accessible to non-developers. Invoking more conversations around the business value of doing APIs, which honestly is the primary driver of why we are not just doing APIs, but also the desktop, web, mobile, device, and network applications that use them.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Be Part Of Your Community, Do Not Just Sell To It
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-a.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-a.png
 atomdate: 2016-09-21T20:00:00.000Z
 tags:
   - Community

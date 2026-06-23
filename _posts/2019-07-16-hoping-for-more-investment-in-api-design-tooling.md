@@ -8,7 +8,7 @@ tags:
   - Search
   - Definitions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-new-68-158-800-500-0-max-0-1--1.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-new-68-158-800-500-0-max-0-1--1.jpg
 author:
   name: kinlane
 ---

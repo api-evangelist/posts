@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building The Case For Redefining The Mortgage Industry Using APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-mortgage-api.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-mortgage-api.png
 atomdate: 2016-09-14T20:00:00.000Z
 tags:
   - Industry

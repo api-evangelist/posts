@@ -4,8 +4,6 @@ layout: post
 title: 'An API You Should Consider Emulating When Crafting Your SaaS / API Business'
 image: https://blog.pinboard.in/2017/06/pinboard_acquires_delicious/
 ---
-
-<p><a href="https://blog.pinboard.in/2017/06/pinboard_acquires_delicious/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/pinboard/pinboard-buys-delicious.png" align="right" width="35%" /></a>
 <p>The <a href="https://pinboard.in/u:kinlane">social bookmarking API Pinboard</a> is my favorite API. I feel like it is a model we should all be considering crafting our API-focused businesses. I’ve used Pinboard to curate what I do as the API Evangelist ever since 2011, and it has been one of the most stable and versatile APIs in my stack, doing one thing, and doing it well, reflecting everything that is API from a business perspective.
 
 <p>I feel that Pinboard provides entrepreneurs with a positive model for not just a SaaS business, and API operations, but showing startups that you don’t always need to scale to achieve success. <a href="https://blog.pinboard.in/2017/06/pinboard_acquires_delicious/">Pinboard acquired their rival Delicious bookmarking site</a> this last week, which has been bought and sold five times now, demonstrating the volatility of startup culture, as well as the viability and potential stability a well-run API business can bring to the table. Providing a model that won’t necessary work in all business scenarios, but does provide us with plenty to consider for our API ideas that probably aren’t VC scale.

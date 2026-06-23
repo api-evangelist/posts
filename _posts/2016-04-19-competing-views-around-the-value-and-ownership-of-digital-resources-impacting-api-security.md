@@ -3,7 +3,7 @@ layout: post
 title: >-
   Competing Views Around The Value And Ownership Of Digital Resources Impacting
   API Security
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-ownership.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-ownership.png
 tags:
   - Security
   - Value

@@ -8,7 +8,7 @@ tags:
   - ChatGPT
   - OpenAPI
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-chess-in-the-park-with-pigeons.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-chess-in-the-park-with-pigeons.jpg
 ---
 I have a custom built set of admin tools for APIs.io that help me quickly build APIs.json and OpenAPI indexes for search. While I am a believer in using AI, I am a skeptic of all the hype going on around AI right now.  Well trained ML models developed on high quality sources of data and content have the potential to do many useful things. However, I know all too well that when you have garbage into your API models you get garbage out. So, amidst all of this hustle and hype I enjoy having real world uses for applying AI beyond just the images for my stories, and specifically using ChatGPT to help curate high quality API search indexes. 
 

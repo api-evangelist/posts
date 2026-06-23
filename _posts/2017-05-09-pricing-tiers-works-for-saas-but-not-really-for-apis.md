@@ -2,7 +2,7 @@
 layout: post
 title: Pricing Tiers Works For SaaS But Not Really For APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_plans_pricing_tiers.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_plans_pricing_tiers.png
 atomdate: 2017-05-09T22:00:00.000Z
 tags:
   - Pricing

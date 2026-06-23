@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The PSD2 Sandbox From Banking API Provider bunq
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bunq_psd2_sandbox.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bunq_psd2_sandbox.png
 author:
   name: kinlane
 tags:

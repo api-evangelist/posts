@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Expanding My API Toolbox for the Next Decade
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-satellite-dishes-pointing-up.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-satellite-dishes-pointing-up.jpg
 author:
   name: kinlane
 tags:
@@ -55,7 +55,7 @@ This list, minus EDI, is the usual list of tools I include in my API toolbox. Ho
 
 ### SMTP/POP
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-shipping-docks_36331347010_o.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-shipping-docks_36331347010_o.jpg)
 
 As part of this latest wave of research into what I consider to be the wider API economy I was reminded of how SMTP is still used by many legacy providers when it comes to EDI and SOAP. While this still might be a relic of the past I am still interested in understanding how email is used as the OG messaging system and can either still be applied or at least considered as we evolve our modern approaches to messaging.
 
@@ -86,7 +86,7 @@ Last, I wanted to include the specifications for defining our APIs, and the sche
 *   **Postman Collection** \- Postman Collections are Executable API Descriptions Collection folders make it easy to keep your API requests and elements organized. A Postman Collection lets you group individual requests together. You can organize these requests into folders. You can group together requests into folders and collections, so that you don't have to search through your history repeatedly. Then collections can be used to mock, document, and test APIs as part of the API life cycle.
 *   **JSON Schema** - JSON Schema is a vocabulary that allows you to annotate and validate JSON documents. Describes your existing data format(s). Provides clear human- and machine- readable documentation. Validates data which is useful for: Automated testing, and ensuring quality of client submitted data.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-seattle-public-market_36725946605_o.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-seattle-public-market_36725946605_o.jpg)
 
 These specification formats help describe the surface area of API infrastructure in a machine readable way, allowing the resulting definitions to be shared and used across teams helping provide a common truth around what an API does and doesn’t do. They can also then be used across the API life cycle to generate mock servers, publish documentation, generate tests, client and server side code, and many other aspects of operating an API. While these specifications haven’t expanded to include every approach listed in this toolbox, that is part of my work here, to help identify where the shadows exist when it cones to adequately mapping out the API landscape.
 

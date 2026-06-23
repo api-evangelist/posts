@@ -2,7 +2,7 @@
 layout: post
 title: Deploy Instances Of APIs At Heroku Or PaaS Of Your Choice
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/heroku/heroku-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/heroku/heroku-logo.png
 author:
   name: kinlane
 tags:

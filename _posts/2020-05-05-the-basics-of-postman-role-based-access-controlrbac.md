@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Basics of Postman Role Based Access Control (RBAC)
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_roles_postman.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_roles_postman.png
 author:
   name: kinlane
 tags:
@@ -52,7 +52,7 @@ If you don’t have a clear understanding of how you are powering each stop alon
 
 ### Considering the Bigger Picture
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-border-crossing-through-fence.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/stalin-time-border-crossing-through-fence.jpg)
 
 In addition to the roles and resources we are controlling access to and the downstream effects of RBAC being applied well or not, there are numerous other dimensions to think about. Too many for just a single post, requiring me to spend time digging, scratching, and working to make sense of what the big picture of API RBAC looks like across the entire API life cycle. Here are just a few of the areas I am thinking about in addition to what I have listed above, making for the seeds of future blog posts here on API Evangelist. 
 

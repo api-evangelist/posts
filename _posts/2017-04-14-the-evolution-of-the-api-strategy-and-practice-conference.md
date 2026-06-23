@@ -2,7 +2,7 @@
 layout: post
 title: The Evolution Of The API Strategy And Practice Conference
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/apistrat_linux_portland.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apistrat_linux_portland.png
 atomdate: 2017-04-14T22:00:00.000Z
 tags:
   - Strategy

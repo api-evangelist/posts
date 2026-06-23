@@ -12,15 +12,9 @@ We just added [three new speakers to the lineup for @APIStrat Berlin this April 
 
 Here are the three that we added today:
 
-![](http://apidaysberlin2015.apistrat.com/wp-content/uploads/2014/12/AnttiBIO-PHOTO.jpg)
-
 Antti Silventoinen ([@lamantiini](https://twitter.com/lamantiini)) of [Music Kickup](https://www.musickickup.com/)
 
-![](http://apidaysberlin2015.apistrat.com/wp-content/uploads/2015/01/jordi-romero.jpeg)
-
 Jordi Romero ([@jordiromero](https://twitter.com/jordiromero)) of [Redbooth](https://redbooth.com/)
-
-![](http://apidaysberlin2015.apistrat.com/wp-content/uploads/2015/01/matt-boyle.png)
 
 Matt Boyle ([@mboylevt](https://twitter.com/mboylevt)) of [Shapeways](http://www.shapeways.com/)
 

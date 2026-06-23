@@ -15,8 +15,6 @@ I learned a lot attending APIDays Berlin earlier this year, and I am looking for
 
 Of course we need sponsors to make the conversation happen. APIDays and APIDays can’t make it all happen alone. We have some great sponsors who've stepped up early:
 
-[![Axway](http://apidaysberlin2015.apistrat.com/wp-content/uploads/2014/12/axway-logo.png)](http://www.axway.com/)[![Mailjet](http://apidaysberlin2015.apistrat.com/wp-content/uploads/2014/12/mailjet-logo.png)](https://www.mailjet.com/)[![Apiary](http://apidaysberlin2015.apistrat.com/wp-content/uploads/2014/12/apiary-logo.png)](http://apiary.io/)[![Paymill](http://apidaysberlin2015.apistrat.com/wp-content/uploads/2014/12/paymill-logo.png)](https://www.paymill.com/)[![commertools SPHERE.IO](http://apidaysberlin2015.apistrat.com/wp-content/uploads/2014/12/sphere-io-logo.png)](http://www.commercetools.com/)[![OAuth.io](http://apidaysberlin2015.apistrat.com/wp-content/uploads/2014/11/oauth-io-logo1.png)](https://oauth.io/)
-
 Make sure and contact us at contact@apistrat.com to help support the conversation, in Berlin. And like our APIs, APIStrat is powered by 3Scale.
 
 [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/3Scale/3scale-logo.png)](http://bit.ly/13esk6Q)

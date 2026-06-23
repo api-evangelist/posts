@@ -4,7 +4,7 @@ title: >-
   Digital Strategy: 20 Federal Agencies, 76 data API and 75 Mobile API
   Initiatives
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/US_white_house_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/US_white_house_logo.png
 author:
   name: kinlane
 tags:
@@ -25,7 +25,7 @@ To bring you up to speed, there are two specific milestones in the [Digital Gove
 
 To help shed light on where these progressive agencies are going with both their data and mobile intiatives I wanted to break them out into separate groups, for each agency.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/nsf.png)](http://www.nsf.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/nsf.png)](http://www.nsf.gov)
 
 [National Science Foundation (NSF)](http://www.nsf.gov)
 
@@ -49,7 +49,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **Vacancies** - Current job vacancies at NSF.
 *   **Directions** - Directions for visiting NSF headquarters in Ballston.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/state.png)](http://www.state.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/state.png)](http://www.state.gov)
 
 [Department of State](http://www.state.gov)
 
@@ -72,7 +72,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **ForeignAssistance.gov** - The goal of the Foreign Assistance Dashboard is to make all U.S. Government foreign assistance investments available in an accessible and easy-to-understand format.
 *   **U.S. Passport Issuance Data** - U.S. Passports Issued per Fiscal Year (2010-1996); U.S. Passports Issued per Calendar Year (1995-1974); U.S. Passport Applications Received by Fiscal Year (1986-2010); Passport Issuance by State per Fiscal Year (2007-2010)
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/hud.png)](http://www.hud.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/hud.png)](http://www.hud.gov)
 
 [Department of Housing and Urban Development (HUD)](http://www.hud.gov)
 
@@ -94,7 +94,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **HUDMaps** - HUD has developed a number of Geospatial Information Systems (GIS) that are currently available on the web and are listed at http://egis.hud.gov/. The HUDMap tool allows HUD Employees and Contractors to pull information from various internal and external sources to assist programmatic and disaster response projects. HUDMaps access is being expanded to provide for mobile device capabilities.
 *   **GMP Monitoring Exhibits Handbook** - The CPD Monitoring Handbook includes all programs and technical functions for which CPD Field staff have monitoring responsibilities.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/ferc.png)](http://www.ferc.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/ferc.png)](http://www.ferc.gov)
 
 [Federal Energy Regulatory Commission (FERC)](http://www.ferc.gov)
 
@@ -115,7 +115,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **eRegistration** - eRegistration provides the FERC customer an easy-to-use entry point to do business with all FERC Online applications. Think of eRegistration as a form of membership. By registering, the user will receive a single user id and password that allows them to transact all of their business with FERC. eRegistration is valuable to any person who transacts business with the FERC on behalf of themselves or another organization (e.g. companies or corporations). It provides authentication support to the FERC Online applications that ensures safe and secure transactions, thereby protecting the integrity of your data.
 *   **Electric Quarterly Reports (EQR)** - Allows all public utilities and power marketers to file EQRs for the most recent calendar quarter. The filings must summarize contractual terms and conditions for: Market-based power sales, Cost-based power sales, and Transmission service.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/archives.png)](http://www.archives.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/archives.png)](http://www.archives.gov)
 
 [National Archives and Records Administration (NARA)](http://www.archives.gov)
 
@@ -135,7 +135,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **National Archives Catalog on Wikipedia** \- Make additional National Archives records available through Wikipedia, which is mobile optimized and available through mobile apps
 *   **National Archives Catalog on Flickr** - Make additional National Archives records available through Flickr, which is mobile optimized and available through mobile apps
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/ssa.png)](http://www.ssa.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/ssa.png)](http://www.ssa.gov)
 
 [Social Security Administration (SSA)](http://www.ssa.gov)
 
@@ -154,7 +154,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **Mobile Contact** - People seeking to do business with SSA will use this application to get needed information and directions to their local SSA office. In addition they will have access to information about services available by phone and online.
 *   **Mobile Optimized Life Expectancy Calculator** - The Life Expectancy Calculator is a valuable financial planning tool which we encourage the public to use to help decide when to retire and begin collecting Social Security benefits. The Calculator uses the gender and birth date entered by the user to provide the average number of additional years a person of the same gender and age can expect to live when he reaches a specific age. Providing a mobile optimized version of the Calculator also provides links to other helpful retirement planning tools and helps to promote other online services.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/usda.png)](http://www.usda.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/usda.png)](http://www.usda.gov)
 
 [Department of Agriculture (USDA)](http://www.usda.gov)
 
@@ -173,7 +173,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **LDP/PCP Rates** - Mobile Version of the Loan Deficiency Payment and Posted County Price rate system
 *   **Meat and Poultry Inspection Directory** - The Meat, Poultry and Egg Product Inspection Directory is a listing of establishments that produce meat, poultry, and/or egg products regulated by USDA's Food Safety and Inspection Service (FSIS) pursuant to the Federal Meat Inspection Act, the Poultry Products Inspection Act, and the Egg Products Inspection Act.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/ed.png)](http://www.ed.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/ed.png)](http://www.ed.gov)
 
 [Department of Education (ED)](http://www.ed.gov)
 
@@ -192,7 +192,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **College Navigator** - Web-based tool for searching all colleges and universities in the United States. College Navigator consists primarily of the latest data from the Integrated Postsecondary Education Data System (IPEDS), the core postsecondary education data collection program for the National Center for Education Statistics. http://nces.ed.gov/collegenavigator/
 *   **ED.gov** - ED.gov is the Department's primary Internet portal and website. As such, it performs the following functions to ensure efficient and expanded public access and communication between the government and citizens: convey the Department's brand and key messages, provide relevant and timely information, hosts sites for ED offices and programs, and provide a unified entry point to other ED resources. http://www.ed.gov/
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/justice.png)](http://www.justice.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/justice.png)](http://www.justice.gov)
 
 [Department of Justice (DOJ)](http://www.justice.gov)
 
@@ -211,7 +211,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **Civil Rights Division Report a Violation Web Resources** - The Civil Rights Division enforces civil rights laws in a wide variety of contexts. This resource directs individuals on how to submit a complaint or report of a potential civil rights violation.
 *   **Office on Violence Against Women Resource Map** - A comprehensive list of national, state, local and tribal resources for victims of violence against women.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/energy.png)](http://www.energy.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/energy.png)](http://www.energy.gov)
 
 [Department of Energy (DOE)](http://www.energy.gov)
 
@@ -228,7 +228,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **ENERGY.GOV** - The Energy Department’s main site, Energy.gov and its contents, are now available on the go. This allows users to access the Energy Departments’ resources over a variety of mobile devices such as smart phones and tablets. The American public is becoming increasingly mobile and the Energy department is responding to this demand
 *   **ENERGY CAREER GAME** - This is a fun, fast-paced puzzle/strategy game intended to generate interest and recruit the next generation of individuals and entrepreneurs in the energy industry. In the game, the player is tasked with managing resource networks between cities, power plants, homes, and businesses to provide power to these buildings. The game will educate players about the unique challenges and economic opportunities faced in meeting America’s energy needs and transitioning to a clean energy future. It will give players a better understanding of the career opportunities in the energy sector as well as the Energy Department. The game is being developed for the Department free of charge by college students who are working with the Department’s Office of Human Capital. The game will also incorporate a plug-in that will allow players to post their scores to Facebook. Expected to be ready for beta release by October 2012.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/nasa.png)](http://www.nasa.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/nasa.png)](http://www.nasa.gov)
 
 [National Aeronautics and Space Administration (NASA)](http://www.nasa.gov)
 
@@ -245,7 +245,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **Visualization Explorer** - NASA Visualization Explorer, the coolest way to get stories about advanced space-based research delivered right to your iPad. A direct connection to NASA’s extraordinary fleet of research spacecraft, this app presents cutting edge research stories in an engaging and exciting format.
 *   **people.nasa.gov** - NASA Enterprise Directory (NED) Search
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/nrc.png)](http://www.nrc.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/nrc.png)](http://www.nrc.gov)
 
 [Nuclear Regulatory Commission (NRC)](http://www.nrc.gov)
 
@@ -262,7 +262,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **Public Meeting Feedback System** - A web-based system that allows the NRC to collect public meeting feedback from meeting attendees
 *   **Top 5 Most-Accessed Agency Web Pages** - A web-based system that allows the NRC to communicate with the public on our regulatory activities and events
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/usaid.png)](http://www.usaid.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/usaid.png)](http://www.usaid.gov)
 
 [United States Agency for International Development (USAID)](http://www.usaid.gov)
 
@@ -277,7 +277,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **Development Experience Clearinghouse** - USAID's Development Experience Clearinghouse (DEC) is the largest online resource for USAID funded technical and program documentation, with over 141700 documents available for electronic download. Search USAID's online database of agency-funded technical and program-related documents to download USAID documents in PDF format for free.
 *   **USAID Portfolio Map** - The Portfolio Map is a mobile app for accessing information about the development work USAID is performing every day. The app will give mobile device users the ability to browse our portfolio for a subset of the countries in which USAID is working. The app will provide general country overviews at a glance and also will allow users to access more detailed information as needed.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/defense.png)](http://www.defense.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/defense.png)](http://www.defense.gov)
 
 [Department of Defense (DOD)](http://www.defense.gov)
 
@@ -292,7 +292,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **Defense Commissary Agency (DeCA) Commissaries Locator** - Provides users the closet store hours, directions, contact information, floor plans, etc.
 *   **Arlington National Cemetery Grave Site Locator** - Enables veterans, family members and the public to locate gravesites; generate front and back photos of a headstone or monument; and receive directions to those locations.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/treasury.png)](http://www.treasury.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/treasury.png)](http://www.treasury.gov)
 
 [Department of the Treasury](http://www.treasury.gov)
 
@@ -306,7 +306,7 @@ To help shed light on where these progressive agencies are going with both their
 
 *   **IRS2Go (English)** - A smartphone application that lets you interact with the IRS using your mobile device. IRS continues innovation with its award-winning mobile application, IRS2Go. The new version will have improved access to IRS’s online services and may include additional features such as include “Pay your tax bill”, “Learn about your notice”, “Find a form”, “Find an eFile provider”, “Find a practitioner”, “Find a VITA Site nearest you”.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/commerce.png)](http://www.commerce.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/commerce.png)](http://www.commerce.gov)
 
 [Department of Commerce](http://www.commerce.gov)
 
@@ -320,7 +320,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **Commerce.gov** - Ensuring mobile-optimization of Commerce.gov
 *   **Census mobile apps** - Census will develop 2 additional mobile apps
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/hhs.png)](http://www.hhs.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/hhs.png)](http://www.hhs.gov)
 
 [Department of Health and Human Services (HHS)](http://www.hhs.gov)
 
@@ -334,7 +334,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **Medicare.gov (http://www.medicare.gov/)** - Medicare.gov is the consumer website for Medicare beneficiaries, caregivers, and advocates. The implementation of responsive design on this site allows us to support traditional desktop PCs, tablets, and smartphones all from one URL and code base. Learn more about the redesign process here: http://www.hhs.gov/digitalstrategy/mobile/medicare-responsive-design.html We have made the responsive design code available to the public here: http://www.hhs.gov/digitalstrategy/blog/2012/10/medicare-assets.html
 *   **HHS Digital Strategy Site (http://www.hhs.gov/digitalstrategy)** - HHS uses this website to engage the public, report progress on the implementation of the Digital Government Strategy, showcase digital strategy best practices, and test new technology and tools. Visit http://www.hhs.gov/digitalstrategy/ to learn more.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/dot.png)](http://www.dot.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/dot.png)](http://www.dot.gov)
 
 [Department of Transportation (DOT)](http://www.dot.gov)
 
@@ -348,7 +348,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **SaferCar App** - DOT will create a user-friendly iOS smartphone product to streamline access to information on SaferCar.gov, including vehicle 5-star safety ratings; vehicle defects; and the Child Safety Seat Locator. The app will also allow consumers to search and submit vehicle complaints
 *   **Grade Crossing App** - The Federal Railroad Administration is developing an application that will provide users with mobile access to Grade Crossing Information. Users will be able to visualize the rail grade crossings on a map interface, find their own location on the map, and view crossing specific information such as Accident Data and Inventory Reports from FRA’s safety data website.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/fcc.png)](http://www.fcc.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/fcc.png)](http://www.fcc.gov)
 
 [Federal Communications Commission (FCC)](http://www.fcc.gov)
 
@@ -362,7 +362,7 @@ To help shed light on where these progressive agencies are going with both their
 *   **fcc.gov** - The entire fcc.gov experience will be a mobile ready application this fall.
 *   **National Broadband map** - The National Broadband Map (NBM) is a searchable and interactive website that allows users to view broadband availability across every neighborhood in the United States. The NBM was created by the National Telecommunications and Information Administration (NTIA), in collaboration with the Federal Communications Commission (FCC), and in partnership with 50 states, five territories and the District of Columbia. The NBM is part of NTIA's State Broadband Initiative. The NBM is updated approximately every six months and was first published on February 17, 2011.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/digital-strategy/logos/opm.png)](http://www.opm.gov)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/digital-strategy/logos/opm.png)](http://www.opm.gov)
 
 [Office of Personnel Management (OPM)](http://www.opm.gov)
 

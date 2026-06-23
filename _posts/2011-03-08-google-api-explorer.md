@@ -18,7 +18,7 @@ Just days after Apigee made their [API explorer free and embeddable](http://apie
 
 The new Google API Explorer is an interactive interface for playing with Google APIs.
 
-[Google API Explorer](https://code.google.com/apis/explorer/ "Google API Explorer") currently supports:[![](http://4.bp.blogspot.com/-PidOKEWFRR8/TXE0FTOPL8I/AAAAAAAAAJA/zZlx-KoWeXw/s400/2011-03-04-google_apis_explorer.jpg)](http://4.bp.blogspot.com/-PidOKEWFRR8/TXE0FTOPL8I/AAAAAAAAAJA/zZlx-KoWeXw/s400/2011-03-04-google_apis_explorer.jpg)
+[Google API Explorer](https://code.google.com/apis/explorer/ "Google API Explorer") currently supports:
 
 *   Google Buzz API
 *   Google Custom Search API

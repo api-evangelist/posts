@@ -4,14 +4,14 @@ title: Let's Remake Libraries as Hacker Spaces and Community Innovation Centers
 url: >-
   http://apievangelist.com/2012/02/07/lets-remake-libraries-as-hacker-spaces-and-community-innovation-centers/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Library-NYC.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Library-NYC.jpg
 author:
   name: kinlane
 tags:
   - Community
   - Innovation
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/Library-NYC.jpg)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/Library-NYC.jpg)
 
 I was reading several stories yesterday about the [State of California cutting funding for libraries across the state](http://kalw.drupal.publicbroadcasting.net/post/goodbye-state-funding-california-libraries). These kind of budget cuts really make me worry for the future of our children and our communities.
 

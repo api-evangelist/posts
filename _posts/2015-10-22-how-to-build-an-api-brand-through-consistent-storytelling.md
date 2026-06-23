@@ -2,7 +2,7 @@
 layout: post
 title: How To Build An API Brand Through Consistent Storytelling
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-story-swagger.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-evangelist-story-swagger.png
 author:
   name: kinlane
 tags:
@@ -14,11 +14,11 @@ All of this begins with something that truly brings value to the table for every
 
 An example of this in the wild is with the fast growing API definition Swagger. [I started paying attention to Swagger closely in 2011](http://apievangelist.com/2011/11/09/can-swagger-deliver-a-restful-api-discovery-service/), and by [mid 2014 I had gone all in with Swagger](http://kinlane.com/2014/09/19/forget-being-neutral-and-objective-anymore-with-apis/), and integrated into my own platform, and tooling, resulting in 265 stories that reference swagger over the last four years. Let me show the value driven by this type of storytelling--here are the plotting of my stories over the last four years:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/api-evangelist-story-swagger.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api-evangelist-story-swagger.png)
 
 Here is a plotting of growth of the [Swagger according to Google Trends](https://www.google.com/trends/explore#q=swagger%20api):
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/google-trends-swagger.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google-trends-swagger.png)
 
 This is how you build brand awareness organically. I'm not saying I'm solely responsible for Swagger's success--it all started with the value brought to the table by Tony Tam. Secondarily it was the community who ultimately [integrated Swagger into their platforms](http://swagger.apievangelist.com/platform-integrations.html), [used Swagger UI for displaying their API documentation](http://swagger.apievangelist.com/swagger-ui.html), and innovated in the [numerous other areas of API operations where the API definition format has been applied](http://swagger.apievangelist.com/building-blocks.html). Most importantly, it has taken the storytelling of the community, about what they have done, that got us to where we are at in 2015 with the Swagger brand.
 

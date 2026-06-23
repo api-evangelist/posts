@@ -2,7 +2,7 @@
 layout: post
 title: YAML Templates For API Operations
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_04_16_at_5.38.15_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_04_16_at_5.38.15_pm.png
 atomdate: 2017-04-18T16:00:00.000Z
 tags:
   - Templates

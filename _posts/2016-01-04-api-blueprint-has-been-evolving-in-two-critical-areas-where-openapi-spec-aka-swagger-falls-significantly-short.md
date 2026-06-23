@@ -4,7 +4,7 @@ title: >-
   API Blueprint Has Been Evolving In Two Critical Areas Where OpenAPI Spec (aka
   Swagger) Falls Significantly Short
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-definitions-gears.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-definitions-gears.png
 author:
   name: kinlane
 tags:

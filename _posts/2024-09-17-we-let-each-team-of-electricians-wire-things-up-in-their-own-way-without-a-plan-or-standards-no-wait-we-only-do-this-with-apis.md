@@ -12,7 +12,7 @@ tags:
   - Regulations
   - Plans
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-electric-tower-sun-behind.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/green-circuit-electric-tower-sun-behind.jpg
 ---
 When you are down in the weeds of API operations reading up on the latest technology trends and utilizing the latest API services and tooling, it is easy to feel like modern API operations are mature and well-defined, and technological advances will take us into the future. However, when you compare the web and APIs to other industries you realize how much more work there is before we are all grown up and mature. I do a regular amount of reading and research on electricity, plumbing, telephone, radio, and other industries similar to APIs when it comes to being a utility, and I enjoy playing around with comparisons to help me understand where we are at in this journey.
 

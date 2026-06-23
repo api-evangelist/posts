@@ -2,7 +2,7 @@
 layout: post
 title: Healthcare Imaging API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/medical-imaging-api.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/medical-imaging-api.jpg
 author:
   name: kinlane
 tags:

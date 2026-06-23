@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Building Blocks of API Partner Programs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-adam-smith-edinburgh.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-adam-smith-edinburgh.jpg
 author:
   name: kinlane
 tags:
@@ -49,7 +49,7 @@ Making it easy for interested parties to on-board with as little friction as pos
 
 ### Access
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-satellite-dishes-pointing-up.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-satellite-dishes-pointing-up.jpg)
 
 Some API partner programs are just one level of access, but there are numerous examples of multi-tiered partner programs, and specialty types of access associated with leading API partner platforms. Demonstrating there isn’t one way of defining partnerships, and platforms should consider what the proper levels of access for their platforms, meeting the needs of their organization and partners.
 
@@ -92,7 +92,7 @@ Every API partner program ultimately is in service of increasing the bottom line
 
 ### Innovation
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-seattle-shipping-people-walking.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-seattle-shipping-people-walking.jpg)
 
 Building on the business of an API platform, there are several ways API providers are injecting innovation into the partner discussion via their platforms. Providing additional building blocks for other API providers to consider when they are crafting and expanding on their API partner programs, making sure they help a platform quickly innovate.
 
@@ -160,7 +160,7 @@ Healthy communication as part of platform partner activity is essential to a suc
 
 ### Events
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-steam-engine-iceland.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-steam-engine-iceland.jpg)
 
 Events are a great way to get partners involved, and providing them with additional exposure opportunities as part of regular platform gatherings. There are a few building blocks employed by leading API providers when it comes to sweetie the partner pot with opportunities to participate in events, strengthening the platform and partner relationship.
 
@@ -239,7 +239,7 @@ While reviewing different API provider partner programs there were a number of d
 
 Many API providers just have a single type of partner, but these additional types offer a look at the opportunities to expand in the future as a platform gets its footing with its partner program. Depending on the type of services being offered, each of these areas can represent a new way to look at how services can be made available to an entirely new audience.
 
-![ alt=](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-electric-tower-sun-behind.jpg)
+![ alt=](https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-electric-tower-sun-behind.jpg)
 
 ### Requirements
 

@@ -7,7 +7,7 @@ tags:
   - API Evangelist
   - API Events
   - Federal Government
-image: https://s3.amazonaws.com/kinlane-productions2/talks/dc-api-user-group.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/talks/dc-api-user-group.png
 ---
 <p></p>After I speak at DevNation Federal in Washington DC this Tuesday, I am going to give a similar talk at [the DC API API User Group](https://www.meetup.com/DC-Web-API-User-Group/) that evening. I love going to the Meetups in DC, partly because my good friend Gray Brooks runs the event, but also because [I've been working to jumpstart API conversations in Washington DC since 2012 when I held the first DC edition of API Craft](https://apievangelist.com/2012/08/18/api-craft-washington-dc/). I was on a mission to jumpstart API Craft gatherings around the country that year, and it makes me happy to see the API Meetup culture continuing to thrive in DC, where other places it has died out.
 

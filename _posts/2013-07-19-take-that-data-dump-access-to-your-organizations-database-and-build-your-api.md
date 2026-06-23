@@ -2,7 +2,7 @@
 layout: post
 title: Take That Data Dump Access To Your Organizations Database And Build Your API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-dump-truck.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-dump-truck.jpg
 author:
   name: kinlane
 tags:

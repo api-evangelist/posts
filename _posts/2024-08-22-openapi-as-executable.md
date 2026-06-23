@@ -9,7 +9,7 @@ tags:
   - Clients
   - Certification
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-ferris-wheel-fair.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-ferris-wheel-fair.jpeg
 ---
 I was [stuck in a cycle of thinking yesterday about the executability of an OpenAPI vs. Postman Collection](https://www.linkedin.com/posts/kinlane_why-isnt-openapi-viewed-as-executable-like-activity-7232074346410700802-6PwB?utm_source=share&utm_medium=member_desktop). I am closely watching the Arrazzo spec for defining workflows, but I am very interested in the executability of an individual API operation using an OpenAPI. I was stuck in a rut thinking that my collection is the best way to approach this, and I wanted to “certify” a single operation via just OpenAPI. I was asking why the perception of Collection being executable persists, but people don’t see OpenAPI in the same way, when my friend Jordan reminded me that OpenAPI via SwaggerUI has been executable since the beginning.
 

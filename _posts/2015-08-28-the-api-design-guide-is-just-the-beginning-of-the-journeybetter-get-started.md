@@ -3,7 +3,7 @@ layout: post
 title: >-
   The API Design Guide Is Just The Beginning Of The Journey - Better Get
   Started!
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-journey.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-journey.png
 author:
   name: kinlane
 tags:
@@ -16,7 +16,7 @@ In parallel to this, [I am on my own journey with my own API stack](https://kin-
 
 Fast-forward to 2015, [I am paying attention to almost 20 separate areas, as part of my core API research](http://apievangelist.com/). I tune into a number of other areas, but these research projects make up the heart of my API storytelling. On the trip back from San Francisco today I had a few thoughts, and needed to organize them in context of my core research. 
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/api-considerations.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-considerations.png)
 
 **Define (A)**
 

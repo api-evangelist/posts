@@ -7,7 +7,7 @@ tags:
   - Reviews
   - APIs.io
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-alan-turing-side.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-alan-turing-side.jpg
 ---
 I have been working for the last couple of weeks on [an API review service that I would like to offer to enterprises](https://apievangelist.com/services/). The API review service is based upon the API profiling work I have been doing on my [APIs.io search engine](https://apis.io/), so what better place to start when applying my API review—-[the APIs.io Search API](https://github.com/api-evangelist/search-api). I won’t go into one of the usual API blah blah essays about what I’ve done here, and I will let the review speak for itself. It is verbose. It is a lot. But, it is the higher water mark as I see it. You don’t have to do it all, but it is what I am doing for APIs.io, and it gives me a full buffet of well-defined and structured artifacts that can be applied in different ways to govern not just APIs, but also API operations.
 

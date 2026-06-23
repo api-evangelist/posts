@@ -2,7 +2,7 @@
 layout: post
 title: Salesforce Adds Sandbox Templates
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/developer-force-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/developer-force-logo.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ The Force.com sandbox has always allowed you to create a separate copy of your d
 
 Seeing this feature coming out of Salesforce has prompted me to take a closer look at their approach to the DeveloperForce sandbox environment. I'm sure there are other features and approaches to sandboxing we can learn from the [API pioneer](http://apievangelist.com/2011/01/28/history-of-apis-salesforce-com/).
 
-![](https://s3.amazonaws.com/kinlane-productions2/salesforce/devforce-sandboxing.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/salesforce/devforce-sandboxing.png)
 
 This reminds me of the story I wrote about UC Berkeley's desire for [An API That Scrubs Personally Identifiable Information From Other APIs](/2013/03/13/an-api-that-scrubs-personally-identifiable-information-from-other-apis/).
 

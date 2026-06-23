@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'If A Search For Swagger or OpenAPI Doesnt Yield Results I Try For A Postman'
-image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/80_86_800_500_0_max_0_1_-1.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/if-a-search-for-swagger-or-openapi-doesnt-yield-results-i-try-for-a-postman.png
 ---
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/80_86_800_500_0_max_0_1_-1.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>While profiling any company, a couple of the Google searches I will execute right away are for “[Company Name] Swagger” and “[Company Name] OpenAPI”, hoping that a provide is progressive enough to have published an OpenAPI definition–saving me hours of work understanding what their API does. I’ve added a third search to my toolbox, if these other two searches do not yield results, searching for “[Company Name] Postman”, revealing whether or not a company has published a Postman Collection for their API–another sign of a progressive, outward thinking API provider in my book.
 
 <p>A machine readable definition for an API tells me more about what a company, organization, institution, or government agency does, than anything else I can dig up on their website, or social media profiles. An OpenAPI definition or Postman Collection is a much more honest view of what an organization does, than the marketing blah blah that is often available on a website. Making machine readable definitions something I look for almost immediately, and prioritize profiling, reviewing, and understanding the entities I come across with a machine readable definition, over those that do not. I only have so much time in a day, and I will prioritize an entity with an OpenAPI or Postman, over those who do not.

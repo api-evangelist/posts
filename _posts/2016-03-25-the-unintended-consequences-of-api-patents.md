@@ -2,7 +2,7 @@
 layout: post
 title: The Unintended Consequences Of API Patents
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-gears-three-machine.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-gears-three-machine.png
 tags:
   - Patents
 ---

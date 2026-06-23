@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Twilio and Stripe Do Not Use PUT For HTTP Resource Updates
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-old-bearded-man-thinking.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-old-bearded-man-thinking.jpeg
 author:
   name: kinlane
 tags:
@@ -17,10 +17,10 @@ The shouts of the RESTafarians in 2010 still ring loud in my head. REST wasn’t
 There are many dimensions of this conversation, but one of the many fundamental principles of REST states clearly that you utilize your HTTP methods for handling your basic Create, Read, Update, and Delete (CRUD) capabilities. Meaning you use POST to create resources, GET to read resources, PUT to update resources, and DELETE to delete resources. It is so simple. It is widely known and believed. However, in 2024, anyone on the ground doing APIs, knows it is far from the gospel truth. Evidence for this is that both Stripe and Twilio use POST to update many common payment, messaging, and other resources.
 
 ## Stripe
-<p><a href="https://stripe.com/docs/api/charges/update"><img src="https://kinlane-productions2.s3.amazonaws.com/stripe-post-update.png" width="100%" style="padding; 15px;"></a></p>
+<p><a href="https://stripe.com/docs/api/charges/update"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/stripe-post-update.png" width="100%" style="padding; 15px;"></a></p>
 
 ## Twilio
-<p><a href="https://www.twilio.com/docs/iam/api/account"><img src="https://kinlane-productions2.s3.amazonaws.com/twilio-post-update.png" width="100%" style="padding; 15px;"></a></p>
+<p><a href="https://www.twilio.com/docs/iam/api/account"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/twilio-post-update.png" width="100%" style="padding; 15px;"></a></p>
 ￼
 These are two API producers that we hold up as shiny examples of how to do APIs well, and both deviate from true REST, operating in the RESTful and RESTish lands where the rest of us are struggling in for years. What does it mean? Not much. Sure, I recommend you standardize your APIs what the other APIs developers are use to do, but the world doesn’t end if you are kinda sorta REST. Sorry, it doesn’t. I know it drives many of us API pedantic nuts, but it reflects the real world we all are forced to live in each day.
 

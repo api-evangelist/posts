@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Looking For THE Answer Instead Of Developing An Understanding Of Good API'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/status-berlin_matrix.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/looking-for-the-answer-instead-of-developing-an-understanding-of-good-api.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/status-berlin_matrix.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>I recently worked with a large team on a microservices and API governance training a couple months back, where I saw a repeating pattern that I’ve experienced with other large enterprise groups. They seemed to want the right answers to doing APIs and microservices, instead of developing an understanding of good (or bad) API design, and determining the right way for themselves. The biggest challenge with this perception amongst development groups, is that there is no right answer, or one way of doing APIs and microservices–you need to find the right way forward for your team, and for each project.
 
 <p>I get this a lot within large organizations who are just beginning their API journey–just show us the right way of doing it! To which I usually reply with, let’s roll up our sleeves and get to work on one of your services, and we will start showing you have to craft a simple, sensible, yet robust API that meets the needs of the project. I can’t show you the “right way”, until I understand what the particular need are, and zeroing in on what is the “right way”, takes work, refinement, and crafting f a robust definition for the service.

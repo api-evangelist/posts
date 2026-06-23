@@ -12,7 +12,7 @@ tags:
   - Github
   - Blueprint
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/code-gov/code-gov-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/code-gov/code-gov-screenshot.png
 ---
 <p></p>Open source software is increasingly driving the federal government, [despite the wishes of companies like Oracle](https://fcw.com/articles/2017/10/04/oracle-rips-18f-usds.aspx). I've been watching an interesting project grow within the federal government to help quantify open source across the federal government called Code.gov, which "leverages the power of code sharing and collaboration to help the US Government cut down on duplicative software development and save millions of taxpayer dollars for the American people." Something I think we can all get behind, when it comes to the collision of technology and government we are seeing play out.
 

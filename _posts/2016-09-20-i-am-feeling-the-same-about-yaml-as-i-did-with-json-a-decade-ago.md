@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Am Feeling The Same About YAML As I Did With JSON A Decade Ago
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-face-idk.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-face-idk.png
 atomdate: 2016-09-20T20:00:00.000Z
 tags:
   - YAML

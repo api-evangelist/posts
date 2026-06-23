@@ -8,7 +8,7 @@ tags:
   - Definitions
   - Discovery
   - Github
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-stacks.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-stacks.png
 ---
 <p></p>[I just finished a narrative around my API Stack profiling](http://apievangelist.com/2018/04/02/my-api-stack-profiling-process/), telling the entire story around the profiling of APIs for inclusion in the stack. To help encourage folks to get involved, I wanted to help distill down the process into a single checklist that could be implemented by anyone.
 

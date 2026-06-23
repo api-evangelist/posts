@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API First With Legacy APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/old-barn-old-barn-1500-alberto-giacometti.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/old-barn-old-barn-1500-alberto-giacometti.jpg
 author:
   name: kinlane
 tags:

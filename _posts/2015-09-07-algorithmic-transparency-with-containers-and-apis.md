@@ -2,7 +2,7 @@
 layout: post
 title: Algorithmic Transparency With Containers and APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-algorithmic-pricing.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-algorithmic-pricing.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ Something that is present in this evolution of software development, is trust. A
 
 When transparency and trust does not exist, this is when the impact of APIs begin to break down and they become simply another tech tool. If a platform is up to no good, has ill intentions, selling vapor ware, or there is corruption behind the scenes, the API concept is just going to create problems, for both provider and consumer. How much is exposed via an API interface is up to the API designer, architect, and ultimatley the governing organization. 
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-shipping-container.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-shipping-container.png)
 
 There are many varying motivations behind why companies open up APIs, and the reasons they make them public or not. APIs allow companies to keep control over their data, content, and algorithmic resources, while also opening them up so "innovation" can occur, or simply be accessible by 3rd party resources to bypass the historical friction or bottleneck that is IT and developer groups. Some companies I work with are aware of this balance being struck, while many others are not aware at all, they simple are trying to make innovation happen, or provide access to resources.
 
@@ -27,7 +27,7 @@ There are many varying motivations behind why companies open up APIs, and the re
 
 When I deploy one of my APIs using my microservices model, it has two distinct API layers, one for the container, and one for what runs inside of it. Docker comes ready to go with an API for all aspects of it operations--[here is an Swagger definition of it](http://apievangelist.com/2015/03/17/more-pondering-on-my-own-microservice-definition/). What if all algorithms came with an API by default, just like each Docker container does? We would put algorithms into containers, it would have an interface for every aspect of its operation. The API wouldn't expose the actual inner workings of the algorithm, and its calculations, but provide a complete interface for all its functionality.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-algorithm-flow.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-algorithm-flow.png)
 
 How much of this API a company wished to expose, would vary just like with APIs, but companies who cared about the trust balance between them, their developers, and end-users, could offer a certain amount of transparency to build trust. The API wouldn't give away the proprietary algorithm, but would give 3rd party groups a way to test assumptions, and verify the promises made around what an alogorithm delivers, thus pulling back the curtain. With no API, we have to trust Uber, GoGo and other providers about what goes into their surge pricing. With an API, 3rd party regulators, and potentially any individual could run tests, validating what is being presented as algorithmic truth. 
 

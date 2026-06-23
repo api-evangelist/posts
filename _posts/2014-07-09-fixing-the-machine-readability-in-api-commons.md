@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fixing The Machine Readability in API Commons
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-machine-learning.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-machine-learning.png
 author:
   name: kinlane
 tags:

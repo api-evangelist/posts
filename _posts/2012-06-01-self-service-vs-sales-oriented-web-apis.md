@@ -2,7 +2,7 @@
 layout: post
 title: Self Service vs Sales Oriented Web APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/gnip-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/gnip-logo.jpg
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ At this stage of growth, it was clear I was outgrowing the regular Twitter API a
 
 First I went to Gnip, looked at their product and it looked like what I needed. I saw at the bottom of the page, “Get Started”. I recognize that language, clicked on it and filled out their form and I get a “Thank You, Someone Will Be In Touch”.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/datasift/datasift-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/datasift/datasift-logo.png)
 
 Ok...so I move on to Datasift. I look at their product and it too, looks like what I need. I see on the page, “Get Started”. I recognize that language, clicked on it, logged on with Twitter, added my email and password, and boom--I’m dropped into a dashboard. I am able to build streams from Twitter using different keywords, Twitter users, etc. I get freemium access, with the ability to put in my credit card and be billed for more.
 

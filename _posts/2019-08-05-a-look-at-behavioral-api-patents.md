@@ -8,7 +8,7 @@ tags:
   - Behavorial
   - Patents
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/udnie-DSC_0035-2.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/udnie-DSC_0035-2.jpg
 author:
   name: kinlane
 ---

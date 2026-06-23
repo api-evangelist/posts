@@ -4,8 +4,6 @@ layout: post
 title: 'TVMaze Uses HAL For Their API Media Type'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/tv-maze/tvm_api.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/tv-maze/tvm_api.png" width="45%" align="right" style="padding: 15px;" />
 <p>One of the layers of the API universe where I come across an increased number Hypermedia APIs is in the movie, television, and entertainment space. Where having a more flowing API experience makes a lot of sense, and the extra investment in link relations will pay off. One example of this I recently came across was over at TVMaze, <a href="https://www.tvmaze.com/api">who has a pretty robust hypermedia API</a>, where they opted for using HAL as their media type.
 
 <p>Like any good hypermedia should, TVMaze begins with its root URL: http://api.tvmaze.com, and provides a robust set of endpoints from there:

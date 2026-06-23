@@ -11,7 +11,7 @@ tags:
   - Integration
   - Agencies
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bridge-software/bridge-software-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bridge-software/bridge-software-screenshot.png
 ---
 <p></p>I have been intrigued by the people who reached out after [I published a story about my partner program](http://apievangelist.com/2018/04/09/creating-a-productive-api-industry-partner-program/). One of the companies that reached out was the API integration agency [Bridge Software](https://www.bridgesoftware.com/), who reflects the next generation of software development groups who are emerging to focus exclusively on API integration.
 

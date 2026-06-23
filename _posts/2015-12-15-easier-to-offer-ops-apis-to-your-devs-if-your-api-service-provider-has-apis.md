@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Easier To Offer Ops APIs To Your Devs If Your API Service Provider Has APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-inception.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-inception.png
 author:
   name: kinlane
 tags:

@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Discover, Profile, Quantify, Rank, And Publish New APIs To The Streamdata.io'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/art-museum/art-museum_blue_circuit_3.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/discover-profile-quantify-rank-and-publish-new-apis-to-the-streamdata-io.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/art-museum/art-museum_blue_circuit_3.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>About 60% of my work these days is building upon the last five years of my <a href="http://theapistack.com/">API Stack research</a>, with a focus on building out the <a href="http://api.gallery.streamdata.io/">Streamdata.io API Gallery</a>. We are fine tuning our approach for discovering new API-driven resources from across the landscape, while also profiling, quantifying, ranking, and publishing to the Streamdata.io API Gallery, The API Stack, and potentially other locations like the Postman Network, APIs.Guru, and other API discovery destinations I am working with. Helping us make sense of the increasingly noisy API landscape, while identifying the most valuable resources, and then profiling them to help reduce friction when it comes to potentially on-boarding and streaming data from each resource.
 
 <h3 id="discover-new-api-driven-resources">Discover New API-Driven Resources</h3>

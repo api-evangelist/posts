@@ -2,7 +2,7 @@
 layout: post
 title: Advertising Network Dedicated to APIs and Developers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-API-Advertising.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-API-Advertising.png
 author:
   name: kinlane
 tags:

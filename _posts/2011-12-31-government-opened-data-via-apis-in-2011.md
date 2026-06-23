@@ -3,7 +3,7 @@ layout: post
 title: Government Opened Data via APIs in 2011
 url: http://apievangelist.com/2011/12/31/government-opened-data-via-apis-in-2011/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/data-gov-logo-empowering-people.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/data-gov-logo-empowering-people.jpg
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
   - APIs
   - Open
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/federal-government/data-gov-logo-empowering-people.jpg)](http://data.gov)
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/federal-government/data-gov-logo-empowering-people.jpg)](http://data.gov)
 
 One of the most important fronts of API development is Government.  All of us API and data guys have all been screaming for city, county, state and federal government to open up their data via APIs for years now. 
 

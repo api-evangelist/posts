@@ -4,7 +4,7 @@ title: >-
   If Twitter Can Deliver Transparency Around API Access and Business Model, They
   Might Be Able To Find Their Way Again
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/266_logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/266_logo.png
 author:
   name: kinlane
 tags:

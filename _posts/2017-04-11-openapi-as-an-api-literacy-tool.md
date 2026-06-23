@@ -2,7 +2,7 @@
 layout: post
 title: OpenAPI As An API Literacy Tool
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/learning_tag_cloud.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/learning_tag_cloud.jpg
 atomdate: 2017-04-11T16:00:00.000Z
 tags:
   - OpenAPI

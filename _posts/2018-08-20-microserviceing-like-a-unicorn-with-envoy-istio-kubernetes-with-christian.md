@@ -4,8 +4,6 @@ layout: post
 title: 'Microserviceing Like a Unicorn With Envoy, Istio & Kubernetes With Christian'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/events/apistrat-2018/the-hardest-part-about-microserv.jpg
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/events/apistrat-2018/the-hardest-part-about-microserv.jpg" width="45%" align="right" style="padding: 15px;" />
 <p>We are getting closer to <a href="https://events.linuxfoundation.org/events/apistrat-2018/">the 9th edition of APIStrat happening in Nashville, TN this September 24th through 26th</a>. <a href="https://events.linuxfoundation.org/events/apistrat-2018/program/schedule/">The schedule for the conference is up</a>, along with <a href="https://events.linuxfoundation.org/events/apistrat-2018/program/keynote_speakers/">the first lineup of keynote speakers</a>, and my drumbeat of stories about the event continues here on the blog. Next up in our session lineup is <em>“Microservice’ing Like a Unicorn With Envoy, Istio and Kubernetes”</em> by Christian Posta (@christianposta), Red Hat @RedHat on September 25th.
 
 <p>Here is Christian’s abstract for the session:

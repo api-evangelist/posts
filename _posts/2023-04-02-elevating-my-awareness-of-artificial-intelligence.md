@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Elevating My Awareness of Artificial Intelligence
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/oakland-california-fox-oakland-out-front.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/oakland-california-fox-oakland-out-front.jpeg
 author:
   name: kinlane
 tags:
@@ -39,7 +39,7 @@ For me, models are how we make sense of this. It is how we break things down int
 
 I am going to do more research into the different types of models in use out there, and how they are being positioned. A big factor for me, which I will cover more about later is the observability that exists around these models. Whether it is intentionally a black box and smoke and mirrors, or there is actually provenance and transparency behind the model. For me, this is where the real story is at. This game will all be about the stories spun around models and what they are capable of, and less about the real world results they deliver. Models provide us with a potential tangible unit of meaning when it comes to talking about the different moving parts of artificial intelligence, and I’ve seen some pretty interesting approaches to iterating on models that give me hope that we can do this right.
  
-![Shipping Containers on the Dock](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-docks-water-front-ships-containers.jpg)
+![Shipping Containers on the Dock](https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-docks-water-front-ships-containers.jpg)
 
 ## Knowledge
 The models used to power AI are only as good as the data they are trained on. The quality and usefulness of the models will be defined by data fed into them. This is where we really crack open the API portion of this discussion, in that Chat-GPT is trained using its API, but the Chat-GPT plugin is provided access to knowledge by sharing an OpenAPI for any API it will be using to answer questions. It is easy to assume that OpenAI and other people in the business of developing models have some magic access to the worlds knowledge, but this is the intersection that will matter the most to the success of AI / ML, and how it is applied in our personal and professional lives.=
@@ -75,7 +75,7 @@ I have dabbled enough in the realm of AI / ML to know that the compute bills can
 
 Compute is one of the essential building blocks of all of this. It is both a technical but also business one. It costs a lot to play in this game. Maximizing how you wield compute is going to be a critical aspect of how this works or doesn’t work. I will have to investigate whether or not there is some algorithm or law governing how fast models are being trained and how fast they are being applied over time. Compute is a commodity, but it is needed at a scale that isn’t cheap to maintain, so this will be something that cuts a lot of people out of the conversation.
  
-![Shipping Containers on the Dock](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-alan-turing-side.jpg)
+![Shipping Containers on the Dock](https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-alan-turing-side.jpg)
 
 ## APIs
 Next up in my stack are the APIs. APIs are how knowledge flows in an out of OpenAI, the platform behind Chat GPT.  You can use and refine models via the OpenAI API. You can plug knowledge into Chat GPT models via their plugin infrastructure. OpenAPI is part of the manifest for plugging knowledge into Chat GPT models. API are the pipes for AI, just like they have been for web, mobile, and device applications, so I want to make sure that I am thinking about what will matter to delivering useful models.
@@ -137,7 +137,7 @@ The next area I am was playing around with Chat GPT was when it comes to generat
 
 These are just a few of the ways in which I pushed Chat GPT to help me with testing. Testing  not only an instance of an API, but also the interface and implementation of an API. Chat GPT proved pretty adept at producing tests for Postman collections, with or without referencing OpenAPI as the contract. Like the contract themselves, I was impressed at the ability for Chat GPT to produce tests needed to produce high quality contracts and ensure the contracts were implemented properly, showing potential for reducing drift.
  
-![Shipping Containers on the Dock](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-old-dark-bridge.jpg)
+![Shipping Containers on the Dock](https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-old-dark-bridge.jpg)
 
 ## Context
 Perpetually throughout my recent AI journey I am reminded of how much context is required for all of this to work. We are really good at under valuing how much information we humans process in any given moment, and how much of the web works because it is us humans navigating it. I see this regularly throughout the world of APIs where many developers love to overlook the role that humans play and that all of this is easy to automate. I found Chat GPT to work well when you gave it more context and understand what was possible and what is not possible, something I think we’ll have to think deeply about if we are to be successful.
@@ -172,7 +172,7 @@ One area I find myself very frustrated is when it comes to the correctness. When
 
 Building with Chat GPT requires you have a scientific approach. I may even setup an API for tracking my questions, responses, and come up with a strategy for fine-tuning. However I am guessing that fine-tuning and correctness will be one of the first things to go for those who don’t have the time and resources—which will create problems. I feel like we suck at talking about the correctness of real world human intelligence and is something that will only get worse when it comes to artificial intelligence. I am looking to be as thorough as I can in this area, but the jury is still out what I am actually capable of with the resources I have.
 
-![Shipping Containers on the Dock](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-old-piano-playing-hospital.jpg)
+![Shipping Containers on the Dock](https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-old-piano-playing-hospital.jpg)
  
 ## Concerns
 I have a lot of concerns about AI. Like many others, I just don’t have much faith that those leading the way will be doing this with much concern for humanity. However, I am also trying to not be too emotional about this and strengthen the awareness I have across all key areas, and establish logical bounded context for the concerns I have. Honestly, my anxiety levels are very high right now from technology in general, and I am concerned that AI will elevate them even more, so I am not sure how much appetite I will have for working in this area, but it is my job to make sense of this stuff, so I am going to dive in and track on these concerns.
@@ -216,7 +216,7 @@ For me, this is all about the performance. I mean Hollywood and Broadway Music t
 
 I love the storytelling opportunity present here. However, I am determined to ground my awareness and performance in reality so I don’t get lost in the confusion and madness that is unfolding. I am serious about the P.T. Barnumification of all of this, and I don’t just mean the circus. P. T. Barnum wasn’t just a performer, he was a racist perpetrator of hoaxes, businessman and politician. He was a hustler. When you look out across the artificial intelligence landscape right now, consider one thing—how quiet the Web3 hustlers are. This is because they’ve joined in on the P.T. Barnumification of AI.
 
-![Shipping Containers on the Dock](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-clowns_35893926114_o.jpg)
+![Shipping Containers on the Dock](https://kinlane-images.s3.amazonaws.com/shared/citizenship-clowns_35893926114_o.jpg)
  
 ## Closing Thoughts
 I feel like I achieved what I set out to do writing this piece. I got my bearings when it comes to the role APIs will play in all of this. I also have laid the foundation for a storytelling framework that should keep me sane and grounded. I will need to do a lot more research and carefully read the stories that are emerging when it comes to AI. There is so much more to learn. I have a huge amount of experimentation ahead of me. I have a number of projects in motion at work, and I feel like I’ve spent enough time at the 500K level that I can be moderately successful at the 1000K level. I am pleased to see the role that OpenAPI is playing at the center of all of this, and it reassures me that my expertise with APIs will continue to grow in this new API fueled madness. However, like the API chaos I operate in each day, I am confident that the AI universe will be anything but straightforward and logical—it will be a virtual circus.

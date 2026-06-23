@@ -9,7 +9,7 @@ tags:
   - Business of APIs
   - Investment
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/legal-statue-legalstatue-smoking-cigarette.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/legal-statue-legalstatue-smoking-cigarette.jpg
 author:
   name: kinlane
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Much API Surface Area Before It Stops Being Micro?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-map-grid.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-map-grid.png
 author:
   name: kinlane
 tags:

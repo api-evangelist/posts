@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="Authentication is always your first impression of an API, and for me where the storytelling about an API always should begin. I am a big believer that API st...">
-    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-castle-clouds-green-lawn.jpg">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-castle-clouds-green-lawn.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -42,7 +42,7 @@
     <meta name="twitter:title" content="Generate a Bearer Token Using Bruno and Bluesky Create Session API Operation">
     
     <meta name="twitter:description" content="Authentication is always your first impression of an API, and for me where the storytelling about an API always should begin. I am a big believer that API st...">
-    <meta name="twitter:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-castle-clouds-green-lawn.jpg">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-castle-clouds-green-lawn.jpg">
 
     <!-- JSON-LD Structured Data -->
     
@@ -52,7 +52,7 @@
       "@type": "Article",
       "headline": "Generate a Bearer Token Using Bruno and Bluesky Create Session API Operation",
       "description": "Authentication is always your first impression of an API, and for me where the storytelling about an API always should begin. I am a big believer that API st...",
-      "image": "https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-castle-clouds-green-lawn.jpg",
+      "image": "https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-castle-clouds-green-lawn.jpg",
       "datePublished": "2024-12-03T00:00:00-05:00",
       "dateModified": "2024-12-03T00:00:00-05:00",
       "author": {
@@ -65,7 +65,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -363,7 +363,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -393,7 +393,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -727,7 +727,7 @@
       </div>
 
       
-      <img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-castle-clouds-green-lawn.jpg" alt="Generate a Bearer Token Using Bruno and Bluesky Create Session API Operation" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-castle-clouds-green-lawn.jpg" alt="Generate a Bearer Token Using Bruno and Bluesky Create Session API Operation" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -735,15 +735,15 @@
 
 <p>If you are a developer, I will leave authentication to whatever your programming language of choice, and support the SDK—this is what SDKs are good at. This overview is meant for any developer looking to play around, automate, and integrate using specifically the Bluesky HTTP API without any particular SDK or programming language, relying on <a href="https://bit.ly/4fpe6FO">an open-source API client Bruno</a>. If you aren’t familiar with Bruno, it is an open-source, completely local replacement for the Postman API client, which anyone can use to make calls to an API without writing code. To authenticate with the Bluesky API you will need to use the <a href="https://docs.bsky.app/docs/api/com-atproto-server-create-session">com-atproto-server-create-session</a> operation to login with your username and password and generate a Bearer token which you can use for any future API call.</p>
 
-<p><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/bluesky/bluesky-auth-1.png" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/bluesky/bluesky-auth-1.png" style="padding: 15px;" /></p>
 
 <p>To make this call we are putting our username and password into a Bruno environment which allows us to then apply as variables in the body of the API call, abstracting away the user so we can switch for other users, but also the password which we are storing as a secret.</p>
 
-<p><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/bluesky/bluesky-auth-2.png" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/bluesky/bluesky-auth-2.png" style="padding: 15px;" /></p>
 
 <p>When making a request your Bluesky user identifier and password are passed in as the encrypted body payload of the request to the create session operation and you get a Bearer token back which we have a post request script which will grab the accessJWT property in the response and store it in our environment as a “token” variable—this is what we’ll use to make future calls.</p>
 
-<p><img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/bluesky/bluesky-auth-3.png" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/bluesky/bluesky-auth-3.png" style="padding: 15px;" /></p>
 
 <p>While I have this request published as a single Bruno Collection in support of this story, I will use this endpoint alongside any other call I want to make next, such as searching for users or posts—which I will talk about in future posts. This allows any collection I have to be automated as a single unit, obtaining a Bearer token and then making any subsequent calls to the API to find users, posts, or accomplish any other tasks. <a href="https://github.com/api-evangelist/bluesky">I have a master OpenAPI and Bruno collection for all of the Bluesky API calls</a>, but I prefer making individual more modular collections in support of stories and individual workflows I want to accomplish using the Bluesky API.</p>
 

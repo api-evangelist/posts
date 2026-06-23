@@ -6,7 +6,7 @@ tags:
   - Discovery
   - Visibility
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-city-clouds-waterfront.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-city-clouds-waterfront.jpg
 ---
 The gateway for moving towards an API contract focus with API Evangelist was the discovery of APIs and trying to figure out how to make APIs more visible to business stakeholders. API discovery is the one area of the API economy I consider myself an expert, as I’ve been studying since about 2012, and have been working to evolve my APIs.json discovery specification since 2014. While looking for solutions to the API discovery problem, [I concluded that very few people care about API discovery until it intersects with a technical problem they care about like security or observability](https://apievangelist.com/2021/02/11/gathering-my-thoughts-on-api-discovery/), and I figured I would need to find more of the business reasons that intersected with API discovery if I was going to move the API search and discovery conversation forward in any meaningful way.
 

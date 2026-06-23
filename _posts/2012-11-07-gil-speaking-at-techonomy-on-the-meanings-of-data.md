@@ -2,7 +2,7 @@
 layout: post
 title: Gil Speaking at Techonomy on The Meanings of Data
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/gil-elbaz-factual.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/gil-elbaz-factual.jpg
 author:
   name: kinlane
 tags:

@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Relationship Between OpenAPI Path, Summary, Tags and AysncAPI Topics'
-image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/23_160_800_500_0_max_0_-5_-1.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/relationship-between-openapi-path-summary-tags-and-aysncapi-topics.png
 ---
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/23_160_800_500_0_max_0_-5_-1.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p>I’m working my way through several hundred OpenAPI definitions that I have forked from <a href="https://apis.guru/">APIs.guru</a>, <a href="https://any-api.com/">Any API</a>, and have automagically generated from API documentation scrape scripts I have developed over time. Anytime I evolve a new OpenAPI definition, I first make sure the summary, description, and tags are as meaningful as they possibly can. Sadly this work is also constrained by how much time I have to spend with each API, as well as how well designed their API is in the first place. I have a number of APIs that help me enrich this automatically, by mining the API path, applying regular expressions, but often times it takes a manual review to add tags, polish summaries, and make the OpenAPI details as meaningful as I possibly can, in regards to what an API does.
 
 <p>As I’m taking a break from this work, I’m studying up on <a href="https://www.asyncapi.com/">AsyncAPI</a>, trying to get my head around how I can be crafting API definitions for the message-based, event-driven, streaming APIs I’m profiling alongside my regular API research. One of the areas the AsyncAPI team is pushing forward is around the concept of a topic–_“to create a definition that suites most use cases and establish the foundation for community tooling and better interoperability between products when using AsyncAPI.”_ or to elaborate further, <em>“a topic is a string representing where an AsyncAPI can publish or subscribe. For the sake of comparison they are like URLs in a REST API.”</em> Now I’m thinking about the relationships between the API design elements I’m wrestling with in my API definitions, and how the path, summary, and tags reflect what Async is trying to articulate with their topics discussion.

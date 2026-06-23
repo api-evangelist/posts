@@ -1,7 +1,7 @@
 ---
 layout: post
 title: If You Are Doing Interesting Things With APIs Please Tell The Story
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-amplify-audio.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-amplify-audio.png
 atomdate: 2017-01-27T17:00:00.000Z
 tags:
   - APIs

@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I’m a big Github user. I depend on Github for managing all my projects, and Github Pages for the presentation layer around all my research. When anything req...">
-    <meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/github/github-authentication-screenshot.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-authentication-screenshot.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -42,7 +42,7 @@
     <meta name="twitter:title" content="The Information You Get When Allowing Developers To Sign Up For An API Using Github">
     
     <meta name="twitter:description" content="I’m a big Github user. I depend on Github for managing all my projects, and Github Pages for the presentation layer around all my research. When anything req...">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/kinlane-productions2/github/github-authentication-screenshot.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-authentication-screenshot.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -52,7 +52,7 @@
       "@type": "Article",
       "headline": "The Information You Get When Allowing Developers To Sign Up For An API Using Github",
       "description": "I’m a big Github user. I depend on Github for managing all my projects, and Github Pages for the presentation layer around all my research. When anything req...",
-      "image": "https://s3.amazonaws.com/kinlane-productions2/github/github-authentication-screenshot.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-authentication-screenshot.png",
       "datePublished": "2017-11-16T08:00:00-05:00",
       "dateModified": "2017-11-16T08:00:00-05:00",
       "author": {
@@ -65,7 +65,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -363,7 +363,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -393,7 +393,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -727,11 +727,11 @@
       </div>
 
       
-      <img src="https://s3.amazonaws.com/kinlane-productions2/github/github-authentication-screenshot.png" alt="The Information You Get When Allowing Developers To Sign Up For An API Using Github" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-authentication-screenshot.png" alt="The Information You Get When Allowing Developers To Sign Up For An API Using Github" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
-        <p><img src="https://s3.amazonaws.com/kinlane-productions2/github/github-authentication-screenshot.png" align="right" width="45%" style="padding: 15px;" /></p>
+        <p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/github/github-authentication-screenshot.png" align="right" width="45%" style="padding: 15px;" /></p>
 <p>I’m a big Github user. I depend on Github for managing all my projects, and Github Pages for the presentation layer around all my research. When anything requires authentication, whether for accessing an API, or gaining access to any of my micro apps, I depend on Github authentication. <a href="https://gist.github.com/kinlane/00db3d871b615c8b1c43dbc60ae41f86">I have a basic script that I deploy regularly after setting up a Github OAuth application</a>, which I use to enable authentication for my API portals and applications, handling the OAuth dance, and returning me the information I need for my system.</p>
 
 <p>After a user authenticates I am left with access to the following fields: id, avatar_url, gravatar_id, url, html_url, followers_url, following_url, gists_url, starred_url, subscriptions_url, organizations_url, repos_url, events_url, received_events_url, type, site_admin, name, company, blog, location, email, hireable, bio, public_repos, public_gists, followers, following, created_at, updated_at, private_gists, total_private_repos, owned_private_repos, disk_usage, collaborators, two_factor_authentication, and plan. Not all these fields are filled out, and honestly I don’t care about most of them for my purposes, but it does provide an interesting look at what you get from Github, over a basic email and password approach to authentication.</p>

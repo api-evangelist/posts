@@ -2,7 +2,7 @@
 layout: post
 title: Keep Your API Area Active So Developers Feel Like Someone Is Home
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/KinLane-Twitter.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/KinLane-Twitter.png
 author:
   name: kinlane
 tags:

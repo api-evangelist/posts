@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Providing A Set Of API Keys For Developers To Test Out Different API Outcomes
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-outcomes.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-outcomes.png
 tags:
   - Diff
   - Keys

@@ -5,7 +5,7 @@ title: >-
   Spreading API Collections From My Personal Workspaces Across Multiple
   Workspaces
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/la_muse_gears_pipes_plumbing.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/la_muse_gears_pipes_plumbing.jpg
 author:
   name: kinlane
 tags:

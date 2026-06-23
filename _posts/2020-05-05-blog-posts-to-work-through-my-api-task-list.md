@@ -4,7 +4,6 @@ layout: post
 title: 'Blog Posts to Work Through My API Task List'
 image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-crypto-wheels-old-compute-bletchley.jpg
 ---
-<p><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-crypto-wheels-old-compute-bletchley.jpg" alt="" width="40%" align="right" /></p>
 <p class="p1">I would say today reflects the purpose of API Evangelist in my world. Helping me get through the work I have on the table, while expanding my awareness of what is going on in the world of APIs. Most people think my blog is for them, and it is, but first and foremost it is about me working through my ideas and projects. I haven&rsquo;t been feeling like writing much during the current situation we find ourselves in, but this morning I was needing some help getting to some items on my task list that have been sitting a little to long. Resulting in three posts here on the blog, and me remember why I do this, which always helps me find renewed energy in my work.</p>
 <p class="p1">I have about 10 different items I was looking to accomplish today, but three of them made for pretty worthy stories that helped me better understand what is going on while also pushing me to articulate my ideas to other people. Here is the result of me clearing three items from my task list today:</p>
 <ul class="ul1">

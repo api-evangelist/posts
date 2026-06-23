@@ -4,14 +4,14 @@ title: What Does a World with 100K Open APIs Look Like?
 url: >-
   http://apievangelist.com/2011/12/02/what-does-a-world-with-100k-open-apis-look-like/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ProgrammableWeb-API-Directory.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ProgrammableWeb-API-Directory.png
 author:
   name: kinlane
 tags:
   - APIs
   - Open
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/programmableweb/ProgrammableWeb-API-Directory.png)](http://www.programmableweb.com/apis/directory "4,480 APIs in the Directory")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/programmableweb/ProgrammableWeb-API-Directory.png)](http://www.programmableweb.com/apis/directory "4,480 APIs in the Directory")
 
 I recently pulled the title, description and tags for all the APIs in the [ProgramableWeb](http://www.programmableweb.com "ProgrammableWeb") directory into a local MySQL database. At the time of this writing there are [4,480 public APIs in the directory](http://www.programmableweb.com/apis/directory "4,480 APIs in the Directory").
 

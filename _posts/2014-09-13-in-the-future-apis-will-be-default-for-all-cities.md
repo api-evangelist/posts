@@ -3,7 +3,7 @@ layout: post
 title: In The Future APIs Will Be Default For All Cities
 sourceurl: >-
   http://apievangelist.com/2014/09/13/in-the-future-apis-will-be-default-for-all-cities/
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-city-skyline.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-city-skyline.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
 ---
 **Swagger is now Open API Definition Format (OADF) -- [**READ MORE**](http://apievangelist.com/2015/11/05/the-swagger-spec-is-reborn-as-open-api-definition-format-oadf-after-being-put-into-open-api-initiative-oai/)**
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-city-skyline.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-city-skyline.png)
 
 In 2014 we are making significant progress in deploying APIs in support of city operations, but we still have so much more work ahead of us when it comes to making public resources available. You can find a dedicated developer area full of data sets, and APIs, in most major US cities like New York, Chicago, San Francisco, Seattle, Philadelphia, Washington D.C. and many more, but what else can we do to really pick up the momentum and quality?
 

@@ -5,8 +5,7 @@ source: http://apievangelist.com/2011/08/06/api-stack--image-to-css-conversion-w
 domain: apievangelist.com
 image: 
 ---
-
-<a href="http://www.imgtocss.com/" target="_blank"><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/imgtocss/IMG-to-API-Conversion.png" alt="" align="right" /></a>The <a href="http://www.imgtocss.com/" target="_blank">IMG to CSS API</a> lets you convert images to html/css using a RESTful interface, with API keys for authentication, and responses in JSON and XML.
+The <a href="http://www.imgtocss.com/" target="_blank">IMG to CSS API</a> lets you convert images to html/css using a RESTful interface, with API keys for authentication, and responses in JSON and XML.
 <p></p>
 The HTML / CSS code that is returned can be pretty bulky, but is a pixel by pixel representation of the image.
 <p></p>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Blog For Your API Is The Most Important Signals You Can Send
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-canary-cage.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-canary-cage.png
 author:
   name: kinlane
 tags:

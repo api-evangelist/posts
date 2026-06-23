@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Open Source Community Tooling Built on API Blueprint
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-docks-water-front.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-docks-water-front.jpg
 author:
   name: kinlane
 tags:

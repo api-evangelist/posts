@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Positive API Behavioral Reinforcement
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-old-chair-hopsital.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-old-chair-hopsital.jpg
 author:
   name: kinlane
 tags:

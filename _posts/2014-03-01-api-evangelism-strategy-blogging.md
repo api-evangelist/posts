@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'API Evangelism Strategy: Blogging'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/blogging.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/blogging.png
 author:
   name: kinlane
 tags:

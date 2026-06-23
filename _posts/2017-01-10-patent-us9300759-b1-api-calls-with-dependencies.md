@@ -2,7 +2,7 @@
 layout: post
 title: 'Patent US9300759 B1: API Calls With Dependencies'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_09_at_11.11.55_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_01_09_at_11.11.55_pm.png
 atomdate: 2017-01-10T20:00:00.000Z
 tags:
   - Dependencies

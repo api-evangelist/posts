@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Understanding How ShipEngine Manages Their APIs Using Moesif
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_07_29_at_1.54.55_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_07_29_at_1.54.55_pm.png
 author:
   name: kinlane
 tags:

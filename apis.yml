@@ -4,7 +4,7 @@ type: Index
 name: Posts
 description: Over 4,000 stories on the API Evangelist blog since 2010 — the technology, business, and politics of how APIs
   are changing the way we live and work.
-image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png
+image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
 tags:
 - Posts
 - Stories
@@ -17,7 +17,7 @@ apis:
   name: Posts Feed
   description: Over 4,000 stories on the API Evangelist blog since 2010 — the technology, business, and politics of how APIs
     are changing the way we live and work.
-  image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png
+  image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
   humanURL: https://developer.apievangelist.com/feeds/posts/
   baseURL: https://apievangelist.com
   tags:

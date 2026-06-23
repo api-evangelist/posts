@@ -3,7 +3,7 @@ published: true
 layout: post
 title: My Levels of Postman API Environment Understanding To Date
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/la_muse_lighthouse_36679514616_o.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/la_muse_lighthouse_36679514616_o.jpg
 author:
   name: kinlane
 tags:

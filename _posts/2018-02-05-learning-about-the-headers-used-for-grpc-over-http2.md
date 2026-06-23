@@ -4,8 +4,6 @@ layout: post
 title: 'Learning About The Headers Used for gRPC over HTTP/2'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-grpc.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-grpc.png" align="right" width="45%" style="padding: 15px;" />
 <p>I am learning more about gRPC and HTTP/2, as part of the recent expansion of my API toolbox. I’m not a huge fan of Protocol Buffers, however I do get the performance gain they introduce, but I am very interested in learning more about how HTTP/2 is being used as a transport. While I’ve been studying how websockets, Kafka, MQTT, and other protocols have left the boundaries of HTTP and are embracing the performance gains available in the pure TCP realm, I’m more intrigued by the next generation of HTTP as a transport.
 
 <p>Part of my learning process is all about understanding the headers available to us in the HTTP/2 realm. I’ve been learning more about the next generation HTTP headers from the <a href="https://github.com/grpc/grpc/blob/master/doc/PROTOCOL-HTTP2.md">gRPC Github repository</a> which provides details on the request and response headers in play.

@@ -2,7 +2,7 @@
 layout: post
 title: Government Services Schemas With JSON-LD
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-government.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-government.jpg
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
   - JSON-LD
   - Services
 ---
-This fall while working in Washington D.C. I was introduced to the concept of[representing government services with JSON-LD](https://s3.amazonaws.com/kinlane-productions2/federal-government/government-services/RepresentingGovernmentServiceswithJSON-LD.pdf). Using the [civic services schema.org](http://www.w3.org/wiki/WebSchemas/CivicServices) proposal you can represent common government services that target indvidiuals and businesses, providing a standard that developers can use when presenting government services in websites and mobile applications.
+This fall while working in Washington D.C. I was introduced to the concept of[representing government services with JSON-LD](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/government-services/RepresentingGovernmentServiceswithJSON-LD.pdf). Using the [civic services schema.org](http://www.w3.org/wiki/WebSchemas/CivicServices) proposal you can represent common government services that target indvidiuals and businesses, providing a standard that developers can use when presenting government services in websites and mobile applications.
 
 I was working on a project to help publish services from the Department of Veterans Affairs, and I wanted to enable people who work at the VA, as well as other agencies to be able to generate and manage JSON-LD representations of their services in the easiest way possible. So I thought to myself, what is the number one way for people in government to manage data? Spreadsheets of course!
 

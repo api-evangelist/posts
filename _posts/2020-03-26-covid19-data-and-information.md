@@ -3,7 +3,7 @@ published: true
 layout: post
 title: COVID-19 Data and Information
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_covid_response_1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_covid_response_1.png
 author:
   name: kinlane
 tags:
@@ -47,7 +47,7 @@ These API collections are designed to reduce friction when getting up and runnin
 
 After that I paused for a bit and then zoomed out a bit. I wanted to step back and see what else might be going on around COVID-19 data and API specifically. There was a handful of APIs emerging, coming out of primarily data from Johns Hopkins University, and other known and unknown data sources, producing a variety of approaches to making sense of the spread of COVID-19 and its impact on the ground. 
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_covid_response_2.png)](https://covid-19-apis.postman.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_covid_response_2.png)](https://covid-19-apis.postman.com/)
 
 *   **The COVID Tracking Project** ([Collection](https://documenter.postman.com/view/8854915/SzS8rjHv?version=latest)) - The COVID Tracking Project collects information from 50 US states, the District of Columbia, and 5 other US territories to provide the most comprehensive testing data we can collect for the novel coronavirus, SARS-CoV-2.
 *   **Covid19API** ([Collection](https://documenter.postman.com/view/10808728/SzS8rjbc?version=latest)) - A free API for data on the Coronavirus Access data on COVID19 through an easy API for free.
@@ -82,7 +82,7 @@ I am trying to push myself to be more consistent in how I aggregate, define, ref
 
 I am not 100% sure what is next. I am going to step back a bit and work on my regular work for a while, and let the ideas I’ve put forth simmer. Like any data project I have learned a lot along the way. I want to simmer for a bit on what I have learned. I think I have my process really honde for how I am deploying data APIs using Google Sheets, Postman, and GitHub. I’m just not convinced that I have the right ideas when it comes to what is needed when it comes to data sharing in support of the COVID-19 fight. I have jotted down some ideas about what I think I should tackle, but at this point I’m not 100% sure I have my finger on the pulse of what is needed—here is a short list.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_covid_response_3.png)](https://covid-19-apis.postman.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_covid_response_3.png)](https://covid-19-apis.postman.com/)
 
 *   **Federal Agencies Twitter & RSS & Data** \- Create the same collections I have for WHO, CDC, and others for the leading federal agencies making an impact.
 *   **State Health Departments -** Pull together a collection of the websites, Twitter accounts, and RSS feeds for the state health departments for all 50 states.

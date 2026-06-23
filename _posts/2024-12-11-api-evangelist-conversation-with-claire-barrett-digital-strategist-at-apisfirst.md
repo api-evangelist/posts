@@ -11,7 +11,7 @@ tags:
   - ROI
   - Leadership
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 [Claire Barrett, Digital strategist at APIsFirst](https://conversations.apievangelist.com/sessions/2024-12-11-claire-barrett-apisfirst.html) came by to talk with me about the realities on the ground with APIs in large enterprises and the increasing chatter regarding the return on investment APIs. Claire's view of things is what API service providers should be tuning into when it comes to aligning product with engineering, treating APIs as a product, and making sense of the real world things business leadership are looking for. I'm thankful for Claire's perspective, but also all the work she does around APIDays, and Women in APIs, but also just being outspoken about the business value of being API-first.
 

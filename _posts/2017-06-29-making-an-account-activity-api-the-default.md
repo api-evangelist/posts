@@ -11,7 +11,7 @@ tags:
 image: >-
   https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/twitter-account-activity-api-.png
 ---
-<p><a href="https://dev.twitter.com/webhooks/account-activity"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/twitter-account-activity-api-.png" align="right" width="40%" style="padding: 15px;" /></a></p>[I was reading an informative post about the Twitter Account Activity API](https://medium.com/@esfand/twitter-account-activity-api-8c59347380be), which seems like something that should be the default for ALL platforms. In today's cyber insecure environment, we should have the option to subscribe to a handful of events regarding our account or be able to sign up for a service that can subscribe and help us make sense of our account activity. 
+[I was reading an informative post about the Twitter Account Activity API](https://medium.com/@esfand/twitter-account-activity-api-8c59347380be), which seems like something that should be the default for ALL platforms. In today's cyber insecure environment, we should have the option to subscribe to a handful of events regarding our account or be able to sign up for a service that can subscribe and help us make sense of our account activity. 
 
 An account activity API should be the default for ALL the platforms we depend on. There should be a wealth of certified aggregate activity services that can help us audit and understand what is going on with our platform account activity. We should be able to look at, understand, and react to the good and bad activity via our accounts. If there are applications doing things that don't make sense, we should be able to suspend access, until more is understood.
 

@@ -3,7 +3,7 @@ layout: post
 title: >-
   I Loaded That CSV Into A Database, Now Let Me Expose An API So I Can Get Some
   Help
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-help.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-help.png
 author:
   name: kinlane
 tags:
@@ -30,8 +30,6 @@ I also added the ability to pull a single speaker as well:
 *   [http://api.apistrat.com/speakers/aO6zItrUhKEUexi7zNiUjOzzJ1230Rfno9P123DJRHNEuh4117/](http://api.apistrat.com/speakers/aO6zItrUhKEUexi7zNiUjOzzJ1230Rfno9P123DJRHNEuh4117/)
 
 All you have to do is put in the speaker\_id for each of the speakers. Now, anyone can pull the information on 351 of the speakers who have helped make @APIStrat a thing. Next I also want [@picsoung](https://twitter.com/picsoung?lang=en) to be able to help me build upon the list of speakers. This is where APIs rock at making the web not just consumable, but also something anyone can program. 
-
-[![](http://www.3scale.net/wp-content/uploads/2014/08/apistrat-logo.jpg)](ttp://apistrat.com/)
 
 Using the two paths provided above, I then added a POST, PUT, and DELETE for the @APIStrat speaker resource. I want [@picsoung](https://twitter.com/picsoung?lang=en) to help me add, update, and delete from the speaker list. Now he can help me make sure all the information available is up to date. [Since I have 3Scale API infrastructure in place](http://3scale.net), and since [@picsoung](https://twitter.com/picsoung?lang=en) is established as a "partner in crime", he has an API key which allows him to not just GET (which anyone can do), he can also POST, PUT, and DELETE--making my speakers resource programmable to only myself, and @picsoung, or anyone else who has "partner in crime" level access to the @APIStrat API.
 

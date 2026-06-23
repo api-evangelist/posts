@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scaling What I Do At API Evangelist
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-scale.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-scale.png
 author:
   name: kinlane
 tags:

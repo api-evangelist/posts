@@ -3,7 +3,7 @@ published: true
 layout: post
 title: How My API Evangelist Research and Writing Works
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-surveillance-over-the-city.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-surveillance-over-the-city.jpg
 author:
   name: kinlane
 tags:
@@ -31,7 +31,7 @@ My research is ongoing. It will never stop. However, along the way there are thr
 
 Really, the short form content is just exhaust from the machine operating each day. The blog posts are just me scribbling on my workbench, trying to refine my understanding of what is going on. Ultimately I am just working up towards some long form or project level output. This is why some of my short form posts are so rough, and sometimes not fully fleshed out, or well-written. I’m not publishing a post because I want everyone to read it and understand, I am simply getting the idea out into the open, existing on the workbench, so it can be reviewed, refined, and potentially used later on in some other work. I am not writing it for page views, or attention, I am simply publishing it to my workbench, and my API workbench happens to be more open and transparent than most—something that has transformed how I do what I do…but, that is another story.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-steam-engine-iceland.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-steam-engine-iceland.jpg)
 
 ### An Open Source Page For Your API Platform
 

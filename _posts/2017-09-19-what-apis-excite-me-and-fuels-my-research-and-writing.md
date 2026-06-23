@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'What APIs Excite Me And Fuels My Research And Writing'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/old-gas-pumps.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/what-apis-excite-me-and-fuels-my-research-and-writing.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/old-gas-pumps.jpg" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p><em>I am spending two days this week with the <a href="https://developer.capitalone.com/">Capital One DevExchange</a> team outside of Washington DC, and they’ve provided me with a list of questions for one of our sessions, which they will be recording for internal use. To prepare, I wanted to work through my thoughts, and make sure each of these answers were on the tip of my tongue–here is one of those questions, along with my thoughts.</em>
 
 <p>The number API that gets me out of bed each day, with an opportunity to apply what I’ve learned in the API sector is with the Human Services Data API (HSDA). Which is an open API standard I am the technical lead for which helps municipalities, and human service organizations better share information that helps people find services in their communities. This begins with the basics like food, housing, and healthcare, but in recent months I’m seeing the standard get applied in disaster scenarios like Hurricane Irma to help organize shelter information. This is why I do APIs. The project is always struggling for funding, and is something I do mostly for free, with small paychecks whenever we receive grants, or find projects where we can deliver an actual API on the ground.

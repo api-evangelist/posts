@@ -2,7 +2,7 @@
 layout: post
 title: APIs Ongithub
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/blog/bw-github.jpg
 author:
   name: kinlane
 tags:
@@ -18,67 +18,67 @@ These Swagger specifications were the seed of the recent [API Commons that 3Scal
 
 You can find the following 11 designs at [api.ongithub.com](http://api.ongithub.com "api.ongithub.com"):
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-business-icon.png)](http://ongithub.github.io/businesses/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-business-icon.png)](http://ongithub.github.io/businesses/)
 
 [**Businesses**](http://ongithub.github.io/businesses/)
 
 This is a simple API specification for a listing of businesses.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-calendar.png)](http://ongithub.github.io/events/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-calendar.png)](http://ongithub.github.io/events/)
 
 [**Events**](http://ongithub.github.io/events/)
 
 This is a simple API specification for a listing of events.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-camera.jpg)](http://ongithub.github.io/images/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-camera.jpg)](http://ongithub.github.io/images/)
 
 [**Images**](http://ongithub.github.io/images/)
 
 This is a simple API specification for a listing of photos and images.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-job.jpg)](http://ongithub.github.io/jobs/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-job.jpg)](http://ongithub.github.io/jobs/)
 
 [**Jobs**](http://ongithub.github.io/jobs/)
 
 This is a simple API specification for a listing of jobs.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-office.png)](http://ongithub.github.io/offices/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-office.png)](http://ongithub.github.io/offices/)
 
 [**Offices**](http://ongithub.github.io/offices/)
 
 This is a simple API specification for a listing of offices.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-places.png)](http://ongithub.github.io/places/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-places.png)](http://ongithub.github.io/places/)
 
 [**Places**](http://ongithub.github.io/places/)
 
 This is a simple API specification for a listing of places.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-people.png)](http://ongithub.github.io/people/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-people.png)](http://ongithub.github.io/people/)
 
 [**People**](http://ongithub.github.io/people/)
 
 This is a simple API specification for a listing of people.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-news-icon.png)](http://ongithub.github.io/press/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-news-icon.png)](http://ongithub.github.io/press/)
 
 [**Press**](http://ongithub.github.io/press/)
 
 This is a simple API specification for a listing of news and press releases.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-products.png)](http://ongithub.github.io/products/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-products.png)](http://ongithub.github.io/products/)
 
 [**Products**](http://ongithub.github.io/products/)
 
 This is a simple API specification for a listing of products.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-programs.png)](http://ongithub.github.io/programs/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-programs.png)](http://ongithub.github.io/programs/)
 
 [**Programs**](http://ongithub.github.io/programs/)
 
 This is a simple API specification for a listing of programs.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-video.png)](http://ongithub.github.io/videos/)
+[![](https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-video.png)](http://ongithub.github.io/videos/)
 
 [**Videos**](http://ongithub.github.io/videos/)
 

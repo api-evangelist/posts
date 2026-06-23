@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Access To Your Account By Default But Requires Permission To See Others
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-access-cloud.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-access-cloud.png
 atomdate: 2016-09-27T22:00:00.000Z
 tags:
   - Access

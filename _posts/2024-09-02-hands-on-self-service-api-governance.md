@@ -6,7 +6,7 @@ tags:
   - Self-Service
   - Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-alan-turing-side.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/good-year-home-merchandise-alan-turing-side.jpg
 ---
 I’ve been researching, talking to people, and writing stories about API governance for a while. I’ve been working with OpenAPI for many years, and have been immersed in the creation of governance rules with Spectral for over five years now. I left the insulated world of a startup to spend a year in a medium-sized enterprise to learn more about what API governance was, and what it isn’t. Now I am looking to take these learnings and offer what I know as a service to other enterprises, while simultaneously continuing my API Evangelist approach to telling stories about API governance.
 

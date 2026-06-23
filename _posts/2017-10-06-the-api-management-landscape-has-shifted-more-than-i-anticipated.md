@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'The API Management Landscape Has Shifted More Than I Anticipated'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/yellow-tree-in-the-rocks.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-api-management-landscape-has-shifted-more-than-i-anticipated.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/yellow-tree-in-the-rocks.jpg" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p>It is interesting to take a fresh look at the API management landscape these days. It has been a while since I’ve looked through all the providers to see where their pricing is at, and what they offer. I’d say the space has definitely shifted from what things looked like 2012 through 2015. There are still a number of open source offerings, which there weren’t in 2012, but the old guard has solidly turned their attention to the enterprise. There are the cloud solutions like <a href="https://restlet.com/">Restlet</a>, ad <a href="http://www.slashdb.com/">SlashDB</a> which really help you get up and running from existing data sources in the cloud, but for this particular project I am looking for a simple proxy and connector approach to deploying on any infrastructure, and they don’t quite fit the requirements.
 
 <p>Apigee, and the other more enterprise offerings have always been out of my league, and 3Scale’s entry level package is up to $750, which is a little out of my reach, but I do know they are open sourcing their offering, now that they are part of Red Hat. There is <a href="https://nrel.github.io/api-umbrella/">API Umbrella</a>, <a href="http://www.apiman.io/">APIMan</a>, <a href="http://www.fusio-project.org/">Fusio</a>, <a href="http://www.monarchapis.com/">Monarch</a>, and handful of other solutions that will work, but they take certain platform, or specific language commitment that doesn’t work for this project. Everything else is of the enterprise caliber, nothing really that I would recommend to my customers who are just getting started on their API journey. I’m really left with the cloud giants, which I guess is one of the main reasons we are at this junction in the evolution of API management. API management becoming a commodity has really shifted the landscape, making it more difficult to be a strong player like <a href="https://kinlane-images.s3.amazonaws.com/apievangelist/partners/tyk-logo.png">Tyk</a> and Kong are managing to pull off.

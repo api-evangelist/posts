@@ -3,7 +3,7 @@ published: true
 layout: post
 title: When My API Evangelism Is Seen as Being Commercial
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-factory-road.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-factory-road.jpg
 author:
   name: kinlane
 tags:

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Using Postman Testing for API Governance
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/using-postman-testing-for-api-governance.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/using-postman-testing-for-api-governance.png
 tags:
   - Testing
   - Governance

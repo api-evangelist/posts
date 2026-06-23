@@ -2,7 +2,7 @@
 layout: post
 title: 'The Hypermedia API Debate: Sorry Reasonable Just Does Not Sell'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/api-craft/detroit/apicraft-panel-0.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-craft/detroit/apicraft-panel-0.jpg
 author:
   name: kinlane
 tags:
@@ -37,7 +37,7 @@ Next let’s look at from the hypermedia pioneers side:
 *   **Use Media Types -** People don't read docs, we need to rely on media types help provide the information developers will need.
 *   **Give Us A Break -** This shit is hard, and the hypermedia community is working hard, and taking risks to push APIs forward.
 
-![](https://s3.amazonaws.com/kinlane-productions2/events/api-craft/detroit/apicraft-panel-2.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-craft/detroit/apicraft-panel-2.jpg)
 
 Beyond both the hypermedia pioneers, and the hypermedia skeptic camps, I think the main problem with the hypermedia conversation is as Mike said, "reasonable just doesn't sell”. I think this is the number one illness in the whole debate, that some bloggers feel the need to polarize any debate, sensationalize and use hyperbole at every turn. You can see this playing out in coverage of hypermedia, but also around other areas of the API space like API deprecation, where the [argument was either APIs can go away at any moment, to the other end where you have to support APIs forever](http://apievangelist.com/2012/04/20/apis-are-forever-wait-nothey-can-go-away-at-any-time/)—not discussing the middle reality which would show there are plenty of APIs who handle deprecation very well, but year, that is boring, and really doesn't sell.
 
@@ -59,7 +59,7 @@ Let’s talk about what the hypermedia skeptics can do to shift the conversation
 
 Ultimately the ball is in the court of the hypermedia pioneers.There really is no reason that skeptics, or anyone else should care, until there is more examples, tooling, and stories around why hypermedia is worth the extra work in getting up to speed, and implementing as part of our APIs designs.
 
-![](https://s3.amazonaws.com/kinlane-productions2/events/api-craft/detroit/apicraft-hater-session.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-craft/detroit/apicraft-hater-session.png)
 
 I see hypermedia at the same place, as REST was in 2010 when I started API Evangelist. I had witnessed first hand the solutions a RESTful API provided, and saw what was playing out in the public API space with Amazon, Twitter, and Twilio. As I continue to study the space I saw the RESTafarians arguing, shaming and generally making people feel stupid for not understanding HTTP, and fighting over exactly what REST was. It appeared to me that REST would suffer from the same image problems as the semantic web, and linked data.
 

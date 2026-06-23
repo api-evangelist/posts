@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The State of Simple CRUD API Creation
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/docks-docks-light-dali.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/docks-docks-light-dali.jpg
 author:
   name: kinlane
 tags:

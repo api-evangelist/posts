@@ -2,7 +2,7 @@
 layout: post
 title: Learning To Use Our Words Better When Defining Our APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/oxford_dictionaries_api_home_screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/oxford_dictionaries_api_home_screenshot.png
 atomdate: 2017-03-29T16:00:00.000Z
 tags:
   - APIs

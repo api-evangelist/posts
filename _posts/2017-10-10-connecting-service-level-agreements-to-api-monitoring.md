@@ -4,8 +4,6 @@ layout: post
 title: 'Connecting Service Level Agreements To API Monitoring'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/apimetrics/api-metrics-latency-sla.png
 ---
-
-<p><a href="https://apimetrics.io"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apimetrics/api-metrics-latency-sla.png" align="right" width="40%" style="padding: 15px;" /></a>
 <p>Monitoring your API availability should be standard practice for internal and external APIs. If you have the resources to custom build API monitoring, testing, and performance infrastructure, I am guessing you already have some pretty cool stuff in place. If you don’t, then you should not be reinventing the wheel out there, and you should be leveraging one of the existing API monitoring services out there on the market. When you are getting started with monitoring your APIs I recommend you begin with uptime and downtime, and once you deliver successfully on that front, I recommend you work on API performance, and the responsiveness of your APIs.
 
 <p>You should begin with making sure you are delivering the service level agreement you have in place with your API consumers. What, you don’t have a service level agreement? No better time to start than now. If you don’t already have an explicitly stated SLA in place, I recommend creating one internally, and see what you can do to live up to your API SLA, then once you ensure things are operating at acceptable levels, you share with your API consumers. I am guessing they will be pretty pleased to hear that you are taking the initiative to offer an SLA, and are committed enough to your API to work towards such a high bar for API operations.

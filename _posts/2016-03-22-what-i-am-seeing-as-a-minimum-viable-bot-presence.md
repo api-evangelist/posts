@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What I Am Seeing As A Minimum Viable Bot Presence
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-bot-minimum.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-bot-minimum.png
 tags:
   - Presence
 ---

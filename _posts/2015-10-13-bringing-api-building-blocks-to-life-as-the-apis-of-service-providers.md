@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bringing API Building Blocks To Life As The APIs Of Service Providers
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-building-blocks.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-building-blocks.png
 author:
   name: kinlane
 tags:

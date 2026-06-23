@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Explaining To Normals Why Every API Is Different
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-broken-gears.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-broken-gears.png
 atomdate: 2017-01-04T23:00:00.000Z
 tags:
   - Diff

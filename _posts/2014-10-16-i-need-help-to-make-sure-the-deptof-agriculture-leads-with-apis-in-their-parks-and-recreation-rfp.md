@@ -5,7 +5,7 @@ title: >-
   I Need Help To Make Sure The Dept. of Agriculture Leads With APIs In Their
   Parks and Recreation RFP
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/forest-service/department-of-agriculture-forest-service.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/forest-service/department-of-agriculture-forest-service.png
 author:
   name: kinlane
 tags:
@@ -79,7 +79,7 @@ For me this portion of the requirements are extremely vague. I agree that the Re
 **Transform The RIDB Web Service Into A Modern API And Make The Center  
 **The only way you will engage with users Recreation.gov on the web and mobile locations they will demand, as well as deliver the reservation, travel planning, and reporting solutions, while making sure everything is portable, the RIDB database and supporting web services needs to be brought up to date, and transformed into a modern web API.  The RFP\_-\_Attachment\_10\_-\_Notional\_Future\_RIDB\_Data\_Flow\_-\_Sep.\_22\_2014.pptx even reflects this vision, but the actual RFP severely falls short of describing the role an API will play in the platform.
 
-![](https://s3.amazonaws.com/kinlane-productions2/federal-government/forest-service/ridb-api.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/forest-service/ridb-api.png)
 
 **Making Security A Priority Across All Aspects Of Operations  
 **With a single API layer being the access layer for all web, mobile, reporting, and data accessibility channels, security takes on a whole new meaning. APIs provide single access point for all access to platform resources, allowing security, and auditing to occur in real-time, using modern approaches to API management. APIs use existing web technology, and don’t require any special technology, but do provide a single layer to enable, monitor, and deny access to all resources, across the one stop services for recreation.

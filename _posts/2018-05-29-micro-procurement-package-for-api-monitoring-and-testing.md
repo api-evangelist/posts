@@ -12,7 +12,7 @@ tags:
   - Testing
   - Monitoring
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/va/microconsulting-work-state-va-api-landscape-analysis.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/va/microconsulting-work-state-va-api-landscape-analysis.png
 ---
 <p></p>[I'm kicking off a micro-procurement project with the Department of Veterans Affairs (VA) this week](https://github.com/department-of-veterans-affairs/VA-Micropurchase-Repo/issues/6). I'm going to to be conducting one of [my API low hanging fruit campaigns](https://apievangelist.com/2016/04/13/formalizing-my-approach-to-identifying-the-low-hanging-api-fruit/) for them, where I help them identify the best possible data sets available across their public websites for turning into APIs. The project is one of many small projects the federal agency is putting out there to begin working on their agency wide API platform they are calling Lighthouse. Laying the groundwork for better serving veterans through a robust stack of microservices that each do one thing really well, but can be used in concert to deliver the applications the agency needs to meet their mission.
 

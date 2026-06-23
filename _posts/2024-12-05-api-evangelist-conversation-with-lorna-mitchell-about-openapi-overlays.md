@@ -7,7 +7,7 @@ tags:
   - Overlays
   - OpenAPI Initiative
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 Lorna Mitchell, OpenAPI Specification Maintainer with the OpenAPI Initiative, and overall API experience expert came by again to educate me (us) on OpenAPI Overlays, helping contrast with the core OpenAPI spec, as well as with Arazzo Workflows, sharing how it will help bring more stakeholders into the API lifecycle and contribute to better API experiences. Lorna is a well spring of knowledge when it comes to OpenAPI, but also other specifications, as well as Spectral and other approaches to governing APIs, and she'll be coming back shortly to help educate us all about the intersection of overlays with extensions and how it all will change API experience.
 

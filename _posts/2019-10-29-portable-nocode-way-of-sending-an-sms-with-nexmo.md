@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Portable No-Code Way Of Sending an SMS With Nexmo
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/nexmo_sms_docs.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/nexmo_sms_docs.png
 author:
   name: kinlane
 tags:
@@ -14,7 +14,7 @@ I am at [the Vonage Campus event today in San Francisco](https://www.vonage.com/
 
 [Nexmo provides a pretty straightforward API for sending SMS](https://developer.nexmo.com/messaging/sms/overview), with a basic set of properties for who the message is to, who it is from, and the body of the message. There are other parameters you can include, and of course you have to pass in your API key and secret, but overall it is a pretty simple, straightforward API that anyone can put to work.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/nexmo_postman_sms.png)](https://www.postman.com/collections/f0a2143915bc08419b7e)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/nexmo_postman_sms.png)](https://www.postman.com/collections/f0a2143915bc08419b7e)
 
 To help me learn more about the Nexmo API while also providing a usable example that anyone can run I published [a Nexmo Postman collection](https://www.postman.com/collections/f0a2143915bc08419b7e), as well as a [Postman environment](https://raw.githubusercontent.com/api-evangelist/nexmo/master/nexmo.environment.json). You can import into your Postman client or use the Run in Postman button below. You will have to [sign up for your own Nexmo API key](https://dashboard.nexmo.com/sign-up), add add your key and secret to the Postman environment, but once you have you should be able to send an SMS to any number you choose.
 

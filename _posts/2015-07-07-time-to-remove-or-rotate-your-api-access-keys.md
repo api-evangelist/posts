@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Time To Remove Or Rotate Your API Access Keys
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-key-circle.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-key-circle.png
 author:
   name: kinlane
 tags:

@@ -7,8 +7,6 @@ tags:
   - Sensors
   - Cameras
 ---
-
-<p><a href="http://developer.parrot.com/"><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/parrot/sequoia-sensor.jpg" align="right" width="35%" /></a></p>
 I'm profiling a number of drone APIs lately and I came across some interesting APIs out of [Parrot](http://developer.parrot.com/). Not all of the APIs are for drones, but I thought they were clean and simple examples of what IoT APIs can look like.
 
 [The API for the Parrot Sequoia camera](http://developer.parrot.com/docs/sequoia/) can be controlled over USB, WIFI, allowing you to change settings, calibrate the sensors, trigger image capture and manage memory, and files.

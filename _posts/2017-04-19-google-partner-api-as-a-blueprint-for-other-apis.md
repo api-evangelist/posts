@@ -2,7 +2,7 @@
 layout: post
 title: Google Partner API As A Blueprint For Other APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-building-blocks-design.png
+  https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-building-blocks-design.png
 atomdate: 2017-04-19T22:00:00.000Z
 tags:
   - Blueprint

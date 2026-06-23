@@ -2,7 +2,7 @@
 layout: post
 title: Can You Build an API Using Scraped Data?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/web-scraper.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/web-scraper.jpg
 author:
   name: kinlane
 tags:

@@ -8,7 +8,7 @@ tags:
   - APIs.io
   - Postman
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-subway-platform.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-subway-platform.jpeg
 ---
 I use APIs.json to define the [engineering API platform for APIs.io](https://github.com/api-evangelist/engineering-platform?tab=readme-ov-file). The machine-readable definition of the engineering platform for APIs.io provides a definition of all of the services and tooling I use to run the API search engine. A platform APIs.json differs from an index or contract in that at the APIs included are usually 3rd party, and I am using them to manually manage the deliver and sustainment of API infrastructure, and automate what I can using their APIs-—I have eleven APIs that I use to manage and automate my APIs, each defined as a separate API.
 

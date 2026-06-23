@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Publishing Your Early Canary (Beta) APIs In Their Own API Workspace
-image: https://kinlane-productions2.s3.amazonaws.com/birds/canary-on-branch.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/birds/canary-on-branch.jpg
 author:
   name: kinlane
 tags:

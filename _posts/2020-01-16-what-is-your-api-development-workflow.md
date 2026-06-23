@@ -3,7 +3,7 @@ published: true
 layout: post
 title: What Is Your API Development Workflow?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-construction-zone-claw.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-construction-zone-claw.jpg
 author:
   name: kinlane
 tags:

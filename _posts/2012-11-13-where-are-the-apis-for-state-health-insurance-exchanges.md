@@ -2,7 +2,7 @@
 layout: post
 title: Where Are The APIs For State Health Insurance Exchanges?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/State-Healthcare-Insurance-Exchanges.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/State-Healthcare-Insurance-Exchanges.png
 author:
   name: kinlane
 tags:

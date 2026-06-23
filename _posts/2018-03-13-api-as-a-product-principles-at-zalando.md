@@ -9,7 +9,7 @@ tags:
   - Governance
   - Business of APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/zalando/zalando-api-guidelines.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/zalando/zalando-api-guidelines.png
 ---
 <p></p>As I'm working through the API design guides from API leaders, looking for useful practices that I can include in my own API guidance, I'm finding [electronic commerce company Zalando's API design guide](zalando.github.io/restful-api-guidelines/) full of some pretty interesting advice. I wanted to showcase the section about their API as a product principles, which I think reflects what I hear many companies striving for when they do APIs.
 

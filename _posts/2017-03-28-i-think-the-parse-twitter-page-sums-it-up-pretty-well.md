@@ -2,7 +2,7 @@
 layout: post
 title: I Think The Parse Twitter Page Sums It Up Pretty Well
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/parse_building_apps_isnt_easy_shut_down.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/parse_building_apps_isnt_easy_shut_down.png
 atomdate: 2017-03-28T16:00:00.000Z
 tags:
   - Twitter
@@ -11,7 +11,7 @@ Building a business is hard. Building a business that depends on other business 
 
 I was working my way through some legacy tweets, and [I came across Parse's Twitter home page](https://twitter.com/ParseIt), which I think sums up the promise being made by each wave of startups, and the end results of these promises--although I have to say that Parse actually handled it pretty well, compared with other startups that I have seen in action.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/parse_building_apps_isnt_easy_shut_down.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/parse_building_apps_isnt_easy_shut_down.png)
 
 Building apps is not easy. However, we need solutions that will get us all the way there. I actually think that in the end, Parse handled it pretty well, better than StackMob did, when Paypal bought them. In the end, you could take the open source version of Parse and install it, and they communicated the deprecation pretty well, giving folks quite a bit of time to take care of business. However, this is the way it should be from day one. There should be APIs, and open source available to ease operation and migration--as well as communication about what the future will hold.
 

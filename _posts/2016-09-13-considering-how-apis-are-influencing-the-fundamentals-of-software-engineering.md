@@ -2,7 +2,7 @@
 layout: post
 title: 'Considering How APIs Are Influencing The Fundamentals of Software Engineering '
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_09_12_at_11.03.07_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_09_12_at_11.03.07_pm.png
 atomdate: 2016-09-13T13:00:00.000Z
 tags:
   - Influencing

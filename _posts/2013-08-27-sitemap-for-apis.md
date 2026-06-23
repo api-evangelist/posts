@@ -2,7 +2,7 @@
 layout: post
 title: Sitemap for APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-telescope.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-telescope.png
 author:
   name: kinlane
 tags:

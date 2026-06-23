@@ -10,7 +10,7 @@ tags:
   - Governance
   - Linting
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-destruction-seattle-viaduct.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-destruction-seattle-viaduct.jpg
 ---
 Bryan over at Postman [asked me about the “rubric for comparing the different options” when it comes to linting OpenAPI artifacts in service of enterprise scale API governance](https://www.linkedin.com/feed/update/urn:li:activity:7242150939057344512?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7242150939057344512%2C7242187919799508992%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287242187919799508992%2Curn%3Ali%3Aactivity%3A7242150939057344512%29). I have posted a list of the four open-source listing solutions (Spectral, Redis CLI, Vacuum, and Optic, and my intent is to learn more about what people are using to lint their OpenAPI artifacts. I wouldn’t call it a rubric yet, but I can share more about what my strategy is when it comes to a policy and contract driven approach to API governance.
 

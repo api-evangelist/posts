@@ -3,7 +3,7 @@ layout: post
 title: >-
   Taking A Fresh Look At What Open Source API Management Architecture Is
   Available
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-open.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-open.png
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ I’ve been a [outspoken advocate for more open source API management tooling](h
 
 Originally there is just one player on the space who was completely open source, and that is WSO2:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/wso2-logo-white-800X360.jpg)](http://wso2.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/wso2-logo-white-800X360.jpg)](http://wso2.com/)
 
 API management is just one tool in the massive open source catalog that WSO2 brings to the table. The company provides a number of open source tools including identity & authentication, ESB, data and [API management solutions](http://wso2.com/).
 
@@ -25,7 +25,7 @@ WSO2 is the shining open source example in the space currently, and [I was very 
 
 After WSO2 I got a taste of open source from Alcatel Lucent, with their release of API Grove, which was a whole other definition of open source:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-service-providers/alcatel-lucent/apigrove/apigrove-logo.png)](http://apigrove.net/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/alcatel-lucent/apigrove/apigrove-logo.png)](http://apigrove.net/)
 
 [API Grove](http://apigrove.net/) was open sourced late in 2012 by Alcatel Lucent, holding some promise that another strong enterprise open source player would step up, but within months it would be clear that it was not a live open source offering, but Alcatel abandoning their API program, and publishing as open source to get the press release.
 
@@ -33,7 +33,7 @@ I’d call API Grove, enterprise fire sale open source, and while the code is ou
 
 After WSO2 and API Grove, the only other player that saw emerg on the scene was ApiAxle:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-axle-logo-3.png)](http://apiaxle.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/api-axle-logo-3.png)](http://apiaxle.com/)
 
 [ApiAxle is an proxy](http://apiaxle.com/) that sits on your network, in front of API(s)and and provides common API management features like rate limiting, authentication and caching. ApiAxle was recently purchase by application platform infrastructure provider Exicon.
 
@@ -41,11 +41,11 @@ ApiAxle has been on my list for a couple years now, and was recently purchased b
 
 Beyond ApiAxle, there are two API management pioneers who been hard at work releasing open source tooling:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg)](http://www.3scale.net/api-management/api-proxy-for-api-traffic-management-by-3scale/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/3scale-logo.jpg)](http://www.3scale.net/api-management/api-proxy-for-api-traffic-management-by-3scale/)
 
 3Scale is one of the original API infrastructure providers, and has developed an [open source API proxy using the NGINX Web Server](http://www.3scale.net/api-management/api-proxy-for-api-traffic-management-by-3scale/), designed to work independently, but also be able to take advantage of freemium 3Scale API analytics, billing, etc.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/apigee-logo.gif)](https://github.com/apigee-127/volos)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/apigee-logo.gif)](https://github.com/apigee-127/volos)
 
 Like 3Scale, Apigee is one of the original API infrastructure provider, and has been working on [Volos an open source Node.js solution for developing and deploying production-level APIs](https://github.com/apigee-127/volos), providing common features such as oAuth 2.0, caching, and quota management into APIs.
 
@@ -53,11 +53,11 @@ It can be hard to envision exactly how open source fits into 3Scale or Apigee’
 
 After these projects from leading API management providers, I hadn't see any other open source API management tooling until I started to look closer at APIs in the public sector:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/serviceproviders/socrata_logo.jpg)](http://www.socrata.com/products/open-data-portal/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/serviceproviders/socrata_logo.jpg)](http://www.socrata.com/products/open-data-portal/)
 
 [Socrata](http://www.socrata.com/) has been providing API and open data management tools to government of all shapes and sizes for some time now, and along the way is open sourcing many of its tools including an [open source developer portal](http://www.socrata.com/products/open-data-portal/) that anyone can use to management their API.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/api-umbrella-logo.png)](http://nrel.github.io/api-umbrella/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/api-umbrella-logo.png)](http://nrel.github.io/api-umbrella/)
 
 [API Umbrella](http://nrel.github.io/api-umbrella/) was born out of the National Renewable Energy Laboratory (NREL) to manage their own APIs, but then has evolved to be used by other agences, as well as being adopted by central data.gov efforts within the federal government. API Umbrella is a proxy that sits in front of your APIs. It can seamlessly add common functionality like api keys, rate limiting, and analytics to any API.
 
@@ -65,19 +65,19 @@ I think what is happening in the public sector API space, reflects what the priv
 
 In doing this research, what has really caught my attention, is the number of new players that are picking up momentum in 2014:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/repose-logo.png)](http://openrepose.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/repose-logo.png)](http://openrepose.org/)
 
 [Repose is an open-source platform](http://openrepose.org/) that you can use to build stacks of reusable software components. These components can be leveraged by service developers to perform common API processing tasks. Repose can be used inside a service to perform API operations. It can also run on one or more separate servers as a proxy to one or more services. 
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/tyk-dark.png)](http://tyk.io/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/tyk-dark.png)](http://tyk.io/)
 
 [Tyk is an open source, lightweight, fast and scalable API gateway](http://tyk.io/). Set rate limiting, request throttling, and auto-renewing request quotas to manage how your users access your API. Tyk supports access tokens, HMAC request signing, basic authentication and OAuth 2.0 to integrate old and new services easily.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/gluu-logo.png)](http://www.gluu.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/gluu-logo.png)](http://www.gluu.org/)
 
 [Gluu provides open source authentication and API access management stack](http://www.gluu.org/), called the Gluu Server, helps companies secure Web and mobile applications. The Gluu Server leverages standards such as OAuth2, OpenID Connect, UMA, SAML 2.0, and SCIM to enable federated single sign-on (SSO) and trust elevation.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/strongloop-logo.png)](http://strongloop.com/node-js/loopback/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/strongloop-logo.png)](http://strongloop.com/node-js/loopback/)
 
 [Loopback is an open source API framework](http://strongloop.com/node-js/loopback/) powered by Node for quickly creating APIs. Node is good for getting projects done quickly, leveraging the broad knowledge of JavaScript, and to scale to the concurrency that is well suited for web APIs.
 

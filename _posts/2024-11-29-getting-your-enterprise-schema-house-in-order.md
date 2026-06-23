@@ -9,7 +9,7 @@ tags:
   - JSON Schema
   - GitOps
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-house-freeway-behind.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-house-freeway-behind.jpeg
 ---
 The most destabilizing aspect of enterprise operations, and the greatest contributor to API governance efforts stumbling in my experience is an enterprise not having their schema house in order. Without a foundational source of truth and accurate way of defining and validating schema used across APIs, everything will be much, much more difficult. While this approach is something that can be applied across REST, GraphQL, and event-driven approaches to API, I am primarily focused on laying the foundation for HTTP APIs and Webhooks which are the dominant way in which the digital bits which need to be defined as standard schema are being moved around the enterprise today. I strongly urge that enterprises invest in getting their schema house in order before moving too far down the road with API governance as things get exponentially more complicated without it, but I understand that these things often have to happen in tandem. 
 

@@ -2,7 +2,7 @@
 layout: post
 title: Series - 3D Printing - Process &amp; Materials
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/3D-Printing/3d-printing-process-materials.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/3D-Printing/3d-printing-process-materials.jpg
 author:
   name: kinlane
 tags:

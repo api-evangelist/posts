@@ -2,7 +2,7 @@
 layout: post
 title: Facebook Provides Developers with Platform Alerts
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/facebook-dev-alerts.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/facebook-dev-alerts.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'API Docs Are An Error: Bridging Where We Should Be And Where We Are Currently'
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-walking-path.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-walking-path.png
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Emerging Need For API Key Management Solutions
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-key-circle.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-key-circle.png
 author:
   name: kinlane
 tags:

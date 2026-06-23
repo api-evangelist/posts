@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Finding Good API Developer Talent Is Hard
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-juggling.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-juggling.png
 author:
   name: kinlane
 tags:
@@ -13,7 +13,7 @@ I feel bad for some of the newbies I encounter, thinking they are going to easil
 
 I recently stumbled across a site called APIXChange which focused on delivering API developer talent, but has recently pivoted to become Workmob:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/workmob.png)](https://theworkmob.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/workmob.png)](https://theworkmob.com/)
 
 **[Workmob](https://theworkmob.com/)**
 
@@ -23,7 +23,7 @@ URL: [theworkmob.com](https://theworkmob.com/)
 
 Then I read about [AirPair’s network of pay-per-hour API experts want to make your next integration a doddle](http://thenextweb.com/dd/2014/03/03/airpairs-network-pay-per-hour-api-experts-want-make-next-integration-doddle/#!yos6L) on Nextweb:
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/airpair-logo.png)](http://www.airpair.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/airpair-logo.png)](http://www.airpair.com/)
 
 **[AirPair](http://www.airpair.com/)**
 

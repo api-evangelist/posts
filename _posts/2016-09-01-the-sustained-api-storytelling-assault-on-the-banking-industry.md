@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Sustained API Storytelling Assault On The Banking Industry
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-banking-stories.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-banking-stories.png
 atomdate: 2016-09-01T20:00:00.000Z
 tags:
   - Banking

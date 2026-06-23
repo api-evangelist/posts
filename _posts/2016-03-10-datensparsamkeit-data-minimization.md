@@ -2,7 +2,7 @@
 layout: post
 title: 'Datensparsamkeit: Data Minimization'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-data-distillation.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-data-distillation.png
 tags:
   - Data
 ---

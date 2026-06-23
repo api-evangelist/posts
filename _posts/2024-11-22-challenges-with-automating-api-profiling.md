@@ -7,7 +7,7 @@ tags:
   - Reviews
   - Discovery
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-banana-subway-stairs.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-banana-subway-stairs.jpeg
 ---
 There are so many differences between the APIs out there. Even when they are HTTP, Web, or RESTful APIs. I know that people feel like APIs can just be automated and AI will take care of connecting and publishing APIs, but this is a reality you buy into when you haven’t spent much time in the trenches producing or consuming APIs. I am pragmatically using AI and automating wherever possible when it comes to the discovery, harvesting, processing, and refinement of APIs for inclusion in the APIs.io search engine I am slowly building. I guarantee that nobody has spent as much time as I have discovered and onboarding with APIs, and I am very, very, very aware of the reality that we won’t be able to automate the majority of this work anytime soon.
 
@@ -20,7 +20,7 @@ The way that you discover, learn about, onboard, and keep up with the changes ac
 ## It Is The Little Things
 The number of ways in which people draw the lines for bounded context between their APIs, or not at all makes it near impossible to harvest API docs. I can take specific pages and copy / paste the HTML into ChatGPT and get a pretty coherent OpenAPI 3.1 these days. However, that identification of what is an API, and where the lines are, will remain a human thing until services and tooling standardize it. Everywhere you see standardization by tooling, like with Amazon Web Services, you begin to see the limitations, and there are numerous special snowflake AWS API, even with the majority being cookie cutter. And even when you have keys, JWT, and OAuth standardization via the OpenAPI schemes property, where you obtain tokens, certificates, and how you renew is all over the place. Little tweaks in error messages, rate limits, schema, and other things seem minor in the context of a single API, but then across hundreds or thousands of APIs, it becomes very costly and time consuming. 
 
-<img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/jiro-dreams-of-sushi.jpg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/apievangelist/jiro-dreams-of-sushi.jpg" style="padding: 15px;">
 
 ## Jiro Dreams of Sushi
 I remember watching the [documentary Jiro Dreams of Sushi](https://www.imdb.com/title/tt1772925/), where there was an apprentice who spent years making a little egg dish over and over until he graduated to being able to make actual Sushi, or another incremental part or piece of the overall experience. If I had my way, before you could ever develop, distribute, or evangelize an API, you’d have to spend years discovering, onboarding, and integrating with other people’s APIs. There are endless lessons available here. I have been doing this for 15 years straight and I am still learning new things each day. Being a consumer of APIs is the most valuable experience in this game, and in my opinion where the most power resides. However, being a producer of APIs is where the money and glory is at, and where most of the API storytelling occurs. Producing APIs is where the power gets wielded the most, but in my experience is not where the true power and learning resides—it is in putting them to work.

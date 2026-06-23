@@ -7,7 +7,7 @@ tags:
   - Versioning
   - Headers
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-old-japanese-man-eyebrows.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-old-japanese-man-eyebrows.jpeg
 ---
 [I crafted my own API versioning policies, rules, and guidance yesterday](https://apievangelist.com/2024/10/30/api-governance-policies-rules-and-guidance-for-managing-the-versioning-of-openapi-and-apis/). As part of any API policy I craft I conduct research to understand what others are doing inside and outside the industry I operate within to help shape my view of things. [I’ve long subscribed to the right way(s) to version HTTP APIs that I learned back in the day from knowledgeable people whom I respect](https://www.mnot.net/blog/2012/12/04/api-evolution). When it comes to crafting governance for the enterprise I’ve always begun the discussion with NOT versioning in the URI or path, and deciding which header-based approach is optimal. 
 

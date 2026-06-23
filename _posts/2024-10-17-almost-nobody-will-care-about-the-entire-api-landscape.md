@@ -7,7 +7,7 @@ tags:
   - Strategies
   - Journey
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-subway-train-110th.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/green-circuit-subway-train-110th.jpeg
 ---
 Getting people to see APIs is hard. Even with the reality that each one of us individually makes thousands of API calls a day, and millions collectively as a business, almost nobody sees or really thinks to deeply about APIs. Even when business leadership is API aware and acknowledges their value and prioritizes investment in APIs, they won’t care about the details. I am fine with the upper levels of business leadership not wanting to dive into the API details, it is when this is the reality all the way down and up the enterprise ladder that I begin to get more concerned about things.
 
@@ -15,7 +15,7 @@ I have regularly mapped out existing enterprise API lifecycle and documented eve
 
 I hear it a lot. “That is too much!”. “Why so many steps?”. “Where do we start?” All valid questions, except it isn’t my API landscape and lifecycle. It is yours. I am just mapping things out as they are. I will also need more context about where you are at in your API journey, and whether you are seeing things through the business or technical lens. This is one reason I am so interested in the public transit system as an analogy for API systems. When I am standing on a subway platform somewhere in the New York CITY MTA system I do not care about the entire system, I care about just a handful of data points that are well represented in this MTA kiosk.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/mta-kiosk-1.jpg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/apievangelist/mta-kiosk-1.jpg" style="padding: 15px;">
 
 If you study this MTA kiosk, what is it telling me? Where I am, what time it is, next train, previous couple of stops, next couple of stops, and what service updates impact my world right now or in the near future. I want this for not just producing APIs, but also for the governance of these APIs. The biggest mistake I consistently make is thinking that people want to see and have a discussion about the entire API landscape. When in reality, people aren’t equipped to have this conversation, and I am just going to overwhelm them. I am working on keeping my mouth shut more and not overloading folks, but this means I also have to get better at sharing a minimal amount of relevant information. But to do this, I need more context.
 

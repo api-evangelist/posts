@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Multiple Dimensions of API Deployment
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-working-on-railroad-2.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-working-on-railroad-2.jpg
 author:
   name: kinlane
 tags:
@@ -21,7 +21,7 @@ These types of APIs often overlap with the world of data APIs, but I want to hig
 
 ### Algorithms and Business Logic
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-working-on-railroad-1.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-working-on-railroad-1.jpg)
 
 The third main bucket of APIs that usually throws a monkey wrench into the overall API deployment conversation is when there is actual code, business logic, and algorithms being deployed as part of an API. Meaning it isn’t just about pulling data from a database or content from a storage location, and you actually need to have code working some magic behind the scenes, doing calculations, and bringing that secret sauce to what our APIs are doing under the hood. Once you have business logic and algorithms in play, the complexity of an API goes up significantly. Source control becomes much more of a reality, and automation of the API deployment process can become much less streamlined, requiring more resources to make happen. This type of business logic and algorithm crunching often operates along side pulling data from a database and pulling content from a CDN or other system, further adding the complexity, and often times leading to API providers just sticking with hand-crafted APIs done by competent programmers.
 
@@ -33,7 +33,7 @@ It is the programming language where the API deployment universe widens in ways 
 
 One layer up from the programming language portion of this is the framework discussion. There are a wealth of frameworks in almost every programming language that will help you quickly bootstrap the deployment of your APIs. Some are simple, while others are complicated. Some are simple, while others are robust. This is an area where your programming language beliefs will drive your decision making process. Whether a frameworks speaks to your API deployment needs will depend on how you view the world through your programming language lens. API frameworks have been around for a long time and aren’t going anywhere soon. They are the favorite way for developers to deploy their APIs, but is something that keeps the API deployment conversation in the hands of the wizards, and not something that is accessible by muggles. Which is one of the reasons why the overall API deployment conversation hasn’t moved much over the years, because the wizards like to keep things within their control and will keep fighting to keep this knowledge and capability out of the hands of normal business folks, and keeping things complicated and abstract is one way we do this.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-working-on-railroad-2.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-working-on-railroad-2.jpg)
 
 ### Compute
 
@@ -47,7 +47,7 @@ I’d say that serverless makes my top list of positive movements forward in the
 
 The database is a cornerstone of the API deployment conversation, and create, read, update, and delete (CRUD) APIs are ubiquitous. I have seen more database API deployment solutions come and go in the last ten years without much forward motion at all. The deployment of an API from a database should have been completely solved by now and just be part of the fabric of the cloud. Overlapping with the serverless conversation we are seeing the serverless model being applied to the database layer, but even with this evolution we haven’t seen the fruits of all of this emerge when it comes to API deployment. The database layer of API deployment shouldn’t still be of concern after all this time and is something I’ll hopefully do a deeper dive into to better understand, because I know these challenges aren’t technical, and they are likely due to business or political friction.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-working-on-railroad-1.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-working-on-railroad-1.jpg)
 
 ### Storage
 
@@ -61,7 +61,7 @@ API gateways have been a fixture of the API space for the last couple of years, 
 
 Another area of fragmentation and expansion that continues to impact the API deployment conversation is at the protocol layer. While HTTP 1.1 APIs are the dominant approach to deploying APIs, HTTP/2 and now HTTP/3 are gaining speed, as well as continued expansion into the TCP, MQTT, and AMQP realms. Like other stops along the API lifecycle this expanding API toolbox is putting pressure on the services and tooling space, expanding their road map, but also making it more complex for their customers to put to work. All of these challenges aren’t going anywhere soon, and the need to deploy multi-speed and multi-protocol API experiences is only going to grow. It is just another reality we have to content with when it comes to realizing our dreams of push button API deployment.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-working-on-railroad-1.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/citizenship-working-on-railroad-1.jpg)
 
 ### Specifications
 
@@ -83,7 +83,7 @@ CI/CD is default when it comes to delivering software in 2020, and that includes
 
 Testing any APIs that are deployed should always be the default. You should never deploy something you don’t have tests written for, and any API deployed into production should always have those test run natively as part of the deployment process. These tests should also be available to developers to execute whenever they need, while also being able to run on a schedule in the cloud from any region around the world. The maturation of the API testing landscape will contribute to us providing push button API deployment solutions in coming years, making all the investment we have been doing over the last five years well worth it. Testing is a critical stop along the API lifecycle, but is also a fundamental ingredient in deploying APIs in a consistent, repeatable, and reliable way.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-working-on-railroad-2.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-working-on-railroad-2.jpg)
 
 ### Integrated Development Environment (IDE)
 

@@ -9,7 +9,7 @@ tags:
   - Tooling
   - Specifications
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-ron-carter-bass.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-ron-carter-bass.jpeg
 ---
 I have strong opinions about how we all make money in this space. Opinions that clash pretty regularly with the status quo, but when you sit down to better understand them, they are much more sane, sustainable, and pragmatic than popular beliefs that exist out there today. For my own clarity, and maybe the one or two other folks who will read this, I wanted to share my beliefs about how we can all make money with our API hustles and not lose our soul, and if you are a bird with similar feathers, maybe we can fly together.
 

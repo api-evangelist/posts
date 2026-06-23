@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Building an API Platform That Will Support the Future
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/Postman-API-Platform-Landscape-2021-2048x1420.png
+  https://kinlane-images.s3.amazonaws.com/shared/Postman-API-Platform-Landscape-2021-2048x1420.png
 tags:
   - Platform
   - Lifecycle

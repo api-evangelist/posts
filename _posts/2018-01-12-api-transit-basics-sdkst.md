@@ -4,8 +4,6 @@ layout: post
 title: '"API Transit Basics: SDKs\t"'
 image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-sdk.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-sdk.png" align="right" width="45%" style="padding: 15px;" />
 <p>Software Development Kits (SDKs), and code libraries in a variety of programming languages have always been a hallmark of API operations. Some API pundits feel that SDKs aren’t worth the effort to maintain, and keep in development alongside the rest of API operations, while others have done well delivering robust SDKs that span very valuable API stacks–consider the AWS JavaScript SDK as an example. Amidst this debate, SDKs continue to maintain their presence, and even have been evolving to support a more continuous integration (CI) and continuous deployment (CD) approach to delivering APIs and the applications that depend on them.
 
 <p>Supporting SDKs in a variety of programming languages can be difficult for some API providers. Luckily there is tooling available that help auto-generate SDKs from API definitions, helping make the SDK part of the conversation a little smoother. Of course, it depends on the scope and complexity of your APIs, but increasingly auto-generated SDKs and code as part of a CI/CD process is becoming the normal way of getting things done, whether you are just making them available to your API consumers, or you are actually doing the consuming yourself.

@@ -2,7 +2,7 @@
 layout: post
 title: Can We Depend On Federal Government APIs?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/data-gov-shutdown.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/data-gov-shutdown.png
 author:
   name: kinlane
 tags:

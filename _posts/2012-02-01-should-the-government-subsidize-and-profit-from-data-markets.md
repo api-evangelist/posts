@@ -4,7 +4,7 @@ title: Should the Government Subsidize and Profit from Data Markets
 url: >-
   http://apievangelist.com/2012/02/01/should-the-government-subsidize-and-profit-from-data-markets/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/nationl-park-ranger.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/nationl-park-ranger.jpg
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
   - Government
   - Markets
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/federal-government/nationl-park-ranger.jpg)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/federal-government/nationl-park-ranger.jpg)
 
 I've been having a lot of discussions with folks around the country about how to make money from data. There is a lot of data being pushed out there from federal, state and city governments, as well as from private companies and individuals--without much evidence of revenue.
 

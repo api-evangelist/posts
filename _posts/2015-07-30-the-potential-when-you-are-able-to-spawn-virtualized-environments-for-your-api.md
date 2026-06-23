@@ -2,7 +2,7 @@
 layout: post
 title: The Potential When You Are Able To Spawn Virtualized Environments For Your API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Citi-Mobile-Challenge.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Citi-Mobile-Challenge.png
 author:
   name: kinlane
 date: 2015-07-30T19:59:21.000Z

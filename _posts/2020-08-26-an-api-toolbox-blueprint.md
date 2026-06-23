@@ -3,7 +3,7 @@ published: true
 layout: post
 title: An API Toolbox Blueprint
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_covid_19_resource_center.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_covid_19_resource_center.png
 author:
   name: kinlane
 tags:
@@ -34,7 +34,7 @@ Once I had published [v2 of the Postman COVID-19 resource center](https://postma
 *   **[Newman](https://postman-toolboxes.github.io/newman/)** - Aggregating the wealth of open source tooling and other resources being built around the Postman Newman ecosystem.
 *   **[API Knowledge](https://github.com/postman-toolboxes/api-knowledge)** \- Providing a single list of the best resources for API knowledge available out there in the space, providing a single resource for folks to tune in.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_us_election_resource_center.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_us_election_resource_center.png)
 
 In addition to these resource centers, [I am working on healthcare, Fintech, and an authentication / authorization resource centers](https://github.com/postman-toolboxes) using the same API toolbox blueprint. The goal is to use the API toolbox blueprint to help flesh out different sets of APIs, open source tooling, specifications, and other resources across a variety of topics and industries. Helping flesh out these specific areas of the API economy, while also refining and rating the collections that are submitted to describe each API, as well the open source tooling being showcased. This is all still a work in progress, but so far here is what I have when it comes to my API toolbox blueprint.
 

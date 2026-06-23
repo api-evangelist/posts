@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Providers Should Maintain Their Own API Definitions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-construction-crane-city.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-construction-crane-city.jpg
 author:
   name: kinlane
 tags:

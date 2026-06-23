@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thinking About An API Proxy To Add Link Header To Each API Response
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hypermedia.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-hypermedia.png
 tags:
   - Proxy
 ---

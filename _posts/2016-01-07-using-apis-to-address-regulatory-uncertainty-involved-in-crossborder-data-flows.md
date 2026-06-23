@@ -4,7 +4,7 @@ title: >-
   Using APIs To Address Regulatory Uncertainty Involved In Cross-Border Data
   Flows
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-government-regulation-uncertainty.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-government-regulation-uncertainty.png
 author:
   name: kinlane
 tags:

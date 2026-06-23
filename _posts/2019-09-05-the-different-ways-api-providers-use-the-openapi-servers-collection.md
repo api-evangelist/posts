@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Different Ways API Providers Use The OpenAPI Servers Collection
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-server-racks-clouds-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-server-racks-clouds-copper-circuit.jpg
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Design Is Not Requirement For All Devs But A Little Empathy Should Be
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-design-empathy.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-design-empathy.png
 atomdate: 2016-09-27T18:00:00.000Z
 tags:
   - Design

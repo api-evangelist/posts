@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Continuing Evolution of The API Gateway
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gate.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-gate.png
 author:
   name: kinlane
 tags:

@@ -4,7 +4,7 @@ title: API Deployment For Non-Developers Using Zapier, Google Docs, and APISpark
 url: >-
   http://apievangelist.com/2014/07/16/api-deployment-for-nondevelopers-using-zapier-google-docs-and-apispark/
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/zapier-google-docs-api-spark.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/zapier-google-docs-api-spark.png
 author:
   name: kinlane
 tags:

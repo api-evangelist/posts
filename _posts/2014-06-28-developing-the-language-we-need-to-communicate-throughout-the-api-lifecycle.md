@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Developing The Language We Need To Communicate Throughout The API Lifecycle
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-comment-bubbles.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-comment-bubbles.png
 author:
   name: kinlane
 tags:

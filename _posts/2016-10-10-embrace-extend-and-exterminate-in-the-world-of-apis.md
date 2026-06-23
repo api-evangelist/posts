@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Embrace, Extend, and Exterminate In The World Of APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-danger-shaky.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-danger-shaky.png
 atomdate: 2016-10-10T18:00:00.000Z
 tags:
   - APIs

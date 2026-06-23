@@ -4,14 +4,14 @@ title: Considerations When Planning Endpoints for your RESTful API
 url: >-
   http://apievangelist.com/2011/10/18/considerations-when-planning-endpoints-for-your-restful-api/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Tag-Cloud-REST-URL.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Tag-Cloud-REST-URL.png
 author:
   name: kinlane
 tags:
   - REST
   - Planning
 ---
-kinlane-productions2.s3.amazonaws.com ![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Tag-Cloud-REST-URL.png)
+kinlane-productions2.s3.amazonaws.com ![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Tag-Cloud-REST-URL.png)
 
 Someone asked me recently for some advice regarding what they should consider when constructing the URL and endpoints for their RESTful API.  I thought I’d share the advice I passed along.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: With Mobile We Are The Product -- With IoT Lets Get A Piece Of The Action
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-revenue-share.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-revenue-share.png
 atomdate: 2016-10-25T20:00:00.000Z
 tags:
   - Mobile

@@ -11,7 +11,7 @@ tags:
   - Management
   - DNS
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/amazon/aws-marketplace-aws-saas-seller-integration-guide.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/amazon/aws-marketplace-aws-saas-seller-integration-guide.png
 ---
 <p></p>I am setting up different APIs using the AWS API Gateway and then publishing them to the AWS Marketplace, as part of [my work with Streamdata.io](http://streamdata.io). I'm getting a feel for what the process is all about, and how small I can distill an API product to be, as part of the AWS Marketplace process. My goal is to be able to quickly define APIs using OpenAPI, then publish them to AWS API Gateway, and leverage the gateway to help me manage the entire business of the service from signup to discovery.
 

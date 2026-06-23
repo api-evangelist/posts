@@ -2,7 +2,7 @@
 layout: post
 title: The 100% Open Source API Platform I Was Looking For
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/WSO2-API-Manager-Logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/WSO2-API-Manager-Logo.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ WSO2 API Manager is a simple, easy to understand API platform, but has all the h
 
 The platform is broken into three main buckets:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/wso2/WSO2-API-Manager-Screenshot-1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/wso2/WSO2-API-Manager-Screenshot-1.png)
 
 *   **API Gateway -** To secure, protect, manage, and scale API calls
 *   **API Publisher -** Enables API providers to easily publish their APIs, share documentation, provision API keys, and gather feedback on APIs features, quality and usage
@@ -32,7 +32,7 @@ They break the API users into what I think are important target segments:
 
 I really like this distinction, because it acknowledges that many APIs are not born out of technical departments, and allows for duel ownership of any API from the technical and business disciplines-- which is very important to the success of an API.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/wso2/WSO2-API-Manager-Screenshot-3.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/wso2/WSO2-API-Manager-Screenshot-3.png)
 
 WSO2 API Manager meets my vision because its a platform that has the identity, proxy and other essential technical pieces, but provides an extensible platform to deliver the other building blocks for a successful API like documentation, code samples, how-tos, forums, etc.
 

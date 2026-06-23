@@ -10,7 +10,7 @@ tags:
   - Overlays
   - Experience
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 [Lorna Mitchell, OpenAPI Specification Maintainer with the OpenAPI Initiative, and overall API experience expert came by again](https://conversations.apievangelist.com/sessions/2024-12-12-lorna-mitchell.html), this time to talk about the intersection of OpenAPI extensions and experience. I would say our conversation also intersects with the last conversation I had with her about OpenAPI overlays, but focuses on the need to extend the spec to meet the needs around specific experiences, which may or may not be better addressed with overlays. It is all a very fascinating and ever evolving aspect of the OpenAPI spec world, and I am thankful to have someone so close to the spec to talk through and learn from at the intersection of OpenAPI extensions, overlays, and API experience.
 

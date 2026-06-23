@@ -9,7 +9,7 @@ tags:
   - JSON
   - Examples
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-docks-water-front-ships-containers.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-docks-water-front-ships-containers.jpg
 ---
 I know enough about JSON Schema to know how much I do not know. I’ve hung out with people using JSON Schema on a daily basis who are completely unaware they are using a standardized schema, and I’ve also hung out with people using JSON Schema on a daily basis who are completely aware of every property, vocabulary, $ref, and use case of the spec. JSON Schema is ubiquitous and critical to our operations, yet so many of us have barely scratched the surface when it comes to putting the specific to work, let alone getting our house in order—we need help.
 

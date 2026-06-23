@@ -3,7 +3,7 @@ published: true
 layout: post
 title: I Am Not Sure You Want Me Reviewing Your AI API Startup
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-fixing-satellite-1.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-fixing-satellite-1.jpeg
 author:
   name: kinlane
 tags:

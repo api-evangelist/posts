@@ -2,7 +2,7 @@
 layout: post
 title: Profiling API Developers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/developer-profiling.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/developer-profiling.jpg
 author:
   name: kinlane
 tags:
@@ -29,7 +29,7 @@ Next I build a quick one sentence description, telling me who they are and what 
 
 Before I’m done looking around their site I take a picture of their home page, so I have a visual reference to go with the developer profile. The home page image can go further than just a logo sometimes.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist/API-Developer-Profiling-1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/API-Developer-Profiling-1.png)
 
 I take all of this information, put it into a database, and connected it to a JQuery Carousel that allows me to watch a slideshow that walks me through the world of my developers, and watch like a TV channel.
 

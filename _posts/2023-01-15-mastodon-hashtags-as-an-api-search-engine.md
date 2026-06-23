@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'Mastodon #HashTags as an API Search Engine'
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-nyc-skyline-from-ferry.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-nyc-skyline-from-ferry.jpg
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: GraphQL Seems Like We Do Not Want To Do The Hard Work Of API Design
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-graphql.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-graphql.png
 atomdate: 2016-08-30T18:00:00.000Z
 tags:
   - Design

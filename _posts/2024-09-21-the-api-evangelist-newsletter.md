@@ -6,7 +6,7 @@ tags:
   - Newsletter
   - Communication
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-old-remington-typewriter.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-old-remington-typewriter.jpg
 ---
 [I am firing up the API Evangelist newsletter again](https://buttondown.com/apievangelist). I switched services and decided to completely reboot my subscriber list from scratch with this new era. I had quite a list from before, but like social media and other areas I feel starting anew helps rebuild in more meaningful ways. The newsletter will be weekly, and this round it will be more of a narrative from me about what I read, wrote, and worked on from the previous week—letting folks cherry pick what matters to them.
 

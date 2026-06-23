@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Technology, Business, Policy, and People of APIs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-arrow-in-ground.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-arrow-in-ground.jpeg
 author:
   name: kinlane
 tags:

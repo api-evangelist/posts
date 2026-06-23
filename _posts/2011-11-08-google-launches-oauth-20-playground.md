@@ -3,13 +3,13 @@ layout: post
 title: Google Launches OAuth 2.0 Playground
 url: http://apievangelist.com/2011/11/08/google-launches-oauth-2.0-playground/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/OAuth2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/OAuth2.png
 author:
   name: kinlane
 tags:
   - OAuth
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/Google-OAuth-2-Playground.png)](https://code.google.com/oauthplayground/)
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/Google-OAuth-2-Playground.png)](https://code.google.com/oauthplayground/)
 
 [Last March Google started support OAuth 2.0 for all of their APIs](http://www.apievangelist.com/2011/03/14/google-api-access-with-oauth-2-0/ "Last March Google support OAuth 2.0"), and has been pushing all developers to switch to using OAuth 2.0 in all applications.
 

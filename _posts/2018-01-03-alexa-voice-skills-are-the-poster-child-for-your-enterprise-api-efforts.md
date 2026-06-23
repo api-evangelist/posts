@@ -4,8 +4,6 @@ layout: post
 title: 'Alexa Voice Skills Are The Poster Child For Your Enterprise API Efforts'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/alexa/alexa-skills.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/alexa/alexa-skills.png" align="right" width="45%" style="padding: 15px;" />
 <p>I was sitting in an IT architectural planning meeting for a large enterprise organization the other day, and one of the presentation from one of the executives contained a complex diagram of their IT infrastructure, with a column to the right showing a simple five step Alexa conversation, asking a specific question from customer. Each question posed as part of the Alexa conversation theoretically accessed a different system, weaving a pretty complex web of IT connections, to enable this simple conversation.
 
 <p>This presentation reflects why I feel that Alexa Skills development poses some interesting questions in the API world, and why the platform becomes interesting to so many business users. It reflects the end goal of why we are doing all of this (in theory), but then quickly illustrates how complicated we’ve actually made all of this, demonstrating how challenging delivering conversational interfaces will be in reality. There are many conversational challenges in enabling our system to be able to talk with humans, but I think many of the most daunting challenges companies will face in coming years will be to actually get at the right data to provide a relevant answer to questions poised in voice, bot, and other conversationally-enabled solutions.

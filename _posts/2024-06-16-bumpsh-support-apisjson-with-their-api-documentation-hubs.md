@@ -9,7 +9,7 @@ tags:
   - APIs.json
   - Hubs
   - Catalogs
-image: https://kinlane-productions2.s3.amazonaws.com/bump-apis-json.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bump-apis-json.png
 ---
 I was pleased to see the good folks over at [Bump.sh](https://bump.sh/) have adopted [APIs.json](https://apisjson.org/) as the discovery format for their API documentation hubs. They have a nice write-up on how to [Make your APIs Discoverable with APIs.json](https://bump.sh/blog/make-your-apis-discoverable-with-apis-json), walking through how APIs.json works and how it is automatically generated as part of your API documentation hub. The article is written by Phil Sturgeon, which I am thankful for Bump convincing Phil to step away from tree planting for a few to showcase their use of my API discovery format.
 

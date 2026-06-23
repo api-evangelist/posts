@@ -9,7 +9,7 @@ tags:
   - Policies
   - Platform
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-central-park-winter-walkway.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-central-park-winter-walkway.jpeg
 ---
 This is one of my oldest API governance phrases, and my wife just reminded me after listening to API blah blah blah during a couple back to back calls, that I need to write a blog post titled—-Good API governance is just guidance. It sounds nice rolling off the tongue, but it also makes a ton of sense on the ground in enterprises. Whether you are governing APIs or a country, governing with rules will only get you so far, and seeing API governance as about guiding teams who are producing APIs will set a much healthier tone for your work. The current tone of API governance is very focused on API governance rules using Spectral and other formats, then automating those rules as part of CI/CD pipelines, whe everyone really should be focusing on guiding teams forward by enriching rules with the following.
 

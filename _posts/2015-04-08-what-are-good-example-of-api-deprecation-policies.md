@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Are Good Example Of API Deprecation Policies
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-skull-crossbones.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-skull-crossbones.png
 author:
   name: kinlane
 tags:

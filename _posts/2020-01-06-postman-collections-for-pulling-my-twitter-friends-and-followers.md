@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Postman Collections For Pulling My Twitter Friends And Followers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/twitter_home_page_friends_followers.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twitter_home_page_friends_followers.png
 author:
   name: kinlane
 tags:

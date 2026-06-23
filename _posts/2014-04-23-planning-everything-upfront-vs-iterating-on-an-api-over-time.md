@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Planning Everything Upfront vs Iterating On An API Over Time
-image: https://s3.amazonaws.com/kinlane-productions2/bw-planning.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/planning-everything-upfront-vs-iterating-on-an-api-over-time.png
 author:
   name: kinlane
 tags:

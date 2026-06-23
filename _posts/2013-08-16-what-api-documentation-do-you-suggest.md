@@ -2,7 +2,7 @@
 layout: post
 title: What API Documentation Do You Suggest?
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Swagger-Screenshot-1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Swagger-Screenshot-1.png
 author:
   name: kinlane
 tags:

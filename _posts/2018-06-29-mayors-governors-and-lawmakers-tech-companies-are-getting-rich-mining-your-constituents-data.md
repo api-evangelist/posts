@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Mayors, Governors, And Lawmakers: Tech Companies Are Getting Rich Mining Your Constituents Data'
-image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/64_99_800_500_0_max_0_-5_-1.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/mayors-governors-and-lawmakers-tech-companies-are-getting-rich-mining-your-constituents-data.png
 ---
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/64_99_800_500_0_max_0_-5_-1.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p>It has been a fascinating and eye opening experience sitting at the intersection of tech startups and the web, mobile, and device applications they’ve built over the last decade. In 2010 I was captivated by the power of APIs to deliver resources to developers, and end-users. In 2018, I’m captivated by the power of APIs to mine end-users like they are just a resource, with the assistance of the developer class. A dominant white male class of people who are more than willing to look the other way when exploitation occurs, and make for the perfect “tools” to be exploited by the wealthy investor class.
 
 <p>While I do not have much hope for diversity efforts in tech, or the bro culture waking up, I do have hope for city and state/provincial lawmakers to wake up to the exploitation that is going on. I’ve seen hints of cities waking up to the mining that has been occurring by Facebook and Google over the last decade. The open exploitation and monetization of a city’s and state’s most precious resources–their constituents. While some cities are still swooning over having Amazon set up shop, or Facebook to build a data center, these company’s web, mobile, and device applications have infiltrated their districts been probing, mining, extracting, and shipping value back to offshore corporate headquarters.

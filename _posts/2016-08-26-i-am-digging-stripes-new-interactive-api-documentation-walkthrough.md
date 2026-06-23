@@ -2,7 +2,7 @@
 layout: post
 title: I Am Digging Stripes New Interactive API Documentation Walkthrough
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/stripe-interactive-documentation.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/stripe-interactive-documentation.png
 atomdate: 2016-08-26T18:00:00.000Z
 tags:
   - Documentation
@@ -12,7 +12,7 @@ tags:
 
 The new documentation provides not just a code example of processing a credit card charge, they walk you through accepting a credit card, creating a new customer, charge the card, establish a recurring plan, and establishing a recurring customer subscription.
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/stripe-interactive-documentation.png)](https://stripe.com/docs)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/stripe-interactive-documentation.png)](https://stripe.com/docs)
 
 The walkthrough is simple, informative, and helpful. It helps you understand the concepts at play when integrating with the Stripe API, in a language agnostic way. I was super impressed with the ability to copy, paste, and run the curl commands at the command line, and when I came back to the browser--it had moved to the next step in the walkthrough. 
 

@@ -2,7 +2,7 @@
 layout: post
 title: Including The Twitter Object Nest API As A File Upload API Example
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_13_at_9.17.46_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2016_10_13_at_9.17.46_pm.png
 atomdate: 2016-10-14T16:00:00.000Z
 tags:
   - Twitter

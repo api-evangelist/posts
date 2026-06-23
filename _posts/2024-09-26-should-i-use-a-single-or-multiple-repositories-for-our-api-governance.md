@@ -9,7 +9,7 @@ tags:
   - GitLab
   - BitBucket
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-cell-tower-satellite-dishes.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/green-circuit-cell-tower-satellite-dishes.jpeg
 ---
 I was asked the other day about whether to go with a multiple repository approach or a single repository approach for their API governance effort. This is a question with no right answers, and people who will tell you are wrong no matter which way you choose. It is right there with the mono application vs microservices discussion. It depends on where you prefer your complexity, and how much you empathize with new business and engineering folks who get involved with API operations and have to get up to speed. Whether or not you choose to go with a mono or distributed repo approach to API governance will depend on your enterprise and how teams see the world.
 

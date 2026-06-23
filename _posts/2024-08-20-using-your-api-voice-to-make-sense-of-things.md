@@ -6,7 +6,7 @@ tags:
   - Voice
   - Stories
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-statue-thinking.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-statue-thinking.jpg
 ---
 It is loud down here amongst the APIs. It is hard to hear your own voice over the noise, and after you have many folks tell you that you can’t speak, or heavily edit you when you do speak, you begin to forget what you sounded like back when you had your voice. Your leadership, your coworkers, your partners, your investors, and the industry are all telling you what you should and what you shouldn’t be talking about. It is easy to be quiet, do what you are told, and get lost among the nutrient-free hum of the API economy, eventually forgetting what your voice ever sounded like.
 

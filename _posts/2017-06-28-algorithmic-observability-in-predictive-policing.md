@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Algorithmic Observability In Predictive Policing'
-image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope/stories/crypto-machine-bletchley_copper_circuit.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/algorithmic-observability-in-predictive-policing.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope/stories/crypto-machine-bletchley_copper_circuit.png" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p>As I study the world of APIs I am always on the lookout for good examples of APIs in action so that I can tell stories about them, and help influence the way folks do APIs. This is what I do each day. As part of this work, I am investing as much time as I can into better understanding how APIs can be used to help with algorithmic transparency, and helping us see into the black boxes that often are algorithms.
 
 <p>Algorithms are increasingly driving vital aspects of our world from what we see in our Facebook timelines, to whether or not we would commit a crime in the eyes of the legal system. <a href="http://washingtonmonthly.com/magazine/junejulyaugust-2017/code-of-silence/">I am reading about algorithms being used in policing in the Washington Monthly</a>, and I learned about an important example of algorithmic transparency that I would like to highlight and learn more about. A classic argument regarding why algorithms should remain closed is centered around intellectual property and protecting the work that gives you your competitive advantage–if you share your secret algorithm, your competitors will just steal it. While discussing the predictive policing algorithm, Rebecca Wexler explores the competitive landscape:

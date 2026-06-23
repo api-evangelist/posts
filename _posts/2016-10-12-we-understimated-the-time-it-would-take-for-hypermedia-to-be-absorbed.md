@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We Understimated The Time It Would Take For Hypermedia To Be Absorbed
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-hourglass.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-hourglass.png
 atomdate: 2016-10-12T20:00:00.000Z
 tags:
   - Hypermedia

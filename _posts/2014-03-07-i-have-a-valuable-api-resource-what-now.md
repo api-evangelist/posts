@@ -22,8 +22,6 @@ Anne and Bailey have built a high value web site and API, and recently finished 
 
 Anne and Bailey have some great ideas about how the audio transcription API could be used, and they have some partners who are kicking the tires, understanding what is possible with integrating with Popup Archive API. This is where you start! You harness the ideas, and the early integrations and you tell the story of how the Popup Archive is providing a solution. Tell these stories on the Popup Archive Blog, on the Twitterz, and anywhere else you can find an audience.
 
-[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/pop-up-archive/old+time+radio.jpg)](https://www.popuparchive.org/ "Pop Up Archive")
-
 Then launch a formal idea showcase where you can submit ideas on how the Popup Archie could be put to use, allow people to browse and search the idea showcase and imagine what is possible. Next establish a section for actual case studies, and as partners and other developers successfully integrate, tell these stories as well, but in a more formal way, demonstrating established approaches for putting the Popup Archive API to use—not just the dreamy ideas. 
 
 Next I told them to start monitoring the landscape of where they think their potential users are, find the radio stations, and media outfits who have Twitter accounts. Understand who the audiofiles, archivists, DJs, performers and bloggers who care the most about the audio space. Spend time each week discovering, living and understanding this space, all while you are telling stories about the Popup Archive and its valuable API.

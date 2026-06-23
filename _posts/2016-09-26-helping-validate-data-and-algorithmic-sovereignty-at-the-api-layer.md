@@ -2,7 +2,7 @@
 layout: post
 title: Helping Validate Data And Algorithmic Sovereignty At The API Layer
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/bw_algorithmic_sovereignty.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw_algorithmic_sovereignty.png
 atomdate: 2016-09-26T22:00:00.000Z
 tags:
   - Data

@@ -2,14 +2,14 @@
 published: true
 layout: post
 title: Setting a Baseline API Lifecycle Definition
-image: https://kinlane-productions2.s3.amazonaws.com/api-lifecycle-tag-cloud.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-lifecycle-tag-cloud.png
 tags:
   - Lifecycle
 ---
 
 I find myself on this quest at regular intervals throughout the last decade-—seeking to define what the API lifecycle means. However, this time I am determined to ground myself in a vocabulary and set of visualizations that ground me an my storytelling around the API lifecycle, helping me be more coherent and precise when I talk about delivering APIs. Over the last decade I have worked to define what I would consider over a hundred stops along a lifecycle, but in 2021 I am looking to distill that down into the most meaningful, impactful, and wide reaching approach to describing what the API lifecycle is. To help me stabilizing my storytelling I’ve established this baseline API lifecycle definition.
 
-![](https://kinlane-productions2.s3.amazonaws.com/api-lifecycle-tag-cloud.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-lifecycle-tag-cloud.png)
 ### Publisher Lifecycle
 The first part of the API lifecycle definition is all about the publisher, something I have historically called deployment, but I think publisher provides a cleaner representation of what is happening-defined in a way that makes it inclusive to non-developers, helping make the API lifecycle more accessible to business groups.
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Discovering The Confluent Schema Registry
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stories-new-80-140-800-500-0-max-0--5--5.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/stories-new-80-140-800-500-0-max-0--5--5.jpg
 author:
   name: kinlane
 tags:

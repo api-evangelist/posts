@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Design Consistency Across Amazon Web Services
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/scream-IMG_8494.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/scream-IMG_8494.jpg
 author:
   name: kinlane
 tags:

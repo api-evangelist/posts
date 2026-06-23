@@ -2,7 +2,7 @@
 layout: post
 title: Simple API Design Interface Features
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/restlet_api_design_studio.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/restlet_api_design_studio.png
 atomdate: 2017-04-26T19:00:00.000Z
 tags:
   - Design

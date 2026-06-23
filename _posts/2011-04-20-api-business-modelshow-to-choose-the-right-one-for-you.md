@@ -17,11 +17,7 @@ It is important to break out of the mind-set that your company has to deliver al
 
 For example for [Twitter](http://twitter.com/) the core asset that they distribute via their API is data, in the form of the immense stream of 140 character tweets. They made a decision early in the company history to focus all their resources on this core asset - notwithstanding recent strategy changes where they are trying to re-assert control of more of the Presentation and Logic assets. This means that with the original strategy the complementary assets were Presentation and Logic assets. In these two areas the company would build partnerships to deliver enhanced solutions to meet the diverse needs of Twitter users - a far greater variety that Twitter alone could ever deliver.
 
-[![API Business Model: Core and Complementary Assets](http://www.3scale.net/wp-content/uploads/Biz-Model-Complementary-and-Core-Assets.png)](http://apievangelist.com/?attachment_id=38112)
-
 Let us say that of the two complementary assets, Twitter decided to focus on Presentation, because they realised that it is critical to get mobile client coverage. Then the strategy definition was to power mobile apps. The company defined the specific APIs and a business model that would attract developers to create new mobile front-ends for Twitter. An example of a Twitter partner that leverages the API to deliver a mobile client and fulfil this strategy is [TweetDeck](http://www.tweetdeck.com/):
-
-[![The Business Model for Twitter - TweetDeck](http://www.3scale.net/wp-content/uploads/Biz-Model-Twitter-TweetDeck.png)](http://apievangelist.com/?attachment_id=38082)
 
 ### API business strategy examples
 

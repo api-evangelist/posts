@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Treating All Mobile Application API Usage Like It Is External
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-danger.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-danger.png
 author:
   name: kinlane
 tags:

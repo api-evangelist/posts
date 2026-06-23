@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Expanding the Vocabulary for Run in Postman Buttons
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_12_05_at_4.20.41_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_12_05_at_4.20.41_pm.png
 author:
   name: kinlane
 tags:
@@ -35,7 +35,7 @@ The label “run in” provides a powerful, yet generic wrapper for each collect
 
 This is just the tip of the iceberg when it comes to Postman collection defined API capabilities I need to run, share, and publish with other people. I am regularly answering questions around how to do something with APIs, OpenAPIs, JSON Schema, and other API lifecycle challenges, helping provide a solution as a single collection. I have diverse vocabulary when it comes to how I run my collections and it would be nice to be able to expose the semantics of my APIOps as simple buttons that I could publish in documentation or as part of the storytelling here on my blog.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-cloks-many-of-them.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-cloks-many-of-them.jpg)
 
 ### The Automation of API Capabilities Using Collections
 
@@ -48,7 +48,7 @@ While the semantic of each collection and its underlying requests ands scripts w
 
 I would have to explore how the vocabulary of a button label could be expanded beyond just the semantics of what the collection can do, and consider how the variety of approaches to executing an API capability via a collection might be expressed. Schedules would need to be defined, pipelines indexed and made extensible, and events registered for triggering of web hooks that set each collection + environment into motion. Ultimately I am looking for an embeddable link or button that has a label that describes the entirety of what is possible with each collection, and the method of execution, helping provide a suite of single click capabilities that developers and non-developers can use to automate the world around them. 
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-docks-water-front-ships-containers.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-docks-water-front-ships-containers.jpg)
 
 ### The Observability of API Automation and Orchestration
 
@@ -62,7 +62,7 @@ Right now I can tell you the number of times a collection was viewed or download
 
 I really haven’t done anything groundbreaking here. All I am doing is adding a semantic layer to each collection that helps them convey more meaning to both API provider and consumer. It helps me move beyond just the buffet menu nature of existing reference collections which show API consumers everything that is possible, and then expects them to just go figure it all out. It helps be get more structured in how I am defining the capabilities of my API platform, and share, publish, and articulate those capabilities to consumers. While also letting me better report upon, develop an awareness, and evolve my API strategy to better meet the needs of my consumers, and of course my platform.
 
-![](https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-turing-front-view.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-turing-front-view.jpg)
 
 ### Expanding My API Vocabulary and Then Putting at My Fingertips
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Dimensions That Ground the Conversation
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/citizenship-glass-ball-downtown.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-glass-ball-downtown.jpg
 author:
   name: kinlane
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: REST, Linked Data, Hypermedia, GraphQL, and gRPC
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-tools-school.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-tools-school.png
 atomdate: 2017-03-31T16:00:00.000Z
 tags:
   - Data

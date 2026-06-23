@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Relationship Between Dev Relations And Support
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-connection.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-connection.png
 atomdate: 2017-03-15T16:00:00.000Z
 tags:
   - Support

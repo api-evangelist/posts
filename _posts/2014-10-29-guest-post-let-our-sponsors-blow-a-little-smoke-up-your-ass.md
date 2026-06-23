@@ -2,7 +2,7 @@
 layout: post
 title: 'Guest Post: Let Our Sponsors Blow A Little Smoke Up Your Ass'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/blowing-smoke.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/blowing-smoke.jpg
 author:
   name: kinlane
 tags:

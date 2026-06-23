@@ -4,8 +4,6 @@ layout: post
 title: 'Machine Readable Terms of Service Didn&#039;t Read Applied To APIs Via APIs.json'
 image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/terms-of-service-didnt-read/tos-didnt-read-logo.png
 ---
-
-<p><a href="https://tosdr.org/index.html"><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/terms-of-service-didnt-read/tos-didnt-read-logo.png" alt="" width="325" align="right" /></a>
 <p>I&rsquo;ve long been fascinated by the <a href="https://tosdr.org/index.html">Terms of Service Didn&rsquo;t Read</a> project. i&rsquo;m on the mailing list, and try to make time to stay in tune, but have yet to ever contribute any bandwidth to the EXTREMELY important project, around making sense of the crazy terms of services (TOS), that we agree to in our daily lives.
 <p>I finally found myself at a point where I'm forced to start paying more attention to API terms of service, and hopefully will be able to slice off a little bit of dedicated bandwidth to Terms of Service; Didn&rsquo;t Read. I have two projects that have floated up on my list, and deserve some priority attention.
 <p>First I&rsquo;m applying the TOS Didn't Read work to a side project of mine called <a href="http://reclaimyourdomain.org/">Reclaim Your Domain</a>, which is a project to help me define my digital self, and reclaim some of the content, data and other value I generate on a daily basis online. I&rsquo;m hoping TOS Didn't Read will provide a machine readable moral backbone to the #Reclaim process&mdash;which is a work in progress.

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Many Differences Between Each API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-christianity-under-construction-copper-circuit-square.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/aws-s3-square-christianity-under-construction-copper-circuit-square.jpg
 author:
   name: kinlane
 tags:

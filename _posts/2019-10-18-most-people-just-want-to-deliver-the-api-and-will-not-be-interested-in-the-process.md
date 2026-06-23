@@ -5,7 +5,7 @@ title: >-
   Most People Just Want to Deliver the API and Will Not Be Interested in the
   Process
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/crow_wire.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/crow_wire.jpg
 author:
   name: kinlane
 tags:

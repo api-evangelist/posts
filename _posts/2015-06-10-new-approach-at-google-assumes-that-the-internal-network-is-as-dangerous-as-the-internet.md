@@ -3,7 +3,7 @@ layout: post
 title: >-
   New Approach At Google Assumes That The Internal Network Is As Dangerous As
   The Internet
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-internet-desktop.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-internet-desktop.png
 author:
   name: kinlane
 tags:

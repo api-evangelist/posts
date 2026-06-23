@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Postman Runtime Integrations
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/postman_runtime.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/postman_runtime.jpeg
 author:
   name: kinlane
 tags:

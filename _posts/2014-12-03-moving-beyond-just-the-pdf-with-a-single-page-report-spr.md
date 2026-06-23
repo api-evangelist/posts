@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving Beyond Just The PDF With A Single Page Report (SPR)
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-data-template.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-data-template.png
 author:
   name: kinlane
 tags:

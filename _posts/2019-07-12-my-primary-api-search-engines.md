@@ -8,7 +8,7 @@ tags:
   - Search
   - Definitions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-stories-crypto-machine-bletchley-copper-circuit.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-stories-crypto-machine-bletchley-copper-circuit.png
 author:
   name: kinlane
 ---

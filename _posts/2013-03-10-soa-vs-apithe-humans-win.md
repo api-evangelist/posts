@@ -2,7 +2,7 @@
 layout: post
 title: SOA vs API - The Humans Win
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/human-cutout.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/human-cutout.jpg
 author:
   name: kinlane
 tags:

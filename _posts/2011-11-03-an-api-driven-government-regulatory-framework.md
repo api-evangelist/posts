@@ -2,7 +2,7 @@
 layout: post
 title: An API Driven Government Regulatory Framework
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/US-Capitol-Building.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/US-Capitol-Building.jpg
 author:
   name: kinlane
 tags:

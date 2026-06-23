@@ -11,7 +11,7 @@ tags:
   - Versions
   - Specifications
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-cloks-many-of-them.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-cloks-many-of-them.jpg
 ---
 I am working my way through each of the moving parts of my API governance for HTTP APIs, showcasing the policy, rules, and guidance I employ for each dimension. This work has two purposes, 1) it helps me further refine each of the machine-readable policies, rules, and guidance which are used across the sites and tools I use for API governance, and 2) helps me generate more attention to my API governance services. I find that most people doing startups right now keep the rules behind governance close to their chest, and I feel pretty strong that this stuff has to be in the API Commons (literally).
 

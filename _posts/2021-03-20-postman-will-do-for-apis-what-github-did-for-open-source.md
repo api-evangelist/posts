@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Postman Will Do for APIs What Github Did for Open Source
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/braceros-domingo-ulloa-turing-front-view.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-turing-front-view.jpg
 tags:
   - Strategy
   - Operations

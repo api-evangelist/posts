@@ -3,7 +3,7 @@ layout: post
 title: >-
   What We Do In The API Community Influences How The Rest of The World Is Making
   Change
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-global.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-global.png
 author:
   name: kinlane
 tags:

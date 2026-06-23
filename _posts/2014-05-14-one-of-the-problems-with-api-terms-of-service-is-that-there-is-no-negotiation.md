@@ -1,7 +1,7 @@
 ---
 layout: post
 title: One Of The Problems With API Terms of Service Is That There Is No Negotiation
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-handshake.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-handshake.png
 author:
   name: kinlane
 date: 2014-05-14T22:57:40.000Z

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A GitOps Bundled Approach to Managing Your OpenAPI
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-docks-water-front.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-docks-water-front.jpg
 author:
   name: kinlane
 tags:

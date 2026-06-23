@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Design-First, Prototype-First, or Code-First APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/docks-docks-light-dali.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/docks-docks-light-dali.jpg
 tags:
   - Design
   - Prototype

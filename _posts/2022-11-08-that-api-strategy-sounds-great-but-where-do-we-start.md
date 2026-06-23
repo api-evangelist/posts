@@ -3,7 +3,7 @@ published: true
 layout: post
 title: That API Strategy Sounds Great, but Where Do We Start?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/norman-rockwell-ruby-bridges-city-clouds-waterfront.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/norman-rockwell-ruby-bridges-city-clouds-waterfront.jpg
 author:
   name: kinlane
 tags:

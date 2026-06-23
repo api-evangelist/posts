@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Breaking OpenAI OpenAPI Into 10 Separate OpenAPIs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-containers-white.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-containers-white.jpg
 author:
   name: kinlane
 tags:

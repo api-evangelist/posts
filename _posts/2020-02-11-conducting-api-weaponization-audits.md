@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Conducting API Weaponization Audits
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/nazi-invasion-surveillance-cameras_36569244062_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/nazi-invasion-surveillance-cameras_36569244062_o.jpg
 author:
   name: kinlane
 tags:

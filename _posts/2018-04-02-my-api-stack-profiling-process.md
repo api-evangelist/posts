@@ -8,7 +8,7 @@ tags:
   - Discovery
   - Definitions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-stack/logos/the-api-stack-entities-snapshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-stack/logos/the-api-stack-entities-snapshot.png
 ---
 <p></p>I am escalating conversations I'm having with folks regarding how I profile and understand APIs as part of my [API Stack](http://theapistack.com) work. It is something I've been evolving for 2-3 years, as I struggle with different ways to attack and provide solutions within the area of API discovery. I want to understand what APIs exist out there as part of my industry research, but along the way I want to also help others find the APIs they are looking for, while also helping API providers get their APIs found in the first place. All of this has lead me to establish a pretty robust process for profiling API providers, and document what they are doing.
 

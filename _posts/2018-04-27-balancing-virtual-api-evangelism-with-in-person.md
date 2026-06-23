@@ -9,7 +9,7 @@ tags:
   - Events
   - Travel
   - Speaking
-image: https://s3.amazonaws.com/kinlane-productions2/IMG_6067.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/IMG_6067.jpg
 ---
 <p></p>I haven't published any stories this week on API Evangelist. I've been on the road in Lyon and Paris, France. Giving talks, and conducting workshops about my API lifecycle and governance work. Often times when I go on the road I try to pre-populate the blog with stories, but I've been so busy lately with travel and projects that I just didn't have the time. Resulting in the blog not resembling its usual stream of API rants and stories. While this bothers me, I understand the balance between virtual API evangelism and the need to be present in-person from time to time.
 

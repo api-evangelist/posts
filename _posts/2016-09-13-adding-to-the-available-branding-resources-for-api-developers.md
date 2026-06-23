@@ -2,7 +2,7 @@
 layout: post
 title: Adding To The Available Branding Resources For API Developers
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/design_resources__spotify_developer.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/design_resources__spotify_developer.png
 atomdate: 2016-09-13T16:00:00.000Z
 tags:
   - Branding

@@ -10,7 +10,7 @@ tags:
   - Organization
   - Lifecycle
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-lane-1-2-3.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/eugenics-lane-1-2-3.jpeg
 ---
 Spectral has the ability to extend API governance rulesets by layering on the core default set that comes with additional layers.  If you have a strategy for how you craft your rulesets, and a layered approach to applying them you can start to get more sophisticated in how you apply and enforce API governance. However, there is no way to define the metadata, taxonomy, or other bounded context for rulesets making them pretty difficult to orchestrate in any meaningful way across the API lifecycle—-it tends to be all or nothing. This reality has pushed me to organize my rules in other more meaningful ways, providing more context to how and when Spectral rules get applied, and reducing the information overload for teams producing APIs.
 

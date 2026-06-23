@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I was creating a Postman collection for the 23andMe API. The 23andMe API is still available, despite the company pulling back somewhat when it comes to acces...">
-    <meta property="og:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/23andme_request_1.png">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/23andme_request_1.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -42,7 +42,7 @@
     <meta name="twitter:title" content="A Portable 23andMe API Sandbox">
     
     <meta name="twitter:description" content="I was creating a Postman collection for the 23andMe API. The 23andMe API is still available, despite the company pulling back somewhat when it comes to acces...">
-    <meta name="twitter:image" content="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/23andme_request_1.png">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/23andme_request_1.png">
 
     <!-- JSON-LD Structured Data -->
     
@@ -52,7 +52,7 @@
       "@type": "Article",
       "headline": "A Portable 23andMe API Sandbox",
       "description": "I was creating a Postman collection for the 23andMe API. The 23andMe API is still available, despite the company pulling back somewhat when it comes to acces...",
-      "image": "http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/23andme_request_1.png",
+      "image": "https://kinlane-images.s3.amazonaws.com/apievangelist/blog/23andme_request_1.png",
       "datePublished": "2019-12-17T00:00:00-05:00",
       "dateModified": "2019-12-17T00:00:00-05:00",
       "author": {
@@ -65,7 +65,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -363,7 +363,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -393,7 +393,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -727,7 +727,7 @@
       </div>
 
       
-      <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/23andme_request_1.png" alt="A Portable 23andMe API Sandbox" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/23andme_request_1.png" alt="A Portable 23andMe API Sandbox" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -737,19 +737,19 @@
 
 <p>I went ahead and did this for the 23andMe API. Their documentation is still available, and there are examples for each individual path. I wanted to create a Postman collection for the API to round of my collection of API definitions, and since their documentation had examples, I thought I’d demonstrate how to create portable API sandboxes using Postman, showing how you can easily allow anyone to mock your API and work with it without actually an API key. To begin, all I needed was a complete reference collection for the 23andMe API, documenting all the available paths.</p>
 
-<p><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/23andme_request_1.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/23andme_request_1.png" alt="" /></p>
 
 <p>Once I have each API path defined as a single request within the complete reference collection I just have to make sure each individual path has one or more API examples, showing an example of what each response will look like in production. Providing all of the details the mock server will need to return a response when a request is made to each individual path.</p>
 
-<p><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/23andme_example_1.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/23andme_example_1.png" alt="" /></p>
 
 <p>For a couple of the API paths 23andMe provided multiple examples, demonstrating what you would get back if you changed up query parameters for the path. I made sure and included all of the examples provided, giving the mock server more robustness, and reflecting what you can get back with each response in a live environment.  I have <a href="https://github.com/api-evangelist/23andme/blob/master/23andme-postman-collection.json">the Postman collection for 23andMe published to GitHub</a>, which you can import into your Postman, and generate a mock server by managing the collection.</p>
 
-<p><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/23andme_generate_mock.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/23andme_generate_mock.png" alt="" /></p>
 
 <p>Once you created the mock API using the 23andMe Postman collection you can create an environment for 23andMe, add a variable with the key of 23andme_base_url, and replace the current value with the URL of your mock API server. Then each of the API paths for the 23andMe API will work, returning examples for each of the responses. </p>
 
-<p><img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/23andme_environment.png" alt="" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/23andme_environment.png" alt="" /></p>
 
 <p>When working with the collection, if you look at that <a href="https://documenter.postman.com/view/35240/SWECWaZy?version=latest#57e1abc7-c774-4ab5-a25c-a7cf4c3fd609">Get Report</a> and <a href="https://documenter.postman.com/view/35240/SWECWaZy?version=latest#09d49d9f-df5e-4c3d-bf6b-98d57b361f31">Get Profile Report</a> requests, you’ll notice there are two examples available. One for wellness, and another for genetic weight. All you have to do is change the parameter value and the mock server will return the example with corresponding parameter value. Demonstrating how you can publish as many examples as you need, demonstrating all of the possible API responses. While it is a static mock, you can get pretty creative when it comes how you define what is possible, publishing as many dimensions as you’d like when it comes to firing up the imagination of your potential consumers—without giving away any access to data you do not wish to share.</p>
 

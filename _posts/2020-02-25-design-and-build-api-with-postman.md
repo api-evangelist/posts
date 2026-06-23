@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Design and Build API with Postman
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/braceros-domingo-ulloa-construction-crane-city.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/braceros-domingo-ulloa-construction-crane-city.jpg
 author:
   name: kinlane
 tags:

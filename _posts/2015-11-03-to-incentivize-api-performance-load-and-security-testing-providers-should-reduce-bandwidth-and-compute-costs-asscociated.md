@@ -3,7 +3,7 @@ layout: post
 title: >-
   To Incentivize API Performance, Load, And Security Testing, Providers Should
   Reduce Bandwidth And Compute Costs Asscociated
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-low-price.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-low-price.png
 author:
   name: kinlane
 date: 2015-11-03T19:55:29.000Z

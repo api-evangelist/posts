@@ -104,7 +104,7 @@ In the category of location based social network I was investigating **[Foursqu
 *   **Merchant Platform** - The Merchant Platform allows developers to write applications that help registered venue owners manage their foursquare presence and specials
 *   **Venues Platform** - The Venues Platform allows developers to search for places and access a wealth of information about them, including addresses, popularity, tips, and photos
 
-After Foursquare you leave social, getting into the places data world, with popular player **[SimpleGeo](https://simplegeo.com/)**. Similar to Gowalla I was going to overlook SimpleGeo, with their recent [acquisition by Urban Airship](http://blog.simplegeo.com/2011/10/31/taking-our-relationship-with-urban-airship-to-a-cruising-altitude/ "acquisition by Urban Airship"), but I think SimpleGeo is still an important enough of a player, that we should still consider them in the game. SimpleGeo has four distinct web services for location and places:[![](https://kinlane-productions2.s3.amazonaws.com/hyp3rl0cal/simplegeo/simplegeo_logo_200.jpg)](https://simplegeo.com/)
+After Foursquare you leave social, getting into the places data world, with popular player **[SimpleGeo](https://simplegeo.com/)**. Similar to Gowalla I was going to overlook SimpleGeo, with their recent [acquisition by Urban Airship](http://blog.simplegeo.com/2011/10/31/taking-our-relationship-with-urban-airship-to-a-cruising-altitude/ "acquisition by Urban Airship"), but I think SimpleGeo is still an important enough of a player, that we should still consider them in the game. SimpleGeo has four distinct web services for location and places:
 
 *   **SimpleGeo Storage** - Storage of data in SimpleGeo system
 *   **SimpleGeo Features** - Features in SimpleGeo represent real-world places such as businesses, regions, or US states
@@ -143,7 +143,7 @@ Then moving out of pure data players **[Yelp](https://www.yelp.com/developers/d
 *   **Search API** - Searches for Businesses
 *   **Business API** - Returns full details of businesses
 
-Another player in the space is **[Fwix](http://fwix.com/)**. Fwix has a different approach to places, trying to geotag the web. Fwix offers six places and location APIs:[![](https://kinlane-productions2.s3.amazonaws.com/hyp3rl0cal/fwix/fwix_logo_300.jpg)](http://fwix.com/)
+Another player in the space is **[Fwix](http://fwix.com/)**. Fwix has a different approach to places, trying to geotag the web. Fwix offers six places and location APIs:
 
 *   **Geotagger API** - Returns places geotagged to a given web page
 *   **Content API** - Returns geotagged content in or near a location

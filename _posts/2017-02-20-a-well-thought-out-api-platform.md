@@ -2,7 +2,7 @@
 layout: post
 title: A Well Thought Out API Platform
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_platform_upside_down.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_platform_upside_down.png
 atomdate: 2017-02-20T17:00:00.000Z
 tags:
   - Platform

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some Examples of API Integration Pages In The Wild
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gears.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-gears.png
 author:
   name: kinlane
 tags:
@@ -12,11 +12,11 @@ One pattern I'm seeing emerge on some of the API platforms I’m watching from w
 
 A recent one that I’ve seen out in the wild is from web development annotation platform [Usersnap](https://usersnap.com), showing the platforms they connect to:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/usersnap/usersnap-integrations.png)](https://usersnap.com/connect)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/usersnap/usersnap-integrations.png)](https://usersnap.com/connect)
 
 The second I came across was from [OpsGenie](http://www.opsgenie.com/), the alerts and notification platform, showcasing all of the common platform they work with:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/opsgenie/opsgenie-integrations.png)](http://www.opsgenie.com/integrations)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/opsgenie/opsgenie-integrations.png)](http://www.opsgenie.com/integrations)
 
 I’m going to add an integrations page to my list of [API management building blocks for API providers](http://management.apievangelist.com/building-blocks.html) to consider. An integration page can showcase a wide range of integrations that [introduce reciprocity into platform operations](http://reciprocity.apievangelist.com). Integrations could start with using Zapier, but could also be seamless, providing plug and play connectors for users. I would say integrations goes right up to what I call platform development kits (PDK), which would be open source code that developers could use to get up and running on 3rd party platforms.
 

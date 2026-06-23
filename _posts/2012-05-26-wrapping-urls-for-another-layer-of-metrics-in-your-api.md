@@ -2,7 +2,7 @@
 layout: post
 title: Wrapping URLs for Another Layer of Metrics in Your API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/turn-long-short.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/turn-long-short.jpg
 author:
   name: kinlane
 tags:

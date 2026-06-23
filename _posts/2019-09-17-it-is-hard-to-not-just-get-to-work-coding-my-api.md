@@ -3,7 +3,7 @@ published: true
 layout: post
 title: It Is Hard To Not Just Get To Work Coding My API
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/aws-s3-square-64-132-800-500-0-max-0--5--1-square.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/aws-s3-square-64-132-800-500-0-max-0--5--1-square.jpg
 author:
   name: kinlane
 tags:

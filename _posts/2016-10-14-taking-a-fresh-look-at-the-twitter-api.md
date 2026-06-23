@@ -2,7 +2,7 @@
 layout: post
 title: Taking A Fresh Look At The Twitter API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/twitter_developers.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twitter_developers.png
 atomdate: 2016-10-14T20:00:00.000Z
 tags:
   - Twitter

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Content Negotiation for APIs and the Web
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/nazi_invasion_gears_pipes_plumbing.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/nazi_invasion_gears_pipes_plumbing.jpg
 author:
   name: kinlane
 tags:

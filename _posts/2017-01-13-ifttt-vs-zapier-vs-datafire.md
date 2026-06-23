@@ -2,7 +2,7 @@
 layout: post
 title: IFTTT vs Zapier vs DataFire
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/data_fire_bulb.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/data_fire_bulb.png
 atomdate: 2017-01-13T17:00:00.000Z
 tags:
   - Data

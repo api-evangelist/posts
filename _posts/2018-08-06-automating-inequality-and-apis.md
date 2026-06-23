@@ -8,7 +8,7 @@ tags:
   - Politics of APIs
   - Privacy
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/apistrat-2018/apistrat-virginia.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/apistrat-2018/apistrat-virginia.png
 ---
 <p></p>_As we prepare for [APIStrat in Nashville, TN this September 24th through 26th](https://events.linuxfoundation.org/events/apistrat-2018/program/), I asked my partner in crime Audrey Watters ([@audreywatters](https://twitter.com/audreywatters)) to write a post on the significance of Virginia Eubanks, the author of Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor keynoting the conference--she shared this story, of why her work is so significant, and why it is important for the API community to tune in._
 

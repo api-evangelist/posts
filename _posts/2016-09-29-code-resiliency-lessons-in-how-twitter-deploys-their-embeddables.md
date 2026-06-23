@@ -2,7 +2,7 @@
 layout: post
 title: Code Resiliency Lessons In How Twitter Deploys Their Embeddables
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/twitter_widgets_js_depoly_arch_v2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twitter_widgets_js_depoly_arch_v2.png
 atomdate: 2016-09-29T20:00:00.000Z
 tags:
   - Twitter

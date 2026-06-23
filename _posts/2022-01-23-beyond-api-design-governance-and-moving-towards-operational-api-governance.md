@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Beyond API Design Governance and Moving Towards Operational API Governance
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/uncle-sam-supreme-court_36341562380_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-supreme-court_36341562380_o.jpg
 tags:
   - Design
   - Governance

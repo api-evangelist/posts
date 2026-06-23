@@ -3,7 +3,7 @@ layout: post
 title: >-
   Instead of Just Discussing Via Phone You Should Publish Your API Goings On To
   Your Blog
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-old-phone.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-old-phone.png
 atomdate: 2016-08-17T00:00:00.000Z
 tags:
   - Blog

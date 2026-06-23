@@ -2,7 +2,7 @@
 layout: post
 title: API Driven Twitter Advertising
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Twitter-Ads.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Twitter-Ads.png
 author:
   name: kinlane
 tags:
@@ -13,19 +13,19 @@ I’m playing around with my [Twitter Advertising](https://ads.twitter.com "Twit
 
 **Step 1** - I can choose the locations where I want to reach users anywhere in the world, in specific countries only or in specific US cities:
 
-![](http://kinlane-productions2.s3.amazonaws.com/twitter/advertising/Twitter-Advertising-1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/advertising/Twitter-Advertising-1.png)
 
 **Step 2** - I can promote my Twitter account prominently in the who to follow section to users that are most likely to be interested in my account--I only pay for new followers that I gain:
 
-![](http://kinlane-productions2.s3.amazonaws.com/twitter/advertising/Twitter-Advertising-2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/advertising/Twitter-Advertising-2.png)
 
 **Step 3** - I can promote my Tweets, prominently displaying them to other users with similar interests:
 
-![](http://kinlane-productions2.s3.amazonaws.com/twitter/advertising/Twitter-Advertising-3.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/advertising/Twitter-Advertising-3.png)
 
 **Step 4** \- Then plug in my credit cards to pay for the ad spend I setup for my promoted account or tweets:
 
-![](http://kinlane-productions2.s3.amazonaws.com/twitter/advertising/Twitter-Advertising-4.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/advertising/Twitter-Advertising-4.png)
 
 Twitter Advertising is pretty straightforward. I wouldn’t call it anything revolutionary. But it is implemented simply, making it work for the masses. I could see businesses adopting it right alongside Google AdWords.
 

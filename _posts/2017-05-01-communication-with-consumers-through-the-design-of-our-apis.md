@@ -2,7 +2,7 @@
 layout: post
 title: Communication With Consumers Through The Design Of Our APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/the_sunset_http_header.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/the_sunset_http_header.png
 atomdate: 2017-05-01T19:00:00.000Z
 tags:
   - Design

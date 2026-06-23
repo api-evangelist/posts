@@ -3,7 +3,7 @@ published: true
 layout: post
 title: I Will Be At The API Specifications Conference In Vancouver Next Month
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/events/asc-vancouver-2019/asc-2019-vancouver.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/asc-vancouver-2019/asc-2019-vancouver.png
 author:
   name: kinlane
 tags:

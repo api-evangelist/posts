@@ -1,7 +1,7 @@
 ---
 layout: post
 title: State of Popular Database Platforms And Their Native API Publishing Features
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-database-new.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-database-new.png
 author:
   name: kinlane
 tags:

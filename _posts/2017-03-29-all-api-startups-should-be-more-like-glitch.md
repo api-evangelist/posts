@@ -2,7 +2,7 @@
 layout: post
 title: All API Startups Should Be More Like Glitch
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/glitch_fishes.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/glitch_fishes.png
 atomdate: 2017-03-29T19:00:00.000Z
 tags:
   - Startups

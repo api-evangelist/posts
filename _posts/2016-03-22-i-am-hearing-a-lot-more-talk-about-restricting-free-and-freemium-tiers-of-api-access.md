@@ -3,7 +3,7 @@ layout: post
 title: >-
   I Am Hearing A Lot More Talk About Restricting Free And Freemium Tiers Of API
   Access
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-api-closed.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-api-closed.png
 tags:
   - Access
 ---

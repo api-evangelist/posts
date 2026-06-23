@@ -2,7 +2,7 @@
 layout: post
 title: Regional Availability When It Comes To API Access
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/azure_regions.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/azure_regions.png
 atomdate: 2017-05-08T22:00:00.000Z
 tags:
   - Access

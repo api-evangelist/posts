@@ -3,7 +3,7 @@ layout: post
 title: >-
   Opportunities For Non-Programmers To Put APIs To Work For Them Is Picking Up
   Speed This Year
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-speedometer.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-speedometer.png
 author:
   name: kinlane
 tags:

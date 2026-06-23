@@ -2,7 +2,7 @@
 layout: post
 title: Crowdsourced API Terms of Service
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/developer-rights.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/developer-rights.jpeg
 author:
   name: kinlane
 date: 2012-08-30T18:08:27.000Z
@@ -17,7 +17,7 @@ To seed the process, we went out and reviewed a number of the popular API terms 
 
 *   Business model (include pricing, rate limits and quotas)
 *   Terms change conditions
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/terms-of-service/API-Terms-of-Service-Didnt-Read.png)*   Developers restrictions
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/terms-of-service/API-Terms-of-Service-Didnt-Read.png)*   Developers restrictions
 *   End-user Privacy
 *   API Data ownership
 *   Data portability

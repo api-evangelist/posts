@@ -2,7 +2,7 @@
 layout: post
 title: In The End API Providers Will Only Sell Bandwidth
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/apicultur-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apicultur-logo.png
 author:
   name: kinlane
 tags:

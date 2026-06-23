@@ -9,7 +9,7 @@ tags:
   - Mapping
   - Products
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 I recently sat down for a conversation with [Luke Seelenbinder, Founder & CEO of Stadia Maps](https://conversations.apievangelist.com/sessions/2024-10-24-luke-seelenbinder-stadia-maps.html) to talk about taking on Google Maps with a more sensible and affordable mapping solution. As I learned more about the Stadia Maps journey I found ourselves talking about product-led motions for companies, and what the meaning of APIs as a product was. Luke and Stadia maps reflects the real world businesses who are doing APIs that I am looking to talk with, because they aren't playing in the startup hustle, and actually are building a real-world business that is in tune with and responds to actual market forces. 
 

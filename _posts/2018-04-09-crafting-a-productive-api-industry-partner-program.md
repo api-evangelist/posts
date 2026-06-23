@@ -4,8 +4,6 @@ layout: post
 title: 'Crafting A Productive API Industry Partner Program'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-logos/api-evangelist-red-seal.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-logos/api-evangelist-red-seal.png" width="45%" align="right" style="padding: 15px;" />
 <p>I struggle with partner relationships. I’ve had a lot of partners operating API Evangelist over the years. Some good. Some not so good. And some amazing! You know who you are. It’s tough to fund what I do as the API Evangelist. It’s even harder to fund who I am as Kin Lane. I’ve revamped my approach to partnering several times now trying to find the right formula for me, my partners, and for my readers. As the partner requests pile up, and I fall short for some of my existing partners, while delivering as expected for others, it is time for me to take another crack at shaping my partner program.
 
 <p><strong>A Strong Streamdata.io Partnership Base</strong><br />

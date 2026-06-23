@@ -2,7 +2,7 @@
 layout: post
 title: API Transparency Report as Essential Building Block
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-transparency-report.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tag-cloud-transparency-report.jpg
 author:
   name: kinlane
 date: 2013-02-26T19:13:13.000Z
@@ -25,7 +25,7 @@ This letter states that:
 
 The Skype effort provides a beginning list of items all transparency reports should provide:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/electronic-frontier-foundation/electronic-frontier-foundation-logo.gif)](https://www.eff.org/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/electronic-frontier-foundation/electronic-frontier-foundation-logo.gif)](https://www.eff.org/)
 
 1.  Quantitative data regarding the release of user information to third parties, disaggregated by the country of origin of the request, including the number of requests made by governments, the type of data requested, the proportion of requests with which it complied — and the basis for rejecting those requests it does not comply with.
 2.  Specific details of all user data a company currently collects, and retention policies.

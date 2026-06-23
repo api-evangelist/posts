@@ -5,7 +5,7 @@ title: >-
   On Your Blog
 sourceurl: >-
   http://apievangelist.com/2015/04/08/encouraging-feedback-by-thinking-through-your-api-road-map-out-in-the-open-on-your-blog/
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-feedback-loop.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-feedback-loop.png
 author:
   name: kinlane
 tags:

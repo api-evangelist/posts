@@ -4,7 +4,7 @@ title: >-
   I Will Be Moderating Open Data And API Workshop Discussion With  GSA, DISA,
   DNI, NASA And White House Next Week In Maryland
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/moc-2014/2014-moc-management-of-change.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/moc-2014/2014-moc-management-of-change.png
 author:
   name: kinlane
 tags:

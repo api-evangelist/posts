@@ -2,7 +2,7 @@
 layout: post
 title: Tracking On The Red Flags For API Monetization
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-dollar-signs-red.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-dollar-signs-red.jpg
 author:
   name: kinlane
 tags:

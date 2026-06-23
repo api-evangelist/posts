@@ -8,7 +8,7 @@ tags:
   - Documentation
   - Visualizations
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/webhose/webhose-io-visual-documentation.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/webhose/webhose-io-visual-documentation.png
 ---
 <p></p>Interactive API documentation is nothing new. We've had Swagger UI, and other incarnations for over five years now. We also have API explorers, and full API lifecycle client solutions like Postman to help us engage with APIs, and be able to quickly see responses from the APIs we are consuming. In my effort to keep pushing forward the API documentation conversation I've  been [beating the drum for more visual solutions to be baked into our interactive documentation for a while now](http://apievangelist.com/2014/06/17/adding-data-visualization-layer-to-interactive-api-documentation/), encouraging providers to make the responses we receive much more meaningful, and intuitive for consumers.
 

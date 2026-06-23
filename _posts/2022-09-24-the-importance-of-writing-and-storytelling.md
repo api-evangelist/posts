@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Importance of Writing and Storytelling
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/gypsymosaic-gypsy-eyes-dark-dali.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/gypsymosaic-gypsy-eyes-dark-dali.jpg
 author:
   name: kin
 tags:

@@ -8,8 +8,6 @@ tags:
   - Open Source
   - API Evangelist
 ---
-
-<p><a href="http://www.apicur.io/"><img style="padding: 15px;" src="https://kinlane-images.s3.amazonaws.com/apievangelist/apicurio/apicurios-studio-methods.png" align="right" width="40%" /></a></p>
 [I've been wanting someone to create an open source API editor for some time](http://apievangelist.com/2015/08/13/a-common-open-source-api-design-editor-is-needed-for-api-service-providers/), and now the folks over at Red Hat / 3Scale have delivered one [called Apicurio](http://www.apicur.io/). It is a web-based Angular2 app, for visually designing your APIs using OpenAPI, with a Github focus.
 
 [Apicurio is that blend of visual designer, and code view that I was hoping for, letting you manage all your paths, and definitions using OpenAPI via Github](http://www.apicur.io/). It doesn't have all [the bells and whistles I'd love to see in my perfect API design editor](http://apievangelist.com/2014/06/25/if-i-could-design-my-perfect-api-design-editor/), but they are just getting going, and I think it is an excellent start.

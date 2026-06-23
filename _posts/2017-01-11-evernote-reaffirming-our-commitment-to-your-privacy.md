@@ -2,7 +2,7 @@
 layout: post
 title: 'Evernote: Reaffirming Our Commitment to Your Privacy'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_10_at_1.23.35_pm.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_01_10_at_1.23.35_pm.png
 atomdate: 2017-01-11T17:00:00.000Z
 tags:
   - Privacy

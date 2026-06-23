@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: '"Google API House Cleaning"'
-image: http://img.zemanta.com/zemified_e.png?x-id=4283fddd-44da-4224-afee-fc567b803ab1
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/google-api-house-cleaning.png
 author:
   name: kinlane
 tags:
@@ -60,4 +60,3 @@ Google provides lengthy deprecation periods as long as 3 years in some cases, al
 *   [Google Announces APIs Scheduled for Shutdown](http://www.readwriteweb.com/archives/google_announces_apis_scheduled_for_shutdown.php) (readwriteweb.com)
 *   [The Google Translate API has been officially deprecated](https://code.google.com/intl/de-DE/apis/language/translate/overview.html) (code.google.com)
 
-[![Enhanced by Zemanta](http://img.zemanta.com/zemified_e.png?x-id=4283fddd-44da-4224-afee-fc567b803ab1)](http://www.zemanta.com/ "Enhanced by Zemanta")

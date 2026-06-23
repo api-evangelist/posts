@@ -31,4 +31,3 @@ This is a great example of Software as a Service (SaaS) and API service provider
 *   [Google APIs Console](http://apievangelist.com/2011/05/21/google-apis-console/) (apievangelist.com)
 *   [Google APIs Explorer](http://apievangelist.com/2011/05/21/google-apis-explorer/) (apievangelist.com)
 
-[![Enhanced by Zemanta](http://img.zemanta.com/zemified_e.png?x-id=abef6d1a-2e11-48df-8c7d-b5c98bd91b77)](http://www.zemanta.com/ "Enhanced by Zemanta")

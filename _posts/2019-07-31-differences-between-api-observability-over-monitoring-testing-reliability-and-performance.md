@@ -13,7 +13,7 @@ tags:
   - Performance
   - Observability
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/35201856153_61bc075e4b-udnie.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/35201856153_61bc075e4b-udnie.jpg
 author:
   name: kinlane
 ---

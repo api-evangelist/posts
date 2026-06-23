@@ -3,7 +3,7 @@ layout: post
 title: >-
   The Bit Size Resources We will Need For The Bot And Voice Evolution In The API
   Space
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-robot-voice.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-robot-voice.png
 tags:
   - Voice
   - Resources

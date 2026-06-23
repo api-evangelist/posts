@@ -9,7 +9,7 @@ tags:
   - Schema
   - Registry
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-docks-oakland-4.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-docks-oakland-4.jpeg
 ---
 I can’t articulate the importance of enterprise organizations getting their schema house in order as a starting point for API governance. There is an exponential amount of instability and friction introduced across the enterprise because teams are properly using JSON Schema. To augment my services for helping enterprise organizations manage their JSON Schema via GitHub, I am providing customers with a base set of Spectral rules to begin defining the maturity of the schema you are publishing to your Git repository.
 

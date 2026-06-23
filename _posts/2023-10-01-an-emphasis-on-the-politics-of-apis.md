@@ -3,7 +3,7 @@ published: true
 layout: post
 title: An Emphasis on the Politics of APIs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-whie-house-close-up-2.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-whie-house-close-up-2.jpg
 author:
   name: kinlane
 tags:
@@ -17,7 +17,7 @@ While making my way around the API landscape for the last thirteen years I have 
 
 My day job focuses on API governance at the enterprise level. When it comes to API Evangelist, what I am learning in my day job applies to my storytelling, but I see governance as just one (important) dimension of the politics of APIs. In my definition of the politics of APIs, federal, state, and municipal governments at the top, industry level concerns being the next important dimension, and the enterprise tier being the base of a lot of what we are talking but, but it tends to be hidden and out of sight. Now government, industry, and business make up what I’d consider to be the foundational aspects of API politics, but there are also other actors like industry groups, standards, bodies, analysts, vendors, investors, and of course the end-users who all are playing a role in governing or being governed within this API-driven reality we are rapidly become consumed by.
 
-![Business Tech Politics APIse](https://kinlane-productions2.s3.amazonaws.com/tech-business-politics.jpg)
+![Business Tech Politics APIse](https://kinlane-images.s3.amazonaws.com/apievangelist/tech-business-politics.jpg)
 
 People used to regularly snicker when I used the phrase the “politics of APIs" back in 2014, but after Cambridge Analytic, Uber Greyball, and recent FTC cases around anti-competitive behavior of Facebook and others, I have heard this less and less. APIs play a fundamental role in politics, and the politics of APIs plays a central role in how industries work or do not work, and whether or not enterprise organizations are able to remain dominant and competitive. APIs are commerce. APIs are social. APIs are mobile. APIs are AI. APIs govern how we move through our day. The politics of APIs matter a great deal. I’ve been focused on the government, industry, and enterprise levels when it comes to the technology, business, and politics of APIs for a good 7 or 8 years now. Read the archives of this blog. Moving forward I will be writing with an emphasis on just the politics of APIs. The politics of APIs within enterprises, within industries, but also how that shapes government and elections. This is what interests me, and what I feel reflects the most important storytelling needed to nudge things in the right direction.
 
@@ -25,7 +25,7 @@ I am exhausted from looking at APIs through the lens of vendors and other ventur
 
 As before. I am writing here for myself. My writing is designed to push my research and my thinking on the politics of APIs. I won’t be writing about the details of my work at Bloomberg, but as always there will be a Venn diagram with the standards, specifications, tooling, and other aspects of my day job. I have the official blessing of Bloomberg to keep API Evangelist storytelling going, but all of my stories are mine, and are not the opinions of Bloomberg. There are no more sponsors of API Evangelist. There won’t be much social media as part of the storytelling on API Evangelist. I’ll post any of the stories I feel are relevant to LinkedIn, but I am way too exhausted to care about much else when it comes to broadcasting my message. This will probably be the greatest shift in my approach, reflecting my earlier focus on research and storytelling, and not worrying about readership and numbers, while admitting what a toll social media took on me and the stories I’ve told over the years.
 
-![The Big API Hustle Landscape](https://kinlane-productions2.s3.amazonaws.com/the-big-api-hustle-landscape.png)
+![The Big API Hustle Landscape](https://kinlane-images.s3.amazonaws.com/apievangelist/the-big-api-hustle-landscape.png)
 
 The diagram I am including in this post is my first attempt at visualizing the politics of APIs and the API economy at scale. I am looking to invest in my ["Scrollytelling"](https://shorthand.com/the-craft/an-introduction-to-scrollytelling/index.html#:~:text=%22Scrollytelling%22%20was%20a%20term%20first,by%20simply%20scrolling%20the%20page.) skills, so that I can tell a more interactive, data, and policy-driven story on how I see the politics of APIs shaping our world. This will take time, and I’ll work on drafts of stories that flesh out the narrative, and I’ll invest some weekend and evening cycles into learning Scrollytelling frameworks. I feel like this is the only way I can truly tell a story of this scale and scope. This diagram reflects my 763K foot view of the politics of APIs, but when I dive down to the ground floor and put on my had as one of the individual users on this diagram and apply this diagram to the hundreds of enterprises, multiple industries, and countless government agencies I depend on as a user on any given day, I begin see things very differently. I get “the bends” or pressure sickness from change in altitude, and we aren’t even talking about the impacts from the complexity of it all.
 

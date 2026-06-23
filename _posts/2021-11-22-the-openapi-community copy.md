@@ -7,8 +7,6 @@ tags:
 - OpenAPI
 - Community
 ---
-<p><img src="{{ page.image }}" width="45%" align="right" style="padding: 15px;"></p>
-
 <p>I am taking a moment to recalibrate my chess board for the OpenAPI community, and there is no better way for me to accomplish this than to write a story here on the blog. I have several folks I am working with to help move the OAS conversation forward as part of official OAI efforts, but also as part of Postman Open Technologies, and having a map of the landscape loaded up into my head and easily referenced as part of conversations helps me move things forward.</p>
 
 <p>As of November 22nd, 2021, here are all the moving parts of the OpenAPI discussion for me, organized as a simple narrative focused on moving the community forward:</p>

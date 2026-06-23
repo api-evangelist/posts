@@ -3,7 +3,7 @@ published: true
 layout: post
 title: An Event-Driven View of the API Lifecycle
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/an-eventdriven-view-of-the-api-lifecycle.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/an-eventdriven-view-of-the-api-lifecycle.png
 tags:
   - Event-Driven
   - Lifecycle
@@ -11,7 +11,7 @@ tags:
 
 I am continuing my quest to define and visualize the API lifecycle across a diverse API toolbox. I am talking to anyone and everyone I possibly can when it comes getting their take on what the API lifecycle is, and what are the ways in which we can make more visible and tangible. I am meeting regularly with the [Solace](https://solace.com/) team to define the API lifecycle across a request and response, as well as an event-driven world. As part of our discussions Jonathan Schabowsky ([@jschabowsky](https://twitter.com/jschabowsky)) shared [his earlier vision of how he sees the event-driven API lifecycle](https://solace.com/blog/event-driven-architecture-demands-event-lifecycle-management/) which I though was worth documenting and including the visualization as part of my wider research.
 
-![](https://kinlane-productions2.s3.amazonaws.com/an-eventdriven-view-of-the-api-lifecycle.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/an-eventdriven-view-of-the-api-lifecycle.png)
 
 Jonathan breaks things down into four main areas or top level groups of the stops along his event-driven API lifecycle, but I think his outline provides a pretty interesting look at the API lifecycle from the view of an event-driven API service providers.
 

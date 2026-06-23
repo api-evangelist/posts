@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Version Of The API Economy Are You Investing In?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gears-questions.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-gears-questions.png
 author:
   name: kinlane
 tags:

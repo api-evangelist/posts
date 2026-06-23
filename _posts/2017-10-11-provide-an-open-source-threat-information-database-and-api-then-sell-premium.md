@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Provide An Open Source Threat Information Database And API Then Sell Premium'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/old-door-lock_copper_circuit.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/provide-an-open-source-threat-information-database-and-api-then-sell-premium.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/old-door-lock_copper_circuit.jpg" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p>I was doing some <a href="http://security.apievangelist.com">API security research</a> and stumbled across <a href="https://github.com/toolswatch/vFeed">vFeed</a>, a “<a href="https://github.com/toolswatch/vFeed">Correlated Vulnerability and Threat Intelligence Database Wrapper</a>”, providing a JSON API of vulnerabilities from the vFeed database. The approach is a Python API, and not a web API, but I think provides an interesting blueprint for open source APIs. What I found interesting (somewhat) from the vFeed approach was the fact they provide an open source API, and database, but if you want a production version of the database with all the threat intelligence you have to pay for it.
 
 <p>I would say their technical and business approach needs a significant amount of work, but I think there is a workable version of it in there. First, I would create a Python, PHP, Node.js, Java, Go, Ruby version of the API, making sure it is a web API. Next, remove the production restriction on the database, allowing anyone to deploy a working edition, just minus all the threat data. There is a lot of value in there being an open source set of threat intelligence sharing databases and API. Then after that, get smarter about having a variety different free and paid data subscriptions, not just a single database–leverage the API presence.

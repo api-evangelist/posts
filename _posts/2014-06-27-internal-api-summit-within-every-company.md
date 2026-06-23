@@ -2,7 +2,7 @@
 layout: post
 title: Internal API Summit Within Every Company
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/edmunds-api-summit/edmunds-panel.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/edmunds-api-summit/edmunds-panel.jpg
 author:
   name: kinlane
 tags:

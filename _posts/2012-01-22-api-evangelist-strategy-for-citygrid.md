@@ -2,7 +2,7 @@
 layout: post
 title: API Evangelist Strategy for CityGrid
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/CityGrid.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/CityGrid.png
 author:
   name: kinlane
 tags:

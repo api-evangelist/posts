@@ -7,7 +7,7 @@ tags:
   - Enterprise
   - Producing
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/uncle-sam-bagel-poppy-plain-boil.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/uncle-sam-bagel-poppy-plain-boil.jpeg
 ---
 I am trying to put together a simple API calculator to try and articulate the real-world business cost of doing or not doing APIs. It is a difficult target to try and pin down because APIs are so hard to see, most companies don’t know where all their APIs are, and service and tooling providers hold their cards close to their chest. Even with these challenges, I am determined to begin nailing down a baseline number and get to work gathering data in a more organized and beneficial way.
 
@@ -28,11 +28,11 @@ Postman likes to showcase the number of collections being in the millions, but e
 
 While Googling AI does a good job of regurgitating the data I already have, and playing Captain Obvious like AI is so good at...
 
-<img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/how-man-api-does-the-average-company-have.png" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/apievangelist/how-man-api-does-the-average-company-have.png" style="padding: 15px;">
 
 While also stating the obvious — I am going to confidently say that EVERY company has an API, even if they are unaware of it — you publish a Google Sheet, and you have an API.
 
-<img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/does-every-company-have-an-api.png" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/apievangelist/does-every-company-have-an-api.png" style="padding: 15px;">
 
 You can find echoes of the data from the reports above through Forbes, InfoWeek, TechCrunch, and other tech rags. The tech blogosphere is excellent at [manufacturing consent](https://en.wikipedia.org/wiki/Manufacturing_Consent), but sadly doesn’t get me exactly what I need. I think I will have to do a version of this, but then hopefully someday backfill it with actual data.
 

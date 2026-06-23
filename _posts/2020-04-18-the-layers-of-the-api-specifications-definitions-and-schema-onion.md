@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Layers of the API Specifications, Definitions, and Schema Onion
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/stalin_time_hallway_mirrors_hotel.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/stalin_time_hallway_mirrors_hotel.jpg
 author:
   name: kinlane
 tags:

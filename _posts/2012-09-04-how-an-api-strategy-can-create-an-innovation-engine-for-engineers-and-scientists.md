@@ -4,7 +4,7 @@ title: >-
   How an API Strategy can Create an Innovation Engine for Engineers and
   Scientists
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/national-instruments-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/national-instruments-logo.png
 author:
   name: kinlane
 tags:
@@ -18,7 +18,7 @@ Over the past five years, [National Instruments](http://www.ni.com/ "National In
 As background, NI LabVIEW is a productivity tool and graphical programming language used in all kinds of scientific applications.  The breadth of users range from “aspiring engineers” who use a specialized version to program the Lego Mindstorms NXT software, to some of the world’s top researchers who use LabVIEW to design complex systems including software for the CERN hadron collider and the SpaceX control center.  
 
    
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/national-instruments/national-instruments-1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/national-instruments/national-instruments-1.png)
 
 Figure 1:  LabVIEW is used from K through Rocket Science.
 
@@ -27,7 +27,7 @@ To understand why an API strategy was needed, first consider the standard use-ca
 NI’s core business model is to serve end-users directly, but the ability to scale through an open platform allows “repeatability”.  In otherwords, through an API strategy, Company A in one specialized domain, can extend the NI platform or build a vertical product on top of it, such that Company B can leverage that.  The software stack for 3rd party developers looks very similar to the stack for end-users, with the addition of APIs that enable product development.  
 
   
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/national-instruments/national-instruments-2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/national-instruments/national-instruments-2.png)
 
 Figure 2:  API Framework for LabVIEW
 

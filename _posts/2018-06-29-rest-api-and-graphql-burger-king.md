@@ -7,7 +7,7 @@ tags:
   - API Evangelist
   - GraphQL
   - Politics of APIs
-image: https://s3.amazonaws.com/kinlane-productions2/graphql/DgsXLk_X4AEKiJJ.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/graphql/DgsXLk_X4AEKiJJ.jpg
 ---
 <a href="https://twitter.com/NikkitaFTW/status/1011928066816462848"></a>GraphQL folks keep on with the GraphQL vs REST narratives, rather than a REST and / or GraphQL narrative lately with [a recent burger meme/narrative](https://twitter.com/NikkitaFTW/status/1011928066816462848). Continuing to demonstrate their narrow view of the landscape, and revealing the short lived power of an adversarial approach to community building. I get why people do this, because they feel they are being clever, and that the click response from the echo chamber re-enforces it, but ultimately it is something that won't move the conversation forward, but it does get them kudos within their community--which is what many of them live for.
 

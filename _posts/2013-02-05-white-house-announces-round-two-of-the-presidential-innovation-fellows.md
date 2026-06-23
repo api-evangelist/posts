@@ -2,7 +2,7 @@
 layout: post
 title: 'White House Announces Round Two of the Presidential Innovation Fellows '
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/presidential-innovation-fellows.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/presidential-innovation-fellows.jpeg
 author:
   name: kinlane
 tags:

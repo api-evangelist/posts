@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Exploring an Idea for an APIs.json Defined Workflow
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-water-fountain-many-shooting.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-water-fountain-many-shooting.jpg
 author:
   name: kinlane
 tags:
@@ -22,7 +22,7 @@ Using APIs.json you can organize one or more APIs, with a mix of properties like
 ```
 name: Workflow API
 description: This is a workflow API, chaining multiple APIs together.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - API
 - Workflows
@@ -33,7 +33,7 @@ specificationVersion: '0.16’
 apis:
 - name: API One
   description: This is the first API in my workflow.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: http://example.com
   baseURL: http://api.example.com
   tags:
@@ -43,7 +43,7 @@ apis:
     url: http://example.com/openapi.json
 - name: API Two
   description: This is the second API in my workflow.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: http://example.com
   baseURL: http://api.example.com
   tags:
@@ -62,7 +62,7 @@ The challenge here, which is something being solved in different ways by differe
 ```
 name: Workflow API
 description: This is a workflow API, chaining multiple APIs together.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - API
 - Workflows
@@ -73,7 +73,7 @@ specificationVersion: '0.16’
 apis:
 - name: API One
   description: This is the first API in my workflow.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: http://example.com
   baseURL: http://api.example.com
   tags:
@@ -83,7 +83,7 @@ apis:
     url: http://example.com/openapi.json
 - name: API Two
   description: This is the second API in my workflow.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: http://example.com
   baseURL: http://api.example.com
   tags:
@@ -105,7 +105,7 @@ With a central data store, I can just add scripts to each APIs properties that w
 ```
 name: Workflow API
 description: This is a workflow API, chaining multiple APIs together.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - API
 - Workflows
@@ -116,7 +116,7 @@ specificationVersion: '0.16’
 apis:
 - name: API One
   description: This is the first API in my workflow.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: http://example.com
   baseURL: http://api.example.com
   tags:
@@ -130,7 +130,7 @@ apis:
     url: http://example.com/script.js
 - name: API Two
   description: This is the second API in my workflow.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: http://example.com
   baseURL: http://api.example.com
   tags:

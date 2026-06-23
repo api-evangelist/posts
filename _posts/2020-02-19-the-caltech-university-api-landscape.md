@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Caltech University API Landscape
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/caltech_campus_entrance_sign.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/caltech_campus_entrance_sign.jpg
 author:
   name: kinlane
 tags:

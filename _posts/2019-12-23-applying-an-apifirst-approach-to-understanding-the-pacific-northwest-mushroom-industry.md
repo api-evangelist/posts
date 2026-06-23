@@ -5,7 +5,7 @@ title: >-
   Applying An API-First Approach To Understanding The Pacific Northwest Mushroom
   Industry
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/mushrooms_white_pike_place.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mushrooms_white_pike_place.png
 author:
   name: kinlane
 tags:

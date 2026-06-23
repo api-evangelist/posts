@@ -2,7 +2,7 @@
 layout: post
 title: Looking For Partners At Every Turn When Planning Your API Evangelism
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/postman-rest-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/postman-rest-logo.png
 tags:
   - Evangelism
   - Partners

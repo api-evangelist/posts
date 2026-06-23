@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Building Blocks of API Sharing and Collaboration
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-big-antennae-tower.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-big-antennae-tower.jpg
 author:
   name: kinlane
 tags:
@@ -40,7 +40,7 @@ Next up is the API dimension of all of this, and how sharing and collaboration o
 *   **Share an API via Team Workspace -** You can have all of your APIs in a single workspace, and then share them out with the workspace where they are being developed, mocked, documented, tested, or other stops along the API lifecycle.
 *   **Sync OpenAPI, Swagger, RAML to GitHub** - This is a really important dimension for sharing and collaborating with other services, tooling, and systems by making sure the central truth for each API is being synced to the repository of choice.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-paris-bookstand.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-paris-bookstand.jpg)
 
 For an API contract to be effective it has to be accessible, shareable, and iterated upon across all stakeholders. API definitions should be accessible to developers in their local workspaces, while also still being synced and made available in common workspaces and repositories. Reducing the friction that historically occurs around emailing around API snippets, artifacts, and definitions, or API assets not being accessible because they are stored locally by individual developers, or on networks that aren’t accessible by all stakeholders.
 
@@ -71,7 +71,7 @@ There is one last dimension of features I wanted to throw into the mix involving
 *   **Viewing History -** Each workspace in Postman has a history, showing every API request made across the collections within a workspace. Providing an automated, self-service way to tune into what is happening across teams, allowing for more asynchronous collaboration. 
 *   **Viewing Activity -** Each workspace in Postman also has an activity log showing all the configuration, administration, and other activity that is happening when it comes to managing APIs, collections, environments, and the other building blocks of the API lifecycle.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/america-immigration_dumping-ground-working-waterfront-2.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-working-waterfront-2.jpg)
 
 The feedback loop is an essential part of the API sharing and collaboration process. If teams are talking, and those discussions are accessible, things move forward at a much more rapid pace. If you have to go looking around for what it's going on with an API, hunting for details, it is unlikely that they will be tuned into what's going on, and effectively collaborating with team members. If everything is available in a known location, with all developers plugged in via the tooling they already depend on, the velocity of collaboration will increase exponentially.
 

@@ -7,10 +7,8 @@ tags:
   - API Evangelist
   - Virtualization
   - Mocking
-image: 'https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-mock-interface.png '
+image: 'https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-mock-interface.png '
 ---
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-mock-interface.png" align="right" width="30%" style="padding: 15px;" /></p>
-
 _This is a series of stories I'm doing as part of [my API Transit work](http://basics.apievangelist.com/), trying to map out a simple journey that some of my clients can take to rethink some of the basics of their API strategy. I'm using a subway map visual, and experience to help map out the journey, which I'm calling [API transit](http://basics.apievangelist.com/)--leveraging the verb form of transit, to describe what every API should go through._
 
 One key deficiency I see in organizations that I work with on a regular basis, is the absence of the ability to quickly deploy a mock version of an API. Meaning, the ability to deliver a virtualized instance of the surface area of an API, that will accept requests, and return responses, without writing or generating any existing backend code. Mocking APIs require an API definition, and with many groups still producing these definitions from code, the ability to mock an API is lost in the shuffle. Leaving out the ability to play with an API before it ever gets built--which if you think about it, goes against much of why we design APIs in the first place.

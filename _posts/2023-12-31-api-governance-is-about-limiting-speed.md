@@ -3,7 +3,7 @@ published: true
 layout: post
 title: API Governance is About Limiting Speed
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/nazi-invasion-freeway-interchange-fence.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/nazi-invasion-freeway-interchange-fence.jpeg
 author:
   name: kinlane
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Using An OpenAPI Spec As Central Truth In Stakeholder Discussions
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/openreferral_logo_green.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/openreferral_logo_green.png
 atomdate: 2017-01-12T17:00:00.000Z
 tags:
   - OpenAPI
@@ -18,7 +18,7 @@ I use [OpenAPI Spec (openapis.org)](http://openapis.org) as an open, machine rea
 
 OpenAPI Spec provides us with a common language to use when communicating around the API definition and design process with all stakeholders, in a precise, and machine readable way. OpenAPI Spec can be used to define the master Open Referral definition, as well as the definition of each individual deployment or integration. This opens up the opportunity to conduct a "diff" between the definitions, showing what is compatible, and what is not, at any point in time.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/sponsor_logo_oai_print.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/sponsor_logo_oai_print.jpg)
 
 The platform I will be using to facilitate this discussion is Github, which provides the version control, "diff", communication, and user interactions that will be required throughout the lifecycle of the Open Referral specification. Allowing each path, parameter, response, request, and other elements to be discussed independently, with all history present. Github also provides an interesting opportunity for developing other tools, [like I have for annotating the API definition as part of the process](http://apis.json.annotation.apievangelist.com/\)).
 

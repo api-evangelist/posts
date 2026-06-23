@@ -3,7 +3,7 @@ published: true
 layout: post
 title: What API Common Schema Are Needed for APIs.json Properties and Overlays
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-seatlle-shipping-mountain.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-seatlle-shipping-mountain.jpg
 author:
   name: kinlane
 tags:

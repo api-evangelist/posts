@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: If You Have An API For Your Platform You Are A Stage For Cybersecurity.Theater
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-theatre.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-theatre.png
 author:
   name: kinlane
 tags:

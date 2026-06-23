@@ -5,7 +5,7 @@ title: >-
   Secrets and Personally Identifiable Information (PII) Across Our API
   Definitions
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-crypto-wheels-old-compute-bletchley.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-crypto-wheels-old-compute-bletchley.jpg
 author:
   name: kinlane
 tags:
@@ -55,7 +55,7 @@ I am sure there are more locations I can target, but this gives me a place to st
 
 One of the first things we can do to help improve our situation is to have a conversation about it. Discuss the type of information we are concerned about, how it is being applied, and where we can find it stored. I want to help stimulate the conversation by thinking about some tangible things we can be focusing on to help improve how secrets and PII are used across teams. I will be fleshing out the details of each of these areas in future posts, but these are the areas I would like to focus on when it comes to how we manage sensitive information in use across our APIs.
 
-![](https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-dragon-desert-looking.jpg)
+![](https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-dragon-desert-looking.jpg)
 
 *   **Definitions** - Using OpenAPI and Postman collections consistently across all API operations helps isolate how secrets and PII is applied and stored.
 *   **Environments** - Using machine readable environments help isolate and standardize how secrets and PII is applied and stored across API operations.

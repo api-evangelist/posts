@@ -5,7 +5,7 @@ title: >-
   HHS and CMS Finalizes Rules to Provide Patients More Control of Their Health
   Data Using APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/cms_finalrule_square_1_e1584028841105.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/cms_finalrule_square_1_e1584028841105.png
 author:
   name: kinlane
 tags:
@@ -98,7 +98,7 @@ Data at the Point of Care also employs the FHIR specification, but provides bulk
 
 ### What is Next?
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/ob_5_wins_model.png)](https://platformable.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ob_5_wins_model.png)](https://platformable.com/)
 
 This little sprint plus blog post has given me a better understanding about what this rule is all about. Based upon my experience, what I know is likely just the tip of the iceberg. I do these pieces to help me distill down what I am reading into essential details I can load up in my brain and consider as part of the bigger picture. I am looking to simmer on this for a while, and think of it context of what I have learned from PSD2. Sadly, PSD2, and now FHIR are the only two precedents we have for API regulations at the industry level. To help me keep learning there are a handful of other areas I will be thinking about next as I work to expand my view of this landscape—here are just a few of what is on my list.
 

@@ -2,7 +2,7 @@
 layout: post
 title: A Glimpse At The Future of API Driven Analytics
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-analytics-2.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-analytics-2.png
 author:
   name: kinlane
 tags:
@@ -14,11 +14,11 @@ One area I'm currently researching, is on API usage in the very hyped world of d
 
 To provide a quick glimpse into what I mean when I talk about the future of data analytic APIs, I wanted to showcase two startups that resemble what I see coming down the pipes:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/zoomdata/zoomdata-logo.png)](http://www.zoomdata.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/zoomdata/zoomdata-logo.png)](http://www.zoomdata.com/)
 
 [**ZoomData**](http://www.zoomdata.com/) - Zoomdata is the next generation data visualization system that easily allows companies and people to understand data visually in real time.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/polychart/polychart-logo.png)](https://www.polychart.com/)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/polychart/polychart-logo.png)](https://www.polychart.com/)
 
 [**Polychart**](https://www.polychart.com/) - Polychart is a data analytics and visualization company that helps turn numbers and statistics into charts and dashboards to drive more innovative and accurate decision-making.
 

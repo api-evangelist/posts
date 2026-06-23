@@ -2,7 +2,7 @@
 layout: post
 title: APIs As The Default for Companies by 2015
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-2015.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-2015.jpg
 author:
   name: kinlane
 tags:

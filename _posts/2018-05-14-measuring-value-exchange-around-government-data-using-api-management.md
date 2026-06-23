@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Measuring Value Exchange Around Government Data Using API Management'
-image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/16_33_800_500_0_max_0_1_1-5.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/measuring-value-exchange-around-government-data-using-api-management.png
 ---
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/16_33_800_500_0_max_0_1_1-5.jpg" width="45%" align="right" style="padding: 15px;" />
+<p>
 <p><a href="http://apievangelist.com/2018/04/27/venture-capital-obfuscating-the-opportunities-for-value-exchange-at-the-api-management-level/">I’ve written about how the startup community has driven the value exchange that occurs at the API management layer down a two lane road with API monetizatin and plans</a>. To generate the value that investors have been looking for, we have ended up with a free, pro, enterprise approach to measuring value exchanged with API integration, when in reality there is so much more going on here. Something that really becomes evident when you begin evaluating the API conversations going on across government at all levels.
 
 <p>In conversation after conversation I have with government API folk I hear that they don’t need API management reporting, analysis, and billing features. There is a perception that government isn’t selling access to APIs, so API management measurement isn’t really needed. Missing out on a huge opportunity to be measuring, analyzing, and reporting upon API usage, and requiring a huge amount of re-education on my part to help API providers within government to understand how they need to be measuring value exchange at the API management level.

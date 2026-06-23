@@ -4,7 +4,7 @@ title: >-
   Usage Of Swagger For The APIs At The UC Santa Barbara Lab for Research on
   Adaptive Computing Environments
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/UCSB-RACELab.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/UCSB-RACELab.png
 author:
   name: kinlane
 tags:

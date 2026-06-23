@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Opening Up Internal Opportunities Because You Have An API
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-internal.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-internal.png
 author:
   name: kinlane
 tags:

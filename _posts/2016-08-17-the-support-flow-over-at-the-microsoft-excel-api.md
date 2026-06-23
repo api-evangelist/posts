@@ -2,7 +2,7 @@
 layout: post
 title: The Support Flow Over At The Microsoft Excel API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Microsoft_Graph_-_Documentation_-_Excel.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Microsoft_Graph_-_Documentation_-_Excel.png
 atomdate: 2016-08-17T17:00:00.000Z
 tags:
   - Support

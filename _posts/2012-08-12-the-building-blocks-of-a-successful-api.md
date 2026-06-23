@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Building Blocks of a Successful API
-image: https://kinlane-images.s3.amazonaws.com/apievangelist/blog/building blocks.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-building-blocks-of-a-successful-api.png
 author:
   name: kinlane
 tags:

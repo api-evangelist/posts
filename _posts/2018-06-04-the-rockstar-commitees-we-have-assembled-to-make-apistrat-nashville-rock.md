@@ -8,7 +8,7 @@ tags:
   - API Events
   - APIStrat
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/apistrat/apistrat-nashville-header.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/apistrat/apistrat-nashville-header.jpg
 ---
 <p></p>It is APIStrat time again! This time it is in Nashville, Tennessee! We are in the early stages of the event, but we are getting close to the deadline of the call for papers. We've assembled another rockstar ensemble for this round to help us steer the event, and review talk submissions once the CFP process has closed. I just wanted to take a moment and recognize the folks who are helping out and make sure they get the recognition they deserve.
 

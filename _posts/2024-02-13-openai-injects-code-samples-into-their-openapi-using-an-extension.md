@@ -3,7 +3,7 @@ published: true
 layout: post
 title: OpenAI Injects Code Samples Into Their OpenAPI Using An Extension
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-arrow-in-ground.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-arrow-in-ground.jpeg
 author:
   name: kinlane
 tags:

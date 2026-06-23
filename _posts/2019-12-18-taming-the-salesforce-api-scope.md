@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Taming The Salesforce API Scope
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/salesforce_integrations_cloud_elements.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/salesforce_integrations_cloud_elements.png
 author:
   name: kinlane
 tags:
@@ -19,7 +19,7 @@ After spending about an hour in the Salesforce documentation it all came back to
 
 When using the Salesforce REST APIs there are universal API paths that developers with meta level information about the API, but then there are object specific API resources which provide you with a long list of available resources which you can obtain via the /vXX.X/sobjects/ API path for each version. Then there are a whole suite of object specific API sub-resources you can put to work by simply putting the sObject into the API path vXX.X/sobjects/{SObjectName}/{id}—leveraging path variables to define which individual resource you will be working with. This design pattern is common amongst older enterprise APIs, but it is an approach that can introduce quite a cognitive load when having to learn about what objects are available, and then begin to use them in any intuitive way. To help alleviate the cognitive load for myself when working with the Salesforce API and making it easier for other stakeholders to work with, I generated a Postman collection, and p[ublished some simple and more modern API documentation from the machine readable definition](https://documenter.postman.com/view/35240/SVzua1S6?version=latest).
 
-[![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/salesforce_rest_api_postman_documentation.png)](https://documenter.postman.com/view/35240/SVzua1S6?version=latest)
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/salesforce_rest_api_postman_documentation.png)](https://documenter.postman.com/view/35240/SVzua1S6?version=latest)
 
 My goal with this collection was to bring out the potential that is present within the Salesforce API, making it available in a more intuitive and usable way. Using the /vXX.X/sobjects/ API path I generated the Postman Collection, organizing sObjects by folder. The Postman Collection is just a proof of concept and doesn’t reflect all of the available API paths, and is generated from version 20.0 from an entry level develop account. The goal here is simply to autogenerate a Postman Collection for all sObjects for a specific version, organizing all the available API resources into a more coherent collection. Next, I will work on dynamically generating a Postman Collection for each available version, with corresponding objects. Each collection will still reflect an entry level developer account, dynamically generating Postman Collections from the Salesforce API, providing a machine readable collection that can be used by Salesforce and their API consumers throughout the API lifecycle. Providing a machine readable unit of compute for each possible manifestation of the Salesforce API, allowing the API definition shape-shift as necessary to accommodate however Salesforce is being used in the wild.
 
@@ -43,7 +43,7 @@ As part of my work on my Salesforce REST API Postman Collection I’m verifying 
 
 Once I have examples saved for each of the Salesforce API paths I can also republish the API documentation I showed above as part of this proof of concept. Publishing the details of each response to compliment the details of each API request I’ve defined. Better organizing Salesforce sObjects as folder, giving them plain language names and description, while also providing details on query parameters, headers, and the example response for each individual API path. In addition to the more cleaner, modern, and complete API documentation, developers also get code snippets in a variety of programming languages including cURL commands for use at the command line interface. Further helping to reduce friction when it comes to on-boarding new users, providing what is needed to get existing developers engaged, and understanding what is happening with a specific version and implementation of the Salesforce API.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/salesforce_create_postman.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/salesforce_create_postman.png)
 
 ### API Orchestration With Runners
 

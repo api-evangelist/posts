@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API Evangelist, Assistant, and Broker
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-assistance.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-assistance.png
 tags:
   - API Evangelist
   - Evangelist

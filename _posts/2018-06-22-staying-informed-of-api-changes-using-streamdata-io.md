@@ -8,7 +8,7 @@ tags:
   - Real Time
   - Event-Driven
   - Twitter
-image: https://s3.amazonaws.com/kinlane-productions2/twitter/twitter-automation.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/twitter/twitter-automation.png
 ---
 <p></p>My friend James Higginbotham ([@launchany](https://twitter.com/launchany?lang=en)) was sharing his frustration with being able to stay in tune with changes to a variety of APIs. Like me, James works to stay in tune with a variety of signals available via platforms like Twitter, Github, and other commonly used services. These platforms don't always properly signal when things are updated, changed, or advanced, making it difficult to understand the granular changes that occur like likes, votes, edits, and other common events that occur via highly active platforms.
 

@@ -5,7 +5,7 @@ title: >-
   Atlassian Provides Run in Postman and OpenAPI by Default for Jira, Confluence,
   and BitBucket APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/atlassian_logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/atlassian_logo.jpg
 author:
   name: kinlane
 tags:

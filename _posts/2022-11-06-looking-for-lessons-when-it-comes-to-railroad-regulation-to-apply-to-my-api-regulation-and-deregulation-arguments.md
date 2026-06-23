@@ -5,7 +5,7 @@ title: >-
   Looking for Lessons When It Comes to Railroad Regulation That I Can Apply to
   My API Regulation and Deregulation Arguments
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/citizenship-nyc-subway-train-125th.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-nyc-subway-train-125th.jpg
 author:
   name: kinlane
 tags:

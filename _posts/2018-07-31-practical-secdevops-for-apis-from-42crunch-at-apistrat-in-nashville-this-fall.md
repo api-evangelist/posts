@@ -8,7 +8,7 @@ tags:
   - Events
   - Security
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/42crunch/42-crunch-the-api-security-platform-for-the-enterprise.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/42crunch/42-crunch-the-api-security-platform-for-the-enterprise.png
 ---
 <p></p>We are gearing up for [the next edition of APIStrat in Nashville, TN this September 24th through 26th](https://events.linuxfoundation.org/events/apistrat-2018/). With the conference less than two months away, and [the schedule up](https://events.linuxfoundation.org/events/apistrat-2018/program/schedule/), I'm building momentum with my usual drumbeat about the speakers, and companies involved. So you'll be reading a lot of stories related to APIStrat in coming weeks, where I'm looking to build awareness and attendance of the conference, but more importantly showcasing the individuals and companies who are supporting it and helping making the 9th edition of APIStrat amazing.
 

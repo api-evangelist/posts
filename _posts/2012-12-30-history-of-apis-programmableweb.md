@@ -2,7 +2,7 @@
 layout: post
 title: 'History of APIs:  ProgrammableWeb'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ProgrammableWeb-10-2005.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ProgrammableWeb-10-2005.png
 tags:
   - Web
   - History
@@ -12,7 +12,7 @@ While writing about the [history of APIs](/history/ "history of APIs"), it is e
 
 In July 2005, John Musser started ProgrammableWeb. According to his original about page:
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/programmableweb/ProgrammableWeb-10-2005.png)](http://programmableweb.com "ProgrammableWeb")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/programmableweb/ProgrammableWeb-10-2005.png)](http://programmableweb.com "ProgrammableWeb")
 
 > _ProgrammableWeb is a web-as-platform reference site and blog delivering news, information and resources for developing applications using the Web 2.0 APIs._
 
@@ -30,7 +30,7 @@ John made a early decision to showcase open and RESTful approaches to deploying 
 
 When I started API Evangelist in July 2010 (5 years after PW), and started talking about the business of APIs, the technology of web APIs was already widely accepted in Silicon Valley, because of the stories John Musser and Adam Duvander have told on ProgrammableWeb.
 
-[![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/programmableweb/programmableweb-logo.png)](http://programmableweb.com "ProgrammableWeb")
+[![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/programmableweb/programmableweb-logo.png)](http://programmableweb.com "ProgrammableWeb")
 
 As we close 2012, a year in which I think we can confidently say APIs are moving mainstream, and I feel we owe much of the success to ProgrammableWeb. The stories John, Adam and other writers have been telling on ProgrammableWeb have been crucial to quantifying and defining the API industry--allowing us all to build, iterate and move things forward. Without stories around the technical, business and politics of APIs, these virtual interfaces would not have been able to find a place in our real life worlds.
 

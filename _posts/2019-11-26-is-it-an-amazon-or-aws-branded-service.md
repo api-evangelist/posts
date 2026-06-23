@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Is it an Amazon or AWS Branded Service
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/copper_circuit_img_7072.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/copper_circuit_img_7072.jpg
 author:
   name: kinlane
 tags:

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: How I Profile The TypeForm API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/profile_type_form_import.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/profile_type_form_import.png
 author:
   name: kinlane
 tags:
@@ -13,19 +13,19 @@ I was being asked for more information about how I profile APIs, and deal with t
 
 First thing I do is search for an OpenAPI definition, hopefully published to GitHub or prominently linked off their documentation, but I will settle having to sniff out from behind an APIs documentation. TypeForm doesn’t have an OpenAPI or Swagger available (from what we can tell). Next, I go looking for a Postman collection. Boom!! [Typeform has a Postman collection](https://developer.typeform.com/get-started/postman-collection/). The question now is why hasn’t Typeform published their Postman collection to [the Postman Network](https://explore.postman.com/)? I will Tweet at them. Ok, now I have a machine readable definition for the Typeform API that I can import into my API monitoring system—which is just an API that I use in Postman to import a Postman collection (head explodes).
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/profile_type_form_import.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/profile_type_form_import.png)
 
 My Postman collection import API grabs as many elements from the Postman collection definition as it can, normalizing the paths, parameters, and other details for an API. I am always adding to what my API is capable of, but it does a pretty good job of giving me what I need to begin to profile the surface area of an API.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/profile_type_form_paths.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/profile_type_form_paths.png)
 
 Now I have all of the paths imported into my monitoring system. However, I am still at the mercy of how much work an API provider has invested into their Postman collection. Depending on the provider and the API definition format being important the differences can vary widely, so I have been developing different APIs that help me clean up and deal with the common types of data that is missing or needs work.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/profile_type_form_clean.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/profile_type_form_clean.png)
 
 I am always working to flesh out as many of the common details of an API as I can, but always stop short of doing too much manual labor when it comes to crafting a complete enough API definition. My goal is to just get as much cleaned up and normalized as I can, and leave what I can do left undone. When it comes to the Typeform API, they didn’t provide descriptions for their API paths. Descriptions exist on the documentation, but would need to be scraped, or manually added to either the Postman collection or OpenAPI. [I just add a GitHub issue for the todo item](https://github.com/api-evangelist/typeform/issues/1), and move on. Ideally Typeform does this work, or someone from the API community submits as a pull request on the API definitions I have published to GitHub. Beyond descriptions, I am able to clean up paths, generate an operation id which is useful in SDK and code generation, and apply tags to each path based upon the words in the path.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/profile_type_form_paths_2.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/profile_type_form_paths_2.png)
 
 Then I go ahead and [publish both an OpenAPI and Postman collection to the GitHub repository I have for Typeform](https://github.com/api-evangelist/typeform). This allows me to independently track each API provider, separately manage issues, and engage with the community, and hopefully Typeform in a central place.The API definitions are far from complete, but they provide me with a good start. I can queue up some other tasks that I need accomplished, pushing the API definitions further along when i have time. For my needs, having the Typeform API paths and parameters using OpenAPI and Postman collections, then the Typeform API operations defined as an APIs.json is a damn good start. I’ll make time in the future to continue fleshing out additional details, or hopefully the community and Typeform steps in and does it for me.
 

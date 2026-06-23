@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'I Can Keep Evangelizing The Same API Stories For The Next Decade In Government'
-image: http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/34_33_700_500_0_max_0_1_1.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/i-can-keep-evangelizing-the-same-api-stories-for-the-next-decade-in-government.png
 ---
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/34_33_700_500_0_max_0_1_1.jpg" align="right" width="45%" style="padding: 15px;" />
+<p>
 <p><a href="https://www.fedscoop.com/events/redhatgov/2017/agenda/">I spoke on a panel at the Red Hat, Fed Scoop Government Symposium in Washington D.C. yesterday</a>. I had some great conversations with technology vendors, as well as government agencies about everything API. I enjoy being outside the Silicon Valley echo chamber when it comes to technology because I enjoy helping folks understand the basics of what is going on with the basics of APIs, over getting too excited over the latest wave of new technology, and a constant need to be moving forward before ever getting a handle on the problems on the table.
 
 <p>It can be hard to to repeat some of the same stories I’ve been telling for the last seven years while in these circles, but honestly the process helps me refine what I’m saying, and continue to actively think through the sustained relevancy of the stories I’ve been telling. After this round of discussions in D.C. I feel there are a some themes in my work, I can keep refining, and crafting stories for sharing in the government space.

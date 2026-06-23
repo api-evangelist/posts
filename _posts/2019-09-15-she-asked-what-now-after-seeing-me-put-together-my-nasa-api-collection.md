@@ -3,7 +3,7 @@ published: true
 layout: post
 title: She Asked “What Now” After Seeing Me Put Together My NASA API Collection
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/windowmountain-window-mountain-alien-goggles.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/windowmountain-window-mountain-alien-goggles.jpg
 author:
   name: kinlane
 tags:

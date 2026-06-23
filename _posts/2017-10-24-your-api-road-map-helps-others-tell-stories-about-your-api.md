@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: 'Your API Road Map Helps Others Tell Stories About Your API'
-image: https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/los-angeles-downtow-freeway_blue_circuit_5.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/your-api-road-map-helps-others-tell-stories-about-your-api.png
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions2/algo-rotoscope/stories/los-angeles-downtow-freeway_blue_circuit_5.jpg" align="right" width="40%" style="padding: 15px;" />
+<p>
 <p>There are many reasons you want to have a road map for your API. It helps you communicate with your API community where you are going with your API. It also helps you have a plan in place for the future, which increases the chances you will be moving things forward in a predictable and stable way. When I’m reviewing and API I don’t see a public API road map available, I tend to give them a ding on the reliability and communication for their operations. One of the reasons we do APIs is to help us focus externally with our digital resources, which communication plays an important role, and when API providers aren’t communicating effectively with their community, there are almost always other issues right behind the scenes.
 
 <p>A road map for your API helps you plan, and think through how and what you will be releasing for the foreseeable future. Communicating this plan externally helps force you think about your road map in context of your consumers. Having a road map, and successfully communicating about it via a blog, on Twitter, and other channels helps keep your API consumers in tune with what you doing. In my opinion, an API road map is an essential building block for all API providers, because it has direct value on the health of API operations, but because it also provides an external sign of the overall health of a platform.

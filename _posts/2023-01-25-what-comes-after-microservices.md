@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: What Comes After Microservices?
-image: https://kinlane-productions2.s3.amazonaws.com/old-electircal-wires.jpeg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/old-electircal-wires.jpeg
 author: null
 name: kinlane
 tags:

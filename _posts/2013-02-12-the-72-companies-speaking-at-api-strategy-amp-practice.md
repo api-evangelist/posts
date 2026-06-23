@@ -28,8 +28,6 @@ There are 72 companies represented at API Strategy & Practice:
 
 [![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/speakers/att-logo.png)](https://developer.att.com/ "AT&T")
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Best_Buy_Logo.svg/800px-Best_Buy_Logo.svg.png)](https://bbyopen.com/developer "Best Buy")
-
 [![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/speakers/braintree-logo.png)](http://www.braintree.com/ "Braintree")
 
 [![](https://kinlane-images.s3.amazonaws.com/apievangelist/events/api-strategy-practice-conference/speakers/cisco-logo.jpeg)](https://www.cisco.com/ "Cisco")

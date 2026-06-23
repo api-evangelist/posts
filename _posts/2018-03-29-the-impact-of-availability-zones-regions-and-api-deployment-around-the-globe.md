@@ -10,7 +10,7 @@ tags:
   - Performance
   - Reliability
   - Politics of APIs
-image: https://s3.amazonaws.com/kinlane-productions2/azure/azure-regions-map.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/azure/azure-regions-map.png
 ---
 <p></p>[Werner Vogels shared a great story looking back at 10 years of compartmentalization at AWS](https://www.allthingsdistributed.com/2018/03/ten-years-of-aws-compartimentalization.html), where he talks about the impact Amazon has made on the landscape by allowing for the deployment of resources into different cloud regions, zones, and jurisdictions. I agree with him regarding the significant impact this has had on how we deliver infrastructure, and honestly isn't something that gets as much recognition and discussion as it should. I think this is partly due to the fact that many companies, organizations, institutions, and governments are still making their way to the cloud, and aren't far enough in their journeys to be able to sufficiently take advantage of the different availability zones.
 

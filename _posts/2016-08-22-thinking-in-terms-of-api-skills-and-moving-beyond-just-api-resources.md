@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thinking In Terms of API Skills And Moving Beyond Just API Resources
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-skills.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-skills.png
 atomdate: 2016-08-22T22:00:00.000Z
 tags:
   - Skills

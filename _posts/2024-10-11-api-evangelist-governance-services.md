@@ -6,7 +6,7 @@ tags:
   - Governance
   - Services
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/every-sunday-morning-supreme-court_36341562380_o.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/every-sunday-morning-supreme-court_36341562380_o.jpg
 ---
 Kin Lane, who is also known as the API Evangelist augments your API platform with Git-based API governance services that employ common open-source API specifications that help map and standardize the sprawling landscape of APIs that exist across your average enterprise. The API Evangelist approach to API governance has evolved over the last fifteen years of working with startups, enterprises, and government agencies to inventory the HTTP API assets being made available internally, and externally to 3rd party developers. 
 

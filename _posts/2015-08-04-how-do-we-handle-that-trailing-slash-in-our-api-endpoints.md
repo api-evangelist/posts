@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Do We Handle That Trailing Slash In Our API Endpoints?
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-slash-icon.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-slash-icon.png
 author:
   name: kinlane
 tags:

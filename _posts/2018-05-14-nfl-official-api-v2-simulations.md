@@ -10,7 +10,7 @@ tags:
   - Sandboxes
   - Simulations
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/sportradar/sportradar-simulations.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/sportradar/sportradar-simulations.png
 ---
 <p></p>I'm a big fan of API sandboxes, labs, and other virtualization environments. [API sandboxes should be default in heavily regulated industries like banking](https://streamdata.io/blog/sandbox-default-feature-banking-apis/). I also support the virtualization of schema and data used across API operations, [like I am doing at the Department of Veterans Affairs (VA), with synthetic healthcare data](http://apievangelist.com/2018/05/01/synthetic-healthcare-records-for-your-api-using-synthea/). I'm very interested in anything that moves forward the [API virtualization](http://virtualization.apievangelist.com/) conversation, so I found [the live sporting API simulations over at SportRadar](https://developer.sportradar.com/files/indexFootball.html#nfl-official-api-v2-simulations) very interesting.
 

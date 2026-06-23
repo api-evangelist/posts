@@ -11,7 +11,7 @@ tags:
   - Real Time
   - Webhooks
   - Definitions
-image: https://s3.amazonaws.com/kinlane-productions2/kong/kong-summit-2018.jpg
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/kong/kong-summit-2018.jpg
 ---
 <p></p>I am at [the Kong Summit in San Francisco](https://konghq.com/kong-summit/) all day tomorrow. I'm going to be speaking about research into the event-driven architectural layers I've been mapping out across the API space. Looking for the opportunity to augment existing APIs with push technology like webhooks, and streaming technology like SSE, as well as pipe data in an out of Kafka, fill data lakes, and train machine learning models. I'll be sharing what I'm finding from some of the more mature API providers when it comes to their investment in event-driven infrastructure, focusing in on Twilio, SendGrid, Stripe, Slack, and GitHub.
 
@@ -23,7 +23,7 @@ As I said, webhooks is the 101 of event-driven technology, and once API provider
 
 From what I've gathered, the more mature API providers, who are further along in their API journey have invested in some key areas, which has allowed them to continue investing in some other key ways:
 
-- **Defined Resources** - These API providers have their APIs well defined, with master planned designs for their suite of services, possessing machine readable definitions like OpenAPI, Postman Collections, and AsyncAPI.<img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-event-driven-steering.png" style="padding: 15px;" align="right" width="25%" />
+- **Defined Resources** - These API providers have their APIs well defined, with master planned designs for their suite of services, possessing machine readable definitions like OpenAPI, Postman Collections, and AsyncAPI.<img src="https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-event-driven-steering.png" style="padding: 15px;" align="right" width="25%" />
 - **Request / Response** - Who have fined tuned their approach to delivering their HTTP based request and response structure, along with their infrastructure being so well defined.
 - **Known Event Types** - Which has resulted in having a handle on what is changing, and what the most important events are for API providers, as well as API consumers.
 - **Push Technology** - Having begun investing in webhooks, and other push technology to make sure their API infrastructure is a two-way street, and they can easily push data out based upon any event.

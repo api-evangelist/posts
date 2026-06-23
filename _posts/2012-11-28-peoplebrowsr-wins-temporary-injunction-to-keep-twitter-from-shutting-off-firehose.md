@@ -4,7 +4,7 @@ title: >-
   PeopleBrowsr Wins Temporary Injunction To Keep Twitter From Shutting Off
   Firehose
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/twitter-access.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/twitter-access.png
 author:
   name: kinlane
 tags:
@@ -21,7 +21,7 @@ _PeopleBrowsr’s products require the full Firehose feed. A mere sample of Twit
 
 Twitter’s decision to terminate PeopleBrowsr’s firehose follows a [pattern of it consistently cutting off partner and developer access to the platforms and its data](http://apivoice.com/2012/06/29/twitter-continues-to-restrict-access-to-our-tweets/). In doing so Twitter has sought more control in their effort to monetize the social networking platform and provide [investors with a return on their investment of almost 1.4B dollars](http://apivoice.com/2012/07/22/investment-in-twitter/).
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/peoplebrowsr/PeopleBrowsr-logo.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/peoplebrowsr/PeopleBrowsr-logo.png)
 
 PeopleBrowsr states that it has “invested millions of dollars and years of work in building a business based on the Firehose”. It says it did so in rlying on Twitter’s representations that it would maintain an “open ecosystem” and allow other companies to use of its data. Through agreements with Twitter PeopleBrowsr felt it could compete without fear that Twitter would cut off access to its data in order to influence which businesses succeed or to usurp business opportunities for itself.
 

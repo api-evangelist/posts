@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Influencing People Indirectly Over Time to Obtain the API Change You Seek
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/birth-of-a-nation-satellite-dish-pointing-upwards.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-satellite-dish-pointing-upwards.jpg
 author:
   name: kin
 tags:

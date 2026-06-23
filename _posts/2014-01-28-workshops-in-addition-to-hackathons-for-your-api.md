@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Workshops In Addition To Hackathons For Your API
-image: https://s3.amazonaws.com/kinlane-productions2/bw-classroom.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/workshops-in-addition-to-hackathons-for-your-api.png
 author:
   name: kinlane
 tags:

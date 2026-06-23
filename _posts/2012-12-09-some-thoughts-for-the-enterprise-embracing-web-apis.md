@@ -2,7 +2,7 @@
 layout: post
 title: Some Thoughts For the Enterprise Embracing Web APIs
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/enterprise-business.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/enterprise-business.jpg
 author:
   name: kinlane
 tags:
@@ -46,7 +46,7 @@ But around 2003, outside the enterprise, we started seeing a shift in how develo
 
 Over the course of the next nine years we see this trend continue with [REST + JSON](http://blog.programmableweb.com/2011/05/25/1-in-5-apis-say-bye-xml/) growing in dominance, wrestling control over web services and the term API from a more SOAP + XML approach.
 
-![](https://s3.amazonaws.com/kinlane-productions2/api-evangelist/enterprise-business-1.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/enterprise-business-1.jpg)
 
 After re-reading much of the SOAP vs. REST debate this weekend, I see the same as with the REST debate, where much of the discussion is technical. But there are some great statements on what contributee to the success of API over SOA. From [Supun Kamburugamuva on Life of a Software Engineer blog](http://supunk.blogspot.com/2012/08/rest-vs-soap-adoption-perspective.html):
 

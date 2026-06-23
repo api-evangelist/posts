@@ -3,7 +3,7 @@ published: true
 layout: post
 title: A Postman Collection for Managing the Life Cycles Of My APIs
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/udnie-IMG_2410.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/udnie-IMG_2410.jpg
 author:
   name: kinlane
 tags:

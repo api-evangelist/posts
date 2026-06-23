@@ -3,7 +3,7 @@ layout: post
 title: >-
   A Healthy API Strategy Does Not Involve Scheduling A Briefing To Discuss--Just
   Do It
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-gears.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-gears.png
 author:
   name: kinlane
 tags:

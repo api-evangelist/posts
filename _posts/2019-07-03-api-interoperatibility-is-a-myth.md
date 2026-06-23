@@ -7,7 +7,7 @@ tags:
   - API Evangelist
   - Interoperability
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/san-francisco-city-bridge-sf-city-bridge-copper-circuit.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/san-francisco-city-bridge-sf-city-bridge-copper-circuit.jpg
 author:
   name: kinlane
 ---

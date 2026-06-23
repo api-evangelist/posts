@@ -2,7 +2,7 @@
 layout: post
 title: Sometimes Open Data Just Needs That Human Touch
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/17084937117_6045e3d299_z.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/17084937117_6045e3d299_z.jpg
 author:
   name: kinlane
 tags:

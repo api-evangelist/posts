@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Twilio Uses A PII OpenAPI Extension on Their API
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-cell-tower-close-2.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-cell-tower-close-2.jpeg
 author:
   name: kinlane
 tags:

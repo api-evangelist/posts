@@ -2,7 +2,7 @@
 layout: post
 title: How Will The US Census Bureau API Influence the 2020 Census?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/federal-government/census/us-census-api-ideas.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/federal-government/census/us-census-api-ideas.png
 author:
   name: kinlane
 tags:

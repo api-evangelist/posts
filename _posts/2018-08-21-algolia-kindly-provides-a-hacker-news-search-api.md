@@ -8,7 +8,7 @@ tags:
   - Search
   - Discovery
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algolia/hacker-news-algolia-search-api.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/algolia/hacker-news-algolia-search-api.png
 ---
 <p></p>I was working on [a serverless app for Streamdata.io that takes posts to Hacker News and streams them into an Amazon S3 data lake](https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:879370021840:applications~StreamData-IO-Hacker-News-New), and I came across the [Algolia powered Hacker News search API](https://hn.algolia.com/api). After being somewhat frustrated with the simplicity of the official Hacker News API, I was pleased to find [the search kindly provided by Algolia](https://hn.algolia.com/api).
 

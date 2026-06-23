@@ -8,7 +8,7 @@ tags:
   - Resources
   - Reliability
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/citizenship-old-small-town-buildings.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/citizenship-old-small-town-buildings.jpeg
 ---
 Many of us pundits, analysts, and even practitioners in the API space believe in doing APIs the right way, or at least giving them the attention they deserve. This is commendable, but also the minority view of how you do APIs. Us technologists consciously and subconsciously ignore the business realities that exist on the ground for my API producers when we assume that everyone is interested in doing APIs well, and maximize the usage and adoption of their API. When you have looked at as many APIs as I have, and talked with as many API producers as I have, you realize that not everyone cares about their public API.
 

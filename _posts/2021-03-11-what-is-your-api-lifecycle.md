@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: What is Your API Lifecycle?
-image: https://kinlane-productions2.s3.amazonaws.com/api-lifecycle-tag-cloud.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-lifecycle-tag-cloud.png
 tags:
   - Lifecycle
 ---
@@ -173,6 +173,6 @@ Then Jason concludes the thread with a pretty simpele but effective approach to 
 
 A lot of personalities here. Some very interesting takes on what the API lifecycle can be. It gets me thinking about how diverse we play this API game. If I take the words used across all of these contributors I ended up with this tag cloud, showing what the top stops along the API lifecycle are for these folks.
 
-![](https://kinlane-productions2.s3.amazonaws.com/api-lifecycle-tag-cloud.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-lifecycle-tag-cloud.png)
 
 I would really like to do more work to define what the API lifecycle is, or at least help establish a consistent way of defining different stops along an API lifecycle, and as a couple folks did as part of this thread, organize these stops into a coherent set of flows that are meaningful on the factory floor of enterprise organizations. I am really tired of saying API lifecycle and not really being on the same page with folks I am talking to about how to do APIs. It feels like we can significantly stablize how we do things if we can establish a common vocabulary for how we describe the API lifecycle similar to how we've found ways to describe our individual APIs using OpenAPI, AsyncAPI, and JSON Schema.

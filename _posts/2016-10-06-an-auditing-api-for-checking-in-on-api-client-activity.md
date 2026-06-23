@@ -2,7 +2,7 @@
 layout: post
 title: An Auditing API For Checking In On API Client Activity
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/google_auditing.gif
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/google_auditing.gif
 atomdate: 2016-10-06T18:00:00.000Z
 tags:
   - Client

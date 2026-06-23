@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting a Precedent When Charging for High Volume Access to Government APIs
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-government-costs.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-government-costs.png
 author:
   name: kinlane
 tags:
@@ -15,7 +15,7 @@ I have been pulled into the conversation around the API for our National Park sy
 
 I received this National Forest Service Briefing, regarding the pricing change last week:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/forest-service-icon.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/forest-service-icon.png)
 
 **U.S. Forest Service  
 National Forest System Briefing Paper**

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building More Metrics Into Your API Branding Strategy To Quantify Your Reach
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-brand.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-brand.png
 author:
   name: kinlane
 tags:

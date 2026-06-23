@@ -2,7 +2,7 @@
 layout: post
 title: An Example Of An API Service Provider Using Hypermedia
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/aws-api-gateway-icon.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/aws-api-gateway-icon.png
 atomdate: 2017-02-27T23:00:00.000Z
 tags:
   - Hypermedia

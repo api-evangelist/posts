@@ -2,7 +2,7 @@
 layout: post
 title: I Like Individually Priced API Resources That Flex and Scale
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/person-building-blocks.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/person-building-blocks.jpg
 author:
   name: kinlane
 tags:

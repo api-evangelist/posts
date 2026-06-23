@@ -2,7 +2,7 @@
 layout: post
 title: Real-Time Notification Layer Within Your API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/cisimple-plus-pusher.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/cisimple-plus-pusher.png
 author:
   name: kinlane
 tags:

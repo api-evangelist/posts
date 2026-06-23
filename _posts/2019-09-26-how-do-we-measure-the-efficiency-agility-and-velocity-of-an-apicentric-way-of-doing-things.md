@@ -5,7 +5,7 @@ title: >-
   How Do We Measure The Efficiency, Agility, and Velocity Of An API-Centric Way
   Of Doing Things?
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/fast-lights-freeway-redes-fast-flux-623x425-light-dali.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/fast-lights-freeway-redes-fast-flux-623x425-light-dali.jpg
 author:
   name: kinlane
 tags:

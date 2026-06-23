@@ -4,7 +4,7 @@ title: >-
   API Service Composition Baked Into The Cloud With Usage Plans For Amazon API
   Gateway
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/ag_api_keys_1.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/ag_api_keys_1.png
 atomdate: 2016-08-15T19:00:00.000Z
 tags:
   - Cloud

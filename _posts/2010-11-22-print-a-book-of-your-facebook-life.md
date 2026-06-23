@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Print a Book of Your Facebook Life
-image: http://kinlane-productions2.s3.amazonaws.com/facebook/facebook_logo-icon.png
+image: https://kinlane-images.s3.amazonaws.com/shared/facebook/facebook_logo-icon.png
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ I spend a lot of time thinking about new ways to print as the Mimeo Connect Clou
 
 We create volumes of data through our social streams, online files, emails and other forms data in our daily online lives. Often times the photos and discussions become less valuable because they are so easy to create, so we lose interest in creating organizing photos, emails or other files.
 
-kinlane-productions2.s3.amazonaws.com This is where I see print being able to be reborn in creating physical, tangible, and more valuable snapshots of our online lives. ![](http://kinlane-productions.s3.amazonaws.com/facebook/facebook_logo-icon.png) I talked about [fotobooks](http://www.kinlane.com/2010/11/fotobooks-on-facebook/) which allows you to [print out photo books created from your Facebook profile](http://www.kinlane.com/2010/11/fotobooks-on-facebook/). I came across another tool that allows you to print a book from your Facebook profile.
+kinlane-productions2.s3.amazonaws.com This is where I see print being able to be reborn in creating physical, tangible, and more valuable snapshots of our online lives. ![](https://kinlane-images.s3.amazonaws.com/shared/facebook/facebook_logo-icon.png) I talked about [fotobooks](http://www.kinlane.com/2010/11/fotobooks-on-facebook/) which allows you to [print out photo books created from your Facebook profile](http://www.kinlane.com/2010/11/fotobooks-on-facebook/). I came across another tool that allows you to print a book from your Facebook profile.
 
 [Ninuku Archivist](http://www.ninuku.com/ninuku.html) is a Facebook application that automatically downloads stuff from your wall on a monthly basis, then saves it into a PDF doc. It will pull your profile, streams, and photos from your Facebook profile and create a stored version of these.
 

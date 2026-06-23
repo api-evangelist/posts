@@ -2,7 +2,7 @@
 layout: post
 title: API Evangelist API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/kin-lane-gartner-aadi.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/kin-lane-gartner-aadi.jpg
 author:
   name: kinlane
 tags:

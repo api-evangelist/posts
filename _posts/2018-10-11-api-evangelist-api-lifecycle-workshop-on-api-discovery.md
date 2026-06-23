@@ -10,7 +10,7 @@ tags:
   - Training
   - Evangelism
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/workshops/kin-lane-api-days-spain.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/workshops/kin-lane-api-days-spain.jpg
 ---
 <p><a href="http://locations.api.lifecycle.workshop.apievangelist.com/"></a></p>I've been doing more <a href="http://locations.api.lifecycle.workshop.apievangelist.com/">workshops on the API lifecycle within enterprise groups lately</a>. Allowing me to refine my materials on the ground within enterprise groups, further flesh out the building blocks I recommend to API groups to help them craft their own API strategy. One of the first discussions I start with large enterprise groups is always in the area of API discovery, or commonly asked as, "do you know where all your APIs are?"
 

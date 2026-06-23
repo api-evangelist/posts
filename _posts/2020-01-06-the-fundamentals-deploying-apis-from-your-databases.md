@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'The Fundamentals: Deploying APIs From Your Databases'
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stories-36575484422-087495fca9-z.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/stories-36575484422-087495fca9-z.jpg
 author:
   name: kinlane
 tags:

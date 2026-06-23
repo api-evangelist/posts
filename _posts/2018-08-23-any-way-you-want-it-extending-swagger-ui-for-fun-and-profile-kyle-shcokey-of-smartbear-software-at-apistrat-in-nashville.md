@@ -12,7 +12,7 @@ tags:
   - Definitions
   - Documentation
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/events/apistrat-2018/kyle-shocky-smarbear.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/events/apistrat-2018/kyle-shocky-smarbear.jpeg
 ---
 <p></p>We are getting closer to [the 9th edition of APIStrat happening in Nashville, TN this September 24th through 26th](https://events.linuxfoundation.org/events/apistrat-2018/). [The schedule for the conference is up](https://events.linuxfoundation.org/events/apistrat-2018/program/schedule/), along with [the first lineup of keynote speakers](https://events.linuxfoundation.org/events/apistrat-2018/program/keynote_speakers/), and my drumbeat of stories about the event continues here on the blog. Next up in our session lineup is _"Any Way You Want It: Extending Swagger UI for Fun and Profit"_ by Kyle Shockey (@kyshoc) of SmartBear Software (@SmartBear) on September 25th.
 

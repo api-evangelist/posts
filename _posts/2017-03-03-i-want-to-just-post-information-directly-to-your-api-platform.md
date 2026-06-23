@@ -2,7 +2,7 @@
 layout: post
 title: I Want To Just POST Information Directly To Your API Platform
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-integration-automation.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-integration-automation.png
 atomdate: 2017-03-03T23:00:00.000Z
 tags:
   - Platform

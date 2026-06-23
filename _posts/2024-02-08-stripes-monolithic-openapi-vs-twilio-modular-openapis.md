@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Stripes Monolithic OpenAPI vs. Twilio Modular OpenAPIs
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-containers-stack.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-containers-stack.jpeg
 author:
   name: kinlane
 tags:

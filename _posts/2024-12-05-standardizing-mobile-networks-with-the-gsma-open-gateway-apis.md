@@ -10,7 +10,7 @@ tags:
   - Standards
   - Industries
 image: >-
-  https://kinlane-productions2.s3.us-east-1.amazonaws.com/gsma/open-gateway-initiative-gsma-17330.jpeg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/gsma/open-gateway-initiative-gsma-17330.jpeg
 ---
 I recently sat down with [Henry Calvert, Global Head of Future Networks at the GSMA](https://conversations.apievangelist.com/sessions/2024-12-05-henry-calvert-gsma.html) about their [Open Gateway suite of API for the telecommunications and mobile networking industry](https://www.gsma.com/solutions-and-impact/gsma-open-gateway/). They reached out to me for a conversation, but the APIs were already on my stack of industry API standards to profile, so I appreciated the nudge from the GSMA. I was already working on the diff between GSMA and TM Forum, so this was a good opportunity to roll up my sleeves and learn more.
 

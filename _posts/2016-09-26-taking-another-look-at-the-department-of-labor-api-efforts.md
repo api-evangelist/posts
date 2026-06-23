@@ -2,7 +2,7 @@
 layout: post
 title: Taking Another Look At The Department Of Labor API Efforts
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/developer_dol_gov__united_states_department_of_labor_developer_portal.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/developer_dol_gov__united_states_department_of_labor_developer_portal.png
 atomdate: 2016-09-27T00:00:00.000Z
 tags:
   - Labor
@@ -11,7 +11,7 @@ Someone asked me about the current state of the [Department of Labors (DOL) API 
 
 The vibe when you land on [developer.dol.gov](http://developer.dol.gov) (which is a great subdomain) is nice. It is clean and has all the links that I am looking for, providing access to their APIs, as well as supporting code, while allowing you to ask questions and report bugs.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/developer_dol_gov__united_states_department_of_labor_developer_portal.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/developer_dol_gov__united_states_department_of_labor_developer_portal.png)
 
 One thing I think is interesting in their approach is that they efficiently [use Github in support of their code](http://developer.dol.gov/sdk/), apply [Stack Exchange in support of asking questions](https://opendata.stackexchange.com/questions/ask?tags=labor), and [employ Github issues for reporting bugs](https://github.com/USDepartmentofLabor/Developer/issues/new). I understand that government agencies do not always have the resources necessary to support their API efforts, so this approach seems sensible to me when providing the minimum viable support for an API.
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Evolving World of API Discovery
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2020_08_27_at_9.51.47_am.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2020_08_27_at_9.51.47_am.png
 author:
   name: kinlane
 tags:

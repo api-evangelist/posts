@@ -2,7 +2,7 @@
 layout: post
 title: The Need for More Domain Experts in the API Space
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/Music-App-Icon.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/Music-App-Icon.jpg
 author:
   name: kinlane
 tags:

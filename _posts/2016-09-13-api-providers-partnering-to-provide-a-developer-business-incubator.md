@@ -2,7 +2,7 @@
 layout: post
 title: API Providers Partnering To Provide A Developer Business Incubator
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/box_incubator_construction.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/box_incubator_construction.jpg
 atomdate: 2016-09-14T00:00:00.000Z
 tags:
   - Business

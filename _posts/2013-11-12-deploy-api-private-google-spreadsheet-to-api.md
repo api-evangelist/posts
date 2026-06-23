@@ -2,7 +2,7 @@
 layout: post
 title: 'Deploy API: Private Google Spreadsheet to API'
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/bw-google-docs.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/bw-google-docs.png
 author:
   name: kinlane
 tags:

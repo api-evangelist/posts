@@ -4,13 +4,13 @@ title: Rules for Hackathon Organizers, by Ravi Singh
 url: >-
   http://apievangelist.com/2012/01/11/rules-for-hackathon-organizers,-by-ravi-singh/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/tag-cloud-hackathon.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/tag-cloud-hackathon.png
 author:
   name: kinlane
 tags:
   - Rules
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/tag-cloud-hackathon.png)](http://www.hackweekends.com "Hackathon")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/tag-cloud-hackathon.png)](http://www.hackweekends.com "Hackathon")
 
 I just wrapped up the [AT&T Mobile App Hackathon in Las Vegas](/events/att_mobile_app_hackathon_las_vegas.php "AT&T Mobile Hackathon in Las Vegas"). I had a great time hanging out with developers at the [Palms Hotel](http://www.palms.com/ "Palms Hotel"), and watching everyone compete for the 30K in prizes.
 

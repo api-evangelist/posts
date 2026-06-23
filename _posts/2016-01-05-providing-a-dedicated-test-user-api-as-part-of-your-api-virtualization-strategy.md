@@ -3,7 +3,7 @@ layout: post
 title: >-
   Providing A Dedicated Test User API As Part Of Your API Virtualization
   Strategy
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-test-user.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-test-user.png
 author:
   name: kinlane
 date: 2016-01-05T08:00:00.000Z

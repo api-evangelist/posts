@@ -4,7 +4,7 @@ title: Open and Freemium API Access and Rate Limits
 url: >-
   http://apievangelist.com/2011/11/02/open-and-freemium-api-access-and-rate-limits/
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/top-labs-logo.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/top-labs-logo.jpg
 author:
   name: kinlane
 tags:
@@ -12,7 +12,7 @@ tags:
   - Access
   - Open
 ---
-kinlane-productions2.s3.amazonaws.com [![](http://kinlane-productions.s3.amazonaws.com/api-evangelist/topsy/top-labs-logo.jpg)](http://topsylabs.com/ "Topsy Labs")
+kinlane-productions2.s3.amazonaws.com [![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/topsy/top-labs-logo.jpg)](http://topsylabs.com/ "Topsy Labs")
 
 I’m spending some time getting to know the [Topsy Labs API](http://topsylabs.com/products/api/) today. [Topsy Labs](http://topsylabs.com/ "Topsy Labs") offers access to its proprietary metrics, social content, and influence data via a RESTful API. As I was reviewing, their API access and rates limit page caught my eye.
 

@@ -9,7 +9,7 @@ tags:
   - Overlays
   - Source of Truth
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/gone-with-the-wind-city-clouds-waterfront.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/gone-with-the-wind-city-clouds-waterfront.jpg
 ---
 I use the phrase “source of truth” a lot to describe the authoritative, centralized, up-to-date artifact and discussion surrounding APIs. I tend to consider APIs.json, OpenAPI, and JSON Schema artifacts that are linted using Spectral rules within a GitHub (or other Git) repository. Most technologists believe that the source of truth is in the code running in production, as well as increasingly the gateway runtime. All of these things can be true, and also not be true. The concept of the source of truth is a complex and problematic one that is relative to who you are and where you operate within the API supply, manufacturing, and distribution chains.
 

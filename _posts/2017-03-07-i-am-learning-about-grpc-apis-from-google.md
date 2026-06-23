@@ -2,7 +2,7 @@
 layout: post
 title: I Am Learning About gRPC APIs From Google
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/grpc.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/company/logos/grpc.png
 atomdate: 2017-03-07T17:00:00.000Z
 tags:
   - gRPC

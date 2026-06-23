@@ -2,7 +2,7 @@
 layout: post
 title: An Acceptable Business Model Page For Your API Platform
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/imaterialise-business-models.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/imaterialise-business-models.png
 tags:
   - Business
   - Platform
@@ -11,7 +11,7 @@ One thing I look at closely when I review API platforms is how they approach th
 
 I found the approach by [3D printing API platform i.materialise](https://i.materialise.com/api/docs/upload-model-api/) to be an interesting approach which goes beyond just charging for API access and focuses on helping API consumers align their business model with i.materialises. i.materialise presents API consumers with two possible routes, with the first being referral based, and the second being a deeper, white label relationship.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/imaterialise-business-models.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/imaterialise-business-models.png)
 
 The [i.materialise API provides consumers with access to a  full stack of 3D printing APIs](https://i.materialise.com/api/), allowing you to upload your model, determine what it will cost to print, all the way to assisting you with order fulfillment, delivery, and invoicing. The i.materialise approach to API monetization is different than other APIs I talk about because it's not about paying for API access. In this situation, it's about providing API access to the manufacturing life cycle -- one that is 3D printer driven. 
 

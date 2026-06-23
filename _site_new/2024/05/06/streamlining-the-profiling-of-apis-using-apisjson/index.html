@@ -25,7 +25,7 @@
     
     <meta property="og:site_name" content="API Evangelist">
     <meta property="og:description" content="I have a lot of work to do profiling APIs using APIs.json. I am interested in producing as complete an accurate APIs.json for an API provider as I possibly c...">
-    <meta property="og:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-freeway-interchange-fence.jpeg">
+    <meta property="og:image" content="https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-freeway-interchange-fence.jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -42,7 +42,7 @@
     <meta name="twitter:title" content="Streamlining My Profiling of APIs">
     
     <meta name="twitter:description" content="I have a lot of work to do profiling APIs using APIs.json. I am interested in producing as complete an accurate APIs.json for an API provider as I possibly c...">
-    <meta name="twitter:image" content="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-freeway-interchange-fence.jpeg">
+    <meta name="twitter:image" content="https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-freeway-interchange-fence.jpeg">
 
     <!-- JSON-LD Structured Data -->
     
@@ -52,7 +52,7 @@
       "@type": "Article",
       "headline": "Streamlining My Profiling of APIs",
       "description": "I have a lot of work to do profiling APIs using APIs.json. I am interested in producing as complete an accurate APIs.json for an API provider as I possibly c...",
-      "image": "https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-freeway-interchange-fence.jpeg",
+      "image": "https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-freeway-interchange-fence.jpeg",
       "datePublished": "2024-05-06T00:00:00-04:00",
       "dateModified": "2024-05-06T00:00:00-04:00",
       "author": {
@@ -65,7 +65,7 @@
         "name": "API Evangelist",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"
+          "url": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png"
         }
       },
       "mainEntityOfPage": {
@@ -363,7 +363,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
     </a>
 
     <!-- Toggler -->
@@ -393,7 +393,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
   <div class="offcanvas-header">
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 32px;">
       <span class="ms-2 fw-semibold text-dark">API Evangelist</span>
     </a>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -727,7 +727,7 @@
       </div>
 
       
-      <img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/yellow-journalism-freeway-interchange-fence.jpeg" alt="Streamlining My Profiling of APIs" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
+      <img src="https://kinlane-images.s3.amazonaws.com/shared/yellow-journalism-freeway-interchange-fence.jpeg" alt="Streamlining My Profiling of APIs" class="img-fluid rounded mb-4" style="max-height: 400px; width: 100%; object-fit: cover;">
       
 
       <div class="post-body">
@@ -735,39 +735,39 @@
 
 <p>I am looking for that fine balance between hand-curated and automation. I am looking at streamlining how I profile APIs using APIs.json, but also making sure they are simple, high quality, and possess the API level, but also common API provider level properties. To help document my approach, here is a look at the tool and process I’ve developed to flesh out the API operations for an API provider. Right now I am working on Amazon EventBridge, which I start with a name, rough description, and url to the site.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/apis-json-builder-1.png" width="100%" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json-builder-1.png" width="100%" style="padding: 15px;" /></p>
 
 <p>Once I have the seed of an APIs.json, I click on the strip HTML function I have, and it will clean up the rough description that I have harvested for the API from whatever page I have bookmarked.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/apis-json-builder-2.png" width="100%" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json-builder-2.png" width="100%" style="padding: 15px;" /></p>
 
 <p>Next I click on my “write” function, which will take what information I have for an API and pass it to ChatGPT and ask it to rewrite it for me into something that is a little more readable and coherent (hopefully).</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/apis-json-builder-3.png" width="100%" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json-builder-3.png" width="100%" style="padding: 15px;" /></p>
 
 <p>Now that I have the description cleaned I want to expand beyond the properties I have for each API beyond the URL to the documentation page, and the OpenAPI I generated from the AWS SDK manifest.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/apis-json-builder-4.png" width="100%" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json-builder-4.png" width="100%" style="padding: 15px;" /></p>
 
 <p>I added a search box with a button and wired it up to the Bing web search API to look for pages related to whatever API I am profiling at the time, giving me a list of properties that I can add to my API metadata.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/apis-json-builder-5.png" width="100%" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json-builder-5.png" width="100%" style="padding: 15px;" /></p>
 
 <p>Honestly, the Bing Search results leave quite a bit to be desired which is why I have a Google link next to the button, and I’ll probably wire up another search API, but my plan B right now is to just “harvest” URLs from the documentation page.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/apis-json-builder-6.png" width="100%" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json-builder-6.png" width="100%" style="padding: 15px;" /></p>
 
 <p>These give me all the individual API level properties for each API, further fleshing what resources are available beyond docs and OpenAPI—not all APIs have individual properties, but others have unique properties available for each API.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/apis-json-builder-7.png" width="100%" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json-builder-7.png" width="100%" style="padding: 15px;" /></p>
 
 <p>Once I’ve exhausted searching for other API properties I get to work on the OpenAPI itself, pulling the YAML or JSON OpenAPI (if it exists), and parsing each path, method, and operation to further flesh out the details to include in search.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/apis-json-builder-8.png" width="100%" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json-builder-8.png" width="100%" style="padding: 15px;" /></p>
 
 <p>For working with OpenAPI I have another suite of functions that parse the path for tags, parses summaries that are camelCase, rewrites the description using ChatGPT, and then dedupes and runs each tag against a central vocabulary I have that deletes and translates various key words and phrases into cleaner tags.</p>
 
-<p><img src="https://kinlane-productions2.s3.amazonaws.com/apis-json-builder-9.png" width="100%" style="padding: 15px;" /></p>
+<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apis-json-builder-9.png" width="100%" style="padding: 15px;" /></p>
 
 <p>When you have hundreds of APIs and hundreds of operations this comes in pretty handy—once I stabilize I will further automate and streamline. I have functions I am working on that will not just parse URLs from API portals, but also paths, parameters, examples, and other API elements I need to further flesh out the OpenAPI.</p>
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Open Source Community Tooling Built on AsyncAPI
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-shipping-container-yard-police-boat.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-shipping-container-yard-police-boat.jpg
 author:
   name: kinlane
 tags:

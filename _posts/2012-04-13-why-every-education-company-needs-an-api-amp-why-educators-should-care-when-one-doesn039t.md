@@ -5,7 +5,7 @@ title: >-
   Why Every Education Company Needs an API (&amp; Why Educators Should Care When
   One Doesn&#039;t)
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/darcy_modified.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/blog/darcy_modified.jpg
 author:
   name: kinlane
 tags:

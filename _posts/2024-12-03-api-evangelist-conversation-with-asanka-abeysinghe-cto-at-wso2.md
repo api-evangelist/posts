@@ -7,7 +7,7 @@ tags:
   - API Platforms
   - Internal Developer Portals
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-conversations/api-evangelist-conversations.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
 [Asanka Abeysinghe, CTO at WSO2 came by for a conversation](https://conversations.apievangelist.com/sessions/2024-12-03-asanka-abeysinghe.html) about the realities on the ground within enterprises when it comes to the platformication of all things, from Internet Developer Portals (IDP) to API platforms. Asanka has been at this game for a while, and he and I have been discussing the realities of API management for years now, and we share a lot of the same views when it comes to the expansion and evolution of our space. But, more specifically how do we keep providing what is needed on the ground for teams, no matter what vendor sales cycle or trend we might find ourselves in.
 

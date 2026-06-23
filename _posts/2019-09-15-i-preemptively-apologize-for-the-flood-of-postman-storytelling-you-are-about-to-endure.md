@@ -5,7 +5,7 @@ title: >-
   I Preemptively Apologize For The Flood Of Postman Storytelling You Are About
   To Endure
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/beach-rocks-beach-rocks-currents-blue-circuit-4.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/beach-rocks-beach-rocks-currents-blue-circuit-4.jpg
 author:
   name: kinlane
 tags:

@@ -5,7 +5,7 @@ title: >-
   Algorithmia&#039;s Multi-Platform Data Storage Solution For Machine Learning
   Workflows
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_06_at_11.14.26_am.png
+  https://kinlane-images.s3.amazonaws.com/shared/blog/screen_shot_2017_01_06_at_11.14.26_am.png
 author:
   name: kinlane
 tags:
@@ -20,7 +20,7 @@ I've been working with [Algorithmia](http://algorithmia.io) to manage a large nu
 
 Algorithmia provides you with local data storage--pretty standard stuff, but they also allow you to connect your Amazon S3 account, or your Dropbox account, and connect to specific folders, buckets, while helping you handle all of your permissions. Maybe I have my blinders on with this because I heavily use Amazon S3 as me default online storage, and Dropbox is my secondary store, but I think the concept still is worth sharing..
 
-![](https://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_01_06_at_11.14.26_am.png)
+![](https://kinlane-images.s3.amazonaws.com/shared/blog/screen_shot_2017_01_06_at_11.14.26_am.png)
 
 This allows me to seamlessly manage the objects, documents, files, and other images I store across my operation as part of my machine learning workflow.  Algorithmia even provides you with an intuitive way of referencing files, by allowing each Data URI to uniquely identifies files and directories, with each composed of a protocol and a path, with each service having its own unique protocol:
 

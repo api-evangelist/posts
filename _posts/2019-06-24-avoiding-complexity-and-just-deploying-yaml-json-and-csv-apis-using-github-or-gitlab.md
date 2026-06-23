@@ -4,9 +4,7 @@ layout: post
 title: 'Avoiding Complexity and Just Deploying YAML, JSON, and CSV APIs Using GitHub or GitLab'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/meadowbutterfly-meadow-butterfly-internet-numbers.jpg
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/meadowbutterfly-meadow-butterfly-internet-numbers.jpg" width="45%" align="right" style="padding: 15px;" />
-I find that a significant portion of I should be doing when defining, designing, developing, and delivering an API is all of avoiding complexity. Every step away along the API journey I am faced with opportunities to introduce complexity, forcing me to constantly question and say no to architectural design decisions. Even after crafting some pretty crafty APIs in my day, I keep coming back to JSON or YAML within Git, as the most sensible API architectural decision I can make.
+<p>I find that a significant portion of I should be doing when defining, designing, developing, and delivering an API is all of avoiding complexity. Every step away along the API journey I am faced with opportunities to introduce complexity, forcing me to constantly question and say no to architectural design decisions. Even after crafting some pretty crafty APIs in my day, I keep coming back to JSON or YAML within Git, as the most sensible API architectural decision I can make.
 
 <p>Git, with JSON and YAML stored within a repository, fronted with a Jekyll front-end does much of what I need. The challenge with selling this concept to others is that it is a static publish approach to APIs, instead of a dynamic pull of relevant data. This approach isn’t for every API solution, I’m not in the business selling one API solution to solve all of our problems. However, for many of the API uses I’m building for, a static Git-driven approach to publishing machine readable JSON or YAML data is a perfect low cost, low tech solution to delivering APIs.
 

@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Azure Provides SDK Governance Guidelines
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/azure_sdk_governance.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/azure_sdk_governance.png
 author:
   name: kinlane
 tags:
@@ -25,7 +25,7 @@ Azure provides the following scaffolding when it comes to their guidelines, answ
 
 This outline provides a nice list of governance considerations when it comes to the primary areas of SDK development, providing the first draft of API SDK governance I’ve ever come across. Shining a light on the biggest areas of concern for Microsoft when it comes to delivering SDKs across the company at scale, and providing an open blueprint that other companies, organizations, institutions, and government agencies can consider as well.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/azure_sdk_governance_open_source_policies.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/azure_sdk_governance_open_source_policies.png)
 
 In addition to guidelines for some of the most common concerns, Azure sets forth actual policies that govern how SDKs are developed, delivered, and supported, giving the guidelines some actual governance teeth when it comes to what is expected. Providing policies in the following areas across ALL SDK being delivered for internal and external usage.
 

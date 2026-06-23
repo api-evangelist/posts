@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Guidance On Versioning Your API From Google
-image: https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-version.png
+image: https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-version.png
 atomdate: 2017-03-09T17:00:00.000Z
 tags:
   - Versioning
@@ -17,7 +17,7 @@ To help you in your journey, and mine, I try to document any official versioning
 
 When it comes to their REST APIs Google puts the version in URL, and I'm still learning more about their approach to how it's applied to the proto package for gRPC APIs. They also have some good advice when it comes to what is breaking and non-breaking changes.
 
-![](https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-broken-gears.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/bw-icons/bw-broken-gears.png)
 
 Backwards-compatible (non-breaking) changes:
 

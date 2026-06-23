@@ -2,7 +2,7 @@
 layout: post
 title: Mashery Now Runs On-Premise or in the Cloud
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/mashery-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/mashery-logo.png
 author:
   name: kinlane
 tags:
@@ -12,15 +12,15 @@ Last week [Mashery](http://mashery.com/ "Mashery") rolled out a new on-premise v
 
 Until this last week, Mashery had four API management solutions that all ran in the cloud.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/mashery/Mashery-Products-1.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/mashery/Mashery-Products-1.png)
 
 Now Mashery has separated the proxy portion of their traffic manager into two offerings, one for the cloud and one for on-premise.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/mashery/API-Traffic-Cloud-Local.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/mashery/API-Traffic-Cloud-Local.png)
 
 Mashery has bundled the new Mashery Cloud and Mashery Local with their existing API Traffic, API Analytics & Reporting and API Portal and are calling it, the Mashery API control center. Using the API control center you now have the flexibility to deploy on-premise or in the cloud as needed.
 
-![](http://kinlane-productions2.s3.amazonaws.com/api-service-providers/mashery/mashery-api-control-center.jpg)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/api-service-providers/mashery/mashery-api-control-center.jpg)
 
 Of course the full benefits of the Mashery API Distribution Network which includes scalability, redundancy, PCI compliance, access to global partner network and SLA’s are only available for APIs deployed using Mashery Cloud.
 

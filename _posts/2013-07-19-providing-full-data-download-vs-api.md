@@ -2,7 +2,7 @@
 layout: post
 title: Providing Full Data Download vs API
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/download.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/download.png
 author:
   name: kinlane
 tags:

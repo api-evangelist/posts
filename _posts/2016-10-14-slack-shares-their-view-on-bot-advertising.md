@@ -2,7 +2,7 @@
 layout: post
 title: Slack Shares Their View On Bot Advertising
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/1_z2iwyx5ebaipra4gsrrljw.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/1_z2iwyx5ebaipra4gsrrljw.png
 atomdate: 2016-10-14T18:00:00.000Z
 tags:
   - Advertising

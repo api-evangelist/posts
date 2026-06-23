@@ -2,7 +2,7 @@
 layout: post
 title: The Value Of Operational Level API Exhaust Systems
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/api_data_exhaust_system.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/api_data_exhaust_system.jpg
 atomdate: 2017-05-05T21:00:00.000Z
 tags:
   - Value

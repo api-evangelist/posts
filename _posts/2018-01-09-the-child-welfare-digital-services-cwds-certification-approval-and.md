@@ -4,8 +4,6 @@ layout: post
 title: 'The Child Welfare Digital Services (CWDS) Certification, Approval, and'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/child-welfare-digital-services-california/child-welfare-digital-services.png
 ---
-
-<p><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/child-welfare-digital-services-california/child-welfare-digital-services.png" align="right" width="45%" style="padding: 15px;" />
 <p>My partner Chris Cairns(<a href="https://twitter.com/cscairns">@cscairns</a>) over at <a href="https://skylight.digital/">Skylight</a> sent me a link to <a href="https://github.com/ca-cwds">the Child Welfare Digital Services (CWDS) Certification, Approval, and Licensing Services (CALS) API on Github</a> the other day. The API isn’t your traditional public API, but shows what is possible when it comes to APIs at government agencies. The group behind the API has published their <a href="https://cwds.ca.gov/digital_service_design_standards">Digital Service Development Standards</a>, and is actively using <a href="https://github.com/ca-cwds/cals-api/wiki">a Github Wiki to layout the API strategy for the organization</a>.
 
 <p>To give some backround, the Child Welfare Digital Services (CWDS) is for <em>“state and county workers who ensure that safe and quality licensed facilities and approved homes are available for the children and nonminor dependents who need them, the CALS Digital Service Team will facilitate activities related to ensuring that licensed facilities, approved homes and associated adults meet and maintain required standards.”</em> It makes me happy to see that they are investing so heavily in API, in support of such a worthy cause.

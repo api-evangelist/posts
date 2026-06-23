@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Open Source Community Tooling Built on JSON Schema
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/stalin-time-old-remington-typewriter.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/stalin-time-old-remington-typewriter.jpg
 author:
   name: kinlane
 tags:

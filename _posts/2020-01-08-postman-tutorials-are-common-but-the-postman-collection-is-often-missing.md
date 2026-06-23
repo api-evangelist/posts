@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Postman Tutorials are Common but the Postman Collection is Often Missing
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/clearbit_api_docs_run_in_postman.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/clearbit_api_docs_run_in_postman.png
 author:
   name: kinlane
 tags:

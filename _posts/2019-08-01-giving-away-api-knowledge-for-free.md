@@ -8,7 +8,7 @@ tags:
   - Monetization
   - Consulting
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/gears-4882162452-fa3126b38d-b-wols.jpg
+  https://kinlane-images.s3.amazonaws.com/apievangelist/gears-4882162452-fa3126b38d-b-wols.jpg
 author:
   name: kinlane
 ---

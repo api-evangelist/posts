@@ -9,7 +9,7 @@ tags:
   - Education
   - Training
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/priorities/university-of-api.png
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist/priorities/university-of-api.png
 ---
 <p></p>This is a topic I've wanted to set in motion for some time now. I had a new university professor city my work again as part of one of their courses recently, something that floated this concept to the top of the pile again--API discovery collections meant for just for students. Helping k-12, community college, and university students quickly understand where to find the most relevant APIs to whatever they are working on. Providing human, but also machine readable collections that can help jumpstart their API education.
 

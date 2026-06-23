@@ -2,7 +2,7 @@
 layout: post
 title: Expressing What An API Does As Well As What Is Possible Using OpenAPI
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/tool/openapi-spec.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/tool/openapi-spec.png
 atomdate: 2017-05-01T22:00:00.000Z
 tags:
   - OpenAPI

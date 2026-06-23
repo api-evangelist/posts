@@ -2,7 +2,7 @@
 layout: post
 title: Funding The Development Of An API Ranking Solution
 image: >-
-  https://s3.amazonaws.com/kinlane-productions2/api-evangelist/API-plans-API-pricing-API-rating.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/API-plans-API-pricing-API-rating.png
 atomdate: 2017-01-27T23:00:00.000Z
 tags:
   - Ranking

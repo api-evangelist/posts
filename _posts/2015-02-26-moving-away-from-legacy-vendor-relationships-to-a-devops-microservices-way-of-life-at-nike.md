@@ -4,7 +4,7 @@ title: >-
   Moving Away From Legacy Vendor Relationships To A Devops, Micro-Services Way
   Of Life At Nike
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/heavybit-industries-logo.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/heavybit-industries-logo.png
 author:
   name: kinlane
 tags:

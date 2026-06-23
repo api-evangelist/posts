@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Postman Interceptor But for Product Managers
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/postman-interceptor-add-on-screenshot.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/postman-interceptor-add-on-screenshot.png
 author:
   name: kinlane
 tags:

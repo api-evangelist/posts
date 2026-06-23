@@ -8,7 +8,7 @@ tags:
   - Discovery
   - Landscape
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-los-angeles-downtown-from-afar.jpg
+  https://kinlane-images.s3.amazonaws.com/shared/good-year-home-merchandise-los-angeles-downtown-from-afar.jpg
 ---
 I am talking with folks about the different faces of API discovery, which for me, at the intersection of governance, lifecycle, and the platform from a producer and consumer perspective across internal, 1st-party, and 3rd-party is all about finding the evidence. I’ll cite [Aidan Cunniffe](https://www.linkedin.com/in/acunniffe/) for instigating my views on API evidence, but in my endless journey searching for the API truth, I find evidence to be the most appropriate way to describe what is needed to provide meaningful API discovery solutions at the intersection of API governance, lifecycle, and the platform.
 
@@ -31,7 +31,7 @@ Evidence of APIs exist as a part of conversations we have on the default channel
 
 I’d say messaging provides valuable evidence of APIs, but more importantly the people behind the work occurring to produce and consume APIs, adding a useful layer to the evidence that bridges from the technical side of discovery into the business side of things.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-city-skyline-grey.jpg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/good-year-home-merchandise-city-skyline-grey.jpg" style="padding: 15px;">
 
 ## Manual
 Even with what you can automate with finding evidence of APIs, in my experience you still need humans to be part of the equation and you should be using bookmarklets and buttons to help find evidence of APIs in use across operations anywhere humans frequent.
@@ -53,7 +53,7 @@ With automated discovery, messaging, and human labor tapped, there are a number 
 
 I have a much longer list, but I am starting here to stitch together my API landscape map for any given domain, harvesting all of the paths, parameters, header, schema, and operational or platform signals I can get my hands-on, until a coherent picture of a domain comes into picture.
 
-<img src="https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-nyc-skyline-from-ferry.jpg" style="padding: 15px;">
+<img src="https://kinlane-images.s3.amazonaws.com/shared/good-year-home-merchandise-nyc-skyline-from-ferry.jpg" style="padding: 15px;">
 
 ## Humans
 Evidence isn’t limited to APIs and the technical bits, the human, team, expert, champion, and leaders who make up the human landscape are important to harvest, finding the evidence of teams who are doing the work and caring about both the technical and business details of API operations.

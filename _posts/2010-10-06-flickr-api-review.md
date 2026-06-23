@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Flickr API Review
-image: https://kinlane-productions2.s3.amazonaws.com/flickr.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/flickr.jpg
 author:
   name: kinlane
 tags:

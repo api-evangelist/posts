@@ -8,7 +8,7 @@ tags:
   - YAML
   - CSV
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/birth-of-a-nation-sierraville-post-office.jpeg
+  https://kinlane-images.s3.amazonaws.com/shared/birth-of-a-nation-sierraville-post-office.jpeg
 ---
 I am working with my kiddo on some API work while they are looking for a job after graduating from university, taking advantage of the free labor to help me search for and profile APIs. I enjoy this work, cause despite being around me doing APIs for all these years, it is all still a lot of API blah blah blah to them. I see this as an opportunity for me to help onboard them with some simple concepts, while also stepping back and producing some of the basic building blocks my customers will need to make sense of their own world of APIs.
 

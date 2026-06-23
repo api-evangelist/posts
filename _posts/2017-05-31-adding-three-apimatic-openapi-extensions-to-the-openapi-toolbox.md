@@ -12,7 +12,6 @@ image: >-
 author:
   name: kinlane
 ---
-<p><a href="https://apimatic.io/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/blog/apimatic_dx_kits.png" align="right" width="40%" style="padding: 15px;" /></a></p>
 I've added three OpenAPI extensions from [APIMATIC](https://apimatic.io/) to my [OpenAPI Toolbox](http://openapi.toolbox.apievangelist.com/), adding to the number of extensions I'm tracking on that service providers and tooling developers are using as part of their API solutions. [APIMATIC provides SDK code generation services](https://apimatic.io/), so their OpenAPI extensions are all about customizing how you deploy code as part of the integration process.
 
 These are the three OpenAPI extensions I am adding from them:

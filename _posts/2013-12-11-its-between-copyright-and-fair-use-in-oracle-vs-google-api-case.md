@@ -2,7 +2,7 @@
 layout: post
 title: It&#039;s Between Copyright And Fair Use In Oracle vs Google API Case
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/oraclevgoogle.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/oraclevgoogle.png
 author:
   name: kinlane
 tags:

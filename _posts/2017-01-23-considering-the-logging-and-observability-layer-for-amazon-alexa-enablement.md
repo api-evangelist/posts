@@ -2,7 +2,7 @@
 layout: post
 title: Considering the Logging and Observability Layer for Amazon Alexa Enablement
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/alexa_history.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/alexa_history.png
 atomdate: 2017-01-23T23:00:00.000Z
 tags:
   - Logging

@@ -2,7 +2,7 @@
 layout: post
 title: Google Support Buttons
 image: >-
-  http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_20_at_9.47.56_am.png
+  https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_20_at_9.47.56_am.png
 atomdate: 2017-03-20T16:00:00.000Z
 tags:
   - Support
@@ -12,15 +12,15 @@ tags:
 
 While there are many Google APIs that still have sub-standard support for their APIs, [when you look at Google Sheets you start seeing evidence of their evolved approach to support](https://developers.google.com/sheets/api/support), with a consistent set of buttons that tackle many of the common areas of [API support](http://support.apievangelist.com). For general questions, Google provides two buttons linked to StackOverflow:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_20_at_9.41.01_am.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_20_at_9.41.01_am.png)
 
 The search just drops you into Stack Overflow, with the tag "google sheets api", and the ask a new question drops you into the Stack Overflow submit new question form. For bug reporting, they provide a similar set of buttons:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_20_at_9.45.01_am.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_20_at_9.45.01_am.png)
 
 The search and report bug buttons drop you into the Google Code issues page for Google Sheets, leveraging the issues management for the Gooogle Code repository--something that can just as easily be done with Github issues. Then lastly, they provide a third set of buttons when you are looking to submit a feature:
 
-![](http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2017_03_20_at_9.47.56_am.png)
+![](https://kinlane-images.s3.amazonaws.com/apievangelist/blog/screen_shot_2017_03_20_at_9.47.56_am.png)
 
 Even though there is a typo on the first button, they also leverage Google Code issue management to handle all feature requests. Obviously working to centralize bug and feature reporting, and support management using Google Code--something I do across all my API projects using Github organizations, repositories, and their issue management. I'm guessing Google Support is tapping into Google Code to tackle support across projects at scale.
 
