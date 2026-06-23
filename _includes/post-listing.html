@@ -1,4 +1,6 @@
 <!-- Post Listing -->
+<div class="row">
+<div class="col-12 col-xl-8">
 <div class="d-flex align-items-center mb-4">
   <div>
     <h1 class="mb-0 fs-4">Stories{% if page.year %} from {{ page.year }}{% endif %}</h1>
@@ -85,6 +87,14 @@
 <div id="no-results" class="text-center text-muted py-5" style="display: none;">
   No posts match your filter.
 </div>
+
+</div><!-- /col-xl-8 -->
+<aside class="col-12 col-xl-4 mt-4 mt-xl-0">
+  <div class="sidebar">
+    {% include feature-boxes.html %}
+  </div>
+</aside>
+</div><!-- /row -->
 
 <script>
 function filterPosts() {
