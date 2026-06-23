@@ -50,9 +50,11 @@
 <!-- Post list -->
 <div id="post-list">
   {% assign posts = site.posts %}
+  {% comment %}2010 is the origin year — show it oldest-first so the first post is at the top.{% endcomment %}
+  {% if page.year == "2010" %}{% assign posts = posts | reverse %}{% endif %}
   {% for post in posts %}
-    {% if post.url contains page.year %}
-      {% assign p = post.url | split: "/" %}
+    {% assign p = post.url | split: "/" %}
+    {% if p[1] == page.year %}
       {% assign post_date = p[1] | append: "-" | append: p[2] | append: "-" | append: p[3] %}
       {% assign excerpt = post.content | strip_html | truncate: 200 %}
 
