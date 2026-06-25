@@ -3,7 +3,7 @@ published: true
 layout: post
 title: I Do Not Believe There Is One Tool or Approach to Solve API Governance
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/i-do-not-believe-there-is-one-tool-or-approach-to-solve-api-governance.png
-date: 2026-07-06
+date: 2026-06-25
 author: Kin Lane
 tags:
   - API Governance
