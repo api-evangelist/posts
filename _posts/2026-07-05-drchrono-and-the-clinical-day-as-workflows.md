@@ -3,7 +3,7 @@ published: true
 layout: post
 title: DrChrono and the Clinical Day as Workflows
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/drchrono-and-the-clinical-day-as-workflows.png
-date: 2026-07-13
+date: 2026-07-05
 author: Kin Lane
 tags:
   - APIs

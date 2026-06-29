@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Mapping Particle Health Record Retrieval as Arazzo Workflows
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/mapping-particle-health-record-retrieval-as-arazzo-workflows.png
-date: 2026-07-07
+date: 2026-06-29
 author: Kin Lane
 tags:
   - APIs

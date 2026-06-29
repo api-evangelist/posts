@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Medplum and FHIR as a Developer Backend
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/medplum-and-fhir-as-a-developer-backend.png
-date: 2026-07-12
+date: 2026-07-04
 author: Kin Lane
 tags:
   - APIs

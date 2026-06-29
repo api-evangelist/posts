@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Availity and the X12 Administrative Workflows
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/availity-and-the-x12-administrative-workflows.png
-date: 2026-07-15
+date: 2026-07-07
 author: Kin Lane
 tags:
   - APIs

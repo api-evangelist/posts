@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Stedi and EDI as Modern API Workflows
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/stedi-and-edi-as-modern-api-workflows.png
-date: 2026-07-16
+date: 2026-07-08
 author: Kin Lane
 tags:
   - APIs

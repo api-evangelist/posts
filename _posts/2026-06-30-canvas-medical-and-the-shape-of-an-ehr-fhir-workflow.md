@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Canvas Medical and the Shape of an EHR FHIR Workflow
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/canvas-medical-and-the-shape-of-an-ehr-fhir-workflow.png
-date: 2026-07-08
+date: 2026-06-30
 author: Kin Lane
 tags:
   - APIs

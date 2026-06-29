@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Cerner Oracle Health and the SMART on FHIR Sequence
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/cerner-oracle-health-and-the-smart-on-fhir-sequence.png
-date: 2026-07-09
+date: 2026-07-01
 author: Kin Lane
 tags:
   - APIs

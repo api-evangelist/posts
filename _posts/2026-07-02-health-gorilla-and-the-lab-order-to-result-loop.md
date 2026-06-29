@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Health Gorilla and the Lab Order to Result Loop
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/health-gorilla-and-the-lab-order-to-result-loop.png
-date: 2026-07-10
+date: 2026-07-02
 author: Kin Lane
 tags:
   - APIs
