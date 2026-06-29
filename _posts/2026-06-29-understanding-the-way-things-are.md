@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Understanding the Way Things Are
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/understanding-the-way-things-are.png
-date: 2026-07-07
+date: 2026-06-29
 author: Kin Lane
 tags:
   - API Governance
