@@ -19,4 +19,30 @@ The most basic of these is the SMART on FHIR read flow, and I wrote it down as i
 
 I captured the ones that map to recognized patterns. There is a patient registration upsert that searches by business identifier and branches to update or create, which is the deduplicating intake step at the front of nearly every integration. There is appointment scheduling expressed as the Argonaut Schedule to Slot to Appointment sequence. There is medication prescribing with an allergy and active-medication safety check before the write, a lab order-to-results flow built on ServiceRequest and DiagnosticReport, care plan management across Goal, CarePlan, and CareTeam, and a questionnaire capture flow that follows the HL7 Structured Data Capture pattern underneath Da Vinci's documentation templates. Seven workflows, each one a real clinical sequence rather than a resource catalog.
 
+Here is how that conformance-first SMART read opens, lifted directly from the repo—the CapabilityStatement fetch as an actual first step, then the patient lookup:
+
+```yaml
+- stepId: discoverCapabilities
+  description: Fetch the FHIR CapabilityStatement to confirm supported resources and SMART launch endpoints.
+  operationId: getCapabilityStatement
+  successCriteria:
+  - condition: $statusCode == 200
+- stepId: findPatient
+  description: Locate the patient by family name and date of birth.
+  operationId: searchPatient
+  parameters:
+  - name: family
+    in: query
+    value: $inputs.family
+  - name: birthdate
+    in: query
+    value: $inputs.birthdate
+  successCriteria:
+  - condition: $statusCode == 200
+  outputs:
+    patientId: $response.body#/entry/0/resource/id
+```
+
+All seven Canvas workflows live in the repo at [api-evangelist/canvas-medical/arazzo](https://github.com/api-evangelist/canvas-medical/tree/main/arazzo), including the [SMART US Core retrieval workflow](https://github.com/api-evangelist/canvas-medical/blob/main/arazzo/canvas-medical-smart-us-core-patient-retrieval-workflow.yml) excerpted above and the [patient registration upsert](https://github.com/api-evangelist/canvas-medical/blob/main/arazzo/canvas-medical-patient-registration-workflow.yml).
+
 What I like about doing this against an EHR specifically is that it exposes the assumptions. Writing the prescribing flow forced the allergy check to become a named step instead of an implied best practice. Writing the scheduling flow forced the free-slot search to be explicit rather than hand-waved. None of these steps invent operations—every one references a real operationId in Canvas's own OpenAPI—but stitching them into a workflow turns a pile of capabilities into something you can review, govern, and hand to the next person or the next agent without re-deriving the sequence from scratch.

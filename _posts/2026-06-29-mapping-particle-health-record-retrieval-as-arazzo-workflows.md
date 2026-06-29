@@ -19,4 +19,31 @@ Particle is connected to all three nationwide health information networks, and i
 
 I did not stop at retrieval, because the interesting parts of Particle map cleanly onto the HL7 Da Vinci implementation guides. There is an ADT event subscription workflow that lines up with the Da Vinci Alerts and Notifications pattern—register a patient, subscribe to admit, discharge, and transfer events, and collect the resulting HL7 v2 messages. There is a clinical document exchange workflow in the spirit of Da Vinci CDex, and a network provider discovery workflow that reads the provider map to see which organizations actually held records for a patient. Each one references a real operationId from Particle's own OpenAPI, and each step spells out its parameters and outputs inline so you can read the flow without opening the underlying API description.
 
+Here is the polling heart of that record-retrieval workflow, taken straight from the repo—the wait expressed as an explicit success criteria rather than buried in prose:
+
+```yaml
+- stepId: pollQueryStatus
+  description: Poll the query until the networks have finished returning records (status COMPLETE).
+  operationId: getPatientQueryStatus
+  parameters:
+  - name: particle_patient_id
+    in: path
+    value: $steps.registerPatient.outputs.patientId
+  successCriteria:
+  - context: $response.body
+    condition: $.status == "COMPLETE"
+    type: jsonpath
+- stepId: collectCcda
+  description: Retrieve the consolidated record as C-CDA documents once the query is complete.
+  operationId: getCcdaFiles
+  parameters:
+  - name: particle_patient_id
+    in: path
+    value: $steps.registerPatient.outputs.patientId
+  successCriteria:
+  - condition: $statusCode == 200
+```
+
+All five Particle workflows live in the repo at [api-evangelist/particle-health/arazzo](https://github.com/api-evangelist/particle-health/tree/main/arazzo), including the full [patient record retrieval workflow](https://github.com/api-evangelist/particle-health/blob/main/arazzo/particle-health-patient-record-retrieval-workflow.yml) excerpted above.
+
 The point of doing this is not to produce more YAML. It is to make the standard-shaped workflows in healthcare explicit, portable, and reviewable. When the patient record retrieval sequence lives in an Arazzo file, you can diff it, you can govern it, you can hand it to an agent, and you can compare how two different vendors implement the same Da Vinci pattern. That is the governance angle I keep coming back to: the workflow is where interoperability either happens or quietly falls apart, and writing it down is the first honest step toward managing it.

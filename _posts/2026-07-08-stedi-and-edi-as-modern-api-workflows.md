@@ -19,4 +19,40 @@ The eligibility check workflow is the X12 270/271 round-trip—search for the pa
 
 The fifth workflow is provider enrollment—creating a provider, creating the enrollment, uploading the supporting document, and reading the enrollment back—which is the unglamorous onboarding work that has to happen before any of the transaction flows can run. Each workflow references real operationIds from Stedi's own specs, and because Stedi splits its API across several specs, I kept each workflow pointed at the single spec its operations come from so the references stay unambiguous.
 
+Here is that whole revenue cycle in three steps, taken straight from the repo—837 submission, 277 status, and the converted 835 remittance:
+
+```yaml
+- stepId: submitClaim
+  description: Submit the X12 837 professional claim to the payer through the Stedi network.
+  operationId: ClaimsSubmission
+  requestBody:
+    contentType: application/json
+    payload: $inputs.claim
+  successCriteria:
+  - condition: $statusCode == 200
+  outputs:
+    claimTransactionId: $response.body#/transactionId
+- stepId: checkClaimStatus
+  description: Run the X12 276 claim-status inquiry and read the 277 status response for the submitted claim.
+  operationId: ClaimStatus
+  requestBody:
+    contentType: application/json
+    payload: $inputs.statusRequest
+  successCriteria:
+  - condition: $statusCode == 200
+  outputs:
+    statusTransactionId: $response.body#/transactionId
+- stepId: getRemittance
+  description: Convert the resulting transaction into a human-readable X12 835 electronic remittance advice.
+  operationId: ConvertReport835
+  parameters:
+  - name: transactionId
+    in: path
+    value: $steps.checkClaimStatus.outputs.statusTransactionId
+  successCriteria:
+  - condition: $statusCode == 200
+```
+
+All five Stedi workflows live in the repo at [api-evangelist/stedi/arazzo](https://github.com/api-evangelist/stedi/tree/main/arazzo), including the [professional claim lifecycle workflow](https://github.com/api-evangelist/stedi/blob/main/arazzo/stedi-professional-claim-lifecycle-workflow.yml) excerpted above.
+
 EDI is the perfect closing argument for this whole effort. It is a decades-old standard that still moves a staggering amount of healthcare money, and modernizing the transport without capturing the workflows would only get you halfway. Writing the eligibility, claim lifecycle, and enrollment sequences down as Arazzo means the X12 patterns become portable, reviewable artifacts—the same treatment I gave the FHIR providers—so the clinical and administrative halves of healthcare interoperability finally get described in the same language.

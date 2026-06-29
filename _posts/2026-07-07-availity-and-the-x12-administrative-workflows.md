@@ -19,4 +19,31 @@ The eligibility and benefits workflow is the X12 270/271 pattern: find the payer
 
 The one I think matters most is prior authorization, the X12 278 transaction that is the source of so much friction in American healthcare. The workflow I captured walks the full arc: check whether an authorization is even required, get that result, create the service review, attach the supporting clinical documentation, and read the review back. There is also a claim attachment workflow for the 275 transaction. Every step references a real operationId in Availity's spec, and the polling steps use the actual status enums rather than a generic placeholder.
 
+Here is the front of that 278 prior authorization flow, taken straight from the repo—the auth-required determination feeding into the service review:
+
+```yaml
+- stepId: checkAuthRequired
+  description: Submit the inquiry that determines whether the payer requires authorization for the requested services.
+  operationId: checkIsAuthRequired
+  requestBody:
+    contentType: application/json
+    payload: $inputs.authCheckRequest
+  successCriteria:
+  - condition: $statusCode == 200
+  outputs:
+    checkId: $response.body#/id
+- stepId: createReview
+  description: Create the X12 278 service review request for the requested services.
+  operationId: createServiceReview
+  requestBody:
+    contentType: application/json
+    payload: $inputs.serviceReview
+  successCriteria:
+  - condition: $statusCode == 200
+  outputs:
+    reviewId: $response.body#/id
+```
+
+All four Availity workflows live in the repo at [api-evangelist/availity/arazzo](https://github.com/api-evangelist/availity/tree/main/arazzo), including the [prior authorization workflow](https://github.com/api-evangelist/availity/blob/main/arazzo/availity-prior-authorization-workflow.yml) excerpted above and the [eligibility and benefits workflow](https://github.com/api-evangelist/availity/blob/main/arazzo/availity-eligibility-benefits-workflow.yml).
+
 X12 is exactly the kind of standard that benefits from being made legible. The transaction sets are real and well-defined, but the multi-step, asynchronous, attachment-laden reality of running them is usually buried in integration code. Turning eligibility, claim status, and prior authorization into reviewable Arazzo workflows is a way of taking the administrative side of healthcare as seriously as the clinical side—because that administrative side is where a lot of the cost and frustration actually lives.

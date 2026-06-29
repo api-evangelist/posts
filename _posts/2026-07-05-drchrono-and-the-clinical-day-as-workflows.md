@@ -19,4 +19,37 @@ It starts with a patient registration upsert that searches for an existing patie
 
 The last two close the loop on the parts that keep a practice running. A chart export workflow reads the patient, lists their problems and medications, and exports a C-CDA—the continuity-of-care document that moves a record between systems. And an eligibility and billing workflow walks the revenue cycle: check eligibility, review the day-sheet charges, and add a claim billing note. Every step references a real operationId in DrChrono's spec, with the patient and doctor passed as the query parameters the API actually expects. Nothing is invented; these are the honest shapes of how the API gets used.
 
+Here is that upsert branch, straight from the repo—the search result count deciding whether the flow updates the matched patient or creates a new one:
+
+```yaml
+- stepId: findPatient
+  description: Search for an existing patient by name.
+  operationId: patients_list_list
+  parameters:
+  - name: patient
+    in: query
+    value: $inputs.patientName
+  successCriteria:
+  - condition: $statusCode == 200
+  outputs:
+    matchedPatientId: $response.body#/results/0/id
+  onSuccess:
+  - name: patientExists
+    type: goto
+    stepId: updatePatient
+    criteria:
+    - context: $response.body
+      condition: $.count > 0
+      type: jsonpath
+  - name: patientMissing
+    type: goto
+    stepId: createPatient
+    criteria:
+    - context: $response.body
+      condition: $.count == 0
+      type: jsonpath
+```
+
+All five DrChrono workflows live in the repo at [api-evangelist/drchrono/arazzo](https://github.com/api-evangelist/drchrono/tree/main/arazzo), including the [patient registration upsert](https://github.com/api-evangelist/drchrono/blob/main/arazzo/drchrono-patient-registration-workflow.yml) excerpted above and the [eligibility and billing workflow](https://github.com/api-evangelist/drchrono/blob/main/arazzo/drchrono-eligibility-and-billing-workflow.yml).
+
 A three-hundred-operation API is overwhelming until you realize most of the value lives in a dozen short sequences. Capturing those sequences as Arazzo is how you make a large EHR approachable—for a new integrator, for a governance review, or for an agent that needs to accomplish a task without reasoning over the entire surface. The size of DrChrono's API is the whole reason writing its workflows down is worth doing.

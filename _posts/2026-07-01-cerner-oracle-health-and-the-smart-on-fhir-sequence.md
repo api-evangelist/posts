@@ -19,4 +19,30 @@ I wrote three Arazzo workflows against it. The first is the SMART on FHIR patien
 
 The third is a clinical resource write-back flow that uses Cerner's generic create and update operations to document back into the EHR after locating the patient the resource references. I kept it deliberately generic because that is how the API models writes—one create path parameterized by resource type—and pretending otherwise would invent operations that do not exist. Every step in all three workflows references a real operationId from Oracle Health's own OpenAPI, and the parameters and outputs are inlined so the flow reads on its own.
 
+Here is the head of that SMART retrieval flow, straight from the repo—conformance first, then the patient search that every later step depends on:
+
+```yaml
+- stepId: discoverCapabilities
+  description: Fetch the FHIR CapabilityStatement to confirm supported resources and SMART launch endpoints.
+  operationId: getCapabilityStatement
+  successCriteria:
+  - condition: $statusCode == 200
+- stepId: findPatient
+  description: Locate the patient by name (and identifier when supplied).
+  operationId: searchPatient
+  parameters:
+  - name: name
+    in: query
+    value: $inputs.name
+  - name: identifier
+    in: query
+    value: $inputs.identifier
+  successCriteria:
+  - condition: $statusCode == 200
+  outputs:
+    patientId: $response.body#/entry/0/resource/id
+```
+
+All three Cerner workflows live in the repo at [api-evangelist/cerner/arazzo](https://github.com/api-evangelist/cerner/tree/main/arazzo), including the [SMART on FHIR patient retrieval workflow](https://github.com/api-evangelist/cerner/blob/main/arazzo/cerner-smart-on-fhir-patient-data-retrieval-workflow.yml) excerpted above.
+
 Writing these down for one of the dominant EHRs is the kind of thing I wish more of the ecosystem did out loud. The SMART on FHIR pattern is a genuine standard, but it tends to be re-implemented from documentation over and over. An Arazzo file turns that pattern into a portable artifact you can compare across vendors—Cerner next to Canvas next to anyone else—and that comparability is what makes governance and procurement conversations in healthcare actually tractable.

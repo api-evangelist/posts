@@ -19,4 +19,39 @@ The provider search workflow runs the way a real find-a-doctor query runs: look 
 
 I also captured a directory management workflow, because Ribbon is not only a read surface—you can maintain custom provider records. That flow upserts a provider, sets their locations and specialties, and confirms the record. Directory accuracy is an ongoing maintenance problem, not a one-time load, and modeling the maintenance as a workflow acknowledges that. Every step references a real operationId in Ribbon's spec, with NPIs and location identifiers passed as the path parameters the API uses.
 
+Here is the narrowing core of that search, taken straight from the repo—resolve the carrier, then filter the directory by specialty, location, and that carrier:
+
+```yaml
+- stepId: searchInsurances
+  description: Resolve the insurance carrier to confirm the plan is recognized in the directory.
+  operationId: getInsurances
+  parameters:
+  - name: carrier_name
+    in: query
+    value: $inputs.insuranceCarrier
+  successCriteria:
+  - condition: $statusCode == 200
+  outputs:
+    insuranceId: $response.body#/data/0/uuid
+- stepId: findProviders
+  description: Query the provider directory for practitioners matching the specialty, location, and carrier.
+  operationId: getCustomProviders
+  parameters:
+  - name: specialty
+    in: query
+    value: $inputs.specialty
+  - name: location
+    in: query
+    value: $inputs.location
+  - name: insurance_carrier_name
+    in: query
+    value: $inputs.insuranceCarrier
+  successCriteria:
+  - condition: $statusCode == 200
+  outputs:
+    providerNpi: $response.body#/data/0/npi
+```
+
+All three Ribbon Health workflows live in the repo at [api-evangelist/ribbon-health/arazzo](https://github.com/api-evangelist/ribbon-health/tree/main/arazzo), including the [provider search workflow](https://github.com/api-evangelist/ribbon-health/blob/main/arazzo/ribbon-health-provider-search-workflow.yml) excerpted above.
+
 Directories are where a lot of the friction in healthcare actually lives—the wrong phone number, the doctor who left the network, the plan that is no longer accepted. Treating provider search and directory maintenance as named, reviewable workflows is a small but real step toward taking that friction seriously, and aligning them with the Da Vinci Plan-Net pattern means the work is portable rather than yet another bespoke directory integration.
