@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Your Governance Reaches the Pipeline. It Doesn't Reach the Conversation.
+title: "MCP for Spectral Governance: Make Your API Rules Conversational"
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/making-api-governance-conversational.png
 date: 2026-07-01T12:00:00.000Z
 tags:
