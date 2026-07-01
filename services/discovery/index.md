@@ -27,7 +27,7 @@ sub: Discovery
                 <img src="/images/services/vocabulary.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
                 <h2 class="fs-6 mb-0"><a href="/services/discovery/vocabulary/" class="stretched-link text-decoration-none text-reset">Vocabulary</a></h2>
               </div>
-              <p class="text-muted small mb-0">Develop the words that define what is needed (i.e. KitchenOps, Monitoring, Financial, Invoicing, Grants, etc.).</p>
+              <p class="text-muted small mb-0">Develop the words that define what is needed.</p>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@
 layout: service
 section: Services
 title: Vocabulary
-summary: Develop the words that define what is needed (i.e. KitchenOps, Monitoring, Financial, Invoicing, Grants, etc.) — the shared language your operations are built on.
+summary: Develop the words that define what is needed — the shared language your operations are built on.
 nav: Services
 sub: Discovery
 ---
@@ -24,7 +24,7 @@ sub: Discovery
       <!-- Story -->
       <div class="mb-2" style="max-width: 46rem;">
         <p class="mb-3">I have spent sixteen years watching teams build software before they could agree on what to call the thing they were building. The invoicing team and the billing team meant different things by &ldquo;customer.&rdquo; The word was never written down, so every API, every schema, and every conversation quietly encoded a slightly different version of it. Discovery starts here, with words, because the words are the cheapest thing to get wrong early and the most expensive thing to fix later.</p>
-        <p class="mb-3">When I do vocabulary work with you, I sit with your teams and pull the language of your operations out into the open &mdash; the KitchenOps, the Monitoring, the Financial, the Invoicing, the Grants, whatever your business actually runs on. We name things once, define them plainly, and write the definitions down where everyone can see them and argue with them. Not a taxonomy handed down from an ivory tower &mdash; a working vocabulary your teams recognize as their own.</p>
+        <p class="mb-3">When I do vocabulary work with you, I sit with your teams and pull the language of your operations out into the open &mdash; whatever your business actually runs on. We name things once, define them plainly, and write the definitions down where everyone can see them and argue with them. Not a taxonomy handed down from an ivory tower &mdash; a working vocabulary your teams recognize as their own.</p>
         <p class="mb-3">The goal is not a glossary that rots in a wiki. It is a shared language your interfaces, your standards, your policies, and your stories can all point back to. When the words are settled, everything downstream gets cheaper and calmer.</p>
 
         <h2 class="fs-6 fw-semibold mt-4 mb-2">What you walk away with</h2>
