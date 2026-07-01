@@ -1,8 +1,8 @@
 name: Deploy Jekyll site to Pages
 
-# Builds the site with the same github-pages gem as before, but on GitHub
-# Actions runners (fast, no 10-minute legacy build timeout) and deploys the
-# result to GitHub Pages.
+# Builds the site on GitHub Actions runners (fast, no 10-minute legacy build
+# timeout) using the official jekyll-build-pages action, which ships the same
+# github-pages gem the site already relied on -- so no repo Gemfile is needed.
 
 on:
   push:
@@ -27,20 +27,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.4'
-          bundler-cache: true
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
