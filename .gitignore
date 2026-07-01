@@ -1,9 +1,5 @@
 node_modules
 .DS_Store
 .jekyll-metadata
-gemfile
-Gemfile.lock
-_site_site_new/
-node_modules
-
 _site/
+_site_new/
