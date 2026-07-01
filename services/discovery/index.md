@@ -48,6 +48,18 @@ sub: Discovery
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
               <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/integrations.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0"><a href="/services/discovery/integrations/" class="stretched-link text-decoration-none text-reset">Integrations</a></h2>
+              </div>
+              <p class="text-muted small mb-0">Describe your integrations as portable, forkable Arazzo workflows built on your OpenAPI contracts, instead of building one more one-off connector.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
                 <img src="/images/services/standards.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
                 <h2 class="fs-6 mb-0"><a href="/services/discovery/standards/" class="stretched-link text-decoration-none text-reset">Standards</a></h2>
               </div>

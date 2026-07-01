@@ -1,6 +1,7 @@
 [
   {"slug": "vocabulary",   "subject": "A Maya glyph cartouche with a stylized profile mouth emitting a curling speech/breath scroll, plus a vertical row of small word-block rectangles and dots — naming and language."},
   {"slug": "interfaces",   "subject": "A Maya glyph cartouche of an interlocking woven-mat (pop mat) pattern of cross-hatched panels meeting at the center, with a small dotted circle where they join — connection and interface."},
+  {"slug": "integrations", "subject": "A Maya glyph cartouche of two woven-mat (pop mat) interface panels, one left and one right, joined across the center by a horizontal chain of linked ring-and-scroll segments with a directional curl-arrow flowing through and a few dots — two interfaces described as one portable workflow."},
   {"slug": "standards",    "subject": "A Maya glyph cartouche with a central round seal containing a four-petal quincunx cross, encircled by a ring of evenly spaced dots — an agreed, measured standard."},
   {"slug": "strategies",   "subject": "A Maya glyph cartouche with a stepped pyramid-mountain (witz) and a trail of footprints leading up it, a sun-eye with radiating dots above — a guiding path."},
   {"slug": "experiences",  "subject": "A Maya glyph cartouche showing a stylized human head in profile facing a small paneled interface block dotted with circles — people meeting interfaces."},
