@@ -35,6 +35,15 @@ sub: Evangelism
         </ul>
       </div>
 
+      <!-- Related reading -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
+        <ul class="text-muted mb-0">
+          <li><a href="/2021/11/15/a-blueprint-for-hands-on-api-storytelling/">A Blueprint for Hands-On API Storytelling</a></li>
+          <li><a href="/2025/05/06/healthcare-needs-api-storytelling-to-enlighten-the-space/">Healthcare Needs API Storytelling To Enlighten the Space</a></li>
+        </ul>
+      </div>
+
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">

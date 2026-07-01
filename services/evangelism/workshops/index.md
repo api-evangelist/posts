@@ -35,6 +35,16 @@ sub: Evangelism
         </ul>
       </div>
 
+      <!-- Related reading -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
+        <ul class="text-muted mb-0">
+          <li><a href="/2025/03/24/api-evangelist-weekly-knowledge-builders-are-now-free-and-available-via-12-week-email-newsletters/">API Evangelist Weekly Knowledge Builders Are Now Free Via Email Newsletters</a></li>
+          <li><a href="/2025/02/03/api-evangelist-weekly-api-governance-knowledge-builder-sessions/">API Evangelist Weekly API Governance Knowledge Builder Sessions</a></li>
+          <li><a href="/2025/01/06/the-api-trainings-to-help-you-learn-more-about-apis/">The API Trainings to Help You Learn More About APIs</a></li>
+        </ul>
+      </div>
+
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">

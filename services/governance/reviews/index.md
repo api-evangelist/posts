@@ -35,6 +35,16 @@ sub: Governance
         </ul>
       </div>
 
+      <!-- Related reading -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
+        <ul class="text-muted mb-0">
+          <li><a href="/2026/07/04/api-reviews-and-provenance-over-enforcement/">API Reviews and Provenance: Accountability Over Enforcement</a></li>
+          <li><a href="/2026/01/06/my-avalara-api-review-provides-a-benchmark-for-modern-api-operations/">My Avalara API Review Provides a Benchmark for Modern API Operations</a></li>
+          <li><a href="/2025/02/14/the-openapi-doctors-diagnosis-is-tough-but-worth-it/">The OpenAPI Doctor&rsquo;s Diagnosis is Tough But Worth It</a></li>
+        </ul>
+      </div>
+
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">

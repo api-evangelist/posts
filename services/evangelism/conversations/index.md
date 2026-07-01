@@ -35,6 +35,16 @@ sub: Evangelism
         </ul>
       </div>
 
+      <!-- Related reading -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
+        <ul class="text-muted mb-0">
+          <li><a href="/2026/01/26/weekly-api-evangelist-conversations/">Weekly API Evangelist Conversations</a></li>
+          <li><a href="/2025/02/18/api-evangelist-conversation-with-frank-kilcommins-about-the-openapi-arazzo-specification/">API Evangelist Conversation With Frank Kilcommins About the OpenAPI Arazzo Specification</a></li>
+          <li><a href="/2025/03/05/api-evangelist-conversation-with-marc-laventure-of-scalar/">An API Evangelist Conversation With Marc Laventure of Scalar</a></li>
+        </ul>
+      </div>
+
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">

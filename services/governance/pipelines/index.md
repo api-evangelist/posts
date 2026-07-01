@@ -35,6 +35,16 @@ sub: Governance
         </ul>
       </div>
 
+      <!-- Related reading -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
+        <ul class="text-muted mb-0">
+          <li><a href="/2026/07/02/ci-cd-pipelines-make-governance-consistent/">CI/CD Pipelines Make Governance Consistent</a></li>
+          <li><a href="/2025/03/05/the-semantics-of-api-pipelines/">The Semantics of API Pipelines</a></li>
+          <li><a href="/2025/03/18/roll-out-api-governance-rules-by-domain-or-team-in-cicd-pipelines/">Roll Out API Governance Rules By Domain or Team in CI/CD Pipelines</a></li>
+        </ul>
+      </div>
+
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">

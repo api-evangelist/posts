@@ -35,6 +35,15 @@ sub: Discovery
         </ul>
       </div>
 
+      <!-- Related reading -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
+        <ul class="text-muted mb-0">
+          <li><a href="/2026/02/25/the-promise-of-a-new-specification/">The Promise of a New Specification</a></li>
+          <li><a href="/2025/01/14/what-is-openapi/">What is OpenAPI?</a></li>
+        </ul>
+      </div>
+
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">

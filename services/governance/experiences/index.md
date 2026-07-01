@@ -35,6 +35,16 @@ sub: Governance
         </ul>
       </div>
 
+      <!-- Related reading -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
+        <ul class="text-muted mb-0">
+          <li><a href="/2026/04/16/the-next-wave-of-api-investments-will-be-all-about-experience/">The Next Wave of API Investments Will Be All About Experience</a></li>
+          <li><a href="/2026/07/03/openapi-overlays-for-improving-developer-experience/">OpenAPI Overlays for Improving Developer Experience</a></li>
+          <li><a href="/2026/05/21/stripe-through-the-lens-of-api-evangelist/">Stripe Through the Lens of API Evangelist</a></li>
+        </ul>
+      </div>
+
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">

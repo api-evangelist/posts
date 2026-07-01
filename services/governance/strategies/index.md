@@ -35,6 +35,15 @@ sub: Governance
         </ul>
       </div>
 
+      <!-- Related reading -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
+        <ul class="text-muted mb-0">
+          <li><a href="/2024/09/25/api-strategy/">API Strategy</a></li>
+          <li><a href="/2024/10/06/developing-your-api-integration-strategy/">Developing Your API Integration Strategy</a></li>
+        </ul>
+      </div>
+
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">

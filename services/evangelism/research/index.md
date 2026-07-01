@@ -35,6 +35,16 @@ sub: Evangelism
         </ul>
       </div>
 
+      <!-- Related reading -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
+        <ul class="text-muted mb-0">
+          <li><a href="/2019/12/28/how-my-api-evangelist-research-and-writing-works/">How My API Evangelist Research and Writing Works</a></li>
+          <li><a href="/2026/06/04/the-apis-of-the-worlds-top-universities/">The APIs of the World&rsquo;s Top Universities &mdash; 634 of Them</a></li>
+          <li><a href="/2025/01/10/the-current-state-of-api-technology-in-the-enterprise/">The Current State of API Technology in the Enterprise</a></li>
+        </ul>
+      </div>
+
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">

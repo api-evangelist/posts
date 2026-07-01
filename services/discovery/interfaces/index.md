@@ -35,6 +35,16 @@ sub: Discovery
         </ul>
       </div>
 
+      <!-- Related reading -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
+        <ul class="text-muted mb-0">
+          <li><a href="/2026/06/24/start-by-mapping-your-api-landscape/">Start by Mapping Your API Landscape</a></li>
+          <li><a href="/2025/03/18/do-not-do-anything-new-just-map-the-apis-you-have/">Don&rsquo;t Do Anything New &mdash; Just Map the APIs You Have</a></li>
+          <li><a href="/2026/06/12/your-diverse-api-toolbox/">Your Diverse API Toolbox</a></li>
+        </ul>
+      </div>
+
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">

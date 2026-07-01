@@ -35,6 +35,16 @@ sub: Evangelism
         </ul>
       </div>
 
+      <!-- Related reading -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
+        <ul class="text-muted mb-0">
+          <li><a href="/2026/07/01/the-consumer-decides-the-gateway/">The Consumer Decides the Gateway: API Governance at the Consumption Layer</a></li>
+          <li><a href="/2026/05/16/the-bullshit-levels-came-down-at-apidays-nyc/">The Bullshit Levels Came Down at APIDays NYC</a></li>
+          <li><a href="/2024/10/22/api-days-nyc-insiders-reception/">My API Governance Narrative For APIdays Insider NYC</a></li>
+        </ul>
+      </div>
+
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">

@@ -35,6 +35,16 @@ sub: Discovery
         </ul>
       </div>
 
+      <!-- Related reading -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
+        <ul class="text-muted mb-0">
+          <li><a href="/2026/04/08/you-see-a-spec-i-see-a-common-language-and-a-common-understanding/">You See a Spec, I See a Common Language, and a Common Understanding</a></li>
+          <li><a href="/2025/03/14/establishing-a-naming-convention-for-api-governance-rules/">Establishing a Naming Convention for API Governance Rules</a></li>
+          <li><a href="/2024/10/16/api-governance-policy-rules-and-guidance-for-api-naming/">API Governance Policy, Rules, and Guidance for Naming APIs</a></li>
+        </ul>
+      </div>
+
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">
