@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Pipelines
 summary: Define and iterate upon the CI/CD pipelines you need to automate the integration and deployment of operations.

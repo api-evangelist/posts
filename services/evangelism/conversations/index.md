@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Conversations
 summary: Engage in in-person and virtual conversations which can be made available via podcasts and reusable videos.

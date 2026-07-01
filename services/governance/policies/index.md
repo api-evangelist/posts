@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Policies
 summary: Define and iterate upon the business policies that shape and drive your business operations in repeatable ways.

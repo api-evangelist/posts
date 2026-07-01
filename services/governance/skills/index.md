@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Skills
 summary: Define and iterate upon the skills you need to operate your business using human and programmatic resources.

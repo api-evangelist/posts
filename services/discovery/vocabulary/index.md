@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Vocabulary
 summary: Develop the words that define what is needed (i.e. KitchenOps, Monitoring, Financial, Invoicing, Grants, etc.) — the shared language your operations are built on.

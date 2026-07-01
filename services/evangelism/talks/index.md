@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Talks
 summary: Provide in-person and virtual talks on a variety of relevant topics at the intersection of people and interfaces.

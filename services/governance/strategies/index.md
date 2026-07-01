@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Strategies
 summary: Define and iterate upon the business strategies that are guiding how technology is used by business operations.

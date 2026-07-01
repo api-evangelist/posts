@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Interfaces
 summary: Map the landscape of existing commercial or open-source interfaces available, and develop new ones when needed.

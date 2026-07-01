@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Papers
 summary: Iterate and publish formal research into specific topics, providing free and commercial blueprints on topics.

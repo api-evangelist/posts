@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Experiences
 summary: Help identify, focus on, and refine the experiences that exist at the intersection of people and interfaces.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Research
 summary: Publish research into vocabulary topics, outlining interfaces, standards, policies, rules, pipelines, and skills.

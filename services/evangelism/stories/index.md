@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Stories
 summary: Craft stories that get published to blogs, social networks, newsletters, and other channels you use for business.

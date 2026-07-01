@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Workshops
 summary: Conduct in-person and virtual workshops on relevant topics at the intersection of people and interfaces.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Standards
 summary: Identify and develop the standards required to ensure the interoperability of any aspect of business operations.

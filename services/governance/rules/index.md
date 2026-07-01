@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Rules
 summary: Define and iterate upon the machine-readable rules that govern the manual and automated aspects of your operations.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service
 section: Services
 title: Reviews
 summary: Provide formal reviews of policies, rules, pipelines, and skills used to govern repeatable business operations.
