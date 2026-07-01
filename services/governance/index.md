@@ -25,7 +25,7 @@ sub: Governance
             <div class="card-body">
               <div class="d-flex align-items-center mb-2">
                 <img src="/images/services/strategies.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
-                <h2 class="fs-6 mb-0">Strategies</h2>
+                <h2 class="fs-6 mb-0"><a href="/services/governance/strategies/" class="stretched-link text-decoration-none text-reset">Strategies</a></h2>
               </div>
               <p class="text-muted small mb-0">Define and iterate upon the business strategies that are guiding how technology is used by business operations.</p>
             </div>
@@ -37,7 +37,7 @@ sub: Governance
             <div class="card-body">
               <div class="d-flex align-items-center mb-2">
                 <img src="/images/services/experiences.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
-                <h2 class="fs-6 mb-0">Experiences</h2>
+                <h2 class="fs-6 mb-0"><a href="/services/governance/experiences/" class="stretched-link text-decoration-none text-reset">Experiences</a></h2>
               </div>
               <p class="text-muted small mb-0">Help identify, focus on, and refine the experiences that exist at the intersection of people and interfaces.</p>
             </div>
@@ -49,7 +49,7 @@ sub: Governance
             <div class="card-body">
               <div class="d-flex align-items-center mb-2">
                 <img src="/images/services/policies.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
-                <h2 class="fs-6 mb-0">Policies</h2>
+                <h2 class="fs-6 mb-0"><a href="/services/governance/policies/" class="stretched-link text-decoration-none text-reset">Policies</a></h2>
               </div>
               <p class="text-muted small mb-0">Define and iterate upon the business policies that shape and drive your business operations in repeatable ways.</p>
             </div>
@@ -61,7 +61,7 @@ sub: Governance
             <div class="card-body">
               <div class="d-flex align-items-center mb-2">
                 <img src="/images/services/rules.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
-                <h2 class="fs-6 mb-0">Rules</h2>
+                <h2 class="fs-6 mb-0"><a href="/services/governance/rules/" class="stretched-link text-decoration-none text-reset">Rules</a></h2>
               </div>
               <p class="text-muted small mb-0">Define and iterate upon the machine-readable rules that govern the manual and automated aspects of your operations.</p>
             </div>
@@ -73,7 +73,7 @@ sub: Governance
             <div class="card-body">
               <div class="d-flex align-items-center mb-2">
                 <img src="/images/services/pipelines.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
-                <h2 class="fs-6 mb-0">Pipelines</h2>
+                <h2 class="fs-6 mb-0"><a href="/services/governance/pipelines/" class="stretched-link text-decoration-none text-reset">Pipelines</a></h2>
               </div>
               <p class="text-muted small mb-0">Define and iterate upon the CI/CD pipelines you need to automate the integration and deployment of operations.</p>
             </div>
@@ -85,7 +85,7 @@ sub: Governance
             <div class="card-body">
               <div class="d-flex align-items-center mb-2">
                 <img src="/images/services/skills.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
-                <h2 class="fs-6 mb-0">Skills</h2>
+                <h2 class="fs-6 mb-0"><a href="/services/governance/skills/" class="stretched-link text-decoration-none text-reset">Skills</a></h2>
               </div>
               <p class="text-muted small mb-0">Define and iterate upon the skills you need to operate your business using human and programmatic resources.</p>
             </div>
@@ -97,7 +97,7 @@ sub: Governance
             <div class="card-body">
               <div class="d-flex align-items-center mb-2">
                 <img src="/images/services/reviews.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
-                <h2 class="fs-6 mb-0">Reviews</h2>
+                <h2 class="fs-6 mb-0"><a href="/services/governance/reviews/" class="stretched-link text-decoration-none text-reset">Reviews</a></h2>
               </div>
               <p class="text-muted small mb-0">Provide formal reviews of policies, rules, pipelines, and skills used to govern repeatable business operations.</p>
             </div>
