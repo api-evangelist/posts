@@ -839,7 +839,7 @@
   link:
   label:
 - date: 1986
-  title: 386 Computer
+  title: "386 Computer"
   list:
   description:
   link:
@@ -1067,7 +1067,7 @@
   link:
   label:
 - date: 1997
-  title: 802.11
+  title: "802.11"
   list:
   description:
   link:
@@ -1120,6 +1120,12 @@
   description:
   link:
   label:
+- date: 2000
+  title: UDDI (Universal Description, Discovery, and Integration)
+  list:
+  description:
+  link:
+  label:
 - date: 2001
   title: Agile Manifesto
   list:
@@ -1144,6 +1150,12 @@
   description:
   link:
   label:
+- date: 2002
+  title: Security Assertion Markup Language (SAML)
+  list:
+  description:
+  link:
+  label:
 - date: 2003
   title: Delicious
   list:
@@ -1157,7 +1169,7 @@
   link:
   label:
 - date: 2003
-  title: 64-Bit Processor
+  title: "64-Bit Processor"
   list:
   description:
   link:
@@ -1234,6 +1246,12 @@
   description:
   link:
   label:
+- date: 2005
+  title: OpenID
+  list:
+  description:
+  link:
+  label:
 - date: 2006
   title: Amazon S3
   list:
@@ -1288,6 +1306,12 @@
   description:
   link:
   label:
+- date: 2006
+  title: Server-Sent Events (SSE)
+  list:
+  description:
+  link:
+  label:
 - date: 2007
   title: Heroku
   list:
@@ -1308,6 +1332,18 @@
   label:
 - date: 2007
   title: Webhook
+  list:
+  description:
+  link:
+  label:
+- date: 2007
+  title: OData
+  list:
+  description:
+  link:
+  label:
+- date: 2007
+  title: "3scale API Management"
   list:
   description:
   link:
@@ -1366,6 +1402,18 @@
   description:
   link:
   label:
+- date: 2009
+  title: Web Application Description Language (WADL)
+  list:
+  description:
+  link:
+  label:
+- date: 2009
+  title: WebSub (PubSubHubbub)
+  list:
+  description:
+  link:
+  label:
 - date: 2010
   title: iPad
   list:
@@ -1404,6 +1452,12 @@
   label:
 - date: 2010
   title: Docker
+  list:
+  description:
+  link:
+  label:
+- date: 2010
+  title: JSON Schema
   list:
   description:
   link:
@@ -1456,6 +1510,36 @@
   description:
   link:
   label:
+- date: 2011
+  title: Hypertext Application Language (HAL)
+  list:
+  description:
+  link:
+  label:
+- date: 2011
+  title: IFTTT
+  list:
+  description:
+  link:
+  label:
+- date: 2011
+  title: Zapier
+  list:
+  description:
+  link:
+  label:
+- date: 2011
+  title: WebRTC
+  list:
+  description:
+  link:
+  label:
+- date: 2011
+  title: System for Cross-domain Identity Management (SCIM)
+  list:
+  description:
+  link:
+  label:
 - date: 2012
   title: President Obama Federal Government API Mandate
   list:
@@ -1504,6 +1588,24 @@
   description:
   link:
   label:
+- date: 2013
+  title: RESTful API Modeling Language (RAML)
+  list:
+  description:
+  link:
+  label:
+- date: 2013
+  title: Plaid
+  list:
+  description:
+  link:
+  label:
+- date: 2013
+  title: QUIC
+  list:
+  description:
+  link:
+  label:
 - date: 2014
   title: Kubernetes
   list:
@@ -1542,6 +1644,30 @@
   label:
 - date: 2014
   title: ESPN ends its public API program, signaling broader shifts in API strategies
+  list:
+  description:
+  link:
+  label:
+- date: 2014
+  title: API Commons
+  list:
+  description:
+  link:
+  label:
+- date: 2014
+  title: OpenID Connect
+  list:
+  description:
+  link:
+  label:
+- date: 2014
+  title: Azure API Management
+  list:
+  description:
+  link:
+  label:
+- date: 2014
+  title: Netflix Retires Its Public API
   list:
   description:
   link:
@@ -1594,6 +1720,30 @@
   description:
   link:
   label:
+- date: 2015
+  title: APIs.json
+  list:
+  description:
+  link:
+  label:
+- date: 2015
+  title: OpenAPI Initiative Founded
+  list:
+  description:
+  link:
+  label:
+- date: 2015
+  title: "JSON:API"
+  list:
+  description:
+  link:
+  label:
+- date: 2015
+  title: Kong API Gateway (Open Source)
+  list:
+  description:
+  link:
+  label:
 - date: 2016
   title: GDPR
   list:
@@ -1630,6 +1780,18 @@
   description:
   link:
   label:
+- date: 2018
+  title: CloudEvents
+  list:
+  description:
+  link:
+  label:
+- date: 2018
+  title: Facebook Cambridge Analytica API Scandal
+  list:
+  description:
+  link:
+  label:
 - date: 2019
   title: MuleSoft Acquired by Salesforce
   list:
@@ -1638,6 +1800,12 @@
   label:
 - date: 2020
   title: COVID Accelerates API Adoption
+  list:
+  description:
+  link:
+  label:
+- date: 2020
+  title: OpenAI API (GPT-3)
   list:
   description:
   link:
@@ -1654,6 +1822,18 @@
   description:
   link:
   label:
+- date: 2022
+  title: LangChain
+  list:
+  description:
+  link:
+  label:
+- date: 2022
+  title: ProgrammableWeb Shuts Down
+  list:
+  description:
+  link:
+  label:
 - date: 2023
   title: ChatGPT API
   list:
@@ -1662,6 +1842,30 @@
   label:
 - date: 2023
   title: OpenAI Function Calling
+  list:
+  description:
+  link:
+  label:
+- date: 2023
+  title: Anthropic Claude API
+  list:
+  description:
+  link:
+  label:
+- date: 2023
+  title: OpenAI Assistants API
+  list:
+  description:
+  link:
+  label:
+- date: 2023
+  title: Twitter/X API Pricing Overhaul
+  list:
+  description:
+  link:
+  label:
+- date: 2023
+  title: Reddit API Pricing Controversy
   list:
   description:
   link:
