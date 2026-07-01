@@ -40,7 +40,7 @@ I have done the exercise before of exploding the properties across interface spe
 That fragmentation costs us. It costs tooling authors, who rebuild the same validators, linters, mockers, and code generators once per specification. It costs the people doing governance, who have to learn each format's idioms separately. And it costs the everyday developer, who has to hold all of these mental models at once just to describe a single system that speaks more than one protocol.
 
 ## The Opportunity Is Sitting Right There
-Because all of these specifications already share a roof, the hard part—neutral, vendor-independent governance with a real IP framework and a path to ISO ratification—is already solved. What is missing is the connective work between them. And that is exactly the kind of work the Linux Foundation is positioned to convene.
+Because all of these specifications already share a roof, the hard part—neutral, vendor-independent governance with a real IP framework and a path to ISO ratification—is already solved. What is missing is the connective work between them.
 
 I keep coming back to a few concrete things these projects could be sharing:
 
