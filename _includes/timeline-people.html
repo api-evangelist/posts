@@ -9,11 +9,8 @@
             <h6>
                 <a href="{{ people.website }}" target="_blank" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="{{ people.title }}" data-bs-content="{{ people.details }}">{{ people.title }}</a>
                 {% if people.label %}
-                    <span class="timeline-label">{{ people.label }}</span>
-                {% endif %}
-                {% if people.tags %}
                     <span class="timeline-tags">
-                        {% for tag in people.tags %}<span class="timeline-tag">{{ tag }}</span>{% endfor %}
+                        {% for tag in people.label %}<span class="timeline-tag">{{ tag }}</span>{% endfor %}
                     </span>
                 {% endif %}
             </h6>
