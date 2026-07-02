@@ -3,7 +3,7 @@ layout: none
 permalink: /.well-known/api-onboarding
 ---
 {
-  "aid": "0.1",
+  "aod": "0.1",
   "provider": {
     "name": "API Evangelist",
     "url": "https://apievangelist.com",
