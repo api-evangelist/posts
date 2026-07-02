@@ -5,4 +5,5 @@
 # Jekyll outputs the source file to /.well-known/api-catalog.json — rewrite the
 # canonical path to the actual file. 200 = URL stays, content from new path.
 /.well-known/api-catalog       /.well-known/api-catalog.json       200
+/.well-known/api-onboarding    /.well-known/api-onboarding.json    200
 /.well-known/agent-skills      /.well-known/agent-skills/index.json 200

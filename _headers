@@ -6,6 +6,11 @@
   Content-Type: application/linkset+json
   Cache-Control: public, max-age=3600
 
+# API Onboarding Descriptor (AOD) — application/json.
+/.well-known/api-onboarding
+  Content-Type: application/json
+  Cache-Control: public, max-age=3600
+
 # Agent Skills discovery RFC v0.2.0 — application/json.
 /.well-known/agent-skills/index.json
   Content-Type: application/json
