@@ -7,7 +7,7 @@
         </div>
         <div class="tm-timeline-body">
             <h6>
-                <a href="{{ people.website }}" target="_blank" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="{{ people.title }}" data-bs-content="{{ people.details }}">{{ people.title }}</a>
+                <a href="{{ people.link }}" target="_blank" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="{{ people.title }}" data-bs-content="{{ people.description | strip_html | escape }}">{{ people.title }}</a>
                 {% if people.label %}
                     <span class="timeline-tags">
                         {% for tag in people.label %}<span class="timeline-tag">{{ tag }}</span>{% endfor %}

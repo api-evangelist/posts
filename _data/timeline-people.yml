@@ -2474,3 +2474,384 @@
   link: https://en.wikipedia.org/wiki/Orson_Welles
   image_path:
   image_width: 150
+- date:
+  title: Roy Fielding
+  description: "Roy Fielding is an American computer scientist who co-authored the HTTP specification and defined the Representational State Transfer (REST) architectural style in his 2000 dissertation, shaping how the modern web and APIs are designed."
+  link: https://en.wikipedia.org/wiki/Roy_Fielding
+  image_path:
+  image_width:
+  list:
+  birth: 1965
+  death:
+  label:
+    - APIs
+    - REST
+    - HTTP
+    - Web
+- date:
+  title: Jon Postel
+  description: "Jon Postel was an American computer scientist who edited the Request for Comments series and administered the early internet's assigned numbers and domain names, earning him the informal title of god of the internet."
+  link: https://en.wikipedia.org/wiki/Jon_Postel
+  image_path:
+  image_width:
+  list:
+  birth: 1943
+  death: 1998
+  label:
+    - Internet
+    - Standards
+    - DNS
+    - RFCs
+- date:
+  title: Paul Baran
+  description: "Paul Baran was a Polish-American engineer who, independently of Donald Davies, developed the concept of packet-switched networks that became a foundation of the internet."
+  link: https://en.wikipedia.org/wiki/Paul_Baran
+  image_path:
+  image_width:
+  list:
+  birth: 1926
+  death: 2011
+  label:
+    - Internet
+    - Networks
+- date:
+  title: Donald Davies
+  description: "Donald Davies was a Welsh computer scientist who independently invented packet switching and coined the term, a core technique underlying the internet."
+  link: https://en.wikipedia.org/wiki/Donald_Davies
+  image_path:
+  image_width:
+  list:
+  birth: 1924
+  death: 2000
+  label:
+    - Internet
+    - Networks
+- date:
+  title: Leonard Kleinrock
+  description: "Leonard Kleinrock is an American computer scientist whose work on the theory of packet networks helped establish ARPANET; his lab sent the first message over the network in 1969."
+  link: https://en.wikipedia.org/wiki/Leonard_Kleinrock
+  image_path:
+  image_width:
+  list:
+  birth: 1934
+  death:
+  label:
+    - Internet
+    - Networks
+- date:
+  title: Paul Mockapetris
+  description: "Paul Mockapetris is an American computer scientist who invented the Domain Name System, the distributed naming system that maps human-readable names to internet addresses."
+  link: https://en.wikipedia.org/wiki/Paul_Mockapetris
+  image_path:
+  image_width:
+  list:
+  birth: 1948
+  death:
+  label:
+    - Internet
+    - DNS
+- date:
+  title: Bob Metcalfe
+  description: "Robert Metcalfe is an American engineer who co-invented Ethernet, the dominant technology for local area networking, and co-founded 3Com."
+  link: https://en.wikipedia.org/wiki/Robert_Metcalfe
+  image_path:
+  image_width:
+  list:
+  birth: 1946
+  death:
+  label:
+    - Networks
+    - Ethernet
+- date:
+  title: Marc Andreessen
+  description: "Marc Andreessen is an American entrepreneur who co-created Mosaic, the first widely used web browser, and co-founded Netscape, helping bring the World Wide Web to the mainstream."
+  link: https://en.wikipedia.org/wiki/Marc_Andreessen
+  image_path:
+  image_width:
+  list:
+  birth: 1971
+  death:
+  label:
+    - Web
+    - Browsers
+- date:
+  title: Brendan Eich
+  description: "Brendan Eich is an American programmer who created the JavaScript programming language at Netscape in 1995, now the ubiquitous language of the web."
+  link: https://en.wikipedia.org/wiki/Brendan_Eich
+  image_path:
+  image_width:
+  list:
+  birth: 1961
+  death:
+  label:
+    - Web
+    - JavaScript
+- date:
+  title: Douglas Crockford
+  description: "Douglas Crockford is an American programmer who specified and popularized JSON, the lightweight data-interchange format that became the lingua franca of web APIs."
+  link: https://en.wikipedia.org/wiki/Douglas_Crockford
+  image_path:
+  image_width:
+  list:
+  birth: 1955
+  death:
+  label:
+    - APIs
+    - JSON
+    - Web
+- date:
+  title: Tim Bray
+  description: "Tim Bray is a Canadian software developer who co-authored the XML specification and the Atom syndication format, foundational standards for structured data on the web."
+  link: https://en.wikipedia.org/wiki/Tim_Bray
+  image_path:
+  image_width:
+  list:
+  birth: 1955
+  death:
+  label:
+    - Web
+    - XML
+    - Standards
+- date:
+  title: Tony Tam
+  description: "Tony Tam is a software engineer who created Swagger, the API description framework that became the OpenAPI Specification, the de facto standard for describing HTTP APIs."
+  link: https://en.wikipedia.org/wiki/OpenAPI_Specification
+  image_path:
+  image_width:
+  list:
+  birth: 1972
+  death:
+  label:
+    - APIs
+    - OpenAPI
+- date:
+  title: John Musser
+  description: "John Musser founded ProgrammableWeb in 2005, the first major directory of public web APIs and mashups, chronicling the growth of the API economy."
+  link: https://en.wikipedia.org/wiki/ProgrammableWeb
+  image_path:
+  image_width:
+  list:
+  birth: 1966
+  death:
+  label:
+    - APIs
+    - Discovery
+- date:
+  title: Jeff Bezos
+  description: "Jeff Bezos is the founder of Amazon, whose internal mandate that all teams expose data and functionality through service interfaces reshaped how organizations build with APIs and led to AWS."
+  link: https://en.wikipedia.org/wiki/Jeff_Bezos
+  image_path:
+  image_width:
+  list:
+  birth: 1964
+  death:
+  label:
+    - APIs
+    - Platform
+- date:
+  title: Werner Vogels
+  description: "Werner Vogels is the chief technology officer of Amazon, a leading advocate for service-oriented and API-driven architecture and a key figure behind Amazon Web Services."
+  link: https://en.wikipedia.org/wiki/Werner_Vogels
+  image_path:
+  image_width:
+  list:
+  birth: 1958
+  death:
+  label:
+    - APIs
+    - Cloud
+- date:
+  title: Leonard Richardson
+  description: "Leonard Richardson is a programmer and author who co-wrote RESTful Web Services and created the Richardson Maturity Model for evaluating the RESTfulness of APIs."
+  link: https://en.wikipedia.org/wiki/Richardson_Maturity_Model
+  image_path:
+  image_width:
+  list:
+  birth: 1979
+  death:
+  label:
+    - APIs
+    - Hypermedia
+- date:
+  title: Mike Amundsen
+  description: "Mike Amundsen is an author and speaker on API design, hypermedia, and network architecture whose books have shaped how practitioners think about building APIs."
+  link: 
+  image_path:
+  image_width:
+  list:
+  birth: 1962
+  death:
+  label:
+    - APIs
+    - Hypermedia
+- date:
+  title: Mark Nottingham
+  description: "Mark Nottingham is a standards author who has chaired the IETF HTTP and QUIC working groups and shaped many of the HTTP and web API standards in use today."
+  link: 
+  image_path:
+  image_width:
+  list:
+  birth: 1973
+  death:
+  label:
+    - APIs
+    - HTTP
+    - Standards
+- date:
+  title: Dennis Ritchie
+  description: "Dennis Ritchie was an American computer scientist who created the C programming language and co-developed the Unix operating system, foundations of modern computing."
+  link: https://en.wikipedia.org/wiki/Dennis_Ritchie
+  image_path:
+  image_width:
+  list:
+  birth: 1941
+  death: 2011
+  label:
+    - Compute
+    - Unix
+    - C
+- date:
+  title: Ken Thompson
+  description: "Ken Thompson is an American computer scientist who co-created the Unix operating system, the B programming language, and later the Go programming language."
+  link: https://en.wikipedia.org/wiki/Ken_Thompson
+  image_path:
+  image_width:
+  list:
+  birth: 1943
+  death:
+  label:
+    - Compute
+    - Unix
+- date:
+  title: John McCarthy
+  description: "John McCarthy was an American computer scientist who coined the term artificial intelligence, invented the Lisp programming language, and pioneered computer time-sharing."
+  link: https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)
+  image_path:
+  image_width:
+  list:
+  birth: 1927
+  death: 2011
+  label:
+    - Compute
+    - AI
+    - LISP
+- date:
+  title: Richard Stallman
+  description: "Richard Stallman is an American programmer who launched the GNU Project and the free software movement, whose licensing and philosophy underpin much of today's open-source software."
+  link: https://en.wikipedia.org/wiki/Richard_Stallman
+  image_path:
+  image_width:
+  list:
+  birth: 1953
+  death:
+  label:
+    - Open Source
+    - GNU
+- date:
+  title: Alan Kay
+  description: "Alan Kay is an American computer scientist who pioneered object-oriented programming and graphical user interfaces, helping create Smalltalk and the vision of personal computing at Xerox PARC."
+  link: https://en.wikipedia.org/wiki/Alan_Kay
+  image_path:
+  image_width:
+  list:
+  birth: 1940
+  death:
+  label:
+    - Compute
+    - OOP
+- date:
+  title: Guido van Rossum
+  description: "Guido van Rossum is a Dutch programmer who created the Python programming language, one of the most widely used languages for the web, data, and APIs."
+  link: https://en.wikipedia.org/wiki/Guido_van_Rossum
+  image_path:
+  image_width:
+  list:
+  birth: 1956
+  death:
+  label:
+    - Compute
+    - Python
+- date:
+  title: James Gosling
+  description: "James Gosling is a Canadian computer scientist who created the Java programming language, long a mainstay of enterprise and web development."
+  link: https://en.wikipedia.org/wiki/James_Gosling
+  image_path:
+  image_width:
+  list:
+  birth: 1955
+  death:
+  label:
+    - Compute
+    - Java
+- date:
+  title: Rasmus Lerdorf
+  description: "Rasmus Lerdorf is a Danish-Canadian programmer who created the PHP scripting language, which powered much of the early dynamic web."
+  link: https://en.wikipedia.org/wiki/Rasmus_Lerdorf
+  image_path:
+  image_width:
+  list:
+  birth: 1968
+  death:
+  label:
+    - Web
+    - PHP
+- date:
+  title: Yukihiro Matsumoto
+  description: "Yukihiro Matsumoto is a Japanese computer scientist who created the Ruby programming language, known for developer happiness and the Rails web framework."
+  link: https://en.wikipedia.org/wiki/Yukihiro_Matsumoto
+  image_path:
+  image_width:
+  list:
+  birth: 1965
+  death:
+  label:
+    - Compute
+    - Ruby
+- date:
+  title: Geoffrey Hinton
+  description: "Geoffrey Hinton is a British-Canadian cognitive scientist known as a godfather of deep learning for his foundational work on neural networks and backpropagation."
+  link: https://en.wikipedia.org/wiki/Geoffrey_Hinton
+  image_path:
+  image_width:
+  list:
+  birth: 1947
+  death:
+  label:
+    - AI
+    - Neural Networks
+- date:
+  title: Yann LeCun
+  description: "Yann LeCun is a French computer scientist who pioneered convolutional neural networks, a foundation of modern computer vision and deep learning."
+  link: https://en.wikipedia.org/wiki/Yann_LeCun
+  image_path:
+  image_width:
+  list:
+  birth: 1960
+  death:
+  label:
+    - AI
+    - Neural Networks
+- date:
+  title: Yoshua Bengio
+  description: "Yoshua Bengio is a Canadian computer scientist recognized as a pioneer of deep learning for his work on neural networks and representation learning."
+  link: https://en.wikipedia.org/wiki/Yoshua_Bengio
+  image_path:
+  image_width:
+  list:
+  birth: 1964
+  death:
+  label:
+    - AI
+    - Neural Networks
+- date:
+  title: Fei-Fei Li
+  description: "Fei-Fei Li is a Chinese-American computer scientist who created ImageNet, the dataset that catalyzed the deep learning revolution in computer vision."
+  link: https://en.wikipedia.org/wiki/Fei-Fei_Li
+  image_path:
+  image_width:
+  list:
+  birth: 1976
+  death:
+  label:
+    - AI
+    - Women in Tech
