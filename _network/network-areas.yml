@@ -1,0 +1,1556 @@
+areas:
+- slug: agents
+  name: Agents
+  url: https://agents.apievangelist.com
+  icon: https://agents.apievangelist.com/icon.png
+  description: An index and topic collection covering AI agents, agent frameworks, and agent runtimes
+    that enable autonomous reasoning, tool use, and multi-step task execution. This profile…
+  tags:
+  - AI Agents
+  - Agent Frameworks
+  - Agent Orchestration
+  - Agent Runtimes
+  - LLM Orchestration
+  conforming: true
+  related:
+  - agents-skills
+  - ai-automation
+  - containers
+  - pro-code-api-composition
+  - ipaas
+  - aiops
+- slug: agents-skills
+  name: Agent Skills
+  url: https://agents-skills.apievangelist.com
+  icon: https://agents-skills.apievangelist.com/icon.png
+  description: An index and topic collection covering Agent Skills, the packaged, file-based capability
+    units that AI coding agents load to extend their behavior. Agent Skills bundle…
+  tags:
+  - Agent Skills
+  - Claude Skills
+  - Capability Packages
+  - AI Agents
+  - Developer Tooling
+  conforming: true
+  related:
+  - agents
+  - ai-automation
+  - aiops
+  - portal
+  - management
+  - ide
+- slug: aggregation
+  name: Aggregation
+  url: https://aggregation.apievangelist.com
+  icon: https://aggregation.apievangelist.com/icon.png
+  description: An index and topic collection covering API aggregation, marketplaces, directories, unified
+    APIs, and catalog platforms. API aggregation brings together multiple APIs under a…
+  tags:
+  - API Aggregation
+  - API Directory
+  - API Marketplace
+  conforming: true
+  related:
+  - plugin
+  - portal
+  - unified-apis
+  - logging
+- slug: ai-automation
+  name: AI Automation
+  url: https://ai-automation.apievangelist.com
+  icon: https://ai-automation.apievangelist.com/icon.png
+  description: AI automation combines artificial intelligence with workflow and process automation to
+    create intelligent, autonomous systems including AI agent frameworks, autonomous coding…
+  tags:
+  - AI Agents
+  - AI Automation
+  - Workflow Automation
+  conforming: true
+  related:
+  - workflow-automation
+  - agents
+  - agents-skills
+  - integrations
+  - ipaas
+  - aiops
+- slug: aiops
+  name: AIOps
+  url: https://aiops.apievangelist.com
+  icon: https://aiops.apievangelist.com/icon.png
+  description: AIOps applies artificial intelligence and machine learning to IT operations, enabling intelligent
+    alerting, anomaly detection, automated root cause analysis, and predictive…
+  tags:
+  - AI
+  - AIOps
+  - IT Operations
+  conforming: true
+  related:
+  - ai-automation
+  - agents
+  - saas-management
+  - agents-skills
+  - bots
+- slug: analysis
+  name: Analysis
+  url: https://analysis.apievangelist.com
+  icon: https://analysis.apievangelist.com/icon.png
+  description: A curated index of services, tooling, and open source solutions for API analysis, analytics,
+    linting, traffic inspection, and intelligence. This topic collection covers the full…
+  tags:
+  - API Analysis
+  - API Governance
+  - API Linting
+  - API Monitoring
+  - API Security
+  - Analytics
+  - Observability
+  - Traffic Analysis
+  conforming: true
+  related:
+  - observability
+  - design
+  - monitoring
+  - management
+  - gateway
+  - containers
+- slug: api-clients
+  name: API Clients
+  url: https://api-clients.apievangelist.com
+  icon: https://api-clients.apievangelist.com/icon.png
+  description: An index and topic collection covering API clients, the developer tools used to inspect,
+    debug, exercise, and document APIs interactively. API clients include desktop and web…
+  tags:
+  - API Client
+  - HTTP Client
+  - API Debugging
+  - Developer Tools
+  - REST Client
+  - API Testing
+  conforming: true
+  related:
+  - clients
+  - cli
+  - ide
+  - testing
+  - sdk
+  - portal
+- slug: api-proxies
+  name: API Proxies
+  url: https://api-proxies.apievangelist.com
+  icon: https://api-proxies.apievangelist.com/icon.png
+  description: An index and topic collection covering reverse-proxy and edge-proxy software used in front
+    of APIs, including HTTP reverse proxies, edge proxies, load balancers, caching proxies,…
+  tags:
+  - Reverse Proxy
+  - Edge Proxy
+  - API Proxy
+  - Service Mesh Sidecar
+  - Load Balancer
+  - HTTP Proxy
+  - Ingress
+  conforming: true
+  related:
+  - service-mesh
+  - serverless
+  - proxy
+  - scraping
+  - testing
+  - clients
+- slug: authentication
+  name: Authentication
+  url: https://authentication.apievangelist.com
+  icon: https://authentication.apievangelist.com/icon.png
+  description: A curated index of services, tooling, and open source solutions for API authentication,
+    authorization, identity management, and secrets management. This collection covers identity…
+  tags:
+  - Authentication
+  - Authorization
+  - Identity
+  - MFA
+  - OAuth
+  - OpenID Connect
+  - SAML
+  - Security
+  - SSO
+  conforming: true
+  related:
+  - security
+  - containers
+  - saas-management
+  - analysis
+- slug: backups
+  name: Backups
+  url: https://backups.apievangelist.com
+  icon: https://backups.apievangelist.com/icon.png
+  description: An index and topic collection covering backup, disaster recovery, and data protection APIs.
+    Backup APIs enable applications and platforms to schedule, orchestrate, and verify the…
+  tags:
+  - Backup
+  - Disaster Recovery
+  - Data Protection
+  - Snapshot
+  - Archive
+  conforming: true
+  related:
+  - migration
+  - security
+  - visualization
+  - privacy
+  - integrations
+  - hypermedia
+- slug: bots
+  name: Bots
+  url: https://bots.apievangelist.com
+  icon: https://bots.apievangelist.com/icon.png
+  description: An index and topic collection covering chatbots, conversational agents, and bot frameworks
+    across messaging, voice, and customer experience channels. Bots are scripted or…
+  tags:
+  - Chatbots
+  - Conversational AI
+  - Bot Framework
+  - Slack Bot
+  - Discord Bot
+  - Messaging
+  - Voice Bot
+  - Customer Support Bot
+  conforming: true
+  related:
+  - support
+  - communications
+  - aiops
+  - ai-automation
+  - agents
+  - agents-skills
+- slug: breaches
+  name: Breaches
+  url: https://breaches.apievangelist.com
+  icon: https://breaches.apievangelist.com/icon.png
+  description: An index and topic collection covering data breach intelligence, credential exposure databases,
+    dark-web monitoring, and leak detection APIs. Breach intelligence platforms…
+  tags:
+  - Data Breach
+  - Credential Exposure
+  - Dark Web Monitoring
+  - Threat Intelligence
+  - Leak Detection
+  - Breach Notification
+  - Stealer Logs
+  - Pwned Passwords
+  conforming: true
+  related:
+  - visualization
+  - privacy
+  - performance
+  - scraping
+  - observability
+  - monitoring
+- slug: browsers
+  name: Browsers
+  url: https://browsers.apievangelist.com
+  icon: https://browsers.apievangelist.com/icon.png
+  description: An index and topic collection covering programmable browsers, headless browser engines,
+    and browser-automation APIs. The Browsers topic focuses on the browser execution surface —…
+  tags:
+  - Headless Browser
+  - Browser Automation
+  - Web Automation
+  - Browser-as-a-Service
+  - WebDriver
+  - Browser Testing
+  conforming: true
+  related:
+  - scraping
+  - serverless
+  - performance
+  - workflow-automation
+  - testing
+  - ai-automation
+- slug: caching
+  name: Caching
+  url: https://caching.apievangelist.com
+  icon: https://caching.apievangelist.com/icon.png
+  description: An index and topic collection covering API-accessible caching services, in-memory data
+    stores, key-value caches, and edge/CDN cache APIs. Caching reduces latency, lowers backend…
+  tags:
+  - Cache
+  - Caching
+  - In-Memory Database
+  - Edge Cache
+  - Key-Value Store
+  - CDN
+  - Content Delivery Network
+  conforming: true
+  related:
+  - database
+  - network
+  - migration
+  - webhooks
+  - internet-of-things
+  - encryption
+- slug: change-log
+  name: Change Log
+  url: https://change-log.apievangelist.com
+  icon: https://change-log.apievangelist.com/icon.png
+  description: An index and topic collection covering developer changelog publishing, release-notes platforms,
+    and API change-tracking services. Change Log services help product, engineering,…
+  tags:
+  - Changelog
+  - Release Notes
+  - API Versioning
+  - Product Updates
+  - Spec Diff
+  - Deprecation
+  conforming: true
+  related:
+  - versioning
+  - deprecation
+  - logging
+  - road-map
+  - regulation
+  - transparency
+- slug: cli
+  name: Command Line Interface
+  url: https://cli.apievangelist.com
+  icon: https://cli.apievangelist.com/icon.png
+  description: A curated index of services, tooling, and open source solutions for API command line interfaces,
+    HTTP clients, and terminal-based API tools. This collection covers HTTP clients,…
+  tags:
+  - CLI
+  - Command Line Interface
+  - Developer Tools
+  - HTTP Client
+  - Terminal
+  conforming: true
+  related:
+  - api-clients
+  - ide
+  - clients
+  - sdk
+  - portal
+  - management
+- slug: clients
+  name: Clients
+  url: https://clients.apievangelist.com
+  icon: https://clients.apievangelist.com/icon.png
+  description: This is the index of API client, HTTP client, and API consumer tools repos being tracked
+    by the API Evangelist network. The collection includes command-line HTTP clients, GUI…
+  tags:
+  - API Clients
+  - Clients
+  - HTTP Clients
+  - HTTP Libraries
+  - REST Clients
+  conforming: true
+  related:
+  - api-clients
+  - sdk
+  - cli
+  - api-proxies
+- slug: communications
+  name: Communications
+  url: https://communications.apievangelist.com
+  icon: https://communications.apievangelist.com/icon.png
+  description: An index and topic collection covering Communications Platform as a Service (CPaaS) and
+    messaging-and-voice infrastructure APIs. This network gathers providers offering…
+  tags:
+  - CPaaS
+  - SMS
+  - MMS
+  - Voice
+  - Email
+  - Push Notifications
+  - Video
+  - Chat
+  - Messaging
+  - Deliverability
+  conforming: true
+  related:
+  - bots
+  - support
+- slug: containers
+  name: Containers
+  url: https://containers.apievangelist.com
+  icon: https://containers.apievangelist.com/icon.png
+  description: An index of container runtime, orchestration, registry, security, and build tool repositories
+    tracking the services and tools that package, deploy, and manage containerized…
+  tags:
+  - Container Registries
+  - Container Runtimes
+  - Container Security
+  - Containers
+  - Orchestration
+  conforming: true
+  related:
+  - orchestration
+  - agents
+  - pro-code-api-composition
+  - ipaas
+  - security
+  - saas-management
+- slug: database
+  name: Database
+  url: https://database.apievangelist.com
+  icon: https://database.apievangelist.com/icon.png
+  description: An index and topic collection covering managed databases and database-as-a-service offerings
+    exposing APIs. Database APIs enable developers to provision, configure, query,…
+  tags:
+  - Database
+  - DBaaS
+  - Managed Database
+  - SQL
+  - NoSQL
+  - Document Database
+  - Graph Database
+  - Vector Database
+  - Time Series
+  - Data Warehouse
+  - Key-Value Store
+  conforming: true
+  related:
+  - caching
+  - migration
+  - machine-learning
+  - backups
+  - encryption
+  - visualization
+- slug: deployment
+  name: Deployment
+  url: https://deployment.apievangelist.com
+  icon: https://deployment.apievangelist.com/icon.png
+  description: An index and topic collection covering application deployment platforms, Platform-as-a-Service
+    (PaaS) providers, and CI/CD-as-a-service tools that expose APIs for shipping code to…
+  tags:
+  - Deployment
+  - CI/CD
+  - Continuous Deployment
+  - Continuous Integration
+  - Continuous Delivery
+  - PaaS
+  - GitOps
+  - Build
+  - Pipeline
+  - Release Management
+  conforming: true
+  related:
+  - logging
+  - integrations
+  - gateway
+  - embedded-ipaas
+  - ipaas
+  - finops
+- slug: deprecation
+  name: Deprecation
+  url: https://deprecation.apievangelist.com
+  icon: https://deprecation.apievangelist.com/icon.png
+  description: API deprecation, sunset headers, end-of-life management, and API retirement practices,
+    including RFC 8594 Sunset, the Deprecation header, OpenAPI deprecation flags, and consumer…
+  tags:
+  - API Retirement
+  - Deprecation
+  - End of Life
+  - Sunset
+  - Lifecycle
+  - Migration
+  conforming: true
+  related:
+  - versioning
+  - migration
+  - management
+  - encryption
+  - change-log
+- slug: design
+  name: Design
+  url: https://design.apievangelist.com
+  icon: https://design.apievangelist.com/icon.png
+  description: A curated index of services, tooling, and open source solutions for API design, specification
+    editing, linting, and governance. This collection covers visual API designers,…
+  tags:
+  - API Design
+  - Governance
+  - Linting
+  - Specification Languages
+  conforming: true
+  related:
+  - analysis
+  - management
+  - developer-experience
+  - regulation
+- slug: developer-experience
+  name: Developer Experience
+  url: https://developer-experience.apievangelist.com
+  icon: https://developer-experience.apievangelist.com/icon.png
+  description: This is the index of developer experience service and tooling repos being tracked by the
+    API Evangelist network, covering developer portals, API documentation platforms, API…
+  tags:
+  - API Design
+  - API Documentation
+  - Developer Experience
+  - Developer Portals
+  - Platform Engineering
+  conforming: true
+  related:
+  - documentation
+  - portal
+  - design
+  - management
+  - ide
+  - api-clients
+- slug: discovery
+  name: API Evangelist Discovery
+  url: https://discovery.apievangelist.com
+  icon: https://discovery.apievangelist.com/icon.png
+  description: Mapping the technical details of API operations to the human standard.
+  tags: []
+  conforming: false
+  related:
+  - search
+  - partners
+  - saas-management
+  - microservices
+  - road-map
+- slug: dns
+  name: DNS
+  url: https://dns.apievangelist.com
+  icon: https://dns.apievangelist.com/icon.png
+  description: DNS (Domain Name System) is the distributed naming system that translates human-readable
+    domain names (like example.com) into the numerical IP addresses computers use to…
+  tags:
+  - Domain Names
+  - Infrastructure
+  - Networking
+  - Protocol
+  conforming: true
+  related:
+  - service-mesh
+- slug: documentation
+  name: Documentation
+  url: https://documentation.apievangelist.com
+  icon: https://documentation.apievangelist.com/icon.png
+  description: A curated index of services, tooling, and open source solutions for producing API and developer
+    documentation. This collection covers hosted documentation platforms, open source…
+  tags:
+  - API Reference
+  - Developer Portals
+  - Documentation
+  - Static Site Generators
+  conforming: true
+  related:
+  - developer-experience
+  - portal
+  - management
+  - ide
+  - api-clients
+  - agents-skills
+- slug: embeddable
+  name: Embeddable
+  url: https://embeddable.apievangelist.com
+  icon: https://embeddable.apievangelist.com/icon.png
+  description: An index and topic collection covering embeddable widgets, JavaScript SDKs, iframe-able
+    experiences, and embedded analytics. Embeddable platforms allow product teams to drop…
+  tags:
+  - Embeddable
+  - Widget
+  - Embedded Analytics
+  - JS SDK
+  - iframe
+  - Embed
+  - Drop-in UI
+  conforming: true
+  related:
+  - embedded-ipaas
+  - management
+  - analysis
+  - visualization
+  - integrations
+- slug: embedded-ipaas
+  name: Embedded iPaaS
+  url: https://embedded-ipaas.apievangelist.com
+  icon: https://embedded-ipaas.apievangelist.com/icon.png
+  description: This is the index of embedded iPaaS service and tooling repos being tracked by the API
+    Evangelist network.
+  tags:
+  - Embedded iPaaS
+  - Integration
+  conforming: true
+  related:
+  - ipaas
+  - unified-apis
+  - integrations
+  - embeddable
+  - deployment
+  - low-hanging-fruit
+- slug: encryption
+  name: Encryption
+  url: https://encryption.apievangelist.com
+  icon: https://encryption.apievangelist.com/icon.png
+  description: An index and topic collection covering encryption services, key management systems (KMS),
+    hardware security modules (HSM), envelope encryption, end-to-end encryption SDKs,…
+  tags:
+  - Encryption
+  - KMS
+  - HSM
+  - Cryptography
+  - Key Management
+  - Certificate Management
+  - Code Signing
+  - End-to-End Encryption
+  conforming: true
+  related:
+  - gateway
+  - pro-code-api-composition
+  - sdk
+  - finops
+  - management
+  - ide
+- slug: finops
+  name: FinOps
+  url: https://finops.apievangelist.com
+  icon: https://finops.apievangelist.com/icon.png
+  description: FinOps is a cloud financial management discipline combining technology, finance, and business
+    practices to drive accountability and optimize cloud spending through budget-aware…
+  tags:
+  - Cloud Cost
+  - Cloud Financial Management
+  - FinOps
+  conforming: true
+  related:
+  - gateway
+  - migration
+  - management
+  - ide
+  - security
+  - saas-management
+- slug: gateway
+  name: Gateway
+  url: https://gateway.apievangelist.com
+  icon: https://gateway.apievangelist.com/icon.png
+  description: A collection of services, tooling, and open source solutions for API gateway management
+    and traffic control, covering routing, authentication, rate limiting, observability, and…
+  tags:
+  - API Gateway
+  - API Management
+  - Traffic Management
+  conforming: true
+  related:
+  - finops
+  - management
+  - webhooks
+  - security
+  - saas-management
+  - logging
+- slug: hypermedia
+  name: Hypermedia
+  url: https://hypermedia.apievangelist.com
+  icon: https://hypermedia.apievangelist.com/icon.png
+  description: An index and topic collection covering hypermedia-driven APIs, HATEOAS, and the formats,
+    link relations, and specifications that make APIs discoverable and self-describing.…
+  tags:
+  - Hypermedia
+  - HATEOAS
+  - HAL
+  - JSON:API
+  - Link Headers
+  - Link Relations
+  - Siren
+  - Collection+JSON
+  - Linked Data
+  - JSON-LD
+  - Hydra
+  - ALPS
+  conforming: true
+  related:
+  - migration
+  - backups
+  - visualization
+  - privacy
+  - integrations
+  - scraping
+- slug: ide
+  name: IDE
+  url: https://ide.apievangelist.com
+  icon: https://ide.apievangelist.com/icon.png
+  description: An index and topic collection covering integrated development environments (IDEs), code
+    editors, and cloud workspaces with APIs. This topic captures the editors, IDEs, and…
+  tags:
+  - IDE
+  - Code Editor
+  - Cloud IDE
+  - Developer Tools
+  - Workspaces
+  conforming: true
+  related:
+  - api-clients
+  - cli
+  - pro-code-api-composition
+  - sdk
+  - portal
+  - finops
+- slug: industrial
+  name: Industrial
+  url: https://industrial.apievangelist.com
+  icon: https://industrial.apievangelist.com/icon.png
+  description: An index and topic collection covering industrial APIs across industrial IoT (IIoT), operational
+    technology (OT), SCADA, manufacturing, smart factory, asset management, predictive…
+  tags:
+  - Industrial IoT
+  - Manufacturing
+  - OT
+  - SCADA
+  - Asset Management
+  - Edge
+  - Predictive Maintenance
+  - Energy Management
+  - Smart Factory
+  conforming: true
+  related:
+  - internet-of-things
+  - gateway
+  - finops
+  - management
+  - security
+  - saas-management
+- slug: integrations
+  name: Integrations
+  url: https://integrations.apievangelist.com
+  icon: https://integrations.apievangelist.com/icon.png
+  description: An index and topic collection covering the broad integration tooling market, including
+    iPaaS and embedded-iPaaS platforms, workflow automation tools, unified API providers, ETL…
+  tags:
+  - Integration
+  - iPaaS
+  - Embedded iPaaS
+  - Workflow Automation
+  - Data Integration
+  - Unified API
+  - ETL
+  - Reverse ETL
+  - Data Pipeline
+  - Orchestration
+  conforming: true
+  related:
+  - ipaas
+  - embedded-ipaas
+  - unified-apis
+  - workflow-automation
+  - ai-automation
+  - orchestration
+- slug: internet-of-things
+  name: Internet of Things
+  url: https://internet-of-things.apievangelist.com
+  icon: https://internet-of-things.apievangelist.com/icon.png
+  description: An index and topic collection covering consumer and commercial Internet of Things (IoT)
+    platforms, smart home ecosystems, connected device APIs, and the messaging and edge…
+  tags:
+  - IoT
+  - Smart Home
+  - Connected Devices
+  - MQTT
+  - LoRaWAN
+  - Edge
+  conforming: true
+  related:
+  - industrial
+  - serverless
+  - api-proxies
+  - caching
+- slug: ipaas
+  name: iPaaS
+  url: https://ipaas.apievangelist.com
+  icon: https://ipaas.apievangelist.com/icon.png
+  description: This is the index of iPaaS (integration platform as a service) repos being tracked by the
+    API Evangelist network.
+  tags:
+  - Integration
+  - iPaaS
+  - Orchestration
+  - Workflow
+  conforming: true
+  related:
+  - embedded-ipaas
+  - integrations
+  - orchestration
+  - unified-apis
+  - workflow-automation
+  - pro-code-api-composition
+- slug: issues
+  name: Issues
+  url: https://issues.apievangelist.com
+  icon: https://issues.apievangelist.com/icon.png
+  description: An index and topic collection covering issue tracking, bug tracking, and project-management
+    APIs that expose issue, ticket, task, and work-item primitives. Issue tracking APIs are…
+  tags:
+  - Issue Tracking
+  - Bug Tracking
+  - Project Management
+  - Task Management
+  - Work Management
+  conforming: true
+  related:
+  - gateway
+  - finops
+  - management
+  - security
+  - saas-management
+  - logging
+- slug: licensing
+  name: Licensing
+  url: https://licensing.apievangelist.com
+  icon: https://licensing.apievangelist.com/icon.png
+  description: 'An index and topic collection covering software licensing APIs across two intersecting
+    domains: open-source license metadata and code-license detection (SPDX, OSI license list,…'
+  tags:
+  - License
+  - Licensing
+  - SPDX
+  - Open Source License
+  - License Compliance
+  - Software Composition Analysis
+  - Entitlement
+  - Software Licensing
+  - License Management
+  - SaaS License Management
+  conforming: true
+  related:
+  - saas-management
+  - regulation
+  - gateway
+  - pro-code-api-composition
+  - finops
+  - unified-apis
+- slug: logging
+  name: Logging
+  url: https://logging.apievangelist.com
+  icon: https://logging.apievangelist.com/icon.png
+  description: An index and topic collection covering log ingestion, log search, log aggregation, and
+    log pipeline services. Logging platforms collect event records from applications,…
+  tags:
+  - Logs
+  - Log Aggregation
+  - Log Ingestion
+  - Log Search
+  - Log Pipeline
+  - Log Management
+  conforming: true
+  related:
+  - deployment
+  - search
+  - gateway
+  - aggregation
+  - observability
+  - finops
+- slug: low-hanging-fruit
+  name: Low Hanging Fruit
+  url: https://low-hanging-fruit.apievangelist.com
+  icon: https://low-hanging-fruit.apievangelist.com/icon.png
+  description: A Kin Lane / API Evangelist editorial collection of "low hanging fruit" APIs — the well-documented,
+    easy-to-onboard, single-purpose providers that consistently appear in…
+  tags:
+  - API Onboarding
+  - Quick Wins
+  - Tutorials
+  - Developer Onboarding
+  - Easy Integration
+  - Time to First Call
+  - Editorial Curation
+  conforming: true
+  related:
+  - embedded-ipaas
+  - ipaas
+  - portal
+  - unified-apis
+  - management
+  - ide
+- slug: machine-learning
+  name: Machine Learning
+  url: https://machine-learning.apievangelist.com
+  icon: https://machine-learning.apievangelist.com/icon.png
+  description: An index and topic collection covering machine learning APIs, MLOps platforms, model serving
+    infrastructure, and inference providers. Machine learning APIs span the full ML…
+  tags:
+  - Machine Learning
+  - MLOps
+  - Model Serving
+  - Inference
+  - AutoML
+  - Embeddings
+  - Vector Database
+  - Foundation Models
+  conforming: true
+  related:
+  - database
+  - migration
+  - caching
+- slug: management
+  name: Management
+  url: https://management.apievangelist.com
+  icon: https://management.apievangelist.com/icon.png
+  description: An index and topic collection covering full-stack API management platforms — solutions
+    that combine an API gateway, developer portal, analytics, monetization, governance, and…
+  tags:
+  - API Management
+  - API Lifecycle
+  - Developer Portal
+  - API Analytics
+  - API Governance
+  conforming: true
+  related:
+  - portal
+  - analysis
+  - regulation
+  - gateway
+  - finops
+  - design
+- slug: microservices
+  name: Microservices
+  url: https://microservices.apievangelist.com
+  icon: https://microservices.apievangelist.com/icon.png
+  description: An index of microservices architecture frameworks, service discovery, resilience, messaging,
+    workflow orchestration, and distributed systems tooling repositories.
+  tags:
+  - Distributed Systems
+  - Event-Driven
+  - Microservices
+  - Resilience
+  - Service Discovery
+  conforming: true
+  related:
+  - service-mesh
+  - discovery
+  - virtualization
+  - webhooks
+  - saas-management
+  - browsers
+- slug: migration
+  name: Migration
+  url: https://migration.apievangelist.com
+  icon: https://migration.apievangelist.com/icon.png
+  description: An index and topic collection covering data migration, cloud migration, database migration,
+    and API migration platforms and services. Migration platforms help organizations move…
+  tags:
+  - Migration
+  - Data Migration
+  - Database Migration
+  - Cloud Migration
+  - API Migration
+  - Replication
+  - Cutover
+  conforming: true
+  related:
+  - database
+  - finops
+  - ide
+  - deprecation
+  - backups
+  - service-mesh
+- slug: monetization
+  name: Monetization
+  url: https://monetization.apievangelist.com
+  icon: https://monetization.apievangelist.com/icon.png
+  description: 'An index and topic collection covering API and SaaS monetization platforms: billing engines,
+    subscription management, usage metering, usage-based pricing, revenue recognition, and…'
+  tags:
+  - Monetization
+  - Billing
+  - Subscription
+  - Metering
+  - Usage-Based Pricing
+  - Revenue Recognition
+  - Pricing
+  conforming: true
+  related:
+  - plans
+- slug: monitoring
+  name: Monitoring
+  url: https://monitoring.apievangelist.com
+  icon: https://monitoring.apievangelist.com/icon.png
+  description: An index and topic collection covering API monitoring, application performance monitoring,
+    observability, uptime monitoring, log aggregation, error tracking, distributed tracing,…
+  tags:
+  - API Monitoring
+  - Observability
+  - Uptime
+  - Synthetic Monitoring
+  - Incident Response
+  conforming: true
+  related:
+  - observability
+  - analysis
+  - reliability
+  - service-mesh
+  - transparency
+  - performance
+- slug: network
+  name: Network
+  url: https://network.apievangelist.com
+  icon: https://network.apievangelist.com/icon.png
+  description: ''
+  tags: []
+  conforming: false
+  related:
+  - caching
+  - scraping
+- slug: observability
+  name: Observability
+  url: https://observability.apievangelist.com
+  icon: https://observability.apievangelist.com/icon.png
+  description: A curated index of services, tooling, and open source solutions for API observability,
+    monitoring, logging, tracing, metrics, and analytics. This collection covers APM platforms,…
+  tags:
+  - Logging
+  - Monitoring
+  - Observability
+  - Tracing
+  conforming: true
+  related:
+  - monitoring
+  - analysis
+  - performance
+  - logging
+  - service-mesh
+  - breaches
+- slug: orchestration
+  name: Orchestration
+  url: https://orchestration.apievangelist.com
+  icon: https://orchestration.apievangelist.com/icon.png
+  description: An index and topic collection covering container orchestration and workflow orchestration
+    platforms. Container orchestration platforms like Kubernetes, OpenShift, Amazon EKS,…
+  tags:
+  - Orchestration
+  - Container Orchestration
+  - Workflow Orchestration
+  - Kubernetes
+  - Scheduler
+  conforming: true
+  related:
+  - ipaas
+  - containers
+  - workflow-automation
+  - integrations
+  - pro-code-api-composition
+  - ai-automation
+- slug: partners
+  name: API Evangelist Partners
+  url: https://partners.apievangelist.com
+  icon: https://partners.apievangelist.com/icon.png
+  description: These are the partners of API Evangelist.
+  tags: []
+  conforming: false
+  related:
+  - search
+  - discovery
+- slug: performance
+  name: Performance
+  url: https://performance.apievangelist.com
+  icon: https://performance.apievangelist.com/icon.png
+  description: An index and topic collection covering API and web performance, including load testing,
+    performance benchmarking, real user monitoring (RUM), Core Web Vitals measurement, latency…
+  tags:
+  - Performance
+  - Load Testing
+  - Performance Testing
+  - Real User Monitoring
+  - Core Web Vitals
+  - APM
+  - Distributed Tracing
+  - Latency
+  conforming: true
+  related:
+  - testing
+  - observability
+  - browsers
+  - breaches
+  - monitoring
+  - microservices
+- slug: plans
+  name: Plans
+  url: https://plans.apievangelist.com
+  icon: https://plans.apievangelist.com/icon.png
+  description: An index and topic collection covering machine-readable API and SaaS plan definitions.
+    Plans capture the structured representation of pricing tiers, included entitlements, metered…
+  tags:
+  - Pricing Plans
+  - API Commons Plans
+  - Subscription Tiers
+  - Pricing Page
+  - Plan Catalog
+  - Rate Plans
+  - Plan Entitlements
+  conforming: true
+  related:
+  - monetization
+  - portal
+  - transparency
+- slug: plugin
+  name: Plugin
+  url: https://plugin.apievangelist.com
+  icon: https://plugin.apievangelist.com/icon.png
+  description: An index and topic collection covering plugin, extension, and add-on architectures with
+    public APIs and marketplaces. This collection spans editor and IDE plugin ecosystems (VS…
+  tags:
+  - Plugin
+  - Extension
+  - Marketplace
+  - App Directory
+  - Add-on
+  conforming: true
+  related:
+  - aggregation
+  - portal
+- slug: portal
+  name: Portal
+  url: https://portal.apievangelist.com
+  icon: https://portal.apievangelist.com/icon.png
+  description: A curated index of services, tooling, and open source solutions for API developer portals,
+    API catalogs, API marketplaces, and developer experience platforms. This collection…
+  tags:
+  - API Catalog
+  - API Marketplace
+  - Developer Experience
+  - Developer Portal
+  conforming: true
+  related:
+  - management
+  - developer-experience
+  - aggregation
+  - plugin
+  - ide
+  - documentation
+- slug: privacy
+  name: Privacy
+  url: https://privacy.apievangelist.com
+  icon: https://privacy.apievangelist.com/icon.png
+  description: An index and topic collection covering privacy management, consent management, data subject
+    rights, data classification, and PII detection APIs. Privacy platforms help…
+  tags:
+  - Privacy
+  - Consent Management
+  - Data Subject Rights
+  - GDPR
+  - CCPA
+  - PII Detection
+  - Data Privacy
+  - Cookie Consent
+  conforming: true
+  related:
+  - breaches
+  - gateway
+  - finops
+  - migration
+  - management
+  - security
+- slug: pro-code-api-composition
+  name: Pro-Code API Composition
+  url: https://pro-code-api-composition.apievangelist.com
+  icon: https://pro-code-api-composition.apievangelist.com/icon.png
+  description: An index of pro-code API composition service and tooling repos being tracked by the API
+    Evangelist network, covering workflow engines, code-first platforms, serverless…
+  tags:
+  - API Composition
+  - Orchestration
+  - Pro-Code
+  conforming: true
+  related:
+  - ipaas
+  - sdk
+  - orchestration
+  - containers
+  - ide
+  - agents
+- slug: proxy
+  name: Proxy
+  url: https://proxy.apievangelist.com
+  icon: https://proxy.apievangelist.com/icon.png
+  description: This is the index of API proxy, reverse proxy, forward proxy, and proxy middleware service
+    and tooling repos being tracked by the API Evangelist network.
+  tags:
+  - Index
+  - Proxy
+  conforming: true
+  related:
+  - api-proxies
+  - scraping
+- slug: regulation
+  name: Regulation
+  url: https://regulation.apievangelist.com
+  icon: https://regulation.apievangelist.com/icon.png
+  description: Regulation encompasses the rules, laws, and standards established by governments, agencies,
+    and standards bodies that govern how businesses and individuals must operate. In the…
+  tags:
+  - Compliance
+  - Governance
+  - Government
+  - Legal
+  - Policy
+  - Regulation
+  - Regulatory Change
+  - Risk Management
+  conforming: true
+  related:
+  - management
+  - licensing
+  - gateway
+  - finops
+  - design
+  - security
+- slug: reliability
+  name: Reliability
+  url: https://reliability.apievangelist.com
+  icon: https://reliability.apievangelist.com/icon.png
+  description: An index and topic collection covering site reliability engineering (SRE), reliability
+    platforms, service level objectives (SLOs), error budgets, chaos engineering, resilience…
+  tags:
+  - SRE
+  - Reliability
+  - SLO
+  - Chaos Engineering
+  - Incident Response
+  - Error Budget
+  - On-Call
+  - Resilience
+  conforming: true
+  related:
+  - monitoring
+  - developer-experience
+  - microservices
+  - transparency
+  - low-hanging-fruit
+- slug: road-map
+  name: Road Map
+  url: https://road-map.apievangelist.com
+  icon: https://road-map.apievangelist.com/icon.png
+  description: An index and topic collection covering public product road map publishing, feature voting,
+    customer feedback aggregation, and product discovery surfaces. Public road map platforms…
+  tags:
+  - Roadmap
+  - Product Discovery
+  - Feature Voting
+  - Public Roadmap
+  - Customer Feedback
+  conforming: true
+  related:
+  - discovery
+  - saas-management
+  - microservices
+  - support
+  - visualization
+  - transparency
+- slug: saas-management
+  name: SaaS Management
+  url: https://saas-management.apievangelist.com
+  icon: https://saas-management.apievangelist.com/icon.png
+  description: SaaS Management covers the tools, platforms, and practices used by organizations to discover,
+    manage, optimize, and secure their portfolio of SaaS applications. The global SaaS…
+  tags:
+  - SaaS Management
+  - SaaS Discovery
+  - License Management
+  - Spend Management
+  - SaaS Security
+  - Shadow IT
+  conforming: true
+  related:
+  - licensing
+  - security
+  - discovery
+  - gateway
+  - aiops
+  - finops
+- slug: scraping
+  name: Scraping
+  url: https://scraping.apievangelist.com
+  icon: https://scraping.apievangelist.com/icon.png
+  description: An index and topic collection covering web scraping platforms, proxy networks, SERP APIs,
+    browser-based extraction services, and data collection APIs. Scraping platforms turn the…
+  tags:
+  - Web Scraping
+  - Data Extraction
+  - Proxy Network
+  - SERP API
+  - Residential Proxies
+  - Web Crawling
+  - Anti-Bot Circumvention
+  - Headless Browser
+  conforming: true
+  related:
+  - browsers
+  - api-proxies
+  - breaches
+  - proxy
+  - network
+  - migration
+- slug: sdk
+  name: SDKs
+  url: https://sdk.apievangelist.com
+  icon: https://sdk.apievangelist.com/icon.png
+  description: A curated index of services, tooling, and open source solutions for generating API SDKs,
+    client libraries, and code from API specifications. This collection covers SDK generation…
+  tags:
+  - API Tooling
+  - Client Libraries
+  - Code Generation
+  - SDKs
+  conforming: true
+  related:
+  - pro-code-api-composition
+  - clients
+  - ide
+  - api-clients
+  - cli
+  - encryption
+- slug: search
+  name: API Evangelist Search
+  url: https://search.apievangelist.com
+  icon: https://search.apievangelist.com/icon.png
+  description: Searching across API Evangelist.
+  tags: []
+  conforming: false
+  related:
+  - partners
+  - discovery
+  - logging
+- slug: security
+  name: Security
+  url: https://security.apievangelist.com
+  icon: https://security.apievangelist.com/icon.png
+  description: An index and topic collection covering API security, identity, access management, secrets
+    management, encryption, and threat protection. API security spans the full lifecycle of…
+  tags:
+  - API Security
+  - Identity and Access Management
+  - Authentication
+  - Secrets Management
+  - Threat Protection
+  conforming: true
+  related:
+  - authentication
+  - saas-management
+  - gateway
+  - finops
+  - management
+  - containers
+- slug: serverless
+  name: Serverless
+  url: https://serverless.apievangelist.com
+  icon: https://serverless.apievangelist.com/icon.png
+  description: An index and topic collection covering serverless compute, function-as-a-service (FaaS)
+    runtimes, and edge function platforms. Serverless platforms abstract away server…
+  tags:
+  - Serverless
+  - Functions as a Service
+  - Edge Functions
+  - Cold Start
+  - WebAssembly
+  - FaaS
+  - Durable Workflows
+  conforming: true
+  related:
+  - browsers
+  - api-proxies
+  - virtualization
+  - microservices
+  - support
+  - service-mesh
+- slug: service-mesh
+  name: Service Mesh
+  url: https://service-mesh.apievangelist.com
+  icon: https://service-mesh.apievangelist.com/icon.png
+  description: Service mesh is a dedicated infrastructure layer for handling service-to-service communication
+    in microservices architectures. It provides traffic management, mutual TLS security,…
+  tags:
+  - Service Mesh
+  - Microservices
+  - Cloud Native
+  - Kubernetes
+  - Networking
+  - Observability
+  - Zero Trust
+  conforming: true
+  related:
+  - microservices
+  - api-proxies
+  - observability
+  - orchestration
+  - finops
+  - monitoring
+- slug: support
+  name: Support
+  url: https://support.apievangelist.com
+  icon: https://support.apievangelist.com/icon.png
+  description: An index and topic collection covering customer support, help desk, ticketing, knowledge
+    base, and live chat APIs. Customer support platforms power the interfaces and back-office…
+  tags:
+  - Customer Support
+  - Help Desk
+  - Ticketing
+  - Knowledge Base
+  - Live Chat
+  - Customer Service
+  conforming: true
+  related:
+  - bots
+  - virtualization
+  - microservices
+  - browsers
+  - service-mesh
+  - road-map
+- slug: testing
+  name: Testing
+  url: https://testing.apievangelist.com
+  icon: https://testing.apievangelist.com/icon.png
+  description: A curated index of services, tooling, and open source solutions for API testing, mocking,
+    load testing, contract testing, and quality assurance. This collection covers functional…
+  tags:
+  - API Quality
+  - Contract Testing
+  - Load Testing
+  - Testing
+  conforming: true
+  related:
+  - performance
+  - api-clients
+  - browsers
+  - api-proxies
+- slug: transparency
+  name: Transparency
+  url: https://transparency.apievangelist.com
+  icon: https://transparency.apievangelist.com/icon.png
+  description: An index and topic collection covering public-facing transparency surfaces across the API
+    and platform ecosystem. Transparency in this context refers to the mechanisms platforms…
+  tags:
+  - Transparency
+  - Status Page
+  - Audit Log
+  - Certificate Transparency
+  - Public Disclosure
+  - Transparency Report
+  - Incident Communication
+  - Transparency Log
+  conforming: true
+  related:
+  - monitoring
+  - logging
+  - road-map
+  - plans
+  - encryption
+  - reliability
+- slug: unified-apis
+  name: Unified APIs
+  url: https://unified-apis.apievangelist.com
+  icon: https://unified-apis.apievangelist.com/icon.png
+  description: This is the index of unified API service and tooling repos being tracked by the API Evangelist
+    network. Unified APIs (also called integration hubs, API aggregators, or universal…
+  tags:
+  - Aggregation
+  - Normalization
+  - Unified API
+  - Integration
+  - SaaS
+  - iPaaS
+  conforming: true
+  related:
+  - embedded-ipaas
+  - ipaas
+  - integrations
+  - aggregation
+  - saas-management
+  - logging
+- slug: versioning
+  name: Versioning
+  url: https://versioning.apievangelist.com
+  icon: https://versioning.apievangelist.com/icon.png
+  description: An index and topic collection covering API versioning patterns, schema evolution, and breaking-change
+    detection across the API lifecycle. API versioning communicates change to…
+  tags:
+  - API Versioning
+  - SemVer
+  - CalVer
+  - Schema Evolution
+  - Breaking Change
+  - Deprecation
+  - Schema Registry
+  - Spec Diff
+  - Conventional Commits
+  - Sunset Header
+  conforming: true
+  related:
+  - change-log
+  - deprecation
+  - regulation
+- slug: virtualization
+  name: Virtualization
+  url: https://virtualization.apievangelist.com
+  icon: https://virtualization.apievangelist.com/icon.png
+  description: 'An index and topic collection covering virtualization across two intertwined domains:
+    machine virtualization (hypervisors, virtual machines, VDI, and cloud VM platforms) and…'
+  tags:
+  - Virtualization
+  - VM
+  - Hypervisor
+  - API Virtualization
+  - Service Virtualization
+  - Mock Server
+  - VDI
+  conforming: true
+  related:
+  - microservices
+  - browsers
+  - support
+  - service-mesh
+  - serverless
+  - api-proxies
+- slug: visualization
+  name: Visualization
+  url: https://visualization.apievangelist.com
+  icon: https://visualization.apievangelist.com/icon.png
+  description: An index and topic collection covering data visualization, charts, dashboards, business
+    intelligence (BI), and reporting APIs. Data visualization platforms turn raw data into…
+  tags:
+  - Data Visualization
+  - Charts
+  - Dashboards
+  - BI
+  - Business Intelligence
+  - Reporting
+  - Analytics
+  - Subway Map
+  conforming: true
+  related:
+  - breaches
+  - migration
+  - management
+  - backups
+  - analysis
+  - road-map
+- slug: webhooks
+  name: Webhooks
+  url: https://webhooks.apievangelist.com
+  icon: https://webhooks.apievangelist.com/icon.png
+  description: An index and topic collection covering webhook delivery, ingestion, transformation, retry,
+    and inspection APIs. Webhooks are the dominant HTTP pattern for asynchronous,…
+  tags:
+  - Webhooks
+  - Event Delivery
+  - Webhook Gateway
+  - Webhook Inspection
+  - Async Events
+  conforming: true
+  related:
+  - gateway
+  - microservices
+  - deployment
+  - caching
+- slug: workflow-automation
+  name: Workflow Automation
+  url: https://workflow-automation.apievangelist.com
+  icon: https://workflow-automation.apievangelist.com/icon.png
+  description: This is the index of workflow automation service and tooling repos being tracked by the
+    API Evangelist network.
+  tags:
+  - Workflow Automation
+  conforming: true
+  related:
+  - ai-automation
+  - ipaas
+  - integrations
+  - orchestration
+  - browsers

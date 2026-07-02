@@ -23,6 +23,12 @@ API Evangelist is a federated network of knowledge bases built on 5,000+ blog po
 - [Experiences](https://experiences.apievangelist.com): API consumer experience patterns
 - [Videos](https://video.apievangelist.com): Video content on APIs
 
+## Topic Areas
+
+Focused subsites, each cataloging the services, tools, features, and use cases for one corner of the API landscape. Full directory: https://apievangelist.com/areas/
+{% for a in site.data.network_areas.areas %}
+- [{{ a.name }}]({{ a.url }}): {{ a.description | strip_html | strip_newlines | truncate: 140 }}{% endfor %}
+
 ## Reference Timelines
 
 - [People Timeline](https://apievangelist.com/timeline/people/): Historical figures in computing, cybernetics, and APIs

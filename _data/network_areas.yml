@@ -1,0 +1,309 @@
+areas:
+- name: Agent Skills
+  url: https://agents-skills.apievangelist.com
+  description: An index and topic collection covering Agent Skills, the packaged, file-based capability
+    units that AI coding agents load to extend their behavior. Agent Skills bundle…
+- name: Agents
+  url: https://agents.apievangelist.com
+  description: An index and topic collection covering AI agents, agent frameworks, and agent runtimes
+    that enable autonomous reasoning, tool use, and multi-step task execution. This profile…
+- name: Aggregation
+  url: https://aggregation.apievangelist.com
+  description: An index and topic collection covering API aggregation, marketplaces, directories, unified
+    APIs, and catalog platforms. API aggregation brings together multiple APIs under a…
+- name: AI Automation
+  url: https://ai-automation.apievangelist.com
+  description: AI automation combines artificial intelligence with workflow and process automation to
+    create intelligent, autonomous systems including AI agent frameworks, autonomous coding…
+- name: AIOps
+  url: https://aiops.apievangelist.com
+  description: AIOps applies artificial intelligence and machine learning to IT operations, enabling intelligent
+    alerting, anomaly detection, automated root cause analysis, and predictive…
+- name: Analysis
+  url: https://analysis.apievangelist.com
+  description: A curated index of services, tooling, and open source solutions for API analysis, analytics,
+    linting, traffic inspection, and intelligence. This topic collection covers the full…
+- name: API Clients
+  url: https://api-clients.apievangelist.com
+  description: An index and topic collection covering API clients, the developer tools used to inspect,
+    debug, exercise, and document APIs interactively. API clients include desktop and web…
+- name: API Evangelist Discovery
+  url: https://discovery.apievangelist.com
+  description: Mapping the technical details of API operations to the human standard.
+- name: API Evangelist Partners
+  url: https://partners.apievangelist.com
+  description: These are the partners of API Evangelist.
+- name: API Evangelist Search
+  url: https://search.apievangelist.com
+  description: Searching across API Evangelist.
+- name: API Proxies
+  url: https://api-proxies.apievangelist.com
+  description: An index and topic collection covering reverse-proxy and edge-proxy software used in front
+    of APIs, including HTTP reverse proxies, edge proxies, load balancers, caching proxies,…
+- name: Authentication
+  url: https://authentication.apievangelist.com
+  description: A curated index of services, tooling, and open source solutions for API authentication,
+    authorization, identity management, and secrets management. This collection covers identity…
+- name: Backups
+  url: https://backups.apievangelist.com
+  description: An index and topic collection covering backup, disaster recovery, and data protection APIs.
+    Backup APIs enable applications and platforms to schedule, orchestrate, and verify the…
+- name: Bots
+  url: https://bots.apievangelist.com
+  description: An index and topic collection covering chatbots, conversational agents, and bot frameworks
+    across messaging, voice, and customer experience channels. Bots are scripted or…
+- name: Breaches
+  url: https://breaches.apievangelist.com
+  description: An index and topic collection covering data breach intelligence, credential exposure databases,
+    dark-web monitoring, and leak detection APIs. Breach intelligence platforms…
+- name: Browsers
+  url: https://browsers.apievangelist.com
+  description: An index and topic collection covering programmable browsers, headless browser engines,
+    and browser-automation APIs. The Browsers topic focuses on the browser execution surface —…
+- name: Caching
+  url: https://caching.apievangelist.com
+  description: An index and topic collection covering API-accessible caching services, in-memory data
+    stores, key-value caches, and edge/CDN cache APIs. Caching reduces latency, lowers backend…
+- name: Change Log
+  url: https://change-log.apievangelist.com
+  description: An index and topic collection covering developer changelog publishing, release-notes platforms,
+    and API change-tracking services. Change Log services help product, engineering,…
+- name: Clients
+  url: https://clients.apievangelist.com
+  description: This is the index of API client, HTTP client, and API consumer tools repos being tracked
+    by the API Evangelist network. The collection includes command-line HTTP clients, GUI…
+- name: Command Line Interface
+  url: https://cli.apievangelist.com
+  description: A curated index of services, tooling, and open source solutions for API command line interfaces,
+    HTTP clients, and terminal-based API tools. This collection covers HTTP clients,…
+- name: Communications
+  url: https://communications.apievangelist.com
+  description: An index and topic collection covering Communications Platform as a Service (CPaaS) and
+    messaging-and-voice infrastructure APIs. This network gathers providers offering…
+- name: Containers
+  url: https://containers.apievangelist.com
+  description: An index of container runtime, orchestration, registry, security, and build tool repositories
+    tracking the services and tools that package, deploy, and manage containerized…
+- name: Database
+  url: https://database.apievangelist.com
+  description: An index and topic collection covering managed databases and database-as-a-service offerings
+    exposing APIs. Database APIs enable developers to provision, configure, query,…
+- name: Deployment
+  url: https://deployment.apievangelist.com
+  description: An index and topic collection covering application deployment platforms, Platform-as-a-Service
+    (PaaS) providers, and CI/CD-as-a-service tools that expose APIs for shipping code to…
+- name: Deprecation
+  url: https://deprecation.apievangelist.com
+  description: API deprecation, sunset headers, end-of-life management, and API retirement practices,
+    including RFC 8594 Sunset, the Deprecation header, OpenAPI deprecation flags, and consumer…
+- name: Design
+  url: https://design.apievangelist.com
+  description: A curated index of services, tooling, and open source solutions for API design, specification
+    editing, linting, and governance. This collection covers visual API designers,…
+- name: Developer Experience
+  url: https://developer-experience.apievangelist.com
+  description: This is the index of developer experience service and tooling repos being tracked by the
+    API Evangelist network, covering developer portals, API documentation platforms, API…
+- name: DNS
+  url: https://dns.apievangelist.com
+  description: DNS (Domain Name System) is the distributed naming system that translates human-readable
+    domain names (like example.com) into the numerical IP addresses computers use to…
+- name: Documentation
+  url: https://documentation.apievangelist.com
+  description: A curated index of services, tooling, and open source solutions for producing API and developer
+    documentation. This collection covers hosted documentation platforms, open source…
+- name: Embeddable
+  url: https://embeddable.apievangelist.com
+  description: An index and topic collection covering embeddable widgets, JavaScript SDKs, iframe-able
+    experiences, and embedded analytics. Embeddable platforms allow product teams to drop…
+- name: Embedded iPaaS
+  url: https://embedded-ipaas.apievangelist.com
+  description: This is the index of embedded iPaaS service and tooling repos being tracked by the API
+    Evangelist network.
+- name: Encryption
+  url: https://encryption.apievangelist.com
+  description: An index and topic collection covering encryption services, key management systems (KMS),
+    hardware security modules (HSM), envelope encryption, end-to-end encryption SDKs,…
+- name: FinOps
+  url: https://finops.apievangelist.com
+  description: FinOps is a cloud financial management discipline combining technology, finance, and business
+    practices to drive accountability and optimize cloud spending through budget-aware…
+- name: Gateway
+  url: https://gateway.apievangelist.com
+  description: A collection of services, tooling, and open source solutions for API gateway management
+    and traffic control, covering routing, authentication, rate limiting, observability, and…
+- name: Hypermedia
+  url: https://hypermedia.apievangelist.com
+  description: An index and topic collection covering hypermedia-driven APIs, HATEOAS, and the formats,
+    link relations, and specifications that make APIs discoverable and self-describing.…
+- name: IDE
+  url: https://ide.apievangelist.com
+  description: An index and topic collection covering integrated development environments (IDEs), code
+    editors, and cloud workspaces with APIs. This topic captures the editors, IDEs, and…
+- name: Industrial
+  url: https://industrial.apievangelist.com
+  description: An index and topic collection covering industrial APIs across industrial IoT (IIoT), operational
+    technology (OT), SCADA, manufacturing, smart factory, asset management, predictive…
+- name: Integrations
+  url: https://integrations.apievangelist.com
+  description: An index and topic collection covering the broad integration tooling market, including
+    iPaaS and embedded-iPaaS platforms, workflow automation tools, unified API providers, ETL…
+- name: Internet of Things
+  url: https://internet-of-things.apievangelist.com
+  description: An index and topic collection covering consumer and commercial Internet of Things (IoT)
+    platforms, smart home ecosystems, connected device APIs, and the messaging and edge…
+- name: iPaaS
+  url: https://ipaas.apievangelist.com
+  description: This is the index of iPaaS (integration platform as a service) repos being tracked by the
+    API Evangelist network.
+- name: Issues
+  url: https://issues.apievangelist.com
+  description: An index and topic collection covering issue tracking, bug tracking, and project-management
+    APIs that expose issue, ticket, task, and work-item primitives. Issue tracking APIs are…
+- name: Licensing
+  url: https://licensing.apievangelist.com
+  description: 'An index and topic collection covering software licensing APIs across two intersecting
+    domains: open-source license metadata and code-license detection (SPDX, OSI license list,…'
+- name: Logging
+  url: https://logging.apievangelist.com
+  description: An index and topic collection covering log ingestion, log search, log aggregation, and
+    log pipeline services. Logging platforms collect event records from applications,…
+- name: Low Hanging Fruit
+  url: https://low-hanging-fruit.apievangelist.com
+  description: A Kin Lane / API Evangelist editorial collection of "low hanging fruit" APIs — the well-documented,
+    easy-to-onboard, single-purpose providers that consistently appear in…
+- name: Machine Learning
+  url: https://machine-learning.apievangelist.com
+  description: An index and topic collection covering machine learning APIs, MLOps platforms, model serving
+    infrastructure, and inference providers. Machine learning APIs span the full ML…
+- name: Management
+  url: https://management.apievangelist.com
+  description: An index and topic collection covering full-stack API management platforms — solutions
+    that combine an API gateway, developer portal, analytics, monetization, governance, and…
+- name: Microservices
+  url: https://microservices.apievangelist.com
+  description: An index of microservices architecture frameworks, service discovery, resilience, messaging,
+    workflow orchestration, and distributed systems tooling repositories.
+- name: Migration
+  url: https://migration.apievangelist.com
+  description: An index and topic collection covering data migration, cloud migration, database migration,
+    and API migration platforms and services. Migration platforms help organizations move…
+- name: Monetization
+  url: https://monetization.apievangelist.com
+  description: 'An index and topic collection covering API and SaaS monetization platforms: billing engines,
+    subscription management, usage metering, usage-based pricing, revenue recognition, and…'
+- name: Monitoring
+  url: https://monitoring.apievangelist.com
+  description: An index and topic collection covering API monitoring, application performance monitoring,
+    observability, uptime monitoring, log aggregation, error tracking, distributed tracing,…
+- name: Network
+  url: https://network.apievangelist.com
+  description: ''
+- name: Observability
+  url: https://observability.apievangelist.com
+  description: A curated index of services, tooling, and open source solutions for API observability,
+    monitoring, logging, tracing, metrics, and analytics. This collection covers APM platforms,…
+- name: Orchestration
+  url: https://orchestration.apievangelist.com
+  description: An index and topic collection covering container orchestration and workflow orchestration
+    platforms. Container orchestration platforms like Kubernetes, OpenShift, Amazon EKS,…
+- name: Performance
+  url: https://performance.apievangelist.com
+  description: An index and topic collection covering API and web performance, including load testing,
+    performance benchmarking, real user monitoring (RUM), Core Web Vitals measurement, latency…
+- name: Plans
+  url: https://plans.apievangelist.com
+  description: An index and topic collection covering machine-readable API and SaaS plan definitions.
+    Plans capture the structured representation of pricing tiers, included entitlements, metered…
+- name: Plugin
+  url: https://plugin.apievangelist.com
+  description: An index and topic collection covering plugin, extension, and add-on architectures with
+    public APIs and marketplaces. This collection spans editor and IDE plugin ecosystems (VS…
+- name: Portal
+  url: https://portal.apievangelist.com
+  description: A curated index of services, tooling, and open source solutions for API developer portals,
+    API catalogs, API marketplaces, and developer experience platforms. This collection…
+- name: Privacy
+  url: https://privacy.apievangelist.com
+  description: An index and topic collection covering privacy management, consent management, data subject
+    rights, data classification, and PII detection APIs. Privacy platforms help…
+- name: Pro-Code API Composition
+  url: https://pro-code-api-composition.apievangelist.com
+  description: An index of pro-code API composition service and tooling repos being tracked by the API
+    Evangelist network, covering workflow engines, code-first platforms, serverless…
+- name: Proxy
+  url: https://proxy.apievangelist.com
+  description: This is the index of API proxy, reverse proxy, forward proxy, and proxy middleware service
+    and tooling repos being tracked by the API Evangelist network.
+- name: Regulation
+  url: https://regulation.apievangelist.com
+  description: Regulation encompasses the rules, laws, and standards established by governments, agencies,
+    and standards bodies that govern how businesses and individuals must operate. In the…
+- name: Reliability
+  url: https://reliability.apievangelist.com
+  description: An index and topic collection covering site reliability engineering (SRE), reliability
+    platforms, service level objectives (SLOs), error budgets, chaos engineering, resilience…
+- name: Road Map
+  url: https://road-map.apievangelist.com
+  description: An index and topic collection covering public product road map publishing, feature voting,
+    customer feedback aggregation, and product discovery surfaces. Public road map platforms…
+- name: SaaS Management
+  url: https://saas-management.apievangelist.com
+  description: SaaS Management covers the tools, platforms, and practices used by organizations to discover,
+    manage, optimize, and secure their portfolio of SaaS applications. The global SaaS…
+- name: Scraping
+  url: https://scraping.apievangelist.com
+  description: An index and topic collection covering web scraping platforms, proxy networks, SERP APIs,
+    browser-based extraction services, and data collection APIs. Scraping platforms turn the…
+- name: SDKs
+  url: https://sdk.apievangelist.com
+  description: A curated index of services, tooling, and open source solutions for generating API SDKs,
+    client libraries, and code from API specifications. This collection covers SDK generation…
+- name: Security
+  url: https://security.apievangelist.com
+  description: An index and topic collection covering API security, identity, access management, secrets
+    management, encryption, and threat protection. API security spans the full lifecycle of…
+- name: Serverless
+  url: https://serverless.apievangelist.com
+  description: An index and topic collection covering serverless compute, function-as-a-service (FaaS)
+    runtimes, and edge function platforms. Serverless platforms abstract away server…
+- name: Service Mesh
+  url: https://service-mesh.apievangelist.com
+  description: Service mesh is a dedicated infrastructure layer for handling service-to-service communication
+    in microservices architectures. It provides traffic management, mutual TLS security,…
+- name: Support
+  url: https://support.apievangelist.com
+  description: An index and topic collection covering customer support, help desk, ticketing, knowledge
+    base, and live chat APIs. Customer support platforms power the interfaces and back-office…
+- name: Testing
+  url: https://testing.apievangelist.com
+  description: A curated index of services, tooling, and open source solutions for API testing, mocking,
+    load testing, contract testing, and quality assurance. This collection covers functional…
+- name: Transparency
+  url: https://transparency.apievangelist.com
+  description: An index and topic collection covering public-facing transparency surfaces across the API
+    and platform ecosystem. Transparency in this context refers to the mechanisms platforms…
+- name: Unified APIs
+  url: https://unified-apis.apievangelist.com
+  description: This is the index of unified API service and tooling repos being tracked by the API Evangelist
+    network. Unified APIs (also called integration hubs, API aggregators, or universal…
+- name: Versioning
+  url: https://versioning.apievangelist.com
+  description: An index and topic collection covering API versioning patterns, schema evolution, and breaking-change
+    detection across the API lifecycle. API versioning communicates change to…
+- name: Virtualization
+  url: https://virtualization.apievangelist.com
+  description: 'An index and topic collection covering virtualization across two intertwined domains:
+    machine virtualization (hypervisors, virtual machines, VDI, and cloud VM platforms) and…'
+- name: Visualization
+  url: https://visualization.apievangelist.com
+  description: An index and topic collection covering data visualization, charts, dashboards, business
+    intelligence (BI), and reporting APIs. Data visualization platforms turn raw data into…
+- name: Webhooks
+  url: https://webhooks.apievangelist.com
+  description: An index and topic collection covering webhook delivery, ingestion, transformation, retry,
+    and inspection APIs. Webhooks are the dominant HTTP pattern for asynchronous,…
+- name: Workflow Automation
+  url: https://workflow-automation.apievangelist.com
+  description: This is the index of workflow automation service and tooling repos being tracked by the
+    API Evangelist network.
