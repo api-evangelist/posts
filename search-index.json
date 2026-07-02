@@ -1,0 +1,5 @@
+---
+layout: none
+permalink: /search-index.json
+---
+{"posts":[{% for post in site.posts %}{"t":"post","n":{{ post.title | jsonify }},"d":{{ post.subtitle | default: "" | jsonify }},"u":"{{ post.url }}","g":{{ post.tags | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}],"extra":{{ site.data.search_extra | jsonify }}}

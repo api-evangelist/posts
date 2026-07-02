@@ -2,130 +2,135 @@
 layout: default
 section: Posts
 title: Search
-summary: Search across all stories on API Evangelist.
+summary: Search across everything on the API Evangelist network — stories, topic areas, guidance, rules, policies, standards, strategies, properties, schema, experiences, lifecycle, papers, and API providers.
 nav: Stories
 sub: Stories
 year:
 ---
 
-<!-- Search page shows ALL posts (no year filter), with search pre-filled from URL params -->
-
-<div class="d-flex align-items-center mb-4">
+<div class="d-flex align-items-center mb-3">
   <div>
-    <h1 class="mb-0 fs-4">Search Stories</h1>
+    <h1 class="mb-0 fs-4">Search the Network</h1>
     <p class="text-muted mb-0">{{ page.summary }}</p>
   </div>
 </div>
 
 <!-- Search bar -->
-<div class="card mb-4">
+<div class="card mb-3">
   <div class="card-body py-3">
-    <div class="row align-items-center g-3">
-      <div class="col-12 col-md-auto">
-        <div class="d-flex flex-wrap gap-1">
-          {% assign years = "2026,2025,2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010" | split: "," %}
-          {% for y in years %}
-            <a href="/{{ y }}" class="btn btn-sm btn-outline-secondary">{{ y }}</a>
-          {% endfor %}
-        </div>
-      </div>
-      <div class="col-12 col-md">
-        <div class="input-group">
-          <input type="text" id="post-search" class="form-control form-control-sm" placeholder="Search all stories..." onkeyup="filterPosts()">
-          <span class="input-group-text">
-            <span class="material-symbols-outlined" style="font-size: 18px;">search</span>
-          </span>
-        </div>
-      </div>
+    <div class="input-group">
+      <input type="text" id="net-search" class="form-control" placeholder="Search stories, areas, providers, guidance, rules, policies…" autocomplete="off" autofocus>
+      <span class="input-group-text"><span class="material-symbols-outlined" style="font-size:18px;">search</span></span>
     </div>
+    <div id="search-status" class="small text-muted mt-2">Loading the network index…</div>
   </div>
 </div>
 
-<!-- All posts -->
-<div id="post-list">
-  {% assign posts = site.posts %}
-  {% for post in posts %}
-    {% assign p = post.url | split: "/" %}
-    {% assign post_date = p[1] | append: "-" | append: p[2] | append: "-" | append: p[3] %}
-    {% assign excerpt = post.content | strip_html | truncate: 200 %}
+<!-- Type filter chips -->
+<div id="type-filters" class="d-flex flex-wrap gap-1 mb-3"></div>
 
-    <div class="post-entry" data-title="{{ post.title | downcase }}" data-tags="{% for tag in post.tags %}{{ tag | downcase }} {% endfor %}" style="display: none;">
-      <div class="post-item d-flex">
-        {% if post.image %}
-        <a href="{{ post.url | replace:'.html','' }}" class="flex-shrink-0">
-          <img src="{{ post.image }}" alt="" class="post-thumb me-3">
-        </a>
-        {% endif %}
-        <div class="flex-grow-1">
-          <h3 class="mb-1"><a href="{{ post.url | replace:'.html','' }}">{{ post.title }}</a></h3>
-          <p class="text-muted small mb-2">{{ excerpt }}</p>
-          <div class="d-flex flex-wrap align-items-center gap-2">
-            <span class="post-meta">{% include long-date.html date=post_date %}</span>
-            {% for tag in post.tags %}
-              <a href="/search/?search={{ tag }}&searchFields=tags" class="post-tag">#{{ tag }}</a>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-    </div>
+<!-- Results -->
+<div id="results"></div>
+<div id="no-results" class="text-center text-muted py-5">Start typing to search across the entire API Evangelist network.</div>
 
-  {% endfor %}
-</div>
-
-<div id="no-results" class="text-center text-muted py-5">
-  Enter a search term above to find stories.
-</div>
-
+<script src="https://cdn.jsdelivr.net/npm/minisearch@7.1.0/dist/umd/index.min.js"></script>
 <script>
-var maxResults = 50;
+(function () {
+  var TYPES = {
+    post:       { label: 'Stories',     cls: 'primary'   },
+    area:       { label: 'Areas',       cls: 'info'      },
+    provider:   { label: 'Providers',   cls: 'success'   },
+    guidance:   { label: 'Guidance',    cls: 'secondary' },
+    rule:       { label: 'Rules',       cls: 'secondary' },
+    policy:     { label: 'Policies',    cls: 'secondary' },
+    standard:   { label: 'Standards',   cls: 'secondary' },
+    strategy:   { label: 'Strategies',  cls: 'secondary' },
+    property:   { label: 'Properties',  cls: 'secondary' },
+    schema:     { label: 'Schema',      cls: 'secondary' },
+    experience: { label: 'Experiences', cls: 'secondary' },
+    lifecycle:  { label: 'Lifecycle',   cls: 'secondary' },
+    paper:      { label: 'Papers',      cls: 'warning'   }
+  };
+  var MAX = 60;
+  var mini, docs = [], activeType = 'all', ready = false;
+  var input   = document.getElementById('net-search');
+  var status  = document.getElementById('search-status');
+  var filters = document.getElementById('type-filters');
+  var results = document.getElementById('results');
+  var noRes   = document.getElementById('no-results');
 
-function filterPosts() {
-  var query = document.getElementById('post-search').value.toLowerCase().trim();
-  var entries = document.querySelectorAll('.post-entry');
-  var visible = 0;
+  function esc(s) { return (s || '').replace(/[&<>"]/g, function (c) {
+    return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]; }); }
 
-  if (query === '') {
-    entries.forEach(function(entry) { entry.style.display = 'none'; });
-    document.getElementById('no-results').style.display = '';
-    document.getElementById('no-results').textContent = 'Enter a search term above to find stories.';
-    return;
-  }
+  fetch('/search-index.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      docs = (data.posts || []).concat(data.extra || []);
+      docs.forEach(function (d, i) { d.id = i; d.gs = (d.g || []).join(' '); });
+      mini = new MiniSearch({
+        idField: 'id',
+        fields: ['n', 'd', 'gs'],
+        storeFields: ['t', 'n', 'u', 'd', 'g'],
+        searchOptions: { boost: { n: 3, gs: 2 }, prefix: true, fuzzy: 0.2, combineWith: 'AND' }
+      });
+      mini.addAll(docs);
+      ready = true;
+      status.textContent = docs.length.toLocaleString() + ' resources indexed across the network.';
+      var params = new URLSearchParams(window.location.search);
+      var q = params.get('q') || params.get('search');
+      if (q) { input.value = q; run(); }
+    })
+    .catch(function () { status.textContent = 'Could not load the search index. Please refresh.'; });
 
-  // Support searching by tag via searchFields param
-  var params = new URLSearchParams(window.location.search);
-  var searchFields = params.get('searchFields') || 'title,tags';
+  var timer;
+  input.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(run, 120); });
 
-  entries.forEach(function(entry) {
-    var title = entry.getAttribute('data-title');
-    var tags = entry.getAttribute('data-tags');
-    var match = false;
-
-    if (searchFields.indexOf('title') !== -1 && title.indexOf(query) !== -1) match = true;
-    if (searchFields.indexOf('tags') !== -1 && tags.indexOf(query) !== -1) match = true;
-
-    if (match && visible < maxResults) {
-      entry.style.display = '';
-      visible++;
-    } else {
-      entry.style.display = 'none';
+  function run() {
+    if (!ready) return;
+    var q = input.value.trim();
+    if (!q) {
+      results.innerHTML = ''; filters.innerHTML = '';
+      noRes.style.display = ''; noRes.textContent = 'Start typing to search across the entire API Evangelist network.';
+      return;
     }
-  });
-
-  if (visible === 0) {
-    document.getElementById('no-results').style.display = '';
-    document.getElementById('no-results').textContent = 'No stories match "' + query + '".';
-  } else {
-    document.getElementById('no-results').style.display = 'none';
+    var hits = mini.search(q);
+    renderFilters(hits);
+    var shown = activeType === 'all' ? hits : hits.filter(function (h) { return h.t === activeType; });
+    if (!shown.length) {
+      results.innerHTML = ''; noRes.style.display = '';
+      noRes.textContent = 'No results for "' + q + '"' + (activeType !== 'all' ? ' in ' + TYPES[activeType].label : '') + '.';
+      return;
+    }
+    noRes.style.display = 'none';
+    var html = shown.slice(0, MAX).map(function (h) {
+      var meta = TYPES[h.t] || { label: h.t, cls: 'secondary' };
+      var tags = (h.g || []).slice(0, 4).map(function (t) {
+        return '<a href="/search/?q=' + encodeURIComponent(t) + '" class="post-tag me-2">#' + esc(t) + '</a>'; }).join('');
+      return '<div class="post-item">'
+        + '<div class="d-flex align-items-start gap-2">'
+        + '<span class="badge bg-' + meta.cls + '-subtle text-' + meta.cls + '-emphasis border flex-shrink-0 mt-1">' + meta.label + '</span>'
+        + '<div class="flex-grow-1">'
+        + '<h3 class="mb-1 fs-6"><a href="' + esc(h.u) + '">' + esc(h.n) + '</a></h3>'
+        + (h.d ? '<p class="text-muted small mb-1">' + esc(h.d) + '</p>' : '')
+        + (tags ? '<div>' + tags + '</div>' : '')
+        + '</div></div></div>';
+    }).join('');
+    results.innerHTML = html;
   }
-}
 
-// Auto-search from URL params
-(function() {
-  var params = new URLSearchParams(window.location.search);
-  var search = params.get('search');
-  if (search) {
-    document.getElementById('post-search').value = search;
-    filterPosts();
+  function renderFilters(hits) {
+    var counts = {}; hits.forEach(function (h) { counts[h.t] = (counts[h.t] || 0) + 1; });
+    var order = Object.keys(TYPES).filter(function (t) { return counts[t]; })
+      .sort(function (a, b) { return counts[b] - counts[a]; });
+    var chips = ['<button class="btn btn-sm ' + (activeType === 'all' ? 'btn-dark' : 'btn-outline-secondary') + '" data-type="all">All ' + hits.length + '</button>'];
+    order.forEach(function (t) {
+      chips.push('<button class="btn btn-sm ' + (activeType === t ? 'btn-dark' : 'btn-outline-secondary')
+        + '" data-type="' + t + '">' + TYPES[t].label + ' ' + counts[t] + '</button>');
+    });
+    filters.innerHTML = chips.join('');
+    Array.prototype.forEach.call(filters.querySelectorAll('button'), function (b) {
+      b.addEventListener('click', function () { activeType = b.getAttribute('data-type'); run(); });
+    });
   }
 })();
 </script>
