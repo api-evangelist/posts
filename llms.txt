@@ -31,9 +31,10 @@ Focused subsites, each cataloging the services, tools, features, and use cases f
 
 ## Reference Timelines
 
-- [People Timeline](https://apievangelist.com/timeline/people/): Historical figures in computing, cybernetics, and APIs
-- [API Timeline](https://apievangelist.com/timeline-api/): History of the API industry
-- [Industry Timeline](https://apievangelist.com/timeline-industry/): Regulatory history of technology industries
+- [API Timeline](https://apievangelist.com/timeline/api/): 320 moments in the evolution of APIs, from pre-historic communication through the AI agent protocols of 2025
+- [People Timeline](https://apievangelist.com/timeline/people/): 146 people behind computing, cybernetics, networks, the web, APIs, and AI — from Ada Lovelace to today
+- [Industry Timeline](https://apievangelist.com/timeline/industry/): 40 milestones in the regulation of railroads, telecommunications, electricity, radio, the Internet, and now AI
+- [Resources Timeline](https://apievangelist.com/timeline/resources/): 59 digital resources made available via APIs, from Salesforce contacts in 2000 to MCP tools and context in 2024
 
 ## Ask & Chat
 
