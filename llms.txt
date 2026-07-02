@@ -6,7 +6,7 @@ permalink: /llms.txt
 
 > 16 years of independent research on the technology, business, policies, and people of HTTP APIs — by Kin Lane.
 
-API Evangelist is a federated network of knowledge bases built on 5,000+ blog posts spanning 2010–2026. The research covers every aspect of API operations, from design and governance to AI agents and the programmable enterprise. Run by Kin Lane, co-founder of Naftiko (naftiko.io), where this work feeds directly into governed AI capabilities.
+API Evangelist is a federated network of knowledge bases built on 5,000+ blog posts spanning 2010–2026. The research covers every aspect of API operations, from design and governance to AI agents and the programmable enterprise. Run by Kin Lane.
 
 ## Core Content
 
@@ -42,7 +42,7 @@ Focused subsites, each cataloging the services, tools, features, and use cases f
 ## About
 
 - [About API Evangelist](https://apievangelist.com/about/api-evangelist): What this site is and why it exists
-- [About Kin Lane](https://apievangelist.com/about/kin-lane): Background, experience, current work at Naftiko
+- [About Kin Lane](https://apievangelist.com/about/kin-lane): Background, experience, and current work
 - [Contact](https://apievangelist.com/contact): Reach Kin directly
 
 ## Optional

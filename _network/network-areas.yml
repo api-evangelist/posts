@@ -16,9 +16,9 @@ areas:
   - agents-skills
   - ai-automation
   - containers
-  - pro-code-api-composition
   - ipaas
   - aiops
+  - orchestration
 - slug: agents-skills
   name: Agent Skills
   url: https://agents-skills.apievangelist.com
@@ -383,10 +383,10 @@ areas:
   related:
   - orchestration
   - agents
-  - pro-code-api-composition
   - ipaas
   - security
   - saas-management
+  - analysis
 - slug: database
   name: Database
   url: https://database.apievangelist.com
@@ -597,11 +597,11 @@ areas:
   conforming: true
   related:
   - gateway
-  - pro-code-api-composition
   - sdk
   - finops
   - management
   - ide
+  - deprecation
 - slug: finops
   name: FinOps
   url: https://finops.apievangelist.com
@@ -681,10 +681,10 @@ areas:
   related:
   - api-clients
   - cli
-  - pro-code-api-composition
   - sdk
   - portal
   - finops
+  - migration
 - slug: industrial
   name: Industrial
   url: https://industrial.apievangelist.com
@@ -771,7 +771,7 @@ areas:
   - orchestration
   - unified-apis
   - workflow-automation
-  - pro-code-api-composition
+  - ai-automation
 - slug: issues
   name: Issues
   url: https://issues.apievangelist.com
@@ -814,9 +814,9 @@ areas:
   - saas-management
   - regulation
   - gateway
-  - pro-code-api-composition
   - finops
   - unified-apis
+  - management
 - slug: logging
   name: Logging
   url: https://logging.apievangelist.com
@@ -1026,8 +1026,8 @@ areas:
   - containers
   - workflow-automation
   - integrations
-  - pro-code-api-composition
   - ai-automation
+  - agents
 - slug: partners
   name: API Evangelist Partners
   url: https://partners.apievangelist.com
@@ -1138,24 +1138,6 @@ areas:
   - migration
   - management
   - security
-- slug: pro-code-api-composition
-  name: Pro-Code API Composition
-  url: https://pro-code-api-composition.apievangelist.com
-  icon: https://pro-code-api-composition.apievangelist.com/icon.png
-  description: An index of pro-code API composition service and tooling repos being tracked by the API
-    Evangelist network, covering workflow engines, code-first platforms, serverless…
-  tags:
-  - API Composition
-  - Orchestration
-  - Pro-Code
-  conforming: true
-  related:
-  - ipaas
-  - sdk
-  - orchestration
-  - containers
-  - ide
-  - agents
 - slug: proxy
   name: Proxy
   url: https://proxy.apievangelist.com
@@ -1291,7 +1273,6 @@ areas:
   - SDKs
   conforming: true
   related:
-  - pro-code-api-composition
   - clients
   - ide
   - api-clients

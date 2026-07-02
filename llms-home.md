@@ -6,7 +6,7 @@ permalink: /llms-home.md
 
 > Studying the technology, business, and politics of APIs since 2010.
 
-API Evangelist is the working toolbox of Kin Lane — co-founder of [Naftiko](https://naftiko.io) — designed to explore and make sense of the technology, business, policies, and people involved in creating and consuming HTTP APIs. The site is an evolving repository covering nearly every aspect of API operations: design, governance, security, monetization, lifecycle, automation, agents, and the programmable enterprise.
+API Evangelist is the working toolbox of Kin Lane, designed to explore and make sense of the technology, business, policies, and people involved in creating and consuming HTTP APIs. The site is an evolving repository covering nearly every aspect of API operations: design, governance, security, monetization, lifecycle, automation, agents, and the programmable enterprise.
 
 ## What's here
 

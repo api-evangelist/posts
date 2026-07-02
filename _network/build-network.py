@@ -15,6 +15,8 @@ import os, re, sys, yaml
 INFO = "/Users/kinlane/GitHub/api-evangelist/info"
 OUT  = "/Users/kinlane/GitHub/api-evangelist/posts/_network/network-areas.yml"
 BESPOKE = {"discovery", "network", "partners", "search"}
+# Areas removed from the network entirely (no DNS / retired) — never listed or linked.
+EXCLUDED = {"pro-code-api-composition"}
 
 STOP = set("api apis the a an and or of for to in on with your you index topic "
            "collection covering services tooling open source solutions curated".split())
@@ -62,7 +64,8 @@ def tokens(a):
 
 def main():
     slugs = sorted(d for d in os.listdir(INFO)
-                   if os.path.isdir(os.path.join(INFO, d)) and not d.startswith("."))
+                   if os.path.isdir(os.path.join(INFO, d)) and not d.startswith(".")
+                   and d not in EXCLUDED)
     areas = [load_area(s) for s in slugs]
     tok = {a["slug"]: tokens(a) for a in areas}
 

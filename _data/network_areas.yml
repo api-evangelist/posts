@@ -227,10 +227,6 @@ areas:
   url: https://privacy.apievangelist.com
   description: An index and topic collection covering privacy management, consent management, data subject
     rights, data classification, and PII detection APIs. Privacy platforms help…
-- name: Pro-Code API Composition
-  url: https://pro-code-api-composition.apievangelist.com
-  description: An index of pro-code API composition service and tooling repos being tracked by the API
-    Evangelist network, covering workflow engines, code-first platforms, serverless…
 - name: Proxy
   url: https://proxy.apievangelist.com
   description: This is the index of API proxy, reverse proxy, forward proxy, and proxy middleware service
