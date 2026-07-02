@@ -182,3 +182,101 @@
   link: https://en.wikipedia.org/wiki/FCC_fairness_doctrine
   label: 
     - Radio            
+- date: 1890
+  title: Sherman Antitrust Act
+  list:
+  description: The foundational United States antitrust law, prohibiting monopolization and agreements that restrain interstate trade and commerce.
+  link: https://en.wikipedia.org/wiki/Sherman_Antitrust_Act
+  label:
+    - Antitrust
+- date: 1911
+  title: Standard Oil Breakup
+  list:
+  description: In Standard Oil Co. of New Jersey v. United States, the Supreme Court found Standard Oil an illegal monopoly and ordered it broken into 34 separate companies.
+  link: https://en.wikipedia.org/wiki/Standard_Oil_Co._of_New_Jersey_v._United_States
+  label:
+    - Antitrust
+- date: 1914
+  title: Clayton Antitrust Act and Federal Trade Commission Act
+  list:
+  description: The Clayton Act strengthened US antitrust law while the Federal Trade Commission Act created the FTC to police unfair methods of competition.
+  link: https://en.wikipedia.org/wiki/Clayton_Antitrust_Act_of_1914
+  label:
+    - Antitrust
+- date: 1956
+  title: AT&T Consent Decree
+  list:
+  description: A consent decree settling a federal antitrust suit that barred AT&T from entering the computing industry, shaping the boundary between telecommunications and computing for decades.
+  link: https://en.wikipedia.org/wiki/Bell_System
+  label:
+    - Telecom
+- date: 1968
+  title: Carterfone Decision
+  list:
+  description: An FCC decision allowing customers to attach third-party devices to the telephone network, establishing the interoperability and open-access principle that later shaped modems, the internet, and APIs.
+  link: https://en.wikipedia.org/wiki/Carterfone
+  label:
+    - Telecom
+- date: 1996
+  title: Section 230 (Communications Decency Act)
+  list:
+  description: Part of the Communications Decency Act, Section 230 shields online platforms from liability for content posted by their users, a legal foundation for the modern web and its platforms.
+  link: https://en.wikipedia.org/wiki/Section_230
+  label:
+    - Internet
+- date: 1998
+  title: Digital Millennium Copyright Act (DMCA)
+  list:
+  description: The DMCA criminalized circumvention of copyright protections and created safe-harbor rules and takedown procedures for online service providers.
+  link: https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act
+  label:
+    - Internet
+- date: 1998
+  title: United States v. Microsoft
+  list:
+  description: A landmark antitrust case alleging Microsoft illegally maintained a monopoly by bundling Internet Explorer with Windows, a defining moment for platform competition.
+  link: https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.
+  label:
+    - Antitrust
+- date: 2015
+  title: FCC Open Internet Order (Net Neutrality)
+  list:
+  description: The FCC reclassified broadband as a common-carrier service under Title II, enacting net neutrality rules that barred blocking, throttling, and paid prioritization.
+  link: https://en.wikipedia.org/wiki/Net_neutrality_in_the_United_States
+  label:
+    - Internet
+- date: 2017
+  title: Net Neutrality Repeal (Restoring Internet Freedom Order)
+  list:
+  description: The FCC's Restoring Internet Freedom Order repealed the 2015 net neutrality rules and returned broadband to a lightly regulated classification.
+  link: https://en.wikipedia.org/wiki/Restoring_Internet_Freedom_Order
+  label:
+    - Internet
+- date: 2018
+  title: GDPR (EU General Data Protection Regulation)
+  list:
+  description: The EU General Data Protection Regulation established comprehensive rules for personal data protection, consent, portability, and the rights of data subjects.
+  link: https://en.wikipedia.org/wiki/General_Data_Protection_Regulation
+  label:
+    - Privacy
+- date: 2020
+  title: United States v. Google
+  list:
+  description: The US Department of Justice and a coalition of states filed antitrust suits alleging Google unlawfully maintained monopolies in search and advertising.
+  link: https://en.wikipedia.org/wiki/United_States_v._Google_LLC_(2020)
+  label:
+    - Antitrust
+- date: 2022
+  title: EU Digital Markets Act and Digital Services Act
+  list:
+  description: The EU Digital Markets Act and Digital Services Act imposed interoperability, fairness, and content duties on large online platforms and gatekeepers.
+  link: https://en.wikipedia.org/wiki/Digital_Markets_Act
+  label:
+    - Platform
+- date: 2024
+  title: EU AI Act
+  list:
+  description: The European Union's Artificial Intelligence Act, the first comprehensive legal framework regulating AI systems by risk category.
+  link: https://en.wikipedia.org/wiki/Artificial_Intelligence_Act
+  label:
+    - AI
