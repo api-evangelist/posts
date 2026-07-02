@@ -8,6 +8,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Daily rebuild so future-dated (scheduled) posts publish on their date even
+  # when nothing is pushed that day. 12:10 UTC — just after the noon-UTC
+  # timestamps the scheduled posts carry.
+  schedule:
+    - cron: "10 12 * * *"
 
 # Allow the deploy job to publish to Pages.
 permissions:
