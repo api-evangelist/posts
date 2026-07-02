@@ -7,6 +7,16 @@ description: Find APIs and contracts in the api-evangelist network by keyword, p
 
 **Description:** Find APIs and contracts in the api-evangelist network by keyword, provider, or tag. Returns structured matches the agent can hand to the user or feed to other skills.
 
+## Preferred: server-side search via the network API
+
+For API Evangelist's own research corpus (stories, areas, guidance, rules, policies, standards, papers, services), use one request instead of fetching catalogs:
+
+```
+GET https://api.apievangelist.com/v1/search?q=<query>&types=<optional,csv>&limit=25
+```
+
+Keyless (5 req/s free tier). `meta.facets.types` gives per-type hit counts. For provider/API discovery specifically, the APIs.io API (`https://apis.io/developer/`) is the richer catalog. The client-side catalog filtering below remains valid for the apis./contracts. subdomain corpus.
+
 ## When to use this skill
 
 Use when the user asks "what APIs are there for X", "find an API to do Y", "which providers offer Z", or any other intent that requires filtering the api-evangelist catalog. Prefer this over scraping search HTML.

@@ -7,6 +7,16 @@ description: Discover the structure of the api-evangelist network — its subdom
 
 **Description:** Discover the structure of the api-evangelist network — its subdomains, machine-readable catalogs, and content-negotiation conventions — so other skills can find APIs and contracts efficiently.
 
+## Preferred: the network API and MCP server
+
+The fastest way into the network is now the first-class API — prefer it over crawling catalogs:
+
+- **REST:** `https://api.apievangelist.com/v1` — `/search?q=` across stories, topic areas, guidance, rules, policies, standards, strategies, properties, schema, experiences, lifecycle, conversations, papers, services, and vocabulary. Keyless free tier (5 req/s, 1,000/day); OpenAPI at `https://developer.apievangelist.com/apis/apievangelist-v1-openapi.yml`.
+- **MCP:** `https://mcp.apievangelist.com/mcp` (Streamable HTTP) — call `get_overview` first, `guide_topic` for a curated bundle on any API topic.
+- **Docs:** `https://developer.apievangelist.com/`
+
+The api-catalog crawling below remains for the per-provider API/contract corpus, which lives on APIs.io and the apis./contracts. subdomains rather than in the network API.
+
 ## When to use this skill
 
 Use this skill first when the user mentions api-evangelist, API Evangelist, the apievangelist.com network, asks about API discovery against a curated catalog, or wants to find APIs across providers. It primes the agent with the network's discovery endpoints so subsequent searches don't waste tokens scraping HTML.

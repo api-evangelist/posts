@@ -11,6 +11,8 @@ description: Given an api-evangelist URL or catalog entry, fetch the OpenAPI / A
 
 Use after `search-apis` returns a hit, or whenever the user supplies an `apis.apievangelist.com/store/...` or `contracts.apievangelist.com/store/...` URL and wants to inspect, summarize, or generate code from the underlying API description.
 
+For API Evangelist's own network API, the spec is fixed and hosted: `https://developer.apievangelist.com/apis/apievangelist-v1-openapi.yml` — fetch it directly, no lookup needed. Full research resources (guidance, rules, stories, …) inline their bodies via `?include=content` on `https://api.apievangelist.com/v1`.
+
 ## Inputs
 
 One of:
