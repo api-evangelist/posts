@@ -2,7 +2,7 @@
 layout: default
 section: Posts
 title: Search
-summary: Search across everything on the API Evangelist network — stories, topic areas, guidance, rules, policies, standards, strategies, properties, schema, experiences, lifecycle, papers, and API providers.
+summary: Search across everything on the API Evangelist network — stories, topic areas, guidance, rules, policies, standards, strategies, properties, schema, experiences, lifecycle, papers, conversations, services, and vocabulary.
 nav: Stories
 sub: Stories
 year:
@@ -19,10 +19,10 @@ year:
 <div class="card mb-3">
   <div class="card-body py-3">
     <div class="input-group">
-      <input type="text" id="net-search" class="form-control" placeholder="Search stories, areas, providers, guidance, rules, policies…" autocomplete="off" autofocus>
+      <input type="text" id="net-search" class="form-control" placeholder="Search stories, areas, guidance, rules, services…" autocomplete="off" autofocus>
       <span class="input-group-text"><span class="material-symbols-outlined" style="font-size:18px;">search</span></span>
     </div>
-    <div id="search-status" class="small text-muted mt-2">Loading the network index…</div>
+    <div id="search-status" class="small text-muted mt-2">Powered by <a href="https://developer.apievangelist.com/" class="text-decoration-none">the API Evangelist API</a>.</div>
   </div>
 </div>
 
@@ -33,104 +33,157 @@ year:
 <div id="results"></div>
 <div id="no-results" class="text-center text-muted py-5">Start typing to search across the entire API Evangelist network.</div>
 
-<script src="https://cdn.jsdelivr.net/npm/minisearch@7.1.0/dist/umd/index.min.js"></script>
 <script>
 (function () {
+  var API_BASE = 'https://api.apievangelist.com/v1';
+  // Labels/colors for API type names (plural) AND legacy static-index names (singular).
   var TYPES = {
-    post:       { label: 'Stories',     cls: 'primary'   },
-    area:       { label: 'Areas',       cls: 'info'      },
-    provider:   { label: 'Providers',   cls: 'success'   },
-    guidance:   { label: 'Guidance',    cls: 'secondary' },
-    rule:       { label: 'Rules',       cls: 'secondary' },
-    policy:     { label: 'Policies',    cls: 'secondary' },
-    standard:   { label: 'Standards',   cls: 'secondary' },
-    strategy:   { label: 'Strategies',  cls: 'secondary' },
-    property:   { label: 'Properties',  cls: 'secondary' },
-    schema:     { label: 'Schema',      cls: 'secondary' },
-    experience: { label: 'Experiences', cls: 'secondary' },
-    lifecycle:  { label: 'Lifecycle',   cls: 'secondary' },
-    paper:      { label: 'Papers',      cls: 'warning'   }
+    posts: { label: 'Stories', cls: 'primary' },        post: { label: 'Stories', cls: 'primary' },
+    areas: { label: 'Areas', cls: 'info' },             area: { label: 'Areas', cls: 'info' },
+    provider: { label: 'Providers', cls: 'success' },
+    guidance: { label: 'Guidance', cls: 'secondary' },
+    rules: { label: 'Rules', cls: 'secondary' },        rule: { label: 'Rules', cls: 'secondary' },
+    policies: { label: 'Policies', cls: 'secondary' },  policy: { label: 'Policies', cls: 'secondary' },
+    standards: { label: 'Standards', cls: 'secondary' }, standard: { label: 'Standards', cls: 'secondary' },
+    strategies: { label: 'Strategies', cls: 'secondary' }, strategy: { label: 'Strategies', cls: 'secondary' },
+    properties: { label: 'Properties', cls: 'secondary' }, property: { label: 'Properties', cls: 'secondary' },
+    schema: { label: 'Schema', cls: 'secondary' },
+    experiences: { label: 'Experiences', cls: 'secondary' }, experience: { label: 'Experiences', cls: 'secondary' },
+    lifecycle: { label: 'Lifecycle', cls: 'secondary' },
+    conversations: { label: 'Conversations', cls: 'info' },
+    papers: { label: 'Papers', cls: 'warning' },        paper: { label: 'Papers', cls: 'warning' },
+    services: { label: 'Services', cls: 'success' },
+    vocabulary: { label: 'Vocabulary', cls: 'secondary' },
+    newsletters: { label: 'Newsletters', cls: 'secondary' },
+    feeds: { label: 'Feeds', cls: 'secondary' }
   };
   var MAX = 60;
-  var mini, docs = [], activeType = 'all', ready = false;
-  var input   = document.getElementById('net-search');
-  var status  = document.getElementById('search-status');
+  var input = document.getElementById('net-search');
+  var status = document.getElementById('search-status');
   var filters = document.getElementById('type-filters');
   var results = document.getElementById('results');
-  var noRes   = document.getElementById('no-results');
+  var noRes = document.getElementById('no-results');
+  var activeType = 'all';
+  var controller = null;
+  var fallback = null; // becomes {mini, docs} if the API is unreachable
 
   function esc(s) { return (s || '').replace(/[&<>"]/g, function (c) {
     return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]; }); }
+  function meta(t) { return TYPES[t] || { label: t, cls: 'secondary' }; }
 
-  fetch('/search-index.json')
-    .then(function (r) { return r.json(); })
-    .then(function (data) {
-      docs = (data.posts || []).concat(data.extra || []);
-      docs.forEach(function (d, i) { d.id = i; d.gs = (d.g || []).join(' '); });
-      mini = new MiniSearch({
-        idField: 'id',
-        fields: ['n', 'd', 'gs'],
-        storeFields: ['t', 'n', 'u', 'd', 'g'],
-        searchOptions: { boost: { n: 3, gs: 2 }, prefix: true, fuzzy: 0.2, combineWith: 'AND' }
-      });
-      mini.addAll(docs);
-      ready = true;
-      status.textContent = docs.length.toLocaleString() + ' resources indexed across the network.';
-      var params = new URLSearchParams(window.location.search);
-      var q = params.get('q') || params.get('search');
-      if (q) { input.value = q; run(); }
-    })
-    .catch(function () { status.textContent = 'Could not load the search index. Please refresh.'; });
-
-  var timer;
-  input.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(run, 120); });
-
-  function run() {
-    if (!ready) return;
-    var q = input.value.trim();
-    if (!q) {
-      results.innerHTML = ''; filters.innerHTML = '';
-      noRes.style.display = ''; noRes.textContent = 'Start typing to search across the entire API Evangelist network.';
-      return;
-    }
-    var hits = mini.search(q);
-    renderFilters(hits);
-    var shown = activeType === 'all' ? hits : hits.filter(function (h) { return h.t === activeType; });
-    if (!shown.length) {
+  function renderDocs(docs, q) {
+    if (!docs.length) {
       results.innerHTML = ''; noRes.style.display = '';
-      noRes.textContent = 'No results for "' + q + '"' + (activeType !== 'all' ? ' in ' + TYPES[activeType].label : '') + '.';
+      noRes.textContent = 'No results for "' + q + '"' + (activeType !== 'all' ? ' in ' + meta(activeType).label : '') + '.';
       return;
     }
     noRes.style.display = 'none';
-    var html = shown.slice(0, MAX).map(function (h) {
-      var meta = TYPES[h.t] || { label: h.t, cls: 'secondary' };
-      var tags = (h.g || []).slice(0, 4).map(function (t) {
+    results.innerHTML = docs.slice(0, MAX).map(function (h) {
+      var m = meta(h.type || h.t);
+      var tags = (h.tags || h.g || []).slice(0, 4).map(function (t) {
         return '<a href="/search/?q=' + encodeURIComponent(t) + '" class="post-tag me-2">#' + esc(t) + '</a>'; }).join('');
+      var title = h.title || h.n, url = h.url || h.u, desc = h.summary || h.d;
       return '<div class="post-item">'
         + '<div class="d-flex align-items-start gap-2">'
-        + '<span class="badge bg-' + meta.cls + '-subtle text-' + meta.cls + '-emphasis border flex-shrink-0 mt-1">' + meta.label + '</span>'
+        + '<span class="badge bg-' + m.cls + '-subtle text-' + m.cls + '-emphasis border flex-shrink-0 mt-1">' + m.label + '</span>'
         + '<div class="flex-grow-1">'
-        + '<h3 class="mb-1 fs-6"><a href="' + esc(h.u) + '">' + esc(h.n) + '</a></h3>'
-        + (h.d ? '<p class="text-muted small mb-1">' + esc(h.d) + '</p>' : '')
+        + '<h3 class="mb-1 fs-6"><a href="' + esc(url) + '">' + esc(title) + '</a></h3>'
+        + (desc ? '<p class="text-muted small mb-1">' + esc(desc) + '</p>' : '')
         + (tags ? '<div>' + tags + '</div>' : '')
         + '</div></div></div>';
     }).join('');
-    results.innerHTML = html;
   }
 
-  function renderFilters(hits) {
-    var counts = {}; hits.forEach(function (h) { counts[h.t] = (counts[h.t] || 0) + 1; });
-    var order = Object.keys(TYPES).filter(function (t) { return counts[t]; })
-      .sort(function (a, b) { return counts[b] - counts[a]; });
-    var chips = ['<button class="btn btn-sm ' + (activeType === 'all' ? 'btn-dark' : 'btn-outline-secondary') + '" data-type="all">All ' + hits.length + '</button>'];
+  function renderFilters(facetCounts, total) {
+    var order = Object.keys(facetCounts).sort(function (a, b) { return facetCounts[b] - facetCounts[a]; });
+    var chips = ['<button class="btn btn-sm ' + (activeType === 'all' ? 'btn-dark' : 'btn-outline-secondary') + '" data-type="all">All ' + total + '</button>'];
     order.forEach(function (t) {
       chips.push('<button class="btn btn-sm ' + (activeType === t ? 'btn-dark' : 'btn-outline-secondary')
-        + '" data-type="' + t + '">' + TYPES[t].label + ' ' + counts[t] + '</button>');
+        + '" data-type="' + t + '">' + meta(t).label + ' ' + facetCounts[t] + '</button>');
     });
     filters.innerHTML = chips.join('');
     Array.prototype.forEach.call(filters.querySelectorAll('button'), function (b) {
       b.addEventListener('click', function () { activeType = b.getAttribute('data-type'); run(); });
     });
   }
+
+  // ---- Primary: the network API ----
+  function apiSearch(q) {
+    if (controller) controller.abort();
+    controller = new AbortController();
+    var url = API_BASE + '/search?q=' + encodeURIComponent(q) + '&limit=' + MAX
+      + (activeType !== 'all' ? '&types=' + encodeURIComponent(activeType) : '');
+    return fetch(url, { signal: controller.signal }).then(function (r) {
+      if (!r.ok) throw new Error('api ' + r.status);
+      return r.json();
+    }).then(function (d) {
+      renderFilters((d.meta.facets && d.meta.facets.types) || {}, d.meta.total);
+      renderDocs(d.data, q);
+      status.innerHTML = d.meta.total.toLocaleString() + ' results via <a href="https://developer.apievangelist.com/" class="text-decoration-none">the API Evangelist API</a>.';
+    });
+  }
+
+  // ---- Fallback: static index + MiniSearch (only loaded if the API fails) ----
+  function loadFallback() {
+    if (fallback) return Promise.resolve(fallback);
+    status.textContent = 'API unavailable — loading local index…';
+    return new Promise(function (resolve, reject) {
+      var s = document.createElement('script');
+      s.src = 'https://cdn.jsdelivr.net/npm/minisearch@7.1.0/dist/umd/index.min.js';
+      s.onload = resolve; s.onerror = reject;
+      document.head.appendChild(s);
+    }).then(function () { return fetch('/search-index.json'); })
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        var docs = (data.posts || []).concat(data.extra || []);
+        docs.forEach(function (d, i) { d.id = i; d.gs = (d.g || []).join(' '); });
+        var mini = new MiniSearch({
+          idField: 'id', fields: ['n', 'd', 'gs'], storeFields: ['t', 'n', 'u', 'd', 'g'],
+          searchOptions: { boost: { n: 3, gs: 2 }, prefix: true, fuzzy: 0.2, combineWith: 'AND' }
+        });
+        mini.addAll(docs);
+        fallback = { mini: mini };
+        return fallback;
+      });
+  }
+
+  function fallbackSearch(q) {
+    return loadFallback().then(function (fb) {
+      var hits = fb.mini.search(q);
+      var counts = {};
+      hits.forEach(function (h) { counts[h.t] = (counts[h.t] || 0) + 1; });
+      renderFilters(counts, hits.length);
+      var shown = activeType === 'all' ? hits : hits.filter(function (h) { return h.t === activeType; });
+      renderDocs(shown, q);
+      status.textContent = hits.length.toLocaleString() + ' results (local index — API unavailable).';
+    });
+  }
+
+  function run() {
+    var q = input.value.trim();
+    if (!q) {
+      results.innerHTML = ''; filters.innerHTML = '';
+      noRes.style.display = ''; noRes.textContent = 'Start typing to search across the entire API Evangelist network.';
+      return;
+    }
+    apiSearch(q).catch(function (err) {
+      if (err.name === 'AbortError') return; // superseded by a newer keystroke
+      fallbackSearch(q).catch(function () {
+        status.textContent = 'Search is unavailable right now. Please refresh.';
+      });
+    });
+  }
+
+  // Debounce 300ms — respectful of the keyless tier; AbortController cancels stale requests.
+  var timer;
+  input.addEventListener('input', function () {
+    activeType = 'all';
+    clearTimeout(timer); timer = setTimeout(run, 300);
+  });
+
+  // Deep links: ?q= (current) and ?search= (legacy tag links).
+  var params = new URLSearchParams(window.location.search);
+  var q0 = params.get('q') || params.get('search');
+  if (q0) { input.value = q0; run(); }
 })();
 </script>

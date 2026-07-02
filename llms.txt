@@ -36,6 +36,16 @@ Focused subsites, each cataloging the services, tools, features, and use cases f
 - [Industry Timeline](https://apievangelist.com/timeline/industry/): 40 milestones in the regulation of railroads, telecommunications, electricity, radio, the Internet, and now AI
 - [Resources Timeline](https://apievangelist.com/timeline/resources/): 59 digital resources made available via APIs, from Salesforce contacts in 2000 to MCP tools and context in 2024
 
+## API & MCP
+
+The whole network is programmable — every resource above is available via a REST API and an MCP server.
+
+- [Developer Portal](https://developer.apievangelist.com/): documentation, quickstarts, and the API reference
+- [Network API](https://api.apievangelist.com/v1): REST over stories, areas, building blocks, papers, conversations, services, and vocabulary — keyless free tier (5 req/s, 1,000/day)
+- [OpenAPI](https://developer.apievangelist.com/apis/apievangelist-v1-openapi.yml): the machine-readable contract
+- [MCP Server](https://mcp.apievangelist.com/mcp): Streamable HTTP, 17 tools including get_overview and guide_topic concierge tools ([server card](https://apievangelist.com/.well-known/mcp/server-card.json))
+- [API Catalog](https://developer.apievangelist.com/.well-known/api-catalog): RFC 9727 linkset of every machine-readable surface
+
 ## Ask & Chat
 
 - [Ask Kin](https://apievangelist.com/): AI assistant trained on API Evangelist content — answers questions, cites sources from the full blog archive
