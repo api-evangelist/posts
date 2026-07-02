@@ -34,6 +34,12 @@
   description:
   link:
   label:
+- date: 2004
+  title: Payments (PayPal)
+  list:
+  description:
+  link:
+  label:
 - date: 2005
   title: Videos (YouTube)
   list:
@@ -112,6 +118,12 @@
   description:
   link:
   label:
+- date: 2009
+  title: Products, Orders, Customers (Shopify)
+  list:
+  description:
+  link:
+  label:
 - date: 2010
   title: Thermosats (Nest)
   list:
@@ -130,6 +142,12 @@
   description:
   link:
   label:
+- date: 2010
+  title: Questions, Answers (Stack Exchange)
+  list:
+  description:
+  link:
+  label:
 - date: 2011
   title: Wearables (Fitbit)
   list:
@@ -142,8 +160,86 @@
   description:
   link:
   label:
+- date: 2011
+  title: Files, Folders (Dropbox)
+  list:
+  description:
+  link:
+  label:
+- date: 2011
+  title: Companies, Contacts, Deals (HubSpot)
+  list:
+  description:
+  link:
+  label:
+- date: 2011
+  title: Users, Conversations (Intercom)
+  list:
+  description:
+  link:
+  label:
+- date: 2012
+  title: Weather, Forecasts (OpenWeatherMap)
+  list:
+  description:
+  link:
+  label:
+- date: 2012
+  title: Search, Indexes (Algolia)
+  list:
+  description:
+  link:
+  label:
+- date: 2012
+  title: Emails (Mailgun)
+  list:
+  description:
+  link:
+  label:
 - date: 2013
   title: Messaging (Slack)
+  list:
+  description:
+  link:
+  label:
+- date: 2013
+  title: Payments (Square)
+  list:
+  description:
+  link:
+  label:
+- date: 2013
+  title: Bank Accounts, Transactions (Plaid)
+  list:
+  description:
+  link:
+  label:
+- date: 2013
+  title: Identity, Authentication (Auth0)
+  list:
+  description:
+  link:
+  label:
+- date: 2013
+  title: Cryptocurrency, Wallets (Coinbase)
+  list:
+  description:
+  link:
+  label:
+- date: 2013
+  title: Streams, Chat (Twitch)
+  list:
+  description:
+  link:
+  label:
+- date: 2013
+  title: GIFs (Giphy)
+  list:
+  description:
+  link:
+  label:
+- date: 2013
+  title: Maps, Geocoding (Mapbox)
   list:
   description:
   link:
@@ -166,8 +262,92 @@
   description:
   link:
   label:
+- date: 2015
+  title: Photos (Unsplash)
+  list:
+  description:
+  link:
+  label:
+- date: 2015
+  title: Records, Bases (Airtable)
+  list:
+  description:
+  link:
+  label:
+- date: 2015
+  title: Shipping, Labels (EasyPost)
+  list:
+  description:
+  link:
+  label:
 - date: 2016
   title: Voice (Amazon Alexa Voice Service)
+  list:
+  description:
+  link:
+  label:
+- date: 2017
+  title: Meetings, Webinars (Zoom)
+  list:
+  description:
+  link:
+  label:
+- date: 2018
+  title: Messages, Servers (Discord)
+  list:
+  description:
+  link:
+  label:
+- date: 2020
+  title: Text, Completions, Embeddings (OpenAI)
+  list:
+  description:
+  link:
+  label:
+- date: 2020
+  title: Design Files (Figma)
+  list:
+  description:
+  link:
+  label:
+- date: 2021
+  title: Pages, Databases (Notion)
+  list:
+  description:
+  link:
+  label:
+- date: 2021
+  title: NFTs, Collections (OpenSea)
+  list:
+  description:
+  link:
+  label:
+- date: 2022
+  title: Images (Stable Diffusion)
+  list:
+  description:
+  link:
+  label:
+- date: 2022
+  title: Videos (TikTok)
+  list:
+  description:
+  link:
+  label:
+- date: 2023
+  title: Messages, Conversations (Anthropic Claude)
+  list:
+  description:
+  link:
+  label:
+- date: 2023
+  title: Speech, Voice (ElevenLabs)
+  list:
+  description:
+  link:
+  label:
+- date: 2024
+  title: Tools, Context (MCP Servers)
   list:
   description:
   link:
