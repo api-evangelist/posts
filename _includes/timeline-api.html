@@ -6,6 +6,9 @@
         </div>
         <div class="tm-timeline-body">
             <h3>{{ version.title }}{% if version.label %}<span class="timeline-label">{{ version.label }}</span>{% endif %}</h3>
+            {% if version.description %}
+                <p class="timeline-description">{{ version.description }}</p>
+            {% endif %}
             {% if version.list.size > 0 %}
             <ul>
                 {% for item in version.list %}

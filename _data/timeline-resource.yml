@@ -1,354 +1,354 @@
 - date: 2000
   title: Contacts, Relationships (Salesforce)
   list:
-  description:
+  description: Salesforce launched as one of the first API-first software companies, exposing customer contacts, accounts, and relationship data over the web. By making CRM records programmable, it established that business data could live in the cloud and be integrated into any other system rather than locked inside desktop software.
   link:
   label:
 - date: 2000
   title: Auctions, Products (eBay)
   list:
-  description:
+  description: eBay released its API in November 2000, giving developers programmatic access to auction listings, products, and bidding. The move let third-party sellers and tool makers build applications on top of the marketplace, demonstrating early on that opening commerce data via API could grow an ecosystem rather than threaten it.
   link:
   label:
 - date: 2002
   title: Products, Affiliates (Amazon)
   list:
-  description:
+  description: Amazon introduced Amazon Web Services in 2002, an API exposing its product catalog, prices, and affiliate links. Developers could embed Amazon products and earn referral commissions from their own websites, turning the retailer's catalog into a distributed sales channel and proving that APIs could directly drive revenue.
   link:
   label:
 - date: 2003
   title: Bookmarks (Delicious)
   list:
-  description:
+  description: Delicious opened its social bookmarking service via API, letting developers read and write saved links and their user-generated tags. It made a person's collection of bookmarks a portable, programmable resource and helped popularize tagging and folksonomy as patterns across the early social web.
   link:
   label:
 - date: 2003
   title: Advertising (Google AdSense)
   list:
-  description:
+  description: Google launched AdSense in 2003, allowing website publishers to programmatically serve contextual advertising on their pages and share in the revenue. Advertising became a resource any developer could embed, funding an entire generation of independent websites, blogs, and applications through automated ad placement.
   link:
   label:
 - date: 2004
   title: Images (Flickr)
   list:
-  description:
+  description: Flickr exposed its photo-sharing platform through a REST API, letting developers upload, search, and display images in their own applications. The Flickr API became a canonical example of open web APIs, showing that user-generated images were a resource that could flow well beyond the site that hosted them.
   link:
   label:
 - date: 2004
   title: Payments (PayPal)
   list:
-  description:
+  description: PayPal made its payments infrastructure available to developers via API, enabling websites and applications to accept money without building their own banking relationships. Moving funds between parties became something a developer could integrate with a few web calls, laying groundwork for the growth of independent e-commerce.
   link:
   label:
 - date: 2005
   title: Videos (YouTube)
   list:
-  description:
+  description: YouTube provided an API for its video platform, allowing developers to search, upload, and embed videos in outside websites and applications. Embeddable video spread YouTube content across the entire web and established online video as a resource any application could incorporate rather than host itself.
   link:
   label:
 - date: 2006
   title: Object Storage (Amazon S3)
   list:
-  description:
+  description: Amazon launched Simple Storage Service (S3) in March 2006, offering file and object storage entirely through a web API with pay-as-you-go pricing. Storage became a metered utility developers could provision instantly, marking the practical beginning of cloud computing and infrastructure delivered as an API.
   link:
   label:
 - date: 2006
   title: Locations, Maps, Directions (Google Maps)
   list:
-  description:
+  description: Google released the Google Maps API after developers began reverse-engineering the service to build mashups. It let anyone embed interactive maps, geocode addresses, and plot locations in their own applications, making mapping and location data a foundational building block for the web and later for mobile apps.
   link:
   label:
 - date: 2006
   title: Posts, Friends, Likes, Messages, Images, Videos (Facebook)
   list:
-  description:
+  description: Facebook opened its development platform in 2006, giving developers API access to profiles, friend connections, posts, and other social data. The social graph became a programmable resource, enabling an economy of third-party applications and making social identity and relationships available to software beyond Facebook itself.
   link:
   label:
 - date: 2006
   title: Compute (Amazon EC2)
   list:
-  description:
+  description: Amazon launched Elastic Compute Cloud (EC2) in 2006, letting developers provision and control virtual servers entirely through an API. Computing capacity became something rented by the hour rather than purchased as hardware, removing a major barrier to starting a software company and completing the core of cloud infrastructure.
   link:
   label:
 - date: 2006
   title: Posts, Friends, Likes, Messages, Images, Videos (Twitter)
   list:
-  description:
+  description: Twitter published its API shortly after launching in 2006, exposing tweets, timelines, and follower relationships. Much of the platform's early ecosystem, including popular clients and even conventions like the retweet, emerged from third-party developers, making Twitter a defining example of an API-driven platform.
   link:
   label:
 - date: 2007
   title: SMS, Voice (Twilio)
   list:
-  description:
+  description: Twilio wrapped the telephone network in a web API, letting developers send SMS messages and place or receive voice calls with simple HTTP requests. Telephony, previously the domain of carriers and specialized hardware, became a resource any programmer could embed, and Twilio became the archetype of the API-as-product company.
   link:
   label:
 - date: 2008
   title: Code, Git (GitHub)
   list:
-  description:
+  description: GitHub launched in 2008 with an API exposing repositories, commits, issues, and collaboration data built around Git. Source code and the activity surrounding it became programmable resources, enabling the continuous integration, automation, and developer tooling ecosystems that now define modern software delivery.
   link:
   label:
 - date: 2008
   title: Posts (Reddit)
   list:
-  description:
+  description: Reddit exposed its posts, comments, and voting data through an API, allowing developers to build alternative clients, moderation bots, and research tools. Community discussion became a machine-readable resource, and Reddit's API-powered bot ecosystem became a distinctive part of how the platform operated and governed itself.
   link:
   label:
 - date: 2009
   title: Locations (Foursquare)
   list:
-  description:
+  description: Foursquare launched with an API around check-ins and its growing database of named places. Its venue data became widely used location infrastructure, consumed by thousands of other applications, and helped establish where a user is as a standard resource for the emerging smartphone era.
   link:
   label:
 - date: 2009
   title: Emails (SendGrid)
   list:
-  description:
+  description: SendGrid launched an API for sending transactional email at scale, handling deliverability, bounce processing, and reputation on behalf of developers. Reliable email delivery, previously requiring dedicated mail-server expertise, became an embeddable service that applications could call for receipts, notifications, and password resets.
   link:
   label:
 - date: 2009
   title: Database (Amazon RDS)
   list:
-  description:
+  description: Amazon introduced the Relational Database Service (RDS) in 2009, offering managed database instances provisioned and administered through an API. Databases joined storage and compute as on-demand cloud resources, freeing developers from server maintenance, backups, and patching while extending the API-driven infrastructure model.
   link:
   label:
 - date: 2009
   title: Google Analytics API
   list:
-  description:
+  description: Google released the Google Analytics Data Export API in 2009, giving developers programmatic access to website traffic and visitor metrics. Analytics data could now flow into custom dashboards, reporting tools, and business applications, making measurement of web activity a resource rather than a siloed report.
   link:
   label:
 - date: 2009
   title: Products, Orders, Customers (Shopify)
   list:
-  description:
+  description: Shopify opened its API in 2009, exposing merchants' products, orders, and customer records to third-party developers. The API enabled the Shopify App Store ecosystem, letting independent developers extend online stores and demonstrating that commerce platforms grow by making their core resources programmable.
   link:
   label:
 - date: 2010
   title: Thermosats (Nest)
   list:
-  description:
+  description: Nest brought the smart thermostat to market and later exposed it to developers through an API, allowing applications to read temperatures and adjust home climate remotely. Physical devices in the home became addressable web resources, making Nest an early consumer landmark for the Internet of Things.
   link:
   label:
 - date: 2010
   title: Images, Videos (Instagram)
   list:
-  description:
+  description: Instagram launched its mobile photo-sharing service and soon offered an API for accessing photos, videos, and social activity. Developers built viewers, printing services, and analytics tools on the feed, extending mobile-first visual content beyond the app and reinforcing images as a core social web resource.
   link:
   label:
 - date: 2010
   title: Compute (Docker)
   list:
-  description:
+  description: Docker popularized software containers, with an engine controlled entirely through an API for building, shipping, and running containerized applications. Packaging compute as portable containers changed how software was deployed and became the foundation for orchestration systems like Kubernetes and modern cloud-native infrastructure.
   link:
   label:
 - date: 2010
   title: Questions, Answers (Stack Exchange)
   list:
-  description:
+  description: Stack Exchange released an API exposing the questions, answers, and reputation data of Stack Overflow and its sister communities. Collectively produced programming knowledge became machine-readable, powering editor integrations, research datasets, and tools that brought community answers directly into developers' workflows.
   link:
   label:
 - date: 2011
   title: Wearables (Fitbit)
   list:
-  description:
+  description: Fitbit opened an API for the activity, sleep, and health data collected by its wearable trackers. Personal fitness metrics became a resource that other applications could read with user consent, seeding the quantified-self movement and the broader integration of body-generated data into software.
   link:
   label:
 - date: 2011
   title: Payments (Stripe)
   list:
-  description:
+  description: Stripe launched in 2011 with a developer-first payments API that reduced accepting credit cards to a few lines of code. By abstracting away merchant accounts and gateway complexity, Stripe reset expectations for developer experience and showed that superior API design could win an established market.
   link:
   label:
 - date: 2011
   title: Files, Folders (Dropbox)
   list:
-  description:
+  description: Dropbox exposed its file storage and synchronization service through an API, letting applications read, write, and share users' files and folders in the cloud. A person's documents became a resource portable across apps and devices, and countless mobile applications adopted Dropbox as their storage layer.
   link:
   label:
 - date: 2011
   title: Companies, Contacts, Deals (HubSpot)
   list:
-  description:
+  description: HubSpot opened APIs across its marketing and CRM platform, exposing companies, contacts, and deals to outside software. Sales and marketing data could synchronize with the rest of a business's tooling, and HubSpot's integration ecosystem became central to how the platform delivered value.
   link:
   label:
 - date: 2011
   title: Users, Conversations (Intercom)
   list:
-  description:
+  description: Intercom launched with APIs around users and the conversations businesses have with them, treating customer communication as structured, programmable data. Support and messaging history could feed other systems, helping establish customer interaction records as a distinct resource in the modern software stack.
   link:
   label:
 - date: 2012
   title: Weather, Forecasts (OpenWeatherMap)
   list:
-  description:
+  description: OpenWeatherMap launched a simple API serving current weather conditions and forecasts for locations worldwide, with a free tier accessible to any developer. Weather became one of the most commonly embedded data resources on the web and a standard first API for programmers learning to integrate external data.
   link:
   label:
 - date: 2012
   title: Search, Indexes (Algolia)
   list:
-  description:
+  description: Algolia offered hosted search as an API, letting developers push records into indexes and deliver fast, typo-tolerant, as-you-type search results in their applications. Search quality once reserved for major engines became an embeddable service, making relevance and instant results a resource rather than an engineering project.
   link:
   label:
 - date: 2012
   title: Emails (Mailgun)
   list:
-  description:
+  description: Mailgun provided an API for sending, receiving, and parsing email, marketing itself as email for developers. Beyond outbound delivery, its inbound routing turned incoming messages into structured data and webhooks, letting applications treat email itself as a programmable channel rather than a separate system.
   link:
   label:
 - date: 2013
   title: Messaging (Slack)
   list:
-  description:
+  description: Slack launched workplace messaging with an API and webhooks at its core, enabling bots, notifications, and integrations inside channels. Team communication became a programmable surface where other software could post and respond, and Slack's platform strategy made chat the connective hub of workplace tooling.
   link:
   label:
 - date: 2013
   title: Payments (Square)
   list:
-  description:
+  description: Square, having brought card payments to small merchants through its mobile reader, opened APIs covering payments, transactions, and point-of-sale data. In-person commerce joined online commerce as a programmable resource, letting developers build register, inventory, and checkout experiences on Square's payment rails.
   link:
   label:
 - date: 2013
   title: Bank Accounts, Transactions (Plaid)
   list:
-  description:
+  description: Plaid launched an API connecting applications to users' bank accounts, balances, and transaction histories with their consent. Financial data held inside banks became accessible to developers, enabling budgeting tools, lending platforms, and payment apps, and laying the technical foundation for the fintech and open-banking wave.
   link:
   label:
 - date: 2013
   title: Identity, Authentication (Auth0)
   list:
-  description:
+  description: Auth0 delivered identity and authentication as an API-driven service, handling login, single sign-on, and standards like OAuth on behalf of applications. User identity, a security-critical capability nearly every application needs, became an embeddable resource instead of custom code each team had to write and secure itself.
   link:
   label:
 - date: 2013
   title: Cryptocurrency, Wallets (Coinbase)
   list:
-  description:
+  description: Coinbase released APIs for its cryptocurrency exchange and wallet services, letting developers check prices, manage wallets, and send or receive Bitcoin programmatically. Digital currency became accessible through ordinary web APIs rather than raw blockchain protocols, opening cryptocurrency integration to mainstream application developers.
   link:
   label:
 - date: 2013
   title: Streams, Chat (Twitch)
   list:
-  description:
+  description: Twitch exposed its live streams, channels, and chat through APIs, enabling the overlays, alerts, and chat bots that define broadcast culture on the platform. Live video and its surrounding real-time interaction became programmable resources, with much of the streaming experience built by third-party developers.
   link:
   label:
 - date: 2013
   title: GIFs (Giphy)
   list:
-  description:
+  description: Giphy launched as a search engine for animated GIFs and offered an API that let messaging apps, keyboards, and social platforms embed GIF search directly. A single indexed library of looping animations became shared infrastructure for expression across the internet's chat applications.
   link:
   label:
 - date: 2013
   title: Maps, Geocoding (Mapbox)
   list:
-  description:
+  description: Mapbox provided customizable maps, geocoding, and directions through APIs built largely on OpenStreetMap data, positioning itself as a developer-controlled alternative to Google Maps. Design-flexible location services became an embeddable resource for applications that needed mapping to match their own brand and product needs.
   link:
   label:
 - date: 2014
   title: Rides (Uber)
   list:
-  description:
+  description: Uber opened an API allowing outside applications to request rides, fetch price and time estimates, and track trips. Physical transportation became a service other software could summon, with apps for travel, dining, and events embedding ride requests, an early demonstration of APIs dispatching real-world logistics.
   link:
   label:
 - date: 2014
   title: APIs (Postman)
   list:
-  description:
+  description: Postman grew from a browser extension into the standard workbench for building and testing APIs, later exposing its own APIs around collections, environments, and workspaces. The tooling made APIs themselves a managed, shareable resource, reflecting how central API development had become to software work.
   link:
   label:
 - date: 2014
   title: Music (Spotify)
   list:
-  description:
+  description: Spotify launched its Web API in 2014, exposing its music catalog, artist and album metadata, playlists, and audio features. Developers could search the catalog, manage users' playlists, and control playback from their own applications, making streaming music and listening data a programmable resource.
   link:
   label:
 - date: 2015
   title: Photos (Unsplash)
   list:
-  description:
+  description: Unsplash offered its library of freely licensed, high-quality photography through an API, letting applications search and embed images without licensing negotiations. Professional-grade photos became a free programmable resource, and the Unsplash API came to power image pickers in design tools, editors, and publishing platforms.
   link:
   label:
 - date: 2015
   title: Records, Bases (Airtable)
   list:
-  description:
+  description: Airtable combined the familiarity of a spreadsheet with the structure of a database and gave every base its own auto-generated REST API. Non-programmers could create structured data that developers could immediately read and write, helping fuel the no-code movement and lightweight internal tools.
   link:
   label:
 - date: 2015
   title: Shipping, Labels (EasyPost)
   list:
-  description:
+  description: EasyPost abstracted shipping carriers like USPS, UPS, and FedEx behind a single API for purchasing labels, tracking packages, and verifying addresses. Physical logistics became a resource developers could integrate in hours instead of negotiating separate carrier integrations, extending the API model deeper into the physical economy.
   link:
   label:
 - date: 2016
   title: Voice (Amazon Alexa Voice Service)
   list:
-  description:
+  description: Amazon opened the Alexa Voice Service, an API that let third-party hardware makers and developers embed the Alexa assistant into their own devices and build voice-driven skills. Voice interaction became a platform resource rather than a proprietary feature, seeding an ecosystem of voice-enabled products.
   link:
   label:
 - date: 2017
   title: Meetings, Webinars (Zoom)
   list:
-  description:
+  description: Zoom exposed its meetings and webinars through APIs and SDKs, letting developers schedule sessions, manage participants, and embed video into scheduling, healthcare, and education products. Real-time video conferencing became an integrable resource, a role that proved critical when remote work surged in 2020.
   link:
   label:
 - date: 2018
   title: Messages, Servers (Discord)
   list:
-  description:
+  description: Discord opened its API for messages, servers, and voice channels, giving rise to a vast ecosystem of community-built bots for moderation, games, and utilities. Community infrastructure became programmable, and bots became first-class members of Discord servers, shaping how millions of communities organize and interact.
   link:
   label:
 - date: 2020
   title: Text, Completions, Embeddings (OpenAI)
   list:
-  description:
+  description: OpenAI released its API in June 2020, offering access to the GPT-3 language model for text completions and later embeddings. Machine intelligence itself became a metered web resource, letting developers add generation, summarization, and semantic search to applications and igniting the commercial AI platform era.
   link:
   label:
 - date: 2020
   title: Design Files (Figma)
   list:
-  description:
+  description: Figma exposed design files, components, and comments through its API, letting developers extract design tokens, generate assets, and connect design directly to code. Design artifacts became structured, programmable data rather than static files, supporting design systems and automated handoff between designers and engineers.
   link:
   label:
 - date: 2021
   title: Pages, Databases (Notion)
   list:
-  description:
+  description: Notion released its public API in 2021, exposing pages, databases, and blocks in its all-in-one workspace. The documents and structured knowledge teams keep in Notion became readable and writable by outside software, enabling automations and integrations across the fast-growing productivity-tool ecosystem.
   link:
   label:
 - date: 2021
   title: NFTs, Collections (OpenSea)
   list:
-  description:
+  description: OpenSea provided an API over its NFT marketplace, exposing tokens, collections, ownership, and sales data. Developers could query and display blockchain-based digital assets without indexing chains themselves, making NFT market data an accessible web resource during the peak of mainstream interest in digital collectibles.
   link:
   label:
 - date: 2022
   title: Images (Stable Diffusion)
   list:
-  description:
+  description: Stable Diffusion was released in 2022 as an openly available image-generation model, accessible through hosted APIs and self-run deployments. Generating original images from text prompts became a resource any developer could embed or operate themselves, and the open release accelerated experimentation far beyond closed image models.
   link:
   label:
 - date: 2022
   title: Videos (TikTok)
   list:
-  description:
+  description: TikTok opened developer APIs for its short-form video platform, including login, content posting, and video display in third-party applications. Short-form video, by then the dominant format of social media, became a resource outside developers could publish to and embed, extending TikTok content beyond its own app.
   link:
   label:
 - date: 2023
   title: Messages, Conversations (Anthropic Claude)
   list:
-  description:
+  description: Anthropic released an API for its Claude models in 2023, giving developers conversational AI with large context windows and a safety-focused design. Multi-turn dialogue over substantial documents became an embeddable resource, broadening the market for AI assistants and establishing conversation itself as an API primitive.
   link:
   label:
 - date: 2023
   title: Speech, Voice (ElevenLabs)
   list:
-  description:
+  description: ElevenLabs offered near-human text-to-speech and voice cloning through an API, letting developers generate lifelike narration and custom voices programmatically. Synthetic speech quality crossed a threshold that made voice a practical generated resource for audiobooks, games, media production, and conversational agents.
   link:
   label:
 - date: 2024
   title: Tools, Context (MCP Servers)
   list:
-  description:
+  description: Anthropic introduced the Model Context Protocol in late 2024, an open standard letting AI models connect to external tools, data, and context through MCP servers. Rather than one-off integrations, any resource could be exposed once and used by any compliant AI agent, reframing APIs for consumption by machines.
   link:
   label:
