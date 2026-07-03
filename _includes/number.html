@@ -1,0 +1,20 @@
+{%- comment -%}
+Comma-groups an integer for display. Pure Liquid because the site's custom
+_plugins filters (number_with_delimiter) do NOT load under the github-pages
+build. Usage: {% include number.html n=some.value %} or, to show 0 instead of
+an em dash when the value is missing: {% include number.html n=some.value blank=0 %}
+{%- endcomment -%}
+{%- assign _n = include.n -%}
+{%- assign _blank = include.blank | default: "—" -%}
+{%- if _n == nil or _n == "" -%}{{ _blank }}
+{%- else -%}
+{%- assign _s = _n | round: 0 | append: "" -%}
+{%- assign _len = _s | size -%}
+{%- for _i in (1.._len) -%}
+{%- assign _idx = _i | minus: 1 -%}
+{{- _s | slice: _idx, 1 -}}
+{%- assign _rem = _len | minus: _i -%}
+{%- assign _mod = _rem | modulo: 3 -%}
+{%- if _rem > 0 and _mod == 0 -%},{%- endif -%}
+{%- endfor -%}
+{%- endif -%}

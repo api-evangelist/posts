@@ -161,6 +161,10 @@
         - name: Kin Lane
           href: https://apievangelist.com/about/kin-lane
 
+    - name: Search Terms
+      symbol: query_stats
+      href: https://apievangelist.com/search-terms/
+
     - name: Contact
       symbol: contact_support
       href: https://apievangelist.com/contact

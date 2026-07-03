@@ -1,0 +1,327 @@
+{
+  "weeks": [
+    {
+      "week_starting": "2026-06-27",
+      "week_ending": "2026-07-03",
+      "fetched_at": "2026-07-03T17:25:06Z",
+      "days_found": 1,
+      "days_expected": 7,
+      "total_searches": 162,
+      "unique_terms": 74,
+      "unmet_terms": 0,
+      "top_queries": [
+        {
+          "q": "api governance",
+          "n": 9
+        },
+        {
+          "q": "mcp",
+          "n": 9
+        },
+        {
+          "q": "pipelines",
+          "n": 3
+        },
+        {
+          "q": "gateway",
+          "n": 2
+        },
+        {
+          "q": "HTTPBin",
+          "n": 2
+        },
+        {
+          "q": "onboarding",
+          "n": 2
+        },
+        {
+          "q": "postman",
+          "n": 2
+        },
+        {
+          "q": "Speed",
+          "n": 2
+        },
+        {
+          "q": "Accounting",
+          "n": 1
+        },
+        {
+          "q": "ai",
+          "n": 1
+        },
+        {
+          "q": "Analysis",
+          "n": 1
+        },
+        {
+          "q": "APIs",
+          "n": 1
+        },
+        {
+          "q": "Apples",
+          "n": 1
+        },
+        {
+          "q": "AWS",
+          "n": 1
+        },
+        {
+          "q": "Blog",
+          "n": 1
+        },
+        {
+          "q": "Bookmarks",
+          "n": 1
+        },
+        {
+          "q": "Bundlers",
+          "n": 1
+        },
+        {
+          "q": "Capabilities",
+          "n": 1
+        },
+        {
+          "q": "Citations",
+          "n": 1
+        },
+        {
+          "q": "Content",
+          "n": 1
+        },
+        {
+          "q": "CPaaS",
+          "n": 1
+        },
+        {
+          "q": "Data",
+          "n": 1
+        },
+        {
+          "q": "Degradation",
+          "n": 1
+        },
+        {
+          "q": "Design",
+          "n": 1
+        },
+        {
+          "q": "Drone Prototype",
+          "n": 1
+        },
+        {
+          "q": "Email",
+          "n": 1
+        },
+        {
+          "q": "Energy",
+          "n": 1
+        },
+        {
+          "q": "ERP",
+          "n": 1
+        },
+        {
+          "q": "First-Party",
+          "n": 1
+        },
+        {
+          "q": "Gemini",
+          "n": 1
+        },
+        {
+          "q": "GEMINI.md",
+          "n": 1
+        },
+        {
+          "q": "HAL",
+          "n": 1
+        },
+        {
+          "q": "HATEOAS",
+          "n": 1
+        },
+        {
+          "q": "Headers",
+          "n": 1
+        },
+        {
+          "q": "HTTP",
+          "n": 1
+        },
+        {
+          "q": "IBM API Connect",
+          "n": 1
+        },
+        {
+          "q": "IMAP",
+          "n": 1
+        },
+        {
+          "q": "Interactive",
+          "n": 1
+        },
+        {
+          "q": "J",
+          "n": 1
+        },
+        {
+          "q": "Keys",
+          "n": 1
+        },
+        {
+          "q": "Landscape",
+          "n": 1
+        },
+        {
+          "q": "Languages",
+          "n": 1
+        },
+        {
+          "q": "Mail",
+          "n": 1
+        },
+        {
+          "q": "Medicaid",
+          "n": 1
+        },
+        {
+          "q": "Microservices",
+          "n": 1
+        },
+        {
+          "q": "Networks",
+          "n": 1
+        },
+        {
+          "q": "Open",
+          "n": 1
+        },
+        {
+          "q": "Open Source",
+          "n": 1
+        },
+        {
+          "q": "OpenAPI",
+          "n": 1
+        },
+        {
+          "q": "OpenAPI Generation",
+          "n": 1
+        },
+        {
+          "q": "Organizations",
+          "n": 1
+        },
+        {
+          "q": "Perl",
+          "n": 1
+        },
+        {
+          "q": "Physical",
+          "n": 1
+        },
+        {
+          "q": "Power",
+          "n": 1
+        },
+        {
+          "q": "Pricing",
+          "n": 1
+        },
+        {
+          "q": "Pricing Page",
+          "n": 1
+        },
+        {
+          "q": "Properties",
+          "n": 1
+        },
+        {
+          "q": "Protocol",
+          "n": 1
+        },
+        {
+          "q": "Railroad",
+          "n": 1
+        },
+        {
+          "q": "Regulations",
+          "n": 1
+        },
+        {
+          "q": "RFC",
+          "n": 1
+        },
+        {
+          "q": "Shift Left",
+          "n": 1
+        },
+        {
+          "q": "SMTP",
+          "n": 1
+        },
+        {
+          "q": "Stripe",
+          "n": 1
+        },
+        {
+          "q": "T1",
+          "n": 1
+        },
+        {
+          "q": "Tags",
+          "n": 1
+        },
+        {
+          "q": "Taxonomy",
+          "n": 1
+        },
+        {
+          "q": "Technology of APIs",
+          "n": 1
+        },
+        {
+          "q": "test",
+          "n": 1
+        },
+        {
+          "q": "Type form",
+          "n": 1
+        },
+        {
+          "q": "URLs",
+          "n": 1
+        },
+        {
+          "q": "Virtues",
+          "n": 1
+        },
+        {
+          "q": "Weekly",
+          "n": 1
+        },
+        {
+          "q": "Workspace",
+          "n": 1
+        }
+      ],
+      "zero_result_queries": [],
+      "upgrade_demand": [
+        {
+          "resource": "searches",
+          "n": 1
+        }
+      ],
+      "by_tier": {
+        "internal": 82,
+        "free": 80
+      },
+      "by_surface": {
+        "api": 160,
+        "mcp": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+---
+layout: default
+section: Posts
+title: Search Terms
+nav: Stories
+sub: Stories
+meta_description: "What people search for across the API Evangelist network each week — the most-searched terms and the unmet demand (searches that returned no match), straight from the live API Evangelist search API logs."
+---
+
+{% assign weeks = site.data.search_terms.weeks %}
+{% assign latest = weeks | last %}
+{% assign week_count = weeks | size %}
+
+<div class="row mb-4">
+  <div class="col">
+    <h1 class="mb-1 fs-4">Search Terms</h1>
+    <p class="text-muted mb-0">
+      What people look for across the <strong>API Evangelist</strong> network each week — the most-searched
+      terms and the <em>unmet demand</em> (searches that returned nothing), aggregated from the live
+      <a href="https://developer.apievangelist.com/" class="text-decoration-none">API Evangelist API</a> logs.
+    </p>
+    {% if week_count > 0 %}
+    <p class="text-muted" style="font-size:0.85rem;">
+      Last updated: {{ latest.fetched_at | date: "%B %-d, %Y" }}
+      &nbsp;·&nbsp; {{ week_count }} week{% if week_count != 1 %}s{% endif %} of data
+    </p>
+    {% endif %}
+  </div>
+</div>
+
+{% if week_count == 0 %}
+<div class="alert alert-info">
+  No search data yet — the first weekly snapshot is collected right after the weekly analytics run.
+</div>
+{% else %}
+
+<!-- ── Current week summary ─────────────────────────────────────────────── -->
+<h2 class="h5 mb-3">Most Recent Week
+  <small class="text-muted fw-normal" style="font-size:0.85rem;">
+    {{ latest.week_starting }} → {{ latest.week_ending }}
+  </small>
+</h2>
+
+<div class="row mb-4 g-3 text-center">
+  <div class="col-6 col-md-3">
+    <div class="card h-100 border-0 shadow-sm"><div class="card-body">
+      <div class="fs-4 fw-semibold">{% include number.html n=latest.total_searches blank=0 %}</div>
+      <div class="text-muted small">Total Searches</div>
+    </div></div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="card h-100 border-0 shadow-sm"><div class="card-body">
+      <div class="fs-4 fw-semibold">{% include number.html n=latest.unique_terms blank=0 %}</div>
+      <div class="text-muted small">Distinct Terms</div>
+    </div></div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="card h-100 border-0 shadow-sm"><div class="card-body">
+      <div class="fs-4 fw-semibold text-danger">{% include number.html n=latest.unmet_terms blank=0 %}</div>
+      <div class="text-muted small">Unmet (zero-result)</div>
+    </div></div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="card h-100 border-0 shadow-sm"><div class="card-body">
+      {% assign api_n = latest.by_surface.api | default: 0 %}
+      {% assign mcp_n = latest.by_surface.mcp | default: 0 %}
+      <div class="fs-4 fw-semibold">{% include number.html n=api_n %} <span class="text-muted small">API</span> · {% include number.html n=mcp_n %} <span class="text-muted small">MCP</span></div>
+      <div class="text-muted small">By Surface</div>
+    </div></div>
+  </div>
+</div>
+
+<div class="row g-4 mb-5">
+
+  <!-- Top search terms -->
+  <div class="col-lg-6">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-header text-white" style="background:#3098d8;">
+        <strong>Most-Searched Terms</strong>
+      </div>
+      <div class="card-body p-0">
+        <table class="table table-sm table-hover align-middle mb-0" style="font-size:0.9rem;">
+          <thead class="table-light">
+            <tr><th style="width:3rem;">#</th><th>Term</th><th class="text-end">Searches</th></tr>
+          </thead>
+          <tbody>
+            {% for r in latest.top_queries limit: 25 %}
+            <tr>
+              <td class="text-muted">{{ forloop.index }}</td>
+              <td><a href="/search/?q={{ r.q | url_encode }}">{{ r.q }}</a></td>
+              <td class="text-end">{% include number.html n=r.n %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Unmet demand -->
+  <div class="col-lg-6">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-header text-white" style="background:#dc3545;">
+        <strong>Unmet Demand</strong>
+        <span class="badge bg-light text-dark ms-2" style="font-size:0.75rem;">Zero results</span>
+      </div>
+      <div class="card-body p-0">
+        {% if latest.zero_result_queries and latest.zero_result_queries.size > 0 %}
+        <table class="table table-sm table-hover align-middle mb-0" style="font-size:0.9rem;">
+          <thead class="table-light">
+            <tr><th style="width:3rem;">#</th><th>Term</th><th class="text-end">Searches</th></tr>
+          </thead>
+          <tbody>
+            {% for r in latest.zero_result_queries limit: 25 %}
+            <tr>
+              <td class="text-muted">{{ forloop.index }}</td>
+              <td>{{ r.q }}</td>
+              <td class="text-end">{% include number.html n=r.n %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% else %}
+        <p class="text-muted m-3 mb-0"><em>No zero-result searches this week.</em></p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+</div><!-- /row -->
+
+<p class="text-muted small mb-5">
+  <strong>Unmet demand</strong> is the highest-signal list here: these are things people went looking for
+  across the network but the catalog didn't have a match for — the worklist for what to write, cover, or
+  curate next.
+</p>
+
+<!-- ── Trend chart ──────────────────────────────────────────────────────── -->
+{% if week_count > 1 %}
+<h2 class="h5 mb-3">Search Volume Over Time</h2>
+<div class="card border-0 shadow-sm mb-5">
+  <div class="card-body">
+    <canvas id="searchChart" height="90"></canvas>
+  </div>
+</div>
+{% endif %}
+
+<!-- ── Weekly history ───────────────────────────────────────────────────── -->
+<h2 class="h5 mb-3">Weekly History</h2>
+<div class="table-responsive mb-4">
+  <table class="table table-sm table-hover align-middle" style="font-size:0.88rem;">
+    <thead class="table-light">
+      <tr>
+        <th>Week ending</th>
+        <th class="text-end">Total Searches</th>
+        <th class="text-end">Distinct Terms</th>
+        <th class="text-end text-danger">Unmet Terms</th>
+        <th class="text-end text-muted">Days Covered</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign sorted_weeks = weeks | sort: "week_ending" | reverse %}
+      {% for w in sorted_weeks %}
+      <tr{% if forloop.first %} class="table-primary"{% endif %}>
+        <td>{{ w.week_ending }}</td>
+        <td class="text-end">{% include number.html n=w.total_searches blank=0 %}</td>
+        <td class="text-end">{% include number.html n=w.unique_terms blank=0 %}</td>
+        <td class="text-end text-danger">{% include number.html n=w.unmet_terms blank=0 %}</td>
+        <td class="text-end text-muted">{{ w.days_found | default: 0 }}/7</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<div class="card border-0 bg-light mb-5">
+  <div class="card-body small text-muted mb-0">
+    <strong>How this is measured:</strong> every query to the API Evangelist search API and MCP server is
+    logged at the edge and aggregated daily; this page merges the seven daily reports for each completed week.
+    Counts include automated and internal network traffic (uptime probes and agent clients), so <em>raw
+    volume runs higher than human visitors</em> — the value is in the <em>ranking</em> of terms and, above
+    all, the unmet-demand list. Search the network yourself on the <a href="/search/">Search</a> page.
+  </div>
+</div>
+
+{% endif %}<!-- /if week_count > 0 -->
+
+<!-- ── Chart.js ─────────────────────────────────────────────────────────── -->
+{% if week_count > 1 %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+(function () {
+  var weeks = {{ site.data.search_terms.weeks | sort: "week_ending" | jsonify }};
+  var labels = weeks.map(function (w) { return w.week_ending; });
+  var totals = weeks.map(function (w) { return w.total_searches || null; });
+  var unmet  = weeks.map(function (w) { return w.unmet_terms || null; });
+
+  var ctx = document.getElementById('searchChart');
+  if (!ctx) return;
+
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [
+        {
+          label: 'Total Searches',
+          data: totals,
+          borderColor: '#3098d8',
+          backgroundColor: 'rgba(48,152,216,0.08)',
+          borderWidth: 2, pointRadius: 4, tension: 0.3, fill: true,
+          yAxisID: 'yTotal',
+        },
+        {
+          label: 'Unmet (zero-result) Terms',
+          data: unmet,
+          borderColor: '#dc3545',
+          backgroundColor: 'rgba(220,53,69,0.08)',
+          borderWidth: 2, pointRadius: 4, tension: 0.3, fill: true,
+          yAxisID: 'yUnmet',
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { position: 'top' },
+        tooltip: {
+          callbacks: {
+            label: function (c) {
+              return c.dataset.label + ': ' + (c.raw !== null ? c.raw.toLocaleString() : 'n/a');
+            }
+          }
+        }
+      },
+      scales: {
+        yTotal: {
+          type: 'linear', position: 'left', beginAtZero: true,
+          title: { display: true, text: 'Total searches', color: '#3098d8' },
+          ticks: { color: '#3098d8', callback: function (v) { return v >= 1000 ? (v / 1000).toFixed(0) + 'k' : v; } }
+        },
+        yUnmet: {
+          type: 'linear', position: 'right', beginAtZero: true,
+          title: { display: true, text: 'Unmet terms', color: '#dc3545' },
+          grid: { drawOnChartArea: false },
+          ticks: { color: '#dc3545' }
+        }
+      }
+    }
+  });
+})();
+</script>
+{% endif %}
