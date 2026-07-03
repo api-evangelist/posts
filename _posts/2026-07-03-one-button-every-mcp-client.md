@@ -19,7 +19,7 @@ That is the gap I wanted to close this week, so I built **[install.apicommons.or
 
 ## The button carries a pointer, not a payload
 
-The interesting design decision is what the button actually contains. The naive version stuffs your whole server config into the link, which means the instant you rotate a header or change a transport, every button you ever handed out is wrong. So the button carries a **pointer** whenever it can — your [MCP Registry](https://modelcontextprotocol.io/registry/about) name (`?name=io.github.acme/acme-mcp`) or the URL of a `server.json` you host yourself (`?server=…`). The hosted chooser resolves that pointer at click time, detects the visitor's operating system, and renders the exact install path for whatever client they use. Your installs stay current because the source of truth stays canonical. There is an inline `?config=` mode too, base64url-encoded, for when you have not published a manifest anywhere yet — but the pointer is the point.
+The interesting design decision is what the button actually contains. The naive version stuffs your whole server config into the link, which means the instant you rotate a header or change a transport, every button you ever handed out is wrong. So the button carries a **pointer** whenever it can — your [MCP Registry](https://modelcontextprotocol.io/registry/about) name (`?name=io.apis/apis-io`) or the URL of a `server.json` you host yourself (`?server=…`). The hosted chooser resolves that pointer at click time, detects the visitor's operating system, and renders the exact install path for whatever client they use. Your installs stay current because the source of truth stays canonical. There is an inline `?config=` mode too, base64url-encoded, for when you have not published a manifest anywhere yet — but the pointer is the point.
 
 And nothing on that page executes. Every output is either a link the user's own client confirms before it does anything, or text the user copies deliberately. Secrets never ride in a button — the generator uses `<PLACEHOLDER>` values for env vars and headers, and the clients prompt or OAuth for the real thing. Remote-only servers still reach stdio-only clients, by the way; the chooser auto-generates a labeled `mcp-remote` bridge command so nobody gets left out.
 
@@ -35,8 +35,10 @@ The home page is a **generator**: fill in the form, or import straight from the 
 
 ```html
 <script src="https://install.apicommons.org/button.js" async></script>
-<mcp-install-button name="io.github.acme/acme-mcp"></mcp-install-button>
+<mcp-install-button name="io.apis/apis-io"></mcp-install-button>
 ```
+
+That is a real, working example — `io.apis/apis-io` is the [apis.io](https://apis.io) MCP server as published to the official registry, so that button installs a live server you can actually try.
 
 It is self-contained, no framework, and you can scope the menu to specific clients, relabel it, or even point it at your own fork of the registry.
 
