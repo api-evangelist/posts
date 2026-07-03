@@ -38,7 +38,12 @@ The home page is a **generator**: fill in the form, or import straight from the 
 <mcp-install-button name="io.apis/apis-io"></mcp-install-button>
 ```
 
-That is a real, working example — `io.apis/apis-io` is the [apis.io](https://apis.io) MCP server as published to the official registry, so that button installs a live server you can actually try.
+That is a real, working example — `io.apis/apis-io` is the [apis.io](https://apis.io) MCP server as published to the official registry, so that button installs a live server you can actually try. In fact, that exact snippet is running right here in this post — click it:
+
+<div style="margin: 1.5em 0; display: flex; justify-content: center;">
+  <script src="https://install.apicommons.org/button.js" async></script>
+  <mcp-install-button name="io.apis/apis-io"></mcp-install-button>
+</div>
 
 It is self-contained, no framework, and you can scope the menu to specific clients, relabel it, or even point it at your own fork of the registry.
 
