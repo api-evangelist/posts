@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: Bringing Legacy Standards Into the Modern API Age
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/bringing-legacy-standards-into-the-modern-api-age.png
 date: 2026-07-04
 author: Kin Lane
 tags:
