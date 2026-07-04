@@ -41,6 +41,7 @@ sub: Discovery
         <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
         <ul class="text-muted mb-0">
           <li><a href="/2026/07/01/arazzo-workflows-are-your-new-integration/">Arazzo Workflows Are Your New Integration</a></li>
+          <li><a href="https://documentation.apicommons.org">API Documentation</a> &mdash; the free tool that renders your Arazzo workflows as step timelines</li>
         </ul>
       </div>
 

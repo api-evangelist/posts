@@ -41,6 +41,7 @@ sub: Governance
         <ul class="text-muted mb-0">
           <li><a href="/2024/09/25/api-strategy/">API Strategy</a></li>
           <li><a href="/2024/10/06/developing-your-api-integration-strategy/">Developing Your API Integration Strategy</a></li>
+          <li><a href="https://papers.apievangelist.com/papers/fundamentals-of-api-governance/">The Fundamentals of API Governance</a> (paper)</li>
         </ul>
       </div>
 

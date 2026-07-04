@@ -42,6 +42,7 @@ sub: Discovery
           <li><a href="/2026/04/08/you-see-a-spec-i-see-a-common-language-and-a-common-understanding/">You See a Spec, I See a Common Language, and a Common Understanding</a></li>
           <li><a href="/2025/03/14/establishing-a-naming-convention-for-api-governance-rules/">Establishing a Naming Convention for API Governance Rules</a></li>
           <li><a href="/2024/10/16/api-governance-policy-rules-and-guidance-for-api-naming/">API Governance Policy, Rules, and Guidance for Naming APIs</a></li>
+          <li><a href="https://vocabularies.apievangelist.com">Vocabularies</a> &mdash; a free, searchable reference of the words the API space is built on</li>
         </ul>
       </div>
 

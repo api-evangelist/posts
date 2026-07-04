@@ -26,6 +26,7 @@ sub: Governance
         <p class="mb-3">A policy is a decision your organization has made, written down so it does not have to be re-argued every week. Most companies have hundreds of these decisions living only in people's heads and old Slack threads, which means they are not really decisions at all &mdash; they get re-litigated constantly, and everyone is exhausted by it.</p>
         <p class="mb-3">I help you define the business policies that shape your operations &mdash; around security, privacy, access, retention, and how APIs get produced and consumed &mdash; and write them where they can be found, cited, and enforced. Policies come first; the technical rules that implement them come after, and I keep that order straight, because reversing it is exactly how governance turns into bureaucracy.</p>
         <p class="mb-3">Done well, policy is what lets you move faster, because the settled questions stay settled.</p>
+        <p class="mb-3">When you are ready to turn a policy into something a pipeline can enforce, it feeds directly into machine-readable rules &mdash; the free <a href="https://rulesets.apicommons.org">Ruleset Commons</a> is where you can adopt a provenanced ruleset by reference, so a policy decision carries its lineage all the way down to the check.</p>
 
         <h2 class="fs-6 fw-semibold mt-4 mb-2">What you walk away with</h2>
         <ul class="text-muted">
@@ -42,6 +43,8 @@ sub: Governance
           <li><a href="/2026/06/27/policies-and-style-guides-the-why-above-your-rules/">Policies and Style Guides: The Why Above Your Rules</a></li>
           <li><a href="/2025/05/22/the-right-api-policies-process-and-people-helps-minimize-enterprise-technical-debt/">The Right API Policies, Process, and People Helps Minimize Enterprise Technical Debt</a></li>
           <li><a href="/2025/10/28/schema-validated-rules-guided-and-policy-driven-experiences/">Schema-Validated, Rules-Guided, and Policy-Driven Experiences</a></li>
+          <li><a href="https://papers.apievangelist.com/papers/fundamentals-of-api-governance/">The Fundamentals of API Governance</a> (paper)</li>
+          <li><a href="https://rulesets.apicommons.org">Ruleset Commons</a> &mdash; adopt a provenanced ruleset that implements your policies</li>
         </ul>
       </div>
 

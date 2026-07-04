@@ -41,6 +41,7 @@ sub: Discovery
         <ul class="text-muted mb-0">
           <li><a href="/2026/02/25/the-promise-of-a-new-specification/">The Promise of a New Specification</a></li>
           <li><a href="/2025/01/14/what-is-openapi/">What is OpenAPI?</a></li>
+          <li><a href="https://validator.apicommons.org">API Validator</a> &mdash; conform your specs to the standards you choose (OpenAPI, AsyncAPI, Arazzo, JSON Schema)</li>
         </ul>
       </div>
 

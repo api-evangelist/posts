@@ -42,6 +42,8 @@ sub: Governance
           <li><a href="/2026/07/04/api-reviews-and-provenance-over-enforcement/">API Reviews and Provenance: Accountability Over Enforcement</a></li>
           <li><a href="/2026/01/06/my-avalara-api-review-provides-a-benchmark-for-modern-api-operations/">My Avalara API Review Provides a Benchmark for Modern API Operations</a></li>
           <li><a href="/2025/02/14/the-openapi-doctors-diagnosis-is-tough-but-worth-it/">The OpenAPI Doctor&rsquo;s Diagnosis is Tough But Worth It</a></li>
+          <li><a href="https://reporter.apicommons.org">Spectral Reporter</a> &mdash; turn a lint run into a shareable HTML governance report</li>
+          <li><a href="https://auditor.apicommons.org">Governance Pipeline Auditor</a> &mdash; score an existing governance pipeline</li>
         </ul>
       </div>
 

@@ -25,6 +25,7 @@ sub: Governance
       <div class="mb-2" style="max-width: 46rem;">
         <p class="mb-3">Rules are policies made machine-readable &mdash; the point where &ldquo;we agreed to do this&rdquo; becomes &ldquo;the pipeline checks that we did.&rdquo; I have spent years on API governance tooling, and this is where governance either becomes real or stays aspirational forever.</p>
         <p class="mb-3">I help you craft the rules that govern the technical details of your APIs and the wider operations around them &mdash; linting rules, design rules, security checks, the machine-enforceable version of your policies. I lean on tools like Spectral and a Git-driven, standards-based approach, and I deliberately keep you independent of any single vendor's runtime. The rules are yours; they should outlive any tool you happen to run them in.</p>
+        <p class="mb-3">The method is the same one behind the free API Commons rule tooling I build in the open: <a href="https://studio.apicommons.org">Spectral Ruleset Studio</a> turns a style guide into an owned, grounded ruleset, <a href="https://rulesets.apicommons.org">Ruleset Commons</a> lets you adopt a provenanced ruleset by reference, the <a href="https://github.com/api-commons/spectral-owasp-ruleset">Spectral OWASP Ruleset</a> adds a security layer, and the <a href="https://validator.apicommons.org">API Validator</a> runs them all. You can start there for free and keep whatever you build.</p>
         <p class="mb-3">The aim is governance that runs quietly in the background, catching drift before it ships, without a human having to police everything by hand.</p>
 
         <h2 class="fs-6 fw-semibold mt-4 mb-2">What you walk away with</h2>
@@ -42,6 +43,11 @@ sub: Governance
           <li><a href="/2026/06/28/spectral-rules-machine-readable-enforcement/">Spectral Rules: Machine-Readable Enforcement</a></li>
           <li><a href="/2026/07/01/govern-in-the-ide-where-the-work-happens/">Govern in the IDE, Where the Work Happens</a></li>
           <li><a href="/2025/04/24/the-api-governance-rule-is-just-a-representation-of-what-matters/">The API Governance Rule is Just a Representation of What Matters</a></li>
+          <li><a href="https://papers.apievangelist.com/papers/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> (paper)</li>
+          <li><a href="https://studio.apicommons.org">Spectral Ruleset Studio</a> &mdash; turn a style guide into an owned, grounded ruleset</li>
+          <li><a href="https://rulesets.apicommons.org">Ruleset Commons</a> &mdash; adopt a provenanced ruleset by reference</li>
+          <li><a href="https://github.com/api-commons/spectral-owasp-ruleset">Spectral OWASP Ruleset</a> &mdash; a security layer for your rules</li>
+          <li><a href="https://validator.apicommons.org">API Validator</a> &mdash; run your rules in the browser</li>
         </ul>
       </div>
 

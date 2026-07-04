@@ -26,6 +26,7 @@ sub: Governance
         <p class="mb-3">The gap between a good policy and a governed operation is usually a pipeline. If the rule only runs when someone remembers to run it, it does not really exist. Automation is what turns intention into consistency, quietly, every single time.</p>
         <p class="mb-3">I help you define and iterate on the CI/CD pipelines that automate the integration and deployment of your operations &mdash; validating specifications, running your rules, publishing artifacts, and keeping documentation and catalogs current. The work is Git-driven and standards-based, so the pipeline is enforcing the agreements you have already made rather than adding a new layer of ceremony on top of them.</p>
         <p class="mb-3">The goal is boring, dependable automation: the checks run every time, the artifacts stay fresh, and your people are freed to do the work only people can do.</p>
+        <p class="mb-3">If you want a running head start, the same approach is captured in the free <a href="https://pipeline.apicommons.org">Governance Pipeline</a> blueprint I publish for you to fork, and the <a href="https://auditor.apicommons.org">Governance Pipeline Auditor</a> will score a pipeline you already have and show you where the gaps are.</p>
 
         <h2 class="fs-6 fw-semibold mt-4 mb-2">What you walk away with</h2>
         <ul class="text-muted">
@@ -42,6 +43,9 @@ sub: Governance
           <li><a href="/2026/07/02/ci-cd-pipelines-make-governance-consistent/">CI/CD Pipelines Make Governance Consistent</a></li>
           <li><a href="/2025/03/05/the-semantics-of-api-pipelines/">The Semantics of API Pipelines</a></li>
           <li><a href="/2025/03/18/roll-out-api-governance-rules-by-domain-or-team-in-cicd-pipelines/">Roll Out API Governance Rules By Domain or Team in CI/CD Pipelines</a></li>
+          <li><a href="https://papers.apievangelist.com/papers/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> (paper)</li>
+          <li><a href="https://pipeline.apicommons.org">Governance Pipeline</a> &mdash; the free, forkable pipeline blueprint</li>
+          <li><a href="https://auditor.apicommons.org">Governance Pipeline Auditor</a> &mdash; score an existing pipeline</li>
         </ul>
       </div>
 

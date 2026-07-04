@@ -42,6 +42,8 @@ sub: Discovery
           <li><a href="/2026/06/24/start-by-mapping-your-api-landscape/">Start by Mapping Your API Landscape</a></li>
           <li><a href="/2025/03/18/do-not-do-anything-new-just-map-the-apis-you-have/">Don&rsquo;t Do Anything New &mdash; Just Map the APIs You Have</a></li>
           <li><a href="/2026/06/12/your-diverse-api-toolbox/">Your Diverse API Toolbox</a></li>
+          <li><a href="https://discover.apicommons.org">API Discovery</a> &mdash; the free tool for mapping the interfaces you already have</li>
+          <li><a href="https://apis.io">APIs.io</a> &mdash; search the wider landscape of public APIs</li>
         </ul>
       </div>
 
