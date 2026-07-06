@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: IBM API Connect Governs the Whole Lifecycle With Spectral
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/ibm-api-connect-governs-the-whole-lifecycle-with-spectral.png
 date: 2026-07-06
 author: Kin Lane
 tags:
