@@ -1,49 +1,445 @@
-aid: api-evangelist-posts
+aid: api-evangelist
 specificationVersion: '0.19'
 type: Index
-name: Posts
-description: Over 4,000 stories on the API Evangelist blog since 2010 — the technology, business, and politics of how APIs
-  are changing the way we live and work.
-image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+name: API Evangelist
+description: >-
+  The index of everything available via the API Evangelist developer portal at
+  developer.apievangelist.com — sixteen years of API research served as one REST
+  API, an MCP server for agents, and the static JSON feeds behind each network
+  collection.
+image: >-
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
 tags:
-- Posts
-- Stories
-- Blog
-created: '2024-11-11'
-modified: '2026-05-20'
+  - APIs
+  - API Evangelist
+  - Developer Portal
+created: '2024-10-14'
+modified: '2026-07-10'
 url: https://github.com/api-evangelist/posts/blob/main/apis.yml
 apis:
-- aid: api-evangelist-posts:posts
-  name: Posts Feed
-  description: Over 4,000 stories on the API Evangelist blog since 2010 — the technology, business, and politics of how APIs
-    are changing the way we live and work.
-  image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
-  humanURL: https://developer.apievangelist.com/feeds/posts/
-  baseURL: https://apievangelist.com
-  tags:
-  - Posts
-  - Stories
-  - Blog
-  properties:
-  - type: Documentation
-    url: https://developer.apievangelist.com/feeds/posts/
-  - type: JSONFeed
-    url: https://posts.apievangelist.com/posts.json
-  - type: GitHubRepository
-    url: https://github.com/api-evangelist/posts
-  contact:
+  - aid: api-evangelist-api
+    name: API Evangelist Network API
+    description: >-
+      The whole network behind one REST API — unified search, 5,100+ posts, 77
+      topic areas, 2,400+ governance building blocks, conversations, papers,
+      services, vocabulary, and newsletters from a single base URL. Keyless free
+      tier; x-api-key raises limits.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://developer.apievangelist.com
+    baseURL: https://api.apievangelist.com/v1
+    tags:
+      - API
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com
+      - type: OpenAPI
+        url: https://developer.apievangelist.com/apis/apievangelist-v1-openapi.yml
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/apievangelist-aws
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-mcp
+    name: API Evangelist MCP Server
+    description: >-
+      Model Context Protocol server over the same network — concierge tools
+      (get_overview, guide_topic) plus find/get tools for every resource type,
+      served over Streamable HTTP for AI agents.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://developer.apievangelist.com/mcp-server
+    baseURL: https://mcp.apievangelist.com/mcp
+    tags:
+      - MCP
+      - Agents
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/mcp-server
+      - type: MCP
+        url: https://mcp.apievangelist.com/mcp
+      - type: MCPServerCard
+        url: https://apievangelist.com/.well-known/mcp/server-card.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/apievangelist-aws
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-apis
+    name: API Evangelist APIs
+    description: >-
+      Individual API resources tracked across the API Evangelist network, drawn
+      from many providers and business sectors and accompanied by OpenAPI reviews.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://apis.apievangelist.com
+    tags:
+      - APIs
+      - Discovery
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/apis
+      - type: APIsJSON
+        url: https://apis.apievangelist.com/apis.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/apis
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-posts
+    name: API Evangelist Posts
+    description: >-
+      Over 4,000 stories on the API Evangelist blog since 2010 — the technology,
+      business, and politics of how APIs are changing the way we live and work.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://apievangelist.com
+    tags:
+      - Posts
+      - Stories
+      - Blog
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/posts
+      - type: JSONFeed
+        url: https://posts.apievangelist.com/posts.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/posts
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-conversations
+    name: API Evangelist Conversations
+    description: >-
+      Regular conversations with API producers, consumers, and service providers
+      about how they see APIs and what their biggest challenges are.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://conversations.apievangelist.com
+    tags:
+      - Conversations
+      - Interviews
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/conversations
+      - type: JSONFeed
+        url: https://conversations.apievangelist.com/conversations.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/conversations
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-companies
+    name: API Evangelist Companies
+    description: >-
+      An alphabetical listing of every company tracked across the API Evangelist
+      network, operating in almost every business sector.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://providers.apievangelist.com
+    tags:
+      - Companies
+      - APIs.json
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/companies
+      - type: APIsJSON
+        url: https://providers.apievangelist.com/apis.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/companies
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-experiences
+    name: API Evangelist Experiences
+    description: >-
+      The real-world human experience across teams producing APIs and the
+      consumers who are applying and integrating them as part of business.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://experiences.apievangelist.com
+    tags:
+      - Experiences
+      - Developer Experience
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/experiences
+      - type: JSONFeed
+        url: https://experiences.apievangelist.com/experiences.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/experiences
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-guidance
+    name: API Evangelist Guidance
+    description: >-
+      Modular guidance for teams producing and consuming APIs — snackable
+      real-time guidance for keeping API operations moving forward.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://guidance.apievangelist.com
+    tags:
+      - Guidance
+      - Best Practices
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/guidance
+      - type: JSONFeed
+        url: https://guidance.apievangelist.com/guidance.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/guidance
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-partners
+    name: API Evangelist Partners
+    description: >-
+      Information about API Evangelist partners and collaboration opportunities
+      supporting API operations.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://partners.apievangelist.com
+    tags:
+      - Partners
+      - Network
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/partners
+      - type: APIsJSON
+        url: https://partners.apievangelist.com/apis.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/partners
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-policies
+    name: API Evangelist Policies
+    description: >-
+      The business reasons behind why we govern API operations — aligning the
+      engineering side of operations with the business side of things.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://policies.apievangelist.com
+    tags:
+      - Policies
+      - Governance
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/policies
+      - type: JSONFeed
+        url: https://policies.apievangelist.com/policies.json
+      - type: OpenAPI
+        url: https://github.com/api-evangelist/policies/blob/main/openapi.yml
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/policies
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-properties
+    name: API Evangelist Properties
+    description: >-
+      Individual properties of API operations that can be linked to strategy,
+      experience, and policies — and then governed to standardize how things work.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://properties.apievangelist.com
+    tags:
+      - Properties
+      - Governance
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/properties
+      - type: JSONFeed
+        url: https://properties.apievangelist.com/properties.json
+      - type: OpenAPI
+        url: https://github.com/api-evangelist/properties/blob/main/openapi.yml
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/properties
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-rules
+    name: API Evangelist Rules
+    description: >-
+      Technical details of API operations that can be automated and enforced,
+      used to align policies with strategy to deliver the desired experience.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://rules.apievangelist.com
+    tags:
+      - Rules
+      - Spectral
+      - Governance
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/rules
+      - type: JSONFeed
+        url: https://rules.apievangelist.com/rules.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/rules
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-schema
+    name: API Evangelist Schema
+    description: >-
+      The naming and structure of the digital objects we pass back and forth via
+      APIs within the business and personal applications we use.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://schema.apievangelist.com
+    tags:
+      - Schema
+      - JSON Schema
+      - Data Models
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/schema
+      - type: APIsJSON
+        url: https://schema.apievangelist.com/apis.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/schema
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-standards
+    name: API Evangelist Standards
+    description: >-
+      Common Internet or industry standards used to consistently define API
+      operations and keep the API factory floor well-defined and interoperable.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://standards.apievangelist.com
+    tags:
+      - Standards
+      - Interoperability
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/standards
+      - type: APIsJSON
+        url: https://standards.apievangelist.com/apis.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/standards
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-strategies
+    name: API Evangelist Strategies
+    description: >-
+      High-level approaches to shifting the direction of API operations —
+      aligning policies and experiences across the platform.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://strategies.apievangelist.com
+    tags:
+      - Strategies
+      - API Strategy
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/strategies
+      - type: JSONFeed
+        url: https://strategies.apievangelist.com/strategies.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/strategies
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-utilities
+    name: API Evangelist Utilities
+    description: >-
+      Utility APIs for managing API Evangelist operations — a catch-all
+      collection of internal tools used to manage the platform.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://utilities.apievangelist.com
+    tags:
+      - Utilities
+      - Tooling
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/utilities
+      - type: APIsJSON
+        url: https://utilities.apievangelist.com/apis.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/utilities
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-videos
+    name: API Evangelist Videos
+    description: >-
+      Video content covering API topics, interviews, and walkthroughs of API
+      concepts and technologies.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://video.apievangelist.com
+    tags:
+      - Videos
+      - Media
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/videos
+      - type: JSONFeed
+        url: https://videos.apievangelist.com/videos.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/videos
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: api-evangelist-vocabularies
+    name: API Evangelist Vocabularies
+    description: >-
+      Organizing the words we use to describe API resources and capabilities —
+      controlled vocabularies that help us get on the same page.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://vocabularies.apievangelist.com
+    tags:
+      - Vocabularies
+      - Taxonomy
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/vocabularies
+      - type: JSONFeed
+        url: https://vocabularies.apievangelist.com/vocabularies.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/vocabularies
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+  - aid: spotlight-rules
+    name: Spotlight Rules
+    description: >-
+      Standalone spotlight on API governance rules — guardrails for API
+      operations delivered as a curated ruleset alongside the rules collection.
+    image: >-
+      https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
+    humanURL: https://spotlight-rules.com
+    tags:
+      - Rules
+      - Spotlight
+      - Governance
+    properties:
+      - type: Documentation
+        url: https://developer.apievangelist.com/feeds/spotlight-rules
+      - type: JSONFeed
+        url: https://spotlight-rules.com/rules.json
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/spotlight-rules
+    contact:
+      - FN: Kin Lane
+        email: info@apievangelist.com
+common:
+  - type: DeveloperPortal
+    url: https://developer.apievangelist.com/
+  - type: Network
+    url: https://developer.apievangelist.com/network/
+  - type: GitHubOrganization
+    url: https://github.com/api-evangelist
+  - type: APIsJSON
+    url: https://developer.apievangelist.com/apis.json
+maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
-common:
-- type: DeveloperPortal
-  url: https://developer.apievangelist.com/
-- type: Network
-  url: https://developer.apievangelist.com/network/
-- type: GitHubOrganization
-  url: https://github.com/api-evangelist
-- type: APIsJSON
-  url: https://developer.apievangelist.com/apis.json
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-  X-github: kinlane
+    X-github: kinlane
