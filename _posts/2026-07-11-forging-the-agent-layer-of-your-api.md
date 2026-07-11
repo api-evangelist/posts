@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Forging the Agent Layer of Your API
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/forging-the-agent-layer-of-your-api.png
-date: 2026-07-28
+date: 2026-07-11
 author: Kin Lane
 tags:
   - API Commons
