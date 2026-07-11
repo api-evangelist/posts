@@ -17,6 +17,10 @@
       symbol: description
       href: https://papers.apievangelist.com
 
+    - name: Newsletter
+      symbol: mail
+      href: https://newsletters.apievangelist.com
+
     - name: Videos
       symbol: video_library
       href: https://video.apievangelist.com
@@ -183,7 +187,7 @@
           href: https://mastodon.apievangelist.com/web/@api
 
         - name: Newsletter
-          href: https://buttondown.com/apievangelist
+          href: https://newsletters.apievangelist.com
 
         - name: Apple Podcasts
           href: https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921
