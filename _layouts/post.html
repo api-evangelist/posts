@@ -18,10 +18,10 @@ layout: default
 
       <div class="d-flex align-items-center mb-4 text-muted small">
         <span>{% include long-date.html date=post_date %}</span>
-        {% if page.author %}
-          {% assign author = site.authors[page.author.name] %}
-        {% else %}
-          {% assign author = site.author %}
+        {% assign author = site.author %}
+        {% if page.author.name %}
+          {% assign resolved = site.authors[page.author.name] %}
+          {% if resolved %}{% assign author = resolved %}{% endif %}
         {% endif %}
         <span class="mx-2">&middot;</span>
         <span>{{ author.name }}</span>
