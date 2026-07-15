@@ -73,7 +73,6 @@ plugins:
   - jekyll-gist
   - jekyll-avatar
 exclude:
-  - governance
   - Gemfile
   - Gemfile.lock
   - node_modules
