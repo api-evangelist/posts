@@ -39,6 +39,8 @@ paths:
           $ref: "#/components/responses/TooManyRequests"
         "500":
           $ref: "#/components/responses/InternalServerError"
+      security:
+        - api_key: []
 components:
   examples:
     Response:
@@ -62,6 +64,7 @@ components:
       required: false
       schema:
         type: string
+        maxLength: 1024
     Search:
       name: search
       description: The keyword to search by.
@@ -69,6 +72,7 @@ components:
       required: false
       schema:
         type: string
+        maxLength: 1024
     Limit:
       name: limit
       description: The limit of the results.
@@ -76,6 +80,7 @@ components:
       required: false
       schema:
         type: string
+        maxLength: 1024
     Page:
       name: page
       description: The page of the results.
@@ -83,6 +88,7 @@ components:
       required: false
       schema:
         type: string
+        maxLength: 1024
   responses:
     BadRequest:
       description: Bad Request
@@ -185,14 +191,19 @@ components:
       properties:
         search:
           type: string
+          maxLength: 1024
         type:
           type: string
+          maxLength: 1024
         limit:
           type: integer
+          maximum: 1000
         page:
           type: integer
+          maximum: 1000000
         totalPages:
           type: integer
+          maximum: 1000000
       required:
         - totalPages
         - page
@@ -202,14 +213,19 @@ components:
       properties:
         self:
           type: string
+          maxLength: 1024
         first:
           type: string
+          maxLength: 1024
         prev:
           type: string
+          maxLength: 1024
         next:
           type: string
+          maxLength: 1024
         last:
           type: string
+          maxLength: 1024
       required:
         - self
     Contracts:
@@ -217,6 +233,7 @@ components:
       description: Listing of repositories pulled for and organization.
       items:
         $ref: "#/components/schemas/Contract"
+      maxItems: 1000
     Contract:
       type: object
       description: A single repository.
@@ -224,13 +241,16 @@ components:
         aid:
           type: string
           description: The unique API identifier of the contract.
+          maxLength: 1024
         name:
           type: string
           description: The name of the contract.
+          maxLength: 1024
         description:
           type: string
           description: The description of the contract.
 
+          maxLength: 20000
     Problem:
       xml:
         name: problem
@@ -240,19 +260,28 @@ components:
           type: string
           description: A URI reference that identifies the problem type
           example: https://example.com/probs/out-of-credit
+          maxLength: 1024
         title:
           type: string
           description: A short, human-readable summary of the problem type
           example: You do not have enough credit.
+          maxLength: 1024
         detail:
           type: string
           description: A human-readable explanation specific to this occurrence of the problem
           example: Your current balance is 30, but that costs 50.
+          maxLength: 20000
         instance:
           type: string
           description: A URI reference that identifies the specific occurrence of the problem
           example: /account/12345/msgs/abc
+          maxLength: 20000
         status:
           type: integer
           description: The HTTP status code
           example: 400
+          maximum: 599
+security:
+  - api_key: []
+servers:
+  - url: https://api.apievangelist.com/v1
