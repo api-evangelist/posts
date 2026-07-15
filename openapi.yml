@@ -39,8 +39,7 @@ paths:
           $ref: "#/components/responses/TooManyRequests"
         "500":
           $ref: "#/components/responses/InternalServerError"
-      security:
-        - api_key: []
+      security: []
 components:
   examples:
     Response:
@@ -281,7 +280,6 @@ components:
           description: The HTTP status code
           example: 400
           maximum: 599
-security:
-  - api_key: []
+security: []
 servers:
   - url: https://api.apievangelist.com/v1
