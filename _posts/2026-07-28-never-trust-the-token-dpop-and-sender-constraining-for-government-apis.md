@@ -1,0 +1,31 @@
+---
+published: true
+layout: post
+title: 'Never Trust the Token: DPoP and Sender-Constraining for Government APIs'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/never-trust-the-token-dpop-and-sender-constraining-for-government-apis.png
+date: 2026-07-28
+author: Kin Lane
+tags:
+  - API Authorization
+  - Zero Trust
+  - DPoP
+  - Digital Government
+  - Germany
+  - API Security
+  - OAuth
+---
+This is the fourth post in my series on [Germany's federal API authorization blueprint](https://apievangelist.com/2026/07/16/germany-built-the-api-authorization-blueprint-the-rest-of-government-needs/). So far I have covered the posture, the standards foundation, and onboarding. Today I want to get into the part of the design that separates a real Zero-Trust story from a marketing one: what the token can and cannot do if somebody steals it.
+
+Here is the uncomfortable truth about the bearer token that most of the API world runs on. A bearer token is a token where *possession is the whole authorization* — whoever holds it can use it, no questions asked, no proof of identity required. That is fine right up until the moment a token is intercepted, logged somewhere it shouldn't be, or lifted out of a compromised proxy, because at that point the attacker has exactly the same access the legitimate client had. Germany names this plainly in their [sender-constraining decision](https://gitlab.opencode.de/sachsen-anhalt/mid/foederale-api-autorisierungsinfrastruktur): bearer tokens without sender-constraining let an attacker replay an intercepted token, and in a Zero-Trust architecture spanning multiple operator boundaries and heavy machine-to-machine traffic, that is not an acceptable residual risk. If you are going to write "never trust, always verify" down as a principle — and they did — then you cannot ship a token whose only security property is that someone is holding it.
+
+Sender-constraining is the fix, and the idea is simple even if the plumbing is not: bind the access token to a specific cryptographic key that the client holds, and require the client to *prove possession of that key on every single request*. Now a stolen token is inert, because the thief does not have the private key it is bound to. The token and the proof are two separate things, and you need both. This is the mechanism that turns "we use OAuth" into "a leaked token does not become a breach."
+
+The interesting part — and the part worth learning from — is *how* Germany chose to do the binding, because there are two legitimate ways and they picked the one that fits a federation. The classic approach binds the token to a mutual-TLS client certificate. It works, and FAPI 2.0 blesses it, but it drags the entire certificate lifecycle along with it: issuance, distribution, rotation, revocation, trust domains, and a PKI that every operator has to stand up and coordinate. It is also a poor fit for browser, mobile, and native clients, and it makes local development and test environments meaningfully harder. Their [ADR](https://gitlab.opencode.de/sachsen-anhalt/mid/foederale-api-autorisierungsinfrastruktur) records all of this honestly.
+
+Instead they chose [DPoP — Demonstrating Proof-of-Possession, RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449). DPoP was purpose-built for this: the client generates its own key pair, and on every token request and every API call it sends a small signed JWT — the DPoP proof — that demonstrates it holds the private key the token is bound to. The reasons it won map exactly onto what a federation needs. It requires no certificate lifecycle and no PKI to operate. It works across the entire client landscape — browser, mobile, native, public clients — not just server-to-server. The client generates and manages its own key, so the key is not subject to some external trust domain's issuance process. And it integrates into existing OAuth and OpenID infrastructure comparatively lightly. The one honest cost they record is that clients now have to do their own key lifecycle management — generation, storage, rotation — and a sloppy client implementation can undermine it. That is a real trade, and they took it with eyes open, because the alternative pushes operational friction onto every operator in the federation.
+
+There is a detail here that I think is genuinely instructive about how to make these decisions well: Germany did not apply one hammer everywhere. DPoP is the choice at the *edge*, where the client landscape is diverse and PKI coordination is painful. But for the internal machine-to-machine links *between the central infrastructure components* — the authorization server, the policy infrastructure, the directory and attribute services — they chose mutual TLS with a limited PKI, precisely because those components are stable, server-side, long-lived, and few, which is exactly the environment where certificate management is practical and the performance of skipping token overhead is worth it. Same architects, same document, opposite choice, because the context is opposite. That is what mature standards profiling looks like: not "which mechanism is best" in the abstract, but "which mechanism fits *this* boundary," decided boundary by boundary and written down.
+
+For US and European agencies, the reason this transfers cleanly is that your networks are exactly as painful as Germany's. If you have ever fought with agency PKI, PIV certificate distribution, or a gateway that terminates TLS three hops before your application ever sees the client, you already understand why edge sender-constraining wants to live at the application layer with DPoP rather than in the certificate machinery. The recommendation writes itself: DPoP for edge token binding, mTLS reserved for the small, stable internal control plane, and no bearer tokens at your higher assurance tiers, full stop. Zero Trust is not a product you buy; it is a set of properties you can point at, and "a stolen token is useless" is one of the most important ones on the list.
+
+Next in the series I move from the token to the decision it unlocks: once a verified, sender-constrained client is at the door, *who decides* what it is allowed to do, and how Germany built a policy-based authorization model with a clean separation between the thing that enforces and the thing that decides.
