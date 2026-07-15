@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Monetizing My APIs and MCP Without Walling Off the Map
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/monetizing-my-apis-and-mcp-without-walling-off-the-map.png
-date: 2026-09-10
+date: 2026-07-15
 author: Kin Lane
 tags:
   - APIs
