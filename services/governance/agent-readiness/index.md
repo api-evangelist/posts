@@ -1,8 +1,8 @@
 ---
 layout: service
 section: Services
-title: Agent Readiness
-summary: Score your public API surface against the Agent Readiness framework — a neutral, evidence-based read on how safely an autonomous agent can actually drive your APIs, with a prioritized roadmap to raise it.
+title: Agent-Readiness Assessment
+summary: A fixed-scope engagement that turns "are we agent-ready?" into a measured baseline and a sequenced plan — score your API surface against the open Agent Readiness framework, map it onto the standards onramp, and walk away with a prioritized roadmap and the descriptor that proves it.
 nav: Services
 sub: Governance
 ---
@@ -24,14 +24,24 @@ sub: Governance
       <!-- Story -->
       <div class="mb-2" style="max-width: 46rem;">
         <p class="mb-3">A human developer can paper over a lot of API friction &mdash; an ambiguous error, an undocumented idempotency convention, a prose-only auth description, an HTML-only changelog. An autonomous agent cannot. Every implicit convention a human silently absorbs is a place an agent gets stuck, retries blindly, double-charges a card, or hallucinates a payload. Agent readiness is the discipline of removing those implicit conventions and replacing them with machine-readable signals.</p>
-        <p class="mb-3">I score your public API surface against my open <a href="https://github.com/api-evangelist/agent-readiness">Agent Readiness framework</a> &mdash; a nine-dimension model covering spec presence, auth-model clarity, idempotency, error semantics, rate-limit headers, dry-run, examples, MCP, and event contracts, plus the forward-looking signals of <code>/.well-known/api-catalog</code>, machine-readable consent, and identified agent traffic. Each dimension is scored 0&ndash;3 from a real evidence URL, and rolled up into an overall posture you can compare against reference providers like Stripe, GitHub, and Twilio.</p>
+        <p class="mb-3">Most teams know that matters, but they have no canonical definition of &ldquo;agent-ready,&rdquo; no sequenced path to get there, and no way to check hundreds of repositories against it. So &ldquo;are we agent-ready?&rdquo; stays an anxious, unbounded question. This engagement makes it a measured baseline and a plan &mdash; a fixed-scope assessment in four moves.</p>
+
+        <h2 class="fs-6 fw-semibold mt-4 mb-2">The engagement, in four moves</h2>
+        <ol class="text-muted">
+          <li><strong>Scan.</strong> I score your public API surface against my open <a href="https://github.com/api-evangelist/agent-readiness">Agent Readiness framework</a> &mdash; a twelve-dimension model covering spec presence, auth-model clarity, idempotency, error semantics, rate-limit headers, dry-run, examples, MCP, and event contracts, plus the forward-looking signals of <code>/.well-known/api-catalog</code>, machine-readable consent, and identified agent traffic. Each dimension is scored 0&ndash;3 from a real evidence URL and rolled up into an overall posture.</li>
+          <li><strong>Map.</strong> I place the result on the <a href="https://papers.apievangelist.com">Agent-Era API Standards Onramp</a> &mdash; the sequenced ladder from OpenAPI through JSON Schema, Arazzo, discovery, MCP, agent skills, async, and agent-payment standards. This produces <em>your</em> canonical definition of agent-ready: where you are, what the next rung is, and what it unlocks.</li>
+          <li><strong>Gap.</strong> A prioritized findings list &mdash; minimum operational docs, an <code>AGENTS.md</code> with explicit boundaries, AI-scrapable delivery, task-oriented MCP tools &mdash; highest-leverage fixes first, each backed by a specific evidence URL.</li>
+          <li><strong>Onramp.</strong> A sequenced roadmap plus an <a href="https://github.com/api-commons/api-onboarding">API Onboarding Descriptor</a> for your flagship APIs, so you leave with a repeatable pattern rather than a one-off cleanup.</li>
+        </ol>
+
         <p class="mb-3">Because the framework is public and I use it the same way across every provider on <a href="https://apis.io">APIs.io</a>, the number is neutral &mdash; not a badge I sell, but an honest outside read your teams and stakeholders can trust. It works as a one-time baseline, and it works even better as a <strong>before-and-after</strong>: score today, ship your improvements, and I re-score against the same rubric so you can prove exactly how far you moved.</p>
 
         <h2 class="fs-6 fw-semibold mt-4 mb-2">What you walk away with</h2>
         <ul class="text-muted">
           <li>A scored scorecard across all twelve dimensions, each backed by a specific evidence URL</li>
+          <li>Your position on the standards onramp &mdash; the canonical, sequenced definition of agent-ready for your operation</li>
           <li>A prioritized remediation roadmap &mdash; what to fix, in what order, to move each dimension up</li>
-          <li>A benchmark against reference and peer providers, so the score has market context</li>
+          <li>An API Onboarding Descriptor for your flagship APIs, and a benchmark against reference and peer providers</li>
           <li>A re-assessment pass that quantifies your improvement as a defensible delta</li>
         </ul>
       </div>
@@ -40,7 +50,8 @@ sub: Governance
       <div class="mb-4" style="max-width: 46rem;">
         <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
         <ul class="text-muted mb-0">
-          <li><a href="https://github.com/api-evangelist/agent-readiness">The Agent Readiness framework</a> &mdash; the open nine-dimension model, schema, and vocabulary</li>
+          <li><a href="https://papers.apievangelist.com">The Agent-Era API Standards Onramp</a> &mdash; the paper that scripts this engagement</li>
+          <li><a href="https://github.com/api-evangelist/agent-readiness">The Agent Readiness framework</a> &mdash; the open twelve-dimension model, schema, and vocabulary</li>
           <li><a href="/2026/05/20/api-evangelist-scores-83-percent-agent-ready/">API Evangelist Scores 83% Agent Ready</a></li>
           <li><a href="/2026/05/16/making-the-api-evangelist-network-agent-readable/">Making the API Evangelist Network Agent-Readable</a></li>
           <li><a href="/services/governance/reviews/">Reviews</a> &mdash; the broader honest outside read on your APIs and governance</li>
@@ -51,8 +62,8 @@ sub: Governance
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">
           <h2 class="fs-5 mb-2">Let's work together</h2>
-          <p class="text-muted mb-3">If you want a neutral third-party read on how agent-ready your APIs really are &mdash; and a clear path to raise it &mdash; that is exactly what I do. Let's talk.</p>
-          <p class="mb-0"><a href="mailto:info@apievangelist.com?subject=Agent%20Readiness%20assessment" class="btn btn-outline-secondary btn-sm">Get in touch — info@apievangelist.com</a></p>
+          <p class="text-muted mb-3">If you want a neutral third-party read on how agent-ready your APIs really are &mdash; and a sequenced path to raise it &mdash; that is exactly what I do. Let's talk.</p>
+          <p class="mb-0"><a href="mailto:info@apievangelist.com?subject=Agent-Readiness%20Assessment" class="btn btn-outline-secondary btn-sm">Get in touch — info@apievangelist.com</a></p>
         </div>
       </div>
 
