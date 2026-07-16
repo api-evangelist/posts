@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: 'The Open API Governance Toolchain'
+title: 'The OpenAPI Governance Toolchain'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-open-api-governance-toolchain.png
 date: 2026-07-14
 author: Kin Lane

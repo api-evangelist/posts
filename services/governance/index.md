@@ -116,6 +116,18 @@ sub: Governance
           </div>
         </div>
 
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/agent-readiness.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0"><a href="/services/governance/agent-readiness/" class="stretched-link text-decoration-none text-reset">Agent Readiness</a></h2>
+              </div>
+              <p class="text-muted small mb-0">Score your public API surface against the Agent Readiness framework — a neutral before-and-after read on how safely an agent can drive your APIs.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <!-- Page footer -->

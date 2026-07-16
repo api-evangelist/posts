@@ -2,7 +2,7 @@
 layout: default
 section: Services
 title: Discovery Services
-summary: Map the words, interfaces, and standards that define what your business operations actually need — establishing the shared language and building blocks before anything gets built.
+summary: Map the words, interfaces, and standards that define what your business operations actually need — and take honest inventory of the APIs you already run — establishing the shared language and building blocks before anything gets built.
 nav: Services
 sub: Discovery
 ---
@@ -64,6 +64,30 @@ sub: Discovery
                 <h2 class="fs-6 mb-0"><a href="/services/discovery/standards/" class="stretched-link text-decoration-none text-reset">Standards</a></h2>
               </div>
               <p class="text-muted small mb-0">Identify and develop the standards required to ensure the interoperability of any aspect of business operations.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/api-discovery.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0"><a href="/services/discovery/api-discovery/" class="stretched-link text-decoration-none text-reset">API Discovery</a></h2>
+              </div>
+              <p class="text-muted small mb-0">Find the APIs you already run — including the shadow, rogue, and zombie ones — through traffic analysis, repository scans, and documentation review.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/inventory.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0"><a href="/services/discovery/inventory/" class="stretched-link text-decoration-none text-reset">API Inventory</a></h2>
+              </div>
+              <p class="text-muted small mb-0">Turn what you discover into a machine-readable registry — one source of truth with owner, lifecycle, consumers, and compliance for every API.</p>
             </div>
           </div>
         </div>

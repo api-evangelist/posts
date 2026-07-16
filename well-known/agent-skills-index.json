@@ -28,6 +28,41 @@ permalink: /.well-known/agent-skills/index.json
       "description": "Given an api-evangelist URL or catalog entry, fetch the OpenAPI / AsyncAPI / JSON Schema specification for that API.",
       "url": "https://apievangelist.com/skills/fetch-api-spec/SKILL.md",
       "sha256": "fcb3fd075ea1135b08399726ef4d220d99f81c462544c6429521ca9076e3df56"
+    },
+    {
+      "name": "brief-on-topic",
+      "type": "skill",
+      "description": "Get oriented on any API topic using API Evangelist — the relevant topic areas, the tag graph, and the most recent stories, as a quick briefing.",
+      "url": "https://apievangelist.com/skills/brief-on-topic/SKILL.md",
+      "sha256": "bd053205563f2b70fb83329d6721a46b9499d2fbbe3b27ca1ac2dc006b74f5de"
+    },
+    {
+      "name": "find-where-ae-helps",
+      "type": "skill",
+      "description": "Map a team's API need to where API Evangelist can help — the relevant research areas and the specific services Kin Lane offers.",
+      "url": "https://apievangelist.com/skills/find-where-ae-helps/SKILL.md",
+      "sha256": "d8b8e9aa53715725134bad20a4491c9fb7100de746383c088f7efdc4c01c3340"
+    },
+    {
+      "name": "research-with-api-evangelist",
+      "type": "skill",
+      "description": "Pro — Deep-research an API topic with API Evangelist: the curated cross-network guide bundle plus the full research bodies behind it.",
+      "url": "https://apievangelist.com/skills/research-with-api-evangelist/SKILL.md",
+      "sha256": "4e58cec29c754f9004525cf59e5eeffe9526af7e9c33e51294e5cf42476b4668"
+    },
+    {
+      "name": "governance-starter-kit",
+      "type": "skill",
+      "description": "Pro — Assemble an API governance starter kit from API Evangelist: the guidance, rules, policies, and standards that matter, plus how Kin Lane can help.",
+      "url": "https://apievangelist.com/skills/governance-starter-kit/SKILL.md",
+      "sha256": "e97c06890af98f0ad438e66c21c1044136ed3ca3a7c1081a4d4f0ceadd306f77"
+    },
+    {
+      "name": "map-vendor-landscape",
+      "type": "skill",
+      "description": "Map the vendor and tooling landscape for an API capability using API Evangelist's solutions and tools registries, with research context.",
+      "url": "https://apievangelist.com/skills/map-vendor-landscape/SKILL.md",
+      "sha256": "fff75289343710edc88b9eed2b9b135dd984479b8df36a8efdb236e7f202fbd1"
     }
   ]
 }
