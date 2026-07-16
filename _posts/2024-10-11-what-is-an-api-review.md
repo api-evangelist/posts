@@ -8,9 +8,6 @@ tags:
 image: >-
   https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-fixing-cross.jpg
 ---
-<div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center;">
-  <a href="https://apievangelist.com/#knowledge">Join Our Weekly API Governance Knowledge Bulding Sessions</a>
-</div>  
 I am immersed in all the business and technical details of API reviews, and I want to continue working through my thoughts about what an API review currently is, as well as what it could be. There are a number of reasons API reviews work or don’t work, and they are definitely a critical place for learning and engagement, but also anxiety and friction. I want to unwind all of the different things occurring at this intersection, and work to reorganize things to optimize for learning and engagement, while reducing the anxiety and friction for everyone involved.
 
 ## Design
