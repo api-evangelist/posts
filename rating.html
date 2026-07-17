@@ -1,0 +1,61 @@
+---
+layout: default
+section: Discovery
+title: The API Evangelist Rating System
+summary: A transparent, machine-readable rating that measures how complete an API is for developers and how safely it can be driven by AI agents — the rubric, the two scores, and where it runs.
+nav: Discovery
+sub: Ratings
+permalink: /rating/
+---
+
+<div class="row gx-xl-9">
+  <div class="col-12 col-xl-8">
+    <section>
+
+      <!-- Header -->
+      <div class="d-flex align-items-center mb-3">
+        <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" width="64" height="64" class="me-3 flex-shrink-0">
+        <h1 class="fs-3 mb-0">{{ page.title }}</h1>
+      </div>
+      <p class="lead text-muted mb-4">{{ page.summary }}</p>
+
+      <!-- Story -->
+      <div class="mb-2" style="max-width: 46rem;">
+        <p class="mb-3">I have spent my whole career forming opinions about whether an API is any good &mdash; not whether the company is valuable or the product is clever, but the narrower, more useful question of whether I can find it, understand it, trust how it behaves, and integrate it without a human beside me filling in what the documentation left out. I made that judgment thousands of times in my head before I finally wrote it down. The result is the <strong>API Evangelist Rating System</strong>: a transparent, machine-readable rubric that scores a provider's public API surface so the judgment scales, travels, and can be argued with by anyone.</p>
+
+        <p class="mb-3">Every input is an artifact the provider actually publishes &mdash; an OpenAPI contract with real descriptions and error responses, a change log, documented rate limits, plans a buyer can read without a sales call. There is no panel, no vibes, and no pay-to-play tier that buys a better number. The whole rubric is out in the open, so any provider can see exactly why they scored what they scored and precisely what would move them up.</p>
+
+        <h2 class="fs-6 fw-semibold mt-4 mb-2">Two scores, on purpose</h2>
+        <p class="mb-3"><strong>Composite quality</strong> is what people expect: how complete, transparent, and integration-ready an API is for a human developer &mdash; a weighted blend of six facets and dozens of individual checks, deliberately blunt because the point is comparability, not a certificate.</p>
+        <p class="mb-3"><strong>Agent readiness</strong> is scored separately, because a human developer papers over an enormous amount of API friction that an autonomous agent cannot. Every implicit convention a human silently absorbs &mdash; ambiguous errors, undocumented idempotency, prose-only auth &mdash; is a place an agent retries blindly, double-charges a card, or hallucinates a payload. Agent readiness measures whether those conventions have been replaced with machine-readable signals, and it lives on its own axis because a provider can be thin for humans yet ready for agents, or strong for humans yet useless to their agents. Collapsing that into one number hides the exact gap the score exists to expose.</p>
+
+        <h2 class="fs-6 fw-semibold mt-4 mb-2">Transparency is the product</h2>
+        <p class="mb-3">The rubric is versioned, the checks are enumerated with the points they award, and the bands are calibrated against the real distribution of what is actually out there rather than picked to flatter anyone. If you disagree with a weight, you can see the weight. If you think a check is wrong, you can see the check. A rating nobody can inspect is just an opinion with better production values, and the industry has enough of those.</p>
+
+        <h2 class="fs-6 fw-semibold mt-4 mb-2">Where it runs</h2>
+        <p class="mb-3">The rating system is licensable, and <strong>APIs.io is the first company to license it</strong>. It runs across the entire APIs.io catalog on every rebuild, shows up in search results and on every provider's page, and is served through the APIs.io API and MCP server so both people and their agents can filter and rank by it. It carries the API Evangelist name because it is my judgment, my research, and my rubric &mdash; APIs.io is where you can see it running at scale.</p>
+      </div>
+
+      <!-- CTA -->
+      <div class="p-4 mb-4 rounded-3" style="max-width: 46rem; background: linear-gradient(135deg,#f5f8fe,#eef3fb); border:1px solid #d4def0; border-left:5px solid #0a3d91;">
+        <p class="mb-2 fw-semibold" style="color:#12233f;">See it running on APIs.io</p>
+        <p class="text-muted mb-3">Browse live ratings for thousands of API providers, and read the full methodology &mdash; every facet, all the checks, both scoring axes, and the agent-readiness dimensions.</p>
+        <a href="https://apis.io/rating/" class="btn btn-primary btn-sm">The full rubric &amp; live ratings at APIs.io &rarr;</a>
+      </div>
+
+      <!-- Related reading -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
+        <ul class="text-muted mb-0">
+          <li><a href="/2026/07/17/apis-io-is-the-first-to-license-the-api-evangelist-rating-system/">APIs.io Is the First to License the API Evangelist Rating System</a></li>
+        </ul>
+      </div>
+
+      <!-- License note -->
+      <div class="mb-4" style="max-width: 46rem;">
+        <p class="small text-muted mb-0">Run a catalog, marketplace, gateway, or procurement process and want to score API surfaces on a rubric that is open, agent-aware, and not for sale to the highest bidder? The system exists, it is proven, and you can license it too &mdash; <a href="mailto:kin@apievangelist.com">get in touch</a>.</p>
+      </div>
+
+    </section>
+  </div>
+</div>
