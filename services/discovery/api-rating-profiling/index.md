@@ -1,7 +1,7 @@
 ---
 layout: service
 section: Services
-title: API Rating &amp; Profiling
+title: API Rating & Profiling
 summary: Get your API surface profiled against the API Evangelist Rating System — I audit it, add the machine-readable artifacts to your repository, and move your provider up the rankings. Prioritized profiling is $2,500.
 nav: Services
 sub: Discovery
