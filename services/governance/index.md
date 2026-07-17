@@ -140,6 +140,30 @@ sub: Governance
           </div>
         </div>
 
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/pipelines.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0"><a href="/services/governance/rollout/" class="stretched-link text-decoration-none text-reset">Governance Rollout</a></h2>
+              </div>
+              <p class="text-muted small mb-0">Adopt governance on an estate that already exists — a ratcheting baseline and a sanctioned exceptions process, so teams stop routing around the rules.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/standards.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0"><a href="/services/governance/stewardship/" class="stretched-link text-decoration-none text-reset">Fork Stewardship</a></h2>
+              </div>
+              <p class="text-muted small mb-0">Steward a shared, community-led governance standard — keep the ruleset format open, documented, and vendor-neutral instead of trapped in one company's linter.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <!-- Page footer -->
