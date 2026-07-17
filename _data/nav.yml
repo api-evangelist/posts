@@ -13,6 +13,10 @@
       symbol: monitoring
       href: https://search.apievangelist.com/analytics/
 
+    - name: Ratings
+      symbol: workspace_premium
+      href: https://apis.io/rating/
+
 
 - name: Learnings
   nav:
