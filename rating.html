@@ -8,13 +8,26 @@ sub: Ratings
 permalink: /rating/
 ---
 
-<div class="row gx-xl-9">
+<style>
+  .rate-band { display:inline-block; padding:0.25em 0.7em; border-radius:999px; font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; white-space:nowrap; }
+  .rb-exemplar{background:#d1f7e0;color:#0f5132}.rb-strong{background:#cfe2ff;color:#0a3d91}.rb-developing{background:#fff3cd;color:#664d03}.rb-thin{background:#ffe0c2;color:#7a3e07}.rb-emerging{background:#f8d7da;color:#842029}.rb-minimal{background:#e9ecef;color:#495057}
+  .rb-agent-native{background:#cff4e6;color:#0b6b4f}.rb-agent-ready{background:#d7ebff;color:#0a4b8c}.rb-agent-aware{background:#fff0d4;color:#7a5200}.rb-human-only{background:#eceef1;color:#5a6472}
+  .rate-band-row td { vertical-align:top; padding:0.6rem 0.75rem; border-bottom:1px solid #eef1f5; font-size:0.9rem; }
+  .rate-band-row .rr-range { font-size:0.78rem; color:#6c757d; white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .rate-band-row .rr-share { font-size:0.75rem; color:#9aa4b5; }
+  .rate-facet td { vertical-align:top; padding:0.6rem 0.75rem; border-bottom:1px solid #eef1f5; font-size:0.9rem; }
+  .rate-facet .rf-w { text-align:right; font-weight:700; color:#0a3d91; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .rate-dim { display:inline-flex; align-items:center; gap:0.35rem; background:#f5f8fe; border:1px solid #e1e9f6; border-radius:999px; padding:0.2em 0.7em; font-size:0.8rem; margin:0 0.3rem 0.4rem 0; }
+  .rate-dim b { color:#0a3d91; font-variant-numeric:tabular-nums; }
+</style>
+
+<div class="row">
   <div class="col-12 col-xl-8">
     <section>
 
       <!-- Header -->
       <div class="d-flex align-items-center mb-3">
-        <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" width="64" height="64" class="me-3 flex-shrink-0">
+        <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height:60px;width:auto;" class="me-3 flex-shrink-0">
         <h1 class="fs-3 mb-0">{{ page.title }}</h1>
       </div>
       <p class="lead text-muted mb-4">{{ page.summary }}</p>
@@ -24,30 +37,97 @@ permalink: /rating/
         <p class="mb-3">I have spent my whole career forming opinions about whether an API is any good &mdash; not whether the company is valuable or the product is clever, but the narrower, more useful question of whether I can find it, understand it, trust how it behaves, and integrate it without a human beside me filling in what the documentation left out. I made that judgment thousands of times in my head before I finally wrote it down. The result is the <strong>API Evangelist Rating System</strong>: a transparent, machine-readable rubric that scores a provider's public API surface so the judgment scales, travels, and can be argued with by anyone.</p>
 
         <p class="mb-3">Every input is an artifact the provider actually publishes &mdash; an OpenAPI contract with real descriptions and error responses, a change log, documented rate limits, plans a buyer can read without a sales call. There is no panel, no vibes, and no pay-to-play tier that buys a better number. The whole rubric is out in the open, so any provider can see exactly why they scored what they scored and precisely what would move them up.</p>
+      </div>
 
-        <h2 class="fs-6 fw-semibold mt-4 mb-2">Two scores, on purpose</h2>
-        <p class="mb-3"><strong>Composite quality</strong> is what people expect: how complete, transparent, and integration-ready an API is for a human developer &mdash; a weighted blend of six facets and dozens of individual checks, deliberately blunt because the point is comparability, not a certificate.</p>
-        <p class="mb-3"><strong>Agent readiness</strong> is scored separately, because a human developer papers over an enormous amount of API friction that an autonomous agent cannot. Every implicit convention a human silently absorbs &mdash; ambiguous errors, undocumented idempotency, prose-only auth &mdash; is a place an agent retries blindly, double-charges a card, or hallucinates a payload. Agent readiness measures whether those conventions have been replaced with machine-readable signals, and it lives on its own axis because a provider can be thin for humans yet ready for agents, or strong for humans yet useless to their agents. Collapsing that into one number hides the exact gap the score exists to expose.</p>
+      <!-- Two scores -->
+      <h2 class="fs-5 fw-semibold mt-4 mb-2">Two scores, on purpose</h2>
+      <div class="mb-2" style="max-width: 46rem;">
+        <p class="mb-3"><strong>Composite quality</strong> is what people expect: how complete, transparent, and integration-ready an API is for a human developer &mdash; a weighted blend of six facets and 74 individual checks, deliberately blunt because the point is comparability, not a certificate.</p>
+        <p class="mb-3"><strong>Agent readiness</strong> is scored separately, because a human developer papers over an enormous amount of API friction that an autonomous agent cannot. Every implicit convention a human silently absorbs &mdash; ambiguous errors, undocumented idempotency, prose-only auth &mdash; is a place an agent retries blindly, double-charges a card, or hallucinates a payload. It lives on its own axis because a provider can be thin for humans yet ready for agents, or strong for humans yet useless to their agents.</p>
+      </div>
 
-        <h2 class="fs-6 fw-semibold mt-4 mb-2">Transparency is the product</h2>
-        <p class="mb-3">The rubric is versioned, the checks are enumerated with the points they award, and the bands are calibrated against the real distribution of what is actually out there rather than picked to flatter anyone. If you disagree with a weight, you can see the weight. If you think a check is wrong, you can see the check. A rating nobody can inspect is just an opinion with better production values, and the industry has enough of those.</p>
+      <!-- Composite bands -->
+      <h2 class="fs-5 fw-semibold mt-4 mb-2">Composite quality bands</h2>
+      <p class="text-muted mb-3" style="max-width:46rem;">A provider's composite score (0&ndash;100) maps to one of six bands, calibrated against the real distribution of the catalog rather than picked round. The share column is what each band actually holds today.</p>
+      <table class="table table-sm mb-4" style="max-width:46rem;">
+        <tbody>
+          <tr class="rate-band-row"><td><span class="rate-band rb-exemplar">Exemplar</span></td><td class="rr-range">70+<div class="rr-share">0.6%</div></td><td>Reference-quality API operations across every facet — a rich contract, published governance, transparent operations, and machine-readable commercial terms. The band no provider reaches by accident.</td></tr>
+          <tr class="rate-band-row"><td><span class="rate-band rb-strong">Strong</span></td><td class="rr-range">60&ndash;69.9<div class="rr-share">6.4%</div></td><td>Solid contracts, transparent operations, and an easy start. Complete on four or five facets with one clear soft spot.</td></tr>
+          <tr class="rate-band-row"><td><span class="rate-band rb-developing">Developing</span></td><td class="rr-range">45&ndash;59.9<div class="rr-share">22.3%</div></td><td>Real signal across most facets with visible, nameable gaps — a thin contract, or a good portal with no governance.</td></tr>
+          <tr class="rate-band-row"><td><span class="rate-band rb-thin">Thin</span></td><td class="rr-range">30&ndash;44.9<div class="rr-share">30.0%</div></td><td>Limited machine-readable signal — documentation a human can read but little a machine or agent can consume without scraping.</td></tr>
+          <tr class="rate-band-row"><td><span class="rate-band rb-emerging">Emerging</span></td><td class="rr-range">15&ndash;29.9<div class="rr-share">24.9%</div></td><td>More than an index entry but still mostly links rather than artifacts — the cohort most likely to move a full band from modest, well-targeted work.</td></tr>
+          <tr class="rate-band-row"><td><span class="rate-band rb-minimal">Minimal</span></td><td class="rr-range">0&ndash;14.9<div class="rr-share">15.8%</div></td><td>Index entry only; little beyond a description and a link.</td></tr>
+        </tbody>
+      </table>
 
-        <h2 class="fs-6 fw-semibold mt-4 mb-2">Where it runs</h2>
-        <p class="mb-3">The rating system is licensable, and <strong>APIs.io is the first company to license it</strong>. It runs across the entire APIs.io catalog on every rebuild, shows up in search results and on every provider's page, and is served through the APIs.io API and MCP server so both people and their agents can filter and rank by it. It carries the API Evangelist name because it is my judgment, my research, and my rubric &mdash; APIs.io is where you can see it running at scale.</p>
+      <!-- Facets -->
+      <h2 class="fs-5 fw-semibold mt-4 mb-2">The six facets</h2>
+      <p class="text-muted mb-3" style="max-width:46rem;">The composite is a weighted blend of six facets, each scored 0&ndash;100 from its own checks. The weights decide what "good" means.</p>
+      <table class="table table-sm mb-4" style="max-width:46rem;">
+        <thead><tr><th style="font-size:0.8rem;">Facet</th><th style="font-size:0.8rem;">What it measures</th><th style="font-size:0.8rem;text-align:right;">Weight</th></tr></thead>
+        <tbody>
+          <tr class="rate-facet"><td><strong>Contract Quality</strong></td><td>Technical depth of the contract artifacts — OpenAPI, AsyncAPI, JSON Schema, JSON-LD.</td><td class="rf-w">25%</td></tr>
+          <tr class="rate-facet"><td><strong>Developer Ergonomics</strong></td><td>How fast is a first call? SDKs, CLI, portal, getting-started, docs, sandbox, MCP server, auth clarity.</td><td class="rf-w">20%</td></tr>
+          <tr class="rate-facet"><td><strong>Commercial Clarity</strong></td><td>Are commercial terms machine-readable? Plans, pricing, sign-up, ToS, privacy, FinOps, compliance.</td><td class="rf-w">20%</td></tr>
+          <tr class="rate-facet"><td><strong>Operational Transparency</strong></td><td>How the API behaves in production — rate limits, status, change log, deprecation, security disclosure.</td><td class="rf-w">13%</td></tr>
+          <tr class="rate-facet"><td><strong>Governance</strong></td><td>Outcomes of Spectral linting and published governance artifacts (rulesets, vocabulary), severity-weighted.</td><td class="rf-w">12%</td></tr>
+          <tr class="rate-facet"><td><strong>Discoverability</strong></td><td>Can the API be found from machine-readable metadata alone? apis.yml completeness, tagging, identity.</td><td class="rf-w">10%</td></tr>
+        </tbody>
+      </table>
+
+      <!-- Agent readiness -->
+      <h2 class="fs-5 fw-semibold mt-4 mb-2">Agent readiness <span class="rate-band rb-agent-native align-middle">separate score</span></h2>
+      <p class="text-muted mb-3" style="max-width:46rem;">A standalone 0&ndash;100 score measuring how safely an autonomous agent can drive the API, mapped to its own four bands. A provider can be Thin for humans yet Agent-Ready, or Strong yet Human-Only.</p>
+      <table class="table table-sm mb-3" style="max-width:46rem;">
+        <tbody>
+          <tr class="rate-band-row"><td><span class="rate-band rb-agent-native">Agent-Native</span></td><td class="rr-range">60+<div class="rr-share">1.4%</div></td><td>Built to be driven by agents — the baseline contract plus the differentiators most lack: MCP, idempotency, stable errors, examples.</td></tr>
+          <tr class="rate-band-row"><td><span class="rate-band rb-agent-ready">Agent-Ready</span></td><td class="rr-range">45+<div class="rr-share">43.3%</div></td><td>An agent can drive the core surface. Contract, agentic-access classification, and auth are in place; the safety rails mostly are not.</td></tr>
+          <tr class="rate-band-row"><td><span class="rate-band rb-agent-aware">Agent-Aware</span></td><td class="rr-range">15+<div class="rr-share">16.4%</div></td><td>Partial machine-readable surface. An agent can read some of the API but hits implicit conventions and gets stuck.</td></tr>
+          <tr class="rate-band-row"><td><span class="rate-band rb-human-only">Human-Only</span></td><td class="rr-range">0+<div class="rr-share">38.9%</div></td><td>Little an agent can consume without a human first reading the site.</td></tr>
+        </tbody>
+      </table>
+      <p class="text-muted small mb-2" style="max-width:46rem;">Twelve dimensions feed the score (points each):</p>
+      <div class="mb-4" style="max-width:46rem;">
+        <span class="rate-dim">Machine-Readable Contract <b>18</b></span><span class="rate-dim">Agentic Access Contract <b>15</b></span><span class="rate-dim">MCP Server <b>12</b></span><span class="rate-dim">Machine-Readable Auth <b>10</b></span><span class="rate-dim">Idempotency <b>9</b></span><span class="rate-dim">Stable Error Semantics <b>8</b></span><span class="rate-dim">Request/Response Examples <b>7</b></span><span class="rate-dim">Rate-Limit Signaling <b>7</b></span><span class="rate-dim">Typed Event Surface <b>6</b></span><span class="rate-dim">Agent Skills <b>5</b></span><span class="rate-dim">Well-Known Catalog <b>4</b></span><span class="rate-dim">Consent &amp; Bot Identity <b>3</b></span>
+      </div>
+
+      <!-- Transparency -->
+      <h2 class="fs-5 fw-semibold mt-4 mb-2">Transparency is the product</h2>
+      <div class="mb-2" style="max-width: 46rem;">
+        <p class="mb-3">The rubric is versioned, all 74 checks are enumerated with the points they award, and the bands are calibrated against the real distribution of what is actually out there rather than picked to flatter anyone. If you disagree with a weight, you can see the weight. If you think a check is wrong, you can see the check. A rating nobody can inspect is just an opinion with better production values, and the industry has enough of those.</p>
+      </div>
+
+      <!-- Where it runs -->
+      <h2 class="fs-5 fw-semibold mt-4 mb-2">Where it runs</h2>
+      <div class="mb-2" style="max-width: 46rem;">
+        <p class="mb-3">The rating system is licensable, and <strong>APIs.io is the first company to license it</strong>. It runs across the entire APIs.io catalog on every rebuild, shows up in search results and on every provider's page, and is served through the APIs.io API and MCP server so both people and their agents can filter and rank by it.</p>
       </div>
 
       <!-- CTA -->
       <div class="p-4 mb-4 rounded-3" style="max-width: 46rem; background: linear-gradient(135deg,#f5f8fe,#eef3fb); border:1px solid #d4def0; border-left:5px solid #0a3d91;">
         <p class="mb-2 fw-semibold" style="color:#12233f;">See it running on APIs.io</p>
-        <p class="text-muted mb-3">Browse live ratings for thousands of API providers, and read the full methodology &mdash; every facet, all the checks, both scoring axes, and the agent-readiness dimensions.</p>
+        <p class="text-muted mb-3">Browse live ratings for thousands of API providers, and read the full rubric &mdash; every facet, all 74 checks, both scoring axes, and the agent-readiness dimensions with their exact points.</p>
         <a href="https://apis.io/rating/" class="btn btn-primary btn-sm">The full rubric &amp; live ratings at APIs.io &rarr;</a>
       </div>
 
-      <!-- Related reading -->
+      <!-- How to improve -->
+      <h2 class="fs-5 fw-semibold mt-4 mb-2">How a provider improves</h2>
+      <div class="mb-2" style="max-width: 46rem;">
+        <p class="mb-3">Every provider is profiled from a public repository in the <a href="https://github.com/api-evangelist" target="_blank" rel="noopener">API Evangelist GitHub organization</a> &mdash; <code>github.com/api-evangelist/&lt;provider&gt;</code>. That is where the scored artifacts live, so improving a rating is a normal open-source contribution:</p>
+        <ul class="text-muted">
+          <li><strong>Ask a question</strong> — open an issue on the provider's repository.</li>
+          <li><strong>Add an artifact</strong> — submit a pull request with the missing spec, plans, rate limits, or agentic-access contract; the next scoring run picks it up.</li>
+          <li><strong>Have it done for you</strong> — <a href="/services/discovery/api-rating-profiling/">prioritized profiling for $2,500</a>: I audit your surface, add the artifacts, and move you up the queue.</li>
+        </ul>
+        <p class="mb-3">The first two paths are free and always will be &mdash; the rubric is open specifically so any provider can climb it on their own.</p>
+      </div>
+
+      <!-- Related -->
       <div class="mb-4" style="max-width: 46rem;">
         <h2 class="fs-6 fw-semibold mb-2">Related reading</h2>
         <ul class="text-muted mb-0">
           <li><a href="/2026/07/17/apis-io-is-the-first-to-license-the-api-evangelist-rating-system/">APIs.io Is the First to License the API Evangelist Rating System</a></li>
+          <li><a href="/services/discovery/api-rating-profiling/">API Rating &amp; Profiling service</a></li>
         </ul>
       </div>
 
@@ -58,4 +138,24 @@ permalink: /rating/
 
     </section>
   </div>
+
+  <!-- Sidebar -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <!-- Newsletter -->
+      {% include newsletter-signup.html %}
+
+      <!-- apis.io -->
+      <div class="widget-card mb-3">
+        <h5>Discover APIs</h5>
+        <a href="https://apis.io" target="_blank" rel="noopener" class="d-block">
+          <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apis-io/apis-io-2026-06-03.png" alt="apis.io — API Search" class="img-fluid rounded border">
+        </a>
+        <p class="text-muted small mb-0 mt-2">Search across thousands of APIs on apis.io &rarr;</p>
+      </div>
+
+    </div>
+  </div>
+
 </div>
