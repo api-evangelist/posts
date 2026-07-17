@@ -24,6 +24,18 @@ sub: Discovery
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
               <div class="d-flex align-items-center mb-2">
+                <img src="/images/services/governance-scorecard.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
+                <h2 class="fs-6 mb-0"><a href="/services/discovery/api-rating-profiling/" class="stretched-link text-decoration-none text-reset">API Rating &amp; Profiling</a></h2>
+              </div>
+              <p class="text-muted small mb-0">Get your API surface profiled against the API Evangelist Rating System &mdash; prioritized profiling, $2,500.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
                 <img src="/images/services/vocabulary.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
                 <h2 class="fs-6 mb-0"><a href="/services/discovery/vocabulary/" class="stretched-link text-decoration-none text-reset">Vocabulary</a></h2>
               </div>
