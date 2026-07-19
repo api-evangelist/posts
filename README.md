@@ -78,3 +78,5 @@ which builds with the official `jekyll-build-pages` action. It runs on:
   their date even when nothing is pushed.
 
 `_headers` and `_redirects` are kept in the build output for edge-config support.
+
+_Last manual rebuild: 2026-07-19._
