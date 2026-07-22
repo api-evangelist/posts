@@ -27,7 +27,7 @@ sub: Discovery
                 <img src="/images/services/governance-scorecard.png" alt="" width="48" height="48" class="me-2 flex-shrink-0">
                 <h2 class="fs-6 mb-0"><a href="/services/discovery/api-rating-profiling/" class="stretched-link text-decoration-none text-reset">API Rating &amp; Profiling</a></h2>
               </div>
-              <p class="text-muted small mb-0">Get your API surface profiled against the API Evangelist Rating System &mdash; prioritized profiling, $2,500.</p>
+              <p class="text-muted small mb-0">Get your API surface profiled against Kin Score, the API Evangelist rating system &mdash; prioritized profiling, $2,500.</p>
             </div>
           </div>
         </div>

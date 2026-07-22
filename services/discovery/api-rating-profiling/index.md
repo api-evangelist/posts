@@ -2,7 +2,7 @@
 layout: service
 section: Services
 title: API Rating & Profiling
-summary: Get your API surface profiled against the API Evangelist Rating System — I audit it, add the machine-readable artifacts to your repository, and move your provider up the rankings. Prioritized profiling is $2,500.
+summary: Get your API surface profiled against Kin Score, the API Evangelist rating system — I audit it, add the machine-readable artifacts to your repository, and move your provider up the rankings. Prioritized profiling is $2,500.
 nav: Services
 sub: Discovery
 price: $2,500
@@ -30,7 +30,7 @@ price: $2,500
 
       <!-- Story -->
       <div class="mb-2" style="max-width: 46rem;">
-        <p class="mb-3">The <a href="/rating/">API Evangelist Rating System</a> scores every API provider on how complete their surface is for developers and how safely it can be driven by AI agents, and the whole rubric is open &mdash; any team can climb it on their own by publishing the artifacts I score. Most of the time you should. But some teams do not have the time, do not know where their points are leaking, or simply want it handled by the person who wrote the rubric. That is what this is.</p>
+        <p class="mb-3"><a href="/rating/">Kin Score</a>, the API Evangelist rating system, scores every API provider on how complete their surface is for developers and how safely it can be driven by AI agents, and the whole rubric is open &mdash; any team can climb it on their own by publishing the artifacts I score. Most of the time you should. But some teams do not have the time, do not know where their points are leaking, or simply want it handled by the person who wrote the rubric. That is what this is.</p>
 
         <p class="mb-3">Every provider in the catalog is profiled from a public repository in the <a href="https://github.com/api-evangelist" target="_blank" rel="noopener">API Evangelist GitHub organization</a>, and improving a rating is a normal open-source contribution &mdash; open an issue with a question, or send a pull request that adds the missing spec, plans, rate limits, or agentic-access contract, and the next scoring run picks it up. Those paths are free and always will be. Prioritized profiling is the fast lane: instead of waiting for the regular cadence, I do the work and move you up the queue.</p>
 
@@ -38,7 +38,7 @@ price: $2,500
 
         <h2 class="fs-6 fw-semibold mt-4 mb-2">What you walk away with</h2>
         <ul class="text-muted">
-          <li>A full profiling of your API surface against the API Evangelist Rating System &mdash; composite quality and agent readiness</li>
+          <li>A full profiling of your API surface against Kin Score &mdash; composite quality and agent readiness</li>
           <li>The missing machine-readable artifacts (OpenAPI, plans, rate limits, agentic-access contract, and more) added to your repository</li>
           <li>A clear, itemized picture of every point applied versus possible, and exactly what moved your score</li>
           <li>Prioritized placement ahead of the regular scoring cadence, and your provider live on <a href="https://apis.io/rating/" target="_blank" rel="noopener">APIs.io</a></li>
@@ -49,7 +49,7 @@ price: $2,500
       <div class="mb-4" style="max-width: 46rem;">
         <h2 class="fs-6 fw-semibold mb-2">Related</h2>
         <ul class="text-muted mb-0">
-          <li><a href="/rating/">The API Evangelist Rating System</a></li>
+          <li><a href="/rating/">Kin Score — the API Evangelist rating system</a></li>
           <li><a href="/2026/07/17/apis-io-is-the-first-to-license-the-api-evangelist-rating-system/">APIs.io Is the First to License the API Evangelist Rating System</a></li>
           <li><a href="https://apis.io/rating/" target="_blank" rel="noopener">The full rubric and live ratings at APIs.io</a></li>
         </ul>
