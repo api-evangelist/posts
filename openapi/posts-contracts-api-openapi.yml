@@ -1,0 +1,218 @@
+openapi: 3.0.0
+info:
+  title: API Evangelist Standards API Evangelist Contracts API
+  description: This is the technical contract for the API Evangelist contract API.
+  version: 0.1.0
+  contact:
+    name: Kin Lane
+    email: info@apievangelist.com
+servers:
+- url: https://api.apievangelist.com/v1
+security: []
+tags:
+- name: Contracts
+  description: An agreement between API producer and consumers.
+paths:
+  /contracts:
+    get:
+      operationId: getContracts
+      summary: API Evangelist Standards Get Contracts
+      description: Get all of the API contracts.
+      tags:
+      - Contracts
+      responses:
+        '200':
+          description: A successful request.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+              examples:
+                Contracts:
+                  $ref: '#/components/examples/Response'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+      security: []
+components:
+  responses:
+    Forbidden:
+      description: Forbidden
+      content:
+        application/problem+json:
+          schema:
+            $ref: '#/components/schemas/Problem'
+          example:
+            type: https://example.com/errors/forbidden
+            title: Forbidden
+            status: 403
+            detail: Access is forbidden with the provided credentials.
+    NotFound:
+      description: Not Found
+      content:
+        application/problem+json:
+          schema:
+            $ref: '#/components/schemas/Problem'
+          example:
+            type: https://example.com/errors/not-found
+            title: Not Found
+            status: 404
+            detail: The requested resource was not found.
+    InternalServerError:
+      description: Internal Server Error
+      content:
+        application/problem+json:
+          schema:
+            $ref: '#/components/schemas/Problem'
+          example:
+            type: https://example.com/errors/internal-server-error
+            title: Internal Server Error
+            status: 500
+            detail: An unexpected error occurred.
+    BadRequest:
+      description: Bad Request
+      content:
+        application/problem+json:
+          schema:
+            $ref: '#/components/schemas/Problem'
+          example:
+            type: https://example.com/errors/bad-request
+            title: Bad Request
+            status: 400
+            detail: The request is invalid or missing required parameters.
+    Unauthorized:
+      description: Unauthorized
+      content:
+        application/problem+json:
+          schema:
+            $ref: '#/components/schemas/Problem'
+          example:
+            type: https://example.com/errors/unauthorized
+            title: Unauthorized
+            status: 401
+            detail: You do not have the necessary permissions.
+    TooManyRequests:
+      description: Too Many Requests
+      content:
+        application/problem+json:
+          schema:
+            $ref: '#/components/schemas/Problem'
+          example:
+            type: https://example.com/errors/too-many-requests
+            title: Too Many Requests
+            status: 429
+            detail: You have exceeded the rate limit.
+  schemas:
+    Meta:
+      type: object
+      properties:
+        search:
+          type: string
+          maxLength: 1024
+        type:
+          type: string
+          maxLength: 1024
+        limit:
+          type: integer
+          maximum: 1000
+        page:
+          type: integer
+          maximum: 1000000
+        totalPages:
+          type: integer
+          maximum: 1000000
+      required:
+      - totalPages
+      - page
+      - limit
+    Contracts:
+      type: array
+      description: Listing of repositories pulled for and organization.
+      items:
+        $ref: '#/components/schemas/Contract'
+      maxItems: 1000
+    Contract:
+      type: object
+      description: A single repository.
+      properties:
+        aid:
+          type: string
+          description: The unique API identifier of the contract.
+          maxLength: 1024
+        name:
+          type: string
+          description: The name of the contract.
+          maxLength: 1024
+        description:
+          type: string
+          description: The description of the contract.
+          maxLength: 20000
+    Response:
+      type: object
+      description: An JSON API object with metadata, data, and links.
+      properties:
+        meta:
+          $ref: '#/components/schemas/Meta'
+        data:
+          $ref: '#/components/schemas/Contracts'
+      required:
+      - meta
+      - data
+    Problem:
+      xml:
+        name: problem
+        namespace: urn:ietf:rfc:7807
+      properties:
+        type:
+          type: string
+          description: A URI reference that identifies the problem type
+          example: https://example.com/probs/out-of-credit
+          maxLength: 1024
+        title:
+          type: string
+          description: A short, human-readable summary of the problem type
+          example: You do not have enough credit.
+          maxLength: 1024
+        detail:
+          type: string
+          description: A human-readable explanation specific to this occurrence of the problem
+          example: Your current balance is 30, but that costs 50.
+          maxLength: 20000
+        instance:
+          type: string
+          description: A URI reference that identifies the specific occurrence of the problem
+          example: /account/12345/msgs/abc
+          maxLength: 20000
+        status:
+          type: integer
+          description: The HTTP status code
+          example: 400
+          maximum: 599
+  examples:
+    Response:
+      summary: A successful response.
+      value:
+        meta:
+          search: API
+          limit: 100
+          page: 1
+          totalPages: 1
+        data:
+        - name: Contract One
+          description: The machine readable contract between the producers and consumer of these APIs.
+          tags:
+          - Contracts
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: x-api-key
+      in: header
