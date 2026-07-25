@@ -15,7 +15,7 @@ This is part of my ongoing work to answer to the question: _what does an agent-r
 
 Every site under `*.apievangelist.com` now publishes three things at well-known locations that an agent can hit before it parses any HTML:
 
-- **`/.well-known/api-catalog`** — an [RFC 9264](https://www.rfc-editor.org/rfc/rfc9264) linkset, served under [RFC 9727](https://www.rfc-editor.org/rfc/rfc9727)'s well-known URI. Each entry has an `anchor` (the resource's canonical URL), a `title`, `description`, and zero or more of `service-desc` (OpenAPI / AsyncAPI URLs), `service-doc` (human documentation), and `describedby` (JSON Schema / JSON-LD). On `apis.apievangelist.com` the linkset has **6,310 entries** — one per API across the entire network. On `contracts.apievangelist.com` it has **5,280 entries** — one per provider. The smaller sites carry per-resource catalogs of their own.
+- **`/.well-known/api-catalog`** — an [RFC 9264](https://www.rfc-editor.org/rfc/rfc9264) linkset, served under [RFC 9727](https://www.rfc-editor.org/rfc/rfc9727)'s well-known URI. Each entry has an `anchor` (the resource's canonical URL), a `title`, `description`, and zero or more of `service-desc` (OpenAPI / AsyncAPI URLs), `service-doc` (human documentation), and `describedby` (JSON Schema / JSON-LD). On `apis.apievangelist.com` the linkset has **6,310 entries** — one per API across the entire network. On `providers.apievangelist.com` it has **5,280 entries** — one per provider. The smaller sites carry per-resource catalogs of their own.
 - **`/apis.json`** — the site's own machine-readable identity in my own [APIs.json](https://apisjson.org) format. Name, description, tags, maintainers, support contact, GitHub repo. The "who are you and what do you offer" file an agent reads instead of crawling.
 - **`/robots.txt`** — with explicit AI consent signals. Beyond the usual `Allow: /`, every site now publishes:
 
@@ -67,7 +67,7 @@ I published three [Agent Skills](https://agentskills.io) at `apievangelist.com/s
 
 - **`discover-apievangelist`** — primes an agent with the network's structure, the discovery endpoints, the content-negotiation conventions. The skill an agent should hit first.
 - **`search-apis`** — keyword / provider / tag search against the catalog endpoints. Includes a runnable Python recipe.
-- **`fetch-api-spec`** — given an `apis.apievangelist.com` or `contracts.apievangelist.com` URL, pull the OpenAPI / AsyncAPI directly from the provider's GitHub repo.
+- **`fetch-api-spec`** — given an `apis.apievangelist.com` or `providers.apievangelist.com` URL, pull the OpenAPI / AsyncAPI directly from the provider's GitHub repo.
 
 Skills are publishing the "operating manual" for API Evangelist. They mean agents do not have to infer how to use the site — they read instructions I wrote. The index lives at [`/skills/index.json`](https://apievangelist.com/skills/index.json) with a `$schema` reference to the agentskills.io schema. The Worker advertises this index in every HTML response's `Link: rel="agent-skills"` header.
 
@@ -79,7 +79,7 @@ This is the smallest defensible JSON-LD step. A larger pass — per-resource con
 
 ## A Source Widget On Every Detail Page
 
-Every API detail page on `apis.apievangelist.com` and every contract page on `contracts.apievangelist.com` now renders the upstream YAML inline, with Prism syntax highlighting, line numbers, search-within-source, a YAML ↔ JSON toggle, and a download button. Humans see exactly what agents see. The structured data is not hidden behind the prose — it _is_ the page, displayed alongside it.
+Every API detail page on `apis.apievangelist.com` and every contract page on `providers.apievangelist.com` now renders the upstream YAML inline, with Prism syntax highlighting, line numbers, search-within-source, a YAML ↔ JSON toggle, and a download button. Humans see exactly what agents see. The structured data is not hidden behind the prose — it _is_ the page, displayed alongside it.
 
 ## Why the Edge Layer Is the Hinge
 

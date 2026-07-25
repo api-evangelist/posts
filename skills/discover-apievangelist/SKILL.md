@@ -28,7 +28,7 @@ api-evangelist is a federated catalog of public APIs maintained by Kin Lane. Con
 | Subdomain | Purpose |
 |---|---|
 | `apis.apievangelist.com` | Individual APIs (≈6,310). One entry per OpenAPI/AsyncAPI surface across all providers. |
-| `contracts.apievangelist.com` | API providers (≈5,280). One contract per provider (the company's `apis.yml`). |
+| `providers.apievangelist.com` | API providers (≈5,280). One contract per provider (the company's `apis.yml`). |
 
 Supporting subdomains exist for governance concerns: `standards`, `strategies`, `policies`, `rules`, `properties`, `experiences`, `vocabularies`, `schema`, plus utilities and building blocks.
 
@@ -50,7 +50,7 @@ Hit any apievangelist.com page with `curl -I` to see them.
 The canonical discovery endpoint. Two catalogs matter for most agents:
 
 - `https://apis.apievangelist.com/.well-known/api-catalog` — every API in the network. RFC 9264 linkset (JSON). Each entry has an `anchor` (the API's apievangelist URL), optional `service-desc` (OpenAPI/AsyncAPI URLs), `service-doc` (human docs), and `describedby` (schemas).
-- `https://contracts.apievangelist.com/.well-known/api-catalog` — every provider's contract, each with their APIs nested under `service-desc`.
+- `https://providers.apievangelist.com/.well-known/api-catalog` — every provider's contract, each with their APIs nested under `service-desc`.
 
 Content-Type is `application/linkset+json`. Both files are ≈6–9 MB. Cache them.
 
@@ -73,7 +73,7 @@ Search indexing, AI input, and AI training are all explicitly permitted.
 
 ## Content negotiation
 
-Send `Accept: text/markdown` to any `apis.apievangelist.com/store/<slug>/` or `contracts.apievangelist.com/store/<slug>/` URL and the server returns clean structured markdown synthesized from the api-catalog. No HTML parsing needed:
+Send `Accept: text/markdown` to any `apis.apievangelist.com/store/<slug>/` or `providers.apievangelist.com/providers/<slug>/` URL and the server returns clean structured markdown synthesized from the api-catalog. No HTML parsing needed:
 
 ```bash
 curl -H "Accept: text/markdown" https://apis.apievangelist.com/store/anthropic-messages-api/
@@ -101,7 +101,7 @@ Every subdomain publishes `/apis.json` (and `/apis.yml`) describing itself — n
 1. Fetch `https://apis.apievangelist.com/.well-known/api-catalog` once and cache it (≈8 MB JSON).
 2. Filter `linkset[]` entries by anchor URL or title to find APIs of interest.
 3. For each match, follow `service-desc[].href` to fetch OpenAPI/AsyncAPI directly from the provider's GitHub repo.
-4. For provider-level browsing, use `https://contracts.apievangelist.com/.well-known/api-catalog` instead.
+4. For provider-level browsing, use `https://providers.apievangelist.com/.well-known/api-catalog` instead.
 
 ## Related skills
 

@@ -75,17 +75,17 @@ image: >-
 
 You can see companies like BMW, Ford, GM, Mercedes-Benz, and Volkswagen aligning with what is expected from the public API presence across other mainstream industries, However, you also see a handful of them who have no footprint, or a minimal footprint, while others are still keeping a mix of resources behind a login or partner access. The credit card companies profiled were all consistently further along in their journey, but the automobile manufacturers provide an even wider spread to learn from when it comes to what you want to do with your enterprise public API portal.
 
-- **BMW** ([Portal](https://aos-portal.bmwgroup.com/)) ([Research](https://contracts.apievangelist.com/store/bmw)) - Part of an after sales, but uses OpenAPI, and has the beginning of a standardized approach.
-- **Ford** ([Portal](https://developer.ford.com/)) ([Research](https://contracts.apievangelist.com/store/ford)) - Dedicated portal, handful of APIs, minimal support and storytelling, but a beginning.
-- **GM** ([Portal](https://developer.gm.com/)) ([Research](https://contracts.apievangelist.com/store/general-motors)) - Dedicated portal, nice login, lots of developer resources, but not really standard HTTP.
-- **Honda** ([Research](https://contracts.apievangelist.com/store/honda)) - Does not have a dedicated portal with two haphazard pages, one with a swagger UI published.
-- **Hyundai** ([Research](https://contracts.apievangelist.com/store/hyundai)) - No footprint at all.
-- **Mercedes-Benz** ([Portal)](https://developer.mercedes-benz.com/) ([Research](https://contracts.apievangelist.com/store/mercedes-benz)) - Has a dedicated portal, lots of properties to support, nice catalog with OpenAPIs.
-- **Nissan** ([Portal](https://developer.na.nissancloud.com/)) ([Research](https://contracts.apievangelist.com/store/nissan)) - Has a dedicated portal, handful of resources, but can't access APIs without login and it doesn't work.
-- **Porsche** ([Portal](https://developer.porsche.com/)) ([Research](https://contracts.apievangelist.com/store/porsche)) - Has a dedicated portal but you have to be a partner to see APIs.
-- **Tesla** ([Portal](https://developer.tesla.com/0)) ([Research](https://contracts.apievangelist.com/store/tesla)) - Has a dedicated portal, a handful of resources, and a single fleet API.
-- **Toyota** ([Portal](https://developer.eig.toyota.com/)) ([Research](https://contracts.apievangelist.com/store/toyota)) - Has a dedicated portal,  but you have to be a partner to see APis.
-- **Volkswagen** ([Portal](https://productdata.volkswagenag.com/)) ([Research](https://contracts.apievangelist.com/store/volkswagen)) - Has a dedicated portal and one main API with supporting resources.
+- **BMW** ([Portal](https://aos-portal.bmwgroup.com/)) ([Research](https://providers.apievangelist.com/providers/bmw)) - Part of an after sales, but uses OpenAPI, and has the beginning of a standardized approach.
+- **Ford** ([Portal](https://developer.ford.com/)) ([Research](https://providers.apievangelist.com/providers/ford)) - Dedicated portal, handful of APIs, minimal support and storytelling, but a beginning.
+- **GM** ([Portal](https://developer.gm.com/)) ([Research](https://providers.apievangelist.com/providers/general-motors)) - Dedicated portal, nice login, lots of developer resources, but not really standard HTTP.
+- **Honda** ([Research](https://providers.apievangelist.com/providers/honda)) - Does not have a dedicated portal with two haphazard pages, one with a swagger UI published.
+- **Hyundai** ([Research](https://providers.apievangelist.com/providers/hyundai)) - No footprint at all.
+- **Mercedes-Benz** ([Portal)](https://developer.mercedes-benz.com/) ([Research](https://providers.apievangelist.com/providers/mercedes-benz)) - Has a dedicated portal, lots of properties to support, nice catalog with OpenAPIs.
+- **Nissan** ([Portal](https://developer.na.nissancloud.com/)) ([Research](https://providers.apievangelist.com/providers/nissan)) - Has a dedicated portal, handful of resources, but can't access APIs without login and it doesn't work.
+- **Porsche** ([Portal](https://developer.porsche.com/)) ([Research](https://providers.apievangelist.com/providers/porsche)) - Has a dedicated portal but you have to be a partner to see APIs.
+- **Tesla** ([Portal](https://developer.tesla.com/0)) ([Research](https://providers.apievangelist.com/providers/tesla)) - Has a dedicated portal, a handful of resources, and a single fleet API.
+- **Toyota** ([Portal](https://developer.eig.toyota.com/)) ([Research](https://providers.apievangelist.com/providers/toyota)) - Has a dedicated portal,  but you have to be a partner to see APis.
+- **Volkswagen** ([Portal](https://productdata.volkswagenag.com/)) ([Research](https://providers.apievangelist.com/providers/volkswagen)) - Has a dedicated portal and one main API with supporting resources.
 
 The APIs.json, OpenAPI, and JSON Schema we've accumulated across these API producers, as well as the Spectral rules we are running against them provide a compelling blueprint of what properties are being used for their API operations, and what patterns and anti-patterns are present in the designs of their APIs. It is difficult to do a full analysis due to the access levels on some of the APIs, but pulling the tags and path segments in use across these APIs will also provide a rich vocabulary we can use to differentiate each provider.
 

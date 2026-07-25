@@ -9,7 +9,7 @@ description: Given an api-evangelist URL or catalog entry, fetch the OpenAPI / A
 
 ## When to use this skill
 
-Use after `search-apis` returns a hit, or whenever the user supplies an `apis.apievangelist.com/store/...` or `contracts.apievangelist.com/store/...` URL and wants to inspect, summarize, or generate code from the underlying API description.
+Use after `search-apis` returns a hit, or whenever the user supplies an `apis.apievangelist.com/store/...` or `providers.apievangelist.com/providers/...` URL and wants to inspect, summarize, or generate code from the underlying API description.
 
 For API Evangelist's own network API, the spec is fixed and hosted: `https://developer.apievangelist.com/apis/apievangelist-v1-openapi.yml` — fetch it directly, no lookup needed. Full research resources (guidance, rules, stories, …) inline their bodies via `?include=content` on `https://api.apievangelist.com/v1`.
 
@@ -26,7 +26,7 @@ import json, urllib.request, yaml
 
 CATALOGS = {
     "apis.apievangelist.com": "https://apis.apievangelist.com/.well-known/api-catalog",
-    "contracts.apievangelist.com": "https://contracts.apievangelist.com/.well-known/api-catalog",
+    "providers.apievangelist.com": "https://providers.apievangelist.com/.well-known/api-catalog",
 }
 
 def fetch_spec(api_url):

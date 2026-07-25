@@ -31,7 +31,7 @@ Use when the user asks "what APIs are there for X", "find an API to do Y", "whic
 Two catalogs cover the network:
 
 - `https://apis.apievangelist.com/.well-known/api-catalog` — one entry per API (≈6,310).
-- `https://contracts.apievangelist.com/.well-known/api-catalog` — one entry per provider (≈5,280).
+- `https://providers.apievangelist.com/.well-known/api-catalog` — one entry per provider (≈5,280).
 
 Each entry looks like:
 
@@ -55,7 +55,7 @@ import json, urllib.request, re
 
 CATALOGS = {
     "apis": "https://apis.apievangelist.com/.well-known/api-catalog",
-    "contracts": "https://contracts.apievangelist.com/.well-known/api-catalog",
+    "contracts": "https://providers.apievangelist.com/.well-known/api-catalog",
 }
 
 def search(query, *, scope="apis", provider=None, tag=None, limit=20):

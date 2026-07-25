@@ -12,13 +12,13 @@ image: >-
 ---
 [All of the major credit card companies provide a fairly strong set of case studies for how large enterprises should be doing HTTP APIs](https://vocabularies.apievangelist.com/details/?vocabularyId=credit-cards). All of the credit card companies have dedicated domains for their developer portals, with Discover the only outlier being fragmented across three separate subdomains. As with most API portals, there are plenty of lessons present in the properties of each of the major credit card providers in what APIs they make available, the design of these APIs, but also how they manage their portal and operations. These are the credit card companies profiled so far, focusing on the top seven companies for this first round of research.
 
-- **American Express** ([Research](https://contracts.apievangelist.com/store/american-express/)) ([Portal](https://developer.americanexpress.com/))
-- **Barclays** ([Research](https://contracts.apievangelist.com/store/barclays/)) ([Portal](https://developer.barclays.com/))
-- **Capital One** ([Research](https://contracts.apievangelist.com/store/capital-one/)) ([Portal](https://developer.capitalone.com/home))
-- **Chase** ([Research](https://contracts.apievangelist.com/store/chase/)) ([Portal](https://developer.chase.com/))
-- **Discover** ([Research](https://contracts.apievangelist.com/store/discover/)) ([Portal1](https://partner.discoverglobalnetwork.com/)) ([Portal2](https://console.src.developer.discover.com/)) ([Portal3](https://www.discoverglobalnetwork.com/))
-- **Mastercard** ([Research](https://contracts.apievangelist.com/store/mastercard/)) ([Portal](https://developer.mastercard.com/))
-- **Visa** ([Research](https://contracts.apievangelist.com/store/visa/)) ([Portal](https://developer.visa.com/))
+- **American Express** ([Research](https://providers.apievangelist.com/providers/american-express/)) ([Portal](https://developer.americanexpress.com/))
+- **Barclays** ([Research](https://providers.apievangelist.com/providers/barclays/)) ([Portal](https://developer.barclays.com/))
+- **Capital One** ([Research](https://providers.apievangelist.com/providers/capital-one/)) ([Portal](https://developer.capitalone.com/home))
+- **Chase** ([Research](https://providers.apievangelist.com/providers/chase/)) ([Portal](https://developer.chase.com/))
+- **Discover** ([Research](https://providers.apievangelist.com/providers/discover/)) ([Portal1](https://partner.discoverglobalnetwork.com/)) ([Portal2](https://console.src.developer.discover.com/)) ([Portal3](https://www.discoverglobalnetwork.com/))
+- **Mastercard** ([Research](https://providers.apievangelist.com/providers/mastercard/)) ([Portal](https://developer.mastercard.com/))
+- **Visa** ([Research](https://providers.apievangelist.com/providers/visa/)) ([Portal](https://developer.visa.com/))
 
 Profiling of each of these includes producing an [APIs.json](https://apisjson.org/) discovery artifact for their common and specific API properties, including [OpenAPI](https://www.openapis.org/) and other artifacts whenever possible. Once there is an APIs.json and OpenAPI, governance rules are run against them, not to govern the APIs, but to survey and assess the properties of each API and the operations that surround them. With machine-readable artifacts for each of these companies, it is then possible to produce a vocabulary of the digital resources available between each provider, as well as produce a blueprint of the common or specific API properties being applied for this sector across companies.
 
