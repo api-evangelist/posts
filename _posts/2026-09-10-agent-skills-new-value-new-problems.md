@@ -1,0 +1,27 @@
+---
+published: true
+layout: post
+title: 'Agent Skills: New Value, New Problems'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/agent-skills-new-value-new-problems.png
+date: 2026-09-10
+author: Kin Lane
+tags:
+  - Agent Skills
+  - Agents
+  - AI
+  - Governance
+  - MCP
+  - Capabilities
+  - Security
+---
+Agent skills are the newest thing I am watching closely, and they are the clearest case yet of a technology that brings real, obvious value and a fresh set of problems in the exact same package. A skill is packaged procedural knowledge — a bundle of instructions, and often some scripts and resources, that teaches an agent how to do a specific job well, portable from one context to another. After spending a lot of this year thinking about [MCP](https://modelcontextprotocol.io) as the way an agent *reaches* capabilities, skills are the way an agent *knows how to use them*, and that turns out to be a genuinely different and genuinely useful layer. It also opens a set of governance and security questions we have barely started to ask, and I would rather ask them now than after everyone has a thousand skills installed.
+
+The value is real and I do not want to undersell it. For years the frustrating gap in automation has been that the tools existed but the know-how did not travel — every team relearned how to actually accomplish a task, and that hard-won procedural knowledge lived in someone's head or in a runbook nobody read. A skill captures that. It packages the "here is how you actually do this well" into something composable and portable that an agent can pick up and apply. That is a meaningful step up from tools alone, because a tool tells the agent what is *possible* and a skill tells it what is *good* — the sequence, the judgment, the gotchas. When I think about it alongside MCP's [prompts and resources](https://apievangelist.com/2026/09/08/the-good-parts-of-mcp-prompts-and-resources/), skills are the same instinct taken further: not just the good question and the context, but the whole procedure, bundled and shareable.
+
+And then the problems arrive, right on schedule, and they are the problems of any new distributable artifact. Where did this skill come from? Who wrote it, and do you trust them? What version is it, and what changed since the last one? What does it actually do when the agent runs it — including the parts that were not in the description? A skill is executable-ish knowledge that an agent will act on, which makes provenance and trust not a nice-to-have but a security boundary. We have watched this movie with every package ecosystem that ever existed — npm, PyPI, browser extensions — and it always goes the same way: an explosion of useful shared artifacts, followed by the slow realization that "shared" and "trustworthy" are not the same word, followed by supply-chain incidents. Skills are going to walk that exact path, and the fact that an agent is the thing executing them raises the stakes, because the agent is a system that can be talked into things.
+
+So the governance questions for skills are not optional and they are not premature. Every argument I have been making all year about [governing what agents are allowed to consume](https://apievangelist.com/2026/07/24/governing-what-agents-are-allowed-to-consume/) applies to skills with extra force, because a skill is not just a capability the agent can reach — it is instruction the agent will follow. That means you need provenance, so you know where a skill came from. You need versioning, so you know what you are running and can pin it. You need review, so a skill is not a black box of instructions your agent obeys sight-unseen. And you need scoping, so a skill cannot quietly reach capabilities the task never authorized. This is the [context engineering is governance](https://apievangelist.com/2026/08/11/context-engineering-is-governance/) argument again, one level up: choosing which skills an agent has is now part of choosing what your agent will do, and that is a governance decision whether you treat it like one or not.
+
+There is a sprawl problem coming, too, and it rhymes with the MCP server sprawl I have written about. Right now skills are exciting and everyone is making them, and pretty soon any given agent could have dozens installed, overlapping, competing, some of them abandoned, some of them subtly wrong, none of them coordinated. The same [federation instinct](https://apievangelist.com/2026/08/25/the-federation-aspect-mcp-needs/) that MCP needs, skills are going to need — a way to discover the good ones, judge them, and compose them without every agent becoming a junk drawer of half-trusted procedures. Proliferation without curation is where every one of these ecosystems gets into trouble, and skills are proliferating fast.
+
+I am genuinely optimistic about skills, and I want to be clear about that, because the problems I am listing are the problems of a technology worth having. Packaged, portable procedural knowledge is a real advance, and I would rather have it with its problems than not have it at all. But the value and the problems ship together, in the same box, and the teams that do well with skills will be the ones who reach for provenance, versioning, review, and scoping on day one instead of treating them as things to add after the first incident. New value, new problems — that is the honest headline for agent skills, and the sooner we govern the new problems, the longer we get to enjoy the new value.

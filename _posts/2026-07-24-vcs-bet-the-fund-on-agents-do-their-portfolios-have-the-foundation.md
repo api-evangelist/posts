@@ -29,7 +29,7 @@ The [VCs section on APIs.io](https://apis.io/vcs/) profiles 106 venture firms an
 - Which companies in each VC's portfolio have publicly available API information on APIs.io.
 - The Kin Score™ for each company based on API portfolio quality and Agentic AI readiness.
 
-The Kin Score is made up of two axes.
+The [Kin Score](https://apis.io/rating/) is made up of two axes.
 
 **The foundational Kin Score Composite.** It rates a provider 0–100 across six facets — discoverability, contract quality, governance, operational transparency, developer ergonomics, and commercial clarity — and places it in a band from Exemplar (70+) down to Minimal. It answers the questions: How well can a machine find this API, read its contract, understand how it behaves in production, and know what it costs? Are all the answers to these machine-readable artifacts rather than needing a human to read the website?
 
