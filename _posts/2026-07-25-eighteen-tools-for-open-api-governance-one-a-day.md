@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Eighteen Tools for Open API Governance, One a Day
+title: Eighteen Tools for OpenAPI Governance, One a Day
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/eighteen-tools-for-open-api-governance-one-a-day.png
 date: 2026-07-25
 author: Kin Lane
