@@ -13,7 +13,7 @@
       symbol: monitoring
       href: https://search.apievangelist.com/analytics/
 
-    - name: Ratings
+    - name: Score
       symbol: workspace_premium
       href: https://apievangelist.com/rating/
 
@@ -106,30 +106,6 @@
 
         - name: Countries
           href: https://providers.apievangelist.com/countries/
-
-        - name: Australian Banks
-          href: https://providers.apievangelist.com/australian-banks/
-
-        - name: Fortune 1000
-          href: https://providers.apievangelist.com/fortune-1000/
-
-        - name: Federal Government
-          href: https://providers.apievangelist.com/federal-government/
-
-        - name: Exemplar
-          href: https://providers.apievangelist.com/exemplar/
-
-        - name: Strong
-          href: https://providers.apievangelist.com/strong/
-
-        - name: Developing
-          href: https://providers.apievangelist.com/developing/
-
-        - name: Thin
-          href: https://providers.apievangelist.com/thin/
-
-        - name: Minimal
-          href: https://providers.apievangelist.com/minimal/
 
     - name: APIs
       symbol: api
