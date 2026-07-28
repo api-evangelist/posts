@@ -14,7 +14,7 @@ tags:
   - Agent Readiness
   - API Governance
 ---
-Earlier this week I [profiled ZotGPT](https://apievangelist.com/2026/07/28/zotgpt-what-it-looks-like-when-a-university-owns-its-ai-infrastructure/), UC Irvine's campus-owned generative AI platform, into the API Evangelist network. It has two API generations and it publishes a machine-readable definition for neither. The Azure API Management developer portal is live and returns HTTP 200, but it gates its API definitions behind sign-in. The documented data-plane hosts do not even resolve from the public internet.
+Earlier this week I [profiled ZotGPT](https://apievangelist.com/2026/07/28/zotgpt-what-it-looks-like-when-a-university-owns-its-ai-infrastructure/), UC Irvine's campus-owned generative AI platform, into the API Evangelist network. It came to me through my intern, whose research on how universities are actually adopting AI is what surfaced the platform in the first place — and the fact that a research pass had to *find* this at all is most of the point of today's post. It has two API generations and it publishes a machine-readable definition for neither. The Azure API Management developer portal is live and returns HTTP 200, but it gates its API definitions behind sign-in. The documented data-plane hosts do not even resolve from the public internet.
 
 So I rebuilt the spec anyway. Not by guessing — by assembling it out of things UCI had already published, in nine different places, for humans. I want to walk through exactly where each piece came from, because the exercise makes an argument better than I can make it in the abstract: **withholding the OpenAPI did not withhold a single fact.** It only made the facts expensive to collect, impossible to verify, and unreadable by machines.
 
