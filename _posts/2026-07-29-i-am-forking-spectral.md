@@ -13,9 +13,9 @@ tags:
   - API Commons
   - Specifications
 ---
-On July 14th someone filed an issue on the Spectral repository titled "SUPPLY CHAIN ATTACK — @stoplight/spectral pulls in compromised dependencies." Ten days later, one other person commented on it: "Has anything been done about this? I see that a new release has been made, but did that fix this issue?" Nobody answered. The issue is still open as I write this.
+On July 14th someone filed an issue on the Spectral repository titled ["SUPPLY CHAIN ATTACK — @stoplight/spectral pulls in compromised dependencies."](https://github.com/stoplightio/spectral/issues/2999) Ten days later, one other person commented on it: "Has anything been done about this? I see that a new release has been made, but did that fix this issue?" Nobody answered. [The issue](https://github.com/stoplightio/spectral/issues/2999) is still open as I write this.
 
-I want you to sit with that for a second, because of who is downstream. There is a national government whose *mandatory* API design rules — the ones on its official standards list, the ones its agencies are required to comply with — are written as Spectral rulesets. There are enterprises running the engine behind an internal facade where their developers never even learn it is there, called millions of times a day in CI. There are small startups who wired it into their pipeline in week one and never thought about it again. All of them are downstream of an unanswered security question in a repository with 241 open issues.
+I want you to sit with that for a second, because of who is downstream. The **Dutch government's** [REST API Design Rules](https://gitdocumentatie.logius.nl/publicatie/api/adr/2.2.1/) — a mandatory standard on the Netherlands' official comply-or-explain list, the one its agencies are required to meet — are written as Spectral rulesets. Go read them; the linter is right there in the normative text. There are enterprises running the engine behind an internal facade where their developers never even learn it is there, called millions of times a day in CI. There are small startups who wired it into their pipeline in week one and never thought about it again. All of them are downstream of an unanswered security question in a repository with 241 open issues.
 
 So I am forking it. Two repositories, live now:
 
@@ -92,7 +92,7 @@ That is it. Not an endorsement. Nothing legally binding. No obligation to contri
 
 Here is why it matters. Every conversation about a permanent home — a foundation, a standards body, a nonprofit — comes down to the same question: who actually uses this? And that question has never had a public answer, because this format's users are structurally invisible. They are governments with mandated rules. They are enterprises running it behind a facade. They are the team that set it up in CI two years ago and has not thought about it since.
 
-I have spent the last month talking to some of them. One national government has already told me I can name them publicly — not as a backer of anything, just as a dependent user who wants it to keep moving. There are large enterprises with deep public investments in this format, small startups shipping products on it, and vendors who have embedded the engine so thoroughly they could swap it underneath and nobody would notice. Almost none of them are visible from the outside.
+I have spent the last month talking to some of them. The [Dutch government](https://gitdocumentatie.logius.nl/publicatie/api/adr/2.2.1/) has already told me I can name them publicly — not as a backer of anything, just as a dependent user who wants it to keep moving. There are large enterprises with deep public investments in this format, small startups shipping products on it, and vendors who have embedded the engine so thoroughly they could swap it underneath and nobody would notice. Almost none of them are visible from the outside.
 
 **A public list of organizations saying "we depend on this" is the single most useful artifact this effort can produce in its first month.** It costs you nothing. It is the difference between a fork and a standard.
 
