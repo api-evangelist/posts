@@ -49,11 +49,24 @@ sub: Discovery
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">
-          <h2 class="fs-5 mb-2">Let's work together</h2>
-          <p class="text-muted mb-3">If you are building on top of words nobody has agreed on yet, that is exactly where I like to start. I would love to talk it through.</p>
-          <p class="mb-0"><a href="mailto:info@apievangelist.com?subject=Vocabulary%20services" class="btn btn-outline-secondary btn-sm">Get in touch — info@apievangelist.com</a></p>
+          <h2 class="fs-5 mb-2">Start with the research</h2>
+          <p class="text-muted mb-3">Everything I know about the vocabulary and context an estate runs on is already written down, priced, and yours to read tonight — no call, no scoping, no proposal. Start there.</p>
+          <ul class="list-unstyled mb-3">
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/papers/fundamentals-of-api-discovery/">The Fundamentals of API Discovery</a> <span class="badge bg-dark align-middle ms-1">$25</span><br>
+              <span class="text-muted small">You can't govern, secure, or automate what you can't find.</span>
+            </li>
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/papers/fundamentals-of-context-engineering/">The Fundamentals of Context Engineering</a> <span class="badge bg-dark align-middle ms-1">$25</span><br>
+              <span class="text-muted small">The vocabulary, schema, and context an agent needs to not guess.</span>
+            </li>
+          </ul>
+          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric every report on this page is built from.</p>
+          <p class="mb-0"><a href="https://papers.apievangelist.com/" class="btn btn-dark btn-sm">Browse all research &rarr;</a></p>
         </div>
       </div>
+
+      <p class="text-muted small mt-3" style="max-width: 46rem;">If you would rather have this done with you than do it yourself, I take a small number of engagements a year — <a href="mailto:info@apievangelist.com?subject=Vocabulary">info@apievangelist.com</a>.</p>
 
     </section>
   </div>

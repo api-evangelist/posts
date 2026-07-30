@@ -48,11 +48,24 @@ sub: Evangelism
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">
-          <h2 class="fs-5 mb-2">Let's work together</h2>
-          <p class="text-muted mb-3">If you have a room that needs the right idea put in front of it, let's talk about the talk.</p>
-          <p class="mb-0"><a href="mailto:info@apievangelist.com?subject=Talks%20services" class="btn btn-outline-secondary btn-sm">Get in touch — info@apievangelist.com</a></p>
+          <h2 class="fs-5 mb-2">Start with the research</h2>
+          <p class="text-muted mb-3">Everything I know about the material the talks are drawn from is already written down, priced, and yours to read tonight — no call, no scoping, no proposal. Start there.</p>
+          <ul class="list-unstyled mb-3">
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/papers/fundamentals-of-api-evangelism/">The Fundamentals of API Evangelism</a> <span class="badge bg-dark align-middle ms-1">$25</span><br>
+              <span class="text-muted small">The technology was always the easy part.</span>
+            </li>
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/papers/fundamentals-of-api-governance/">The Fundamentals of API Governance</a> <span class="badge bg-dark align-middle ms-1">$25</span><br>
+              <span class="text-muted small">Governance is 75% people work — here's the other 25%.</span>
+            </li>
+          </ul>
+          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric every report on this page is built from.</p>
+          <p class="mb-0"><a href="https://papers.apievangelist.com/" class="btn btn-dark btn-sm">Browse all research &rarr;</a></p>
         </div>
       </div>
+
+      <p class="text-muted small mt-3" style="max-width: 46rem;">Want this produced <em>for you</em> rather than bought off the shelf? Commissioned articles, event coverage, white papers, and sponsorship across the network are on the <a href="https://ads.laneworks.net/advertise/#media-kit">media kit</a> — priced, with public traffic numbers behind every line.</p>
 
     </section>
   </div>

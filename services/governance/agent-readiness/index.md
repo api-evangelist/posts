@@ -61,11 +61,32 @@ sub: Governance
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">
-          <h2 class="fs-5 mb-2">Let's work together</h2>
-          <p class="text-muted mb-3">If you want a neutral third-party read on how agent-ready your APIs really are &mdash; and a sequenced path to raise it &mdash; that is exactly what I do. Let's talk.</p>
-          <p class="mb-0"><a href="mailto:info@apievangelist.com?subject=Agent-Readiness%20Assessment" class="btn btn-outline-secondary btn-sm">Get in touch — info@apievangelist.com</a></p>
+          <h2 class="fs-5 mb-2">Start with the research</h2>
+          <p class="text-muted mb-3">Everything I know about what agent-ready actually means and how it is measured is already written down, priced, and yours to read tonight — no call, no scoping, no proposal. Start there.</p>
+          <ul class="list-unstyled mb-3">
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/papers/the-agent-era-standards-onramp/">The Agent-Era API Standards Onramp</a> <span class="badge bg-dark align-middle ms-1">$25</span><br>
+              <span class="text-muted small">The sequenced ladder from OpenAPI to agent payments — what rung you're on.</span>
+            </li>
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/papers/explicit-agent-boundaries/">Explicit Agent Boundaries</a> <span class="badge bg-dark align-middle ms-1">$25</span><br>
+              <span class="text-muted small">What an agent may do, written down where the agent can read it.</span>
+            </li>
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/papers/agentic-readiness-of-venture/">The Agentic Readiness of Venture</a> <span class="badge bg-dark align-middle ms-1">$500</span><br>
+              <span class="text-muted small">Which venture portfolios are ready for agents that act.</span>
+            </li>
+            <li class="mb-3">
+              <a href="mailto:info@apievangelist.com?subject=Provider%20Checklist">Your Provider Checklist</a> <span class="badge bg-dark align-middle ms-1">$1,500</span><br>
+              <span class="text-muted small">Your own Kin Score and Agent Readiness against your peers, then every rubric check you are failing — what each is worth, what to do, and in what order. The only thing I write for the company it is about.</span>
+            </li>
+          </ul>
+          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric every report on this page is built from.</p>
+          <p class="mb-0"><a href="https://papers.apievangelist.com/" class="btn btn-dark btn-sm">Browse all research &rarr;</a></p>
         </div>
       </div>
+
+      <p class="text-muted small mt-3" style="max-width: 46rem;">If you would rather have this done with you than do it yourself, I take a small number of engagements a year — <a href="mailto:info@apievangelist.com?subject=Agent-Readiness%20Assessment">info@apievangelist.com</a>.</p>
 
     </section>
   </div>

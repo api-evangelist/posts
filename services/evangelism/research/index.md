@@ -48,11 +48,28 @@ sub: Evangelism
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">
-          <h2 class="fs-5 mb-2">Let's work together</h2>
-          <p class="text-muted mb-3">If there is a question about your space you keep answering with a guess, let's go find the evidence.</p>
-          <p class="mb-0"><a href="mailto:info@apievangelist.com?subject=Research%20services" class="btn btn-outline-secondary btn-sm">Get in touch — info@apievangelist.com</a></p>
+          <h2 class="fs-5 mb-2">Start with the research</h2>
+          <p class="text-muted mb-3">Everything I know about the research already published, before commissioning any is already written down, priced, and yours to read tonight — no call, no scoping, no proposal. Start there.</p>
+          <ul class="list-unstyled mb-3">
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/">Industry Report</a> <span class="badge bg-dark align-middle ms-1">$500</span><br>
+              <span class="text-muted small">Every provider in one market, scored on the same public rubric — the distribution, the leaders, the absent incumbents.</span>
+            </li>
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/">Portfolio Report</a> <span class="badge bg-dark align-middle ms-1">$750</span><br>
+              <span class="text-muted small">One fund's whole book, read through the APIs its companies actually ship.</span>
+            </li>
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/">Insights Bundle</a> <span class="badge bg-dark align-middle ms-1">$1,500</span><br>
+              <span class="text-muted small">One enterprise account read from both sides — demand from its job corpus and press, supply from the APIs it publishes.</span>
+            </li>
+          </ul>
+          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric every report on this page is built from.</p>
+          <p class="mb-0"><a href="https://papers.apievangelist.com/" class="btn btn-dark btn-sm">Browse all research &rarr;</a></p>
         </div>
       </div>
+
+      <p class="text-muted small mt-3" style="max-width: 46rem;">If you would rather have this done with you than do it yourself, I take a small number of engagements a year — <a href="mailto:info@apievangelist.com?subject=Research">info@apievangelist.com</a>.</p>
 
     </section>
   </div>

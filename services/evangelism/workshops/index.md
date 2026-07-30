@@ -48,11 +48,24 @@ sub: Evangelism
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">
-          <h2 class="fs-5 mb-2">Let's work together</h2>
-          <p class="text-muted mb-3">If you want to level up a whole team hands-on, let's design a workshop around your real work.</p>
-          <p class="mb-0"><a href="mailto:info@apievangelist.com?subject=Workshops%20services" class="btn btn-outline-secondary btn-sm">Get in touch — info@apievangelist.com</a></p>
+          <h2 class="fs-5 mb-2">Start with the research</h2>
+          <p class="text-muted mb-3">Everything I know about the method a workshop walks through is already written down, priced, and yours to read tonight — no call, no scoping, no proposal. Start there.</p>
+          <ul class="list-unstyled mb-3">
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/papers/fundamentals-of-api-evangelism/">The Fundamentals of API Evangelism</a> <span class="badge bg-dark align-middle ms-1">$25</span><br>
+              <span class="text-muted small">The technology was always the easy part.</span>
+            </li>
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/papers/fundamentals-of-the-api-lifecycle/">The Fundamentals of the API Lifecycle</a> <span class="badge bg-dark align-middle ms-1">$25</span><br>
+              <span class="text-muted small">Every stage, what it owes the next one, and where teams skip.</span>
+            </li>
+          </ul>
+          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric every report on this page is built from.</p>
+          <p class="mb-0"><a href="https://papers.apievangelist.com/" class="btn btn-dark btn-sm">Browse all research &rarr;</a></p>
         </div>
       </div>
+
+      <p class="text-muted small mt-3" style="max-width: 46rem;">Workshops are mostly run with partners rather than by me alone — tell me what you need and I will point you at the right person, or run it with them. <a href="mailto:info@apievangelist.com?subject=Workshops">info@apievangelist.com</a>.</p>
 
     </section>
   </div>

@@ -48,11 +48,24 @@ sub: Discovery
       <!-- CTA -->
       <div class="card border-0 shadow-sm mt-4" style="max-width: 46rem;">
         <div class="card-body">
-          <h2 class="fs-5 mb-2">Let's work together</h2>
-          <p class="text-muted mb-3">If your team keeps rebuilding the same integrations by hand, let's describe them once as Arazzo workflows instead.</p>
-          <p class="mb-0"><a href="mailto:info@apievangelist.com?subject=Integrations%20services" class="btn btn-outline-secondary btn-sm">Get in touch — info@apievangelist.com</a></p>
+          <h2 class="fs-5 mb-2">Start with the research</h2>
+          <p class="text-muted mb-3">Everything I know about turning an integrations page into forkable workflows is already written down, priced, and yours to read tonight — no call, no scoping, no proposal. Start there.</p>
+          <ul class="list-unstyled mb-3">
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/papers/arazzo-api-integration-page/">Delivering a Modern API Integration Page with Arazzo</a> <span class="badge bg-dark align-middle ms-1">$25</span><br>
+              <span class="text-muted small">Turn a marketing integrations page into workflows people can fork.</span>
+            </li>
+            <li class="mb-3">
+              <a href="https://papers.apievangelist.com/papers/fundamentals-of-api-discovery/">The Fundamentals of API Discovery</a> <span class="badge bg-dark align-middle ms-1">$25</span><br>
+              <span class="text-muted small">You can't govern, secure, or automate what you can't find.</span>
+            </li>
+          </ul>
+          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric every report on this page is built from.</p>
+          <p class="mb-0"><a href="https://papers.apievangelist.com/" class="btn btn-dark btn-sm">Browse all research &rarr;</a></p>
         </div>
       </div>
+
+      <p class="text-muted small mt-3" style="max-width: 46rem;">If you would rather have this done with you than do it yourself, I take a small number of engagements a year — <a href="mailto:info@apievangelist.com?subject=Integrations">info@apievangelist.com</a>.</p>
 
     </section>
   </div>
