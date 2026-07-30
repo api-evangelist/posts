@@ -26,7 +26,7 @@ I have been writing about this for three years and asking nicely for eighteen mo
 
 ## The rules have to stand on their own
 
-This is the part I care about most, and it is the least dramatic thing in this post.
+This is the part I care about most, and it is the least dramatic thing in this post. ;-) ;-)
 
 Spectral is two things fused into one artifact: a **specification** for how you express a governance rule, and a **tool** that evaluates it. They have never been separated. The rules format lives inside the linter's source tree, described by five internal draft-07 meta-schemas coupled to that linter's runtime, versioned with the tool rather than on its own.
 
