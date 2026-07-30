@@ -19,8 +19,8 @@ I want you to sit with that for a second, because of who is downstream. The **Du
 
 So I am forking it. Two repositories, live now:
 
-- **[api-commons/spectral-rules](https://github.com/api-commons/spectral-rules)** — the ruleset and rules format as a standalone specification with a portable JSON Schema.
-- **[api-commons/spectral-cli](https://github.com/api-commons/spectral-cli)** — a maintained build of the linter at v6.16.2, full history preserved, telemetry stripped, and issues open.
+- **[api-commons/spotlight-spec](https://github.com/api-commons/spotlight-spec)** — the ruleset and rules format as a standalone specification with a portable JSON Schema.
+- **[api-commons/spotlight-tools](https://github.com/api-commons/spotlight-tools)** — a maintained build of the linter at v6.16.2, full history preserved, telemetry stripped, and issues open.
 
 I have been writing about this for three years and asking nicely for eighteen months. [In January of 2025 I asked SmartBear publicly to donate Spectral to the OpenAPI Initiative](https://apievangelist.com/2025/01/31/please-put-spectral-into-the-openapi-initiative-smartbear/), alongside OpenAPI, Arazzo, and Overlays. I got no response. That invitation still stands and I would genuinely rather they took it than that I do this. But I am not waiting anymore.
 
@@ -34,9 +34,9 @@ Which means: when the tool stops moving, the format stops moving with it. There 
 
 And your rules are the *durable* thing. Not the linter. Your API style guide, your security baseline, your design standards — those outlive the CLI, they outlive the vendor, they usually outlive the APIs they govern. I have watched organizations spend a year negotiating what "good" means across their teams, encode it into a ruleset, and then discover that this hard-won institutional knowledge is technically a config file for a piece of software nobody is maintaining.
 
-So `spectral-rules` treats the ruleset as a first-class artifact in its own right — independently versioned, with a portable JSON Schema, so rules can be authored, validated, published, exchanged, and consumed by *any* tool. Not just by the linter that happens to run them.
+So `spotlight-spec` treats the ruleset as a first-class artifact in its own right — independently versioned, with a portable JSON Schema, so rules can be authored, validated, published, exchanged, and consumed by *any* tool. Not just by the linter that happens to run them.
 
-Concretely, that meant collapsing those five draft-07 meta-schemas into [**one self-contained JSON Schema draft 2020-12 document**](https://github.com/api-commons/spectral-rules/blob/main/schema/v1/spectral-ruleset.schema.json) — the current draft, not the decade-old one — with the linter's runtime hooks and validator-specific error-message extensions stripped out, and a stable `$id` you can `$ref` from anywhere. It validates in any 2020-12 validator, `npx ajv-cli validate --spec=draft2020` included, which is the whole difference between a format you can describe and a format you have to reverse-engineer from someone's `node_modules`.
+Concretely, that meant collapsing those five draft-07 meta-schemas into [**one self-contained JSON Schema draft 2020-12 document**](https://github.com/api-commons/spotlight-spec/blob/main/schema/v1/spectral-ruleset.schema.json) — the current draft, not the decade-old one — with the linter's runtime hooks and validator-specific error-message extensions stripped out, and a stable `$id` you can `$ref` from anywhere. It validates in any 2020-12 validator, `npx ajv-cli validate --spec=draft2020` included, which is the whole difference between a format you can describe and a format you have to reverse-engineer from someone's `node_modules`.
 
 ## Why now
 
@@ -80,7 +80,7 @@ The real problem between engines is that **compatibility claims cannot be adjudi
 
 **Not using a GitHub fork.** This is a copy with full commit history, not a fork, for a boring reason: GitHub forks cannot have their own Issues. People need somewhere to report a problem and be answered, and that is the entire point. I keep [an upstream-tracking fork](https://github.com/api-commons/spectral) separately so the lineage stays visible and I can pull changes in cleanly.
 
-**Not being precious about the name.** Both repos keep the upstream name for now so the lineage is obvious. It will not stay that way — trademark alone makes a rename likely — and the right name is a community question, not mine. If you have watched the Swagger/OpenAPI confusion play out over ten years, you know how much a name matters.
+**Being opinionated about the name, immediately.** The repositories are `spotlight-spec` and `spotlight-tools`. I had originally planned to keep the upstream name for a while so the lineage stayed obvious, and I changed my mind within a day of writing this. Carrying somebody else's name while asking people to adopt new packages, a new issue tracker, and a new schema identity is how you create a mess that gets expensive to undo. Trademark makes a rename inevitable anyway, and a rename *after* adoption breaks far more than a rename before it. So it happened now, when the cost is a few links, instead of in six months when the cost is everybody's CI. If you have watched the Swagger/OpenAPI confusion play out over ten years, you know how much a name matters.
 
 **Not claiming a home.** API Commons is where this lives now, and maybe permanently. The OpenAPI Initiative is a candidate, though its charter explicitly bars tooling — a clause SmartBear and MuleSoft helped put there years ago to protect their tooling investments, and the same clause that pushed AsyncAPI and JSON Schema out. That is awkward when the whole point is keeping the spec and the tool aligned. The Linux Foundation is a candidate. A European home is a candidate — a surprising amount of the most advanced adoption is in European public-sector programs, and several of those countries are having the same conversation right now.
 
@@ -100,8 +100,8 @@ And if you have a pull request rotting in the upstream queue — bring it here. 
 
 ## Where things go
 
-- **Problems with the CLI or engine** → [spectral-cli issues](https://github.com/api-commons/spectral-cli/issues)
-- **Problems with the ruleset format or spec** → [spectral-rules issues](https://github.com/api-commons/spectral-rules/issues)
+- **Problems with the CLI or engine** → [spotlight-tools issues](https://github.com/api-commons/spotlight-tools/issues)
+- **Problems with the ruleset format or spec** → [spotlight-spec issues](https://github.com/api-commons/spotlight-spec/issues)
 - **Direction, governance, naming, where this should live** → [the discussion](https://github.com/orgs/api-commons/discussions/28)
 
 Everything is at [spotlight-rules.com](https://spotlight-rules.com), including [all the research](https://spotlight-rules.com/research/) behind every number in this post. I scrubbed the company and individual names out of the research pages deliberately — publishing a ruleset makes you a dependent user, not a supporter of my fork, and nobody gets volunteered into a public position they did not take. Identify yourselves if and when you want to.

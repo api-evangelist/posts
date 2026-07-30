@@ -17,8 +17,8 @@ Yesterday I announced that [I am forking Spectral](https://apievangelist.com/202
 
 I have written up the whole development strategy — branching, releases, package management, README, and communication — as two issues, one on each repository. They are the first issues either repository has ever had:
 
-- **[spectral-cli#1](https://github.com/api-commons/spectral-cli/issues/1)** — branching, releases, package management, and how you switch.
-- **[spectral-rules#1](https://github.com/api-commons/spectral-rules/issues/1)** — schema identity, spec versioning, the conformance suite, and how implementers get told things.
+- **[spotlight-tools#1](https://github.com/api-commons/spotlight-tools/issues/1)** — branching, releases, package management, and how you switch.
+- **[spotlight-spec#1](https://github.com/api-commons/spotlight-spec/issues/1)** — schema identity, spec versioning, the conformance suite, and how implementers get told things.
 
 Neither is implemented. That is on purpose. I would rather be corrected before I write the release automation than after I have asked people to depend on it.
 
@@ -64,7 +64,7 @@ A CLI has users. They need install instructions, a release cadence, and a rollba
 
 What you owe a citer is not features. It is a stable identity that never moves, a versioning policy that never invalidates a document that used to validate, and an honest answer about governance. Good intentions do not survive a change of maintainer. A written stability policy does.
 
-Which is also why the [conformance suite](https://github.com/api-commons/spectral-rules/issues/1) belongs with the specification rather than with the linter. A test suite that lives inside an implementation measures that implementation. A suite that lives with the format defines the format — and it makes compatibility claims falsifiable by anyone, including claims I make about my own CLI. That is a gift to [vacuum](https://github.com/daveshanley/vacuum) and to whoever implements this next, not a weapon against them. If it makes my own tool look bad in public, it is working.
+Which is also why the [conformance suite](https://github.com/api-commons/spotlight-spec/issues/1) belongs with the specification rather than with the linter. A test suite that lives inside an implementation measures that implementation. A suite that lives with the format defines the format — and it makes compatibility claims falsifiable by anyone, including claims I make about my own CLI. That is a gift to [vacuum](https://github.com/daveshanley/vacuum) and to whoever implements this next, not a weapon against them. If it makes my own tool look bad in public, it is working.
 
 ## Over-communicating on purpose
 
