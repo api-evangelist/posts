@@ -1,0 +1,18 @@
+{
+  "provider": "posts",
+  "sources": [
+    "openapi.yml"
+  ],
+  "outputs": [
+    "posts-contracts-api-openapi.yml"
+  ],
+  "archived": [
+    "archived openapi.yml"
+  ],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "discovered stray spec: openapi.yml"
+  ],
+  "skipped": []
+}

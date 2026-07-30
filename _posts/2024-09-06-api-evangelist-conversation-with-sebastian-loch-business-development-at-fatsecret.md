@@ -3,17 +3,17 @@ published: true
 layout: post
 title: >-
   API Evangelist Conversation with Sebastian Loch, Business Development at
-  FatSecret
+  fatsecret
 tags:
   - Sebastian Loch
   - Conversations
-  - FatSecret
+  - fatsecret
   - Nutrition
   - Global
   - Artificial Intelligence
 image: https://i.ytimg.com/vi/5fgbN1ELR-Y/hqdefault.jpg
 ---
-I was joined by [Sebastian Loch](https://www.linkedin.com/in/sloch/), Business Development at [FatSecret](https://www.fatsecret.com/) for a conversation about how they have managed their nutrition data API since 2007. I connected with Sebastian as part of my profiling their API for APis.io, and after we talked a bit, he caught my attention by mentioning how much work goes into not just operating a highly curated global database of nutrition data when every AI out there wants to gobble it up, but also how much work has gone into developing their artificial intelligence over the years. I will let you listen to our conversation, and hear Sebastian’s story for yourself.
+I was joined by [Sebastian Loch](https://www.linkedin.com/in/sloch/), Business Development at [fatsecret](https://www.fatsecret.com/) for a conversation about how they have managed their nutrition data API since 2007. I connected with Sebastian as part of my profiling their API for APis.io, and after we talked a bit, he caught my attention by mentioning how much work goes into not just operating a highly curated global database of nutrition data when every AI out there wants to gobble it up, but also how much work has gone into developing their artificial intelligence over the years. I will let you listen to our conversation, and hear Sebastian’s story for yourself.
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/5fgbN1ELR-Y?si=UeOHSrbMDkHjgtZ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 
