@@ -38,8 +38,6 @@ So `spectral-rules` treats the ruleset as a first-class artifact in its own righ
 
 Concretely, that meant collapsing those five draft-07 meta-schemas into [**one self-contained JSON Schema draft 2020-12 document**](https://github.com/api-commons/spectral-rules/blob/main/schema/v1/spectral-ruleset.schema.json) — the current draft, not the decade-old one — with the linter's runtime hooks and validator-specific error-message extensions stripped out, and a stable `$id` you can `$ref` from anywhere. It validates in any 2020-12 validator, `npx ajv-cli validate --spec=draft2020` included, which is the whole difference between a format you can describe and a format you have to reverse-engineer from someone's `node_modules`.
 
-Everything else in this post is logistics. That is the actual point.
-
 ## Why now
 
 I did not want to do this on a hunch, so I went and pulled the numbers off the GitHub API. [All of it is published](https://spotlight-rules.com/research/), and you can re-run it yourself.
