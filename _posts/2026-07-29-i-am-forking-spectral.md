@@ -36,6 +36,8 @@ And your rules are the *durable* thing. Not the linter. Your API style guide, yo
 
 So `spectral-rules` treats the ruleset as a first-class artifact in its own right — independently versioned, with a portable JSON Schema, so rules can be authored, validated, published, exchanged, and consumed by *any* tool. Not just by the linter that happens to run them.
 
+Concretely, that meant collapsing those five draft-07 meta-schemas into [**one self-contained JSON Schema draft 2020-12 document**](https://github.com/api-commons/spectral-rules/blob/main/schema/v1/spectral-ruleset.schema.json) — the current draft, not the decade-old one — with the linter's runtime hooks and validator-specific error-message extensions stripped out, and a stable `$id` you can `$ref` from anywhere. It validates in any 2020-12 validator, `npx ajv-cli validate --spec=draft2020` included, which is the whole difference between a format you can describe and a format you have to reverse-engineer from someone's `node_modules`.
+
 Everything else in this post is logistics. That is the actual point.
 
 ## Why now
@@ -109,5 +111,3 @@ Everything is at [spotlight-rules.com](https://spotlight-rules.com), including [
 I have twelve governance tools already built on this format — a validator, a ruleset registry, a CI pipeline, baselines, scorecards, coverage, waivers, certification, federation. Every one of them had to answer the same question, "what exactly is a valid ruleset?", and the only available answer was "whatever the linter accepts today, discovered by reading its source." That is a workable answer for one tool. It is not a workable answer for an ecosystem.
 
 Spectral was built by Stoplight and its contributors over many years, and grew out of Speccy before that. It is genuinely good software and it deserves better than this. The Apache-2.0 license and the full commit history carry forward untouched, and if SmartBear wants to make all of this unnecessary by donating it to the OpenAPI Initiative, the offer from January 2025 still stands.
-
-But the rules have to stand on their own. That is not a fork of a linter. That is just how a standard is supposed to work.
