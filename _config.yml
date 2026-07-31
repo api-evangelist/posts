@@ -28,7 +28,12 @@ authors:
       email:       'kinlane@gmail.com'
       affiliation: 'API Evangelist'
       github:      'kinlane'
-      linkedin:    'in/kinlane'       
+      linkedin:    'in/kinlane'
+    emily:
+      name:         Emily Barton
+      title:        Researcher, AI in Higher Education
+      affiliation: 'API Evangelist'
+      linkedin:    'in/emily-i-barton'
 
 social:
     email:
