@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: A Format Can Sink Below The Waterline
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/a-format-can-sink-below-the-waterline.png
 date: 2026-08-19
 author: Kin Lane
 tags:

@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: The Tool Is One Implementation Among Many
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-tool-is-one-implementation-among-many.png
 date: 2026-08-05
 author: Kin Lane
 tags:

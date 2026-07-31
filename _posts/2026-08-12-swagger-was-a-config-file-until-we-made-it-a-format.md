@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: Swagger Was A Config File Until We Made It A Format
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/swagger-was-a-config-file-until-we-made-it-a-format.png
 date: 2026-08-12
 author: Kin Lane
 tags:

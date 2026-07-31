@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: Every Specification Is A Land Grab
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/every-specification-is-a-land-grab.png
 date: 2026-09-02
 author: Kin Lane
 tags:

@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: What Is Commercial Open Source, Really?
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/what-is-commercial-open-source-really.png
 date: 2026-08-26
 author: Kin Lane
 tags:
