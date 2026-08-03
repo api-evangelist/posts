@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: My Current Stance on How I Use Artificial Intelligence
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/my-current-stance-on-how-i-use-artificial-intelligence.png
 date: 2026-08-03
 author: Kin Lane
 tags:
