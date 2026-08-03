@@ -1,0 +1,106 @@
+---
+layout: default
+section: About API Evangelist
+title: Where This Data Comes From
+summary: How API Evangelist and APIs.io source, publish, and remove company and API information — and how to reach a human about a listing.
+nav: About
+sub: Where This Data Comes From
+---
+
+<div class="row gx-xl-9">
+
+    <div class="col-12 col-xxl-4 order-xxl-1">
+
+        <div class="position-sticky mb-8" style="top: 2rem">
+
+            {% include services-api-evangelist.html %}
+            <br>
+            {% include services-partner.html %}
+            <br>
+            {% include feature-boxes.html %}
+
+        </div>
+    </div>
+
+    <div class="col-12 col-xxl-8 order-xxl-0">
+
+    <section>
+      <div class="row">
+        <div class="col">
+
+          <h1 class="fs-3 mb-4" id="rule-name-header">{{ page.title }}</h1>
+
+          <div class="alert alert-primary" role="note" style="border-left:4px solid #1c5f90;">
+            <p class="mb-2"><strong>The short version.</strong> Every company profile, API listing, and rating published by API Evangelist and APIs.io is built from <strong>publicly available information</strong> — material the company itself published on the open web, plus the specifications it distributes for public use.</p>
+            <p class="mb-0">Nothing here is obtained by breaching a system, defeating an access control, or using credentials. If a listing concerns you, <a href="mailto:info@apievangelist.com">email info@apievangelist.com</a> and a human will answer.</p>
+          </div>
+
+          <h2 class="fs-5 mt-5" id="who">Who publishes this</h2>
+          <p>API Evangelist is an independent API surveying and assessment practice, operated by Kin Lane. APIs.io is its public discovery catalog. Neither is affiliated with, endorsed by, or a partner of the companies profiled, unless a partnership is stated explicitly on the page. <strong>We do not operate, host, resell, or support any of the APIs we profile.</strong></p>
+
+          <h2 class="fs-5 mt-5" id="sources">What we collect, and from where</h2>
+          <p>Profiles are assembled from sources a member of the public can reach with a browser and no credentials:</p>
+          <ul>
+            <li>The company's own public website, developer portal, and documentation.</li>
+            <li>Machine-readable specifications the company publishes for public consumption — OpenAPI, AsyncAPI, JSON Schema, Postman collections, <code>apis.json</code>, <code>llms.txt</code>, and similar.</li>
+            <li>Public code repositories and package registries the company maintains.</li>
+            <li>Public status pages, changelogs, pricing pages, blogs, and press material.</li>
+            <li>Public registry and standards-body membership records.</li>
+          </ul>
+          <p>Collection is automated. Crawlers identify themselves, respect <code>robots.txt</code>, and fetch at a deliberately low rate. Analysis and scoring are performed by software; editorial review and every reply you receive are performed by a person.</p>
+
+          <h2 class="fs-5 mt-5" id="not-collected">What we never collect</h2>
+          <ul>
+            <li>Anything behind a login, paywall, licence gate, or access control.</li>
+            <li>Anything requiring an API key, token, or credential — including our own accounts with a provider.</li>
+            <li>Customer data, traffic, personal data, or internal documents.</li>
+            <li>Anything obtained by circumventing a technical restriction, or from a breach or leak.</li>
+          </ul>
+
+          <h2 class="fs-5 mt-5" id="public-surface">"But we never made that public"</h2>
+          <p>This is the most common question a security team asks, and it is a fair one. An API can be publicly reachable without anyone having decided to publish it. Interfaces behind a mobile app, a single-page web app, or an embedded widget are served over the public internet, and their endpoints are visible to anyone who inspects ordinary network traffic from the application. A specification file left in a public repository or on a public host is readable by anyone who requests it, indexed or not.</p>
+          <p>API Evangelist indexes what is reachable this way because <strong>your customers' security teams, your competitors, and automated crawlers are already seeing it.</strong> Publishing what is discoverable is intended to close that gap, not widen it. If a listing has surfaced something your organization did not intend to expose, that is worth knowing, and we will help.</p>
+
+          <h2 class="fs-5 mt-5" id="ratings">About the ratings</h2>
+          <p>The <strong>Kin Score</strong> and <strong>Agent Readiness</strong> ratings are independently calculated assessments of the public API surface of an organization, produced by API Evangelist against a published rubric. They are not certifications, endorsements, security assessments, or audits, and they carry no contractual weight. They score the artifacts an organization publishes — not the quality, safety, or security of its software.</p>
+          <p>A rating reflects what was publicly available when it was calculated. Publish more, and the rating changes. Any organization may submit a correction or request a re-score at no charge.</p>
+
+          <h2 class="fs-5 mt-5" id="removal">Corrections, re-scores, and removal</h2>
+          <p>Every one of these is free, and none requires a partnership, a contract, or a purchase.</p>
+          <ul>
+            <li><strong>Correct a fact</strong> — tell us what is wrong and we will fix it.</li>
+            <li><strong>Re-score</strong> — if you have published new artifacts, ask and we will re-run the rating.</li>
+            <li><strong>Restrict a listing</strong> — we reduce the page to your company name, a factual description, and a link to your own site. Listings, specifications, artifacts, developer-surface links, and the rating are deleted, and the company is recorded as <strong>unrated</strong>. It is never scored zero for having asked.</li>
+          </ul>
+          <p>Requests are honored on request. We do not require a legal demand, and we do not ask you to justify the request.</p>
+
+          <h2 class="fs-5 mt-5" id="sla">How fast we respond</h2>
+          <p>API Evangelist is a one-person practice. Inbound requests across email, GitHub issues, and social channels are swept and triaged daily.</p>
+          <ul>
+            <li><strong>Acknowledgement — within one business day.</strong></li>
+            <li><strong>Removal or restriction of a listing — within two business days</strong> of the request, with confirmation once it is done.</li>
+            <li><strong>Corrections and re-scores — within five business days.</strong></li>
+          </ul>
+          <p>Cached and third-party copies (search engines, AI crawlers, archives) are outside our control and may persist after we have removed a page.</p>
+
+          <h2 class="fs-5 mt-5" id="security">If you are on a security or compliance team</h2>
+          <p>You are welcome to contact us directly, and you will get a person rather than a form. We will tell you exactly which URLs a profile was built from, so your team can see the same public surface we did, and we will remove the listing on request while you work through it.</p>
+          <p>If what you have found is an exposure you did not know about, we are glad to help you understand the public footprint — and where it goes beyond what we do, we can refer you to independent API security specialists. Referrals may be commercial relationships, and we will say so at the time.</p>
+          <p><strong>Contact:</strong> <a href="mailto:info@apievangelist.com">info@apievangelist.com</a> — put <em>listing</em>, <em>removal</em>, or <em>security</em> in the subject line and it is routed to the top of the queue.</p>
+
+          <h2 class="fs-5 mt-5" id="fair-use">Names, marks, and copyright</h2>
+          <p>Company names, product names, and logos are the property of their respective owners and are used here for identification in the course of independent commentary, research, and comparison. Descriptions are factual summaries. Specifications are linked or reproduced only where the publisher has released them for public use, and are attributed to the publisher.</p>
+
+          <ul class="mt-5">
+            <li><a href="/about/api-evangelist">About API Evangelist</a></li>
+            <li><a href="/about/kin-lane">About Kin Lane</a></li>
+            <li><a href="/about/artificial-intelligence">How AI is applied across API Evangelist</a></li>
+            <li><a href="/about/surveying-assessment">About API surveying and assessment</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
