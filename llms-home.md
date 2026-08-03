@@ -39,4 +39,5 @@ By default this site allows AI training, search, and AI input. See [robots.txt](
 
 - **Kin Lane** — <https://apievangelist.com/about/kin-lane>
 - **About API Evangelist** — <https://apievangelist.com/about/api-evangelist>
+- **Use of AI** — <https://apievangelist.com/about/artificial-intelligence>
 - **Contact** — <https://apievangelist.com/contact>
