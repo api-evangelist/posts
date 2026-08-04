@@ -38,3 +38,13 @@ Where the scope conversation gets even more powerful is when you begin to employ
 This is not an easy conversation. It is very difficult to get lost in the semantics, perspective, and incentives for why we test our APIs. It is one that not everyone will be able to have because of the scope of where they work in the API delivery supply chain. Which for me, demonstrates why we should be providing these folks with contracts, standardizing the testing they do and leave them only delivering on the last mile of assertions that need to be made. Contract testing will only get you so far, but it will get you a lot further down the road than functional testing. The nuance here is really in the detail of what API functionality is at an API, business, or industry level. Most people I encounter who push back on the notion of contract testing are only operating at the API level, or in a very narrow view of business. 
 
 This conversation gets even more complicated once I start diving into the differences between testing the API interface and the contract itself with Spectral rules. Which feed into each other. Meaning if you have multiple status codes in your OpenAPI and are linting for that, your contract testing will be more robust when it comes to knowing the surface area of your contract. I have several smaller stories to publish on this topic to help me see things straight at this intersection. There is so much ambiguity and obfuscation at this intersection of our API operations, and there are several competing scopes and incentives. I am just trying to work my way through things so that I can make sense of what is happening and get more opinionated without getting lost in semantics. Stay tuned for lots of interesting discussions on this subject here as I work through things, but also at Postman as we formalize different views of what is happening.
+
+<!-- paper-link -->
+
+---
+
+**Going deeper: [The JSON Schema Standard](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)**
+
+9,439,146 schema objects measured inside published API contracts — and an industry still writing with the vocabulary it had in 2013.
+
+[Read the paper — $500](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)

@@ -23,3 +23,13 @@ That last group is the part nobody wants to hear. After hundreds of enterprise c
 There is also a structural reason governance fails that has nothing to do with rules. An API is a moving target across three dimensions at once — its location (where is the canonical spec?), its version (which one are we governing?), and its stakeholders (who is product, engineering, and platform for this contract?). Miss any of those and your rules are linting a phantom. Most people who tell me governance doesn't work are really telling me they were linting moving targets.
 
 Over the next couple of weeks I'm going to walk each of these fundamentals one at a time — landscape mapping, OpenAPI, JSON Schema, policies, Spectral, the pipeline, the reviews, and the people. None of it is new, and that is the point. This is the status quo, the durable stuff underneath whatever tool gets hyped this quarter. I've also pulled all of it together into a single paper, The Fundamentals of API Governance, for anyone who wants the whole thing in one place. But let's start where every real governance program has to start — by mapping what you actually have.
+
+<!-- paper-link -->
+
+---
+
+**Going deeper: [The Fundamentals of API Governance](https://papers.apievangelist.com/papers/fundamentals-of-api-governance/?ae_ref=apievangelist.com&ae_pos=post-footer)**
+
+The status-quo stack for governing APIs, from someone who stood one up at scale.
+
+[Read the paper](https://papers.apievangelist.com/papers/fundamentals-of-api-governance/?ae_ref=apievangelist.com&ae_pos=post-footer)

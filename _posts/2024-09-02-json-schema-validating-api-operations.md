@@ -17,3 +17,13 @@ Most people do not understand JSON Schema. Most people use JSON Schema, from for
 The API Commons is now dedicated to being where you go to find the common properties of API contracts, providing the business and technical building blocks you need to define your API operations. APIs.json and all the common and community properties available in the API Commons are all defined and validated using JSON Schema. APIs.json employs less opinionated array-based common and API property structure, each with a type describing the property, so that the API contract structure can be flexible enough to describe any property of our API operations, but also independently validate properties using JSON Schema when possible. APIs.json API contracts can be used to define the internal, 1st-party, and 3rd-party APIs you produce or consume, with JSON Schema validating the overall contract, but also the individual OpenAPI, plans, SDKs, security, and other properties you need to define and govern your API operations. This is how JSON Schema can be used to define and validate your API operations.
 
 I will keep evangelizing the importance of JSON Schema. I will keep forcing it on my clients when it comes to API contract management. I will keep investing in more guidance regarding how it can be used by product people as well as engineers. I actually think a YAMLized version with the right YAML management system (YMS) has huge potential for business stakeholders, but we have to get them more confident with stepping onto this bridge. I am confident that YAML + Git, with the right supporting services and tools, is the future of business alignment across the API lifecycle. YAML is the configuration and control business stakeholders are looking for when it comes to optimizing how they provide digital resources and capabilities in the internal, 1st-party, and 3rd-party desktop, web, mobile, and artificial intelligence applications they develop and maintain. I see YAML + Git like you ops people see Kubernetes, but instead of configuring, optimizing, and scaling infrastructure, I am looking to give business stakeholders the ability to configure, optimize, and scale the enterprise digital API supply chain, distribution channel, and factory floor.
+
+<!-- paper-link -->
+
+---
+
+**Going deeper: [The JSON Schema Standard](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)**
+
+9,439,146 schema objects measured inside published API contracts — and an industry still writing with the vocabulary it had in 2013.
+
+[Read the paper — $500](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)

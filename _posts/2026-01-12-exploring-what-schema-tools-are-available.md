@@ -37,3 +37,13 @@ My Naftiko team [asked me for more information on what schema tools are availabl
 I think the coverage from web tools to CLI to CI/CD pipelines to VSCode is an import series of dimensions to highlight, especially when it comes to how the Naftiko Fabric is looking to build on top of what already exists out there. I purposefully show VSCode intellisense and validation, which I will look at from the perspecive of other IDEs out there. I include AJV in there because it is so ubiqutious, but I personally prefer using Hyperjump when I can.
 
 This list is intentionally curated and not exhaustive. It reflects what I am using, and provide a nice cross section of the schema landscape. I stopped short of how JSON Schema is applied to other standards, as well as how new schema specifications like JSON Structure--which I will dive into next. The goal here was to provide a nice slice of the schema tooling available for viewing, exploring, editing, discovering, validating, and governing, which reflects the primary goals of what we are doing with schema and JSON schema on any given day.
+
+<!-- paper-link -->
+
+---
+
+**Going deeper: [The JSON Schema Standard](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)**
+
+9,439,146 schema objects measured inside published API contracts — and an industry still writing with the vocabulary it had in 2013.
+
+[Read the paper — $500](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)

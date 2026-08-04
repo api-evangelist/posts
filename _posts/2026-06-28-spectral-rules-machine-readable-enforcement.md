@@ -21,3 +21,13 @@ The third detail is severity, and I want you to treat it as a policy tool rather
 The detail almost every ruleset misses entirely is that the rules themselves have a lifecycle. A ruleset is not a stone tablet you carve once and enforce forever. You version and rate your rules based on their maturity, how many APIs they actually apply to, the evidence from real reviews that they matter, and what your stakeholders think of them. A rule that started life as a hint because you weren't sure it was right earns its promotion to error when the reviews keep proving it matters. The ruleset is a living artifact that should get stronger as your evidence accumulates, exactly the way your understanding of your own portfolio gets stronger over time.
 
 So yes, write the Spectral rules, run them, lean on them. But remember what they are. They are the machine-readable crystallization of everything above them — your mapped landscape, your governed schema, your written policies. A Spectral repo with no policies above it and no documentation URLs in it is a machine yelling error codes at people who have no idea why. A Spectral ruleset wired back to its policies, tuned by severity, and matured over time is the enforcement engine of a real governance program. Same tool, completely different outcome, and the difference is everything in [this series](https://apievangelist.com/2026/06/23/the-fundamentals-of-api-governance/) that comes before it.
+
+<!-- paper-link -->
+
+---
+
+**Going deeper: [The JSON Schema Standard](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)**
+
+9,439,146 schema objects measured inside published API contracts — and an industry still writing with the vocabulary it had in 2013.
+
+[Read the paper — $500](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)

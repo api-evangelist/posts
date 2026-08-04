@@ -24,3 +24,13 @@ That is the line that matters for anyone making a long-term bet. `generateConten
 So I did what I do with everything worth tracking—I added it to [the Gemini provider in my catalog](https://apis.io/providers/google-gemini/) and pushed the artifacts through to [APIs.io](https://apis.io). It now sits alongside the other fourteen Gemini APIs with its documentation, API reference, authentication, getting-started, and migration guide all indexed, so you can see it next to `generateContent`, the Live API, and the rest of the surface area Google is shipping. Seeing them side by side is the whole point, because the story here is not one new API—it is a provider redrawing its front door and deciding which door the next generation of capabilities walks through.
 
 I am genuinely glad to see an API designed from the ground up for agents instead of bolted onto a chat-completion endpoint, and the typed-step schema and observable execution steps are the kind of thing I have been asking providers for. I am also going to keep watching the state-retention defaults, the pricing tiers, and how much of your workflow ends up living on Google's side versus yours. A unified endpoint is a convenience and a commitment at the same time. Worth adopting with eyes open, and worth tracking right alongside every other provider making the same move this year.
+
+<!-- paper-link -->
+
+---
+
+**Going deeper: [The State of Artificial Intelligence APIs](https://papers.apievangelist.com/papers/state-of-artificial-intelligence-apis/?ae_ref=apievangelist.com&ae_pos=post-footer)**
+
+4,904 AI companies scored — the industry selling agents produces a machine-readability distribution indistinguishable from the average of every other industry in the catalog.
+
+[Read the paper — $500](https://papers.apievangelist.com/papers/state-of-artificial-intelligence-apis/?ae_ref=apievangelist.com&ae_pos=post-footer)

@@ -22,3 +22,13 @@ My API governance sandboxes already use Microcks to deliver the REST API mock, b
 You’d then be able to import new artifacts and run tests. When you think about it that way, it’s not just about mocking and testing. Microcks has a really powerful specification engine supporting OpenAPI, AsyncAPI, Postman Collections, and much more. It has rich examples, and exposing that engine via an MCP that can be registered anywhere opens up a lot of possibilities.
 
 Microcks allows you to inject mocks, testing, and the artifacts behind them directly into the software development life cycle. There’s already an issue set up in the Microcks GitHub repository—[issue #1935](https://github.com/microcks/microcks/issues/1935#issuecomment-3806602196)—for an MCP server for Microcks. Definitely head over and share your thoughts. I’ll be doing the same as part of this storytelling to support Naftiko API sandboxes.
+
+<!-- paper-link -->
+
+---
+
+**Going deeper: [Publishing a Public MCP Server](https://papers.apievangelist.com/papers/publishing-a-public-mcp-server/?ae_ref=apievangelist.com&ae_pos=post-footer)**
+
+A provider's guide to shipping Model Context Protocol as part of API operations.
+
+[Read the paper](https://papers.apievangelist.com/papers/publishing-a-public-mcp-server/?ae_ref=apievangelist.com&ae_pos=post-footer)
