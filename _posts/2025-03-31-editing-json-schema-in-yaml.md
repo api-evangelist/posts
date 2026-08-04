@@ -23,3 +23,13 @@ I hear a lot of engineers snicker at using YAML, instead of JSON. I hear even mo
 
 <a href="https://json-schema.hyperjump.io/"><img src="https://kinlane-images.s3.amazonaws.com/apievangelist/hyperjump-editing-yaml.png" width="100%"></a>
 <p align="center"><a href="https://json-schema.hyperjump.io/"><Try Editing JSON Schema Using YAML in Hyperjump</a></p>
+
+<!-- paper-link -->
+
+---
+
+**Going deeper: [The JSON Schema Standard](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)**
+
+9,439,146 schema objects measured inside published API contracts — and an industry still writing with the vocabulary it had in 2013.
+
+[Read the paper — $500](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)

@@ -25,3 +25,13 @@ I am only interested in the meta and data properties right now, so I make sure I
 In reverse engineering the original Columbia course API I found their use of JSON:API and OpenAPI very interesting, and the fact that they were still on draft-06 JSON Schema interesting, but they also publish an AWS version of their OpenAPI in their repo too. I see this more and more, and I am working on an overlay approach to managing my AWS extensions as part of my API governance. I like having each layer of my API platform overlayed on top of my core API definition. I will do more work and storytelling around AlterSchema, AWS OpenAPI extensions, as well as more work on the JSON:API OpenAPI and JSON Schema artifacts—-[if you have a specific need feel free to submit an issue on the API Commons repository](https://github.com/api-commons/json-api). 
 
 A lot of folks get confused by the number of API specifications available out there, struggling with the difference between OpenAPI, JSON Schema, JSON:API, APIs.json, Postman Collections, and other specifications we depend on-—where I embrace the multi-specification reality we live in, and hope to bind them together using APIs.json. I will keep doing this through my [API Commons](https://apicommongs.org) work, publishing new artifacts like the [JSON:API OpenAPI and JSON Schema](https://github.com/api-commons/json-api), and telling stories about them here on API Evangelist. JSON:API is an extremely useful API standard, but I also see it as one standard in a patchwork of API standards we are going to need to define our enterprise API landscape. But, for right now, I am just looking to ensure that all of the APIs I deploy to power APIs.io and API Evangelist have consistent API responses using the JSON:API standard.
+
+<!-- paper-link -->
+
+---
+
+**Going deeper: [The JSON Schema Standard](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)**
+
+9,439,146 schema objects measured inside published API contracts — and an industry still writing with the vocabulary it had in 2013.
+
+[Read the paper — $500](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)
