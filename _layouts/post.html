@@ -33,6 +33,48 @@ layout: default
 
       <div class="post-body">
         {{ content }}
+
+        {%- comment -%}
+          Mid-article paper slot.
+
+          The ad network already runs on every post (top-banner and
+          content-bottom in the default layout), and it already rotates, counts
+          impressions and clicks per slot in DynamoDB, and emits the correct
+          ae_* attribution. What it did not have was a placement inside the
+          article, which is where a reader who is actually engaged sits.
+
+          It has to be injected client-side: {{ content }} is a single Liquid
+          value with no midpoint to address, and GitHub Pages ignores custom
+          _plugins so a content filter is not available either. embed.js already
+          runs a MutationObserver over the document, so a div added after load
+          is picked up with no change to the ad server.
+
+          Only on posts long enough to have a real middle. On anything shorter
+          the "midpoint" is a couple of sentences from the top and the slot just
+          reads as a second banner.
+        {%- endcomment -%}
+        <script>
+          (function () {
+            var MIN_BLOCKS = 6;
+            try {
+              var art = document.currentScript.closest('article') || document.querySelector('article');
+              if (!art) return;
+              var blocks = art.querySelectorAll(':scope > p, :scope > ul, :scope > ol, :scope > h2, :scope > h3');
+              if (blocks.length < MIN_BLOCKS) return;
+
+              // Land after a paragraph rather than between a heading and the text
+              // it introduces — splitting those reads as a mistake.
+              var i = Math.floor(blocks.length / 2);
+              while (i < blocks.length - 1 && /^H[23]$/.test(blocks[i].tagName)) i++;
+
+              var slot = document.createElement('div');
+              slot.setAttribute('data-laneworks-ad', 'content-mid');
+              slot.setAttribute('data-laneworks-kind', 'paper');
+              slot.style.cssText = 'margin:1.75rem 0;';
+              blocks[i].insertAdjacentElement('afterend', slot);
+            } catch (e) { /* never let a promo break the post */ }
+          })();
+        </script>
       </div>
 
       <!-- Tags -->
