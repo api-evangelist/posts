@@ -18,7 +18,7 @@ There is a particular kind of company I have been curious about for a while now:
 
 So I started profiling them. Not their cap tables — their APIs. I have been running the secondary-market listings through the same pipeline I run everything else through: find the company, find its developer surface if it has one, harvest whatever contracts and artifacts are actually published, and then rate the result with the Kin Score. The question I am chasing is simple and a little rude. These companies are valued like technology companies. Are they operable like technology companies?
 
-I now have 278 of them scored, and the answer is more interesting than either "yes" or "no."
+I now have 278 of them scored, and the answer is more interesting than either "yes" or "no." Everything below is drawn from the [secondary market section of the providers site](https://providers.apievangelist.com/secondary-market/), which is where these profiles live as I work through them.
 
 ## What the numbers say
 
@@ -79,4 +79,4 @@ Because the interesting number is not the average, it is the distribution. A mar
 
 It also tells you something about agents specifically. Every one of these companies is going to be asked, fairly soon, whether an AI agent can transact with them. Right now, for most of this cohort, the answer is structurally no. Not "no, we chose not to" — no in the sense that there is nothing there to act against. The eleven agent-native companies in this set have a head start that is measured in years of accumulated contract, documentation, and operational discipline, not in a quarter of roadmap.
 
-I will keep grinding through the backlog and publishing what the numbers say. The profiles, the artifacts, and the score history for every company are open on the network, so you do not have to take my averages on faith — you can go read the evidence for any single company and disagree with me about it.
+I will keep grinding through the backlog and publishing what the numbers say. The profiles, the artifacts, and the score history for every company are open on the network at [providers.apievangelist.com/secondary-market](https://providers.apievangelist.com/secondary-market/), so you do not have to take my averages on faith — you can go read the evidence for any single company and disagree with me about it.
