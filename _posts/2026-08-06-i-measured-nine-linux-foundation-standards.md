@@ -1,5 +1,9 @@
 ---
-published: true
+# UNPUBLISHED 2026-08-06 at Kin's request — pulled from apievangelist.com for
+# further editing. This removes it from the site; the draft, its tags and its
+# header image (already uploaded to S3) are all preserved. Set published: true
+# to restore.
+published: false
 layout: post
 title: I Measured Nine Linux Foundation Standards, and Alignment Is Now a Number
 date: 2026-08-06T14:00:00.000Z
