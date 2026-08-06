@@ -1,8 +1,10 @@
 ---
-# SCHEDULED for 2026-08-09 to leave editing room. Goes live on the 12:10 UTC
-# daily build that day. Move the date (and the filename) forward again if it
-# needs more time.
-published: true
+# HELD — do NOT schedule this. Kin asked for it off the site until he has edited
+# it (2026-08-06), and a date-based schedule does not honour that: a future date
+# only hides a post until that date arrives, then publishes it unattended. This
+# stays `published: false` so it cannot go live on its own. Kin flips this one
+# line when the edit is done; the date and filename can be moved then.
+published: false
 layout: post
 title: I Measured Nine Linux Foundation Standards, and Alignment Is Now a Number
 date: 2026-08-09 12:00:00 +0000
