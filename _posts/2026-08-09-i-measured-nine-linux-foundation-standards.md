@@ -1,12 +1,11 @@
 ---
-# UNPUBLISHED 2026-08-06 at Kin's request — pulled from apievangelist.com for
-# further editing. This removes it from the site; the draft, its tags and its
-# header image (already uploaded to S3) are all preserved. Set published: true
-# to restore.
-published: false
+# SCHEDULED for 2026-08-09 to leave editing room. Goes live on the 12:10 UTC
+# daily build that day. Move the date (and the filename) forward again if it
+# needs more time.
+published: true
 layout: post
 title: I Measured Nine Linux Foundation Standards, and Alignment Is Now a Number
-date: 2026-08-06T14:00:00.000Z
+date: 2026-08-09 12:00:00 +0000
 author: Kin Lane
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/i-measured-nine-linux-foundation-standards.png
 tags:
