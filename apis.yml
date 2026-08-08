@@ -41,7 +41,7 @@ apis:
   properties:
   - type: Documentation
     url: https://developer.apievangelist.com/mcp-server
-  - type: MCP
+  - type: MCPServer
     url: https://mcp.apievangelist.com/mcp
   - type: MCPServerCard
     url: https://apievangelist.com/.well-known/mcp/server-card.json
