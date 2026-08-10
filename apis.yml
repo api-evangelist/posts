@@ -1,4 +1,13 @@
-aid: api-evangelist
+aid: posts
+x-canonical-profile: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/apis.yml
+x-aid-note: >-
+  This index is published at https://apievangelist.com/apis.yml and describes the
+  apievangelist.com website repo. It previously declared `aid: api-evangelist`,
+  which collided with the API Evangelist provider profile: because `aid` is the
+  catalog page slug and relative artifact URLs resolve against
+  api-evangelist/<aid>, every pointer on the provider page resolved to a
+  repository that does not exist. The provider profile now lives in its own repo
+  (see x-canonical-profile); this file is scoped to the repo it ships in.
 accessModel:
   pricing: unknown
   onboarding: unknown
