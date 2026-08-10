@@ -45,7 +45,7 @@ It's more important now than ever because the ground is shifting under the whole
 
 It's a new layer of scrutiny, and the report found five agentic primitives where the score across the entire market comes back at absolute zero — idempotency, consent and delegated identity, agent cards, dry-run mode, and a `.well-known` catalog, each at zero out of thirty-five vendors. As above, a zero doesn't necessarily mean the capability is missing. It might just mean nobody can find proof that it exists. Either way, if a buyer can't see it, it isn't influencing their decision, no matter how real it is on your side.
 
-Apigee, MuleSoft, Amazon API Gateway, Zuplo, Apidog and Azure API Management stand out in the report as the six exemplars, not because they talk about strong API practices, but because they demonstrate them through evidence anyone can actually go and check. That's really the whole game. The gap between what's true about your platform and what's visible about it is where deals get lost, and where advantages sit unused.
+Apigee, Boomi, MuleSoft, Amazon API Gateway, Zuplo, Apidog and Azure API Management stand out in the report as exemplars, not because they talk about strong API practices, but because they demonstrate them through evidence anyone can actually go and check. That's really the whole game. The gap between what's true about your platform and what's visible about it is where deals get lost, and where advantages sit unused.
 
 ## Before Someone Else Tells You Where You Stand
 
