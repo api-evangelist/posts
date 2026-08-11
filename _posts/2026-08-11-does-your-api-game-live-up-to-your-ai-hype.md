@@ -1,8 +1,8 @@
 ---
 published: true
 layout: post
-title: "The Agent Hype Is at Odds with Your API Foundation"
-image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-agent-hype-is-at-odds-with-your-api-foundation.png
+title: "Does Your API Game Live Up to Your AI Hype?"
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/does-your-api-game-live-up-to-your-ai-hype.png
 date: 2026-08-11
 author: Kin Lane
 tags:
