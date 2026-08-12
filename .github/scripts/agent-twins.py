@@ -74,6 +74,21 @@ PROPERTIES = {
         # refuse to emit a paper twin whose body exceeds this.
         "max_body_bytes": 8000,
     },
+    # apis.io. Different shape entirely: provider pages carry no prose body — the
+    # value is 47 structured frontmatter fields (Stripe's source file is 137KB of
+    # them). So the twin is RENDERED from the data rather than passed through, which
+    # is also the document an agent actually wants when asked about a provider.
+    # No Cloudflare Worker here (S3/CloudFront), so there is no Accept negotiation —
+    # the twin's own URL plus the alternate link is the whole surface.
+    "apisio-providers": {
+        "src": f"{GITHUB}/api-search/providers/_providers",
+        "site": f"{GITHUB}/api-search/providers/_site",
+        "base": "https://apis.io",
+        "permalink": "/providers/:name/",
+        "collection": "_providers/",
+        "kind": "provider",
+        "discover": "source",   # no markdown-alternate convention to invert yet
+    },
     "ae-guidance": {
         "src": f"{GITHUB}/api-evangelist/guidance",
         "site": f"{GITHUB}/api-evangelist/guidance/_site",
@@ -88,14 +103,20 @@ PROPERTIES = {
 # ---------------------------------------------------------------------------
 # Frontmatter
 # ---------------------------------------------------------------------------
+# Jekyll's own frontmatter boundary: the first line that is exactly `---`.
+# Splitting on the first `---` ANYWHERE is wrong — apis.io provider files carry a
+# `source_yaml:` value with a whole embedded YAML document inside it, dashes and all,
+# and a naive split truncates mid-scalar. (Same family as the known source_yaml trap:
+# never treat that field as data.)
+FRONTMATTER = re.compile(r"\A---[ \t]*\r?\n(.*?)\r?\n---[ \t]*\r?\n?", re.S)
+
+
 def parse_frontmatter(text):
     """Return (frontmatter dict, body). Tolerates the loose YAML in these repos."""
-    if not text.startswith("---"):
+    m = FRONTMATTER.match(text)
+    if not m:
         return {}, text
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return {}, text
-    raw, body = parts[1], parts[2]
+    raw, body = m.group(1), text[m.end():]
     try:
         import yaml
         fm = yaml.safe_load(raw) or {}
@@ -118,6 +139,8 @@ def permalink_for(prop, path, fm):
     """Resolve the built URL path for a source file, from frontmatter + pattern."""
     name = os.path.basename(path)
     pattern = prop["permalink"]
+    if pattern == "/providers/:name/":
+        return f"/providers/{os.path.splitext(name)[0]}/"
     if pattern == "/:slug/":
         slug = fm.get("slug") or os.path.splitext(name)[0]
         return f"/{slug}/"
@@ -227,7 +250,140 @@ def chunk_disclosure_ok(doc, ad_text, brand):
 # ---------------------------------------------------------------------------
 # Twin
 # ---------------------------------------------------------------------------
+# Title-casing turns mcp_server into "Mcp Server" and openapi_examples into
+# "Openapi Examples". This is text an agent ingests and may quote back, so spell the
+# acronyms the way the industry does.
+_ACRONYMS = {"Mcp": "MCP", "Openapi": "OpenAPI", "Api": "API", "Apis": "APIs",
+             "Sdk": "SDK", "Url": "URL", "Json": "JSON", "Ld": "LD", "A2a": "A2A",
+             "Finops": "FinOps", "Graphql": "GraphQL", "Asyncapi": "AsyncAPI"}
+
+
+def _label(key):
+    words = key.replace("_", " ").title().split()
+    return " ".join(_ACRONYMS.get(w, w) for w in words)
+
+
+def _fmt_dim(v):
+    if v is True:
+        return "yes"
+    if v is False:
+        return "no"
+    return str(v)
+
+
+def _listing(items, heading, cap=40):
+    """
+    Render a capped list. Silent truncation reads as complete coverage; say so.
+
+    Entries are provider-supplied artifact data, so the shape drifts — some lists hold
+    dicts, some hold bare strings. Type-guard rather than trust the contract; the
+    network's own build has been taken down twice by exactly this
+    (see network/CLAUDE.md, "a full rebuild can silently DROP providers").
+    """
+    if not items:
+        return []
+    out = [f"## {heading} ({len(items)})", ""]
+    for it in items[:cap]:
+        if not isinstance(it, dict):
+            out.append(f"- **{str(it)}**")
+            continue
+        name = it.get("name") or it.get("label") or it.get("slug") or "—"
+        desc = str(it.get("description") or it.get("summary_line") or "").strip()
+        desc = re.sub(r"\s+", " ", desc)
+        if len(desc) > 180:
+            desc = desc[:177] + "..."
+        out.append(f"- **{name}**" + (f" — {desc}" if desc else ""))
+    if len(items) > cap:
+        out.append(f"- …and {len(items) - cap} more, listed in full on the page.")
+    out.append("")
+    return out
+
+
+def render_provider(fm, canonical):
+    """
+    Render an apis.io provider profile from its structured data.
+
+    Provider source files carry no prose — the value is 47 frontmatter fields. This
+    is the document an agent actually wants when asked about a provider, and it is
+    the same data the HTML page renders, so the two cannot disagree.
+    """
+    name = fm.get("name") or fm.get("slug") or "Provider"
+    out = [f"# {name}", ""]
+
+    meta = [f"**Canonical:** {canonical}"]
+    if fm.get("website"):
+        meta.append(f"**Website:** {fm['website']}")
+    if fm.get("api_count") is not None:
+        meta.append(f"**APIs profiled:** {fm['api_count']}")
+    out += ["  \n".join(meta), ""]
+
+    if fm.get("description"):
+        out += [re.sub(r"\s+", " ", str(fm["description"]).strip()), ""]
+
+    score = fm.get("score") or {}
+    if score.get("composite") is not None:
+        out += [f"## Kin Score — {score['composite']} / 100 "
+                f"({score.get('band', 'unbanded')})", ""]
+        line = (f"Scored {score.get('scored_at', 'n/a')} under rubric "
+                f"{score.get('schema_version', 'n/a')}.")
+        if score.get("trend"):
+            line += (f" Trend: {score['trend']}"
+                     + (f" ({score['delta']:+} from {score.get('previous_composite')})"
+                        if score.get("delta") is not None else "") + ".")
+        out += [line, ""]
+        facets = score.get("facets") or {}
+        if facets:
+            out += ["| Facet | Score |", "|---|---|"]
+            out += [f"| {_label(k)} | {v} |" for k, v in facets.items()]
+            out.append("")
+        reg = score.get("regulatory") or {}
+        if reg.get("applies"):
+            out += [f"Regulatory layer — **{reg.get('regime', 'n/a')}**: "
+                    f"{reg.get('score', 'n/a')} (matched via {reg.get('matched_via', 'n/a')}).", ""]
+
+    ar = fm.get("agent_readiness") or {}
+    if ar.get("score") is not None:
+        out += [f"## Agent readiness — {ar['score']} ({ar.get('band', 'unbanded')})", ""]
+        dims = ar.get("dimensions") or {}
+        if dims:
+            out += ["| Dimension | Value |", "|---|---|"]
+            out += [f"| {_label(k)} | {_fmt_dim(v)} |" for k, v in dims.items()]
+            out.append("")
+
+    am = fm.get("access_model") or {}
+    if am.get("label"):
+        out += ["## Access", "",
+                f"{am['label']} — onboarding: {am.get('onboarding', 'n/a')}, "
+                f"pricing: {am.get('pricing', 'n/a')}, "
+                f"trial: {'yes' if am.get('trial') else 'no'} "
+                f"(confidence: {am.get('confidence', 'n/a')}).", ""]
+
+    for key, heading in (("apis", "APIs"), ("mcp_servers", "MCP servers"),
+                         ("agentic_access", "Agentic access"), ("security", "Security"),
+                         ("plans", "Plans"), ("use_cases", "Use cases")):
+        v = fm.get(key)
+        if isinstance(v, list):
+            out += _listing(v, heading)
+
+    if fm.get("tags"):
+        out += ["## Tags", "", ", ".join(str(t) for t in fm["tags"]), ""]
+
+    out += ["---", "",
+            "Profiled by [API Evangelist](https://apievangelist.com) and published on "
+            f"[APIs.io]({canonical}). Scores are computed from the provider's own "
+            "public artifacts under a published rubric.", ""]
+    return "\n".join(out)
+
+
 def render_twin(fm, body, canonical, prop, ad=None):
+    if prop["kind"] == "provider":
+        doc = render_provider(fm, canonical)
+        ad_text = ""
+        if ad:
+            ad_text = render_ad(ad)
+            doc += ad_text
+        return doc, ad_text
+
     title = str(fm.get("title", "")).strip().strip("'\"")
     head = [f"# {title}" if title else "", ""]
     meta = []
@@ -388,7 +544,7 @@ def run(name, args):
         items = items[-args.limit:]
 
     stats = {"written": 0, "skipped": 0, "no_html": 0, "injected": 0,
-             "cap_fail": 0, "chunk_fail": 0, "body_guard": 0, "future": 0, "replaced": 0}
+             "cap_fail": 0, "chunk_fail": 0, "body_guard": 0, "future": 0, "replaced": 0, "render_fail": 0}
     print(f"\n=== {name} === {len(items)} "
           f"{'built pages' if from_build else 'source files'}"
           f"{' (WITH ADS, house tier: %d)' % len(inventory) if args.with_ads else ' (phase 0, no ads)'}")
@@ -403,7 +559,10 @@ def run(name, args):
         # Build-driven: the page exists, so Jekyll already resolved its URL — including
         # the timezone and category rules we must not second-guess.
         link = built_url if built_url else permalink_for(prop, path, fm)
-        if not link or not body.strip():
+        # Providers legitimately carry NO body -- their content is the structured
+        # frontmatter, which render_provider() turns into the document.
+        needs_body = prop["kind"] != "provider"
+        if not link or (needs_body and not body.strip()):
             stats["skipped"] += 1
             continue
 
@@ -427,7 +586,15 @@ def run(name, args):
 
         canonical = prop["base"] + link
         ad = pick_ad(canonical, inventory) if inventory else None
-        doc, ad_text = render_twin(fm, body, canonical, prop, ad)
+        try:
+            doc, ad_text = render_twin(fm, body, canonical, prop, ad)
+        except Exception as exc:
+            # One malformed provider must not kill the run -- but it must not vanish
+            # silently either. build.py's silent ERROR-and-continue is a known defect
+            # that has deleted live pages; name every casualty.
+            print(f"  RENDER FAIL {link}: {type(exc).__name__}: {exc}")
+            stats["render_fail"] += 1
+            continue
 
         # A document that cannot carry an ad within the rules still gets published —
         # we drop the PLACEMENT, never the content. (Short paper teasers legitimately
@@ -481,6 +648,8 @@ def run(name, args):
         placed = stats["written"] - stats["cap_fail"] - stats["chunk_fail"]
         print(f"  ads placed={placed}  ad-free by cap={stats['cap_fail']} "
               f"by chunk-disclosure={stats['chunk_fail']}")
+    if stats["render_fail"]:
+        print(f"  ⚠ RENDER FAILURES: {stats['render_fail']} — these pages have NO twin")
     if stats["body_guard"]:
         print(f"  BODY GUARD held back {stats['body_guard']} document(s)")
     return stats
