@@ -42,6 +42,20 @@ jobs:
           source: ./
           destination: ./_site
 
+      # Emit a clean markdown twin beside every built page and point the page's
+      # <link rel="alternate" type="text/markdown"> at it. The Cloudflare Worker
+      # already negotiates Accept: text/markdown by following that link -- until
+      # now it followed it to raw.githubusercontent.com and served raw Jekyll
+      # source, frontmatter and all. This serves agents a real document instead,
+      # on our own domain, where the fetch is ours to count.
+      #
+      # Same bytes to every client. Nothing here varies by user-agent.
+      # See research/agent-ad-serving/ROLLOUT-laneworks.md (phase 0, no ads).
+      - name: Generate agent markdown twins
+        run: |
+          python3 -m pip install --quiet pyyaml
+          python3 .github/scripts/agent-twins.py --property ae-posts --root .
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
