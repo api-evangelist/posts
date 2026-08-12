@@ -1,0 +1,50 @@
+---
+published: true
+layout: post
+title: 'Every Ad On My Network Was Invisible To Agents'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/every-ad-on-my-network-was-invisible-to-agents.png
+date: 2026-08-13
+author: Kin Lane
+tags:
+  - AI
+  - Agents
+  - Advertising
+  - Machine Readability
+  - Content Negotiation
+  - Provenance
+  - Discovery
+  - Strategy
+---
+Ten days ago I spent an afternoon with curl figuring out [how Time serves ads to AI agents](https://apievangelist.com/2026/08/03/how-time-serves-ads-to-ai-agents/), because the trade press covered the business arrangement and openly said they could not tell you how it worked. I came out of that with a mechanism, a set of measurements, and a strong opinion about the parts of it nobody should copy. Then I went and looked at my own properties, and found something I should have checked before I wrote a word about anyone else's.
+
+Every ad on my network is invisible to AI agents. All two hundred and twenty of them.
+
+The ad network is [ads.laneworks.net](https://ads.laneworks.net/), it is self-hosted, and it serves text ads into API Evangelist, APIs.io and about forty other repos I run. The embed is a `<div data-laneworks-ad="top-banner">` filled in at runtime by a small piece of JavaScript. That is how essentially every ad network on the web works. It is also, from the point of view of a crawler that fetches a page and never executes a line of JavaScript, an empty div. I fetched my own homepage as ClaudeBot and got a byte-for-byte identical response to the one Chrome gets — 72,808 bytes on APIs.io, and inside it, one empty slot where the inventory should be.
+
+So the honest position is: I have been running an ad network for a year on properties whose audience is increasingly machines, and the machines have never seen a single ad. Not one impression. Agent traffic grew forty-five percent quarter over quarter — 17.7 billion agent requests in Q2 — and my ad server cannot address any of it. If you run ads on your own site through any client-side embed, this is true of you too, and it costs nothing to check.
+
+The obvious fix is the wrong one. Put the inventory in `llms.txt` and you are done, right? Ahrefs went and looked at server logs and found that **ninety-seven percent of `llms.txt` files received zero requests** in May 2026, against thirty-six thousand of them in existence. We built a discovery file for agents and the agents are not reading it. They fetch the page. Any inventory that lives only in a policy file serves nobody, and I would rather say that plainly than ship something that lets me claim a channel I do not have.
+
+Which brings me back to Time, because they solved the real problem and I do not want to copy how.
+
+Time identifies the client at the CDN edge and serves a completely different document to AI agents than it serves to you — markdown to the crawlers, HTML to humans and to Googlebot. On roughly a quarter of pages that markdown carries an advertiser block that runs **forty-one to seventy percent of the bytes the crawler ingests**, positioned ahead of the journalism. Serving materially different content at the same URL based on who is asking is the textbook definition of cloaking, and Google spent twenty years teaching the web that it gets you delisted. Whether the model vendors land in the same place is an open question that will be answered by a policy change nobody gets advance notice of.
+
+I publish the tool that audits this behavior. If I did it the way Time does it, that tool would be worthless, and so would I. So the rule I bound myself to first, before writing any code, is that **nothing on my network varies by user-agent, ever**. The machine-readable document lives at its own URL, it is advertised in the HTML with `<link rel="alternate" type="text/markdown">`, and it returns the same bytes to a browser, a crawler, and you with curl. Nobody has to impersonate anything to audit me. That is the whole point — you cannot govern what you cannot observe, and I said that about Time while my own properties were only accidentally clean.
+
+Here is the part where I give credit and then admit what was actually broken. API Evangelist already did content negotiation. There is a Cloudflare Worker in front of the whole network that reads that alternate link and serves markdown when you ask for it with `Accept: text/markdown`, `Vary` header and all. I built that months ago and forgot it was load-bearing. My first probe of my own site missed it completely, because I only tested for `/index.md` paths and got 404s and concluded I had nothing. I had most of it.
+
+What I did not have was a document worth serving. That alternate link pointed at `raw.githubusercontent.com`, so what an agent got when it asked API Evangelist for markdown was the **raw Jekyll source file** — opening with `published: true`, `layout: post`, `image:`, the entire frontmatter block, no headline, no canonical URL, hosted on somebody else's domain where I cannot count a single fetch. It was machine-readable in the sense that a build artifact is machine-readable.
+
+So the work was smaller than I expected and pointed somewhere I did not expect: not "build an agent channel" but "the channel exists and you are serving it garbage." There is now a build step that writes a clean markdown twin beside every built page — title as an H1, the date, the author, the canonical URL, then the actual post — and repoints that alternate link at it, on my own domain. It went live on apievangelist.com yesterday across **5,184 posts**. APIs.io is a different shape, because provider pages have no prose at all; their content is forty-seven fields of structured frontmatter, so the twin is rendered from the data — the Kin Score with its facets and regulatory layer, the agent-readiness dimensions, the access model, the API and MCP listings. That is **26,721 more documents** landing with its next build, and honestly it is a better answer to "tell me about Stripe's APIs" than the HTML page is.
+
+And here is the thing I want to be loudest about: **none of them carry any advertising.** Not one. That is deliberate, and it is the whole discipline of this rollout.
+
+I do not yet know whether agents will fetch these documents. I believe they will, and belief is not a number. So the first phase ships the twins with no inventory in them at all and measures, for thirty days, whether anything actually shows up. If agents do not fetch them, the entire premise is wrong and I would rather find that out having published nothing than having published ads into a channel nobody reads. If they do fetch them, then I have an impression count that is real, measured on my own domain, from the fetch itself rather than from a tracking pixel no crawler will ever request.
+
+The rules for when ads do go in are written into the build rather than into a blog post, because a rule you have not enforced in code is a press release. Advertiser copy is capped at **fifteen percent** of the document and the build drops the placement if it goes over. Disclosure has to survive chunking — the failure in Time's design that labeling does not fix, because a `> Sponsored content` line at the head of a twenty-kilobyte block does not travel with chunk seven of twelve, and a retrieval system will happily produce a chunk of pure advertiser copy carrying the publisher's authority and no disclosure at all. So every line of ad copy opens with the sponsor's name, the headings sit at H4 so an ad can never become a document section, and the build cuts the finished document into five-hundred-token chunks and fails the creative if any chunk containing advertiser copy does not name the brand. And there are no third-party ads in these documents at all — only my own products. My inventory includes sixty-six ads naming companies that top a Market Report, with a live Kin Score in the copy, and putting those into a document an agent ingests and may cite is not advertising, it is score laundering. That one is not a policy, it is a filter in the code.
+
+The mistakes were more instructive than the design, as usual. I tried to compute Jekyll's permalinks myself and got fifty-three of five thousand wrong, because Jekyll resolves a post's URL from the frontmatter date with the site timezone applied — a post dated `2012-11-09 04:27:00+00:00` builds to `/2012/11/08/` — and from `category`, which is in the permalink pattern. The fix was to stop computing and start reading: every built page already stamps the source file that produced it, so I walk the build and let Jekyll tell me. My first version also cheerfully overwrote a hand-curated homepage markdown file, because it lived at a raw GitHub URL like everything else and I had no rule that curated beats generated. And the fifteen percent cap, on its first run, skipped the whole document rather than the ad — which would have silently unpublished ninety-two papers to make room for a rule about advertising. Every one of those is the same failure: I trusted my model of the system over the system.
+
+There is one more, and it is the one worth ending on. The cap does not fit most of my papers. A house ad is a few hundred bytes and a paper teaser is fifteen hundred, so the placement blows past fifteen percent and the build drops it — on ninety-two of a hundred and nineteen papers, and on about half of all posts. My first instinct was to shrink the ad until it fit. That instinct is exactly how you end up at seventy percent, one reasonable-sounding adjustment at a time. The cap is not a budget to optimize against. If a document is too short to carry an ad honestly, it carries no ad, and that is the correct outcome rather than a problem to be engineered around.
+
+I will publish the numbers when I have them, including if they say this was not worth doing. And if it turns out I cannot serve advertising to agents in a way that passes the audit I run on everybody else, then I will not serve advertising to agents, and that will have been a perfectly good thing to find out in public.
