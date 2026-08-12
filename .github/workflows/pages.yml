@@ -51,8 +51,18 @@ jobs:
       #
       # Same bytes to every client. Nothing here varies by user-agent.
       # See research/agent-ad-serving/ROLLOUT-laneworks.md (phase 0, no ads).
+      # Never let this block a deploy. Twins are an enhancement; publishing the site
+      # is the critical path, and this repo has been bitten before by a build-stage
+      # failure meaning nothing shipped for several commits. If this step breaks, the
+      # site still deploys -- pages just keep pointing at the previous markdown
+      # source until it is fixed.
       - name: Generate agent markdown twins
+        continue-on-error: true
         run: |
+          # jekyll-build-pages runs Jekyll inside a container as a different uid, so
+          # _site comes back owned by root and this step (running as `runner`) cannot
+          # write into it -- Errno 13 on the first twin. Take ownership first.
+          sudo chown -R "$(id -u):$(id -g)" ./_site
           python3 -m pip install --quiet pyyaml
           python3 .github/scripts/agent-twins.py --property ae-posts --root .
 
