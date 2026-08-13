@@ -46,6 +46,10 @@ AD_BYTE_CAP = 0.15
 CHUNK_TOKENS = 500
 CHARS_PER_TOKEN = 4  # rough, deliberately conservative
 
+# Published beside the twins. Maps document -> the ad this build put in it, so an
+# agent fetch (which only ever reports a path) can be attributed to an ad offline.
+MANIFEST_NAME = "agent-twins-manifest.json"
+
 # ---------------------------------------------------------------------------
 # Properties. Editorial and profile surfaces only — decided 2026-08-12.
 # Machine-artifact trees (schemas/, examples/, json-structure/, the 93k apis pages)
@@ -61,6 +65,10 @@ PROPERTIES = {
         "permalink": "/:year/:month/:day/:title/",
         "collection": "_posts/",
         "kind": "post",
+        # head.html stamps a raw.githubusercontent alternate on every page, so we can
+        # invert it and let Jekyll tell us which source made which URL. Only this
+        # property has that convention.
+        "discover": "build",
     },
     "ae-papers": {
         "src": f"{GITHUB}/api-evangelist/papers/_papers",
@@ -69,6 +77,9 @@ PROPERTIES = {
         "permalink": "/:slug/",
         "collection": "_papers/",
         "kind": "paper",
+        # No markdown-alternate convention in this site's layouts, so there is nothing
+        # to invert — discovery has to come off the source collection.
+        "discover": "source",
         # Papers are a PAID product. _papers/*.md holds the teaser only (~1.5KB bodies);
         # the full text lives elsewhere and must never reach a twin. Belt and braces:
         # refuse to emit a paper twin whose body exceeds this.
@@ -96,6 +107,7 @@ PROPERTIES = {
         "permalink": "/:path/",
         "collection": "",
         "kind": "guidance",
+        "discover": "source",
     },
 }
 
@@ -535,9 +547,23 @@ def sources_for(prop):
 def run(name, args):
     prop = PROPERTIES[name]
     inventory = load_house_inventory() if args.with_ads else []
-    from_build = prop.get("discover", "build") == "build" and not args.from_source
+    # No silent default: a property that lacks the alternate convention would
+    # discover ZERO pages under build-mode and report success having written nothing.
+    from_build = prop["discover"] == "build" and not args.from_source
     if from_build:
         items = list(discover_from_build(prop))
+        # Build-mode keys off the raw.githubusercontent alternate that head.html
+        # stamps on a FRESH build. Once we have rewritten those links to our own
+        # twins, a re-run against the same _site matches nothing — correct, but it
+        # would otherwise report "written=0" as a success and look like the site had
+        # no content. CI always builds fresh; a human re-running locally does not.
+        built = sum(1 for _dp, _d, fs in os.walk(prop["site"]) if "index.html" in fs)
+        if built and len(items) < built * 0.5:
+            print(f"  NOTE: only {len(items)} of {built} built pages carry an "
+                  f"unprocessed markdown alternate.\n"
+                  f"        This _site has probably been processed already — twins are "
+                  f"in place and\n        their links point at us, not at raw GitHub. "
+                  f"Rebuild the site for a real run,\n        or pass --from-source.")
     else:
         items = [(p, None, None) for p in sources_for(prop)]
     if args.limit:
@@ -545,6 +571,7 @@ def run(name, args):
 
     stats = {"written": 0, "skipped": 0, "no_html": 0, "injected": 0,
              "cap_fail": 0, "chunk_fail": 0, "body_guard": 0, "future": 0, "replaced": 0, "render_fail": 0}
+    manifest = []
     print(f"\n=== {name} === {len(items)} "
           f"{'built pages' if from_build else 'source files'}"
           f"{' (WITH ADS, house tier: %d)' % len(inventory) if args.with_ads else ' (phase 0, no ads)'}")
@@ -634,12 +661,46 @@ def run(name, args):
             f.write(doc)
         stats["written"] += 1
 
+        # Attribution manifest. Agents fetch a static document, so nothing at request
+        # time knows which ad was inside it — but assignment is a pure function of the
+        # URL, so the join can happen offline IF we record what this build decided.
+        # Inventory changes between builds, so recomputing later would drift; this is
+        # the record that makes an agent impression attributable to an ad at all.
+        manifest.append({
+            "path": link + "index.md",
+            "ad": (ad or {}).get("id") if ad_text else None,
+            "advertiser": (ad or {}).get("advertiser") if ad_text else None,
+            "bytes": len(doc),
+        })
+
         res = inject_alternate(built_html or os.path.join(out_dir, "index.html"), href)
         if res in ("injected", "replaced"):
             stats["injected"] += 1
             stats["replaced"] += (res == "replaced")
         elif res == "no-html":
             stats["no_html"] += 1
+
+    # Published with the site rather than kept locally: the build runs on a CI runner
+    # that is thrown away, so a local file would not survive. Public is fine and
+    # arguably right — the blueprint says publish the mechanism, and this is the
+    # mechanism. It is also what makes an outside auditor able to check our numbers.
+    if manifest and not args.dry_run and not args.no_manifest:
+        placed = sum(1 for m in manifest if m["ad"])
+        doc = {
+            "property": name,
+            "generated": str(date.today()),
+            "base": prop["base"],
+            "with_ads": bool(args.with_ads),
+            "documents": len(manifest),
+            "with_placement": placed,
+            "entries": manifest,
+        }
+        mpath = args.manifest or os.path.join(prop["site"], MANIFEST_NAME)
+        os.makedirs(os.path.dirname(mpath) or ".", exist_ok=True)
+        with open(mpath, "w", encoding="utf-8") as f:
+            json.dump(doc, f, separators=(",", ":"))
+        print(f"  manifest {len(manifest)} documents, {placed} carrying a placement "
+              f"-> {os.path.basename(mpath)} ({os.path.getsize(mpath)/1e6:.1f} MB)")
 
     print(f"  twins {'(dry run) ' if args.dry_run else ''}written={stats['written']} "
           f"skipped={stats['skipped']} future-held={stats['future']} "
@@ -667,6 +728,9 @@ def main():
     ap.add_argument("--from-source", action="store_true",
                     help="discover from source files instead of the build (fallback; "
                          "recomputes permalinks and cannot see Jekyll's timezone rules)")
+    ap.add_argument("--manifest", help=f"where to write {MANIFEST_NAME} "
+                                       "(default: alongside the built site)")
+    ap.add_argument("--no-manifest", action="store_true")
     ap.add_argument("--root", help="repo root, for CI where only this property is "
                                    "checked out (overrides src/site with paths under it)")
     args = ap.parse_args()
