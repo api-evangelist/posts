@@ -1,0 +1,93 @@
+---
+permalink: /tiktok-callback/
+sitemap: false
+robots: noindex
+title: TikTok authorization callback
+---
+<!--
+  OAuth redirect target for the API Evangelist TikTok app.
+
+  TikTok will only redirect to a URI registered on the app, and the authorization code comes
+  back on the query string. This page does nothing but surface that code so it can be handed
+  to the token exchange. It holds no secret, stores nothing, and talks to no one — the code is
+  short-lived and useless without the client secret, which never leaves the server side.
+-->
+<meta name="robots" content="noindex, nofollow">
+<style>
+  .tt-wrap { max-width: 720px; margin: 8vh auto; padding: 0 1.25rem;
+             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  .tt-card { background: #0d1117; color: #e6edf3; border-radius: 14px; padding: 2rem 1.75rem; }
+  .tt-kicker { color: #3098d8; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase;
+               font-weight: 700; margin: 0 0 .5rem; }
+  .tt-card h1 { font-size: 1.5rem; margin: 0 0 1.25rem; color: #fff; }
+  .tt-code { display: block; width: 100%; background: #161b22; border: 1px solid #30363d;
+             color: #7ee787; border-radius: 8px; padding: .9rem 1rem; font-size: .95rem;
+             font-family: ui-monospace, SFMono-Regular, Menlo, monospace; word-break: break-all; }
+  .tt-btn { margin-top: 1rem; background: #3098d8; color: #fff; border: 0; border-radius: 8px;
+            padding: .6rem 1.1rem; font-size: .9rem; font-weight: 600; cursor: pointer; }
+  .tt-btn:hover { background: #2680c2; }
+  .tt-next { margin-top: 1.5rem; font-size: .88rem; color: #9aa7b2; line-height: 1.6; }
+  .tt-next code { background: #161b22; padding: .15rem .4rem; border-radius: 4px; color: #e6edf3; }
+  .tt-err { color: #ff7b72; }
+</style>
+
+<div class="tt-wrap">
+  <div class="tt-card">
+    <p class="tt-kicker">API Evangelist &middot; TikTok</p>
+    <h1 id="tt-heading">Authorization callback</h1>
+    <div id="tt-body"><p class="tt-next">Waiting for a response from TikTok&hellip;</p></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var q = new URLSearchParams(window.location.search);
+  var code = q.get('code');
+  var err = q.get('error') || q.get('error_description');
+  var heading = document.getElementById('tt-heading');
+  var body = document.getElementById('tt-body');
+
+  if (err) {
+    heading.textContent = 'TikTok returned an error';
+    body.innerHTML = '<p class="tt-next tt-err"></p>';
+    body.querySelector('p').textContent = err + (q.get('error_description') && q.get('error')
+      ? ' — ' + q.get('error_description') : '');
+    return;
+  }
+
+  if (!code) {
+    heading.textContent = 'Nothing to do here';
+    body.innerHTML = '<p class="tt-next">This page is the OAuth redirect target for the ' +
+      'API Evangelist TikTok application. It only does something when TikTok sends an ' +
+      'authorization code to it.</p>';
+    return;
+  }
+
+  heading.textContent = 'Authorization code';
+  var pre = document.createElement('code');
+  pre.className = 'tt-code';
+  pre.id = 'tt-code';
+  pre.textContent = code;
+
+  var btn = document.createElement('button');
+  btn.className = 'tt-btn';
+  btn.textContent = 'Copy code';
+  btn.addEventListener('click', function () {
+    navigator.clipboard.writeText(code).then(function () {
+      btn.textContent = 'Copied';
+      setTimeout(function () { btn.textContent = 'Copy code'; }, 2000);
+    });
+  });
+
+  var next = document.createElement('p');
+  next.className = 'tt-next';
+  next.innerHTML = 'Hand this to the token exchange within a few minutes — TikTok expires ' +
+    'authorization codes quickly and each one may only be redeemed once:<br><br>' +
+    '<code>python3 tiktok_publish.py token --redirect &lt;this URL&gt; --code &lt;the code above&gt;</code>';
+
+  body.innerHTML = '';
+  body.appendChild(pre);
+  body.appendChild(btn);
+  body.appendChild(next);
+})();
+</script>
