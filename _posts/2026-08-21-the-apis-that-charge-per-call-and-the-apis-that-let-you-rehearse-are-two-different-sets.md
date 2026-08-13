@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'The APIs That Charge Per Call And The APIs That Let You Rehearse Are Two Different Sets'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-apis-that-charge-per-call-and-the-apis-that-let-you-rehearse-are-two-different-sets.png
-date: 2026-10-01
+date: 2026-08-21
 author: Kin Lane
 tags:
   - Agents
@@ -16,7 +16,7 @@ tags:
 ---
 I ran two queries against the catalog this week for someone working on signed receipts for agent actions. He wanted a targeting list rather than an abstract adoption problem, and two cohorts looked like the obvious place to start.
 
-The first: providers that publish a **dry-run mode** — a way to model a call without performing it. Seventy-one of 26,568, which I [wrote about separately](https://apievangelist.com/2026/09/29/seventy-one-apis-will-let-you-try-a-call-without-committing-it/).
+The first: providers that publish a **dry-run mode** — a way to model a call without performing it. Seventy-one of 26,568, which I [wrote about separately](https://apievangelist.com/2026/08/18/seventy-one-apis-will-let-you-try-a-call-without-committing-it).
 
 The second: providers doing **payment per call** — pricing individual endpoints and returning a real `402 Payment Required` before executing, most of them via [x402](https://apis.io). Sixty-nine providers reference it somewhere in their profile; forty-nine carry the signal inside an actual contract or commercial artifact — the APIs.json, an OpenAPI, the plans, the FinOps record, the authentication description, or an MCP manifest — rather than only in prose.
 

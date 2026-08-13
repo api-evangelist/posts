@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'Seventy-One APIs Will Let You Try A Call Without Committing It'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/seventy-one-apis-will-let-you-try-a-call-without-committing-it.png
-date: 2026-09-29
+date: 2026-08-18
 author: Kin Lane
 tags:
   - Agents
