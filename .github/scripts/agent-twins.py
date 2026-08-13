@@ -99,6 +99,11 @@ PROPERTIES = {
         "collection": "_providers/",
         "kind": "provider",
         "discover": "source",   # no markdown-alternate convention to invert yet
+        # sync-sites.sh only pushes `_site/<ns>` plus an explicit cp of index.html,
+        # sitemap.xml and assets/. Anything written to the _site ROOT is never
+        # deployed, so the manifest has to live inside the namespace directory or it
+        # silently does not exist in production.
+        "manifest_dir": "providers",
     },
     "ae-guidance": {
         "src": f"{GITHUB}/api-evangelist/guidance",
@@ -695,7 +700,8 @@ def run(name, args):
             "with_placement": placed,
             "entries": manifest,
         }
-        mpath = args.manifest or os.path.join(prop["site"], MANIFEST_NAME)
+        mpath = args.manifest or os.path.join(
+            prop["site"], prop.get("manifest_dir", ""), MANIFEST_NAME)
         os.makedirs(os.path.dirname(mpath) or ".", exist_ok=True)
         with open(mpath, "w", encoding="utf-8") as f:
             json.dump(doc, f, separators=(",", ":"))
