@@ -27,7 +27,9 @@ So I went looking for what actually executes an Arazzo document. Not what lints 
 
 [Specmatic](https://docs.specmatic.io/supported_protocols/arazzo.html) takes the most interesting position of the three. It executes Arazzo for both testing and mocking, and it will span REST and events in a single document — OpenAPI and AsyncAPI stitched into one workflow. That is not a small thing. Most of the meaningful business flows I document go asynchronous halfway through, and every other runner makes me pretend they do not.
 
-There is also [an independent JS runner](https://github.com/AdrianMachado/arazzo-runner) on npm if you want execution embedded in Node without pulling in a whole CLI. Four projects. That is the honest inventory of things that run Arazzo.
+There is also an independent JS runner on npm if you want execution embedded in Node without pulling in a whole CLI, though it comes with a caveat. The `arazzo-runner` package is published from [JaredCE/Arazzo-Runner](https://github.com/JaredCE/Arazzo-Runner), which is MIT and real but sits at version 0.0.x with a single star and no commits since January. Search that name and you will also land on a widely-linked fork of `stepci/runner` that has not been touched since July 2024. Know which one you are installing. Four projects. That is the honest inventory of things that run Arazzo.
+
+*Corrected after publishing: this paragraph originally linked the stale fork as though it were the npm package. It is not, and the two are different repositories.*
 
 ## Everything else only reads it
 
