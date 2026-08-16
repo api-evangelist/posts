@@ -45,7 +45,7 @@ sub: Governance
           <li><a href="https://studio.apicommons.org">Spectral Ruleset Studio</a> &mdash; turn a style guide into an owned, grounded ruleset</li>
           <li><a href="https://rulesets.apicommons.org">Ruleset Commons</a> &mdash; adopt a provenanced ruleset by reference</li>
           <li><a href="/services/governance/rules/">Rules</a> service &mdash; craft the machine-readable rules themselves</li>
-          <li><a href="https://papers.apievangelist.com/papers/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> (paper)</li>
+          <li><a href="https://reports.apievangelist.com/reports/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> (paper)</li>
         </ul>
       </div>
 

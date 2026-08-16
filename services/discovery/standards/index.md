@@ -56,7 +56,7 @@ sub: Discovery
               <span class="text-muted small">The sequenced ladder from OpenAPI to agent payments — what rung you're on.</span>
             </li>
             <li class="mb-3">
-              <a href="https://papers.apievangelist.com/papers/the-camara-standard/">The CAMARA Standard</a> <span class="badge bg-dark align-middle ms-1">$500</span><br>
+              <a href="https://reports.apievangelist.com/reports/the-camara-standard/">The CAMARA Standard</a> <span class="badge bg-dark align-middle ms-1">$500</span><br>
               <span class="text-muted small">What CAMARA publishes, what graduated, and who actually ships a conformant contract.</span>
             </li>
           </ul>

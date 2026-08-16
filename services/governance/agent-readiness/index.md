@@ -73,7 +73,7 @@ sub: Governance
               <span class="text-muted small">What an agent may do, written down where the agent can read it.</span>
             </li>
             <li class="mb-3">
-              <a href="https://papers.apievangelist.com/papers/agentic-readiness-of-venture/">The Agentic Readiness of Venture</a> <span class="badge bg-dark align-middle ms-1">$500</span><br>
+              <a href="https://reports.apievangelist.com/reports/agentic-readiness-of-venture/">The Agentic Readiness of Venture</a> <span class="badge bg-dark align-middle ms-1">$500</span><br>
               <span class="text-muted small">Which venture portfolios are ready for agents that act.</span>
             </li>
             <li class="mb-3">

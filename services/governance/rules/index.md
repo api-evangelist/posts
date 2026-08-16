@@ -43,7 +43,7 @@ sub: Governance
           <li><a href="/2026/06/28/spectral-rules-machine-readable-enforcement/">Spectral Rules: Machine-Readable Enforcement</a></li>
           <li><a href="/2026/07/01/govern-in-the-ide-where-the-work-happens/">Govern in the IDE, Where the Work Happens</a></li>
           <li><a href="/2025/04/24/the-api-governance-rule-is-just-a-representation-of-what-matters/">The API Governance Rule is Just a Representation of What Matters</a></li>
-          <li><a href="https://papers.apievangelist.com/papers/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> (paper)</li>
+          <li><a href="https://reports.apievangelist.com/reports/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> (paper)</li>
           <li><a href="https://studio.apicommons.org">Spectral Ruleset Studio</a> &mdash; turn a style guide into an owned, grounded ruleset</li>
           <li><a href="https://rulesets.apicommons.org">Ruleset Commons</a> &mdash; adopt a provenanced ruleset by reference</li>
           <li><a href="https://github.com/api-commons/spectral-owasp-ruleset">Spectral OWASP Ruleset</a> &mdash; a security layer for your rules</li>
@@ -58,7 +58,7 @@ sub: Governance
           <p class="text-muted mb-3">Everything I know about authoring rules that hold up in a real pipeline is already written down, priced, and yours to read tonight — no call, no scoping, no proposal. Start there.</p>
           <ul class="list-unstyled mb-3">
             <li class="mb-3">
-              <a href="https://papers.apievangelist.com/papers/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> <span class="badge bg-dark align-middle ms-1">$500</span><br>
+              <a href="https://reports.apievangelist.com/reports/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> <span class="badge bg-dark align-middle ms-1">$500</span><br>
               <span class="text-muted small">A thousand real public pipelines, read for what teams actually enforce.</span>
             </li>
             <li class="mb-3">

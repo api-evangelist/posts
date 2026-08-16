@@ -37,7 +37,7 @@ Most vendors haven't checked. There's rarely time, it doesn't age well, and ther
 
 Those are three different problems, calling for three different approaches to tackle them. One is a product conversation. One is a documentation conversation. One is a positioning conversation. Knowing which one you're facing is most of the battle, and it's exactly what most teams are currently guessing at rather than working from evidence.
 
-This is what [The State of API Management](https://papers.apievangelist.com/papers/state-of-management-apis/) was built to answer. It draws on years I've spent assessing API service providers through the lens of technology, business and politics, shaped into a structured score — the *Kin Score* — that looks at contract quality, developer ergonomics, commercial clarity, operational transparency, governance and discoverability, with agent readiness scored on its own separate axis, across thirty-five API management platforms, gateways and data planes in 2026.
+This is what [The State of API Management](https://reports.apievangelist.com/reports/state-of-management-apis/) was built to answer. It draws on years I've spent assessing API service providers through the lens of technology, business and politics, shaped into a structured score — the *Kin Score* — that looks at contract quality, developer ergonomics, commercial clarity, operational transparency, governance and discoverability, with agent readiness scored on its own separate axis, across thirty-five API management platforms, gateways and data planes in 2026.
 
 ## The Stakes Are Rising With AI
 
@@ -49,6 +49,6 @@ Apigee, Boomi, MuleSoft, Amazon API Gateway, Zuplo, Apidog and Azure API Managem
 
 ## Before Someone Else Tells You Where You Stand
 
-[The State of API Management](https://papers.apievangelist.com/papers/state-of-management-apis/) gives sales, product marketing, product and leadership teams a shared, evidence-based starting point, whichever side of that gap you're working on. It includes the full scoring breakdown, the reasoning behind it and a data bundle you can bring into your own tools to check the findings yourself. You can see exactly what's included on the report page.
+[The State of API Management](https://reports.apievangelist.com/reports/state-of-management-apis/) gives sales, product marketing, product and leadership teams a shared, evidence-based starting point, whichever side of that gap you're working on. It includes the full scoring breakdown, the reasoning behind it and a data bundle you can bring into your own tools to check the findings yourself. You can see exactly what's included on the report page.
 
-Before your next prospective customer forms their own view of where you stand, it might be worth forming yours first. [See what's in the report](https://papers.apievangelist.com/papers/state-of-management-apis/).
+Before your next prospective customer forms their own view of where you stand, it might be worth forming yours first. [See what's in the report](https://reports.apievangelist.com/reports/state-of-management-apis/).

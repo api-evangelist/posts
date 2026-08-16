@@ -22,8 +22,8 @@ I will keep evangelizing the importance of JSON Schema. I will keep forcing it o
 
 ---
 
-**Going deeper: [The JSON Schema Standard](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)**
+**Going deeper: [The JSON Schema Standard](https://reports.apievangelist.com/reports/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)**
 
 9,439,146 schema objects measured inside published API contracts — and an industry still writing with the vocabulary it had in 2013.
 
-[Read the paper — $500](https://papers.apievangelist.com/papers/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)
+[Read the paper — $500](https://reports.apievangelist.com/reports/the-json-schema-standard/?ae_ref=apievangelist.com&ae_pos=post-footer)

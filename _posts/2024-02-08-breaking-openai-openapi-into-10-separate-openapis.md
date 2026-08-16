@@ -37,8 +37,8 @@ Next I will produce an overlay for the OpenAI APIs.json, as well as ten separate
 
 ---
 
-**Going deeper: [The State of Artificial Intelligence APIs](https://papers.apievangelist.com/papers/state-of-artificial-intelligence-apis/?ae_ref=apievangelist.com&ae_pos=post-footer)**
+**Going deeper: [The State of Artificial Intelligence APIs](https://reports.apievangelist.com/reports/state-of-artificial-intelligence-apis/?ae_ref=apievangelist.com&ae_pos=post-footer)**
 
 4,904 AI companies scored — the industry selling agents produces a machine-readability distribution indistinguishable from the average of every other industry in the catalog.
 
-[Read the paper — $500](https://papers.apievangelist.com/papers/state-of-artificial-intelligence-apis/?ae_ref=apievangelist.com&ae_pos=post-footer)
+[Read the paper — $500](https://reports.apievangelist.com/reports/state-of-artificial-intelligence-apis/?ae_ref=apievangelist.com&ae_pos=post-footer)

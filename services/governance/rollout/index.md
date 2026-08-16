@@ -46,7 +46,7 @@ sub: Governance
           <li><a href="https://waivers.apicommons.org">Governance Waivers</a> &mdash; sanctioned, owned, expiring exceptions</li>
           <li><a href="https://scorecard.apicommons.org">Governance Scorecard</a> &mdash; is the estate getting healthier over time?</li>
           <li><a href="/services/governance/rules/">Rules</a> and <a href="/services/governance/pipelines/">Pipelines</a> services &mdash; craft the rules and wire the enforcement</li>
-          <li><a href="https://papers.apievangelist.com/papers/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> (paper)</li>
+          <li><a href="https://reports.apievangelist.com/reports/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> (paper)</li>
         </ul>
       </div>
 

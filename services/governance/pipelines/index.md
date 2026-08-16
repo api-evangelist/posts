@@ -43,7 +43,7 @@ sub: Governance
           <li><a href="/2026/07/02/ci-cd-pipelines-make-governance-consistent/">CI/CD Pipelines Make Governance Consistent</a></li>
           <li><a href="/2025/03/05/the-semantics-of-api-pipelines/">The Semantics of API Pipelines</a></li>
           <li><a href="/2025/03/18/roll-out-api-governance-rules-by-domain-or-team-in-cicd-pipelines/">Roll Out API Governance Rules By Domain or Team in CI/CD Pipelines</a></li>
-          <li><a href="https://papers.apievangelist.com/papers/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> (paper)</li>
+          <li><a href="https://reports.apievangelist.com/reports/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> (paper)</li>
           <li><a href="https://pipeline.apicommons.org">Governance Pipeline</a> &mdash; the free, forkable pipeline blueprint</li>
           <li><a href="https://auditor.apicommons.org">Governance Pipeline Auditor</a> &mdash; score an existing pipeline</li>
         </ul>
@@ -56,7 +56,7 @@ sub: Governance
           <p class="text-muted mb-3">Everything I know about governance in the pipeline rather than in a document is already written down, priced, and yours to read tonight — no call, no scoping, no proposal. Start there.</p>
           <ul class="list-unstyled mb-3">
             <li class="mb-3">
-              <a href="https://papers.apievangelist.com/papers/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> <span class="badge bg-dark align-middle ms-1">$500</span><br>
+              <a href="https://reports.apievangelist.com/reports/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> <span class="badge bg-dark align-middle ms-1">$500</span><br>
               <span class="text-muted small">A thousand real public pipelines, read for what teams actually enforce.</span>
             </li>
             <li class="mb-3">
