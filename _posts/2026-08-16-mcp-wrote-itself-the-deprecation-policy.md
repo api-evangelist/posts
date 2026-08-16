@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: MCP Wrote Itself the Deprecation Policy It Has Not Written for You
+title: You Can Deprecate a Listing. You Cannot Deprecate a Tool.
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/mcp-wrote-itself-the-deprecation-policy.png
 date: 2026-08-16
 author: Kin Lane
@@ -17,7 +17,7 @@ Nathan Booker asked me a good question on LinkedIn a couple of weeks back, and i
 
 The first thing to say is that MCP takes change more seriously than the conversation gives it credit for. The Model Context Protocol has a feature lifecycle and deprecation policy, adopted through its proposal process, and it is genuinely good. Features move through Active, Deprecated, and Removed. There is a minimum twelve-month window between deprecation and the earliest possible removal. The deprecation proposal has to document a migration path, or explicitly state that none is needed, and a named replacement has to already exist before the deprecation lands. There is one canonical page listing everything on its way out and by when. The client libraries are required to mark deprecated surface using the language's own mechanism, and should emit a runtime warning when you touch it, and a library that keeps failing to do that can be relegated. That is the deprecation practice I have been asking API providers for since 2015. The working group wrote it for itself and shipped it.
 
-Now go one layer down. When you publish a server to the MCP registry you must give it a version string, it has to be unique for that publication, and it is immutable once published. Semantic versioning is recommended. Version ranges are prohibited. All real, all enforced — and all of it about *identity*. It exists so a registry can tell you which publication is which and which one is newest. There is a deprecation status in the registry metadata, which is more than I expected to find, and you can leave a free-text note with it. What there is nowhere to put is a date by which the thing stops working, a structured pointer to what replaced it, or anything scoped smaller than the whole server. You can deprecate a listing. You cannot deprecate a tool.
+Now go one layer down. When you publish a server to the MCP registry you must give it a version string, it has to be unique for that publication, and it is immutable once published. Semantic versioning is recommended. Version ranges are prohibited. All real, all enforced — and all of it about *identity*. It exists so a registry can tell you which publication is which and which one is newest. There is a deprecation status in the registry metadata, which is more than I expected to find, and you can leave a free-text note with it. What there is nowhere to put is a date by which the thing stops working, a structured pointer to what replaced it, or anything scoped smaller than the whole server. The unit of deprecation is the listing. The unit an agent binds to is the tool.
 
 Go one more layer down, to the tool surface itself — which tools exist, what they are called, what their descriptions say — and there is nothing. No policy, no field, no convention. Which is unfortunate, because that is the layer an agent actually binds to. A model does not consume your server version. It reads a list of tools with names and descriptions and decides what to call on the strength of that text.
 
