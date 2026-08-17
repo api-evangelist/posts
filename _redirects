@@ -8,7 +8,10 @@
 /.well-known/api-onboarding    /.well-known/api-onboarding.json    200
 /.well-known/agent-skills      /.well-known/agent-skills/index.json 200
 
-# Rewritten 2026-08-17: the standards synthesis was republished as a report of
-# what the trend reports found rather than an argument about why standards get
-# adopted. The first slug was live for ~20 minutes; 301 so it does not 404.
-/2026/08/17/a-standard-takes-when-not-having-it-hurts-the-publisher/  /2026/08/17/what-the-trend-reports-found-in-the-standards-layer/  301
+# WARNING — this file is NOT honored on apievangelist.com as currently hosted.
+# `_redirects` is a Cloudflare PAGES feature. This site serves from GitHub Pages
+# behind the Cloudflare CDN (responses carry x-github-request-id with
+# server: cloudflare), so nothing here is read at request time. The extensionless
+# /.well-known/api-catalog 200 above comes from a Cloudflare-side rule, not from
+# this file. Verified 2026-08-17 by adding a 301 here and getting a 404.
+# Any new redirect has to be added as a Cloudflare Redirect Rule instead.
