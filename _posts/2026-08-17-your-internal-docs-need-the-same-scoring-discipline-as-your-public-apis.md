@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'Your Internal Docs Need the Same Scoring Discipline as Your Public APIs'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/your-internal-docs-need-the-same-scoring-discipline-as-your-public-apis.png
-date: 2026-09-28
+date: 2026-08-17
 author: Kin Lane
 tags:
   - Agent Skills
