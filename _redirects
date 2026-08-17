@@ -7,3 +7,8 @@
 /.well-known/api-catalog       /.well-known/api-catalog.json       200
 /.well-known/api-onboarding    /.well-known/api-onboarding.json    200
 /.well-known/agent-skills      /.well-known/agent-skills/index.json 200
+
+# Rewritten 2026-08-17: the standards synthesis was republished as a report of
+# what the trend reports found rather than an argument about why standards get
+# adopted. The first slug was live for ~20 minutes; 301 so it does not 404.
+/2026/08/17/a-standard-takes-when-not-having-it-hurts-the-publisher/  /2026/08/17/what-the-trend-reports-found-in-the-standards-layer/  301
