@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Where I Am At With Forking Spectral'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/where-i-am-at-with-forking-spectral.png
 date: 2026-08-19
 author: Kin Lane
 tags:
