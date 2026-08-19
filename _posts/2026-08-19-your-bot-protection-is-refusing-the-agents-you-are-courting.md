@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Your Bot Protection Is Refusing The Agents You Are Courting'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/your-bot-protection-is-refusing-the-agents-you-are-courting.png
 date: 2026-08-19
 author: Kin Lane
 tags:
