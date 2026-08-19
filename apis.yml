@@ -59,20 +59,33 @@ apis:
   contact:
   - FN: Kin Lane
     email: info@apievangelist.com
-- aid: posts:posts-contracts-api
-  name: API Evangelist Contracts API
-  description: An agreement between API producer and consumers.
+- aid: posts:api-evangelist-network-api
+  name: API Evangelist Network API
+  description: >-
+    Sixteen years of API research as one read-only REST API — stories, topic areas,
+    guidance, rules, policies, standards, strategies, papers, reports, conversations,
+    tools, videos and the full vocabulary. Free discovery; the research depth
+    (full content, curated topic guides, catalog stats) is Pro.
+  image: >-
+    https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
   humanURL: https://developer.apievangelist.com
   baseURL: https://api.apievangelist.com/v1
   tags:
-  - Contracts
+  - APIs
+  - API Evangelist
+  - Research
   properties:
   - type: OpenAPI
-    url: openapi/posts-contracts-api-openapi.yml
+    url: https://developer.apievangelist.com/apis/apievangelist-v1-openapi.yml
   - type: Documentation
     url: https://developer.apievangelist.com
+  - type: Plans
+    url: https://developer.apievangelist.com/plans/
   - type: GitHubRepository
     url: https://github.com/api-evangelist/apievangelist-aws
+  contact:
+  - FN: Kin Lane
+    email: info@apievangelist.com
 common:
   - type: DeveloperPortal
     url: https://developer.apievangelist.com/
@@ -81,7 +94,7 @@ common:
   - type: GitHubOrganization
     url: https://github.com/api-evangelist
   - type: APIsJSON
-    url: https://developer.apievangelist.com/apis.json
+    url: https://apievangelist.com/apis.yml
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
