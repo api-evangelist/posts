@@ -8,6 +8,33 @@ sub: Ratings
 permalink: /rating/
 ---
 
+{%- comment -%}
+  Everything numeric on this page renders from site.data.scoring, mirrored from
+  api-search/signals/_data/scoring.yml by apievangelist-aws/scripts/mirror-rubric.py —
+  the same file the scorer reads. Do not hand-copy weights, points, bands, shares or
+  counts back into this page.
+
+  It used to be hand-written, and by 0.12.0 every number on it was wrong: "six facets
+  and 74 checks" against 8 facets and 110 checks; composite bands at 70/60/45/30/15
+  against 66.5/54.3/39.3/26.2/11; agent bands at 60/45/15 against 46/34/6; and two facets
+  renamed in the rubric — Governance to Contract Governance, Commercial Clarity to Access
+  Clarity — still under their old names. None of that errored. The page kept rendering,
+  and it kept being the page a provider is sent to when they want to know why they scored
+  what they scored.
+
+  facet_order is presentation only (weight-descending). A facet added to the rubric and
+  not listed here will not render — the same trap that hid `regulatory` on apis.io for
+  three months. The per-facet existence guard below means a REMOVED facet degrades to a
+  missing row rather than an empty one.
+{%- endcomment -%}
+{%- assign rubric = site.data.scoring -%}
+{%- assign bands = rubric.bands | sort: "min" | reverse -%}
+{%- assign abands = rubric.agent_readiness.bands | sort: "min" | reverse -%}
+{%- assign dims = rubric.agent_readiness.dimensions | sort: "points" | reverse -%}
+{%- assign facet_order = "contract_quality,developer_ergonomics,commercial_clarity,operational_transparency,governance,discoverability,regulatory,open_source" | split: "," -%}
+{%- assign all_checks = 0 -%}
+{%- for art_pair in rubric.artifacts -%}{%- for c in art_pair[1].checks -%}{%- assign all_checks = all_checks | plus: 1 -%}{%- endfor -%}{%- endfor -%}
+
 <style>
   .rate-band { display:inline-block; padding:0.25em 0.7em; border-radius:999px; font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; white-space:nowrap; }
   .rb-exemplar{background:#d1f7e0;color:#0f5132}.rb-strong{background:#cfe2ff;color:#0a3d91}.rb-developing{background:#fff3cd;color:#664d03}.rb-thin{background:#ffe0c2;color:#7a3e07}.rb-emerging{background:#f8d7da;color:#842029}.rb-minimal{background:#e9ecef;color:#495057}
@@ -42,59 +69,53 @@ permalink: /rating/
       <!-- Two scores -->
       <h2 class="fs-5 fw-semibold mt-4 mb-2">Two scores, on purpose</h2>
       <div class="mb-2" style="max-width: 46rem;">
-        <p class="mb-3"><strong>Composite quality</strong> is what people expect: how complete, transparent, and integration-ready an API is for a human developer &mdash; a weighted blend of six facets and 74 individual checks, deliberately blunt because the point is comparability, not a certificate.</p>
+        <p class="mb-3"><strong>Composite quality</strong> is what people expect: how complete, transparent, and integration-ready an API is for a human developer &mdash; a weighted blend of six always-on facets and {{ all_checks }} individual checks, plus two conditional facets that apply only where they can mean something. Deliberately blunt, because the point is comparability, not a certificate.</p>
         <p class="mb-3"><strong>Agent readiness</strong> is scored separately, because a human developer papers over an enormous amount of API friction that an autonomous agent cannot. Every implicit convention a human silently absorbs &mdash; ambiguous errors, undocumented idempotency, prose-only auth &mdash; is a place an agent retries blindly, double-charges a card, or hallucinates a payload. It lives on its own axis because a provider can be thin for humans yet ready for agents, or strong for humans yet useless to their agents.</p>
       </div>
 
       <!-- Composite bands -->
       <h2 class="fs-5 fw-semibold mt-4 mb-2">Composite quality bands</h2>
-      <p class="text-muted mb-3" style="max-width:46rem;">A provider's composite score (0&ndash;100) maps to one of six bands, calibrated against the real distribution of the catalog rather than picked round. The share column is what each band actually holds today.</p>
+      <p class="text-muted mb-3" style="max-width:46rem;">A provider's composite score (0&ndash;100) maps to one of {{ bands | size }} bands, calibrated against the real distribution of the catalog rather than picked round. The share column is what each band actually holds today.</p>
       <table class="table table-sm mb-4" style="max-width:46rem;">
         <tbody>
-          <tr class="rate-band-row"><td><span class="rate-band rb-exemplar">Exemplar</span></td><td class="rr-range">70+<div class="rr-share">0.6%</div></td><td>Reference-quality API operations across every facet — a rich contract, published governance, transparent operations, and machine-readable commercial terms. The band no provider reaches by accident.</td></tr>
-          <tr class="rate-band-row"><td><span class="rate-band rb-strong">Strong</span></td><td class="rr-range">60&ndash;69.9<div class="rr-share">6.4%</div></td><td>Solid contracts, transparent operations, and an easy start. Complete on four or five facets with one clear soft spot.</td></tr>
-          <tr class="rate-band-row"><td><span class="rate-band rb-developing">Developing</span></td><td class="rr-range">45&ndash;59.9<div class="rr-share">22.3%</div></td><td>Real signal across most facets with visible, nameable gaps — a thin contract, or a good portal with no governance.</td></tr>
-          <tr class="rate-band-row"><td><span class="rate-band rb-thin">Thin</span></td><td class="rr-range">30&ndash;44.9<div class="rr-share">30.0%</div></td><td>Limited machine-readable signal — documentation a human can read but little a machine or agent can consume without scraping.</td></tr>
-          <tr class="rate-band-row"><td><span class="rate-band rb-emerging">Emerging</span></td><td class="rr-range">15&ndash;29.9<div class="rr-share">24.9%</div></td><td>More than an index entry but still mostly links rather than artifacts — the cohort most likely to move a full band from modest, well-targeted work.</td></tr>
-          <tr class="rate-band-row"><td><span class="rate-band rb-minimal">Minimal</span></td><td class="rr-range">0&ndash;14.9<div class="rr-share">15.8%</div></td><td>Index entry only; little beyond a description and a link.</td></tr>
+        {%- for b in bands %}
+          <tr class="rate-band-row"><td><span class="rate-band rb-{{ b.id }}">{{ b.label }}</span></td><td class="rr-range">{{ b.range }}<div class="rr-share">{{ b.share }}</div></td><td>{{ b.description | strip_newlines }}</td></tr>
+        {%- endfor %}
         </tbody>
       </table>
 
-      <!-- Facets -->
-      <h2 class="fs-5 fw-semibold mt-4 mb-2">The six facets</h2>
-      <p class="text-muted mb-3" style="max-width:46rem;">The composite is a weighted blend of six facets, each scored 0&ndash;100 from its own checks. The weights decide what "good" means.</p>
+      <div class="p-3 mb-4 rounded-3" style="max-width:46rem;background:#f8f9fb;border-left:4px solid #0a3d91;">
+        <p class="mb-0 small"><strong>What changed in v{{ rubric.schema_version }}.</strong> {{ rubric.release_note.body | markdownify | strip_html | strip_newlines | truncate: 620 }} <a href="https://apis.io/rating/">Read the full rubric &rarr;</a></p>
+      </div>
+
+      <h2 class="fs-5 fw-semibold mt-4 mb-2">The facets</h2>
+      <p class="text-muted mb-3" style="max-width:46rem;">The composite is a weighted blend of facets, each scored 0&ndash;100 from its own checks. The weights decide what "good" means. Six apply to every provider and sum to 100%; two are <em>conditional</em> and apply only where they can mean something &mdash; regulatory posture to providers in a regulated industry, open source to providers whose product is itself open source.</p>
       <table class="table table-sm mb-4" style="max-width:46rem;">
-        <thead><tr><th style="font-size:0.8rem;">Facet</th><th style="font-size:0.8rem;">What it measures</th><th style="font-size:0.8rem;text-align:right;">Weight</th></tr></thead>
         <tbody>
-          <tr class="rate-facet"><td><strong>Contract Quality</strong></td><td>Technical depth of the contract artifacts — OpenAPI, AsyncAPI, JSON Schema, JSON-LD.</td><td class="rf-w">25%</td></tr>
-          <tr class="rate-facet"><td><strong>Developer Ergonomics</strong></td><td>How fast is a first call? SDKs, CLI, portal, getting-started, docs, sandbox, MCP server, auth clarity.</td><td class="rf-w">20%</td></tr>
-          <tr class="rate-facet"><td><strong>Commercial Clarity</strong></td><td>Are commercial terms machine-readable? Plans, pricing, sign-up, ToS, privacy, FinOps, compliance.</td><td class="rf-w">20%</td></tr>
-          <tr class="rate-facet"><td><strong>Operational Transparency</strong></td><td>How the API behaves in production — rate limits, status, change log, deprecation, security disclosure.</td><td class="rf-w">13%</td></tr>
-          <tr class="rate-facet"><td><strong>Governance</strong></td><td>Outcomes of Spectral linting and published governance artifacts (rulesets, vocabulary), severity-weighted.</td><td class="rf-w">12%</td></tr>
-          <tr class="rate-facet"><td><strong>Discoverability</strong></td><td>Can the API be found from machine-readable metadata alone? apis.yml completeness, tagging, identity.</td><td class="rf-w">10%</td></tr>
+        {%- for fkey in facet_order %}{% assign f = rubric.facets[fkey] %}{% if f %}
+          <tr class="rate-facet"><td><strong>{{ f.label }}</strong>{% if f.conditional %} <span class="rate-band" style="background:#fdf0d5;color:#7a4b00;">conditional</span>{% endif %}</td><td>{{ f.description | strip_newlines | strip_html | truncate: 160 }}</td><td class="rf-w">{{ f.weight | times: 100 | round }}%</td></tr>
+        {%- endif %}{% endfor %}
         </tbody>
       </table>
 
-      <!-- Agent readiness -->
       <h2 class="fs-5 fw-semibold mt-4 mb-2">Agent readiness <span class="rate-band rb-agent-native align-middle">separate score</span></h2>
-      <p class="text-muted mb-3" style="max-width:46rem;">A standalone 0&ndash;100 score measuring how safely an autonomous agent can drive the API, mapped to its own four bands. A provider can be Thin for humans yet Agent-Ready, or Strong yet Human-Only.</p>
+      <p class="text-muted mb-3" style="max-width:46rem;">A standalone 0&ndash;100 score measuring how safely an autonomous agent can drive the API, mapped to its own {{ abands | size }} bands. A provider can be Thin for humans yet Agent-Ready, or Strong yet Human-Only.</p>
       <table class="table table-sm mb-3" style="max-width:46rem;">
         <tbody>
-          <tr class="rate-band-row"><td><span class="rate-band rb-agent-native">Agent-Native</span></td><td class="rr-range">60+<div class="rr-share">1.4%</div></td><td>Built to be driven by agents — the baseline contract plus the differentiators most lack: MCP, idempotency, stable errors, examples.</td></tr>
-          <tr class="rate-band-row"><td><span class="rate-band rb-agent-ready">Agent-Ready</span></td><td class="rr-range">45+<div class="rr-share">43.3%</div></td><td>An agent can drive the core surface. Contract, agentic-access classification, and auth are in place; the safety rails mostly are not.</td></tr>
-          <tr class="rate-band-row"><td><span class="rate-band rb-agent-aware">Agent-Aware</span></td><td class="rr-range">15+<div class="rr-share">16.4%</div></td><td>Partial machine-readable surface. An agent can read some of the API but hits implicit conventions and gets stuck.</td></tr>
-          <tr class="rate-band-row"><td><span class="rate-band rb-human-only">Human-Only</span></td><td class="rr-range">0+<div class="rr-share">38.9%</div></td><td>Little an agent can consume without a human first reading the site.</td></tr>
+        {%- for b in abands %}
+          <tr class="rate-band-row"><td><span class="rate-band rb-{{ b.id }}">{{ b.label }}</span></td><td class="rr-range">{{ b.range }}<div class="rr-share">{{ b.share }}</div></td><td>{{ b.description | strip_newlines }}</td></tr>
+        {%- endfor %}
         </tbody>
       </table>
-      <p class="text-muted small mb-2" style="max-width:46rem;">Twelve dimensions feed the score (points each):</p>
+      <p class="text-muted small mb-2" style="max-width:46rem;">{{ dims | size }} dimensions feed the score (points each):</p>
       <div class="mb-4" style="max-width:46rem;">
-        <span class="rate-dim">Machine-Readable Contract <b>18</b></span><span class="rate-dim">Agentic Access Contract <b>15</b></span><span class="rate-dim">MCP Server <b>12</b></span><span class="rate-dim">Machine-Readable Auth <b>10</b></span><span class="rate-dim">Idempotency <b>9</b></span><span class="rate-dim">Stable Error Semantics <b>8</b></span><span class="rate-dim">Request/Response Examples <b>7</b></span><span class="rate-dim">Rate-Limit Signaling <b>7</b></span><span class="rate-dim">Typed Event Surface <b>6</b></span><span class="rate-dim">Agent Skills <b>5</b></span><span class="rate-dim">Well-Known Catalog <b>4</b></span><span class="rate-dim">Consent &amp; Bot Identity <b>3</b></span>
+        {%- for d in dims %}<span class="rate-dim">{{ d.label }} <b>{{ d.points }}</b></span>{% endfor %}
       </div>
 
       <!-- Transparency -->
       <h2 class="fs-5 fw-semibold mt-4 mb-2">Transparency is the product</h2>
       <div class="mb-2" style="max-width: 46rem;">
-        <p class="mb-3">The rubric is versioned, all 74 checks are enumerated with the points they award, and the bands are calibrated against the real distribution of what is actually out there rather than picked to flatter anyone. If you disagree with a weight, you can see the weight. If you think a check is wrong, you can see the check. A rating nobody can inspect is just an opinion with better production values, and the industry has enough of those.</p>
+        <p class="mb-3">The rubric is versioned, all {{ all_checks }} checks are enumerated with the points they award, and the bands are calibrated against the real distribution of what is actually out there rather than picked to flatter anyone. If you disagree with a weight, you can see the weight. If you think a check is wrong, you can see the check. A rating nobody can inspect is just an opinion with better production values, and the industry has enough of those.</p>
       </div>
 
       <!-- Where it runs -->
@@ -106,7 +127,7 @@ permalink: /rating/
       <!-- CTA -->
       <div class="p-4 mb-4 rounded-3" style="max-width: 46rem; background: linear-gradient(135deg,#f5f8fe,#eef3fb); border:1px solid #d4def0; border-left:5px solid #0a3d91;">
         <p class="mb-2 fw-semibold" style="color:#12233f;">See it running on APIs.io</p>
-        <p class="text-muted mb-3">Browse live ratings for thousands of API providers, and read the full rubric &mdash; every facet, all 74 checks, both scoring axes, and the agent-readiness dimensions with their exact points.</p>
+        <p class="text-muted mb-3">Browse live ratings for thousands of API providers, and read the full rubric &mdash; every facet, all {{ all_checks }} checks, both scoring axes, and the agent-readiness dimensions with their exact points.</p>
         <a href="https://apis.io/rating/" class="btn btn-primary btn-sm">The full rubric &amp; live ratings at APIs.io &rarr;</a>
       </div>
 
