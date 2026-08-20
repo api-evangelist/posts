@@ -66,6 +66,20 @@ jobs:
           python3 -m pip install --quiet pyyaml
           python3 .github/scripts/agent-twins.py --property ae-posts --root .
 
+      # Publish the agent-skill bodies at the URLs the skills index promises.
+      # Jekyll turns each skills/<name>/SKILL.md SOURCE into SKILL/index.html, so
+      # the advertised .../SKILL.md 404s -- and a 404 here returns the themed blog
+      # page, i.e. a soft-404 that hands an agent 66KB of HTML with a broken hash.
+      # This copies each body verbatim into _site and re-stamps every index sha256
+      # to the bytes actually served. Verified broken 2026-08-20 (8 of 8 dead).
+      #
+      # NOT continue-on-error: the index advertises these URLs unconditionally, so
+      # a silent failure republishes a catalog of dead links.
+      - name: Publish agent skill bodies
+        run: |
+          sudo chown -R "$(id -u):$(id -g)" ./_site
+          python3 .github/scripts/publish-skills.py
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
