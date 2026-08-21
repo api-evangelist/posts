@@ -23,6 +23,9 @@
 
       <!-- Content -->
       <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
+
+        {% include tag-selector.html %}
+
         {% unless page.layout == 'post' %}
         <div class="d-flex justify-content-end mb-3">
           {% include ai-toolbar.html %}
