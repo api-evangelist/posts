@@ -2,7 +2,7 @@
 layout: default
 section: About API Evangelist
 title: About API Evangelist Papers
-summary: What the papers are, how the reports are produced, what role AI plays in producing them, and what you get when you buy one.
+summary: What the papers are, how they are produced, what role AI plays in producing them, and what you get when you buy one.
 nav: About
 sub: Papers
 ---
@@ -31,51 +31,45 @@ sub: Papers
           <h1 class="fs-3 mb-4" id="rule-name-header">{{ page.title }}</h1>
 
           <div class="alert alert-primary" role="note" style="border-left:4px solid #1c5f90;">
-            <p class="mb-2"><strong>The short version.</strong> API Evangelist has been publishing white papers on the API space since 2010. A <strong>paper</strong> distills one practice into a single PDF of about twenty pages. The <strong><a href="/about/reports">reports</a></strong> are a different product &mdash; they measure a population of API providers against a public rubric &mdash; and they live at <a href="https://reports.apievangelist.com/">reports.apievangelist.com</a>.</p>
-            <p class="mb-0"><strong>The reports are generated using artificial intelligence.</strong> The data underneath them is open source. If a report is wrong, tell me and I will fix it in the next version. If it was not worth what you paid, tell me and I will refund it.</p>
+            <p class="mb-2"><strong>The short version.</strong> API Evangelist has been publishing white papers on the API space since 2010. A <strong>paper</strong> distills one practice into a single PDF of about twenty pages, and they are sold from <a href="https://papers.apievangelist.com/">papers.apievangelist.com</a>.</p>
+            <p class="mb-0">The data underneath them is open source. If a paper is wrong, tell me and I will fix it in the next version. If it was not worth what you paid, tell me and I will refund it.</p>
           </div>
 
           <h2 class="fs-5 mt-5" id="tradition">Fifteen years of white papers</h2>
           <p>I have been writing white papers on the API space for over fifteen years now &mdash; API management, security, design, discovery, governance, and much more. The <a href="https://papers.apievangelist.com/">API Evangelist Fundamentals</a> papers are the continuation of that tradition.</p>
           <p>The Fundamentals are not the lively, opinionated stories you get on the API Evangelist blog. They are true to white paper form &mdash; drier, down to business &mdash; while still bringing the API Evangelist expertise and flavor to a medium-form industry paper. One practice, distilled, in about twenty pages, for the operator who has to do the work on Monday.</p>
 
-          <h2 class="fs-5 mt-5" id="reports">Papers are not reports</h2>
-          <p>Alongside the papers I publish <strong>reports</strong> &mdash; Trend, Standard, Portfolio and Profile &mdash; which measure a population of providers rather than distilling a practice, and ship a machine-readable data bundle with every one. They split onto their own storefront on 2026-08-16. If it ships a data bundle it is a report; see <a href="/about/reports">about the reports</a> and <a href="https://reports.apievangelist.com/">browse them</a>.</p>
-
-          <h2 class="fs-5 mt-5" id="ai">How the reports are produced</h2>
-          <p>I want to be straightforward about this. <strong>The reports are generated using artificial intelligence.</strong></p>
-          <p>A single Agent Skill dedicated to producing reports takes the machine-readable artifacts already compiled for every API provider in the cohort and assembles them into a state of the market: a resource taxonomy, composite scoring, an agent-readiness read, a blueprint, provenance, the standards considered, the regulatory regimes evaluated, the artifacts used, security considerations, a provider-by-provider walk, an investable thesis, and where the research goes next. It is formulaic, data-driven, and conversational. It is also undeniably AI-generated, and I would rather say so here than have you work it out.</p>
-          <p>What sits underneath it is not a prompt. Over forty distinct artifact recipes &mdash; Agent Skills and pipeline steps &mdash; run against each individual provider to search for, generate, or derive what that provider publishes: OpenAPI and AsyncAPI contracts, JSON Schema, scopes and security, plans and rate limits, MCP servers, agent skills, well-known files, and the rest. One Agent Skill then produces the report from what those recipes found. This is the same posture described in <a href="/about/artificial-intelligence">my stance on how I use AI</a> &mdash; disclosure, not endorsement.</p>
+          <h2 class="fs-5 mt-5" id="ai">How AI is used</h2>
+          <p>I want to be straightforward about this. AI is part of how this research gets made, and the posture is the one spelled out in <a href="/about/artificial-intelligence">my stance on how I use AI</a> &mdash; disclosure, not endorsement.</p>
+          <p>What sits underneath the writing is not a prompt. Over forty distinct artifact recipes &mdash; Agent Skills and pipeline steps &mdash; run against each individual API provider to search for, generate, or derive what that provider publishes: OpenAPI and AsyncAPI contracts, JSON Schema, scopes and security, plans and rate limits, MCP servers, agent skills, well-known files, and the rest. That evidence is what these papers are read from.</p>
 
           <h2 class="fs-5 mt-5" id="kin-score">The Kin Score</h2>
-          <p>Every provider in every report is scored on the <a href="https://apis.io/rating/">Kin Score</a>, a public rubric applied identically to everyone in the catalog. Version 0.11.0 reads eight facets across 111 checks &mdash; discoverability, contract quality, governance, operational transparency, developer ergonomics, commercial clarity, a conditional regulatory layer covering eight industry regimes, and open source &mdash; and sorts providers into six bands. Alongside it, a standalone Agent Readiness rating reads fourteen dimensions of whether a machine could actually use what a provider ships.</p>
-          <p>The rubric is iterated on regularly, based on what provider profiling and report generation turn up. We repeat. We refine. We fix mistakes. We balance determinism and non-determinism wherever we can. When the rubric changes, providers are re-scored and the next version of every affected report is regenerated &mdash; which is why every report carries a version number and a date, and why a number quoted from an older version may not match today's.</p>
+          <p>Every provider in the catalog is scored on the <a href="https://apis.io/rating/">Kin Score</a>, a public rubric applied identically to everyone in it. Version 0.11.0 reads eight facets across 111 checks &mdash; discoverability, contract quality, governance, operational transparency, developer ergonomics, commercial clarity, a conditional regulatory layer covering eight industry regimes, and open source &mdash; and sorts providers into six bands. Alongside it, a standalone Agent Readiness rating reads fourteen dimensions of whether a machine could actually use what a provider ships.</p>
+          <p>The rubric is iterated on regularly, based on what provider profiling turns up. We repeat. We refine. We fix mistakes. We balance determinism and non-determinism wherever we can. When the rubric changes, providers are re-scored &mdash; which is why every paper carries a version number and a date, and why a number quoted from an older version may not match today's.</p>
 
           <h2 class="fs-5 mt-5" id="open">The data is open</h2>
-          <p>All of the data compiled for these reports is open source and published on the <a href="https://github.com/api-evangelist" target="_blank">API Evangelist GitHub organization</a>, and browsable at <a href="https://apis.io" target="_blank">APIs.io</a>. If you want to take a crack at making sense of an area or a market yourself, everything the reports are built from is there. What you are buying is the assembly, not access to the evidence. I think the approach baked into those artifact recipes and the Kin Score is a compelling one &mdash; but you do not have to take my word for it, because you can check it.</p>
+          <p>All of the data compiled for this research is open source and published on the <a href="https://github.com/api-evangelist" target="_blank">API Evangelist GitHub organization</a>, and browsable at <a href="https://apis.io" target="_blank">APIs.io</a>. If you want to take a crack at making sense of an area or a market yourself, everything these papers are built from is there. What you are buying is the assembly, not access to the evidence. I think the approach baked into those artifact recipes and the Kin Score is a compelling one &mdash; but you do not have to take my word for it, because you can check it.</p>
 
           <h2 class="fs-5 mt-5" id="buying">What you get, and what it costs</h2>
-          <p>The papers are written for humans first. They are dense. They are technical, but they are not code. That density is necessary &mdash; there are a lot of moving parts in these markets &mdash; and while every report is distilled down into something anyone can read or scan, the bundle is deliberately designed for consumption by the AI platform of your choice. The bar is kept low: a single ZIP of PDF, Markdown, YAML, CSV, and JSON.</p>
+          <p>The papers are written for humans first. They are dense. They are technical, but they are not code. That density is necessary &mdash; there are a lot of moving parts in these markets &mdash; and every paper is distilled down into something anyone can read or scan.</p>
           <ul>
-            <li><strong>Papers &mdash; from $25.</strong></li>
-            <li><a href="/about/reports"><strong>Reports</strong></a> &mdash; free to $1,500, priced by scope, and sold from <a href="https://reports.apievangelist.com/">their own storefront</a>.</li>
+            <li><strong>Papers &mdash; from $25</strong>, sold from <a href="https://papers.apievangelist.com/">papers.apievangelist.com</a>. Instant download.</li>
           </ul>
           <p>A human can buy with a credit card through Stripe checkout. A machine door is built and proven, so an agent will be able to purchase directly using the <a href="https://x402.org" target="_blank">x402</a> protocol &mdash; it is not switched on for live purchases yet, and this page will say so when it is. The goal is to meet the market where it is today, while acknowledging that this varies from industry to industry and role to role.</p>
 
           <h2 class="fs-5 mt-5" id="guarantee">If it is wrong, or if it was not worth it</h2>
           <ul>
-            <li><strong>If a report did not bring you the value you needed, tell me and I will refund your money.</strong> No form, no argument.</li>
-            <li><strong>If you find anything wrong or inconsistent, tell me and I will correct it in the next version.</strong> Corrections are the feedback loop these reports run on, and every provider is free to submit one or ask for a re-score at no charge.</li>
+            <li><strong>If a paper did not bring you the value you needed, tell me and I will refund your money.</strong> No form, no argument.</li>
+            <li><strong>If you find anything wrong or inconsistent, tell me and I will correct it in the next version.</strong> Corrections are the feedback loop this research runs on, and every provider is free to submit one or ask for a re-score at no charge.</li>
           </ul>
           <p>Email <a href="mailto:info@apievangelist.com">info@apievangelist.com</a> either way. A person answers.</p>
 
           <h2 class="fs-5 mt-5" id="close">Why any of this exists</h2>
-          <p>These reports are for buyers and sellers in the markets they cover. They are produced across a wide number of areas and industries using a consistent process, on Agent Skills and a Kin Score rubric that keep evolving from feedback &mdash; both human and agentic. What they are trying to do is combine sixteen years of API experience, technical and business, with fast-moving insight into an AI moment we are all still trying to make sense of.</p>
+          <p>These papers are for the operators, buyers and sellers doing the work. They are produced across a wide number of areas and industries using a consistent process, on Agent Skills and a Kin Score rubric that keep evolving from feedback &mdash; both human and agentic. What they are trying to do is combine sixteen years of API experience, technical and business, with fast-moving insight into an AI moment we are all still trying to make sense of.</p>
           <p>Let me know how I can improve them.</p>
 
           <ul class="mt-5">
             <li><a href="https://papers.apievangelist.com/">Browse the papers</a></li>
-            <li><a href="https://reports.apievangelist.com/">Browse the reports</a></li>
             <li><a href="/about/api-evangelist">About API Evangelist</a></li>
             <li><a href="/about/kin-lane">About Kin Lane</a></li>
             <li><a href="/about/artificial-intelligence">How AI is applied across API Evangelist</a></li>

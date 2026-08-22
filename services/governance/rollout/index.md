@@ -46,7 +46,6 @@ sub: Governance
           <li><a href="https://waivers.apicommons.org">Governance Waivers</a> &mdash; sanctioned, owned, expiring exceptions</li>
           <li><a href="https://scorecard.apicommons.org">Governance Scorecard</a> &mdash; is the estate getting healthier over time?</li>
           <li><a href="/services/governance/rules/">Rules</a> and <a href="/services/governance/pipelines/">Pipelines</a> services &mdash; craft the rules and wire the enforcement</li>
-          <li><a href="https://reports.apievangelist.com/reports/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> (paper)</li>
         </ul>
       </div>
 
@@ -65,7 +64,7 @@ sub: Governance
               <span class="text-muted small">Governance is 75% people work — here's the other 25%.</span>
             </li>
           </ul>
-          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric every report on this page is built from.</p>
+          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric all of this research is built from.</p>
           <p class="mb-0"><a href="https://papers.apievangelist.com/" class="btn btn-dark btn-sm">Browse all research &rarr;</a></p>
         </div>
       </div>

@@ -73,15 +73,11 @@ sub: Governance
               <span class="text-muted small">What an agent may do, written down where the agent can read it.</span>
             </li>
             <li class="mb-3">
-              <a href="https://reports.apievangelist.com/reports/agentic-readiness-of-venture/">The Agentic Readiness of Venture</a> <span class="badge bg-dark align-middle ms-1">$500</span><br>
-              <span class="text-muted small">Which venture portfolios are ready for agents that act.</span>
-            </li>
-            <li class="mb-3">
               <a href="mailto:info@apievangelist.com?subject=Provider%20Checklist">Your Provider Checklist</a> <span class="badge bg-dark align-middle ms-1">$1,500</span><br>
               <span class="text-muted small">Your own Kin Score and Agent Readiness against your peers, then every rubric check you are failing — what each is worth, what to do, and in what order. The only thing I write for the company it is about.</span>
             </li>
           </ul>
-          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric every report on this page is built from.</p>
+          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric all of this research is built from.</p>
           <p class="mb-0"><a href="https://papers.apievangelist.com/" class="btn btn-dark btn-sm">Browse all research &rarr;</a></p>
         </div>
       </div>

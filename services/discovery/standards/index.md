@@ -55,12 +55,8 @@ sub: Discovery
               <a href="https://papers.apievangelist.com/papers/the-agent-era-standards-onramp/">The Agent-Era API Standards Onramp</a> <span class="badge bg-dark align-middle ms-1">$25</span><br>
               <span class="text-muted small">The sequenced ladder from OpenAPI to agent payments — what rung you're on.</span>
             </li>
-            <li class="mb-3">
-              <a href="https://reports.apievangelist.com/reports/the-camara-standard/">The CAMARA Standard</a> <span class="badge bg-dark align-middle ms-1">$500</span><br>
-              <span class="text-muted small">What CAMARA publishes, what graduated, and who actually ships a conformant contract.</span>
-            </li>
           </ul>
-          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric every report on this page is built from.</p>
+          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric all of this research is built from.</p>
           <p class="mb-0"><a href="https://papers.apievangelist.com/" class="btn btn-dark btn-sm">Browse all research &rarr;</a></p>
         </div>
       </div>

@@ -45,7 +45,6 @@ sub: Governance
           <li><a href="https://studio.apicommons.org">Spectral Ruleset Studio</a> &mdash; turn a style guide into an owned, grounded ruleset</li>
           <li><a href="https://rulesets.apicommons.org">Ruleset Commons</a> &mdash; adopt a provenanced ruleset by reference</li>
           <li><a href="/services/governance/rules/">Rules</a> service &mdash; craft the machine-readable rules themselves</li>
-          <li><a href="https://reports.apievangelist.com/reports/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> (paper)</li>
         </ul>
       </div>
 
@@ -64,7 +63,7 @@ sub: Governance
               <span class="text-muted small">Governance is 75% people work — here's the other 25%.</span>
             </li>
           </ul>
-          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric every report on this page is built from.</p>
+          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric all of this research is built from.</p>
           <p class="mb-0"><a href="https://papers.apievangelist.com/" class="btn btn-dark btn-sm">Browse all research &rarr;</a></p>
         </div>
       </div>

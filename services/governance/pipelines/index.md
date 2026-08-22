@@ -43,7 +43,6 @@ sub: Governance
           <li><a href="/2026/07/02/ci-cd-pipelines-make-governance-consistent/">CI/CD Pipelines Make Governance Consistent</a></li>
           <li><a href="/2025/03/05/the-semantics-of-api-pipelines/">The Semantics of API Pipelines</a></li>
           <li><a href="/2025/03/18/roll-out-api-governance-rules-by-domain-or-team-in-cicd-pipelines/">Roll Out API Governance Rules By Domain or Team in CI/CD Pipelines</a></li>
-          <li><a href="https://reports.apievangelist.com/reports/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> (paper)</li>
           <li><a href="https://pipeline.apicommons.org">Governance Pipeline</a> &mdash; the free, forkable pipeline blueprint</li>
           <li><a href="https://auditor.apicommons.org">Governance Pipeline Auditor</a> &mdash; score an existing pipeline</li>
         </ul>
@@ -56,15 +55,11 @@ sub: Governance
           <p class="text-muted mb-3">Everything I know about governance in the pipeline rather than in a document is already written down, priced, and yours to read tonight — no call, no scoping, no proposal. Start there.</p>
           <ul class="list-unstyled mb-3">
             <li class="mb-3">
-              <a href="https://reports.apievangelist.com/reports/the-state-of-spectral-in-api-pipelines/">The State of Spectral in API Pipelines</a> <span class="badge bg-dark align-middle ms-1">$500</span><br>
-              <span class="text-muted small">A thousand real public pipelines, read for what teams actually enforce.</span>
-            </li>
-            <li class="mb-3">
               <a href="https://papers.apievangelist.com/papers/fundamentals-of-api-governance/">The Fundamentals of API Governance</a> <span class="badge bg-dark align-middle ms-1">$25</span><br>
               <span class="text-muted small">Governance is 75% people work — here's the other 25%.</span>
             </li>
           </ul>
-          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric every report on this page is built from.</p>
+          <p class="text-muted small mb-3"><strong>Free first:</strong> your Kin Score and Agent Readiness are already published on <a href="https://apis.io">APIs.io</a>. Look yourself up before you buy anything — the score costs nothing and it is the same rubric all of this research is built from.</p>
           <p class="mb-0"><a href="https://papers.apievangelist.com/" class="btn btn-dark btn-sm">Browse all research &rarr;</a></p>
         </div>
       </div>
