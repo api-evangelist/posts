@@ -8,8 +8,8 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.12.0
-last_updated: '2026-08-18'
+schema_version: 0.12.2
+last_updated: '2026-08-23'
 maintainer: kin@apievangelist.com
 
 # The public "what changed" note. The apis.io /rating/ page renders this rather than
@@ -19,8 +19,33 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.12.0
+  version: 0.12.2
   body: |
+    THE FIRST 0.12.x THAT MOVES POINTS. 0.12.0 and 0.12.1 were planning-surface only.
+    This one changes what providers earn, in two places, and both REDUCE credit.
+
+    `auth_clarity` is now graded by scheme class instead of crediting presence:
+    bound (mutualTLS, or an http scheme naming DPoP/Signature) 1.00; negotiable
+    (oauth2 with an authorizationCode or clientCredentials flow, or openIdConnect)
+    0.75; bearer (http bearer, apiKey) 0.35. It paid its full ten points for a
+    static API key at the same rate as OIDC — the artifact the IETF agent-auth
+    draft calls an antipattern for agent identity. The floor is 0.35 and not zero
+    on purpose: a documented API key is still machine-readable auth, and zeroing it
+    would measure the market rather than the provider. Read from the OpenAPIs you
+    already publish; no probe and no new artifact.
+
+    The well-known soft-200 filter now honours every way the harvest records a
+    miss, not only the note text. The pipeline writes that verdict seven ways
+    across its generations and the scorer read one, so an entry already marked an
+    SPA shell earned full credit wherever it used a different key. 1,521 credited
+    holdings are withdrawn across five targets — api-catalog worst, 641 to 290.
+    Every rejection is a verdict the harvest wrote down, never an inference from a
+    missing field.
+
+    Bands are NOT re-cut in this snapshot. Both changes reduce credit, so the
+    ladder is re-cut against the first full rescore that carries 0.12.2 — before
+    those numbers are published, not after.
+
     Two facets were renamed. `governance` is now **Contract Governance** — it scores
     rulesets, vocabulary, conformance and overlays, all of them artifacts describing a
     contract, and it never measured how an organisation governs itself. `commercial_clarity`
@@ -61,6 +86,29 @@ release_note:
 
 # ---------------------------------------------------------------------------
 # CHANGELOG
+#   0.12.1 (2026-08-23) — ROADMAP ONLY, NO SCORING CHANGE. Five entries added to
+#       agent_readiness.planned_dimensions off draft-klrc-aiagent-auth-00
+#       (Kasselman/Defakto, Lombardo/AWS, Rosomakho/Zscaler, Campbell/Ping;
+#       Informational, 2 March 2026, expires 3 September 2026, not WG-adopted).
+#
+#       The draft is a composition argument, not a protocol — an agent is a
+#       workload, so it gets a WIMSE/SPIFFE identifier, a short-lived bound
+#       credential off attestation, mTLS or WPT/HTTP-Message-Signatures, and
+#       OAuth 2.0 for delegation. Nothing named "draft-klrc-aiagent-auth" is
+#       scannable, and no dimension here will pretend otherwise.
+#
+#       Baseline measured the same day across all/*/openapi — 96,612 specs,
+#       6,265 providers declaring any securityScheme: 2,209 (35.3%) declare
+#       apiKey ONLY, 1,142 any oauth2, 37 any openIdConnect, 13 any mutualTLS.
+#       That distribution is why the cluster stays out of the composite for now
+#       and why auth_scheme_strength proposes a 0.35 floor rather than a zero.
+#
+#       Verify NO score moved: score.rb never reads planned_dimensions, so a
+#       re-score against 0.12.0 must diff on nothing but the schema_version stamp
+#       (score.rb:3004/3108/3234). agent_readiness.schema_version stays 0.2.
+#       Like 0.12.0 this ships INERT — published scores are still 0.11.0 and both
+#       versions land together at the next APIs.io rebuild.
+#
 #   0.10.5 (2026-08-11) — SCORE THE VERSION THE PROVIDER PUBLISHED, AND COMPARE
 #       IT AS A NUMBER. roadmap#45, reported via a provider's own submission.
 #
@@ -3044,11 +3092,35 @@ agent_readiness:
     - id: auth_clarity
       label: Machine-Readable Auth
       points: 10
-      signal: 'common[].type includes Authentication, OpenIDConnect, OAuthScopes, or API Keys'
+      graded: true
+      credit:
+        bound: 1.00
+        negotiable: 0.75
+        bearer: 0.35
+      signal: 'securitySchemes class in the provider OpenAPIs — bound (mutualTLS, DPoP, Signature) > negotiable (oauth2 authorizationCode/clientCredentials, openIdConnect) > bearer (http bearer, apiKey)'
       description: >
-        The authentication model is documented in a form an agent can negotiate
-        without reading prose — OIDC discovery, declared scopes, or OpenAPI
-        security schemes.
+        Can an agent authenticate in a way that is bound to it, or only bear a
+        secret? Graded in 0.12.2 (roadmap#97): this credited presence and stopped,
+        so `apiKey` earned the same ten points as OIDC. IETF
+        draft-klrc-aiagent-auth-00 calls static API keys "an antipattern for agent
+        identity — bearer artifacts that are not cryptographically bound, do not
+        convey identity, are typically long-lived and are operationally difficult
+        to rotate". A dimension named Machine-Readable Auth was paying top price
+        for the artifact the field is converging on calling unsuitable.
+        THE FLOOR IS 0.35 AND NOT ZERO, deliberately: a documented API key is
+        still machine-readable auth, and zeroing the 2,209 providers who declare
+        only `apiKey` would measure the market rather than the provider.
+        Read from the refined per-tag OpenAPIs, which already carry
+        `securitySchemes` — no probe and no new artifact. The apis.yml pointer
+        remains a FALLBACK grading `bearer`, so a provider whose specs we have not
+        indexed is not zeroed for our own gap; a pointer cannot name a scheme class.
+        THE ID STAYS `auth_clarity` ON PURPOSE. `auth_scheme_strength` in
+        planned_dimensions describes this change, but the dimension id is
+        POSITIONAL — DIM_ORDER in build_listings.py and DIMENSIONS in the glyph
+        both encode by slot — so renaming it is a coordinated four-place change
+        of the kind roadmap#89 documents. The regrade is the value; the rename is
+        cosmetic and can ride a future glyph release. Same reasoning as the
+        `emits_as` facet aliases.
     # ---------------------------------------------------------------------
     # THE THREE SPEC-VERIFIED DIMENSIONS (graded in 0.6)
     #
@@ -3422,3 +3494,108 @@ agent_readiness:
         Whether an agent can tell two operations apart from their descriptions.
         JAIRF computes it with embeddings; nothing equivalent exists here. The most
         directly agent-relevant check in a competitor's spec that this rubric lacks.
+
+    # -----------------------------------------------------------------------
+    # THE AGENT-AUTH CLUSTER — proposed 2026-08-23 off the IETF draft
+    # `draft-klrc-aiagent-auth-00`, "AI Agent Authentication and Authorization"
+    # (Kasselman/Defakto, Lombardo/AWS, Rosomakho/Zscaler, Campbell/Ping;
+    # Informational, expires 3 September 2026, not WG-adopted).
+    #
+    # The draft defines NO header, NO claim and NO well-known path of its own.
+    # It is a composition argument: an agent is a workload, so it gets one
+    # WIMSE/SPIFFE identifier, a short-lived cryptographically bound credential
+    # issued off attestation, mTLS or WPT/HTTP-Message-Signatures for
+    # authentication, and OAuth 2.0 for delegation. There is therefore NOTHING
+    # to scan for named "draft-klrc-aiagent-auth", and no dimension should ever
+    # claim to measure conformance to it. Each dimension below measures ONE
+    # constituent the draft names, from evidence that already exists or from a
+    # probe this catalog already knows how to run.
+    #
+    # The draft's sharpest sentence for this rubric is that static API keys are
+    # an antipattern for agent identity: bearer artifacts, not cryptographically
+    # bound, conveying no identity, long-lived, hard to rotate. `auth_clarity`
+    # currently awards its full 10 points when `common[].type` includes API Keys
+    # — the antipattern scores identically to OIDC discovery. That is the first
+    # thing to fix, and it is a REGRADE of an existing dimension, not a new one.
+    #
+    # MEASURED 2026-08-23 across all/*/openapi (96,612 specs, 6,265 providers
+    # declaring any securityScheme):
+    #     apiKey ONLY .............. 2,209 providers (35.3%)
+    #     any oauth2 ............... 1,142 providers (18.2%)
+    #     any openIdConnect ........... 37 providers (0.6%)
+    #     any mutualTLS ............... 13 providers (0.2%)
+    # A cluster this empty discriminates at the top only. Weight it accordingly,
+    # and do not add it to the composite until the distribution justifies it.
+    # -----------------------------------------------------------------------
+    - id: auth_scheme_strength
+      label: Bound vs Bearer Authentication
+      signal: 'grade auth_clarity by scheme class rather than crediting any declared scheme equally'
+      supersedes: auth_clarity
+      blocked_on: rubric
+      description: >
+        Regrade, not a new dimension. `auth_clarity` reads presence and stops:
+        `apiKey` earns the same 10 points as `openIdConnect`. Proposed credit —
+        bound (mutualTLS, or an http scheme naming DPoP/Signature) 1.00;
+        negotiable (oauth2 with an authorizationCode or clientCredentials flow, or
+        openIdConnect) 0.75; bearer-only (http bearer, apiKey) 0.35. The floor stays
+        well above zero on purpose: a documented API key is still machine-readable
+        auth, and zeroing 2,209 providers would measure the market rather than them.
+        Readable TODAY from the refined per-tag OpenAPIs — no probe, no new artifact.
+    - id: delegated_identity
+      label: Delegated User Identity
+      signal: 'an oauth2 authorizationCode flow, or openIdConnect, so a token can carry the user the agent acts for'
+      blocked_on: parser
+      description: >
+        Can a caller obtain a token scoped to the human it is acting for, or only a
+        credential belonging to the integration itself. Section 10.3 of the draft
+        splits exactly this way — user delegates authorization vs agent obtains its
+        own — and nothing in this rubric distinguishes them. It is the difference
+        between an audit log that can name a delegated subject and one that cannot,
+        which Section 11 makes a MUST. Distinct from `auth_scheme_strength`: a
+        provider can hold strong bound credentials and still have no delegation path.
+    - id: protected_resource_metadata
+      label: Protected Resource Metadata
+      signal: 'RFC 9728 document served at the API host, with a real issuer/authorization_servers body'
+      # Corrected 0.12.2 (roadmap#101, #98). This read `probe`, which was wrong and was published
+      # wrong in the rubric/scoring-0.12.1.yml snapshot: the pipeline ALREADY probes and saves this
+      # document — /.well-known/oauth-protected-resource on 1,467 providers, 473 with a saved body,
+      # alongside openid-configuration (5,881 / 889) and oauth-authorization-server (5,714 / 1,009).
+      # Nothing needs fetching for this dimension. What is missing is a check that reads it, which
+      # is why it is blocked on the rubric and not on collection.
+      blocked_on: rubric
+      description: >
+        Section 10.9.2 — an agent discovers HOW a resource is protected and WHICH
+        authorization server protects it, at runtime, instead of being configured.
+        This is the one part of the framework that IS a fetchable artifact at a
+        provider's own domain, which makes it the cheapest honest proxy for the whole
+        cluster and a natural sibling to `well_known_published` and `agent_card`.
+        MUST parse the body, never the status code: sampled 2026-08-23, api.slack.com
+        returns HTTP 200 text/html for /.well-known/oauth-protected-resource,
+        /.well-known/oauth-authorization-server AND /.well-known/openid-configuration
+        — a docs-site catch-all that would earn full credit three times over from a
+        status-code probe. Credit only application/json parsing to an object carrying
+        `resource` plus a non-empty `authorization_servers`. See the same soft-200
+        failure already paid for in the well-known and MCP probes.
+    - id: dynamic_client_registration
+      label: Registration Without a Human
+      signal: 'RFC 7591 registration_endpoint advertised in served AS metadata, or a Client ID Metadata Document accepted'
+      blocked_on: probe
+      description: >
+        Section 10.9.3. If every new agent needs a developer to fill in a portal form
+        and paste a key, the provider has no agent onboarding path regardless of what
+        its docs claim. Cheap to read as a field of the RFC 8414 / OIDC discovery
+        document the `protected_resource_metadata` probe already fetches, so it costs
+        one JSON key rather than a second probe. Pairs with `console_or_sandbox` and
+        `sign_up_present`, which today measure the HUMAN onboarding path only.
+    - id: agent_identity_declared
+      label: Workload Identity for Callers
+      signal: 'WIMSE/SPIFFE identifiers, WIT/SVID credentials, or Workload-Proof-Token accepted at the API surface'
+      blocked_on: collection
+      description: >
+        Sections 5-6 — the identifier and its cryptographic binding, the actual spine
+        of the draft. Almost certainly near-empty on the public API surface today:
+        13 providers in the catalog declare mutualTLS at all, and workload identity
+        currently lives inside private meshes rather than at a public edge. Parked
+        deliberately, not dropped. Re-measure before building it; a dimension nobody
+        can earn measures the market, not the provider, and belongs in a report
+        finding rather than in a score.
