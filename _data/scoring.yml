@@ -3316,6 +3316,40 @@ agent_readiness:
         stays parked at 13 providers.
         ADDED AT SLOT 16, APPENDED. Dimension order is positional in DIM_ORDER and in
         the glyph; appending shifts nothing, inserting would shift every slot after it.
+    - id: protected_resource_metadata
+      label: Protected Resource Metadata
+      points: 5
+      graded: true
+      credit:
+        verified: 1.00
+        documented: 0.50
+      signal: 'a served /.well-known/oauth-protected-resource carrying `resource` (documented), and naming its authorization_servers (verified)'
+      description: >
+        RFC 9728. Section 10.9.2 of draft-klrc-aiagent-auth-00 — an agent discovers HOW
+        a resource is protected and WHICH authorization server protects it, at runtime,
+        instead of being configured by a human. It is the ONLY part of that draft's
+        composition that is a fetchable artifact at the provider's own domain; WIMSE
+        identifiers, attestation and Transaction Tokens all live inside provider
+        infrastructure and cannot be observed from outside.
+        `resource` is the required field. `authorization_servers` is what makes the
+        document actionable — without it an agent learns the resource is protected but
+        not by whom, which describes a lock and not the key.
+        NOT PROBED BY STATUS CODE. api.slack.com answers 200 text/html to this path and
+        to both OAuth metadata paths — a docs-site catch-all — so a status probe would
+        award full credit three times over to a provider serving none of them. The saved
+        BODY is read and the required field tested.
+    - id: dynamic_client_registration
+      label: Registration Without a Human
+      points: 6
+      signal: 'a `registration_endpoint` in the served RFC 8414 / OIDC discovery document'
+      description: >
+        RFC 7591. Section 10.9.3 — if every new agent needs a developer to fill in a
+        portal form and paste a key, the provider has no agent onboarding path
+        regardless of what its docs claim. `console_or_sandbox` and `sign_up_present`
+        measure the HUMAN onboarding path only; this is the machine one.
+        Costs ONE JSON KEY rather than a probe: `registration_endpoint` is a field of
+        the discovery document the pipeline already fetches and saves on 889 providers.
+        APPENDED AT SLOT 18. Dimension order is positional in DIM_ORDER and the glyph.
   # Cut points calibrated against the real distribution (re-cut 2026-07-28,
   # 25,573 providers) — re-derive with band_distribution.rb after any change to
   # dimensions or points. The spread is deliberately bimodal: a large floor at
@@ -3582,40 +3616,6 @@ agent_readiness:
         well above zero on purpose: a documented API key is still machine-readable
         auth, and zeroing 2,209 providers would measure the market rather than them.
         Readable TODAY from the refined per-tag OpenAPIs — no probe, no new artifact.
-    - id: protected_resource_metadata
-      label: Protected Resource Metadata
-      signal: 'RFC 9728 document served at the API host, with a real issuer/authorization_servers body'
-      # Corrected 0.12.2 (roadmap#101, #98). This read `probe`, which was wrong and was published
-      # wrong in the rubric/scoring-0.12.1.yml snapshot: the pipeline ALREADY probes and saves this
-      # document — /.well-known/oauth-protected-resource on 1,467 providers, 473 with a saved body,
-      # alongside openid-configuration (5,881 / 889) and oauth-authorization-server (5,714 / 1,009).
-      # Nothing needs fetching for this dimension. What is missing is a check that reads it, which
-      # is why it is blocked on the rubric and not on collection.
-      blocked_on: rubric
-      description: >
-        Section 10.9.2 — an agent discovers HOW a resource is protected and WHICH
-        authorization server protects it, at runtime, instead of being configured.
-        This is the one part of the framework that IS a fetchable artifact at a
-        provider's own domain, which makes it the cheapest honest proxy for the whole
-        cluster and a natural sibling to `well_known_published` and `agent_card`.
-        MUST parse the body, never the status code: sampled 2026-08-23, api.slack.com
-        returns HTTP 200 text/html for /.well-known/oauth-protected-resource,
-        /.well-known/oauth-authorization-server AND /.well-known/openid-configuration
-        — a docs-site catch-all that would earn full credit three times over from a
-        status-code probe. Credit only application/json parsing to an object carrying
-        `resource` plus a non-empty `authorization_servers`. See the same soft-200
-        failure already paid for in the well-known and MCP probes.
-    - id: dynamic_client_registration
-      label: Registration Without a Human
-      signal: 'RFC 7591 registration_endpoint advertised in served AS metadata, or a Client ID Metadata Document accepted'
-      blocked_on: probe
-      description: >
-        Section 10.9.3. If every new agent needs a developer to fill in a portal form
-        and paste a key, the provider has no agent onboarding path regardless of what
-        its docs claim. Cheap to read as a field of the RFC 8414 / OIDC discovery
-        document the `protected_resource_metadata` probe already fetches, so it costs
-        one JSON key rather than a second probe. Pairs with `console_or_sandbox` and
-        `sign_up_present`, which today measure the HUMAN onboarding path only.
     - id: agent_identity_declared
       label: Workload Identity for Callers
       signal: 'WIMSE/SPIFFE identifiers, WIT/SVID credentials, or Workload-Proof-Token accepted at the API surface'
