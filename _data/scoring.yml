@@ -3350,6 +3350,37 @@ agent_readiness:
         Costs ONE JSON KEY rather than a probe: `registration_endpoint` is a field of
         the discovery document the pipeline already fetches and saves on 889 providers.
         APPENDED AT SLOT 18. Dimension order is positional in DIM_ORDER and the glyph.
+    - id: agentic_commerce
+      label: Agentic Commerce Surface
+      points: 5
+      graded: true
+      credit:
+        self: 1.00
+        platform: 0.25
+      signal: 'a parsing /.well-known/ucp.json or acp.json declaring a version and at least one service — `self` when its endpoints are on the provider''s own domain, `platform` when they are on a vendor''s'
+      description: >
+        197 providers hold a real, parsing `/.well-known/ucp.json` and every one scored
+        zero before this: `well_known_catalog` credits only api-catalog, security.txt
+        and protected-resource, and NONE of the 197 holds any of those. A provider
+        standing up a conformant agentic-commerce document was indistinguishable from
+        one serving no `.well-known` at all.
+        OPERATOR ATTRIBUTION IS SETTLED BEFORE THE AWARD. 193 of the 197 point at
+        `<store>.myshopify.com` — that is not 193 merchants shipping an agentic-commerce
+        surface, it is one platform shipping one 193 times under its merchants' names,
+        the same failure that ranked universities for Figshare's contract. The grade is
+        decided from the document's own service endpoints: on the provider's registrable
+        domain it is theirs; on a vendor's it is real, visible, and the vendor's.
+        `platform` is graded down rather than zeroed because the capability genuinely
+        exists — a buyer's agent can transact there.
+        A PARSING DOCUMENT IS NOT ENOUGH: a version and at least one declared service
+        are required, or it is a stub at the right path.
+        NO AP2 CHECK AND NO x402 CHECK. AP2 defines no well-known path and no pointer —
+        its artifacts are SD-JWT mandate chains presented in-band at transaction time,
+        under authentication, so nothing anonymous is ever fetchable; 0 of the 197 UCP
+        documents reference it. x402 is a 402 plus a response header and needs a live
+        request to a paid endpoint. Scoring either would claim a measurement the surface
+        does not permit — the rule the rubric already applies to draft-klrc-aiagent-auth.
+        APPENDED AT SLOT 19.
   # Cut points calibrated against the real distribution (re-cut 2026-07-28,
   # 25,573 providers) — re-derive with band_distribution.rb after any change to
   # dimensions or points. The spread is deliberately bimodal: a large floor at
@@ -3541,17 +3572,6 @@ agent_readiness:
         resolves / wrong-content / dead, feeding a multiplier rather than a new
         dimension. It is also the step that makes every downstream attestation
         claim defensible.
-    - id: agentic_commerce
-      label: Agentic Commerce Protocols
-      signal: 'UCP / ACP / AP2 / x402 support declared or implemented'
-      blocked_on: collection
-      description: >
-        Elogic weights protocol support — UCP, ACP, AP2, MCP — at 25% of its
-        commerce index, and Cloudflare tracks x402 and UCP as a fifth layer. This
-        rubric reads none of them. For a catalog whose thesis is that agents will
-        transact, that is a visible hole, and it is arriving fastest in exactly the
-        commerce-adjacent providers this catalog is thickest in. Waiting on a
-        first-party probe of the kind that produced `agent_card`, not on rubric work.
     - id: pagination_ratio
       label: Pagination Coverage
       signal: 'share of collection-returning GET operations declaring pagination'
