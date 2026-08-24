@@ -3291,6 +3291,31 @@ agent_readiness:
         show a human what it is about to do, or check its own work, without doing it.
         Every other safety rail in this model limits the damage of an action that has
         already happened; this one is the only dimension that prevents it.
+    - id: delegated_identity
+      label: Delegated User Identity
+      points: 6
+      graded: true
+      credit:
+        served: 1.00
+        documented: 0.50
+      signal: 'a served discovery document listing authorization_code in grant_types_supported (served), else an oauth2 authorizationCode flow or openIdConnect declared in an OpenAPI (documented)'
+      description: >
+        Can a caller obtain a token scoped to the HUMAN it is acting for, or only a
+        credential belonging to the integration itself? Section 10.3 of
+        draft-klrc-aiagent-auth-00 splits exactly this way — the user delegates
+        authorization, versus the agent obtains its own — and nothing in this rubric
+        distinguished them. It is the difference between an audit log that can name a
+        delegated subject and one that cannot, which Section 11 of that draft makes a MUST.
+        DISTINCT FROM `auth_clarity` on purpose. A provider can hold strong bound
+        credentials and still offer no delegation path, and the reverse is equally
+        possible; scoring them as one dimension would let a strong answer to one
+        question hide a missing answer to the other.
+        MEASURED BEFORE IT WAS BUILT: 768 providers declare `authorizationCode`, ~67%
+        of the 1,142 declaring any oauth2 and 20x the `openIdConnect` population. That
+        discriminating power is what separates it from `agent_identity_declared`, which
+        stays parked at 13 providers.
+        ADDED AT SLOT 16, APPENDED. Dimension order is positional in DIM_ORDER and in
+        the glyph; appending shifts nothing, inserting would shift every slot after it.
   # Cut points calibrated against the real distribution (re-cut 2026-07-28,
   # 25,573 providers) — re-derive with band_distribution.rb after any change to
   # dimensions or points. The spread is deliberately bimodal: a large floor at
@@ -3557,18 +3582,6 @@ agent_readiness:
         well above zero on purpose: a documented API key is still machine-readable
         auth, and zeroing 2,209 providers would measure the market rather than them.
         Readable TODAY from the refined per-tag OpenAPIs — no probe, no new artifact.
-    - id: delegated_identity
-      label: Delegated User Identity
-      signal: 'an oauth2 authorizationCode flow, or openIdConnect, so a token can carry the user the agent acts for'
-      blocked_on: parser
-      description: >
-        Can a caller obtain a token scoped to the human it is acting for, or only a
-        credential belonging to the integration itself. Section 10.3 of the draft
-        splits exactly this way — user delegates authorization vs agent obtains its
-        own — and nothing in this rubric distinguishes them. It is the difference
-        between an audit log that can name a delegated subject and one that cannot,
-        which Section 11 makes a MUST. Distinct from `auth_scheme_strength`: a
-        provider can hold strong bound credentials and still have no delegation path.
     - id: protected_resource_metadata
       label: Protected Resource Metadata
       signal: 'RFC 9728 document served at the API host, with a real issuer/authorization_servers body'
