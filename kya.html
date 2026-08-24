@@ -1,0 +1,102 @@
+---
+layout: default
+section: Discovery
+title: KYA — Know Your Agent
+summary: KYA is how an API consumer — an AI agent or otherwise — tells a provider who it is, so onboarding can happen without a signup form. The consumer-side companion to the Kin Score, publishing graded facts rather than a trust verdict.
+nav: Discovery
+sub: KYA
+permalink: /kya/
+---
+
+<div class="alert alert-warning" role="alert" markdown="1">
+**Design, not a product.** Nothing described here is built yet. No KYA record exists, no facet has
+been verified, and no provider consumes this. It is published early because a trust framework
+designed in private is not one anybody should adopt. The work is open on the
+[roadmap](https://github.com/api-evangelist/roadmap/issues/110).
+</div>
+
+<p>I have spent sixteen years measuring what API providers publish. The <a href="/rating/">Kin Score</a> is
+what came out of that: a rating of one side of the relationship. There has always been a second side, and
+until recently it did not need measuring — the consumer was a developer, and a signup form was enough to
+know who they were.</p>
+
+<p>That stopped being true. The consumer is increasingly software, and software cannot fill in a form.</p>
+
+<h2>The form was never about authentication</h2>
+
+<p>Agent onboarding is manual almost everywhere, and the reason is not technical. OAuth solved
+authentication years ago. Dynamic Client Registration solved the credential handshake. What none of them
+solved is that the signup form is where a provider <em>collects what it needs to know about you</em> — and
+if you take the form away, the provider loses the thing it actually wanted.</p>
+
+<p>So the trade has to be honest. Give up the form, and get something better in return: structured,
+graded, consented facts, weighted the way you care about rather than the way I do.</p>
+
+<h2>KYA is that form, turned into data</h2>
+
+<p>A consumer builds a profile once — who runs it, how to reach them, what it is for, what it has done. We
+verify what we can and mark clearly what we could not. When it shows up at a new API, the provider gets
+those facts.</p>
+
+<p><strong>I am not telling anyone whether to trust an agent.</strong> That is the same position the Kin
+Score takes on the provider side, and for the same reason: the moment a rating becomes a verdict, it stops
+being useful and starts being a liability. A payments API and a documentation search API care about
+completely different things. Neither should have to accept my opinion of what matters.</p>
+
+<h2>Two halves of one thing</h2>
+
+<table>
+  <thead><tr><th>piece</th><th>what it says</th></tr></thead>
+  <tbody>
+    <tr><td><a href="https://apicommons.org/onboarding/">API Onboarding Descriptor</a></td>
+        <td>what a provider <em>requires</em> to onboard — already live at <code>/.well-known/api-onboarding</code></td></tr>
+    <tr><td><strong>KYA</strong></td><td>who the consumer <em>is</em>, and what has been verified</td></tr>
+    <tr><td>The Directory</td><td>where the two meet, and who signs the attestation</td></tr>
+  </tbody>
+</table>
+
+<p>An agent reads the provider's descriptor, compares it against its own profile, and knows before it tries
+whether it can onboard — and exactly what it is missing if it cannot. That last part is the difference
+between a market and a gate.</p>
+
+<h2>Six facets, and two numbers</h2>
+
+<p>The facets mirror the six on the provider side: <strong>Identity Anchor</strong>,
+<strong>Operator Accountability</strong>, <strong>Provenance &amp; Attestation</strong>,
+<strong>Declared Intent</strong>, <strong>Operating History</strong>, <strong>Standing</strong>. Each
+carries a grade — verified, asserted, inherited, absent — and the grade travels with the fact.</p>
+
+<p>There are deliberately <strong>two numbers, never one</strong>. <em>Disclosure</em> is how much the
+consumer has told us, which they control. <em>Verification</em> is how much of that was independently
+confirmed, which they do not. Collapsing them would let a consumer look accountable by typing a lot. The
+provider-side rubric learned that lesson the expensive way; this one is born with it.</p>
+
+<h2>What it is not</h2>
+
+<ul>
+  <li><strong>Not KYC.</strong> The name borrows a familiar shape. It is a brand, not a regulatory regime,
+      and it satisfies no legal obligation.</li>
+  <li><strong>Not a trust score.</strong> No allow, no deny, no badge.</li>
+  <li><strong>Not a background check.</strong> It records what was verified, not who anyone is.</li>
+  <li><strong>Not a gate I operate.</strong> Providers decide.</li>
+</ul>
+
+<h2>Almost none of it is new</h2>
+
+<p>Discovery, registration, request signing, token binding, delegation, revocation, machine payment — all
+solved, all with RFCs behind them. The slot for "a trusted third party vouches for this client at
+registration time" has existed since <strong>RFC 7591</strong>, and it is how UK Open Banking already
+works.</p>
+
+<p>What is genuinely missing is a vocabulary for describing a consumer, a profile for carrying it, and a way
+for a provider to state what it needs. Those are being written in the open at
+<a href="https://apicommons.org">API Commons</a>, so the specification is not mine even while the first
+implementation is. If this ever matters, it should not depend on me.</p>
+
+<h2>Where the work is</h2>
+
+<p>On the <a href="https://github.com/api-evangelist/roadmap/issues/110">roadmap</a>, in public, including
+the parts I am unsure about — whether consumers need role types the way Open Banking gives third parties
+role types, and how much of a consumer's record should ever be public. If you run an API and this would
+change how you onboard, or you run agents and this would change how you get in, that is the place to
+argue with it.</p>
