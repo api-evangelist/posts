@@ -8,7 +8,7 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.12.2
+schema_version: 0.13.0
 last_updated: '2026-08-23'
 maintainer: kin@apievangelist.com
 
@@ -19,10 +19,25 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.12.2
+  version: 0.13.0
   body: |
-    THE FIRST 0.12.x THAT MOVES POINTS. 0.12.0 and 0.12.1 were planning-surface only.
-    This one changes what providers earn, in two places, and both REDUCE credit.
+    TWO RELEASES OF SCORING CHANGE, ONE BAND RE-CUT. 0.12.2's changes are folded in
+    here rather than published separately: a rubric edit is inert until a rescore, so
+    batching them costs one re-cut instead of two. What follows covers both.
+
+    NEW IN 0.13.0 — `auth_clarity` gains a `served` tier at 0.90, above `negotiable`
+    and below `bound`. The pipeline probes /.well-known/openid-configuration on 5,881
+    providers and saves the body on 889, and nothing in the rubric read it as OIDC: a
+    provider serving a complete discovery document earned exactly what a provider
+    serving only a security.txt earned. A served document carrying `issuer` is now the
+    strongest non-bound evidence — it is what an agent actually reads to authenticate
+    with no human in the loop, and only the provider can serve it. Presence of JSON is
+    NOT enough: two sampled providers return application/json at that path with no
+    `issuer`, so the required field is tested rather than the media type. The same
+    document now also satisfies `reg_authentication_documented`, which had the same
+    pointer-only blindness inside the regulatory facet.
+
+    FROM 0.12.2 — this one changes what providers earn in two places, both REDUCING credit.
 
     `auth_clarity` is now graded by scheme class instead of crediting presence:
     bound (mutualTLS, or an http scheme naming DPoP/Signature) 1.00; negotiable
@@ -3095,9 +3110,10 @@ agent_readiness:
       graded: true
       credit:
         bound: 1.00
+        served: 0.90
         negotiable: 0.75
         bearer: 0.35
-      signal: 'securitySchemes class in the provider OpenAPIs — bound (mutualTLS, DPoP, Signature) > negotiable (oauth2 authorizationCode/clientCredentials, openIdConnect) > bearer (http bearer, apiKey)'
+      signal: 'a served openid-configuration/oauth-authorization-server carrying `issuer` (served), else the securitySchemes class in the provider OpenAPIs — bound (mutualTLS, DPoP, Signature) > negotiable (oauth2 authorizationCode/clientCredentials, openIdConnect) > bearer (http bearer, apiKey)'
       description: >
         Can an agent authenticate in a way that is bound to it, or only bear a
         secret? Graded in 0.12.2 (roadmap#97): this credited presence and stopped,
