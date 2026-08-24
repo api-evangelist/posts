@@ -490,6 +490,16 @@ release_note:
 # value on the left. Verified by frequency analysis across the corpus.
 # ---------------------------------------------------------------------------
 aliases:
+  # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
+  # corpus wired `Examples` in good faith and it was read by NOTHING; four spellings of
+  # the same idea are in the catalog. Alias-aware here rather than in the lambda, per
+  # the standing rule that a vocabulary in code is where drift starts.
+  Examples:
+    - CodeExamples
+    - Samples
+    - CodeSamples
+    - Demos
+    - Example
   SDK:
     - SDKs
     - Python SDK
@@ -2155,9 +2165,14 @@ artifacts:
         label: GitHub organization
         facet: operational_transparency
         points: 2
-        rule: 'common[].type includes "GitHubOrganization" (alias-aware)'
+        rule: 'common[].type includes "GitHubOrganization" or "GitHubRepository" (alias-aware)'
         description: >
-          A public GitHub organization — where SDKs, specs, and issues live in the open.
+          A public GitHub organization or repository — where SDKs, specs, and issues live
+          in the open. WIDENED IN 0.13 (roadmap#71): `GitHubRepository` was read by no
+          check while 600 providers declared it, so a provider pointing at their actual
+          code repository scored below one pointing at an org page. A repository is not
+          an organization, but for the question this check asks — is the code findable —
+          it is the same answer, and often the more precise one.
       - id: roadmap_present
         label: Public roadmap
         facet: operational_transparency
@@ -2178,6 +2193,21 @@ artifacts:
       entry points (MCP servers and Agent Skills) that increasingly serve the same purpose
       for a non-human consumer.
     checks:
+      - id: examples_published
+        facet: contract_quality
+        label: Published example corpus
+        points: 4
+        rule: 'common[].type includes "Examples" (alias-aware: CodeExamples, Samples, CodeSamples, Demos)'
+        description: >
+          A published corpus of worked examples, separate from the contract. DISTINCT
+          FROM `examples_present`, which reads examples INSIDE the OpenAPI document: a
+          provider can reasonably have either or both, and 595 providers declare this
+          pointer while it was read by no check at all.
+          Found by Ahmet Soormally at WunderGraph, who wired nine pointers to his own
+          record unprompted and got nothing for two of them — with nothing in the build
+          that would ever have told him, or us. The catalog already treats examples as
+          first-class: there is an `examples/` artifact class and an api-search/examples
+          site. The rubric was the only part that could not see them.
       - id: portal_present
         label: Developer portal
         facet: developer_ergonomics
