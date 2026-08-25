@@ -48,6 +48,17 @@ release_note:
     `verified` — claiming a running server for a slug nobody probed is exactly
     the false credit this grading was introduced to stop.
 
+    OpenAPI provenance recovers 1,557 specs that were credited to the provider
+    while saying in their own description that we modelled them. The indexer read
+    five extension markers and never the prose, so "Endpoints and shapes are
+    modeled from the public reference" was invisible to it — at full first-party
+    weight against all 132 provenance-graded points in contract_quality. Our own
+    `x-apievangelist:` namespace was equally unread. derived 2,991 -> 4,548,
+    marker coverage 4.8% -> 6.5%, and providers holding at least one derived spec
+    426 -> 714. first_party is unchanged to the document: both signals sit behind
+    the existing first-party override, so a harvested contract carrying our stamp
+    is still the provider's.
+
     Retired providers' redirect stubs are no longer scored. A tombstone was
     carrying `composite: 0.0, band: minimal`, which is not a measurement of
     anything: the stub has no artifacts to read, and `minimal` is a real band
