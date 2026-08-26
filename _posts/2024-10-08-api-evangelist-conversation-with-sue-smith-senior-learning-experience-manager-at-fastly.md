@@ -11,7 +11,7 @@ tags:
 image: >-
   https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
-[Sue Smith, Senior Learning Experience Manager at Fastly](https://conversations.apievangelist.com/sessions/2024-10-08-sue-smith-fastly.html) came by to chat with me about the state of education in the tech sector. Sue has a genuine passion for education and can take just about any area of the tech landscape, dive-in, and begin helping onboard others to some very complex topics. Sue and I share a concern about the amount of investment enterprises and startups make across their operations and teams, and question that we all have enough discipline to consider ourselves engineers. 
+[Sue Smith, Senior Learning Experience Manager at Fastly](https://conversations.apievangelist.com/store/2024-10-08-sue-smith-fastly/) came by to chat with me about the state of education in the tech sector. Sue has a genuine passion for education and can take just about any area of the tech landscape, dive-in, and begin helping onboard others to some very complex topics. Sue and I share a concern about the amount of investment enterprises and startups make across their operations and teams, and question that we all have enough discipline to consider ourselves engineers. 
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/y145tNGjISg?si=OvevP3yp_EsNjPF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 

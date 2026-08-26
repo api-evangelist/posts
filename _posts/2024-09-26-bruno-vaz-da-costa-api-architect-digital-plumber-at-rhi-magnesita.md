@@ -11,7 +11,7 @@ tags:
 image: >-
   https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-conversations/api-evangelist-conversations.jpg
 ---
-[Bruno Vaz da Costa, API Architect (digital plumber) at RHI Magnesita came by to share what APIs means to his enterprise operating in the refractory industry](https://conversations.apievangelist.com/sessions/2024-09-26-bruno-vaz-da-costa-api-architect-digital-plumber-at-rhi-magnesita.html), what their biggest challenges are, and thoughts around how they can standardize around APIs. This type of conversation reflects where I want to go with these API conversations, getting out of the API echo chamber and talking with folks doing the good work to standardize and govern APIs in these mainstream industries.
+[Bruno Vaz da Costa, API Architect (digital plumber) at RHI Magnesita came by to share what APIs means to his enterprise operating in the refractory industry](https://conversations.apievangelist.com/store/2024-09-26-bruno-vaz-da-costa-api-architect-digital-plumber-at-rhi-magnesita/), what their biggest challenges are, and thoughts around how they can standardize around APIs. This type of conversation reflects where I want to go with these API conversations, getting out of the API echo chamber and talking with folks doing the good work to standardize and govern APIs in these mainstream industries.
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/PJklPxKmypE?si=auwfTwN3nfXsdafx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 

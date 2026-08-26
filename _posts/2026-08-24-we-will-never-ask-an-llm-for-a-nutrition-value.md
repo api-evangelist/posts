@@ -14,7 +14,7 @@ tags:
   - Trust
 ---
 
-I have been asking data providers the same question for two years now — where do you draw the line on what AI is allowed to touch? — and I mostly get mush back. Everybody has a policy. Almost nobody has a boundary. Then I sat down with Sebastian Loch, who runs business development at [fatsecret](https://www.fatsecret.com/), for [a conversation that went out last week](https://conversations.apievangelist.com/store/2026-08-18-sebastian-loch.html), and he drew the cleanest line I have heard anyone draw:
+I have been asking data providers the same question for two years now — where do you draw the line on what AI is allowed to touch? — and I mostly get mush back. Everybody has a policy. Almost nobody has a boundary. Then I sat down with Sebastian Loch, who runs business development at [fatsecret](https://www.fatsecret.com/), for [a conversation that went out last week](https://conversations.apievangelist.com/store/2026-08-18-sebastian-loch/), and he drew the cleanest line I have heard anyone draw:
 
 > "All of our processes are now heavily supported by AI, but we can never rely on any output from an LLM for the data itself. We could never ask an LLM for a given piece of nutritional information — that is not something we have ever done and never will."
 
@@ -48,4 +48,4 @@ I spend my days scoring API providers on what they actually publish, and provena
 
 Sebastian's whole argument in this conversation is that the moat held — twenty years of verified data, a bootstrapped and profitable company, and the AI wave turning out to be an accelerant rather than a solvent — and that it held because of global scale and two decades of investment in the API. I have a lot more to say about that part, and about what a hundred-fold jump in daily developer signups does to a company that never raised money. For now I would settle for more providers being able to finish this sentence out loud: *we will never ask an LLM for a ______.*
 
-Give the whole conversation a listen — [API Evangelist Conversation with Sebastian Loch](https://conversations.apievangelist.com/store/2026-08-18-sebastian-loch.html), also [on YouTube](https://www.youtube.com/watch?v=-ym0WKjZwZ8).
+Give the whole conversation a listen — [API Evangelist Conversation with Sebastian Loch](https://conversations.apievangelist.com/store/2026-08-18-sebastian-loch/), also [on YouTube](https://www.youtube.com/watch?v=-ym0WKjZwZ8).
