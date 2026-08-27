@@ -62,15 +62,15 @@ That is a self-hosted system being *more* agent-legible than the commercial alte
 
 So I went through the categories an agent would actually need if it were standing up its own infrastructure, and checked them against [APIs.io](https://apis.io). Of eighty candidates I checked, sixty-two were already in the catalog.
 
-**Observability and traceability** — Grafana 56.6, SigNoz 49.8, GlitchTip 44.3, Prometheus 43.5, OpenTelemetry 41.7, Tempo 37.6, Uptrace 34.7, VictoriaMetrics 33.4, Jaeger 30.2.
+**Observability and traceability** — [Grafana](https://apis.io/providers/grafana/) 56.6, [SigNoz](https://apis.io/providers/signoz/) 49.8, [GlitchTip](https://apis.io/providers/glitchtip/) 44.3, [Prometheus](https://apis.io/providers/prometheus/) 43.5, [OpenTelemetry](https://apis.io/providers/opentelemetry/) 41.7, [Tempo](https://apis.io/providers/tempo/) 37.6, [Uptrace](https://apis.io/providers/uptrace/) 34.7, [VictoriaMetrics](https://apis.io/providers/victoriametrics/) 33.4, [Jaeger](https://apis.io/providers/jaeger/) 30.2.
 
-**Agent memory** — Weaviate, LanceDB, Chroma, Qdrant, Milvus, mem0, Letta, Zep.
-**Runtime and sandboxing** — Browserless, E2B, Daytona, Firecracker, gVisor.
-**Model serving** — Ollama, LiteLLM, vLLM.
-**Tracing and eval** — Phoenix, Langfuse.
-**Orchestration** — Temporal, n8n, Windmill, Kestra, Airflow, Prefect.
-**Identity and secrets** — Zitadel, Keycloak, Infisical, Vault, Ory, Authentik.
-**Data and storage** — MinIO, ClickHouse, Meilisearch, Typesense, NATS, Redis, OpenSearch.
+**Agent memory** — [Weaviate](https://apis.io/providers/weaviate/), [LanceDB](https://apis.io/providers/lancedb/), [Chroma](https://apis.io/providers/chroma/), [Qdrant](https://apis.io/providers/qdrant/), [Milvus](https://apis.io/providers/milvus/), [mem0](https://apis.io/providers/mem0/), [Letta](https://apis.io/providers/letta/), [Zep](https://apis.io/providers/zep/).
+**Runtime and sandboxing** — [Browserless](https://apis.io/providers/browserless/), [E2B](https://apis.io/providers/e2b/), [Daytona](https://apis.io/providers/daytona/), [Firecracker](https://apis.io/providers/firecracker/), [gVisor](https://apis.io/providers/gvisor/).
+**Model serving** — [Ollama](https://apis.io/providers/ollama/), [LiteLLM](https://apis.io/providers/litellm/), [vLLM](https://apis.io/providers/vllm/).
+**Tracing and eval** — [Phoenix](https://apis.io/providers/phoenix/), [Langfuse](https://apis.io/providers/langfuse/).
+**Orchestration** — [Temporal](https://apis.io/providers/temporal/), [n8n](https://apis.io/providers/n8n/), [Windmill](https://apis.io/providers/windmill/), [Kestra](https://apis.io/providers/kestra/), [Airflow](https://apis.io/providers/airflow/), [Prefect](https://apis.io/providers/prefect/).
+**Identity and secrets** — [Zitadel](https://apis.io/providers/zitadel/), [Keycloak](https://apis.io/providers/keycloak/), [Infisical](https://apis.io/providers/infisical/), [Vault](https://apis.io/providers/vault/), [Ory](https://apis.io/providers/ory/), [Authentik](https://apis.io/providers/authentik/).
+**Data and storage** — [MinIO](https://apis.io/providers/minio/), [ClickHouse](https://apis.io/providers/clickhouse/), [Meilisearch](https://apis.io/providers/meilisearch/), [Typesense](https://apis.io/providers/typesense/), [NATS](https://apis.io/providers/nats/), [Redis](https://apis.io/providers/redis/), [OpenSearch](https://apis.io/providers/opensearch/).
 
 Almost all of it sits in Developing or Thin. Some of that is real — plenty of these projects publish no machine-readable contract at all. But part of it is that the rubric was built to measure hosted APIs. It asks about commercial clarity and onboarding and access model, and an Apache-2.0 project has no pricing page to be clear about and no signup flow to onboard you through. We score the absence as a failure. That is a rubric problem, not a project problem, and I am working on it.
 
@@ -80,7 +80,7 @@ Here is the gap that matters, and it is mine to close.
 
 An agent can find Prometheus in the catalog. It can read the description, see the score, see that it is open source. What it cannot do is **start it**. Nothing in the record says what license governs it, what container image to pull, what port it listens on, or what to poll to know it came up.
 
-I ran nine self-hosted projects through the enrichment pipeline this week — Grafana Loki, OpenBao, LocalAI, HyperDX, Woodpecker CI, RAGFlow, Haystack, Lakekeeper, and pgvector — and the pipeline handled the shape better than I expected. It captured base URLs like these:
+I ran nine self-hosted projects through the enrichment pipeline this week — [Grafana Loki](https://apis.io/providers/grafana-loki/), [OpenBao](https://apis.io/providers/openbao/), [LocalAI](https://apis.io/providers/localai/), [HyperDX](https://apis.io/providers/hyperdx/), [Woodpecker CI](https://apis.io/providers/woodpecker-ci/), [RAGFlow](https://apis.io/providers/ragflow/), [Haystack](https://apis.io/providers/haystack/), [Lakekeeper](https://apis.io/providers/lakekeeper/), and [pgvector](https://apis.io/providers/pgvector/) — and the pipeline handled the shape better than I expected. It captured base URLs like these:
 
 ```
 http://{loki-host}:3100
