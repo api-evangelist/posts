@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'The Self-Hosted Seed Is The Next Business Model'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-self-hosted-seed-is-the-next-business-model.png
 date: 2026-08-27
 author: Kin Lane
 tags:

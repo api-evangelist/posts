@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Your Agent Should Run Its Own Observability Stack'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/your-agent-should-run-its-own-observability-stack.png
 date: 2026-08-27
 author: Kin Lane
 tags:
