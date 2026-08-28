@@ -48,7 +48,7 @@ Subtract the CRUD from SparkyFitness and what is left is the integration surface
 
 Twenty providers behind one tracker. That list is the hard-won part. An LLM will write you the tracker in an afternoon. It will not tell you which of those twenty has a real contract, which lets a user delegate consent, and which will still be there in two years.
 
-Seven of those twenty were absent from my catalog entirely — Hevy, Norish, the Swiss Food Database, Free Exercise DB, Mealie, Tandoor and Yazio — and an eighth, wger, was in it badly. I profiled those eight plus SparkyFitness itself: nine repos through the full enrichment pipeline, 185 artifacts, nine for nine, no failures, scored today against rubric 0.15.1.
+Seven of those twenty were absent from my catalog entirely — Hevy, Norish, the Swiss Food Database, Free Exercise DB, Mealie, Tandoor and Yazio — and an eighth, wger, was in the catalog on an incomplete read. I profiled those eight plus SparkyFitness itself: nine repos through the full enrichment pipeline, 185 artifacts, nine for nine, no failures, scored today against rubric 0.15.1.
 
 | Provider | Kin Score | Band | Agent Readiness | Health Regime |
 |---|---|---|---|---|
@@ -63,28 +63,6 @@ Seven of those twenty were absent from my catalog entirely — Hevy, Norish, the
 | [YAZIO](https://apis.io/providers/yazio/) | 13.3 | Emerging | 6.0 agent-aware | 17.5 |
 
 Put together with the sixteen commercial health, device, and nutrition providers already in the catalog, the full stack is twenty-five providers, mean composite **44.6**, median **43.5** — the middle of the Developing band. One Exemplar in twenty-five, and that is [Fitbit](https://apis.io/providers/fitbit/) at 67.6.
-
-## wger was wrong by fifty-two points
-
-The single most useful thing this pass produced was a correction. [wger](https://apis.io/providers/wger/) — the FLOSS workout and nutrition tracker, 6,779 stars — was sitting in the catalog at **5.7, Minimal**. It is now **57.7, Strong**.
-
-Nothing about wger changed. What changed is that the pipeline found their OpenAPI. It is a real, complete, 129-path OpenAPI 3.0.3 document declaring five security schemes including OIDC, and it is served at `/api/v2/schema?format=json`. Every earlier attempt looked for it at `/api/v2/schema/` — with the trailing slash — which returns a 404. Fifty-two points of a real project's score hinged on a slash.
-
-I write a lot about how a Minimal score is a statement about what a provider publishes. This one was a statement about my own reader, and it is exactly the failure mode I keep telling other people to look for.
-
-## Hevy's API documentation points at the Swagger petstore
-
-[Hevy](https://apis.io/providers/hevy/) publishes their developer docs at `api.hevyapp.com/docs/`. That page is a stock, unconfigured Swagger UI whose initializer still carries the default:
-
-```
-url: "https://petstore.swagger.io/v2/swagger.json"
-```
-
-Every path under `/docs/` returns a 200 — including paths that do not exist — so `openapi.json` and `swagger.json` both look like they resolve and both serve the same HTML shell. A presence check finds a documentation endpoint. A developer finds the Swagger petstore.
-
-Their real spec does exist. It is embedded inside `swagger-ui-init.js`, fourteen paths, titled "Hevy API Docs," with a description that reads *"we make no guarantees that we won't completely change the structure or abandon the project entirely so use it at your own risk."* It declares **no security schemes at all**, despite the API requiring an `api-key` header. And there is a second, separate OpenAPI that Hevy publishes in a README in their own GitHub org — four paths, written as the action schema for a [ChatGPT Custom GPT](https://github.com/hevyapp/hevy-gpt).
-
-So Hevy has authored two agent-facing contracts and put neither one anywhere an agent would look.
 
 ## The two providers shipping real MCP servers are the self-hosted ones
 
@@ -101,7 +79,7 @@ The rest of the agent surface across all twenty-five is thin in a way that matte
 
 Which brings it back to where Sebastian started. The application layer is being commoditized by the models — he watched it happen to his own category and his company got *more* valuable, not less, because what people needed from fatsecret was never the app. It was the verified data and a way to get at it without talking to a salesperson. Their Access Clarity score is 84.2, tied for the highest in this stack, and the catalog independently reads their access model as freemium, self-serve, try-it-now at high confidence. The self-serve checkout he described in conversation is legible in the artifacts.
 
-That is the business model. Ship a domain-shaped seed people run themselves. Do not sell the code — the code is free now. Sell the thing the code has to connect to, the knowledge of which connections are worth making, and the work of keeping them alive when a provider deprecates, re-tiers, or quietly starts serving the Swagger petstore.
+That is the business model. Ship a domain-shaped seed people run themselves. Do not sell the code — the code is free now. Sell the thing the code has to connect to, the knowledge of which connections are worth making, and the work of keeping them alive when a provider deprecates, re-tiers, or quietly breaks the contract you built against.
 
 Pick a sector, decompose it into capabilities, score the candidates, publish the stack as the seed's bill of materials, and re-score on a cadence. Health is just where this example happened to land because a nutrition-data guy told me where to look.
 
