@@ -1,3 +1,4 @@
+# Mirrored from api-search/signals/_data/scoring.yml by apievangelist-aws/scripts/mirror-rubric.py — do not edit here.
 # Kin Score — Scoring Rubric (the API Evangelist rating system, licensed by APIs.io)
 #
 # Per-artifact checks produce raw points. Points roll up into facet sub-scores
@@ -7,8 +8,8 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.14.0
-last_updated: '2026-08-23'
+schema_version: 0.15.1
+last_updated: '2026-08-27'
 maintainer: kin@apievangelist.com
 
 # The public "what changed" note. The apis.io /rating/ page renders this rather than
@@ -18,51 +19,43 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.14.0
+  version: 0.15.1
   body: |
-    THREE CHECKS THAT MEASURED THE WRONG THING. No new dimensions and no weight
-    changes, so the denominator is unmoved and nothing is rescaled. Two of them
-    move real populations, which is what makes this a release and not a patch.
+    A TRACKED SIGNAL, NOT A SCORED ONE. No new dimensions, no weight changes, no change to the
+    139-point agent-readiness denominator, and no band re-cut — because nothing about any
+    provider's score moves. Scores stamped 0.15.0 remain correct under 0.15.1.
 
-    `llms_txt_published` no longer pays a provider for a file WE wrote. The check
-    asked existence and size, and the enrichment pipeline generates these files
-    into all/<slug>/llms/ — 2,755 of the 8,976 providers holding one carry a
-    marker saying so, whether a `method: generated` line, an explicit generation
-    sentence, or a section heading only we emit. A provider's own llms.txt does
-    not contain a section called "API Evangelist artifacts". This is the same
-    defect CATALOG_HOSTS already guards against for a raw.githubusercontent
-    apis.json: four points of discoverability for a document the publisher has
-    never seen. The limit is stated rather than hidden — detection is
-    marker-based, so 2,755 is a FLOOR, and 6,221 providers holding an unmarked
-    file keep the credit. That matches how the rubric already treats unknown
-    provenance, where coverage rather than the rule is the binding constraint.
+    WHAT IS NEW is a third list in the agent-readiness layer. `dimensions` are scored.
+    `planned_dimensions` are things we cannot measure yet — each blocked on a probe, a parser, a
+    collection we do not have. `observed_signals` is neither: fully implemented, running on every
+    pass, and finding nobody. The detector works; the catalog is empty.
 
-    `mcp_server` no longer scores zero for being catalogued too late. The grade
-    was looked up in a FROZEN probe snapshot of 4,163 entries that no scoring
-    pass regenerates, and an absent slug returned nil, which the dimension
-    recorded as plain false — indistinguishable from running no MCP server at
-    all, on twelve points, the third-largest award in the model. 119 providers
-    with a real mcp/ artifact are missing from that file. Absence now falls back
-    to authorship: a first-party or unknown artifact earns `documented` (0.4), a
-    derived one still earns nothing. 61 providers move, none of them to
-    `verified` — claiming a running server for a slug nobody probed is exactly
-    the false credit this grading was introduced to stop.
+    THE FIRST TWO ENTRIES ARE RFC 10008 — the HTTP QUERY method, published as a Proposed Standard
+    in June 2026. QUERY is safe and idempotent like GET but carries a request body like POST, and
+    the RFC registers `Accept-Query` as the response header through which a resource advertises
+    that it accepts QUERY and which query media types it understands. We track both: the header at
+    runtime, and the method in the contract.
 
-    OpenAPI provenance recovers 1,557 specs that were credited to the provider
-    while saying in their own description that we modelled them. The indexer read
-    five extension markers and never the prose, so "Endpoints and shapes are
-    modeled from the public reference" was invisible to it — at full first-party
-    weight against all 132 provenance-graded points in contract_quality. Our own
-    `x-apievangelist:` namespace was equally unread. derived 2,991 -> 4,548,
-    marker coverage 4.8% -> 6.5%, and providers holding at least one derived spec
-    426 -> 714. first_party is unchanged to the document: both signals sit behind
-    the existing first-party override, so a harvested contract carrying our stamp
-    is still the provider's.
+    WHY THIS SIGNAL AND NOT ANOTHER. Every other machine-readable declaration this rubric reads is
+    a document somewhere else — a spec file, a well-known linkset, an MCP manifest. `Accept-Query`
+    is served by the resource, at the resource, at request time. An agent asking whether a search
+    endpoint speaks a structured query language asks the endpoint. That is a different class of
+    discovery from anything else scored here.
 
-    Retired providers' redirect stubs are no longer scored. A tombstone was
-    carrying `composite: 0.0, band: minimal`, which is not a measurement of
-    anything: the stub has no artifacts to read, and `minimal` is a real band
-    asserting the worst 16% of the catalog.
+    WHY ZERO POINTS. A dimension no provider can earn is not a measurement, it is a rescale.
+    Adding four points with zero earners divides every provider by 143 instead of 139 and moves
+    roughly 1,900 across a band cut without anyone having gotten worse at anything — the
+    `agent_card` failure of 0.5.1, where a raised denominator produced demotions that were pure
+    arithmetic. The standing rule that a denominator change ships with a band re-cut is exactly
+    what makes that trade not worth paying to distinguish nobody from nobody.
+
+    THE ZERO IS THE POINT. Zero of 26,641 providers declare `Accept-Query` as of 2026-08-27. The
+    method is four months old and OpenAPI could not describe it at all until 3.2 added
+    `additionalOperations` — 3.1's Path Item Object has a fixed set of method fields with no room
+    for QUERY. Recording the zero now makes it a baseline rather than a discovery later. Each pass
+    prints the count; at 25 distinct providers — the headers catalog's own promotion line, reused
+    so both catalogs mean the same thing by "in use" — a signal graduates to a scored dimension
+    with points and a band re-cut.
 
 aliases:
   # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
@@ -1152,8 +1145,9 @@ artifacts:
         facet: contract_quality
         points: 5
         graded: true
-        rule: 'share of specs whose servers[].url carries a registrable domain, not a
-               placeholder host or a bare template variable'
+        rule: 'share of specs whose servers[].url carries a registrable domain that is not a
+               placeholder host, a bare template variable, or a host an actual DNS resolve
+               found to have no address'
         description: >
           NEW IN 0.6. A specification can be genuinely provider-published, verbatim, and
           still be uncallable. Every CAMARA server declaration in the entire telecom stack
@@ -1163,6 +1157,21 @@ artifacts:
           same defect from the other direction: Majesco declares api.majesco.example.com
           and ACORD api.insurer-internal.example.com. The rubric scored all of it as full
           contract quality.
+
+          0.15.0 MAKES THE LABEL TRUE. Until then this check never resolved anything: a
+          denylist of obvious placeholders, then "has a dot and an alphabetic TLD" — so any
+          host an author invented that missed the denylist counted as callable.
+          `oracle.api.com` was Oracle Hospitality's ENTIRE callable score (1 of 59) and
+          returns no DNS answer. Resolving all 14,061 literal hosts the classifier graded
+          `real` found 829 (5.9%) with no address and 12 cluster-internal, across 392
+          providers. No lexical rule could have found most of them: a host that was live
+          when harvested and is dead today is indistinguishable from a working one by
+          pattern matching, and that population only grows.
+
+          Templated hosts are never resolved — `https://{region}.api.acme.com` is callable
+          by a consumer who fills the variable in, and resolving the residue would ask a
+          different question. Only an authoritative negative answer removes credit;
+          timeouts stay unknown and keep it.
 
           Graded on the SHARE of a provider's specs that carry a resolvable host, so a
           provider with one placeholder spec among twenty is not treated like one whose
@@ -2851,11 +2860,15 @@ agent_readiness:
     - id: consent_identity
       label: Consent & Bot Identity
       points: 3
-      signal: 'common[].type includes AIPREF, ContentSignal, WebBotAuth, HTTPMessageSignatures, or SecurityTxt'
+      signal: 'common[].type includes AIPREF, ContentSignal, WebBotAuth, or HTTPMessageSignatures'
       description: >
         Forward-looking signals for machine-readable AI usage preferences (AIPREF,
         Content-Signals) and cryptographically identified agent traffic (Web Bot
         Auth / RFC 9421). Rare today; rewards the providers defining the frontier.
+        SecurityTxt was accepted here until 0.15.0 and earned 93% of the credit —
+        an RFC 9116 vulnerability-disclosure contact expresses no AI usage
+        preference and identifies no agent. It still scores under
+        well_known_published, which is where a /.well-known/ document belongs.
     # GRADED, not binary — the only dimension scored on a scale rather than a bit.
     # A survey of 22,341 catalog hosts (2026-07-28) found 65 providers serving an
     # agent card and only 10 of them conformant: `capabilities` shipped as an array
@@ -3167,6 +3180,106 @@ agent_readiness:
   # are still allowed to diverge.
   # ---------------------------------------------------------------------------
   #
+  # ---------------------------------------------------------------------------
+  # OBSERVED SIGNALS — measured every pass, reported, worth ZERO points.
+  #
+  # A signal lands here when it is fully implementable AND has no distribution.
+  # That is a different reason for waiting than anything in `planned_dimensions`
+  # below, where every entry is blocked on a CAPABILITY we do not have yet — a
+  # probe, a parser, a collection. These are blocked on the catalog: the
+  # detector works, runs, and finds nobody.
+  #
+  # WHY NOT JUST SCORE THEM AT ZERO. Because a dimension no provider can earn is
+  # not a measurement, it is a rescale. Agent readiness is a 139-point
+  # denominator; adding a 4-point dimension with zero earners divides every
+  # provider in the catalog by 143 instead of 139 and moves ~1,900 of them
+  # across a band cut. Nobody would have gotten worse at anything. That is the
+  # `agent_card` failure in 0.5.1 — a raised denominator produced demotions that
+  # were pure arithmetic — and the standing rule since is that a denominator
+  # change ships with a band re-cut. Paying that cost to distinguish nobody from
+  # nobody is the trade this block exists to refuse.
+  #
+  # It is also the honest answer to the opposite temptation: leaving a real,
+  # ratified signal entirely unmentioned until it is popular enough to score.
+  # A rubric that only names what its catalog already does is a lagging
+  # indicator. Naming it here, with the count attached, means the first provider
+  # to ship it is visible on the pass that finds them rather than whenever
+  # somebody thinks to look.
+  #
+  # PROMOTION. `score.rb` prints the count for each signal in the run summary.
+  # When one clears `promote_at`, it becomes a scored dimension in the next
+  # rubric version — with points, a band re-cut, and the usual release.
+  # ---------------------------------------------------------------------------
+  observed_signals:
+    - id: accept_query
+      label: Accept-Query Advertisement
+      signal: 'an OpenAPI response declares an Accept-Query header (RFC 10008 s.3)'
+      spec_check: accept_query_header
+      observed: 0
+      observed_at: '2026-08-27'
+      observed_basis: >
+        Zero of 26,641 providers, per the headers catalog
+        (api-evangelist/headers/_store/accept-query.md), whose assemble.py reads
+        declared headers out of every published specification file in the
+        network. Independently confirmed here by the spec detector.
+      promote_at: 25
+      promote_at_basis: >
+        The headers catalog's own promotion line — 25 distinct providers is what
+        it takes for a header to earn a page there rather than sit in the tail.
+        Reusing that number keeps one definition of "in use" across both
+        catalogs instead of inventing a second.
+      description: >
+        RFC 10008 (June 2026) standardised QUERY, an HTTP method that is safe and
+        idempotent like GET but carries a request body like POST, and registered
+        `Accept-Query` as the response header through which a resource advertises
+        that it accepts QUERY and which query media types it understands.
+
+        This is the most agent-legible discovery signal to arrive in years, and it
+        is the reason it belongs on this list rather than a general standards list.
+        Every other machine-readable declaration this rubric reads is a document
+        somewhere else — a spec file, a well-known linkset, an MCP manifest. This
+        one is served BY THE RESOURCE, AT THE RESOURCE, at request time. An agent
+        that wants to know whether a search endpoint speaks a structured query
+        language, and which one, asks the endpoint. No documentation site, no
+        catalog, no out-of-band artifact.
+
+        Zero observed. The method is four months old, and OpenAPI could not
+        describe it at all until 3.2 added `additionalOperations` — 3.1's Path
+        Item Object has a fixed set of method fields with no room for QUERY. So
+        the tooling gate only just lifted. Recording the zero now makes this a
+        baseline rather than a discovery later: `Accept-Query` adoption is the
+        cleanest single measure of whether QUERY is landing in production or
+        living in specification documents, and that is a curve worth having from
+        t=0.
+    - id: query_method
+      label: QUERY Method Operations
+      signal: 'an OpenAPI 3.2 path declares additionalOperations.QUERY'
+      spec_check: query_method_operation
+      observed: 0
+      observed_at: '2026-08-27'
+      observed_basis: >
+        Measured by the spec detector across every OpenAPI document in the
+        catalog. Distinct from `accept_query`: this is the method appearing in a
+        contract, that one is the resource advertising it at runtime. A provider
+        can do either without the other, and which of the two moves first is
+        itself the interesting result.
+      promote_at: 25
+      description: >
+        The companion contract-side signal. `POST /resource/search` is the
+        workaround QUERY exists to retire, and it carries a real cost: it tells
+        every cache, proxy, retry policy and code generator in the path that a
+        READ is unsafe and non-idempotent. Every conditional request, every
+        automatic retry, every cacheable response a read should get, a search
+        endpoint has been giving up for twenty years.
+
+        Worth watching for a second reason. RFC 10008 deliberately defines no
+        query language — the body is whatever media type the resource
+        advertises, which is why the RFC's own example names
+        `application/jsonpath` and `application/sql`. That leaves an open slot
+        directly above the method for a filter grammar a machine can validate,
+        and which grammar fills it is a question this catalog is positioned to
+        answer rather than guess at.
+
   # What is queued next, and why each is waiting:
   planned_dimensions:
     - id: extensions_in_served_contract
