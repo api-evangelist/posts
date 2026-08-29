@@ -91,10 +91,14 @@ include:
   # resolved while this one 404'd, which is still unexplained — the two files are byte-identical in
   # shape. Including the output directory is what made it appear.
   #
-  # A literal extensionless file also worked but came back as `application/octet-stream`: the
-  # `_headers` rule that gives api-catalog its `application/linkset+json` does not reach a
-  # statically copied asset. A descriptor served as a binary blob is a worse answer than a 404 is
-  # an honest one, so the Jekyll page stays and `_headers` sets the type.
+  # TESTED BOTH WAYS IN PRODUCTION:
+  #   literal extensionless file  -> 200, but `application/octet-stream`
+  #   Jekyll permalink page alone -> 404, even with this include
+  #
+  # So the literal file is what makes the path resolve at all, and the `_headers` rule that gives
+  # api-catalog its `application/linkset+json` does not reach a statically copied asset. 200 with
+  # the wrong media type beats a 404; the media type is the residual, recorded on roadmap#117
+  # rather than hidden.
   - .well-known
 
 sass:
