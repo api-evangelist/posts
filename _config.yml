@@ -86,6 +86,16 @@ exclude:
 include:
   - _headers
   - _redirects
+  # roadmap#117 — `.well-known/api-onboarding` is a LITERAL extensionless file, not a Jekyll page.
+  #
+  # The page at `well-known/api-onboarding.json` declares `permalink: /.well-known/api-onboarding`
+  # and its sibling `api-catalog.json` does the same and resolves, but this one 404s in production
+  # and the two files are byte-identical in shape. Rather than keep chasing that, this copies a
+  # literal file, which is how `api-evangelist/regulations` and apis.io both serve theirs.
+  #
+  # The `_redirects` rewrite that was supposed to cover this is inert — that file's own last commit
+  # says "_redirects is not honored on this host".
+  - .well-known
 
 sass:
   style: compressed
