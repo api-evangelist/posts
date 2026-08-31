@@ -1,0 +1,16 @@
+---
+layout: none
+permalink: /.well-known/aauth-agent-jwks.json
+---
+{
+  "keys": [
+    {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "ZDYH6j0XXIu85MnnJyDSmKUPR2yvf0EnixBLAXgP3vY",
+      "kid": "CCbCDn6oI4PifrBP",
+      "alg": "Ed25519",
+      "use": "sig"
+    }
+  ]
+}

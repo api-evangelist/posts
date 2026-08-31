@@ -1,0 +1,11 @@
+---
+layout: none
+permalink: /.well-known/aauth-agent.json
+---
+{
+  "issuer": "https://apievangelist.com",
+  "jwks_uri": "https://apievangelist.com/.well-known/aauth-agent-jwks.json",
+  "agent_provider_name": "API Evangelist",
+  "documentation": "https://apievangelist.com/kya/",
+  "policy": "Vouches ONLY for agents operated by API Evangelist. This provider does not enroll third-party agents, and an identifier it issues asserts nothing about anybody else's software."
+}
