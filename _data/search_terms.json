@@ -5629,7 +5629,7 @@
     {
       "week_starting": "2026-08-24",
       "week_ending": "2026-08-30",
-      "fetched_at": "2026-08-31T13:25:07Z",
+      "fetched_at": "2026-08-31T15:00:30Z",
       "days_found": 7,
       "days_expected": 7,
       "total_searches": 55921,
@@ -6462,7 +6462,7 @@
     {
       "week_starting": "2026-08-25",
       "week_ending": "2026-08-31",
-      "fetched_at": "2026-08-31T13:25:08Z",
+      "fetched_at": "2026-08-31T15:00:30Z",
       "days_found": 7,
       "days_expected": 7,
       "total_searches": 59016,
