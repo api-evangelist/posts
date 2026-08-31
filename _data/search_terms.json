@@ -322,6 +322,6975 @@
         "api": 160,
         "mcp": 2
       }
+    },
+    {
+      "week_starting": "2026-07-06",
+      "week_ending": "2026-07-12",
+      "fetched_at": "2026-08-31T13:22:53Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 9948,
+      "unique_terms": 2912,
+      "unmet_terms": 86,
+      "top_queries": [
+        {
+          "q": "postman",
+          "n": 16
+        },
+        {
+          "q": "SDKS",
+          "n": 10
+        },
+        {
+          "q": "C",
+          "n": 9
+        },
+        {
+          "q": "fair",
+          "n": 9
+        },
+        {
+          "q": "Task Management",
+          "n": 9
+        },
+        {
+          "q": "Gateway",
+          "n": 8
+        },
+        {
+          "q": "Infrastructure as Code",
+          "n": 8
+        },
+        {
+          "q": "Metadata",
+          "n": 8
+        },
+        {
+          "q": "Agencies",
+          "n": 7
+        },
+        {
+          "q": "Aggregate",
+          "n": 7
+        },
+        {
+          "q": "api governance",
+          "n": 7
+        },
+        {
+          "q": "Applications",
+          "n": 7
+        },
+        {
+          "q": "Artificial Intelligence",
+          "n": 7
+        },
+        {
+          "q": "Doctor",
+          "n": 7
+        },
+        {
+          "q": "Engineering",
+          "n": 7
+        },
+        {
+          "q": "Github",
+          "n": 7
+        },
+        {
+          "q": "Governance",
+          "n": 7
+        },
+        {
+          "q": "LinkedIn",
+          "n": 7
+        },
+        {
+          "q": "Spectral",
+          "n": 7
+        },
+        {
+          "q": "Toolbox",
+          "n": 7
+        },
+        {
+          "q": "Women",
+          "n": 7
+        },
+        {
+          "q": ".well-known",
+          "n": 6
+        },
+        {
+          "q": "4",
+          "n": 6
+        },
+        {
+          "q": "Access",
+          "n": 6
+        },
+        {
+          "q": "Anthropology",
+          "n": 6
+        },
+        {
+          "q": "API Aggregation",
+          "n": 6
+        },
+        {
+          "q": "API Design",
+          "n": 6
+        },
+        {
+          "q": "API Directory",
+          "n": 6
+        },
+        {
+          "q": "API Events",
+          "n": 6
+        },
+        {
+          "q": "API Gateway",
+          "n": 6
+        },
+        {
+          "q": "API Gateways",
+          "n": 6
+        },
+        {
+          "q": "API Lifecycle",
+          "n": 6
+        },
+        {
+          "q": "apis",
+          "n": 6
+        },
+        {
+          "q": "Art",
+          "n": 6
+        },
+        {
+          "q": "Artifacts",
+          "n": 6
+        },
+        {
+          "q": "Augmented",
+          "n": 6
+        },
+        {
+          "q": "Bruno Collection",
+          "n": 6
+        },
+        {
+          "q": "Change",
+          "n": 6
+        },
+        {
+          "q": "Client",
+          "n": 6
+        },
+        {
+          "q": "Client Library",
+          "n": 6
+        },
+        {
+          "q": "Cloud Management",
+          "n": 6
+        },
+        {
+          "q": "Compiler",
+          "n": 6
+        },
+        {
+          "q": "Container Runtime",
+          "n": 6
+        },
+        {
+          "q": "Contribution Management",
+          "n": 6
+        },
+        {
+          "q": "data",
+          "n": 6
+        },
+        {
+          "q": "Data Analysis",
+          "n": 6
+        },
+        {
+          "q": "Data Ownership",
+          "n": 6
+        },
+        {
+          "q": "Databases",
+          "n": 6
+        },
+        {
+          "q": "Design Patterns",
+          "n": 6
+        },
+        {
+          "q": "Developer Experience",
+          "n": 6
+        },
+        {
+          "q": "Developer Portals",
+          "n": 6
+        },
+        {
+          "q": "Disaster Recovery",
+          "n": 6
+        },
+        {
+          "q": "Documentation",
+          "n": 6
+        },
+        {
+          "q": "Editors",
+          "n": 6
+        },
+        {
+          "q": "Enterprise Integration Patterns",
+          "n": 6
+        },
+        {
+          "q": "Environments",
+          "n": 6
+        },
+        {
+          "q": "Files",
+          "n": 6
+        },
+        {
+          "q": "Fortune 100",
+          "n": 6
+        },
+        {
+          "q": "Frameworks",
+          "n": 6
+        },
+        {
+          "q": "Functional Testing",
+          "n": 6
+        },
+        {
+          "q": "Git",
+          "n": 6
+        },
+        {
+          "q": "GraphQL",
+          "n": 6
+        },
+        {
+          "q": "HAL",
+          "n": 6
+        },
+        {
+          "q": "HubSpot",
+          "n": 6
+        },
+        {
+          "q": "Landscapes",
+          "n": 6
+        },
+        {
+          "q": "Licensing",
+          "n": 6
+        },
+        {
+          "q": "Marketing Tools",
+          "n": 6
+        },
+        {
+          "q": "mcp",
+          "n": 6
+        },
+        {
+          "q": "Metrics",
+          "n": 6
+        },
+        {
+          "q": "Naftiko Framework",
+          "n": 6
+        },
+        {
+          "q": "On-boarding",
+          "n": 6
+        },
+        {
+          "q": "onboarding",
+          "n": 6
+        },
+        {
+          "q": "Parsing",
+          "n": 6
+        },
+        {
+          "q": "PDF",
+          "n": 6
+        },
+        {
+          "q": "Pipelines",
+          "n": 6
+        },
+        {
+          "q": "Politics of APis",
+          "n": 6
+        },
+        {
+          "q": "Pollution",
+          "n": 6
+        },
+        {
+          "q": "Railroads",
+          "n": 6
+        },
+        {
+          "q": "SalesForce",
+          "n": 6
+        },
+        {
+          "q": "Secure Development",
+          "n": 6
+        },
+        {
+          "q": "Servers",
+          "n": 6
+        },
+        {
+          "q": "Software Architecture",
+          "n": 6
+        },
+        {
+          "q": "SQL",
+          "n": 6
+        },
+        {
+          "q": "Strategy",
+          "n": 6
+        },
+        {
+          "q": "Workflow Scheduler",
+          "n": 6
+        },
+        {
+          "q": "XML",
+          "n": 6
+        },
+        {
+          "q": "Ad Management",
+          "n": 5
+        },
+        {
+          "q": "AI Agents",
+          "n": 5
+        },
+        {
+          "q": "AI Economics",
+          "n": 5
+        },
+        {
+          "q": "API Analytics",
+          "n": 5
+        },
+        {
+          "q": "API Contracts",
+          "n": 5
+        },
+        {
+          "q": "API Discovery",
+          "n": 5
+        },
+        {
+          "q": "API Evangelist",
+          "n": 5
+        },
+        {
+          "q": "API.json",
+          "n": 5
+        },
+        {
+          "q": "Apple",
+          "n": 5
+        },
+        {
+          "q": "Application Runtime",
+          "n": 5
+        },
+        {
+          "q": "Assertions",
+          "n": 5
+        },
+        {
+          "q": "Authentication",
+          "n": 5
+        },
+        {
+          "q": "Automation",
+          "n": 5
+        },
+        {
+          "q": "Banking",
+          "n": 5
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "AuthZEN",
+          "n": 2
+        },
+        {
+          "q": "DuckDB",
+          "n": 2
+        },
+        {
+          "q": "Embedded Insurance",
+          "n": 2
+        },
+        {
+          "q": "Session Replay",
+          "n": 2
+        },
+        {
+          "q": "Spaceflight",
+          "n": 2
+        },
+        {
+          "q": ".",
+          "n": 1
+        },
+        {
+          "q": "283572990",
+          "n": 1
+        },
+        {
+          "q": "amerihealth",
+          "n": 1
+        },
+        {
+          "q": "Apparel",
+          "n": 1
+        },
+        {
+          "q": "Automated Dispensing",
+          "n": 1
+        },
+        {
+          "q": "Background Removal",
+          "n": 1
+        },
+        {
+          "q": "Baseball",
+          "n": 1
+        },
+        {
+          "q": "Blood Glucose",
+          "n": 1
+        },
+        {
+          "q": "BNP Paribas",
+          "n": 1
+        },
+        {
+          "q": "Botany",
+          "n": 1
+        },
+        {
+          "q": "Bounce Prevention",
+          "n": 1
+        },
+        {
+          "q": "ByteDance",
+          "n": 1
+        },
+        {
+          "q": "Camunda",
+          "n": 1
+        },
+        {
+          "q": "Capella",
+          "n": 1
+        },
+        {
+          "q": "Cardiac",
+          "n": 1
+        },
+        {
+          "q": "CareFusion",
+          "n": 1
+        },
+        {
+          "q": "Celebrity Recognition",
+          "n": 1
+        },
+        {
+          "q": "CEREC",
+          "n": 1
+        },
+        {
+          "q": "Certificate Authority",
+          "n": 1
+        },
+        {
+          "q": "CloudKit",
+          "n": 1
+        },
+        {
+          "q": "CNAPP",
+          "n": 1
+        },
+        {
+          "q": "CNCF Sandbox",
+          "n": 1
+        },
+        {
+          "q": "Commitments of Traders",
+          "n": 1
+        },
+        {
+          "q": "Composable Commerce",
+          "n": 1
+        },
+        {
+          "q": "Confidential Computing",
+          "n": 1
+        },
+        {
+          "q": "Continuous Glucose Monitoring",
+          "n": 1
+        },
+        {
+          "q": "Copilot Studio",
+          "n": 1
+        },
+        {
+          "q": "Crypto Indexes",
+          "n": 1
+        },
+        {
+          "q": "Crypto Metrics",
+          "n": 1
+        },
+        {
+          "q": "Cycling",
+          "n": 1
+        },
+        {
+          "q": "Cypher",
+          "n": 1
+        },
+        {
+          "q": "Diabetes",
+          "n": 1
+        },
+        {
+          "q": "Disability Insurance",
+          "n": 1
+        },
+        {
+          "q": "distrokid",
+          "n": 1
+        },
+        {
+          "q": "Doorbell",
+          "n": 1
+        },
+        {
+          "q": "dribb",
+          "n": 1
+        },
+        {
+          "q": "Dropship",
+          "n": 1
+        },
+        {
+          "q": "ECMAScript",
+          "n": 1
+        },
+        {
+          "q": "EcoStruxure",
+          "n": 1
+        },
+        {
+          "q": "Email Hygiene",
+          "n": 1
+        },
+        {
+          "q": "FastCGI",
+          "n": 1
+        },
+        {
+          "q": "Firearms",
+          "n": 1
+        },
+        {
+          "q": "Fisheries",
+          "n": 1
+        },
+        {
+          "q": "Football",
+          "n": 1
+        },
+        {
+          "q": "Freelancing",
+          "n": 1
+        },
+        {
+          "q": "Geology",
+          "n": 1
+        },
+        {
+          "q": "getaound",
+          "n": 1
+        },
+        {
+          "q": "Hardware Asset Management",
+          "n": 1
+        },
+        {
+          "q": "Horoscopes",
+          "n": 1
+        },
+        {
+          "q": "Ieee-1003",
+          "n": 1
+        },
+        {
+          "q": "IndyCar",
+          "n": 1
+        },
+        {
+          "q": "Infotainment",
+          "n": 1
+        },
+        {
+          "q": "Infusion Pumps",
+          "n": 1
+        },
+        {
+          "q": "Infusion Therapy",
+          "n": 1
+        },
+        {
+          "q": "Korea",
+          "n": 1
+        },
+        {
+          "q": "License Plate Decoder",
+          "n": 1
+        },
+        {
+          "q": "LLM Telemetry",
+          "n": 1
+        },
+        {
+          "q": "Lookalike",
+          "n": 1
+        },
+        {
+          "q": "Military Finance",
+          "n": 1
+        },
+        {
+          "q": "Milvus",
+          "n": 1
+        },
+        {
+          "q": "Motorsports",
+          "n": 1
+        },
+        {
+          "q": "Multiplatform",
+          "n": 1
+        },
+        {
+          "q": "Ocean Freight",
+          "n": 1
+        },
+        {
+          "q": "OSTTRA",
+          "n": 1
+        },
+        {
+          "q": "Paleontology",
+          "n": 1
+        },
+        {
+          "q": "Pesticides",
+          "n": 1
+        },
+        {
+          "q": "Powersports",
+          "n": 1
+        },
+        {
+          "q": "Propane",
+          "n": 1
+        },
+        {
+          "q": "Receipt Scanning",
+          "n": 1
+        },
+        {
+          "q": "Restricted Party Screening",
+          "n": 1
+        },
+        {
+          "q": "Robotic Process Automation",
+          "n": 1
+        },
+        {
+          "q": "Scholarly Articles",
+          "n": 1
+        },
+        {
+          "q": "SMTP Check",
+          "n": 1
+        },
+        {
+          "q": "Solana",
+          "n": 1
+        },
+        {
+          "q": "Subgraphs",
+          "n": 1
+        },
+        {
+          "q": "Suspension",
+          "n": 1
+        },
+        {
+          "q": "Thermal Power",
+          "n": 1
+        },
+        {
+          "q": "UKG WFM",
+          "n": 1
+        },
+        {
+          "q": "Vedic Astrology",
+          "n": 1
+        },
+        {
+          "q": "Wallet Labels",
+          "n": 1
+        },
+        {
+          "q": "Zodiac",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [],
+      "by_tier": {
+        "internal": 9748,
+        "free": 200
+      },
+      "by_surface": {
+        "api": 9943,
+        "mcp": 5
+      }
+    },
+    {
+      "week_starting": "2026-07-13",
+      "week_ending": "2026-07-19",
+      "fetched_at": "2026-08-31T13:22:53Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 4552,
+      "unique_terms": 2785,
+      "unmet_terms": 92,
+      "top_queries": [
+        {
+          "q": "governance",
+          "n": 43
+        },
+        {
+          "q": "gateway",
+          "n": 11
+        },
+        {
+          "q": "api governance",
+          "n": 10
+        },
+        {
+          "q": "Apples",
+          "n": 8
+        },
+        {
+          "q": "Agent Readiness",
+          "n": 7
+        },
+        {
+          "q": "Machine-Readable",
+          "n": 7
+        },
+        {
+          "q": "OpenID Connect",
+          "n": 7
+        },
+        {
+          "q": "Actions",
+          "n": 6
+        },
+        {
+          "q": "Conversion Optimization",
+          "n": 6
+        },
+        {
+          "q": "Fascism",
+          "n": 6
+        },
+        {
+          "q": "Interfaces",
+          "n": 6
+        },
+        {
+          "q": "jpmorgan",
+          "n": 6
+        },
+        {
+          "q": "Managed Database",
+          "n": 6
+        },
+        {
+          "q": "metadata inference",
+          "n": 6
+        },
+        {
+          "q": "5-Axis Machining",
+          "n": 5
+        },
+        {
+          "q": "Analogies",
+          "n": 5
+        },
+        {
+          "q": "API gateway",
+          "n": 5
+        },
+        {
+          "q": "Cline",
+          "n": 5
+        },
+        {
+          "q": "Credentials",
+          "n": 5
+        },
+        {
+          "q": "Example",
+          "n": 5
+        },
+        {
+          "q": "Forecasting",
+          "n": 5
+        },
+        {
+          "q": "Gremlin",
+          "n": 5
+        },
+        {
+          "q": "Marijuana",
+          "n": 5
+        },
+        {
+          "q": "Multi-Streaming",
+          "n": 5
+        },
+        {
+          "q": "OAI-PMH",
+          "n": 5
+        },
+        {
+          "q": "Open Standards",
+          "n": 5
+        },
+        {
+          "q": "Referencing",
+          "n": 5
+        },
+        {
+          "q": "Simulation",
+          "n": 5
+        },
+        {
+          "q": "Stanislav Zmiev",
+          "n": 5
+        },
+        {
+          "q": "Tax Planning",
+          "n": 5
+        },
+        {
+          "q": "Teaching",
+          "n": 5
+        },
+        {
+          "q": "Team Chat",
+          "n": 5
+        },
+        {
+          "q": "Unbundling",
+          "n": 5
+        },
+        {
+          "q": "Web Bot Auth",
+          "n": 5
+        },
+        {
+          "q": "Workflows",
+          "n": 5
+        },
+        {
+          "q": "\"truist\"",
+          "n": 4
+        },
+        {
+          "q": ".NET",
+          "n": 4
+        },
+        {
+          "q": ".well-known",
+          "n": 4
+        },
+        {
+          "q": "2025",
+          "n": 4
+        },
+        {
+          "q": "Angular",
+          "n": 4
+        },
+        {
+          "q": "API Discovery",
+          "n": 4
+        },
+        {
+          "q": "API Portals",
+          "n": 4
+        },
+        {
+          "q": "APIs",
+          "n": 4
+        },
+        {
+          "q": "AsyncAPI",
+          "n": 4
+        },
+        {
+          "q": "Auth0",
+          "n": 4
+        },
+        {
+          "q": "Chatbot",
+          "n": 4
+        },
+        {
+          "q": "Chatbot Platform",
+          "n": 4
+        },
+        {
+          "q": "Connectivity",
+          "n": 4
+        },
+        {
+          "q": "Crawlers",
+          "n": 4
+        },
+        {
+          "q": "Cross Browser Testing",
+          "n": 4
+        },
+        {
+          "q": "Date",
+          "n": 4
+        },
+        {
+          "q": "Defense In Depth",
+          "n": 4
+        },
+        {
+          "q": "Depoyment",
+          "n": 4
+        },
+        {
+          "q": "Dereferencing",
+          "n": 4
+        },
+        {
+          "q": "Developer Guidelines",
+          "n": 4
+        },
+        {
+          "q": "Disorder",
+          "n": 4
+        },
+        {
+          "q": "DNA",
+          "n": 4
+        },
+        {
+          "q": "Employment",
+          "n": 4
+        },
+        {
+          "q": "Endpoint Detection And Response",
+          "n": 4
+        },
+        {
+          "q": "Entertainment System",
+          "n": 4
+        },
+        {
+          "q": "FaaS",
+          "n": 4
+        },
+        {
+          "q": "Financial Messaging",
+          "n": 4
+        },
+        {
+          "q": "Firewall Management",
+          "n": 4
+        },
+        {
+          "q": "Gantt Charts",
+          "n": 4
+        },
+        {
+          "q": "GitHub Copilot",
+          "n": 4
+        },
+        {
+          "q": "Glossaries",
+          "n": 4
+        },
+        {
+          "q": "Headlines",
+          "n": 4
+        },
+        {
+          "q": "Health Standards",
+          "n": 4
+        },
+        {
+          "q": "Image Generation",
+          "n": 4
+        },
+        {
+          "q": "Inception",
+          "n": 4
+        },
+        {
+          "q": "Incidents",
+          "n": 4
+        },
+        {
+          "q": "Inside Sales",
+          "n": 4
+        },
+        {
+          "q": "jp morgan",
+          "n": 4
+        },
+        {
+          "q": "Knowledge",
+          "n": 4
+        },
+        {
+          "q": "Lean Operations",
+          "n": 4
+        },
+        {
+          "q": "Mainstream",
+          "n": 4
+        },
+        {
+          "q": "Mentoring",
+          "n": 4
+        },
+        {
+          "q": "Model Hub",
+          "n": 4
+        },
+        {
+          "q": "OpenAPI",
+          "n": 4
+        },
+        {
+          "q": "Oracle vs. Google",
+          "n": 4
+        },
+        {
+          "q": "Prompt Engineering",
+          "n": 4
+        },
+        {
+          "q": "Roo Code",
+          "n": 4
+        },
+        {
+          "q": "Sales Engagement",
+          "n": 4
+        },
+        {
+          "q": "SAP",
+          "n": 4
+        },
+        {
+          "q": "Schema.org",
+          "n": 4
+        },
+        {
+          "q": "Snapshot Testing",
+          "n": 4
+        },
+        {
+          "q": "SSH Client",
+          "n": 4
+        },
+        {
+          "q": "String Manipulation",
+          "n": 4
+        },
+        {
+          "q": "Substack",
+          "n": 4
+        },
+        {
+          "q": "Switches",
+          "n": 4
+        },
+        {
+          "q": "Terminal Emulator",
+          "n": 4
+        },
+        {
+          "q": "Trans",
+          "n": 4
+        },
+        {
+          "q": "Travel APIs",
+          "n": 4
+        },
+        {
+          "q": "Web Crawling",
+          "n": 4
+        },
+        {
+          "q": "Webhook Gateway",
+          "n": 4
+        },
+        {
+          "q": "Wellbeing",
+          "n": 4
+        },
+        {
+          "q": "Wi-Fi",
+          "n": 4
+        },
+        {
+          "q": "Workplace Safety",
+          "n": 4
+        },
+        {
+          "q": "3D Graphics",
+          "n": 3
+        },
+        {
+          "q": "A/B Testing",
+          "n": 3
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "Glossaries",
+          "n": 4
+        },
+        {
+          "q": "AuthZEN",
+          "n": 3
+        },
+        {
+          "q": "Cashless Payments",
+          "n": 2
+        },
+        {
+          "q": "ICX Switches",
+          "n": 2
+        },
+        {
+          "q": "jpmorgan",
+          "n": 2
+        },
+        {
+          "q": "LLM Telemetry",
+          "n": 2
+        },
+        {
+          "q": "Pharmaceutical Distribution",
+          "n": 2
+        },
+        {
+          "q": "293976396",
+          "n": 1
+        },
+        {
+          "q": "311044297",
+          "n": 1
+        },
+        {
+          "q": "523092851",
+          "n": 1
+        },
+        {
+          "q": "524850588",
+          "n": 1
+        },
+        {
+          "q": "585414824",
+          "n": 1
+        },
+        {
+          "q": "609175025",
+          "n": 1
+        },
+        {
+          "q": "639549088",
+          "n": 1
+        },
+        {
+          "q": "957011297",
+          "n": 1
+        },
+        {
+          "q": "991071330",
+          "n": 1
+        },
+        {
+          "q": "Aftermarket",
+          "n": 1
+        },
+        {
+          "q": "Alternative Assets",
+          "n": 1
+        },
+        {
+          "q": "Altus Group",
+          "n": 1
+        },
+        {
+          "q": "Ambulatory Care",
+          "n": 1
+        },
+        {
+          "q": "Ammonia",
+          "n": 1
+        },
+        {
+          "q": "Animal Health",
+          "n": 1
+        },
+        {
+          "q": "Animal Welfare",
+          "n": 1
+        },
+        {
+          "q": "Annuities",
+          "n": 1
+        },
+        {
+          "q": "Approximate Query Processing",
+          "n": 1
+        },
+        {
+          "q": "Attendee Hub",
+          "n": 1
+        },
+        {
+          "q": "Automotive Retail",
+          "n": 1
+        },
+        {
+          "q": "Basketball",
+          "n": 1
+        },
+        {
+          "q": "Battery Storage",
+          "n": 1
+        },
+        {
+          "q": "bloomcredit",
+          "n": 1
+        },
+        {
+          "q": "Blue Cross Blue Shield",
+          "n": 1
+        },
+        {
+          "q": "Cash Flow Modeling",
+          "n": 1
+        },
+        {
+          "q": "CMS-9115-F",
+          "n": 1
+        },
+        {
+          "q": "CNCF Graduated",
+          "n": 1
+        },
+        {
+          "q": "College Scorecard",
+          "n": 1
+        },
+        {
+          "q": "Conglomerate",
+          "n": 1
+        },
+        {
+          "q": "Cookieless Tracking",
+          "n": 1
+        },
+        {
+          "q": "Coterra",
+          "n": 1
+        },
+        {
+          "q": "Critical Minerals",
+          "n": 1
+        },
+        {
+          "q": "Cruise Lines",
+          "n": 1
+        },
+        {
+          "q": "Customs Brokerage",
+          "n": 1
+        },
+        {
+          "q": "CVS Pharmacy",
+          "n": 1
+        },
+        {
+          "q": "DataSync",
+          "n": 1
+        },
+        {
+          "q": "Dealerships",
+          "n": 1
+        },
+        {
+          "q": "Deferrable Views",
+          "n": 1
+        },
+        {
+          "q": "Drivetrain",
+          "n": 1
+        },
+        {
+          "q": "DV360",
+          "n": 1
+        },
+        {
+          "q": "Elastic File System",
+          "n": 1
+        },
+        {
+          "q": "Endangered Species",
+          "n": 1
+        },
+        {
+          "q": "Europe Payroll",
+          "n": 1
+        },
+        {
+          "q": "Excise Tax",
+          "n": 1
+        },
+        {
+          "q": "Financial Workstation",
+          "n": 1
+        },
+        {
+          "q": "Fisheries",
+          "n": 1
+        },
+        {
+          "q": "Flame Graphs",
+          "n": 1
+        },
+        {
+          "q": "Fluid Handling",
+          "n": 1
+        },
+        {
+          "q": "Forgejo",
+          "n": 1
+        },
+        {
+          "q": "Gitea OpenAPI",
+          "n": 1
+        },
+        {
+          "q": "GraalVM",
+          "n": 1
+        },
+        {
+          "q": "Hackerspaces",
+          "n": 1
+        },
+        {
+          "q": "Handwritten",
+          "n": 1
+        },
+        {
+          "q": "headless browser scraping web scraping automation",
+          "n": 1
+        },
+        {
+          "q": "Heavy Equipment",
+          "n": 1
+        },
+        {
+          "q": "Hispanic",
+          "n": 1
+        },
+        {
+          "q": "Hyperledger Fabric",
+          "n": 1
+        },
+        {
+          "q": "Ieee-1003",
+          "n": 1
+        },
+        {
+          "q": "In-Vehicle Infotainment",
+          "n": 1
+        },
+        {
+          "q": "Incremental Hydration",
+          "n": 1
+        },
+        {
+          "q": "Inflammation",
+          "n": 1
+        },
+        {
+          "q": "KnitWell",
+          "n": 1
+        },
+        {
+          "q": "License Plate Recognition",
+          "n": 1
+        },
+        {
+          "q": "License Plates",
+          "n": 1
+        },
+        {
+          "q": "Lyrics",
+          "n": 1
+        },
+        {
+          "q": "MemGPT",
+          "n": 1
+        },
+        {
+          "q": "MicroProfile",
+          "n": 1
+        },
+        {
+          "q": "Military Finance",
+          "n": 1
+        },
+        {
+          "q": "MusicKit",
+          "n": 1
+        },
+        {
+          "q": "NoCode",
+          "n": 1
+        },
+        {
+          "q": "Office Furniture",
+          "n": 1
+        },
+        {
+          "q": "Parallel Computing",
+          "n": 1
+        },
+        {
+          "q": "Philanthropy",
+          "n": 1
+        },
+        {
+          "q": "Proofreading",
+          "n": 1
+        },
+        {
+          "q": "Propane",
+          "n": 1
+        },
+        {
+          "q": "Recruitment CRM",
+          "n": 1
+        },
+        {
+          "q": "RFC 9745",
+          "n": 1
+        },
+        {
+          "q": "Scientific Articles",
+          "n": 1
+        },
+        {
+          "q": "screenshot API web page capture PDF rendering",
+          "n": 1
+        },
+        {
+          "q": "Skyscanner",
+          "n": 1
+        },
+        {
+          "q": "Space Situational Awareness",
+          "n": 1
+        },
+        {
+          "q": "Spaceflight",
+          "n": 1
+        },
+        {
+          "q": "Traffic Safety",
+          "n": 1
+        },
+        {
+          "q": "Truck Dealerships",
+          "n": 1
+        },
+        {
+          "q": "Veterinary",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 2
+        },
+        {
+          "resource": "stats",
+          "n": 1
+        }
+      ],
+      "by_tier": {
+        "internal": 4215,
+        "free": 337
+      },
+      "by_surface": {
+        "api": 4402,
+        "mcp": 150
+      }
+    },
+    {
+      "week_starting": "2026-07-20",
+      "week_ending": "2026-07-26",
+      "fetched_at": "2026-08-31T13:22:54Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 7973,
+      "unique_terms": 3096,
+      "unmet_terms": 383,
+      "top_queries": [
+        {
+          "q": "Governance",
+          "n": 17
+        },
+        {
+          "q": "API Governance",
+          "n": 12
+        },
+        {
+          "q": "Agile",
+          "n": 9
+        },
+        {
+          "q": "AI",
+          "n": 9
+        },
+        {
+          "q": "Actions",
+          "n": 8
+        },
+        {
+          "q": "Providers",
+          "n": 8
+        },
+        {
+          "q": "Zero Trust",
+          "n": 8
+        },
+        {
+          "q": "apis",
+          "n": 7
+        },
+        {
+          "q": "AWS",
+          "n": 7
+        },
+        {
+          "q": "Deployment",
+          "n": 7
+        },
+        {
+          "q": "Devops",
+          "n": 7
+        },
+        {
+          "q": "Github",
+          "n": 7
+        },
+        {
+          "q": "MCP",
+          "n": 7
+        },
+        {
+          "q": "metadata",
+          "n": 7
+        },
+        {
+          "q": "products",
+          "n": 7
+        },
+        {
+          "q": "Size",
+          "n": 7
+        },
+        {
+          "q": "Accessibility",
+          "n": 6
+        },
+        {
+          "q": "API Design",
+          "n": 6
+        },
+        {
+          "q": "APIs.json",
+          "n": 6
+        },
+        {
+          "q": "C",
+          "n": 6
+        },
+        {
+          "q": "Conversational",
+          "n": 6
+        },
+        {
+          "q": "DevSecOps",
+          "n": 6
+        },
+        {
+          "q": "DNS",
+          "n": 6
+        },
+        {
+          "q": "Email",
+          "n": 6
+        },
+        {
+          "q": "Event Sourcing",
+          "n": 6
+        },
+        {
+          "q": "Examples",
+          "n": 6
+        },
+        {
+          "q": "Explorers",
+          "n": 6
+        },
+        {
+          "q": "FinOps",
+          "n": 6
+        },
+        {
+          "q": "geospatial",
+          "n": 6
+        },
+        {
+          "q": "Git",
+          "n": 6
+        },
+        {
+          "q": "GitOps",
+          "n": 6
+        },
+        {
+          "q": "gRPC",
+          "n": 6
+        },
+        {
+          "q": "Monetization",
+          "n": 6
+        },
+        {
+          "q": "Pricing",
+          "n": 6
+        },
+        {
+          "q": "Process",
+          "n": 6
+        },
+        {
+          "q": "Salesforce",
+          "n": 6
+        },
+        {
+          "q": "Scale",
+          "n": 6
+        },
+        {
+          "q": "Toxic",
+          "n": 6
+        },
+        {
+          "q": "Voice",
+          "n": 6
+        },
+        {
+          "q": "Web",
+          "n": 6
+        },
+        {
+          "q": "Access Control",
+          "n": 5
+        },
+        {
+          "q": "agents",
+          "n": 5
+        },
+        {
+          "q": "API Versioning",
+          "n": 5
+        },
+        {
+          "q": "API-First",
+          "n": 5
+        },
+        {
+          "q": "APIStrat",
+          "n": 5
+        },
+        {
+          "q": "Cloud",
+          "n": 5
+        },
+        {
+          "q": "Collaboration",
+          "n": 5
+        },
+        {
+          "q": "Communication",
+          "n": 5
+        },
+        {
+          "q": "Configuration",
+          "n": 5
+        },
+        {
+          "q": "containers",
+          "n": 5
+        },
+        {
+          "q": "CRUD",
+          "n": 5
+        },
+        {
+          "q": "Data",
+          "n": 5
+        },
+        {
+          "q": "Data Sharing",
+          "n": 5
+        },
+        {
+          "q": "Development Methodology",
+          "n": 5
+        },
+        {
+          "q": "Documentation",
+          "n": 5
+        },
+        {
+          "q": "Efficiency",
+          "n": 5
+        },
+        {
+          "q": "Enablement",
+          "n": 5
+        },
+        {
+          "q": "Enforcement",
+          "n": 5
+        },
+        {
+          "q": "Enterprise",
+          "n": 5
+        },
+        {
+          "q": "Errors",
+          "n": 5
+        },
+        {
+          "q": "fair",
+          "n": 5
+        },
+        {
+          "q": "Folders",
+          "n": 5
+        },
+        {
+          "q": "Generation",
+          "n": 5
+        },
+        {
+          "q": "GitHub Copilot",
+          "n": 5
+        },
+        {
+          "q": "graphql",
+          "n": 5
+        },
+        {
+          "q": "Integration",
+          "n": 5
+        },
+        {
+          "q": "IT Operations",
+          "n": 5
+        },
+        {
+          "q": "Keys",
+          "n": 5
+        },
+        {
+          "q": "Knowledge",
+          "n": 5
+        },
+        {
+          "q": "Lifecycle",
+          "n": 5
+        },
+        {
+          "q": "manufacturing",
+          "n": 5
+        },
+        {
+          "q": "Menu",
+          "n": 5
+        },
+        {
+          "q": "Microservices",
+          "n": 5
+        },
+        {
+          "q": "Modernization",
+          "n": 5
+        },
+        {
+          "q": "Monitoring",
+          "n": 5
+        },
+        {
+          "q": "No-Code",
+          "n": 5
+        },
+        {
+          "q": "Open Source",
+          "n": 5
+        },
+        {
+          "q": "OpenAI Codex",
+          "n": 5
+        },
+        {
+          "q": "Organization",
+          "n": 5
+        },
+        {
+          "q": "Payload",
+          "n": 5
+        },
+        {
+          "q": "Payments",
+          "n": 5
+        },
+        {
+          "q": "Performance",
+          "n": 5
+        },
+        {
+          "q": "Platforms",
+          "n": 5
+        },
+        {
+          "q": "Policies",
+          "n": 5
+        },
+        {
+          "q": "privacy",
+          "n": 5
+        },
+        {
+          "q": "programming",
+          "n": 5
+        },
+        {
+          "q": "Protobuf",
+          "n": 5
+        },
+        {
+          "q": "Query",
+          "n": 5
+        },
+        {
+          "q": "Real Time",
+          "n": 5
+        },
+        {
+          "q": "Resources",
+          "n": 5
+        },
+        {
+          "q": "REST",
+          "n": 5
+        },
+        {
+          "q": "SCADA",
+          "n": 5
+        },
+        {
+          "q": "SDKS",
+          "n": 5
+        },
+        {
+          "q": "Skills",
+          "n": 5
+        },
+        {
+          "q": "Spectral",
+          "n": 5
+        },
+        {
+          "q": "Speed",
+          "n": 5
+        },
+        {
+          "q": "Standards",
+          "n": 5
+        },
+        {
+          "q": "Static",
+          "n": 5
+        },
+        {
+          "q": "Storage",
+          "n": 5
+        },
+        {
+          "q": "Stripe",
+          "n": 5
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "Glossaries",
+          "n": 4
+        },
+        {
+          "q": "certificate authority",
+          "n": 2
+        },
+        {
+          "q": "Dockerfile",
+          "n": 2
+        },
+        {
+          "q": "Epidemiology",
+          "n": 2
+        },
+        {
+          "q": "powerschool",
+          "n": 2
+        },
+        {
+          "q": "software development life cycle SDLC",
+          "n": 2
+        },
+        {
+          "q": ".",
+          "n": 1
+        },
+        {
+          "q": "1071366024",
+          "n": 1
+        },
+        {
+          "q": "acceptance criteria",
+          "n": 1
+        },
+        {
+          "q": "acceptance criteria definition of done",
+          "n": 1
+        },
+        {
+          "q": "accessibility WCAG standards",
+          "n": 1
+        },
+        {
+          "q": "accounting standards GAAP IFRS financial",
+          "n": 1
+        },
+        {
+          "q": "ACH bank transfer payment rails",
+          "n": 1
+        },
+        {
+          "q": "ACID database transactions consistency",
+          "n": 1
+        },
+        {
+          "q": "ActivityPub",
+          "n": 1
+        },
+        {
+          "q": "ActivityPub federated social web Mastodon",
+          "n": 1
+        },
+        {
+          "q": "ActivityStreams social activity JSON vocabulary",
+          "n": 1
+        },
+        {
+          "q": "Actor Model concurrency actors",
+          "n": 1
+        },
+        {
+          "q": "Agent2Agent",
+          "n": 1
+        },
+        {
+          "q": "Agent2Agent A2A protocol agent interoperability",
+          "n": 1
+        },
+        {
+          "q": "AGENTS.md agent instructions coding assistant",
+          "n": 1
+        },
+        {
+          "q": "AGENTS.md agent instructions markdown file coding agent",
+          "n": 1
+        },
+        {
+          "q": "Agile delivery iterative software development",
+          "n": 1
+        },
+        {
+          "q": "agile iterative sprints software development",
+          "n": 1
+        },
+        {
+          "q": "Agile methodology scrum kanban",
+          "n": 1
+        },
+        {
+          "q": "agile methodology scrum sprint iteration API teams",
+          "n": 1
+        },
+        {
+          "q": "Agile SDLC software development lifecycle",
+          "n": 1
+        },
+        {
+          "q": "agile waterfall project management",
+          "n": 1
+        },
+        {
+          "q": "AIS Automatic Identification System maritime vessel tracking",
+          "n": 1
+        },
+        {
+          "q": "Ambulatory Care",
+          "n": 1
+        },
+        {
+          "q": "AMQP Advanced Message Queuing Protocol messaging",
+          "n": 1
+        },
+        {
+          "q": "AMQP message queue messaging protocol",
+          "n": 1
+        },
+        {
+          "q": "AMQP MQTT Kafka event streaming protocol",
+          "n": 1
+        },
+        {
+          "q": "Annuities",
+          "n": 1
+        },
+        {
+          "q": "Apache Arrow columnar data format",
+          "n": 1
+        },
+        {
+          "q": "Apache ORC columnar file format big data",
+          "n": 1
+        },
+        {
+          "q": "Apache Thrift RPC serialization",
+          "n": 1
+        },
+        {
+          "q": "API cost monitoring FinOps cloud spend metering",
+          "n": 1
+        },
+        {
+          "q": "API design sketches wireframe mockup",
+          "n": 1
+        },
+        {
+          "q": "API error handling response format",
+          "n": 1
+        },
+        {
+          "q": "API paradigm REST GraphQL styles",
+          "n": 1
+        },
+        {
+          "q": "API portfolio management organizing many APIs",
+          "n": 1
+        },
+        {
+          "q": "API product boundary bundle portfolio",
+          "n": 1
+        },
+        {
+          "q": "API product portfolio which APIs boundary grouping resources",
+          "n": 1
+        },
+        {
+          "q": "API specification requirements design contract",
+          "n": 1
+        },
+        {
+          "q": "Apparel",
+          "n": 1
+        },
+        {
+          "q": "AppSource",
+          "n": 1
+        },
+        {
+          "q": "ArchiMate",
+          "n": 1
+        },
+        {
+          "q": "ArchiMate enterprise architecture",
+          "n": 1
+        },
+        {
+          "q": "AT Protocol Bluesky federation decentralized social",
+          "n": 1
+        },
+        {
+          "q": "Attendee Hub",
+          "n": 1
+        },
+        {
+          "q": "AUTHORS.md attribution authors file open source",
+          "n": 1
+        },
+        {
+          "q": "Autocapture",
+          "n": 1
+        },
+        {
+          "q": "Backstage software catalog developer portal",
+          "n": 1
+        },
+        {
+          "q": "banking regulation PSD2 open banking compliance",
+          "n": 1
+        },
+        {
+          "q": "banking regulation reserves liquidity",
+          "n": 1
+        },
+        {
+          "q": "Baseball",
+          "n": 1
+        },
+        {
+          "q": "Basel compliance banking accord",
+          "n": 1
+        },
+        {
+          "q": "Basel III capital requirements banking",
+          "n": 1
+        },
+        {
+          "q": "Bean Validation JSR 380",
+          "n": 1
+        },
+        {
+          "q": "Big O Notation time complexity performance",
+          "n": 1
+        },
+        {
+          "q": "binary format protocol buffers avro serialization",
+          "n": 1
+        },
+        {
+          "q": "Bluesky decentralized social media API",
+          "n": 1
+        },
+        {
+          "q": "bundling APIs into a product defining product boundaries",
+          "n": 1
+        },
+        {
+          "q": "CalDAV calendar",
+          "n": 1
+        },
+        {
+          "q": "CalDAV CardDAV WebDAV",
+          "n": 1
+        },
+        {
+          "q": "Calendar Overlay",
+          "n": 1
+        },
+        {
+          "q": "capital requirements bank regulation Basel",
+          "n": 1
+        },
+        {
+          "q": "capital requirements banking regulation",
+          "n": 1
+        },
+        {
+          "q": "CardDAV contacts address book",
+          "n": 1
+        },
+        {
+          "q": "CBOR",
+          "n": 1
+        },
+        {
+          "q": "CBOR binary serialization concise object representation",
+          "n": 1
+        },
+        {
+          "q": "CCPA California privacy consumer data",
+          "n": 1
+        },
+        {
+          "q": "certificate enrollment ACME SCEP EST certificate authority",
+          "n": 1
+        },
+        {
+          "q": "changelog API change log versioning release management",
+          "n": 1
+        },
+        {
+          "q": "CHCO",
+          "n": 1
+        },
+        {
+          "q": "cigna",
+          "n": 1
+        },
+        {
+          "q": "circuit breaker resilience pattern API",
+          "n": 1
+        },
+        {
+          "q": "citation CFF software citation research metadata",
+          "n": 1
+        },
+        {
+          "q": "CLAUDE.md Claude Code agent instructions coding standards",
+          "n": 1
+        },
+        {
+          "q": "cloud native Linux Foundation Kubernetes",
+          "n": 1
+        },
+        {
+          "q": "CNCF Cloud Native Computing Foundation",
+          "n": 1
+        },
+        {
+          "q": "CoAP Constrained Application Protocol IoT",
+          "n": 1
+        },
+        {
+          "q": "code of conduct open source community",
+          "n": 1
+        },
+        {
+          "q": "CODEOWNERS GitHub repository code owners",
+          "n": 1
+        },
+        {
+          "q": "Codex CLI AGENTS.md coding agent configuration",
+          "n": 1
+        },
+        {
+          "q": "columnar data format Parquet",
+          "n": 1
+        },
+        {
+          "q": "communication protocols HTTP networking",
+          "n": 1
+        },
+        {
+          "q": "component model architecture reusable components",
+          "n": 1
+        },
+        {
+          "q": "consensus distributed systems blockchain",
+          "n": 1
+        },
+        {
+          "q": "consensus distributed systems etcd",
+          "n": 1
+        },
+        {
+          "q": "Containerfile Dockerfile container image",
+          "n": 1
+        },
+        {
+          "q": "CONTRIBUTING.md contributing guidelines open source",
+          "n": 1
+        },
+        {
+          "q": "CONTRIBUTORS contributors community attribution open source",
+          "n": 1
+        },
+        {
+          "q": "contributors open source recognition",
+          "n": 1
+        },
+        {
+          "q": "convention over configuration API design defaults",
+          "n": 1
+        },
+        {
+          "q": "copilot instructions",
+          "n": 1
+        },
+        {
+          "q": "CQRS Command Query Responsibility Segregation",
+          "n": 1
+        },
+        {
+          "q": "CQRS event sourcing command query",
+          "n": 1
+        },
+        {
+          "q": "CSS Cascading Style Sheets",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 3
+        },
+        {
+          "resource": "stats",
+          "n": 1
+        }
+      ],
+      "by_tier": {
+        "internal": 6988,
+        "free": 985
+      },
+      "by_surface": {
+        "api": 7169,
+        "mcp": 804
+      }
+    },
+    {
+      "week_starting": "2026-07-27",
+      "week_ending": "2026-08-02",
+      "fetched_at": "2026-08-31T13:22:55Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 7824,
+      "unique_terms": 2552,
+      "unmet_terms": 52,
+      "top_queries": [
+        {
+          "q": "12345",
+          "n": 16
+        },
+        {
+          "q": "Partnership",
+          "n": 9
+        },
+        {
+          "q": "Redundancy",
+          "n": 9
+        },
+        {
+          "q": "Reports",
+          "n": 9
+        },
+        {
+          "q": "iPaaS",
+          "n": 8
+        },
+        {
+          "q": "Railroad",
+          "n": 8
+        },
+        {
+          "q": "Tasks",
+          "n": 8
+        },
+        {
+          "q": "Consultancies",
+          "n": 7
+        },
+        {
+          "q": "Dates",
+          "n": 7
+        },
+        {
+          "q": "Factory Floor",
+          "n": 7
+        },
+        {
+          "q": "Federal Government",
+          "n": 7
+        },
+        {
+          "q": "In Memory",
+          "n": 7
+        },
+        {
+          "q": "Inception",
+          "n": 7
+        },
+        {
+          "q": "Interactive",
+          "n": 7
+        },
+        {
+          "q": "Newsletters",
+          "n": 7
+        },
+        {
+          "q": "Packet Capture",
+          "n": 7
+        },
+        {
+          "q": "Politics of APIs",
+          "n": 7
+        },
+        {
+          "q": "Punchcards",
+          "n": 7
+        },
+        {
+          "q": "Timeline",
+          "n": 7
+        },
+        {
+          "q": "Usage",
+          "n": 7
+        },
+        {
+          "q": "api",
+          "n": 6
+        },
+        {
+          "q": "APIs",
+          "n": 6
+        },
+        {
+          "q": "Arrays",
+          "n": 6
+        },
+        {
+          "q": "Content Repository",
+          "n": 6
+        },
+        {
+          "q": "Domains",
+          "n": 6
+        },
+        {
+          "q": "HR Software",
+          "n": 6
+        },
+        {
+          "q": "IBM API Connect",
+          "n": 6
+        },
+        {
+          "q": "International",
+          "n": 6
+        },
+        {
+          "q": "Kin Lane",
+          "n": 6
+        },
+        {
+          "q": "Maritime",
+          "n": 6
+        },
+        {
+          "q": "Marketing",
+          "n": 6
+        },
+        {
+          "q": "Mechanical",
+          "n": 6
+        },
+        {
+          "q": "Network Analysis",
+          "n": 6
+        },
+        {
+          "q": "Physiology",
+          "n": 6
+        },
+        {
+          "q": "Reviews",
+          "n": 6
+        },
+        {
+          "q": "Schema Evolution",
+          "n": 6
+        },
+        {
+          "q": "Scopes",
+          "n": 6
+        },
+        {
+          "q": "SDKs",
+          "n": 6
+        },
+        {
+          "q": "Semantic Web",
+          "n": 6
+        },
+        {
+          "q": "Services",
+          "n": 6
+        },
+        {
+          "q": "Social Media Management",
+          "n": 6
+        },
+        {
+          "q": "Software Design",
+          "n": 6
+        },
+        {
+          "q": "Stripe",
+          "n": 6
+        },
+        {
+          "q": "Training",
+          "n": 6
+        },
+        {
+          "q": "Vulnerability Disclosure",
+          "n": 6
+        },
+        {
+          "q": "211",
+          "n": 5
+        },
+        {
+          "q": "Agents",
+          "n": 5
+        },
+        {
+          "q": "Analytical Database",
+          "n": 5
+        },
+        {
+          "q": "Angular",
+          "n": 5
+        },
+        {
+          "q": "API Gateways",
+          "n": 5
+        },
+        {
+          "q": "API Lifecycle",
+          "n": 5
+        },
+        {
+          "q": "Brains",
+          "n": 5
+        },
+        {
+          "q": "Cars",
+          "n": 5
+        },
+        {
+          "q": "Chaos Engineering",
+          "n": 5
+        },
+        {
+          "q": "CIO",
+          "n": 5
+        },
+        {
+          "q": "Cloud Cost",
+          "n": 5
+        },
+        {
+          "q": "Cloud Services",
+          "n": 5
+        },
+        {
+          "q": "CMS",
+          "n": 5
+        },
+        {
+          "q": "Community Platform",
+          "n": 5
+        },
+        {
+          "q": "Concurrency",
+          "n": 5
+        },
+        {
+          "q": "Contactless Payment",
+          "n": 5
+        },
+        {
+          "q": "Content Integration",
+          "n": 5
+        },
+        {
+          "q": "Cost Management",
+          "n": 5
+        },
+        {
+          "q": "Data Analytics",
+          "n": 5
+        },
+        {
+          "q": "Data Format",
+          "n": 5
+        },
+        {
+          "q": "ddi",
+          "n": 5
+        },
+        {
+          "q": "Deprecations",
+          "n": 5
+        },
+        {
+          "q": "Design Principles",
+          "n": 5
+        },
+        {
+          "q": "Devops",
+          "n": 5
+        },
+        {
+          "q": "Digital Advertising",
+          "n": 5
+        },
+        {
+          "q": "Discussion",
+          "n": 5
+        },
+        {
+          "q": "Drift",
+          "n": 5
+        },
+        {
+          "q": "Econding",
+          "n": 5
+        },
+        {
+          "q": "Ecosystems",
+          "n": 5
+        },
+        {
+          "q": "Enterprise Search",
+          "n": 5
+        },
+        {
+          "q": "Event Mesh",
+          "n": 5
+        },
+        {
+          "q": "Fixed Format",
+          "n": 5
+        },
+        {
+          "q": "Frameworks",
+          "n": 5
+        },
+        {
+          "q": "Governor",
+          "n": 5
+        },
+        {
+          "q": "HTTPBin",
+          "n": 5
+        },
+        {
+          "q": "Inefficiencies",
+          "n": 5
+        },
+        {
+          "q": "Job Board",
+          "n": 5
+        },
+        {
+          "q": "JSON-LD",
+          "n": 5
+        },
+        {
+          "q": "Licenses",
+          "n": 5
+        },
+        {
+          "q": "Logo",
+          "n": 5
+        },
+        {
+          "q": "Mock",
+          "n": 5
+        },
+        {
+          "q": "mod_perl",
+          "n": 5
+        },
+        {
+          "q": "News",
+          "n": 5
+        },
+        {
+          "q": "No Code",
+          "n": 5
+        },
+        {
+          "q": "No-Code",
+          "n": 5
+        },
+        {
+          "q": "OpenAI",
+          "n": 5
+        },
+        {
+          "q": "Operator",
+          "n": 5
+        },
+        {
+          "q": "Oracle vs. Google",
+          "n": 5
+        },
+        {
+          "q": "OT",
+          "n": 5
+        },
+        {
+          "q": "Partner",
+          "n": 5
+        },
+        {
+          "q": "Pat Patterson",
+          "n": 5
+        },
+        {
+          "q": "Pitch",
+          "n": 5
+        },
+        {
+          "q": "Productivity Tools",
+          "n": 5
+        },
+        {
+          "q": "Programmatic",
+          "n": 5
+        },
+        {
+          "q": "Racism",
+          "n": 5
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "12345",
+          "n": 8
+        },
+        {
+          "q": ".",
+          "n": 2
+        },
+        {
+          "q": "Epidemiology",
+          "n": 2
+        },
+        {
+          "q": "Glossaries",
+          "n": 2
+        },
+        {
+          "q": "paloalto",
+          "n": 2
+        },
+        {
+          "q": "Voxie",
+          "n": 2
+        },
+        {
+          "q": "Aftermarket",
+          "n": 1
+        },
+        {
+          "q": "AgTech",
+          "n": 1
+        },
+        {
+          "q": "Apparel",
+          "n": 1
+        },
+        {
+          "q": "AppSource",
+          "n": 1
+        },
+        {
+          "q": "Attendee Hub",
+          "n": 1
+        },
+        {
+          "q": "Basketball",
+          "n": 1
+        },
+        {
+          "q": "BLPAPI",
+          "n": 1
+        },
+        {
+          "q": "Boycotts",
+          "n": 1
+        },
+        {
+          "q": "Calendar Overlay",
+          "n": 1
+        },
+        {
+          "q": "Certificate Authority",
+          "n": 1
+        },
+        {
+          "q": "CharmHealth",
+          "n": 1
+        },
+        {
+          "q": "Copilot Studio",
+          "n": 1
+        },
+        {
+          "q": "Cyber Recovery",
+          "n": 1
+        },
+        {
+          "q": "Cyber Resilience",
+          "n": 1
+        },
+        {
+          "q": "Disability Insurance",
+          "n": 1
+        },
+        {
+          "q": "Doorbell",
+          "n": 1
+        },
+        {
+          "q": "ECMAScript",
+          "n": 1
+        },
+        {
+          "q": "Firearms",
+          "n": 1
+        },
+        {
+          "q": "Football",
+          "n": 1
+        },
+        {
+          "q": "GetPurchaseOr",
+          "n": 1
+        },
+        {
+          "q": "GetPurchaseOrder",
+          "n": 1
+        },
+        {
+          "q": "GetPurchaseOre",
+          "n": 1
+        },
+        {
+          "q": "GetPurchaseOredr",
+          "n": 1
+        },
+        {
+          "q": "Hackerspaces",
+          "n": 1
+        },
+        {
+          "q": "HM Land Registry",
+          "n": 1
+        },
+        {
+          "q": "Homeowners Insurance",
+          "n": 1
+        },
+        {
+          "q": "Hydrology",
+          "n": 1
+        },
+        {
+          "q": "Incremental Hydration",
+          "n": 1
+        },
+        {
+          "q": "Irrigation",
+          "n": 1
+        },
+        {
+          "q": "Korea",
+          "n": 1
+        },
+        {
+          "q": "kudosity",
+          "n": 1
+        },
+        {
+          "q": "LLMOps",
+          "n": 1
+        },
+        {
+          "q": "neutrino",
+          "n": 1
+        },
+        {
+          "q": "Oilfield Services",
+          "n": 1
+        },
+        {
+          "q": "opendental",
+          "n": 1
+        },
+        {
+          "q": "paloalo",
+          "n": 1
+        },
+        {
+          "q": "paloalto api",
+          "n": 1
+        },
+        {
+          "q": "postman",
+          "n": 1
+        },
+        {
+          "q": "Rural Connectivity",
+          "n": 1
+        },
+        {
+          "q": "Shawbrook",
+          "n": 1
+        },
+        {
+          "q": "telstra",
+          "n": 1
+        },
+        {
+          "q": "tranzak",
+          "n": 1
+        },
+        {
+          "q": "Xcelium Logic Simulator",
+          "n": 1
+        },
+        {
+          "q": "xq",
+          "n": 1
+        },
+        {
+          "q": "xquik",
+          "n": 1
+        },
+        {
+          "q": "zzqx-nonexistent-tool-42",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [],
+      "by_tier": {
+        "internal": 7578,
+        "free": 246
+      },
+      "by_surface": {
+        "api": 7751,
+        "mcp": 73
+      }
+    },
+    {
+      "week_starting": "2026-08-03",
+      "week_ending": "2026-08-09",
+      "fetched_at": "2026-08-31T13:22:55Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 9979,
+      "unique_terms": 2774,
+      "unmet_terms": 63,
+      "top_queries": [
+        {
+          "q": "test",
+          "n": 166
+        },
+        {
+          "q": "One",
+          "n": 40
+        },
+        {
+          "q": "area",
+          "n": 18
+        },
+        {
+          "q": "four",
+          "n": 18
+        },
+        {
+          "q": "the",
+          "n": 18
+        },
+        {
+          "q": "topic",
+          "n": 18
+        },
+        {
+          "q": "OpenAPI",
+          "n": 15
+        },
+        {
+          "q": "get_area",
+          "n": 12
+        },
+        {
+          "q": "get_timeline",
+          "n": 12
+        },
+        {
+          "q": "*",
+          "n": 10
+        },
+        {
+          "q": "a",
+          "n": 10
+        },
+        {
+          "q": "with",
+          "n": 10
+        },
+        {
+          "q": "C",
+          "n": 9
+        },
+        {
+          "q": "ai",
+          "n": 8
+        },
+        {
+          "q": "API Monitoring",
+          "n": 8
+        },
+        {
+          "q": "Database Middleware",
+          "n": 8
+        },
+        {
+          "q": "Examples",
+          "n": 8
+        },
+        {
+          "q": "HTTP APIs",
+          "n": 8
+        },
+        {
+          "q": "Industrial IoT",
+          "n": 8
+        },
+        {
+          "q": "Investments",
+          "n": 8
+        },
+        {
+          "q": "Application Delivery",
+          "n": 7
+        },
+        {
+          "q": "Bitbucket",
+          "n": 7
+        },
+        {
+          "q": "Browsers",
+          "n": 7
+        },
+        {
+          "q": "Build Tools",
+          "n": 7
+        },
+        {
+          "q": "communication",
+          "n": 7
+        },
+        {
+          "q": "Email Testing",
+          "n": 7
+        },
+        {
+          "q": "Linked Data",
+          "n": 7
+        },
+        {
+          "q": "metadata",
+          "n": 7
+        },
+        {
+          "q": "Microsoft Office",
+          "n": 7
+        },
+        {
+          "q": "Policy as Code",
+          "n": 7
+        },
+        {
+          "q": "SICUREZZA RAW MATERIALS TRADING FZE LLC",
+          "n": 7
+        },
+        {
+          "q": "SLO",
+          "n": 7
+        },
+        {
+          "q": "Startup",
+          "n": 7
+        },
+        {
+          "q": "Testing",
+          "n": 7
+        },
+        {
+          "q": "Unified API",
+          "n": 7
+        },
+        {
+          "q": "Workspace",
+          "n": 7
+        },
+        {
+          "q": "API Consumption",
+          "n": 6
+        },
+        {
+          "q": "API Contracts",
+          "n": 6
+        },
+        {
+          "q": "API Governance",
+          "n": 6
+        },
+        {
+          "q": "API-First",
+          "n": 6
+        },
+        {
+          "q": "APIOps Cycles",
+          "n": 6
+        },
+        {
+          "q": "Autonomous",
+          "n": 6
+        },
+        {
+          "q": "Convention Over Configuration",
+          "n": 6
+        },
+        {
+          "q": "CORS",
+          "n": 6
+        },
+        {
+          "q": "curl",
+          "n": 6
+        },
+        {
+          "q": "Data Analysis",
+          "n": 6
+        },
+        {
+          "q": "Data Engineering",
+          "n": 6
+        },
+        {
+          "q": "Data Ingestion",
+          "n": 6
+        },
+        {
+          "q": "Data Integration",
+          "n": 6
+        },
+        {
+          "q": "DBaaS",
+          "n": 6
+        },
+        {
+          "q": "Declarative",
+          "n": 6
+        },
+        {
+          "q": "DeepSeek",
+          "n": 6
+        },
+        {
+          "q": "Developer Onboarding",
+          "n": 6
+        },
+        {
+          "q": "Developer Relations",
+          "n": 6
+        },
+        {
+          "q": "Edge Computing",
+          "n": 6
+        },
+        {
+          "q": "Enablement",
+          "n": 6
+        },
+        {
+          "q": "environments",
+          "n": 6
+        },
+        {
+          "q": "fair",
+          "n": 6
+        },
+        {
+          "q": "Financial",
+          "n": 6
+        },
+        {
+          "q": "Functional Testing",
+          "n": 6
+        },
+        {
+          "q": "Gateway",
+          "n": 6
+        },
+        {
+          "q": "Git",
+          "n": 6
+        },
+        {
+          "q": "Governance",
+          "n": 6
+        },
+        {
+          "q": "Hardware",
+          "n": 6
+        },
+        {
+          "q": "Harvesting",
+          "n": 6
+        },
+        {
+          "q": "Inversion Of Control",
+          "n": 6
+        },
+        {
+          "q": "Knowledge Inference",
+          "n": 6
+        },
+        {
+          "q": "Landscape Mapping",
+          "n": 6
+        },
+        {
+          "q": "Landscapes",
+          "n": 6
+        },
+        {
+          "q": "Manifests",
+          "n": 6
+        },
+        {
+          "q": "Mathematician",
+          "n": 6
+        },
+        {
+          "q": "MCP Security",
+          "n": 6
+        },
+        {
+          "q": "Microsoft Office Integration",
+          "n": 6
+        },
+        {
+          "q": "Migration",
+          "n": 6
+        },
+        {
+          "q": "Mobile Testing",
+          "n": 6
+        },
+        {
+          "q": "Model Hub",
+          "n": 6
+        },
+        {
+          "q": "Multi Cloud",
+          "n": 6
+        },
+        {
+          "q": "Name",
+          "n": 6
+        },
+        {
+          "q": "Open Source",
+          "n": 6
+        },
+        {
+          "q": "Performance Testing",
+          "n": 6
+        },
+        {
+          "q": "Pipeline",
+          "n": 6
+        },
+        {
+          "q": "PUT",
+          "n": 6
+        },
+        {
+          "q": "Qualiity",
+          "n": 6
+        },
+        {
+          "q": "Real Estate",
+          "n": 6
+        },
+        {
+          "q": "Remote Access",
+          "n": 6
+        },
+        {
+          "q": "research",
+          "n": 6
+        },
+        {
+          "q": "SalesForce",
+          "n": 6
+        },
+        {
+          "q": "Scrum",
+          "n": 6
+        },
+        {
+          "q": "SERP API",
+          "n": 6
+        },
+        {
+          "q": "Sessions",
+          "n": 6
+        },
+        {
+          "q": "Spring Framework",
+          "n": 6
+        },
+        {
+          "q": "Storage",
+          "n": 6
+        },
+        {
+          "q": "Stories",
+          "n": 6
+        },
+        {
+          "q": "Strategic Design",
+          "n": 6
+        },
+        {
+          "q": "Syndication",
+          "n": 6
+        },
+        {
+          "q": "Tactical",
+          "n": 6
+        },
+        {
+          "q": "tag",
+          "n": 6
+        },
+        {
+          "q": "TLS",
+          "n": 6
+        },
+        {
+          "q": "Transport",
+          "n": 6
+        },
+        {
+          "q": "Web Automation",
+          "n": 6
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "test",
+          "n": 22
+        },
+        {
+          "q": "SICUREZZA RAW MATERIALS TRADING FZE LLC",
+          "n": 7
+        },
+        {
+          "q": "*",
+          "n": 5
+        },
+        {
+          "q": "get_area",
+          "n": 4
+        },
+        {
+          "q": "get_timeline",
+          "n": 4
+        },
+        {
+          "q": "area",
+          "n": 3
+        },
+        {
+          "q": "topic",
+          "n": 3
+        },
+        {
+          "q": "Baseball",
+          "n": 2
+        },
+        {
+          "q": "license plate VIN vehicle lookup",
+          "n": 2
+        },
+        {
+          "q": "vivino",
+          "n": 2
+        },
+        {
+          "q": "\"Bank of Montreal\"",
+          "n": 1
+        },
+        {
+          "q": ",",
+          "n": 1
+        },
+        {
+          "q": "3dexper",
+          "n": 1
+        },
+        {
+          "q": "agtech",
+          "n": 1
+        },
+        {
+          "q": "airSlate Workflow API",
+          "n": 1
+        },
+        {
+          "q": "amuncore",
+          "n": 1
+        },
+        {
+          "q": "Anime",
+          "n": 1
+        },
+        {
+          "q": "Bank of Montre",
+          "n": 1
+        },
+        {
+          "q": "Bank of Montreal",
+          "n": 1
+        },
+        {
+          "q": "Bank of Montreal\"",
+          "n": 1
+        },
+        {
+          "q": "BMO-ENT-7673dc36-7935-44e4-aeff-3c9ddd5d8e85",
+          "n": 1
+        },
+        {
+          "q": "Buildah",
+          "n": 1
+        },
+        {
+          "q": "CarAPI (CSV)",
+          "n": 1
+        },
+        {
+          "q": "Celebrity Recognition",
+          "n": 1
+        },
+        {
+          "q": "clinitrials",
+          "n": 1
+        },
+        {
+          "q": "clintrials",
+          "n": 1
+        },
+        {
+          "q": "clubhouse",
+          "n": 1
+        },
+        {
+          "q": "Construction Organization Plan",
+          "n": 1
+        },
+        {
+          "q": "CrowdStrike",
+          "n": 1
+        },
+        {
+          "q": "djcity",
+          "n": 1
+        },
+        {
+          "q": "Evolver",
+          "n": 1
+        },
+        {
+          "q": "Externalized Configuration",
+          "n": 1
+        },
+        {
+          "q": "fitko",
+          "n": 1
+        },
+        {
+          "q": "Flue Langfuse Eve",
+          "n": 1
+        },
+        {
+          "q": "gamefo",
+          "n": 1
+        },
+        {
+          "q": "gameforge",
+          "n": 1
+        },
+        {
+          "q": "hlr lookup",
+          "n": 1
+        },
+        {
+          "q": "jobs remote ok",
+          "n": 1
+        },
+        {
+          "q": "kabal",
+          "n": 1
+        },
+        {
+          "q": "medical-mutual",
+          "n": 1
+        },
+        {
+          "q": "Multicloud",
+          "n": 1
+        },
+        {
+          "q": "Multiplatform",
+          "n": 1
+        },
+        {
+          "q": "nasa firm",
+          "n": 1
+        },
+        {
+          "q": "nasa firms",
+          "n": 1
+        },
+        {
+          "q": "neutrino",
+          "n": 1
+        },
+        {
+          "q": "nitrado",
+          "n": 1
+        },
+        {
+          "q": "Offramp",
+          "n": 1
+        },
+        {
+          "q": "qognify",
+          "n": 1
+        },
+        {
+          "q": "Qwen3",
+          "n": 1
+        },
+        {
+          "q": "Qwen3 o",
+          "n": 1
+        },
+        {
+          "q": "Qwen3 omni",
+          "n": 1
+        },
+        {
+          "q": "remote job board",
+          "n": 1
+        },
+        {
+          "q": "remote ok",
+          "n": 1
+        },
+        {
+          "q": "remote roles open",
+          "n": 1
+        },
+        {
+          "q": "RiDrAyJdl9A",
+          "n": 1
+        },
+        {
+          "q": "Session Border Controller",
+          "n": 1
+        },
+        {
+          "q": "shop titans",
+          "n": 1
+        },
+        {
+          "q": "stocktwits",
+          "n": 1
+        },
+        {
+          "q": "tekion",
+          "n": 1
+        },
+        {
+          "q": "version deprecation sunset stale",
+          "n": 1
+        },
+        {
+          "q": "vertiv",
+          "n": 1
+        },
+        {
+          "q": "with",
+          "n": 1
+        },
+        {
+          "q": "\u4e01\u9999\u56ed",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "stats",
+          "n": 15
+        },
+        {
+          "resource": "guide",
+          "n": 10
+        }
+      ],
+      "by_tier": {
+        "internal": 8450,
+        "free": 1526,
+        "owner": 3
+      },
+      "by_surface": {
+        "api": 9148,
+        "mcp": 831
+      }
+    },
+    {
+      "week_starting": "2026-08-10",
+      "week_ending": "2026-08-16",
+      "fetched_at": "2026-08-31T13:22:55Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 6833,
+      "unique_terms": 2577,
+      "unmet_terms": 82,
+      "top_queries": [
+        {
+          "q": "square",
+          "n": 18
+        },
+        {
+          "q": "action",
+          "n": 15
+        },
+        {
+          "q": "LinkedIn",
+          "n": 13
+        },
+        {
+          "q": "benign text with MCP_PROBE_MARKER_9F2A",
+          "n": 12
+        },
+        {
+          "q": "C",
+          "n": 9
+        },
+        {
+          "q": "cars",
+          "n": 7
+        },
+        {
+          "q": "Scheduling",
+          "n": 7
+        },
+        {
+          "q": "A",
+          "n": 6
+        },
+        {
+          "q": "API",
+          "n": 6
+        },
+        {
+          "q": "calendly",
+          "n": 6
+        },
+        {
+          "q": "Fortune 1000",
+          "n": 6
+        },
+        {
+          "q": "https://httpbin.org/anything?p=MCP_PROBE_MARKER_9F2A",
+          "n": 6
+        },
+        {
+          "q": "211",
+          "n": 5
+        },
+        {
+          "q": "Agile",
+          "n": 5
+        },
+        {
+          "q": "ai",
+          "n": 5
+        },
+        {
+          "q": "Booking",
+          "n": 5
+        },
+        {
+          "q": "Capabilities",
+          "n": 5
+        },
+        {
+          "q": "Data",
+          "n": 5
+        },
+        {
+          "q": "Devices",
+          "n": 5
+        },
+        {
+          "q": "Digital",
+          "n": 5
+        },
+        {
+          "q": "Directory Service",
+          "n": 5
+        },
+        {
+          "q": "facebook",
+          "n": 5
+        },
+        {
+          "q": "gateways",
+          "n": 5
+        },
+        {
+          "q": "Impulse",
+          "n": 5
+        },
+        {
+          "q": "Kinde",
+          "n": 5
+        },
+        {
+          "q": "Meta",
+          "n": 5
+        },
+        {
+          "q": "News Aggregation",
+          "n": 5
+        },
+        {
+          "q": "OpenAPI Initiative",
+          "n": 5
+        },
+        {
+          "q": "Platforms",
+          "n": 5
+        },
+        {
+          "q": "Politics",
+          "n": 5
+        },
+        {
+          "q": "Private",
+          "n": 5
+        },
+        {
+          "q": "Railroad",
+          "n": 5
+        },
+        {
+          "q": "Reference",
+          "n": 5
+        },
+        {
+          "q": "Reverse Engineer",
+          "n": 5
+        },
+        {
+          "q": "Roundup",
+          "n": 5
+        },
+        {
+          "q": "SDKs",
+          "n": 5
+        },
+        {
+          "q": "SerpAPI",
+          "n": 5
+        },
+        {
+          "q": "spectral",
+          "n": 5
+        },
+        {
+          "q": "0901.21.00",
+          "n": 4
+        },
+        {
+          "q": "3.2",
+          "n": 4
+        },
+        {
+          "q": "3Scale",
+          "n": 4
+        },
+        {
+          "q": "6109.10.00",
+          "n": 4
+        },
+        {
+          "q": "Agent Frameworks",
+          "n": 4
+        },
+        {
+          "q": "Agent Orchestration",
+          "n": 4
+        },
+        {
+          "q": "Agile Methodology",
+          "n": 4
+        },
+        {
+          "q": "Angular",
+          "n": 4
+        },
+        {
+          "q": "API Design",
+          "n": 4
+        },
+        {
+          "q": "API Economy",
+          "n": 4
+        },
+        {
+          "q": "Apple",
+          "n": 4
+        },
+        {
+          "q": "Applications",
+          "n": 4
+        },
+        {
+          "q": "Art",
+          "n": 4
+        },
+        {
+          "q": "Asset Management",
+          "n": 4
+        },
+        {
+          "q": "Authorization",
+          "n": 4
+        },
+        {
+          "q": "Big Data",
+          "n": 4
+        },
+        {
+          "q": "Caching",
+          "n": 4
+        },
+        {
+          "q": "CDC",
+          "n": 4
+        },
+        {
+          "q": "Claude Skills",
+          "n": 4
+        },
+        {
+          "q": "CMS",
+          "n": 4
+        },
+        {
+          "q": "Colllections",
+          "n": 4
+        },
+        {
+          "q": "Community",
+          "n": 4
+        },
+        {
+          "q": "Consistency",
+          "n": 4
+        },
+        {
+          "q": "Context",
+          "n": 4
+        },
+        {
+          "q": "Contracts",
+          "n": 4
+        },
+        {
+          "q": "Conversational AI",
+          "n": 4
+        },
+        {
+          "q": "Conversational Interfaces",
+          "n": 4
+        },
+        {
+          "q": "Copyright",
+          "n": 4
+        },
+        {
+          "q": "Creative Software",
+          "n": 4
+        },
+        {
+          "q": "Culture",
+          "n": 4
+        },
+        {
+          "q": "curl",
+          "n": 4
+        },
+        {
+          "q": "Dashboards",
+          "n": 4
+        },
+        {
+          "q": "Data Storage",
+          "n": 4
+        },
+        {
+          "q": "Default",
+          "n": 4
+        },
+        {
+          "q": "Dependencies",
+          "n": 4
+        },
+        {
+          "q": "Deploiyment",
+          "n": 4
+        },
+        {
+          "q": "Deployment",
+          "n": 4
+        },
+        {
+          "q": "Deprecations",
+          "n": 4
+        },
+        {
+          "q": "Design Standards",
+          "n": 4
+        },
+        {
+          "q": "Distribution",
+          "n": 4
+        },
+        {
+          "q": "Document Creation",
+          "n": 4
+        },
+        {
+          "q": "domains",
+          "n": 4
+        },
+        {
+          "q": "Eclipse",
+          "n": 4
+        },
+        {
+          "q": "Engineering",
+          "n": 4
+        },
+        {
+          "q": "Enterprise Integration Patterns",
+          "n": 4
+        },
+        {
+          "q": "Environmental Social Governance",
+          "n": 4
+        },
+        {
+          "q": "Event Architecture",
+          "n": 4
+        },
+        {
+          "q": "Evented",
+          "n": 4
+        },
+        {
+          "q": "Executable",
+          "n": 4
+        },
+        {
+          "q": "FAIR",
+          "n": 4
+        },
+        {
+          "q": "Federation",
+          "n": 4
+        },
+        {
+          "q": "Financial Software",
+          "n": 4
+        },
+        {
+          "q": "Firewall Traversal",
+          "n": 4
+        },
+        {
+          "q": "germany",
+          "n": 4
+        },
+        {
+          "q": "GitLab",
+          "n": 4
+        },
+        {
+          "q": "Google",
+          "n": 4
+        },
+        {
+          "q": "Hateoas",
+          "n": 4
+        },
+        {
+          "q": "HTTP/2",
+          "n": 4
+        },
+        {
+          "q": "https://httpbin.org/anything?probe=MCP_PROBE_MARKER_9F2A",
+          "n": 4
+        },
+        {
+          "q": "Imperative",
+          "n": 4
+        },
+        {
+          "q": "Interoperability",
+          "n": 4
+        },
+        {
+          "q": "Job Posting",
+          "n": 4
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "benign text with MCP_PROBE_MARKER_9F2A",
+          "n": 5
+        },
+        {
+          "q": "https://httpbin.org/anything?p=MCP_PROBE_MARKER_9F2A",
+          "n": 3
+        },
+        {
+          "q": "qobuz",
+          "n": 3
+        },
+        {
+          "q": "0901.21.00",
+          "n": 2
+        },
+        {
+          "q": "6109.10.00",
+          "n": 2
+        },
+        {
+          "q": "CarAPI (CSV)",
+          "n": 2
+        },
+        {
+          "q": "castor",
+          "n": 2
+        },
+        {
+          "q": "crowdstrike",
+          "n": 2
+        },
+        {
+          "q": "https://httpbin.org/anything?probe=MCP_PROBE_MARKER_9F2A",
+          "n": 2
+        },
+        {
+          "q": "jingdong",
+          "n": 2
+        },
+        {
+          "q": "pointclickcare",
+          "n": 2
+        },
+        {
+          "q": "vystar",
+          "n": 2
+        },
+        {
+          "q": "\u0633\u0641\u062e\u0642",
+          "n": 2
+        },
+        {
+          "q": ",",
+          "n": 1
+        },
+        {
+          "q": "53 Bank",
+          "n": 1
+        },
+        {
+          "q": "5th third Bank",
+          "n": 1
+        },
+        {
+          "q": "__tcfapi",
+          "n": 1
+        },
+        {
+          "q": "Achira",
+          "n": 1
+        },
+        {
+          "q": "appointment",
+          "n": 1
+        },
+        {
+          "q": "appointment scheduling booking calendar salon spa",
+          "n": 1
+        },
+        {
+          "q": "bandsintown",
+          "n": 1
+        },
+        {
+          "q": "booking scheduling appointments calendly acuity salon",
+          "n": 1
+        },
+        {
+          "q": "Customs Enforcement",
+          "n": 1
+        },
+        {
+          "q": "Disability Insurance",
+          "n": 1
+        },
+        {
+          "q": "Embedded Insurance",
+          "n": 1
+        },
+        {
+          "q": "epidemic",
+          "n": 1
+        },
+        {
+          "q": "epidemic s",
+          "n": 1
+        },
+        {
+          "q": "epidemic sound",
+          "n": 1
+        },
+        {
+          "q": "Fifth Third Banc",
+          "n": 1
+        },
+        {
+          "q": "Fifth Third Bancrop",
+          "n": 1
+        },
+        {
+          "q": "Fifth Third Bank",
+          "n": 1
+        },
+        {
+          "q": "Firearms",
+          "n": 1
+        },
+        {
+          "q": "float spa wellness fitness gym membership resource room booking equipment",
+          "n": 1
+        },
+        {
+          "q": "fomo",
+          "n": 1
+        },
+        {
+          "q": "Football",
+          "n": 1
+        },
+        {
+          "q": "gridsnap",
+          "n": 1
+        },
+        {
+          "q": "homedepot",
+          "n": 1
+        },
+        {
+          "q": "jingdon",
+          "n": 1
+        },
+        {
+          "q": "Kinaxis",
+          "n": 1
+        },
+        {
+          "q": "meltwater",
+          "n": 1
+        },
+        {
+          "q": "Mercari",
+          "n": 1
+        },
+        {
+          "q": "Metallurgical Coal",
+          "n": 1
+        },
+        {
+          "q": "momcozy",
+          "n": 1
+        },
+        {
+          "q": "Multifamily",
+          "n": 1
+        },
+        {
+          "q": "music audio media track playlist upload",
+          "n": 1
+        },
+        {
+          "q": "nanovms",
+          "n": 1
+        },
+        {
+          "q": "Odint",
+          "n": 1
+        },
+        {
+          "q": "opendental",
+          "n": 1
+        },
+        {
+          "q": "paxos",
+          "n": 1
+        },
+        {
+          "q": "Pgije",
+          "n": 1
+        },
+        {
+          "q": "pocket fm",
+          "n": 1
+        },
+        {
+          "q": "privalia",
+          "n": 1
+        },
+        {
+          "q": "QUANTUM FAULT TOLERANT SYSTEMS",
+          "n": 1
+        },
+        {
+          "q": "rednoi",
+          "n": 1
+        },
+        {
+          "q": "rednoit",
+          "n": 1
+        },
+        {
+          "q": "rednote",
+          "n": 1
+        },
+        {
+          "q": "Rentalwise",
+          "n": 1
+        },
+        {
+          "q": "Renters Insurance",
+          "n": 1
+        },
+        {
+          "q": "Route optimizatio",
+          "n": 1
+        },
+        {
+          "q": "Route optimization",
+          "n": 1
+        },
+        {
+          "q": "s2",
+          "n": 1
+        },
+        {
+          "q": "salon spa beauty wellness fitness appointment",
+          "n": 1
+        },
+        {
+          "q": "scheduling",
+          "n": 1
+        },
+        {
+          "q": "scheduling OR booking OR appointments",
+          "n": 1
+        },
+        {
+          "q": "seekingalpha",
+          "n": 1
+        },
+        {
+          "q": "shipium",
+          "n": 1
+        },
+        {
+          "q": "sigma aldrich",
+          "n": 1
+        },
+        {
+          "q": "Spaceflight",
+          "n": 1
+        },
+        {
+          "q": "tcfapi",
+          "n": 1
+        },
+        {
+          "q": "Thndr",
+          "n": 1
+        },
+        {
+          "q": "threatlock",
+          "n": 1
+        },
+        {
+          "q": "threatlocker",
+          "n": 1
+        },
+        {
+          "q": "vanmoof",
+          "n": 1
+        },
+        {
+          "q": "wallha",
+          "n": 1
+        },
+        {
+          "q": "wallha'v",
+          "n": 1
+        },
+        {
+          "q": "wallhave",
+          "n": 1
+        },
+        {
+          "q": "wellness OR fitness OR spa OR flotation OR gym",
+          "n": 1
+        },
+        {
+          "q": "wholefoods",
+          "n": 1
+        },
+        {
+          "q": "xpoz api",
+          "n": 1
+        },
+        {
+          "q": "xquik",
+          "n": 1
+        },
+        {
+          "q": "\u0633",
+          "n": 1
+        },
+        {
+          "q": "\u0633\u0641\u062e\u0642\u0633",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "stats",
+          "n": 1
+        }
+      ],
+      "by_tier": {
+        "internal": 5936,
+        "free": 897
+      },
+      "by_surface": {
+        "api": 6135,
+        "mcp": 698
+      }
+    },
+    {
+      "week_starting": "2026-08-17",
+      "week_ending": "2026-08-23",
+      "fetched_at": "2026-08-31T13:22:56Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 7755,
+      "unique_terms": 2273,
+      "unmet_terms": 303,
+      "top_queries": [
+        {
+          "q": "action",
+          "n": 26
+        },
+        {
+          "q": "governance",
+          "n": 11
+        },
+        {
+          "q": "Editorial",
+          "n": 10
+        },
+        {
+          "q": "Context Server",
+          "n": 8
+        },
+        {
+          "q": "Digital Transactions",
+          "n": 8
+        },
+        {
+          "q": "Evangelism",
+          "n": 8
+        },
+        {
+          "q": "Automation",
+          "n": 7
+        },
+        {
+          "q": "Budgeting",
+          "n": 7
+        },
+        {
+          "q": "Conversational",
+          "n": 7
+        },
+        {
+          "q": "dcat",
+          "n": 7
+        },
+        {
+          "q": "gRPC",
+          "n": 7
+        },
+        {
+          "q": "Documents",
+          "n": 6
+        },
+        {
+          "q": "Ideas",
+          "n": 6
+        },
+        {
+          "q": "Package Manager",
+          "n": 6
+        },
+        {
+          "q": "Personal Data",
+          "n": 6
+        },
+        {
+          "q": "Real-Time Data",
+          "n": 6
+        },
+        {
+          "q": "Web Security",
+          "n": 6
+        },
+        {
+          "q": "Data",
+          "n": 5
+        },
+        {
+          "q": "HTTP API",
+          "n": 5
+        },
+        {
+          "q": "Human Services",
+          "n": 5
+        },
+        {
+          "q": "Logs",
+          "n": 5
+        },
+        {
+          "q": "Sports",
+          "n": 5
+        },
+        {
+          "q": "Corporate Learning",
+          "n": 4
+        },
+        {
+          "q": "Disclosure",
+          "n": 4
+        },
+        {
+          "q": "Languages",
+          "n": 4
+        },
+        {
+          "q": "Partnership",
+          "n": 4
+        },
+        {
+          "q": "providers",
+          "n": 4
+        },
+        {
+          "q": "Tactical",
+          "n": 4
+        },
+        {
+          "q": "Tags",
+          "n": 4
+        },
+        {
+          "q": "Testing",
+          "n": 4
+        },
+        {
+          "q": "Voice Chat",
+          "n": 4
+        },
+        {
+          "q": ".NET",
+          "n": 3
+        },
+        {
+          "q": "1EdTech",
+          "n": 3
+        },
+        {
+          "q": "Aerospace",
+          "n": 3
+        },
+        {
+          "q": "Aggregate",
+          "n": 3
+        },
+        {
+          "q": "api governance",
+          "n": 3
+        },
+        {
+          "q": "API Lifecycle",
+          "n": 3
+        },
+        {
+          "q": "API Sprawl",
+          "n": 3
+        },
+        {
+          "q": "arazzo",
+          "n": 3
+        },
+        {
+          "q": "Backup And Recovery",
+          "n": 3
+        },
+        {
+          "q": "Billing Management",
+          "n": 3
+        },
+        {
+          "q": "Bounded Context",
+          "n": 3
+        },
+        {
+          "q": "Business Architecture",
+          "n": 3
+        },
+        {
+          "q": "Captions",
+          "n": 3
+        },
+        {
+          "q": "Cars",
+          "n": 3
+        },
+        {
+          "q": "Code-First",
+          "n": 3
+        },
+        {
+          "q": "Content Delivery",
+          "n": 3
+        },
+        {
+          "q": "Contracts",
+          "n": 3
+        },
+        {
+          "q": "Control",
+          "n": 3
+        },
+        {
+          "q": "Copyright",
+          "n": 3
+        },
+        {
+          "q": "Costs",
+          "n": 3
+        },
+        {
+          "q": "Data Interchange",
+          "n": 3
+        },
+        {
+          "q": "Deprecations",
+          "n": 3
+        },
+        {
+          "q": "DevOps",
+          "n": 3
+        },
+        {
+          "q": "Digital",
+          "n": 3
+        },
+        {
+          "q": "Enterprise Content Management",
+          "n": 3
+        },
+        {
+          "q": "Exceptions",
+          "n": 3
+        },
+        {
+          "q": "Extensions",
+          "n": 3
+        },
+        {
+          "q": "Extraction",
+          "n": 3
+        },
+        {
+          "q": "Fine-Grained",
+          "n": 3
+        },
+        {
+          "q": "Germany",
+          "n": 3
+        },
+        {
+          "q": "Inefficiencies",
+          "n": 3
+        },
+        {
+          "q": "Infrastructure Monitoring",
+          "n": 3
+        },
+        {
+          "q": "JSON Binding",
+          "n": 3
+        },
+        {
+          "q": "Language APIs",
+          "n": 3
+        },
+        {
+          "q": "macOS",
+          "n": 3
+        },
+        {
+          "q": "Maritime",
+          "n": 3
+        },
+        {
+          "q": "Markets",
+          "n": 3
+        },
+        {
+          "q": "mobility",
+          "n": 3
+        },
+        {
+          "q": "mod_perl",
+          "n": 3
+        },
+        {
+          "q": "o",
+          "n": 3
+        },
+        {
+          "q": "OpenAPI Overlay",
+          "n": 3
+        },
+        {
+          "q": "Orchestration",
+          "n": 3
+        },
+        {
+          "q": "Papers",
+          "n": 3
+        },
+        {
+          "q": "Partner",
+          "n": 3
+        },
+        {
+          "q": "POP",
+          "n": 3
+        },
+        {
+          "q": "POST",
+          "n": 3
+        },
+        {
+          "q": "Pricing",
+          "n": 3
+        },
+        {
+          "q": "Print",
+          "n": 3
+        },
+        {
+          "q": "Problems",
+          "n": 3
+        },
+        {
+          "q": "Products",
+          "n": 3
+        },
+        {
+          "q": "Profiling",
+          "n": 3
+        },
+        {
+          "q": "Protocol",
+          "n": 3
+        },
+        {
+          "q": "Publishing",
+          "n": 3
+        },
+        {
+          "q": "Quality Management",
+          "n": 3
+        },
+        {
+          "q": "R",
+          "n": 3
+        },
+        {
+          "q": "Reactive Programming",
+          "n": 3
+        },
+        {
+          "q": "Redundancy",
+          "n": 3
+        },
+        {
+          "q": "Registry",
+          "n": 3
+        },
+        {
+          "q": "Reporting",
+          "n": 3
+        },
+        {
+          "q": "Roundup",
+          "n": 3
+        },
+        {
+          "q": "Rules",
+          "n": 3
+        },
+        {
+          "q": "Schema",
+          "n": 3
+        },
+        {
+          "q": "Shift Left",
+          "n": 3
+        },
+        {
+          "q": "SLA",
+          "n": 3
+        },
+        {
+          "q": "Stories",
+          "n": 3
+        },
+        {
+          "q": "Strategies",
+          "n": 3
+        },
+        {
+          "q": "tmdb",
+          "n": 3
+        },
+        {
+          "q": "Training",
+          "n": 3
+        },
+        {
+          "q": "Trust Services",
+          "n": 3
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "3gpp-ts28541-5gcnrm",
+          "n": 2
+        },
+        {
+          "q": "amberdata-arc-openapi",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-routebuildschedulelog-api",
+          "n": 2
+        },
+        {
+          "q": "astrix",
+          "n": 2
+        },
+        {
+          "q": "dedrone",
+          "n": 2
+        },
+        {
+          "q": "defakto",
+          "n": 2
+        },
+        {
+          "q": "engineering-platform-action-tagmfadevice-api",
+          "n": 2
+        },
+        {
+          "q": "factset-linear-api",
+          "n": 2
+        },
+        {
+          "q": "Isomorphic",
+          "n": 2
+        },
+        {
+          "q": "microsoft-azure-accessconnector-api",
+          "n": 2
+        },
+        {
+          "q": "microsoft-azure-accesspolicies-api",
+          "n": 2
+        },
+        {
+          "q": "microsoft-azure-monitor-data-collection-endpoints-api",
+          "n": 2
+        },
+        {
+          "q": "pinecone-inference-api",
+          "n": 2
+        },
+        {
+          "q": "pinnacle-periods-api",
+          "n": 2
+        },
+        {
+          "q": "Stessa",
+          "n": 2
+        },
+        {
+          "q": "0901.21.00",
+          "n": 1
+        },
+        {
+          "q": "10web-subdomain-api",
+          "n": 1
+        },
+        {
+          "q": "1password-vaults-api",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts28531-nsprovmns",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts28561-ndtnrm",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts29122-pfdmanagement",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts29222-aef-security-api",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts29222-capif-discover-service-api",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts29512-npcf-smpolicycontrol",
+          "n": 1
+        },
+        {
+          "q": "6109.10.00",
+          "n": 1
+        },
+        {
+          "q": "8x8-administration-address-api-v1",
+          "n": 1
+        },
+        {
+          "q": "99-minutos-oauth-api",
+          "n": 1
+        },
+        {
+          "q": "a7-precalc-api",
+          "n": 1
+        },
+        {
+          "q": "accelbyte-basic-api",
+          "n": 1
+        },
+        {
+          "q": "adafruit-io-groups-api",
+          "n": 1
+        },
+        {
+          "q": "adafruit-io-permissions-api",
+          "n": 1
+        },
+        {
+          "q": "adafruit-io-users-api",
+          "n": 1
+        },
+        {
+          "q": "adafruit-io-webhooks-api",
+          "n": 1
+        },
+        {
+          "q": "Advanced Packaging",
+          "n": 1
+        },
+        {
+          "q": "adyen-accounting-notifications-api",
+          "n": 1
+        },
+        {
+          "q": "affinda-document-types-api",
+          "n": 1
+        },
+        {
+          "q": "affinda-documents-api",
+          "n": 1
+        },
+        {
+          "q": "affinda-organizations-api",
+          "n": 1
+        },
+        {
+          "q": "affinda-tags-api",
+          "n": 1
+        },
+        {
+          "q": "agorapulse-calendar-notes-api",
+          "n": 1
+        },
+        {
+          "q": "agorapulse-conversations-api",
+          "n": 1
+        },
+        {
+          "q": "agorapulse-reports-api",
+          "n": 1
+        },
+        {
+          "q": "ai-gateway-embeddings-api",
+          "n": 1
+        },
+        {
+          "q": "aimlapi-images-api",
+          "n": 1
+        },
+        {
+          "q": "akamai-identity-cloud-webhooks-v3-api",
+          "n": 1
+        },
+        {
+          "q": "alloy-automation-connectivity-api",
+          "n": 1
+        },
+        {
+          "q": "alloy-automation-passthrough-api",
+          "n": 1
+        },
+        {
+          "q": "alloy-automation-unified-crm-api",
+          "n": 1
+        },
+        {
+          "q": "alpaca-clock-api",
+          "n": 1
+        },
+        {
+          "q": "alpaca-corporate-actions-api",
+          "n": 1
+        },
+        {
+          "q": "alpaca-events-api",
+          "n": 1
+        },
+        {
+          "q": "Altus Group",
+          "n": 1
+        },
+        {
+          "q": "amberdata-futures-api",
+          "n": 1
+        },
+        {
+          "q": "amcs-group-companyoutletanalysiscode-api",
+          "n": 1
+        },
+        {
+          "q": "amcs-group-currencyrate-api",
+          "n": 1
+        },
+        {
+          "q": "amcs-group-customerhomecache-api",
+          "n": 1
+        },
+        {
+          "q": "amcs-group-deletejob-api",
+          "n": 1
+        },
+        {
+          "q": "amcs-group-facilitytype-api",
+          "n": 1
+        },
+        {
+          "q": "amcs-group-jobcancel-api",
+          "n": 1
+        },
+        {
+          "q": "amcs-group-picture-api",
+          "n": 1
+        },
+        {
+          "q": "amcs-group-pricingbasis-api",
+          "n": 1
+        },
+        {
+          "q": "amcs-group-sharedcontainer-api",
+          "n": 1
+        },
+        {
+          "q": "amcs-group-user-api",
+          "n": 1
+        },
+        {
+          "q": "amcs-group-vehicleeventtype-api",
+          "n": 1
+        },
+        {
+          "q": "amcs-group-visitstatus-api",
+          "n": 1
+        },
+        {
+          "q": "amcs-group-writeoffreason-api",
+          "n": 1
+        },
+        {
+          "q": "anthropic-api-keys-api",
+          "n": 1
+        },
+        {
+          "q": "apache-kafka-plugins-api",
+          "n": 1
+        },
+        {
+          "q": "apache-pulsar-topics-api",
+          "n": 1
+        },
+        {
+          "q": "apyhub-add-header-footer-to-pdf",
+          "n": 1
+        },
+        {
+          "q": "apyhub-analyze-text-sentiment",
+          "n": 1
+        },
+        {
+          "q": "apyhub-apply-watermark-on-pdf",
+          "n": 1
+        },
+        {
+          "q": "apyhub-ask-question-about-pdf",
+          "n": 1
+        },
+        {
+          "q": "apyhub-detect-human-faces",
+          "n": 1
+        },
+        {
+          "q": "apyhub-face-detection",
+          "n": 1
+        },
+        {
+          "q": "apyhub-syntax-analysis",
+          "n": 1
+        },
+        {
+          "q": "arcade-hooks-api",
+          "n": 1
+        },
+        {
+          "q": "argil-assets-api",
+          "n": 1
+        },
+        {
+          "q": "argyle-gigs-api",
+          "n": 1
+        },
+        {
+          "q": "argyle-receipts-api",
+          "n": 1
+        },
+        {
+          "q": "artifactory-artifactory-extensions-api",
+          "n": 1
+        },
+        {
+          "q": "asana-goal-relationships-api",
+          "n": 1
+        },
+        {
+          "q": "ashby-close-reason-api",
+          "n": 1
+        },
+        {
+          "q": "athina-datasets-api",
+          "n": 1
+        },
+        {
+          "q": "athina-evaluations-api",
+          "n": 1
+        },
+        {
+          "q": "athina-logging-api",
+          "n": 1
+        },
+        {
+          "q": "atomic-fi-company-api",
+          "n": 1
+        },
+        {
+          "q": "atomic-fi-linked-accounts-api",
+          "n": 1
+        },
+        {
+          "q": "atomic-fi-webhooks-api",
+          "n": 1
+        },
+        {
+          "q": "attom-data-assessment-api",
+          "n": 1
+        },
+        {
+          "q": "autofleet",
+          "n": 1
+        },
+        {
+          "q": "aws-app-runner-auto-scaling-api",
+          "n": 1
+        },
+        {
+          "q": "Azure front door",
+          "n": 1
+        },
+        {
+          "q": "azure-devops-fields-api",
+          "n": 1
+        },
+        {
+          "q": "azure-devops-workitems-api",
+          "n": 1
+        },
+        {
+          "q": "B2B Software Reviews",
+          "n": 1
+        },
+        {
+          "q": "backstage-token-verification-api",
+          "n": 1
+        },
+        {
+          "q": "bandsintown",
+          "n": 1
+        },
+        {
+          "q": "bharat",
+          "n": 1
+        },
+        {
+          "q": "bharatpe",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 15
+        },
+        {
+          "resource": "stats",
+          "n": 9
+        }
+      ],
+      "by_tier": {
+        "internal": 3224,
+        "free": 4531
+      },
+      "by_surface": {
+        "api": 7044,
+        "mcp": 711
+      }
+    },
+    {
+      "week_starting": "2026-08-24",
+      "week_ending": "2026-08-30",
+      "fetched_at": "2026-08-31T13:22:56Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 55921,
+      "unique_terms": 5751,
+      "unmet_terms": 4461,
+      "top_queries": [
+        {
+          "q": "action",
+          "n": 19
+        },
+        {
+          "q": "Bulk Data",
+          "n": 7
+        },
+        {
+          "q": "Human Capital",
+          "n": 7
+        },
+        {
+          "q": "K-12",
+          "n": 7
+        },
+        {
+          "q": "Rail",
+          "n": 7
+        },
+        {
+          "q": "Health Data",
+          "n": 6
+        },
+        {
+          "q": "Information Architecture",
+          "n": 6
+        },
+        {
+          "q": "Real World Evidence",
+          "n": 6
+        },
+        {
+          "q": "Retrieval",
+          "n": 6
+        },
+        {
+          "q": "Rostering",
+          "n": 6
+        },
+        {
+          "q": "Clinical Trials",
+          "n": 5
+        },
+        {
+          "q": "Data Standard",
+          "n": 5
+        },
+        {
+          "q": "eidas",
+          "n": 5
+        },
+        {
+          "q": "EV Charging",
+          "n": 5
+        },
+        {
+          "q": "GRC",
+          "n": 5
+        },
+        {
+          "q": "Identifier",
+          "n": 5
+        },
+        {
+          "q": "LLM SEO",
+          "n": 5
+        },
+        {
+          "q": "Logistics",
+          "n": 5
+        },
+        {
+          "q": "SAE",
+          "n": 5
+        },
+        {
+          "q": "shopify",
+          "n": 5
+        },
+        {
+          "q": "Trade Finance",
+          "n": 5
+        },
+        {
+          "q": "United States",
+          "n": 5
+        },
+        {
+          "q": "api",
+          "n": 4
+        },
+        {
+          "q": "Autonomous Vehicles",
+          "n": 4
+        },
+        {
+          "q": "Aviation",
+          "n": 4
+        },
+        {
+          "q": "Clinical Decision Support",
+          "n": 4
+        },
+        {
+          "q": "Code",
+          "n": 4
+        },
+        {
+          "q": "coursera",
+          "n": 4
+        },
+        {
+          "q": "Data Dictionary",
+          "n": 4
+        },
+        {
+          "q": "Data Model",
+          "n": 4
+        },
+        {
+          "q": "Definitions",
+          "n": 4
+        },
+        {
+          "q": "Deposit",
+          "n": 4
+        },
+        {
+          "q": "DPoP",
+          "n": 4
+        },
+        {
+          "q": "E-Invoicing",
+          "n": 4
+        },
+        {
+          "q": "Genomics",
+          "n": 4
+        },
+        {
+          "q": "Healthcare",
+          "n": 4
+        },
+        {
+          "q": "HR",
+          "n": 4
+        },
+        {
+          "q": "Kin Score",
+          "n": 4
+        },
+        {
+          "q": "Machine Tools",
+          "n": 4
+        },
+        {
+          "q": "Mobility",
+          "n": 4
+        },
+        {
+          "q": "NISO",
+          "n": 4
+        },
+        {
+          "q": "Observational Research",
+          "n": 4
+        },
+        {
+          "q": "OpenFeature",
+          "n": 4
+        },
+        {
+          "q": "Payer",
+          "n": 4
+        },
+        {
+          "q": "Prior Authorization",
+          "n": 4
+        },
+        {
+          "q": "Programming Paradigm",
+          "n": 4
+        },
+        {
+          "q": "Real-Time Bidding",
+          "n": 4
+        },
+        {
+          "q": "Real-Time Payments",
+          "n": 4
+        },
+        {
+          "q": "reflection",
+          "n": 4
+        },
+        {
+          "q": "Regulatory Submission",
+          "n": 4
+        },
+        {
+          "q": "Roaming",
+          "n": 4
+        },
+        {
+          "q": "UTM",
+          "n": 4
+        },
+        {
+          "q": "Well-Known URI",
+          "n": 4
+        },
+        {
+          "q": "Abandonment",
+          "n": 3
+        },
+        {
+          "q": "apache-software-foundation-podlings-api",
+          "n": 3
+        },
+        {
+          "q": "API Standard",
+          "n": 3
+        },
+        {
+          "q": "Attestation",
+          "n": 3
+        },
+        {
+          "q": "BDD",
+          "n": 3
+        },
+        {
+          "q": "BSS",
+          "n": 3
+        },
+        {
+          "q": "Building Blocks",
+          "n": 3
+        },
+        {
+          "q": "Cargo",
+          "n": 3
+        },
+        {
+          "q": "Cataloging",
+          "n": 3
+        },
+        {
+          "q": "CDR",
+          "n": 3
+        },
+        {
+          "q": "Clinical Documents",
+          "n": 3
+        },
+        {
+          "q": "Columnar Database",
+          "n": 3
+        },
+        {
+          "q": "Corporate Learning",
+          "n": 3
+        },
+        {
+          "q": "Cost",
+          "n": 3
+        },
+        {
+          "q": "Cursor",
+          "n": 3
+        },
+        {
+          "q": "Delegation",
+          "n": 3
+        },
+        {
+          "q": "Development Software",
+          "n": 3
+        },
+        {
+          "q": "Digital Health",
+          "n": 3
+        },
+        {
+          "q": "Digital Sovereignty",
+          "n": 3
+        },
+        {
+          "q": "Disclosure",
+          "n": 3
+        },
+        {
+          "q": "Dynamic Client Registration",
+          "n": 3
+        },
+        {
+          "q": "Economy",
+          "n": 3
+        },
+        {
+          "q": "Employee Benefits",
+          "n": 3
+        },
+        {
+          "q": "ESG",
+          "n": 3
+        },
+        {
+          "q": "Evals",
+          "n": 3
+        },
+        {
+          "q": "FAPI",
+          "n": 3
+        },
+        {
+          "q": "Feature Flags",
+          "n": 3
+        },
+        {
+          "q": "figma-keys-api",
+          "n": 3
+        },
+        {
+          "q": "Graph",
+          "n": 3
+        },
+        {
+          "q": "Graphs",
+          "n": 3
+        },
+        {
+          "q": "harver-vacancies-api",
+          "n": 3
+        },
+        {
+          "q": "History",
+          "n": 3
+        },
+        {
+          "q": "Industries",
+          "n": 3
+        },
+        {
+          "q": "insight",
+          "n": 3
+        },
+        {
+          "q": "Install",
+          "n": 3
+        },
+        {
+          "q": "Interconnect",
+          "n": 3
+        },
+        {
+          "q": "ISO",
+          "n": 3
+        },
+        {
+          "q": "Life Insurance",
+          "n": 3
+        },
+        {
+          "q": "LPWAN",
+          "n": 3
+        },
+        {
+          "q": "Machine Readability",
+          "n": 3
+        },
+        {
+          "q": "mcdonal",
+          "n": 3
+        },
+        {
+          "q": "Method",
+          "n": 3
+        },
+        {
+          "q": "Micromobility",
+          "n": 3
+        },
+        {
+          "q": "Money",
+          "n": 3
+        },
+        {
+          "q": "Onboarding",
+          "n": 3
+        },
+        {
+          "q": "OpenTelemetry / OTLP",
+          "n": 3
+        },
+        {
+          "q": "OSS",
+          "n": 3
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "apache-software-foundation-podlings-api",
+          "n": 3
+        },
+        {
+          "q": "figma-keys-api",
+          "n": 3
+        },
+        {
+          "q": "harver-vacancies-api",
+          "n": 3
+        },
+        {
+          "q": "mcdonal",
+          "n": 3
+        },
+        {
+          "q": "tefca",
+          "n": 3
+        },
+        {
+          "q": "walmart-fulfillment-api",
+          "n": 3
+        },
+        {
+          "q": "agorapulse-agorapulse-api-api",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-apiworkflowsetinstancestateservice-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-committees-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-members-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-people-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-releases-api",
+          "n": 2
+        },
+        {
+          "q": "apicontext-projects-api",
+          "n": 2
+        },
+        {
+          "q": "apifreaks-api-hub-for-developers-screenshot-apis-api",
+          "n": 2
+        },
+        {
+          "q": "argyle-partners-api",
+          "n": 2
+        },
+        {
+          "q": "ashby-application-form-api",
+          "n": 2
+        },
+        {
+          "q": "athina-evaluations-api",
+          "n": 2
+        },
+        {
+          "q": "cloove",
+          "n": 2
+        },
+        {
+          "q": "cloover",
+          "n": 2
+        },
+        {
+          "q": "cloudflare-memberships-api",
+          "n": 2
+        },
+        {
+          "q": "decentro-verification-api",
+          "n": 2
+        },
+        {
+          "q": "e2b-dev-sandboxes-api",
+          "n": 2
+        },
+        {
+          "q": "eclipse-eclipse-marketplace-rest-api-api",
+          "n": 2
+        },
+        {
+          "q": "elastic-path-authentication-realms-api",
+          "n": 2
+        },
+        {
+          "q": "elastic-path-user-authentication-oidc-profile-infos-api",
+          "n": 2
+        },
+        {
+          "q": "elastic-stack-settings-api",
+          "n": 2
+        },
+        {
+          "q": "elexon-balancing-mechanism-dynamic-api",
+          "n": 2
+        },
+        {
+          "q": "Embedded Wallets",
+          "n": 2
+        },
+        {
+          "q": "epa-qa-certification-api",
+          "n": 2
+        },
+        {
+          "q": "esri-arcgis-portal-api",
+          "n": 2
+        },
+        {
+          "q": "github-octocat-api",
+          "n": 2
+        },
+        {
+          "q": "guidewire-exposures-api",
+          "n": 2
+        },
+        {
+          "q": "Hallucination Detection",
+          "n": 2
+        },
+        {
+          "q": "hyatt",
+          "n": 2
+        },
+        {
+          "q": "nats-routes-api",
+          "n": 2
+        },
+        {
+          "q": "nimble-contacts-pipelines-api",
+          "n": 2
+        },
+        {
+          "q": "nuget-package-content-api",
+          "n": 2
+        },
+        {
+          "q": "nutshell-activities-api",
+          "n": 2
+        },
+        {
+          "q": "nutshell-competitors-api",
+          "n": 2
+        },
+        {
+          "q": "nutshell-editions-api",
+          "n": 2
+        },
+        {
+          "q": "oracle-platforms-oracle-analytics-cloud-api",
+          "n": 2
+        },
+        {
+          "q": "pinnacle-sports-api",
+          "n": 2
+        },
+        {
+          "q": "pypi-provenance-api",
+          "n": 2
+        },
+        {
+          "q": "snowflake-grant-api",
+          "n": 2
+        },
+        {
+          "q": "strapi-content-entries-api",
+          "n": 2
+        },
+        {
+          "q": "twilio-byoctrunks-api",
+          "n": 2
+        },
+        {
+          "q": "vtex-brand-api",
+          "n": 2
+        },
+        {
+          "q": "walmart-notifications-api",
+          "n": 2
+        },
+        {
+          "q": "webex-audio-files-api",
+          "n": 2
+        },
+        {
+          "q": "0901.21.00",
+          "n": 1
+        },
+        {
+          "q": "100ms-live-active-rooms-api",
+          "n": 1
+        },
+        {
+          "q": "100ms-live-recording-assets-api",
+          "n": 1
+        },
+        {
+          "q": "1062289793",
+          "n": 1
+        },
+        {
+          "q": "10web-vibe-coding-api",
+          "n": 1
+        },
+        {
+          "q": "1nce-bearer-authorization-api",
+          "n": 1
+        },
+        {
+          "q": "1password-health-api",
+          "n": 1
+        },
+        {
+          "q": "21st-century-cures-act",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts28567-cclnrm",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts28623-subscriptioncontrolnrm",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts29122-gmdviambmsbyxmb",
+          "n": 1
+        },
+        {
+          "q": "6109.10.00",
+          "n": 1
+        },
+        {
+          "q": "7digital-offline-devices-api",
+          "n": 1
+        },
+        {
+          "q": "8x8-actions-events-contact-center-chat-gateway-v1",
+          "n": 1
+        },
+        {
+          "q": "8x8-analytics-8x8-analytics-for-contact-center-historical-metrics-api",
+          "n": 1
+        },
+        {
+          "q": "8x8-analytics-8x8-analytics-for-contact-center-real-time-metrics-api",
+          "n": 1
+        },
+        {
+          "q": "8x8-connect-business-messaging-api",
+          "n": 1
+        },
+        {
+          "q": "8x8-connect-number-masking-api",
+          "n": 1
+        },
+        {
+          "q": "8x8-connect-verification-api",
+          "n": 1
+        },
+        {
+          "q": "a2-biotherapeutics-root-api",
+          "n": 1
+        },
+        {
+          "q": "a2-biotherapeutics-wp-abilities-v1-api",
+          "n": 1
+        },
+        {
+          "q": "aarhus-concept-api",
+          "n": 1
+        },
+        {
+          "q": "aarhus-event-api",
+          "n": 1
+        },
+        {
+          "q": "aarhus-role-api",
+          "n": 1
+        },
+        {
+          "q": "aarhus-user-api",
+          "n": 1
+        },
+        {
+          "q": "abacus-authentication-api",
+          "n": 1
+        },
+        {
+          "q": "abacus-expenses-api",
+          "n": 1
+        },
+        {
+          "q": "abcuro-comments-api",
+          "n": 1
+        },
+        {
+          "q": "abcuro-investors-api",
+          "n": 1
+        },
+        {
+          "q": "abcuro-pages-api",
+          "n": 1
+        },
+        {
+          "q": "abcuro-press-releases-api",
+          "n": 1
+        },
+        {
+          "q": "abortion-policy-api-insurance-coverage-api",
+          "n": 1
+        },
+        {
+          "q": "absentify-leave-types-api",
+          "n": 1
+        },
+        {
+          "q": "absentify-members-api",
+          "n": 1
+        },
+        {
+          "q": "absentify-public-holidays-api",
+          "n": 1
+        },
+        {
+          "q": "absentify-workspace-api",
+          "n": 1
+        },
+        {
+          "q": "abstract-api-company-enrichment-api",
+          "n": 1
+        },
+        {
+          "q": "abstract-api-ip-intelligence-api",
+          "n": 1
+        },
+        {
+          "q": "abuseipdb-blacklist-api",
+          "n": 1
+        },
+        {
+          "q": "accelbyte-iam-api",
+          "n": 1
+        },
+        {
+          "q": "accelbyte-leaderboard-api",
+          "n": 1
+        },
+        {
+          "q": "accelbyte-matchmaking-api",
+          "n": 1
+        },
+        {
+          "q": "accelevents-attendees-api",
+          "n": 1
+        },
+        {
+          "q": "accelo-oauth-api",
+          "n": 1
+        },
+        {
+          "q": "accelo-tasks-api",
+          "n": 1
+        },
+        {
+          "q": "accelsius-media-folders-api",
+          "n": 1
+        },
+        {
+          "q": "accept-datetime",
+          "n": 1
+        },
+        {
+          "q": "accept-escalations-api",
+          "n": 1
+        },
+        {
+          "q": "accredible-analytics-api",
+          "n": 1
+        },
+        {
+          "q": "accredible-evidence-items-api",
+          "n": 1
+        },
+        {
+          "q": "accredible-team-members-api",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "stats",
+          "n": 13
+        },
+        {
+          "resource": "guide",
+          "n": 6
+        }
+      ],
+      "by_tier": {
+        "free": 52734,
+        "internal": 2350,
+        "site": 837
+      },
+      "by_surface": {
+        "api": 55343,
+        "mcp": 578
+      }
+    },
+    {
+      "week_starting": "2026-08-25",
+      "week_ending": "2026-08-31",
+      "fetched_at": "2026-08-31T13:22:57Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 59016,
+      "unique_terms": 6198,
+      "unmet_terms": 5344,
+      "top_queries": [
+        {
+          "q": "action",
+          "n": 11
+        },
+        {
+          "q": "Real World Evidence",
+          "n": 6
+        },
+        {
+          "q": "Health Data",
+          "n": 5
+        },
+        {
+          "q": "Human Capital",
+          "n": 5
+        },
+        {
+          "q": "Identifier",
+          "n": 5
+        },
+        {
+          "q": "Information Architecture",
+          "n": 5
+        },
+        {
+          "q": "Logistics",
+          "n": 5
+        },
+        {
+          "q": "Rail",
+          "n": 5
+        },
+        {
+          "q": "Rostering",
+          "n": 5
+        },
+        {
+          "q": "shopify",
+          "n": 5
+        },
+        {
+          "q": "api",
+          "n": 4
+        },
+        {
+          "q": "BDD",
+          "n": 4
+        },
+        {
+          "q": "Bulk Data",
+          "n": 4
+        },
+        {
+          "q": "Clinical Trials",
+          "n": 4
+        },
+        {
+          "q": "coursera",
+          "n": 4
+        },
+        {
+          "q": "Data Dictionary",
+          "n": 4
+        },
+        {
+          "q": "Data Model",
+          "n": 4
+        },
+        {
+          "q": "Data Standard",
+          "n": 4
+        },
+        {
+          "q": "Definitions",
+          "n": 4
+        },
+        {
+          "q": "Github",
+          "n": 4
+        },
+        {
+          "q": "HR",
+          "n": 4
+        },
+        {
+          "q": "Interchange",
+          "n": 4
+        },
+        {
+          "q": "K-12",
+          "n": 4
+        },
+        {
+          "q": "Machine Tools",
+          "n": 4
+        },
+        {
+          "q": "Programming Paradigm",
+          "n": 4
+        },
+        {
+          "q": "reflection",
+          "n": 4
+        },
+        {
+          "q": "Retrieval",
+          "n": 4
+        },
+        {
+          "q": "Trade Finance",
+          "n": 4
+        },
+        {
+          "q": "United States",
+          "n": 4
+        },
+        {
+          "q": "Air Traffic",
+          "n": 3
+        },
+        {
+          "q": "Analytics",
+          "n": 3
+        },
+        {
+          "q": "apache-software-foundation-podlings-api",
+          "n": 3
+        },
+        {
+          "q": "Autonomous Vehicles",
+          "n": 3
+        },
+        {
+          "q": "Aviation",
+          "n": 3
+        },
+        {
+          "q": "Clinical Decision Support",
+          "n": 3
+        },
+        {
+          "q": "Clinical Documents",
+          "n": 3
+        },
+        {
+          "q": "Code",
+          "n": 3
+        },
+        {
+          "q": "Compute",
+          "n": 3
+        },
+        {
+          "q": "Cursor",
+          "n": 3
+        },
+        {
+          "q": "Development Software",
+          "n": 3
+        },
+        {
+          "q": "e",
+          "n": 3
+        },
+        {
+          "q": "Economy",
+          "n": 3
+        },
+        {
+          "q": "Employee Benefits",
+          "n": 3
+        },
+        {
+          "q": "ESG",
+          "n": 3
+        },
+        {
+          "q": "EV Charging",
+          "n": 3
+        },
+        {
+          "q": "Genomics",
+          "n": 3
+        },
+        {
+          "q": "Graphs",
+          "n": 3
+        },
+        {
+          "q": "GRC",
+          "n": 3
+        },
+        {
+          "q": "History",
+          "n": 3
+        },
+        {
+          "q": "insight",
+          "n": 3
+        },
+        {
+          "q": "Kin Score",
+          "n": 3
+        },
+        {
+          "q": "Life Insurance",
+          "n": 3
+        },
+        {
+          "q": "Machine Readability",
+          "n": 3
+        },
+        {
+          "q": "mcdonal",
+          "n": 3
+        },
+        {
+          "q": "Mobility",
+          "n": 3
+        },
+        {
+          "q": "NISO",
+          "n": 3
+        },
+        {
+          "q": "Observational Research",
+          "n": 3
+        },
+        {
+          "q": "Onboarding",
+          "n": 3
+        },
+        {
+          "q": "Packaging",
+          "n": 3
+        },
+        {
+          "q": "Payer",
+          "n": 3
+        },
+        {
+          "q": "Pricing",
+          "n": 3
+        },
+        {
+          "q": "Prior Authorization",
+          "n": 3
+        },
+        {
+          "q": "psd2",
+          "n": 3
+        },
+        {
+          "q": "Regulatory Submission",
+          "n": 3
+        },
+        {
+          "q": "Retailing",
+          "n": 3
+        },
+        {
+          "q": "SAE",
+          "n": 3
+        },
+        {
+          "q": "Schema",
+          "n": 3
+        },
+        {
+          "q": "Social Philosopher",
+          "n": 3
+        },
+        {
+          "q": "SPIFFE",
+          "n": 3
+        },
+        {
+          "q": "summary",
+          "n": 3
+        },
+        {
+          "q": "Teams",
+          "n": 3
+        },
+        {
+          "q": "tefca",
+          "n": 3
+        },
+        {
+          "q": "Well-Known URI",
+          "n": 3
+        },
+        {
+          "q": "WSDL",
+          "n": 3
+        },
+        {
+          "q": "0901.21.00",
+          "n": 2
+        },
+        {
+          "q": "3rd-Party",
+          "n": 2
+        },
+        {
+          "q": "4",
+          "n": 2
+        },
+        {
+          "q": "6109.10.00",
+          "n": 2
+        },
+        {
+          "q": "Abandonment",
+          "n": 2
+        },
+        {
+          "q": "Accenture",
+          "n": 2
+        },
+        {
+          "q": "Accreditation",
+          "n": 2
+        },
+        {
+          "q": "Advanced Energy",
+          "n": 2
+        },
+        {
+          "q": "Advertising Platform",
+          "n": 2
+        },
+        {
+          "q": "agorapulse-agorapulse-api-api",
+          "n": 2
+        },
+        {
+          "q": "AI Governance",
+          "n": 2
+        },
+        {
+          "q": "ais",
+          "n": 2
+        },
+        {
+          "q": "alloy-automation-users-api",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-apiworkflowsetinstancestateservice-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-committees-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-members-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-people-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-releases-api",
+          "n": 2
+        },
+        {
+          "q": "API Product Management",
+          "n": 2
+        },
+        {
+          "q": "API Standard",
+          "n": 2
+        },
+        {
+          "q": "apifreaks-api-hub-for-developers-screenshot-apis-api",
+          "n": 2
+        },
+        {
+          "q": "Application Deployment",
+          "n": 2
+        },
+        {
+          "q": "Application Runtime",
+          "n": 2
+        },
+        {
+          "q": "Architecture Patterns",
+          "n": 2
+        },
+        {
+          "q": "argo-applications-api",
+          "n": 2
+        },
+        {
+          "q": "argyle-partners-api",
+          "n": 2
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "apache-software-foundation-podlings-api",
+          "n": 3
+        },
+        {
+          "q": "mcdonal",
+          "n": 3
+        },
+        {
+          "q": "tefca",
+          "n": 3
+        },
+        {
+          "q": "agorapulse-agorapulse-api-api",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-apiworkflowsetinstancestateservice-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-committees-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-members-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-people-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-releases-api",
+          "n": 2
+        },
+        {
+          "q": "apifreaks-api-hub-for-developers-screenshot-apis-api",
+          "n": 2
+        },
+        {
+          "q": "argyle-partners-api",
+          "n": 2
+        },
+        {
+          "q": "cloove",
+          "n": 2
+        },
+        {
+          "q": "cloover",
+          "n": 2
+        },
+        {
+          "q": "cloudflare-memberships-api",
+          "n": 2
+        },
+        {
+          "q": "cloudinary-transformation-api",
+          "n": 2
+        },
+        {
+          "q": "decentro-verification-api",
+          "n": 2
+        },
+        {
+          "q": "eclipse-eclipse-marketplace-rest-api-api",
+          "n": 2
+        },
+        {
+          "q": "elastic-path-authentication-realms-api",
+          "n": 2
+        },
+        {
+          "q": "elastic-path-user-authentication-oidc-profile-infos-api",
+          "n": 2
+        },
+        {
+          "q": "Embedded Wallets",
+          "n": 2
+        },
+        {
+          "q": "esri-arcgis-portal-api",
+          "n": 2
+        },
+        {
+          "q": "figma-keys-api",
+          "n": 2
+        },
+        {
+          "q": "github-octocat-api",
+          "n": 2
+        },
+        {
+          "q": "guidewire-exposures-api",
+          "n": 2
+        },
+        {
+          "q": "Hallucination Detection",
+          "n": 2
+        },
+        {
+          "q": "hyatt",
+          "n": 2
+        },
+        {
+          "q": "nats-routes-api",
+          "n": 2
+        },
+        {
+          "q": "nimble-contacts-pipelines-api",
+          "n": 2
+        },
+        {
+          "q": "nutshell-activities-api",
+          "n": 2
+        },
+        {
+          "q": "nutshell-competitors-api",
+          "n": 2
+        },
+        {
+          "q": "nutshell-editions-api",
+          "n": 2
+        },
+        {
+          "q": "pinnacle-sports-api",
+          "n": 2
+        },
+        {
+          "q": "pypi-provenance-api",
+          "n": 2
+        },
+        {
+          "q": "snowflake-grant-api",
+          "n": 2
+        },
+        {
+          "q": "strapi-content-entries-api",
+          "n": 2
+        },
+        {
+          "q": "twilio-alpha-senders-api",
+          "n": 2
+        },
+        {
+          "q": "vtex-brand-api",
+          "n": 2
+        },
+        {
+          "q": "webex-audio-files-api",
+          "n": 2
+        },
+        {
+          "q": "100ms-live-active-rooms-api",
+          "n": 1
+        },
+        {
+          "q": "100ms-live-recording-assets-api",
+          "n": 1
+        },
+        {
+          "q": "1062289793",
+          "n": 1
+        },
+        {
+          "q": "10web-vibe-coding-api",
+          "n": 1
+        },
+        {
+          "q": "1nce-bearer-authorization-api",
+          "n": 1
+        },
+        {
+          "q": "1password-health-api",
+          "n": 1
+        },
+        {
+          "q": "21st-century-cures-act",
+          "n": 1
+        },
+        {
+          "q": "391389294",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts28567-cclnrm",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts28623-subscriptioncontrolnrm",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts29122-gmdviambmsbyxmb",
+          "n": 1
+        },
+        {
+          "q": "7digital-offline-devices-api",
+          "n": 1
+        },
+        {
+          "q": "8x8-actions-events-contact-center-chat-gateway-v1",
+          "n": 1
+        },
+        {
+          "q": "8x8-analytics-8x8-analytics-for-contact-center-real-time-metrics-api",
+          "n": 1
+        },
+        {
+          "q": "8x8-connect-business-messaging-api",
+          "n": 1
+        },
+        {
+          "q": "8x8-connect-number-masking-api",
+          "n": 1
+        },
+        {
+          "q": "8x8-connect-verification-api",
+          "n": 1
+        },
+        {
+          "q": "a2-biotherapeutics-root-api",
+          "n": 1
+        },
+        {
+          "q": "a2-biotherapeutics-wp-abilities-v1-api",
+          "n": 1
+        },
+        {
+          "q": "aarhus-concept-api",
+          "n": 1
+        },
+        {
+          "q": "aarhus-ethicalreview-api",
+          "n": 1
+        },
+        {
+          "q": "aarhus-event-api",
+          "n": 1
+        },
+        {
+          "q": "aarhus-role-api",
+          "n": 1
+        },
+        {
+          "q": "aarhus-user-api",
+          "n": 1
+        },
+        {
+          "q": "abacus-authentication-api",
+          "n": 1
+        },
+        {
+          "q": "abacus-expenses-api",
+          "n": 1
+        },
+        {
+          "q": "abcuro-comments-api",
+          "n": 1
+        },
+        {
+          "q": "abcuro-investors-api",
+          "n": 1
+        },
+        {
+          "q": "abcuro-pages-api",
+          "n": 1
+        },
+        {
+          "q": "abcuro-press-releases-api",
+          "n": 1
+        },
+        {
+          "q": "abortion-policy-api-insurance-coverage-api",
+          "n": 1
+        },
+        {
+          "q": "abound-tax-treaties-api",
+          "n": 1
+        },
+        {
+          "q": "absentify-leave-types-api",
+          "n": 1
+        },
+        {
+          "q": "absentify-members-api",
+          "n": 1
+        },
+        {
+          "q": "absentify-public-holidays-api",
+          "n": 1
+        },
+        {
+          "q": "absentify-workspace-api",
+          "n": 1
+        },
+        {
+          "q": "abstract-api-company-enrichment-api",
+          "n": 1
+        },
+        {
+          "q": "abstract-api-ip-intelligence-api",
+          "n": 1
+        },
+        {
+          "q": "abstract-api-phone-intelligence-api",
+          "n": 1
+        },
+        {
+          "q": "abuseipdb-blacklist-api",
+          "n": 1
+        },
+        {
+          "q": "acadia-roles-api",
+          "n": 1
+        },
+        {
+          "q": "accelbyte-iam-api",
+          "n": 1
+        },
+        {
+          "q": "accelbyte-leaderboard-api",
+          "n": 1
+        },
+        {
+          "q": "accelbyte-matchmaking-api",
+          "n": 1
+        },
+        {
+          "q": "accelevents-attendees-api",
+          "n": 1
+        },
+        {
+          "q": "accelo-oauth-api",
+          "n": 1
+        },
+        {
+          "q": "accelo-tasks-api",
+          "n": 1
+        },
+        {
+          "q": "accelsius-media-folders-api",
+          "n": 1
+        },
+        {
+          "q": "accept-datetime",
+          "n": 1
+        },
+        {
+          "q": "accept-escalations-api",
+          "n": 1
+        },
+        {
+          "q": "accredible-analytics-api",
+          "n": 1
+        },
+        {
+          "q": "accredible-evidence-items-api",
+          "n": 1
+        },
+        {
+          "q": "accredible-groups-api",
+          "n": 1
+        },
+        {
+          "q": "accredible-references-api",
+          "n": 1
+        },
+        {
+          "q": "accredible-team-members-api",
+          "n": 1
+        },
+        {
+          "q": "accurate-bg-adjudication-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-active-storms-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-airquality-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-daily-indices-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-raine-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-wintercast-api",
+          "n": 1
+        },
+        {
+          "q": "acquia-applications-api",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "stats",
+          "n": 13
+        },
+        {
+          "resource": "guide",
+          "n": 6
+        }
+      ],
+      "by_tier": {
+        "free": 56317,
+        "internal": 1593,
+        "site": 1106
+      },
+      "by_surface": {
+        "api": 58631,
+        "mcp": 385
+      }
     }
   ]
 }
