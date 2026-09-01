@@ -46,6 +46,16 @@ permalink: /rating/
   .rate-facet .rf-w { text-align:right; font-weight:700; color:#0a3d91; font-variant-numeric:tabular-nums; white-space:nowrap; }
   .rate-dim { display:inline-flex; align-items:center; gap:0.35rem; background:#f5f8fe; border:1px solid #e1e9f6; border-radius:999px; padding:0.2em 0.7em; font-size:0.8rem; margin:0 0.3rem 0.4rem 0; }
   .rate-dim b { color:#0a3d91; font-variant-numeric:tabular-nums; }
+  /* Every facet and dimension name below opens its own detail page on apis.io —
+     what it measures, the checks that feed it, how the whole catalog distributes
+     on it, and the providers at the top of it. The pages live over there, not
+     here: the rating runs across the APIs.io catalog, so that is where the
+     population behind each number actually is, and a second copy of each page
+     on this domain would compete with it for the same query. */
+  .rate-facet a { color:#0a3d91; text-decoration:none; }
+  .rate-facet a:hover { text-decoration:underline; }
+  a.rate-dim { color:#2d3748; text-decoration:none; }
+  a.rate-dim:hover { background:#eef3fb; border-color:#c3d4ee; }
 </style>
 
 <div class="row">
@@ -89,11 +99,11 @@ permalink: /rating/
       </div>
 
       <h2 class="fs-5 fw-semibold mt-4 mb-2">The facets</h2>
-      <p class="text-muted mb-3" style="max-width:46rem;">The composite is a weighted blend of facets, each scored 0&ndash;100 from its own checks. The weights decide what "good" means. Six apply to every provider and sum to 100%; two are <em>conditional</em> and apply only where they can mean something &mdash; regulatory posture to providers in a regulated industry, open source to providers whose product is itself open source.</p>
+      <p class="text-muted mb-3" style="max-width:46rem;">The composite is a weighted blend of facets, each scored 0&ndash;100 from its own checks. The weights decide what "good" means. Six apply to every provider and sum to 100%; two are <em>conditional</em> and apply only where they can mean something &mdash; regulatory posture to providers in a regulated industry, open source to providers whose product is itself open source. <strong>Each facet name links to its own page on APIs.io</strong> &mdash; the exact checks that feed it, how the whole catalog distributes on it, and the providers scoring highest on it.</p>
       <table class="table table-sm mb-4" style="max-width:46rem;">
         <tbody>
         {%- for fkey in facet_order %}{% assign f = rubric.facets[fkey] %}{% if f %}
-          <tr class="rate-facet"><td><strong>{{ f.label }}</strong>{% if f.conditional %} <span class="rate-band" style="background:#fdf0d5;color:#7a4b00;">conditional</span>{% endif %}</td><td>{{ f.description | strip_newlines | strip_html | truncate: 160 }}</td><td class="rf-w">{{ f.weight | times: 100 | round }}%</td></tr>
+          <tr class="rate-facet"><td><strong><a href="https://apis.io/rating/facets/{{ fkey | replace: '_', '-' }}/">{{ f.label }}</a></strong>{% if f.conditional %} <span class="rate-band" style="background:#fdf0d5;color:#7a4b00;">conditional</span>{% endif %}</td><td>{{ f.description | strip_newlines | strip_html | truncate: 160 }}</td><td class="rf-w">{{ f.weight | times: 100 | round }}%</td></tr>
         {%- endif %}{% endfor %}
         </tbody>
       </table>
@@ -107,9 +117,9 @@ permalink: /rating/
         {%- endfor %}
         </tbody>
       </table>
-      <p class="text-muted small mb-2" style="max-width:46rem;">{{ dims | size }} dimensions feed the score (points each):</p>
+      <p class="text-muted small mb-2" style="max-width:46rem;">{{ dims | size }} dimensions feed the score (points each) &mdash; each one links to its page on APIs.io, with the signal it reads, the grades it awards, and how many providers publish it:</p>
       <div class="mb-4" style="max-width:46rem;">
-        {%- for d in dims %}<span class="rate-dim">{{ d.label }} <b>{{ d.points }}</b></span>{% endfor %}
+        {%- for d in dims %}<a class="rate-dim" href="https://apis.io/rating/dimensions/{{ d.id | replace: '_', '-' }}/">{{ d.label }} <b>{{ d.points }}</b></a>{% endfor %}
       </div>
 
       <!-- Transparency -->
