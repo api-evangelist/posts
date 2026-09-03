@@ -8129,7 +8129,7 @@
     {
       "week_starting": "2026-08-27",
       "week_ending": "2026-09-02",
-      "fetched_at": "2026-09-02T09:49:21Z",
+      "fetched_at": "2026-09-03T04:04:37Z",
       "days_found": 7,
       "days_expected": 7,
       "total_searches": 57095,
@@ -8958,6 +8958,840 @@
       "by_surface": {
         "api": 56579,
         "mcp": 516
+      }
+    },
+    {
+      "week_starting": "2026-08-28",
+      "week_ending": "2026-09-03",
+      "fetched_at": "2026-09-03T04:04:37Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 49010,
+      "unique_terms": 5507,
+      "unmet_terms": 4405,
+      "top_queries": [
+        {
+          "q": "binance-auto-invest-api",
+          "n": 7
+        },
+        {
+          "q": "binance-deposits-api",
+          "n": 6
+        },
+        {
+          "q": "Human Capital",
+          "n": 6
+        },
+        {
+          "q": "observation",
+          "n": 6
+        },
+        {
+          "q": "shopify",
+          "n": 6
+        },
+        {
+          "q": "AWS",
+          "n": 5
+        },
+        {
+          "q": "Deployment",
+          "n": 5
+        },
+        {
+          "q": "highlightl",
+          "n": 5
+        },
+        {
+          "q": "HR",
+          "n": 5
+        },
+        {
+          "q": "Information Architecture",
+          "n": 5
+        },
+        {
+          "q": "6109.10.00",
+          "n": 4
+        },
+        {
+          "q": "API",
+          "n": 4
+        },
+        {
+          "q": "brocade-communications-systems-operations-api",
+          "n": 4
+        },
+        {
+          "q": "insight",
+          "n": 4
+        },
+        {
+          "q": "microservices gateway service mesh",
+          "n": 4
+        },
+        {
+          "q": "NGL",
+          "n": 4
+        },
+        {
+          "q": "Onboarding",
+          "n": 4
+        },
+        {
+          "q": "reflection",
+          "n": 4
+        },
+        {
+          "q": "Reproducibility",
+          "n": 4
+        },
+        {
+          "q": "Retrieval",
+          "n": 4
+        },
+        {
+          "q": "Rostering",
+          "n": 4
+        },
+        {
+          "q": "weather-gov-icons-api",
+          "n": 4
+        },
+        {
+          "q": "0901.21.00",
+          "n": 3
+        },
+        {
+          "q": "action",
+          "n": 3
+        },
+        {
+          "q": "adyen-authentication-webhooks-api",
+          "n": 3
+        },
+        {
+          "q": "Air Traffic",
+          "n": 3
+        },
+        {
+          "q": "AIS",
+          "n": 3
+        },
+        {
+          "q": "ally-invest-watchlists-api",
+          "n": 3
+        },
+        {
+          "q": "amazon-firewall-manager-policies-api",
+          "n": 3
+        },
+        {
+          "q": "Analytics",
+          "n": 3
+        },
+        {
+          "q": "apache-software-foundation-podlings-api",
+          "n": 3
+        },
+        {
+          "q": "API Standard",
+          "n": 3
+        },
+        {
+          "q": "Architecture Patterns",
+          "n": 3
+        },
+        {
+          "q": "Astronomy",
+          "n": 3
+        },
+        {
+          "q": "BDD",
+          "n": 3
+        },
+        {
+          "q": "Claude",
+          "n": 3
+        },
+        {
+          "q": "Compute",
+          "n": 3
+        },
+        {
+          "q": "Connectivity",
+          "n": 3
+        },
+        {
+          "q": "consumers",
+          "n": 3
+        },
+        {
+          "q": "cross-origin-opener-policy-report-only",
+          "n": 3
+        },
+        {
+          "q": "Cursor",
+          "n": 3
+        },
+        {
+          "q": "Design",
+          "n": 3
+        },
+        {
+          "q": "E-Billing",
+          "n": 3
+        },
+        {
+          "q": "enfusion",
+          "n": 3
+        },
+        {
+          "q": "ESG",
+          "n": 3
+        },
+        {
+          "q": "ETSI",
+          "n": 3
+        },
+        {
+          "q": "github",
+          "n": 3
+        },
+        {
+          "q": "Graph",
+          "n": 3
+        },
+        {
+          "q": "History",
+          "n": 3
+        },
+        {
+          "q": "instagram",
+          "n": 3
+        },
+        {
+          "q": "Interrogation",
+          "n": 3
+        },
+        {
+          "q": "ios-alternativedistributionkeys-api",
+          "n": 3
+        },
+        {
+          "q": "LPWAN",
+          "n": 3
+        },
+        {
+          "q": "Machine Readability",
+          "n": 3
+        },
+        {
+          "q": "mcdonal",
+          "n": 3
+        },
+        {
+          "q": "MCP",
+          "n": 3
+        },
+        {
+          "q": "MCP last-mile plumbing monetization map free charge depth",
+          "n": 3
+        },
+        {
+          "q": "meta",
+          "n": 3
+        },
+        {
+          "q": "Money",
+          "n": 3
+        },
+        {
+          "q": "Movies",
+          "n": 3
+        },
+        {
+          "q": "olympusdao-ohm-supply-api",
+          "n": 3
+        },
+        {
+          "q": "ota-api",
+          "n": 3
+        },
+        {
+          "q": "Packaging",
+          "n": 3
+        },
+        {
+          "q": "Pricing",
+          "n": 3
+        },
+        {
+          "q": "public-key-pins",
+          "n": 3
+        },
+        {
+          "q": "Real-Time Bidding",
+          "n": 3
+        },
+        {
+          "q": "Registries",
+          "n": 3
+        },
+        {
+          "q": "Rental Market",
+          "n": 3
+        },
+        {
+          "q": "rest",
+          "n": 3
+        },
+        {
+          "q": "Retailing",
+          "n": 3
+        },
+        {
+          "q": "sec-edgar-company-facts-api",
+          "n": 3
+        },
+        {
+          "q": "summary",
+          "n": 3
+        },
+        {
+          "q": "Switches",
+          "n": 3
+        },
+        {
+          "q": "twilio-alpha-senders-api",
+          "n": 3
+        },
+        {
+          "q": "vicai-status-api",
+          "n": 3
+        },
+        {
+          "q": "walmart-fulfillment-api",
+          "n": 3
+        },
+        {
+          "q": "WSDL",
+          "n": 3
+        },
+        {
+          "q": "Abandonment",
+          "n": 2
+        },
+        {
+          "q": "Accenture",
+          "n": 2
+        },
+        {
+          "q": "Activity Tracking",
+          "n": 2
+        },
+        {
+          "q": "adobe-experience-cloud-collections-api",
+          "n": 2
+        },
+        {
+          "q": "adp-organizations-api",
+          "n": 2
+        },
+        {
+          "q": "Advanced Energy",
+          "n": 2
+        },
+        {
+          "q": "adyen-transfers-api",
+          "n": 2
+        },
+        {
+          "q": "Africa",
+          "n": 2
+        },
+        {
+          "q": "Agentic APIs",
+          "n": 2
+        },
+        {
+          "q": "agents marketplace monetization",
+          "n": 2
+        },
+        {
+          "q": "agorapulse-agorapulse-api-api",
+          "n": 2
+        },
+        {
+          "q": "agorapulse-replies-api",
+          "n": 2
+        },
+        {
+          "q": "Aider",
+          "n": 2
+        },
+        {
+          "q": "air-quality-programmatic-apis-stations-api",
+          "n": 2
+        },
+        {
+          "q": "Algorithms",
+          "n": 2
+        },
+        {
+          "q": "alloy-automation-unified-accounting-api",
+          "n": 2
+        },
+        {
+          "q": "Alternative Asset Management",
+          "n": 2
+        },
+        {
+          "q": "amazon-codecatalyst-accesstokens-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-codedeploy-x-amz-target-codedeploy-20141006-continuedeployment-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-codestar-x-amz-target-codestar-20170419-associateteammember-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-cognito-x-amz-target-awscognitoidentityproviderservice-confirmsignup-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-dynamodb",
+          "n": 2
+        },
+        {
+          "q": "amazon-ec2-auto-scaling-action-disablemetricscollection-api",
+          "n": 2
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "binance-auto-invest-api",
+          "n": 7
+        },
+        {
+          "q": "binance-deposits-api",
+          "n": 6
+        },
+        {
+          "q": "brocade-communications-systems-operations-api",
+          "n": 4
+        },
+        {
+          "q": "weather-gov-icons-api",
+          "n": 4
+        },
+        {
+          "q": "adyen-authentication-webhooks-api",
+          "n": 3
+        },
+        {
+          "q": "ally-invest-watchlists-api",
+          "n": 3
+        },
+        {
+          "q": "amazon-firewall-manager-policies-api",
+          "n": 3
+        },
+        {
+          "q": "apache-software-foundation-podlings-api",
+          "n": 3
+        },
+        {
+          "q": "cross-origin-opener-policy-report-only",
+          "n": 3
+        },
+        {
+          "q": "ios-alternativedistributionkeys-api",
+          "n": 3
+        },
+        {
+          "q": "mcdonal",
+          "n": 3
+        },
+        {
+          "q": "olympusdao-ohm-supply-api",
+          "n": 3
+        },
+        {
+          "q": "sec-edgar-company-facts-api",
+          "n": 3
+        },
+        {
+          "q": "twilio-alpha-senders-api",
+          "n": 3
+        },
+        {
+          "q": "vicai-status-api",
+          "n": 3
+        },
+        {
+          "q": "walmart-fulfillment-api",
+          "n": 3
+        },
+        {
+          "q": "6109.10.00",
+          "n": 2
+        },
+        {
+          "q": "adobe-experience-cloud-collections-api",
+          "n": 2
+        },
+        {
+          "q": "adyen-transfers-api",
+          "n": 2
+        },
+        {
+          "q": "agorapulse-agorapulse-api-api",
+          "n": 2
+        },
+        {
+          "q": "agorapulse-replies-api",
+          "n": 2
+        },
+        {
+          "q": "air-quality-programmatic-apis-stations-api",
+          "n": 2
+        },
+        {
+          "q": "alloy-automation-unified-accounting-api",
+          "n": 2
+        },
+        {
+          "q": "Alternative Asset Management",
+          "n": 2
+        },
+        {
+          "q": "amazon-codecatalyst-accesstokens-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-codedeploy-x-amz-target-codedeploy-20141006-continuedeployment-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-codestar-x-amz-target-codestar-20170419-associateteammember-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-cognito-x-amz-target-awscognitoidentityproviderservice-confirmsignup-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-ec2-auto-scaling-action-disablemetricscollection-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-fraud-detector-predictions-api",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-apiworkflowsetinstancestateservice-api",
+          "n": 2
+        },
+        {
+          "q": "anthropic-message-batches-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-committees-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-members-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-people-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-releases-api",
+          "n": 2
+        },
+        {
+          "q": "aylien-related-story-api",
+          "n": 2
+        },
+        {
+          "q": "baserow-notifications-api",
+          "n": 2
+        },
+        {
+          "q": "beehiiv-subpackage-newsletterlists-api",
+          "n": 2
+        },
+        {
+          "q": "bigcommerce-email-statuses-api",
+          "n": 2
+        },
+        {
+          "q": "bitpowr-technologies-inc-transaction-api",
+          "n": 2
+        },
+        {
+          "q": "blaxel-functions-api",
+          "n": 2
+        },
+        {
+          "q": "blizzard-entertainment-guilds-api",
+          "n": 2
+        },
+        {
+          "q": "blockfrost-cardano-epochs-api",
+          "n": 2
+        },
+        {
+          "q": "britive-profile-requests-managed-permissions-api",
+          "n": 2
+        },
+        {
+          "q": "brocade-session-api",
+          "n": 2
+        },
+        {
+          "q": "cloove",
+          "n": 2
+        },
+        {
+          "q": "cloover",
+          "n": 2
+        },
+        {
+          "q": "cloudinary-transformation-api",
+          "n": 2
+        },
+        {
+          "q": "elastic-path-searchable-fields-api",
+          "n": 2
+        },
+        {
+          "q": "engineering-platform-dependabot-api",
+          "n": 2
+        },
+        {
+          "q": "fauna-eventfeeds-api",
+          "n": 2
+        },
+        {
+          "q": "fauna-query-api",
+          "n": 2
+        },
+        {
+          "q": "gengo",
+          "n": 2
+        },
+        {
+          "q": "Hallucination Detection",
+          "n": 2
+        },
+        {
+          "q": "harver-vacancies-api",
+          "n": 2
+        },
+        {
+          "q": "hud-zip-code-crosswalk-api",
+          "n": 2
+        },
+        {
+          "q": "kinesis-x-amz-target-kinesis-20131202-describestreamsummary-api",
+          "n": 2
+        },
+        {
+          "q": "nuget-package-publish-api",
+          "n": 2
+        },
+        {
+          "q": "oracle-cloud-groups-api",
+          "n": 2
+        },
+        {
+          "q": "oracle-financials-12-oracle-accounts-receivable-api",
+          "n": 2
+        },
+        {
+          "q": "pinnacle-sports-api",
+          "n": 2
+        },
+        {
+          "q": "Precious Metals",
+          "n": 2
+        },
+        {
+          "q": "pypi-provenance-api",
+          "n": 2
+        },
+        {
+          "q": "rainbow-authentication-api",
+          "n": 2
+        },
+        {
+          "q": "service-fabric-cluster-api",
+          "n": 2
+        },
+        {
+          "q": "snkrdunk'",
+          "n": 2
+        },
+        {
+          "q": "stripe-entitlements-api",
+          "n": 2
+        },
+        {
+          "q": "trustpilot-business-units-api",
+          "n": 2
+        },
+        {
+          "q": "xbow-assets-api",
+          "n": 2
+        },
+        {
+          "q": "yugabytedb-packagescontroller-api",
+          "n": 2
+        },
+        {
+          "q": "zesty-fields-api",
+          "n": 2
+        },
+        {
+          "q": "0901.21.00",
+          "n": 1
+        },
+        {
+          "q": "1nce-bearer-authorization-api",
+          "n": 1
+        },
+        {
+          "q": "1password-sign-in-attempts-api",
+          "n": 1
+        },
+        {
+          "q": "391389294",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts28104-mdanrm",
+          "n": 1
+        },
+        {
+          "q": "42gears",
+          "n": 1
+        },
+        {
+          "q": "8x8-connect-business-messaging-api",
+          "n": 1
+        },
+        {
+          "q": "8x8-connect-number-masking-api",
+          "n": 1
+        },
+        {
+          "q": "8x8-connect-verification-api",
+          "n": 1
+        },
+        {
+          "q": "a2-biotherapeutics-root-api",
+          "n": 1
+        },
+        {
+          "q": "a2-biotherapeutics-wp-abilities-v1-api",
+          "n": 1
+        },
+        {
+          "q": "aaltodoc-oai",
+          "n": 1
+        },
+        {
+          "q": "aarhus-concept-api",
+          "n": 1
+        },
+        {
+          "q": "aarhus-ethicalreview-api",
+          "n": 1
+        },
+        {
+          "q": "aarhus-event-api",
+          "n": 1
+        },
+        {
+          "q": "aarhus-role-api",
+          "n": 1
+        },
+        {
+          "q": "aarhus-user-api",
+          "n": 1
+        },
+        {
+          "q": "abacus-authentication-api",
+          "n": 1
+        },
+        {
+          "q": "abacus-expenses-api",
+          "n": 1
+        },
+        {
+          "q": "abcuro-comments-api",
+          "n": 1
+        },
+        {
+          "q": "abcuro-investors-api",
+          "n": 1
+        },
+        {
+          "q": "abcuro-pages-api",
+          "n": 1
+        },
+        {
+          "q": "abcuro-press-releases-api",
+          "n": 1
+        },
+        {
+          "q": "abortion-policy-api-insurance-coverage-api",
+          "n": 1
+        },
+        {
+          "q": "abound-tax-treaties-api",
+          "n": 1
+        },
+        {
+          "q": "absentify-leave-types-api",
+          "n": 1
+        },
+        {
+          "q": "absentify-members-api",
+          "n": 1
+        },
+        {
+          "q": "absentify-public-holidays-api",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "stats",
+          "n": 17
+        },
+        {
+          "resource": "guide",
+          "n": 9
+        }
+      ],
+      "by_tier": {
+        "free": 46071,
+        "site": 2244,
+        "internal": 444,
+        "owner": 252
+      },
+      "by_surface": {
+        "api": 48590,
+        "mcp": 420
       }
     }
   ]
