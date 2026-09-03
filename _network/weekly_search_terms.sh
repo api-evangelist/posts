@@ -57,6 +57,11 @@ git add _data/search_terms.json
 git commit -q -m "Weekly search-terms refresh ($(date '+%Y-%m-%d'))
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>"
-git pull --rebase -q origin main
+# --autostash, because this repo is where blog DRAFTS live. A plain `pull --rebase`
+# refuses on a dirty tree, and on 2026-09-02 that aborted the entire nightly AE build --
+# providers.apievangelist.com never rebuilt -- over five unpublished future-dated posts and
+# a modified scoring.yml. Autostash puts them back afterwards; the drafts are never at risk,
+# and a work-in-progress post is not a reason to skip a night's publish.
+git pull --rebase --autostash -q origin main
 git push -q origin main
 echo "Pushed search-terms update — the Pages workflow will redeploy /search-terms/."
