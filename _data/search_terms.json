@@ -8129,7 +8129,7 @@
     {
       "week_starting": "2026-08-27",
       "week_ending": "2026-09-02",
-      "fetched_at": "2026-09-03T17:41:06Z",
+      "fetched_at": "2026-09-03T23:09:32Z",
       "days_found": 7,
       "days_expected": 7,
       "total_searches": 57095,
@@ -8963,7 +8963,7 @@
     {
       "week_starting": "2026-08-28",
       "week_ending": "2026-09-03",
-      "fetched_at": "2026-09-03T17:41:07Z",
+      "fetched_at": "2026-09-03T23:09:32Z",
       "days_found": 7,
       "days_expected": 7,
       "total_searches": 49010,
