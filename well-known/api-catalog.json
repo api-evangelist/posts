@@ -19,6 +19,30 @@ permalink: /.well-known/api-catalog
           "type": "text/html"
         }
       ]
+    },
+    {
+      "anchor": "https://api.apievangelist.com/v1",
+      "service-desc": [
+        {
+          "href": "https://developer.apievangelist.com/apis/apievangelist-v1-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "API Evangelist API \u2014 OpenAPI"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developer.apievangelist.com/",
+          "type": "text/html",
+          "title": "API Evangelist developer portal"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://api.apievangelist.com/.well-known/oauth-protected-resource",
+          "type": "application/json",
+          "title": "RFC 9728 protected-resource metadata"
+        }
+      ]
     }
   ]
 }
