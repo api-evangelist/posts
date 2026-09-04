@@ -3,7 +3,7 @@ published: true
 layout: post
 title: The Blog Was The Retrieval Layer All Along
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-blog-was-the-retrieval-layer-all-along.png
-date: 2026-10-02
+date: 2026-09-04
 author: Kin Lane
 tags:
   - Storytelling
