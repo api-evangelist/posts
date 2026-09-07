@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Microsoft Documented Its OpenAPI Extensions For A Decade And Never Registered Them'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/microsoft-documented-its-openapi-extensions-for-a-decade-and-never-registered-them.png
 date: 2026-09-07
 author: Kin Lane
 tags:
