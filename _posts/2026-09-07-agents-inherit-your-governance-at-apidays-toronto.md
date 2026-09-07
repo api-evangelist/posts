@@ -13,7 +13,7 @@ tags:
   - Speaking
   - APIdays
 ---
-I am speaking at [APIdays Toronto](https://www.apidays.global/events/toronto) this week — Thursday at 11:00 AM in Markham. The talk is called *Agents Inherit Your Governance — Whether You Meant Them To or Not*, and it is the first live outing of an argument I have been assembling in the APIs.io catalog all year.
+I am speaking at [APIdays Toronto](https://www.apidays.global/events/toronto) this week — Thursday at 11:00 AM in Markham. The talk is called *Agents Inherit Your Governance — Whether You Meant Them To or Not*, and it is the first live outing of an argument I have been assembling in the APIs.io catalog all year. The full deck is already up at [talks.apievangelist.com](https://talks.apievangelist.com/2026-apidays-toronto-governance/2026-apidays-toronto-governance.html) if you want the numbers before Thursday.
 
 The premise is simple, and I think it is the part most API programs have not sat with yet: you are not choosing whether agents use your APIs. They are already calling them — through a copilot someone in your company installed, through a vendor's integration, through a customer who wired an assistant to your public endpoints. Whatever governance you have, or do not have, is what those agents inherited the day they arrived. Nobody asked, because nobody had to. The traffic does not fill out an intake form.
 
