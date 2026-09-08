@@ -12299,7 +12299,7 @@
     {
       "week_starting": "2026-09-01",
       "week_ending": "2026-09-07",
-      "fetched_at": "2026-09-07T15:24:31Z",
+      "fetched_at": "2026-09-08T05:37:18Z",
       "days_found": 7,
       "days_expected": 7,
       "total_searches": 21436,
@@ -13128,6 +13128,839 @@
       "by_surface": {
         "api": 21084,
         "mcp": 352
+      }
+    },
+    {
+      "week_starting": "2026-09-02",
+      "week_ending": "2026-09-08",
+      "fetched_at": "2026-09-08T05:37:18Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 32274,
+      "unique_terms": 5013,
+      "unmet_terms": 2700,
+      "top_queries": [
+        {
+          "q": "eBPF",
+          "n": 9
+        },
+        {
+          "q": "binance-auto-invest-api",
+          "n": 8
+        },
+        {
+          "q": "binance-deposits-api",
+          "n": 8
+        },
+        {
+          "q": "Vision",
+          "n": 8
+        },
+        {
+          "q": "AWS",
+          "n": 6
+        },
+        {
+          "q": "Event Sourcing",
+          "n": 6
+        },
+        {
+          "q": "highlightl",
+          "n": 6
+        },
+        {
+          "q": "microservices gateway service mesh",
+          "n": 6
+        },
+        {
+          "q": "procurement",
+          "n": 6
+        },
+        {
+          "q": "6109.10.00",
+          "n": 5
+        },
+        {
+          "q": "API Catalog",
+          "n": 5
+        },
+        {
+          "q": "NGL",
+          "n": 5
+        },
+        {
+          "q": "RTSP",
+          "n": 5
+        },
+        {
+          "q": "S",
+          "n": 5
+        },
+        {
+          "q": "weather-gov-icons-api",
+          "n": 5
+        },
+        {
+          "q": "0901.21.00",
+          "n": 4
+        },
+        {
+          "q": "a",
+          "n": 4
+        },
+        {
+          "q": "adobe-experience-cloud-collections-api",
+          "n": 4
+        },
+        {
+          "q": "adyen-authentication-webhooks-api",
+          "n": 4
+        },
+        {
+          "q": "ally-invest-watchlists-api",
+          "n": 4
+        },
+        {
+          "q": "Astronomy",
+          "n": 4
+        },
+        {
+          "q": "authentication",
+          "n": 4
+        },
+        {
+          "q": "brocade-communications-systems-operations-api",
+          "n": 4
+        },
+        {
+          "q": "Champions",
+          "n": 4
+        },
+        {
+          "q": "Contract",
+          "n": 4
+        },
+        {
+          "q": "cross-origin-opener-policy-report-only",
+          "n": 4
+        },
+        {
+          "q": "Data Standard",
+          "n": 4
+        },
+        {
+          "q": "DevOps",
+          "n": 4
+        },
+        {
+          "q": "Documentation",
+          "n": 4
+        },
+        {
+          "q": "ETSI",
+          "n": 4
+        },
+        {
+          "q": "Github",
+          "n": 4
+        },
+        {
+          "q": "Homebuilding",
+          "n": 4
+        },
+        {
+          "q": "JSON-LD",
+          "n": 4
+        },
+        {
+          "q": "Lambda",
+          "n": 4
+        },
+        {
+          "q": "mintlify",
+          "n": 4
+        },
+        {
+          "q": "observation",
+          "n": 4
+        },
+        {
+          "q": "ollama",
+          "n": 4
+        },
+        {
+          "q": "portainer",
+          "n": 4
+        },
+        {
+          "q": "Railroad",
+          "n": 4
+        },
+        {
+          "q": "Recordings",
+          "n": 4
+        },
+        {
+          "q": "Rental Market",
+          "n": 4
+        },
+        {
+          "q": "Reproducibility",
+          "n": 4
+        },
+        {
+          "q": "REST",
+          "n": 4
+        },
+        {
+          "q": "Rudderstack",
+          "n": 4
+        },
+        {
+          "q": "Small Business",
+          "n": 4
+        },
+        {
+          "q": "aci-dev-functions-api",
+          "n": 3
+        },
+        {
+          "q": "Africa",
+          "n": 3
+        },
+        {
+          "q": "Agentic APIs",
+          "n": 3
+        },
+        {
+          "q": "Alternative Asset Management",
+          "n": 3
+        },
+        {
+          "q": "anthropic-prompt-generation-api",
+          "n": 3
+        },
+        {
+          "q": "api governance",
+          "n": 3
+        },
+        {
+          "q": "arisa",
+          "n": 3
+        },
+        {
+          "q": "Astrology",
+          "n": 3
+        },
+        {
+          "q": "Batch Processing",
+          "n": 3
+        },
+        {
+          "q": "Blogs",
+          "n": 3
+        },
+        {
+          "q": "Bluetooth",
+          "n": 3
+        },
+        {
+          "q": "Business Capability",
+          "n": 3
+        },
+        {
+          "q": "campflare",
+          "n": 3
+        },
+        {
+          "q": "Catalog",
+          "n": 3
+        },
+        {
+          "q": "cinema",
+          "n": 3
+        },
+        {
+          "q": "clinic",
+          "n": 3
+        },
+        {
+          "q": "Cloudflare",
+          "n": 3
+        },
+        {
+          "q": "Company",
+          "n": 3
+        },
+        {
+          "q": "Components",
+          "n": 3
+        },
+        {
+          "q": "crypto",
+          "n": 3
+        },
+        {
+          "q": "Custom Models",
+          "n": 3
+        },
+        {
+          "q": "Dealertrack",
+          "n": 3
+        },
+        {
+          "q": "Deployment",
+          "n": 3
+        },
+        {
+          "q": "Depoyment",
+          "n": 3
+        },
+        {
+          "q": "E-Billing",
+          "n": 3
+        },
+        {
+          "q": "engineering-platform-access-policy-tester-api",
+          "n": 3
+        },
+        {
+          "q": "Estates",
+          "n": 3
+        },
+        {
+          "q": "Extreme Programming",
+          "n": 3
+        },
+        {
+          "q": "Forward Compatibility",
+          "n": 3
+        },
+        {
+          "q": "gitea",
+          "n": 3
+        },
+        {
+          "q": "Government",
+          "n": 3
+        },
+        {
+          "q": "Healthcare",
+          "n": 3
+        },
+        {
+          "q": "HSA",
+          "n": 3
+        },
+        {
+          "q": "index",
+          "n": 3
+        },
+        {
+          "q": "Investment Banking",
+          "n": 3
+        },
+        {
+          "q": "ios-alternativedistributionkeys-api",
+          "n": 3
+        },
+        {
+          "q": "Istio",
+          "n": 3
+        },
+        {
+          "q": "jet",
+          "n": 3
+        },
+        {
+          "q": "Legal",
+          "n": 3
+        },
+        {
+          "q": "Locations",
+          "n": 3
+        },
+        {
+          "q": "Machine Translation",
+          "n": 3
+        },
+        {
+          "q": "MCP last-mile plumbing monetization map free charge depth",
+          "n": 3
+        },
+        {
+          "q": "MCP server OAuth authentication",
+          "n": 3
+        },
+        {
+          "q": "Meteorological",
+          "n": 3
+        },
+        {
+          "q": "oauth",
+          "n": 3
+        },
+        {
+          "q": "OpenAPI",
+          "n": 3
+        },
+        {
+          "q": "Operator",
+          "n": 3
+        },
+        {
+          "q": "orange",
+          "n": 3
+        },
+        {
+          "q": "Orchestration",
+          "n": 3
+        },
+        {
+          "q": "p",
+          "n": 3
+        },
+        {
+          "q": "Politics",
+          "n": 3
+        },
+        {
+          "q": "Precious Metals",
+          "n": 3
+        },
+        {
+          "q": "public-key-pins",
+          "n": 3
+        },
+        {
+          "q": "Quick Service Restaurant",
+          "n": 3
+        },
+        {
+          "q": "R",
+          "n": 3
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "binance-auto-invest-api",
+          "n": 8
+        },
+        {
+          "q": "binance-deposits-api",
+          "n": 8
+        },
+        {
+          "q": "Homebuilding",
+          "n": 5
+        },
+        {
+          "q": "weather-gov-icons-api",
+          "n": 5
+        },
+        {
+          "q": "adobe-experience-cloud-collections-api",
+          "n": 4
+        },
+        {
+          "q": "adyen-authentication-webhooks-api",
+          "n": 4
+        },
+        {
+          "q": "ally-invest-watchlists-api",
+          "n": 4
+        },
+        {
+          "q": "brocade-communications-systems-operations-api",
+          "n": 4
+        },
+        {
+          "q": "cross-origin-opener-policy-report-only",
+          "n": 4
+        },
+        {
+          "q": "Rudderstack",
+          "n": 4
+        },
+        {
+          "q": "6109.10.00",
+          "n": 3
+        },
+        {
+          "q": "Alternative Asset Management",
+          "n": 3
+        },
+        {
+          "q": "anthropic-prompt-generation-api",
+          "n": 3
+        },
+        {
+          "q": "Dealertrack",
+          "n": 3
+        },
+        {
+          "q": "engineering-platform-access-policy-tester-api",
+          "n": 3
+        },
+        {
+          "q": "Indigenous",
+          "n": 3
+        },
+        {
+          "q": "ios-alternativedistributionkeys-api",
+          "n": 3
+        },
+        {
+          "q": "Meteorological",
+          "n": 3
+        },
+        {
+          "q": "Precious Metals",
+          "n": 3
+        },
+        {
+          "q": "sec-edgar-company-facts-api",
+          "n": 3
+        },
+        {
+          "q": "university-of-wisconsin-madison-affiliations-api",
+          "n": 3
+        },
+        {
+          "q": "zesty-fields-api",
+          "n": 3
+        },
+        {
+          "q": ".",
+          "n": 2
+        },
+        {
+          "q": "0901.21.00",
+          "n": 2
+        },
+        {
+          "q": "adyen-transfers-api",
+          "n": 2
+        },
+        {
+          "q": "affinda-validation-results-api",
+          "n": 2
+        },
+        {
+          "q": "airhelp",
+          "n": 2
+        },
+        {
+          "q": "alpaca-crypto-pricing-data-api-api",
+          "n": 2
+        },
+        {
+          "q": "alpaca-funding-api",
+          "n": 2
+        },
+        {
+          "q": "anthropic-organization-members-api",
+          "n": 2
+        },
+        {
+          "q": "argyle-receipts-api",
+          "n": 2
+        },
+        {
+          "q": "aweber-landing-pages-api",
+          "n": 2
+        },
+        {
+          "q": "aws-step-functions-x-amz-target-awsstepfunctions-createstatemachine-api",
+          "n": 2
+        },
+        {
+          "q": "baseball",
+          "n": 2
+        },
+        {
+          "q": "cedarai-lindaservice-api",
+          "n": 2
+        },
+        {
+          "q": "cenevo-shopping-list-api",
+          "n": 2
+        },
+        {
+          "q": "chase-merchants-api",
+          "n": 2
+        },
+        {
+          "q": "close-subpackage-sequences-api",
+          "n": 2
+        },
+        {
+          "q": "cloudinary-upload-api",
+          "n": 2
+        },
+        {
+          "q": "contentstack-accounts-api",
+          "n": 2
+        },
+        {
+          "q": "coredns-ready-api",
+          "n": 2
+        },
+        {
+          "q": "duck-creek-claims-api",
+          "n": 2
+        },
+        {
+          "q": "fauna-query-api",
+          "n": 2
+        },
+        {
+          "q": "Financial Advice",
+          "n": 2
+        },
+        {
+          "q": "foodvisor",
+          "n": 2
+        },
+        {
+          "q": "Foreign Investment",
+          "n": 2
+        },
+        {
+          "q": "freshdesk-companies-api",
+          "n": 2
+        },
+        {
+          "q": "freshdesk-contacts-api",
+          "n": 2
+        },
+        {
+          "q": "freshdesk-email-configs-api",
+          "n": 2
+        },
+        {
+          "q": "freshdesk-groups-api",
+          "n": 2
+        },
+        {
+          "q": "freshdesk-roles-api",
+          "n": 2
+        },
+        {
+          "q": "genesys-flows-api",
+          "n": 2
+        },
+        {
+          "q": "Geology",
+          "n": 2
+        },
+        {
+          "q": "gitea",
+          "n": 2
+        },
+        {
+          "q": "google-analytics-validation-api",
+          "n": 2
+        },
+        {
+          "q": "GTFS-RT",
+          "n": 2
+        },
+        {
+          "q": "Hackerspaces",
+          "n": 2
+        },
+        {
+          "q": "hud-zip-code-crosswalk-api",
+          "n": 2
+        },
+        {
+          "q": "hyperbrowser-x402-api",
+          "n": 2
+        },
+        {
+          "q": "iterable-inapp-api",
+          "n": 2
+        },
+        {
+          "q": "jboss-eap-management-api",
+          "n": 2
+        },
+        {
+          "q": "marvel-events-api",
+          "n": 2
+        },
+        {
+          "q": "mediamind-story-creation",
+          "n": 2
+        },
+        {
+          "q": "mesh-connect-transfers-api",
+          "n": 2
+        },
+        {
+          "q": "Military Engineering",
+          "n": 2
+        },
+        {
+          "q": "nats-leaf-nodes-api",
+          "n": 2
+        },
+        {
+          "q": "nginx-http-limit-conns-api",
+          "n": 2
+        },
+        {
+          "q": "nova-rpc",
+          "n": 2
+        },
+        {
+          "q": "olympusdao-ohm-supply-api",
+          "n": 2
+        },
+        {
+          "q": "Papago",
+          "n": 2
+        },
+        {
+          "q": "Pharmaceutical Distribution",
+          "n": 2
+        },
+        {
+          "q": "Quartzy",
+          "n": 2
+        },
+        {
+          "q": "rainbow-authentication-api",
+          "n": 2
+        },
+        {
+          "q": "realtor-finance-api",
+          "n": 2
+        },
+        {
+          "q": "Recruitment CRM",
+          "n": 2
+        },
+        {
+          "q": "scalable-architecture-rabbitmq-management-http-api",
+          "n": 2
+        },
+        {
+          "q": "scaleway-backends-api",
+          "n": 2
+        },
+        {
+          "q": "Sealants",
+          "n": 2
+        },
+        {
+          "q": "service-fabric-cluster-api",
+          "n": 2
+        },
+        {
+          "q": "snkrdunk'",
+          "n": 2
+        },
+        {
+          "q": "stripe-financial-connections-api",
+          "n": 2
+        },
+        {
+          "q": "tandem-bank-file-payment-consents-api",
+          "n": 2
+        },
+        {
+          "q": "taskfolk-meta-api",
+          "n": 2
+        },
+        {
+          "q": "tessell-roles-api",
+          "n": 2
+        },
+        {
+          "q": "tether-api-keys-api",
+          "n": 2
+        },
+        {
+          "q": "thinkific-group-users-api",
+          "n": 2
+        },
+        {
+          "q": "ticketmaster-classifications-api",
+          "n": 2
+        },
+        {
+          "q": "toast-labor-api",
+          "n": 2
+        },
+        {
+          "q": "tradeshift-dx-category-documents-requisitions-api",
+          "n": 2
+        },
+        {
+          "q": "tradestation-streaming",
+          "n": 2
+        },
+        {
+          "q": "transcend-io-data-subject-request-api",
+          "n": 2
+        },
+        {
+          "q": "trello-checklists-api",
+          "n": 2
+        },
+        {
+          "q": "university-of-wisconsin-madison-addresses-api",
+          "n": 2
+        },
+        {
+          "q": "university-of-wisconsin-madison-aggregate-api",
+          "n": 2
+        },
+        {
+          "q": "university-of-wisconsin-madison-billing-batch-delete-api",
+          "n": 2
+        },
+        {
+          "q": "vicai-status-api",
+          "n": 2
+        },
+        {
+          "q": "webflux-spring-webflux-websocket",
+          "n": 2
+        },
+        {
+          "q": "zulip-authentication-api",
+          "n": 2
+        },
+        {
+          "q": "-",
+          "n": 1
+        },
+        {
+          "q": "0g-labs-service-types-api",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 13
+        },
+        {
+          "resource": "stats",
+          "n": 13
+        }
+      ],
+      "by_tier": {
+        "free": 28546,
+        "site": 3513,
+        "internal": 216
+      },
+      "by_surface": {
+        "api": 32049,
+        "mcp": 225
       }
     }
   ]
