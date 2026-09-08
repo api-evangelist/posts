@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'The AWS API Gateway Extensions Are A De Facto Standard'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-aws-api-gateway-extensions-are-a-de-facto-standard.png
 date: 2026-09-08
 author: Kin Lane
 tags:
