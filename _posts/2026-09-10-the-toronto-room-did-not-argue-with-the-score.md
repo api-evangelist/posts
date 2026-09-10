@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: 'The Toronto Room Did Not Argue With the Score. It Asked How I Weighted It.'
+title: 'Sharing the Kin Score in Toronto'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-toronto-room-did-not-argue-with-the-score.png
 date: 2026-09-10
 author: Kin Lane
