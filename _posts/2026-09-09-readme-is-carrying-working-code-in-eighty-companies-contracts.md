@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'ReadMe Is Carrying Working Code In Eighty Companies Contracts'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/readme-is-carrying-working-code-in-eighty-companies-contracts.png
 date: 2026-09-09
 author: Kin Lane
 tags:

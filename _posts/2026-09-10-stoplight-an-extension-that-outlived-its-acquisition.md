@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Stoplight: An Extension That Outlived Its Acquisition'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/stoplight-an-extension-that-outlived-its-acquisition.png
 date: 2026-09-10
 author: Kin Lane
 tags:
