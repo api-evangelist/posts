@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Stainless Keys Are Inside The AI Providers Specifications'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/stainless-keys-are-inside-the-ai-providers-specifications.png
 date: 2026-09-11
 author: Kin Lane
 tags:
