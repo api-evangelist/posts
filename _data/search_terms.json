@@ -14795,6 +14795,1672 @@
         "api": 43805,
         "mcp": 155
       }
+    },
+    {
+      "week_starting": "2026-09-04",
+      "week_ending": "2026-09-10",
+      "fetched_at": "2026-09-11T05:46:32Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 53397,
+      "unique_terms": 5911,
+      "unmet_terms": 4397,
+      "top_queries": [
+        {
+          "q": "eBPF",
+          "n": 9
+        },
+        {
+          "q": "Vision",
+          "n": 8
+        },
+        {
+          "q": "Event Sourcing",
+          "n": 6
+        },
+        {
+          "q": "procurement",
+          "n": 6
+        },
+        {
+          "q": "API Catalog",
+          "n": 5
+        },
+        {
+          "q": "0901.21.00",
+          "n": 4
+        },
+        {
+          "q": "a",
+          "n": 4
+        },
+        {
+          "q": "anthropic-prompt-generation-api",
+          "n": 4
+        },
+        {
+          "q": "Champions",
+          "n": 4
+        },
+        {
+          "q": "Code",
+          "n": 4
+        },
+        {
+          "q": "DevOps",
+          "n": 4
+        },
+        {
+          "q": "In-Memory",
+          "n": 4
+        },
+        {
+          "q": "JSON-LD",
+          "n": 4
+        },
+        {
+          "q": "mcp",
+          "n": 4
+        },
+        {
+          "q": "note",
+          "n": 4
+        },
+        {
+          "q": "ollama",
+          "n": 4
+        },
+        {
+          "q": "OpenAPI",
+          "n": 4
+        },
+        {
+          "q": "portainer",
+          "n": 4
+        },
+        {
+          "q": "REST",
+          "n": 4
+        },
+        {
+          "q": "RTSP",
+          "n": 4
+        },
+        {
+          "q": "Rudderstack",
+          "n": 4
+        },
+        {
+          "q": "S",
+          "n": 4
+        },
+        {
+          "q": "Salesforce",
+          "n": 4
+        },
+        {
+          "q": "security",
+          "n": 4
+        },
+        {
+          "q": "Security Architecture",
+          "n": 4
+        },
+        {
+          "q": "Signing",
+          "n": 4
+        },
+        {
+          "q": "slack-files-api",
+          "n": 4
+        },
+        {
+          "q": "Strategy",
+          "n": 4
+        },
+        {
+          "q": "Workload Identity",
+          "n": 4
+        },
+        {
+          "q": "6109.10.00",
+          "n": 3
+        },
+        {
+          "q": "anthropic-organization-members-api",
+          "n": 3
+        },
+        {
+          "q": "api governance",
+          "n": 3
+        },
+        {
+          "q": "APIs.io",
+          "n": 3
+        },
+        {
+          "q": "arisa",
+          "n": 3
+        },
+        {
+          "q": "Artisanal",
+          "n": 3
+        },
+        {
+          "q": "authentication",
+          "n": 3
+        },
+        {
+          "q": "Batch Processing",
+          "n": 3
+        },
+        {
+          "q": "Blogs",
+          "n": 3
+        },
+        {
+          "q": "Bruno",
+          "n": 3
+        },
+        {
+          "q": "campflare",
+          "n": 3
+        },
+        {
+          "q": "CargoSmart",
+          "n": 3
+        },
+        {
+          "q": "Cloudflare",
+          "n": 3
+        },
+        {
+          "q": "Code Generation",
+          "n": 3
+        },
+        {
+          "q": "Contract",
+          "n": 3
+        },
+        {
+          "q": "Custom Models",
+          "n": 3
+        },
+        {
+          "q": "Data",
+          "n": 3
+        },
+        {
+          "q": "Data Standard",
+          "n": 3
+        },
+        {
+          "q": "Dealertrack",
+          "n": 3
+        },
+        {
+          "q": "Deployment Automation",
+          "n": 3
+        },
+        {
+          "q": "Diff",
+          "n": 3
+        },
+        {
+          "q": "Digital Experience",
+          "n": 3
+        },
+        {
+          "q": "Distribution System",
+          "n": 3
+        },
+        {
+          "q": "Documentation",
+          "n": 3
+        },
+        {
+          "q": "Ecosystem",
+          "n": 3
+        },
+        {
+          "q": "engineering-platform-access-policy-tester-api",
+          "n": 3
+        },
+        {
+          "q": "Estates",
+          "n": 3
+        },
+        {
+          "q": "Forms",
+          "n": 3
+        },
+        {
+          "q": "Functional Testing",
+          "n": 3
+        },
+        {
+          "q": "GatewayResponse",
+          "n": 3
+        },
+        {
+          "q": "Genomics",
+          "n": 3
+        },
+        {
+          "q": "Github",
+          "n": 3
+        },
+        {
+          "q": "Government",
+          "n": 3
+        },
+        {
+          "q": "Homebuilding",
+          "n": 3
+        },
+        {
+          "q": "HSA",
+          "n": 3
+        },
+        {
+          "q": "Investment Banking",
+          "n": 3
+        },
+        {
+          "q": "Istio",
+          "n": 3
+        },
+        {
+          "q": "kpmg",
+          "n": 3
+        },
+        {
+          "q": "Looms",
+          "n": 3
+        },
+        {
+          "q": "Machine Translation",
+          "n": 3
+        },
+        {
+          "q": "MCP server OAuth authentication",
+          "n": 3
+        },
+        {
+          "q": "metadata",
+          "n": 3
+        },
+        {
+          "q": "Meteorological",
+          "n": 3
+        },
+        {
+          "q": "mintlify",
+          "n": 3
+        },
+        {
+          "q": "oauth",
+          "n": 3
+        },
+        {
+          "q": "one-rpc",
+          "n": 3
+        },
+        {
+          "q": "Operator",
+          "n": 3
+        },
+        {
+          "q": "Orchestration",
+          "n": 3
+        },
+        {
+          "q": "Order Management System",
+          "n": 3
+        },
+        {
+          "q": "ORM",
+          "n": 3
+        },
+        {
+          "q": "p",
+          "n": 3
+        },
+        {
+          "q": "Partnership",
+          "n": 3
+        },
+        {
+          "q": "Politics",
+          "n": 3
+        },
+        {
+          "q": "Programmatic",
+          "n": 3
+        },
+        {
+          "q": "question",
+          "n": 3
+        },
+        {
+          "q": "Real Time",
+          "n": 3
+        },
+        {
+          "q": "reflection",
+          "n": 3
+        },
+        {
+          "q": "Resources",
+          "n": 3
+        },
+        {
+          "q": "Retrieval",
+          "n": 3
+        },
+        {
+          "q": "Review",
+          "n": 3
+        },
+        {
+          "q": "RFC",
+          "n": 3
+        },
+        {
+          "q": "SBOM",
+          "n": 3
+        },
+        {
+          "q": "Schema",
+          "n": 3
+        },
+        {
+          "q": "Self-Help",
+          "n": 3
+        },
+        {
+          "q": "Serverless",
+          "n": 3
+        },
+        {
+          "q": "Service Oriented",
+          "n": 3
+        },
+        {
+          "q": "SOA",
+          "n": 3
+        },
+        {
+          "q": "Social",
+          "n": 3
+        },
+        {
+          "q": "Software Architecture",
+          "n": 3
+        },
+        {
+          "q": "Supply Chain",
+          "n": 3
+        },
+        {
+          "q": "Syndication",
+          "n": 3
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "anthropic-prompt-generation-api",
+          "n": 4
+        },
+        {
+          "q": "Homebuilding",
+          "n": 4
+        },
+        {
+          "q": "Rudderstack",
+          "n": 4
+        },
+        {
+          "q": "anthropic-organization-members-api",
+          "n": 3
+        },
+        {
+          "q": "Dealertrack",
+          "n": 3
+        },
+        {
+          "q": "engineering-platform-access-policy-tester-api",
+          "n": 3
+        },
+        {
+          "q": "Indigenous",
+          "n": 3
+        },
+        {
+          "q": "kpmg",
+          "n": 3
+        },
+        {
+          "q": "Meteorological",
+          "n": 3
+        },
+        {
+          "q": "university-of-wisconsin-madison-affiliations-api",
+          "n": 3
+        },
+        {
+          "q": ".",
+          "n": 2
+        },
+        {
+          "q": "0901.21.00",
+          "n": 2
+        },
+        {
+          "q": "academic-curriculums",
+          "n": 2
+        },
+        {
+          "q": "adobe-experience-cloud-collections-api",
+          "n": 2
+        },
+        {
+          "q": "adyen-authentication-webhooks-api",
+          "n": 2
+        },
+        {
+          "q": "affinda-validation-results-api",
+          "n": 2
+        },
+        {
+          "q": "airhelp",
+          "n": 2
+        },
+        {
+          "q": "Annuities",
+          "n": 2
+        },
+        {
+          "q": "argyle-receipts-api",
+          "n": 2
+        },
+        {
+          "q": "aweber-landing-pages-api",
+          "n": 2
+        },
+        {
+          "q": "aws-step-functions-x-amz-target-awsstepfunctions-createstatemachine-api",
+          "n": 2
+        },
+        {
+          "q": "baseball",
+          "n": 2
+        },
+        {
+          "q": "binance-deposits-api",
+          "n": 2
+        },
+        {
+          "q": "branch-locator-api",
+          "n": 2
+        },
+        {
+          "q": "CargoSmart",
+          "n": 2
+        },
+        {
+          "q": "cedarai-lindaservice-api",
+          "n": 2
+        },
+        {
+          "q": "cenevo-shopping-list-api",
+          "n": 2
+        },
+        {
+          "q": "chase-merchants-api",
+          "n": 2
+        },
+        {
+          "q": "close-subpackage-sequences-api",
+          "n": 2
+        },
+        {
+          "q": "contentstack-accounts-api",
+          "n": 2
+        },
+        {
+          "q": "coredns-ready-api",
+          "n": 2
+        },
+        {
+          "q": "delphix-vdbs-api",
+          "n": 2
+        },
+        {
+          "q": "digicert-organization-api",
+          "n": 2
+        },
+        {
+          "q": "docusign-service-information-api",
+          "n": 2
+        },
+        {
+          "q": "duck-creek-claims-api",
+          "n": 2
+        },
+        {
+          "q": "Fisheries",
+          "n": 2
+        },
+        {
+          "q": "fleetmon-expected-port-arrivals-api",
+          "n": 2
+        },
+        {
+          "q": "foodvisor",
+          "n": 2
+        },
+        {
+          "q": "Foreign Investment",
+          "n": 2
+        },
+        {
+          "q": "Freelancing",
+          "n": 2
+        },
+        {
+          "q": "freshdesk-companies-api",
+          "n": 2
+        },
+        {
+          "q": "freshdesk-contacts-api",
+          "n": 2
+        },
+        {
+          "q": "freshdesk-email-configs-api",
+          "n": 2
+        },
+        {
+          "q": "freshdesk-groups-api",
+          "n": 2
+        },
+        {
+          "q": "freshdesk-products-api",
+          "n": 2
+        },
+        {
+          "q": "freshdesk-roles-api",
+          "n": 2
+        },
+        {
+          "q": "genesys-flows-api",
+          "n": 2
+        },
+        {
+          "q": "Geology",
+          "n": 2
+        },
+        {
+          "q": "google-analytics-validation-api",
+          "n": 2
+        },
+        {
+          "q": "grpc-health-checking",
+          "n": 2
+        },
+        {
+          "q": "grpc-health-checking-api",
+          "n": 2
+        },
+        {
+          "q": "Hackerspaces",
+          "n": 2
+        },
+        {
+          "q": "hexa-semantic-projects-models-api",
+          "n": 2
+        },
+        {
+          "q": "Hispanic",
+          "n": 2
+        },
+        {
+          "q": "hyperbrowser-x402-api",
+          "n": 2
+        },
+        {
+          "q": "iterable-inapp-api",
+          "n": 2
+        },
+        {
+          "q": "jobox-ai-receipts-api",
+          "n": 2
+        },
+        {
+          "q": "lendis-posts-api",
+          "n": 2
+        },
+        {
+          "q": "marvel-events-api",
+          "n": 2
+        },
+        {
+          "q": "mediamind-story-creation",
+          "n": 2
+        },
+        {
+          "q": "mesh-connect-transfers-api",
+          "n": 2
+        },
+        {
+          "q": "microsoft-azure-event-hubs-azure-event-hubs-messaging-api",
+          "n": 2
+        },
+        {
+          "q": "microsoft-chat-completions-api",
+          "n": 2
+        },
+        {
+          "q": "nats-leaf-nodes-api",
+          "n": 2
+        },
+        {
+          "q": "NHTSA",
+          "n": 2
+        },
+        {
+          "q": "Papago",
+          "n": 2
+        },
+        {
+          "q": "Quartzy",
+          "n": 2
+        },
+        {
+          "q": "race-entry-set-event-app-access-api",
+          "n": 2
+        },
+        {
+          "q": "realtor-finance-api",
+          "n": 2
+        },
+        {
+          "q": "Recruitment CRM",
+          "n": 2
+        },
+        {
+          "q": "scalable-architecture-rabbitmq-management-http-api",
+          "n": 2
+        },
+        {
+          "q": "scaleway-backends-api",
+          "n": 2
+        },
+        {
+          "q": "Sealants",
+          "n": 2
+        },
+        {
+          "q": "similarweb",
+          "n": 2
+        },
+        {
+          "q": "stripe-financial-connections-api",
+          "n": 2
+        },
+        {
+          "q": "tandem-bank-file-payment-consents-api",
+          "n": 2
+        },
+        {
+          "q": "taskfolk-meta-api",
+          "n": 2
+        },
+        {
+          "q": "tessell-roles-api",
+          "n": 2
+        },
+        {
+          "q": "tether-api-keys-api",
+          "n": 2
+        },
+        {
+          "q": "thanos-query-api",
+          "n": 2
+        },
+        {
+          "q": "thinkific-group-users-api",
+          "n": 2
+        },
+        {
+          "q": "ticketmaster-classifications-api",
+          "n": 2
+        },
+        {
+          "q": "toast-labor-api",
+          "n": 2
+        },
+        {
+          "q": "tradeshift-dx-category-documents-requisitions-api",
+          "n": 2
+        },
+        {
+          "q": "tradestation-streaming",
+          "n": 2
+        },
+        {
+          "q": "transcend-io-data-subject-request-api",
+          "n": 2
+        },
+        {
+          "q": "trello-checklists-api",
+          "n": 2
+        },
+        {
+          "q": "university-of-wisconsin-madison-addresses-api",
+          "n": 2
+        },
+        {
+          "q": "university-of-wisconsin-madison-aggregate-api",
+          "n": 2
+        },
+        {
+          "q": "university-of-wisconsin-madison-billing-batch-delete-api",
+          "n": 2
+        },
+        {
+          "q": "webflux-spring-webflux-websocket",
+          "n": 2
+        },
+        {
+          "q": "workramp-events-api",
+          "n": 2
+        },
+        {
+          "q": "zulip-authentication-api",
+          "n": 2
+        },
+        {
+          "q": "zulip-bots-api",
+          "n": 2
+        },
+        {
+          "q": "-",
+          "n": 1
+        },
+        {
+          "q": "0g-labs-service-types-api",
+          "n": 1
+        },
+        {
+          "q": "0x-swap-api",
+          "n": 1
+        },
+        {
+          "q": "100ms-live-room-codes-api",
+          "n": 1
+        },
+        {
+          "q": "100ms-live-sessions-api",
+          "n": 1
+        },
+        {
+          "q": "1011417747",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 15
+        },
+        {
+          "resource": "stats",
+          "n": 15
+        }
+      ],
+      "by_tier": {
+        "free": 49387,
+        "site": 3881,
+        "internal": 129
+      },
+      "by_surface": {
+        "api": 53259,
+        "mcp": 138
+      }
+    },
+    {
+      "week_starting": "2026-09-05",
+      "week_ending": "2026-09-11",
+      "fetched_at": "2026-09-11T05:46:32Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 62028,
+      "unique_terms": 6160,
+      "unmet_terms": 5191,
+      "top_queries": [
+        {
+          "q": "eBPF",
+          "n": 9
+        },
+        {
+          "q": "Vision",
+          "n": 8
+        },
+        {
+          "q": "Event Sourcing",
+          "n": 6
+        },
+        {
+          "q": "In-Memory",
+          "n": 6
+        },
+        {
+          "q": "procurement",
+          "n": 6
+        },
+        {
+          "q": "0901.21.00",
+          "n": 5
+        },
+        {
+          "q": "API Catalog",
+          "n": 5
+        },
+        {
+          "q": "Champions",
+          "n": 5
+        },
+        {
+          "q": "Forms",
+          "n": 5
+        },
+        {
+          "q": "Schema",
+          "n": 5
+        },
+        {
+          "q": "a",
+          "n": 4
+        },
+        {
+          "q": "anthropic-prompt-generation-api",
+          "n": 4
+        },
+        {
+          "q": "Daily",
+          "n": 4
+        },
+        {
+          "q": "DevOps",
+          "n": 4
+        },
+        {
+          "q": "Distribution System",
+          "n": 4
+        },
+        {
+          "q": "kpmg",
+          "n": 4
+        },
+        {
+          "q": "mcp",
+          "n": 4
+        },
+        {
+          "q": "MCP server OAuth authentication",
+          "n": 4
+        },
+        {
+          "q": "Metadata",
+          "n": 4
+        },
+        {
+          "q": "monetization",
+          "n": 4
+        },
+        {
+          "q": "note",
+          "n": 4
+        },
+        {
+          "q": "ollama",
+          "n": 4
+        },
+        {
+          "q": "OpenAPI",
+          "n": 4
+        },
+        {
+          "q": "Partnership",
+          "n": 4
+        },
+        {
+          "q": "Politics of APIs",
+          "n": 4
+        },
+        {
+          "q": "portainer",
+          "n": 4
+        },
+        {
+          "q": "REST",
+          "n": 4
+        },
+        {
+          "q": "RTSP",
+          "n": 4
+        },
+        {
+          "q": "Rudderstack",
+          "n": 4
+        },
+        {
+          "q": "S",
+          "n": 4
+        },
+        {
+          "q": "Salesforce",
+          "n": 4
+        },
+        {
+          "q": "Self-Help",
+          "n": 4
+        },
+        {
+          "q": "slack-files-api",
+          "n": 4
+        },
+        {
+          "q": "Talks",
+          "n": 4
+        },
+        {
+          "q": "Workload Identity",
+          "n": 4
+        },
+        {
+          "q": "4",
+          "n": 3
+        },
+        {
+          "q": "anthropic-organization-members-api",
+          "n": 3
+        },
+        {
+          "q": "api governance",
+          "n": 3
+        },
+        {
+          "q": "APIs.io",
+          "n": 3
+        },
+        {
+          "q": "arisa",
+          "n": 3
+        },
+        {
+          "q": "Artisanal",
+          "n": 3
+        },
+        {
+          "q": "Big Data",
+          "n": 3
+        },
+        {
+          "q": "Blogs",
+          "n": 3
+        },
+        {
+          "q": "Bruno",
+          "n": 3
+        },
+        {
+          "q": "C",
+          "n": 3
+        },
+        {
+          "q": "campflare",
+          "n": 3
+        },
+        {
+          "q": "CargoSmart",
+          "n": 3
+        },
+        {
+          "q": "Cloudflare",
+          "n": 3
+        },
+        {
+          "q": "Code Generation",
+          "n": 3
+        },
+        {
+          "q": "Consolidation",
+          "n": 3
+        },
+        {
+          "q": "Contract",
+          "n": 3
+        },
+        {
+          "q": "CRM",
+          "n": 3
+        },
+        {
+          "q": "Custom Models",
+          "n": 3
+        },
+        {
+          "q": "Data",
+          "n": 3
+        },
+        {
+          "q": "Dealertrack",
+          "n": 3
+        },
+        {
+          "q": "Depoyment",
+          "n": 3
+        },
+        {
+          "q": "Diff",
+          "n": 3
+        },
+        {
+          "q": "Digital Experience",
+          "n": 3
+        },
+        {
+          "q": "Economy",
+          "n": 3
+        },
+        {
+          "q": "Ecosystem",
+          "n": 3
+        },
+        {
+          "q": "engineering-platform-access-policy-tester-api",
+          "n": 3
+        },
+        {
+          "q": "Gantt Charts",
+          "n": 3
+        },
+        {
+          "q": "GatewayResponse",
+          "n": 3
+        },
+        {
+          "q": "Generation",
+          "n": 3
+        },
+        {
+          "q": "Genomics",
+          "n": 3
+        },
+        {
+          "q": "Government",
+          "n": 3
+        },
+        {
+          "q": "GSMA",
+          "n": 3
+        },
+        {
+          "q": "Human Services",
+          "n": 3
+        },
+        {
+          "q": "Investment Banking",
+          "n": 3
+        },
+        {
+          "q": "Istio",
+          "n": 3
+        },
+        {
+          "q": "Kotlin",
+          "n": 3
+        },
+        {
+          "q": "Looms",
+          "n": 3
+        },
+        {
+          "q": "Markets",
+          "n": 3
+        },
+        {
+          "q": "Meteorological",
+          "n": 3
+        },
+        {
+          "q": "Microcks",
+          "n": 3
+        },
+        {
+          "q": "mintlify",
+          "n": 3
+        },
+        {
+          "q": "Natural Language Processing",
+          "n": 3
+        },
+        {
+          "q": "oauth",
+          "n": 3
+        },
+        {
+          "q": "one-rpc",
+          "n": 3
+        },
+        {
+          "q": "Operator",
+          "n": 3
+        },
+        {
+          "q": "Orchestration",
+          "n": 3
+        },
+        {
+          "q": "Order Management System",
+          "n": 3
+        },
+        {
+          "q": "ORM",
+          "n": 3
+        },
+        {
+          "q": "Phenotype",
+          "n": 3
+        },
+        {
+          "q": "Politics",
+          "n": 3
+        },
+        {
+          "q": "Presentations",
+          "n": 3
+        },
+        {
+          "q": "Print",
+          "n": 3
+        },
+        {
+          "q": "Programmatic",
+          "n": 3
+        },
+        {
+          "q": "question",
+          "n": 3
+        },
+        {
+          "q": "Real Time",
+          "n": 3
+        },
+        {
+          "q": "Real World Evidence",
+          "n": 3
+        },
+        {
+          "q": "Referencing",
+          "n": 3
+        },
+        {
+          "q": "Resources",
+          "n": 3
+        },
+        {
+          "q": "Revenue Management",
+          "n": 3
+        },
+        {
+          "q": "RFC",
+          "n": 3
+        },
+        {
+          "q": "Sandbox",
+          "n": 3
+        },
+        {
+          "q": "SBOM",
+          "n": 3
+        },
+        {
+          "q": "SDKs",
+          "n": 3
+        },
+        {
+          "q": "security",
+          "n": 3
+        },
+        {
+          "q": "Security Architecture",
+          "n": 3
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "anthropic-prompt-generation-api",
+          "n": 4
+        },
+        {
+          "q": "kpmg",
+          "n": 4
+        },
+        {
+          "q": "Rudderstack",
+          "n": 4
+        },
+        {
+          "q": "0901.21.00",
+          "n": 3
+        },
+        {
+          "q": "anthropic-organization-members-api",
+          "n": 3
+        },
+        {
+          "q": "Dealertrack",
+          "n": 3
+        },
+        {
+          "q": "engineering-platform-access-policy-tester-api",
+          "n": 3
+        },
+        {
+          "q": "Homebuilding",
+          "n": 3
+        },
+        {
+          "q": "Indigenous",
+          "n": 3
+        },
+        {
+          "q": "Meteorological",
+          "n": 3
+        },
+        {
+          "q": "university-of-wisconsin-madison-affiliations-api",
+          "n": 3
+        },
+        {
+          "q": "10web-cache-api",
+          "n": 2
+        },
+        {
+          "q": "academic-curriculums",
+          "n": 2
+        },
+        {
+          "q": "adyen-authentication-webhooks-api",
+          "n": 2
+        },
+        {
+          "q": "affinda-validation-results-api",
+          "n": 2
+        },
+        {
+          "q": "airhelp",
+          "n": 2
+        },
+        {
+          "q": "Annuities",
+          "n": 2
+        },
+        {
+          "q": "atomic-fi-paylink-api",
+          "n": 2
+        },
+        {
+          "q": "aws-step-functions-x-amz-target-awsstepfunctions-createstatemachine-api",
+          "n": 2
+        },
+        {
+          "q": "branch-locator-api",
+          "n": 2
+        },
+        {
+          "q": "CargoSmart",
+          "n": 2
+        },
+        {
+          "q": "cedarai-lindaservice-api",
+          "n": 2
+        },
+        {
+          "q": "cenevo-shopping-list-api",
+          "n": 2
+        },
+        {
+          "q": "chase-merchants-api",
+          "n": 2
+        },
+        {
+          "q": "close-subpackage-sequences-api",
+          "n": 2
+        },
+        {
+          "q": "contentstack-accounts-api",
+          "n": 2
+        },
+        {
+          "q": "delphix-vdbs-api",
+          "n": 2
+        },
+        {
+          "q": "digicert-organization-api",
+          "n": 2
+        },
+        {
+          "q": "docusign-service-information-api",
+          "n": 2
+        },
+        {
+          "q": "duck-creek-claims-api",
+          "n": 2
+        },
+        {
+          "q": "Fisheries",
+          "n": 2
+        },
+        {
+          "q": "fleetmon-expected-port-arrivals-api",
+          "n": 2
+        },
+        {
+          "q": "foodvisor",
+          "n": 2
+        },
+        {
+          "q": "Foreign Investment",
+          "n": 2
+        },
+        {
+          "q": "Freelancing",
+          "n": 2
+        },
+        {
+          "q": "freshdesk-products-api",
+          "n": 2
+        },
+        {
+          "q": "fullhunt",
+          "n": 2
+        },
+        {
+          "q": "genesys-authorization-api",
+          "n": 2
+        },
+        {
+          "q": "genesys-fax-api",
+          "n": 2
+        },
+        {
+          "q": "genesys-flows-api",
+          "n": 2
+        },
+        {
+          "q": "genesys-infrastructure-as-code-api",
+          "n": 2
+        },
+        {
+          "q": "Geology",
+          "n": 2
+        },
+        {
+          "q": "gls-group-pod-api",
+          "n": 2
+        },
+        {
+          "q": "google-analytics-validation-api",
+          "n": 2
+        },
+        {
+          "q": "google-suite-docs-sheets-slides-gmail-slides-api",
+          "n": 2
+        },
+        {
+          "q": "grpc-health-checking",
+          "n": 2
+        },
+        {
+          "q": "grpc-health-checking-api",
+          "n": 2
+        },
+        {
+          "q": "gsma-population-density-data-api",
+          "n": 2
+        },
+        {
+          "q": "Hispanic",
+          "n": 2
+        },
+        {
+          "q": "iterable-inapp-api",
+          "n": 2
+        },
+        {
+          "q": "lendis-posts-api",
+          "n": 2
+        },
+        {
+          "q": "marvel-events-api",
+          "n": 2
+        },
+        {
+          "q": "mesh-connect-transfers-api",
+          "n": 2
+        },
+        {
+          "q": "microsoft-azure-event-hubs-azure-event-hubs-messaging-api",
+          "n": 2
+        },
+        {
+          "q": "microsoft-chat-completions-api",
+          "n": 2
+        },
+        {
+          "q": "NHTSA",
+          "n": 2
+        },
+        {
+          "q": "Papago",
+          "n": 2
+        },
+        {
+          "q": "Propane",
+          "n": 2
+        },
+        {
+          "q": "Quartzy",
+          "n": 2
+        },
+        {
+          "q": "race-entry-set-event-app-access-api",
+          "n": 2
+        },
+        {
+          "q": "realtor-finance-api",
+          "n": 2
+        },
+        {
+          "q": "Recruitment CRM",
+          "n": 2
+        },
+        {
+          "q": "scalable-architecture-rabbitmq-management-http-api",
+          "n": 2
+        },
+        {
+          "q": "scaleway-backends-api",
+          "n": 2
+        },
+        {
+          "q": "similarweb",
+          "n": 2
+        },
+        {
+          "q": "stripe-financial-connections-api",
+          "n": 2
+        },
+        {
+          "q": "tandem-bank-file-payment-consents-api",
+          "n": 2
+        },
+        {
+          "q": "taskfolk-meta-api",
+          "n": 2
+        },
+        {
+          "q": "tessell-roles-api",
+          "n": 2
+        },
+        {
+          "q": "tether-api-keys-api",
+          "n": 2
+        },
+        {
+          "q": "thanos-query-api",
+          "n": 2
+        },
+        {
+          "q": "thinkific-group-users-api",
+          "n": 2
+        },
+        {
+          "q": "ticketmaster-classifications-api",
+          "n": 2
+        },
+        {
+          "q": "toast-labor-api",
+          "n": 2
+        },
+        {
+          "q": "tradeshift-dx-category-documents-requisitions-api",
+          "n": 2
+        },
+        {
+          "q": "transcend-io-data-subject-request-api",
+          "n": 2
+        },
+        {
+          "q": "university-of-wisconsin-madison-addresses-api",
+          "n": 2
+        },
+        {
+          "q": "university-of-wisconsin-madison-aggregate-api",
+          "n": 2
+        },
+        {
+          "q": "university-of-wisconsin-madison-billing-batch-delete-api",
+          "n": 2
+        },
+        {
+          "q": "webex-memberships-api",
+          "n": 2
+        },
+        {
+          "q": "webflux-spring-webflux-websocket",
+          "n": 2
+        },
+        {
+          "q": "workramp-events-api",
+          "n": 2
+        },
+        {
+          "q": "zesty-users-api",
+          "n": 2
+        },
+        {
+          "q": "zulip-authentication-api",
+          "n": 2
+        },
+        {
+          "q": "zulip-bots-api",
+          "n": 2
+        },
+        {
+          "q": "0g-labs-service-types-api",
+          "n": 1
+        },
+        {
+          "q": "0x-swap-api",
+          "n": 1
+        },
+        {
+          "q": "100ms-live-room-codes-api",
+          "n": 1
+        },
+        {
+          "q": "100ms-live-sessions-api",
+          "n": 1
+        },
+        {
+          "q": "1011417747",
+          "n": 1
+        },
+        {
+          "q": "1029203046",
+          "n": 1
+        },
+        {
+          "q": "1033252210",
+          "n": 1
+        },
+        {
+          "q": "1068294109",
+          "n": 1
+        },
+        {
+          "q": "10web-builder-api",
+          "n": 1
+        },
+        {
+          "q": "10web-certificate-api",
+          "n": 1
+        },
+        {
+          "q": "10web-vibe-coding-api",
+          "n": 1
+        },
+        {
+          "q": "123formbuilder-groups-api",
+          "n": 1
+        },
+        {
+          "q": "1factory-receiving-api",
+          "n": 1
+        },
+        {
+          "q": "1fort-analytics-api",
+          "n": 1
+        },
+        {
+          "q": "1fort-auth-api",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 10
+        },
+        {
+          "resource": "stats",
+          "n": 10
+        }
+      ],
+      "by_tier": {
+        "free": 57950,
+        "site": 3929,
+        "internal": 149
+      },
+      "by_surface": {
+        "api": 61868,
+        "mcp": 160
+      }
     }
   ]
 }
