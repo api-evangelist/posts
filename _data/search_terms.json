@@ -15632,7 +15632,7 @@
     {
       "week_starting": "2026-09-05",
       "week_ending": "2026-09-11",
-      "fetched_at": "2026-09-11T05:46:32Z",
+      "fetched_at": "2026-09-12T13:32:46Z",
       "days_found": 7,
       "days_expected": 7,
       "total_searches": 62028,
@@ -16460,6 +16460,839 @@
       "by_surface": {
         "api": 61868,
         "mcp": 160
+      }
+    },
+    {
+      "week_starting": "2026-09-06",
+      "week_ending": "2026-09-12",
+      "fetched_at": "2026-09-12T13:32:46Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 70730,
+      "unique_terms": 6252,
+      "unmet_terms": 6043,
+      "top_queries": [
+        {
+          "q": "OpenAPI",
+          "n": 6
+        },
+        {
+          "q": "procurement",
+          "n": 6
+        },
+        {
+          "q": "API Economy",
+          "n": 5
+        },
+        {
+          "q": "Champions",
+          "n": 5
+        },
+        {
+          "q": "In-Memory",
+          "n": 5
+        },
+        {
+          "q": "Telecommunications",
+          "n": 5
+        },
+        {
+          "q": "0901.21.00",
+          "n": 4
+        },
+        {
+          "q": "anthropic-prompt-generation-api",
+          "n": 4
+        },
+        {
+          "q": "APIs.io",
+          "n": 4
+        },
+        {
+          "q": "C",
+          "n": 4
+        },
+        {
+          "q": "Distribution System",
+          "n": 4
+        },
+        {
+          "q": "eBPF",
+          "n": 4
+        },
+        {
+          "q": "Forms",
+          "n": 4
+        },
+        {
+          "q": "kpmg",
+          "n": 4
+        },
+        {
+          "q": "MCP server OAuth authentication",
+          "n": 4
+        },
+        {
+          "q": "Metadata",
+          "n": 4
+        },
+        {
+          "q": "monetization",
+          "n": 4
+        },
+        {
+          "q": "note",
+          "n": 4
+        },
+        {
+          "q": "ollama",
+          "n": 4
+        },
+        {
+          "q": "Partnership",
+          "n": 4
+        },
+        {
+          "q": "portainer",
+          "n": 4
+        },
+        {
+          "q": "S",
+          "n": 4
+        },
+        {
+          "q": "Self-Help",
+          "n": 4
+        },
+        {
+          "q": "slack-files-api",
+          "n": 4
+        },
+        {
+          "q": "Travel",
+          "n": 4
+        },
+        {
+          "q": "3rd-Party",
+          "n": 3
+        },
+        {
+          "q": "4",
+          "n": 3
+        },
+        {
+          "q": "AgentExperience",
+          "n": 3
+        },
+        {
+          "q": "anthropic-organization-members-api",
+          "n": 3
+        },
+        {
+          "q": "api governance",
+          "n": 3
+        },
+        {
+          "q": "arisa",
+          "n": 3
+        },
+        {
+          "q": "Artisanal",
+          "n": 3
+        },
+        {
+          "q": "Big Data",
+          "n": 3
+        },
+        {
+          "q": "Blogs",
+          "n": 3
+        },
+        {
+          "q": "c1-system-log-exporter-api",
+          "n": 3
+        },
+        {
+          "q": "campflare",
+          "n": 3
+        },
+        {
+          "q": "CargoSmart",
+          "n": 3
+        },
+        {
+          "q": "cartesia-ai-pronunciation-dictionaries-api",
+          "n": 3
+        },
+        {
+          "q": "chaitin-policylog-aicls-action-getfieldmetadata-api",
+          "n": 3
+        },
+        {
+          "q": "clari-call-api",
+          "n": 3
+        },
+        {
+          "q": "clari-contact-api",
+          "n": 3
+        },
+        {
+          "q": "clever-users-api",
+          "n": 3
+        },
+        {
+          "q": "close-subpackage-organizations-api",
+          "n": 3
+        },
+        {
+          "q": "Code Generation",
+          "n": 3
+        },
+        {
+          "q": "code-ocean-capsules-api",
+          "n": 3
+        },
+        {
+          "q": "Consolidation",
+          "n": 3
+        },
+        {
+          "q": "Consumers",
+          "n": 3
+        },
+        {
+          "q": "Contract",
+          "n": 3
+        },
+        {
+          "q": "cribl-nodes-api",
+          "n": 3
+        },
+        {
+          "q": "CRM",
+          "n": 3
+        },
+        {
+          "q": "Daily",
+          "n": 3
+        },
+        {
+          "q": "Data Lake",
+          "n": 3
+        },
+        {
+          "q": "Dealertrack",
+          "n": 3
+        },
+        {
+          "q": "deel-subpackage-eorprojectassignment-api",
+          "n": 3
+        },
+        {
+          "q": "Depoyment",
+          "n": 3
+        },
+        {
+          "q": "DevOps",
+          "n": 3
+        },
+        {
+          "q": "Diff",
+          "n": 3
+        },
+        {
+          "q": "dopesecurity-endpoints-api",
+          "n": 3
+        },
+        {
+          "q": "engineering-platform-access-policy-tester-api",
+          "n": 3
+        },
+        {
+          "q": "factset-symbols-relationships-api",
+          "n": 3
+        },
+        {
+          "q": "factset-valuation-api",
+          "n": 3
+        },
+        {
+          "q": "flipdish-mobileapps-api",
+          "n": 3
+        },
+        {
+          "q": "freewheel-media-video-asset-api",
+          "n": 3
+        },
+        {
+          "q": "fusionauth-messenger-api",
+          "n": 3
+        },
+        {
+          "q": "Gantt Charts",
+          "n": 3
+        },
+        {
+          "q": "google-tag-manager-containers-api",
+          "n": 3
+        },
+        {
+          "q": "gremlin-webhooks-api",
+          "n": 3
+        },
+        {
+          "q": "GSMA",
+          "n": 3
+        },
+        {
+          "q": "guestready-listings-api",
+          "n": 3
+        },
+        {
+          "q": "harvard-addfilestodataset-api",
+          "n": 3
+        },
+        {
+          "q": "hvault-jwt-oidc-api",
+          "n": 3
+        },
+        {
+          "q": "instabase-runs-api",
+          "n": 3
+        },
+        {
+          "q": "invoiced-customers-api",
+          "n": 3
+        },
+        {
+          "q": "Istio",
+          "n": 3
+        },
+        {
+          "q": "jaeger-traces-api",
+          "n": 3
+        },
+        {
+          "q": "kaseya-surveys-api",
+          "n": 3
+        },
+        {
+          "q": "kernel-api-keys-api",
+          "n": 3
+        },
+        {
+          "q": "kontaktio-spaces-api",
+          "n": 3
+        },
+        {
+          "q": "korbit-quotation-api",
+          "n": 3
+        },
+        {
+          "q": "kore-wireless-supersimv1settingsupdate-api",
+          "n": 3
+        },
+        {
+          "q": "Kotlin",
+          "n": 3
+        },
+        {
+          "q": "lafourchette-review-flow-api",
+          "n": 3
+        },
+        {
+          "q": "lane-api-party-api",
+          "n": 3
+        },
+        {
+          "q": "lean-technologies-open-banking-direct-debits-api",
+          "n": 3
+        },
+        {
+          "q": "lean-technologies-open-banking-scheduled-payments-api",
+          "n": 3
+        },
+        {
+          "q": "listrak-messagesummary-api",
+          "n": 3
+        },
+        {
+          "q": "lithium-labelsets-api-api",
+          "n": 3
+        },
+        {
+          "q": "localai-nodes-api",
+          "n": 3
+        },
+        {
+          "q": "logikcull-api",
+          "n": 3
+        },
+        {
+          "q": "lone-wolf-folders-api",
+          "n": 3
+        },
+        {
+          "q": "luminance-projects-api",
+          "n": 3
+        },
+        {
+          "q": "macrometa-health-api",
+          "n": 3
+        },
+        {
+          "q": "Markets",
+          "n": 3
+        },
+        {
+          "q": "mavrck-pendingbatchjobs-api",
+          "n": 3
+        },
+        {
+          "q": "mcp",
+          "n": 3
+        },
+        {
+          "q": "mews-companies-api",
+          "n": 3
+        },
+        {
+          "q": "microsoft-azure-accounts-api",
+          "n": 3
+        },
+        {
+          "q": "microsoft-azure-configurationassignments-api",
+          "n": 3
+        },
+        {
+          "q": "microsoft-azure-sqloperationsstatuscontroller-api",
+          "n": 3
+        },
+        {
+          "q": "mx-platform-micro-deposits-api",
+          "n": 3
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "anthropic-prompt-generation-api",
+          "n": 4
+        },
+        {
+          "q": "kpmg",
+          "n": 4
+        },
+        {
+          "q": "anthropic-organization-members-api",
+          "n": 3
+        },
+        {
+          "q": "c1-system-log-exporter-api",
+          "n": 3
+        },
+        {
+          "q": "cartesia-ai-pronunciation-dictionaries-api",
+          "n": 3
+        },
+        {
+          "q": "chaitin-policylog-aicls-action-getfieldmetadata-api",
+          "n": 3
+        },
+        {
+          "q": "close-subpackage-organizations-api",
+          "n": 3
+        },
+        {
+          "q": "code-ocean-capsules-api",
+          "n": 3
+        },
+        {
+          "q": "cribl-nodes-api",
+          "n": 3
+        },
+        {
+          "q": "Dealertrack",
+          "n": 3
+        },
+        {
+          "q": "deel-subpackage-eorprojectassignment-api",
+          "n": 3
+        },
+        {
+          "q": "dopesecurity-endpoints-api",
+          "n": 3
+        },
+        {
+          "q": "engineering-platform-access-policy-tester-api",
+          "n": 3
+        },
+        {
+          "q": "factset-symbols-relationships-api",
+          "n": 3
+        },
+        {
+          "q": "factset-valuation-api",
+          "n": 3
+        },
+        {
+          "q": "flipdish-mobileapps-api",
+          "n": 3
+        },
+        {
+          "q": "freewheel-media-video-asset-api",
+          "n": 3
+        },
+        {
+          "q": "fusionauth-messenger-api",
+          "n": 3
+        },
+        {
+          "q": "google-tag-manager-containers-api",
+          "n": 3
+        },
+        {
+          "q": "gremlin-webhooks-api",
+          "n": 3
+        },
+        {
+          "q": "guestready-listings-api",
+          "n": 3
+        },
+        {
+          "q": "harvard-addfilestodataset-api",
+          "n": 3
+        },
+        {
+          "q": "Homebuilding",
+          "n": 3
+        },
+        {
+          "q": "hvault-jwt-oidc-api",
+          "n": 3
+        },
+        {
+          "q": "Indigenous",
+          "n": 3
+        },
+        {
+          "q": "instabase-runs-api",
+          "n": 3
+        },
+        {
+          "q": "jaeger-traces-api",
+          "n": 3
+        },
+        {
+          "q": "kaseya-surveys-api",
+          "n": 3
+        },
+        {
+          "q": "kernel-api-keys-api",
+          "n": 3
+        },
+        {
+          "q": "kontaktio-spaces-api",
+          "n": 3
+        },
+        {
+          "q": "korbit-quotation-api",
+          "n": 3
+        },
+        {
+          "q": "kore-wireless-supersimv1settingsupdate-api",
+          "n": 3
+        },
+        {
+          "q": "lafourchette-review-flow-api",
+          "n": 3
+        },
+        {
+          "q": "lean-technologies-open-banking-direct-debits-api",
+          "n": 3
+        },
+        {
+          "q": "lean-technologies-open-banking-scheduled-payments-api",
+          "n": 3
+        },
+        {
+          "q": "listrak-messagesummary-api",
+          "n": 3
+        },
+        {
+          "q": "lithium-labelsets-api-api",
+          "n": 3
+        },
+        {
+          "q": "localai-nodes-api",
+          "n": 3
+        },
+        {
+          "q": "logikcull-api",
+          "n": 3
+        },
+        {
+          "q": "lone-wolf-folders-api",
+          "n": 3
+        },
+        {
+          "q": "macrometa-health-api",
+          "n": 3
+        },
+        {
+          "q": "mavrck-pendingbatchjobs-api",
+          "n": 3
+        },
+        {
+          "q": "microsoft-azure-accounts-api",
+          "n": 3
+        },
+        {
+          "q": "microsoft-azure-configurationassignments-api",
+          "n": 3
+        },
+        {
+          "q": "microsoft-azure-sqloperationsstatuscontroller-api",
+          "n": 3
+        },
+        {
+          "q": "mx-platform-micro-deposits-api",
+          "n": 3
+        },
+        {
+          "q": "openbmc-chassis-api",
+          "n": 3
+        },
+        {
+          "q": "oracle-fusion-contacts-api",
+          "n": 3
+        },
+        {
+          "q": "perenual-pests-api",
+          "n": 3
+        },
+        {
+          "q": "pure-storage-subnets-api",
+          "n": 3
+        },
+        {
+          "q": "quantum-art-profile-api",
+          "n": 3
+        },
+        {
+          "q": "qwen-embeddings-api",
+          "n": 3
+        },
+        {
+          "q": "red-hat-enterprise-linux-8-advisories-api",
+          "n": 3
+        },
+        {
+          "q": "tendermint-info-api",
+          "n": 3
+        },
+        {
+          "q": "tinybird-jobs-api",
+          "n": 3
+        },
+        {
+          "q": "unicef-data-related-table-data-api",
+          "n": 3
+        },
+        {
+          "q": "university-of-wisconsin-madison-affiliations-api",
+          "n": 3
+        },
+        {
+          "q": "vital-io-lab-tests-api",
+          "n": 3
+        },
+        {
+          "q": "wazo-wazo-phone-provisioning-api-wazo-provd",
+          "n": 3
+        },
+        {
+          "q": "webex-overrides-api",
+          "n": 3
+        },
+        {
+          "q": "wechat-user-information-api",
+          "n": 3
+        },
+        {
+          "q": "weka-machines-api",
+          "n": 3
+        },
+        {
+          "q": "wger-exercisealias-api",
+          "n": 3
+        },
+        {
+          "q": "wingspan-service-settings-api",
+          "n": 3
+        },
+        {
+          "q": "workday-reporting-reports-api",
+          "n": 3
+        },
+        {
+          "q": "zoca-packages-api",
+          "n": 3
+        },
+        {
+          "q": "zuora-delivery-adjustments-api",
+          "n": 3
+        },
+        {
+          "q": "zus-patient-history-api",
+          "n": 3
+        },
+        {
+          "q": "0901.21.00",
+          "n": 2
+        },
+        {
+          "q": "10web-cache-api",
+          "n": 2
+        },
+        {
+          "q": "8x8-objects-api",
+          "n": 2
+        },
+        {
+          "q": "academic-curriculums",
+          "n": 2
+        },
+        {
+          "q": "adafruit-io-blocks-api",
+          "n": 2
+        },
+        {
+          "q": "adyen-authentication-webhooks-api",
+          "n": 2
+        },
+        {
+          "q": "affinda-validation-results-api",
+          "n": 2
+        },
+        {
+          "q": "amplitude-data-deletion-api",
+          "n": 2
+        },
+        {
+          "q": "Annuities",
+          "n": 2
+        },
+        {
+          "q": "apache-kafka-plugins-api",
+          "n": 2
+        },
+        {
+          "q": "argil-avatars-api",
+          "n": 2
+        },
+        {
+          "q": "ashby-application-feedback-api",
+          "n": 2
+        },
+        {
+          "q": "atomic-fi-paylink-api",
+          "n": 2
+        },
+        {
+          "q": "aws-step-functions-x-amz-target-awsstepfunctions-createstatemachine-api",
+          "n": 2
+        },
+        {
+          "q": "branch-locator-api",
+          "n": 2
+        },
+        {
+          "q": "brightspace-discussions-api",
+          "n": 2
+        },
+        {
+          "q": "c1-role-api",
+          "n": 2
+        },
+        {
+          "q": "canvas-medical-immunization-api",
+          "n": 2
+        },
+        {
+          "q": "carbon-intensity-national-intensity-api",
+          "n": 2
+        },
+        {
+          "q": "CargoSmart",
+          "n": 2
+        },
+        {
+          "q": "castoredc-users-api",
+          "n": 2
+        },
+        {
+          "q": "cedarai-lindaservice-api",
+          "n": 2
+        },
+        {
+          "q": "cenevo-instrument-usages-api",
+          "n": 2
+        },
+        {
+          "q": "cenevo-shopping-list-api",
+          "n": 2
+        },
+        {
+          "q": "chainlens-token-holders-controller-api",
+          "n": 2
+        },
+        {
+          "q": "chaitin-installer-task-list-api",
+          "n": 2
+        },
+        {
+          "q": "chaitin-policy-soft-network-api",
+          "n": 2
+        },
+        {
+          "q": "chaitin-policylog-browserplugin-action-batchupdatestatus-api",
+          "n": 2
+        },
+        {
+          "q": "chaitin-ueba-test-event-id-api",
+          "n": 2
+        },
+        {
+          "q": "chaitin-whitelist-network-process-action-bulkdestroy-api",
+          "n": 2
+        },
+        {
+          "q": "chalmers-university-of-technology-projectqueries-api",
+          "n": 2
+        },
+        {
+          "q": "channable-transporters-api",
+          "n": 2
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 12
+        },
+        {
+          "resource": "stats",
+          "n": 12
+        }
+      ],
+      "by_tier": {
+        "free": 67168,
+        "site": 3419,
+        "internal": 143
+      },
+      "by_surface": {
+        "api": 70580,
+        "mcp": 150
       }
     }
   ]
