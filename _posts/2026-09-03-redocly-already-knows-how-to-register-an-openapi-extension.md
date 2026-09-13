@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Redocly Already Knows How To Register An OpenAPI Extension'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/redocly-already-knows-how-to-register-an-openapi-extension.png
 date: 2026-09-03
 author: Kin Lane
 tags:

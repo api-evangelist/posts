@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Speakeasy Has Thirty-Six OpenAPI Extensions And Zero Registered'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/speakeasy-has-thirty-six-openapi-extensions-and-zero-registered.png
 date: 2026-09-04
 author: Kin Lane
 tags:
