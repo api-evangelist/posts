@@ -8,7 +8,7 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.20.0
+schema_version: 0.22.0
 last_updated: '2026-09-06'
 maintainer: kin@apievangelist.com
 
@@ -19,45 +19,44 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.20.0
+  version: 0.22.0
   body: |
-    A SEVENTH FACET, and the first one that asks whether an API is safe to call twice.
+    MCP SERVERS ARE NOW GRADED BY WHO BUILT THEM, not only by whether they answered.
 
-    `upsert` (weight 0.10, conditional) scores create-or-update ergonomics straight from
-    the 109,940 OpenAPIs in the catalog: is there a named create-or-update operation,
-    does it accept a key the CALLER already holds, and does the response say which branch
-    ran? Every existing contract facet asks whether an API is described and callable.
-    None asked what happens when the same write arrives twice — and for 82.7% of
-    providers that accept writes the answer is that you search first, and the day
-    somebody forgets, the customer's records grow a duplicate.
+    0.6 fixed reachability — it stopped paying twelve points for servers nobody could
+    connect to. It left authorship alone, and authorship turns out to be most of the
+    cohort. Clustering tool-name shapes across every server that enumerates (451 of the
+    472 live) finds 292 providers — 64.7% — serving a surface shared with other
+    providers. 129 share one commerce fingerprint. 62 are Wix, 37 Mintlify, 35 Shopify.
+    51 answer at /wp-json/mcp/mcp-oauth-server: one WordPress plugin installed on a
+    company marketing site, not 51 separate product decisions.
 
-    IT APPLIES ONLY TO PROVIDERS THAT ACCEPT WRITES, and that is the design rather than a
-    detail. 1,125 providers hold a parseable contract with no write operation in it. A
-    weather or reference API cannot upsert and is not deficient for it, so it goes N/A —
-    excluded from the denominator, never zeroed. So do the ~19,700 providers holding no
-    OpenAPI at all. 6,803 are scored, and a zero among those is a real zero.
+    Every one of those 292 held the full twelve points. That is 2,628 points paid for
+    other people's engineering, inside the layer whose entire purpose is to say whether
+    THIS provider is ready for an agent.
 
-    FOUR CHECKS, 36 POINTS, priced by scarcity and by what each signal commits the
-    provider to. A boolean outcome discriminator is 14 points at 1.4% coverage; a
-    caller-declared match key 10 at 9.8%; a named upsert 8 at 12.3%; duplicate handling
-    merely stated in prose or as a flag, 4 at 9.2%. Naming an operation `upsert` is a
-    claim, accepting the caller's key is a commitment, and telling the caller which
-    branch ran is the only one they can reconcile against afterwards. 20 providers earn
-    the whole set.
+    TWO NEW GRADES, and the rubric had already decided the harder of them. `agentic_commerce`
+    grades {self: 1.0, platform: 0.25} for exactly this distinction on a different
+    protocol; answering it differently for MCP was the inconsistency, and `platform` at
+    0.25 removes it. `templated` at 0.6 is for a real server whose URL an agent cannot
+    construct — https://{tenant}.mcp.example.com/mcp. That is positive evidence, so it
+    sits above `documented`, and it offers no self-service path, so it sits below
+    `verified`.
 
-    WHAT IS DELIBERATELY NOT COUNTED. A documented 200-vs-201 split is not an outcome
-    discriminator. The scanner detects it and the original specification invited counting
-    it, but a 200/201 pair is documented for many unrelated reasons and says nothing
-    about which branch actually ran. It matches 569 providers against 94 for a real
-    discriminator field; counting it would have made the top of this facet six times
-    commoner than the scarcity that justified building it.
+    `templated` MOVES IN BOTH DIRECTIONS, deliberately. It lowers the 5 templated
+    endpoints currently graded `verified`, because an agent cannot get in. It RAISES the
+    42 graded `claimed`, because a documented template is evidence of a real server and
+    more than a bare claim. Measured: no provider is both platform-authored and
+    templated.
 
-    RE-CENTRED, the way 0.12 re-centred `regulatory`. Applied raw at weight 0.10, a
-    provider with no upsert would lose a tenth of its composite — 5,635 providers docked
-    around six points each for lacking something 0.3% of the catalog has. That is a
-    rubric picking a fight, not a measurement. Scored against the observed mean of 7.06
-    instead: at the mean you are unchanged, above it you gain, below it you lose a
-    little.
+    WHAT THIS DOES NOT DO. Authorship is knowable only where a server enumerates its
+    tools. 1,055 gate tools/list behind auth and are never classified; they keep
+    `verified`, and absent authorship is never read as platform authorship. That is the
+    roadmap#125 rule pointed the other way: unknown is not a finding. The correction
+    reaches the 292 measured and no further, which is the honest reach of the evidence.
+
+    The ceiling does not move — `mcp_server` stays 12 points and the layer stays 139, so
+    nothing is rescaled. Only the credit earned within it changes.
 aliases:
   # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
   # corpus wired `Examples` in good faith and it was read by NOTHING; four spellings of
@@ -562,10 +561,9 @@ facets:
     description: >
       Technical depth and richness of the API contract artifacts —
       OpenAPI, AsyncAPI, JSON Schema, JSON-LD.
-  governance:
+  contract_governance:
     weight: 0.12
     label: Contract Governance
-    emits_as: contract_governance
     description: >
       Artifacts that describe and constrain the CONTRACT — rulesets, vocabulary,
       declared conformance, overlays. Renamed in 0.12 from "Governance": it never
@@ -588,10 +586,9 @@ facets:
     description: >
       How easy is it to get started? SDKs, CLI, portal, getting-started,
       documentation, sandbox/console, MCP server, and authentication clarity.
-  commercial_clarity:
+  access_clarity:
     weight: 0.20
     label: Access Clarity
-    emits_as: access_clarity
     description: >
       What it costs, what you are permitted to do, and how you get in — plans,
       pricing, sign-up, terms of service, privacy, finops mapping, compliance/trust.
@@ -1890,7 +1887,7 @@ artifacts:
           the conditional facet originally proposed.
       - id: rules_present
         label: Publishes a ruleset
-        facet: governance
+        facet: contract_governance
         points: 10
         rule: 'rules[0].rule_count >= 1'
         description: >
@@ -1898,7 +1895,7 @@ artifacts:
           their API surface instead of leaving it to reviewer taste.
       - id: rules_substantial
         label: Substantial ruleset
-        facet: governance
+        facet: contract_governance
         points: 5
         rule: 'rules[0].effective_rule_count >= 20'
         description: >
@@ -1910,7 +1907,7 @@ artifacts:
           the better engineering choice and the threshold was punishing it.
       - id: balanced_severities
         label: Balanced severities
-        facet: governance
+        facet: contract_governance
         points: 3
         rule: 'warn and info both > 0'
         description: >
@@ -1918,7 +1915,7 @@ artifacts:
           an error cannot express guidance — only refusal.
       - id: vocabulary_published
         label: Publishes a vocabulary
-        facet: governance
+        facet: contract_governance
         points: 5
         rule: 'common[].type includes "Vocabulary"'
         description: >
@@ -1932,7 +1929,7 @@ artifacts:
       # demonstrates it has internalized a standard.
       - id: conformance_declared
         label: Declared conformance profile
-        facet: governance
+        facet: contract_governance
         points: 6
         provenance: conformance
         rule: 'a conformance/ artifact declares conformance to named standards'
@@ -1953,7 +1950,7 @@ artifacts:
           published lint posture — never bare membership in a programme.
       - id: overlay_published
         label: Publishes an OpenAPI Overlay
-        facet: governance
+        facet: contract_governance
         points: 4
         rule: 'overlays/ contains an OpenAPI Overlay document'
         description: >
@@ -2206,7 +2203,7 @@ artifacts:
     checks:
       - id: plans_present
         label: Plans published
-        facet: commercial_clarity
+        facet: access_clarity
         points: 8
         rule: 'plans[0].plan_count >= 1'
         description: >
@@ -2214,7 +2211,7 @@ artifacts:
           page a human has to interpret. The heaviest award in this facet.
       - id: plans_multiple
         label: Multiple plans
-        facet: commercial_clarity
+        facet: access_clarity
         points: 4
         rule: 'plans[0].plan_count >= 3'
         description: >
@@ -2222,14 +2219,14 @@ artifacts:
           trial tier through to production volume.
       - id: pricing_link
         label: Pricing published
-        facet: commercial_clarity
+        facet: access_clarity
         points: 4
         rule: 'common[].type includes "Pricing"'
         description: >
           Pricing is public. "Contact us" is an answer, but it is not this one.
       - id: sign_up_present
         label: Self-service sign-up
-        facet: commercial_clarity
+        facet: access_clarity
         points: 5
         rule: 'common[].type includes "SignUp" or "Login"'
         description: >
@@ -2237,7 +2234,7 @@ artifacts:
           between an API you can try this afternoon and one you can try next quarter.
       - id: terms_of_service
         label: Terms of service
-        facet: commercial_clarity
+        facet: access_clarity
         points: 4
         rule: 'common[].type includes "TermsOfService" (alias-aware)'
         description: >
@@ -2245,7 +2242,7 @@ artifacts:
           API.
       - id: privacy_policy
         label: Privacy policy
-        facet: commercial_clarity
+        facet: access_clarity
         points: 4
         rule: 'common[].type includes "PrivacyPolicy" (alias-aware)'
         description: >
@@ -2253,7 +2250,7 @@ artifacts:
           API.
       - id: finops_mapped
         label: FinOps mapping
-        facet: commercial_clarity
+        facet: access_clarity
         points: 3
         rule: 'len(finops) >= 1'
         description: >
@@ -2261,7 +2258,7 @@ artifacts:
           modelled and attributed rather than discovered on an invoice.
       - id: compliance_published
         label: Compliance published
-        facet: commercial_clarity
+        facet: access_clarity
         points: 3
         rule: 'common[].type includes "Compliance"'
         description: >
@@ -2269,7 +2266,7 @@ artifacts:
           GDPR — where a reviewer can find them without asking.
       - id: trust_center
         label: Trust center
-        facet: commercial_clarity
+        facet: access_clarity
         points: 3
         rule: 'common[].type includes "TrustCenter" or "Trust"'
         description: >
@@ -2923,7 +2920,7 @@ disclosure_states:
 accountability:
   standalone: true
   scored: false
-  schema_version: 0.1
+  schema_version: '0.1'
   label: Accountability
   description: >
     Who is answerable for this organisation's use of a technology, and what must
@@ -3012,7 +3009,7 @@ accountability:
     - {id: undeclared, label: Undeclared, note: building or teaching with no findable posture}
 
 agent_readiness:
-  schema_version: 0.2
+  schema_version: '0.2'
   standalone: true          # not part of the composite; own score + own band
   label: Agent Readiness
   description: >
@@ -3080,7 +3077,38 @@ agent_readiness:
       points: 12
       provenance: mcp
       graded: true
-      credit: {verified: 1.0, documented: 0.4}
+      credit: {verified: 1.0, templated: 0.6, documented: 0.4, platform: 0.25}
+      # ---------------------------------------------------------------------
+      # 0.22.0 (roadmap#317) — GRADED BY WHO BUILT IT, not only by whether it answered.
+      #
+      # 0.6 fixed REACHABILITY: it stopped paying for servers nobody could connect to.
+      # It left AUTHORSHIP unfixed, and authorship is most of the cohort. Measured by
+      # clustering tool-name shapes across every server that enumerates (451 of 472
+      # live): 292 providers — 64.7% — serve a tool surface shared with other
+      # providers. 129 share one commerce fingerprint, 62 are Wix, 37 Mintlify, 35
+      # Shopify. 51 answer at /wp-json/mcp/mcp-oauth-server: one WordPress plugin on a
+      # marketing site, not 51 product decisions.
+      #
+      # All 292 hold the full 12 points today — 2,628 points paid for other people's
+      # engineering, inside the layer whose purpose is to say whether THIS provider is
+      # ready for agents.
+      #
+      # THE RUBRIC ALREADY DECIDED THIS for a different protocol: `agentic_commerce`
+      # grades {self: 1.0, platform: 0.25}. Answering it differently for MCP was the
+      # inconsistency; this removes it.
+      #
+      #   templated 0.6  a real server whose URL an agent CANNOT CONSTRUCT —
+      #                  https://{tenant}.mcp.example.com/mcp. Positive evidence, so
+      #                  above `documented`; no self-service path, so below `verified`.
+      #   platform  0.25 the tool shape is shared with other providers. Real and
+      #                  callable, and not this provider's design.
+      #
+      # ABSENT IS NOT `provider`. Authorship is knowable only where a server enumerates;
+      # the 1,055 that gate tools/list behind auth are never classified and keep
+      # `verified`. Unknown authorship is never read as platform authorship — roadmap#125.
+      #
+      # Net across both grades: -2,551. This mostly REMOVES credit.
+      # ---------------------------------------------------------------------
       signal: 'deployment.mode + probe verdict on the mcp/ manifest, not the pointer; an unprobed slug falls back to authorship'
       description: >
         A Model Context Protocol server makes the API directly callable by agents
@@ -3150,8 +3178,55 @@ agent_readiness:
       points: 9
       graded: true
       credit: {verified: 1.0, documented: 0.5}
-      signal: 'OpenAPI mutating operations declare an Idempotency-Key header (verified),
-               else common[].type matches /idempoten/i (documented)'
+      signal: 'OpenAPI mutating operations declare an idempotency key — a header, a
+               request-body property, or a named de-duplication token whose own
+               description says so (verified); else common[].type matches
+               /idempoten/i (documented)'
+      # -----------------------------------------------------------------------
+      # 0.20.1 (roadmap#289) — WHAT COUNTS AS A DECLARED IDEMPOTENCY KEY.
+      #
+      # Until 0.20.1 the verified arm also fired on `requestBody.to_s =~ /idempoten/i`
+      # — a substring over the stringified request body. That credited PROSE: an
+      # operation whose description said "this endpoint is NOT idempotent" earned the
+      # check it denied. Measured over 133,932 specs, 70 of 337 providers' credit
+      # rested on that arm alone.
+      #
+      # Removing it outright was wrong in the other direction. 11 of those 70 declare
+      # a real `idempotency_key` property that the reader missed only because it would
+      # not resolve a single local $ref, and 29 more ship the capability under the
+      # industry's other name. Square, Block and Moneris were all in the first group.
+      #
+      # So the vocabulary lives here rather than as a regex in score.rb, and is read
+      # in two tiers:
+      #
+      #   names            a field called this IS an idempotency key, on its own
+      #   dedup_names      a field called this counts only when its OWN description,
+      #                    example or default says it prevents duplicate execution.
+      #                    `clientToken` is AWS's idempotency convention across
+      #                    hundreds of APIs and elsewhere can mean an auth token, so
+      #                    it is never taken on the name alone.
+      #
+      # `unique_token` is in dedup_names and `unique_id` / `uniqueId` deliberately are
+      # NOT: measured, the latter are generic identifiers — 10web's sitemap id,
+      # akamai's network-list id — while shopify documents `unique_token` with the
+      # example value "client-side-idempotency-token".
+      #
+      # Net movement: 337 -> 381 providers verified (+73, -29). The 29 losses are
+      # providers whose only evidence is the word appearing in prose; shopify is one,
+      # and its request schema is literally `schema: {}` with the token appearing only
+      # inside an example payload.
+      # -----------------------------------------------------------------------
+      key_names:
+        names:
+          - /idempoten/i
+        dedup_names:
+          - /\Aclient[-_]?(request[-_]?)?token\z/i
+          - /\Adedup(e|lication)?[-_]?(key|id|token)\z/i
+          - /\Aunique[-_]?token\z/i
+        confirms: >-
+          idempoten|prevent\w*\s+(the\s+)?(accidental\s+)?(creation\s+of\s+)?duplicat|
+          avoid\w*\s+duplicat|only\s+once|exactly\s+once|no\s+more\s+than\s+once|
+          duplicate\s+(request|creation|execution|submission)
       description: >
         Mutating operations accept an idempotency key. Agents retry; without
         idempotency a retry double-charges a card, sends a message twice, or opens
