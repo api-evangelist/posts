@@ -43,6 +43,35 @@ permalink: /.well-known/api-catalog
           "title": "RFC 9728 protected-resource metadata"
         }
       ]
+    },
+    {
+      "anchor": "https://mcp.apievangelist.com/mcp",
+      "service-desc": [
+        {
+          "href": "https://apievangelist.com/.well-known/agent-card.json",
+          "type": "application/json",
+          "title": "A2A agent card"
+        },
+        {
+          "href": "https://apievangelist.com/.well-known/mcp/server-card.json",
+          "type": "application/json",
+          "title": "MCP server card"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developer.apievangelist.com/mcp-server",
+          "type": "text/html",
+          "title": "API Evangelist MCP server"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://mcp.apievangelist.com/.well-known/oauth-protected-resource",
+          "type": "application/json",
+          "title": "RFC 9728 protected-resource metadata"
+        }
+      ]
     }
   ]
 }

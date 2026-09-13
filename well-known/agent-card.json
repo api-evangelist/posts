@@ -1,0 +1,132 @@
+---
+layout: none
+permalink: /.well-known/agent-card.json
+---
+{
+  "protocolVersion": "0.3",
+  "name": "API Evangelist",
+  "description": "Sixteen years of API research, governance and vendor intelligence as machine-readable tools: 5,100+ stories, 77 topic areas, 2,400+ governance building blocks (guidance, rules, policies, standards, strategies), papers, conversations, the API vocabulary, plus API validation, scorecards and estate governance. Browsing, searching and reading summaries is free and needs no key. Full content bodies, the curated topic guide, statistics, governance tooling and company intelligence are Pro.",
+  "url": "https://mcp.apievangelist.com/mcp",
+  "preferredTransport": "MCP",
+  "version": "2.0.0",
+  "documentationUrl": "https://developer.apievangelist.com/mcp-server",
+  "iconUrl": "https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png",
+  "provider": {
+    "organization": "API Evangelist",
+    "url": "https://apievangelist.com"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "defaultInputModes": ["application/json", "text/plain"],
+  "defaultOutputModes": ["application/json", "text/plain"],
+  "additionalInterfaces": [
+    {
+      "url": "https://mcp.apievangelist.com/mcp",
+      "transport": "MCP",
+      "protocolBinding": "JSONRPC",
+      "description": "Model Context Protocol endpoint, streamable HTTP. 67 tools, 29 prompts and a resource set over JSON-RPC 2.0. This is the interface this card describes; API Evangelist serves no native A2A JSON-RPC endpoint. MCP server card at https://apievangelist.com/.well-known/mcp/server-card.json."
+    },
+    {
+      "url": "https://api.apievangelist.com/v1",
+      "transport": "HTTP+JSON",
+      "protocolBinding": "REST",
+      "description": "The same catalog over REST. OpenAPI at https://developer.apievangelist.com/apis/apievangelist-v1-openapi.yml, RFC 9728 resource metadata at https://api.apievangelist.com/.well-known/oauth-protected-resource."
+    }
+  ],
+  "securitySchemes": {
+    "oauth2": {
+      "type": "oauth2",
+      "description": "OAuth 2.1 with PKCE (S256) and Dynamic Client Registration (RFC 7591) against API Evangelist's own authorization server. Authorization server metadata: https://api.apievangelist.com/.well-known/oauth-authorization-server. Tokens are audience-bound to https://mcp.apievangelist.com/mcp. A free token carries ae:read; ae:pro unlocks the paid surface and a missing scope is answered with an insufficient_scope challenge rather than prose.",
+      "flows": {
+        "authorizationCode": {
+          "authorizationUrl": "https://api.apievangelist.com/v1/auth/authorize",
+          "tokenUrl": "https://api.apievangelist.com/v1/auth/token",
+          "refreshUrl": "https://api.apievangelist.com/v1/auth/token",
+          "scopes": {
+            "ae:read": "Search and read the network: posts, areas, building blocks, papers, conversations, tags",
+            "ae:pro": "Full content bodies, curated topic guides, statistics, governance tooling and company intelligence",
+            "offline_access": "Refresh tokens for long-running agents"
+          }
+        }
+      }
+    },
+    "apiKey": {
+      "type": "apiKey",
+      "in": "header",
+      "name": "x-api-key",
+      "description": "A key from https://developer.apievangelist.com/plans. The free tier needs no key at all: 5 requests/second, 1,000 requests/day, keyless."
+    }
+  },
+  "security": [{ "oauth2": ["ae:read"] }, { "apiKey": [] }],
+  "skills": [
+    {
+      "id": "search-the-network",
+      "name": "Search sixteen years of API research",
+      "description": "Federated search across 5,100+ stories, 77 topic areas, governance building blocks, papers, conversations, videos and the tag taxonomy, with related-content discovery weighted so rare tags matter most. Free, no key required.",
+      "tags": ["research", "search", "free"],
+      "examples": [
+        "What has API Evangelist written about API governance in regulated industries?",
+        "Find everything on agent readiness and machine-readable discovery"
+      ],
+      "inputModes": ["application/json"],
+      "outputModes": ["application/json"]
+    },
+    {
+      "id": "read-research",
+      "name": "Read a story, area or paper",
+      "description": "Retrieve any single item the network publishes: a post, a topic area with its resolved related graph, a paper, a conversation, a video or the API vocabulary. Summaries and metadata are free; full content bodies and the curated multi-source topic guide are Pro.",
+      "tags": ["research", "content", "free", "paid"],
+      "examples": ["Give me the full guide to API discovery", "What is in the latest paper on agent commerce?"],
+      "inputModes": ["application/json"],
+      "outputModes": ["application/json"]
+    },
+    {
+      "id": "governance-building-blocks",
+      "name": "Assemble API governance building blocks",
+      "description": "2,400+ reusable building blocks across five types — guidance, rules, policies, standards and strategies — the raw material for a governance program, addressable individually or as a starter kit.",
+      "tags": ["governance", "building-blocks", "free"],
+      "examples": [
+        "Build me a governance starter kit for a bank",
+        "Which policies cover API deprecation?"
+      ],
+      "inputModes": ["application/json"],
+      "outputModes": ["application/json"]
+    },
+    {
+      "id": "validate-and-govern-apis",
+      "name": "Validate, score and govern APIs",
+      "description": "Run an OpenAPI through validation, coverage, scorecards, version diffs, overlays, waiver reconciliation, certification and estate-wide governance reports — plus agent-readiness checks, exported agent rules and MCP tool forging. Paid.",
+      "tags": ["governance", "validation", "agent-readiness", "paid"],
+      "examples": [
+        "Score this OpenAPI and tell me what is blocking certification",
+        "Make our internal APIs agent-safe"
+      ],
+      "inputModes": ["application/json"],
+      "outputModes": ["application/json"]
+    },
+    {
+      "id": "company-and-standard-intelligence",
+      "name": "Profile a company or a standard",
+      "description": "Company insights across measured dimensions — gaps, peers, whitespace and demand signals — alongside adoption, coalition and repository intelligence for the standards the network measures. Paid.",
+      "tags": ["intelligence", "benchmarking", "standards", "paid"],
+      "examples": [
+        "Where are the API whitespace gaps at this company?",
+        "Who is actually in the CAMARA coalition and what have they shipped?"
+      ],
+      "inputModes": ["application/json"],
+      "outputModes": ["application/json"]
+    },
+    {
+      "id": "find-where-api-evangelist-helps",
+      "name": "Find services and reach a human",
+      "description": "What API Evangelist offers a team, the first-party services catalog, the third-party solutions registry, and the way to engage a person directly. Free and unmetered — finding out how to work with us is not a paid feature.",
+      "tags": ["services", "engagement", "free"],
+      "examples": ["How can Kin Lane help our API program?", "Who do I contact about an engagement?"],
+      "inputModes": ["application/json"],
+      "outputModes": ["application/json"]
+    }
+  ]
+}
