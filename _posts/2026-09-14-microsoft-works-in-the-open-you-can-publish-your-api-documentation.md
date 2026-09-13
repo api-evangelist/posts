@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: "Microsoft Works In The Open With 70,000 Engineers. You Can Publish Your API Documentation."
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/microsoft-works-in-the-open-you-can-publish-your-api-documentation.png
 date: 2026-09-14
 author: Kin Lane
 tags:
