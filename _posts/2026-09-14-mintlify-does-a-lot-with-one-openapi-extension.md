@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Mintlify Does A Lot With One OpenAPI Extension'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/mintlify-does-a-lot-with-one-openapi-extension.png
 date: 2026-09-14
 author: Kin Lane
 tags:

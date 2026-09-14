@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: "Sixty-Two Companies Declared An OpenAPI. They Spelled It Eleven Ways."
+title: "Agent Resource Discovery (ARD): Sixty-Two Companies Declared An OpenAPI. They Spelled It Eleven Ways."
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/sixty-two-companies-declared-an-openapi-they-spelled-it-eleven-ways.png
 date: 2026-09-14
 author: Kin Lane
