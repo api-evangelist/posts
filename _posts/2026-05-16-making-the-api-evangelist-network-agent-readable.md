@@ -7,7 +7,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-banana-subway-sta
 category: "Blog"
 excerpt: "I spent the day applying the agent-readiness playbook across twenty-two subdomains of the API Evangelist network. The result is end-to-end agent-readable infrastructure — RFC 9264 linksets at /.well-known/api-catalog on every site, a Cloudflare Worker doing markdown content negotiation in front of GitHub Pages, agent skills at /skills/, a JSON-LD context for the API Evangelist vocabulary, and AI consent signals in every robots.txt. Twenty-two sites. One coherent surface."
 ---
-I spent last night applying [my agent-readiness playbook](https://github.com/api-search/network/blob/main/AGENT-READINESS-PLAYBOOK.md), first written and applied to apis.io, and now across twenty-two subdomains of the API Evangelist network. The result is end-to-end agent-readable infrastructure built on RFCs rather than vendor conventions, sitting in front of a network of static Jekyll sites that humans browse the same way they always have.
+I spent last night applying [my agent-readiness playbook](https://apis.io/playbook/), first written and applied to apis.io, and now across twenty-two subdomains of the API Evangelist network. The result is end-to-end agent-readable infrastructure built on RFCs rather than vendor conventions, sitting in front of a network of static Jekyll sites that humans browse the same way they always have.
 
 This is part of my ongoing work to answer to the question: _what does an agent-readable site actually look like, end to end?_
 
