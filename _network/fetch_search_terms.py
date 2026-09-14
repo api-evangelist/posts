@@ -10,8 +10,8 @@ daily analytics Lambda (in apievangelist-aws) aggregates the prior 24h into S3:
 Each daily report has: top_queries[{q,n}], zero_result_queries[{q,n}] (terms with no
 match — unmet demand), upgrade_demand[{resource,n}], by_tier{}, by_surface{}.
 
-This script merges the SEVEN daily reports for the last complete week (Sun→Sat, ending
-yesterday) into one weekly snapshot, summing counts per decoded query, and upserts it
+This script merges the SEVEN daily reports for the last complete calendar week
+(Monday→Sunday) into one weekly snapshot, summing counts per decoded query, and upserts it
 into _data/search_terms.json. The companion page at /search-terms/ renders it.
 
   python3 _network/fetch_search_terms.py                 # current (last complete) week
@@ -39,33 +39,40 @@ KEEP = int(os.environ.get("SEARCH_TERMS_KEEP", "100"))  # cap each weekly list
 
 
 def week_window():
-    """(start, end) ISO strings for the last complete 7-day week ending yesterday."""
+    """(start, end) ISO strings for the last complete MONDAY-SUNDAY week.
+
+    Anchored to the calendar, not to "seven days back from today". The old version
+    returned the trailing seven days ending yesterday, which is the right week only
+    when the script runs on a Monday. The nightly AE build (rebuild-ae.sh) calls this
+    every day, so from 2026-08-25 every run appended a fresh Tue->Mon, Wed->Tue, ...
+    window that overlapped the real week and re-counted six of its seven days. The
+    /search-terms/ trend chart then plotted a sliding window as if it were successive
+    weeks. Same definition as check-data-freshness.py's last_complete_week(), so the
+    fetcher and the assertion that guards it can never disagree.
+    """
     today = datetime.date.today()
-    end = today - datetime.timedelta(days=1)
-    start = end - datetime.timedelta(days=6)
+    this_monday = today - datetime.timedelta(days=today.weekday())
+    start = this_monday - datetime.timedelta(days=7)
+    end = start + datetime.timedelta(days=6)
     return start.isoformat(), end.isoformat()
 
 
-def current_window():
-    """(start, end) for the in-progress week ending TODAY — keeps the page non-empty
-    while fewer than seven daily reports exist. Re-labeled/superseded as the week fills."""
-    today = datetime.date.today()
-    start = today - datetime.timedelta(days=6)
-    return start.isoformat(), today.isoformat()
-
-
 def all_week_windows(since_str):
-    """Yield (start, end) ISO pairs for every complete week from since_str to yesterday."""
+    """Yield (start, end) ISO pairs for every complete Mon-Sun week from since_str on.
+
+    `since` is snapped BACK to its own Monday so a backfill started from an arbitrary
+    date still lands on calendar weeks -- passing a Thursday used to anchor the whole
+    re-derived history to Thu->Wed.
+    """
     since = datetime.date.fromisoformat(since_str)
-    today = datetime.date.today()
-    end = today - datetime.timedelta(days=1)
-    start = end - datetime.timedelta(days=6)
+    since -= datetime.timedelta(days=since.weekday())
+    last_start, _ = (datetime.date.fromisoformat(d) for d in week_window())
     weeks = []
-    while start >= since:
-        weeks.append((start.isoformat(), end.isoformat()))
-        end = start - datetime.timedelta(days=1)
-        start = end - datetime.timedelta(days=6)
-    return list(reversed(weeks))
+    start = since
+    while start <= last_start:
+        weeks.append((start.isoformat(), (start + datetime.timedelta(days=6)).isoformat()))
+        start += datetime.timedelta(days=7)
+    return weeks
 
 
 def decode(q):
@@ -182,10 +189,6 @@ def main():
     data = load_data()
 
     windows = all_week_windows(backfill_since) if backfill_since else [week_window()]
-    # Always refresh the in-progress week too, so the page has data before the first
-    # complete week exists. De-duped by week_ending in upsert().
-    if current_window() not in windows:
-        windows.append(current_window())
 
     for start, end in windows:
         snap = build_week(s3, start, end)
