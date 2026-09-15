@@ -14,7 +14,7 @@ tags:
   - APIs.io
   - APIs
 ---
-Here is how you install BoltMCP. You clone `github.com/boltmcp/boltmcp`. You move your access key into the `keys/` directory. You open Claude Code in that directory and type `/install-boltmcp`.
+Here is how you install BoltMCP. You clone [github.com/boltmcp/boltmcp](https://github.com/boltmcp/boltmcp). You move your access key into the `keys/` directory. You open Claude Code in that directory and type `/install-boltmcp`.
 
 That is the documented path. Not the alternative path, not the clever path — the first thing on the installation page, with manual instructions offered below it as the fallback. Their own words: *"This documentation site is also bundled as an Agent Skill, which Claude Code can use to walk you through the installation process."*
 
