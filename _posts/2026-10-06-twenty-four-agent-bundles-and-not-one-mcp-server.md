@@ -43,7 +43,7 @@ That is not a rejection of the protocol. MCP solves a real problem, which is let
 
 Look at that skill list again. Second item, present in all twenty-four: `authentication`.
 
-I wrote a piece a day ago about BoltMCP shipping its installation runbook as an Agent Skill, and I said onboarding was the seam nobody had an artifact for. I was looking in the wrong place. Here is an independent vendor who, without any coordination, concluded that the unit of API context worth shipping has an auth chapter in it — not as an appendix, but as one of eight things that are always present.
+I wrote a piece a few weeks back about BoltMCP shipping its installation runbook as an Agent Skill, and I said onboarding was the seam nobody had an artifact for. I was looking in the wrong place. Here is an independent vendor who, without any coordination, concluded that the unit of API context worth shipping has an auth chapter in it — not as an appendix, but as one of eight things that are always present.
 
 Two teams, two different products, both deciding the agent cannot be left to work out authentication from a specification. That is not a coincidence any more. That is the shape of the problem being confirmed twice.
 

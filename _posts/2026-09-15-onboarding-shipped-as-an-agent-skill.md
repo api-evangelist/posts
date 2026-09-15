@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'Onboarding Shipped As An Agent Skill'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/onboarding-shipped-as-an-agent-skill.png
-date: 2026-10-05
+date: 2026-09-15
 author: Kin Lane
 tags:
   - Agents
