@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Ten Percent Have Upsert. One Percent Tell You What It Did.'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/ten-percent-have-upsert-one-percent-tell-you-what-it-did.png
 date: 2026-10-02
 author: Kin Lane
 tags:

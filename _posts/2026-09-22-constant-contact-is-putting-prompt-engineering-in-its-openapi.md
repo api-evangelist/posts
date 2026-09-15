@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Constant Contact Is Putting Prompt Engineering In Its OpenAPI'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/constant-contact-is-putting-prompt-engineering-in-its-openapi.png
 date: 2026-09-22
 author: Kin Lane
 tags:

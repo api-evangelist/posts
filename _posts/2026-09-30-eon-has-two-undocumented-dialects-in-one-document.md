@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Eon Has Two Undocumented Dialects In One Document'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/eon-has-two-undocumented-dialects-in-one-document.png
 date: 2026-09-30
 author: Kin Lane
 tags:

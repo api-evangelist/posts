@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Ripio Wrote enabled false And Tools Will Read It As True'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/ripio-wrote-enabled-false-and-tools-will-read-it-as-true.png
 date: 2026-10-01
 author: Kin Lane
 tags:

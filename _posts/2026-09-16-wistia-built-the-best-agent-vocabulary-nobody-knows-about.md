@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Wistia Built The Best Agent Vocabulary Nobody Knows About'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/wistia-built-the-best-agent-vocabulary-nobody-knows-about.png
 date: 2026-09-16
 author: Kin Lane
 tags:

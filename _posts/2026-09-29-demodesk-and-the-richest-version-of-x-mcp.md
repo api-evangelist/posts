@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Demodesk And The Richest Version Of x-mcp'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/demodesk-and-the-richest-version-of-x-mcp.png
 date: 2026-09-29
 author: Kin Lane
 tags:

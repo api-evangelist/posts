@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Algolia Is The Other Half Of The x-mcp-tool Collision'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/algolia-is-the-other-half-of-the-x-mcp-tool-collision.png
 date: 2026-09-21
 author: Kin Lane
 tags:

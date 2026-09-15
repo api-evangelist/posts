@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Windmill And The First Collision In The MCP Vocabulary'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/windmill-and-the-first-collision-in-the-mcp-vocabulary.png
 date: 2026-09-17
 author: Kin Lane
 tags:

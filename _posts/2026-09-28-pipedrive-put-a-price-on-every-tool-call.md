@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Pipedrive Put A Price On Every Tool Call'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/pipedrive-put-a-price-on-every-tool-call.png
 date: 2026-09-28
 author: Kin Lane
 tags:

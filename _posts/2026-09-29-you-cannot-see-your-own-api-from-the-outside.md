@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'You Cannot See Your Own API From The Outside'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/you-cannot-see-your-own-api-from-the-outside.png
 date: 2026-09-29
 author: Kin Lane
 tags:

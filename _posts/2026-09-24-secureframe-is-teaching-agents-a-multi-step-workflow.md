@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Secureframe Is Teaching Agents A Multi-Step Workflow'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/secureframe-is-teaching-agents-a-multi-step-workflow.png
 date: 2026-09-24
 author: Kin Lane
 tags:

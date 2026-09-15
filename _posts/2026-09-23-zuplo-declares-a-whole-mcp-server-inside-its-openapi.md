@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Zuplo Declares A Whole MCP Server Inside Its OpenAPI'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/zuplo-declares-a-whole-mcp-server-inside-its-openapi.png
 date: 2026-09-23
 author: Kin Lane
 tags:

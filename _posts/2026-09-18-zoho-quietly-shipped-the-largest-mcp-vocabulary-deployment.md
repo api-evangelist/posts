@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Zoho Quietly Shipped The Largest MCP Vocabulary Deployment'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/zoho-quietly-shipped-the-largest-mcp-vocabulary-deployment.png
 date: 2026-09-18
 author: Kin Lane
 tags:
