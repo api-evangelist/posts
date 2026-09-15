@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Fern Puts SDK Design Decisions In The Contract'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/fern-puts-sdk-design-decisions-in-the-contract.png
 date: 2026-09-15
 author: Kin Lane
 tags:
