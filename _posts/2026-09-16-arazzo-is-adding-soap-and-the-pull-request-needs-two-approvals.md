@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: 'Arazzo Is Adding SOAP, and the Pull Request Needs Two Approvals'
+title: 'Arazzo Is Adding SOAP -- Comment on the Pull Request Before the Upcoming Release'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/arazzo-is-adding-soap-and-the-pull-request-needs-two-approvals.png
 date: 2026-09-16
 author: Kin Lane
