@@ -1,0 +1,34 @@
+---
+published: true
+layout: post
+title: 'Arazzo Wants to Pause a Workflow and Wait for You'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/arazzo-wants-to-pause-a-workflow-and-wait-for-you.png
+date: 2026-09-17
+author: Kin Lane
+tags:
+  - Arazzo
+  - Workflows
+  - Human in the Loop
+  - OAuth
+  - OpenAPI
+  - Specification
+  - Agents
+---
+
+Every workflow language eventually runs into the step that is not an API call. Somebody has to approve the deployment. The customer has to agree to finance four of the five things in their basket. A browser has to bounce through an authorization server and come back with a code. Until now [Arazzo](https://spec.openapis.org/arazzo/latest.html) had no honest way to say any of that — you could gesture at it with a step that called a fake endpoint, and everyone who wrote a runner invented their own convention for the pause. [PR #568](https://github.com/OAI/Arazzo-Specification/pull/568), which Frank Kilcommins walked the bi-weekly call through yesterday, is the first-class version, and it is the most consequential change in the 1.2 queue.
+
+The feature is called actor in the loop. It started life as human in the loop, in [issue #353](https://github.com/OAI/Arazzo-Specification/issues/353) and then [#449](https://github.com/OAI/Arazzo-Specification/issues/449) from Kevin Duffey, and got renamed — credit to Jay Hamilton — because the thing on the other side of the pause is increasingly not a person. It might be an agent. It might be another automated system with its own approval logic. The specification does not care, and the naming now says so.
+
+Mechanically, it is a new kind of step. A step gets an `interaction` field, mutually exclusive with `operationId`, `operationPath`, `channelPath` and `workflowId` — a step either calls something or it waits for something, never both. The Interaction Object carries a `prompt` (with runtime expressions, so "Change X is ready to deploy to Y, risk level Z" is assembled from earlier steps), a `context` bag of named values that go along with the prompt, an `inputSchema` in JSON Schema 2020-12 describing exactly what must come back, and a `mode` — `form`, `acknowledge`, or `redirect`. When the actor responds, the payload is available as `$interaction.payload` and can be checked in success criteria like any other response. Frank was careful on the call about what `mode` is: a hint to the executor about how to present the pause, not something Arazzo can verify. How the prompt reaches the actor — a web form, an email, a Slack message, an agent's tool call — is deliberately outside the specification. What must come back is not.
+
+Two things in the pull request apply to every step, not just interactions. `timeout` now accepts ISO 8601 durations — `PT8H`, `P2D` — alongside integer milliseconds, because "wait eight hours for the approver" was never going to be expressed comfortably in milliseconds. And there is a new `onTimeout` action list, sibling to `onSuccess` and `onFailure`, so a step can say what happens when nobody answers. Interactions also get `onCancel`, for when the actor explicitly walks away. The [deployment approval example](https://github.com/OAI/Arazzo-Specification/pull/568/files) uses all of it: primary approver, eight-hour window, on timeout go to the escalation step, which is a second interaction with a shorter window that names the person who did not respond, and on either cancel go to a step that cancels the deployment.
+
+The example I would send anyone to first is the OAuth one, because it closes a gap that has been open since the original working group. People from the OpenID Foundation wanted Arazzo to describe an authorization code flow, and the answer at the time was that you could sort of describe it if you were willing to make assumptions about the redirect. The `redirect` mode fixes that. The authorize step is an interaction that points at the `authorize` operation, declares that it expects `code` and `state` back, and succeeds only if the returned `state` matches the one that was sent. Then a normal step exchanges the code for a token. The pull request goes further than the basic flow — there are examples for [pushed authorization requests](https://github.com/OAI/Arazzo-Specification/pull/568/files), for PAR with JARM as FAPI 2.0 requires, and for UK Open Banking account access, reviewed out of band by Chris Wood, who is doing the [FAPI work for OpenAPI 3.3](https://github.com/OAI/OpenAPI-Specification/discussions/5304). If your API sits behind financial-grade auth, this is the first time a workflow description can tell the truth about how a client gets in.
+
+Reusable interactions live in `components.interactions`, referenced as `$components.interactions.<name>`. The one live design debate on the call was whether that goes far enough — Kevin Duffey floated a library concept, a source description type that holds functions and interactions for reuse across documents. Frank's instinct, which I share, is that an interaction is bound to its workflow in a way a function is not: the prompt refers to this change, this basket, this redirect. If you want the whole thing reusable, reference the workflow. That question is not settled, and it is the kind of question that gets settled by people showing up with a use case.
+
+The pull request is large — thirty-two files, thirteen of them examples and tests — and it was opened on September 3. Kevin has started reviewing and is writing up a response; Nick Denny and Dmitry Anansky have left comments. The realistic sequencing from the call is that SOAP and Protobuf make 1.2 at the end of October, and actor in the loop lands in a 1.3 alongside GraphQL around the end of the year — not because anyone doubts it, but because Frank wants it reviewed and "battle-tested" against real runners first, and because shipping this and functions in the same release would be more than tooling vendors can absorb at once.
+
+Which is the ask. Battle-testing a specification change means people who run workflows trying to write one against it. If you have an approval gate, a checkout decision, or an OAuth flow that a workflow needs to cross, take the [examples](https://github.com/OAI/Arazzo-Specification/pull/568/files), write yours, and put what broke in the pull request. If you build a runner, tell them what you need to persist across the pause — Frank added a section on resuming a suspended workflow, borrowing from how MCP passes state, and he wants it pushed on. And if you would rather argue it live, the Arazzo call is every other Wednesday at 09:00 Pacific — [discussion #5](https://github.com/OAI/Arazzo-Specification/discussions/5) has the details, `#arazzo` on the [OpenAPI Slack](https://communityinviter.com/apps/open-api/openapi) has the conversation in between, and the next one is September 30.
+
+Tomorrow, the pull request that started as gRPC and came out of review as RPC.

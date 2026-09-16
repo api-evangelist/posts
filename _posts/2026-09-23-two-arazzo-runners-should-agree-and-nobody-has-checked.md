@@ -1,0 +1,30 @@
+---
+published: true
+layout: post
+title: 'Two Arazzo Runners Should Agree, and Nobody Has Checked'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/two-arazzo-runners-should-agree-and-nobody-has-checked.png
+date: 2026-09-23
+author: Kin Lane
+tags:
+  - Arazzo
+  - Conformance
+  - Testing
+  - Workflows
+  - Tooling
+  - Specification
+  - OpenAPI
+---
+
+I have spent a week writing about what is being added to [Arazzo](https://spec.openapis.org/arazzo/latest.html) — SOAP, actor in the loop, RPC, GraphQL, and the functions proposal. Today is about the thing that decides whether any of it matters. [Issue #448](https://github.com/OAI/Arazzo-Specification/issues/448), Conformance Testing, was opened by Kevin Duffey on March 18. It has been open for six months. It has zero comments. And on last week's bi-weekly call I told the group I would pick it up, so this post is partly a public commitment and partly a request for help keeping it.
+
+The issue is short and it is right. As more tools execute Arazzo documents, someone will author a workflow in one tool and run it in another, and they should be able to expect the same behavior. Kevin's word for it is determinism: descriptions should execute in the same manner regardless of runner. The tests should be descriptive about the scenario they cover and the versions of Arazzo, OpenAPI, and AsyncAPI they apply to, they should grow to cover async, actor in the loop, functions and MCP as those land, and they can start small. That is the entire proposal. Nobody has disagreed with it, and nobody has done it.
+
+Here is why I care enough to take it. [Last month I counted the Arazzo runners](https://apievangelist.com/2026/08/21/i-counted-the-arazzo-runners-by-reading-readmes/) — the tools that actually execute a document rather than lint or render one — and got to roughly six, two of which are the same codebase at different stages of life. Since then I have been running two of them against the same workflows, one from the maintainers' own ecosystem and one of my own, to see whether they agree. The answer is that they mostly do and I cannot tell you precisely where they do not, because there is no shared set of documents with expected outcomes to run them against. Each runner has its own fixtures. Each passes its own tests. None of that tells you whether a success criterion evaluates the same way in both, whether a runtime expression resolves identically, or whether `onFailure` with a `retry` behaves the same when the third attempt succeeds. Kevin said on the call that this is exactly the gap: "so that it's compatible across different tools." Frank Kilcommins's response was that conformance obviously helps everyone building to the spec, and that someone has to bite off and chew the work.
+
+The conformance question has also just gotten harder, and the timing is not an accident. Every pull request I wrote about this week adds behavior that only a runner can get wrong. The SOAP pull request says tools must resolve the HTTP method and endpoint from the WSDL binding — two runners could disagree about which binding. Actor in the loop suspends a workflow for up to eight hours and resumes it, and Frank added a clarification section on resuming state precisely because that is an execution concern the document cannot pin down. The RPC pull request defines `$response.status#/code` and trailing metadata per protocol. The functions proposal's rule zero — two independent implementations make identical decisions at every observable point — is a conformance requirement stated as a design principle. Without a suite, rule zero is a hope.
+
+What I intend to do is modest and I want to be clear about it, because I am better at reporting on specifications than at writing test harnesses. I will start by turning the issue into a set of concrete scenarios: a document, the inputs, and the expected observable outcome — which steps ran, in what order, what the outputs were, what the terminal state was. Not a framework, not a runner, just the fixtures and the expectations, in a form any runner's maintainer can point their own harness at. The [examples directory](https://github.com/OAI/Arazzo-Specification/tree/main/examples) in the specification repository is the obvious seed, because every pull request this week added to it, and those examples already carry the authors' intent about what should happen. I asked on the call whether a conformance pull request existed; the answer was that there is the issue and nothing more, so the first pull request will be a proposal for the shape of a conformance fixture, and I would rather get that shape argued over before anyone writes a hundred of them.
+
+The people I need are the people who maintain runners. If you ship one — Redocly's Respect, Jentic's tools, the Arazzo Toolkit, anything I have not found — you already know which parts of the specification your users trip over and where you made a judgment call the text did not settle. Those judgment calls are the first conformance tests. Put them in [issue #448](https://github.com/OAI/Arazzo-Specification/issues/448) as one-line scenarios and I will turn them into fixtures. If you have two runners producing different results from the same document today, that is the single most valuable thing you could post, because it is a conformance failure that already exists and nobody has written down.
+
+And this is the last post in the series, so let me say the general thing once. Six pieces of work in one specification — four pull requests, a proposal, and a testing gap — and every one of them is waiting on the same resource, which is people who use the thing reading it and saying what they see. The Arazzo call is every other Wednesday at 09:00 Pacific, with details in [discussion #5](https://github.com/OAI/Arazzo-Specification/discussions/5) and the `#arazzo` channel on the [OpenAPI Slack](https://communityinviter.com/apps/open-api/openapi) in between. The next one is a week from today, Wednesday, September 30. The best-attended recent call had about eight people on it. Nine is not a high bar.
