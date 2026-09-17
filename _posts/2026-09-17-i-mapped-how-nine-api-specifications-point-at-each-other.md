@@ -32,13 +32,15 @@ Arazzo calls into OpenAPI through `sourceDescriptions`, `operationId` and `opera
 
 The one that surprised me was A2A. Its security scheme is explicitly modeled on the OpenAPI 3.2 Security Scheme Object: API key, HTTP, OAuth 2, OpenID Connect and mutual TLS. A2A didn't invent its own auth vocabulary. It borrowed ours, and I think that was the right call.
 
-## The line nobody standardized
+## The lines nobody standardized
 
-There is one arrow on the map that no specification defines, and I added it after the first version went up: OpenAPI generates MCP. No spec says so. The evidence is in the OpenAPI extensions we have been profiling at [extensions.apievangelist.com](https://extensions.apievangelist.com/).
+Two arrows on the map are defined by no specification at all, and both went up after the first version. The first is that OpenAPI generates MCP. No spec says so. The evidence is in the OpenAPI extensions we have been profiling at [extensions.apievangelist.com](https://extensions.apievangelist.com/).
 
 Twenty-two of those extensions have `mcp` in their name and exist to tell a generator which operations become MCP tools, what to call them and how to describe them. They show up in 90 OpenAPI documents from 16 providers. Two of those providers are us, API Evangelist and APIs.io, so call it 14 from the outside. `x-mcp` is used by five providers and `x-mcp-tool` by four. [Wistia built nine of its own](https://apievangelist.com/2026/09/16/wistia-built-the-best-agent-vocabulary-nobody-knows-about/). And as I wrote this morning, [Windmill and others already collide on the same spelling](https://apievangelist.com/2026/09/17/windmill-and-the-first-collision-in-the-mcp-vocabulary/) while meaning different things by it.
 
-That is what an unstandardized relationship looks like. The demand is obvious. Companies want to turn the contract they already have into the tool list an agent needs. But every one of them is writing that bridge by hand, in their own dialect. Select OpenAPI or MCP on the map and you get the full list of extensions, each linked to its profile.
+Frank Kilcommins, who co-authored Arazzo, read the first version of the map and told me the same thing is happening one layer up: Arazzo has MCP generators out in the wild too. He is right, and it is now a second line on the map. I went looking and verified five — [wso2/arazzo-mcp-generator](https://github.com/wso2/arazzo-mcp-generator), [jentic/arazzo-engine](https://github.com/jentic/arazzo-engine) behind Jentic's own MCP server, [strefethen/arazzo-cli](https://github.com/strefethen/arazzo-cli), [Bump.sh](https://docs.bump.sh/help/mcp-servers/specification-support/arazzo-support/), and [HimethW/arazzo-mcp-gen](https://github.com/HimethW/arazzo-mcp-gen). What they generate is more interesting than the OpenAPI case. A workflow becomes a single tool, so the agent calls one thing instead of sequencing five calls and getting the order wrong. The sequencing was already solved, in a document somebody wrote down on purpose.
+
+That is what an unstandardized relationship looks like. The demand is obvious. Companies want to turn the contract they already have into the tool list an agent needs. But every one of them is writing that bridge by hand, in their own dialect. Select OpenAPI, Arazzo or MCP on the map and you get the evidence behind each line, every extension and generator linked.
 
 ## Same job, different words
 
