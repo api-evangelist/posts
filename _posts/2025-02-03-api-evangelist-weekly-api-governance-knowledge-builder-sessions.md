@@ -14,15 +14,15 @@ We spent the last part of 2024 breaking down what we’ve learned about API gove
 
 ### Tuesday
 
-- [**Schema @ 1:00 PM EST**](https://bases.apievangelist.com/store/schema/) - Covering what you need to define and validate API operations.
-- [**APIs @ 2:00 PM EST**](https://bases.apievangelist.com/store/apis/) - Understanding the fundamentals of producing and consuming APIs.
-- [**Governance @ 3:00 PM EST**](https://bases.apievangelist.com/store/governance/) - Looking at the current and future state of governing our APIs.
+- **Schema @ 1:00 PM EST** - Covering what you need to define and validate API operations.
+- **APIs @ 2:00 PM EST** - Understanding the fundamentals of producing and consuming APIs.
+- **Governance @ 3:00 PM EST** - Looking at the current and future state of governing our APIs.
 
 ### Thursday
 
-- [**Operations @ 1:00 PM EST**](https://bases.apievangelist.com/store/operations/) - Expanding governance to the wider operations surrounding APIs.
-- [**Changes @ 2:00 PM EST**](https://bases.apievangelist.com/store/changes/) - Turning change into an asset rather than it being a liability.
-- [**Evangelism @ 3:00 PM EST**](https://bases.apievangelist.com/store/evangelism/) - Collaborating and communicating in real-time around APIs.
+- **Operations @ 1:00 PM EST** - Expanding governance to the wider operations surrounding APIs.
+- **Changes @ 2:00 PM EST** - Turning change into an asset rather than it being a liability.
+- **Evangelism @ 3:00 PM EST** - Collaborating and communicating in real-time around APIs.
 
 [Knowledge building](https://apievangelist.com/#knowledge) sessions are paid, and we are charging $169.00 USD per person, per session. We will be running weekly for the next six months to see if it is something people are in need of. We will gather feedback each week to iterate upon the content, but keeping within the fundamental six areas. In a couple of weeks we will launch a rotating mix of 101, 201, and 301 sessions, but we feel pretty strongly that enterprises must be focusing on these basics, and getting their house in order in respect to the API sprawl.
 
