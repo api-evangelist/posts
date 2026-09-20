@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: 'Balancing Determinism vs. Non-Determinism and Build vs. Buy By Understanding My Capabilities'
+title: 'Balancing Determinism vs. Non-Determinism and Build vs. Buy Through Doing the Work to Understand My Capabilities'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/balancing-determinism-vs-non-determinism-and-build-vs-buy-by-understanding-my-capabilities.png
 date: 2026-09-20
 author: Kin Lane
