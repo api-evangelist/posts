@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: '97 Agent Cards Say x402. Eight of Them Answer a 402.'
+title: '427 Agent Cards: 97 Say x402, and Eight Answer a 402'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/97-agent-cards-say-x402-eight-of-them-answer-a-402.png
 date: 2026-09-21
 author: Kin Lane
