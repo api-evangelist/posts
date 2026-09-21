@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 'A2A Adoption Is 424 of 27,840, and Most of Them Arrived With the Card'
-image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/a2a-adoption-is-424-of-27840-and-most-of-them-arrived-with-the-card.png
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/a2a-adoption-is-421-of-27840-and-most-of-them-arrived-with-the-card.png
 date: 2026-09-21
 author: Kin Lane
 tags:
