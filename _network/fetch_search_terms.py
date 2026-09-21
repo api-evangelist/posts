@@ -180,7 +180,27 @@ def upsert(data, snapshot):
     data["weeks"] = weeks
 
 
+USAGE = """usage: fetch_search_terms.py [--backfill YYYY-MM-DD]
+
+  (no arguments)          build the week ending yesterday — what weekly_search_terms.sh does
+  --backfill YYYY-MM-DD   rebuild every complete week from that date forward"""
+
+
 def main():
+    # Reject anything unrecognised instead of falling through to the DEFAULT live
+    # fetch. The branch below is `len(sys.argv) > 2 and sys.argv[1] == "--backfill"`,
+    # so an unknown argument — `--help` above all — matched nothing and the script
+    # silently began a real fetch against S3. The apis.io sibling had the identical
+    # shape and was hit that way on 2026-09-21.
+    argv = sys.argv[1:]
+    if argv and (argv[0] != "--backfill" or len(argv) != 2):
+        if argv[0] in ("-h", "--help"):
+            print(USAGE)
+            sys.exit(0)
+        bad = "missing date" if argv[0] == "--backfill" else "unknown argument"
+        print(f"{bad}: {' '.join(argv)}\n\n{USAGE}", file=sys.stderr)
+        sys.exit(2)
+
     backfill_since = None
     if len(sys.argv) > 2 and sys.argv[1] == "--backfill":
         backfill_since = sys.argv[2]
