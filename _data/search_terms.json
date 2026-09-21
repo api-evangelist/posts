@@ -7802,6 +7802,839 @@
         "api": 83009,
         "mcp": 137
       }
+    },
+    {
+      "week_starting": "2026-09-14",
+      "week_ending": "2026-09-20",
+      "fetched_at": "2026-09-21T05:01:39Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 89488,
+      "unique_terms": 6538,
+      "unmet_terms": 6955,
+      "top_queries": [
+        {
+          "q": "department",
+          "n": 42
+        },
+        {
+          "q": "deprecat",
+          "n": 30
+        },
+        {
+          "q": "break glass",
+          "n": 24
+        },
+        {
+          "q": "graphql",
+          "n": 22
+        },
+        {
+          "q": "openapi",
+          "n": 21
+        },
+        {
+          "q": "grpc",
+          "n": 20
+        },
+        {
+          "q": "governance",
+          "n": 19
+        },
+        {
+          "q": "language",
+          "n": 18
+        },
+        {
+          "q": "accidental",
+          "n": 16
+        },
+        {
+          "q": "rate limiting",
+          "n": 14
+        },
+        {
+          "q": "departments",
+          "n": 12
+        },
+        {
+          "q": "driver",
+          "n": 12
+        },
+        {
+          "q": "Klarna",
+          "n": 12
+        },
+        {
+          "q": "rate",
+          "n": 12
+        },
+        {
+          "q": "public-sector",
+          "n": 10
+        },
+        {
+          "q": "review",
+          "n": 10
+        },
+        {
+          "q": "throttling",
+          "n": 10
+        },
+        {
+          "q": "versioning",
+          "n": 10
+        },
+        {
+          "q": "accidental excellence",
+          "n": 8
+        },
+        {
+          "q": "API governance",
+          "n": 8
+        },
+        {
+          "q": "consumer isolation",
+          "n": 8
+        },
+        {
+          "q": "contract testing",
+          "n": 8
+        },
+        {
+          "q": "education",
+          "n": 8
+        },
+        {
+          "q": "government",
+          "n": 8
+        },
+        {
+          "q": "HIPAA patients",
+          "n": 8
+        },
+        {
+          "q": "Legal",
+          "n": 8
+        },
+        {
+          "q": "Cloud",
+          "n": 7
+        },
+        {
+          "q": "HTTP",
+          "n": 7
+        },
+        {
+          "q": "Platform",
+          "n": 7
+        },
+        {
+          "q": "agent",
+          "n": 6
+        },
+        {
+          "q": "C",
+          "n": 6
+        },
+        {
+          "q": "data",
+          "n": 6
+        },
+        {
+          "q": "HSDA",
+          "n": 6
+        },
+        {
+          "q": "isolation",
+          "n": 6
+        },
+        {
+          "q": "Markets",
+          "n": 6
+        },
+        {
+          "q": "privacy",
+          "n": 6
+        },
+        {
+          "q": "public",
+          "n": 6
+        },
+        {
+          "q": "rate-limit",
+          "n": 6
+        },
+        {
+          "q": "SDKs",
+          "n": 6
+        },
+        {
+          "q": "version",
+          "n": 6
+        },
+        {
+          "q": "zoom-user-api",
+          "n": 6
+        },
+        {
+          "q": "API Economy",
+          "n": 5
+        },
+        {
+          "q": "api-rating",
+          "n": 5
+        },
+        {
+          "q": "APIMATIC",
+          "n": 5
+        },
+        {
+          "q": "CLI",
+          "n": 5
+        },
+        {
+          "q": "food",
+          "n": 5
+        },
+        {
+          "q": "Government Relations",
+          "n": 5
+        },
+        {
+          "q": "ISO Standard",
+          "n": 5
+        },
+        {
+          "q": "organization",
+          "n": 5
+        },
+        {
+          "q": "Payer",
+          "n": 5
+        },
+        {
+          "q": "Persistence",
+          "n": 5
+        },
+        {
+          "q": "Portfolio",
+          "n": 5
+        },
+        {
+          "q": "Transformations",
+          "n": 5
+        },
+        {
+          "q": "0901.21.00",
+          "n": 4
+        },
+        {
+          "q": "2xx",
+          "n": 4
+        },
+        {
+          "q": "agents",
+          "n": 4
+        },
+        {
+          "q": "api",
+          "n": 4
+        },
+        {
+          "q": "API duplication reuse consolidation",
+          "n": 4
+        },
+        {
+          "q": "API Testing",
+          "n": 4
+        },
+        {
+          "q": "Automation",
+          "n": 4
+        },
+        {
+          "q": "Basel Compliance",
+          "n": 4
+        },
+        {
+          "q": "Best Practices",
+          "n": 4
+        },
+        {
+          "q": "Browser",
+          "n": 4
+        },
+        {
+          "q": "Capital Markets",
+          "n": 4
+        },
+        {
+          "q": "Citations",
+          "n": 4
+        },
+        {
+          "q": "Client Services",
+          "n": 4
+        },
+        {
+          "q": "Column-Oriented",
+          "n": 4
+        },
+        {
+          "q": "Common",
+          "n": 4
+        },
+        {
+          "q": "consolidate",
+          "n": 4
+        },
+        {
+          "q": "consumer isolation LLM agents",
+          "n": 4
+        },
+        {
+          "q": "contract testing API",
+          "n": 4
+        },
+        {
+          "q": "Conversation Analytics",
+          "n": 4
+        },
+        {
+          "q": "courier",
+          "n": 4
+        },
+        {
+          "q": "Dashboards",
+          "n": 4
+        },
+        {
+          "q": "Development Platform",
+          "n": 4
+        },
+        {
+          "q": "duplication",
+          "n": 4
+        },
+        {
+          "q": "duplication reusability API composition",
+          "n": 4
+        },
+        {
+          "q": "enterprise",
+          "n": 4
+        },
+        {
+          "q": "Entity Relationship",
+          "n": 4
+        },
+        {
+          "q": "Financial Technology",
+          "n": 4
+        },
+        {
+          "q": "Funding",
+          "n": 4
+        },
+        {
+          "q": "gig",
+          "n": 4
+        },
+        {
+          "q": "Gremlin",
+          "n": 4
+        },
+        {
+          "q": "High Performance",
+          "n": 4
+        },
+        {
+          "q": "Images",
+          "n": 4
+        },
+        {
+          "q": "Inference",
+          "n": 4
+        },
+        {
+          "q": "Institutional Trading",
+          "n": 4
+        },
+        {
+          "q": "ITIL",
+          "n": 4
+        },
+        {
+          "q": "Knowledge",
+          "n": 4
+        },
+        {
+          "q": "kpmg",
+          "n": 4
+        },
+        {
+          "q": "labor",
+          "n": 4
+        },
+        {
+          "q": "Landscapes",
+          "n": 4
+        },
+        {
+          "q": "LLM",
+          "n": 4
+        },
+        {
+          "q": "London Market",
+          "n": 4
+        },
+        {
+          "q": "Management",
+          "n": 4
+        },
+        {
+          "q": "Microwaves",
+          "n": 4
+        },
+        {
+          "q": "News Media",
+          "n": 4
+        },
+        {
+          "q": "OAuth",
+          "n": 4
+        },
+        {
+          "q": "Open Source",
+          "n": 4
+        },
+        {
+          "q": "pact",
+          "n": 4
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "break glass",
+          "n": 12
+        },
+        {
+          "q": "department",
+          "n": 12
+        },
+        {
+          "q": "Klarna",
+          "n": 6
+        },
+        {
+          "q": "throttling",
+          "n": 5
+        },
+        {
+          "q": "accidental",
+          "n": 4
+        },
+        {
+          "q": "kpmg",
+          "n": 4
+        },
+        {
+          "q": "360learning-certificate-outlines-api",
+          "n": 3
+        },
+        {
+          "q": "Boycotts",
+          "n": 3
+        },
+        {
+          "q": "CargoSmart",
+          "n": 3
+        },
+        {
+          "q": "circleci-schedule-api",
+          "n": 3
+        },
+        {
+          "q": "code-ocean-capsules-api",
+          "n": 3
+        },
+        {
+          "q": "consumer isolation",
+          "n": 3
+        },
+        {
+          "q": "Ethiopia",
+          "n": 3
+        },
+        {
+          "q": "Foreign Policy",
+          "n": 3
+        },
+        {
+          "q": "gremlin-webhooks-api",
+          "n": 3
+        },
+        {
+          "q": "Irrigation",
+          "n": 3
+        },
+        {
+          "q": "language",
+          "n": 3
+        },
+        {
+          "q": "mef-tapi-path-computation-api",
+          "n": 3
+        },
+        {
+          "q": "Multifamily",
+          "n": 3
+        },
+        {
+          "q": "public-sector",
+          "n": 3
+        },
+        {
+          "q": "Rural Connectivity",
+          "n": 3
+        },
+        {
+          "q": "scalability-azure-autoscale-rest-api",
+          "n": 3
+        },
+        {
+          "q": "tiktok-reporting-api",
+          "n": 3
+        },
+        {
+          "q": "yugabytedb-universe-information-api",
+          "n": 3
+        },
+        {
+          "q": "0901.21.00",
+          "n": 2
+        },
+        {
+          "q": "3gpp-ts29522-ueid",
+          "n": 2
+        },
+        {
+          "q": "adyen-transfers-api",
+          "n": 2
+        },
+        {
+          "q": "aerofarms-products-api",
+          "n": 2
+        },
+        {
+          "q": "Aftermarket",
+          "n": 2
+        },
+        {
+          "q": "aftership-aftership-cancel-labels-api",
+          "n": 2
+        },
+        {
+          "q": "aftership-aftership-courier-connection-api",
+          "n": 2
+        },
+        {
+          "q": "aftership-aftership-pickups-api",
+          "n": 2
+        },
+        {
+          "q": "AgTech",
+          "n": 2
+        },
+        {
+          "q": "ahrefs-gsc-insights-api",
+          "n": 2
+        },
+        {
+          "q": "ahrefs-keywords-api",
+          "n": 2
+        },
+        {
+          "q": "ahrefs-web-analytics-api",
+          "n": 2
+        },
+        {
+          "q": "aimodel-discovery-api",
+          "n": 2
+        },
+        {
+          "q": "aira-technologies-discovery-api",
+          "n": 2
+        },
+        {
+          "q": "aira-technologies-search-api",
+          "n": 2
+        },
+        {
+          "q": "airops-executions-api",
+          "n": 2
+        },
+        {
+          "q": "akkio-distribution-api",
+          "n": 2
+        },
+        {
+          "q": "akkio-forecast-preview-api",
+          "n": 2
+        },
+        {
+          "q": "akkio-generate-document-upload-url-api",
+          "n": 2
+        },
+        {
+          "q": "akkio-group-forecast-api",
+          "n": 2
+        },
+        {
+          "q": "akkio-health-api",
+          "n": 2
+        },
+        {
+          "q": "akkio-insight-api",
+          "n": 2
+        },
+        {
+          "q": "akkio-knowledge-api",
+          "n": 2
+        },
+        {
+          "q": "akkio-list-zapier-flows-api",
+          "n": 2
+        },
+        {
+          "q": "akkio-location-intelligence-api",
+          "n": 2
+        },
+        {
+          "q": "akkio-synthetics-api",
+          "n": 2
+        },
+        {
+          "q": "akkio-zapier-api-api",
+          "n": 2
+        },
+        {
+          "q": "anthropic-prompt-generation-api",
+          "n": 2
+        },
+        {
+          "q": "API duplication reuse consolidation",
+          "n": 2
+        },
+        {
+          "q": "Apparel",
+          "n": 2
+        },
+        {
+          "q": "AppSource",
+          "n": 2
+        },
+        {
+          "q": "Autocapture",
+          "n": 2
+        },
+        {
+          "q": "backstage-bus-api",
+          "n": 2
+        },
+        {
+          "q": "Baseball",
+          "n": 2
+        },
+        {
+          "q": "Basketball",
+          "n": 2
+        },
+        {
+          "q": "BLPAPI",
+          "n": 2
+        },
+        {
+          "q": "Bulk Payouts",
+          "n": 2
+        },
+        {
+          "q": "Celebrity Recognition",
+          "n": 2
+        },
+        {
+          "q": "Composable Commerce",
+          "n": 2
+        },
+        {
+          "q": "courier",
+          "n": 2
+        },
+        {
+          "q": "Cyber Resilience",
+          "n": 2
+        },
+        {
+          "q": "Dealertrack",
+          "n": 2
+        },
+        {
+          "q": "delphix-vdbs-api",
+          "n": 2
+        },
+        {
+          "q": "digicert-organization-api",
+          "n": 2
+        },
+        {
+          "q": "Doorbell",
+          "n": 2
+        },
+        {
+          "q": "Epidemiology",
+          "n": 2
+        },
+        {
+          "q": "eu-ivdr",
+          "n": 2
+        },
+        {
+          "q": "fiserv-limits-api",
+          "n": 2
+        },
+        {
+          "q": "footbal",
+          "n": 2
+        },
+        {
+          "q": "football",
+          "n": 2
+        },
+        {
+          "q": "getty-images-color-api",
+          "n": 2
+        },
+        {
+          "q": "gitea",
+          "n": 2
+        },
+        {
+          "q": "habiteo-sitetools-api",
+          "n": 2
+        },
+        {
+          "q": "hl7-fhir-medication-request-api",
+          "n": 2
+        },
+        {
+          "q": "Hydrology",
+          "n": 2
+        },
+        {
+          "q": "instabase-runs-api",
+          "n": 2
+        },
+        {
+          "q": "kontaktio-spaces-api",
+          "n": 2
+        },
+        {
+          "q": "korbit-quotation-api",
+          "n": 2
+        },
+        {
+          "q": "lendingpad",
+          "n": 2
+        },
+        {
+          "q": "lexmark",
+          "n": 2
+        },
+        {
+          "q": "Multicloud",
+          "n": 2
+        },
+        {
+          "q": "Oilfield Services",
+          "n": 2
+        },
+        {
+          "q": "oracle-planning-oracle-planning-rest-api",
+          "n": 2
+        },
+        {
+          "q": "paypal-disputes-api",
+          "n": 2
+        },
+        {
+          "q": "paypal-payment-tokens-api",
+          "n": 2
+        },
+        {
+          "q": "qwen-embeddings-api",
+          "n": 2
+        },
+        {
+          "q": "rate",
+          "n": 2
+        },
+        {
+          "q": "red-hat-enterprise-linux-8-advisories-api",
+          "n": 2
+        },
+        {
+          "q": "Renters Insurance",
+          "n": 2
+        },
+        {
+          "q": "sanity-assets-api",
+          "n": 2
+        },
+        {
+          "q": "sanity-mutations-api",
+          "n": 2
+        },
+        {
+          "q": "sanity-projects-api",
+          "n": 2
+        },
+        {
+          "q": "sanity-webhooks-api",
+          "n": 2
+        },
+        {
+          "q": "Session Border Controller",
+          "n": 2
+        },
+        {
+          "q": "Siteone",
+          "n": 2
+        },
+        {
+          "q": "Spaceflight",
+          "n": 2
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 17
+        },
+        {
+          "resource": "stats",
+          "n": 15
+        }
+      ],
+      "by_tier": {
+        "free": 81589,
+        "site": 6572,
+        "internal": 1327
+      },
+      "by_surface": {
+        "api": 87945,
+        "mcp": 1543
+      }
     }
   ]
 }
