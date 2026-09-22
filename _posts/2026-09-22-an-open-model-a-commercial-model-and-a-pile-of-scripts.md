@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: 'An Open Model, A Commercial Model, And A Pile Of Scripts'
+title: 'Optimizing my AI Spend with an Open Model, A Commercial Model, and Deterministic Scripts'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/an-open-model-a-commercial-model-and-a-pile-of-scripts.png
 date: 2026-09-22
 author: Kin Lane
