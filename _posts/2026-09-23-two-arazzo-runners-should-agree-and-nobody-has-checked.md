@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: 'Two Arazzo Runners Should Agree, and Nobody Has Checked'
+title: 'Arazzo Needs Conformance Testing: Two Runners Should Agree, and Nobody Has Checked'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/two-arazzo-runners-should-agree-and-nobody-has-checked.png
 date: 2026-09-23
 author: Kin Lane
