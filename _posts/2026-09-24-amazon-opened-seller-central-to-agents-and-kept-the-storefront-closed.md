@@ -41,14 +41,14 @@ Amazon Ads got there first. The [Amazon Ads MCP Server](https://advertising.amaz
 
 On Monday I said Amazon had "no MCP server, no well-known catalog, no agent card, no delegated identity." The Selling Partner server is new this week. The Ads server was not. It was live and documented when I wrote that sentence, and my catalog did not have it, because the profile we held for Amazon dated from May. That same profile had the Ads and Amazon Pay APIs pointed at the Selling Partner host. It also held twelve Selling Partner contracts when Amazon's own [models repository](https://github.com/amzn/selling-partner-api-models) publishes fifty-three.
 
-So I re-ran the enrichment pipeline on both Amazon commerce profiles today. We pulled 21 of Amazon's official models verbatim (152 operations, up from 21), the MCP servers, the eleven skills, the notifications surface with its 23 event types, and the OAuth discovery documents. We also corrected the hosts. Then we re-scored.
+So I re-ran the enrichment pipeline on both Amazon commerce profiles today. We pulled 21 of Amazon's official models verbatim (152 operations, up from 21), the MCP servers, the eleven skills, the notifications surface with its 23 event types, and the OAuth discovery documents. We also corrected the hosts, split a Reports contract that had been mixing Ads and Selling Partner operations, and removed the Selling Partner duplicates from the main Amazon profile, so each API now lives in one place. Then we re-scored.
 
 | Profile | Agent readiness before | After | Band |
 |---|--:|--:|---|
 | [Amazon Selling Partner](https://apis.io/providers/amazon-seller-central/) | 17.3 | **63.3** | agent-native |
-| [Amazon (Ads, Pay)](https://apis.io/providers/amazon/) | 28.0 | **48.5** | agent-ready, gated from agent-native |
+| [Amazon (Ads, Pay)](https://apis.io/providers/amazon/) | 28.0 | **51.4** | agent-native |
 
-For comparison, Monday's other two companies are [Perplexity](https://apis.io/providers/perplexity/) at 60.4 and [Meta](https://apis.io/providers/meta/) at 51.8. Amazon's seller side is now the most agent-ready of the three. The Ads profile scores into agent-native and is held back by a gate rather than by points: agent-native requires a verified, stable error envelope, and we could not find one. That is the same gate that held Meta.
+For comparison, Monday's other two companies are [Perplexity](https://apis.io/providers/perplexity/) at 60.4 and [Meta](https://apis.io/providers/meta/) at 51.8. Amazon's seller side is now the most agent-ready of the three. The Ads and Pay profile lands just under Meta on points but clears the agent-native gate that holds Meta back, because its contracts document their error responses. That credit is "documented," not verified, and it is worth being plain about the ground under it: the Ads and Pay contracts we hold are not yet Amazon's own published files, and replacing them with the official ones is the next piece of work on this profile.
 
 Most of that jump is Amazon's work, but some of it is ours catching up, and it would be dishonest to present it as a forty-six-point week for Amazon. The scores are only as good as the profile under them, and ours was four months stale for the one company I chose to write about.
 
