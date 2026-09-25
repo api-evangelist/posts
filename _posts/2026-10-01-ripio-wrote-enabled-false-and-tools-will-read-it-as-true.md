@@ -27,7 +27,9 @@ An object, with a single field, set to false. Ripio is marking this operation as
 
 Now recall the other two implementations from this week. Demodesk writes `x-mcp: {enabled: true, toolName: users_get_me, title: Get current user}` — an object, where `enabled` carries the decision. Eon writes `x-mcp: true` — a bare boolean, where the value itself is the decision.
 
-Three companies. One key. Three shapes. And here is what happens when a tool tries to read all three.
+Three companies. One key. Three shapes. And while I was writing this week, two more turned up in the catalog, and neither matches. Dolby writes an object with a `description` and, on the operations that start or stop things, `destructiveHint: true` — and on one operation it writes `{expose: false}`, a second spelling of the off switch. Redocly puts `x-mcp` at the root of the document with a `protocolVersion` and a list of `servers`, which is not an operation annotation at all but a statement of where an MCP server lives. Five providers. Five shapes.
+
+Here is what happens when a tool tries to read them.
 
 The obvious implementation, the one almost everybody writes first, is a truthiness check:
 
@@ -37,7 +39,7 @@ if (operation['x-mcp']) { exposeAsTool(operation) }
 
 That is correct for Eon. `true` is truthy, the operation is exposed, everyone is happy. It is correct for Demodesk by accident — the object is truthy and `enabled` happens to be true, so the right thing happens for the wrong reason, which is the most dangerous kind of correct.
 
-And it is **wrong for Ripio**. `{enabled: false}` is a non-empty object. Non-empty objects are truthy in every language anybody is going to write this in. So the check passes, and an operation that Ripio explicitly marked as *not for agents* gets exposed as a tool.
+And it is **wrong for Ripio**. `{enabled: false}` is a non-empty object. Non-empty objects are truthy in every language anybody is going to write this in. So the check passes, and an operation that Ripio explicitly marked as *not for agents* gets exposed as a tool. Dolby's `{expose: false}` falls into the same hole, for the same reason.
 
 The failure is silent. Nothing errors. Nothing logs. The tool list simply contains something the publisher deliberately excluded, and the only way anyone finds out is if it gets called.
 
@@ -45,13 +47,13 @@ I want to be careful and precise about what I am claiming, because this is a ser
 
 It is also worth noting that Ripio is the company with the most to lose from it. This is an exchange. The operations you mark as not-agent-exposed on a crypto exchange are not going to be the harmless ones.
 
-None of the three companies did anything wrong. Ripio's object-with-`enabled` is arguably the most explicit and self-documenting of the three shapes — it says what it means rather than relying on the key name to carry the meaning. Eon's boolean is the most obvious. Demodesk's richer object is the most capable. Every one of those is a defensible engineering decision made by someone solving a real problem with no reference material available.
+None of these companies did anything wrong. Ripio's object-with-`enabled` is arguably the most explicit and self-documenting of the three shapes — it says what it means rather than relying on the key name to carry the meaning. Eon's boolean is the most obvious. Demodesk's richer object is the most capable. Dolby's and Redocly's are just as reasonable. Every one of those is a defensible engineering decision made by someone solving a real problem with no reference material available.
 
 The reference material is the missing piece. That is the whole series, compressed into one key.
 
 Over the last month I have written about twenty-one companies. Redocly, Speakeasy, Microsoft, AWS, ReadMe, Stoplight, Stainless, Mintlify and Fern, who each independently invented vocabulary for things OpenAPI does not describe — pagination, lifecycle, visibility, retries, field mutability, long-running operations. Then Wistia, Windmill, Zoho, Algolia, Constant Contact, Zuplo, Secureframe, MoEngage, Pipedrive, Demodesk, Eon and Ripio, doing the same thing again, right now, for agents, at much greater speed.
 
-The [OpenAPI Extension Registry](https://spec.openapis.org/registry/index.html) has thirty-six entries, and twenty-nine of those are the OpenAPI Initiative's own backport shims. Seven real community registrations. Against that, I count 2,443 distinct extensions across 21,329 OpenAPI documents from 7,380 providers in the [APIs.io](https://apis.io/extensions/) catalog. It is the largest undocumented vocabulary in this industry and it is growing fastest in the newest corner of it.
+The [OpenAPI Extension Registry](https://spec.openapis.org/registry/index.html) has thirty-six entries, and twenty-nine of those are the OpenAPI Initiative's own backport shims. Seven real community registrations. Against that, I count 2,620 distinct extensions across 24,797 OpenAPI documents from 7,604 providers in the [APIs.io](https://apis.io/extensions/) catalog. It is the largest undocumented vocabulary in this industry and it is growing fastest in the newest corner of it.
 
 Registering an extension is a markdown file and a pull request. That is the entire process. It is lighter than the internal design review that produced the key in the first place.
 
