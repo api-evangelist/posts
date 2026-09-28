@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: 'Sixteen Percent Is Not The Story'
+title: 'What Are the Humans and the Bots Doing on My Sites'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/sixteen-percent-is-not-the-story.png
 date: 2026-09-28
 author: Kin Lane
