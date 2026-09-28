@@ -8635,6 +8635,839 @@
         "api": 87945,
         "mcp": 1543
       }
+    },
+    {
+      "week_starting": "2026-09-21",
+      "week_ending": "2026-09-27",
+      "fetched_at": "2026-09-28T10:37:41Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 32309,
+      "unique_terms": 5652,
+      "unmet_terms": 4181,
+      "top_queries": [
+        {
+          "q": "HIPAA patients",
+          "n": 142
+        },
+        {
+          "q": "education",
+          "n": 130
+        },
+        {
+          "q": "deprecat",
+          "n": 71
+        },
+        {
+          "q": "graphql",
+          "n": 71
+        },
+        {
+          "q": "OpenAPI",
+          "n": 49
+        },
+        {
+          "q": "gRPC",
+          "n": 45
+        },
+        {
+          "q": "Version",
+          "n": 40
+        },
+        {
+          "q": "compliance regulatory health",
+          "n": 38
+        },
+        {
+          "q": "education learning training",
+          "n": 24
+        },
+        {
+          "q": "contract testing",
+          "n": 20
+        },
+        {
+          "q": "versioning",
+          "n": 12
+        },
+        {
+          "q": "Financial",
+          "n": 11
+        },
+        {
+          "q": "compliance regulatory health HIPAA",
+          "n": 10
+        },
+        {
+          "q": "HIPAA patients health",
+          "n": 10
+        },
+        {
+          "q": "Identifier",
+          "n": 10
+        },
+        {
+          "q": "iPaaS",
+          "n": 10
+        },
+        {
+          "q": "Mass Notification",
+          "n": 10
+        },
+        {
+          "q": "Workflow Scheduler",
+          "n": 10
+        },
+        {
+          "q": "API Authorization",
+          "n": 9
+        },
+        {
+          "q": "API Economy",
+          "n": 9
+        },
+        {
+          "q": "Code Quality",
+          "n": 9
+        },
+        {
+          "q": "Generation",
+          "n": 9
+        },
+        {
+          "q": "Protocols",
+          "n": 9
+        },
+        {
+          "q": "Speed",
+          "n": 9
+        },
+        {
+          "q": "Survey Tools",
+          "n": 9
+        },
+        {
+          "q": "api design patterns",
+          "n": 8
+        },
+        {
+          "q": "Best Current Practice",
+          "n": 8
+        },
+        {
+          "q": "Clio",
+          "n": 8
+        },
+        {
+          "q": "Clustering",
+          "n": 8
+        },
+        {
+          "q": "Conversion",
+          "n": 8
+        },
+        {
+          "q": "Data Ownership",
+          "n": 8
+        },
+        {
+          "q": "Data Subject Rights",
+          "n": 8
+        },
+        {
+          "q": "Fortune 100",
+          "n": 8
+        },
+        {
+          "q": "Hotel Images",
+          "n": 8
+        },
+        {
+          "q": "Insurance",
+          "n": 8
+        },
+        {
+          "q": "Kin Score",
+          "n": 8
+        },
+        {
+          "q": "Load Balancing",
+          "n": 8
+        },
+        {
+          "q": "Location Sharing",
+          "n": 8
+        },
+        {
+          "q": "Neurophysiologist",
+          "n": 8
+        },
+        {
+          "q": "On Demand",
+          "n": 8
+        },
+        {
+          "q": "OpenAPI Initiative",
+          "n": 8
+        },
+        {
+          "q": "Parsers",
+          "n": 8
+        },
+        {
+          "q": "Pipeline",
+          "n": 8
+        },
+        {
+          "q": "Platforms",
+          "n": 8
+        },
+        {
+          "q": "Radio",
+          "n": 8
+        },
+        {
+          "q": "B2B Marketing",
+          "n": 7
+        },
+        {
+          "q": "Consumer",
+          "n": 7
+        },
+        {
+          "q": "Dereferencing",
+          "n": 7
+        },
+        {
+          "q": "Device Applications",
+          "n": 7
+        },
+        {
+          "q": "Factory Floor",
+          "n": 7
+        },
+        {
+          "q": "Federated Governance",
+          "n": 7
+        },
+        {
+          "q": "Firewall Traversal",
+          "n": 7
+        },
+        {
+          "q": "KMS",
+          "n": 7
+        },
+        {
+          "q": "Knowledge Inference",
+          "n": 7
+        },
+        {
+          "q": "Payment Systems",
+          "n": 7
+        },
+        {
+          "q": "Pub/Sub",
+          "n": 7
+        },
+        {
+          "q": "Redis Compatible",
+          "n": 7
+        },
+        {
+          "q": "Responsive Design",
+          "n": 7
+        },
+        {
+          "q": "Sketches",
+          "n": 7
+        },
+        {
+          "q": "SSO",
+          "n": 7
+        },
+        {
+          "q": "3D",
+          "n": 6
+        },
+        {
+          "q": "Agency",
+          "n": 6
+        },
+        {
+          "q": "Artificial Intelligence",
+          "n": 6
+        },
+        {
+          "q": "Blueprints",
+          "n": 6
+        },
+        {
+          "q": "Content Extraction",
+          "n": 6
+        },
+        {
+          "q": "drums-are-used-to",
+          "n": 6
+        },
+        {
+          "q": "duplication consolidation service boundaries",
+          "n": 6
+        },
+        {
+          "q": "Germany",
+          "n": 6
+        },
+        {
+          "q": "hacker-news-lists-api",
+          "n": 6
+        },
+        {
+          "q": "JDBC",
+          "n": 6
+        },
+        {
+          "q": "Media",
+          "n": 6
+        },
+        {
+          "q": "Natural Language Processing",
+          "n": 6
+        },
+        {
+          "q": "Postman",
+          "n": 6
+        },
+        {
+          "q": "rate limiting",
+          "n": 6
+        },
+        {
+          "q": "Reuse",
+          "n": 6
+        },
+        {
+          "q": "Small Business",
+          "n": 6
+        },
+        {
+          "q": "URN",
+          "n": 6
+        },
+        {
+          "q": "Zero Trust",
+          "n": 6
+        },
+        {
+          "q": "Akamai",
+          "n": 5
+        },
+        {
+          "q": "department",
+          "n": 5
+        },
+        {
+          "q": "Extreme Programming",
+          "n": 5
+        },
+        {
+          "q": "isolation",
+          "n": 5
+        },
+        {
+          "q": "klarna",
+          "n": 5
+        },
+        {
+          "q": "Women in Tech",
+          "n": 5
+        },
+        {
+          "q": "accidental",
+          "n": 4
+        },
+        {
+          "q": "Agent Gateway",
+          "n": 4
+        },
+        {
+          "q": "Analytics",
+          "n": 4
+        },
+        {
+          "q": "API Governance",
+          "n": 4
+        },
+        {
+          "q": "C",
+          "n": 4
+        },
+        {
+          "q": "compliance",
+          "n": 4
+        },
+        {
+          "q": "Dashboards",
+          "n": 4
+        },
+        {
+          "q": "duplicate api services merge split",
+          "n": 4
+        },
+        {
+          "q": "duplication reusability consolidation",
+          "n": 4
+        },
+        {
+          "q": "eBay",
+          "n": 4
+        },
+        {
+          "q": "education training",
+          "n": 4
+        },
+        {
+          "q": "Exceptions",
+          "n": 4
+        },
+        {
+          "q": "HIPAA patients health data",
+          "n": 4
+        },
+        {
+          "q": "HIPAA patients health data compliance regulatory",
+          "n": 4
+        },
+        {
+          "q": "Network Security",
+          "n": 4
+        },
+        {
+          "q": "OpenAPI versioning user session data",
+          "n": 4
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "compliance regulatory health",
+          "n": 19
+        },
+        {
+          "q": "compliance regulatory health HIPAA",
+          "n": 5
+        },
+        {
+          "q": "klarna",
+          "n": 5
+        },
+        {
+          "q": "whatsapp-lifecycle-api",
+          "n": 4
+        },
+        {
+          "q": "duplication consolidation service boundaries",
+          "n": 3
+        },
+        {
+          "q": "graphql",
+          "n": 3
+        },
+        {
+          "q": "microsoft-cognitive-news-search",
+          "n": 3
+        },
+        {
+          "q": "reddit-wiki-api",
+          "n": 3
+        },
+        {
+          "q": "strapi-content-manager-api",
+          "n": 3
+        },
+        {
+          "q": "symphony-groups-api",
+          "n": 3
+        },
+        {
+          "q": "abwab",
+          "n": 2
+        },
+        {
+          "q": "adafruit-io-data-api",
+          "n": 2
+        },
+        {
+          "q": "adobe-captivate-adobe-learning-manager-webhooks-api",
+          "n": 2
+        },
+        {
+          "q": "adp-add-additional-remuneration-api",
+          "n": 2
+        },
+        {
+          "q": "adp-add-worker-business-email-api",
+          "n": 2
+        },
+        {
+          "q": "adp-cancel-worker-leave-api",
+          "n": 2
+        },
+        {
+          "q": "adp-change-schedule-day-api",
+          "n": 2
+        },
+        {
+          "q": "adp-change-worker-leave-api",
+          "n": 2
+        },
+        {
+          "q": "adp-worker-demographics-api",
+          "n": 2
+        },
+        {
+          "q": "adro1b33-artifacts-api",
+          "n": 2
+        },
+        {
+          "q": "adro1b33-deletion-executions-api",
+          "n": 2
+        },
+        {
+          "q": "adro1b33-presigned-url-api",
+          "n": 2
+        },
+        {
+          "q": "adro1b33-projects-api",
+          "n": 2
+        },
+        {
+          "q": "adro1b33-verifier-api",
+          "n": 2
+        },
+        {
+          "q": "adsmom",
+          "n": 2
+        },
+        {
+          "q": "agentphone-subaccounts-api",
+          "n": 2
+        },
+        {
+          "q": "aimlapi-embeddings-api",
+          "n": 2
+        },
+        {
+          "q": "air-passenger-protection-regulations",
+          "n": 2
+        },
+        {
+          "q": "air-quality-programmatic-apis-stations-api",
+          "n": 2
+        },
+        {
+          "q": "airlabs-cities-api",
+          "n": 2
+        },
+        {
+          "q": "altr-api-keys-api",
+          "n": 2
+        },
+        {
+          "q": "altruistiq-data-source-api",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-site-type-api",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-system-configuration-api",
+          "n": 2
+        },
+        {
+          "q": "apache-pulsar-topics-api",
+          "n": 2
+        },
+        {
+          "q": "apiclarity-api-usage-api",
+          "n": 2
+        },
+        {
+          "q": "apiclarity-fuzzer-api",
+          "n": 2
+        },
+        {
+          "q": "apiclarity-local-fuzzer-api",
+          "n": 2
+        },
+        {
+          "q": "apiclarity-modules-api",
+          "n": 2
+        },
+        {
+          "q": "apicontext-integrations-api",
+          "n": 2
+        },
+        {
+          "q": "apicontext-mcp-monitor-statistics-api",
+          "n": 2
+        },
+        {
+          "q": "asana-time-periods-api",
+          "n": 2
+        },
+        {
+          "q": "ashby-archive-reason-api",
+          "n": 2
+        },
+        {
+          "q": "atlassian-jira-issue-comments-api",
+          "n": 2
+        },
+        {
+          "q": "atomic-fi-secrets-api",
+          "n": 2
+        },
+        {
+          "q": "australia-privacy-act",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-autoscaling-api",
+          "n": 2
+        },
+        {
+          "q": "aws-lambda-event-source-mappings-api",
+          "n": 2
+        },
+        {
+          "q": "aws-lambda-function-url-api",
+          "n": 2
+        },
+        {
+          "q": "Citizenship",
+          "n": 2
+        },
+        {
+          "q": "clickhouse-api-keys-api",
+          "n": 2
+        },
+        {
+          "q": "duplicate api services merge split",
+          "n": 2
+        },
+        {
+          "q": "duplication reusability consolidation",
+          "n": 2
+        },
+        {
+          "q": "factset-symbols-relationships-api",
+          "n": 2
+        },
+        {
+          "q": "Firearms",
+          "n": 2
+        },
+        {
+          "q": "fis-accountcontrollerv2-api",
+          "n": 2
+        },
+        {
+          "q": "fis-accountingtransactioncontrollerv2-api",
+          "n": 2
+        },
+        {
+          "q": "fomo",
+          "n": 2
+        },
+        {
+          "q": "genshin",
+          "n": 2
+        },
+        {
+          "q": "happyornot-follow-up-questions-api",
+          "n": 2
+        },
+        {
+          "q": "housesigma",
+          "n": 2
+        },
+        {
+          "q": "hypernative",
+          "n": 2
+        },
+        {
+          "q": "InsurTech",
+          "n": 2
+        },
+        {
+          "q": "janus-search-github-ingress",
+          "n": 2
+        },
+        {
+          "q": "jira-issue-statuses-api",
+          "n": 2
+        },
+        {
+          "q": "keenon",
+          "n": 2
+        },
+        {
+          "q": "kinesis-describe-edge-configuration-api",
+          "n": 2
+        },
+        {
+          "q": "kinesis-describe-image-generation-configuration-api",
+          "n": 2
+        },
+        {
+          "q": "kinesis-describe-mapped-resource-configuration-api",
+          "n": 2
+        },
+        {
+          "q": "kinesis-describe-notification-configuration-api",
+          "n": 2
+        },
+        {
+          "q": "kpmg",
+          "n": 2
+        },
+        {
+          "q": "microsoft-cognitive-web-search",
+          "n": 2
+        },
+        {
+          "q": "mist-ai-orgs-nac-crl-api",
+          "n": 2
+        },
+        {
+          "q": "nats-leaf-nodes-api",
+          "n": 2
+        },
+        {
+          "q": "pinwheel",
+          "n": 2
+        },
+        {
+          "q": "ptc-thingworx-events-api",
+          "n": 2
+        },
+        {
+          "q": "rabbitmq-overview-api",
+          "n": 2
+        },
+        {
+          "q": "salesloft-activities-api",
+          "n": 2
+        },
+        {
+          "q": "service consolidation api boundaries",
+          "n": 2
+        },
+        {
+          "q": "service consolidation api reuse",
+          "n": 2
+        },
+        {
+          "q": "storyblok-data-sources-api",
+          "n": 2
+        },
+        {
+          "q": "strapi-content-types-api",
+          "n": 2
+        },
+        {
+          "q": "symphony-events-api",
+          "n": 2
+        },
+        {
+          "q": "symphony-logout-api",
+          "n": 2
+        },
+        {
+          "q": "symphony-message-api",
+          "n": 2
+        },
+        {
+          "q": "symphony-onboarding-api",
+          "n": 2
+        },
+        {
+          "q": "themov",
+          "n": 2
+        },
+        {
+          "q": "thingworx-websocket-api",
+          "n": 2
+        },
+        {
+          "q": "tidb-chat2data-api",
+          "n": 2
+        },
+        {
+          "q": "trackman",
+          "n": 2
+        },
+        {
+          "q": "trello-search-api",
+          "n": 2
+        },
+        {
+          "q": "versioning",
+          "n": 2
+        },
+        {
+          "q": "versioning user data session",
+          "n": 2
+        },
+        {
+          "q": "webex-address-book-api",
+          "n": 2
+        },
+        {
+          "q": "yoodli-multi-org-management-api",
+          "n": 2
+        },
+        {
+          "q": "yoodli-user-group-management-api",
+          "n": 2
+        },
+        {
+          "q": "yugabytedb-allow-lists-api",
+          "n": 2
+        },
+        {
+          "q": "yugabytedb-read-replicas-api",
+          "n": 2
+        },
+        {
+          "q": "yugabytedb-upload-release-packages-api-2",
+          "n": 2
+        },
+        {
+          "q": "100ms-live-room-codes-api",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 18
+        },
+        {
+          "resource": "stats",
+          "n": 18
+        }
+      ],
+      "by_tier": {
+        "free": 27839,
+        "internal": 1218,
+        "site": 3251
+      },
+      "by_surface": {
+        "api": 30600,
+        "mcp": 1709
+      }
     }
   ]
 }
