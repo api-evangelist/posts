@@ -53,6 +53,6 @@ I also added fourteen regulatory-posture checks, at four points each, taking the
 
 ## What is next
 
-The next release is Stockholm, 0.24.0, pinned to October 13th. It is carrying a gap the provenance work exposed: there is no state for an artifact that a script laid down and a person then edited, which is how a lot of real work gets done, including my own. Until that state exists for everyone, my own Spectral ruleset stays graded as derived, the same as anyone else's. The [roadmap](https://github.com/api-evangelist/kin-score/blob/main/ROADMAP.md) has the rest.
+The next release is Stockholm, 0.24.0, pinned to October 13th. It picks up a question the provenance work exposed: what to do with an artifact that a script laid down and a person then edited, which is how a lot of real work gets done, including my own. I decided against inventing a new category for it. If you finished it, mark it as authored with the same markers every provider already has. My own Spectral ruleset gets exactly that marking in Stockholm, and when our own score goes up because of it, the release note will say so. The [roadmap](https://github.com/api-evangelist/kin-score/blob/main/ROADMAP.md) has the rest.
 
 If your score went down, start with provenance. Mark what you published as yours, and the 10% comes back honestly. If you think I got something wrong, the rating page shows you how to correct it, and I read every one.

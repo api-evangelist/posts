@@ -1,0 +1,76 @@
+---
+published: true
+layout: post
+title: 'The Kin Score, Facet By Facet: Contract Governance'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-kin-score-facet-by-facet-contract-governance.png
+date: 2026-10-01
+author: Kin Lane
+tags:
+  - Kin Score
+  - Governance
+  - Spectral
+  - OpenAPI Overlay
+  - Provenance
+  - APIs.io
+  - APIs
+---
+This is part three of nine, one facet of the [Kin Score](https://apis.io/rating/) each business day. Yesterday I covered [Contract Quality](https://apievangelist.com/2026/09/30/the-kin-score-facet-by-facet-contract-quality/), which asks how good your contract is. Today is [Contract Governance](https://apis.io/rating/facets/contract-governance/), which asks whether you have written down what "good" means for that contract, and whether anything holds it there.
+
+It is 12% of the composite: six checks worth 33 points. I have had to correct it more than most, so part of this post is about what it does not measure.
+
+## What it measures
+
+The checks, grouped by what they read:
+
+- **Publishes a ruleset** (10 points). A Spectral ruleset exists. You have written down your API design rules instead of leaving them to whoever happens to review the pull request.
+- **Substantial ruleset** (5 points). Twenty or more rules enforced, counting whatever an `extends:` brings in. Until 0.12 it counted only rules you authored, which punished extending `spectral:oas`, the better engineering choice.
+- **Balanced severities** (3 points). The ruleset uses warn and info, not only error. A ruleset where everything is an error can only refuse. It cannot guide.
+- **Publishes a vocabulary** (5 points). A controlled vocabulary, so your naming is a decision rather than whatever each endpoint's author happened to type.
+- **Declared conformance profile** (6 points). A machine-readable declaration of which standards you conform to, such as FHIR, FAPI, PCI, ISO 20022 or CAMARA, resolving against the standards catalog. It should be data, not a logo on a marketing page.
+- **Publishes an OpenAPI Overlay** (4 points). A repeatable, versioned transformation of your own contract instead of hand-editing it. That is what a spec pipeline looks like from the outside.
+
+## What it does not measure
+
+These checks read what a ruleset **declares**. They are not the result of running it. I never execute Spectral against your spec. Through 0.11 the facet text described lint outcomes, and a provider rightly reported that as a defect. In 0.12 I dropped the two error checks: they read declared severities while promising lint results, and the highest-scoring ruleset was one that could never fail a build. That took the facet from 48 points to 33. Outcome-based linting is a separate kind of artifact and it is not in the rubric yet.
+
+The name changed in 0.12 too. "Governance" never measured how an organization governs itself; a separate accountability layer does that now.
+
+It also holds one line on purpose: **adopting someone else's standard is not governance.** Joining CAMARA, TM Forum or GSMA Open Gateway earns nothing here. Governance is what you do to yourself. The facet credits evidence that you have internalized a standard, such as a declared profile, an overlay or a published ruleset, and never bare membership in a program.
+
+## Where the catalog stands
+
+Across the 27,274 providers scored on 0.23:
+
+- The mean sub-score is **5.7** and the median is **0.0**.
+- **17,593 providers, 64.5%, score exactly zero.**
+- **Six** score 75 or above. None score 100.
+
+[Xquik](https://apis.io/providers/xquik-api/) is one of the handful at the top, with a sub-score of 80.9 and a composite of 88.7. Its page shows 100% authorship marker coverage across its contracts.
+
+It is the thinnest facet in the core rubric, and I think that is honest. Almost nobody publishes a design ruleset, even companies that run one internally.
+
+## Whose ruleset is it
+
+The real complication here is provenance. For much of the catalog, the ruleset in a provider's repository is one my pipeline generated. A provider caught the score reporting that as their governance before I did. The ruleset, vocabulary and conformance checks are now graded by who made the artifact. A ruleset I generated is credited as derived, at a quarter of full credit. Half of the conformance artifacts in the catalog, 1,881 of 3,784, are my readings of a provider's specs, not claims the provider made, and only a first-party declaration earns full credit.
+
+0.16 fixed overlays the same way: every provider earning that check was pointing at a file my enrichment generated. Now it needs an overlay hosted at your own URL.
+
+0.23, the [London release](https://apievangelist.com/2026/09/28/kin-score-0-23-the-london-release/), did not change this facet's checks or points. It did change what an unmarked artifact is worth, from full credit to 0.90, and every provenance-graded check here feels it.
+
+Our own Spectral ruleset for [apis.io](https://apis.io/providers/apis-io/) was generated by a script and then edited by hand. For now it is graded as derived, and apis.io's own sub-score on this facet is 43.9. I considered inventing a new provenance state for work like that and decided against it. In Stockholm (0.24.0) our ruleset gets marked as authored, using the same markers every provider can already put on their own work, and when our score rises because of it, the release note will say so. I will not give myself a category nobody else can use.
+
+## Why it matters going forward
+
+An agent does not read your style guide. It generalizes from the contract. If one operation says `customer_id`, the next `customerId` and a third `client`, the agent guesses, and sometimes wrong. A ruleset and a vocabulary stop that across hundreds of operations. A conformance declaration tells an agent, before it reads a line of your spec, that your resources are FHIR, or that your auth is FAPI. Contract Quality measures what the contract looks like today. This facet asks whether anything keeps it that way.
+
+## What to do
+
+1. **Publish the ruleset you already use.** If you lint in CI, the file exists. Extend `spectral:oas` rather than copying it.
+2. **Use all three severities.** Save error for what should block a merge. Use warn and info for the guidance.
+3. **Mark it as yours.** A `method:` of authored or declared, a `publisher:` and a `source:` that resolves. That gets you the 10% back and separates your work from mine.
+4. **Declare conformance as data.** If you implement FHIR or FAPI, say so in a conformance artifact, not only in a press release.
+5. **Host your overlays.** If you transform your contract with an overlay, publish it at your own URL.
+
+Every check is on the [Contract Governance facet page](https://apis.io/rating/facets/contract-governance/).
+
+Tomorrow: Developer Ergonomics.
