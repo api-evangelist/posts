@@ -77243,13 +77243,6 @@
  },
  {
   "t": "provider",
-  "n": "State Street",
-  "d": "State Street Corporation is one of the world's largest financial services companies, headquartered in Boston, Massachusetts. Founded in 1792, State Street provides investment servicing, investment…",
-  "u": "https://apis.io/providers/state-street/",
-  "g": []
- },
- {
-  "t": "provider",
   "n": "Statorium",
   "d": "Statorium is a sports data API provider delivering live scores, statistics, schedules, standings, and news across 6+ sports including Soccer, American Football, Basketball, Hockey, Volleyball, and…",
   "u": "https://apis.io/providers/statorium/",
