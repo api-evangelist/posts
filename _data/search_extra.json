@@ -67039,17 +67039,6 @@
  },
  {
   "t": "provider",
-  "n": "Outscraper",
-  "d": "Outscraper provides data scraping and extraction APIs for Google Maps, business data, reviews, and other web data sources. Filter and export company databases by NAICS codes and other criteria.",
-  "u": "https://apis.io/providers/outscraper/",
-  "g": [
-   "Business Data",
-   "Data Scraping",
-   "Google Maps"
-  ]
- },
- {
-  "t": "provider",
   "n": "Overture Maps Foundation",
   "d": "The Overture Maps Foundation is a Linux Foundation project created in partnership with Meta, Microsoft, AWS, and TomTom to build reliable, open map data as an alternative to proprietary mapping…",
   "u": "https://apis.io/providers/overture-maps-foundation/",
