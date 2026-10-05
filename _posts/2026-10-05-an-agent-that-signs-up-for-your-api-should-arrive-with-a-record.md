@@ -44,9 +44,9 @@ Afterwards the provider can report back how the agent behaved, always with a sta
 
 ## What is not there yet
 
-I would rather say this plainly than have someone find it. Proof that an agent controls the domain its card is served from is written but not deployed. Key-bound attestations today need an [AAuth](https://datatracker.ietf.org/doc/draft-hardt-oauth-aauth-protocol/) identity, and the only agent provider we accept is the one we run. When we probed 1,486 hosts in August, none of them served AAuth at all. And the API Evangelist agent is in the registry without a record behind it yet, which makes it the obvious first end-to-end test.
+I would rather say this plainly than have someone find it. When I first published this post this morning, proof that an agent controls the domain its card is served from was written but not deployed, and key-bound attestations needed an [AAuth](https://datatracker.ietf.org/doc/draft-hardt-oauth-aauth-protocol/) identity from the only agent provider we accept, which is the one we run. When we probed 1,486 hosts in August, none of them served AAuth at all.
 
-The next step is letting an agent prove itself from its own domain, using the key directory that [Web Bot Auth](https://datatracker.ietf.org/doc/html/draft-meunier-web-bot-auth-architecture) already defines, so it does not have to come through us to be trusted.
+**Update, later the same day:** both of those moved. Domain proof at registration is now live, so a card served by a platform on someone else's behalf only registers once its operator proves control of the domain the card names. And [Web Bot Auth](https://datatracker.ietf.org/doc/html/draft-meunier-web-bot-auth-architecture) now works on the Know Your Agent routes. An agent publishes its public keys at `/.well-known/http-message-signatures-directory` on its own domain, signs its requests, and gets a verified identity and key-bound attestations without going through us. The API Evangelist agent was the first through that door: its record now reads anchored, its domain verified, and linked to [its registry entry](https://apis.io/agents/). It still cannot open an account through that door alone; that remains AAuth's job for now.
 
 ## Why APIs.io
 
