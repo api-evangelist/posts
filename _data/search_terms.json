@@ -9468,6 +9468,839 @@
         "api": 30600,
         "mcp": 1709
       }
+    },
+    {
+      "week_starting": "2026-09-28",
+      "week_ending": "2026-10-04",
+      "fetched_at": "2026-10-05T05:23:07Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 33271,
+      "unique_terms": 6010,
+      "unmet_terms": 4484,
+      "top_queries": [
+        {
+          "q": "test",
+          "n": 37
+        },
+        {
+          "q": "MCP",
+          "n": 13
+        },
+        {
+          "q": "reflection",
+          "n": 7
+        },
+        {
+          "q": "API Governance",
+          "n": 6
+        },
+        {
+          "q": "lifecycle",
+          "n": 6
+        },
+        {
+          "q": "Application Security",
+          "n": 5
+        },
+        {
+          "q": "C",
+          "n": 5
+        },
+        {
+          "q": "Data",
+          "n": 5
+        },
+        {
+          "q": "education learning training",
+          "n": 5
+        },
+        {
+          "q": "governance",
+          "n": 5
+        },
+        {
+          "q": "HIPAA patients health",
+          "n": 5
+        },
+        {
+          "q": "Media",
+          "n": 5
+        },
+        {
+          "q": "Mobile",
+          "n": 5
+        },
+        {
+          "q": "Mobile Operating System",
+          "n": 5
+        },
+        {
+          "q": "Open Banking",
+          "n": 5
+        },
+        {
+          "q": "211",
+          "n": 4
+        },
+        {
+          "q": "3Scale",
+          "n": 4
+        },
+        {
+          "q": "Allegion",
+          "n": 4
+        },
+        {
+          "q": "API Authorization",
+          "n": 4
+        },
+        {
+          "q": "Architecture",
+          "n": 4
+        },
+        {
+          "q": "Best Current Practice",
+          "n": 4
+        },
+        {
+          "q": "Binary Format",
+          "n": 4
+        },
+        {
+          "q": "Central Banking",
+          "n": 4
+        },
+        {
+          "q": "Community",
+          "n": 4
+        },
+        {
+          "q": "compliance regulatory health HIPAA",
+          "n": 4
+        },
+        {
+          "q": "Consulting",
+          "n": 4
+        },
+        {
+          "q": "CSS",
+          "n": 4
+        },
+        {
+          "q": "Data Management",
+          "n": 4
+        },
+        {
+          "q": "Definitions",
+          "n": 4
+        },
+        {
+          "q": "DevOps",
+          "n": 4
+        },
+        {
+          "q": "Diff",
+          "n": 4
+        },
+        {
+          "q": "Editor",
+          "n": 4
+        },
+        {
+          "q": "education",
+          "n": 4
+        },
+        {
+          "q": "Financial",
+          "n": 4
+        },
+        {
+          "q": "Gateways",
+          "n": 4
+        },
+        {
+          "q": "In Memory",
+          "n": 4
+        },
+        {
+          "q": "Infrastructure as Code",
+          "n": 4
+        },
+        {
+          "q": "iPaaS",
+          "n": 4
+        },
+        {
+          "q": "Kong",
+          "n": 4
+        },
+        {
+          "q": "Mass Notification",
+          "n": 4
+        },
+        {
+          "q": "Model Training",
+          "n": 4
+        },
+        {
+          "q": "Protocols",
+          "n": 4
+        },
+        {
+          "q": "Revenue",
+          "n": 4
+        },
+        {
+          "q": "Review",
+          "n": 4
+        },
+        {
+          "q": "Scale",
+          "n": 4
+        },
+        {
+          "q": "Spectral",
+          "n": 4
+        },
+        {
+          "q": "sssnack",
+          "n": 4
+        },
+        {
+          "q": "synthora",
+          "n": 4
+        },
+        {
+          "q": "Travel",
+          "n": 4
+        },
+        {
+          "q": "Twitter",
+          "n": 4
+        },
+        {
+          "q": "versioning",
+          "n": 4
+        },
+        {
+          "q": "VNC",
+          "n": 4
+        },
+        {
+          "q": "Vulnerability Assessment",
+          "n": 4
+        },
+        {
+          "q": "Web",
+          "n": 4
+        },
+        {
+          "q": "\"real page\"",
+          "n": 3
+        },
+        {
+          "q": "3D Development",
+          "n": 3
+        },
+        {
+          "q": "4",
+          "n": 3
+        },
+        {
+          "q": "Add-Ons",
+          "n": 3
+        },
+        {
+          "q": "Adobe",
+          "n": 3
+        },
+        {
+          "q": "Adobe Experience Cloud",
+          "n": 3
+        },
+        {
+          "q": "Advertising Platform",
+          "n": 3
+        },
+        {
+          "q": "Advocacy",
+          "n": 3
+        },
+        {
+          "q": "Agent Onboarding",
+          "n": 3
+        },
+        {
+          "q": "Agent Readiness",
+          "n": 3
+        },
+        {
+          "q": "Agent Skills",
+          "n": 3
+        },
+        {
+          "q": "Algorithms",
+          "n": 3
+        },
+        {
+          "q": "Apache Kafka",
+          "n": 3
+        },
+        {
+          "q": "API Consumption",
+          "n": 3
+        },
+        {
+          "q": "API Economy",
+          "n": 3
+        },
+        {
+          "q": "API Reviews",
+          "n": 3
+        },
+        {
+          "q": "API Specification Update",
+          "n": 3
+        },
+        {
+          "q": "api-snap-browser-api",
+          "n": 3
+        },
+        {
+          "q": "Arazzo",
+          "n": 3
+        },
+        {
+          "q": "Architecture Patterns",
+          "n": 3
+        },
+        {
+          "q": "Asset Management",
+          "n": 3
+        },
+        {
+          "q": "Authorization",
+          "n": 3
+        },
+        {
+          "q": "aws-codebuild-aws-codebuild-api-api",
+          "n": 3
+        },
+        {
+          "q": "Basel Compliance",
+          "n": 3
+        },
+        {
+          "q": "Big Data",
+          "n": 3
+        },
+        {
+          "q": "Browser Compatibility",
+          "n": 3
+        },
+        {
+          "q": "Change Management",
+          "n": 3
+        },
+        {
+          "q": "Client",
+          "n": 3
+        },
+        {
+          "q": "Clinical Trials",
+          "n": 3
+        },
+        {
+          "q": "Cloud IDE",
+          "n": 3
+        },
+        {
+          "q": "CMS",
+          "n": 3
+        },
+        {
+          "q": "Code Quality",
+          "n": 3
+        },
+        {
+          "q": "Command Line",
+          "n": 3
+        },
+        {
+          "q": "Compliance",
+          "n": 3
+        },
+        {
+          "q": "Components",
+          "n": 3
+        },
+        {
+          "q": "Conference",
+          "n": 3
+        },
+        {
+          "q": "Configuration Management",
+          "n": 3
+        },
+        {
+          "q": "Constraints",
+          "n": 3
+        },
+        {
+          "q": "Container Orchestration",
+          "n": 3
+        },
+        {
+          "q": "Container Security",
+          "n": 3
+        },
+        {
+          "q": "Content Management",
+          "n": 3
+        },
+        {
+          "q": "Continuous Integration",
+          "n": 3
+        },
+        {
+          "q": "curl",
+          "n": 3
+        },
+        {
+          "q": "Customer Journey",
+          "n": 3
+        },
+        {
+          "q": "DAG",
+          "n": 3
+        },
+        {
+          "q": "Data Ingestion",
+          "n": 3
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "test",
+          "n": 4
+        },
+        {
+          "q": "aws-codebuild-aws-codebuild-api-api",
+          "n": 3
+        },
+        {
+          "q": "azure-log-analytics-query-api",
+          "n": 3
+        },
+        {
+          "q": "football",
+          "n": 3
+        },
+        {
+          "q": "mist-ai-sites-map-stacks-api",
+          "n": 3
+        },
+        {
+          "q": "1komma5-admin-roles-api",
+          "n": 2
+        },
+        {
+          "q": "4chan-threads-api",
+          "n": 2
+        },
+        {
+          "q": "alpaca-events-api",
+          "n": 2
+        },
+        {
+          "q": "altr-repo-users-api",
+          "n": 2
+        },
+        {
+          "q": "altr-tag-masking-api-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-elastic-beanstalk-updateenvironment-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-glue-x-amz-target-awsglue-createtrigger-api-2",
+          "n": 2
+        },
+        {
+          "q": "amazon-redshift-statement-execution-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-redshift-statement-management-api",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-cameraevent-api",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-communicationtype-api",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-municipalfunctionalid-api",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-payment-api",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-site-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-groups-api",
+          "n": 2
+        },
+        {
+          "q": "apache-software-foundation-members-api",
+          "n": 2
+        },
+        {
+          "q": "basecamp-recordings-api",
+          "n": 2
+        },
+        {
+          "q": "delphix-vdbs-api",
+          "n": 2
+        },
+        {
+          "q": "elastic-observability-agent-config-api",
+          "n": 2
+        },
+        {
+          "q": "elastic-observability-opentelemetry-intake-api",
+          "n": 2
+        },
+        {
+          "q": "imentiv",
+          "n": 2
+        },
+        {
+          "q": "jfrog-experiments-api",
+          "n": 2
+        },
+        {
+          "q": "meesho",
+          "n": 2
+        },
+        {
+          "q": "neo4j-transactions-api",
+          "n": 2
+        },
+        {
+          "q": "phipa",
+          "n": 2
+        },
+        {
+          "q": "ptc-thingworx-properties-api",
+          "n": 2
+        },
+        {
+          "q": "sssnack",
+          "n": 2
+        },
+        {
+          "q": "Trackman",
+          "n": 2
+        },
+        {
+          "q": "unleash-dependencies-api",
+          "n": 2
+        },
+        {
+          "q": "0x-swap-api",
+          "n": 1
+        },
+        {
+          "q": "100ms-live-polls-api",
+          "n": 1
+        },
+        {
+          "q": "100ms-live-stream-keys-api",
+          "n": 1
+        },
+        {
+          "q": "10web-account-api",
+          "n": 1
+        },
+        {
+          "q": "10web-backup-api",
+          "n": 1
+        },
+        {
+          "q": "1fort-application-v2-applications-api",
+          "n": 1
+        },
+        {
+          "q": "1komma5-sites-api",
+          "n": 1
+        },
+        {
+          "q": "323976201",
+          "n": 1
+        },
+        {
+          "q": "343595855",
+          "n": 1
+        },
+        {
+          "q": "3plcentral-items-api",
+          "n": 1
+        },
+        {
+          "q": "3plcentral-stock-summaries-api",
+          "n": 1
+        },
+        {
+          "q": "3plcentral-warehouses-api",
+          "n": 1
+        },
+        {
+          "q": "4chan-indexes-api",
+          "n": 1
+        },
+        {
+          "q": "504118796",
+          "n": 1
+        },
+        {
+          "q": "541077585",
+          "n": 1
+        },
+        {
+          "q": "566886464",
+          "n": 1
+        },
+        {
+          "q": "591924111",
+          "n": 1
+        },
+        {
+          "q": "640548587",
+          "n": 1
+        },
+        {
+          "q": "681755541",
+          "n": 1
+        },
+        {
+          "q": "73-strings-cap-table-api",
+          "n": 1
+        },
+        {
+          "q": "786538585",
+          "n": 1
+        },
+        {
+          "q": "795527461",
+          "n": 1
+        },
+        {
+          "q": "808251395",
+          "n": 1
+        },
+        {
+          "q": "832560911",
+          "n": 1
+        },
+        {
+          "q": "842385747",
+          "n": 1
+        },
+        {
+          "q": "899458930",
+          "n": 1
+        },
+        {
+          "q": "951712178",
+          "n": 1
+        },
+        {
+          "q": "a10-networks-slb-service-group-api",
+          "n": 1
+        },
+        {
+          "q": "a10-networks-slb-virtual-server-api",
+          "n": 1
+        },
+        {
+          "q": "a2-biotherapeutics-mcp-api",
+          "n": 1
+        },
+        {
+          "q": "abacatepay-billing-api",
+          "n": 1
+        },
+        {
+          "q": "abacus-authentication-api",
+          "n": 1
+        },
+        {
+          "q": "abacus-expenses-api",
+          "n": 1
+        },
+        {
+          "q": "abnormal-security-settings-api",
+          "n": 1
+        },
+        {
+          "q": "abortion-policy-api-gestational-limits-api",
+          "n": 1
+        },
+        {
+          "q": "abound-tax-treaties-api",
+          "n": 1
+        },
+        {
+          "q": "absence-io-allowances-api",
+          "n": 1
+        },
+        {
+          "q": "absentify-leave-types-api",
+          "n": 1
+        },
+        {
+          "q": "absentify-requests-api",
+          "n": 1
+        },
+        {
+          "q": "abuseipdb-blacklist-api",
+          "n": 1
+        },
+        {
+          "q": "abuseipdb-reports-api",
+          "n": 1
+        },
+        {
+          "q": "academy-software-foundation-jobs-api",
+          "n": 1
+        },
+        {
+          "q": "academy-software-foundation-layers-api",
+          "n": 1
+        },
+        {
+          "q": "acadia-roles-api",
+          "n": 1
+        },
+        {
+          "q": "accelbyte-leaderboard-api",
+          "n": 1
+        },
+        {
+          "q": "accelbyte-matchmaking-api",
+          "n": 1
+        },
+        {
+          "q": "accelevents-attendees-api",
+          "n": 1
+        },
+        {
+          "q": "accelevents-orders-api",
+          "n": 1
+        },
+        {
+          "q": "accept-escalation-targets-api",
+          "n": 1
+        },
+        {
+          "q": "accept-escalations-api",
+          "n": 1
+        },
+        {
+          "q": "accurate-bg-adjudication-api",
+          "n": 1
+        },
+        {
+          "q": "accurate-bg-candidates-api",
+          "n": 1
+        },
+        {
+          "q": "accurate-bg-reports-api",
+          "n": 1
+        },
+        {
+          "q": "accurate-bg-utility-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-autocomplete-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-current-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-current-conditions-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-daily-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-daily-indices-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-hourly-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-minutecast-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-partner-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-raine-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-resolve-location-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-resolve-location-redirect-api",
+          "n": 1
+        },
+        {
+          "q": "accuweather-staticmap-api",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 11
+        },
+        {
+          "resource": "stats",
+          "n": 9
+        }
+      ],
+      "by_tier": {
+        "free": 27587,
+        "site": 4478,
+        "internal": 1206
+      },
+      "by_surface": {
+        "api": 29336,
+        "mcp": 3935
+      }
     }
   ]
 }
