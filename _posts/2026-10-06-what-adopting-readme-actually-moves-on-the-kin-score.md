@@ -38,13 +38,38 @@ This is the part I think vendors and buyers both need, and it is the part a sale
 
 Three more ReadMe features are good practice the rubric simply does not score yet: Markdown for agents through `Accept: text/markdown` and `.md` twins, the SEP-1649 server card, and the `llms.txt` query affordance. Those are on my list, not ReadMe's.
 
-## What the customers actually show
+## What 122 ReadMe customers actually show
 
-The mapping is a model. The catalog can check it against reality, because the pipeline detects ReadMe customers from CNAMEs, headers, URL shapes and markup, never from a name match. It found 196, of which 122 are in the scored baseline. Against 5,094 comparable providers, ReadMe customers sit at a composite of 48.1 versus 48.0, and an agent readiness of 34.4 versus 32.5. Association, not cause, and almost no association at all on the composite.
+The mapping is a model. The catalog checks it against reality, because the pipeline detects ReadMe customers from CNAMEs, headers, URL shapes and markup, never from a name match. It found 196, of which 122 are in the scored baseline. Against 5,094 comparable providers:
 
-The per-check deltas are where the story is. ReadMe customers are 20.6 points more likely to publish an `llms.txt`, 26.4 points more likely to advertise webhooks, 10 points more likely to expose a console, and three times more likely to serve a `.well-known` API catalog (5.7 percent against 1.7). Those are the features ReadMe turned on for everyone, and they show up.
+- **Composite: 48.1 versus 48.0.** No difference worth the name.
+- **Agent readiness: 34.4 versus 32.5.** A small edge.
 
-And then the surprise: ReadMe customers are 32.6 points *less* likely to earn the documentation check, 33.8 points less likely to earn the API reference check, and 14 points less likely to earn the portal or getting-started checks. Not because the docs are missing. They are there, on ReadMe. It is because most of these are pointer checks: the score reads what a provider declares in its own APIs.json, and providers who hand their portal to a vendor tend to stop describing it themselves. The vendor did the work and the provider never claimed it. That one finding explains most of why the composite barely moves, and it is fixable in an afternoon.
+Association, not cause. But the per-check numbers are where the story is, and they point in two directions at once.
+
+**Where ReadMe customers lead**, on the features ReadMe switched on for everyone:
+
+| Check | ReadMe customers | Everyone else | Gap |
+|---|--:|--:|--:|
+| Publishes `llms.txt` | 85.2% | 64.6% | **+20.6** |
+| Webhooks advertised | 61.9% | 35.5% | **+26.4** |
+| Console or sandbox | 43.0% | 33.0% | **+10.0** |
+| Serves a `.well-known` API catalog | 5.7% | 1.7% | **+4.0** |
+| Support channel | 74.2% | 68.9% | **+5.3** |
+
+**Where ReadMe customers trail**, on the basics every developer portal exists to provide:
+
+| Check | ReadMe customers | Everyone else | Gap |
+|---|--:|--:|--:|
+| Documentation | 63.1% | 95.7% | **−32.6** |
+| API reference | 61.1% | 94.9% | **−33.8** |
+| Developer portal | 49.6% | 63.6% | **−14.0** |
+| Getting started guide | 50.0% | 64.0% | **−14.0** |
+| Published example corpus | 4.9% | 12.9% | **−8.0** |
+
+Read that second table again. ReadMe customers are a third less likely to get credit for documentation and an API reference. Not because the docs are missing. They are there, on ReadMe, and they are usually good. **It is because these are pointer checks: the score reads what a provider declares in its own APIs.json, and providers who hand their portal to a vendor tend to stop describing it themselves. The vendor did the work, and the provider never claimed it.**
+
+That single finding explains most of why the composite barely moves for ReadMe customers. The lift on the left is real and the gap on the right is self-inflicted, and the gap is bigger. It is also the cheapest fix in this whole post: declare the portal, the reference, the getting-started page and the recipes as pointers in your own index, and the points you already earned show up.
 
 ## What it would move if everyone adopted it
 
