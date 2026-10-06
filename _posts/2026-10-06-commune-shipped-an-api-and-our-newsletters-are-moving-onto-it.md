@@ -14,7 +14,7 @@ tags:
   - Webhooks
   - APIs
 ---
-We moved every API Evangelist and APIs.io newsletter onto [Commune](https://usecommune.com) back in August. I picked it because Fran Méndez built it, and Fran created AsyncAPI and ran engineering at Postman, so I trusted that the platform would eventually speak API. At the time it did not. The API was a design preview, and every send was me, by hand: the pipeline rendered a send-ready issue, and I pasted it in. This morning Fran's own newsletter went out announcing that the API, an MCP server, and a developer portal at [usecommune.dev](https://usecommune.dev/) are live. I spent the morning reading the contract, and we are going to build our newsletter workflow on it.
+We moved every API Evangelist and APIs.io newsletter onto [Commune](https://usecommune.com) back in August. I picked it because Fran Méndez built it, and Fran created AsyncAPI and ran engineering at Postman for me, so I trusted that the platform would eventually speak API. At the time it did not. The API was a design preview, and every send was me, by hand: the pipeline rendered a send-ready issue, and I pasted it in. This morning Fran's own newsletter went out announcing that the API, an MCP server, and a developer portal at [usecommune.dev](https://usecommune.dev/) are live. I spent the morning reading the contract, and we are going to build our newsletter workflow on it.
 
 ## What shipped
 
