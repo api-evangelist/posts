@@ -60,7 +60,7 @@ Before getting to 3.2, here is the whole picture. Reading means the product acce
 | OpenAPI 3.1 | 23 | 17 | 40 |
 | OpenAPI 3.2 | 10 | 26 | 36 |
 
-A few things stand out to me. OpenAPI 3.0 is the one version nearly everything reads: 91 of 95. Swagger 2.0 is still read by 74 of them, more than read 3.1, so the long tail I found on the provider side is fully supported on the tooling side. Among hosted vendors, 3.1 is where most of them top out. 23 of 45 read nothing newer, and another 11 stop at 3.0. On the writing side, 3.0 is still the most common version put out, and that is the number that keeps providers where they are.
+A few things stand out to me. OpenAPI 3.0 is the one version nearly everything reads: 91 of 95. Swagger 2.0 is still read by 74 of them, almost as many as read 3.1, so the long tail I found on the provider side is well supported on the tooling side. Among hosted vendors, 3.1 is where most of them top out. 23 of 45 read nothing newer, and another 11 stop at 3.0. On the writing side, 3.0 is still the most common version put out, and that is the number that keeps providers where they are.
 
 The 3.2 rows count anything that accepts a 3.2 document, including the products that accept it and drop the new parts. I break that down next. The evidence was recorded at this level, 2.0, 3.0, 3.1 and 3.2, so I am not reporting patch versions like 3.1.0 against 3.1.1 for the tooling the way I did for providers.
 
