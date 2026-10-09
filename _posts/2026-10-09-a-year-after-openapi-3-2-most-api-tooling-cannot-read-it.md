@@ -29,6 +29,41 @@ There were two ways in.
 
 Two rules kept me honest. A tool only "accepted" a document if the operation in it actually showed up in what the tool produced, because exiting cleanly is not the same as understanding. And a docs page that lists 2.0, 3.0 and 3.1 and says nothing about 3.2 counts as **unknown**, not unsupported.
 
+## Version by version
+
+Before getting to 3.2, here is the whole picture. Reading means the product accepts that version as input: it imports it, renders it, lints it or generates from it. Writing means the product puts out a document at that version: an export, a conversion, or what a framework generates from your code. Each count is out of the products where I could establish the versions at all.
+
+**Who reads each version**
+
+| Version | Hosted vendors (45) | Open-source tools (48) | All (95) |
+|---|---|---|---|
+| Swagger 2.0 | 29 | 43 | 74 |
+| OpenAPI 3.0 | 43 | 46 | 91 |
+| OpenAPI 3.1 | 33 | 43 | 76 |
+| OpenAPI 3.2 | 10 | 26 | 36 |
+
+**Who writes each version**
+
+| Version | Hosted vendors (20) | Open-source tools (7) | Frameworks (26) | All (53) |
+|---|---|---|---|---|
+| Swagger 2.0 | 8 | 1 | 8 | 17 |
+| OpenAPI 3.0 | 16 | 6 | 18 | 40 |
+| OpenAPI 3.1 | 10 | 3 | 20 | 33 |
+| OpenAPI 3.2 | 4 | 2 | 8 | 14 |
+
+**The newest version each product reads**
+
+| Newest version read | Hosted vendors | Open-source tools | All |
+|---|---|---|---|
+| Swagger 2.0 | 1 | 2 | 3 |
+| OpenAPI 3.0 | 11 | 3 | 16 |
+| OpenAPI 3.1 | 23 | 17 | 40 |
+| OpenAPI 3.2 | 10 | 26 | 36 |
+
+A few things stand out to me. OpenAPI 3.0 is the one version nearly everything reads: 91 of 95. Swagger 2.0 is still read by 74 of them, more than read 3.1, so the long tail I found on the provider side is fully supported on the tooling side. Among hosted vendors, 3.1 is where most of them top out. 23 of 45 read nothing newer, and another 11 stop at 3.0. On the writing side, 3.0 is still the most common version put out, and that is the number that keeps providers where they are.
+
+The 3.2 rows count anything that accepts a 3.2 document, including the products that accept it and drop the new parts. I break that down next. The evidence was recorded at this level, 2.0, 3.0, 3.1 and 3.2, so I am not reporting patch versions like 3.1.0 against 3.1.1 for the tooling the way I did for providers.
+
 ## OpenAPI 3.2, one year in
 
 OpenAPI 3.2 was released on September 19, 2025. Here is where the tooling is, a year later.
