@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'fx Is A Coding Agent That Tells You Which Parts Of MCP It Does Not Do'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/fx-is-a-coding-agent-that-tells-you-which-parts-of-mcp-it-does-not-do.png
-date: 2026-10-20
+date: 2026-10-13
 author: Kin Lane
 tags:
   - Model Context Protocol
