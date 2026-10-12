@@ -10301,6 +10301,839 @@
         "api": 29336,
         "mcp": 3935
       }
+    },
+    {
+      "week_starting": "2026-10-05",
+      "week_ending": "2026-10-11",
+      "fetched_at": "2026-10-12T12:44:23Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 34691,
+      "unique_terms": 5298,
+      "unmet_terms": 4281,
+      "top_queries": [
+        {
+          "q": "example",
+          "n": 39
+        },
+        {
+          "q": "test",
+          "n": 25
+        },
+        {
+          "q": "mcp",
+          "n": 21
+        },
+        {
+          "q": "graphql",
+          "n": 10
+        },
+        {
+          "q": "reflection",
+          "n": 10
+        },
+        {
+          "q": "code-first",
+          "n": 8
+        },
+        {
+          "q": "Consulting",
+          "n": 8
+        },
+        {
+          "q": "OSGi",
+          "n": 8
+        },
+        {
+          "q": "Change Management",
+          "n": 7
+        },
+        {
+          "q": "NoSQL",
+          "n": 7
+        },
+        {
+          "q": "note",
+          "n": 7
+        },
+        {
+          "q": "observation",
+          "n": 7
+        },
+        {
+          "q": "RBAC",
+          "n": 7
+        },
+        {
+          "q": "Neurophysiologist",
+          "n": 6
+        },
+        {
+          "q": "openapi",
+          "n": 6
+        },
+        {
+          "q": "Allegion",
+          "n": 5
+        },
+        {
+          "q": "API Authorization",
+          "n": 5
+        },
+        {
+          "q": "Best Current Practice",
+          "n": 5
+        },
+        {
+          "q": "C",
+          "n": 5
+        },
+        {
+          "q": "Data Subject Rights",
+          "n": 5
+        },
+        {
+          "q": "gRPC",
+          "n": 5
+        },
+        {
+          "q": "Policy Enforcement",
+          "n": 5
+        },
+        {
+          "q": "summary",
+          "n": 5
+        },
+        {
+          "q": "Template Engine",
+          "n": 5
+        },
+        {
+          "q": "APIs",
+          "n": 4
+        },
+        {
+          "q": "beatport",
+          "n": 4
+        },
+        {
+          "q": "compliance regulatory health HIPAA",
+          "n": 4
+        },
+        {
+          "q": "education learning training",
+          "n": 4
+        },
+        {
+          "q": "Email Server",
+          "n": 4
+        },
+        {
+          "q": "engineering-platform-github-v3-rest-api-api",
+          "n": 4
+        },
+        {
+          "q": "HIPAA patients health",
+          "n": 4
+        },
+        {
+          "q": "Identifier",
+          "n": 4
+        },
+        {
+          "q": "Insurance",
+          "n": 4
+        },
+        {
+          "q": "Kin Score",
+          "n": 4
+        },
+        {
+          "q": "versioning",
+          "n": 4
+        },
+        {
+          "q": "99designs-orders-api",
+          "n": 3
+        },
+        {
+          "q": "agents",
+          "n": 3
+        },
+        {
+          "q": "ai21-labs-chat-completions-api",
+          "n": 3
+        },
+        {
+          "q": "API Governance",
+          "n": 3
+        },
+        {
+          "q": "apiclaw-mcp-api",
+          "n": 3
+        },
+        {
+          "q": "Application Security",
+          "n": 3
+        },
+        {
+          "q": "Backend",
+          "n": 3
+        },
+        {
+          "q": "C#",
+          "n": 3
+        },
+        {
+          "q": "Central Banking",
+          "n": 3
+        },
+        {
+          "q": "Cloud Cost",
+          "n": 3
+        },
+        {
+          "q": "Code Generation",
+          "n": 3
+        },
+        {
+          "q": "Code Quality",
+          "n": 3
+        },
+        {
+          "q": "Crypto",
+          "n": 3
+        },
+        {
+          "q": "Data Ownership",
+          "n": 3
+        },
+        {
+          "q": "Datasets",
+          "n": 3
+        },
+        {
+          "q": "Diet",
+          "n": 3
+        },
+        {
+          "q": "education",
+          "n": 3
+        },
+        {
+          "q": "Evanglism",
+          "n": 3
+        },
+        {
+          "q": "Financial",
+          "n": 3
+        },
+        {
+          "q": "Fortune 100",
+          "n": 3
+        },
+        {
+          "q": "gateway",
+          "n": 3
+        },
+        {
+          "q": "Geographic",
+          "n": 3
+        },
+        {
+          "q": "Hergert Synthora",
+          "n": 3
+        },
+        {
+          "q": "Hotel Images",
+          "n": 3
+        },
+        {
+          "q": "Intellectual Property",
+          "n": 3
+        },
+        {
+          "q": "iOS",
+          "n": 3
+        },
+        {
+          "q": "iPaaS",
+          "n": 3
+        },
+        {
+          "q": "Load Balancing",
+          "n": 3
+        },
+        {
+          "q": "Location Sharing",
+          "n": 3
+        },
+        {
+          "q": "Mass Notification",
+          "n": 3
+        },
+        {
+          "q": "Mobile Operating System",
+          "n": 3
+        },
+        {
+          "q": "OpenAPI Initiative",
+          "n": 3
+        },
+        {
+          "q": "Policies",
+          "n": 3
+        },
+        {
+          "q": "Policy Management",
+          "n": 3
+        },
+        {
+          "q": "powerschool",
+          "n": 3
+        },
+        {
+          "q": "Query Optimization",
+          "n": 3
+        },
+        {
+          "q": "Security Policy Management",
+          "n": 3
+        },
+        {
+          "q": "Speed",
+          "n": 3
+        },
+        {
+          "q": "Square",
+          "n": 3
+        },
+        {
+          "q": "Survey Tools",
+          "n": 3
+        },
+        {
+          "q": "UDFs",
+          "n": 3
+        },
+        {
+          "q": "Value Exchange",
+          "n": 3
+        },
+        {
+          "q": "Vault",
+          "n": 3
+        },
+        {
+          "q": "version",
+          "n": 3
+        },
+        {
+          "q": "Workflow Scheduler",
+          "n": 3
+        },
+        {
+          "q": "0901.21.00",
+          "n": 2
+        },
+        {
+          "q": "211",
+          "n": 2
+        },
+        {
+          "q": "3rd-Party",
+          "n": 2
+        },
+        {
+          "q": "6109.10.00",
+          "n": 2
+        },
+        {
+          "q": "AAuth agent authorization Solo.io",
+          "n": 2
+        },
+        {
+          "q": "ACH",
+          "n": 2
+        },
+        {
+          "q": "agent commerce paid work bounties marketplaces",
+          "n": 2
+        },
+        {
+          "q": "Agentic APIs",
+          "n": 2
+        },
+        {
+          "q": "AI Agents",
+          "n": 2
+        },
+        {
+          "q": "AI Governance",
+          "n": 2
+        },
+        {
+          "q": "air",
+          "n": 2
+        },
+        {
+          "q": "AMC",
+          "n": 2
+        },
+        {
+          "q": "AMC Entertainment",
+          "n": 2
+        },
+        {
+          "q": "AMC theatres orders payment vendor key",
+          "n": 2
+        },
+        {
+          "q": "amctheatres",
+          "n": 2
+        },
+        {
+          "q": "Ansible",
+          "n": 2
+        },
+        {
+          "q": "anthropic",
+          "n": 2
+        },
+        {
+          "q": "API Economy",
+          "n": 2
+        },
+        {
+          "q": "api-market-user-api",
+          "n": 2
+        },
+        {
+          "q": "apiclaw-debug-api",
+          "n": 2
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "example",
+          "n": 12
+        },
+        {
+          "q": "test",
+          "n": 10
+        },
+        {
+          "q": "beatport",
+          "n": 4
+        },
+        {
+          "q": "engineering-platform-github-v3-rest-api-api",
+          "n": 4
+        },
+        {
+          "q": "ai21-labs-chat-completions-api",
+          "n": 3
+        },
+        {
+          "q": "apiclaw-mcp-api",
+          "n": 3
+        },
+        {
+          "q": "Hergert Synthora",
+          "n": 3
+        },
+        {
+          "q": "powerschool",
+          "n": 3
+        },
+        {
+          "q": "apiclaw-debug-api",
+          "n": 2
+        },
+        {
+          "q": "apiclaw-google-genai-endpoints-api",
+          "n": 2
+        },
+        {
+          "q": "apiclaw-jwt-mappings-api",
+          "n": 2
+        },
+        {
+          "q": "apiclaw-llm-utils-api",
+          "n": 2
+        },
+        {
+          "q": "apiclaw-tag-management-api",
+          "n": 2
+        },
+        {
+          "q": "apiclaw-toolset-api",
+          "n": 2
+        },
+        {
+          "q": "apiclaw-workflow-management-api",
+          "n": 2
+        },
+        {
+          "q": "apiverve-text-processing-api",
+          "n": 2
+        },
+        {
+          "q": "aws-glue-aws-glue-x-amz-target-awsglue-getschema-api-api",
+          "n": 2
+        },
+        {
+          "q": "basecamp-schedules-api",
+          "n": 2
+        },
+        {
+          "q": "beatpo",
+          "n": 2
+        },
+        {
+          "q": "CBRNE",
+          "n": 2
+        },
+        {
+          "q": "deepgram-usage-api",
+          "n": 2
+        },
+        {
+          "q": "e2b-dev-snapshots-api",
+          "n": 2
+        },
+        {
+          "q": "engineering-platform-notification-web-hooks-api",
+          "n": 2
+        },
+        {
+          "q": "flagsmith-admin-dashboard-api",
+          "n": 2
+        },
+        {
+          "q": "flagsmith-audit-api",
+          "n": 2
+        },
+        {
+          "q": "getaiscan-app-agent-api",
+          "n": 2
+        },
+        {
+          "q": "guazi",
+          "n": 2
+        },
+        {
+          "q": "haystack-ai-config-api",
+          "n": 2
+        },
+        {
+          "q": "haystack-ai-dashboard-api",
+          "n": 2
+        },
+        {
+          "q": "Hergert Syn",
+          "n": 2
+        },
+        {
+          "q": "Hergert Synth",
+          "n": 2
+        },
+        {
+          "q": "hex-pm-index-api",
+          "n": 2
+        },
+        {
+          "q": "heyform-auth-api",
+          "n": 2
+        },
+        {
+          "q": "highlevel-shipping-zone-api",
+          "n": 2
+        },
+        {
+          "q": "microsoft-azure-data-factory-triggerruns-api",
+          "n": 2
+        },
+        {
+          "q": "microsoft-nuget-registration5-gz-semver2-api",
+          "n": 2
+        },
+        {
+          "q": "mist-ai-orgs-stats-other-devices-api",
+          "n": 2
+        },
+        {
+          "q": "partnerize-campaign-group-campaigns-api",
+          "n": 2
+        },
+        {
+          "q": "skello",
+          "n": 2
+        },
+        {
+          "q": "tiktok-research-comments-api",
+          "n": 2
+        },
+        {
+          "q": ",",
+          "n": 1
+        },
+        {
+          "q": "-",
+          "n": 1
+        },
+        {
+          "q": "01mind-net-charon-api",
+          "n": 1
+        },
+        {
+          "q": "01mind-net-sandbox-api",
+          "n": 1
+        },
+        {
+          "q": "01mind-net-tool-requests-api",
+          "n": 1
+        },
+        {
+          "q": "0901.21.00",
+          "n": 1
+        },
+        {
+          "q": "0xarchive-hip-3-builder-perps-oracle-api",
+          "n": 1
+        },
+        {
+          "q": "0xarchive-hip-4-outcomes-instruments-api",
+          "n": 1
+        },
+        {
+          "q": "0xarchive-hip-4-outcomes-trades-api",
+          "n": 1
+        },
+        {
+          "q": "0xarchive-hyperliquid-convenience-api",
+          "n": 1
+        },
+        {
+          "q": "0xarchive-hyperliquid-funding-api",
+          "n": 1
+        },
+        {
+          "q": "0xarchive-hyperliquid-liquidations-api",
+          "n": 1
+        },
+        {
+          "q": "0xarchive-hyperliquid-order-book-api",
+          "n": 1
+        },
+        {
+          "q": "0xarchive-hyperliquid-spot-order-book-api",
+          "n": 1
+        },
+        {
+          "q": "0xarchive-lighter-instruments-api",
+          "n": 1
+        },
+        {
+          "q": "0xarchive-lighter-trades-api",
+          "n": 1
+        },
+        {
+          "q": "10web-wp-autologin-api",
+          "n": 1
+        },
+        {
+          "q": "123formbuilder-groups-api",
+          "n": 1
+        },
+        {
+          "q": "123formbuilder-users-api",
+          "n": 1
+        },
+        {
+          "q": "1fort-application-applications-api",
+          "n": 1
+        },
+        {
+          "q": "1fort-email-ai-v2-coverage-types-api",
+          "n": 1
+        },
+        {
+          "q": "1komma5-pdf-api",
+          "n": 1
+        },
+        {
+          "q": "1password-sign-in-attempts-api",
+          "n": 1
+        },
+        {
+          "q": "292556300",
+          "n": 1
+        },
+        {
+          "q": "2s-io-ai-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-bank-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-business-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-chem-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-climate-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-clinical-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-convert-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-countdown-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-country-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-crypto-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-dev-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-energy-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-feedback-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-finance-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-fx-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-lock-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-maritime-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-net-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-news-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-nonprofit-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-patents-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-property-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-pubsub-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-sunrise-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-tld-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-watchers-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-water-api",
+          "n": 1
+        },
+        {
+          "q": "30mhz-agent-api",
+          "n": 1
+        },
+        {
+          "q": "30mhz-app-api",
+          "n": 1
+        },
+        {
+          "q": "30mhz-app-cultiwatch-api",
+          "n": 1
+        },
+        {
+          "q": "30mhz-billing-history-api",
+          "n": 1
+        },
+        {
+          "q": "30mhz-billing-history-details-api",
+          "n": 1
+        },
+        {
+          "q": "30mhz-calculation-api",
+          "n": 1
+        },
+        {
+          "q": "30mhz-chart-api",
+          "n": 1
+        },
+        {
+          "q": "30mhz-check-update-api",
+          "n": 1
+        },
+        {
+          "q": "30mhz-currency-rates-api",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "stats",
+          "n": 31
+        },
+        {
+          "resource": "guide",
+          "n": 15
+        }
+      ],
+      "by_tier": {
+        "free": 30674,
+        "internal": 1443,
+        "site": 2574
+      },
+      "by_surface": {
+        "api": 32830,
+        "mcp": 1861
+      }
     }
   ]
 }
