@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: 'Sixty-Four Talks In Stockholm, And The Agenda Agrees With My Keynote'
+title: 'Sixty-Four Talks In Stockholm, And The Agenda Aligns With My Keynote'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/sixty-four-talks-in-stockholm-and-the-agenda-agrees-with-my-keynote.png
 date: 2026-10-12
 author: Kin Lane
