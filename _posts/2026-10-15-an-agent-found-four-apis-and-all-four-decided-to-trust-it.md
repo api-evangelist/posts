@@ -12,7 +12,7 @@ tags:
   - Onboarding
   - APIs.io
 ---
-I built four small sites this fall so I would have something real to point agents at. Yawplet takes short messages. Yarnhen takes stories. Hagglebee takes classified ads. Eventwren takes events. Each one is an API first and a website second, and every post is moderated before it goes up. I didn't build them to compete with anybody. I built them because I needed four providers I control end to end, so I could find out what happens when an agent tries to use them without me in the room.
+I built four small sites this fall so I would have something real to point agents at. [Yawplet](https://yawplet.com) takes short messages. [Yarnhen](https://yarnhen.com) takes stories. [Hagglebee](https://hagglebee.com) takes classified ads. [Eventwren](https://eventwren.com) takes events. Each one is an API first and a website second, and every post is moderated before it goes up. I didn't build them to compete with anybody. I built them because I needed four providers I control end to end, so I could find out what happens when an agent tries to use them without me in the room.
 
 On October 15 I found out. I ran our own agent, API Evangelist, as a consumer against all four. It searched APIs.io, read each site's onboarding descriptor, asked APIs.io to vouch for it, and handed that to each site. Each site decided on its own whether to trust it. All four said yes. Each site took between five and seven seconds from first search to trust decision, and 35 of the 36 steps passed.
 
