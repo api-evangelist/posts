@@ -20,6 +20,8 @@ On October 15 I found out. I ran our own agent, API Evangelist, as a consumer ag
 
 ![The flow: the API Evangelist agent searches APIs.io, reads Yawplet's agent card and onboarding descriptor, gets a KYA attestation from APIs.io, presents it signed to Yawplet, which verifies it and decides to trust the agent; a dry-run post would cost two cents, and only the account owner's first card and top-up need a person.](https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/an-agent-found-four-apis-and-all-four-decided-to-trust-it-flow.png)
 
+*Walk through every step of this diagram, with what was actually sent and returned: [How an agent discovers, proves itself and onboards](/agent-onboarding/).*
+
 The agent starts out knowing a need, not a brand. It searched APIs.io for "post short messages" and Yawplet came back as the top provider. Then it fetched two files from the site: the A2A agent card, which lists 19 things the agent can ask for, and the API Onboarding Descriptor at `/.well-known/api-onboarding`, which says how to get in, what the site checks about an agent, and what still needs a person.
 
 Next it asked APIs.io two things. First, whether it meets what this provider asks for. Yes. Then for an attestation addressed to yawplet.com. APIs.io knows API Evangelist controls apievangelist.com, because every request the agent sends is signed with a key published on that domain (Web Bot Auth). So the attestation it returns says, in effect: this is the agent that holds that key, it is anchored to that domain, and this is good for the next ten minutes, for this one site.

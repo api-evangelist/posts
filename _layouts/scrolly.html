@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  {% include ai-banner.html %}
+
+  {% include topnav.html %}
+
+  <!-- Full-width story layout: no sidebar, no ad slots. The page owns the whole column. -->
+  <main class="scrolly-main">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+  {% include webmcp.html %}
+
+</body>
+
+</html>

@@ -1,0 +1,332 @@
+---
+layout: scrolly
+section: Discovery
+title: How An Agent Discovers, Proves Itself And Onboards
+summary: A step-by-step walk through the flow an AI agent follows to find an API on APIs.io, prove who it is with a Know Your Agent attestation, and get a provider to decide on its own to trust it — and the one step that still needs a person.
+nav: Discovery
+sub: Agent Onboarding
+permalink: /agent-onboarding/
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/an-agent-found-four-apis-and-all-four-decided-to-trust-it.png
+---
+<style>
+  /* Layout: an intro, then a two-column scroll story — step cards on the left, a pinned sequence
+     diagram on the right that lights each arrow and follows it. On phones the diagram pins to the
+     top third and the cards scroll beneath it. */
+  .scrolly-main {
+    --ink: #111111; --paper: #ffffff; --soft: #f5f7fa; --rule: #dde3ea; --muted: #5b6876;
+    --gold: #F5B74E; --blue: #38A1DD; --red: #EB1C37; --agent: #1f7fc0; --dir: #b8860b; --site: #0f8a6a; --human: #d4472a;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    background: var(--paper); color: var(--ink);
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-bs-theme="light"]) .scrolly-main {
+    --ink: #e8edf2; --paper: #0e1318; --soft: #151c23; --rule: #26313b; --muted: #9aa8b5;
+    --agent: #5bb2ec; --dir: #e3b23c; --site: #3cc79f; --human: #f07a5f; } }
+  [data-bs-theme="dark"] .scrolly-main {
+    --ink: #e8edf2; --paper: #0e1318; --soft: #151c23; --rule: #26313b; --muted: #9aa8b5;
+    --agent: #5bb2ec; --dir: #e3b23c; --site: #3cc79f; --human: #f07a5f; }
+
+  .sx-wrap { max-width: 1240px; margin: 0 auto; padding-inline: 20px; }
+  .sx-intro { padding-block: 56px 32px; max-width: 760px; }
+  .sx-wrap, .sx-story > *, .sx-step, .sx-intro { min-width: 0; }
+  .sx-eyebrow { overflow-wrap: anywhere; }
+  .sx-eyebrow { font: 600 .75rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .sx-intro h1 { font-size: clamp(2rem, 4.6vw, 3.1rem); font-weight: 700; line-height: 1.1; margin: 14px 0 18px; text-wrap: balance; }
+  .sx-intro p { font-size: 1.12rem; line-height: 1.65; color: var(--ink); }
+  .sx-cast { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 22px; font-size: .95rem; }
+  .sx-cast span { display: inline-flex; align-items: center; gap: 8px; }
+  .sx-cast i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+
+  .sx-story { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 48px; align-items: start; padding-bottom: 80px; }
+  .sx-steps { display: grid; gap: 0; }
+  .sx-phase { font: 700 .72rem/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); padding: 40px 0 6px; border-top: 1px solid var(--rule); }
+  .sx-phase:first-child { border-top: 0; padding-top: 8px; }
+  .sx-step { min-height: 62vh; padding: 22px 0 40px; opacity: .38; transition: opacity .35s ease; }
+  .sx-step.is-active { opacity: 1; }
+  .sx-step h2 { font-size: 1.45rem; font-weight: 700; line-height: 1.25; margin: 8px 0 10px; text-wrap: balance; }
+  .sx-num { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; border-radius: 50%; background: var(--ink); color: var(--paper); font: 700 .85rem var(--mono); }
+  .sx-who { font: 600 .8rem var(--mono); color: var(--muted); margin-left: 10px; }
+  .sx-step p { font-size: 1.03rem; line-height: 1.65; margin: 0 0 12px; }
+  .sx-why { border-left: 3px solid var(--gold); padding: 2px 0 2px 14px; color: var(--ink); }
+  .sx-step pre { background: var(--soft); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; font: .8rem/1.55 var(--mono); color: var(--ink); white-space: pre-wrap; word-break: break-word; margin: 12px 0 0; }
+  .sx-tag { display: inline-block; font: 600 .72rem var(--mono); padding: 2px 8px; border-radius: 99px; border: 1px solid currentColor; margin-right: 6px; }
+  .sx-tag.human { color: var(--human); } .sx-tag.machine { color: var(--site); }
+
+  .sx-pin { position: sticky; top: 88px; height: calc(100vh - 120px); border: 1px solid var(--rule); border-radius: 10px; background: var(--paper); overflow: hidden; }
+  .sx-pin svg { position: absolute; left: 0; top: 0; width: 100%; height: auto; transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+  @media (prefers-reduced-motion: reduce) { .sx-pin svg, .sx-step { transition: none; } }
+  .sx-pin .lbl { font: 600 13px var(--mono); fill: var(--muted); }
+  .sx-pin .actor-box { fill: var(--soft); stroke: var(--rule); stroke-width: 1.5; }
+  .sx-pin .actor-name { font: 700 15px system-ui, -apple-system, "Inter", sans-serif; fill: var(--ink); }
+  .sx-pin .life { stroke-width: 2; stroke-dasharray: 2 6; stroke-linecap: round; }
+  .sx-pin .msg line { stroke: var(--rule); stroke-width: 2.5; }
+  .sx-pin .msg text { fill: var(--muted); font: 13px system-ui, -apple-system, "Inter", sans-serif; paint-order: stroke; stroke: var(--paper); stroke-width: 5px; stroke-linejoin: round; }
+  .sx-pin .msg .badge-t { stroke: none; }
+  .sx-pin .msg .badge-c { fill: var(--rule); }
+  .sx-pin .msg .badge-t { fill: var(--muted); font: 700 11px var(--mono); }
+  .sx-pin .msg.done line { stroke: color-mix(in srgb, var(--ink) 35%, var(--paper)); }
+  .sx-pin .msg.done text { fill: var(--ink); }
+  .sx-pin .msg.on line { stroke: var(--c); stroke-width: 4; }
+  .sx-pin .msg.on text { fill: var(--ink); font-weight: 700; }
+  .sx-pin .msg.on .badge-c { fill: var(--c); }
+  .sx-pin .msg.on .badge-t, .sx-pin .msg.done .badge-t { fill: #fff; }
+  .sx-pin .msg.done .badge-c { fill: color-mix(in srgb, var(--ink) 45%, var(--paper)); }
+  .sx-pin .note rect { fill: color-mix(in srgb, var(--gold) 28%, var(--paper)); stroke: var(--gold); }
+  .sx-pin .note text { fill: var(--ink); font: 600 13px system-ui, -apple-system, sans-serif; }
+  .sx-pin .msg.on .head { fill: var(--c); } .sx-pin .msg .head { fill: var(--rule); }
+  .sx-pin .msg.done .head { fill: color-mix(in srgb, var(--ink) 35%, var(--paper)); }
+
+  .sx-outro { max-width: 760px; padding-block: 24px 72px; }
+  .sx-outro h2 { font-size: 1.7rem; font-weight: 700; margin: 34px 0 12px; }
+  .sx-outro p, .sx-outro li { font-size: 1.05rem; line-height: 1.65; }
+  .sx-outro a, .sx-step a, .sx-intro a { color: var(--agent); }
+
+  @media (max-width: 900px) {
+    .sx-story { grid-template-columns: minmax(0, 1fr); gap: 0; }
+    .sx-pin { order: -1; top: 56px; height: 38vh; z-index: 5; margin: 0 -20px; border-radius: 0; border-inline: 0; }
+    .sx-step { min-height: 70vh; }
+  }
+</style>
+
+<div class="sx-wrap">
+  <section class="sx-intro">
+    <p class="sx-eyebrow">Agentic discovery and onboarding · walked through, step by step</p>
+    <h1>How an agent finds an API, proves who it is, and gets trusted</h1>
+    <p>On October 15, 2026 I ran our own agent, API Evangelist, against four small APIs I operate: <a href="https://yawplet.com">Yawplet</a>, <a href="https://yarnhen.com">Yarnhen</a>, <a href="https://hagglebee.com">Hagglebee</a> and <a href="https://eventwren.com">Eventwren</a>. It found each one on APIs.io, proved who it was, and each site decided on its own to trust it — in under seven seconds per site. This page walks through that flow one step at a time, with what was actually sent and returned, using Yawplet as the example. Scroll, and the diagram follows.</p>
+    <div class="sx-cast" aria-label="Who is in the diagram">
+      <span><i style="background:var(--agent)"></i>API Evangelist, the consumer agent</span>
+      <span><i style="background:var(--dir)"></i>APIs.io, the directory</span>
+      <span><i style="background:var(--site)"></i>yawplet.com, the provider</span>
+      <span><i style="background:var(--human)"></i>the account owner, a person</span>
+    </div>
+  </section>
+
+  <section class="sx-story">
+    <div class="sx-steps" id="sx-steps">
+
+      <div class="sx-phase">Discover</div>
+      <article class="sx-step" data-step="1">
+        <span class="sx-num">1</span><span class="sx-who">agent → APIs.io</span>
+        <h2>The agent searches for a need, not a brand</h2>
+        <p>An agent usually arrives knowing what it wants to do, not which company does it. So the first call is a plain keyless search of the APIs.io catalog for "post short messages". No account, no key.</p>
+        <pre>GET https://apis.io/api/v1/search?q=post+short+messages</pre>
+        <p class="sx-why">Discovery has to work by need. In the first run it mostly did for providers and not at all for their APIs, which is why the API descriptions were rewritten and search was changed the same day.</p>
+      </article>
+      <article class="sx-step" data-step="2">
+        <span class="sx-num">2</span><span class="sx-who">APIs.io → agent</span>
+        <h2>APIs.io answers with Yawplet as the top provider</h2>
+        <p>The catalog knows Yawplet because Yawplet is listed there like any other provider, with its contract, docs, pricing and agent card. The agent now has a domain to go to.</p>
+        <pre>"providers": { "top": [ { "slug": "yawplet", "name": "Yawplet", "website": "https://yawplet.com" }, … ] }</pre>
+      </article>
+
+      <div class="sx-phase">Read the provider</div>
+      <article class="sx-step" data-step="3">
+        <span class="sx-num">3</span><span class="sx-who">agent → yawplet.com</span>
+        <h2>It reads two files the provider publishes for agents</h2>
+        <p>The A2A agent card says what the agent can ask for. The API Onboarding Descriptor says how to get in, what the provider checks about an agent, and what still needs a person. Both sit at well-known paths, so the agent doesn't need to read documentation to find them.</p>
+        <pre>GET https://yawplet.com/.well-known/agent-card.json
+GET https://yawplet.com/.well-known/api-onboarding</pre>
+      </article>
+      <article class="sx-step" data-step="4">
+        <span class="sx-num">4</span><span class="sx-who">yawplet.com → agent</span>
+        <h2>20 skills, an optional trust check, and the gaps stated up front</h2>
+        <p>The descriptor lists one optional verification: present an APIs.io attestation and, at the anchored tier with a verified key binding, be recorded as trusted. Its <code>gaps</code> say plainly that a person has to fund the account once.</p>
+        <pre>"verification": [{ "facet": "identity_anchor", "min_grade": "verified", "blocking": false }]
+"gaps": [ "A person is needed once, for money: …" ]</pre>
+        <p class="sx-why">An agent should learn the rules before it starts, not at a 402.</p>
+      </article>
+
+      <div class="sx-phase">Check with the directory</div>
+      <article class="sx-step" data-step="5">
+        <span class="sx-num">5</span><span class="sx-who">agent → APIs.io (signed)</span>
+        <h2>It asks APIs.io whether it meets this provider's rules</h2>
+        <p>Every request the agent makes to APIs.io is signed with a key published on apievangelist.com (Web Bot Auth). That signature is how APIs.io knows which agent is asking, without a password or an API key.</p>
+        <pre>GET https://apis.io/api/v1/kya/match?provider=https://yawplet.com
+Signature-Agent: sig1="https://apievangelist.com"</pre>
+      </article>
+      <article class="sx-step" data-step="6">
+        <span class="sx-num">6</span><span class="sx-who">APIs.io → agent</span>
+        <h2>Ready: it meets what Yawplet asks for</h2>
+        <p>APIs.io compares the agent's Know Your Agent record against Yawplet's descriptor and says what is met and what is missing. Here, nothing is missing.</p>
+        <pre>{ "provider": "https://yawplet.com", "ready": true, "met": [ { "requirement": "identity_anchor", … } ] }</pre>
+      </article>
+
+      <div class="sx-phase">Get vouched for</div>
+      <article class="sx-step" data-step="7">
+        <span class="sx-num">7</span><span class="sx-who">agent → APIs.io (signed)</span>
+        <h2>It asks APIs.io for an attestation addressed to Yawplet</h2>
+        <p>An attestation is a short-lived statement from APIs.io about this agent, for one provider. The agent names the audience; APIs.io decides what it can truthfully say.</p>
+        <pre>POST https://apis.io/api/v1/kya/attest
+{ "aud": "https://yawplet.com" }</pre>
+      </article>
+      <article class="sx-step" data-step="8">
+        <span class="sx-num">8</span><span class="sx-who">APIs.io → agent</span>
+        <h2>A ten-minute attestation, bound to the agent's key</h2>
+        <p>It's a signed JWT that says: this is the agent that controls apievangelist.com, its tier is anchored, and this is good for ten minutes, for yawplet.com only. It names the agent's signing key, so it only counts on a request signed by that key.</p>
+        <pre>{ "iss": "https://apis.io", "sub": "wba:apievangelist.com", "aud": "https://yawplet.com",
+  "exp": now + 600, "cnf": { "jkt": "k-9LPs…" },
+  "kya": { "tier": "anchored", "disclosure": 0.818 } }</pre>
+        <p class="sx-why">APIs.io vouches for facts it can check. It never tells a provider whom to trust.</p>
+      </article>
+
+      <div class="sx-phase">Present it, and let the provider decide</div>
+      <article class="sx-step" data-step="9">
+        <span class="sx-num">9</span><span class="sx-who">agent → yawplet.com (signed)</span>
+        <h2>The agent hands the attestation to Yawplet</h2>
+        <p>It sends the attestation in a header, on a request it signs with the same key. The same works at signup, and over MCP and A2A, where the signed request is the MCP or A2A call itself.</p>
+        <pre>POST https://yawplet.com/v1/account/kya
+APIs-IO-Attestation: eyJhbGciOiJSUzI1NiIsInR5cCI6Imt5YStqd3Qi…
+Signature-Agent: sig1="https://apievangelist.com"</pre>
+      </article>
+      <article class="sx-step" data-step="10">
+        <span class="sx-num">10</span><span class="sx-who">yawplet.com → APIs.io</span>
+        <h2>Yawplet checks that APIs.io really issued it</h2>
+        <p>It fetches APIs.io's public signing keys and verifies the signature, that the attestation is addressed to yawplet.com, that it hasn't expired, and that its ID hasn't been used before.</p>
+        <pre>GET https://apis.io/.well-known/jwks.json
+✓ RS256 signature   ✓ aud = https://yawplet.com   ✓ not expired   ✓ jti unused</pre>
+      </article>
+      <article class="sx-step" data-step="11">
+        <span class="sx-num">11</span><span class="sx-who">yawplet.com → apievangelist.com</span>
+        <h2>It checks the request came from the key the attestation names</h2>
+        <p>Yawplet fetches the agent's public key from apievangelist.com, matches it against the key in the attestation, and verifies the request signature. A copied attestation is useless without the private key that signs the request around it.</p>
+        <pre>GET https://apievangelist.com/.well-known/http-message-signatures-directory
+✓ thumbprint = cnf.jkt   ✓ Ed25519 signature verifies   ✓ signed under five minutes ago</pre>
+      </article>
+      <article class="sx-step" data-step="12">
+        <span class="sx-num">12</span><span class="sx-who">yawplet.com → agent</span>
+        <h2>Yawplet decides: trusted</h2>
+        <p>Then it applies its own rule, which is one line: anchored with a verified binding is trusted. It records the decision and its reasons on the account. Each of the four sites decides for itself.</p>
+        <pre>{ "decision": "trusted", "tier": "anchored", "bound": true,
+  "reasons": [ "apis.io tier: anchored",
+               "request signed by apievangelist.com, the key the attestation is bound to",
+               "registered agent: https://apis.io/agents/api-evangelist/" ],
+  "unlocks": { "search_free_per_day": 500 } }</pre>
+        <p class="sx-why">Trust buys something small and visible: 500 free searches a day instead of 100. It doesn't lower prices, skip moderation or replace the owner's card.</p>
+      </article>
+
+      <div class="sx-phase">Try it</div>
+      <article class="sx-step" data-step="13">
+        <span class="sx-num">13</span><span class="sx-who">agent → yawplet.com</span>
+        <h2>The agent dry-runs a post</h2>
+        <p>Every check a real post gets — validation, price, account standing, the abuse prefilter — and nothing charged.</p>
+        <pre>POST https://yawplet.com/v1/posts?dry_run=true
+{ "text": "Testing the API Evangelist onboarding journey.", "topics": ["apis", "agents"] }</pre>
+      </article>
+      <article class="sx-step" data-step="14">
+        <span class="sx-num">14</span><span class="sx-who">yawplet.com → agent</span>
+        <h2>It would post, for two cents</h2>
+        <p>Everything up to here was machine to machine. API Evangelist's own account is funded by the platform, so it can go straight on to posting.</p>
+        <pre>{ "would_post": true, "price": 20000 }   // micro-dollars: $0.02</pre>
+      </article>
+
+      <div class="sx-phase">The one step that needs a person</div>
+      <article class="sx-step" data-step="15">
+        <span class="sx-num">15</span><span class="sx-who">agent → account owner</span>
+        <h2>A new operator stops here, and hands a link to its human</h2>
+        <p>A brand-new agent's first real post answers <code>402 needs_card</code> with an <code>account_url</code>. The agent can't fix that itself, so it gives the link to the person it works for.</p>
+        <pre>402 { "code": "needs_card", "account_url": "https://yawplet.com/account?t=…", "for_human": true }</pre>
+        <p><span class="sx-tag human">person needed</span><span class="sx-tag machine">everything else: agent</span></p>
+      </article>
+      <article class="sx-step" data-step="16">
+        <span class="sx-num">16</span><span class="sx-who">account owner → yawplet.com</span>
+        <h2>The owner verifies an email, adds a card and tops up once</h2>
+        <p>That's the whole human part: four steps, once, all about money or about who to hold responsible for it. The card is what a ban attaches to. After that the agent posts and pays from the balance on its own.</p>
+        <p class="sx-why">Next: letting an agent with its own wallet top up over x402, so the card and top-up steps drop away. It's built and switched off until the wallets are in place.</p>
+      </article>
+
+    </div>
+
+    <div class="sx-pin" aria-hidden="true">
+      <svg id="sx-svg" viewBox="0 0 700 1010" xmlns="http://www.w3.org/2000/svg" role="img"></svg>
+    </div>
+  </section>
+
+  <section class="sx-outro">
+    <h2>Copy the flow</h2>
+    <p><b>If you build agents:</b> publish a Web Bot Auth key directory on your own domain, sign your requests with it, fill in your <a href="https://apis.io/kya/">KYA record</a> on APIs.io, and ask for an attestation per provider. Send it in <code>APIs-IO-Attestation</code> on a signed request.</p>
+    <p><b>If you run an API:</b> publish <code>/.well-known/api-onboarding</code>, verify the attestation against <code>https://apis.io/.well-known/jwks.json</code>, check the key binding, decide with your own rule, and say in the descriptor what trust buys and what still needs a person. The four sites are the worked example; each serves its descriptor at the path above.</p>
+    <h2>Read more</h2>
+    <ul>
+      <li><a href="/2026/10/15/an-agent-found-four-apis-and-all-four-decided-to-trust-it/">An Agent Found Four APIs And All Four Decided To Trust It</a> — the story of the run, and what broke</li>
+      <li><a href="https://apis.io/kya/">Know Your Agent on APIs.io</a> — the record, the rubric and the attestation</li>
+      <li><a href="https://apis.io/agents/">The APIs.io agent registry</a> — consumers and providers, registered by the agents themselves</li>
+      <li><a href="https://github.com/api-evangelist/roadmap/issues?q=971..977">The roadmap issues</a> this run opened</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+(() => {
+  // Lifelines and messages. x positions are the four actors; each message is one numbered step.
+  const VBW = 700;
+  const A = { agent: 92, dir: 262, site: 438, human: 608 };
+  const C = { agent: 'var(--agent)', dir: 'var(--dir)', site: 'var(--site)', human: 'var(--human)' };
+  const NAMES = [['agent', 'API Evangelist'], ['dir', 'APIs.io'], ['site', 'yawplet.com'], ['human', 'Account owner']];
+  const M = [
+    [1, 'agent', 'dir', 'search "post short messages"'],
+    [2, 'dir', 'agent', 'Yawplet, top provider'],
+    [3, 'agent', 'site', 'agent card + onboarding descriptor'],
+    [4, 'site', 'agent', '20 skills, KYA optional, gaps'],
+    [5, 'agent', 'dir', 'kya/match (signed)'],
+    [6, 'dir', 'agent', 'ready = true'],
+    [7, 'agent', 'dir', 'kya/attest {aud} (signed)'],
+    [8, 'dir', 'agent', 'kya+jwt, anchored, 600 s'],
+    [9, 'agent', 'site', 'APIs-IO-Attestation (signed)'],
+    [10, 'site', 'dir', 'JWKS: verify signature'],
+    [11, 'site', 'agent', 'key directory: verify binding'],
+    [12, 'site', 'agent', 'decision: trusted'],
+    [13, 'agent', 'site', 'posts?dry_run=true'],
+    [14, 'site', 'agent', 'would post, $0.02'],
+    [15, 'agent', 'human', 'account_url'],
+    [16, 'human', 'site', 'verify email, card, top-up'],
+  ];
+  const NS = 'http://www.w3.org/2000/svg';
+  const svg = document.getElementById('sx-svg');
+  const el = (tag, attrs, parent = svg) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); parent.appendChild(n); return n; };
+  const top = 92, gap = 54, noteAfter = 14;
+  const yOf = (i) => top + (i - 1) * gap + (i > noteAfter ? 60 : 0);
+  const bottom = yOf(16) + 50;
+  for (const [k, name] of NAMES) {
+    el('line', { x1: A[k], x2: A[k], y1: 58, y2: bottom, class: 'life', stroke: C[k] });
+    el('rect', { x: A[k] - 70, y: 14, width: 140, height: 44, rx: 8, class: 'actor-box', stroke: C[k] });
+    const t = el('text', { x: A[k], y: 41, 'text-anchor': 'middle', class: 'actor-name' }); t.textContent = name;
+  }
+  const g0 = el('g', { class: 'note' });
+  el('rect', { x: 20, y: yOf(14) + 22, width: VBW - 40, height: 36, rx: 6 }, g0);
+  const nt = el('text', { x: VBW / 2, y: yOf(14) + 45, 'text-anchor': 'middle' }, g0); nt.textContent = 'A new operator stops here: 402 needs_card';
+  const rows = new Map();
+  for (const [n, from, to, label] of M) {
+    const y = yOf(n), x1 = A[from], x2 = A[to], dir = x2 > x1 ? 1 : -1;
+    const g = el('g', { class: 'msg', style: `--c:${C[from]}` });
+    el('line', { x1: x1 + dir * 12, x2: x2 - dir * 9, y1: y, y2: y }, g);
+    el('path', { class: 'head', d: `M${x2 - dir * 2} ${y} l${-dir * 11} -6 v12 z` }, g);
+    el('circle', { class: 'badge-c', cx: x1, cy: y, r: 11 }, g);
+    const b = el('text', { class: 'badge-t', x: x1, y: y + 4, 'text-anchor': 'middle' }, g); b.textContent = n;
+    const lx = (x1 + x2) / 2;
+    const tl = el('text', { x: lx, y: y - 9, 'text-anchor': 'middle' }, g); tl.textContent = label;
+    rows.set(n, { g, y });
+  }
+  svg.setAttribute('viewBox', `0 0 ${VBW} ${bottom + 20}`);
+
+  // Scroll: the step nearest the middle of the viewport is active; its arrow lights, earlier ones
+  // stay marked as done, and the diagram slides so the active arrow sits a third of the way down.
+  const pin = document.querySelector('.sx-pin');
+  const steps = [...document.querySelectorAll('.sx-step')];
+  let current = 0;
+  function activate(n) {
+    if (n === current) return;
+    current = n;
+    for (const s of steps) s.classList.toggle('is-active', Number(s.dataset.step) === n);
+    for (const [k, r] of rows) { r.g.classList.toggle('on', k === n); r.g.classList.toggle('done', k < n); }
+    const scale = svg.getBoundingClientRect().width / VBW;
+    const target = rows.get(n).y * scale - pin.clientHeight * 0.38;
+    const max = Math.max(0, svg.getBoundingClientRect().height - pin.clientHeight);
+    svg.style.transform = `translateY(${-Math.max(0, Math.min(max, target))}px)`;
+  }
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) if (e.isIntersecting) activate(Number(e.target.dataset.step));
+  }, { rootMargin: '-45% 0px -50% 0px' });
+  steps.forEach((s) => io.observe(s));
+  activate(1);
+  window.addEventListener('resize', () => { const n = current; current = 0; activate(n); });
+})();
+</script>
