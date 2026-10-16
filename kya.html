@@ -8,11 +8,10 @@ sub: KYA
 permalink: /kya/
 ---
 
-<div class="alert alert-warning" role="alert" markdown="1">
-**Nothing here is built yet.** No KYA record exists, no facet has been verified, and no provider
-consumes this. It is published early because something designed in private is not something
-anybody should adopt. The work is open on the
-[roadmap](https://github.com/api-evangelist/roadmap/issues/110).
+<div class="alert alert-success" role="alert" markdown="1">
+**KYA is live.** Records, attestations, matching against a provider's onboarding descriptor and conduct
+reports all run on [APIs.io](https://apis.io/kya/). On October 15, 2026 four providers decided on their own to
+trust an agent from its KYA record, over REST, MCP and A2A. [Walk through that flow step by step](/agent-onboarding/).
 </div>
 
 <p>I have spent sixteen years measuring what API providers publish. The <a href="/rating/">Kin Score</a> is
@@ -64,12 +63,29 @@ between a market and a gate.</p>
 <p>The facets mirror the six on the provider side: <strong>Identity Anchor</strong>,
 <strong>Operator Accountability</strong>, <strong>Provenance &amp; Attestation</strong>,
 <strong>Declared Intent</strong>, <strong>Operating History</strong>, <strong>Standing</strong>. Each
-carries a grade — verified, asserted, inherited, absent — and the grade travels with the fact.</p>
+carries a grade — verified, attested, declared, absent — and the grade travels with the fact.</p>
 
 <p>There are deliberately <strong>two numbers, never one</strong>. <em>Disclosure</em> is how much the
 consumer has told us, which they control. <em>Verification</em> is how much of that was independently
 confirmed, which they do not. Collapsing them would let a consumer look accountable by typing a lot. The
 provider-side rubric learned that lesson the expensive way; this one is born with it.</p>
+
+<h2>It runs now</h2>
+
+<p>The first working example is our own. The API Evangelist agent signs every request with a key published on
+apievangelist.com (Web Bot Auth), which anchors its record to that domain. It asked APIs.io for an attestation
+addressed to each of four small APIs I operate — <a href="https://yawplet.com">Yawplet</a>,
+<a href="https://yarnhen.com">Yarnhen</a>, <a href="https://hagglebee.com">Hagglebee</a> and
+<a href="https://eventwren.com">Eventwren</a> — and presented it on a signed request. Each site checked APIs.io's
+signature, checked the request came from the key the attestation names, applied its own one-line rule, and
+recorded the agent as trusted. Each now reports back how the agent behaves, which is what fills in Operating
+History.</p>
+
+<p>Trust on those sites buys something small on purpose: a larger free search allowance. It does not lower prices,
+skip moderation, or replace the person who funds the account. <a href="/agent-onboarding/">The step-by-step
+walkthrough</a> shows every request and response, and
+<a href="/2026/10/15/an-agent-found-four-apis-and-all-four-decided-to-trust-it/">the story of the run</a> covers
+what broke.</p>
 
 <h2>What it is not</h2>
 
