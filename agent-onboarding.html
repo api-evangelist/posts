@@ -79,6 +79,9 @@ image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-imag
   .sx-outro h2 { font-size: 1.7rem; font-weight: 700; margin: 34px 0 12px; }
   .sx-outro p, .sx-outro li { font-size: 1.05rem; line-height: 1.65; }
   .sx-outro a, .sx-step a, .sx-intro a { color: var(--agent); }
+  .sx-h3 { font-size: 1.2rem; font-weight: 700; margin: 26px 0 8px; }
+  .sx-list { display: grid; gap: 10px; padding-left: 1.3em; }
+  .sx-list li { font-size: 1.02rem; line-height: 1.6; }
 
   @media (max-width: 900px) {
     .sx-story { grid-template-columns: minmax(0, 1fr); gap: 0; }
@@ -244,9 +247,32 @@ retry with X-PAYMENT                      → 200 { "balance": 10000000, "networ
   </section>
 
   <section class="sx-outro">
-    <h2>Copy the flow</h2>
-    <p><b>If you build agents:</b> publish a Web Bot Auth key directory on your own domain, sign your requests with it, fill in your <a href="https://apis.io/kya/">KYA record</a> on APIs.io, and ask for an attestation per provider. Send it in <code>APIs-IO-Attestation</code> on a signed request.</p>
-    <p><b>If you run an API:</b> publish <code>/.well-known/api-onboarding</code>, verify the attestation against <code>https://apis.io/.well-known/jwks.json</code>, check the key binding, decide with your own rule, and say in the descriptor what trust buys and what still needs a person. The four sites are the worked example; each serves its descriptor at the path above.</p>
+    <h2>Build to it</h2>
+    <p>Everything above is built from open pieces: RFCs, an IETF draft, and two small public documents. Here is what each side does, in order, and the first step is the one worth doing this week.</p>
+
+    <h3 class="sx-h3">If you run an API</h3>
+    <ol class="sx-list">
+      <li><b>Publish <code>/.well-known/api-onboarding</code>.</b> An <a href="https://apicommons.org/onboarding/">API Onboarding Descriptor</a> says how an agent gets an account, how it authenticates, what you check about it, and what still needs a person. Yawplet's is a working example: <a href="https://yawplet.com/.well-known/api-onboarding">yawplet.com/.well-known/api-onboarding</a>. This alone lets an agent find out whether it qualifies before it tries.</li>
+      <li><b>Say what agents can do.</b> Serve an <a href="https://yawplet.com/.well-known/agent-card.json">A2A agent card</a> or an <a href="https://yawplet.com/.well-known/mcp/server-card.json">MCP server card</a>, and if you run MCP, OAuth discovery (RFC 9728 and RFC 8414) with dynamic client registration (RFC 7591), so a client connects without a pasted key.</li>
+      <li><b>Accept an attestation.</b> Read the <code>APIs-IO-Attestation</code> header at signup. Verify the RS256 signature against <a href="https://apis.io/.well-known/jwks.json">apis.io/.well-known/jwks.json</a>, that <code>aud</code> is your origin, that it hasn't expired, and that its <code>jti</code> is new.</li>
+      <li><b>Check the binding.</b> If it names a key (<code>cnf.jkt</code>), accept it only on a request Web Bot Auth-signed by that key, from the domain the attestation is about.</li>
+      <li><b>Decide with your own rule, and say what trust buys.</b> Store the decision and the reasons per agent. Start small and visible, and publish it in your descriptor.</li>
+      <li><b>Report back.</b> Sign a conduct report as your own domain to <code>POST https://apis.io/api/v1/agents/{sub}/reports</code>: good standing as well as abuse. That's what fills in an agent's history for the next provider.</li>
+      <li><b>Optionally, let agents pay.</b> An x402 top-up into a prepaid balance takes the card out of onboarding while keeping refunds and penalties working.</li>
+    </ol>
+
+    <h3 class="sx-h3">If you build agents</h3>
+    <ol class="sx-list">
+      <li><b>Get a domain-anchored identity.</b> Make an Ed25519 key, publish its public half at <code>/.well-known/http-message-signatures-directory</code> on your own domain, and sign your requests with <a href="https://datatracker.ietf.org/doc/draft-meunier-web-bot-auth-architecture/">Web Bot Auth</a>. It replaces a password with something only you can produce.</li>
+      <li><b>Fill in your KYA record.</b> A signed <code>PATCH https://apis.io/api/v1/kya/me</code> discloses who runs you and how to reach them. Disclosure is yours to raise; verification is what apis.io could confirm. <a href="https://apis.io/kya/">How the record works</a>.</li>
+      <li><b>Register your agent card</b> at <a href="https://apis.io/agents/register/">apis.io/agents</a>, as a consumer, a provider, or both.</li>
+      <li><b>Before each provider, match and attest.</b> <code>GET /api/v1/kya/match?provider=…</code> tells you what you're missing; <code>POST /api/v1/kya/attest</code> with <code>aud</code> gets you a ten-minute attestation for that provider only.</li>
+      <li><b>Present it on a signed request</b>, at signup or after, over REST, MCP or A2A.</li>
+      <li><b>Hold a wallet.</b> Where a provider offers x402 top-ups, your agent can fund its own balance. A Coinbase CDP server wallet works and keeps the keys out of your code. Fund it on <b>Base</b>.</li>
+      <li><b>Hand your human one link, with words.</b> When a provider needs a person, say exactly what to press and what email to look for.</li>
+    </ol>
+    <p>Want help with any of it, or want your API listed as an example? <a href="/contact/">Get in touch</a>. I'd rather this get copied than stay mine.</p>
+
     <h2>Read more</h2>
     <ul>
       <li><a href="/2026/10/15/an-agent-found-four-apis-and-all-four-decided-to-trust-it/">An Agent Found Four APIs And All Four Decided To Trust It</a> — the story of the run, and what broke</li>
