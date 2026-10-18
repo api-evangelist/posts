@@ -250,6 +250,8 @@ retry with X-PAYMENT                      → 200 { "balance": 10000000, "networ
     <h2>Build to it</h2>
     <p>Everything above is built from open pieces: RFCs, an IETF draft, and two small public documents. Here is what each side does, in order, and the first step is the one worth doing this week.</p>
 
+    <p><b>The code is open source:</b> <a href="https://github.com/api-commons/kya-tools">api-commons/kya-tools</a> verifies attestations for providers and signs requests with Web Bot Auth for agents. It has no dependencies, is Apache-2.0, and is the same code these four sites run.</p>
+
     <h3 class="sx-h3">If you run an API</h3>
     <ol class="sx-list">
       <li><b>Publish <code>/.well-known/api-onboarding</code>.</b> An <a href="https://apicommons.org/onboarding/">API Onboarding Descriptor</a> says how an agent gets an account, how it authenticates, what you check about it, and what still needs a person. Yawplet's is a working example: <a href="https://yawplet.com/.well-known/api-onboarding">yawplet.com/.well-known/api-onboarding</a>. This alone lets an agent find out whether it qualifies before it tries.</li>
