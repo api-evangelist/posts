@@ -11134,6 +11134,839 @@
         "api": 32830,
         "mcp": 1861
       }
+    },
+    {
+      "week_starting": "2026-10-12",
+      "week_ending": "2026-10-18",
+      "fetched_at": "2026-10-19T10:16:41Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 14436,
+      "unique_terms": 3535,
+      "unmet_terms": 1098,
+      "top_queries": [
+        {
+          "q": "observation",
+          "n": 10
+        },
+        {
+          "q": "Dynamic Client Registration",
+          "n": 9
+        },
+        {
+          "q": "reflection",
+          "n": 8
+        },
+        {
+          "q": "summary",
+          "n": 8
+        },
+        {
+          "q": "Trellix",
+          "n": 8
+        },
+        {
+          "q": "Faceted Search",
+          "n": 7
+        },
+        {
+          "q": "note",
+          "n": 7
+        },
+        {
+          "q": "a",
+          "n": 6
+        },
+        {
+          "q": "OpenMetrics",
+          "n": 6
+        },
+        {
+          "q": "Resources",
+          "n": 6
+        },
+        {
+          "q": "Financial",
+          "n": 5
+        },
+        {
+          "q": "Pricing",
+          "n": 5
+        },
+        {
+          "q": "Video",
+          "n": 5
+        },
+        {
+          "q": "API Governance",
+          "n": 4
+        },
+        {
+          "q": "C",
+          "n": 4
+        },
+        {
+          "q": "Docs",
+          "n": 4
+        },
+        {
+          "q": "m",
+          "n": 4
+        },
+        {
+          "q": "OpenAPI Initiative",
+          "n": 4
+        },
+        {
+          "q": "question",
+          "n": 4
+        },
+        {
+          "q": "sales nav",
+          "n": 4
+        },
+        {
+          "q": "virtua",
+          "n": 4
+        },
+        {
+          "q": "virtuagym",
+          "n": 4
+        },
+        {
+          "q": "99designs-orders-api",
+          "n": 3
+        },
+        {
+          "q": "Academic",
+          "n": 3
+        },
+        {
+          "q": "beatport",
+          "n": 3
+        },
+        {
+          "q": "Business of APIs",
+          "n": 3
+        },
+        {
+          "q": "classification",
+          "n": 3
+        },
+        {
+          "q": "cloudrf",
+          "n": 3
+        },
+        {
+          "q": "Coaching",
+          "n": 3
+        },
+        {
+          "q": "code-first",
+          "n": 3
+        },
+        {
+          "q": "Communications",
+          "n": 3
+        },
+        {
+          "q": "Compute",
+          "n": 3
+        },
+        {
+          "q": "Compute Grid",
+          "n": 3
+        },
+        {
+          "q": "CRUD",
+          "n": 3
+        },
+        {
+          "q": "Development Methodology",
+          "n": 3
+        },
+        {
+          "q": "Education",
+          "n": 3
+        },
+        {
+          "q": "example",
+          "n": 3
+        },
+        {
+          "q": "Exploitation",
+          "n": 3
+        },
+        {
+          "q": "Federation",
+          "n": 3
+        },
+        {
+          "q": "Firewall Traversal",
+          "n": 3
+        },
+        {
+          "q": "g",
+          "n": 3
+        },
+        {
+          "q": "GraphQL",
+          "n": 3
+        },
+        {
+          "q": "Hadoop",
+          "n": 3
+        },
+        {
+          "q": "Identity And Access Management",
+          "n": 3
+        },
+        {
+          "q": "insight",
+          "n": 3
+        },
+        {
+          "q": "Insurance",
+          "n": 3
+        },
+        {
+          "q": "Inversion Of Control",
+          "n": 3
+        },
+        {
+          "q": "LinkedIn",
+          "n": 3
+        },
+        {
+          "q": "Machine Learning",
+          "n": 3
+        },
+        {
+          "q": "Medical Records",
+          "n": 3
+        },
+        {
+          "q": "mist-ai-sites-vbeacons-api",
+          "n": 3
+        },
+        {
+          "q": "Onboarding",
+          "n": 3
+        },
+        {
+          "q": "Open Source",
+          "n": 3
+        },
+        {
+          "q": "Policy Enforcement",
+          "n": 3
+        },
+        {
+          "q": "Protocols",
+          "n": 3
+        },
+        {
+          "q": "Pushpress",
+          "n": 3
+        },
+        {
+          "q": "QOGITA",
+          "n": 3
+        },
+        {
+          "q": "Quotes",
+          "n": 3
+        },
+        {
+          "q": "Rules",
+          "n": 3
+        },
+        {
+          "q": "RULES.md",
+          "n": 3
+        },
+        {
+          "q": "Solutions",
+          "n": 3
+        },
+        {
+          "q": "Teaching",
+          "n": 3
+        },
+        {
+          "q": "UI/UX",
+          "n": 3
+        },
+        {
+          "q": "Usage Reporting",
+          "n": 3
+        },
+        {
+          "q": "workflows",
+          "n": 3
+        },
+        {
+          "q": "yugabyte-alerts-api",
+          "n": 3
+        },
+        {
+          "q": "z",
+          "n": 3
+        },
+        {
+          "q": "/me",
+          "n": 2
+        },
+        {
+          "q": "0901.21.00",
+          "n": 2
+        },
+        {
+          "q": "2ndkitchen-brand-api",
+          "n": 2
+        },
+        {
+          "q": "2xx",
+          "n": 2
+        },
+        {
+          "q": "3.2",
+          "n": 2
+        },
+        {
+          "q": "42crunch-logs-api",
+          "n": 2
+        },
+        {
+          "q": "46elks-calls-api",
+          "n": 2
+        },
+        {
+          "q": "aaaai-me-video-api",
+          "n": 2
+        },
+        {
+          "q": "accept-charset",
+          "n": 2
+        },
+        {
+          "q": "accept-patch",
+          "n": 2
+        },
+        {
+          "q": "Access",
+          "n": 2
+        },
+        {
+          "q": "Accounting",
+          "n": 2
+        },
+        {
+          "q": "Accreditation",
+          "n": 2
+        },
+        {
+          "q": "acm",
+          "n": 2
+        },
+        {
+          "q": "acma-registrations-api",
+          "n": 2
+        },
+        {
+          "q": "Advertising",
+          "n": 2
+        },
+        {
+          "q": "agent",
+          "n": 2
+        },
+        {
+          "q": "Agent Readiness",
+          "n": 2
+        },
+        {
+          "q": "AgentExperience",
+          "n": 2
+        },
+        {
+          "q": "Agentic",
+          "n": 2
+        },
+        {
+          "q": "agents",
+          "n": 2
+        },
+        {
+          "q": "AI",
+          "n": 2
+        },
+        {
+          "q": "ai-gateway-policies-api",
+          "n": 2
+        },
+        {
+          "q": "aiapplyd-overview-api",
+          "n": 2
+        },
+        {
+          "q": "aiapplyd-public-ats-score-api",
+          "n": 2
+        },
+        {
+          "q": "Algorithms",
+          "n": 2
+        },
+        {
+          "q": "Alignment",
+          "n": 2
+        },
+        {
+          "q": "Amazon",
+          "n": 2
+        },
+        {
+          "q": "amplitude-deployments-api",
+          "n": 2
+        },
+        {
+          "q": "Analogies",
+          "n": 2
+        },
+        {
+          "q": "Antivirus",
+          "n": 2
+        },
+        {
+          "q": "API",
+          "n": 2
+        },
+        {
+          "q": "API Authorization",
+          "n": 2
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "virtuagym",
+          "n": 4
+        },
+        {
+          "q": "beatport",
+          "n": 3
+        },
+        {
+          "q": "cloudrf",
+          "n": 3
+        },
+        {
+          "q": "mist-ai-sites-vbeacons-api",
+          "n": 3
+        },
+        {
+          "q": "Pushpress",
+          "n": 3
+        },
+        {
+          "q": "QOGITA",
+          "n": 3
+        },
+        {
+          "q": "yugabyte-alerts-api",
+          "n": 3
+        },
+        {
+          "q": "0901.21.00",
+          "n": 2
+        },
+        {
+          "q": "2ndkitchen-brand-api",
+          "n": 2
+        },
+        {
+          "q": "46elks-calls-api",
+          "n": 2
+        },
+        {
+          "q": "aaaai-me-video-api",
+          "n": 2
+        },
+        {
+          "q": "acma-registrations-api",
+          "n": 2
+        },
+        {
+          "q": "aiapplyd-overview-api",
+          "n": 2
+        },
+        {
+          "q": "aiapplyd-public-ats-score-api",
+          "n": 2
+        },
+        {
+          "q": "amplitude-deployments-api",
+          "n": 2
+        },
+        {
+          "q": "apiclaw-assistants-api",
+          "n": 2
+        },
+        {
+          "q": "apiclaw-openai-pass-through-api",
+          "n": 2
+        },
+        {
+          "q": "apiclaw-ui-settings-api",
+          "n": 2
+        },
+        {
+          "q": "blm-general-land-office-records",
+          "n": 2
+        },
+        {
+          "q": "Bluelink",
+          "n": 2
+        },
+        {
+          "q": "brushfire-orders-api",
+          "n": 2
+        },
+        {
+          "q": "cross-origin-embedder-policy",
+          "n": 2
+        },
+        {
+          "q": "Crypto Metrics",
+          "n": 2
+        },
+        {
+          "q": "dropbox-sign-bulk-send-job-api",
+          "n": 2
+        },
+        {
+          "q": "engineering-platform-action-listpoliciesgrantingserviceaccess-api",
+          "n": 2
+        },
+        {
+          "q": "engineering-platform-github-v3-rest-api-api",
+          "n": 2
+        },
+        {
+          "q": "eth-zurich-eth-research-collection-api-v2-api",
+          "n": 2
+        },
+        {
+          "q": "Geology",
+          "n": 2
+        },
+        {
+          "q": "hergert synthora",
+          "n": 2
+        },
+        {
+          "q": "hyundai",
+          "n": 2
+        },
+        {
+          "q": "jfrog-device-groups-api",
+          "n": 2
+        },
+        {
+          "q": "M1",
+          "n": 2
+        },
+        {
+          "q": "microsoft-azure-accessreviewinstancesendreminders-api",
+          "n": 2
+        },
+        {
+          "q": "qobuz",
+          "n": 2
+        },
+        {
+          "q": "Specialty Chemicals",
+          "n": 2
+        },
+        {
+          "q": "symphony-dlp-api",
+          "n": 2
+        },
+        {
+          "q": "wellhub",
+          "n": 2
+        },
+        {
+          "q": "youtube-i18n-api",
+          "n": 2
+        },
+        {
+          "q": "yugabyte-accounts-api",
+          "n": 2
+        },
+        {
+          "q": ".",
+          "n": 1
+        },
+        {
+          "q": "/events/hr/v1/worker.hire",
+          "n": 1
+        },
+        {
+          "q": "0g-labs-account-api",
+          "n": 1
+        },
+        {
+          "q": "10web-vibe-coding-api",
+          "n": 1
+        },
+        {
+          "q": "123formbuilder-forms-api",
+          "n": 1
+        },
+        {
+          "q": "17track-webhooks-api",
+          "n": 1
+        },
+        {
+          "q": "1fort-broker-ai-customization-types-api",
+          "n": 1
+        },
+        {
+          "q": "1password-vaults-api",
+          "n": 1
+        },
+        {
+          "q": "297587640",
+          "n": 1
+        },
+        {
+          "q": "2c2p-inquiry-api",
+          "n": 1
+        },
+        {
+          "q": "2ndkitchen-authentication-api",
+          "n": 1
+        },
+        {
+          "q": "2ndkitchen-coupons-api",
+          "n": 1
+        },
+        {
+          "q": "2ndkitchen-deliveries-api",
+          "n": 1
+        },
+        {
+          "q": "2ndkitchen-payment-api",
+          "n": 1
+        },
+        {
+          "q": "2ndkitchen-restaurant-api",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts28312-intentexpectations",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts29122-npconfiguration",
+          "n": 1
+        },
+        {
+          "q": "3m-orders-api",
+          "n": 1
+        },
+        {
+          "q": "3plcentral-authentication-api",
+          "n": 1
+        },
+        {
+          "q": "3plcentral-inventory-api",
+          "n": 1
+        },
+        {
+          "q": "447135239",
+          "n": 1
+        },
+        {
+          "q": "4chan-archive-api",
+          "n": 1
+        },
+        {
+          "q": "583362031",
+          "n": 1
+        },
+        {
+          "q": "5dollarfootball",
+          "n": 1
+        },
+        {
+          "q": "721145877",
+          "n": 1
+        },
+        {
+          "q": "7digital-playlists-api",
+          "n": 1
+        },
+        {
+          "q": "99-minutos-shipping-rates-api",
+          "n": 1
+        },
+        {
+          "q": "99designs-coupons-api",
+          "n": 1
+        },
+        {
+          "q": "active-directory-groups-api",
+          "n": 1
+        },
+        {
+          "q": "adafruit-io-tokens-api",
+          "n": 1
+        },
+        {
+          "q": "adafruit-io-webhooks-api",
+          "n": 1
+        },
+        {
+          "q": "adobe-experience-cloud-batches-api",
+          "n": 1
+        },
+        {
+          "q": "adobe-experience-cloud-profiles-api",
+          "n": 1
+        },
+        {
+          "q": "adro1b33-job-api",
+          "n": 1
+        },
+        {
+          "q": "advance-auto-parts-vehicles-api",
+          "n": 1
+        },
+        {
+          "q": "adyen-amount-api",
+          "n": 1
+        },
+        {
+          "q": "adyen-authorise3d-api",
+          "n": 1
+        },
+        {
+          "q": "aeb-export-control-api",
+          "n": 1
+        },
+        {
+          "q": "aerohove",
+          "n": 1
+        },
+        {
+          "q": "agicap-client-invoices-api",
+          "n": 1
+        },
+        {
+          "q": "agorapulse-health-api",
+          "n": 1
+        },
+        {
+          "q": "agorapulse-items-api",
+          "n": 1
+        },
+        {
+          "q": "agromonitoring-weather-api",
+          "n": 1
+        },
+        {
+          "q": "ai-squared-connector-definitions-api",
+          "n": 1
+        },
+        {
+          "q": "ai-squared-connectors-api",
+          "n": 1
+        },
+        {
+          "q": "ai-squared-models-api",
+          "n": 1
+        },
+        {
+          "q": "ai-squared-syncruns-api",
+          "n": 1
+        },
+        {
+          "q": "ai21-labs-maestro-api",
+          "n": 1
+        },
+        {
+          "q": "aiapplyd-integrations-api",
+          "n": 1
+        },
+        {
+          "q": "aiapplyd-observability-api",
+          "n": 1
+        },
+        {
+          "q": "aifordatabase-metrics-api",
+          "n": 1
+        },
+        {
+          "q": "airbus-oneatlas-format-api",
+          "n": 1
+        },
+        {
+          "q": "airbus-oneatlas-health-api",
+          "n": 1
+        },
+        {
+          "q": "airbus-oneatlas-sar-search-api",
+          "n": 1
+        },
+        {
+          "q": "alayacare-evv-export-api",
+          "n": 1
+        },
+        {
+          "q": "alayacare-service-forms-api",
+          "n": 1
+        },
+        {
+          "q": "alayacare-visit-tags-api",
+          "n": 1
+        },
+        {
+          "q": "aleph-alpha-filter-index-api",
+          "n": 1
+        },
+        {
+          "q": "alpaca-news-api",
+          "n": 1
+        },
+        {
+          "q": "Alternative Assets",
+          "n": 1
+        },
+        {
+          "q": "alteryx-collections-api",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "stats",
+          "n": 3
+        },
+        {
+          "resource": "guide",
+          "n": 1
+        }
+      ],
+      "by_tier": {
+        "free": 10154,
+        "site": 2914,
+        "internal": 1368
+      },
+      "by_surface": {
+        "api": 12286,
+        "mcp": 2150
+      }
     }
   ]
 }
