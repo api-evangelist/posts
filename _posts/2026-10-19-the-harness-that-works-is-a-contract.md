@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'The Harness That Works Is A Contract'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/the-harness-that-works-is-a-contract.png
 date: 2026-10-19
 author: Kin Lane
 tags:
