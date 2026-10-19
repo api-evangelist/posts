@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: "Tell Me You Haven't Automated Rules With a Single Story"
+title: "We Don't Need No Stink'n Rules!"
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/tell-me-you-havent-automated-rules-with-a-single-story.png
 date: 2026-10-19
 author: Kin Lane
