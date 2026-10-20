@@ -135,6 +135,62 @@ meta_description: "What people search for across the API Evangelist network each
   curate next.
 </p>
 
+<!-- ── How people find API Evangelist (Google Search Console) ───────────────────
+     Added 2026-10-20 (Kin): the searches people TYPED INTO GOOGLE when apis.io appeared,
+     beside what they search for once here. From _data/search_console.json
+     (api-search/network/scripts/fetch_search_console.py run by _network/weekly_search_terms.sh with API Evangelist's own credentials). Google withholds rare queries, so
+     the query rows never sum to the totals; the share they cover is printed. -->
+{% assign gsc = site.data.search_console.weeks %}
+<h2 class="h5 mb-3" id="from-google">How People Find API Evangelist in Google</h2>
+{% if gsc and gsc.size > 0 %}
+{% assign g = gsc | last %}
+<p class="text-muted" style="font-size:0.9rem;">
+  The searches people typed into Google when API Evangelist appeared in the results, week of
+  {{ g.week_starting }} → {{ g.week_ending }}. It is the clearest view of what people were looking for when they found this site.
+</p>
+<div class="row g-3 mb-3">
+  <div class="col-6 col-md-3"><div class="card border-0 shadow-sm"><div class="card-body py-2">
+    <div class="text-muted small">Clicks from Google</div><div class="h4 mb-0">{{ g.clicks }}</div></div></div></div>
+  <div class="col-6 col-md-3"><div class="card border-0 shadow-sm"><div class="card-body py-2">
+    <div class="text-muted small">Times shown</div><div class="h4 mb-0">{{ g.impressions }}</div></div></div></div>
+  <div class="col-6 col-md-3"><div class="card border-0 shadow-sm"><div class="card-body py-2">
+    <div class="text-muted small">Click-through</div><div class="h4 mb-0">{{ g.ctr_pct }}%</div></div></div></div>
+  <div class="col-6 col-md-3"><div class="card border-0 shadow-sm"><div class="card-body py-2">
+    <div class="text-muted small">Average position</div><div class="h4 mb-0">{{ g.position }}</div></div></div></div>
+</div>
+<div class="row g-4 mb-3">
+  <div class="col-lg-6">
+    <h3 class="h6">Top searches that brought people here</h3>
+    <table class="table table-sm small">
+      <thead><tr><th>Search</th><th class="text-end">Clicks</th><th class="text-end">Shown</th><th class="text-end">Position</th></tr></thead>
+      <tbody>{% for q in g.queries limit: 25 %}<tr><td>{{ q.query | escape }}</td><td class="text-end">{{ q.clicks }}</td><td class="text-end">{{ q.impressions }}</td><td class="text-end">{{ q.position }}</td></tr>{% endfor %}</tbody>
+    </table>
+    <p class="text-muted small">These searches account for {{ g.query_coverage_pct }}% of clicks;
+      Google withholds the rest as too rare to show.</p>
+  </div>
+  <div class="col-lg-6">
+    <h3 class="h6">Where they landed</h3>
+    <table class="table table-sm small">
+      <thead><tr><th>Page</th><th class="text-end">Clicks</th><th class="text-end">Shown</th></tr></thead>
+      <tbody>{% for p in g.pages limit: 15 %}<tr><td><a href="{{ p.page }}">{{ p.page | truncate: 60 }}</a></td><td class="text-end">{{ p.clicks }}</td><td class="text-end">{{ p.impressions }}</td></tr>{% endfor %}</tbody>
+    </table>
+    {% if g.near_misses.size > 0 %}
+    <h3 class="h6 mt-3">On page two</h3>
+    <p class="text-muted small mb-1">Searches where API Evangelist is shown but ranks 11–20 — closest to becoming visitors.</p>
+    <table class="table table-sm small">
+      <thead><tr><th>Search</th><th class="text-end">Shown</th><th class="text-end">Position</th></tr></thead>
+      <tbody>{% for q in g.near_misses limit: 10 %}<tr><td>{{ q.query | escape }}</td><td class="text-end">{{ q.impressions }}</td><td class="text-end">{{ q.position }}</td></tr>{% endfor %}</tbody>
+    </table>
+    {% endif %}
+  </div>
+</div>
+<p class="text-muted small mb-5">Source: Google Search Console, {{ gsc.size }} week{% if gsc.size != 1 %}s{% endif %}
+  on file. The newest week is preliminary and is refreshed the following Monday.
+  Data: <a href="https://github.com/api-evangelist/posts/blob/main/_data/search_console.json">search_console.json</a>.</p>
+{% else %}
+<p class="text-muted mb-5">Google Search Console is not connected yet — this section fills in after the first weekly fetch.</p>
+{% endif %}
+
 <!-- ── Trend chart ──────────────────────────────────────────────────────── -->
 {% if week_count > 1 %}
 <h2 class="h5 mb-3">Search Volume Over Time</h2>

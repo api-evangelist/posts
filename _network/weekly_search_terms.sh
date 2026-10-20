@@ -48,12 +48,24 @@ fi
 "$PY" "$FRESHNESS" --file _data/search_terms.json:"AE search terms" \
   || echo "  WARNING: search terms did not land the last complete week — check the daily analytics Lambda is still writing s3://apievangelist.com-analytics/reports/<date>/search-demand.json"
 
-if git diff --quiet -- _data/search_terms.json; then
+# Google Search Console — how people find apievangelist.com (added 2026-10-20). Uses
+# API EVANGELIST's own OAuth client + token (never the apis.io pair). Each value is read
+# from GitHub/.env one line at a time — sourcing the file echoes secret fragments.
+ENVF="/Users/kinlane/GitHub/.env"
+envv() { grep -E "^$1=" "$ENVF" | head -1 | cut -d= -f2- | tr -d '"'; }
+GSC_SITE="sc-domain:apievangelist.com" GSC_OUT="$REPO/_data/search_console.json" \
+GSC_CLIENT_ID="$(envv API_EVANGELIST_GA_CLIENT_ID)" GSC_CLIENT_SECRET="$(envv API_EVANGELIST_GA_CLIENT_SECRET)" \
+GSC_REFRESH_TOKEN="$(envv GOOGLE_AE_REFRESH_TOKEN)" \
+  "$PY" /Users/kinlane/GitHub/api-search/network/scripts/fetch_search_console.py \
+  || echo "  WARNING: Search Console fetch failed — the 'from Google' section keeps last week's data"
+
+if git diff --quiet -- _data/search_terms.json && git diff --quiet -- _data/search_console.json \
+   && git ls-files --error-unmatch _data/search_console.json >/dev/null 2>&1; then
   echo "No search-terms change — nothing to commit."
   exit 0
 fi
 
-git add _data/search_terms.json
+git add _data/search_terms.json _data/search_console.json
 git commit -q -m "Weekly search-terms refresh ($(date '+%Y-%m-%d'))
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>"
