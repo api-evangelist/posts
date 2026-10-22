@@ -13,7 +13,7 @@ tags:
   - Portability
   - APIs
 ---
-Mike Goerlich at Curity published the third piece in his Security Sovereignty series today, [Who Controls Trust? How Do You Regain It?](https://curity.io/blog/who-controls-trust-how-do-you-regain-it/), and I want to respond to it, partly because he was kind enough to quote me in it and partly because I think it lands on the most important point in the whole conversation about agents.
+Mike Goerlich at [Curity](https://apis.io/providers/curity/) published the third piece in his Security Sovereignty series today, [Who Controls Trust? How Do You Regain It?](https://curity.io/blog/who-controls-trust-how-do-you-regain-it/), and I want to respond to it, partly because he was kind enough to quote me in it and partly because I think it lands on the most important point in the whole conversation about agents.
 
 His argument is that portability is usually understood as moving workloads: containers, replicated databases, infrastructure as code. That's useful, but it is only one layer. You can move an application perfectly and still leave behind the identities it trusts, the authority it grants, the business rules it enforces, and the trust relationships it depends on. At that point a migration problem has become a business continuity problem.
 
